@@ -260,6 +260,13 @@
 <xsl:template match="x:institution">
     <tr><td colspan="2"><xsl:apply-templates/></td></tr>
 </xsl:template>
+<xsl:template match="x:orgName">
+    <xsl:element name="span">
+        <xsl:attribute name="class">orgname</xsl:attribute>
+        <xsl:call-template name="lang"/>
+        <xsl:apply-templates/>
+    </xsl:element>
+</xsl:template>
 
 <xsl:template match="x:idno">
     <tr><th>
