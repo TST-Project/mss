@@ -351,6 +351,9 @@
   <table class="msItem">
     <xsl:apply-templates/>
   </table>
+  <xsl:if test="not(position() = last())">
+    <xsl:element name="hr"/>
+  </xsl:if>
 </xsl:template>
 
 <xsl:template match="x:msItem/x:title[not(@type)]">
