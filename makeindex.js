@@ -30,6 +30,11 @@ const getDate = function(el) {
     return [[notB,notA].join('—'),notB]; 
 };
 
+const getTitles = function(nlist) {
+    const titles = [...nlist].map(el => el.textContent);
+    return titles.join(', ');
+};
+
 const getMaterial = function(el) {
     if(!el) return;
     const m = el.getAttribute('material');
@@ -50,7 +55,7 @@ const readfiles = function(arr) {
             sort: sortno,
             filename: f,
             cote: cote,
-            title: xmlDoc.querySelector('msItem title').textContent,
+            title: getTitles(xmlDoc.querySelectorAll('msItem > title')),
             material: getMaterial(xmlDoc.querySelector('supportDesc')),
             folios: xmlDoc.querySelector('measure[unit="folio"]').getAttribute('quantity'),
             width: getMeasure(xmlDoc.querySelector('dimensions[type="leaf"] width')),
