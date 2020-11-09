@@ -570,13 +570,15 @@
     </td>
   </tr>
   <tr>
-    <th>Dimensions</th> 
+    <th>Dimensions</th>
+    <td>
         <xsl:apply-templates select="x:dimensions"/>
+    </td>
   </tr>
 </xsl:template>
 
 <xsl:template match="x:dimensions">
-    <td><ul>
+    <ul>
         <xsl:choose>
         <xsl:when test="@type">
             <li>
@@ -596,7 +598,6 @@
         </xsl:choose>
     </ul>
     <xsl:apply-templates select="x:note"/>
-    </td>
 </xsl:template>
 
 <xsl:template match="x:note">
