@@ -880,6 +880,10 @@
     </section>
 </xsl:template>
 
+<xsl:template match="x:text/x:body">
+    <xsl:apply-templates/>
+</xsl:template>
+
 <xsl:template match="x:ref">
     <xsl:element name="a">
         <xsl:attribute name="href"><xsl:value-of select="@target"/></xsl:attribute>
