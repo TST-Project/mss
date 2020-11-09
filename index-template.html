@@ -1,0 +1,68 @@
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta charset="utf-8">
+      <title>Texts Surrounding Texts: Tamil Manuscripts</title>
+      <link rel="stylesheet" href="lib/tufte.css">
+      <style type="text/css">
+        table, #index {
+            font-size: 1.4rem;
+            width: 85%;
+        }
+        thead {
+            background-color: #eee;
+            color: #666666;
+            cursor: default;
+        }
+        th {
+            text-align: left;
+        }
+      </style>
+      <script type="text/javascript" src="sorttable.js"></script>
+      <script type="text/javascript">
+        // from https://stackoverflow.com/questions/28711653/sorting-string-function-by-custom-alphabet-javascript
+        function makeComparer(order) {
+          var ap = Array.prototype;
+
+          // mapping from character -> precedence
+          var orderMap = {},
+              max = order.length + 2;
+          ap.forEach.call(order, function(char, idx) {
+            orderMap[char] = idx + 1;
+          });
+
+          function compareChars(l, r) {
+            var lOrder = orderMap[l] || max,
+                rOrder = orderMap[r] || max;
+
+            return lOrder - rOrder;
+          }
+
+          function compareStrings(l, r) {
+            var minLength = Math.min(l.length, r.length);
+            var result = ap.reduce.call(l.substring(0, minLength), function (prev, _, i) {
+                return prev || compareChars(l[i], r[i]);
+            }, 0);
+
+            return result || (l.length - r.length);
+          }
+
+          return compareStrings;
+        }
+        sorttable.sort_alpha = function(a,b) {
+            const comparer = makeComparer('aāiīuūeēoōkgṅcñṭṇtnpbfmyrlvḻḷṟṉjṣśh');
+            return comparer(a[0].toLowerCase(),b[0].toLowerCase());
+        }
+      </script>
+   </head>
+   <body lang="en">
+    <article>
+        <section>
+            <table id="index" class="sortable">
+                <tbody>
+                </tbody>
+            </table>
+        </section>
+    </article>
+   </body>
+</html>
