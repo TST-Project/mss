@@ -21,6 +21,15 @@ const getMeasure = function(el) {
     return `${min}-${max}`;
 };
 
+const getDate = function(el) {
+    if(!el) return;
+    const w = el.getAttribute('when');
+    if(w) return [w,w];
+    const notB = el.getAttribute('notBefore');
+    const notA = el.getAttribute('notAfter');
+    return [[notB,notA].join('—'),notB]; 
+};
+
 const getMaterial = function(el) {
     if(!el) return;
     const m = el.getAttribute('material');
@@ -46,6 +55,7 @@ const readfiles = function(arr) {
             folios: xmlDoc.querySelector('measure[unit="folio"]').getAttribute('quantity'),
             width: getMeasure(xmlDoc.querySelector('dimensions[type="leaf"] width')),
             height: getMeasure(xmlDoc.querySelector('dimensions[type="leaf"] height')),
+            date: getDate(xmlDoc.querySelector('origDate')),
         };
     });
     tab.sort((a,b) => {
@@ -53,9 +63,9 @@ const readfiles = function(arr) {
         else return 1;
     });
     const table = template.querySelector('#index').firstElementChild;
-    var tstr = '<thead><tr id="head"><th class="sorttable_sorted">Shelfmark<span id="sorttable_sortfwdind">&nbsp;&#x25BE;</span></th><th>Title</th><th>Material</th><th>Extent (folios)</th><th>Width (mm)</th><th>Height (mm)</th></tr></thead>';
+    var tstr = '<thead><tr id="head"><th class="sorttable_sorted">Shelfmark<span id="sorttable_sortfwdind">&nbsp;&#x25BE;</span></th><th>Title</th><th>Material</th><th>Extent (folios)</th><th>Width (mm)</th><th>Height (mm)</th><th>Date</th></tr></thead>';
     for(const t of tab) {
-        const trstr = `<tr><th sorttable_customkey="${t.sort}"><a href="${t.filename}">${t.cote}</th><td>${t.title}</td><td>${t.material}</td><td>${t.folios}</td><td>${t.width}</td><td>${t.height}</td></tr>`;
+        const trstr = `<tr><th sorttable_customkey="${t.sort}"><a href="${t.filename}">${t.cote}</th><td>${t.title}</td><td>${t.material}</td><td>${t.folios}</td><td>${t.width}</td><td>${t.height}</td><td sorttable_customkey="${t.date[1]}">${t.date[0]}</td></tr>`;
         tstr = tstr + trstr;
     }
     table.innerHTML = tstr;
