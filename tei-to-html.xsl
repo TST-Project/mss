@@ -247,80 +247,30 @@
 </xsl:template>
 
 <xsl:template match="x:msIdentifier">
-    <ul>
-    <xsl:if test="x:collection">
-        <li>
-            <xsl:apply-templates select="x:collection"/>
-        </li>
-    </xsl:if>
-    <xsl:if test="x:repository">
-        <li>
-            <xsl:apply-templates select="x:repository"/>
-            <xsl:if test="normalize-space(x:repository/@ref) != ''">
-                <xsl:element name="a">
-                    <xsl:attribute name="href">
-                        <xsl:value-of select="x:repository/@ref"/>
-                    </xsl:attribute>
-                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="12px"
-	 height="12px" viewBox="0 0 12 12" style="enable-background:new 0 0 12 12;" xml:space="preserve">
-                        <g id="Icons" style="opacity:0.75;">
-                            <g id="external">
-                                <polygon id="box" style="fill-rule:evenodd;clip-rule:evenodd;" points="2,2 5,2 5,3 3,3 3,9 9,9 9,7 10,7 10,10 2,10 		"/>
-                                <polygon id="arrow_13_" style="fill-rule:evenodd;clip-rule:evenodd;" points="6.211,2 10,2 10,5.789 8.579,4.368 6.447,6.5
-                                    5.5,5.553 7.632,3.421 		"/>
-                            </g>
-                        </g>
-                    </svg>
-                </xsl:element>
-            </xsl:if>
-        </li>
-    </xsl:if>
-    <xsl:if test="x:institution">
-        <li>
-            <xsl:apply-templates select="x:institution"/>
-            <xsl:if test="normalize-space(x:institution/@ref) != ''">
-                <xsl:element name="a">
-                    <xsl:attribute name="href">
-                        <xsl:value-of select="x:institution/@ref"/>
-                    </xsl:attribute>
-                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="12px"
-	 height="12px" viewBox="0 0 12 12" style="enable-background:new 0 0 12 12;" xml:space="preserve">
-                        <g id="Icons" style="opacity:0.75;">
-                            <g id="external">
-                                <polygon id="box" style="fill-rule:evenodd;clip-rule:evenodd;" points="2,2 5,2 5,3 3,3 3,9 9,9 9,7 10,7 10,10 2,10 		"/>
-                                <polygon id="arrow_13_" style="fill-rule:evenodd;clip-rule:evenodd;" points="6.211,2 10,2 10,5.789 8.579,4.368 6.447,6.5
-                                    5.5,5.553 7.632,3.421 		"/>
-                            </g>
-                        </g>
-                    </svg>
-                </xsl:element>
-            </xsl:if>
-        </li>
-    </xsl:if>
-    <xsl:if test=".//x:settlement">
-        <li>
-            <xsl:apply-templates select=".//x:settlement"/>
-            <xsl:if test=".//x:region">
-                <xsl:text>, </xsl:text>
-                <xsl:apply-templates select=".//x:region"/>
-            </xsl:if>
-            <xsl:if test=".//x:country">
-                <xsl:text>, </xsl:text>
-                <xsl:apply-templates select=".//x:country"/>
-            </xsl:if>
-        </li>
-    </xsl:if>
-    <li>
-        <xsl:for-each select="x:idno[position() != last()]">
+    <table id="msidentifier">
+        <xsl:apply-templates select="x:repository"/>
+        <xsl:apply-templates select="x:institution"/>
+        <xsl:apply-templates select="x:idno"/>
+    </table>
+</xsl:template>
+
+<xsl:template match="x:repository">
+    <tr><td colspan="2"><xsl:apply-templates/></td></tr>
+</xsl:template>
+<xsl:template match="x:institution">
+    <tr><td colspan="2"><xsl:apply-templates/></td></tr>
+</xsl:template>
+
+<xsl:template match="x:idno">
+    <tr><th>
+        <xsl:if test="@type">
+            <xsl:value-of select="@type"/>
+        </xsl:if>
+        </th>
+        <td>
             <xsl:apply-templates/>
-            <xsl:if test="@type"><xsl:text> (</xsl:text><xsl:value-of select="@type"/><xsl:text>)</xsl:text></xsl:if>
-            <xsl:text>, </xsl:text>
-        </xsl:for-each>
-        <xsl:apply-templates select="x:idno[last()]" />
-        <xsl:if test="x:idno[last()]/@type"><xsl:text> (</xsl:text><xsl:value-of select="x:idno[last()]/@type"/><xsl:text>)</xsl:text></xsl:if>
-        <xsl:text>.</xsl:text>
-    </li>
-    </ul>
+        </td>
+    </tr>
 </xsl:template>
 
 <xsl:template match="x:fileDesc">
@@ -333,6 +283,7 @@
     <xsl:apply-templates/>
 </xsl:template>
 <xsl:template match="x:msDesc">
+    <xsl:apply-templates select="x:msIdentifier"/>
     <xsl:apply-templates select="x:msContents"/>
     <xsl:apply-templates select="x:physDesc"/>
     <section>
