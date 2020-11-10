@@ -750,10 +750,12 @@
     <ul><li><xsl:apply-templates/></li></ul>
 </xsl:template>
 
-<xsl:template match="x:desc">
-    <xsl:element name="p">
-        <xsl:call-template name="lang"/>
-        <xsl:apply-templates/>
+<xsl:template match="x:handNote/x:desc">
+    <xsl:element name="ul">
+        <xsl:element name="li">
+            <xsl:call-template name="lang"/>
+            <xsl:apply-templates/>
+        </xsl:element>
     </xsl:element>
 </xsl:template>
 
