@@ -307,6 +307,15 @@
 
 <xsl:template match="x:msItem">
   <table class="msItem">
+    <xsl:if test="@n">
+        <xsl:element name="thead">
+            <xsl:element name="tr">
+                <xsl:element name="th">
+                    <xsl:value-of select="@n"/>
+                </xsl:element>
+            </xsl:element>
+        </xsl:element>
+    </xsl:if>
     <xsl:apply-templates/>
   </table>
   <xsl:if test="not(position() = last())">
@@ -451,7 +460,7 @@
           </tr>
       </xsl:if>
       <xsl:apply-templates select="x:objectDesc/x:supportDesc/x:condition"/>
-      <xsl:apply-templates select="x:objectDesc/x:layoutDesc/x:layout"/>
+      <xsl:apply-templates select="x:objectDesc/x:layoutDesc"/>
       <xsl:apply-templates select="x:handDesc"/>
       <xsl:apply-templates select="x:additions"/>
       <xsl:apply-templates select="x:bindingDesc"/>
@@ -614,9 +623,19 @@
     <xsl:text> </xsl:text>
 </xsl:template>
 
+<xsl:template name="n-format">
+        <xsl:if test="@n">
+            <xsl:element name="span">
+                <xsl:attribute name="class">lihead</xsl:attribute>
+                <xsl:value-of select="@n"/>
+            </xsl:element>
+        </xsl:if>
+        <xsl:text>: </xsl:text>
+</xsl:template>
 
 <xsl:template match="x:objectDesc/x:supportDesc/x:foliation">
     <li>
+        <xsl:call-template name="n-format"/>
         <xsl:apply-templates />
     </li>
 </xsl:template>
@@ -627,10 +646,26 @@
     </tr>
 </xsl:template>
 
-<xsl:template match="x:objectDesc/x:layoutDesc/x:layout">
+<xsl:template match="x:objectDesc/x:layoutDesc">
   <tr>
     <th>Layout</th> 
     <td>
+        <ul>
+            <xsl:apply-templates/>
+        </ul>
+    </td>
+  </tr>
+</xsl:template>
+
+<xsl:template match="x:layout">
+    <li>
+      <xsl:if test="@n">
+        <xsl:element name="span">
+            <xsl:attribute name="class">lihead</xsl:attribute>
+            <xsl:value-of select="@n"/>
+            <xsl:text>: </xsl:text>
+        </xsl:element>
+      </xsl:if>
       <xsl:if test="@writtenLines">
         <xsl:value-of select="translate(@writtenLines,' ','-')"/>
         <xsl:text> written lines per page. </xsl:text>
@@ -639,9 +674,8 @@
         <xsl:value-of select="translate(@ruledLines,' ','-')"/>
         <xsl:text> ruled lines per page. </xsl:text>
       </xsl:if>
-    <xsl:apply-templates />
-    </td>
-  </tr>
+      <xsl:apply-templates />
+    </li>
 </xsl:template>
 
 <xsl:template match="x:handDesc">
@@ -687,6 +721,7 @@
 <xsl:template match="x:handNote">
   <xsl:variable name="script" select="@script"/>
   <li>  
+    <xsl:call-template name="n-format"/>
     <xsl:text>(</xsl:text><xsl:value-of select="@scope"/><xsl:text>) </xsl:text>
         <xsl:call-template name="splitlist">    
             <xsl:with-param name="list" select="@script"/>
