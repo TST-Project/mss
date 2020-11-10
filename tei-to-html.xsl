@@ -735,6 +735,9 @@
     <xsl:apply-templates/>
   </li>
 </xsl:template>
+<xsl:template match="x:handNote/x:p">
+    <ul><li><xsl:apply-templates/></li></ul>
+</xsl:template>
 
 <xsl:template match="x:desc">
     <xsl:element name="p">
