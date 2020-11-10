@@ -627,7 +627,10 @@
         <xsl:if test="@n">
             <xsl:element name="span">
                 <xsl:attribute name="class">lihead</xsl:attribute>
-                <xsl:value-of select="@n"/>
+                <xsl:call-template name="splitlist">
+                    <xsl:with-param name="list" select="@n"/>
+                    <xsl:with-param name="nocapitalize">true</xsl:with-param>
+                </xsl:call-template>
             </xsl:element>
         </xsl:if>
         <xsl:text>: </xsl:text>
@@ -689,16 +692,24 @@
 
 <xsl:template name="splitlist">
     <xsl:param name="list"/>
+    <xsl:param name="nocapitalize"/>
     <xsl:param name="mss" select="$list"/>
 
         <xsl:if test="string-length($mss)">
             <xsl:if test="not($mss=$list)">, </xsl:if>
-                 <xsl:variable name="splitted" select="substring-before(
-                                            concat($mss,' '),
-                                          ' ')"/>
-                <xsl:call-template name="capitalize">
-                    <xsl:with-param name="str" select="$splitted"/>
-                </xsl:call-template>
+            <xsl:variable name="splitted" select="substring-before(
+                                        concat($mss,' '),
+                                      ' ')"/>
+            <xsl:choose>
+                <xsl:when test="$nocapitalize = 'true'">
+                    <xsl:value-of select="$splitted"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:call-template name="capitalize">
+                        <xsl:with-param name="str" select="$splitted"/>
+                    </xsl:call-template>
+                </xsl:otherwise>
+            </xsl:choose>
             <xsl:call-template name="splitlist">
                 <xsl:with-param name="mss" select=
                     "substring-after($mss, ' ')"/>
@@ -912,6 +923,8 @@
         <xsl:apply-templates/>
     </xsl:element>
 </xsl:template>
+
+<xsl:template match="x:sourceDoc"/>
 
 <xsl:template match="@*|node()">
     <xsl:copy>
