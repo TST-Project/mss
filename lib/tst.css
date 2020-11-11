@@ -45,6 +45,47 @@
     unicode-range: ~"U+1B00-U+1B7F";
 }
 */
+
+@font-face {
+    font-family: 'Noto Serif Tamil';
+    src: url('noto/NotoSerifTamil-Regular.ttf');
+    unicode-range: ~"U+0B80-U+0BFF";
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Noto Serif Tamil';
+    src: url('noto/NotoSerifTamilSlanted-Regular.ttf');
+    unicode-range: ~"U+0B80-U+0BFF";
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Noto Serif Tamil';
+    src: url('noto/NotoSerifTamilSlanted-Bold.ttf');
+    unicode-range: ~"U+0B80-U+0BFF";
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Noto Serif Tamil';
+    src: url('noto/NotoSerifTamil-Bold.ttf');
+    unicode-range: ~"U+0B80-U+0BFF";
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Serif Tamil';
+    src: url('noto/NotoSansTamilSupplement-Regular.ttf');
+    unicode-range: ~"U+11FC0-U+11FFF";
+}
+@font-face {
+    font-family: 'Noto Serif Grantha';
+    src: url('noto/NotoSerifGrantha-Regular.ttf');
+    unicode-range: ~"U+11300-U+1137F"
+}
+
 .aalt {
     font-feature-settings: "aalt" 1;
 }
@@ -67,6 +108,7 @@ body {
     font-size: 1.5em;
     line-height: 1;
     */
+    font-family: brill, et-book, "Noto Serif Tamil", "Noto Serif Grantha", Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
     hyphens: auto;
     display: flex;
     flex-direction: row-reverse;
@@ -475,6 +517,7 @@ a.locus:hover {
 
 em.title.tamil {
     font-style: normal;
+    line-height: 4rem;
 }
 
 #summary {
