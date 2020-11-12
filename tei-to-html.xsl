@@ -272,7 +272,7 @@
     </xsl:element>
 </xsl:template>
 
-<xsl:template match="x:idno">
+<xsl:template match="x:idno[not(@type='URI')]">
     <tr><th>
         <xsl:if test="@type">
             <xsl:value-of select="@type"/>
@@ -282,6 +282,14 @@
             <xsl:apply-templates/>
         </td>
     </tr>
+</xsl:template>
+<xsl:template match="x:idno[@type='URI']">
+    <tr><td colspan="2">
+        <xsl:element name="a">
+            <xsl:attribute name="href"><xsl:value-of select="."/></xsl:attribute>
+            <xsl:apply-templates/>
+        </xsl:element>
+    </td></tr>
 </xsl:template>
 
 <xsl:template match="x:fileDesc">
