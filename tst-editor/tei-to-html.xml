@@ -17,7 +17,8 @@
                 </xsl:otherwise>
             </xsl:choose>
             <div id="topbar">
-                <div id="transbutton" title="change script">A</div>
+                <form><button id="editbutton">Edit</button></form>
+                <!--div id="transbutton" title="change script">A</div-->
             </div>
             <xsl:element name="article">
                 <xsl:apply-templates/>

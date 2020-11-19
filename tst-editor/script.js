@@ -24,10 +24,16 @@
         bodyClick: function(e) {
             switch(e.target.id) {
             case 'updateheader':
+                e.preventDefault();
                 editor.update();
                 return;
             case 'cancelheader':
+                e.preventDefault();
                 editor.destroy();
+                return;
+            case 'editbutton':
+                e.preventDefault();
+                editor.init();
                 return;
             default:
                 break;
@@ -40,22 +46,24 @@
     };
 
     const file = {
-        parse: function(e) {
+        parse: function(func,e) {
             state.xmlDoc = xml.parseString(e.target.result);
-            file.render(state.xmlDoc);
+            func(state.xmlDoc);
         },
         render: function(xstr) {
+            document.getElementById('headereditor').style.display = 'none';
             const result = xml.XSLTransform(state.xStyle,xstr);
-            const body = document.querySelector('article');
+            const body = document.querySelector('#headerviewer');
             dom.clearEl(body);
             body.appendChild(result.firstElementChild);
+            body.style.display = 'inherit';
         },
         select: function(e) {
             document.getElementById('openform').style.display = 'none';
             const f = e.target.files[0];
             state.filename = f.name;
             const reader = new FileReader();
-            reader.onload = file.parse;
+            reader.onload = file.parse.bind(null,editor.init);
             reader.readAsText(f);
         },
         startnew: function() {
@@ -79,6 +87,7 @@
             par.insertBefore(button.myItem.cloneNode(true),button);
         },
         destroy: function() {
+            file.render(state.xmlDoc);
         },
         fillFormField: function(field,toplevel) {
             const selector = field.dataset.select || field.dataset.multiSelect;
@@ -117,6 +126,7 @@
             }
         },
         init: function() {
+            document.getElementById('headerviewer').style.display = 'none';
             const heditor = document.getElementById('headereditor');
             heditor.style.display = 'flex';
             const fields = heditor.querySelectorAll('[data-select]');
