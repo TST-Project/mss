@@ -1,7 +1,9 @@
 (function() {
     'use strict';
     const state = {
-        filename: null,
+        multiselect: [],
+        cmirror: [],
+        filename: 'new.xml',
         xmlDoc: null,
         xStyle: null,
         xSheet: 'tei-to-html.xml',
@@ -10,7 +12,9 @@
     };
 
     const lf = window.localforage ? window.localforage : null;
-    const Choices = window.Choices ? window.Choices : null;
+    const vanillaSelectBox = window.vanillaSelectBox ? window.vanillaSelectBox : null;
+    const FileSaver = window.FileSaver ? window.FileSaver : null;
+    const CodeMirror = window.CodeMirror ? window.CodeMirror : null;
 
     const init = function() {
         lf.length().then(n => {if(n>0) autosaved.fill();});
@@ -35,12 +39,19 @@
                 e.preventDefault();
                 editor.init();
                 return;
+            case 'saveas':
+                e.preventDefault();
+                file.saveAs();
+                return;
             default:
                 break;
             }
             
             if(e.target.classList.contains('plusbutton')) {
                 editor.addMultiItem(e.target);
+            }
+            else if(e.target.classList.contains('multi-kill')) {
+                editor.killMultiItem(e.target);
             }
         },
     };
@@ -55,9 +66,17 @@
             const result = xml.XSLTransform(state.xStyle,xstr);
             const body = document.querySelector('#headerviewer');
             dom.clearEl(body);
-            body.appendChild(result.firstElementChild);
+            body.appendChild(result.querySelector('.record-fat'));
             body.style.display = 'inherit';
         },
+        saveAs: function() {
+            const s = new XMLSerializer();
+            const serialized = s.serializeToString(state.xmlDoc);
+            const file = new Blob([serialized], {type: 'text/xml;charset=utf-8'});
+            const fileURL = state.filename; 
+            FileSaver(file,fileURL);
+        },
+
         select: function(e) {
             document.getElementById('openform').style.display = 'none';
             const f = e.target.files[0];
@@ -84,7 +103,13 @@
     const editor = {
         addMultiItem: function(button) {
             const par = button.parentNode;
-            par.insertBefore(button.myItem.cloneNode(true),button);
+            const ret = button.myItem.cloneNode(true);
+            par.insertBefore(ret,button);
+            for(const m of ret.querySelectorAll('.multiselect'))
+                editor.makeMultiselect(m);
+            for(const t of ret.querySelectorAll('textarea'))
+                state.cmirror.push(editor.codeMirrorInit(t));
+            return ret;
         },
         destroy: function() {
             file.render(state.xmlDoc);
@@ -125,48 +150,232 @@
                     value;
             }
         },
+        killMultiItem: function(button) {
+            const multiItem = button.closest('.multi-item');
+            if(window.confirm('Do you want to delete this item?'))
+                multiItem.remove();
+        },
+        
+        makeKillButton: function() {
+            const killbutton = dom.makeEl('button');
+            killbutton.type = 'button';
+            killbutton.classList.add('multi-kill');
+            killbutton.appendChild(document.createTextNode('X'));
+            return killbutton;
+        },
+
+        makeMultiselect: function(el) {
+            el.id = 'box' + Math.random().toString(36).substr(2,9);
+            const mbox = new vanillaSelectBox(`#${el.id}`,{placeHolder: 'Choose...',disableSelectAll: true});
+            mbox.setValue(
+                [...el.querySelectorAll('option')].filter(o => o.selected).map(o => o.value)
+            );
+            state.multiselect.push(mbox);
+        },
+
         init: function() {
+
             document.getElementById('headerviewer').style.display = 'none';
+            
             const heditor = document.getElementById('headereditor');
             heditor.style.display = 'flex';
+            
             const fields = heditor.querySelectorAll('[data-select]');
             const toplevel = state.xmlDoc.querySelector(state.toplevel);
+            
             for(const field of fields) {
                 if(field.classList.contains('multiple')) {
+                    
+                    if(!field.hasOwnProperty('myItem')) {
+                        field.myItem = field.removeChild(field.querySelector('.multi-item'));
+                        const killbutton = editor.makeKillButton();
+                        field.myItem.insertBefore(killbutton,field.myItem.firstChild);
+                    }
+                    while(field.firstChild) field.firstChild.remove();
+
                     const els = state.xmlDoc.querySelectorAll(field.dataset.select);
-                    const multiItem = field.removeChild(field.querySelector('.multi-item'));
                     for(const el of els) {
-                        const newitem = multiItem.cloneNode(true);
+                        const newitem = field.myItem.cloneNode(true);
                         const subfields = newitem.querySelectorAll('input,textarea,select');
                         for(const subfield of subfields) 
                             editor.fillFormField(subfield,el);
                         field.appendChild(newitem);
                     }
-                    field.appendChild(dom.makePlusButton(multiItem));
+                    field.appendChild(dom.makePlusButton(field.myItem));
                 }
                 else editor.fillFormField(field,toplevel);
             }
-                
-            for(const m of heditor.querySelectorAll('.multiselect'))
-                new Choices(m);
 
+            for(const m of heditor.querySelectorAll('.multiselect'))
+                editor.makeMultiselect(m);
+            
+            for(const t of heditor.querySelectorAll('textarea'))
+                state.cmirror.push(editor.codeMirrorInit(t));
             heditor.querySelector('#hd_publish_date').value = new Date().getFullYear();
         },
+
         checkInvalid: function(heditor) {
             const allfields = heditor.querySelectorAll('input,select,textarea');
             for(const field of allfields) {
                 if(!field.validity.valid) {
-                    return field.name;
+                    return field;
                 }
             }
         },
+        codeMirrorInit: function(textarea) {
+            const getSchema = function() {
+                const layout = ['pb','lb','space']; // no divs anymore
+                const emendations = ['add','del','subst'];
+                const difficult = ['unclear','damage'];
+                const descriptive = ['term','note','persName','orgName'];
+                const tags = {
+                    '!top': [...layout, ...emendations, ...difficult, ...descriptive],
+                    '!attrs': {
+                    },
+
+                    // Text division & Page layout
+                    pb: {
+                        attrs: {
+                            n: null,
+                            facs: null,
+                            '/': null,
+                        }
+                    },
+                    lb: {
+                        attrs: {
+                            n: null,
+                            '/': null,
+                        }
+                    },
+                    space: {
+                        attrs: {
+                            quantity: null,
+                            rend: ['overline','dash'],
+                            '/': null,
+                        }
+                    },
+
+                    // Text emendations
+
+                    add: {
+                        attrs: {
+                            rend: ['caret','above','below'],
+                            place: ['above','below','left','right','top','bottom','margin'],
+                        },
+                        children: [...emendations, ...difficult],
+                    },
+                    del: {
+                        attrs: {
+                            rend: ['overstrike','understrike','strikethrough','scribble'],
+                        },
+                        children: [...emendations, ...difficult],
+                    },
+                    subst: {
+                        attrs: {
+                            type: ['transpose'],
+                        },
+                        children: ['add','del'],
+                    },
+
+                    // Difficult or missing text
+                    unclear: {
+                        attrs: {
+                            reason: ['blemish','rubbed','messy'],
+                        }
+                    },
+                    damage: {
+                        attrs: {
+                            reason: ['torn','hole'],
+                            quantity: null,
+                        },
+                    },
+
+                    // descriptive
+                    term: {
+                        attrs: {
+                            'xml:lang': ['tam','tam-Taml','eng','fra','por','pal','san'],
+                        },
+                    },
+                    note: {
+                        attrs: {
+                            'xml:lang': ['tam','tam-Taml','eng','fra','por','pal','san'],
+                        },
+                    },
+                    persName: {
+                        attrs: {
+                            'xml:id': [],
+                        },
+                    },
+                    orgName: {
+                        attrs: {
+                            'xml:id': [],
+                        },
+                    },
+                };
+                return tags;
+            };
+
+            const completeAfter = function(cm, pred) {
+                //var cur = cm.getCursor();
+                if (!pred || pred()) setTimeout(function() {
+                    if (!cm.state.completionActive)
+                        cm.showHint({completeSingle: false});
+                }, 100);
+                return CodeMirror.Pass;
+            };
+
+            const completeIfAfterLt = function(cm) {
+                return completeAfter(cm, function() {
+                    var cur = cm.getCursor();
+                    return cm.getRange(CodeMirror.Pos(cur.line, cur.ch - 1), cur) == '<';
+                });
+            };
+
+            const completeIfInTag = function(cm) {
+                return completeAfter(cm, function() {
+                    var tok = cm.getTokenAt(cm.getCursor());
+                    if (tok.type === 'string' && (!/['"]/.test(tok.string.charAt(tok.string.length - 1)) || tok.string.length == 1)) return false;
+                    var inner = CodeMirror.innerMode(cm.getMode(), tok.state).state;
+                    return inner.tagName;
+                });
+            };
+
+            const cm = CodeMirror.fromTextArea(textarea, {
+                mode: 'xml',
+                lineNumbers: false,
+                extraKeys: {
+                    '\'<\'': completeAfter,
+                    '\'/\'': completeIfAfterLt,
+                    '\' \'': completeIfInTag,
+                    '\'=\'': completeIfInTag,
+                    'Ctrl-Space': 'autocomplete'
+                },
+                hintOptions: {schemaInfo: getSchema()},
+                lint: true,
+                gutters: ['CodeMirror-lint-markers'],
+                lineWrapping: true,
+            });
+            return cm;
+        },
+        
         update: function() {
             const heditor = document.getElementById('headereditor');
             const invalid = editor.checkInvalid(heditor);
             if(invalid) {
-                alert(`Missing ${invalid}`);
+                invalid.scrollIntoView({behavior: 'smooth', block: 'center'});
+                alert(`Missing ${invalid.name}`);
                 return;
             }
+            const test = heditor.querySelector('.CodeMirror-lint-marker-error');
+            if(test) {
+                test.scrollIntoView({behavior: 'smooth', block: 'center'});
+                alert('XML error');
+                return;
+            }
+            
+            while(state.multiselect.length > 0) state.multiselect.pop().destroy();
+            while(state.cmirror.length > 0) state.cmirror.pop().toTextArea();
+
             const fields = heditor.querySelectorAll('[data-select]');
             const toplevel = state.xmlDoc.querySelector(state.toplevel);
             for(const field of fields) {
@@ -182,7 +391,22 @@
                 }
                 else editor.updateXMLField(field,toplevel);
             }
+
+            editor.postProcess(toplevel);
             file.render(state.xmlDoc);
+        },
+        postProcess: function(toplevel) {
+            //update editionStmt
+            const par = toplevel || state.xmlDoc;
+            const editionStmt = par.querySelector('fileDesc > editionStmt > p');
+            const persName = editionStmt.removeChild(editionStmt.querySelector('persName'));
+            const orgName = editionStmt.removeChild(editionStmt.querySelector('orgName'));
+            while(editionStmt.firstChild) editionStmt.firstChild.remove();
+            editionStmt.appendChild(state.xmlDoc.createTextNode('Record edited by '));
+            editionStmt.appendChild(persName);
+            editionStmt.appendChild(state.xmlDoc.createTextNode(' '));
+            editionStmt.appendChild(orgName);
+            editionStmt.appendChild(state.xmlDoc.createTextNode('.'));
         },
         updateXMLField: function(field,toplevel) {
             let value = field.type === 'text' ? 
@@ -209,8 +433,8 @@
             if(!xmlEl) xmlEl = xml.makeElDeep(selector,toplevel);
             if(field.multiple) {
                 const selected = [];
-                for(const opt of field.querySelectorAll('option[selected]'))
-                    selected.push(opt.value);
+                for(const opt of field.querySelectorAll('option'))
+                    if(opt.selected) selected.push(opt.value);
                 value = selected.join(' ');
             }
 
@@ -244,7 +468,8 @@
         },
     
         clearEl: function(path,toplevel) {
-            const el = toplevel.querySelector(path);
+            const par = toplevel || state.xmlDoc;
+            const el = par.querySelector(path);
             if(el) el.remove();
         },
         clearAllEls: function(path,toplevel) {
@@ -335,10 +560,18 @@
         },
         makePlusButton: function(el) {
             const button = dom.makeEl('div');
+            const emptyel = el.cloneNode(true);
+            for(const i of emptyel.querySelectorAll('input,textarea')) {
+                i.value = '';
+            }
+            for(const o of emptyel.querySelectorAll('option')) {
+                o.selected = false;
+            }
+
             button.classList.add('plusbutton');
             button.appendChild(document.createTextNode('+'));
             button.title = 'Add new section';
-            button.myItem = el;
+            button.myItem = emptyel;
             return button;
         },
     };

@@ -1,6 +1,7 @@
 const fs = require('fs');
 const jsdom = require('jsdom');
 
+var xmlDoc;
 fs.readdir('./',function(err,files) {
     if(err)
         return console.log(err);
@@ -35,6 +36,16 @@ const getTitles = function(nlist) {
     return titles.join(', ');
 };
 
+/*
+const textWalk = function(el) {
+    const walker = xmlDoc.createTreeWalker(el,4);
+    const txtlist = [];
+    while(walker.nextNode()) txtlist.push(walker.currentNode.data);
+    console.log(txtlist.join(''));
+    return txtlist.join('');
+};
+*/
+
 const getMaterial = function(el) {
     if(!el) return;
     const m = el.getAttribute('material');
@@ -48,7 +59,7 @@ const readfiles = function(arr) {
     const tab = arr.map((f) => 
     {
         const str = fs.readFileSync(f,{encoding:'utf-8'});
-        const xmlDoc = new jsdom.JSDOM(str).window.document;
+        xmlDoc = new jsdom.JSDOM(str).window.document;
         const cote = xmlDoc.querySelector('idno[type="cote"]').textContent;
         const sortno = parseInt(cote.replace(/\D+/g,''));
         return {
