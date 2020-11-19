@@ -221,7 +221,10 @@
 </xsl:template>
 
 <xsl:template match="x:editionStmt">
-    <xsl:apply-templates/>
+    <xsl:element name="div">
+        <xsl:attribute name="class">editionStmt</xsl:attribute>
+        <xsl:apply-templates/>
+    </xsl:element>
 </xsl:template>
 
 <xsl:template match="x:title">
@@ -335,6 +338,7 @@
   </xsl:if>
 </xsl:template>
 
+
 <xsl:template match="x:msItem/x:title[not(@type)]">
     <tr>
       <th>Title</th>
@@ -373,12 +377,33 @@
     </xsl:element>
   </tr>
 </xsl:template>
-<xsl:template match="x:msItem/x:textLang">
-  <tr>
-    <th>Language</th> 
-    <td><xsl:apply-templates/>
-    </td>
-  </tr>
+
+<my:langs>
+    <my:entry key="eng">English</my:entry>
+    <my:entry key="fra">French</my:entry>
+    <my:entry key="pal">Pali</my:entry>
+    <my:entry key="por">Portuguese</my:entry>
+    <my:entry key="pra">Prakrit</my:entry>
+    <my:entry key="san">Sanskrit</my:entry>
+    <my:entry key="tam">Tamil</my:entry>
+</my:langs>
+<xsl:template match="x:textLang">
+    <tr>
+        <th>Language</th>
+        <xsl:element name="td">
+            <xsl:variable name="mainLang" select="@mainLang"/>
+            <xsl:value-of select="document('')/*/my:langs/my:entry[@key=$mainLang]"/>
+            <xsl:if test="@otherLangs">
+                <xsl:text> (</xsl:text>
+                <xsl:call-template name="splitlist">
+                    <xsl:with-param name="list" select="@otherLangs"/>
+                    <xsl:with-param name="nocapitalize">true</xsl:with-param>
+                    <xsl:with-param name="map">my:langs</xsl:with-param>
+                </xsl:call-template>
+                <xsl:text>)</xsl:text>
+            </xsl:if>
+        </xsl:element>
+    </tr>
 </xsl:template>
 
 <xsl:template match="x:rubric">
@@ -478,10 +503,6 @@
       <xsl:apply-templates select="x:bindingDesc"/>
       </table>
   </section>
-</xsl:template>
-
-<xsl:template match="x:textLang">
-    <xsl:apply-templates/>
 </xsl:template>
 
 <xsl:template match="x:scriptDesc">
@@ -701,32 +722,48 @@
       </ul></td>
     </tr>
 </xsl:template>
-
 <xsl:template name="splitlist">
     <xsl:param name="list"/>
     <xsl:param name="nocapitalize"/>
     <xsl:param name="mss" select="$list"/>
+    <xsl:param name="map"/>
 
-        <xsl:if test="string-length($mss)">
-            <xsl:if test="not($mss=$list)">, </xsl:if>
-            <xsl:variable name="splitted" select="substring-before(
-                                        concat($mss,' '),
-                                      ' ')"/>
+    <xsl:if test="string-length($mss)">
+        <xsl:if test="not($mss=$list)">, </xsl:if>
+        <xsl:variable name="splitted" select="substring-before(
+                                    concat($mss,' '),
+                                  ' ')"/>
+        <xsl:variable name="liststr">
             <xsl:choose>
-                <xsl:when test="$nocapitalize = 'true'">
-                    <xsl:value-of select="$splitted"/>
-                </xsl:when>
+                <xsl:when test="$map">
+                    <xsl:variable name="test" select="document('')/*/*[name() = $map]/my:entry[@key=$splitted]"/>
+                    <xsl:choose>
+                        <xsl:when test="$test"> <xsl:value-of select="$test"/> </xsl:when>
+                        <xsl:otherwise> <xsl:value-of select="$splitted"/> </xsl:otherwise>
+                    </xsl:choose>
+               </xsl:when>
                 <xsl:otherwise>
-                    <xsl:call-template name="capitalize">
-                        <xsl:with-param name="str" select="$splitted"/>
-                    </xsl:call-template>
+                <xsl:value-of select="$splitted"/>
                 </xsl:otherwise>
             </xsl:choose>
-            <xsl:call-template name="splitlist">
-                <xsl:with-param name="mss" select=
-                    "substring-after($mss, ' ')"/>
-            </xsl:call-template>
-        </xsl:if>
+        </xsl:variable>
+        <xsl:choose>
+            <xsl:when test="$nocapitalize = 'true'">
+                <xsl:value-of select="$liststr"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:call-template name="capitalize">
+                    <xsl:with-param name="str" select="$liststr"/>
+                </xsl:call-template>
+            </xsl:otherwise>
+        </xsl:choose>
+        <xsl:call-template name="splitlist">
+            <xsl:with-param name="mss" select=
+                "substring-after($mss, ' ')"/>
+            <xsl:with-param name="nocapitalize" select="$nocapitalize"/>
+            <xsl:with-param name="map" select="$map"/>
+        </xsl:call-template>
+    </xsl:if>
 </xsl:template>
 
 <xsl:template name="capitalize">
