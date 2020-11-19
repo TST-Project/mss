@@ -528,7 +528,9 @@ span.heading {
     display: block;
     border: 1px solid #eee;
 }
-
+.CodeMirror-empty { outline: 1px solid #c22; }
+.CodeMirror-empty.CodeMirror-focused { outline: none; }
+.CodeMirror pre.CodeMirror-placeholder { color: #999; }
 /*
 .quillhidden {
     display: none;
