@@ -4,8 +4,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 75vh;
-    width: 85%;
+    height: 80vh;
+    width: 100%;
 }
 
 #openform > div {
@@ -55,12 +55,27 @@
 
 /* styles after file has been loaded */
 
+h2.warning {
+    background: red;
+    color: white;
+    text-align: center;
+    width: 55%;
+}
+
 hr {
     border-color: grey;
 }
 
 #headeredit {
     margin-top: 1em;
+}
+
+#headerviewer {
+    display: none;
+}
+
+.vsb-main button:hover {
+    color: black;
 }
 
 .editbutton {
@@ -113,17 +128,10 @@ button:hover {
     color: white;
 }
 
-.CodeMirror { 
-    border: 1px solid #eee;
-}
 
 .wider_editor {
     margin-left: -80px;
     margin-right: -80px;
-}
-
-.CodeMirror {
-    height: 500px;
 }
 
 #topbuttons {
@@ -275,7 +283,15 @@ span.gap {
     font-size: 1.2rem;
 }
 
-#headereditor > div {
+#headereditor section {
+    width: 65%;
+}
+
+#topbar {
+    position: relative;
+}
+
+#headereditor section > div {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -324,11 +340,16 @@ span.gap {
     flex-direction: column;
 }
 
-.multiple div:not(.choices__list--dropdown) {
+.multi-item {
     align-items: center;
     flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
+}
+
+.multi-kill {
+    margin: 0 !important;
+    align-self: flex-end;
 }
 
 .multi-item {
@@ -407,7 +428,7 @@ select {
     max-width: 120px;
 }
 
-#headereditor div :not(:last-child):not(div) {
+#headereditor div :not(:last-child):not(div):not(span) {
     margin-right: 1em;
 }
 
@@ -501,6 +522,13 @@ textarea.big {
 span.heading {
     font-weight: bold;
 }
+
+.CodeMirror {
+    flex-grow: 1;
+    display: block;
+    border: 1px solid #eee;
+}
+
 /*
 .quillhidden {
     display: none;
@@ -518,4 +546,5 @@ span.heading {
     height: auto;
     min-height: 85%;
 }
-*/
+*
+/
