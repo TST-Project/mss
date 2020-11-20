@@ -91,6 +91,7 @@
             state.xmlDoc = file.syncLoad(state.template);
             //file.render(state.xmlDoc);
             editor.init();
+            editor.hideEmpty();
         },
         syncLoad: function(fname) {
             const xhr = new XMLHttpRequest();
@@ -150,6 +151,19 @@
                     value;
             }
         },
+
+        hideEmpty: function() {
+            const heditor = document.getElementById('headereditor');
+            const list = [...heditor.querySelectorAll('.multi-item')];
+            const removelist = list.filter(m => {
+                for(const f of m.querySelectorAll('input,select,textarea')) {
+                    if(f.required) return false;
+                }
+                return true;
+            });
+            for(const r of removelist) r.remove();
+        },
+
         killMultiItem: function(button) {
             const multiItem = button.closest('.multi-item');
             if(window.confirm('Do you want to delete this item?'))

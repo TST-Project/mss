@@ -299,6 +299,10 @@ span.gap {
     margin-right: 1em;
 }
 
+#headereditor section > div .CodeMirror *, #headereditor .multi-item > div .CodeMirror * {
+    margin-right: 0;
+}
+
 #headereditor .multi-item > div {
     margin-right: 1em;
 }
@@ -454,11 +458,7 @@ select {
     cursor: pointer; 
 }
 
-#headereditor input:invalid {
-    border: 1px dashed red;
-}
-
-#headereditor textarea:invalid {
+#headereditor input:invalid, select:invalid, textarea:invalid {
     border: 1px dashed red;
 }
 
