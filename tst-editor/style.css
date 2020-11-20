@@ -74,6 +74,10 @@ hr {
     display: none;
 }
 
+.vsb-main {
+    margin-right: 0.7rem;
+}
+
 .vsb-main button:hover {
     color: black;
 }
@@ -291,11 +295,28 @@ span.gap {
     position: relative;
 }
 
+#headereditor section > div :not(:last-child) {
+    margin-right: 1em;
+}
+
+#headereditor .multi-item > div {
+    margin-right: 1em;
+}
+
 #headereditor section > div {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 2rem;
+}
+
+#headereditor .multi-item > div:not(.multi-kill) {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1rem;
+    width: 100%;
 }
 
 #headereditor label {
@@ -340,29 +361,21 @@ span.gap {
     flex-direction: column;
 }
 
-.multi-item {
-    align-items: center;
-    flex-wrap: wrap;
-    display: flex;
-    justify-content: space-between;
-}
-
 .multi-kill {
-    margin: 0 !important;
+    margin: 0 1em 1em 0;
     align-self: flex-end;
 }
 
 .multi-item {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
     flex-grow: 1;
     width: 100%;
     outline: 0.1rem solid #ff9900;
     padding: 0.5rem;
-}
-
-.multi-item > div {
-    width: 100%;
 }
 
 .multiple div.plusbutton {
@@ -372,10 +385,13 @@ span.gap {
     background: #ddd;
     border: 0.1rem solid #ddd;
     padding: 0 0.5rem 0 0.5rem;
+    margin-right: 1em;
+    margin-right: 1em;
 }
 
 .multiple div.plusbutton:hover {
     background: #ff9900;
+    border: 0.1rem solid #ff9900;
 }
 
 /*
@@ -426,10 +442,6 @@ select {
 
 #headereditor select.lang {
     max-width: 120px;
-}
-
-#headereditor div :not(:last-child):not(div):not(span) {
-    margin-right: 1em;
 }
 
 #headereditor #hd_date {
@@ -526,9 +538,9 @@ span.heading {
 .CodeMirror {
     flex-grow: 1;
     display: block;
-    border: 1px solid #eee;
+    border: 1px solid #ddd;
 }
-.CodeMirror-empty { outline: 1px solid #c22; }
+.CodeMirror-empty { /*outline: 1px solid #c22;*/ }
 .CodeMirror-empty.CodeMirror-focused { outline: none; }
 .CodeMirror pre.CodeMirror-placeholder { color: #999; }
 /*

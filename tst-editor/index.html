@@ -114,19 +114,51 @@
         <input type="text" rows="2" id="hd_extent" name="hd_extent" data-select="fileDesc > sourceDesc > msDesc > physDesc > objectDesc > supportDesc > extent > measure" placeholder="X guard folios, XX numbered folios, X blank folios">
     </div>
     <div>
-        <label for="hd_support_width">Width (mm)</label>
-        <input type="number" step="any" id="hd_support_width" name="width" data-select="fileDesc > sourceDesc > msDesc > physDesc > objectDesc > supportDesc > extent > dimensions[type='leaf'] > width" data-attr="quantity" required>
-        <label for="hd_support_height">Height (mm)</label>
-        <input type="number" step="any" id="hd_support_height" name="height" data-select="fileDesc > sourceDesc > msDesc > physDesc > objectDesc > supportDesc > extent > dimensions[type='leaf'] > height" data-attr="quantity" required>
-        <label for="hd_support_depth">Depth (mm)</label>
-        <input type="number" step="any" id="hd_support_depth" name="depth" data-select="fileDesc > sourceDesc > msDesc > physDesc > objectDesc > supportDesc > extent > dimensions[type='leaf'] > depth" data-attr="quantity">
+        <label>Leaf size</label>
+        <div>
+            <label for="hd_support_width">Width</label>
+            <input type="number" step="any" id="hd_support_width" name="width" data-select="fileDesc > sourceDesc > msDesc > physDesc > objectDesc > supportDesc > extent > dimensions[type='leaf'] > width" data-attr="quantity" required>
+            <span>mm</span>
+        </div>
+        <div>
+            <label for="hd_support_height">Height</label>
+            <input type="number" step="any" id="hd_support_height" name="height" data-select="fileDesc > sourceDesc > msDesc > physDesc > objectDesc > supportDesc > extent > dimensions[type='leaf'] > height" data-attr="quantity" required>
+            <span>mm</span>
+        </div>
+        <div>
+            <label for="hd_support_depth">Depth</label>
+            <input type="number" step="any" id="hd_support_depth" name="depth" data-select="fileDesc > sourceDesc > msDesc > physDesc > objectDesc > supportDesc > extent > dimensions[type='leaf'] > depth" data-attr="quantity">
+            <span>mm</span>
+        </div>
     </div>
     <div>
         <span>Written area</span>
-        <label for="hd_support_width">Width (mm)</label>
-        <input type="number" step="any" id="hd_support_width" name="width" data-select="fileDesc > sourceDesc > msDesc > physDesc > objectDesc > supportDesc > extent > dimensions[type='written'] > width" data-attr="quantity">
-        <label for="hd_support_height">Height (mm)</label>
-        <input type="number" step="any" id="hd_support_height" name="height" data-select="fileDesc > sourceDesc > msDesc > physDesc > objectDesc > supportDesc > extent > dimensions[type='written'] > height" data-attr="quantity">
+        <div>
+            <label for="hd_support_width">Width</label>
+            <input type="number" step="any" id="hd_support_width" name="width" data-select="fileDesc > sourceDesc > msDesc > physDesc > objectDesc > supportDesc > extent > dimensions[type='written'] > width" data-attr="quantity">
+            <span>mm</span>
+        </div>
+        <div>
+            <label for="hd_support_height">Height</label>
+            <input type="number" step="any" id="hd_support_height" name="height" data-select="fileDesc > sourceDesc > msDesc > physDesc > objectDesc > supportDesc > extent > dimensions[type='written'] > height" data-attr="quantity">
+            <span>mm</span>
+        </div>
+    </div>
+    <div>
+        <label for="hd_columns">Columns</label>
+        <input type="number" step="1" min="1" id="hd_columns" name="columns" data-select="fileDesc > sourceDesc > msDesc > physDesc > objectDesc > layoutDesc > layout" data-attr="columns" placeholder="1">
+        <label for="hd_writtenLines">Lines per page (written)</label>
+        <input type="text" id="hd_writtenLines" name="writtenLines" data-select="fileDesc > sourceDesc > msDesc > physDesc > objectDesc > layoutDesc > layout" data-attr="writtenLines" placeholder="XX or XX XX" pattern="\d+\s*\d*" size="8"> 
+        <label for="hd_ruledLines">Lines per page (ruled)</label>
+        <input type="text" id="hd_ruledLines" name="ruledLines" data-select="fileDesc > sourceDesc > msDesc > physDesc > objectDesc > layoutDesc > layout" data-attr="ruledLines" placeholder="XX or XX XX" pattern="\d+\s*\d*" size="8"> 
+    </div>
+    <div>
+        <label for="hd_condition">Condition</label>
+        <textarea rows="2" id="hd_condition" name="condition" data-select="fileDesc > sourceDesc > msDesc > physDesc > objectDesc > supportDesc > condition" placeholder="Very good state of preservation, in spite of bore holes caused by insects."></textarea>
+    </div>
+    <div>
+        <label for="hd_binding">Binding</label>
+        <textarea rows="2" id="hd_binding" name="binding" data-select="fileDesc > sourceDesc > msDesc > physDesc > bindingDesc > binding > p" placeholder="Description of binding, cover, etc."></textarea>
     </div>
     <h4>Foliation</h4>
     <div class="multiple" data-select="fileDesc > sourceDesc > msDesc > physDesc > objectDesc > supportDesc > foliation">
@@ -140,22 +172,10 @@
             </div>
         </div>
     </div>
-    <div>
-        <label for="hd_condition">Condition</label>
-        <textarea rows="2" id="hd_condition" name="condition" data-select="fileDesc > sourceDesc > msDesc > physDesc > objectDesc > supportDesc > condition" placeholder="Very good state of preservation, in spite of bore holes caused by insects."></textarea>
-    </div>
     <!--div>
         <label for="hd_script">Script</label>
         <textarea rows="2" id="hd_script" name="script" data-select="did > physdesc > physfacet[type='écriture']" placeholder="Tamil script, northern Devanāgarī, Bengali, etc."></textarea>
     </div-->
-    <div>
-        <label for="hd_columns">Columns</label>
-        <input type="number" step="1" min="1" id="hd_columns" name="columns" data-select="fileDesc > sourceDesc > msDesc > physDesc > objectDesc > layoutDesc > layout" data-attr="columns" placeholder="1">
-        <label for="hd_writtenLines">Lines per page (written)</label>
-        <input type="text" id="hd_writtenLines" name="writtenLines" data-select="fileDesc > sourceDesc > msDesc > physDesc > objectDesc > layoutDesc > layout" data-attr="writtenLines" placeholder="XX or XX XX" pattern="\d+\s*\d*" size="8"> 
-        <label for="hd_ruledLines">Lines per page (ruled)</label>
-        <input type="text" id="hd_ruledLines" name="ruledLines" data-select="fileDesc > sourceDesc > msDesc > physDesc > objectDesc > layoutDesc > layout" data-attr="ruledLines" placeholder="XX or XX XX" pattern="\d+\s*\d*" size="8"> 
-    </div>
     <h4>Scribal hand</h4>
     <div class="multiple" data-select="fileDesc > sourceDesc > msDesc > physDesc > handDesc > handNote">
         <div class="multi-item">
@@ -193,17 +213,13 @@
             </div>
         </div>
     </div>
-    <div>
-        <label for="hd_binding">Binding</label>
-        <textarea rows="2" id="hd_binding" name="binding" data-select="fileDesc > sourceDesc > msDesc > physDesc > bindingDesc > binding > p" placeholder="Description of binding, cover, etc."></textarea>
-    </div>
     <h3>Contents</h3>
     <div class="multiple" data-select="fileDesc > sourceDesc > msDesc > msContents > msItem">
         <div class="multi-item">
             <div>
                 <label for="hd_msItem_n">Codicological unit</label>
                 <input type="text" data-multi-attr="n" placeholder="U1">
-                <select data-multi-attr="defective">
+                <select data-multi-attr="defective" required>
                     <option value="false">Complete</option>
                     <option value="true">Incomplete</option>
                 </select>
