@@ -16,8 +16,13 @@
     padding: 1em;
 }
 
-#openform div * {
+#openform div :not(.autosaved) {
     margin-bottom: 1em;
+}
+
+.autosaved {
+    height: 2rem;
+    font-size: 1.2rem;
 }
 
 #newfile {

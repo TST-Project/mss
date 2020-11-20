@@ -22,17 +22,19 @@
 <script src="lib/codemirror/addon/lint/xml-lint.js"></script>
 <script src="lib/codemirror/mode/xml/xml.js"></script>
 <script src="lib/codemirror/addon/display/placeholder.js"></script>
+<!--script src="lib/quill/quill.min.js"></script-->
 
 <script src="lib/vanillaSelectBox.js"></script>
-<script src="lib/localforage.min.js"></script>
 
 <script src="../lib/hypher-nojquery.js"></script>
 <script src="../lib/sa.js"></script>
 <script src="../lib/ta.js"></script>
-
 <script src="../lib/sanscript.js"></script>
-<!--script src="lib/quill/quill.min.js"></script-->
+
+<script src="lib/localforage.min.js"></script>
 <script src="lib/FileSaver.min.js"></script>
+
+<script src="lib/he.js"></script>
 
 <script src="script.js"></script>
 </head>
@@ -181,7 +183,7 @@
                 <input type="text"name="foliation_n" data-multi-attr="n" placeholder="U1">
             </div>
             <div>
-            <textarea rows="2" placeholder="E.g., Tamil letter-numerals, left margin."></textarea>
+            <textarea rows="2" data-multi-select=":scope" placeholder="E.g., Tamil letter-numerals, left margin."></textarea>
             </div>
         </div>
     </div>
@@ -223,7 +225,7 @@
     <div class="multiple" data-select="fileDesc > sourceDesc > msDesc > physDesc > additions > p">
         <div class="multi-item">
             <div>
-                <textarea rows="2" class="big" placeholder="Marginalia, running titles, satellite stanzas, etc."></textarea>
+                <textarea rows="2" class="big" data-multi-select=":scope" placeholder="Marginalia, running titles, satellite stanzas, etc."></textarea>
             </div>
         </div>
     </div>
@@ -311,7 +313,7 @@
     <div class="multiple" data-select="fileDesc > sourceDesc > msDesc > additional > listBibl > bibl">
         <div class="multi-item">
             <div>
-                <textarea rows="3" id="hd_bibliography" name="bibliography"></textarea>
+                <textarea rows="3" id="hd_bibliography" data-multi-select=":scope" name="bibliography"></textarea>
             </div>
         </div>
     </div>
@@ -319,7 +321,7 @@
     <div class="multiple" data-select="encodingDesc > p">
         <div class="multi-item">
             <div>
-            <textarea rows="5" id="hd_encoding" name="encoding" placeholder="Transcription conventions, abbreviations, etc." required></textarea>
+            <textarea rows="5" id="hd_encoding" name="encoding" data-multi-select=":scope" placeholder="Transcription conventions, abbreviations, etc." required></textarea>
             </div>
         </div>
     </div>
@@ -328,7 +330,7 @@
         <div class="multi-item">
             <div>
                 <input type="month" step="any" id="hd_change_when" data-multi-attr="when" size="8" placeholder="year-month">
-                <textarea rows="2" id="hd_change" name="change" placeholder="summary of changes"></textarea>
+                <textarea rows="2" id="hd_change" name="change" data-multi-select=":scope" placeholder="summary of changes"></textarea>
             </div>
         </div>
     </div>
