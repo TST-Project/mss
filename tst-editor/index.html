@@ -114,6 +114,24 @@
         <input type="text" rows="2" id="hd_extent" name="hd_extent" data-select="fileDesc > sourceDesc > msDesc > physDesc > objectDesc > supportDesc > extent > measure" placeholder="X guard folios, XX numbered folios, X blank folios">
     </div>
     <div>
+        <label>Overall size</label>
+        <div>
+            <label for="hd_support_width">Width</label>
+            <input type="number" step="any" id="hd_support_width" name="width" data-select="fileDesc > sourceDesc > msDesc > physDesc > objectDesc > supportDesc > extent > dimensions[type='leaf'] > width" data-attr="quantity">
+            <span>mm</span>
+        </div>
+        <div>
+            <label for="hd_support_height">Height</label>
+            <input type="number" step="any" id="hd_support_height" name="height" data-select="fileDesc > sourceDesc > msDesc > physDesc > objectDesc > supportDesc > extent > dimensions[type='leaf'] > height" data-attr="quantity">
+            <span>mm</span>
+        </div>
+        <div>
+            <label for="hd_support_depth">Depth</label>
+            <input type="number" step="any" id="hd_support_depth" name="depth" data-select="fileDesc > sourceDesc > msDesc > physDesc > objectDesc > supportDesc > extent > dimensions[type='leaf'] > depth" data-attr="quantity">
+            <span>mm</span>
+        </div>
+    </div>
+    <div>
         <label>Leaf size</label>
         <div>
             <label for="hd_support_width">Width</label>
@@ -123,11 +141,6 @@
         <div>
             <label for="hd_support_height">Height</label>
             <input type="number" step="any" id="hd_support_height" name="height" data-select="fileDesc > sourceDesc > msDesc > physDesc > objectDesc > supportDesc > extent > dimensions[type='leaf'] > height" data-attr="quantity" required>
-            <span>mm</span>
-        </div>
-        <div>
-            <label for="hd_support_depth">Depth</label>
-            <input type="number" step="any" id="hd_support_depth" name="depth" data-select="fileDesc > sourceDesc > msDesc > physDesc > objectDesc > supportDesc > extent > dimensions[type='leaf'] > depth" data-attr="quantity">
             <span>mm</span>
         </div>
     </div>
@@ -160,11 +173,11 @@
         <label for="hd_binding">Binding</label>
         <textarea rows="2" id="hd_binding" name="binding" data-select="fileDesc > sourceDesc > msDesc > physDesc > bindingDesc > binding > p" placeholder="Description of binding, cover, etc."></textarea>
     </div>
-    <h4>Foliation</h4>
+    <h4>Foliation (Codicological units)</h4>
     <div class="multiple" data-select="fileDesc > sourceDesc > msDesc > physDesc > objectDesc > supportDesc > foliation">
         <div class="multi-item">
             <div>
-                <label for="hd_foliation_n">Codicological unit</label>
+                <label for="hd_foliation_n">Unit name</label>
                 <input type="text" data-multi-attr="n" placeholder="U1">
             </div>
             <div>
@@ -183,7 +196,7 @@
                 <label for="hd_handNote_n">Codicological unit(s)</label>
                 <input type="text" data-multi-attr="n" placeholder="U1 U2">
                 <label for="hd_handNote_scope">Scope</label>
-                <select type="text" data-multi-attr="scope" required> 
+                <select type="text" data-multi-attr="scope"> 
                     <option value="sole">sole</option>
                     <option value="major">major</option>
                     <option value="minor">minor</option>
@@ -226,7 +239,7 @@
             </div>
             <div>
                 <label for="hd_msItem_title">Title</label>
-                <input type="text" data-multi-select="title" placeholder="title of text">
+                <input type="text" data-multi-select="title" placeholder="title of text" required>
             </div>
             <div>
                 <label for="hd_msItem_author">Author</label>

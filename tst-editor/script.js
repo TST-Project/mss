@@ -1,3 +1,33 @@
+(function(CodeMirror) {
+    CodeMirror.defineOption('required', '', function(cm, val, old) {
+        const prev = old && old != CodeMirror.Init;
+        if (val && !prev) {
+            cm.on('blur', onChange);
+            cm.on('change', onChange);
+            cm.on('swapDoc', onChange);
+            onChange(cm);
+        } else if (!val && prev) {
+            cm.on('blur', onChange);
+            cm.off('change', onChange);
+            cm.off('swapDoc', onChange);
+            const wrapper = cm.getWrapperElement();
+            wrapper.className = wrapper.className.replace(' CodeMirror-required', '');
+
+        }
+        if(val &&!cm.hasFocus()) onChange(cm);
+    });
+
+    const isEmpty = function(cm) {
+        return (cm.lineCount() === 1) && (cm.getLine(0) === '');
+    };
+
+    const onChange = function(cm) {
+        const wrapper = cm.getWrapperElement(), empty = isEmpty(cm);
+        wrapper.className = wrapper.className.replace(' CodeMirror-required', '') +
+            (empty ? ' CodeMirror-required' : '');
+    };
+})(window.CodeMirror);
+
 (function() {
     'use strict';
     const state = {
@@ -235,6 +265,7 @@
                     return field;
                 }
             }
+            return heditor.querySelector('.CodeMirror-required');
         },
         codeMirrorInit: function(textarea) {
             const getSchema = function() {
@@ -356,6 +387,7 @@
 
             const cm = CodeMirror.fromTextArea(textarea, {
                 mode: 'xml',
+                required: (textarea.required ? true : false),
                 lineNumbers: false,
                 extraKeys: {
                     '\'<\'': completeAfter,

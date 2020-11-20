@@ -76,6 +76,7 @@ hr {
 
 .vsb-main {
     margin-right: 0.7rem;
+    flex-grow: 1;
 }
 
 .vsb-main button:hover {
@@ -543,6 +544,7 @@ span.heading {
 .CodeMirror-empty { /*outline: 1px solid #c22;*/ }
 .CodeMirror-empty.CodeMirror-focused { outline: none; }
 .CodeMirror pre.CodeMirror-placeholder { color: #999; }
+.CodeMirror-required { outline: 1px dashed red; }
 /*
 .quillhidden {
     display: none;
