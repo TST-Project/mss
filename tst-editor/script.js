@@ -291,7 +291,7 @@
 
             heditor.querySelector('#hd_publish_date').value = new Date().getFullYear();
 
-            state.saveInterval = window.setInterval(autosaved.save,10000);
+            state.saveInterval = window.setInterval(autosaved.save,300000);
         },
 
         checkInvalid: function() {
