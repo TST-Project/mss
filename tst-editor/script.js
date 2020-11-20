@@ -51,7 +51,6 @@
         document.getElementById('file').addEventListener('change',file.select,false);
         document.getElementById('newfile').addEventListener('click',file.startnew);
         document.body.addEventListener('click',events.bodyClick);
-        state.xStyle = file.syncLoad(state.xSheet);
     };
     
     const events = {
@@ -93,6 +92,8 @@
         },
         render: function(xstr) {
             document.getElementById('headereditor').style.display = 'none';
+            if(!state.xStyle)
+                state.xStyle = file.syncLoad(state.xSheet);
             const result = xml.XSLTransform(state.xStyle,xstr);
             const body = document.querySelector('#headerviewer');
             dom.clearEl(body);
@@ -136,10 +137,18 @@
             const par = button.parentNode;
             const ret = button.myItem.cloneNode(true);
             par.insertBefore(ret,button);
+            
             for(const m of ret.querySelectorAll('.multiselect'))
                 editor.makeMultiselect(m);
+            
             for(const t of ret.querySelectorAll('textarea'))
                 state.cmirror.push(editor.codeMirrorInit(t));
+
+            const dependentsel = [...state.heditor.querySelectorAll('[data-from]')].map(
+                el => el.dataset.from
+            );
+            for(const s of new Set(dependentsel)) editor.prepUpdate(s,ret);
+
             return ret;
         },
         destroy: function() {
@@ -163,16 +172,24 @@
             // is attribute
             const vv = xmlEl.getAttribute(attr) || '';
             const value = vv.trim();
-
-            if(field.multiple) {
-                const vsplit = value.split(' ');                
-                const vmap = prefix ?
-                    vsplit.map(s => s.replace(new RegExp('^'+prefix),'')) :
-                    vsplit;
-                const opts = field.querySelectorAll('option');
-                for(const opt of opts) {
-                    if(vmap.includes(opt.value))
-                        opt.selected = true;
+            if(value === '' && !prefix) return;
+            
+            if(field.tagName === 'SELECT') {
+                const split = field.multiple ?
+                    value.split(' ') : [value];            
+                const selected = prefix ?
+                    split.map(s => s.replace(new RegExp('^'+prefix),'')) :
+                    split;
+                for(const s of selected) {
+                    const opt = field.querySelector(`option[value=${s}]`);
+                    if(opt) opt.selected = true;
+                    else {
+                        const newopt = document.createElement('option');
+                        newopt.setAttribute('value',s);
+                        newopt.appendChild(document.createTextNode(s));
+                        newopt.selected = true;
+                        field.appendChild(newopt);
+                    }
                 }
             }
             else {
@@ -183,8 +200,7 @@
         },
 
         hideEmpty: function() {
-            const heditor = document.getElementById('headereditor');
-            const list = [...heditor.querySelectorAll('.multi-item')];
+            const list = [...state.heditor.querySelectorAll('.multi-item')];
             const removelist = list.filter(m => {
                 for(const f of m.querySelectorAll('input,select,textarea')) {
                     if(f.required) return false;
@@ -196,8 +212,13 @@
 
         killMultiItem: function(button) {
             const multiItem = button.closest('.multi-item');
-            if(window.confirm('Do you want to delete this item?'))
+            if(window.confirm('Do you want to delete this item?')) {
                 multiItem.remove();
+                const dependentsel = [...state.heditor.querySelectorAll('[data-from]')].map(
+                    el => el.dataset.from
+                );
+                for(const s of new Set(dependentsel)) editor.updateOptions(s);
+            }
         },
         
         makeKillButton: function() {
@@ -214,6 +235,7 @@
             mbox.setValue(
                 [...el.querySelectorAll('option')].filter(o => o.selected).map(o => o.value)
             );
+            mbox.origEl = el;
             state.multiselect.push(mbox);
         },
 
@@ -222,6 +244,7 @@
             document.getElementById('headerviewer').style.display = 'none';
             
             const heditor = document.getElementById('headereditor');
+            state.heditor = heditor;
             heditor.style.display = 'flex';
             
             const fields = heditor.querySelectorAll('[data-select]');
@@ -235,6 +258,7 @@
                         const killbutton = editor.makeKillButton();
                         field.myItem.insertBefore(killbutton,field.myItem.firstChild);
                     }
+
                     while(field.firstChild) field.firstChild.remove();
 
                     const els = state.xmlDoc.querySelectorAll(field.dataset.select);
@@ -249,23 +273,30 @@
                 }
                 else editor.fillFormField(field,toplevel);
             }
+            
+            const dependentsel = [...heditor.querySelectorAll('[data-from]')].map(el => el.dataset.from);
+            for(const s of new Set(dependentsel)) {
+                editor.prepUpdate(s);
+                editor.updateOptions(s);
+            }
 
             for(const m of heditor.querySelectorAll('.multiselect'))
                 editor.makeMultiselect(m);
             
             for(const t of heditor.querySelectorAll('textarea'))
                 state.cmirror.push(editor.codeMirrorInit(t));
+
             heditor.querySelector('#hd_publish_date').value = new Date().getFullYear();
         },
 
-        checkInvalid: function(heditor) {
-            const allfields = heditor.querySelectorAll('input,select,textarea');
+        checkInvalid: function() {
+            const allfields = state.heditor.querySelectorAll('input,select,textarea');
             for(const field of allfields) {
                 if(!field.validity.valid) {
                     return field;
                 }
             }
-            return heditor.querySelector('.CodeMirror-required');
+            return state.heditor.querySelector('.CodeMirror-required');
         },
         codeMirrorInit: function(textarea) {
             const getSchema = function() {
@@ -405,24 +436,26 @@
         },
         
         update: function() {
-            const heditor = document.getElementById('headereditor');
-            const invalid = editor.checkInvalid(heditor);
+            const invalid = editor.checkInvalid();
             if(invalid) {
                 invalid.scrollIntoView({behavior: 'smooth', block: 'center'});
                 alert(`Missing ${invalid.name}`);
                 return;
             }
-            const test = heditor.querySelector('.CodeMirror-lint-marker-error');
+            const test = state.heditor.querySelector('.CodeMirror-lint-marker-error');
             if(test) {
                 test.scrollIntoView({behavior: 'smooth', block: 'center'});
                 alert('XML error');
                 return;
             }
             
-            while(state.multiselect.length > 0) state.multiselect.pop().destroy();
+            while(state.multiselect.length > 0) {
+                const el = state.multiselect.pop();
+                if(el) el.destroy();
+            }
             while(state.cmirror.length > 0) state.cmirror.pop().toTextArea();
 
-            const fields = heditor.querySelectorAll('[data-select]');
+            const fields = state.heditor.querySelectorAll('[data-select]');
             const toplevel = state.xmlDoc.querySelector(state.toplevel);
             for(const field of fields) {
                 if(field.classList.contains('multiple')) {
@@ -453,6 +486,45 @@
             editionStmt.appendChild(state.xmlDoc.createTextNode(' '));
             editionStmt.appendChild(orgName);
             editionStmt.appendChild(state.xmlDoc.createTextNode('.'));
+        },
+
+        prepUpdate: function(sel,par) {
+            const t = par || state.heditor;
+            const field = t.querySelectorAll(`[name=${sel}]`);
+            for(const f of field)
+                f.addEventListener('blur',function() {editor.updateOptions(sel);});
+        },
+        
+        updateOptions: function(sel) {
+            const options = [...state.heditor.querySelectorAll(`[name=${sel}]`)].map(el => {
+                const opt = document.createElement('option');
+                opt.setAttribute('value',el.value);
+                opt.appendChild(document.createTextNode(el.value));
+                return opt;
+            });
+            const selects = state.heditor.querySelectorAll(`select[data-from=${sel}]`);
+            for(const select of selects) {
+                const selected = [...select.querySelectorAll('option:checked')].map(
+                    el => el.value
+                );
+                while(select.firstChild) select.removeChild(select.firstChild);
+                for(const o of options) {
+                    const oclone = o.cloneNode(true);
+                    if(selected.indexOf(oclone.value) !== -1) oclone.selected = true;
+                    select.appendChild(oclone);
+                }
+                if(select.multiple) {
+                    const mbox = (function(){
+                        for(const m of state.multiselect)
+                            if(m && m.origEl === select) return m;
+                    }());
+                    if(mbox) {
+                        mbox.destroy();
+                        delete state.multiselect[state.multiselect.indexOf(mbox)];
+                        editor.makeMultiselect(select);
+                    }
+                }
+            }
         },
         updateXMLField: function(field,toplevel) {
             let value = field.type === 'text' ? 

@@ -178,10 +178,10 @@
         <div class="multi-item">
             <div>
                 <label for="hd_foliation_n">Unit name</label>
-                <input type="text" data-multi-attr="n" placeholder="U1">
+                <input type="text"name="foliation_n" data-multi-attr="n" placeholder="U1">
             </div>
             <div>
-            <textarea rows="2" placeholder="Tamil letter-numerals, left margin."></textarea>
+            <textarea rows="2" placeholder="E.g., Tamil letter-numerals, left margin."></textarea>
             </div>
         </div>
     </div>
@@ -194,7 +194,8 @@
         <div class="multi-item">
             <div>
                 <label for="hd_handNote_n">Codicological unit(s)</label>
-                <input type="text" data-multi-attr="n" placeholder="U1 U2">
+                <select data-multi-attr="n" data-from="foliation_n" class="multiselect" multiple></select>
+                <!--input type="text" data-multi-attr="n" placeholder="U1 U2"-->
                 <label for="hd_handNote_scope">Scope</label>
                 <select type="text" data-multi-attr="scope"> 
                     <option value="sole">sole</option>
@@ -230,8 +231,11 @@
     <div class="multiple" data-select="fileDesc > sourceDesc > msDesc > msContents > msItem">
         <div class="multi-item">
             <div>
-                <label for="hd_msItem_n">Codicological unit</label>
-                <input type="text" data-multi-attr="n" placeholder="U1">
+                <div></div>
+                <div>
+                    <label for="hd_msItem_n">Codicological unit</label>
+                    <select data-multi-attr="n" data-from="foliation_n"></select>
+                </div>
                 <select data-multi-attr="defective" required>
                     <option value="false">Complete</option>
                     <option value="true">Incomplete</option>
@@ -293,7 +297,7 @@
     <div>
         <label for="hd_origDate_when">Date</label>
         <input type="number" step="any" id="hd_origDate_when" name="origDate_when" data-select="fileDesc > sourceDesc > msDesc > history > origin > origDate" data-attr="when">
-        <textarea rows="2" id="hd_origDate" name="origDate" data-select="fileDesc > sourceDesc > msDesc > history > origin > origDate"></textarea>
+        <textarea rows="2" id="hd_origDate" name="origDate" data-select="fileDesc > sourceDesc > msDesc > history > origin > origDate" placeholder="Description of date, dating source/methodology, etc."></textarea>
     </div>
     <div>
         <label for="hd_origPlace">Place</label>
@@ -301,7 +305,7 @@
     </div>
     <div>
         <label for="hd_acquisition">Acquisition</label>
-        <textarea rows="2" id="hd_acquisition" name="acquisition" data-select="fileDesc > sourceDesc > msDesc > history > acquisition > p"></textarea>
+        <textarea rows="2" id="hd_acquisition" name="acquisition" data-select="fileDesc > sourceDesc > msDesc > history > acquisition > p" placeholder="How the item was acquired by the repository"></textarea>
     </div>
     <h3>Bibliography</h3>
     <div class="multiple" data-select="fileDesc > sourceDesc > msDesc > additional > listBibl > bibl">
@@ -312,15 +316,19 @@
         </div>
     </div>
     <h3>Encoding</h3>
-    <div>
-        <textarea rows="5" id="hd_encoding" name="encoding" data-select="encodingDesc > p" placeholder="Transcription conventions, abbreviations, etc." required></textarea>
+    <div class="multiple" data-select="encodingDesc > p">
+        <div class="multi-item">
+            <div>
+            <textarea rows="5" id="hd_encoding" name="encoding" placeholder="Transcription conventions, abbreviations, etc." required></textarea>
+            </div>
+        </div>
     </div>
     <h3>Revision history</h3>
     <div class="multiple" data-select="revisionDesc > change">
         <div class="multi-item">
             <div>
-                <input type="month" step="any" id="hd_change_when" data-multi-attr="when" size="8">
-                <textarea rows="2" id="hd_change" name="change"></textarea>
+                <input type="month" step="any" id="hd_change_when" data-multi-attr="when" size="8" placeholder="year-month">
+                <textarea rows="2" id="hd_change" name="change" placeholder="summary of changes"></textarea>
             </div>
         </div>
     </div>
