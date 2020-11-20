@@ -123,7 +123,6 @@
             state.xmlDoc = file.syncLoad(state.template);
             //file.render(state.xmlDoc);
             editor.init();
-            editor.hideEmpty();
         },
         syncLoad: function(fname) {
             const xhr = new XMLHttpRequest();
@@ -207,6 +206,12 @@
             const removelist = list.filter(m => {
                 for(const f of m.querySelectorAll('input,select,textarea')) {
                     if(f.required) return false;
+                    else if(f.value) return false;
+                    else {
+                        const opts = f.querySelectorAll('option');
+                        for(const o of opts)
+                            if(o.selected && !o.disabled) return false;
+                    }
                 }
                 return true;
             });
@@ -278,14 +283,16 @@
             }
             
             const dependentsel = [...heditor.querySelectorAll('[data-from]')].map(el => el.dataset.from);
+            editor.hideEmpty();
+
             for(const s of new Set(dependentsel)) {
                 editor.prepUpdate(s);
                 editor.updateOptions(s);
             }
-
+            
             for(const m of heditor.querySelectorAll('.multiselect'))
                 editor.makeMultiselect(m);
-            
+           
             for(const t of heditor.querySelectorAll('textarea'))
                 state.cmirror.push(editor.codeMirrorInit(t));
 
@@ -490,14 +497,16 @@
             //update editionStmt
             const par = toplevel || state.xmlDoc;
             const editionStmt = par.querySelector('fileDesc > editionStmt > p');
-            const persName = editionStmt.removeChild(editionStmt.querySelector('persName'));
-            const orgName = editionStmt.removeChild(editionStmt.querySelector('orgName'));
-            while(editionStmt.firstChild) editionStmt.firstChild.remove();
-            editionStmt.appendChild(state.xmlDoc.createTextNode('Record edited by '));
-            editionStmt.appendChild(persName);
-            editionStmt.appendChild(state.xmlDoc.createTextNode(' '));
-            editionStmt.appendChild(orgName);
-            editionStmt.appendChild(state.xmlDoc.createTextNode('.'));
+            if(editionStmt) {
+                const persName = editionStmt.removeChild(editionStmt.querySelector('persName'));
+                const orgName = editionStmt.removeChild(editionStmt.querySelector('orgName'));
+                while(editionStmt.firstChild) editionStmt.firstChild.remove();
+                editionStmt.appendChild(state.xmlDoc.createTextNode('Record edited by '));
+                editionStmt.appendChild(persName);
+                editionStmt.appendChild(state.xmlDoc.createTextNode(' '));
+                editionStmt.appendChild(orgName);
+                editionStmt.appendChild(state.xmlDoc.createTextNode('.'));
+            }
         },
 
         prepUpdate: function(sel,par) {
@@ -670,7 +679,7 @@
         },
 
         load: function(k,e) {
-            if(e.target.tagName === 'SVG')
+            if(e.target.closest('.trash'))
                 return;
             lf.getItem(k).then(i => {
                 document.getElementById('openform').style.display = 'none';
@@ -703,11 +712,10 @@
                     if(o) o.selected = true;
                 }
             }
-            const toplevel = editor.updateFields(docclone,true);
-            editor.postProcess(toplevel);
+            editor.updateFields(docclone,true);
+            //editor.postProcess(toplevel);
             const s = new XMLSerializer();
             lf.setItem(state.filename,s.serializeToString(docclone));
-            console.log('saved');
         },
     }; // end autosaved
     

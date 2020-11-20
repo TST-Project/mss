@@ -199,13 +199,15 @@
                 <select data-multi-attr="n" data-from="foliation_n" class="multiselect" multiple></select>
                 <!--input type="text" data-multi-attr="n" placeholder="U1 U2"-->
                 <label for="hd_handNote_scope">Scope</label>
-                <select type="text" data-multi-attr="scope"> 
+                <select name="handNote_scope" data-multi-attr="scope"> 
+                    <option value="" selected disabled></option>
                     <option value="sole">sole</option>
                     <option value="major">major</option>
                     <option value="minor">minor</option>
                 </select>
                 <label for="hd_handNote_script">Script</label>
-                <select type="text" data-multi-attr="script">
+                <select name="handNote_script" data-multi-attr="script">
+                    <option value="" selected disabled></option>
                     <option value="bengali">Bengali</option>
                     <option value="devanagari">Devanagari</option>
                     <option value="grantha">Grantha</option>
@@ -213,7 +215,7 @@
                     <option value="malayalam">Malayalam</option>
                     <option value="nandinagari">Nandinagari</option>
                     <option value="telugu">Telugu</option>
-                    <option value="tamil" selected>Tamil</option>
+                    <option value="tamil">Tamil</option>
                 </select>
             </div>
             <div>
@@ -254,13 +256,14 @@
             <div>
                 <label for="hd_msItem_mainLang">Main language</label>
                 <select id="hd_msItem_mainLang" data-multi-select="textLang" data-multi-attr="mainLang">
+                    <option value="" selected disabled></option>
                     <option value="eng">English</option>
                     <option value="fra">French</option>
                     <option value="pal">Pali</option>
                     <option value="por">Portuguese</option>
                     <option value="pra">Prakrit</option>
                     <option value="san">Sanskrit</option>
-                    <option value="tam" selected>Tamil</option>
+                    <option value="tam">Tamil</option>
                 </select>
                 <label for="hd_msItem_otherLangs">Other languages</label>
                 <select id="hd_msItem_otherLangs" class="multiselect" name="msItem_otherLangs" data-multi-select="textLang" data-multi-attr="otherLangs" multiple>
