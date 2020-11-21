@@ -62,7 +62,7 @@
     </div>
     <div>
         <label for="hd_title">Manuscript Title</label>
-        <input type="text" id="hd_title" name="title" data-select="fileDesc > titleStmt > title" required pattern=".*\S.*" placeholder="title of manuscript">
+        <textarea id="hd_title" name="title" data-select="fileDesc > titleStmt > title" rows="1" required placeholder="title of manuscript"></textarea>
     </div>
     <div>
         <label for="hd_editionStmt_persName">Researcher name</label>
@@ -80,7 +80,7 @@
     </div>
     <div>
         <label for="hd_summary">Summary</label>
-        <textarea rows="2" class="big" id="hd_summary" name="summary" data-select="fileDesc > sourceDesc > msDesc > msContents > summary > p" placeholder="Summary description of the manuscript" required></textarea>
+        <textarea rows="10" id="hd_summary" name="summary" data-select="fileDesc > sourceDesc > msDesc > msContents > summary > p" placeholder="Summary description of the manuscript" required></textarea>
     </div>
     <h3>Physical description</h3>
     <div>
@@ -113,7 +113,7 @@
             <option value="folio" selected>folios</option>
             <option value="page">pages</option>
         </select>
-        <input type="text" rows="2" id="hd_extent" name="hd_extent" data-select="fileDesc > sourceDesc > msDesc > physDesc > objectDesc > supportDesc > extent > measure" placeholder="X guard folios, XX numbered folios, X blank folios">
+        <textarea rows="2" id="hd_extent" name="hd_extent" data-select="fileDesc > sourceDesc > msDesc > physDesc > objectDesc > supportDesc > extent > measure" placeholder="X guard folios, XX numbered folios, X blank folios"></textarea>
     </div>
     <div>
         <label>Overall size</label>
@@ -169,11 +169,11 @@
     </div>
     <div>
         <label for="hd_condition">Condition</label>
-        <textarea rows="2" id="hd_condition" name="condition" data-select="fileDesc > sourceDesc > msDesc > physDesc > objectDesc > supportDesc > condition" placeholder="Very good state of preservation, in spite of bore holes caused by insects."></textarea>
+        <textarea rows="4" id="hd_condition" name="condition" data-select="fileDesc > sourceDesc > msDesc > physDesc > objectDesc > supportDesc > condition" placeholder="Very good state of preservation, in spite of bore holes caused by insects."></textarea>
     </div>
     <div>
         <label for="hd_binding">Binding</label>
-        <textarea rows="2" id="hd_binding" name="binding" data-select="fileDesc > sourceDesc > msDesc > physDesc > bindingDesc > binding > p" placeholder="Description of binding, cover, etc."></textarea>
+        <textarea rows="4" id="hd_binding" name="binding" data-select="fileDesc > sourceDesc > msDesc > physDesc > bindingDesc > binding > p" placeholder="Description of binding, cover, etc."></textarea>
     </div>
     <h4>Foliation (Codicological units)</h4>
     <div class="multiple" data-select="fileDesc > sourceDesc > msDesc > physDesc > objectDesc > supportDesc > foliation">
@@ -183,7 +183,7 @@
                 <input type="text"name="foliation_n" data-multi-attr="n" placeholder="U1">
             </div>
             <div>
-            <textarea rows="2" data-multi-select=":scope" placeholder="E.g., Tamil letter-numerals, left margin."></textarea>
+            <textarea rows="4" data-multi-select=":scope" placeholder="E.g., Tamil letter-numerals, left margin."></textarea>
             </div>
         </div>
     </div>
@@ -219,7 +219,7 @@
                 </select>
             </div>
             <div>
-                <textarea rows="2" data-multi-select="desc" placeholder="Description of hand"></textarea>
+                <textarea rows="4" data-multi-select="desc" placeholder="Description of hand"></textarea>
             </div>
         </div>
     </div>
@@ -227,7 +227,7 @@
     <div class="multiple" data-select="fileDesc > sourceDesc > msDesc > physDesc > additions > p">
         <div class="multi-item">
             <div>
-                <textarea rows="2" class="big" data-multi-select=":scope" placeholder="Marginalia, running titles, satellite stanzas, etc."></textarea>
+                <textarea rows="4" class="big" data-multi-select=":scope" placeholder="Marginalia, running titles, satellite stanzas, etc."></textarea>
             </div>
         </div>
     </div>
@@ -278,23 +278,23 @@
             </div>
             <div>
                 <label for="hd_msItem_filiation">Filiation</label>
-                <textarea rows="3" data-multi-select="filiation > p" placeholder="Other manuscript testimonies"></textarea>
+                <textarea rows="4" data-multi-select="filiation > p" placeholder="Other manuscript testimonies"></textarea>
             </div>
             <div>
                 <label for="hd_msItem_rubric">Rubric</label>
-                <textarea rows="2" class="big" data-multi-select="rubric"></textarea>
+                <textarea rows="4" class="big" data-multi-select="rubric"></textarea>
             </div>
             <div>
                 <label for="hd_msItem_incipit">Incipit</label>
-                <textarea rows="2" class="big" data-multi-select="incipit"></textarea>
+                <textarea rows="4" class="big" data-multi-select="incipit"></textarea>
             </div>
             <div>
                 <label for="hd_msItem_explicit">Explicit</label>
-                <textarea rows="2" class="big" data-multi-select="explicit"></textarea>
+                <textarea rows="4" class="big" data-multi-select="explicit"></textarea>
             </div>
             <div>
                 <label for="hd_msItem_colophon">Colophon</label>
-                <textarea rows="2" class="big" data-multi-select="colophon"></textarea>
+                <textarea rows="4" class="big" data-multi-select="colophon"></textarea>
             </div>
         </div>
     </div>
@@ -302,7 +302,7 @@
     <div>
         <label for="hd_origDate_when">Date</label>
         <input type="number" step="any" id="hd_origDate_when" name="origDate_when" data-select="fileDesc > sourceDesc > msDesc > history > origin > origDate" data-attr="when">
-        <textarea rows="2" id="hd_origDate" name="origDate" data-select="fileDesc > sourceDesc > msDesc > history > origin > origDate" placeholder="Description of date, dating source/methodology, etc."></textarea>
+        <textarea rows="4" id="hd_origDate" name="origDate" data-select="fileDesc > sourceDesc > msDesc > history > origin > origDate" placeholder="Description of date, dating source/methodology, etc."></textarea>
     </div>
     <div>
         <label for="hd_origPlace">Place</label>
@@ -310,7 +310,7 @@
     </div>
     <div>
         <label for="hd_acquisition">Acquisition</label>
-        <textarea rows="2" id="hd_acquisition" name="acquisition" data-select="fileDesc > sourceDesc > msDesc > history > acquisition > p" placeholder="How the item was acquired by the repository"></textarea>
+        <textarea rows="4" id="hd_acquisition" name="acquisition" data-select="fileDesc > sourceDesc > msDesc > history > acquisition > p" placeholder="How the item was acquired by the repository"></textarea>
     </div>
     <h3>Bibliography</h3>
     <div class="multiple" data-select="fileDesc > sourceDesc > msDesc > additional > listBibl > bibl">
@@ -324,7 +324,7 @@
     <div class="multiple" data-select="encodingDesc > p">
         <div class="multi-item">
             <div>
-            <textarea rows="5" id="hd_encoding" name="encoding" data-multi-select=":scope" placeholder="Transcription conventions, abbreviations, etc." required></textarea>
+            <textarea rows="6" id="hd_encoding" name="encoding" data-multi-select=":scope" placeholder="Transcription conventions, abbreviations, etc." required></textarea>
             </div>
         </div>
     </div>
@@ -332,8 +332,8 @@
     <div class="multiple" data-select="revisionDesc > change">
         <div class="multi-item">
             <div>
-                <input type="month" step="any" id="hd_change_when" data-multi-attr="when" size="8" placeholder="year-month">
-                <textarea rows="2" id="hd_change" name="change" data-multi-select=":scope" placeholder="summary of changes"></textarea>
+                <input type="month" step="any" id="hd_change_when" data-multi-attr="when" size="8" placeholder="YYYY-MM" pattern="\d{4}-\d{2}">
+                <textarea rows="4" id="hd_change" name="change" data-multi-select=":scope" placeholder="summary of changes"></textarea>
             </div>
         </div>
     </div>
