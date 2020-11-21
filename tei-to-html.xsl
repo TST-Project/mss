@@ -393,7 +393,7 @@
         <xsl:element name="td">
             <xsl:variable name="mainLang" select="@mainLang"/>
             <xsl:value-of select="document('')/*/my:langs/my:entry[@key=$mainLang]"/>
-            <xsl:if test="@otherLangs">
+            <xsl:if test="not(@otherLangs='')">
                 <xsl:text> (</xsl:text>
                 <xsl:call-template name="splitlist">
                     <xsl:with-param name="list" select="@otherLangs"/>
