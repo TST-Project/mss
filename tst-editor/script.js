@@ -1,4 +1,5 @@
 (function(CodeMirror) {
+
     CodeMirror.defineOption('required', '', function(cm, val, old) {
         const prev = old && old != CodeMirror.Init;
         if (val && !prev) {
@@ -39,13 +40,16 @@
         xSheet: 'tei-to-html.xml',
         template: 'tst-template.xml',
         toplevel: 'teiHeader',
+        savedtext: new Map(),
+        curlang: 'en',
     };
 
-    const lf = window.localforage ? window.localforage : null;
-    const vanillaSelectBox = window.vanillaSelectBox ? window.vanillaSelectBox : null;
-    const FileSaver = window.FileSaver ? window.FileSaver : null;
-    const CodeMirror = window.CodeMirror ? window.CodeMirror : null;
-    const he = window.he ? window.he : null;
+    const lf = window.localforage || null;
+    const vanillaSelectBox = window.vanillaSelectBox || null;
+    const FileSaver = window.FileSaver || null;
+    const CodeMirror = window.CodeMirror || null;
+    const he = window.he || null;
+    const Sanscript = window.Sanscript || null;
 
     const init = function() {
         lf.length().then(n => {if(n>0) autosaved.fill();});
@@ -73,6 +77,9 @@
                 e.preventDefault();
                 file.saveAs();
                 return;
+            case 'transbutton':
+                script.transClick(e);
+                return;
             default:
                 break;
             }
@@ -99,7 +106,8 @@
             const body = document.querySelector('#headerviewer');
             dom.clearEl(body);
             body.appendChild(result.querySelector('.record-fat'));
-            body.style.display = 'inherit';
+            body.style.display = 'block';
+            script.init();
         },
         saveAs: function() {
             const s = new XMLSerializer();
@@ -447,7 +455,7 @@
             });
             if(textarea.rows)
                 cm.setSize(null,`${textarea.rows * 2.1}rem`);
-            cm.performLint();
+            //cm.performLint();
             return cm;
         },
         
@@ -757,6 +765,142 @@
             return button;
         },
     };
+
+    const script = {
+        init: function() {
+            const r = document.getElementById('headerviewer');
+            if(!r.lang) r.lang = 'en';
+            state.savedtext = new Map();
+            state.curlang = 'en';
+
+            const walker = document.createTreeWalker(r,NodeFilter.SHOW_ALL);
+            var curnode = walker.currentNode;
+            while(curnode) {
+                if(curnode.nodeType === Node.ELEMENT_NODE) {
+                    if(!curnode.lang) curnode.lang = curnode.parentNode.lang;
+                }
+                else if(curnode.nodeType === Node.TEXT_NODE) {
+                    const curlang = curnode.parentNode.lang;
+                    if(curlang === 'tam' || curlang === 'tam-Taml')
+                        curnode.data = script.cacheText(curnode);
+                }
+                curnode = walker.nextNode();
+            }
+        },
+        cacheText: function(txtnode) {
+            const lang = txtnode.parentNode.lang;
+            const hyphenlang = lang === 'tam-Taml' ? 'ta' : 'sa';
+            const hyphenated = window['Hypher']['languages'][hyphenlang].hyphenateText(txtnode.data);
+            state.savedtext.set(txtnode,hyphenated);
+            if(lang === 'tam-Taml')
+                return script.to.iast(hyphenated);
+            else return hyphenated;
+        },
+
+        transClick: function(e) {
+            if(state.curlang === 'tam') {
+                const tamnodes = document.querySelectorAll('[lang="tam"],[lang="tam-Taml"]');
+                for(const t of tamnodes) t.classList.remove('tamil');
+                script.textWalk(script.toRoman);
+                e.target.innerHTML = 'A';
+                e.target.classList.remove('tamil');
+                state.curlang = 'en';
+            }
+            else {
+                const tamnodes = document.querySelectorAll('[lang="tam"],[lang="tam-Taml"]');
+                for(const t of tamnodes) t.classList.add('tamil');
+                script.textWalk(script.toTamil);
+                e.target.innerHTML = 'அ';
+                e.target.classList.add('tamil');
+                state.curlang = 'tam';
+            }
+        },
     
+        textWalk: function(func) {
+            const walker = document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT);
+            var curnode = walker.currentNode;
+            while(curnode) {
+                if(curnode.parentNode.lang === 'tam' || curnode.parentNode.lang === 'tam-Taml') {
+                    const result = func(curnode);
+                    if(result) curnode.data = result;
+                }
+                curnode = walker.nextNode();
+            }
+        },
+    
+        toTamil: function(txtnode) {
+            if(txtnode.parentNode.lang === 'tam')
+                return script.to.tamil(txtnode.data);
+            else
+                return state.savedtext.get(txtnode);
+        },
+
+        toRoman: function(txtnode) {
+            if(txtnode.parentNode.lang === 'tam')
+                return state.savedtext.get(txtnode);
+            else if(txtnode.parentNode.lang === 'tam-Taml')
+                return script.to.iast(txtnode.data);
+        },
+
+        to: {
+
+            smush: function(text,placeholder) {
+                text = text.toLowerCase();
+            
+                // remove space between a word that ends in a consonant and a word that begins with a vowel
+                text = text.replace(/([ḍdrmvynhs]) ([aāiīuūṛeoêô])/g, '$1$2'+placeholder);
+            
+                // remove space between a word that ends in a consonant and a word that begins with a consonant
+                text = text.replace(/([kgcjñḍtdnpbmrlyvśṣsṙ]) ([kgcjṭḍtdnpbmyrlvśṣshḻ])/g, '$1'+placeholder+'$2');
+
+                // join final o/e/ā and avagraha/anusvāra
+                text = text.replace(/([oōeēā]) ([ṃ'])/g,'$1'+placeholder+'$2');
+
+                text = text.replace(/ü/g,'\u200Cu');
+                text = text.replace(/ï/g,'\u200Ci');
+
+                text = text.replace(/_{1,2}(?=\s*)/g, function(match) {
+                    if(match === '__') return '\u200D';
+                    else if(match === '_') return '\u200C';
+                });
+
+                return text;
+            },
+
+            iast: function(text,from) {
+                const f = from || 'tamil';
+                return Sanscript.t(text,f,'iast').replace(/^⁰|([^\d⁰])⁰/g,'$1¹⁰');
+            },
+            
+            tamil: function(text/*,placeholder*/) {
+                /*const pl = placeholder || '';
+                const txt = to.smush(text,pl);
+                return Sanscript.t(txt,'iast','tamil');*/
+                const grv = new Map([
+                    ['\u0B82','\u{11300}'],
+                    ['\u0BBE','\u{1133E}'],
+                    ['\u0BBF','\u{1133F}'],
+                    ['\u0BC0','\u{11340}'],
+                    ['\u0BC2','\u{11341}'],
+                    ['\u0BC6','\u{11342}'],
+                    ['\u0BC7','\u{11347}'],
+                    ['\u0BC8','\u{11348}'],
+                    ['\u0BCA','\u{1134B}'],
+                    ['\u0BCB','\u{1134B}'],
+                    ['\u0BCC','\u{1134C}'],
+                    ['\u0BCD','\u{1134D}'],
+                    ['\u0BD7','\u{11357}']
+                ]);
+                const grc = ['\u{11316}','\u{11317}','\u{11318}','\u{1131B}','\u{1131D}','\u{11320}','\u{11321}','\u{11322}','\u{11325}','\u{11326}','\u{11327}','\u{1132B}','\u{1132C}','\u{1132D}'];
+
+                const smushed = text.replace(/([kṅcñṭṇtnpmyrlvḻḷṟṉ])\s+([aāiīuūeēoō])/g, '$1$2').toLowerCase();
+                const rgex = new RegExp(`([${grc.join('')}])([${[...grv.keys()].join('')}])`,'g');
+                const pretext = Sanscript.t(smushed,'iast','tamil');
+                return pretext.replace(rgex, function(m,p1,p2) {
+                    return p1+grv.get(p2); 
+                });
+            },
+        }
+    };
     window.addEventListener('load',init);
 }());

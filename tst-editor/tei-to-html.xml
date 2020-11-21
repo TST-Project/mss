@@ -18,17 +18,17 @@
             </xsl:choose-->
             <xsl:attribute name="class">record-fat</xsl:attribute>
             <div id="topbar">
+                <div id="transbutton" title="change script">A</div>
                 <form>
                     <button type="button" id="editbutton">Edit</button>
                     <button type="button" id="saveas">Save As...</button>
                 </form>
-                <!--div id="transbutton" title="change script">A</div-->
             </div>
             <xsl:element name="article">
-                <xsl:element name="h2">
+                <!--xsl:element name="h2">
                     <xsl:attribute name="class">warning</xsl:attribute>
                     <xsl:text>This is a preview. Please remember to save.</xsl:text>
-                </xsl:element>
+                </xsl:element-->
                 <xsl:apply-templates/>
             </xsl:element>
         </xsl:element>
