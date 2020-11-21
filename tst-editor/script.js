@@ -155,6 +155,7 @@
             file.render(state.xmlDoc);
         },
         fillFormField: function(field,toplevel,unsanitize) {
+            const tounsanitize = unsanitize || field.tagName !== 'TEXTAREA';
             const selector = field.dataset.select || field.dataset.multiSelect;
             const xmlEl = (selector && selector !== ':scope') ?
                 toplevel.querySelector(selector) :
@@ -165,15 +166,15 @@
             if(!xmlEl) return;
 
             if(!attr) {
-                field.value = unsanitize ?
-                    xml.unsanitize(xmlEl.textContent) :
+                field.value = tounsanitize ?
+                    xml.unsanitize(xmlEl.innerHTML) :
                     document.importNode(xmlEl,true).innerHTML.trim();
                 return;
             }
 
             // is attribute
             const vv = xmlEl.getAttribute(attr);
-            const value = vv ? (unsanitize ? xml.unsanitize(vv).trim() : vv.trim()) : '';
+            const value = vv ? (tounsanitize ? xml.unsanitize(vv,true).trim() : vv.trim()) : '';
             if(value === '' && !prefix) return;
             
             if(field.tagName === 'SELECT') {
@@ -183,7 +184,7 @@
                     split.map(s => s.replace(new RegExp('^'+prefix),'')) :
                     split;
                 for(const s of selected) {
-                    const opt = field.querySelector(`option[value='${s}']`);
+                    const opt = field.querySelector(`option[value='${CSS.escape(s)}']`);
                     if(opt) opt.selected = true;
                     else {
                         const newopt = document.createElement('option');
@@ -444,6 +445,9 @@
                 gutters: ['CodeMirror-lint-markers'],
                 lineWrapping: true,
             });
+            if(textarea.rows)
+                cm.setSize(null,`${textarea.rows * 2.1}rem`);
+            cm.performLint();
             return cm;
         },
         
@@ -548,6 +552,7 @@
             }
         },
         updateXMLField: function(field,toplevel,sanitized) {
+            const tosanitize = sanitized || field.tagName !== 'TEXTAREA' || false;
             let value = field.type === 'text' ? 
                 field.value.trim() : 
                 field.value;
@@ -579,15 +584,17 @@
 
             if(prefix) 
                 value = prefix + value;
-            if(attr)
-                sanitized ? 
-                    xmlEl.setAttribute(attr,he.escape(value)) :
-                    xmlEl.setAttribute(attr,value);
-            else
-                sanitized ? 
-                    xmlEl.textContent = value : 
+            if(attr) {
+                //tosanitize ? 
+                //    xmlEl.setAttribute(attr,xml.sanitize(value)) :
+                // no need to sanitize attributes
+                xmlEl.setAttribute(attr,value);
+            }
+            else {
+                tosanitize ? 
+                    xmlEl.innerHTML = xml.sanitize(value) : 
                     xmlEl.innerHTML = value;
-        
+            }
             return true;
         },
     };
@@ -601,8 +608,13 @@
             else
                 return newd;
         },
-        unsanitize: function(str) {
-            return he.decode(str);
+        unsanitize: function(str,attr) {
+            return attr ?
+                he.unescape(str,{isAttributeValue: true}) :
+                he.unescape(str);
+        },
+        sanitize: function(str) {
+            return he.escape(str);
         },
         XSLTransform: function(xslsheet,doc) {
             const xproc = new XSLTProcessor();
@@ -708,7 +720,7 @@
                 const vsbid = `btn-group-#${mb.origEl.id}`;
                 const selected = document.getElementById(vsbid).querySelectorAll('li.active');
                 for(const s of selected) {
-                    const o = mb.origEl.querySelector(`option[value=${s.dataset.value}]`);
+                    const o = mb.origEl.querySelector(`option[value='${CSS.escape(s.dataset.value)}']`);
                     if(o) o.selected = true;
                 }
             }
