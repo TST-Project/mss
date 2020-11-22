@@ -327,6 +327,17 @@ span.gap {
     margin-bottom: 2rem;
 }
 
+#headereditor section div div.subrow {
+    display: flex;
+    margin-bottom: 0.8rem;
+    margin-right: 0;
+    align-items: center;
+}
+
+#headereditor div.subrow label:first-child {
+    min-width: 50px;
+}
+
 #headereditor .multi-item > div:not(.multi-kill) {
     display: flex;
     justify-content: space-between;
@@ -347,7 +358,7 @@ span.gap {
     min-width: 80px;
 }
 
-#headereditor label[title] {
+#headereditor *[title] {
     cursor: help;
     text-decoration: underline dotted black;
 }

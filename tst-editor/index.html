@@ -106,7 +106,7 @@
         <input type="number" step="1" min="0" id="hd_stringholes" name="stringholes" data-select="fileDesc > sourceDesc > msDesc > physDesc > objectDesc > supportDesc > support > measure[unit='stringhole']" data-attr="quantity">
     </div>
     <div>
-        <label for="hd_extent_quantity">Extent</label>
+        <label for="hd_extent_quantity" title="Give the full extent, including blank folios. In the description, you may be more specific.">Extent</label>
         <input type="number" step="1" min="1" id="hd_extent_quantity" name="extent_quantity" data-select="fileDesc > sourceDesc > msDesc > physDesc > objectDesc > supportDesc > extent > measure" data-attr="quantity" required>
         <!--label for="hd_extent_unit">Unit</label-->
         <select id="hd_extent_unit" name="extent_unit" data-select="fileDesc > sourceDesc > msDesc > physDesc > objectDesc > supportDesc > extent > measure" data-attr="unit" required>
@@ -116,55 +116,85 @@
         <textarea rows="2" id="hd_extent" name="hd_extent" data-select="fileDesc > sourceDesc > msDesc > physDesc > objectDesc > supportDesc > extent > measure" data-schema="descriptive" placeholder="X guard folios, XX numbered folios, X blank folios"></textarea>
     </div>
     <div>
-        <label>Overall size</label>
+        <label title="Size of the object, including the cover.">Overall size</label>
         <div>
             <label for="hd_support_width">Width</label>
-            <input type="number" step="any" id="hd_support_width" name="width" data-select="fileDesc > sourceDesc > msDesc > physDesc > objectDesc > supportDesc > extent > dimensions[type='leaf'] > width" data-attr="quantity">
+            <input type="number" step="any" id="hd_support_width" name="width" data-select="fileDesc > sourceDesc > msDesc > physDesc > objectDesc > supportDesc > extent > dimensions[type='object'] > width" data-attr="quantity">
             <span>mm</span>
         </div>
         <div>
             <label for="hd_support_height">Height</label>
-            <input type="number" step="any" id="hd_support_height" name="height" data-select="fileDesc > sourceDesc > msDesc > physDesc > objectDesc > supportDesc > extent > dimensions[type='leaf'] > height" data-attr="quantity">
+            <input type="number" step="any" id="hd_support_height" name="height" data-select="fileDesc > sourceDesc > msDesc > physDesc > objectDesc > supportDesc > extent > dimensions[type='object'] > height" data-attr="quantity">
             <span>mm</span>
         </div>
         <div>
             <label for="hd_support_depth">Depth</label>
-            <input type="number" step="any" id="hd_support_depth" name="depth" data-select="fileDesc > sourceDesc > msDesc > physDesc > objectDesc > supportDesc > extent > dimensions[type='leaf'] > depth" data-attr="quantity">
+            <input type="number" step="any" id="hd_support_depth" name="depth" data-select="fileDesc > sourceDesc > msDesc > physDesc > objectDesc > supportDesc > extent > dimensions[type='object'] > depth" data-attr="quantity">
             <span>mm</span>
         </div>
     </div>
     <div>
-        <label>Leaf size</label>
+        <label title="Dimensions of a single leaf.">Leaf size</label>
         <div>
-            <label for="hd_support_width">Width</label>
-            <input type="number" step="any" id="hd_support_width" name="width" data-select="fileDesc > sourceDesc > msDesc > physDesc > objectDesc > supportDesc > extent > dimensions[type='leaf'] > width" data-attr="quantity" required>
-            <span>mm</span>
-        </div>
-        <div>
-            <label for="hd_support_height">Height</label>
-            <input type="number" step="any" id="hd_support_height" name="height" data-select="fileDesc > sourceDesc > msDesc > physDesc > objectDesc > supportDesc > extent > dimensions[type='leaf'] > height" data-attr="quantity" required>
-            <span>mm</span>
+            <div class="subrow">
+                <label for="hd_support_width">Width</label>
+                <input type="number" step="any" id="hd_support_width" name="width" data-select="fileDesc > sourceDesc > msDesc > physDesc > objectDesc > supportDesc > extent > dimensions[type='leaf'] > width" data-attr="quantity" required>
+                <span>mm</span>
+                <label for="hd_support_width_min">Min</label>
+                <input type="number" step="any" id="hd_support_width" name="width" data-select="fileDesc > sourceDesc > msDesc > physDesc > objectDesc > supportDesc > extent > dimensions[type='leaf'] > width" data-attr="min">
+                <span>mm</span>
+                <label for="hd_support_width_max">Max</label>
+                <input type="number" step="any" id="hd_support_width" name="width" data-select="fileDesc > sourceDesc > msDesc > physDesc > objectDesc > supportDesc > extent > dimensions[type='leaf'] > width" data-attr="max">
+                <span>mm</span> 
+            </div>
+            <div style="flex-basis: 100%; height:0"></div>
+            <div class="subrow">
+                <label for="hd_support_height">Height</label>
+                <input type="number" step="any" id="hd_support_height" name="height" data-select="fileDesc > sourceDesc > msDesc > physDesc > objectDesc > supportDesc > extent > dimensions[type='leaf'] > height" data-attr="quantity" required>
+                <span>mm</span>
+                <label for="hd_support_height_min">Min</label>
+                <input type="number" step="any" id="hd_support_height_min" name="heightmin" data-select="fileDesc > sourceDesc > msDesc > physDesc > objectDesc > supportDesc > extent > dimensions[type='leaf'] > height" data-attr="min">
+                <span>mm</span>
+                <label for="hd_support_height_max">Max</label>
+                <input type="number" step="any" id="hd_support_height_max" name="height" data-select="fileDesc > sourceDesc > msDesc > physDesc > objectDesc > supportDesc > extent > dimensions[type='leaf'] > height" data-attr="max">
+                <span>mm</span> 
+            </div>
         </div>
     </div>
     <div>
-        <span>Written area</span>
+        <span title="Dimensions of the written area of the leaf.">Written area</span>
         <div>
-            <label for="hd_support_width">Width</label>
-            <input type="number" step="any" id="hd_support_width" name="width" data-select="fileDesc > sourceDesc > msDesc > physDesc > objectDesc > supportDesc > extent > dimensions[type='written'] > width" data-attr="quantity">
-            <span>mm</span>
-        </div>
-        <div>
-            <label for="hd_support_height">Height</label>
-            <input type="number" step="any" id="hd_support_height" name="height" data-select="fileDesc > sourceDesc > msDesc > physDesc > objectDesc > supportDesc > extent > dimensions[type='written'] > height" data-attr="quantity">
-            <span>mm</span>
+            <div class="subrow">
+                <label for="hd_support_writtenWidth">Width</label>
+                <input type="number" step="any" id="hd_support_writtenWidth" name="width" data-select="fileDesc > sourceDesc > msDesc > physDesc > objectDesc > supportDesc > extent > dimensions[type='written'] > width" data-attr="quantity">
+                <span>mm</span>
+                <label for="hd_support_writtenWidth_min">Min</label>
+                <input type="number" step="any" id="hd_support_writtenWidth" name="widthmin" data-select="fileDesc > sourceDesc > msDesc > physDesc > objectDesc > supportDesc > extent > dimensions[type='written'] > width" data-attr="min">
+                <span>mm</span>
+                <label for="hd_support_writtenWidth_max">Max</label>
+                <input type="number" step="any" id="hd_support_writtenWidth_max" name="widthmax" data-select="fileDesc > sourceDesc > msDesc > physDesc > objectDesc > supportDesc > extent > dimensions[type='written'] > width" data-attr="max">
+                <span>mm</span> 
+            </div>
+            <div style="flex-basis: 100%; height:0"></div>
+            <div class="subrow">
+                <label for="hd_support_writtenHeight">Height</label>
+                <input type="number" step="any" id="hd_support_writtenHeight" name="height" data-select="fileDesc > sourceDesc > msDesc > physDesc > objectDesc > supportDesc > extent > dimensions[type='written'] > height" data-attr="quantity">
+                <span>mm</span>
+                <label for="hd_support_writtenHeight_min">Min</label>
+                <input type="number" step="any" id="hd_support_writtenHeight" name="heightmin" data-select="fileDesc > sourceDesc > msDesc > physDesc > objectDesc > supportDesc > extent > dimensions[type='written'] > height" data-attr="min">
+                <span>mm</span>
+                <label for="hd_support_writtenHeight_max">Max</label>
+                <input type="number" step="any" id="hd_support_writtenHeight" name="heightmax" data-select="fileDesc > sourceDesc > msDesc > physDesc > objectDesc > supportDesc > extent > dimensions[type='written'] > height" data-attr="max">
+                <span>mm</span> 
+            </div>
         </div>
     </div>
     <div>
         <label for="hd_columns">Columns</label>
         <input type="number" step="1" min="1" id="hd_columns" name="columns" data-select="fileDesc > sourceDesc > msDesc > physDesc > objectDesc > layoutDesc > layout" data-attr="columns" placeholder="1">
-        <label for="hd_writtenLines">Lines per page (written)</label>
+        <label for="hd_writtenLines" title="One number, or two numbers separated by a space for a range.">Lines per page (written)</label>
         <input type="text" id="hd_writtenLines" name="writtenLines" data-select="fileDesc > sourceDesc > msDesc > physDesc > objectDesc > layoutDesc > layout" data-attr="writtenLines" placeholder="XX or XX XX" pattern="\d+\s*\d*" size="8"> 
-        <label for="hd_ruledLines">Lines per page (ruled)</label>
+        <label for="hd_ruledLines" title="One number, or two numbers separated by a space for a range.">Lines per page (ruled)</label>
         <input type="text" id="hd_ruledLines" name="ruledLines" data-select="fileDesc > sourceDesc > msDesc > physDesc > objectDesc > layoutDesc > layout" data-attr="ruledLines" placeholder="XX or XX XX" pattern="\d+\s*\d*" size="8"> 
     </div>
     <div>
