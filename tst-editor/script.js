@@ -320,13 +320,17 @@
             return state.heditor.querySelector('.CodeMirror-required');
         },
         codeMirrorInit: function(textarea) {
-            const getSchema = function() {
-                const layout = ['pb','lb','space']; // no divs anymore
-                const emendations = ['add','del','subst'];
-                const difficult = ['unclear','damage'];
-                const descriptive = ['term','note','persName','orgName'];
+            const getSchema = function(s) {
+                const schemae = {
+                    transcription: ['milestone','lb','pb','add','del','subst','space','unclear','gap', 'damage'], 
+                    descriptive: ['term','note','emph', 'title','locus','material'],
+                    names: ['persName','orgName','geogName'],
+                };
+                const selected = s ? 
+                    s.split(' ').map(str => schemae[str]) : 
+                    schemae.values();
                 const tags = {
-                    '!top': [...layout, ...emendations, ...difficult, ...descriptive],
+                    '!top': Array.prototype.concat(...selected),
                     '!attrs': {
                     },
 
@@ -341,6 +345,13 @@
                     lb: {
                         attrs: {
                             n: null,
+                            '/': null,
+                        }
+                    },
+                    milestone: {
+                        attrs: {
+                            n: null,
+                            unit: ['folio','page'],
                             '/': null,
                         }
                     },
@@ -359,17 +370,16 @@
                             rend: ['caret','above','below'],
                             place: ['above','below','left','right','top','bottom','margin'],
                         },
-                        children: [...emendations, ...difficult],
+                        children: ['unclear'],
                     },
                     del: {
                         attrs: {
-                            rend: ['overstrike','understrike','strikethrough','scribble'],
+                            rend: ['overstrike','understrike','strikethrough','scribble','line above', 'two lines above'],
                         },
-                        children: [...emendations, ...difficult],
+                        children: ['unclear','space'],
                     },
                     subst: {
                         attrs: {
-                            type: ['transpose'],
                         },
                         children: ['add','del'],
                     },
@@ -377,12 +387,20 @@
                     // Difficult or missing text
                     unclear: {
                         attrs: {
-                            reason: ['blemish','rubbed','messy'],
+                            reason: ['blemish','rubbed','messy','damaged'],
                         }
                     },
                     damage: {
                         attrs: {
                             reason: ['torn','hole'],
+                            unit: ['akṣara'],
+                            quantity: null,
+                        },
+                    },
+                    gap: {
+                        attrs: {
+                            reason: ['illegible','damaged'],
+                            unit: ['akṣara'],
                             quantity: null,
                         },
                     },
@@ -397,13 +415,46 @@
                         attrs: {
                             'xml:lang': ['tam','tam-Taml','eng','fra','por','pal','san'],
                         },
+                        children: ['locus','title','emph','term'],
                     },
+                    title: {
+                        attrs: {
+                            'xml:lang': ['tam','tam-Taml','eng','fra','por','pal','san'],
+                        },
+                        children: ['emph'],
+                    },
+                    emph: {
+                        attrs: {
+                            'rend': ['bold','italic'],
+                            'xml:lang': ['tam','tam-Taml','eng','fra','por','pal','san'],
+                        },
+                    },
+                    locus: {
+                        attrs: {
+                            n: null,
+                            facs: null,
+                            'xml:lang': ['eng','fra'],
+                        }
+                    },
+                    material: {
+                        attrs: {
+                            'xml:lang': ['eng','fra'],
+                        },
+                    },
+
+                    // names
+                    
                     persName: {
                         attrs: {
                             'xml:id': [],
                         },
                     },
                     orgName: {
+                        attrs: {
+                            'xml:id': [],
+                        },
+                    },
+                    geogName: {
                         attrs: {
                             'xml:id': [],
                         },
@@ -448,7 +499,7 @@
                     '\'=\'': completeIfInTag,
                     'Ctrl-Space': 'autocomplete'
                 },
-                hintOptions: {schemaInfo: getSchema()},
+                hintOptions: {schemaInfo: getSchema(textarea.dataset.schema)},
                 lint: true,
                 gutters: ['CodeMirror-lint-markers'],
                 lineWrapping: true,
