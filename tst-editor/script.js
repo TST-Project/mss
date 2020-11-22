@@ -317,7 +317,7 @@
                     return field;
                 }
             }
-            return state.heditor.querySelector('.CodeMirror-required');
+            return state.heditor.querySelector('.CodeMirror-required,.cm-error');
         },
         codeMirrorInit: function(textarea) {
             const getSchema = function(s) {
@@ -352,6 +352,7 @@
                         attrs: {
                             n: null,
                             unit: ['folio','page'],
+                            facs: null,
                             '/': null,
                         }
                     },
@@ -431,7 +432,6 @@
                     },
                     locus: {
                         attrs: {
-                            n: null,
                             facs: null,
                             'xml:lang': ['eng','fra'],
                         }
@@ -514,7 +514,10 @@
             const invalid = editor.checkInvalid();
             if(invalid) {
                 invalid.scrollIntoView({behavior: 'smooth', block: 'center'});
-                alert(`Missing ${invalid.name || 'information'}`);
+                if(invalid.validity && !invalid.validity.valid)
+                    alert(`Missing or incomplete ${invalid.name || 'information'}`);
+                else
+                    alert('XML errors');
                 return;
             }
             const test = state.heditor.querySelector('.CodeMirror-lint-marker-error');

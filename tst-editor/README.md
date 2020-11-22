@@ -27,7 +27,7 @@ The records are stored in TEI XML format. Some fields in the editor allow for XM
 
 ### If you don't want to bother with XML...
 
-If you don't understand tagging or don't want to bother with it, don't worry! Just type in plain text. However, certain characters, such as **<**, **>**, and **&**, are not allowed in those fields. If you use them in XML fields, they will be underlined in red. If you wish to use those characters, type this instead:
+If you don't understand tagging or don't want to bother with it, don't worry! Just type in plain text. However, certain characters, such as **<**, **>**, and **&**, are not allowed in those fields. If you use them in XML fields, they will be in red or underlined in red. If you wish to use those characters, type this instead:
 
 * **&amp;lt;** instead of **<**
 * **&amp;gt;** instead of **>**
