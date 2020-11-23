@@ -1018,6 +1018,14 @@
     </xsl:element>
 </xsl:template>
 
+<xsl:template match="x:geogName">
+    <xsl:element name="span">
+        <xsl:attribute name="class">geogname</xsl:attribute>
+        <xsl:call-template name="lang"/>
+        <xsl:apply-templates/>
+    </xsl:element>
+</xsl:template>
+
 <xsl:template match="x:sourceDoc"/>
 
 <!-- transcription styling -->
