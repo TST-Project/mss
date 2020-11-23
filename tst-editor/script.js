@@ -317,8 +317,9 @@
                     return field;
                 }
             }
-            return state.heditor.querySelector('.CodeMirror-required,.cm-error');
+            return state.heditor.querySelector('.CodeMirror-required,.cm-error,.CodeMirror-lint-mark-error') || state.heditor.querySelector('.CodeMirror-lint-marker-error');
         },
+
         codeMirrorInit: function(textarea) {
             const getSchema = function(s) {
                 const schemae = {
@@ -523,15 +524,13 @@
             if(invalid) {
                 invalid.scrollIntoView({behavior: 'smooth', block: 'center'});
                 if(invalid.validity && !invalid.validity.valid)
-                    alert(`Missing or incomplete ${invalid.name || 'information'}`);
-                else
-                    alert('XML errors');
-                return;
-            }
-            const test = state.heditor.querySelector('.CodeMirror-lint-marker-error');
-            if(test) {
-                test.scrollIntoView({behavior: 'smooth', block: 'center'});
-                alert('XML error');
+                    alert(`Missing or incomplete ${invalid.name || 'field'}`);
+                else {
+                    const txt = invalid.textContent;
+                    if(txt.trim() != '')
+                        alert(`XML error: '${txt}'`);
+                    else alert('XML error');
+                }
                 return;
             }
             
