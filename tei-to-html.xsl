@@ -580,14 +580,19 @@
     <xsl:apply-templates />
 </xsl:template>
 
-<xsl:template match="x:measure[@unit='stringhole' or @unit='folio']">
-    <xsl:variable select="@quantity" name="num"/>
-    <xsl:value-of select="$num"/>
+<xsl:template name="units">
+    <xsl:param name="q" select="@quantity"/>
+    <xsl:param name="u" select="@unit"/>
+    <xsl:value-of select="$q"/>
     <xsl:text> </xsl:text>
-    <xsl:value-of select="@unit"/>
-    <xsl:if test="$num &gt; 1">
+    <xsl:value-of select="$u"/>
+    <xsl:if test="$q &gt; 1">
         <xsl:text>s</xsl:text>
     </xsl:if>
+</xsl:template>
+
+<xsl:template match="x:measure[@unit='stringhole' or @unit='folio']">
+    <xsl:call-template name="units"/>
     <xsl:text>. </xsl:text>
     <xsl:apply-templates />
 </xsl:template>
@@ -729,7 +734,14 @@
             <xsl:text>: </xsl:text>
         </xsl:element>
       </xsl:if>
-      <xsl:if test="@writtenLines">
+      <xsl:if test="@columns and not(@columns='')">
+        <xsl:call-template name="units">
+            <xsl:with-param name="u">column</xsl:with-param>
+            <xsl:with-param name="q" select="@columns"/>
+        </xsl:call-template>
+        <xsl:text>. </xsl:text>
+      </xsl:if>
+      <xsl:if test="@writtenLines and not(@writtenLines='')">
         <xsl:value-of select="translate(@writtenLines,' ','-')"/>
         <xsl:text> written lines per page. </xsl:text>
       </xsl:if>
