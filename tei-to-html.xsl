@@ -327,7 +327,18 @@
         <xsl:element name="thead">
             <xsl:element name="tr">
                 <xsl:element name="th">
+                    <xsl:attribute name="colspan">2</xsl:attribute>
+                    <xsl:attribute name="class">left-align</xsl:attribute>
                     <xsl:value-of select="@n"/>
+                    <xsl:choose>
+                        <xsl:when test="@defective = 'false'">
+                            <xsl:text> (complete)</xsl:text>
+                        </xsl:when>
+                        <xsl:when test="@defective = 'true'">
+                            <xsl:text> (incomplete)</xsl:text>
+                        </xsl:when>
+                        <xsl:otherwise/>
+                    </xsl:choose>
                 </xsl:element>
             </xsl:element>
         </xsl:element>
