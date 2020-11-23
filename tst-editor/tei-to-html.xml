@@ -577,8 +577,8 @@
     <xsl:element name="li">
         <xsl:text>width: </xsl:text>
         <xsl:apply-templates select="@quantity"/>
-        <xsl:apply-templates select="@min"/>
-        <xsl:apply-templates select="@max"/>
+        <xsl:if test="not(@min='')"><xsl:apply-templates select="@min"/></xsl:if>
+        <xsl:if test="not(@max='')"><xsl:apply-templates select="@max"/></xsl:if>
         <xsl:text> </xsl:text>
         <xsl:value-of select="../@unit"/>
     </xsl:element>
@@ -587,8 +587,8 @@
     <xsl:element name="li">
         <xsl:text>height: </xsl:text>
         <xsl:apply-templates select="@quantity"/>
-        <xsl:apply-templates select="@min"/>
-        <xsl:apply-templates select="@max"/>
+        <xsl:if test="not(@min='')"><xsl:apply-templates select="@min"/></xsl:if>
+        <xsl:if test="not(@max='')"><xsl:apply-templates select="@max"/></xsl:if>
         <xsl:text> </xsl:text>
         <xsl:value-of select="../@unit"/>
     </xsl:element>
@@ -597,8 +597,8 @@
     <xsl:element name="li">
         <xsl:text>depth: </xsl:text>
         <xsl:apply-templates select="@quantity"/>
-        <xsl:apply-templates select="@min"/>
-        <xsl:apply-templates select="@max"/>
+        <xsl:if test="not(@min='')"><xsl:apply-templates select="@min"/></xsl:if>
+        <xsl:if test="not(@max='')"><xsl:apply-templates select="@max"/></xsl:if>
         <xsl:text> </xsl:text>
         <xsl:value-of select="../@unit"/>
     </xsl:element>
