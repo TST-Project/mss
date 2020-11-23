@@ -337,6 +337,7 @@
                                     <xsl:text>#text-</xsl:text>
                                     <xsl:value-of select="@n"/>
                                 </xsl:attribute>
+                                <xsl:attribute name="data-scroll"/>
                                 <xsl:value-of select="@n"/>
                             </xsl:element>
                         </xsl:when>
@@ -963,20 +964,22 @@
 <xsl:template match="x:facsimile"/>
 
 <xsl:template match="x:text">
-    <xsl:element name="hr"/>
-    <section class="teitext">
+    <xsl:element name="hr">
+        <xsl:attribute name="id">
+            <xsl:text>text-</xsl:text>
+            <xsl:value-of select="@n"/>
+        </xsl:attribute>
+    </xsl:element>
+    <xsl:element name="section">
+        <xsl:attribute name="class">teitext</xsl:attribute>
         <xsl:call-template name="lang"/>
         <xsl:apply-templates select="@n"/>
         <xsl:apply-templates/>
-    </section>
+    </xsl:element>
 </xsl:template>
 
 <xsl:template match="x:text/@n">
     <xsl:element name="h2">
-        <xsl:attribute name="id">
-            <xsl:text>text-</xsl:text>
-            <xsl:value-of select="."/>
-        </xsl:attribute>
         <xsl:value-of select="."/>
     </xsl:element>
 </xsl:template>
