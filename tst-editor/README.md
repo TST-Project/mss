@@ -62,3 +62,7 @@ In the foliation section, you may define a number of codicological units, which 
 Give each unit a unique name, without spaces. They can be descriptive, such as "text" and "guard-folios", or enumerated, such as "U1", "U2", etc.
 
 ![Foliation](screenshots/foliation.png)
+
+In the "Scribal hand" and "Contents" sections, you can then refer back to those units that you defined previously.
+
+![Contents](screenshots/contents.png)
