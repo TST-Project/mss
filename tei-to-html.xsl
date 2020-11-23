@@ -87,6 +87,7 @@
 
 <xsl:template match="x:teiHeader">
     <xsl:element name="section">
+        <xsl:call-template name="lang"/>
         <xsl:apply-templates />
     </xsl:element>
 </xsl:template>

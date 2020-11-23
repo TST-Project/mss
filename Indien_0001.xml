@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
+   <teiHeader xml:lang="eng">
       <fileDesc>
          <titleStmt>
-            <title>Indien <num>1</num>. <title xml:lang="tam">Attuvaitāṉupavam</title></title>
+            <title xml:lang="tam">Attuvaitāṉupavam</title>
          </titleStmt>
          <editionStmt>
             <p>Record edited by <persName>Emmanuel FRANCIS</persName> (CNRS, CEIAS UMR 8564, EHESS/CNRS).</p>
@@ -51,13 +51,13 @@
                         <p>Other manuscript testimonies of this text are kept in the GOML: D. 1428–1430 (Kuppuswami Sastri 1927, pp. 1240–2), R. 1342 (Fazlullah and Chandrasekharan 1949, p. 2228). See also Chandrasekharan (1951: n° 106).</p>
                      </filiation>
                      <rubric xml:lang="tam">
-                        <note xml:lang="en">
+                        <note xml:lang="eng">
                            <locus facs="5">folio 75, recto</locus> = <emph rend="bold">invocation</emph>: marginal title, invocatory stanza, benediction. <locus facs="5">(f75r, lm, 1‒2)</locus>
                            <quote xml:lang="tam">Attuvaitāṉupavam</quote>. <locus facs="5">(f75r1‒f75r4)</locus> (invocatory stanza).</note>
                         <milestone n="75r5" facs="5" unit="folio"/>caṟkuru pātan tuṇai
                      </rubric>
                      <incipit xml:lang="tam">
-                        <note xml:lang="en">
+                        <note xml:lang="eng">
                            <locus facs="7">folio 76, recto</locus> = <emph rend="bold">incipit</emph> of <term xml:lang="tam">Pāyiram</term>: marginal chapter header; stanza n° 1 of <term xml:lang="tam">Pāyiram</term>. <locus facs="7">(f76r, lm)</locus>
                            <quote xml:lang="tam">pāyiram kuruvaṇakkam</quote>
                         </note>
@@ -66,7 +66,7 @@
                         <lb/>p ‡ poruṇiṟaiyu mattuvitā [i.e. mattuvaitā] vaṉupavanūṟ ṟirupatumpāṟ pukalu vōmē = 1 = piramacukak (…)
                      </incipit>
                      <incipit xml:lang="tam">
-                        <note xml:lang="en">
+                        <note xml:lang="eng">
                            <locus facs="9">folio 77, recto</locus> = <emph rend="bold">incipit</emph> of <term xml:lang="tam">Atikāralaṭcaṇam</term>: marginal chapter header, stanza n° 1 of <term xml:lang="tam">Atikāralaṭcaṇam</term>. <locus facs="9">(f77r, lm)</locus>
                            <quote xml:lang="tam">Atikāralaṭcaṇam</quote>
                         </note>
@@ -75,7 +75,7 @@
                         <lb/>raṇaiyāṟ piṉcīvaṉ piramamāy muṭiyun tāṉē = 1 = (…)
                      </incipit>
                      <explicit xml:lang="tam">
-                        <note xml:lang="en">
+                        <note xml:lang="eng">
                            <locus facs="44">folio 94, verso</locus> = <emph rend="bold">excipit</emph> of <term xml:lang="tam">Vivēkacoṟūpam</term>: stanza n° 10 of <term xml:lang="tam">Vivēkacoṟūpam</term>, completion statement, total <term xml:lang="tam" rend="italic">atikāram</term>s including <term xml:lang="tam">Pāyiram</term>, total stanzas.</note>
                         <milestone n="94v6" facs="44" unit="folio"/> ciruṭṭikku muṉpiṉiraṇṭi llāmaloṉṟā yirunta cattē tiṉantē kāti ‡ viruttikkuñ cāṭci
                         <lb/>yākiyanī yeṉṟē camavētañ collum ‡ maruppilā vaparōṭcap poruḷiteṉ ṟuce(ka)cāṭ-
@@ -83,7 +83,7 @@
                         <lb/>rūpamuṟṟum = {Āka} Atikāram – 12ukki pāyiram uḷpaṭa tiruviruttam – 123 =
                      </explicit>
                      <colophon xml:lang="tam">
-                        <note xml:lang="en">
+                        <note xml:lang="eng">
                            <locus facs="45">folio 95, recto and verso</locus> = <emph rend="bold">postface</emph>, that is, <term xml:lang="tam" rend="italic">nūl varalāṟu</term>. Tentative reading; only stanza 2 split by <term xml:lang="tam" rend="italic">cīr</term>s, following Kuppusvami Sastri’s reading (1927, p. 1241).</note>
                         <milestone n="95r1" facs="45" unit="folio"/>Iravu-pakaliṉ ṉūlaip poruḷ aṟiyāt’ uraittālum iṉmai cērum pācukam uṇṭāyp ‡ pirama-ñāṉiyāy viṭuv a-
                         <lb/>ṇintap palaṉ tappātu ‡ tiramuṭaṉiṉ ṉūṟ poruḷaiy aṟint’ orukkāṟ kēṭṭaṉun teruṇṭavarkkum ‡ varamutavu-
@@ -134,18 +134,18 @@
                      <p>
                         <emph rend="bold">U1</emph>, <locus facs="3">folio 1, recto, unfoliated</locus> = <emph rend="bold">title-page</emph>: benediction, title.
                         <lg xml:lang="tam">
-                           <l><locus xml:lang="en" facs="7">(f[1]r, c1, 1‒3)</locus> veṟṟivēl uṟṟa tuṇai</l>
-                           <l><locus xml:lang="en" facs="7">(f[1]r, c2, 1‒2)</locus> Attuvaitānupavam [<term xml:lang="en">i.e.</term> attuvaitāṉupavam]</l>
+                           <l><locus xml:lang="eng" facs="7">(f[1]r, c1, 1‒3)</locus> veṟṟivēl uṟṟa tuṇai</l>
+                           <l><locus xml:lang="eng" facs="7">(f[1]r, c2, 1‒2)</locus> Attuvaitānupavam [<term xml:lang="eng">i.e.</term> attuvaitāṉupavam]</l>
                         </lg>
                      </p>
                      <p>The beginning of each chapter is indicated by an intertitle in the left margin, whereas a completion statement and total stanzas so far (including those of the <term xml:lang="tam">pāyiram</term>) are found at the end of each chapter. Occasionally the title of the next chapter is also given. See, e.g.:
                         <lg xml:lang="tam">
-                           <l>pāyiram kuruvaṇakkam <locus xml:lang="en" facs="9">(f76r, lm)</locus> &amp; kuruvaṇakkamuttum [<term xml:lang="en">i.e.</term> kuruvaṇakkamuṟṟum] = yippāl atikāralaṭcaṇam = <locus xml:lang="en" facs="10">(f76v1)</locus>
+                           <l>pāyiram kuruvaṇakkam <locus xml:lang="eng" facs="9">(f76r, lm)</locus> &amp; kuruvaṇakkamuttum [<term xml:lang="eng">i.e.</term> kuruvaṇakkamuṟṟum] = yippāl atikāralaṭcaṇam = <locus xml:lang="eng" facs="10">(f76v1)</locus>
                            </l>
-                           <l>atikāralaṭcaṇam <locus xml:lang="en" facs="11">(f77r, lm)</locus> &amp; atikāralaṭcaṇamuṟṟum = {āka} pāyiram uḷpaṭa tiruviruttam – 13 = iraṇṭāvatu – attiyālōpavvavātam [<term xml:lang="en">i.e.</term> attiyārōpavvavātam, <locus facs="14" xml:lang="en">cf. f78v, lm</locus>] = <locus facs="13" xml:lang="en">(f78r8‒9)</locus>
+                           <l>atikāralaṭcaṇam <locus xml:lang="eng" facs="11">(f77r, lm)</locus> &amp; atikāralaṭcaṇamuṟṟum = {āka} pāyiram uḷpaṭa tiruviruttam – 13 = iraṇṭāvatu – attiyālōpavvavātam [<term xml:lang="eng">i.e.</term> attiyārōpavvavātam, <locus facs="14" xml:lang="eng">cf. f78v, lm</locus>] = <locus facs="13" xml:lang="eng">(f78r8‒9)</locus>
                            </l>
-                           <l>[12]{āvatu} vivēkacōrūpam <locus facs="42" xml:lang="en">(f93v, lm)</locus></l>
-                           <l>vivēkacōrūpamuṟṟum = {āka} atikāram – 12ukki pāyiram uḷpaṭa tiruviruttam – 123 = <locus facs="44" xml:lang="en">(f94v8‒9)</locus></l>
+                           <l>[12]{āvatu} vivēkacōrūpam <locus facs="42" xml:lang="eng">(f93v, lm)</locus></l>
+                           <l>vivēkacōrūpamuṟṟum = {āka} atikāram – 12ukki pāyiram uḷpaṭa tiruviruttam – 123 = <locus facs="44" xml:lang="eng">(f94v8‒9)</locus></l>
                         </lg>
                      </p>
                   </additions>
