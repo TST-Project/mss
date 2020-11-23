@@ -405,7 +405,7 @@
         <xsl:element name="td">
             <xsl:variable name="mainLang" select="@mainLang"/>
             <xsl:value-of select="document('')/*/my:langs/my:entry[@key=$mainLang]"/>
-            <xsl:if test="not(@otherLangs='')">
+            <xsl:if test="@otherLangs and not(@otherLangs='')">
                 <xsl:text> (</xsl:text>
                 <xsl:call-template name="splitlist">
                     <xsl:with-param name="list" select="@otherLangs"/>
@@ -626,8 +626,8 @@
     <xsl:element name="li">
         <xsl:text>width: </xsl:text>
         <xsl:apply-templates select="@quantity"/>
-        <xsl:if test="not(@min='')"><xsl:apply-templates select="@min"/></xsl:if>
-        <xsl:if test="not(@max='')"><xsl:apply-templates select="@max"/></xsl:if>
+        <xsl:if test="@min and not(@min='')"><xsl:apply-templates select="@min"/></xsl:if>
+        <xsl:if test="@max and not(@max='')"><xsl:apply-templates select="@max"/></xsl:if>
         <xsl:text> </xsl:text>
         <xsl:value-of select="../@unit"/>
     </xsl:element>
@@ -636,8 +636,8 @@
     <xsl:element name="li">
         <xsl:text>height: </xsl:text>
         <xsl:apply-templates select="@quantity"/>
-        <xsl:if test="not(@min='')"><xsl:apply-templates select="@min"/></xsl:if>
-        <xsl:if test="not(@max='')"><xsl:apply-templates select="@max"/></xsl:if>
+        <xsl:if test="@min and not(@min='')"><xsl:apply-templates select="@min"/></xsl:if>
+        <xsl:if test="@max and not(@max='')"><xsl:apply-templates select="@max"/></xsl:if>
         <xsl:text> </xsl:text>
         <xsl:value-of select="../@unit"/>
     </xsl:element>
@@ -646,8 +646,8 @@
     <xsl:element name="li">
         <xsl:text>depth: </xsl:text>
         <xsl:apply-templates select="@quantity"/>
-        <xsl:if test="not(@min='')"><xsl:apply-templates select="@min"/></xsl:if>
-        <xsl:if test="not(@max='')"><xsl:apply-templates select="@max"/></xsl:if>
+        <xsl:if test="@min and not(@min='')"><xsl:apply-templates select="@min"/></xsl:if>
+        <xsl:if test="@max and not(@max='')"><xsl:apply-templates select="@max"/></xsl:if>
         <xsl:text> </xsl:text>
         <xsl:value-of select="../@unit"/>
     </xsl:element>
@@ -989,6 +989,23 @@
 </xsl:template>
 
 <xsl:template match="x:sourceDoc"/>
+
+<!-- transcription styling -->
+
+<xsl:template match="x:del">
+    <xsl:variable name="rend" select="@rend"/>
+    <xsl:element name="del">
+        <xsl:attribute name="title">
+            <xsl:text>deleted</xsl:text>
+            <xsl:if test="string($rend)">
+                <xsl:text> (</xsl:text>
+                <xsl:value-of select="$rend"/>
+                <xsl:text>)</xsl:text>
+           </xsl:if>
+        </xsl:attribute>
+        <xsl:apply-templates/>
+    </xsl:element>
+</xsl:template>
 
 <xsl:template match="@*|node()">
     <xsl:copy>
