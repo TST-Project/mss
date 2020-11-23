@@ -52,6 +52,7 @@
 
 <xsl:template match="x:teiHeader">
     <xsl:element name="section">
+        <xsl:call-template name="lang"/>
         <xsl:apply-templates />
     </xsl:element>
 </xsl:template>
@@ -288,10 +289,36 @@
 <xsl:template match="x:msItem">
   <table class="msItem">
     <xsl:if test="@n">
+        <xsl:variable name="thisn" select="@n"/>
         <xsl:element name="thead">
             <xsl:element name="tr">
                 <xsl:element name="th">
-                    <xsl:value-of select="@n"/>
+                    <xsl:attribute name="colspan">2</xsl:attribute>
+                    <xsl:attribute name="class">left-align</xsl:attribute>
+                    <xsl:choose>
+                        <xsl:when test="//x:TEI/x:text[@n=$thisn]">
+                            <xsl:element name="a">
+                                <xsl:attribute name="href">
+                                    <xsl:text>#text-</xsl:text>
+                                    <xsl:value-of select="@n"/>
+                                </xsl:attribute>
+                                <xsl:attribute name="data-scroll"/>
+                                <xsl:value-of select="@n"/>
+                            </xsl:element>
+                        </xsl:when>
+                        <xsl:otherwise>
+                        <xsl:value-of select="@n"/>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                    <xsl:choose>
+                        <xsl:when test="@defective = 'false'">
+                            <xsl:text> (complete)</xsl:text>
+                        </xsl:when>
+                        <xsl:when test="@defective = 'true'">
+                            <xsl:text> (incomplete)</xsl:text>
+                        </xsl:when>
+                        <xsl:otherwise/>
+                    </xsl:choose>
                 </xsl:element>
             </xsl:element>
         </xsl:element>
@@ -358,7 +385,7 @@
         <xsl:element name="td">
             <xsl:variable name="mainLang" select="@mainLang"/>
             <xsl:value-of select="document('')/*/my:langs/my:entry[@key=$mainLang]"/>
-            <xsl:if test="not(@otherLangs='')">
+            <xsl:if test="@otherLangs and not(@otherLangs='')">
                 <xsl:text> (</xsl:text>
                 <xsl:call-template name="splitlist">
                     <xsl:with-param name="list" select="@otherLangs"/>
@@ -518,14 +545,19 @@
     <xsl:apply-templates />
 </xsl:template>
 
-<xsl:template match="x:measure[@unit='stringhole' or @unit='folio']">
-    <xsl:variable select="@quantity" name="num"/>
-    <xsl:value-of select="$num"/>
+<xsl:template name="units">
+    <xsl:param name="q" select="@quantity"/>
+    <xsl:param name="u" select="@unit"/>
+    <xsl:value-of select="$q"/>
     <xsl:text> </xsl:text>
-    <xsl:value-of select="@unit"/>
-    <xsl:if test="$num &gt; 1">
+    <xsl:value-of select="$u"/>
+    <xsl:if test="$q &gt; 1">
         <xsl:text>s</xsl:text>
     </xsl:if>
+</xsl:template>
+
+<xsl:template match="x:measure[@unit='stringhole' or @unit='folio']">
+    <xsl:call-template name="units"/>
     <xsl:text>. </xsl:text>
     <xsl:apply-templates />
 </xsl:template>
@@ -579,8 +611,8 @@
     <xsl:element name="li">
         <xsl:text>width: </xsl:text>
         <xsl:apply-templates select="@quantity"/>
-        <xsl:if test="not(@min='')"><xsl:apply-templates select="@min"/></xsl:if>
-        <xsl:if test="not(@max='')"><xsl:apply-templates select="@max"/></xsl:if>
+        <xsl:if test="@min and not(@min='')"><xsl:apply-templates select="@min"/></xsl:if>
+        <xsl:if test="@max and not(@max='')"><xsl:apply-templates select="@max"/></xsl:if>
         <xsl:text> </xsl:text>
         <xsl:value-of select="../@unit"/>
     </xsl:element>
@@ -589,8 +621,8 @@
     <xsl:element name="li">
         <xsl:text>height: </xsl:text>
         <xsl:apply-templates select="@quantity"/>
-        <xsl:if test="not(@min='')"><xsl:apply-templates select="@min"/></xsl:if>
-        <xsl:if test="not(@max='')"><xsl:apply-templates select="@max"/></xsl:if>
+        <xsl:if test="@min and not(@min='')"><xsl:apply-templates select="@min"/></xsl:if>
+        <xsl:if test="@max and not(@max='')"><xsl:apply-templates select="@max"/></xsl:if>
         <xsl:text> </xsl:text>
         <xsl:value-of select="../@unit"/>
     </xsl:element>
@@ -599,8 +631,8 @@
     <xsl:element name="li">
         <xsl:text>depth: </xsl:text>
         <xsl:apply-templates select="@quantity"/>
-        <xsl:if test="not(@min='')"><xsl:apply-templates select="@min"/></xsl:if>
-        <xsl:if test="not(@max='')"><xsl:apply-templates select="@max"/></xsl:if>
+        <xsl:if test="@min and not(@min='')"><xsl:apply-templates select="@min"/></xsl:if>
+        <xsl:if test="@max and not(@max='')"><xsl:apply-templates select="@max"/></xsl:if>
         <xsl:text> </xsl:text>
         <xsl:value-of select="../@unit"/>
     </xsl:element>
@@ -667,7 +699,14 @@
             <xsl:text>: </xsl:text>
         </xsl:element>
       </xsl:if>
-      <xsl:if test="@writtenLines">
+      <xsl:if test="@columns and not(@columns='')">
+        <xsl:call-template name="units">
+            <xsl:with-param name="u">column</xsl:with-param>
+            <xsl:with-param name="q" select="@columns"/>
+        </xsl:call-template>
+        <xsl:text>. </xsl:text>
+      </xsl:if>
+      <xsl:if test="@writtenLines and not(@writtenLines='')">
         <xsl:value-of select="translate(@writtenLines,' ','-')"/>
         <xsl:text> written lines per page. </xsl:text>
       </xsl:if>
@@ -902,10 +941,25 @@
 <xsl:template match="x:facsimile"/>
 
 <xsl:template match="x:text">
-    <xsl:element name="hr"/>
-    <section class="teitext">
+    <xsl:element name="hr">
+        <xsl:attribute name="id">
+            <xsl:text>text-</xsl:text>
+            <xsl:value-of select="@n"/>
+        </xsl:attribute>
+    </xsl:element>
+    <xsl:element name="section">
+        <xsl:attribute name="class">teitext</xsl:attribute>
+        <xsl:call-template name="lang"/>
+        <xsl:apply-templates select="@n"/>
         <xsl:apply-templates/>
-    </section>
+    </xsl:element>
+</xsl:template>
+
+<xsl:template match="x:text/@n">
+    <xsl:element name="h2">
+        <xsl:attribute name="lang">eng</xsl:attribute>
+        <xsl:value-of select="."/>
+    </xsl:element>
 </xsl:template>
 
 <xsl:template match="x:text/x:body">
@@ -941,7 +995,32 @@
     </xsl:element>
 </xsl:template>
 
+<xsl:template match="x:geogName">
+    <xsl:element name="span">
+        <xsl:attribute name="class">geogname</xsl:attribute>
+        <xsl:call-template name="lang"/>
+        <xsl:apply-templates/>
+    </xsl:element>
+</xsl:template>
+
 <xsl:template match="x:sourceDoc"/>
+
+<!-- transcription styling -->
+
+<xsl:template match="x:del">
+    <xsl:variable name="rend" select="@rend"/>
+    <xsl:element name="del">
+        <xsl:attribute name="title">
+            <xsl:text>deleted</xsl:text>
+            <xsl:if test="string($rend)">
+                <xsl:text> (</xsl:text>
+                <xsl:value-of select="$rend"/>
+                <xsl:text>)</xsl:text>
+           </xsl:if>
+        </xsl:attribute>
+        <xsl:apply-templates/>
+    </xsl:element>
+</xsl:template>
 
 <xsl:template match="@*|node()">
     <xsl:copy>
