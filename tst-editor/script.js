@@ -323,7 +323,7 @@
             const getSchema = function(s) {
                 const schemae = {
                     transcription: ['milestone','lb','pb','add','del','subst','space','unclear','gap', 'damage'], 
-                    descriptive: ['term','note','emph', 'title','locus','material'],
+                    descriptive: ['term','note','emph', 'title','locus','material','ref'],
                     names: ['persName','orgName','geogName'],
                 };
                 const selected = s ? 
@@ -441,7 +441,12 @@
                             'xml:lang': ['eng','fra'],
                         },
                     },
-
+                    
+                    ref: {
+                        attrs: {
+                            'target': null,
+                        },
+                    },
                     // names
                     
                     persName: {
