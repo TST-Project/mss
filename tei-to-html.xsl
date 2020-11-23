@@ -980,6 +980,7 @@
 
 <xsl:template match="x:text/@n">
     <xsl:element name="h2">
+        <xsl:attribute name="lang">eng</xsl:attribute>
         <xsl:value-of select="."/>
     </xsl:element>
 </xsl:template>
