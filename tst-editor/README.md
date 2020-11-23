@@ -33,7 +33,7 @@ The records are stored in TEI XML format. Some fields in the editor allow for XM
 
 ### If you don't want to bother with XML...
 
-If you don't understand tagging or don't want to bother with it, don't worry! Just type in plain text. However, certain characters, such as **<**, **>**, and **&**, are not allowed in those fields. If you use them in XML fields, they will be in red or underlined in red. If you wish to use those characters, type this instead:
+If you don't understand tagging or don't want to bother with it, don't worry! Just type in plain text. However, certain characters, such as **<**, **>**, and **&**, are not allowed in those fields. If you use them in XML fields, they will be in bright red or underlined in red. If you wish to use those characters, type this instead:
 
 * **&amp;lt;** instead of **<**
 * **&amp;gt;** instead of **>**
@@ -51,7 +51,7 @@ In an XML-enabled field, when you type **<**, a drop-down menu will appear with 
 * `<locus>folio XX</locus>` for specifying a locus. In addition, you can use the `facs` attribute to denote the image number of the digital reproduction; e.g., `facs="1"` would link it to the first image, `facs="2"` would link it to the second image, etc.
 * `<milestone n="X" unit="folio"/>` can be used in a transcription to indicate where the transcription starts from. Again, the `facs` attribute can be used to link it to an image.
 
-If there are any XML errors, they will be underlined in red, and a red circle with an X will appear in the left margin. Hover over that circle to see a description of the error.
+If there are any XML errors, they will be underlined in red. There may also be a red circle with an X in the left margin. Hover over that circle to see a description of the error.
 
 ![XML editing](screenshots/xml-editing.png)
 
