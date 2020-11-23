@@ -324,12 +324,26 @@
 <xsl:template match="x:msItem">
   <table class="msItem">
     <xsl:if test="@n">
+        <xsl:variable name="thisn" select="@n"/>
         <xsl:element name="thead">
             <xsl:element name="tr">
                 <xsl:element name="th">
                     <xsl:attribute name="colspan">2</xsl:attribute>
                     <xsl:attribute name="class">left-align</xsl:attribute>
-                    <xsl:value-of select="@n"/>
+                    <xsl:choose>
+                        <xsl:when test="//x:TEI/x:text[@n=$thisn]">
+                            <xsl:element name="a">
+                                <xsl:attribute name="href">
+                                    <xsl:text>#text-</xsl:text>
+                                    <xsl:value-of select="@n"/>
+                                </xsl:attribute>
+                                <xsl:value-of select="@n"/>
+                            </xsl:element>
+                        </xsl:when>
+                        <xsl:otherwise>
+                        <xsl:value-of select="@n"/>
+                        </xsl:otherwise>
+                    </xsl:choose>
                     <xsl:choose>
                         <xsl:when test="@defective = 'false'">
                             <xsl:text> (complete)</xsl:text>
@@ -951,8 +965,20 @@
 <xsl:template match="x:text">
     <xsl:element name="hr"/>
     <section class="teitext">
+        <xsl:call-template name="lang"/>
+        <xsl:apply-templates select="@n"/>
         <xsl:apply-templates/>
     </section>
+</xsl:template>
+
+<xsl:template match="x:text/@n">
+    <xsl:element name="h2">
+        <xsl:attribute name="id">
+            <xsl:text>text-</xsl:text>
+            <xsl:value-of select="."/>
+        </xsl:attribute>
+        <xsl:value-of select="."/>
+    </xsl:element>
 </xsl:template>
 
 <xsl:template match="x:text/x:body">
