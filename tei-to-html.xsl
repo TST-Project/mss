@@ -94,7 +94,7 @@
 <xsl:template match="x:milestone">
     <xsl:element name="span">
         <xsl:attribute name="class">milestone</xsl:attribute>
-        <xsl:attribute name="lang">en</xsl:attribute>
+        <xsl:attribute name="lang">eng</xsl:attribute>
         <xsl:apply-templates select="@facs"/>
         <xsl:choose>
         <xsl:when test="@unit">
@@ -338,7 +338,6 @@
   </xsl:if>
 </xsl:template>
 
-
 <xsl:template match="x:msItem/x:title[not(@type)]">
     <tr>
       <th>Title</th>
@@ -387,6 +386,7 @@
     <my:entry key="san">Sanskrit</my:entry>
     <my:entry key="tam">Tamil</my:entry>
 </my:langs>
+
 <xsl:template match="x:textLang">
     <tr>
         <th>Language</th>
@@ -614,8 +614,8 @@
     <xsl:element name="li">
         <xsl:text>width: </xsl:text>
         <xsl:apply-templates select="@quantity"/>
-        <xsl:apply-templates select="@min"/>
-        <xsl:apply-templates select="@max"/>
+        <xsl:if test="not(@min='')"><xsl:apply-templates select="@min"/></xsl:if>
+        <xsl:if test="not(@max='')"><xsl:apply-templates select="@max"/></xsl:if>
         <xsl:text> </xsl:text>
         <xsl:value-of select="../@unit"/>
     </xsl:element>
@@ -624,8 +624,8 @@
     <xsl:element name="li">
         <xsl:text>height: </xsl:text>
         <xsl:apply-templates select="@quantity"/>
-        <xsl:apply-templates select="@min"/>
-        <xsl:apply-templates select="@max"/>
+        <xsl:if test="not(@min='')"><xsl:apply-templates select="@min"/></xsl:if>
+        <xsl:if test="not(@max='')"><xsl:apply-templates select="@max"/></xsl:if>
         <xsl:text> </xsl:text>
         <xsl:value-of select="../@unit"/>
     </xsl:element>
@@ -634,8 +634,8 @@
     <xsl:element name="li">
         <xsl:text>depth: </xsl:text>
         <xsl:apply-templates select="@quantity"/>
-        <xsl:apply-templates select="@min"/>
-        <xsl:apply-templates select="@max"/>
+        <xsl:if test="not(@min='')"><xsl:apply-templates select="@min"/></xsl:if>
+        <xsl:if test="not(@max='')"><xsl:apply-templates select="@max"/></xsl:if>
         <xsl:text> </xsl:text>
         <xsl:value-of select="../@unit"/>
     </xsl:element>
