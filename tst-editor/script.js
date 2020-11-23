@@ -41,7 +41,7 @@
         template: 'tst-template.xml',
         toplevel: 'teiHeader',
         savedtext: new Map(),
-        curlang: 'en',
+        curlang: 'eng',
     };
 
     const lf = window.localforage || null;
@@ -823,9 +823,9 @@
     const script = {
         init: function() {
             const r = document.getElementById('headerviewer');
-            if(!r.lang) r.lang = 'en';
+            if(!r.lang) r.lang = 'eng';
             state.savedtext = new Map();
-            state.curlang = 'en';
+            state.curlang = 'eng';
 
             const walker = document.createTreeWalker(r,NodeFilter.SHOW_ALL);
             var curnode = walker.currentNode;
@@ -858,7 +858,7 @@
                 script.textWalk(script.toRoman);
                 e.target.innerHTML = 'A';
                 e.target.classList.remove('tamil');
-                state.curlang = 'en';
+                state.curlang = 'eng';
             }
             else {
                 const tamnodes = document.querySelectorAll('[lang="tam"],[lang="tam-Taml"]');

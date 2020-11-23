@@ -58,7 +58,7 @@
 <xsl:template match="x:milestone">
     <xsl:element name="span">
         <xsl:attribute name="class">milestone</xsl:attribute>
-        <xsl:attribute name="lang">en</xsl:attribute>
+        <xsl:attribute name="lang">eng</xsl:attribute>
         <xsl:apply-templates select="@facs"/>
         <xsl:choose>
         <xsl:when test="@unit">
