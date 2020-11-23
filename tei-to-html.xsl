@@ -47,7 +47,7 @@
             </xsl:element>
         </xsl:element>
         <xsl:element name="body">
-            <xsl:attribute name="lang">en</xsl:attribute>   
+            <xsl:attribute name="lang">eng</xsl:attribute>   
             <xsl:element name="div">
                 <xsl:attribute name="id">recordcontainer</xsl:attribute>
                 <xsl:element name="div">
@@ -722,6 +722,7 @@
       </ul></td>
     </tr>
 </xsl:template>
+
 <xsl:template name="splitlist">
     <xsl:param name="list"/>
     <xsl:param name="nocapitalize"/>
