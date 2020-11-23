@@ -66,3 +66,15 @@ Give each unit a unique name, without spaces. They can be descriptive, such as "
 In the "Scribal hand" and "Contents" sections, you can then refer back to those units that you defined previously.
 
 ![Contents](screenshots/contents.png)
+
+## Transcription
+
+In the transcription fields, such as "Incipit", "Explicit", and "Colophon", it may be useful to use these XML tags:
+
+* `<lb/>` indicates a line break. `<pb/>` indicates a page break.
+* `<add place=""></add>` indicates text that has been inserted. Use the `place` attribute to indicate where the insertion is written, e.g., "left-margin", "above", "inline".
+* `<del rend=""></del>` indicates text that has been deleted. Use the `rend` attribute to indicate how the deletion has been made, e.g., "crossed out", "two dots above", "line below".
+* `<unclear reason=""></unclear>` indicates text that is unclear. Use the `reason` attribute to explain why, e.g., "illegible", "smeared", "uninked".
+* `<damage unit="akṣara" quantity="" agent=""></damage>` indicates text that has been damaged. Use the `quantity` attribute to indicate the number of akṣaras that are damaged. Use the `agent` attribute to indicate the kind of damage, e.g., "worms", "rubbing", etc.
+* `<supplied></supplied>` indicates text that you have supplied. Use it, for example, inside the `<damage>` tag to supply an emendation.
+* `<gap unit="akṣara" quantity="" reason=""/>` indicates a gap in the transcription. Use the `quantity` attribute to indicate the number of akṣaras not transcribed, and use the `reason` attribute to explain why, e.g., "illegible", "damaged", etc.

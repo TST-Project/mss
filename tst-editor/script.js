@@ -322,7 +322,7 @@
         codeMirrorInit: function(textarea) {
             const getSchema = function(s) {
                 const schemae = {
-                    transcription: ['milestone','lb','pb','add','del','subst','space','unclear','gap', 'damage'], 
+                    transcription: ['milestone','lb','pb','add','del','subst','space','unclear','gap', 'damage','supplied'], 
                     descriptive: ['term','note','emph', 'title','locus','material','ref'],
                     names: ['persName','orgName','geogName'],
                 };
@@ -393,10 +393,13 @@
                     },
                     damage: {
                         attrs: {
-                            reason: ['torn','hole'],
+                            agent: ['worms','rubbing','smoke'],
                             unit: ['akṣara'],
                             quantity: null,
                         },
+                        children: ['supplied'],
+                    },
+                    supplied: {
                     },
                     gap: {
                         attrs: {
