@@ -586,7 +586,7 @@
     <xsl:value-of select="$q"/>
     <xsl:text> </xsl:text>
     <xsl:value-of select="$u"/>
-    <xsl:if test="$q &gt; 1">
+    <xsl:if test="not($q='1')">
         <xsl:text>s</xsl:text>
     </xsl:if>
 </xsl:template>
@@ -735,9 +735,10 @@
         </xsl:element>
       </xsl:if>
       <xsl:if test="@columns and not(@columns='')">
+        <xsl:variable name="q" select="translate(@columns,' ','-')"/>
         <xsl:call-template name="units">
             <xsl:with-param name="u">column</xsl:with-param>
-            <xsl:with-param name="q" select="@columns"/>
+            <xsl:with-param name="q" select="$q"/>
         </xsl:call-template>
         <xsl:text>. </xsl:text>
       </xsl:if>
