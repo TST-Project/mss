@@ -10,6 +10,10 @@
             <xsl:element name="meta">
                 <xsl:attribute name="charset">utf-8</xsl:attribute>
             </xsl:element>
+            <xsl:element name="meta">
+                <xsl:attribute name="name">viewport</xsl:attribute>
+                <xsl:attribute name="content">width=device-width,initial-scale=1</xsl:attribute>
+            </xsl:element>
             <xsl:element name="title">
                 <xsl:value-of select="//x:titleStmt/x:title"/>
             </xsl:element>
