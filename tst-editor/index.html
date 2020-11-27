@@ -254,6 +254,23 @@
             </div>
         </div>
     </div>
+    <h4>Decorations</h4>
+    <div class="multiple" data-select="fileDesc > sourceDesc > msDesc > physDesc > decoDesc > decoNote">
+        <div class="multi-item">
+            <div>
+                <label for="hd_decoNote_type" title="">Type</label>
+                <select data-multi-attr="type">
+                    <option value="marginal">Marginal</option>
+                    <option value="border">Border</option>
+                    <option value="illustration">Illustration</option>
+                    <option value="technical">Technical</option>
+                </select>
+            </div>
+            <div>
+                <textarea rows="4" data-multi-select="desc" data-schema="descriptive" placeholder="Description of decoration"></textarea>
+            </div>
+        </div>
+    </div>
     <h4>Additions</h4>
     <div class="multiple" data-select="fileDesc > sourceDesc > msDesc > physDesc > additions > p">
         <div class="multi-item">
