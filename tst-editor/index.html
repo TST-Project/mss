@@ -75,13 +75,13 @@
     </div>
     <div>
         <label for="hd_publisher">Publisher</label>
-        <input type="text" id="hd_publisher" name="publisher" data-select="fileDesc > titleStmt > publicationStmt > publisher" value="TST Project" readonly>
+        <input type="text" id="hd_publisher" name="publisher" data-select="fileDesc > publicationStmt > publisher" value="TST Project" readonly>
         <label for="hd_publish_date">Publication date</label>
         <input type="text" id="hd_publish_date" name="publish_date" data-select="fileDesc > titleStmt > publicationStmt > date" value="2020" readonly>
     </div>
     <div>
         <label for="hd_summary">Summary</label>
-        <textarea rows="10" id="hd_summary" name="summary" data-select="fileDesc > sourceDesc > msDesc > msContents > summary > p" data-schema="descriptive names" placeholder="Summary description of the manuscript" required></textarea>
+        <textarea rows="10" id="hd_summary" name="summary" data-select="fileDesc > sourceDesc > msDesc > msContents > summary" data-schema="descriptive names" placeholder="Summary description of the manuscript" required></textarea>
     </div>
     <h3>Physical description</h3>
     <div>
