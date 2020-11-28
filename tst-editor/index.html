@@ -119,6 +119,7 @@
     <div>
         <label title="Size of the object, including the cover.">Overall size</label>
         <div>
+            <input type="number" step="any" id="hd_support_overall_unit" name="unit" data-select="fileDesc > sourceDesc > msDesc > physDesc > objectDesc > supportDesc > extent > dimensions[type='object']" data-attr="unit" hidden value="mm">
             <label for="hd_support_width">Width</label>
             <input type="number" step="any" id="hd_support_width" name="width" data-select="fileDesc > sourceDesc > msDesc > physDesc > objectDesc > supportDesc > extent > dimensions[type='object'] > width" data-attr="quantity">
             <span>mm</span>
@@ -138,6 +139,7 @@
         <label title="Dimensions of a single leaf.">Leaf size</label>
         <div>
             <div class="subrow">
+                <input type="number" step="any" id="hd_support_leaf_unit" name="unit" data-select="fileDesc > sourceDesc > msDesc > physDesc > objectDesc > supportDesc > extent > dimensions[type='leaf']" data-attr="unit" hidden value="mm">
                 <label for="hd_support_width">Width</label>
                 <input type="number" step="any" id="hd_support_width" name="width" data-select="fileDesc > sourceDesc > msDesc > physDesc > objectDesc > supportDesc > extent > dimensions[type='leaf'] > width" data-attr="quantity" required>
                 <span>mm</span>
@@ -166,6 +168,7 @@
         <span title="Dimensions of the written area of the leaf.">Written area</span>
         <div>
             <div class="subrow">
+                <input type="number" step="any" id="hd_support_written_unit" name="unit" data-select="fileDesc > sourceDesc > msDesc > physDesc > objectDesc > supportDesc > extent > dimensions[type='written']" data-attr="unit" hidden value="mm">
                 <label for="hd_support_writtenWidth">Width</label>
                 <input type="number" step="any" id="hd_support_writtenWidth" name="width" data-select="fileDesc > sourceDesc > msDesc > physDesc > objectDesc > supportDesc > extent > dimensions[type='written'] > width" data-attr="quantity">
                 <span>mm</span>
