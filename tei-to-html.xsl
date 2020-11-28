@@ -546,6 +546,7 @@
       <xsl:apply-templates select="x:objectDesc/x:supportDesc/x:condition"/>
       <xsl:apply-templates select="x:objectDesc/x:layoutDesc"/>
       <xsl:apply-templates select="x:handDesc"/>
+      <xsl:apply-templates select="x:decoDesc"/>
       <xsl:apply-templates select="x:additions"/>
       <xsl:apply-templates select="x:bindingDesc"/>
       </table>
@@ -788,6 +789,28 @@
         <xsl:apply-templates select="x:handNote"/>
       </ul></td>
     </tr>
+</xsl:template>
+<xsl:template match="x:decoDesc">
+    <tr>
+      <th>Decorations</th>
+      <td><ul>
+        <xsl:apply-templates select="x:decoNote"/>
+      </ul></td>
+    </tr>
+</xsl:template>
+<xsl:template match="x:decoNote">
+  <li>  
+    <xsl:text>(</xsl:text><xsl:value-of select="@type"/><xsl:text>) </xsl:text>
+    <xsl:apply-templates/>
+  </li>
+</xsl:template>
+<xsl:template match="x:decoNote/x:desc">
+    <xsl:element name="ul">
+        <xsl:element name="li">
+            <xsl:call-template name="lang"/>
+            <xsl:apply-templates/>
+        </xsl:element>
+    </xsl:element>
 </xsl:template>
 
 <xsl:template name="splitlist">
