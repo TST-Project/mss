@@ -774,7 +774,7 @@
         <xsl:value-of select="translate(@writtenLines,' ','-')"/>
         <xsl:text> written lines per page. </xsl:text>
       </xsl:if>
-      <xsl:if test="@ruledLines">
+      <xsl:if test="@ruledLines and not(@ruledLines='')">
         <xsl:value-of select="translate(@ruledLines,' ','-')"/>
         <xsl:text> ruled lines per page. </xsl:text>
       </xsl:if>
