@@ -232,9 +232,17 @@
     </xsl:element>
 </xsl:template>
 
-<xsl:template match="x:title">
+<xsl:template match="x:title[not(@type='article')]">
     <xsl:element name="em">
         <xsl:attribute name="class">title</xsl:attribute>
+        <xsl:call-template name="lang"/>
+        <xsl:apply-templates />
+    </xsl:element>
+</xsl:template>
+
+<xsl:template match="x:title[@type='article']">
+    <xsl:element name="em">
+        <xsl:attribute name="class">title-article</xsl:attribute>
         <xsl:call-template name="lang"/>
         <xsl:apply-templates />
     </xsl:element>
@@ -600,10 +608,12 @@
     </xsl:if>
 </xsl:template>
 
-<xsl:template match="x:measure[@unit='stringhole' or @unit='folio']">
-    <xsl:call-template name="units"/>
-    <xsl:text>. </xsl:text>
-    <xsl:apply-templates />
+<xsl:template match="x:measure[@unit='stringhole' or @unit='folio' or @unit='page']">
+    <xsl:if test="not(. = '')">
+        <xsl:call-template name="units"/>
+        <xsl:text>. </xsl:text>
+        <xsl:apply-templates />
+   </xsl:if>
 </xsl:template>
 
 <xsl:template match="x:objectDesc/x:supportDesc/x:extent">
