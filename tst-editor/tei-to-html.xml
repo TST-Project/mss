@@ -193,7 +193,7 @@
     </xsl:element>
 </xsl:template>
 
-<xsl:template match="x:title[not(@type='article')]">
+<xsl:template match="x:title">
     <xsl:element name="em">
         <xsl:attribute name="class">title</xsl:attribute>
         <xsl:call-template name="lang"/>
