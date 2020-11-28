@@ -314,7 +314,12 @@
             const allfields = state.heditor.querySelectorAll('input,select,textarea');
             for(const field of allfields) {
                 if(!field.validity.valid) {
-                    return field;
+                    if(field.nextSibling && field.nextSibling.classList.contains('CodeMirror')) {
+                        if(field.classList.contains('CodeMirror-required'))
+                            return field;
+                    }
+                    else
+                        return field;
                 }
             }
             return state.heditor.querySelector('.CodeMirror-required,.cm-error,.CodeMirror-lint-mark-error') || state.heditor.querySelector('.CodeMirror-lint-marker-error');
