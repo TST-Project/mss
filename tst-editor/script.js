@@ -461,6 +461,7 @@
                     persName: {
                         attrs: {
                             'xml:id': [],
+                            'role': ['author','commentator','scribe','editor'],
                         },
                     },
                     orgName: {
