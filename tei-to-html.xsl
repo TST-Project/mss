@@ -163,7 +163,7 @@
     </xsl:element>
 </xsl:template>
 
-<xsl:template match="x:quote">
+<xsl:template match="x:quote | x:q">
     <xsl:element name="span">
         <xsl:call-template name="lang"/>
         <xsl:attribute name="class">quote</xsl:attribute>
