@@ -143,10 +143,18 @@
     </xsl:element>
 </xsl:template>
 
-<xsl:template match="x:lb/@n">
-    <xsl:attribute name="title">
+<xsl:template match="x:lb/@n | x:pb/@n">
+    <xsl:attribute name="data-anno">
         <xsl:value-of select="."/>
     </xsl:attribute>
+</xsl:template>
+
+<xsl:template match="x:pb">
+<xsl:element name="span">
+    <xsl:attribute name="class">pb</xsl:attribute>
+    <xsl:apply-templates select="x:pb/@n"/>
+    <xsl:text>&#x2424;</xsl:text>
+</xsl:element>
 </xsl:template>
 
 <xsl:template match="x:sup">
@@ -1065,7 +1073,7 @@
 <xsl:template match="x:del">
     <xsl:variable name="rend" select="@rend"/>
     <xsl:element name="del">
-        <xsl:attribute name="title">
+        <xsl:attribute name="data-anno">
             <xsl:text>deleted</xsl:text>
             <xsl:if test="string($rend)">
                 <xsl:text> (</xsl:text>
@@ -1074,6 +1082,31 @@
            </xsl:if>
         </xsl:attribute>
         <xsl:apply-templates/>
+    </xsl:element>
+</xsl:template>
+
+<xsl:template match="x:add">
+    <xsl:element name="ins">
+        <xsl:attribute name="class">add</xsl:attribute>
+        <xsl:attribute name="data-anno">
+            <xsl:text>inserted</xsl:text>
+            <xsl:if test="@place"> (<xsl:value-of select="@place"/>)</xsl:if>
+            <xsl:if test="@rend"> (<xsl:value-of select="@rend"/>)</xsl:if>
+        </xsl:attribute>
+        <xsl:apply-templates />
+    </xsl:element>
+</xsl:template>
+
+<xsl:template match="x:subst">
+    <xsl:element name="span">
+    <xsl:attribute name="class">subst</xsl:attribute>
+    <xsl:attribute name="data-anno">
+        <xsl:text>substitution</xsl:text>
+        <xsl:if test="@rend">
+            <xsl:text> (</xsl:text><xsl:value-of select="@rend"/><xsl:text>)</xsl:text>
+        </xsl:if>
+    </xsl:attribute>
+    <xsl:apply-templates />
     </xsl:element>
 </xsl:template>
 

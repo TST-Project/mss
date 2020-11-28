@@ -410,6 +410,13 @@ a.pb:hover {
     font-weight: bold;
 }
 
+.underline {
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: underline;
+    text-decoration-color: rgb(17,17,17); 
+}
+
 span.gap {background-color: rgba(132,132,10,0.3);
           font-size: 85%;
           color: rgb(84,84,84);
@@ -621,4 +628,30 @@ ul:first-child {
 
 .mirador-osd-info {
     padding-bottom: 8px !important;
+}
+
+#tooltip {
+    display: block;
+    position: fixed;
+    background: rgba(17,17,17,0.8);
+    border-radius: 4px;
+    color: #fff;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 1rem;
+    letter-spacing: normal;
+    line-height: normal;
+    vertical-align: center;
+    padding: 0.5em 1em;
+    margin-bottom: 11px;
+    max-width: 200px;
+    z-index: 3;
+}
+
+#tooltip hr {
+    border: 0;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255,255,255,0),rgba(255,255,255,0.75),rgba(255,255,255,0));
 }

@@ -56,6 +56,7 @@
         document.getElementById('file').addEventListener('change',file.select,false);
         document.getElementById('newfile').addEventListener('click',file.startnew);
         document.body.addEventListener('click',events.bodyClick);
+        document.getElementById('headerviewer').addEventListener('mouseover',events.bodyMouseover);
     };
     
     const events = {
@@ -89,6 +90,68 @@
             }
             else if(e.target.classList.contains('multi-kill')) {
                 editor.killMultiItem(e.target);
+            }
+        },
+        bodyMouseover: function(e) {
+            var targ = e.target.closest('[data-anno]');
+            while(targ && targ.hasAttribute('data-anno')) {
+                toolTip.make(e,targ);
+                targ = targ.parentNode;
+            }
+        },
+    };
+
+    const toolTip = {
+        make: function(e,targ) {
+            const toolText = targ.dataset.anno;
+            if(!toolText) return;
+
+            var tBox = document.getElementById('tooltip');
+            const tBoxDiv = document.createElement('div');
+
+            if(tBox) {
+                for(const kid of tBox.childNodes) {
+                    if(kid.myTarget === targ)
+                        return;
+                }
+                tBoxDiv.appendChild(document.createElement('hr'));
+            }
+            else {
+                tBox = document.createElement('div');
+                tBox.id = 'tooltip';
+                tBox.style.top = (e.clientY + 10) + 'px';
+                tBox.style.left = e.clientX + 'px';
+                tBox.style.opacity = 0;
+                tBox.style.transition = 'opacity 0.2s ease-in';
+                document.body.appendChild(tBox);
+                tBoxDiv.myTarget = targ;
+            }
+
+            tBoxDiv.appendChild(document.createTextNode(toolText));
+            tBoxDiv.myTarget = targ;
+            tBox.appendChild(tBoxDiv);
+            targ.addEventListener('mouseleave',toolTip.remove,{once: true});
+            window.getComputedStyle(tBox).opacity;
+            tBox.style.opacity = 1;
+        },
+        remove: function(e) {
+            const tBox = document.getElementById('tooltip');
+            if(tBox.children.length === 1) {
+                tBox.remove();
+                return;
+            }
+
+            const targ = e.target;
+            for(const kid of tBox.childNodes) {
+                if(kid.myTarget === targ) {
+                    kid.remove();
+                    break;
+                }
+            }
+            if(tBox.children.length === 1) {
+                const kid = tBox.firstChild.firstChild;
+                if(kid.tagName === 'HR')
+                    kid.remove();
             }
         },
     };
@@ -387,6 +450,7 @@
                     },
                     subst: {
                         attrs: {
+                            rend: ['arrow','caret','kākapāda'],
                         },
                         children: ['add','del'],
                     },
