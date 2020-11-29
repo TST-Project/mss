@@ -1133,6 +1133,19 @@
     </xsl:element>
 </xsl:template>
 
+<xsl:template match="x:supplied">
+    <xsl:element name="span">
+        <xsl:attribute name="class">supplied</xsl:attribute>
+        <xsl:attribute name="data-anno">
+            <xsl:text>supplied</xsl:text>
+            <xsl:if test="@reason">
+                <xsl:text> (</xsl:text><xsl:value-of select="@reason"/><xsl:text>)</xsl:text>
+            </xsl:if>
+        </xsl:attribute>
+        <xsl:apply-templates />
+    </xsl:element>
+</xsl:template>
+
 <xsl:template match="@*|node()">
     <xsl:copy>
     <xsl:apply-templates select="@*|node()"/>
