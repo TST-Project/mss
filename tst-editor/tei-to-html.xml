@@ -7,7 +7,7 @@
 <xsl:template match="x:TEI">
     <xsl:element name="div">
         <xsl:attribute name="id">recordcontainer</xsl:attribute>
-        <xsl:attribute name="lang">eng</xsl:attribute>
+        <xsl:attribute name="lang">en</xsl:attribute>
         <xsl:element name="div">
             <!--xsl:choose>
                 <xsl:when test="x:facsimile/x:graphic">
@@ -159,10 +159,10 @@
 </xsl:template>
 
 <xsl:template match="x:titleStmt/x:title">
-    <h1><xsl:apply-templates/></h1>
-</xsl:template>
-<xsl:template match="x:titleStmt/x:title[@type='alt']">
-    <h3 style="font-style:italic"><xsl:apply-templates/></h3>
+    <xsl:element name="h1">
+        <xsl:call-template name="lang"/>
+        <xsl:apply-templates/>
+    </xsl:element>
 </xsl:template>
 
 <xsl:template match="x:titleStmt/x:editor">
@@ -832,7 +832,9 @@
 
 <xsl:template match="x:handNote">
   <xsl:variable name="script" select="@script"/>
-  <li>  
+  <xsl:element name="li">  
+    <xsl:attribute name="class">record_scripts</xsl:attribute>
+    <xsl:attribute name="data-script"><xsl:value-of select="$script"/></xsl:attribute>
     <xsl:call-template name="n-format"/>
     <xsl:text>(</xsl:text><xsl:value-of select="@scope"/><xsl:text>) </xsl:text>
         <xsl:call-template name="splitlist">    
@@ -845,7 +847,7 @@
         <xsl:text>. </xsl:text>
     </xsl:if>
     <xsl:apply-templates/>
-  </li>
+  </xsl:element>
 </xsl:template>
 <xsl:template match="x:handNote/x:p">
     <ul><li><xsl:apply-templates/></li></ul>

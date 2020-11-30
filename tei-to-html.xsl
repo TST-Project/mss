@@ -51,7 +51,7 @@
             </xsl:element>
         </xsl:element>
         <xsl:element name="body">
-            <xsl:attribute name="lang">eng</xsl:attribute>   
+            <xsl:attribute name="lang">en</xsl:attribute>   
             <xsl:element name="div">
                 <xsl:attribute name="id">recordcontainer</xsl:attribute>
                 <xsl:element name="div">
@@ -63,9 +63,14 @@
                             <xsl:attribute name="id">record-fat</xsl:attribute>
                         </xsl:otherwise>
                     </xsl:choose>
-                    <div id="topbar">
-                        <div id="transbutton" title="change script">A</div>
-                    </div>
+                    <xsl:element name="div">
+                        <xsl:attribute name="id">topbar</xsl:attribute>
+                        <xsl:element name="div">
+                            <xsl:attribute name="id">transbutton</xsl:attribute>
+                            <xsl:attribute name="title">change script</xsl:attribute>
+                            <xsl:text>A</xsl:text>
+                        </xsl:element>
+                    </xsl:element>
                     <xsl:element name="article">
                         <xsl:apply-templates/>
                     </xsl:element>
@@ -198,10 +203,10 @@
 </xsl:template>
 
 <xsl:template match="x:titleStmt/x:title">
-    <h1><xsl:apply-templates/></h1>
-</xsl:template>
-<xsl:template match="x:titleStmt/x:title[@type='alt']">
-    <h3 style="font-style:italic"><xsl:apply-templates/></h3>
+    <xsl:element name="h1">
+        <xsl:call-template name="lang"/>
+        <xsl:apply-templates/>
+    </xsl:element>
 </xsl:template>
 
 <xsl:template match="x:titleStmt/x:editor">
@@ -439,6 +444,9 @@
         <th>Language</th>
         <xsl:element name="td">
             <xsl:variable name="mainLang" select="@mainLang"/>
+            <xsl:attribute name="class">record_languages</xsl:attribute>
+            <xsl:attribute name="data-mainlang"><xsl:value-of select="$mainLang"/></xsl:attribute>
+            <xsl:attribute name="data-otherlangs"><xsl:value-of select="@otherLangs"/></xsl:attribute>
             <xsl:value-of select="document('')/*/my:langs/my:entry[@key=$mainLang]"/>
             <xsl:if test="@otherLangs and not(@otherLangs='')">
                 <xsl:text> (</xsl:text>
@@ -871,7 +879,9 @@
 
 <xsl:template match="x:handNote">
   <xsl:variable name="script" select="@script"/>
-  <li>  
+  <xsl:element name="li">  
+    <xsl:attribute name="class">record_scripts</xsl:attribute>
+    <xsl:attribute name="data-script"><xsl:value-of select="$script"/></xsl:attribute>
     <xsl:call-template name="n-format"/>
     <xsl:text>(</xsl:text><xsl:value-of select="@scope"/><xsl:text>) </xsl:text>
         <xsl:call-template name="splitlist">    
@@ -884,7 +894,7 @@
         <xsl:text>. </xsl:text>
     </xsl:if>
     <xsl:apply-templates/>
-  </li>
+  </xsl:element>
 </xsl:template>
 <xsl:template match="x:handNote/x:p">
     <ul><li><xsl:apply-templates/></li></ul>

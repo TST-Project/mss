@@ -1,4 +1,4 @@
-/*
+
 @font-face {
     font-family: 'PedanticDevanagari';
     src: local('PedanticDevanagariLight'),
@@ -14,6 +14,7 @@
     font-weight: bold;
 }
 
+/*
 @font-face {
     font-family: 'PedanticMalayalam';
     src: url('fonts/PedanticMalayalam.woff');
@@ -108,7 +109,7 @@ body {
     font-size: 1.5em;
     line-height: 1;
     */
-    font-family: brill, et-book, "Noto Serif Tamil", "Noto Serif Grantha", Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    font-family: brill, et-book, "Noto Serif Tamil", "Noto Serif Grantha", "PedanticDevanagari", Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
     hyphens: auto;
     display: flex;
     flex-direction: row-reverse;
@@ -189,6 +190,11 @@ body {
     font-size: 1rem;
 }
 
+#transbutton.devanagari {
+    padding: 0 0.5rem 0 0.4rem;
+    font-size: 1.4rem;
+}
+
 #transbutton:hover {
     background: #ff9900;
 }
@@ -244,7 +250,7 @@ span.milestone {
     color: #A85110;
     padding-right: 0.5rem;
 }
-
+/*
 div.devanagari {font-size: 1.1em !important;
               line-height: 150%;
 }
@@ -275,7 +281,7 @@ p.telugu {font-size: 1.3em !important;
 .balinese {font-size: 1.1em !important;
            line-height: 200%;
 }
-
+*/
 span.spacer {display: none;
              white-space: pre-wrap; /* when the highlight function splits a spacer node, sometimes the whitespace gets collapsed */
 }
@@ -548,7 +554,7 @@ a.locus:hover {
     color: #0C5083;
 }
 
-em.title.tamil {
+em.title.tamil, em.title.devanagari {
     font-style: normal;
 }
 
@@ -562,7 +568,7 @@ em.title-article::after {
     content: '”';
 }
 
-h1 em.title.tamil {
+h1 em.title.tamil, h1 em.title.devanagari {
     line-height: 4rem;
 }
 
