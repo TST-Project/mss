@@ -41,7 +41,7 @@
         template: 'tst-template.xml',
         toplevel: 'teiHeader',
         savedtext: new Map(),
-        curlang: 'eng',
+        curlang: 'en',
     };
 
     const lf = window.localforage || null;
@@ -385,7 +385,7 @@
                         return field;
                 }
             }
-            return state.heditor.querySelector('.CodeMirror-required,.cm-error,.CodeMirror-lint-mark-error') || state.heditor.querySelector('.CodeMirror-lint-marker-error');
+            return state.heditor.querySelector('.CodeMirror-required,.cm-error,.CodeMirror-lint-mark-error') || state.heditor.querySelector('.CodeMirror-lint-marker-error,.CodeMirror-lint-marker-warning');
         },
 
         codeMirrorInit: function(textarea) {
@@ -395,6 +395,7 @@
                     descriptive: ['term','note','emph', 'title','locus','material','ref'],
                     names: ['persName','orgName','geogName'],
                 };
+                const langs = ['ta','ta-Taml','en','fr','pt','pi','sa'],
                 const selected = s ? 
                     s.split(' ').map(str => schemae[str]) : 
                     schemae.values();
@@ -482,36 +483,36 @@
                     // descriptive
                     term: {
                         attrs: {
-                            'xml:lang': ['tam','tam-Taml','eng','fra','por','pal','san'],
+                            'xml:lang': langs,
                         },
                     },
                     note: {
                         attrs: {
-                            'xml:lang': ['tam','tam-Taml','eng','fra','por','pal','san'],
+                            'xml:lang': langs,
                         },
                         children: ['locus','title','emph','term'],
                     },
                     title: {
                         attrs: {
-                            'xml:lang': ['tam','tam-Taml','eng','fra','por','pal','san'],
+                            'xml:lang': langs,
                         },
                         children: ['emph'],
                     },
                     emph: {
                         attrs: {
                             'rend': ['bold','italic'],
-                            'xml:lang': ['tam','tam-Taml','eng','fra','por','pal','san'],
+                            'xml:lang': langs,
                         },
                     },
                     locus: {
                         attrs: {
                             facs: null,
-                            'xml:lang': ['eng','fra'],
+                            'xml:lang': ['en','fr'],
                         }
                     },
                     material: {
                         attrs: {
-                            'xml:lang': ['eng','fra'],
+                            'xml:lang': langs,
                         },
                     },
                     
@@ -524,18 +525,18 @@
                     
                     persName: {
                         attrs: {
-                            'xml:id': [],
+                            'xml:id': null,
                             'role': ['author','commentator','scribe','editor'],
                         },
                     },
                     orgName: {
                         attrs: {
-                            'xml:id': [],
+                            'xml:id': null,
                         },
                     },
                     geogName: {
                         attrs: {
-                            'xml:id': [],
+                            'xml:id': null,
                         },
                     },
                 };
