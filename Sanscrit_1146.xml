@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brahmasūtra</title>
+         </titleStmt>
+         <editionStmt>
+            <p>Record edited by <persName>Charles LI</persName> <orgName>CNRS, CEIAS, UMR 8564</orgName>.</p>
+         </editionStmt>
+         <publicationStmt><publisher>TST Project</publisher><date>2020</date></publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits.</orgName>
+                  </repository>
+                  <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc100014k</idno>
+                  <idno type="cote">Sanscrit 1146</idno>
+                  <idno type="ancienne cote"/>
+               </msIdentifier>
+               <msContents>
+                  <summary>
+                     <p>This small, palm leaf manuscript contains the complete text of the <title xml:lang="sa">Brahmasūtra</title>, in Nandināgarī script. Each <term xml:lang="sa">sūtra</term> is preceded and followed by <quote xml:lang="sa">oṃ</quote>. Although the title folio reads <title xml:lang="sa">Sūtrabhāṣya</title>, the <term xml:lang="sa">sūtra</term>s are presented without commentary.</p>
+<p>The <title xml:lang="sa">Brahmasūtra</title> is usually attributed to <persName xml:lang="sa">Bādarāyaṇa</persName>, who is sometimes called <persName xml:lang="sa">Vyāsa</persName>. In the final rubric of this manuscript, the text is attributed to <persName xml:lang="sa">Kṛṣṇadvaipāyana</persName>, the traditional author of the <title xml:lang="sa">Mahābhārata</title>, who is also known as <persName xml:lang="sa">Vyāsa</persName>.</p>
+                  </summary>
+                  
+               <msItem n="mūla" defective="false"><title>Brahmasūtra</title><author>Bādarāyaṇa</author><textLang mainLang="san" otherLangs=""/><rubric xml:lang="sa"><milestone n="1r1" facs="4" unit="folio"/>śrīvedavyāsāya namaḥ hariḥ oṃ |</rubric><incipit xml:lang="sa"><milestone n="1r1" facs="4" unit="folio"/>athāto braṃhmajijñāsā oṃ | <lb/>oṃ janmādyasya yataḥ oṃ |</incipit><explicit xml:lang="sa"><milestone n="25v6" facs="53" unit="folio"/>oṃ anāvṛttiś śabdād anāvṛttiś śa<lb/>bdāt oṃ || - ||</explicit><finalRubric xml:lang="sa"><milestone n="25v7" facs="53" unit="folio"/>iti śrīmatkṛṣṇadvaipāyanakṛtabraṃhmasūtreṣu caturthādhyā<milestone n="26r1" facs="54" unit="folio"/>yasya caturthaḥ pāraḥ || - ||</finalRubric><colophon xml:lang="sa"><milestone n="26r1" facs="54" unit="folio"/>śrīkṛṣṇārpaṇam astu || - || hariḥ oṃ || samā<lb/>ptaś cāyaṃ graṃthaḥ || | - || ❈ || - || śrīvedavyāsāya namaḥ || śrīhayagrīvāya namaḥ || - ||</colophon></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="pothi">
+                     <supportDesc material="palm-leaf">
+                        <support>
+                           <measure unit="stringhole" quantity="2"/>
+                           <p>60 mm between stringholes. Lead seal at end of string.</p>
+                        </support>
+                        <extent>
+                           <measure unit="folio" quantity="26">Front and back cover folios, 1-26.</measure>
+                           <dimensions type="leaf" unit="mm">
+                              <width quantity="162" min="" max=""/>
+                              <height quantity="37" min="" max=""/>
+                           </dimensions>
+                        <dimensions type="written" unit="mm"><width quantity="135" min="" max=""/><height quantity="30" min="" max=""/></dimensions></extent>
+                        
+                        <foliation n="mūla">Nandināgarī numerals, top-left margin.</foliation>
+                        <condition>Good condition. Some leaves worm-eaten. Front cover folio missing piece from left side.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="7 8" ruledLines=""/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     
+                  <handNote n="mūla" scope="sole" script="nandinagari"><desc>Incised and inked characters.</desc></handNote></handDesc>
+                  <decoDesc>
+                    <decoNote type="marginal">
+                       <desc>puṣpikā, left and right margins: <locus facs="9">3v</locus>, <locus facs="12">5r</locus>, <locus facs="15">6v</locus>, <locus facs="19">8v</locus>, <locus facs="22">10r</locus>, <locus facs="27">12v</locus>, <locus facs="29">13v</locus>, <locus facs="32">15r</locus>, <locus facs="35">16v</locus>, <locus facs="41">19v</locus>, <locus facs="43">20v</locus>, <locus facs="46">22r</locus>, <locus facs="48">23r</locus>, <locus facs="50">24r</locus>, <locus facs="51">24v</locus>, <locus facs="54">26r</locus>.</desc>
+                    </decoNote>
+                  </decoDesc>
+                  <additions>
+                     
+                  <p>On the cover folio: <quote xml:lang="sa"><supplied>haya</supplied>grīvā <space/> sūtrabhāṣya <space/> ya namaḥ</quote>. It should be read <quote xml:lang="sa">hayagrīvāya namaḥ</quote> and <quote xml:lang="sa">sūtrabhāṣya</quote>.</p><p>Marginal invocation, <quote xml:lang="sa">śrī</quote>, <locus facs="4">1r</locus>, left margin.</p></additions>
+                  <bindingDesc>
+                     <binding>
+                        <p>Blank leaves used as covers. Front cover is also the title page.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian" when="" notBefore="1800" notAfter="1900">18th century, according to Filliozat.</origDate>
+                     <origPlace>India</origPlace>
+                  </origin>
+                  <acquisition>
+                     <p>Unknown.</p>
+                  </acquisition>
+               </history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl>Cabaton, Antoine. (1907-1908) <title xml:lang="fr">Catalogue sommaire des manuscrits sanscrits avec supplément manuscrit</title>. Paris: E. Leroux. Supplemented by Jean Filliozat. <ref target="https://gallica.bnf.fr/ark:/12148/btv1b10536321f/f215.item">279</ref>.</bibl>
+                  <bibl>Sankaranarayan, S. (2003) <title type="article">Bādarāyaṇa and Vyāsa as Authors of the Brahmasūtra — A Historical Analysis</title>. <title>Adyar Library Bulletin</title> 67. Chennai: Adyar Library.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+      <p>Spaces between words added where possible. Spaces in the manuscript are denoted with the &lt;space/&gt; tag.</p>
+<p>❈ denotes a puṣpikā.</p></encodingDesc>
+      <revisionDesc>
+         
+      <change when="2020-11">Catalogue entry redacted by Charles LI for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG).</change></revisionDesc>
+   </teiHeader>
+    <facsimile>
+        <graphic url="https://tst-project.github.io/Sanskrit/img/Sanscrit_1146/index.json"/>
+    </facsimile>
+</TEI>
