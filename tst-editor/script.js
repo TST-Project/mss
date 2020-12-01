@@ -395,7 +395,7 @@
                     descriptive: ['term','note','emph', 'title','locus','material','ref'],
                     names: ['persName','orgName','geogName'],
                 };
-                const langs = ['ta','ta-Taml','en','fr','pt','pi','sa'],
+                const langs = ['ta','ta-Taml','en','fr','pt','pi','sa'];
                 const selected = s ? 
                     s.split(' ').map(str => schemae[str]) : 
                     schemae.values();
