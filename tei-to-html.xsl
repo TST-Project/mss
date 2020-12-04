@@ -362,6 +362,7 @@
     <xsl:variable name="class" select="."/>
     <xsl:element name="p">
         <xsl:value-of select="document('')/*/my:mstypes/my:entry[@key=$class]"/>
+        <xsl:text>.</xsl:text>
     </xsl:element>
 </xsl:template>
 
