@@ -915,7 +915,7 @@
 
 <xsl:template match="x:additions">
   <tr>
-    <th>Additions</th>
+    <th>Paratexts</th>
     <td>
       <xsl:apply-templates />
     </td>
