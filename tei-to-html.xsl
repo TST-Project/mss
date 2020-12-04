@@ -340,6 +340,7 @@
     <xsl:apply-templates select="x:physDesc"/>
     <section>
         <h3>Contents</h3>
+        <xsl:apply-templates select="x:msContents/@class"/>
         <xsl:apply-templates select="x:msContents/x:msItem"/>
     </section>
     <xsl:apply-templates select="x:history"/>
@@ -348,6 +349,20 @@
 
 <xsl:template match="x:msContents">
     <xsl:apply-templates select="x:summary"/>
+</xsl:template>
+
+<my:mstypes>
+    <my:entry key="#STM">Single-text manuscript</my:entry>
+    <my:entry key="#MTM">Multi-text manuscript</my:entry>
+    <my:entry key="#CM">Composite manuscript</my:entry>
+    <my:entry key="#MVM">Multi-volume manuscript</my:entry>
+</my:mstypes>
+
+<xsl:template match="x:msContents/@class">
+    <xsl:variable name="class" select="."/>
+    <xsl:element name="p">
+        <xsl:value-of select="document('')/*/my:mstypes/my:entry[@key=$class]"/>
+    </xsl:element>
 </xsl:template>
 
 <xsl:template match="x:msItem">
