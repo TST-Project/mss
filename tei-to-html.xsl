@@ -1176,6 +1176,13 @@
     </xsl:element>
 </xsl:template>
 
+<xsl:template match="x:pc">
+    <xsl:element name="span">
+        <xsl:attribute name="class">invisible</xsl:attribute>
+        <xsl:apply-templates/>
+    </xsl:element>
+</xsl:template>
+
 <xsl:template match="@*|node()">
     <xsl:copy>
     <xsl:apply-templates select="@*|node()"/>
