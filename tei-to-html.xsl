@@ -646,7 +646,7 @@
 </xsl:template>
 
 <xsl:template match="x:measure[@unit='stringhole' or @unit='folio' or @unit='page']">
-    <xsl:if test="not(. = '')">
+    <xsl:if test="not(@quantity = '')">
         <xsl:call-template name="units"/>
         <xsl:text>. </xsl:text>
         <xsl:apply-templates />
@@ -1180,6 +1180,64 @@
     <xsl:element name="span">
         <xsl:attribute name="class">invisible</xsl:attribute>
         <xsl:apply-templates/>
+    </xsl:element>
+</xsl:template>
+
+<xsl:template match="x:space">
+    <xsl:element name="span">
+        <xsl:attribute name="lang">en</xsl:attribute>
+        <xsl:attribute name="class">space</xsl:attribute>
+        <xsl:attribute name="data-anno">
+            <xsl:text>space</xsl:text>
+            <xsl:if test="@quantity">
+                <xsl:text> of </xsl:text><xsl:value-of select="@quantity"/>
+                <xsl:choose>
+                <xsl:when test="@unit">
+                <xsl:text> </xsl:text><xsl:value-of select="@unit"/>
+                    <xsl:if test="@quantity &gt; '1'">
+                        <xsl:text>s</xsl:text>
+                    </xsl:if>
+                </xsl:when>
+                <xsl:otherwise>
+                <xsl:text> akṣara</xsl:text>
+                    <xsl:if test="@quantity &gt; '1'">
+                        <xsl:text>s</xsl:text>
+                    </xsl:if>
+                </xsl:otherwise>
+                </xsl:choose>
+            </xsl:if>
+            <xsl:if test="@rend">
+                <xsl:text> (</xsl:text><xsl:value-of select="@rend"/><xsl:text>)</xsl:text>
+            </xsl:if>
+        </xsl:attribute>
+        <xsl:choose>
+            <xsl:when test="count(./*) &gt; 0">
+                <xsl:apply-templates/>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:element name="span">
+                <xsl:text>_</xsl:text>
+                <xsl:choose>
+                    <xsl:when test="@quantity &gt; 1">
+                        <xsl:call-template name="repeat">
+                            <xsl:with-param name="output"><xsl:text>_&#x200B;</xsl:text></xsl:with-param>
+                            <xsl:with-param name="count" select="@quantity"/>
+                        </xsl:call-template>
+
+                    </xsl:when>
+                    <xsl:when test="@extent">
+                        <xsl:variable name="extentnum" select="translate(@extent,translate(@extent,'0123456789',''),'')"/>
+                        <xsl:if test="number($extentnum) &gt; 1">
+                            <xsl:call-template name="repeat">
+                                <xsl:with-param name="output"><xsl:text>_&#x200B;</xsl:text></xsl:with-param>
+                                <xsl:with-param name="count" select="$extentnum"/>
+                            </xsl:call-template>
+                        </xsl:if>
+                    </xsl:when>
+                </xsl:choose>
+                </xsl:element>
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:element>
 </xsl:template>
 
