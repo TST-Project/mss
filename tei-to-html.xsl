@@ -553,7 +553,7 @@
 
 <xsl:template match="x:filiation">
     <tr>
-        <th>Filiation</th>
+        <th>Other manuscript testimonies</th>
         <xsl:element name="td">
             <xsl:apply-templates/>
         </xsl:element>
