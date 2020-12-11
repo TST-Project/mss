@@ -1262,6 +1262,13 @@
     </xsl:element>
 </xsl:template>
 
+<xsl:template match="x:g[@ref='#pcl']">
+        <xsl:text>&#xF8FF;</xsl:text>
+</xsl:template>
+<xsl:template match="x:g[@ref='#pcs']">
+        <xsl:text>&#x0BF3;</xsl:text>
+</xsl:template>
+
 <xsl:template match="@*|node()">
     <xsl:copy>
     <xsl:apply-templates select="@*|node()"/>
