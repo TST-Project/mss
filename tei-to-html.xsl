@@ -1263,10 +1263,18 @@
 </xsl:template>
 
 <xsl:template match="x:g[@ref='#pcl']">
-        <xsl:text>&#xF8FF;</xsl:text>
+        <xsl:element name="span">
+            <xsl:attribute name="class">gaiji</xsl:attribute>
+            <xsl:attribute name="data-anno">piḷḷaiyār cuḻi (long)</xsl:attribute>
+            <xsl:text>&#xF8FF;</xsl:text>
+        </xsl:element>
 </xsl:template>
 <xsl:template match="x:g[@ref='#pcs']">
-        <xsl:text>&#x0BF3;</xsl:text>
+        <xsl:element name="span">
+            <xsl:attribute name="class">gaiji</xsl:attribute>
+            <xsl:attribute name="data-anno">piḷḷaiyār cuḻi (short)</xsl:attribute>
+            <xsl:text>&#x0BF3;</xsl:text>
+        </xsl:element>
 </xsl:template>
 
 <xsl:template match="@*|node()">
