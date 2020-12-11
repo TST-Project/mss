@@ -98,6 +98,18 @@
     </xsl:if>
 </xsl:template>
 
+<xsl:template name="repeat">
+    <xsl:param name="output" />
+    <xsl:param name="count" />
+    <xsl:if test="$count &gt; 0">
+        <xsl:value-of select="$output" />
+        <xsl:call-template name="repeat">
+            <xsl:with-param name="output" select="$output" />
+            <xsl:with-param name="count" select="$count - 1" />
+        </xsl:call-template>
+    </xsl:if>
+</xsl:template>
+
 <xsl:template match="x:teiHeader">
     <xsl:element name="section">
         <xsl:call-template name="lang"/>
@@ -552,7 +564,16 @@
     <xsl:element name="section">
         <xsl:attribute name="id">summary</xsl:attribute>
         <xsl:call-template name="lang"/>
-        <xsl:apply-templates/>
+        <xsl:choose>
+            <xsl:when test="x:p">
+                <xsl:apply-templates/>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:element name="p">
+                    <xsl:apply-templates/>
+                </xsl:element>
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:element>
 </xsl:template>
 
