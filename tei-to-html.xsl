@@ -937,9 +937,10 @@
     <xsl:attribute name="data-script"><xsl:value-of select="$script"/></xsl:attribute>
     <xsl:call-template name="n-format"/>
     <xsl:text>(</xsl:text><xsl:value-of select="@scope"/><xsl:text>) </xsl:text>
-        <xsl:call-template name="splitlist">    
-            <xsl:with-param name="list" select="@script"/>
-        </xsl:call-template>
+    <xsl:apply-templates select="@scribeRef"/>
+    <xsl:call-template name="splitlist">    
+        <xsl:with-param name="list" select="@script"/>
+    </xsl:call-template>
     <xsl:text> script.</xsl:text>
     <xsl:if test="@medium">
         <xsl:text> </xsl:text>
@@ -949,6 +950,20 @@
     <xsl:apply-templates/>
   </xsl:element>
 </xsl:template>
+
+<my:scribes>
+    <my:entry key="#ArielTitleScribe">Ariel's title scribe</my:entry>
+    <my:entry key="#UmraosinghShergil">Umraosingh Sher-Gil</my:entry>
+</my:scribes>
+
+<xsl:template match="x:handNote/@scribeRef">
+    <xsl:if test="not(. = '')">
+        <xsl:variable name="scribe" select="."/>
+        <xsl:value-of select="document('')/*/my:scribes/my:entry[@key=$scribe]"/>
+        <xsl:text>. </xsl:text>
+    </xsl:if>
+</xsl:template>
+
 <xsl:template match="x:handNote/x:p">
     <ul><li><xsl:apply-templates/></li></ul>
 </xsl:template>
