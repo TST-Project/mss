@@ -7,7 +7,7 @@ fs.readdir('./',function(err,files) {
         return console.log(err);
     const flist = [];
     files.forEach(function(f) {
-        if(/\.xml$/.test(f))
+        if(/^[^_].+\.xml$/.test(f))
             flist.push(f);
     });
     readfiles(flist);
