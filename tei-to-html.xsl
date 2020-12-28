@@ -1011,6 +1011,7 @@
 
 <my:scribes>
     <my:entry key="#ArielTitleScribe">Ariel's title scribe</my:entry>
+    <my:entry key="#EdouardAriel">Edouard Ariel</my:entry>
     <my:entry key="#UmraosinghShergil">Umraosingh Sher-Gil</my:entry>
 </my:scribes>
 
