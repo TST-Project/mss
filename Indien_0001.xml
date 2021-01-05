@@ -130,24 +130,33 @@
                      </handNote>
                   </handDesc>
                   <additions>
-                     <p>In-text and marginal benedictions, title-page, marginal title, invocation, marginal chapter headers, in-text chapter completion statement, total chapters, total stanzas, postface.</p>
-                     <p>
+                     <desc type="blessing" subtype="intertextual marginal">In-text and marginal benedictions.</desc> 
+                     <desc type="running-title" subtype="marginal">Marginal title.</desc>
+                     <desc type="invocation"/>
+                     <desc type="chapter-heading" subtype="marginal"/>
+                     <desc type="documenting-note" subtype="intertextual">In-text chapter completion statement.</desc>
+                     <desc type="documenting-note" subtype="intertextual">Total chapters, total stanzas, postface.</desc>
+                     <desc type="title" subtype="beginning">
                         <emph rend="bold">U1</emph>, <locus facs="3">folio 1, recto, unfoliated</locus> = <emph rend="bold">title-page</emph>: benediction, title.
-                        <lg xml:lang="ta">
-                           <l><locus xml:lang="en" facs="7">(f[1]r, c1, 1‒3)</locus> veṟṟivēl uṟṟa tuṇai</l>
-                           <l><locus xml:lang="en" facs="7">(f[1]r, c2, 1‒2)</locus> Attuvaitānupavam [<term xml:lang="en">i.e.</term> attuvaitāṉupavam]</l>
-                        </lg>
-                     </p>
-                     <p>The beginning of each chapter is indicated by an intertitle in the left margin, whereas a completion statement and total stanzas so far (including those of the <term xml:lang="ta">pāyiram</term>) are found at the end of each chapter. Occasionally the title of the next chapter is also given. See, e.g.:
-                        <lg xml:lang="ta">
-                           <l>pāyiram kuruvaṇakkam <locus xml:lang="en" facs="9">(f76r, lm)</locus> &amp; kuruvaṇakkamuttum [<term xml:lang="en">i.e.</term> kuruvaṇakkamuṟṟum] = yippāl atikāralaṭcaṇam = <locus xml:lang="en" facs="10">(f76v1)</locus>
-                           </l>
-                           <l>atikāralaṭcaṇam <locus xml:lang="en" facs="11">(f77r, lm)</locus> &amp; atikāralaṭcaṇamuṟṟum = {āka} pāyiram uḷpaṭa tiruviruttam – 13 = iraṇṭāvatu – attiyālōpavvavātam [<term xml:lang="en">i.e.</term> attiyārōpavvavātam, <locus facs="14" xml:lang="en">cf. f78v, lm</locus>] = <locus facs="13" xml:lang="en">(f78r8‒9)</locus>
-                           </l>
-                           <l>[12]{āvatu} vivēkacōrūpam <locus facs="42" xml:lang="en">(f93v, lm)</locus></l>
-                           <l>vivēkacōrūpamuṟṟum = {āka} atikāram – 12ukki pāyiram uḷpaṭa tiruviruttam – 123 = <locus facs="44" xml:lang="en">(f94v8‒9)</locus></l>
-                        </lg>
-                     </p>
+                        <quote rend="block" xml:lang="ta">
+                            <lg>
+                               <l><locus xml:lang="en" facs="7">(f[1]r, c1, 1‒3)</locus> veṟṟivēl uṟṟa tuṇai</l>
+                               <l><locus xml:lang="en" facs="7">(f[1]r, c2, 1‒2)</locus> Attuvaitānupavam [<term xml:lang="en">i.e.</term> attuvaitāṉupavam]</l>
+                            </lg>
+                        </quote>
+                     </desc>
+                     <desc type="intertitle" subtype="marginal">The beginning of each chapter is indicated by an intertitle in the left margin, whereas a completion statement and total stanzas so far (including those of the <term xml:lang="ta">pāyiram</term>) are found at the end of each chapter. Occasionally the title of the next chapter is also given. See, e.g.:
+                        <quote xml:lang="ta" rend="block">
+                            <lg>
+                               <l>pāyiram kuruvaṇakkam <locus xml:lang="en" facs="9">(f76r, lm)</locus> &amp; kuruvaṇakkamuttum [<term xml:lang="en">i.e.</term> kuruvaṇakkamuṟṟum] = yippāl atikāralaṭcaṇam = <locus xml:lang="en" facs="10">(f76v1)</locus>
+                               </l>
+                               <l>atikāralaṭcaṇam <locus xml:lang="en" facs="11">(f77r, lm)</locus> &amp; atikāralaṭcaṇamuṟṟum = {āka} pāyiram uḷpaṭa tiruviruttam – 13 = iraṇṭāvatu – attiyālōpavvavātam [<term xml:lang="en">i.e.</term> attiyārōpavvavātam, <locus facs="14" xml:lang="en">cf. f78v, lm</locus>] = <locus facs="13" xml:lang="en">(f78r8‒9)</locus>
+                               </l>
+                               <l>[12]{āvatu} vivēkacōrūpam <locus facs="42" xml:lang="en">(f93v, lm)</locus></l>
+                               <l>vivēkacōrūpamuṟṟum = {āka} atikāram – 12ukki pāyiram uḷpaṭa tiruviruttam – 123 = <locus facs="44" xml:lang="en">(f94v8‒9)</locus></l>
+                            </lg>
+                        </quote>
+                     </desc>
                   </additions>
                   <bindingDesc>
                      <binding>
