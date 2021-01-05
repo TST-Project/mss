@@ -891,6 +891,7 @@
 <my:subtype>
     <my:entry key="beginning">beginning</my:entry>
     <my:entry key="cover">cover</my:entry>
+    <my:entry key="detached">detached</my:entry>
     <my:entry key="end">end</my:entry>
     <my:entry key="intertextual">intertextual</my:entry>
     <my:entry key="marginal">marginal</my:entry>
