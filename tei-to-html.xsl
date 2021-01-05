@@ -898,7 +898,11 @@
         <xsl:if test="@subtype">
             <xsl:text>, </xsl:text>
             <xsl:variable name="subtype" select="@subtype"/>
-            <xsl:value-of select="document('')/*/my:subtype/my:entry[@key=$subtype]"/>
+            <xsl:call-template name="splitlist">
+                <xsl:with-param name="list" select="@subtype"/>
+                <xsl:with-param name="nocapitalize">true</xsl:with-param>
+                <xsl:with-param name="map">my:subtype</xsl:with-param>
+            </xsl:call-template>
         </xsl:if>
     </xsl:element> 
     <xsl:apply-templates/>
@@ -1065,12 +1069,14 @@
   <tr>
     <th>Paratexts</th>
     <td>
-      <xsl:apply-templates />
+        <ul>
+          <xsl:apply-templates />
+        </ul>
     </td>
   </tr>
 </xsl:template>
 <xsl:template match="x:additions/x:p">
-    <p><xsl:apply-templates /></p>
+    <li><xsl:apply-templates /></li>
 </xsl:template>
 
 <my:additiontype>
@@ -1083,7 +1089,8 @@
     <my:entry key="title">title</my:entry>
     <my:entry key="table-of-contents">table of contents</my:entry>
     <my:entry key="verse-beginning">verse beginning</my:entry>
-    <my:entry key="gloss">gloss</my:entry>
+    <my:entry key="correction">correction</my:entry>
+    <my:entry key="gloss">gloss/commentary</my:entry>
     <my:entry key="note">text-related note</my:entry>
     <my:entry key="blessing">blessing</my:entry>
     <my:entry key="dedication">dedication</my:entry>
@@ -1094,17 +1101,28 @@
 </my:additiontype>
 
 <xsl:template match="x:additions/x:desc">
-    <xsl:element name="span">
-        <xsl:attribute name="class">type</xsl:attribute>
-        <xsl:variable name="type" select="@type"/>
-        <xsl:value-of select="document('')/*/my:additiontype/my:entry[@key=$type]"/>
-        <xsl:if test="@subtype">
-            <xsl:text>, </xsl:text>
-            <xsl:variable name="subtype" select="@subtype"/>
-            <xsl:value-of select="document('')/*/my:subtype/my:entry[@key=$subtype]"/>
+    <li> 
+        <xsl:element name="span">
+            <xsl:attribute name="class">type</xsl:attribute>
+            <xsl:variable name="type" select="@type"/>
+            <xsl:value-of select="document('')/*/my:additiontype/my:entry[@key=$type]"/>
+            <xsl:if test="@subtype">
+                <xsl:text>, </xsl:text>
+                <xsl:call-template name="splitlist">
+                    <xsl:with-param name="list" select="@subtype"/>
+                    <xsl:with-param name="nocapitalize">true</xsl:with-param>
+                    <xsl:with-param name="map">my:subtype</xsl:with-param>
+                </xsl:call-template>
+            </xsl:if>
+        </xsl:element>
+        <xsl:if test="normalize-space(.) != ''">
+            <ul>
+                <li>
+                    <xsl:apply-templates/>
+                </li>
+            </ul>
         </xsl:if>
-    </xsl:element> 
-    <xsl:apply-templates/>
+    </li>
 </xsl:template>
 
 <xsl:template match="x:bindingDesc">
