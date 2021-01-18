@@ -792,6 +792,7 @@
 <xsl:template match="@min">
     <xsl:text>min. </xsl:text>
     <xsl:value-of select="."/>
+    <xsl:text> </xsl:text>
 </xsl:template>
 <xsl:template match="@max">
     <xsl:text>max. </xsl:text>
@@ -1019,6 +1020,7 @@
     <my:entry key="#prsthamatra">pṛṣṭhamātrā</my:entry>
     <my:entry key="#vaba">ba not distinguished</my:entry>
     <my:entry key="#sthascha">stha written as scha</my:entry>
+    <my:entry key="#bengaliRaMiddot">ra with middot</my:entry>
     <my:entry key="#bengaliRa">modern ra</my:entry>
     <my:entry key="#bengaliYa">modern ya</my:entry>
     <my:entry key="#valapalagilaka">valapalagilaka</my:entry>
