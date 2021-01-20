@@ -19,39 +19,39 @@
             </xsl:element>
             <xsl:element name="link">
                 <xsl:attribute name="rel">stylesheet</xsl:attribute>
-                <xsl:attribute name="href">lib/tufte.css</xsl:attribute>
+                <xsl:attribute name="href">../lib/tufte.css</xsl:attribute>
             </xsl:element>
             <xsl:element name="link">
                 <xsl:attribute name="rel">stylesheet</xsl:attribute>
-                <xsl:attribute name="href">lib/tst.css</xsl:attribute>
+                <xsl:attribute name="href">../lib/tst.css</xsl:attribute>
             </xsl:element>
             <xsl:element name="script">
                 <xsl:attribute name="type">text/javascript</xsl:attribute>
-                <xsl:attribute name="src">lib/sanscript.js</xsl:attribute>
+                <xsl:attribute name="src">../lib/sanscript.js</xsl:attribute>
             </xsl:element>
             <xsl:element name="script">
                 <xsl:attribute name="type">text/javascript</xsl:attribute>
-                <xsl:attribute name="src">lib/transliterate.js</xsl:attribute>
+                <xsl:attribute name="src">../lib/transliterate.js</xsl:attribute>
             </xsl:element>
             <xsl:element name="script">
                 <xsl:attribute name="type">text/javascript</xsl:attribute>
-                <xsl:attribute name="src">lib/viewpos.js</xsl:attribute>
+                <xsl:attribute name="src">../lib/viewpos.js</xsl:attribute>
             </xsl:element>
             <xsl:element name="script">
                 <xsl:attribute name="type">text/javascript</xsl:attribute>
-                <xsl:attribute name="src">lib/hypher-nojquery.js</xsl:attribute>
+                <xsl:attribute name="src">../lib/hypher-nojquery.js</xsl:attribute>
             </xsl:element>
             <xsl:element name="script">
                 <xsl:attribute name="type">text/javascript</xsl:attribute>
-                <xsl:attribute name="src">lib/sa.js</xsl:attribute>
+                <xsl:attribute name="src">../lib/sa.js</xsl:attribute>
             </xsl:element>
             <xsl:element name="script">
                 <xsl:attribute name="type">text/javascript</xsl:attribute>
-                <xsl:attribute name="src">lib/ta.js</xsl:attribute>
+                <xsl:attribute name="src">../lib/ta.js</xsl:attribute>
             </xsl:element>
             <xsl:element name="script">
                 <xsl:attribute name="type">text/javascript</xsl:attribute>
-                <xsl:attribute name="src">lib/ta-Latn.js</xsl:attribute>
+                <xsl:attribute name="src">../lib/ta-Latn.js</xsl:attribute>
             </xsl:element>
             <xsl:element name="script">
                 <xsl:attribute name="type">text/javascript</xsl:attribute>
