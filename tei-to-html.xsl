@@ -59,7 +59,7 @@
             </xsl:element>
             <xsl:element name="script">
                 <xsl:attribute name="type">text/javascript</xsl:attribute>
-                <xsl:attribute name="src">lib/tst.js</xsl:attribute>
+                <xsl:attribute name="src">../lib/tst.js</xsl:attribute>
             </xsl:element>
         </xsl:element>
         <xsl:element name="body">
