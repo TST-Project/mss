@@ -921,8 +921,10 @@
     <my:entry key="cover">cover</my:entry>
     <my:entry key="detached">detached</my:entry>
     <my:entry key="end">end</my:entry>
+    <my:entry key="guard-folio">guard folio/flyleaf</my:entry>
     <my:entry key="intertextual">intertextual</my:entry>
     <my:entry key="marginal">marginal</my:entry>
+    <my:entry key="title-page">title page</my:entry>
 </my:subtype>
 
 <xsl:template match="x:decoNote">
