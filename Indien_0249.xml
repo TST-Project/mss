@@ -4,11 +4,14 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Indien 249. நைடதம் Naiṭatam</title>
+            <title xml:lang="ta">Naiṭatam</title>
          </titleStmt>
+         <editionStmt>
+            <p>Record edited by <persName>Eva WILDEN</persName> <orgName>Universität Hamburg</orgName>.</p>
+         </editionStmt>
          <publicationStmt>
-            <publisher>Bibliothèque nationale de France.</publisher>
-            <date>2020</date>
+            <publisher>TST Project</publisher>
+            <date>2021</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -16,47 +19,97 @@
                   <repository>
                      <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
                   </repository>
-                  <idno type="eadid">FRBNFEAD000103783</idno>
+                  <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103783z</idno>
                   <idno type="cote">Indien 249</idno>
                   <idno type="ancienne cote">Tamoul 249</idno>
                </msIdentifier>
-               <msContents>
-                  <summary/>
-                  <msItem defective="">
-                     <title>Naiṭatam</title>
+               <msContents class="#STM">
+                  <summary>Complete mūlam. Verse line ends marked by hyphen.</summary>
+                  <msItem defective="false">
+                     <title xml:lang="ta">Naiṭatam</title>
                      <textLang mainLang="tam">Tamil</textLang>
+                     <incipit xml:lang="ta-Taml"><locus facs="5" xml:lang="en">unnumbered folio r</locus> தழைவிரி கடுக்கை மாலை தனிமுதற் சடையிற் சூடுங் குழவிவெண் டிங்க ளிற்ற கோட்டது குறை<lb n="2"/>யென் றெண்ணிப் புழைநெடுங் கரத்தாற் பற்றிப் பொற்புற விணைத்து நோக்கு ம<lb n="3"/>ழைமதக் களிற்றின் செய்ய மலரடி சென்னி வைப்பாம் <g ref="#pcl"/>
+                     	<pb n="unnumbered verso" facs="6"/>நிலவுபொழி தனிக்கவிதை நிடதகோன் புகட்சரிதை நெடுநீர் வைப்பிற் <lb n="2"/>புலவர்களி யமுதொழுகு புதுமொழிகூட் டுணத்தமிழாற் புனைதல் செய்தா <lb n="3"/>னலனுயர்த்த வண்ணலஞ்செல் வான்றொடுபொற் கோட்டிமைய வரையிற் றீட்டி <lb n="4"/>யலர்தலைமா நிலம்புரக்கு மதிவீர ராமனிக லரச ரேறே <g ref="#pcl"/>
+                     	<milestone facs="7" n="1r" unit="folio"/>கருவி மாமழை கலைமக ளுருவென விளங்கி யிருவி சும்பிடை படர்ந்துசென் றினமணி கோழிக்கும் பரவை வெண்டி<lb n="2"/>ரை மேய்ந்துயர் பனிவரை யுயர்த்த வுருவ வோடரித் தடங்கணா ளுருக்கொடு மீண்ட =1=
+                     </incipit>
+                     <explicit xml:lang="ta-Taml"><milestone n="176v7" unit="folio" facs="358"/>ஆழி சூழ்புவி முழுவது மாழியொன் றுருட்டி - வாழி நல்லறம் புரிதரும் கம்பல வாற்றி - ச்சூழி மா <pb n="177r" facs="359"/>ல்வரைப் பிடருறுஞ் சுமையொழித் தாறப் - ப்பாழி யம்புயத் துலகெலாம் பரித்தினி திருந்தான் =15= வாழி <lb n="2"/>நல்லற மனையவும் வாழி மைமுகிலும் வாழி யெழபெருங்கடல்களும் வாழி யின்னிலமும் - வாழி யங்குயர் நிடத<lb n="3"/>மும் வாழி மானளனும் வாழி யன்னவன் சரிதையும் வாழி கேட்குனரே <g ref="#pcs"/>16<g ref="#pcs"/> அரசாட்சிப்படலம் முற்றும்<g ref="#pcs"/> <lb n="4"/>ஆகப்படலம் - 28? விருத்தம் - 1171 <g ref="#pcl"/>
+                     </explicit>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
                         <extent>
-                           <measure unit="folio" quantity="181">181 f. (Ducler title folio, unnumbered folio, folio 1-178, blank folio), </measure>
+                           <measure unit="folio" quantity="181">Ducler title folio, unnumbered folio, folio 1-178, blank folio.</measure>
                            <dimensions type="leaf" unit="mm">
                               <width quantity="405"/>
                               <height quantity="30"/>
                            </dimensions>
                         </extent>
-                        <foliation>
-                           <p>Foliation in Tamil and European numbers (both left). </p>
-                        </foliation>
+                        <foliation>Foliation in Tamil and European numbers (both left).</foliation>
                         <condition>
-                           <p>Excellent condition. </p>
+                           <p>Excellent condition.</p>
                         </condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout columns="1" writtenLines="7">
-                           <p>7 lines per page. </p>
-                        </layout>
+                        <layout columns="1" writtenLines="7"/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote scope="sole" script="tamil">
-                        <p>Tamil script, transitional (modern ṟ). </p>
+                     <handNote scope="sole" script="tamil" scriptRef="#tamilRRa">
+                        <p>Tamil script, transitional.</p>
                      </handNote>
                   </handDesc>
                   <additions>
-                     <p>Verse line ends marked by hyphen.</p>
+                     <desc type="blessing" subtype="marginal title-page"><locus facs="3">title folio r</locus>, margin: 
+                        <quote xml:lang="ta" rend="block"><lg>
+                         <l>civamayam</l>
+                         <l>hariḥ [<term xml:lang="en">grantha</term>] ōm</l>
+                         <l>naṉṟāka</l>
+                         <l>kuru vāḻka</l>
+                         <l>kuruvē tuṇai</l>
+                        </lg></quote>
+                     </desc>
+                     <desc type="title" subtype="title-page"><locus facs="3">title folio r</locus>, <quote xml:lang="ta-Taml">நயிடதம்</quote> <quote xml:lang="fr">Histoire de Nallaraja. Nayshadam.</quote> v blank.</desc>
+                     <desc type="blessing title" subtype="beginning marginal"><locus facs="5">unnumbered folio r</locus>, margin in two columns: 1. <quote xml:lang="ta">hari ōm naṉṟāka</quote>, 2. <quote rend="block" xml:lang="ta"><lg>
+                     	<l>kuruvāḻka</l>
+                     	<l>kuruvē tuṇai</l>
+                     	<l>Nayiḻatam</l>
+                     	</lg></quote></desc>
+                     <desc type="title chapter-heading" subtype="beginning marginal"><locus facs="7">f. 1r</locus>, margin: <quote xml:lang="ta" rend="block"><lg>
+                        <l>nayiḻatam</l>
+                        <l>nāṭṭuppaṭalam</l>
+                     </lg></quote></desc>
+                     <desc type="chapter-title" subtype="marginal"><locus facs="17">f. 6r</locus>, margin: <quote xml:lang="ta">nakarp paṭalam</quote></desc>
+                     <desc type="chapter-title" subtype="marginal"><locus facs="29">f. 12r</locus>, margin: <quote xml:lang="ta">aṉṉattaik kaṇṇutta paṭalam</quote></desc>
+                     <desc type="chapter-title" subtype="marginal"><locus facs="49">f. 22r</locus>, margin: <quote xml:lang="ta">aṉṉattait tūtuviṭṭa paṭalam</quote></desc>
+                     <desc type="chapter-title" subtype="marginal"><locus facs="91">f. 43r</locus>, margin: <quote xml:lang="ta">kaikkiḷaip paṭalam</quote></desc>
+                     <desc type="chapter-title" subtype="marginal"><locus facs="99">f. 47r</locus>, margin: <quote xml:lang="ta">mālaip paṭalam</quote></desc>
+                     <desc type="chapter-title" subtype="marginal"><locus facs="103">f. 49r</locus>, margin: <quote xml:lang="ta">nilātōṟṟup paṭalam</quote></desc>
+                     <desc type="chapter-title" subtype="marginal"><locus facs="109">f. 52r</locus>, margin: <quote xml:lang="ta">cantirōvālampaṉa paṭalam</quote></desc>
+                     <desc type="chapter-title" subtype="marginal"><locus facs="123">f. 59r</locus>, margin: <quote xml:lang="ta">maṉmata uvalampaṉa paṭalam</quote></desc>
+                     <desc type="chapter-title" subtype="marginal"><locus facs="127">f. 61r</locus>, margin: <quote xml:lang="ta">intirap paṭalam</quote></desc>
+                     <desc type="chapter-title" subtype="marginal"><locus facs="135">f. 65r</locus>, margin: <quote xml:lang="ta">naḷaṉṟūtu paṭalam</quote></desc>
+                     <desc type="chapter-title" subtype="marginal"><locus facs="171">f. 83r</locus>, margin: <quote xml:lang="ta">cayam[va]rap paṭalam</quote></desc>
+                     <desc type="chapter-title" subtype="marginal"><locus facs="227">f. 111r</locus>, margin: <quote xml:lang="ta">pōrpuri paṭalam</quote></desc>
+                     <desc type="chapter-title" subtype="marginal"><locus facs="251">f. 123r</locus>, margin: <quote xml:lang="ta">maṇampurip paṭalam</quote></desc>
+                     <desc type="chapter-title" subtype="marginal"><locus facs="271">f. 133r</locus>, margin: <quote xml:lang="ta">mīṭcip paṭalam</quote></desc>
+                     <desc type="chapter-title" subtype="marginal"><locus facs="275">f. 135r</locus>, margin: <quote xml:lang="ta">kalitōṉṟu paṭalam</quote></desc>
+                     <desc type="chapter-title" subtype="marginal"><locus facs="279">f. 137r</locus>, margin: <quote xml:lang="ta">iḷavēṉiṟ paṭalam</quote></desc>
+                     <desc type="chapter-title" subtype="marginal"><locus facs="283">f. 139r</locus>, margin: <quote xml:lang="ta">pōtukoy paṭalam</quote></desc>
+                     <desc type="chapter-title" subtype="marginal"><locus facs="287">f. 141r</locus>, margin: <quote xml:lang="ta">puṉalviḷaiyāṭṭup paṭalam</quote></desc>
+                     <desc type="chapter-title" subtype="marginal"><locus facs="293">f. 144r</locus>, margin: <quote xml:lang="ta">cūtāṭṭup paṭalam</quote></desc>
+                     <desc type="chapter-title" subtype="marginal"><locus facs="301">f. 148r</locus>, margin: <quote xml:lang="ta">nakarnīṅku paṭalam</quote></desc>
+                     <desc type="chapter-title" subtype="marginal"><locus facs="313">f. 154r</locus>, margin: <quote xml:lang="ta">kāṉpuku paṭalam</quote></desc>
+                     <desc type="chapter-title" subtype="marginal"><locus facs="319">f. 157r</locus>, margin: <quote xml:lang="ta">pirivuṟu paṭalam</quote></desc>
+                     <desc type="chapter-title" subtype="marginal"><locus facs="329">f. 162r</locus>, margin: <quote xml:lang="ta">vēṟṟuruvmainta paṭalam</quote></desc>
+                     <desc type="chapter-title" subtype="marginal"><locus facs="335">f. 165r</locus>, margin: <quote xml:lang="ta">vīmaṉ tēṭaviṭṭa paṭalam</quote></desc>
+                     <desc type="chapter-title" subtype="marginal"><locus facs="341">f. 168r</locus>, margin: <quote xml:lang="ta">kalinīṅku paṭalam</quote></desc>
+                     <desc type="chapter-title" subtype="marginal"><locus facs="347">f. 171r</locus>, margin: <quote xml:lang="ta">tēviyai kaṇṇūṟṟa paṭalam</quote></desc>
+                     <desc type="chapter-title" subtype="marginal"><locus facs="355">f. 175r</locus>, margin: <quote xml:lang="ta">aracāṭcip paṭalam</quote></desc>
+                     <desc type="blessing chapter-title" subtype="marginal"><locus facs="361">f. 178r</locus>, margin: <quote xml:lang="ta">civamayam, paṭalam aṭṭavaṇai</quote></desc>
+                     <desc type="register" subtype="end"><locus facs="361">f. 178r</locus>: table of chapters!</desc>
+            	     <desc type="documenting-note" subtype="detached"><locus facs="367">additional paper note</locus>: <q xml:lang="fr">Mr Ducler, No. 12, intitulé Naguijedame, histoire fabuleuse de Nalla=magaraja, roi de Maduré, (par Adivirarameine) Contenant 178 Feuilles</q></desc>
                   </additions>
                </physDesc>
                <history>
@@ -69,7 +122,7 @@
                </history>
                <additional>
                   <listBibl>
-                     <bibl>Ativīrarāmapāṇṭiyar, ed. (1962). <title>Naiṭatam mūlamum uraiyum.</title> Comm. by Kaḻakap Pulavar Kuḻuviṉar. Tirunelvēli/Ceṉṉai: Tirunelvēlit Teṉṉintiya Caivacittānta Nūṟpatippuk Kaḻakam (Kaḻakaveḷiyīṭu 1099).</bibl>
+                     <bibl><persName xml:lang="ta">Ativīrarāmapāṇṭiyar</persName>, ed. (1962). <title xml:lang="ta">Naiṭatam mūlamum uraiyum.</title> Comm. by <persName xml:lang="ta">Kaḻakap Pulavar Kuḻuviṉar</persName>. <geogName xml:lang="ta">Tirunelvēli/Ceṉṉai</geogName>: <orgName xml:lang="ta">Tirunelvēlit Teṉṉintiya Caivacittānta Nūṟpatippuk Kaḻakam (Kaḻakaveḷiyīṭu 1099)</orgName>.</bibl>
                      <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens.</title> Bibliothèque nationale. Département des manuscrits. Paris : E. Leroux. — See <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k255694f/f45.item">p. 39</ref>.</bibl>
                      <bibl>Vinson, Julien &amp; Feer, Léon (1867‒1868). <title>Catalogue des manuscrits tamouls (1-574) et télingas (1-65)</title>. Access No. BnF Indien 577. <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f131.item">f. 58</ref>.</bibl>
                   </listBibl>
@@ -78,59 +131,11 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change> This catalogue entry has been redacted by Eva WILDEN (Universität Hamburg) for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG). Version 1, Oct 2020. </change>
+         <change when="2020-10">This catalogue entry has been redacted by Eva WILDEN (Universität Hamburg) for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG). Version 1, Oct 2020.</change>
+         <change when="2021-01">Converted to TEI by Charles LI.</change>
       </revisionDesc>
    </teiHeader>
-   <text>
-      <body>
-         <p>complete mūlam<lb xmlns=""/>title folio r, margin: civamayam, hariḥ [grantha] ōm, naṉṟāka, kuru vāḻka, kuruvē tuṇaiநயிடதம், Histoire de Nallaraja. Nayshadam., v blank<lb xmlns=""/>unnumbered folio r, margin in two columns: 1. hari ōm naṉṟāka, 2. kuruvāḻka, kuruvē tuṇai, Nayiḻatamr text: <quote>
-               <p>தழைவிரி கடுக்கை மாலை தனிமுதற் சடையிற் சூடுங்</p>
-            </quote>
-            <quote>
-               <p>குழவிவெண் டிங்க ளிற்ற கோட்டது குறை[l. 1]யென் றெண்ணிப்</p>
-            </quote>
-            <quote>
-               <p>புழைநெடுங் கரத்தாற் பற்றிப் பொற்புற விணைத்து நோக்கு</p>
-            </quote>
-            <quote>
-               <p>ம[l. 2]ழைமதக் களிற்றின் செய்ய மலரடி சென்னி வைப்பாம்.</p>
-            </quote>v text: <quote>
-               <p>நிலவுபொழி தனிக்கவிதை நிடதகோன் புகட்சரிதை நெடுநீர் வைப்பிற் [l. 1]</p>
-            </quote>
-            <quote>
-               <p>புலவர்களி யமுதொழுகு புதுமொழிகூட் டுணத்தமிழாற் புனைதல் செய்தா [l. 2]</p>
-            </quote>
-            <quote>
-               <p>னலனுயர்த்த வண்ணலஞ்செல் வான்றொடுபொற் கோட்டிமைய வரையிற் றீட்டி [l. 3]</p>
-            </quote>
-            <quote>
-               <p>யலர்தலைமா நிலம்புரக்கு மதிவீர ராமனிக லரச ரேறே.</p>
-            </quote>
-            <lb xmlns=""/>f. 1r, margin: nayiḻatam, nāṭṭuppaṭalamtext: <quote>
-               <p>கருவி மாமழை கலைமக ளுருவென விளங்கி</p>
-            </quote>
-            <quote>
-               <p>யிருவி சும்பிடை படர்ந்துசென் றினமணி கோழிக்கும்</p>
-            </quote>
-            <quote>
-               <p>பரவை வெண்டி[l. 1]ரை மேய்ந்துயர் பனிவரை யுயர்த்த</p>
-            </quote>
-            <quote>
-               <p>வுருவ வோடரித் தடங்கணா ளுருக்கொடு மீண்ட =1=</p>
-            </quote>
-            <lb xmlns=""/>f. 5 v blank<lb xmlns=""/>f. 6r, margin: nakarp paṭalam<lb xmlns=""/>f. 12r, margin: aṉṉattaik kaṇṇutta paṭalam<lb xmlns=""/>f. 22r, margin: aṉṉattait tūtuviṭṭa paṭalam<lb xmlns=""/>f. 43r, margin: kaikkiḷaip paṭalam<lb xmlns=""/>f. 47r, margin: mālaip paṭalam<lb xmlns=""/>f. 49r, margin: nilātōṟṟup paṭalam<lb xmlns=""/>f. 52r, margin: cantirōvālampaṉa paṭalam<lb xmlns=""/>f. 59r, margin: maṉmata uvalampaṉa paṭalam<lb xmlns=""/>f. 61r, margin: intirap paṭalam<lb xmlns=""/>f. 65r, margin: naḷaṉṟūtu paṭalam<lb xmlns=""/>f. 83r, margin: cayam[va]rap paṭalam<lb xmlns=""/>f. 111r, margin: pōrpuri paṭalam<lb xmlns=""/>f. 123r, margin: maṇampurip paṭalam<lb xmlns=""/>f. 133r, margin: mīṭcip paṭalam<lb xmlns=""/>f. 135r, margin: kalitōṉṟu paṭalam<lb xmlns=""/>f. 137r, margin: iḷavēṉiṟ paṭalam<lb xmlns=""/>f. 139r, margin: pōtukoy paṭalam<lb xmlns=""/>f. 141r, margin: puṉalviḷaiyāṭṭup paṭalam<lb xmlns=""/>f. 144r, margin: cūtāṭṭup paṭalam<lb xmlns=""/>f. 148r, margin: nakarnīṅku paṭalam<lb xmlns=""/>f. 154r, margin: kāṉpuku paṭalam<lb xmlns=""/>f. 157r, margin: pirivuṟu paṭalam<lb xmlns=""/>f. 162r, margin: vēṟṟuruvmainta paṭalam<lb xmlns=""/>f. 165r, margin: vīmaṉ tēṭaviṭṭa paṭalam<lb xmlns=""/>f. 168r, margin: kalinīṅku paṭalam<lb xmlns=""/>f. 171r, margin: tēviyai kaṇṇūṟṟa paṭalam<lb xmlns=""/>f. 175r, margin: aracāṭcip paṭalam<lb xmlns=""/>f. 178r, margin: civamayam, paṭalam aṭṭavaṇai {table of chapters!}<lb xmlns=""/>f. 176v-177r: <quote>
-               <p>ஆழி சூழ்புவி முழுவது மாழியொன் றுருட்டி -</p>
-            </quote>
-            <quote>
-               <p>வாழி நல்லறம் புரிதரும் கம்பல வாற்றி -</p>
-            </quote>
-            <quote>
-               <p>ச்சூழி மா[l. 7]ல்வரைப் பிடருறுஞ் சுமையொழித் தாறப் -</p>
-            </quote>
-            <quote>
-               <p>ப்பாழி யம்புயத் துலகெலாம் பரித்தினி திருந்தான் =15= வாழி [l. 1] நல்லற மனையவும் வாழி மைமுகிலும் வாழி யெழபெருங்கடல்களும் வாழி யின்னிலமும் - வாழி யங்குயர் நிடத[l. 2]மும் வாழி மானளனும் வாழி யன்னவன் சரிதையும் வாழி கேட்குனரே .16. அரசாட்சிப்படலம் முற்றும்.[l. 3] ஆகப்படலம் - 28? விருத்தம் - 1171.</p>
-            </quote>v blank<lb xmlns=""/>additional paper note: Mr Ducler, No. 12, intitulé Naguijedame, histoire fabuleuse de Nalla=magaraja, roi de Maduré, (par Adivirarameine) Contenant 178 Feuilles,<lb xmlns=""/>
-         </p>
-      </body>
-   </text>
+   <facsimile>
+      <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b52510530s/manifest.json"/>
+   </facsimile>
 </TEI>
