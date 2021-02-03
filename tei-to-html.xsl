@@ -1573,6 +1573,7 @@
 
 <xsl:template match="x:list">
     <xsl:element name="ul">
+        <xsl:call-template name="lang"/>
         <xsl:apply-templates/>
     </xsl:element>
 </xsl:template>
