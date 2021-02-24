@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Three <term xml:lang="sa">Vaiṣṇava</term> hymns</title>
+         </titleStmt>
+         <editionStmt>
+            <p>Record edited by <persName>Charles LI</persName> <orgName>CNRS, CEIAS, UMR 8564</orgName>.</p>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits.</orgName>
+                  </repository>
+                  <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc102469b</idno>
+                  <idno type="cote">Sanscrit 1426</idno>
+                  <idno type="ancienne cote">Cordier non médicine 98</idno>
+               </msIdentifier>
+               <msContents class="#MTM">
+                  <summary><p>This manuscript, consisting of two folios, contains three <term xml:lang="sa">Vaiṣṇava</term> devotional works:
+                      <list>
+                        <item><title xml:lang="sa">Rūpacintāmaṇi</title></item>
+                        <item><title xml:lang="sa">Guruparamparā</title></item>
+                        <item><title xml:lang="sa">Vṛndādevīstava</title></item>
+                      </list> The name of each work has been written in the left margin.
+                    </p>
+                    <p>The <title xml:lang="sa">Rūpacintāmaṇi</title> is the first and longest of the three, and it is also the only one which contains a colophon at the end, dating it to Śaka 1742, or 1820/1821 AD.</p>
+                    <p>The <title xml:lang="sa">Guruparamparā</title> consists of four numbered verses, preceded by three introductory verses which are attributed to the <title xml:lang="sa">Padmapurāṇa</title>. Together, these seven verses also appear as part of the <term xml:lang="sa">maṅgalācaraṇa</term> of the <title xml:lang="sa">Prameyaratnāvalī</title>.</p>
+                    <p>The <title xml:lang="sa">Vṛndādevīstava</title> consists of eight verses in praise of <term xml:lang="sa">Vṛndādevī</term>, followed by one final, concluding verse, where it is called the <title xml:lang="sa">Vṛndādevyaṣṭaka</title>. Compared to the other two texts, this one has been copied with the most errors, indicating that may have been written from memory.</p>
+                  </summary>
+                  
+                  <msItem n="U1" defective="false">
+                    <title xml:lang="sa">Rūpacintāmaṇi</title>
+                    <textLang mainLang="san"/>
+                    <rubric xml:lang="sa"><milestone facs="5" n="1r" unit="folio"/>śrīśrīrādhākṛṣṇābhyāṃ namaḥ || atha rūpacintāmaṇi ||</rubric>
+                    <incipit xml:lang="sa"><milestone facs="5" n="1r" unit="folio"/>candrārddhaṃ kanasaṃ trikoṇadhanuṣī khaṃ goṣpadaṃ proṣṭhikāṃ</incipit>
+                    <finalRubric xml:lang="sa"><milestone facs="8" n="2v" unit="folio"/>iti rūpacintāmaṇisampūrṇaṃ ||</finalRubric>
+                    <colophon xml:lang="sa"><milestone facs="8" n="2v" unit="folio"/>śakābdā 1742 <unclear>jyaiṣṭhe</unclear> ||</colophon>
+                  </msItem>
+                  <msItem n="U2" defective="false">
+                    <title xml:lang="sa">Guruparamparā</title>  
+                    <textLang mainLang="san"/>
+                    <incipit xml:lang="sa"><milestone facs="8" n="2v" unit="folio"/>yad uktaṃ padmapurāṇe ||</incipit>
+                    <explicit xml:lang="sa"><milestone facs="8" n="2v6" unit="folio"/>śrīkṛṣṇapremadānena yena nistāritaṃ jagat || ❈ ||</explicit>
+                    <finalRubric xml:lang="sa"><milestone facs="8" n="2v7" unit="folio"/>iti śrīguruparamparā samāptā || ❈ ||</finalRubric>
+                  </msItem>
+                  <msItem n="U2" defective="false">
+                    <title xml:lang="sa">Vṛndādevīstava</title>
+                    <textLang mainLang="san"/>
+                    <rubric xml:lang="sa"><milestone facs="8" n="2v7" unit="folio"/>śrīvṛndādevyai <sic>manaḥ</sic> |</rubric>
+                    <incipit xml:lang="sa"><milestone facs="8" n="2v7" unit="folio"/>vṛndāvanādhidevin tu saccidānandarūpiṇīṃ |</incipit>
+                    <explicit xml:lang="sa"><milestone facs="8" n="2v13" unit="folio"/>rādhāgovindapādābje premabhakti labhe<unclear>d bra</unclear>vaṃ ||</explicit>
+                    <finalRubric xml:lang="sa">iti śrīvṛndādevyair aṣṭakaṃ sampūrṇa || ❈ ||</finalRubric>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="pothi">
+                     <supportDesc material="paper laid">
+                        <support>
+                           <p>Unidentified <locus facs="11">watermark</locus> on first folio.</p>
+                        </support>
+                        <extent>
+                           <measure unit="folio" quantity="2"/>
+                           <dimensions type="leaf" unit="mm">
+                              <width quantity="300"/>
+                              <height quantity="120"/>
+                           </dimensions>
+                        <dimensions type="object" unit="mm"><width quantity="300"/><height quantity="128"/><depth quantity="8"/></dimensions><dimensions type="written" unit="mm"><width quantity="235"/><height min="65" max="80"/></dimensions></extent>
+                        
+                        
+                     <foliation n="U1">Bengali foliation, right margin. <locus facs="6">1v</locus> foliated as 1, <locus facs="7">2r</locus> foliated as 2.</foliation>
+                     <foliation n="U2">Bengali foliation, right margin. <locus facs="8">2v</locus> foliated as 1.</foliation>
+                     <condition>Some wear around the edges.</condition></supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" streams="1" writtenLines="11 14"/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     
+                  <handNote n="U1 U2" scope="sole" script="bengali" scriptRef="#bengaliRa #bengaliYa" medium="ink black"/></handDesc>
+                  <additions>
+                      <desc type="shelfmark" subtype="cover"><locus facs="1">Shelfmark</locus> on front cover, in pencil.</desc>
+                      <desc type="shelfmark" subtype="detached"><locus facs="3">Shelfmark</locus> on folded strip of paper: <quote>Scr. 1426</quote>. Old shelfmark, <quote>98</quote> and title, <quote>Rūpacintāmaṇi</quote> in smaller letters. 40 x 122 mm.</desc>
+                      <desc type="title" subtype="marginal">Title of first text on <locus facs="6">1v</locus> and <locus facs="7">2r</locus>: <q xml:lang="sa">rūpacintāmaṇi ―</q>.</desc>
+                      <desc type="title" subtype="marginal">Title of second and third texts on <locus facs="8">2v</locus>: <quote rend="block" xml:lang="sa"><lg>
+                        <l>śrīguruparamparā ―</l>
+                        <l>śrīvṛndādevīstava ―</l>
+                        </lg></quote></desc>
+                      <desc type="blessing" subtype="marginal">On <locus facs="8">2v</locus>, top-left corner: <q xml:lang="sa">śrīrāmaḥ śaraṇaṃ</q> and <q xml:lang="sa">śrīrādhākṛṣṇābhyāṃ namaḥ ||</q></desc>
+                      <desc type="stamp" subtype="beginning end"><q xml:lang="fr">BIBLIOTHEQUE NATIONALE MSS R.F.</q> stamp, <locus facs="6">1v</locus> and <locus facs="7">2r</locus>.</desc>
+                  </additions>
+                  <bindingDesc>
+                     <binding>
+                        <p>Corrugated library covers.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian" notBefore="1820" notAfter="1821">Dated Śaka 1742 (1820/1821 AD).</origDate>
+                  </origin>
+                  <acquisition>
+                     <p>Part of the non-medical manuscripts of the <ref target="http://catalogue.bnf.fr/ark:/12148/cb12199048n">Palmyr Cordier</ref> collection.</p>
+                  </acquisition>
+               </history>
+               <additional>
+                  <listBibl>
+                    <bibl><persName xml:lang="sa">Bāladeva Vidyābhūṣaṇa</persName>, <persName xml:lang="sa">K. D. Vedāntavāgīśa</persName>, <persName xml:lang="sa">A. K. S. Śāstrī</persName>, &amp; <persName xml:lang="sa">G. S. Śarmā</persName> (1927). <title xml:lang="sa">Prameyaratnāvalī: Gauḍīyavaiṣṇavadarśanaprakaraṇagranthaḥ</title>. Calcutta: Sanskrit Sahitya Parisat.</bibl>
+                    <bibl><persName xml:lang="fr">Cabaton, Antoine</persName> (1907-1908). <title xml:lang="fr">Catalogue sommaire des manuscrits sanscrits avec supplément manuscrit</title>. Paris: E. Leroux. Supplemented by <persName xml:lang="fr">Jean Filliozat</persName>. <ref target="https://gallica.bnf.fr/ark:/12148/btv1b10536321f/f251.item">315</ref>.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>   
+        <p>❈ denotes a puṣpikā. ẏ denotes a y with a nukta dot, following ISO 15919. Spaces added in transcription where possible.</p>
+      </encodingDesc>
+      <revisionDesc>
+        <change when="2021-02">Record created by Charles LI.</change> 
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+       <graphic url="https://tst-project.github.io/img/Sanscrit_1426/index.json"/>
+   </facsimile>
+   <text n="U1" xml:lang="sa">
+     <body>
+       <p><milestone n="1r1" facs="5" unit="folio"/>śrīśrīrādhākṛṣṇābhyāṃ namaḥ || atha rūpacintāmaṇi ||</p>
+       <lg>
+        <l>candrārddhaṃ kanasaṃ trikoṇadhanuṣī khaṃ goṣpadaṃ proṣṭhikāṃ
+        <caesura/> śaṅkhaṃ savyapade 'tha dakṣiṇapade ko<lb n="2"/>ṇāṣṭhakaṃ svastikaṃ |</l>
+        <l>catruṃ chatraẏavāṅkuśaṃ dhvajapavī jambūrddhvarekhāmbujaṃ
+        <caesura/> bibhrāṇaṃ harim ūnaviṃśatimahāla<sic>kṣmāci</sic>tāṅghriṃ bhaje || 1 ||</l>
+       </lg>
+       <lg>
+        <l>chatrā<note place="top-margin">ari athāt__ cakre 2</note>ridvaja<lb n="3"/>vallipuṣpavalayān_ padmorddhvarekhāṅkuśā<caesura/>n arddhenduñ ca ẏavaṃ ca vāmam anu ẏā śaktiṃ gadāṃ sya<note place="top-margin">athāt__ rathaḥ 3</note>ndanaṃ |</l>
+        <l>vedīkuṇḍalama<unclear>t</unclear>syaparvvatadaraṃ dhatte nv asa<lb n="4"/>vyaṃ padaṃ
+        <caesura/> tāṃ rādhāṃ ciram ūnaviṃśatimahāla<sic>kṣmāci</sic>tāṅghriṃ bhaje || 2 ||</l>
+       </lg>
+       <lg>
+         <l>kalindā<unclear>tma</unclear><subst>j<del rend="prṣṭhamātrā deleted">o</del><add rend="implied">ā</add></subst>veṣṭite mañjuvṛndā<caesura/>vane kuñjapuñjāvṛtasvarṇṇa<lb n="5"/>bhūmau |</l>
+         <l>maṇikuṭṭimāntarmahāyogapīṭhe <caesura/> sphurattuṅgakalpadrumūle sugandhau || 3 ||</l>
+       </lg>
+       <lg>
+         <l>atibhrāji<sic>rā</sic><subst><del rend="yellow paste"><gap reason="illegible"/></del><add place="top-margin" rend="candrabindu">tnā 5</add></subst>ravindacchadālī<caesura/>sthitālīsthitau <lb n="6"/>ẏau kiśorau vibhātiḥ |</l>
+         <l>tayor ādimat__syāmbudābhasya ni<del rend="scribbled out"><gap reason="illegible"/></del>tyaṃ <caesura/> smara tvaṃ mano mañjulaṃ mandahāsyaṃ || 4 ||</l>
+       </lg>
+       <lg>
+         <l>lasadbarhaguñjāñcitāṃ cārucū<lb n="7"/>ḍāṃ <caesura/> suvakrālakāṃś citrakārccir lalāṭaṃ |</l>
+         <l>bhruvau locane nāśikāṃ svacchagaṇḍau <caesura/> śrutidvandvam udyanmaṇīkuṇḍalāḍhyaṃ || 5 ||</l>
+       </lg>
+       <lg>
+         <l>suśoṇādha<lb n="8"/>ro ṣṭhau smitānvāsya vṛttaṃ <caesura/> trirekhāñcikaṇṭhaṃ mṛḍuskandhayugmaṃ |</l>
+         <l>bhujāv āyatau sāṅgadau bhūṣaṇāḍhyau <caesura/> karāv aṅguliḥ sormmikā<lb n="9"/>lakṣmarekhāṃ || 6 ||</l>
+       </lg>
+       <lg>
+         <l>uraḥkaustubhaṃ sva<unclear>rṇṇa</unclear>muktādihārān <caesura/> śriyaṃ <unclear>bra</unclear>hmarekhāṃs tanorddhve pradīptāṃ |</l>
+         <l>lasattuṅgalomāvalīnābhipadmaṃ <caesura/> kṛ<lb n="10"/>ṣaṃ madhyamaṃ kiṅkinī pītavāsaḥ || 7 ||</l>
+       </lg>
+       <lg>
+         <l>supīnor uyugjānujaṅghāntagulph<caesura/>advayādho raṇannūpurau pādapadme |</l>
+         <l>mano ṅgāṅguliḥ śvetaśo<lb n="11"/>ṇānnakhāṃs ta<caesura/>ttalāruṇyam āpārṣṇibibhrājamānaṃ || 8 ||</l>
+       </lg>
+       <lg>
+         <l>athāṅguṣṭhamūle yavāryyātapatraṃ <caesura/> tanuṃ tarjjaṇīsandhibhāgū<unclear>rddha</unclear>rekhāṃ |</l>
+         <l>padārddhvāva<lb n="12"/>dhiṃ kuñcitāṃ madhyamādho <caesura/> 'mbujaṃ tattalasthaṃ dhvajaṃ sat__patākaṃ || 9 ||</l>
+       </lg>
+       <lg>
+         <l>kaniṣṭhātane tv aṅkuśaṃ vajram eṣāṃ <caesura/> tanesvastikānāṃ catuṣkaṃ caturbhiḥ |</l>
+         <l><lb n="13"/>yutaṃ jambubhir madhyabhā<subst><del rend="candrabindu">tā</del><add place="bottom-margin">2gā1</add></subst>ṣṭhakoṇaṃ <caesura/> mano re smara śrīharer da<del rend="crossed out"><gap reason="illegible"/></del>kṣiṇāṅghrau || 10 ||</l>
+       </lg>
+       <lg>
+         <l><unclear>a</unclear>nāmātalekhaṃ smarāṅguṣṭhamūle <caesura/> daraṃ taddvayā<pb facs="6" n="1v"/>dho dhanur jyāvihīnaṃ |</l>
+         <l>tato goṣpadaṃ tattale tu trikoṇaṃ <caesura/> catuskumbham arddhendumīnau ca vāme || 11 ||</l>
+       </lg>
+       <lg>
+         <l>talaṃ śoṇimāktaṃ nakhān_ śvetara<lb n="2"/>ktān_ <caesura/> mṛduśonapā<unclear>rṣṇī</unclear> pade nūpurā<subst>ḍhy<del rend="ā sign deleted">o</del><add rend="implied">e</add></subst> |</l>
+         <l>lasadgulphajaṅghoruparvvoruyugmaṃ <caesura/> taḍi<unclear reason="virāma above">t</unclear>pītavāso maṇikiṅkinīyuka || 12 ||</l>
+       </lg>
+       <lg>
+         <l>kṛ<unclear>ṣaṃ</unclear> madhya<lb n="3"/>maṃ nābhipadmaṃ gabhīraṃ <caesura/> tanuṃ romarājīdalābhodarasthāṃ |</l>
+         <l>uro vistṛtaṃ kaustabhaṃ lambihārān_ <caesura/> srajaṃ śrītulasyās tanorddhve tu <lb n="4"/>vāse || 13 ||</l>
+       </lg>
+       <lg>
+         <l>śriyaṃ dakṣiṇe brahmalakṣmatrirekhāṃ <caesura/> śvarāṇāṃ januḥ kambukaṇṭhaṃ suvṛttaṃ |</l>
+         <l>mṛdutuṅgamaṃśadvayaṃ sthūlaphullau <caesura/> bhujau sā<lb n="5"/>ṅgadau kāntipūrṇṇau kaphoṇī || 14 ||</l>
+       </lg>
+       <lg>
+         <l>maṇibandhabhūṣāñcitaṃ hastayugmaṃ <caesura/> mahālakṣmaretiraktau tu pāṇī |</l>
+         <l>suvarṇṇormmikā <unclear>a</unclear>ṅgulī<lb n="6"/>s tannakhendun_ <caesura/> mukhaṃ dīptadantādharoṣṭhākṣigaṇḍaṃ || 15 ||</l>
+       </lg>
+       <lg>
+         <l>sunāsābhruvau rocanācitrakārcci<caesura/>r lalāṭaṃ śrutisañcalat__kuṇḍalā<lb n="7"/>ḍhye |</l>
+         <l>kacān_ kuñcitān_ pi<sic>ñcṛ</sic>guñchāprasūnaiḥ <caesura/> śritāṃ cārucūḍāṃ sphuranmandahāsyaṃ || 16 ||</l>
+       </lg>
+       <lg>
+         <l>vṛndāvane ẏau rasikau vibhātaḥ <caesura/> pa<lb n="8"/>raṣparaḥ premasudhārasāḍhyau |</l>
+         <l>tayos taḍinnindirucaḥ kiśoryyā <caesura/> līlāṃśukāntaḥ smara mandahāsyaṃ || 17 ||</l>
+       </lg>
+       <lg>
+         <l>veṇīkṛtān_ ku<lb n="9"/>ñcitān_ sūkṣmakeśān_ <caesura/> cūḍāmaṇimañjulapatrapāśyāṃ |</l>
+         <l>vakrālakan_ sattilakaṃ lalāṭaṃ <caesura/> bhruvau dṛśārañjanarañjitābhiḥ || 18 ||</l>
+       </lg>
+       <lg>
+         <l><lb n="10"/>śrutidvayaṃ kuṇḍalamañju cakrī<caesura/>śa<unclear reason="looks like na with nukta">lā</unclear>kike gaṇḍatale <surplus>maka</surplus>makaryyau |</l>
+         <l>nāsāṃ sumuktām aruṇādharoṣṭhau <caesura/> dantārcciṣaḥ saccibukaṃ <lb n="11"/>sabinduṃ || 19 ||</l>
+       </lg>
+       <lg>
+         <l>kaṇṭhatrirekhāṃ kramalambamānān_ <caesura/> hārān natāṃsau bhujasāṅgadatvaṃ |</l>
+         <l>kaphonike kaṅkaṇacūḍikāḍhye <caesura/> sulakṣma<lb n="12"/>rekhāruṇapāṇipadme || 20 ||</l>
+       </lg>
+       <lg>
+         <l>ratnormmikā aṅgulikā nakhaśrī<caesura/>śritāḥ kucau kañculikāruṇābha |</l>
+         <l>niskan dalābhodararomapaṅkti<caesura/><lb n="13"/>nābhiṃ kṛṣaṃ madhyam utaṃ trivalyā || 21 ||</l>
+       </lg>
+       <lg>
+         <l>citrāntarīyaparinīlasāṭī<caesura/>m urudvayaṃ jānuyugañ ca jaṅgho</l>
+         <l>gulphadvayaṃ haṃsakanūpura<lb n="14"/>śrī<caesura/>bhūtormmikā aṅgulikā nakhāś ca || 22 ||</l>
+       </lg>
+       <lg>
+         <l>are manaś cintaya rādhikāyā <caesura/> vāme padāṅguṣṭhatale yavāri |</l>
+         <l>pradesinī sandhita <pb n="2r" facs="6"/>ūrddharekhā<caesura/>m ākuñcitām ācaraṇārddham eva || 23 ||</l>
+       </lg>
+       <lg>
+         <l>madhyātale bjadhvajapuṣpavallīḥ <caesura/> kaniṣṭhikādho 'ṅkuśam ekam eva |</l>
+         <l>cakrasya mūle <lb n="2"/>valayātapatre <caesura/> pārṣṇo tu can<subst>dr<del rend="pṛṣṭhamātrā deleted">o</del><add rend="implied">ā</add></subst>rddham athānyapāde || 24 ||</l>
+       </lg>
+       <lg>
+         <l>pārṣṇau ruṣaṃ syandanaśailam ūrddhve <caesura/> tat__pārśvayoḥ śaktigade ca śaṅkhaṃ |</l>
+         <l><lb n="3"/>aṅguṣṭhamūle 'tha kaniṣṭhikādho <caesura/> vedīmadhyoḥ kuṇḍalam eva tasyā || 25 ||</l>
+       </lg>
+       <lg>
+         <l>pados tale pārṣṇiyugañ ca śoṇaṃ <caesura/> raktormmikā ra<lb n="4"/>ktanākhāṅguliś ca |</l>
+         <l>mañjīrayugmaṃ tanugulphajaṅghā<caesura/>jānūruśobhā jaghanaṃ nitambaṃ || 26 ||</l>
+       </lg>
+       <lg>
+         <l>vāsaḥ sasūtraṃ maṇimekhalāñ ca <caesura/> nā<lb n="5"/>bhiṃ dalābhodararomavallyau |</l>
+         <l>pīnau kucau kañculikāñcitau ca <caesura/> kaṇṭhaṃ trirekhaṃ maṇihemahārān || 27 ||</l>
+       </lg>
+       <lg>
+         <l>skandhau latāv aṅga<lb n="6"/>dinau bhujau <caesura/> śrībharau kapholī maṇibandhayugmaṃ |</l>
+         <l>vicitracūḍāmaṇikaṅkaṇāḍhyaṃ <caesura/> śoṇe karābje mṛḍulāṅguliś ca || 28 ||</l>
+       </lg>
+       <lg>
+         <l><lb n="7"/>ratnormmikās tā sunakhendukhaṇḍān_ <caesura/> saśyāmabi<unclear reason="anusvāra smudged">nduṃ</unclear> cibukaṃ mukhābjaṃ |</l>
+         <l>oṣṭhādharau gaṇḍayugaṃ sucitraṃ <caesura/> karṇṇollasat__kuṇḍala<lb n="8"/><subst>c<del rend="crossed out">i</del><add rend="implied">a</add></subst>krikāḍhyau || 29 ||</l>
+       </lg>
+       <lg>
+         <l>nāsāṃ maṇimauktikabhūṣitāṃ dṛ<caesura/>gadvayaṃ lasat__kajvalam ujvalantau |</l>
+         <l>bhruvaṃ lalāṭaṃ tilakaṃ śrīpatra<caesura/>pāśyāṃ  <lb n="9"/>suvakrālakalo<del><gap reason="illegible"/></del>limānaṃ || 30 ||</l>
+       </lg>
+       <lg>
+         <l>sīmantarekhāṃ smara cittacūḍā<caesura/>maṇiprasūnāvaligumphacitrāṃ</l>
+         <l>veṇīṃ triveṇīm iva bandha<lb n="10"/>pāśyā <caesura/> virājad agrām atha mandahāsyaṃ || 31 ||</l>
+       </lg>
+       <lg>
+         <l>śrīrādhikāmādhavarūpacintā<caesura/>maṇau mano dvitrir atho catur vvā |</l>
+         <l>āva<unclear>rtta</unclear>yed ẏo <lb n="11"/>dhṛtimā<unclear>n</unclear> paṭhan_ sa <caesura/> prāpnoti taddarśanam āśu sākṣāt || 32 || ❈ ||</l>
+       </lg>
+       <p>iti rūpacintāmaṇisampūrṇaṃ || śakābdā 1742 <unclear>jyaiṣṭhe</unclear> ||</p> 
+     </body>
+   </text>
+   <text n="U2" xml:lang="sa">
+     <body>
+       <p><milestone n="2v" unit="folio" facs="8"/>yad uktaṃ padmapurāṇe ||</p>
+       <lg>
+         <l>saṃpradāyavihīnaye mantras te viphalāmatāḥ |</l>
+         <l>tataḥ kalau bhaviṣyanti catvāraḥ sampradāyinaḥ ||</l>
+       </lg>
+       <lg>
+         <l>śrī<note place="above">1</note>brahma<note place="above">2</note>rudra<note place="above">3</note><metamark function="line filler">✗</metamark><lb n="2"/>sanakā<note place="above">4</note> vaiṣṇavāḥ kṣitipāvanāḥ |</l>
+         <l>catvāram te kalau bhāvyā hy ut__kale puruṣottamā ||</l>
+       </lg>
+       <lg>
+         <l>rāmānujaśrīsvīcakre madhvācāryyaṃ caturmmukhaḥ |</l>
+         <l><lb n="3"/>śrīviṣṇusvāminaṃ rudro nimbāditvacatuḥsanaḥ ||</l>
+       </lg>
+       <p>tatra svaguruparamparā yathā ||</p>
+       <lg>
+         <l>śrīkṛṣṇa<note place="above">1</note>brahma<note place="above">2</note>devarṣi<note place="above">3</note>bādarāyaṇa<note place="above">4</note>saṅgakā<subst>n<del rend="crossed out">ā</del><add>_</add></subst> |</l>
+         <l>śrīmādhva<note place="above">5</note><lb n="4"/>śrīpadmanābha<note place="above">6</note>śrīmannṛhari<note place="above">7</note>mādhavān<note place="above">8</note> || 1 ||</l>
+       </lg>
+       <lg>
+         <l>akṣobhya<note place="above">9</note>jayatīrtha<note place="above">10</note>śrījñānasindhu<note place="above">11</note>dayāni<subst>dh<del>i</del><add>ī</add></subst>n<note place="above">12</note> |</l>
+         <l>śrīvidyānidhirājendrajayadharmmān_ kramā<lb n="5"/>d vayaṃ || 2 ||</l>
+       </lg>
+       <lg>
+         <l>puru<sic>ṣoma</sic>brahmaṇyavyāsatīrthaś ca saṃstumaḥ |</l>
+         <l>tato lakṣmīpatiśrīmanmādhavendrañ ca bhaktidaḥ || 3 ||</l>
+       </lg>
+       <lg>
+         <l>tacchiṣyān_ śrīśvarādvaita<lb n="6"/>nityānandajagadgurun |</l>
+         <l>devam īśvaraśiṣyaṃ śrīcaitanyañ ca bhajāmy ahaṃ || 4 ||</l>
+         <l>śrīkṛṣṇapremadānena ẏena nistāritaṃ jagat || ❈ ||</l>
+       </lg>
+       <p><lb n="8"/>iti śrīguruparamparā samāptā || ❈ ||</p>
+       <p><milestone n="2v7" unit="folio" facs="8"/>śrīvṛndādevyai <sic>manaḥ</sic> ||</p>
+       <lg>
+         <l>vṛndāvanādhidevin tu saccidānandarūpiṇīṃ |</l>
+         <l>satataiśvaryya<del rend="crossed out"><gap reason="illegible"/></del>yu<unclear>ktāṃ</unclear> tāṃ <lb n="8"/>vṛndādeviṃ namāmy ahaṃ || 1 ||</l>
+       </lg>
+       <lg>
+         <l>divyadevataror mūle vicitramaṇimandire |</l>
+         <l>ratnasiṃhāsanāśināṃ vṛndādeviṃ namāmy ahaṃ || 2 ||</l>
+       </lg>
+       <lg>
+         <l>divyakāñcagaurā<lb n="9"/>ṅgīṃ vicitritavarāmbarāṃ |</l>
+         <l>pūrṇacandranibhāsyāṃ tāṃ vṛndādeviṃ namāmy ahaṃ || 3 ||</l>
+       </lg>
+       <lg>
+         <l>vedopaniṣadais ta<sic>tvai</sic> brahmādyair amarair api |</l>
+         <l>surarṣibhiś ca saṃ<lb n="10"/>pūjyāṃ vṛndādeviṃ namāmy ahaṃ || 4 ||</l>
+       </lg>
+       <lg>
+         <l>śrīgovindaprasādais tair gandhamālyaprasūna<sic>kai</sic> |</l>
+         <l>bhūṣaṇe bhūṣitā<sic>ṅgi</sic> ca vṛndādeviṃ namāmy ahaṃ || 5 ||</l>
+       </lg>
+       <lg>
+         <l>ẏaṃ ẏaṃ <lb n="11"/>bhāvaṃ hṛdi jñā<subst>t<del>v</del>ā</subst> tāṃ tāṃ līlāṃ manoharāṃ |</l>
+         <l>sāmagrīṃ ẏojayantiṃ tāṃ vṛndādeviṃ namāmy ahaṃ || 6 ||</l>
+       </lg>
+       <lg>
+         <l>kandarpakoṭiramyāṃ tāṃ rādhākṛṣṇā<unclear>dbhu</unclear>ta<lb n="12"/>śrīyaṃ |</l>
+         <l>dṛṣṭvā magnacako<sic>ra</sic>kṣiṃ vṛndādeviṃ namāmy ahaṃ || 7 ||</l>
+       </lg>
+       <lg>
+         <l>vṛṣabhānusutā kāntā kṛṣṇapremapari<unclear>plu</unclear><del rend="crossed out"><gap reason="illegible"/></del>tā |</l>
+         <l>pula<sic>kai</sic> pūritāṃ nitvāṃ vṛ<sic>nda</sic>de<lb n="13"/>viṃ namāmy ahaṃ || 8 ||</l>
+       </lg>
+       <lg>
+         <l>ẏaḥ <add place="below">paṭhet 1</add> prātara<unclear>hṇā</unclear>ya vṛndādevyaṣṭakaṃ śubhaṃ |</l>
+         <l>rādhāgovindapādābje premabhakti labhe<unclear>d bra</unclear>vaṃ ||</l>
+       </lg>
+       <p>iti śrīvṛndādevyair aṣṭakaṃ sampūrṇa || ❈ ||</p>
+     </body>
+   </text>
+</TEI>
