@@ -54,7 +54,7 @@ const getMaterial = function(el) {
     return materials.get(m);
 };
 
-const getExtent = function() {
+const getExtent = function(xmlDoc) {
     const folios = xmlDoc.querySelector('measure[unit="folio"]');
     if(folios) {
         const num = folios.getAttribute('quantity');
@@ -73,16 +73,19 @@ const readfiles = function(arr) {
     const tab = arr.map((f) => 
     {
         const str = fs.readFileSync(f,{encoding:'utf-8'});
-        xmlDoc = new jsdom.JSDOM(str).window.document;
+        const dom = new jsdom.JSDOM('');
+        const parser = new dom.window.DOMParser();
+        const xmlDoc = parser.parseFromString(str,'text/xml');
         const cote = xmlDoc.querySelector('idno[type="cote"]').textContent;
         const sortno = parseInt(cote.replace(/\D+/g,''));
         return {
             sort: sortno,
             filename: f,
             cote: cote,
-            title: getTitles(xmlDoc.querySelectorAll('msItem > title')),
+            title: xmlDoc.querySelector('titleStmt').textContent,
+            //title: getTitles(xmlDoc.querySelectorAll('msItem > title')),
             material: getMaterial(xmlDoc.querySelector('supportDesc')),
-            extent: getExtent(),
+            extent: getExtent(xmlDoc),
             width: getMeasure(xmlDoc.querySelector('dimensions[type="leaf"] width')),
             height: getMeasure(xmlDoc.querySelector('dimensions[type="leaf"] height')),
             date: getDate(xmlDoc.querySelector('origDate')),
