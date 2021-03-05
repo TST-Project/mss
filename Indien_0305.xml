@@ -4,11 +4,14 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Katampavaṉapurāṇam</title>
+            <title xml:lang="ta">Katampavaṉapurāṇam</title>
          </titleStmt>
+         <editionStmt>
+            <p>Record edited by <persName>Eva WILDEN</persName> <orgName>Universität Hamburg</orgName>.</p>
+         </editionStmt>
          <publicationStmt>
-            <publisher>Bibliothèque nationale de France.</publisher>
-            <date>2020</date>
+            <publisher>TST Project</publisher>
+            <date>2021</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -16,32 +19,44 @@
                   <repository>
                      <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
                   </repository>
-                  <idno type="eadid">FRBNFEAD000103835</idno>
+                  <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103835h</idno>
                   <idno type="cote">Indien 305</idno>
                   <idno type="ancienne cote">Tamoul 305</idno>
                </msIdentifier>
-               <msContents>
+               <msContents class="#STM">
                   <summary/>
-                  <msItem defective="">
-                     <title>Katampavaṉapurāṇam</title>
+                  <msItem defective="false">
+                     <title xml:lang="ta">Katampavaṉapurāṇam</title>
                      <textLang mainLang="tam">Tamil</textLang>
+                     <incipit xml:lang="ta-Taml">
+                       <milestone facs="7" n="1r" unit="folio"/>திருவோங்கு பேரொளியாய் பராற்பரமாய்ச் சிவமாயச் சூக்குமமாகி <caesura/>
+                       யருவோங்<lb n="2"/>கு மறுபவநித் தியநிபல மானசதா சிவமு மாகி <caesura/>
+                       யுருவோங்கு தொழிற்படுமன் னுயிர்க் குயி<lb n="3"/>ரா முதலிலிங்க வுருவாந் தொன்மை <caesura/>
+                       மருவோங்கு பலர்க்கடம்ப வனத்தமர்<lb n="4"/>சுந் தரன்றுணைத் தாள்வழுத்தல் செய்வாம்.
+                     </incipit>
+                     <explicit xml:lang="ta-Taml">
+                        <milestone n="174v" unit="folio" facs="354"/>
+                           ஓதுமஞ்செ ழுத்துவாழி ஓங்குகூடல் வாழியென் <caesura/>
+                           னாதநீதி யங்கயற்க<lb n="2"/>ணங்கைபங்க னன்மலர்ப் <caesura/>
+                           பாதங்க யங்கள்வாழி பரவுநூற்பு ராணநா <caesura/>
+                           மாதுபூதி வைதிகம் வழங்<lb n="3"/>குசைவம் வாழியே -57- <caesura/>
+                           பதினோராவது துன்மதன்முதலான வேடாமுற்றிபெற்ற வத்தியா<lb n="4"/>ய முற்றும். ஆகத்திருவிருத்தம். 1204. கடம்பவனபுராணம் எழுதி நிறைவெறியது <lb n="5"/> முற்றும். ஞாநசம்பந்தன் றிருவடி வாழ்க. சுந்தரேசன் துணை.
+                    </explicit>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
                         <extent>
-                           <measure unit="folio" quantity="176">176 f.</measure>
+                           <measure unit="folio" quantity="176">Guard leaf, unnumbered folio, folios 1-74.</measure>
                            <dimensions type="leaf" unit="mm">
                               <width quantity="260"/>
                               <height quantity="30"/>
                            </dimensions>
                         </extent>
-                        <foliation/>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="1" writtenLines="7">
-                           <p>7 lines per page. </p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
@@ -50,7 +65,37 @@
                         <p>Traditional script. </p>
                      </handNote>
                   </handDesc>
-                  <additions/>
+                  <additions>
+                    <desc type="shelfmark" subtype="beginning"><locus facs="3">guard leaf</locus>: sticker: INDIEN 305, upside down erased title of another ms., painted b/81, sticker DON ??, verso blank</desc>
+                    <desc type="title" subtype="beginning marginal"><locus facs="5">unnumbered folio r</locus>, margin: <q xml:lang="ta">tiruciṟṟampalam, kaṭampavaṉapurāṇam</q></desc>
+                    <desc type="satellite-stanza" subtype="beginning"><locus facs="5">unnumbered folio r</locus>: <quote rend="block" xml:lang="ta-Taml"><lg>
+                       <l>நிலம்போற்று மகத்தியன்முன் னிகழ்த்தியவிக் கதைக்கியறேர்</l>
+                       <l>நலம்போற்றுந் <lb n="2"/> தமிழ்வாக்கு நமக்கருள்செய் திடத்தேவை</l>
+                       <l>வலம்போற்றிப் பலங்கவருஞ் <lb n="3"/> சித்திவினா யகனைமழைக்</l>
+                       <l>குலம்போற்று மதிடகூடற் கோமகவை <lb n="4"/> வணங்குவாம். சொக்கலிங்கம் துணை.</l>
+                      </lg></quote> verso blank</desc>
+                    <desc type="title" subtype="beginning marginal"><locus facs="7">f. 1r</locus>, margin: <q xml:lang="ta">kaṭampavaṉapurāṇam</q></desc>
+                    <desc type="intertitle" subtype="marginal">{marginal titles do not exactly correspond to the chapter beginnings, as the rest of the previous folio is used up for writing} <locus facs="17">f. 6r</locus>, margin: <q xml:lang="ta">vaciṭṭātiyākatttiyaṉaiviṉāviya vattiyāyam</q></desc>
+                    <desc type="intertitle" subtype="marginal"><locus facs="27">f. 11r</locus>, margin: <q xml:lang="ta">iraṇṭāvatu nīpavaṉamāṉa vaṟṟiyāyam</q></desc>
+                    <desc type="intertitle" subtype="marginal"><locus facs="41">f. 18r</locus>, margin: <q xml:lang="ta">vētākamaṅkaḷukkuvaraṅkoṭutta vaṟṟiyāyam</q></desc>
+                    <desc type="intertitle" subtype="marginal"><locus facs="55">f. 25r</locus>, margin: <q xml:lang="ta">nāṉkāvatu tīrttamakimaiyuraitta vattiyāyam</q></desc>
+                    <desc type="intertitle" subtype="marginal"><locus facs="71">f. 33r</locus>, margin: <q xml:lang="ta">aintāvatu naṭampurinta vaṟṟiyāyam</q></desc>
+                    <desc type="intertitle" subtype="marginal"><locus facs="75">f. 35r</locus>, margin: <q xml:lang="ta">āṟāvatu makākayilaimāṇmiyamuraitta vattiyāyam</q></desc>
+                    <desc type="intertitle" subtype="marginal"><locus facs="125">f. 60r</locus>, margin: <q xml:lang="ta">ēḻāvatu tēviyaṟamvaḷartta vattiyāyam</q></desc>
+                    <desc type="intertitle" subtype="marginal"><locus facs="137">f. 66r</locus>, margin: <q xml:lang="ta">eṭṭāvatu viṣṇuvarampeṟṟa vaṟṟiyāyam</q></desc>
+                    <desc type="intertitle" subtype="marginal"><locus facs="143">f. 69r</locus>, margin: <q xml:lang="ta">oṉpatāvatu piramaṉpūcitta vattiyāyam</q></desc>
+                    <desc type="intertitle" subtype="marginal"><locus facs="167">f. 81r</locus>, margin: <q xml:lang="ta">pattāvatu talavicēṭamuñcaivacamaiyācāracaṅkirakamumuraitta vattiyāyam</q></desc>
+                    <desc type="intertitle" subtype="marginal"><locus facs="197">f. 96r</locus>, margin: <q xml:lang="ta">viputiviti</q></desc>
+                    <desc type="intertitle" subtype="marginal"><locus facs="125">f. 105r</locus>, margin: <q xml:lang="ta">ruttirarkkapāḷamiyam</q></desc>
+                    <desc type="intertitle" subtype="marginal"><locus facs="223">f. 109r</locus>, margin: <q xml:lang="ta">pañcākkāviti</q></desc>
+                    <desc type="intertitle" subtype="marginal"><locus facs="231">f. 113r</locus>, margin: <q xml:lang="ta">civaviratam</q></desc>
+                    <desc type="intertitle" subtype="marginal"><locus facs="241">f. 118r</locus>, margin: <q xml:lang="ta">civapuṇiyam</q></desc>
+                    <desc type="intertitle" subtype="marginal"><locus facs="250">f. 122v</locus>, margin: <q xml:lang="ta">civapurāṇam</q></desc>
+                    <desc type="intertitle" subtype="marginal"><locus facs="261">f. 128r</locus>, margin: <q xml:lang="ta">civapūcai</q></desc>
+                    <desc type="intertitle" subtype="marginal"><locus facs="287">f. 141r</locus>, margin: <q xml:lang="ta">piratōṭam</q></desc>
+                    <desc type="intertitle" subtype="marginal"><locus facs="301">f. 148r</locus>, margin: <q xml:lang="ta">piratōṭa?ttiyāyam</q></desc>
+                    <desc type="intertitle" subtype="marginal"><locus facs="333">f. 164r</locus>, margin: <q xml:lang="ta">patiṉoṉṟāvatu tuṉmataṉmutalāṉavēṭamuṟṟipeṟṟa vattiyāyam</q></desc>
+                  </additions>
                </physDesc>
                <history>
                   <origin>
@@ -63,72 +108,21 @@
                </history>
                <additional>
                   <listBibl>
-                     <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens.</title> Bibliothèque nationale. Département des manuscrits. Paris : E. Leroux. — See <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k255694f/f51.item">p. 45</ref>.</bibl>
-                     <bibl>Murukapaṭṭārakar, Citamparam Vāmadēva, ed. (1880). <title>Katampavan̲apurānam</title>. Toṇṭamaṇṭalattu Ilampūr Vīmanātapaṇṭitar iyaṟṟiyatu. Cen̲n̲apaṭṭaṇam: Vittiyāvarttan̲i Accukkūṭam.</bibl>
-                     <bibl>Rosny, Léon de (1869). La bibliothèque tamoule de M. Ariel, de Pondichéry. Dans : <title>Variétés orientales</title> (p. 177-224). Paris : Maisonneuve. See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b10329763p/f61.item">p. 43</ref>.</bibl>
-                     <bibl>Vinson, Julien &amp; Feer, Léon (1801-1900). <title>Catalogue des manuscrits tamouls (1-574) et télingas (1-65)</title>. Access No. BnF Indien 577. <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f155.item">f. 70</ref>.</bibl>
+                     <bibl>Cabaton, Antoine (1912). <title xml:lang="fr">Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens.</title> Bibliothèque nationale. Département des manuscrits. Paris : E. Leroux. — See <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k255694f/f51.item">p. 45</ref>.</bibl>
+                     <bibl><persName xml:lang="ta">Murukapaṭṭārakar, Citamparam Vāmadēva</persName>, ed. (1880). <title xml:lang="ta">Katampavaṉapurānam</title>. <term xml:lang="ta">Toṇṭamaṇṭalattu Ilampūr Vīmanātapaṇṭitar iyaṟṟiyatu</term>. <geogName xml:lang="ta">Ceṉṉapaṭṭaṇam</geogName>: <orgName xml:lang="ta">Vittiyāvarttaṉi Accukkūṭam</orgName>.</bibl>
+                     <bibl>Rosny, Léon de (1869). <title xml:lang="fr" type="article">La bibliothèque tamoule de M. Ariel, de Pondichéry</title>. Dans : <title xml:lang="fr">Variétés orientales</title> (p. 177-224). Paris : Maisonneuve. See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b10329763p/f61.item">p. 43</ref>.</bibl>
+                     <bibl>Vinson, Julien &amp; Feer, Léon (1801-1900). <title xml:lang="fr">Catalogue des manuscrits tamouls (1-574) et télingas (1-65)</title>. Access No. BnF Indien 577. <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f155.item">f. 70</ref>.</bibl>
                   </listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change> This catalogue entry has been redacted by <persName>Eva WILDEN</persName> (<orgName>Universität Hamburg</orgName>) for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG). Version 1, Oct 2020. </change>
+         <change when="2020-10">This catalogue entry has been redacted by <persName>Eva WILDEN</persName> (<orgName>Universität Hamburg</orgName>) for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG). Version 1, Oct 2020.</change>
+         <change when="2021-03">Converted to TEI by  Charles LI.</change>
       </revisionDesc>
    </teiHeader>
-   <text>
-      <body>
-         <p>guard leaf: sticker: INDIEN 305, upside down erased title of another ms., painted b/81, sticker DON ??, verso blank<lb xmlns=""/>
-            <lb xmlns=""/>
-            <lb xmlns=""/>guard leaf, unnumbered folio, folios 1-74<lb xmlns=""/>
-            <lb xmlns=""/>
-            <lb xmlns=""/>unnumbered folio r, margin: tiruciṟṟampalam, kaṭampavaṉapurāṇam<lb xmlns=""/>
-            <quote>
-               <p>நிலம்போற்று மகத்தியன்முன் னிகழ்த்தியவிக் கதைக்கியறேர்</p>
-            </quote>
-            <quote>
-               <p>நலம்போற்றுந் [l. 1] தமிழ்வாக்கு நமக்கருள்செய் திடத்தேவை</p>
-            </quote>
-            <quote>
-               <p>வலம்போற்றிப் பலங்கவருஞ் [l. 2] சித்திவினா யகனைமழைக்</p>
-            </quote>
-            <quote>
-               <p>குலம்போற்று மதிடகூடற் கோமகவை [l. 3] வணங்குவாம். சொக்கலிங்கம் துணை.</p>
-            </quote>verso blank<lb xmlns=""/>
-            <lb xmlns=""/>
-            <lb xmlns=""/>f. 1r, margin: kaṭampavaṉapurāṇam<lb xmlns=""/>
-            <quote>
-               <p>திருவோங்கு பேரொளியாய் பராற்பரமாய்ச் சிவமாயச் சூக்குமமாகி</p>
-            </quote>
-            <quote>
-               <p>யருவோங்[l. 1]கு மறுபவநித் தியநிபல மானசதா சிவமு மாகி</p>
-            </quote>
-            <quote>
-               <p>யுருவோங்கு தொழிற்படுமன் னுயிர்க் குயி[l. 3]ரா முதலிலிங்க வுருவாந் தொன்மை</p>
-            </quote>
-            <quote>
-               <p>மருவோங்கு பலர்க்கடம்ப வனத்தமர்[l. 4]சுந் தரன்றுணைத் தாள்வழுத்தல் செய்வாம்.</p>
-            </quote>
-            <lb xmlns=""/>
-            <lb xmlns=""/>{marginal titles do not exactly correspond to the chapter beginnings, as the rest of the previous folio is used up for writing}<lb xmlns=""/>f. 6r, margin: vaciṭṭātiyākatttiyaṉaiviṉāviya vattiyāyam<lb xmlns=""/>f. 11r, margin: iraṇṭāvatu nīpavaṉamāṉa vaṟṟiyāyam<lb xmlns=""/>f. 18r, margin: vētākamaṅkaḷukkuvaraṅkoṭutta vaṟṟiyāyam<lb xmlns=""/>f. 25r, margin: nāṉkāvatu tīrttamakimaiyuraitta vattiyāyam<lb xmlns=""/>f. 33r, margin: aintāvatu naṭampurinta vaṟṟiyāyam<lb xmlns=""/>f. 35r, margin: āṟāvatu makākayilaimāṇmiyamuraitta vattiyāyam<lb xmlns=""/>f. 60r, margin: ēḻāvatu tēviyaṟamvaḷartta vattiyāyam<lb xmlns=""/>f. 66r, margin: eṭṭāvatu viṣṇuvarampeṟṟa vaṟṟiyāyam<lb xmlns=""/>f. 69r, margin: oṉpatāvatu piramaṉpūcitta vattiyāyam<lb xmlns=""/>f. 81r, margin: pattāvatu talavicēṭamuñcaivacamaiyācāracaṅkirakamumuraitta vattiyāyam<lb xmlns=""/>f. 96r, margin: viputiviti<lb xmlns=""/>f. 105r, margin: ruttirarkkapāḷamiyam<lb xmlns=""/>f. 109r, margin: pañcākkāviti<lb xmlns=""/>f. 113r, margin: civaviratam<lb xmlns=""/>f. 118r, margin: civapuṇiyam<lb xmlns=""/>f. 122v, margin: civapurāṇam<lb xmlns=""/>f. 128r, margin: civapūcai<lb xmlns=""/>f. 141r, margin: piratōṭam<lb xmlns=""/>f. 148r, margin: piratōṭa?ttiyāyam<lb xmlns=""/>f. 164r, margin: patiṉoṉṟāvatu tuṉmataṉmutalāṉavēṭamuṟṟipeṟṟa vattiyāyam<lb xmlns=""/>
-            <lb xmlns=""/>
-            <lb xmlns=""/>f. 174v<lb xmlns=""/>
-            <quote>
-               <p>ஓதுமஞ்செ ழுத்துவாழி ஓங்குகூடல் வாழியென்</p>
-            </quote>
-            <quote>
-               <p>னாதநீதி யங்கயற்க[l. 1]ணங்கைபங்க னன்மலர்ப்</p>
-            </quote>
-            <quote>
-               <p>பாதங்க யங்கள்வாழி பரவுநூற்பு ராணநா</p>
-            </quote>
-            <quote>
-               <p>மாதுபூதி வைதிகம் வழங்[l. 2]குசைவம் வாழியே -57-</p>
-            </quote>
-            <quote>
-               <p>பதினோராவது துன்மதன்முதலான வேடாமுற்றிபெற்ற வத்தியா[l. 3]ய முற்றும். ஆகத்திருவிருத்தம். 1204. கடம்பவனபுராணம் எழுதி நிறைவெறியது [l. 4] முற்றும். ஞாநசம்பந்தன் றிருவடி வாழ்க. சுந்தரேசன் துணை.</p>
-            </quote>
-         </p>
-      </body>
-   </text>
+   <facsimile>
+      <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b52510547b/manifest.json"/>
+   </facsimile>
 </TEI>
