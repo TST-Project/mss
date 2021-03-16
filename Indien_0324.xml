@@ -4,11 +4,14 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Kantapurāṇam</title>
+            <title><title xml:lang="ta">Kantapurāṇam</title>, Volume 1</title>
          </titleStmt>
+         <editionStmt>
+            <p>Record edited by <persName>Emmanuel FRANCIS</persName> <orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName>.</p>
+         </editionStmt>
          <publicationStmt>
-            <publisher>Bibliothèque nationale de France.</publisher>
-            <date>2017</date>
+            <publisher>TST Project</publisher>
+            <date>2021</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -16,16 +19,27 @@
                   <repository>
                      <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
                   </repository>
-                  <idno type="eadid">FRBNFEAD000103854</idno>
+                  <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103854q/cN10033</idno>
                   <idno type="cote">Indien 324</idno>
                   <idno type="ancienne cote">Tamoul 324</idno>
                </msIdentifier>
-               <msContents>
-                  <summary/>
-                  <msItem defective="">
-                     <title>Kantapurāṇam</title>
-                     <title type="sub">Volume 1</title>
+               <msContents class="#MVM">
+                  <summary>
+                    <p>The <title xml:lang="ta">Kantapurāṇam</title> is one of the major Tamil texts about the god <term xml:lang="sa">Skanda</term>/<term xml:lang="ta">Murukaṉ</term>. It is the work of <persName xml:lang="ta">Kacciyappa Civācāriyār</persName> (14th century?).</p>
+                    <p>The text is complete.</p>
+                    <p><emph rend="bold">Paratexts</emph>: marginal benedictions; invocation page; marginal chapter headers; in-text chapter completion statement and total stanzas; colophon.</p>
+                  </summary>
+                  <msItem n="U3" defective="false">
+                     <title xml:lang="ta">Kantapurāṇam</title>
+                     <author xml:lang="ta">Kacciyappa Civācāriyār</author>
                      <textLang mainLang="tam">Tamil</textLang>
+                     <filiation>Other manuscript testimonies of this text are: Bnf Indien 328–329. See also BnF indien 336–338.</filiation>
+                     <incipit xml:lang="ta"><note xml:lang="en"><emph rend="bold">U3</emph>, folio 1, recto = <emph rend="bold">incipit</emph>; stanza n° 1 (<term xml:lang="ta">Kāppa</term> = <term xml:lang="ta">Pāyiram</term> stanza n° 2).</note>
+               <milestone n="1r1" facs="7" unit="folio"/>Ucciyiṉ makuṭam miṉṉa voḷirtara ṉutali [<term xml:lang="en">i.e.</term> nutali] ṉōṭai ‡ vaccira maruppi ṉṉottai [<term xml:lang="en">i.e.</term> ṉoṟṟai] maṇikoḷ kumpuri [<term xml:lang="en">i.e.</term> kimpuri] tuyaṅka [<term xml:lang="en">i.e.</term> vayaṅka] ‡ meccevi kavari tūṅka veḷamā [<term xml:lang="en">i.e.</term> vēḻamā] <lb n="2"/>mukaṅkoṇ ṭuṟṟak ‡ kacciyiṉ vikaṭa cakkara kaṇapatik kaṉpu ceyvām – 1 – (...)
+                    </incipit>
+                    <explicit xml:lang="ta"><note xml:lang="en"><emph rend="bold">U4</emph>, folio 291 recto = <emph rend="bold">excipit</emph>: <term xml:lang="ta">Varampeṟu Paṭalam</term>, stanza n° 28; chapter completion statement; total verses.</note> 
+               <milestone n="291r2" facs="587" unit="folio"/>(…) <g ref="#pcs"/> 27 <g ref="#pcs"/> Īṟu ṟāta viratamun tampeyar [<term xml:lang="en">i.e.</term> taṉpeyar] ‡ kūṟu teyvap paṭaiyuṅ koṭuttiṭā ‡ vēṟu vēṟu mikavaruḷ ceytumē ‡ lā<pc>-</pc><lb n="3"/>ṟu cērcaṭaiy āṇṭakaiy ēkiṉāṉ <g ref="#pcs"/> 28 <g ref="#pcs"/> varam peṟu paṭalamuṟṟum <g ref="#pcs"/> Ākat tiruviruttam <g ref="#pcs"/> 672 <g ref="#pcl"/>
+                    </explicit>
                   </msItem>
                </msContents>
                <physDesc>
@@ -38,7 +52,11 @@
                               <height quantity="40"/>
                            </dimensions>
                         </extent>
-                        <foliation/>
+                        <foliation n="U1">1 folio, unfoliated = flyleaf.</foliation>
+                        <foliation n="U2">1 folio, unfoliated = invocation.</foliation>
+                        <foliation n="U3">291 folios, parallel Tamil foliation 1–291 and Arabic foliation 1–291 = text (<emph rend="italic">mūlam</emph>).</foliation>
+                        <foliation n="U4">1 folio, unfoliated = flyleaf.</foliation>
+
                         <condition>Excellent state of preservation. </condition>
                      </supportDesc>
                      <layoutDesc>
@@ -46,11 +64,22 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote scope="sole" script="tamil">
-                        <p>Tamil script. </p>
-                     </handNote>
+                     <handNote scope="sole" script="tamil"/>
                   </handDesc>
-                  <additions/>
+                  <additions>
+                    <desc type="documenting-note" subtype="detached">A paper leaf comes along with the bundle, with a text in French on the recto: <quote xml:lang="fr">Mr Ducler, N° 33. Intitulé Scandam, ou Candapouranam, ou histoire de Soubramaniar, second fils de Sivane, ce livre contient une partie de la mythologie, et de la théologie indienne, et non pas plusieurs histoires théologiques. Tome premier (ouvrage anonyme) contenant 291 feuilles.</quote> [text standardised and rearranged]
+                    </desc>
+                    <desc type="blessing title" subtype="marginal beginning"><emph rend="bold">U2</emph>, folio 1, unfoliated = <emph rend="bold">invocation</emph>: marginal benedictions and title. <quote xml:lang="ta" rend="block"><lg>
+               <l><locus facs="5" xml:lang="en">f[1]r, lm, 1</locus> kaṇapati muṉṉiṟka</l>
+               <l><locus facs="5" xml:lang="en">f[1]r, lm, 2</locus> kantappurāṇam</l>
+               <l><locus facs="5" xml:lang="en">f[1]r, lm, 3</locus> kaṭavuḷ vaṇakkam</l>
+                    </lg></quote></desc>
+                    <desc type="preface" subtype="beginning"><emph rend="bold">U2</emph>, folio 1, unfoliated = <emph rend="bold">invocation</emph>: invocatory stanza (<term xml:lang="ta">Kāppu</term> = <term xml:lang="ta">Pāyiram</term> stanza n° 1). <quote xml:lang="ta"><milestone n="[1]r1" facs="5" unit="folio"/>tikaṭac cakkarac cemmuka maintuḷāṉ ‡ cakaṭa cakkarat tāmarai nāyaka ‡ ṉakaṭa <lb n="2"/>cakkara viṉmaṇi yāyuṟai ‡ vikaṭa cakkaraṉā [i.e. cakkaraṉ] meyppatam pōṟṟuvām <g ref="#pcl"/></quote>
+                    </desc>
+                    <desc type="blessing" subtype="marginal beginning"><emph rend="bold">U3</emph>, folio 1, recto = <emph rend="bold">incipit</emph>; marginal benediction; stanza n° 1 (<term xml:lang="ta">Kāppa</term> = <term xml:lang="ta">Pāyiram</term> stanza n° 2). <quote rend="block" xml:lang="ta"><lg>
+               <l><locus facs="7" xml:lang="en">f1r, lm</locus> civamayam</l>
+                    </lg></quote></desc>
+                  </additions>
                   <bindingDesc>
                      <binding>
                         <p>Original <material>ebony</material> woodcovers. </p>
@@ -63,76 +92,27 @@
                      <origPlace>South India, Tamilnadu. </origPlace>
                   </origin>
                   <acquisition>
-                     <p>
-                        <persName>Ducler</persName>.</p>
+                     <p><persName>Ducler</persName>.</p>
                   </acquisition>
                </history>
                <additional>
                   <listBibl>
-                     <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f65">p. 47</ref>.</bibl>
+                     <bibl>Cabaton, Antoine (1912). <title xml:lang="fr">Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f65">p. 47</ref>.</bibl>
                   </listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <p>Abbreviations. c = column, f = folio, lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso. GOML = Government Oriental Manuscripts Library, Madras/Chennai. MTL = Madras Tamil Lexicon. TMSSML = Tanjore Maharaja Serfoji Sarasvati Mahal Library.</p>
+         <p><emph rend="bold">Transliteration conventions.</emph> Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Conjectural (whether the text is not clearly legible or the character is ambigous, e.g. <emph rend="italic">kāl</emph> or length of <emph rend="italic">o</emph> and <emph rend="italic">e</emph>) readings between parentheses. Alternative readings between parentheses separated by slash. Lost or entirely illegible character: "?". Crossed-out character: "X". Conjectural restoration of lost or entirely illegible between square brackets. Uppercase for initial vowels (in excerpts only). Unquoted text represented by (...). Conjunct letter: e.g. <emph rend="italic">t°</emph>, to be read <emph rend="italic">tum</emph> or <emph rend="italic">tam</emph>. Grantha letters in bold. Symbols/Abbreviations made explicit, between curly brackets: <g ref="#pcs"/> = <emph rend="italic">piḷḷaiyār cuḻi</emph>, short form; <g ref="#pcl"/> = <emph rend="italic">piḷḷaiyār cuḻi</emph>, long form, that is, with long horizontal stroke towards right; {varuṣam}, {mācam}, {tēti}; {line-filler}. Unfoliated folio number between square brackets, e.g. "f[1]r". Numerals normalised to decimal notation, e.g. "1121" not "1000 1 100 2 10 1". Hyphen occasionaly used to mark in-word components. Hyphen systematically used at the end of a line when the line-beginning is within a word or within a <emph rend="italic">cīr</emph>. <emph rend="italic">Sandhi</emph> split to the minimum: overshort <emph rend="italic">u</emph> occasionally restored as an apostrophe. Stanzas split by <emph rend="italic">cīr</emph>, as far as possible. <emph rend="italic">aṭi </emph>boundary marked by "‡".</p>
+      </encodingDesc>
       <revisionDesc>
-         <change> This catalogue entry has been redacted by Emmanuel FRANCIS (CNRS, CEIAS UMR 8564, EHESS &amp; CNRS) for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG). Version 1, April 2020. </change>
+         <change when="2020-04">This catalogue entry has been redacted by Emmanuel FRANCIS (CNRS, CEIAS UMR 8564, EHESS &amp; CNRS) for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG). Version 1, April 2020. </change>
+         <change when="2021-03">Converted to TEI by Charles LI.</change>
       </revisionDesc>
    </teiHeader>
-   <text>
-      <body>
-         <p>The Kantapurāṇam is one of the major Tamil texts about the god Skanda/Murukaṉ. It is the work of Kacciyappa Civācāriyār (14th century?).</p>
-         <p>Other manuscript testimonies of this text are: Bnf Indien 328–329. See also BnF indien 336–338.</p>
-         <p>The text is complete.</p>
-         <p>
-            <emph rend="bold">Paratexts</emph>: marginal benedictions; invocation page; marginal chapter headers; in-text chapter completion statement and total stanzas; colophon.</p>
-      </body>
-   </text>
-   <text>
-      <body>
-         <p>The bundle contains between the woodcovers:</p>
-         <p>
-            <emph rend="bold">U1</emph>: 1 folio, unfoliated = flyleaf.</p>
-         <p>
-            <emph rend="bold">U2</emph>: 1 folio, unfoliated = invocation.</p>
-         <p>
-            <emph rend="bold">U3</emph>: 291 folios, parallel Tamil foliation 1–291 and Arabic foliation 1–291 = text (<emph rend="italic">mūlam</emph>).</p>
-         <p>
-            <emph rend="bold">U4</emph>: 1 folio, unfoliated = flyleaf.</p>
-         <p>A paper leaf comes along with the bundle, with a text in French on the recto: <quote>
-               <p>Mr Ducler, N° 33. Intitulé Scandam, ou Candapouranam, ou histoire de Soubramaniar, second fils de Sivane, ce livre contient une partie de la mythologie, et de la théologie indienne, et non pas plusieurs histoires théologiques. Tome premier (ouvrage anonyme) contenant 291 feuilles. [text standardised and rearranged]</p>
-            </quote>
-         </p>
-         <p>
-            <emph rend="bold">Excerpts</emph>
-         </p>
-         <p>
-            <emph rend="bold">U2</emph>, folio 1, unfoliated = <emph rend="bold">invocation</emph>: marginal benedictions and title; invocatory stanza (Kāppu = Pāyiram stanza n° 1). <quote>
-               <p>(f[1]r, lm, 1) kaṇapati muṉṉiṟka</p>
-               <p>(f[1]r, lm, 2) kantappurāṇam</p>
-               <p>(f[1]r, lm, 3) kaṭavuḷ vaṇakkam</p>
-               <p>(f[1]r1) tikaṭac cakkarac cemmuka maintuḷāṉ ‡ cakaṭa cakkarat tāmarai nāyaka ‡ ṉakaṭa </p>
-               <p>(f[1]r2) cakkara viṉmaṇi yāyuṟai ‡ vikaṭa cakkaraṉā [i.e. cakkaraṉ] meyppatam pōṟṟuvām {pcl}</p>
-            </quote>
-         </p>
-         <p>
-            <emph rend="bold">U3</emph>, folio 1, recto = <emph rend="bold">incipit</emph>; marginal benediction; stanza n° 1 (Kāppa = Pāyiram stanza n° 2). <quote>
-               <p>(f1r, lm) civamayam</p>
-               <p>(f1r1) Ucciyiṉ makuṭam miṉṉa voḷirtara ṉutali [i.e. nutali] ṉōṭai ‡ vaccira maruppi ṉṉottai [i.e. ṉoṟṟai] maṇikoḷ kumpuri [i.e. kimpuri] tuyaṅka [i.e. vayaṅka] ‡ meccevi kavari tūṅka veḷamā [i.e. vēḻamā]</p>
-               <p>(f1r2) mukaṅkoṇ ṭuṟṟak ‡ kacciyiṉ vikaṭa cakkara kaṇapatik kaṉpu ceyvām – 1 – (...)</p>
-            </quote>
-         </p>
-         <p>
-            <emph rend="bold">U4</emph>, folio 291 recto = <emph rend="bold">excipit</emph>: Varampeṟu Paṭalam, stanza n° 28; chapter completion statement; total verses. <quote>
-               <p>(f291r2) (…) {pcs} 27 {pcs} Īṟu ṟāta viratamun tampeyar [i.e. taṉpeyar] ‡ kūṟu teyvap paṭaiyuṅ koṭuttiṭā ‡ vēṟu vēṟu mikavaruḷ ceytumē ‡ lā-</p>
-               <p>(f291r3) ṟu cērcaṭaiy āṇṭakaiy ēkiṉāṉ {pcs} 28 {pcs} varam peṟu paṭalamuṟṟum {pcs} Ākat tiruviruttam {pcs} 672 {pcl}</p>
-            </quote>
-         </p>
-         <p>Abbreviations. c = column, f = folio, lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso. GOML = Government Oriental Manuscripts Library, Madras/Chennai. MTL = Madras Tamil Lexicon. TMSSML = Tanjore Maharaja Serfoji Sarasvati Mahal Library.</p>
-         <p>
-            <emph rend="bold">Transliteration conventions.</emph>
-         </p>
-         <p>Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Conjectural (whether the text is not clearly legible or the character is ambigous, e.g. <emph rend="italic">kāl</emph> or length of <emph rend="italic">o</emph> and <emph rend="italic">e</emph>) readings between parentheses. Alternative readings between parentheses separated by slash. Lost or entirely illegible character: "?". Crossed-out character: "X". Conjectural restoration of lost or entirely illegible between square brackets. Uppercase for initial vowels (in excerpts only). Unquoted text represented by (...). Conjunct letter: e.g. <emph rend="italic">t°</emph>, to be read <emph rend="italic">tum</emph> or <emph rend="italic">tam</emph>. Grantha letters in bold. Symbols/Abbreviations made explicit, between curly brackets: {pcs} = <emph rend="italic">piḷḷaiyār cuḻi</emph>, short form; {pcl} = <emph rend="italic">piḷḷaiyār cuḻi</emph>, long form, that is, with long horizontal stroke towards right; {varuṣam}, {mācam}, {tēti}; {line-filler}. Unfoliated folio number between square brackets, e.g. "f[1]r". Numerals normalised to decimal notation, e.g. "1121" not "1000 1 100 2 10 1". Hyphen occasionaly used to mark in-word components. Hyphen systematically used at the end of a line when the line-beginning is within a word or within a <emph rend="italic">cīr</emph>. <emph rend="italic">Sandhi</emph> split to the minimum: overshort <emph rend="italic">u</emph> occasionally restored as an apostrophe. Stanzas split by <emph rend="italic">cīr</emph>, as far as possible. <emph rend="italic">aṭi </emph>boundary marked by "‡".</p>
-      </body>
-   </text>
+   <facsimile>
+      <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525132403/manifest.json"/>
+   </facsimile>
 </TEI>
