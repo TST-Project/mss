@@ -1612,6 +1612,7 @@
 
 <my:entities>
     <my:entry key="#pcs">&#x0BF3;</my:entry>
+    <my:entry key="#teti">&#x0BF3;</my:entry>
     <my:entry key="#maatham">௴</my:entry>
     <my:entry key="#varudam">௵</my:entry>
     <my:entry key="#patru">௶</my:entry>
@@ -1673,8 +1674,9 @@
 </my:entities>
 <my:entitynames>
     <my:entry key="#pcs">piḷḷaiyār cuḻi (short)</my:entry>
-    <my:entry key="#maatham">month</my:entry>
-    <my:entry key="#varudam">year</my:entry>
+    <my:entry key="#teti">tēti</my:entry>
+    <my:entry key="#maatham">mācam</my:entry>
+    <my:entry key="#varudam">varuṣam</my:entry>
     <my:entry key="#patru">debit</my:entry>
     <my:entry key="#eduppu">credit</my:entry>
     <my:entry key="#merpadi">as above</my:entry>
