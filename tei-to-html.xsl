@@ -25,6 +25,14 @@
                 <xsl:attribute name="rel">stylesheet</xsl:attribute>
                 <xsl:attribute name="href">../lib/tst.css</xsl:attribute>
             </xsl:element>
+            <xsl:element name="link">
+                <xsl:attribute name="rel">stylesheet</xsl:attribute>
+                <xsl:attribute name="href">../lib/header.css</xsl:attribute>
+            </xsl:element>
+            <xsl:element name="link">
+                <xsl:attribute name="rel">stylesheet</xsl:attribute>
+                <xsl:attribute name="href">../lib/transcription.css</xsl:attribute>
+            </xsl:element>
             <xsl:element name="script">
                 <xsl:attribute name="type">text/javascript</xsl:attribute>
                 <xsl:attribute name="src">../lib/sanscript.js</xsl:attribute>
