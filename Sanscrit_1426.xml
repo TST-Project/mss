@@ -36,28 +36,28 @@
                     <p>The <title xml:lang="sa">Vṛndādevīstava</title> consists of eight verses in praise of <term xml:lang="sa">Vṛndādevī</term>, followed by one final, concluding verse, where it is called the <title xml:lang="sa">Vṛndādevyaṣṭaka</title>. Compared to the other two texts, this one has been copied with the most errors, indicating that may have been written from memory.</p>
                   </summary>
                   
-                  <msItem n="U1" defective="false">
+                  <msItem n="U1" xml:id="T1" defective="false">
                     <title xml:lang="sa">Rūpacintāmaṇi</title>
                     <textLang mainLang="san"/>
-                    <rubric xml:lang="sa"><milestone facs="5" n="1r" unit="folio"/>śrīśrīrādhākṛṣṇābhyāṃ namaḥ || atha rūpacintāmaṇi ||</rubric>
+                    <!--rubric xml:lang="sa"><milestone facs="5" n="1r" unit="folio"/>śrīśrīrādhākṛṣṇābhyāṃ namaḥ || atha rūpacintāmaṇi ||</rubric>
                     <incipit xml:lang="sa"><milestone facs="5" n="1r" unit="folio"/>candrārddhaṃ kanasaṃ trikoṇadhanuṣī khaṃ goṣpadaṃ proṣṭhikāṃ</incipit>
                     <finalRubric xml:lang="sa"><milestone facs="8" n="2v" unit="folio"/>iti rūpacintāmaṇisampūrṇaṃ ||</finalRubric>
-                    <colophon xml:lang="sa"><milestone facs="8" n="2v" unit="folio"/>śakābdā 1742 <unclear>jyaiṣṭhe</unclear> ||</colophon>
+                    <colophon xml:lang="sa"><milestone facs="8" n="2v" unit="folio"/>śakābdā 1742 <unclear>jyaiṣṭhe</unclear> ||</colophon-->
                   </msItem>
-                  <msItem n="U2" defective="false">
+                  <msItem n="U2" xml:id="T2" defective="false">
                     <title xml:lang="sa">Guruparamparā</title>  
                     <textLang mainLang="san"/>
-                    <incipit xml:lang="sa"><milestone facs="8" n="2v" unit="folio"/>yad uktaṃ padmapurāṇe ||</incipit>
+                    <!--incipit xml:lang="sa"><milestone facs="8" n="2v" unit="folio"/>yad uktaṃ padmapurāṇe ||</incipit>
                     <explicit xml:lang="sa"><milestone facs="8" n="2v6" unit="folio"/>śrīkṛṣṇapremadānena yena nistāritaṃ jagat || ❈ ||</explicit>
-                    <finalRubric xml:lang="sa"><milestone facs="8" n="2v7" unit="folio"/>iti śrīguruparamparā samāptā || ❈ ||</finalRubric>
+                    <finalRubric xml:lang="sa"><milestone facs="8" n="2v7" unit="folio"/>iti śrīguruparamparā samāptā || ❈ ||</finalRubric-->
                   </msItem>
-                  <msItem n="U2" defective="false">
+                  <msItem n="U2" xml:id="T3" defective="false">
                     <title xml:lang="sa">Vṛndādevīstava</title>
                     <textLang mainLang="san"/>
-                    <rubric xml:lang="sa"><milestone facs="8" n="2v7" unit="folio"/>śrīvṛndādevyai <sic>manaḥ</sic> |</rubric>
+                    <!--rubric xml:lang="sa"><milestone facs="8" n="2v7" unit="folio"/>śrīvṛndādevyai <sic>manaḥ</sic> |</rubric>
                     <incipit xml:lang="sa"><milestone facs="8" n="2v7" unit="folio"/>vṛndāvanādhidevin tu saccidānandarūpiṇīṃ |</incipit>
                     <explicit xml:lang="sa"><milestone facs="8" n="2v13" unit="folio"/>rādhāgovindapādābje premabhakti labhe<unclear>d bra</unclear>vaṃ ||</explicit>
-                    <finalRubric xml:lang="sa">iti śrīvṛndādevyair aṣṭakaṃ sampūrṇa || ❈ ||</finalRubric>
+                    <finalRubric xml:lang="sa">iti śrīvṛndādevyair aṣṭakaṃ sampūrṇa || ❈ ||</finalRubric-->
                   </msItem>
                </msContents>
                <physDesc>
@@ -129,11 +129,11 @@
    <facsimile>
        <graphic url="https://tst-project.github.io/img/Sanscrit_1426/index.json"/>
    </facsimile>
-   <text n="U1" xml:lang="sa">
+   <text n="U1" corresp="#T1" xml:lang="sa">
      <body>
-       <p><milestone n="1r1" facs="5" unit="folio"/>śrīśrīrādhākṛṣṇābhyāṃ namaḥ || atha rūpacintāmaṇi ||</p>
+       <p><seg function="rubric"><milestone n="1r1" facs="5" unit="folio"/>śrīśrīrādhākṛṣṇābhyāṃ namaḥ || atha rūpacintāmaṇi ||</seg></p>
        <lg>
-        <l>candrārddhaṃ kanasaṃ trikoṇadhanuṣī khaṃ goṣpadaṃ proṣṭhikāṃ
+        <l><seg function="incipit">candrārddhaṃ kanasaṃ trikoṇadhanuṣī khaṃ goṣpadaṃ proṣṭhikāṃ</seg>
         <caesura/> śaṅkhaṃ savyapade 'tha dakṣiṇapade ko<lb n="2"/>ṇāṣṭhakaṃ svastikaṃ |</l>
         <l>catruṃ chatraẏavāṅkuśaṃ dhvajapavī jambūrddhvarekhāmbujaṃ
         <caesura/> bibhrāṇaṃ harim ūnaviṃśatimahāla<sic>kṣmāci</sic>tāṅghriṃ bhaje || 1 ||</l>
@@ -261,14 +261,14 @@
        </lg>
        <lg>
          <l>śrīrādhikāmādhavarūpacintā<caesura/>maṇau mano dvitrir atho catur vvā |</l>
-         <l>āva<unclear>rtta</unclear>yed ẏo <lb n="11"/>dhṛtimā<unclear>n</unclear> paṭhan_ sa <caesura/> prāpnoti taddarśanam āśu sākṣāt || 32 || ❈ ||</l>
+         <l><seg function="explicit">āva<unclear>rtta</unclear>yed ẏo <lb n="11"/>dhṛtimā<unclear>n</unclear> paṭhan_ sa <caesura/> prāpnoti taddarśanam āśu sākṣāt || 32 || ❈ ||</seg></l>
        </lg>
-       <p>iti rūpacintāmaṇisampūrṇaṃ || śakābdā 1742 <unclear>jyaiṣṭhe</unclear> ||</p> 
+       <p><seg function="completion-statement">iti rūpacintāmaṇisampūrṇaṃ ||</seg> <seg function="colophon">śakābdā 1742 <unclear>jyaiṣṭhe</unclear> ||</seg></p> 
      </body>
    </text>
-   <text n="U2" xml:lang="sa">
+   <text n="U2" corresp="#T2" xml:lang="sa">
      <body>
-       <p><milestone n="2v" unit="folio" facs="8"/>yad uktaṃ padmapurāṇe ||</p>
+       <p><seg function="incipit"><milestone n="2v" unit="folio" facs="8"/>yad uktaṃ padmapurāṇe ||</seg></p>
        <lg>
          <l>saṃpradāyavihīnaye mantras te viphalāmatāḥ |</l>
          <l>tataḥ kalau bhaviṣyanti catvāraḥ sampradāyinaḥ ||</l>
@@ -297,12 +297,16 @@
        <lg>
          <l>tacchiṣyān_ śrīśvarādvaita<lb n="6"/>nityānandajagadgurun |</l>
          <l>devam īśvaraśiṣyaṃ śrīcaitanyañ ca bhajāmy ahaṃ || 4 ||</l>
-         <l>śrīkṛṣṇapremadānena ẏena nistāritaṃ jagat || ❈ ||</l>
+         <l><seg function="explicit">śrīkṛṣṇapremadānena ẏena nistāritaṃ jagat || ❈ ||</seg></l>
        </lg>
-       <p><lb n="8"/>iti śrīguruparamparā samāptā || ❈ ||</p>
-       <p><milestone n="2v7" unit="folio" facs="8"/>śrīvṛndādevyai <sic>manaḥ</sic> ||</p>
+       <p><seg function="completion-statement"><lb n="8"/>iti śrīguruparamparā samāptā || ❈ ||</seg></p>
+     </body>
+   </text>
+   <text n="U2" corresp="#T3" xml:lang="sa">
+     <body>
+       <p><seg function="rubric"><milestone n="2v7" unit="folio" facs="8"/>śrīvṛndādevyai <sic>manaḥ</sic> ||</seg></p>
        <lg>
-         <l>vṛndāvanādhidevin tu saccidānandarūpiṇīṃ |</l>
+         <l><seg function="incipit">vṛndāvanādhidevin tu saccidānandarūpiṇīṃ |</seg></l>
          <l>satataiśvaryya<del rend="crossed out"><gap reason="illegible"/></del>yu<unclear>ktāṃ</unclear> tāṃ <lb n="8"/>vṛndādeviṃ namāmy ahaṃ || 1 ||</l>
        </lg>
        <lg>
@@ -335,9 +339,9 @@
        </lg>
        <lg>
          <l>ẏaḥ <add place="below">paṭhet 1</add> prātara<unclear>hṇā</unclear>ya vṛndādevyaṣṭakaṃ śubhaṃ |</l>
-         <l>rādhāgovindapādābje premabhakti labhe<unclear>d bra</unclear>vaṃ ||</l>
+         <l><seg function="explicit">rādhāgovindapādābje premabhakti labhe<unclear>d bra</unclear>vaṃ ||</seg></l>
        </lg>
-       <p>iti śrīvṛndādevyair aṣṭakaṃ sampūrṇa || ❈ ||</p>
+       <p><seg function="completion-statement">iti śrīvṛndādevyair aṣṭakaṃ sampūrṇa || ❈ ||</seg></p>
      </body>
    </text>
 </TEI>
