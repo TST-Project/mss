@@ -691,12 +691,12 @@
             <xsl:element name="th">
                 <xsl:attribute name="colspan">2</xsl:attribute>
                 <xsl:attribute name="class">left-align</xsl:attribute>
-                <xsl:if test="@n">
-                    <xsl:value-of select="@n"/>
-                    <xsl:text>, </xsl:text>
-                </xsl:if>
+                <xsl:value-of select="@n"/>
                 <xsl:choose>
                     <xsl:when test="@xml:id">
+                        <xsl:if test="@n">
+                            <xsl:text>, </xsl:text>
+                        </xsl:if>
                         <xsl:choose>
                             <xsl:when test="//x:TEI/x:text[@corresp=concat('#',$thisid)]">
                                 <xsl:element name="a">
@@ -723,6 +723,9 @@
                         </xsl:choose>
                     </xsl:when>
                     <xsl:otherwise>
+                        <xsl:if test="@n">
+                            <xsl:text> </xsl:text>
+                        </xsl:if>
                         <xsl:choose>
                             <xsl:when test="@defective = 'false'">
                                 <xsl:text>(complete)</xsl:text>
