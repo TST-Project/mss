@@ -19,13 +19,13 @@
                   <repository>
                      <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
                   </repository>
-                  <idno type="cote">Indien 472_U1</idno>
+                  <idno type="cote">Indien 472a</idno>
                   <idno type="ancienne cote"/>
                </msIdentifier>
                <msContents class="#STM">
                   <summary>Epistle to the Romans 12.18 translated into German and Tamil.</summary>
                   
-               <msItem defective="false"><title xml:lang="ta">Epistle to the Romans 12.18</title><textLang mainLang="tam"/><rubric xml:lang="ta"><locus facs="10">(f[1]r4, right-aligned)</locus> Rōm. 12, 18.
+               <msItem defective="false"><title xml:lang="ta">Epistle to the Romans 12.18</title><textLang mainLang="tam" otherLangs="deu"/><rubric xml:lang="ta"><locus facs="10">(f[1]r4, right-aligned)</locus> Rōm. 12, 18.
 <locus facs="11">(f[1]v1)</locus> ṟōmar – 10 2 = Atikāram – 10 8 • vacaṉam • </rubric><incipit xml:lang="ta">(f[1]v2) kūṭumāṉāl Ellāmanuṣaruṭaṉē-y((u)) X Uṅ-
 (f[1]v3) kaḷālē Āṉamaṭṭuñ camātāṉam āy-iru-
 (f[1]v4) ṅkoḷ</incipit></msItem></msContents>
@@ -42,17 +42,17 @@
                               <width quantity="115"/>
                               <height quantity="35"/>
                            </dimensions>
-                        <dimensions type="object" unit="mm"><width/><height/></dimensions><dimensions type="written" unit="mm"/></extent>
+                        <dimensions type="object" unit="mm"><width quantity="0"/><height/></dimensions><dimensions type="written" unit="mm"/></extent>
                         
                         
                      <foliation>No foliation.</foliation><condition>Good state of preservation.</condition></supportDesc>
                      <layoutDesc>
-                        <layout/>
+                        <layout writtenLines="4"/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
                      
-                  <handNote script="tamil" scriptRef="#tamilPulliNone" medium="incised"/></handDesc>
+                  <handNote scope="major" script="tamil" scriptRef="#tamilPulliNone" medium="incised"/></handDesc>
                   <decoDesc>
                     
                   </decoDesc>
@@ -90,4 +90,11 @@
    </teiHeader>
    <facsimile>
    </facsimile>
-</TEI>
+<text><p>f[1]r German Text</p>
+(f[1]r1) ... 
+(f[1]r2) ...
+(f[1]r3) ...
+<seg function="title"><locus facs="10">(f[1]r4, right-aligned)</locus> Rōm. 12, 18.</seg>
+<p>f[1]v Tamil text</p>
+<seg function="title"><locus facs="11">(f[1]v1)</locus> ṟōmar – 10 2 = Atikāram – 10 8 • vacaṉam •</seg>
+<seg function="incipit">(f[1]v2) kūṭumāṉāl</seg> Ellāmanuṣaruṭaṉē-y<surplus>u</surplus> <del rend="strikethrough"><gap reason="illegible" quantity="1" unit="character"/></del> Uṅ(f[1]v3)kaḷālē Āṉamaṭṭuñ camātāṉam <seg function="explicit">āy-iru(f[1]v4)ṅkoḷ</seg></text></TEI>
