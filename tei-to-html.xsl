@@ -337,6 +337,10 @@
                 <xsl:attribute name="type">text/javascript</xsl:attribute>
                 <xsl:attribute name="src">../lib/tst.js</xsl:attribute>
             </xsl:element>
+            <xsl:element name="script">
+                <xsl:attribute name="type">text/javascript</xsl:attribute>
+                window.addEventListener('load',window.TSTViewer.init);
+            </xsl:element>
         </xsl:element>
         <xsl:element name="body">
             <xsl:attribute name="lang">en</xsl:attribute>   
