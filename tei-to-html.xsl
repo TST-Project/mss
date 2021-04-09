@@ -286,6 +286,11 @@
                 <xsl:value-of select="//x:titleStmt/x:title"/>
             </xsl:element>
             <xsl:element name="link">
+                <xsl:attribute name="rel">icon</xsl:attribute>
+                <xsl:attribute name="type">image/png</xsl:attribute>
+                <xsl:attribute name="href">favicon-32.png</xsl:attribute>
+            </xsl:element>
+            <xsl:element name="link">
                 <xsl:attribute name="rel">stylesheet</xsl:attribute>
                 <xsl:attribute name="href">../lib/tufte.css</xsl:attribute>
             </xsl:element>
