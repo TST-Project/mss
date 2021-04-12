@@ -34,7 +34,7 @@
                      <supportDesc material="palm-leaf">
                         <support>
                            <measure unit="stringhole" quantity="1"/>
-                           <p/>
+                           
                         </support>
                         <extent>
                            <measure unit="folio" quantity="1"/>
@@ -42,7 +42,7 @@
                               <width quantity="115"/>
                               <height quantity="35"/>
                            </dimensions>
-                        <dimensions type="object" unit="mm"><width quantity="0"/><height/></dimensions><dimensions type="written" unit="mm"/></extent>
+                        <dimensions type="object" unit="mm"><width quantity="0"/></dimensions><dimensions type="written" unit="mm"/></extent>
                         
                         
                      <foliation>No foliation.</foliation><condition>Good state of preservation.</condition></supportDesc>
@@ -60,14 +60,14 @@
                   </additions>
                   <bindingDesc>
                      <binding>
-                        <p/>
+                        
                      </binding>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
                      <origDate calendar="gregorian"/>
-                     <origPlace/>
+                     
                   </origin>
                   <acquisition>
                      <p/>
@@ -90,17 +90,24 @@
    </teiHeader>
    <facsimile>
    </facsimile>
-   <text>
-      <body>
-         <p>f[1]r German Text</p>
-         <p>(f[1]r1) ... </p>
-         <p>(f[1]r2) ...</p>
-         <p>(f[1]r3) ...</p>
-         <p><seg function="title"><locus facs="10">(f[1]r4, right-aligned)</locus> Rōm. 12, 18.</seg></p>
-         <p>f[1]v Tamil text</p>
-         <p><seg function="title"><locus facs="11">(f[1]v1)</locus> ṟōmar – 10 2 = Atikāram – 10 8 • vacaṉam •</seg></p>
-         <p><seg function="incipit">(f[1]v2) kūṭumāṉāl</seg> Ellāmanuṣaruṭaṉē-y<surplus>u</surplus> <del rend="strikethrough"><gap reason="illegible" quantity="1" unit="character"/></del> Uṅ</p>
-         <p>(f[1]v3)kaḷālē Āṉamaṭṭuñ camātāṉam <seg function="explicit">āy-iru(f[1]v4)ṅkoḷ</seg></p>
+   
+<text>      <body>
+        
+         <p><locus facs="10">f[1]r German Text</locus></p>
+        
+         <p>
+           <lb n="1"/>(f[1]r1) ... 
+           <lb n="2"/>(f[1]r2) ...
+           <lb n="3"/>(f[1]r3) ...
+           <lb n="4"/><seg function="title">(f[1]r4, right-aligned) Rōm. 12, 18.</seg>
+        </p>
+                      
+         <p><locus facs="11">f[1]v Tamil text</locus></p>
+         
+           <p>
+             <lb n="1"/><seg function="title">(f[1]v1) ṟōmar – 10 2 = Atikāram – 10 8 • vacaṉam •</seg>
+             <lb n="2"/><seg function="incipit">(f[1]v2) kūṭumāṉāl</seg> Ellāmanuṣaruṭaṉē-y<surplus>u</surplus> <del rend="strikethrough"><gap reason="illegible" quantity="1" unit="character"/></del> Uṅ
+         <lb n="3" break="no"/>(f[1]v3) kaḷālē Āṉamaṭṭuñ camātāṉam <seg function="explicit">āy-iru
+          <lb n="4" break="no"/>(f[1]v4) ṅkoḷ</seg></p>
       </body>
-   </text>
-</TEI>
+   </text></TEI>
