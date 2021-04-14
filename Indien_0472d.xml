@@ -25,7 +25,7 @@
                <msContents class="#STM">
                   <summary>Pater Noster translated into Tamil.</summary>
                   
-               <msItem defective="false"><title xml:lang="ta">Pater Noster</title><textLang mainLang="tam"/></msItem></msContents>
+               <msItem xml:id="t472d" defective="false"><title xml:lang="ta">Pater Noster</title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
@@ -44,7 +44,7 @@
                         
                      <foliation>No foliation.</foliation><condition>Good state of preservation. Slightly cracked.</condition></supportDesc>
                      <layoutDesc>
-                        <layout writtenLines="3 6"/>
+                        <layout writtenLines="3 6" columns="1"/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -86,15 +86,13 @@
       </revisionDesc>
    </teiHeader>
    <facsimile>
-   </facsimile>
-<text><body>
+   <graphic url="https://tst-project.github.io/img/Indien_0472/index.json"/></facsimile>
+<text corresp="#t472d" xml:lang="ta"><body>
   
-  <p><locus facs="16">f[1]r</locus></p>
-  
+ 
   <p>
-    <lb n="1"/><seg function="incipit">(f[1]r1) paramaṇṭalañkaḷilē-y irukkiṟa Eṅkaḷ pitāvē</seg> Ummuṭaiya nāmam
-    <lb n="2"/>(f[1]r2) Aṟcikkappaṭuvatāka Ummuṭaiya rācciyam vara Ummuṭaiya cit
-    <lb n="3" break="no"/>(f[1]r3) tam paramaṇ<unclear>ṭa</unclear>lattilē ceyyappaṭumā-p pōlē pūmiyilēyum
+    <seg function="incipit"><milestone facs="16" n="[1]r1" unit="folio"/> paramaṇṭalañkaḷilē-y irukkiṟa Eṅkaḷ pitāvē</seg> Ummuṭaiya nāmam
+   <lb n="2"/> Aṟcikkappaṭuvatāka Ummuṭaiya rācciyam vara Ummuṭaiya cit<lb n="3" break="no"/>tam paramaṇ<unclear>ṭa</unclear>lattilē ceyyappaṭumā-p pōlē pūmiyilēyum
     <lb n="4"/>(f[1]r4) ceyyappaṭu<unclear>va</unclear>tāka Aṇṇaṉuḷḷa-y eṅkaḷ appam y-eṅkaḷukku-y i
     <lb n="5" break="no"/>(f[1]r5) ṇṇu tarum y-eṅkaḷ kataṉ kāṟarukku naṅkaḷ poṟukkumā
     <lb n="6" break="no"/>(f[1]r6) -p pōlē nīrum y-eṅkaḷ kaṭaṉai-y eṅkaḷukku-p poṟum y-eṅ-
