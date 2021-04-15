@@ -14,12 +14,13 @@ fs.readdir('./',function(err,files) {
 });
 
 const getMeasure = function(el) {
-    if(!el) return;
+    if(!el) return '';
     const q = el.getAttribute('quantity');
     if(q) return q;
     const min = el.getAttribute('min');
     const max = el.getAttribute('max');
-    return `${min}-${max}`;
+    if(min || max) return `${min}-${max}`;
+    return '';
 };
 
 const getDate = function(el) {
