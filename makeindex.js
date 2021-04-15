@@ -59,13 +59,13 @@ const getExtent = function(xmlDoc) {
     const folios = xmlDoc.querySelector('measure[unit="folio"]');
     if(folios) {
         const num = folios.getAttribute('quantity');
-        const unit = num > 1 ? ' folios' : ' folio';
+        const unit = num > 1 ? ' ff.' : ' f.';
         return [num*2, num + unit];
     }
     const pages = xmlDoc.querySelector('measure[unit="page"]');
     if(pages) {
         const num = pages.getAttribute('quantity');
-        const unit = num > 1 ? ' pages' : 'page';
+        const unit = num > 1 ? ' pp.' : 'p.';
         return [num, num + unit];
     }
     return '';
