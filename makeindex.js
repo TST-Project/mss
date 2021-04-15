@@ -80,7 +80,7 @@ const readfiles = function(arr) {
         const parser = new dom.window.DOMParser();
         const xmlDoc = parser.parseFromString(str,'text/xml');
         const cote = xmlDoc.querySelector('idno[type="cote"]').textContent;
-        const sortno = parseInt(cote.replace(/(\d+)/g,(a,b) => {return b.padStart(4,'0');}));
+        const sortno = cote.replace(/(\d+)/g,(a,b) => {return b.padStart(4,'0');});
         return {
             sort: sortno,
             filename: f,
