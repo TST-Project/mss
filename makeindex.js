@@ -58,12 +58,14 @@ const getExtent = function(xmlDoc) {
     const folios = xmlDoc.querySelector('measure[unit="folio"]');
     if(folios) {
         const num = folios.getAttribute('quantity');
-        return [num*2, num + ' folios'];
+        const unit = num > 1 ? ' folios' : ' folio';
+        return [num*2, num + unit];
     }
     const pages = xmlDoc.querySelector('measure[unit="page"]');
     if(pages) {
         const num = pages.getAttribute('quantity');
-        return [num, num + ' pages'];
+        const unit = num > 1 ? ' pages' : 'page';
+        return [num, num + unit];
     }
     return '';
 };
@@ -77,7 +79,7 @@ const readfiles = function(arr) {
         const parser = new dom.window.DOMParser();
         const xmlDoc = parser.parseFromString(str,'text/xml');
         const cote = xmlDoc.querySelector('idno[type="cote"]').textContent;
-        const sortno = parseInt(cote.replace(/\D+/g,''));
+        const sortno = parseInt(cote.replace(/(\d+)/g,(a,b) => {return b.padStart(4,'0');}));
         return {
             sort: sortno,
             filename: f,
