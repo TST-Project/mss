@@ -24,12 +24,14 @@ const getMeasure = function(el) {
 };
 
 const getDate = function(el) {
-    if(!el) return;
+    if(!el) return ['','0'];
     const w = el.getAttribute('when');
     if(w) return [w,w];
     const notB = el.getAttribute('notBefore');
     const notA = el.getAttribute('notAfter');
-    return [[notB,notA].join('—'),notB]; 
+    if(notB || notA)
+        return [[notB,notA].join('—'),(notB || notA)]; 
+    else return ['','0'];
 };
 
 const getTitles = function(nlist) {
