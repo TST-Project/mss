@@ -27,7 +27,7 @@
             <summary>
               <p>This manuscript of the <title xml:lang="sa">Pāṇinīyaśikṣā</title>, a Sanskrit grammatical work, was edited from printed editions by <persName>Umraosingh Sher-Gil</persName> and given by him to the <orgName xml:lang="fr">Bibliothèque nationale</orgName>. It is written in ink on watermarked, laid Ingres Canson &amp; Montgolfier paper, bound in book form, with a type-written letter attached <locus facs="2">inside the front cover</locus>.</p>
               <p>The manuscript was produced in Paris, where the Sher-Gil family had moved in order to support the artistic career of Umraosingh's daughter, <persName>Amrita</persName>. The <locus facs="3">letter</locus>, addressed to <persName>Edgar Blochet</persName>, is dated April 4th, 1930. A handwritten addendum at the <locus facs="19">end of the manuscript</locus> is dated to April 1st, 1930. The <locus facs="18">colophon</locus> of the manuscript, in English, dates its completion to March 17, 1930.</p>
-              <p>In the letter to Blochet, Sher-Gil states that the <orgName xml:lang="fr">Bibliothèque nationale</orgName> contains a manuscript of the commentary of the <title xml:lang="sa">Pāṇinīyaśikṣā</title>, which omits the <term xml:lang="sa">mūla</term> text.</p>
+              <p>In the letter to Blochet, Sher-Gil states that the <orgName xml:lang="fr">Bibliothèque nationale</orgName> contains a <ref target="Sanscrit_0568.xml">manuscript</ref> of the commentary of the <title xml:lang="sa">Pāṇinīyaśikṣā</title>, which omits the <term xml:lang="sa">mūla</term> text.</p>
               <p>Sher-Gil points out that the text is not likely to have been authored by <persName xml:lang="sa">Pāṇini</persName> himself, but is usually attributed to <persName xml:lang="sa">Piṅgalācārya</persName>. Accordingly, both his <locus facs="5">English</locus> and <locus facs="7">Sanskrit</locus> title pages attribute the text to <persName xml:lang="sa">Piṅgalācārya</persName>.</p>
               <p>Sher-Gil notes that the manuscript has been copied from an edition published in Benares in 1887. Although this edition has not yet been located, the text is very close to the Benares edition of 1877, by <persName xml:lang="sa">Becanarāma Tripāṭhin</persName>. However, it seems that the edition that Sher-Gil used included Vedic accent marks, which are not present in the 1877 edition. Moreover, it seems that Sher-Gil consulted more than one edition; the marginal notes use two different referencing systems, and, in his letter to Blochet, he mentions using <quote>printed copies published in India at Benares as well at Bombay</quote>.</p>
             </summary>
@@ -36,7 +36,7 @@
               <author xml:lang="sa">Piṅgalācārya</author>
               <textLang mainLang="san" otherLangs="eng"/>
               <filiation>
-                <p>Sher-Gil notes that Sanscrit 568 contains a commentary on the text, but not the <term xml:lang="sa">mūla</term> itself.</p>
+                <p>Sher-Gil notes that <ref target="Sanscrit_0568.xml">Sanscrit 568</ref> contains a commentary on the text, but not the <term xml:lang="sa">mūla</term> itself.</p>
               </filiation>
               <rubric xml:lang="sa"><milestone n="2" unit="page" facs="9"/>śrīgaṇeśāya namaḥ ||</rubric>
               <incipit xml:lang="sa"><milestone n="2, ln 1" unit="page" facs="9"/>atha śikṣāṃ pravakṣyāmi pāṇinīyaṃ mataṃ yathā |</incipit>
@@ -151,6 +151,7 @@
     </encodingDesc>
     <revisionDesc>
       <change when="2020-11">Catalogue entry created by Charles LI (CNRS, CEIAS, UMR 8564).</change>
+      <change when="2021-04">Line breaks added by Charles LI.</change>
     </revisionDesc>
   </teiHeader>
   <text n="letter">
@@ -158,26 +159,25 @@
       <milestone facs="3" n="1" unit="page"/>
       <lg>
         <l>To</l>
-        <l>Mons Blochet</l>
-        <l>Librarian Manuscript Section</l>
-        <l>Bibliotheque Nationale</l>
-        <l>Paris.</l>
+        <l><lb/>Mons Blochet</l>
+        <l><lb/>Librarian Manuscript Section</l>
+        <l><lb/>Bibliotheque Nationale</l>
+        <l><lb/>Paris.</l>
       </lg>
-      <p>Dear Sir,</p>
-      <p>I have much pleasure in presenting to your great Library, a copy of the text of the Cikshá ,which I have prepared .</p>
-      <p>It is the text of the Panini Ciksha so called, a manuscript copy of the <emph rend="underline">commentary</emph> of which your library possesses as No. 568, and which I found to be without the original text of which it is the Sanskrit <subst><del>V</del><add>C</add></subst>ommentary.</p>
-      <p>So I thought that your library should possess a manuscript of the text also, which now I have made from reliable printed copies published in India at Benares as well at Bombay,giving the variations in readings which these texts give.</p>
-      <p>My Benares text has <add place="above">also</add> <emph rend="underline">the</emph> commentary which you pos-sess, and which ha<subst><del>s</del><add>d</add></subst> been corrected besi<del>e</del>d<add>es,</add> by a learned Br-ahmin of my acquaintance ,so far as the typographic errors were concerned. And as your manuscript of this commentary contains numerous errors, I shall be glad some day,when I have <del>time to</del> <milestone facs="4" n="2" unit="page"/>time to prepare a corrigenda on a seperate paper for it, to be kept with your text for the use of any scholar who<del>a</del> may wish to study it in the future.</p>
-      <p>I will add that this Cikshá which is generally called Panini Ciksha has been found to be composed by Pingala or some one called by that name,according to the system of Panini, as the note at the end of the Benares copy says on the strength of the variation in reading of the finale. Beside<subst><del>d</del><add>s</add></subst> that the very first verse of the text which says that <emph rend="underline">"I expound the Ciksha according to the views of Panini",</emph> make it sure that it is not by Panini at least as generally alleged.</p>
-      <p>I have the honour to be Dear Sir,</p>
-      <p>Yours faithfully</p>
-      <p>Umraosingh Shergil</p>
+      <p><lb/>Dear Sir,</p>
+      <p><lb/>I have much pleasure in presenting to your great <lb/>Library, a copy of the text of the Cikshá ,which I have <lb/>prepared .</p>
+      <p><lb/>It is the text of the Panini Ciksha so called, <lb/>a manuscript copy of the <emph rend="underline">commentary</emph> of which your Library <lb/>possesses as No. 568, and which I found to be without the <lb/>original text of which it is the Sanskrit <subst><del>V</del><add>C</add></subst>ommentary.</p>
+      <p><lb/>So I thought that your library should possess a <lb/>manuscript of the text also, which now I have made from <lb/>reliable printed copies published in India at Benares as <lb/>well at Bombay,giving the variations in readings which <lb/>these texts give.</p>
+      <p><lb/>My Benares text has <add place="above">also</add> <emph rend="underline">the</emph> commentary which you pos-<lb/>sess, and which ha<subst><del>s</del><add>d</add></subst> been corrected besi<del>e</del>d<add>es,</add> by a learned Br-<lb/>ahmin of my acquaintance ,so far as the typographic errors <lb/>were concerned. And as your manuscript of this commentary <lb/>contains numerous errors, I shall be glad some day,when I have <del>time to</del> <pb facs="4" n="2" unit="page"/>time to prepare a corrigenda on a seperate paper for it, <lb/>to be kept with your text for the use of any scholar who<del>a</del> <lb/>may wish to study it in the future.</p>
+      <p><lb/>I will add that this Cikshá which is generally called <lb/>Panini Ciksha has been found to be composed by Pingala <lb/>or some one called by that name,according to the system <lb/>of Panini, as the note at the end of the Benares copy <lb/>says on the strength of the variation in reading of the <lb/>finale. Beside<subst><del>d</del><add>s</add></subst> that the very first verse of the text <lb/>which says that <emph rend="underline">"I expound the Ciksha according to the <lb/>views of Panini",</emph> make it sure that it is not by Panini at <lb/>least as generally alleged.</p>
+      <p><lb/>I have the honour to be Dear Sir,</p>
+      <p><lb/>Yours faithfully</p>
+      <p><lb/>Umraosingh Shergil</p>
       <lg>
-        <l>Sirdar Umraosingh Sher-Gil</l>
-        <l>of Majitha.</l>
-        <l>Amritsar District .</l>
-        <l>Punjab.</l>
-        <l>4th.April.1930. British INDIA.</l>
+        <l><lb/>Sirdar Umraosingh Sher-Gil <lb/>of Majitha.</l>
+        <l><lb/>Amritsar District .</l>
+        <l><lb/>Punjab.</l>
+        <l><lb/>4th.April.1930. British INDIA.</l>
       </lg>
     </body>
   </text>
