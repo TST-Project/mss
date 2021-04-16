@@ -25,13 +25,13 @@
                <msContents class="#STM">
                   <summary>To be identified.</summary>
                   
-               <msItem defective="false"><title xml:lang="ta">To be identified</title><textLang mainLang="tam"/></msItem></msContents>
+               <msItem xml:id="t472e" defective="false"><title xml:lang="ta">To be identified</title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
                         <support>
                            <measure unit="stringhole" quantity="2"/>
-                           <p>Additional punched stringhole.</p>
+                           <p>Additional punched stringhole. Verso blank except for an additional note.</p>
                         </support>
                         <extent>
                            <measure unit="folio" quantity="1"/>
@@ -39,12 +39,12 @@
                               <width quantity="370"/>
                               <height quantity="30"/>
                            </dimensions>
-                        <dimensions type="object" unit="mm"><width quantity="0"/><height/></dimensions><dimensions type="written" unit="mm"/></extent>
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
                         
                         
                      <foliation>No foliation.</foliation><condition>Good state of preservation. Slightly cracked.</condition></supportDesc>
                      <layoutDesc>
-                        <layout writtenLines="4"/>
+                        <layout writtenLines="3"/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -52,22 +52,22 @@
                   <handNote scope="major" script="tamil" scriptRef="#tamilPulliNone" medium="incised"/></handDesc>
                   <decoDesc>
                     
-                  </decoDesc>
+                  <decoNote><desc><locus facs="18">Christian cross</locus> in left margin of recto.</desc></decoNote></decoDesc>
                   <additions>
                   </additions>
                   <bindingDesc>
                      <binding>
-                        <p/>
+                        
                      </binding>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
                      <origDate calendar="gregorian"/>
-                     <origPlace/>
+                     
                   </origin>
                   <acquisition>
-                     <p/>
+                     
                   </acquisition>
                </history>
                <additional>
@@ -86,6 +86,19 @@
       </revisionDesc>
    </teiHeader>
    <facsimile>
-   </facsimile>
-<text><p><locus facs="18">(f[1]r)</locus></p>
-<p><locus facs="19">(f[1]v)</locus></p> [blank, but for one note in pencil: “a miserere”]</text></TEI>
+   <graphic url="https://tst-project.github.io/img/Indien_0472/index.json"/></facsimile>
+<text corresp="#t472e" xml:lang="ta"><body>
+  <p>
+    
+    <milestone facs="18" n="[1]r" unit="folio"/>
+    <lb n="1"/> 
+    <lb n="2"/>
+    <lb n="3"/>
+    <lb n="4"/>
+    <lb n="5"/>
+    <lb n="6"/>
+        
+    <milestone facs="19" n="[1]v" unit="folio"/>
+    [blank]
+  </p>
+</body></text></TEI>

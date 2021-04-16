@@ -31,7 +31,7 @@
                      <supportDesc material="palm-leaf">
                         <support>
                            <measure unit="stringhole" quantity="1"/>
-                           <p/>
+                           
                         </support>
                         <extent>
                            <measure unit="folio" quantity="1"/>
@@ -39,7 +39,7 @@
                               <width quantity="135"/>
                               <height quantity="35"/>
                            </dimensions>
-                        <dimensions type="object" unit="mm"><width quantity="0"/><height/></dimensions><dimensions type="written" unit="mm"/></extent>
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
                         
                         
                      <foliation>No foliation.</foliation><condition>Good state of preservation.</condition></supportDesc>
@@ -57,17 +57,17 @@
                   </additions>
                   <bindingDesc>
                      <binding>
-                        <p/>
+                        
                      </binding>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
                      <origDate calendar="gregorian"/>
-                     <origPlace/>
+                     
                   </origin>
                   <acquisition>
-                     <p/>
+                     
                   </acquisition>
                </history>
                <additional>
@@ -86,12 +86,26 @@
       </revisionDesc>
    </teiHeader>
    <facsimile>
-   </facsimile>
-<text><p>f[1]r German Text</p>
-(f[1]r1) ... 
-(f[1]r2) ...
-(f[1]r3) ...
-<seg function="title"><locus facs="12">(f[1]r4, right-aligned)</locus> Johan. 16, 33.</seg>
-<p>f[1]v Tamil text</p>
-<seg function="incipit"><locus facs="13">(f[1]v1)</locus> lōkattilē</seg> Uṅkaḷukku Upattiram uṇṭā(f[1]v2)yirukkum Āṉāl <unclear>atiṭaṉ</unclear> koḷḷuṅ koḷ (f[1]v3) nām lōkattai yeṅ koṇṭōm eṉṟu (f[1]v4) tiruviḷam <seg function="explicit">pātiṉār</seg>
-<seg function="title">(f[1]v5) yōvar: 10 6, 33</seg></text></TEI>
+   <graphic url="https://tst-project.github.io/img/Indien_0472/index.json"/></facsimile>
+<text><body>
+  <p>
+    
+    <milestone facs="12" n="[1]r" unit="folio"/>
+    <lb n="1"/>[text in German] 
+    <lb n="2"/>[text in German]
+    <lb n="3"/>[text in German]
+    <lb n="4"/><seg function="title">Johan. 16, 33.</seg>
+        
+    <milestone facs="13" n="[1]v" unit="folio"/>
+    <lb n="1"/><seg function="incipit">lōkattilē</seg> Uṅkaḷukku Upattiram uṇṭā
+    <lb n="2" break="no"/>yirukkum Āṉāl <unclear>atiṭaṉ</unclear> koḷḷuṅ koḷ
+    <lb n="3" break="no"/>nām lōkattai yeṅ koṇṭōm eṉṟu
+    <lb n="4"/>tiruviḷam <seg function="explicit">p<unclear>ā</unclear>tiṉār</seg>
+    <seg function="title"><lb n="5"/>yōvar: 10 6, 33</seg>   
+    
+  </p>
+</body>
+
+
+
+</text></TEI>

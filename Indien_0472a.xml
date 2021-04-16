@@ -25,10 +25,7 @@
                <msContents class="#STM">
                   <summary>Epistle to the Romans 12.18 translated into German and Tamil.</summary>
                   
-               <msItem defective="false"><title xml:lang="ta">Epistle to the Romans 12.18</title><textLang mainLang="tam" otherLangs="deu"/><rubric xml:lang="ta"><locus facs="10">(f[1]r4, right-aligned)</locus> Rōm. 12, 18.
-<locus facs="11">(f[1]v1)</locus> ṟōmar – 10 2 = Atikāram – 10 8 • vacaṉam • </rubric><incipit xml:lang="ta">(f[1]v2) kūṭumāṉāl Ellāmanuṣaruṭaṉē-y((u)) X Uṅ-
-(f[1]v3) kaḷālē Āṉamaṭṭuñ camātāṉam āy-iru-
-(f[1]v4) ṅkoḷ</incipit></msItem></msContents>
+               <msItem xml:id="t472a" defective="false"><title xml:lang="ta">Epistle to the Romans 12.18</title><textLang mainLang="tam" otherLangs="deu"/></msItem></msContents>
                <physDesc>
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
@@ -42,10 +39,10 @@
                               <width quantity="115"/>
                               <height quantity="35"/>
                            </dimensions>
-                        <dimensions type="object" unit="mm"><width quantity="0"/></dimensions><dimensions type="written" unit="mm"/></extent>
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
                         
                         
-                     <foliation>No foliation.</foliation><condition>Good state of preservation.</condition></supportDesc>
+                     <foliation>No foliation.</foliation><condition>Good state of preservation, but cracked.</condition></supportDesc>
                      <layoutDesc>
                         <layout writtenLines="4"/>
                      </layoutDesc>
@@ -70,7 +67,7 @@
                      
                   </origin>
                   <acquisition>
-                     <p/>
+                     
                   </acquisition>
                </history>
                <additional>
@@ -89,25 +86,23 @@
       </revisionDesc>
    </teiHeader>
    <facsimile>
-   </facsimile>
+   <graphic url="https://tst-project.github.io/img/Indien_0472/index.json"/></facsimile>
    
-<text>      <body>
-        
-         <p><locus facs="10">f[1]r German Text</locus></p>
-        
-         <p>
-           <lb n="1"/>(f[1]r1) ... 
-           <lb n="2"/>(f[1]r2) ...
-           <lb n="3"/>(f[1]r3) ...
-           <lb n="4"/><seg function="title">(f[1]r4, right-aligned) Rōm. 12, 18.</seg>
-        </p>
-                      
-         <p><locus facs="11">f[1]v Tamil text</locus></p>
-         
-           <p>
-             <lb n="1"/><seg function="title">(f[1]v1) ṟōmar – 10 2 = Atikāram – 10 8 • vacaṉam •</seg>
-             <lb n="2"/><seg function="incipit">(f[1]v2) kūṭumāṉāl</seg> Ellāmanuṣaruṭaṉē-y<surplus>u</surplus> <del rend="strikethrough"><gap reason="illegible" quantity="1" unit="character"/></del> Uṅ
-         <lb n="3" break="no"/>(f[1]v3) kaḷālē Āṉamaṭṭuñ camātāṉam <seg function="explicit">āy-iru
-          <lb n="4" break="no"/>(f[1]v4) ṅkoḷ</seg></p>
-      </body>
+<text corresp="#t472a" xml:lang="ta"><body>
+  <p>
+    
+    <milestone facs="10" n="[1]r" unit="folio"/>
+    <lb n="1"/>[text in German] 
+    <lb n="2"/>[text in German]
+    <lb n="3"/>[text in German]
+    <lb n="4"/><seg function="title">Rōm. 12, 18.</seg>
+    
+    <milestone facs="11" n="[1]v" unit="folio"/>
+    <lb n="1"/><seg function="title">ṟōmar – 10 2 = Atikāram – 10 8 • vacaṉam •</seg>
+    <lb n="2"/><seg function="incipit">kūṭumāṉāl</seg> Ellāmanuṣaruṭaṉē-y<surplus>u</surplus> <del rend="strikeout"><gap reason="illegible" quantity="1" unit="character"/></del> Uṅ
+    <lb n="3" break="no"/>kaḷālē Āṉamaṭṭuñ camātāṉam <seg function="explicit">āy-iru
+    <lb n="4" break="no"/>ṅkoḷ</seg>
+    
+  </p>
+</body>
    </text></TEI>

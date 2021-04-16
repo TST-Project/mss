@@ -25,7 +25,7 @@
                <msContents class="#STM">
                   <summary>Fragment of Saint Francis Xavier Story.</summary>
                   
-               <msItem defective="false"><title xml:lang="ta">Fragment of Saint Francis Xavier Story</title><textLang mainLang="tam"/><filiation><p>See BnF Indien 511.</p></filiation><incipit xml:lang="ta"><locus facs="14">(f[1r]1)</locus> [...]</incipit><explicit xml:lang="ta"><locus facs="15">(f[1v]7)</locus> [...]</explicit></msItem></msContents>
+               <msItem xml:id="t472c" defective="false"><title xml:lang="ta">Fragment of Saint Francis Xavier Story</title><textLang mainLang="tam"/><filiation><p>See BnF Indien 511.</p></filiation><incipit xml:lang="ta"><locus facs="14">(f[1r]1)</locus> [...]</incipit><explicit xml:lang="ta"><locus facs="15">(f[1v]7)</locus> [...]</explicit></msItem></msContents>
                <physDesc>
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
@@ -39,7 +39,7 @@
                               <width quantity="300"/>
                               <height quantity="35"/>
                            </dimensions>
-                        <dimensions type="object" unit="mm"><width quantity="0"/><height/></dimensions><dimensions type="written" unit="mm"/></extent>
+                        <dimensions type="object" unit="mm"><width quantity="0"/></dimensions><dimensions type="written" unit="mm"/></extent>
                         
                         
                      <foliation>Left margin truncated. Foliation, if any, lost.</foliation><condition>Good state of preservation.</condition></supportDesc>
@@ -57,17 +57,17 @@
                   </additions>
                   <bindingDesc>
                      <binding>
-                        <p/>
+                        
                      </binding>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
                      <origDate calendar="gregorian"/>
-                     <origPlace/>
+                     
                   </origin>
                   <acquisition>
-                     <p/>
+                     
                   </acquisition>
                </history>
                <additional>
@@ -86,5 +86,26 @@
       </revisionDesc>
    </teiHeader>
    <facsimile>
-   </facsimile>
-</TEI>
+   <graphic url="https://tst-project.github.io/img/Indien_0472/index.json"/></facsimile>
+<text corresp="#t472c" xml:lang="ta"><body>
+  <p>
+    
+    <milestone facs="14" n="[1]r" unit="folio"/>
+    <lb n="1"/> 
+    <lb n="2"/>
+    <lb n="3"/>
+    <lb n="4"/>
+    <lb n="5"/>
+    <lb n="6"/>
+        
+    <milestone facs="15" n="[1]v" unit="folio"/>
+    <lb n="1"/> 
+    <lb n="2"/>
+    <lb n="3"/>
+    <lb n="4"/>
+    <lb n="5"/>
+    <lb n="6"/>
+    <lb n="7"/>
+    
+  </p>
+</body></text></TEI>
