@@ -81,7 +81,7 @@ const readfiles = function(arr) {
         const dom = new jsdom.JSDOM('');
         const parser = new dom.window.DOMParser();
         const xmlDoc = parser.parseFromString(str,'text/xml');
-        const cote = xmlDoc.querySelector('idno[type="cote"]').textContent;
+        const cote = xmlDoc.querySelector('idno[type="shelfmark"]').textContent;
         const sortno = cote.replace(/(\d+)/g,(a,b) => {return b.padStart(4,'0');});
         return {
             sort: sortno,
