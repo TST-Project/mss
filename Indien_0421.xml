@@ -22,7 +22,7 @@
             </repository>
             <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103947h</idno>
             <idno type="shelfmark">Indien 421</idno>
-            <idno type="alternate"><idno>Tamoul 421</idno></idno>
+            <idno type="alternate"><idno>Tamoul 421</idno><idno>Ancien fonds XIV</idno></idno>
           </msIdentifier>
           <msContents class="#STM">
             <summary>Tamil version of the Vikramacarita, that is, 32 stories (Tamil <term xml:lang="ta">katai</term>) about the king Vikrama (<persName xml:lang="ta">Vikkiramātittaṉ</persName>) told to king Bhoja by the figurines (Tamil <term xml:lang="ta">patumai</term>) of his throne.</summary>
@@ -45,7 +45,12 @@ TMSSML, vol. 1 , 1925, Nos. 579 and 589.
 <locus xml:lang="en">(p1, c1, 12)</locus> ṉ ciṅkātāṉatti – 
 <locus xml:lang="en">(p1, c1, 13)</locus> le Eṟa vanta pōtu
 <locus xml:lang="en">(p1, c1, 14)</locus> patumaikaḷ coṉṉa katai – (…)
- </incipit><explicit xml:lang="ta"><locus xml:lang="en">(p88c2, 27)</locus> (...) – pirā
+ 
+<milestone n="1" unit="page"/>
+<milestone n="1" unit="column"/>
+<lb n="1"/>vētamutalē viṉāyaka
+<lb n="2" break="no"/>ṉentaṉiṭa kātaluk
+...</incipit><explicit xml:lang="ta"><locus xml:lang="en">(p88c2, 27)</locus> (...) – pirā
 <locus xml:lang="en">(p88c2, 28)</locus> maṇatti piḷḷai vārucikṣa-
 <locus xml:lang="en">(p88c2, 29)</locus> ttiriyap peṇṇiṉ piḷḷai
 <locus xml:lang="en">(p88c2, 30)</locus> vikkiṟamāṟkaṉ vayici
@@ -107,10 +112,10 @@ TMSSML, vol. 1 , 1925, Nos. 579 and 589.
           </physDesc>
           <history>
             <origin>
-              <origDate calendar="gregorian" notAfter="1729">1729 at the latest. The stamp “BIBLIOTHEQUE ROYALE” indicates that the codex is an old acquisition. 1750 according to Cabaton (1912, p. 60).</origDate>
+              <origDate calendar="gregorian" notAfter="1729" when="1729">1729 at the latest. 1750 according to Cabaton (1912, p. 60).</origDate>
               <origPlace>South India, Tamilnadu.</origPlace>
             </origin>
-            <acquisition><p>Ancien fonds XIV. See <title>Catalogus codicum manuscriptorum Bibliothecae regiae</title>, p. <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k140995x/f437">434</ref>.</p>
+            <acquisition>
             </acquisition>
           <provenance>It appears to be the paper <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105278700/f17">Vicramarquen Cadey</ref> or <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105278700/f31">Vicramarken Kadey</ref> sent by the Pondichéry Missionnaries in 1729, according to lists found in the “Anciens catalogues de la Bibliothèque du Roi … Mémoires de livres et mss. envoyés par les Jésuites de l’Inde pour la Bibliothèque du Roi, en 1729-1735” (BnF NAF 5442). </provenance></history>
           <additional>
@@ -118,7 +123,7 @@ TMSSML, vol. 1 , 1925, Nos. 579 and 589.
               
               
               
-            <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E.  Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f78">p. 49</ref>.</bibl><bibl>S.n. (1739). <title>Catalogus codicum manuscriptorum Bibliothecae regiae. Tomus primus. Pars prima, complectens codices manuscriptos orientales.</title> Paris: Typographia Regia.</bibl><bibl>Zvelebil, Kamil Veith (1997a). <title type="article">The Tamil Vikramaditya</title>. <title>JAOS</title> 117.2, pp. 294-305.</bibl></listBibl>
+            <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E.  Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f78">p. 49</ref>.</bibl><bibl>S.n. (1739). <title>Catalogus codicum manuscriptorum Bibliothecae regiae. Tomus primus. Pars prima, complectens codices manuscriptos orientales.</title> Paris: Typographia Regia. — See p. <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k140995x/f437">434</ref>.</bibl><bibl>Zvelebil, Kamil Veith (1997a). <title type="article">The Tamil Vikramaditya</title>. <title>JAOS</title> 117.2, pp. 294-305.</bibl></listBibl>
           </additional>
         </msDesc>
       </sourceDesc>
