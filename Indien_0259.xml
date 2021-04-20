@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Pākavatam</title>
+         </titleStmt>
+         <editionStmt>
+            <p>Record edited by <persName>Emmanuel FRANCIS</persName> <orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName>.</p>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="cote"/>
+                  <idno type="ancienne cote"/>
+               <idno type="shelfmark">Indien 259</idno><idno type="alternate"><idno>Tamoul 259</idno><idno>Ancien fonds 22</idno></idno></msIdentifier>
+               <msContents class="#STM">
+                  <summary>Prose version of the Bhāgavatapurāṇa in Tamil.</summary>
+                  
+               <msItem n="U1" xml:id="T1" defective="false"><title xml:lang="ta">Pākavatam</title><textLang mainLang="tam"/></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="paper">
+                        <support>
+                           <measure unit="stringhole"/>
+                           
+                        </support>
+                        <extent>
+                           <measure unit="folio" quantity="134"/>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           </dimensions>
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
+                        
+                        
+                     <foliation n="u1">the front cover; verso bearing the sticker "INDIEN 259".</foliation><foliation n="u2">2 guard leaves; recto of first folio bearing "Tamoul N° 259" in black pencil.</foliation><foliation n="U1">134 folios; original Tamil foliation 1-134 and parallel library foliation 1-134.</foliation><foliation n="u3">1 guard leaf; blank recto verso.</foliation><foliation n="u4">the back cover.</foliation><condition> Very good state of preservation.</condition></supportDesc>
+                     <layoutDesc>
+                        
+                     <layout columns="1"/></layoutDesc>
+                  </objectDesc>
+                  <handDesc><handNote n="U1" scope="sole" script="tamil" scriptRef="#tamilPulliNone" medium="incised"/></handDesc>
+                  <decoDesc>
+                  </decoDesc>
+                  <additions>
+                  </additions>
+                  <bindingDesc>
+                     <binding/>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian" notAfter="1730">1730 at the latest.</origDate>
+                     
+                  <origPlace>Tamilnadu.</origPlace></origin>
+                  <provenance><p>It appears to be the <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105278700/f18">Begavatam, ou metamorphose de Vichnou en Chrisnen</ref> and the paper <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105278700/f31">Bagavatam</ref> sent by the Jesuits of the Mission du Carnate in 1730 for the library of the king of France and mentioned in ancien lists (BnF NAF 5442, f5v and f9r).</p></provenance>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f58">p. 40</ref>.</bibl><bibl>S.n. (1739). <title>Catalogus codicum manuscriptorum Bibliothecae regiae. Tomus primus. Pars prima, complectens codices manuscriptos orientales.</title> Paris: Typographia Regia. — See n° XXII, p. <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k140995x/f438">435</ref>.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         
+      <p>TBA</p></encodingDesc>
+      <revisionDesc>
+         
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+   </facsimile>
+<text n="U1" corresp="#T1" xml:lang="ta"><body>
+  <p>
+    <seg function="title"><milestone n="1r" unit="folio"/>
+    <lb n="1"/>Bagavedam</seg>
+    <seg function="title"><lb n="2"/>Pākavatam</seg>
+    <seg function="incipit">
+      <lb n="3"/>puṇṇiya-kṣettiram-āy irukka-p-paṭṭavaṉamicāraṇṇiya-kṣe
+      <lb n="4" break="no"/>ttirattilē vācam paṇṇappaṭā ṉiṉṟa</seg> [...]    
+  </p>
+  
+  <p>
+    <seg function="intertitle">
+      <milestone n="20r" unit="folio"/>
+      <lb n="22"/>piṟuntāvaṉaṅ
+      <lb n="23"/>kaṇṭatu
+    </seg>       
+  </p>
+   
+  <p>
+    <milestone n="134v" unit="folio"/>
+    <lb n="18"/>[...]
+    <seg function="explicit">
+      <lb n="19"/>mōṣam peṟuvārkaḷ eṉṟu cuka-yōki-y intirar pariṣ
+      <lb n="20" break="no"/>ṣittu makārācaṉukku-c coṉṉa paṭiyē cūtap<unclear>au</unclear>vura
+      <lb n="21" break="no"/>ṇika<del rend="strikeout"><gap reason="illegible" quantity="1" unit="character"/></del>r cavuṉakāti-makā-muṉikaḷukku-t teriya-c coṉṉār
+      <lb n="22"/>pākavatam muṟṟum</seg>
+  </p>
+      
+</body></text></TEI>
