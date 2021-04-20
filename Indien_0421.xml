@@ -2,140 +2,218 @@
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <!--@ charles: NB: derived from "Indien_0338.xml", saved as "Indien_0421.xml"-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title xml:lang="ta">Vikkiramātittaṉ Patumaikkatai</title>
-      </titleStmt>
-      <editionStmt>
-        <p>Record edited by <persName>Emmanuel FRANCIS</persName> <orgName>CNRS, CEIAS UMR 8564, EHESS &amp; CNRS</orgName>.</p>
-      </editionStmt>
-      <publicationStmt>
-        <publisher>TST Project</publisher>
-        <date>2021</date>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc>
-          <msIdentifier>
-            <repository>
-              <orgName>Bibliothèque nationale de France. Département des								Manuscrits</orgName>
-            </repository>
-            <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103947h</idno>
-            <idno type="shelfmark">Indien 421</idno>
-            <idno type="alternate"><idno>Tamoul 421</idno><idno>Ancien fonds 14</idno></idno>
-          </msIdentifier>
-          <msContents class="#STM">
-            <summary>Tamil version of the Vikramacarita, that is, 32 stories (Tamil <term xml:lang="ta">katai</term>) about the king Vikrama (<persName xml:lang="ta">Vikkiramātittaṉ</persName>) told to king Bhoja by the figurines (Tamil <term xml:lang="ta">patumai</term>) of his throne.</summary>
-            
-          <msItem n="U1" defective="false"><title xml:lang="ta">Vikkiramātittaṉ Patumaikkatai</title><textLang mainLang="tam"/><filiation><p>GOML R. 1972, R. 2244.
-UVSL, vol. 4, pp. 246-7, No. 2040.
-TMSSML, vol. 1 , 1925, Nos. 579 and 589.
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="ta">Vikkiramātittaṉ Patumaikkatai</title>
+			</titleStmt>
+			<editionStmt>
+				<p>Record edited by <persName>Emmanuel FRANCIS</persName>
+					<orgName>CNRS, CEIAS UMR 8564, EHESS &amp; CNRS</orgName>.</p>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>TST Project</publisher>
+				<date>2021</date>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>
+							<orgName>Bibliothèque nationale de France. Département des
+								Manuscrits</orgName>
+						</repository>
+						<idno type="URI"
+							>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103947h</idno>
+						<idno type="shelfmark">Indien 421</idno>
+						<idno type="alternate"><idno>Tamoul 421</idno><idno>Ancien fonds
+							14</idno></idno>
+					</msIdentifier>
+					<msContents class="#STM">
+						<summary>Tamil version of the Vikramacarita, that is, 32 stories (Tamil
+								<term xml:lang="ta">katai</term>) about the king Vikrama (<persName
+								xml:lang="ta">Vikkiramātittaṉ</persName>) told to king Bhoja by the
+							figurines (Tamil <term xml:lang="ta">patumai</term>) of his
+							throne.</summary>
 
-</p></filiation><incipit xml:lang="ta"><locus xml:lang="en">(p1, c1, 1)</locus> vētamutalē viṉāyaka-
-<locus xml:lang="en">(p1, c1, 2)</locus> ṉentaṉiṭa kātaluk-
-<locus xml:lang="en">(p1, c1, 3)</locus> ku muṉ tōṉṟuṅ kaṇa-
-<locus xml:lang="en">(p1, c1, 4)</locus> tiyē nītipuṉai vikki-
-<locus xml:lang="en">(p1, c1, 5)</locus> ṟamāṟkaṉ pēril vē-
-<locus xml:lang="en">(p1, c1, 6)</locus> ṇṭuṅ kataiy uraikka
-<locus xml:lang="en">(p1, c1, 7)</locus> yikkataikku nīyē tu
-<locus xml:lang="en">(p1, c1, 8)</locus> ṇai – viṉāyakaṉ tō-
-<locus xml:lang="en">(p1, c1, 9)</locus> ttiramuṟṟum + – –
-<locus xml:lang="en">(p1, c1, 10)</locus> vikkiṟāmāṟkaṉ ka- – 
-<locus xml:lang="en">(p1, c1, 11)</locus> taiyāka pōcarāca- 
-<locus xml:lang="en">(p1, c1, 12)</locus> ṉ ciṅkātāṉatti – 
-<locus xml:lang="en">(p1, c1, 13)</locus> le Eṟa vanta pōtu
-<locus xml:lang="en">(p1, c1, 14)</locus> patumaikaḷ coṉṉa katai – (…)
- 
-<milestone n="1" unit="page"/>
-<milestone n="1" unit="column"/>
-<lb n="1"/>vētamutalē viṉāyaka
-<lb n="2" break="no"/>ṉentaṉiṭa kātaluk
-...</incipit><explicit xml:lang="ta"><locus xml:lang="en">(p88c2, 27)</locus> (...) – pirā
-<locus xml:lang="en">(p88c2, 28)</locus> maṇatti piḷḷai vārucikṣa-
-<locus xml:lang="en">(p88c2, 29)</locus> ttiriyap peṇṇiṉ piḷḷai
-<locus xml:lang="en">(p88c2, 30)</locus> vikkiṟamāṟkaṉ vayici
-<locus xml:lang="en">(p88c2, 31)</locus> yap peṇṇiṉ piḷḷai
-<locus xml:lang="en">(p88c2, 32)</locus> paṭṭi cūttirap peṇ-
-<locus xml:lang="en">(p89, c1, 1)</locus> niṉ piḷḷai pattira-
-<locus xml:lang="en">(p89, c1, 2)</locus> karipiḷḷaikaḷukk<pc>’</pc> e-
-<locus xml:lang="en">(p89, c1, 3)</locus> llāmūttavaṉ patti- 
-<locus xml:lang="en">(p89, c1, 4)</locus> rakiri+ muṟṟum ++ </explicit></msItem></msContents>
-          <physDesc>
-            <objectDesc form="codex">
-              <supportDesc material="paper">
-                <support>
-                  <p>Watermarks.</p>
-                </support>
-                <extent>
-                  <measure unit="page" quantity="89">I.e. extent of main textual unit (U1).</measure>
-                  <dimensions type="object" unit="mm">
-                    <width quantity="210"/>
-                    <height quantity="335"/>
-                    <depth quantity="10"/>
-                  </dimensions>
-                <dimensions type="leaf" unit="mm"/><dimensions type="written" unit="mm"/></extent>
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-              <foliation n="cover">the front cover.</foliation><foliation n="u1">1 unfoliated/unpaginated front guard folio; blank recto and verso; marbled on recto; element of library binding.</foliation><foliation n="u2">1 unfoliated/unpaginated front guard folio; blank recto and verso; element of library binding.</foliation><foliation n="u3">1 unpaginated front guard folio; Arabic black ink library foliation 1 on bottom right edge;  Arabic pencil foliation 1 on bottom right edge; access number ("N°14") and title ("Vicra marken kadey") in black ink, and stamp ("BIBLIOTHEQUE ROYALE") on recto; old paper (original book).</foliation><foliation n="u4">1 bound-in small paper annotation bearing in black ink the title ("Vikramarken Kadai Tamoul").</foliation><foliation n="u5">1 unpaginated front guard folio; Arabic pencil foliation 2 on bottom right edge; access number ("Catal. Imper. N° XIV") in black pencil, on recto; old paper (original book).</foliation><foliation n="U1">44 folios; Tamil black ink pagination 2-89 (first page not explicitly paginated) on top right edge; Arabic black ink library foliation 1-46 on upper top right edge; Arabic pencil foliation 3-47 on bottom right edge.</foliation><foliation n="u6">1 unpaginated back guard  folio; Arabic black ink library foliation 47 on upper top right edge; title ("Vicramarcoum catta") in black ink on recto; stamp ("BIBLIOTHEQUE ROYALE") on verso; old paper (original book); watermark "Buger".</foliation><foliation n="u7">1 unpaginated/unfoliated back guard folio, blank recto and verso; element of library binding.</foliation><foliation n="u8">1 back unpaginated/unfoliated back guard folio; marbled on verso; element of library binding.</foliation><foliation n="back-cover">the back cover.</foliation><condition>Very good state of preservation.</condition></supportDesc>
-              <layoutDesc>
-                <layout columns="2" writtenLines="32"/>
-              </layoutDesc>
-            </objectDesc>
-            <handDesc>
-              
-            <handNote n="U1" scope="sole" script="tamil" scriptRef="#tamilPulliNone" medium="ink"/></handDesc>
-            <additions>
-              <p>Title on the spine: VIKRAMARKEN KADAI TAMOUL.  </p>
-              <p>Title on front folio 3: Vicra marken kadey </p>
-              <p>Title on paper annotation bound in between front folio 3 and front folio 4: Vikramarken Kadai Tamoul</p>
-              <p>Title on page 1, line 1: <title xml:lang="ta">vikkiṟamātittaṉ patumaikkatai</title></p>
-              <p>Title on back folio 1: Vicramarcoum catta</p>
-              <p>Chapter headers (pp. 12 [<term xml:lang="ta">mutal<pc>-</pc>k katai</term>],
-								14 [<term xml:lang="ta">y<pc>-</pc>iraṇṭāṅ katai</term>], 18, 20, 22, 23, 24, 27, 29, 32, 33, 37, 39, 47, 49, 51, 53, 56,
-								58, 59, 61, 62, 64, 67, 70, 72, 74, 76, 80, 83, 85, 86).</p>
-            </additions>
-            <bindingDesc>
-              <binding>
-                <p><material>Leather</material> cover, with title on the spine ("VIKRAMARKEN KADAI TAMOUL") and heraldic lilies on the spine.</p>
-              </binding>
-            </bindingDesc>
-          </physDesc>
-          <history>
-            <origin>
-              <origDate calendar="gregorian" notAfter="1729">1729 at the latest. 1750 according to Cabaton (1912, p. 60).</origDate>
-              <origPlace>South India, Tamilnadu.</origPlace>
-            </origin>
-            <acquisition>
-            </acquisition>
-          <provenance>It appears to be the paper <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105278700/f17">Vicramarquen Cadey</ref> or <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105278700/f31">Vicramarken Kadey</ref> sent by the Pondichéry Missionnaries in 1729, according to lists found in the “Anciens catalogues de la Bibliothèque du Roi … Mémoires de livres et mss. envoyés par les Jésuites de l’Inde pour la Bibliothèque du Roi, en 1729-1735” (BnF NAF 5442). </provenance></history>
-          <additional>
-            <listBibl>
-              
-              
-              
-            <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E.  Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f78">p. 49</ref>.</bibl><bibl>S.n. (1739). <title>Catalogus codicum manuscriptorum Bibliothecae regiae. Tomus primus. Pars prima, complectens codices manuscriptos orientales.</title> Paris: Typographia Regia. — See p. <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k140995x/f437">434</ref>.</bibl><bibl>Zvelebil, Kamil Veith (1997a). <title type="article">The Tamil Vikramaditya</title>. <title>JAOS</title> 117.2, pp. 294-305.</bibl></listBibl>
-          </additional>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      
-    <p>To be added.</p></encodingDesc>
-    <revisionDesc>
-      
-      
-    <change when="2020-12"> This catalogue entry has been redacted by Emmanuel FRANCIS (CNRS, CEIAS
-				UMR 8564, EHESS/CNRS) for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL
-				2018, ANR/DFG). Version 1, December 2020. </change><change when="2020-12">Formatting added by Charles LI.</change><change when="2021-04">Revised by Emmanuel FRANCIS.</change></revisionDesc>
-  </teiHeader>
+						<msItem n="U1" defective="false">
+							<title xml:lang="ta">Vikkiramātittaṉ Patumaikkatai</title>
+							<textLang mainLang="tam"/>
+							<filiation><p>GOML R. 1972, R. 2244. UVSL, vol. 4, pp. 246-7, No. 2040.
+									TMSSML, vol. 1 , 1925, Nos. 579 and 589. </p></filiation>
+							<incipit xml:lang="ta"><locus xml:lang="en">(p1, c1, 1)</locus>
+								vētamutalē viṉāyaka- <locus xml:lang="en">(p1, c1, 2)</locus>
+								ṉentaṉiṭa kātaluk- <locus xml:lang="en">(p1, c1, 3)</locus> ku muṉ
+								tōṉṟuṅ kaṇa- <locus xml:lang="en">(p1, c1, 4)</locus> tiyē nītipuṉai
+								vikki- <locus xml:lang="en">(p1, c1, 5)</locus> ṟamāṟkaṉ pēril vē-
+									<locus xml:lang="en">(p1, c1, 6)</locus> ṇṭuṅ kataiy uraikka
+									<locus xml:lang="en">(p1, c1, 7)</locus> yikkataikku nīyē tu
+									<locus xml:lang="en">(p1, c1, 8)</locus> ṇai – viṉāyakaṉ tō-
+									<locus xml:lang="en">(p1, c1, 9)</locus> ttiramuṟṟum + – –
+									<locus xml:lang="en">(p1, c1, 10)</locus> vikkiṟāmāṟkaṉ ka- –
+									<locus xml:lang="en">(p1, c1, 11)</locus> taiyāka pōcarāca-
+									<locus xml:lang="en">(p1, c1, 12)</locus> ṉ ciṅkātāṉatti –
+									<locus xml:lang="en">(p1, c1, 13)</locus> le Eṟa vanta pōtu
+									<locus xml:lang="en">(p1, c1, 14)</locus> patumaikaḷ coṉṉa katai
+								– (…) <milestone n="1" unit="page"/>
+								<milestone n="1" unit="column"/>
+								<lb n="1"/>vētamutalē viṉāyaka <lb n="2" break="no"/>ṉentaṉiṭa
+								kātaluk ...</incipit>
+							<explicit xml:lang="ta"><locus xml:lang="en">(p88c2, 27)</locus> (...) –
+								pirā <locus xml:lang="en">(p88c2, 28)</locus> maṇatti piḷḷai
+								vārucikṣa- <locus xml:lang="en">(p88c2, 29)</locus> ttiriyap peṇṇiṉ
+								piḷḷai <locus xml:lang="en">(p88c2, 30)</locus> vikkiṟamāṟkaṉ vayici
+									<locus xml:lang="en">(p88c2, 31)</locus> yap peṇṇiṉ piḷḷai
+									<locus xml:lang="en">(p88c2, 32)</locus> paṭṭi cūttirap peṇ-
+									<locus xml:lang="en">(p89, c1, 1)</locus> niṉ piḷḷai pattira-
+									<locus xml:lang="en">(p89, c1, 2)</locus>
+									karipiḷḷaikaḷukk<pc>’</pc> e- <locus xml:lang="en">(p89, c1,
+									3)</locus> llāmūttavaṉ patti- <locus xml:lang="en">(p89, c1,
+									4)</locus> rakiri+ muṟṟum ++ </explicit>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc form="codex">
+							<supportDesc material="paper">
+								<support>
+									<p>Watermarks.</p>
+								</support>
+								<extent>
+									<measure unit="page" quantity="89">I.e. extent of main textual
+										unit (U1).</measure>
+									<dimensions type="object" unit="mm">
+										<width quantity="210"/>
+										<height quantity="335"/>
+										<depth quantity="10"/>
+									</dimensions>
+									<dimensions type="leaf" unit="mm"/><dimensions type="written"
+										unit="mm"/></extent>
+
+
+
+
+
+
+
+
+
+
+
+
+								<foliation n="cover">the front cover.</foliation>
+								<foliation n="u1">1 unfoliated/unpaginated front guard folio; blank
+									recto and verso; marbled on recto; element of library
+									binding.</foliation>
+								<foliation n="u2">1 unfoliated/unpaginated front guard folio; blank
+									recto and verso; element of library binding.</foliation>
+								<foliation n="u3">1 unpaginated front guard folio; Arabic black ink
+									library foliation 1 on bottom right edge; Arabic pencil
+									foliation 1 on bottom right edge; access number ("N°14") and
+									title ("Vicra marken kadey") in black ink, and stamp
+									("BIBLIOTHEQUE ROYALE") on recto; old paper (original
+									book).</foliation>
+								<foliation n="u4">1 bound-in small paper annotation bearing in black
+									ink the title ("Vikramarken Kadai Tamoul").</foliation>
+								<foliation n="u5">1 unpaginated front guard folio; Arabic pencil
+									foliation 2 on bottom right edge; access number ("Catal. Imper.
+									N° XIV") in black pencil, on recto; old paper (original
+									book).</foliation>
+								<foliation n="U1">44 folios; Tamil black ink pagination 2-89 (first
+									page not explicitly paginated) on top right edge; Arabic black
+									ink library foliation 1-46 on upper top right edge; Arabic
+									pencil foliation 3-47 on bottom right edge.</foliation>
+								<foliation n="u6">1 unpaginated back guard folio; Arabic black ink
+									library foliation 47 on upper top right edge; title
+									("Vicramarcoum catta") in black ink on recto; stamp
+									("BIBLIOTHEQUE ROYALE") on verso; old paper (original book);
+									watermark "Buger".</foliation>
+								<foliation n="u7">1 unpaginated/unfoliated back guard folio, blank
+									recto and verso; element of library binding.</foliation>
+								<foliation n="u8">1 back unpaginated/unfoliated back guard folio;
+									marbled on verso; element of library binding.</foliation>
+								<foliation n="back-cover">the back cover.</foliation>
+								<condition>Very good state of preservation.</condition>
+							</supportDesc>
+							<layoutDesc>
+								<layout columns="2" writtenLines="32"/>
+							</layoutDesc>
+						</objectDesc>
+						<handDesc>
+
+							<handNote n="U1" scope="sole" script="tamil" scriptRef="#tamilPulliNone"
+								medium="ink"/>
+						</handDesc>
+						<additions>
+							<p>Title on the spine: VIKRAMARKEN KADAI TAMOUL. </p>
+							<p>Title on front folio 3: Vicra marken kadey </p>
+							<p>Title on paper annotation bound in between front folio 3 and front
+								folio 4: Vikramarken Kadai Tamoul</p>
+							<p>Title on page 1, line 1: <title xml:lang="ta">vikkiṟamātittaṉ
+									patumaikkatai</title></p>
+							<p>Title on back folio 1: Vicramarcoum catta</p>
+							<p>Chapter headers (pp. 12 [<term xml:lang="ta">mutal<pc>-</pc>k
+									katai</term>], 14 [<term xml:lang="ta">y<pc>-</pc>iraṇṭāṅ
+									katai</term>], 18, 20, 22, 23, 24, 27, 29, 32, 33, 37, 39, 47,
+								49, 51, 53, 56, 58, 59, 61, 62, 64, 67, 70, 72, 74, 76, 80, 83, 85,
+								86).</p>
+						</additions>
+						<bindingDesc>
+							<binding>
+								<p><material>Leather</material> cover, with title on the spine
+									("VIKRAMARKEN KADAI TAMOUL") and heraldic lilies on the
+									spine.</p>
+							</binding>
+						</bindingDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate calendar="gregorian" notAfter="1729">1729 at the latest. 1750
+								according to Cabaton (1912, p. 60).</origDate>
+							<origPlace>South India, Tamilnadu.</origPlace>
+						</origin>
+						<provenance>It appears to be the paper <ref
+							target="https://gallica.bnf.fr/ark:/12148/btv1b105278700/f17"
+							>Vicramarquen Cadey</ref> or <ref
+								target="https://gallica.bnf.fr/ark:/12148/btv1b105278700/f31"
+								>Vicramarken Kadey</ref> sent by the Jesuits of the Mission du Carnate in 1729 for the library of the king of France and mentioned in ancien lists.</provenance>
+						<acquisition> </acquisition>					
+					</history>
+					<additional>
+						<listBibl>
+
+
+
+							<bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits
+									indiens, indo-chinois &amp; malayo-polynésiens</title>.
+								Bibliothèque nationale. Département des manuscrits. Paris: E.
+								Leroux. — See <ref
+									target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f78">p.
+									49</ref>.</bibl>
+							<bibl>S.n. (1739). <title>Catalogus codicum manuscriptorum Bibliothecae
+									regiae. Tomus primus. Pars prima, complectens codices
+									manuscriptos orientales.</title> Paris: Typographia Regia. — See
+								p. <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k140995x/f437"
+									>434</ref>.</bibl>
+							<bibl>Zvelebil, Kamil Veith (1997a). <title type="article">The Tamil
+									Vikramaditya</title>. <title>JAOS</title> 117.2, pp.
+								294-305.</bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+
+			<p>To be added.</p>
+		</encodingDesc>
+		<revisionDesc>
+
+
+			<change when="2020-12"> This catalogue entry has been redacted by Emmanuel FRANCIS
+				(CNRS, CEIAS UMR 8564, EHESS/CNRS) for the research program <ref
+					target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL
+				2018, ANR/DFG). Version 1, December 2020. </change>
+			<change when="2020-12">Formatting added by Charles LI.</change>
+			<change when="2021-04">Revised by Emmanuel FRANCIS.</change>
+		</revisionDesc>
+	</teiHeader>
 </TEI>
