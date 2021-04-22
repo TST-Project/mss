@@ -25,7 +25,7 @@
                <msContents class="#STM">
                   <summary>Gospel of John 16.33 translated into German and Tamil.</summary>
                   
-               <msItem defective="false"><title xml:lang="ta">Gospel of John 16.33</title><textLang mainLang="tam" otherLangs="deu"/></msItem></msContents>
+               <msItem xml:id="t472b" defective="false"><title xml:lang="ta"><term xml:lang="en">Gospel of John 16.33</term></title><textLang mainLang="tam" otherLangs="deu"/></msItem></msContents>
                <physDesc>
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
@@ -83,25 +83,28 @@
       <p>TBA</p></encodingDesc>
       <revisionDesc>
          
-      </revisionDesc>
+      <change when="2021-04">Version 1 by Emmanuel Francis.</change></revisionDesc>
    </teiHeader>
    <facsimile>
    <graphic url="https://tst-project.github.io/img/Indien_0472/index.json"/></facsimile>
-<text><body>
-  <p>
+<text corresp="#t472b" xml:lang="ta"><body>
+  <p xml:lang="de">
     
     <milestone facs="12" n="[1]r" unit="folio"/>
     <lb n="1"/>[text in German] 
     <lb n="2"/>[text in German]
     <lb n="3"/>[text in German]
     <lb n="4"/><seg function="title">Johan. 16, 33.</seg>
+  
+  </p>
+  <p>
         
     <milestone facs="13" n="[1]v" unit="folio"/>
     <lb n="1"/><seg function="incipit">lōkattilē</seg> Uṅkaḷukku Upattiram uṇṭā
     <lb n="2" break="no"/>yirukkum Āṉāl <unclear>atiṭaṉ</unclear> koḷḷuṅ koḷ
     <lb n="3" break="no"/>nām lōkattai yeṅ koṇṭōm eṉṟu
     <lb n="4"/>tiruviḷam <seg function="explicit">p<unclear>ā</unclear>tiṉār</seg>
-    <seg function="title"><lb n="5"/>yōvar: 10 6, 33</seg>   
+    <lb n="5"/><seg function="title">yōvar: 10 6, 33</seg>   
     
   </p>
 </body>
