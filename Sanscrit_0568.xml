@@ -26,7 +26,7 @@
                   <summary><p>This manuscript contains a commentary on the <title xml:lang="sa">Pāṇinīyaśikṣā</title>, a Sanskrit grammatical text. <persName>Umraosingh Sher-Gil</persName> consulted this manuscript sometime between 1929 and 1930, and stated that it <quote>contains numerous errors</quote> (see <ref target="Sanscrit_1145.xml">Sanscrit 1145</ref>). This maunscript does not contain the text of the <title xml:lang="sa">Pāṇinīyaśikṣā</title> itself.</p>
 <p>This commentary seems to be the same text as the <title xml:lang="sa">Pañjikā</title>, edited by <persName>Manomohan Ghosh</persName>, which he dates tentatively to the 12th century (Ghosh 1938, lv). It is also the same text as the commentary edited by <persName xml:lang="sa">Becanarāma Tripāṭhin</persName> (1877).</p></summary>
                   
-               <msItem n="text" defective="false"><title>Pāṇinīyaśikṣāvyākhyā</title><textLang mainLang="san" otherLangs=""/><rubric xml:lang="sa"><milestone n="1r" unit="folio"/>śrīgaṇeśāya namaḥ || <space/></rubric><incipit xml:lang="sa"><milestone n="1r" unit="folio"/>pātu vo nikaṣagrāvā matihemnaḥ sarasva<lb/>tī<space/> prājñetaraparichedaṃ vacasaiva karoti yā || 1 ||</incipit><explicit xml:lang="sa"><milestone n="17r10" unit="folio"/>mokṣākhyaṃ tu aparimita<lb/>kālāvachinnasukharūpam ity arthaḥ</explicit><finalRubric xml:lang="sa"><milestone n="17r11" unit="folio"/>i<supplied reason="occluded by binding">ti</supplied> <lb/>pāṇinīyaśikṣāvyākhyā samā<sic>ptaḥ</sic>
+               <msItem synch="#text" defective="false"><title>Pāṇinīyaśikṣāvyākhyā</title><textLang mainLang="san" otherLangs=""/><rubric xml:lang="sa"><milestone n="1r" unit="folio"/>śrīgaṇeśāya namaḥ || <space/></rubric><incipit xml:lang="sa"><milestone n="1r" unit="folio"/>pātu vo nikaṣagrāvā matihemnaḥ sarasva<lb/>tī<space/> prājñetaraparichedaṃ vacasaiva karoti yā || 1 ||</incipit><explicit xml:lang="sa"><milestone n="17r10" unit="folio"/>mokṣākhyaṃ tu aparimita<lb/>kālāvachinnasukharūpam ity arthaḥ</explicit><finalRubric xml:lang="sa"><milestone n="17r11" unit="folio"/>i<supplied reason="occluded by binding">ti</supplied> <lb/>pāṇinīyaśikṣāvyākhyā samā<sic>ptaḥ</sic>
 <note xml:lang="en">Lines 11 and 12 on <locus>17r</locus> are in the right margin.</note></finalRubric></msItem></msContents>
                <physDesc>
                   <objectDesc form="pothi">
@@ -43,14 +43,16 @@
                         <dimensions type="object" unit="mm"><width quantity="212"/><height quantity="102"/><depth quantity="5"/></dimensions><dimensions type="written" unit="mm"><width quantity="160" min="" max=""/><height min="60" max="65" quantity=""/></dimensions></extent>
                         
                         <condition>Perfect condition.</condition>
-                     <foliation n="text">Devanāgarī foliation, top-left and bottom-right margin, verso. 1-17. Repeated in pencil in Western numerals, top-right corner.</foliation></supportDesc>
+                     <collation>
+                     <desc xml:id="text">Devanāgarī foliation, top-left and bottom-right margin, verso. 1-17. Repeated in pencil in Western numerals, top-right corner.</desc>
+                     </collation></supportDesc>
                      <layoutDesc>
                         <layout columns="1" writtenLines="8">Impressed left and right margins. 20-30 akṣaras per line.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
                      
-                  <handNote n="text" scope="sole" script="devanagari" medium="ink black"><desc>Modern script.</desc></handNote></handDesc>
+                  <handNote synch="#text" scope="sole" script="devanagari" medium="ink black"><desc>Modern script.</desc></handNote></handDesc>
                   <decoDesc>
                     
                   </decoDesc>

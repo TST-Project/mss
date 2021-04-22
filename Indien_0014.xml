@@ -27,7 +27,7 @@
                   <summary>
                      <p>The text is complete in 12 chapters: chapter 2 <term xml:lang="ta-Taml">சிவஞானதானவியல்</term> (<locus facs="41">f17r</locus>), chapter 3 <term xml:lang="ta-Taml">மூன்றாவது ஐவகையாகவியல்</term> (<locus facs="77">f35r</locus>), chapter 4 <term xml:lang="ta-Taml">பலவிசிட்ட காரணவியல்</term> (<locus facs="93">f43r</locus>), chapter 5 <term xml:lang="ta-Taml">அஞ்சாவது சிவதருமவியல்</term> (<locus facs="117">f55r</locus>), chapter 6 <term xml:lang="ta-Taml">ஆறாவது பாவவியல்</term> (<locus facs="131">f62r</locus>), chapter 7 <term xml:lang="ta-Taml">எட்டாவது சுவற்கநரகவியல்</term> (<locus facs="169">f81r</locus>), chapter 8 <term xml:lang="ta-Taml">செனனமரணவியல்</term> (<locus facs="221">f107r</locus>), chapter 9 <term xml:lang="ta-Taml">சொவற்கநரகவியலுரௌ</term> (<locus facs="283">f138r</locus>), chapter 10 <term xml:lang="ta-Taml">பத்தாவது சிவஞானயோகவியலுரை</term> (<locus facs="305">f149r</locus>), chapter 11 <term xml:lang="ta-Taml">பதினொன்றாவது பரிகாரவியல்</term> (<locus facs="367">f180r</locus>), chapter 12 <term xml:lang="ta-Taml">கோபுரவியல்</term> (<locus facs="463">f228r</locus>). </p>
                   </summary>
-                  <msItem n="U2c" defective="false">
+                  <msItem synch="#U2c" defective="false">
                      <title xml:lang="ta">Civatarumōttiram <span xml:lang="en">(commentary)</span></title>
                      <textLang mainLang="tam">Tamil</textLang>
                      <incipit xml:lang="ta-Taml">
@@ -61,20 +61,22 @@
                               <height quantity="40"/>
                            </dimensions>
                         </extent>
-                        <foliation n="U1">On the front woodcover: 1 folio, no foliation = title-page, by hand n° 1. With shelfmark: b/35.</foliation>
-                        <foliation n="U2a">1 folio, no foliation = table of contents, by hand n°2.</foliation>
-                        <foliation n="U2b">1 folio, no foliation = blank leaf.</foliation>
-                        <foliation n="U2c">283 folios, Tamil foliation 1‒283 = text (<term xml:lang="ta" rend="italic">mūlam</term>), by hand n° 2.</foliation>
+                        <collation>
+                        <desc xml:id="U1">On the front woodcover: 1 folio, no foliation = title-page, by hand n° 1. With shelfmark: b/35.</desc>
+                        <desc xml:id="U2a">1 folio, no foliation = table of contents, by hand n°2.</desc>
+                        <desc xml:id="U2b">1 folio, no foliation = blank leaf.</desc>
+                        <desc xml:id="U2c">283 folios, Tamil foliation 1‒283 = text (<term xml:lang="ta" rend="italic">mūlam</term>), by hand n° 2.</desc>
+                        </collation>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="1" resp="#cLI" writtenLines="9 11"/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote n="U1" scope="sole" script="tamil" scribeRef="#ArielTitleScribe">
+                     <handNote synch="#U1" scope="sole" script="tamil" scribeRef="#ArielTitleScribe">
                         <p>Title page.</p>
                      </handNote>
-                     <handNote n="U2a U2c" scope="sole" script="tamil">
+                     <handNote synch="#U2a #U2c" scope="sole" script="tamil">
                         <p>Table of contents and <term xml:lang="ta" rend="italic">mūlam</term>.</p>
                      </handNote>
                   </handDesc>

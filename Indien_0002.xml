@@ -28,7 +28,7 @@
 <p>The <title xml:lang="ta">Caṅkaṟpanirākaraṇam</title> (“Refutation of doctrines”) is the last of the 14 <title xml:lang="ta">Meykaṇṭacāttiram</title>, a canon of theological and doctrinal texts of the South Indian neo-saiddhāntika Śaiva school. The work dates to 1313 CE (see Goodall 2000, p. 211, n. 20). The author <persName xml:lang="ta">Umāpati Civācāriyār</persName> does not appear to be mentioned or named as such in the bundle. The work in the present manuscript is divided into 20 chapters, most of them paired, as the exposition of the doctrine (<term xml:lang="ta" rend="italic">matam</term>) of the tenants of a specific Śaiva school is followed by its refutation (<term xml:lang="ta" rend="italic">maṟuppu</term>).</p>
  <p>The text is complete.</p>
                   </summary>
-                  <msItem n="U3" defective="false">
+                  <msItem synch="#U3" defective="false">
                      <title xml:lang="ta">Caṅkaṟpanirākaraṇam</title>
                      <author xml:lang="ta">Umāpati Civācāriyār</author>
                      <textLang mainLang="tam">Tamil</textLang>
@@ -47,7 +47,7 @@
                        <lb/>ñāṉakurutiṭṭai Aruḷuṇṭākak kaṭavatu <g ref="#pcs"/> Itu ṟā Urai piṟakē Eḻutiyirukkutu <g ref="#pcs"/>
                      </explicit>
                   </msItem>
-                  <msItem n="U5" defective="false">
+                  <msItem synch="#U5" defective="false">
                      <title xml:lang="ta">Caṅkaṟpanirākaraṇam Urai</title>
                      <textLang mainLang="tam">Tamil</textLang>
                      <incipit xml:lang="ta">
@@ -82,13 +82,15 @@
                           <height quantity="25"/>
                        </dimensions>
                     </extent>
-                    <foliation n="U1">On the front woodcover, 1 folio, unfoliated = title-page, by hand n° 1. With shelfmark: C/62.</foliation>
-                    <foliation n="U2">1 folio, unfoliated = flyleaf.</foliation>
-                    <foliation n="U3">32 folios, Tamil foliation 2‒32 (f1 not explicitly foliated) = text (<term xml:lang="ta" rend="italic">mūlam</term>), 5 to 6 lines per page, by hand n° 2.</foliation>
-                    <foliation n="U4">3 folios, unfoliated = intermediate flyleafs.</foliation>
-                    <foliation n="U5">139 folios, Tamil foliation 2‒139 (f1 not explicitly foliated) = commentary (<term xml:lang="ta" rend="italic">urai</term>), 6 to 7 lines per page, by hand n° 2.</foliation>
-                    <foliation n="U5bis">smaller folio inserted between folios 62 and 63 = addendum, supplying a missing phrase in the original bundle, by hand n° 3.</foliation>
-                    <foliation n="U6">1 folio, unfoliated = table of contents, added to the bundle, by hand n° 4.</foliation>
+                    <collation>
+                    <desc xml:id="U1">On the front woodcover, 1 folio, unfoliated = title-page, by hand n° 1. With shelfmark: C/62.</desc>
+                    <desc xml:id="U2">1 folio, unfoliated = flyleaf.</desc>
+                    <desc xml:id="U3">32 folios, Tamil foliation 2‒32 (f1 not explicitly foliated) = text (<term xml:lang="ta" rend="italic">mūlam</term>), 5 to 6 lines per page, by hand n° 2.</desc>
+                    <desc xml:id="U4">3 folios, unfoliated = intermediate flyleafs.</desc>
+                    <desc xml:id="U5">139 folios, Tamil foliation 2‒139 (f1 not explicitly foliated) = commentary (<term xml:lang="ta" rend="italic">urai</term>), 6 to 7 lines per page, by hand n° 2.</desc>
+                    <desc xml:id="U5bis">smaller folio inserted between folios 62 and 63 = addendum, supplying a missing phrase in the original bundle, by hand n° 3.</desc>
+                    <desc xml:id="U6">1 folio, unfoliated = table of contents, added to the bundle, by hand n° 4.</desc>
+                    </collation>
                     <condition>Very good state of preservation, in spite of bore holes caused by insects.</condition>
                  </supportDesc>
                  <layoutDesc>
@@ -96,16 +98,16 @@
                  </layoutDesc>
               </objectDesc>
               <handDesc>
-                 <handNote n="U1" scope="minor" script="tamil">
+                 <handNote synch="#U1" scope="minor" script="tamil">
                     <desc>Title on front woodcover.</desc>
                  </handNote>
-                 <handNote n="U3 U5" scope="major" script="tamil">
+                 <handNote synch="#U3 #U5" scope="major" script="tamil">
                     <desc><term xml:lang="ta">mūlam</term> and <term xml:lang="ta">urai</term>.</desc>
                  </handNote>
-                 <handNote n="U5bis" scope="minor" script="tamil">
+                 <handNote synch="#U5bis" scope="minor" script="tamil">
                     <desc>inserted folio.</desc>
                  </handNote>
-                 <handNote n="U6" scope="minor" script="tamil">
+                 <handNote synch="#U6" scope="minor" script="tamil">
                     <desc>unfoliated table of contents.</desc>
                  </handNote>
               </handDesc>

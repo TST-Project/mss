@@ -29,7 +29,7 @@
                     <p>The text is complete.</p>
                     <p><emph rend="bold">Paratexts</emph>: marginal benedictions; invocation page; marginal chapter headers; in-text chapter completion statement and total stanzas; colophon.</p>
                   </summary>
-                  <msItem n="U3" defective="false">
+                  <msItem synch="#U3" defective="false">
                      <title xml:lang="ta">Kantapurāṇam</title>
                      <author xml:lang="ta">Kacciyappa Civācāriyār</author>
                      <textLang mainLang="tam">Tamil</textLang>
@@ -52,10 +52,12 @@
                               <height quantity="40"/>
                            </dimensions>
                         </extent>
-                        <foliation n="U1">1 folio, unfoliated = flyleaf.</foliation>
-                        <foliation n="U2">1 folio, unfoliated = invocation.</foliation>
-                        <foliation n="U3">291 folios, parallel Tamil foliation 1–291 and Arabic foliation 1–291 = text (<emph rend="italic">mūlam</emph>).</foliation>
-                        <foliation n="U4">1 folio, unfoliated = flyleaf.</foliation>
+                        <collation>
+                        <desc xml:id="U1">1 folio, unfoliated = flyleaf.</desc>
+                        <desc xml:id="U2">1 folio, unfoliated = invocation.</desc>
+                        <desc xml:id="U3">291 folios, parallel Tamil foliation 1–291 and Arabic foliation 1–291 = text (<emph rend="italic">mūlam</emph>).</desc>
+                        <desc xml:id="U4">1 folio, unfoliated = flyleaf.</desc>
+                        </collation>
 
                         <condition>Excellent state of preservation. </condition>
                      </supportDesc>

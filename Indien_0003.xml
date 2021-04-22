@@ -25,7 +25,7 @@
                </msIdentifier>
                <msContents class="#STM">
                   <summary/>
-                  <msItem n="U2c" defective="false">
+                  <msItem synch="#U2c" defective="false">
                      <title xml:lang="ta">Kēṭariyammaṉ Viratam</title>
                      <textLang mainLang="tam">Tamil</textLang>
                      <incipit xml:lang="ta">
@@ -56,11 +56,13 @@
                               <height quantity="28"/>
                            </dimensions>
                         </extent>
-                        <foliation n="U1">1 folio, unfoliated = title-page by hand n° 1. With shelfmark: C/37.</foliation>
-                        <foliation n="U2a">1 folio, unfoliated = instruction to user, benediction, title.</foliation>
-                        <foliation n="U2b">1 folio, unfoliated = title, instruction to user, benediction.</foliation>
-                        <foliation n="U2c">14 folios, Tamil foliation 1–14 = <term xml:lang="ta">Kēṭariyammaṉ Viratam</term>, <term xml:lang="ta" rend="italic">mūlam</term>.</foliation>
-                        <foliation n="U3">7 folios, no foliation = fly-leaves.</foliation>
+                        <collation>
+                        <desc xml:id="U1">1 folio, unfoliated = title-page by hand n° 1. With shelfmark: C/37.</desc>
+                        <desc xml:id="U2a">1 folio, unfoliated = instruction to user, benediction, title.</desc>
+                        <desc xml:id="U2b">1 folio, unfoliated = title, instruction to user, benediction.</desc>
+                        <desc xml:id="U2c">14 folios, Tamil foliation 1–14 = <term xml:lang="ta">Kēṭariyammaṉ Viratam</term>, <term xml:lang="ta" rend="italic">mūlam</term>.</desc>
+                        <desc xml:id="U3">7 folios, no foliation = fly-leaves.</desc>
+                        </collation>
                         <condition>Very good state of preservation.</condition>
                      </supportDesc>
                      <layoutDesc>
@@ -68,7 +70,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote u="U1" scope="minor" script="tamil" scribeRef="#ArielTitleScribe">
+                     <handNote synch="#U1" scope="minor" script="tamil" scribeRef="#ArielTitleScribe">
                         <desc>Title folio.</desc>
                      </handNote>
                      <handNote scope="sole" script="tamil">

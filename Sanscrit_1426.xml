@@ -36,7 +36,7 @@
                     <p>The <title xml:lang="sa">Vṛndādevīstava</title> consists of eight verses in praise of <term xml:lang="sa">Vṛndādevī</term>, followed by one final, concluding verse, where it is called the <title xml:lang="sa">Vṛndādevyaṣṭaka</title>. Compared to the other two texts, this one has been copied with the most errors, indicating that may have been written from memory.</p>
                   </summary>
                   
-                  <msItem n="U1" xml:id="T1" defective="false">
+                  <msItem synch="#U1" xml:id="T1" defective="false">
                     <title xml:lang="sa">Rūpacintāmaṇi</title>
                     <textLang mainLang="san"/>
                     <!--rubric xml:lang="sa"><milestone facs="5" n="1r" unit="folio"/>śrīśrīrādhākṛṣṇābhyāṃ namaḥ || atha rūpacintāmaṇi ||</rubric>
@@ -44,14 +44,14 @@
                     <finalRubric xml:lang="sa"><milestone facs="8" n="2v" unit="folio"/>iti rūpacintāmaṇisampūrṇaṃ ||</finalRubric>
                     <colophon xml:lang="sa"><milestone facs="8" n="2v" unit="folio"/>śakābdā 1742 <unclear>jyaiṣṭhe</unclear> ||</colophon-->
                   </msItem>
-                  <msItem n="U2" xml:id="T2" defective="false">
+                  <msItem synch="#U2" xml:id="T2" defective="false">
                     <title xml:lang="sa">Guruparamparā</title>  
                     <textLang mainLang="san"/>
                     <!--incipit xml:lang="sa"><milestone facs="8" n="2v" unit="folio"/>yad uktaṃ padmapurāṇe ||</incipit>
                     <explicit xml:lang="sa"><milestone facs="8" n="2v6" unit="folio"/>śrīkṛṣṇapremadānena yena nistāritaṃ jagat || ❈ ||</explicit>
                     <finalRubric xml:lang="sa"><milestone facs="8" n="2v7" unit="folio"/>iti śrīguruparamparā samāptā || ❈ ||</finalRubric-->
                   </msItem>
-                  <msItem n="U2" xml:id="T3" defective="false">
+                  <msItem synch="#U2" xml:id="T3" defective="false">
                     <title xml:lang="sa">Vṛndādevīstava</title>
                     <textLang mainLang="san"/>
                     <!--rubric xml:lang="sa"><milestone facs="8" n="2v7" unit="folio"/>śrīvṛndādevyai <sic>manaḥ</sic> |</rubric>
@@ -75,8 +75,10 @@
                         <dimensions type="object" unit="mm"><width quantity="300"/><height quantity="128"/><depth quantity="8"/></dimensions><dimensions type="written" unit="mm"><width quantity="235"/><height min="65" max="80"/></dimensions></extent>
                         
                         
-                     <foliation n="U1">Bengali foliation, right margin. <locus facs="6">1v</locus> foliated as 1, <locus facs="7">2r</locus> foliated as 2.</foliation>
-                     <foliation n="U2">Bengali foliation, right margin. <locus facs="8">2v</locus> foliated as 1.</foliation>
+                     <collation>
+                     <desc xml:id="U1">Bengali foliation, right margin. <locus facs="6">1v</locus> foliated as 1, <locus facs="7">2r</locus> foliated as 2.</desc>
+                     <desc xml:id="U2">Bengali foliation, right margin. <locus facs="8">2v</locus> foliated as 1.</desc>
+                     </collation>
                      <condition>Some wear around the edges.</condition></supportDesc>
                      <layoutDesc>
                         <layout columns="1" streams="1" writtenLines="11 14"/>
@@ -84,7 +86,7 @@
                   </objectDesc>
                   <handDesc>
                      
-                  <handNote n="U1 U2" scope="sole" script="bengali" scriptRef="#bengaliRa #bengaliYa" medium="ink black"/></handDesc>
+                  <handNote synch="#U1 #U2" scope="sole" script="bengali" scriptRef="#bengaliRa #bengaliYa" medium="ink black"/></handDesc>
                   <additions>
                       <desc type="shelfmark" subtype="cover"><locus facs="1">Shelfmark</locus> on front cover, in pencil.</desc>
                       <desc type="shelfmark" subtype="detached"><locus facs="3">Shelfmark</locus> on folded strip of paper: <quote>Scr. 1426</quote>. Old shelfmark, <quote>98</quote> and title, <quote>Rūpacintāmaṇi</quote> in smaller letters. 40 x 122 mm.</desc>
@@ -129,7 +131,7 @@
    <facsimile>
        <graphic url="https://tst-project.github.io/img/Sanscrit_1426/index.json"/>
    </facsimile>
-   <text n="U1" corresp="#T1" xml:lang="sa">
+   <text synch="#U1" corresp="#T1" xml:lang="sa">
      <body>
        <p><seg function="rubric"><milestone n="1r1" facs="5" unit="folio"/>śrīśrīrādhākṛṣṇābhyāṃ namaḥ || atha rūpacintāmaṇi ||</seg></p>
        <lg>
@@ -266,7 +268,7 @@
        <p><seg function="completion-statement">iti rūpacintāmaṇisampūrṇaṃ ||</seg> <seg function="colophon">śakābdā 1742 <unclear>jyaiṣṭhe</unclear> ||</seg></p> 
      </body>
    </text>
-   <text n="U2" corresp="#T2" xml:lang="sa">
+   <text synch="#U2" corresp="#T2" xml:lang="sa">
      <body>
        <p><seg function="incipit"><milestone n="2v" unit="folio" facs="8"/>yad uktaṃ padmapurāṇe ||</seg></p>
        <lg>
@@ -302,7 +304,7 @@
        <p><seg function="completion-statement"><lb n="8"/>iti śrīguruparamparā samāptā || ❈ ||</seg></p>
      </body>
    </text>
-   <text n="U2" corresp="#T3" xml:lang="sa">
+   <text synch="#U2" corresp="#T3" xml:lang="sa">
      <body>
        <p><seg function="rubric"><milestone n="2v7" unit="folio" facs="8"/>śrīvṛndādevyai <sic>manaḥ</sic> ||</seg></p>
        <lg>

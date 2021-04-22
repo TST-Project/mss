@@ -28,7 +28,7 @@
                      <p>The <title xml:lang="ta">Vaḷḷiyammaipurāṇam</title> is a narrative telling the legend of <term xml:lang="ta">Vaḷḷi</term>, the consort of <term xml:lang="ta">Murukaṉ</term>. It appears to be an epitome of the <title xml:lang="ta">Kantapurāṇam</title> (Taylor 1845, p. 61).</p>
                      <p>The text is complete, with 67 <emph rend="italic" xml:lang="ta">caṟukkam</emph>s (Skt. <emph rend="italic" xml:lang="sa">sarga</emph>) and 1422 stanzas (U2, f115v6‒7).</p>
                   </summary>
-                  <msItem n="U2" defective="false">
+                  <msItem synch="#U2" defective="false">
                      <title xml:lang="ta">Vaḷḷiyammaipurāṇam</title>
                      <textLang mainLang="tam">Tamil</textLang>
                      <filiation>Other manuscript testimonies of this text are: <ref target="Indien_0309.xml">Bnf Indien 309</ref>; GOML D. 629 (see Rangacharya &amp; Kuppusvami Sastri 1916, p. 630); Mackenzie MSS n° 121 C. M. 42 and n° 122 C. M. 46 (see Taylor 1845, p. 57). As GOML D. 629 is also a Mackenzie MS, it might be identical with Mackenzie MS n° 122 C. M. 46.</filiation>
@@ -65,8 +65,10 @@
                               <height quantity="35"/>
                            </dimensions>
                         </extent>
-                        <foliation n="U1">Inside the front woodcover: 1 folio, unfoliated = title-page, by hand n° 1.</foliation>
-                        <foliation n="U2">115 folios, Tamil foliation 2‒115 (f1 not explicitly foliated) = text (<emph rend="italic" xml:lang="ta">mūlam</emph>) and table of contents. By hand n° 2.</foliation>
+                        <collation>
+                        <desc xml:id="U1">Inside the front woodcover: 1 folio, unfoliated = title-page, by hand n° 1.</desc>
+                        <desc xml:id="U2">115 folios, Tamil foliation 2‒115 (f1 not explicitly foliated) = text (<emph rend="italic" xml:lang="ta">mūlam</emph>) and table of contents. By hand n° 2.</desc>
+                        </collation>
                         <condition>Very good state of preservation, considering the age of the manuscript and in spite of some bore holes caused by insects. </condition>
                      </supportDesc>
                      <layoutDesc>
@@ -74,10 +76,10 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                    <handNote n="U1" scope="minor" script="tamil" scribeRef="#ArielTitleScribe">
+                    <handNote synch="#U1" scope="minor" script="tamil" scribeRef="#ArielTitleScribe">
                         <desc>Title-page, by hand n° 1.</desc>
                      </handNote>
-                     <handNote n="U2" scope="major" script="tamil">
+                     <handNote synch="#U2" scope="major" script="tamil">
                         <desc><emph rend="italic" xml:lang="ta">mūlam</emph>, 8 to 10 lines per page.</desc>
                      </handNote>
                   </handDesc>

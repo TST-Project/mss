@@ -27,7 +27,7 @@
                   <summary>
                      <p>The bundle contains two works attributed to <persName xml:lang="ta">Auvaiyār</persName>: the <title xml:lang="ta">Ātticūṭi</title> (complete) and the <title xml:lang="ta">Koṉṟaivēntāṉ</title> (complete). Both are named <term xml:lang="ta">Nīticcol</term> ("moral maxims") in the manuscript. These works are often used for learning the Tamil alphabet as the aphorisms are ordered alphabetically and represent all the letters of the Tamil alphabet. The bundle is possibly a school exercise. The lay-out of the page is in columns for the <term xml:lang="ta" rend="italic">mūlam</term>.</p>
                   </summary>
-                  <msItem n="U1b" defective="false">
+                  <msItem synch="#U1b" defective="false">
                      <title xml:lang="ta">Ātticūṭi</title>
                      <author xml:lang="ta">Auvaiyār</author>
                      <textLang mainLang="tam">Tamil</textLang>
@@ -48,7 +48,7 @@
                        <lb/>muṟṟum <g ref="#pcl"/>
                     </explicit>
                   </msItem>
-                  <msItem n="U2b" defective="false">
+                  <msItem synch="#U2b" defective="false">
                      <title xml:lang="ta">Koṉṟaivēntāṉ</title>
                      <author xml:lang="ta">Auvaiyār</author>
                      <textLang mainLang="tam">Tamil</textLang>
@@ -82,11 +82,13 @@
                               <height quantity="20"/>
                            </dimensions>
                         </extent>
-                        <foliation n="U1a">1 folio, unfoliated = <title xml:lang="ta">Ātticūṭi</title>, invocation, by hand n° 1. With shelfmark in ink: N° 19.</foliation>
-                        <foliation n="U1b">5 folios, Tamil foliation 1–5 = <title xml:lang="ta">Ātticūṭi</title>, <term xml:lang="ta" rend="italic">mūlam</term>, by hand n° 1. f1-f3 only are sufficiently blackened with soot.</foliation>
-                        <foliation n="U2a">1 folio, unfoliated = <title xml:lang="ta">Koṉṟaivēntāṉ</title>, invocation, by hand n° 2.</foliation>
-                        <foliation n="U2b">4 folios, unfoliated, unblackened with soot = <title xml:lang="ta">Koṉṟaivēntāṉ</title>, <term xml:lang="ta" rend="italic">mūlam</term>, by hand n° 2.</foliation>
-                        <foliation n="U3">1 folio, unfoliated = owners' marks.</foliation>
+                        <collation>
+                        <desc xml:id="U1a">1 folio, unfoliated = <title xml:lang="ta">Ātticūṭi</title>, invocation, by hand n° 1. With shelfmark in ink: N° 19.</desc>
+                        <desc xml:id="U1b">5 folios, Tamil foliation 1–5 = <title xml:lang="ta">Ātticūṭi</title>, <term xml:lang="ta" rend="italic">mūlam</term>, by hand n° 1. f1-f3 only are sufficiently blackened with soot.</desc>
+                        <desc xml:id="U2a">1 folio, unfoliated = <title xml:lang="ta">Koṉṟaivēntāṉ</title>, invocation, by hand n° 2.</desc>
+                        <desc xml:id="U2b">4 folios, unfoliated, unblackened with soot = <title xml:lang="ta">Koṉṟaivēntāṉ</title>, <term xml:lang="ta" rend="italic">mūlam</term>, by hand n° 2.</desc>
+                        <desc xml:id="U3">1 folio, unfoliated = owners' marks.</desc>
+                        </collation>
                         <condition>Very good state of preservation. </condition>
                      </supportDesc>
                      <layoutDesc>
@@ -94,13 +96,13 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote n="U1a U1b" scope="major" script="tamil">
+                     <handNote synch="#U1a #U1b" scope="major" script="tamil">
                         <desc>1 folio, unfoliated = <title xml:lang="ta">Ātticūṭi</title>, invocation, and 5 folios = <title xml:lang="ta">Ātticūṭi</title>, <term xml:lang="ta" rend="italic">mūlam</term>, by hand n° 1.</desc>
                      </handNote>
-                     <handNote n="U2a U2b" scope="major" script="tamil">
+                     <handNote synch="#U2a #U2b" scope="major" script="tamil">
                         <desc>1 folio, unfoliated = <title xml:lang="ta">Koṉṟaivēntāṉ</title>, invocation, and 4 folios, unfoliated, = <title xml:lang="ta">Koṉṟaivēntāṉ</title>, <term xml:lang="ta" rend="italic">mūlam</term>, by hand n° 2.</desc>
                      </handNote>
-                     <handNote n="U3" scope="minor" script="tamil">
+                     <handNote synch="#U3" scope="minor" script="tamil">
                         <desc>1 folio, unfoliated = owners' marks.</desc>
                      </handNote>
                   </handDesc>

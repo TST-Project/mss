@@ -28,7 +28,7 @@
                      <p>The <title xml:lang="ta">Tirumurukāṟṟuppaṭai</title> is a devotional poem, dated possibly to the 7th century of the Common Era, in praise of the Tamil god <term xml:lang="ta">Murukaṉ</term>. The poem, attributed to <persName xml:lang="ta">Nakkīrar</persName>, belongs to the <term xml:lang="ta">Caṅkam</term> corpus and to the Tamil Śaiva canonical works (<term xml:lang="ta" rend="italic">Tirumuṟai</term>).</p>
                      <p>The manuscript contains the commentary by <persName xml:lang="ta">Nacciṉārkkiṉiyar</persName>. The root-text is quoted in the commentary.</p>
                   </summary>
-                  <msItem n="U3" defective="false">
+                  <msItem synch="#U3" defective="false">
                      <title xml:lang="ta">Tirumurukāṟṟuppaṭai, <term xml:lang="en">commentary</term> (<emph rend="italic">urai</emph>)</title>
                      <author xml:lang="ta">Nacciṉārkkiṉiyar</author>
                      <textLang mainLang="tam"/>
@@ -53,11 +53,13 @@
                               <height quantity="30"/>
                            </dimensions>
                         </extent>
-                        <foliation n="U1">Inside the cover, <locus facs="1">1 folio (doubled folio), unfoliated</locus> = title-page, by hand n° 1. With shelfmark: C/22.</foliation>
-                        <foliation n="U2"><locus facs="2">1 folio, unfoliated</locus> = flyleaf.</foliation>
-                        <foliation n="U3">36 folios, (<locus facs="3">f1</locus> not explicitly foliated) = commentary by <persName xml:lang="ta">Nacciṉārkkiṉiyar</persName>, by hand n° 2. 6 lines per page.</foliation>
-                        <foliation n="U4"><locus facs="39">1 folio, unfoliated</locus> = flyleaf.</foliation>
-                        <foliation n="U5">1 folio (doubled folio), unfoliated = guardleaf: 1 <term xml:lang="ta" rend="italic">Kampar taṉippāṭal</term> on <locus facs="41">recto</locus>, by hand n° 3; ownership statement on <locus facs="42">verso</locus>, by hand n° 4.</foliation>
+                        <collation>
+                        <desc xml:id="U1">Inside the cover, <locus facs="1">1 folio (doubled folio), unfoliated</locus> = title-page, by hand n° 1. With shelfmark: C/22.</desc>
+                        <desc xml:id="U2"><locus facs="2">1 folio, unfoliated</locus> = flyleaf.</desc>
+                        <desc xml:id="U3">36 folios, (<locus facs="3">f1</locus> not explicitly foliated) = commentary by <persName xml:lang="ta">Nacciṉārkkiṉiyar</persName>, by hand n° 2. 6 lines per page.</desc>
+                        <desc xml:id="U4"><locus facs="39">1 folio, unfoliated</locus> = flyleaf.</desc>
+                        <desc xml:id="U5">1 folio (doubled folio), unfoliated = guardleaf: 1 <term xml:lang="ta" rend="italic">Kampar taṉippāṭal</term> on <locus facs="41">recto</locus>, by hand n° 3; ownership statement on <locus facs="42">verso</locus>, by hand n° 4.</desc>
+                        </collation>
 
                         <condition>Relatively good state of preservation, in spite of bore holes caused by insects. </condition>
                      </supportDesc>
@@ -66,16 +68,16 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote n="U1" scope="minor" script="tamil" scribeRef="#ArielTitleScribe">
+                     <handNote synch="#U1" scope="minor" script="tamil" scribeRef="#ArielTitleScribe">
                         <desc>Hand n° 1.</desc>
                      </handNote>
-                     <handNote n="U3" scope="major" script="tamil">
+                     <handNote synch="#U3" scope="major" script="tamil">
                         <desc>Hand n° 2, text.</desc>
                      </handNote>
-                     <handNote n="U5" scope="minor" script="tamil">
+                     <handNote synch="#U5" scope="minor" script="tamil">
                         <desc>Hand n° 3, on recto.</desc>
                      </handNote>
-                     <handNote n="U5" scope="minor" script="tamil">
+                     <handNote synch="#U5" scope="minor" script="tamil">
                         <desc>Hand n° 4, ownership statement on verso.</desc>
                      </handNote>
                   </handDesc>

@@ -25,7 +25,7 @@
                <msContents class="#STM">
                   <summary>This manuscript contains 9 folios (2-10) from beginning of the <title xml:lang="sa">Kumārasaṃbhava</title> of <persName xml:lang="sa">Kālidāsa</persName>. Apart from the missing first folio, the first chapter is complete, ending at verse <quote xml:lang="sa">62</quote>, which is numbered variously in different editions (for example, 59 in <ref target="https://archive.org/details/TSS027KumarasambhavaPart1TGSastri1913_201809/page/n110/mode/1up">the edition of <persName xml:lang="sa">T. Gaṇapati Śāstrī</persName></ref>). The manuscript contains many commentarial annotations, as well as interlineal word-break markers and avagrahas.</summary>
                   
-               <msItem n="text" defective="true"><title xml:lang="sa">Kumārasaṃbhava</title><author xml:lang="sa">Kālidāsa</author><textLang mainLang="san" otherLangs=""/><incipit xml:lang="sa"><milestone n="2r1" unit="folio" facs="2"/>ṣo guṇasannipāte nimajjatīndoḥ kiraṇeṣv ivāṃkaḥ || 3 ||</incipit><explicit xml:lang="sa"><milestone n="10v5" unit="folio" facs="19"/>avacitavalipuṣpā <lb/>vedisaṃmāryadakṣā⁁ niyamitapariṣedā tacchiraś candrapādaiḥ || 62 ||</explicit></msItem></msContents>
+               <msItem synch="#text" defective="true"><title xml:lang="sa">Kumārasaṃbhava</title><author xml:lang="sa">Kālidāsa</author><textLang mainLang="san" otherLangs=""/><incipit xml:lang="sa"><milestone n="2r1" unit="folio" facs="2"/>ṣo guṇasannipāte nimajjatīndoḥ kiraṇeṣv ivāṃkaḥ || 3 ||</incipit><explicit xml:lang="sa"><milestone n="10v5" unit="folio" facs="19"/>avacitavalipuṣpā <lb/>vedisaṃmāryadakṣā⁁ niyamitapariṣedā tacchiraś candrapādaiḥ || 62 ||</explicit></msItem></msContents>
                <physDesc>
                   <objectDesc form="pothi">
                      <supportDesc material="paper handmade">
@@ -42,14 +42,16 @@
                         <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"><width quantity="170" min="" max=""/><height quantity="75" min="" max=""/></dimensions></extent>
                         
                         
-                     <foliation n="text">Devanāgarī numerals, verso. Bottom-left and bottom-right margins.</foliation><condition>Some damage, worn around the edges.</condition></supportDesc>
+                     <collation>
+                     <desc xml:id="text">Devanāgarī numerals, verso. Bottom-left and bottom-right margins.</desc>
+                     </collation><condition>Some damage, worn around the edges.</condition></supportDesc>
                      <layoutDesc>
                         <layout columns="1" writtenLines="6 7" streams="1" style="" ruledLines=""/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
                      
-                  <handNote n="text" scope="sole" scribeRef="" script="devanagari" scriptRef="#vaba #bengaliYa" medium="ink black red"><desc>The scribe often uses a nukta below the <quote xml:lang="sa">ya</quote>, as in modern Bengāli script. He also uses the Nandināgarī-style <quote xml:lang="sa">ca</quote> and <quote xml:lang="sa">ra</quote> characters.</desc></handNote></handDesc>
+                  <handNote synch="#text" scope="sole" scribeRef="" script="devanagari" scriptRef="#vaba #bengaliYa" medium="ink black red"><desc>The scribe often uses a nukta below the <quote xml:lang="sa">ya</quote>, as in modern Bengāli script. He also uses the Nandināgarī-style <quote xml:lang="sa">ca</quote> and <quote xml:lang="sa">ra</quote> characters.</desc></handNote></handDesc>
                   <decoDesc>
                     
                   </decoDesc>

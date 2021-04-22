@@ -33,7 +33,7 @@
                   </summary>
                   
                   
-               <msItem n="U2" defective="false"><title xml:lang="ta">Rāmatēvar Pūcāviti</title><textLang mainLang="tam" otherLangs=""/><incipit xml:lang="ta"><note xml:lang="en">Folio 1, recto, unfoliated = <emph rend="bold">incipit</emph>: benedictions and title in left margin; stanza n° 1.</note>
+               <msItem synch="#U2" defective="false"><title xml:lang="ta">Rāmatēvar Pūcāviti</title><textLang mainLang="tam" otherLangs=""/><incipit xml:lang="ta"><note xml:lang="en">Folio 1, recto, unfoliated = <emph rend="bold">incipit</emph>: benedictions and title in left margin; stanza n° 1.</note>
                         <milestone n="[1]r1" unit="folio"/>mūlam eṉum mutaṟ poruḷ (...)
                      </incipit><explicit xml:lang="ta"><note xml:lang="en">Folio 45, recto = <emph rend="bold">excipit</emph>: stanza n° 201, benediction, scribal colophon.</note>
                        <!--Update reading?-->
@@ -41,7 +41,7 @@
                        <lb/>kam [<term xml:lang="en">i.e.</term> civayōkam] viḷaṅkumuttē <g ref="#pcs"/> = 201 = kuruṉātaṉ kaṭā<emph rend="bold">ṣ</emph>cam uṇṭākal°
                        <lb/>caṟacitti [<term xml:lang="en">i.e.</term> carvacittu?] <g ref="#varudam"/> puṟatṭācī [<term xml:lang="en">i.e.</term> puraṭṭāci] <g ref="#maatham"/> [2]2 <g ref="#teti"/> [<term xml:lang="en">engraved below the line</term>] ama(ṟ/ṟa)pa<emph rend="bold">ṣṣi</emph>m pañcami putavāram – naṭune(ṟ/ṟa) – māṉa [<term xml:lang="en">i.e.</term> naṭu<pc>-</pc>nēram<pc>-</pc>āṉa?]
                        <lb/>tiṉattil yeḻutiṉatu kuruṉātaṉ aruḷiya ṟ(pa)ṭi mūttum [<term xml:lang="en">i.e.</term> muṟṟum] cīvayōkam – <g ref="#pcl"/>
-                     </explicit></msItem><msItem n="U3" defective="false"><title xml:lang="ta">Nāṟkaraṇavupatēcam</title><textLang mainLang="tam" otherLangs=""/><filiation><p>Indien 990.</p></filiation><incipit xml:lang="ta"><note xml:lang="en">Folio 1 recto, unfoliated = <emph rend="bold">incipit</emph>: benediction and title in left margin; stanza n° 1 (invocation).</note>
+                     </explicit></msItem><msItem synch="#U3" defective="false"><title xml:lang="ta">Nāṟkaraṇavupatēcam</title><textLang mainLang="tam" otherLangs=""/><filiation><p>Indien 990.</p></filiation><incipit xml:lang="ta"><note xml:lang="en">Folio 1 recto, unfoliated = <emph rend="bold">incipit</emph>: benediction and title in left margin; stanza n° 1 (invocation).</note>
                         <milestone n="[1]r1" unit="folio"/>kuruparaṉ aṅk(ā)ṉ ṟēvi vallapaiyaip pōtti [i.e. pōṟṟi] – kū(r/ra)vayaṉ caracu-
                         <lb/>pati<pc>-</pc>y<pc>-</pc>ammaṉ<pc>-</pc>aiyum [<term xml:lang="en">i.e.</term> caracuvati<pc>-</pc>y<pc>-</pc>ammaṉ<pc>-</pc>aiyum] pōtti ‡ yiruvar patimēl makāleṭcumiyaiy pōtti
                         <lb/>Eri<pc>-</pc>muka<pc>-</pc>ruttiraṉ ṟēvi ruttiriyaip pōtti ‡ Aruva<pc>-</pc>mayē<emph rend="bold">s</emph>para-
@@ -73,7 +73,9 @@
                         
                         
                         <condition>Excellent state of preservation. Very few bore holes caused by insects. </condition>
-                     <foliation n="U1">1 folio, unfoliated = title-page. With shelfmark: C/48.</foliation><foliation n="U2">45 folios, Tamil foliation 2‒45 (f1 not explicitly foliated).</foliation><foliation n="U3">9 folios, Tamil foliation 2‒9 (f1 not explicitly foliated).</foliation></supportDesc>
+                     <collation>
+                     <desc xml:id="U1">1 folio, unfoliated = title-page. With shelfmark: C/48.</desc><desc xml:id="U2">45 folios, Tamil foliation 2‒45 (f1 not explicitly foliated).</desc><desc xml:id="U3">9 folios, Tamil foliation 2‒9 (f1 not explicitly foliated).</desc>
+                     </collation></supportDesc>
                      <layoutDesc>
                         <layout n="U2" columns="1" writtenLines="7 9" ruledLines=""/>
                         <layout n="U3" columns="1" writtenLines="7"/>
@@ -83,7 +85,7 @@
                      
                      
                     
-                  <handNote n="U1" scope="minor" script="tamil" scribeRef="#ArielTitleScribe"><desc>1 folio, unfoliated = title-page, by hand n° 1.</desc></handNote><handNote n="U2" scope="major" script="tamil"><desc><title xml:lang="ta">Rāmatēvar Pūcāviti</title>, by hand n° 2.</desc></handNote><handNote n="U3" scope="major" script="tamil"><desc><title xml:lang="ta">Nāṟkaraṇavupatēcam</title>, by hand n° 3.</desc></handNote></handDesc>
+                  <handNote synch="#U1" scope="minor" script="tamil" scribeRef="#ArielTitleScribe"><desc>1 folio, unfoliated = title-page, by hand n° 1.</desc></handNote><handNote synch="#U2" scope="major" script="tamil"><desc><title xml:lang="ta">Rāmatēvar Pūcāviti</title>, by hand n° 2.</desc></handNote><handNote synch="#U3" scope="major" script="tamil"><desc><title xml:lang="ta">Nāṟkaraṇavupatēcam</title>, by hand n° 3.</desc></handNote></handDesc>
                   <additions>
                   <desc type="blessing" subtype="marginal"><emph rend="bold">U1</emph>: marginal benediction.
                         <quote rend="block" xml:lang="ta"><lg>

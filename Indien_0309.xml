@@ -28,7 +28,7 @@
                     <p>The <title xml:lang="ta">Vaḷḷiyammaipurāṇam</title> is a narrative telling the legend of <term xml:lang="ta">Vaḷḷi</term>, the consort of <term xml:lang="ta">Murukaṉ</term>. It appears to be an epitome of the <title xml:lang="ta">Kantapurāṇam</title> (Taylor 1845, p. 61).</p>
                      <p>The text is incomplete. See description of <emph rend="bold">U2</emph> and mention of missing folios.</p>
                     </summary>
-                  <msItem n="U2" defective="true">
+                  <msItem synch="#U2" defective="true">
                      <title xml:lang="ta">Vaḷḷiyammaipuṟāṇacāram</title>
                      <textLang mainLang="tam">Tamil</textLang>
                      <filiation>Other manuscript testimonies of this text are: <ref target="Indien_0310.xml">Bnf Indien 310</ref>; GOML D. 629 (see Rangacharya &amp; Kuppusvami Sastri 1916, p. 630); Mackenzie MSS n° 121 C. M. 42 and n° 122 C. M. 46 (see Taylor 1845, p. 57). As GOML D. 629 is also a Mackenzie MS, it might be identical with Mackenzie MS n° 122 C. M. 46.</filiation>
@@ -49,8 +49,10 @@
                               <height quantity="30"/>
                            </dimensions>
                         </extent>
-                        <foliation n="U1">On the front woodcover: 1 folio, unfoliated = title-page, by hand n° 1.</foliation>
-                        <foliation n="U2">248 folios, Tamil foliation 1‒288 (f31, f63, f63, f65, f210‒f246 missing; f68‒f69 refoliated 67‒68; 2 folios foliated 69) = text (<emph rend="italic">mūlam</emph>), 5 to 6 lines per page, by several hands (see fr288, rm), different from hand n° 1.</foliation>
+                        <collation>
+                        <desc xml:id="U1">On the front woodcover: 1 folio, unfoliated = title-page, by hand n° 1.</desc>
+                        <desc xml:id="U2">248 folios, Tamil foliation 1‒288 (f31, f63, f63, f65, f210‒f246 missing; f68‒f69 refoliated 67‒68; 2 folios foliated 69) = text (<emph rend="italic">mūlam</emph>), 5 to 6 lines per page, by several hands (see fr288, rm), different from hand n° 1.</desc>
+                        </collation>
                         <condition>Fairly good state of preservation, considering the age of the manuscript and in spite of bore holes caused by insects. Some folios are truncated.</condition>
                      </supportDesc>
                      <layoutDesc>
@@ -58,10 +60,10 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote n="U1" scope="minor" script="tamil" scribeRef="#ArielTitleScribe">
+                     <handNote synch="#U1" scope="minor" script="tamil" scribeRef="#ArielTitleScribe">
                         <desc>Title-page, by hand n° 1.</desc>
                      </handNote>
-                     <handNote n="U2" scope="major" script="tamil">
+                     <handNote synch="#U2" scope="major" script="tamil">
                         <desc>Several hands.</desc>
                      </handNote>
                   </handDesc>

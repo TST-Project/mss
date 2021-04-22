@@ -31,7 +31,7 @@
               <p>Sher-Gil points out that the text is not likely to have been authored by <persName xml:lang="sa">Pāṇini</persName> himself, but is usually attributed to <persName xml:lang="sa">Piṅgalācārya</persName>. Accordingly, both his <locus facs="5">English</locus> and <locus facs="7">Sanskrit</locus> title pages attribute the text to <persName xml:lang="sa">Piṅgalācārya</persName>.</p>
               <p>Sher-Gil notes that the manuscript has been copied from an edition published in Benares in 1887. Although this edition has not yet been located, the text is very close to the Benares edition of 1877, by <persName xml:lang="sa">Becanarāma Tripāṭhin</persName>. However, it seems that the edition that Sher-Gil used included Vedic accent marks, which are not present in the 1877 edition. Moreover, it seems that Sher-Gil consulted more than one edition; the marginal notes use two different referencing systems, and, in his letter to Blochet, he mentions using <quote>printed copies published in India at Benares as well at Bombay</quote>.</p>
             </summary>
-            <msItem n="mūla" defective="false">
+            <msItem synch="#mūla" defective="false">
               <title xml:lang="sa">Pāṇinīyaśikṣā</title>
               <author xml:lang="sa">Piṅgalācārya</author>
               <textLang mainLang="san" otherLangs="eng"/>
@@ -44,7 +44,7 @@
               <finalRubric xml:lang="sa"><milestone n="10, ln 9" unit="page" facs="18"/>iti pāṇinīyamatānusāriṇī śrī piṅgalācā-<lb/>rya viracitā śikṣā samāptā ||</finalRubric>
               <colophon xml:lang="en"><milestone n="10, ln 9" unit="page" facs="18"/>Copy prepared from the Benares edition of 1887 C.E. <lb/>by Umraosingh Sher-Gil. in Paris. 17th March 1930. <term xml:lang="sa">oṁ śauṃ</term></colophon>
             </msItem>
-            <msItem n="letter" defective="false">
+            <msItem synch="#letter" defective="false">
               <title>Typewritten letter to Edgar Blochet</title>
               <author>Umraosingh Sher-Gil</author>
               <textLang mainLang="eng" otherLangs="fra"/>
@@ -71,8 +71,10 @@
                     <height quantity="105" min="" max=""/>
                   </dimensions>
                 </extent>
-                <foliation n="mūla">Devanāgarī numerals, top-right margin, recto and verso.</foliation>
-                <foliation n="letter">Unfoliated, type-written note fixed to the inside of the front cover.</foliation>
+                <collation>
+                <desc xml:id="mūla">Devanāgarī numerals, top-right margin, recto and verso.</desc>
+                <desc xml:id="letter">Unfoliated, type-written note fixed to the inside of the front cover.</desc>
+                </collation>
                 <condition>Perfect condition.</condition>
               </supportDesc>
               <layoutDesc>
@@ -80,7 +82,7 @@
               </layoutDesc>
             </objectDesc>
             <handDesc>
-              <handNote n="mūla" scope="sole" scribeRef="#UmraosinghShergil" script="devanagari" medium="ink black">
+              <handNote synch="#mūla" scope="sole" scribeRef="#UmraosinghShergil" script="devanagari" medium="ink black">
                 <desc>Writes in thicker ink for the text, and thinner ink for the notes.</desc>
               </handNote>
             </handDesc>
@@ -154,7 +156,7 @@
       <change when="2021-04">Line breaks added by Charles LI.</change>
     </revisionDesc>
   </teiHeader>
-  <text n="letter">
+  <text synch="letter">
     <body>
       <milestone facs="3" n="1" unit="page"/>
       <lg>

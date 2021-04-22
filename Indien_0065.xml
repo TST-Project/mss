@@ -23,7 +23,7 @@
                   <summary>
 <p>The bundle contains two works attributed to <persName xml:lang="ta">Auvaiyār</persName>: the <title xml:lang="ta">Ātticūṭi</title> (complete) and the <title xml:lang="ta">Koṉṟaivēntāṉ</title> (incomplete; first nine aphorisms only). These works are often used for learning the Tamil alphabet as the aphorisms are ordered alphabetically and represent all the letters of the Tamil alphabet. The present manuscript, from <geogName>Pondicherry</geogName> (see U1b, <locus facs="15">f[6]r, c2, 3</locus>), might be a school exercise, as it contains mistakes apparently due to inexperience (e.g. confusion between the letters <term xml:lang="ta" rend="italic">ṉ</term> and <term xml:lang="ta" rend="italic">ḷ</term>, of similar shape). The lay-out of the page is in columns for the <term xml:lang="ta" rend="italic">mūlam</term>.</p>
                   </summary>
-                  <msItem n="U1b" defective="false">
+                  <msItem synch="#U1b" defective="false">
                      <title xml:lang="ta">Ātticūṭi</title>
                      <author xml:lang="ta">Auvaiyār</author>
                      <textLang mainLang="tam">Tamil</textLang>
@@ -45,7 +45,7 @@
                        <lb/>putuvaiyil
                      </explicit>
                   </msItem>
-                  <msItem n="U2b" defective="true">
+                  <msItem synch="#U2b" defective="true">
                      <title xml:lang="ta">Koṉṟaivēntāṉ</title>
                      <author xml:lang="ta">Auvaiyār</author>
                      <textLang mainLang="tam">Tamil</textLang>
@@ -77,11 +77,13 @@
                               <height quantity="25"/>
                            </dimensions>
                         </extent>
-                        <foliation n="U1a">1 folio, unfoliated = <title xml:lang="ta">Ātticūṭi</title>, invocation.</foliation>
-                        <foliation n="U1b">6 folios, no foliation except f2 with Tamil foliation 2 = <title xml:lang="ta">Ātticūṭi</title>, <term xml:lang="ta" rend="italic">mūlam</term>.</foliation>
-                        <foliation n="U2a">1 folio, unfoliated = <title xml:lang="ta">Koṉṟaivēntāṉ</title>, invocation.</foliation>
-                        <foliation n="U2b">1 folio, unfoliated = <title xml:lang="ta">Koṉṟaivēntāṉ</title>, <term xml:lang="ta" rend="italic">mūlam</term>.</foliation>
-                        <foliation n="U3">11 folios, no foliation = blank leaves.</foliation>
+                        <collation>
+                        <desc xml:id="U1a">1 folio, unfoliated = <title xml:lang="ta">Ātticūṭi</title>, invocation.</desc>
+                        <desc xml:id="U1b">6 folios, no foliation except f2 with Tamil foliation 2 = <title xml:lang="ta">Ātticūṭi</title>, <term xml:lang="ta" rend="italic">mūlam</term>.</desc>
+                        <desc xml:id="U2a">1 folio, unfoliated = <title xml:lang="ta">Koṉṟaivēntāṉ</title>, invocation.</desc>
+                        <desc xml:id="U2b">1 folio, unfoliated = <title xml:lang="ta">Koṉṟaivēntāṉ</title>, <term xml:lang="ta" rend="italic">mūlam</term>.</desc>
+                        <desc xml:id="U3">11 folios, no foliation = blank leaves.</desc>
+                        </collation>
                         <condition>Very good state of preservation.</condition>
                      </supportDesc>
                      <layoutDesc>
@@ -89,7 +91,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote n="U1a U1b U2a U2b" scope="sole" script="tamil">
+                     <handNote synch="#U1a #U1b #U2a #U2b" scope="sole" script="tamil">
                         <p>Unblackened. One hand only.</p>
                      </handNote>
                   </handDesc>

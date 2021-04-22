@@ -29,7 +29,7 @@
                      <p>The text is seemingly complete.</p>
                      <p><emph rend="bold">Paratexts</emph>: marginal and in-text benedictions, invocation page, marginal title, marginal chapter headers, in-text chapter completion statement, in-text text completion statement, scribal colophon.</p>
                   </summary>
-                  <msItem n="U2" defective="false">
+                  <msItem synch="#U2" defective="false">
                      <title xml:lang="ta">Kūrmapurāṇam</title>
                      <textLang mainLang="tam">Tamil</textLang>
                      <filiation>Other manuscript testimonies of this text are: GOML D. 548‒549, R. 2260, R. 5283, R. 5494 (see Raghavan 1960, p. 228‒229; Rangacharya &amp; Kuppusvami Sastri 1916, p. 529ff.).</filiation>
@@ -52,9 +52,11 @@
                               <height quantity="25"/>
                            </dimensions>
                         </extent>
-                        <foliation n="U1">1 folio, unfoliated = invocation.</foliation>
-                        <foliation n="U2">420<!--Update!--> folios, Tamil foliation 1‒422 (no folio foliated 278, 283; several foliations corrected) = text (<emph rend="italic">mūlam</emph>). 5 to 8 lines per page.</foliation>
-                        <foliation n="U3">4 folios, unfoliated = flyleafs.</foliation>
+                        <collation>
+                        <desc xml:id="U1">1 folio, unfoliated = invocation.</desc>
+                        <desc xml:id="U2">420<!--Update!--> folios, Tamil foliation 1‒422 (no folio foliated 278, 283; several foliations corrected) = text (<emph rend="italic">mūlam</emph>). 5 to 8 lines per page.</desc>
+                        <desc xml:id="U3">4 folios, unfoliated = flyleafs.</desc>
+                        </collation>
                         <!--Check continuity of text between missing folios!--> 
                         <condition>Very good state of preservation. Some bore holes caused by insects.</condition>
                      </supportDesc>

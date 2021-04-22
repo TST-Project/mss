@@ -43,7 +43,7 @@
                         <l>vivēkacorūpam</l>
                      </lg>
                   </summary>
-                  <msItem n="U2" defective="false">
+                  <msItem synch="#U2" defective="false">
                      <title xml:lang="ta">Attuvaitāṉupavam</title>
                      <author xml:lang="ta">Rāmakavi</author>
                      <textLang mainLang="tam">Tamil</textLang>
@@ -113,8 +113,10 @@
                               <height quantity="35"/>
                            </dimensions>
                         </extent>
-                        <foliation n="U1">1 folio, unfoliated = title-page, by hand n° 1.</foliation>
-                        <foliation n="U2">21 folios, parallel Tamil foliation 2‒20 (f1 not explicitly foliated) and Tamil foliation 76‒95 = text (<term xml:lang="ta" rend="italic">mūlam</term>). We find successively: invocatory stanza <locus facs="5">(f75r)</locus>; 3 stanzas of <term xml:lang="ta" rend="italic">pāyiram</term>, “preface” (<locus facs="6">f76r</locus>‒<locus facs="7">f76v</locus>), also titled <term xml:lang="ta" rend="italic">kuruvaṇakkam</term> (<locus facs="6">f76r</locus>, lm and <locus facs="7">f76v1</locus>), “hommage to preceptor”; main text (<term xml:lang="ta" rend="italic">mūlam</term>) (<locus facs="8">f77r</locus>‒<locus facs="44">f94v</locus>), divided in 12 chapters, each of 10 stanzas; a kind of postface in 4 stanzas (<locus facs="45">f95r</locus>‒<locus facs="46">f95v</locus>), explaining the origin of the work.</foliation>
+                        <collation>
+                            <desc xml:id="U1">1 folio, unfoliated = title-page, by hand n° 1.</desc>
+                            <desc xml:id="U2">21 folios, parallel Tamil foliation 2‒20 (f1 not explicitly foliated) and Tamil foliation 76‒95 = text (<term xml:lang="ta" rend="italic">mūlam</term>). We find successively: invocatory stanza <locus facs="5">(f75r)</locus>; 3 stanzas of <term xml:lang="ta" rend="italic">pāyiram</term>, “preface” (<locus facs="6">f76r</locus>‒<locus facs="7">f76v</locus>), also titled <term xml:lang="ta" rend="italic">kuruvaṇakkam</term> (<locus facs="6">f76r</locus>, lm and <locus facs="7">f76v1</locus>), “hommage to preceptor”; main text (<term xml:lang="ta" rend="italic">mūlam</term>) (<locus facs="8">f77r</locus>‒<locus facs="44">f94v</locus>), divided in 12 chapters, each of 10 stanzas; a kind of postface in 4 stanzas (<locus facs="45">f95r</locus>‒<locus facs="46">f95v</locus>), explaining the origin of the work.</desc>
+                        </collation>
                         <condition>Very good state of preservation, in spite of bore holes caused by insects.</condition>
                      </supportDesc>
                      <layoutDesc>
@@ -122,10 +124,10 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote n="U1" scope="minor" script="tamil" scribeRef="#ArielTitleScribe">
+                     <handNote synch="#U1" scope="minor" script="tamil" scribeRef="#ArielTitleScribe">
                         <desc>title-page, by hand n° 1.</desc>
                      </handNote>
-                     <handNote n="U2" scope="major" script="tamil">
+                     <handNote synch="#U2" scope="major" script="tamil">
                         <desc>8 to 10 lines per page (most often 9), by hand n° 2.</desc>
                      </handNote>
                   </handDesc>

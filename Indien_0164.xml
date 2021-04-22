@@ -27,7 +27,7 @@
                   <summary>
 <p>Bound codex, containing folios and quires of various measurements. Contains mostly handwritten notes, all presumably by Edouard Ariel, but also some printed matters, either pasted on the folios or bound in the volume. Title-pages divide the volume by subject, while many folios bear a top header. Contains, with a focus on the Tamil South of India, notes, bibliographical references and documents bearing on: the literature, the history, the ethnography and the geography of India; sciences, divination, cosmography, astronomy, astrology, etc. in India. Contains lists of printed Tamil books.</p>
                   </summary>
-                  <msItem n="U2" defective="false">
+                  <msItem synch="#U2" defective="false">
                      <title>Bibliographie, volume 1</title>
                      <author>Edouard Ariel</author>
                      <textLang mainLang="fra" otherLangs="tam"/>
@@ -44,15 +44,17 @@
                               <depth quantity="40"/>
                            </dimensions>
                         </extent>
-                        <foliation n="U1">4 folios, without foliation.</foliation>
-                        <foliation n="U2">341 folios, foliated in Arabic numerals.</foliation>
+                        <collation>
+                        <desc xml:id="U1">4 folios, without foliation.</desc>
+                        <desc xml:id="U2">341 folios, foliated in Arabic numerals.</desc>
+                        </collation>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="1" writtenLines=""/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote n="U1 U2" scope="sole" script="tamil roman" scribeRef="#EdouardAriel">
+                     <handNote synch="#U1 #U2" scope="sole" script="tamil roman" scribeRef="#EdouardAriel">
                      </handNote>
                   </handDesc>
                   <additions>
@@ -93,7 +95,7 @@
          <change when="2020-12">Adapted to TEI by Charles LI.</change>
       </revisionDesc>
    </teiHeader>
-   <text n="U2">
+   <text synch="#U2">
       <body>
          <div1>
              <head>(<locus facs="8">f1</locus>‒<locus facs="170">f147</locus>) Literature.</head>
