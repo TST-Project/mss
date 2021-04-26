@@ -76,7 +76,7 @@ const getExtent = function(xmlDoc) {
 const getCote = function(xmlDoc) {
     const txt = xmlDoc.querySelector('idno[type="shelfmark"]').textContent || '';
     const sort = txt.replace(/\d+/g,((match) => {
-        match.padStart(4,'0');
+        return match.padStart(4,'0');
     }));
     return {text: txt, sort: sort};
 };
