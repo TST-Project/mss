@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><title xml:lang="ta">Kamparāmāyaṇam</title>, Volume 1</title>
+         </titleStmt>
+         <editionStmt>
+            <p>Record edited by <persName>Emmanuel FRANCIS</persName> <orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName>.</p>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Indien 275</idno>
+                  <idno type="alternate"><idno>Tamoul 275</idno></idno>
+               </msIdentifier>
+               <msContents class="#MVM">
+                  <summary>First volume of a 2-volume Kamparāmāyaṇam. For volume 2, see Indien 276.</summary>
+                  
+               <msItem xml:id="T1" defective="false"><title><title xml:lang="ta">Kamparāmāyaṇam</title></title></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="paper">
+                        <support>
+                           <measure unit="stringhole"/>
+                           
+                        </support>
+                        <extent>
+                           <measure unit="folio" quantity="240"/>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           </dimensions>
+                        <dimensions type="object" unit="mm"><width quantity="125"/><height quantity="195"/><depth quantity="30"/></dimensions><dimensions type="written" unit="mm"/></extent>
+                        <collation><desc xml:id="u1">the front cover; verso marbled, bearing sticker <quote>INDIEN 275</quote>.</desc><desc xml:id="u2">1 unfoliated/unpaginated front guard folio; recto marbled.</desc><desc xml:id="u3">1 unfoliated/unpaginated front guard folio; recto inscribed <quote>Tamoul N° 275</quote> in black pencil; verso blank.</desc><desc xml:id="U1">240 folios; no original Tamil foliation/pagination; Arabic library foliation foliation 1–240 in black pencil on the top right corner of recto of folios. 30 quires (8 folios each) numbered on the top left corner (up to f97r) or on the top right corner (from f105r onwards). </desc><desc xml:id="u4">1 unfoliated/unpaginated back guard folio.</desc><desc xml:id="u5">1 unfoliated/unpaginated back guard folio; verso marbled.</desc><desc xml:id="u6">the back cover; recto marbled.</desc></collation>
+                        
+                        
+                     <condition>Good state of preservation</condition></supportDesc>
+                     <layoutDesc>
+                        
+                     <layout columns="1"/></layoutDesc>
+                  </objectDesc>
+                  <handDesc/>
+                  <decoDesc>
+                  </decoDesc>
+                  <additions>
+                  <desc type="catchword"/></additions>
+                  <bindingDesc>
+                     <binding><p>Leather (red). Title <quote>KAMBA RÂMÂYANAM</quote> in transcription and heraldic L on the spine.</p></binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian"/>
+                     
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <listBibl>
+                     
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         
+      <p>TBA</p></encodingDesc>
+      <revisionDesc>
+         
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+   </facsimile>
+<text synch="#U1" corresp="#T1"><body>
+  
+  <p>
+    <milestone facs="00" n="1r" unit="folio"/>
+    <lb n="1"/><seg function="title">kamparāmāya
+    <lb n="2" break="no"/>ṇam</seg>
+    <lb n="3"/><seg function="table-of-contents">vālakāṇṭam p-pāyirappaṭa
+    <lb n="4" break="no"/>lam – virut=tam – – – 10</seg> 
+    <lb n="5"/>Avaiyaṭakka-p-paṭalam virut
+    <lb n="6" break="no"/>tam – – – – – 11 –
+    <lb n="7"/>(f1r7) Āṟṟuppaṭala viruttam – 20
+    <lb n="8"/>[...]
+    <milestone facs="00" n="2v" unit="folio"/>
+    <lb n="1"/>kaṅkaippaṭalam – virut=tam – 71
+    <lb n="2"/>tiruvaṭicūṭṭuppaṭalam – virut=tam –
+    <lb n="3"/>100 3 5
+  </p>
+  
+  <p>
+    <milestone facs="00" n="3r" unit="folio"/>
+    <lb n="1"/><seg function="title">kamparāmāyaṇam<surplus>u</surplus></seg>
+    <lb n="2"/><seg function="satellite-stanza">nāṭiya poruḷ kaikūṭum ñāṉa
+    <lb n="3" break="no"/>mum pukaḻum uṇṭām [...]</seg>
+  </p>
+  
+  <p>
+    <milestone facs="00" n="4v" unit="folio"/>
+    <lb n="1"/><seg function="intertitle">vālakāṇṭam
+    <lb n="2"/>pāyirappaṭalam</seg>
+  </p>
+  
+  <p>
+    <milestone facs="00" n="6v" unit="folio"/>
+    <lb n="1"/><seg function="intertitle">Avaiyaṭakkam
+    <lb n="2"/>paṭalam</seg>
+  </p>
+  
+  <p>
+    <milestone facs="00" n="239v" unit="folio"/>
+    <lb n="14"/><seg function="completion-statement">5 10. – paracurāmappaṭalamuṟṟum –</seg>
+  </p>
+  
+</body></text></TEI>
