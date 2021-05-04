@@ -21,14 +21,14 @@
                   <idno type="alternate"><idno>Tamoul 511</idno></idno>
                </msIdentifier>
                <msContents class="#STM">
-                  <summary>Fragment of Saint Francis Xavier Story.</summary>
+                  <summary>Fragment of Saint Francis Xavier Story. <emph rend="italic">Pace</emph> Cabaton (1912, <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f72">p. 91</ref>), based on the <locus facs="1">user-related note</locus> accompanying the bundle, the contents are not related to the canonisation process of Saint Francis Xavier Story.</summary>
                   
-               <msItem synch="#U1" xml:id="T1" defective="true"><title><term xml:lang="en">Saint Francis Xavier Story</term></title></msItem></msContents>
+               <msItem synch="#U1" xml:id="T1" defective="true"><title xml:lang="ta"><term xml:lang="en">Saint Francis Xavier Story</term></title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
                         <support>
-                           <measure unit="stringhole"/>
+                           <measure unit="stringhole" quantity="2"/>
                            
                         </support>
                         <extent>
@@ -37,20 +37,25 @@
                               
                               
                            </dimensions>
-                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
-                        <collation><desc xml:id="U1"/></collation>
+                        <dimensions type="object" unit="mm"><width quantity="325"/><height quantity="30"/></dimensions><dimensions type="written" unit="mm"/></extent>
+                        <collation><desc xml:id="U1">11 ff., original Tamil foliation 33-43 in left margin.</desc></collation>
                         
                         
-                     </supportDesc>
+                     <condition>Very good state of preservation.</condition></supportDesc>
                      <layoutDesc>
                         
-                     </layoutDesc>
+                     <layout writtenLines="5"/></layoutDesc>
                   </objectDesc>
-                  <handDesc/>
+                  <handDesc><handNote synch="#U1" scope="sole" script="tamil" scriptRef="#tamilPulliNone" medium="incised"/></handDesc>
                   <decoDesc>
                   </decoDesc>
                   <additions>
-                  </additions>
+                  <desc type="commenting-note" subtype="flyleaf">In black ink.
+<quote rend="block">
+  <p>Livre  Malabare</p>
+  <p>Ecorce de Palmier</p>
+  <p>L’on croit que c’est une enquête pour la Canonisation de St. François Xavier</p></quote>
+</desc></additions>
                   <bindingDesc>
                      <binding/>
                   </bindingDesc>
@@ -59,7 +64,7 @@
                   <origin>
                      <origDate calendar="gregorian"/>
                      
-                  </origin>
+                  <origPlace>Tamilnadu.</origPlace></origin>
                   <provenance/>
                   <acquisition/>
                </history>
@@ -73,29 +78,170 @@
       </fileDesc>
       <encodingDesc>
          
-      <p>TBA</p></encodingDesc>
+      <p>Implicit <emph rend="italic">ē</emph> and <emph rend="italic">ō</emph> restored.</p></encodingDesc>
       <revisionDesc>
          
-      </revisionDesc>
+      <change when="2021-05">Record created by Emmanuel FRANCIS.</change></revisionDesc>
    </teiHeader>
    <facsimile>
-   </facsimile>
-<text synch="#U1" corresp="#T1"><body>
+   <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10026580j/manifest.json"/></facsimile>
+<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   
   <p>
-    <milestone facs="00" n="33r" unit="folio"/>
+    
+    <milestone facs="3" n="33r" unit="folio"/>
+    <lb n="1"/><seg function="incipit">makā-t-tiraḻ<pc>-</pc>āy iṟukkiṟatiṉālē tamakku-p pōka-k kūṭat<pc>’</pc> iruntāl Anta-p piḷḷaikaḷukkuḷḷē</seg> cattu
+    <lb n="2" break="no"/>
+    <lb n="3"/>
+    <lb n="4" break="no"/>
+    <lb n="5" break="no"/>
+    
+    <milestone facs="4" n="33v" unit="folio"/>
     <lb n="1"/>
     <lb n="2"/>
     <lb n="3" break="no"/>
     <lb n="4"/>
     <lb n="5" break="no"/>
-  
-    <milestone facs="00" n="43v" unit="folio"/>
+    
+    <milestone facs="5" n="34r" unit="folio"/>
     <lb n="1"/>
     <lb n="2"/>
     <lb n="3" break="no"/>
     <lb n="4"/>
     <lb n="5" break="no"/>
+    
+    <milestone facs="6" n="34v" unit="folio"/>
+    <lb n="1"/>
+    <lb n="2"/>
+    <lb n="3" break="no"/>
+    <lb n="4"/>
+    <lb n="5" break="no"/>
+    
+    <milestone facs="7" n="35r" unit="folio"/>
+    <lb n="1"/>
+    <lb n="2"/>
+    <lb n="3" break="no"/>
+    <lb n="4"/>
+    <lb n="5" break="no"/>
+    
+    <milestone facs="8" n="35v" unit="folio"/>
+    <lb n="1"/>
+    <lb n="2"/>
+    <lb n="3" break="no"/>
+    <lb n="4"/>
+    <lb n="5" break="no"/>
+    
+    <milestone facs="9" n="36r" unit="folio"/>
+    <lb n="1"/>
+    <lb n="2"/>
+    <lb n="3" break="no"/>
+    <lb n="4"/>
+    <lb n="5" break="no"/>
+    
+    <milestone facs="10" n="36v" unit="folio"/>
+    <lb n="1"/>
+    <lb n="2"/>
+    <lb n="3" break="no"/>
+    <lb n="4"/>
+    <lb n="5" break="no"/>
+    
+    <milestone facs="11" n="37r" unit="folio"/>
+    <lb n="1"/>
+    <lb n="2"/>
+    <lb n="3" break="no"/>
+    <lb n="4"/>
+    <lb n="5" break="no"/>
+    
+    <milestone facs="12" n="37v" unit="folio"/>
+    <lb n="1"/>
+    <lb n="2"/>
+    <lb n="3" break="no"/>
+    <lb n="4"/>
+    <lb n="5" break="no"/>
+    
+    <milestone facs="13" n="38r" unit="folio"/>
+    <lb n="1"/>
+    <lb n="2"/>
+    <lb n="3" break="no"/>
+    <lb n="4"/>
+    <lb n="5" break="no"/>
+    
+    <milestone facs="14" n="38v" unit="folio"/>
+    <lb n="1"/>
+    <lb n="2"/>
+    <lb n="3" break="no"/>
+    <lb n="4"/>
+    <lb n="5" break="no"/>
+    
+    <milestone facs="15" n="39r" unit="folio"/>
+    <lb n="1"/>
+    <lb n="2"/>
+    <lb n="3" break="no"/>
+    <lb n="4"/>
+    <lb n="5" break="no"/>
+    
+    <milestone facs="16" n="39v" unit="folio"/>
+    <lb n="1"/>
+    <lb n="2"/>
+    <lb n="3" break="no"/>
+    <lb n="4"/>
+    <lb n="5" break="no"/>
+    
+    <milestone facs="17" n="40r" unit="folio"/>
+    <lb n="1"/>
+    <lb n="2"/>
+    <lb n="3" break="no"/>
+    <lb n="4"/>
+    <lb n="5" break="no"/>
+    
+    <milestone facs="18" n="40v" unit="folio"/>
+    <lb n="1"/>
+    <lb n="2"/>
+    <lb n="3" break="no"/>
+    <lb n="4"/>
+    <lb n="5" break="no"/>
+    
+    <milestone facs="19" n="41r" unit="folio"/>
+    <lb n="1"/>
+    <lb n="2"/>
+    <lb n="3" break="no"/>
+    <lb n="4"/>
+    <lb n="5" break="no"/>
+    
+    <milestone facs="20" n="41v" unit="folio"/>
+    <lb n="1"/>
+    <lb n="2"/>
+    <lb n="3" break="no"/>
+    <lb n="4"/>
+    <lb n="5" break="no"/>
+    
+    <milestone facs="21" n="42r" unit="folio"/>
+    <lb n="1"/>
+    <lb n="2"/>
+    <lb n="3" break="no"/>
+    <lb n="4"/>
+    <lb n="5" break="no"/>
+    
+    <milestone facs="22" n="42v" unit="folio"/>
+    <lb n="1"/>
+    <lb n="2"/>
+    <lb n="3" break="no"/>
+    <lb n="4"/>
+    <lb n="5" break="no"/>
+    
+    <milestone facs="23" n="43r" unit="folio"/>
+    <lb n="1"/>
+    <lb n="2"/>
+    <lb n="3" break="no"/>
+    <lb n="4"/>
+    <lb n="5" break="no"/>
+        
+    <milestone facs="24" n="43v" unit="folio"/>
+    <lb n="1"/>yum muṉ collappaṭṭa kaṉṉiyākumari mutal<pc>-</pc>āṉa <g xml:lang="sa">sta</g>laṅkaḷilēyum kiṟī<g xml:lang="sa">stu</g>varkaḷ kāriyat
+    <lb n="2" break="no"/>tai naṭatti-k koṇṭu varukaiyilē Atukk<pc>’</pc> ap-pālē maṉṉārkōvililē-y irukkiṟa ceṉaṅ
+    <lb n="3" break="no"/>kaḻum taṅkaḻum cattiyattai-y aṟi<choice><orig>ñc</orig><reg>nt</reg></choice>u  kiṟī<g xml:lang="sa">stu</g>varkaḷ-p pōka vēṉum eṉṟu Ācai-y<pc>-</pc>ā
+    <lb n="4"/>y iruntārkaḷ Attaṟuvāyilē Aṟciyacī<g xml:lang="sa">ṣa</g> cavēriyār Aṅkaṅkē tamakku-p pōka-k kū-
+    <lb n="5" break="no"/>ṭāta paṭiyiṉālē <seg function="explicit">Avarkaḷukku Upatēcañ colli ñāṉa<g xml:lang="sa">snā</g>ṉam koṭukka-t takkat<pc>’</pc> āka Av</seg>
   </p>
 
 </body></text></TEI>
