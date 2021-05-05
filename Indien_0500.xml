@@ -30,38 +30,38 @@
                         <support>
                            <measure unit="stringhole"/>
                            
-                        </support>
+                        <p>Different types of papers: thiner for U1, f93-f95.</p></support>
                         <extent>
-                           <measure unit="folio" quantity="100">1+2+95+2</measure>
+                           <measure unit="folio" quantity="100">1+2+95+2 (u2+u3+U1+u4)</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
-                           </dimensions>
-                        <dimensions type="object" unit="mm"><width quantity="200"/><height quantity="305"/><depth quantity="25"/></dimensions><dimensions type="written" unit="mm"/></extent>
-                        <collation><desc xml:id="u1"/><desc xml:id="u2"/><desc xml:id="u3">2 unfoliated/unpaginated front guard leaves; blank recto verso.</desc><desc xml:id="U1"/><desc xml:id="u4">2 unfoliated/unpaginated back guard leaves; blank recto verso.</desc><desc xml:id="u5"/></collation>
+                           <width max="230"/><height max="300"/></dimensions>
+                        <dimensions type="object" unit="mm"><width quantity="230"/><height quantity="305"/><depth quantity="25"/></dimensions><dimensions type="written" unit="mm"/></extent>
+                        <collation><desc xml:id="u1">the front cover; verso bearing sticker <quote>Indien 500</quote>.</desc><desc xml:id="u2">1 unfoliated/unpaginated front guard leaf; recto bearing <quote>Tam. 500</quote> in black ink and <quote>Tamoul N° 500</quote> in black pencil; verso blank.</desc><desc xml:id="u3">2 unfoliated/unpaginated front guard leaves; blank recto verso.</desc><desc xml:id="U1">95 ff; Tamil original pagination 1-129/unpaginated page/130-188 and parallel library Arabic library foliation 1-95.</desc><desc xml:id="u4">2 unfoliated/unpaginated back guard leaves; blank recto verso.</desc><desc xml:id="u5">the back cover; recto blank.</desc></collation>
                         
                         
                      <condition>Relatively good state of preservation. The binding is partly unbound.</condition></supportDesc>
                      <layoutDesc>
                         
-                     </layoutDesc>
+                     <layout columns="1"/></layoutDesc>
                   </objectDesc>
-                  <handDesc><handNote synch="#U1" script="grantha" medium="ink black"/></handDesc>
+                  <handDesc><handNote synch="#U1" scope="sole" script="grantha" medium="ink black"/></handDesc>
                   <decoDesc>
-                  </decoDesc>
+                  <decoNote type="decorative" subtype="spine"/></decoDesc>
                   <additions>
-                  </additions>
+                  <desc type="title" subtype="spine">SAONDARYALAHARI VYAKHYANAM</desc><desc type="stamp" subtype="beginning">Stamp <quote>SOCIÉTÉ ASIATIQUE DON COLLECTION ARIEL</quote>  (U1, f1r).</desc><desc type="stamp" subtype="beginning">Stamp <quote>BIBLIOTHÈQUE IMPÉRIALE MSS.</quote> (U1, f1r and f95r) and  <quote>DON N°</quote>  (U1, f1r).</desc></additions>
                   <bindingDesc>
-                     <binding/>
+                     <binding><p>Leather (brown) covers; title <quote>SAONDARYALAHARI VYAKHYANAM</quote> and decoration on the spine.</p></binding>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian"/>
+                     <origDate calendar="gregorian" notAfter="1855">Earlier than 1855, since part of the bequest by Edouard Ariel (as attested by stamp on U1, f1r) to the Société Asiatique, received in 1855.</origDate>
                      
-                  </origin>
-                  <provenance/>
-                  <acquisition/>
+                  <origPlace>Tamilnadu</origPlace></origin>
+                  <provenance><p>Owned by Edouard Ariel (1818-1854). Bequested by Edouard Ariel to Société Asiatique.</p></provenance>
+                  <acquisition><p>Given in 1866 by the Société Asiatique.</p></acquisition>
                </history>
                <additional>
                   <listBibl>
@@ -80,22 +80,33 @@
    </teiHeader>
    <facsimile>
    </facsimile>
-<text synch="#U1"><body>
+<text synch="#U1" corresp="#T1" xml:lang="sa"><body>
   
   <p>
     <milestone facs="00" n="1r" unit="folio"/>
+    <milestone facs="00" n="1" unit="page"/>
     <lb n="1"/><seg function="blessing">śrī-rāma-jayaṃ</seg>
     <lb n="2"/><seg function="title">s<unclear reason="eccentric_ductus">au</unclear>ndaryya-laharī-vyākhyānaṃ</seg>
-    <lb n="3"/>
-    <lb n="4"/>
-    <lb n="5"/>
-    <lb n="6"/>
+    <lb n="3"/>śivaś śaktyā yukto yadi bhavati śaktaḥ prabhavituṃ ‡ na ced evaṃ
+    <lb n="4"/>devo na khalu kuśalas spanditum api ‡ Atas tvām ārā<unclear>dhy</unclear>āṃ hari-hara
+    <lb n="5" break="no"/>viri<unclear>ñc</unclear>yādibhir api ‡ praṇantuṃ stotuṃ vā katham akṛta-punyaḥ
+    <lb n="6"/>prabhavati ‡‡ {pcs} śivāḥ [...]
+  </p>
+  
+  <p>
+    <milestone facs="00" n="94v" unit="folio"/>
+    <milestone facs="00" n="187" unit="page"/>
+    <lb n="25"/>[...] {pcs} 9 10 9 | {pcl}
+    <lb n="26"/>
+    <lb n="27"/>
+    <lb n="28"/>[...]
   </p>
   
   <p>
     <milestone facs="00" n="95r" unit="folio"/>
-    <lb n="13"/>
-    <lb n="14"/>
+    <milestone facs="00" n="188" unit="page"/>
+    <lb n="13"/>[...] {pcs} 100 – – – Asman• saundaryya
+    <lb n="14" break="no"/>
     <lb n="15"/>
     <lb n="16"/>
     <lb n="17"/>
