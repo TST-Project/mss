@@ -17,8 +17,8 @@ const getMeasure = function(el) {
     if(!el) return '';
     const q = el.getAttribute('quantity');
     if(q) return q;
-    const min = el.getAttribute('min');
-    const max = el.getAttribute('max');
+    const min = el.getAttribute('min') || '';
+    const max = el.getAttribute('max') || '';
     if(min || max) return `${min}-${max}`;
     return '';
 };
