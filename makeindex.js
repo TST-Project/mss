@@ -93,7 +93,7 @@ const readfiles = function(arr) {
         return {
             filename: f,
             cote: cote,
-            title: xmlDoc.querySelector('titleStmt').textContent,
+            title: xmlDoc.querySelector('titleStmt > title').textContent,
             //title: getTitles(xmlDoc.querySelectorAll('msItem > title')),
             material: getMaterial(xmlDoc.querySelector('supportDesc')),
             extent: getExtent(xmlDoc),
