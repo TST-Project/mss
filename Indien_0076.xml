@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ulakanīti</title>
+            
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Indien 76</idno>
+                  <idno type="alternate"><idno>Tamoul 76</idno></idno>
+               </msIdentifier>
+               <msContents class="#STM">
+                  <summary>Ulakanīti by Ulakanātar (18th c.?). Didactic aphorisms on good conduct.</summary>
+                  
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Ulakanīti: kāppu</title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta">Ulakanīti: mūlam</title><author xml:lang="ta">Ulakanātar</author><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T3" defective="false"><title xml:lang="ta"><term xml:lang="en">Blessings</term></title><textLang mainLang="tam"/></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="pothi">
+                     <supportDesc material="palm-leaf">
+                        <support>
+                           <measure unit="stringhole" quantity="1"/>
+                           <p>Double leaves.</p>
+                        </support>
+                        <extent>
+                           <measure unit="folio" quantity="7">1+5+1 (U1+U2+U3)</measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           </dimensions>
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
+                        <collation><desc xml:id="U1">1 unpaginated/unfoliated folio: <term xml:lang="ta">kāppu</term>.</desc><desc xml:id="U2">5 unpaginated/unfoliated folio: <term xml:lang="ta">mūlam</term>.</desc><desc xml:id="U3">1 unpaginated/unfoliated folio: blessings.</desc></collation>
+                        
+                        <condition>Good state of preservation. Some worm-holes.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2"/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc><handNote synch="#U1" scope="sole" script="tamil"/><handNote synch="#U2" scope="sole" script="tamil"/><handNote synch="#U3" scope="sole" script="tamil"/></handDesc>
+                  <decoDesc>
+                  </decoDesc>
+                  <additions>
+                  </additions>
+                  <bindingDesc>
+                     <binding><p><material resp="#cLI" cert="medium">Mahogany</material> woodcovers apparently fabricated in the BnF.</p></binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian"/>
+                     <origPlace>Tamilnadu</origPlace>
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <listBibl>
+                     
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         
+      <p>TBA</p></encodingDesc>
+      <revisionDesc>
+         
+      <change when="2021-05">Record created by Emmanuel FRANCIS.</change></revisionDesc>
+   </teiHeader>
+   <facsimile>
+   </facsimile>
+<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+  <p>
+    <milestone facs="00" n="[1]r" unit="folio"/>
+    <lb n="margin"/><seg function="blessing">hariḥ Om</seg>
+    <lb n="1"/><seg function="invocation">Ulakanītip purāṇattai [...]yāy uraikka · kalakal āyiraṅ kaṇapati kāppu</seg> <seg function="blessing">vēlumayilum tuṇai</seg>
+  </p>
+</body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
+  <p>
+    <milestone facs="00" n="[1]r" unit="folio"/>
+    <lb n="margin"/><seg function="blessing">naṉṟāka</seg>
+    <milestone facs="00" n="1" unit="column"/>
+    <lb n="1"/><seg function="incipit">Ōtāmal orunāḷum irukka vēṇṭām</seg>
+    <lb n="2"/>Orutaraiyum pollāṅku colla vēṇṭām
+    <lb n="3"/>mātāvaiy orunāḷumaṟakka vēṇṭām
+    <lb n="4"/>vañciṉaikaḷ ceyivārō ṭiṉaṅka vēṇṭām
+  </p>
+  
+  <p>
+    <milestone facs="00" n="[5]v" unit="folio"/>
+    <milestone facs="00" n="1" unit="column"/>
+    <lb n="3"/>pūtal [...] poruḷun tēṭi
+    <lb n="4"/><seg>pūlōkam iḷḷaḷavum iruppar tāmē</seg> {pcs} 10 {pcs}
+  </p>
+</body></text><text synch="#U3" corresp="#T3" xml:lang="ta"><body>
+  <p>
+    <milestone facs="00" n="[1]r" unit="folio"/>
+    <lb n="margin"/>{pcs}
+    
+    <milestone facs="00" n="1" unit="column"/>
+    <lb n="1"/><seg function="blessing">civa-mayam</seg>
+    <lb n="2"/><seg function="blessing">tēvi-cakāya=m</seg>
+    
+    <milestone facs="00" n="2" unit="column"/>
+    <lb n="1"/><seg function="blessing">śrī-ṟā=ma-ceya=m</seg>
+    
+    <milestone facs="00" n="3" unit="column"/>
+    <lb n="1"/><seg function="blessing">śrī-ṟā=ma-ceya=m</seg>
+    <lb n="2"/><seg function="blessing">śrī-makāleṣcumi
+    <lb n="3"/>kiṟupai Uṇṭu</seg>
+    
+    <milestone facs="00" n="4" unit="column"/>
+    <lb n="1"/>– <seg function="blessing">civa-citamparam
+    <lb n="2"/>tuṇai Uṇṭu</seg>
+    <lb n="3"/><seg function="blessing">civa-kāmi Āmmaṉ
+    <lb n="4"/>tuṇai Uṇṭu</seg>
+    
+    <milestone facs="00" n="5" unit="column"/>
+    <lb n="1"/><seg function="blessing">muruka<unclear>p</unclear>paṭucaṭci</seg>
+    
+    <milestone facs="00" n="6" unit="column"/>
+    <lb n="1"/>{symbol}
+    
+    <milestone facs="00" n="7" unit="column"/>
+    <lb n="1"/>{symbol}
+       
+  </p>
+</body></text></TEI>
