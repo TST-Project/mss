@@ -36,17 +36,17 @@
                            <dimensions type="leaf" unit="mm">
                               
                               
-                           </dimensions>
+                           <width quantity="405" min="25"/></dimensions>
                         <dimensions type="object" unit="mm"><width quantity="405"/><height quantity="20"/></dimensions><dimensions type="written" unit="mm"/></extent>
-                        <collation><desc xml:id="U1">1 unpaginated/unfoliated folio: <term xml:lang="ta">kāppu</term>. Verso blank.<quote>N° 20</quote> written in black ink on recto. </desc><desc xml:id="U2">5 unpaginated/unfoliated folio: <term xml:lang="ta">mūlam</term>.</desc><desc xml:id="U3">1 unpaginated/unfoliated folio: blessings. Verso blank. <quote>N° 16</quote> written and crossed-out, in black ink on verso. </desc></collation>
+                        <collation><desc xml:id="U1">1 unpaginated/unfoliated folio: <term xml:lang="ta">kāppu</term>. Verso blank. <quote>N° 20</quote> written in black ink on recto. </desc><desc xml:id="U2">5 unpaginated/unfoliated folios: <term xml:lang="ta">mūlam</term>.</desc><desc xml:id="U3">1 unpaginated/unfoliated folio: blessings. <quote>N° 16</quote> (crossed-out, in black ink), letters (incised) and scribbles on verso. </desc></collation>
                         
                         <condition>Good state of preservation. A few worm-holes.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout columns="2"/>
+                        <layout columns="2" writtenLines="4"/>
                      </layoutDesc>
                   </objectDesc>
-                  <handDesc><handNote synch="#U1" scope="sole" script="tamil" scriptRef="#tamilPulliNone" medium="incised"/><handNote synch="#U2" scope="sole" script="tamil" scriptRef="#tamilPulliNone" medium="incised"/><handNote synch="#U3" scope="sole" script="tamil" scriptRef="#tamilPulliNone" medium="ink incised"/></handDesc>
+                  <handDesc><handNote synch="#U1" scope="sole" script="tamil" scriptRef="#tamilPulliNone" medium="incised"><desc>Hand #1, major.</desc></handNote><handNote synch="#U2" scope="sole" script="tamil" scriptRef="#tamilPulliNone" medium="incised"><desc>Hand #1, major.</desc></handNote><handNote synch="#U3" scope="sole" script="tamil" scriptRef="#tamilPulliNone" medium="ink incised"><desc>Hand #2, minor.</desc></handNote></handDesc>
                   <decoDesc>
                   <decoNote type="drawing"><desc>Drawings and scribbles on U3, f[1] recto and and verso.</desc></decoNote></decoDesc>
                   <additions>
@@ -81,12 +81,15 @@
    <facsimile>
    </facsimile>
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+  <p>[by hand #1, major]</p>
   <p>
     <milestone facs="00" n="[1]r" unit="folio"/>
     <lb n="margin"/><seg function="blessing">hariḥ Om</seg>
     <lb n="1"/><seg function="invocation">Ulakanītip purāṇattai [...]yāy uraikka · kalakal āyiraṅ kaṇapati kāppu</seg> <seg function="blessing">vēlumayilum tuṇai</seg>
+    <milestone facs="00" n="[1]v" unit="folio"/>[blank]
   </p>
 </body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
+  <p>[by hand #1, major]</p>
   <p>
     <milestone facs="00" n="[1]r" unit="folio"/>
     <lb n="margin"/><seg function="blessing">naṉṟāka</seg>
@@ -104,6 +107,7 @@
     <lb n="4"/><seg function="explicit">pūlōkam iḷḷaḷavum iruppar tāmē</seg> {pcs} 10 {pcs}
   </p>
 </body></text><text synch="#U3" corresp="#T3" xml:lang="ta"><body>
+  <p>[by hand #2, minor]</p>
   <p>
     <milestone facs="00" n="[1]r" unit="folio"/>
     <lb n="margin"/>{pcs}
