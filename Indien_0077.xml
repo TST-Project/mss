@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ulakanīti</title>
+            
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Indien 77</idno>
+                  <idno type="alternate"><idno>Tamoul 77</idno></idno>
+               </msIdentifier>
+               <msContents class="#STM">
+                  <summary><title>Ulakanīti</title> (literally "The right conduct in the world") by Ulakanātar (17th c. at the latest) is a didactic work containing aphorisms on good conduct in the form of don'ts. The present version consists in ten numbered sections of eight lines each.</summary>
+                  
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Ulakanīti: title-page folio</title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta">Ulakanīti: kāppu</title><author xml:lang="ta">Ulakanātar</author><textLang mainLang="tam"/><filiation><p>BnF: indien 76 (U1). 
+</p></filiation></msItem><msItem synch="#U3" xml:id="T3" defective="false"><title xml:lang="ta">Ulakanīti: mūlam
+</title><author xml:lang="ta">Ulakanātar</author><textLang mainLang="tam"/><filiation><p>BnF: Indien 76 (U2), Indien 386 (no. 4). Halle (Francke Foundations): Tam 89 B; Tam 100.</p></filiation></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="pothi">
+                     <supportDesc material="palm-leaf">
+                        <support>
+                           <measure unit="stringhole" quantity="1"/>
+                           <p>Double leaves.</p>
+                        </support>
+                        <extent>
+                           <measure unit="folio" quantity="7">1+1+5 (U1+U2+U3)</measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           <width min="445" max="450"/><height quantity="25"/></dimensions>
+                        <dimensions type="object" unit="mm"><width quantity="450"/><height quantity="30"/><depth quantity="20"/></dimensions><dimensions type="written" unit="mm"/></extent>
+                        <collation><desc xml:id="U1">1 unpaginated/unfoliated folio: title-page folio. Verso blank.<quote>N° 17</quote> written in black ink on recto. </desc><desc xml:id="U2">1 unpaginated/unfoliated folio: <term xml:lang="ta">kāppu</term>. Verso blank.</desc><desc xml:id="U3">5 folios: <term xml:lang="ta">mūlam</term>. Tamil foliation 1-4; f5 not foliated.</desc></collation>
+                        
+                        <condition>Good state of preservation.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2"/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc><handNote synch="#U1" scope="major" script="tamil" scriptRef="#tamilPulliNone" medium="incised"><desc>Same hand as that of U2 and U3.</desc></handNote><handNote synch="#U1" scope="minor" script="tamil" scriptRef="#tamilPulliNone" medium="incised"><desc>Hand different from the main hand.</desc></handNote><handNote synch="#U2" scope="sole" script="tamil" scriptRef="#tamilPulliNone" medium="incised"/><handNote synch="#U3" scope="sole" script="tamil" scriptRef="#tamilPulliNone" medium="incised"/></handDesc>
+                  <decoDesc>
+                  </decoDesc>
+                  <additions>
+                  </additions>
+                  <bindingDesc>
+                     <binding><p><material resp="#cLI" cert="medium">Mahogany</material> woodcovers apparently fabricated in the BnF.</p></binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian" notAfter="1840">Dated to 1840 by Vinson (1867) and Cabaton (1912), on unknown grounds.</origDate>
+                     <origPlace>Tamilnadu</origPlace>
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl><title>Ulakanīti</title> 1918. <title>Ulakanīti uraiyum kataikkuṟippum</title>. Edited by Vāḻkutai Veṅkaṭarāma Cāstrikaḷ. Ceṉṉai: Ār. Kaṇapati Aṇṭu Kampeṉi.</bibl><bibl><title>Ulakanīti</title> n.d. In: <title>Nītinūṟ kottu. Mūlamum uraiyum.</title> Taṉalukkumi Puttakacālai Cuṉṉakam.</bibl><bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f33">p. 15</ref>.</bibl><bibl>Sweetman, Will and R. Ilakkuvan (2012). <title>The Bibliotheca Malabarica: Bartholomäs Ziegenbalg’s Tamil Library.</title> An Annotated edition and translation. Pondicherry: EFEO and IFP. ― See p. 111.</bibl><bibl>Vinson, Julien (1867). <title>Catalogue des manuscrits tamouls</title>. Corrected proofreadings printed by the atelier oriental de l’Imprimerie nationale. Access No. 4-IMPROR-77 (B). — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b105333021/f55">p. 23</ref>.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         
+      <p>TBA</p></encodingDesc>
+      <revisionDesc>
+         
+      <change when="2021-05">Record created by Emmanuel FRANCIS.</change></revisionDesc>
+   </teiHeader>
+   <facsimile>
+   </facsimile>
+<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+  <p>
+    <milestone facs="00" n="[1]r" unit="folio"/>
+    <milestone facs="00" n="1" unit="column"/>
+    <lb n="1"/><seg function="blessing">civamaya=m={pcs}</seg>
+    <lb n="2"/>Appaccāmi 
+    <lb n="3"/>[...]
+    <lb n="4"/>[...]
+    <milestone facs="00" n="2" unit="column"/>
+    <lb n="1"/>Appaccāmi
+    <lb n="2"/><seg function="title">Ulakanīti {pcs}</seg>
+  </p>
+</body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
+  <p>
+    <milestone facs="00" n="[1]r" unit="folio"/>
+    <lb n="margin"/><seg function="blessing">hariḥ Om</seg>
+    <lb n="1"/><seg function="invocation">Ulakanīti-p purāṇattai Uṇmai-y-āy uraikkavē kalaikaḷ āyiraṅ kaṇapati kāppu {pcl} </seg> <seg function="blessing">civa-maya=m</seg>
+  </p>
+</body></text><text synch="#U3" corresp="#T3" xml:lang="ta"><body>
+  <p>
+    <milestone facs="00" n="1r" unit="folio"/>
+    <lb n="margin"/><seg function="blessing">naṉṟāka</seg>
+    <milestone facs="00" n="1" unit="column"/>
+    <lb n="1"/><seg function="incipit">Ōtāmal oruṉāḷum irukka vēṇṭām</seg>
+    <lb n="2"/>Oruvaraiyum pollāṅku colla vēṇṭām
+    <lb n="3"/>mātāvai y-oruṉāḷumaṟakka vēṇṭām
+    <lb n="4"/>vañcaṉaikaḷ ceyvārō ṭiṇaṅka vēṇṭām
+  </p>
+  
+  <p>
+    <milestone facs="00" n="[5]v" unit="folio"/>
+    <milestone facs="00" n="2" unit="column"/>
+    <lb n="1"/>kātalittu maṉam kiḻntu karuttōr kēṭṭōr
+    <lb n="2"/>karuttuṭaṉē ṉāḷtōṟum mikuppatāmō
+    <lb n="3"/>pūtal natil mikavāḻntu poruḷun tēṭi
+    <lb n="4"/><seg function="explicit">pūlōkam uḷḷaḷavum vāḻ XX tāmē</seg> 10 {pcl}
+  </p>
+</body></text></TEI>
