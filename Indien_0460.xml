@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><term xml:lang="ta">Ñāṉōpatēcam, Kāṇṭam3</term> = Nobili's Catechism, Part 3</title>
+            
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Indien 460</idno>
+                  <idno type="alternate"><idno>Tamoul 460</idno></idno>
+               </msIdentifier>
+               <msContents class="#STM">
+                  <summary>3rd <emph rend="italic">kāṇṭam</emph> of <emph rend="italic">Ñāṉōpatēcam</emph> of Roberto de Nobili. It appears to be a paper copy of the early book printed in 1675-1676 (see U2,   365r6) and published in 1677-1678 at Ambalakhad, copies of which are available today in the Goa State Central Library (shelfmark "I-1a/1b Ambalacatta"; see Flüchter &amp; Nardini 2020, note 2).</summary>
+                  
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="undefined">Catechismus Romanus (front matter)</title><textLang mainLang="lat"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta">Ñāṉayupatēcam (mūṉṟāṅ kāṇṭam)</title><textLang mainLang="tam"/></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="paper">
+                        <support>
+                           <measure unit="stringhole"/>
+                           
+                        </support>
+                        <extent>
+                           <measure unit="folio" quantity="372">1+2+366+3 (u2+U1+U2+u4)</measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           <width quantity="185"/><height min="225" max="230"/></dimensions>
+                        <dimensions type="object" unit="mm"><width quantity="190"/><height quantity="245"/><depth quantity="55"/></dimensions><dimensions type="written" unit="mm"/></extent>
+                        <collation><desc xml:id="u1">the front cover. Blank paper on verso. Sticker <quote>INDIEN 460</quote>.</desc><desc xml:id="u2">1 unpaginated/unfoliated folio: front guard-leaf.  On the recto: <quote>n. 6.</quote> in black ink, <quote>Tamoul N° 460</quote> in black pencil. Verso blank.</desc><desc xml:id="U1">2 unpaginated/unfoliated folios: front matter (f[1]r). f[1]v, f[2]rv: blank.</desc><desc xml:id="U2">366 folios: main text: <emph rend="italic" xml:lang="ta">kāṇṭam</emph> 3 in 42 <emph rend="italic" xml:lang="ta">pāṭam</emph>s. Tamil foliation [1], 2-366 (first folio not explicitly foliated); Arabic library foliation 1-366 in black ink. 
+</desc><desc xml:id="u4">3 unpaginated/unfoliated folios: back guard leaves. Blank recto verso. </desc></collation>
+                        
+                        <condition>Good state of preservation. Binding broken.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc><handNote synch="#U1" scope="sole" script="latin" medium="ink black"/><handNote synch="#U2" scope="sole" script="tamil" scriptRef="#tamilPulliNone" medium="ink black"/></handDesc>
+                  <decoDesc>
+                  </decoDesc>
+                  <additions>
+                  <desc type="catchword">Bottom of pages.</desc><desc type="title">Running title on top of verso pages.</desc><desc type="intertitle">Running intertitles on top of recto pages.</desc></additions>
+                  <bindingDesc>
+                     <binding><p>Leather (brown). No title on spine.</p></binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian">Dated to 1720 by Cabaton (1912), on unknown grounds.</origDate>
+                     
+                  <origPlace>Tamilnadu.</origPlace></origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl><title>Ñāṉōpatēcam: mūṉṟām kāṇṭam</title> 1968. <title>Tattuva Pōtakar aruḷiya Ñāṉōpatēca mūṉṟām kāṇṭam.</title> Tūttukkuṭi: tamiḻ Ilakkiyak kaḻakam.</bibl><bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens. Bibliothèque nationale. Département des manuscrits.</title> Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f84">p. 65</ref>.</bibl><bibl>Flüchter, Antje &amp; Giulia Nardini (2017). “Threefold translation of the body of Christ:
+concepts of the Eucharist and the body translated
+in the early modern missionary context.” <title>Humanities and Social Sciences Communications</title> (2020) 7:86 | <ref target="https://doi.org/10.1057/s41599-020-00566-z">https://doi.org/10.1057/s41599-020-00566-z</ref></bibl><bibl>Nardini, Giulia (2017). “Roberto Nobili’s Vivāha dharma: A Case of Cultural Translation.” In: Antje Flüchter and Rouven Wirbser (ed.), <title>Translating Catechisms, Translating Cultures: The Expansion of Catholicism in the Early Modern World</title> (pp. 223‒251). Leiden, Boston: Brill.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         
+      <p>TBA</p></encodingDesc>
+      <revisionDesc>
+         
+      <change when="2021-05">Record created by Emmanuel FRANCIS.</change></revisionDesc>
+   </teiHeader>
+   <facsimile>
+   </facsimile>
+<text synch="#U1" corresp="#T1" xml:lang="undefined"><body>
+  
+  <p>
+    <milestone facs="00" n="[1]r" unit="folio"/>
+    <lb n="1"/>R. P. ROBERTI NOBILI
+    <lb n="2"/>ROMANI
+    <lb n="3"/>E SOCIETATE 
+    <lb n="4"/>JESU THEOLOGI.
+    <lb n="5"/>Catechismi Romani Tertia Pars
+    <lb n="6"/>In qua explicatur misterium Sanctissima
+    <lb n="7"/>Trinitatis Divini verbi Incarnatio, eius{que} vita,
+    <lb n="8"/>Passio, et mors : nec non Resurrectio Ascensio
+    <lb n="9"/>ad Caelum, missio Sancti Spiritus, usque ad
+    <lb n="10"/>diem judicci; et finalem sententiam tum pro
+    <lb n="11"/>justis, tum contra peccatores, demum absol:
+    <lb n="12" break="no"/>vit opus explicando gaudia beata vita, et
+    <lb n="13"/>damnatorum infinitos cruciatur.
+    <milestone facs="00" n="[1]v-[2v]" unit="folio"/>[blank]
+  </p>
+</body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
+  
+  <p>
+    <milestone facs="00" n="1r" unit="folio"/>
+    <lb n="1"/><seg function="title">ñāṉayupatēcattiṉ mūṇṭāṅ kāṇṭat
+    <lb n="2" break="no"/>til mutaṟ pāṭam.</seg>
+    <lb n="3"/><seg function="incipit">parāpāvas•taviṉ viṣayattilēy aṟiya vēṇṭiṉ
+    <lb n="4"/>paramākaciya cattiyaṅkaḷ mūṉṟu [...]</seg>
+
+    <milestone facs="00" n="366v" unit="folio"/>
+    <lb n="3"/><seg function="completion-statement">ñāṉayupatēcattiṉ mūṉṟāṅ kāṇṭattiṉ nāṟpat
+    <lb n="4" break="no"/>tiraṇṭām pāṭamuṟṟum</seg>
+    
+    <lb n="5"/>Inta postakaṅ kaṟtaṉ maṉuṣavatāram [i.e. maṉuṣāvatāram] paṇṇi ma
+    <lb n="6" break="no"/>ṉuṣaṉāy piṟanta 1000 6 100 7 10 7 {varuṣam} Āṭi {mācam} 7 {tēti}
+    <lb n="7"/>Eḻuti mukintatu muṟṟum
+    <lb n="8-18"/>
+
+  </p>
+</body></text></TEI>
