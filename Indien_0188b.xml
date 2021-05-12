@@ -5,10 +5,8 @@
       <fileDesc>
          <titleStmt>
             <title>2 Tamil syllabaries</title>
-         </titleStmt>
-         <editionStmt>
-            <p>Record edited by <persName>Emmanuel FRANCIS</persName> <orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName>.</p>
-         </editionStmt>
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         
          <publicationStmt>
             <publisher>TST Project</publisher>
             <date>2021</date>
@@ -20,21 +18,20 @@
                      <orgName>Bibliothèque nationale de France. Département des Manuscrits.</orgName>
                   </repository>
                   <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1037074</idno>
-                  <idno type="shelfmark">Indien 188.2</idno>
+                  <idno type="shelfmark">Indien 188b</idno>
                   <idno type="alternate"/>
                </msIdentifier>
                <msContents class="#STM">
-                  <summary>
-                   <p><emph rend="bold">U2</emph>: 2 Tamil syllabaries: one on the <locus facs="9">recto</locus>, the other on the <locus facs="10">verso</locus>, possibly by two different hands.</p></summary>
+                  <summary>2 Tamil syllabaries: one on the <locus facs="9">recto</locus>, the other on the <locus facs="10">verso</locus>, possibly by two different hands.</summary>
                   
                   
                   
-               <msItem n="U2" defective="false"><title xml:lang="ta">2 Tamil syllabaries</title><textLang mainLang="tam"/></msItem></msContents>
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">2 Tamil syllabaries</title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="paper">
                         <support>
-                            <p/>
+                            
                         </support>
                         <extent>
                            <measure unit="folio" quantity="1"/>
@@ -47,30 +44,30 @@
                         
                         
                         
-                     <foliation n="U2">1 folio, folded, library foliation 7 = 2 Tamil syllabaries, by hand n° 2 (possibly a different hand for each syllabary).</foliation><condition/></supportDesc>
+                     <collation><desc xml:id="U1">1 folio, folded. Arabic library foliation 7.</desc></collation></supportDesc>
                      <layoutDesc>
-                        <layout columns="1"/>
+                        
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
                      
                      
                      
-                  <handNote n="U2" scope="minor" script="tamil"><desc>Hand no° 2.</desc></handNote></handDesc>
+                  <handNote scope="minor" script="tamil" medium="ink black"/></handDesc>
                   <additions/>
                   <bindingDesc>
                      <binding>
-                        <p/>
+                        
                      </binding>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
                      <origDate calendar="gregorian"/>
-                     <origPlace/>
-                  </origin>
+                     
+                  <origPlace>Tamilnadu.</origPlace></origin>
                   <acquisition>
-                     <p/>
+                     
                   </acquisition>
                </history>
                <additional>
