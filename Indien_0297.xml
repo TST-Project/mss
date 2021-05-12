@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> Aruṇakiripurāṇam    </title>
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="eadid">FRBNFEAD000103865</idno>
+                  <idno type="shelfmark">Indien 297</idno>
+                  <idno type="alternate"><idno>Tamoul 297</idno><idno>Ancien fonds ??</idno></idno>
+               </msIdentifier>
+               <msContents class="#STM">
+                  <summary> The Aruṇakiripurāṇam. In 587 stanzas.   </summary>
+                  
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"> Aruṇaikirippurāṇam kaviyum Uraiyum      </title><textLang mainLang="tam"/></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="paper">
+                        <extent>
+                           <measure unit="folio" quantity="105">1 + 103 + 2 (u2 + U1 +u3)</measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           </dimensions>
+                        <dimensions type="object" unit="mm"><width quantity="225"/><height quantity="330"/><depth quantity="20"/></dimensions><dimensions type="written" unit="mm"/></extent>
+                        
+                        
+                     <collation>
+                     
+                     <desc xml:id="u1">the <emph rend="bold">front cover</emph>. On the verso: sticker <quote>INDIEN 297</quote>.</desc><desc xml:id="u2">1 unfoliated/unpaginated <emph rend="bold">front guard folio</emph>. On the recto: shelfmark <quote>Tamoul N° 297</quote> in black pencil. Verso blank.</desc><desc xml:id="U1">103 folios = <emph rend="bold">text</emph>. Tamil pagination 1–205 (p. 206 blank and not paginated) and parallel Arabic library foliation 1-103.</desc><desc xml:id="u3">2 unfoliated/unpaginated <emph rend="bold">back guard folios</emph>.</desc><desc xml:id="u4">the back cover.</desc></collation><condition>Good state of preservation. </condition></supportDesc>
+                     <layoutDesc>
+                        <layout columns="1"/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     
+                  <handNote synch="#U1" scope="sole" script="tamil" scriptRef="#tamilPulliNone" medium="ink black"/></handDesc>
+                  <additions/>
+                  <bindingDesc>
+                     <binding>
+                        <p><material>Paper</material> cover, with title <quote>Arounaigiri Pourâna</quote>
+written in black ink on the spine. </p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian" notAfter="1733">1733 at the latest. 1730 (corrected to 1733 in black pencil by a later hand) according to Cabaton (1912).</origDate>
+                     <origPlace>Tamilnadu.</origPlace>
+                  </origin>
+                  <acquisition>
+                     
+                  <p>It appears to be the <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105278700/f32"><quote>Arounay pouranam fables en vers en l'honneur des dieux du pays, écrit en papier</quote></ref> sent by the Jesuits of the Mission du Carnate in 1733 for the library of the king of France and mentioned in an ancien list (BnF NAF 5442, f9v).</p></acquisition>
+               <provenance/></history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f62">p. 44</ref>.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         
+      <change when="2021-05">Record created by Emmanuel FRANCIS.</change></revisionDesc>
+   <encodingDesc><p>TBA</p></encodingDesc></teiHeader>
+   
+<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+  
+  <p>
+    <milestone n="1" unit="page"/> [Tamil pagination]
+    <lb n="1"/><seg function="title">Aruṇaikiri-p-purāṇam kaviyum
+    <lb n="2"/>Uraiyum</seg>
+    <lb n="3"/>
+    <lb n="4"/>
+    <lb n="5"/>
+    <lb n="6"/>    
+  </p>
+  
+  <p>
+    <milestone n="28" unit="page"/>
+    <lb n="11"/><seg function="completion-statement">Aruṇai-māṉakara-c-carukkamuṟṟum</seg>
+    <lb n="12"/><seg function="intertitle">tirumalai-c-caṟukkam</seg>
+  </p>
+  
+  <p>
+    <milestone n="203" unit="page"/>
+    <lb n="40"/><seg function="explicit">civapatam peṟuvar tāmē ‡‡ – 8 –</seg> <seg function="completion-statement">puḷakātipa-c-ca
+    <lb n="41"/>rukkamuṟṟum</seg> – Āka viruttam – 5 100 8 10 7 –    
+  </p>
+  
+  <p>
+    <milestone n="204" unit="page"/> <term xml:lang="en">[blank]</term>      
+  </p>
+  
+  <p>
+    <seg function="table-of-contents"><milestone n="205" unit="page"/></seg>
+    <lb n="1"/>
+    <lb n="2"/>
+    <lb n="3"/>
+    <lb n="4"/>
+    <lb n="5"/>
+    <lb n="6"/>    
+  </p>
+  
+  <p>
+    <milestone n="206" unit="page"/> <term xml:lang="en">[blank]</term>      
+  </p>
+  
+</body></text></TEI>
