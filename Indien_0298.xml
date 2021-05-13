@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Aruṇācalapurāṇam        </title>
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="eadid">FRBNFEAD000000000</idno>
+                  <idno type="shelfmark">Indien 298</idno>
+                  <idno type="alternate"><idno>Tamoul 298</idno></idno>
+               </msIdentifier>
+               <msContents class="#STM">
+                  <summary>The <title xml:lang="ta">Aruṇācalapurāṇam</title>, which is the <emph rend="italic" xml:lang="ta">talappurāṇam</emph> of <placeName xml:lang="ta">Tiruvaṇṇāmalai</placeName>. Text incomplete (551 stanzas) and commentary.</summary>
+                  
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title-page folio</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T2" defective="true" class="#talapuranam"><title xml:lang="ta"><supplied reason="omitted">Aruṇakiripurāṇam</supplied></title><textLang mainLang="tam"/><filiation><p>BnF Indien 297, BnF Indien 299a, BnF Indien 983.</p></filiation></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="pothi">
+                     <supportDesc material="palm-leaf">
+                        <extent>
+                           <measure unit="folio" quantity="292">1 + 292 (U1 + U3)</measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           <width min="355" max="375"/></dimensions>
+                        <dimensions type="object" unit="mm"><width quantity="375"/><height quantity="35"/><depth quantity="180"/></dimensions><dimensions type="written" unit="mm"/></extent>
+                        
+                        
+                     <collation>
+                     
+                     <desc xml:id="U1">1 folio, unfoliated= the <emph rend="bold">title-page folio</emph>. 355 x 35 mm. Of a type different from that of the rest of bundle.
+</desc><desc xml:id="U2">the <emph rend="bold">front cover</emph>. </desc><desc xml:id="U3">291 folios = <emph rend="bold">text and commentary (interspersed)</emph>. Tamil foliation 1–291. 370 x 35 mm.</desc><desc xml:id="U4">the <emph rend="bold">back cover</emph>. </desc></collation><condition>Good state of preservation, despite bore holes. Some truncated or cracked folios.</condition><support><measure unit="stringhole" quantity="2"/></support></supportDesc>
+                     <layoutDesc>
+                        <layout columns="1"/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     
+                  <handNote synch="#U1" scope="sole" scribeRef="#ArielTitleScribe" script="tamil" scriptRef="#tamilRRa" medium="incised"/><handNote synch="#U3" scope="sole" script="tamil" medium="incised"/></handDesc>
+                  <additions/>
+                  <bindingDesc>
+                     <binding>
+                        <p>Original <material>bamboo</material> cover.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian" notAfter="1785">Dated to 1785 by Cabaton (1912), on unknown grounds.</origDate>
+                     <origPlace>Tamilnadu.</origPlace>
+                  </origin>
+                  <acquisition>
+                     
+                  </acquisition>
+               <provenance/></history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl><title>Aruṇācalapurāṇam</title> 1906. <title>Caiva Ellappanāvalar pāṭiya Aruṇācalapurāṇam. Mūlamum – uraiyum.</title> Iḵtu Kōkulapuram Aruṇācala Mutaliyārāl pārvaiyiṭappaṭṭu. Tirupari Irattiṉāmutaliyār avarkaḷ āṟṟamatu. Kalaikkiyāṉamuttirākṣaracālaiyiṟ patikappikkappaṭṭatu. Ceṉṉai.</bibl><bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f62">p. 44</ref>.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         
+      <change when="2021-05">Record created by Emmanuel FRANCIS.</change></revisionDesc>
+   <encodingDesc><p>TBA</p></encodingDesc></teiHeader>
+   
+<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+  
+  <p>
+    <milestone n="[1]r" unit="folio"/>
+    <lb n="1"/><seg function="title">Aruṇakiri-p
+    <lb n="2" break="no"/>-purāṇam
+    <lb n="3"/>Urai</seg>
+    <milestone n="[1]v" unit="folio"/><term xml:lang="en">[blank]</term>
+  </p>  
+  
+</body></text><text synch="#U3" corresp="#T2" xml:lang="ta"><body>
+  
+  <p>
+    <milestone n="1r" unit="folio"/>
+    <milestone n="1" unit="column"/>
+    <lb n="1"/><seg function="blessing">ha=ri Om</seg> <seg function="blessing">naṉṟāka</seg>
+    <lb n="2"/><seg function="blessing">kuru vāḻka ku
+    <lb n="3" break="no"/>ruvē tuṇai</seg> {pcs}
+    <lb n="4"/><seg function="blessing">Aruṇācala-yīcupa
+    <lb n="5" break="no"/>rar rakṣikka</seg> {pcs} {pcs}
+    <milestone n="2" unit="column"/>
+    <lb n="1"/>
+    <lb n="6"/>
+    <milestone n="1v" unit="folio"/><term xml:lang="en">[blank]</term>
+  </p> 
+  
+  <p>
+    <milestone n="2r" unit="folio"/>    
+    <milestone n="1" unit="column"/>
+    <lb n="1"/><seg function="blessing">civamayam</seg>
+    <lb n="2"/><seg function="intertitle">pāyira-c
+    <lb n="3" break="no"/>caṟkkam</seg>
+    <lb n="4"/><seg function="blessing">civamayam</seg>
+  </p> 
+  
+  <p>
+    <milestone n="291v" unit="folio"/>    
+    <lb n="2"/><gap reason="ellipsis"/><seg function="explicit">mālaiyamum aruviyeṉavē perukumē – Eṉpatu –</seg>
+  </p>  
+  
+</body></text></TEI>
