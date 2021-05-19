@@ -1,7 +1,7 @@
 const fs = require('fs');
 const jsdom = require('jsdom');
 
-var xmlDoc;
+//var xmlDoc;
 fs.readdir('./',function(err,files) {
     if(err)
         return console.log(err);
@@ -33,12 +33,12 @@ const getDate = function(el) {
         return [[notB,notA].join('—'),(notB || notA)]; 
     else return ['','0'];
 };
-
+/*
 const getTitles = function(nlist) {
     const titles = [...nlist].map(el => el.textContent);
     return titles.join(', ');
 };
-
+*/
 /*
 const textWalk = function(el) {
     const walker = xmlDoc.createTreeWalker(el,4);
@@ -81,6 +81,16 @@ const getCote = function(xmlDoc) {
     return {text: txt, sort: sort};
 };
 
+const getImages = (el) => {
+    if(!el) return '';
+    const url = el.getAttribute('url');
+    const dom = new jsdom.JSDOM('<!DOCTYPE html>');
+    const a = dom.window.document.createElement('a');
+    a.href = url;
+    a.appendChild(dom.window.document.createTextNode(a.hostname));
+    return a.innerHTML;
+};
+
 const readfiles = function(arr) {
     const template = new jsdom.JSDOM(fs.readFileSync('index-template.html',{encoding:'utf8'})).window.document;
     const tab = arr.map((f) => 
@@ -100,6 +110,7 @@ const readfiles = function(arr) {
             width: getMeasure(xmlDoc.querySelector('dimensions[type="leaf"] width')),
             height: getMeasure(xmlDoc.querySelector('dimensions[type="leaf"] height')),
             date: getDate(xmlDoc.querySelector('origDate')),
+            images: getImages(xmlDoc.querySelector('facsimile > graphic')),
         };
     });
     tab.sort((a,b) => {
@@ -107,7 +118,7 @@ const readfiles = function(arr) {
         else return 1;
     });
     const table = template.querySelector('#index').firstElementChild;
-    var tstr = '<thead><tr id="head"><th class="sorttable_sorted">Shelfmark<span id="sorttable_sortfwdind">&nbsp;&#x25BE;</span></th><th>Title</th><th>Material</th><th>Extent</th><th>Width (mm)</th><th>Height (mm)</th><th>Date</th></tr></thead>';
+    var tstr = '<thead><tr id="head"><th class="sorttable_sorted">Shelfmark<span id="sorttable_sortfwdind">&nbsp;&#x25BE;</span></th><th>Title</th><th>Material</th><th>Extent</th><th>Width (mm)</th><th>Height (mm)</th><th>Date</th><th>Images</th></tr></thead>';
     for(const t of tab) {
         const trstr = 
 `
@@ -118,6 +129,7 @@ const readfiles = function(arr) {
   <td sorttable_customkey="${t.width.replace(/^-|-$/,'')}">${t.width}</td>
   <td sorttable_customkey="${t.height.replace(/^-|-$/,'')}">${t.height}</td>
   <td sorttable_customkey="${t.date[1]}">${t.date[0]}</td>
+  <td class="smallcaps">${t.images}</td>
 </tr>`;
         tstr = tstr + trstr;
     }
