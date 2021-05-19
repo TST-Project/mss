@@ -23,7 +23,7 @@
                <msContents class="#STM">
                   <summary>4th <term xml:lang="ta">Kāṇṭam</term> of <term xml:lang="ta">Ñāṉōpatēcam</term> of Roberto de Nobili.</summary>
                   
-               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Ñāṉayupatēcam</title><author xml:lang="ta">Roberto de Nobili</author><textLang mainLang="tam"/></msItem></msContents>
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Ñāṉayupatēcam</title><author xml:lang="ta"><term xml:lang="en">Roberto de Nobili</term></author><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="paper">
@@ -32,13 +32,13 @@
                            
                         </support>
                         <extent>
-                           <measure unit="folio" quantity="216">1+1+2+208+2+1+1 (u2+u3+u4+U1+u5+u6+u7)</measure>
+                           <measure unit="folio" quantity="216">1 + 1 + 2 + 208 + 2 + 1 + 1 (u1+u2+u3+U1+u4+u5+u6)</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
                            <width quantity="180"/><height quantity="245"/></dimensions>
                         <dimensions type="object" unit="mm"><width quantity="195"/><height quantity="255"/><depth quantity="35"/></dimensions><dimensions type="written" unit="mm"/></extent>
-                        <collation><desc xml:id="u1">the front cover. Marbled paper on verso. Library binding. Sticker <quote>INDIEN 483</quote> on verso.</desc><desc xml:id="u2">1 unpaginated/unfoliated folio: front guard-leaf. Marbled paper on recto. Part of library binding.</desc><desc xml:id="u3">1 unpaginated/unfoliated folio: front guard-leaf. Blank recto-verso. Part of library binding.</desc><desc xml:id="u4">2 folios: front guard-leaves. Arabic library foliation 1-2 in black pencil. Old paper. Part of original manuscript. <quote>Tamoul N°483</quote> in black pencil (f1r).</desc><desc xml:id="U1">208 folios: main text. Tamil foliation 1-208 in black ink and Arabic library foliation 3-210 in black pencil. </desc><desc xml:id="u5">2  folios: back guard-leaves. Arabic library foliation 211-212 in black pencil. Old paper. Part of original manuscript.</desc><desc xml:id="u6">1 unpaginated/unfoliated folio: back guard-leaf. Blank recto-verso. Part of library binding.</desc><desc xml:id="u7">1 unpaginated/unfoliated folio: back guard-leaf. Marbled paper on verso. Part of library binding.</desc><desc xml:id="u8">the back cover. Marbled paper on recto. Library binding.</desc></collation>
+                        <collation><desc xml:id="cover">the <emph rend="bold">front cover</emph>. Marbled paper on verso. Library binding. With shelfmark sticker.</desc><desc xml:id="u1">1 unpaginated/unfoliated folio: front guard-leaf. Marbled paper on recto. Part of library binding.</desc><desc xml:id="u2">1 unpaginated/unfoliated folio: front guard-leaf. Blank recto-verso. Part of library binding.</desc><desc xml:id="u3">2 folios: front guard-leaves. Arabic library foliation 1-2 in black pencil. Old paper. Part of original manuscript. With shelfmark.</desc><desc xml:id="U1">208 folios: main text. Tamil foliation 1-208 in black ink and Arabic library foliation 3-210 in black pencil. </desc><desc xml:id="u4">2  folios: back guard-leaves. Arabic library foliation 211-212 in black pencil. Old paper. Part of original manuscript.</desc><desc xml:id="u5">1 unpaginated/unfoliated folio: back guard-leaf. Blank recto-verso. Part of library binding.</desc><desc xml:id="u6">1 unpaginated/unfoliated folio: back guard-leaf. Marbled paper on verso. Part of library binding.</desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>. Marbled paper on recto. Library binding.</desc></collation>
                         
                         <condition>Good state of preservation.</condition>
                      </supportDesc>
@@ -50,7 +50,7 @@
                   <decoDesc>
                   </decoDesc>
                   <additions>
-                  <desc type="catchword">Bottom of pages.</desc><desc type="title">Running title on top of pages: <quote xml:lang="ta">ñāṉayupatēcam</quote> on verso, <quote xml:lang="ta">nālāṅ kāṇṭam</quote> on recto.</desc></additions>
+                  <desc synch="#cover" type="shelfmark">BnF shelfmark <quote>INDIEN 483</quote> (sticker on verso of front cover).</desc><desc synch="#u3" type="shelfmark">BnF shelfmark <quote>Tamoul N°483</quote> (written in black pencil on f1r).</desc><desc synch="#U1" corresp="#T1" type="catchword">Bottom of pages.</desc><desc synch="#U1" corresp="#T1" type="title">Running title on top of pages: <quote xml:lang="ta">ñāṉayupatēcam</quote> on verso, <quote xml:lang="ta">nālāṅ kāṇṭam</quote> on recto.</desc></additions>
                   <bindingDesc>
                      <binding><p>Leather (brown). Title <quote>SILIVAIYIN MANTIRATOUKKOU VIVEKAM</quote> (that is, intertitle erroneously taken as title of the work) on spine. Heraldic <quote>L</quote> alternating with decorative design on spine.</p></binding>
                   </bindingDesc>
@@ -80,13 +80,13 @@
    </teiHeader>
    <facsimile>
    </facsimile>
-<text corresp="#T1" xml:lang="ta"><body>
+<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   <p>
     <milestone facs="00" n="1r" unit="folio"/>
     <lb n="1"/><seg function="intertitle">cilivaiyiṉ mantirattukku
     <lb n="2"/>vivēkam</seg>
     <lb n="3"/><term xml:lang="en">[series of dots]</term>
-    <lb n="4"/><seg function="incipit">[...]</seg>
+    <lb n="4"/><seg function="incipit"><gap reason="ellipsis"/></seg>
     
     <milestone facs="00" n="2r" unit="folio"/>
     <lb n="1"/><seg function="intertitle">cilivaiyiṉ mantirattukku
@@ -97,7 +97,7 @@
     <lb n="2"/>vivēkam</seg>
     
     <milestone facs="00" n="208v" unit="folio"/>
-    <lb n="9"/><seg function="explicit">[...] paṇṇāmal irukka-k ka
+    <lb n="9"/><gap reason="ellipsis"/> <seg function="explicit">paṇṇāmal irukka-k ka
     <lb n="10" break="no"/>ṭavāṉ</seg>
     <lb n="11"/><seg function="completion-statement">pattu-k kaṟpiṉaikku
     <lb n="12"/>viyākkiyāṉam
@@ -105,7 +105,7 @@
     
     <lb n="14"/><seg function="colophon">Inta-p postakaṅ kaṟtā maṉuṣavatāram paṇ
     <lb n="15" break="no"/>ṇi 1000 7 100 2 10 9 Āṇṭu Oyittemparu {mācam} 2 10 2 {tēti}
-    <lb n="16" break="no"/>kku collum [i.e. cellum] cavumiya {varuṣam} Aṟpaci {mācam} 10 {tēti}
+    <lb n="16" break="no"/>kku c<choice><sic>o</sic><corr>e</corr></choice>llum cavumiya {varuṣam} Aṟpaci {mācam} 10 {tēti}
     <lb n="17"/>caṉikkiḻamai mantira-viyākkiyāṉam eṉṟu
     <lb n="18"/>m postakam eḻuti
     <lb n="20"/>mukintutu</seg>
