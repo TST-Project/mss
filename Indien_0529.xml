@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Muslim Catechism?</title>
+            
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Indien 529</idno>
+                  <idno type="alternate"/>
+               </msIdentifier>
+               <msContents class="#STM">
+                  <summary>A Muslim Catechism? To be confirmed.</summary>
+                  
+               <msItem synch="#U2" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Muslim Catechism?</term></title><textLang mainLang="tam"/></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="pothi">
+                     <supportDesc material="palm-leaf">
+                        <support>
+                           <measure unit="stringhole" quantity="1"/>
+                           
+                        </support>
+                        <extent>
+                           <measure unit="folio" quantity="6"/>
+                           <dimensions type="leaf" unit="mm">
+                              <width quantity="160"/>
+                              
+                           <height quantity="30"/></dimensions>
+                        <dimensions type="object" unit="mm"><width quantity="165"/><height quantity="30"/><depth quantity="40"/></dimensions><dimensions type="written" unit="mm"/></extent>
+                        <collation><desc xml:id="cover">the <emph rend="bold">front cover</emph>. </desc><desc xml:id="U1">2 folios = <emph rend="bold">guard leaves</emph>. Unfoliated. Blank recto verso.</desc><desc xml:id="U2">54 folios = <emph rend="bold">main text</emph>. Tamil foliation 1-54.</desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>. With Sticker <quote>INDIEN 529</quote>.</desc></collation>
+                        
+                        <condition>Good state of conservation despite boreholes. Some broken folios.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        
+                     <layout writtenLines="4 7">U2: 7 lpp up to f3r; 4 lpp from f3v onwards.</layout></layoutDesc>
+                  </objectDesc>
+                  <handDesc><handNote synch="#U2" scope="minor" script="tamil" scriptRef="#tamilPulliNone" medium="incised"><desc>Hand #1 (f1r-f3r).</desc></handNote><handNote synch="#U2" scope="major" script="tamil" scriptRef="#tamilPulliNone" medium="incised"><desc>Hand #2 (f3v-f54v).</desc></handNote></handDesc>
+                  <decoDesc>
+                  </decoDesc>
+                  <additions>
+                  <desc synch="#U2" corresp="#T1" type="stamp documenting-note" subtype="beginning end">Stamp (red): 
+<quote>R.F. BIBLIOTHEQUE NATIONALE MANUSCRITS</quote> (f1r; f54v).
+</desc><desc synch="#U2" corresp="#T1" type="documenting-note" subtype="beginning">Arabic foliation <quote>54</quote> in black ink on f54r.</desc></additions>
+                  <bindingDesc>
+                     <binding><p>Original <material>wood</material> covers. U1, f1r and U2, f54v darkened = originally outside folios. </p></binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian">Precise date unknown.</origDate>
+                     
+                  <origPlace>Tamilnadu.</origPlace></origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens. Bibliothèque nationale. Département des manuscrits.</title> Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f93">p. 74</ref>.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         
+      <p>The <emph rend="italic">puḷḷi</emph>s are supplied.   </p></encodingDesc>
+      <revisionDesc>
+         
+      <change when="2021-05">Record created by Emmanuel FRANCIS</change></revisionDesc>
+   </teiHeader>
+   <facsimile>
+   </facsimile>
+<text synch="#U2" corresp="#T1" xml:lang="ta"><body>
+  <p>
+    <milestone facs="00" n="1r" unit="folio"/>
+    <milestone unit="left margin"/>
+    <lb n="1"/><seg function="blessing">vicum illā
+    <lb n="2" break="no"/>ki ṟṟakumā
+    <lb n="3" break="no"/>ṇi ṟṟakīm</seg>
+    <milestone unit="main text area"/> 
+    <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
+  </p>
+  <p>
+    <milestone facs="00" n="54v" unit="folio"/>
+        <lb n="3"/><seg function="explicit"><gap reason="ellipsis"/></seg>
+  </p>
+</body></text></TEI>
