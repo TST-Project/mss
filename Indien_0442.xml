@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -7,26 +7,26 @@
             <title>Land cadastre of the Pondicherry area</title>
          </titleStmt>
          <publicationStmt>
-            <publisher>Bibliothèque nationale de France.</publisher>
-            <date>2017</date>
+            <publisher>TST Project</publisher>
+            <date>2021</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
                   <repository>
                      <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
-                  </repository>
-                  <idno type="eadid">FRBNFEAD000103971</idno>
+                  </repository>    
                   <idno type="shelfmark">Indien 442</idno>
                   <idno type="alternate"><idno>Tamoul 442</idno></idno>
                </msIdentifier>
-               <msContents>
-                  <summary/>
-                  <msItem defective="">
-                     <title>Land cadastre of the Pondicherry area</title>
-                     <textLang mainLang="tam">Tamil</textLang>
-                  </msItem>
-               </msContents>
+               <msContents class="#STM">
+                  <summary>
+                     <p>This document appears to be a land cadastre/register. It pertains to the Pondicherry area and three territorial divisions (<foreign xml:lang="ta">tālūkkā</foreign>) thereof: the Putuccēri-t-tālūkkā (Pondicherry), the Villavanallūr-tālūkkā (actual Villianour/Villiyaṉūr), and the Pākūr-tālūkkā (Bahour).</p>
+                     <p> For each <foreign xml:lang="ta">tālūkkā</foreign>, is first provided a list of <foreign xml:lang="ta">ayaṉkiṟāmam</foreign>s (Government land) and associated <foreign xml:lang="ta">matuṟākiṟāmam</foreign>s (sweet land, that is, land free from saline impregnation [see Wilson 1855, p. 315, s.v. Madhu, on the term <foreign xml:lang="ta">madhurī</foreign>, as used in Cuttack region] or toddy land [see MTL, s.v. <foreign xml:lang="ta">maturai</foreign>, "spirituous liquor"]?). The <foreign xml:lang="ta">matuṟākiṟāmam</foreign>s are either named or given the status of {puṉcey} (land fit for dry cultivation only). For each <foreign xml:lang="ta">tālūkkā</foreign>, an individual total is given, making the distinction between <foreign xml:lang="ta">amāṉi ayaṉkiṟāmam</foreign>s (government managed land) and <foreign xml:lang="ta">koṅceciyakiṟāmam</foreign>s (leased land, from French “concession”?). Finally (f10v, c9–10) an overall total is given for the three <foreign xml:lang="ta">tālūkkā</foreign>s making the distinction between <foreign xml:lang="ta">ayaṉkiṟāmam</foreign> (that is, <foreign xml:lang="ta">amāṉi ayaṉkiṟāmam</foreign>) and <foreign xml:lang="ta">koṅceciyakiṟāmam</foreign>.</p>
+<p>It seems that the abbreviation <foreign xml:lang="ta">{poṉ}</foreign> ("gold") is used in the left margin in the same function as the <foreign xml:lang="ta">piḷḷaiyār cuḻi</foreign>, which is sometimes used instead.</p>
+         </summary>
+                  
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Land cadastre of the Pondicherry area</term></title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
@@ -36,147 +36,149 @@
                               <width quantity="800"/>
                               <height quantity="20"/>
                            </dimensions>
-                        </extent>
-                        <foliation/>
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
+                        
                         <condition>Very good state of preservation. </condition>
-                     </supportDesc>
+                     <support><measure unit="stringhole" quantity="1"/></support>
+                        <collation><desc xml:id="cover">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">10 folios. Tamil foliation 1-10 (<foreign xml:lang="ta">{mutal}</foreign> for folio 1, then 2‒10). This foliation is, unusually, found below the single hole on each recto folio. Another numbering is found in the margin, individualised per division (<foreign xml:lang="ta">tālūkkā</foreign>), starting with the second folio pertaining to the concerned division.</desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>.</desc></collation></supportDesc>
                      <layoutDesc>
-                        <layout columns="1" writtenLines=""/>
+                        <layout columns="10">The lay-out of the pages is in columns (approximately 10 columns per page).</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote scope="sole" script="tamil">
-                        <p>Tamil script. </p>
-                     </handNote>
-                  </handDesc>
+                     
+                  <handNote synch="#U1" scope="sole" script="tamil" scriptRef="#tamilPulliNone #tamilOE" medium="incised"/></handDesc>
                   <additions/>
                   <bindingDesc>
                      <binding>
-                        <p>Woodcovers apparently fabricated in the BnF. </p>
+                        <p><material resp="#cLI" cert="medium">Mahogany</material> woodcovers apparently fabricated in the BnF.</p>
                      </binding>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian" notBefore="1750" notAfter="1855">No internal date. Before 1855, as it is part of Ariel’s bequest made in that year to the Société Asiatique, Paris (Rosny 1869).</origDate>
-                     <origPlace>South India, Pondicherry. </origPlace>
+                     <origDate calendar="gregorian" notBefore="1750" notAfter="1854">No internal date. </origDate>
+                     <origPlace>South India, Pondicherry.</origPlace>
                   </origin>
                   <acquisition>
-                     <p>Bequest of <persName ref="https://catalogue.bnf.fr/ark:/12148/cb143513141" key="Ariel, Edouard (1818-1854)">Edouard Ariel</persName>. Made first to Société Asiatique de Paris in 1855, later transfered to Bibliothèque Nationale (see Rosny 1869).</p>
+                     <p>Received, August 1st, 1866, from the Société Asiatique (BnF gift no. 1192).</p>
                   </acquisition>
-               </history>
+               <provenance><p>Owned by <persName ref="https://catalogue.bnf.fr/ark:/12148/cb143513141" key="Ariel, Edouard (1818-1854)">Edouard Ariel</persName> (1818-1854). Bequested by Edouard Ariel to Société Asiatique (Rosny 1868, p. 177).</p></provenance></history>
                <additional>
                   <listBibl>
-                     <bibl>Cabaton, Antoine (1912). Catalogue sommaire des manuscrits indiens, indo-chinois et malayo-polynésiens. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f81">p. 63</ref>.</bibl>
-                     <bibl>Francis, Emmanuel (2019-04-22). INDIEN 442 BnF: Cadastre of Pondicherry. <ref target="https://tst.hypotheses.org/16">https://tst.hypotheses.org/16</ref>
-                     </bibl>
-                     <bibl>Wilson, H.H. (1855). A Glossary of Judicial and Revenue Terms (...) of British India. London: Allen &amp; Co.</bibl>
-                     <bibl>Rosny, Léon de (1869). La bibliothèque tamoule de M. Ariel, de Pondichéry. In: Variétés orientales (pp. 177‒224). Paris: Maisonneuve.</bibl>
-                  </listBibl>
+                     
+                     
+                     
+                     
+                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens. Bibliothèque nationale. Département des manuscrits.</title> Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f81">p. 63</ref>.</bibl><bibl>Francis, Emmanuel (2019-04-22). <title>INDIEN 442 BnF: Cadastre of Pondicherry.</title> <ref target="https://tst.hypotheses.org/16">https://tst.hypotheses.org/16</ref>
+                     </bibl><bibl>Wilson, H.H. (1855). <title>A Glossary of Judicial and Revenue Terms (...) of British India.</title> London: Allen &amp; Co.</bibl><bibl>Rosny, Léon de (1868). “La bibliothèque tamoule de M. Ariel, de Pondichéry.” In: <title>Variétés orientales</title> (pp. 177‒224). Paris: Maisonneuve.</bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change> This catalogue entry has been redacted by Emmanuel FRANCIS (CNRS, CEIAS UMR 8564, EHESS/CNRS) for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG). Version 1, May 2020. </change>
-      </revisionDesc>
-   </teiHeader>
-   <text>
-      <body>
-         <p>This document appears to be a land cadastre/register. It pertains to the Pondicherry area and three territorial divisions (<emph rend="italic">tālūkkā</emph>) thereof: the Putuccēri-t-tālūkkā (Pondicherry), the Villavanallūr-tālūkkā (actual Villianour/Villiyaṉūr), and the Pākūr-tālūkkā (Bahour). For each <emph rend="italic">tālūkkā</emph>, is first provided a list of <emph rend="italic">ayaṉkiṟāmam</emph>s (Government land) and associated <emph rend="italic">matuṟākiṟāmam</emph>s (sweet land, that is, land free from saline impregnation [see Wilson 1855, p. 315, s.v. Madhu, on the term <emph rend="italic">madhurī</emph>, as used in Cuttack region] or toddy land [see MTL, s.v. maturai, "spirituous liquor"]?). The <emph rend="italic">matuṟākiṟāmam</emph>s are either named or given the status of {puṉcey} (land fit for dry cultivation only). For each <emph rend="italic">tālūkkā</emph>, an individual total is given, making the distinction between <emph rend="italic">amāṉi ayaṉkiṟāmam</emph>s (government managed land) and <emph rend="italic">koṅceciyakiṟāmam</emph>s (leased land, from French “concession”?). Finally (f10v, c9–10) an overall total is given for the three <emph rend="italic">tālūkkā</emph>s making the distinction between <emph rend="italic">ayaṉkiṟāmam</emph> (that is, <emph rend="italic">amāṉi ayaṉkiṟāmam</emph>) and <emph rend="italic">koṅceciyakiṟāmam</emph>.</p>
-         <p>The bundle, a single-text manuscript, contains between the two woodcovers:</p>
-         <p>10 folios, Tamil foliation {mutal} for folio 1, then 2‒10. This foliation is, unusually, found below the single hole on each recto folio. Another numbering is found in the margin, individualised per division (<emph rend="italic">tālūkkā</emph>), starting with the second folio pertaining to the concerned division. The lay-out of the pages is in columns.</p>
-         <p>It seems that the abbreviation {poṉ} ("gold") is used in the left margin in the same function as the <emph rend="italic">piḷḷaiyār cuḻi</emph>, which is sometimes used instead.</p>
-         <p>The text is complete.</p>
-         <p>
-            <emph rend="bold">Paratexts</emph>: none.</p>
-         <p>
-            <emph rend="bold">Excerpts</emph>
-         </p>
-         <p>
-            <emph rend="bold">Folio 1, recto</emph> = <emph rend="bold">incipit</emph>: about Putuccērittālūkkā. <quote>
-               <p>(f1r, lm) {poṉ}</p>
-               <p>(f1r, c1, 1) putuccērittālūkkā</p>
-               <p>(f1r, c1, 2) Ayaṉkiṟāmam – matuṟākiṟāmam</p>
-               <p>(f1r, c2) {mutal} vatu [i.e. mutal-āvatu]</p>
-               <p>(f1r, c3, 1) Ayaṉkiṟāmam – Ālankuppam</p>
-               <p>(f1r, c3, 2) matuṟā [i.e. matuṟākiṟāmam] cañcīviṟāyaṉpēṭṭai</p>
-               <p>(f1r, c4) 2 vatu [i.e. Iraṇṭ-āvatu]</p>
-               <p>(f1r, c5, 1) Ayaṉkiṟāmam – Api<emph rend="bold">ṣe</emph>kapāk=kam</p>
-               <p>(f1r, c5, 2) matuṟā – māmpaṭṭu</p>
-               <p>(f1r, c5, 3) Āṇṭiyapāḷaiyam</p>
-               <p>(f1r, c5, 4) karikkañcēri</p>
-               <p>(...)</p>
-            </quote>
-         </p>
-         <p>
-            <emph rend="bold">Folio 2, recto</emph>: marginal numbering. <quote>
-               <p>(fr, lm) {poṉ} 2 pu [i.e. putuccēri]</p>
-               <p>(...)</p>
-            </quote>
-         </p>
-         <p>
-            <emph rend="bold">Folio 2, verso</emph>: total for Putuccērittālūkkā. <quote>
-               <p>(...)</p>
-               <p>(f2v, c5, 1) {Āka}</p>
-               <p>(f2v, c6, 1) Amāṉi Ayaṉkiṟāmam 10</p>
-               <p>(f2v, c6, 2) koṅceciyakiṟāmam 2</p>
-               <p>(f2v, c6, 3) {Āka} kiṟāmam 12</p>
-            </quote>
-         </p>
-         <p>
-            <emph rend="bold">Folio 3, recto</emph>: about Villavanallūrtālūkkā. <quote>
-               <p>(f1r, lm) {(poṉ/pcs)}</p>
-               <!--Check!--> <p>(f3r, c1, 1) villavanallūrtālūkkā</p>
-               <p>(f3r, c1, 2) Ayaṉkiṟāmam – matuṟākiṟāmam</p>
-               <p>(f3r, c2) {mutal} vatu</p>
-               <p>(f3r, c3, 1) Ayaṉkiṟāmam – Aṟacūr</p>
-               <p>(f3r, c3, 2) matuṟā {puṉcey} </p>
-               <p>(f3r, c4) 2 vatu</p>
-               <p>(...)</p>
-            </quote>
-         </p>
-         <p>
-            <emph rend="bold">Folio 4, recto</emph>: marginal numbering. <quote>
-               <p>(fr, lm) {poṉ} 2 vi [i.e. villavanallūr]</p>
-               <p>(...)</p>
-            </quote>
-         </p>
-         <p>
-            <emph rend="bold">Folio 8, recto</emph>: about Pākūrtālūkkā. <quote>
-               <p>(f1r, lm) {poṉ}</p>
-               <p>(f8r, c1, 1) pākūrtālūkkā Ayaṉkiṟāmam</p>
-               <p>(f8r, c1, 2) matuṟākiṟāmam {3 line-fillers}</p>
-               <p>(fr8, c2) {mutal} vatu</p>
-               <p>(f8r, c3, 1) Ayaṉkiṟāmam – Ātiṅkāppaṭṭu</p>
-               <p>(f8r, c3, 2) matuṟā {puṉcey}</p>
-               <p>(f8r, c4) 2 vatu </p>
-               <p>(...)</p>
-            </quote>
-         </p>
-         <p>
-            <emph rend="bold">Folio 9, recto</emph>: marginal numbering. <quote>
-               <p>(fr, lm) {pcs}<!--Check!--> 3 pā [i.e. pākūr]</p>
-               <p>(...)</p>
-            </quote>
-         </p>
-         <p>
-            <emph rend="bold">Folio 10, verso</emph> = <emph rend="bold">excipit</emph>: total for Pākūrtālūkkā; total for the three <emph rend="italic">tālūkkā</emph>s. <quote>
-               <p>(...)</p>
-               <p>(f10v, c7, 1) {Āka}</p>
-               <p>(f10v, c8, 1) Ayaṉ Amāṉikiṟāmam 29</p>
-               <p>(f10v, c8, 2) koṅceciyakiṟāmam {puṉcey} </p>
-               <p>(f10v, c9, 1) {Āka} tālūkkā 3kki</p>
-               <p>(f10v, c10, 1) Ayaṉkiṟāmam 88</p>
-               <p>(f10v, c10, 2) koṅceciyakiṟāmam 5</p>
-               <p>(f10v, c10, 3) {Āka} kiṟāmam 93 </p>
-            </quote>
-         </p>
-         <p>Abbreviations. c = column, f = folio, lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso. GOML = Government Oriental Manuscripts Library, Madras/Chennai. MTL = Madras Tamil Lexicon. TMSSML = Tanjore Maharaja Serfoji Sarasvati Mahal Library.</p>
-         <p>
-            <emph rend="bold">Transliteration conventions.</emph>
-         </p>
-         <p>Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Conjectural (whether the text is not clearly legible or the character is ambigous, e.g. <emph rend="italic">kāl</emph> or length of <emph rend="italic">o</emph> and <emph rend="italic">e</emph>) readings between parentheses. Alternative readings between parentheses separated by slash. Lost or entirely illegible character: "?". Crossed-out character: "X". Conjectural restoration of lost or entirely illegible between square brackets. Uppercase for initial vowels (in excerpts only). Unquoted text represented by (...). Conjunct letter: e.g. <emph rend="italic">t°</emph>, to be read <emph rend="italic">tum</emph> or <emph rend="italic">tam</emph>. Grantha letters in bold. Symbols/Abbreviations made explicit, between curly brackets: {pcs} = <emph rend="italic">piḷḷaiyār cuḻi</emph>, short form; {pcl} = <emph rend="italic">piḷḷaiyār cuḻi</emph>, long form, that is, with long horizontal stroke towards right; {varuṣam}, {mācam}, {tēti}; {line-filler}. Unfoliated folio number between square brackets, e.g. "f[1]r". Numerals normalised to decimal notation, e.g. "1121" not "1000 1 100 2 10 1". Hyphen occasionaly used to mark in-word components. Hyphen systematically used at the end of a line when the line-beginning is within a word or within a <emph rend="italic">cīr</emph>. <emph rend="italic">Sandhi</emph> split to the minimum: overshort <emph rend="italic">u</emph> occasionally restored as an apostrophe. Stanzas split by <emph rend="italic">cīr</emph>, as far as possible. <emph rend="italic">aṭi </emph>boundary marked by "‡".</p>
+         
+      <change when="2020-05">This catalogue entry has been redacted by Emmanuel FRANCIS (CNRS, CEIAS UMR 8564, EHESS/CNRS) for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG). Version 1, May 2020. </change><change when="2021-05">Updated to TST encoding conventions by Emmanuel FRANCIS.</change></revisionDesc>
+   <encodingDesc><p>TBC</p></encodingDesc></teiHeader>
+   
+<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+  
+  <p>
+    <milestone facs="00" n="1r" unit="folio"/>[<term xml:lang="en">about Putuccērittālūkkā</term>]
+     <milestone unit="left margin"/>
+    <lb n="1"/>{poṉ}
+    <milestone n="1" unit="column"/>
+    <lb n="1"/>putuccērittālūkkā
+    <lb n="2"/>Ayaṉkiṟāmam – matuṟākiṟāmam
+    <milestone n="2" unit="column"/>
+    <lb n="1"/>{mutal}vatu [<term xml:lang="en">i.e.</term> mutal-āvatu]
+    <milestone n="3" unit="column"/>
+    <lb n="1"/>Ayaṉkiṟāmam – Ālankuppam
+    <lb n="2"/>matuṟā [<term xml:lang="en">i.e.</term> matuṟākiṟāmam] cañcīviṟāyaṉpēṭṭai
+    <milestone n="4" unit="column"/>
+    <lb n="1"/>2vatu [<term xml:lang="en">i.e.</term> Iraṇṭ-āvatu]
+    <milestone n="5" unit="column"/>
+    <lb n="1"/>Ayaṉkiṟāmam – Apiṣekapāk=kam
+    <lb n="2"/>matuṟā – māmpaṭṭu
+    <lb n="3"/>Āṇṭiyapāḷaiyam
+    <lb n="4"/>karikkañcēri
+  </p>
+  
+  <p>
+    <milestone facs="00" n="2r" unit="folio"/>
+    <milestone unit="left margin"/>
+    <lb n="1"/>{poṉ} 2 pu [<term xml:lang="en">i.e.</term> putuccēri]
+  </p>
+  
+  <p>
+    <milestone facs="00" n="2v" unit="folio"/>[<term xml:lang="en">total for Putuccērittālūkkā</term>]
+    <milestone n="5" unit="column"/>
+    <lb n="1"/>{Āka}
+    <milestone n="6" unit="column"/>
+    <lb n="1"/>Amāṉi Ayaṉkiṟāmam 10
+    <lb n="2"/>koṅceciyakiṟāmam 2
+    <lb n="3"/>{Āka} kiṟāmam 12
+  </p>
+  
+  <p>
+    <milestone facs="00" n="3r" unit="folio"/>[<term xml:lang="en">about Villavanallūrtālūkkā</term>]
+    <milestone unit="left margin"/>
+    <lb n="1"/>{<choice><unclear>poṉ</unclear><unclear>pcs</unclear></choice>}
+    <milestone n="1" unit="column"/>
+    <lb n="1"/>villavanallūrtālūkkā
+    <lb n="2"/>Ayaṉkiṟāmam – matuṟākiṟāmam
+    <milestone n="2" unit="column"/>
+    <lb n="1"/>{mutal} vatu
+    <milestone n="3" unit="column"/>
+    <lb n="1"/>Ayaṉkiṟāmam – Aṟacūr
+    <lb n="2"/>matuṟā {puṉcey}
+    <milestone n="4" unit="column"/>
+    <lb n="1"/>2vatu
+  </p>
+  
+  <p>
+    <milestone facs="00" n="4r" unit="folio"/>
+    <milestone unit="left margin"/>
+    <lb n="1"/>{poṉ} 2 vi [<term xml:lang="en">i.e.</term> villavanallūr]
+    </p>
+      
+      <p>
+        <milestone facs="00" n="8r" unit="folio"/>[<term xml:lang="en">about Pākūrtālūkkā</term>]
+        <milestone unit="left margin"/>
+        <lb n="1"/>{poṉ}
+        <milestone n="1" unit="column"/>
+        <lb n="1"/>pākūrtālūkkā Ayaṉkiṟāmam
+        <lb n="2"/>matuṟākiṟāmam {<term xml:lang="en">3 line-fillers</term>}
+        <milestone n="2" unit="column"/>
+        <lb n="1"/>{mutal}vatu
+        <milestone n="3" unit="column"/>
+        <lb n="1"/>Ayaṉkiṟāmam – Ātiṅkāppaṭṭu
+        <lb n="2"/>matuṟā {puṉcey}
+        <milestone n="4" unit="column"/>
+        <lb n="1"/>2vatu
+      </p>
+      
+      <p>
+        <milestone facs="00" n="9r" unit="folio"/>
+        <milestone unit="left margin"/>
+        <lb n="1"/>{poṉ} 3 pā [<term xml:lang="en">i.e.</term> pākūr]
+      </p>
+      
+      <p>
+        <milestone facs="00" n="10v" unit="folio"/>[<term xml:lang="en">total for Pākūrtālūkkā; total for the three <term xml:lang="ta">tālūkkā</term>s.</term>]
+        <milestone unit="left margin"/>
+        <lb n="1"/>{poṉ}
+        <milestone n="7" unit="column"/>
+        <lb n="1"/>{Āka}
+        <milestone n="8" unit="column"/>
+        <lb n="1"/>Ayaṉ Amāṉikiṟāmam 29     
+        <lb n="2"/>koṅceciyakiṟāmam {puṉcey}
+        <milestone n="9" unit="column"/>
+        <lb n="1"/>{Āka} tālūkkā 3kki        
+        <milestone n="10" unit="column"/>
+        <lb n="1"/>Ayaṉkiṟāmam 88
+        <lb n="2"/>koṅceciyakiṟāmam 5
+        <lb n="3"/>{Āka} kiṟāmam 93
+      </p>             
       </body>
-   </text>
-</TEI>
+   </text></TEI>
