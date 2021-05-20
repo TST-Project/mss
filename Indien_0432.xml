@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -7,8 +7,8 @@
             <title>Tamil Syllabary</title>
          </titleStmt>
          <publicationStmt>
-            <publisher>Bibliothèque nationale de France.</publisher>
-            <date>2017</date>
+            <publisher>TST Project</publisher>
+            <date>2021</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -20,36 +20,33 @@
                   <idno type="shelfmark">Indien 432</idno>
                   <idno type="alternate"><idno>Tamoul 432</idno></idno>
                </msIdentifier>
-               <msContents>
-                  <summary/>
-                  <msItem defective="">
-                     <title>Tamil syllabary</title>
-                     <textLang mainLang="tam">Tamil</textLang>
-                  </msItem>
-               </msContents>
+               <msContents class="#STM">
+                  <summary><p>The manuscript contains a Tamil syllabary (U2). We find successively: the series of initial vowels (f1); the series of the 18 consonants with <emph rend="italic">a</emph> vocalisation (ka, ṅa, ca, ña, ṭa, ṇa, ta, na, pa, ma, ya, ra, la, va, ḻa, ḷa, ṟa, and ṉa) (f2); the series of the 18 consonants (ka, ṅa, ca, ña, ṭa, ṇa, ta, na, pa, ma, ya, ra, la, va, ḻa, ḷa, ṟa, ṉa), given successively (1 folio per consonant), each with the different options for the vocalisation of the consonant and, as final sign, the consonant with <foreign xml:lang="ta">puḷḷi</foreign> (f3–f20).</p>
+         <p>The manuscript has been used. The original Tamil foliation has been “translated” in Arabic foliation. Furthermore, the same hand has supplied, below the Tamil letters, Latin transcriptions in ink (with indication of the length of the vowels). This was done most probably by/for a French speaker, as shown, e.g., in the <emph rend="italic">ka</emph> series (f3r), where <emph rend="italic">ka</emph> க <emph rend="italic">kā</emph> கா <emph rend="italic">ki</emph> கி <emph rend="italic">kī</emph> கீ are transcribed as <emph rend="italic">că</emph>, <emph rend="italic">cā</emph>, <emph rend="italic">quĭ</emph>, <emph rend="italic">quī</emph>. This later hand also added commas between the individual letters as the alphabet is given in scriptio continua. </p>
+<p><emph rend="bold">Paratexts</emph>: marginal benediction; addenda by a later hand.</p></summary>
+                  
+               <msItem synch="#U2" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Tamil syllabary</term></title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
                         <extent>
-                           <measure unit="folio" quantity="22">22 (1 + 20 + 1) folios.</measure>
+                           <measure unit="folio" quantity="22">1 + 20 + 1 (U1 + U2 + U3)</measure>
                            <dimensions type="leaf" unit="mm">
                               <width quantity="295"/>
                               <height min="20" max="25"/>
                            </dimensions>
                            <note>The leaves are broader in their middle than at their edges. </note>
-                        </extent>
-                        <foliation/>
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
+                        
                         <condition>Excellent state of preservation. The leaves are not particularly well prepared. </condition>
-                     </supportDesc>
+                     <support><measure unit="stringhole" quantity="1"/></support><collation><desc xml:id="cover">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">guard leaf</emph>. No foliation.</desc><desc xml:id="U2">20 folios = <emph rend="bold">syllabary</emph>. Parallel Tamil foliation 1‒20 and later added Arabic foliation 1‒20. 1 line per page (very big letters). </desc><desc xml:id="U3"> 1 folio = <emph rend="bold">guard leaf</emph>. Arabic foliation 21 added in ink in the left margin.</desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>.</desc></collation></supportDesc>
                      <layoutDesc>
-                        <layout columns="1" writtenLines=""/>
+                        <layout columns="1" writtenLines="1"/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote scope="sole" script="tamil">
-                        <p>Tamil script. The handwriting is not particularly neat. The manuscript does not use double-curled <emph rend="italic">kompu</emph>, but, for some letters, a distinction is made through another device: a supplementary loop seems to indicate that the vowel is long, but only for <emph rend="italic">ṟō</emph> றோ and <emph rend="italic">ṉō</emph> னோ. This device is probably based on the analogy of the distinction made between initial <emph rend="italic">o</emph> and initial <emph rend="italic">ō</emph> or between <emph rend="italic">ḷu</emph> and <emph rend="italic">ḷū</emph>. The <emph rend="italic">puḷḷi</emph> is used. Note the peculiar form of <emph rend="italic">āytam</emph> (<emph rend="italic">ḵ</emph>, ஃ in modern Tamil script), which looks like a modern <emph rend="italic">kū</emph>, while another glyph, similar but different, is used for the letter <emph rend="italic">kū</emph>. </p>
-                     </handNote>
-                  </handDesc>
+                     
+                  <handNote scope="sole" script="tamil" medium="incised"/></handDesc>
                   <additions/>
                   <bindingDesc>
                      <binding>
@@ -60,7 +57,7 @@
                <history>
                   <origin>
                      <origDate calendar="gregorian" when="1835">1835 according to Cabaton (1912, p. 61). The reason for this date is unknown. </origDate>
-                     <origPlace>South India, Tamilnadu. </origPlace>
+                     <origPlace>South India, Tamilnadu.</origPlace>
                   </origin>
                   <acquisition>
                      <p>Unknown.</p>
@@ -68,53 +65,49 @@
                </history>
                <additional>
                   <listBibl>
-                     <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois et malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f79">p. 61</ref>.</bibl>
-                     <bibl>Francis, Emmanuel (2019-11-14). BnF INDIEN 432: A Tamil Alphabet. <ref target="https://tst.hypotheses.org/710">https://tst.hypotheses.org/710</ref>
-                     </bibl>
-                  </listBibl>
+                     
+                     
+                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois et malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f79">p. 61</ref>.</bibl><bibl>Francis, Emmanuel (2019-11-14). <title>BnF INDIEN 432: A Tamil Alphabet.</title> <ref target="https://tst.hypotheses.org/710">https://tst.hypotheses.org/710</ref>
+                     </bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change> This catalogue entry has been redacted by Emmanuel FRANCIS (CNRS, CEIAS UMR 8564, EHESS/CNRS) for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG). Version 1, May 2020. </change>
-      </revisionDesc>
-   </teiHeader>
-   <text>
-      <body>
-         <p>The manuscript contains a Tamil syllabary (U2). We find successively: the series of initial vowels (f1); the series of the 18 consonants with <emph rend="italic">a</emph> vocalisation (ka, ṅa, ca, ña, ṭa, ṇa, ta, na, pa, ma, ya, ra, la, va, ḻa, ḷa, ṟa, and ṉa) (f2); the series of the 18 consonants (ka, ṅa, ca, ña, ṭa, ṇa, ta, na, pa, ma, ya, ra, la, va, ḻa, ḷa, ṟa, ṉa), given successively (1 folio per consonant), each with the different options for the vocalisation of the consonant and, as final sign, the consonant with <emph rend="italic">puḷḷi</emph> (f3–f20). </p>
-         <p>The manuscript has been used. The original Tamil foliation has been “translated” in Arabic foliation. Furthermore, the same hand has supplied, below the Tamil letters, Latin transcriptions in ink (with indication of the length of the vowels). This was done most probably by/for a French speaker, as shown, e.g., in the <emph rend="italic">ka</emph> series (f3r), where <emph rend="italic">ka</emph> க <emph rend="italic">kā</emph> கா <emph rend="italic">ki</emph> கி <emph rend="italic">kī</emph> கீ are transcribed as <emph rend="italic">că</emph>, <emph rend="italic">cā</emph>, <emph rend="italic">quĭ</emph>, <emph rend="italic">quī</emph>. This later hand also added commas between the individual letters as the alphabet is given in scriptio continua. </p>
-         <p>The bundle contains between the two woodcovers:</p>
-         <p>
-            <emph rend="bold">U1</emph>: 1 folio, unfoliated = flyleaf.</p>
-         <p>
-            <emph rend="bold">U2</emph>: 20 folios, parallel Tamil foliation 1‒20 and later added Arabic foliation 1‒20 = syllabary. 1 line per page (very big letters). </p>
-         <p>
-            <emph rend="bold">U3</emph>: 1 folio, Arabic foliation 21 added in ink in the left margin = flyleaf.</p>
-         <p>The bundle is complete.</p>
-         <p>
-            <emph rend="bold">Paratexts</emph>: marginal benediction; addenda by a later hand.</p>
-         <p>
-            <emph rend="bold">Excerpts</emph>
-         </p>
-         <p>
-            <emph rend="bold">U2</emph>, folio 1, recto and verso = incipit: marginal benediction; series of initial vowels. <quote>
-               <p>(f1r, lm) kurupātan tuṇai</p>
-               <p>(f1r) A Ā I Ī U Ū E Ē</p>
-               <p>(f1v) AI O Ō AU ḵ {line-filler}</p>
-            </quote>
-         </p>
-         <p>
-            <emph rend="bold">U2</emph>, folio 20, recto and verso = excipit: the <emph rend="italic">ṉa</emph> series. <quote>
-               <p>(f20r) ṉa ṉā ṉi ṉī ṉu ṉū ṉe ṉē ṉai</p>
-               <p>(f20v) ṉo ṉō ṉau {line-filler?} ṉ</p>
-            </quote>
-         </p>
-         <p>Abbreviations. c = column, f = folio, lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.</p>
-         <p>
-            <emph rend="bold">Transliteration conventions.</emph>
-         </p>
-         <p>Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only).</p>
-      </body>
-   </text>
-</TEI>
+         
+      <change when="2020-05"> This catalogue entry has been redacted by Emmanuel FRANCIS (CNRS, CEIAS UMR 8564, EHESS/CNRS) for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG). Version 1, May 2020. </change><change when="2021-05">Updated to TST encoding conventions by Emmanuel FRANCIS.</change></revisionDesc>
+   <encodingDesc><p><p>
+  <emph rend="bold">Transliteration conventions</emph>
+</p>
+<p>
+  Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only).
+</p>
+<p><emph rend="bold">Abbreviations</emph></p>
+<p> c = column, f = folio, lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.</p></p></encodingDesc></teiHeader>
+   
+<text synch="#U2" corresp="#T1" xml:lang="ta"><body>
+  
+  <p>
+    <milestone n="1r" unit="folio"/>
+    <milestone unit="left margin"/><seg function="blessing">kurupātan tuṇai</seg>
+    <milestone unit="main text area"/>
+    <lb n="1"/><seg function="incipit">A Ā I Ī U Ū E Ē</seg>
+  </p>
+  
+  <p>
+    <milestone n="1v" unit="folio"/>
+    <lb n="1"/>AI O Ō AU ḵ {<term xml:lang="en">line-filler</term>}
+  </p>
+  
+  <p>
+    <milestone n="20r" unit="folio"/>
+    <lb n="1"/>ṉa ṉā ṉi ṉī ṉu ṉū ṉe ṉē ṉai
+   </p>
+  
+  <p>
+    <milestone n="20v" unit="folio"/>
+    <lb n="1"/><seg function="explicit">ṉo ṉō ṉau {<term xml:lang="en">line-filler?</term>} ṉ</seg>
+   </p>
+
+</body>
+   </text></TEI>
