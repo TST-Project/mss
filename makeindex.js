@@ -118,7 +118,7 @@ const readfiles = function(arr) {
         else return 1;
     });
     const table = template.querySelector('#index').firstElementChild;
-    var tstr = '<thead><tr id="head"><th class="sorttable_sorted">Shelfmark<span id="sorttable_sortfwdind">&nbsp;&#x25BE;</span></th><th>Title</th><th>Material</th><th>Extent</th><th>Width (mm)</th><th>Height (mm)</th><th>Date</th><th>Images</th></tr></thead>';
+    var tstr = '<thead><tr id="head"><th class="sorttable_alphanum sorttable_sorted">Shelfmark<span id="sorttable_sortfwdind">&nbsp;&#x25BE;</span></th><th>Title</th><th>Material</th><th>Extent</th><th>Width (mm)</th><th>Height (mm)</th><th>Date</th><th>Images</th></tr></thead>';
     for(const t of tab) {
         const trstr = 
 `
