@@ -23,7 +23,7 @@
                <msContents class="#MTM">
                   <summary>Contains the <title xml:lang="ta">Apirāmi Antāti</title> and the <title xml:lang="ta">Ampikaimālai</title>.</summary>
                   
-               <msItem synch="#U1a" xml:id="T1" defective="false"><title xml:lang="ta">Apirāmi Antāti: kāppu</title><textLang mainLang="tam"/></msItem><msItem synch="#U1b" xml:id="T2" defective="true"><title xml:lang="ta">Apirāmi Antāti: nūl</title><textLang mainLang="tam"/></msItem><msItem synch="#U2a" xml:id="T3" defective="false"><title xml:lang="ta"> Ampikaimālai: kāppu</title><textLang mainLang="tam"/></msItem><msItem synch="#U2b" xml:id="T4" defective="false"><title xml:lang="ta"> Ampikaimālai: nūl</title><textLang mainLang="tam"/></msItem></msContents>
+               <msItem synch="#U1a" xml:id="T1a" defective="false"><title xml:lang="ta">Apirāmi Antāti: kāppu</title><textLang mainLang="tam"/></msItem><msItem synch="#U1b" xml:id="T1b" defective="true"><title xml:lang="ta">Apirāmi Antāti: nūl</title><textLang mainLang="tam"/></msItem><msItem synch="#U2a" xml:id="T2a" defective="false"><title xml:lang="ta"> Ampikaimālai: kāppu</title><textLang mainLang="tam"/></msItem><msItem synch="#U2b" xml:id="T2b" defective="false"><title xml:lang="ta"> Ampikaimālai: nūl</title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
@@ -46,8 +46,8 @@
                   </objectDesc>
                   <handDesc>
                      
-                  <handNote synch="#U1a" scope="sole" script="tamil" medium="incised"/><handNote synch="#U1b" scope="sole" script="tamil" medium="incised"/><handNote synch="#U2a" scope="sole" script="tamil" medium="incised"/><handNote synch="#U2a" scope="sole" script="tamil" medium="incised"/></handDesc>
-                  <additions/>
+                  <handNote synch="#U1a U1b U2a U2b" scope="sole" script="tamil" medium="incised"/></handDesc>
+                  <additions><desc synch="#cover" subtype="beginning cover">BnF shelfmark sticker <quote>INDIEN 380</quote> (front cover, recto).</desc></additions>
                   <bindingDesc>
                      <binding>
                         <p><material resp="#cLI" cert="medium">Mahogany</material> woodcovers apparently fabricated in the BnF.</p>
@@ -76,7 +76,7 @@
       <change when="2021-05">Record created by Emmanuel FRANCIS.</change></revisionDesc>
    <encodingDesc><p>TBA</p></encodingDesc></teiHeader>
    
-<text synch="#U1a" corresp="#T1" xml:lang="ta"><body>
+<text synch="#U1a" corresp="#T1a" xml:lang="ta"><body>
   
   <p>
     <milestone n="[1]r" unit="folio"/>
@@ -89,14 +89,14 @@
     <lb n="3"/>
     <lb n="4"/>
     <milestone n="2" unit="column"/>
-    <lb n="1"/>mu=tucāmi={pcl}
+    <lb n="1"/>mu=tucāmi=<term xml:lang="en">{pcl}</term>
     <lb n="2"/><seg function="title">Apirāmi Antāti</seg> <term xml:lang="en">[unblackened]</term>
   </p>
   <p>
     <milestone n="[1]v" unit="folio"/><term xml:lang="en">[blank]</term>
   </p>  
   
-</body></text><text synch="#U1b" corresp="#T2" xml:lang="ta"><body>
+</body></text><text synch="#U1b" corresp="#T1b" xml:lang="ta"><body>
   
   <p>
     <milestone n="1r" unit="folio"/>
@@ -127,10 +127,10 @@
     <lb n="3"/>
     <lb n="4"/>
     <milestone n="3" unit="column"/>
-    <lb n="1"/>muṟ<del>t</del>ṟum {pcl}
+    <lb n="1"/>muṟ<del>t</del>ṟum <term xml:lang="en">{pcl}</term>
   </p>     
   
-</body></text><text synch="#U2a" corresp="#T3" xml:lang="ta"><body>
+</body></text><text synch="#U2a" corresp="#T2a" xml:lang="ta"><body>
   
   <p>
     <milestone n="[1]r" unit="folio"/>
@@ -149,7 +149,7 @@
     <milestone n="[1]v" unit="folio"/><term xml:lang="en">[blank]</term>
   </p>  
   
-</body></text><text synch="#U2b" corresp="#T4" xml:lang="ta"><body>
+</body></text><text synch="#U2b" corresp="#T2b" xml:lang="ta"><body>
   
   <p>
     <milestone n="1r" unit="folio"/>
