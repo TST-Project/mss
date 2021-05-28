@@ -1,209 +1,209 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Album Ducler 2: Divinités et souverains de l'Inde  </title>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Album Ducler 2: Divinités et souverains de l'Inde  </title>
+        
+        <editor><persName>Lola VAISSAIRE</persName><orgName>École du Louvre</orgName></editor><editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+      <publicationStmt>
+        <publisher>TST Project</publisher>
+        <date>2021</date>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository>
+              <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+            </repository>
+            <idno type="shelfmark">Indien 744</idno>
+            <idno type="alternate"><idno>Indien 99</idno></idno>
+          </msIdentifier>
+          <msContents class="#STM">
+            <summary><p>1st, 4th and 5th series of gouache paintings commissioned by Ducler.</p>
+              <p>In the 1st series (108 gouache paintings) are found ...</p>
+              <p>In the 4th series (28 gouache paintings) are found ...</p>
+              <p>In the 5th series (46 gouache paintings) are found ...</p>
+              <p>The total for three series amounts to 182  gouache paintings.</p></summary>
             
-         <editor><persName>Lola VAISSAIRE</persName><orgName>École du Louvre</orgName></editor><editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
-         <publicationStmt>
-            <publisher>TST Project</publisher>
-            <date>2021</date>
-         </publicationStmt>
-         <sourceDesc>
-            <msDesc>
-               <msIdentifier>
-                  <repository>
-                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
-                  </repository>
-                  <idno type="shelfmark">Indien 744</idno>
-                  <idno type="alternate"><idno>Indien 99</idno></idno>
-               </msIdentifier>
-               <msContents class="#STM">
-                  <summary><p>1st, 4th and 5th series of gouache paintings commissioned by Ducler.</p>
-<p>In the 1st series (108 gouache paintings) are found ...</p>
-<p>In the 4th series (28 gouache paintings) are found ...</p>
-<p>In the 5th series (46 gouache paintings) are found ...</p>
-<p>The total for three series amounts to 182  gouache paintings.</p></summary>
+            <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Labels to gouache paintings</term></title><textLang mainLang="tam" otherLangs="fra"/></msItem></msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc material="paper">
+                <support>
+                  <measure unit="stringhole"/>
                   
-               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Labels to gouache paintings</term></title><textLang mainLang="tam" otherLangs="fra"/></msItem></msContents>
-               <physDesc>
-                  <objectDesc form="codex">
-                     <supportDesc material="paper">
-                        <support>
-                           <measure unit="stringhole"/>
-                           
-                        </support>
-                        <extent>
-                           <measure unit="folio" quantity="184">1 + 182 + 1 (u1 + U1 + u2)</measure>
-                           <dimensions type="leaf" unit="mm">
-                              
-                              
-                           </dimensions>
-                        <dimensions type="object" unit="mm"><width quantity="210"/><height quantity="320"/></dimensions><dimensions type="written" unit="mm"/></extent>
-                        <collation><desc xml:id="cover">the <emph rend="bold">front cover</emph>. BnF shelfmark sticker on verso.</desc><desc xml:id="u1">1 folio = front <emph rend="bold">guard leaf</emph>. No foliation. Blank except for BnF old shelfmark on f[1]r.</desc><desc xml:id="U1">182 folios = <emph rend="bold">gouache paintings</emph>. Library Arabic foliation 1-182 in black ink. Parallel original (?) Arabic foliation 1a-108a (lf1-108), 1c-28c (lf139-136), 1d-46d (lf137-182) in black pencil. Verso blank.</desc><desc xml:id="u2">1 folio = back <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso.</desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>. </desc></collation>
-                        
-                        <condition>Very good state of conservation.</condition>
-                     </supportDesc>
-                     <layoutDesc>
-                        
-                     <layout>Black frame divided in two boxes: the upper, larger, box for the gouache painting; the lower, smaller box for bilingual labels (Tamil in Tamil script and French in Latin script).</layout></layoutDesc>
-                  </objectDesc>
-                  <handDesc><handNote synch="#U1" scope="sole" script="tamil" scriptRef="#tamilPulliSporadic #tamilMacron" medium="ink black"/></handDesc>
-                  <decoDesc>
-                  <decoNote synch="#cover" subtype="spine"><desc>Royal cypher <locus facs="373"><quote>N</quote></locus>, of Napoléon III.</desc></decoNote></decoDesc>
-                  <additions>
-                  <desc synch="#cover" type="shelfmark" subtype="beginning cover">BnF shelfmark sticker (<locus facs="2">front cover, verso</locus>): 
-<quote>INDIEN 744</quote> 
-</desc><desc synch="#cover" type="documenting-note" subtype="spine top"><locus facs="373"><quote>BIBLIOTH. IMPERIALE</quote></locus>, that is, Bibliothèque Impériale.</desc><desc synch="#cover" type="title" subtype="spine top"><locus facs="373"><quote>DIVINITÉS ET SOUVERAINS DE L'INDE</quote></locus></desc><desc synch="#cover" type="documenting-note" subtype="spine bottom">Name of binder and date of binding: <locus facs="373"><quote>J. WEBER 1865</quote></locus>.</desc><desc synch="#u1" type="shelfmark" subtype="beginning">BnF old shelfmark in black ink (<locus facs="3">f[1]r</locus>): 
-<quote>Ind. 99.</quote></desc><desc synch="#U1" type="stamp">Stamp (red ink) (in the labels box of every recto folio of U1):
-<quote>B.R</quote> (below a crown, both in an oval), that is, Bibliothèque Royale.</desc></additions>
-                  <bindingDesc>
-                     <binding><p>Library binding. With name of the library, title, royal cypher, binder's name and date of binding on the spine.</p></binding>
-                  </bindingDesc>
-               </physDesc>
-               <history>
-                  <origin>
-                     <origDate calendar="gregorian" when="1831">See <quote>1831</quote> in the lower right corner of the labels box of every recto folio of U1.</origDate>
-                     
-                  <origPlace>South India, Pondicherry.</origPlace></origin>
-                  <provenance><p>Gouache paintings commissioned by Philippe Étienne Ducler (1778-1840), colonial administrator in Karikal (<placeName xml:lang="ta">Karaikkāl</placeName>). See Burnouf (1832, p. <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k93120f/f85">85</ref>). </p></provenance>
-                  <acquisition><p>Acquired, July 22nd, 1833, from Ducler (BnF, département des Manuscrits, inventaire 1 = <title>Acquisitions: manuscrits et imprimés documentaires, 1833-1848</title>, no. 95 (1ère série, 4e série, 5e série).</p></acquisition>
-               </history>
-               <additional>
-                  <listBibl>
-                     
-                  <bibl>Burnouf, Eugène (1832). “<ref target="https://gallica.bnf.fr/ark:/12148/bpt6k93120f/f84">Rapport fait au Conseil, dans la séance du 2 juillet 1832, sur les collections de manuscrits et de dessins rapportées de l’Inde par M. Ducler, administrateur de Carical, membre de la Société asiatique</ref>.” <title>Journal asiatique</title> 10, p. 84-87. — Report by E. Burnouf &amp; J. B. Eyriès.</bibl><bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens. Bibliothèque nationale. Département des manuscrits.</title> Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f128">p. 109</ref>.</bibl></listBibl>
-               </additional>
-            </msDesc>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         
+                </support>
+                <extent>
+                  <measure unit="folio" quantity="184">1 + 182 + 1 (u1 + U1 + u2)</measure>
+                  <dimensions type="leaf" unit="mm">
+                    
+                    
+                  </dimensions>
+                  <dimensions type="object" unit="mm"><width quantity="210"/><height quantity="320"/></dimensions><dimensions type="written" unit="mm"/></extent>
+                <collation><desc xml:id="cover">the <emph rend="bold">front cover</emph>. BnF shelfmark sticker on verso.</desc><desc xml:id="u1">1 folio = front <emph rend="bold">guard leaf</emph>. No foliation. Blank except for BnF old shelfmark on f[1]r.</desc><desc xml:id="U1">182 folios = <emph rend="bold">gouache paintings</emph>. Library Arabic foliation 1-182 in black ink. Parallel original (?) Arabic foliation 1a-108a (lf1-108), 1c-28c (lf139-136), 1d-46d (lf137-182) in black pencil. Verso blank.</desc><desc xml:id="u2">1 folio = back <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso.</desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>. </desc></collation>
+                
+                <condition>Very good state of conservation.</condition>
+              </supportDesc>
+              <layoutDesc>
+                
+                <layout>Black frame divided in two boxes: the upper, larger, box for the gouache painting; the lower, smaller box for bilingual labels (Tamil in Tamil script and French in Latin script).</layout></layoutDesc>
+            </objectDesc>
+            <handDesc><handNote synch="#U1" scope="sole" script="tamil" scriptRef="#tamilPulliSporadic #tamilMacron" medium="ink black"/></handDesc>
+            <decoDesc>
+              <decoNote synch="#cover" subtype="spine"><desc>Royal cypher <locus facs="373"><quote>N</quote></locus>, of Napoléon III.</desc></decoNote></decoDesc>
+            <additions>
+              <desc synch="#cover" type="shelfmark" subtype="beginning cover">BnF shelfmark sticker (<locus facs="2">front cover, verso</locus>): 
+                <quote>INDIEN 744</quote> 
+              </desc><desc synch="#cover" type="documenting-note" subtype="spine top"><locus facs="373"><quote>BIBLIOTH. IMPERIALE</quote></locus>, that is, Bibliothèque Impériale.</desc><desc synch="#cover" type="title" subtype="spine top"><locus facs="373"><quote>DIVINITÉS ET SOUVERAINS DE L'INDE</quote></locus></desc><desc synch="#cover" type="documenting-note" subtype="spine bottom">Name of binder and date of binding: <locus facs="373"><quote>J. WEBER 1865</quote></locus>.</desc><desc synch="#u1" type="shelfmark" subtype="beginning">BnF old shelfmark in black ink (<locus facs="3">f[1]r</locus>): 
+                <quote>Ind. 99.</quote></desc><desc synch="#U1" type="stamp">Stamp (red ink) (in the labels box of every recto folio of U1):
+                  <quote>B.R</quote> (below a crown, both in an oval), that is, Bibliothèque Royale.</desc></additions>
+            <bindingDesc>
+              <binding><p>Library binding. With name of the library, title, royal cypher, binder's name and date of binding on the spine.</p></binding>
+            </bindingDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian" when="1831">See <quote>1831</quote> in the lower right corner of the labels box of every recto folio of U1.</origDate>
+              
+              <origPlace>South India, Pondicherry.</origPlace></origin>
+            <provenance><p>Gouache paintings commissioned by Philippe Étienne Ducler (1778-1840), colonial administrator in Karikal (<placeName xml:lang="ta">Karaikkāl</placeName>). See Burnouf (1832, p. <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k93120f/f85">85</ref>). </p></provenance>
+            <acquisition><p>Acquired, July 22nd, 1833, from Ducler (BnF, département des Manuscrits, inventaire 1 = <title>Acquisitions: manuscrits et imprimés documentaires, 1833-1848</title>, no. 95 (1ère série, 4e série, 5e série).</p></acquisition>
+          </history>
+          <additional>
+            <listBibl>
+              
+              <bibl>Burnouf, Eugène (1832). “<ref target="https://gallica.bnf.fr/ark:/12148/bpt6k93120f/f84">Rapport fait au Conseil, dans la séance du 2 juillet 1832, sur les collections de manuscrits et de dessins rapportées de l’Inde par M. Ducler, administrateur de Carical, membre de la Société asiatique</ref>.” <title>Journal asiatique</title> 10, p. 84-87. — Report by E. Burnouf &amp; J. B. Eyriès.</bibl><bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens. Bibliothèque nationale. Département des manuscrits.</title> Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f128">p. 109</ref>.</bibl></listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      
       <p>The <emph rend="italic">puḷḷi</emph>s are supplied.   </p></encodingDesc>
-      <revisionDesc>
-         
+    <revisionDesc>
+      
       <change when="2021-05">Record created by Emmanuel FRANCIS</change></revisionDesc>
-   </teiHeader>
-   <facsimile>
-   <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b105380697/manifest.json"/></facsimile>
-<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
-  
-  <p xml:lang="ta">
-    <milestone facs="5" n="1r" unit="folio"/>
-    <milestone unit="Tamil label"/>
-    <lb n="1"/>piṟumā-viṣṇu-civaṉ Ivarkaḷ y<pc>-</pc>ore caṭalam<pc>-</pc>āyē kōpittu y<pc>-</pc>irukkun tiṟittuvam.
-    <lb n="2"/>Inta teyvattukku nālu kai<pc>-</pc>y. Ireṇṭil cakkaramum Uṭukkaiyum irukkutu. maiyaṟṟa
-    <lb n="3"/>reṇṭum Apaiyam<pc>-</pc>ākavum vāram<pc>-</pc>ākavum irukkutu.
-  </p>
-  
-  <p xml:lang="fr">    
-    <milestone facs="5" n="1r" unit="folio"/>
-    <milestone unit="French label"/>
-    <lb n="1"/>Réunion de <emph rend="bold">Brama</emph>, <emph rend="bold">Vichnou</emph> &amp; <emph rend="bold">Shiven</emph> en un même corps ou la
-<lb n="2"/>trinité : divinité à quatre bras, deux tiennent le disque et l’instru=
-<lb n="3"/>=ment <emph rend="bold">Oudouqué</emph>, les deux autres sont en <emph rend="bold">Abayom</emph> et <emph rend="bold">Varom</emph>.   
-  </p>
-  
-  <p xml:lang="fr">
-    <milestone facs="7" n="2r" unit="folio"/>
-    <milestone unit="French label"/>
-    <lb n="1"/>Les mêmes dieux sous la forme du <emph rend="bold">Lingame</emph>, le haut
-    <lb n="2"/><emph rend="bold">Brama</emph>, le milieu <emph rend="bold">Vichnou</emph> et le bas <emph rend="bold">Shiven</emph>.    
-  </p>
-  
-  <p xml:lang="fr">    
-    <milestone facs="9" n="3r" unit="folio"/>
-    <milestone unit="French label"/>
-    <lb n="1"/>Le <emph rend="bold">Lingam</emph> ou la réunion de <emph rend="bold">Brama</emph>, <emph rend="bold">Vichnou</emph> &amp; <emph rend="bold">Shiven</emph> près de laquelle est <emph rend="bold">Parpardy</emph>
-    <lb n="2"/>femme de <emph rend="bold">Shiven</emph> ; Deux divinités de la pagode de <emph rend="bold">Taïmanesamy</emph>.
-  </p>
-  
-  <p xml:lang="fr">
-    <milestone facs="11" n="4r" unit="folio"/>
-    <milestone unit="French label"/>
-    <lb n="1"/>Vue de la pagode de <emph rend="bold">Taïmanesamy</emph> sur la montagne de même nom
-    <lb n="2"/>près de <emph rend="bold">Tirouchinapally</emph>
-  </p>
-  
-  <p xml:lang="fr">    
-    <milestone facs="13" n="5r" unit="folio"/>
-    <milestone unit="French label"/>
-    <lb n="1"/><emph rend="bold">Brama</emph> Créateur à quatre têtes et quatre bras dont deux tiennent le 
-    <lb n="2"/><emph rend="bold">vissery</emph> ou évantail et le <emph rend="bold">sombon</emph> vase d’airin, le second bras
-    <lb n="3"/>droit est en <emph rend="bold">abayom</emph> et le gauche en <emph rend="bold">varom</emph>.
-  </p>
-  
-  <p xml:lang="fr">    
-    <milestone facs="15" n="6r" unit="folio"/>
-    <milestone unit="French label"/>
-    <lb n="1"/><emph rend="bold">Saraspady</emph> sa femme à quatre bras qui tiennent l’arc, les flèches
-    <lb n="2"/>un chapelet et le <emph rend="bold">vedam</emph>.
-  </p>
-  
-  <p xml:lang="fr">    
-    <milestone facs="17" n="7r" unit="folio"/>
-    <milestone unit="French label"/>
-    <lb n="1"/><emph rend="bold">Brama</emph>, Créateur monté sur un cygne, il a quatre têtes et quatre bas, deux tiennent
-    <lb n="2"/>un chapelet et un <emph rend="bold">Kendigué</emph> ou vase d’airain ; un des bras droits est en <emph rend="bold">abayom</emph> et
-    <lb n="3"/> un des gauches en <emph rend="bold">varom</emph>. 
-  </p>
-  
-  <p xml:lang="fr">    
-    <milestone facs="19" n="8r" unit="folio"/>
-    <milestone unit="French label"/>
-    <lb n="1"/><emph rend="bold">Saraspady</emph>, sa femme montée sur un lion ; elle tient un chapelet d’une
-    <lb n="2"/>main et de l’autre le <emph rend="bold">Vedam</emph>.
-  </p>
-  
-  <p xml:lang="fr">    
-    <milestone facs="21" n="9r" unit="folio"/>
-    <milestone unit="French label"/>
-    <lb n="1"/>Le Dieu <emph rend="bold">Vishnou</emph>, Conservateur, monté
-    <lb n="2"/>sur <emph rend="bold">Gueroudane</emph> ou le milan    
-  </p>
-  
-  <p xml:lang="fr">    
-    <milestone facs="23" n="10r" unit="folio"/>
-    <milestone unit="French label"/>
-    <lb n="1"/><emph rend="bold">Latchoumi</emph> sa femme, afsise sur la fleur nommée <emph rend="bold">Tamarépou</emph>,
-    <lb n="2"/>Elle a quatre bras, Deux tiennent le Nénuphar. 
-  </p>
-  
-  <p xml:lang="fr">    
-    <milestone facs="25" n="11r" unit="folio"/>
-    <milestone unit="French label"/>
-    <lb n="1"/><emph rend="bold">Douvarène</emph>, gardien du palais de 
-    <lb n="2"/><emph rend="bold">Vishnou</emph>. Il a quatre bras, est armé d’une mafsue et du 
-    <lb n="3"/><emph rend="bold">Schanck</emph>.
-  </p>
-  
-  <p xml:lang="fr">    
-    <milestone facs="27" n="12r" unit="folio"/>
-    <milestone unit="French label"/>
-    <lb n="1"/><emph rend="bold">Paragane</emph>, autre gardien à quatre bras, du palais de <emph rend="bold">Vishnou</emph>
-  </p>
-  
-  <p xml:lang="fr">    
-    <milestone facs="29" n="13r" unit="folio"/>
-    <milestone unit="French label"/>
-    <lb n="1"/><emph rend="bold">Macha avadarom</emph> premiere incarnation de <emph rend="bold">Vishnou</emph> en poifson pour
-    <lb n="2"/>rapporter les quatre <emph rend="bold">vedams</emph> que le géant <emph rend="bold">Somagane</emph> avoit pris.
-  </p>
-  
-  <p xml:lang="fr">    
-    <milestone facs="31" n="14r" unit="folio"/>
-    <milestone unit="French label"/>
-    <lb n="1"/>Le Géant <emph rend="bold">Somagane</emph> qui avoit enlevé les quatre <emph rend="bold">Vedam[a?]</emph>
-  </p>
-  
-  <p xml:lang="fr">    
-    <milestone facs="33" n="15r" unit="folio"/>
-    <milestone unit="French label"/>
-    <lb n="1"/><emph rend="bold">Courmà avadarom</emph>, deuxième incarnation de <emph rend="bold">Vishnou</emph> en
-    tortue pour soutenir le monde.
-  </p>
+  </teiHeader>
+  <facsimile>
+    <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b105380697/manifest.json"/></facsimile>
+  <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+    
+    <p xml:lang="ta">
+      <milestone facs="5" n="1r" unit="folio"/>
+      <milestone unit="Tamil label"/>
+      <lb n="1"/>piṟumā-viṣṇu-civaṉ Ivarkaḷ y<pc>-</pc>ore caṭalam<pc>-</pc>āyē kōpittu y<pc>-</pc>irukkun tiṟittuvam.
+      <lb n="2"/>Inta teyvattukku nālu kai<pc>-</pc>y. Ireṇṭil cakkaramum Uṭukkaiyum irukkutu. maiyaṟṟa
+      <lb n="3"/>reṇṭum Apaiyam<pc>-</pc>ākavum vāram<pc>-</pc>ākavum irukkutu.
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="5" n="1r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/>Réunion de <emph rend="bold">Brama</emph>, <emph rend="bold">Vichnou</emph> &amp; <emph rend="bold">Shiven</emph> en un même corps ou la
+      <lb n="2"/>trinité : divinité à quatre bras, deux tiennent le disque et l’instru=
+      <lb n="3"/>=ment <emph rend="bold">Oudouqué</emph>, les deux autres sont en <emph rend="bold">Abayom</emph> et <emph rend="bold">Varom</emph>.   
+    </p>
+    
+    <p xml:lang="fr">
+      <milestone facs="7" n="2r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/>Les mêmes dieux sous la forme du <emph rend="bold">Lingame</emph>, le haut
+      <lb n="2"/><emph rend="bold">Brama</emph>, le milieu <emph rend="bold">Vichnou</emph> et le bas <emph rend="bold">Shiven</emph>.    
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="9" n="3r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/>Le <emph rend="bold">Lingam</emph> ou la réunion de <emph rend="bold">Brama</emph>, <emph rend="bold">Vichnou</emph> &amp; <emph rend="bold">Shiven</emph> près de laquelle est <emph rend="bold">Parpardy</emph>
+      <lb n="2"/>femme de <emph rend="bold">Shiven</emph> ; Deux divinités de la pagode de <emph rend="bold">Taïmanesamy</emph>.
+    </p>
+    
+    <p xml:lang="fr">
+      <milestone facs="11" n="4r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/>Vue de la pagode de <emph rend="bold">Taïmanesamy</emph> sur la montagne de même nom
+      <lb n="2"/>près de <emph rend="bold">Tirouchinapally</emph>
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="13" n="5r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/><emph rend="bold">Brama</emph> Créateur à quatre têtes et quatre bras dont deux tiennent le 
+      <lb n="2"/><emph rend="bold">vissery</emph> ou évantail et le <emph rend="bold">sombon</emph> vase d’airin, le second bras
+      <lb n="3"/>droit est en <emph rend="bold">abayom</emph> et le gauche en <emph rend="bold">varom</emph>.
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="15" n="6r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/><emph rend="bold">Saraspady</emph> sa femme à quatre bras qui tiennent l’arc, les flèches
+      <lb n="2"/>un chapelet et le <emph rend="bold">vedam</emph>.
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="17" n="7r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/><emph rend="bold">Brama</emph>, Créateur monté sur un cygne, il a quatre têtes et quatre bas, deux tiennent
+      <lb n="2"/>un chapelet et un <emph rend="bold">Kendigué</emph> ou vase d’airain ; un des bras droits est en <emph rend="bold">abayom</emph> et
+      <lb n="3"/> un des gauches en <emph rend="bold">varom</emph>. 
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="19" n="8r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/><emph rend="bold">Saraspady</emph>, sa femme montée sur un lion ; elle tient un chapelet d’une
+      <lb n="2"/>main et de l’autre le <emph rend="bold">Vedam</emph>.
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="21" n="9r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/>Le Dieu <emph rend="bold">Vishnou</emph>, Conservateur, monté
+      <lb n="2"/>sur <emph rend="bold">Gueroudane</emph> ou le milan    
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="23" n="10r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/><emph rend="bold">Latchoumi</emph> sa femme, afsise sur la fleur nommée <emph rend="bold">Tamarépou</emph>,
+      <lb n="2"/>Elle a quatre bras, Deux tiennent le Nénuphar. 
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="25" n="11r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/><emph rend="bold">Douvarène</emph>, gardien du palais de 
+      <lb n="2"/><emph rend="bold">Vishnou</emph>. Il a quatre bras, est armé d’une mafsue et du 
+      <lb n="3"/><emph rend="bold">Schanck</emph>.
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="27" n="12r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/><emph rend="bold">Paragane</emph>, autre gardien à quatre bras, du palais de <emph rend="bold">Vishnou</emph>
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="29" n="13r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/><emph rend="bold">Macha avadarom</emph> premiere incarnation de <emph rend="bold">Vishnou</emph> en poifson pour
+      <lb n="2"/>rapporter les quatre <emph rend="bold">vedams</emph> que le géant <emph rend="bold">Somagane</emph> avoit pris.
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="31" n="14r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/>Le Géant <emph rend="bold">Somagane</emph> qui avoit enlevé les quatre <emph rend="bold">Vedam[a?]</emph>
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="33" n="15r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/><emph rend="bold">Courmà avadarom</emph>, deuxième incarnation de <emph rend="bold">Vishnou</emph> en
+      tortue pour soutenir le monde.
+    </p>
     
     <p xml:lang="fr">    
       <milestone facs="35" n="16r" unit="folio"/>
@@ -211,123 +211,486 @@
       <lb n="1"/>La Terre sous la forme d’une tortue porte la montagne
       <lb n="2"/>nommée <emph rend="bold">Magamèrou</emph> où le Dieu <emph rend="bold">Vishnou</emph> fait sa demeure
       <lb n="3"/>et autour de laquelle le soleil tourne chaque jour.</p>
-  
-  <p xml:lang="fr">    
-    <milestone facs="37" n="17r" unit="folio"/>
-    <milestone unit="French label"/>
-    <lb n="1"/><emph rend="bold">Varaga avadarom</emph>, troisième incarnation de <emph rend="bold">Vishnou</emph> en
-    <lb n="2"/>sanglier pour combattre le géant <emph rend="bold">Irania casibène</emph>. Ce Dieu
-    <lb n="3"/>a quatre bras dont deux sont armés du <emph rend="bold">schank</emph> ou du disque
-    <lb n="4"/>nommé <emph rend="bold">Sacarom</emph>.
-  </p>
-  
-  <p xml:lang="fr">    
-    <milestone facs="39" n="18r" unit="folio"/>
-    <milestone unit="French label"/>
-    <lb n="1"/>Le Géant <emph rend="bold">Irania casibene</emph>, vaincu par <emph rend="bold">Vishnou</emph>.
-  </p>
-  
-  <p xml:lang="fr">    
-    <milestone facs="41" n="19r" unit="folio"/>
-    <milestone unit="French label"/>
-    <lb n="1"/><emph rend="bold">Narassimma avadarom</emph> quatrième incarnation de <emph rend="bold">Vishnou</emph>
-    <lb n="2"/>en lion pour combattre le géant <emph rend="bold">Irania achagane</emph>.
-  </p>
-  
-  <p xml:lang="fr">    
-    <milestone facs="43" n="20r" unit="folio"/>
-    <milestone unit="French label"/>
-    <lb n="1"/>Le Géant <emph rend="bold">Iraniaachagane</emph> vaincu par <emph rend="bold">Vishnou</emph>
-  </p>
-  
-  <p xml:lang="fr">    
-    <milestone facs="45" n="21r" unit="folio"/>
-    <milestone unit="French label"/>
-    <lb n="1"/><emph rend="bold">Vamanavadarom</emph> Cinquième incarnation de <emph rend="bold">Vishnou</emph> en Brame
-    <lb n="2"/>pour terrafser l’empereur <emph rend="bold">Balasacravarty</emph>.
-  </p>
-  
-  <p xml:lang="fr">    
-    <milestone facs="47" n="22r" unit="folio"/>
-    <milestone unit="French label"/>
-    <lb n="1"/>L’Empereur <emph rend="bold">Balasacravarty</emph> vaincu par <emph rend="bold">Vishnou</emph>
-  </p>
-  
-  <p xml:lang="fr">    
-    <milestone facs="49" n="23r" unit="folio"/>
-    <milestone unit="French label"/>
-    <lb n="1"/><emph rend="bold">Parasouramaavadarom</emph> sixième incarnation de <emph rend="bold">Vishnou</emph> sous forme d’un solitaire
-    <lb n="2"/>vêtu d’une peau de tigre, pour détruire la race des Rois de <emph rend="bold">Souriavamessame</emph>.
-  </p>
-  
-  <p xml:lang="fr">    
-    <milestone facs="51" n="24r" unit="folio"/>
-    <milestone unit="French label"/>
-    <lb n="1"/>Un Roi de la race <emph rend="bold">Souriavamessam</emph>
-  </p>
-      
-      <p xml:lang="fr">    
-        <milestone facs="53" n="25r" unit="folio"/>
-        <milestone unit="French label"/>
-        <lb n="1"/><emph rend="bold">Rama avoudarom</emph> septième incarnation de <emph rend="bold">Vishnou</emph> en souverain
-        <lb n="2"/>pour combattre le géant <emph rend="bold">Ravonnin</emph> ; Il est armé d’un arc et d’une
-        <lb n="3"/>flèche
-      </p>
-  
-  <p xml:lang="fr">    
-    <milestone facs="55" n="26r" unit="folio"/>
-    <milestone unit="French label"/>
-    <lb n="1"/>Le Geant <emph rend="bold">Ravonnin</emph> ayant dix têtes et vingt bras
-    <lb n="2"/>armés, vaincu par <emph rend="bold">Vishnou</emph>.          
-  </p>
-  
-  <p xml:lang="fr">    
-    <milestone facs="57" n="27r" unit="folio"/>
-    <milestone unit="French label"/>
-    <lb n="1"/><emph rend="bold">Balaramaavadarom</emph>. huitième incarnation de <emph rend="bold">Vishnou</emph> en Roi
-    <lb n="2"/>pour enseigner l’agriculture aux hommes il tient d’une main
-    <lb n="3"/>une pioche et de l’autre un soc de charrue.            
-  </p>
-  
-  <p xml:lang="fr">    
-    <milestone facs="59" n="28r" unit="folio"/>
-    <milestone unit="French label"/>
-    <lb n="1"/>Modèle de champs cultivé par <emph rend="bold">Vishnou</emph>.
-  </p>
-  
-  <p xml:lang="fr">    
-    <milestone facs="61" n="29r" unit="folio"/>
-    <milestone unit="French label"/>
-    <lb n="1"/><emph rend="bold">Kichena avadarom</emph> neuvième incarnation de <emph rend="bold">Vishnou</emph> en enfant
-    <lb n="2"/>posé sur des fleurs pour surprendre et se défaire de
-    <lb n="3"/><emph rend="bold">camesagane</emph> son oncle maternel
-  </p>
-  
-  <p xml:lang="fr">    
-    <milestone facs="63" n="30r" unit="folio"/>
-    <milestone unit="French label"/>
-    <lb n="1"/><emph rend="bold">Camesagane</emph>, oncle maternel de <emph rend="bold">Vishnou</emph>.
-  </p>
-                  
-  
-  <p xml:lang="fr">    
-    <milestone facs="219" n="108r" unit="folio"/>
-    <milestone unit="French label"/>
-    <lb n="1"/><emph rend="bold">Sagadevane</emph>, demi-Dieu, Cinquième et dernier des frères <emph rend="bold">Pantcha Pandaval<unclear>es</unclear></emph>
-    <lb n="2"/>étoit très versé dans l’étude des lois et de l’astrologie.
-  </p>        
-        
-        <p xml:lang="ta">
-          <milestone facs="367" n="182r" unit="folio"/>
-          <milestone unit="Tamil label"/>
-          <lb n="1"/>karaikkāl kuvaṟnmāl pōṭṭiḷōr pakkircāyupu y<pc>-</pc>eṉpava
-          <lb n="2"/>r<pc>-</pc>uṭaiya peṇcāti-y<pc>-</pc>ākiya pāṭacāpīpi
-        </p>
-        
-        <p xml:lang="fr">    
-          <milestone facs="367" n="182r" unit="folio"/>
-          <milestone unit="French label"/>
-          <lb n="1"/>Batesabibi, femme de Paquirsaheb Concièrge du Gouvernement de Karikal.
-        </p>
-        
-</body></text></TEI>
+    
+    <p xml:lang="fr">    
+      <milestone facs="37" n="17r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/><emph rend="bold">Varaga avadarom</emph>, troisième incarnation de <emph rend="bold">Vishnou</emph> en
+      <lb n="2"/>sanglier pour combattre le géant <emph rend="bold">Irania casibène</emph>. Ce Dieu
+      <lb n="3"/>a quatre bras dont deux sont armés du <emph rend="bold">schank</emph> ou du disque
+      <lb n="4"/>nommé <emph rend="bold">Sacarom</emph>.
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="39" n="18r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/>Le Géant <emph rend="bold">Irania casibene</emph>, vaincu par <emph rend="bold">Vishnou</emph>.
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="41" n="19r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/><emph rend="bold">Narassimma avadarom</emph> quatrième incarnation de <emph rend="bold">Vishnou</emph>
+      <lb n="2"/>en lion pour combattre le géant <emph rend="bold">Irania achagane</emph>.
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="43" n="20r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/>Le Géant <emph rend="bold">Iraniaachagane</emph> vaincu par <emph rend="bold">Vishnou</emph>
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="45" n="21r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/><emph rend="bold">Vamanavadarom</emph> Cinquième incarnation de <emph rend="bold">Vishnou</emph> en Brame
+      <lb n="2"/>pour terrafser l’empereur <emph rend="bold">Balasacravarty</emph>.
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="47" n="22r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/>L’Empereur <emph rend="bold">Balasacravarty</emph> vaincu par <emph rend="bold">Vishnou</emph>
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="49" n="23r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/><emph rend="bold">Parasouramaavadarom</emph> sixième incarnation de <emph rend="bold">Vishnou</emph> sous forme d’un solitaire
+      <lb n="2"/>vêtu d’une peau de tigre, pour détruire la race des Rois de <emph rend="bold">Souriavamessame</emph>.
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="51" n="24r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/>Un Roi de la race <emph rend="bold">Souriavamessam</emph>
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="53" n="25r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/><emph rend="bold">Rama avoudarom</emph> septième incarnation de <emph rend="bold">Vishnou</emph> en souverain
+      <lb n="2"/>pour combattre le géant <emph rend="bold">Ravonnin</emph> ; Il est armé d’un arc et d’une
+      <lb n="3"/>flèche
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="55" n="26r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/>Le Geant <emph rend="bold">Ravonnin</emph> ayant dix têtes et vingt bras
+      <lb n="2"/>armés, vaincu par <emph rend="bold">Vishnou</emph>.          
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="57" n="27r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/><emph rend="bold">Balaramaavadarom</emph>. huitième incarnation de <emph rend="bold">Vishnou</emph> en Roi
+      <lb n="2"/>pour enseigner l’agriculture aux hommes il tient d’une main
+      <lb n="3"/>une pioche et de l’autre un soc de charrue.            
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="59" n="28r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/>Modèle de champs cultivé par <emph rend="bold">Vishnou</emph>.
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="61" n="29r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/><emph rend="bold">Kichena avadarom</emph> neuvième incarnation de <emph rend="bold">Vishnou</emph> en enfant
+      <lb n="2"/>posé sur des fleurs pour surprendre et se défaire de
+      <lb n="3"/><emph rend="bold">camesagane</emph> son oncle maternel
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="63" n="30r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/><emph rend="bold">Camesagane</emph>, oncle maternel de <emph rend="bold">Vishnou</emph>.
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="65" n="31r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/><emph rend="bold">Kaliqui avadarom</emph> dixième incarnation de <emph rend="bold">Vishnou</emph>, Celle où
+      <lb n="2"/>il est maintenant et qu’il gardera jusqu’à la fin de l’age
+      <lb n="3"/>actuel qui aura <emph rend="bold">432,000</emph> ans. Il a une tête de cheval, est armé
+      <lb n="4"/>d’un sabre et d’un bouclier.
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="67" n="32r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/><emph rend="bold">Vishnou</emph> sous la forme d’un enfant, tetant son pied et reposant 
+      <lb n="2"/>sur une feuille de multipliant. De son nombril sort une fleur
+      <lb n="3"/>de Nénuphar. Le solitaire <emph rend="bold">Marcandane</emph> descend du Ciel
+      <lb n="4"/>pour l’adorer.
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="69" n="33r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/>Statue de <emph rend="bold">Vishnou</emph> sous le nom de <emph rend="bold">Varadarassav</emph> dans la
+      <lb n="2"/>pagode de <emph rend="bold">Canchivarom</emph> province d’<emph rend="bold">Arcate</emph>.
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="71" n="34r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/><emph rend="bold">Peroundévy</emph> &amp; <emph rend="bold">Nacharammalle</emph> ses femmes
+      <lb n="2"/>tenant la fleur du Nénuphar.
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="73" n="35r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/>Statue de <emph rend="bold">Vishnou</emph> sous le nom de <emph rend="bold">Saronndararassav</emph> dans
+      <lb n="2"/>la pagode de <emph rend="bold">Megapatam</emph> ville de <emph rend="bold">Tanjaour</emph>.
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="75" n="36r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/>Statues de ses deux femmes dans la même pagode
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="77" n="37r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/>Statue de <emph rend="bold">Vishnou</emph> sous le nom de <emph rend="bold">Ranganayagar</emph> dans la 
+      <lb n="2"/>pagode de <emph rend="bold">Sirangame</emph> près de Tirouchinapally.
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="79" n="38r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/>Sa femme <emph rend="bold">Latchoumi</emph> sous le nom de <emph rend="bold">Ranganayaguy</emph>, ayant
+      <lb n="2"/>quatre bras ; deux tiennent la fleur de Nénuphar.
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="81" n="39r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/>Statue de <emph rend="bold">Vishnou</emph> sous le nom de <emph rend="bold">Vingadassalapady</emph>
+      <lb n="2"/>dans la pagode de <emph rend="bold">Tiroupady</emph> sur les frontières du Décan.
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="83" n="40r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/><emph rend="bold">Peroundévy</emph> et <emph rend="bold">Shoudycoudattounatchiar</emph> ses femmes tenant
+      <lb n="2"/>les fleurs de Nénuphar.
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="85" n="41r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/>Le Dieu <emph rend="bold">Shiven</emph> Destructeur monté sur un taureau blanc, il a quatre bras, deux tiennent la
+      <lb n="2"/>flamme et le Cerf, le second bras droit est en <emph rend="bold">abayom</emph>, le second bras gauche en <emph rend="bold">varom</emph>. Ce Dieu est 
+      <lb n="3"/>coiffé de <emph rend="bold">Parpady</emph> sa femme sous le nom de <emph rend="bold">Kenguè</emph>.
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="87" n="42r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/><emph rend="bold">Parpady</emph> sa femme est montée sur un cygne. Elle a quatre bras, deux tiennent le chapelet et
+      <lb n="2"/>la fleur de Nenuphar. Les deux autres sont en <emph rend="bold">abayom</emph> &amp; <emph rend="bold">varom</emph>.
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="89" n="43r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/><emph rend="bold">Shiven</emph> sous le nom de <emph rend="bold">Vissouvanadev</emph>, statue de la pagode de <emph rend="bold">Benarè<unclear>s</unclear></emph>.
+      <lb n="2"/>Le Dieu tient une figure de cerf et l’instrument nommé <emph rend="bold">Oudouqué</emph>.
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="91" n="44r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/><emph rend="bold">Parpady</emph> sous le nom de <emph rend="bold">Vissalatchy</emph> sa femme dans la même pagode
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="93" n="45r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/><emph rend="bold">Shiven</emph> sous la forme de <emph rend="bold">Icchanamourty</emph> enseigne la sagefse
+      <lb n="2"/>au monde, il a quatre bras qui tiennent la flamme, le <emph rend="bold">vedam</emph>
+      <lb n="3"/>le chapelet et l’<emph rend="bold">Oudouqué</emph>
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="95" n="46r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/><emph rend="bold">Artanarisseparom</emph> ou réunion de <emph rend="bold">Shiven</emph> et de sa femme <emph rend="bold">Parpady</emph>.
+      <lb n="2"/>divinité à quatre bras, deux tiennent la fleur de Nénuphar et le
+      <lb n="3"/>cerf ; les deux autres sont en <emph rend="bold">abayom</emph> &amp; <emph rend="bold">Varom</emph>.
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="97" n="47r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/><emph rend="bold">Shiven</emph> ou la divinité destructrice placée sur le sommet de la montagne
+      <lb n="2"/><emph rend="bold">Pajany</emph> est armée d’une lance et d’une mafsue d’or.
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="99" n="48r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/><emph rend="bold">Sangaranarayanev</emph> ou réunion de <emph rend="bold">Shiven</emph> &amp; <emph rend="bold">Vichnou</emph>, a quatre bras, deux
+      <lb n="2"/>tiennent le disque et l’instrument nommé <emph rend="bold">Oudouquè</emph>.
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="101" n="49r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/><emph rend="bold">Shiven</emph> sous le nom de <emph rend="bold">Pitchéaudinayagav</emph> demande l’aumône,
+      <lb n="2"/>il tient d’une main une coquille et de l’autre un trident
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="103" n="50r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/><emph rend="bold">Conndo darane</emph>, son disciple le suit en tenant un crane
+      <lb n="2"/>sur la tête.
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="105" n="51r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/><emph rend="bold">Shiven</emph> sous le nom de <emph rend="bold">Monnisvarène</emph> adoré par les
+      <lb n="2"/>Hermites et les pèlerins, il est monté sur un tigre.
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="107" n="53r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/><emph rend="bold">Virapatrin</emph> Dieu adoré des <emph rend="bold">Camalers</emph> il est sorti du troisième
+      <lb n="2"/>œil de <emph rend="bold">Shiven</emph> lorsqu’il se mit en colère contre <emph rend="bold">Tarken</emph> son
+      <lb n="3"/>beau-père, il est couronné de flammes, est armé du trident,
+      <lb n="4"/>de la lance et de la massue
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="109" n="53r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/><emph rend="bold">Shiven</emph> accompagné de son chien demande l’aumone sous
+      <lb n="2"/>la forme de <emph rend="bold">Vaïraven</emph>, il est armé du Trident
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="111" n="54r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/><emph rend="bold">Vichnou</emph> sous la forme de <emph rend="bold">Caroupannin</emph> adoré des bafses
+      <lb n="2"/>castes de sa secte telles que des souraires, <emph rend="bold">pallers</emph> &amp; <emph rend="bold">pariah<unclear>s</unclear></emph>
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="113" n="55r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/><emph rend="bold">Shiven</emph>, sous le nom de <emph rend="bold">Sababady</emph>, monté sur le géant
+      <lb n="2"/><emph rend="bold">Mouyalagane</emph> qu’il a terrassé tient d’une main une flamme
+      <lb n="3"/>et de l’autre l’instrument nommé <emph rend="bold">Oudouqué</emph>.
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="115" n="56r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/><emph rend="bold">Sivagamy</emph> sa femme tenant une fleur de nénuphar.
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="117" n="57r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/><emph rend="bold">Shiven</emph> sous le nom de <emph rend="bold">Tiagarassev</emph> statue de la pagode de <emph rend="bold">Tirnoulav</emph>. Il a près
+      <lb n="2"/>de lui sa femme <emph rend="bold">Parpady</emph> sous le nom de <emph rend="bold">Pranambale</emph>, il tient d’une main
+      <lb n="3"/>a figure d’un cerf et de l’autre l’instrument nommé <emph rend="bold">Oudouquè</emph>.
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="119" n="58r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/><emph rend="bold">Parpady</emph> sous le nom de <emph rend="bold">Bogasaty</emph> &amp; femme de <emph rend="bold">Shiven</emph> autre statue de la pagode
+      <lb n="2"/>de <emph rend="bold">Tirnoulav</emph>. Près d’elle est une femme qui l’évente
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="121" n="59r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/><emph rend="bold">Shiven</emph> sous la forme du <emph rend="bold">Lingam</emph> et sous le nom de <emph rend="bold">Cayarogana</emph>
+      <lb n="2"/><emph rend="bold">Isparène</emph> statue de la pagode de <emph rend="bold">Mégapatnam</emph>.
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="123" n="60r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/><emph rend="bold">Parpady</emph> sous le nom de <emph rend="bold">Milayadatehy</emph>, sa femme de
+      <lb n="2"/>la même pagode
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="125" n="61r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/><emph rend="bold">Shiven</emph> sous la forme du <emph rend="bold">Lingam</emph> et sous le nom de <emph rend="bold">Vaïtilingam</emph>
+      <lb n="2"/>statue de la pagode de <emph rend="bold">Vaïtisparanecovil</emph> province de <emph rend="bold">Tanjaour</emph>
+      célèbre pour chafser les démons.
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="127" n="62r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/><emph rend="bold">Parpady</emph> sous le nom de <emph rend="bold">Tayelnayaguy</emph>, sa femme statue de
+      <lb n="2"/>la même pagode tenant la fleur de Nénuphar
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="129" n="63r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/>Le <emph rend="bold">Lingam</emph> de <emph rend="bold">Tirouvanécovil</emph> appelé <emph rend="bold">Sembouguesparev</emph>, pagode
+      <lb n="2"/>près de <emph rend="bold">Tirouchinapally</emph> gardé par l’Eléphant blanc.
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="131" n="64r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/><emph rend="bold">Parpady</emph> sous le nom de <emph rend="bold">Aguilandespary</emph> dans la même
+      <lb n="2"/>pagode de <emph rend="bold">Tirouvanécovil</emph>.
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="133" n="65r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/>Le <emph rend="bold">Lingame</emph> de la pagode de <emph rend="bold">Maduré</emph> appelé <emph rend="bold">Schocolingame</emph>
+      <lb n="2"/>gardé par quatre éléphants blancs.
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="135" n="66r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/><emph rend="bold">Parpady</emph> sous le nom de <emph rend="bold">Minachy</emph> dans la même
+      <lb n="2"/>Pagode de <emph rend="bold">Madurè</emph>.
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="137" n="67r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/>Le <emph rend="bold">Brame Marcandin</emph> menacé par la mort de perdre
+      <lb n="2"/>la vie embrasse le <emph rend="bold">Lingame</emph> d’où sort <emph rend="bold">Shiven</emph> qui le
+      <lb n="2"/>défend contre la divinité malfesante.
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="139" n="68r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/>La mort montée sur un buffle est renversée par <emph rend="bold">Shiven</emph>
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="141" n="69r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/>Le Chafseur <emph rend="bold">Cannapev</emph> ayant mis un de ses yeux au 
+      <lb n="2"/><emph rend="bold">Lingam</emph> marque avec son pied la place où il doit mettre 
+      <lb n="2"/>le second lorsqu’il l’aura arraché.
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="143" n="70r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/><emph rend="bold">Parpady</emph> femme de <emph rend="bold">Shiven</emph> tenant la fleur de nénuphar.
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="145" n="71r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/><emph rend="bold">Parpardy</emph>tuant d’un coup de trident le géant <emph rend="bold">Maïdassourane</emph>
+      <lb n="2"/>qui avoit pris la forme d’un buffle.
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="147" n="72r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/>Le Géant <emph rend="bold">Maïdassourane</emph> tenant d’une main le
+      <lb n="2"/>trident et de l’autre une mafsue.
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="149" n="73r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/><emph rend="bold">Manemadene</emph> ou Cupidon fils de <emph rend="bold">Vishnou</emph> armé d’un arc formé 
+      <lb n="2"/>d’une canne à sucre et de fleches de fleurs. il est monté sur un perroquet
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="151" n="74r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/><emph rend="bold">Rady</emph>, sa femme, armée de même est montée sur un Cygne
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="153" n="75r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/><emph rend="bold">Poulléav</emph>, fils ainé de <emph rend="bold">Shiven</emph> sous la figure d’un Eléphant est monté sur un rat
+      <lb n="2"/>perchal ; il a quatre bras. Sa femme <emph rend="bold">Vallabi</emph> est afsise sur sa cuifse gauche
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="155" n="76r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/><emph rend="bold">Soupramaniev</emph>, second fils de <emph rend="bold">Shiven</emph>, monté sur un paon, il a quatre bras, deux sont
+      <lb n="2"/>armés, ses femmes <emph rend="bold">Valliammé</emph> &amp; <emph rend="bold">Teïvané</emph> sont afsises sur ses cuifses. Le Paon foule
+      <lb n="3"/>aux pieds la couleuvre capelle.
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="157" n="77r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/><emph rend="bold">Parpady</emph> sous le nom de <emph rend="bold">Mariammé</emph>, divinité qui préserve
+      <lb n="2"/>de la petite vérole, elle est couronnée de flammes à quatre bras dont
+      <lb n="3"/>elle tient le trident, le rotin et l’instrument nommé <emph rend="bold">Oudouquè</emph>.
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="159" n="78r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/><emph rend="bold">Parpady</emph> sous la figure de <emph rend="bold">Kaly</emph> ayant seize bras armés
+      <lb n="2"/>pour délivrer le monde des géants qui l’oppriment.
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="161" n="79r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/><emph rend="bold">Catavarayen</emph> fils de <emph rend="bold">Mariammè</emph>, qui fut condamné à être suspendu par
+      <lb n="2"/>les épaules. C’est en l’honneur de son supplice que la fête des accrochés
+      <lb n="3"/>a lieu ; il est armé d’une serpe et d’une mafsue.
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="163" n="80r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/><emph rend="bold">Ariamalé</emph> &amp; <emph rend="bold">Nallatanga</emph> ses femmes, statues qui se trouvent
+      <lb n="2"/>dans toutes les pagodes de <emph rend="bold">Mariammè</emph>.
+    </p>
+    
+    
+    
+    
+    <p xml:lang="fr">    
+      <milestone facs="219" n="108r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/><emph rend="bold">Sagadevane</emph>, demi-Dieu, Cinquième et dernier des frères <emph rend="bold">Pantcha Pandavales</emph>
+      <lb n="2"/>étoit très versé dans l’étude des lois et de l’astrologie.
+    </p>        
+    
+    <p xml:lang="ta">
+      <milestone facs="367" n="182r" unit="folio"/>
+      <milestone unit="Tamil label"/>
+      <lb n="1"/>karaikkāl kuvaṟnmāl pōṭṭiḷōr pakkircāyupu y<pc>-</pc>eṉpava
+      <lb n="2"/>r<pc>-</pc>uṭaiya peṇcāti-y<pc>-</pc>ākiya pāṭacāpīpi
+    </p>
+    
+    <p xml:lang="fr">    
+      <milestone facs="367" n="182r" unit="folio"/>
+      <milestone unit="French label"/>
+      <lb n="1"/>Batesabibi, femme de Paquirsaheb Concièrge du Gouvernement de Karikal.
+    </p>
+    
+  </body></text></TEI>
