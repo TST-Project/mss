@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bālambhaṭṭī</title>
+         <editor><persName>Charles Li</persName><orgName>CNRS, CEIAS, UMR 8564</orgName></editor></titleStmt>
+         
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits.</orgName>
+                  </repository>
+                  <idno type="shelfmark">Sanscrit 814</idno>
+                  <idno type="alternate"><idno>Dévanagari 276</idno></idno>
+               </msIdentifier>
+               <msContents class="#STM">
+                  <summary><p>This manuscript of the <title xml:lang="sa">Bālambhaṭṭī</title>, a commentary on the <title xml:lang="sa">Mitākṣarā</title>, was part of the library of Philippe-Édouard Foucaux. According to a title page in his hand, it was  copied from a manuscript in Fort William, Calcutta, in 1866. It contains numerous  annotations in his hand, in both French and Sanskrit.</p>
+<p>The <title xml:lang="sa">Mitākṣarā</title> itself is a commentary on the <title xml:lang="sa">Yājñavalkyasmṛti</title>, an ancient law text. </p>
+<p>As noted on the title page, the commentary is traditionally ascribed to <persName xml:lang="sa">Bālambhaṭṭa</persName>. However, the colophon attributes authorship of the text to his mother, <persName xml:lang="sa">Lakṣmīdevī</persName>, and names the text <title xml:lang="sa">Lakṣma</title> (or <title xml:lang="sa">Lakṣmī</title>, in the edition of Nityānand Pant Parvatīya).</p></summary>
+                  
+               <msItem defective="false"><title xml:lang="sa">Bālambhaṭṭī</title><author xml:lang="sa">Bālambhaṭṭa</author><textLang mainLang="san"/><rubric xml:lang="sa">oṁ namo gaṇeśāya || ॰ ||</rubric><incipit xml:lang="sa"><milestone n="1v" unit="folio"/><lb n="1"/>pūrvatrāṃte dṛṣṭadaṇḍasya śiṣṭarakṣaṇasya vidhānād ayavyatirekābhyāṃ pālanādhikārināha<space/>vahavyavahāradarśanaṃ karttavya<lb n="2"/>m ity uktaṃ tasya vyavahārasvarūpaprakāreti<space/></incipit><explicit xml:lang="sa"><milestone n="433r" unit="folio"/><lb n="6"/>praveśya prakṣipya varuṇoyedam iti prāgvat_ īśa iti pūrvasya pratipattividher arthavado yam¦ <lb n="7"/>evam agrīyāv api jāyaṃte iti varttamānatvam avivakṣitaṃ vikṛtaṃ karaṇādihīnatvam ity artha iti śivam || ॰ ||</explicit><finalRubric xml:lang="sa">iti śrīmanmitākṣarāvyākhyāne mahāde<pb n="433v"/>vabhaṭṭātmajomāṃgajavaidyanāthārddhāṃgabhūtanālakṛṣṇajananipāyaguṃḍopākhyaśrīlakṣmīdevīviracite lakṣmābhidhe vyavahāraprakaraṇaṃ samāptam ||</finalRubric><colophon xml:lang="sa"><lb n="2"/>oṁ tat sat || ॰ || iti tārika 5 āśvina sana 1273 sāla || śubhaṃ bhūyāt || sākṣaram idaṃ rādhācaraṇamiśrasya || ॰ ||</colophon></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="pothi">
+                     <supportDesc material="paper laid">
+                        <support>
+                           <measure unit="stringhole"/>
+                           <p>ff. 1-113, <watermark>T H SAUNDERS 1862</watermark> watermark. ff. 114-129, brown paper, illegible watermark. ff. 126-433, <watermark>THOMAS JAMES 1865</watermark> watermark.</p>
+                        </support>
+                        <extent>
+                           <measure unit="folio" quantity="437">1 flyleaf, 1 doubled cover folio, 1-433, 1 flyleaf.</measure>
+                           <dimensions type="leaf" unit="mm">
+                              <width quantity="335"/>
+                              <height quantity="105"/>
+                           </dimensions>
+                        <dimensions type="object" unit="mm"><width quantity="350"/><height quantity="195"/><depth quantity="85"/></dimensions><dimensions type="written" unit="mm"><width min="255" max="260"/><height quantity="65"/></dimensions></extent>
+                        
+                        
+                     <foliation>Devanāgarī numerals, top-left and bottom-right corner, verso.</foliation><foliation>Western numerals, top-right corner, verso.</foliation><condition>Good condition.</condition></supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="7" streams="1" ruledLines="7">Impressed rulings, 7 per page. </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     
+                  <handNote scope="sole" script="devanagari" medium="ink black"><desc>The colophon states the name of the scribe as <persName xml:lang="sa">Rādhācaraṇa Miśra</persName>.</desc></handNote></handDesc>
+                  <decoDesc/>
+                  <additions>
+                  <desc type="title" subtype="beginning title-page">Title page, in Foucaux's hand: <quote xml:lang="fr">Glose par <emph rend="small-caps">Bâlam Bhatta</emph> du Commentaire de la 2e Partie du Livre des lois de <emph rend="small-caps">Yâjñavalkya</emph>. _ Msc. copié à Calcutta sur un Msc. du Fort William <lb/>1866</quote>.</desc><desc type="shelfmark" subtype="beginning title-page">The old shelfmark, <quote>D. 276</quote>, and the entry in the registry of acquisitions, <quote>R. C. 6137</quote>, are given on the title page.</desc><desc type="documenting-note" subtype="beginning">After the title page, Foucaux has translated a passage by Colebrooke, describing the text: <quote xml:lang="fr" rend="block">« La glose de Bâlambhaṭṭa est sous la forme ordinaire d'un Commentaire perpétuel. Elle procède sentence par sentence expliquant chaque phrase et chaque terme du texte original. Elle suit, en général, la <emph rend="underline">Soubôdhinî</emph> (autre glose plus ancienne) aussi loin que va celle-ci, et y ajoute souvent des explications quand cette glose ne dit rien, ou quand ses expressions trop consises, ne sont pas assez intelligibles. »</quote></desc><desc type="stamp" subtype="beginning end">Library stamp on <locus>folio 1 recto</locus> and <locus>folio 433 verso</locus>: <quote xml:lang="fr">BIBLIOTHÈQUE IMPÉRIALE MSS.</quote></desc><desc type="documenting-note" subtype="beginning top">Binding instructions on <locus>folio 1 recto</locus>: <quote xml:lang="fr">coller une feuille mince de même couleur</quote>.</desc><desc type="correction gloss" subtype="marginal">Marginal notes throughout the manuscript, in Foucaux's hand, in red and grey pencil.</desc></additions>
+                  <bindingDesc>
+                     <binding>
+                        <p>Hardbound, grey paper cover.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian" when="1866">According to the title page, the manuscript was copied from another manuscript in Fort William, Calcutta, in 1866.</origDate>
+                     
+                  <origPlace>Calcutta</origPlace></origin>
+                  <provenance><p>Part of the library of <persName>Philippe-Édouard Foucaux</persName>.</p></provenance>
+                  <acquisition>
+                     <p><persName>Philippe-Édouard Foucaux</persName> sold the manuscript to the BnF in 1869, for 200 francs.</p>
+                  </acquisition>
+               </history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl>Cabaton, Antoine. (1907-1908) <title xml:lang="fr">Catalogue sommaire des manuscrits sanscrits avec supplément manuscrit</title>. Paris: E. Leroux. Supplemented by Jean Filliozat. <ref target="https://gallica.bnf.fr/ark:/12148/btv1b10536321f/f150.item">134</ref>.</bibl><bibl>Parvatīya, Nityānand Pant. 1914. <title xml:lang="sa">Vyavahāra-Bālaṃbhaṭṭī</title>. Benares: Vidya Vilas Press. <ref target="https://archive.org/details/in.ernet.dli.2015.487276">https://archive.org/details/in.ernet.dli.2015.487276</ref></bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         
+      <p>¦ denotes a line-filler. oṁ denotes an oṃkāra symbol. Spaces added between words where possible.</p></encodingDesc>
+      <revisionDesc>
+         
+      <change when="2021-05">First version.</change></revisionDesc>
+   </teiHeader>
+</TEI>
