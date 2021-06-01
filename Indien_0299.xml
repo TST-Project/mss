@@ -23,9 +23,9 @@
                <msContents class="#MTM">
                   <summary>Multiple-text manuscript containing three works:
 <list rend="numbered">
-  <item><title>Aruṇācalapurāṇam</title></item>
-  <item><title>Tamiḻ Aṟiyum Perumaḷ Katai</title></item>
-  <item><title>Viṟaliviṭutūtu</title></item>
+  <item><title xml:lang="ta">Aruṇācalapurāṇam</title></item>
+  <item><title xml:lang="ta">Tamiḻ Aṟiyum Perumaḷ Katai</title></item>
+  <item><title xml:lang="ta">Viṟaliviṭutūtu</title></item>
 </list></summary>
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="fr"><term xml:lang="en">Title-page folio</term></title><textLang mainLang="fra"/></msItem><msItem synch="#U3a" xml:id="T2" defective="false" class="#talapuranam"><title xml:lang="ta">Aruṇācalapurāṇam</title><textLang mainLang="tam"/><filiation><p>BnF Indien 297, BnF Indien 298, BnF Indien 983.</p></filiation></msItem><msItem synch="#U3b" xml:id="T3" defective="false"><title xml:lang="ta">Tamiḻ Aṟiyum Perumaḷ Katai</title><textLang mainLang="tam"/></msItem><msItem synch="#U3c" xml:id="T4" defective="false"><title xml:lang="ta"> Viṟaliviṭutūtu  </title><textLang mainLang="tam"/></msItem></msContents>
@@ -43,8 +43,10 @@
                         
                      <collation>
                      
-                     <desc xml:id="cover">the <emph rend="bold">front cover</emph>. </desc><desc xml:id="U1">2 folios = <emph rend="bold">front guard leaves</emph>. Unfoliated.
-</desc><desc xml:id="U2">1 folio = <emph rend="bold">title-page folio</emph>. </desc><desc xml:id="U3">333 folios = the <emph rend="bold">texts</emph>. </desc><desc xml:id="U3a">229 folios = the <emph rend="bold">text n0. 1</emph>.</desc><desc xml:id="U3b">56 folios = the <emph rend="bold">text n0. 2</emph>.</desc><desc xml:id="U3c">48 folios = the <emph rend="bold">text n0. 3</emph>.</desc><desc xml:id="U4">2 folios = <emph rend="bold">back guard leaves</emph>. Unfoliated.
+                     <desc xml:id="cover">the <emph rend="bold">front cover</emph>. </desc><desc xml:id="U1">2 folios = <emph rend="bold">front guard leaves</emph>. No foliation. Blank recto verso.
+</desc><desc xml:id="U2">1 folio = <emph rend="bold">title-page folio</emph>. No foliation. Verso blank.</desc><desc xml:id="U3">333 folios = the <emph rend="bold">texts</emph>. Original Arabic foliation 1-251, 251-332 (two folios foliated 251!). Successive original Tamil foliation 1-232 [parallel to Arabic foliation 1-232], 1-56 [parallel to Arabic foliation 230-251, 251-284], 1-48 [parallel to Arabic foliation 285-332]. First two Tamil foliation overlap: f230-232 of first Tamil foliation = f1-3 of of second Tamil foliation.
+
+</desc><desc xml:id="U3a">229 folios = <emph rend="bold"><title xml:lang="ta">Aruṇācalapurāṇam</title></emph>. Original Arabic foliation 1-229 = first Tamil foliation 1-229.</desc><desc xml:id="U3b">56 folios = <emph rend="bold"><title xml:lang="ta">Tamiḻ Aṟiyum Perumaḷ Katai</title></emph>. Original Arabic foliation 230-251, 251-284 = first Tamil foliation 230-232 = second Tamil foliation1-56 .</desc><desc xml:id="U3c">48 folios = <emph rend="bold"><title xml:lang="ta">Viṟaliviṭutūtu</title></emph>. Original Arabic foliation 285-332 = third Tamil foliation 1-48.</desc><desc xml:id="U4">2 folios = <emph rend="bold">back guard leaves</emph>. No foliation. Blank recto verso.
 </desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>. </desc></collation><condition>Good state of preservation.</condition><support><measure unit="stringhole" quantity="2"/></support></supportDesc>
                      <layoutDesc>
                         <layout columns="1"/>
@@ -52,8 +54,18 @@
                   </objectDesc>
                   <handDesc>
                      
-                  <handNote synch="#U2" scope="sole" script="latin" medium="incised"/><handNote synch="#U3a" scope="sole" script="tamil" medium="incised"/><handNote synch="#U3b" scope="sole" script="tamil" medium="incised"/><handNote synch="#U3c" scope="sole" script="tamil" medium="incised"/></handDesc>
-                  <additions/>
+                  <handNote synch="#U2" scope="sole" scribeRef="#DuclerScribe" script="latin" medium="incised"/><handNote synch="#U3 U3a U3b U3c" scope="sole" scribeRef="#DuclerScribe" script="tamil" medium="incised"><desc>Possibly several different hands though.</desc></handNote></handDesc>
+                  <additions><desc type="commenting-note" subtype="flyleaf">Papernote in black ink:
+<quote rend="block" xml:lang="fr">
+  <list>
+    <p>Mr Duclerque, N° 8</p>
+    <p>Ce livre contient trois histoires fabuleuses</p>
+    <p>dont</p>
+    <p>1° Arounafsalapouraname,</p>
+    <p>2° Tamijariyoume Peroumalecadé,</p>
+    <p>3° Viralividoudoûdou,</p>
+  </list>
+</quote></desc><desc type="commenting-note" subtype="flyleaf">Papernote with two numbers: <quote>292</quote> in black pencil and <quote>2463</quote> in black ink.</desc></additions>
                   <bindingDesc>
                      <binding>
                         <p>Original <material>ebony</material> cover.</p>
@@ -68,7 +80,7 @@
                   <acquisition>
                      
                   </acquisition>
-               <provenance><p>Ducler.</p></provenance></history>
+               <provenance><p>Acquired, July 22nd, 1833, from Philippe Ducler. See BnF, département des Manuscrits, inventaire 1 = <title>Acquisitions: manuscrits et imprimés documentaires, 1833-1848</title>, no. 80.</p></provenance></history>
                <additional>
                   <listBibl>
                      
@@ -93,6 +105,8 @@
     <lb n="2"/>2nd Tamijariyoumbermalcadé
     <milestone n="3" unit="column"/>
     <lb n="1"/>3me Virallyvidoutoudou
+  </p>
+  <p>    
     <milestone n="[1]v" unit="folio"/><term xml:lang="en">[blank]</term>
   </p>  
   
@@ -100,35 +114,37 @@
   
   <p>
     <milestone n="1r" unit="folio"/>
-    <milestone n="1" unit="column"/> <term xml:lang="en">[= margin]</term>
-    <lb n="1"/><seg function="blessing">hariḥ
-    <lb n="2"/>Om</seg>
-    <milestone n="2" unit="column"/>
+    <milestone unit="left margin"/>
+    <lb n="1"/><seg function="blessing"><term xml:lang="sa">hariḥ
+    <lb n="2"/>Om</term></seg>
+    <milestone unit="main text area"/>
     <lb n="1"/><seg function="incipit">mikka vēta <gap reason="ellipsis"/></seg>
     <lb n="2"/>
     <lb n="3"/>
     <lb n="4"/>
     <lb n="5"/><gap reason="ellipsis"/> m eṉṟa v<pc>-</pc>āṟu – <seg function="blessing">tirucciṟṟampalam</seg> – <seg function="blessing">teṇṭapāṇi tuṇai</seg>
+  </p>
+  <p>
     <milestone n="1v" unit="folio"/><term xml:lang="en">[blank]</term>
   </p> 
   
   <p>
     <milestone n="2r" unit="folio"/>    
-    <milestone n="1" unit="column"/> [= margin]
-    <lb n="1"/><seg function="blessing">hariḥ Om</seg>
+    <milestone unit="left margin"/> 
+    <lb n="1"/><seg function="blessing"><term xml:lang="sa">hariḥ Om</term></seg>
     <lb n="2"/><seg function="intertitle">Aruṇakiri
     <lb n="3" break="no"/>-p-purāṇam
     <lb n="4"/>pāyiram</seg>
-    <milestone n="2" unit="column"/>
+    <milestone unit="main text area"/>
     <lb n="1"/>    
   </p> 
   
   <p>
     <milestone n="226r" unit="folio"/>    
-    <milestone n="1" unit="column"/> <term xml:lang="en">[= margin]</term>
+    <milestone unit="left margin"/> 
     <lb n="1"/><seg function="intertitle">puḷakātipa
     <lb n="" break="no"/>-c-carukkam</seg>
-    <milestone n="2" unit="column"/>
+    <milestone unit="main text area"/>
     <lb n="1"/>    
   </p> 
   
@@ -136,12 +152,12 @@
    
    <p>
     <milestone n="230r" unit="folio"/>
-    <milestone n="1" unit="column"/> <term xml:lang="en">[= margin]</term>
+    <milestone unit="margin"/>
     <lb n="1"/><seg function="title">tamiḻ aṟiyum
     <lb n="2"/>perumaḷ
    <lb n="3"/>katai
    </seg>
-    <milestone n="2" unit="column"/>
+    <milestone unit="main text area"/>
     <lb n="1"/><seg function="incipit"> <gap reason="ellipsis"/> </seg>
     <lb n="2"/>
     <lb n="3"/>
@@ -155,14 +171,14 @@
    
    <p>
     <milestone n="285r" unit="folio"/>
-    <milestone n="1" unit="column"/> <term xml:lang="en">[= margin]</term>
-    <lb n="1"/><seg function="blessing">hariḥ Om</seg>
+    <milestone unit="left margin"/>
+    <lb n="1"/><seg function="blessing"><term xml:lang="sa">hariḥ</term> Om</seg>
      <lb n="2"/><seg function="blessing">naṉṟāka</seg>
      <lb n="1"/><seg function="blessing">kuru vāḻ</seg>
      <lb n="1"/><seg function="blessing">kuruvē
      <lb n="1"/>tuṇai</seg>
      <lb n="2"/>
-    <milestone n="2" unit="column"/>
+    <milestone unit="main text area"/>
     <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
     <lb n="2"/>
     <lb n="3"/>
