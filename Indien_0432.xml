@@ -21,9 +21,13 @@
                   <idno type="alternate"><idno>Tamoul 432</idno></idno>
                </msIdentifier>
                <msContents class="#STM">
-                  <summary><p>The manuscript contains a Tamil syllabary (U2). We find successively: the series of initial vowels (f1); the series of the 18 consonants with <emph rend="italic">a</emph> vocalisation (ka, ṅa, ca, ña, ṭa, ṇa, ta, na, pa, ma, ya, ra, la, va, ḻa, ḷa, ṟa, and ṉa) (f2); the series of the 18 consonants (ka, ṅa, ca, ña, ṭa, ṇa, ta, na, pa, ma, ya, ra, la, va, ḻa, ḷa, ṟa, ṉa), given successively (1 folio per consonant), each with the different options for the vocalisation of the consonant and, as final sign, the consonant with <foreign xml:lang="ta">puḷḷi</foreign> (f3–f20).</p>
-         <p>The manuscript has been used. The original Tamil foliation has been “translated” in Arabic foliation. Furthermore, the same hand has supplied, below the Tamil letters, Latin transcriptions in ink (with indication of the length of the vowels). This was done most probably by/for a French speaker, as shown, e.g., in the <emph rend="italic">ka</emph> series (f3r), where <emph rend="italic">ka</emph> க <emph rend="italic">kā</emph> கா <emph rend="italic">ki</emph> கி <emph rend="italic">kī</emph> கீ are transcribed as <emph rend="italic">că</emph>, <emph rend="italic">cā</emph>, <emph rend="italic">quĭ</emph>, <emph rend="italic">quī</emph>. This later hand also added commas between the individual letters as the alphabet is given in scriptio continua. </p>
-<p><emph rend="bold">Paratexts</emph>: marginal benediction; addenda by a later hand.</p></summary>
+                  <summary><p>The manuscript contains a Tamil syllabary (U2). We find successively: 
+  <list>
+    <item>the series of initial vowels (f1)</item>
+    <item>the series of the 18 consonants with <emph rend="italic">a</emph> vocalisation: ka, ṅa, ca, ña, ṭa, ṇa, ta, na, pa, ma, ya, ra, la, va, ḻa, ḷa, ṟa, and ṉa (f2)</item>
+    <item>the series of the 18 consonants, given successively (1 folio per consonant), each with the different options for the vocalisation of the consonant and, as final sign, the consonant with <foreign xml:lang="ta">puḷḷi</foreign> (f3–f20)</item></list>
+</p>
+        </summary>
                   
                <msItem synch="#U2" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Tamil syllabary</term></title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
@@ -39,15 +43,15 @@
                         <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
                         
                         <condition>Excellent state of preservation. The leaves are not particularly well prepared. </condition>
-                     <support><measure unit="stringhole" quantity="1"/></support><collation><desc xml:id="cover">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">guard leaf</emph>. No foliation.</desc><desc xml:id="U2">20 folios = <emph rend="bold">syllabary</emph>. Parallel Tamil foliation 1‒20 and later added Arabic foliation 1‒20. 1 line per page (very big letters). </desc><desc xml:id="U3"> 1 folio = <emph rend="bold">guard leaf</emph>. Arabic foliation 21 added in ink in the left margin.</desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>.</desc></collation></supportDesc>
+                     <support><measure unit="stringhole" quantity="1"/></support><collation><desc xml:id="cover">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">guard leaf</emph>. No foliation.</desc><desc xml:id="U2">20 folios = <emph rend="bold">syllabary</emph>. Tamil foliation 1‒20. Later added Arabic foliation 1‒20. 1 line per page (very big letters). </desc><desc xml:id="U3"> 1 folio = <emph rend="bold">guard leaf</emph>. Later added Arabic foliation 21.</desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>.</desc></collation></supportDesc>
                      <layoutDesc>
                         <layout columns="1" writtenLines="1"/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
                      
-                  <handNote scope="sole" script="tamil" medium="incised"/></handDesc>
-                  <additions/>
+                  <handNote synch="#U2" scope="sole" script="tamil" medium="incised"/></handDesc>
+                  <additions><desc synch="#U2" corresp="#T1" type="documenting-note">The manuscript has been used. The original Tamil foliation has been “translated” in Arabic foliation. Furthermore, the same hand has supplied, below the Tamil letters, Latin transcriptions in ink (with indication of the length of the vowels). This was done most probably by/for a French speaker, as shown, e.g., in the <emph rend="italic">ka</emph> series (f3r), where <emph rend="italic">ka</emph> க <emph rend="italic">kā</emph> கா <emph rend="italic">ki</emph> கி <emph rend="italic">kī</emph> கீ are transcribed as <emph rend="italic">că</emph>, <emph rend="italic">cā</emph>, <emph rend="italic">quĭ</emph>, <emph rend="italic">quī</emph>. This later hand also added commas between the individual letters as the alphabet is given in <emph rend="italics">scriptio continua</emph>. </desc></additions>
                   <bindingDesc>
                      <binding>
                         <p>Original (?) woodcovers. </p>
@@ -56,8 +60,8 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian" when="1835">1835 according to Cabaton (1912, p. 61). The reason for this date is unknown. </origDate>
-                     <origPlace>South India, Tamilnadu.</origPlace>
+                     <origDate calendar="gregorian" when="1835">1835 according to Cabaton (1912, p. 61), on unknown grounds. </origDate>
+                     <origPlace>Tamilnadu.</origPlace>
                   </origin>
                   <acquisition>
                      <p>Unknown.</p>

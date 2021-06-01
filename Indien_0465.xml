@@ -1,5 +1,4 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<?tst sanitized="true"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -19,12 +18,12 @@
                      <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
                   </repository>
                   <idno type="shelfmark">Indien 465</idno>
-                  <idno type="alternate"/>
+                  <idno type="alternate"><idno>Tamoul 465</idno></idno>
                </msIdentifier>
                <msContents class="#STM">
-                  <summary>A Muslim Catechism? To be confirmed.</summary>
+                  <summary>A Muslim Catechism? [to be confirmed]</summary>
                   
-               <msItem synch="#U1" xml:id="T1" defective="false"><title>&lt;term xml:lang="en"&gt;Muslim Catechism?&lt;/term&gt;</title><textLang mainLang="tam" otherLangs="ara"/></msItem></msContents>
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Muslim Catechism?</term></title><textLang mainLang="tam" otherLangs="ara"/></msItem></msContents>
                <physDesc>
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
@@ -39,7 +38,7 @@
                               
                            <height quantity="30"/></dimensions>
                         <dimensions type="object" unit="mm"><width quantity="210"/><height quantity="30"/><depth quantity="10"/></dimensions><dimensions type="written" unit="mm"/></extent>
-                        <collation><desc xml:id="cover">the &lt;emph rend="bold"&gt;front cover&lt;/emph&gt;. With Sticker &lt;quote&gt;INDIEN 465&lt;/quote&gt;.</desc><desc xml:id="U1">6 folios = &lt;emph rend="bold"&gt;main text&lt;/emph&gt;. Tamil foliation 1-5, 8. Completeness to be confirmed. Is the lack of folios foliated 6-7 due to a loss of folios or to a folation mistake?</desc><desc xml:id="cover">the &lt;emph rend="bold"&gt;back cover&lt;/emph&gt;.</desc></collation>
+                        <collation><desc xml:id="cover">the <emph rend="bold">front cover</emph>. Selfmark on the recto.</desc><desc xml:id="U1">6 folios = <emph rend="bold">main text</emph>. Tamil foliation 1-5, 8. Completeness to be confirmed. Is the lack of folios foliated 6-7 due to a loss of folios or to a folation mistake?</desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>.</desc></collation>
                         
                         <condition>Good state of conservation despite boreholes.</condition>
                      </supportDesc>
@@ -52,13 +51,13 @@
                   </decoDesc>
                   <additions>
                   <desc type="documenting-note">Paper note, written in black ink, pierced by one hole and threaded in the string:
-&lt;quote rend="block"&gt;
-manuscrit &lt;del&gt;singalais&lt;/del&gt; tamoul deposé
+<quote rend="block">
+manuscrit <del>singalais</del> tamoul deposé
 à la bibliothèque du roi
-par monsieur gautier d’arc&lt;/quote&gt;
-</desc><desc synch="#U1" corresp="#T1" type="documenting-note" subtype="beginning">In black ink, on f1r: &lt;quote rend="block"&gt;2°&lt;/quote&gt;</desc></additions>
+par monsieur gautier d’arc</quote>
+</desc><desc synch="#cover" type="shelfmark">BnF shelfmark sticker: <quote>INDIEN 465</quote>.</desc><desc synch="#U1" corresp="#T1" type="documenting-note" subtype="beginning">In black ink, on f1r: <quote rend="block">2°</quote></desc></additions>
                   <bindingDesc>
-                     <binding><p>Original (?) &lt;material&gt;wood&lt;/material&gt; covers.  </p></binding>
+                     <binding><p>Original (?) <material>wood</material> covers.  </p></binding>
                   </bindingDesc>
                </physDesc>
                <history>
@@ -67,40 +66,40 @@ par monsieur gautier d’arc&lt;/quote&gt;
                      
                   <origPlace>Tamilnadu.</origPlace></origin>
                   <provenance/>
-                  <acquisition><p>Gift by &lt;ref target="https://data.bnf.fr/fr/13769797/edouard_gauttier_d_arc/"&gt;Édouard Gauttier d'Arc&lt;/ref&gt; (1799-1843).</p></acquisition>
+                  <acquisition><p>Gift by <ref target="https://data.bnf.fr/fr/13769797/edouard_gauttier_d_arc/">Édouard Gauttier d'Arc</ref> (1799-1843).</p></acquisition>
                </history>
                <additional>
                   <listBibl>
                      
-                  <bibl>Cabaton, Antoine (1912). &lt;title&gt;Catalogue sommaire des manuscrits indiens, indo-chinois &amp;amp; malayo-polynésiens. Bibliothèque nationale. Département des manuscrits.&lt;/title&gt; Paris: E. Leroux. — See &lt;ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f85"&gt;p. 66&lt;/ref&gt;.</bibl></listBibl>
+                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens. Bibliothèque nationale. Département des manuscrits.</title> Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f85">p. 66</ref>.</bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          
-      <p>The &lt;emph rend="italic"&gt;puḷḷi&lt;/emph&gt;s are supplied.   </p></encodingDesc>
+      <p>The <emph rend="italic">puḷḷi</emph>s are supplied.   </p></encodingDesc>
       <revisionDesc>
          
       <change when="2021-05">Record created by Emmanuel FRANCIS</change></revisionDesc>
    </teiHeader>
    <facsimile>
    </facsimile>
-<text synch="#U1" corresp="#T1">&lt;body&gt;
-  &lt;p&gt;
-    &lt;milestone facs="00" n="1r" unit="folio"/&gt;
-    &lt;milestone unit="left margin"/&gt;
-    &lt;lb n="1"/&gt;&lt;seg function="blessing"&gt;vicu
-    &lt;lb n="2" break="no"/&gt;mi llā
-    &lt;lb n="3" break="no"/&gt;yi rakumā
-    &lt;lb n="4" break="no"/&gt;ni rra&lt;choice&gt;&lt;unclear reason="vowel_unclear"&gt;ki&lt;/unclear&gt;&lt;unclear reason="vowel_unclear"&gt;kī&lt;/unclear&gt;&lt;/choice&gt;m&lt;/seg&gt;
-    &lt;milestone unit="main text area"/&gt; 
-    &lt;lb n="1"/&gt;&lt;seg function="incipit"&gt;callallāku Alaiki yo callam Āliki O&lt;/seg&gt; Accaviki
-    &lt;lb n="2"/&gt;Acumayiṉ yiracuva callalā Alaiki O callamm&lt;pc&gt;-&lt;/pc&gt;uṭaiya
-    &lt;lb n="3"/&gt;&lt;gap reason="ellipsis"/&gt;
-  &lt;/p&gt;
-  &lt;p&gt;
-    &lt;milestone facs="00" n="8v=6v" unit="folio"/&gt;
-        &lt;lb n="6"/&gt;&lt;gap reason="ellipsis"/&gt; &lt;seg function="explicit"&gt;y&lt;pc&gt;-&lt;/pc&gt;itu A&lt;choice&gt;&lt;orig&gt;ri&lt;/orig&gt;&lt;reg&gt;ṟi&lt;/reg&gt;&lt;/choice&gt;yavum {pcl}&lt;/seg&gt;
-  &lt;/p&gt;
-&lt;/body&gt;</text></TEI>
+<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+  <p>
+    <milestone facs="00" n="1r" unit="folio"/>
+    <milestone unit="left margin"/>
+    <lb n="1"/><seg function="blessing">vicu
+    <lb n="2" break="no"/>mi llā
+    <lb n="3" break="no"/>yi rakumā
+    <lb n="4" break="no"/>ni rra<choice><unclear reason="vowel_unclear">ki</unclear><unclear reason="vowel_unclear">kī</unclear></choice>m</seg>
+    <milestone unit="main text area"/> 
+    <lb n="1"/><seg function="incipit">callallāku Alaiki yo callam Āliki O</seg> Accaviki
+    <lb n="2"/>Acumayiṉ yiracuva callalā Alaiki O callamm<pc>-</pc>uṭaiya
+    <lb n="3"/><gap reason="ellipsis"/>
+  </p>
+  <p>
+    <milestone facs="00" n="8v=6v" unit="folio"/>
+        <lb n="6"/><gap reason="ellipsis"/> <seg function="explicit">y<pc>-</pc>itu A<choice><orig>ri</orig><reg>ṟi</reg></choice>yavum {<term xml:lang="en">pcl</term>}</seg>
+  </p>
+</body></text></TEI>
