@@ -21,7 +21,7 @@
                   <idno type="alternate"><idno>Tamoul 382</idno></idno>
                </msIdentifier>
                <msContents class="#MTM">
-                  <summary><p>The <title xml:lang="ta">Taṇṭalaiyār Catakam</title>, also known as <title>Paḻamoḻi Viḷakkam</title>. This work is attributed to Cāntaliṅka Kavirāyar (Zvelebil 1995, p. 119, 536) and, alternatively, to Pātikkācup Pulavar (Zvelebil 1995, p. 535).</p>
+                  <summary><p>The <title xml:lang="ta">Taṇṭalaiyār Catakam</title>, also known as <title xml:lang="ta">Paḻamoḻi Viḷakkam</title>. This work is attributed to Cāntaliṅka Kavirāyar (Zvelebil 1995, p. 119, 536) and, alternatively, to Pātikkācup Pulavar (Zvelebil 1995, p. 535).</p>
 <p>The <foreign xml:lang="ta">avaiyaṭakkam</foreign> is found twice (U2, f[1]v and U3, f1v).</p></summary>
                   
                <msItem synch="#U2" xml:id="T1" defective="false"><title xml:lang="ta">Taṇṭalaiyār Catakam: kāppu</title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T2" defective="false"><title xml:lang="ta">Taṇṭalaiyār Catakam: nūl</title><textLang mainLang="tam"/></msItem></msContents>
@@ -40,7 +40,7 @@
                      <collation>
                      
                      <desc xml:id="cover">the <emph rend="bold">front cover</emph>. </desc><desc xml:id="U1">1 folio = <emph rend="bold">front guard leaf</emph>. No foliation. Blank except for shelfmark in black ink on recto.
-</desc><desc xml:id="U2">1 folio = <emph rend="bold"><title xml:lang="ta">Taṇṭalaiyār Catakam</title>: <foreign xml:lang="ta">kāppu</foreign> and <foreign xml:lang="ta">avaiyaṭakkam</foreign></emph>. No foliation.</desc><desc xml:id="U3">57 folios = <emph rend="bold"><title xml:lang="ta">Taṇṭalaiyār Catakam</title>: alternative <foreign xml:lang="ta">kāppu</foreign>, <foreign xml:lang="ta">avaiyaṭakkam</foreign>, and <foreign xml:lang="ta">nūl</foreign></emph>. Tamil foliation 1–57. The foliation of f2 consists in twice the figure 1, that is 1+1.</desc><desc xml:id="U4">1 folio = <emph rend="bold">back guard leaf</emph>. No foliation. Blank except for shelfmarks in black ink on verso.</desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>. </desc></collation><condition>Relatively good state of preservation. </condition><support><measure unit="stringhole" quantity="1"/></support></supportDesc>
+</desc><desc xml:id="U2">1 folio = <emph rend="bold"><title xml:lang="ta">Taṇṭalaiyār Catakam</title>: <foreign xml:lang="ta">kāppu</foreign> and <foreign xml:lang="ta">avaiyaṭakkam</foreign></emph>. No foliation.</desc><desc xml:id="U3">57 folios = <emph rend="bold"><title xml:lang="ta">Taṇṭalaiyār Catakam</title>: alternative <foreign xml:lang="ta">kāppu</foreign>, <foreign xml:lang="ta">avaiyaṭakkam</foreign></emph> again (same verse as in U2), and <emph rend="bold"><foreign xml:lang="ta">nūl</foreign></emph>. Tamil foliation 1–57. The foliation of f2 consists in twice the figure 1, that is 1+1.</desc><desc xml:id="U4">1 folio = <emph rend="bold">back guard leaf</emph>. No foliation. Blank except for shelfmarks in black ink on verso.</desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>. </desc></collation><condition>Relatively good state of preservation. </condition><support><measure unit="stringhole" quantity="1"/></support></supportDesc>
                      <layoutDesc>
                         <layout columns="1" writtenLines="4">Final letter(s) indented at the end of line.</layout>
                      </layoutDesc>
@@ -48,7 +48,7 @@
                   <handDesc>
                      
                   <handNote synch="#U2 U3" scope="sole" script="tamil" scriptRef="#tamilPulliNone #tamilOE" medium="incised"/></handDesc>
-                  <additions><desc synch="#U1" type="shelfmark" subtype="beginning guard-folio left"><quote>N° 11</quote> in black ink (recto).</desc><desc synch="#U4" type="shelfmark" subtype="end guard-folio left right"><quote>N° 20</quote> in black ink (verso); the figure 20 is crossed-out. <quote>20.</quote> in black ink (verso).</desc></additions>
+                  <additions><desc synch="#U1" type="shelfmark" subtype="beginning guard-folio left"><quote>N° 11</quote> in black ink (recto).</desc><desc synch="#U4" type="shelfmark" subtype="end guard-folio left right"><quote>N° 20</quote> in black ink (verso, left side); the figure 20 is crossed-out. <quote>20.</quote> in black ink (verso, right side).</desc></additions>
                   <bindingDesc>
                      <binding>
                         <p><material resp="#cLI" cert="medium">Mahogany</material> woodcovers apparently fabricated in the BnF.</p>
@@ -82,9 +82,9 @@
   <p>
     <milestone n="[1]r" unit="folio"/>
     <milestone unit="left margin"/>
-    <lb n="1"/><seg function="blessing">hari Om</seg>
+    <lb n="1"/><seg function="blessing"><g xml:lang="sa">ha</g>ri O<g xml:lang="sa">m</g></seg>
     <milestone unit="main text area"/>
-    <lb n="1"/>
+    <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
     <lb n="2"/>
     <lb n="3"/>
     <lb n="4"/>
@@ -95,7 +95,7 @@
     <lb n="1"/>
     <lb n="2"/>
     <lb n="3"/>
-    <lb n="4"/>
+    <lb n="4"/><seg function="explicit"><gap reason="ellipsis"/></seg>
   </p>  
   
 </body></text><text synch="#U3" corresp="#T2" xml:lang="ta"><body>
@@ -105,7 +105,7 @@
     <milestone unit="left margin"/>
     <lb n="1"/><seg function="blessing">naṉṟāka</seg>
     <milestone unit="main text area"/>
-    <lb n="1"/>
+    <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
     <lb n="2"/>
     <lb n="3"/>
     <lb n="4"/>
@@ -116,7 +116,7 @@
     <lb n="1"/>
     <lb n="2"/>
     <lb n="3"/>
-    <lb n="4"/>   
+    <lb n="4"/><seg function="explicit"><gap reason="ellipsis"/></seg>
   </p>     
   
 </body></text></TEI>
