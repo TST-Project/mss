@@ -23,7 +23,7 @@
                <msContents class="#STM">
                   <summary><p>The <title xml:lang="ta">Kumarēcacatakam</title>, by Kurupāta Tācar (Zvelebil 1995, p. 387).</p></summary>
                   
-               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title page</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2a" xml:id="T2a" defective="false"><title xml:lang="ta">Kumarēcacatakam: kāppu</title><textLang mainLang="tam"/></msItem><msItem synch="#U2b" xml:id="T2b" defective="false"><title xml:lang="ta">Kumarēcacatakam: nūl</title><textLang mainLang="tam"/></msItem></msContents>
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title page</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2a" xml:id="T2a" defective="false"><title xml:lang="ta">Kumarēcacatakam: kāppu</title><textLang mainLang="tam"/></msItem><msItem synch="#U2b" xml:id="T2b" defective="true"><title xml:lang="ta">Kumarēcacatakam: nūl</title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
@@ -39,7 +39,7 @@
                      <collation>
                      
                      <desc xml:id="cover">the <emph rend="bold">front cover</emph>. Shelfmark on the recto.</desc><desc xml:id="U1">1 folio = <emph rend="bold">title page folio</emph>. No foliation. Double folio. Shelfmarks on the recto. Verso blank.
-</desc><desc xml:id="U2a">1 folio = <emph rend="bold"><title xml:lang="ta">Kumarēcacatakam</title>: <foreign xml:lang="ta">kāppu</foreign></emph>. No foliation. Verso blank.</desc><desc xml:id="U2b">25 folios = <emph rend="bold"><title xml:lang="ta">Kumarēcacatakam</title>: <foreign xml:lang="ta">nūl</foreign></emph>. Tamil foliation 1–25 (missing however on some folios). </desc><desc xml:id="U3">1 folio = <emph rend="bold">back guard leaf</emph>. No foliation. Double folio. Blank recto verso.</desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>. </desc></collation><condition>Good state of preservation despite boreholes.</condition><support><measure unit="stringhole" quantity="2"/><p>Edges rounded.</p></support></supportDesc>
+</desc><desc xml:id="U2">26 folios. The original bundle (U2a + U2b). U2a, f1v and U2b, f25v have stains that indicate these were the original outside pages.</desc><desc xml:id="U2a">1 folio = <emph rend="bold"><title xml:lang="ta">Kumarēcacatakam</title>: <foreign xml:lang="ta">kāppu</foreign></emph>. No foliation. Verso blank.</desc><desc xml:id="U2b">25 folios = <emph rend="bold"><title xml:lang="ta">Kumarēcacatakam</title>: <foreign xml:lang="ta">nūl</foreign></emph>. Tamil foliation 1–25 (missing however on some folios). f25v unblackened.</desc><desc xml:id="U3">1 folio = <emph rend="bold">back guard leaf</emph>. No foliation. Double folio. Blank recto verso. Seemingly added along with U1 to the original bundle.</desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>. </desc></collation><condition>Good state of preservation despite boreholes.</condition><support><measure unit="stringhole" quantity="2"/><p>Edges rounded.</p></support></supportDesc>
                      <layoutDesc>
                         <layout columns="1" writtenLines="4 5"/>
                      </layoutDesc>
@@ -47,7 +47,8 @@
                   <handDesc>
                      
                   <handNote synch="#U1" scope="sole" scribeRef="#ArielTitleScribe" script="tamil" scriptRef="#tamilPulliRegular #tamilOE" medium="incised"/><handNote synch="#U2a U2b" scope="sole" script="tamil" scriptRef="#tamilPulliRegular #tamilOE" medium="incised"/></handDesc>
-                  <additions><desc synch="#cover" type="shelfmark" subtype="beginning">BnF shelfmark sticker: <quote>INDIEN 354</quote>. </desc><desc synch="#cover" type="shelfmark" subtype="beginning">A missing shelfmark sticker (Société Asiatique?). See traces of glu.</desc><desc synch="#U1" corresp="#T1" type="shelfmark" subtype="end guard-folio left right">Shelfmark <quote>C/25</quote> in black ink. </desc></additions>
+                  <additions><desc synch="#cover" type="shelfmark" subtype="beginning">BnF shelfmark sticker: <quote>INDIEN 354</quote>. </desc><desc synch="#cover" type="shelfmark" subtype="beginning">A missing shelfmark sticker (Société Asiatique?). See traces of glu.</desc><desc synch="#U1" corresp="#T1" type="shelfmark" subtype="end guard-folio left right">Shelfmark <quote>C/25</quote> in black ink. </desc><desc synch="#U2b" corresp="#T2b" type="intertitle">Running intertitles, systematically on recto and verso.
+</desc><desc synch="#U2b" corresp="#T2b" type="verse-numbering">Sometimes missing (f6r? f7v?).</desc></additions>
                   <bindingDesc>
                      <binding>
                         <p><material resp="#cLI" cert="medium">Mahogany</material> woodcovers apparently fabricated in the BnF.</p>
@@ -76,33 +77,62 @@
       <change when="2021-06">Record created by Emmanuel FRANCIS.</change></revisionDesc>
    <encodingDesc><p>TBA</p></encodingDesc></teiHeader>
    
-<text synch="#U1" corresp="#T1" xml:lang="ta"/><text synch="#U2a" corresp="#T2a" xml:lang="ta"><body>
+<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   
   <p>
     <milestone n="[1]r" unit="folio"/>
-    <milestone unit="left margin"/>
-    <lb n="1"/><seg function="blessing"><g xml:lang="sa">ha</g>ri O<g xml:lang="sa">m</g></seg>
+    <milestone n="1" unit="column"/>
+    <lb n="1"/><seg function="blessing">veṟṟi-vē
+    <lb n="2" break="no"/>l uṟṟa tuṇai</seg>
+    <milestone n="2" unit="column"/>
+    <lb n="1"/>Iḵtu
+    <milestone n="2" unit="column"/>
+    <lb n="1"/><seg function="title">kumarēcar•
+    <lb n="2"/>catakam•</seg>
+  </p>
+  
+  <p>
+    <milestone n="[1]v" unit="folio"/> <term xml:lang="en">[blank]</term>
+  </p>  
+  
+</body></text><text synch="#U2a" corresp="#T2a" xml:lang="ta"><body>
+  
+  <p>
+    <milestone n="[1]r" unit="folio"/>
+    <milestone n="1" unit="left margin"/>
+    <lb n="1"/><seg function="blessing"><g xml:lang="sa">ha</g>ri Om</seg>
+    <lb n="2"/><seg function="blessing">naṉṟāka</seg>
+    <lb n="3"/><seg function="blessing">kuru vāḻka</seg>
+    <lb n="4"/><seg function="blessing">kuruvē tuṇai</seg>
+    <milestone n="2" unit="left margin"/>
+    <lb n="1"/><seg function="blessing">kaṇapati tuṇai</seg>
+    <lb n="2"/><seg function="title">kumarēcaca<sic>tta</sic>kam
+    <lb n="3"/>kāp ~ ~ ~ ~ pu [<term xml:lang="en">i.e.</term> kāppu]</seg>
     <milestone unit="main text area"/>
     <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
     <lb n="2"/>
     <lb n="3"/>
     <lb n="4"/>
+    <milestone n="2" unit="right margin"/>
+    <lb n="1"/><seg function="blessing">civa-cuta-kaṇapati
+    <lb n="2"/>tiruvaṭi caṟa
+    <lb n="3" break="no"/>ṇa ~ ~ ~ ~ m [<term xml:lang="en">i.e.</term> caraṇam]</seg>
   </p>
   
-  <p>
-    <milestone n="[1]v" unit="folio"/>
-    <lb n="1"/>
-    <lb n="2"/>
-    <lb n="3"/>
-    <lb n="4"/><seg function="explicit"><gap reason="ellipsis"/></seg>
+    <p>
+    <milestone n="[1]v" unit="folio"/> <term xml:lang="en">[blank]</term>
   </p>  
   
 </body></text><text synch="#U2b" corresp="#T2b" xml:lang="ta"><body>
   
   <p>
     <milestone n="1r" unit="folio"/>
-    <milestone unit="left margin"/>
-    <lb n="1"/><seg function="blessing">naṉṟāka</seg>
+    <milestone n="1" unit="left margin"/>
+    <lb n="1"/><seg function="blessing">naṉ
+    <lb n="2" break="no"/>ṟāka</seg>
+    <milestone n="2" unit="left margin"/>
+    <lb n="1"/><seg function="intertitle">Avai A
+    <lb n="2" break="no"/>ṭakkam</seg>
     <milestone unit="main text area"/>
     <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
     <lb n="2"/>
@@ -111,11 +141,32 @@
   </p>
   
   <p>
-    <milestone n="57v" unit="folio"/>
-    <lb n="1"/>
+    <milestone n="1v" unit="folio"/>
+    <milestone unit="left margin"/>
+    <lb n="1"/><seg function="intertitle">kumarēca
+    <lb n="2" break="no"/>r makimai</seg>
+    <milestone unit="main text area"/>
+    <lb n="1"/><gap reason="ellipsis"/>
     <lb n="2"/>
     <lb n="3"/>
-    <lb n="4"/><seg function="explicit"><gap reason="ellipsis"/></seg>
+    <lb n="4"/>
+  </p>
+    
+  <p>
+    <milestone n="25r" unit="folio"/>
+    <milestone unit="left margin"/>
+    <lb n="1"/><seg function="intertitle">naḻuppu
+    <lb n="2" break="no"/>nilai</seg>
+    <milestone unit="main text area"/>
+    <lb n="1"/><gap reason="ellipsis"/>
+    <lb n="2"/>
+  </p>
+  
+  <p>
+    <milestone n="25v" unit="folio"/>
+    <lb n="1"/><seg function="intertitle"><gap reason="ellipsis"/>
+    <lb n="2" break="no"/><gap reason="ellipsis"/></seg>
+    <lb n="1"/><seg function="explicit"><gap reason="ellipsis"/></seg>
   </p>     
   
 </body></text></TEI>
