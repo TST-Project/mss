@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Cīrāṉa Nellilakkam</title>
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Indien 436</idno>
+                  <idno type="alternate"><idno>Tamoul 436</idno></idno>
+               </msIdentifier>
+               <msContents class="#STM">
+                  <summary>A <foreign xml:lang="ta">nellilakkam</foreign>, that is, according to the <title>Madras Tamil Lexicon</title>, s.v. <foreign xml:lang="ta">nel-l-ilakkam</foreign>: <quote>Reckoning by grains instead of abstract figures, opp. to poṉ-ṉ-ilakkam</quote>.</summary>
+                  
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Cīrāṉa Nelillakkam: kāppu</title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta">Cīrāṉa Nellilakkam: <term xml:lang="en">main text</term></title><textLang mainLang="tam"/></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="pothi">
+                     <supportDesc material="palm-leaf">
+                        <extent>
+                           <measure unit="folio" quantity="8">1 + 7 (U1 + U2)</measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           <width quantity="445"/><height quantity="30"/></dimensions>
+                        <dimensions type="object" unit="mm"><width quantity="450"/><height quantity="30"/><depth quantity="25"/></dimensions><dimensions type="written" unit="mm"/></extent>
+                        
+                        
+                     <collation>
+                     
+                     <desc xml:id="cover">the <emph rend="bold">front cover</emph>. </desc><desc xml:id="U1">1 folio = <emph rend="bold"><term xml:lang="ta">Cīrāṉa Nellilakkam: kāppu</term></emph>. No foliation. Double folio. f[1]r darkened = outside page of the original folio. Verso blank.
+</desc><desc xml:id="U2">7 folios = <emph rend="bold"><term xml:lang="ta">Cīrāṉa Nellilakkam</term>: main text</emph>. Tamil foliation [1]-7 (firtst folio not explicitly foliated). Double folios. f7v darkened = outside page of the original folio.</desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>. Shelfmark on the verso.</desc></collation><condition>Good state of preservation.</condition><support><measure unit="stringhole" quantity="1"/><p>Double folios.</p></support></supportDesc>
+                     <layoutDesc>
+                        <layout columns="10 11" writtenLines="4"/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     
+                  <handNote synch="#U1 U2" scope="sole" script="tamil" medium="incised"/></handDesc>
+                  <additions><desc synch="#cover" type="shelfmark" subtype="end">BnF shelfmark sticker: <quote>INDIEN 436</quote>. </desc></additions>
+                  <bindingDesc>
+                     <binding>
+                        <p><material resp="#cLI" cert="medium">Mahogany</material> woodcovers apparently fabricated in the BnF.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian" notAfter="1840">No internal date. Dated to 1840 by Cabaton (1912), on unknown grounds.</origDate>
+                     <origPlace>Tamilnadu.</origPlace>
+                  </origin>
+                  <acquisition>
+                     
+                  </acquisition>
+               <provenance/></history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f80">p. 62</ref>.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         
+      <change when="2021-06">Record created by Emmanuel FRANCIS.</change></revisionDesc>
+   <encodingDesc><p>TBA</p></encodingDesc></teiHeader>
+   
+<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+  
+  <p>
+    <milestone n="[1]r" unit="folio"/>
+    <milestone unit="left margin"/>
+    <lb n="1"/><seg function="blessing"><g xml:lang="sa">ha</g>ri O<g xml:lang="sa">m•</g></seg>
+    <lb n="2"/><seg function="blessing">naṉrāka</seg>
+    <lb n="3"/><seg function="blessing">kuru vāḻka</seg>
+    <milestone unit="main text area"/>
+    <lb n="1"/>
+  </p>
+  
+  <p>
+    <milestone n="[1]v" unit="folio"/> <term xml:lang="en">[blank]</term>
+  </p>  
+  
+</body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
+  
+  <p>
+    <milestone n="[1]r" unit="folio"/>
+    <milestone unit="left margin"/>
+    <lb n="1"/><seg function="blessing">naṉrāka</seg>
+   <milestone n="1" unit="column"/>
+  </p>
+  
+  <p>
+    <milestone n="7v" unit="folio"/> <term xml:lang="en">[unblackened additions]</term>
+  </p>
+    
+
+</body></text></TEI>
