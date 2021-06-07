@@ -1,17 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader xml:lang="en">
       <fileDesc>
          <titleStmt>
             <title><title xml:lang="ta">Caṅkaṟpanirākaraṇam</title> (text and commentary)</title>
-         </titleStmt>
-         <editionStmt>
-            <p>Record edited by <persName>Emmanuel FRANCIS</persName> <orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName>.</p>
-         </editionStmt>
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2020</date>
+            <date>2021</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -24,116 +22,59 @@
                   <idno type="alternate"><idno>Tamoul 2</idno></idno>
                </msIdentifier>
                <msContents class="#MTM">
-                  <summary>
-<p>The <title xml:lang="ta">Caṅkaṟpanirākaraṇam</title> (“Refutation of doctrines”) is the last of the 14 <title xml:lang="ta">Meykaṇṭacāttiram</title>, a canon of theological and doctrinal texts of the South Indian neo-saiddhāntika Śaiva school. The work dates to 1313 CE (see Goodall 2000, p. 211, n. 20). The author <persName xml:lang="ta">Umāpati Civācāriyār</persName> does not appear to be mentioned or named as such in the bundle. The work in the present manuscript is divided into 20 chapters, most of them paired, as the exposition of the doctrine (<term xml:lang="ta" rend="italic">matam</term>) of the tenants of a specific Śaiva school is followed by its refutation (<term xml:lang="ta" rend="italic">maṟuppu</term>).</p>
+                  <summary><p>The <title xml:lang="ta">Caṅkaṟpanirākaraṇam</title> (“Refutation of doctrines”) is the last of the 14 <title xml:lang="ta">Meykaṇṭacāttiram</title>, a canon of theological and doctrinal texts of the South Indian neo-saiddhāntika Śaiva school. The work dates to 1313 CE (see Goodall 2000, p. 211, n. 20). The author <persName xml:lang="ta">Umāpati Civācāriyār</persName> does not appear to be mentioned or named as such in the bundle. The work in the present manuscript is divided into 20 chapters, most of them paired, as the exposition of the doctrine (<term xml:lang="ta" rend="italic">matam</term>) of the tenants of a specific Śaiva school is followed by its refutation (<term xml:lang="ta" rend="italic">maṟuppu</term>).</p>
  <p>The text is complete.</p>
                   </summary>
-                  <msItem synch="#U3" defective="false">
-                     <title xml:lang="ta">Caṅkaṟpanirākaraṇam</title>
-                     <author xml:lang="ta">Umāpati Civācāriyār</author>
-                     <textLang mainLang="tam">Tamil</textLang>
-                     <incipit xml:lang="ta">
-                        <note xml:lang="en"><locus facs="7">folio 1, recto, unfoliated</locus> = <emph rend="bold">incipit</emph> of root-text: title, chapter header, metre in the left margin: stanza n° 1. </note>
-               <milestone unit="folio" n="[1]r1" facs="7"/>tirintiya varuntavam poruntupaṉ muṉivar (...)
-                     </incipit>
-                     <explicit xml:lang="ta">
-                        <note xml:lang="en"><locus facs="69">folio 32, recto</locus> and <locus facs="70">verso</locus> = <emph rend="bold">excipit</emph>, of root-text: stanza n° 20, completion statement, benedictions, and scribal colophon.</note>
-                        <milestone unit="folio" facs="69" n="32r2"/>(...) tiruvaruḷ ‧ viṉava ṟiruntiṭu
-                       <lb/>maṉṟē <g ref="#pcs"/> 20 <g ref="#pcs"/> tāravalaiyt tuḷḷōrkaṭanta caṅkaṟpanirākaraṇam eṉṉāl nikaḻttum pirāṉai yiṇi
-                       <lb/>vempanta nīṅkat toḻumiṉ ‧ viyaṉ marutac campantāṉ vantaruḷun tāṉ <g ref="#pcs"/> caṅkaṟpanirākaraṇamuttum <g ref="#pcs"/>
-                       <lb/>civappirakācaṉ ṟiruvaṭi vāḻka <g ref="#pcs"/> caṟuvatāri {varuṣam} māci {mācam} 29. (pomma)puriyil Irukkum Amuṟtapāṇit tampirāṉ
-                       <lb/><milestone unit="folio" facs="70" n="32v1"/>piṟiti Ēṭu pāttu pātūrc cittampalavaṉ Eḻut° piṟiti ‧ ñāṉatēcikaṉ ṟiruvaṭikaḷē tuṇai kuru vāḻka kuruvē tuṇai
-                       <lb/>civakaṭā<emph rend="bold">ṣṣa</emph>m Uṇṭāy ñāṉotayakiṟupai Uṇṭāy viḷaṅkak kaṭavatu <g ref="#pcs"/>
-                       <lb/>ñāṉakurutiṭṭai Aruḷuṇṭākak kaṭavatu <g ref="#pcs"/> Itu ṟā Urai piṟakē Eḻutiyirukkutu <g ref="#pcs"/>
-                     </explicit>
-                  </msItem>
-                  <msItem synch="#U5" defective="false">
-                     <title xml:lang="ta">Caṅkaṟpanirākaraṇam Urai</title>
-                     <textLang mainLang="tam">Tamil</textLang>
-                     <incipit xml:lang="ta">
-                        <note xml:lang="en"><locus facs="77">folio 1, recto, unfoliated</locus> = <emph rend="bold">incipit</emph> of commentary: benediction, title in left margin; commentary. </note>
-                           <milestone unit="folio" n="[1]r1" facs="77"/>kallā ṉiḻaṉmalai villā raruḷiya pollā riṇaimalar nallār puṉaivarē – tiruntiya varuntavam poruntupaṉ muṉi-
-                           <lb/>var ‧ Etu ‧ (...)
-                     </incipit>
-                     <explicit xml:lang="ta">
-                        <note xml:lang="en"><locus facs="356">folio 139, verso</locus> = <emph rend="bold">excipit</emph> of commentary: completion statement, colophon, benedictions; addendum (<locus facs="356">f139v6</locus>) by another hand, unblackened. </note>
-                            <milestone n="139r1" unit="folio" facs="355"/>marutac campantaṉ vantaruḷun taṉ ‧ Etu ‧ mikka ciṟappoṭuṅ kūṭiyirukkiṟa ‧ marutattūṟkuk katt(ā)vāyiruntuḷḷa {<term xml:lang="en">2 line-fillers</term>}
-                            <lb/>(ma)ṟaiñāṉa campantāṉ eṉkiṟa tiruṉāmattiṇayuṭaiyavaṉ eḻuntaruḷiyuṅkaḷukkaṉuki kirakattaic cey- {<term xml:lang="en">2 line-fillers</term>}
-                            <lb/>yā niṟkum eṉṟav āṟu (<g ref="#pcs"/>). (poṟapamārapala coṟṟuṟaiyoraip pokintaṉ) caṅkaṟpanirākaraṇatturai {<term xml:lang="en">1 line-filler</term>}
-                            <lb/>kāṭṭiṉaṉ (kāṟṟiyaṅkulaṟppirāviṭai maṅkai paṅkuṉṟi yāṇainta veṅkoṉ ciṟpaniṟāmayaṉ) ñā-
-                            <lb/>ṉappiṟakācannatēcikaṉ X virutt° <g ref="#pcs"/> naṅkaṟpakamuṉi ñāṉappiṟakācaṉṉiviruttacaṅkaṟpakamuṉiyattirai kāṇa
-                            <lb/><milestone n="139v1" unit="folio" facs="356"/>palacamaiyamume maṅkaṟpakamuṉiveloṉ kaippaṭṭav acurar eṉṉat taṅkaṟpakamuṉiṉ illātuki kuṟṟar ippalavē <g ref="#pcs"/>
-                            <lb/>Allār (m)oḻiṟṟillai Ampalavaṉ ṟaṉ vārttai yellāñ ‧ civamāyiruntate tollāḻiveḷḷam pāntu-
-                            <lb/>kkāla veṟu puṉal toṉṟa poluḷḷañ civatteyoḷittu <g ref="#pcs"/> caṅkaṟpanirākaraṇam eḻuti muṭintatu mu-
-                            <lb/>ttum [<term xml:lang="en">i.e.</term> muṟṟum] <g ref="#pcs"/> pātūr vi(cu)vaku ? cantatiyil citt°palavaṉ Eḻuttu. ñāṉatēcikaṉ ṟiruvaṭikkamalamē tuṇaiyākak kaṭavatu <g ref="#pcs"/>
-                            <lb/>kaliyukam [vacat] ttu <g ref="#varudam"/> cellum viya <g ref="#varudam"/> tai {māca}t° 4 <g ref="#teti"/> (r)okaṇiy° [<term xml:lang="en">this word, below the line</term>] Eḻuti niraveṟiṉatu muttum <g ref="#pcs"/> kuru vāḻka kuruvē tuṇai yuṇṭākak kaṭavatu <g ref="#pcs"/>
-                            <lb/>(pomma)puriyil irukkum Amuṟtapāṉit tampiraṉ piṟiti pāttu Eḻu(t)itu ñāṉatecikaṉ tuṇai<g ref="#pcs"/>
-                 </explicit>
-              </msItem>   
-           </msContents>
+                  
+                     
+           <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title page</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T2" defective="false"><title xml:lang="ta">Caṅkaṟpanirākaraṇam: mūlam</title><author xml:lang="ta">Umāpati Civācāriyār</author><textLang mainLang="tam"/></msItem><msItem synch="#U5" xml:id="T3" defective="false"><title xml:lang="ta">Caṅkaṟpanirākaraṇam: urai</title><textLang mainLang="tam"/></msItem><msItem synch="#U5bis" xml:id="T4" defective="false"><title xml:lang="ta"><term xml:lang="en">Addendum</term></title><textLang mainLang="tam"/></msItem></msContents>
            <physDesc>
               <objectDesc form="pothi">
                  <supportDesc material="palm-leaf">
                     <support><measure unit="stringhole" quantity="2"/></support>
                     <extent>
-                       <measure unit="folio" quantity="178">1 + 1 + 32 + 3 + 139 + 1</measure>
+                       <measure unit="folio" quantity="178">1 + 1 + 32 + 3 + 139 + 1 (U1 + U2 + U3 + U4 + U5 + U5bis + U6)</measure>
                        <dimensions type="leaf" unit="mm">
                           <width quantity="330"/>
                           <height quantity="25"/>
                        </dimensions>
-                    </extent>
+                    <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
                     <collation>
-                    <desc xml:id="U1">On the front woodcover, 1 folio, unfoliated = title-page, by hand n° 1. With shelfmark: C/62.</desc>
-                    <desc xml:id="U2">1 folio, unfoliated = flyleaf.</desc>
-                    <desc xml:id="U3">32 folios, Tamil foliation 2‒32 (f1 not explicitly foliated) = text (<term xml:lang="ta" rend="italic">mūlam</term>), 5 to 6 lines per page, by hand n° 2.</desc>
-                    <desc xml:id="U4">3 folios, unfoliated = intermediate flyleafs.</desc>
-                    <desc xml:id="U5">139 folios, Tamil foliation 2‒139 (f1 not explicitly foliated) = commentary (<term xml:lang="ta" rend="italic">urai</term>), 6 to 7 lines per page, by hand n° 2.</desc>
-                    <desc xml:id="U5bis">smaller folio inserted between folios 62 and 63 = addendum, supplying a missing phrase in the original bundle, by hand n° 3.</desc>
-                    <desc xml:id="U6">1 folio, unfoliated = table of contents, added to the bundle, by hand n° 4.</desc>
-                    </collation>
-                    <condition>Very good state of preservation, in spite of bore holes caused by insects.</condition>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    <desc xml:id="U1">1 folio = <emph rend="bold">title page</emph>. No foliation. Verso blank. Shelfmarks on the recto. Hand # 1.</desc><desc xml:id="cover">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U2">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso.</desc><desc xml:id="U3">32 folios = 
+<emph rend="bold"><title xml:lang="ta">Caṅkaṟpanirākaraṇam: mūlam</title></emph>.
+Tamil foliation [1]‒32. 5 to 6 lines per page. Hand # 2.</desc><desc xml:id="U4">3 folios = <emph rend="bold">guard leaves</emph>. No foliation. Blank recto verso.</desc><desc xml:id="U5">139 folios = 
+<emph rend="bold"><title xml:lang="ta">Caṅkaṟpanirākaraṇam: urai</title></emph>.
+Tamil foliation [1]‒139. 6 to 7 lines per page. Hand # 2.</desc><desc xml:id="U5bis">1 folio = <emph rend="bold">addition</emph>. No foliation. 1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Verso blank. Smaller folio inserted between U5, folios 62 and 63. Addendum, supplying a missing phrase in the original bundle. Hand # 3.</desc><desc xml:id="U6">1 folio = <emph rend="bold">table of contents</emph>. No foliation. Verso blank. Addendum. Hand #4.</desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>.</desc></collation>
+                    <condition>Very good state of preservation, in spite of boreholes caused by insects.</condition>
                  </supportDesc>
                  <layoutDesc>
                     <layout columns="1" writtenLines="5 7"/>
                  </layoutDesc>
               </objectDesc>
               <handDesc>
-                 <handNote synch="#U1" scope="minor" script="tamil">
-                    <desc>Title on front woodcover.</desc>
-                 </handNote>
-                 <handNote synch="#U3 #U5" scope="major" script="tamil">
-                    <desc><term xml:lang="ta">mūlam</term> and <term xml:lang="ta">urai</term>.</desc>
-                 </handNote>
-                 <handNote synch="#U5bis" scope="minor" script="tamil">
-                    <desc>inserted folio.</desc>
-                 </handNote>
-                 <handNote synch="#U6" scope="minor" script="tamil">
-                    <desc>unfoliated table of contents.</desc>
-                 </handNote>
-              </handDesc>
+                 
+                 
+                 
+                 
+              <handNote synch="#U1" scope="minor" script="tamil" scriptRef="#tamilPulliRegular" medium="incised"><desc>Hand # 1. </desc></handNote><handNote synch="#U3 U5" scope="major" script="tamil" medium="incised"><desc>Hand # 2.</desc></handNote><handNote synch="#U5bis" scope="minor" script="tamil" medium="incised"><desc>Hand # 3.</desc></handNote><handNote synch="#U6" scope="minor" script="tamil" medium="incised"><desc>Hand # 4.</desc></handNote></handDesc>
               <additions>
-                 <desc type="blessing">Benedictions.</desc>
-                 <desc type="title" subtype="beginning"><emph rend="bold">U1</emph>, <locus xml:lang="en" facs="3">folio 1, unfoliated</locus> = <emph rend="bold">title-page</emph>: title.
-                    <quote rend="block" xml:lang="ta"><milestone facs="3" n="[1]r1" unit="folio"/>caṅkaṟpanirākaraṇam</quote>
-                 </desc>
-                 <desc type="title" subtype="marginal">
-                    <emph rend="bold">U3</emph>, <locus facs="7">folio 1, recto, unfoliated</locus> = <emph rend="bold">incipit</emph> of root-text: title. 
-                        <quote rend="block" xml:lang="ta"><milestone facs="7" n="[1]r, lm, 1‒2" unit="folio"/>caṅkaṟpanirākaraṇam <g ref="#pcs"/></quote>
-                 </desc>
-                 <desc type="chapter-heading" subtype="marginal">
-                    <emph rend="bold">U3</emph>, <locus facs="7">folio 1, recto, unfoliated</locus> = <emph rend="bold">incipit</emph> of root-text: chapter header, metre in the left margin: stanza n° 1.
-                        <quote rend="block" xml:lang="ta"><milestone facs="7" n="[1]r, lm, 3-5" unit="folio"/>māyāvāti caṅkaṟpam ‒ ‒ AkaXval <g ref="#pcs"/></quote>
-                </desc>
-                 <desc type="documenting-note" subtype="intertextual">In-text chapter completion statement.</desc>
-                 <desc type="documenting-note" subtype="intertextual">Addendum (U5bis).</desc>
-                 <desc type="documenting-note" subtype="intertextual">Scribal colophons.</desc>
-                 <desc type="table-of-contents">Table of contents.</desc>
-                 <desc type="blessing" subtype="marginal"><emph rend="bold">U5</emph>, <locus facs="77">folio 1, recto, unfoliated</locus> = <emph rend="bold">incipit</emph> of commentary: benediction, title in left margin; commentary.
-                       <quote rend="block" xml:lang="ta">
-                           <milestone facs="77" n="[1]r, lm, 1‒6" unit="folio"/>civañāṉatēcikaṉ ṟiruvaṭi vāḻ caṅkaṟpanirākaraṇam UraiUṭaṉ
-                        </quote>
-                 </desc>
-                  </additions>
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                  <desc synch="#U1" type="shelfmark">Shelfmark <quote>c/62</quote> in black ink. </desc><desc synch="#U1" type="title shelfmark">BnF shelfmark sticker: <quote>INDIEN 2</quote>. </desc><desc type="documenting-note" subtype="intertextual">In-text chapter completion statement.</desc><desc type="documenting-note" subtype="intertextual">Addendum (U5bis).</desc><desc type="documenting-note" subtype="intertextual">Scribal colophons.</desc><desc synch="#U6" corresp="#T4" type="table-of-contents">Table of contents.</desc></additions>
                   <bindingDesc>
                      <binding>
                         <p>Original woodcovers (<material resp="#cLI" cert="medium">rosewood</material>).</p>
@@ -151,25 +92,94 @@
                </history>
                <additional>
                   <listBibl>
-                     <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f19">p. 1</ref>.</bibl>
-                     <bibl>Francis, Emmanuel (2019-05-13). INDIEN 2 BnF: Caṅkaṟpanirākaraṇam, “Refutation of Doctrines”. <ref target="https://tst.hypotheses.org/362">https://tst.hypotheses.org/362</ref>
-                     </bibl>
-                     <bibl>Goodall, Dominic (2000). “Problems of Name and Lineage: Relationships between South Indian Authors of the “Śaiva Siddhānta”.” Journal of the Royal Asiatic Society, Third Series, 10(2).</bibl>
-                  </listBibl>
+                     
+                     
+                     
+                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f19">p. 1</ref>.</bibl><bibl>Francis, Emmanuel (2019-05-13). INDIEN 2 BnF: Caṅkaṟpanirākaraṇam, “Refutation of Doctrines”. <ref target="https://tst.hypotheses.org/362">https://tst.hypotheses.org/362</ref>
+                     </bibl><bibl>Goodall, Dominic (2000). “Problems of Name and Lineage: Relationships between South Indian Authors of the “Śaiva Siddhānta”.” Journal of the Royal Asiatic Society, Third Series, 10(2).</bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p>Abbreviations. c = column, f = folio, lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso. GOML = Government Oriental Manuscripts Library, Madras/Chennai. MTL = Madras Tamil Lexicon. TMSSML = Tanjore Maharaja Serfoji Sarasvati Mahal Library.</p>
-         <p><emph rend="bold">Transliteration conventions</emph>. Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Conjectural (whether the text is not clearly legible or the character is ambigous, e.g. <emph rend="italic">kāl</emph> or length of <emph rend="italic">o</emph> and <emph rend="italic">e</emph>) readings between parentheses. Alternative readings between parentheses separated by slash. Lost or entirely illegible character: "?". Crossed-out character: "X". Conjectural restoration of lost or entirely illegible between square brackets. Uppercase for initial vowels (in excerpts only). Unquoted text represented by (...). Conjunct letter: e.g. <emph rend="italic">t°</emph>, to be read <emph rend="italic">tum</emph> or <emph rend="italic">tam</emph>. Grantha letters in bold. Symbols/Abbreviations made explicit, between curly brackets: <g ref="#pcs"/> = <emph rend="italic">piḷḷaiyār cuḻi</emph>, short form; <g ref="#pcl"/> = <emph rend="italic">piḷḷaiyār cuḻi</emph>, long form, that is, with long horizontal stroke towards right; {varuṣam}, {mācam}, {tēti}; {line-filler}. Unfoliated folio number between square brackets, e.g. "f[1]r". Numerals normalised to decimal notation, e.g. "1121" not "1000 1 100 2 10 1". Hyphen occasionaly used to mark in-word components. Hyphen systematically used at the end of a line when the line-beginning is within a word or within a <emph rend="italic">cīr</emph>. <emph rend="italic">Sandhi</emph> split to the minimum: overshort <emph rend="italic">u</emph> occasionally restored as an apostrophe. Stanzas split by <emph rend="italic">cīr</emph>, as far as possible. <emph rend="italic">aṭi </emph>boundary marked by "‡".</p>
-      </encodingDesc>
+         
+         
+      <p>Abbreviations. c = column, f = folio, lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso. GOML = Government Oriental Manuscripts Library, Madras/Chennai. MTL = Madras Tamil Lexicon. TMSSML = Tanjore Maharaja Serfoji Sarasvati Mahal Library.</p><p><emph rend="bold">Transliteration conventions</emph>. Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Conjectural (whether the text is not clearly legible or the character is ambigous, e.g. <emph rend="italic">kāl</emph> or length of <emph rend="italic">o</emph> and <emph rend="italic">e</emph>) readings between parentheses. Alternative readings between parentheses separated by slash. Lost or entirely illegible character: "?". Crossed-out character: "X". Conjectural restoration of lost or entirely illegible between square brackets. Uppercase for initial vowels (in excerpts only). Unquoted text represented by (...). Conjunct letter: e.g. <emph rend="italic">t°</emph>, to be read <emph rend="italic">tum</emph> or <emph rend="italic">tam</emph>. Grantha letters in bold. Symbols/Abbreviations made explicit, between curly brackets: <g ref="#pcs"/> = <emph rend="italic">piḷḷaiyār cuḻi</emph>, short form; <g ref="#pcl"/> = <emph rend="italic">piḷḷaiyār cuḻi</emph>, long form, that is, with long horizontal stroke towards right; {varuṣam}, {mācam}, {tēti}; {line-filler}. Unfoliated folio number between square brackets, e.g. "f[1]r". Numerals normalised to decimal notation, e.g. "1121" not "1000 1 100 2 10 1". Hyphen occasionaly used to mark in-word components. Hyphen systematically used at the end of a line when the line-beginning is within a word or within a <emph rend="italic">cīr</emph>. <emph rend="italic">Sandhi</emph> split to the minimum: overshort <emph rend="italic">u</emph> occasionally restored as an apostrophe. Stanzas split by <emph rend="italic">cīr</emph>, as far as possible. <emph rend="italic">aṭi </emph>boundary marked by "‡".</p></encodingDesc>
       <revisionDesc>
-         <change when="2020-04"> This catalogue entry has been redacted by Emmanuel FRANCIS (CNRS, CEIAS UMR 8564, EHESS &amp; CNRS) for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG). With the kind help of Giovanni Ciotti (Hamburg University) &amp; Marco Franceschini (Bologna University) for deciphering and interpreting the colophon date. Version 1, April 2020. </change>
-         <change when="2020-11">Wood species hypothesis added by <persName xml:id="cLI">Charles Li</persName>.</change>
-      </revisionDesc>
+         
+         
+      <change when="2020-04"> This catalogue entry has been redacted by Emmanuel FRANCIS (CNRS, CEIAS UMR 8564, EHESS &amp; CNRS) for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG). With the kind help of Giovanni Ciotti (Hamburg University) &amp; Marco Franceschini (Bologna University) for deciphering and interpreting the colophon date. Version 1, April 2020. </change><change when="2020-11">Wood species hypothesis added by <persName xml:id="cLI">Charles Li</persName>.</change><change when="2021-06">Updated to TST encoding conventions by Emmanuel FRANCIS.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b52513027n/manifest.json"/>
    </facsimile>
-</TEI>
+<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+  
+  <p>
+    <milestone facs="3" n="[1]r" unit="folio"/>
+    <lb n="1"/><seg function="title">caṅkaṟpanirākaraṇam</seg>    
+  </p>
+  
+  <p>
+    <milestone n="[1]v" unit="folio"/> <term xml:lang="en">[blank]</term>
+  </p>  
+  
+</body></text><text synch="#U3" corresp="#T2" xml:lang="ta"><body>
+  
+  <p>
+    <milestone facs="7" n="[1]r" unit="folio"/>
+    <milestone unit="left margin"/>
+    <lb n="1"/><seg function="title">caṅkaṟpanirā
+     <lb n="2" break="no"/>karaṇam</seg>
+    <lb n="3"/>māyāvāti
+    <lb n="4"/>caṅkaṟpam ‒ ‒
+    <lb n="5"/>Aka<del><gap reason="illegible"/></del>val <g ref="#pcs"/>
+    <milestone unit="main text area"/>
+    <lb n="1"/><seg function="incipit">tirintiya varuntavam poruntupaṉ muṉivar</seg> <gap reason="ellipsis"/>
+  </p>
+  
+  <p>
+    <milestone facs="69" n="32r" unit="folio"/>
+    <lb n="2"/><gap reason="ellipsis"/><seg function="explicit">tiruvaruḷ ‧ viṉava ṟiruntiṭu
+    <lb n="3"/>maṉṟē <g ref="#pcs"/> 20 <g ref="#pcs"/></seg> tāravalaiyt tuḷḷōrkaṭanta caṅkaṟpanirākaraṇam eṉṉāl nikaḻttum pirāṉai yiṇi
+    <lb n="4"/>vempanta nīṅkat toḻumiṉ ‧ viyaṉ marutac campantāṉ vantaruḷun tāṉ <g ref="#pcs"/> <seg function="completion-statement">caṅkaṟpanirākaraṇamu<sic>ttu</sic>m</seg> <g ref="#pcs"/>
+    <lb n="5"/><seg function="blessing">civappirakācaṉ ṟiruvaṭi vāḻka</seg> <g ref="#pcs"/> <seg function="colophon">caṟuvatāri {varuṣam} māci {mācam} 29. <unclear>pomma</unclear>puriyil Irukkum Amuṟtapāṇit tampirāṉ
+    <milestone facs="70" n="32v" unit="folio"/>
+                       <lb n="1"/>piṟiti Ēṭu pāttu pātūrc cittampalavaṉ Eḻutu=m piṟiti</seg> ‧ <seg function="blessing">ñāṉatēcikaṉ ṟiruvaṭikaḷē tuṇai</seg> <seg function="blessing">kuru vāḻka</seg> <seg function="blessing">kuruvē tuṇai</seg>
+                       <lb n="2"/><seg function="blessing">civakaṭāṣṣam Uṇṭāy ñāṉotayakiṟupai Uṇṭāy viḷaṅkak kaṭavatu</seg> <g ref="#pcs"/>
+                       <lb n="3"/><seg function="blessing">ñāṉakurutiṭṭai Aruḷuṇṭākak kaṭavatu</seg> <g ref="#pcs"/> <seg function="colophon">Itu ṟā Urai piṟakē Eḻutiyirukkutu</seg> <g ref="#pcs"/>
+  </p>
+  
+</body>
+</text><text synch="#U5" corresp="#T3" xml:lang="ta"><body>
+  
+  <p>
+    <milestone facs="77" n="[1]r" unit="folio"/>
+    <milestone unit="left margin"/>
+    <lb n="1"/><seg function="blessing">civañāṉa
+    <lb n="2"/>tēcikaṉ ṟi
+    <lb n="3" break="no"/>ruvaṭi vāḻ</seg>
+    <lb n="4"/><seg function="title">caṅkaṟpani
+    <lb n="5" break="no"/>rākaraṇam 
+    <lb n="6"/>UraiUṭaṉ</seg>
+    <milestone unit="main text area"/>
+    <lb n="1"/><seg function="incipit">kallā ṉiḻaṉmalai villā raruḷiya pollā riṇaimalar nallār puṉaivarē – tiruntiya varuntavam poruntupaṉ muṉi
+    <lb n="2" break="no"/>var ‧ Etu ‧</seg> <gap reason="ellipsis"/>
+  </p>
+  
+  <p>
+    <milestone facs="355" n="139r" unit="folio"/>
+    <lb n="1"/>marutac campantaṉ vantaruḷun taṉ ‧ Etu ‧ mikka ciṟappoṭuṅ kūṭiyirukkiṟa ‧ marutattūṟkuk kattāvāyiruntuḷḷa {<term xml:lang="en">2 line-fillers</term>}
+    <lb n="2"/><unclear>ma</unclear>ṟaiñāṉa campantāṉ eṉkiṟa tiruṉāmattiṇayuṭaiyavaṉ eḻuntaruḷiyuṅkaḷukkaṉuki kirakattaic cey {<term xml:lang="en">2 line-fillers</term>}
+    <lb n="3" break="no"/>yā niṟkum eṉṟav āṟu <unclear><g ref="#pcs"/></unclear> poṟapamārappala coṟṟuṟaiyoraip pokintaṉ caṅkaṟpanirākaraṇatturai {<term xml:lang="en">1 line-filler</term>}
+    <lb n="4"/>kāṭṭiṉaṉ kāṟṟiyaṅkulaṟppirāviṭai maṅkai paṅkuṉṟi yāṇainta veṅkoṉ ciṟpaniṟāmayaṉ ñā
+    <lb n="5" break="no"/>ṉappiṟakācannatēcikaṉ <del><gap reason="illegible" unit="character" quantity="1"/></del> virut<unclear>ta=m</unclear> <g ref="#pcs"/> naṅkaṟpakamuṉi ñāṉappiṟakācaṉṉiviruttacaṅkaṟpakamuṉiyattirai kāṇa
+    <milestone facs="356" n="139v" unit="folio"/>
+    <lb n="1"/>palacamaiyamume maṅkaṟpakamuṉiveloṉ kaippaṭṭav acurar eṉṉat taṅkaṟpakamuṉiṉ illātuki kuṟṟar ippalavē <g ref="#pcs"/>
+    <lb n="2"/>Allār <unclear reason="consonant_unclear">mo</unclear>ḻiṟṟillai Ampalavaṉ ṟaṉ vārttai yellāñ ‧ civamāyiruntate tollāḻiveḷḷam pāntu
+    <lb n="3" break="no"/>kkāla veṟu puṉal toṉṟa poluḷḷañ civatteyoḷittu <g ref="#pcs"/> <seg function="colophon">caṅkaṟpanirākaraṇam eḻuti muṭintatu mu
+    <lb n="4" break="no"/><sic>ttu</sic>m <g ref="#pcs"/> pātūr vi<unclear>cu</unclear>vaku <gap reason="illegible" unit="character" quantity="1"/> cantatiyil citta=mpalavaṉ Eḻuttu</seg> <g ref="#pcs"/><seg function="blessing">ñāṉatēcikaṉ ṟiruvaṭikkamalamē tuṇaiyākak kaṭavatu</seg> <g ref="#pcs"/>
+    <lb n="5"/><seg function="colophon">kaliyukam [vacat] t=tu <g ref="#varudam"/> cellum viya <g ref="#varudam"/> tai {māca}t=tu 4 <g ref="#teti"/> rokaṇiya=m [<term xml:lang="en">this word, below the line</term>] Eḻuti niraveṟiṉatu muttum</seg> <g ref="#pcs"/> <seg function="blessing">kuru vāḻka</seg> <seg function="blessing">kuruvē tuṇai yuṇṭākak kaṭavatu</seg> <g ref="#pcs"/>
+    <lb n="6"/><seg function="colophon"><unclear>pomma</unclear>puriyil irukkum Amuṟtapāṉit tampiraṉ piṟiti pāttu Eḻu<unclear reason="consonant_unclear">ti</unclear>tu</seg> <seg function="blessing">ñāṉatecikaṉ tuṇai</seg> <g ref="#pcs"/>
+  </p>
+  </body></text><text synch="#U5bis" corresp="#T4" xml:lang="ta"/></TEI>
