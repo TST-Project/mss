@@ -63,7 +63,7 @@
                            <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
                         <collation>
                            
-                        <desc xml:id="U1">1 folio, unfoliated = <emph rend="bold">title-page</emph>, by hand #1.</desc><desc xml:id="U2">21 folios, parallel Tamil foliation [1], 2‒20 (first folio not explicitly foliated) and Tamil foliation 76‒95 = <emph rend="bold">text (<term xml:lang="ta" rend="italic">mūlam</term>)</emph> by hand #2. ― We find successively: invocatory stanza <locus facs="5">(f75r)</locus>; 3 stanzas of <term xml:lang="ta" rend="italic">pāyiram</term>, “preface” (<locus facs="7">f76r</locus>‒<locus facs="8">f76v</locus>), also titled <term xml:lang="ta" rend="italic">kuruvaṇakkam</term> (<locus facs="8">f76r</locus>, lm and <locus facs="7">f76v1</locus>), “hommage to preceptor”; main text (<term xml:lang="ta" rend="italic">mūlam</term>) (<locus facs="9">f77r</locus>‒<locus facs="44">f94v</locus>), divided in 12 chapters, each of 10 stanzas; a kind of postface in 4 stanzas (<locus facs="45">f95r</locus>‒<locus facs="46">f95v</locus>), explaining the origin of the work.
+                        <desc xml:id="U1">1 folio = <emph rend="bold">title page</emph>. No foliation. Hand #1.</desc><desc xml:id="U2">21 folios = <emph rend="bold"><title xml:lang="ta">Attuvaitāṉupavam: mūlam</title></emph>. Tamil foliation 76‒95 and parallel Tamil foliation [1]‒20. Hand #2. ― <p>We find successively: invocatory stanza <locus facs="5">(f75r)</locus>; 3 stanzas of <term xml:lang="ta" rend="italic">pāyiram</term>, “preface” (<locus facs="7">f76r</locus>‒<locus facs="8">f76v</locus>), also titled <term xml:lang="ta" rend="italic">kuruvaṇakkam</term> (<locus facs="8">f76r</locus>, lm and <locus facs="7">f76v1</locus>), “hommage to preceptor”; main text (<term xml:lang="ta" rend="italic">mūlam</term>) (<locus facs="9">f77r</locus>‒<locus facs="44">f94v</locus>), divided in 12 chapters, each of 10 stanzas; a kind of postface in 4 stanzas (<locus facs="45">f95r</locus>‒<locus facs="46">f95v</locus>), explaining the origin of the work.</p>
                            </desc></collation>
                         <condition>Very good state of preservation, in spite of bore holes caused by insects.</condition>
                      </supportDesc>
@@ -73,7 +73,7 @@
                   </objectDesc>
                   <handDesc>                     
                      
-                  <handNote synch="#U1" scope="minor" scribeRef="#ArielTitleScribe" script="tamil" scriptRef="#tamilPulliRegular #tamilOE" medium="incised"><desc>Hand #1.</desc></handNote><handNote synch="#U2" scope="major" script="tamil" scriptRef="#tamilPulliNone" medium="incised"><desc>Hand #2.</desc></handNote></handDesc>
+                  <handNote synch="#U1" scope="sole" scribeRef="#ArielTitleScribe" script="tamil" scriptRef="#tamilPulliRegular #tamilOE" medium="incised"><desc>Hand #1.</desc></handNote><handNote synch="#U2" scope="sole" script="tamil" scriptRef="#tamilPulliNone" medium="incised"><desc>Hand #2.</desc></handNote></handDesc>
                   <additions> 
                      
                      
@@ -105,12 +105,12 @@
                <history>
                   
                   <origin>
-                     <origDate calendar="gregorian" when="1835">No internal date. Before 1855, as it is part of Ariel’s bequest made in that year to the Société Asiatique, Paris (Rosny 1868). Ca. 1835 according to Vinson (1867-1868, p. 1) and Cabaton (1912, p. 54). The reason for this date is unknown.</origDate>
+                     <origDate calendar="gregorian" notAfter="1855">No internal date. Before 1855, as it is part of Ariel’s bequest made in that year to the Société Asiatique, Paris (Rosny 1868). Ca. 1835 according to Vinson (1867-1868, p. 1) and Cabaton (1912, p. 54), on unkwown grounds.</origDate>
                      <origPlace>Tamilnadu.</origPlace>
                   </origin>
                   
                   <acquisition>
-                     <p>Received (gift) by the BnF from the Société Asiatique in 1866 (BnF, <title>Registre des dons B</title>, no. 1192).</p>
+                     <p>Received, August 1st, 1866, from the Société Asiatique. See BnF, département des Manuscrits, inventaire 7 = <title>Dons: manuscrits et imprimés documentaires, 1848-1895</title>, no. 1192.</p>
                   </acquisition>
                   
                <provenance><p>Owned by <persName ref="https://catalogue.bnf.fr/ark:/12148/cb143513141" key="Ariel, Edouard (1818-1854)">Edouard Ariel</persName> (1818-1854). Bequested by Edouard Ariel to Société Asiatique (Rosny 1868, p. 177).</p></provenance></history>
@@ -147,37 +147,58 @@
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
       <p>
          <milestone facs="3" n="[1]r" unit="folio"/>
-         <lb n="margin"/>{pcs}
-         <milestone facs="3" n="1" unit="column"/>
-         <lb n="1-3"/><seg function="blessing">veṟṟivēl uṟṟa tuṇai</seg>
-         <milestone facs="3" n="2" unit="column"/>
-         <lb n="1-2"/><seg function="title">Attuvaitānupavam</seg>    
+         <milestone unit="left margin"/>{pcs}
+         <milestone n="1" unit="column"/>
+         <lb n="1"/><seg function="blessing">veṟṟi
+        <lb n="2" break="no"/>vēl uṟṟa
+        <lb n="3"/>tuṇai</seg>
+         <milestone n="2" unit="column"/>
+         <lb n="1"/><seg function="title">Attuvai
+        <lb n="2" break="no"/>tānupavam</seg>    
       </p>
+  
+  <p>
+         <milestone facs="4" n="[1]v" unit="folio"/><term xml:lang="en">[blank]</term>
+  </p>
    </body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
-      
-      <p>
+  <p>
          <milestone facs="5" n="75r" unit="folio"/>
-         <lb n="margin"/>{pcs} <seg function="blessing">Om</seg>
-         <milestone facs="5" n="1" unit="column"/>
-         <lb n="1-2"/><seg function="title">Attuvaitānupavam</seg>
-         <milestone facs="5" n="2" unit="column"/>
+         <milestone n="1" unit="left margin"/>
+        <lb n="1"/>{pcs}
+        <lb n="2"/><seg function="blessing">Om</seg>
+         <milestone n="2" unit="left margin"/>
+         <lb n="1"/><seg function="title">Attuvai
+        <lb n="2" break="no"/>tānupavam</seg>
+         <milestone unit="main text area"/>
          <lb n="1-4"/><seg function="satellite-stanza"><gap reason="ellipsis"/></seg>
          <lb n="5"/><seg function="blessing">caṟkuru pātan tuṇai</seg>
-         <milestone facs="5" n="75v" unit="folio"/><term xml:lang="en">[blank]</term>
-      </p>
+  </p>
+  <p>
+         <milestone facs="6" n="75v" unit="folio"/><term xml:lang="en">[blank]</term>
+  </p>
       
       <p>
          <milestone facs="7" n="76r" unit="folio"/>
-         <lb n="margin"/><seg function="intertitle">pāyiram kuruvaṇakkam</seg>
-         <lb n="1"/><seg function="incipit">Aruḷiya ciṉmūṟtiyē muttoḻiṟku mummūṟtiyāy viṇmītiṟ</seg> ‡ karumaitōṟ ṟuvateṉṉavic carā
+        <milestone unit="left margin"/>
+        <lb n="1"/><seg function="intertitle">pāyiram
+        <lb n="2"/>kuruvaṇakkam</seg>
+         <milestone unit="main text area"/>
+        <lb n="1"/><seg function="incipit">Aruḷiya ciṉmūṟtiyē muttoḻiṟku mummūṟtiyāy viṇmītiṟ</seg> ‡ karumaitōṟ ṟuvateṉṉavic carā
          <lb n="2" break="no"/>caraṅka ḷatiṉiṭattiṟkāṇpa teṉṉuṅ ‡ kuruvaruḷā liyāmaṟivilā tavaṟku meyyaṟivu koḷḷa vēta
          <lb n="3"/>p ‡ poruṇiṟaiyu mattuvitā [<term xml:lang="en">i.e.</term> mattuvaitā] vaṉupavanūṟ ṟirupatumpāṟ pukalu vōmē = 1 = piramacukak <gap reason="ellipsis"/>       
       </p>
       
       <p>
          <milestone facs="9" n="77r" unit="folio"/>
-         <lb n="margin"/><seg function="intertitle">Atikāralaṭcaṇam</seg>
-         <lb n="1"/>pattiyuṭa ṉippiṟappil muppiṟa<unclear>p</unclear>pi lākilu<unclear reason="vowel_unclear">mē</unclear> palaṉvēṇṭāmal ‡ nittiyāvaṉittiyaṅkaḷ mutalāṉa karumaṅka
+        <milestone unit="left margin"/>
+        <seg function="intertitle">
+          <lb n="1"/>Ati
+          <lb n="2" break="no"/>kāra
+          <lb n="3" break="no"/>laṭ
+          <lb n="4" break="no"/>caṇa
+          <lb n="5" break="no"/>m</seg>
+         <milestone unit="main text area"/>
+        <lb n="1"/>pattiyuṭa ṉippiṟappil muppiṟa<unclear>p</unclear>pi lākilu<unclear reason="vowel_unclear">mē</unclear> palaṉvēṇṭāmal ‡ nittiyāvaṉittiyaṅkaḷ mutalāṉa karumaṅka
          <lb n="2"/>ṇiṟaiyac ceytā ‡ lottirunta cittacutti yuṇṭāmpiṉ ṉupācaṉaiyā lorumai yuṇṭā ‡ muttitarum vicā
          <lb n="3" break="no"/>raṇaiyāṟ piṉcīvaṉ piramamāy muṭiyun tāṉē = 1 = <gap reason="ellipsis"/>
       </p> 
@@ -188,7 +209,9 @@
          <lb n="7"/>yākiyanī yeṉṟē camavētañ collum ‡ maruppilā vaparōṭcap poruḷiteṉ ṟuce<unclear>ka</unclear>cāṭ-
          <lb n="8" break="no"/>ciyāṟ māveṉṟu ‡ porutattil viḷakka mitēpirama meṉṟu mataruvaṇam pukalun tāṉē = 10 = vivēkaco                        
          <lb n="9" break="no"/>rūpamuṟṟum = {Āka} Atikāram – 12Ukki pāyiram uḷpaṭa tiruviruttam – 123
-         <milestone facs="45" n="95r" unit="folio"/>
+        </p>
+  <p>
+        <milestone facs="45" n="95r" unit="folio"/>
          <lb n="1"/>Iravu<pc>-</pc>pakaliṉ ṉūlaip poruḷ aṟiyāt<pc>’</pc> uraittālum iṉmai cērum pācukam uṇṭāyp ‡ pirama<pc>-</pc>ñāṉiyāy viṭuv a
          <lb n="2" break="no"/>ṇintap palaṉ tappātu ‡ tiramuṭaṉiṉ ṉūṟ poruḷaiy aṟint<pc>’</pc> orukkāṟ kēṭṭaṉun teruṇṭavarkkum ‡ varamutavu
          <lb n="3" break="no"/>meññāṉiyāvatat<unclear>ti</unclear>l mutti yiṅkē varuvat<pc>’</pc> āmē = 1 = navamakā leṭcumi nāraciṅka tēcikarāl ñāṉam peṟṟō
@@ -199,6 +222,7 @@
          <lb n="8" break="no"/>y<pc>-</pc>āṉanta muḻu-vivēkam āmē = 3 = naraciṅkamūṟti tiruvaṭikaḷ vāḻka = karuṇaiyuruk<unclear>ku va</unclear>ṭivāyk kaṭpulattiṉi
          <lb n="9" break="no"/>ṭai toṉṟik katipettuyya ‡ miruṇīkkum vētāntappāṉuvoḷiyāyt taṉaiyēy eṅkuṅ kāṇum ‡ po
          <lb n="10" break="no"/>ruḷ iteṉat tamiḻiṉāl attuvaitavaṉupavattaip [<term xml:lang="en">i.e.</term> attuvaitāṉupavattaip] ‡ <seg function="explicit">poruntac ceyyuḷ ḷoruṉūṟu mirupatum paṉṇiraṇṭ<pc>’</pc> atikā
+    
             <milestone facs="46" n="95v" unit="folio"/>
             <lb n="1" break="no"/>racarukkatt<pc>’</pc> uḷḷuṟai ceytārē = 4 =</seg> {Āka} Atikāram 12kki viruttam = 128 = <seg function="blessing">kurukamalam</seg> =</p> 
       
