@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MTM: 3 items in praise of Gaṇeśa</title>
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Indien 362</idno>
+                  <idno type="alternate"><idno>Tamoul 362</idno></idno>
+               </msIdentifier>
+               <msContents class="#MTM">
+                  <summary><p>A multiple-text manuscript containing three metrical works in praise of Gaṇeśa:
+  <list rend="numbered">
+  <item><title xml:lang="ta">Piḷḷaiyār Akaval</title> 1.</item>
+    <item><title xml:lang="ta">Piḷḷaiyār Akaval</title> 2.</item>
+    <item><title xml:lang="ta">Iraṭṭai Maṇimālai</title>. In 21 stanzas: the <foreign xml:lang="ta">kāppu</foreign> + 21 numbered stanzas.</item>
+  </list>
+</p>
+    </summary>
+                  
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title page</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta">Piḷḷaiyār Akaval 1</title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T3" defective="false"><title xml:lang="ta">Piḷḷaiyār Akaval 2</title><textLang mainLang="tam"/></msItem><msItem synch="#U4" xml:id="T4" defective="false"><title xml:lang="ta">Iraṭṭai Maṇimālai</title><textLang mainLang="tam"/></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="pothi">
+                     <supportDesc material="palm-leaf">
+                        <extent>
+                           <measure unit="folio" quantity="30">1 + 5 + 12  + 11 +  1 (U1 + U2 + U3 + U4 + U5)</measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           <height quantity="25"/><width min="220" max="225"/></dimensions>
+                        <dimensions type="object" unit="mm"><width quantity="220"/><height quantity="25"/><depth quantity="30"/></dimensions><dimensions type="written" unit="mm"/></extent>
+                        
+                        
+                     <collation>
+                     
+                     <desc xml:id="cover">the <emph rend="bold">front cover</emph>. Shelfmark on the recto.</desc><desc xml:id="U1">1 folio = <emph rend="bold">title page</emph>. No foliation. Double folio. Shelfmark on the recto. Verso blank.
+</desc><desc xml:id="U2">5 folios = <emph rend="bold"><title xml:lang="ta">Piḷḷaiyār Akaval</title> 1</emph>. Tamil foliation [1]–25. f5v blank. 3-column layout.</desc><desc xml:id="U3">12 folios = <emph rend="bold"><title xml:lang="ta">Piḷḷaiyār Akaval</title> 2</emph>. Tamil foliation 6-17. f17v blank. 3-column layout.</desc><desc xml:id="U4">11 folios = <emph rend="bold"><title xml:lang="ta">Iraṭṭai Maṇimālai</title></emph>. Tamil foliation [1]–11. f11v blank; darkened = original outside page.  No column layout.</desc><desc xml:id="U5">1 folio = <emph rend="bold">back guard leaf</emph>. No foliation. Double folio. Truncated. Blank recto vero.</desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>. </desc></collation><condition>Good state of preservation despite boreholes.</condition><support><measure unit="stringhole" quantity="1"/></support></supportDesc>
+                     <layoutDesc>
+                        <layout columns="1 3" writtenLines="4 5"/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     
+                  <handNote synch="#U1" scope="sole" scribeRef="#ArielTitleScribe" script="tamil" scriptRef="#tamilPulliRegular #tamilOE" medium="incised"/><handNote synch="#U2 U3 U4" scope="sole" script="tamil" medium="incised"><desc>Neat handwriting. The <foreign xml:lang="ta">puḷḷi</foreign> is a circle.</desc></handNote></handDesc>
+                  <additions><desc synch="#cover" type="shelfmark" subtype="beginning">BnF shelfmark sticker: <quote>INDIEN 362</quote>. </desc><desc synch="#cover" type="shelfmark" subtype="beginning">A sticker (Société Asiatique?) covered by theBnF shelfmark sticker. </desc><desc synch="#U1" corresp="#T1" type="shelfmark" subtype="end guard-folio left right">Shelfmark <quote>c/74</quote> in black ink. </desc></additions>
+                  <bindingDesc>
+                     <binding>
+                        <p><material resp="#cLI" cert="medium">Mahogany</material> woodcovers apparently fabricated in the BnF.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian" notAfter="1855">No internal date. Dated to 1840 by Cabaton (1912), on unknown grounds.</origDate>
+                     <origPlace>Tamilnadu.</origPlace>
+                  </origin>
+                  <acquisition>
+                     
+                  <p>Received, August 1st, 1866, from the Société Asiatique. See BnF, département des Manuscrits, inventaire 7 = <title>Dons: manuscrits et imprimés documentaires, 1848-1895</title>, no. 1192.</p></acquisition>
+               <provenance><p>Owned by <persName ref="https://catalogue.bnf.fr/ark:/12148/cb143513141" key="Ariel, Edouard (1818-1854)">Edouard Ariel</persName> (1818-1854). Bequested by Edouard Ariel to Société Asiatique (Rosny 1868, p. 177).</p></provenance></history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl><title>Iraṭṭai Maṇimālai</title>. Project Madurai. <title>Śrīkumarakurupara cuvāmikaḷ aruḷiya Maturai Mīṉāṭciyammai Iraṭṭai Maṇimālai</title>. <ref target="https://www.projectmadurai.org/pm_etexts/utf8/pmuni0170.html">https://www.projectmadurai.org/pm_etexts/utf8/pmuni0170.html</ref></bibl><bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f70">p. 52</ref>.</bibl><bibl>Zvelebil, Kamil V. (1995). <title>Lexicon of Tamil Literature.</title> Leiden [etc.]: Brill.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         
+      <change when="2021-06">Record created by Emmanuel FRANCIS.</change></revisionDesc>
+   <encodingDesc><p>TBA</p></encodingDesc></teiHeader>
+   
+<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+  
+  <p>
+    <milestone n="[1]r" unit="folio"/>
+    <milestone n="1" unit="column"/>
+    <lb n="1"/><seg function="blessing">veṟṟi    
+    <lb n="2" break="no"/>vēl uṟṟa
+    <lb n="3"/>tuṇai</seg>
+    <milestone n="2" unit="column"/>
+    <lb n="1"/>caivam
+    <lb n="2"/>mūṉṟu
+    <milestone n="3" unit="column"/>
+    <lb n="1"/><seg function="title">piḷḷaiyār akaval</seg>
+    <lb n="2"/><seg function="title">piḷḷaiyār akaval</seg>
+    <lb n="3"/><seg function="title">mayil viraṭṭai
+    <lb n="4"/>maṇimālai</seg>
+  </p>
+  
+  <p>
+    <milestone n="[1]v" unit="folio"/> <term xml:lang="en">[blank]</term>
+  </p>  
+  
+</body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
+  
+  <p>
+    <milestone n="[1]r" unit="folio"/>
+    <milestone n="1" unit="left margin"/>
+    <lb n="1"/><seg function="blessing">naṉ
+    <lb n="2" break="no"/>ṟāka</seg>
+    <milestone n="2" unit="left margin"/>
+    <lb n="1"/><seg function="title">piḷ
+    <lb n="2" break="no"/>ḷai
+    <lb n="3" break="no"/>yār a
+    <lb n="4" break="no"/>kava
+    <lb n="5" break="no"/>l</seg>
+    <milestone n="1" unit="column"/>
+    <lb n="1"/><seg function="incipit"/> ‡
+    <lb n="2"/> 
+    <lb n="3"/> 
+    <lb n="4"/>
+    <lb n="5"/>
+  </p>
+  
+    <p>
+    <milestone n="5v" unit="folio"/> <term xml:lang="en">[blank]</term>
+  </p>  
+  
+</body></text><text synch="#U3" corresp="#T3" xml:lang="ta"><body>
+  
+  <p>
+    <milestone n="[1]r" unit="folio"/>
+    <milestone n="1" unit="left margin"/>
+    <lb n="1"/><seg function="blessing">naṉ
+    <lb n="2" break="no"/>ṟāka</seg>
+    <milestone n="2" unit="left margin"/>
+    <lb n="1"/><seg function="title">puḷḷai
+    <lb n="2" break="no"/>yār aka
+    <lb n="3" break="no"/>va
+    <lb n="4" break="no"/>l</seg>
+    <milestone n="1" unit="column"/>
+    <lb n="1"/><seg function="incipit"/>
+    <lb n="2"/> 
+    <lb n="3"/> 
+    <lb n="4"/>
+    <lb n="5"/>
+  </p>
+  
+    <p>
+    <milestone n="17v" unit="folio"/> <term xml:lang="en">[blank]</term>
+  </p>  
+  
+</body></text><text synch="#U4" corresp="#T4" xml:lang="ta"><body>
+  
+  <p>
+    <milestone n="[1]r" unit="folio"/>
+    <milestone n="1" unit="left margin"/>
+    <lb n="1"/><seg function="blessing">hari Om</seg>
+    <lb n="2"/><seg function="blessing">naṉṟāka</seg>
+    <lb n="3"/><seg function="blessing">kuru vāḻka</seg>
+    <lb n="4"/><seg function="blessing">kuruvē tuṇai</seg>
+    <milestone n="2" unit="left margin"/>
+    <lb n="1"/><seg function="title">Iraṭṭai
+    <lb n="2"/>maṇi
+    <lb n="3" break="no"/>mālai</seg>
+    <lb n="4"/>veṇpā
+    <milestone n="1" unit="column"/>
+    <lb n="1"/><seg function="incipit"/>
+    <lb n="2"/> 
+    <lb n="3"/> 
+    <lb n="4"/>
+    <lb n="5"/>
+  </p>
+  
+    <p>
+    <milestone n="11v" unit="folio"/> <term xml:lang="en">[blank]</term>
+  </p>  
+  
+</body></text></TEI>
