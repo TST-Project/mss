@@ -23,8 +23,8 @@
                <msContents class="#MTM">
                   <summary>Multiple-text manuscript containing two poems in praise of the Goddess:
 <list rend="numbered">
-  <item>the <title xml:lang="ta">Apirāmi Antāti</title> in 101 stanzas (<foreign xml:lang="ta">kāppu</foreign> + stanzas 1-100)</item>
-  <item>the <title xml:lang="ta">Ampikaimālai</title> in 30 stanzas (<foreign xml:lang="ta">kāppu</foreign> + stanzas 1-29).</item>
+  <item>the <title xml:lang="ta">Apirāmi Antāti</title> in 101 stanzas (<foreign xml:lang="ta">kāppu</foreign> + stanzas 1-100); a work by Apirāma Paṭṭar (Zvelebil 1995, p. 50).</item>
+  <item>the <title xml:lang="ta">Ampikaimālai</title> in 30 stanzas (<foreign xml:lang="ta">kāppu</foreign> + stanzas 1-29); a work by Kulacēkara Varakuṇa Rāma Pāṇṭiyaṉ (Zvelebil 1995, p. 370).</item>
     </list></summary>
                   
                <msItem synch="#U1a" xml:id="T1a" defective="false"><title xml:lang="ta">Apirāmi Antāti: kāppu</title><textLang mainLang="tam"/></msItem><msItem synch="#U1b" xml:id="T1b" defective="true"><title xml:lang="ta">Apirāmi Antāti: nūl</title><textLang mainLang="tam"/></msItem><msItem synch="#U2a" xml:id="T2a" defective="false"><title xml:lang="ta"> Ampikaimālai: kāppu</title><textLang mainLang="tam"/></msItem><msItem synch="#U2b" xml:id="T2b" defective="false"><title xml:lang="ta"> Ampikaimālai: nūl</title><textLang mainLang="tam"/></msItem></msContents>
@@ -71,7 +71,9 @@
                <additional>
                   <listBibl>
                      
-                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f73">p. 55</ref>.</bibl></listBibl>
+                  <bibl><title>Ampikai Mālai</title>. Project Madurai. <title>Kulacēkara Pāṇṭiyaṉ aruḷiya
+Maturāpuri Ampikai Mālai.</title> <ref target="https://www.projectmadurai.org/pm_etexts/utf8/pmuni0050.html">https://www.projectmadurai.org/pm_etexts/utf8/pmuni0050.html</ref></bibl><bibl><title>Apirāmi Antāti</title>. Project Madurai. <title>Apirāmi Paṭṭar aruḷiya Apirāmi Antāti
+kaviñar Kaṇṇatācaṉiṉ viḷakkavuraiyuṭaṉ.</title> <ref target="https://www.projectmadurai.org/pm_etexts/utf8/pmuni0026_01.html">https://www.projectmadurai.org/pm_etexts/utf8/pmuni0026_01.html</ref></bibl><bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f73">p. 55</ref>.</bibl><bibl>Zvelebil, Kamil V. (1995). <title>Lexicon of Tamil Literature.</title> Leiden [etc.]: Brill.</bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
@@ -96,7 +98,7 @@
     <lb n="3"/>cīr apirāmi y<pc>-</pc>antātiy aippōtum eṉ cintaiyuḷḷē ‡
     <lb n="4"/><seg function="explicit">kār amar mēṉi-k kaṇapatiyē niṟ kaṭṭuraiyē</seg> = ‡‡
     <milestone n="2" unit="column"/>
-    <lb n="1"/>mut=tucāmi=<term xml:lang="en">{pcl}</term>
+    <lb n="1"/><seg function="ownership-statement">mut=tucāmi</seg>=<g ref="#pcl"/>
     <lb n="2"/><seg function="title">Apirāmi Antāti</seg> <term xml:lang="en">[unblackened]</term>
   </p>
   
@@ -115,7 +117,7 @@
     <lb n="2"/>pūttāḷai mātaḷam pū ṉiṟattāḷai-p puvi y<pc>-</pc>aṭaṅka-k ~ ‡
     <lb n="3"/>kāttāḷai y<pc>-</pc>aṅku pācaṅkucamuṅ karuppuvilluñ ‡
     <lb n="4"/>cērttāḷai mukkaṇṇiyai-t toḻuvārkk’ oru tiṅk’ illaiyē = ‡‡
- <lb n="5"/>{pcs} 1  
+ <lb n="5"/><g ref="#pcs"/> 1  
     
     <milestone n="2" unit="column"/>
     <lb n="1"/>
@@ -137,7 +139,7 @@
     <lb n="3"/>
     <lb n="4"/>
     <milestone n="3" unit="column"/>
-    <lb n="1"/>muṟ<del>t</del>ṟum <term xml:lang="en">{pcl}</term>
+    <lb n="1"/>muṟ<del>t</del>ṟum <g ref="#pcl"/>
   </p>     
   
 </body></text><text synch="#U2a" corresp="#T2a" xml:lang="ta"><body>
@@ -150,8 +152,8 @@
     <lb n="3" break="no"/>yum</seg>
     <milestone unit="main text area"/>
     <lb n="1"/><seg function="incipit">naṭakkun tiru viḷaiyāṭal aṟupattu ṉāluñ cokka ‡ r</seg> aṭakkantam teṉ kūṭalil ampikai mālai Ammāṉu kavi ~ ‡
- <lb n="2"/>taṭa-k kumpa ~ kampa ciṟu kappukar mukat’ āla vaṭṭa ‡ <seg function="explicit">muṭakkun taṭa-k-ke ~ y<pc>-</pc>oru kōṭṭu vāra<del><gap reason="illegible" quantity="1" unit="character"/></del>ṇam muṉ nikavē</seg> {pcl} ‡‡   
-    <lb n="3"/>periya mut=tucuvāmi <seg function="title">Ampikaimālai</seg> ~
+ <lb n="2"/>taṭa-k kumpa ~ kampa ciṟu kappukar mukat’ āla vaṭṭa ‡ <seg function="explicit">muṭakkun taṭa-k-ke ~ y<pc>-</pc>oru kōṭṭu vāra<del><gap reason="illegible" quantity="1" unit="character"/></del>ṇam muṉ nikavē</seg> <g ref="#pcs"/> ‡‡   
+    <lb n="3"/><seg function="ownership-statement">periya mut=tucuvāmi</seg> <seg function="title">Ampikaimālai</seg> ~
   </p>
   
   <p>
@@ -169,7 +171,7 @@
     <lb n="1"/><seg function="incipit">tiruvē viḷainta centēṉē vaṭi y<pc>-</pc>iṭṭa teḷḷ amutē</seg> ~ ~ ‡
     <lb n="2"/><unclear>U</unclear>ruvē  maṭap piḷḷai ōtipamē y<pc>-</pc>ottai y<pc>-</pc>āṭa kāppu ~ ‡
     <lb n="3"/>taruvē cen tāmarait tāḷē caraṇañ caraṇaṅ kaṇṭāy ~ ‡
-    <lb n="4"/>Aruvē Aṇaṅk’ aracē maturāpuri y<pc>-</pc>ampikaiyē ‡‡ {pcl} 1 {pcl}   
+    <lb n="4"/>Aruvē Aṇaṅk’ aracē maturāpuri y<pc>-</pc>ampikaiyē ‡‡ <g ref="#pcl"/><g ref="#pcl"/> 1 <g ref="#pcl"/>  
     <milestone n="2" unit="column"/>
     <lb n="1"/>
     <lb n="2"/>
@@ -183,7 +185,7 @@
     <lb n="1"/>piṭittārai-k kaṭṭi y<pc>-</pc>aṇaitt’ amut’ ūṭṭiya pēyiṉ uyir ~ ‡
      <lb n="2"/>kuṭittāṉ ā<del rend="strikeout"><gap reason="illegible" quantity="2" unit="character"/></del>ṭu māya ku<del>ka</del><add place="right">la</add>cēraṉ vaṭa-k kuṟec ceṉ<unclear>ṟā</unclear>l ‡
 <lb n="3"/>Aṭittāṉ paṭitta col ampikai mālai Ayyāṟu kavi ‡
-<lb n="4"/><seg function="explicit">paṭittāṉarkaḷ kaṟpakavumatu<unclear>ṟā</unclear><del rend="strikeout"><gap reason="illegible" quantity="2" unit="character"/></del>puri y<pc>-</pc>ampikaiyē</seg> ‡‡ {pcl} = = 29
+<lb n="4"/><seg function="explicit">paṭittāṉarkaḷ kaṟpakavumatu<unclear>ṟā</unclear><del rend="strikeout"><gap reason="illegible" quantity="2" unit="character"/></del>puri y<pc>-</pc>ampikaiyē</seg> ‡‡ <g ref="#pcl"/> = = 29
     <milestone n="2" unit="column"/>
     <lb n="1"/><seg function="colophon">caṟuvacitti {varuṣam} vaikā<supplied reason="lost">ci</supplied> <gap reason="lost"/>
     <lb n="2"/>muṟṟu</seg>    
