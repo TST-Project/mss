@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>1 Poṉṉilakkam and 1 Nellilakkam</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="eadid">FRBNFEAD000103963</idno>
+                  <idno type="shelfmark">Indien 434b</idno>
+                  <idno type="alternate"/>
+               </msIdentifier>
+               <msContents class="#CM">
+                  <summary>1 <title xml:lang="ta">Poṉṉilakkam</title> followed by 1 <title xml:lang="ta">Nellilakkam</title>.</summary>
+                  
+               <msItem synch="#U1a" xml:id="T1" defective="false"><title xml:lang="ta">Poṉṉilakkam: <term xml:lang="en">stanza</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U1b" xml:id="T2" defective="false"><title xml:lang="ta">Poṉṉilakkam: <term xml:lang="en">text</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U3a" xml:id="T3" defective="false"><title xml:lang="ta">Nellilakkam: <term xml:lang="en">stanza</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U3b" xml:id="T4" defective="false"><title xml:lang="ta">Nellilakkam: <term xml:lang="en">text</term></title><textLang mainLang="tam"/></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="pothi">
+                     <supportDesc material="palm-leaf">
+                        <extent>
+                           <measure unit="folio" quantity="9">1 + 3 + 1 + 1 + 1 + 2 (U1a + U1b + U2 + U3a + U3b + U4). Double folios. </measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              <height quantity="30"/>
+                           <width quantity="400"/></dimensions>
+                           <note>The leaves are broader in their middle than at their edges. </note>
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
+                        
+                        
+                     <support><measure unit="stringhole" quantity="1"/></support><collation><desc xml:id="U1a">1 folio = <emph rend="bold"><title xml:lang="ta">Poṉṉilakkam</title>: stanza</emph>. No foliation. Verso blank.</desc><desc xml:id="U1b">3 folios = <emph rend="bold"><title xml:lang="ta">Poṉṉilakkam</title>: text</emph>. Tamil foliation 1-3.</desc><desc xml:id="U2">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso.</desc><desc xml:id="U3a">1 folio = <emph rend="bold"><title xml:lang="ta">Nellilakkam</title>: stanza</emph>. No foliation. Verso blank.</desc><desc xml:id="U3b">1 folio = <emph rend="bold"><title xml:lang="ta">Nellilakkam</title>: text</emph>. No foliation.</desc><desc xml:id="U4">2 folios = <emph rend="bold">back guard leaves</emph>. No foliation. Blank recto verso. Shelfmark on f[2]v.</desc></collation></supportDesc>
+                     <layoutDesc>
+                        
+                     <layout columns="10" writtenLines="4"/></layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     
+                  <handNote synch="#U1a U1b U3a U3b" scope="sole" script="tamil" medium="incised"/></handDesc>
+                  <additions/>
+                  <bindingDesc>
+                     <binding>
+                        
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian">No internal date.</origDate>
+                     <origPlace>Tamilnadu.</origPlace>
+                  </origin>
+                  <acquisition>
+                     <p>Unknown.</p>
+                  </acquisition>
+               </history>
+               <additional>
+                  <listBibl>
+                     
+                     
+                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois et malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f80">p. 62</ref>.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         
+      <change when="2021-06">Record created by Emmanuel FRANCIS.</change></revisionDesc>
+   <encodingDesc><p><p>
+  <emph rend="bold">Transliteration conventions</emph>
+</p>
+<p>
+  Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only).
+</p>
+<p><emph rend="bold">Abbreviations</emph></p>
+<p> c = column, f = folio, lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.</p></p></encodingDesc></teiHeader>
+   
+<text synch="#U1a" corresp="#T1" xml:lang="ta"><body>
+  
+  <pb n="[1]r"/>
+  <lb n="1"/><seg function="incipit">poṉṉilekam</seg> <gap reason="ellipsis"/>
+  <lb n="2"/><gap reason="ellipsis"/> ~ <seg function="blessing">tēvatāyār tuṇai</seg> <g ref="#pcl"/>
+
+</body></text><text synch="#U1b" corresp="#T2" xml:lang="ta"><body>
+  
+  <pb n="1r"/>
+      
+  <milestone n="1" unit="column"/>
+  <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
+    
+  <pb n="3v"/>
+    
+  <milestone n="8" unit="column"/>
+  <lb n="1"/><gap reason="ellipsis"/>
+  <lb n="2"/><seg function="blessing">tēvamātā
+  <lb n="3"/>tuṇai</seg>
+  
+  <milestone n="9" unit="column"/>
+  <lb n="1"/><gap reason="ellipsis"/>
+  
+  <milestone n="10" unit="column"/>
+  <lb n="1"/><gap reason="ellipsis"/>
+  
+</body></text><text synch="#U3a" corresp="#T3" xml:lang="ta"><body>
+  
+  <pb n="[1]r"/>
+  <milestone unit="left-margin"/>
+  <lb n="1"/>hari
+  <lb n="2"/>Om
+  
+  <milestone unit="main-text-area"/>
+  <lb n="1"/><gap reason="ellipsis"/> <g ref="#pcs"/> <seg function="blessing">yēcu tuṇaiyāka
+  <lb n="2"/>vēṇtiyatu</seg> <seg function="blessing">Antoṇiyār tuṇaiyāka vēṇtiyatu</seg> <seg function="blessing">kuru tuṇai</seg> <g ref="#pcl"/>
+
+</body></text><text synch="#U3b" corresp="#T4" xml:lang="ta"><body>
+  
+  <pb n="[1]r"/>
+  <milestone unit="left-margin"/>
+  <lb n="1"/><seg function="blessing">naṉṟā
+  <lb n="2" break="no"/>ka</seg>
+  
+  <milestone n="1" unit="column"/>
+  <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
+  
+  <pb n="[1]v"/>
+  <milestone n="13" unit="column"/>
+  <lb n="4"/><seg function="explicit"><gap reason="ellipsis"/></seg>
+  
+
+</body></text></TEI>
