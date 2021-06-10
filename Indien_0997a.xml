@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Eṇcuvaṭi</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="eadid">FRBNFEAD000103963</idno>
+                  <idno type="shelfmark">Indien 997a</idno>
+                  <idno type="alternate"/>
+               </msIdentifier>
+               <msContents class="#STM">
+                  <summary><p>
+  An <title xml:lang="ta">Eṇcuvaṭi</title>, in 9 folios and 18 pages, whichprovides first multiplication tables of positive integers (from 1 to 10) followed by multiplication tables of fractions (up to 1/10).
+</p>
+</summary>
+                  
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Eṇcuvaṭi</title><textLang mainLang="tam"/></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="pothi">
+                     <supportDesc material="palm-leaf">
+                        <extent>
+                           <measure unit="folio" quantity="9">Double folios.</measure>
+                           <dimensions type="leaf" unit="mm">
+                              <width quantity="460"/>
+                              <height quantity="30"/>
+                           </dimensions>
+                           <note>The leaves are broader in their middle than at their edges. </note>
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
+                        
+                        <condition>Good state of preservation. Some leaves are cracked. </condition>
+                     <support><measure unit="stringhole" quantity="1"/></support><collation><desc xml:id="U1">9 folios = <emph rend="bold"><title xml:lang="ta">Eṇcuvaṭi</title></emph>. Tamil foliation [1]‒9. Shelfmark stickers (f[1]r).</desc></collation></supportDesc>
+                     <layoutDesc>
+                        <layout columns="7" writtenLines="3 4"/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     
+                  <handNote synch="#U1" scope="major" script="tamil" medium="incised"/></handDesc>
+                  <additions/>
+                  <bindingDesc>
+                     <binding>
+                        
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian" notAfter="1938">No internal date</origDate>
+                     <origPlace>Tamilnadu.</origPlace>
+                  </origin>
+                  <acquisition>
+                     <p>Received in deposited in 1938 from École des Langues orientales</p>
+                  </acquisition>
+               </history>
+               <additional>
+                  <listBibl>
+                     
+                     
+                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois et malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f177">handwritten addition</ref>.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         
+      <change when="2021-06">Record created by Emmanuel FRANCIS.</change></revisionDesc>
+   <encodingDesc><p><p>
+  <emph rend="bold">Transliteration conventions</emph>
+</p>
+<p>
+  Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only).
+</p>
+<p><emph rend="bold">Abbreviations</emph></p>
+<p> c = column, f = folio, lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.</p></p></encodingDesc></teiHeader>
+   
+<text corresp="#T1" xml:lang="ta"><body>
+  
+  <pb n="[1]r"/>
+  
+  <milestone n="1" unit="column"/>
+  <lb n="1"/><seg function="incipit">1 • 1 • 1 [<term xml:lang="en">that is, 1 × 1 = 1</term>]</seg>
+  <lb n="2"/>10 <supplied reason="omitted">•</supplied> 1 • 10 [<term xml:lang="en">that is, 10 × 1 = 10</term>]
+  <lb n="3"/>2 • 1 • 2 [<term xml:lang="en">that is, 2 × 1 = 2</term>]
+  
+  <milestone n="7" unit="column"/>
+  <lb n="1"/>100 • 1 • 100 [<term xml:lang="en">that is, 100 × 1 = 100</term>]
+  
+  <pb n="5r"/>
+  
+  <milestone n="1" unit="column"/>
+  <lb n="1"/> 1 • 9 • 9 [<term xml:lang="en">that is, 1 × 9 = 9</term>]
+  <lb n="2"/>10 • 9 10 [<term xml:lang="en">that is, 10 [× 9] = 90</term>]
+  <lb n="3"/>2 • 10 8 [<term xml:lang="en">that is, 2 [× 9] = 18</term>]
+
+  <pb n="9v"/>
+  <milestone n="1" unit="column"/>
+  <lb n="1"/>1 •  1/10 •  1/10 [<term xml:lang="en">that is, 1 ×  1/10 =  1/10</term>]
+  
+  <milestone n="10" unit="column"/>
+   <lb n="1"/><seg function="explicit">1000 • 100 [<term xml:lang="en">that is, 1000 [× 1/10] = 100</term>]</seg>
+
+</body>
+   </text></TEI>
