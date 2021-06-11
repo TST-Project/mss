@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="en">
+      <fileDesc>
+         <titleStmt>
+            <title><title xml:lang="ta">Rāmatēvar Pūcāviti</title></title>
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc102629s</idno>
+                  <idno type="shelfmark">Indien 4a</idno>
+                  <idno type="alternate"/>
+               </msIdentifier>
+               <msContents class="#CM">
+                  <summary>                     <p>The <title xml:lang="ta">Rāmatēvar Pūcāviti</title>, "Rules for worship by Rāmatēvar", appears to be a manual for worship by Rāmatēvar, in 200 stanzas.</p>
+                     <p>The text is complete.</p>
+                     
+                  </summary>
+                  
+                  
+               <msItem xml:id="T1" defective="false"><title xml:lang="ta">Rāmatēvar Pūcāviti</title><textLang mainLang="tam"/></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="pothi">
+                     <supportDesc material="palm-leaf">
+                        <support>
+                           <!--measure unit="stringholes" quantity=""/-->
+                        <measure unit="stringhole" quantity="2"/></support>
+                        <extent>
+                           <measure unit="folio" quantity="45"/>
+                           <dimensions type="leaf" unit="mm">
+                              <width quantity="275"/>
+                              <height quantity="35"/>
+                           </dimensions>
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
+                        
+                        
+                        
+                        <condition>Excellent state of preservation. Very few bore holes caused by insects. </condition>
+                     <collation>
+                     
+                     <desc xml:id="U1">45 folios = <emph rend="bold"><title xml:lang="en">Rāmatēvar Pūcāviti</title></emph>. Tamil foliation [1]‒45.</desc></collation></supportDesc>
+                     <layoutDesc>
+                        <layout n="U2" columns="1" writtenLines="8"/>
+                        <layout n="U3" columns="1" writtenLines="7"/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     
+                     
+                    
+                  <handNote synch="#U1" scope="sole" script="tamil" medium="incised"/></handDesc>
+                  <additions>
+                  
+                     
+                     
+                     
+                    
+                    
+                    
+                     
+                  <desc synch="#U1" subtype="intertextual marginal">marginal and in-text benedictions; marginal title; marginal chapter headers; colophon.</desc></additions>
+                  <bindingDesc>
+                     <binding>
+                        
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian" notBefore="1750" notAfter="1840">Dated to 1840 by Vinson (1867) and Cabaton (1912). See colophon (U2, f45r4).</origDate>
+                     <origPlace>Tamilnadu.</origPlace>
+                  </origin>
+                  <acquisition>
+                     <p>Received, August 1st, 1866, from the Société Asiatique. See BnF, département des Manuscrits, inventaire 7 = <title>Dons: manuscrits et imprimés documentaires, 1848-1895</title>, no. 1192.</p>
+                  </acquisition>
+               <provenance><p>Owned by <persName ref="https://catalogue.bnf.fr/ark:/12148/cb143513141" key="Ariel, Edouard (1818-1854)">Edouard Ariel</persName> (1818-1854). Bequested by Edouard Ariel to Société Asiatique (Rosny 1868, p. 177).</p></provenance></history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f20">p. 2</ref>.</bibl><bibl>+ Vinson? Check!</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+         
+         
+      <p>Abbreviations. c = column, f = folio, lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso. GOML = Government Oriental Manuscripts Library, Madras/Chennai. MTL = Madras Tamil Lexicon. TMSSML = Tanjore Maharaja Serfoji Sarasvati Mahal Library.</p><p><emph rend="bold">Transliteration conventions.</emph> Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Conjectural (whether the text is not clearly legible or the character is ambigous, e.g. <emph rend="italic">kāl</emph> or length of <emph rend="italic">o</emph> and <emph rend="italic">e</emph>) readings between parentheses. Alternative readings between parentheses separated by slash. Lost or entirely illegible character: "?". Crossed-out character: "X". Conjectural restoration of lost or entirely illegible between square brackets. Uppercase for initial vowels (in excerpts only). Unquoted text represented by (...). Conjunct letter: e.g. <emph rend="italic">t°</emph>, to be read <emph rend="italic">tum</emph> or <emph rend="italic">tam</emph>. Grantha letters in bold. Symbols/Abbreviations made explicit, between curly brackets: <g ref="#pcs"/> = <emph rend="italic">piḷḷaiyār cuḻi</emph>, short form; <g ref="#pcl"/> = <emph rend="italic">piḷḷaiyār cuḻi</emph>, long form, that is, with long horizontal stroke towards right; {varuṣam}, {mācam}, {tēti}; {line-filler}. Unfoliated folio number between square brackets, e.g. "f[1]r". Numerals normalised to decimal notation, e.g. "1121" not "1000 1 100 2 10 1". Hyphen occasionaly used to mark in-word components. Hyphen systematically used at the end of a line when the line-beginning is within a word or within a <emph rend="italic">cīr</emph>. <emph rend="italic">Sandhi</emph> split to the minimum: overshort <emph rend="italic">u</emph> occasionally restored as an apostrophe. Stanzas split by <emph rend="italic">cīr</emph>, as far as possible. <emph rend="italic">aṭi </emph>boundary marked by "‡".</p></encodingDesc>
+      <revisionDesc>
+         
+      <change when="2020-04"> This catalogue entry has been redacted by Emmanuel FRANCIS (CNRS, CEIAS UMR 8564, EHESS &amp; CNRS) for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG). Version 1, April 2020. </change><change when="2021-06">Updated to TST encoding conventions by Emmanuel FRANCIS.</change></revisionDesc>
+   </teiHeader>
+    <sourceDoc>
+        <surface/>
+    </sourceDoc>
+<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+  
+  <pb facs="00" n="f[1]r"/>
+  <milestone unit="left-margin"/>
+  <lb n="1"/><seg function="blessing"><seg rend="grantha">ha om</seg> [<term xml:lang="en">i.e.</term> {<emph xml:lang="sa" rend="bold">hariḥ om</emph>}] [<term xml:lang="en">note: the {<emph xml:lang="ta" rend="bold">ha</emph>} is inside {<emph rend="bold" xml:lang="ta">om</emph>}</term>]</seg> <seg function="blessing">naṉṟāka</seg> <seg function="blessing">kuru vāḻka</seg>
+  <lb n="2"/><seg function="blessing">kuruvē <choice><sic>tū</sic><corr>tu</corr></choice>ṇai</seg>
+  <lb n="3"/><seg function="title">rāmatēvar
+  <lb n="4"/>pūcā<choice><sic>vī</sic><corr>vi</corr></choice>ti</seg>
+  <lb n="5"/><seg function="blessing">civayōkam</seg>
+  <lb n="6"/><seg function="title">Irunūṟu</seg>                       
+  
+  <milestone unit="main-text-area"/>
+  <lb n="1"/><seg function="incipit">mūlam eṉum mutaṟ poruḷ</seg> <gap reason="ellipsis"/>
+  
+  <pb facs="00" n="f45r"/>
+  <!--Update reading?-->
+  <lb n="2"/><gap reason="ellipsis"/> <seg function="explicit"><choice><sic>cī</sic><corr>ci</corr></choice>vayō
+  <lb n="3" break="no"/>kam viḷaṅkumuttē <g ref="#pcs"/> = 201 =</seg> <seg function="blessing">kuruṉātaṉ kaṭā<emph rend="bold">ṣ</emph>cam uṇṭākalu=<seg rend="grantha">m</seg></seg>
+  <lb n="4"/><seg function="colophon">caṟacitti [<term xml:lang="en">i.e.</term> carvacittu?] <g ref="#varudam"/> puṟatṭāc<choice><sic>cī</sic><corr>ci</corr></choice> <g ref="#maatham"/> <sub>[2]2 <g ref="#teti"/></sub> ama(ṟ/ṟa)pa<emph rend="bold">ṣṣi</emph>m pañcami putavāram – naṭune(ṟ/ṟa) – māṉa [<term xml:lang="en">i.e.</term> naṭu<pc>-</pc>nēram<pc>-</pc>āṉa?]
+  <lb n="5"/>tiṉattil yeḻutiṉatu kuruṉātaṉ aruḷiya ṟ(pa)ṭi mū<choice><sic>ttu</sic><corr>ṟṟu</corr></choice>m</seg> <seg function="blessing">cīvayōkam</seg> – <g ref="#pcl"/>                     
+  
+ </body></text></TEI>
