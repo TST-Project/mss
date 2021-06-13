@@ -18,15 +18,15 @@
                      <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
                   </repository>
                   <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103407h</idno>
-                  <idno type="shelfmark">Indien 30.1</idno>
+                  <idno type="shelfmark">Indien 30a</idno>
                   <idno type="alternate"/>
                </msIdentifier>
-               <msContents class="#MTM">
-                  <summary>                        <p>The <title xml:lang="ta">Kantarantāti</title> by <persName xml:lang="ta">Aruṇakirinātar</persName> (15th century) is a praise in verse of the god <term xml:lang="ta">Murukaṉ</term>. The text is incomplete. It stops at stanza n° 80.</p></summary>
+               <msContents class="#STM">
+                  <summary><p>The <title xml:lang="ta">Kantarantāti</title> by <persName xml:lang="ta">Aruṇakirinātar</persName> (15th century) is a praise in verse of the god <term xml:lang="ta">Murukaṉ</term>. The text is incomplete. It stops at stanza n° 80.</p></summary>
                   
                   
                   
-               <msItem defective="true"><title xml:lang="ta">Kantarantāti</title><author xml:lang="ta">Aruṇakirinātar</author><textLang mainLang="tam"/><incipit xml:lang="ta">
+               <msItem synch="#U1" xml:id="T1" defective="true"><title xml:lang="ta">Kantarantāti<pc>-</pc>y<pc>-</pc>urai</title><author xml:lang="ta">Aruṇakirinātar</author><textLang mainLang="tam"/><incipit xml:lang="ta">
             
                         <note xml:lang="en"><locus facs="4">folio 2, recto</locus> = <emph rend="bold">incipit</emph>: second <term xml:lang="ta">Kāppu</term> stanza = stanza n°1 (1 phrase quoted, followed after "=" sign by its paraphrase).</note>
                         <milestone facs="4" n="2r1" unit="folio"/>Uṇ = kaṉṟukaḷaiyum = (…)
@@ -42,7 +42,7 @@
                             <measure unit="stringhole" quantity="1"/>
                         </support>
                         <extent>
-                           <measure unit="folio" quantity="38">37 + 1</measure>
+                           <measure unit="folio" quantity="38">37 + 1 (U1 + U2)</measure>
                            <dimensions type="leaf" unit="mm">
                              <width quantity="300"/>
                              <height quantity="30"/>
@@ -57,9 +57,9 @@
                         
 
                         
-                     <collation><desc xml:id="U2a">37 folios, <title xml:lang="ta">Kantarantāti<pc>-</pc>y<pc>-</pc>urai</title>, by hand n° 2.</desc><desc xml:id="U2b">1 folio, unfoliated and blank = flyleaf.</desc></collation></supportDesc>
+                     <collation><desc xml:id="U1">37 folios = <emph rend="bold"><title xml:lang="ta">Kantarantāti<pc>-</pc>y<pc>-</pc>urai</title></emph>. Tamil foliation [1]-6<sup>1</sup>, 6<sup>2</sup>-36.</desc><desc xml:id="U2">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Blank rv.</desc></collation></supportDesc>
                      <layoutDesc>
-                        <layout columns="1" streams="1"/>
+                        <layout columns="1"/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -68,7 +68,7 @@
                      
                      
                      
-                  <handNote scope="major" script="tamil"><desc><title xml:lang="ta">Kantarantāti<pc>-</pc>y<pc>-</pc>urai</title>, by hand n° 2.</desc></handNote></handDesc>
+                  <handNote synch="#U1" scope="major" script="tamil" medium="incised"/></handDesc>
                   <additions>
                     
                     
