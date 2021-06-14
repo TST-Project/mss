@@ -1,17 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader xml:lang="en">
       <fileDesc>
          <titleStmt>
             <title>Works by <persName xml:lang="ta">Auvaiyār</persName></title>
-         </titleStmt>
-         <editionStmt>
-            <p>Record edited by <persName>Emmanuel FRANCIS</persName> <orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName>.</p>
-         </editionStmt>
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2020</date>
+            <date>2021</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -24,20 +22,21 @@
                   <idno type="alternate"><idno>Tamoul 64</idno></idno>
                </msIdentifier>
                <msContents class="#MTM">
-                  <summary>
-                     <p>The bundle contains two works attributed to <persName xml:lang="ta">Auvaiyār</persName>: the <title xml:lang="ta">Ātticūṭi</title> (complete) and the <title xml:lang="ta">Koṉṟaivēntāṉ</title> (complete). Both are named <term xml:lang="ta">Nīticcol</term> ("moral maxims") in the manuscript. These works are often used for learning the Tamil alphabet as the aphorisms are ordered alphabetically and represent all the letters of the Tamil alphabet. The bundle is possibly a school exercise. The lay-out of the page is in columns for the <term xml:lang="ta" rend="italic">mūlam</term>.</p>
+                  <summary>The bundle contains two works attributed to <persName xml:lang="ta">Auvaiyār</persName>:
+<list rend="numbered">
+  <item>the <title xml:lang="ta">Ātticūṭi</title> (complete)</item>
+  <item>the <title xml:lang="ta">Koṉṟaivēntāṉ</title> (complete)</item>
+</list>
+ Both are named <foreign xml:lang="ta">Nīticcol</foreign> ("moral maxims") in the manuscript. These works are often used for learning the Tamil alphabet as the aphorisms are ordered alphabetically and represent all the letters of the Tamil alphabet. The bundle is possibly a school exercise. The lay-out of the page is in columns for the <foreign xml:lang="ta" rend="italic">mūlam</foreign>.
                   </summary>
-                  <msItem synch="#U1b" defective="false">
-                     <title xml:lang="ta">Ātticūṭi</title>
-                     <author xml:lang="ta">Auvaiyār</author>
-                     <textLang mainLang="tam">Tamil</textLang>
-                     <incipit xml:lang="ta"><note xml:lang="en"><locus facs="3">folio 1, recto</locus> = <emph rend="bold"><title xml:lang="ta">Ātticūṭi</title>, incipit</emph>, <term xml:lang="ta" rend="italic">mūlam</term>: first 2 aphorisms.</note>
+                  
+                  
+               <msItem synch="#U1a" xml:id="T1" defective="false"><title xml:lang="ta">Ātticūṭi: <term xml:lang="en">invocation</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U1b" xml:id="T2" defective="false"><title xml:lang="ta">Ātticūṭi: mūlam</title><author xml:lang="ta">Auvaiyār</author><textLang mainLang="tam"/><incipit xml:lang="ta"><note xml:lang="en"><locus facs="3">folio 1, recto</locus> = <emph rend="bold"><title xml:lang="ta">Ātticūṭi</title>, incipit</emph>, <term xml:lang="ta" rend="italic">mūlam</term>: first 2 aphorisms.</note>
                        <milestone n="1r, c1, 1" unit="folio" facs="3"/>Aṟañ cey
                        <lb/>virumpu
                        <lb/>Āṟuvatu
                        <lb/>ciṉam
-                     </incipit>
-                     <explicit xml:lang="ta"><note xml:lang="en"><locus facs="7">folio 5, recto</locus>, = <emph rend="bold"><title xml:lang="ta">Ātticūṭi</title>, excipit</emph>, <term xml:lang="ta" rend="italic">mūlam</term>: last aphorism; author, title and completion statement; owner's mention.</note>
+                     </incipit><explicit xml:lang="ta"><note xml:lang="en"><locus facs="7">folio 5, recto</locus>, = <emph rend="bold"><title xml:lang="ta">Ātticūṭi</title>, excipit</emph>, <term xml:lang="ta" rend="italic">mūlam</term>: last aphorism; author, title and completion statement; owner's mention.</note>
                        <milestone n="5r, c1, 1" unit="folio" facs="7"/>vañcakam
                        <lb/>pēcēṉ
                        <lb/><milestone n="5r, c2, 1" unit="folio" facs="7"/>vovaiyār [<term xml:lang="en">i.e.</term> Auvaiyār]
@@ -46,18 +45,11 @@
                        <lb/><milestone n="f5r, c3, 1" unit="folio" facs="7"/>muṟṟum <g ref="#pcl"/>
                        <lb/>Aṅkappaṉ cevaṭi [<term xml:lang="en">i.e.</term> cuvaṭi?]
                        <lb/>muṟṟum <g ref="#pcl"/>
-                    </explicit>
-                  </msItem>
-                  <msItem synch="#U2b" defective="false">
-                     <title xml:lang="ta">Koṉṟaivēntāṉ</title>
-                     <author xml:lang="ta">Auvaiyār</author>
-                     <textLang mainLang="tam">Tamil</textLang>
-                     <incipit xml:lang="ta"><note xml:lang="en"><locus facs="9">folio 1, recto</locus>, unfoliated = <emph rend="bold"><title xml:lang="ta">Koṉṟaivēntāṉ</title>, <term xml:lang="ta" rend="italic">mūlam</term>, incipit </emph>: marginal benediction; first aphorism.</note>
+                    </explicit></msItem><msItem synch="#U2a" xml:id="T3" defective="false"><title xml:lang="ta">Koṉṟaivēntāṉ: <term xml:lang="en">invocation</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2b" xml:id="T4" defective="false"><title xml:lang="ta">Koṉṟaivēntāṉ: mūlam</title><author xml:lang="ta">Auvaiyār</author><textLang mainLang="tam"/><incipit xml:lang="ta"><note xml:lang="en"><locus facs="9">folio 1, recto</locus>, unfoliated = <emph rend="bold"><title xml:lang="ta">Koṉṟaivēntāṉ</title>, <term xml:lang="ta" rend="italic">mūlam</term>, incipit </emph>: marginal benediction; first aphorism.</note>
                        <milestone n="[1]r, c1, 1" unit="folio" facs="9"/>aṉṉaiyum pitāvum
                        <lb/> muṉṉaṟi teyvam
                        <lb/>(...)
-                    </incipit>
-                    <explicit xml:lang="ta"><note xml:lang="en"><locus facs="15">folio 4, verso</locus>, unfoliated = <emph rend="bold"><title xml:lang="ta">Koṉṟaivēntāṉ</title>, <term xml:lang="ta" rend="italic">mūlam</term>, excipit</emph>: last aphorism; author, title and completion statement; benediction.</note>
+                    </incipit><explicit xml:lang="ta"><note xml:lang="en"><locus facs="15">folio 4, verso</locus>, unfoliated = <emph rend="bold"><title xml:lang="ta">Koṉṟaivēntāṉ</title>, <term xml:lang="ta" rend="italic">mūlam</term>, excipit</emph>: last aphorism; author, title and completion statement; benediction.</note>
                        <milestone n="4v, c5, 1" unit="folio" facs="15"/>v<pc>-</pc>ōtātārkk’ illai-
                        <lb/>v uṇarpaṭa<pc>-</pc>v oḻukkam
                        <lb/>vauyār = [<term xml:lang="en">i.e.</term> Auvaiyār]
@@ -65,9 +57,7 @@
                        <lb/><milestone n="4v, c6, 1" unit="folio" facs="15"/>nīti<pc>-</pc>c<pc>-</pc>col
                        <lb/>muṟṟum <g ref="#pcl"/>
                        <lb/>Aṉṉaṉāyaki tuṇai
-                    </explicit>
-                  </msItem>
-               </msContents>
+                    </explicit></msItem></msContents>
                <physDesc>
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
@@ -76,19 +66,19 @@
                            <p>Doubled leaves.</p>
                         </support>
                         <extent>
-                           <measure unit="folio" quantity="12">6 + 5 + 1</measure>
+                           <measure unit="folio" quantity="12">6 + 5 + 1 (U1 + U2 + U3)</measure>
                            <dimensions type="leaf" unit="mm">
                               <width quantity="410"/>
                               <height quantity="20"/>
                            </dimensions>
-                        </extent>
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
                         <collation>
-                        <desc xml:id="U1a">1 folio, unfoliated = <title xml:lang="ta">Ātticūṭi</title>, invocation, by hand n° 1. With shelfmark in ink: N° 19.</desc>
-                        <desc xml:id="U1b">5 folios, Tamil foliation 1–5 = <title xml:lang="ta">Ātticūṭi</title>, <term xml:lang="ta" rend="italic">mūlam</term>, by hand n° 1. f1-f3 only are sufficiently blackened with soot.</desc>
-                        <desc xml:id="U2a">1 folio, unfoliated = <title xml:lang="ta">Koṉṟaivēntāṉ</title>, invocation, by hand n° 2.</desc>
-                        <desc xml:id="U2b">4 folios, unfoliated, unblackened with soot = <title xml:lang="ta">Koṉṟaivēntāṉ</title>, <term xml:lang="ta" rend="italic">mūlam</term>, by hand n° 2.</desc>
-                        <desc xml:id="U3">1 folio, unfoliated = owners' marks.</desc>
-                        </collation>
+                        
+                        
+                        
+                        
+                        
+                        <desc xml:id="U1">6 folios = <emph rend="bold"><title xml:lang="ta">Ātticūṭi</title></emph>.</desc><desc xml:id="U1a">1 folio = <emph rend="bold"><title xml:lang="ta">Ātticūṭi</title>: <foreign xml:lang="ta">invocation</foreign></emph>. No foliation. Shelfmark on recto.</desc><desc xml:id="U1b">5 folios = <emph rend="bold"><title xml:lang="ta">Ātticūṭi</title>: <foreign xml:lang="ta">mūlam</foreign></emph>. Tamil foliation 1–5.  f1-f3 only are sufficiently blackened with soot.</desc><desc xml:id="U2">5 folios = <emph rend="bold"><title xml:lang="ta">Koṉṟaivēntāṉ</title></emph>.</desc><desc xml:id="U2a">1 folio = <emph rend="bold"><title xml:lang="ta">Koṉṟaivēntāṉ</title>: invocation</emph>.</desc><desc xml:id="U2b">4 folios = <emph rend="bold"><title xml:lang="ta">Koṉṟaivēntāṉ</title>: <foreign xml:lang="ta">mūlam</foreign></emph>. No foliation.  Folios unblackened with soot.</desc><desc xml:id="U3">1 folio = <emph rend="bold">owners' marks</emph>. No foliation.</desc></collation>
                         <condition>Very good state of preservation. </condition>
                      </supportDesc>
                      <layoutDesc>
@@ -96,51 +86,46 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote synch="#U1a #U1b" scope="major" script="tamil">
-                        <desc>1 folio, unfoliated = <title xml:lang="ta">Ātticūṭi</title>, invocation, and 5 folios = <title xml:lang="ta">Ātticūṭi</title>, <term xml:lang="ta" rend="italic">mūlam</term>, by hand n° 1.</desc>
-                     </handNote>
-                     <handNote synch="#U2a #U2b" scope="major" script="tamil">
-                        <desc>1 folio, unfoliated = <title xml:lang="ta">Koṉṟaivēntāṉ</title>, invocation, and 4 folios, unfoliated, = <title xml:lang="ta">Koṉṟaivēntāṉ</title>, <term xml:lang="ta" rend="italic">mūlam</term>, by hand n° 2.</desc>
-                     </handNote>
-                     <handNote synch="#U3" scope="minor" script="tamil">
-                        <desc>1 folio, unfoliated = owners' marks.</desc>
-                     </handNote>
-                  </handDesc>
+                     
+                     
+                     
+                  <handNote synch="#U1" scope="major" script="tamil" medium="incised"/><handNote synch="#U2" scope="major" script="tamil" medium="incised"/><handNote synch="#U3" scope="minor" script="tamil" medium="incised"/></handDesc>
                   <additions>
-                     <desc type="invocation" subtype="marginal beginning"><emph rend="bold">U1a</emph>, <locus facs="2">folio 1, recto</locus>, unfoliated = <emph rend="bold"><title xml:lang="ta">Ātticūṭi</title>, invocation</emph>: marginal benedictions.
+                     
+                     
+                     
+                     
+                     
+                    
+                    
+                  <desc synch="#U1a" corresp="#T1" type="shelfmark"><quote>N° 19</quote> written in black ink.</desc><desc type="invocation" subtype="beginning marginal"><emph rend="bold">U1a</emph>, <locus facs="2">folio 1, recto</locus>, unfoliated = <emph rend="bold"><title xml:lang="ta">Ātticūṭi</title>, invocation</emph>: marginal benedictions.
                          <quote rend="block" xml:lang="ta"><lg>
                            <l><locus facs="2" xml:lang="en">f[1]r, lm1</locus> <emph rend="italic">hari</emph> Om [<term xml:lang="en">NB: the word</term> <emph rend="italic">hari</emph> <term xml:lang="en">is written inside the word</term> <emph rend="italic">Om</emph>.]</l>
                            <l><locus facs="2" xml:lang="en">f[1]r, lm2</locus> naṉṟāka</l>
                          </lg></quote>
-                     </desc>
-                     <desc type="title" subtype="beginning"><emph rend="bold">U1a</emph>, <locus facs="2">folio 1, recto</locus>, unfoliated = <emph rend="bold"><title xml:lang="ta">Ātticūṭi</title>, invocation</emph>: stanza.
+                     </desc><desc type="title" subtype="beginning"><emph rend="bold">U1a</emph>, <locus facs="2">folio 1, recto</locus>, unfoliated = <emph rend="bold"><title xml:lang="ta">Ātticūṭi</title>, invocation</emph>: stanza.
                          <quote rend="block" xml:lang="ta"><lg>
                            <l><locus facs="2" xml:lang="en">f[1]r1</locus> Ātticūṭi<pc>-</pc>y amainta<pc>-</pc>t tēvarai<pc>-</pc>y ētti<pc>-</pc>y ētti toḻuvōm ṉāmē <g ref="#pcs"/> vāṇinama<emph rend="italic">s</emph>tu <g ref="#pcs"/></l>
                          </lg></quote>
-                     </desc>
-                     <desc type="blessing" subtype="marginal"><emph rend="bold">U1b</emph>, <locus facs="4">folio 1, recto</locus> = <emph rend="bold"><title xml:lang="ta">Ātticūṭi</title>, incipit</emph>, <term xml:lang="ta" rend="italic">mūlam</term>: marginal benediction.
+                     </desc><desc type="blessing" subtype="marginal"><emph rend="bold">U1b</emph>, <locus facs="4">folio 1, recto</locus> = <emph rend="bold"><title xml:lang="ta">Ātticūṭi</title>, incipit</emph>, <term xml:lang="ta" rend="italic">mūlam</term>: marginal benediction.
                         <quote rend="block" xml:lang="ta"><lg>
                            <l><locus facs="3">f1r, lm</locus> <g ref="#pcs"/> naṉṟāka</l>
                         </lg></quote>
-                     </desc>
-                     <desc type="invocation" subtype="marginal beginning"><emph rend="bold">U2a</emph>, <locus facs="8">folio 1, recto</locus>, unfoliated = <emph rend="bold"><title xml:lang="ta">Koṉṟaivēntāṉ</title>, invocation</emph>: stanza.
+                     </desc><desc type="invocation" subtype="beginning marginal"><emph rend="bold">U2a</emph>, <locus facs="8">folio 1, recto</locus>, unfoliated = <emph rend="bold"><title xml:lang="ta">Koṉṟaivēntāṉ</title>, invocation</emph>: stanza.
                         <quote rend="block" xml:lang="ta"><lg>
                            <l><locus xml:lang="en" facs="8">f[1]r, lm1</locus> <emph rend="italic">ha</emph>ri O<emph rend="italic">m</emph></l>
                            <l><locus xml:lang="en" facs="8">f[1]r, lm2</locus> naṉṟāka</l>
                            <l><locus xml:lang="en" facs="8">f[1]r, lm3</locus> kuru vāḻka</l>
                         </lg></quote>
-                    </desc>
-                     <desc type="title" subtype="beginning"><emph rend="bold">U2a</emph>, <locus facs="8">folio 1, recto</locus>, unfoliated = <emph rend="bold"><title xml:lang="ta">Koṉṟaivēntāṉ</title>, invocation</emph>: stanza.
-                        <quote rend="block" xml:lang="ta"><lg>
-                           <l><locus xml:lang="en" facs="8">f[1]r1</locus> koṉṟai vēntaṉ celvaṉ aṭiyiṇai<pc>-</pc>y eṉṟum ētti toḻuvōm yāmē <g ref="#pcs"/> vāṇinama<emph rend="italic">st</emph>ttu <g ref="#pcs"/></l>
-                        </lg></quote>
-                    </desc>
-                    <desc type="blessing" subtype="marginal beginning"><locus facs="9">folio 1, recto</locus>, unfoliated = <emph rend="bold"><title xml:lang="ta">Koṉṟaivēntāṉ</title>, <term xml:lang="ta" rend="italic">mūlam</term>, incipit </emph>: marginal benediction.
+                    </desc><desc type="blessing" subtype="beginning marginal"><locus facs="9">folio 1, recto</locus>, unfoliated = <emph rend="bold"><title xml:lang="ta">Koṉṟaivēntāṉ</title>, <term xml:lang="ta" rend="italic">mūlam</term>, incipit </emph>: marginal benediction.
                        <quote rend="block" xml:lang="ta"><lg>
                          <l><locus xml:lang="en" facs="9">f[1]r, lm</locus> naṉṟāka</l>
                        </lg></quote>
-                    </desc>
-                    <desc type="documenting-note" subtype="end"><emph rend="bold">U3</emph>, <locus facs="15">folio 1, recto</locus> and <locus facs="16">verso</locus>, unfoliated = <emph rend="bold">owners' marks</emph>: 2 personal names.
+                    </desc><desc type="title" subtype="beginning"><emph rend="bold">U2a</emph>, <locus facs="8">folio 1, recto</locus>, unfoliated = <emph rend="bold"><title xml:lang="ta">Koṉṟaivēntāṉ</title>, invocation</emph>: stanza.
+                        <quote rend="block" xml:lang="ta"><lg>
+                           <l><locus xml:lang="en" facs="8">f[1]r1</locus> koṉṟai vēntaṉ celvaṉ aṭiyiṇai<pc>-</pc>y eṉṟum ētti toḻuvōm yāmē <g ref="#pcs"/> vāṇinama<emph rend="italic">st</emph>ttu <g ref="#pcs"/></l>
+                        </lg></quote>
+                    </desc><desc type="documenting-note" subtype="end"><emph rend="bold">U3</emph>, <locus facs="15">folio 1, recto</locus> and <locus facs="16">verso</locus>, unfoliated = <emph rend="bold">owners' marks</emph>: 2 personal names.
                        <quote rend="block" xml:lang="ta"><lg>
                            <l><locus xml:lang="en" facs="15">f[1]r1, right-aligned</locus> ṟāmacāmi</l>
                            <l><locus xml:lang="en" facs="15">f[1]r2, right-aligned</locus> rāmacami</l>
@@ -151,18 +136,17 @@
                            <l><locus xml:lang="en" facs="16">f[1]v3, centred</locus> Aṅkappaṉ</l>
                            <l><locus xml:lang="en" facs="16">f[1]v4, centred</locus> puḷḷai</l>
                        </lg></quote>
-                    </desc>
-                  </additions>
+                    </desc></additions>
                   <bindingDesc>
                      <binding>
-                        <p>Woodcovers (<material>pinewood</material>) apparently fabricated in the BnF.</p>
+                        <p><material resp="#cLI" cert="medium">Mahogany</material> woodcovers apparently fabricated in the BnF.</p>
                      </binding>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
                      <origDate calendar="gregorian" when="1845" evidence="conjecture">No internal date. Ca 1845 according to Vinson (1867-1896, <ref target="http://gallica.bnf.fr/ark:/12148/btv1b105333021/f51">p. 21</ref>), 1845 according to Cabaton (1912, p. 54). The reason for this date is unknown. </origDate>
-                     <origPlace>South India, Tamilnadu.</origPlace>
+                     <origPlace>Tamilnadu.</origPlace>
                   </origin>
                   <acquisition>
                      <p>Unknown.</p>
@@ -170,23 +154,23 @@
                </history>
                <additional>
                   <listBibl>
-                     <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f31">p. 13</ref>.</bibl>
-                     <bibl>Vinson, Julien (1867‒1868). <title>Catalogue des manuscrits tamouls</title>. Corrected proofreadings printed by the atelier oriental del’Imprimerie nationale. Access No. 4-IMPROR-77 (B). — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b105333021/f51">p. 21</ref>.</bibl>
-                  </listBibl>
+                     
+                     
+                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f31">p. 13</ref>.</bibl><bibl>Vinson, Julien (1867‒1868). <title>Catalogue des manuscrits tamouls</title>. Corrected proofreadings printed by the atelier oriental del’Imprimerie nationale. Access No. 4-IMPROR-77 (B). — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b105333021/f51">p. 21</ref>.</bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-        <p>Abbreviations. c = column, f = folio, lm = left margin, r = recto, rm = right margin,U = unit (codicological and/or textual), v = verso.</p>
-        <p><emph rend="bold">Transliteration conventions.</emph> Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Conjectural (whether the text is notclearly legible or the character is ambigous, e.g. <emph rend="italic">kāl</emph> or length of <emph rend="italic">o</emph> and <emph rend="italic">e</emph>) readings between parentheses. Alternative readings between parentheses separated by slash. Lost or entirely illegible character: "?". Crossed-out character: "X". Conjectural restoration of lost or entirely illegible between square brackets. Uppercase for initial vowels (in excerpts only). Unquoted text represented by (...). Conjunct letter: e.g. <emph rend="italic">t°</emph>, to be read <emph rend="italic">tum</emph> or <emph rend="italic">tam</emph>. Grantha letters in bold. Symbols/Abbreviations made explicit, between curly brackets: <g ref="#pcs"/> = <emph rend="italic">piḷḷaiyār cuḻi</emph>, short form; <g ref="#pcl"/> = <emph rend="italic">piḷḷaiyār cuḻi</emph>, long form, that is, with long horizontal stroke towards right; {varuṣam}, {mācam}, {tēti}; {line-filler}. Unfoliated folio number between square brackets, e.g. "f[1]r". Numerals normalised to decimal notation, e.g. "1121" not "1000 1 100 2 10 1". Hyphen occasionaly used to mark in-word components. Hyphen systematically used at the end of a line when the line-beginning is within a word or within a <emph rend="italic">cīr</emph>. <emph rend="italic">Sandhi</emph> split to the minimum: overshort <emph rend="italic">u</emph> occasionally restored as an apostrophe. Stanzas split by <emph rend="italic">cīr</emph>, as far as possible.<emph rend="italic">aṭi</emph> boundary marked by "‡".</p>
-      </encodingDesc>
+        
+        
+      <p><p><emph rend="bold">Transliteration conventions</emph></p>  <p>Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only).</p>  <p><emph rend="bold">Abbreviations</emph></p>  <p> c = column, f = folio, lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.</p>    </p></encodingDesc>
       <revisionDesc>
-         <change when="2020-07">This catalogue entry has been redacted by Emmanuel FRANCIS (CNRS, CEIAS UMR 8564, EHESS/CNRS) for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG). Version 1, July 2020.</change>
-         <change when="2020-11">Converted from EAD to TEI by <persName xml:id="cLI">Charles LI</persName>.</change>
-      </revisionDesc>
+         
+         
+      <change when="2020-07">This catalogue entry has been redacted by Emmanuel FRANCIS (CNRS, CEIAS UMR 8564, EHESS/CNRS) for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG). Version 1, July 2020.</change><change when="2020-11">Converted from EAD to TEI by <persName xml:id="cLI">Charles LI</persName>.</change><change when="2021-06">Updated to TST encoding conventions by Emmanuel FRANCIS.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b100926832/manifest.json"/>
    </facsimile>
-</TEI>
+<text synch="#U1a" corresp="#T1" xml:lang="ta"/><text synch="#U1b" corresp="#T2" xml:lang="ta"/><text synch="#U2a" corresp="#T3" xml:lang="ta"/><text synch="#U2b" corresp="#T4" xml:lang="ta"/></TEI>
