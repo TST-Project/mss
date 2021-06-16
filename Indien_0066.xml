@@ -1,17 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title xml:lang="ta">Tirumurukāṟṟuppaṭai</title>
-         </titleStmt>
-         <editionStmt>
-            <p>Record edited by <persName>Emmanuel FRANCIS</persName> <orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName>.</p>
-         </editionStmt>
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2020</date>
+            <date>2021</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -23,58 +21,29 @@
                   <idno type="alternate"><idno>Tamoul 66</idno></idno>
                </msIdentifier>
                <msContents class="#MTM">
-                  <summary>
-                     <p>The <title xml:lang="ta">Tirumurukāṟṟuppaṭai</title> is a devotional poem, dated possibly to the 7th century of the Common Era, in praise of the Tamil god Murukaṉ. The poem, attributed to Nakkīrar, belongs to the Caṅkam corpus and to the Tamil Śaiva canonical works (<title xml:lang="ta">Tirumuṟai</title>).</p>
-                     <p>The poem is here preceded by two satellite stanzas (U2a, <locus facs="5">f[1]r</locus>) of which the second, frequently found in early manuscripts of the <title xml:lang="ta">Tirumurukāṟṟuppaṭai</title>, is considered to be its <term xml:lang="ta">Kāppu</term>.</p>
-                     <p>The manuscript contains the text accompanied by a commentary. It has a unique lay-out, as the <term xml:lang="ta" rend="italic">mūlam</term> (the root-text for commented upon) and the <term xml:lang="ta" rend="italic">urai</term> (the commentary) occupy separate locations on the page: the <term xml:lang="ta" rend="italic">mūlam</term> is written on the left side of the page, while the corresponding commentary is found aligned on the right side of the page. The title-page (U1, f[1]r) tells us that the commentary is by <persName xml:lang="ta">Parimēlaḻakiyar</persName> (<term xml:lang="ta" rend="italic">parimēlaḻakiyar uraipāṭam</term>), but this is actually that of <persName xml:lang="ta">Nacciṉārkkiṉiyar</persName> (paraphrases only, not the explanations).</p>
-                     <p xml:lang="fr">Le <title xml:lang="ta">Tirumurukāṟṟuppaṭai</title> est un poème dévotionnel en tamoul au dieu <term xml:lang="ta">Murukaṉ</term> datant possiblement du 7e siècle de l'ère commune. Le poème est attribué à <persName xml:lang="ta">Nakkīrar</persName> et relève du corpus du <term xml:lang="ta">Caṅkam</term> et du canon shivaïte (<term xml:lang="ta" rend="italic">Tirumuṟai</term>).</p>
-                     <p xml:lang="fr">Le poème est ici précédé de deux stances additionnelles (U2a, <locus facs="5">f[1]r</locus>) dont la seconde, fréquemment trouvée au début des manuscrits du <title xml:lang="ta">Tirumurukāṟṟuppaṭai</title>, est considérée comme son <term xml:lang="ta" rend="italic">kāppu</term>.</p>
-                     <p xml:lang="fr">Le manuscrit contient le texte accompagné d'un commentaire. Ce manuscrit offre un exemple unique de mise en page où le <term xml:lang="ta" rend="italic">mūlam</term> (le texte "racine" que l'on commente) et l'<term xml:lang="ta" rend="italic">urai</term> (le commentaire) occupent des emplacements séparés sur la page : le <term xml:lang="ta" rend="italic">mūlam</term>, du côté gauche, et, du côté droit, sur une plus grande largeur, le commentaire. Autre particularité : la page de titre (U1, f[1]r) annonce le commentaire de Parimēlaḻakiyar (<term xml:lang="ta" rend="italic">parimēlaḻakiyaruraipāṭam</term>), mais le commentaire est en fait celui de Nacciṉārkkiṉiyar (dont on n'a gardé que les paraphrases, pas les explications).</p>
-                  </summary>
-                  <msItem defective="false">
-                     <title xml:lang="ta">Tirumurukāṟṟuppaṭai, <term xml:lang="en">text</term> (<emph rend="italic">mūlam</emph>) <term xml:lang="en">and commentary</term>, (<emph rend="italic">urai</emph>)</title>
-                     <author xml:lang="ta">Nakkīrar</author>
-                     <textLang mainLang="tam">Tamil</textLang>
-                     <filiation>Other manuscript testimonies of this text are BnF Indien 28.51 and 67.</filiation>
-                     <incipit xml:lang="ta"><note xml:lang="en"><emph rend="bold">U2b</emph>, <locus facs="7">folio 1, recto</locus> = <emph rend="bold">incipit</emph>: marginal benediction and chapter header; <term xml:lang="ta" rend="italic">aṭi</term> n° 1 (text and commentary).</note>
-                        <milestone n="1r1, c1" unit="folio" facs="7"/>Ulaka muvappa valaṉērpu tiritaru ‡
-                        <lb/>(...)
-                        <lb/><milestone n="1r1, c2" unit="folio" facs="7"/>maṇṇiṭattu vāḻuñ cīvāṟmākkaḷ virumpa-y eḻuntu maka-mēruvaivalimāka-t
-                        <lb/><milestone n="1r, c2, 2" unit="folio" facs="7"/>tiritalai-c ceyyum
-                        <lb/>(...)
-                     </incipit>
-                     <explicit xml:lang="ta"><note xml:lang="en"><emph rend="bold">U2b</emph>, <locus facs="73">folio 34, recto</locus> = <emph rend="bold">excipit</emph>: marginal benediction; <term xml:lang="ta" rend="italic">aṭi</term> n° 317 (text and commentary); total stanzas.</note>
-                       <milestone n="34r, c1, 1" unit="folio" facs="73"/>paḻamutir cōlai malaiXkiḻa vōṉē ‡
-                       <lb/>kaṇṇi {long horizontal line}
-                       <lb/><milestone n="34r, c2, 1" unit="folio" facs="73"/>paḻamuttiṉ cōlaikaḷu(ṭ)aiya malaikk<pc>’</pc> urimaiyai<pc>-</pc>y<pc>-</pc>uṭaiyōṉē
-                       <lb/>{long horizontal stroke} 100 {long horizontal stroke}
-                       <lb/><milestone n="34r, centre, 1" unit="folio" facs="73"/>muṭintutu muṟṟum <g ref="#pcl"/>
-                       <note xml:lang="en">NB: f34r, c1, 2 and f34r, c2, 2 (intermediary total stanzas) are to be read together.</note>
-                    </explicit>
-                    <colophon xml:lang="ta"><note xml:lang="en"><emph rend="bold">U2b</emph>, <locus facs="74">folio 34, verso</locus> = <emph rend="bold">colophon</emph>.</note>
-                        <milestone n="34v, c1" unit="folio" facs="74"/>Ā
-                        <lb/><milestone n="34v, c2, 1" unit="folio" facs="74"/>? ? ? ? pā(r/ra)ppara
-                        <lb/>y eḻu(tt)u
-                        <lb/><milestone n="34v, c3, 1" unit="folio" facs="74"/>? virācāmi {horizontal line} ? {horizontal line}
-                        <lb/>y<pc>-</pc>eḻutiṉatu <g ref="#pcl"/>
-                    </colophon>
-                  </msItem>
-               </msContents>
+                  <summary><p>The <title xml:lang="ta">Tirumurukāṟṟuppaṭai</title> is a devotional poem, dated possibly to the 7th century of the Common Era, in praise of the Tamil god Murukaṉ. The poem, attributed to Nakkīrar, belongs to the Caṅkam corpus and to the Tamil Śaiva canonical works (<title xml:lang="ta">Tirumuṟai</title>).</p>
+<p>The poem is here preceded by two satellite stanzas (U2a, <locus facs="5">f[1]r</locus>) of which the second, frequently found in early manuscripts of the <title xml:lang="ta">Tirumurukāṟṟuppaṭai</title>, is considered to be its <foreign xml:lang="ta">kāppu</foreign>.</p>
+<p>The manuscript contains the text accompanied by a commentary. It has a unique lay-out, as the <foreign xml:lang="ta">mūlam</foreign> (the root-text for commented upon) and the <foreign xml:lang="ta">urai</foreign> (the commentary) occupy separate locations on the page: the <foreign xml:lang="ta">mūlam</foreign> is written on the left side of the page, while the corresponding commentary is found aligned on the right side of the page. The title-page (<locus facs="3">U1, f[1]r</locus>) tells us that the commentary is by <persName xml:lang="ta">Parimēlaḻakiyar</persName> (<foreign xml:lang="ta" rend="italic">parimēlaḻakiyar uraipāṭam</foreign>), but this is actually that of <persName xml:lang="ta">Nacciṉārkkiṉiyar</persName> (paraphrases only, not the explanations).</p>
+                     <p xml:lang="fr">Le <title xml:lang="ta">Tirumurukāṟṟuppaṭai</title> est un poème dévotionnel en tamoul au dieu <persName xml:lang="ta">Murukaṉ</persName> datant possiblement du 7e siècle de l'ère commune. Le poème est attribué à <persName xml:lang="ta">Nakkīrar</persName> et relève du corpus du <foreign xml:lang="ta">caṅkam</foreign> et du canon shivaïte (<title xml:lang="ta">Tirumuṟai</title>).</p>
+                     <p xml:lang="fr">Le poème est ici précédé de deux stances additionnelles (U2a, <locus facs="5">f[1]r</locus>) dont la seconde, fréquemment trouvée au début des manuscrits du <title xml:lang="ta">Tirumurukāṟṟuppaṭai</title>, est considérée comme son <foreign rend="italic">kāppu</foreign>.</p>
+                     <p xml:lang="fr">Le manuscrit contient le texte accompagné d'un commentaire. Ce manuscrit offre un exemple unique de mise en page où le <foreign xml:lang="ta">mūlam</foreign> (le texte "racine" que l'on commente) et l'<foreign xml:lang="ta">urai</foreign> (le commentaire) occupent des emplacements séparés sur la page : le <foreign xml:lang="ta">mūlam</foreign>, du côté gauche, et, du côté droit, sur une plus grande largeur, le commentaire. Autre particularité : la page de titre (<locus facs="3">U1, f[1]r</locus>) annonce le commentaire de <persName xml:lang="ta">Parimēlaḻakiyar</persName> (<foreign xml:lang="ta">parimēlaḻakiyaruraipāṭam</foreign>), mais le commentaire est en fait celui de <persName xml:lang="ta">Nacciṉārkkiṉiyar</persName> (dont on n'a gardé que les paraphrases, pas les explications).</p></summary>
+                  
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title page</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2a" xml:id="T2" defective="false"><title xml:lang="ta">Tirumurukāṟṟuppaṭai: <term xml:lang="en">invocations (2 satellite stanzas)</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2b" xml:id="T3" defective="false"><title xml:lang="ta">Tirumurukāṟṟuppaṭai: <term xml:lang="en">text</term> (mūlam) <term xml:lang="en">and commentary</term> (urai)</title><author xml:lang="ta">Nakkīrar</author><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
                         <extent>
-                           <measure unit="folio" quantity="36">1 + 1 + 34. 2 unfoliated folios (U1, U2a) with blank verso. 34 folios (U2b) with original Tamil foliation.</measure>
+                           <measure unit="folio" quantity="36">1 + 35 (U1 + U2)</measure>
                            <dimensions type="leaf" unit="mm">
                               <width quantity="365"/>
                               <height quantity="30"/>
                            </dimensions>
-                        </extent>
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
                         <collation>
-                        <desc xml:id="U1">1 folio, unfoliated = title-page, by hand n° 1. With shelfmarks: C/24 and 666.</desc>
-                        <desc xml:id="U2a">1 folio, unfoliated = 2 satellite stanzas, by hand n°2.</desc>
-                        <desc xml:id="U2b">34 folios, Tamil foliation 1–34 = text and commentary, by hand n° 2. 8 lines per page.</desc>
-                        </collation>
+                        
+                        
+                        
+                        <desc xml:id="U1">1 folio = <emph rend="bold">title page</emph>. No foliation. By hand #1. Shelfmarks on recto. Verso blank.</desc><desc xml:id="U2">35 folios = <emph rend="bold"><title xml:lang="ta">Tirumurukāṟṟuppaṭai</title></emph>. By hand #2. </desc><desc xml:id="U2a">1 folio = <emph rend="bold"><title xml:lang="ta">Tirumurukāṟṟuppaṭai</title>: invocations (2 satellite stanzas)</emph>. No foliation. Verso blank. By hand #2. </desc><desc xml:id="U2b">34 folios = <emph rend="bold"><title xml:lang="ta">Tirumurukāṟṟuppaṭai</title>: <foreign xml:lang="ta">mūlam</foreign></emph>. Tamil foliation 1–34.</desc></collation>
 
                         <condition>Very good state of preservation, in spite of bore holes caused by insects. </condition>
                      </supportDesc>
@@ -83,97 +52,141 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote synch="#U1" scope="minor" script="tamil" scribeRef="#ArielTitleScribe">
-                        <desc>Tamil script, <emph rend="italic">scriptio continua</emph>. Engraved with metal stylus. Writings blackened with soot. hand n° 1 for the title-page (U1).</desc>
-                    </handNote>
-                    <handNote synch="#U2a #U2b" scope="major" script="tamil">
-                        <desc>hand n° 2 for the rest of the bundle (U2a, U2b). The <emph rend="italic">puḷḷi</emph> is used, but not systematically. No double-curled <emph rend="italic">kompu</emph> except for the title-page (U1).</desc>
-                     </handNote>
-                  </handDesc>
+                     
+                    
+                  <handNote synch="#U1" scope="minor" scribeRef="#ArielTitleScribe" script="tamil" scriptRef="#tamilPulliRegular #tamilOE"/><handNote synch="#U2" scope="major" script="tamil" scriptRef="#tamilPulliRegular"><desc>The <foreign xml:lang="ta">puḷḷi</foreign> is used for the <foreign xml:lang="ta">mūlam</foreign> only.</desc></handNote></handDesc>
                   <additions>
-                     <desc type="blessing title" subtype="title-page"><emph rend="bold">U1</emph>, <locus facs="3">folio 1, recto, unfoliated</locus> = <emph rend="bold">title-page</emph>: benediction, title.
-                        <quote rend="block" xml:lang="ta"><lg>
-                           <l><locus xml:lang="en" facs="3">f[1]r, c1, 1–2</locus> veṟṟivēl uṟṟa tuṇai</l>
-                           <l><locus xml:lang="en" facs="3">f[1]r, c2, 1</locus> Iḵtu</l>
-                           <l><locus xml:lang="en" facs="3">f[1]r, c3, 1–4</locus> tirumurukāṟṟuppaṭaikku<pc>-</pc>p parimēlaḻakiyar uraipāṭam</l>
-                        </lg></quote>
-                     </desc>
-                     <desc type="blessing" subtype="beginning marginal"><emph rend="bold">U2a</emph>, <locus facs="5">folio 1, recto, unfoliated</locus> = <emph rend="bold">invocation page</emph>: marginal benediction; 2 satellite stanzas; in-text benediction.
-                        <quote rend="block" xml:lang="ta"><lg>
-                           <l><locus xml:lang="en" facs="5">f[1]r, lm</locus> <g ref="#pcl"/> tirucciṟṟampalam</l>
-                        </lg></quote>
-                     </desc>
-                     <desc type="blessing satellite-stanza" subtype="beginning"><emph rend="bold">U2a</emph>, <locus facs="5">folio 1, recto, unfoliated</locus> = <emph rend="bold">invocation page</emph>: marginal benediction; 2 satellite stanzas; in-text benediction.
-                        <quote rend="block" xml:lang="ta"><lg>
-                           <l><locus xml:lang="en" facs="5">f[1]r1</locus> naṟkīrar tām uraitta naṉmurukāṟṟuppaṭaiyaiX-c coṟkūṟanāvaṟṟutittork=ku -</l>
-                           <l><locus xml:lang="en" facs="5">f[1]r2</locus> muṟkoli māmurukaṉ vantu maṉakkavalai tīrttaruḷi tāḷiṉaintat<pc>’</pc> ellāntarum</l>
-                           <l><locus xml:lang="en" facs="5">f[1]r3</locus> Oru murukā-v eṉṟeṉṉ uṅ kuḷira<pc>-</pc>v uvantuṭaṉē varu murukā<pc>-</pc>v eṉṟu vāyveruvā nirpa<pc>-</pc>t taiyaṉ muṉṉē</l>
-                           <l><locus xml:lang="en" facs="5">f[1]r4</locus> taru murukā<pc>-</pc>v eṉṟu tāṉ pulampā niṟpa<pc>-</pc>t taiyaṉ muṉṉētirumurukkāṟṟuppaṭaiyuṭaṉē varuñ cevakaṉē <g ref="#pcl"/></l>
-                           <l><locus xml:lang="en" facs="5">f[1]r5</locus> Ēkāttammāḷ tuṇai <g ref="#pcl"/></l>
-                        </lg></quote>
-Compare with <title xml:lang="ta">Tirumurukaṟṟuppaṭai</title>'s edition by <persName xml:lang="ta">U. Vē. Cāminātaiyar</persName> (1956, p. 82):
-                        <quote rend="block" xml:lang="ta"><lg>
-                           <l>nakkīrar tāmuraitta naṉmurukāṟ ṟuppaṭaiyait‡</l>
-                           <l>taṟkōla nāṭōṟuñ cāṟṟiṉāl – muṟkōla‡</l>
-                           <l>māmurukaṉ vantu maṉakkavalai tīrttaruḷit‡</l>
-                           <l>tāṉiṉaitta vellān tarum‡‡</l>
-                           <l>orumuru kāveṉṟa ṉuḷḷaṅ kuḷira vuvantuṭaṉē‡</l>
-                           <l>varumuru kāveṉṟu vāyveru vāniṟpak kaiyiṅṅaṉē‡</l>
-                           <l>tarumuru kāveṉṟu tāṉpulam pāniṟpat taiyaṉmuṉṉē‡</l>
-                           <l>tirumuru kāṟṟup paṭaiyuṭa ṉēvaruñ cēvakaṉē‡‡</l>
-                        </lg></quote>
-                     </desc>
-                     <desc type="blessing" subtype="beginning marginal"><emph rend="bold">U2b</emph>, <locus facs="7">folio 1, recto</locus> = <emph rend="bold">incipit</emph>: marginal benediction and chapter header; <term xml:lang="ta" rend="italic">aṭi</term> n° 1 (text and commentary).
-                        <quote rend="block" xml:lang="ta"><lg>
-                           <l><locus xml:lang="en" facs="7">f1r1, lm</locus> tirucciṟṟampalam tirupparaṅkuṉṟam</l>
-                        </lg></quote>
-                     </desc>
-                     <desc type="blessing" subtype="end marginal"><emph rend="bold">U2b</emph>, <locus facs="73">folio 34, recto</locus> = <emph rend="bold">excipit</emph>: marginal benediction; <term xml:lang="ta" rend="italic">aṭi</term> n° 317 (text and commentary); total stanzas.
-                        <quote rend="block" xml:lang="ta"><lg>
-                           <l><locus xml:lang="en" facs="73">f34r, lm, 1-2</locus> civamay°</l>
-                        </lg></quote>
-                     </desc>
-                  </additions>
+                     
+                     
+                     
+                     
+                     
+                  <desc synch="#U1" type="shelfmark" subtype="title-page"><quote>c/24</quote> written in black ink (<locus facs="3">f[1]r</locus>).
+and 666.
+                     </desc><desc synch="#U1" type="shelfmark">Sticker (Société Asiatique?) inscribed <quote>666</quote> in black ink (<locus facs="3">f[1]r</locus>).</desc></additions>
                   <bindingDesc>
                      <binding>
-                        <p>Woodcovers (<material>pinewood</material>) apparently fabricated in the BnF.</p>
+                        <p><material resp="#cLI" cert="medium">Mahogany</material> woodcovers apparently fabricated in the BnF.</p>
                      </binding>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian" notBefore="1750" notAfter="1855">No internal date. Before 1855, as it is part of Ariel’s bequest made in that year to the Société Asiatique, Paris (Rosny 1869). Ca 1830 according to Vinson (1867-1896, <ref target="http://gallica.bnf.fr/ark:/12148/btv1b105333021/f51">p. 21</ref>), Cabaton (1912, p. 54). The reason for this date is unknown.</origDate>
-                     <origPlace>South India, Tamilnadu. </origPlace>
+                     <origDate calendar="gregorian" notBefore="1750" notAfter="1855">No internal date. Dated to ca 1830 by Vinson (1867) and Cabaton (1912), on unknown grounds. Not after 1855, as it is part of Ariel’s bequest made in that year to the Société Asiatique, Paris (Rosny 1868).</origDate>
+                     <origPlace>Tamilnadu.</origPlace>
                   </origin>
                   <acquisition>
-                     <p>Bequest of <persName ref="https://catalogue.bnf.fr/ark:/12148/cb143513141" key="Ariel, Edouard (1818-1854)">Edouard Ariel</persName>. Made first to Société Asiatique de Paris in 1855 (see Rosny 1869), transfered in 1866 to Bibliothèque Nationale.</p>
+                     <p>Received, August 1st, 1866, from the Société Asiatique. See BnF, département des Manuscrits, inventaire 7 = <title>Dons: manuscrits et imprimés documentaires, 1848-1895</title>, no. 1192.</p>
                      <p>Legs d'<persName ref="https://catalogue.bnf.fr/ark:/12148/cb143513141" key="Ariel, Edouard (1818-1854)">Edouard Ariel</persName>. Le "legs Ariel" avait été fait à la Société Asiatique de Parisen <date>1855</date> (voir Rosny 1869) avant d'être transféré en 1866 à la Bibliothèque Nationale. Numéro d'inventaire <num>A. 14-05</num>.</p>
                   </acquisition>
-               </history>
+               <provenance><p>Owned by <persName ref="https://catalogue.bnf.fr/ark:/12148/cb143513141" key="Ariel, Edouard (1818-1854)">Edouard Ariel</persName> (1818-1854). Bequested by Edouard Ariel to Société Asiatique (Rosny 1868, p. 177).</p></provenance></history>
                <additional>
                   <listBibl>
-                     <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris : E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f32.highres">p.14</ref>.</bibl>
-                     <bibl>Francis, Emmanuel (2012). <ref target="http://www.manuscript-cultures.uni-hamburg.de/mom/2012_07_mom_e.html">The Rare Case of a User-Friendly Tamil Manuscript</ref> / <ref target="http://www.manuscript-cultures.uni-hamburg.de/mom/2012_07_mom.html">Derseltene Falleines benutzerfreundlichen tamilischen Manuskripts</ref>. Centre for the Study of Manuscript Cultures (CSMC), manuscript of the month / manuskript des monats 07/2012. </bibl>
-                     <bibl>Rosny, Léon de (1869). La bibliothèque tamoule de M. Ariel, de Pondichéry. Dans : <title>Variétés orientales</title> (p. 177-224). Paris : Maisonneuve.</bibl>
-                     <bibl>Tirumurukaṟṟuppaṭai (1956). Ed. by U. Vē. Cāminātaiyar. In: <title>pattuppāṭṭu mūlamum maturaiyāciriyar pārattuvāci nacciṉārkkiṉiyaruraiyum</title>. Ceṉṉai: kapīr accukkūṭam.</bibl>
-                     <bibl>Vinson, Julien (1867‒1868). <ref target="http://gallica.bnf.fr/ark:/12148/btv1b105333021/f11">
-                           <title>Catalogue des manuscrits tamouls</title>
-                        </ref>. Corrected proofreadings printed by the atelier oriental de l’Imprimerie nationale. Access No. 4-IMPROR-77(B). — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105333021/f51.highres">p.21</ref>.</bibl>
-                  </listBibl>
+                     
+                     
+                     
+                     
+                     
+                  <bibl><title>Tirumurukaṟṟuppaṭai</title> 1956. In: <title>pattuppāṭṭu mūlamum maturaiyāciriyar pārattuvāci nacciṉārkkiṉiyaruraiyum</title>. Ed. by U. Vē. Cāminātaiyar. Ceṉṉai: kapīr accukkūṭam.</bibl><bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris : E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f32.highres">p.14</ref>.</bibl><bibl>Francis, Emmanuel (2012). <ref target="http://www.manuscript-cultures.uni-hamburg.de/mom/2012_07_mom_e.html">The Rare Case of a User-Friendly Tamil Manuscript</ref> / <ref target="http://www.manuscript-cultures.uni-hamburg.de/mom/2012_07_mom.html">Derseltene Falleines benutzerfreundlichen tamilischen Manuskripts</ref>. Centre for the Study of Manuscript Cultures (CSMC), manuscript of the month / manuskript des monats 07/2012. </bibl><bibl>Rosny, Léon de (1868). “La bibliothèque tamoule de M. Ariel, de Pondichéry.” In: <title>Variétés orientales</title> (pp. 177‒224). Paris: Maisonneuve.</bibl><bibl>Vinson, Julien (1867). <title>Catalogue des manuscrits tamouls</title>. Corrected proofreadings printed by the atelier oriental de l’Imprimerie nationale. BnF “4-IMPROR-77 (B)” — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b105333021/f51">p. 21</ref>.</bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <encodingDesc> 
-        <p>Abbreviations. c = column, f = folio, lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso. GOML = Government Oriental Manuscripts Library, Madras/Chennai. MTL = Madras Tamil Lexicon. TMSSML = Tanjore Maharaja Serfoji Sarasvati Mahal Library.</p>
-         <p> <emph rend="bold">Transliteration conventions.</emph> Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Conjectural (whether the text is not clearly legible or the character is ambigous, e.g. <emph rend="italic">kāl</emph> or length of <emph rend="italic">o</emph> and <emph rend="italic">e</emph>) readings between parentheses. Alternative readings between parentheses separated by slash. Lost or entirely illegible character: "?". Lacuna of unknown extent: [...]. Crossed-out character: "X". Conjectural restoration of lost or entirely illegible between square brackets. Uppercase for initial vowels (in excerpts only). Unquoted text represented by (...). Conjunct letter: e.g. <emph rend="italic">t°</emph>, to be read <emph rend="italic">tum</emph> or <emph rend="italic">tam</emph>. Grantha letters in bold. Symbols/Abbreviations made explicit, between curly brackets: <g ref="#pcs"/> = <emph rend="italic">piḷḷaiyār cuḻi</emph>, short form; <g ref="#pcl"/> =<emph rend="italic">piḷḷaiyār cuḻi</emph>, long form, that is, with long horizontal stroke towards right; {varuṣam}, {mācam}, {tēti}; {line-filler}.Unfoliated folio number between square brackets, e.g. "f[1]r". Numerals normalised to decimal notation, e.g. "1121" not "1000 1 100 2 10 1". Hyphen occasionaly used to mark in-word components. Hyphen systematically used at the end of a line when the line-beginning is within a word or within a <emph rend="italic">cīr</emph>. <emph rend="italic">Sandhi</emph> split to the minimum: overshort <emph rend="italic">u</emph> occasionally restored as an apostrophe. Stanzas split by <emph rend="italic">cīr</emph>, as far as possible. <emph rend="italic">aṭi</emph> boundary marked by "‡".</p>
-      </encodingDesc>
+        
+         
+      <p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.      </p></encodingDesc>
       <revisionDesc>
-         <change when="2020-07">This catalogue entry has been redacted by Emmanuel FRANCIS (CNRS, CEIAS UMR 8564, EHESS/CNRS) for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG). Version 2, July 2020.</change>
-         <change when="2020-12">Converted to TEI by Charles LI.</change>
-      </revisionDesc>
+         
+         
+      <change when="2020-07">This catalogue entry has been redacted by Emmanuel FRANCIS (CNRS, CEIAS UMR 8564, EHESS/CNRS) for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG). Version 2, July 2020.</change><change when="2020-12">Converted to TEI by Charles LI.</change><change when="2021-06">Updated to TST encoding conventions by Emmanuel FRANCIS.</change></revisionDesc>
    </teiHeader>
    <facsimile>
     <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b100265810/manifest.json"/>
    </facsimile>
-</TEI>
+<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+  
+  <pb facs="3" n="[1]r"/>
+  
+  <milestone n="1" unit="column"/>
+  <lb n="1"/><seg function="blessing">veṟṟi-vē
+  <lb n="2" break="no"/>l uṟṟa tuṇai</seg>
+  
+  <milestone n="2" unit="column"/>
+  <lb n="1"/>Iḵtu
+  
+  <milestone n="3" unit="column"/>
+  <lb n="1"/><seg function="title">tirumurukāṟṟup
+  <lb n="2" break="no"/>paṭaikku<pc>-</pc>p 
+  <lb n="3"/>parimēlaḻakiya
+  <lb n="4" break="no"/>r uraipāṭam</seg>
+  </body></text><text synch="#U2a" corresp="#T2" xml:lang="ta"><body>
+  
+  <pb facs="5" n="[1]r"/>
+  
+  <milestone unit="left-margin"/>
+  <lb n="1"/><g ref="#pcl"/> <seg function="blessing">tirucciṟ
+  <lb n="2" break="no"/>ṟampalam</seg>
+  
+  <milestone unit="main-text-area"/>
+  <lb n="1"/>naṟkīrar tām uraitta naṉmurukāṟṟuppaṭaiyai<del><gap reason="illegible" quantity="1" unit="character"/></del>-c coṟkūṟanāvaṟṟutittork=ku
+  <lb n="2"/>muṟkoli māmurukaṉ vantu maṉakkavalai tīrttaruḷi tāḷiṉaintat<pc>’</pc> ellāntarum
+  <lb n="3"/>Oru murukā-v eṉṟeṉṉ uṅ kuḷira<pc>-</pc>v uvantuṭaṉē varu murukā<pc>-</pc>v eṉṟu vāyveruvā nirpa<pc>-</pc>t taiyaṉ muṉṉē
+  <lb n="4"/>taru murukā<pc>-</pc>v eṉṟu tāṉ pulampā niṟpa<pc>-</pc>t taiyaṉ muṉṉētirumurukkāṟṟuppaṭaiyuṭaṉē varuñ cevakaṉē <g ref="#pcl"/>
+  <lb n="5"/><seg function="blessing">Ēkāttammāḷ tuṇai</seg> <g ref="#pcl"/>
+  </body>
+  
+</text><text synch="#U2b" corresp="#T3" xml:lang="ta"><body>
+  
+  <pb facs="7" n="1r"/>
+  
+  <milestone unit="left-margin"/>
+  <lb n="1"/><seg function="blessing">tiruc
+  <lb n="2" break="no"/>ciṟṟam
+  <lb n="3" break="no"/>palam</seg>
+  <lb n="4"/><seg function="intertitle">tiruppa
+  <lb n="5" break="no"/>raṅkuṉ
+  <lb n="6" break="no"/>ṟam</seg>
+  
+  <milestone n="1" unit="column"/>
+  <lb n="1"/><seg function="incipit" type="root-text">Ulaka muvappa valaṉērpu tiritaru</seg> ‡
+  <lb n="2"/><gap reason="ellipsis"/>
+  
+   <milestone n="2" unit="column"/>
+  <lb n="1"/><seg function="incipit" type="commentary">maṇṇiṭattu vāḻuñ cīvāṟmākkaḷ virumpa-y eḻuntu maka-mēruvaivalimāka-t
+  <lb n="2"/>tiritalai-c ceyyum</seg>
+  <lb n="3"/><gap reason="ellipsis"/>
+
+  <pb facs="73" n="34r"/>
+  
+  <milestone unit="left-margin"/>
+  <lb n="1"/>civa
+  <lb n="2" break="no"/>maya=<seg rend="grantha">m</seg>
+
+  <milestone n="1" unit="column"/>
+  <lb n="1"/><seg function="explicit" type="root-text">paḻamutir cōlai malai <del><gap reason="illegible" quantity="1" unit="character"/></del> kiḻa vōṉē</seg> ‡
+  
+  <milestone n="2" unit="column"/>
+  <lb n="1"/><seg function="explicit" type="commentary">paḻamuttiṉ cōlaikaḷu<unclear reason="consonant_unclear">ṭai</unclear>ya malaikk<pc>’</pc> urimaiyai<pc>-</pc>y<pc>-</pc>uṭaiyōṉē</seg>
+  
+  <milestone unit="main-text-area"/>
+  <lb n="1"/><seg function="total-stanzas">kaṇṇi <term xml:lang="en">{horizontal line}</term> <term xml:lang="en">{horizontal line}</term> 100 <term xml:lang="en">{horizontal line}</term></seg> 
+   <note xml:lang="en">This intermediary total stanzas is in fact distributed between the 2 columns).</note>
+  <lb n="2"/><seg function="completion-statement">muṭintutu muṟṟum</seg> <g ref="#pcl"/>
+  
+  <pb facs="74" n="34v"/>
+  
+  <milestone n="1" unit="column"/>
+  <lb n="1"/>Ā
+  
+   <milestone n="2" unit="column"/>
+  <lb n="1"/><seg function="colophon"><gap reason="illegible" quantity="4" unit="character"/> pā<choice><unclear>r</unclear><unclear>ra</unclear></choice>ppara
+  <lb n="2"/>y eḻu<unclear>t=tu</unclear></seg>
+  
+   <milestone n="3" unit="column"/>
+  <lb n="1"/><seg function="colophon"><gap reason="illegible" quantity="1" unit="character"/> virācāmi <term xml:lang="en">{horizontal line}</term> <unclear>100</unclear> <term xml:lang="en">{horizontal line}</term>
+                        <lb n="2"/>y<pc>-</pc>eḻutiṉatu <g ref="#pcl"/></seg>
+  </body>
+                    
+                    
+                     </text></TEI>
