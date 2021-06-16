@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title><term xml:lang="ta">Ñāṉavupatēcaviḷakkam</term></title>
+            <title><title xml:lang="ta">Ñāṉavupatēcaviḷakkam</title></title>
          <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          
          <publicationStmt>
@@ -21,9 +21,9 @@
                   <idno type="alternate"><idno>Tamoul 462</idno><idno>Tamoul 42</idno></idno>
                </msIdentifier>
                <msContents class="#STM">
-                  <summary>Christian Catechism in Tamil in the form of dialogues (<emph rend="italic" xml:lang="ta">callāpam</emph>) between a master (<emph rend="italic" xml:lang="ta">kuru</emph>) and a disciple (<emph rend="italic" xml:lang="ta">cīṣaṉ</emph>). The Tamil title literally means "Light (<emph rend="italic" xml:lang="ta">viḷakkam</emph>) on spiritual (<emph rend="italic" xml:lang="ta">ñāṉam</emph>) instruction (<emph rend="italic" xml:lang="ta">upatēcam</emph>)".</summary>
+                  <summary>Christian Catechism in Tamil in the form of dialogues (<foreign xml:lang="ta">callāpam</foreign>) between a master (<foreign xml:lang="ta">kuru</foreign>) and a disciple (<foreign xml:lang="ta">cīṣaṉ</foreign>). The Tamil title literally means "Light (<foreign xml:lang="ta">viḷakkam</foreign>) on spiritual (<foreign xml:lang="ta">ñāṉam</foreign>) instruction (<foreign xml:lang="ta">upatēcam</foreign>)".</summary>
                   
-               <msItem synch="#u3" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Ownership statement</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U1" xml:id="T2" defective="false"><title xml:lang="ta"><term xml:lang="ta">Ñāṉavupatēcaviḷakkam</term></title><textLang mainLang="tam"/></msItem></msContents>
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="ta">Ñāṉavupatēcaviḷakkam</term></title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="paper">
@@ -32,13 +32,13 @@
                            
                         <p>In 4°.</p></support>
                         <extent>
-                           <measure unit="folio" quantity="254"/>
+                           <measure unit="folio" quantity="130">1 + 1 + 127 + 1 (u1 + u2 + U1 + u3)</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
                            <height quantity="150" min="200"/></dimensions>
                         <dimensions type="object" unit="mm"><width quantity="160"/><height quantity="220"/><depth quantity="25"/></dimensions><dimensions type="written" unit="mm"/></extent>
-                        <collation><desc xml:id="u1">the front cover. On the verso: sticker <quote>INDIEN 462</quote>; Tamil handwritten notes in black ink; a paper user-related note glued.</desc><desc xml:id="u2">1 unfoliated/unpaginated front guard folio. On the recto: a Tamil symbol; <quote>Tamoul N° 462</quote> in black pencil; <quote>Tamoul 42</quote> in black ink, with number 42 crossed-out in black pencil. Verso blank.</desc><desc xml:id="u3">1 unfoliated/unpaginated front guard folio. User-related note in Tamil in black ink.</desc><desc xml:id="U1">254 pages. Arabic original pagination 1-251, later arabic (blue pencil) pagination 252-254.</desc><desc xml:id="u4">1 unfoliated/unpaginated back guard folio. Blank recto verso.</desc><desc xml:id="u5">the back cover. Tamil notes in black ink on recto.</desc></collation>
+                        <collation><desc xml:id="cover">the <emph rend="bold">front cover</emph>. On the verso: sticker <quote>INDIEN 462</quote>; Tamil handwritten notes in black ink; a paper user-related note glued.</desc><desc xml:id="u1">1 unfoliated/unpaginated front guard folio. On the recto: a Tamil symbol; <quote>Tamoul N° 462</quote> in black pencil; <quote>Tamoul 42</quote> in black ink, with number 42 crossed-out in black pencil. Verso blank.</desc><desc xml:id="u2">1 unfoliated/unpaginated front guard folio. User-related note in Tamil in black ink.</desc><desc xml:id="U1">127 folios = <emph rend="bold"><title xml:lang="ta">Ñāṉavupatēcaviḷakkam</title></emph>. Arabic original pagination 1-251, later arabic (blue pencil) pagination 252-254.</desc><desc xml:id="u3">1 unfoliated/unpaginated back guard folio. Blank recto verso.</desc><desc xml:id="cover">the back cover. Tamil notes in black ink on recto.</desc></collation>
                         
                         
                      <condition>Very good state of preservation.</condition></supportDesc>
@@ -46,7 +46,7 @@
                         
                      <layout columns="1"/></layoutDesc>
                   </objectDesc>
-                  <handDesc><handNote synch="#u3" scope="sole" script="tamil" scriptRef="#tamilPulliRegular #tamilOE" medium="ink black"/><handNote synch="#U1" scope="sole" script="tamil" scriptRef="#tamilPulliNone #tamilOE" medium="ink black"><desc>Double-curled <emph rend="italic" xml:lang="ta">kompu</emph> not consistently used. Very occasional <emph rend="italic" xml:lang="ta">puḷḷi</emph>.</desc></handNote></handDesc>
+                  <handDesc><handNote synch="#U1" scope="sole" script="tamil" scriptRef="#tamilPulliNone #tamilOE" medium="ink black"><desc>Double-curled <foreign xml:lang="ta">kompu</foreign> not consistently used. Very occasional <foreign xml:lang="ta">puḷḷi</foreign>.</desc></handNote></handDesc>
                   <decoDesc>
                   </decoDesc>
                   <additions>
@@ -59,7 +59,14 @@
   <p>Ce Catéchisme appartient à Mgr Arthur, seigneur royal, prêtre, etc., etc. [hand #2]</p>  
 </quote></desc><desc type="commenting-note" subtype="flyleaf">Flying paper note in black ink .
 <quote rend="block">N° 42. Catéchisme expliqué par Mgr Arthur</quote>
-This corresponds to item n0. 42 in <title>Catalogue des manuscrits tamouls de la Bibliothèque Royale rédigé par M. Velanguani Arokium de Pondichéry. Février 1845.</title> (NAF 5443), folio <ref target="https://gallica.bnf.fr/ark:/12148/btv1b10527869m/f30">10v</ref>. But this description in this catalogue appears not to be by the hand of Velanguani Arokium.</desc><desc type="stamp" subtype="beginning">Stamp <quote>Bibliothèque de l'Arsenal</quote> and stamp <quote> Bibliothèque Impériale MSS</quote> (p. 1). </desc><desc type="stamp" subtype="end">Stamp <quote>Bibliothèque de l'Arsenal</quote> and stamp <quote> Bibliothèque Impériale MSS</quote> (p. 254). </desc></additions>
+This corresponds to item n0. 42 in <title>Catalogue des manuscrits tamouls de la Bibliothèque Royale rédigé par M. Velanguani Arokium de Pondichéry. Février 1845.</title> (NAF 5443), folio <ref target="https://gallica.bnf.fr/ark:/12148/btv1b10527869m/f30">10v</ref>. But this description in this catalogue appears not to be by the hand of Velanguani Arokium.</desc><desc type="stamp" subtype="beginning">Stamp <quote>Bibliothèque de l'Arsenal</quote> and stamp <quote> Bibliothèque Impériale MSS</quote> (p. 1). </desc><desc type="stamp" subtype="end">Stamp <quote>Bibliothèque de l'Arsenal</quote> and stamp <quote> Bibliothèque Impériale MSS</quote> (p. 254). </desc><desc synch="#u2" type="ownership-statement">  <p xml:lang="en">Ownership statement (?) by another and later (?) hand.</p>
+  <p>
+    <milestone facs="00" n="[1]r" unit="folio"/>
+    <lb n="1"/><seg function="documenting-note">Irāca-riṣi-kuru-cuvāmi-y<pc>-</pc>avarkaḷ Aṟtōr
+    <lb n="2" break="no"/>-cuvāmi-y<pc>-</pc>avarkaḷ tiruppiṉa ñāṉa-v<pc>-</pc>upatēca
+    <lb n="3" break="no"/>viḷakkam</seg> 
+  </p>
+</desc></additions>
                   <bindingDesc>
                      <binding><p>Leather (brown) cover. No title on the spine.</p></binding>
                   </bindingDesc>
@@ -90,16 +97,7 @@ This corresponds to item n0. 42 in <title>Catalogue des manuscrits tamouls de la
    </teiHeader>
    <facsimile>
    </facsimile>
-<text synch="#u3" corresp="#T1" xml:lang="ta"><body>
-  <p xml:lang="en">Ownership statement (?) by another and later (?) hand.</p>
-  <p>
-    <milestone facs="00" n="[1]r" unit="folio"/>
-    <lb n="1"/><seg function="documenting-note">Irāca-riṣi-kuru-cuvāmi-y<pc>-</pc>avarkaḷ Aṟtōr
-    <lb n="2" break="no"/>-cuvāmi-y<pc>-</pc>avarkaḷ tiruppiṉa ñāṉa-v<pc>-</pc>upatēca
-    <lb n="3" break="no"/>viḷakkam</seg> 
-  </p>
-</body>
-</text><text synch="#U1" corresp="#T2" xml:lang="ta"><body>
+<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   
   <p>
     <milestone facs="00" n="1" unit="page"/>
