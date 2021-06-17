@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -7,8 +7,8 @@
             <title>Pondicherry Potters' Petition and Census</title>
          </titleStmt>
          <publicationStmt>
-            <publisher>Bibliothèque nationale de France.</publisher>
-            <date>2017</date>
+            <publisher>TST Project</publisher>
+            <date>2021</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -20,46 +20,44 @@
                   <idno type="shelfmark">Indien 445</idno>
                   <idno type="alternate"><idno>Tamoul 445</idno></idno>
                </msIdentifier>
-               <msContents>
-                  <summary/>
-                  <msItem defective="">
-                     <title>Petition (விண்ணப்பம் <emph rend="italic">viṇṇappam</emph>) by the Pondicherry potters, with census of the Pondicherry potters </title>
-                     <textLang mainLang="tam">Tamil</textLang>
-                  </msItem>
-               </msContents>
+               <msContents class="#STM">
+                  <summary><p>This document is basically a petition by the potters of Pondicherry written in the presence of the French civil servant Daniel Lescallier, “commissaire civil”.</p>
+  <p>It opens with an introduction (U1), in which the key-term <foreign xml:lang="ta">viṇṇappam</foreign> occurs (f[1]r, c3, 3).</p>
+<p>Then comes a census of the potters of Pondicherry (U2), most residing in Nellittōppu, while others are stated to reside in Piḷḷaicāvaṭi and Reṭṭipāḷaiyam.</p>
+<p>Finally comes the petition proper (U3). The potters explain that they have been considered as Valaṅkai (a right-hand group, by opposition to left-hand groups) in the Pondicherry and surrounding region. They remit, it seems, the judgement about their group belonging (Valaṅkai or commonness) to the above-mentioned French civil servant Daniel Lescallier. Four <foreign xml:lang="ta">mēstiri</foreign>s ("overseers") are designated and the list of their names is given. The potters seem finally to declare that they will do whatever the <foreign xml:lang="ta">toraikaḷ</foreign> (i.e. <foreign xml:lang="ta">tuṟaikaḷ</foreign>, “the lord” or the “lords”), that is, Lescallier or the <foreign xml:lang="ta">mēstiri</foreign>s, order them or decide. </p></summary>
+                  
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Introduction</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta"><term xml:lang="en">Census of the Pondicherry potters</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T3" defective="false"><title xml:lang="ta">Viṇṇappam<term xml:lang="en">, that is, petition by the Pondicherry potters</term></title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
                         <extent>
-                           <measure unit="folio" quantity="5">5 (1 + 3 + 1) folios.</measure>
+                           <measure unit="folio" quantity="5">1 + 3 + 1 (U1 + U2 + U3)</measure>
                            <dimensions type="leaf" unit="mm">
                               <width min="560" max="705"/>
                               <height quantity="25"/>
                            </dimensions>
-                        </extent>
-                        <foliation/>
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
+                        
                         <condition>Very good state of preservation, except that all the leaves are broken into two halves. This damage seems to have occured long ago as the leaves, which originally had one hole only for the thread, have been pierced with three more holes, so as to accommodate two threads, also passing through the woodcovers (both pierced with four holes). U3, f[1] is truncated, as approximately 10 cm of the leaf is missing on the left edge of page.</condition>
-                     </supportDesc>
+                     <collation><desc xml:id="U1">1 folio = <emph rend="bold">Introduction</emph>. No foliation. Unblackened. Verso blank. Hand #1. The lay-out is in columns.</desc><desc xml:id="U2">3 folios = <emph rend="bold">Census of the Pondicherry potters</emph>. Tamil foliation [1]-3. f3v blank. Hand  #2? The lay-out is in columns.</desc><desc xml:id="U3">1 folio = <emph rend="bold">Petition (<foreign xml:lang="ta">viṇṇappam</foreign>) by the Pondicherry potters </emph>. No foliation. Hand #3? The lay-out is in columns.</desc></collation></supportDesc>
                      <layoutDesc>
-                        <layout columns="1" writtenLines=""/>
+                        <layout columns="1"/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote scope="sole" script="tamil">
-                        <p>Tamil script. </p>
-                     </handNote>
-                  </handDesc>
+                     
+                  <handNote synch="#U1" scope="minor" script="tamil" medium="incised"><desc>Hand #1?</desc></handNote><handNote synch="#U2" scope="major" script="tamil" medium="incised"><desc>Hand #2?</desc></handNote><handNote synch="#U3" scope="minor" script="tamil" medium="incised"><desc>Hand #3?</desc></handNote></handDesc>
                   <additions/>
                   <bindingDesc>
                      <binding>
-                        <p>Woodcovers apparently fabricated in the BnF. </p>
+                        <p><material resp="#cLI" cert="medium">Mahogany</material> woodcovers apparently fabricated in the BnF.</p>
                      </binding>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
                      <origDate calendar="gregorian" when="1793">1793. See U1, f[1]r, c1 and U2, f1r, c1.</origDate>
-                     <origPlace>South India, Tamilnadu. </origPlace>
+                     <origPlace>Tamilnadu.</origPlace>
                   </origin>
                   <acquisition>
                      <p>Unknown.</p>
@@ -67,107 +65,117 @@
                </history>
                <additional>
                   <listBibl>
-                     <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois et malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f81">p. 63</ref>.</bibl>
-                     <bibl>Francis, Emmanuel (2019-10-25). BnF INDIEN 445: Petition of the Potters of Pondicherry. <ref target="https://tst.hypotheses.org/377">https://tst.hypotheses.org/377</ref>
-                     </bibl>
-                  </listBibl>
+                     
+                     
+                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois et malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f81">p. 63</ref>.</bibl><bibl>Francis, Emmanuel (2019-10-25). BnF INDIEN 445: Petition of the Potters of Pondicherry. <ref target="https://tst.hypotheses.org/377">https://tst.hypotheses.org/377</ref>
+                     </bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change> This catalogue entry has been redacted by Emmanuel FRANCIS (CNRS, CEIAS UMR 8564, EHESS/CNRS) and Dr. G. Vijayavenugopal (EFEO, Pondicherry) for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG). Version 1, May 2020. </change>
-      </revisionDesc>
-   </teiHeader>
-   <text>
-      <body>
-         <p>This document is basically a petition by the potters of Pondicherry written in the presence of the French civil servant Daniel Lescallier, “commissaire civil”. It opens with an introduction (U1), in which the key-term <emph rend="italic">viṇṇappam</emph> occurs (f[1]r, c3, 3). Then comes a census of the potters of Pondicherry (U2), most residing in Nellittōppu, while others are stated to reside in Piḷḷaicāvaṭi and Reṭṭipāḷaiyam. Finally comes the petition proper (U3). The potters explain that they have been considered as Valaṅkai (a right-hand group, by opposition to left-hand groups) in the Pondicherry and surrounding region. They remit, it seems, the judgement about their group belonging (Valaṅkai or commonness) to the above-mentioned French civil servant Daniel Lescallier. Four <emph rend="italic">mēstiri</emph>s ("overseers") are designated and the list of their names is given. The potters seem finally to declare that they will do whatever the <emph rend="italic">toraikaḷ</emph> (i.e. <emph rend="italic">tuṟaikaḷ</emph>, “the lord” or the “lords”), that is, Lescallier or the <emph rend="italic">mēstiri</emph>s, order them or decide. </p>
-         <p>The bundle, a single-text manuscript, contains between the two woodcovers:</p>
-         <p>
-            <emph rend="bold">U1</emph>: 1 folio, unfoliated = petition introduction, by hand n° 1. Unblackened. 1 page (verso blank). The lay-out is in columns.</p>
-         <p>
-            <emph rend="bold">U2</emph>: 3 folios, Tamil foliation 2–3 (f1 not explicitly foliated) = census of Pondicherry potters, by hand n° 2 (?). 5 pages (f3v blank). The lay-out is in columns.</p>
-         <p>
-            <emph rend="bold">U3</emph>: 1 folio, unfoliated = petition proper, by hand n° 3 (?). Unblackened. 2 pages. The lay-out is in columns.</p>
-         <p>The bundle is complete.</p>
-         <p>
-            <emph rend="bold">Paratexts</emph>: none.</p>
-         <p>
-            <emph rend="bold">Excerpts</emph>
+         
+      <change when="2020-05"> This catalogue entry has been redacted by Emmanuel FRANCIS (CNRS, CEIAS UMR 8564, EHESS/CNRS) and Dr. G. Vijayavenugopal (EFEO, Pondicherry) for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG). Version 1, May 2020. </change><change when="2021-06">Updated to TST encoding conventions by Emmanuel FRANCIS.</change></revisionDesc>
+   <encodingDesc><p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.      </p></encodingDesc></teiHeader>
+   
+<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+  
+         <p>      
+           
+            <pb n="[1]r"/>
+           
+           <milestone n="1" unit="column"/>
+            <lb n="1"/>1<unclear>7</unclear>93 Āṇṭu piparēl {mācam} 3 {tēti}
+           
+           <milestone n="2" unit="column"/>
+            <lb n="1"/>kucacātiy ā<choice><sic>ka</sic><corr>ki</corr></choice>ṟa <choice><orig>ṉā</orig><reg>nā</reg></choice>ṭṭāṟ
+            <lb n="2"/><unclear>U</unclear>ṟaviṉ muṟaiyāṟ
+            <lb n="3"/><choice><orig>ṉā</orig><reg>nā</reg></choice>ṅkaḷ putuvai naka<choice><orig>ṟ</orig><reg>r</reg></choice> 
+           
+           <milestone n="3" unit="column"/>
+            <lb n="1"/>ṟā ṟā <unclear>ci</unclear>viyēl muciyē yēcakkāliyē
+            <lb n="2"/>Avarkaḷ camukattukku Eḻutik koṇṭa
+            <lb n="3"/>viṇṇappam Eṉṉav eṉṟāl
+            <lb n="4"/>yinta paṭṭaṇattilum amaitta tēcaṅkaḷi<unclear reason="consonant_unclear">lu</unclear>m
+           
+           <milestone n="4" unit="column"/>
+            <lb n="1"/><choice><orig>ṉā</orig><reg>nā</reg></choice>ṅkaḷ eppōtum valaṅkaiyyāroṭu kuṭiy irukkiṟatu
+            <lb n="2"/>yippavum yinta paṭṭaṇatti<unclear reason="vowel_unclear">lē</unclear> valaṅkaiyyāroṭē tāṉē
+            <lb n="3"/>kuṭiy irukkiṟō<seg rend="grantha">m</seg>
          </p>
-         <p>
-            <emph rend="bold">U1</emph>: folio 1, recto, unfoliated = petition introduction. <quote>
-               <p>(f[1]r, c1) 1(7)93 Āṇṭu piparēl {mācam} 3 {tēti}</p>
-               <p>(f[1]r, c2, 1) kucacātiy ākaṟa ṉāṭṭāṟ [i.e. ākiṟa nāṭṭār]</p>
-               <p>(f[1]r, c2, 2) [U]ṟaviṉ muṟaiyāṟ</p>
-               <p>(f[1]r, c2, 3) ṉāṅkaḷ [i.e. nāṅkaḷ] putuvai nakaṟ [i.e. nakar] </p>
-               <p>(f[1]r, c3, 1) ṟā ṟā (ci)viyēl muciyē yēcakkāliyē</p>
-               <p>(f[1]r, c3, 2) Avarkaḷ camukattukki [i.e. camukkattukku] Eḻutik koṇṭa</p>
-               <p>(f[1]r, c3, 3) viṇṇappam Eṉṉav eṉṟāl</p>
-               <p>(f[1]r, c3, 4) yinta paṭṭaṇattilum amaitta tēcaṅkaḷi(l)um</p>
-               <p>(f[1]r, c4, 1) ṉāṅkaḷ [i.e. nāṅkaḷ] eppōtum valaṅkaiyyāroṭu kuṭiy irukkiṟatu</p>
-               <p>(f[1]r, c4, 2) yippavum yinta paṭṭaṇattil(ē) valaṅkaiyyāroṭē tāṉē</p>
-               <p>(f[1]r, c4, 3) kuṭiy irukkiṟō<emph rend="bold">m</emph>
-               </p>
-            </quote>
-         </p>
-         <p>
-            <emph rend="bold">U2</emph>: folio 1, recto = incipit, census of Pondicherry potters. <quote>
-               <p>(f1r,c1, 1) 1793 Āṇṭu(kki)</p>
-               <p>(f1r,c1, 2) cellum – parātapi {varucam}</p>
-               <p>(f1r, c1, 3) taiyi {mācam} 25 {tēti}</p>
-               <p>(f1r, c2, 1) nellittōppil irukkum</p>
-               <p>(f1r, c2, 2) kucava(ṟ-ā)na [i.e. -āṉa?] vaḻi</p>
-               <p>(f1r, c2, 3) kaṇakku</p>
-               <p>(f1r, c3, 1) pāppaṉ – vūṭu [i.e. vīṭu]</p>
-               <p>(f1r, c3, 2) Āṇ – 1</p>
-               <p>(f1r, c3, 3) poṇ [i.e. peṇ] 1</p>
-               <p>(f1r, c3, 4) piḷḷai – 2</p>
-               <p>(…)</p>
-            </quote>
-         </p>
-         <p>
-            <emph rend="bold">U2</emph>: folio 3, recto = excipit, census of Pondicherry potters. <quote>
-               <p>(...)</p>
-               <p>(f3r, c3, 1) cuppaṉ - vūṭu</p>
-               <p>(f3r, c3, 2) Āṇ 1</p>
-               <p>(f3r, c3, 3) peṇ 1</p>
-               <p>(f3r, c4, 1) Āka – Ūṭu [i.e. vīṭu] – 39kki</p>
-               <p>(f3r, c4, 2) Āka – Āṉpiḷḷaikaḷ – 63 </p>
-               <p>(f3r, c4, 3) Āka – peṇpiḷḷaikaḷ – 67</p>
-               <p>(f3r, c4, 4) Āka – piḷḷaikaḷ – 47</p>
-               <p>(f3r, c5, 1) Āka – ciṉaṅkaḷ [i.e. caṉaṅkal]</p>
-               <p>(f3r, c5, 2) 177</p>
-            </quote>
-         </p>
-         <p>
-            <emph rend="bold">U3</emph>: folio 1, recto, unfoliated = incipit, petition. <quote>
-               <p>(f[1]r, c1, 1) [...] mākāṟācā ṟā śrīmuceyē sakaliyē</p>
-               <p>(f[1]r, c1, 2) [...] komicēṟ Avaṟkaḷ camukattukki</p>
-               <p>(f[1]r, c2, 1) Itiṉ aṭiyir kaiy oppam pōṭappaṭa mukkiya(k) k(o)cavar [i.e. kucavar]</p>
-               <p>(f[1]r, c2, 2) mikunta vaṇakkattuṭaṉ eḻitik koṇṭatu</p>
-               <p>(f[1]r, c2, 3) nāṅkaḷ valaṅkaiyoṭē cēṟntavaṟ-</p>
-               <p>(f[1]r, c2, 4) kaḷō Allatu potumaiyāy irukiṟavaṟka-</p>
-               <p>(f[1]r, c3, 1) ḷōv eṇṭu [i.e. eṉṟu ] Ariyum [i.e. Aṟiyum] ppaṭiyāyi (...)</p>
-               <p>(...)</p>
-            </quote>
-         </p>
-         <p>
-            <emph rend="bold">U3</emph>: folio 1, verso, unfoliated = excipit, petition. <quote>
-               <p>(...)</p>
-               <p>(f[1]v, c4, 1) yeṅkaḷukku vantu yeccarittu</p>
-               <p>(f[1]v, c4, 2) yeṅkaḷ aṇumatiyiṉ pēril Atukku</p>
-               <p>(f[1]v, c4, 3) takumāṇa Uttaṟavu collukuṟatu</p>
-               <p>(f[1]v, c4, 4) Avaṟkaḷukkuḷḷē māttaṉum vaiyikkaṉum</p>
-               <p>(f[1]v, c5, 1) Anta kāriyam yeṅkaḷutā-</p>
-               <p>(f[1]v, c5, 2) y iṟu[kki]ṟatu</p>
-            </quote>
-         </p>
-         <p>Abbreviations. c = column, f = folio, lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.</p>
-         <p>
-            <emph rend="bold">Transliteration conventions.</emph>
-         </p>
-         <p>Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Conjectural (whether the text is not clearly legible or the character is ambigous, e.g. <emph rend="italic">kāl</emph> or length of <emph rend="italic">o</emph> and <emph rend="italic">e</emph>) readings between parentheses. Alternative readings between parentheses separated by slash. Lost or entirely illegible character: "?". Lacuna of unknown extent: [...]. Crossed-out character: "X". Conjectural restoration of lost or entirely illegible between square brackets. Uppercase for initial vowels (in excerpts only). Unquoted text represented by (...). Grantha letters in bold. Symbols/Abbreviations made explicit, between curly brackets: {pcs} = <emph rend="italic">piḷḷaiyār cuḻi</emph>, short form; {pcl} = <emph rend="italic">piḷḷaiyār cuḻi</emph>, long form, that is, with long horizontal stroke towards right; {varuṣam}, {mācam}, {tēti}; {line-filler}. Unfoliated folio number between square brackets, e.g. "f[1]r". Numerals normalised to decimal notation, e.g. "1121" not "1000 1 100 2 10 1". Hyphen occasionaly used to mark in-word components. Hyphen systematically used at the end of a line when the line-beginning is within a word or within a <emph rend="italic">cīr</emph>. <emph rend="italic">Sandhi</emph> split to the minimum: overshort <emph rend="italic">u</emph> occasionally restored as an apostrophe.</p>
       </body>
-   </text>
-</TEI>
+   </text><text synch="#U2" corresp="#T2" xml:lang="ta">
+      <body>
+         <p>
+           
+           <pb n="[1]r"/>
+           
+           <milestone n="1" unit="column"/>
+            <lb n="1"/>1793 Āṇṭu<unclear>kku</unclear>
+            <lb n="2"/>cellum – parātapi {varucam}
+            <lb n="3"/>taiyi {mācam} 25 {tēti}
+           
+           <milestone n="2" unit="column"/>
+            <lb n="1"/>nellittōppil irukkum
+            <lb n="2"/>kucava<unclear>ṟ<pc>-</pc>ā</unclear><choice><orig>na</orig><reg>ṉa</reg></choice> vaḻi
+            <lb n="3"/>kaṇakku
+           
+           <milestone n="3" unit="column"/>
+            <lb n="1"/>pāppaṉ – <choice><orig>vū</orig><reg>vī</reg></choice>ṭu
+            <lb n="2"/>Āṇ – 1
+            <lb n="3"/><choice><orig>po</orig><reg>pe</reg></choice>ṇ 1
+            <lb n="4"/>piḷḷai – 2
+            <gap reason="ellipsis"/>
+            
+            <pb n="3r"/>
+            
+            <gap reason="ellipsis"/>
+           
+           <milestone n="3" unit="column"/>
+            <lb n="1"/>cuppaṉ – <choice><orig>vū</orig><reg>vī</reg></choice>ṭu
+            <lb n="2"/>Āṇ 1
+            <lb n="3"/>peṇ 1
+           
+           <milestone n="4" unit="column"/>
+            <lb n="1"/>Āka – <choice><orig>Ū</orig><reg>vī</reg></choice>ṭu– 39kki
+            <lb n="2"/>Āka – Āṉpiḷḷaikaḷ – 63 
+            <lb n="3"/>Āka – peṇpiḷḷaikaḷ – 67
+            <lb n="4"/>Āka – piḷḷaikaḷ – 47
+           
+           <milestone n="5" unit="column"/>
+            <lb n="1"/>Āka – <choice><sic>ci</sic><corr>ca</corr></choice>ṉaṅkaḷ
+            <lb n="2"/>177</p>
+      </body>
+      
+   </text><text synch="#U3" corresp="#T3" xml:lang="ta">
+      <body>
+         <p>
+            <pb n="[1]r"/>
+            
+           <milestone n="1" unit="column"/>
+            <lb n="1"/><gap/> mākāṟācā ṟā śrīmuceyē sakaliyē
+            <lb n="2"/><gap/> komicēṟ Avaṟkaḷ camukattukki
+           
+           <milestone n="2" unit="column"/>
+           <lb n="1"/>Itiṉ aṭiyir kaiy oppam pōṭappaṭa mukkiya<unclear>k</unclear> <choice><orig><unclear reason="consonant_unclear">ko</unclear></orig><reg>ku</reg></choice>cavar
+            <lb n="2"/>mikunta vaṇakkattuṭaṉ eḻitik koṇṭatu
+            <lb n="3"/>nāṅkaḷ valaṅkaiyoṭē cēṟntavaṟ
+           <lb n="4" break="no"/>kaḷō Allatu potumaiyāy irukiṟavaṟka
+             
+           <milestone n="3" unit="column" break="no"/>
+            <lb n="1"/>ḷōv e<choice><sic>ṇṭu</sic><corr>ṉṟu</corr></choice>ṇṭu A<choice><orig>ri</orig><reg>ṟi</reg></choice>yum ppaṭiyāyi <gap reason="ellipsis"/>
+                        
+            <pb n="[1]v"/>
+            <gap reason="ellipsis"/>
+           
+           <milestone n="4" unit="column"/>
+            <lb n="1"/>yeṅkaḷukku vantu yeccarittu
+            <lb n="2"/>yeṅkaḷ aṇumatiyiṉ pēril Atukku
+            <lb n="3"/>takumāṇa Uttaṟavu collukuṟatu
+            <lb n="4"/>Avaṟkaḷukkuḷḷē māttaṉum vaiyikkaṉum
+           
+           <milestone n="5" unit="column"/>
+            <lb n="1"/>Anta kāriyam yeṅkaḷutā
+            <lb n="2" break="no"/>y iṟu<unclear>kki</unclear>ṟatu</p>
+      </body>
+   </text></TEI>
