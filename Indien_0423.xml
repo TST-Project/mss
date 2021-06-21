@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="en">
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="ta">Vikkiṟamāṟkaṉ Katai </title>
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits.</orgName>
+                  </repository>
+                  <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc101266x</idno>
+                  <idno type="shelfmark">Indien 423</idno>
+                  <idno type="alternate"><idno>Tamoul 423</idno></idno>
+               </msIdentifier>
+               <msContents class="#STM">
+                  <summary><title xml:lang="ta">Vikkiṟamāṟkaṉ Katai</title>. The text is incomplete (stops short in U2c, f[217]v7). The folios are, unless rare exceptions, not foliated and unblackened. The bundle seems to be disordered at its end. Several hands. By at least one Christian copyist, as attested by blessing and Christian cross symbols.</summary>
+                  
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title page</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2b" xml:id="T2" defective="false"><title xml:lang="ta"><term xml:lang="en">Title page and Colophon</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2c" xml:id="T3" defective="true"><title xml:lang="ta">Vikkiṟamāṟkaṉ Katai: Mūlam</title><textLang mainLang="tam"/></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="pothi">
+                     <supportDesc material="palm-leaf">
+                        <support>
+                           <measure unit="stringhole" quantity="2"/>
+                        </support>
+                        <extent>
+                           <measure unit="folio" quantity="224">1 + 2 + 1 + 217 + 3 (U1 + U2a + U2b + U2c + U2d)</measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           <width min="215" max="245"/><height min="35" max="40"/></dimensions>
+                           <dimensions type="written" unit="mm">
+                              
+                              
+                           </dimensions>
+                        <dimensions type="object" unit="mm"><width quantity="240"/><height quantity="40"/><depth quantity="145"/></dimensions></extent>
+                        <collation>
+                        
+                        
+                        
+                        
+                        
+                        <desc xml:id="U1">1 folio = <emph rend="bold">Title page</emph>. No foliation. Shelfmark and annotation on recto. Verso blank. Hand #1.</desc><desc xml:id="cover">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U2a">2 folios = <emph rend="bold">guard leaves</emph>. No foliation. Blank recto verso. </desc><desc xml:id="U2b">1 folio = <emph rend="bold">Title page</emph> and <emph rend="bold">Colophon</emph>. No foliation. Verso blank. Hand #2.</desc><desc xml:id="U2c">217 folios = <emph rend="bold"><title xml:lang="ta">Vikkiṟamāṟkaṉ Katai: mūlam</title></emph>. No foliation. With some exceptions: f[92]-f[93] have original Tamil foliation 68-69. f[1]v (?check?), f[18]v,  f[64]v, f[103]v, f[122]v, f[146]v, f[163]v, f[199]v blank (end of chapters; intertitle on next recto). Several hands: at least hand #3 and hand #4. Change of hands, e.g., in f[1]r7, f[104]r (?check?).</desc><desc xml:id="U2d">3 folios = <emph rend="bold">guard leaves</emph>. No foliation. Blank recto verso. </desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>.</desc></collation>
+                        <condition>Good state of preservation.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     
+                     
+                  <handNote synch="#U1" scope="minor" scribeRef="#ArielTitleScribe" script="tamil" scriptRef="#tamilPulliRegular" medium="incised"><desc>Hand #1.</desc></handNote><handNote synch="#U2b" scope="minor" script="tamil" medium="incised"><desc>Hand #2.</desc></handNote><handNote synch="#U2c" scope="major" script="tamil" medium="incised"><desc>Hand #3.</desc></handNote><handNote synch="#U2c" scope="minor" script="tamil" medium="incised"><desc>Hand #4.</desc></handNote></handDesc>
+                  <additions>
+                     
+                    
+                    
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                  <desc synch="#U1" type="documenting-note">BnF stamp <quote>DON N° <space type="vacat"/></quote>.</desc><desc synch="#U1" type="documenting-note"><quote>2 C</quote> in black pencil.</desc><desc synch="#U1" type="shelfmark">Shelfmark <quote>b/76</quote> in black ink. </desc><desc synch="#U1" type="commenting-note"><quote xml:lang="fr">les feuilles ne sont pas numérotées</quote> in black ink. Annotation by Ariel (?).</desc><desc synch="#U1" type="shelfmark">BnF shelfmark sticker: <quote>INDIEN 423</quote>.
+                    </desc><desc synch="#U2c" subtype="end">Arabic foliation <quote>211</quote> added in black ink.</desc></additions>
+                  <bindingDesc>
+                     <binding>
+                        <p>Original woodcovers (<material>ebony?</material>).</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian" notAfter="1840">Dated to 1840 by Cabaton (1912). Not after 1855, as it is part of Ariel’s bequest made in that year to the Société Asiatique, Paris (Rosny 1868). Internally dated to the year <foreign xml:lang="ta">vikāri</foreign> of the Jovian cycle, that is, CE 1839-1840, 1779-1780, 1719-1720, etc.</origDate>
+                     <origPlace>Tamilnadu.</origPlace>
+                  </origin>
+                  <acquisition>
+                     <p>Received, August 1st, 1866, from the Société Asiatique. See BnF, département des Manuscrits, inventaire 7 = <title>Dons: manuscrits et imprimés documentaires, 1848-1895</title>, no. 1192.</p>
+                     <p>Don <persName ref="https://catalogue.bnf.fr/ark:/12148/cb143513141" key="Ariel, Edouard (1818-1854)">Edouard Ariel</persName>.</p>
+                  </acquisition>
+               <provenance><p>Owned by <persName ref="https://catalogue.bnf.fr/ark:/12148/cb143513141" key="Ariel, Edouard (1818-1854)">Edouard Ariel</persName> (1818-1854). Bequested by Edouard Ariel to Société Asiatique (Rosny 1868, p. 177).</p></provenance></history>
+               <additional>
+                  <listBibl>
+                     
+                     
+                     
+                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens. Bibliothèque nationale. Département des manuscrits.</title> Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f78">p. 60</ref>.</bibl><bibl>Rosny, Léon de (1868). “La bibliothèque tamoule de M. Ariel, de Pondichéry.” In: <title>Variétés orientales</title> (pp. 177‒224). Paris: Maisonneuve.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         
+         
+
+      <p> <emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.    </p></encodingDesc>
+      <revisionDesc>
+         
+      <change when="2021-06">Record created by Emmanuel FRANCIS.</change></revisionDesc>
+   </teiHeader>
+   <facsimile>
+      
+   </facsimile>   
+<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+  
+<pb facs="00" n="[1]r"/>
+  <milestone n="1" unit="column"/>
+  <lb n="1"/><supplied reason="illegible">I</supplied>ḵtu
+  
+<milestone n="2" unit="column"/>
+  <lb n="1"/><seg function="title">vikkiramātittaṉ katai</seg>
+
+</body></text><text synch="#U2b" corresp="#T2" xml:lang="ta"><body>
+  
+<pb facs="00" n="[1]r"/>
+  
+  <milestone n="1" unit="column"/>
+  <lb n="1"/><seg function="blessing">cēcu
+<lb n="2"/>mariyē
+<lb n="3"/>cūcai
+<lb n="4"/>tuṇai</seg>
+
+<milestone n="2" unit="column"/>
+<lb n="1"/><seg function="colophon">vikā<orig>ṟi</orig> {varuṣam} tai {mācam} 2 10 5 {tēti}
+<lb n="2"/>putuvaik=k’ aṭut=ta <placeName>nellitō
+  <lb n="3" break="no"/>ppil</placeName> irukkum <persName>cak=karai-paṭai
+<lb n="4" break="no"/>yācci</persName> y<pc>-</pc>eḻutuka<choice><unclear>ṟ</unclear><unclear>ṟa</unclear></choice> cuvaṭi
+  <lb n="5"/>y<pc>-</pc>eṉṉa v<pc>-</pc>eṉṟāl – vīra-cūra
+  <lb n="6" break="no"/><seg function="title">vikkiṟa<sic>mmā</sic>tittaṉ katai</seg></seg>
+
+<milestone n="3" unit="column"/>
+<lb n="1"/>Ivai y<pc>-</pc>ippaṭik=ku
+<lb n="2"/><persName>ciṉṉacāmi</persName>{symbol}={pcs}
+  
+ </body>
+                     </text><text synch="#U2c" corresp="#T3" xml:lang="ta"><body>
+  
+  <pb facs="00" n="[1]r"/>
+  
+  <milestone unit="left-margin"/>
+  <lb n="1"/><seg function="title">vikkiṟamā
+  <lb n="2" break="no"/>ṟkaṉ
+  <lb n="3"/>katai</seg>
+
+  <milestone unit="main-text-area"/>
+
+<lb n="1"/><seg function="incipit">śrī-<surplus>ri</surplus>maṉ-makā-ma<supplied reason="omitted">ṇ</supplied>ṭales•paraṉ Ariya-ṟāya taṉ vipātaṉ pāṣaik=ku</seg> <gap reason="ellipsis"/>
+  
+  <pb facs="00" n="[18]r"/>
+  
+  <lb n="2"/><gap reason="ellipsis"/> v<pc>-</pc>eṉṟu Aṉippivittā-
+  <lb n="3" break="no"/>rkaḷ <g ref="#pcs"/> <seg function="completion-statement">mōkaṉacintāmaṇi katai <sic>mū</sic>ttu<seg rend="grantha">=m</seg></seg>=<g ref="#pcl"/>
+  
+  <pb facs="00" n="[18]v"/><term xml:lang="en">[blank]</term>
+
+   <pb facs="00" n="[19]r"/>
+  
+  <milestone unit="left-margin"/>
+  <lb n="1"/><seg function="intertitle">Aṉiyāya
+  <lb n="2" break="no"/>puttiṉ
+  <lb n="3"/>katai<unclear>y</unclear></seg>
+  
+   <pb facs="00" n="[50]r"/>
+  
+  <milestone n="1" unit="left-margin"/>
+  <lb n="1"/><term xml:lang="en">{Christian cross}</term>
+  
+  <pb facs="00" n="[104]r(?check?)"/>
+  
+  <milestone n="1" unit="left-margin"/>
+  <lb n="1"/><term xml:lang="en">{Christian cross}</term>
+  <milestone n="2" unit="left-margin"/>
+  <lb n="1-2"/><seg function="intertitle"><gap reason="ellipsis"/>
+  <lb n="3"/>katai</seg> <term xml:lang="en">{Christian cross}</term>
+  
+<pb facs="00" n="[217]v"/>
+  <lb n="7"/><seg function="explicit">y<pc>-</pc>ippaṭik kotta puruṣaṉai cērntu</seg>
+  
+</body></text></TEI>
