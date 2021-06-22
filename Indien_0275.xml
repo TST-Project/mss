@@ -18,12 +18,12 @@
                      <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
                   </repository>
                   <idno type="shelfmark">Indien 275</idno>
-                  <idno type="alternate"><idno>Tamoul 275</idno></idno>
+                  <idno type="alternate"><idno>Tamoul 275</idno><idno>Ancien fonds 22</idno></idno>
                </msIdentifier>
                <msContents class="#MVM">
-                  <summary>First volume of a 2-volume Kamparāmāyaṇam. For volume 2, see Indien 276.</summary>
+                  <summary>First volume of a 2-volume <title xml:lang="ta">Kamparāmāyaṇam</title>. For volume 2, see Indien 276.</summary>
                   
-               <msItem xml:id="T1" defective="false"><title><title xml:lang="ta">Kamparāmāyaṇam</title></title></msItem></msContents>
+               <msItem xml:id="T1" defective="false"><title xml:lang="ta"><title xml:lang="ta">Kamparāmāyaṇam</title></title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="paper">
@@ -32,13 +32,15 @@
                            
                         </support>
                         <extent>
-                           <measure unit="folio" quantity="240"/>
+                           <measure unit="folio" quantity="244">[1] + [1] + 240 + [1] + [1] (u1 + u2 + U1 + u2 + u3)</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
                            </dimensions>
                         <dimensions type="object" unit="mm"><width quantity="125"/><height quantity="195"/><depth quantity="30"/></dimensions><dimensions type="written" unit="mm"/></extent>
-                        <collation><desc xml:id="u1">the front cover; verso marbled, bearing sticker <quote>INDIEN 275</quote>.</desc><desc xml:id="u2">1 unfoliated/unpaginated front guard folio; recto marbled.</desc><desc xml:id="u3">1 unfoliated/unpaginated front guard folio; recto inscribed <quote>Tamoul N° 275</quote> in black pencil; verso blank.</desc><desc xml:id="U1">240 folios; no original Tamil foliation/pagination; Arabic library foliation foliation 1–240 in black pencil on the top right corner of recto of folios. 30 quires (8 folios each) numbered on the top left corner (up to f97r) or on the top right corner (from f105r onwards). </desc><desc xml:id="u4">1 unfoliated/unpaginated back guard folio.</desc><desc xml:id="u5">1 unfoliated/unpaginated back guard folio; verso marbled.</desc><desc xml:id="u6">the back cover; recto marbled.</desc></collation>
+                        <collation><desc xml:id="cover">the <emph rend="bold">front cover</emph>. Verso marbled. Shelfmark on verso. bearing sticker <quote>INDIEN 275</quote>.</desc><desc xml:id="u1">1 folio = <emph rend="bold">front guard leaf</emph>. No foliation. Recto marbled.</desc><desc xml:id="u2">1 folio = <emph rend="bold">front guard leaf</emph>. No foliation. Shelfmark on recto. Verso blank.
+</desc><desc xml:id="U1">240 folios = <emph rend="bold"><title xml:lang="ta">Kamparāmāyaṇam</title></emph>. No original Tamil foliation/pagination. Arabic library foliation foliation 1–240 in black pencil on the top right corner of recto of folios. 30 quires (8 folios each) numbered on the top left corner (up to f97r) or on the top right corner (from f105r onwards). </desc><desc xml:id="u3">1 folio = <emph rend="bold">back guard leaf</emph>. No foliation. Blank recto verso.
+</desc><desc xml:id="u4">1 folio = <emph rend="bold">back guard leaf</emph>. No foliation. Verso marbled.</desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>. Recto marbled. </desc></collation>
                         
                         
                      <condition>Good state of preservation</condition></supportDesc>
@@ -46,80 +48,74 @@
                         
                      <layout columns="1"/></layoutDesc>
                   </objectDesc>
-                  <handDesc/>
+                  <handDesc><handNote synch="#U1" scope="major" script="tamil" medium="ink black"/></handDesc>
                   <decoDesc>
-                  </decoDesc>
+                  <decoNote synch="#cover" type="monogram" subtype="spine"><desc><quote>L</quote>.</desc></decoNote></decoDesc>
                   <additions>
-                  <desc type="catchword"/></additions>
+                  <desc synch="#cover" type="title" subtype="spine"><quote>KAMBA RÂMÂYANAM</quote> (in Latin transcription).
+</desc><desc synch="#cover" type="shelfmark" subtype="beginning">BnF shelfmark sticker: <quote>INDIEN 275</quote>.</desc><desc synch="#u2" type="shelfmark" subtype="beginning">BnF shelfmark in black pencil: <quote>Tamoul N° 275</quote> (recto).</desc><desc synch="#U1" type="catchword"/></additions>
                   <bindingDesc>
-                     <binding><p>Leather (red). Title <quote>KAMBA RÂMÂYANAM</quote> in transcription and heraldic L on the spine.</p></binding>
+                     <binding><p>Leather (red). Title and monograms on spine.</p></binding>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian"/>
+                     <origDate calendar="gregorian" notAfter="1732">Dated to 1720 by Cabaton (1912), on unstated grounds.</origDate>
                      
                   </origin>
-                  <provenance/>
+                  <provenance><p>It appears to be the first volume of the <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105278700/f32">Ramayanam en 2 livres</ref> sent by the Jesuits of the Mission du Carnate in 1732 for the library of the king of France and mentioned in an ancien list (BnF NAF 5442, f9v).</p></provenance>
                   <acquisition/>
                </history>
                <additional>
                   <listBibl>
                      
-                  </listBibl>
+                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens. Bibliothèque nationale. Département des manuscrits.</title> Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f60">p. 42</ref>.</bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          
-      <p>TBA</p></encodingDesc>
+      <p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.      </p></encodingDesc>
       <revisionDesc>
          
       <change when="2021-04">Record created by Emmanuel FRANCIS.</change></revisionDesc>
    </teiHeader>
    <facsimile>
    </facsimile>
-<text synch="#U1" corresp="#T1"><body>
+<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   
-  <p>
-    <milestone facs="00" n="1r" unit="folio"/>
+  <pb n="1r"/>
+    
     <lb n="1"/><seg function="title">kamparāmāya
     <lb n="2" break="no"/>ṇam</seg>
     <lb n="3"/><seg function="table-of-contents">vālakāṇṭam p-pāyirappaṭa
     <lb n="4" break="no"/>lam – virut=tam – – – 10</seg> 
     <lb n="5"/>Avaiyaṭakka-p-paṭalam virut
     <lb n="6" break="no"/>tam – – – – – 11 –
-    <lb n="7"/>(f1r7) Āṟṟuppaṭala viruttam – 20
-    <lb n="8"/>[...]
-    <milestone facs="00" n="2v" unit="folio"/>
+    <lb n="7"/>Āṟṟuppaṭala viruttam – 20
+    <lb n="8"/><gap reason="ellipsis"/>
+  
+  <pb n="2v"/>
     <lb n="1"/>kaṅkaippaṭalam – virut=tam – 71
     <lb n="2"/>tiruvaṭicūṭṭuppaṭalam – virut=tam –
     <lb n="3"/>100 3 5
-  </p>
   
-  <p>
-    <milestone facs="00" n="3r" unit="folio"/>
+  <pb n="3r"/>
     <lb n="1"/><seg function="title">kamparāmāyaṇam<surplus>u</surplus></seg>
     <lb n="2"/><seg function="satellite-stanza">nāṭiya poruḷ kaikūṭum ñāṉa
-    <lb n="3" break="no"/>mum pukaḻum uṇṭām [...]</seg>
-  </p>
+    <lb n="3" break="no"/>mum pukaḻum uṇṭām <gap reason="ellipsis"/></seg>
   
-  <p>
-    <milestone facs="00" n="4v" unit="folio"/>
+  <pb n="4v"/>
     <lb n="1"/><seg function="intertitle">vālakāṇṭam
     <lb n="2"/>pāyirappaṭalam</seg>
-  </p>
   
-  <p>
-    <milestone facs="00" n="6v" unit="folio"/>
+  <pb n="6v"/>  
     <lb n="1"/><seg function="intertitle">Avaiyaṭakkam
     <lb n="2"/>paṭalam</seg>
-  </p>
   
-  <p>
-    <milestone facs="00" n="239v" unit="folio"/>
+  <pb n="239v"/>
+  
     <lb n="14"/><seg function="completion-statement">5 10. – paracurāmappaṭalamuṟṟum –</seg>
-  </p>
   
 </body></text></TEI>
