@@ -19,7 +19,7 @@
                   </repository>
                <idno type="shelfmark">Indien 259</idno><idno type="alternate"><idno>Tamoul 259</idno><idno>Ancien fonds 22</idno></idno></msIdentifier>
                <msContents class="#STM">
-                  <summary>Prose version of the Bhāgavatapurāṇa in Tamil.</summary>
+                  <summary>Prose version of the <title xml:lang="sa">Bhāgavatapurāṇa</title> in Tamil.</summary>
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Pākavatam</title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
@@ -30,7 +30,7 @@
                            
                         </support>
                         <extent>
-                           <measure unit="folio" quantity="134"/>
+                           <measure unit="folio" quantity="137">[2] + 134 + [1] (u1 + U1 + u2)</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
@@ -40,7 +40,7 @@
                         
                      <collation>
                      
-                     <desc xml:id="u1">the front cover; verso bearing the sticker "INDIEN 259".</desc><desc xml:id="u2">2 guard leaves; recto of first folio bearing "Tamoul N° 259" in black pencil.</desc><desc xml:id="U1">134 folios; original Tamil foliation 1-134 and parallel library foliation 1-134.</desc><desc xml:id="u3">1 guard leaf; blank recto verso.</desc><desc xml:id="u4">the back cover.</desc></collation><condition> Very good state of preservation.</condition></supportDesc>
+                     <desc xml:id="cover">the <emph rend="bold">front cover</emph>. Shelfmark on verso. ; verso bearing the sticker "INDIEN 259".</desc><desc xml:id="u1">2 folios = <emph rend="bold">guard leaves</emph>. No foliation. Shelfmark on f[1]r.</desc><desc xml:id="U1">134 folios = <emph rend="bold"><title xml:lang="ta">Pākavatam</title></emph>. Ooriginal Tamil foliation 1-134 and parallel library foliation 1-134.</desc><desc xml:id="u2">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso.</desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>.</desc></collation><condition> Very good state of preservation.</condition></supportDesc>
                      <layoutDesc>
                         
                      <layout columns="1"/></layoutDesc>
@@ -49,7 +49,7 @@
                   <decoDesc>
                   </decoDesc>
                   <additions>
-                  </additions>
+                  <desc synch="#cover" type="shelfmark" subtype="beginning">BnF shelfmark sticker: <quote>INDIEN 259</quote> (<locus facs="02">recto</locus>).</desc><desc synch="#u1" type="shelfmark" subtype="beginning">BnF shelfmark in black ink: <quote>Tamoul N° 259</quote> (<locus facs="03">f[1]r</locus>).</desc></additions>
                   <bindingDesc>
                      <binding/>
                   </bindingDesc>
@@ -72,39 +72,33 @@
       </fileDesc>
       <encodingDesc>
          
-      <p>TBA</p></encodingDesc>
+      <p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.    </p></encodingDesc>
       <revisionDesc>
          
       <change when="2021-04">Record created by Emmanuel FRANCIS.</change></revisionDesc>
    </teiHeader>
    <facsimile>
-   </facsimile>
-<text corresp="#T1" xml:lang="ta"><body>
-  <p>
-    <seg function="title"><milestone n="1r" unit="folio"/>
-    <lb n="1"/><term xml:lang="fr">Bagavedam</term></seg>
+   <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10029517t/manifest.json"/></facsimile>
+<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+  <pb facs="07" n="1r"/>
+    <lb n="1"/><seg><term xml:lang="fr">Bagavedam</term></seg>
     <seg function="title"><lb n="2"/>Pākavatam</seg>
     <seg function="incipit">
       <lb n="3"/>puṇṇiya-kṣettiram-āy irukka-p-paṭṭavaṉamicāraṇṇiya-kṣe
-      <lb n="4" break="no"/>ttirattilē vācam paṇṇappaṭā ṉiṉṟa</seg> [...]    
-  </p>
+      <lb n="4" break="no"/>ttirattilē vācam paṇṇappaṭā ṉiṉṟa</seg> <gap reason="ellipsis"/>  
   
-  <p>
-    <seg function="intertitle">
-      <milestone n="20r" unit="folio"/>
-      <lb n="22"/>piṟuntāvaṉaṅ
-      <lb n="23"/>kaṇṭatu
-    </seg>       
-  </p>
-   
-  <p>
-    <milestone n="134v" unit="folio"/>
-    <lb n="18"/>[...]
-    <seg function="explicit">
-      <lb n="19"/>mōṣam peṟuvārkaḷ eṉṟu cuka-yōki-y intirar pariṣ
-      <lb n="20" break="no"/>ṣittu makārācaṉukku-c coṉṉa paṭiyē cūtap<unclear>au</unclear>vura
-      <lb n="21" break="no"/>ṇika<del rend="strikeout"><gap reason="illegible" quantity="1" unit="character"/></del>r cavuṉakāti-makā-muṉikaḷukku-t teriya-c coṉṉār
-      <lb n="22"/>pākavatam muṟṟum</seg>
-  </p>
+   <pb facs="45" n="20r"/> 
+  <lb n="22"/><seg function="intertitle">piṟuntāvaṉaṅ
+      <lb n="23"/>kaṇṭatu    </seg>       
+  
+  <pb facs="274" n="134v"/>
+    
+    <lb n="18"/><gap reason="ellipsis"/>
+    
+      <lb n="19"/><seg function="explicit">mōṣam peṟuvārkaḷ eṉṟu cuka-yōki-y intirar pariṣ
+      <lb n="20" break="no"/>ṣittu makārācaṉukku-c coṉṉa paṭiyē cūta<unclear reason="consonant_unclear">pau</unclear>vura
+      <lb n="21" break="no"/>ṇika<del rend="strikeout"><gap reason="illegible" quantity="1" unit="character"/></del>r cavuṉakāti-makā-muṉikaḷukku-t teriya-c coṉṉār</seg>
+      <lb n="22"/><seg function="completion-statement">pākavatam muṟṟum</seg>
+  
       
 </body></text></TEI>
