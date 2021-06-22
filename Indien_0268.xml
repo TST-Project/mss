@@ -19,9 +19,9 @@
                   </repository>
                <idno type="shelfmark">Indien 268</idno><idno type="alternate"><idno>Tamoul 268</idno><idno>Ancien fonds 21</idno></idno></msIdentifier>
                <msContents class="#STM">
-                  <summary>Commentary on the Villipāratam. The Villipāratam is a Tamil version of the Mahābhārata by Villipputtūr Āḻvār.</summary>
+                  <summary>Commentary on the <title xml:lang="ta">Villipāratam</title>, a Tamil version of the <title xml:lang="sa">Mahābhārata</title>, by <persName>Villipputtūr Āḻvār</persName>. Named <title xml:lang="ta">Makāpāratam Urai</title> in the manuscript.</summary>
                   
-               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">makāpāratam Urai</title><textLang mainLang="tam"/></msItem></msContents>
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Makāpāratam Urai</title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="paper">
@@ -30,7 +30,7 @@
                            
                         </support>
                         <extent>
-                           <measure unit="folio" quantity="234"/>
+                           <measure unit="folio" quantity="246">[1] + [1] + [4] + 234 + [4]+ [1] + [1] (u1 + u2 + u3 + U1 + u4 + u5 + u6)</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
@@ -40,7 +40,10 @@
                         
                      <collation>
                      
-                     <desc xml:id="u1">the front cover; verso bearing the sticker "INDIEN 268", with addition "2545" in black pencil.</desc><desc xml:id="u2">1 guard-leaf; blank recto verso; verso marbled; from library binding.</desc><desc xml:id="u3">1 guard-leaf; recto bearing "Tamoul N° 268" in black pencil and "Indien 268" in black ballpen; verso blank ; from library binding.</desc><desc xml:id="u4">4 guard leaves; old paper; blank recto verso; from original book.</desc><desc xml:id="U1">234 folios; original Tamil pagination 1-468 and parallel library foliation 1-234.</desc><desc xml:id="u5">4 guard leaves; old paper; blank recto verso; from original book.</desc><desc xml:id="u6">1 guard-leaf; blank recto verso; from library binding.</desc><desc xml:id="u7">1 guard-leaf; blank recto verso; recto marbled; from library binding.</desc><desc xml:id="u8">the back cover.</desc></collation><condition> Very good state of preservation.</condition></supportDesc>
+                     <desc xml:id="cover">the <emph rend="bold">front cover</emph>. Shelfmark on verso.</desc><desc xml:id="u1">1 folio = <emph rend="bold">front guard leaf</emph>. No foliation. Blank recto verso. Verso marbled. From library binding.</desc><desc xml:id="u2">1 folio = <emph rend="bold">front guard leaf</emph>. No foliation. Shelfmarks on recto. Verso blank. From library binding.
+</desc><desc xml:id="u3">4 folios = <emph rend="bold">front guard leaves</emph>. Old paper. Blank recto verso. From original book.</desc><desc xml:id="U1">234 folios = <emph rend="bold"><title xml:lang="ta">Makāpāratam Urai</title></emph>. Old paper. 
+Original Tamil pagination 1-468 and parallel library foliation 1-234.</desc><desc xml:id="u4">4 folios = <emph rend="bold">back guard leaves</emph>. Old paper. Blank recto verso. From original book.</desc><desc xml:id="u5">1 folio = <emph rend="bold">back guard leaf</emph>. No foliation. Blank recto verso. From library binding.</desc><desc xml:id="u6">1 folio = <emph rend="bold">back guard leaf</emph>. No foliation. Blank recto verso. From library binding.
+</desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>. </desc></collation><condition> Very good state of preservation.</condition></supportDesc>
                      <layoutDesc>
                         
                      <layout columns="2"/></layoutDesc>
@@ -49,12 +52,14 @@
                   <decoDesc>
                   </decoDesc>
                   <additions>
-                  <desc type="documenting-note" subtype="beginning inserted">Small paper bound in volume between u4 and U1.
+                  <desc type="documenting-note" subtype="beginning inserted">Small paper bound in (i.e. indication of the title to be displayed on the spine), between <locus facs="15">u3 and U1</locus>:
 
 <quote rend="block">
-  <item>Magâbâradam</item>
-  <item>Tamoul</item>
-</quote></desc></additions>
+  <lb n="1"/>Magâbâradam
+  <lb n="2"/>Tamoul
+</quote>
+</desc><desc synch="#cover" type="shelfmark" subtype="beginning">BnF shelfmark sticker: <quote>INDIEN 268</quote> (<locus facs="02">verso</locus>). <quote>2545</quote> added in black pencil.</desc><desc synch="#u2" type="shelfmark" subtype="beginning">BnF shelfmark in black pencil: <quote>Tamoul N° 268</quote> (<locus facs="05">verso</locus>). </desc><desc synch="#u2" type="shelfmark" subtype="beginning">BnF shelfmark in black ballpen: <quote>Indien 268</quote> (<locus facs="05">verso</locus>). 
+</desc></additions>
                   <bindingDesc>
                      <binding/>
                   </bindingDesc>
@@ -77,7 +82,7 @@
       </fileDesc>
       <encodingDesc>
          
-      <p>TBA</p></encodingDesc>
+      <p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.    </p></encodingDesc>
       <revisionDesc>
          
       <change when="2021-04">Record created by Emmanuel FRANCIS.</change></revisionDesc>
@@ -85,48 +90,39 @@
    <facsimile>
    <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b100295366/manifest.json"/></facsimile>
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
-  <p>
-    <seg function="title"><milestone n="1" unit="page" facs="15"/>
-      
-    <lb n="1"/>makāpāratam Urai</seg>
-    <seg function="incipit"><milestone n="1" unit="column"/>
-      <lb n="1"/>nīṭāḻi-y ulakattu maṟai nālō
+  
+  <pb facs="15" n="1r"/>
+  <lb n="1"/><seg function="title">makāpāratam Urai</seg>
+  
+  <milestone n="1" unit="column"/>
+      <lb n="1"/><seg function="incipit">nīṭāḻi y<pc>-</pc>ulakattu maṟai nālō
       <lb n="2" break="no"/>ṭ<pc>’</pc> aint<pc>’</pc> eṉru nilai niṟkavē ‡
       <lb n="3"/>vāṭāta tavavāymai muṉi
       <lb n="4" break="no"/>rācaṉ māpāratañ coṉ
       <lb n="5" break="no"/>ṉa nāḷ ‡ Ēṭāka vaṭa-mēru-ve
       <lb n="6" break="no"/>ṟpāka veṅkūr eḻuttā
-      <lb n="7" break="no"/>ṇi taṉ ‡ kōṭāka-v eḻutu
-      <lb n="8" break="no"/>m pirāṉaip paṇint’ aṉpu kū
-      <lb n="9" break="no"/>rvām arō ‡‡</seg> ― [...]    
-  </p>
+      <lb n="7" break="no"/>ṇi taṉ ‡ kōṭāka v<pc>-</pc> eḻutu
+      <lb n="8" break="no"/>m pirāṉaip paṇint<pc>’</pc> aṉpu kū
+      <lb n="9" break="no"/>rvām arō ‡‡</seg> ― <gap reason="ellipsis"/>
   
-  <p>
-    <seg function="intertitle">
-      <milestone n="1" unit="page"/>
+  <milestone n="2" unit="column"/>
+      <lb n="4"/><seg function="intertitle">pāṇṭāvar paṭai Eḻucci</seg>       
+ 
+   <pb facs="22" n="3v"/> 
       <milestone n="2" unit="column"/>
-      <lb n="4"/>pāṇṭāvar paṭai Eḻucci</seg>       
-  </p>
-  
-    <p>
-    <seg function="completion-statement">
-      <milestone n="5" unit="page"/>
-      <milestone n="2" unit="column"/>
-      <lb n="14"/>taṉmarāyar paṭai Eḻucci
+      <lb n="14"/><seg function="completion-statement">taṉmarāyar paṭai Eḻucci
       <lb n="15"/>muṟṟum</seg>
       <lb n="16"/><term xml:lang="en">[series of dots]</term>
-      <seg function="intertitle"><lb n="17"/>turiyōtaṉaṉ paṭai
+      <lb n="17"/><seg function="intertitle">turiyōtaṉaṉ paṭai
         <lb n="18"/>Eḻucci</seg>
       <lb n="19"/><term xml:lang="en">[series of dots]</term>
-  </p>
   
-  <p>
-    <milestone n="468" unit="page"/><milestone n="1" unit="column"/>
-    <lb n="12"/>[...]
+  <pb facs="484" n="234v"/>
+    <milestone n="1" unit="column"/>
+    <lb n="12"/><gap reason="ellipsis"/>
     <lb n="13"/>vāḻi vāḻi <term xml:lang="en">{line-fillers = 6 hyphens}</term>
-    <seg function="explicit">
-    <lb n="14"/>pārata Urai Ātiyoṭa
-<lb n="15" break="no"/>ntam-āy mutal nāḷ Uyi
+    <lb n="14"/><seg function="explicit">pārata Urai Ātiyoṭa
+<lb n="15" break="no"/>ntam<pc>-</pc>āy mutal nāḷ Uyi
 <lb n="16" break="no"/>ṟṟan tuṭaṅki patiṉ eṭ
 <lb n="17" break="no"/>ṭānāḷ Uyiṟṟamutal-p
 <lb n="18"/>paṭṭāpiṣekamum Urai
@@ -135,5 +131,5 @@
 <lb n="21"/><term xml:lang="en">[series of dots]</term>
 <lb n="22"/><term xml:lang="en">[series of 8 stars]</term>
 <lb n="23"/><term xml:lang="en">[series of dots]</term></seg>
-  </p>
+  
 </body></text></TEI>
