@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="en">
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="ta">Pañcatantirakkatai      </title>
+            <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits.</orgName>
+                  </repository>
+                  <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc112191c</idno>
+                  <idno type="shelfmark">Indien 411</idno>
+                  <idno type="alternate"><idno>Tamoul 411</idno></idno>
+               </msIdentifier>
+               
+               <msContents class="#STM">
+                  <summary>The <title xml:lang="ta">Pañcatantirakkatai</title>.</summary>
+                  
+                  
+                  
+                  
+                  
+               <msItem synch="#U2" xml:id="T1" defective="false"><title xml:lang="ta">Pañcatantirakkatai</title><textLang mainLang="tam"/></msItem></msContents>
+               
+               <physDesc>
+                  <objectDesc form="pothi">
+                     <supportDesc material="palm-leaf">
+                        <support>
+                           <measure resp="#cLI" unit="stringhole" quantity="2"/>
+                        </support>
+                        <extent>
+                           <measure unit="folio" quantity="148">1 + 147 (U1 + U2)</measure>
+                           <dimensions type="leaf" unit="mm">
+                              <width quantity="315"/>
+                              <height quantity="35"/>
+                           </dimensions>
+                           <dimensions type="object" unit="mm"><width quantity="320"/><height quantity="35"/></dimensions><dimensions type="written" unit="mm"/></extent>
+                        <collation>
+                           
+                        <desc xml:id="U1">1 folio = <emph rend="bold">guard leaf</emph>. Tamil foliation 135 (reuse?). Recto blank except unblackened foliation and a few letters. Verso blank.</desc><desc xml:id="U2">147 folios = <emph rend="bold"><title xml:lang="ta">Pañcatantirakkatai</title></emph>. Tamil foliation [1]-147. </desc></collation>
+                        <condition>Good state of preservation.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        
+                     <layout columns="1" writtenLines="5 6"/></layoutDesc>
+                  </objectDesc>
+                  <handDesc>                     
+                     
+                  <handNote synch="#U2" scope="major" script="tamil" medium="incised"/></handDesc>
+                  <additions> 
+                     
+                     
+                     
+                     
+                     
+                     
+                  <desc synch="#U1" type="shelfmark" subtype="beginning cover">Shelfmark in black ink: <quote>N° 27</quote> </desc><desc type="documenting-note" subtype="cover end">BnF register mark in black ink: <quote>R.B. N° 1715, 1834.</quote> </desc><desc type="shelfmark" subtype="cover end">BnF shelfmark sticker: <quote>INDIEN 411</quote>.</desc></additions>
+                  
+                  <bindingDesc>
+                     <binding>
+                        <p>Original <material>wood</material> covers.</p>
+                     </binding>
+                  </bindingDesc>
+                  
+               </physDesc>
+               
+               <history>
+                  
+                  <origin>
+                     <origDate calendar="gregorian" notAfter="1834">No internal date. Dated to 130 by Cabaton (1912), on unstated grounds.</origDate>
+                     <origPlace>Tamilnadu.</origPlace>
+                  </origin>
+                  
+                  <acquisition>
+                     
+                  </acquisition>
+                  
+               <provenance><p>M. Tilliard fils.</p></provenance></history>
+               
+               <additional>
+                  
+                  <listBibl>
+                     
+                     
+                     
+                     
+                     
+                     
+                     <bibl><title xml:lang="ta">Pañcatantirak Katai</title>. Project Madurai. <title xml:lang="ta">viṣṇu carmā iyaṟṟiya "pañcatantirak katai."</title> <term xml:lang="ta">tamiḻākkam : tāṇṭavarāya mutaliyār.</term> <ref target="https://www.projectmadurai.org/pm_etexts/utf8/pmuni0406.html">https://www.projectmadurai.org/pm_etexts/utf8/pmuni0406.html</ref></bibl><bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f77">p. 59</ref>.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <encodingDesc>
+         
+         <p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.      </p></encodingDesc>
+      
+      <revisionDesc>
+         
+         <change when="2021-06">Record created by Emmanuel FRANCIS. </change></revisionDesc>
+   </teiHeader>
+   
+   <facsimile>
+      
+   </facsimile>
+   
+   
+<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+      
+  <pb n="[1]r"/>
+  
+  <milestone unit="left-margin"/>
+  <lb n="1"/><seg function="intertitle">mittirapētam</seg>
+  <lb n="2"/><seg function="title">pañcatantira<surplus>k</surplus>
+  <lb n="3" break="no"/>kkatai</seg>
+  
+  <milestone unit="main-text-area"/>
+  <lb n="1"/><seg function="incipit">pāṭalipuram eṉṟum paṭṭaṇam</seg> <gap reason="ellipsis"/>
+    
+  <pb n="67v"/>
+  <lb n="2"/><gap reason="ellipsis"/> <seg function="completion-statement">mutalāvatu mittirapētam mut=tum</seg> ~
+  
+  <pb n="67r"/>
+    <milestone unit="left-margin"/>
+  <lb n="1"/><seg function="intertitle">2vatu
+  <lb n="2"/>cukkiṟi
+  <lb n="3"/>lāpam</seg>
+  
+   <pb n="90r"/>
+  <lb n="5"/><gap reason="ellipsis"/> <g ref="#pcl"/> <seg function="completion-statement">Iraṇṭāvatu cukkiṟilāpam muttu</seg> <g ref="#pcl"/>
+  
+  <pb n="91r"/>
+    <milestone unit="left-margin"/>
+  <lb n="1"/><seg function="intertitle">mūṉṟā
+  <lb n="2" break="no"/>vatu
+  <lb n="3"/>ca<choice><sic>ni</sic><corr>n</corr></choice>ti
+  <lb n="4" break="no"/>vik=kiṟa
+  <lb n="5"/>kam</seg>
+  
+   <pb n="123v"/>
+  <lb n="5"/><seg function="completion-statement"><gap reason="ellipsis"/></seg>
+  
+  <pb n="124r"/>
+    <milestone unit="left-margin"/>
+  <lb n="1-4"/><seg function="intertitle"><gap reason="ellipsis"/></seg>
+  
+  <pb n="133v"/>
+  <lb n="5"/><seg function="completion-statement"><gap reason="ellipsis"/></seg>
+  
+  <pb n="134r"/>
+    <milestone unit="left-margin"/>
+  <lb n="1-3"/><seg function="intertitle"><gap reason="ellipsis"/></seg>
+  
+  <pb n="147v"/>
+  <lb n="1"/><gap reason="ellipsis"/>
+  <lb n="2" break="no"/>ṟē <g ref="#pcl"/> kūṟiṉāñ <gap reason="ellipsis"/>
+  <lb n="3"/><gap reason="ellipsis"/> vāḻntār <g ref="#pcl"/>
+  <lb n="4"/><gap reason="ellipsis"/>
+  <lb n="5"/><gap reason="ellipsis"/> raippār eṉṟō <g ref="#pcl"/> <g ref="#pcs"/> <g ref="#pcl"/> <seg function="completion-statement">pañcatan=tiramut=tum</seg> <g ref="#pcl"/>
+  
+</body></text></TEI>
