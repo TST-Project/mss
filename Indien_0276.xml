@@ -18,10 +18,10 @@
                      <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
                   </repository>
                   <idno type="shelfmark">Indien 276</idno>
-                  <idno type="alternate"><idno>Tamoul 276</idno></idno>
+                  <idno type="alternate"><idno>Tamoul 276</idno><idno>Ancien fonds 41</idno></idno>
                </msIdentifier>
                <msContents class="#MVM">
-                  <summary>Second volume of a 2-volume Kamparāmāyaṇam. For volume 1, see Indien 275.</summary>
+                  <summary>Second volume of a 2-volume <title xml:lang="ta">Kamparāmāyaṇam</title>. For volume 1, see Indien 275.</summary>
                   
                <msItem xml:id="T1" defective="false"><title xml:lang="ta"><title xml:lang="ta">Kamparāmāyaṇam</title></title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
@@ -32,13 +32,14 @@
                            
                         </support>
                         <extent>
-                           <measure unit="folio" quantity="231"/>
+                           <measure unit="folio" quantity="235">[1] + [1] + 231 + [1] + [1] (u1 + u2 + U1 + u3 + u4)</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
                            </dimensions>
                         <dimensions type="object" unit="mm"><width quantity="125"/><height quantity="195"/><depth quantity="30"/></dimensions><dimensions type="written" unit="mm"/></extent>
-                        <collation><desc xml:id="u1">the front cover; verso marbled, bearing sticker <quote>INDIEN 276</quote>.</desc><desc xml:id="u2">1 unfoliated/unpaginated front guard folio; recto marbled.</desc><desc xml:id="u3">1 unfoliated/unpaginated front guard folio; recto inscribed <quote>Tamoul N° 276</quote> in black pencil; verso blank.</desc><desc xml:id="U1">231 folios; no original Tamil foliation/pagination; Arabic library foliation foliation 1–231 in black pencil on the top right corner of recto of folios. 29 quires; first 28 quires (8 folios each) numbered on the top left corner (up to f217r); last quire (7 folios) unnumbered. </desc><desc xml:id="u4">1 unfoliated/unpaginated back guard folio.</desc><desc xml:id="u5">1 unfoliated/unpaginated back guard folio; verso marbled.</desc><desc xml:id="u6">the back cover; recto marbled.</desc></collation>
+                        <collation><desc xml:id="cover">the <emph rend="bold">front cover</emph>. Verso marbled. Shelfmark on verso. </desc><desc xml:id="u1">1 folio = <emph rend="bold">front guard leaf</emph>. No foliation. Recto marbled.</desc><desc xml:id="u2">1 folio = <emph rend="bold">front guard leaf</emph>. No foliation. Shelfmark on recto. Verso blank.</desc><desc xml:id="U1">231 folios = <emph rend="bold"><title xml:lang="ta">Kamparāmāyaṇam</title></emph>. No original Tamil foliation/pagination. Arabic library foliation foliation 1–231 in black pencil on the top right corner of recto of folios. 30 quires (8 folios each) numbered on the top left corner (up to f97r) or on the top right corner (from f105r onwards). 
+</desc><desc xml:id="u3">1 folio = <emph rend="bold">back guard leaf</emph>. No foliation. Blank recto verso.</desc><desc xml:id="u4">1 folio = <emph rend="bold">back guard leaf</emph>. No foliation. Verso marbled.</desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>. Recto marbled. </desc></collation>
                         
                         
                      <condition>Good state of preservation.</condition></supportDesc>
@@ -46,34 +47,35 @@
                         
                      <layout columns="1"/></layoutDesc>
                   </objectDesc>
-                  <handDesc><handNote synch="#U1" scope="sole" script="tamil" medium="ink"/></handDesc>
+                  <handDesc><handNote synch="#U1" scope="major" script="tamil" medium="ink black"/></handDesc>
                   <decoDesc>
-                  </decoDesc>
+                  <decoNote synch="#cover" type="monogram" subtype="spine"><desc><quote>L</quote>.</desc></decoNote></decoDesc>
                   <additions>
-                  <desc type="catchword"/></additions>
+                  <desc synch="#cover" type="title" subtype="spine"><quote>AYOTTIYÂ KÂNDAM</quote> (Latin transcription).</desc><desc synch="#cover" type="shelfmark" subtype="beginning">BnF shelfmark sticker: <quote>INDIEN 276</quote>.</desc><desc synch="#u2" type="shelfmark" subtype="beginning">BnF shelfmark in black pencil: <quote>Tamoul N° 276</quote> (recto).</desc><desc synch="#U1" type="catchword"/><desc synch="#U1" type="title commenting-note" subtype="inserted">Indication of the title to be displayed on the spine (inserted and bound inbetween f1 and f2):
+<quote><lb n="1"/>Ayottiyā<lb n="2"/>Kândam</quote> (Latin transcription).</desc></additions>
                   <bindingDesc>
-                     <binding><p>Leather (red). Title <quote>AYOTTIYÂ KÂNDAM</quote> in transcription and heraldic L on the spine.</p></binding>
+                     <binding><p>Leather (red). Title and monograms on spine.</p></binding>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian"/>
+                     <origDate calendar="gregorian" notAfter="1732">Dated to 1720 by Cabaton (1912), on unstated grounds.</origDate>
                      
-                  </origin>
-                  <provenance/>
+                  <origPlace>Tamilnadu.</origPlace></origin>
+                  <provenance><p>It appears to be the first volume of the <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105278700/f32">Ramayanam en 2 livres</ref> sent by the Jesuits of the Mission du Carnate in 1732 for the library of the king of France and mentioned in an ancien list (BnF NAF 5442, f9v).</p></provenance>
                   <acquisition/>
                </history>
                <additional>
                   <listBibl>
                      
-                  </listBibl>
+                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens. Bibliothèque nationale. Département des manuscrits.</title> Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f60">p. 42</ref>.</bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          
-      <p>TBA</p></encodingDesc>
+      <p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.     </p></encodingDesc>
       <revisionDesc>
          
       <change when="2021-04">Record created by Emmanuel FRANCIS.</change></revisionDesc>
@@ -82,20 +84,22 @@
    </facsimile>
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   
-  <p>
-    <milestone facs="00" n="1r" unit="folio"/>
-    <lb n="1"/><seg function="title">Ayōttiyā
-    <lb n="2" break="no"/>kāṇṭam
-    <lb n="3"/>nakarappaṭalam</seg>
-  </p>
+  <pb n="1r"/>
+    
+    <lb n="1"/><seg function="intertitle">Ayōttiyā
+    <lb n="2" break="no"/>kāṇṭam</seg>
+    <lb n="3"/><seg function="intertitle">nakarappaṭalam</seg>
+   <lb n="4"/><seg function="incipit">vā niṉṟ<pc>’</pc> iḻintu varamp<pc>’</pc> ikaḻnta
+  <lb n="5"/>māḻittatiṉ vaiy meṅku ‡ m<pc>-</pc>ūṉum</seg>
+  <lb n="4"/><gap reason="ellipsis"/>
+
   
-   <p>
-    <milestone facs="00" n="226v" unit="folio"/>
-    <lb n="8"/><seg function="explicit">[...] – 39 – Un 
+  <pb n="226v"/>
+    
+    <lb n="8"/><seg function="explicit"><gap reason="ellipsis"/> – 39 – Un 
      <lb n="9" break="no"/>tai-y uṇmaiyaiṉ ākki-y uñ ciṟ
      <lb n="10" break="no"/>ṟavai ‡ tanta collai-t talai-k koṇ
-     <lb n="11" break="no"/>ṭu tāraṇi ‡ vanta tampikk’ utavi
+     <lb n="11" break="no"/>ṭu tāraṇi ‡ vanta tampikk<pc>’</pc> utavi
      <lb n="12" break="no"/>ya vaḷḷalē</seg>
-  </p>
   
 </body></text></TEI>
