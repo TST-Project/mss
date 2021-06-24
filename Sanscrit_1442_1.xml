@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="sa">Bhuvaneśvarīkavaca</title>
+            
+         <editor><persName>Charles LI</persName><orgName>CNRS, CEIAS, UMR 8564</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Sanscrit 1442.1</idno>
+                  <idno type="alternate"/>
+               </msIdentifier>
+               <msContents class="#STM">
+                  <summary>This manuscript is part of an assortment of three fragments found with Sanscrit 1347. This fragment contains a <title xml:lang="sa">Bhuvaneśvarīkavaca</title>, a hymn for protection addressed to the goddess <term xml:lang="sa">Bhuvaneśvarī</term>.  The small size of the manuscript suggests that it may have been used as an amulet or charm.</summary>
+                  
+               <msItem xml:id="BhK" defective="false"><title xml:lang="sa">Bhuvaneśvarīkavaca</title><textLang mainLang="san"/></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="pothi">
+                     <supportDesc material="palm-leaf">
+                        <support>
+                           <measure unit="stringhole"/>
+                           
+                        </support>
+                        <extent>
+                           <measure unit="folio" quantity="1"/>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           </dimensions>
+                        <dimensions type="object" unit="mm"><width quantity="315"/><height quantity="30"/></dimensions><dimensions type="written" unit="mm"/></extent>
+                        <collation/>
+                        
+                        <condition>Fragment.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        
+                        <summary/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc><handNote scope="sole" script="bengali" medium="ink black"/></handDesc>
+                  <decoDesc>
+                  </decoDesc>
+                  <additions>
+                  </additions>
+                  <bindingDesc>
+                     <binding/>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian"/>
+                     <origPlace>Bengal</origPlace>
+                  </origin>
+                  <provenance><p>Found with Sanscrit 1437, part of the <persName xml:lang="fr">Palmyr Cordier</persName> non-médical collection.</p></provenance>
+                  <acquisition><p>Acquired by <persName xml:lang="fr">Jean Filliozat</persName> for the BnF.</p></acquisition>
+               </history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl><persName xml:lang="fr">Cabaton, Antoine</persName> (1907-1908). <title xml:lang="fr">Catalogue sommaire des manuscrits sanscrits avec supplément manuscrit</title>. Paris: E. Leroux. Supplemented by <persName xml:lang="fr">Jean Filliozat</persName>. <ref target="https://gallica.bnf.fr/ark:/12148/btv1b10536321f/f253.item">317</ref>.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         
+      <p>Spaces added where possible.</p></encodingDesc>
+      <revisionDesc>
+         
+      <change when="2021-24">First version.</change></revisionDesc>
+   </teiHeader>
+   <facsimile>
+   <graphic url="https://tst-project.github.io/img/Sanscrit_1442.1-3/index.json"/></facsimile>
+<text corresp="#BhK" xml:lang="sa"><body>
+  <p><seg function="incipit"><milestone n="1r" unit="folio" facs="4"/><lb n="1"/><gap reason="lost"/>mokṣapradāyakaṃ | tava snehān mahādevi vakṣyāmi kavacaṃ śubhaṃ |</seg> <unclear>svīṃ</unclear>bhuvaneśvarīkavacam | śa<unclear>ktri</unclear>ṣir gāyatrī channaḥ <gap reason="lost"/> <lb n="2"/><gap reason="lost"/><unclear>śrī</unclear>bhuvaneśvarī devatā catturvargasādhano viniyogaḥ | <unclear>ṛ</unclear>ṣiḥ śaktiḥ śivaḥ pātu gāyatryaṃ <unclear>ānalaṃ</unclear> |  <lb n="3"/><gap reason="lost"/>neśvarī | <unclear>ṣa</unclear>ḍaṅgadevatā pātu ṣaṭsv aṅgeṣu mamāniśaṃ |</p>
+  <p><milestone n="1v" unit="folio" facs="5"/><lb n="1"/><gap reason="lost"/>vacaṃ | devy uvāca | kathaya sumahādeva jagatī<unclear>ndra</unclear> hitaṃ śubhaṃ | yasya smaraṇamātreṇa palāyante mahāpadāḥ <gap reason="lost"/> <lb n="2"/><gap reason="lost"/>sarvarogapraśamanaṃ sarvāpadvinivārakaṃ | sarvaduḥkhāpaharaṇaṃ sarvaśokaprakāśanaṃ | sarvapuṇyapra<gap reason="lost"/> <seg function="explicit"><lb n="3"/><gap reason="lost"/>sarvamaṅgaladāyakaṃ | sarvatīrthaphalakaraṃ sarvayajñaphalapradaṃ | akālamṛtyuśamanaṃ dhanaputrapradāyakaṃ | <gap reason="lost"/></seg></p>
+</body>
+</text></TEI>
