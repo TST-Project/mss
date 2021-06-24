@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="en">
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="ta">Pañcatantirakkatai</title>
+            <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits.</orgName>
+                  </repository>
+                  <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc112191c</idno>
+                  <idno type="shelfmark">Indien 409</idno>
+                  <idno type="alternate"><idno>Tamoul 409</idno></idno>
+               </msIdentifier>
+               
+               <msContents class="#STM">
+                  <summary><title xml:lang="ta">Pañcatantirakkatai</title>.</summary>
+                  
+                  
+                  
+                  
+                  
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Pañcatantirakkatai: Mūlam</title><textLang mainLang="tam"/></msItem></msContents>
+               
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="paper">
+                        <support>
+                           <measure resp="#cLI" unit="stringhole"/>
+                        </support>
+                        <extent>
+                           <measure unit="folio" quantity="88">[1] + [1] + 83 + [3] (u1 + u2 + U1 + u3)</measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           </dimensions>
+                           <dimensions type="object" unit="mm"><width quantity="115"/><height quantity="65"/></dimensions><dimensions type="written" unit="mm"/></extent>
+                        <collation>
+                           
+                        <desc xml:id="u1">1 folio = <emph rend="bold">front guard leaf</emph>. No foliation. Blank recto verso. Shelfmark and scribbles on recto.</desc><desc xml:id="u2">1 folio = <emph rend="bold">front guard leaf</emph>. No foliation. Title on recto. Number on verso.
+</desc><desc xml:id="U1">83 folios = <emph rend="bold"><title xml:lang="ta">Pañcatantirakkatai</title>: <term xml:lang="ta">Mūlam</term></emph>. Tamil foliation 1-83. Library Arabic foliation 1-83. </desc><desc xml:id="u3">3 folios = <emph rend="bold">back guard leaves</emph>. No foliation. Blank recto verso. </desc></collation>
+                        <condition>Relatively good state of preservation, despite bore holes.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        
+                     <layout columns="1"/></layoutDesc>
+                  </objectDesc>
+                  <handDesc>                     
+                     
+                  <handNote synch="#U1" scope="major" script="tamil" medium="ink black"/></handDesc>
+                  <additions> 
+                     
+                     
+                     
+                     
+                     
+                     
+                  <desc type="shelfmark" subtype="beginning cover">BnF shelfmark sticker: <quote>INDIEN 409</quote> (<locus facs="2">front cover, verso</locus>).</desc><desc synch="#u1" type="shelfmark">BnF shelfmark in black pencil: <quote>Tamoul N° 409</quote> (<locus facs="3">f[1]r</locus>).</desc><desc synch="#u1" type="documenting-note">Scribble in black ink (<locus facs="3">f[1]r</locus>).</desc><desc synch="#u2" type="title">Title in transcription and French:
+<quote>
+  <lb n="1"/>Pantchatantira Kadai
+  <lb n="2"/>en Tamoul.
+  </quote> (<locus facs="5">f[1]r</locus>).</desc><desc synch="#u2" type="documenting-note"><quote>N°. 12</quote> (<locus facs="6">f[1]r</locus>).</desc><desc synch="#U1" type="stamp">Stamp <quote>BIBLIOTHEQUE ROYALE</quote> (<locus facs="7">f[1]r</locus> and <locus facs="172">f83v</locus>).</desc></additions>
+                  
+                  <bindingDesc>
+                     <binding>
+                        <p>Cloth on cover. Shelfmark on verso of front cover.</p>
+                     </binding>
+                  </bindingDesc>
+                  
+               <decoDesc><decoNote synch="#U1" type="decorative"><desc>Christian cross on top of <locus facs="7">f1r</locus>.</desc></decoNote></decoDesc></physDesc>
+               
+               <history>
+                  
+                  <origin>
+                     <origDate calendar="gregorian" notAfter="1700">Dated to 1700 by Cabaton (1912), on unstated grounds. Old indeed as attested by stamp type: <quote>BIBLIOTHEQUE ROYALE</quote> (<locus facs="7">f[1]r</locus> and <locus facs="172">f83v</locus>). Possibly sent in the 1730s by the Jesuits of Pondicherry.</origDate>
+                     <origPlace>Tamilnadu.</origPlace>
+                  </origin>
+                  
+                  <acquisition>
+                     
+                  </acquisition>
+                  
+               <provenance/></history>
+               
+               <additional>
+                  
+                  <listBibl>
+                     
+                     
+                     
+                     
+                     
+                     
+                     <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f77">p. 59</ref>.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+      <encodingDesc>
+         
+         <p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.      </p></encodingDesc>
+      
+      <revisionDesc>
+         
+         <change when="2021-06">Record created by Emmanuel FRANCIS. Description made from digital images. Dimensions after Cabaton (1912).</change></revisionDesc>
+   </teiHeader>
+   
+   <facsimile>
+      
+   <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10029535r/manifest.json"/></facsimile>
+   
+   
+<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+      
+  <pb facs="7" n="[1]r"/>
+    
+  <lb n="1"/><seg function="title">pañcatantirakkatai</seg>
+  <lb n="2"/><seg function="incipit">pāṭalipuram eṉṉum paṭṭaṇam</seg>
+  <lb n="3"/><gap reason="ellipsis"/>
+  
+  <pb facs="172" n="83v"/>
+   <lb n="21"/><gap reason="ellipsis"/> <seg function="explicit"><supplied reason="lost">vā</supplied>
+  <lb n="22"/>ḻntiruntarkaḷ</seg>
+   <lb n="23"/>pañcatantirakkatai
+   <lb n="24"/>muṟṟum
+  
+</body></text></TEI>
