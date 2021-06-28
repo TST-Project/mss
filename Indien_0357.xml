@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Composite (2 items)</title>
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Indien 357</idno>
+                  <idno type="alternate"><idno>Tamoul 357</idno></idno>
+               </msIdentifier>
+               <msContents class="#CM">
+                  <summary>A composite manuscript containing:
+<list rend="numbered">
+  <item>the date, ownership statement, title &amp; and user's instruction of a copy of the <title xml:lang="ta">Kumaracatakam</title></item>
+  <item>the <title xml:lang="ta">Maṇavāḷanārārayaṇacatakam</title> or <title xml:lang="ta">Tiruvēṅkaṭacatakam</title>, by <persName xml:lang="ta">Nārāyaṇapāratiyār</persName>.</item></list>
+</summary>
+                  
+               </msContents>
+               <physDesc>
+                  <objectDesc form="pothi">
+                     <supportDesc material="palm-leaf">
+                        <extent>
+                           <measure unit="folio" quantity="53">[1] + 52 (Indien 357a + Indien 357b)</measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           <width quantity="570"/><height min="25" max="30"/></dimensions>
+                        <dimensions type="object" unit="mm"><width quantity="570"/><height quantity="30"/><depth quantity="50"/></dimensions><dimensions type="written" unit="mm"/></extent>
+                        
+                        
+                     <collation>
+                     
+                     <desc xml:id="cover">the <emph rend="bold">front cover</emph>. Shelfmark on the recto.</desc><desc xml:id="357a"/><desc xml:id="357b"/><desc xml:id="cover">the <emph rend="bold">back cover</emph>. </desc></collation><condition>Good state of preservation despite boreholes.</condition><support><measure unit="stringhole" quantity="1"/></support></supportDesc>
+                     <layoutDesc>
+                        
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     
+                  <handNote synch="#357a" scope="minor" script="tamil" medium="incised"><desc>Hand #1.</desc></handNote><handNote synch="#357b" scope="major" script="tamil" medium="incised"><desc>Hand #2.</desc></handNote></handDesc>
+                  <additions><desc type="commenting-note" subtype="flyleaf">Annotation in French in black ink on a sheet of paper. Related to the content of Indien 357b.</desc><desc synch="#cover" type="shelfmark" subtype="beginning">BnF shelfmark sticker: <quote>INDIEN 357</quote>. </desc></additions>
+                  <bindingDesc>
+                     <binding>
+                        <p><material resp="#cLI" cert="medium">Mahogany</material> woodcovers apparently fabricated in the BnF.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian" notAfter="1888">Both components (Indien 357a and Indien 357b) are dated internally to the year <foreign xml:lang="ta">carvacittu</foreign> of the Jovian cycle, that is, CE 1887-1888, 1827-1828, 1767-1768, 1707-1708, etc.</origDate>
+                     <origPlace>Tamilnadu.</origPlace>
+                  </origin>
+                  <acquisition>
+                     
+                  <p>Unknown.</p></acquisition>
+               <provenance><p>Unknown.</p></provenance></history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f70">p. 52</ref>.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         
+      <change when="2021-06">Record created by Emmanuel FRANCIS.</change></revisionDesc>
+   <encodingDesc><p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.      </p></encodingDesc></teiHeader>
+   
+</TEI>
