@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Taṉmantiri Uṭaṟkūṟu</title>
+            
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Indien 116</idno>
+                  <idno type="alternate"><idno>Tamoul 116</idno></idno>
+               </msIdentifier>
+               <msContents class="#STM">
+                  <summary><title xml:lang="ta">Taṉmantiri Uṭaṟkūṟu</title>, a treatise on anatomy (<foreign xml:lang="ta">uṭaṟkūṟu</foreign>) attributed to <persName>Dhanvantari</persName> (Tamil  <persName xml:lang="ta">Taṉvantari</persName>  or <persName xml:lang="ta">Taṉmantari</persName>). In 201 verses (?).</summary>
+                  
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title page</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta">Taṉmantiri Uṭaṟkūṟu</title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T3" defective="false"><title xml:lang="ta"><term xml:lang="en">Further medical  explanations</term>
+</title><textLang mainLang="tam"/></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="pothi">
+                     <supportDesc material="palm-leaf">
+                        <support>
+                           <measure unit="stringhole" quantity="2"/>
+                           
+                        </support>
+                        <extent>
+                           <measure unit="folio" quantity="53">[1] + 50 + [1] + [1] (U1 + U2 + U3 + U4)</measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           <width min="370" max="400"/><height min="30" max="35"/></dimensions>
+                        <dimensions type="object" unit="mm"><width quantity="400"/><height quantity="30"/><depth quantity="250"/></dimensions><dimensions type="written" unit="mm"/></extent>
+                        <collation><desc xml:id="U1">1 folio = <emph rend="bold">Title page</emph>. No foliation. Single folio. 370 x 30 mm. Verso blank.  Shelfmark on recto. Hand  #1 (minor).</desc><desc xml:id="U2">50 folios = <emph rend="bold"><title xml:lang="ta">Taṉmantiri Uṭaṟkūṟu</title>: <foreign xml:lang="ta">Mūlam</foreign></emph>. Tamil foliation [1]-50. 395 x 30/35 mm. 4-6 lpp. Hand #2 (major).</desc><desc xml:id="U3">1 folio = <emph rend="bold">Further medical  explanations</emph>. No foliation. 400 x 30 mm. Hand #2 (major).</desc><desc xml:id="U4">1 folio = <emph rend="bold">back guard leaf</emph>. No foliation. Punchmark (f[1]r, middle). f[1]v is more dark = outside page of the original bundle.</desc></collation>
+                        
+                        <condition>Relatively good state of preservation despite boreholes, cracks and truncation.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout writtenLines="4 6"/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc><handNote synch="#U1" scope="minor" scribeRef="#ArielTitleScribe" script="tamil" scriptRef="#tamilPulliRegular #tamilOE" medium="incised"><desc>Hand #1.</desc></handNote><handNote synch="#U2 U3" scope="major" script="tamil" scriptRef="#tamilPulliNone" medium="incised"><desc>Hand #2.</desc></handNote></handDesc>
+                  <decoDesc>
+                  </decoDesc>
+                  <additions>
+                  <desc type="shelfmark" subtype="beginning cover">BnF shelfmark sticker: <quote>INDIEN 116</quote>.</desc><desc subtype="beginning cover">BnF sticker <quote>DON N° <space type="vacat"/></quote>.</desc><desc synch="#U1" type="shelfmark">Shelfmark in black ink: <quote>d/26</quote> (f[1]r).</desc><desc synch="#U2" type="verse-numbering"/></additions>
+                  <bindingDesc>
+                     <binding><p><material resp="#cLI" cert="medium">Mahogany</material> woodcovers apparently fabricated in the BnF.</p></binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian" notAfter="1855">Dated to 1810 by Vinson (1867) and Cabaton (1912), on unstated grounds.</origDate>
+                     <origPlace>Tamilnadu.</origPlace>
+                  </origin>
+                  <provenance><p>Probably owned by <persName ref="https://catalogue.bnf.fr/ark:/12148/cb143513141" key="Ariel, Edouard (1818-1854)">Edouard Ariel</persName> (1818-1854), as attested by BnF stamp <quote>DON N° <space type="vacat"/></quote>  on front cover and typical title-page folio (U1). Vinson (1867) and Cabaton (1912) do not satet provenance, probably by oversight. Bequested by Edouard Ariel to Société Asiatique (Rosny 1868, p. 177).</p></provenance>
+                  <acquisition><p>Received, August 1st, 1866, from the Société Asiatique. See BnF, département des Manuscrits, inventaire 7 = <title>Dons: manuscrits et imprimés documentaires, 1848-1895</title>, no. 1192.</p></acquisition>
+               </history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens. Bibliothèque nationale. Département des manuscrits.</title> Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f40">p. 22</ref>.</bibl><bibl>Rosny, Léon de (1868). “La bibliothèque tamoule de M. Ariel, de Pondichéry.” In: <title>Variétés orientales</title> (pp. 177‒224). Paris: Maisonneuve.</bibl><bibl>Vinson, Julien (1867). <title>Catalogue des manuscrits tamouls</title>. Corrected proofreadings printed by the atelier oriental de l’Imprimerie nationale. BnF “4-IMPROR-77 (B)” — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b105333021/f73">p. 32</ref>.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         
+      <p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.      </p></encodingDesc>
+      <revisionDesc>
+         
+      <change when="2021-06">Record created by Emmanuel FRANCIS.</change></revisionDesc>
+   </teiHeader>
+   <facsimile>
+   </facsimile>
+<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+  
+  <pb facs="00" n="[1]r"/>
+  
+  <milestone n="1" unit="column"/>
+  <lb n="1"/><seg function="blessing">veṟṟi-vē
+  <lb n="2" break="no"/>l uṟṟa tuṇai</seg>
+
+  <milestone n="2" unit="column"/>
+  <lb n="1"/>Iḵtu
+  
+  <milestone n="3" unit="column"/>
+  <lb n="1"/><seg function="title">taṉmantiri
+  <lb n="2"/>Uṭaṟkūṟu</seg>
+  
+  <pb facs="00" n="[1]v"/><term xml:lang="en">[blank]</term>
+</body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
+  
+  <pb facs="00" n="[1]r"/>
+  <milestone facs="00" unit="left-margin"/>
+    <lb n="1"/><seg function="blessing"><seg rend="grantha">ha</seg>ri Om</seg>
+  <lb n="2"/><seg function="blessing">naṉṟāka</seg>
+  <lb n="3"/><seg function="blessing">kuru vāḻka</seg>
+  <lb n="4"/><seg function="blessing">kuruvē tuṇai</seg>
+  
+      <milestone facs="00" unit="main-text-area"/>
+
+    <lb n="1"/><seg function="incipit">Āṉai-mukaṉ</seg> <gap reason="ellipsis"/>
+  
+  <pb facs="00" n="21r"/>
+  <milestone facs="00" unit="left-margin"/>
+  <lb n="1"/><seg function="intertitle">nāṭi
+  <lb n="2"/>Uṭal
+  <lb n="3" break="no"/>-k-kūṟu</seg>
+  
+  <pb facs="00" n="25r"/>
+  <milestone facs="00" unit="left-margin"/><term xml:lang="en">[unblackened]</term>
+  <lb n="1"/><seg function="intertitle">nāṭi
+  <lb n="2" break="no"/>cā<unclear>s</unclear>t=tira<unclear>m</unclear></seg>
+  
+   <pb facs="00" n="38v"/>
+  <milestone facs="00" unit="left-margin"/>
+  <lb n="1"/><seg function="intertitle">caṉṉi
+  <lb n="2" break="no"/>nitāṉam</seg>
+  
+  <pb facs="00" n="50v"/>
+  <milestone facs="00" unit="left-margin"/>
+  <lb n="3"/><seg function="explicit"><gap reason="ellipsis"/></seg> = 2 100 1 <g ref="#pcl"/> <seg function="blessing">kuruvē tuṇai</seg> <g ref="#pcl"/>
+  
+  </body></text><text corresp="#T3" xml:lang="ta"><body>
+  
+  <pb facs="00" n="[1]r"/>
+  
+  <milestone facs="00" unit="left-margin"/>
+  
+  <lb n="1"/><seg function="intertitle">kulai Erivu
+  <lb n="2"/>pittavāyu<unclear>k=ku</unclear></seg>
+  
+  <milestone facs="00" unit="main-text-area"/>
+    <lb n="1"/><seg function="incipit">viḻutiyilai pūcci</seg><gap reason="ellipsis"/>    
+    <lb n="5"/><gap reason="ellipsis"/> <seg function="explicit">ceytu cāt=tuṭaṉ cāppiṭavu<seg rend="grantha">=m</seg></seg> <g ref="#pcl"/>
+  
+  <pb facs="00" n="[1]v"/>
+    
+    <milestone facs="00" unit="left-margin"/>
+  
+  <lb n="1"/><seg function="intertitle">ca<unclear>lā</unclear>ppu
+  <lb n="2"/>māttirai</seg>
+  
+  <milestone facs="00" n="1" unit="column"/>
+  <lb n="1-5"/><gap reason="ellipsis"/>
+  
+  <milestone facs="00" n="2" unit="column"/>
+  <lb n="1-3"/><gap reason="ellipsis"/>
+    
+</body></text></TEI>
