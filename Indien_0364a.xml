@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To be identified</title>
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Indien 364a</idno>
+                  <idno type="alternate"/>
+               </msIdentifier>
+               <msContents class="#STM">
+                  <summary>Unidentified text: 5 lines in Grantha script.
+    </summary>
+                  
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="sa"><term xml:lang="en">To be identified</term></title><textLang mainLang="san"/></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="pothi">
+                     <supportDesc material="palm-leaf">
+                        <extent>
+                           <measure unit="folio" quantity="1">[1]  (U1)</measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           <width quantity="300"/><height quantity="30"/></dimensions>
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
+                        
+                        
+                     <collation>
+                     
+                     <desc xml:id="U1">1 folio = <emph rend="bold">to be identified</emph>. Double foli0. Shelfmarks on the recto.</desc></collation><condition>Broken in 2 pieces. </condition><support><measure unit="stringhole" quantity="1"/></support></supportDesc>
+                     <layoutDesc>
+                        
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     
+                  <handNote synch="#U1" scope="sole" script="grantha" medium="incised"/></handDesc>
+                  <additions><desc synch="#U1" type="shelfmark">Shelfmark written in black ink: <quote>3°</quote>. </desc><desc synch="#U1" type="shelfmark">Shelfmark written in black ink: <quote>5</quote>. </desc></additions>
+                  <bindingDesc>
+                     <binding>
+                        
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian" notAfter="1912">No internal date. Before 1912, as it is described in Cabaton (1912).</origDate>
+                     <origPlace>Tamilnadu.</origPlace>
+                  </origin>
+                  <acquisition>
+                     
+                  <p>Unknown.</p></acquisition>
+               <provenance><p>Unknown.</p></provenance></history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f70">p. 52</ref>.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         
+      <change when="2021-06">Record created by Emmanuel FRANCIS.</change></revisionDesc>
+   <encodingDesc><p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.</p></encodingDesc></teiHeader>
+   
+<text synch="#U1" corresp="#T1" xml:lang="sa"><body>
+  
+  <pb n="[1]r"/>
+    <lb n="1-4"/><gap reason="ellipsis"/>  
+  
+   <pb n="[1]v"/>
+    <lb n="1"/><gap reason="ellipsis"/>  
+   
+  </body></text></TEI>

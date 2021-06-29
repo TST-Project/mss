@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ciṅkāracatakam</title>
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Indien 364e</idno>
+                  <idno type="alternate"/>
+               </msIdentifier>
+               <msContents class="#STM">
+                  <summary><title xml:lang="ta">Ciṅkāracatakam</title>: marginal title only.        </summary>
+                  
+               <msItem synch="#U1" xml:id="T1" defective="true"><title xml:lang="ta">Ciṅkāracatakam: <term xml:lang="en">Title</term></title><textLang mainLang="tam"/></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="pothi">
+                     <supportDesc material="palm-leaf">
+                        <extent>
+                           <measure unit="folio" quantity="1">[1]  (U1)</measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           <width quantity="305"/><height quantity="25"/></dimensions>
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
+                        
+                        
+                     <collation>
+                     
+                     <desc xml:id="U1">1 folio = <emph rend="bold"><title xml:lang="ta">Ciṅkāracatakam</title>: Title</emph>. Unblackened. Verso blank.</desc></collation><support><measure unit="stringhole" quantity="2"/></support></supportDesc>
+                     <layoutDesc>
+                        
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     
+                  <handNote synch="#U1" scope="sole" script="tamil" medium="incised"/></handDesc>
+                  <additions/>
+                  <bindingDesc>
+                     <binding>
+                        
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian" notAfter="1912">No internal date. Before 1912, as it is described in Cabaton (1912).</origDate>
+                     <origPlace>Tamilnadu.</origPlace>
+                  </origin>
+                  <acquisition>
+                     
+                  <p>Unknown.</p></acquisition>
+               <provenance><p>Unknown.</p></provenance></history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f70">p. 52</ref>.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         
+      <change when="2021-06">Record created by Emmanuel FRANCIS.</change></revisionDesc>
+   <encodingDesc><p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.</p></encodingDesc></teiHeader>
+   
+<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+  
+  <pb n="[1]r"/>
+   <milestone unit="left-margin"/>
+  <lb n="1"/><seg function="title">ciṅkāracatakam</seg>
+  <lb n="2"/><gap reason="ellipsis"/>
+      
+   <pb n="[1]v"/><term xml:lang="en">[blank]</term>
+      
+  </body></text></TEI>
