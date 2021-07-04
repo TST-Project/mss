@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Garuḍapurāṇa, adhyāya 45</title>
+            
+         <editor><persName>Charles LI</persName><orgName>CNRS, CEIAS, UMR 8564</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Sanscrit 1419</idno>
+                  <idno type="alternate"><idno>Cordier non médecine 91</idno></idno>
+               </msIdentifier>
+               <msContents class="#STM">
+                  <summary><p>This manuscript of two folios contains the 45th <term xml:lang="sa">adhyāya</term> of the <title xml:lang="sa">Garuḍapurāṇa</title>. In the edition of Pandey, it begins with a verse stating that this <term xml:lang="sa">adhyāya</term> will deal with the characteristics of <term xml:lang="sa">śālagrāma</term> stone — <quote xml:lang="sa">prasaṅgāt kathayiṣyāmi śālāgramasya lakṣaṇam</quote> — however, in this manuscript, that line is omitted. Instead, the last few lines of the previous <term xml:lang="sa">adhyāya</term> are used as an introduction, which urges the listener to worship <term xml:lang="sa">Viṣṇu</term> in his twenty-four forms. Thus, this single chapter, which lists the different manifestations (<term xml:lang="sa">mūrti</term>) of <term xml:lang="sa">Viṣṇu</term>, is re-contextualized as a self-contained text — it ends by, again, urging the listener to worship these different manifestations, which will result in the attainment of <term xml:lang="sa">dharma</term>, <term xml:lang="sa">artha</term>, <term xml:lang="sa">kāma</term>, and <term xml:lang="sa">mokṣa</term>.</p>
+<p>Nevertheless, the completion statement at the end states <quote xml:lang="sa">iti gāruḍe vāsudevamūrttayaḥ</quote>, indicating that it is part of the <title xml:lang="sa">Garuḍapurāṇa</title>. This is the title that Filliozat gave to the manuscript — <quote>(Garuḍe) Vāsudevamurttaya</quote>.</p></summary>
+                  
+               <msItem xml:id="GP" defective="true"><title xml:lang="sa">Garuḍapurāṇa</title><textLang mainLang="san"/></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="pothi">
+                     <supportDesc material="paper handmade">
+                        <support>
+                           <measure unit="stringhole"/>
+                           
+                        </support>
+                        <extent>
+                           <measure unit="folio" quantity="2"/>
+                           <dimensions type="leaf" unit="mm">
+                              <width quantity="330"/>
+                              <height quantity="105"/>
+                           </dimensions>
+                        <dimensions type="object" unit="mm"><width quantity="340"/><height quantity="120"/><depth quantity="10"/></dimensions><dimensions type="written" unit="mm"><width quantity="245"/><height quantity="55"/></dimensions></extent>
+                        <collation/>
+                        
+                        <condition>Perfect condition.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout writtenLines="7"/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc><handNote scope="sole" script="bengali" scriptRef="#bengaliRa" medium="ink black"/></handDesc>
+                  <decoDesc>
+                  </decoDesc>
+                  <additions>
+                  <desc type="title shelfmark" subtype="detached"><locus facs="2">Note</locus> in Filliozat's hand, giving the old shelfmark, the new shelfmark, the extent, and the title <quote>(Garuḍe) Vāsudevamurttaya</quote>. Laid paper, no visible watermark. 110 x 170 mm unfolded.</desc></additions>
+                  <bindingDesc>
+                     <binding><p>Corrugated covers (library).</p></binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian" notBefore="1800" notAfter="1900"/>
+                     
+                  <origPlace>Bengal</origPlace></origin>
+                  <provenance><p>Part of the collection of <persName>Palmyr Cordier</persName>.</p></provenance>
+                  <acquisition><p>Acquired by <persName>Jean Filliozat</persName> for the BnF.</p></acquisition>
+               </history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl><persName xml:lang="fr">Cabaton, Antoine</persName> (1907-1908). <title xml:lang="fr">Catalogue sommaire des manuscrits sanscrits avec supplément manuscrit</title>. Paris: E. Leroux. Supplemented by <persName xml:lang="fr">Jean Filliozat</persName>. <ref target="https://gallica.bnf.fr/ark:/12148/btv1b10536321f/f250.item">314</ref>.</bibl><bibl>Dutt, Manmatha Nath, trans. (1908) <title><ref target="https://archive.org/details/garudapuranam00duttgoog">The Garuda Puranam</ref></title>. Calcutta: Society for the Resuscitation of Indian Literature. </bibl><bibl>Pandey, Ramtej, ed. (1986) <title>Garuḍapurāṇa of Kṛṣṇadvaipāyana Vyāsa</title>. Varanasi: Chowkhamba Vidyabhawan. <ref target="https://archive.org/details/garuda_purana/page/n87/mode/2up">60-61</ref>.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         
+      <p>Spaces added between words. ba and va differentiated where appropriate.</p></encodingDesc>
+      <revisionDesc>
+         
+      <change when="2021-07">First version.</change></revisionDesc>
+   </teiHeader>
+   <facsimile>
+   <graphic url="https://tst-project.github.io/img/Sanscrit_1419/index.json"/></facsimile>
+<text corresp="#GP" xml:lang="sa"><body>
+  <lg>
+    <l><seg function="incipit"><milestone n="1r" unit="folio" facs="6"/>dvārakādiśilā<del>sneho</del>saṃstho dhyeyaḥ pūjyo pi vā hariḥ |</seg></l>
+    <l>manaso bhīpsitaṃ prāpya devo vaimāniko bhavet |</l>
+    <l>niṣkāmo muktim āpno<lb n="2"/>ti mūrttīdhyāyaṃ stavan_  japan ||</l>
+  </lg>
+  <p>ity ādi ||</p>
+  <p>harir uvāca ||</p>
+  <lg>
+     <l>śaṅkhacakragadāpadmī keśavākhyo gadādharaḥ |</l>
+     <l>sābjakaumodakīcakraśaṅkhī <lb n="3"/>nārāyaṇo vibhuḥ ||</l>
+     <l>sacakraśaṅkhābjagajo mādha<subst>v<del>e</del><add rend="implied">a</add></subst>ḥ śrīgadādharaḥ |</l>
+    <l>gadābjaśaṅkhacakrī vā govindorcyo gadādharaḥ |</l>
+    <l>padmaśaṅkhā<lb n="4"/>sigadine viṣṇurūpāya vai namaḥ |</l>
+    <l><sic>sa</sic> śaṅkhābjacakragadine namaḥ saṅkarṣaṇāya ca |</l>
+    <l>suśaṅkhasugadābjā<unclear>vi</unclear>dhṛte pradyumnamūrttaye |</l>
+    <l><lb n="5"/>namo niruddhāya gadāśaṅkhābjārividhāriṇe |</l>
+    <l>sābjaśaṅkhagadācakrapuruṣottamamūrttaye |</l>
+    <l>namo gadāsiśaṅkhābjayuktatraivi<lb n="6"/>kramāya ca |</l>
+    <l>sāsikaumodakīpadmaśaṅkhavāmanamūrttaye |</l>
+    <l>cakrābjaśaṅkhagadine namaḥ śrīdharamūrttaye |</l>
+    <l>hṛṣīkeśaṃ sārigadāśaṅkhapa<lb n="7"/>dma namo namaḥ |</l>
+    <l>sābjaśaṅkhagadācakrapadmanābhasvarūpiṇe |</l>
+     <l>dāmodara<del>ḥ</del> śaṅkhagadācakrapadmin namo namaḥ |</l>
+    <l>sāviśaṅkhagadābjāya vā<pb n="1v" facs="7"/>sudevāya vai namaḥ |</l>  
+    <l>śaṅkhābjacakragadiṇe namaḥ saṅkarṣaṇāya ca |</l>
+    <l>suśaṅkhasugadābjāridhṛte pradyumnamūrttaye |</l>
+    <l>namo niruddhāya gadāśaṅkhā<lb n="2"/>bjārividāraṇe |</l>
+    <l>sābjaśaṅkhagadācakrapuruṣottamamūrttaye |</l>
+    <l>namo dhokṣajarūpāya gadāśaṅkhāsipadmine |</l>
+    <l>nṛsiṃhamūrttaye padmagadāśaṅkhā<lb n="3"/>dir <unclear>dhā</unclear>riṇe |</l>
+    <l>padmāriśaṅkhagadine namo stv acyutamūrttaye |</l>
+    <l>saśaṅkhacakrābjagadaṃ janārddanam ihāname |</l>
+    <l>upendraṃ sagadaṃ sāriṃ padmaśaṅkhi namo <lb n="4"/>name |</l>
+    <l>su<subst><del><gap reason="overwritten"/></del><add place="above">ca</add></subst>krābjagadāśaṅkhayuktā<del>ha</del>ya harimūrttaye |</l>
+    <l>sagadābjāriśaṅkhāya namaḥ śrīkṛṣṇamūrttaye |</l>
+    <l>śālagrā<sic>māśa</sic>lādvāragatalagnadvi<lb n="5"/>cakradhṛk |</l>
+    <l>śuklābho vāsudevākhyaḥ so vyād vaḥ śrīgadādharaḥ |</l>
+    <l>lagnodvicakro raktābhaḥ pūrvvabhāge tu puṣkalaḥ |</l>
+    <l>saṅkarṣaṇo tha <lb n="6"/>pradyumnaḥ sūkṣmacakras tu pītakaḥ |</l>
+    <l>sadīrghaḥ śuṣirachidro yo niruddhas tu varttulaḥ |</l>
+    <l>nīlo dvā<sic>va</sic>trirekhaś ca atha nārāyaṇo sitaḥ |</l>
+    <l><lb n="7"/>madhye gadākṛtī rekhā nābhicakramahonnataḥ |</l>
+    <l>pṛthucakro nṛsiṃho tha kapilo vyā tribindukaḥ |</l>
+    <l>athavā pañcabindus tat__pūjanaṃ bra<pb n="2r" facs="8"/>hmacāriṇaḥ |</l>
+    <l>varāhaḥ śaktiliṅgo vyād viṣamadvayacakrakaḥ |</l>
+    <l>nīlas trirekhaḥ sthūlo tha kūrmmamūrttiḥ sa bindumān |</l>
+    <l>kṛṣṇaḥ savarttulāvarttaḥ <lb n="2"/>pātu vonnatapṛṣṭhakaḥ |</l>
+    <l>śrīdharaḥ pañcarekho vyād vanamālī gadānvitaḥ |</l>
+    <l>vāmano varttulo hrasvo vāmacakraḥ sureśvaraḥ |</l>
+    <l>nānāvarṇo '<lb n="3"/>nekamūrttirnāgabhogī tv anantakaḥ |</l>
+    <l>sthūlo dāmodaro nīlo madhye cakraḥ sanīlakaḥ |</l>
+    <l>saṃkīrṇadvārako vo vyād atha brahmā sulohitaḥ |https://gallica.bnf.fr/ark:/12148/btv1b10536321f/f250.item</l>
+    <l><lb n="4"/>sadīrgharekhaḥ śuṣira ekacakrāmbujaḥ pṛthuḥ |</l>
+    <l>pṛthuchidrasthūlacakraḥ kṛṣṇo viṣṇuś ca binduvat |</l>
+    <l>hayagrīvo 'ṅkuśākāraḥ pañcarekhaḥ sa<lb n="5"/>kaustubhaḥ |</l>
+    <l>vaikuṇṭhā maṇi<unclear>vartmā</unclear>bha ekacakrāmbujo 'sitaḥ |</l>
+    <l>mat__syā dīrgho mbujākāro dvārarekhaś ca pāttu vaḥ |</l>
+    <l><sic>vā</sic>macakro dakṣarekhaḥ śyā<lb n="6"/>mo vo vyāt trivikramaḥ |</l>
+    <l>śālagrāme dvārakāyāṃ sthitāya gadine namaḥ |</l>
+    <l>ekena lakṣito yo vyād gadādhārī sudarśanaḥ |</l>
+    <l>lakṣmī<lb n="7"/>nārāyaṇadvābhyāṃ tribhir mantrais trivikramaḥ |</l>
+    <l>caturbhujaś caturvyūho vāsudevaś ca pañcabhiḥ |</l>
+    <l>pradyumnaḥ ṣaḍbhir eva vyāt__ saṅkarṣaṇa itas tataḥ |</l>
+    <l><pb n="2v" facs="9"/>puruṣottamo ṣṭabhiḥ syān navavyūho navonmitaḥ |</l>
+    <l>daśāvatāro daśabhir aniruddho vatād atha |</l>
+    <l>dvādaśātmā dvādaśabhir ata ūrddhvam anantakaḥ <lb n="2"/>|</l>
+    <l>viṣṇor mūrttimayaṃ stotraṃ yaḥ paṭhet__ sa divaṃ vrajet |</l>
+    <l>brahmā catturmukho daṇḍī kamaṇḍalusraganvitaḥ |</l>
+    <l>maheśvaraḥ pañcavaktro daśabāhur vṛṣa<lb n="3"/>dhvajaḥ |</l>
+    <l>yathāyudhas tathā gaurī caṇḍikā ca sarasvatī |</l>
+    <l>mahālakṣmīr mātaraś ca padmahasto divākaraḥ |</l>
+    <l>gajāsyaś ca gaṇaskandaḥ ṣaṇmukho 'ne<lb n="4"/>kadhā gaṇaḥ |</l>
+    <l>ete 'rccitāḥ sthāpitāś ca prāsāde vāstupūjitāḥ |</l>
+    <l><seg function="explicit">dharmmārthakāmamokṣābhyāḥ prāpyante puruṣeṇa ca || ॰ ||</seg></l>
+  </lg>
+  <p><seg function="completion-statement">iti gā<lb n="5"/>ruḍe vāsudevamūrttayaḥ || <space/> ||</seg></p>
+</body></text></TEI>
