@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="sa">Mahābhārata – Mokṣadharmaparvan</title>
+            
+         <editor><persName>Charles LI</persName><orgName>CNRS, CEIAS, UMR 8564</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Sanscrit 1442.7b</idno>
+                  <idno type="alternate"/>
+               </msIdentifier>
+               <msContents class="#STM">
+                  <summary><p>These two folios in Bengali script contain two excerpts from the <title xml:lang="sa">Śāntiparvan</title> (book 12) of the <title xml:lang="sa">Mahābhārata</title>. The <locus facs="6">first folio</locus> begins <q xml:lang="sa">mokṣadharme bhṛgubharadvājasaṃvāde</q>, indicating that it contains a conversation between <term xml:lang="sa">Bhṛgu</term> and <term xml:lang="sa">Bharadvāja</term> from the <title xml:lang="sa">Mokṣadharmaparvan</title>, the last part of the book. The <locus facs="8">second folio</locus> has a similar marginal heading, <q xml:lang="sa">mokṣe bhṛgubharadvājasaṃvāde</q>.</p>
+<p>The <locus facs="6">first folio</locus>, numbered <q xml:lang="sa">1</q>, contains an excerpt from chapters 181-182 (following the critical edition), outlining how the four classes are distinguished. The beginning of verse 182.6 has the variant reading <q xml:lang="sa">viśaty āśu paśubhyaś ca</q>, which is found in <term xml:lang="sa">Devanāgarī</term> manuscripts of the text of <persName xml:lang="sa">Arjunamiśra</persName> and <persName xml:lang="sa">Nīlakaṇṭha</persName>, but not in the "Bengali Version" as collated by Sukthankar &amp; Belvalkar in their edition.</p>
+<p>The <locus facs="8">second folio</locus>, unfoliated and only written on one side, is from the end of chapter 201 (following the critical edition),  in which the <term xml:lang="sa">ṛṣi</term>-s of the four cardinal directions are enumerated.  This manuscript omits verse 33 and the first half of verse 34. This is perhaps an eyeskip due to the similarity between the beginning of verse 33, <q xml:lang="sa">ete</q>, and the beginning of verse 34c, <q xml:lang="sa">eteṣāṃ</q>.</p></summary>
+                  
+               <msItem synch="#U1" xml:id="MBh12.181-182" defective="true"><title xml:lang="sa">Mahābhārata</title><textLang mainLang="san"/></msItem><msItem synch="#U2" xml:id="MBh12.201" defective="true"><title xml:lang="sa">Mahābhārata</title><textLang mainLang="san"/></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="pothi">
+                     <supportDesc material="paper">
+                        <support>
+                           <measure unit="stringhole"/>
+                           
+                        </support>
+                        <extent>
+                           <measure unit="folio" quantity="2"/>
+                           <dimensions type="leaf" unit="mm">
+                              <width quantity="355"/>
+                              <height quantity="120"/>
+                           </dimensions>
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"><width min="255" max="265"/><height min="60" max="65"/></dimensions></extent>
+                        <collation><desc xml:id="U1">First folio, containing an excerpt from chapter 182.</desc><desc xml:id="U2">Second folio, containing an excerpt from chapter 201.</desc></collation>
+                        
+                        
+                     <foliation>U1, foliated as <q xml:lang="sa">1</q> in the right margin, verso.</foliation><condition>Good condition.</condition></supportDesc>
+                     <layoutDesc>
+                        <layout writtenLines="8"/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc><handNote synch="#U1 U2" scope="sole" script="bengali" scriptRef="#bengaliRa" medium="ink black"><desc>Modern script.</desc></handNote></handDesc>
+                  <decoDesc>
+                  </decoDesc>
+                  <additions>
+                  <desc synch="#U2" corresp="#MBh12.201" type="blessing" subtype="beginning marginal top left"><locus facs="8">folio 2r</locus>, <q xml:lang="sa">śrīhariḥ |</q></desc><desc synch="#U2" corresp="#MBh12.201" type="heading" subtype="beginning marginal top"><locus facs="8">folio 2r</locus>, <q xml:lang="sa">mokṣe bhṛgubharadvājasaṃvāde</q></desc></additions>
+                  <bindingDesc>
+                     <binding/>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian" notBefore="1800" notAfter="1900">19th century.</origDate>
+                     
+                  </origin>
+                  <provenance><p>Part of the collection of <persName>Palmyr Cordier</persName>.</p></provenance>
+                  <acquisition><p>Acquired by <persName>Jean Filliozat</persName> for the BnF.</p></acquisition>
+               </history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl>Sukthankar, Vishnu S. &amp; Belvalkar, S. K., eds. (1954) <title><ref target="https://archive.org/details/in.ernet.dli.2015.486148">The Mahābhārata</ref></title>, volume 15. Poona: Bhandarkar Oriental Research Institute.</bibl><bibl>Wynne, Alex, trans. (2009) <title>Mahābhārata Book Twelve (Volume 3) Peace Part Two: The Book of Liberation</title> New York: New York University Press.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+        <p>Spaces added between words where possible.</p>
+      </encodingDesc>
+      <revisionDesc>
+        <change when="2021-07">First version.</change>  
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+   </facsimile>
+<text synch="#U1" corresp="#MBh12.181-182" xml:lang="sa"><body>
+  <p><seg function="incipit"><milestone n="1r" facs="6" unit="folio"/>mokṣadharme bhṛgubharadvājasaṃvāde || bhṛgur uvāca ||</seg></p>
+  <lg>
+    <l>na viśeṣo sti varṇānāṃ sarvvaṃ brāhmam idaṃ jagat |</l>
+    <l>brahmaṇā purvvasṛṣṭaṃ hi karmmabhir varṇatāṃ gataṃ |</l>
+    <l>kāma<del>krodha</del>bhogapriyās tī<lb n="2"/>kṣṇāḥ krodhanāḥ priyasāhasāḥ |</l>
+    <l>tyaktasvadharmmā raktāṅgās te dvijāḥ kṣatratāṃ gatāḥ ||</l>
+  </lg>
+  <lg>
+    <l>gobhyo vṛttiṃ samāsthāya pītāḥ kṛṣyupajīvinaḥ |</l>
+    <l>svadharmmān nānutiṣṭhanti <lb n="3"/>te dvijā vaiśyatāṃ gatāḥ</l>
+    <l>hiṃsānṛtapriyā lu<subst><del><gap reason="illegible"/></del><add place="top margin">bdhā 3</add></subst>ḥ sarvvakarmmopajīvinaḥ |</l>
+    <l>kṛṣṇāḥ śaucaparibhraṣṭās te dvijāḥ śūdratāṃ gatāḥ |</l>
+    <l>ity etaiḥ karmmābhir vyastā <lb n="4"/>dvijā varṇāntaraṃ gatāḥ |</l>
+    <l>vihitā brahmaṇā pūrvvaṃ lobhā<lb n="5"/>t tv ajñānatāṃ gatāḥ |</l>
+    <l>brahmaṇā brahmatantrasthās tapas teṣāṃ na naśyati |</l>
+    <l>brahma dhārayatāṃ nityaṃ vratāni niyamas tathā ||</l>
+  </lg>
+  <p><subst><del>bhrgur uvāca</del><add place="above">bharadvāja uvāca</add></subst> ||</p>
+  <lg>
+    <l>brāhmaṇaḥ kena bhavati <lb n="6"/>kṣatriyo vā dvijottama |</l>
+    <l>vaiśyaḥ śūdraś ca viprarṣe tad bhruhi vadatāṃ vara ||</l>
+  </lg>
+  <p>bhṛgur uvāca ||</p>
+  <lg>
+    <l>jātakarmmādibhir yas tu saṃskāraiḥ saṃskṛtaḥ śuciḥ |</l>
+    <l>vedādhyayana<lb n="7"/>sampannaḥ ṣaṭ_su karmmasv avasthitaḥ |</l>
+    <l>śaucācārasthitaḥ samyag vighasāśī gurupriyaḥ |</l>
+    <l>nityavratī satyaparaḥ sa vai brāhmaṇa ucyate |</l>
+    <l>satyaṃ dānam a<lb n="8"/>thādroha ānṛśaṃsyaṃ trapā ghṛṇā |</l>
+    <l>tapaś ca dṛśyate yatra sabrāhmaṇa iti smṛtaḥ |</l>
+    <l>kṣetrajaṃ sevate karmma vedādhyayanasaṅgataḥ |</l>
+    <l>dānādānaratir yas tu <lb n="9"/>sa vai kṣatriya ucyate |</l>
+    <l>viśaty āśu paśubhyaś ca kṛṣyādānaratiḥ śuciḥ |</l>
+    <l>vedādhyayanasampannaḥ sa vaiśya iti saṃjñitaḥ |</l>
+    <l>sarvvabhakṣaratir nityaṃ sarvva<pb facs="7" n="1v"/>karmmakaro 'śuciḥ |</l>
+    <l>śūdre caitad bhavel lakṣyaṃ dvije tac ca na vidyate |</l>
+    <l><seg function="explicit">na vai śūdro bhavechūdro <lb n="2"/>brāhmaṇo brāhmaṇo na ca ||</seg></l>
+  </lg>
+</body></text><text synch="#U2" corresp="#MBh12.201" xml:lang="sa"><body>
+  <lg>
+    <l><seg function="incipit"><milestone n="2r" facs="8" unit="folio"/>yavakṛto atha rai<del>va</del>bhyaś ca arvāvasuparāvasū ||</seg></l>
+  </lg>
+  <lg>
+    <l>auśijaś caiva kakṣīvān_ valaś cāṅgirasaḥ smṛtaḥ |</l>
+    <l>ṛṣir medhātitheḥ putraḥ kaṇvo barhi<lb n="2"/>ṣadas tathā |</l>
+    <l>trailokyabhāvanās tāta prācyāṃ saptarṣayas tathā |</l>
+    <l>unmuco vinmucaś caiva svastyātreyaś ca vīryyavān |</l>
+    <l>pramucaś cedhmāvāhaś ca bha<lb n="3"/>gavāṃś ca dṛḍhavrataḥ |</l>
+    <l>mitrāvaruṇayoḥ putras tathāgastyaḥ pratāpavān |</l>
+    <l>ete brahmarṣayo nityam āsthitā dakṣiṇāṃ diśaḥ |</l>
+    <l>uṣadguś ca kavaṣo <lb n="4"/>dhaumyaḥ parivyādhaś ca vīryyavān |</l>
+    <l>ekataś ca dvitaś caiva tritaś caiva maharṣayaḥ |</l>
+    <l>atreḥ putraś ca bhagavāṃs tathā sārasvataḥ prabhuḥ |</l>
+    <l>ete caiva <lb n="5"/>mahātmānaḥ paścimām āśritā diśaṃ ||</l>
+  </lg>
+  <lg>
+    <l>ātreyaś ca vasiṣṭhaś ca kāśyapaś ca mahān ṛṣiḥ |</l>
+    <l>gautamo tha bharadvājo viśvāmitro tha kauśikaḥ |</l>
+    <l><lb n="6"/>tathaiva putro bhagavān ṛcīkasya mahātmanaḥ |</l>
+    <l>jamadagniś ca saptaite udīcīm āśritā diśaṃ |</l>
+    <l>eteṣāṃ kīrttnaṃ kṛtvā sarvvapāpāt__ pramucya<lb n="7"/>te |</l>
+    <l>yasyāṃ yasyāṃ diśi hy ete tāṃ diśaṃ śaraṇaṃ gataḥ |</l>
+    <l><seg function="explicit">mucyate sarvvapāpebhyaḥ svastimāṃś ca gṛhān_ vrajet || <space/> ||</seg></l>
+  </lg>
+    </body></text>
+  <facsimile>
+    <graphic url="https://tst-project.github.io/img/Sanscrit_1442.7/index.json"/>
+  </facsimile>
+</TEI>
