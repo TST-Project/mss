@@ -1,14 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title xml:lang="ta">Kantapurāṇam</title>
-         </titleStmt>
-         <editionStmt>
-            <p>Record edited by <persName>Emmanuel FRANCIS</persName> <orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName>.</p>
-         </editionStmt>
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         
          <publicationStmt>
             <publisher>TST Project</publisher>
             <date>2021</date>
@@ -24,81 +22,46 @@
                   <idno type="alternate"><idno>Tamoul 328</idno></idno>
                </msIdentifier>
                <msContents class="#STM">
-                  <summary>
-                    <p>The <title xml:lang="ta">Kantapurāṇam</title> is one of the major Tamil texts about the god <term xml:lang="sa">Skanda</term>/<term xml:lang="ta">Murukaṉ</term>. It is the work of <persName xml:lang="ta">Kacciyappa Civācāriyār</persName> (14th century?).</p>
-                     <p>The text is incomplete. The manuscript contains: <term xml:lang="ta">Pāyiram</term>, <term xml:lang="ta">Uṟpattikkāṇṭam</term>, <term xml:lang="ta">Acurakāṇṭam</term> (up to <term xml:lang="ta">Tikkuvicayap Paṭalam</term>, verse 66, itself incomplete) in U3; <term xml:lang="ta">Makēntirakāṇṭam</term>, <term xml:lang="ta">Viravāku Kantamātaṉañ Cel Paṭalam</term> (up to verse 8, itself incomplete) in U4. Note that the <term xml:lang="ta">Tikkuvicayap Paṭalam</term> is not named as such in the manuscript, but is divided into 3 chapters: <term xml:lang="ta">Kupēraceyap Paṭalam</term> (U3, <locus facs="331">f161r</locus>, lm), <term xml:lang="ta">Akkiṉiceyap Paṭalam</term> (U3, <locus facs="335">f163r</locus>, lm), <term xml:lang="ta">Yamaṉ Ceyap Paṭalam</term> (U3, <locus facs="337">f164r</locus>, lm).</p>
+                  <summary><p>The <title xml:lang="ta">Kantapurāṇam</title> is one of the major Tamil texts about the god <term xml:lang="sa">Skanda</term>/<term xml:lang="ta">Murukaṉ</term>. It is the work of <persName xml:lang="ta">Kacciyappa Civācāriyār</persName> (14th century?).</p>
+<p>The text is incomplete. The manuscript contains: <term xml:lang="ta">Pāyiram</term>, <term xml:lang="ta">Uṟpattikkāṇṭam</term>, <term xml:lang="ta">Acurakāṇṭam</term> (up to <term xml:lang="ta">Tikkuvicayap Paṭalam</term>, verse 66, itself incomplete) in U3; <term xml:lang="ta">Makēntirakāṇṭam</term>, <term xml:lang="ta">Viravāku Kantamātaṉañ Cel Paṭalam</term> (up to verse 8, itself incomplete) in U4. Note that the <term xml:lang="ta">Tikkuvicayap Paṭalam</term> is not named as such in the manuscript, but is divided into 3 chapters: <term xml:lang="ta">Kupēraceyap Paṭalam</term> (U3, <locus facs="331">f161r</locus>, lm), <term xml:lang="ta">Akkiṉiceyap Paṭalam</term> (U3, <locus facs="335">f163r</locus>, lm), <term xml:lang="ta">Yamaṉ Ceyap Paṭalam</term> (U3, <locus facs="337">f164r</locus>, lm).</p>
                     </summary>
-                  <msItem defective="true">
-                     <title xml:lang="ta">Kantapurāṇam</title>
-                     <author xml:lang="ta">Kacciyappa Civācāriyār</author>
-                     <textLang mainLang="tam"/>
-                     <filiation>Other manuscript testimonies of this text are: Bnf Indien <ref target="Indien_0324.xml">324</ref>–<ref target="Indien_0327.xml">327</ref> and <ref target="Indien_0329.xml">329</ref>. See also BnF Indien <ref target="Indien_0336.xml">336</ref>–<ref target="Indien_0338.xml">338</ref>.</filiation>
-                     <incipit xml:lang="ta"><note xml:lang="en"><emph rend="bold">U3</emph>, <locus facs="11">folio 1, recto</locus> = <emph rend="bold">incipit</emph>: marginal chapter header; Pāyiram, stanza n° 1 (<term xml:lang="ta">Vināyakar Kāppu</term>), here included in the <term xml:lang="ta">Uṟpatti-kāṇṭam</term>.</note>
-                       <milestone n="1r1" unit="folio" facs="11"/> tikaṭa cakkarac cemmuka maintuḷāṉ ‡ cakaṭa cakkarat tāmarai nāyaka ‡ ṉakaṭa cakkara viṉmaṇi yāvuṟai ‡ vikaṭa cakkaraṉ meyppatam pōṟṟuvām – 1 – (...)
-                    </incipit>
-                    <incipit xml:lang="ta"><note xml:lang="en"><emph rend="bold">U3</emph>, <locus facs="13">folio 2, recto</locus> = <emph rend="bold">incipit</emph>: marginal chapter header; <term xml:lang="ta">Kaṭavuḷ Vāḻttu</term>, stanza n° 1.</note>
-               <milestone n="2r1" unit="folio" facs="13"/>tiruvanta tollaip puvaṉattoṭu tēvar pōṟṟip (...)
-                     </incipit>
-                     <explicit xml:lang="ta"><note xml:lang="en"><emph rend="bold">U3</emph>, <locus facs="338">folio 164, verso</locus> = <emph rend="bold">excipit</emph>: <term xml:lang="ta">Makēntirakāṇṭam</term>, <term xml:lang="ta">Yamaṉ Ceyap Paṭalam</term>, that is, <term xml:lang="ta">Tikkuvicayap Paṭalam</term>, stanza n° 8; completion statement; total verses; beginning of stanza n° 9.</note>
-               <milestone n="164v9" unit="folio" facs="338"/>(…) mēṟṟicai nirutimēl viraivi-<lb n="10"/>ṉ ēkiṉāṉ – 8 – yamaṉ ceyappaṭalamuṟṟum – Āka ceyyuḷ – 855 – nirutiyum iḵtelām nēṭi yāmivaṟp ‡ poruvatum ariyatāṟ pōri yaṟṟiṉum ‡ varutiṟa- <note xml:lang="en">[the manuscript stop abruptly here at the very end of the page]</note>
-                    </explicit>
-                    <incipit xml:lang="ta"><note xml:lang="en"><emph rend="bold">U4</emph>, <locus facs="339">folio 1, recto, unfoliated</locus> = <emph rend="bold">incipit</emph>: marginal chapter header; <term xml:lang="ta">Makēntirakāṇṭam</term>, <term xml:lang="ta">Vīravāku Kantamātaṉañ Cel Paṭalam</term>, stanza n° 1.</note>
-               <milestone n="[1]r1" unit="folio" facs="339"/>Intira ṉāti yāṉa vamararum eṉai yōrum ‡ (...) 
-                    </incipit>
-                    <explicit xml:lang="ta"><note xml:lang="en"><emph rend="bold">U4</emph>, <locus facs="340">folio 1, verso, unfoliated</locus> = <emph rend="bold">excipit</emph>: <term xml:lang="ta">Makēntirakāṇṭam</term>, <term xml:lang="ta">Vīravāku Kantamātaṉañ Cel Paṭalam</term>, stanza n° 7 and beginning of stanza n° 8.</note>
-              <milestone n="[1]v1" unit="folio" facs="340"/>koḷ curaṉ ṟaṉpāl vīramā mayēnti rattuc ‡ ceṉṟiṭa viṭuttum yāraic cepputi eṉṉa lōṭu ‡ naṉṟeṉa vataṉai nāṭi nāṉmuka ṉavila luṟṟāṉ [i.e. naviṟa luṟṟāṉ] – 7 – melleṉa vulavai-<lb n="2"/>k kōṉu <note xml:lang="en">[the manuscript stop abruptly here at the beginning of line 2]</note>
-                    </explicit>
-                  </msItem>
-               </msContents>
+                  
+               <msItem synch="#U2" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Invocation</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T2" defective="true"><title xml:lang="ta">Kantapurāṇam: Mūlam (<term xml:lang="en">up to</term> Makēntirakāṇṭam, Tikkuvicayap Paṭalam)</title><author xml:lang="ta">Kacciyappa Civācāriyār</author><textLang mainLang="tam"/></msItem><msItem synch="#U4" xml:id="T3" defective="false"><title xml:lang="ta">Kantapurāṇam: Mūlam (<term xml:lang="en">beginning of Makēntirakāṇṭam, Vīravāku Kantamātaṉañ Cel Paṭalam</term>)</title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
                         <extent>
-                           <measure unit="folio" quantity="175">3 + 1 + 164 + 1 + 6</measure>
+                           <measure unit="folio" quantity="175">[3] + [1] + 164 + [1] + [6] (U1 + U2 + U3 + U4 +U5)</measure>
                            <dimensions type="leaf" unit="mm">
                               <width quantity="385"/>
                               <height quantity="40"/>
                            </dimensions>
                            <note>Some folios are smaller, e.g. U3, f105 (365 x 35 mm). </note>
-                        </extent>
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
                         <collation>
-                        <desc xml:id="U1">3 folios, unfoliated = flyleafs.</desc>
-                        <desc xml:id="U2">1 folio, unfoliated = title, chapter header, benediction, invocatory stanza.</desc>
-                        <desc xml:id="U3">164 folios, Tamil foliation 1‒164 = text (<emph rend="italic" xml:lang="ta">mūlam</emph>), up to <term xml:lang="ta">Makēntirakāṇṭam, Tikkuvicayap Paṭalam</term>.</desc>
-                        <desc xml:id="U4">1 folio, unfoliated = text (<emph rend="italic" xml:lang="ta">mūlam</emph>), beginning of <term xml:lang="ta">Makēntirakāṇṭam, Vīravāku Kantamātaṉañ Cel Paṭalam</term>.</desc>
-                        <desc xml:id="U5">6 folios, unfoliated = flyleafs.</desc>
-                        </collation>
+                        
+                        
+                        
+                        
+                        
+                        <desc xml:id="cover">the <emph rend="bold">front cover</emph>. </desc><desc xml:id="U1">3 folios = front <emph rend="bold">guard leaves</emph>. No foliation.
+</desc><desc xml:id="U2">1 folio = <emph rend="bold">invocation</emph>. No foliation.
+
+</desc><desc xml:id="U3">164 folios = <emph rend="bold"><term xml:lang="ta">Kantapurāṇam: Mūlam</term></emph> (up to <term xml:lang="ta">Makēntirakāṇṭam, Tikkuvicayap Paṭalam</term>). Tamil foliation 1‒164.</desc><desc xml:id="U4">1 folio = <emph rend="bold"><term xml:lang="ta">Kantapurāṇam: Mūlam</term></emph> (beginning of <term xml:lang="ta">Makēntirakāṇṭam, Vīravāku Kantamātaṉañ Cel Paṭalam</term>). No foliation.</desc><desc xml:id="U5">6 folios = back <emph rend="bold">guard leaves</emph>. No foliation.</desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>. </desc></collation>
                         <condition>Palm-leaf. Excellent state of preservation. Very few bore holes caused by insects. </condition>
-                     </supportDesc>
+                     <support><measure unit="stringhole" quantity="2"/></support></supportDesc>
                      <layoutDesc>
                         <layout columns="1" writtenLines="10"/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote scope="sole" script="tamil">
-                        <desc>Up to 10 lines per page. </desc>
-                     </handNote>
-                  </handDesc>
+                     
+                  <handNote synch="#U2 U3 U4" scope="sole" script="tamil" medium="incised"/></handDesc>
                   <additions>
-                    <desc type="title chapter-heading blessing" subtype="marginal beginning"><emph rend="bold">U2</emph>, <locus facs="9">folio 1, recto, unfoliated</locus> = <emph rend="bold">invocation</emph>: marginal title, chapter header, and benediction; invocatory stanza. <quote rend="block" xml:lang="ta"><lg>
-                       <l><locus xml:lang="en" facs="9">(f[1]r, lm, 1)</locus> kāntappurāṇam [<term xml:lang="en">i.e.</term> kantappurāṇam]</l>
-                       <l><locus xml:lang="en" facs="9">(f[1]r, lm, 2)</locus> mutal kaṭavuḷ vaṇakkam</l>
-                       <l><locus xml:lang="en" facs="9">(f[1]r, lm, 3)</locus> kaṭavuḷ vāḻttup paṭalam</l>
-                       <l><milestone n="[1]r1" unit="folio" facs="9"/>tikaṭa cakkarac cemmuka maintuḷāṉ ‡</l>
-                       <l><lb n="2"/>cakaṭa cakkarat tāmarai nāyaka {line-filler} ‡</l>
-                       <l><lb n="3"/>ṉakaṭa cakkara viṉmaṇi yāvuṟai {line-filler} ‡</l>
-                       <l><lb n="4"/>vikaṭa cakkaraṉ meyppatam pōṟṟuvām <g ref="#pcl"/></l>
-                    </lg></quote></desc>
-                    <desc type="chapter-heading" subtype="marginal"><emph rend="bold">U3</emph>, <locus facs="11">folio 1, recto</locus> = <emph rend="bold">incipit</emph>: marginal chapter header; <term xml:lang="ta">Pāyiram</term>, stanza n° 1 (<term xml:lang="ta">Vināyakar Kāppu</term>), here included in the <term xml:lang="ta">Uṟpatti-kāṇṭam</term>.
-                      <quote rend="block" xml:lang="ta"><locus xml:lang="en" facs="11">(f1r, lm)</locus> Uṟpattiy(ar)kāṇṭam</quote>
-                    </desc>
-                    <desc type="chapter-heading" subtype="marginal"><emph rend="bold">U3</emph>, <locus facs="13">folio 2, recto</locus> = <emph rend="bold">incipit</emph>: marginal chapter header; <term xml:lang="ta">Kaṭavuḷ Vāḻttu</term>, stanza n° 1.
-               <quote rend="block"><locus xml:lang="en" facs="13">(f2r, lm)</locus> kaṭavuḷ vāḻttup paṭalam <g ref="#pcs"/></quote>
-                    </desc>
-                    <desc type="chapter-heading" subtype="marginal"><emph rend="bold">U4</emph>, <locus facs="338">folio 1, recto, unfoliated</locus> = <emph rend="bold">incipit</emph>: marginal chapter header; <term xml:lang="ta">Makēntirakāṇṭam</term>, <term xml:lang="ta">Vīravāku Kantamātaṉañ Cel Paṭalam</term>, stanza n° 1. <quote xml:lang="ta" rend="block"><lg>
-               <l><locus xml:lang="en" facs="338">(f[1]r, lm, 1–2)</locus> makentira-kāṇṭam</l>
-               <l><locus xml:lang="en" facs="338">(f[1]r, lm, 3–5)</locus> viravāku kantamātaṉañ cer paṭalam</l>
-                    </lg></quote></desc>
+                    
+                    
+                    
+                    
                   </additions>
                   <bindingDesc>
                      <binding>
@@ -108,32 +71,84 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian" notBefore="1700" notAfter="1854">No internal date. Before 1855, as it is part of Ariel’s bequest made in that year to the Société Asiatique, Paris (Rosny 1869).</origDate>
-                     <origPlace>South India, Tamilnadu. </origPlace>
+                     <origDate calendar="gregorian" notBefore="1700" notAfter="1855">No internal date. Before 1855, as it is part of Ariel’s bequest made in that year to the Société Asiatique, Paris (Rosny 1869).</origDate>
+                     <origPlace>South India, Tamilnadu.</origPlace>
                   </origin>
                   <acquisition>
-                     <p>Don <persName ref="https://catalogue.bnf.fr/ark:/12148/cb143513141" key="Ariel, Edouard (1818-1854)">Edouard Ariel</persName>.</p>
+                     <p>Received, August 1st, 1866, from the Société Asiatique. See BnF, département des Manuscrits, inventaire 7 = <title>Dons: manuscrits et imprimés documentaires, 1848-1895</title>, no. 1192.</p>
                   </acquisition>
-               </history>
+               <provenance><p>Owned by <persName ref="https://catalogue.bnf.fr/ark:/12148/cb143513141" key="Ariel, Edouard (1818-1854)">Edouard Ariel</persName> (1818-1854). Bequested by Edouard Ariel to Société Asiatique (Rosny 1868, p. 177).</p></provenance></history>
                <additional>
                   <listBibl>
-                     <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f66">p. 48</ref>.</bibl>
-                     <bibl>Rosny, Léon de (1869). La bibliothèque tamoule de M. Ariel, de Pondichéry. In: <title>Variétés orientales</title> (pp. 177‒224). Paris: Maisonneuve.</bibl>
-                  </listBibl>
+                     
+                     
+                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f66">p. 48</ref>.</bibl><bibl>Rosny, Léon de (1868). La bibliothèque tamoule de M. Ariel, de Pondichéry. In: <title>Variétés orientales</title> (pp. 177‒224). Paris: Maisonneuve.</bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p>Abbreviations. c = column, f = folio, lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso. GOML = Government Oriental Manuscripts Library, Madras/Chennai. MTL = Madras Tamil Lexicon. TMSSML = Tanjore Maharaja Serfoji Sarasvati Mahal Library.</p>
-         <p> <emph rend="bold">Transliteration conventions.</emph> Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Conjectural (whether the text is not clearly legible or the character is ambigous, e.g. <emph rend="italic">kāl</emph> or length of <emph rend="italic">o</emph> and <emph rend="italic">e</emph>) readings between parentheses. Alternative readings between parentheses separated by slash. Lost or entirely illegible character: "?". Crossed-out character: "X". Conjectural restoration of lost or entirely illegible between square brackets. Uppercase for initial vowels (in excerpts only). Unquoted text represented by (...). Conjunct letter: e.g. <emph rend="italic">t°</emph>, to be read <emph rend="italic">tum</emph> or <emph rend="italic">tam</emph>. Grantha letters in bold. Symbols/Abbreviations made explicit, between curly brackets: <g ref="#pcs"/> = <emph rend="italic">piḷḷaiyār cuḻi</emph>, short form; <g ref="#pcl"/> = <emph rend="italic">piḷḷaiyār cuḻi</emph>, long form, that is, with long horizontal stroke towards right; {varuṣam}, {mācam}, {tēti}; {line-filler}. Unfoliated folio number between square brackets, e.g. "f[1]r". Numerals normalised to decimal notation, e.g. "1121" not "1000 1 100 2 10 1". Hyphen occasionaly used to mark in-word components. Hyphen systematically used at the end of a line when the line-beginning is within a word or within a <emph rend="italic">cīr</emph>. <emph rend="italic">Sandhi</emph> split to the minimum: overshort <emph rend="italic">u</emph> occasionally restored as an apostrophe. Stanzas split by <emph rend="italic">cīr</emph>, as far as possible. <emph rend="italic">aṭi </emph>boundary marked by "‡".</p>
-      </encodingDesc>
+         
+         
+      <p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.    </p></encodingDesc>
       <revisionDesc>
-         <change when="2020-04">This catalogue entry has been redacted by Emmanuel FRANCIS (CNRS, CEIAS UMR 8564, EHESS &amp; CNRS) for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG). Version 1, April 2020. </change>
-         <change when="2021-04">Converted to TEI by Charles LI.</change>
-      </revisionDesc>
+         
+         
+      <change when="2020-04">This catalogue entry has been redacted by Emmanuel FRANCIS (CNRS, CEIAS UMR 8564, EHESS &amp; CNRS) for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG). Version 1, April 2020. </change><change when="2021-04">Converted to TEI by Charles LI.</change><change when="2021-08">Updated to TST encoding conventions by Emmanuel FRANCIS.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525132996/manifest.json"/>
    </facsimile>
-</TEI>
+<text synch="#U2" corresp="#T1" xml:lang="ta"><body>
+  
+  <pb facs="9" n="[1]r"/>
+  <milestone unit="left-margin"/>
+  <lb n="1"/><choice><sic>kā</sic><corr>ka</corr></choice>ntappurāṇam
+  <lb n="2"/>mutal kaṭavuḷ vaṇakkam
+  <lb n="3"/>kaṭavuḷ vāḻttup paṭalam
+  
+  <milestone unit="main-text-area"/>
+  <lg>
+    <l><lb n="1"/>tikaṭa cakkarac cemmuka maintuḷāṉ ‡</l>
+    <l><lb n="2"/>cakaṭa cakkarat tāmarai nāyaka <term xml:lang="en">{line-filler}</term> ‡</l>
+    <l><lb n="3"/>ṉakaṭa cakkara viṉmaṇi yāvuṟai <term xml:lang="en">{line-filler}</term> ‡</l>
+    <l><lb n="4"/>vikaṭa cakkaraṉ meyppatam pōṟṟuvām <g ref="#pcl"/></l>
+  </lg>
+</body></text><text synch="#U3" corresp="#T2" xml:lang="ta"><body>
+  
+  <pb facs="11" n="[1]r"/>
+  
+  <milestone unit="left-margin"/>
+  <lb n="1"/>Uṟpatti<unclear>yar</unclear>kāṇṭam
+  
+  <milestone unit="main-text-area"/>
+  <lb n="1"/>tikaṭa cakkarac cemmuka maintuḷāṉ ‡ cakaṭa cakkarat tāmarai nāyaka ‡ ṉakaṭa cakkara viṉmaṇi yāvuṟai ‡ vikaṭa cakkaraṉ meyppatam pōṟṟuvām – 1 – <gap reason="ellipsis"/>
+  
+  <pb facs="13" n="2r"/>
+  
+  <milestone unit="left-margin"/>
+  <lb n="1"/>kaṭavuḷ vāḻttup paṭalam <g ref="#pcs"/>
+                    
+   <milestone unit="main-text-area"/>
+  <lb n="1"/>tiruvanta tollaip puvaṉattoṭu tēvar pōṟṟip <gap reason="ellipsis"/>
+  
+  <pb facs="338" n="164v"/>
+  <lb n="9"/><gap reason="ellipsis"/>mēṟṟicai nirutimēl viraivi
+  <lb n="10" break="no"/>ṉ ēkiṉāṉ – 8 – yamaṉ ceyappaṭalamuṟṟum – Āka ceyyuḷ – 855 – nirutiyum iḵtelām nēṭi yāmivaṟp ‡ poruvatum ariyatāṟ pōri yaṟṟiṉum ‡ varutiṟa- <note xml:lang="en">[the manuscript stops abruptly here at the very end of the page]</note>
+                    
+</body></text><text synch="#U4" corresp="#T3" xml:lang="ta"><body>
+  
+  <pb n="[1]r"/>
+  <emph rend="bold">U4</emph>, <locus facs="338">folio 1, recto, unfoliated</locus> = <emph rend="bold">incipit</emph>: marginal chapter header; <term xml:lang="ta">Makēntirakāṇṭam</term>, <term xml:lang="ta">Vīravāku Kantamātaṉañ Cel Paṭalam</term>, stanza n° 1. <quote xml:lang="ta" rend="block"><lg>
+               <l><locus xml:lang="en" facs="338">(f[1]r, lm, 1–2)</locus> makentira-kāṇṭam</l>
+               <l><locus xml:lang="en" facs="338">(f[1]r, lm, 3–5)</locus> viravāku kantamātaṉañ cer paṭalam</l>
+                    </lg></quote>
+  
+  <note xml:lang="en"><emph rend="bold">U4</emph>, <locus facs="339">folio 1, recto, unfoliated</locus> = <emph rend="bold">incipit</emph>: marginal chapter header; <term xml:lang="ta">Makēntirakāṇṭam</term>, <term xml:lang="ta">Vīravāku Kantamātaṉañ Cel Paṭalam</term>, stanza n° 1.</note>
+               <milestone n="[1]r1" unit="folio" facs="339"/>Intira ṉāti yāṉa vamararum eṉai yōrum ‡ (...) 
+  
+  <note xml:lang="en"><emph rend="bold">U4</emph>, <locus facs="340">folio 1, verso, unfoliated</locus> = <emph rend="bold">excipit</emph>: <term xml:lang="ta">Makēntirakāṇṭam</term>, <term xml:lang="ta">Vīravāku Kantamātaṉañ Cel Paṭalam</term>, stanza n° 7 and beginning of stanza n° 8.</note>
+              <milestone n="[1]v1" unit="folio" facs="340"/>koḷ curaṉ ṟaṉpāl vīramā mayēnti rattuc ‡ ceṉṟiṭa viṭuttum yāraic cepputi eṉṉa lōṭu ‡ naṉṟeṉa vataṉai nāṭi nāṉmuka ṉavila luṟṟāṉ [i.e. naviṟa luṟṟāṉ] – 7 – melleṉa vulavai-<lb n="2"/>k kōṉu <note xml:lang="en">[the manuscript stop abruptly here at the beginning of line 2]</note>
+                    
+  
+</body></text></TEI>
