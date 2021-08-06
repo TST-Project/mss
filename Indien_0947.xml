@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="ta">Kamparāmāyaṇam      </title>
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Indien 947</idno>
+                  <idno type="alternate"/>
+               </msIdentifier>
+               <msContents class="#STM">
+                  <summary>The Tamil version of the <title xml:lang="sa">Rāmāyaṇa</title> by <persName xml:lang="ta">Kampaṉ</persName>.
+                     </summary>
+                  
+               <msItem synch="#U3" xml:id="T1" defective="false"><title xml:lang="ta">Kamparāmāyaṇam: <term xml:lang="en">invocations</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U4" xml:id="T2" defective="false"><title xml:lang="ta">Kamparāmāyaṇam: Pālakāṇṭam</title><textLang mainLang="tam"/></msItem><msItem synch="#U5" xml:id="T3" defective="true"><title xml:lang="ta">Kamparāmāyaṇam: Ayōttiyākāṇṭam</title><textLang mainLang="tam"/></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="pothi">
+                     <supportDesc material="palm-leaf">
+                        <extent>
+                           <measure unit="folio" quantity="226">[1] + [1] + 6 + 112 + 110 + [1] (U1 + U2 + U3 + U4 + U5 + U6)</measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           <width min="415" max="420"/><height quantity="30"/></dimensions>
+                           <note>Some folios are smaller, e.g. U3, f105 (365 x 35 mm). </note>
+                        <dimensions type="object" unit="mm"><width quantity="430"/><height quantity="35"/><depth quantity="130"/></dimensions><dimensions type="written" unit="mm"/></extent>
+                        <collation>
+                        
+                        
+                        
+                        
+                        
+                        <desc xml:id="cover">the <emph rend="bold">front cover</emph>. Sticker. BnF shelfmark sticker.</desc><desc xml:id="U1">1 folio = front <emph rend="bold">guard leaf</emph>. Double folio. 415 x 30 mm. No foliation. Blank recto verso. Sticker on the verso. Added to the original bundle along with U6.
+</desc><desc xml:id="U2">1 folio = front <emph rend="bold">guard leaf</emph>. Tamil foliation 45 on verso (= reused folio). Blank recto verso. Part of the original bundle.
+</desc><desc xml:id="U3">1 folio = <emph rend="bold"><term xml:lang="ta">Kamparāmāyaṇam</term>: invocations</emph> (6 stanzas). 405 x 30 mm, but edges truncated. Tamil foliation 1. </desc><desc xml:id="U4">112 folios = <emph rend="bold"><term xml:lang="ta">Kamparāmāyaṇam: Pālakāṇṭam</term></emph>. 420 x 30 mm. Tamil foliation 1-112.
+
+</desc><desc xml:id="U5">110 folios = <emph rend="bold"><term xml:lang="ta">Kamparāmāyaṇam: Ayōttiyākāṇṭam</term></emph>. 420 x 30 mm. Tamil foliation 1-100. Possibly change of hand.</desc><desc xml:id="U6">1 folio = back <emph rend="bold">guard leaf</emph>. Double folio. 415 x 30 mm. No foliation. Blank recto verso. Added to the original bundle along with U1.</desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>. </desc></collation>
+                        <condition>Relatively good state of preservation, despite few boreholes and truncation of folios.</condition>
+                     <support><measure unit="stringhole" quantity="2"/></support></supportDesc>
+                     <layoutDesc>
+                        <layout columns="1"/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     
+                  <handNote synch="#U3 U4" scope="major" script="tamil" medium="incised"/><handNote synch="#U5" scope="minor" script="tamil" medium="incised"><desc>Possibly hand #2.</desc></handNote></handDesc>
+                  <additions>
+                    
+                    
+                    
+                    
+                  <desc synch="#cover" type="commenting-note">Sticker written:
+<quote>
+  <lb n="1"/><term xml:lang="ta">Irāmāyaṇam {mutal}<hi rend="superscript">vatu</hi></term>
+  <lb n="2"/><term xml:lang="fr">RÂMÂYAṆA I<hi rend="superscript">er</hi> et II<hi rend="superscript">e</hi> LIVRES</term>
+  <lb n="3"/><term xml:lang="fr">27 Novembre 1860</term>
+  <lb n="4"/><term xml:lang="fr">(<gap reason="illegible" quantity="1" unit="character"/>)</term>  
+  
+</quote></desc><desc synch="#cover" type="shelfmark">BnF shelfmark sticker: <quote>INDIEN 947</quote>.</desc><desc synch="#U1" type="commenting-note">Sticker written by two differnts hands. Hand #1:<quote><term xml:lang="fr">27 9<hi rend="superscript">b</hi> 1860</term></quote>
+Hand #2:
+<quote xml:lang="fr">
+  <lb n="1"/>N° 1<hi rend="superscript">er</hi>
+ <lb n="2"/>Contenant 2. Candams appelés Balacandam &amp;
+   <lb n="3"/>Ayotticandam
+   <lb n="4"/>1<hi rend="superscript">ère</hi> partie.  
+</quote></desc></additions>
+                  <bindingDesc>
+                     <binding>
+                        <p>Original (?) <material>wood</material> covers. With a woodstick tied to the string and threaded in one of the holes.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian" notAfter="1860">No internal date. See sticker on front cover, recto and sticker on U1, f[1]r.</origDate>
+                     <origPlace>South India, Tamilnadu.</origPlace>
+                  </origin>
+                  <acquisition>
+                     
+                  </acquisition>
+               <provenance><p>Julien Vinson.</p></provenance></history>
+               <additional>
+                  <listBibl>
+                     
+                     
+                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens. Bibliothèque nationale. Département des manuscrits.</title> Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f171">manuscript addition</ref>.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         
+         
+      <p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.    </p></encodingDesc>
+      <revisionDesc>
+         
+         
+      <change when="2021-08">Record created by Emmanuel FRANCIS.</change></revisionDesc>
+   </teiHeader>
+   <facsimile>
+      
+   </facsimile>
+<text synch="#U3" corresp="#T1" xml:lang="ta"><body>
+  
+  <pb facs="00" n="1r"/>
+  
+  <milestone unit="left-margin"/>
+  <lb n="1"/><seg function="blessing"><seg rend="grantha">śrī</seg>-ṟā<seg rend="grantha">=ma</seg>-ceyam</seg>
+  <lb n="2"/><seg function="title">kampa-y-irā
+  <lb n="3" break="no"/>māyaṇam</seg>
+ 
+  <milestone unit="main-text-area"/>
+  <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
+  
+  <pb facs="00" n="1v"/>
+    <lb n="3"/><seg function="explicit"><gap reason="ellipsis"/> <g ref="#pcs"/> 6 <g ref="#pcs"/></seg> <seg function="blessing"><seg rend="grantha">śrī-rāma-jeyam</seg></seg>
+     
+</body></text><text synch="#U4" corresp="#T2" xml:lang="ta"><body>
+  
+  <pb facs="00" n="1r"/>
+  
+  <milestone unit="left-margin"/>
+  <lb n="1"/><seg function="blessing"><seg rend="grantha">hariḥ
+   <lb n="2"/>Om</seg></seg>
+   
+  <milestone unit="main-text-area"/>
+  <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
+  
+  <pb facs="00" n="1v"/>[<term xml:lang="en">blank</term>]
+  
+  <pb facs="00" n="2r"/>
+  <milestone unit="left-margin"/>
+  <lb n="1-5"/><seg function="title">Irāmāyaṇam</seg> <seg function="intertitle">vālakāṇṭam</seg> <seg function="intertitle">Āṟṟuppaṭalam</seg>
+  
+    <pb facs="00" n="8v"/>
+  <milestone unit="left-margin"/>
+  <lb n="1-2"/><seg function="intertitle">nakarappaṭalam</seg>
+  
+    <pb facs="00" n="14r"/>
+  <milestone unit="left-margin"/>
+  <lb n="1-3"/><seg function="intertitle">Araciyaṟ-paṭalam</seg>
+  
+   <pb facs="00" n="112r"/><gap reason="ellipsis"/>
+  <lb n="2"/><seg function="explicit"><gap reason="ellipsis"/> rō – 5 10 –</seg>
+  <lb n="3"/><seg function="completion-statement"><unclear>para</unclear>curāma-p-paṭalamuṟṟu<unclear>m</unclear></seg> – <seg function="completion-statement">vālakāṇṭamuṟṟum</seg> <seg function="blessing"><seg rend="grantha">śrī</seg>-ṟāma-ceya<seg rend="grantha">=m</seg></seg> <seg function="blessing"><seg rend="grantha">śrī</seg>-ṟā<seg rend="grantha">=ma</seg>-ceyam</seg> <g ref="#pcl"/> <seg function="blessing"><seg rend="grantha">śrī</seg>-ṟā<seg rend="grantha">=ma</seg>-ceya<seg rend="grantha">=m</seg></seg>=<g ref="#pcl"/>
+  <lb n="4"/><seg function="total-chapters total-stanzas">Āka-p paṭalam 2 10 7-k=ku viruttam – 1000 9 100 9 9</seg> <g ref="#pcl"/>
+  
+    <pb facs="00" n="112v"/>[<term xml:lang="en">blank</term>]
+
+   
+</body></text><text synch="#U5" corresp="#T3" xml:lang="ta"><body>
+  
+  <pb facs="00" n="1r"/>
+  
+   <milestone unit="left-margin"/>
+  <lb n="1"/><seg function="intertitle">Ayōtti
+  <lb n="2" break="no"/>yākāṇ
+  <lb n="3" break="no"/>ṭam</seg>
+  <lb n="4"/><seg function="intertitle">mantirappa
+  <lb n="5" break="no"/>ṭalam</seg>
+  
+  <milestone unit="main-text-area"/>
+  <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
+
+  <pb facs="00" n="99r"/>
+  
+   <milestone unit="left-margin"/>
+  <lb n="1-3"/><seg function="intertitle">tiruvaṭicūṭṭupaṭalam</seg>
+    
+  <pb facs="00" n="110v"/>
+  <lb n="6"/><seg function="explicit"><gap reason="ellipsis"/></seg> <gap reason="lost"/>
+  
+</body></text></TEI>
