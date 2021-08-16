@@ -1,14 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title><title xml:lang="ta">Kantapurāṇam</title>, Volume 4</title>
-         </titleStmt>
-         <editionStmt>
-            <p>Record edited by <persName>Emmanuel FRANCIS</persName> <orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName>.</p>
-         </editionStmt>
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         
          <publicationStmt>
             <publisher>TST Project</publisher>
             <date>2021</date>
@@ -23,62 +21,50 @@
                   <idno type="shelfmark">Indien 327</idno>
                   <idno type="alternate"><idno>Tamoul 327</idno></idno>
                </msIdentifier>
-               <msContents>
-                <summary>
-                    <p>The <title xml:lang="ta">Kantapurāṇam</title> is one of the major Tamil texts about the god <term xml:lang="sa">Skanda</term>/<term xml:lang="ta">Murukaṉ</term>. It is the work of <persName xml:lang="ta">Kacciyappa Civācāriyār</persName> (14th century?).</p>
+               <msContents class="#STM">
+                <summary><p>The <title xml:lang="ta">Kantapurāṇam</title> is one of the major Tamil texts about the god <term xml:lang="sa">Skanda</term>/<term xml:lang="ta">Murukaṉ</term>. It is the work of <persName xml:lang="ta">Kacciyappa Civācāriyār</persName> (14th century?).</p>
+<p>The present manuscript is the fourth and final volume of a MVM in four volumes (BnF Indien 324-327).</p>
                     <p>The text is complete.</p>
                     <p><emph rend="bold">Paratexts</emph>: marginal benedictions; invocation page; marginal chapter headers; in-text chapter completion statement and total stanzas; colophon.</p>
                   </summary>                  
-                  <msItem defective="false">
-                     <title>Kantapurāṇam</title>
-                     <textLang mainLang="tam">Tamil</textLang>
-                     <filiation>Other manuscript testimonies of this text are: Bnf Indien <ref target="Indien_0328.xml">328</ref>–<ref target="Indien_0329.xml">329</ref>. See also BnF Indien <ref target="Indien_0336.xml">336</ref>–<ref target="Indien_0338.xml">338</ref>.</filiation>
-                     <incipit xml:lang="ta"><note xml:lang="en"><emph rend="bold">U2</emph>, <locus facs="5">folio 1, recto</locus> = <emph rend="bold">incipit</emph>: marginal chapter header; <term xml:lang="ta">Kayilaivēṟpaṭai Paṭalam</term>, stanza n° 1 (<term xml:lang="ta">Takkaṉ Kayilaicel Paṭalam</term>).</note>
-               <milestone n="1r1" facs="5" unit="folio"/>meymmā tavattāṟ ṟiruttakku viḷaṅku takkaṉ ‡ emmāṉ ṟaṉaiyeṇ ṇalaṉāviy iḻappaṉ vallē ‡ yammā viyāmum avaṉēvalai yāṟṟu
-               <lb n="2"/>kiṉṟām ‡ nammā ruyirkkum iṟuvāy naṇukuṟṟa pōlum – 1 – (…)
-                    </incipit>
-                    <explicit xml:lang="ta"><note xml:lang="en"><emph rend="bold">U2</emph>, folio 163, recto and verso = <emph rend="bold">excipit</emph>: <term xml:lang="ta">Vaḷḷiyammai Tirumaṇap Paṭalam</term>, stanza n° 267; chapter completion statement; invocatory stanzas (repeated from <term xml:lang="ta">Pāyiram</term>); colophon.</note>
-               <milestone n="163r7" facs="329" unit="folio"/>(...) pārā-
-               <pb n="163v1" facs="330"/>kiy ēṉaip poruḷāy uyirpaṉ [<term xml:lang="en">i.e.</term> uyirppaṉ] maiyākip ‡ pērā vuyirkaṭ kuyirāyp piṟavaṟ ṟumāki ‡ nērākitt tōṉṟal ilatāki niṉṟāṉ kaḻaṟkē ‡ yārāta kāta
-               <lb n="2"/>loṭupōṟṟi yaṭaitum aṉṟē – 267 – vaḷḷiyammai tirumaṇappaṭalamuṟṟum <g ref="#pcl"/> tikaṭa cakkarac cemmukam aintuḷāṉ ‡ cakaṭa cakkarat tāma-
-               <lb n="3"/>rai nāyaka ‡ ṉaṟkaṭa [<term xml:lang="en">i.e.</term> ṉakaṭa] cakkara viṉmaṇi yāyuṟai ‡ vikaṭa cakkaraṉ meyppatam pōṟṟuvām <g ref="#pcs"/> mūviru mukaṅkaḷ pōṟṟi mukampoḻi-
-               <lb n="4"/>ṟ [<term xml:lang="en">i.e.</term> mukampoḻi] karuṇai pōṟṟi ‡ yēvarun tutikka niṉṟa virāṟutōḷ pōṟṟi kāñci ‡ māvaṭi vaikuñ cevvēḷ malaraṭi pōṟṟi yaṉṉāṉ ‡ cēvalu
-               <lb n="5"/>mayilum pōṟṟi tirukkaivēl pōṟṟi pōṟṟi <g ref="#pcl"/> kāntam eḻuti niṟaveṟittutu. vikuṟati <g ref="#varudam"/> Āṭi <g ref="#maatham"/> 3 <g ref="#teti"/> 1830 <g ref="#varudam"/>
-                    </explicit>
-                  </msItem>
-               </msContents>
+                  
+               <msItem synch="#U2" xml:id="T1" defective="false"><title xml:lang="ta">Kantapurāṇam: Mūlam (<term xml:lang="en">part 4 of 4</term>)</title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
                         <extent>
-                           <measure unit="folio" quantity="165">1 + 163 + 1</measure>
+                           <measure unit="folio" quantity="165">1 + 163 + 1 (U1 + U2 + U3)</measure>
                            <dimensions type="leaf" unit="mm">
-                              <width quantity="380"/>
-                              <height quantity="40"/>
+                              
+                              
                            </dimensions>
-                        </extent>
+                        <dimensions type="object" unit="mm"><width quantity="380"/><height quantity="40"/></dimensions><dimensions type="written" unit="mm"/></extent>
                         <collation>
-                        <desc xml:id="U1">1 folio, unfoliated = flyleaf.</desc>
-                        <desc xml:id="U2">163 folios, parallel Tamil foliation 1–163 and Arabic foliation 1–163 = text (<emph rend="italic" xml:lang="ta">mūlam</emph>) continued from BnF <ref target="Indien_0326.xml">Indien 326</ref>.</desc>
-                        <desc xml:id="U3">1 folio, unfoliated = flyleaf.</desc>
-                        </collation>
+                        
+                        
+                        
+                        <desc xml:id="cover">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">guard leaf</emph>. No foliation.</desc><desc xml:id="U2">163 folios = <emph rend="bold">Mūlam</emph>. Parallel Tamil foliation 1–163 and Arabic foliation 1–163. Continued from BnF <ref target="Indien_0326.xml">Indien 326</ref>.</desc><desc xml:id="U3">1 folio = <emph rend="bold">guard leaf</emph>. No foliation.</desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>.</desc></collation>
                         <condition>Excellent state of preservation.</condition>
-                     </supportDesc>
+                     <support><measure unit="stringhole" quantity="2"/></support></supportDesc>
                      <layoutDesc>
-                        <layout columns="1" writtenLines=""/>
+                        <layout columns="1"/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote scope="sole" script="tamil"/>
-                  </handDesc>
+                     
+                  <handNote synch="#U2" scope="sole" scribeRef="#DuclerScribe" script="tamil" medium="incised"/></handDesc>
                   <additions>
-                     <desc type="documenting-note" subtype="detached">A paper leaf comes along with the bundle, with a text in French on the recto: <quote rend="block" xml:lang="fr">
-               <p>Mr Ducler, N° 36. Intitulé Scandam, ou Candapouranam, ou histoire de Soubramaniar, second fils de Sivane. Mariage de Valliyammaï. (Tome quatrième) (ouvrage anonyme) contenant 163 feuilles.</p> 
-                    </quote> [text standardised]</desc>
-                    <desc type="chapter-heading" subtype="marginal beginning"><emph rend="bold">U2</emph>, <locus facs="5">folio 1, recto,</locus> = <emph rend="bold">incipit</emph>: marginal chapter header; <term xml:lang="ta">Kayilaivēṟpaṭai Paṭalam</term>, stanza n° 1 (<term xml:lang="ta">Takkaṉ Kayilaicel Paṭalam</term>). <quote xml:lang="ta" rend="block">
-               <p><locus xml:lang="en" facs="5">f1r, lm</locus> kayilaivēṟpaṭai paṭalam</p>
-                    </quote></desc>
-                  </additions>
+                     
+                    
+                  <desc type="documenting-note" subtype="detached">A <locus facs="335">paper leaf</locus> comes along with the bundle, with a text in French, in black ink, on the recto: 
+<quote xml:lang="fr">
+  <lb n="1"/>M<hi rend="superscript">r</hi> Ducler, N° 35
+  <lb n="2"/>Intitulé scandam, ou Candapouranam, ou histoire de
+  <lb n="3"/>Soubramaniar, second fils de Sivane,
+  <lb n="4"/>Mariage de Valliyammaï, (Tome quatrième)
+   <lb n="5"/>(ouvrage anonyme) contenant 163 feuilles,
+ </quote>
+In line 1 is added in black pencil: <quote>N° 327</quote></desc></additions>
                   <bindingDesc>
                      <binding>
                         <p>Original <material>ebony</material> woodcovers.</p>
@@ -87,31 +73,53 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian" when="1830">1830. See final colophon of Indien 327 (U2, <locus facs="329">f163v5</locus>). </origDate>
-                     <origPlace>South India, Tamilnadu. </origPlace>
+                     <origDate calendar="gregorian" when="1830">See final colophon of Indien 327 (U2, <locus facs="329">f163v5</locus>). </origDate>
+                     <origPlace>South India, Tamilnadu.</origPlace>
                   </origin>
                   <acquisition>
-                     <p><persName>Ducler</persName>.</p>
+                     <p>Acquired, July 22nd, 1833, from Philippe Ducler. See BnF, département des Manuscrits, inventaire 1 = <title>Acquisitions: manuscrits et imprimés documentaires, 1833-1848</title>, no. 80.</p>
                   </acquisition>
                </history>
                <additional>
                   <listBibl>
-                     <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f65">p. 47</ref>.</bibl>
-                  </listBibl>
+                     
+                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f65">p. 47</ref>.</bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p>Abbreviations. c = column, f = folio, lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso. GOML = Government Oriental Manuscripts Library, Madras/Chennai. MTL = Madras Tamil Lexicon. TMSSML = Tanjore Maharaja Serfoji Sarasvati Mahal Library.</p>
-         <p><emph rend="bold">Transliteration conventions.</emph>Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Conjectural (whether the text is not clearly legible or the character is ambigous, e.g. <emph rend="italic">kāl</emph> or length of <emph rend="italic">o</emph> and <emph rend="italic">e</emph>) readings between parentheses. Alternative readings between parentheses separated by slash. Lost or entirely illegible character: "?". Crossed-out character: "X". Conjectural restoration of lost or entirely illegible between square brackets. Uppercase for initial vowels (in excerpts only). Unquoted text represented by (...). Conjunct letter: e.g. <emph rend="italic">t°</emph>, to be read <emph rend="italic">tum</emph> or <emph rend="italic">tam</emph>. Grantha letters in bold. Symbols/Abbreviations made explicit, between curly brackets: <g ref="#pcs"/> = <emph rend="italic">piḷḷaiyār cuḻi</emph>, short form; <g ref="#pcl"/> = <emph rend="italic">piḷḷaiyār cuḻi</emph>, long form, that is, with long horizontal stroke towards right; <g ref="#varudam"/>, <g ref="#maatham"/>, <g ref="#teti"/>; {line-filler}. Unfoliated folio number between square brackets, e.g. "f[1]r". Numerals normalised to decimal notation, e.g. "1121" not "1000 1 100 2 10 1". Hyphen occasionaly used to mark in-word components. Hyphen systematically used at the end of a line when the line-beginning is within a word or within a <emph rend="italic">cīr</emph>. <emph rend="italic">Sandhi</emph> split to the minimum: overshort <emph rend="italic">u</emph> occasionally restored as an apostrophe. Stanzas split by <emph rend="italic">cīr</emph>, as far as possible. <emph rend="italic">aṭi </emph>boundary marked by "‡".</p>
-      </encodingDesc>
+         
+         
+      <p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.    </p></encodingDesc>
       <revisionDesc>
-         <change when="2020-04">This catalogue entry has been redacted by Emmanuel FRANCIS (CNRS, CEIAS UMR 8564, EHESS &amp; CNRS) for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG). Version 1, April 2020. </change>
-         <change when="2021-04">Converted to TEI by Charles LI.</change>
-      </revisionDesc>
+         
+         
+      <change when="2020-04">This catalogue entry has been redacted by Emmanuel FRANCIS (CNRS, CEIAS UMR 8564, EHESS &amp; CNRS) for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG). Version 1, April 2020. </change><change when="2021-04">Converted to TEI by Charles LI.</change><change when="2021-08">Updated to TST encoding conventions by Emmanuel FRANCIS.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b52513077q/manifest.json"/>
    </facsimile>
-</TEI>
+<text synch="#U2" corresp="#T1" xml:lang="ta"><body>
+  
+  <pb n="1r" facs="5"/>
+  
+  <milestone unit="left-margin"/>
+  <lb n="1"/><seg function="intertitle">kayilaivēṟpaṭai pa
+  <lb n="2" break="no"/>ṭalam</seg>
+  
+  <milestone unit="main-text-area"/>
+  <lb n="1"/><seg function="incipit">meymmā tavattāṟ ṟiruttakku viḷaṅku takkaṉ</seg> ‡ emmāṉ ṟaṉaiyeṇ ṇalaṉāviy iḻappaṉ vallē ‡ yammā viyāmum avaṉēvalai yāṟṟu
+  <lb n="2"/>kiṉṟām ‡ nammā ruyirkkum iṟuvāy naṇukuṟṟa pōlum – 1 – <gap reason="ellipsis"/>
+  
+  <pb n="163r" facs="329"/>
+  <lb n="7"/><gap reason="ellipsis"/> pārā
+  
+  <pb n="163v" facs="330"/>
+  <lb n="1" break="no"/>kiy ēṉaip poruḷāy uyirpaṉ [<term xml:lang="en">i.e.</term> uyirppaṉ] maiyākip ‡ pērā vuyirkaṭ kuyirāyp piṟavaṟ ṟumāki ‡ nērākitt tōṉṟal ilatāki niṉṟāṉ kaḻaṟkē ‡ <seg function="explicit">yārāta kāta
+               <lb n="2"/>loṭupōṟṟi yaṭaitum aṉṟē – 267</seg> – <seg function="completion-statement">vaḷḷiyammai tirumaṇappaṭalamuṟṟum</seg> <g ref="#pcl"/> <seg function="invocation">tikaṭa cakkarac cemmukam aintuḷāṉ ‡ cakaṭa cakkarat tāma-
+               <lb n="3"/>rai nāyaka ‡ ṉaṟkaṭa [<term xml:lang="en">i.e.</term> ṉakaṭa] cakkara viṉmaṇi yāyuṟai ‡ vikaṭa cakkaraṉ meyppatam pōṟṟuvām</seg> <g ref="#pcs"/> <seg function="invocation">mūviru mukaṅkaḷ pōṟṟi mukampoḻi-
+               <lb n="4"/>ṟ [<term xml:lang="en">i.e.</term> mukampoḻi] karuṇai pōṟṟi ‡ yēvarun tutikka niṉṟa virāṟutōḷ pōṟṟi kāñci ‡ māvaṭi vaikuñ cevvēḷ malaraṭi pōṟṟi yaṉṉāṉ ‡ cēvalu
+               <lb n="5"/>mayilum pōṟṟi tirukkaivēl pōṟṟi pōṟṟi</seg> <g ref="#pcl"/> <seg function="colophon">kāntam eḻuti niṟaveṟittutu. vikuṟati <g ref="#varudam"/> Āṭi <g ref="#maatham"/> 3 <g ref="#teti"/> 1830 <g ref="#varudam"/></seg>
+                    
+</body></text></TEI>
