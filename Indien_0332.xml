@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -21,109 +21,128 @@
                   <idno type="shelfmark">Indien 332</idno>
                   <idno type="alternate"><idno>Tamoul 332</idno></idno>
                </msIdentifier>
-               <msContents>
+               <msContents class="#STM">
                   <summary><p>The <title xml:lang="ta">Kācikāṇṭam</title>, <quote>The book of Kāci</quote>, that is <placeName xml:lang="sa">Kāśī</placeName> (Benares), is a Tamil version of the <term xml:lang="sa">Kāśīkhaṇḍa</term> of the late version of the Sanskrit <title xml:lang="sa">Skandapurāṇa</title>. The <title xml:lang="ta">Kācikāṇṭam</title> is the work of the <title xml:lang="ta">Teṉkāci</title> (<quote>Southern Kāśī</quote>) king <persName xml:lang="ta">Ativīrarāmapāṇṭiyaṉ</persName>, who ruled in the second half of the 16th century. See Raghavan (1960, p. 235). On <persName xml:lang="ta">Ativīrarāmapāṇṭiyaṉ</persName>, best known for his <title xml:lang="ta">Naiṭatam</title>, a Tamil version of the Sanskrit <title xml:lang="sa">Naiṣadha</title> by <persName xml:lang="sa">Harṣa</persName>, see Shulman (2012, pp. 155ff.).</p>
-  <p>The text is incomplete. See above description of U3 and mention of missing folios.</p>
+  <p>The text is incomplete. See description below of U3 and mention of missing folios. It appears to be the collective work of several scribes, thus its inconsistent foliation.</p>
   <p><emph rend="bold">Paratexts</emph>: marginal and in-text benedictions, title-page, invocation page, marginal chapter headers, in-text chapter completion statement, colophon, table of contents/total stanzas (U3, f295‒f297).</p>
                   </summary>
-                  <msItem defective="true" synch="#U3">
-                     <title xml:lang="ta">Kācikāṇṭam</title>
-                     <textLang mainLang="tam"/>
-                     <filiation>Other manuscript testimonies of this text are: Bnf <ref target="Indien_0333.xml">Indien 333</ref>‒<ref target="Indien_0334.xml">334</ref>; GOML D. 565‒566 (see Rangacharya &amp; Kuppusvami Sastri 1916, p. 549ff.).</filiation>
-                     <incipit xml:lang="ta"><note xml:lang="en">stanza n° 1 (invocatory stanza).</note>
-    <milestone n="[1]r1" unit="folio"/><lb n="1"/>cīrpūtta ceḻuntaraṅkat tīmpuṉaṉ mantākiṉitaṇ ṭēṉār koṉṟait ‡ tārpūtta ceñcaṭaiyi laṇintumataṉ mēlviḻaivu taṇiyā
-    <lb n="2"/>ṉākik ‡ kārpūtta viruvicumpiṟ kaṅkainati cūḻkiṭanta kāci vāḻu ‡ mēṟpūtta taṉimutali ṉiṇaiyaṭip pūṅ kamalamal rēṟṟu [i.e. rēttu] vāmē
-    <lb n="3"/>= 1 = vē [i.e. vēṟu] = alakil (...)</incipit>
-                     <explicit xml:lang="ta"><note xml:lang="en">folio 294, verso = <emph rend="bold">excipit</emph>: <term xml:lang="ta">Cevikkiṟa Muṟaimaiy Uraittav Attiyāyam</term>, stanza n° 70; benediction, chapter completion statement; benedictions; scribal colophon; benediction.</note>
-    <milestone n="294v" unit="folio"/><lb n="2"/>(...) = 69 = Arumaṟai muṉivar vāḻka vāṉiṉam vāḻkat teṇṇīr ‡ viritirai yu
-    <lb n="3" break="no"/>lakaṅkākkum viṟalkeḻu vēntaṉ vāḻka ‡ maruviya tiṅkaṭōru maḻaivaḷañ curakkaveṅkōṉ ‡ poruvaṟa moḻin
-    <lb n="4" break="no"/>ta viṉṉūl [i.e. vinnūl] poṟpoṭum polikamāto <g ref="#pcs"/> 70 <g ref="#pcs"/> tiruccittampalam <g ref="#pcs"/> (tūkki)vatu cevikkiṟa muṟaimaiy uraittav attiyāyam <g ref="#pcs"/>
-    <lb n="5"/>muṟṟum <emph rend="bold" xml:lang="sa">śubham astu Avighnam astu</emph> <g ref="#pcs"/> Āṟumukan tuṇai <g ref="#pcs"/> piṟapava <g ref="#varudam"/> cittirai <g ref="#maatham"/> 13 <g ref="#teti"/> ca(ṉikkiḻa)ṉāḷ Uttira(kakṣi) tuvāteci ri<emph rend="bold">ṣa</emph>palakkaṇaṭtil muṉi
-    <lb n="6" break="no"/>yappa(c)eṭṭiyār kumāraṉ la<emph rend="bold">ṣ</emph>cumaṇaṉ kayy eḻuttu kācikāṇṭam eḻuti niṟaintu muttum <g ref="#pcs"/> tirukkāḷatti liṅkan tuṇaiy uṇṭāka <g ref="#pcs"/> <g ref="#pcs"/></explicit>
-                  </msItem>
-               </msContents>
+                  
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta">Kācikāṇṭam: <term xml:lang="fr">Invocation</term></title><textLang mainLang="tam" otherLangs="san"/></msItem><msItem synch="#U3" xml:id="T3" defective="true"><title xml:lang="ta">Kācikāṇṭam: Mūlam</title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
                         <extent>
-                           <measure unit="folio" quantity="289">1 + 1 + 286 + 1</measure>
+                           <measure unit="folio" quantity="289">1 + 1 + 286 + 1 (U1 + U2 + U3 + U4)</measure>
                            <dimensions type="leaf" unit="mm">
-                              <width quantity="415"/>
-                              <height quantity="35"/>
+                              
+                              
                            </dimensions>
-                        </extent>
+                        <dimensions type="object" unit="mm"><width quantity="415"/><height quantity="35"/></dimensions><dimensions type="written" unit="mm"/></extent>
                         <collation>
-                            <desc xml:id="U1">The palm-leaf bundle, a single-text manuscript, contains, on the front woodcover: 1 folio, unfoliated = title-page, by hand n° 1. With shelfmark: b/38.</desc>
-                             <desc xml:id="U2">1 folio, unfoliated = invocation.</desc>
-                             <desc xml:id="U3">286 folios (f1‒f2, f74‒f75, f76.1, f76.2 unblackened), Tamil foliation 2‒297 (f77, f96‒f101, f131, f148, f178, f257 missing; three successive f70, two successive f76, two succesive f257) = text (<emph rend="italic">mūlam</emph>), 6 to 8 lines per page, by several hands (?), different from hand n° 1. The foliation discontinuity parallels, but not always, a textual discontinuity. The manuscript appears to be a collective work by several scribes, thus the inconsistent foliation.</desc>
-                             <desc xml:id="U4">1 folio, unfoliated = flyleaf.</desc>
-                        </collation>
+                            
+                             
+                             
+                             
+                        <desc xml:id="U1">1 folio = <emph rend="bold">Title Page</emph>. No foliation. Double leaf. 400 x 30 mm. Verso blank. Shelfmark. Hand #1
+</desc><desc xml:id="cover">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U2">1 folio = <emph rend="bold"><term xml:lang="ta">Kācikāṇṭam</term>: Invocation</emph>. No foliation. Verso blank.</desc><desc xml:id="U3">286 folios = <emph rend="bold"><term xml:lang="ta">Kācikāṇṭam: Mūlam</term></emph>. 
+Tamil foliation 2‒297 (f77, f96‒f101, f131, f148, f178, f257 missing; three successive f70, two successive f76, two succesive f257). f1‒f2, f74‒f75, f76.1, f76.2 unblackened. 6 to 8 lines per page, by several hands (?), different from hand #1. The foliation discontinuity parallels, but not always, a textual discontinuity.</desc><desc xml:id="U4">1 folio = <emph rend="bold">guard leaf</emph>. No foliation.</desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>.</desc></collation>
                         <condition>Very good state of preservation. </condition>
-                     </supportDesc>
+                     <support><measure unit="stringhole" quantity="2"/></support></supportDesc>
                      <layoutDesc>
-                        <layout columns="1" writtenLines=""/>
+                        <layout columns="1" writtenLines="6 8"/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote scope="sole" script="tamil"/>
-                  </handDesc>
+                     
+                  <handNote synch="#U1" scope="minor" scribeRef="#ArielTitleScribe" script="tamil" scriptRef="#tamilPulliRegular #tamilOE" medium="incised"><desc>Hand #1.</desc></handNote><handNote synch="#U2 U3" scope="major" script="tamil" medium="incised"><desc>Several hands (?), different from hand #1.</desc></handNote></handDesc>
                   <additions>
-                     <desc synch="#U1" type="title" subtype="beginning">folio 1, recto, unfoliated = <emph rend="bold">title-page</emph>: title. <quote rend="block" xml:lang="ta"><lg>
-   <l><locus xml:lang="fr">(f[1]r, lm)</locus> veṟṟivēl uṟṟa tuṇai</l>
-   <l><locus xml:lang="fr">(f[1]r, c2, 1)</locus> Iḵtu</l>
-   <l><locus xml:lang="fr">(f[1]r, c2, 1)</locus> kācikāṇṭam</l>
-                     </lg></quote></desc>
-                    <desc synch="#U2" type="benediction invocation" subtype="beginning">folio 1, recto, unfoliated = <emph rend="bold">invocation page</emph>: marginal benedictions; invocatory stanza. <quote rend="block" xml:lang="ta"><lg>
-   <l><locus xml:lang="en">(f[1]r, lm, 1)</locus> <emph rend="bold" xml:lang="sa">śivamayam</emph></l>
-   <l><locus xml:lang="en">(f[1]r, lm, 2)</locus> <emph rend="bold" xml:lang="sa">hariḥ Om</emph></l>
-   <l><locus xml:lang="en">(f[1]r, lm, 3)</locus> naṉṟāka</l>
-   <l><locus xml:lang="en">(f[1]r1)</locus> <choice><sic>māttariya</sic><corr>māṟṟariya</corr></choice> tolpiṟavi maṟikaṭali ṉiṭaipaṭṭup ‡ pōṟṟuṟutaṉ kurai kaḻaṟṟāṭ puṇaipaṟṟik kiṭan-</l>
-   <l><locus xml:lang="en">(f[1]r2)</locus> tōṇairai ‡ (cā)ṟṟariya taṉimuṟṟit taṭaṅkaraiyiṉ micaivuyppak ‡ kāṟṟeṟiyun (ta)ḻaiceviya kaṭā-</l>
-   <l><locus xml:lang="en">(f[1]r3)</locus> kkaḷiṟṟai vaṇaṅkuvām <g ref="#pcl"/> <emph rend="bold" xml:lang="sa">śivamayam</emph> <g ref="#pcl"/></l>
-                    </lg></quote></desc>
-                    <desc synch="#U3" type="blessing title" subtype="marginal">folio 1, recto, unfoliated = <emph rend="bold">incipit</emph>: marginal benedictions and title. <quote xml:lang="ta" rend="block"><lg>
-   <l><locus xml:lang="en">([1]r, lm, 1)</locus> <emph rend="bold" xml:lang="sa">śivamayam</emph></l>
-   <l><locus xml:lang="en">(f[1]r, lm, 2‒3)</locus> kācikāṇṭam kaṭavul vālttu</l>
-   <l><locus xml:lang="en">(f[1]r1)</locus> cīrpūtta ceḻuntaraṅkat tīmpuṉaṉ mantākiṉitaṇ ṭēṉār koṉṟait ‡ tārpūtta ceñcaṭaiyi laṇintumataṉ mēlviḻaivu taṇiyā</l>
-   <l><locus xml:lang="en">(f[1]r2)</locus> ṉākik ‡ kārpūtta viruvicumpiṟ kaṅkainati cūḻkiṭanta kāci vāḻu ‡ mēṟpūtta taṉimutali ṉiṇaiyaṭip pūṅ kamalamal rēṟṟu [<term xml:lang="en">i.e.</term> rēttu] vāmē</l>
-   <l><locus xml:lang="en">(f[1]r3)</locus> = 1 = vē [<term xml:lang="en">i.e.</term> vēṟu] = alakil (...)</l>
-                      </lg></quote></desc>
-                  </additions>
+                     
+                    
+                    
+                  <desc synch="#U1" type="shelfmark">Shelfmark in black ink: <quote>b/38</quote> (f[1]r).</desc><desc synch="#U1" type="documenting-note">Stamp <quote>SOCIÉTÉ ASIATIQUE DON COLLECTION ARIEL</quote> (U1, f[1]r).</desc></additions>
                   <bindingDesc>
                      <binding>
-                        <p>Original woodcovers. </p>
+                        <p>Original <material>wood</material> covers.</p>
                      </binding>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
                      <origDate calendar="gregorian" when="1747">See colophon, U3, f294v.</origDate>
-                     <origPlace>South India, Tamilnadu. </origPlace>
+                     <origPlace>South India, Tamilnadu.</origPlace>
                   </origin>
                   <acquisition>
-                     <p>Bequest of <persName ref="https://catalogue.bnf.fr/ark:/12148/cb143513141" key="Ariel, Edouard (1818-1854)">Edouard Ariel</persName>. Made first to Société Asiatique de Paris in 1855, later transfered to Bibliothèque Nationale (see Rosny 1869).</p>
+                     <p>Received, August 1st, 1866, from the Société Asiatique. See BnF, département des Manuscrits, inventaire 7 = <title>Dons: manuscrits et imprimés documentaires, 1848-1895</title>, no. 1192.</p>
                   </acquisition>
-               </history>
+               <provenance><p>Owned by <persName ref="https://catalogue.bnf.fr/ark:/12148/cb143513141" key="Ariel, Edouard (1818-1854)">Edouard Ariel</persName> (1818-1854). Bequested by Edouard Ariel to Société Asiatique (Rosny 1868, p. 177).</p></provenance></history>
                <additional>
                   <listBibl>
-                     <bibl>Cabaton, Antoine (1912). <title xml:lang="fr">Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f66">p. 48</ref>.</bibl>
-                     <bibl>Raghavan, V. (1960). <title type="article">Tamil Versions of the Purāṇas</title>. <title>Purāṇa</title> 2(1–2): 225–242.</bibl>
-                     <bibl>Rangacharya, M. &amp; Kuppusvami Sastri, S. (1916). <title>A Descriptive Catalogue of the Tamil Manuscripts in the Government Oriental Manuscripts Library, Madras. Vol. 2: Itihāsa and Purāṇa, and Religion and Philosophy (Vaiṣṇavism).</title> Madras: Government Press.</bibl>
-                     <bibl>Rosny, Léon de (1869). <title xml:lang="fr" type="article">La bibliothèque tamoule de M. Ariel, de Pondichéry</title>. In: <title xml:lang="fr">Variétés orientales</title> (pp. 177‒224). Paris: Maisonneuve.</bibl>
-                     <bibl>Shulman, David (2012). <title>More than Real: A History of the Imagination in South India.</title> Cambridge [Ma]: Harvard University Press.</bibl>
-                  </listBibl>
+                     
+                     
+                     
+                     
+                     
+                  <bibl>Cabaton, Antoine (1912). <title xml:lang="fr">Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f66">p. 48</ref>.</bibl><bibl>Raghavan, V. (1960). <title type="article">Tamil Versions of the Purāṇas</title>. <title>Purāṇa</title> 2(1–2): 225–242.</bibl><bibl>Rangacharya, M. &amp; Kuppusvami Sastri, S. (1916). <title>A Descriptive Catalogue of the Tamil Manuscripts in the Government Oriental Manuscripts Library, Madras. Vol. 2: Itihāsa and Purāṇa, and Religion and Philosophy (Vaiṣṇavism).</title> Madras: Government Press.</bibl><bibl>Rosny, Léon de (1868). <title xml:lang="fr" type="article">La bibliothèque tamoule de M. Ariel, de Pondichéry</title>. In: <title xml:lang="fr">Variétés orientales</title> (pp. 177‒224). Paris: Maisonneuve.</bibl><bibl>Shulman, David (2012). <title>More than Real: A History of the Imagination in South India.</title> Cambridge [Ma]: Harvard University Press.</bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p>Abbreviations. c = column, f = folio, lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso. GOML = Government Oriental Manuscripts Library, Madras/Chennai. MTL = Madras Tamil Lexicon. TMSSML = Tanjore Maharaja Serfoji Sarasvati Mahal Library.</p>
-         <p><emph rend="bold">Transliteration conventions.</emph> Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Conjectural (whether the text is not clearly legible or the character is ambigous, e.g. <emph rend="italic">kāl</emph> or length of <emph rend="italic">o</emph> and <emph rend="italic">e</emph>) readings between parentheses. Alternative readings between parentheses separated by slash. Lost or entirely illegible character: "?". Crossed-out character: "X". Conjectural restoration of lost or entirely illegible between square brackets. Uppercase for initial vowels (in excerpts only). Unquoted text represented by (...). Conjunct letter: e.g. <emph rend="italic">t°</emph>, to be read <emph rend="italic">tum</emph> or <emph rend="italic">tam</emph>. Grantha letters in bold. Symbols/Abbreviations made explicit, between curly brackets: <g ref="#pcs"/> = <emph rend="italic">piḷḷaiyār cuḻi</emph>, short form; <g ref="#pcl"/> = <emph rend="italic">piḷḷaiyār cuḻi</emph>, long form, that is, with long horizontal stroke towards right; <g ref="#varudam"/>, <g ref="#maatham"/>, <g ref="#teti"/>; {line-filler}. Unfoliated folio number between square brackets, e.g. "f[1]r". Numerals normalised to decimal notation, e.g. "1121" not "1000 1 100 2 10 1". Hyphen occasionaly used to mark in-word components. Hyphen systematically used at the end of a line when the line-beginning is within a word or within a <emph rend="italic">cīr</emph>. <emph rend="italic">Sandhi</emph> split to the minimum: overshort <emph rend="italic">u</emph> occasionally restored as an apostrophe. Stanzas split by <emph rend="italic">cīr</emph>, as far as possible. <emph rend="italic">aṭi </emph>boundary marked by "‡".</p>
-      </encodingDesc>
+         
+         
+      <p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.    </p></encodingDesc>
       <revisionDesc>
-         <change when="2019-05">This catalogue entry has been redacted by Emmanuel FRANCIS (CNRS, CEIAS UMR 8564, EHESS/CNRS) for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG). Version 1, May 2019.</change>
-         <change when="2020-04">Version 2, April 2020.</change>
-         <change when="2021-05">Updated to TEI by Charles LI.</change>
-      </revisionDesc>
+         
+         
+         
+      <change when="2019-05">This catalogue entry has been redacted by Emmanuel FRANCIS (CNRS, CEIAS UMR 8564, EHESS/CNRS) for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG). Version 1, May 2019.</change><change when="2020-04">Version 2, April 2020.</change><change when="2021-05">Updated to TEI by Charles LI.</change><change when="2021-08">Updated to TST encoding conventions by Emmanuel FRANCIS.</change></revisionDesc>
    </teiHeader>
-</TEI>
+<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+  
+  <pb n="[1]r"/>
+  
+  <milestone n="1" unit="column"/>
+  <lb n="1"/><seg function="blessing">veṟṟi vē
+  <lb n="2" break="no"/>l uṟṟa tuṇai</seg>
+  
+  <milestone n="2" unit="column"/>
+  <lb n="1"/>Iḵtu
+  
+  <milestone n="3" unit="column"/>
+  <lb n="1"/><seg function="title">kācikāṇṭam</seg>
+</body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
+  
+  <pb n="[1]r"/>
+  
+  <milestone unit="left-margin"/>
+  <lb n="1"/><seg function="blessing"><term xml:lang="sa">śivamayam</term></seg>
+  <lb n="2"/><seg function="blessing"><term xml:lang="sa">hariḥ Om</term></seg>
+  <lb n="3"/><seg function="blessing">naṉṟāka</seg>
+  
+  <milestone unit="main-text-area"/>
+  <lb n="1"/><seg function="invocation"><choice><sic>māttariya</sic><corr>māṟṟariya</corr></choice> tolpiṟavi maṟikaṭali ṉiṭaipaṭṭup ‡ pōṟṟuṟutaṉ kurai kaḻaṟṟāṭ puṇaipaṟṟik kiṭan
+  <lb n="2" break="no"/>tōṇairai ‡ <unclear>cā</unclear>ṟṟariya taṉimuṟṟit taṭaṅkaraiyiṉ micaivuyppak ‡ kāṟṟeṟiyun <unclear>ta</unclear>ḻaiceviya kaṭā
+    <lb n="3"/>kkaḷiṟṟai vaṇaṅkuvām</seg> <g ref="#pcl"/> <seg function="blessing"><term xml:lang="sa">śivamayam</term></seg> <g ref="#pcl"/>
+</body></text><text synch="#U3" corresp="#T3" xml:lang="ta"><body>
+  
+  <pb n="[1]r"/>
+  
+  <milestone unit="left-margin"/>
+  <lb n="1"/><seg function="blessing"><term xml:lang="sa">śivamayam</term></seg>
+  <lb n="2"/><seg function="title">kācikā
+  <lb n="3" break="no"/>ṇṭam</seg> <seg function="intertitle">kaṭa
+  <lb n="4" break="no"/>vul vālttu</seg>
+  
+  <milestone unit="main-text-area"/>
+  <lb n="1"/><seg function="invocation"><seg function="incipit">cīrpūtta ceḻuntaraṅkat tīmpuṉaṉ mantākiṉitaṇ ṭēṉār koṉṟait</seg> ‡ tārpūtta ceñcaṭaiyi laṇintumataṉ mēlviḻaivu taṇiyā
+  <lb n="2" break="no"/>ṉākik ‡ kārpūtta viruvicumpiṟ kaṅkainati cūḻkiṭanta kāci vāḻu ‡ mēṟpūtta taṉimutali ṉiṇaiyaṭip pūṅ kamalamal rē<choice><orig>ṟṟu</orig><reg>ttu</reg></choice> vāmē</seg>
+  <lb n="3"/>= 1 = vē [<term xml:lang="en">i.e.</term> vēṟu] = alakil <gap reason="ellipsis"/>
+
+  <pb n="294v"/>
+  
+  <lb n="2"/><gap reason="ellipsis"/> = 69 = Arumaṟai muṉivar vāḻka vāṉiṉam vāḻkat teṇṇīr ‡ viritirai yu
+    <lb n="3" break="no"/>lakaṅkākkum viṟalkeḻu vēntaṉ vāḻka ‡ maruviya tiṅkaṭōru maḻaivaḷañ curakkaveṅkōṉ ‡ <seg function="explicit">poruvaṟa moḻin
+    <lb n="4" break="no"/>ta vi<choice><orig>ṉṉū</orig><reg>nnū</reg></choice>l poṟpoṭum polikamāto <g ref="#pcs"/> 70</seg> <g ref="#pcs"/> <seg function="blessing">tirucci<choice><orig>tta</orig><reg>ṟṟa</reg></choice>mpalam</seg> <g ref="#pcs"/> <seg function="completion-statement"><unclear>tūkki</unclear>vatu cevikkiṟa muṟaimaiy uraittav attiyāyam <g ref="#pcs"/>
+    <lb n="5"/>muṟṟum</seg> <seg function="blessing"><term xml:lang="sa">śubham astu Avighnam astu</term></seg> <g ref="#pcs"/> <seg function="blessing">Āṟumukan tuṇai</seg> <g ref="#pcs"/> <seg function="colophon">piṟapava <g ref="#varudam"/> cittirai <g ref="#maatham"/> 13 <g ref="#teti"/> ca<unclear>ṉikkiḻa</unclear>ṉāḷ Uttira<unclear>kakṣi</unclear> tuvāteci riṣapalakkaṇaṭtil muṉi
+    <lb n="6" break="no"/>yappa<unclear reason="consonant_unclear">ce</unclear>ṭṭiyār kumāraṉ laṣcumaṇaṉ kayy eḻuttu kācikāṇṭam eḻuti niṟaintu mu<choice><orig>ttu</orig><reg>ṟṟu</reg></choice>m</seg> <g ref="#pcs"/> <seg function="blessing">tirukkāḷatti liṅkan tuṇaiy uṇṭāka</seg> <g ref="#pcs"/> <g ref="#pcs"/>
+</body></text></TEI>
