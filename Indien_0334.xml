@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -7,8 +7,8 @@
             <title>Kācikāṇṭam</title>
          </titleStmt>
          <publicationStmt>
-            <publisher>Bibliothèque nationale de France.</publisher>
-            <date>2017</date>
+            <publisher>TST Project</publisher>
+            <date>2021</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -20,35 +20,35 @@
                   <idno type="shelfmark">Indien 334</idno>
                   <idno type="alternate"><idno>Tamoul 334</idno></idno>
                </msIdentifier>
-               <msContents>
-                  <summary/>
-                  <msItem defective="">
-                     <title>Kācikāṇṭam</title>
-                     <textLang mainLang="tam">Tamil</textLang>
-                  </msItem>
-               </msContents>
+               <msContents class="#STM">
+                  <summary><p>The <title xml:lang="ta">Kācikāṇṭam</title>, <quote>The book of Kāci</quote>, that is <placeName xml:lang="sa">Kāśī</placeName> (Benares), is a Tamil version of the <term xml:lang="sa">Kāśīkhaṇḍa</term> of the late version of the Sanskrit <title xml:lang="sa">Skandapurāṇa</title>. The <title xml:lang="ta">Kācikāṇṭam</title> is the work of the <title xml:lang="ta">Teṉkāci</title> (<quote>Southern Kāśī</quote>) king <persName xml:lang="ta">Ativīrarāmapāṇṭiyaṉ</persName>, who ruled in the second half of the 16th century. See Raghavan (1960, p. 235). On <persName xml:lang="ta">Ativīrarāmapāṇṭiyaṉ</persName>, best known for his <title xml:lang="ta">Naiṭatam</title>, a Tamil version of the Sanskrit <title xml:lang="sa">Naiṣadha</title> by <persName xml:lang="sa">Harṣa</persName>, see Shulman (2012, pp. 155ff.).</p>
+
+<p>The text is complete.</p>
+
+<p><emph rend="bold">Paratexts</emph>: marginal benedictions, marginal title, marginal chapter headers, in-text chapter completion statement, total <emph rend="italic">kaṇṭam</emph>s, total stanzas, text completion statement.</p>
+ </summary>
+                  
+               <msItem synch="#U2" xml:id="T1" defective="false"><title xml:lang="ta">Kācikāṇṭam</title><textLang mainLang="tam"/><filiation><p>Bnf Indien 332‒333; GOML D. 565‒566 (see Rangacharya &amp; Kuppusvami Sastri 1916, p. 549ff.).</p></filiation></msItem></msContents>
                <physDesc>
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
                         <extent>
-                           <measure unit="folio" quantity="252">1 + 252 + 1</measure>
+                           <measure unit="folio" quantity="252">1 + 250 + 1 (U1 + U2 + U3)</measure>
                            <dimensions type="leaf" unit="mm">
-                              <width quantity="385"/>
-                              <height quantity="35"/>
+                              
+                              
                            </dimensions>
-                        </extent>
-                        <foliation/>
+                        <dimensions type="object" unit="mm"><width quantity="385"/><height quantity="35"/></dimensions><dimensions type="written" unit="mm"/></extent>
+                        
                         <condition>Very good state of preservation. </condition>
-                     </supportDesc>
+                     <support><measure unit="stringhole" quantity="2"/></support><collation><desc xml:id="cover">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso.</desc><desc xml:id="U2">250 folios = <emph rend="bold"><term xml:lang="ta">Kācikāṇṭam</term></emph>. Tamil foliation [1]-246, 247<hi rend="superscript">1</hi>, 247<hi rend="superscript">2</hi>-249 (f1 unfoliated, as usual; 2 folios numbered 247). 8 lines per page.</desc><desc xml:id="U3">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso.</desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>.</desc></collation></supportDesc>
                      <layoutDesc>
-                        <layout columns="1" writtenLines=""/>
+                        <layout columns="1" writtenLines="8"/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote scope="sole" script="tamil">
-                        <p>Tamil script. </p>
-                     </handNote>
-                  </handDesc>
+                     
+                  <handNote synch="#U2" scope="sole" script="tamil" medium="incised"/></handDesc>
                   <additions/>
                   <bindingDesc>
                      <binding>
@@ -58,68 +58,52 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian" when="1825">No internal date. 1825 according to Cabaton (1912, p. 48). The reason for this date is unknown, except that the bundle was acquired from Eugène Burnouf. </origDate>
-                     <origPlace>South India, Tamilnadu. </origPlace>
+                     <origDate calendar="gregorian" notAfter="1830">No internal date. Dated to 1825 by Cabaton (1912), on unstated grounds. </origDate>
+                     <origPlace>South India, Tamilnadu.</origPlace>
                   </origin>
                   <acquisition>
-                     <p>Eugène <persName>Burnouf</persName>.</p>
+                     
                   </acquisition>
-               </history>
+               <provenance><p>Eugène <persName>Burnouf</persName>.</p></provenance></history>
                <additional>
                   <listBibl>
-                     <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f66">p. 48</ref>.</bibl>
-                     <bibl>Raghavan, V. (1960). "Tamil Versions of the Purāṇas".<title>Pūrāṇa</title>. 2(1–2): 225–242.</bibl>
-                     <bibl>Rangacharya, M. &amp; Kuppusvami Sastri, S. (1916). <title>A Descriptive Catalogue of the Tamil Manuscripts in the Government Oriental Manuscripts Library, Madras. Vol. 2: Itihāsa and Puṟāṇa, and Relgion and Philosophy (Vaiṣṇavism).</title> Madras: Government Press.</bibl>
-                     <bibl>Rosny, Léon de (1869). La bibliothèque tamoule de M. Ariel, de Pondichéry. In: <title>Variétés orientales</title> (pp. 177‒224). Paris: Maisonneuve.</bibl>
-                     <bibl>Shulman, David (2012). <title>More than Real: A History of the Imagination in South India.</title> Cambridge [Ma]: Harvard University Press.</bibl>
-                  </listBibl>
+                     
+                     
+                     
+                     
+                     
+                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f66">p. 48</ref>.</bibl><bibl>Raghavan, V. (1960). "Tamil Versions of the Purāṇas".<title>Pūrāṇa</title>. 2(1–2): 225–242.</bibl><bibl>Rangacharya, M. &amp; Kuppusvami Sastri, S. (1916). <title>A Descriptive Catalogue of the Tamil Manuscripts in the Government Oriental Manuscripts Library, Madras. Vol. 2: Itihāsa and Puṟāṇa, and Relgion and Philosophy (Vaiṣṇavism).</title> Madras: Government Press.</bibl><bibl>Shulman, David (2012). <title>More than Real: A History of the Imagination in South India.</title> Cambridge [Ma]: Harvard University Press.</bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change>This catalogue entry has been redacted by Emmanuel FRANCIS (CNRS, CEIAS UMR 8564, EHESS/CNRS) for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG). Version 1, May 2019. Version 2, April 2020.</change>
-      </revisionDesc>
-   </teiHeader>
-   <text>
-      <body>
-         <p>The Kācikāṇṭam, "The book of Kāci", that is Kāśī (Benares), is a Tamil version of the Kāśīkhaṇḍa of the late version of the Sanskrit Skandapurāṇa. The Kācikāṇṭam is the work of the Teṉkāci ("Southern Kāśī") king Ativīrarāmapāṇṭiyaṉ, who ruled in the second half of the 16th century. See Raghavan (1960, p. 235). On Ativīrarāmapāṇṭiyaṉ, best known for his Naiṭatam, a Tamil version of the Sanskrit Naiṣadha by Harṣa, see Shulman (2012, pp. 155ff.).</p>
-         <p>Other manuscript testimonies of this text are: Bnf Indien 332‒333; GOML D. 565‒566 (see Rangacharya &amp; Kuppusvami Sastri 1916, p. 549ff.).</p>
-         <p>The palm-leaf bundle, a single-text manuscript, contains between the two woodcovers:</p>
-         <p>
-            <emph rend="bold">U1</emph>: 1 folio, unfoliated = flyleaf.</p>
-         <p>
-            <emph rend="bold">U2</emph>: 250 folios, Tamil foliation 2‒249 (f1 unfoliated, as usual; 2 folios numbered 247) = text (<emph rend="italic">mūlam</emph>), 8 lines per page.</p>
-         <p>
-            <emph rend="bold">U3</emph>: 1 folio, unfoliated = flyleaf.</p>
-         <p>The text is complete.</p>
-         <p>
-            <emph rend="bold">Paratexts</emph>: marginal benedictions, marginal title, marginal chapter headers, in-text chapter completion statement, total <emph rend="italic">kaṇṭam</emph>s, total stanzas, text completion statement.</p>
-         <p>
-            <emph rend="bold">Excerpts</emph>
-         </p>
-         <p>
-            <emph rend="bold">U2</emph>, folio 1, recto, unfoliated = <emph rend="bold">incipit</emph>: benediction, title, chapter header in left margin; Kaṭavuḷ Vāḻttu, stanza n° 1 = Kāppu. <quote>
-               <p>(f[1]r, lm, 1‒6) tirucciṟṟampalam kācikāṇṭam kaṭavuḷ vāḻttu</p>
-               <p>(f[1]r1) māṟṟariya tolpiṟavi maṟikaṭali ṉiṭaippaṭṭup ‡ pōṟṟuṟutaṉ kurai kaḻaṟṟāḷp puṇaippaṟṟik kiṭantōrai ‡</p>
-               <p>(f[1]r2) cāṟṟariya taṉimuṟṟit [i.e. taṉimuttit] taṭaṅkaraiyiṉ micaiyuykkuṅ ‡ kāṟṟeṟiyun taḻaiceviyak kaṭākkaḷiṟṟai vaṇaṅkuvām ‡‡</p>
-               <p>(f[1]r3) cīrpūtta ceḻuntaraṅkat tīmpuṉal mantākiṉittaṇ ṭēṉār koṉṟait ‡ tārpūtta ceñcaṭaiyi laṇintumata-</p>
-               <p>(f[1]r4) ṉ melviḻavu [i.e. mēlviḻaivu] taṇiyā ṉākik ‡ kārpūtta virumpivicumpiṟ kaṅkainati cūḻkiṭanta kāci vāḻu ‡ mēṟpūtta taṉi-</p>
-               <p>(f[1]r5) mutali ṉiṇaiyaṭip pūṅ kamalamal rettu [i.e. rēttu] vāmē – 1 – Alakil (...)</p>
-            </quote>
-         </p>
-         <p>
-            <emph rend="bold">U3</emph>, folio 249, verso = <emph rend="bold">excipit</emph>: Cēvikki Muṟamai (f242v, lm) [i.e. Cēviyattiṟam Uraittav Attiyāyam], stanza n° 69; total <emph rend="italic">kāṇṭam</emph>s and stanzas; text completion statement; total stanzas. <quote>
-               <p>(f249v4) (...) – 68 – Arumaṟai muṉivar vāḻka vāṉiṉam vāḻkat teṇṇīr ‡ viritirai yulakatt(i)raṅku viṟalkeḻu vēntaṉ vāḻ-</p>
-               <p>(f249v4) ka ‡ maruviya tiṅkaṭōru maḻaivaḷañ curakkaveṅkōṉ ‡ poruvara moḻinta viṉṉūl poṟp poṭum poli kamātō – 69 –</p>
-               <p>(f249v6) Āka kāṇṭam ṉūṟukku tiruviruttam 2530 – kācikāṇṭamuṟṟum</p>
-            </quote>
-         </p>
-         <p>Abbreviations. c = column, f = folio, lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso. GOML = Government Oriental Manuscripts Library, Madras/Chennai. MTL = Madras Tamil Lexicon. TMSSML = Tanjore Maharaja Serfoji Sarasvati Mahal Library.</p>
-         <p>
-            <emph rend="bold">Transliteration conventions.</emph>
-         </p>
-         <p>Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Conjectural (whether the text is not clearly legible or the character is ambigous, e.g. <emph rend="italic">kāl</emph> or length of <emph rend="italic">o</emph> and <emph rend="italic">e</emph>) readings between parentheses. Alternative readings between parentheses separated by slash. Lost or entirely illegible character: "?". Crossed-out character: "X". Conjectural restoration of lost or entirely illegible between square brackets. Uppercase for initial vowels (in excerpts only). Unquoted text represented by (...). Conjunct letter: e.g. <emph rend="italic">t°</emph>, to be read <emph rend="italic">tum</emph> or <emph rend="italic">tam</emph>. Grantha letters in bold. Symbols/Abbreviations made explicit, between curly brackets: {pcs} = <emph rend="italic">piḷḷaiyār cuḻi</emph>, short form; {pcl} = <emph rend="italic">piḷḷaiyār cuḻi</emph>, long form, that is, with long horizontal stroke towards right; {varuṣam}, {mācam}, {tēti}; {line-filler}. Unfoliated folio number between square brackets, e.g. "f[1]r". Numerals normalised to decimal notation, e.g. "1121" not "1000 1 100 2 10 1". Hyphen occasionaly used to mark in-word components. Hyphen systematically used at the end of a line when the line-beginning is within a word or within a <emph rend="italic">cīr</emph>. <emph rend="italic">Sandhi</emph> split to the minimum: overshort <emph rend="italic">u</emph> occasionally restored as an apostrophe. Stanzas split by <emph rend="italic">cīr</emph>, as far as possible. <emph rend="italic">aṭi </emph>boundary marked by "‡".</p>
+         
+      <change when="2020-04">This catalogue entry has been redacted by Emmanuel FRANCIS (CNRS, CEIAS UMR 8564, EHESS/CNRS) for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG). Version 1, May 2019. Version 2, April 2020.</change><change when="2021-08">Updated to TST encoding conventions by Emmanuel FRANCIS.</change></revisionDesc>
+   <encodingDesc><p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.    </p></encodingDesc></teiHeader>
+   
+<text synch="#U2" corresp="#T1" xml:lang="ta"><body>
+  
+  <pb n="[1]r"/>
+  
+  <milestone unit="left-margin"/>
+  <lb n="1"/><seg function="blessing">tirucci
+  <lb n="2" break="no"/>ṟṟampa
+  <lb n="3" break="no"/>lam</seg> <seg function="title">kā
+  <lb n="4" break="no"/>cikāṇṭa
+  <lb n="5" break="no"/>m</seg> <seg function="intertitle">kaṭavuḷ
+  <lb n="6"/>vāḻttu</seg>
+  
+  <milestone unit="main-text-area"/>
+  <lb n="1"/><seg function="invocation"><seg function="incipit">māṟṟariya tolpiṟavi maṟikaṭali ṉiṭaippaṭṭup ‡</seg> pōṟṟuṟutaṉ kurai kaḻaṟṟāḷp puṇaippaṟṟik kiṭantōrai ‡
+  <lb n="2"/>cāṟṟariya taṉimu<choice><orig>ṟṟi</orig><reg>tti</reg></choice>t taṭaṅkaraiyiṉ micaiyuykkuṅ ‡ kāṟṟeṟiyun taḻaiceviyak kaṭākkaḷiṟṟai vaṇaṅkuvām ‡‡</seg>
+  <lb n="3"/>cīrpūtta ceḻuntaraṅkat tīmpuṉal mantākiṉittaṇ ṭēṉār koṉṟait ‡ tārpūtta ceñcaṭaiyi laṇintumata
+  <lb n="4" break="no"/>ṉ melviḻavu [<term xml:lang="en">i.e.</term> mēlviḻaivu] taṇiyā ṉākik ‡ kārpūtta virumpivicumpiṟ kaṅkainati cūḻkiṭanta kāci vāḻu ‡ mēṟpūtta taṉi
+  <lb n="5" break="no"/>mutali ṉiṇaiyaṭip pūṅ kamalamal <choice><sic>re</sic><corr>rē</corr></choice>ttu vāmē – 1 – Alakil <gap reason="ellipsis"/>
+  
+  <pb n="249v"/>
+  <lb n="4"/><gap reason="ellipsis"/> – 68 – Arumaṟai muṉivar vāḻka vāṉiṉam vāḻkat teṇṇīr ‡ viritirai yulakat<unclear reason="vowel_unclear">ti</unclear>raṅku viṟalkeḻu vēntaṉ vāḻ
+  <lb n="5" break="no"/>ka ‡ maruviya tiṅkaṭōru maḻaivaḷañ curakkaveṅkōṉ ‡ <seg function="explicit">poruvara moḻinta viṉṉūl poṟp poṭum poli kamātō ‡‡ – 69</seg> –
+  <lb n="6"/><seg function="total-stanzas">Āka kāṇṭam ṉūṟukku tiruviruttam 2530</seg> – <seg function="completion-statement">kācikāṇṭamuṟṟum</seg>
       </body>
-   </text>
-</TEI>
+   </text></TEI>
