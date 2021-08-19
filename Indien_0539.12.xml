@@ -21,22 +21,22 @@
                   <idno type="alternate"/>
                </msIdentifier>
                <msContents class="#STM">
-                  <summary>TBI</summary>
+                  <summary>Possibly a composite.</summary>
                   
                </msContents>
                <physDesc>
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
                         <extent>
-                           <measure unit="folio" quantity="1">1 (U1)</measure>
+                           <measure unit="folio" quantity="15">15 (U1)</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
                            <width quantity="160"/><height quantity="25"/></dimensions>
                         <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
                         
-                        <condition>Cracked and truncated. Margins truncated (thus foliation lost).</condition>
-                     <support><measure unit="stringhole" quantity="2"/></support><collation><desc xml:id="U1">15 folios = <emph rend="bold">TBI</emph>. Some foliated, some not foliated. </desc></collation></supportDesc>
+                        <condition>Boreholes.</condition>
+                     <support><measure unit="stringhole" quantity="2"/></support><collation><desc xml:id="U1">15 folios = <emph rend="bold">TBI</emph>. Some foliated, some not foliated. f[1]v, f[8v], f[10]v, f[13]v, f[14]v blank. f[15]r more dark = outside page.</desc></collation></supportDesc>
                      <layoutDesc>
                         
                      </layoutDesc>
@@ -77,15 +77,21 @@
       <change when="2021-08">Record created by Emmanuel FRANCIS.</change></revisionDesc>
    <encodingDesc><p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.    </p></encodingDesc></teiHeader>
    
-<text><body>
+<text synch="#U1"><body>
   
-  <pb n="[1]r"/>
-  
+  <pb n="[5]r"/>
   <milestone unit="left-margin"/>
   <lb n="1"/>
   
-  <milestone unit="main-text-area"/>
+    <pb n="[12]r"/>
+  <milestone unit="left-margin"/>
   <lb n="1"/>
+  
+  <pb n="[15]r"/>
+  
+  <pb n="[15]v"/>
+  
+  
   
       </body>
    </text></TEI>

@@ -28,23 +28,25 @@
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
                         <extent>
-                           <measure unit="folio" quantity="1">1 (U1)</measure>
+                           <measure unit="folio" quantity="8">1 + 6+ 1 (U1 + U2 + U3)</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
-                           <width quantity="160"/><height quantity="25"/></dimensions>
+                           <width quantity="145"/><height quantity="30"/></dimensions>
                         <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
                         
-                        <condition>Cracked and truncated. Margins truncated (thus foliation lost).</condition>
-                     <support><measure unit="stringhole" quantity="2"/></support><collation><desc xml:id="U1">8 folios = <emph rend="bold">TBI</emph>. Tamil foliation [1], [1]-6, [1].
-U14abc.</desc></collation></supportDesc>
+                        <condition>Truncation, boreholes.</condition>
+                     <support><measure unit="stringhole" quantity="2"/></support><collation><desc xml:id="U1">1 folio = <emph rend="bold">TBI</emph>. No foliation.
+</desc><desc xml:id="U2">6 folios = <emph rend="bold">TBI</emph>. Tamil foliation [1]-6. f6v blank.
+</desc><desc xml:id="U3">1 folio = <emph rend="bold">TBI</emph>. No foliation. f[1]v blank, more dark = outside page.
+</desc></collation></supportDesc>
                      <layoutDesc>
                         
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
                      
-                  <handNote synch="#U1" scope="sole" script="tamil" medium="incised"/></handDesc>
+                  <handNote synch="#U1 U2 U3" scope="sole" script="tamil" medium="incised"/></handDesc>
                   <additions/>
                   <bindingDesc>
                      <binding>
@@ -78,7 +80,7 @@ U14abc.</desc></collation></supportDesc>
       <change when="2021-08">Record created by Emmanuel FRANCIS.</change></revisionDesc>
    <encodingDesc><p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.    </p></encodingDesc></teiHeader>
    
-<text><body>
+<text synch="#U1"><body>
   
   <pb n="[1]r"/>
   
@@ -89,4 +91,27 @@ U14abc.</desc></collation></supportDesc>
   <lb n="1"/>
   
       </body>
-   </text></TEI>
+   </text><text synch="#U2"><body>
+  
+  <pb n="[1]r"/>
+  
+  <milestone unit="left-margin"/>
+  <lb n="1"/>
+  
+  <milestone unit="main-text-area"/>
+  <lb n="1"/>
+  
+    <pb n="6r"/>
+
+  
+      </body></text><text synch="#U3"><body>
+  
+  <pb n="[1]r"/>
+  
+  <milestone unit="left-margin"/>
+  <lb n="1"/>
+  
+  <milestone unit="main-text-area"/>
+  <lb n="1"/>
+  
+      </body></text></TEI>

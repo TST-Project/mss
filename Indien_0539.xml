@@ -20,15 +20,16 @@
                   <idno type="shelfmark">Indien 539</idno>
                   <idno type="alternate"/>
                </msIdentifier>
-               <msContents class="#MTM">
-                  <summary>A collection of folios (many truncated) of various dimensions.</summary>
+               <msContents class="#CM">
+                  <summary>A collection of folios (many truncated, with lost foliation) of various dimensions.
+539.7, 539.8 possibly by same hand.</summary>
                   
                </msContents>
                <physDesc>
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
                         <extent>
-                           <measure unit="folio" quantity="1">1 + 2 +</measure>
+                           <measure unit="folio" quantity="1"/>
                            <dimensions type="leaf" unit="mm">
                               
                               
@@ -36,15 +37,14 @@
                         <dimensions type="object" unit="mm"><width quantity="235"/><height quantity="30"/><depth quantity="65"/></dimensions><dimensions type="written" unit="mm"/></extent>
                         
                         <condition>Poor state of preservation. Folios cracked and truncated. Margins truncated (thus foliation lost).</condition>
-                     <support><measure unit="stringhole"/></support><collation><desc xml:id="U1">1 folio = <emph rend="bold">Title Page (?)</emph>. No foliation. Verso blank. Recto darkened = outside page.</desc><desc xml:id="U2">2 folios = <emph rend="bold">TBI</emph>. Foliation lost, if any.</desc><desc xml:id="U3">18 folios = <emph rend="bold">TBI</emph>. Foliation lost, if any, or partially lost. f[18]v blank.</desc><desc xml:id="U4">4 folios = <emph rend="bold">TBI</emph>. Foliation lost, if any. f[3]v, f[4]v blank. f3-4 might be considered independent.</desc><desc xml:id="U5">2 folios = <emph rend="bold">guard leaves</emph>. Foliation lost, if any. Blank recto verso. Goes with U4 apparently.</desc><desc xml:id="U6">17 folios = <emph rend="bold">guard leaves</emph>. Tamil foliation [1]-7<hi rend="superscript">1</hi>, 7<hi rend="superscript">2</hi>-16.</desc><desc xml:id="U7">1 folio = <emph rend="bold">TBI</emph>. Tamil foliation 2. 155 x 25 mm.</desc><desc xml:id="U8">22 folios = <emph rend="bold">TBI</emph>. No foliation.</desc><desc xml:id="U9">2 folios = <emph rend="bold">TBI</emph>. Tamil foliation 1-2. </desc><desc xml:id="U10">10 folios = <emph rend="bold">TBI</emph>. Foliation lost, if any.</desc><desc xml:id="U11">6 folios = <emph rend="bold">TBI</emph>. Tamil foliation 1-6.</desc><desc xml:id="U12">8 folios = <emph rend="bold">TBI</emph>. Tamil foliation 1-6.</desc><desc xml:id="U13">15 folios = <emph rend="bold">TBI</emph>. Some foliated, some not foliated. </desc><desc xml:id="U14">8 folios = <emph rend="bold">TBI</emph>. Tamil foliation [1], [1]-6, [1].
-U14abc.</desc></collation></supportDesc>
+                     <support><measure unit="stringhole"/></support><collation/></supportDesc>
                      <layoutDesc>
-                        <layout columns="1" writtenLines="8"/>
+                        
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
                      
-                  <handNote synch="#U2" scope="sole" script="tamil" medium="incised"/></handDesc>
+                  </handDesc>
                   <additions><desc type="documenting-note" subtype="inserted">Paper note inscribed in black ink:
 <quote>
   <lb n="1"/>tevata * *
@@ -86,15 +86,4 @@ U14abc.</desc></collation></supportDesc>
       <change when="2021-08">Record created by Emmanuel FRANCIS.</change></revisionDesc>
    <encodingDesc><p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.    </p></encodingDesc></teiHeader>
    
-<text synch="#U1"><body>
-  
-  <pb n="[1]r"/>
-  
-  <milestone unit="left-margin"/>
-  <lb n="1"/>
-  
-  <milestone unit="main-text-area"/>
-  <lb n="1"/>
-  
-      </body>
-   </text></TEI>
+</TEI>

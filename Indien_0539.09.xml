@@ -28,15 +28,15 @@
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
                         <extent>
-                           <measure unit="folio" quantity="1">1 (U1)</measure>
+                           <measure unit="folio" quantity="10">10 (U1)</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
-                           <width quantity="160"/><height quantity="25"/></dimensions>
+                           <width quantity="205"/><height quantity="30"/></dimensions>
                         <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
                         
-                        <condition>Cracked and truncated. Margins truncated (thus foliation lost).</condition>
-                     <support><measure unit="stringhole" quantity="2"/></support><collation><desc xml:id="U1">10 folios = <emph rend="bold">TBI</emph>. Foliation lost, if any.</desc></collation></supportDesc>
+                        <condition>Truncation, boreholes.</condition>
+                     <support><measure unit="stringhole" quantity="2"/></support><collation><desc xml:id="U1">10 folios = <emph rend="bold">TBI</emph>. Foliation lost, if any. f[10]v blank.</desc></collation></supportDesc>
                      <layoutDesc>
                         
                      </layoutDesc>
@@ -77,7 +77,7 @@
       <change when="2021-08">Record created by Emmanuel FRANCIS.</change></revisionDesc>
    <encodingDesc><p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.    </p></encodingDesc></teiHeader>
    
-<text><body>
+<text synch="#U1"><body>
   
   <pb n="[1]r"/>
   
@@ -86,6 +86,9 @@
   
   <milestone unit="main-text-area"/>
   <lb n="1"/>
+  
+    <pb n="[10]r"/>
+
   
       </body>
    </text></TEI>
