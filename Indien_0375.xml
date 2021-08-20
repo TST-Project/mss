@@ -4,11 +4,11 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Kantarantāti (text and commentary, interspersed)</title>
-         </titleStmt>
+            <title><title xml:lang="ta">Kantarantāti</title> (text and commentary, interspersed)</title>
+            <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          <publicationStmt>
-            <publisher>Bibliothèque nationale de France.</publisher>
-            <date>2020</date>
+            <publisher>TST Project</publisher>
+            <date>2021</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -16,15 +16,32 @@
                   <repository>
                      <orgName>Bibliothèque nationale de France. Département des Manuscrits.</orgName>
                   </repository>
-                  <idno type="eadid">FRBNFEAD000103902</idno>
+                  <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1039025</idno>
                   <idno type="shelfmark">Indien 375</idno>
                   <idno type="alternate"><idno>Tamoul 375</idno></idno>
                </msIdentifier>
-               <msContents>
-                  <summary/>
-                  <msItem defective="">
-                     <title>Kantarantāti</title>
-                     <textLang mainLang="tam" otherLangs="san">Tamil and Sanskrit</textLang>
+               <msContents class="#STM">
+                  <summary>
+                      <p>The <title xml:lang="ta">Kantarantāti</title> by <persName xml:lang="ta">Aruṇakirinātar</persName> (15th century) is a praise in verse of the god <term xml:lang="ta">Murukaṉ</term>.</p>
+                      <p>The text appears to be complete (2 <term xml:lang="ta">Kāppu</term> stanzas + 100 stanzas). The bundle appears to be the fragment of a larger bundle, as indicated by the foliation starting at 29 in U2.</p>
+                      <p><emph rend="bold">Paratexts</emph>: marginal and in-text benedictions, title-page, marginal title, invocation pages, text completion statement, scribal note (U2, f56v).</p>
+                  </summary>
+                  <msItem synch="#U2" defective="false">
+                     <title xml:lang="ta">Kantarantāti</title>
+                     <textLang mainLang="tam" otherLangs="san"></textLang>
+                     <filiation>Other manuscript testimonies of this text are: BnF <ref target="Indien_0030a.xml">Indien 30</ref>, U2.</filiation>
+                     <incipit xml:lang="ta"><note xml:lang="en"><emph rend="bold">U2</emph>, folio 30, recto = <emph rend="bold">incipit</emph>: marginal benedictions and title; Kāppu stanza n° 1.</note>
+<milestone n="30r" unit="folio"/><lb n="1"/>vāraṇat tāṉai yayaṉaiviṇ ṇōrai malaṟkkarattu ‡
+<lb n="2"/>vāraṇat tāṉai makattuveṉ ṟōṉmain taṉaittuvaca ‡
+<lb n="3"/>vāraṇat tāṉait tuṇainaya tāṉai vayalaruṇai ‡
+<lb n="4"/>vāraṇat tāṉait tiṟaikoṇṭa yāṉaiyai vāḻttuvaṉē <g ref="#pcs"/></incipit>
+                      <incipit xml:lang="ta"><note xml:lang="en"><emph rend="bold">U2</emph>, folio 30, verso = <emph rend="bold">incipit</emph>: commentary on <term xml:lang="ta">Kāppu</term> stanza n° 1.</note>
+<milestone n="30v" unit="folio"/><lb n="1"/>Etu <g ref="#pcs"/> vāraṇattāṉai – Ayirāpatattil <note xml:lang="en">[i.e. <term xml:lang="ta">Ayirāvatattil</term>]</note> intiraṉaiyum – Ayaṉaip – piṟamāvaiyum <note xml:lang="en">[i.e. <term xml:lang="ta">piramāvaiyum</term>]</note> – (…)</incipit>
+                    <explicit xml:lang="ta"><note xml:lang="en"><emph rend="bold">U2</emph>, folio 122, verso = <emph rend="bold">excipit</emph>: commentary on stanza n° 100, benedictions, text completion statement.</note>
+<milestone n="122v" unit="folio"/><lb n="5"/>nalkun – taruvaṉ – tiruvaṭiyē – cīrpātamē<pc>-</pc>y eṉra<pc>-</pc>v āṟu <g ref="#pcs"/> 100 <g ref="#pcs"/> tiruccittampalam <note xml:lang="en">[i.e. <term xml:lang="ta">tiruciṟṟampalam</term>]</note> <g ref="#pcs"/>
+<lb n="6"/>caravaṇa<pc>-</pc>pava<pc>-</pc>murukaṉ pātāravintamē tuṇai <g ref="#pcs"/> kantarāntati – muṟṟum <g ref="#pcs"/> –
+<lb n="7"/>ciṟai koṇṭa viṉayākar pātamē tuṇai <g ref="#pcs"/> tiruccentūr murukar pātāravintamē tuṇai <g ref="#pcs"/> murukaṉ ṟuṇai <g ref="pcs"/>
+                    </explicit>
                   </msItem>
                </msContents>
                <physDesc>
@@ -37,7 +54,11 @@
                               <height quantity="35"/>
                            </dimensions>
                         </extent>
-                        <foliation/>
+                        <collation>
+                            <desc xml:id="U1">1 folio, unfoliated = title-page, by hand n° 1.</desc>
+                            <desc xml:id="U2">84 folios, Tamil foliation 29‒112 = text (<foreign xml:lang="ta">mūlam</foreign>), 6 to 8 lines per page, by hand n° 2. We find successively: invocatory stanzas to <term xml:lang="sa">Gaṇeśa</term> (f29r‒f29v), 2 <term xml:lang="ta">Kāppu</term> stanzas (f30r‒f33r), the text proper (f34r‒f122v5), that is, 100 stanzas, and a completion statement with benedictions (<foreign xml:lang="ta">tuṇai</foreign> formulae) (f122v5‒f122v7). Each individual stanza (<term xml:lang="ta">Kāppu</term> stanzas and 100 stanzas that follow) is immediately followed by an individual commentary (<foreign xml:lang="ta">urai</foreign>). The two Kāppu stanzas are numbered 1 to 2 independently and are codicologically separated from the others (f30r‒f33r; f33v is blank).</desc>
+                            <desc xml:id="U3">1 folio, unfoliated= flyleaf.</desc>
+                        </collation>
                         <condition>Very good state of preservation, in spite of bore holes caused by insects.</condition>
                      </supportDesc>
                      <layoutDesc>
@@ -45,11 +66,39 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote scope="sole" script="tamil">
-                        <p>Tamil script. </p>
-                     </handNote>
+                     <handNote scope="sole" script="tamil"></handNote>
                   </handDesc>
-                  <additions/>
+                  <additions>
+                    <desc type="blessing title" subtype="title-page" synch="#U1">folio 1, recto, unfoliated = <emph rend="bold">title-page</emph>: benediction, title. <q rend="block" xml:lang="ta"><lg>
+               <l><locus xml:lang="en">(f[1]r, c1, 1‒3)</locus> veṟṟi-vēl uṟṟa tuṇai</l>
+               <l><locus xml:lang="en">(f[1]r, c2, 1‒2)</locus> kantarāntati-y-urai-pāṭam</l>
+            </lg></q></desc>
+                    <desc type="blessing invocation" subtype="beginning" synch="#U2">folio 29, recto = <emph rend="bold">invocation</emph>: marginal benediction; invocatory stanzas to <term xml:lang="sa">Gaṇeśa</term>. <q rend="block" xml:lang="ta"><lg>
+                       <l><locus xml:lang="en">(f30r, lm1)</locus> <seg rend="grantha">hari Om</seg> <note xml:lang="en">[the phrase <seg rend="grantha">hari O</seg> is itself inscribed inside the final <term xml:lang="sa">m</term>]</note></l>
+            </lg></q></desc>
+                    <desc type="invocation" subtype="beginning" synch="#U2">folio 29, verso = <emph rend="bold">invocation</emph>: invocatory stanza to <term xml:lang="sa">Gaṇeśa</term> (Sanskrit in Tamil script, with some Grantha letters); benediction (<foreign xml:lang="ta">tuṇai</foreign> formula). <q rend="block" xml:lang="ta"><lg>
+               <l><locus xml:lang="en">(f29v1)</locus> mū<seg rend="grantha">ṣi</seg>ka<pc>-</pc>vākaṉa mōtaka<pc>-</pc>A<seg rend="grantha">s</seg>ta</l>
+               <l><locus xml:lang="en">(f29v2)</locus> cāmara<pc>-</pc>karṉa – viḷampita<pc>-</pc>cū<seg rend="grantha">t</seg>ti-</l>
+               <l><locus xml:lang="en">(f29v3)</locus> ra – vāmaṉa<pc>-</pc>rūpa – mayē<seg rend="grantha">s</seg>para<pc>-</pc>put-</l>
+               <l><locus xml:lang="en">(f29v4)</locus> tira vikkiṉa<pc>-</pc>viṉāyaka pāta nama-</l>
+               <l><locus xml:lang="en">(f29v5)</locus> <seg rend="grantha">s</seg> tu <g ref="#pcs"/> viṉāyakaṉ pātamē tuṇai <g ref="#pcs"/></l>
+            </lg></q>
+The corresponding text with Sanskrit spelling is: <q rend="block" xml:lang="sa"><lg>
+               <l>mūṣika-vāhana modaka-hasta</l>
+               <l>cāmara-karṇa vilambita-sūtra</l>
+               <l>vāmana-rūpa maheśvara-putra</l>
+               <l>vighna-vināyaka pāda namas te</l>
+            </lg></q></desc>
+               <desc type="blessing title" subtype="marginal beginning" synch="#U2">folio 30, recto = <emph rend="bold">incipit</emph>: marginal benedictions and title. <q rend="block" xml:lang="ta"><lg>
+                    <l><locus xml:lang="en">(f30r, lm1)</locus> <seg rend="grantha">hari Om</seg> naṉṟāka <note xml:lang="en">[this phrase is itself inscribed inside a larger Om.]</note></l>
+               <l><locus xml:lang="en">(f30r, lm2, 1‒3)</locus> kantarantāti</l></lg></q></desc>
+            <desc type="commenting-note" synch="#U2">folio 56, verso = <emph rend="bold">scribal note</emph>: realising that this page was inadvertently left blank, the scribe added a note to his reader to alert him that there is no discontinuity in the text. <q rend="block" xml:lang="ta"><lg>
+               <l><locus xml:lang="en">(f56v1)</locus> yātip picakāyp pōṉatu</l>
+               <l><locus xml:lang="en">(f56v2)</locus> Ākaiyāl itil oṉṟun tap-</l>
+               <l><locus xml:lang="en">(f56v3)</locus> pitam illai</l>
+               <l xml:lang="en">“It [i.e., the present blank page] occurred [literally “went”] due to memory failure; therefore in this [i.e., the blank page] there is not even a mistake [i.e. a gap in the text].”</l>
+            </lg></q></desc>
+                  </additions>
                   <bindingDesc>
                      <binding>
                         <p>Woodcovers apparently fabricated in the BnF. </p>
@@ -59,7 +108,7 @@
                <history>
                   <origin>
                      <origDate calendar="gregorian" when="1840">1840 according to Cabaton (1912, p. 54). The reason for this date is unknown.</origDate>
-                     <origPlace>South India, Tamilnadu. </origPlace>
+                     <origPlace>South India, Tamilnadu.</origPlace>
                   </origin>
                   <acquisition>
                      <p>Unknown.</p>
@@ -67,96 +116,19 @@
                </history>
                <additional>
                   <listBibl>
-                     <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f72">p. 54</ref>.</bibl>
+                     <bibl>Cabaton, Antoine (1912). <title xml:lang="fr">Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f72">p. 54</ref>.</bibl>
                   </listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <p>Abbreviations. c = column, f = folio, lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso. GOML = Government Oriental Manuscripts Library, Madras/Chennai. MTL = Madras Tamil Lexicon. TMSSML = Tanjore Maharaja Serfoji Sarasvati Mahal Library.</p>
+         <p><emph rend="bold">Transliteration conventions.</emph> Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Conjectural (whether the text is not clearly legible or the character is ambigous, e.g. <emph rend="italic">kāl</emph> or length of <emph rend="italic">o</emph> and <emph rend="italic">e</emph>) readings between parentheses. Alternative readings between parentheses separated by slash. Lost or entirely illegible character: "?". Crossed-out character: "X". Conjectural restoration of lost or entirely illegible between square brackets. Uppercase for initial vowels (in excerpts only). Unquoted text represented by (...). Conjunct letter: e.g. <emph rend="italic">t°</emph>, to be read <emph rend="italic">tum</emph> or <emph rend="italic">tam</emph>. Grantha letters in bold. Symbols/Abbreviations made explicit, between curly brackets: {pcs} = <emph rend="italic">piḷḷaiyār cuḻi</emph>, short form; {pcl} = <emph rend="italic">piḷḷaiyār cuḻi</emph>, long form, that is, with long horizontal stroke towards right; {varuṣam}, {mācam}, {tēti}; {line-filler}. Unfoliated folio number between square brackets, e.g. "f[1]r". Numerals normalised to decimal notation, e.g. "1121" not "1000 1 100 2 10 1". Hyphen occasionaly used to mark in-word components. Hyphen systematically used at the end of a line when the line-beginning is within a word or within a <emph rend="italic">cīr</emph>. <emph rend="italic">Sandhi</emph> split to the minimum: overshort <emph rend="italic">u</emph> occasionally restored as an apostrophe. Stanzas split by <emph rend="italic">cīr</emph>, as far as possible. <emph rend="italic">aṭi </emph>boundary marked by "‡".</p>
+      </encodingDesc>
       <revisionDesc>
-         <change> This catalogue entry has been redacted by Emmanuel FRANCIS (CNRS, CEIAS UMR 8564, EHESS &amp; CNRS) for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG). Version 1, April 2020. </change>
+         <change when="2020-04">This catalogue entry has been redacted by Emmanuel FRANCIS (CNRS, CEIAS UMR 8564, EHESS &amp; CNRS) for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG). Version 1, April 2020.</change>
+         <change when="2021-08">Updated to TST TEI by Charles LI.</change>
       </revisionDesc>
    </teiHeader>
-   <text>
-      <body>
-         <p>The Kantarantāti by Aruṇakirinātar (15th century) is a praise in verse of the god Murukaṉ.</p>
-         <p>Other manuscript testimonies of this text are: BnF Indien 30, U2.</p>
-         <p>The palm-leaf bundle, a single-text manuscript, contains, between two woodcovers:</p>
-         <p>
-            <emph rend="bold">U1</emph>:1 folio, unfoliated = title-page, by hand n° 1.</p>
-         <p>
-            <emph rend="bold">U2</emph>: 84 folios, Tamil foliation 29‒112 = text (<emph rend="italic">mūlam</emph>), 6 to 8 lines per page, by hand n° 2. We find successively: invocatory stanzas to Gaṇeśa (f29r‒f29v), 2 Kāppu stanzas (f30r‒f33r), the text proper (f34r‒f122v5), that is, 100 stanzas, and a completion statement with benedictions (<emph rend="italic">tuṇai</emph> formulae) (f122v5‒f122v7). Each individual stanza (Kāppu stanzas and 100 stanzas that follow) is immediately followed by an individual commentary (<emph rend="italic">urai</emph>). The two Kāppu stanzas are numbered 1 to 2 independently and are codicologically separated from the others (f30r‒f33r; f33v is blank).</p>
-         <p>
-            <emph rend="bold">U3</emph>: 1 folio, unfoliated= flyleaf.</p>
-         <p>The text appears to be complete (2 Kāppu stanzas + 100 stanzas). The bundle appears to be the fragment of a larger bundle, as indicated by the foliation starting at 29 in U2.</p>
-         <p>
-            <emph rend="bold">Paratexts</emph>: marginal and in-text benedictions, title-page, marginal title, invocation pages, text completion statement, scribal note (U2, f56v).</p>
-         <p>
-            <emph rend="bold">Excerpts</emph>
-         </p>
-         <p>
-            <emph rend="bold">U1</emph>, folio 1, recto, unfoliated = <emph rend="bold">title-page</emph>: benediction, title. <quote>
-               <p>(f[1]r, c1, 1‒3) veṟṟi-vēl uṟṟa tuṇai</p>
-               <p>(f[1]r, c2, 1‒2) kantarāntati-y-urai-pāṭam</p>
-            </quote>
-         </p>
-         <p>
-            <emph rend="bold">U2</emph>, folio 29, recto = <emph rend="bold">invocation</emph>: marginal benediction; invocatory stanzas to Gaṇeśa. <quote>
-               <p>(f30r, lm1) <emph rend="bold">hari Om</emph> [the phrase <emph rend="bold">hari O</emph> is itself inscribed inside the final <emph rend="bold">m</emph>]</p>
-            </quote>
-         </p>
-         <p>
-            <emph rend="bold">U2</emph>, folio 29, verso = <emph rend="bold">invocation</emph>: invocatory stanza to Gaṇeśa (Sanskrit in Tamil script, with some Grantha letters); benediction (<emph rend="italic">tuṇai</emph> formula). <quote>
-               <p>(f29v1) mū<emph rend="bold">ṣi</emph>ka-vākaṉa mōtaka-A<emph rend="bold">s</emph>ta</p>
-               <p>(f29v2) cāmara-karṉa – viḷampita-cū<emph rend="bold">t</emph>ti-</p>
-               <p>(f29v3) ra – vāmaṉa-rūpa – mayē<emph rend="bold">s</emph>para-put-</p>
-               <p>(f29v4) tira vikkiṉa-viṉāyaka pāta nama-</p>
-               <p>(f29v5) <emph rend="bold">s</emph> tu {pcs} viṉāyakaṉ pātamē tuṇai {pcs}</p>
-            </quote>
-         </p>
-         <p>The corresponding text with Sanskrit spelling is: <quote>
-               <p>mūṣika-vāhana modaka-hasta</p>
-               <p>cāmara-karṇa vilambita-sūtra</p>
-               <p>vāmana-rūpa maheśvara-putra</p>
-               <p>vighna-vināyaka pāda namas te</p>
-            </quote>
-         </p>
-         <p>
-            <emph rend="bold">U2</emph>, folio 30, recto = <emph rend="bold">incipit</emph>: marginal benedictions and title; Kāppu stanza n° 1. <quote>
-               <p>(f30r, lm1) <emph rend="bold">hari Om</emph> naṉṟāka [this phrase is itself inscribed inside a larger Om.]</p>
-               <p>(f30r, lm2, 1‒3) kantarantāti</p>
-               <p>(f30r1) vāraṇat tāṉai yayaṉaiviṇ ṇōrai malaṟkkarattu ‡</p>
-               <p>(f30r2) vāraṇat tāṉai makattuveṉ ṟōṉmain taṉaittuvaca ‡</p>
-               <p>(f30r3) vāraṇat tāṉait tuṇainaya tāṉai vayalaruṇai ‡</p>
-               <p>(f30r4) vāraṇat tāṉait tiṟaikoṇṭa yāṉaiyai vāḻttuvaṉē {pcs}</p>
-            </quote>
-         </p>
-         <p>
-            <emph rend="bold">U2</emph>, folio 30, verso = <emph rend="bold">incipit</emph>: commentary on Kāppu stanza n° 1. <quote>
-               <p>(f30v1) Etu {pcs} vāraṇattāṉai – Ayirāpatattil [i.e. Ayirāvatattil] intiraṉaiyum – Ayaṉaip – piṟamāvaiyum [i.e. piramāvaiyum] – (…)</p>
-               <p/>
-            </quote>
-         </p>
-         <p>
-            <emph rend="bold">U2</emph>, folio 56, verso = <emph rend="bold">scribal note</emph>: realising that this page was inadvertently left blank, the scribe added a note to his reader to alert him that there is no discontinuity in the text. <quote>
-               <p>(f56v1) yātip picakāyp pōṉatu</p>
-               <p>(f56v2) Ākaiyāl itil oṉṟun tap-</p>
-               <p>(f56v3) pitam illai</p>
-               <p>“It [i.e., the present blank page] occurred [literally “went”] due to memory failure; therefore in this [i.e., the blank page] there is not even a mistake [i.e. a gap in the text].”</p>
-            </quote>
-         </p>
-         <p>
-            <emph rend="bold">U2</emph>, folio 122, verso = <emph rend="bold">excipit</emph>: commentary on stanza n° 100, benedictions, text completion statement. <quote>
-               <p>(122v5) nalkun – taruvaṉ – tiruvaṭiyē – cīrpātamē-y eṉra-v āṟu {pcs} 100 {pcs} tiruccittampalam [i.e. tiruciṟṟampalam] {pcs}</p>
-               <p>(122v6) caravaṇa-pava-murukaṉ pātāravintamē tuṇai {pcs} kantarāntati – muṟṟum {pcs} –</p>
-               <p>(122v7) ciṟai koṇṭa viṉayākar pātamē tuṇai {pcs} tiruccentūr murukar pātāravintamē tuṇai {pcs} murukaṉ ṟuṇai {pcs}</p>
-            </quote>
-         </p>
-         <p>Abbreviations. c = column, f = folio, lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso. GOML = Government Oriental Manuscripts Library, Madras/Chennai. MTL = Madras Tamil Lexicon. TMSSML = Tanjore Maharaja Serfoji Sarasvati Mahal Library.</p>
-         <p>
-            <emph rend="bold">Transliteration conventions.</emph>
-         </p>
-         <p>Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Conjectural (whether the text is not clearly legible or the character is ambigous, e.g. <emph rend="italic">kāl</emph> or length of <emph rend="italic">o</emph> and <emph rend="italic">e</emph>) readings between parentheses. Alternative readings between parentheses separated by slash. Lost or entirely illegible character: "?". Crossed-out character: "X". Conjectural restoration of lost or entirely illegible between square brackets. Uppercase for initial vowels (in excerpts only). Unquoted text represented by (...). Conjunct letter: e.g. <emph rend="italic">t°</emph>, to be read <emph rend="italic">tum</emph> or <emph rend="italic">tam</emph>. Grantha letters in bold. Symbols/Abbreviations made explicit, between curly brackets: {pcs} = <emph rend="italic">piḷḷaiyār cuḻi</emph>, short form; {pcl} = <emph rend="italic">piḷḷaiyār cuḻi</emph>, long form, that is, with long horizontal stroke towards right; {varuṣam}, {mācam}, {tēti}; {line-filler}. Unfoliated folio number between square brackets, e.g. "f[1]r". Numerals normalised to decimal notation, e.g. "1121" not "1000 1 100 2 10 1". Hyphen occasionaly used to mark in-word components. Hyphen systematically used at the end of a line when the line-beginning is within a word or within a <emph rend="italic">cīr</emph>. <emph rend="italic">Sandhi</emph> split to the minimum: overshort <emph rend="italic">u</emph> occasionally restored as an apostrophe. Stanzas split by <emph rend="italic">cīr</emph>, as far as possible. <emph rend="italic">aṭi </emph>boundary marked by "‡".</p>
-      </body>
-   </text>
 </TEI>
