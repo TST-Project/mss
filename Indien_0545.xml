@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>TBI</title>
+            <title>Miscellaneous (5 items)</title>
          </titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
@@ -20,10 +20,13 @@
                   <idno type="shelfmark">Indien 545</idno>
                   <idno type="alternate"/>
                </msIdentifier>
-               <msContents class="#STM">
-                  <summary>TBI. Probably a composite.</summary>
+               <msContents class="#CM">
+                  <summary>A composite manuscript containing 5 items. [[To be split into 5 sub-files]]</summary>
                   
-               </msContents>
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">cover page</term>
+
+</title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="sa"><term xml:lang="en">TBC</term>
+</title><textLang mainLang="san" otherLangs="tam"/></msItem><msItem synch="#U3" xml:id="T3" defective="false"><title xml:lang="ta"><term xml:lang="en">TBC</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U4" xml:id="T4" defective="false"><title xml:lang="ta"><term xml:lang="en">TBC</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U5" xml:id="T5" defective="false"><title xml:lang="ta"><term xml:lang="en">TBC</term></title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
@@ -36,15 +39,20 @@
                         <dimensions type="object" unit="mm"><width quantity="295"/><height quantity="35"/><depth quantity="30"/></dimensions><dimensions type="written" unit="mm"/></extent>
                         
                         <condition>Relatively good state of preservation. Very few boreholes and truncation.</condition>
-                     <support><measure unit="stringhole" quantity="2"/></support><collation><desc xml:id="U1">1 folio = <emph rend="bold">cover page</emph>. Double folio. Verso blank, more dark = outside cover. With additional unblackened notes on recto. 305 x 35 mm.</desc><desc xml:id="U2">20 folios = <emph rend="bold">TBI</emph>. Tamil foliation [1]-20. 295 x 35 mm.</desc><desc xml:id="U3">26 folios = <emph rend="bold">TBI</emph>. Tamil foliation [1]-26. Unblackened. f26v blank. 295 x 35 mm.</desc><desc xml:id="U4">2 folios = <emph rend="bold">TBI</emph>. Tamil foliation [1]-2. 300 x 30 mm. Single-holed.</desc><desc xml:id="U5">1 folio = <emph rend="bold">TBI</emph>. Tamil foliation [1]. Verso more dark = outside page. Right margin truncated. 265 x 25 mm. Single-holed.</desc></collation></supportDesc>
+                     <support><measure unit="stringhole" quantity="2"/></support><collation><desc xml:id="U1">1 folio = <emph rend="bold">cover page</emph>. Double folio. Verso blank, more dark = outside cover. With additional unblackened notes on recto. 305 x 35 mm.</desc><desc xml:id="U2">20 folios = <emph rend="bold">TBC</emph>. Tamil foliation [1]-20. 295 x 35 mm.</desc><desc xml:id="U3">26 folios = <emph rend="bold">TBC</emph>. Tamil foliation [1]-26. Unblackened. f26v blank. 295 x 35 mm.</desc><desc xml:id="U4">2 folios = <emph rend="bold">TBC</emph>. Tamil foliation [1]-2. 300 x 30 mm. Single-holed.</desc><desc xml:id="U5">1 folio = <emph rend="bold">TBC</emph>. Tamil foliation [1]. Verso more dark = outside page. Right margin truncated. 265 x 25 mm. Single-holed.</desc></collation></supportDesc>
                      <layoutDesc>
                         
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
                      
-                  </handDesc>
-                  <additions/>
+                  <handNote synch="#U1" script="tamil" medium="incised"><desc>Hand #1.</desc></handNote><handNote synch="#U2" script="grantha" medium="incised"><desc>Sanskrit in Grantha, insterspersed with Tamil in Tamil script. Hand #2.</desc></handNote><handNote synch="#U3" script="tamil" medium="incised"><desc>Hand #3.</desc></handNote><handNote synch="#U4" script="tamil" medium="incised"><desc>Hand #4.</desc></handNote><handNote synch="#U5" script="tamil" medium="incised"><desc>Hand #5.</desc></handNote></handDesc>
+                  <additions><desc type="documenting-note" subtype="inserted">Paper sheet with note in black ink:
+<quote>
+  <lb n="1"/>Tiruvadikanesanam
+  <lb n="2"/>(Tamoul)
+  </quote></desc><desc synch="#U1" type="documenting-note">BnF register information, in black ink:
+<quote>R.C. 7881</quote></desc></additions>
                   <bindingDesc>
                      <binding>
                         <p>No woodcovers. </p>
@@ -53,13 +61,13 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian">No internal date.  </origDate>
+                     <origDate calendar="gregorian" notAfter="1886">No internal date.  </origDate>
                      <origPlace>South India, Tamilnadu.</origPlace>
                   </origin>
                   <acquisition>
                      
-                  </acquisition>
-               <provenance><p>Haas</p></provenance></history>
+                  <p>Acquired, December 18th, 1886, from M. Haas. See BnF, département des Manuscrits, inventaire 2 = <title>Acquisitions: manuscrits et imprimés documentaires, 1848-1893</title>, no. 7881.</p></acquisition>
+               <provenance><p>Haas.</p></provenance></history>
                <additional>
                   <listBibl>
                      
@@ -77,44 +85,70 @@
       <change when="2021-08">Record created by Emmanuel FRANCIS.</change></revisionDesc>
    <encodingDesc><p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.    </p></encodingDesc></teiHeader>
    
-<text synch="#U1"><body>
+<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   
-  <pb n="[1]r"/>
+  <pb n="[1]r"/>[<term xml:lang="en">blank</term>]
   
-  <pb n="[1]v"/>
+  <pb n="[1]v"/>[<term xml:lang="en">notes</term>]
+  <milestone n="1" unit="column"/>
+  <milestone n="2" unit="column"/>
+  <milestone n="3" unit="column"/>
 
-</body></text><text synch="#U2"><body>
+</body></text><text synch="#U2" corresp="#T2" xml:lang="sa"><body>
   
   <pb n="[1]r"/>
   
   <milestone unit="left-margin"/>
-  <lb n="1"/><seg function="intertitle"/>
-  
+  <lb n="1"/><seg function="blessing">hariḥ
+  <lb n="2"/>Om</seg>
+   <lb n="3"/><seg function="title">tiruma
+   <lb n="4" break="no"/>ntra <gap reason="ellipsis"/></seg>
+      
+   <milestone unit="main-text-area"/>
+  <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
+
   <pb n="20r"/>
   
   <pb n="20v"/>
+  <lb n="1"/><gap reason="ellipsis"/>
+  <lb n="2"/><seg function="explicit"><gap reason="ellipsis"/></seg> <g ref="#pcl"/> <seg function="blessing">lokapirave namaḥ</seg> <g ref="#pcl"/> ||
 
 
-</body></text><text synch="#U3"><body>
+</body></text><text synch="#U3" corresp="#T3" xml:lang="ta"><body>
+  
   <pb n="[1]r"/>
   <milestone unit="left-margin"/>
-  <lb n="1"/><seg function="intertitle"/>
+    <lb n="1-2"/><seg function="title">nūttantāti</seg>
+  <milestone unit="main-text-area"/>
+  <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
   
   <pb n="26r"/>
+  <lb n="1-2"/><seg function="explicit"><gap reason="ellipsis"/></seg>
+  <lb n="3"/><seg function="blessing">Em perumāṉar· tiruvatikaḷē caraṇam</seg> <g ref="#pcl"/>
+  <lb n="4"/><seg function="blessing">jīyar· tiruvatikaḷē caraṇam</seg> <g ref="#pcl"/>
+  
 
-</body></text><text synch="#U4"><body>
+</body></text><text synch="#U4" corresp="#T4" xml:lang="ta"><body>
   
   <pb n="[1]r"/>
+  <milestone n="1" unit="column"/>
+  <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
+  
+  <pb n="[1]v"/>
    
   <pb n="2r"/>
   
   <pb n="2v"/>
+  <milestone n="2" unit="column"/>
+  <lb n="5"/><seg function="explicit">vāḻiyē</seg>
 
-</body></text><text synch="#U5"><body>
+</body></text><text synch="#U5" corresp="#T5" xml:lang="ta"><body>
   
   <pb n="[1]r"/>
+  <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
   
   <pb n="[1]v"/>
+  <lb n="1"/><seg function="explicit"><gap reason="ellipsis"/></seg>
    
 
 </body></text></TEI>
