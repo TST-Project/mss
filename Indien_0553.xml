@@ -4,7 +4,7 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>TBC</title>
+				<title>Turukkamataputtakam</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>TST Project</publisher>
@@ -18,7 +18,7 @@
 								Manuscrits</orgName>
 						</repository>
 						<idno type="shelfmark">Indien 553</idno>
-						<idno type="alternate"/>
+						<idno type="alternate"><idno>Tamoul 553</idno></idno>
 					</msIdentifier>
 					<msContents class="#STM">
 						<summary>TBC. White powder on right edge of most folios.</summary>
@@ -44,17 +44,17 @@
 								<condition>Excellent state of preservation.</condition>
 								<support><measure unit="stringhole" quantity="2"/></support>
 								<collation><desc xml:id="U1">1 folio = <emph rend="bold">Title Page</emph>. No foliation. Verso blank. Truncated. 265 x
-										35 mm.</desc><desc xml:id="cover">the = <emph rend="bold">front cover</emph>.</desc><desc xml:id="U2">226 folios
+										35 mm.</desc><desc xml:id="cover">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U2">226 folios
 										= <emph rend="bold">TBC</emph>. Tamil foliation 1-226. f44v,
-										f104v, f199v blank. 5 lpp. 375 x 40 mm.</desc><desc xml:id="cover">the = <emph rend="bold">back cover</emph>.</desc></collation>
+										f104v, f199v blank. 5 lpp. 375 x 40 mm.</desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>.</desc></collation>
 							</supportDesc>
 							<layoutDesc> </layoutDesc>
 						</objectDesc>
 						<handDesc>
 
 							
-						<handNote synch="#U1" scope="sole" scribeRef="#ArielTitleScribe" script="tamil" medium="incised"><desc>Hand #1.</desc></handNote><handNote synch="#U2" scope="major" script="tamil" medium="incised"><desc>Hand #3.</desc></handNote></handDesc>
-						<additions/>
+						<handNote synch="#U1" scope="sole" scribeRef="#ArielTitleScribe" script="tamil" scriptRef="#tamilPulliRegular" medium="incised"><desc>Hand #1.</desc></handNote><handNote synch="#U2" scope="major" script="tamil" medium="incised"><desc>Hand #2.</desc></handNote></handDesc>
+						<additions><desc synch="#U1" type="documenting-note">BnF sticker <quote>DON N° <space type="vacat"/></quote>.</desc></additions>
 						<bindingDesc>
 							<binding>
 								<p>Original woodcovers. 370 x 35 mm.</p>
@@ -63,11 +63,11 @@
 					</physDesc>
 					<history>
 						<origin>
-							<origDate calendar="gregorian" notAfter="1886">No internal date. </origDate>
+							<origDate calendar="gregorian">No internal date. </origDate>
 							<origPlace>South India, Tamilnadu.</origPlace>
 						</origin>
-						<acquisition> <p>Acquired, December 18th, 1886, from M. Haas. See BnF, département des Manuscrits, inventaire 2 = <title>Acquisitions: manuscrits et imprimés documentaires, 1848-1893</title>, no. 7881.</p></acquisition>
-						<provenance><p>Haas.</p></provenance>
+						<acquisition> <p>Unknown.</p></acquisition>
+						<provenance><p>Unknown. Possibly Ariel (see title-page folio and BnF sticker <quote>DON N° <space type="vacat"/></quote>).</p></provenance>
 					</history>
 					<additional>
 						<listBibl>
@@ -77,8 +77,7 @@
 
 
 							
-						<bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits
-									indiens, indo-chinois &amp; malayo-polynésiens</title>.
+						<bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>.
 								Bibliothèque nationale. Département des manuscrits. Paris: E.
 								Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f96">p.
 									77</ref>.</bibl></listBibl>
@@ -116,23 +115,42 @@
   
   <pb n="[1]r"/>
   <lb n="1"/>
-  <seg function="incipit"><gap reason="ellipsis"/></seg>
+  <seg function="incipit">Ala Amtulillā</seg> <gap reason="ellipsis"/>
+  
+  <pb n="44r"/>
+  <lb n="3"/><gap reason="ellipsis"/> ṉ ākavum
+  
+  <pb n="45r"/>
+  <lb n="1"/>y<pc>-</pc>inta kitāv<pc>-</pc>ākiṟa <gap reason="ellipsis"/>
   
   <pb n="104r"/>
   <lb n="3"/><seg function="completion-statement"><gap reason="ellipsis"/> māṉavi carit=tiram mukintatu muṟṟum</seg> <g ref="#pcl"/>
   
   <pb n="105r"/>
   <milestone unit="left-margin"/>
-  <lb n="1"/>
-  <seg function="intertitle"><gap reason="ellipsis"/></seg>
+  <lb n="1"/><seg function="intertitle">pis·millāki
+  <lb n="2"/><gap reason="ellipsis"/>
+  <lb n="3"/><gap reason="ellipsis"/>
+  <lb n="4"/>m<pc>-</pc>uṭaiya <gap reason="ellipsis"/>
+  <lb n="5"/><gap reason="ellipsis"/>
+  </seg>
+    
+  <milestone unit="main-text-area"/>
+  <lb n="1"/>Allā <gap reason="ellipsis"/>
   
+  <pb n="199v"/>
+  <lb n="1"/><gap reason="ellipsis"/>
+  <lb n="2"/><gap reason="ellipsis"/> Aṉāppivit=ta
+                    
   <pb n="200r"/>
   <milestone unit="left-margin"/>
   <lb n="1-3"/>
   <seg function="intertitle">periyaṉūṟuṉāmā<gap reason="ellipsis"/></seg>
+    <milestone unit="main-text-area"/>
+  <lb n="1"/>vāṉamum · pūmiyum · poḻutum · <gap reason="ellipsis"/>
   
   <pb n="226v"/>
-  <lb n="5"/><seg function="explicit"><gap reason="ellipsis"/></seg>
+  <lb n="5"/><gap reason="ellipsis"/><seg function="explicit">m uṇṭām</seg>
 
 		</body>
 	</text></TEI>
