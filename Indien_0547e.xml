@@ -4,7 +4,7 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>Composite: 7 items.</title>
+				<title>TBC</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>TST Project</publisher>
@@ -17,40 +17,40 @@
 							<orgName>Bibliothèque nationale de France. Département des
 								Manuscrits</orgName>
 						</repository>
-						<idno type="shelfmark">Indien 547</idno>
+						<idno type="shelfmark">Indien 547e</idno>
 						<idno type="alternate"><idno>Tamoul 547</idno></idno>
 					</msIdentifier>
-					<msContents class="#CM">
-						<summary>A composite manuscript containing 7 items. Vaiṣṇava.</summary>
+					<msContents class="#STM">
+						<summary>TBC</summary>
 
-					</msContents>
+					<msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">TBC</term></title><textLang mainLang="tam"/></msItem></msContents>
 					<physDesc>
 						<objectDesc form="pothi">
 							<supportDesc material="palm-leaf">
 								<extent>
-									<measure unit="folio" quantity="45">1 + 29 + 2 + 2 + 1 + 1 + 9 (547a + 547b  + 547c + 547d + 547e + 547f + 547g)</measure>
+									<measure unit="folio" quantity="1">1 (U1)</measure>
 									<dimensions type="leaf" unit="mm"> </dimensions>
 									<dimensions type="object" unit="mm">
-										<width quantity="430"/>
-										<height quantity="30"/>
-										<depth quantity="25"/>
+										
+										
+										
 									</dimensions><dimensions type="written" unit="mm"/></extent>
 
-								<condition>Relatively good state of preservation. Some truncation and cracks though.</condition>
+								
 								<support><measure unit="stringhole" quantity="1"/></support>
-								<collation/>
+								<collation><desc xml:id="U1">1 folio = <emph rend="bold">TBC</emph>. Tamil foliation 28. Verso unblackened. Goes
+										with U2?</desc></collation>
 							</supportDesc>
 							<layoutDesc> </layoutDesc>
 						</objectDesc>
 						<handDesc>
 
 							
-						</handDesc>
-						<additions><desc type="documenting-note">BnF register information, in black ink:
-<quote>R.C. 7881</quote> (547a, U1, f[1]).</desc></additions>
+						<handNote synch="#U1" scope="sole" script="tamil" medium="incised"/></handDesc>
+						<additions/>
 						<bindingDesc>
 							<binding>
-								<p>No woodcovers. </p>
+								
 							</binding>
 						</bindingDesc>
 					</physDesc>
@@ -98,4 +98,19 @@
 	
 	
 	
-</TEI>
+<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+  
+  <pb n="28r"/>
+  <lb n="1"/>
+  <lb n="2"/>
+  <lb n="3"/>
+  
+  <pb n="28v"/>
+  <lb n="1"/>
+  <lb n="2"/>
+  <lb n="3"/>
+  <lb n="4"/><gap reason="ellipsis"/> <seg function="blessing">ciyāṟ tiruvatikaḷē
+  <lb n="5"/>caṟaṇa<seg rend="grantha">=m</seg></seg>
+
+</body>
+	</text></TEI>
