@@ -23,8 +23,7 @@
                <msContents class="#STM">
                   <summary> <p>The <title xml:lang="ta">Tiruppukaḻ</title> is a collection of hymns in honour of Murukaṉ by <persName>Aruṇakirinātar</persName> (15th century).</p>
 <p>The bundle is complete. It contains 5 Pāyiram stanzas and 164 Tiruppukāls.</p>
-         <p>
-            <emph rend="bold">Paratexts</emph>: marginal and in-text benedictions, title-page, preface folio (<foreign>Ciṟappupāyiram</foreign>), colophon.</p>
+<p><emph rend="bold">Paratexts</emph>: marginal and in-text benedictions, title-page, preface folio (<foreign>Ciṟappupāyiram</foreign>), colophon.</p>
          </summary>
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2a" xml:id="T2" defective="false"><title xml:lang="ta">Tiruppukaḻ: Pāyiram</title><textLang mainLang="tam"/></msItem><msItem synch="#U2b" xml:id="T3" defective="false"><title xml:lang="ta">Tiruppukaḻ: Mūlam</title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T4" defective="false"><title xml:lang="ta"><term xml:lang="en">Colophon</term></title><textLang mainLang="tam"/></msItem></msContents>
@@ -47,7 +46,7 @@
                   </objectDesc>
                   <handDesc>
                      
-                  <handNote synch="#U1" scope="minor" scribeRef="#ArielTitleScribe" script="tamil" medium="incised"><desc>Hand #1.</desc></handNote><handNote synch="#U2a U2b" scope="major" script="tamil" medium="incised"><desc>Hand #2.</desc></handNote><handNote synch="#U3" scope="minor" script="tamil" medium="incised"><desc>Hand #3?</desc></handNote></handDesc>
+                  <handNote synch="#U1" scope="minor" scribeRef="#ArielTitleScribe" script="tamil" scriptRef="#tamilPulliRegular #tamilOE" medium="incised"><desc>Hand #1.</desc></handNote><handNote synch="#U2a U2b" scope="major" script="tamil" medium="incised"><desc>Hand #2.</desc></handNote><handNote synch="#U3" scope="minor" script="tamil" medium="incised"><desc>Hand #3?</desc></handNote></handDesc>
                   <additions/>
                   <bindingDesc>
                      <binding>
@@ -90,45 +89,46 @@
   
   <pb n="[1]r"/>
   <milestone unit="left-margin"/>
-  <lb n="1"/>hari Om
-  <lb n="2"/>naṉṟāka
-  <lb n="3-4"/>kaṇapati cakāyam
+  <lb n="1"/><seg function="blessing"><term xml:lang="sa">hari Om·</term></seg>
+  <lb n="2"/><seg function="blessing">naṉṟāka</seg>
+  <lb n="3-4"/><seg function="blessing">kaṇapati cakāyam</seg>
   
   <milestone unit="main-text-area"/>
- <lb n="1"/>Ellāru ñāṉat tiṉaiñarē keḷīrkēḷ ‡ kalletu māṇikkak kallāmō pollāk ‡ karuppukaḻaik kēṭkumō
-  <lb n="2"/>kāṉamayil vīraṉ ‡ tiruppukaḻaik keḷīr tiṉam {pcs} tiruppukaḻ paṭikkumavar <gap reason="ellipsis"/>
+ <lb n="1"/><seg function="incipit">Ellāru ñāṉat tiṉaiñarē keḷīrkēḷ</seg> ‡ kalletu māṇikkak kallāmō pollāk ‡ karuppukaḻaik kēṭkumō
+  <lb n="2"/>kāṉamayil vīraṉ ‡ tiruppukaḻaik keḷīr tiṉam ‡‡ <g ref="#pcs"/> tiruppukaḻ paṭikkumavar <gap reason="ellipsis"/>
   
   <pb n="[1]v"/>
-  <lb n="2"/><gap reason="ellipsis"/> {pcs} vētam
-  <lb n="3" break="no"/>vēṇ ṭāñcakala vittaivēṇ ṭāṅkīta ‡ nātamvēṇ ṭāmñāṉam vēṇṭā māti ‡ kuruppukaḻai mēvukiṉ(ṟa) koṟṟavaṉṟā
-  <lb n="4" break="no"/>ḷ pōṟṟun ‡ tiruppukaḻaik kēḷir tiṉam {pcs} civamayam {pcs} murukayyaṉ tuṇai {pcs} mātāpitākuruteyvan tuṇai {pcs}
+  <lb n="2"/><gap reason="ellipsis"/> <g ref="#pcs"/> vētam
+  <lb n="3" break="no"/>vēṇ ṭāñcakala vittaivēṇ ṭāṅkīta ‡ nātamvēṇ ṭāmñāṉam vēṇṭā māti ‡ kuruppukaḻai mēvukiṉ<unclear>ṟa</unclear> koṟṟavaṉṟā
+  <lb n="4" break="no"/>ḷ pōṟṟun ‡ <seg function="explicit">tiruppukaḻaik kēḷir tiṉam</seg> ‡‡ <g ref="#pcs"/> <seg function="blessing">civamayam</seg> <g ref="#pcs"/> <seg function="blessing">murukayyaṉ tuṇai</seg> <g ref="#pcs"/> <seg function="blessing">mātāpitākuruteyvan tuṇai</seg> <g ref="#pcs"/>
   </body></text><text synch="#U2b" corresp="#T3" xml:lang="ta"><body>
   
   <pb n="1r"/>
   
   <milestone unit="left-margin"/>
-  <lb n="1-"/>tevicakāyam vēlumayilun tuṇai civamayam.
+  <lb n="1-"/><seg function="blessing">tevicakāyam</seg> <seg function="blessing">vēlumayilun tuṇai</seg> <seg function="blessing">civamayam</seg> <g ref="#pcl"/>
   
   <milestone unit="main-text-area"/>
- <lb n="1"/>kaittala niṟaiyaval muppaḻa moṭupori kappiya karimuka ṉaṭipēṇik ‡ kattiṭu [i.e. kaṟṟiṭu] maṭiyavar puttiyi (l)u[ṟai]pavar kaṟpa
-  <lb n="2" break="no"/>ka meṉaviṉai kaṭitēku ‡ mattamu matiyamum vaittiṭu maraṉmakaṉ maṟporu tiraḷpuya matayāṉai ‡ maṟṟaḷi [i.e. mattaḷa] vayiṟa
-  <lb n="3" break="no"/>ai yuṟṟami [i.e. yuttami] putalvaṉai maṭṭuṟu malarkoṭu paṇivēṉē ‡ muṟpaṭu kiritaṉil muttami ḻaṭaiviṉai muṟpaṭa veḻutiya mu
-  <lb n="4" break="no"/>talvōṉē ‡ muppura mericeyta vacciva ṉuṟaiva t(o)ccatu poṭiceyta vatitīrā ‡ vacc(ā)vaṇai varu cuppira maṇiyo
-  <lb n="5" break="no"/>ṭu vattuy(ara/ā)tutaṉai yatuvāki ‡ Acciṟu murukaṉai akkuṟa makaḷuṭaṉ Akkaṇa maṇamaruḷiya perumāḷē | 1 | <gap reason="ellipsis"/>
+ <lb n="1"/><seg function="incipit">kaittala niṟaiyaval muppaḻa moṭupori kappiya karimuka ṉaṭipēṇik</seg> ‡ kattiṭu [<term xml:lang="en">i.e.</term> kaṟṟiṭu] maṭiyavar puttiyi <unclear reason="consonant_unclear">lu</unclear><supplied reason="lost">ṟai</supplied>pavar kaṟpa
+  <lb n="2" break="no"/>ka meṉaviṉai kaṭitēku ‡ mattamu matiyamum vaittiṭu maraṉmakaṉ maṟporu tiraḷpuya matayāṉai ‡ maṟṟaḷi [<term xml:lang="en">i.e.</term> mattaḷa] vayiṟa
+  <lb n="3" break="no"/>ai yuṟṟami [<term xml:lang="en">i.e.</term> yuttami] putalvaṉai maṭṭuṟu malarkoṭu paṇivēṉē ‡ muṟpaṭu kiritaṉil muttami ḻaṭaiviṉai muṟpaṭa veḻutiya mu
+  <lb n="4" break="no"/>talvōṉē ‡ muppura mericeyta vacciva ṉuṟaiva <unclear reason="vowel_unclear">to</unclear>ccatu poṭiceyta vatitīrā ‡ vac<unclear reason="vowel_unclear">cā</unclear>vaṇai varu cuppira maṇiyo
+  <lb n="5" break="no"/>ṭu vattu<choice><unclear>yara</unclear><unclear>yā</unclear></choice>tutaṉai yatuvāki ‡ Acciṟu murukaṉai akkuṟa makaḷuṭaṉ Akkaṇa maṇamaruḷiya perumāḷē | 1 | <gap reason="ellipsis"/>
          
   <pb n="69v"/>  
-  <lb n="3"/><gap reason="ellipsis"/> 163 {pcs} pūcal vantiṭu tōṭār kātoṭu mōti ṭuṅkayal māṉār māṉamali pōka maṅkaiyar kōṭā kōṭiyu matiṉālkaṟ ‡ pūra kuṅkuma
-  <lb n="4"/>t(ū)ḷā yōtapa ṭīra ceṇpaka [i.e. caṇpaka] mālā lāḷita pūta raṅkaḷil mītē mūḻkiya Anurākam ‡ vācai yeṉkuṟa [i.e. yeṅkiṟa] pārā vāramum mēṟu kiṉṟila ṉāṉā pētamum Anēka
-  <lb n="5"/>tantirakiṟiyāpē [i.e. tantirakiriyāvē] tamum Ākaman talaivāyār ‡ āḻi yumkarai kāṇē ṉ(a) vācakam piṟamaṉutānam pirai pāta paṅkaya mītē ṉākila ṉāyi ṉuṅkuru nātā [nī corrected to nā] nīyaruḷ purivāyē ‡
+  <lb n="3"/><gap reason="ellipsis"/> 163 <g ref="#pcs"/> pūcal vantiṭu tōṭār kātoṭu mōti ṭuṅkayal māṉār māṉamali pōka maṅkaiyar kōṭā kōṭiyu matiṉālkaṟ ‡ pūra kuṅkuma
+  <lb n="4"/><unclear reason="vowel_unclear">tū</unclear>ḷā yōtapa ṭīra ceṇpaka [<term xml:lang="en">i.e.</term> caṇpaka] mālā lāḷita pūta raṅkaḷil mītē mūḻkiya Anurākam ‡ vācai yeṉkuṟa [<term xml:lang="en">i.e.</term> yeṅkiṟa] pārā vāramum mēṟu kiṉṟila ṉāṉā pētamum Anēka
+  <lb n="5"/>tantirakiṟiyāpē [<term xml:lang="en">i.e.</term> tantirakiriyāvē] tamum Ākaman talaivāyār ‡ āḻi yumkarai kāṇē <unclear reason="vowel_unclear">ṉa</unclear> vācakam piṟamaṉutānam pirai pāta paṅkaya mītē ṉākila ṉāyi ṉuṅkuru <del>nī</del><corr>nā</corr>tā nīyaruḷ purivāyē ‡
   <lb n="6"/>vāca vaṉpati pāḻā kāveṉ nīca taṅkulam vāḻā tēpaṭi māḷa vaṉkirikūṟāy nīṟeḻa neṭinēmi ‡ māta vaṉtiru vētā vōṭalai pōtu miṉkaṭal kōkō kōve
   
   <pb n="70"/>
-  <lb n="1" break="no"/>ṉa vāy viṭum paṭi kū(ra)vē lēviyyi ḷaiyōṉē ‡ vīcu teṉṟalum veḷpū vāḷiyu mīṟu kiṉṟamai yāmo mokavi ṭāyke ṭumpaṭi cārāvākiya teṉa
-  <lb n="2" break="no"/>vēnal ‡ mītu ceṉṟuṟa vāṭā vēṭuvar p(o)ta koṅkaiyil mītē māluṟa vēṭai koṇṭapī [i.e. koṇṭapi] rāṉē vāṉavar perumāḷē {pcs} 164 {pcs}
+  <lb n="1" break="no"/>ṉa vāy viṭum paṭi kū<unclear>ra</unclear>vē lēviyyi ḷaiyōṉē ‡ vīcu teṉṟalum veḷpū vāḷiyu mīṟu kiṉṟamai yāmo mokavi ṭāyke ṭumpaṭi cārāvākiya teṉa
+  <lb n="2" break="no"/>vēnal ‡ <seg function="explicit">mītu ceṉṟuṟa vāṭā vēṭuvar <unclear reason="vowel_unclear">po</unclear>ta koṅkaiyil mītē māluṟa vēṭai koṇṭapī [<term xml:lang="en">i.e.</term> koṇṭapi] rāṉē vāṉavar perumāḷē</seg> <g ref="#pcs"/> 164 <g ref="#pcs"/>
   </body></text><text synch="#U3" corresp="#T4" xml:lang="ta"><body>
   
   <pb n="[1]r"/>
-  <lb n="1"/>vilampi {varuṣam} māci {mācam} 19 {tēti} caṉivāramum (pū)ca-naṭ(ca)ttiramum
+  <lb n="1"/><seg function="colophon">vilampi {varuṣam} māci {mācam} 19 {tēti} caṉivāramum (pū)ca-naṭ(ca)ttiramum
   <lb n="2"/>c(ū)ṭiṉa puṟuvapaṭcattil vēṅkaṭācalan tirup
-  <lb n="3" break="no"/>pukaḻ tuvakkiyatu {pcl} civamaya<seg rend="grantha">=m</seg> {pcl} {pcs}
+  <lb n="3" break="no"/>pukaḻ tuvakkiyatu</seg> {pcl} <seg function="blessing">civamaya<seg rend="grantha">=m</seg></seg> <g ref="#pcl"/> <g ref="#pcs"/>
+  <!--Update after revised interpretation of colophon!-->
   </body></text></TEI>
