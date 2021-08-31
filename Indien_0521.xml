@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title><term xml:lang="ta">Cattappirakaraṇam </term></title>
+            <title><title xml:lang="ta">Cattappirakaraṇam </title></title>
          </titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
@@ -21,7 +21,7 @@
                </msIdentifier>
                <msContents class="#STM">
                   <summary><p>MTL:  <quote>சத்தப்பிரகரணம் catta-p-pirakaraṇam, n. saptan +. A treatise on Vēdānta in seven chapters or parts; ஒரு வேதாந்தநூல்.</quote></p>
-<p>The text is incomplete: it contains onmy the first four prakaraṇams (the 4th being incomplete).</p> 
+<p>The text is incomplete: it contains only the first four prakaraṇams (the 4th being incomplete).</p> 
 </summary>
                   
                <msItem synch="#U2" xml:id="T1" defective="true"><title xml:lang="ta">Cattappirakaraṇam: Mūlam</title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T2" defective="false"><title xml:lang="ta"><term xml:lang="en">TBC</term></title><textLang mainLang="tam"/></msItem></msContents>
@@ -29,7 +29,7 @@
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
                         <extent>
-                           <measure unit="folio" quantity="45">[2] + 42 + [1] + [10] (U1 + U2 + U3 + U4)</measure>
+                           <measure unit="folio" quantity="55">[2] + 42 + [1] + [10] (U1 + U2 + U3 + U4)</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
@@ -37,14 +37,14 @@
                         <dimensions type="object" unit="mm"><width quantity="324"/><height quantity="35"/><depth quantity="30"/></dimensions><dimensions type="written" unit="mm"/></extent>
                         
                         <condition>Fairly good state of preservation. Some folios cracked and/or slightly truncated.</condition>
-                     <collation><desc xml:id="U1">2 folios = <emph rend="bold">guard leaves</emph>. No foliation. Blank recto verso. f[1]r more dark = outside page.</desc><desc xml:id="U2">42 folios = <emph rend="bold">text = <term xml:lang="ta">Mūlam</term></emph>. Tamil foliation [1]-42. Hand #1.</desc><desc xml:id="U3">1 folio = <emph rend="bold">TBC</emph>. Presently between f41 and f42 of U2. 5 lines unblackened on the recto. Verso blank. f[1]v blank more dark = outside page. Hand #2.</desc><desc xml:id="U4">10 folios = <emph rend="bold">guard leaves</emph>. No foliation. Blank recto verso. Shelfmark sticker and bequest information on f[10]v.</desc></collation><support><measure unit="stringhole" quantity="2"/></support></supportDesc>
+                     <collation><desc xml:id="U1">2 folios = <emph rend="bold">guard leaves</emph>. No foliation. Blank recto verso. f[1]r more dark = outside page.</desc><desc xml:id="U2">42 folios = <emph rend="bold"><term xml:lang="ta">Cattappirakaraṇam: Mūlam</term></emph>. Tamil foliation [1]-42. Hand #1.</desc><desc xml:id="U3">1 folio = <emph rend="bold">TBC (addition)</emph>. Presently between f41 and f42 of U2. 5 lines unblackened on the recto. Verso blank. f[1]v blank more dark = outside page. Hand #2.</desc><desc xml:id="U4">10 folios = <emph rend="bold">guard leaves</emph>. No foliation. Blank recto verso. Shelfmark sticker and bequest information on f[10]v.</desc></collation><support><measure unit="stringhole" quantity="2"/></support></supportDesc>
                      <layoutDesc>
                         <layout columns="1">The right edges are rounded.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
                      
-                  <handNote synch="#U2" scope="major" script="tamil" medium="incised"><desc>Hand #1.</desc></handNote><handNote synch="#U2" scope="minor" medium="incised"><desc>Hand #2.</desc></handNote></handDesc>
+                  <handNote synch="#U2" scope="major" script="tamil" medium="incised"><desc>Hand #1.</desc></handNote><handNote synch="#U2" scope="minor" script="tamil" medium="incised"><desc>Hand #2.</desc></handNote></handDesc>
                   <additions><desc synch="#U4" type="commenting-note">In black ink:<quote>Don 1369</quote> (f[10]v).</desc><desc synch="#U4" type="commenting-note shelfmark">BnF shelfmark sticker: <quote>INDIEN 521</quote>.</desc></additions>
                   <bindingDesc>
                      <binding>
@@ -59,7 +59,7 @@
                   </origin>
                   <acquisition>
                      
-                  <p>Bequest of M. de Rozière.</p></acquisition>
+                  <p>Bequest of M. de Rozière. <quote>Don 1369</quote>.</p></acquisition>
                <provenance/></history>
                <additional>
                   <listBibl>
@@ -92,7 +92,7 @@
   <lb n="2"/><seg function="title">cattap
   <lb n="3" break="no"/>piṟakara
   <lb n="4" break="no"/>ṇam</seg>
-  <lb n="5"/><seg function="intertitle">mutalā
+  <lb n="5"/><seg function="intertitle">muta<choice><sic>l<del>ai</del></sic><corr>lā</corr></choice>
   <lb n="6" break="no"/>vatu
   <lb n="7" break="no"/>veḻup
   <lb n="8" break="no"/>
@@ -100,17 +100,44 @@
   <lb n="10" break="no"/>raṇam</seg>
     
   <milestone unit="main-text-area"/>
-  <lb n="1"/>
+  <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
+  
+  <pb n="6v"/>
+  <lb n="4"/><gap reason="ellipsis"/> <seg function="completion-statement">veḻuppiṟakaraṇañ camā<sic>pptta</sic>m</seg> <g ref="#pcs"/> <g ref="#pcs"/>
+  
+  <pb n="7r"/>
+   <milestone unit="left-margin"/>
+  <lb n="1-6"/><seg function="intertitle">cata<del>ā</del>ṉacatuṣṭaiya-piṟakaṟaṉam</seg>
+
+  <pb n="17r"/>
+  <lb n="4"/><gap reason="ellipsis"/> ~ <seg function="completion-statement">cataṉacatuṣṭaiya-p-piṟakaraṇam camāpttam</seg> <g ref="#pcl"/>
+  
+    <pb n="18r"/>
+   <milestone unit="left-margin"/>
+  <lb n="1-3"/><seg function="intertitle">ṣtūla-p<unclear>-p=i=</unclear>ṟakaraṇam</seg>
+  
+    <pb n="29r"/>
+  <lb n="4"/><gap reason="ellipsis"/> ~ <seg function="completion-statement">~ tūla-piṟakaraṇam camā<sic>ṟṟa</sic>m</seg> <g ref="#pcs"/> <seg function="blessing">kuru-pātam</seg> <g ref="#pcl"/>
+  
+      <pb n="30r"/>
+   <milestone unit="left-margin"/>
+  <lb n="1-3"/><seg function="intertitle">cūṭcuma-p-piṟakaraṇa<del>n</del><corr>m</corr>
+</seg>
+  
+        <pb n="42r"/>
+  <lb n="1"/><seg function="explicit">nirantar</seg> <note xml:lang="en">[The text stops short here]</note>
+
+  
   
   </body>
    </text><text synch="#U3" corresp="#T2" xml:lang="ta"><body>
   
   <pb n="[1]r"/>
   
-  <lb n="1"/><gap reason="ellipsis"/>
+  <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
   <lb n="2"/><gap reason="ellipsis"/>
   <lb n="3"/><gap reason="ellipsis"/>
   <lb n="4"/><gap reason="ellipsis"/>
-  <lb n="5"/><gap reason="ellipsis"/>
+  <lb n="5"/><gap reason="ellipsis"/> <seg function="explicit">ñāṉampikaikkuriya moṉāmpikaikkuri cila ñāṉampikaic celviyē</seg> <g ref="#pcl"/>
    
   </body></text></TEI>
