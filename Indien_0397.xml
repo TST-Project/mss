@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><title xml:lang="ta">Mārkkāṇṭanāṭakam</title></title>
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Indien 397</idno>
+                  <idno type="alternate"><idno>Tamoul 397</idno></idno>
+               </msIdentifier>
+               <msContents class="#STM">
+                  <summary><p>The <title xml:lang="ta">Mārkkāṇṭanāṭakam</title>.</p>
+                  </summary>
+                  
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="fr">Title Page</title><textLang mainLang="fra"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta">Mārkkāṇṭanāṭakam: <term xml:lang="en">Invocation</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T3" defective="false"><title xml:lang="ta">Mārkkāṇṭanāṭakam: Mūlam</title><textLang mainLang="tam"/></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="pothi">
+                     <supportDesc material="palm-leaf">
+                        <extent>
+                           <measure unit="folio" quantity="133">[1] + [1] + 291 (U1 + U2 + U3)</measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           <width quantity="330"/><height quantity="30"/></dimensions>
+                        <dimensions type="object" unit="mm"><width quantity="330"/><height quantity="30"/><depth quantity="95"/></dimensions><dimensions type="written" unit="mm"/></extent>
+                        <collation>
+                        
+                        
+                        
+                        
+                        <desc xml:id="cover">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">Title Page</emph>. No foliation. Verso blank.</desc><desc xml:id="U2">1 folio = <emph rend="bold"><term xml:lang="ta">Mārkkāṇṭanāṭakam</term>: Invocation</emph>. No foliation. Verso blank.</desc><desc xml:id="U3">291 folios = <emph rend="bold"><term xml:lang="ta">Mārkkāṇṭanāṭakam: Mūlam</term></emph>. Parallel Tamil foliation 1–131 and Arabic foliation 1–331.</desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>.</desc></collation>
+
+                        <condition>Excellent state of preservation. </condition>
+                     <support><measure unit="stringhole" quantity="2"/></support></supportDesc>
+                     <layoutDesc>
+                        <layout columns="1">Rounded edges.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     
+                  <handNote synch="#U1 U2 U3" scope="sole" scribeRef="#DuclerScribe" script="tamil" medium="incised"><desc>Several hands apparently.</desc></handNote></handDesc>
+                  <additions>
+                    
+                    
+                    
+                    
+                  <desc type="documenting-note" subtype="detached">A <locus facs="00">paper leaf</locus> comes along with the bundle, with a text in French, in black ink, on the recto and on the vers0 (draft version).
+Recto: 
+<quote xml:lang="fr" rend="block">
+  <lb n="1"/>M<hi rend="superscript">r</hi> Ducler, N° 13
+  <lb n="2"/>intitulé Marcandanâdagame,
+  <lb n="3"/>ou Tragedie de Marcandeine,
+  <lb n="4"/>contenant 131 feuilles,
+<lb n="5"/>(ouvrage anonyme,)</quote>
+Verso: 
+<quote xml:lang="fr" rend="block">
+  <lb n="1"/>M<hi rend="superscript">r</hi> Ducler, N° 13
+  </quote>
+                    </desc></additions>
+                  <bindingDesc>
+                     <binding>
+                        <p>Original <material>wood</material> covers. </p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian" notAfter="1833">No internal date. Dated to 1830 by Cabaton (1912), on unstated grounds.</origDate>
+                     <origPlace>South India, Tamilnadu.</origPlace>
+                  </origin>
+                  <acquisition>
+                     <p>Acquired, July 22nd, 1833, from Philippe Ducler. See BnF, département des Manuscrits, inventaire 1 = <title>Acquisitions: manuscrits et imprimés documentaires, 1833-1848</title>, no. 80.</p>
+                  </acquisition>
+               </history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl>Cabaton, Antoine (1912). <title xml:lang="fr">Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f75">p. 57</ref>.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         
+         
+      <p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.    </p></encodingDesc>
+      <revisionDesc>
+         
+         
+      <change when="2021-08">Record created by Emmanuel FRANCIS.</change></revisionDesc>
+   </teiHeader>
+   <facsimile>
+      
+   </facsimile>
+<text synch="#U1" corresp="#T1" xml:lang="fr"><body>
+  <pb n="[1]r" facs="00"/>
+  <lb n="1"/><seg function="title">Marcandandagame
+  <lb n="2"/>ou
+  <lb n="1"/>Tragedie de Marcandane en vers</seg>
+</body>
+ 
+  </text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
+  <pb n="[1]r" facs="00"/>
+  
+  <milestone unit="left-margin"/>
+  <lb n="1"/>
+  
+  <milestone unit="main-text-area"/>
+  <lb n="1"/>
+  <lb n="2"/>
+  <lb n="3"/>
+  <lb n="4"/>
+  <lb n="5"/> <g ref="#pcs"/> <g ref="#pcs"/>
+                    
+</body></text><text synch="#U3" corresp="#T3" xml:lang="ta"><body>
+  <pb n="[1]r" facs="00"/>
+  
+  <milestone unit="left-margin"/>
+  <lb n="1"/>
+  
+  <milestone unit="main-text-area"/>
+  <lb n="1"/>
+
+</body></text></TEI>
