@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title><title xml="ta">Pūcaikku Yāṉam</title> (TBC)</title>
+            <title>Christian Tamil Text</title>
             
          <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          <publicationStmt>
@@ -21,7 +21,7 @@
                   <idno type="alternate"><idno>Tamoul 466</idno></idno>
                </msIdentifier>
                <msContents class="#STM">
-                  <summary><title xml="ta">Pūcaikku Yāṉam</title>. TBC: this seems to be an intertitle rather than the title of the work.</summary>
+                  <summary>Christian ritual work.</summary>
                   
                <msItem synch="#U1" xml:id="T1" defective="true"><title xml:lang="ta">Pūcaikku Yāṉam (<term xml:lang="en">TBC</term>)</title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
@@ -30,7 +30,7 @@
                         <support>
                            <measure unit="stringhole" quantity="2"/>
                            
-                        </support>
+                        <p>The leaves are larger in the middle of the bundle.</p></support>
                         <extent>
                            <measure unit="folio" quantity="104">[47] + [57] (U1 + U2)</measure>
                            <dimensions type="leaf" unit="mm">
@@ -50,7 +50,7 @@
                   <decoDesc>
                   </decoDesc>
                   <additions>
-                  <desc synch="#cover" type="shelfmark" subtype="cover end">BnF shelfmark sticker: <quote>INDIEN 466</quote>.</desc></additions>
+                  <desc synch="#cover" type="shelfmark" subtype="cover end">BnF shelfmark sticker: <quote>INDIEN 466</quote> (back cover, verso).</desc></additions>
                   <bindingDesc>
                      <binding><p>Original <material>wood</material> covers. 210 x 30 mm.</p></binding>
                   </bindingDesc>
@@ -91,6 +91,9 @@
   <milestone unit="main text area"/>
   <lb n="1"/><gap reason="ellipsis"/>
   
+  <pb n="[21]r"/>
+   <lb n="5"/><gap reason="ellipsis"/> cuvāmi pūcai Oḻu<unclear>k=ku</unclear>muṟṟu <g ref="#pcl"/>  
+  
    <pb n="[22]r"/>
   <milestone unit="left margin"/>
   <lb n="1"/><seg function="intertitle">Āṟukālai
@@ -98,26 +101,41 @@
   
   <pb n="[27]v"/>
   <milestone unit="left margin"/>
-  <lb n="1"/><seg function="intertitle"><gap reason="ellipsis"/></seg>
+  <lb n="1-3"/><seg function="intertitle">mattiyāṉacīvam
+</seg>
 
     <pb n="[29]v"/>
   <milestone unit="left margin"/>
-  <lb n="1"/><seg function="intertitle"><gap reason="ellipsis"/></seg>
+  <lb n="1-3"/><seg function="intertitle">Apirāṉakālat=tuc cepam</seg>
   
     <pb n="[31]r"/>
   <milestone unit="left margin"/>
-  <lb n="1"/><seg function="intertitle"><gap reason="ellipsis"/></seg>
+  <lb n="1-2"/><seg function="intertitle">As·tamāṉa kālat=tu cīvam</seg>
   
-    <pb n="[34]r"/>
+  <pb n="[33]v"/>
+   <lb n="5"/><gap reason="ellipsis"/> muṟ<sic>tu</sic> <g ref="#pcl"/>
+  
+      <pb n="[34]r"/>
   <milestone unit="left margin"/>
-  <lb n="1"/><seg function="intertitle"><gap reason="ellipsis"/></seg>
+  <lb n="1"/><seg function="intertitle">Avas·ttaiyilē collukiṟa mantiram</seg>
+  
+  <milestone unit="main-text-area"/>
+  <lb n="1"/>cuvāmi kiṟupai yāyiruṅ · kiris·tuvē kiṟupai yāyiruṅ
+  <lb n="2"/>cuvāmi kiṟupai yāyiruṅ · Aṟcīṣṭa mariyē | Ellārum 
   
     <pb n="[40]r"/>
   <milestone unit="left margin"/>
-  <lb n="1"/><seg function="intertitle"><gap reason="ellipsis"/></seg>
+  <lb n="1-3"/><seg function="intertitle">piṟattiṣaṇa-mantiram
+</seg>
+  
+  <pb n="[43]v"/>
+  <lb n="4"/><gap reason="ellipsis"/> paṇṇiyaruḷum Ā<seg rend="grantha">me</seg>n ecu <g ref="#pcl"/> 
   
     <pb n="[44]r"/>
   <milestone unit="left margin"/>
-  <lb n="1"/><seg function="intertitle"><gap reason="ellipsis"/></seg>
+  <lb n="1-3"/><seg function="intertitle">reṇṭām piṟattiṣaṇa-mantira<seg rend="grantha">m</seg></seg>
+  
+  <pb n="[47]r"/>
+  <lb n="1"/><seg function="explicit">maṉuṣar vācam āyi</seg>
   
 </body></text></TEI>
