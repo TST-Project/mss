@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>TBC</title>
+            
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Indien 468</idno>
+                  <idno type="alternate"><idno>Tamoul 468</idno></idno>
+               </msIdentifier>
+               <msContents class="#STM">
+                  <summary>A Christian text: <foreign xml:lang="ta">pāraciyam</foreign> (?) to be made in the church every Sunday.</summary>
+                  
+               <msItem synch="#U2" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">TBC</term></title><textLang mainLang="tam"/></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="pothi">
+                     <supportDesc material="palm-leaf">
+                        <support>
+                           <measure unit="stringhole" quantity="1"/>
+                           
+                        </support>
+                        <extent>
+                           <measure unit="folio" quantity="10">[1] + 8 + [1] (U1 + U2 + U3)</measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           <width min="210" max="215"/><height min="25" max="30"/></dimensions>
+                        <dimensions type="object" unit="mm"><width quantity="215"/><height quantity="25"/><depth quantity="20"/></dimensions><dimensions type="written" unit="mm"/></extent>
+                        <collation><desc xml:id="cover">the <emph rend="bold">front cover</emph>. </desc><desc xml:id="U1">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Double folio. 215 x 25 mm. Blank recto verso.</desc><desc xml:id="U2">8 folios = <emph rend="bold">main text</emph>. Tamil foliation 1-7, 10. 215 x 30 mm.</desc><desc xml:id="U3">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Double folio. 215 x 25 mm. Recto blank. Illegible note in black ink on the verso.</desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>. Shelfmark on the verso.</desc></collation>
+                        
+                        <condition>Very good state of conservation.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc><handNote synch="#U2" scope="major" script="tamil" medium="incised"/><handNote synch="#U3" scope="minor" script="tamil" medium="incised"/></handDesc>
+                  <decoDesc>
+                  </decoDesc>
+                  <additions>
+                  <desc synch="#cover" type="shelfmark" subtype="cover end">BnF shelfmark sticker: <quote>INDIEN 468</quote>.</desc><desc synch="#U3">Illegible note in black ink on the verso.</desc></additions>
+                  <bindingDesc>
+                     <binding><p><material resp="#cLI" cert="medium">Mahogany</material> woodcovers apparently fabricated in the BnF. 210 x 25 mm.</p></binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian">No internal date.</origDate>
+                     
+                  <origPlace>Tamilnadu.</origPlace></origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens. Bibliothèque nationale. Département des manuscrits.</title> Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f85">p. 66</ref>.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         
+      <p>TBC.</p></encodingDesc>
+      <revisionDesc>
+         
+      <change when="2021-09">Record created by Emmanuel FRANCIS</change></revisionDesc>
+   </teiHeader>
+   <facsimile>
+   </facsimile>
+<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+  
+  <pb n="1r"/>
+  
+  <milestone unit="left margin"/>
+  <lb n="1"/><seg function="title">ṉāyittukiḻamai
+  <lb n="2"/>tōṟuṅ kō
+  <lb n="3" break="no"/>vilkaḷilē
+  <lb n="4"/>paṉṟukiṟa
+  <lb n="5"/>parāciyam</seg>
+
+  <milestone unit="main text area"/>
+  <lb n="1"/><seg function="incipit">namuṭaiya ṉātar yēcukkirī
+  <lb n="1" break="no"/>stuvuṭaiya tirurattattiṉālē</seg>
+
+  <pb n="10v"/>
+
+  <lb n="5"/><gap reason="ellipsis"/> <seg function="explicit">namuṭaiya ṉātar tammuṭaiya cīṣar</seg>
+  
+</body></text></TEI>
