@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><term xml:lang="ta">Ciṟṟampalanāṭi Kaṭṭaḷai</term></title>
+            
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Indien 488</idno>
+                  <idno type="alternate"><idno>Tamoul 488</idno></idno>
+               </msIdentifier>
+               <msContents class="#STM">
+                  <summary><title xml:lang="ta">Ciṟṟampalanāṭi Kaṭṭaḷai</title>, a Śaiva Siddhānta treatise by <persName xml:lang="ta">Ciṟṟampalanāṭikaḷ</persName> (14th-15th century). See Zvelebil (1995, p. 155). By a Christian copyist (see blessing, U2, f1r, lm1).</summary>
+                  
+               <msItem synch="#U2" xml:id="T1" defective="false"><title xml:lang="ta">Ciṟṟampalanāṭi Kaṭṭaḷai: Mūlam</title><author xml:lang="ta">Ciṟṟampalanāṭikaḷ</author><textLang mainLang="tam"/><filiation><p>GOML D.1371.</p></filiation></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="pothi">
+                     <supportDesc material="palm-leaf">
+                        <support>
+                           <measure unit="stringhole" quantity="2"/>
+                           
+                        </support>
+                        <extent>
+                           <measure unit="folio" quantity="53">[6] + [47] (U1 + U2)</measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           <width quantity="255"/><height quantity="30"/></dimensions>
+                        <dimensions type="object" unit="mm"><width quantity="260"/><height quantity="30"/><depth quantity="45"/></dimensions><dimensions type="written" unit="mm"/></extent>
+                        <collation><desc xml:id="cover">the <emph rend="bold">front cover</emph>. Shelfmarks.</desc><desc xml:id="U1">6 folios = <emph rend="bold">guard leaves</emph>. No foliation. 255 x 30 mm. Blank recto verso. Shelfmarks on f[1]r.
+
+
+</desc><desc xml:id="U2">47 folios = <emph rend="bold"><term xml:lang="ta">Ciṟṟampalanāṭi Kaṭṭaḷai: Mūlam</term></emph>. Tamil foliation 1-47. 255 x 30 mm.
+</desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>. Shelfmark.</desc></collation>
+                        
+                        <condition>Relatively good state of preservation despite boreholes.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        
+                     <layout writtenLines="6 7"/></layoutDesc>
+                  </objectDesc>
+                  <handDesc><handNote synch="#U2" scope="sole" script="tamil" medium="incised"/></handDesc>
+                  <decoDesc>
+                  </decoDesc>
+                  <additions>
+                  <desc synch="#cover" type="shelfmark" subtype="beginning cover">BnF shelfmark sticker <quote>INDIEN 488</quote> (front cover, recto).</desc><desc synch="#cover" type="shelfmark" subtype="beginning cover">Crossed-out shelfmark in black pencil (front cover, recto).</desc><desc synch="#cover" type="shelfmark" subtype="beginning cover">Shelfmark <quote>23</quote> in black pencil (front cover, recto).</desc><desc synch="#cover" subtype="cover end">shelfmark <quote>26.<gap reason="illegible" quantity="1" unit="character"/></quote> in black pencil (?) (back cover, verso).</desc><desc synch="#U1" type="shelfmark">Shelfmark <quote>2°</quote> in black ink (f[1]r).</desc><desc synch="#U1" type="shelfmark">Shelfmark <quote>26-<hi rend="superscript">2</hi></quote> in black pencil (f[1]r).</desc></additions>
+                  <bindingDesc>
+                     <binding><p><material resp="#cLI" cert="medium">Mahogany</material> woodcovers apparently fabricated in the BnF. 260 x 30 mm.</p></binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian" notAfter="1912">No internal date.</origDate>
+                     
+                  <origPlace>Tamilnadu.</origPlace></origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens. Bibliothèque nationale. Département des manuscrits.</title> Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f88">p. 69</ref>.</bibl><bibl>Zvelebil, Kamil V. (1995). <title>Lexicon of Tamil Literature.</title> Leiden [etc.]: Brill.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         
+      <p>TBA</p></encodingDesc>
+      <revisionDesc>
+         
+      <change when="2021-09">Record created by Emmanuel FRANCIS.</change></revisionDesc>
+   </teiHeader>
+   <facsimile>
+   </facsimile>
+<text synch="#U2" corresp="#T1" xml:lang="ta"><body>
+  
+  <pb n="1r"/>
+  
+  <milestone n="1" unit="left-margin"/>
+  <lb n="1"/><seg function="blessing">Āṉāti
+  <lb n="2"/>namas
+  <lb n="3" break="no"/>tu {cross}</seg>
+  
+  <milestone n="2" unit="left-margin"/>
+  <lb n="1"/><seg function="title">cittampalanāṭi
+  <lb n="2" break="no"/>-k kaṭṭaḷai-viparam</seg>
+  
+  <milestone unit="main-text-area"/>
+  <lb n="1"/><seg function="incipit">campūṟṇaṉumāyi caṟuvakkiyāṉṉumāyi ~ kattāvumāyi yarūparu
+  <lb n="2"/>māyi Eṉṟappaṭta mūṉṟumāyi yallavumāyi</seg> <gap reason="ellipsis"/>
+  
+  <pb n="47v"/>
+  <lb n="8"/><gap reason="ellipsis"/> <seg function="explicit">Aṟint’ aṉupavikka kaṇṭōm</seg>
+</body></text></TEI>
