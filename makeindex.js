@@ -91,6 +91,21 @@ const getImages = (el) => {
     return a.innerHTML;
 };
 
+const getRepo = (xmlDoc) => {
+
+    const names = new Map([
+        ['Bibliothèque nationale de France. Département des Manuscrits','BnF'],
+        ['Bibliothèque nationale de France. Département des Manuscrits.','BnF'],
+        ['Staats- und UniversitätsBibliothek Hamburg Carl von Ossietzky','Hamburg Stabi'],
+        ['Bodleian Library, University of Oxford','Oxford'],
+        ['Cambridge University Library','Cambridge'],
+        ['Bibliothèque universitaire des langues et civilisations','BULAC'],
+        ['Private collection','private']
+    ]);
+    const repo = xmlDoc.querySelector('repository > orgName').textContent.replace(/\s+/g,' ');
+    return names.get(repo); 
+};
+
 const readfiles = function(arr) {
     const template = new jsdom.JSDOM(fs.readFileSync('index-template.html',{encoding:'utf8'})).window.document;
     const tab = arr.map((f) => 
@@ -99,10 +114,10 @@ const readfiles = function(arr) {
         const dom = new jsdom.JSDOM('');
         const parser = new dom.window.DOMParser();
         const xmlDoc = parser.parseFromString(str,'text/xml');
-        const cote = getCote(xmlDoc);
         return {
             filename: f,
-            cote: cote,
+            repo: getRepo(xmlDoc),
+            cote: getCote(xmlDoc),
             title: xmlDoc.querySelector('titleStmt > title').textContent,
             //title: getTitles(xmlDoc.querySelectorAll('msItem > title')),
             material: getMaterial(xmlDoc.querySelector('supportDesc')),
@@ -118,13 +133,15 @@ const readfiles = function(arr) {
         else return 1;
     });
     const table = template.querySelector('#index').firstElementChild;
-    var tstr = '<thead><tr id="head"><th class="sorttable_alphanum sorttable_sorted">Shelfmark<span id="sorttable_sortfwdind">&nbsp;&#x25BE;</span></th><th>Title</th><th>Material</th><th>Extent</th><th>Width (mm)</th><th>Height (mm)</th><th>Date</th><th>Images</th></tr></thead>';
+    var tstr = '<thead><tr id="head"><th class="sorttable_alphanum sorttable_sorted">Shelfmark<span id="sorttable_sortfwdind">&nbsp;&#x25BE;</span></th><th>Repository</th><th>Title</th><th>Material</th><th>Extent</th><th>Width (mm)</th><th>Height (mm)</th><th>Date</th><th>Images</th></tr></thead>';
     for(const t of tab) {
         const trstr = 
 `
 <tr>
   <th sorttable_customkey="${t.cote.sort}"><a href="${t.filename}">${t.cote.text}</th>
-  <td>${t.title}</td><td>${t.material}</td>
+  <td>${t.repo}</td>
+  <td>${t.title}</td>
+  <td>${t.material}</td>
   <td sorttable_customkey="${t.extent[0]}">${t.extent[1]}</td>
   <td sorttable_customkey="${t.width.replace(/^-|-$/,'')}">${t.width}</td>
   <td sorttable_customkey="${t.height.replace(/^-|-$/,'')}">${t.height}</td>
