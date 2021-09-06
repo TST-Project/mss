@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><term xml:lang="ta">Pañcatantirakkatai</term></title>
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Indien 410</idno>
+                  <idno type="alternate"><idno>Tamoul 410</idno><idno>Ancien fonds 22?</idno></idno>
+               </msIdentifier>
+               <msContents class="#STM">
+                  <summary>The <title xml:lang="ta">Pañcatantirakkatai</title>, a Tamil version of the <title xml:lang="sa">Pañcatantra</title>.</summary>
+                  
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Pañcatantirakkatai: Mūlam</title><textLang mainLang="tam"/><filiation><p>BnF Indien 409-414.</p></filiation></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="paper">
+                        <support>
+                           <measure unit="stringhole"/>
+                           
+                        </support>
+                        <extent>
+                           <measure unit="folio" quantity="78">[4] + 69 + [5] (u1 + U1 + u2)</measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           </dimensions>
+                        <dimensions type="object" unit="mm"><width quantity="210"/><height quantity="335"/><depth quantity="15"/></dimensions><dimensions type="written" unit="mm"/></extent>
+                        <collation><desc xml:id="cover">the <emph rend="bold">front cover</emph>. Verso marbled. Shelfmark on verso. </desc><desc xml:id="u1">4 folios = <emph rend="bold">front guard leaves</emph>. No foliation. f[1] thicker. f[1]r marbled. Blank recto verso. Shelfmark on f[2]r.
+
+</desc><desc xml:id="U1">69 folios = <emph rend="bold"><term xml:lang="ta">Pañcatantirakkatai: Mūlam</term></emph>. Tamil foliation 1-69 and parallel Arabic library foliation.</desc><desc xml:id="u2">5 folios = <emph rend="bold">back guard leaves</emph>. No foliation. f[5] thicker. f[5]v marbled. Blank recto verso. 
+</desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>. Recto marbled. </desc></collation>
+                        
+                        
+                     <condition>Very good state of preservation</condition></supportDesc>
+                     <layoutDesc>
+                        
+                     <layout columns="2"/></layoutDesc>
+                  </objectDesc>
+                  <handDesc><handNote synch="#U1" scope="major" script="tamil" medium="ink black"/></handDesc>
+                  <decoDesc>
+                  <decoNote synch="#cover" type="decorative" subtype="spine"><desc>Heraldic lillies.</desc></decoNote></decoDesc>
+                  <additions>
+                  <desc synch="#cover" type="title" subtype="spine"><quote>PANTCHATANTRA KADAI TAMOUL</quote> (Latin transcription).
+</desc><desc synch="#cover" subtype="spine"><quote>DUPLANTE</quote> (binder's name?)</desc><desc synch="#cover" type="shelfmark" subtype="beginning cover">BnF shelfmark sticker: <quote>INDIEN 410</quote> (front cover, verso).</desc><desc synch="#u1" type="shelfmark">BnF shelfmark in black pencil: <quote>Tamoul N° 410</quote> (f[2]r).</desc><desc synch="#u1 U1" type="commenting-note">Indication of the title to be displayed on the spine (inserted and bound in between u1 and U1): <quote><lb n="1"/>Pantchatantra Kadai <lb n="2"/>Tamoul. </quote> (Latin transcription).</desc><desc synch="#U1" type="catchword"/></additions>
+                  <bindingDesc>
+                     <binding><p>Leather (red). Title and decoration on spine.</p></binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian" notAfter="1730">No internal date. Dated to 1730 by Cabaton (1912), on unstated grounds.</origDate>
+                     
+                  <origPlace>Tamilnadu.</origPlace></origin>
+                  <provenance/>
+                  <acquisition><p>It appears to be the <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105278700/f31">Panja tantri cadey</ref> sent by the Jesuits of the Mission du Carnate in 1730 for the library of the king of France and mentioned in an ancien list (BnF NAF 5442, f9r).</p></acquisition>
+               </history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens. Bibliothèque nationale. Département des manuscrits.</title> Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f77">p. 59</ref>.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         
+      <p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.      </p></encodingDesc>
+      <revisionDesc>
+         
+      <change when="2021-09">Record created by Emmanuel FRANCIS.</change></revisionDesc>
+   </teiHeader>
+   <facsimile>
+   </facsimile>
+<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+  
+  <pb n="1r"/>
+    
+    <lb n="1"/><seg function="title">pañcatantirakkatai</seg>
+  
+  <milestone n="1" unit="column"/>
+    <lb n="1"/><seg function="incipit">pāṭalipuram eṉṉum pa
+  <lb n="2" break="no"/>ṭṭaṇam paripālaṉam
+<lb n="3"/>paṇṇukiṟa <gap reason="ellipsis"/></seg>
+
+  <pb n="33r"/>
+    <milestone n="1" unit="column"/>
+    <lb n="16"/><seg function="completion-statement">mittirapētamuṟṟum</seg>
+  <lb n="17"/>{cross} <seg function="intertitle">Iraṇṭāvatu
+  <lb n="18"/>cukkiṟilāpam</seg>
+
+  <pb n="42v"/>
+    <milestone n="1" unit="column"/>
+    <lb n="28"/><seg function="completion-statement">cukkiṟilāpamut
+  <lb n="29" break="no"/>tum</seg> ~ ~ ~
+  <milestone n="2" unit="column"/>
+    <lb n="1"/><seg function="intertitle">mūṉṟāvatu cantivikki
+<lb n="2" break="no"/>ṟakam</seg>
+
+   <pb n="57v"/>
+      <milestone n="2" unit="column"/>
+    <lb n="28"/><seg function="completion-statement">cantivikkikkiṟakamuṟṟum</seg> ~
+  <lb n="29"/><seg function="intertitle">4<pc>-</pc>vatu Aṟtaṉācam</seg> ~ ~
+    
+  <pb n="58r"/>
+      <milestone n="1" unit="column"/>
+    <lb n="1"/><seg function="intertitle">nālāvatu Aṟtanā
+  <lb n="2" break="no"/>cam</seg>
+  
+  <pb n="62v"/>
+      <milestone n="2" unit="column"/>
+    <lb n="25"/><seg function="completion-statement">Aṟtanāca
+    <lb n="26"/>muṟṟum</seg>
+  <lb n="27"/><seg function="intertitle">Añcāvatu
+  <lb n="28"/>campiṟekṣākāriyam</seg>
+  
+  <pb n="63r"/>
+    <milestone n="1" unit="column"/>
+    <lb n="1"/><seg function="intertitle">Añcāvatu campi
+<lb n="2" break="no"/>ṟekṣaikāriyam</seg>
+
+    <pb n="69v"/>
+      <milestone n="2" unit="column"/>
+
+    <lb n="22"/>p <seg function="explicit">puttirār perilē miku
+<lb n="23" break="no"/>tta cantōṣattai-y-u
+  <lb n="24" break="no"/>ṭaiyavaṉ<pc>-</pc>āy-k kūṭi vā
+<lb n="25" break="no"/>ḻntiruntārkaḷ</seg> <term xml:lang="en">{space-fillers: hyphens}</term>
+<lb n="26"/><seg function="completion-statement">pañcatantirakka
+<lb n="27" break="no"/>tai muṟṟum</seg>
+
+  
+  
+  
+</body></text></TEI>
