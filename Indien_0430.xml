@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><term xml:lang="ta">Cittirakkataikaḷ</term></title>
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Indien 430</idno>
+                  <idno type="alternate"><idno>Tamoul 430</idno><idno>Ancien fonds 20</idno></idno>
+               </msIdentifier>
+               <msContents class="#STM">
+                  <summary>The <title xml:lang="ta">Cittirakkataikaḷ</title>.</summary>
+                  
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Cittirakkataikaḷ: Mūlam</title><textLang mainLang="tam"/></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="paper">
+                        <support>
+                           <measure unit="stringhole"/>
+                           
+                        </support>
+                        <extent>
+                           <measure unit="folio" quantity="27">[1] + [1] + [1] + 22 + [1] + [1] (u1 + u2 + u3 + U1 + u4 + u5).</measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           <width quantity="220"/><height quantity="325"/></dimensions>
+                        <dimensions type="object" unit="mm"><width quantity="330"/><height quantity="210"/><depth quantity="10"/></dimensions><dimensions type="written" unit="mm"/></extent>
+                        <collation><desc xml:id="cover">the <emph rend="bold">front cover</emph>. Verso marbled. Shelfmark on verso. </desc><desc xml:id="u1">1 folio = <emph rend="bold">front guard leaf</emph>. No foliation. Recto marbled. Blank recto verso. Element of library binding.
+
+</desc><desc xml:id="u2">1 folio = <emph rend="bold">front guard leaf</emph>. No foliation. Blank recto verso. Shelfmark on recto. Element of library binding.
+</desc><desc xml:id="u3">1 folio = <emph rend="bold">front guard leaf</emph>. No foliation. Blank recto verso. Shelfmark and title on recto. 200 x 325 mm. Element of original book.</desc><desc xml:id="U1">22 folios = <emph rend="bold"><term xml:lang="ta">Cittirakkataikaḷ: Mūlam</term></emph>. Tamil foliation 1-22 and parallel Arabic library foliation 1-22. 200 x 325 mm. The original book.</desc><desc xml:id="u4">1 folio = <emph rend="bold">back guard leaf</emph>. No foliation. Blank recto verso.  Element of library binding.</desc><desc xml:id="u5">1 folio = <emph rend="bold">back guard leaf</emph>. No foliation. Blank recto verso.  Element of library binding.</desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>. Recto marbled. </desc></collation>
+                        
+                        
+                     <condition>Very good state of preservation</condition></supportDesc>
+                     <layoutDesc>
+                        
+                     <layout columns="2"/></layoutDesc>
+                  </objectDesc>
+                  <handDesc><handNote synch="#U1" scope="major" script="tamil" medium="ink black"/></handDesc>
+                  <decoDesc>
+                  <decoNote synch="#cover" type="decorative" subtype="spine"><desc>Heraldic lillies.</desc></decoNote></decoDesc>
+                  <additions>
+                  <desc synch="#cover" type="title" subtype="spine"><quote>CHITTIRAKKADAI TAMOUL</quote> (Latin transcription).
+</desc><desc synch="#cover" type="shelfmark" subtype="beginning cover">BnF shelfmark sticker: <quote>INDIEN 430</quote> (front cover, verso).</desc><desc synch="#u2" type="shelfmark">BnF shelfmark in black pencil: <quote>Tamoul N° 430</quote> (f[1]r).</desc><desc synch="#u3" type="title shelfmark">Shelfmark and title in black pencil: <quote><lb n="1"/>N. 20 <lb n="2"/>Chittirey Cadey</quote> (f[1]r).</desc><desc synch="#u3 U1" type="documenting-note" subtype="inserted">Indication of the title to be displayed on the spine (inserted and bound in between u3 and U1): <quote><lb n="1"/>Chittirakkadai <lb n="2"/>Tamoul.</quote> (Latin transcription).</desc><desc synch="#U1" type="catchword"/></additions>
+                  <bindingDesc>
+                     <binding><p>Leather (brown). Title and decoration on the spine.</p></binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian" notAfter="1729">No internal date. Dated to 1730 by Cabaton (1912), on unstated grounds.</origDate>
+                     
+                  <origPlace>Tamilnadu.</origPlace></origin>
+                  <provenance/>
+                  <acquisition><p>It appears to be the paper <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105278700/f17">Un autre [livre] appelé le Chittiracday ou fables à l'imitation de celles d'Esope</ref> and <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105278700/f31">Le Chittira cadey</ref> sent by the Jesuits of the Mission du Carnate in 1729 for the library of the king of France and mentioned in ancien lists (BnF NAF 5442, f5r and f9r).</p></acquisition>
+               </history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens. Bibliothèque nationale. Département des manuscrits.</title> Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f77">p. 59</ref>.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         
+      <p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.      </p></encodingDesc>
+      <revisionDesc>
+         
+      <change when="2021-09">Record created by Emmanuel FRANCIS.</change></revisionDesc>
+   </teiHeader>
+   <facsimile>
+   </facsimile>
+<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+  
+  <pb n="1r"/>
+    
+  <lb n="1"/><term xml:lang="en">{Christian cross}</term>
+  <lb n="2"/><seg function="title">cit·tirakkataikaḷ</seg>
+  <lb n="3"/><seg function="intertitle">muṉṉāḷ ñāyaṅ keḷāta yirācāviṉ-uṭaiya kaṭai</seg> <term xml:lang="en">{line-filler = circle}</term>
+  
+  <milestone n="1" unit="column"/>
+  <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
+
+  <pb n="4r"/>
+    <milestone n="1" unit="column"/>
+  <lb n="18"/><seg function="completion-statement">mu<sic>ttu</sic>m</seg> ~
+  <lb n="19"/>+
+  <lb n="20"/><seg function="intertitle">caṭivaḻakkam pē
+  <lb n="21" break="no"/>ciṉa katai + + +</seg>
+  
+    <pb n="5v"/>
+    <milestone n="2" unit="column"/>
+  <lb n="22"/><seg function="completion-statement">mu<sic>ttu</sic>m</seg>  ~ ~ ~ ~
+  <lb n="23"/><term xml:lang="en">{Christian cross}</term>
+  <lb n="24"/><seg function="intertitle">Āṭṭiṉ katai</seg>
+  
+    <pb n="6r"/>
+  <milestone n="1" unit="column"/>
+  <lb n="8"/><seg function="completion-statement">mu<sic>ttu</sic>m</seg> ~ ~
+  <lb n="9"/><seg function="intertitle">Ālamarattiṉ ka
+  <lb n="10" break="no"/>tai</seg>
+  
+  <pb n="6v"/>
+  <milestone n="1" unit="column"/>
+  <lb n="28"/><gap reason="ellipsis"/> ~ ~ <seg function="completion-statement">mu<sic>ttu</sic>m</seg>
+  <lb n="29"/><seg function="intertitle">kōḻi vaḷatta
+  <lb n="30"/>katai</seg>
+  
+  <pb n="6v"/>
+  <milestone n="2" unit="column"/>
+  <lb n="22"/><seg function="completion-statement">mu<sic>ttu</sic>m</seg> ~ ~
+  <lb n="23"/>+
+  <lb n="24"/><seg function="intertitle">cāval katai</seg>
+  
+  <pb n="22r"/>
+  <lb n="12"/><gap reason="ellipsis"/> ~ ~ ~ <seg function="completion-statement">mu<sic>ttu</sic>m</seg> ~ ~
+   <lb n="13"/>~ ~ ~ ~ ~ ~ ~ ~
+   <lb n="14"/><seg function="intertitle">mutalaiyiṉ katai</seg>
+  
+  <pb n="22v"/>
+    <milestone n="2" unit="column"/>
+    <lb n="6"/><seg function="explicit">yantu ceṟṟu-p <term xml:lang="en">{line-filler = 1 circle}</term>
+  <lb n="7"/>pōṉāṉ</seg> <term xml:lang="en">{line-fillers = 4 hyphens}</term>
+<lb n="8"/><term xml:lang="en">{line-fillers = 4 hyphens}</term>
+<lb n="9"/><term xml:lang="en">{line-fillers = 6 hyphens}</term>
+<lb n="10"/><seg function="completion-statement">mu<sic>ttu</sic>m</seg> <term xml:lang="en">{line-fillers = 4 hyphens}</term>
+
+    
+</body></text></TEI>
