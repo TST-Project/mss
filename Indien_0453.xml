@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><term xml:lang="ta">Callāpam</term></title>
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Indien 453</idno>
+                  <idno type="alternate"><idno>Tamoul 453</idno></idno>
+               </msIdentifier>
+               <msContents class="#STM">
+                  <summary>Dialogues on the Old Testament, that is, on Kings 3, Kings 4, Paralipomenon, Ezra, Tobit, Esther, Judith, Job, and Maccabee.</summary>
+                  
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Callāpam: <term xml:lang="en">Completion Statement</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T2" defective="false"><title xml:lang="ta">Callāpam: Mūlam</title><textLang mainLang="tam"/></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="pothi">
+                     <supportDesc material="palm-leaf">
+                        <support>
+                           <measure unit="stringhole" quantity="2"/>
+                           
+                        </support>
+                        <extent>
+                           <measure unit="folio" quantity="333">[1] + [9] + 315 + [10] (U1 + U2 + U3 + U4).</measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           <width min="340" max="345"/><height min="30" max="35"/></dimensions>
+                        <dimensions type="object" unit="mm"><width quantity="350"/><height quantity="30"/><depth quantity="200"/></dimensions><dimensions type="written" unit="mm"/></extent>
+                        <collation><desc xml:id="U1">1 folio = <emph rend="bold"><term xml:lang="ta">Callāpam</term>: Completion Statement</emph> (added to the bundle). No foliation. Double folio. Verso blank. 195 x 25 mm. </desc><desc xml:id="cover">the <emph rend="bold">front cover</emph>. </desc><desc xml:id="U2">9 folios = <emph rend="bold">front guard leaves</emph>. No foliation. Blank recto verso. 340 x 30 mm.
+</desc><desc xml:id="U3">315 folios = <emph rend="bold"><term xml:lang="ta">Callāpam: Mūlam</term></emph>. Tamil foliation 1-315. Only foliation of f313-f315, balnk recto verso. 340 x 30 mm.</desc><desc xml:id="U4">10 folios = <emph rend="bold">back guard leaves</emph>. No foliation. 340 x 30 mm.</desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>. 305 x 30 mm.</desc></collation>
+                        
+                        
+                     <condition>Very good state of preservation.</condition></supportDesc>
+                     <layoutDesc>
+                        
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc><handNote synch="#U1 U3" scope="sole" script="tamil" medium="incised"/></handDesc>
+                  <decoDesc>
+                  </decoDesc>
+                  <additions>
+                  <desc synch="#cover" type="shelfmark documenting-note" subtype="beginning cover"><quote xml:lang="fr"><lb n="1"/>Seulle pièce <supplied reason="illegible">cottée cinquante</supplied> <lb n="2"/> {signature} </quote> (front cover, recto).</desc><desc synch="#cover U2" type="documenting-note" subtype="inserted">Contents (paper inserted between front cover and U2): <quote xml:lang="fr">Dialogues sur le 3e &amp; 4e des Roys, Paralipomenes, Esdras, Tobias, Ester, Judith, Job et les Machabees </quote>.</desc><desc synch="#cover" type="shelfmark" subtype="cover end">BnF shelfmark sticker: <quote>INDIEN 453</quote> (back cover, verso).</desc><desc synch="#cover" type="shelfmark documenting-note" subtype="cover end"><quote xml:lang="fr"><lb n="1"/>Seulle pièce cotte cinquante <lb n="2"/> {signature}</quote></desc><desc synch="#U3" corresp="#T2" type="intertitle">Left-marginal intertitles: f1r, f3r, f6r, f22r, f32r, f34r, f40r, f55r, f64r, f74r, f78r, f80r, f84r, f88r, f95r, f100r, f108r, f113r, f119r, f120r, f125r, f131r, f133r, f134r, f138r, f146r, f147r, f148r, f149r, f152r, f153r, f155r, f156r, f160r, f162r, f163r, f172r, f178r, f180r, f181r, f197r, f209r, f219r, f227r, f228r, f228v, f229r, f229v, f230r, f231r, f232r, f233r, f235r, f236r, f236r, f237r, f256r, f256v, f257r, f257v, f258r, f262r, f262v, f263r, f263v, f264r, f264v, f265r, f266r, f270r, f279r, f288r, f293r.</desc></additions>
+                  <bindingDesc>
+                     <binding><p>Original (?) <material>wood</material> covers. 350 x 30 mm.</p></binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian">Internally dated to the year 1607 of an unstated era (U3, f312r2-3). It is not clear if this is the date of copy or the date copied from the master copy, if any.
+Dated to 1750 by Cabaton (1912), on unstated grounds. </origDate>
+                     
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens. Bibliothèque nationale. Département des manuscrits.</title> Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f82">p. 64</ref>.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         
+      <p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.      </p></encodingDesc>
+      <revisionDesc>
+         
+      <change when="2021-09">Record created by Emmanuel FRANCIS.</change></revisionDesc>
+   </teiHeader>
+   <facsimile>
+   </facsimile>
+<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+  
+  <pb n="[1]r"/>
+  <lb n="1"/><seg function="table-of-contents completion-statement">ṟāyarkaḷ-uṭaiya mūṉṟ<pc>-</pc>āvatu | postakam | ṉāl<pc>-</pc>āvatu postakamum paralip
+ <lb n="2" break="no"/>pomēṉoṉ postakamum | y<pc>-</pc>estaras postakam | 4 | toviyas |
+ <lb n="3"/>postakam | yutittu postakam | y<pc>-</pc>estter postakam | yovvu postakam | <gap reason="illegible" quantity="3" unit="character"/>
+ <lb n="4" break="no"/>c eṉkiṟa <choice><sic>pe</sic><corr>postakam</corr></choice> tuva<del><gap reason="illegible" quantity="1" unit="character"/></del>kki <unclear>ki</unclear>ṟaka-tericikaḷ postakamum makkave-y<pc>-</pc>uṭaiya reṇṭu
+ <lb n="5"/>postakamumutinta postakam ākum | paḻaiya y<pc>-</pc>ēṟpaṭu muṟṟum</seg>
+
+  </body></text><text synch="#U3" corresp="#T2" xml:lang="ta"><body>
+  
+  <pb n="1r"/>
+  <milestone unit="left-margin"/>
+  <lb n="1"/><seg function="intertitle">cattiyamāṉa caṟuvēcuraṉukku
+  <lb n="2"/>stōttiramāk rāyar
+  <lb n="3" break="no"/>kaḷuṭaiya mūṉṟ<pc>-</pc>āvatu
+  <lb n="4"/>postakattiṉ
+  <lb n="5"/>vivē<sic>kka</sic>m</seg>
+
+   <milestone unit="main-text-area"/>
+  <lb n="1"/><seg function="incipit">ku <note xml:lang="en">i.e. <term xml:lang="ta">kuru</term></note> | y<pc>-</pc>inta rāyarkaḷ<pc>-</pc>uṭaiya mūṉṟ<pc>-</pc>āvatu postakattilē</seg> <gap reason="ellipsis"/>
+  
+  <pb n="2v"/>
+  <lb n="1"/><gap reason="ellipsis"/> | <seg function="completion-statement">vivē<sic>kka</sic>m muṟṟum</seg> <g ref="#pcl"/>
+  
+  <pb n="3r"/>
+  <milestone unit="left-margin"/><seg function="intertitle"><gap reason="ellipsis"/></seg>
+
+  <pb n="6r"/>
+  <milestone unit="left-margin"/><seg function="intertitle"><gap reason="ellipsis"/></seg>
+  
+  
+    <pb n="312r"/>
+  <milestone unit="left-margin"/>
+   <lb n="1"/><gap reason="ellipsis"/> piṟañcīcukku v<pc>-</pc>eṉkiṟa ṉāmattai-k koṇ
+  <lb n="2" break="no"/>ṭirukkiṟa vīcuppu Avarkaḷ kaṟpitattiṉ paṭiyē <seg function="colophon">y<pc>-</pc>eḻuti niṟaveṟṟiṉōm · 1000 6 100
+<lb n="3"/> 6 10 7 {varuṣam} c-cellum māci {mācam} 8 {tēti} · muṭintutu muṟṟum</seg> +
+
+  <pb n="312v"/><term xml:lang="en">[blank]</term>
+
+  </body></text></TEI>
