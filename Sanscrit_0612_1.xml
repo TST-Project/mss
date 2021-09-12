@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><title xml:lang="sa">Amarakośa</title> with anonymous commentaries</title>
+            
+         <editor><persName>Charles LI</persName><orgName>CNRS, CEIAS, UMR 8564</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc97339b/cd0e16214</idno>
+                  <idno type="shelfmark">Sanscrit 612.1</idno>
+                  <idno type="alternate"><idno>Guérin 38</idno></idno>
+               </msIdentifier>
+               <msContents class="#CM">
+                  <summary><p>This heavily annotated manuscript of the <title xml:lang="sa">Amarakośa</title>, the well-known Sanskrit lexicon, was part of the collection of J. M. F. Guérin. It has been bound along with two other works from the collection.</p>
+<p>The manuscript seems to contain two parts: U1, a single-folio fragment, and U2, which is a complete manuscript in 90 folios.</p>
+<p>U1 is unnumbered, but it is clearly the first folio of a manuscript. It contains the beginning of the <title xml:lang="sa">Amarakośa</title> on the <locus facs="5">recto side</locus>, and a commentary on the <locus facs="6">verso side</locus> (although this folio was probably bound backwards). </p>
+<p>The next folio, numbered <q xml:lang="sa">1</q>, marks the beginning of U2. It contains the beginning of the text again starting on the <locus facs="8">verso side</locus>, in a different hand, with a marginal commentary. A third commentary in red ink runs from the end of U1 to the beginning of U2.</p>
+<p>A colophon at <locus facs="186">the end</locus>, which seems to have been erased and rewritten, gives the name of the scribe of U2, <persName xml:lang="sa">Govarddhana</persName>, and the date, equivalent to 1684 CE. </p></summary>
+                  
+               <msItem synch="#U1" xml:id="AK" defective="true"><title xml:lang="sa">Amarakośa</title><author xml:lang="sa">Amarasiṃha</author><textLang mainLang="san"/><rubric xml:lang="sa"><milestone facs="5" n="1r" unit="folio"/>ঀ <unclear>śrīrā</unclear>maḥ — |</rubric><incipit xml:lang="sa"><unclear>yasya jñāna</unclear>dayāsindhor agādhasyanaghā guṇāḥ | sevyatām akṣayo dhīrāḥ sa śriye cāmṛtāya ca
+</incipit><explicit xml:lang="sa">ādityā ṛbhavo 'svapnā amartyā amṛtāndhasaḥ |  barhirmu<unclear>khāḥ ṛtubhu</unclear></explicit></msItem><msItem synch="#U1" xml:id="AKc1" defective="false"><title xml:lang="sa">anonymous initial commentary</title><textLang mainLang="san"/></msItem><msItem synch="#U2" xml:id="AK" defective="false"><title xml:lang="sa">Amarakośa</title><author xml:lang="sa">Amarasiṃha</author><textLang mainLang="san"/><rubric xml:lang="sa"><milestone facs="8" n="1v" unit="folio"/>ঀ namaḥ śivāya | </rubric><incipit xml:lang="sa">yasya jñānadayāsindho—r agādhasyānaghā guṇāḥ | sevyatām akṣayo dhīrāḥ sa śriye cāmṛtāya ca ||
+</incipit><explicit xml:lang="sa"><milestone facs="186" n="90v" unit="folio"/><lb n="1"/>vyayaṃ |  paraṃ <sic>viro</sic> śeṣan tu jñeyaṃ śiṣṭaprayogataḥ — |  ৽ | ৽ | ❈ | = | · || · || ❈ || ৽ |
+</explicit><finalRubric xml:lang="sa"><milestone facs="186" n="90v" unit="folio"/>liṅgādisaṃgrahavargaḥ | . | ity amarasiṃhakṛtau nāmaliṅgānuśāsane | sāmānyas tṛtīyaḥ kāṇḍaḥ sāṅga eva samarthitaḥ ||</finalRubric><colophon xml:lang="sa"><unclear>śrī</unclear>dūrgāyai namaḥ | namaḥ śrīgurave namaḥ || <lb n="2"/>śubham astu sadā <unclear>veśyake</unclear> || <unclear>vasvestvaṅga</unclear>mite śāke daśamyāṃ śuklamāsake | alekhī<unclear>n nu dine śvaṣṭha</unclear>govarddhanena pustakaṃ || natvā <unclear>gotravarātmajasvasṛpadās teje svayaṃ kāmadaṃ grantho 'yaṃ nibhṛtaṃ vyalekhi bheṣajyadhīre naṭīkāyataḥ |</unclear> aṅgā-<lb n="3"/>kāśarasendubhiḥ parimite śāke daśamyān tithau jyaiṣṭhe māsi svadhākarasya divase govarddhaneṇa dutaṃ ||</colophon></msItem><msItem synch="#U2" xml:id="AKc2" defective="false"><title xml:lang="sa">anonymous marginal commentary</title><textLang mainLang="san"/></msItem><msItem synch="#U1 U2" xml:id="AKc3" defective="false"><title xml:lang="sa">anonymous commentary in red</title><textLang mainLang="san"/></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="pothi">
+                     <supportDesc material="paper handmade">
+                        <support>
+                           <measure unit="stringhole"/>
+                           
+                        </support>
+                        <extent>
+                           <measure unit="folio" quantity="91">1 + 1-90</measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           </dimensions>
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
+                        <collation><desc xml:id="U1">One folio of the beginning of the <title xml:lang="sa">Amarakośa</title>, with a commentary on the verso.</desc><desc xml:id="U2">90 folios containing the entirety of the <title xml:lang="sa">Amarakośa</title>.</desc></collation>
+                        
+                        <condition>Worn and faded, otherwise good condition.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        
+                        <summary/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc><handNote synch="#U1" scope="major" script="bengali" medium="ink black"/><handNote synch="#U2" scope="major" script="bengali" medium="ink black"><desc>The name of the scribe is <persName xml:lang="sa">Govarddhana</persName>.</desc></handNote><handNote synch="#U1 U2" scope="minor" script="bengali" medium="ink red"><desc>Scribe of the commentary that runs across both U1 and the beginning of U2, in red ink.</desc></handNote></handDesc>
+                  <decoDesc>
+                  </decoDesc>
+                  <additions>
+                  <desc synch="#U1 U2" type="stamp" subtype="beginning end"><q>JG</q> stamp (for J. Guérin), <locus facs="5">beginning</locus> and <locus facs="186">end</locus>.</desc><desc synch="#U1" type="stamp" subtype="beginning"><q xml:lang="fr">BIBLIOTHEQUE IMPERIALE</q> stamp, <locus facs="5">beginning</locus>.</desc><desc synch="#U1" type="shelfmark" subtype="beginning">Old shelfmark: <q>P. IV. No 6.</q></desc><desc synch="#U1" type="shelfmark" subtype="beginning">Old shelfmark: <q>38</q>.</desc><desc synch="#U1" type="blessing" subtype="beginning marginal left"><locus facs="5">initial folio, recto</locus>: <q xml:lang="sa">śrīḥ —</q>.</desc><desc synch="#U2" type="blessing" subtype="beginning marginal right"><locus facs="8">folio 1v</locus>: <q xml:lang="sa">śrīḥ</q>.</desc><desc synch="#U2" subtype="end marginal left"><locus facs="186">folio 90v</locus>: <q xml:lang="sa">śrīkṛṣṇaḥ — <lb/><unclear>śaraṇaṃ</unclear></q></desc></additions>
+                  <bindingDesc>
+                     <binding><p>Bound as a book along with two other manuscripts.</p></binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian" notBefore="1684">There seem to be two dates at the end of U2. The second one gives a <term xml:lang="sa">śāka</term> date of <q xml:lang="sa">aṅgākāśarasendu</q>, or 1606, in the month of <term xml:lang="sa">jyaiṣṭha</term>, corresponding to 1684 CE. If this is the date of the completion of U2, then the whole bundle, including U1, would have been put together some time later.</origDate>
+                     
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl>Cabaton, Antoine. (1907-1908) <title xml:lang="fr">Catalogue sommaire des manuscrits sanscrits avec supplément manuscrit</title>. Paris: E. Leroux. Supplemented by Jean Filliozat. <ref target="https://gallica.bnf.fr/ark:/12148/btv1b10536321f/f116.item">100</ref>.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         
+      <p>Spaces added where possible. ❈ represents a puṣpikā. </p></encodingDesc>
+      <revisionDesc>
+         
+      <change when="2021-09">First version.</change></revisionDesc>
+   </teiHeader>
+   <facsimile>
+   <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525142714/manifest.json"/></facsimile>
+<text synch="#U1" corresp="#AKc1" xml:lang="sa"><body>
+  <p xml:id="AK-c1.1.1">
+<seg function="incipit"><milestone n="0v1" unit="folio" facs="6"/>|| <unclear>yad uktaṃ</unclear> kaṇṭhābharaṇe yat tu prākaṭyam arthasya prasādaḥ so 'bhidhīyate iti</seg> yathā ayam udayati mudrābhañjanaḥ padminīnām udayagirivanālībālamandārapuṣpam ity anukto 'pi sūryya udayati padmamudrābhañjanā lakṣyate śleṣiṇa śāstre 'pi śloko 'yaṃ jñānasya dā<unclear>naṃ dās ta</unclear>sya īr lakṣmīḥ tathā jǹānadayā hetubhūtayā <unclear>sindhur iva sindhuśabde</unclear> <lb n="2"/>heturūpako nāmāyam alaṅkāraḥ yathā gāmbhīryyeṇa samudro 'si iti tasyāgādhatvaṃ yathoktaguṇavat tayā atulyatvaṃ duṣkhainovyasaneṣv agham iti <unclear>alaghu</unclear>tvaṃ ―| <space/>
+  </p>
+   <p xml:id="AK-c1.1.2">
+|| vargaḥ sajātīyānāṃ samūhaḥ prakaraṇaniva? ity arthaḥ
+  </p>
+</body></text><text synch="#U2" corresp="#AKc2" xml:lang="sa"><body>  
+  <p>
+<seg function="incipit"><milestone n="1v" unit="folio" facs="8"/> <milestone unit="left margin"/><lb n="1"/>amṛtāya mokṣāya sindhur api śriyai <lb n="2"/>lakṣmyai amṛtāya pīyūṣāya <unclear>suraiḥ</unclear> sevitaḥ |</seg> cakā<lb n="3"/>radvayam anyonyapradhānyasūcanārthaṃ atrānukto pi <lb n="4"/>samataḥ sākṣāt__ lakṣaṇā<unclear>rthaṃ</unclear> jñānadayādibhiḥ spaṣṭa <lb n="5"/>yata iti prasādanāmāyam arthaguṇaḥ | virāmo 'syeti <lb n="6"/>akṣayo 'vi<unclear>nāśī aparimīyamāṇajalasampac ca</unclear> <lb n="7"/>puruṣapravṛttiprayojanam āha śriye trivargasampattyai la<lb n="8"/>kṣmīsarasvatīṣu trivargasampadvibhūtiśobhāsu upakaraṇa<lb n="9"/>veśaracanāvidhāsu ca śrīr iti prathiteti vyāḍiḥ <milestone unit="bottom margin"/><lb n="1"/><unclear>vañ ca</unclear> kiṃbhūtasya yasya anaghā anapāyino guṇā dānaśīlakṣamādayo <unclear>vaśuratyā</unclear>dayaś ca he dhīrāḥ sa bhagavān samudradharmmā sevyatāṃ bhavadbhir iti prakaraṇāt —| dhairyyaśālina eva sevituṃ śaknuvantīti tān eva sambodhayati <space/> parahitāpā<sic>dā</sic>ne nāsti kṣayo (vināśo yasya) saṃsāra<unclear>yatharthā</unclear>vabodhaḥ samastaviṣayaṃ <milestone unit="right margin"/><lb n="1"/>jñānaṃ jñānaṃ <unclear>ru<gap/></unclear> sarvvaduṣkhapra<unclear>haraṇe</unclear>chā dayā tābhyāṃ sindhur i<lb n="2"/>va sindhu<unclear>ḥ karyyakaraṇe</unclear> kṛtā bahulam iti bahulavacanād vā samāsaḥ <lb n="3"/>ṣaṣṭhīsamāso vā jñānadayayoḥ <unclear>sindhur iti</unclear> agādhatvaṃ <gap/>di<lb n="4"/>bhir a<gap/>gadās tatvaṃ <gap/><lb n="5"/><gap/>iti bhojadeva<gap/>
+</p>
+</body></text><text synch="#U1 U2" corresp="#AKc3" xml:lang="sa"><body>
+  <p>
+<seg function="incipit"><milestone n="0v" facs="6" unit="folio"/><lb n="9"/>bauddhapakṣe <unclear>pamāśīla</unclear>kṣamādāyo guṇā anaghāḥ apāpāḥ |</seg> viṣṇupakṣe prasādā<unclear>yaḥ tve</unclear>rajastamāṃsi vā guṇā anaghāḥ pariśuddhāḥ | samudrapakṣe gām<sic>bhi</sic>ryyādayo<unclear>s tanā</unclear> anaghāḥ | pariśuddhā<gap/> <lb n="10"/>bauddhapakṣe saṃ<unclear>sā</unclear>rasya tatvāva<unclear>bodho<del><gap reason="illegible"/></del></unclear> jñānaṃ | paraḥ duḥkhapraharaṇechā dayā tābhyāṃ sindhur iva sindhu ca vipulāśayatvād dharmmeṇa rūpaṃ | viṣṇupakṣe jña<unclear>vau</unclear> dadātīti jñānadā sarasva<unclear>te</unclear><gap/> <lb n="11"/>kṣāḥ jñānadā ca <unclear>jñaś ca</unclear> jñānadayau tābhyām āpurṇṇaḥ sindhur iva sindhu tasya jñānadayā sindhoḥ | samudrapakṣe jñānaṃ dadātīti jñānadā gaṅgā kāraṇe kāryyopacārāt__ jñānenātra <unclear>maktir avi</unclear><gap/><lb n="12"/>yate tayānady upalakṣitasya sindhoś ca | nāsti kṣayo vināśo yasya sa akṣayaḥ vināśī ― paropakārahite viṣṇupakṣe akṣayaḥ kalpānta<unclear>rasthayitvā |</unclear> samudrapakṣe <unclear>nta</unclear><gap/> <lb n="13"/>viṣṇus tasya kṣayo nivāso ya<unclear>tra</unclear> iti
+  </p>
+  <p>
+<unclear>tantryate 'sti iti</unclear> tantraṃ śāstraṃ anyeṣāṃ anyāni vā tantrāṇi <gap/><milestone unit="right margin"/><lb n="1"/><unclear>śāstrāṇi samāhṛ<gap reason="ellipsis"/></unclear>
+    </p>
+    <p>
+<seg function="explicit"><milestone n="1v" facs="8" unit="folio"/><milestone unit="top margin"/><lb n="1"/>boddhapakṣe <unclear>agādhasya</unclear> apariprāpta<unclear>tatvāvabodhasya |</unclear> viṣṇupakṣe apariprā<unclear>ptāntasya |</unclear> samudrapakṣe atalasparśasya | 1 |</seg>
+    </p>
+</body></text></TEI>
