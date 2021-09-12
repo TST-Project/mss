@@ -106,6 +106,14 @@ const getRepo = (xmlDoc) => {
     return names.get(repo); 
 };
 
+const isMSPart = (str) => {
+    const dot = /\d\.\d/.test(str);
+    const letter = /\d[a-z]$/.test(str);
+    if(dot && letter) return ' class="subsubpart"';
+    if(dot || letter) return ' class="subpart"';
+    else return '';
+};
+
 const readfiles = function(arr) {
     const template = new jsdom.JSDOM(fs.readFileSync('index-template.html',{encoding:'utf8'})).window.document;
     const tab = arr.map((f) => 
@@ -138,7 +146,7 @@ const readfiles = function(arr) {
         const trstr = 
 `
 <tr>
-  <th sorttable_customkey="${t.cote.sort}"><a href="${t.filename}">${t.cote.text}</th>
+  <th sorttable_customkey="${t.cote.sort}"${isMSPart(t.cote.text)}><a href="${t.filename}">${t.cote.text}</th>
   <td>${t.repo}</td>
   <td>${t.title}</td>
   <td>${t.material}</td>
