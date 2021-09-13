@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><term xml:lang="ta">Callāpam</term></title>
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Indien 450</idno>
+                  <idno type="alternate"><idno>Tamoul 450</idno></idno>
+               </msIdentifier>
+               <msContents class="#STM">
+                  <summary>Dialogues on the Old Testament and New Testament.</summary>
+                  
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Callāpam: <term xml:lang="en">Mūlam</term></title><textLang mainLang="tam"/></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="paper">
+                        <support>
+                           <measure unit="stringhole"/>
+                           
+                        </support>
+                        <extent>
+                           <measure unit="folio" quantity="211">[1] + [1] + [2] + 211 + ? + ? (u1 + u2 + u3 + U1 ).</measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           </dimensions>
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
+                        <collation><desc xml:id="cover">the <emph rend="bold">front cover</emph>. Element of library binding. Shelfmark on verso.</desc><desc xml:id="u1">1 folio = <emph rend="bold">front guard leaf</emph>. No foliation. Element of library binding.
+</desc><desc xml:id="u2">1 folio = <emph rend="bold">front guard leaf</emph>. No foliation. Element of library binding. Shelfmark on recto.</desc><desc xml:id="u3">2 folios = <emph rend="bold">front guard leaves</emph>. No foliation. Element of original book. Note on f[2]r.</desc><desc xml:id="U1">210 folios = <emph rend="bold"><term xml:lang="ta">Callāpam</term></emph>. Tamil foliation 1-207, [208-210]. </desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>.</desc></collation>
+                        
+                        
+                     </supportDesc>
+                     <layoutDesc>
+                        
+                     <layout columns="1"/></layoutDesc>
+                  </objectDesc>
+                  <handDesc><handNote synch="#U1" scope="major" script="tamil" medium="ink black"/></handDesc>
+                  <decoDesc>
+                  </decoDesc>
+                  <additions>
+                  <desc synch="#cover" type="shelfmark" subtype="beginning end">BnF shelfmark sticker: <quote>INDIEN 450</quote> (back cover, verso).</desc><desc synch="#u3" type="documenting-note"><quote xml:lang="fr">arrivé de Constantinople en 1738</quote>. </desc><desc synch="#U1" type="documenting-note" subtype="inserted">Latin transcription of the title to be displayed on the spine (inserted and bound in between f1 and f2): <quote><lb n="1"/>4 <lb n="2"/>Challâpam.</quote> </desc></additions>
+                  <bindingDesc>
+                     <binding/>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian" notAfter="1712">Internally dated to the year 1712 (CE presumably). See colophon (U1, f[210]v2). Dated to the 18th century by Cabaton (1912), on unstated grounds.</origDate>
+                     
+                  <origPlace>Tamilnadu.</origPlace></origin>
+                  <provenance/>
+                  <acquisition><p>This appears to be a book sent by the Jesuits of the Mission du Carnate for the library of the king of France, but not mentioned in ancien lists (BnF NAF 5442, f5r and f9r).</p></acquisition>
+               </history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens. Bibliothèque nationale. Département des manuscrits.</title> Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f82">p. 64</ref>.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         
+      <p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.      </p></encodingDesc>
+      <revisionDesc>
+         
+      <change when="2021-09">Record created by Emmanuel FRANCIS.</change></revisionDesc>
+   </teiHeader>
+   <facsimile>
+   </facsimile>
+<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+  
+  <pb n="1r"/>
+  
+  <milestone n="1" unit="column"/>
+  <lb n="1"/><seg function="title">Aṟciyaciṣṭa-vētattil E
+  <lb n="2" break="no"/>ḻuti Irukkatai piṟacaṅkat
+  <lb n="3" break="no"/>tiṉattalaiyāṉa naṭapaṭi
+  <lb n="4" break="no"/>kaḷuṭaiya callāpaṅkaḷ</seg>
+  <lb n="5"/><seg function="intertitle">vivēkattiṉ callāpam</seg>
+  
+  <lb n="6"/><seg function="incipit">ku viviliya v<pc>-</pc>eṉkiṟa posta
+  <lb n="7"/>kam ākappaṭtat<pc>'</pc> ētu
+  <lb n="8"/>ci viviliya v<pc>-</pc>eṉkiṟatu caṟuvē
+<lb n="9" break="no"/>svaraṉuṭaiya tiruvacaṉ
+  <lb n="10" break="no"/>ṅkaḷ eḻuti Irukkiṟa po
+  <lb n="11" break="no"/>stakaṅkaḷ ākum</seg>
+  
+  <pb n="[210]v"/>
+  
+  <milestone n="1" unit="column"/>
+  <lb n="1"/><seg function="explicit">Ellām Irukkum Āmēṉ ecu</seg>
+  <lb n="2"/><seg function="colophon">1000 7 100 10 2 {varuṣam} cellum vai
+  <lb n="3" break="no"/>yyāci mā<del><gap reason="illegible" quantity="1" unit="character"/></del>cam 8 {tēti} yilē
+  <lb n="4"/>Aṟciṣta-viviliya-postaka<supplied reason="omitted">m</supplied>
+  <lb n="5"/>Eḻuti muṭintutu pañcaṉa piṟakā
+  <lb n="6" break="no"/>caṉa <del>tai</del> Eḻutiṉatu +</seg>
+  
+  </body></text></TEI>
