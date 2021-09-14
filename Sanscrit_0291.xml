@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><term xml:lang="sa">Yajurveda Taittirīyasaṃhitā</term></title>
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Sanscrit 291</idno>
+                  <idno type="alternate"><idno>Sanscrit Grantha 2</idno></idno>
+               </msIdentifier>
+               <msContents class="#STM">
+                  <summary>The <title xml:lang="sa">Taittirīyasaṃhitā</title> of the <title xml:lang="sa">Yajurveda</title>. In 7 <title xml:lang="sa">kāṇḍa</title>s and 44 <title xml:lang="sa">praśna</title>s.</summary>
+                  
+               <msItem synch="#U2" xml:id="T1" defective="false"><title xml:lang="sa">Taittirīyasaṃhitā: <term xml:lang="en">Mūla</term></title><textLang mainLang="san"/></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="pothi">
+                     <supportDesc material="palm-leaf">
+                        <support>
+                           <measure unit="stringhole" quantity="2"/>
+                           
+                        </support>
+                        <extent>
+                           <measure unit="folio" quantity="244">[2] + 240 + [2] (U1 + U2 + U3).</measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           <width quantity="450"/><height quantity="40"/></dimensions>
+                        <dimensions type="object" unit="mm"><width quantity="450"/><height quantity="40"/><depth quantity="160"/></dimensions><dimensions type="written" unit="mm"/></extent>
+                        <collation><desc xml:id="cover">the <emph rend="bold">front cover</emph>. Shelfmark on recto. </desc><desc xml:id="U1">2 folios = <emph rend="bold">front guard leaves</emph>. Arabic foliation 1-2 (addition). Blank recto verso. 450 x 40 mm.</desc><desc xml:id="U2">240 folios = <emph rend="bold"><term xml:lang="sa">Taittirīyasaṃhitā</term>: Mūla</emph>. Tamil foliation [1]-240. Arabic foliation 3-242 (addition). 450 x 40 mm.</desc><desc xml:id="U3">2 folios = <emph rend="bold">back guard leaves</emph>. No foliation. Blank recto verso. 450 x 40 mm.</desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>.</desc></collation>
+                        
+                        
+                     <condition>Excellent state of preservation.</condition></supportDesc>
+                     <layoutDesc>
+                        
+                     <layout columns="1">Rounded edges.</layout></layoutDesc>
+                  </objectDesc>
+                  <handDesc><handNote synch="#U2" scope="major" script="grantha" medium="incised"/></handDesc>
+                  <decoDesc>
+                  </decoDesc>
+                  <additions>
+                  <desc synch="#cover" type="shelfmark" subtype="beginning cover">BnF shelfmark sticker: <quote>SANSCRIT 291</quote> (<locus facs="1">front cover, recto</locus>).</desc></additions>
+                  <bindingDesc>
+                     <binding><p>Original <material>ebony</material> covers. 450 x 40 mm.</p></binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian" notAfter="1907">No internal date. Dated to the 18th c. by Filliozat (1970).</origDate>
+                     
+                  <origPlace>Tamilnadu.</origPlace></origin>
+                  <provenance><p>Burnouf collection according to Filliozat (1970).</p></provenance>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl>Cabaton, A. (1907). <title>Catalogue sommaire des manuscrits sanscrits et pālis. 1er fascicule. Manuscrits sanscrits. Bibliothèque Nationale, Département des manuscrits.</title>. Paris: Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10536321f/f60">p. 44</ref>.</bibl><bibl>Filliozat, Jean (1970). <title>Catalogue du fonds sanscrit. Fascicule II. Nos 166 à 452. Bibliothèque Nationale, Département des manuscrits. Bibliothèque nationale. Département des manuscrits.</title>. Paris: Bibliothèque nationale. — See <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k2557085/f117">p. 117</ref>.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         
+      <p><emph rend="bold">Transliteration conventions</emph> ― Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.      </p></encodingDesc>
+      <revisionDesc>
+         
+      <change when="2021-09">Record created by Emmanuel FRANCIS.</change></revisionDesc>
+   </teiHeader>
+   <facsimile>
+   <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10083202t/manifest.json"/></facsimile>
+<text synch="#U2" corresp="#T1" xml:lang="sa"><body>
+  
+  <pb facs="4" n="[1]r"/>
+  
+  <milestone unit="left-margin"/>
+     <lb n="1-3"/><seg function="title">vedaṃ saṃhitaiḥ</seg>
+   <lb n="4-5"/><seg function="blessing">hariḥ Om·</seg>
+  
+    <milestone unit="main-text-area"/>
+
+  <lb n="1"/><seg function="invocation">śuklāṃbaradharaṃ viṣṇuṃ śaśivarṇañ caturbhujam· | prasannavadanan dhyāyet· sarvavighnopaśātaye |</seg> <g ref="#pcl"/> <seg function="incipit">Iṣe tvorjje tvā vāyava sthopāyava stha devo vas savitā</seg> <gap reason="ellipsis"/> 
+  
+  <pb facs="244" n="240v"/>
+  <lb n="5"/><gap reason="ellipsis"/> <seg function="explicit">Ity āhur varunot·bhis sāmne catuḥ pañcāśat· <g ref="#pcl"/> gāvo yonis samudro bandhuḥ</seg> ~ <seg function="blessing">hariḥ Om·</seg>
+<lb n="6"/><seg function="blessing">śrīkṛṣṇārpaṇam astu</seg> <g ref="#pcl"/> <seg function="completion-statement">saṃhitai samāptaṃ</seg> <g ref="#pcl"/> <seg function="blessing">śubham astu</seg> <g ref="#pcl"/> <seg function="TBC">visargabindumatrāṇi padapādākṣarāṇi ca | nyūnāni cātiriktāni kṣamasva parameśvara</seg> <g ref="#pcl"/>
+
+    </body></text></TEI>
