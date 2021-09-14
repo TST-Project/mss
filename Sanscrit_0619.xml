@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Amarakośakaumudī</title>
+         <editor><persName>Charles LI</persName><orgName>CNRS, CEIAS, UMR 8564</orgName></editor></titleStmt>
+         
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc97346t</idno>
+                  <idno type="shelfmark">Sanscrit 619</idno>
+                  <idno type="alternate"><idno>Sanscrit Bengali 97</idno></idno>
+               </msIdentifier>
+               <msContents class="#STM">
+                  <summary><p>This commentary on the <title xml:lang="sa">Amarakośa</title>  is also known as the <title xml:lang="sa">Padakaumudī</title> or the <title xml:lang="sa">Amarapañjikā</title>, by <persName xml:lang="sa">Nārāyaṇacakravartin</persName>, whose family name was Pūṭatuṇḍa (Shastri 1931, <ref target="https://archive.org/details/in.ernet.dli.2015.484730/page/n632/mode/1up">304</ref>). According to Eggeling (1887, <ref target="https://archive.org/details/p1a4catalogueofs01greauoft/page/271/mode/1up">272</ref>), it was composed in Śāka 1540 (1619 CE).</p>
+<p>The colophon gives the name of the scribe, <persName xml:lang="sa">Raghunandana</persName>, the owner, <persName xml:lang="sa">Rāyagovinda</persName>, and a Śāka date, 1648 (1726/1727 CE). There is a third name, of a reader, appended to the end of the colophon, but it is unclear.</p></summary>
+                  
+               <msItem xml:id="AKK" defective="false"><title xml:lang="sa">Amarakośakaumudī</title><author xml:lang="sa">Nārāyaṇacakravartin</author><textLang mainLang="san"/><filiation><p><ref target="https://archive.org/details/p1a4catalogueofs01greauoft/page/272/mode/1up">IO 958-961</ref>, <ref target="https://archive.org/details/in.ernet.dli.2015.424468/page/n123/mode/1up">L 3368</ref>, <ref target="https://archive.org/details/in.ernet.dli.2015.484730/page/n631/mode/1up">RASB VI 4699-4671</ref>.</p></filiation><finalRubric xml:lang="sa"><milestone n="255v" unit="folio"/><lb n="7"/><gap reason="ellipsis"/>ity amarakoṣakaumudyāṃ liṅgādisaṃgrahavivekaḥ samāptaḥ ||</finalRubric><colophon xml:lang="sa">iti śrīrāyagovindaśarmmaṇaḥ pustakam idaṃ śrīraghunandanaśarmmaṇaḥ akṣaraṃ — || śubam astu śakābdāḥ 1648 <unclear>śrīmuvāri</unclear>śarmmaṇā paṭhitam etat ||</colophon></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="pothi">
+                     <supportDesc material="paper handmade">
+                        <support>
+                           <measure unit="stringhole" quantity="1"/>
+                           
+                        </support>
+                        <extent>
+                           <measure unit="folio" quantity="260">2 flyleaves, 1-255, blank folio, 2 flyleaves.</measure>
+                           <dimensions type="leaf" unit="mm">
+                              <width min="355" max="385"/>
+                              <height min="75" max="80"/>
+                           </dimensions>
+                        <dimensions type="object" unit="mm"><width quantity="405"/><height quantity="200"/><depth quantity="65"/></dimensions><dimensions type="written" unit="mm"><width min="300" max="310"/><height min="35" max="40"/></dimensions></extent>
+                        
+                        <condition>Good condition. Some of the ink is smeared.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="3 8" streams="1"/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     
+                  <handNote scope="sole" script="bengali" medium="ink black"><desc>Scribe: <persName xml:lang="sa">Raghunandana Śarmman</persName></desc></handNote></handDesc>
+                  <decoDesc>
+                    
+                  </decoDesc>
+                  <additions>
+                  <desc type="satellite-stanza" subtype="beginning">On <locus>folio 1, recto</locus>: <q rend="block" xml:lang="sa"><lg>
+  <l><lb n="1"/>śuddhaṃ miśrañ ca saṃkīrṇam upasarjanam eva ca</l>
+  <l>āviṣṭañ ca tathā jñeyaṃ liṅgaṃ ṣaḍvidham ucyate 1</l>
+  </lg>
+<lg>
+  <l><lb n="2"/>śuddhaṃ miśraṃ ca saṃkīrṇṇaṃ upasarjanam eva ca</l>
+  <l>āviṣṭañ ca tathā jñeyaṃ liṅgaṃ ṣaḍvidham ucyate ||</l>
+  </lg>
+<lg>
+  <l><lb n="3"/>śuddhaṃ miśrañ ca saṃkīrṇṇaṃ upasarjanam eva ca</l>
+  <l>āviṣṭañ ca tathā jñeyaṃ liṅgaṃ ṣaḍvidham ucyate ||</l>
+  </lg>
+</q></desc><desc type="blessing" subtype="beginning">On <locus>folio 1, recto</locus>:  <q xml:lang="sa">śrīrāmaḥ</q>.</desc><desc type="shelfmark" subtype="beginning">On <locus>folio 1, recto</locus>, in red pencil:  <q>97</q>.</desc><desc type="documenting-note" subtype="beginning">On <locus>folio 1, recto</locus> <q xml:lang="sa">veṇīsaṃgraha 1</q>. Another word is written below it, illegible, also followed by <q xml:lang="sa">1</q>.</desc><desc type="stamp" subtype="beginning end"><q xml:lang="fr">BIBLIOTHEQUE IMPERIALE MSS</q> stamp.</desc></additions>
+                  <bindingDesc>
+                     <binding>
+                        <p>Bound as a book. Bound backwards. Hardcover. Bookbinder's mark on the spine: <q>J WEBER 1866</q>.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian" notBefore="1726" notAfter="1727">Śka 1648 (1726/1727 CE).</origDate>
+                     
+                  </origin>
+                  <acquisition>
+                     
+                  </acquisition>
+               </history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl>Cabaton, Antoine. (1907-1908). <title xml:lang="fr">Catalogue sommaire des manuscrits sanscrits avec supplément manuscrit</title>. Paris: E. Leroux. Supplemented by Jean Filliozat. <ref target="https://gallica.bnf.fr/ark:/12148/btv1b10536321f/f118.item">102</ref>.</bibl><bibl>Eggeling, Julius. (1887). <title><ref target="https://archive.org/details/p1a4catalogueofs01greauoft">Catalogue of the Sanskrit Manuscripts in the Library of the India Office, Part I</ref></title>. London: Secretary of State for India in Council.</bibl><bibl>Mitra, Rāja Rājendralāla &amp; Shāstrī, Haraprasāda. (1892). <title><ref target="https://archive.org/details/in.ernet.dli.2015.424468/">Notices of Sanskrit MSS, Volume 10</ref></title>. Calcutta: Baptist Mission Press.</bibl><bibl>Shāstrī, Haraprasāda. (1931). <title><ref target="https://archive.org/details/in.ernet.dli.2015.484730">A Descriptive Catalogue Of The Sanskrit Manuscripts In The Collections Of The Asiatic Society Of Bengal, Volume VI</ref></title>. Calcutta: Asiatic Society of Bengal.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         
+      <p>Spaces added where possible.</p></encodingDesc>
+      <revisionDesc>
+         
+      <change when="2021-09">First version.</change></revisionDesc>
+   </teiHeader>
+   <facsimile>
+   </facsimile>
+<text corresp="#AKK" xml:lang="sa"><p>
+  <seg function="rubric"><milestone n="1v" unit="folio"/><lb n="1"/>oṁ namo gaṇeśāya ||</seg>
+</p>
+<lg>
+  <l><seg function="incipit">hṛdistham adidūrasthaṃ sarvvam āvṛtya tiṣṭhati — |</seg></l>
+  <l>yan mahaḥ paramaṃ vījaṃ tadānandapadaṃ numaḥ ― ||</l>
+  <l>rahaḥ śaśibhṛtā samaṃ vividhakelimāta<unclear>nvatī</unclear></l>
+  <l>muhuḥ smaramahot__save śivamu<unclear>khābjacumbā<lb n="2"/>rthino</unclear> ― |</l>
+  <l>digambarahṛtāmbarā vidhum avekṣya maulisthitaṃ</l>
+  <l>kriyānatamukhī sadā kṣitidharendrakanyā'vatu ― ||</l>
+  <l>maṅgalānandabījāni <unclear>bhaktā</unclear>nām atisantataṃ ― |</l>
+  <l>guruṇāṃ caraṇābjāni puna punar a<unclear>pāsma</unclear>he ||</l>
+  <l><lb n="3"/>jñātvā śāstram aśeṣam ādividuṣāṃ cālokya nānāmataṃ ― |</l>
+  <l>herambāṅghrisarojayujmamamalaṃ natvātibhaktyā sudhīḥ ― |</l>
+  <l>śrīnārāyaṇapādapadmamadhuliṅ nārāyaṇaḥ śrīnidhir</l>
+  <l>yatnenāma<lb n="4"/>rapañjikāṃ vitanute — saṃkṣepataḥ sat__kaviḥ ― ||</l>
+</lg>
+<p>
+śāstrārambhe mādhupratyūhavāraṇakāmaśiṣṭācārānumitavedabodhitakarttavyatākaṃ maṅgalam ācaranti śūrayaḥ ― | ato 'maro '<lb n="5"/>pi granthaṃ cikīrṣuḥ | <unclear>i</unclear>ṣṭadevasmṛtirūpaṃ sakalam ācaraṇa—śiṣyaśikṣyārthaṃ tadādau nibabandha ― || yasyeti || dhairyyaśālina eva sarvve samarthā iti tān sambodhyāha | he dhīrā sa ā<lb n="6"/>rādhyatāṃ  sa ka ity āha<space/> yasya guṇā dānaśīlādayo 'nayoḥ vāgādidoṣarahitāḥ hṛdyā vā — | ana<unclear>gho</unclear> pāpahṛdyayor iti dharaṇiḥ | kīdṛśāsya jñānaṃ saṃsārasya yathārthāvabodhaḥ ― | <lb n="7"/>dayā niravadhiparaduḥkha<unclear>nāśe</unclear>chā tayor vvipulādhāratvāt__ sindhor iveti rūpakaṃ yogavibhāgāt__ sa<unclear>ṣṭhī</unclear>samāsaḥ ―| prakṛtyāditvāt__ tṛtīyā kṛtā bahulam iti bāhu<unclear>lyā</unclear>t__ samāsaś ca | tat__sāmyam āha agā<lb n="8"/>dhasya aparichinnamahatvasya paramavādibhir apy anavagatāntarasyeti ―| sa kīdṛśaḥ parahitot__pādane nāsti kṣayo virāmo yasya ity akṣayaḥ kim artham ity ā<add place="below">ha<note place="inline">1</note></add> śrīs trivargasampatti<unclear>ḥ</unclear> amṛtaṃ mokṣaḥ <pb n="2r"/>tadarthaṃ sukhaiṣiṇāṃ sukhaṃ mumukṣūṇāṃ mokṣaḥ ity ubhayo<add place="above">r u</add>pādānaṃ ―| atrānukto 'pi buddho viśeṣaṇaiḥ sūcyati ―| prasādanāmāryaguṇaḥ tad uktaṃ kaṇṭhābhara<subst>ṇ<del rend="implied">a</del><add place="below">e</add></subst> ― 
+  	<lg>
+      <l>ya<unclear>t tu</unclear> prākaṭyam arthasya prasādaḥ so 'bhidhīyate</l>
+      <l>yathā 'yam u<lb n="2"/>dayati mudrābhañjanaḥ padminīnāṃ udayagirivanālībāsamandārapuṣpam</l>
+  </lg>
+ity ādāv anukto 'pi sūryyaḥ sūcyati — | tathā ca kālidāsaḥ nidhānagarbbhām iva sāgarāmbarām iti ― kin tu granthakārasyāśayo 'rya iha sākṣād bu<subst>ddh<del rend="e vowel sign deleted">o</del><add rend="implied">ā</add></subst>dipa<lb n="3"/>dopādāne ― dakṣiṇapathagāminām anupā<add place="top margin">de<note place="inline">3</note></add>yatā syāt ―| kṛṣṇādipadopādāne tu tāt__kālikaprabuddhabauddhānām iti chalena sarvvayuktaṃ ―| yad vā sa viṣṇuḥ sevyatāṃ yasya guṇāḥ satvādayo 'pāpāḥ sindho<lb n="4"/><unclear>r arṇṇa</unclear>vasthasya jñanadā sarasvatī<space/> <unclear>ī</unclear>r lakṣmīs tābhyām upalakṣitasya agādhasyāparimitasya akṣayaḥ sanātanaḥ śri<unclear>yai</unclear> bhūtyai amṛtāya nirvvā<unclear>ṇa</unclear>padāya ― lakṣmīsarasvatīdhīṣu trivargasampadvibhūtiśobhāsūpaka<lb n="5"/>raṇaveśaracanāsu ca prārthitā trir iti vyāḍiḥ | yad vā sa sindhuḥ samudraḥ sevyatāṃ yasya sindhor guṇā śaityanairmmalyādayo 'naghāḥ avināśinaḥ agādhasya atalasparśasya sadā pūrṇṇatvād akṣayaḥ | asya <lb n="6"/>viṣṇo kṣayo vāso vā ― | jñānaṃ mokṣaṃ dadāti jñānadā gaṅgā tayo upalakṣitasya kim arthaṃ piyūṣāya lakṣmyai ca | yad vā sa grantho 'nyasya tāṃ sevā atra cintyā vyākhyānādiḥ yasya guṇāḥ śleṣaprasādādayo 'naghāḥ nirdo<lb n="7"/>ṣā jñānadā sarasvatī tayā sindhur iva duravagrāhyatvāt ― agādhasya iyan tayā aparichinnasīmakasya padārtha<add place="below"><unclear>sya</unclear></add> avināśitvād akṣayaḥ śriye buddhyai amṛtāya mokṣāya śāstrasya jñānahetutvāt__ sindhuḥ samudre 'nante ca sindhur na<pb n="2v"/>dyāṃ mahānade iti rantiḥ ― | śliṣṭarūpakākṣyo 'yam anaṅgāraḥ ― ||
+</p></text></TEI>
