@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="ta"><term xml:lang="ta">Kamparāmāyaṇam</term></title>
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Indien 951</idno>
+                  <idno type="alternate"/>
+               </msIdentifier>
+               <msContents class="#STM">
+                  <summary>The Tamil version of the <title xml:lang="sa">Rāmāyaṇa</title> by <persName xml:lang="ta">Kampaṉ</persName> (<term xml:lang="ta">Kāṇṭam</term>s 6 =  yuttakāṇṭam).
+                     </summary>
+                  
+               <msItem synch="#U1" xml:id="T1" defective="true"><title xml:lang="ta"><term xml:lang="en">incomplete line</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta">Kamparāmāyaṇam: <term xml:lang="en">Colophon? &amp; Table of Contents</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T3" defective="true"><title xml:lang="ta">Kamparāmāyaṇam: Mūlam</title><textLang mainLang="tam"/></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="pothi">
+                     <supportDesc material="palm-leaf">
+                        <extent>
+                           <measure unit="folio" quantity="376">[1] + [1] + 373 + [1] (U1 + U2 + U3 + U4)</measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           <width quantity="415"/><height quantity="30"/></dimensions>
+                           <note>Some folios are smaller, e.g. U3, f105 (365 x 35 mm). </note>
+                        <dimensions type="object" unit="mm"><width quantity="415"/><height quantity="35"/><depth quantity="200"/></dimensions><dimensions type="written" unit="mm"/></extent>
+                        <collation>
+                        
+                        
+                        
+                        
+                        
+                        <desc xml:id="cover">the <emph rend="bold">front cover</emph>. Sticker on recto.</desc><desc xml:id="U1">1 folio = front <emph rend="bold">guard leaf</emph>. No foliation. Recto blank. 1 unfinished line unblackened on verso.
+</desc><desc xml:id="U2">1 folio = <emph rend="bold"><term xml:lang="ta">Kamparāmāyaṇam</term></emph>: <emph rend="bold">Colophon?</emph> (recto) and <emph rend="bold">Table of Contents</emph> (verso). No foliation.
+</desc><desc xml:id="U3">373 folios = <emph rend="bold"><term xml:lang="ta">Kamparāmāyaṇam: *** kāṇṭam</term></emph>. Tamil foliation [1], [1], 3, [1-9], 12-13, [1-2], 20-41, [1-3], 46-54, 60-93, [1], 94-223, 225-371, 371-401. Alternating foliated and unfoliated folios. 415 x 30 mm.
+
+</desc><desc xml:id="U4">1 folio = back <emph rend="bold">guard leaf</emph>. No foliation. Double leaf. Blank recto verso.
+</desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>. BnF shelfmark sticker on verso.</desc></collation>
+                        <condition>Fragile. Small fragments in envelop. Some leaves truncated. Edges truncated. Incomplete description as too fragile for allowing exhaustive examination.
+</condition>
+                     <support><measure unit="stringhole" quantity="2"/></support></supportDesc>
+                     <layoutDesc>
+                        <layout columns="1"/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     
+                  <handNote synch="#U1" scope="minor" script="tamil" medium="incised"/><handNote synch="#U2 U3" scope="major" script="tamil" medium="incised"/></handDesc>
+                  <additions>
+                    
+                    
+                    
+                    
+                  <desc type="commenting-note" subtype="detached">Paper note written in blue ballpen:
+<quote>
+    <lb n="1"/><term xml:lang="fr">Rāmāyaṇa en tamoul
+  <lb n="2"/>Yuddhakaṇḍa
+  <lb n="3"/>(intitulé fol. 1.a marge:
+  <lb n="4"/>uyittakaṇḍam)
+  </term>
+ </quote>
+
+</desc><desc synch="#cover" type="commenting-note" subtype="beginning cover">Sticker written in black pencil (line 1) and black ink (lines 1-5):
+<quote>
+    <lb n="1"/><term xml:lang="fr">mai 17<unclear>74</unclear> N°3. 12 9bre [i.e. septembre] 1860 <note xml:lang="en">different ink, by another hand</note>
+  <lb n="2"/>contenant <unclear>ou</unclear>ttacan
+  <lb n="3" break="no"/>dam
+  <lb n="4"/>3<hi rend="superscript">e</hi> partie
+  </term>
+ 
+  
+</quote></desc><desc synch="#cover" type="shelfmark" subtype="cover end">BnF shelfmark sticker: <quote>INDIEN 951</quote>.</desc><desc synch="#U1" type="intertitle" subtype="marginal left"/></additions>
+                  <bindingDesc>
+                     <binding>
+                        <p>Original <material>wood</material> covers. With a woodstick tied to the string and threaded in one of the holes. Sticker on front cover, recto. 415 x 35 mm.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian" notAfter="1860">Internally dated to the year <foreign xml:lang="ta">jaya</foreign> of the Jovian cycle, that is, CE 1834-1835, 1774-1775, 1714-1715,etc. See colophon (U3, f401v2). See sticker on front cover, recto for correponding CE date = 17<unclear>74</unclear>. See also internal dates on U2, f[1]r.</origDate>
+                     <origPlace>South India, Tamilnadu.</origPlace>
+                  </origin>
+                  <acquisition>
+                     
+                  </acquisition>
+               <provenance><p>Julien Vinson.</p></provenance></history>
+               <additional>
+                  <listBibl>
+                     
+                     
+                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens. Bibliothèque nationale. Département des manuscrits.</title> Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f171">manuscript addition</ref>.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         
+         
+      <p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.    </p></encodingDesc>
+      <revisionDesc>
+         
+         
+      <change when="2021-09">Record created by Emmanuel FRANCIS.</change></revisionDesc>
+   </teiHeader>
+   <facsimile>
+      
+   </facsimile>
+<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+  
+  <pb facs="00" n="[1]v"/>
+  <lb n="1"/>
+  
+  </body>
+  </text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
+  
+  <pb facs="00" n="[1]r"/>
+  
+  <milestone n="1" unit="left-margin"/>
+  <lb n="1-4"/><gap reason="ellipsis"/>
+  
+   <milestone n="2" unit="left-margin"/>
+  <lb n="1"/><seg function="title"><gap reason="lost"/> ti <supplied reason="lost">rā</supplied><unclear reason="consonant_unclear">mā</unclear>yaṇa<seg rend="grantha">=m</seg></seg>
+  <lb n="2"/><seg function="intertitle">uyittakāṇṭam</seg>
+  <lb n="3"/><seg function="blessing">śrī-ṟā<seg rend="grantha">=ma-ja</seg>yam</seg>
+  
+  <milestone unit="main-text-area"/>
+ <lb n="1"/><gap reason="ellipsis"/>
+ <lb n="2"/><gap reason="ellipsis"/>
+ <lb n="3"/><gap reason="ellipsis"/>
+ <lb n="4"/><gap reason="ellipsis"/>
+ <lb n="5"/><gap reason="ellipsis"/>
+ <lb n="6"/><gap reason="ellipsis"/>
+ 
+   <pb facs="00" n="[1]v"/>
+  <milestone unit="left-margin"/>
+  <lb n="1-2"/><seg function="intertitle">Aṭṭavaṇai</seg>
+ 
+  
+  <milestone n="1" unit="column"/>
+  <milestone n="2" unit="column"/>
+  <milestone n="3" unit="column"/>
+  <milestone n="4" unit="column"/>
+  <milestone n="5" unit="column"/>
+  <milestone n="6" unit="column"/>
+ 
+
+  
+  </body></text><text synch="#U3" corresp="#T3" xml:lang="ta"><body>
+  
+  <pb facs="00" n="[1]r"/>
+  
+  <lb n="1"/><seg function="incipit"> <gap reason="ellipsis"/> <note xml:lang="en">stanza 6187</note></seg> 
+  
+  <pb facs="00" n="3r"/>
+  <milestone unit="left-margin"/>
+  <lb n="1-2"/><seg function="blessing">śrī<gap reason="lost"/>ṉ tuṇai</seg>
+  <lb n="3-6"/><seg function="intertitle">Irāvaṇaṉ mantirappaṭalam</seg> {pcs}
+ 
+  <pb facs="00" n="401r"/>
+  <lb n="1"/><seg function="explicit"> <gap reason="ellipsis"/></seg>
+  
+<pb facs="00" n="401v"/>
+  <lb n="1"/><seg function="completion-statement">viṭaikoṭutta paṭalamuṟṟum</seg> {pcl} <seg function="blessing">śrīmaṉ-ṉārāyaṇar kiṟupai y<pc>-</pc>uṇṭāka vēṇum</seg> {pcl} <seg function="title">śrīmatti-rāmāyaṇa<seg rend="grantha">=m</seg></seg> {pcl} {pcs}
+<lb n="2"/><seg function="colophon">ceya {varuṣam} vaikāci {mācam} 2 10 7 cōmavāramum pañcamiyuṅ kūṭiṉa puṇṇiyatiṉattilē śrīmatti-rāmāyaṇam y-eḻuti mu
+<lb n="3" break="no"/>kintatu</seg> {pcs} <seg function="blessing"><term xml:lang="sa">hari Om</term></seg> {pcl} {pcs} 
+<lb n="4"/><note xml:lang="en">lines 4-6 unblackened = later addition</note> <gap reason="ellipsis"/>
+  <lb n="5"/><gap reason="ellipsis"/>
+  <lb n="6"/><gap reason="ellipsis"/>
+
+  </body></text></TEI>
