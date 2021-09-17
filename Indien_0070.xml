@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="ta"><title xml:lang="ta">Mūturai</title></title>
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits.</orgName>
+                  </repository>
+                  <idno type="shelfmark">Indien 70</idno>
+                  <idno type="alternate"><idno>Tamoul 70</idno></idno>
+               </msIdentifier>
+               <msContents class="#STM">
+                  <summary><p>The <title xml:lang="ta">Mūturai</title>, a work attributed to Auvaiyār, in 31 stanzas. The last stanza is taken from <title xml:lang="ta">the Nalvaḻi</title>, another work attributed to Auvaiyār.</p>
+                  </summary>
+                  
+               <msItem synch="#U2a" xml:id="T1" defective="false"><title xml:lang="ta">Mūturai: <term xml:lang="en">TBC</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2b" xml:id="T2" defective="false"><title xml:lang="ta">Mūturai: Mūlam</title><author xml:lang="ta">Auvaiyār</author><textLang mainLang="tam"/><filiation><p>See BnF Indien <gap reason="ellipsis"/>.</p></filiation></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="pothi">
+                     <supportDesc material="palm-leaf">
+                        <extent>
+                           <measure unit="folio" quantity="11">[1] + 9 + [1] (U1 + U2 + U3)</measure>
+                           <dimensions type="leaf" unit="mm">
+                              <width quantity="450"/>
+                              <height quantity="25"/>
+                           </dimensions>
+                        <dimensions type="object" unit="mm"><width quantity="450"/><height quantity="25"/><depth quantity="25"/></dimensions><dimensions type="written" unit="mm"/></extent>
+                        <collation>
+                        
+                        
+                        
+                        
+                        
+                        <desc xml:id="cover">the <emph rend="bold">front cover</emph>. BnF shelfmark sticker.</desc><desc xml:id="U1">1 folio = front <emph rend="bold">guard leaf</emph>. Tamil foliation 2 unblackened. Blank recto verso. 450 x 25 mm. Misplaced between U2 and U3 in the bundle at the time of examination (2021/09).</desc><desc xml:id="U2">9 folios = <emph rend="bold"><title xml:lang="ta">Mūturai</title></emph>. Tamil foliation 1-9. 450 x 25 mm. </desc><desc xml:id="U2a">1 folio = <emph rend="bold"><title xml:lang="ta">Mūturai</title>: TBC</emph>. Tamil foliation 1. Shelfmarks on f1r. Verso blank.</desc><desc xml:id="U2b">8 folios = <emph rend="bold"><title xml:lang="ta">Mūturai</title>: Mūlam</emph>. Tamil foliation 2-9. 450 x 25 mm. </desc><desc xml:id="U3">1 folio = back <emph rend="bold">guard leaf</emph>. No foliation. Double folio. 450 x 30 mm. Blank recto verso, except <term xml:lang="ta">piḷḷaiyār cuḻi</term> on left margin of recto. Verso more dark = original outside page.
+
+</desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>.</desc></collation>
+
+                        <condition>Excellent state of preservation.</condition>
+                     <support><measure unit="stringhole" quantity="1"/></support></supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="6">U2b: 2 columns per page (2 stanzas), except f9v (no column, 1 stanza only). </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     
+                     
+                     
+                     
+                  <handNote synch="#U2" scope="sole" script="tamil" medium="incised"><desc>Hand #1.</desc></handNote></handDesc>
+                  <additions>
+                     <p>Marginal benedictions; title-page; marginal chapter headers (original ones crossed-out, while others, later added, are not blackened with soot); colophon; ownership statement; addenda: benedictions (<locus facs="1">U1, f[1]r, rm</locus>); 1 <quote xml:lang="ta">Kampar taṉippāṭal</quote> (U5: <locus facs="41">f[1]r</locus>).</p>
+                     
+                    
+                     
+                     
+                     
+                  <desc synch="#U2a" type="shelfmark">In black ink, on recto: <quote>5°</quote> (left side) and <quote>n° <del>1</del>4</quote> (right side).
+</desc><desc synch="#U2b" type="verse-numbering"/></additions>
+                  <bindingDesc>
+                     <binding>
+                        <p><material resp="#cLI" cert="medium">Mahogany</material> woodcovers apparently fabricated in the BnF. 450 x 25 mm.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian" notAfter="1867">No internal date. Before 1867, as it is described in Cabaton (1867).</origDate>
+                     <origPlace>Tamilnadu.</origPlace>
+                  </origin>
+                  <acquisition>
+                     <p>Unknown.</p>
+                     
+                  </acquisition>
+               <provenance><p>Unknown.</p></provenance></history>
+               <additional>
+                  <listBibl>
+                     
+                     
+                     
+                     
+                  <bibl><title xml:lang="ta">Mūturai</title>. Project Madurai. <title xml:lang="ta">Auvaiyār nūlkaḷ: Ātticcūṭi,
+Koṉṟaivēntaṉ, Mūturai &amp; Nalvaḻi</title>. <ref target="https://www.projectmadurai.org/pm_etexts/utf8/pmuni0002.html">https://www.projectmadurai.org/pm_etexts/utf8/pmuni0002.html</ref></bibl><bibl><title xml:lang="ta">Nalvaḻi</title>. Project Madurai. <title xml:lang="ta">Auvaiyār nūlkaḷ: Ātticcūṭi,
+Koṉṟaivēntaṉ, Mūturai &amp; Nalvaḻi</title>. <ref target="https://www.projectmadurai.org/pm_etexts/utf8/pmuni0002.html">https://www.projectmadurai.org/pm_etexts/utf8/pmuni0002.html</ref></bibl><bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris : E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f32.highres">p. 14</ref>.</bibl><bibl>Vinson, Julien (1867). <title>Catalogue des manuscrits tamouls</title>. Corrected proofreadings printed by the atelier oriental de l’Imprimerie nationale. BnF “4-IMPROR-77 (B)” — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b105333021/f53">p. 22</ref>.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         
+         
+      <p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.      </p></encodingDesc>
+      <revisionDesc>
+         
+         
+      <change when="2021-09">Record created by Emmanuel FRANCIS.</change></revisionDesc>
+   </teiHeader>
+   <facsimile>
+      
+   </facsimile>
+<text synch="#U2a" corresp="#T1" xml:lang="ta"><body>
+  
+  <pb facs="00" n="1r"/>
+  
+  <milestone unit="left-margin"/>
+  <lb n="1"/><seg function="blessing"><seg rend="grantha">hariḥ</seg>
+  <lb n="2"/>Om</seg>
+    
+  <milestone unit="main-text-area"/>
+  <lb n="1"/><seg function="TBC">Ātiraiyāṉai yaṭi paṉintēttamūturai yāṉatu muppatum varumē</seg> <g ref="#pcs"/>
+
+   </body>
+                     </text><text synch="#U2b" corresp="#T2" xml:lang="ta"><body>
+  
+  <pb facs="00" n="2r"/>
+  
+  <milestone unit="left-margin"/>
+  <lb n="1"/><seg function="blessing">naṉ
+  <lb n="2"/>ṟāka</seg>
+  
+  <milestone n="1" unit="column"/>
+    <lb n="1"/><seg function="incipit">naṉṟi y<pc>-</pc>oruvaṟkuc ceytakkāl anṟaṉṟi ‡</seg>
+  <lb n="2-4"/><gap reason="ellipsis"/> <note xml:lang="en">stanza 1 of Madurai Project e-text</note>
+  
+  <pb facs="00" n="9r"/>
+  
+  <milestone n="1" unit="column"/><note xml:lang="en">stanza 12 of Madurai Project e-text</note>
+  
+  <milestone n="2" unit="column"/><note xml:lang="en">stanza 28 of Madurai Project e-text</note>
+  
+ <pb facs="00" n="9v"/><note xml:lang="en">stanza 39 of Nalvaḻi Madurai Project e-text</note>
+<lb n="1"/>muppatām āṇṭaḷavil mūṉṟatt<pc>'</pc> oruporuḷait ‡ ~ tappāmalt taṉ <gap reason="ellipsis"/> ~ ceppuṅ ‡
+<lb n="2"/>kalaiyaḷavē y<pc>-</pc>āku<del><gap reason="illegible" quantity="1" unit="character"/></del>māṅ kāriḷaiyāḷ ~ taṅka<del>ṉ</del><hi rend="subscript">ḷ</hi> ‡ <seg function="explicit">mulaiyaḷa<del><gap reason="illegible" quantity="1" unit="character"/></del>vē y<pc>-</pc>āki viṭu mūppu ‡‡</seg> <g ref="#pcl"/> 3 10 1 <g ref="#pcs"/>
+  
+  </body>
+                     </text></TEI>
