@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><title xml:lang="ta">Cippāyika Vāttu Varicai Paḻakkuṟa Poṣttakam</title></title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>                  
+                  <idno type="shelfmark">Indien 993</idno>
+                  <idno type="alternate"/>
+               </msIdentifier>
+               <msContents class="#STM">
+                  <summary>TBC.</summary>
+                  
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title &amp; Colophon</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta"><term xml:lang="en">Text</term></title><textLang mainLang="tam"/></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="pothi">
+                     <supportDesc material="palm-leaf">
+                        <extent>
+                           <measure unit="folio" quantity="74">[1] + 73 (U1 + U2).</measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              <height quantity="35"/>
+                           <width quantity="270"/></dimensions>
+                           <note>The leaves are broader in their middle than at their edges. </note>
+                        <dimensions type="object" unit="mm"><width quantity="270"/><height quantity="35"/><depth quantity="55"/></dimensions><dimensions type="written" unit="mm"/></extent>
+                        
+                        <condition>Very good state of preservation.</condition>
+                     <support><measure unit="stringhole" quantity="2"/></support><collation><desc xml:id="cover">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">Title &amp; Colophon</emph>. No foliation. Verso blank. 270 x 35 mm.</desc><desc xml:id="U2">73 folios = <emph rend="bold">Text</emph>. Tamil foliation 1-73. 2 columns. 8-9 lpp.
+270 x 35 mm. f73 blank (foliation only).</desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>.</desc></collation></supportDesc>
+                     <layoutDesc>
+                        
+                     <layout columns="2" writtenLines="8 9"/></layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     
+                  <handNote synch="#U1 U2" scope="major" script="tamil" medium="incised"/></handDesc>
+                  <additions><desc synch="#cover" type="shelfmark" subtype="beginning cover">BnF shelfmark sticker: <quote>INDIEN 993</quote> (front cover, recto).</desc><desc synch="#U1" type="shelfmark">BnF shelfmark in blue ink: <quote>Indien 993</quote> (f[1]r, right side).</desc></additions>
+                  <bindingDesc>
+                     <binding>
+                        
+                     <p>Original (?) <material>wood</material> covers. 270 x 30 mm.</p></binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian" notAfter="1830">Internally dated to the year 1830. See colophon (U1, f[1]r, c2).</origDate>
+                     <origPlace>Tamilnadu.</origPlace>
+                  </origin>
+                  <acquisition>
+                     <p>Deposit (1938) from École des Langues orientales.</p>
+                  </acquisition>
+               </history>
+               <additional>
+                  <listBibl>
+                     
+                     
+                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois et malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f177">handwritten addition</ref>.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         
+      <change when="2021-09">Record created by Emmanuel FRANCIS.</change></revisionDesc>
+   <encodingDesc><p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.      </p></encodingDesc></teiHeader>
+   
+<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+  
+  <pb n="[1]r"/>
+  <milestone n="1" unit="column"/>
+  <lb n="1"/><seg function="title">cippāyika vāttu
+<lb n="2"/>varicai paḻakkuṟa
+<lb n="3"/>poṣttakam</seg>
+
+  <milestone n="2" unit="column"/>
+  <lb n="1"/><seg function="colophon">1 8 100 3 10 – m – Āṇṭu
+<lb n="2"/>kāraikkālil eḻuta
+<lb n="3" break="no"/>ppaṭṭutu</seg> <g ref="#pcl"/>
+
+  <milestone n="3" unit="column"/>
+  <lb n="1"/><seg function="blessing">yēkaparāparavaṣt
+<lb n="3" break="no"/>tuvē tuṇai</seg> <g ref="#pcs"/>
+  
+  </body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
+  
+  <pb n="1r"/>
+   <milestone n="1" unit="column"/>
+  <lb n="1"/><seg function="intertitle">3 – m Ātikāram
+<lb n="2"/>tuṇṭupaḷḷikkūṭam
+<lb n="3"/>tuṇṭupaḷḷikkū
+<lb n="4" break="no"/>ṭam-āṉatu piṉṉā
+<lb n="5-7"/>lē collap <gap reason="ellipsis"/></seg>
+
+  <milestone n="2" unit="column"/>
+  <lb n="1"/><seg function="intertitle">mutal pāṭam</seg>
+<lb n="2"/><seg function="incipit">varicaikaḷait tiṟakkiṟatu
+<lb n="3"/>tiṟanta varicaikaḷai cemmai paṭuttukiṟatu</seg>
+  <lb n="4"/><gap reason="ellipsis"/>
+  <lb n="5"/><gap reason="ellipsis"/>
+  <lb n="6"/><seg function="intertitle">2~m pāṭam</seg> ~ <gap reason="ellipsis"/>
+<lb n="7"/><gap reason="ellipsis"/>
+  
+   <pb n="72r"/>
+     <milestone n="2" unit="column"/>
+  <lb n="6"/><gap reason="ellipsis"/> ~ <seg function="explicit">Ovvoru maṉuṣaṉ vaḻi
+  <lb n="7"/>kāṭṭiyiṉuṭaiya varicaiyiṉ perilivvita
+  <lb n="8"/>mā yoruttāṉ oruttaṉāy vantu ceru
+
+   <pb n="72v"/>
+  <lb n="1" break="no"/>vāṉ</seg> = = <seg function="completion-statement">mukintutu</seg> = <g ref="#pcl"/>
+
+  </body></text></TEI>
