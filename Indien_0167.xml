@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ariel Papers: Translations</title>
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits.</orgName>
+                  </repository>
+                  <idno type="shelfmark">Indien 167</idno>
+                  <idno type="alternate"><idno>Tamoul 167</idno></idno>
+               </msIdentifier>
+               <msContents class="#CM">
+                  <summary>Bound codex, containing folios of various measurements and paper. Contains handwritten notes by Edouard Ariel, that is, translations in French from the Tamil, Sanskrit, and Telugu.
+There were originally various bundles, each contained in a folded folio bearing title and often a date (these folded folios also bear library foliation). For some texts, instead of translations, we find rather a list of vocabulary. Various notes are often inserted.
+                  </summary>
+                  
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="fr"><term xml:lang="en">Ariel's Translations</term></title><author xml:lang="fr">Edouard Ariel</author><textLang mainLang="fra" otherLangs="san tam"/></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="paper">
+                        <extent>
+                           <measure unit="folio" quantity="294">[1] + 292 + [1] (u1 + U1 + u2).</measure>
+                           <dimensions type="object" unit="mm">
+                              <width quantity="360"/>
+                              <height quantity="245"/>
+                              <depth quantity="35"/>
+                           </dimensions>
+                        <dimensions type="leaf" unit="mm"/><dimensions type="written" unit="mm"/></extent>
+                        <collation>
+                        
+                        
+                        <desc xml:id="cover">the <emph rend="bold">front cover</emph></desc><desc xml:id="u1">1 folio = front <emph rend="bold">guard leaf</emph>. Blank recto verso. Shelfmark (f[1]r). Element of library binding.
+</desc><desc xml:id="U1">292 folios = <emph rend="bold">Ariel's Translations</emph>. Library Arabic foliation 1-292.</desc><desc xml:id="u2">1 folio = back <emph rend="bold">guard leaf</emph>. Blank recto verso. Element of library binding.
+</desc></collation>
+                     <condition>Fairly good state of preservation.</condition></supportDesc>
+                     <layoutDesc>
+                        
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     
+                  <handNote synch="#U1" scope="major" script="latin" medium="ink black"/></handDesc>
+                  <additions>
+                     
+                     
+                     
+                  <desc synch="#cover" type="shelfmark" subtype="beginning cover">BnF shelfmark sticker: <quote>INDIEN 167</quote>.</desc><desc synch="#cover" type="shelfmark" subtype="beginning cover">BnF shelfmark sticker: <quote>INDIEN 167</quote> (front cover, verso).</desc><desc synch="#u1" type="shelfmark">BnF old shelfmark: <quote>Tamoul N° 167</quote> (f[1]r).</desc></additions>
+                  <bindingDesc>
+                     <binding>
+                        
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian" notAfter="1851" notBefore="1846">The date of the translations indicated by Ariel range frrom 1846 to 1851.</origDate>
+                     <origPlace>Tamilnadu.</origPlace>
+                  </origin>
+                  <acquisition>
+                     <p>Received, August 1st, 1866, from the Société Asiatique. See BnF, département des Manuscrits, inventaire 7 = <title>Dons: manuscrits et imprimés documentaires, 1848-1895</title>, no. 1192.</p>
+                  </acquisition>
+               <provenance><p>Papers of <persName ref="https://catalogue.bnf.fr/ark:/12148/cb143513141" key="Ariel, Edouard (1818-1854)">Edouard Ariel</persName> (1818-1854). Bequested by Edouard Ariel to Société Asiatique (Rosny 1868, p. 177).</p></provenance></history>
+               <additional>
+                  <listBibl>
+                     
+                     
+                     
+                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f46">p. 28</ref>.</bibl><bibl>Rosny, Léon de (1869). La bibliothèque tamoule de M. Ariel, de Pondichéry. In: <title>Variétés orientales</title> (pp. 177‒224). Paris: Maisonneuve.</bibl><bibl>Vinson, Julien (1867‒1868). <title>Catalogue des manuscrits tamouls</title>. Corrected proofreadings printed by the atelier oriental de l’Imprimerie nationale. Access No. 4-IMPROR-77 (B). — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b105333021/f91">p. 41</ref>.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+        
+      <p>TBC</p></encodingDesc>
+      <revisionDesc>
+         
+         
+      <change when="2021-09">Record created by Emmanuel FRANCIS.</change></revisionDesc>
+   </teiHeader>
+   
+   <facsimile>
+      
+   </facsimile>
+<text synch="#U1" corresp="#T1" xml:lang="fr"><body>
+    <pb facs="00" n="1r"/>
+  <lb n="1"/>
+  </body></text></TEI>
