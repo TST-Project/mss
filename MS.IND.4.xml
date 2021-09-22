@@ -21,7 +21,7 @@
                   <idno type="alternate"/>
                </msIdentifier>
                <msContents class="#STM">
-                  <summary>The <title xml:lang="ta">Āṟāmāvaraviḷakkam</title> by Francis Whyte Ellis (1777‒1819), that is, the text known as the <title xml:lang="en">Legend of the Cow-Pox</title> (Trautmann 2006). The manuscript contains the original Tamil version and the English translation.</summary>
+                  <summary>The <title xml:lang="ta">Āṟāmāvaraviḷakkam</title>, "Light on the sixth boon of the cow" --- not "Light on the sixth great boon", pace Francis (2017, p. 257), as pointed out by Thomas Trautmann in a personal communication --- by Francis Whyte Ellis (1777‒1819), that is, the text known as the <title xml:lang="en">The Legend of the Cow-Pox</title> (Trautmann 2006, pp. 231-241). The manuscript contains the original Tamil version (so far, the only one known) and the English translation.</summary>
                   
                <msItem synch="#U1a" xml:id="T1" defective="false"><title xml:lang="ta">Āṟāmāvaraviḷakkam: <term xml:lang="en">Title Page</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U1b" xml:id="T2" defective="false"><title xml:lang="ta">Āṟāmāvaraviḷakkam: <term xml:lang="en">Tamil Text</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2a" xml:id="T3" defective="false"><title xml:lang="en"><term xml:lang="ta">Āṟāmāvaraviḷakkam</term>: Title Page</title><textLang mainLang="eng"/></msItem><msItem synch="#U2b" xml:id="T4" defective="false"><title xml:lang="en"><term xml:lang="ta">Āṟāmāvaraviḷakkam</term>: English Translation</title><textLang mainLang="eng"/></msItem></msContents>
                <physDesc>
@@ -30,15 +30,15 @@
                         <support>
                            <measure unit="stringhole"/>
                            
-                        </support>
+                        <p>European paper, watermark fleur-de-lis <quote>Curteis and Sons</quote> with date <quote>1799</quote>.</p></support>
                         <extent>
                            <measure unit="folio" quantity="56"/>
                            <dimensions type="leaf" unit="mm">
                               
                               
                            </dimensions>
-                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
-                        <collation><desc xml:id="cover">The <emph rend="bold"><locus facs="2">front cover</locus></emph>.</desc><desc xml:id="u1">2 folios = front <emph rend="bold">guard leaves</emph>. Library Arabic pagination 1-4. Blank recto verso.</desc><desc xml:id="U1a">1 folio = <emph rend="bold"><term xml:lang="ta">Āṟāmāvaraviḷakkam</term>: Title Page</emph> (in Tamil). Library Arabic pagination 5-6. Verso (= page 6) blank.</desc><desc xml:id="U1b">9 folios = <emph rend="bold"><term xml:lang="ta">Āṟāmāvaraviḷakkam</term>: Tamil text</emph>. Library Arabic pagination 7-24.</desc><desc xml:id="U2a">1 folio = <emph rend="bold"><term xml:lang="ta">Āṟāmāvaraviḷakkam</term>: Title Page</emph> (in English). Library Arabic pagination 25-26. Verso (= page 26) blank.</desc><desc xml:id="U2b">11 folios = <emph rend="bold"><term xml:lang="ta">Āṟāmāvaraviḷakkam</term>: English translation</emph>. Library Arabic pagination 27-48.</desc><desc xml:id="u2">4 folios = front <emph rend="bold">guard leaves</emph>. Library Arabic pagination 49-56. Blank recto verso.</desc><desc xml:id="cover">The <emph rend="bold"><locus facs="1">front cover</locus></emph>.</desc></collation>
+                        <dimensions type="object" unit="mm"><width quantity="190"/><height quantity="240"/></dimensions><dimensions type="written" unit="mm"/></extent>
+                        <collation><desc xml:id="cover">The <emph rend="bold"><locus facs="2">front cover</locus></emph>.</desc><desc xml:id="u1">2 folios = front <emph rend="bold">guard leaves</emph>. Library Arabic pagination 1-4. Blank recto verso.</desc><desc xml:id="U1a">1 folio = <emph rend="bold"><term xml:lang="ta">Āṟāmāvaraviḷakkam</term>: Title Page</emph> (in Tamil). Library Arabic pagination 5-6. Verso (= page 6) blank.</desc><desc xml:id="U1b">9 folios = <emph rend="bold"><term xml:lang="ta">Āṟāmāvaraviḷakkam</term>: Tamil text</emph>. Library Arabic pagination 7-24.</desc><desc xml:id="U2a">1 folio = <emph rend="bold"><term xml:lang="ta">Āṟāmāvaraviḷakkam</term>: Title Page</emph> (in English). Library Arabic pagination 25-26. Verso (= page 26) blank.</desc><desc xml:id="U2b">11 folios = <emph rend="bold"><term xml:lang="ta">Āṟāmāvaraviḷakkam</term>: English translation</emph>. Library Arabic pagination 27-48.</desc><desc xml:id="u2">4 folios = front <emph rend="bold">guard leaves</emph>. Library Arabic pagination 49-56. Blank recto verso.</desc><desc xml:id="cover">The <emph rend="bold"><locus facs="1">back cover</locus></emph>.</desc></collation>
                         
                         
                      <foliation>Library Arabic pagination in black pencil 1-56.</foliation><condition>Very good state of preservation.</condition></supportDesc>
@@ -46,9 +46,10 @@
                         
                      </layoutDesc>
                   </objectDesc>
-                  <handDesc><handNote synch="#U1a U1b" scope="major" script="tamil" medium="ink black"/><handNote synch="#U2a U2b" scope="major" script="latin" medium="ink black"/></handDesc>
+                  <handDesc><handNote synch="#U1a U1b" scope="major" script="tamil" scriptRef="#tamilPulliNone #tamilOE #tamilMacron" medium="ink black"><desc>Double-curled <foreign xml:lang="ta">kompu</foreign> is not consistently used.</desc></handNote><handNote synch="#U2a U2b" scope="major" script="latin" medium="ink black"/></handDesc>
                   <decoDesc>
-                  </decoDesc>
+                  <decoNote synch="#cover" subtype="beginning cover"><desc>Coat of arms of Frederic North, Earl of Guilford, with his motto <quote xml:lang="fr">LA VERTU EST LA SEULE NOBLESSE</quote> (<locus facs="47">front cover, verso</locus>).
+</desc></decoNote></decoDesc>
                   <additions>
                   <desc synch="#cover" type="title" subtype="spine">Title printed: <quote><supplied reason="lost">A</supplied>ramavara<supplied reason="lost">vilakka</supplied><unclear>m</unclear><gap reason="lost" quantity="1" unit="character"/></quote> (<locus facs="46">spine</locus>).</desc><desc synch="#cover" type="ex-libris" subtype="beginning cover">ex-libris <quote xml:lang="en">The Hon<hi rend="superscript">ble</hi> Frederic North</quote> (<locus facs="47">front cover, verso</locus>).</desc></additions>
                   <bindingDesc>
@@ -57,23 +58,23 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian"/>
+                     <origDate calendar="gregorian" notBefore="1799" notAfter="1817">No internal date. The <foreign>terminus a quo</foreign> is provided by the watemark of the paper. The <foreign>terminus ad quem</foreign> is possibly indicated by the fact  Frederic North is still called <quote xml:lang="en">The Hon<hi rend="superscript">ble</hi></quote> on his ex-libris, a title he should have ceased to use in 1817, when he became Earl of Guilford, after the successive deaths of his two older brothers.</origDate>
                      
                   </origin>
-                  <provenance><p>Owned by Frederic North.</p></provenance>
+                  <provenance><p>Owned by Frederic (or or Frederick) North (1766-1827), first Governor of Ceylon (1798–1805), as attested by his ex-libris (<locus facs="47">front cover, verso</locus>).</p></provenance>
                   <acquisition><p>Unknown.</p></acquisition>
                </history>
                <additional>
                   <listBibl>
                      
-                  </listBibl>
+                  <bibl>Francis, Emmanuel (2013-04-23). <title type="article" xml:lang="fr">Découverte de l’original tamoul de la légende de la variole de la vache de Francis Whyte Ellis</title>. Blogpost. <ref target="https://rcsi.hypotheses.org/419">https://rcsi.hypotheses.org/419</ref></bibl><bibl>Francis, Emmanuel (2013-04-23). <title type="article" xml:lang="en">Tamil Original of Ellis’ Legend of the Cowpox Found</title>. Blogpost. <ref target="https://rcsi.hypotheses.org/488">https://rcsi.hypotheses.org/488</ref></bibl><bibl>Francis, Emmanuel (2014-03-07). <title type="article" xml:lang="fr">Un manuscrit tamoul unique : la légende de la variole de la vache</title>. Blogpost. <ref target="https://bulac.hypotheses.org/1083">https://bulac.hypotheses.org/1083</ref></bibl><bibl>Francis, Emmanuel (2017). <title xml:lang="fr">La sixième « vacherie » d’Ellis</title>. In: Christophe Vielle, Christian Cannuyer and Dylan Esler (ed.), <title>Dieux, génies, anges et démons dans les cultures orientales &amp; Florilegium Indiae Orientalis Jean-Marie Verpoorten in honorem</title> (pp. 253‒266). Bruxelles: Société Royale Belge d’Études Orientales (Acta Orientalia Belgica 30). </bibl><bibl>Petit, Jérôme (2009). <title type="article" xml:lang="fr">État du fonds de manuscrits indiens à la Bibliothèque interuniversitaire des Langues Orientales</title>. <title>Bulletin d’Études Indiennes, Association Française pour les Études Indiennes</title> 24-25 (2006-2007), pp. 191-206.</bibl><bibl>Trautmann, Thomas R. (2006). <title xml:lang="en">Languages and Nations: The Dravidian Proof in Colonial Madras</title>. Berkeley [etc.] : University of California Press.</bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          
-      <p>TBC</p></encodingDesc>
+      <p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.      </p></encodingDesc>
       <revisionDesc>
          
       <change when="2021-09">Record created by <persName xml:id="eFRANCIS">Emmanuel FRANCIS</persName>.</change></revisionDesc>
@@ -83,20 +84,29 @@
 <text synch="#U1a" corresp="#T1" xml:lang="ta"><body>
   
   <pb facs="3" n="5"/>
-  <lb n="1"/>
+  <lb n="1"/><seg function="title">Āṟāmāvaraviḷakkam</seg>
   
   </body></text><text synch="#U1b" corresp="#T2" xml:lang="ta"><body>
   
   <pb facs="4" n="7"/>
-  <lb n="1"/>
+  <lb n="1"/><g ref="#pcl"/>
+<lb n="2"/>viruttam
+<lb n="3"/><seg function="incipit">pacukkaḷoṭu viḷaiyātum pālaṉ ṟaṉakkē namaskāram</seg>
+<lb n="4"/>vacukka<unclear>ḷ</unclear> curaikkāliyaik kāttuvaṉ āttōṉ ṟaṉakkē nama
+<lb n="5" break="no"/>skāram ~ pacum poṟ kapilaniṟamuṅ kañcapārvai piṟaik
+<lb n="6" break="no"/>kōṭṭ<pc>’</pc> amutam iṭṭē vicump<pc>’</pc> uṟṟ<pc>’</pc> īka cuvāca-maṇam iku tē
+<lb n="7" break="no"/>ṉuvukkē namaskāram <g ref="#pcl"/>
+
   
   <pb facs="21" n="24"/>
-  <lb n="1"/>
+  <lb n="5"/><seg function="explicit">Ellīcaṉ eṉṟa varam naṉṟāy aṟiya v<pc>-</pc>eḻutiṉarē</seg> ~
   
   </body></text><text synch="#U2a" corresp="#T3" xml:lang="en"><body>
   
   <pb facs="22" n="25"/>
-  <lb n="1"/>
+  <lb n="1"/>A Translation
+  <lb n="2"/>of the
+  <lb n="3"/>Áramàvàravi‛laccam
   
   </body></text><text synch="#U2b" corresp="#T4" xml:lang="en"><body>
   
