@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><title>Dictionnaire français et tamoul</title></title>
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Indien 220</idno>
+                  <idno type="alternate"><idno>Tamoul 200</idno></idno>
+               </msIdentifier>
+               <msContents class="#STM">
+                  <summary>A French-Tamil dictionary copied at the instance of Edouard Ariel.</summary>
+                  
+               <msItem synch="#U1a" xml:id="T1" defective="false"><title xml:lang="fr">Title Page</title><textLang mainLang="fra"/></msItem><msItem synch="#U1b" xml:id="T2" defective="false"><title xml:lang="fr">Front Matter</title><textLang mainLang="fra"/></msItem><msItem synch="#U1c" xml:id="T3" defective="false"><title xml:lang="fr">Dictionary proper</title><textLang mainLang="fra" otherLangs="tam"/></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="paper">
+                        <extent>
+                           <measure unit="folio" quantity="157">[1] + 155 + [1] (u1 + U1 + u2).</measure>
+                           <dimensions type="leaf" unit="mm">
+                              <width quantity="215"/>
+                              <height quantity="295"/>
+                           </dimensions>
+                           <note>The leaves are broader in their middle than at their edges. </note>
+                        <dimensions type="object" unit="mm"><width quantity="230"/><height quantity="305"/><depth quantity="30"/></dimensions><dimensions type="written" unit="mm"/></extent>
+                        
+                        <condition>Excellent state of preservation. </condition>
+                     <support><measure unit="stringhole"/></support><collation><desc xml:id="cover">the <emph rend="bold">front cover</emph>. Shelfmark on recto.</desc><desc xml:id="u1">1 folio = front <emph rend="bold">guard leaf</emph>. No foliation. Shelfmark on recto. Verso blank.</desc><desc xml:id="U1">155 folios = <emph rend="bold">French-Tamil Dictionary</emph>. Partial Tamil pagination. Partial library foliation.
+</desc><desc xml:id="U1a">1 folio = <emph rend="bold">Title Page</emph>. No foliation. Verso blank.
+</desc><desc xml:id="U1b">1 folio = <emph rend="bold">Front Matter</emph>. No foliation.</desc><desc xml:id="U1c">153 folios = <emph rend="bold">Dictionary proper</emph>. Tamil pagination 1-306. Library Arabic foliation 1-153.</desc><desc xml:id="u2">1 folio = back <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso.</desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>.</desc></collation></supportDesc>
+                     <layoutDesc>
+                        
+                     <layout columns="2"/></layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     
+                  <handNote synch="#U1" scope="major" script="latin tamil" medium="ink black"/></handDesc>
+                  <additions><desc synch="#cover" type="title" subtype="spine"><quote>DICTINNAIRE FRANÇAIS ET TAMOUL </quote></desc><desc synch="#cover" type="shelfmark" subtype="spine">BnF shelfmark sticker: <quote>INDIEN 220</quote>.</desc><desc synch="#cover" type="shelfmark" subtype="beginning cover">BnF shelfmark sticker: <quote>INDIEN 220</quote> (f[1]r).</desc><desc synch="#u1" type="shelfmark">BnF shelfmark in black pencil: <quote>Tamoul N° 220</quote> (f[1]r).</desc><desc synch="#U1a" corresp="#T1" type="shelfmark" subtype="left">Shelfmark in black ink: <quote>Aa/9.</quote> (f[1]r).</desc></additions>
+                  <bindingDesc>
+                     <binding>
+                        <p>Red leather covers. Title, decoration and shelfmark on the spine</p>
+                     </binding>
+                  </bindingDesc>
+               <decoDesc><decoNote synch="#cover" type="decorative" subtype="spine"/></decoDesc></physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian" when="1848">Internal date. See colophon (u2, f[1]v). Dated to 1850 by Cabaton (1912), on unstated grounds.</origDate>
+                     <origPlace>Tamilnadu.</origPlace>
+                  </origin>
+                  <acquisition>
+                     
+                  <p>Received, August 1st, 1866, from the Société Asiatique. See BnF, département des Manuscrits, inventaire 7 = <title>Dons: manuscrits et imprimés documentaires, 1848-1895</title>, no. 1192.</p></acquisition>
+               <provenance><p>Owned by <persName ref="https://catalogue.bnf.fr/ark:/12148/cb143513141" key="Ariel, Edouard (1818-1854)">Edouard Ariel</persName> (1818-1854). Bequested by Edouard Ariel to Société Asiatique (Rosny 1868, p. 177).</p></provenance></history>
+               <additional>
+                  <listBibl>
+                     
+                     
+                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois et malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f54">p. 36</ref>.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         
+      <change when="2021-09">Record created by Emmanuel FRANCIS.</change></revisionDesc>
+   <encodingDesc><p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.    </p></encodingDesc></teiHeader>
+   
+<text synch="#U1a" corresp="#T1" xml:lang="fr"><body>
+  
+  <pb n="[1]r"/> 
+  <lb n="1"/><seg function="title">Dictionnaire
+  <lb n="2"/>français et tamoul</seg>
+  
+</body>
+   </text><text synch="#U1b" corresp="#T2" xml:lang="fr"><body>
+  
+  <pb n="[1]r"/>
+  
+  <lb n="1"/>le manuscript sur lequel celui ci a été copié se
+ <lb n="2"/>compose de 132 pp. (recto et verso) in f° papier écolier,
+ <lb n="3"/>et il est disposé sur deux colonnes contenant chacune l’une
+ <lb n="4"/>le français, et l’autre le tamil, excepté à la première
+ <lb n="5"/>page où chaque colonne contient le français et le
+ <lb n="6"/>tamil. Il est en assez bon état. les 1ères feuilles
+ <lb n="7"/>sont seulement passablement piquées, la reliure
+ <lb n="8"/>est délabrée. la garde initiale (exsangue). la signature
+ <lb n="9"/>Vazaradarayer figure au 1r recto. elle indique que
+ <lb n="10"/>le possesseur primitif était Tiruvengadapillai, ds
+ <lb n="11"/>la famille duquel l’ouvrage est conservé aujourd’hui.
+ <lb n="12"/>EA <note xml:lang="en">that is, the initials of Edouard Ariel</note>
+
+    <pb n="[1]v"/>
+  <milestone n="1" unit="column"/>
+    <lb n="1"/>copié le français par Adolphe <choice><unclear>p</unclear><unclear>s</unclear></choice>itatuan
+ <lb n="2"/>~ le tamil par Djagannada.
+<milestone n="1" unit="column"/>
+    <lb n="1-2"/>1848
+ <lb n="3"/>collationné par par Sinnadurai &amp; Aviçayal. 1853.
+  <lb n="4"/>EA <note xml:lang="en">that is, the initials of Edouard Ariel</note>
+
+</body></text><text synch="#U1c" corresp="#T3" xml:lang="fr"><body>
+  
+  <pb n="1r"/>
+  <lb n="1"/>A. abj
+  <lb n="1"/>Abaisser | <term xml:lang="ta">tāḻttukiṟatu</term>
+  <lb n="2"/>abandon | <term xml:lang="ta">kaiviṭutal</term>
+  <lb n="3"/>abandonné | <term xml:lang="ta">kaiviṭappaṭṭa</term>
+  
+   <pb n="153v"/>
+  
+  <lb n="14"/>Z.
+  <lb n="15"/><gap reason="ellipsis"/>
+  <lb n="16"/><gap reason="ellipsis"/>
+  <lb n="17"/><gap reason="ellipsis"/>
+  <lb n="18"/>zombaye | <term xml:lang="ta">namaskāram</term>
+  <lb n="19"/>zèle | <term xml:lang="ta">tēvayūḻiyattilē cuṟucuṟuppu</term>
+  
+</body></text></TEI>
