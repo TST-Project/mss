@@ -53,7 +53,7 @@ const getMaterial = function(el) {
     if(!el) return;
     const m = el.getAttribute('material');
     if(!m) return;
-    const materials = new Map([['palm-leaf','palm leaf'],['palm-leaf talipot','palm leaf (talipot)'],['palm-leaf palmyra','palm leaf (palmyra)'],['paper','paper'],['paper handmade','paper (handmade)'],['paper industrial','paper (industrial)'],['paper laid', 'paper (laid)'],['birch-bark','birch bark']]);
+    const materials = new Map([['palm-leaf','palm leaf'],['palm-leaf talipot','palm leaf (talipot)'],['palm-leaf palmyra','palm leaf (palmyra)'],['paper','paper'],['paper handmade','paper (handmade)'],['paper industrial','paper (industrial)'],['paper laid', 'paper (laid)'],['birch-bark','birch bark'],['copper','copper']]);
     return materials.get(m);
 };
 
@@ -67,7 +67,13 @@ const getExtent = function(xmlDoc) {
     const pages = xmlDoc.querySelector('measure[unit="page"]');
     if(pages) {
         const num = pages.getAttribute('quantity');
-        const unit = num > 1 ? ' pp.' : 'p.';
+        const unit = num > 1 ? ' pp.' : ' p.';
+        return [num, num + unit];
+    }
+    const plates = xmlDoc.querySelector('measure[unit="plate"]');
+    if(plates) {
+        const num = plates.getAttribute('quantity');
+        const unit = num > 1 ? ' plates' : ' plate';
         return [num, num + unit];
     }
     return '';
