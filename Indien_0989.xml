@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tamil Vocabulary</title>
+            
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Indien 989</idno>
+                  <idno type="alternate"/>
+               </msIdentifier>
+               <msContents class="#STM">
+                  <summary><p>A list list of words in alphabetical order and phrases in Tamil.</p>
+<p>The leaves come with two wood arrows, each pierced with two holes</p></summary>
+                  
+               <msItem synch="#U1" xml:id="T1" defective="true"><title xml:lang="ta"><term xml:lang="en">Tamil Vocabulary</term></title><textLang mainLang="tam"/></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="pothi">
+                     <supportDesc material="palm-leaf">
+                        <support>
+                           <measure unit="stringhole" quantity="1"/>
+                           
+                        <p>Double folios.</p></support>
+                        <extent>
+                           <measure unit="folio" quantity="9">9 (U1).</measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           </dimensions>
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
+                        <collation><desc xml:id="U1">9 folios = <emph rend="bold">Tamil Vocabulary</emph>. Tamil foliation 1-3, 6, 8-10, 12-13. </desc></collation>
+                        
+                        <condition>Relatively good state of preservation. Some folios cracked.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2" writtenLines="5 8"/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc><handNote synch="#U1" scope="sole" script="tamil" scriptRef="#tamilOE" medium="incised"><desc>The <foreign xml:lang="ta">puḷḷi</foreign> is in the form of small circle, but also, sometimes, in the form of a dot.</desc></handNote></handDesc>
+                  <decoDesc>
+                  </decoDesc>
+                  <additions>
+                  <desc synch="#U1" type="shelfmark" subtype="beginning">BnF shelfmark sticker: <quote>INDIEN 989</quote>. Covering an older round sticker.</desc><desc synch="#U1" type="shelfmark">BnF sticker in black, covered by stickers: 
+<quote>
+  <lb n="1"/><supplied reason="illegible">Indie</supplied>n
+  <lb n="2"/><supplied reason="illegible">98</supplied>9</quote></desc></additions>
+                  <bindingDesc>
+                     <binding><p>No covers.
+</p></binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian" notAfter="1938">No internal date. </origDate>
+                     <origPlace>Tamilnadu</origPlace>
+                  </origin>
+                  <provenance><p>Unknown.</p></provenance>
+                  <acquisition><p>Deposited at the BnF in 1938, from the École des Langues Orientales.</p></acquisition>
+               </history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f176">f5r</ref> of the first series of additional handwritten descriptions.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         
+      <p>TBA</p></encodingDesc>
+      <revisionDesc>
+         
+      <change when="2021-09">Record created by Emmanuel FRANCIS.</change></revisionDesc>
+   </teiHeader>
+   <facsimile>
+   <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b52515026w/manifest.json"/></facsimile>
+<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+  
+  <pb facs="5" n="1"/>
+  <milestone unit="left margin"/>
+    <lb n="1"/><seg function="blessing"><g ref="#pcs"/> kaṭavu<supplied reason="omitted">ḷ </supplied> <choice><sic>ku</sic><corr>tu</corr></choice>ṇai</seg>
+  
+    <milestone n="1" unit="column"/>
+    <lb n="1"/><seg function="incipit">Akam</seg>
+    <lb n="2"/>Akaḻ
+    <lb n="3"/>Akkāḷ
+  
+  <milestone n="2" unit="column"/><gap reason="ellipsis"/>
+  <milestone n="3" unit="column"/><gap reason="ellipsis"/>
+  <milestone n="4" unit="column"/><gap reason="ellipsis"/>
+  <milestone n="5" unit="column"/><gap reason="ellipsis"/>
+  <milestone n="6" unit="column"/><gap reason="ellipsis"/>
+  
+  <pb facs="16" n="9v"/>
+  
+      <milestone n="1" unit="column"/>
+    <lb n="1"/>nalla ~ piḷḷai
+    <lb n="2"/>naṉ ~ ṉeṟi
+    <lb n="3"/>nalla ~ Olukkam
+  
+  <pb facs="21" n="13r"/>
+  
+      <milestone n="1" unit="column"/>
+    <lb n="1"/>nī ~ Aṅkē ~ vantu ~ pō
+    <lb n="2"/>nī ~ Uṉ ~ nākkai ~ vaḻi
+    <lb n="3"/>nī ~ Uṉ ~ pallaik ~ kāṭṭu
+  
+   <pb facs="22" n="13v"/>
+  
+      <milestone n="3" unit="column"/>
+    <lb n="1"/>nī ~ Itiṉ ~ mēlē ~ Iru
+    <lb n="2"/>nī ~ Oru ~ yuttip ~ paṇṇu
+    <lb n="3"/><seg function="explicit">nām ~ Ēṉ ~ Ūrukkup ~ pōvōm</seg>
+ 
+</body></text></TEI>
