@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Indic Alphabets</title>
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Sanscrit 1129</idno>
+                  <idno type="alternate"><idno>Burnouf 166</idno></idno>
+               </msIdentifier>
+               <msContents class="#CM">
+                  <summary>A volume bound in library containing five Indic alphabets on originally independent quires:
+<list rend="numbered">
+<item>Nāgarī</item>
+<item>Grantha</item>
+<item>Telugu</item>
+<item>Singhalese</item>
+<item>Tamil</item>
+</list></summary>
+                  
+               <msItem synch="#U1a" xml:id="T1" defective="false"><title><term xml:lang="en">Nāgarī Alphabet</term></title></msItem><msItem synch="#U1b" xml:id="T2" defective="false"><title xml:lang="sa"><term xml:lang="en">Grantha Alphabet</term></title><textLang mainLang="san"/></msItem><msItem synch="#U1c" xml:id="T3" defective="false"><title><term xml:lang="en">Telugu Alphabet</term></title></msItem><msItem synch="#U1d" xml:id="T4" defective="false"><title><term xml:lang="en">Singhalese Alphabet</term></title></msItem><msItem synch="#U1e" xml:id="T5" defective="false"><title xml:lang="ta"><term xml:lang="en">Tamil Alphabet</term></title><textLang mainLang="tam"/></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="paper">
+                        <support>
+                           <measure unit="stringhole"/>
+                           
+                        </support>
+                        <extent>
+                           <measure unit="folio" quantity="40">[3] + 34 + [3] (u1 + U1 + u2).</measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           <width quantity="200"/><height quantity="315"/></dimensions>
+                        <dimensions type="object" unit="mm"><width quantity="210"/><height quantity="325"/><depth quantity="5"/></dimensions><dimensions type="written" unit="mm"/></extent>
+                        <collation><desc xml:id="cover">the <emph rend="bold">front cover</emph>. Shelfmark on recto.</desc><desc xml:id="u1">3 folios = <emph rend="bold">front guard leaves</emph>. No foliation. Blank recto verso. </desc><desc xml:id="U1">34 folios. Library Arabic foliation 1-32, [33-34] (top right of recto; last 2 folios unfoliated) [= reference foliation in the present description]. Library Arabic foliation 34-1 (bottom left of verso; starting at the end of volume; upside down). </desc><desc xml:id="U1a">6 folios = <emph rend="bold">Nāgarī Alphabet</emph>. Library Arabic foliation 1-6. 200 x 315 mm.</desc><desc xml:id="U1b">6 folios = <emph rend="bold">Grantha Alphabet</emph>. Library Arabic foliation 7-12. f12rv blank. 200 x 315 mm.</desc><desc xml:id="U1c">6 folios = <emph rend="bold">Telugu Alphabet</emph>. Library Arabic foliation 13-18. f17v-f18rv blank. 200 x 315 mm.</desc><desc xml:id="U1d">16 folios = <emph rend="bold">Singhalese Alphabet</emph>. Library Arabic foliation 19-32. Arabic pagination 1-16 on f25-f32. 200 x 315 mm.</desc><desc xml:id="U1e">2 folios = <emph rend="bold">Tamil Alphabet</emph>. Library Arabic foliation [33-34]. Arabic pagination 17-18 on f|33]v, f[34r]. This is in fact a folio (320 x 395 mm) in-folio. f|33]r, f[34v] blank.</desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>.</desc></collation>
+                        
+                        
+                     <condition>Excellent state of preservation.</condition></supportDesc>
+                     <layoutDesc>
+                        
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc><handNote synch="#U1a" scope="minor" script="devanagari tamil" medium="ink black"/><handNote synch="#U1b" scope="minor" script="grantha" medium="ink black"/><handNote synch="#U1c" scope="minor" script="telugu tamil" medium="ink black"/><handNote synch="#U1d" scope="minor" medium="ink black"/><handNote synch="#U1e" scope="minor" script="tamil" medium="ink black"/></handDesc>
+                  <decoDesc>
+                  </decoDesc>
+                  <additions>
+                  <desc synch="#cover" type="title" subtype="spine"><quote xml:lang="fr">
+  <lb n="1"/>CINQ
+  <lb n="2"/>ALPHAB.
+  <lb n="3"/>INDIENS
+  </quote>. </desc><desc synch="#cover" type="shelfmark" subtype="beginning cover">BnF shelfmark sticker: <quote>SANSCRIT 1129</quote> (<locus facs="1">front cover, recto</locus>).</desc></additions>
+                  <bindingDesc>
+                     <binding><p>Red cover.</p></binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian" notAfter="1907">No internal date. 19th century according to Cabaton (1907).</origDate>
+                     
+                  <origPlace>Tamilnadu.</origPlace></origin>
+                  <provenance><p>Burnouf.</p></provenance>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl>Cabaton, A. (1907). <title>Catalogue sommaire des manuscrits sanscrits et pālis. 1er fascicule. Manuscrits sanscrits. Bibliothèque Nationale, Département des manuscrits.</title>. Paris: Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10536321f/f212">p. 276</ref>.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         
+      <p><emph rend="bold">Transliteration conventions</emph> ― Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.      </p></encodingDesc>
+      <revisionDesc>
+         
+      <change when="2021-09">Record created by Emmanuel FRANCIS.</change></revisionDesc>
+   </teiHeader>
+   <facsimile>
+   </facsimile>
+<text synch="#U1a" corresp="#T1"><body>
+  
+  <pb facs="00" n="1r"/>
+  
+   <lb n="1"/><seg function="blessing">śrī</seg>
+  <lb n="2"/><seg function="title"><term xml:lang="fr">Alphabet Sanskrit Deva-Nagari.</term></seg>
+
+  <pb facs="00" n="3v"/>
+  <lb n="3-8"/><note xml:lang="en">with instructions in Tamil</note>
+  
+  <pb facs="00" n="5v"/>
+  <lb n="3"/><note xml:lang="en">from here up to the end, a text in Sanskrit and Nāgarī</note>
+  
+  </body></text><text synch="#U1b" corresp="#T2" xml:lang="sa"><body>
+    
+  <pb facs="00" n="7r"/>
+  
+   <lb n="1"/><seg function="title"><term xml:lang="fr">Alphabet Sanskrit.</term></seg>
+  
+  </body></text><text synch="#U1c" corresp="#T3"><body>
+    
+  <pb facs="00" n="13r"/>
+  <lb n="1"/><seg function="title"><term xml:lang="fr">Alphabet Télinga.</term></seg>
+  
+  <pb facs="00" n="16v"/>
+  <lb n="1-12"/><note xml:lang="en">with instructions in Tamil</note>
+  
+  <pb facs="00" n="17r"/>
+  <lb n="1"/><seg function="title"><term xml:lang="fr">ALPHABET THELINGA.</term></seg>
+  
+  </body></text><text synch="#U1d" corresp="#T4"><body>
+    
+  <pb facs="00" n="19r"/>
+  
+   <lb n="1"/><seg function="title"><term xml:lang="fr">Alphabet Chinghulais.</term></seg>
+   <lb n="2"/><seg function="intertitle"><term xml:lang="fr">Voyelles.</term></seg>
+   <lb n="5"/><seg function="intertitle"><term xml:lang="fr">Consonnes.</term></seg>
+   <lb n="10"/><seg function="intertitle"><term xml:lang="fr">Alphabet Syllabique.</term></seg>
+  
+   <pb facs="00" n="21v"/>
+     <lb n="3"/><seg function="intertitle"><term xml:lang="fr">Lettres Doubles.</term></seg>
+
+  <pb facs="00" n="25r"/>
+  
+   <lb n="1"/><seg function="title"><term xml:lang="fr">Syllabaire Chinghulais (Suite)</term></seg>
+
+  
+  </body></text><text synch="#U1e" corresp="#T5" xml:lang="ta"><body>
+    
+  <pb facs="00" n="r"/>
+  
+     <lb n="1"/><seg function="title"><term xml:lang="fr">Alphabet Tamoul avec des lettres arabes correspondantes.</term></seg>
+
+  </body></text></TEI>
