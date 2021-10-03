@@ -52,7 +52,7 @@
         }
 
         #menu > div {
-            margin-right: 10rem;
+            margin-right: 5rem;
             padding: 0 1.5rem 0 1.5rem;
         }
         
@@ -69,8 +69,35 @@
             text-shadow: none;
         }
         
-        #menu div:hover {
+        #menu > div:hover {
             background-color: rgb(255,255,248);
+        }
+        .dropper {
+            position: relative;
+            display: inline-block;
+        }
+        .dropped {
+            display: none;
+            position: absolute;
+            z-index: 1;
+            background-color: #eee;
+            margin-left: 0;
+            padding-left: 0;
+            left: 0;
+            width: 100%;
+        }
+        .dropped a {
+            width: 100%;
+            display: block;
+            padding-top: 0.5rem;
+            padding-left: 1rem;
+        }
+        .dropped a:hover {
+            background-color: rgb(255,255,248);
+        }
+
+        .dropper:hover .dropped {
+            display: block;
         }
       </style>
       
@@ -117,6 +144,13 @@
         <div class="selected">Manuscripts</div>
         <div><a href="../editor">Editor</a></div>
         <div><a href="../editor/entities.html">Tamil transcription</a></div>
+        <div class="dropper">
+            <span>Paratexts</span>
+            <div class="dropped">
+                <a href="../lib/scripts/paratexts/blessings.html">Blessings</a>
+                <a href="../lib/scripts/paratexts/colophons.html">Colophons</a>
+            </div>
+        </div>
         <div><a href="../xylotheque">Xylothèque</a></div>
     </div>
     <article>
