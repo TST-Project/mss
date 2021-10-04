@@ -7,6 +7,7 @@
       
       <link rel="icon" type="image/png" href="favicon-32.png">
       <link rel="stylesheet" href="../lib/css/tufte.css">
+      <link rel="stylesheet" href="../lib/css/fonts.css">
       
       <style type="text/css">
         table, #index {
@@ -84,13 +85,14 @@
             margin-left: 0;
             padding-left: 0;
             left: 0;
-            width: 100%;
+            width: max-content;
         }
         .dropped a {
             width: 100%;
             display: block;
             padding-top: 0.5rem;
             padding-left: 1rem;
+            padding-right: 1rem;
         }
         .dropped a:hover {
             background-color: rgb(255,255,248);
@@ -141,8 +143,14 @@
    <body lang="en">
     <div id="menu">
         <div class="main"><a href="https://tst.hypotheses.org">Texts Surrounding Texts</a></div>
-        <div class="selected">Manuscripts</div>
-        <div><a href="../editor">Editor</a></div>
+        <div class="selected">Manuscripts</a></div>
+        <div class="dropper">
+            <span>Tools</span>
+            <div class="dropped">
+                <a href="../../../editor">TST editor</a>
+                <a href="https://github.com/chchch/quick-palaeographer">Quick palaeographer</a>
+            </div>
+        </div>
         <div><a href="../editor/entities.html">Tamil transcription</a></div>
         <div class="dropper">
             <span>Paratexts</span>
