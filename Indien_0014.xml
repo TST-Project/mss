@@ -1,160 +1,197 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader xml:lang="en">
-      <fileDesc>
-         <titleStmt>
-            <title><title xml:lang="ta">Civatarumōttirakāviyam</title> (commentary)</title>
-         </titleStmt>
-         <editionStmt>
-            <p>Record edited by <persName>Thillai Chidambaram RAJARETHINAM</persName> <orgName>EFEO, Pondicherry</orgName> and encoded by <persName>Emmanuel FRANCIS</persName> <orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName>.</p>
-        </editionStmt>
-        <publicationStmt>
-            <publisher>TST Project</publisher>
-            <date>2020</date>
-         </publicationStmt>         
-         <sourceDesc>
-            <msDesc>
-               <msIdentifier>
-                  <repository>
-                     <orgName>Bibliothèque nationale de France. Département des Manuscrits.</orgName>
-                  </repository>
-                  <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1031459</idno>
-                  <idno type="shelfmark">Indien 14</idno>
-                  <idno type="alternate"><idno>Tamoul 14</idno></idno>
-               </msIdentifier>
-               <msContents class="#STM">
-                  <summary>
-                     <p>The text is complete in 12 chapters: chapter 2 <term xml:lang="ta-Taml">சிவஞானதானவியல்</term> (<locus facs="41">f17r</locus>), chapter 3 <term xml:lang="ta-Taml">மூன்றாவது ஐவகையாகவியல்</term> (<locus facs="77">f35r</locus>), chapter 4 <term xml:lang="ta-Taml">பலவிசிட்ட காரணவியல்</term> (<locus facs="93">f43r</locus>), chapter 5 <term xml:lang="ta-Taml">அஞ்சாவது சிவதருமவியல்</term> (<locus facs="117">f55r</locus>), chapter 6 <term xml:lang="ta-Taml">ஆறாவது பாவவியல்</term> (<locus facs="131">f62r</locus>), chapter 7 <term xml:lang="ta-Taml">எட்டாவது சுவற்கநரகவியல்</term> (<locus facs="169">f81r</locus>), chapter 8 <term xml:lang="ta-Taml">செனனமரணவியல்</term> (<locus facs="221">f107r</locus>), chapter 9 <term xml:lang="ta-Taml">சொவற்கநரகவியலுரௌ</term> (<locus facs="283">f138r</locus>), chapter 10 <term xml:lang="ta-Taml">பத்தாவது சிவஞானயோகவியலுரை</term> (<locus facs="305">f149r</locus>), chapter 11 <term xml:lang="ta-Taml">பதினொன்றாவது பரிகாரவியல்</term> (<locus facs="367">f180r</locus>), chapter 12 <term xml:lang="ta-Taml">கோபுரவியல்</term> (<locus facs="463">f228r</locus>). </p>
-                  </summary>
-                  <msItem synch="#U2c" defective="false">
-                     <title xml:lang="ta">Civatarumōttiram <span xml:lang="en">(commentary)</span></title>
-                     <textLang mainLang="tam">Tamil</textLang>
-                     <incipit xml:lang="ta-Taml">
-                        <note xml:lang="en"><locus facs="9">folio 1recto</locus> = incipit, <term xml:lang="ta" rend="italic">mūlam</term>.</note>
-               <milestone n="1r1" unit="folio" facs="9"/> திருவுங் கல்வியுங் சீருந் தழைக்கவுங் கருணை பூக்கவுந் தீமையைக்காய்க்கவும் பருவமாய் நமதுள்ளம் பழுக்கவும் பெருகுமாழ்த்து-
-               <lb/> ப் பிள்ளையைப் பேணுவாம் – காப்பு – மலைக்குமகள் பெற்றமகனை (…)
-                    </incipit>
-                    <explicit xml:lang="ta-Taml"> 
-                        <note xml:lang="en"><locus facs="572">folio 282verso</locus> = excipit, <term xml:lang="ta" rend="italic">mūlam</term>: completion statement; total verses; stanza of praise n° 1.</note>
-                        <milestone n="282v7" unit="folio" facs="572"/> (…) பன்னிரெண்டாவது கோபுரவியன்
-                        <lb/> முடிந்தது ஆகத் திருவிருத்தம் – ௲௨௱௨௰௮ – முன்னங்கேட்க வகத்தியன்சண்முகன் பன்னீராயிரமாகப் பகர்ந்தனனனளவுத் தாமாயிரத்தெட்டு நூறெ-
-                        <lb/> ன்னவம் முனிகோயதிங்கியம் ? னான் – க – அந்த வாக்கினை நோக்கியருகருஞ் சிந்தவாது செயதேசிகன் ஞானசம்பந்தனு மமபரித் (…)
-                    </explicit>
-                    <colophon xml:lang="ta-Taml">
-                        <note xml:lang="en"><locus facs="573">folio 283recto</locus> and <locus facs="574">folio 283verso</locus> = stanza of praise n° 10; total verses; benediction. </note>
-                       <milestone n="283r9" unit="folio" facs="573"/> (…) – ௰ – இது சிவகமஸ்துதி – தில்லைவாநகரெல்லை யெனவினை யொல்லை யோ
-                       <lb/><milestone n="283v1" unit="folio" facs="574"/> ருவிடும் நல்லநலமுறும் – இது சிவ க்‌ஷேத்திரஸ்தி [i.e. ஸ்துதி] – வேறு – வடவரைக்கயிலையும் பொதியமாமலையுமோகடுவிருட் கயிலையுங் கரைவிதக்கயிலை
-                       <lb/> யும் படியினுட் பரமாகு தன் கயிலையும் பணிகுவமுடலினைக்கடிவமேயொளிர்சிவத்துறைவமே – இது கயிலாய ஸ்துதி. ஆக ௲௨௱௪௰ – திரு- 
-                       <lb/> ச்சிற்றம்பலம்.
-                    </colophon>
-                  </msItem>
-               </msContents>
-               <physDesc>
-                  <objectDesc form="pothi">
-                     <supportDesc material="palm-leaf">
-                        <support><measure resp="#cLI" unit="stringhole" quantity="2"/></support>
-                        <extent>
-                           <measure unit="folio" quantity="286">1 + 1 + 1 + 283</measure>
-                           <dimensions type="leaf" unit="mm">
-                              <width quantity="450"/>
-                              <height quantity="40"/>
-                           </dimensions>
-                        </extent>
-                        <collation>
-                        <desc xml:id="U1">On the front woodcover: 1 folio, no foliation = title-page, by hand n° 1. With shelfmark: b/35.</desc>
-                        <desc xml:id="U2a">1 folio, no foliation = table of contents, by hand n°2.</desc>
-                        <desc xml:id="U2b">1 folio, no foliation = blank leaf.</desc>
-                        <desc xml:id="U2c">283 folios, Tamil foliation 1‒283 = text (<term xml:lang="ta" rend="italic">mūlam</term>), by hand n° 2.</desc>
-                        </collation>
-                     </supportDesc>
-                     <layoutDesc>
-                        <layout columns="1" resp="#cLI" writtenLines="9 11"/>
-                     </layoutDesc>
-                  </objectDesc>
-                  <handDesc>
-                     <handNote synch="#U1" scope="sole" script="tamil" scribeRef="#ArielTitleScribe">
-                        <p>Title page.</p>
-                     </handNote>
-                     <handNote synch="#U2a #U2c" scope="sole" script="tamil">
-                        <p>Table of contents and <term xml:lang="ta" rend="italic">mūlam</term>.</p>
-                     </handNote>
-                  </handDesc>
-                  <additions>
-                    <p>Marginal benedictions; marginal chapter headers; title-page; marginal titles; <emph rend="italic">pratīka</emph>s; table of contents; 10 stanzas of praise (U2c, <locus facs="572">f282v8</locus>‒<locus facs="573">f283r9</locus>); total stanzas.</p>
-                    <p><emph rend="bold">U1</emph>: <locus facs="1">folio 1recto</locus>, unfoliated = title-page: benediction; title.
-                        <lg xml:lang="ta-Taml">
-                           <l><locus xml:lang="en" facs="1">f[1]r, lm, 1‒2</locus> வெற்றிவேலுற்ற துணை</l>
-                           <l><locus xml:lang="en" facs="1">f[1]r, c1, 1</locus> இஃது</l>
-                           <l><locus xml:lang="en" facs="1">f[1]r, c2, 1‒2</locus> சிவதருமோத்திரம் உரைபாடம்</l>
-                        </lg>
-                    </p>
-                    <p><emph rend="bold">U2a</emph>: <locus facs="5">folio 1recto</locus>, unfoliated = title; table of contents.
-                        <lg xml:lang="ta-Taml">
-               <l><locus xml:lang="en" facs="5">f[1]r, lm, 1</locus> சிவதருமோத்திரம்</l>
-               <l><locus xml:lang="en" facs="5">f[1]r, lm, 2</locus> உரைப்பாடம்</l>
-               <l><locus xml:lang="en" facs="5">f[1]r, lm, 3</locus> பனிரெண்டாவது</l>
-               <l><locus xml:lang="en" facs="5">f[1]r, lm, 4</locus> கோபுரவியல் ௨௱</l>
-               <l><locus xml:lang="en" facs="5">f[1]r, c1, 1</locus> முதலாவது பரமதருமாதியியல் ௫௰௨</l>
-               <l><locus xml:lang="en" facs="5">f[1]r, c1, 2</locus> ரெண்டாவது சிவஞானதானவியல் ௮௰௩</l>
-               <l><locus xml:lang="en" facs="5">f[1]r, c1, 3</locus> மூன்றாவது ஐவகயாகவியல் ௩௰௪</l>
-               <l><locus xml:lang="en" facs="5">f[1]r, c1, 4</locus> நான்காவது பலவிசிட்டகாரணவியல் ௬௰௧</l>
-               <l><locus xml:lang="en" facs="5">f[1]r, c1, 5</locus> அஞ்சாவது சிவதருமவியல் ௩௰௫</l>
-               <l><locus xml:lang="en" facs="5">f[1]r, c1, 6</locus> ஆறாவது பாவவியல் ௱௭</l>
-               <l><locus xml:lang="en" facs="5">f[1]r, c1, 7</locus> ஏழாவது நரகசுவற்கவியல் ௨௱௨௰௪</l>
-               <l><locus xml:lang="en" facs="5">f[1]r, c1, 8</locus> எட்டாவது செனனமரணவியல் ௱௧</l>
-               <l><locus xml:lang="en" facs="5">f[1]r, c1, 9</locus> ஒன்பதாவது சொவற்கநரக சேடவியல் ௪௰௯</l>
-               <l><locus xml:lang="en" facs="5">f[1]r, c1, 10</locus> பத்தாவது சிவஞானயோகவியல் ௱௩௰</l>
-               <l><locus xml:lang="en" facs="5">f[1]r, c1, 11</locus> பதினொன்றாவது பரிகாரவியல் ௱௪</l>
-               <l><locus xml:lang="en" facs="5" resp="#cLI">f[1]r, c2, 1-3</locus> பனிரெண்டாவது கோபுரவியல் உரைபாடம் ௨௱</l>
-               <l><locus xml:lang="en" facs="5" resp="#cLI">f[1]r, c2, 4-5</locus> ஆக யியல்பனிரெண்டுக்கு பாட்டு</l>
-                        </lg>
-                    </p>
-                    <p><emph rend="bold">U2c</emph>: <locus facs="9">folio 1recto</locus> = incipit, <term xml:lang="ta" rend="italic">mūlam</term>.
-                        <lg xml:lang="ta-Taml">
-                           <l><locus xml:lang="en" facs="9">f1r, lm, 1–2</locus> திருச்சிற்றம்பலம்</l>
-                           <l><locus xml:lang="en" facs="9">f1r, lm, 3–5</locus> சிவதருமொத்திரம் உரைபாடம்</l>
-                           <l><locus xml:lang="en" facs="9">f1r, lm, 6</locus> திருமாலு.</l>
-                           <l><locus xml:lang="en" facs="9">f1r, lm, 7–8</locus> முதலாவது பரமதருமாதியியல்</l>
-                        </lg>
-                    </p>
-                  </additions>
-                  <bindingDesc>
-                     <binding>
-                        <p>Original woodcovers. </p>
-                     </binding>
-                  </bindingDesc>
-               </physDesc>
-               <history>
-                  <origin>
-                     <origDate calendar="gregorian" when="1730" evidence="conjecture">Ca 1730 according to Vinson and Cabaton. The reason for this date is unknown.</origDate>
-                     <origPlace>South India, Tamilnadu.</origPlace>
-                  </origin>
-                  <acquisition>
-                     <p>Bequest of <persName ref="https://catalogue.bnf.fr/ark:/12148/cb143513141" key="Ariel, Edouard (1818-1854)">Edouard Ariel</persName>. Made first to Société Asiatique de Paris in 1855, later transfered to Bibliothèque Nationale (see Rosny 1869).</p>
-                     <p>Don <persName ref="https://catalogue.bnf.fr/ark:/12148/cb143513141" key="Ariel, Edouard (1818-1854)">Ariel</persName>.</p>
-                  </acquisition>
-               </history>
-               <additional>
-                  <listBibl>
-                     <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f21">p. 3</ref>.</bibl>
-                     <bibl>Rosny, Léon de (1869). La bibliothèque tamoule de M. Ariel, de Pondichéry. In: <title>Variétés orientales</title> (pp. 177‒224). Paris: Maisonneuve.</bibl>
-                     <bibl>Vinson, Julien (1867‒1868). <title>Catalogue des manuscrits tamouls</title>. Corrected proofreadings printed by the atelier oriental del’Imprimerie nationale. Access No. 4-IMPROR-77 (B). — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b105333021/f15">p. 14</ref>.</bibl>
-                  </listBibl>
-               </additional>
-            </msDesc>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <p>Abbreviations. c = column, f = folio, lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso. </p>
-         <p><emph rend="bold">Conventions.</emph> Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Conjectural (whether the text is not clearly legible or the character is ambigous, e.g. <emph rend="italic">kāl</emph> or length of <emph rend="italic">o</emph> and <emph rend="italic">e</emph>) readings between parentheses. Alternative readings between parentheses separated by slash. Lost or entirely illegible character: "?". Crossed-out character: "X". Conjectural restoration of lost or entirely illegible between square brackets. Unquoted text represented by (...). The = <emph rend="italic">piḷḷaiyārcuḻi</emph> is encoded as full stop ("."). Unfoliated folio number between square brackets, e.g. "f[1]r". Hyphen systematically used at the end of a line when the line-beginning is within a word or within a <emph rend="italic">cīr</emph>. Stanzas split by <emph rend="italic">cīr</emph>, as far as possible. <emph rend="italic">aṭi </emph>boundary marked by "‡".</p>
-      </encodingDesc>
-      <revisionDesc>
-         <change when="2020-07"> This catalogue entry has been redacted by Thillai Chidambaram RAJARETHINAM (EFEO, Pondicherry) and encoded by Emmanuel FRANCIS (CNRS, CEIAS UMR 8564, EHESS/CNRS) for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG). Version 1, July 2020. </change>
-         <change when="2020-11">Enlarged and revised by <persName xml:id="cLI">Charles LI</persName> upon conversion from EAD to TEI.</change>
-      </revisionDesc>
-   </teiHeader>
-   <facsimile>
-      <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525100710/manifest.json"/>
-   </facsimile>
-</TEI>
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title><title xml:lang="ta">Civatarumōttirakāviyam</title> (commentary)</title>
+				
+				
+			<editor><persName>Thillai Chidambaram RAJARETHINAM</persName><orgName>EFEO,						Pondicherry</orgName></editor><editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564,						EHESS/CNRS</orgName></editor></titleStmt>
+
+			<publicationStmt>
+				<publisher>TST Project</publisher>
+				<date>2021</date>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>
+							<orgName>Bibliothèque nationale de France. Département des
+								Manuscrits.</orgName>
+						</repository>
+						<idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1031459</idno>
+						<idno type="shelfmark">Indien 14</idno>
+						<idno type="alternate"><idno>Tamoul 14</idno></idno>
+					</msIdentifier>
+					<msContents class="#STM">
+						<summary>
+							<p>The text is complete in 12 chapters: chapter 2 <term xml:lang="ta-Taml">சிவஞானதானவியல்</term> (<locus facs="41">f17r</locus>), chapter 3 <term xml:lang="ta-Taml">மூன்றாவது
+									ஐவகையாகவியல்</term> (<locus facs="77">f35r</locus>), chapter 4
+									<term xml:lang="ta-Taml">பலவிசிட்ட காரணவியல்</term> (<locus facs="93">f43r</locus>), chapter 5 <term xml:lang="ta-Taml">அஞ்சாவது சிவதருமவியல்</term> (<locus facs="117">f55r</locus>),
+								chapter 6 <term xml:lang="ta-Taml">ஆறாவது பாவவியல்</term> (<locus facs="131">f62r</locus>), chapter 7 <term xml:lang="ta-Taml">எட்டாவது சுவற்கநரகவியல்</term> (<locus facs="169">f81r</locus>), chapter 8 <term xml:lang="ta-Taml">செனனமரணவியல்</term> (<locus facs="221">f107r</locus>), chapter
+								9 <term xml:lang="ta-Taml">சொவற்கநரகவியலுரௌ</term> (<locus facs="283">f138r</locus>), chapter 10 <term xml:lang="ta-Taml">பத்தாவது சிவஞானயோகவியலுரை</term> (<locus facs="305">f149r</locus>), chapter 11 <term xml:lang="ta-Taml">பதினொன்றாவது பரிகாரவியல்</term> (<locus facs="367">f180r</locus>), chapter 12 <term xml:lang="ta-Taml">கோபுரவியல்</term> (<locus facs="463">f228r</locus>). </p>
+						</summary>
+
+						
+						
+						
+					<msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T2" defective="false"><title xml:lang="ta">Civatarumōttirakāviyam: <term xml:lang="en">Table
+									of Contents</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U4" xml:id="T3" defective="false"><title xml:lang="ta">Civatarumōttirakāviyam: Mūlam &amp; Urai</title><textLang mainLang="tam"/></msItem></msContents>
+					<physDesc>
+						<objectDesc form="pothi">
+							<supportDesc material="palm-leaf">
+								<support><measure resp="#cLI" unit="stringhole" quantity="2"/></support>
+								<extent>
+									<measure unit="folio" quantity="286">1 + 1 + 1 + 283</measure>
+									<dimensions type="leaf" unit="mm">
+										<width quantity="450"/>
+										<height quantity="40"/>
+									</dimensions>
+									<dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
+								<collation>
+									<desc xml:id="U1">1 folio = <emph rend="bold">Title Page</emph>.
+										No foliation. Verso blank. Hand #1. With shelfmark:
+										b/35.</desc><desc xml:id="cover">the <emph rend="bold">front
+											cover</emph>.</desc><desc xml:id="U2">1 folio = <emph rend="bold"><term xml:lang="ta">Civatarumōttirakāviyam</term>: Table of
+											Contents</emph>. No foliation. Hand #2. </desc><desc xml:id="U3">1 folio = <emph rend="bold">guard leaf</emph>.
+										No foliation. Blank recto verso. </desc><desc xml:id="U4">283 folios = <emph rend="bold"><term xml:lang="ta">Civatarumōttirakāviyam: Mūlam &amp;
+											Urai</term></emph>. Tamil foliation 1‒283. Hand
+										#2.</desc><desc xml:id="cover">the <emph rend="bold">back
+											cover</emph>.</desc></collation>
+							</supportDesc>
+							<layoutDesc>
+								<layout columns="1" resp="#cLI" writtenLines="9 11"/>
+							</layoutDesc>
+						</objectDesc>
+						<handDesc>
+
+
+							
+							
+						<handNote synch="#U1" scope="minor" scribeRef="#ArielTitleScribe" script="tamil" scriptRef="#tamilPulliSporadic" medium="incised"/><handNote synch="#U2 U4" scope="minor" script="tamil" medium="incised"/></handDesc>
+						<additions>
+							<p/>
+						</additions>
+						<bindingDesc>
+							<binding>
+								<p>Original woodcovers. </p>
+							</binding>
+						</bindingDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate calendar="gregorian" when="1730" evidence="conjecture" notAfter="1867">No internal date. Dated to circa 1730 by Vinson (1867) and to 1730 by Cabaton (1912), on unstated grounds.</origDate>
+							<origPlace>South India, Tamilnadu.</origPlace>
+						</origin>
+						<acquisition>
+							<p>Received, August 1st, 1866, from the Société Asiatique. See BnF,
+								département des Manuscrits, inventaire 7 = <title>Dons: manuscrits
+									et imprimés documentaires, 1848-1895</title>, no. 1192.</p>
+							<p>Don <persName ref="https://catalogue.bnf.fr/ark:/12148/cb143513141" key="Ariel, Edouard (1818-1854)">Ariel</persName>.</p>
+						</acquisition>
+						<provenance><p>Owned by <persName ref="https://catalogue.bnf.fr/ark:/12148/cb143513141" key="Ariel, Edouard (1818-1854)">Edouard Ariel</persName>
+								(1818-1854). Bequested by Edouard Ariel to Société Asiatique (Rosny
+								1868, p. 177).</p></provenance>
+					</history>
+					<additional>
+						<listBibl>
+
+
+
+							
+							
+							
+						<bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits
+									indiens, indo-chinois &amp; malayo-polynésiens</title>.
+								Bibliothèque nationale. Département des manuscrits. Paris: E.
+								Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f21">p.
+									3</ref>.</bibl><bibl>Rosny, Léon de (1868). La bibliothèque tamoule de M. Ariel, de
+								Pondichéry. In: <title>Variétés orientales</title> (pp. 177‒224).
+								Paris: Maisonneuve.</bibl><bibl>Vinson, Julien (1867‒1868). <title>Catalogue des manuscrits
+									tamouls</title>. Corrected proofreadings printed by the atelier
+								oriental del’Imprimerie nationale. Access No. 4-IMPROR-77 (B). — See
+									<ref target="http://gallica.bnf.fr/ark:/12148/btv1b105333021/f15">p.
+									14</ref>.</bibl></listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+
+
+			
+		<p>TBC</p></encodingDesc>
+		<revisionDesc>
+
+
+			
+			
+			
+		<change when="2020-07"> This catalogue entry has been redacted by Thillai Chidambaram
+				RAJARETHINAM (EFEO, Pondicherry) and encoded by Emmanuel FRANCIS (CNRS, CEIAS UMR
+				8564, EHESS/CNRS) for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL
+				2018, ANR/DFG). Version 1, July 2020. </change><change when="2020-11">Enlarged and revised by <persName xml:id="cLI">Charles
+					LI</persName> upon conversion from EAD to TEI.</change><change when="2021-10">Updated to TST encoding conventions by Emmanuel FRANCIS.</change></revisionDesc>
+	</teiHeader>
+	<facsimile>
+		<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525100710/manifest.json"/>
+	</facsimile>
+	
+	
+	
+<text synch="#U1" corresp="#T1" xml:lang="ta">
+		<body>
+			<pb facs="1" n="[1]r"/>
+			<milestone n="1" unit="column"/>
+			<lb n="1-2"/><seg function="blessing">வெற்றிவேலுற்ற துணை</seg>
+			<milestone n="2" unit="column"/>
+			<lb n="1"/>இஃது <milestone n="3" unit="column"/>
+			<lb n="1-2"/><seg function="title">சிவதருமோத்திரம் உரைபாடம்</seg>
+		</body>
+	</text><text synch="#U3" corresp="#T2" xml:lang="ta">
+		<body>
+			<pb facs="5" n="[1]r"/>
+			<milestone unit="left-margin"/>
+			<lb n="1"/><seg function="title">சிவதருமோத்திரம் <lb n="2"/>உரைப்பாடம்</seg>
+			<lb n="3"/><seg function="TBC">பனிரெண்டாவது <lb n="4"/>கோபுரவியல் ௨௱</seg>
+			<milestone n="1" unit="column"/>
+			<lb n="1"/>முதலாவது பரமதருமாதியியல் ௫௰௨ <lb n="2"/>ரெண்டாவது சிவஞானதானவியல் ௮௰௩ <lb n="3"/>மூன்றாவது ஐவகயாகவியல் ௩௰௪ <lb n="4"/>நான்காவது பலவிசிட்டகாரணவியல் ௬௰௧ <lb n="5"/>அஞ்சாவது சிவதருமவியல் ௩௰௫ <lb n="6"/>ஆறாவது பாவவியல் ௱௭ <lb n="7"/>ஏழாவது
+			நரகசுவற்கவியல் ௨௱௨௰௪ <lb n="8"/>எட்டாவது செனனமரணவியல் ௱௧ <lb n="9"/>ஒன்பதாவது சொவற்கநரக
+			சேடவியல் ௪௰௯ <lb n="10"/>பத்தாவது சிவஞானயோகவியல் ௱௩௰ <lb n="11"/>பதினொன்றாவது
+			பரிகாரவியல் ௱௪ <milestone n="2" unit="column"/>
+			<lb n="1-3"/><seg function="total-chapters">பனிரெண்டாவது கோபுரவியல் உரைபாடம் ௨௱ <lb n="4-5"/>ஆக யியல்பனிரெண்டுக்கு பாட்டு</seg>
+		</body>
+
+
+
+
+	</text><text synch="#U4" corresp="#T3" xml:lang="ta"><body>
+  
+  <pb facs="9" n="[1]r"/>
+  <milestone unit="left-margin"/>
+  <lb n="1-2"/><seg function="blessing">திருச்சிற்றம்பலம்</seg>
+  <lb n="3-5"/><seg function="title">சிவதருமொத்திரம் உரைபாடம்</seg>
+  <lb n="6"/>திருமாலு <g ref="#pcl"/>
+  <lb n="7-8"/><seg function="intertitle">முதலாவது பரமதருமாதியியல்</seg> ~
+  
+  <milestone n="1" unit="column"/>
+  <lb n="1"/><seg function="incipit">திருவுங் கல்வியுங் சீருந் தழைக்கவுங் கருணை பூக்கவுந் தீமையைக்காய்க்கவும் பருவமாய் நமதுள்ளம் பழுக்கவும் பெருகுமாழ்த்து
+  <lb n="2" break="no"/>ப் பிள்ளையைப் பேணுவாம் – காப்பு – மலைக்குமகள் பெற்றமகனை <gap reason="ellipsis"/></seg>
+  
+  <pb facs="572" n="282v"/>
+  <lb n="7"/><gap reason="ellipsis"/> <seg function="completion-statement">பன்னிரெண்டாவது கோபுரவியன்
+  <lb n="8"/>முடிந்தது</seg> <seg function="total-stanzas">ஆகத் திருவிருத்தம் – ௲௨௱௨௰௮</seg> – முன்னங்கேட்க வகத்தியன்சண்முகன் பன்னீராயிரமாகப் பகர்ந்தனனனளவுத் தாமாயிரத்தெட்டு நூறெ
+  <lb n="9" break="no"/>ன்னவம் முனிகோயதிங்கியம் ? னான் – க – அந்த வாக்கினை நோக்கியருகருஞ் சிந்தவாது செயதேசிகன் ஞானசம்பந்தனு மமபரித் <gap reason="ellipsis"/>
+  
+  <pb facs="573" n="283r"/>
+  
+  <lb n="9"/><gap reason="ellipsis"/> – ௰ – இது சிவகமஸ்துதி – தில்லைவாநகரெல்லை யெனவினை யொல்லை யோ
+  
+  <pb facs="574" n="283v"/>
+  <lb n="1" break="no"/>ருவிடும் நல்லநலமுறும் – <seg function="intertitle">இது சிவக்‌ஷேத்திரஸ்தி <note xml:lang="en">i.e. <term xml:lang="ta"/>ஸ்துதி</note></seg> – <seg function="explicit">வேறு – வடவரைக்கயிலையும் பொதியமாமலையுமோகடுவிருட் கயிலையுங் கரைவிதக்கயிலை
+  <lb n="2"/> யும் படியினுட் பரமாகு தன் கயிலையும் பணிகுவமுடலினைக்கடிவமேயொளிர்சிவத்துறைவமே</seg> – <seg function="intertitle">இது கயிலாய ஸ்துதி</seg> ~ <seg function="total-stanzas">ஆக ௲௨௱௪௰</seg> – <seg function="blessing">திரு
+  <lb n="3" break="no"/>ச்சிற்றம்பலம்</seg>
+			<g ref="#pcl"/>
+		</body>
+	</text></TEI>
