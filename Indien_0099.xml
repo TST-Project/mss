@@ -35,7 +35,7 @@
                         <dimensions type="object" unit="mm"><width quantity="340"/><height quantity="30"/><depth quantity="30"/></dimensions><dimensions type="written" unit="mm"/></extent>
                         
                         <condition>Excellent state of preservation.</condition>
-                     <collation><desc xml:id="cover">the <emph rend="bold">front cover</emph>. BnF shelfmark sticker and BnF bequest sticker on front cover, recto. </desc><desc xml:id="U1">1 folio = front <emph rend="bold">Title Page</emph>. No foliation. Double folio. 340 x 30 mm. Verso balnk.</desc><desc xml:id="U2">14 folios = <emph rend="bold"><term xml:lang="ta">Caraḷipputtakam</term></emph>. No foliation. 340 x 30 mm.</desc><desc xml:id="U3">2 folio = back <emph rend="bold">guard leaf</emph>. Blank recto verso.</desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>.</desc></collation><support><measure unit="stringhole" quantity="1"/></support></supportDesc>
+                     <collation><desc xml:id="cover">the <emph rend="bold">front cover</emph>. BnF shelfmark sticker and BnF bequest sticker on front cover, recto. </desc><desc xml:id="U1">1 folio = front <emph rend="bold">Title Page</emph>. No foliation. Double folio. 340 x 30 mm. Verso balnk.</desc><desc xml:id="U2">14 folios = <emph rend="bold"><term xml:lang="ta">Caraḷipputtakam</term></emph>. No foliation. f[8]v, f[14]v blank. 340 x 30 mm.</desc><desc xml:id="U3">2 folio = back <emph rend="bold">guard leaf</emph>. Blank recto verso.</desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>.</desc></collation><support><measure unit="stringhole" quantity="1"/></support></supportDesc>
                      <layoutDesc>
                         
                      <layout>The layouy of the first six folios of U2 is in columns.</layout></layoutDesc>
@@ -43,7 +43,7 @@
                   <handDesc>
                      
                   <handNote synch="#U1" scope="minor" scribeRef="#EdouardAriel" script="tamil" medium="incised"/><handNote synch="#U2" scope="major" script="tamil" medium="incised"/></handDesc>
-                  <additions><desc synch="#cover" type="shelfmark" subtype="beginning cover">BnF shelfmark sticker: <quote>INDIEN 99</quote> (front cover, recto).</desc><desc synch="#cover" type="documenting-note" subtype="beginning cover">BnF bequest sticker <quote>DON N° <space type="vacat"/></quote> (front cover, recto).</desc><desc synch="#U1" type="shelfmark">Shelfmark in black ink: <quote>d/31</quote> (f[1]r).</desc><desc synch="#U2" type="intertitle"/><desc synch="#U2" type="completion-statement">In-text completion statements at the end of chapters.</desc></additions>
+                  <additions><desc synch="#cover" type="shelfmark" subtype="beginning cover">BnF shelfmark sticker: <quote>INDIEN 99</quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#cover" type="documenting-note" subtype="beginning cover">BnF bequest sticker <quote>DON N° <space type="vacat"/></quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#U1" type="shelfmark">Shelfmark in black ink: <quote>d/31</quote> (<locus facs="2">f[1]r</locus>).</desc><desc synch="#U2" type="intertitle"/><desc synch="#U2" type="completion-statement">In-text completion statements at the end of chapters.</desc></additions>
                   <bindingDesc>
                      <binding>
                         <p><material cert="medium">Pinewood</material> covers apparently fabricated in the BnF. 340 x 30 mm.</p>
@@ -83,7 +83,7 @@
    
 <facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10092696t/manifest.json"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   
-  <pb n="[1]r"/>
+  <pb facs="2" n="[1]r"/>
  
   <milestone n="1" unit="column"/>
   <lb n="1"/><seg function="blessing">veṟṟi-vē
@@ -93,13 +93,13 @@
   <lb n="1"/>Iḵtu
   
   <milestone n="3" unit="column"/>
-  <lb n="1"/><seg function="title">caralīputta
+  <lb n="1"/><seg function="title">caraḷiputta
   <lb n="2" break="no"/>kam</seg>
 
 </body>
    </text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
   
-  <pb n="[1]r"/>
+  <pb facs="3" n="[1]r"/>
   
   <milestone unit="left-margin"/>
   <lb n="1"/><seg function="title">Iṟāmacāmiyappa
@@ -114,54 +114,59 @@
   <milestone n="2" unit="column"/><gap reason="ellipsis"/>
   <milestone n="3" unit="column"/><gap reason="ellipsis"/>
   
-  <pb n="[1]v"/>
+  <pb facs="4" n="[1]v"/>
   
   <milestone n="3" unit="column"/>
   <lb n="4"/><gap reason="ellipsis"/> <seg function="completion-statement">caraḷi muṟṟum</seg>
     
-  <pb n="[2]r"/>
+  <pb facs="4" n="[2]r"/>
   <milestone unit="left-margin"/>
   <lb n="1-2"/><seg function="intertitle">Alaṅkāṟam</seg>
   
-   <pb n="[3]v"/>
+   <pb facs="6" n="[3]v"/>
   
   <milestone n="5" unit="column"/>
   <lb n="1"/><seg function="completion-statement">Alaṅkāramuṟuṟu
   <lb n="2"/>ṟu muṟuṟum <g ref="#pcl"/></seg>
   
-    <pb n="[4]r"/>
+    <pb facs="6" n="[4]r"/>
   <milestone unit="left-margin"/>
   <lb n="1-2"/><seg function="intertitle"><gap reason="ellipsis"/></seg>
   
-    <pb n="[7]r"/>
+    <pb facs="9" n="[7]r"/>
   <milestone unit="left-margin"/>
   <lb n="1-2"/><seg function="intertitle"><gap reason="ellipsis"/></seg>
   
-    <pb n="[8]r"/>
+    <pb facs="10" n="[8]r"/>
   <milestone unit="left-margin"/>
   <lb n="1-2"/><seg function="intertitle"><gap reason="ellipsis"/></seg>
   
-    <pb n="[9]r"/>
+  <pb facs="11" n="[8]v"/><note xml:lang="en">blank</note>
+  
+    <pb facs="11" n="[9]r"/>
   <milestone unit="left-margin"/>
   <lb n="1-2"/><seg function="intertitle"><gap reason="ellipsis"/></seg>
   
-    <pb n="[10]r"/>
+    <pb facs="12" n="[10]r"/>
   <milestone unit="left-margin"/>
   <lb n="1-2"/><seg function="intertitle">Āṟapi <g ref="#pcs"/></seg>
   
-    <pb n="[11]r"/>
+    <pb facs="13" n="[11]r"/>
   <milestone unit="left-margin"/>
   <lb n="1-2"/><seg function="intertitle">kaliyāṇi</seg>
   
-    <pb n="[12]r"/>
+    <pb facs="14" n="[12]r"/>
   <milestone unit="left-margin"/>
   <lb n="1-2"/><seg function="intertitle">payiravi</seg>
   
-    <pb n="[13]r"/>
+    <pb facs="15" n="[13]r"/>
   <milestone unit="left-margin"/>
   <lb n="1-2"/><seg function="intertitle">Aṉantapayiravi</seg>
   
-    <pb n="[14]r"/>
+    <pb facs="16" n="[14]r"/>
   <milestone unit="left-margin"/>
   <lb n="1-2"/><seg function="intertitle">cāvēri</seg>
+  
+    <pb facs="17" n="[14]v"/><note xml:lang="en">blank</note>
+
   </body></text></TEI>
