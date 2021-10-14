@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><term xml:lang="ta">Miruticantirikai</term></title>
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Indien 142</idno>
+                  <idno type="alternate"><idno>Tamoul 142</idno></idno>
+               </msIdentifier>
+               <msContents class="#STM">
+                  <summary><p>A translation in Tamil of the <title xml:lang="sa">Smṛticandrikā</title>.</p>
+</summary>
+                  
+               <msItem synch="#U1a" xml:id="T1" defective="false"><title xml:lang="fr">Title Page</title><textLang mainLang="fra"/></msItem><msItem synch="#U1b" xml:id="T2" defective="false"><title xml:lang="fr">Colophon</title><textLang mainLang="fra"/></msItem><msItem synch="#U1c" xml:id="T3" defective="false"><title xml:lang="ta"><term xml:lang="ta">Miruticantirikai</term></title><textLang mainLang="tam"/></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="paper">
+                        <extent>
+                           <measure unit="folio" quantity="290">[1] + 298 + [1] (u1 + U1 + u2).</measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           <width min="210" max="220"/><height min="335" max="340"/></dimensions>
+                           <note>The leaves are broader in their middle than at their edges. </note>
+                        <dimensions type="object" unit="mm"><width quantity="230"/><height quantity="345"/><depth quantity="34"/></dimensions><dimensions type="written" unit="mm"/></extent>
+                        
+                        <condition>Fairly good state of preservation, despite detached spine.</condition>
+                     <support><measure unit="stringhole"/></support><collation><desc xml:id="cover">the <emph rend="bold">front cover</emph>. Shelfmark on recto.</desc><desc xml:id="u1">1 folio = front <emph rend="bold">guard leaf</emph>. No foliation. Shelfmarks on recto. Verso blank.</desc><desc xml:id="U1">288 folios = <emph rend="bold"><title xml:lang="ta">Miruticantirikai</title></emph>. Arabic foliation 1-55<hi rend="superscript">1</hi>, 55<hi rend="superscript">2</hi>-286, [287-289].</desc><desc xml:id="U1a">1 folio = <emph rend="bold">Title Page</emph>. Arabic foliation 1. f1v blank. 210 x 335 mm.</desc><desc xml:id="U1b">1 folio = <emph rend="bold">Colophon</emph>. Arabic foliation 2. f2v blank. 210 x 335 mm.</desc><desc xml:id="U1c">286 folios = <emph rend="bold"><title xml:lang="ta">Miruticantirikai</title></emph>. Arabic foliation 3-55<hi rend="superscript">1</hi>, 55<hi rend="superscript">2</hi>-286, [287-289]. f287-f289 blank recto verso. Tamil foliation 1-285. 220 x 340 mm.</desc><desc xml:id="u2">1 folio = back <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso.</desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>.</desc></collation></supportDesc>
+                     <layoutDesc>
+                        
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     
+                  <handNote synch="#U1a" scope="minor" scribeRef="#EdouardAriel" script="latin" medium="ink black"/><handNote synch="#U1b" scope="minor" scribeRef="#EdouardAriel" script="latin" medium="ink black"/><handNote synch="#U1c" scope="major" script="tamil" medium="ink black"/></handDesc>
+                  <additions><desc synch="#cover" type="title" subtype="spine">Title printed on the spine: 
+<quote xml:lang="ta">
+  <lb n="1"/>tamiḻ
+<lb n="2"/>tarmacāttiram
+</quote></desc><desc synch="#cover" type="shelfmark" subtype="spine">BnF shelfmark sticker: <quote>INDIEN 142</quote></desc><desc synch="#cover" type="shelfmark" subtype="beginning cover">BnF shelfmark sticker: <quote>INDIEN 142</quote> (<locus facs="2">front cover, verso</locus>).</desc><desc synch="#u1" type="shelfmark">BnF shelfmark in black pencil: <quote>Tamoul N° 142</quote> (<locus facs="2">f[1]r</locus>).</desc><desc type="shelfmark">Shelfmark black ink:
+<quote>
+  <lb n="1"/>Cc/5
+</quote>(<locus facs="2">f[2]r</locus>).</desc></additions>
+                  <bindingDesc>
+                     <binding>
+                        
+                     <p>Leather (brown) covers. Title and shelfmark on the spine.
+</p></binding>
+                  </bindingDesc>
+               <decoDesc><decoNote synch="#cover" type="decorative" subtype="spine"/></decoDesc></physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian" notAfter="1855">No internal date.</origDate>
+                     <origPlace>Tamilnadu.</origPlace>
+                  </origin>
+                  <acquisition>
+                     
+                  <p>Received, August 1st, 1866, from the Société Asiatique. See BnF, département des Manuscrits, inventaire 7 = <title>Dons: manuscrits et imprimés documentaires, 1848-1895</title>, no. 1192.</p></acquisition>
+               <provenance><p>Owned by <persName ref="https://catalogue.bnf.fr/ark:/12148/cb143513141" key="Ariel, Edouard (1818-1854)">Edouard Ariel</persName> (1818-1854). Bequested by Edouard Ariel to Société Asiatique (Rosny 1868, p. 177).</p></provenance></history>
+               <additional>
+                  <listBibl>
+                     
+                     
+                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois et malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f44">p. 26</ref>.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         
+      <change when="2021-10">Record created by Emmanuel FRANCIS.</change></revisionDesc>
+   <encodingDesc><p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.    </p></encodingDesc></teiHeader>
+   
+<facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10092759w/manifest.json"/></facsimile><text synch="#U1a" corresp="#T1" xml:lang="fr"><body>
+  
+  <pb facs="3" n="1r"/>
+  <lb n="1"/><seg function="title">Traductions des lois
+<lb n="2"/>Malabares
+<lb n="3"/>du sanskrit en tamil.</seg>  
+  
+</body>
+   </text><text synch="#U1b" corresp="#T2" xml:lang="fr"><body>
+  
+  <pb facs="4" n="2r"/>
+  <lb n="1"/><seg function="colophon">copié par Jagannadan' sur le mss.
+<lb n="2"/>original appartenant au gouvernement
+<lb n="3"/>des Etablissements français dans l'Inde,
+<lb n="4"/>déposé au greffe du comité de jurisprudence indienne.
+<lb n="5"/>Ce mss. se compose de 16 cahiers de papier écolier,
+<lb n="6"/>les 11 premiers paginés de 1 à 864, les autres ont
+  <lb n="7"/>de 10 a  12 feuilles faisant ensemble 222 pages,
+  <lb n="8"/>ce qui porte le tout à 1086 pages
+  <lb n="9"/>EA <note xml:lang="en">Ariel initials signature</note>
+<lb n="10"/>Collationné par Jagannadan &amp; Appasâmi.
+  <lb n="11"/>EA <note xml:lang="en">Ariel initials signature</note></seg>
+    
+
+  
+</body>
+   </text><text synch="#U1c" corresp="#T3" xml:lang="ta"><body>
+  
+  <pb facs="5" n="3r"/>
+  <lb n="1"/><seg function="title">miruticantirikai</seg>
+<lb n="2"/><seg function="intertitle">kuṇātāṉam</seg>.
+<lb n="3"/><seg function="title">kaṭaṉ koṭukkum viti</seg>
+<lb n="4"/><gap reason="ellipsis"/>
+<lb n="5"/><seg function="incipit"><gap reason="ellipsis"/></seg>
+  
+   <pb facs="341" n="285v"/>
+  <lb n="1"/><seg function="intertitle">maṉuvu-taṟmacāsttirat=tilē
+<lb n="2"/>8vatu pirakaranat=tilē</seg>
+  
+   <pb facs="342" n="286v"/>
+  <lb n="21"/><seg function="explicit"><gap reason="ellipsis"/></seg>
+  <lb n="22"/><seg function="colophon"><note xml:lang="en">by Ariel</note> <term xml:lang="fr">Fin du 8<hi rend="superscript">e</hi> et dernier cahier de 21 pp. doubles indépendant
+<lb n="23"/>de la pagin<hi rend="superscript">n</hi> générale aux 11 premiers,
+<lb n="24"/>avec lesquels se complète le nombre 16.
+    <lb n="25"/>EA</term> <note xml:lang="en">Ariel initials signature</note></seg>
+
+
+</body>
+   </text></TEI>
