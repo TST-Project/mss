@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>French-Telugu-Tamil Dictionary (2 of 2)</title>
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Indien 226</idno>
+                  <idno type="alternate"><idno>Tamoul 226.2</idno></idno>
+               </msIdentifier>
+               <msContents class="#STM">
+                  <summary><p>Second part of a French-Telugu-Tamil dictionary. Incomplete: contains almost only the entries in French. Some rare Tamil glosses in black pencil or black ink. Several versos left blank. From f116v, more space between words. From f121v, only one word at the top of column.</p>
+<p>For the first part, see BnF Indien 225.</p></summary>
+                  
+               <msItem synch="#U1" xml:id="T1" defective="true"><title xml:lang="fr">Dictionary</title><textLang mainLang="fra" otherLangs="tam"/></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="paper">
+                        <extent>
+                           <measure unit="folio" quantity="184">[1] + 182 + [1] (u1 + U1 + u2).</measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           </dimensions>
+                           <note>The leaves are broader in their middle than at their edges. </note>
+                        <dimensions type="object" unit="mm"><width quantity="275"/><height quantity="415"/><depth quantity="40"/></dimensions><dimensions type="written" unit="mm"/></extent>
+                        
+                        <condition>Excellent state of preservation. </condition>
+                     <support><measure unit="stringhole"/></support><collation><desc xml:id="cover">the <emph rend="bold">front cover</emph>. Shelfmark on recto.</desc><desc xml:id="u1">1 folio = front <emph rend="bold">guard leaf</emph>. No foliation. Shelfmarks on recto. Binder note on recto. Verso blank. Element of library binding.</desc><desc xml:id="U1">182 folios = <emph rend="bold">Dictionary</emph>. Library Arabic foliation 1-182, in black ink and, from f111 onwards, red ink. Older parallel and discontinued foliation and pagination
+
+</desc><desc xml:id="u2">1 folio = back <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso. Element of library binding.</desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>.</desc></collation></supportDesc>
+                     <layoutDesc>
+                        
+                     <layout columns="2"/></layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     
+                  <handNote synch="#U1" scope="major" script="latin tamil" medium="ink black"/></handDesc>
+                  <additions><desc synch="#cover" type="title" subtype="spine"><quote>DICTIONNAIRE FRANÇAIS TAMOUL TELOUGOU I-V</quote></desc><desc synch="#cover" type="shelfmark" subtype="spine">BnF shelfmark in black pencil: <quote>Tam 226</quote>.</desc><desc synch="#cover" type="shelfmark" subtype="spine">BnF shelfmark sticker: <quote>INDIEN 226</quote>.</desc><desc synch="#cover" type="shelfmark" subtype="beginning cover">BnF shelfmark sticker: <quote>INDIEN 226</quote> (front cover, verso).</desc><desc synch="#u1" type="shelfmark">BnF shelfmark in black pencil: <quote>Tamoul N° 226<hi rend="superscript">2</hi></quote> (f[1]r).</desc><desc synch="#u1" corresp="#T1" type="shelfmark" subtype="left">BnF shelfmark in black ink: <quote>Tam. 226<hi rend="superscript">II</hi></quote> (f[1]r).</desc><desc synch="#u1" type="documenting-note">Binder's note in black ink: 
+<quote xml:lang="fr">
+<lb n="1"/>Volume de 182 feuillets.
+<lb n="2"/>21 juin 1869.
+</quote> (f[1]r).</desc><desc synch="#U1" type="heading"/></additions>
+                  <bindingDesc>
+                     <binding>
+                        <p>Brown covers. Title and shelfmark on the spine.</p>
+                     </binding>
+                  </bindingDesc>
+               <decoDesc/></physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian" notAfter="1855">No internal date. Dated to 1780 by Cabaton (1912), on unstated grounds.</origDate>
+                     <origPlace>Tamilnadu.</origPlace>
+                  </origin>
+                  <acquisition>
+                     
+                  <p>Received, August 1st, 1866, from the Société Asiatique. See BnF, département des Manuscrits, inventaire 7 = <title>Dons: manuscrits et imprimés documentaires, 1848-1895</title>, no. 1192.</p></acquisition>
+               <provenance><p>Owned by <persName ref="https://catalogue.bnf.fr/ark:/12148/cb143513141" key="Ariel, Edouard (1818-1854)">Edouard Ariel</persName> (1818-1854). Bequested by Edouard Ariel to Société Asiatique (Rosny 1868, p. 177).</p></provenance></history>
+               <additional>
+                  <listBibl>
+                     
+                     
+                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois et malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f54">p. 36</ref>.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         
+      <change when="2021-10">Record created by Emmanuel FRANCIS.</change></revisionDesc>
+   <encodingDesc><p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.    </p></encodingDesc></teiHeader>
+   
+<text synch="#U1" corresp="#T1" xml:lang="fr"><body>
+  
+  <pb n="1r"/>
+  <seg function="heading">Ill</seg>
+  <milestone n="1" unit="column"/>
+  <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/> illégitime.</seg>
+  <lb n="2"/>moyen illégitime.
+  <lb n="3"/>illégitimement.
+  
+  <pb n="182v"/>
+  <seg function="heading">Vril</seg>
+  <milestone n="1" unit="column"/>
+  <lb n="1"/><seg function="explicit">vrille.</seg>
+     
+</body>
+   </text></TEI>
