@@ -31,12 +31,12 @@
                            <dimensions type="leaf" unit="mm">
                               
                               
-                           </dimensions>
+                           <width quantity="230"/><height quantity="305"/></dimensions>
                            <note>The leaves are broader in their middle than at their edges. </note>
                         <dimensions type="object" unit="mm"><width quantity="245"/><height quantity="310"/><depth quantity="40"/></dimensions><dimensions type="written" unit="mm"/></extent>
                         
                         <condition>Excellent state of preservation. </condition>
-                     <support><measure unit="stringhole"/></support><collation><desc xml:id="cover">the <emph rend="bold">front cover</emph>. Shelfmark on recto.</desc><desc xml:id="u1">1 folio = front <emph rend="bold">guard leaf</emph>. No foliation. Shelfmark on recto. Verso blank.</desc><desc xml:id="U1">204 folios = <emph rend="bold">Tamil-French Dictionary</emph>. Arabic foliation 1-203, [204]. f204rv blank.
+                     <support><measure unit="stringhole"/></support><collation><desc xml:id="cover">the <emph rend="bold">front cover</emph>. Shelfmark on recto.</desc><desc xml:id="u1">1 folio = front <emph rend="bold">guard leaf</emph>. No foliation. Shelfmark on recto. Verso blank.</desc><desc xml:id="U1">204 folios = <emph rend="bold">Tamil-French Dictionary</emph>. Arabic foliation 1-203, [204]. f204 unfoliated and blank recto verso. 230 x 305 mm.
 </desc><desc xml:id="U1a">8 folios = <emph rend="bold">Title Page &amp; Front Matter</emph>. Arabic foliation 1-8.
 </desc><desc xml:id="U1b">193 folios = <emph rend="bold">Dictionary proper</emph>. Arabic foliation 9-201.</desc><desc xml:id="U1c">1 folio = <emph rend="bold">Appendix</emph>. Arabic foliation 202.</desc><desc xml:id="u2">1 folio = back <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso.</desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>.</desc></collation></supportDesc>
                      <layoutDesc>
@@ -45,7 +45,7 @@
                   </objectDesc>
                   <handDesc>
                      
-                  <handNote synch="#U1" scope="major" script="latin tamil" medium="ink black"/></handDesc>
+                  <handNote synch="#U1" scope="major" script="latin tamil" scriptRef="#tamilPulliRegular #tamilOE" medium="ink black"/></handDesc>
                   <additions><desc synch="#cover" type="title" subtype="spine">Title (gilding): 
 <quote>
 <lb n="1"/>C.J. BESCHI
@@ -85,39 +85,89 @@
 <facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b100915980/manifest.json"/></facsimile><text synch="#U1a" corresp="#T1" xml:lang="fr"><body>
   
   <pb facs="2" n="1r"/> 
-  <lb n="1"/>
-  
+  <lb n="1"/>Dictionnaire
+  <lb n="2"/>tamoul - françois
+  <lb n="3"/>pour expliquer le tamoul vulgaire,
+  <lb n="4"/>avec
+  <lb n="5"/>une préface où sont exposées plusieurs règles
+  <lb n="6"/>qu'il faut sçavoir avant de faire usage
+  <lb n="7"/>du dictionnaire;
+  <lb n="8"/>composé par
+  <lb n="9"/>Le R.P. P. Constãnt Joseph Beschi,
+  <lb n="10"/>de la compag de Jésus,
+  <lb n="11"/>missionnaire de l'Inde,
+ <lb n="12"/>l'an 1744.
+      
     <pb facs="3" n="1v"/> 
-  <lb n="1"/>
+  <lb n="1"/><term xml:lang="la">Ad majorem Dei gloriam,
+  <lb n="2"/>Virginis matris Mariae <gap reason="ellipsis"/>
+  <lb n="3"/>et
+  <lb n="4"/>Religionis chritiana catholic romana
+  <lb n="5"/>incrementum.</term>
+  <lb n="6"/>Amen
+  <lb n="7"/>Copié par <persName xml:lang="ta">mouttousâmi</persName> et <persName xml:lang="ta">Djaganaden</persName> sur un ex<hi rend="superscript">re</hi> mss.
+  <lb n="8"/>appartenant à m. montbrun fils, composé de 188 pages
+  <lb n="9"/>doubles (recto verso) petit in f°, titre compris, &amp; copié en 1806
+<lb n="10"/>dont la préface 
+<lb n="11"/>contenant 7 p. doubles. <space/>à 2 colonnes.
+  <lb n="12"/>Collationné par moi d’après trois autres manuscrits, le
+<lb n="13"/>1<hi rend="superscript">er</hi> <gap reason="ellipsis"/>
+  
+  <pb facs="3" n="2r"/> 
+  <lb n="15"/>EA
+  <lb n="16"/>1849
+  
+  <pb facs="4" n="2r"/> 
+  <lb n="1"/><seg function="intertitle">Avis au lecteur.</seg>
+  
+  <pb facs="9" n="7v"/> 
+  <lb n="1"/><seg function="intertitle">Explication des abbréviations.</seg>
+  <lb n="10"/><seg function="intertitle">Ordre 
+  <lb n="11"/>de l'alphabet tamoul suivi dans ce dictionnaire.</seg>
   
     <pb facs="9" n="8r"/> 
-  <lb n="1"/>
+  <lb n="1"/><seg function="intertitle">Caractères Samnscrutans.</seg>
   
       <pb facs="10" n="8v"/> 
-  <lb n="1"/>
+  {page-filler}
   
 </body>
    </text><text synch="#U1b" corresp="#T2" xml:lang="fr"><body>
   
   <pb facs="10" n="9r"/> 
   <milestone n="1" unit="column"/>
-  <lb n="1"/>
+  <lb n="1"/><seg function="incipit"><term xml:lang="ta">A</term>. Cette lettre signifie 1° huit en
+  <lb n="2"/>chiffre, 2° celuy la</seg>, <add>celle la</add> en ce sens
+  <lb n="3"/>il double la consonne initiale
+  <lb n="4"/>du mot devant lequel il est
+  <lb n="5"/>mis. si ce mot commence par
+  <lb n="6"/>une voyelle <gap reason="ellipsis"/>
   
   <pb facs="205" n="202v"/> 
   <milestone n="1" unit="column"/>
-  <lb n="1"/>
+  <lb n="1"/><seg function="explicit"><term xml:lang="ta">kṣōpam</term> langueur, pamoison.</seg>
+  <lb n="2"/><seg function="completion-statement">fin.
+  <lb n="3"/>Du Dictionnaire Tamoul
+  <lb n="4"/>où il y en a jusqu'à 9 mille
+  <lb n="5"/>mots tamouls expliqués en
+  <lb n="6"/>françois.</seg>
   
 </body>
    </text><text synch="#U1c" corresp="#T3" xml:lang="fr"><body>
   
   <pb facs="205" n="202r"/> 
   <milestone n="1" unit="column"/>
-  <lb n="1"/>
+  <lb n="1"/><seg function="intertitle">Liste.</seg>
+  <lb n="2"/>De quelques mots tamouls sujets à l'équivoque
+  <lb n="3"/>on a jugé à propos d'ajouter ici quelques
+  <lb n="4"/>mots qui diffèrent peu par l'écriture et
+  <lb n="5"/>le son, mais qui ont un sens très diffé=
+  <lb n="6" break="no"/>rent et souvente opposé. <gap reason="ellipsis"/>
   
     <pb facs="206" n="202v"/> 
   <milestone n="2" unit="column"/>
-  <lb n="13"/>
-  
-  
+  <lb n="12"/><term xml:lang="ta">pavaṉam</term> anus, le cu
+  <lb n="13"/><term xml:lang="ta">pāvaṉam</term> propreté.
+    
 </body>
    </text></TEI>
