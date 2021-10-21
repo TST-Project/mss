@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><term xml:lang="ta">Nikaṇṭu</term></title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Indien 236</idno>
+                  <idno type="alternate"><idno>Tamoul 236</idno></idno>
+               </msIdentifier>
+               <msContents class="#MTM">
+                  <summary><p>Two <foreign xml:lang="ta">nikaṇṭu</foreign>s, apparently the <title xml:lang="ta">Tivākaram</title> twice, apparently by the same hand: 
+<list rend="numbered">
+<item>chapters 1-10 (U3)</item>
+<item>chapters 7-12 (U4; stopping short)</item>
+</list></p>
+<p>By a Christian copyist (see U1).</p>
+</summary>
+                  
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Blessing</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U3a" xml:id="T2" defective="false"><title xml:lang="ta">Nikaṇṭu <term xml:lang="en">(1 of 2): Invocation?</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U3b" xml:id="T3" defective="true"><title xml:lang="ta">Nikaṇṭu <term xml:lang="en">(1 of 2) proper</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U4" xml:id="T4" defective="true"><title xml:lang="ta">Nikaṇṭu <term xml:lang="en">(2 of 2) proper</term></title><textLang mainLang="tam"/></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="pothi">
+                     <supportDesc material="palm-leaf">
+                        <extent>
+                           <measure unit="folio" quantity="186">[1] + [2] + 124 + 57 + [2] (U1 + U2 + U3 + U4 + U5)</measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           <width min="380" max="385"/><height min="25" max="30"/></dimensions>
+                           <note>The leaves are broader in their middle than at their edges. </note>
+                        <dimensions type="object" unit="mm"><width quantity="390"/><height quantity="30"/><depth quantity="105"/></dimensions><dimensions type="written" unit="mm"/></extent>
+                        
+                        <condition>Relatively good state of preservation.</condition>
+                     <support><measure unit="stringhole" quantity="2"/></support><collation><desc xml:id="cover">the <emph rend="bold">front cover</emph>. Shelfmark on recto.</desc><desc xml:id="U1">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Blessing unblackened on recto. Verso blank. 380 x 30 mm.</desc><desc xml:id="U2">2 folios = <emph rend="bold">guard leaves</emph>. No foliation. Blank recto verso. 385 x 30 mm. Right edges apparently truncated.
+</desc><desc xml:id="U3">124 folios = <emph rend="bold"><title xml:lang="ta">Nikaṇṭu</title> (1 of 2)</emph>. Tamil foliation [1] + 1-2, 4-124.
+</desc><desc xml:id="U3a">1 folio = <emph rend="bold"><title xml:lang="ta">Nikaṇṭu</title> (1 of 2): Invocation?</emph>. Tamil foliation [1]. f[1]v blank. 380 x 25 mm.</desc><desc xml:id="U3b">123 folios = <emph rend="bold"><title xml:lang="ta">Nikaṇṭu</title> proper (1 of 2)</emph>. Tamil foliation 1-2, 4-124. Incomplete: f3 missing. 385 x 30 mm.</desc><desc xml:id="U4">57 folios = <emph rend="bold"><title xml:lang="ta">Nikaṇṭu</title> proper (2 of 2)</emph>. Tamil foliation 1-57. f57v blank. 385 x 30 mm.</desc><desc xml:id="U5">2 folios = <emph rend="bold">guard leaves</emph>. No foliation. Blank recto verso. f2 truncated. 385 x 25 mm.</desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>.</desc></collation></supportDesc>
+                     <layoutDesc>
+                        
+                     <layout columns="3">Layout in columns for U4.</layout></layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     
+                  <handNote synch="#U1 U3 U4" scope="minor" script="tamil" medium="incised"/></handDesc>
+                  <additions><desc synch="#cover" type="shelfmark" subtype="beginning cover">BnF shelfmark sticker: <quote>INDIEN 236</quote> (front cover, recto).</desc><desc synch="#U1" corresp="#T1" type="shelfmark" subtype="right"><quote>N° 6</quote> in black ink (f[1]r).</desc></additions>
+                  <bindingDesc>
+                     <binding>
+                        <p><material cert="medium">Pinewood</material> covers apparently fabricated in the BnF. 390 x 25 mm.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian" notAfter="1912"/>
+                     <origPlace>Tamilnadu.</origPlace>
+                  </origin>
+                  <acquisition>
+                     
+                  <p>Unknown.</p></acquisition>
+               <provenance><p>Unknown.</p></provenance></history>
+               <additional>
+                  <listBibl>
+                     
+                     
+                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois et malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f55">p. 37</ref>.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         
+      <change when="2021-10">Record created by Emmanuel FRANCIS.</change></revisionDesc>
+   <encodingDesc><p><p>
+  <emph rend="bold">Transliteration conventions</emph>
+</p>
+<p>
+  Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only).
+</p>
+<p><emph rend="bold">Abbreviations</emph></p>
+<p> c = column, f = folio, lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.</p></p></encodingDesc></teiHeader>
+   
+<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+  
+  <pb n="[1]r"/><note xml:lang="en">unblackened</note>
+  
+  <milestone n="1" unit="column"/>
+  <lb n="1"/><seg function="blessing">cecu tōs·
+<lb n="2" break="no"/>tiram Irāka
+<lb n="3" break="no"/>m pu
+<lb n="4" break="no"/>pāḷa
+<lb n="5" break="no"/>m</seg>
+
+     
+  <milestone n="2" unit="column"/>
+  <lb n="1"/><unclear><gap reason="ellipsis"/></unclear>
+  
+</body>
+   </text><text synch="#U3a" corresp="#T2" xml:lang="ta"><body>
+  
+  <pb n="[1]r"/>
+  
+  <lb n="1"/><gap reason="ellipsis"/>
+  <lb n="2"/><gap reason="ellipsis"/>
+  <lb n="3"/><gap reason="ellipsis"/>
+  <lb n="4"/><gap reason="ellipsis"/>
+  
+   <pb n="[1]v"/><note xml:lang="en">blank</note>
+
+  
+</body>
+   </text><text synch="#U3b" corresp="#T3" xml:lang="ta"><body>
+  
+  <pb n="1r"/>
+  
+  <milestone unit="left margin"/>
+  <lb n="1"/><seg function="blessing"><seg rend="grantha">hari Om</seg></seg>
+<lb n="2"/><seg function="blessing">naṉṟāka</seg>
+<lb n="3"/><seg function="blessing">kuru vāḻka</seg>
+<lb n="4"/><seg function="intertitle">mutalāvatu
+<lb n="5" break="no"/>teyivappē
+<lb n="6"/>rt tokuti</seg>
+
+  <milestone unit="main text area"/>
+  <lb n="1"/><seg function="incipit">tavaḷat tāmarai tātār kōvil Avaḷaip pō<choice><orig>ttu</orig><reg>ṟṟu</reg></choice>m Aruntamiḻ kuṟittē</seg> <g ref="#pcs"/> Aintu kāttaṉai Āṉaimukattāṉai
+  <lb n="2"/><gap reason="ellipsis"/>
+  <lb n="3" break="no"/>ṉē <g ref="#pcs"/> poṉṉum <gap reason="ellipsis"/>
+  <lb n="4"/><gap reason="ellipsis"/>
+  <lb n="5"/><gap reason="ellipsis"/>
+<lb n="6"/><gap reason="ellipsis"/> taraiyil vantu <g ref="#pcs"/> 1 <g ref="#pcs"/>
+
+    
+  <pb n="3"/><note xml:lang="en">missing</note>
+
+  <pb n="17v"/>
+      <lb n="2"/><gap reason="ellipsis"/><g ref="#pcs"/> 100 1 <g ref="#pcs"/> <seg function="blessing"><seg rend="grantha">hari Om</seg></seg> <seg function="blessing">naṉṟāka</seg> <seg function="blessing">kuru vāḻka</seg> <seg function="blessing">kuruvē tuṇai</seg> <g ref="#pcs"/> <seg function="completion-statement">mutalāvatu teyivappeyar
+   <lb n="2" break="no"/>t tokuti mu<sic>ttu</sic>m</seg> <g ref="#pcs"/> <seg function="blessing">parācatti kiṟupai</seg> <g ref="#pcs"/> <seg function="blessing">Uṇṇāmalaiyaḷ tuṇai</seg> <g ref="#pcs"/> <seg function="blessing">civamaya<seg rend="grantha">=m</seg></seg> <g ref="#pcs"/> <seg function="blessing">tevīcakāya<seg rend="grantha">=m</seg></seg> <g ref="#pcl"/>
+  
+  
+  <pb n="124v"/>
+    
+  <lb n="1-2"/><gap reason="ellipsis"/>
+  <lb n="3"/>51 <g ref="#pcl"/> <seg function="completion-statement">pattavātu <sic>tolipattiya</sic>peyart tokuti muṟṟum</seg> <g ref="#pcl"/> <seg function="total-chapters total-stanzas">Ākat tokuti pattukku tiruviruttam
+<lb n="4"/>7 100 3 10 4</seg> <g ref="#pcl"/> <seg function="blessing">parācatti kiṟupai Uṇṭu</seg> <g ref="#pcs"/> <seg function="blessing">tēviccakāyam</seg> <g ref="#pcl"/> <seg function="blessing">caracupati Ammaṉ kiṟupai Uṇṭu</seg> <g ref="#pcl"/> <seg function="blessing">civamaya<seg rend="grantha">=m</seg></seg> <g ref="#pcl"/>
+ 
+</body></text><text synch="#U4" corresp="#T4" xml:lang="ta"><body>
+  
+  <pb n="1r"/>
+  
+  <milestone unit="left margin"/>
+  <lb n="1"/><seg function="intertitle">Eḻāvatu
+<lb n="2"/>ceyaṟk
+<lb n="3" break="no"/>kai vaṭi
+<lb n="4" break="no"/>vap peyar
+<lb n="5" break="no"/>t rokuti</seg>
+  
+  <milestone unit="main text area"/>
+  <lb n="1"/><gap reason="ellipsis"/>
+    
+  
+  <pb n="49r"/>
+  
+  <milestone unit="left margin"/>
+  <lb n="1"/><seg function="title">tivākaram</seg>
+  <lb n="2"/><seg function="intertitle">paṉireṉṟā
+  <lb n="3" break="no"/>vatu palpo
+  <lb n="4" break="no"/>ruṭ kūṭṭat
+  <lb n="5"/>tokuti</seg>
+
+      <pb n="57r"/>
+    
+    <milestone n="1" unit="column"/>
+<lb n="1-5"/><gap reason="ellipsis"/>
+<lb n="6"/><gap reason="ellipsis"/> nittal ~ mū<unclear>ṭa</unclear>maṟuttal <note xml:lang="en">stops short here</note>
+  
+  <pb n="57v"/><note xml:lang="en">blank</note>
+ 
+</body></text></TEI>
