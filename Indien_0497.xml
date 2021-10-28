@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ariel Papers: Tamil-French Dictionary (1 of 2)</title>
+            
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Indien 497</idno>
+                  <idno type="alternate"><idno>Tamoul 497</idno><idno>Indien 118</idno></idno>
+               </msIdentifier>
+               <msContents class="#STM">
+                  <summary>The first part of a Tamil-French dictionary by Édouard Ariel. See BnF Indien 498 for the second part.</summary>
+                  
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Tamil-French Dictionary</term></title><author xml:lang="ta"><persName xml:lang="fr">Édouard Ariel</persName></author><textLang mainLang="tam" otherLangs="fra"/></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="paper">
+                        <support>
+                           <measure unit="stringhole"/>
+                           
+                        </support>
+                        <extent>
+                           <measure unit="folio" quantity="269">[1] + 267 + [1] (u1 + U1 + u2).</measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           <width quantity="210"/><height quantity="315"/></dimensions>
+                        <dimensions type="object" unit="mm"><width quantity="230"/><height quantity="325"/><depth quantity="35"/></dimensions><dimensions type="written" unit="mm"/></extent>
+                        <collation><desc xml:id="cover">the <emph rend="bold">front cover</emph>. Selfmark on the verso.</desc><desc xml:id="u1">1 folio = <emph rend="bold">front guard leaf</emph>. No foliation. Verso blank. Element of library binding. Shelfmarks on the recto. 
+
+</desc><desc xml:id="U1">267 folios = <emph rend="bold">Tamil-French Dictionary</emph>. Library Arabic foliation 1-267. Verso regularly left blank.</desc><desc xml:id="u3">1 folio = <emph rend="bold">back guard leaf</emph>. No foliation. Blank recto verso. Element of library binding.</desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>. Recto blank.</desc></collation>
+                        
+                        
+                     <condition>Excellent state of preservation.</condition></supportDesc>
+                     <layoutDesc>
+                        
+                     <layout columns="1"/></layoutDesc>
+                  </objectDesc>
+                  <handDesc><handNote synch="#U1" scope="sole" scribeRef="#EdouardAriel" script="tamil" scriptRef="#tamilMacron" medium="ink black"/></handDesc>
+                  <decoDesc>
+                  </decoDesc>
+                  <additions>
+                  <desc synch="#cover" type="title" subtype="spine"><quote>
+<lb n="1"/>ARIEL
+  <lb n="2"/>DICTIONNAIRE
+  <lb n="3"/>TAMOUL.
+</quote>.</desc><desc synch="#cover" type="shelfmark" subtype="spine">BnF shelfmark sticker <quote>INDIEN 497</quote>.</desc><desc synch="#cover" type="shelfmark" subtype="beginning">BnF shelfmark sticker <quote>INDIEN 497</quote> (front cover, recto).</desc><desc synch="#u1" type="shelfmark">BnF Shelfmarks <quote>Tamoul N° 497</quote> in black pencil, <quote>Tamoul 497</quote> in black ink and <quote><del>Indien 118.</del></quote> in black ink (f[1]r).</desc><desc synch="#U1" type="stamp">BnF stamps <quote>BIBLIOTHÈQUE IMPÉRIALE MSS.</quote> and <quote>DON N°</quote> (U1, f1r).</desc></additions>
+                  <bindingDesc>
+                     <binding><p>Hard paper covers. Title on the spine.</p></binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian" notAfter="1854" notBefore="1844">No internal date.</origDate>                     
+                  <origPlace>Tamilnadu.</origPlace>
+                  </origin>
+                  
+                  <provenance>
+                     <p>Autograph work by <persName ref="https://catalogue.bnf.fr/ark:/12148/cb143513141" key="Ariel, Edouard (1818-1854)">Édouard  Ariel</persName> (1818-1854). Bequested by Edouard Ariel to Société Asiatique (Rosny 1868, p. 177).</p>
+                  </provenance>
+                  
+                  <acquisition>
+                     <p>Received, August 1st, 1866, from the Société Asiatique. See BnF, département des Manuscrits, inventaire 7 = <title>Dons: manuscrits et imprimés documentaires, 1848-1895</title>, no. 1192.</p>
+                  </acquisition>
+                  
+               </history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f89">p. 70, no. 497-498</ref>.</bibl><bibl>Rosny, Léon de (1868). “La bibliothèque tamoule de M. Ariel, de Pondichéry.” In: <title>Variétés orientales</title> (pp. 177‒224). Paris: Maisonneuve.</bibl><bibl>Vinson, Julien (1866-1867) &amp; Feer, Léon (n.d.) &amp; alii (s.n.). <title> Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f243">f. 114r, no. 497-498</ref>.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         
+      <p>TBA</p></encodingDesc>
+      <revisionDesc>
+         
+      <change when="2021-10">Record created by Emmanuel FRANCIS.</change></revisionDesc>
+   </teiHeader>
+   <facsimile>
+   </facsimile>
+<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+  
+  <pb n="1r"/>
+      <lb n="1"/><seg function="intertitle"><term xml:lang="fr">Dictionnaires tamils par ordre alphabétique.</term> <note xml:lang="en">i.e. list and abbreviations of the dictionaries used</note></seg>
+  <lb n="2"/><term xml:lang="fr">Rottler. R.</term>
+  <lb n="3"/><term xml:lang="fr">Fabricius. F.</term>
+    <lb n="4-ff."/><gap reason="ellipsis"/>
+  
+  <pb n="1v"/>
+      <lb n="1"/><seg function="intertitle"><term xml:lang="fr">Dictionnaires tamils dans autre ordre.</term> <note xml:lang="en">i.e. list and abbreviations of the dictionaries used</note></seg>
+      <lb n="2-9"/><gap reason="ellipsis"/>
+
+  <pb n="2r"/>
+      <lb n="1"/><seg function="intertitle"><term xml:lang="fr">Documents divers.</term> <note xml:lang="en">i.e. list and abbreviations of other works used</note></seg>
+        <lb n="2-15"/><gap reason="ellipsis"/>
+        <lb n="16-18"/><gap reason="ellipsis"/> <note xml:lang="en">on a small paper pasted on the page</note>
+  
+<pb n="2v"/><note xml:lang="en">beginning of the dictionary</note>
+      <lb n="1"/><seg function="incipit"><term xml:lang="fr">servante. domestique femelle. R.
+  <lb n="2"/>de</term> Akam &amp; Aṭiyaḷ.
+  <lb n="3"/>Akattaṭiyaḷ <term xml:lang="fr">maitresse de maison. R.</term></seg>
+    
+  <pb n="267r"/>
+      <lb n="27"/><seg function="explicit">cakacānantaparar <term xml:lang="fr">h<hi rend="superscript">me</hi> doué de la vraie béatitude. K.n. <unclear><gap quantity="2" unit="character" reason="ellipsis"/></unclear></term></seg>
+      
+</body></text></TEI>
