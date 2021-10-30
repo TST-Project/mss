@@ -30,7 +30,7 @@
 <item>Tamil</item>
 </list></summary>
                   
-               <msItem synch="#U1a" xml:id="T1" defective="false"><title><term xml:lang="en">Nāgarī Alphabet</term></title></msItem><msItem synch="#U1b" xml:id="T2" defective="false"><title xml:lang="sa"><term xml:lang="en">Grantha Alphabet</term></title><textLang mainLang="san"/></msItem><msItem synch="#U1c" xml:id="T3" defective="false"><title><term xml:lang="en">Telugu Alphabet</term></title></msItem><msItem synch="#U1d" xml:id="T4" defective="false"><title><term xml:lang="en">Singhalese Alphabet</term></title></msItem><msItem synch="#U1e" xml:id="T5" defective="false"><title xml:lang="ta"><term xml:lang="en">Tamil Alphabet</term></title><textLang mainLang="tam"/></msItem></msContents>
+               <msItem synch="#U1a" xml:id="T1" defective="false"><title xml:lang="sa"><term xml:lang="en">Nāgarī Alphabet</term></title><textLang mainLang="san"/></msItem><msItem synch="#U1b" xml:id="T2" defective="false"><title xml:lang="sa"><term xml:lang="en">Grantha Alphabet</term></title><textLang mainLang="san"/></msItem><msItem synch="#U1c" xml:id="T3" defective="false"><title xml:lang="tel"><term xml:lang="en">Telugu Alphabet</term></title><textLang mainLang="tel"/></msItem><msItem synch="#U1d" xml:id="T4" defective="false"><title xml:lang="sin"><term xml:lang="en">Singhalese Alphabet</term></title><textLang mainLang="sin"/></msItem><msItem synch="#U1e" xml:id="T5" defective="false"><title xml:lang="ta"><term xml:lang="en">Tamil Alphabet</term></title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="paper">
@@ -53,7 +53,7 @@
                         
                      </layoutDesc>
                   </objectDesc>
-                  <handDesc><handNote synch="#U1a" scope="minor" script="devanagari tamil" medium="ink black"/><handNote synch="#U1b" scope="minor" script="grantha" medium="ink black"/><handNote synch="#U1c" scope="minor" script="telugu tamil" medium="ink black"/><handNote synch="#U1d" scope="minor" medium="ink black"/><handNote synch="#U1e" scope="minor" script="tamil" medium="ink black"/></handDesc>
+                  <handDesc><handNote synch="#U1a" scope="minor" script="devanagari tamil" medium="ink black"/><handNote synch="#U1b" scope="minor" script="grantha" medium="ink black"/><handNote synch="#U1c" scope="minor" script="telugu tamil" medium="ink black"/><handNote synch="#U1d" scope="minor" script="sinhalese" medium="ink black"/><handNote synch="#U1e" scope="minor" script="tamil" medium="ink black"/></handDesc>
                   <decoDesc>
                   </decoDesc>
                   <additions>
@@ -91,7 +91,7 @@
    </teiHeader>
    <facsimile>
    </facsimile>
-<text synch="#U1a" corresp="#T1"><body>
+<text synch="#U1a" corresp="#T1" xml:lang="sa"><body>
   
   <pb facs="00" n="1r"/>
   
@@ -110,7 +110,7 @@
   
    <lb n="1"/><seg function="title"><term xml:lang="fr">Alphabet Sanskrit.</term></seg>
   
-  </body></text><text synch="#U1c" corresp="#T3"><body>
+  </body></text><text synch="#U1c" corresp="#T3" xml:lang="tel"><body>
     
   <pb facs="00" n="13r"/>
   <lb n="1"/><seg function="title"><term xml:lang="fr">Alphabet Télinga.</term></seg>
@@ -121,7 +121,7 @@
   <pb facs="00" n="17r"/>
   <lb n="1"/><seg function="title"><term xml:lang="fr">ALPHABET THELINGA.</term></seg>
   
-  </body></text><text synch="#U1d" corresp="#T4"><body>
+  </body></text><text synch="#U1d" corresp="#T4" xml:lang="sin"><body>
     
   <pb facs="00" n="19r"/>
   
