@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Grantha Syllabary</title>
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor><editor><persName>Margherita TRENTO</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Indien 563c</idno>
+                  <idno type="alternate"/>
+               </msIdentifier>
+               <msContents class="#STM">
+                  <summary><p>A Grantha syllabary by a Francophone.</p>
+<p>Dimensions after Vinson &amp; al. (1866-).</p>
+ 
+</summary>
+                  
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="sa">Grantha Syllabary</title><textLang mainLang="san"/></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="pothi">
+                     <supportDesc material="palm-leaf">
+                        <extent>
+                           <measure unit="folio" quantity="2">[2] (U1).</measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           </dimensions>
+                        <dimensions type="object" unit="mm"><width quantity="480"/><height quantity="240"/></dimensions><dimensions type="written" unit="mm"/></extent>
+                        
+                        <condition>Good state of preservation.</condition>
+                     <collation><desc xml:id="U1">2 folios = <emph rend="bold">Grantha Syllabary</emph>. The folios are folded in two and hinged in the codex. f1v and f2v blank.</desc></collation><support><measure unit="stringhole"/></support></supportDesc>
+                     <layoutDesc>
+                        
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     
+                  <handNote synch="#U1" scope="sole" script="tamil" medium="ink black ink black"/></handDesc>
+                  <additions><desc synch="#U1" type="shelfmark" subtype="top right">BnF shelfmark in black ink: <quote>Tam. 563 <hi rend="superscript">3</hi></quote> (<locus facs="19">top, right</locus>).</desc></additions>
+                  <bindingDesc>
+                     <binding>
+                        
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian">No internal date. </origDate>
+                     <origPlace>Tamil Nadu.</origPlace>
+                  </origin>
+                  <acquisition>
+                     
+                  </acquisition>
+               <provenance/></history>
+               <additional>
+                  <listBibl>
+                     
+                     
+                     
+                     
+                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f97">p. 78, no. 563</ref>.</bibl><bibl>Vinson, Julien (1866-1867) &amp; Feer, Léon (n.d.) &amp; alii (s.n.). <title> Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f267">f. 126r, no. 563</ref>.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         
+      <change when="2021-11">Record created by Emmanuel FRANCIS.</change></revisionDesc>
+   <encodingDesc><p><p>
+  <emph rend="bold">Transliteration conventions</emph>
+</p>
+<p>
+  Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only).</p>
+<p><emph rend="bold">Abbreviations</emph></p>
+<p>c = column, f = folio, lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.</p></p></encodingDesc></teiHeader>
+   
+<facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10462618k/manifest.json" facs="18"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="sa"><body>
+  <pb facs="18" n="1r"/>
+  
+  <lb n="1"/><seg function="title"><term xml:lang="fr">alphabet Samscroutam en usage dans le pays Tamoul</term></seg>
+
+  <pb facs="22" n="2r"/>
+  <lb n="13"/><term xml:lang="fr">ng <term xml:lang="sa">ng</term> Dans les mots angar. Sans faire Sentir la prononciation de g qui Suit la Consonne n.</term>
+
+  </body></text></TEI>
