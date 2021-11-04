@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><title xml:lang="ta">Caturakarāti</title></title>
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Indien 227</idno>
+                  <idno type="alternate"><idno>Tamoul 227</idno><idno>Ancien fonds 284</idno></idno>
+               </msIdentifier>
+               <msContents class="#STM">
+                  <summary><p>A very neat copy of the <title xml:lang="ta">Caturakarāti</title> by Beschi.</p>
+<p>An off-print of Sicé (1841) is pasted in between the front cover and u1.</p></summary>
+                  
+               <msItem synch="#U1a" xml:id="T1" defective="false"><title xml:lang="la"><title xml:lang="ta">Caturakarāti</title>: Title Page </title><textLang mainLang="lat"/></msItem><msItem synch="#U1b" xml:id="T2" defective="false"><title xml:lang="la"><title xml:lang="ta">Caturakarāti</title>: Preface</title><textLang mainLang="lat"/></msItem><msItem synch="#U1c" xml:id="T3" defective="false"><title xml:lang="ta"><title xml:lang="ta">Caturakarāti</title>: Dictionary proper </title><author xml:lang="ta">Beschi</author><textLang mainLang="tam"/></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="paper">
+                        <extent>
+                           <measure unit="page" quantity="366">[2] + [6] + 356 + [2] (u1 + u2 + U1 + u3).</measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           <width quantity="190"/><height quantity="275"/></dimensions>
+                           <note>The leaves are broader in their middle than at their edges. </note>
+                        <dimensions type="object" unit="mm"><width quantity="210"/><height quantity="285"/><depth quantity="35"/></dimensions><dimensions type="written" unit="mm"/></extent>
+                        
+                        <condition>Excellent state of preservation. </condition>
+                     <support><measure unit="stringhole"/></support><collation><desc xml:id="cover">the <emph rend="bold">front cover</emph>. Shelfmark on recto.</desc><desc xml:id="u1">2 pages = front <emph rend="bold">guard leaf</emph>. No pagination. Blank pages. Shelfmark on recto. Element of library binding.</desc><desc xml:id="u2">6 pages = front <emph rend="bold">guard leaves</emph>. No pagination. Blank pages. Title added on page 3.</desc><desc xml:id="U1">356 pages = <emph rend="bold"><title xml:lang="ta">Caturakarāti</title></emph>. Partial library Arabic pagination. 
+</desc><desc xml:id="U1a">2 pages = <emph rend="bold"><title xml:lang="ta">Caturakarāti</title>: Title Page</emph>. No pagination. p2 blank. </desc><desc xml:id="U1b">4 pages = <emph rend="bold"><title xml:lang="ta">Caturakarāti</title>: Preface </emph> (<foreign xml:lang="la">praefatio</foreign>). No pagination.  </desc><desc xml:id="U1c">350 pages = <emph rend="bold"><title xml:lang="ta">Caturakarāti</title>: Dictionary proper</emph>. Library Arabic pagination 1-350. </desc><desc xml:id="u3">2 pages = back <emph rend="bold">guard leaf</emph>. Library Arabic pagination 351-352. Blank pages. Element of library binding.</desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>. Library Arabic pagination 353 for recto.</desc></collation></supportDesc>
+                     <layoutDesc>
+                        
+                     <layout columns="1 2"/></layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     
+                  <handNote synch="#U1a U1b" scope="major" script="latin" medium="ink black"><desc>Hand #1.</desc></handNote><handNote synch="#U1c" scope="major" script="tamil" medium="ink black"><desc>Hand #1.</desc></handNote></handDesc>
+                  <additions><desc synch="#cover" type="title" subtype="spine"><quote>THES • LING TAMUL •</quote></desc><desc synch="#cover" type="shelfmark" subtype="spine bottom">BnF shelfmark sticker: <quote>INDIEN 227</quote>.</desc><desc synch="#cover" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 227</quote> (<locus facs="1">front cover, verso</locus>).</desc><desc synch="#u1" type="shelfmark">BnF shelfmark in black pencil: <quote>Tamoul N° 227</quote> (<locus facs="13">p1 = f[1]r</locus>).</desc><desc synch="#u2" type="shelfmark" subtype="left">Title added, in black pencil: <quote>Dictionnaire de la Langue scavante Malabare ou schem Tamoul <note xml:lang="en">i.e. <foreign xml:lang="ta">centamiḻ</foreign></note></quote> (<locus facs="14">p3 = f[2]r</locus>).</desc></additions>
+                  <bindingDesc>
+                     <binding>
+                        <p>Leather (red) covers. Cypher, title, and shelfmark on the spine. Decoration on front cover, recto and back cover, verso. BnF shelfmark sticker (<locus facs="1">front cover, verso</locus>). <locus facs="196">Back cover, recto</locus> paginated 353.
+</p>
+                     </binding>
+                  </bindingDesc>
+               <decoDesc><decoNote synch="#cover" type="royal-cypher" subtype="spine"/><decoNote synch="#cover" type="coat-of-arms" subtype="back front"/></decoDesc></physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian" notAfter="1739" notBefore="1732">Internally dated to 1732, but it is not clear if this the date of composition of the work or the date of the copy.</origDate>
+                     <origPlace>Tamilnadu.</origPlace>
+                  </origin>
+                  <acquisition>
+                     
+                  <p>Probably sent by the Jesuits of the Mission du Carnate in the 1730s for the library of the king of France, although not mentioned in the available ancient lists (BnF NAF 5442, f5 and f9).</p></acquisition>
+               <provenance/></history>
+               <additional>
+                  <listBibl>
+                     
+                     
+                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois et malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f54">p. 36</ref>.</bibl><bibl>S.n. (1739). <title>Catalogus codicum manuscriptorum Bibliothecae regiae. Tomus primus. Pars prima, complectens codices manuscriptos orientales.</title> Paris: Typographia Regia. — See no. CCLXXXIV, p. <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k140995x/f451">448</ref>.</bibl><bibl>Sicé, E. (1841). <title type="article">Mémoire sur la vie, les ouvrages et les travaux apostoliques du Père Constant Beschi de la Compagnie de Jésus</title>. <title>Annales de Philosphie chrétienne</title> 19, pp. 3-20.</bibl><bibl>Vinson, Julien (1866-1867) &amp; Feer, Léon (n.d.) &amp; alii (s.n.). <title> Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f123">f. 54, no. 227</ref>.
+</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         
+      <change when="2021-11">Record created by Emmanuel FRANCIS.</change></revisionDesc>
+   <encodingDesc><p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.    </p></encodingDesc></teiHeader>
+   
+<facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b100915963/manifest.json"/></facsimile><text synch="#U1a" corresp="#T1" xml:lang="la"><body>
+  
+  <pb facs="15" n="[1]"/>
+  <seg function="title">
+ 
+    <lb n="1"/>THESAURUS
+    <lb n="2"/>LINGUAE TAMULICAE
+    <lb n="3"/>AD PLENIOREM PLANIOREMQUE
+    <lb n="4"/>SCRIPTORUM TAMULENSIUM
+    <lb n="5"/>INTELLIGENTIAM,
+    <lb n="6"/>Collegit, ac qu<choice><sic>n</sic><corr>a</corr>tuor</choice> in partes digestit
+    <lb n="7"/>CONSTANTIUS JOSEPHUS
+    <lb n="8"/>BESCHIUS
+    <lb n="9"/>E' SOCIETATE JESU.
+    <lb n="10"/>in Regno Madurensi
+    <lb n="11"/>AD USUM
+    <lb n="12"/>ejusdem Societatis
+    <lb n="13"/>MISSIONARIORUM
+    <lb n="14"/>A.D.
+    <lb n="15"/>M.DCC.XXXII.
+  </seg>
+  
+     
+</body>
+   </text><text synch="#U1b" corresp="#T2" xml:lang="la"><body>
+  
+  <pb facs="16" n="[1]"/>
+  <seg function="title">
+    <lb n="1"/>Thesaurus
+    <lb n="2"/>Linguae Tamulicae
+    <lb n="3"/>Ad pleniorem planioremq{ue} 
+    <lb n="4"/>Scriptorum Tamulensium
+    <lb n="5"/>Intelligentiam.
+    <lb n="6"/> a.D.    
+    <lb n="7"/> M.D.CC.XXX.II.
+  </seg>
+  <seg function="intertitle">
+    <lb n="8"/>Praefatio.</seg>
+  
+  <lb n="9"/><seg function="incipit">Quamquam in omni sani disciplina primum</seg>
+  <lb n="10"/><gap reason="ellipsis"/>
+  
+     <pb facs="18" n="[4]"/>
+   <lb n="17"/><gap reason="ellipsis"/> <seg function="explicit">addere
+  <lb n="18"/>non designetur.</seg>
+</body>
+   </text><text synch="#U1c" corresp="#T3" xml:lang="ta"><body>
+  
+  <pb facs="18" n="1"/>
+  <lb n="1"/><seg function="title">caturakarāti</seg>
+    <lb n="2"/><seg function="intertitle">pāyiram</seg>
+    <lb n="1-13"/><gap reason="ellipsis"/>
+      <lb n="14"/><seg function="intertitle">peyarakarāti</seg>
+    <lb n="15-17"/><gap reason="ellipsis"/>
+  
+  <milestone n="1" unit="column"/>
+  <lb n="1"/><seg function="incipit">Akakkaḻ ~ Uḷvayiram.</seg>
+
+  <pb facs="91" n="145"/>
+  <lb n="1"/><seg function="intertitle">Iraṇṭāvatu
+  <lb n="2"/>poruḷakarāti</seg>
+  <lb n="3"/><seg function="metre">viruttam</seg>
+     
+  <pb facs="141" n="243"/>
+  <lb n="1"/><seg function="intertitle">mūṉṟāvatu
+  <lb n="2"/>tokaiyakarāti</seg>
+  <lb n="3"/><seg function="metre">viruttam</seg>
+  
+  <pb facs="151" n="263"/>
+  <lb n="1"/><term xml:lang="en">{Christian cross}</term>
+  <lb n="2"/><seg function="intertitle">nāṉkāvatu
+  <lb n="3"/>totaiyakarāti</seg>
+  <lb n="4"/><seg function="metre">viruttam</seg>
+  
+  <pb facs="194" n="347"/>
+  
+  <milestone unit="main-text-area"/>             
+  <lb n="1-27"/><gap reason="ellipsis"/>
+       
+  <milestone n="1" unit="column"/>
+    <lb n="28-33"/><gap reason="ellipsis"/>
+
+    <milestone n="2" unit="column"/>
+    <lb n="34-39"/><gap reason="ellipsis"/>
+  
+  <milestone unit="main-text-area"/>             
+  <lb n="40"/><gap reason="ellipsis"/>
+  <lb n="41"/><gap reason="ellipsis"/>
+  <lb n="42"/><gap reason="ellipsis"/>
+  <lb n="43"/><gap reason="ellipsis"/> muṭitta
+  <lb n="44"/>caturakarātiyē • <gap reason="ellipsis"/> <seg function="completion-statement">caturakarāti muṟṟum</seg> <g ref="#pcl"/>
+  
+</body>
+   </text></TEI>
