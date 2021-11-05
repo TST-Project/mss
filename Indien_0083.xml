@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Collection (2 items): <title xml:lang="ta">Kolai Maṟuttal</title> &amp; <title xml:lang="ta">Ñāṉavāciṭṭam</title></title>
+            
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Indien 83</idno>
+                  <idno type="alternate"><idno>Tamoul 83</idno></idno>
+               </msIdentifier>
+               <msContents class="#STM">
+                  <summary><p>A multi-text manuscript containing two Vedānta works:
+  <list rend="numbered">
+    <item>the <title xml:lang="ta">Kolai Maṟuttal</title>, by <persName role="author">Cāntaliṅka Tēcikar</persName>. See  Zvelebil (1995, p. 119).</item>
+    <item>the <title xml:lang="ta">Ñāṉavāciṭṭam</title> by <persName role="author">Aḷavantār Māṭavappaṭṭar</persName>. See  Zvelebil (1995, p. 26).</item>
+  </list>
+  </p>
+ </summary>
+                  
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta">Kolaimaṟuttal: Mūlam &amp; Urai</title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T3" defective="false"><title xml:lang="ta">Ñāṉavāciṭṭam: Mūlam</title><textLang mainLang="tam"/></msItem><msItem synch="#U4" xml:id="T4" defective="false"><title xml:lang="ta">Ñāṉavāciṭṭam: <term xml:lang="en">Table of Contents</term></title><textLang mainLang="tam"/></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="pothi">
+                     <supportDesc material="palm-leaf">
+                        <support>
+                           <measure unit="stringhole" quantity="2"/>
+                           
+                        </support>
+                        <extent>
+                           <measure unit="folio" quantity="294">[1] + 55 + 247 + [1] (U1 + U2 + U3 + U4).</measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           <width min="380" max="390"/><height min="35" max="40"/></dimensions>
+                        <dimensions type="object" unit="mm"><width quantity="390"/><height quantity="40"/><depth quantity="180"/></dimensions><dimensions type="written" unit="mm"/></extent>
+                        <collation><desc xml:id="U1">1 folio = <emph rend="bold">Title Page</emph>. No foliation. Truncated. 380 x 35 mm. 
+</desc><desc xml:id="cover">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U2">55 folios = <emph rend="bold"><title xml:lang="ta">Kolaimaṟuttal</title>: Text &amp; Commentary interspersed</emph>. Tamil foliation 1-55. 390 x 35 mm.
+</desc><desc xml:id="U3">247 folios = <emph rend="bold"><title xml:lang="ta">Ñāṉavāciṭṭam</title>: Text</emph>. Tamil foliation 1-247. 390 x 35 mm.
+</desc><desc xml:id="U4">1 folio = <emph rend="bold"><title xml:lang="ta">Ñāṉavāciṭṭam</title>: Table of Contents</emph>. No foliation. 385 x 40 mm.
+</desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>.</desc></collation>
+                        
+                        <condition>Fairly good state of preservation, despite many boreholes.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc><handNote synch="#U1" scope="minor" scribeRef="#ArielTitleScribe" script="tamil" medium="incised incised"><desc>Hand #1.</desc></handNote><handNote synch="#U2 U3" scope="major" script="tamil" medium="incised incised"><desc>Hand #2.</desc></handNote><handNote synch="#U4" scope="minor" script="tamil" medium="incised incised"/></handDesc>
+                  <decoDesc>
+                  </decoDesc>
+                  <additions>
+                  <desc synch="#U1" type="shelfmark">Shelfmark in black ink: <quote>c/17</quote> (<locus facs="1">f[1]r</locus>).</desc><desc synch="#U1" type="shelfmark">BnF shelfmark sticker: <quote>INDIEN 83</quote> (<locus facs="1">f[1]r</locus>).</desc></additions>
+                  <bindingDesc>
+                     <binding><p>Original <material>wood</material> covers. No shelfmark. Traces of <foreign xml:lang="sa">vibhūti</foreign> on the outside faces (<locus facs="2">front cover, recto</locus>; <locus facs="308">back cover; verso</locus>). 390 x 35 mm.</p></binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian" notAfter="1836">Internally dated to the year <foreign xml:lang="ta">maṉmatha</foreign> of the Jovian cycle, that is, CE 1835-1836, 1775-1776, 1715-1716, etc. See colophon (U3, f247r2). Dated to circa 1780 by Vinson (1867), on unstated grounds.</origDate>
+                     <origPlace>Tamilnadu.</origPlace>
+                  </origin>
+                  <provenance><p>Owned by <persName ref="https://catalogue.bnf.fr/ark:/12148/cb143513141" key="Ariel, Edouard (1818-1854)">Édouard Ariel</persName> (1818-1854). Bequested by Edouard Ariel to Société Asiatique (Rosny 1868, p. 177).</p></provenance>
+                  <acquisition><p>Received, August 1st, 1866, from the Société Asiatique. See BnF, département des Manuscrits, inventaire 7 = <title>Dons: manuscrits et imprimés documentaires, 1848-1895</title>, no. 1192.</p></acquisition>
+               </history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens. Bibliothèque nationale. Département des manuscrits.</title> Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f34">p. 16, no. 83</ref>.</bibl><bibl>Rosny, Léon de (1868). <title type="article">La bibliothèque tamoule de M. Ariel, de Pondichéry</title>. In: <title>Variétés orientales</title> (pp. 177‒224). Paris: Maisonneuve. </bibl><bibl>Vinson, Julien (1867). <title>Catalogue des manuscrits tamouls</title>. Corrected proofreadings printed by the atelier oriental de l’Imprimerie nationale. BnF “4-IMPROR-77 (B)” — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b105333021/f57">p. 24, no. 83</ref>.</bibl><bibl>Zvelebil, Kamil V. (1995). <title>Lexicon of Tamil Literature.</title> Leiden [etc.]: Brill.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         
+      <p>TBC.</p></encodingDesc>
+      <revisionDesc>
+         
+      <change when="2021-11">Record created by Emmanuel FRANCIS.</change></revisionDesc>
+   </teiHeader>
+   <facsimile>
+   <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b100916790/manifest.json"/></facsimile>
+<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+  
+  <pb facs="1" n="[1]r"/>
+  
+ <lb n="1"/><seg function="title">kolaimaṟuttal uraiyum</seg>
+<lb n="2"/><seg function="title">vāciṭṭamūlamum</seg>
+<lb n="3"/><seg function="title">Āka vētāntam 2</seg>
+
+    <pb facs="2" n="[1]v"/>
+
+<lb n="1"/><seg function="title">kolaimaṟuttaṉ mūlamum <note xml:lang="en">unblackened</note></seg>
+    
+</body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
+  
+  <pb facs="3" n="1r"/>
+  
+  <milestone unit="left-margin"/>
+ <lb n="1"/>
+  
+  <milestone unit="main-text-area"/>
+   <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
+             
+    <pb facs="57" n="55r"/>
+
+<lb n="3"/><seg function="explicit"><gap reason="ellipsis"/></seg>
+    <lb n="4"/>
+</body></text><text synch="#U3" corresp="#T3" xml:lang="ta"><body>
+  
+  <pb facs="58" n="1r"/>
+  
+  <milestone unit="left-margin"/>
+ <lb n="1"/>
+  
+  <milestone unit="main-text-area"/>
+   <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
+             
+    <pb facs="305" n="246v"/>
+
+<lb n="8"/><seg function="explicit"><gap reason="ellipsis"/> = 69 </seg> = <seg function="completion-statement">yōkanilai muṟṟum</seg> <g ref="#pcl"/>
+  
+  <pb facs="305" n="247r"/>
+<lb n="1"/>
+  
+  <pb facs="306" n="247v"/>
+<lb n="1"/><note xml:lang="en">blank</note>
+    
+</body></text><text synch="#U4" corresp="#T4" xml:lang="ta"><body>
+  
+  <pb facs="306" n="[1]r"/>
+  
+  <milestone unit="left-margin"/>
+  <lb n="1"/>
+  
+   <milestone n="1" unit="column"/>
+  <lb n="1"/>   
+  
+  <milestone n="2" unit="column"/>
+  <lb n="1"/>   
+  
+  <milestone n="3" unit="column"/>
+  <lb n="1"/>   
+  
+  <milestone n="4" unit="column"/>
+  <lb n="1"/>   
+  
+    <pb facs="307" n="[1]v"/>
+
+  <milestone n="1" unit="column"/>
+  <lb n="1"/>
+    
+</body></text></TEI>
