@@ -10,8 +10,8 @@ jobs:
           ref: ${{ github.head_ref }}
 
       - run: |
-          npm install fs
-          npm install jsdom
+          npm install -g fs
+          npm install -g jsdom
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add index.html
