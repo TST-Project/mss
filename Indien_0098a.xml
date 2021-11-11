@@ -20,7 +20,7 @@
                   <idno type="alternate"><idno>Tamoul 98a</idno></idno>
                </msIdentifier>
                <msContents class="#STM">
-                  <summary>The <title xml:lang="ta">Kaṭcippaṭalam</title>.
+                  <summary>The <title xml:lang="ta">Kaṭcippaṭalam</title>, in 125 stanzas. The folios are disordered in the BnF microfilm.
 </summary>
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Kaṭcippaṭalam</title><textLang mainLang="tam"/></msItem></msContents>
@@ -36,7 +36,7 @@
                         <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
                         
                         <condition>Excellent state of preservation.</condition>
-                     <collation><desc xml:id="U1">39 folios = <emph rend="bold"><title xml:lang="ta">Kaṭcippaṭalam</title></emph>. Tamil foliation [1]-39.</desc></collation><support><measure unit="stringhole" quantity="1"/></support></supportDesc>
+                     <collation><desc xml:id="U1">39 folios = <emph rend="bold"><title xml:lang="ta">Kaṭcippaṭalam</title></emph>. Tamil foliation [1]-39. f39v blank. 175 x 30 mm.</desc></collation><support><measure unit="stringhole" quantity="1"/></support></supportDesc>
                      <layoutDesc>
                         
                      </layoutDesc>
@@ -44,7 +44,8 @@
                   <handDesc>
                      
                   <handNote synch="#U1" scope="major" script="tamil" medium="incised"/></handDesc>
-                  <additions/>
+                  <additions><desc synch="#U1" type="intertitle" subtype="marginal left">Left marginal intertitles, on recto and verso: see f7r, f13r, f13v, f14r, f14v, f15r, f17v, f18r, f18v, f19r, f20r, f21v, f22v, f23r, f24r, etc.
+</desc></additions>
                   <bindingDesc>
                      <binding>
                         
@@ -66,7 +67,7 @@
                      
                      
                      
-                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f38">p. 36</ref>.</bibl><bibl>Vinson, Julien (1867). <title>Catalogue des manuscrits tamouls</title>. Corrected proofreadings printed by the atelier oriental de l’Imprimerie nationale. BnF “4-IMPROR-77 (B)” — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b105333021/f61">p. 26</ref>.</bibl></listBibl>
+                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f38">p. 36</ref>.</bibl><bibl>Rosny, Léon de (1868). <title type="article">La bibliothèque tamoule de M. Ariel, de Pondichéry</title>. In: <title>Variétés orientales</title> (pp. 177‒224). Paris: Maisonneuve. </bibl><bibl>Vinson, Julien (1867). <title>Catalogue des manuscrits tamouls</title>. Corrected proofreadings printed by the atelier oriental de l’Imprimerie nationale. BnF “4-IMPROR-77 (B)” — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b105333021/f61">p. 26</ref>.</bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
@@ -84,13 +85,27 @@
    
 <facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10092695c/manifest.json" facs="27"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   
-  <pb facs="83" n="[1]r"/>
+  <pb facs="27" n="[1]r"/>
  
   <milestone unit="left-margin"/>
-  <lb n="1"/>
+  <lb n="1"/><seg function="title">teṣṣaṇā
+<lb n="2" break="no"/>mūrtti y<pc>-</pc>a
+<lb n="3" break="no"/>ruḷiyac cey
+<lb n="4" break="no"/>ta kaṣṣippa
+<lb n="5" break="no"/>ṭalam</seg>
   
   <milestone unit="main-text-area"/>
-  <lb n="1"/>
+  <lb n="1"/><seg function="incipit">tirumakaḷ kayilai vāḻum <gap reason="ellipsis"/></seg>
+    
+  
+  <pb facs="41" n="39r"/>
+  <lb n="2"/><seg function="explicit"><gap reason="ellipsis"/> mu
+  <lb n="3" break="no"/>ṟē <g ref="#pcs"/> 100 2  5</seg> <g ref="#pcl"/> <seg function="blessing">caiccivappirakācatēcikar
+<lb n="4"/>tiru<hi rend="superscript">vaṭi</hi> vāḻka</seg> <g ref="#pcl"/>
+<lb n="5"/><seg function="blessing">kurupātamē tuṇai</seg> <g ref="#pcl"/>
+
+    <pb facs="42" n="39v"/>
+  <note xml:lang="en">blank</note>
  
 </body>
    </text></TEI>
