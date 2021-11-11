@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>TBC</title>
+            
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Indien 530g</idno>
+                  <idno type="alternate"><idno>Tamoul 530</idno></idno>
+               </msIdentifier>
+               <msContents class="#STM">
+                  <summary>TBC</summary>
+                  
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="ta">TBC</term></title><textLang mainLang="tam"/></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="pothi">
+                     <supportDesc material="palm-leaf">
+                        <support>
+                           <measure unit="stringhole" quantity="2"/>
+                           
+                        </support>
+                        <extent>
+                           <measure unit="folio" quantity="1">[1] (U1).</measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           <width quantity="325"/><height quantity="25"/></dimensions>
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
+                        <collation><desc xml:id="U1">1 folio = <emph rend="bold">TBC</emph>. Foliation, if any, lost. Double folio.</desc></collation>
+                        
+                        
+                     <foliation>Library Arabic foliation 8 in black pencil.</foliation><condition>Truncated (portion left of left hole lost).</condition></supportDesc>
+                     <layoutDesc>
+                        
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc><handNote synch="#U1" scope="sole" script="tamil" medium="incised"/></handDesc>
+                  <decoDesc>
+                  </decoDesc>
+                  <additions>
+                  </additions>
+                  <bindingDesc>
+                     <binding/>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian" notAfter="1912">No internal date.</origDate>
+                     
+                  <origPlace>Tamilnadu.</origPlace></origin>
+                  <provenance/>
+                  <acquisition><p>Unknown.</p></acquisition>
+               </history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens. Bibliothèque nationale. Département des manuscrits.</title> Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f93">p. 74, no. 530</ref>.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. (1866-). <title> Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f255">f. 120r, no. 530</ref>. </bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         
+      <p>TBC</p></encodingDesc>
+      <revisionDesc>
+         
+      <change when="2021-11">Record created by Emmanuel FRANCIS</change></revisionDesc>
+   </teiHeader>
+   <facsimile>
+   </facsimile>
+<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+  <pb n="[1]r"/><note xml:lang="en">library foliation 1; f[1]v possibly</note>
+    
+    <lb n="1"/><gap reason="lost"/> <gap reason="ellipsis"/> Aṉēkam piriyañ collac ceyum
+    <lb n="2"/><gap reason="lost"/> <gap reason="ellipsis"/> cuvāmi
+    <lb n="3"/><gap reason="lost"/> <gap reason="ellipsis"/> viṇṇappañ ceytu tammuṭaiya <gap reason="ellipsis"/> 
+    <lb n="4"/><gap reason="lost"/> <gap reason="ellipsis"/> 
+    <lb n="5"/><gap reason="lost"/> rācciyam paṇṇikkoṇṭirukiṟa pōtu civacamaiyamum <gap reason="ellipsis"/> 
+
+  
+  <pb n="[1]v"/>
+  
+    <lb n="1"/><gap reason="lost"/> paṇṇi koṇṭu ciṟitu nāḷ naṭantu varukiṟa pōtu coḻaṉi <gap reason="ellipsis"/> maṅkaiyaṟ kāci <term xml:lang="en">{line-filler}</term>
+    <lb n="2"/><gap reason="lost"/> yaṉ kaliyāṇam paṇṇiṉāṉ Anta maṅkaiyaṟ kāci <gap reason="ellipsis"/>
+    <lb n="3"/><gap reason="lost"/> <gap reason="ellipsis"/>
+    <lb n="4"/><gap reason="lost"/> <gap reason="ellipsis"/>
+    <lb n="5"/><gap reason="lost"/> <gap reason="ellipsis"/> <lb n="5"/>cīkāḻi
+  
+</body></text></TEI>
