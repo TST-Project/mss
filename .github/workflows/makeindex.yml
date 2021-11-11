@@ -15,9 +15,9 @@ jobs:
 
       - run: |
           npm install -g jsdom
-          node makeindex.js
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git add index.html
-          git commit -m "automatic index update"
-          git push
+#          node makeindex.js
+#          git config user.name github-actions
+#          git config user.email github-actions@github.com
+#          git add index.html
+#          git commit -m "automatic index update"
+#          git push
