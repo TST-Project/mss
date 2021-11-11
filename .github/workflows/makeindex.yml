@@ -14,7 +14,6 @@ jobs:
           node-version: '14'
 
       - run: |
-          npm install -g fs
           npm install -g jsdom
           node makeindex.js
           git config user.name github-actions
