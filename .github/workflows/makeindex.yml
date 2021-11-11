@@ -12,6 +12,7 @@ jobs:
       - run: |
           npm install -g fs
           npm install -g jsdom
+          nodejs makeindex.js
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add index.html
