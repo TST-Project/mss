@@ -9,6 +9,10 @@ jobs:
         with:
           ref: ${{ github.head_ref }}
 
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
       - run: |
           npm install -g fs
           npm install -g jsdom
