@@ -16,8 +16,9 @@ jobs:
       - run: |
           npm install jsdom
           node makeindex.js
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git add index.html
-          git commit -m "automatic index update"
-          git push
+
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with: 
+          commit_message: automatic index update
+          file_pattern: ./index.html
+          commit_user_name: TST Bot
