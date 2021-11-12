@@ -6,7 +6,7 @@ jobs:
 
     steps:
       - name: send dispatch
-      - uses: peter-evans/repository-dispatch@v1
+        uses: peter-evans/repository-dispatch@v1
         with:
           token: ${{ secrets.REP_ACCESS_TOKEN }}
           repository: tst-project/lib
