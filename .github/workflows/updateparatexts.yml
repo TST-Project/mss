@@ -8,6 +8,6 @@ jobs:
       - name: send dispatch
         uses: peter-evans/repository-dispatch@v1
         with:
-          token: ${{ secrets.REP_ACCESS_TOKEN }}
+          token: ${{ secrets.REPO_ACCESS_TOKEN }}
           repository: tst-project/lib
           event-type: trigger-update
