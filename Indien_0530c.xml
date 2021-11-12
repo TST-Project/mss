@@ -23,7 +23,7 @@
                <msContents class="#STM">
                   <summary>TBC</summary>
                   
-               <msItem defective="false"><title><term xml:lang="en">TBC</term></title></msItem></msContents>
+               <msItem synch="#U1" xml:id="T1" defective="false"><title><term xml:lang="en">TBC</term></title></msItem></msContents>
                <physDesc>
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
@@ -38,15 +38,15 @@
                               
                            <width quantity="1270"/><height quantity="40"/></dimensions>
                         <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
-                        <collation><desc xml:id="U1">1 folio = <emph rend="bold">TBC</emph>. No foliation.</desc></collation>
+                        <collation><desc xml:id="U1">1 folio = <emph rend="bold">TBC</emph>. No foliation. Single folio, folded several times.</desc></collation>
                         
                         
                      <foliation>Library Arabic foliation 6 in black pencil.</foliation><condition>Relatively good state of preservation. </condition></supportDesc>
                      <layoutDesc>
                         
-                     </layoutDesc>
+                     <layout>Columns.</layout></layoutDesc>
                   </objectDesc>
-                  <handDesc><handNote synch="#U1" scope="sole" script="sinhalese" medium="incised incised"/></handDesc>
+                  <handDesc><handNote synch="#U1" scope="sole" script="sinhalese" medium="incised"/></handDesc>
                   <decoDesc>
                   </decoDesc>
                   <additions>
@@ -57,7 +57,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian">No internal date.</origDate>
+                     <origDate calendar="gregorian" notAfter="1912">No internal date.</origDate>
                      
                   <origPlace>Tamilnadu.</origPlace></origin>
                   <provenance/>
@@ -80,7 +80,7 @@
    </teiHeader>
    <facsimile>
    </facsimile>
-<text><body>
+<text synch="#U1" corresp="#T1"><body>
   <pb n="[1]r"/><note xml:lang="en">library foliation 6</note>
     
     <milestone unit="left margin"/>
