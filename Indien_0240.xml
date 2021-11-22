@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><title xml:lang="ta">Tivākaram</title></title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Indien 240</idno>
+                  <idno type="alternate"><idno>Tamoul 240</idno></idno>
+               </msIdentifier>
+               <msContents class="#STM">
+                  <summary><p>An incomplete <title xml:lang="ta">Tivākaram</title>:  chapter 1 only, that is, the <intertitle xml:lang="ta">Teyvappeyarttokuti</intertitle> ("section on the names of gods").</p>
+<p>By a Christian copiyst (see Christian crosses, Christian blessing, and Christian invocation, that is, a Christianized version of the traditional invocation of the <title xml:lang="ta">Tivākaram</title>).</p></summary>
+                  
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Front Matter (title and invocation)</term></title><textLang mainLang="tam"/><filiation><p>BnF, Indien 242 (U1).</p></filiation></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta">Tivākaram: Teyvappeyarttokuti</title><textLang mainLang="tam"/><filiation><p>BnF, Indien 242 (U2).</p></filiation></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="pothi">
+                     <supportDesc material="palm-leaf">
+                        <extent>
+                           <measure unit="folio" quantity="27">[1] + 26 (U1 + U2).</measure>
+                           <dimensions type="leaf" unit="mm">
+                              <width quantity="410"/>
+                              <height quantity="25"/>
+                           </dimensions>
+                           <note>The leaves are broader in their middle than at their edges. </note>
+                        <dimensions type="object" unit="mm"><width quantity="410"/><height quantity="25"/><depth quantity="30"/></dimensions><dimensions type="written" unit="mm"/></extent>
+                        
+                        <condition>Very good state of preservation, despite some boreholes.</condition>
+                     <support><measure unit="stringhole" quantity="1"/></support><collation><desc xml:id="cover">the <emph rend="bold">front cover</emph>. Shelfmark on recto.</desc><desc xml:id="U1">1 folio = <emph rend="bold">Front Matter</emph> (title and invocation). No foliation. Shelfmark on recto.  Verso blank. 410 x 25 mm.</desc><desc xml:id="U2">26 folios = <emph rend="bold"> <title xml:lang="ta">Tivākaram</title>:  <intertitle xml:lang="ta">Teyvappeyarttokuti</intertitle></emph>. Tamil foliation [1]-26. 2-5 columns. No soot for f4-f25. f26r: light soot; foliation 27 corrected to 26. f26v more dark = original outside page. User Arabic foliation 27 added in black ink on f26v. 410 x 25 mm.
+
+
+</desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>.</desc></collation></supportDesc>
+                     <layoutDesc>
+                        
+                     <layout columns="2 5"><foreign xml:lang="ta">Aṭi</foreign>-wise distribution for the invocation (U1).</layout></layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     
+                  <handNote synch="#U1 U2" scope="major" script="tamil" scriptRef="#tamilOE" medium="incised"><desc>Double-curled <foreign xml:lang="ta">kompu</foreign> irregularly marked.</desc></handNote></handDesc>
+                  <additions><desc synch="#cover" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 240</quote>.</desc><desc synch="#U1" corresp="#T1" type="shelfmark" subtype="left">Shelfmark in black ink: <quote>N° 6 bis</quote>(f[1]r).</desc></additions>
+                  <bindingDesc>
+                     <binding>
+                        <p><material>Wood</material> covers apparently fabricated in the BnF.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian" notAfter="1866">No internal date.</origDate>
+                     <origPlace>Tamilnadu.</origPlace>
+                  </origin>
+                  <acquisition>
+                     
+                  <p>Unknown.</p></acquisition>
+               <provenance><p>Unknown.</p></provenance></history>
+               <additional>
+                  <listBibl>
+                     
+                     
+                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois et malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f56">p. 38, nos. 240-242</ref>.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. (1866-). <title> Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f127">f. 156r, no. <del>224</del>240</ref>. </bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         
+      <change when="2021-11">Record created by Emmanuel FRANCIS.</change></revisionDesc>
+   <encodingDesc><p>TBC</p></encodingDesc></teiHeader>
+   
+<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+  
+  <pb n="[1]r"/>
+   
+    <milestone n="1" unit="left margin"/>
+<lb n="1"/><term xml:lang="en">{Christian cross}</term>
+  
+  <milestone n="2" unit="left margin"/>
+   <seg function="blessing"><lb n="1-3"/>cēcu mariyē cūcē reṭciyam</seg>
+
+  <milestone n="2" unit="left margin"/>
+   <seg function="title intertitle"><lb n="1-3"/>tivākaramutalāvatu teyvappeyartokuti</seg>
+
+  <milestone unit="main-text-area"/>
+  <seg function="invocation"><seg function="incipit"><lb n="1"/>tantai cutaṉ ispirittu cāntu paṭati pōṟṟi ‡</seg>~
+<lb n="2"/>cintai viḷakkān tivākarattil ~ vanta ‡
+<lb n="3"/>tokuti<del><gap reason="illegible" quantity="1" unit="character"/></del>yoru paṇiraṇṭuñ cōṟāmaṉ ṉērē ‡
+<seg function="explicit"><lb n="4"/>pakutiyuṟa vāmaṉ <unclear><gap reason="illegible" quantity="1" unit="character"/>ṭi</unclear> pat<del>t</del>tu ‡‡</seg> <g ref="#pcs"/> <persName role="owner"> muttucāmi</persName> <seg function="title">tivākaram</seg></seg>
+  
+   <pb n="[1]v"/>
+  <note xml:lang="en">blank</note>
+  
+</body>
+   </text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
+  
+  <pb n="[1]r"/>
+  
+  <milestone n="1" unit="left margin"/>
+<lb n="1"/><term xml:lang="en">{Christian cross}</term>
+  
+  <milestone n="2" unit="left margin"/>
+  <lb n="1-4"/>tivākaramutalāva<supplied reason="omitted">tu</supplied> teyvap<choice><sic>pē</sic><corr>pe</corr></choice>yarttokuti
+
+     <milestone n="1" unit="column"/>
+  <seg function="incipit"><lb n="1"/>civaṉ pēyar ~
+<lb n="2"/>caṅkaraṉ iṟaiyōṉ
+<lb n="3"/>kāma takaṉaṉ ‡</seg>
+<lb n="4"/>caṅkara taraṉē
+  
+  <milestone n="2" unit="column"/>
+  <lb n="1-4"/><gap reason="ellipsis"/>  
+  
+  <milestone n="3" unit="column"/>
+  <lb n="1-4"/><gap reason="ellipsis"/>
+  
+      <milestone n="4" unit="column"/>
+  <lb n="1-4"/><gap reason="ellipsis"/>
+
+     <milestone n="5" unit="column"/>
+  <lb n="1-4"/><gap reason="ellipsis"/>
+  
+  <pb n="26r"/>
+  
+   <milestone n="2" unit="column"/>
+  <lb n="1"/><gap reason="ellipsis"/>
+  <lb n="2"/><gap reason="ellipsis"/>
+  <lb n="3"/><gap reason="ellipsis"/> <seg function="explicit">Aṟivu
+<lb n="4"/>kari yākat terintacoṟ ṟivākarattu ‡</seg> <seg function="completion-statement">mutalā
+<lb n="5" break="no"/>vatu teyvap peyart tokuti muṟṟum ‡</seg>
+    
+    <pb n="26v"/>
+  <note xml:lang="en">blank</note>
+  
+</body></text></TEI>
