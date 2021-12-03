@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>TBC</title>
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Sanscrit 1089d</idno>
+                  <idno type="alternate"><idno>Burnouf 2717</idno></idno>
+               </msIdentifier>
+               <msContents class="#STM">
+                  <summary>TBC.</summary>
+                  
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">caṭṭam</title><textLang mainLang="tam"/></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="roll">
+                     <supportDesc material="paper">
+                        <extent>
+                           <measure unit="folio" quantity="1">1 (U1)</measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           <width quantity="345"/><height quantity="435"/></dimensions>
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
+                        
+                        <condition>Very good state of preservation.</condition>
+                     <support><measure unit="stringhole"/></support><collation><desc xml:id="U1"><emph rend="bold"><term xml:lang="en">TBC</term></emph></desc></collation></supportDesc>
+                     <layoutDesc>
+                        
+                     <layout columns="4"/></layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     
+                  <handNote synch="#U1" scope="sole" script="tamil"/></handDesc>
+                  <additions/>
+                  <bindingDesc>
+                     <binding>
+                        
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian" notAfter="1849"/>
+                     <origPlace>South India, Tamilnadu.</origPlace>
+                  </origin>
+                  <acquisition>
+                     
+                  </acquisition>
+               <provenance><p>E. Burnouf.</p></provenance></history>
+               <additional>
+                  <listBibl>
+                     
+                     
+                     
+                     
+                     
+                  <bibl>S.n. (1854). <title>Catalogue des livres imprimés et manuscrits composant la bibliothèque de feu M. Eugène Burnouf</title>. Paris: B. Duprat. — See <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k5804580x/f327">p. 318, no. 2717</ref>.</bibl><bibl>Cabaton, A. (1907). <title>Catalogue sommaire des manuscrits sanscrits et pālis. 1er fascicule. Manuscrits sanscrits. Bibliothèque Nationale, Département des manuscrits.</title>. Paris: Leroux. — See <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k255695t/f192">p. 187, no. 1089 (2717)</ref>.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         
+      <change when="2021-12">Record created by Emmanuel FRANCIS.</change></revisionDesc>
+   <encodingDesc><p>TBC.</p></encodingDesc></teiHeader>
+   
+<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+  
+  <pb n="1r"/>
+  
+  <milestone n="1" unit="main-text-area"/>
+ <lb n="1"/>Intuppirāñcu talaṅkaḷ
+  <lb n="2"/>putuvaiyil 1000 849m {varuṣam} ḻāmviyēr {mācam} 10 5 {tēti}.
+   <lb n="3"/>
+    <lb n="4"/>caṭṭam.
+  
+  
+  
+   <lb n="-1"/>kuvarṉamāvaccukkūṭattiṟ patippikkappaṭṭatu. Itai moḻipeyarttataṟku Intirapirēttucu ~ <persName>nārāyaṇacāmi</persName>.
+  
+  </body></text></TEI>
