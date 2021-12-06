@@ -27,7 +27,7 @@
                   <objectDesc form="roll">
                      <supportDesc material="paper">
                         <extent>
-                           <measure unit="folio" quantity="1">1 (U1)</measure>
+                           <measure unit="folio" quantity="1">[1] (U1).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
@@ -44,11 +44,11 @@
                      
                   <handNote synch="#U1" scope="sole" script="tamil"/></handDesc>
                   <additions><desc synch="#U1" type="documenting-note">In black ink:
-<quote rend="block" xml:lang="fr">
+<quote xml:lang="fr">
   <lb n="1"/>Circulaire du
   <lb n="2"/>g<hi rend="superscript">l</hi> Cavaignac chef
   <lb n="3"/>du Pouvoir Exécutif
-</quote> (f[1]v)
+</quote> (<locus facs="13">f[1]v</locus>).
   </desc></additions>
                   <bindingDesc>
                      <binding>
@@ -82,9 +82,9 @@
       <change when="2021-12">Record created by Emmanuel FRANCIS.</change></revisionDesc>
    <encodingDesc><p>TBC.</p></encodingDesc></teiHeader>
    
-<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+<facsimile><graphic url="https://didomena.ehess.fr/concern/data_sets/w3763b49p/manifest.json" facs="5"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   
-  <pb n="1r"/>
+  <pb facs="5" n="[1]r"/>
   
   <milestone n="1" unit="main-text-area"/>
   <seg function="title"><lb n="1"/>Intuppirāñcustalaṅkaḷ.
@@ -107,5 +107,7 @@
   <lb n="2"/><persName>kaviñāk<note xml:lang="en">that is, Eugène Cavaignac</note>.</persName></seg>
   <seg function="TBC"><lb n="3"/>Itai moḻipeyarttataṟku ṣēptēcervīs Atmiṉistirāpīp tuṟaiyavarkaḷ Intirapirēttucu ~ <persName>nārāyaṇacāmi</persName>.</seg>
   <seg function="TBC"><lb n="4"/><placeName>putuvai</placeName>, kuvarṉmāvaccukkūṭam.</seg>
+  
+  <pb facs="13" n="[1]r"/>
   
   </body></text></TEI>

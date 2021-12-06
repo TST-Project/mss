@@ -27,7 +27,7 @@
                   <objectDesc form="roll">
                      <supportDesc material="paper">
                         <extent>
-                           <measure unit="folio" quantity="1">1 (U1)</measure>
+                           <measure unit="folio" quantity="1">[1] (U1).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
@@ -74,11 +74,11 @@
       <revisionDesc>
          
       <change when="2021-12">Record created by Emmanuel FRANCIS.</change></revisionDesc>
-   <encodingDesc><p>TBC.</p></encodingDesc></teiHeader>
+   <encodingDesc><p>TBC</p></encodingDesc></teiHeader>
    
-<text synch="#U1" corresp="#T1" xml:lang="fr"><body>
+<facsimile><graphic url="https://didomena.ehess.fr/concern/data_sets/w3763b49p/manifest.json" facs="14"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="fr"><body>
   
-  <pb n="1r"/>
+  <pb facs="14" n="[1]r"/>
   
  <seg function="title"><lb n="1"/>ÉTABLISSEMENTS FRANÇAIS DANS L'INDE.
  <lb n="2"/>RÉPUBLIQUE FRANÇAISE.
@@ -99,4 +99,8 @@
   <seg function="TBC"><lb n="-3"/>Par le gouverneur: <hi rend="italic">Le chef du service administratif par intérim</hi>.</seg>
   <seg function="TBC"><lb n="-2"/>Signé <persName>F. LE PELTIER</persName>.</seg>
   <seg function="TBC"><lb n="-1"/>Pondichéry. ~ Imprimerie du Gouvernment.</seg>
+  
+  <pb n="[1]v"/>
+  <note xml:lang="en">blank</note>
+  
   </body></text></TEI>

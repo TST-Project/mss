@@ -27,7 +27,7 @@
                   <objectDesc form="roll">
                      <supportDesc material="paper">
                         <extent>
-                           <measure unit="folio" quantity="1">1 (U1)</measure>
+                           <measure unit="folio" quantity="1">[1] (U1).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
@@ -35,7 +35,7 @@
                         <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
                         
                         <condition>Very good state of preservation.</condition>
-                     <support><measure unit="stringhole"/></support><collation><desc xml:id="U1"><emph rend="bold"><term xml:lang="en">proclamation (<foreign xml:lang="ta">viḷamparam</foreign>) </term></emph></desc></collation></supportDesc>
+                     <support><measure unit="stringhole" quantity="29"/></support><collation><desc xml:id="U1"><emph rend="bold"><term xml:lang="en">proclamation (<foreign xml:lang="ta">viḷamparam</foreign>) </term></emph></desc></collation></supportDesc>
                      <layoutDesc>
                         
                      </layoutDesc>
@@ -43,8 +43,7 @@
                   <handDesc>
                      
                   <handNote synch="#U1" scope="sole" script="tamil"/></handDesc>
-                  <additions><desc subtype="detached">French translation on a paper sheet, in black ink.</desc><desc synch="#U1" type="documenting-note">In black ink:
-<quote xml:lang="fr"><lb n="1"/>pour m. Burnouf</quote> (f[1]v).
+                  <additions><desc subtype="detached">French translation on a <locus facs="34">paper sheet</locus>, in black ink.</desc><desc synch="#U1" type="documenting-note">In black ink: <quote xml:lang="fr"><lb n="1"/>pour m. Burnouf</quote> (<locus facs="33">f[1]v</locus>).
   </desc></additions>
                   <bindingDesc>
                      <binding>
@@ -78,9 +77,9 @@
       <change when="2021-12">Record created by Emmanuel FRANCIS.</change></revisionDesc>
    <encodingDesc><p>TBC.</p></encodingDesc></teiHeader>
    
-<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+<facsimile><graphic url="https://didomena.ehess.fr/concern/data_sets/w3763b49p/manifest.json" facs="29"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   
-  <pb n="1r"/>
+  <pb fac="29" n="[1]r"/>
   
   <seg function="title"><lb n="1"/>Intuppirāñcu stalaṅkaḷ.
   <lb n="2"/>pirāñcukkuṭiyaracu.
@@ -98,5 +97,7 @@
   <seg function="TBC"><lb n="16"/>kaiyoppam <persName>Ēp lēpelttiyē<note xml:lang="en">that is, F. Lepeltier</note></persName>.</seg>
    <seg function="TBC"><lb n="17"/>Itai moḻipeyarttataṟku taṟkāla ṣēptēcervīs Atmiṉistiratīpa tuṟaiyavarkaḷ Intirapirēttucu ~ <persName>nārāyaṇacāmi</persName>.</seg>
     <seg function="TBC"><lb n="-18"/><placeName>putuvai</placeName>, kuvarṉmāvaccukkūṭam.</seg>
+  
+    <pb fac="33" n="[1]v"/>
   
   </body></text></TEI>
