@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Circulaire by Général Cavaignac</title>
+            <title>Circulaire (<foreign xml:lang="ta">kaṭitam</foreign>) by Général Cavaignac</title>
          <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
@@ -20,7 +20,7 @@
                   <idno type="alternate"><idno>Burnouf 2717</idno></idno>
                </msIdentifier>
                <msContents class="#STM">
-                  <summary>TBC.</summary>
+                  <summary>A circulaire (Tamil <foreign xml:lang="ta">kaṭitam</foreign>, French <foreign xml:lang="fr">circulaire</foreign>) by Général Cavaignac, translated into Tamil by Nārāyaṇacāmi. </summary>
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">kaṭitam</title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
@@ -35,7 +35,7 @@
                         <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
                         
                         <condition>Very good state of preservation.</condition>
-                     <support><measure unit="stringhole"/></support><collation><desc xml:id="U1"><emph rend="bold"><term xml:lang="en">Circulaire by Général Cavaignac</term></emph></desc></collation></supportDesc>
+                     <support><measure unit="stringhole"/></support><collation><desc xml:id="U1"><emph rend="bold"><term xml:lang="en">Circulaire (<foreign xml:lang="ta">kaṭitam</foreign>) by Général Cavaignac</term></emph></desc></collation></supportDesc>
                      <layoutDesc>
                         
                      <layout columns="4"/></layoutDesc>
@@ -58,8 +58,8 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian" notAfter="1849"/>
-                     <origPlace>South India, Tamilnadu.</origPlace>
+                     <origDate calendar="gregorian" notAfter="1849" notBefore="1848"/>
+                     <origPlace>South India, Pondicherry.</origPlace>
                   </origin>
                   <acquisition>
                      
@@ -87,12 +87,16 @@
   <pb n="1r"/>
   
   <milestone n="1" unit="main-text-area"/>
-  <seg function="title"><lb n="1"/>Intuppirāñcu talaṅkaḷ
+  <seg function="title"><lb n="1"/>Intuppirāñcustalaṅkaḷ.
   <lb n="2"/>civīl milittēr Eṉkiṟa Uttiyōkastāḷ yāvarkkum niṟaivēṟṟukiṟa Atikārattaiyuṭaiyavarākiya
   <lb n="3"/>Ālōcaṉaic caṅkattiṉ talaivar Eḻutiya kaṭitam.</seg>
   
   <milestone n="1" unit="column"/>
   <lb n="1"/><seg function="incipit">kuṭiyurimaiyuṭaiyavaṟē!</seg>
+  <lb n="2ff."/><gap reason="ellipsis"/>
+  
+  <milestone n="2" unit="column"/><gap reason="ellipsis"/>
+  <milestone n="3" unit="column"/><gap reason="ellipsis"/>
   
    <milestone n="4" unit="column"/>
   <seg function="explicit"><lb n="-2"/><gap reason="ellipsis"/> Anta mantirimārkaḷukkuk kaṇakku Oppppīr
@@ -100,8 +104,8 @@
   
   <milestone n="2" unit="main-text-area"/>
   <seg function="TBC"><lb n="1"/>niṟaiveṟṟukiṟa Atikārattaip poṟuppuk kaṭṭi yitukkiṟa mantirimārkaḷiṉ Ālōcaṉaic caṅkattiṉ talaivar ḻeṉērāl
-  <lb n="2"/><persName>kaviñāk.</persName></seg>
+  <lb n="2"/><persName>kaviñāk<note xml:lang="en">that is, Eugène Cavaignac</note>.</persName></seg>
   <seg function="TBC"><lb n="3"/>Itai moḻipeyarttataṟku ṣēptēcervīs Atmiṉistirāpīp tuṟaiyavarkaḷ Intirapirēttucu ~ <persName>nārāyaṇacāmi</persName>.</seg>
-  <seg function="TBC"><lb n="4"/>putuvai, kuvarṉamāvaccukkūṭam.</seg>
+  <seg function="TBC"><lb n="4"/><placeName>putuvai</placeName>, kuvarṉmāvaccukkūṭam.</seg>
   
   </body></text></TEI>

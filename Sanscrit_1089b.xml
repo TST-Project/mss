@@ -20,7 +20,7 @@
                   <idno type="alternate"><idno>Burnouf 2717</idno></idno>
                </msIdentifier>
                <msContents class="#STM">
-                  <summary>TBC.</summary>
+                  <summary><title xml:lang="fr">Arreté relatif à la promulgation de la constitution</title> française de 1848.</summary>
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="fr"><title xml:lang="fr">Arreté relatif à la promulgation de la constitution</title></title><textLang mainLang="fra"/></msItem></msContents>
                <physDesc>
@@ -42,7 +42,7 @@
                   </objectDesc>
                   <handDesc>
                      
-                  <handNote synch="#U1" scope="sole" script="latin tamil"/></handDesc>
+                  <handNote synch="#U1" scope="sole" script="latin"/></handDesc>
                   <additions/>
                   <bindingDesc>
                      <binding>
@@ -52,8 +52,8 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian" notAfter="1849"/>
-                     <origPlace>South India, Tamilnadu.</origPlace>
+                     <origDate calendar="gregorian" notBefore="1848" when="1849"/>
+                     <origPlace>South India, Pondicherry.</origPlace>
                   </origin>
                   <acquisition>
                      
@@ -80,18 +80,23 @@
   
   <pb n="1r"/>
   
- <lb n="1"/>ÉTABLISSEMENTS FRANÇAIS DANS L'INDE.
+ <seg function="title"><lb n="1"/>ÉTABLISSEMENTS FRANÇAIS DANS L'INDE.
  <lb n="2"/>RÉPUBLIQUE FRANÇAISE.
   <lb n="3"/>LIBERTÉ, ÉGALITÉ, FRATERNITÉ.
   <lb n="4"/>ARRÊTÉ
   <lb n="5"/>RELATIF
   <lb n="6"/>A LA PROMULGATION
   <lb n="7"/>DE LA
-  <lb n="8"/>CONSTITUTION.
-  <lb n="9ff."/><gap reason="ellipsis"/>
-  <lb n="-5"/>Donné au gouvernement, à Pondichéry, le 15 janvier 1849.
-  <lb n="-4"/><hi rend="italic">Signé</hi> <persName>H. DE LALANDE DE CALAN</persName>.
-  <lb n="-3"/>Par le gouverneur: <hi rend="italic">Le chef du service administratif par intérim</hi>.
-  <lb n="-2"/>Signé <persName>F. LE PELTIER</persName>.
-  <lb n="-1"/>Poncichéry. ~ Imprimerie du Gouvernment.
+  <lb n="8"/>CONSTITUTION.</seg>
+  <seg function="incipit"><lb n="9"/>AU NOM DU PEUPLE FRANÇAIS,
+   <lb n="10"/>Nous, Capitaine de frégate, Chevalier de la Légion d'honneur, Gouverneur des
+    <lb n="11"/>Établissements français dans l'Inde,</seg>
+  <lb n="12ff."/><gap reason="ellipsis"/>
+  <seg function="explicit"><lb n="-7"/><gap reason="ellipsis"/> du présent arrêté, qui sera enregistré,
+  <lb n="-6"/>traduit et publié partout où besoin sera.</seg>
+  <seg function="TBC"><lb n="-5"/>Donné au gouvernement, à Pondichéry, le 15 janvier 1849.</seg>
+  <seg function="TBC"><lb n="-4"/><hi rend="italic">Signé</hi> <persName>H. DE LALANDE DE CALAN</persName>.</seg>
+  <seg function="TBC"><lb n="-3"/>Par le gouverneur: <hi rend="italic">Le chef du service administratif par intérim</hi>.</seg>
+  <seg function="TBC"><lb n="-2"/>Signé <persName>F. LE PELTIER</persName>.</seg>
+  <seg function="TBC"><lb n="-1"/>Pondichéry. ~ Imprimerie du Gouvernment.</seg>
   </body></text></TEI>

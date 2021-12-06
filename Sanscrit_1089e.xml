@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>TBC</title>
+            <title>Proclamation (<foreign xml:lang="ta">viḷamparam</foreign>) of the Governor Lalande de Calan</title>
          <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
@@ -20,7 +20,7 @@
                   <idno type="alternate"><idno>Burnouf 2717</idno></idno>
                </msIdentifier>
                <msContents class="#STM">
-                  <summary>TBC.</summary>
+                  <summary>A proclamation (<foreign xml:lang="ta">viḷamparam</foreign>) of the Governor Lalande de Calan, translated into Tamil by <persName>Nārāyaṇacāmi</persName>.</summary>
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">viḷamparam</title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
@@ -35,7 +35,7 @@
                         <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
                         
                         <condition>Very good state of preservation.</condition>
-                     <support><measure unit="stringhole"/></support><collation><desc xml:id="U1"><emph rend="bold"><term xml:lang="en">TBC</term></emph></desc></collation></supportDesc>
+                     <support><measure unit="stringhole"/></support><collation><desc xml:id="U1"><emph rend="bold"><term xml:lang="en">proclamation (<foreign xml:lang="ta">viḷamparam</foreign>) </term></emph></desc></collation></supportDesc>
                      <layoutDesc>
                         
                      </layoutDesc>
@@ -43,7 +43,7 @@
                   <handDesc>
                      
                   <handNote synch="#U1" scope="sole" script="tamil"/></handDesc>
-                  <additions><desc synch="#U1" type="documenting-note">In black ink:
+                  <additions><desc subtype="detached">French translation on a paper sheet, in black ink.</desc><desc synch="#U1" type="documenting-note">In black ink:
 <quote xml:lang="fr"><lb n="1"/>pour m. Burnouf</quote> (f[1]v).
   </desc></additions>
                   <bindingDesc>
@@ -54,8 +54,8 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian" notAfter="1849"/>
-                     <origPlace>South India, Tamilnadu.</origPlace>
+                     <origDate calendar="gregorian" when="1849"/>
+                     <origPlace>South India, Pondicherry.</origPlace>
                   </origin>
                   <acquisition>
                      
@@ -82,15 +82,21 @@
   
   <pb n="1r"/>
   
-  <lb n="1"/>Intuppirāñcu stalaṅkaḷ.
+  <seg function="title"><lb n="1"/>Intuppirāñcu stalaṅkaḷ.
   <lb n="2"/>pirāñcukkuṭiyaracu.
   <lb n="3"/>cutantaram ~ camattuvam ~ cakōtarattuvam.<note xml:lang="en">that is, <term xml:lang="fr">Liberté, Égalité, Fraternité</term></note>
-  <lb n="4"/>viḷamparam
+  <lb n="4"/>viḷamparam</seg>
 
      <lb n="5"/><seg function="incipit">putuvaikkuṭikalē !</seg>
-  <lb n="6ff."/><gap reason="ellipsis"/>
+  <lb n="6-11"/><gap reason="ellipsis"/>
      
-    <lb n="-2"/>Itai moḻipeyarttataṟkut taṟkālaṣēptēcervīs Atmiṉistirātīp tuṟaiyavarkaḷ Intirapirēttucu ~ <persName>nārāyaṇacāmi</persName>.
-  <lb n="-1"/>putuvai, kuvarṉamāvaccukkūṭam.
+  <lb n="12"/>kuṭiyaracu vāḻka!<note xml:lang="en">that is, <term xml:lang="fr">Vive la République!</term></note>
+  
+  <seg function="colophon"><lb n="13"/><placeName>putuvaiyil</placeName> kuvarṉmāvil 1000 8 100 4 10 9m <choice><sic>{Āka}</sic><corr>{varuṣam}</corr></choice> pevuriyēr {mācam}21 {tēti} Eḻutappaṭṭatu.</seg>
+  <seg function="TBC"><lb n="14"/>kaiyoppam <persName>te lalān te kalān<note xml:lang="en">that is, Hyacinthe Marie de Lalande de Calan</note></persName>.</seg>
+  <seg function="TBC"><lb n="15"/>kuvarṉēr uttiravu paṭikku taṟkāla ṣēptēcervīs Atmiṉistiratīpa tuṟaiyavarkaḷ</seg>
+  <seg function="TBC"><lb n="16"/>kaiyoppam <persName>Ēp lēpelttiyē<note xml:lang="en">that is, F. Lepeltier</note></persName>.</seg>
+   <seg function="TBC"><lb n="17"/>Itai moḻipeyarttataṟku taṟkāla ṣēptēcervīs Atmiṉistiratīpa tuṟaiyavarkaḷ Intirapirēttucu ~ <persName>nārāyaṇacāmi</persName>.</seg>
+    <seg function="TBC"><lb n="-18"/><placeName>putuvai</placeName>, kuvarṉmāvaccukkūṭam.</seg>
   
   </body></text></TEI>
