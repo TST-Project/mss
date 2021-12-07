@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="fr">Vocabulaire français et tamoul, par Beschi</title>
+            
+         <editor><persName>Neela Bhaskar</persName><orgName>Universität Hamburg</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Indien 218</idno>
+                  <idno type="alternate"><idno>Tamoul 218</idno></idno>
+               </msIdentifier>
+               <msContents class="#STM">
+                  <summary>A vocabulary of French words with their Tamil counterparts compiled, according to the title by Beschi. Arranged according to French alphabetical order — A-Z. Often documents entire Tamil phrases with a simple French meaning, such as idioms and expressions. Also documents Tamil word-phrases. Entry verbs are not lemmatized. Arabic numerals to mark page numbers are present, and each new letter is printed in large. 
+</summary>
+                  
+               <msItem defective="false" class="#nikantu"><title xml:lang="fr">dictionnaire français-tamoul, Beschi</title><author xml:lang="fr">Beschi</author><textLang mainLang="fra" otherLangs="tam"/><filiation><p>Indien 216.</p></filiation><incipit xml:lang="fr"><milestone n="1r" facs="9"/><note xml:lang="en">[title]</note> <lb n="1"/>vocabulaire <lb n="2"/>françois et <lb n="3"/>tamoul. <note xml:lang="en">[body]</note> <lb n="4"/>abaïe — <term xml:lang="ta-Taml">அனுசாரம்</term>…
+<lb n="5"/>abaissement — <term xml:lang="ta-Taml">தாழ்த்துதல்</term>…
+<lb n="6"/>abaissement, humilitie — <term xml:lang="ta-Taml">கீழ்ப்படிதல்</term>…
+<lb n="7"/>abaisser — <term xml:lang="ta-Taml">தாழ்த்துகிறது</term>…
+<lb n="8"/>S’abaisser — <term xml:lang="ta-Taml">தாழ்த்துகிறது குனிகிறது</term>…
+<lb n="9"/>abandon, delassement — <term xml:lang="ta-Taml">கைவிடுதல்</term>…
+<lb n="10"/>abandonne, debauche — <term xml:lang="ta-Taml">குடியன் கேட்டவன்</term>…</incipit><explicit xml:lang="fr"><milestone n="308r" facs="623"/> zodiaque — <term xml:lang="ta-Taml">ராசிமண்டலம்</term>… <lb n="2"/>zone — <term xml:lang="ta-Taml">பூமி பங்கிடு</term></explicit><finalRubric xml:lang="fr"><note xml:lang="en">No Completion Statement. Manuscript complete, because entries upto ‘z’ are found, and the final page has a large empty space in it. Arabic numerals to mark page numbers are present, and each new letter is printed in large.</note></finalRubric></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="paper industrial">
+                        <support>
+                           <measure unit="stringhole"/>
+                           <p>Same paper used in guard folios</p>
+                        </support>
+                        <extent>
+                           <measure unit="folio" quantity="308">2 guard folios (front), 2 guard folios (back)</measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           </dimensions>
+                        <dimensions type="object" unit="mm"><width quantity="180"/><height quantity="235"/></dimensions><dimensions type="written" unit="mm"/></extent>
+                        <collation/>
+                        
+                        
+                     <foliation>Arabic numerals in every verso - top right. Each new alphabet (i.e., chapter) represented in large.
+</foliation><condition>Good condition</condition></supportDesc>
+                     <layoutDesc>
+                        <layout columns="2" writtenLines="17">Divided into chaptersaccording to the French alphabet.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc><handNote scope="sole" script="tamil" scriptRef="#tamilPulliSporadic #tamilPulliRegular" medium="ink black"><desc>Same hand for French and Tamil entries. Sporadic <term xml:lang="ta">puḷḷi</term>-s present, and never for the final vowel in a grapheme. French and Tamil counterpart separated by dotted line.</desc></handNote></handDesc>
+                  <decoDesc>
+                  </decoDesc>
+                  <additions>
+                  </additions>
+                  <bindingDesc>
+                     <binding><p>Leather binding, with paper as support material</p></binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian"/>
+                     <origPlace>Tamilnadu?</origPlace>
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl>Cabaton, Antoine (1912). <title xml:lang="fr">Catalogue sommaire des manuscrits indiens, indo-chinois et malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f53">p. 35</ref>.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         
+      <p>All conventions according to Tamil Lexicon.</p></encodingDesc>
+      <revisionDesc>
+         
+      <change when="2021-12">First version.</change></revisionDesc>
+   </teiHeader>
+   <facsimile>
+   <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b100295885/manifest.json"/></facsimile>
+</TEI>
