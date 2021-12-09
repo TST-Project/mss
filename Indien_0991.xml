@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tāyumāṉavar Works</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>                  
+                  <idno type="shelfmark">Indien 991</idno>
+                  <idno type="alternate"/>
+               </msIdentifier>
+               <msContents class="#STM">
+                  <summary>Poems by Tāyumāṉavar.</summary>
+                  
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="sa"><term xml:lang="en">guard leaves</term></title><textLang mainLang="san"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta">Tāyumāṉavar pāṭalkaḷ</title><textLang mainLang="tam"/><filiation><p>GOML R.925a</p></filiation></msItem><msItem synch="#U3" xml:id="T3" defective="false"><title xml:lang="ta">Tāyumāṉavar pāṭalkaḷ</title><textLang mainLang="tam"/></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="pothi">
+                     <supportDesc material="palm-leaf">
+                        <extent>
+                           <measure unit="folio" quantity="100">[2] + 95 + 2 + [1] (U1 + U2 + U3 + U4)</measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           </dimensions>
+                           <note>The leaves are broader in their middle than at their edges. </note>
+                        <dimensions type="object" unit="mm"><width quantity="205"/><height quantity="45"/><depth quantity="65"/></dimensions><dimensions type="written" unit="mm"/></extent>
+                        
+                        <condition>Good state of preservation. Very few boreholes. Left egdes damaged and recut. Some moisture damage.</condition>
+                     <support><measure unit="stringhole" quantity="2"/></support><collation><desc xml:id="cover">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">2 folios = <emph rend="bold">guard leaves</emph>. No foliation. Shelfmark on f[1]r; diagramm on f[1]v; f2 blank recto verso.</desc><desc xml:id="U2">95 folios = <emph rend="bold"><persName xml:lang="ta">Tāyumāṉavar</persName> Works</emph>. Tamil foliation [1],2-59, 75-99, 120-130. f130v blank.</desc><desc xml:id="U3">2 folios = <emph rend="bold"><persName xml:lang="ta">Tāyumāṉavar</persName> Works</emph>. Tamil foliation 128<hi rend="superscript">2</hi>-129<hi rend="superscript">2</hi>.</desc><desc xml:id="U4">2 folio = <emph rend="bold">guard leaf</emph>. No foliation.</desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>.</desc></collation></supportDesc>
+                     <layoutDesc>
+                        
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     
+                  <handNote synch="#U1" scope="minor" script="grantha" medium="incised"/><handNote synch="#U2" scope="major" script="tamil" medium="incised"/><handNote synch="#U3" scope="minor" script="tamil" medium="incised"><desc>Possibly another hand.</desc></handNote></handDesc>
+                  <additions><desc synch="#cover" type="shelfmark" subtype="cover front">Shelfmark sticker inscribed in black ink: <quote>3</quote> (<locus facs="206">front cover, recto</locus>). NB: front cover, recto at the time of examination.</desc><desc synch="#cover" type="shelfmark" subtype="back cover">BnF shelfmark sticker: <quote>Indien 991</quote> (<locus facs="1">back cover, verso</locus>). NB: back cover, verso at the time of examination.</desc><desc synch="#U1" type="shelfmark">Bnf shelfmark, in black ink: <quote>1038</quote> (<locus facs="3">f[1]r</locus>).</desc><desc synch="#U2" type="intertitle" subtype="marginal left">Left-marginal  intertitles. On rectos and versos.</desc></additions>
+                  <bindingDesc>
+                     <binding>
+                        
+                     <p>Original <material>wood</material> covers. 3 holes in the front cover. Wooden stick in one of the holes. Left egdes damaged and recut. 205 x 45 mm.
+</p></binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian" notAfter="1938">No internal date.</origDate>
+                     <origPlace>Tamilnadu.</origPlace>
+                  </origin>
+                  <acquisition>
+                     <p>Deposit (1938) from École des Langues orientales.</p>
+                  </acquisition>
+               </history>
+               <additional>
+                  <listBibl>
+                     
+                     
+                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois et malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f177">handwritten addition, f5v, no. 991</ref>.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         
+      <change when="2021-12">Record created by Emmanuel FRANCIS.</change></revisionDesc>
+   <encodingDesc><p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.      </p></encodingDesc></teiHeader>
+   
+<facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525151285/manifest.json"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="sa"><body>
+  
+  <pb facs="4" n="[1]v"/>
+  <note xml:lang="en">diagram, unblackened, containing Grantha letters</note>
+ 
+   </body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
+  
+  <pb facs="7" n="[1]r"/>
+  <milestone unit="left-margin"/>
+  <seg function="blessing"><lb n="1-2"/><seg rend="grantha">hariḥ | Om</seg></seg>
+ <seg function="blessing"><lb n="3-4"/><g ref="#pcs"/>kuruvē tuṇai</seg>=<g ref="#pcs"/>
+<seg function="title"><lb n="5-7"/><persName>tāyumāṉavaṉ</persName></seg>
+<lb n="8"/><term xml:lang="en">{symbol}</term>
+
+  <milestone n="1" unit="column"/>
+  <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
+  
+  <pb facs="192" n="127v"/>
+  <milestone unit="left-margin"/>
+     <seg function="intertitle"><lb n="1-2"/>Akaval</seg>
+  
+  <pb facs="193" n="128r"/>
+  <milestone unit="left-margin"/>
+     <seg function="intertitle"><lb n="1-2"/><supplied reason="lost">vaṇ</supplied>ṇam</seg>
+  
+  <pb facs="194" n="128v"/>
+  <milestone unit="left-margin"/>
+     <seg function="intertitle"><lb n="1-2"/>vaṇṇam</seg>
+
+    <pb facs="197" n="130r"/>
+  <lb n="1-5"/><gap reason="ellipsis"/>
+  <seg function="explicit"><lb n="6"/>yētu tuṇai paḻikāra maṉamē</seg> – 1 – <seg function="completion-statement">vaṇṇamuṟṟum</seg> – <g ref="#pcs"/>
+  
+      <pb facs="198" n="130v"/>
+  <note xml:lang="en">blank</note>
+
+  
+  </body></text><text synch="#U3" corresp="#T3" xml:lang="ta"><body>
+  
+ <pb facs="199" n="128.2r"/>
+  <milestone unit="left-margin"/>
+   <seg function="intertitle"><lb n="1-2"/>vaṇṇam</seg>
+  
+  <milestone unit="main-text-area"/>
+  <seg function="incipit"><lb n="1"/><gap reason="ellipsis"/></seg>
+
+  <pb facs="200" n="128.2v"/>
+  
+  <pb facs="201" n="129.1r"/>
+  
+  <pb facs="202" n="129.2v"/>
+  
+  <lb n="1"/>
+  <lb n="2"/>
+  <lb n="3"/>
+  <seg function="explicit"><lb n="4"/><gap reason="ellipsis"/></seg>
+  </body></text></TEI>
