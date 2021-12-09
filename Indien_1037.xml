@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Talisman or Private Letter</title>
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>                  
+                  <idno type="shelfmark">Indien 1037</idno>
+                  <idno type="alternate"/>
+               </msIdentifier>
+               <msContents class="#STM">
+                  <summary>Rolled leaves (number to be assessed) sealed with a palm-leaf knot. The leaves cannot presently be unrolled without breaking the seal and the leaves. Talisman for or letter by a Ceṭṭi from Karikal.</summary>
+                  
+               <msItem synch="#seal" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Sealing Knot</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U1" xml:id="T2" defective="false"><title xml:lang="ta"><term xml:lang="en">Main Text</term></title><textLang mainLang="tam"/></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="roll">
+                     <supportDesc material="palm-leaf">
+                        <extent>
+                           <measure unit="folio" quantity="2">[2] (U1).</measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           </dimensions>
+                           <note>The leaves are broader in their middle than at their edges. </note>
+                        <dimensions type="object" unit="mm"><width quantity="50"/><height quantity="20"/></dimensions><dimensions type="written" unit="mm"/></extent>
+                        
+                        <condition>Very good state of preservation.</condition>
+                     <support><measure unit="stringhole"/></support><collation><desc xml:id="seal">palm-leaf knot sealing the leaves. Breadth: 45 mm.</desc><desc xml:id="U1">2 folios (at least) = <emph rend="bold">talisman</emph> or <emph rend="bold">letter</emph>. No visible foliation. </desc></collation></supportDesc>
+                     <layoutDesc>
+                        
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     
+                  <handNote scope="sole" script="tamil" medium="incised"/></handDesc>
+                  <additions><desc type="commenting-note shelfmark" subtype="detached">Note on a <locus facs="2">paper</locus> (glued on canvas), in black ink: 
+<quote xml:lang="fr">
+<lb n="1"/><gap reason="illegible"/> Tamoul
+<lb n="2"/>(Indoustan)
+<lb n="3"/>Sur le nœud qui la ferme on
+<lb n="4"/>voit un signe qui est un 
+<lb n="5"/>talisman qui assure qu’elle <gap reason="illegible"/>
+<lb n="6"/>parvenir à sa destination
+</quote></desc><desc synch="#U1" type="shelfmark" subtype="intertextual">BnF shelfmark in black ink: <quote>Indien 1037</quote> (<locus facs="14">f[1]r</locus>).</desc><desc synch="#U1" type="shelfmark" subtype="beginning cover">BnF acquisition reference: <quote>Acq. 17376</quote> (<locus facs="14">f[1]r</locus>).</desc></additions>
+                  <bindingDesc>
+                     <binding>
+                        
+                     <p>Palm-leaf knot.
+</p></binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian"/>
+                     <origPlace>South India, Pondicherry State, Karikal.</origPlace>
+                  </origin>
+                  <acquisition>
+                     <p>Acq. 17376.</p>
+                  </acquisition>
+               </history>
+               <additional>
+                  <listBibl>
+                     
+                     
+                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois et malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f183">handwritten addition, f8v, no. 1037</ref>.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         
+      <change when="2021-12">Record created by Emmanuel FRANCIS.</change></revisionDesc>
+   <encodingDesc><p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.      </p></encodingDesc></teiHeader>
+   
+<facsimile><graphic url="https://didomena.ehess.fr/concern/data_sets/9593tz91c/manifest.json"/></facsimile><text synch="#seal" corresp="#T1" xml:lang="ta"><body>
+  
+  <pb facs="6" n="[1r]"/>
+  <seg function="blessing"><lb n="1"/>śrī</seg>
+
+  </body>
+
+  </text><text synch="#U1" corresp="#T2" xml:lang="ta"><body>
+   
+  <pb n="[1]r"/>
+  
+  <milestone unit="left-margin"/>  
+  <lb n="1"/><g ref="#pcs"/> <gap reason="ellipsis" quantity="1" unit="character"/> <g ref="#pcs"/>
+       
+    <milestone unit="main-text-area"/>
+    <seg function="TBC"><lb n="1"/>kāraik=kālil | śrī | śrī | ceṭṭiy <gap reason="ellipsis"/>
+      <lb n="2" break="no"/>ṟavarkaḷ | śrī | <gap reason="ellipsis"/> ṅka ceṭṭiyār <gap reason="ellipsis"/>
+      <lb n="3" break="no"/>varkaḷ=<g ref="#pcl"/> śrī koṭuppatu</seg>
+
+        <pb n="[1]v"/>
+        <note xml:lang="en">text not accessible</note>
+      
+        <pb n="[2]r"/>
+        <milestone unit="left-margin"/>
+        <lb n="1"/><g ref="#pcl"/> śrī-rā<seg rend="grantha">=ma</seg>-ceya<seg rend="grantha">m</seg>
+        
+          <milestone unit="main-text-area"/>
+  <seg function="incipit"><lb n="1"/>śrīmatu cakala-kuṇa <gap reason="ellipsis"/></seg>
+        <lb n="2"/><gap reason="ellipsis"/>
+        <lb n="3"/><gap reason="ellipsis"/>
+        
+        <pb n="[2]v"/>
+        <note xml:lang="en">text not accessible</note>
+     
+  
+</body></text></TEI>
