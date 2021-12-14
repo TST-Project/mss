@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Dictionary, Tamil-French, by Bourzès</title>
+            <title>Dictionary, Tamil-French, by Bourzès, part 1 of 2</title>
          <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
@@ -24,7 +24,7 @@
 <p>First part: from <foreign xml:lang="ta">A</foreign> to <foreign xml:lang="ta">ta</foreign> (<foreign xml:lang="ta">Akarāti</foreign> to <foreign xml:lang="ta">takṣiṇāmūṟti</foreign>).</p>
 </summary>
                   
-               <msItem synch="#U1a" xml:id="T1" defective="false"><title xml:lang="fr">Front Matter</title><textLang mainLang="fra"/></msItem><msItem synch="#U1b" xml:id="T2" defective="false"><title xml:lang="fr">Dictionary proper</title><textLang mainLang="fra" otherLangs="tam"/></msItem></msContents>
+               <msItem synch="#U1a" xml:id="T1" defective="false"><title xml:lang="fr">Front Matter</title><textLang mainLang="fra" otherLangs="tam"/></msItem><msItem synch="#U1b" xml:id="T2" defective="false"><title xml:lang="ta"><term xml:lang="en">Dictionary proper</term></title><textLang mainLang="tam" otherLangs="fra"/></msItem></msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="paper">
@@ -69,7 +69,7 @@
                <decoDesc/></physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian" notAfter="1855">No internal date. Dated to the 18th century by Cabaton (1912), James (2000), on unstated grounds.</origDate>
+                     <origDate calendar="gregorian" notAfter="1855">No internal date. Dated to the 18th century by Cabaton (1912) and James (2000), on unstated grounds.</origDate>
                      <origPlace>Tamilnadu.</origPlace>
                   </origin>
                   <acquisition>
@@ -120,25 +120,34 @@
   <lb n="21"/><seg function="intertitle">Abregé de l'alphabet tamoul Samscroutan.</seg>
   
 </body>
-   </text><text synch="#U1b" corresp="#T2" xml:lang="fr"><body>
+   </text><text synch="#U1b" corresp="#T2" xml:lang="ta"><body>
   
   <pb facs="11" n="[1]r"/><note xml:lang="en">i.e. p. 1</note>
   
+  <milestone unit="header"/>
+      <lb n="1"/>Akarāti <space/> <term xml:lang="fr">1.</term> <space/> Akattīṭu
+  
   <milestone n="1" unit="column"/>
-  <lb n="1"/><term xml:lang="ta">Akarāti</term>
-  <lb n="2"/><term xml:lang="ta">Aka</term>
-  <lb n="3"/><seg function="incipit"><term xml:lang="ta">Akarāti</term> <gap reason="ellipsis"/> commence la lettre A.</seg>
-  <lb n="4"/><term xml:lang="ta">A</term> lettre demonstrati. souvent le même
-  <lb n="5"/>que<term xml:lang="ta">Aratal Akkarai</term>. elle exprime
-  <lb n="6"/>le contraire. v. <term xml:lang="ta">Akkaṇṭam</term> les termes
+  <lb n="1"/>Aka.
+  <lb n="2"/><seg function="incipit">Akarāti <term xml:lang="fr"><gap reason="ellipsis"/> commence la lettre A.</term></seg>
+  <lb n="4"/>A <term xml:lang="fr">lettre demonstrati. souvent le même
+  <lb n="5"/>que</term> Aratal Akkarai. <term xml:lang="fr">elle exprime
+  <lb n="6"/>le contraire. v.</term> Akkaṇṭam <term xml:lang="fr">les termes
     <lb n="7"/>privatifs sont obscurs pour les
-  <lb n="8"/>Tamouls. <term xml:lang="ta">Anta</term>.
+  <lb n="8"/>Tamouls.</term> Anta.
 
   <pb facs="300" n="284r"/><note xml:lang="en">i.e. p. 567</note>
   
+    <milestone unit="header"/>
+      <lb n="1"/>taṉamēmpātu <space/> <term xml:lang="fr">567.</term> <space/> takṣaṇāmūṟti
+  
+    <milestone n="1" unit="column"/>
+<lb n="1ff."/><gap reason="ellipsis"/>
+  
   <milestone n="2" unit="column"/>
-  <lb n="17"/><seg function="explicit"><term xml:lang="ta">takṣaṇa</term>, <term xml:lang="ta">takṣaṇa</term> du sud. voyez
-  <lb n="18"/><term xml:lang="ta">tekṣiṇam</term>.
-    <lb n="19"/><term xml:lang="ta">takṣiṇāmūṟti</term> certaine idole.</seg>
+  <lb n="1ff."/><gap reason="ellipsis"/>
+  <lb n="17"/><seg function="explicit">takṣaṇa, takṣaṇa <term xml:lang="fr">du sud. voyez</term>
+  <lb n="18"/>tekṣaṇam.
+    <lb n="19"/>takṣaṇāmūṟti <term xml:lang="fr">certaine idole.</term></seg>
 
 </body></text></TEI>
