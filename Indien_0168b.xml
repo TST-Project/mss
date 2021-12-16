@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>TBC</title>
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits.</orgName>
+                  </repository>
+                  <idno type="shelfmark">Indien 168b</idno>
+                  <idno type="alternate"><idno>Tamoul 159</idno></idno>
+               </msIdentifier>
+               <msContents class="#STM">
+                  <summary>An incomplete copy of a text to be identified, probably a grammatical treatise.</summary>
+                  
+               <msItem synch="#U1" xml:id="T1" defective="true"><title xml:lang="ta"><term xml:lang="en">TBC</term></title><textLang mainLang="tam"/></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="paper">
+                        <extent>
+                           <measure unit="page" quantity="12">12 (U1)</measure>
+                           <dimensions type="object" unit="mm">
+                              
+                              
+                              
+                           </dimensions>
+                        <dimensions type="leaf" unit="mm"><width quantity="165" min="210"/></dimensions><dimensions type="written" unit="mm"/></extent>
+                        <collation>
+                        
+                        
+                        <desc xml:id="U1">6 folios = 12 pages = <emph rend="bold">TBC</emph>. Tamil foliation on p327 only (foliation 4). Pagination 327-[338] (blue pencil).</desc></collation>
+                     <condition>Excellent state of preservation.</condition></supportDesc>
+                     <layoutDesc>
+                        
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     
+                  <handNote synch="#U1" scope="sole" script="tamil" medium="ink black"/></handDesc>
+                  <additions>
+                     
+                     
+                     
+                  </additions>
+                  <bindingDesc>
+                     <binding>
+                        
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian" notAfter="1854">No internal date.</origDate>
+                     <origPlace>Tamilnadu.</origPlace>
+                  </origin>
+                  <acquisition>
+                     <p>Received, August 1st, 1866, from the Société Asiatique. See BnF, département des Manuscrits, inventaire 7 = <title>Dons: manuscrits et imprimés documentaires, 1848-1895</title>, no. 1192.</p>
+                  </acquisition>
+               <provenance><p>Owned by <persName ref="https://catalogue.bnf.fr/ark:/12148/cb143513141" key="Ariel, Edouard (1818-1854)">Édouard Ariel</persName> (1818-1854). Bequested by Edouard Ariel to Société Asiatique (Rosny 1868, p. 177).</p></provenance></history>
+               <additional>
+                  <listBibl>
+                     
+                     
+                     
+                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f46">p. 28, n° 168</ref>.</bibl><bibl>Rosny, Léon de (1868). La bibliothèque tamoule de M. Ariel, de Pondichéry. In: <title>Variétés orientales</title> (pp. 177‒224). Paris: Maisonneuve.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. (1866-). <title> Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f97">f. 41r, no. 159</ref>. </bibl><bibl>Vinson, Julien (1867). <title>Catalogue des manuscrits tamouls</title>. Corrected proofreadings printed by the atelier oriental de l’Imprimerie nationale. Access No. 4-IMPROR-77 (B). — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b105333021/f91">p. 41, n° 159</ref>.</bibl><bibl>Vinson, Julien (n.d.). BnF Indien 1062, <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105363346/f23">f58r, no. <del>158</del> 159</ref>.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+        
+      <p>TBC.</p></encodingDesc>
+      <revisionDesc>
+         
+         
+      <change when="2021-12">Record created by Emmanuel FRANCIS.</change></revisionDesc>
+   </teiHeader>
+   
+   <facsimile>
+      
+   <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b100294484/manifest.json" facs="235"/></facsimile>
+<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+  
+  <pb facs="235" n="327"/>
+  <lb n="1"/><seg function="incipit"><lb n="1"/><gap reason="ellipsis"/></seg>
+  
+    <pb facs="246" n="[338]"/>
+  <lb n="-1"/><seg function="explicit"><lb n="1"/><gap reason="ellipsis"/></seg>
+
+</body></text></TEI>
