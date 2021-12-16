@@ -21,9 +21,9 @@
                   <idno type="alternate"><idno>Tamoul 159</idno></idno>
                </msIdentifier>
                <msContents class="#STM">
-                  <summary>An incomplete copy of the <title xml:lang="ta">Naṉṉūl</title>, text and commentary.</summary>
+                  <summary>An incomplete copy of the <title xml:lang="ta">Naṉṉūl</title>, text and commentary. The beginning is missing and there is a gap.</summary>
                   
-               <msItem synch="#U1" xml:id="T1" defective="true" class="#illakkanam #illakkanam"><title xml:lang="ta">Naṉṉūl: Mūlam &amp; Urai <term xml:lang="en">(partim)</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T2" defective="true"><title xml:lang="ta">Naṉṉūl: Mūlam &amp; Urai <term xml:lang="en">(partim)</term></title><textLang mainLang="tam"/></msItem></msContents>
+               <msItem synch="#U1" xml:id="T1" defective="true" class="#illakkanam"><title xml:lang="ta">Naṉṉūl: Mūlam &amp; Urai <term xml:lang="en">(partim)</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T2" defective="true"><title xml:lang="ta">Naṉṉūl: Mūlam &amp; Urai <term xml:lang="en">(partim)</term></title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="paper">
@@ -48,7 +48,7 @@
                   </objectDesc>
                   <handDesc>
                      
-                  <handNote synch="#U1 #U3" scope="sole" script="tamil" medium="ink black ink black"/></handDesc>
+                  <handNote synch="#U1 #U3" scope="sole" script="tamil" medium="ink black"/></handDesc>
                   <additions>
                      
                      
@@ -94,13 +94,64 @@
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   
   <pb facs="7" n="65"/>
+  <seg function="incipit"><lb n="1" break="no"/>ṭatu. īṇṭuk kūṟiyavāṟṟāṉē Akaram uyire
+  <lb n="2" break="no"/>ḻuttukkaḷiṉuṅ kalantu niṟkumāṟṟika. <gap reason="ellipsis"/></seg>
+  
+    <pb facs="56" n="114"/>
+  <lb n="4"/><gap reason="ellipsis"/>ḷḷuṅ kāṇka . 72 . .
+<seg function="completion-statement"><lb n="5"/>Eḻutiyaṉ
+<lb n="6"/>muṟṟum</seg>
+
+<pb facs="57" n="115"/>
+  <seg function="intertitle"><lb n="1"/>Iraṇṭāvatu
+  <lb n="2"/><choice><sic>pu</sic><corr>pa</corr></choice>taviyal</seg>
+<lb n="3"/>Eḻuttē taṉittun toṭarntum po
+<lb n="4" break="no"/>ruṭari <gap reason="ellipsis"/>
+
+   <pb facs="102" n="160"/>
+  <lb n="10"/><gap reason="ellipsis"/> . 23 . 
+<seg function="completion-statement"><lb n="11"/>Iraṇtāvatu pataviyaṉ
+<lb n="12"/>muṟṟum</seg>
+  
+   <pb facs="103" n="161"/>
+  <seg function="intertitle"><lb n="1"/>mūṉṟāvatu yirīṟṟup
+<lb n="2"/>puṇariyal</seg>
   
     <pb facs="126" n="182"/>
+  <lb n="20"/><seg function="explicit"><gap reason="ellipsis"/></seg>
 
 </body></text><text synch="#U3" corresp="#T2" xml:lang="ta"><body>
   
   <pb facs="131" n="215"/>
+  <seg function="incipit"><lb n="1"/><gap reason="ellipsis"/></seg>
+  
+  <pb facs="155" n="239"/>
+  <lb n="1"/>ṅkaṭṭi . 53 .
+<seg function="completion-statement"><lb n="2"/>mūṉṟāvatu yīrī
+<lb n="3"/>ṟṟuppuṇari
+<lb n="4"/>yaṉ mu
+<lb n="5"/>ṟṟum</seg>
+<seg function="intertitle"><lb n="6"/>nāṉkāvatu me
+<lb n="7"/>yīṟṟūppuṇariya
+<lb n="8"/>l</seg>
+
+    <pb facs="190" n="280"/>
+ <lb n="10"/><gap reason="ellipsis"/> . 39 .
+ <seg function="completion-statement"><lb n="11"/>nāṉkāvatu
+<lb n="12"/>meyyīṟṟūppuṇariyal
+<lb n="13"/>muṟṟum</seg>
+  
+    <pb facs="191" n="281"/>
+<seg function="intertitle"><lb n="1"/>Aintāva
+<lb n="2" break="no"/>tu Urupupu<choice><sic>ṇi</sic><corr>ṇa</corr></choice>ri
+<lb n="3"/>yal</seg>
   
     <pb facs="230" n="320"/>
+  <seg function="explicit"><lb n="9"/><gap reason="ellipsis"/> nilaṉā
+  <lb n="10"/>ka vakutturaittuk koḷka. 10 8 .</seg>
+<seg function="completion-statement"><lb n="11"/>Āintāvatup puṇariyaṉ muṟṟum.</seg>
+<seg function="completion-statement"><lb n="12"/>Eḻuttatikāram
+<lb n="13"/>muṟṟu
+<lb n="14"/>m</seg>
 
 </body></text></TEI>
