@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><title xml:lang="ta">Pāratam</title> (partim)</title>
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2021</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+               <idno type="shelfmark">Indien 265</idno><idno type="alternate"><idno>Tamoul 265</idno></idno></msIdentifier>
+               <msContents class="#STM">
+                  <summary>A incomplete copy of the <title xml:lang="ta">Pāratam</title>, a Tamil version of the Sanskrit <title xml:lang="ta">Mahābhārata</title>, with a commentary.  </summary>
+                  
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2a" xml:id="T2" defective="true"><title xml:lang="ta">Pāratam: Mūlam &amp; Urai</title><textLang mainLang="tam"/></msItem><msItem synch="#U2a" xml:id="T3" defective="false"><title xml:lang="ta">Pāratam: Mūlam</title><textLang mainLang="tam"/></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="pothi">
+                     <supportDesc material="palm-leaf">
+                        <support>
+                           <measure unit="stringhole" quantity="2"/>
+                           
+                        </support>
+                        <extent>
+                           <measure unit="folio" quantity="285">[1] + 278 + 6 (U1 + U2+ U3).</measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           <width min="390" max="400"/><height min="30"/></dimensions>
+                        <dimensions type="object" unit="mm"><depth quantity="170"/></dimensions><dimensions type="written" unit="mm"/></extent>
+                        
+                        
+                     <collation>
+                     
+                     <desc xml:id="U1">1 folio = <emph rend="bold">Title Page</emph>. No foliation. Double folio. Shelfmarks on f[1]r. 390 x 30 mm.
+</desc><desc xml:id="cover">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U2">278 folios = <emph rend="bold"><term xml:lang="ta">Pāratam</term></emph>. 400 x 30 mm.</desc><desc xml:id="U2a">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso. </desc><desc xml:id="U2b">277 folios = <emph rend="bold"><term xml:lang="ta">Pāratam</term></emph>. Tamil foliation 324-489, 491-601, sometimes partially lost. Foliation 601 in black pencil. Successive parallel secondary Tamil foliations 1-36, 1-3, etc., with gaps.</desc><desc xml:id="U3">6 folios = <emph rend="bold"><term xml:lang="ta">Pāratam</term></emph>. Tamil foliation 78-83. Secondary Tamil foliation 579-584, unblackened.</desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Poor state of preservation. Many boreholes and truncation</condition></supportDesc>
+                     <layoutDesc>
+                        
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc><handNote synch="#U1" scope="minor" scribeRef="#ArielTitleScribe" script="tamil" medium="incised"><desc>Hand #1.</desc></handNote><handNote synch="#U2 #U3"><desc>Hand #2.</desc></handNote></handDesc>
+                  <decoDesc>
+                  </decoDesc>
+                  <additions>
+                  <desc synch="#U1" type="shelfmark">Shelfmark in black ink: <quote>b/43</quote> (f[1]r).</desc><desc synch="#U1" type="documenting-note">BnF bequest sticker <quote>DON N° <space type="vacat"/></quote> (f[1]r).</desc><desc synch="#U1" type="shelfmark">BnF shelfmark sticker: <quote>INDIEN 265</quote> (f[1]r). Presently detached.</desc></additions>
+                  <bindingDesc>
+                     <binding><p>Original <material>wood</material> covers.</p></binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian" notAfter="1753">Internally dated to the year <foreign xml:lang="ta">***</foreign> of the Jovian cycle, that is, CE ***, etc. Dated to 1762, July 14th, by Vinson &amp; al. (1866-) on the basis of the internal date (Angīrāsa), 1762 by Cabaton (1912), on unstated grounds.</origDate>
+                     
+                  <origPlace>Tamilnadu.</origPlace></origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f58">p. 40</ref>.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. (1866-). <title> Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f139">f. 62r, no. <del>245</del> 265</ref>. 
+
+</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         
+      <p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation, lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.    </p></encodingDesc>
+      <revisionDesc>
+         
+      <change when="2021-12">Record created by Emmanuel FRANCIS.</change></revisionDesc>
+   </teiHeader>
+   <facsimile>
+   </facsimile>
+<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+  <pb facs="00" n="[1]r"/>
+  <milestone n="1" unit="column"/>
+    <lb n="1-2"/><seg function="blessing">veṟṟivēl uṟṟa tuṇai</seg>
+  
+  <milestone n="2" unit="column"/>
+  <seg function="title"><lb n="1"/>pāratattil
+<lb n="2"/>turōṇaparvamutal
+<lb n="3"/>calliyaparvavaraiyil</seg>
+
+  <pb facs="00" n="[1]v"/><note xml:lang="en">blank</note>
+  
+</body></text><text synch="#U2b" corresp="#T2" xml:lang="ta"><body>
+  <pb facs="00" n="[3]24r = [1]r"/>
+<milestone unit="left-margin"/>
+  <lb n="1-4"/><seg function="intertitle">patiṉañcāṉāḷ Uyiṟṟiyam</seg>
+  
+  <milestone unit="main-text-area"/>
+  <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg> 
+  
+   <pb facs="00" n="342r = 19r"/>
+<milestone unit="left-margin"/>
+  <lb n="1-3"/><seg function="intertitle">patiṉāṟām ṉāḷ Uyittam</seg>
+  
+  <pb facs="00" n="369v = 36r"/>
+  <lb n="1"/><gap reason="ellipsis"/> ṉ<pc>-</pc>eṉṟa v<pc>-</pc>āṟu <g ref="#pcl"/> 92 <g ref="#pcl"/> 1000 2 100 3
+  <lb n="2"/><note xml:lang="en">right-oriented</note><seg function="completion-statement">patiṉāṟāṉāḷ uyittamu<sic>ttu</sic>m</seg> <g ref="#pcs"/> <seg function="blessing">śrī-kiṣṇa-cakāyam uṇṭākavu<seg rend="grantha">=m</seg></seg> <seg function="blessing">kuru-pātan tuṇai uṇṭākavu<seg rend="grantha">=m</seg></seg> <g ref="#pcl"/>
+
+ <pb facs="00" n="370r = 1r"/>
+<milestone n="1" unit="left-margin"/>
+  <seg function="blessing"><lb n="1-2"/>śrī-kiṣṇa-cakāyam</seg>
+<seg function="intertitle"><lb n="3-5"/>patiṉeḻā‡ṉāḷ‡ Uyit‡tiyam</seg>
+<seg function="blessing"><lb n="6"/>civamayam</seg>
+  
+  <pb facs="00" n="578r = 77r"/>
+  <lb n="1"/><gap reason="ellipsis"/>eṉṟā v<pc>-</pc>āṟu <g ref="#pcs"/> 2 4 2 <g ref="#pcs"/>
+<lb n="2"/><seg function="completion-statement">patiṉeṭṭāṉāḷ uyittiyam muṭintutu muṟṟu<seg rend="grantha">m</seg></seg> <g ref="#pcs"/> <seg function="blessing">perumāṉār tiruvaṭikaḷē caraṇam</seg> <seg function="blessing">śrīmaṉ-nāṟāyaṇacuvāmi raṣṣakkaṟā<seg rend="grantha">=m</seg></seg> <g ref="#pcl"/>
+
+<lb n="3"/><seg function="colophon">Āṅkira {varuṣam} Āṇi {mācam} 2 10 9 {tēti} veḷḷikkiḻamai ṉāḻikai 2 10 tutikai pūcam naṣṣattiram <note xml:lang="en">from here, up to end of line 4, unblackened</note> yinta cupa<supplied reason="omitted">ti</supplied>ṉattilē <unclear reason="consonant_unclear">yā</unclear>tava-kōttira-koṇṭikkōṭtai ṟāmuṉāyak=kar kumaraṉ
+<lb n="4"/>veṅkiṭācalam contamāka Eḻutiṉa pāratam mukintutu mu<sic>t=tu</sic><supplied reason="omitted">m</supplied></seg> <g ref="#pcl"/>
+  
+  <pb facs="00" n="578v = 77v"/><note xml:lang="en">blank</note>
+  
+  <pb facs="00" n="601r"/><note xml:lang="en">blank</note>
+  <lb n="1"/>
+  <lb n="2"/>
+  
+  <pb facs="00" n="601v"/><note xml:lang="en">blank</note>
+
+</body></text><text synch="#U3" corresp="#T3" xml:lang="ta"><body>
+  
+  <pb facs="00" n="579r = 78r"/>
+  <milestone unit="left-margin"/>
+  <lb n="1-2"/><seg function="intertitle"><gap reason="ellipsis"/></seg>
+  
+  <pb facs="00" n="583r = 83r"/>
+ <lb n="6"/><seg function="explicit"><gap reason="ellipsis"/> tāraiyavar <g ref="#pcs"/> 51</seg> <g ref="#pcs"/> <seg function="colophon">Āṅkira {varuṣam} Āṭi {mācam} 3 {tēti} viyāḻakkiḻamai cittirana<unclear>kṣa</unclear>ttiram <note xml:lang="en">from here, up to end of line 7, unblackened</note> yinta cupa<supplied reason="omitted">ti</supplied>ṉattil yātavakōttiram ~ keṇṭikkōṭtai ṟāmuṉāyakkār
+<lb n="6"/>kumāraṉ veṅkiṭācalaṉāyakkar contamāka pāratam mutal ṉāḷ tuvakki paṭṭāpiṣekamaṭṭu Eḻuti mukintutu mut=tu<seg rend="grantha">m</seg></seg> <g ref="#pcl"/>
+  
+    <pb facs="00" n="583v = 83v"/><note xml:lang="en">blank</note>
+
+  </body></text></TEI>
