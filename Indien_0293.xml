@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -9,7 +9,7 @@
          
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -24,7 +24,7 @@
                <msContents class="#STM">
                   <summary>The <title xml:lang="ta">Periya Purāṇam</title>.</summary>
                   
-               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta"><term xml:lang="en">guard leaf</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T3" defective="false"><title xml:lang="ta">Periya Purāṇam</title><textLang mainLang="tam"/></msItem><msItem synch="#U4" xml:id="T4" defective="false"><title xml:lang="ta"><term xml:lang="en">Table of Contents</term></title><textLang mainLang="tam"/></msItem></msContents>
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta"><term xml:lang="en">guard leaf</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T3" defective="false"><title xml:lang="ta">Periya Purāṇam</title><textLang mainLang="tam"/><finalRubric xml:lang="ta">In-text chapter completion statements.</finalRubric></msItem><msItem synch="#U4" xml:id="T4" defective="false"><title xml:lang="ta"><term xml:lang="en">Table of Contents</term></title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
@@ -49,7 +49,7 @@
                   </objectDesc>
                   <handDesc>
                      
-                  <handNote synch="#U1" scope="minor" scribeRef="#ArielTitleScribe" script="tamil" medium="incised"><desc>Hand #1.</desc></handNote><handNote synch="#U2" scope="minor" script="tamil" medium="incised"><desc>Hand #2. Unblackened.</desc></handNote><handNote synch="#U3" scope="major" script="tamil" medium="incised"><desc>Hand #3.</desc></handNote><handNote synch="#U4" scope="minor" script="tamil" medium="incised"><desc>Hand #4? Unblackened.</desc></handNote></handDesc>
+                  <handNote synch="#U1" scope="minor" scribeRef="#ArielTitleScribe" script="tamil" scriptRef="#tamilPulliSporadic #tamilOE" medium="incised soot"><desc>Hand #1.</desc></handNote><handNote synch="#U2" scope="minor" script="tamil" medium="incised"><desc>Hand #2. Unblackened.</desc></handNote><handNote synch="#U3" scope="major" script="tamil" scriptRef="#tamilOE" medium="incised"><desc>Hand #3.</desc></handNote><handNote synch="#U4" scope="minor" script="tamil" medium="incised"><desc>Hand #4? Unblackened.</desc></handNote></handDesc>
                   <additions>
                     
                     
@@ -66,7 +66,7 @@
                     
                     
                     
-                  <desc synch="#U1" type="shelfmark">Shelfmark in black pencil: <quote>8</quote> (<locus facs="0">f[1]r</locus>).</desc><desc synch="#U1" type="shelfmark">Shelfmark in black ink: <quote>b/49</quote> (<locus facs="0">f[1]r</locus>).</desc><desc synch="#U1" type="documenting-note">BnF bequest sticker <quote>DON N° <space type="vacat"/></quote> (<locus facs="0">f[1]r</locus>).</desc><desc synch="#cover" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 293</quote> (<locus facs="0">front cover, recto</locus>).</desc><desc synch="#U3" type="intertitle">Left marginal intertitles.</desc><desc synch="#U4" corresp="#T4" type="table-of-contents"/></additions>
+                  <desc synch="#U1" type="shelfmark">Shelfmark in black pencil: <quote>8</quote> (<locus facs="0">f[1]r</locus>).</desc><desc synch="#U1" type="shelfmark">Shelfmark in black ink: <quote>b/49</quote> (<locus facs="0">f[1]r</locus>).</desc><desc synch="#U1" type="documenting-note">BnF bequest sticker <quote>DON N° <space type="vacat"/></quote> (<locus facs="0">f[1]r</locus>).</desc><desc synch="#cover" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 293</quote> (<locus facs="0">front cover, recto</locus>).</desc><desc synch="#U3" type="intertitle">Left marginal intertitles for <foreign xml:lang="ta">kāṇṭam</foreign>s, <foreign xml:lang="ta">carukkam</foreign>s and <foreign xml:lang="ta">purāṇam</foreign>s. On recto only up to f208r, even if previous chapter ends on previous verso. On recto and verso from f208v onwards.</desc><desc synch="#U3" type="total-stanzas"/><desc synch="#U4" corresp="#T4" type="table-of-contents"/></additions>
                <bindingDesc><binding><p>Original <material cert="medium">wood</material> covers. Faceted. 370 x 30 mm.
 </p></binding></bindingDesc></physDesc>
                <history>
@@ -167,6 +167,10 @@
  <milestone unit="left-margin"/>
   <lb n="1-3"/><seg function="intertitle">kayilāyacciṟappu</seg> <g ref="#pcs"/>
   
+   <pb facs="0" n="4v"/>
+  <lb n="5"/><gap reason="ellipsis"/> kūṟuvām <g ref="#pcs"/> 4 10 <g ref="#pcs"/> <seg function="completion-statement">kayilāyacciṟap
+  <lb n="6" break="no"/>pu muṟṟum</seg> <g ref="#pcs"/> <seg function="total-stanzas">{Āka} virutta<seg rend="grantha">m</seg> 5 10</seg> <g ref="#pcs"/> <seg function="TBC">vēṟu</seg> <g ref="#pcs"/> pāṭṭiyaṟ <gap reason="ellipsis"/>
+  
      <pb facs="0" n="5r"/>
  <milestone unit="left-margin"/>
   <lb n="1-2"/><seg function="intertitle">tiruṉāṭṭucciṟappu</seg>
@@ -178,6 +182,9 @@
 <lb n="3" break="no"/>ṉuccakiṟa
 <lb n="4" break="no"/>vaṟtiṉāya
 <lb n="5" break="no"/>ṉār purāṇa<seg rend="grantha">=m</seg></seg> <g ref="#pcs"/> <g ref="#pcs"/>
+    <milestone unit="main-text-area"/>
+<lb n="6"/><gap reason="ellipsis"/> viḷampalāmō <g ref="#pcs"/> 35 <g ref="#pcs"/> <seg function="completion-statement"><unclear>tim</unclear> tiruṉāṭṭucciṟa
+  <lb n="7" break="no"/>ppu muṟṟum</seg> <g ref="#pcs"/> <seg function="total-stanzas">{Āka} 8 10 5</seg> <g ref="#pcs"/> <seg function="TBC">vēṟu</seg> <g ref="#pcs"/> coṉṉa <gap reason="ellipsis"/>
   
      <pb facs="0" n="14r"/>
  <milestone unit="left-margin"/>
@@ -186,8 +193,7 @@
      <pb facs="0" n="15r"/>
  <milestone unit="left-margin"/>
   <lb n="1-3"/><seg function="intertitle">taṭu<unclear>t</unclear>tāṭkoṇṭār purāṇa<seg rend="grantha">=m</seg></seg> 
-  
-       
+         
     <pb facs="0" n="33v"/>
   <lb n="4"/><gap reason="ellipsis"/> <g ref="#pcs"/> <seg function="completion-statement">koṇṭār purāṇamuṟṟum</seg> <g ref="#pcs"/> <seg function="total-stanzas">{Āka} 3 100 5 10</seg> <g ref="#pcs"/> <seg function="blessing">tirucciṟṟampala<seg rend="grantha">m</seg></seg> <g ref="#pcl"/>
   
@@ -201,18 +207,51 @@
   <lb n="5"/>49<note xml:lang="en">that is, foliation</note>  
   <lb n="6"/><seg function="intertitle">mutar kāṇṭa<seg rend="grantha"/>m<note xml:lang="en">unblackened, addendum</note></seg>  
     
-     <pb facs="0" n="54r"/>
+     <pb facs="0" n="50r"/>
  <milestone unit="left-margin"/>
-  <lb n="1-3"/><seg function="intertitle"><gap reason="ellipsis"/> purāṇa<seg rend="grantha">=m</seg></seg> <g ref="#pcs"/>  
+  <lb n="1-4"/><seg function="intertitle">tirunīlakaṇṭaṉāyaṉār purāṇam</seg> <g ref="#pcs"/>  
+  
+  <pb facs="0" n="54r"/>
+ <milestone unit="left-margin"/>
+  <lb n="1-3"/><seg function="intertitle">yiyaṟpa<unclear reason="vowel_unclear">kai</unclear>nāyaṉār purāṇa<seg rend="grantha">=m</seg></seg> <g ref="#pcs"/>  
+  
+  <pb facs="0" n="58r"/>
+ <milestone unit="left-margin"/>
+  <lb n="1-5"/><seg function="intertitle">yilaiyāṉṟaṉ kuṭi māṟa nāyaṉār purāṇam</seg> <g ref="#pcs"/>  
+  
+   <pb facs="0" n="61r"/>
+ <milestone unit="left-margin"/>
+  <lb n="1-4"/><seg function="intertitle">meyya poruṉāyaṉār purāṇam</seg> <g ref="#pcs"/>  
   
      <pb facs="0" n="64r"/>
  <milestone unit="left-margin"/>
-  <lb n="1-4"/><seg function="intertitle"><gap reason="ellipsis"/> purāṇam</seg> <g ref="#pcs"/>  
+  <lb n="1-4"/><seg function="intertitle">viral miṇṭa nāyaṉār purāṇam</seg> <g ref="#pcs"/>  
   
      <pb facs="0" n="65r"/>
  <milestone unit="left-margin"/>
-  <lb n="1-5"/><seg function="intertitle"><gap reason="ellipsis"/> purāṇam</seg> <g ref="#pcs"/>  
+  <lb n="1-5"/><seg function="intertitle">Amar nīti nāyaṉār purāṇam</seg> <g ref="#pcs"/>  
+  
+       <pb facs="0" n="71r"/>
+ <milestone unit="left-margin"/>
+  <lb n="1-2"/><seg function="intertitle">Ilai malinta carukkam</seg> <g ref="#pcs"/><note xml:lang="en">lines 1-2 unblackened</note>
+  <lb n="3-5"/><seg function="intertitle">Eṟi patta nāyaṉār purāṇam</seg> <g ref="#pcs"/>  
+  
+  <pb facs="0" n="78r"/>
+ <milestone unit="left-margin"/>
+    <lb n="1-4"/><seg function="intertitle"><gap reason="ellipsis"/> nāyaṉār purāṇam</seg> <g ref="#pcs"/>  
 
+    <pb facs="0" n="84r"/>
+ <milestone unit="left-margin"/>
+    <lb n="1-4"/><seg function="intertitle"><gap reason="ellipsis"/> nāyaṉār purāṇam</seg> <g ref="#pcs"/>  
+  
+    <pb facs="0" n="108r"/>
+ <milestone unit="left-margin"/>
+    <lb n="1-4"/><seg function="intertitle"><gap reason="ellipsis"/> nāyaṉār purāṇam</seg> <g ref="#pcs"/>  
+  
+    <pb facs="0" n="112r"/>
+ <milestone unit="left-margin"/>
+    <lb n="1-3"/><seg function="intertitle"><gap reason="ellipsis"/> nāyaṉār purāṇa<seg rend="grantha">=m</seg></seg> <g ref="#pcs"/>  
+  
        <pb facs="0" n="117r"/>
  <milestone unit="left-margin"/>
   <lb n="1-4"/><seg function="intertitle"><gap reason="ellipsis"/> purāṇam</seg> <g ref="#pcs"/> 
@@ -225,33 +264,248 @@
   <milestone unit="left-margin"/>
   <lb n="1"/>100 10 9 kki
 <lb n="2"/>100 2 10 kki
-<lb n="3"/>naṭu
+<lb n="3"/>naṭu <note xml:lang="en">“[That which is in] between [literally: the middle to] [folio] 119 [and folio] 120.”</note>
+  
+  <pb facs="0" n="122r"/>
+ <milestone unit="left-margin"/>
+  <lb n="1-2"/><seg function="intertitle">mummaiyāl ulakāṇṭa carukka<seg rend="grantha">=m</seg></seg> <g ref="#pcs"/><note xml:lang="en">lines 1-2 unblackened</note>
+  <lb n="3-7"/><seg function="intertitle">mūṟti nāyaṉār purāṇam</seg> <g ref="#pcs"/>  
+  
+  <pb facs="0" n="127r"/>
+  <milestone unit="left-margin"/>
+  <lb n="1-3"/><seg function="intertitle">murukanāyanār purāṇa<seg rend="grantha">m</seg></seg> <g ref="#pcs"/> 
+  
+  <pb facs="0" n="129r"/>
+  <milestone unit="left-margin"/>
+  <lb n="1-3"/><seg function="intertitle"><gap reason="ellipsis"/> nāyanār purāṇam</seg> <g ref="#pcs"/> 
+  
+   <pb facs="0" n="130r"/>
+  <milestone unit="left-margin"/>
+  <lb n="1-4"/><seg function="intertitle"><gap reason="ellipsis"/> nāyanār purāṇam</seg> <g ref="#pcs"/> 
   
  <pb facs="0" n="134r"/>
  <milestone unit="left-margin"/>
   <lb n="1-4"/><seg function="intertitle"><gap reason="ellipsis"/> purāṇam</seg> <g ref="#pcs"/>  
   
+   <pb facs="0" n="151r"/>
+  <milestone unit="left-margin"/>
+  <lb n="1-3"/><seg function="intertitle"><gap reason="ellipsis"/> nāyanār purāṇam</seg> <g ref="#pcs"/> 
+  
+   <pb facs="0" n="159r"/>
+  <milestone unit="left-margin"/>
+  <lb n="1-3"/><seg function="intertitle"><gap reason="ellipsis"/> carukkam</seg> <g ref="#pcs"/> <g ref="#pcs"/><note xml:lang="en">lines 1-3 unblackened</note>
+  
+  <pb facs="0" n="208r"/>
+  <milestone unit="left-margin"/>
+  <lb n="1-4"/><seg function="intertitle"><gap reason="ellipsis"/> ṉāyanār purāṇa<seg rend="grantha">=m</seg></seg> <g ref="#pcl"/> 
+  
+  <pb facs="0" n="208v"/>
+  <milestone unit="left-margin"/>
+  <lb n="1-4"/><seg function="intertitle"><gap reason="ellipsis"/> ṉāyanār purāṇa<seg rend="grantha">=m</seg></seg>
+  
+   <pb facs="0" n="209v"/>
+  <milestone unit="left-margin"/>
+  <lb n="1-4"/><seg function="intertitle"><gap reason="ellipsis"/> ṉāyanār purāṇam</seg> <g ref="#pcs"/>
+  
+    <pb facs="0" n="214v"/>
+  <milestone unit="left-margin"/>
+  <lb n="1-3"/><seg function="intertitle"><gap reason="ellipsis"/> ṉāyanār purāṇa<seg rend="grantha">=m</seg></seg>
+  
+      <pb facs="0" n="218r"/>
+  <milestone unit="left-margin"/>
+  <lb n="1-3"/><seg function="intertitle"><gap reason="ellipsis"/> ṉāyanār purāṇa<seg rend="grantha">=m</seg></seg>
+  
+      <pb facs="0" n="220v"/>
+  <milestone unit="left-margin"/>
+  <lb n="1-4"/><seg function="intertitle"><gap reason="ellipsis"/> ṉāyanār puṟāṇa<seg rend="grantha">=m</seg></seg> <g ref="#pcs"/>
+  
+  <pb facs="0" n="222r"/>
+  <milestone unit="left-margin"/>
+  <lb n="1"/><seg function="intertitle">puṟāṇa<seg rend="grantha">=m</seg></seg>
+  
+  <pb facs="0" n="222v"/>
+  <milestone unit="left-margin"/>
+  <lb n="1"/><seg function="blessing">tirucciṟṟampa
+  <lb n="2" break="no"/>lam</seg> <g ref="#pcs"/> <seg function="intertitle">Iraṇṭā
+  <lb n="3" break="no"/>m kaṇṭam</seg> <seg function="intertitle">vam
+  <lb n="4" break="no"/>paṟā varivaṇṭuc
+  <lb n="5"/>carukkam</seg> <unclear><g ref="#pcs"/></unclear> <seg function="intertitle">tiru <g ref="#pcs"/>
+  <lb n="6" break="no"/>ñāṉa campanta
+  <lb n="7"/>piḷḷaiyār
+  <lb n="8"/>purāṇam</seg> <g ref="#pcs"/>
+  
+  <pb facs="0" n="303r"/>
+  <milestone unit="left-margin"/>
+  <lb n="1"/><seg function="intertitle">purāṇa<seg rend="grantha">=m</seg></seg>
+  
+  <pb facs="0" n="303v"/>
+  <milestone unit="left-margin"/>
+  <lb n="1-4"/><seg function="intertitle"><gap reason="ellipsis"/> ṉāyanār purāṇam</seg> <g ref="#pcl"/>
+  
+  <pb facs="0" n="330r"/>
+  <milestone unit="left-margin"/>
+  <lb n="1-3"/><seg function="intertitle">tirumūlaṉāyanār purāṇam</seg> <g ref="#pcs"/>
+  
+    <pb facs="0" n="333r"/>
+  <milestone unit="left-margin"/>
+  <lb n="1-3"/><seg function="intertitle"><gap reason="ellipsis"/> ṉāyanār purāṇam</seg>
+  
+    <pb facs="0" n="335r"/>
+  <milestone unit="left-margin"/>
+  <lb n="1-3"/><seg function="intertitle"><gap reason="ellipsis"/> ṉāyanār purā <term xml:lang="en">{line-filler: 1 circle}</term> ṇam</seg> <g ref="#pcl"/>
+  
+  <pb facs="0" n="336r"/>
+  <milestone unit="left-margin"/>
+  <lb n="1-2"/><seg function="intertitle"><gap reason="ellipsis"/> ṉāyanār purāṇam</seg>
+   <lb n="3-5"/><seg function="intertitle"><gap reason="ellipsis"/> ṉāyanār purāṇa<seg rend="grantha">=m</seg></seg><g ref="#pcs"/>
+  
+  <pb facs="0" n="337v"/>
+  <milestone unit="left-margin"/>
+  <lb n="1-3"/><seg function="intertitle"><gap reason="ellipsis"/> ṉāyanār purāṇa<seg rend="grantha">=m</seg></seg><g ref="#pcl"/>
+  
+  <pb facs="0" n="338r"/>
+  <milestone unit="left-margin"/>
+  <lb n="1-3"/><seg function="intertitle"><gap reason="ellipsis"/> ṉāyanār purāṇa<seg rend="grantha">=m</seg></seg>
+  
+  <pb facs="0" n="344r"/>
+  <milestone unit="left-margin"/>
+  <lb n="1-3"/><seg function="intertitle"><gap reason="ellipsis"/> purāṇam</seg><g ref="#pcs"/>
+  
+  <pb facs="0" n="357r"/>
+  <milestone unit="left-margin"/>
+  <lb n="1"/><seg function="intertitle">purāṇa<seg rend="grantha">=m</seg></seg>
+  
+  <pb facs="0" n="357v"/>
+  <milestone unit="left-margin"/>
+  <lb n="1-3"/><seg function="intertitle"><gap reason="ellipsis"/> ṉāyanār puṟāṇa<seg rend="grantha">=m</seg></seg><g ref="#pcl"/>
+  
      <pb facs="0" n="358r"/>
  <milestone unit="left-margin"/>
-  <lb n="1-2"/><seg function="intertitle">kūṟṟaṉāyaṉār purāṇa<seg rend="grantha">=m</seg></seg>
+  <lb n="1-2"/><seg function="intertitle">kūṟṟaṉāyaṉār puṟāṇa<seg rend="grantha">=m</seg></seg>
   
      <pb facs="0" n="359r"/>
  <milestone unit="left-margin"/>
   <lb n="1-3"/><seg function="intertitle">poyyaṭimai yillāta caruk=kam</seg> <g ref="#pcs"/>  
   <lb n="4-6"/><seg function="intertitle">poyyaṭimai yillāta purāṇa<seg rend="grantha">=m</seg></seg> <g ref="#pcs"/>  
   
+  <pb facs="0" n="359v"/>
+  <milestone unit="left-margin"/>
+  <lb n="1-3"/><seg function="intertitle"><gap reason="ellipsis"/>ṉāyanār puṟāṇam</seg><g ref="#pcs"/>
+  
+  <pb facs="0" n="363r"/>
+  <milestone unit="left-margin"/>
+  <lb n="1-3"/><seg function="intertitle"><gap reason="ellipsis"/> puṟāṇam</seg>
+  
+  <pb facs="0" n="364r"/>
+  <milestone unit="left-margin"/>
+  <lb n="1-3"/><seg function="intertitle"><gap reason="ellipsis"/> puṟāṇam</seg> <g ref="#pcs"/>
+  
+    <pb facs="0" n="365v"/>
+  <milestone unit="left-margin"/>
+  <lb n="1-3"/><seg function="intertitle"><gap reason="ellipsis"/> ṉāyaṉār puṟāṇam</seg>
+  
+      <pb facs="0" n="366v"/>
+  <milestone unit="left-margin"/>
+  <lb n="1-3"/><seg function="intertitle"><gap reason="ellipsis"/> ṉāyaṉār puṟāṇam</seg> <g ref="#pcs"/>
+  
      <pb facs="0" n="368r"/>
  <milestone unit="left-margin"/>
-  <lb n="1-3"/><seg function="intertitle">cattiyaṉāyaṉār purāṇam</seg> <g ref="#pcs"/>     
+  <lb n="1-3"/><seg function="intertitle">cattiyaṉāyaṉār puṟāṇam</seg> <g ref="#pcl"/> 
+  
+  <pb facs="0" n="368v"/>
+ <milestone unit="left-margin"/>
+  <lb n="1-3"/><seg function="intertitle"><gap reason="ellipsis"/> ṉāyaṉār puṟāṇam</seg> <g ref="#pcs"/> 
+  
+  <pb facs="0" n="369v"/>
+ <milestone unit="left-margin"/>
+  <lb n="1-2"/><seg function="intertitle"><gap reason="ellipsis"/>c carukkam<seg rend="grantha">=m</seg></seg>
+  <lb n="3-4"/><seg function="intertitle"><gap reason="ellipsis"/> puṟāṇa<seg rend="grantha">=m</seg></seg>
+  
+    <pb facs="0" n="370v"/>
+ <milestone unit="left-margin"/>
+  <lb n="1-2"/><seg function="intertitle"><gap reason="ellipsis"/> purāṇam</seg> <g ref="#pcs"/> 
+  
+      <pb facs="0" n="371r"/>
+ <milestone unit="left-margin"/>
+  <lb n="1-3"/><seg function="intertitle"><gap reason="ellipsis"/> ṉāyaṉār purāṇam</seg> <g ref="#pcs"/> 
+  
+        <pb facs="0" n="372r"/>
+ <milestone unit="left-margin"/>
+  <lb n="1-2"/><seg function="intertitle"><gap reason="ellipsis"/> purāṇam</seg> <g ref="#pcs"/> 
+
+          <pb facs="0" n="372v"/>
+ <milestone unit="left-margin"/>
+  <lb n="1-3"/><seg function="intertitle"><gap reason="ellipsis"/> purāṇam</seg> <g ref="#pcs"/> 
+  
+          <pb facs="0" n="373v"/>
+ <milestone unit="left-margin"/>
+  <lb n="1-2"/><seg function="intertitle">kaṭal cūḻnta carukkam</seg> <g ref="#pcs"/> 
+  <lb n="3-4"/><seg function="intertitle">kaḻaṟ ciṅka-ṉāyaṉār puṟāṇa<seg rend="grantha">=m</seg></seg>
+  
+  <pb facs="0" n="374v"/>
+ <milestone unit="left-margin"/>
+  <lb n="1-3"/><seg function="intertitle"><gap reason="ellipsis"/> ṉāyaṉārpuṟāṇam</seg>
+  
+    <pb facs="0" n="375v"/>
+ <milestone unit="left-margin"/>
+  <lb n="1-3"/><seg function="intertitle"><gap reason="ellipsis"/> ṉāyaṉā puṟāṇam</seg> <g ref="#pcs"/>
+  
+    <pb facs="0" n="376v"/>
+ <milestone unit="left-margin"/>
+  <lb n="1-3"/><seg function="intertitle"><gap reason="ellipsis"/> puṟāṇa<seg rend="grantha">=m</seg></seg>
+  
+    <pb facs="0" n="377r"/>
+ <milestone unit="left-margin"/>
+  <lb n="1-3"/><seg function="intertitle"><gap reason="ellipsis"/> ṉāyaṉār puṟāṇam</seg> <g ref="#pcs"/>
+  
+      <pb facs="0" n="378r"/>
+ <milestone unit="left-margin"/>
+  <lb n="1-3"/><seg function="intertitle"><gap reason="ellipsis"/> caruk=kam</seg> <g ref="#pcl"/>
+  <lb n="4"/><seg function="intertitle"><gap reason="ellipsis"/> puṟāṇa<seg rend="grantha">=m</seg></seg> <g ref="#pcs"/>
+  
+      <pb facs="0" n="379v"/>
+ <milestone unit="left-margin"/>
+  <lb n="1-3"/><seg function="intertitle"><gap reason="ellipsis"/> puṟāṇam</seg> <g ref="#pcs"/>
+  
+      <pb facs="0" n="380r"/>
+ <milestone unit="left-margin"/>
+  <lb n="1-4"/><seg function="intertitle"><gap reason="ellipsis"/> puṟāṇa<seg rend="grantha">=m</seg></seg> <g ref="#pcl"/>
+  <lb n="5-6"/><seg function="intertitle"><gap reason="ellipsis"/> puṟāṇa<seg rend="grantha">=m</seg></seg>
+  
+        <pb facs="0" n="380v"/>
+ <milestone unit="left-margin"/>
+  <lb n="1-3"/><seg function="intertitle"><gap reason="ellipsis"/> puṟāṇam</seg>
+  <lb n="4-5"/><seg function="intertitle"><gap reason="ellipsis"/> ṉayaṉār puṟāṇam</seg> <g ref="#pcs"/>
+  
+  <pb facs="0" n="382r"/>
+ <milestone unit="left-margin"/>
+  <lb n="1-3"/><seg function="intertitle"><gap reason="ellipsis"/> puṟāṇa<seg rend="grantha">=m</seg></seg> <g ref="#pcs"/>
+  
+    <pb facs="0" n="382v"/>
+ <milestone unit="left-margin"/>
+  <lb n="1-4"/><seg function="intertitle"><gap reason="ellipsis"/> caruk=kam</seg> <seg function="intertitle"><gap reason="ellipsis"/> puṟāṇa<seg rend="grantha">=m</seg></seg>
+  
+  <pb facs="0" n="384v"/>
+ <milestone unit="left-margin"/>
+  <lb n="1-3"/><seg function="intertitle"><gap reason="ellipsis"/> puṟāṇam</seg> <g ref="#pcs"/>
+  
+  <pb facs="0" n="385r"/>
+ <milestone unit="left-margin"/>
+  <lb n="1-2"/><seg function="intertitle"> ṉāyaṉār puṟāṇa<seg rend="grantha">m</seg></seg> <g ref="#pcs"/>
+  
  <pb facs="0" n="386r"/>
  <milestone unit="left-margin"/>
-  <lb n="1-3"/><seg function="intertitle">ceṅkaṭcōḻar purāṇam</seg> <g ref="#pcs"/>  
+  <lb n="1-3"/><seg function="intertitle">ceṅkaṭcōḻar puṟāṇam</seg> <g ref="#pcs"/>  
+  
+   <pb facs="0" n="388r"/>
+ <milestone unit="left-margin"/>
+  <lb n="1-4"/><seg function="intertitle"> ṉāyaṉār puṟāṇam</seg> 
   
   <pb facs="0" n="390r"/>
  <milestone unit="left-margin"/>
-  <lb n="1"/><seg function="intertitle">caṭaiyaṉāyaṉār purāṇam</seg> 
-  <lb n="1"/><seg function="intertitle">Icaiñāṉiyār purāṇa<seg rend="grantha">=m</seg></seg> 
-  <lb n="3-4"/><seg function="intertitle">tiruveḷḷāṇaiccarukkam</seg> <g ref="#pcs"/> 
+  <lb n="1"/><seg function="intertitle">caṭaiyaṉāyaṉār puṟāṇam</seg> 
+  <lb n="1"/><seg function="intertitle">Icaiñāṉiyār puṟāṇa<seg rend="grantha">=m</seg></seg> 
+  <lb n="3-4"/><seg function="intertitle">tiruveḷḷāṉaiccarukkam</seg> <g ref="#pcs"/> 
   
    <pb facs="0" n="398v"/>
   <lb n="1"/><gap reason="ellipsis"/> <g ref="#pcs"/> 52 <g ref="#pcs"/> <seg function="explicit">Eṉṟum iṉpam perukum iyalpiṉāl oṉṟu kātaliṉ uḷḷamum ōṅkiṭa
