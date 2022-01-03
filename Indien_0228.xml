@@ -1,0 +1,110 @@
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><title xml:lang="fr">Dictionnaire Malabar</title>/ <title xml:lang="ta">pēyarakarāti</title></title>
+            
+         <editor><persName>Neela Bhaskar</persName><orgName>Universität Hamburg</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2022</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Indien 228</idno>
+                  <idno type="alternate"/>
+               </msIdentifier>
+               <msContents class="#STM">
+                  <summary>This is part one of two of a dictionary. Part one is a dictionary on nouns (<term xml:lang="ta">pēyarakarāti</term> = presumably <term xml:lang="ta">peyarakarāti</term>). Interestingly, the second part is the famous '<term xml:lang="ta">caturakarāti</term>' by Beschi.</summary>
+                  
+               <msItem defective="false" class="#illakkanam"><title xml:lang="ta">Dictionnaire Malabar</title><author xml:lang="en">(presumably Beschi?)</author><textLang mainLang="tam"/><filiation><p>Bnf Indien 229 contains the second part of this text.</p></filiation><incipit xml:lang="ta-Taml"><milestone n="2v" unit="folio"/><milestone unit="margin"/> <lb n="1"/> ஹரி: ஓம் <lb n="2"/> நன்றாக <lb n="3"/> குரு வாழ்க <lb n="4"/> பேயர <lb n="5"/> கராதி.
+<lb n="1"/> அகக்காழ் - உள்வயிரம்
+<lb n="2"/> அகக்காழ் - உள்வயிரம்
+<lb n="3"/> அகங்கை - உள்ளங்கை
+<lb n="4"/> அகடு - உள் - நடு - பொல்லா <lb n="5"/> ங்கு - வயிறு
+<lb n="6"/> அகணி - உள் மருதனிலம் <lb n="7"/> வயல்
+<lb n="7"/> அகணிதம் - எண்ணிக்கையின்<lb n="8"/>மை...
+
+</incipit><explicit xml:lang="ta-Taml"><milestone n="199r" unit="folio"/><milestone n="1" unit="margin"/> <lb n="1"/> குறிப்பு
+<lb n="2"/> வைப்பு - இடம், உளர்
+<lb n="3"/> வையகம் - பூமி
+<lb n="4"/> வையம் - உரொகணி, தண்டிகை
+தேர் - பூமி - பெருமை - வண்டி
+<lb n="5"/> ல் - முனிவர்கள்
+<lb n="6"/> வையாளிவீதி - குதிரையை நடத்தும்
+<lb n="7"/> வீதி
+
+<milestone n="2" unit="margin"/>
+
+<lb n="1"/>வெள்வல் - கொள்வளையிடல்
+<lb n="2"/> பிடித்தல் - வாருதல்
+<lb n="3"/> வெள்வியம் - துன்பம்
+<lb n="4"/> வவ்வரித்தொகுதி முற்றும்
+
+</explicit><finalRubric xml:lang="ta"><mileston n="199r" unit="folio"/><milestone n="2" unit="margin"/>
+ <lb n="5"/> பேயரகராதி முற்றும். உ</finalRubric></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="pothi">
+                     <supportDesc material="palm-leaf">
+                        <support>
+                           <measure unit="stringhole" quantity="2"/>
+                           
+                        </support>
+                        <extent>
+                           <measure unit="folio" quantity="200">1 guard folio out of wood in the front. </measure>
+                           <dimensions type="leaf" unit="mm">
+                              <width quantity="410"/>
+                              <height quantity="35"/>
+                           </dimensions>
+                           <dimensions type="written" unit="mm">
+                              <width min="350" max="370"/>
+                              <height quantity="30"/>
+                           </dimensions>
+                        <dimensions type="object" unit="mm"><depth quantity="125"/></dimensions><dimensions type="written" unit="mm"/></extent>
+                        <collation/>
+                        
+                        
+                     <foliation>Arabic numerals on the verso of each folio. Consistent.</foliation><condition>Very good state of preservation	</condition></supportDesc>
+                     <layoutDesc>
+                        <layout columns="4" writtenLines="7" ruledLines="7"/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc><handNote script="tamil" scope="sole" scriptRef="#tamilPulliNone" medium="soot"><desc>Even the short '<term xml:lang="ta">e</term>' is rendered with a double '<term xml:lang="ta">kompu</term>' that is used for the long '<term xml:lang="ta">ē</term>'. </desc></handNote></handDesc>
+                  <decoDesc>
+                  </decoDesc>
+                  <additions>
+                  </additions>
+                  <bindingDesc>
+                     <binding/>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian"/>
+                     
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <listBibl>
+                     
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         
+      <p>I have added <term xml:lang="ta">puḷḷi</term>-s in my transcription, and rendered even the hypercorrected '<term xml:lang="ta">ē</term>' as such. Thus, I surmise that '<term xml:lang="ta">pēyarakarāti</term>' is '<term xml:lang="ta">peyarakarāti</term>' — the dictionary on nouns.</p></encodingDesc>
+      <revisionDesc>
+         
+      <change when="2022-01">First version.</change></revisionDesc>
+   </teiHeader>
+   <facsimile>
+   </facsimile>
+</TEI>

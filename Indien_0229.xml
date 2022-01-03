@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><title xml:lang="fr">Dictionnaire Malabare - Seconde partie.</title></title>
+            
+         <editor><persName>Neela Bhaskar</persName><orgName>Universität Hamburg</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2022</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Indien 229</idno>
+                  <idno type="alternate"/>
+               </msIdentifier>
+               <msContents class="#STM">
+                  <summary><p>Part two of Beschi's Dictionary '<term xml:lang="ta">caturakarāti</term>'. The first part is in <ref target="Indien_0228.xml">Indien 228</ref>, but not titled '<term xml:lang="ta">caturakarāti</term>'. It is instead called '<term xml:lang="ta">pēyarakarāti</term>', but appears in content to be the <term xml:lang="ta">caturakarāti</term>.</p>
+
+<p>A minor note: Although this part two claims to document the entries ranging from <term xml:lang="ta">ṟa-ṉa</term> (the first part having covered entries from <term xml:lang="ta">a-va</term>), the text appears to begin with '<term xml:lang="ta">a</term>' entries, and progresses also into '<term xml:lang="ta">va</term>'. The entries are different from those in part one (Indien 228). This information is derived from the older manuscript <locus facs="1">cataloguing label</locus>, and is presumably a mistake, as anyway, there are no Tamil words beginning with <term xml:lang="ta">ṟa</term> or <term xml:lang="ta">ṉa</term>.</p></summary>
+                  
+               <msItem defective="false" class="#illakkanam"><title xml:lang="ta">Dictionnaire Malabare/caturakarāti</title><textLang mainLang="tam"/><filiation><p><ref target="Indien_0228.xml">BNF Indien 228</ref> is part one of this text.</p></filiation><incipit xml:lang="ta-Taml"><milestone n="1r" facs="3" unit="folio"/><note xml:lang="en">title</note> <term xml:lang="fr">Dictionnaire Malabare - Seconde partie.</term> <milestone n="2v" facs="3" unit="folio"/><milestone unit="left-margin"/> <lb n="1"/> ஹரி: ஓம் <lb n="2"/> இரண்டாவது <lb n="3"/> பொருளகராதி. <note xml:lang="en">body of text</note>  அகத்தியன் பெயர் — கும்பமுனி, குறுமுனி, முத்தமிழுக்குரியோன். கத்தியன் பேயர் - அச்சமசரீரம் - முனி. அகப்பையின் பேர். கோரிகை…
+</incipit><explicit xml:lang="ta-Taml"><milestone n="424r" facs="235" unit="folio"/><lb n="2"/>என்னை என்னாற் சூட்டினும் மெத்துரை காட்டினுமன்னூற்கெல்<lb n="3"/>லாமறிவாதி யெனவெ - தொடையகராதி முற்றும். உ. சதுரகராதி முற்றும். உ</explicit><finalRubric xml:lang="ta-Taml"><milestone n="424r" facs="235" unit="folio"/><lb n="7"/><note xml:lang="en">last part of auspicious verse</note> தாய் துணை செய்வீ<pb n="424v" facs="236"/>ராரியனென்னும் வெதியன்றாராய் முடித்த சதுரகராதியெ. உ.</finalRubric></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="pothi">
+                     <supportDesc material="palm-leaf">
+                        <support>
+                           <measure unit="stringhole"/>
+                        </support>
+                        <extent>
+                           <measure unit="folio" quantity="202">1 guard folio</measure>
+                           <dimensions type="leaf" unit="mm">
+                              <width quantity="410" min="35"/>
+                              
+                           </dimensions>
+                        <dimensions type="object" unit="mm"><depth quantity="125"/></dimensions><dimensions type="written" unit="mm"><width min="350" max="370"/><height quantity="30"/></dimensions></extent>
+                        <collation/>
+                        
+                        
+                     <foliation>Arab numerals on left margin. This manuscript is presumably meant as a continuation on Indien 228, which ends with folio number '200'. </foliation><condition>Very good state of preservation	</condition></supportDesc>
+                     <layoutDesc>
+                        <layout columns="4" writtenLines="7"/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc><handNote scope="sole" script="tamil" scriptRef="#tamilPulliNone" medium="soot"><desc>Same hand as in BNF Indien 202.</desc></handNote></handDesc>
+                  <decoDesc>
+                  </decoDesc>
+                  <additions>
+                  </additions>
+                  <bindingDesc>
+                     <binding><p>bound by rope</p></binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian"/>
+                     
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <listBibl>
+                     
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         
+      <p>I have added <term xml:lang="ta">puḷḷi</term>-s in my transcription, and have represented vowel length as found in the manuscript. </p></encodingDesc>
+      <revisionDesc>
+         
+      <change when="2022-01">First version.</change></revisionDesc>
+   </teiHeader>
+   <facsimile>
+   <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10090592z/manifest.json"/></facsimile>
+</TEI>
