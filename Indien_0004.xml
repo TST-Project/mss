@@ -44,7 +44,14 @@
                               <width quantity="275"/>
                               <height quantity="35"/>
                            </dimensions>
-                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
+                        <dimensions type="object" unit="mm">
+                            <depth quantity="50"/>
+                        </dimensions>
+                        <dimensions type="written" unit="mm">
+                            <width min="225" max="240"/>
+                            <height quantity="30"/>
+                        </dimensions>
+                        </extent>
                         
                         
                         
@@ -101,7 +108,8 @@
 <p>Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only).  </p>  <p><emph rend="bold">Abbreviations</emph></p>  <p> c = column, f = folio, lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.</p>       </p></encodingDesc>
       <revisionDesc>
          
-      <change when="2020-04"> This catalogue entry has been redacted by Emmanuel FRANCIS (CNRS, CEIAS UMR 8564, EHESS &amp; CNRS) for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG). Version 1, April 2020. </change><change when="2021-06">Updated to TST encoding conventions by Emmanuel FRANCIS.</change></revisionDesc>
+      <change when="2020-04"> This catalogue entry has been redacted by Emmanuel FRANCIS (CNRS, CEIAS UMR 8564, EHESS &amp; CNRS) for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG). Version 1, April 2020. </change><change when="2021-06">Updated to TST encoding conventions by Emmanuel FRANCIS.</change><change when="2022-01">Added written dimensions and bundle depth (Charles LI).</change>
+      </revisionDesc>
    </teiHeader>
     <sourceDoc>
         <surface/>
