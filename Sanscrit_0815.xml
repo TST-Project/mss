@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> Dharmaśāstra Works (Ducler Dharmaśāstra, volume 1)     </title>
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2022</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Sanscrit 815</idno>
+                  <idno type="alternate"><idno>Sanscrit Grantha 3</idno></idno>
+               </msIdentifier>
+               <msContents class="#MTM">
+                  <summary>A multiple-text manuscript containing two Dharmaśāstra works copied for Ducler in 1830-1831 by Śorakkuḍi [Tamil Curakkuṭi] Kṛṣṇaśasāstrin. It contains: 
+<list rend="numbered">
+  <item>an incomplete Mitāksarā (Adhyāya 2 only, that is the Vyavahārādhyāya) (U1)</item>
+  <item>the Vyavahāranirṇaya by Varadarāja (U3, f155v), apparently preceded by an unidentified work (U3, f149r)</item>
+  </list></summary>
+                  
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="sa">Mitāksarā, Vyavahārādhyāya</title><author xml:lang="sa">Vijñāneśvara</author><textLang mainLang="san"/></msItem><msItem synch="#U3" xml:id="T2" defective="false"><title xml:lang="sa">Vyavahāranirṇaya</title><author xml:lang="sa">Varadarāja</author><textLang mainLang="san"/></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="pothi">
+                     <supportDesc material="palm-leaf">
+                        <support>
+                           <measure unit="stringhole" quantity="2"/>
+                           
+                        </support>
+                        <extent>
+                           <measure unit="folio" quantity="288">148 + [1] + 139 (U1 + U2 + U3).</measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           <width quantity="380"/><height quantity="35"/></dimensions>
+                        <dimensions type="object" unit="mm"><width quantity="380"/><height quantity="35"/><depth quantity="170"/></dimensions><dimensions type="written" unit="mm"/></extent>
+                        <collation><desc xml:id="cover">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">148 folios = <emph rend="bold"><title xml:lang="sa">Mitāksarā, Vyavahārādhyāya</title></emph>. Tamil foliation [1]-148. Parallel Arabic foliation 149-287.</desc><desc xml:id="U2">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso.
+</desc><desc xml:id="U3">139 folios = <emph rend="bold"><title xml:lang="sa">Vyavahāranirṇaya</title></emph>. Tamil foliation [1]-139. Parallel Arabic foliation 149-287.</desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>.</desc></collation>
+                        
+                        
+                     <foliation>Tamil foliation [1]-148 for U1, [1]-139 for U3. Continuous parallel Arabic foliation 1-287 for U1 and U3. No foliation for U2.</foliation><condition>Excellent state of preservation.</condition></supportDesc>
+                     <layoutDesc>
+                        
+                     <layout columns="1"/></layoutDesc>
+                  </objectDesc>
+                  <handDesc><handNote synch="#U1 #U3" scope="major" scribeRef="#DuclerScribe" script="grantha" medium="incised soot"/></handDesc>
+                  <decoDesc>
+                  </decoDesc>
+                  <additions>
+                  <desc synch="#cover" type="shelfmark" subtype="cover front">Tamil letter  <quote xml:lang="ta">ṇa</quote> engraved (<locus facs="0">front cover, verso</locus> and <locus facs="0">back cover, recto</locus>).</desc><desc synch="#cover" subtype="back cover">BnF shelfmark sticker: <quote>SANSCRIT 815</quote> (<locus facs="0">back cover, verso</locus>). Pasted over another sticker, which looks like a Burnouf's sticker.</desc></additions>
+                  <bindingDesc>
+                     <binding><p>Original <material>ebony</material> covers. 380 x 35 mm.</p></binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian" notAfter="1831" notBefore="1830">Internally dated to the year <foreign xml:lang="sa">vikṛti</foreign> of the Jovian cycle, that is, CE 1830-1831. See colophons (U1, f148v2 and U3, f278r1).</origDate>
+                     
+                  <origPlace>Tamilnadu.</origPlace></origin>
+                  <provenance/>
+                  <acquisition><p>Acquired, July 22nd, 1833, from Philippe Ducler. See BnF, département des Manuscrits, inventaire 1 = <title>Acquisitions: manuscrits et imprimés documentaires, 1833-1848</title>, no. 92.</p></acquisition>
+               </history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl>Burnouf, Eugène (1832). “Rapport fait au Conseil, dans la séance du 2 juillet 1832, sur les collections de manuscrits et de dessins rapportées de l’Inde par M. Ducler, administrateur de Carical, membre de la Société asiatique.” <title>Journal asiatique</title> 10, p. 84-91. — See <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k93120f/f90">p. 90, no. 36</ref>.</bibl><bibl>Cabaton, A. (1907). <title>Catalogue sommaire des manuscrits sanscrits et pālis. 1er fascicule. Manuscrits sanscrits. Bibliothèque Nationale, Département des manuscrits.</title>. Paris: Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10536321f/f150">p. 134, no. 815</ref>.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         
+      <p><emph rend="bold">Transliteration conventions</emph> ― Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.      </p></encodingDesc>
+      <revisionDesc>
+         
+      <change when="2022-01">Record created by Emmanuel FRANCIS.</change></revisionDesc>
+   </teiHeader>
+   <facsimile>
+   </facsimile>
+<text synch="#U1" corresp="#T1" xml:lang="sa"><body>
+  
+  <pb facs="00" n="1r"/>
+  
+  <milestone unit="left-margin"/>
+   <lb n="1-2"/><seg function="blessing">hariḥ Om</seg>
+   <lb n="1-2"/><seg function="benediction">Avighnam astu</seg>
+  
+    <milestone unit="main-text-area"/>
+
+  <lb n="1"/><seg function="invocation">śuklāṃbaradharaṁ viṣṇuṁ śaśivarṇañ caturbhujaṃ ‡| prasannavadanan dhyāyēt· sarv<unclear>v</unclear>a-vighnopaśāṃtaye | <g ref="#pcl"/></seg> <seg function="benediction">śrī-gurubhyo <choice><orig>nmaḥ</orig><reg>namaḥ</reg></choice> | <g ref="#pcl"/></seg> <seg function="benediction">śubham astu <g ref="#pcl"/></seg> <seg function="incipit">Abhiṣekādiguṇai yuktasya 
+<lb n="2"/>prajāpālanaṃ paramo dharmmaḥ ‡ tac ca duṣṭanigraham antareṇa na saṃbhavati | duṣṭaparijñānaṃ ca na vyavahāradarśanam antareṇa saṃbhavati |</seg> <gap reason="ellipsis"/>
+  
+  <pb facs="00" n="148v"/>
+  
+  <lb n="1"/><seg function="explicit">daṇḍa-grahaṇe pūrvva-svāminasvatvāccheddābhāvāt· |</seg> <seg function="completion-statement">Iti parama-haṃsa-parivrājaka-vijñāneśvara-bhaṭṭa<unclear>sya</unclear> kṛtau ṛju-mitākṣarāyāṃ yājñavalkya-dharmma-<hi rend="superscript">ś</hi><del>ś</del>āstra-vivṛttau dvitīyo 'dhyāyaḥ | {pcl}</seg> 
+<lb n="2"/><seg function="blessing">hariḥ Om·</seg> <seg function="benediction">śubham astu={pcl}</seg> <seg function="colophon">vikṛti-saṃvatsaraṃ kulā-māsaṃ pañcaviṃṣad dinaṃ soma-vāsaraṃ kṛṣṇapakṣam aṣṭami maghā-nakṣatram inda śUbhadinattil· <note xml:lang="en"><term xml:lang="sa">śu</term> is written <term xml:lang="sa">śa</term>+<term xml:lang="sa">u</term></note> surakkuḍi kṛṣṇaśāstri-sva-hastattunāl· Idaṃ vyavahāra
+<lb n="3"/>kāṇḍa-pustakaṃ samāpanam āccudu | {pcl}</seg> <seg function="TBC">yadṛ<del><gap reason="illegible" quantity="1" unit="character"/></del>ṣam pustaka<unclear>n</unclear> dṛṣtvā tādṛśaṃ likhitan mayā | Abaddham subaddhaṃ vā mama doṣo na vidyate | {pcl}</seg> <seg function="benediction">Avighnam astu</seg>
+<lb n="4"/><seg function="benediction">śrī-mahāsarasvatyai <choice><orig>nmaḥ</orig><reg>namaḥ</reg></choice> | {pcl}</seg> <seg function="benediction">śrī-vedavyāsāya <choice><orig>nmaḥ</orig><reg>namaḥ</reg></choice> | {pcl}</seg> <seg function="benediction">śrī-pūrṇeśvarī-sameta-śrīma<choice><sic>da</sic><corr>d</corr></choice>-darbhāraṇyeśvara-svāmī sahāyaḥ | {pcl}</seg> <seg function="benediction">On tat sat·</seg> <seg function="benediction">śrī-kṛṣṇā<unclear>rpa</unclear>ṇam astu {pcl}</seg> <seg function="blessing">Om· {pcl}</seg>
+
+  
+  </body></text><text synch="#U3" corresp="#T2" xml:lang="sa"><body>
+  
+  <pb facs="00" n="149r"/>
+  
+  <milestone unit="left-margin"/>
+   <lb n="1-2"/><seg function="blessing">hariḥ Om</seg>
+     <lb n="3-5"/><seg function="title"><gap reason="ellipsis"/></seg>
+
+    <milestone unit="main-text-area"/>
+
+  <lb n="1"/><seg function="invocation">jñānānandamayadevaṃ nirmmalasphaṭikākṛtiṃ | Ādhāraṁ sarvvavidyānāṁ hayagrīvam upāsmahe |</seg> <gap reason="ellipsis"/>
+  
+    <pb facs="00" n="155r"/>
+  <lb n="6"/><gap reason="ellipsis"/> <seg function="completion-statement"><gap reason="ellipsis"/>
+  <lb n="7"/><gap reason="ellipsis"/> saṃpūrṇāḥ | <g ref="#pcl"/></seg> <seg function="blessing">hariḥ Om <g ref="#pcl"/></seg> <seg function="benediction">śubham astu</seg> <seg function="blessing">Om <g ref="#pcl"/></seg> <seg function="invocation">śuklāṃbaradharaṃ viṣṇuṁ śaśivarṇañ caturbhujaṃ | prasannavadanan dhyāyēt· sarva-vighnopaśāṃtaye | <g ref="#pcl"/></seg>
+    
+      <pb facs="00" n="155v"/>
+    
+    <milestone unit="left-margin"/>
+   <lb n="1-2"/><seg function="blessing">hariḥ Om</seg>
+   <lb n="3-4"/><seg function="blessing">śubham astu</seg>
+
+ <milestone unit="main-text-area"/>
+
+  <lb n="1"/><seg function="incipit">loke sarvvamanuṣyāṇāṃ vivāde lupyadharmmake | </seg><gap reason="ellipsis"/>
+    
+   <pb facs="00" n="286v"/>
+  <lb n="3"/><seg function="explicit"><gap reason="ellipsis"/> paramaṃ gatiṃ |</seg> <gap reason="ellipsis"/>
+  <lb n="4"/>
+  <lb n="5"/>
+  <lb n="6"/>
+  
+  <pb facs="00" n="287r"/>
+  <lb n="1"/>
+  <lb n="2"/>
+  <lb n="3"/>
+  <lb n="4"/>
+  <lb n="5"/>
+  
+   <pb facs="00" n="287v"/><note xml:lang="en">blank</note>
+
+
+  
+  </body></text></TEI>
