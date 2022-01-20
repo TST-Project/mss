@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -9,7 +9,7 @@
          
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -47,7 +47,7 @@
                         
                      <layout columns="1"/></layoutDesc>
                   </objectDesc>
-                  <handDesc><handNote synch="#U2" scope="major" script="tamil" medium="incised"/></handDesc>
+                  <handDesc><handNote synch="#U2" scope="major" script="tamil" medium="incised soot"/></handDesc>
                   <decoDesc>
                   </decoDesc>
                   <additions>
@@ -85,9 +85,9 @@
    <graphic url="https://didomena.ehess.fr/concern/data_sets/7m01bq56j/manifest.json"/></facsimile>
 <text synch="#U2" corresp="#T1" xml:lang="ta"><body>
   
-  <seg function="intertitle"><pb facs="6" n="1r"/>
+  <pb facs="6" n="1r"/>
   <milestone unit="left-margin"/>
-  <lb n="1"/>Aṟciyacī
+  <seg function="intertitle"><lb n="1"/>Aṟciyacī
 <lb n="2" break="no"/>ṣṭṭa tēva
 <lb n="3" break="no"/>mātāviṉ
 <lb n="4"/>ñāṉa-naṭ
@@ -96,16 +96,18 @@
 <lb n="7" break="no"/>kam<pc>-</pc>āvatu</seg>
   
    <seg function="incipit"><milestone unit="main-text-area"/>
- <lb n="1"/>parāparavas·tu-v ākiṟa caṟuvēsparaṉ<pc>-</pc>uṭaiya makimaiyai-k kāṇpikkiṟa camuttirattiṉ<pc>-</pc>uṭaiya vis·
-<lb n="2" break="no"/>tiraṇattai-p</seg> <gap reason="ellipsis"/>
+ <lb n="1"/>parāparavas·tu v<pc>-</pc>ākiṟa caṟuvēsparaṉ<pc>-</pc>uṭaiya makimaiyai-k kāṇpikkiṟa camuttirattiṉ<pc>-</pc>uṭaiya vis·
+<lb n="2" break="no"/>tiraṇattai-p pārkiṟavaṉ Eṭṭut tikkilēyum ~ patiṉāṟu kōṇaṅkaḷilēyum aṟupattu ṉālu ticaika
+     <lb n="3" break="no"/>ḷilēyum ippaṭippaṭṭa <unclear reason="vowel_unclear">ka</unclear>ṭalāṉatu karaikāṇāttumāy aḷavaṟukkappaṭattumāy irukkiṟa
+     <lb n="4" break="no"/>t<pc>’</pc> eṉṟu kaṇṭu Atiṉuṭaiya Āḻamun tāḷāttiyum emmaruvāti y<pc>-</pc>eṉṟu</seg> <gap reason="ellipsis"/>
   
    <pb facs="22" n="12v"/>
-  <lb n="2"/><gap reason="ellipsis"/> tāyarē Āmeṉṉ ēcu <g ref="#pcl"/>
+  <lb n="2"/><gap reason="ellipsis"/> Ummuṭaiya paripūṟṇa Ācīrvātattait tantaṟuḷum tāyarē Āmeṉṉ ēcu <g ref="#pcl"/>
 <seg function="completion-statement"><lb n="3"/>ñāṉa-naṣcēttira-mālaiyiṉ vivēkamu<sic>ttu</sic>m</seg> <g ref="#pcl"/> <seg function="blessing">mariyē reṭciya<seg rend="grantha">=m</seg></seg>
     
   <pb facs="23" n="13r"/>
-  <seg function="intertitle"><milestone unit="left-margin"/>
-  <lb n="1-7"/>ñāṉa-naṭcēttira-mālaiyiṉ katir<pc>-</pc>āvatu tēvamātavai vicuvācattōṭē cēvikkiṟa vakai</seg>
+  <milestone unit="left-margin"/>
+  <seg function="intertitle"><lb n="1-7"/>ñāṉa-naṭcēttira-mālaiyiṉ katir<pc>-</pc>āvatu tēvamātavai vicuvācattōṭē cēvikkiṟa vakai</seg>
   
   <pb facs="25" n="16r"/>
   <seg function="blessing"><lb n="5"/>mariya-ṉāyaki kiṟupā-kiṭāṣcam uṇṭākak kaṭavatu</seg> <g ref="#pcl"/>
@@ -113,36 +115,67 @@
     <pb facs="26" n="16v"/><note xml:lang="en">blank</note>
 
     <pb facs="27" n="17r"/>
-   <seg function="intertitle"><milestone unit="left-margin"/>
- <lb n="1-4"/>vicuvācattukk<pc>'</pc> aṭutta muntīṉ putumai-y<pc>-</pc>āvatu</seg>
+   <milestone unit="left-margin"/>
+ <seg function="intertitle"><lb n="1-4"/>vicuvācattukk<pc>'</pc> aṭutta muntiṉ putumai-y<pc>-</pc>āvatu</seg>
     
   <pb facs="32" n="20v"/>
-  <lb n="1"/>kaṭavīrkaḷ <term xml:lang="en">{cross}</term> <seg function="blessing">mariya-cakāyam</seg> <g ref="#pcl"/>
+  <lb n="1"/>vācamāy irukka kaṭavīrkaḷ <term xml:lang="en">{cross}</term> <seg function="blessing">mariya-cakāyam</seg> <g ref="#pcl"/>
   
    <pb facs="32" n="21r"/>
-   <seg function="intertitle"><milestone unit="left-margin"/>
- <lb n="1-4"/>vicuvācattukk<pc>'</pc> aṭutta Irāṇṭām putumai-y<pc>-</pc>āvatu</seg>
+   <milestone unit="left-margin"/>
+ <seg function="intertitle"><lb n="1-4"/>vicuvācattukk<pc>'</pc> aṭutta Irāṇṭām putumai-y<pc>-</pc>āvatu</seg>
  
   <pb facs="35" n="24r"/>
   <lb n="3"/><seg function="blessing">mariyē vāḻka</seg>
 <lb n="4"/><seg function="blessing">mariyē reṭciya<seg rend="grantha">=m</seg></seg> <term xml:lang="en">{cross}</term>
 
-  <seg function="intertitle"><pb n="218r"/>
+   <pb facs="00" n="25r"/>
   <milestone unit="left-margin"/>
-  <lb n="1-6"/>piṟiyatattamantirattukk<pc>’</pc> aṭutta y<pc>-</pc>iraṇṭām putumai-y<pc>-</pc>āvatu</seg>
+  <seg function="intertitle"><lb n="1-5"/>y<pc>-</pc>iraṇṭāṅ katir-āvatu nampikkaiyoṭē cēvikkiṟatu</seg>
+  
+     <pb facs="00" n="27r"/>
+  <milestone unit="left-margin"/>
+  <seg function="intertitle"><lb n="1-4"/>nampikkaikk<pc>’</pc> aṭutta muntiṉ putumaiyāvatu</seg>
+  
+       <pb facs="00" n="32r"/>
+  <milestone unit="left-margin"/>
+  <seg function="intertitle"><lb n="1-4"/>nampikkaikk<pc>’</pc> aṭutta y<pc>-</pc>iraṇṭām putumaiyāvatu</seg>
+  
+         <pb facs="00" n="38r"/>
+  <milestone unit="left-margin"/>
+  <seg function="intertitle"><lb n="1-6"/>mūṇāṅ katirāvatu pattiyōṭē tēvamātāvai cēvikkiṟatu <term xml:lang="en">{Christian cross}</term></seg>
+  
+           <pb facs="00" n="40r"/>
+  <milestone unit="left-margin"/>
+  <seg function="intertitle"><lb n="1-4"/>pattik<pc>’</pc> aṭutta muntiṉ putumaiyāvatu <g ref="#pcl"/></seg>
+  
+  <pb facs="00" n="48r"/>
+  <milestone unit="left-margin"/>
+  <seg function="intertitle"><lb n="1-5"/>pattik<pc>’</pc> aṭutta y<pc>-</pc>iraṇṭām putumaiyāvatu <g ref="#pcl"/></seg>
+  
+    <pb facs="00" n="52r"/>
+  <milestone unit="left-margin"/>
+  <seg function="intertitle"><lb n="1-8"/>ñāṉanaṣcēttiramālaiyiṉālāṅ katirāvatu tēvamātāvaic cuttamuḷḷa maṉacōṭē cēvikkiṟatu <term xml:lang="en">{Christian cross}</term></seg>
+  
+    <pb n="218r"/>
+  <milestone unit="left-margin"/>
+  <seg function="intertitle"><lb n="1-6"/>piṟiyatattamantirattukk<pc>’</pc> aṭutta y<pc>-</pc>iraṇṭām putumai-y<pc>-</pc>āvatu</seg>
 
   <pb n="222r"/>
-  <lb n="4"/><gap reason="ellipsis"/> <seg function="explicit">y<pc>-</pc>aṟi
+  <lb n="1"/><gap reason="ellipsis"/>
+  <lb n="2"/><seg function="explicit">Oru piṟiyatatta mantirattiṉālē vanta palaṉaiyum avaḷuṭaiya <unclear>mi</unclear>kunta kirupaiyuṅ kēṭṭīrkaḷē Appaṭiyē
+<lb n="3"/>nīṅkaḷum eppaṭiya<supplied reason="lost">ṉālu</supplied>m vēṟē vis·tīraṇa cepaṅkaḷaip paṇṇakkūṭā tiruntālum aṉantapattiyō
+  <lb n="4"/>ṭē Oru piṟiyatatta mantirattai yāṉālum ṉāḷtorum cēvittuk koḷḷuṅkaḷ tiṉālē y<pc>-</pc>aṟi
     <lb n="5" break="no"/>ya vēṇtiyatāva<unclear>tu</unclear> mōṣcattukkup pōṟatukkip pālam uṇṭ<pc>'</pc> eṉṟu vicārikka vēṇṭāmaṉu
-  <lb n="6" break="no"/>ṣarukkip puttivarat takkkatākac caṟuvēcuraṉ intak kāṭciyaik kāṇpittar oḷiyamaṟṟappaṭi
+  <lb n="6" break="no"/>ṣarukkup puttivarat takkkatākac caṟuvēcuraṉ intak kāṭciyaik kāṇpittar oḷiyamaṟṟappaṭi
   
    <pb n="222v"/>
     <milestone unit="left-margin"/>
 <lb n="1"/><note xml:lang="en">crossed-out foliation</note>
     <milestone unit="main-text-area"/>
-  <lb n="1"/>yalla kaṭciyā nīṅkaḷ tēvamātāvaic cēvittuk koṇṭuvarukiṟa camaiyattilē y<pc>-</pc>intap po
-  <lb n="2" break="no"/>s·takattai y<pc>-</pc>uṇṭāka<supplied reason="lost">k</supplied><unclear reason="consonant_unclear">ki</unclear>ṉ <persName>periya cañcīvi-rāca<del><gap reason="illegible" quantity="1" unit="character"/></del>riṣi-kuru-cuvāmi</persName>yavarkaḷukkākavum Itai y<pc>-</pc>eḻutiṉa
-  <lb n="3" break="no"/>varkaḷukkākavum vēṇṭik koḷḷak kaṭavīrkaḷāka</seg> <term xml:lang="en">{cross}</term> <seg function="completion-statement">putumai 5 10 8 mukintatu muṟṟu<seg rend="grantha">=m</seg></seg>
-<seg function="blessing"><lb n="4"/>tēva Āṇṭavaḷ tuṇai y<pc>-</pc>uṇṭāka-k kaṭavatu</seg> <term xml:lang="en">{cross}</term>
+  <lb n="1"/>yalla kaṭaciyā nīṅkaḷ tēvamātāvaic cēvittuk koṇṭu varukiṟa camaiyattilē y<pc>-</pc>intap po
+  <lb n="2" break="no"/>s·takattai y<pc>-</pc>uṇṭāka<supplied reason="lost">k</supplied><unclear reason="consonant_unclear">ki</unclear>ṉa <persName>periya cañcīvi-rāca<del><gap reason="illegible" quantity="1" unit="character"/></del>riṣi-kuru-cuvāmi</persName>-yavarkaḷukk<pc>'</pc> ākavum Itai y<pc>-</pc>eḻutiṉa
+  <lb n="3" break="no"/>varkaḷukk<pc>'</pc> ākavum vēṇṭik koḷḷak kaṭavīrkaḷāka</seg> <term xml:lang="en">{cross}</term> <seg function="completion-statement">putumai 5 10 8 mukintatu muṟṟu<seg rend="grantha">=m</seg></seg>
+<seg function="benediction"><lb n="4"/>tēva Āṇṭavaḷ tuṇai y<pc>-</pc>uṇṭāka-k kaṭavatu</seg> <term xml:lang="en">{cross}</term>
 
   </body></text></TEI>
