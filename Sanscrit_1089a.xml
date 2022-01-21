@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -8,7 +8,7 @@
          <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -24,7 +24,7 @@
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">kaṭitam</title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
-                  <objectDesc form="roll">
+                  <objectDesc form="loose-leaf">
                      <supportDesc material="paper">
                         <extent>
                            <measure unit="folio" quantity="1">[1] (U1).</measure>
@@ -42,7 +42,7 @@
                   </objectDesc>
                   <handDesc>
                      
-                  <handNote synch="#U1" scope="sole" script="tamil"/></handDesc>
+                  </handDesc>
                   <additions><desc synch="#U1" type="documenting-note">In black ink:
 <quote xml:lang="fr">
   <lb n="1"/>Circulaire du
@@ -55,7 +55,7 @@
                         
                      </binding>
                   </bindingDesc>
-               </physDesc>
+               <typeDesc><typeNote synch="#U1" script="tamil"/></typeDesc></physDesc>
                <history>
                   <origin>
                      <origDate calendar="gregorian" notAfter="1849" notBefore="1848"/>
@@ -103,10 +103,10 @@
   <lb n="-1" break="no"/>kaḷāka</seg>
   
   <milestone n="2" unit="main-text-area"/>
-  <seg function="TBC"><lb n="1"/>niṟaiveṟṟukiṟa Atikārattaip poṟuppuk kaṭṭi yitukkiṟa mantirimārkaḷiṉ Ālōcaṉaic caṅkattiṉ talaivar ḻeṉērāl
-  <lb n="2"/><persName>kaviñāk<note xml:lang="en">that is, Eugène Cavaignac</note>.</persName></seg>
-  <seg function="TBC"><lb n="3"/>Itai moḻipeyarttataṟku ṣēptēcervīs Atmiṉistirāpīp tuṟaiyavarkaḷ Intirapirēttucu ~ <persName>nārāyaṇacāmi</persName>.</seg>
-  <seg function="TBC"><lb n="4"/><placeName>putuvai</placeName>, kuvarṉmāvaccukkūṭam.</seg>
+  <lb n="1"/>niṟaiveṟṟukiṟa Atikārattaip poṟuppuk kaṭṭi yitukkiṟa mantirimārkaḷiṉ Ālōcaṉaic caṅkattiṉ talaivar ḻeṉērāl
+  <lb n="2"/><persName xml:lang="ta" key="Eugène Cavaignac" role="signatory">kaviñāk.</persName>
+  <lb n="3"/>Itai moḻipeyarttataṟku ṣēptēcervīs Atmiṉistirāpīp tuṟaiyavarkaḷ Intirapirēttucu ~ <persName xml:lang="ta" role="translator">nārāyaṇacāmi</persName>.
+  <lb n="4"/><placeName>putuvai</placeName>, kuvarṉmāvaccukkūṭam.
   
   <pb facs="13" n="[1]r"/>
   

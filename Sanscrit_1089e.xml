@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -8,7 +8,7 @@
          <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -24,7 +24,7 @@
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">viḷamparam</title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
-                  <objectDesc form="roll">
+                  <objectDesc form="loose-leaf">
                      <supportDesc material="paper">
                         <extent>
                            <measure unit="folio" quantity="1">[1] (U1).</measure>
@@ -42,7 +42,7 @@
                   </objectDesc>
                   <handDesc>
                      
-                  <handNote synch="#U1" scope="sole" script="tamil"/></handDesc>
+                  </handDesc>
                   <additions><desc subtype="detached">French translation on a <locus facs="34">paper sheet</locus>, in black ink.</desc><desc synch="#U1" type="documenting-note">In black ink: <quote xml:lang="fr"><lb n="1"/>pour m. Burnouf</quote> (<locus facs="33">f[1]v</locus>).
   </desc></additions>
                   <bindingDesc>
@@ -50,7 +50,7 @@
                         
                      </binding>
                   </bindingDesc>
-               </physDesc>
+               <typeDesc><typeNote synch="#U1" script="tamil"/></typeDesc></physDesc>
                <history>
                   <origin>
                      <origDate calendar="gregorian" when="1849"/>
@@ -92,11 +92,11 @@
   <lb n="12"/>kuṭiyaracu vāḻka!<note xml:lang="en">that is, <term xml:lang="fr">Vive la République!</term></note>
   
   <seg function="colophon"><lb n="13"/><placeName>putuvaiyil</placeName> kuvarṉmāvil 1000 8 100 4 10 9m <choice><sic>{Āka}</sic><corr>{varuṣam}</corr></choice> pevuriyēr {mācam}21 {tēti} Eḻutappaṭṭatu.</seg>
-  <seg function="TBC"><lb n="14"/>kaiyoppam <persName>te lalān te kalān<note xml:lang="en">that is, Hyacinthe Marie de Lalande de Calan</note></persName>.</seg>
-  <seg function="TBC"><lb n="15"/>kuvarṉēr uttiravu paṭikku taṟkāla ṣēptēcervīs Atmiṉistiratīpa tuṟaiyavarkaḷ</seg>
-  <seg function="TBC"><lb n="16"/>kaiyoppam <persName>Ēp lēpelttiyē<note xml:lang="en">that is, F. Lepeltier</note></persName>.</seg>
-   <seg function="TBC"><lb n="17"/>Itai moḻipeyarttataṟku taṟkāla ṣēptēcervīs Atmiṉistiratīpa tuṟaiyavarkaḷ Intirapirēttucu ~ <persName>nārāyaṇacāmi</persName>.</seg>
-    <seg function="TBC"><lb n="-18"/><placeName>putuvai</placeName>, kuvarṉmāvaccukkūṭam.</seg>
+ <lb n="14"/>kaiyoppam <persName xml:lang="ta" role="signatory" key="Hyacinthe Marie de Lalande de Calan">te lalān te kalān</persName>.
+  <lb n="15"/>kuvarṉēr uttiravu paṭikku taṟkāla ṣēptēcervīs Atmiṉistiratīpa tuṟaiyavarkaḷ
+  <lb n="16"/>kaiyoppam <persName xml:lang="ta" role="signatory" key="F. Lepeltier">Ēp lēpelttiyē</persName>.
+   <lb n="17"/>Itai moḻipeyarttataṟku taṟkāla ṣēptēcervīs Atmiṉistiratīpa tuṟaiyavarkaḷ Intirapirēttucu ~ <persName xml:lang="ta" role="translator" key="Nārāyaṇasuvāmi">nārāyaṇacāmi</persName>.
+    <lb n="-18"/><placeName xml:lang="ta" key="Pondicherry">putuvai</placeName>, kuvarṉmāvaccukkūṭam.
   
     <pb fac="33" n="[1]v"/>
   

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -8,7 +8,7 @@
          <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -24,7 +24,7 @@
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">caṭṭam</title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
-                  <objectDesc form="roll">
+                  <objectDesc form="loose-leaf">
                      <supportDesc material="paper">
                         <extent>
                            <measure unit="folio" quantity="1">[1] (U1).</measure>
@@ -42,14 +42,14 @@
                   </objectDesc>
                   <handDesc>
                      
-                  <handNote synch="#U1" scope="sole" script="tamil"/></handDesc>
+                  </handDesc>
                   <additions/>
                   <bindingDesc>
                      <binding>
                         
                      </binding>
                   </bindingDesc>
-               </physDesc>
+               <typeDesc><typeNote synch="#U1" script="tamil"/></typeDesc></physDesc>
                <history>
                   <origin>
                      <origDate calendar="gregorian" when="1849"/>
@@ -89,12 +89,12 @@
     <lb n="5ff."/><gap reason="ellipsis"/>
   
   <seg function="explicit"><lb n="-7"/><gap reason="ellipsis"/> paṇṇappaṭum.</seg>
-  <seg function="TBC"><lb n="-6"/><placeName>putuvaiyil</placeName> 1000 849m {varuṣam} ḻāmviyēr {mācam} 10 5 {tēti} kuvarṉmavil eḻutappaṭṭatu.</seg>
-  <seg function="TBC"><lb n="-5"/>kaiyoppam <persName>te lalān te kalān<note xml:lang="en">that is, Hyacinthe Marie de Lalande de Calan</note></persName>.</seg>
-  <seg function="TBC"><lb n="-4"/>kuvarṉēr uttiravu paṭikku</seg>
-  <seg function="TBC"><lb n="-3"/>taṟkāla ṣēptēcervīs Atmiṉistiratīpa</seg>
-  <seg function="TBC"><lb n="-2"/>kaiyoppam <persName>lepelttiyē<note xml:lang="en">that is, Lepeltier</note></persName>.</seg>
-   <seg function="TBC"><lb n="-1"/>kuvarṉmāvaccukkūṭattiṟ patippikkappaṭṭatu.</seg> <seg function="TBC">Itai moḻipeyarttataṟku Intirapirēttucu ~ <persName>nārāyaṇacāmi</persName>.</seg>
+  <lb n="-6"/><placeName xml:lang="ta" key="Pondicherry">putuvai</placeName>yil 1000 849m {varuṣam} ḻāmviyēr {mācam} 10 5 {tēti} kuvarṉmavil eḻutappaṭṭatu.
+  <lb n="-5"/>kaiyoppam <persName xml:lang="ta" role="signatory" key="Hyacinthe Marie de Lalande de Calan">te lalān te kalān</persName>.
+  <lb n="-4"/>kuvarṉēr uttiravu paṭikku
+  <lb n="-3"/>taṟkāla ṣēptēcervīs Atmiṉistiratīpa
+  <lb n="-2"/>kaiyoppam <persName xml:lang="ta" role="signatory" key="Lepeltier">lepelttiyē</persName>.
+   <lb n="-1"/>kuvarṉmāvaccukkūṭattiṟ patippikkappaṭṭatu. Itai moḻipeyarttataṟku Intirapirēttucu ~ <persName xml:lang="ta" role="translator" key="Nārāyaṇasuvāmi"> nārāyaṇacāmi</persName>.
   
     <pb n="[1]v"/>
 
