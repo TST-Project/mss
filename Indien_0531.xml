@@ -22,7 +22,7 @@
                   <idno type="alternate"><idno>Tamoul 531</idno></idno>
                </msIdentifier>
                <msContents class="#MTM">
-                  <summary>The <title xml:lang="ta">Periya Purāṇam</title> (U2c, f11-f359), preceded by the <title xml:lang="ta">Tiruttoṇṭattokai</title> (<title xml:lang="ta">Tēvāram</title> 7.39) (U2a, f1-f2), and the <title xml:lang="ta">Tiruttoṇṭar Tiruvantāti</title> (<title xml:lang="ta">Tirumuṟai</title> 11.1127-1215) (U2b, f3-f10).       </summary>
+                  <summary>The <title xml:lang="ta">Periya Purāṇam</title> (U2c, f11-f359; 4303 stanzas), preceded by the <title xml:lang="ta">Tiruttoṇṭattokai</title> (<title xml:lang="ta">Tēvāram</title> 7.39) (U2a, f1-f2: 11 stanzas), and the <title xml:lang="ta">Tiruttoṇṭar Tiruvantāti</title> (<title xml:lang="ta">Tirumuṟai</title> 11.1127-1215) (U2b, f3-f10; 100 stanzas).       </summary>
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Satellite Stanza</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2a" xml:id="T2" defective="false"><title xml:lang="ta">Tiruttoṇṭattokai: Mūlam</title><textLang mainLang="tam"/></msItem><msItem synch="#U2b" xml:id="T3" defective="false"><title xml:lang="ta">Tiruttoṇṭar Tiruvantāti: Mūlam</title><textLang mainLang="tam"/></msItem><msItem synch="#U2c" xml:id="T4" defective="false"><title xml:lang="ta">Periya Purāṇam: Mūlam</title><textLang mainLang="tam"/></msItem><msItem synch="#U2d" xml:id="T5" defective="false"><title xml:lang="ta">Periya Purāṇam: Aṭivaraiyaṟai</title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
@@ -44,7 +44,7 @@
                   </objectDesc>
                   <handDesc>
                      
-                  <handNote synch="#U1 #U2 #U2a #U2b #U2c #U2d" scope="major" script="latin tamil" medium="incised soot"/></handDesc>
+                  <handNote synch="#U1 #U2 #U2a #U2b #U2c #U2d" scope="major" script="tamil" medium="incised soot"/></handDesc>
                   <additions>
                     
                     
@@ -61,8 +61,22 @@
                     
                     
                     
-                  <desc type="documenting-note" subtype="detached">Note in black ink and black pencil on detached <locus facs="731">paper leaf</locus>:
-<quote/></desc><desc synch="#cover" type="shelfmark" subtype="back cover">BnF shelfmark sticker: <quote>INDIEN 531</quote> (<locus facs="734">front cover, recto</locus>).</desc><desc synch="#U2a #U2b #U2c #U2d" type="title">Left marginal titles.</desc><desc synch="#U2c" type="title">Left marginal intertitles.</desc><desc synch="#U2c" type="total-stanzas"/><desc synch="#U2d" type="table-of-contents"/></additions>
+                  <desc type="documenting-note" subtype="detached">Notes on detached paper leaf <locus facs="731">paper leaf</locus>, which provide Tamil transcription and Roman transcription of U2, f1r, lm in black ink and Tamil transcription of U1, f1r, lm and f1r1 black pencil, with further information on the manuscript:
+<quote xml:lang="ta"><lb n="1"/>tirucciṟṟampalam tiruttoṇṭa
+  <lb n="2" break="no"/>toṇṭattokai paṇ kolli
+  <lb n="3" break="no"/>k kauvā<choice><sic>mai</sic><corr>ṇam</corr></choice></quote>
+<quote xml:lang="fr"><lb n="1"/>Tiruchiťťambara
+<lb n="2" break="no"/>matiruttondattondatto
+<lb n="3" break="no"/>kai paṇa kollikkela
+<lb n="4" break="no"/>va<choice><sic>mai</sic><corr>nam</corr></choice></quote>
+
+<quote xml:lang="ta">
+<lb n="1a"/><seg rend="grantha">hari</seg> Om
+<lb n="2"/>naṉṟāka
+<lb n="1b"/>tikaṭa cakkarac cemmuka 
+<lb n="3"/><term xml:lang="fr">362 olles 
+  <lb n="4"/>428 millimetres sur 32</term>
+</quote></desc><desc synch="#cover" type="shelfmark" subtype="back cover">BnF shelfmark sticker: <quote>INDIEN 531</quote> (<locus facs="734">front cover, recto</locus>).</desc><desc synch="#U2a #U2b #U2c #U2d" type="title">Left marginal titles.</desc><desc synch="#U2c" type="title">Left marginal intertitles.</desc><desc synch="#U2c" type="total-stanzas"/><desc synch="#U2d" type="table-of-contents"/></additions>
                <bindingDesc><binding><p>Original <material cert="medium">wood</material> covers.
 </p></binding></bindingDesc></physDesc>
                <history>
@@ -91,20 +105,21 @@
    <encodingDesc><p>TBC</p></encodingDesc></teiHeader>
    <facsimile>
       
-   </facsimile>
+   <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525125632/manifest.json"/></facsimile>
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   
   <pb facs="3" n="[1]r"/>
   
   <milestone unit="left-margin"/>
   
-  <lb n="1"/>
-  <lb n="2"/>
+  <lb n="1"/><seg function="blessing"><seg rend="grantha">hari</seg> Om</seg>
+  <lb n="2"/><seg function="blessing">naṉṟāka</seg>
   
    <milestone unit="main-text-area"/>
   
-  <lb n="1"/>
-  <lb n="2"/>
+  <lb n="1"/><seg function="invocation">tikaṭa cakkarac cemmuka maintuḷāṉ ‡ cakaṭa cakkarat tāmarai nāyakaṉ ‡ Akaṭa cakkara viṉmaṇi yāvuṟai ‡ vikaṭa cakkara
+<lb n="2"/>meyppatam pōṟṟuvām <g ref="#pcs"/></seg> <seg function="benediction">vēḻamukatu viṉāyakaṉait toḻ vāḻvu mikuttu varum <g ref="#pcs"/></seg> <seg function="benediction">vēlumayilun tuṇai</seg>
+<lb n="3"/><seg function="blessing">tēvi cakāyam <g ref="#pcl"/></seg>
 
    <pb facs="4" n="[1]v"/><note xml:lang="en">blank</note>
 
@@ -113,53 +128,64 @@
  <pb facs="5" n="1r"/>
   
    <milestone unit="left-margin"/>
-  <lb n="1"/>
-
+  <lb n="1"/><seg function="blessing">tirucciṟṟampalam</seg>
+<lb n="2-5"/><seg function="title">tiruttoṇṭattoṇṭattokai</seg> <seg function="TBC">paṇ kollikkauvā<choice><sic>mai</sic><corr>ṇam</corr></choice></seg>
+  
   <milestone unit="main-text-area"/>
-<lb n="1"/>
+<lb n="1"/><seg function="incipit">tillai vāḻ antaṇar tamm aṭiyārkkum aṭiyēṉ ṟirunīlakaṇṭattuk kuravaṉārkk<pc>'</pc> aṭiyē‡ṉ</seg> <gap reason="ellipsis"/>
     
   <pb facs="8" n="2v"/>
-  <lb n="4"/>
+  <lb n="3"/><gap reason="ellipsis"/> <seg function="explicit">kō‡ṉ aṉṉavaṉ ām ārūraṉ aṭimaik kēṭṭ<pc>'</pc> u
+<lb n="4" break="no"/>vappār ārūril ammāṉukk<pc>’</pc> aṉpar āvārē ‡‡ <g ref="#pcl"/> 10 1 – </seg> <seg function="blessing">tirucciṟṟampalam</seg> – <seg function="blessing">kaṇakacapāpati cakāyam <g ref="#pcs"/></seg>
+
   
 </body></text><text synch="#U2b" corresp="#T3" xml:lang="ta"><body>
   
  <pb facs="9" n="3r"/>
   
   <milestone unit="left-margin"/>
-  <lb n="1"/>
+  <lb n="1"/><seg function="benediction">tirucciṟṟampalam</seg>
+<lb n="2-3"/><seg function="title">nampiyāṇṭāṉampi tiruvantāti</seg>
 
   <milestone unit="main-text-area"/>
-<lb n="1"/>
+<lb n="1"/><seg function="incipit">ceppat taku pukaḻt tillaip patiyuṭ ceḻuma<unclear reason="consonant_unclear">ṟai</unclear>yō‡r</seg> <gap reason="ellipsis"/>
     
   <pb facs="24" n="10v"/>
-  <lb n="3"/>
+  <lb n="2"/><seg function="explicit"><gap reason="ellipsis"/>
+  <lb n="3"/>ṭavē ~</seg> <seg function="colophon"><seg function="completion-statement">nampiyāṇtāṉampi tiruvantāti muṭintatu muṟṟum</seg> <seg function="total-stanzas">Ākac ceyyuḷ ~ 89 ~</seg> <seg function="blessing">civakāmiyammaṉ tuṇai</seg> <seg function="blessing">civalōkattiyākar tunai y<pc>-</pc>uṇṭākavum <g ref="#pcl"/></seg></seg>
   
 </body></text><text synch="#U2c" corresp="#T4" xml:lang="ta"><body>
     
   <pb facs="25" n="11r"/>
   
    <milestone unit="left-margin"/>
-  <lb n="1"/>
+  <lb n="1"/><seg function="title">periya purāṇam</seg>
+<lb n="2"/><seg function="intertitle">mutaṟ kāṇṭam</seg>
+<lb n="3"/><seg function="intertitle">tirumalaicciṟappu</seg>
+<lb n="4-7"/><seg function="title">tiruttoṇṭar purāṇam</seg> ~ <seg function="intertitle">tillaiccarukkam</seg>
   
    <milestone unit="main-text-area"/>
-  <lb n="1"/>
-
-  
-     <pb facs="726" n="359v"/>
-    <lb n="4"/>
-
+  <lb n="1"/><seg function="incipit">ulak<pc>'</pc> elām uṇarnt<pc>'</pc> ōtaṟk<pc>'</pc> ariyava‡ṉilav<pc>'</pc> ulāviya nīrmali vēṇiya‡ṉ</seg> <gap reason="ellipsis"/> 
+ 
+     <pb facs="724" n="359v"/>
+    <lb n="4"/>nalattālē = 5 10 2 = <seg function="metre">vēṟu</seg> = <seg function="explicit">eṉṟum iṉ<supplied reason="lost">pa</supplied>m perukum iyalpiṉā‡l oṉṟu kātaliṉ uḷḷamum ōṅkiṭa ‡ maṉṟ<pc>’</pc> uḷar aṭiyarākiya raṉ pukaḻ ‡ niṉṟat<pc>’</pc> eṅku nilā
+<lb n="5" break="no"/>vi y<pc>-</pc>ulak<pc>’</pc> elām = 5 10 3 =</seg> <seg function="colophon"><seg function="completion-statement">tiruveḷḷā <term xml:lang="en">{line-fillers: 2 circles}</term> ṉai-c-carukkamuṟṟum</seg> <seg function="total-stanzas">Āka-t tiruviruttam <g ref="#pcl"/> 4 1000 3 100 3 =</seg> <seg function="blessing">Āṟumukan tuṇai <g ref="#pcs"/></seg> <seg function="blessing">civamayam <g ref="#pcl"/></seg> cittāṟti <g ref="#maatham"/> cittirai 
+<lb n="6"/><g ref="#maatham"/> 2 10 <g ref="#teti"/> tiṇkaḷ-k-kiḻamaiyuñ cataiya-naṣṣattiramum ticamiyum kūṭiṉa cupatiṉattil <placeName xml:lang="ta" key="Pondicherry">putu<subst><del><gap reason="illegible" quantity="1" unit="character"/></del><add place="below">v</add>ai</subst>mānakarattil</placeName> irukkum <persName xml:lang="ta" role="scribe">civa-kuru-nāta-mutaliyār kumāraṉ cāmiṉātaṉ</persName>
+<lb n="7"/>{mērpaṭi} contattukku y<pc>-</pc>eḻutiṉa periya purāṇam y<pc>-</pc>eḻuti niṟa vēṟiṉatu mu<sic>ttu</sic>m <g ref="#pcl"/> <seg function="blessing">cōmacuntarēsparar tuṇai y<pc>-</pc>uṇṭ-ākavum <g ref="#pcl"/></seg></seg>
 
   </body></text><text synch="#U2d" corresp="#T5" xml:lang="ta"><body>
     
-  <pb facs="727" n="360r"/>
+  <pb facs="725" n="360r"/>
   
    <milestone unit="left-margin"/>
-  <lb n="1"/>
+  <lb n="1"/><seg function="title">periyapurāṇam Aṭivarai</seg>
   
    <milestone unit="main-text-area"/>
   <lb n="1"/>
+  
+  <pb facs="726" n="360v"/>
 
-   <pb facs="729" n="361r"/>
+   <pb facs="727" n="361r"/>
   
    <pb facs="729" n="361v"/><note xml:lang="en">blank</note>
   
