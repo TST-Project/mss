@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -8,7 +8,7 @@
          </titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -43,7 +43,7 @@
                   </objectDesc>
                   <handDesc>
                      
-                  <handNote synch="#U1 U2 U3" scope="sole" script="tamil" medium="incised"/></handDesc>
+                  <handNote synch="#U1 #U2 #U3" scope="sole" script="tamil" medium="incised"/></handDesc>
                   <additions><desc type="commenting-note" subtype="flyleaf">Note in black ink on a paper sheet, by Velanguani Arokium:
 <quote xml:lang="fr" rend="block">
   <lb n="1"/>Mr Duclerque N° 7
@@ -153,12 +153,13 @@ A later hand added:
   <lb n="6"/>cūṭāmaṇi</seg>
 
   <milestone n="1" unit="column"/>
-  <lb n="1"/><seg function="invocation">tiruvākkuñ ceykarumaṅ
-  <lb n="2"/>kaikūṭuñ ceñcōṟ ‡
-  <lb n="3"/>peruvākkum pīṭum pe
-  <lb n="4" break="no"/>rukku muruvākkum ‡ <supplied reason="omitted">mātalāl</supplied> vāṉō
-  <lb n="5" break="no"/>ru māṉai mukattāṉaik ‡ kā
-  <lb n="6" break="no"/>talāṟ kūppuvā taṅkai ‡‡</seg>
+  <seg function="invocation">
+    <lg><l><lb n="1"/>tiruvākkuñ ceykarumaṅ
+  <lb n="2"/>kaikūṭuñ ceñcōṟ</l>
+  <l><lb n="3"/>peruvākkum pīṭum pe
+  <lb n="4" break="no"/>rukku muruvākkum</l> <l><supplied reason="omitted">mātalāl</supplied> vāṉō
+  <lb n="5" break="no"/>ru māṉai mukattāṉaik</l> <l>kā
+  <lb n="6" break="no"/>talāṟ kūppuvā taṅkai</l></lg></seg>
   
   <milestone n="2" unit="column"/>
   <lb n="1"/><seg function="incipit" type="root-text">Ulakoru</seg> <gap reason="ellipsis"/>

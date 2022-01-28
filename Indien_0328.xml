@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -9,7 +9,7 @@
          
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -17,10 +17,10 @@
                   <repository>
                      <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
                   </repository>
-                  <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1038550</idno>
+                  
                   <idno type="shelfmark">Indien 328</idno>
                   <idno type="alternate"><idno>Tamoul 328</idno></idno>
-               </msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1038550</idno></msIdentifier>
                <msContents class="#STM">
                   <summary><p>The <title xml:lang="ta">Kantapurāṇam</title> is one of the major Tamil texts about the god <term xml:lang="sa">Skanda</term>/<term xml:lang="ta">Murukaṉ</term>. It is the work of <persName xml:lang="ta">Kacciyappa Civācāriyār</persName> (14th century?).</p>
 <p>The text is incomplete. The manuscript contains: <term xml:lang="ta">Pāyiram</term>, <term xml:lang="ta">Uṟpattikkāṇṭam</term>, <term xml:lang="ta">Acurakāṇṭam</term> (up to <term xml:lang="ta">Tikkuvicayap Paṭalam</term>, verse 66, itself incomplete) in U3; <term xml:lang="ta">Makēntirakāṇṭam</term>, <term xml:lang="ta">Viravāku Kantamātaṉañ Cel Paṭalam</term> (up to verse 8, itself incomplete) in U4. Note that the <term xml:lang="ta">Tikkuvicayap Paṭalam</term> is not named as such in the manuscript, but is divided into 3 chapters: <term xml:lang="ta">Kupēraceyap Paṭalam</term> (U3, <locus facs="331">f161r</locus>, lm), <term xml:lang="ta">Akkiṉiceyap Paṭalam</term> (U3, <locus facs="335">f163r</locus>, lm), <term xml:lang="ta">Yamaṉ Ceyap Paṭalam</term> (U3, <locus facs="337">f164r</locus>, lm).</p>
@@ -56,7 +56,7 @@
                   </objectDesc>
                   <handDesc>
                      
-                  <handNote synch="#U2 U3 U4" scope="sole" script="tamil" medium="incised"/></handDesc>
+                  <handNote synch="#U2 #U3 #U4" scope="sole" script="tamil" medium="incised"/></handDesc>
                   <additions>
                     
                     
@@ -108,12 +108,14 @@
   <lb n="3"/><seg function="intertitle">kaṭavuḷ vāḻttup paṭalam</seg>
   
   <milestone unit="main-text-area"/>
-  <seg function="invocation"><lg>
-    <l><lb n="1"/><seg function="incipit">tikaṭa cakkarac cemmuka maintuḷāṉ</seg> ‡</l>
-    <l><lb n="2"/>cakaṭa cakkarat tāmarai nāyaka <term xml:lang="en">{line-filler}</term> ‡</l>
-    <l><lb n="3"/>ṉakaṭa cakkara viṉmaṇi yāvuṟai <term xml:lang="en">{line-filler}</term> ‡</l>
-    <l><lb n="4"/><seg function="explicit">vikaṭa cakkaraṉ meyppatam pōṟṟuvām ‡‡</seg> <g ref="#pcl"/></l>
-  </lg></seg>
+  <seg function="invocation">
+    <lg>
+    <l><lb n="1"/><seg function="incipit">tikaṭa cakkarac cemmuka maintuḷāṉ</seg></l>
+    <l><lb n="2"/>cakaṭa cakkarat tāmarai nāyaka <term xml:lang="en">{line-filler}</term></l>
+    <l><lb n="3"/>ṉakaṭa cakkara viṉmaṇi yāvuṟai <term xml:lang="en">{line-filler}</term></l>
+    <l><lb n="4"/><seg function="explicit">vikaṭa cakkaraṉ meyppatam pōṟṟuvām</seg></l>
+  </lg> <g ref="#pcl"/>
+  </seg>
 </body></text><text synch="#U3" corresp="#T2" xml:lang="ta"><body>
   
   <pb facs="11" n="[1]r"/>
@@ -122,12 +124,13 @@
   <lb n="1"/><seg function="intertitle">Uṟpatti<unclear>yar</unclear>kāṇṭam</seg>
   
   <milestone unit="main-text-area"/>
-  <lb n="1"/>
-  <seg function="invocation"><lg>
-    <l><seg function="incipit">tikaṭa cakkarac cemmuka maintuḷāṉ</seg> ‡</l>
-    <l>cakaṭa cakkarat tāmarai nāyaka ‡</l>
-    <l>ṉakaṭa cakkara viṉmaṇi yāvuṟai ‡</l>
-    <l>vikaṭa cakkaraṉ meyppatam pōṟṟuvām ‡‡</l>
+  <seg function="invocation">
+    <lg>
+      <l>
+        <lb n="1"/><seg function="incipit">tikaṭa cakkarac cemmuka maintuḷāṉ</seg></l>
+    <l>cakaṭa cakkarat tāmarai nāyaka</l>
+    <l>ṉakaṭa cakkara viṉmaṇi yāvuṟai</l>
+    <l>vikaṭa cakkaraṉ meyppatam pōṟṟuvām</l>
   </lg></seg> – 1 – <gap reason="ellipsis"/>
   
   <pb facs="13" n="2r"/>
