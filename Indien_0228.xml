@@ -1,4 +1,5 @@
-<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -16,12 +17,12 @@
                      <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
                   </repository>
                   <idno type="shelfmark">Indien 228</idno>
-                  <idno type="alternate"/>
+                  <idno type="alternate"><idno>Tamoul 228</idno><idno>Ducler 3</idno></idno>
                </msIdentifier>
                <msContents class="#STM">
                   <summary>This is part one of two of a dictionary. Part one is a dictionary on nouns (<term xml:lang="ta">pēyarakarāti</term> = presumably <term xml:lang="ta">peyarakarāti</term>). Interestingly, the second part is the famous '<term xml:lang="ta">caturakarāti</term>' by Beschi.</summary>
                   
-               <msItem defective="false" class="#illakkanam"><title xml:lang="ta">Dictionnaire Malabar</title><author xml:lang="en">(presumably Beschi?)</author><textLang mainLang="tam"/><filiation><p>Bnf Indien 229 contains the second part of this text.</p></filiation><incipit xml:lang="ta-Taml"><milestone n="2v" unit="folio"/><milestone unit="margin"/> <lb n="1"/> ஹரி: ஓம் <lb n="2"/> நன்றாக <lb n="3"/> குரு வாழ்க <lb n="4"/> பேயர <lb n="5"/> கராதி.
+               <msItem defective="false" class="#illakkanam"><title xml:lang="ta">Dictionnaire Malabar</title><author xml:lang="ta">(presumably Beschi?)</author><textLang mainLang="tam"/><filiation><p>Bnf Indien 229 contains the second part of this text.</p></filiation><incipit xml:lang="ta-Taml"><milestone n="2v" unit="folio"/><milestone unit="margin"/> <lb n="1"/> ஹரி: ஓம் <lb n="2"/> நன்றாக <lb n="3"/> குரு வாழ்க <lb n="4"/> பேயர <lb n="5"/> கராதி.
 <lb n="1"/> அகக்காழ் - உள்வயிரம்
 <lb n="2"/> அகக்காழ் - உள்வயிரம்
 <lb n="3"/> அகங்கை - உள்ளங்கை
@@ -45,7 +46,7 @@
 <lb n="3"/> வெள்வியம் - துன்பம்
 <lb n="4"/> வவ்வரித்தொகுதி முற்றும்
 
-</explicit><finalRubric xml:lang="ta"><mileston n="199r" unit="folio"/><milestone n="2" unit="margin"/>
+</explicit><finalRubric xml:lang="ta-Taml"><mileston n="199r" unit="folio"/><milestone n="2" unit="margin"/>
  <lb n="5"/> பேயரகராதி முற்றும். உ</finalRubric></msItem></msContents>
                <physDesc>
                   <objectDesc form="pothi">
@@ -73,7 +74,7 @@
                         <layout columns="4" writtenLines="7" ruledLines="7"/>
                      </layoutDesc>
                   </objectDesc>
-                  <handDesc><handNote script="tamil" scope="sole" scriptRef="#tamilPulliNone" medium="soot"><desc>Even the short '<term xml:lang="ta">e</term>' is rendered with a double '<term xml:lang="ta">kompu</term>' that is used for the long '<term xml:lang="ta">ē</term>'. </desc></handNote></handDesc>
+                  <handDesc><handNote scope="sole" script="tamil" scriptRef="#tamilPulliNone" medium="soot"><desc>Even the short '<term xml:lang="ta">e</term>' is rendered with a double '<term xml:lang="ta">kompu</term>' that is used for the long '<term xml:lang="ta">ē</term>'. </desc></handNote></handDesc>
                   <decoDesc>
                   </decoDesc>
                   <additions>
@@ -84,16 +85,16 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian"/>
+                     <origDate calendar="gregorian" notAfter="1828">No internal date. Dated to 1828 on the basis of the date of BnF Indien 229 (second part of this dictionary). Dated to  1828 by Vinson et al. (1866-) and to 1828 by Cabaton (1912).</origDate>
                      
                   </origin>
                   <provenance/>
-                  <acquisition/>
+                  <acquisition><p>Acquired, July 22nd, 1833, from Philippe Ducler. See BnF, département des Manuscrits, inventaire 1 = <title>Acquisitions: manuscrits et imprimés documentaires, 1833-1848</title>, no. 70.</p></acquisition>
                </history>
                <additional>
                   <listBibl>
                      
-                  </listBibl>
+                  <bibl>Burnouf, Eugène (1832). <title type="article">Rapport fait au Conseil, dans la séance du 2 juillet 1832, sur les collections de manuscrits et de dessins rapportées de l’Inde par M. Ducler, administrateur de Carical, membre de la Société asiatique</title>. <title>Journal asiatique</title> 10, p. 84-87. — See <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k93120f/f87">p.  87, n° 3</ref>.</bibl><bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f55">p. 37, nos. 228-229</ref>.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. (1866-). <title> Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f123">f. 54rr, nos. <del>213-214</del> 228-229</ref>. </bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
@@ -103,7 +104,7 @@
       <p>I have added <term xml:lang="ta">puḷḷi</term>-s in my transcription, and rendered even the hypercorrected '<term xml:lang="ta">ē</term>' as such. Thus, I surmise that '<term xml:lang="ta">pēyarakarāti</term>' is '<term xml:lang="ta">peyarakarāti</term>' — the dictionary on nouns.</p></encodingDesc>
       <revisionDesc>
          
-      <change when="2022-01">First version.</change></revisionDesc>
+      <change when="2022-01">First version.</change><change when="2022-01">Updated by Emmanuel FRANCIS (date, identifiers, acquisition, bibliography).</change></revisionDesc>
    </teiHeader>
    <facsimile>
    </facsimile>

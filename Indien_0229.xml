@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -16,7 +18,7 @@
                      <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
                   </repository>
                   <idno type="shelfmark">Indien 229</idno>
-                  <idno type="alternate"/>
+                  <idno type="alternate"><idno>Tamoul 229</idno><idno>Ducler 4</idno></idno>
                </msIdentifier>
                <msContents class="#STM">
                   <summary><p>Part two of Beschi's Dictionary '<term xml:lang="ta">caturakarāti</term>'. The first part is in <ref target="Indien_0228.xml">Indien 228</ref>, but not titled '<term xml:lang="ta">caturakarāti</term>'. It is instead called '<term xml:lang="ta">pēyarakarāti</term>', but appears in content to be the <term xml:lang="ta">caturakarāti</term>.</p>
@@ -57,16 +59,16 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian"/>
+                     <origDate calendar="gregorian" notBefore="1828">Internally dated to 1828. See <locus facs="4">beginning of copy statement</locus>. Dated to  1828 by Vinson et al. (1866-) and to 1828 by Cabaton (1912).</origDate>
                      
                   </origin>
                   <provenance/>
-                  <acquisition/>
+                  <acquisition><p>Acquired, July 22nd, 1833, from Philippe Ducler. See BnF, département des Manuscrits, inventaire 1 = <title>Acquisitions: manuscrits et imprimés documentaires, 1833-1848</title>, no. 70.</p></acquisition>
                </history>
                <additional>
                   <listBibl>
                      
-                  </listBibl>
+                  <bibl>Burnouf, Eugène (1832). <title type="article">Rapport fait au Conseil, dans la séance du 2 juillet 1832, sur les collections de manuscrits et de dessins rapportées de l’Inde par M. Ducler, administrateur de Carical, membre de la Société asiatique</title>. <title>Journal asiatique</title> 10, p. 84-87. — See <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k93120f/f87">p.  87, n° 4</ref>.</bibl><bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f55">p. 37, nos. 228-229</ref>.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. (1866-). <title> Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f123">f. 54rr, nos. <del>213-214</del> 228-229</ref>. </bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
@@ -76,7 +78,7 @@
       <p>I have added <term xml:lang="ta">puḷḷi</term>-s in my transcription, and have represented vowel length as found in the manuscript. </p></encodingDesc>
       <revisionDesc>
          
-      <change when="2022-01">First version.</change></revisionDesc>
+      <change when="2022-01">First version.</change><change when="2022-01">Updated by Emmanuel FRANCIS (date, identifiers, acquisition, bibliography).</change></revisionDesc>
    </teiHeader>
    <facsimile>
    <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10090592z/manifest.json"/></facsimile>
