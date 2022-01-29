@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><title xml:lang="ta">Cittar Piṭakam</title></title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2022</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Indien 523</idno>
+                  <idno type="alternate"><idno>Tamoul 523</idno></idno>
+               <idno type="URI">https://didomena.ehess.fr/concern/data_sets/k0698c56z</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b100927699</idno></msIdentifier>
+               <msContents class="#STM">
+                  <summary>A single-text manuscript bearing the title <title xml:lang="ta">Cittar Piṭakam</title>, "the basket of the Siddha", which appears to be a medical treatise.</summary>
+                  
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Cittar Piṭakam</title><textLang mainLang="tam"/></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="pothi">
+                     <supportDesc material="palm-leaf">
+                        <extent>
+                           <measure unit="folio" quantity="150">150 (U1).</measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           <width min="205" max="210"/><height min="25" max="30"/></dimensions>
+                        <dimensions type="object" unit="mm"><width quantity="210"/><height quantity="30"/><depth quantity="95"/></dimensions><dimensions type="written" unit="mm"/></extent>
+                        
+                        <condition>Poor state of preservation. Fragile, brittle, truncated folios.</condition>
+                     <collation><desc xml:id="cover">the = <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">150 folios = <emph rend="bold"><title xml:lang="ta">Cittar Piṭakam</title></emph>. Tamil foliation 1-58, [59], 60-99, [100?], 101-105, [106], [107], 108-145, [146-150].</desc><desc xml:id="cover">the = <emph rend="bold">back cover</emph>.</desc></collation><support><measure unit="stringhole" quantity="2"/></support></supportDesc>
+                     <layoutDesc>
+                        
+                     <layout writtenLines="5"/></layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     
+                  <handNote synch="#U1" scope="major" script="tamil" medium="incised soot"/></handDesc>
+                  <additions><desc synch="#cover" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 523</quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#U1" type="intertitle" subtype="marginal left">Left-marginal intertitles (on recto and on verso).</desc></additions>
+                  <bindingDesc>
+                     <binding>
+                        <p>Original <material>wood</material> covers. 200 x 25 mm.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian" notAfter="1815">Internally dated to the year <foreign xml:lang="ta">pava</foreign> of the Jovian cycle, that is, CE 1814-1815, 1754-1755, 1694-1695, etc. See colophon (<locus facs="26">U1, f150v</locus>).</origDate>
+                     <origPlace>Tamil Nadu.</origPlace>
+                  </origin>
+                  <acquisition>
+                     
+                  <p>R. 7294 according to Vinson et al. (1866-).</p></acquisition>
+               <provenance><p>Bayle according to Vinson et al. (1866-) and Cabaton (1912).</p></provenance></history>
+               <additional>
+                  <listBibl>
+                     
+                     
+                     
+                     
+                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f92">p. 73</ref>.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. (1866-). <title> Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f253">f. 119r, no. 523</ref>. </bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         
+      <change when="2022-01">Record created by Emmanuel FRANCIS.</change></revisionDesc>
+   <encodingDesc><p>TBC.</p></encodingDesc></teiHeader>
+   
+<facsimile><graphic url="https://didomena.ehess.fr/concern/data_sets/k0698c56z/manifest.json"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+  
+  <pb facs="5" n="1r"/>
+ 
+  <milestone unit="left-margin"/>
+  <lb n="1-2"/><seg function="title">cittar pīṭakam <g ref="#pcs"/></seg>
+  
+  <milestone unit="main-text-area"/>
+  <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
+  
+  <pb facs="23" n="150r"/>
+  <lb n="2"/><seg function="explicit"><gap reason="ellipsis"/></seg>
+  
+    <pb facs="26" n="150v"/>
+  <lb n="1"/><seg function="colophon">pava <g ref="#varudam"/> paiṅku
+<lb n="2" break="no"/>ṉi <g ref="#maatham"/> muppatān
+<lb n="3"/>tētik=ki putaṉ ki
+<lb n="4" break="no"/>ḻamai pūram kā
+<lb n="5" break="no"/>ttāṉ kuṭi</seg>
+  
+</body>
+   </text></TEI>
