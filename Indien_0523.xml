@@ -20,7 +20,7 @@
                   <idno type="alternate"><idno>Tamoul 523</idno></idno>
                <idno type="URI">https://didomena.ehess.fr/concern/data_sets/k0698c56z</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b100927699</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary>A single-text manuscript bearing the title <title xml:lang="ta">Cittar Piṭakam</title>, "the basket of the Siddha", which appears to be a medical treatise.</summary>
+                  <summary>A single-text manuscript bearing the title <title xml:lang="ta">Cittar Piṭakam</title>, "the basket of the Siddha", which appears to be a medical treatise, judging from the intertitles.</summary>
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Cittar Piṭakam</title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
@@ -34,8 +34,8 @@
                            <width min="205" max="210"/><height min="25" max="30"/></dimensions>
                         <dimensions type="object" unit="mm"><width quantity="210"/><height quantity="30"/><depth quantity="95"/></dimensions><dimensions type="written" unit="mm"/></extent>
                         
-                        <condition>Poor state of preservation. Fragile, brittle, truncated folios.</condition>
-                     <collation><desc xml:id="cover">the = <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">150 folios = <emph rend="bold"><title xml:lang="ta">Cittar Piṭakam</title></emph>. Tamil foliation 1-58, [59], 60-99, [100?], 101-105, [106], [107], 108-145, [146-150].</desc><desc xml:id="cover">the = <emph rend="bold">back cover</emph>.</desc></collation><support><measure unit="stringhole" quantity="2"/></support></supportDesc>
+                        
+                     <collation><desc xml:id="cover">the = <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">150 folios = <emph rend="bold"><title xml:lang="ta">Cittar Piṭakam</title></emph>. Tamil foliation 1-58, [59], 60-99, [100?], 101-105, [106], [107], 108-145, [146-150].</desc><desc xml:id="cover">the = <emph rend="bold">back cover</emph>.</desc></collation><support><measure unit="stringhole" quantity="2"/><p>Height of folios higher in the middle of the bundle.</p></support><foliation>Tamil foliation 1-58, [59], 60-99, [100?], 101-105, [106], [107], 108-145, [146-150]. Many folios reversed (verso recto) from f2 onwards. Folios disordered from f72 onwards. Reordered by Emmanuel FRANCIS at the time of examination (2021-12). f52 refoliated 52 (unblackened), as original foliation partly lost in truncation. Left margin truncated and foliation lost for f146-f150.</foliation><condition>Poor state of preservation. Fragile, brittle, truncated folios.</condition></supportDesc>
                      <layoutDesc>
                         
                      <layout writtenLines="5"/></layoutDesc>
@@ -46,7 +46,7 @@
                   <additions><desc synch="#cover" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 523</quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#U1" type="intertitle" subtype="marginal left">Left-marginal intertitles (on recto and on verso).</desc></additions>
                   <bindingDesc>
                      <binding>
-                        <p>Original <material>wood</material> covers. 200 x 25 mm.</p>
+                        <p>Original <material>wood</material> covers. 200 x 25 mm. Truncated wooden stick attached to one end of the string.</p>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -57,8 +57,8 @@
                   </origin>
                   <acquisition>
                      
-                  <p>R. 7294 according to Vinson et al. (1866-).</p></acquisition>
-               <provenance><p>Bayle according to Vinson et al. (1866-) and Cabaton (1912).</p></provenance></history>
+                  <p>R. 7294 (Bayle) according to Vinson et al. (1866-). If so, acquired, May 16th, 1882, from M. Kranez for the price of 20 francs (for 5 items). See BnF, département des Manuscrits, inventaire 2 = <title>Acquisitions: manuscrits et imprimés documentaires, 1848-1893</title>, no. 7294. </p></acquisition>
+               <provenance><p>Bayle according to Vinson et al. (1866-) and Cabaton (1912). Sold to BnF by Kranez.</p></provenance></history>
                <additional>
                   <listBibl>
                      
@@ -83,12 +83,166 @@
   <lb n="1-2"/><seg function="title">cittar pīṭakam <g ref="#pcs"/></seg>
   
   <milestone unit="main-text-area"/>
-  <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
+  <lb n="1"/><seg function="incipit">Oru pākam <gap reason="ellipsis"/></seg>
   
+  <pb facs="0" n="2r"/>
+   <milestone unit="left-margin"/>
+  <lb n="1-2"/><seg function="metre">Akaval <g ref="#pcs"/></seg>
+  
+  <pb facs="8" n="5v"/>
+   <milestone unit="left-margin"/>
+  <seg function="intertitle"><gap reason="ellipsis"/> <g ref="#pcs"/></seg>
+  
+   <pb facs="9" n="13r"/>
+   <milestone unit="left-margin"/>
+  <seg function="intertitle"><gap reason="ellipsis"/> <g ref="#pcs"/></seg>
+  
+   <pb facs="10" n="31v"/>
+   <milestone unit="left-margin"/>
+  <seg function="intertitle">cotiṉai maruntu <g ref="#pcs"/></seg>
+  
+  <pb facs="11" n="32v"/>
+   <milestone unit="left-margin"/>
+  <seg function="intertitle"><gap reason="ellipsis"/> <g ref="#pcs"/></seg>
+  
+  <pb facs="12" n="37v"/>
+   <milestone unit="left-margin"/>
+  <seg function="intertitle">maruntu nitāṉam <g ref="#pcs"/></seg>
+  
+   <pb facs="0" n="73r"/>
+   <milestone unit="left-margin"/>
+  <seg function="intertitle"><gap reason="ellipsis"/> <g ref="#pcs"/></seg>
+  
+   <pb facs="0" n="92r"/>
+   <milestone unit="left-margin"/>
+  <seg function="intertitle"><gap reason="ellipsis"/> <g ref="#pcs"/></seg>
+  
+   <pb facs="0" n="94r"/>
+   <milestone unit="left-margin"/>
+  <seg function="intertitle"><gap reason="ellipsis"/> <g ref="#pcs"/></seg>
+  
+   <pb facs="0" n="96r"/>
+   <milestone unit="left-margin"/>
+  <seg function="intertitle"><gap reason="ellipsis"/> <g ref="#pcs"/></seg>
+  
+   <pb facs="0" n="97r"/>
+   <milestone unit="left-margin"/>
+  <seg function="intertitle"><gap reason="ellipsis"/> <g ref="#pcs"/></seg>
+  
+   <pb facs="0" n="98r"/>
+   <milestone unit="left-margin"/>
+  <seg function="intertitle"><gap reason="ellipsis"/> <g ref="#pcs"/></seg>
+  
+   <pb facs="0" n="99v"/>
+   <milestone unit="left-margin"/>
+  <seg function="intertitle"><gap reason="ellipsis"/> <g ref="#pcs"/></seg>
+  
+   <pb facs="0" n="[100]v"/>
+   <milestone unit="left-margin"/>
+  <seg function="intertitle"><gap reason="ellipsis"/> <g ref="#pcs"/></seg>
+  
+   <pb facs="0" n="101r"/>
+   <milestone unit="left-margin"/>
+  <seg function="intertitle"><gap reason="ellipsis"/> <g ref="#pcs"/></seg>
+  
+   <pb facs="0" n="101v"/>
+   <milestone unit="left-margin"/>
+  <seg function="intertitle"><gap reason="ellipsis"/> <g ref="#pcs"/></seg>
+  
+   <pb facs="0" n="102r"/>
+   <milestone unit="left-margin"/>
+  <seg function="intertitle"><gap reason="ellipsis"/> <g ref="#pcs"/></seg>
+  
+   <pb facs="0" n="104r"/>
+   <milestone unit="left-margin"/>
+  <seg function="intertitle"><gap reason="ellipsis"/> <g ref="#pcs"/></seg>
+  
+   <pb facs="0" n="105r"/>
+   <milestone unit="left-margin"/>
+  <seg function="intertitle"><gap reason="ellipsis"/> <g ref="#pcs"/></seg>
+  
+   <pb facs="15" n="106r"/>
+   <milestone unit="left-margin"/>
+  <lb n="1-2"/><seg function="intertitle">Aṭṭaikaṭikku <g ref="#pcs"/></seg>
+  <lb n="3-4"/><seg function="intertitle">tavaḷaikaṭikku <g ref="#pcs"/></seg>
+  
+   <pb facs="16" n="106v"/>
+   <milestone unit="left-margin"/>
+   <lb n="1-2"/><seg function="intertitle">nāykaṭikku <g ref="#pcs"/></seg>
+  
+   <pb facs="17" n="107r"/>
+   <milestone unit="left-margin"/>
+  <seg function="intertitle"><gap reason="ellipsis"/> <g ref="#pcs"/></seg>
+  
+   <pb facs="18" n="107v"/>
+   <milestone unit="left-margin"/>
+  <seg function="intertitle"><gap reason="ellipsis"/> <g ref="#pcs"/></seg>
+  
+   <pb facs="19" n="109r"/>
+   <milestone unit="left-margin"/>
+  <seg function="intertitle"><gap reason="ellipsis"/> <g ref="#pcs"/></seg>
+  
+   <pb facs="20" n="110r"/>
+   <milestone unit="left-margin"/>
+  <seg function="intertitle"><gap reason="ellipsis"/> <g ref="#pcs"/></seg>
+  
+   <pb facs="0" n="111v"/>
+   <milestone unit="left-margin"/>
+  <seg function="intertitle"><gap reason="ellipsis"/> <g ref="#pcs"/></seg>
+  
+   <pb facs="0" n="112r"/>
+   <milestone unit="left-margin"/>
+  <seg function="intertitle"><gap reason="ellipsis"/> <g ref="#pcs"/></seg>
+  
+   <pb facs="0" n="123v"/>
+   <milestone unit="left-margin"/>
+  <seg function="intertitle"><gap reason="ellipsis"/> <g ref="#pcs"/></seg>
+  
+   <pb facs="0" n="124r"/>
+   <milestone unit="left-margin"/>
+  <seg function="intertitle"><gap reason="ellipsis"/> <g ref="#pcs"/></seg>
+  
+   <pb facs="0" n="136r"/>
+   <milestone unit="left-margin"/>
+  <seg function="intertitle"><gap reason="ellipsis"/> <g ref="#pcs"/></seg>
+  
+   <pb facs="0" n="137v"/>
+   <milestone unit="left-margin"/>
+  <seg function="intertitle"><gap reason="ellipsis"/> <g ref="#pcs"/></seg>
+  
+   <pb facs="0" n="138r"/>
+   <milestone unit="left-margin"/>
+  <seg function="intertitle"><gap reason="ellipsis"/> <g ref="#pcs"/></seg>
+  
+   <pb facs="0" n="138v"/>
+   <milestone unit="left-margin"/>
+  <seg function="intertitle"><gap reason="ellipsis"/> <g ref="#pcs"/></seg>
+  
+   <pb facs="0" n="139v"/>
+   <milestone unit="left-margin"/>
+  <seg function="intertitle"><gap reason="ellipsis"/> <g ref="#pcs"/></seg>
+  
+   <pb facs="0" n="140r"/>
+   <milestone unit="left-margin"/>
+  <seg function="intertitle"><gap reason="ellipsis"/> <g ref="#pcs"/></seg>
+  
+   <pb facs="0" n="141r"/>
+   <milestone unit="left-margin"/>
+  <seg function="intertitle"><gap reason="ellipsis"/> <g ref="#pcs"/></seg>
+  
+   <pb facs="0" n="142v"/>
+   <milestone unit="left-margin"/>
+  <seg function="intertitle"><gap reason="ellipsis"/> <g ref="#pcs"/></seg>
+  
+   <pb facs="21" n="146-150"/><note xml:lang="en">left margin truncated and foliation lost</note>
+   <milestone unit="left-margin"/>
+  <seg function="intertitle"><gap reason="ellipsis"/> <g ref="#pcs"/></seg>
+       
   <pb facs="23" n="150r"/>
-  <lb n="2"/><seg function="explicit"><gap reason="ellipsis"/></seg>
+    <lb n="1"/><gap reason="lost"/> <gap reason="ellipsis"/>
+<lb n="2"/><gap reason="lost"/> <seg function="explicit"><gap reason="ellipsis"/></seg> <gap reason="lost"/>
   
-    <pb facs="26" n="150v"/>
+    <pb facs="26" n="150v"/><note xml:lang="en">text centred between the 2 holes</note>
   <lb n="1"/><seg function="colophon">pava <g ref="#varudam"/> paiṅku
 <lb n="2" break="no"/>ṉi <g ref="#maatham"/> muppatān
 <lb n="3"/>tētik=ki putaṉ ki
