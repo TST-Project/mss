@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Ariel Papers: Copies of Official Papers</title>
+				
+			<editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor><editor><persName>Julie MARQUET</persName><orgName>TBC</orgName></editor></titleStmt>
+
+			<publicationStmt>
+				<publisher>TST Project</publisher>
+				<date>2022</date>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>
+							<orgName>Bibliothèque nationale de France. Département des
+								Manuscrits.</orgName>
+						</repository>
+						
+						<idno type="shelfmark">NAF 8919</idno>
+						<idno type="alternate"/>
+					<idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc41599k/cd0e790</idno></msIdentifier>
+					<msContents class="#CM">
+						<summary>Bound codex, containing folios and quires of various measurements.</summary>
+
+						
+					<msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="fr"><term xml:lang="en">Copies of Official Papers</term></title><textLang mainLang="fra" otherLangs="tam"/></msItem></msContents>
+					<physDesc>
+						<objectDesc form="codex">
+							<supportDesc material="paper">
+								<extent>
+									<measure unit="folio" quantity="156">156 (U1)</measure>
+									<dimensions type="object" unit="mm">
+										<width quantity="240"/>
+										<height quantity="365"/>
+										<depth quantity="25"/>
+									</dimensions>
+									<dimensions type="leaf" unit="mm"/><dimensions type="written" unit="mm"/></extent>
+								<collation>
+									<desc xml:id="cover">the <emph rend="bold">front cover</emph>. Recto marbled. Shelfmark on verso. </desc><desc xml:id="u1">1 folio = <emph rend="bold">front guard leaf</emph>.</desc><desc xml:id="U1">156	folios = <emph rend="bold">Copies of Official Letters</emph>. Library Arabic foliation 1-156.</desc><desc xml:id="u2">1 folio = <emph rend="bold">back guard leaf</emph>.</desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>. Verso marbled.</desc></collation>
+								<condition>Good state of preservation.</condition>
+							</supportDesc>
+							<layoutDesc> </layoutDesc>
+						</objectDesc>
+						<handDesc>
+
+							
+						<handNote synch="#U1" scope="major" script="latin tamil" medium="ink black"/></handDesc>
+						<additions>
+							<desc synch="#cover" type="shelfmark" subtype="spine">BnF shelfmark sticker: <quote>FR. NOUV. ACQ 8919</quote> (<locus facs="o">spine</locus>.</desc><desc synch="#cover" subtype="cover front">BnF shelfmark sticker: <quote>FR. NOUV. ACQ 8919</quote> (<locus facs="o">spine</locus>.</desc><desc synch="#u1" type="documenting-note">Binding information in black pencil:
+<quote><lb n="1"/>Volume de 156 Feuillets
+  <lb n="2"/>21 Mars 1896</quote> (<locus facs="0">f[1]r</locus>).</desc></additions>
+						<bindingDesc>
+							<binding>
+								<p>Marbled (blue and black) <locus facs="0">paper cover</locus>. Shelfmark on the <locus facs="0">spine</locus>. </p>
+							</binding>
+						</bindingDesc>
+						<decoDesc>
+							
+						</decoDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate calendar="gregorian" notAfter="1855">No internal dates for the copy.</origDate>
+							<origPlace>Tamilnadu.</origPlace>
+						</origin>
+						<acquisition>
+							<p>Received, August 1st, 1866, from the Société Asiatique. See BnF, département des Manuscrits, inventaire 7 = <title>Dons: manuscrits et imprimés documentaires, 1848-1895</title>, no. 1192.</p>
+						</acquisition>
+						<provenance><p>Papers of <persName ref="https://catalogue.bnf.fr/ark:/12148/cb143513141" key="Ariel, Edouard (1818-1854)">Edouard Ariel</persName> (1818-1854). Bequested by Edouard Ariel to Société Asiatique (Rosny 1868, p. 177).</p></provenance>
+					</history>
+					<additional>
+						<listBibl>
+
+
+
+							
+							
+							
+						<bibl>Rosny, Léon de (1868). <title type="article">La bibliothèque tamoule de M. Ariel, de Pondichéry</title>. In: <title>Variétés orientales</title> (pp. 177‒224). Paris: Maisonneuve.</bibl></listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+
+			
+		<p>TBC</p></encodingDesc>
+		<revisionDesc>
+
+
+			
+		<change when="2022-01">Record created by Emmanuel FRANCIS.</change></revisionDesc>
+	</teiHeader>
+
+	<facsimile>
+		
+	</facsimile>
+	
+<text synch="#U1" corresp="#T1" xml:lang="fr"><body>
+  
+  <pb n="1r-2v"/>[Item 1]
+  <pb facs="0" n="1r"/>
+  
+  <milestone n="1" unit="column"/><note xml:lang="en">text in Tamil</note>
+                                   
+  <lb n="1-7"/><gap reason="ellipsis"/>
+  <lb n="8"/><gap reason="ellipsis"/>
+  <lb n="9-29"/><gap reason="ellipsis"/>
+
+  <milestone n="2" unit="column"/><note xml:lang="en">text in French</note>
+  <lb n="1"/>A Monsieur
+  <lb n="2-6"/>Monsieur Du Camper Capitaine De Vaisseau De 1<hi rend="superscript">re</hi> Classe, Officier de la légion d’honneur, Gouverneur des Etablissements Français dans l’Inde
+  <lb n="7"/>A Pondichéry.
+  <lb n="8"/><gap reason="ellipsis"/>
+  <lb n="9-29"/><gap reason="ellipsis"/>
+
+  <pb facs="0" n="1v"/>
+  <pb facs="0" n="2r"/>
+  <pb facs="0" n="2v"/>
+  
+  <pb n="3r-6v"/>[Item 2]
+
+  <pb n="7r-10v"/>[Item 3]
+
+  <pb facs="0" n="11r"/>[Item 4]
+
+ 
+  <pb n="134-156"/>
+
+
+		</body>
+	</text></TEI>
