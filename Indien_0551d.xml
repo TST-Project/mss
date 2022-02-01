@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title><title xml:lang="ta">Ciṟiya Tirumaṭal</title></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>TST Project</publisher>
+				<date>2022</date>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>
+							<orgName>Bibliothèque nationale de France. Département des
+								Manuscrits</orgName>
+						</repository>
+						<idno type="shelfmark">Indien 551d</idno>
+						<idno type="alternate"><idno>Tamoul 551</idno></idno>
+					</msIdentifier>
+					<msContents class="#STM">
+						<summary>The <title xml:lang="ta">Ciṟiya Tirumaṭal</title>.</summary>
+
+					<msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Ciṟiya Tirumaṭal</title><textLang mainLang="tam"/></msItem></msContents>
+					<physDesc>
+						<objectDesc form="pothi">
+							<supportDesc material="palm-leaf">
+								<extent>
+									<measure unit="folio" quantity="5">5 (U1).</measure>
+									<dimensions type="leaf" unit="mm"> <width max="420"/><height max="40"/></dimensions>
+									<dimensions type="object" unit="mm">
+										
+										
+										
+									</dimensions><dimensions type="written" unit="mm"/></extent>
+
+								<condition>Relatively good state of preservation.</condition>
+								<support><measure unit="stringhole" quantity="1"/></support>
+								<collation><desc xml:id="U1">5 folios = <emph><title xml:lang="ta">Ciṟiya Tirumaṭal</title></emph>. Tamil foliation [1]-5. f11v blank.</desc></collation>
+							</supportDesc>
+							<layoutDesc> </layoutDesc>
+						</objectDesc>
+						<handDesc>
+
+							
+						<handNote synch="#U1" scope="major" script="tamil" medium="incised soot"/></handDesc>
+						<additions/>
+						<bindingDesc>
+							<binding>
+								
+							</binding>
+						</bindingDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate calendar="gregorian" notAfter="1886">Internally dated to the year <foreign xml:lang="ta">kālayutti </foreign> of the Jovian cycle, that is, CE 1858-1859, 1798-1799, 1738-1739, etc. See colophon (U1, f5v, c3, 2).</origDate>
+							<origPlace>South India, Tamilnadu.</origPlace>
+						</origin>
+						<acquisition> <p>Acquired, December 18th, 1886, from M. Haas. See BnF, département des Manuscrits, inventaire 2 = <title>Acquisitions: manuscrits et imprimés documentaires, 1848-1893</title>, no. 7881.</p></acquisition>
+						<provenance><p>Owned by <persName ref="https://catalogue.bnf.fr/ark:/12148/cb109559175" key="Haas, Frédéric (1843-1915)">Frédéric Haas</persName> (1843-1915).</p></provenance>
+					</history>
+					<additional>
+						<listBibl>
+
+
+
+
+
+							
+						<bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f96">p. 77, no. 551</ref>.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. (1866-). <title> Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f263">f. 124r, no. 551</ref>. </bibl></listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+
+			
+		<change when="2022-01">Record created by Emmanuel FRANCIS.</change></revisionDesc>
+		<encodingDesc>
+			
+		<p>TBC</p></encodingDesc>
+	</teiHeader>
+
+	
+	
+	
+	
+	
+	
+	
+<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+  
+  <pb facs="0" n="[1]r"/>
+  
+  <milestone unit="left-margin"/>
+  <lb n="1-2"/><seg function="title">ci<orig>ru</orig>tirumaṭal</seg>
+  <lb n="3-4"/><seg function="blessing"><seg rend="grantha">hariḥ Om</seg></seg>
+  
+   <milestone unit="main-text-area"/>
+  <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
+    
+  <pb facs="0" n="5r"/>
+  <lb n="4"/><seg function="explicit"><gap reason="ellipsis"/></seg> <seg function="colophon"><seg function="blessing">Aḻvār tiruvaṭikaḷē caṟaṇa<seg rend="grantha">=m</seg></seg> ciṟut= tirumaṭal mukintatu Itu
+  <lb n="5"/><note xml:lang="en">right-aligned</note><seg function="blessing">jiyyaṟ tiruvaṭikaḷē caṟaṇa<seg rend="grantha">=m</seg></seg> <seg function="end-title"><note xml:lang="en">unblackened</note>ciṟu<unclear>t= tirumaṭal</unclear></seg></seg>
+
+    <pb facs="0" n="5v"/>
+  
+  <milestone n="1" unit="column"/>
+  <lb n="1"/><note xml:lang="en">unblackened</note><seg function="blessing">śrī-ṟeṅka</seg>
+  <lb n="2"/><note xml:lang="en">unblackened</note><seg function="blessing">ṟeṅka śrī <gap reason="ellipsis"/></seg>
+  
+  <milestone n="2" unit="column"/>
+  <lb n="1"/><seg function="blessing">śrī-reṅkam</seg>
+  <lb n="2"/><note xml:lang="en">unblackened</note><seg function="blessing">śrī śrī śrī śrī</seg>
+  <lb n="3"/><note xml:lang="en">unblackened</note><seg function="blessing">śrī <gap reason="ellipsis"/></seg>
+  
+  <milestone n="3" unit="column"/>
+  <lb n="1"/><seg function="colophon">śrī-reṅkat=til <choice><sic>y<pc>-</pc>iḻi</sic><corr>y<pc>-</pc>eḻu</corr></choice>tiṉatu
+<lb n="2"/>kālayut=ti <g ref="#varudam"/> vaiyyaci <g ref="#maatham"/> 10 <g ref="#teti"/> <choice><sic>y<pc>-</pc>iḻi</sic><corr>y<pc>-</pc>eḻu</corr></choice>tiṉatu <persName xml:lang="sa" role="scribe" key="Rāmānuja"><seg rend="grantha">rāmānujan·</seg></persName>
+<lb n="3"/><note xml:lang="en">unblackened</note>kālayut=ti <gap reason="ellipsis"/>
+<lb n="3"/><note xml:lang="en"/><gap reason="ellipsis"/></seg>
+
+  
+  
+  </body>
+  </text></TEI>
