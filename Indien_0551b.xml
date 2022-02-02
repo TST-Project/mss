@@ -38,7 +38,7 @@
 
 								<condition>Relatively poor state of preservation. Truncated, cracked folios.</condition>
 								<support><measure unit="stringhole" quantity="1"/></support>
-								<collation><desc xml:id="U1">20 folios = <emph><title xml:lang="ta">Tivviya Pirapantam</title> 2791-2900</emph>.Tamil foliation 1-20.</desc></collation>
+								<collation><desc xml:id="U1">20 folios = <emph><title xml:lang="ta">Tivviya Pirapantam</title> 2791-2900</emph>.Tamil foliation 1-20. f2v, f18v blank.</desc></collation>
 							</supportDesc>
 							<layoutDesc> </layoutDesc>
 						</objectDesc>
@@ -95,14 +95,24 @@
   <pb facs="0" n="1r"/>
   
   <milestone unit="left-margin"/>
-  <lb n="1"/>
+  <lb n="1"/><seg function="blessing"><term xml:lang="sa">ha<unclear>ri O</unclear>m</term></seg>
   
    <milestone unit="main-text-area"/>
   <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
-    
+  
+  <pb facs="0" n="1v"/>
+      <lb n="6"/><note xml:lang="en">centred</note><seg function="blessing">Āḻvār tiruvaṭikaḷē caṟaṇa<seg rend="grantha">=m</seg><g ref="#pcl"/></seg>
+  
+  <pb facs="0" n="2r"/>
+      <lb n="6"/><note xml:lang="en">right-oriented</note><seg function="blessing">Āḻvāṟ tiruvaṭikaḷē caṟaṇa<seg rend="grantha">=m</seg> |<g ref="#pcl"/></seg>
+  
+  <pb facs="0" n="2v"/><note xml:lang="en">blank</note>
+
+    <pb facs="0" n="18v"/><note xml:lang="en">blank</note>
+
   <pb facs="0" n="20v"/>
-  <lb n="3"/><seg function="explicit"><gap reason="ellipsis"/></seg>
-  <lb n="4"/><seg function="blessing">Āḻvār tiruvaṭikaḷē caṟaṇam <g ref="#pcl"/></seg>
+  <lb n="3"/><seg function="explicit"><gap reason="ellipsis"/> – 10 1 –</seg>
+  <lb n="4"/><seg function="blessing">Āḻvār tiruvaṭikaḷē caṟaṇam<g ref="#pcl"/></seg>
   
   </body>
   </text></TEI>
