@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:lang="ta"><title xml:lang="ta">Nīticāram</title></title>
+            <title xml:lang="ta"><title xml:lang="ta">Nīticāram</title> <term xml:lang="en">(text &amp; commentary)</term></title>
          <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          
          <publicationStmt>
@@ -21,9 +21,9 @@
                   <idno type="alternate"><idno>Tamoul 72</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103485w</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary>The <title xml:lang="ta">Nīticāram</title>.</summary>
+                  <summary>The <title xml:lang="ta">Nīticāram</title>, a didactic work. An incomplete copy (the text stops short in U2, f49v4) in 83 stanzas. Each stanza is followed by its commentary. </summary>
                   
-               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Invocation</term></title><textLang mainLang="tam"/></msItem><msItem xml:id="T2" defective="false"><title xml:lang="ta">Nīticāram</title><textLang mainLang="tam"/></msItem></msContents>
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Invocation</term></title><textLang mainLang="tam"/></msItem><msItem xml:id="T2" defective="true"><title xml:lang="ta">Nīticāram</title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
@@ -44,8 +44,8 @@
 
 </desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>.</desc></collation>
 
-                        <condition>Good state of preservation, despite boreholes and truncation.</condition>
-                     <support><measure unit="stringhole" quantity="1"/></support></supportDesc>
+                        
+                     <support><measure unit="stringhole" quantity="1"/><p>Irregularly shaped leaves. The leaf type of U1 is different from that of U2 and U1 is possibly a later addition to the bundle.</p></support><foliation>Foliation for U2 only.</foliation><condition>Good state of preservation, despite boreholes and truncation.</condition></supportDesc>
                      <layoutDesc>
                         
                      </layoutDesc>
@@ -60,7 +60,7 @@
                                                                                 
                      
                      
-                  <desc synch="#U1" type="shelfmark">Shelfmark in black ink: <quote>N° 25</quote> (<locus facs="0">f[1]r</locus>).</desc><desc synch="#cover" type="shelfmark" subtype="back cover">BnF shelfmark sticker: <quote>INDIEN 71</quote>  (<locus facs="0">back cover, verso</locus>).</desc></additions>
+                  <desc synch="#U1" type="shelfmark">Shelfmark in black ink: <quote>N° 25</quote> (<locus facs="0">f[1]r</locus>).</desc><desc synch="#cover" type="shelfmark" subtype="back cover">BnF shelfmark sticker: <quote>INDIEN 71</quote>  (<locus facs="0">back cover, verso</locus>).</desc><desc synch="#U2">Additions, unblackened.</desc><desc synch="#U2" type="verse-numbering"/></additions>
                   <bindingDesc>
                      <binding>
                         <p>Original <material>wood</material> covers.</p>
@@ -108,13 +108,19 @@
   <lb n="1"/><seg function="blessing">hari Ōm</seg>
   
   <milestone unit="main-text-area"/>
+  <lb n="1"/><seg function="satellite-stanza"><lg><l>paruti matiyilaku pārmicai yōrkkellān ~</l> 
+<lb n="2"/><l>tarum neṟi nīti taṇaic cāṟṟavē ~ karutiyiṭun</l>
+<lb n="3"/><l>tuṅka veḻutttaintu poruṭ cuntara poṟ ce<del><gap reason="ellipsis"/></del>ñcaṭaiyiṟ</l>
+<lb n="4"/><l>kaṅkai cutaṉ tantimukaṉ kāppu <g ref="#pcs"/></l></lg></seg> <seg function="ownership-statement"><persName xml:lang="ta" role="owner" key="Muttucāmi">muttucāmi</persName> taṉatu <title xml:lang="ta">nīticāram</title></seg>
+  
+  <milestone unit="main-text-area"/>
   <lb n="1"/>
   
     <pb facs="00" n="[1]v"/><note xml:lang="en">blank</note>
 
 
    </body>
-                     </text><text corresp="#T2" xml:lang="ta"><body>
+                     </text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
   
   <pb facs="00" n="[1]r"/>
   
@@ -122,10 +128,22 @@
   <lb n="1"/><seg function="blessing"><term xml:lang="sa">hari Om</term></seg>
   
   <milestone unit="main-text-area"/>
-  <lb n="1"/>
+  <lb n="1"/><seg function="incipit" type="root-text">cīr peṟu <gap reason="ellipsis"/> 
+<lb n="2"/><gap reason="ellipsis"/> 
+<lb n="3"/>tāmē</seg> <term xml:lang="en">{circle}</term> Etu <term xml:lang="en">{circle}</term> <seg function="incipit" type="commentary">taṉmam āṉatu <gap reason="ellipsis"/>
+<lb n="4"/> <gap reason="ellipsis"/>m eṉṟa v<pc>-</pc>āṟu <g ref="#pcs"/></seg> 
+<lb n="5"/><note xml:lang="en">left-oriented</note><g ref="#pcs"/> 1 <g ref="#pcs"/>
+
+
+  
+  <pb facs="00" n="14r"/>
+  
+ <milestone unit="column"/>
+  <lb n="1"/><seg function="TBC">vīrappaṉ</seg><note xml:lang="en">unblackened, addition</note>
     
   <pb facs="00" n="49v"/>
-      <lb n="1"/>
+      <lb n="3"/><seg function="explicit"><gap reason="ellipsis"/>r eṉṟa v<pc>-</pc>āṟu <g ref="#pcs"/> 83 <g ref="#pcs"/> 
+      <lb n="4"/><gap reason="ellipsis"/></seg>
 
   
   </body>
