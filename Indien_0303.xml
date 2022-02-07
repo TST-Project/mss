@@ -61,7 +61,7 @@
                      
                      
                     
-                  <handNote synch="#U1" scope="minor" script="tamil" medium="incised soot"><desc>Hand #1.</desc></handNote><handNote synch="#U2 #U2a #U2b #U2c #U3 #U4 #U5" scope="major" script="tamil" medium="incised soot"><desc>Hand #2. </desc></handNote></handDesc>
+                  <handNote synch="#U1" scope="minor" script="tamil" medium="incised soot"><desc>Hand #1 and hand #2.</desc></handNote><handNote synch="#U2a" scope="minor" script="tamil" medium="incised"><desc>Hand #3. Unblackened.</desc></handNote><handNote synch="#U2b" scope="minor" medium="incised"><desc>Hand #4. Unblackened.</desc></handNote><handNote synch="#U2c #U3 #U4 #U5" scope="major" script="tamil" medium="incised soot"><desc>Hand #5 and hand #6. </desc></handNote></handDesc>
                   <additions>
                   
                      
@@ -71,7 +71,7 @@
                     
                     
                      
-                  <desc synch="#cover" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 303</quote> (<locus facs="0">front cover, recto</locus>). </desc><desc synch="#U1" type="shelfmark">Shelfmark in black ink: <quote>b/70</quote> (<locus facs="0">f[1]r</locus>).</desc></additions>
+                  <desc synch="#cover" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 303</quote> (<locus facs="0">front cover, recto</locus>). </desc><desc synch="#U1" type="shelfmark">Shelfmark in black ink: <quote>b/70</quote> (<locus facs="0">f[1]r</locus>).</desc><desc synch="#U2c" type="intertitle">Left-marginal intertitles.</desc></additions>
                   <bindingDesc>
                      <binding>
                         <p><material>Wood</material> covers apparently fabricated in the BnF.</p>
@@ -112,15 +112,15 @@
   
   <pb facs="0" n="[1]r"/>
   
-  <milestone unit="left-margin"/>
-  <lb n="1"/>
+  <milestone n="1" unit="left-margin"/>
+  <lb n="1"/>{Ōm}
   
-  <milestone n="1" unit="column"/>
-  <lb n="1"/>
-  
-    <milestone n="2" unit="column"/>
-  <lb n="1"/>
-      
+<milestone n="1" unit="column"/>
+  <lb n="1"/><seg function="blessing">tirucciṟṟampalam</seg>
+<lb n="2"/><seg function="title">citamparapurāṇam</seg>
+<milestone n="2" unit="column"/>
+  <lb n="1-2"/><seg function="title">citamparapurāṇam</seg>
+
     <pb facs="0" n="[1]v"/><note xml:lang="en">blank</note>
 
 </body>
@@ -129,16 +129,22 @@
   <pb facs="0" n="[1]r"/>
   
   <milestone n="1" unit="column"/>
-  <lb n="1"/>
-  
+  <lb n="1"/><seg function="blessing">tirucci<sic>tta</sic>mpalam</seg>
+    <lb n="2"/><seg function="title">citampa<unclear reason="eccentric_ductus">ra</unclear>purāṇam</seg>
+
   <milestone n="2" unit="column"/>
-  <lb n="1"/>
+  <lb n="1"/>citamparacarukkam 9 10 7
+<lb n="2"/>tuṉmatacarukkam 138
+<lb n="3-5"/><gap reason="ellipsis"/>
   
   <milestone n="3" unit="column"/>
-  <lb n="1"/>
+  <lb n="1-3"/><gap reason="ellipsis"/>
+  <lb n="4"/>tuṟṟeri<sic>ci</sic>ṉacaruk=kam 9 10 8
+<lb n="5"/><seg function="total-chapters total-stanzas">{Āka}c carukkam 9k=ku
   
   <milestone n="4" unit="column"/>
-  <lb n="1"/>
+  <lb n="1"/>ceyyuḷ 8 100 10 4</seg>
+<lb n="2"/><seg function="blessing">tirucci<sic>tta</sic>mpalam</seg>
   
   <pb facs="0" n="[1]v"/><note xml:lang="en">blank</note>
 
@@ -148,17 +154,22 @@
   <pb facs="0" n="[1]r"/>
   
   <milestone n="1" unit="left-margin"/>
-  <lb n="1"/>
+  <lb n="1"/><seg function="blessing">ha<seg rend="grantha">ri</seg> Ōm</seg>
   
   <milestone n="2" unit="left-margin"/>
-  <lb n="1"/>
+  <lb n="1-2"/><seg function="title">citamparapurāṇam</seg>
+<lb n="3-4"/><seg function="blessing">tirucci<sic>tta</sic>mpalam</seg>
   
   <milestone n="3" unit="left-margin"/>
-  <lb n="1"/>
+  <lb n="1-4"/><seg function="blessing">tiruvampalamuṭaiyār tiruvaṭi vāḻka</seg>
   
   <milestone unit="main-text-area"/>
-  <lb n="1"/>
- 
+  <lb n="1"/><seg function="satellite-stanza"><lg><l>vāṉanāṭarkaḷ mātavanāṭarkaḷ</l> <l>moṉañāṉa muḻutumuṇarntiṭat</l> 
+  <lb n="2"/><l>tāṉamēvun taṭavikaṭācala</l> <l>vāṉaimāmukat taṇṇalai<unclear reason="consonant_unclear">yē</unclear>ttuvām</l></lg> <g ref="#pcl"/></seg>
+  <lb n="3"/>
+  <lb n="4"/>
+  <lb n="5"/>
+   
   <pb facs="0" n="[1]v"/><note xml:lang="en">blank</note>
 
 </body>
@@ -167,29 +178,72 @@
    <pb facs="0" n="[1]r"/>
   
   <milestone n="1" unit="left-margin"/>
-  <lb n="1"/>
+  <lb n="1"/><seg function="blessing">naṉṟāka</seg>
   
   <milestone n="2" unit="left-margin"/>
-  <lb n="1"/>
+  <lb n="1"/><seg function="blessing">tirucci<sic>tta</sic>mpalam</seg>
+<lb n="2"/><seg function="intertitle">citamparacarukkam</seg>
+ <lb n="3"/><seg function="blessing">civamayam</seg>
   
   <milestone unit="main-text-area"/>
-  <lb n="1"/>
+  <lb n="1"/><seg function="incipit">nīr tāṅku pār tāṅku</seg> <gap reason="ellipsis"/>
+    
+    <pb facs="0" n="19r"/>
+  <milestone unit="left-margin"/>
+  <lb n="1"/><seg function="intertitle">TBC</seg>
+  
+      <pb facs="0" n="44r"/>
+  <milestone unit="left-margin"/>
+  <lb n="1"/><seg function="intertitle">TBC</seg>
+  
+      <pb facs="0" n="64r"/>
+  <milestone unit="left-margin"/>
+  <lb n="1"/><seg function="intertitle">TBC</seg>
+  
+      <pb facs="0" n="78r"/>
+  <milestone unit="left-margin"/>
+  <lb n="1"/><seg function="intertitle">TBC</seg>
+  
+      <pb facs="0" n="90r"/>
+  <milestone unit="left-margin"/>
+  <lb n="1"/><seg function="intertitle">TBC</seg>
+  
+      <pb facs="0" n="99r"/>
+  <milestone unit="left-margin"/>
+  <lb n="1"/><seg function="intertitle">TBC</seg>
+  
+      <pb facs="0" n="121r"/>
+  <milestone unit="left-margin"/>
+  <lb n="1"/><seg function="intertitle">TBC</seg>
+  
+      <pb facs="0" n="131r"/>
+  <milestone unit="left-margin"/>
+  <lb n="1"/><seg function="intertitle">TBC</seg>
+  
   
      <pb facs="0" n="148v"/>
-  <lb n="5"/>
+  <lb n="5"/><seg function="explicit"><gap reason="ellipsis"/> niṉṟu kaṇṭō</seg>
 
- 
-</body>
+ </body>
 </text><text synch="#U3" corresp="#T5" xml:lang="ta"><body>
   
    <pb facs="0" n="[1]r"/>
+  <milestone unit="left-margin"/>
+  <lb n="1"/><seg function="intertitle">TBC</seg>
   
   <pb facs="0" n="[1]v"/>
   
   </body></text><text synch="#U4" corresp="#T6" xml:lang="ta"><body>
   
    <pb facs="0" n="[1]r"/>
+  <milestone unit="left-margin"/>
+  <lb n="1"/><seg function="blessing">tirucci<sic>tta</sic>mpala<seg rend="grantha">m</seg></seg>
+<lb n="2"/><seg function="intertitle">citamparacarukkam</seg>
+<lb n="3"/><seg function="blessing">civamayaM <g ref="#pcs"/></seg>
   
+  <milestone unit="main-text-area"/>
+    <lb n="1"/><seg function="incipit">nīr tāṅku pār tāṅku</seg> <gap reason="ellipsis"/>
+
   <pb facs="0" n="[1]v"/>
   
   </body></text><text synch="#U5" corresp="#T7" xml:lang="ta"><body>
