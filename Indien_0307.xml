@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="en">
+      <fileDesc>
+         <titleStmt>
+            <title><title xml:lang="ta">Tirukkaḻukkuṉṟapurāṇam</title></title>
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2022</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  
+                  <idno type="shelfmark">Indien 307</idno>
+                  <idno type="alternate"><idno>Tamoul 307</idno><idno>Ariel 23 (?)</idno></idno>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1038372</idno></msIdentifier>
+               <msContents class="#STM">
+                  <summary>The <title xml:lang="ta">Tirukkaḻukkuṉṟapurāṇam</title>.</summary>
+                  
+                  
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2a" xml:id="T2" defective="false"><title xml:lang="ta">Tirukkaḻukkuṉṟapurāṇam: <term xml:lang="en">Invocation (1 satellite stanza)</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2b" xml:id="T3" defective="false"><title xml:lang="ta">Tirukkaḻukkuṉṟapurāṇam: Mūlam</title><textLang mainLang="tam"/></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="pothi">
+                     <supportDesc material="palm-leaf">
+                        <support>
+                           <!--measure unit="stringholes" quantity=""/-->
+                        <measure unit="stringhole" quantity="2"/></support>
+                        <extent>
+                           <measure unit="folio" quantity="147">[1] + [1] + 145 (U1 + U2a + U2b).</measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           <width quantity="195"/><height quantity="35"/></dimensions>
+                        <dimensions type="object" unit="mm">
+                            
+                        <depth quantity="90"/></dimensions>
+                        <dimensions type="written" unit="mm">
+                            
+                            
+                        </dimensions>
+                        </extent>
+                        
+                        
+                        
+                        <condition>Relatively good state of preservation, despite boreholes. </condition>
+                     <collation>
+                     
+                     <desc xml:id="U1">1 folio = <emph rend="bold">Title Page</emph>. No foliation. Verso blank.</desc><desc xml:id="cover">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U2a">1 folio = <emph rend="bold"><title xml:lang="ta">Tirukkaḻukkuṉṟapurāṇam</title>: Invocation (1 satellite stanza)</emph>. No foliation.</desc><desc xml:id="U2b">145 folios = <emph rend="bold"><title xml:lang="ta">Tirukkaḻukkuṉṟapurāṇam</title></emph>. Tamil foliation 1-145.</desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>.</desc></collation></supportDesc>
+                     <layoutDesc>
+                        <p/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     
+                     
+                    
+                  <handNote synch="#U1" scope="minor" scribeRef="#ArielTitleScribe" script="tamil" medium="incised soot"><desc>Hand #1.</desc></handNote><handNote synch="#U2a #U2b" scope="major" script="tamil" medium="incised soot"><desc>Hand #2. </desc></handNote></handDesc>
+                  <additions>
+                  
+                     
+                     
+                     
+                    
+                    
+                    
+                     
+                  <desc synch="#U1" type="documenting-note">BnF bequest sticker <quote>DON N° <space type="vacat"/></quote> (<locus facs="0">f[1]r</locus>).</desc><desc synch="#U1" type="shelfmark">Shelfmark in black ink: <quote>b/86</quote> (<locus facs="0">f[1]r</locus>).</desc><desc synch="#U1" type="shelfmark">Shelfmark in black pencil: <quote>23</quote> (<locus facs="0">f[1]r</locus>).</desc><desc synch="#U1" type="shelfmark">BnF shelfmark sticker: <quote>INDIEN 307</quote> (<locus facs="0">front cover, recto</locus>). Covering an earlier sticker.</desc></additions>
+                  <bindingDesc>
+                     <binding>
+                        <p>Original <material>wood</material> covers.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian" notAfter="1847">Internally dated to the year <foreign xml:lang="ta">pārapava</foreign> of the Jovian cycle, that is, either  <foreign xml:lang="ta">pirapava</foreign>, that is CE 1807-1808, 1747-1748, 1687-1688, etc., or  <foreign xml:lang="ta">parapāva</foreign>, that is, CE 1846-1847, 1786-1787, 1726-1727, etc. See colophon (U2, f145v2). Dated to circa 1747 by Vinson in Vinson et al. (1866-), on the basis of the internal date, and to 1747 by Cabaton (1912), on unstated grounds.</origDate>
+                     <origPlace>Pondicherry.</origPlace>
+                  </origin>
+                  <acquisition>
+                     <p>Received, August 1st, 1866, from the Société Asiatique. See BnF, département des Manuscrits, inventaire 7 = <title>Dons: manuscrits et imprimés documentaires, 1848-1895</title>, no. 1192.</p>
+                  </acquisition>
+               <provenance><p>Owned by <persName ref="https://catalogue.bnf.fr/ark:/12148/cb143513141" key="Ariel, Edouard (1818-1854)">Edouard Ariel</persName> (1818-1854). Bequested by Edouard Ariel to Société Asiatique (Rosny 1868, p. 177).</p></provenance></history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f63">p. 45, no. 307</ref>.</bibl><bibl>Rosny, Léon de (1868). <title type="article">La bibliothèque tamoule de M. Ariel, de Pondichéry</title>. In: <title>Variétés orientales</title> (pp. 177‒224). Paris: Maisonneuve. </bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. (1866-). <title> Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f155">f. 70r, no. <del>283</del> 307</ref>. </bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+         
+         
+      <p><p><emph rend="bold">Transliteration conventions</emph></p>  
+<p>Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only).  </p>  <p><emph rend="bold">Abbreviations</emph></p>  <p> c = column, f = folio, lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.</p>       </p></encodingDesc>
+      <revisionDesc>
+         
+      
+      <change when="2022-02">Record created by Emmanuel FRANCIS</change></revisionDesc>
+   </teiHeader>
+    <sourceDoc>
+        <surface/>
+    </sourceDoc>
+<facsimile/><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+  
+  <pb facs="0" n="[1]r"/>
+  
+   
+  <lb n="1-2"/><seg function="title">tirukkaḻukkuṉṟapurāṇam</seg>
+      
+    <pb facs="0" n="[1]v"/><note xml:lang="en">blank</note>
+
+</body>
+</text><text synch="#U2a" corresp="#T2" xml:lang="ta"><body>
+  
+  <pb facs="0" n="[1]r"/>
+  
+  <milestone unit="left-margin"/>
+  <lb n="1"/><seg function="blessing">civamayam</seg>
+<lb n="2"/><seg function="blessing">cupam as·tu</seg>
+<lb n="2"/><seg function="blessing"><term xml:lang="sa">hari Om</term></seg>
+<lb n="4"/><seg function="blessing">naṉṟāka</seg>
+<lb n="5"/><seg function="blessing">kuru vāḻka</seg>
+ <lb n="6-8"/><seg function="TBV">Itu viṉāyakaṉai vaḻipaṭṭatu</seg>
+
+      <milestone unit="main-text-area"/>
+  <lb n="1-4"/>
+ 
+  <pb facs="0" n="[1]v"/>
+    <lb n="1-4"/>
+  
+  </body>
+</text><text synch="#U2b" corresp="#T3" xml:lang="ta"><body>
+  
+  <pb facs="0" n="1r"/>
+  
+   <milestone unit="left-margin"/>
+  <lb n="1"/><seg function="blessing">naṉṟāka</seg>
+<lb n="2-4"/><seg function="title">tirukkaḻukkuṉṟapurāṇam</seg>
+<lb n="5-6"/><seg function="title">pāyiraccarukkam ~</seg>
+     
+  <milestone unit="main-text-area"/>
+  <lb n="1"/><seg function="incipit"/>
+ 
+  <pb facs="0" n="145r"/>
+    <lb n="9"/><gap reason="ellipsis"/> <seg function="explicit"><g ref="#pcs"/> 10 6 <g ref="#pcs"/></seg> <seg function="colophon"><seg function="blessing">tirucciṟṟampalam <g ref="#pcs"/></seg>
+
+  <pb facs="0" n="145v"/>
+   <lb n="1"/><seg function="completion-statement">curakurucarukkamuṟṟum <g ref="#pcl"/></seg> <seg function="total-stanzas">{Āka}-t tiruviruttam 8 100 3 10 2 <g ref="#pcs"/></seg> <seg function="blessing">civamayam <g ref="#pcs"/></seg>
+ <lb n="2"/><seg function="blessing">kuru-pātan tuṇai <g ref="#pcl"/></seg> pārapava {varuṣam} Āṭi {mācam} 2 10 {tēti} cattamiyum – maṅkaḷavāramum
+ <lb n="3"/>cuvāti-naṣṣetiramuṅ kūṭiṉa cupatiṉattil <placeName xml:lang="ta" key="Pondicherry">putuvai</placeName>-nakariṉil irukkum</seg>
+
+
+</body>
+</text></TEI>
