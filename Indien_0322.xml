@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="ta"><title xml:lang="ta">Iliṅkapurāṇam</title></title>
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2022</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  
+                  <idno type="shelfmark">Indien 322</idno>
+                  <idno type="alternate"><idno>Tamoul 322</idno><idno>Ariel 52</idno></idno>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1038525</idno></msIdentifier>
+               <msContents class="#STM">
+                  <summary>The <title xml:lang="ta">Iliṅkapurāṇam</title>, a Tamil version after the Sanskrit <title xml:lang="sa">Liṅgapurāṇam</title>.
+                  </summary>
+                  
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false" class="#puranam"><title xml:lang="ta">Iliṅkapurāṇam: Mūlam</title><textLang mainLang="tam"/></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="pothi">
+                     <supportDesc material="palm-leaf">
+                        <extent>
+                           <measure unit="folio" quantity="176">[1] + 175 (U1 + U2 + U3)</measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           <width quantity="420"/><height quantity="30"/></dimensions>
+                        <dimensions type="object" unit="mm"><depth quantity="100"/></dimensions><dimensions type="written" unit="mm"/></extent>
+                        <collation>
+                        
+                        
+                        
+                        <desc xml:id="cover">the <emph rend="bold">front cover</emph></desc><desc xml:id="U1">1 folio = <emph rend="bold">Title Page</emph>. No foliation. Verso blank. 420 x 30 mm.</desc><desc xml:id="U2">175 folios = <emph rend="bold"><title xml:lang="ta">Iliṅkapurāṇam</title>: Text</emph>. Tamil foliation [1], 2-78<hi rend="superscript">1</hi>, 78<hi rend="superscript">2</hi>-174. f174v blank. 420 x 30 mm.</desc><desc xml:id="cover">the <emph rend="bold">back cover</emph></desc></collation>
+                        <!--Check continuity of text between missing folios!--> 
+                        <condition>Relatively good state of preservation, despite boreholes. Some folios more damaged than the others.</condition>
+                     <support><measure unit="stringhole" quantity="2"/></support></supportDesc>
+                     <layoutDesc>
+                        <layout columns="1"/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     
+                  <handNote synch="#U1" scope="minor" scribeRef="#ArielTitleScribe" script="tamil" scriptRef="#tamilPulliRegular #tamilOE" medium="incised soot"/><handNote synch="#U2" scope="major" script="tamil" medium="incised soot"/></handDesc>
+                  <additions>
+                     
+                     
+                     
+                  <desc synch="#cover" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 322</quote> (<locus facs="0">front cover, recto</locus>).</desc><desc synch="#cover" type="documenting-note" subtype="cover front">BnF sticker <quote>DON N° <space type="vacat"/></quote> (<locus facs="0">front cover, recto</locus>).</desc><desc synch="#cover" type="shelfmark" subtype="cover front">Shelfmark in black pencil: <quote>6</quote> (<locus facs="0">front cover, recto</locus>).</desc><desc synch="#U1" type="shelfmark">Shelfmark in black ink: <quote>b/33</quote> (<locus facs="0">f[1]r</locus>).</desc><desc synch="#U1" type="shelfmark">Shelfmark sticker (Société Asiatique?), written in black ink: <quote>677</quote> (<locus facs="0">f[1]r</locus>).</desc><desc synch="#U2" type="intertitle" subtype="marginal left">Left-marginal intertitles.</desc></additions>
+                  <bindingDesc>
+                     <binding>
+                        <p><material>Wood</material> covers apparently fabricated in the BnF.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian" notAfter="1855">Internally dated to the year <foreign xml:lang="ta">cātāraṇa</foreign> of the Jovian cycle, that is, CE 1850-1851, 1790-1791, 1730-1731, etc. See colophon (U2, f174r4). Dated to 1730 by Vinson in Vinson et al. (1866-), on the basis of the date in the colophon, and to 1730 by Cabaton (1912).</origDate>
+                     <origPlace>South India, Tamilnadu.</origPlace>
+                  </origin>
+                  <acquisition>
+                     <p>Received, August 1st, 1866, from the Société Asiatique. See BnF, département des Manuscrits, inventaire 7 = <title>Dons: manuscrits et imprimés documentaires, 1848-1895</title>, no. 1192.</p>
+                  </acquisition>
+               <provenance><p>Owned by <persName ref="https://catalogue.bnf.fr/ark:/12148/cb143513141" key="Ariel, Edouard (1818-1854)">Edouard Ariel</persName> (1818-1854). Bequested by Edouard Ariel to Société Asiatique (Rosny 1868, p. 177).</p></provenance></history>
+               <additional>
+                  <listBibl>
+                     
+                     
+                     
+                     
+                  <bibl>Cabaton, Antoine (1912). <title xml:lang="fr">Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f65">p. 47, no. 322</ref>.</bibl><bibl>Rosny, Léon de (1868). <title type="article">La bibliothèque tamoule de M. Ariel, de Pondichéry</title>. In: <title>Variétés orientales</title> (pp. 177‒224). Paris: Maisonneuve. </bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. (1866-). <title> Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f161">f. 73r, no. <del>298</del>322</ref>. </bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+        
+         
+      <p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.    </p></encodingDesc>
+      <revisionDesc>
+         
+         
+      <change when="2022-02">Record created by Emmanuel FRANCIS.</change></revisionDesc>
+   </teiHeader>
+   <sourceDoc>
+    <surface/>
+   </sourceDoc>
+<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+  
+  <pb n="[1]r"/>  
+  
+  <milestone n="1" unit="column"/>
+  <lb n="1-3"/><seg function="blessing">veṟṟi-vēl uṟṟa tuṇai</seg>
+  
+  <milestone n="2" unit="column"/>
+  <lb n="1"/><seg function="title">Iḵtu
+  
+  <milestone n="3" unit="column"/>
+  <lb n="1-2"/>Iliṅkapurāṇam</seg>
+ 
+    <pb n="[1]v"/><note xml:lang="en">blank</note>
+
+</body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
+  
+  <pb n="[1]r"/>
+  <milestone unit="left-margin"/>
+  <lb n="1"/><seg function="title">liṅka
+  <lb n="2" break="no"/>purāṇa
+  <lb n="3" break="no"/>m</seg> <seg function="blessing">civa
+  <lb n="4" break="no"/>mayam</seg>
+
+  <milestone unit="main-text-area"/>
+  <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
+  
+  <pb n="1v"/>
+  <milestone unit="left-margin"/>
+  <lb n="1-3"/><seg function="intertitle">A<unclear>ṇu</unclear>kkirakamaṇi</seg>
+  
+   <milestone unit="main-text-area"/>
+  <lb n="8"/><gap reason="ellipsis"/> = 11 = <seg function="completion-statement">kaṭavuḷ vāḷttu muṟṟum =</seg> <gap reason="ellipsis"/>
+  
+  <pb n="5r"/>
+  <milestone unit="left-margin"/>
+  <lb n="1-4"/><seg function="intertitle"><gap reason="ellipsis"/></seg>
+  <lb n="5-49"/><seg function="intertitle"><gap reason="ellipsis"/></seg>
+  
+  <pb n="78.1v"/>
+  <milestone unit="left-margin"/>
+  <lb n="1-5"/><seg function="intertitle"><gap reason="ellipsis"/></seg>
+        
+  <milestone unit="main-text-area"/>
+  <lb n="7"/><gap reason="ellipsis"/> <seg function="completion-statement total-stanzas">mūṉṟāvatu civaṉ vaṭiv<pc>’</pc> uraitta v<pc>-</pc>attiyāyamuttum  āka viru<supplied reason="lost">t</supplied>tam = 1000 100 7 10 6 =</seg> <lb n="8"/><gap reason="ellipsis"/>
+  
+  <pb n="78.r"/>
+  <milestone unit="left-margin"/>
+  <lb n="1-3"/><seg function="intertitle">mūṟtipētam uraitta v<pc>-</pc>atti
+yāyam <g ref="#pcl"/></seg>
+  
+  <pb n="100r"/>
+  <milestone unit="left-margin"/>
+  <lb n="1-6"/><seg function="intertitle"><gap reason="ellipsis"/> v<pc>-</pc>ttiyāyam</seg>
+  
+  <pb n="130r"/>
+  <milestone unit="left-margin"/>
+  <lb n="1-6"/><seg function="intertitle"><gap reason="ellipsis"/></seg>
+  
+  <pb n="164r"/>
+  <milestone unit="left-margin"/>
+  <lb n="1-4"/><seg function="intertitle"><gap reason="ellipsis"/> v<pc>-</pc>ttiyāyam</seg>
+  
+  <pb n="174r"/><note xml:lang="en">blank</note>
+  <lb n="2"/><seg function="explicit"><gap reason="ellipsis"/> = 10 6 =</seg>
+  <lb n="3"/><seg function="colophon"><seg function="completion-statement total-stanzas">nāṟpattāṟāvatu yōkam uraitta v<pc>-</pc>attiyāyamuṟṟum āka viruttam <gap reason="lost" quantity="7" unit="character"/> ṟu <gap reason="lost" quantity="3" unit="character"/> ṭam = 1000 9 100 5 10 5 =</seg> <seg function="total-chapters">Āka kāṇṭam 2kku liṅkapurāṇam = Ut <gap reason="lost" quantity="3" unit="character"/> =</seg> cātāra
+<lb n="4" break="no"/>ṇa {varuṣam} vaiyāci {mācam} 3 10 {tēti} tiriyoteci putaṉ pāṇi y<pc>-</pc>inta tiṉattil liṅkapurāṇam Attiyāya = 100 5 10 4 <unclear><g ref="#pcs"/></unclear> viruttam 2 1000 5 100 6 <persName xml:lang="ta" role="scribe" key="Pālayyar">pālayyar</persName> E<sic>ḻi</sic>ti mukintatu muṟṟum <g ref="#pcl"/> <seg function="blessing">tirucciṟṟampalam</seg></seg>
+
+  
+  <pb n="174v"/><note xml:lang="en">blank</note>
+
+</body></text></TEI>
