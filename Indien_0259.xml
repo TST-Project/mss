@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -9,7 +9,7 @@
          
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -81,8 +81,9 @@
    <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10029517t/manifest.json"/></facsimile>
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   <pb facs="07" n="1r"/>
-    <lb n="1"/><seg><term xml:lang="fr">Bagavedam</term></seg>
-    <seg function="title"><lb n="2"/>Pākavatam</seg>
+    <lb n="1"/><note xml:lang="en">centred</note><seg function="title"><term xml:lang="fr">Bagavedam</term></seg>
+    
+      <lb n="2"/><seg function="title"><note xml:lang="en">centred</note>Pākavatam</seg>
     <seg function="incipit">
       <lb n="3"/>puṇṇiya-kṣettiram-āy irukka-p-paṭṭavaṉamicāraṇṇiya-kṣe
       <lb n="4" break="no"/>ttirattilē vācam paṇṇappaṭā ṉiṉṟa</seg> <gap reason="ellipsis"/>  
