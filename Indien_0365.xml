@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><title xml:lang="ta">Aññavataipparaṇi</title></title>
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2022</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Indien 365</idno>
+                  <idno type="alternate"><idno>Tamoul 365</idno><idno>Ariel TBC</idno></idno>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1038924</idno></msIdentifier>
+               <msContents class="#STM">
+                  <summary>The <title xml:lang="ta">Aññavataipparaṇi</title>.</summary>
+                  
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Tiruvāmāttūr Kalampakam: Mūlam</title><textLang mainLang="tam"/></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="paper">
+                        <extent>
+                           <measure unit="folio" quantity="35">35 (U1).</measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           <height quantity="225"/></dimensions>
+                        <dimensions type="object" unit="mm"><width quantity="160"/><height quantity="230"/><depth quantity="10"/></dimensions><dimensions type="written" unit="mm"/></extent>
+                        
+                        
+                     <collation>
+                     
+                     <desc xml:id="cover">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="u1">1 folio = <emph rend="bold">guard leaf</emph>.
+</desc><desc xml:id="U1">25 folios = <emph rend="bold"><title xml:lang="ta">Tiruvāmāttūr Kalampakam</title>: Text</emph>. Original Tamil foliation 1-18 only. Library foliation 1-24,<del>25</del>, [26-35]. f25, f[26]-[35] blank recto verso.</desc><desc xml:id="u2">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. 
+</desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>. </desc></collation><condition>Relatively poor state of preservation. Some moisture/water damages, cracked leaves.</condition><support><measure unit="stringhole"/></support></supportDesc>
+                     <layoutDesc>
+                        
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     
+                  <handNote synch="#U1" scope="sole" script="tamil" medium="ink black"/></handDesc>
+                  <additions><desc synch="#cover" type="shelfmark" subtype="spine">Shelfmark <quote>Cc/3</quote> in black ink on a sticker (<locus facs="0">spine</locus>).</desc><desc synch="#cover" type="shelfmark" subtype="spine">BnF shelfmark sticker: <quote>INDIEN 365</quote> (<locus facs="0">spine</locus>). </desc><desc synch="#cover" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 365</quote> (<locus facs="0">f[1]v</locus>). </desc><desc synch="#u1" type="shelfmark">BnF shelfmark in black pencil: <quote>Tamoul N° 365</quote> (<locus facs="0">f[1]r</locus>). </desc></additions>
+                  <bindingDesc>
+                     <binding>
+                        <p><material>Leather</material> cover.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian" notAfter="1855">No internal date. Dated to circa 1770 by Vinson in Vinson et al. (1866-) and t0 1770 by Cabaton (1912), on unstated grounds.</origDate>
+                     <origPlace>Tamilnadu.</origPlace>
+                  </origin>
+                  <acquisition>
+                     
+                  <p>Received, August 1st, 1866, from the Société Asiatique. See BnF, département des Manuscrits, inventaire 7 = <title>Dons: manuscrits et imprimés documentaires, 1848-1895</title>, no. 1192.</p></acquisition>
+               <provenance><p>Owned by <persName ref="https://catalogue.bnf.fr/ark:/12148/cb143513141" key="Ariel, Edouard (1818-1854)">Edouard Ariel</persName> (1818-1854). Bequested by Edouard Ariel to Société Asiatique (Rosny 1868, p. 177).</p></provenance></history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f71">p. 53, no. 365</ref>.</bibl><bibl>Rosny, Léon de (1868). <title type="article">La bibliothèque tamoule de M. Ariel, de Pondichéry</title>. In: <title>Variétés orientales</title> (pp. 177‒224). Paris: Maisonneuve. </bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. (1866-). <title> Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f179">f. 82r, no. <del>337</del> 363</ref>. </bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         
+      <change when="2022-02">Record created by Emmanuel FRANCIS.</change></revisionDesc>
+   <encodingDesc><p>TBC</p></encodingDesc></teiHeader>
+   
+<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+  
+  <pb n="1r"/>
+  
+  <lb n="1"/><note xml:lang="en">centred</note><seg function="blessing">tirucciṟṟampalam.</seg>
+<lb n="2"/><note xml:lang="en">centred</note><seg function="title"><supplied reason="lost">Añ</supplied>ñavataipparaṇi.</seg>
+<lb n="3"/><seg function="incipit"><gap reason="ellipsis"/></seg>
+
+  <pb n="23v"/>
+   <lb n="-4"/><gap reason="ellipsis"/>
+  <lb n="-3"/><gap reason="ellipsis"/> – 19 – <seg function="TBC">Iṉi kkaḷaṅkāṭṭu –</seg> <seg function="total-stanzas">Āka vi
+<lb n="-2" break="no"/>ruttam 4 100 4 10</seg> <term xml:lang="en">{line-fillers = 13 hyphens}</term>
+ <lb n="-1"/><gap reason="ellipsis"/>
+  
+   <pb n="24r"/>
+   <lb n="-3"/><gap reason="ellipsis"/>
+  <lb n="-2"/><gap reason="ellipsis"/> – 9 – <seg function="total-stanzas">Āka viruttam 449</seg> <term xml:lang="en">{line-fillers = 2 hyphens}</term>
+ <lb n="-1"/><note xml:lang="en">centred</note><seg function="TBC">Iṉi kat=taḻaṭuvar ~</seg>
+  
+    <pb n="24v"/>
+   <lb n="16"/><seg function="explicit"><gap reason="ellipsis"/> – 6 –</seg> <seg function="total-stanzas">Āka vi<ex>ruttam</ex> – 455 –</seg> <seg function="TBC">Iṉi Ammu
+<lb n="17"/>lakkai</seg> <term xml:lang="en">{line-fillers = 13 hyphens}</term>
+
+  
+</body></text></TEI>
