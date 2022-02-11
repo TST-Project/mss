@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><title xml:lang="ta">Tiruvāmāttūr Kalampakam</title></title>
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2022</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Indien 363</idno>
+                  <idno type="alternate"><idno>Tamoul 363</idno><idno>Ariel 24</idno></idno>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103890k</idno></msIdentifier>
+               <msContents class="#MTM">
+                  <summary>The <title xml:lang="ta">Tiruvāmāttūr Kalampakam</title>.</summary>
+                  
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title page</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2a" xml:id="T2" defective="false"><title xml:lang="ta">Tiruvāmāttūr Kalampakam: Kāppu</title><textLang mainLang="tam"/></msItem><msItem synch="#U2b" xml:id="T3" defective="false"><title xml:lang="ta">Tiruvāmāttūr Kalampakam: Mūlam</title><textLang mainLang="tam"/></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="pothi">
+                     <supportDesc material="palm-leaf">
+                        <extent>
+                           <measure unit="folio" quantity="22">[1] + [1] + 18  + [1] + [1]  (U1 + U2a + U2b + U3 + U4)</measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           <width quantity="445"/><height min="25" max="30"/></dimensions>
+                        <dimensions type="object" unit="mm"><width quantity="455"/><height quantity="30"/><depth quantity="35"/></dimensions><dimensions type="written" unit="mm"/></extent>
+                        
+                        
+                     <collation>
+                     
+                     <desc xml:id="cover">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">Title Page</emph>. No foliation. Double folio. Verso blank. 445 x 30 mm. 
+</desc><desc xml:id="U2a">1 folio = <emph rend="bold"><title xml:lang="ta">Tiruvāmāttūr Kalampakam</title>: invocation</emph>. No foliation. 445 x 25 mm.</desc><desc xml:id="U2b">12 folios = <emph rend="bold"><title xml:lang="ta">Tiruvāmāttūr Kalampakam</title>: Text</emph>. Tamil foliation [1], 2-18. 445 x 25 mm.
+</desc><desc xml:id="U3">1 folio = <emph rend="bold">guard leaf</emph>. Single folio. Blank recto verso.
+</desc><desc xml:id="U4">1 folio = <emph rend="bold">guard leaf</emph>. Double folio. Blank recto verso.
+</desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>. </desc></collation><condition>Relatively good state of preservation despite boreholes. Some folios more damaged than the others.</condition><support><measure unit="stringhole" quantity="1"/></support></supportDesc>
+                     <layoutDesc>
+                        
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     
+                  <handNote synch="#U1" scope="sole" scribeRef="#ArielTitleScribe" script="tamil" scriptRef="#tamilPulliRegular #tamilOE" medium="incised"/><handNote scope="sole" script="tamil" medium="incised"><desc>Neat handwriting. The <foreign xml:lang="ta">puḷḷi</foreign> is a circle.</desc></handNote></handDesc>
+                  <additions><desc synch="#cover" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 363</quote> (<locus facs="0">front cover, recto</locus>). </desc><desc synch="#cover" type="intertitle documenting-note" subtype="cover front">BnF bequest sticker <quote>DON N° <space type="vacat"/></quote> (<locus facs="0">front cover, recto</locus>). </desc><desc synch="#U1" type="shelfmark">Shelfmark <quote>c/40</quote> in black ink (<locus facs="0">f[1]r</locus>).</desc><desc synch="#U1" type="shelfmark">Shelfmark sticker (Société Asiatique?), written in black ink: <quote>422</quote> (<locus facs="0">f[1]r</locus>).</desc></additions>
+                  <bindingDesc>
+                     <binding>
+                        <p><material resp="#cLI" cert="medium">Mahogany</material> woodcovers apparently fabricated in the BnF. 455 x 30 mm.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian" notAfter="1855">No internal date.</origDate>
+                     <origPlace>Tamilnadu.</origPlace>
+                  </origin>
+                  <acquisition>
+                     
+                  <p>Received, August 1st, 1866, from the Société Asiatique. See BnF, département des Manuscrits, inventaire 7 = <title>Dons: manuscrits et imprimés documentaires, 1848-1895</title>, no. 1192.</p></acquisition>
+               <provenance><p>Owned by <persName ref="https://catalogue.bnf.fr/ark:/12148/cb143513141" key="Ariel, Edouard (1818-1854)">Edouard Ariel</persName> (1818-1854). Bequested by Edouard Ariel to Société Asiatique (Rosny 1868, p. 177).</p></provenance></history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f70">p. 52, no. 363</ref>.</bibl><bibl>Rosny, Léon de (1868). <title type="article">La bibliothèque tamoule de M. Ariel, de Pondichéry</title>. In: <title>Variétés orientales</title> (pp. 177‒224). Paris: Maisonneuve. </bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. (1866-). <title> Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f179">f. 82r, no. <del>337</del> 363</ref>. </bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         
+      <change when="2022-02">Record created by Emmanuel FRANCIS.</change></revisionDesc>
+   <encodingDesc><p>TBC</p></encodingDesc></teiHeader>
+   
+<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+  
+  <pb n="[1]r"/>
+    <milestone n="1" unit="column"/>
+    <lb n="1"/><seg function="title">Ivai
+  
+  <milestone n="2" unit="column"/>
+    <lb n="1-2"/>tiruvāmāttūr kalampakam</seg> 
+  
+   <pb n="[1]v"/><note xml:lang="en">blank</note>
+  
+</body></text><text synch="#U2a" corresp="#T2" xml:lang="ta"><body>
+  
+  <pb n="[1]r"/>
+    <milestone n="1" unit="left-margin"/>
+    <lb n="1"/><seg function="blessing"><term xml:lang="sa">hari Om</term></seg>
+  
+  <milestone n="2" unit="left-margin"/>
+    <lb n="1"/><seg function="blessing">tattuvaliṅkan tuṇai</seg>
+ <lb n="2"/><seg function="blessing">civa-caṟkuru-pātamē keti</seg>
+ <lb n="3"/><seg function="blessing">caṟuvā <gap reason="illegible" quantity="1" unit="character"/> civa-mayam</seg>
+ <lb n="4-5"/><seg function="title">tiruvāmāttūr-k kalampakam {pcl}</seg>
+
+   <milestone n="3" unit="left-margin"/>
+    <lb n="1"/><seg function="intertitle">kāppu</seg>
+  
+  <milestone unit="main-text-area"/>
+  <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
+  
+   <pb n="[1]v"/>
+  <lb n="1"/><gap reason="ellipsis"/> {pcs} <seg function="blessing">civam</seg>{pcs}
+  <lb n="2"/><seg function="blessing">caṟkuru-pātamē keti {pcs}</seg>
+  
+</body></text><text synch="#U2b" corresp="#T3" xml:lang="ta"><body>
+  
+  <pb n="[1]r"/>
+    <milestone unit="left-margin"/>
+    <lb n="1-2"/><seg function="blessing">naṉṟāka</seg>
+  
+     <milestone unit="main-text-area"/>
+  <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
+  
+   <pb n="18v"/>
+  <lb n="1"/><seg function="explicit">ttēvarē {pcs} 100 1 {pcs}</seg> <seg function="blessing">civamayaM={pcl}</seg> <seg function="blessing">kuru-pātamē keti {pcs}</seg>
+</body></text></TEI>
