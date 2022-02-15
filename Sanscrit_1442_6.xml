@@ -1,17 +1,15 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Agar wood sample</title>
-         </titleStmt>
-         <editionStmt>
-            <p>Record edited by <persName>Charles LI</persName> <orgName>CNRS, CEIAS, UMR 8564</orgName>.</p>
-         </editionStmt>
+            <title>Kulālikāmnāya</title>
+         <editor><persName>Charles LI</persName><orgName>CNRS, CEIAS, UMR 8564</orgName></editor></titleStmt>
+         
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -23,10 +21,10 @@
                   <idno type="alternate"><idno>Cordier non-médicine sans numéro</idno></idno>
                </msIdentifier>
                <msContents class="#STM">
-                  <summary><p>A sample of Sāñcīpat, Agar wood bark prepared to be used as writing support. This practice is common in Assam. Most folios are blank, except for <locus facs="10">one</locus> which contains a few lines in Śāradā script.</p>
+                  <summary><p>This manuscript consists mostly of samples of Sāñcīpat, Agar wood bark prepared to be used as writing support. This practice is common in Assam. Most folios are blank, except for <locus facs="10">one</locus> which contains a few lines in <term xml:lang="sa">Śāradā</term> script from what seems to be the <title xml:lang="sa">Kulālikāmnāya</title>. The incipit closely parallels 4.111-112 of the critical text of Goudriaan &amp; Schoterman (1988, 191). The scribal hand as well as the marginal title seem to be identical to those of Sanscrit 1442.3.</p>
 <p>A <locus facs="2">note</locus> in Palmyr Cordier's hand describes the process by which the folios are prepared, translated into French from an <ref target="https://archive.org/details/journalofasiatic6318asia/page/107/mode/1up">1894 article</ref> in the Journal of the Asiatic Society of Bengal by E. A. Gait.</p></summary>
                   
-               <msItem defective="false"><title>TBA</title></msItem></msContents>
+               <msItem xml:id="KA" defective="true"><title xml:lang="sa">Kulālikāmnāya</title><textLang mainLang="san"/></msItem></msContents>
                <physDesc>
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
@@ -48,38 +46,53 @@
                         
                      </layoutDesc>
                   </objectDesc>
-                  <handDesc/>
+                  <handDesc><handNote scope="sole" script="sarada"><desc>If it is the same hand as Sanscrit 1442.3, then the scribe would be <persName role="scribe">Haraprasād Śāstrī</persName>.</desc></handNote></handDesc>
                   <decoDesc>
                   </decoDesc>
                   <additions>
-                  </additions>
+                  <desc type="blessing" subtype="marginal left"><q xml:lang="sa">śrī</q>.</desc><desc type="title" subtype="marginal left"><q xml:lang="sa">sa ṣa</q>.</desc></additions>
                   <bindingDesc>
                      <binding/>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian"/>
+                     <origDate calendar="gregorian" notAfter="1900"/>
                      
                   </origin>
-                  <provenance/>
-                  <acquisition><p>Part of the non-medical manuscripts of the <persName role="collector">Palmyr Cordier</persName> collection.</p></acquisition>
+                  <provenance><p>Part of the non-medical manuscripts of the <persName role="collector">Palmyr Cordier</persName> collection.</p></provenance>
+                  <acquisition><p>Acquired for the BnF by <persName role="collector">Jean Filliozat</persName>.</p></acquisition>
                </history>
                <additional>
                   <listBibl>
                      
-                  </listBibl>
+                  <bibl>Cabaton, Antoine (1907-1908) <title xml:lang="fr">Catalogue sommaire des manuscrits sanscrits avec supplément manuscrit</title>. Paris: E. Leroux. Supplemented by Jean Filliozat. <ref target="https://gallica.bnf.fr/ark:/12148/btv1b10536321f/f253.item">317</ref>.</bibl><bibl>Goudriaan, T. &amp; Schoterman, J. A. (1988) <title>The Kubjikāmatatantra: Kulālikāmnāya version</title>. Leiden: Brill.</bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          
-      <p>TBA</p></encodingDesc>
+      <p>Spaces added where possible. ❈ represents a <term xml:lang="sa">puṣpikā</term>.</p></encodingDesc>
       <revisionDesc>
          
-      </revisionDesc>
+      <change when="2022-02">Added text transcription.</change></revisionDesc>
    </teiHeader>
    <facsimile>
    <graphic url="https://tst-project.github.io/img/Sanscrit_1442.6/index.json"/></facsimile>
-</TEI>
+<text corresp="#KA" xml:lang="sa"><body>
+  <milestone facs="10" n="4r"/>
+  <lg>
+    <l><seg function="incipit"><lb n="1"/>naṃ tu kathitaṃ tava śobhane |</seg></l>
+    <l>etad vādyasamākṣobhaṃ gopanīyaṃ prayatnataḥ |</l>
+    <l>ekavīravidhānāni prāg uktaṃ kramapārage |</l>
+    <l>atra te kathayeṣyāmi saṃsphaṭaṃ karavalini |:||</l>
+  </lg>
+  <p><lb n="2"/>iti mālinyonyāsatadhārakramaḥ |:|❈||:|𑇞𑇞𑇞</p>
+  <p>śrīdevy uvācaḥ</p>
+  <lg>
+    <l>śabdarāśis tu ye deva kathaya svaprasādataḥ</l>
+    <l>pañcāśabhairavopītam ādhikṣāktuṃ yathā<lb n="3"/>kramaḥ |</l>
+  </lg>
+  <p><seg function="explicit">śrībhairav uvācaḥ |</seg></p>
+</body></text></TEI>
