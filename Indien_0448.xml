@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><title xml:lang="ta">Tiṉakaraveṇpā</title></title>
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2022</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Indien 448</idno>
+                  <idno type="alternate"><idno>Tamoul 448</idno></idno>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1039777</idno></msIdentifier>
+               <msContents class="#STM">
+                  <summary>The <title xml:lang="ta">Tiṉakaraveṇpā</title> in 96 stanzas.</summary>
+                  
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page (original)</term></title><textLang mainLang="tam"/></msItem><msItem xml:id="T2" defective="false"><title xml:lang="ta">Tiṉakaraveṇpā: Mūlam</title><textLang mainLang="tam"/></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="pothi">
+                     <supportDesc material="palm-leaf">
+                        <extent>
+                           <measure unit="folio" quantity="18">[1] + 17 (U1 + U2).</measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           <width min="420" max="435"/><height min="25" max="30"/></dimensions>
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
+                        
+                        
+                     <collation>
+                     
+                     <desc xml:id="cover">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">Title Page (original)</emph>. With later additions. No foliation. Truncated leaf. Verso blank. 420 x 25 mm. </desc><desc xml:id="U2">17 folios = <emph rend="bold"><title xml:lang="ta">Tiṉakaraveṇpā</title>: Text </emph>. Tamil foliation 1-16, [17]. f[17]: left edge truncated, foliation lost. f17v blank. 435 x 30 mm.
+</desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>. </desc></collation><condition>Relatively good state of preservation, despite some truncated leaves.</condition><support><measure unit="stringhole" quantity="1"/></support></supportDesc>
+                     <layoutDesc>
+                        
+                     <layout writtenLines="4" columns="2 3">Stanzas distributed <foreign xml:lang="ta">aṭi</foreign>-wise per line and final letter(s) indented to the right at the end of lines.</layout></layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     
+                  <handNote synch="#U1" scope="minor" script="tamil" medium="incised soot"><desc>Hand #1.</desc></handNote><handNote synch="#U2" scope="major" script="tamil" medium="incised soot"><desc>Hand #2.</desc></handNote></handDesc>
+                  <additions><desc synch="#cover" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 448</quote> (<locus facs="0">front cover, recto</locus>). </desc><desc synch="#U1" type="shelfmark">Shelfmark in black ink: <quote>N° 8</quote> (<locus facs="0">f[1]r</locus>).</desc><desc synch="#U2" type="verse-numbering"/></additions>
+                  <bindingDesc>
+                     <binding>
+                        <p><material>Wood</material> covers apparently fabricated in the BnF.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian" notAfter="1855">No internal date. Dated to circa 1780 by Vinson in Vinson et al. (1866-) and to 1780 by Cabaton (1912), on unstated grounds.</origDate>
+                     <origPlace>Tamilnadu.</origPlace>
+                  </origin>
+                  <acquisition>
+                     
+                  <p>Unknown.</p></acquisition>
+               <provenance><p>Unknown.</p></provenance></history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f81">p. 63, no. 448</ref>.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. (1866-). <title> Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f219">f. 102r, no. <del>416</del> 448</ref>. </bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         
+      <change when="2022-02">Record created by Emmanuel FRANCIS.</change></revisionDesc>
+   <encodingDesc><p>TBC</p></encodingDesc></teiHeader>
+   
+<facsimile/><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+  
+  <pb facs="0" n="[1]r"/>
+  
+  <milestone n="1" unit="column"/>
+  <lb n="1"/><seg function="title">tiṉakaraveṇpā</seg>
+  
+  <milestone n="2" unit="column"/>
+  <lb n="1"/><seg function="title" cert="low">Ātticcūṭiveṇpā cukuṟtamaṇimalai</seg>
+<lb n="2"/><seg function="TBC">Aṭuttatu<choice><unclear reason="consonant_unclear">kā</unclear><unclear reason="consonant_unclear">k= kā</unclear></choice>ṭṭu mayaḷiṅka<unclear>t=tu</unclear> <gap reason="ellipsis"/></seg>
+  
+ <milestone n="3" unit="column"/><note xml:lang="en">addition</note>
+  <lb n="1"/><seg function="blessing">ciluvai
+<lb n="2" break="no"/>yil uḷḷa
+<lb n="3"/>cuvāmi
+<lb n="4"/> yireṭ-
+<lb n="5" break="no"/>cikka</seg>
+  
+   <milestone n="4" unit="column"/>
+  <lb n="1"/><seg function="blessing">tēvayi stuti</seg>
+
+
+    <pb facs="0" n="[1]v"/><note xml:lang="en">blank</note>
+
+  
+</body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
+  
+  <pb facs="0" n="[1]r"/>
+  
+  <milestone n="1" unit="left-margin"/>
+  <lb n="1"/><term xml:lang="en">{Christian cross}</term>
+  
+  <milestone n="2" unit="left-margin"/>
+  <lb n="1-3"/><seg function="blessing">tirukuruvē tuṇai</seg>
+
+  <milestone n="1" unit="column"/>
+  <lb n="1"/><seg function="incipit"><lg><l><gap reason="ellipsis"/></l>
+  <lb n="2"/><l><gap reason="ellipsis"/></l>
+  <lb n="3"/><l><gap reason="ellipsis"/></l>
+  <lb n="4"/><l><gap reason="ellipsis"/></l></lg> {pcl} 1 {pcl}</seg>
+  
+  <pb facs="0" n="17r"/>
+  
+  <milestone n="2" unit="column"/>
+  <lb n="1"/><lg><l><gap reason="ellipsis"/></l>
+  <lb n="2"/><l><gap reason="ellipsis"/></l>
+  <lb n="3"/><l><gap reason="ellipsis"/></l>
+  <lb n="4"/><l><gap reason="ellipsis"/></l></lg> {pcl} 95 {pcl}
+  
+  <milestone n="3" unit="column"/>
+  <lb n="1"/><seg function="explicit"><lg><l><gap reason="ellipsis"/></l>
+  <lb n="2"/><l><gap reason="ellipsis"/></l>
+  <lb n="3"/><l><gap reason="ellipsis"/></l>
+  <lb n="4"/><l><gap reason="ellipsis"/></l></lg> {pcl} <supplied reason="lost">96 {pcl}</supplied></seg>
+  
+  <pb facs="0" n="17v"/><note xml:lang="en">blank</note>
+
+</body></text></TEI>
