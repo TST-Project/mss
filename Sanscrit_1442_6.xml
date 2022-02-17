@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Kulālikāmnāya</title>
+            <title>Ṣaṭsāhasrasaṃhitā</title>
          <editor><persName>Charles LI</persName><orgName>CNRS, CEIAS, UMR 8564</orgName></editor></titleStmt>
          
          <publicationStmt>
@@ -21,15 +21,16 @@
                   <idno type="alternate"><idno>Cordier non-médicine sans numéro</idno></idno>
                </msIdentifier>
                <msContents class="#STM">
-                  <summary><p>This manuscript consists mostly of samples of Sāñcīpat, Agar wood bark prepared to be used as writing support. This practice is common in Assam. Most folios are blank, except for <locus facs="10">one</locus> which contains a few lines in <term xml:lang="sa">Śāradā</term> script from what seems to be the <title xml:lang="sa">Kulālikāmnāya</title>. The incipit closely parallels 4.111-112 of the critical text of Goudriaan &amp; Schoterman (1988, 191). The scribal hand as well as the marginal title seem to be identical to those of Sanscrit 1442.3.</p>
-<p>A <locus facs="2">note</locus> in Palmyr Cordier's hand describes the process by which the folios are prepared, translated into French from an <ref target="https://archive.org/details/journalofasiatic6318asia/page/107/mode/1up">1894 article</ref> in the Journal of the Asiatic Society of Bengal by E. A. Gait.</p></summary>
+                  <summary><p>This manuscript consists mostly of samples of Sāñcīpat, Agar wood bark prepared to be used as writing support. This practice is common in Assam. Most folios are blank, except for <locus facs="10">one</locus> which contains a few lines in <term xml:lang="sa">Śāradā</term> script. A <locus facs="2">note</locus> in Palmyr Cordier's hand describes the process by which the folios are prepared, translated into French from an <ref target="https://archive.org/details/journalofasiatic6318asia/page/107/mode/1up">1894 article</ref> in the Journal of the Asiatic Society of Bengal by E. A. Gait.</p>
+<p>The few lines of text comes from the seventh chapter of <title xml:lang="sa">Ṣaṭsāhasrasaṃhitā</title>. Although the text is unpublished, the verses in this manuscript are likely to be 65-67 (cf. Schoterman 1982, 218). Verses 65-66 closely parallel 4.111-112 of the <title xml:lang="sa">Kubjikāmatatantra</title> as edited by Goudriaan &amp; Schoterman (1988, 191).</p>
+<p>This manuscript seems to be copied from the same folio as <ref target="Sanscrit_1442_3.xml">Sanscrit 1442.3</ref>, which continues the text.</p></summary>
                   
-               <msItem xml:id="KA" defective="true"><title xml:lang="sa">Kulālikāmnāya</title><textLang mainLang="san"/></msItem></msContents>
+               <msItem xml:id="ṢS" defective="true"><title xml:lang="sa">Ṣaṭsāhasrasaṃhitā</title><textLang mainLang="san"/><filiation><p>Apograph of <ref target="https://archive.org/details/in.ernet.dli.2015.502342/page/n13/mode/1up">no. 5804</ref> from the Asiatic Society of Bengal.</p></filiation></msItem></msContents>
                <physDesc>
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
                         <support>
-                           <measure unit="stringhole"/>
+                           <measure unit="stringhole" quantity="1"/>
                            
                         </support>
                         <extent>
@@ -41,32 +42,32 @@
                         <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
                         
                         
-                     </supportDesc>
+                     <foliation>Folio numbered 28, left margin. Copied from the apograph.</foliation></supportDesc>
                      <layoutDesc>
                         
-                     </layoutDesc>
+                     <layout writtenLines="3"/></layoutDesc>
                   </objectDesc>
-                  <handDesc><handNote scope="sole" script="sarada"><desc>It seems to be the same hand as Sanscrit 1442.3.</desc></handNote></handDesc>
+                  <handDesc><handNote scope="sole" script="sarada"><desc>It seems to be the same hand as <ref target="Sanscrit_1442_3.xml">Sanscrit 1442.3</ref>.</desc></handNote></handDesc>
                   <decoDesc>
                   </decoDesc>
                   <additions>
-                  <desc type="blessing" subtype="marginal left"><q xml:lang="sa">śrī</q>.</desc><desc type="title" subtype="marginal left"><q xml:lang="sa">sa ṣa</q>.</desc></additions>
+                  <desc type="blessing" subtype="marginal left"><q xml:lang="sa">śrī</q>, copied from the apograph.</desc><desc type="title" subtype="marginal running left"><q xml:lang="sa">sa ṣa</q>, copied from the apograph.</desc></additions>
                   <bindingDesc>
-                     <binding/>
+                     <binding><p>Single stringhole in the written folio and the note, but not in the blank folios.</p></binding>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian" notAfter="1900"/>
+                     <origDate calendar="gregorian" when="1899">Likely copied at the same time as <ref target="Sanscrit_1442_3.xml">Sanscrit 1442.3</ref>.</origDate>
                      
-                  </origin>
-                  <provenance><p>Part of the non-medical manuscripts of the <persName role="collector">Palmyr Cordier</persName> collection. If it is the same hand as Sanscrit 1442.3, then it was procured for Cordier from <persName role="collector" key="VIAF:2461552">Haraprasād Śāstrī</persName>.</p></provenance>
+                  <origPlace>Calcutta</origPlace></origin>
+                  <provenance><p>Part of the non-medical manuscripts of the <persName role="collector">Palmyr Cordier</persName> collection. Copied from a manuscript collected by <persName role="collector" key="VIAF:2461552">Haraprasāda Śāstrī</persName>.</p></provenance>
                   <acquisition><p>Acquired for the BnF by <persName role="collector">Jean Filliozat</persName>.</p></acquisition>
                </history>
                <additional>
                   <listBibl>
                      
-                  <bibl>Cabaton, Antoine (1907-1908) <title xml:lang="fr">Catalogue sommaire des manuscrits sanscrits avec supplément manuscrit</title>. Paris: E. Leroux. Supplemented by Jean Filliozat. <ref target="https://gallica.bnf.fr/ark:/12148/btv1b10536321f/f253.item">317</ref>.</bibl><bibl>Goudriaan, T. &amp; Schoterman, J. A. (1988) <title>The Kubjikāmatatantra: Kulālikāmnāya version</title>. Leiden: Brill.</bibl></listBibl>
+                  <bibl>Cabaton, Antoine (1907-1908) <title xml:lang="fr">Catalogue sommaire des manuscrits sanscrits avec supplément manuscrit</title>. Paris: E. Leroux. Supplemented by Jean Filliozat. <ref target="https://gallica.bnf.fr/ark:/12148/btv1b10536321f/f253.item">317</ref>.</bibl><bibl>Goudriaan, T. &amp; Schoterman, J. A. (1988) <title>The Kubjikāmatatantra: Kulālikāmnāya version</title>. Leiden: Brill.</bibl><bibl><persName>van Kooij, Karel Rijk</persName>. (1975) <title type="article"><ref target="file:///tmp/mozilla_chuck0/Vortrag.pdf">Die sogennante Guptahandschrift des Kubjikāmatatantra</ref></title>. <title>Zeitschrift der Deutschen Morgenländischen Gesellschaft</title>, Supplement III, 2. Wiesbaden: Harrassowitz.</bibl><bibl><persName>Schoterman, Jan A.</persName> (1982) <title>The Ṣasāhasra Saṃhitā, Chapters 1-5</title>. Leiden: Brill.</bibl><bibl><persName xml:lang="sa">Śāstrī, Haraprasāda</persName>.  (1939) <title><ref target="https://archive.org/details/in.ernet.dli.2015.502342">A Descriptive Catalogue of the Sanskrit Manuscripts in the Collections of the Royal Asiatic Society of Bengal, Volume VIII, Part I, Tantric Manuscripts</ref></title>. Calcutta: Baptist Mission Press.</bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
@@ -80,19 +81,19 @@
    </teiHeader>
    <facsimile>
    <graphic url="https://tst-project.github.io/img/Sanscrit_1442.6/index.json"/></facsimile>
-<text corresp="#KA" xml:lang="sa"><body>
+<text corresp="#ṢS" xml:lang="sa"><body>
   <milestone facs="10" n="4r"/>
   <lg>
-    <l><seg function="incipit"><lb n="1"/>naṃ tu kathitaṃ tava śobhane |</seg></l>
+    <l><seg function="incipit"><gap reason="ellipsis"/><lb n="1"/>naṃ tu kathitaṃ tava śobhane |</seg></l>
     <l>etad vādyasamākṣobhaṃ gopanīyaṃ prayatnataḥ |</l>
     <l>ekavīravidhānāni prāg uktaṃ kramapārage |</l>
-    <l>atra te kathayeṣyāmi saṃsphaṭaṃ karavalini |:||</l>
+    <l>atra te kathayeṣyāmi saṃsphaṭaṃ karavarṇini |:||</l>
   </lg>
   <p><lb n="2"/>iti mālinyonyāsatadhārakramaḥ |:|❈||:|𑇞𑇞𑇞</p>
   <p>śrīdevy uvācaḥ</p>
   <lg>
     <l>śabdarāśis tu ye deva kathaya svaprasādataḥ</l>
-    <l>pañcāśabhairavopītam ādhikṣātuṃ yathā<lb n="3"/>kramaḥ |</l>
+    <l>pañcāśabhairavo<sic>pī</sic>tam ā<sic>dhi</sic>kṣāntaṃ yathā<lb n="3"/>kramaḥ |</l>
   </lg>
   <p><seg function="explicit">śrībhairav uvācaḥ |</seg></p>
 </body></text></TEI>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="sa">Ṣaṭsāhasrasaṃhitā</title>
+            
+         <editor><persName>Charles LI</persName><orgName>CNRS, CEIAS, UMR 8564</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2022</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  
+                  <idno type="shelfmark">Sanscrit 1442.3</idno>
+                  <idno type="alternate"/>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc102485q/ca59800150198065</idno></msIdentifier>
+               <msContents class="#STM">
+                  <summary>
+                    <p>This folio is part of an assortment of three fragments found with Sanscrit 1347. This fragment is only written on the <locus facs="9">verso</locus> side, containing an excerpt from the seventh chapter of the <title xml:lang="sa">Ṣaṭsāhasrasaṃhitā</title>, a <term xml:lang="sa">Śākta</term> tantric text. The text seems to continue directly after <ref target="Sanscrit_1442_6.xml">Sanscrit 1442.6</ref>, presenting the beginning of a <term xml:lang="sa">śabdarāśi</term> — an enumeration of the 50 syllables of the Sanskrit alphabet, each associated with a manifestation of <term xml:lang="sa">Śiva</term> as well as with a part of the body.
+</p>
+<p>On the recto side, a note by <persName xml:lang="fr">Palmyr Cordier</persName> gives the title <title xml:lang="sa">Kulālikāmnāya tantra</title>. It seems that this fragment was copied from a famous manuscript that was discovered by <persName xml:lang="sa">Haraprasāda Śāstrī</persName> in Nepal and brought to Calcutta. He dated the manuscript to the 7th century, but later scholars have revised that estimate to the 12th century (van Kooij 1975).</p>
+<p>The fragment has parallels to a similar passage in the text of the <title xml:lang="sa">Kubjikāmatatantra</title> published by Goudriaan &amp; Schoterman (1988, 442-443) as well as to <title xml:lang="sa">Agnipurāṇa</title> 145 (<ref target="https://archive.org/details/b30094409_0002/page/n114/mode/1up">ed. Mitra 1876, 103</ref>).</p>
+             </summary>
+               <msItem xml:id="ṢS" defective="true"><title xml:lang="sa">Ṣaṭsāhasrasaṃhitā</title><textLang mainLang="san"/><filiation><p>Apograph of <ref target="https://archive.org/details/in.ernet.dli.2015.502342/page/n13/mode/1up">no. 5804</ref> from the Asiatic Society of Bengal.</p></filiation></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="pothi">
+                     <supportDesc material="palm-leaf talipot">
+                        <support>
+                           <measure unit="stringhole" quantity="1"/>
+                           
+                        <p>Stringhole 100 mm from left edge.</p></support>
+                        <extent>
+                           <measure unit="folio" quantity="1"/>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           <width quantity="305"/><height quantity="50"/></dimensions>
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"><width quantity="275"/><height quantity="40"/></dimensions></extent>
+                        <collation/>
+                        <foliation>Folio numbered 28, left margin. Copied from the apograph.</foliation>
+                        <condition>Some damage.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        
+                        <summary/>
+                     <layout writtenLines="6"/></layoutDesc>
+                  </objectDesc>
+                  <handDesc><handNote scope="sole" script="sarada" medium="ink black"/></handDesc>
+                  <decoDesc>
+                  </decoDesc>
+                  <additions>
+                  <desc type="title commenting-note" subtype="front"><locus facs="8">1r</locus>, in the hand of <persName xml:lang="fr">Palmyr Cordier</persName> in red ink: <quote rend="block" xml:lang="fr"><lg><l>Facsimié d'un folio du Kulālikāmnaya Tantra, car. gupta.</l><l>(VII<hi rend="superscript">me</hi> s. A.D. ?).</l><l>(Haraprasād Çāstrī, Kathmandu, 1899).</l></lg></quote> </desc><desc type="shelfmark" subtype="front"><locus facs="8">1r</locus>, by the hand of <persName xml:lang="fr">Jean Filliozat</persName> in pencil: <q xml:lang="fr">Sanscrit 1442 n<hi rend="superscript">o</hi> 3</q>.</desc><desc type="blessing" subtype="marginal left"><locus facs="9">1v</locus>, <q xml:lang="sa">śrī</q>, copied from the antigraph.</desc><desc type="title" subtype="marginal running left"><locus facs="9">1v</locus>, <q xml:lang="sa">sa ṣa</q>, copied from the antigraph.</desc></additions>
+                  <bindingDesc>
+                     <binding/>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian" when="1899">Copy date noted on the recto.</origDate>
+                     <origPlace>Calcutta</origPlace>
+                  </origin>
+                  <provenance><p>Found with Sanscrit 1437, part of the <persName xml:lang="fr" role="collector">Palmyr Cordier</persName> non-medical collection. Copied from a manuscript collected by <persName role="collector" key="VIAF:2461552" xml:lang="sa">Haraprasāda Śāstrī</persName>.</p></provenance>
+                  <acquisition><p>Acquired by <persName xml:lang="fr" role="collector">Jean Filliozat</persName> for the BnF.</p></acquisition>
+               </history>
+               <additional>
+                  <listBibl>
+                    
+                   
+                 <bibl><persName xml:lang="fr">Cabaton, Antoine</persName>. (1907-1908) <title xml:lang="fr">Catalogue sommaire des manuscrits sanscrits avec supplément manuscrit</title>. Paris: E. Leroux. Supplemented by <persName xml:lang="fr">Jean Filliozat</persName>. <ref target="https://gallica.bnf.fr/ark:/12148/btv1b10536321f/f253.item">317</ref>.</bibl><bibl>Goudriaan, T. &amp; Schoterman, J. A. (1988) <title>The Kubjikāmatatantra: Kulālikāmnāya version</title>. Leiden: Brill.</bibl><bibl><persName xml:lang="sa">Mitra, Rājendralāla</persName> (1876) <title><ref target="https://archive.org/details/b30094409_0002">Agnipuráṇa: A Collection of Hindu Mythology and Traditions, Volume II, Chapters 115 to 268</ref></title>. Calcutta: N. K. Sircar.</bibl><bibl><persName>van Kooij, Karel Rijk</persName>. (1975) <title type="article"><ref target="file:///tmp/mozilla_chuck0/Vortrag.pdf">Die sogennante Guptahandschrift des Kubjikāmatatantra</ref></title>. <title>Zeitschrift der Deutschen Morgenländischen Gesellschaft</title>, Supplement III, 2. Wiesbaden: Harrassowitz.</bibl><bibl><persName>Schoterman, Jan A.</persName> (1982) <title>The Ṣasāhasra Saṃhitā, Chapters 1-5</title>. Leiden: Brill.</bibl><bibl><persName xml:lang="sa">Śāstrī, Haraprasāda</persName>.  (1939) <title><ref target="https://archive.org/details/in.ernet.dli.2015.502342">A Descriptive Catalogue of the Sanskrit Manuscripts in the Collections of the Royal Asiatic Society of Bengal, Volume VIII, Part I, Tantric Manuscripts</ref></title>. Calcutta: Baptist Mission Press.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+        <p>Spaces added where possible.</p></encodingDesc>
+      <revisionDesc>
+        
+        
+      <change when="2022-02">First version.</change></revisionDesc>
+   </teiHeader>
+   <facsimile>
+   <graphic url="https://tst-project.github.io/img/Sanscrit_1442.1-3/index.json" facs="8"/></facsimile>
+<text corresp="#ṢS" xml:lang="sa"><body>
+  <milestone n="1v" facs="9"/>
+  <p><lb n="1"/>śrībhairav uvācaḥ |</p>
+  <lg>
+    <l>kathayāmi varāro<sic>hi</sic> śabdarāśi yathākramaṃ |</l>
+    <l>akāras tu śikhāsaṃsthaḥ śrīkaṇṭhaṃ tatra saṃsthitaḥ</l>
+    <l>ākāre vaktradeśe tu ananto bhairavas tu saḥ</l>
+    <l>i <lb n="2"/>sūkṣmo dakṣanetrastho trimūrti vāmanetra ī |</l>
+    <l>amarī u dakṣine karṇe ū arghī vāmakarṇake |</l>
+    <l> ṛ bhārabhuti dakṣanāsā ṝ <sic>a</sic>tithi vāmanāsike |</l>
+    <l>ḷ <lb n="3"/>sthā<unclear>nur da</unclear>kṣagaṇḍe tu ḹ haro vāmagaṇḍake |</l>
+    <l>e <unclear>jhā</unclear>ṇṭhīśas tu adhodaṃ<unclear>ṣthe</unclear> ai bhūtīṣa ūrdhvadaṃ<unclear>ṣtha</unclear>gaḥ |</l>
+    <l>o sadyojāto hṛdhare au anugraha oṣṭha|<lb n="4"/>gaḥ |</l>
+    <l>aṃ krura ghaṇṭhikāsaṃsthaḥ <sic>a</sic> mahāsena jihvāyāḥ |</l>
+    <l>ṣoḍaṣeti śirojatā brahmānī sahitā <unclear>ose</unclear> |</l>
+    <l>ka krodho dakṣiṇe skandhe <lb n="5"/>kha caṇḍī bāhuma<unclear>dhya</unclear>gaḥ |</l>
+    <l>gaḥ pracaṇḍa kurpare tu | ghaḥ śive dakṣakaṅkane |</l>
+    <l>ṅa | ekarudro vijñeyo dakṣahastāṃgulī<unclear>s ta ca</unclear> |</l>
+    <l><unclear>paśa</unclear>rudrasamo<lb n="6"/>petau dakṣabāhus tu bhairavaḥ</l>
+    <l><unclear>māhe paṃcāśāṅguṣṭhayo vayoḥ</unclear></l>
+    <l>evaṃ nyāsaṃ samākhyātaṃ <unclear>tu</unclear> vādyaṃ varavarṇini |</l>
+    <l>anena nyāsamātre<sic>na</sic> vajradeha prajāyate |</l>
+    <l>sa</l>
+  </lg>
+ </body></text></TEI>
