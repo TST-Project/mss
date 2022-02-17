@@ -53,7 +53,7 @@ const getMaterial = function(el) {
     if(!el) return;
     const m = el.getAttribute('material');
     if(!m) return;
-    const materials = new Map([['palm-leaf','palm leaf'],['palm-leaf talipot','palm leaf (talipot)'],['palm-leaf palmyra','palm leaf (palmyra)'],['paper','paper'],['paper handmade','paper (handmade)'],['paper industrial','paper (industrial)'],['paper laid', 'paper (laid)'],['birch-bark','birch bark'],['copper','copper'],['sancipat','sancipat']);
+    const materials = new Map([['palm-leaf','palm leaf'],['palm-leaf talipot','palm leaf (talipot)'],['palm-leaf palmyra','palm leaf (palmyra)'],['paper','paper'],['paper handmade','paper (handmade)'],['paper industrial','paper (industrial)'],['paper laid', 'paper (laid)'],['birch-bark','birch bark'],['copper','copper'],['sancipat','sancipat']]);
     return materials.get(m);
 };
 
