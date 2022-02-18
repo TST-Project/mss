@@ -1,14 +1,14 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Kācikāṇṭam</title>
+            <title><title xml:lang="ta">Kācikāṇṭam</title></title>
          </titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -18,7 +18,7 @@
                   </repository>
                   <idno type="eadid">FRBNFEAD000103861</idno>
                   <idno type="shelfmark">Indien 334</idno>
-                  <idno type="alternate"><idno>Tamoul 334</idno></idno>
+                  <idno type="alternate"><idno>Tamoul 334</idno><idno>Burnouf 176</idno></idno>
                </msIdentifier>
                <msContents class="#STM">
                   <summary><p>The <title xml:lang="ta">Kācikāṇṭam</title>, <quote>The book of Kāci</quote>, that is <placeName xml:lang="sa">Kāśī</placeName> (Benares), is a Tamil version of the <term xml:lang="sa">Kāśīkhaṇḍa</term> of the late version of the Sanskrit <title xml:lang="sa">Skandapurāṇa</title>. The <title xml:lang="ta">Kācikāṇṭam</title> is the work of the <title xml:lang="ta">Teṉkāci</title> (<quote>Southern Kāśī</quote>) king <persName xml:lang="ta">Ativīrarāmapāṇṭiyaṉ</persName>, who ruled in the second half of the 16th century. See Raghavan (1960, p. 235). On <persName xml:lang="ta">Ativīrarāmapāṇṭiyaṉ</persName>, best known for his <title xml:lang="ta">Naiṭatam</title>, a Tamil version of the Sanskrit <title xml:lang="sa">Naiṣadha</title> by <persName xml:lang="sa">Harṣa</persName>, see Shulman (2012, pp. 155ff.).</p>
@@ -63,8 +63,8 @@
                   </origin>
                   <acquisition>
                      
-                  </acquisition>
-               <provenance><p>Eugène <persName>Burnouf</persName>.</p></provenance></history>
+                  <p>TBC</p></acquisition>
+               <provenance><p>Owned by <persName role="collector">Eugène Burnouf</persName>.</p></provenance></history>
                <additional>
                   <listBibl>
                      
@@ -72,7 +72,7 @@
                      
                      
                      
-                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f66">p. 48</ref>.</bibl><bibl>Raghavan, V. (1960). "Tamil Versions of the Purāṇas".<title>Pūrāṇa</title>. 2(1–2): 225–242.</bibl><bibl>Rangacharya, M. &amp; Kuppusvami Sastri, S. (1916). <title>A Descriptive Catalogue of the Tamil Manuscripts in the Government Oriental Manuscripts Library, Madras. Vol. 2: Itihāsa and Puṟāṇa, and Relgion and Philosophy (Vaiṣṇavism).</title> Madras: Government Press.</bibl><bibl>Shulman, David (2012). <title>More than Real: A History of the Imagination in South India.</title> Cambridge [Ma]: Harvard University Press.</bibl></listBibl>
+                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f66">p. 48, no. 334</ref>.</bibl><bibl>Raghavan, V. (1960). "Tamil Versions of the Purāṇas".<title>Pūrāṇa</title>. 2(1–2): 225–242.</bibl><bibl>Rangacharya, M. &amp; Kuppusvami Sastri, S. (1916). <title>A Descriptive Catalogue of the Tamil Manuscripts in the Government Oriental Manuscripts Library, Madras. Vol. 2: Itihāsa and Puṟāṇa, and Relgion and Philosophy (Vaiṣṇavism).</title> Madras: Government Press.</bibl><bibl>Shulman, David (2012). <title>More than Real: A History of the Imagination in South India.</title> Cambridge [Ma]: Harvard University Press.</bibl><bibl>S.n. (1854). <title>Catalogue des livres imprimés et manuscrits composant la bibliothèque de feu M. Eugène Burnouf</title>. Paris: Duprat. — See <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k5804580x/f356">p. 347, no. 176</ref>.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. (1866-). <title>Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f165">f. 75r, no. <del>310</del>334</ref>. </bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
@@ -95,15 +95,15 @@
   <lb n="6"/>vāḻttu</seg>
   
   <milestone unit="main-text-area"/>
-  <lb n="1"/><seg function="invocation"><seg function="incipit">māṟṟariya tolpiṟavi maṟikaṭali ṉiṭaippaṭṭup ‡</seg> pōṟṟuṟutaṉ kurai kaḻaṟṟāḷp puṇaippaṟṟik kiṭantōrai ‡
-  <lb n="2"/>cāṟṟariya taṉimu<choice><orig>ṟṟi</orig><reg>tti</reg></choice>t taṭaṅkaraiyiṉ micaiyuykkuṅ ‡ kāṟṟeṟiyun taḻaiceviyak kaṭākkaḷiṟṟai vaṇaṅkuvām ‡‡</seg>
-  <lb n="3"/>cīrpūtta ceḻuntaraṅkat tīmpuṉal mantākiṉittaṇ ṭēṉār koṉṟait ‡ tārpūtta ceñcaṭaiyi laṇintumata
-  <lb n="4" break="no"/>ṉ melviḻavu [<term xml:lang="en">i.e.</term> mēlviḻaivu] taṇiyā ṉākik ‡ kārpūtta virumpivicumpiṟ kaṅkainati cūḻkiṭanta kāci vāḻu ‡ mēṟpūtta taṉi
-  <lb n="5" break="no"/>mutali ṉiṇaiyaṭip pūṅ kamalamal <choice><sic>re</sic><corr>rē</corr></choice>ttu vāmē – 1 – Alakil <gap reason="ellipsis"/>
+  <seg function="invocation"><seg function="incipit"><lg><l><lb n="1"/>māṟṟariya tolpiṟavi maṟikaṭali ṉiṭaippaṭṭup</l> <l>pōṟṟuṟutaṉ kurai kaḻaṟṟāḷp puṇaippaṟṟik kiṭantōrai</l>
+  <l><lb n="2"/>cāṟṟariya taṉimu<choice><orig>ṟṟi</orig><reg>tti</reg></choice>t taṭaṅkaraiyiṉ micaiyuykkuṅ</l> <l>kāṟṟeṟiyun taḻaiceviyak kaṭākkaḷiṟṟai vaṇaṅkuvām</l></lg></seg></seg>
+  <lg><l><lb n="3"/>cīrpūtta ceḻuntaraṅkat tīmpuṉal mantākiṉittaṇ ṭēṉār koṉṟait</l> <l>tārpūtta ceñcaṭaiyi laṇintumata
+  <lb n="4" break="no"/>ṉ mēlvi<choice><sic>ḻa</sic><corr>ḷai</corr></choice>vu taṇiyā ṉākik</l> <l>kārpūtta virumpivicumpiṟ kaṅkainati cūḻkiṭanta kāci vāḻu</l> <l>mēṟpūtta taṉi
+  <lb n="5" break="no"/>mutali ṉiṇaiyaṭip pūṅ kamalamal <choice><sic>re</sic><corr>rē</corr></choice>ttu vāmē</l></lg> – 1 – Alakil <gap reason="ellipsis"/>
   
   <pb n="249v"/>
-  <lb n="4"/><gap reason="ellipsis"/> – 68 – Arumaṟai muṉivar vāḻka vāṉiṉam vāḻkat teṇṇīr ‡ viritirai yulakat<unclear reason="vowel_unclear">ti</unclear>raṅku viṟalkeḻu vēntaṉ vāḻ
-  <lb n="5" break="no"/>ka ‡ maruviya tiṅkaṭōru maḻaivaḷañ curakkaveṅkōṉ ‡ <seg function="explicit">poruvara moḻinta viṉṉūl poṟp poṭum poli kamātō ‡‡ – 69</seg> –
+  <lb n="4"/><gap reason="ellipsis"/> – 68 – <seg function="explicit"><lg><l>Arumaṟai muṉivar vāḻka vāṉiṉam vāḻkat teṇṇīr</l> <l>viritirai yulakat<unclear reason="vowel_unclear">ti</unclear>raṅku viṟalkeḻu vēntaṉ vāḻ
+  <lb n="5" break="no"/>ka</l> <l>maruviya tiṅkaṭōru maḻaivaḷañ curakkaveṅkōṉ</l> <l>poruvara moḻinta viṉṉūl poṟp poṭum poli kamātō</l></lg> – 69 –</seg>
   <lb n="6"/><seg function="total-stanzas">Āka kāṇṭam ṉūṟukku tiruviruttam 2530</seg> – <seg function="completion-statement">kācikāṇṭamuṟṟum</seg>
       </body>
    </text></TEI>
