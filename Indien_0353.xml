@@ -1,15 +1,15 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Maraṇakaṇṭikai</title>
+            <title><title xml:lang="ta">Maraṇakaṇṭikai</title></title>
          <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -83,8 +83,7 @@
    
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   
-  <p>
-    <milestone n="[1]r" unit="folio"/>
+  <pb n="[1]r"/>
     <milestone n="1" unit="column"/>
     <lb n="1"/><seg function="blessing">veṟṟi-vē
     <lb n="2" break="no"/>l uṟṟa tuṇai</seg>
@@ -93,16 +92,12 @@
     <milestone n="2" unit="column"/>
     <lb n="1"/><seg function="title">maraṇakaṇ
     <lb n="2" break="no"/>ṭikai</seg>
-  </p>
   
-  <p>
-    <milestone n="[1]v" unit="folio"/> <term xml:lang="en">[blank]</term>
-  </p>  
+  <pb n="[1]v"/><note xml:lang="en">blank</note>
   
 </body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
   
-  <p>
-    <milestone n="[1]r" unit="folio"/>
+  <pb n="[1]r"/>
     <milestone n="1" unit="left margin"/>
     <lb n="1"/><seg function="blessing"><g xml:lang="sa">ha</g>ri Om</seg>
     <lb n="2"/><seg function="blessing">naṉṟāka</seg>
@@ -113,37 +108,30 @@
     <lb n="1"/><seg function="incipit">yīcuparaṉṉuk-kiṟakattiṉālē lōkappiṟapañcattukku Uṇṭu paṇṇiṉa maṟaṇakaṇṭikai viparam aṟintu • rāci • naṭcattiram • varuṣam • mātam • titi • vāram • yōkam •
     <lb n="2"/>kāṇam • pāttu collavum</seg> • <seg function="blessing">kuru pātan tuṇai</seg> <seg function="blessing">makākaṇapati tuṇai</seg> = Ulak’ oru mūṉṟu <gap reason="ellipsis"/>
     <lb n="2"/><gap reason="ellipsis"/> Acupatinaṭcettiram <gap reason="ellipsis"/>
-  </p>
   
-  <p>
-    <milestone n="4v" unit="folio"/>
+  <pb n="4v"/>
     <milestone unit="left margin"/>
     <lb n="1"/><seg function="intertitle">kārt
     <lb n="2" break="no"/>tikai</seg>
     <milestone unit="main text area"/>
      <lb n="3"/><gap reason="ellipsis"/> <seg function="completion-statement">paraṇinaṣṣettiram ~ vipaṟam muttu</seg> <unclear>{pcl}</unclear>
     <lb n="4"/><seg function="blessing">yiravacuvāmi cakāya=m</seg> {pcl} {pcl} {pcl} {pcl} {pcl} {pcl} <seg function="intertitle">kārttikai naṣṣettirattiṉ kuṇam</seg> {pcl} <gap reason="ellipsis"/>
-  </p>
-  
-  <p>
-    <milestone n="43r" unit="folio"/>
+  <pb n="43r"/>
     <milestone unit="left margin"/>
     <lb n="1"/>puraṭṭā
     <lb n="2" break="no"/>ti {pcs} pi
-    <lb n="3" break="no"/>ṉ kuṇam
+    <lb n="3" break="no"/>ṉ kuṇa<seg rend="grantha">m</seg>
     <milestone unit="main text area"/>
     <lb n="1"/>puraṭṭāti piṉ kuṇam ~ <gap reason="ellipsis"/>
     <lb n="2-7"/><gap reason="ellipsis"/>
     <lb n="8"/><gap reason="ellipsis"/> ~ makaṟccaṉi {varuṣam} 4 ~ kumpa
-  </p>
   
-  <p>
-    <milestone n="43v" unit="folio"/>
-    <milestone unit="left margin"/><term xml:lang="en">[unblackened]</term>
+  <pb n="43v" break="no"/>
+    <milestone unit="left margin"/><note xml:lang="en">unblackened</note>
     <lb n="1"/>cuppi
     <lb n="2" break="no"/>ṟa
     <milestone unit="main text area"/>
     <lb n="1"/>ccaṉi {varuṣam} 4 ~ piṉ viyāḷam {varuṣam} 10
-  </p>
+  
   
 </body></text></TEI>
