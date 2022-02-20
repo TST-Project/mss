@@ -23,11 +23,11 @@
                   <summary>A multi-text manuscript containing:
   <list rend="numbered">
     <item>the <title xml:lang="ta">Vayiravamantiram</title> (U1).</item>
-    <item>stanzas on the <title xml:lang="ta">Tiruvācakam</title> (U2).</item>
-    <item>the <title xml:lang="ta">Tiruvācakam</title> (U3).</item>
+    <item>satellite stanzas on the <title xml:lang="ta">Tiruvācakam</title> (U2). Stanza 1 is taken from the <title xml:lang="ta">Śivapurāṇam</title></item>
+    <item>an almost complete <title xml:lang="ta">Tiruvācakam</title> (stops at stanza 658) (U3).</item>
     </list></summary>
                   
-               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Vayiravamantiram</title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta"><term xml:lang="en">Stanzas on</term> Tiruvācakam</title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T3" defective="false" class="#tirumurai"><title xml:lang="ta">Tiruvācakam: Mūlam</title><author xml:lang="ta">Māṇikkavācakar</author><textLang mainLang="tam"/></msItem></msContents>
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Vayiravamantiram</title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta"><term xml:lang="en">Stanzas on</term> Tiruvācakam</title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T3" defective="true" class="#tirumurai"><title xml:lang="ta">Tiruvācakam: Mūlam</title><author xml:lang="ta">Māṇikkavācakar</author><textLang mainLang="tam"/><finalRubric xml:lang="ta">Intertextual completion statements, but not systematically.</finalRubric></msItem></msContents>
                <physDesc>
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
@@ -41,7 +41,7 @@
                         <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
                         
                         <condition>Relatively good state of preservation. First folios damaged.</condition>
-                     <support><measure unit="stringhole" quantity="2"/></support><collation><desc xml:id="U1">1 folio = <emph rend="bold"><title xml:lang="ta">Vayiravamantiram</title></emph>. No foliation. 120 x 40 mm.</desc><desc xml:id="U2">1 folio = <emph rend="bold">Stanzas on<title xml:lang="ta">Tiruvācakam</title></emph>. No foliation. 120 x 40 mm.</desc><desc xml:id="U3">89 folios = <emph rend="bold"><title xml:lang="ta">Tiruvācakam</title></emph>. Tamil foliation 1-89. 125 x 40 mm.	
+                     <support><measure unit="stringhole" quantity="2"/></support><collation><desc xml:id="U1">1 folio = <emph rend="bold"><title xml:lang="ta">Vayiravamantiram</title></emph>. No foliation. 120 x 40 mm.</desc><desc xml:id="U2">1 folio = <emph rend="bold">Satellite Stanzas on<title xml:lang="ta">Tiruvācakam</title></emph>. No foliation. 120 x 40 mm.</desc><desc xml:id="U3">89 folios = <emph rend="bold"><title xml:lang="ta">Tiruvācakam</title></emph>. Tamil foliation 1-89. 125 x 40 mm.	
 </desc><desc xml:id="U4">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso. 125 x 40 mm.</desc></collation></supportDesc>
                      <layoutDesc>
                         
@@ -50,7 +50,7 @@
                   <handDesc>
                      
                   <handNote synch="#U1" script="tamil"><desc>Hand #1.</desc></handNote><handNote synch="#U2 #U3" scope="major" script="tamil" medium="incised soot"><desc>Hand #2.</desc></handNote></handDesc>
-                  <additions/>
+                  <additions><desc synch="#U3">Left-marginal intertitles, sometimes indenting the main-text area lines to the right, e.g. <locus facs="16">f5v</locus>, <locus facs="182">f88v</locus>.</desc></additions>
                   <bindingDesc>
                      <binding>
                         
@@ -94,19 +94,25 @@
   <pb facs="4" n="[1]v"/>
     <seg function="explicit">
       <lb n="10"/><gap reason="ellipsis"/></seg>
-   <milestone n="1" unit="column"/><note xml:lang="en"><term xml:lang="sa">yantra</term></note>
-   <milestone n="2" unit="column"/><note xml:lang="en"><term xml:lang="sa">yantra</term></note>
-   <milestone n="3" unit="column"/><note xml:lang="en"><term xml:lang="sa">yantra</term></note>
-
-  
+   <milestone n="1" unit="column"/><note xml:lang="en"><foreign xml:lang="sa">yantra</foreign> with figures</note>
+   <milestone n="2" unit="column"/><note xml:lang="en"><foreign xml:lang="sa">yantra</foreign> with figures</note>
+   <milestone n="3" unit="column"/><note xml:lang="en"><foreign xml:lang="sa">yantra</foreign> <term xml:lang="ta">civa ma na ya</term></note>  
     
   </body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><pb facs="5" n="[1]r"/>
   
     <milestone unit="left-margin"/>
-  <lb n="1"/>
-  
- <milestone unit="main-text-area"/>
-  <seg function="incipit"><lb n="1"/><gap reason="ellipsis"/></seg>
+  <seg function="blessing"><lb n="1"/><term xml:lang="sa">hariḥ
+<lb n="2"/>Om</term></seg> <seg function="blessing">na
+<lb n="3" break="no"/>ṉṟā
+<lb n="4"/>ka {pcs} {pcs}</seg>
+
+  <milestone unit="main-text-area"/>
+  <seg function="satellite stanza">
+    <lg><l><lb n="1"/>tollaiyirum piṟavi cūḻun taḻai nīkki</l>
+<l><lb n="2"/>y<pc>-</pc>allal aṟutt<pc>’</pc> āṉantam ākkiyatē El
+<lb n="3" break="no"/>lai</l> <l>maruvā neṟiyaḻikkum vātavūr eṉ
+<lb n="4"/>kōṉ</l> <l>ṟiruvācakam eṉum tēṉ</l></lg> {pcs}</seg>
+<lb n="10"/><gap reason="ellipsis"/> {pcs} <seg function="blessing">Aḻakiya tirucciṟṟampalan {tuṇai}</seg>
 
 <pb facs="6" n="[1]r"/><note xml:lang="en"><term xml:lang="sa">yantra</term> and drawings, unblackened</note>
 </text><text synch="#U3" corresp="#T3" xml:lang="ta"><body>
@@ -115,14 +121,28 @@
   <milestone unit="left-margin"/>
 <seg function="title"><lb n="1"/>tiruvā
   <lb n="2" break="no"/>caka Aka
-  <lb n="3" break="no"/>val</seg> <seg function="TBC">civa
+  <lb n="3" break="no"/>val</seg> <seg function="title">civa
   <lb n="4" break="no"/>purāṇa</seg> 
   <seg function="blessing"><lb n="5-6"/>naṉṟāka {pcs}</seg>
 
   <milestone unit="main-text-area"/>
-<lb n="1"/>
+<seg function="incipit">
+  <lg><l><lb n="1"/><supplied reason="lost">nama</supplied><unclear>c</unclear>civāya <supplied reason="lost">vā</supplied>ḻka nātaṉ ṟāḷ vāḻka </l> <gap reason="ellipsis"/></lg></seg> 
+  
+   <pb facs="7" n="3r"/>
+  <milestone unit="left-margin"/>
+<seg function="intertitle"> <lb n="1-4"/>kīrttit tiruvakaval</seg>
+  
+   <pb facs="7" n="88v"/>
+  <milestone unit="left-margin"/>
+<seg function="intertitle"> <lb n="1-4"/>Accōppattu {pcs}</seg>
   
     <pb facs="184" n="89v"/>
-
+  <lb n="1-8"/><gap reason="ellipsis"/>
+  <seg function="explicit"><lg><l><lb n="9"/>cemmainalam aṟiyāta citaṭaroṭu tirivē
+<lb n="10" break="no"/>ṉai</l> <l>mummaimalam aṟuvittu mutalāya mutalvaṉ</l>
+<l><lb n="11"/>muṉammaiyumōr poruḷāta nāycivikai y<pc>-</pc>ēṟṟuvit</l>
+    <l><lb n="12"/>t<pc>'</pc>ammai y<pc>-</pc>eṉak karuḻiyā ṟārpeṟuvā rācōvē {pcs}</l></lg>
+<lb n="13"/> 9 {pcs}</seg> <seg function="blessing">tirucciṟṟampalam {pcl}</seg> <seg function="completion-statement">tiruvācakam muṟṟum {pcl}</seg>
 
   </body></text></TEI>
