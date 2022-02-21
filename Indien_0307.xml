@@ -22,7 +22,7 @@
                   <idno type="alternate"><idno>Tamoul 307</idno><idno>Ariel 23 (?)</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1038372</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary>The <title xml:lang="ta">Tirukkaḻukkuṉṟapurāṇam</title>.</summary>
+                  <summary>The <title xml:lang="ta">Tirukkaḻukkuṉṟapurāṇam</title>. See Zvelebil (1995, p. 775, s.v. Vīrarākava Mutaliyār).</summary>
                   
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2a" xml:id="T2" defective="false"><title xml:lang="ta">Tirukkaḻukkuṉṟapurāṇam: <term xml:lang="en">Invocation (1 satellite stanza)</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2b" xml:id="T3" defective="false"><title xml:lang="ta">Tirukkaḻukkuṉṟapurāṇam: Mūlam</title><textLang mainLang="tam"/></msItem></msContents>
@@ -71,10 +71,10 @@
                     
                     
                      
-                  <desc synch="#U1" type="documenting-note">BnF bequest sticker <quote>DON N° <space type="vacat"/></quote> (<locus facs="0">f[1]r</locus>).</desc><desc synch="#U1" type="shelfmark">Shelfmark in black ink: <quote>b/86</quote> (<locus facs="0">f[1]r</locus>).</desc><desc synch="#U1" type="shelfmark">Shelfmark in black pencil: <quote>23</quote> (<locus facs="0">f[1]r</locus>).</desc><desc synch="#U1" type="shelfmark">BnF shelfmark sticker: <quote>INDIEN 307</quote> (<locus facs="0">front cover, recto</locus>). Covering an earlier sticker.</desc></additions>
+                  <desc synch="#U1" type="documenting-note">BnF bequest sticker <quote>DON N° <space type="vacat"/></quote> (<locus facs="0">f[1]r</locus>).</desc><desc synch="#U1" type="shelfmark">Shelfmark in black ink: <quote>b/86</quote> (<locus facs="0">f[1]r</locus>).</desc><desc synch="#U1" type="shelfmark">Shelfmark in black pencil: <quote>23</quote> (<locus facs="0">f[1]r</locus>).</desc><desc synch="#U1" type="shelfmark">BnF shelfmark sticker: <quote>INDIEN 307</quote> (<locus facs="0">front cover, recto</locus>). Covering an earlier sticker.</desc><desc synch="#U2b" type="intertitle" subtype="marginal left">Left-marginal intertitles.</desc><desc synch="#U2b" type="blessing">Recurring <foreign xml:lang="ta">civamayam</foreign>, left-marginal or intertextual at the end of chapters.</desc></additions>
                   <bindingDesc>
                      <binding>
-                        <p>Original <material>wood</material> covers.</p>
+                        <p>Original <material>wood</material> covers. <foreign xml:lang="sa">Vibhūti</foreign> (sacred ashes of cowdung) on both covers. </p>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -90,7 +90,7 @@
                <additional>
                   <listBibl>
                      
-                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f63">p. 45, no. 307</ref>.</bibl><bibl>Rosny, Léon de (1868). <title type="article">La bibliothèque tamoule de M. Ariel, de Pondichéry</title>. In: <title>Variétés orientales</title> (pp. 177‒224). Paris: Maisonneuve. </bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. (1866-). <title> Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f155">f. 70r, no. <del>283</del> 307</ref>. </bibl></listBibl>
+                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f63">p. 45, no. 307</ref>.</bibl><bibl>Rosny, Léon de (1868). <title type="article">La bibliothèque tamoule de M. Ariel, de Pondichéry</title>. In: <title>Variétés orientales</title> (pp. 177‒224). Paris: Maisonneuve. </bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. (1866-). <title> Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f155">f. 70r, no. <del>283</del> 307</ref>. </bibl><bibl>Zvelebil, Kamil V. (1995). <title>Lexicon of Tamil Literature</title>. Leiden [etc.]: Brill.</bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
@@ -131,10 +131,17 @@
  <lb n="6-8"/><seg function="TBV">Itu viṉāyakaṉai vaḻipaṭṭatu</seg>
 
       <milestone unit="main-text-area"/>
-  <lb n="1-4"/>
+  <seg function="satellite-stanza"><lg><l><lb n="1"/><seg function="incipit">vāḻattāṉaṉat tāṉmaka vāṉkaṭal</seg></l>
+<l><lb n="2"/>vāḻattāṉanata tāṉaru mātavar</l>
+<l><lb n="3"/>cūḻattāṉaṉat tāṉac curartoḻum</l>
+  <l><lb n="4"/>vēḻattāṉaṉat tāṉpata mēṟkoḷvām</l></lg> {pcs}</seg>
+
  
   <pb facs="0" n="[1]v"/>
-    <lb n="1-4"/>
+    <seg function="satellite-stanza"><lg><l><lb n="1"/>vaiyakam <gap reason="ellipsis"/></l>
+<l><lb n="2"/><gap reason="ellipsis"/></l>
+<l><lb n="3"/><gap reason="ellipsis"/></l>
+  <l><lb n="4"/><seg function="explicit"><gap reason="ellipsis"/> maṉṉō</seg></l></lg> {pcl}</seg> <seg function="blessing">civa<seg rend="grantha">m</seg>={pcs}</seg> <seg function="blessing">kuruppiyō nama {pcs}</seg>
   
   </body>
 </text><text synch="#U2b" corresp="#T3" xml:lang="ta"><body>
@@ -147,15 +154,62 @@
 <lb n="5-6"/><seg function="title">pāyiraccarukkam ~</seg>
      
   <milestone unit="main-text-area"/>
-  <lb n="1"/><seg function="incipit"/>
- 
+  <seg function="incipit"><lg><l><lb n="1"/>cīrpūtta <gap reason="ellipsis"/>
+<lb n="2"/><gap reason="ellipsis"/></l> <l>yērputta <gap reason="ellipsis"/>
+<lb n="3"/><gap reason="ellipsis"/></l> <l>vērputta <gap reason="ellipsis"/>
+<lb n="4"/><gap reason="ellipsis"/></l> <l>cūrputta
+  <lb n="5"/><gap reason="ellipsis"/> koḷ
+  <lb n="6" break="no"/>vām</l></lg> {pcs} 1 {pcs}</seg> <gap reason="ellipsis"/>
+  
+   <pb facs="0" n="5r"/>
+   <milestone unit="left-margin"/>
+  <lb n="1-2"/><seg function="blessing">civamayam</seg>
+  
+  <pb facs="0" n="5v"/>
+  <lb n="4"/>10 8 {pcs} <seg function="completion-statement">pāyiraccarukkamuṟṟum {pcl}</seg> <seg function="blessing">civamayam {pcs}</seg>
+  
+  <pb facs="0" n="6r"/>
+   <milestone unit="left-margin"/>
+  <lb n="1"/><seg function="blessing">civamayam ~</seg>
+  <lb n="2-3"/><seg function="intertitle">nāṭṭuccarukkam ~</seg>
+  
+  <pb facs="0" n="7v"/>
+   <milestone unit="left-margin"/>
+  <lb n="1-2"/><seg function="blessing">civamayam</seg>
+  
+  <pb facs="0" n="13r"/>
+   <milestone unit="left-margin"/>
+  <lb n="1-4"/><seg function="intertitle">nakaraccarukkam ~ {pcs}</seg>
+  
+  <pb facs="0" n="20r"/>
+   <milestone unit="left-margin"/>
+  <lb n="1-2"/><seg function="blessing">civamayam ~</seg>
+  <lb n="3-5"/><seg function="intertitle">kayilāyacarukkam ~</seg>
+  
+   <pb facs="0" n="31r"/>
+   <milestone unit="left-margin"/>
+  <lb n="1-2"/><seg function="blessing">civamayam</seg>
+  <lb n="3-5"/><seg function="intertitle">vētakiriccarukkam ~</seg>
+  
+    <pb facs="0" n="37v"/>
+  <lb n="3"/><gap reason="ellipsis"/> ~ 2 10 9 {pcs} civā ~
+  <lb n="4"/><seg function="completion-statement">vētakiriccarukkamuṟṟum {pcl}</seg> <seg function="blessing"><unclear>ti</unclear>ruciṟṟampala<seg rend="grantha">m</seg>= {pcs}</seg>
+  
+  <pb facs="0" n="38r"/>
+   <milestone unit="left-margin"/>
+  <lb n="1-4"/><seg function="intertitle">Uruttirakoṭiccarukkam <unclear>{pcs]</unclear></seg>
+  
+   <pb facs="0" n="114r"/>
+   <milestone unit="left-margin"/>
+  <lb n="1-3"/><seg function="blessing">civamayam {pcs}</seg>
+  
   <pb facs="0" n="145r"/>
-    <lb n="9"/><gap reason="ellipsis"/> <seg function="explicit"><g ref="#pcs"/> 10 6 <g ref="#pcs"/></seg> <seg function="colophon"><seg function="blessing">tirucciṟṟampalam <g ref="#pcs"/></seg>
+    <seg function="explicit"><lb n="9"/><gap reason="ellipsis"/> <g ref="#pcs"/> 10 6 <g ref="#pcs"/></seg> <seg function="colophon"><seg function="blessing">tirucciṟṟampalam <g ref="#pcs"/></seg>
 
   <pb facs="0" n="145v"/>
-   <lb n="1"/><seg function="completion-statement">curakurucarukkamuṟṟum <g ref="#pcl"/></seg> <seg function="total-stanzas">{Āka}-t tiruviruttam 8 100 3 10 2 <g ref="#pcs"/></seg> <seg function="blessing">civamayam <g ref="#pcs"/></seg>
- <lb n="2"/><seg function="blessing">kuru-pātan tuṇai <g ref="#pcl"/></seg> pārapava {varuṣam} Āṭi {mācam} 2 10 {tēti} cattamiyum – maṅkaḷavāramum
- <lb n="3"/>cuvāti-naṣṣetiramuṅ kūṭiṉa cupatiṉattil <placeName xml:lang="ta" key="Pondicherry">putuvai</placeName>-nakariṉil irukkum</seg>
+   <seg function="colophon"><seg function="completion-statement"><lb n="1"/>curakurucarukkamuṟṟum <g ref="#pcl"/></seg> <seg function="total-stanzas">{Āka}-t tiruviruttam 8 100 3 10 2 <g ref="#pcs"/></seg> <seg function="blessing">civamayam <g ref="#pcs"/></seg>
+ <seg function="blessing"><lb n="2"/>kuru-pātan tuṇai <g ref="#pcl"/></seg> pārapava {varuṣam} Āṭi {mācam} 2 10 {tēti} cattamiyum – maṅkaḷavāramum
+ <lb n="3"/>cuvāti-naṣṣetiramuṅ kūṭiṉa cupatiṉattil <placeName xml:lang="ta" key="Pondicherry">putuvai</placeName>-nakariṉil irukkum</seg></seg>
 
 
 </body>
