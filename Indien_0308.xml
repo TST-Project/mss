@@ -31,7 +31,7 @@
                      <supportDesc material="palm-leaf">
                         <support>
                            <!--measure unit="stringholes" quantity=""/-->
-                        <measure unit="stringhole" quantity="2"/></support>
+                        <measure unit="stringhole" quantity="2"/><p>Wide left and right unwritten margins.</p></support>
                         <extent>
                            <measure unit="folio" quantity="298">[1] + [1] + [1] + 295 (U1 + U2a + U2b + U2c).</measure>
                            <dimensions type="leaf" unit="mm">
@@ -52,7 +52,7 @@
                         <condition>Relatively poor state of preservation: boreholed, brittle, and truncated leaves.</condition>
                      <collation>
                      
-                     <desc xml:id="U1">1 folio = <emph rend="bold">Title Page</emph>. No foliation. Verso blank. 450 x 30 mm.</desc><desc xml:id="cover">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U2a">1 folio = <emph rend="bold"><title xml:lang="ta">Teyvayāṉaipurāṇam</title>: Invocation</emph>. No foliation. Verso blank.</desc><desc xml:id="U2b">1 folio = <emph rend="bold"><title xml:lang="ta">Teyvayāṉaipurāṇam</title>: Invocation</emph>. No foliation. Verso blank.</desc><desc xml:id="U2c">295 folios = <emph rend="bold"><title xml:lang="ta">Teyvayāṉaipurāṇam</title>: Text</emph>. Tamil foliation [1], 2-295. f295v blank.</desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>.</desc></collation></supportDesc>
+                     <desc xml:id="U1">1 folio = <emph rend="bold">Title Page (additional)</emph>. No foliation. Single folio. Another type of leaf compared to that of the rest of the bundle.Verso blank. 450 x 30 mm.</desc><desc xml:id="cover">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U2a">1 folio = <emph rend="bold"><title xml:lang="ta">Teyvayāṉaipurāṇam</title>: Invocation</emph>. No foliation. Verso blank.</desc><desc xml:id="U2b">1 folio = <emph rend="bold"><title xml:lang="ta">Teyvayāṉaipurāṇam</title>: Invocation</emph>. No foliation. Verso blank.</desc><desc xml:id="U2c">295 folios = <emph rend="bold"><title xml:lang="ta">Teyvayāṉaipurāṇam</title>: Text</emph>. Tamil foliation {1}, 2-295. Some foliation illegible or lost. f295v blank. 460 x 30 mm.</desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>.</desc></collation></supportDesc>
                      <layoutDesc>
                         <p/>
                      </layoutDesc>
@@ -80,7 +80,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian" notAfter="1855">No internal date. Dated to circa 1760 by Vinson in Vinson et al. (1866-) and to 1760 by Cabaton (1912), on unstated grounds.</origDate>
+                     <origDate calendar="gregorian" notAfter="1855">No internal date. Dated to circa 1760 by Vinson in Vinson et al. (1866-) and to 1760 by Cabaton (1912), on unstated grounds (presumably palaeographical arguments).</origDate>
                      <origPlace>Pondicherry.</origPlace>
                   </origin>
                   <acquisition>
@@ -133,19 +133,26 @@
   <lb n="1-2"/><seg function="blessing">Āti {tuṇai}</seg>
   
   <milestone n="2" unit="left-margin"/>
-<lb n="1-2"/><seg function="blessing">viṉāyakaṉ tiruvuḷam</seg>
-<lb n="3"/><seg function="blessing">kuruvē tu
+<seg function="blessing"><lb n="1-2"/>viṉāyakaṉ tiruvuḷam</seg>
+<seg function="blessing"><lb n="3"/>kuruvē tu
 <lb n="4" break="no"/>ṇai</seg> <seg function="blessing">civa<seg rend="grantha">ma</seg>ya<seg rend="grantha">m</seg></seg>
   
   <milestone n="3" unit="left-margin"/>
+  <seg function="blessing"><lb n="1"/>Om caravaṇa
+<lb n="2" break="no"/>pavāya caṇ
+<lb n="3" break="no"/>mukāya
+<lb n="4"/>kantāya
+<lb n="5"/>kukāya<note xml:lang="en">i.e. Skt. <foreign xml:lang="sa">guhāya</foreign></note>
+<lb n="6"/>nama
+<lb n="5 and 8"/><unclear>{Āka} tuṇai</unclear><note xml:lang="en">the symbol <foreign xml:lang="ta">{Āka}</foreign> is in the form of drawing encompassing the whole blessing</note></seg>
   
   <milestone n="4" unit="left-margin"/>
   <lb n="1-3"/><seg function="blessing">tirucciṟṟampalam <g ref="#pcs"/></seg>
 
       <milestone unit="main-text-area"/>
-  <lb n="1"/><seg function="satellite-stanza">
-  <lb n="2"/>
-  <lb n="3"/><gap reason="ellipsis"/> = <g ref="#pcs"/></seg> <seg function="blessing"><term xml:lang="sa">devisahāyam ||</term> <g ref="#pcs"/> <g ref="#pcs"/></seg>
+  <seg function="satellite-stanza"><lb n="1"/>maruvēḻam <gap reason="ellipsis"/>
+  <lb n="2"/><gap reason="ellipsis"/>
+  <lb n="3"/><gap reason="ellipsis"/> koḷvām = <g ref="#pcs"/></seg> <seg function="blessing"><term xml:lang="sa">devisahāyam ||</term> <g ref="#pcs"/> <g ref="#pcs"/></seg>
  
     <pb facs="0" n="[1]v"/><note xml:lang="en">blank</note>
   
@@ -158,9 +165,9 @@
   <lb n="1-2"/><seg function="blessing"><term xml:lang="sa">namostu</term></seg>
   
   <milestone unit="main-text-area"/>
- <lb n="1"/><seg function="satellite-stanza">
-  <lb n="2"/>
-  <lb n="3"/><gap reason="ellipsis"/> = <g ref="#pcl"/></seg> <seg function="blessing">cu<seg rend="grantha">bham astu</seg></seg> <seg function="blessing">civāya <term xml:lang="sa">namaḥ</term></seg> <seg function="blessing">Aṉantavaḷḷiyē tuṇai <g ref="#pcs"/> <g ref="#pcs"/></seg>
+ <seg function="satellite-stanza"><lb n="1"/>vetir irunta pacun <gap reason="ellipsis"/>
+  <lb n="2"/><gap reason="ellipsis"/>
+  <lb n="3"/><gap reason="ellipsis"/> kāppu koḷvām = <g ref="#pcl"/></seg> <seg function="blessing">cu<seg rend="grantha">bham astu</seg></seg> <seg function="blessing">civāya <term xml:lang="sa">namaḥ</term></seg> <seg function="blessing">Aṉantavaḷḷiyē tuṇai <g ref="#pcs"/> <g ref="#pcs"/></seg>
 
       <pb facs="0" n="[1]v"/><note xml:lang="en">blank</note>
 
@@ -175,7 +182,8 @@
 <lb n="4"/><seg function="intertitle">kaṭavuḷ vāḻttu <term xml:lang="en">{symbol}</term></seg>
 
   <milestone unit="main-text-area"/>
- <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
+ <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/>
+  <lb n="2"/><gap reason="ellipsis"/> = 1 =</seg> <gap reason="ellipsis"/>
   
    <pb facs="0" n="3v"/>
   <milestone unit="left-margin"/>
@@ -185,10 +193,29 @@
   <milestone unit="left-margin"/>
   <lb n="1-2"/><seg function="intertitle">pāyiram <g ref="#pcs"/></seg>
   
+  <milestone unit="main-text-area"/>
+    <lb n="1"/><gap reason="ellipsis"/> = 3 = <seg function="completion-statement">Avaiyaṭakkam muṟṟum {pcs} </seg> <gap reason="ellipsis"/>
+  
+   <pb facs="0" n="4v"/>
+  <milestone unit="left-margin"/>
+  <lb n="1ff."/><seg function="intertitle">Āṟṟupaṭalam</seg>
+  
+     <pb facs="0" n="6r"/>
+  <milestone unit="left-margin"/>
+  <lb n="1-2"/><seg function="intertitle">nāṭṭu<unclear>p</unclear>paṭalam {pcs}</seg>
+  
+       <pb facs="0" n="10r"/>
+  <milestone unit="left-margin"/>
+  <lb n="1-2"/><seg function="intertitle">nakarappaṭalam</seg>
+  
+         <pb facs="0" n="282r"/>
+  <milestone unit="left-margin"/>
+  <lb n="1-2"/><seg function="intertitle">caivaneṟiyuraittapaṭalam {pcs}</seg>
+  
       <pb facs="0" n="295r"/>
-<lb n="2"/><seg function="explicit"><gap reason="ellipsis"/> : 100 :</seg> <seg function="completion-statement">caiva-neṟi y<pc>-</pc>uraitta paṭalamuṟṟum <g ref="#pcs"/></seg> <seg function="blessing">tirucciṟṟampalam <g ref="#pcs"/></seg> <seg function="total-chapters total-stanzas">{Āka} Uttirakāṇṭam 
-<lb n="3"/>paṭalam 2k=ku viruttam 2 100 3 10 2 {Āka} kāṇṭam 3kku paṭalam 7 10 3kku viruttam 3 1000 2 100 4 10 5 <g ref="#pcs"/></seg> <seg function="TBC">teyvāṉaiyammāḷ puṟāṇaM naṉṟākavum <g ref="#pcs"/></seg>
-<lb n="4"/><seg function="blessing">nilātāṭciyammaṉ tuṇai <g ref="#pcs"/></seg> <seg function="blessing">civāya nama</seg> <seg function="blessing"><gap reason="ellipsis"/></seg> <seg function="blessing">kuruvē tuṇai</seg> <seg function="blessing"><gap reason="ellipsis"/></seg> <seg function="blessing">kaṇapati tuṇai</seg> <seg function="blessing">Uṇṇāmulaittāyē tuṇai <g ref="#pcs"/></seg>
+<lb n="2"/><seg function="explicit"><gap reason="ellipsis"/> vāḻka vāḻka yivvakilam ellām : 100 :</seg> <seg function="completion-statement">caiva-neṟi y<pc>-</pc>uraitta paṭalamuṟṟum <g ref="#pcs"/></seg> <seg function="blessing">tirucciṟṟampalam <g ref="#pcs"/></seg> <seg function="total-chapters total-stanzas">{Āka} Uttirakāṇṭam 
+<lb n="3"/>paṭalam 2k=ku viruttam 2 100 3 10 2 {Āka} kāṇṭam 3k=ku paṭalam 7 10 3k=ku viruttam 3 1000 2 100 4 10 5 <g ref="#pcs"/></seg> <seg function="TBC">teyvāṉaiyammāḷ purāṇa=M naṉṟākavum <g ref="#pcs"/></seg>
+<lb n="4"/><seg function="blessing">nilātāṭciyammaṉ tuṇai <g ref="#pcs"/></seg> <seg function="blessing">civāya nama</seg> <seg function="blessing"><unclear reason="eccentric_ductus">śi</unclear>vāya nama</seg> <seg function="blessing">piraṇa<del><gap reason="illegible" quantity="1" unit="character"/></del>vāya namā</seg> <seg function="blessing">kuruvē tuṇai</seg> <seg function="blessing">vāṇi namā</seg> <seg function="blessing">devi vi<unclear reason="eccentric_ductus">hā</unclear>yam</seg> <seg function="blessing">kaṇapati tuṇai</seg> <seg function="blessing">Uṇṇāmulaittāyē tuṇai <g ref="#pcs"/></seg>
 
     <pb facs="0" n="295v"/><note xml:lang="en">blank</note>
 
