@@ -128,6 +128,7 @@ const readfiles = function(arr) {
         const dom = new jsdom.JSDOM('');
         const parser = new dom.window.DOMParser();
         const xmlDoc = parser.parseFromString(str,'text/xml');
+        if(!xmlDoc.querySelector('TEI')) console.log('error: ' + f);
         return {
             filename: f,
             repo: getRepo(xmlDoc),
