@@ -22,7 +22,7 @@
                   <idno type="alternate"><idno>Tamoul 323</idno><idno>Ariel TBC</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103853f</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary>The <title xml:lang="ta">Vacavapurāṇam</title>.</summary>
+                  <summary>The <title xml:lang="ta">Vacavapurāṇam</title>. Dimensions after Cabaton (1912).</summary>
                   
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T2" defective="false"><title xml:lang="ta">Vacavapurāṇam</title><textLang mainLang="tam"/></msItem></msContents>
@@ -40,7 +40,7 @@
                            </dimensions>
                         <dimensions type="object" unit="mm">
                             
-                        <depth quantity="125"/></dimensions>
+                        <depth quantity="125"/><width quantity="365"/><height quantity="30"/></dimensions>
                         <dimensions type="written" unit="mm">
                             
                             
@@ -52,11 +52,11 @@
                         <condition>Excellent state of preservation.</condition>
                      <collation>
                      
-                     <desc xml:id="U1">1 folio = <emph rend="bold">Title Page</emph>. No foliation. Single folio. Truncated. Verso blank.</desc><desc xml:id="cover">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U2">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso.</desc><desc xml:id="U3">192 folios = <emph rend="bold"><title xml:lang="ta">Vacavapurāṇam</title>: Text</emph>. Tamil foliation 1-192.
+                     <desc xml:id="U1">1 folio = <emph rend="bold">Title Page</emph>. No foliation. Single folio. Truncated. Verso blank.</desc><desc xml:id="cover">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U2">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso.</desc><desc xml:id="U3">192 folios = <emph rend="bold"><title xml:lang="ta">Vacavapurāṇam</title>: Text</emph>. Tamil foliation 1-192. f23v, f32v, f67v blank. f1-f45, with an earlier foliation 89-133 crossed-out. 
 </desc><desc xml:id="U4">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso.</desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>.</desc></collation></supportDesc>
                      <layoutDesc>
                         <p/>
-                     </layoutDesc>
+                     <layout writtenLines="7"/></layoutDesc>
                   </objectDesc>
                   <handDesc>
                      
@@ -72,10 +72,10 @@
                     
                     
                      
-                  <desc synch="#U1" type="shelfmark">Shelfmark in black ink: <quote>b/68</quote> (<locus facs="0">f[1]r</locus>).</desc><desc synch="#U1" type="documenting-note">BnF bequest sticker <quote>DON N° <space type="vacat"/></quote> (<locus facs="0">f[1]r</locus>).</desc><desc synch="#cover" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 323</quote> (<locus facs="0">front cover, recto</locus>).</desc></additions>
+                  <desc synch="#U1" type="shelfmark">Shelfmark in black ink: <quote>b/68</quote> (<locus facs="0">f[1]r</locus>).</desc><desc synch="#U1" type="documenting-note">BnF bequest sticker <quote>DON N° <space type="vacat"/></quote> (<locus facs="0">f[1]r</locus>).</desc><desc synch="#cover" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 323</quote> (<locus facs="0">front cover, recto</locus>).</desc><desc synch="#U3" type="intertitle" subtype="marginal left"/></additions>
                   <bindingDesc>
                      <binding>
-                        <p>Original <material>wood</material> covers?</p>
+                        <p>Original <material>wood</material> covers? Bevelled edges.</p>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -133,8 +133,12 @@
   <lb n="1-3"/><seg function="title">vacavapurāṇam</seg>
   
   <milestone unit="main-text-area"/>
-  <lb n="1"/><seg function="incipit">pār viḷaṅkum</seg> <gap reason="ellipsis"/>
-  
+  <seg function="incipit">
+    <seg function="invocation">
+    <lg><l><lb n="1"/>pār viḷaṅkum <gap reason="ellipsis"/></l> <l>ṉēr viḷaṅkum <gap reason="ellipsis"/></l> <l>cīr viḷaṅkuñ <gap reason="ellipsis"/></l> <l>yēr viḷaṅkum <gap reason="ellipsis"/></l></lg> – 1 – <gap reason="ellipsis"/>
+    </seg>
+  </seg>
+
   <pb facs="0" n="2r"/>  
   <milestone unit="left-margin"/>
   <lb n="1-3"/><seg function="intertitle">kayilāyaccarukkam ~</seg>
@@ -147,13 +151,24 @@
   <milestone unit="left-margin"/>
   <lb n="1-3"/><seg function="intertitle">nantiyupatēccarukkam ~ ~</seg>
     
-  <pb facs="0" n="24r"/>  
+  <pb facs="0" n="23r"/>  
+  <lb n="6"/><gap reason="ellipsis"/> ~ 57 ~ <seg function="completion-statement">nanti<unclear reason="eccentric_ductus">yu</unclear>patēccarukkam ~ muṟṟum . <seg function="total-stanzas">Āka tiruviruttam ~ 2 100 3 10 2 ~ {pcs}</seg></seg>
+  
+   <pb facs="0" n="23v"/><note xml:lang="en">blank</note> 
+
+    <pb facs="0" n="24r"/>  
   <milestone unit="left-margin"/>
   <lb n="1-3"/><seg function="intertitle">taṇṭināyakar carukkam ~ ~</seg>
     
+  <pb facs="0" n="27v"/>  
+  <milestone unit="left-margin"/>
+  <lb n="1"/><seg function="TBC">Aṟalipi</seg>
+  
   <pb facs="0" n="31r"/>  
   <milestone unit="left-margin"/>
   <lb n="1-3"/><seg function="intertitle">ceṉṉavacavatēvaccarukkam</seg>
+  
+     <pb facs="0" n="32v"/><note xml:lang="en">blank</note> 
     
   <pb facs="0" n="33r"/>  
   <milestone unit="left-margin"/>
@@ -162,14 +177,32 @@
   <pb facs="0" n="37r"/>  
   <milestone unit="left-margin"/>
   <lb n="1-4"/><seg function="intertitle">vacavēcaratiruviḷaiyāṭal carukkam</seg>
+  
+  <pb facs="0" n="51r"/>  
+  <milestone unit="left-margin"/>
+  <lb n="1-3"/><seg function="intertitle">Eḻaimātavaccarukkam</seg>
+<lb n="4-5"/><seg function="TBC">muttacaṅkaiyar</seg>
+
+       <pb facs="0" n="67v"/><note xml:lang="en">blank</note> 
     
+  <pb facs="0" n="68r"/>  
+  <milestone unit="left-margin"/>
+  <lb n="1-3"/><seg function="intertitle">tirukkūṭṭaccarukkam</seg>
+<lb n="4-5"/><seg function="TBC"><gap reason="ellipsis"/></seg>
+  
+  <pb facs="0" n="72r"/><note xml:lang="en">spaces left blank: defective master copy?</note>
+  
+  <pb facs="0" n="126r"/>  
+  <milestone unit="left-margin"/>
+  <lb n="1-5"/><seg function="intertitle">caṅkamappiṟāṇicarukkam ~ ~</seg>
+  
   <pb facs="0" n="137r"/>  
   <milestone unit="left-margin"/>
   <lb n="1-4"/><seg function="intertitle">tiruvātuccarukkam ~</seg>
     
   <pb facs="0" n="192v"/>  
   <lb n="1"/><seg function="explicit"><gap reason="ellipsis"/> ~ 4 100 9 10 1 =</seg> <seg function="colophon"><seg function="completion-statement">tiruvātuccarukkamuṟṟum ~</seg> <seg function="total-stanzas">Āka-t tiruviruttam = 1000 7 100 3 10 6 ~</seg> <seg function="blessing">kuru-kirupai =</seg>
-<lb n="2"/> 1000 8 100 4 10 7-m āṇṭu mārcu {mācam} 2 10 4 {tēti}kkuc cellum pilavaṅka {varuṣam} paiṅkuṉi {mācam} 10 3 <g ref="#pcs"/> cukkirivārattiṉatil ~ <persName xml:lang="ta" role="scribe" key="Śrīnivasa2"><placeName xml:lang="ta" key="Pondicherry">putuvai</placeName> cīnivāca<unclear>ṉā</unclear>l</persName> ~ vacavapurāṇam eḻuti niṟai veṟṟiṟṟu  
+<lb n="2"/> 1000 8 100 4 10 7-m āṇṭu mārcu {mācam} 2 10 4 {tēti}kkuc cellum pilavaṅka {varuṣam} paiṅkuṉi {mācam} 10 3 <g ref="#pcs"/> cukkirivārattiṉatil ~ <persName xml:lang="ta" role="scribe" key="Śrīnivasa2"><placeName xml:lang="ta" key="Pondicherry">putuvai</placeName> cīnivāca<unclear>ṉā</unclear>l</persName> ~ vacavapurāṇam eḻuti niṟai vēṟṟiṟṟu  
 <lb n="3"/>muṟṟum ~ <seg function="blessing">veṟṟi-vēl uṟṟa tuṇai <g ref="#pcs"/></seg></seg>
 
   </body>
