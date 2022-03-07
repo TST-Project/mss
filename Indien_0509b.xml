@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Collection (2 items)</title>
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2022</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  
+                  <idno type="shelfmark">Indien 509b</idno>
+                  <idno type="alternate"><idno>Tamoul 509</idno></idno>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1040369</idno></msIdentifier>
+               <msContents class="#MTM">
+                  <summary>A multi-text manuscript containing:
+<list rend="numbered">
+  <item>the <title xml:lang="ta">Civakkiyāṉatīpam</title> (U1-U3)</item>
+  <item>the <title xml:lang="ta">Camāticarukkam</title> (U4-U5)</item>
+  </list></summary>
+                  
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Civakkiyāṉatīpam: <term xml:lang="en">Title Page</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta">Civakkiyāṉatīpam: <term xml:lang="en">Invocation</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T3" defective="false"><title xml:lang="ta">Civakkiyāṉatīpam: <term xml:lang="en">Text</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U4" xml:id="T4" defective="false"><title xml:lang="ta"><term xml:lang="en">TBC: Invocation</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U5" xml:id="T5" defective="false"><title xml:lang="ta"><term xml:lang="en">TBC: Text</term></title><textLang mainLang="tam"/></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="pothi">
+                     <supportDesc material="palm-leaf">
+                        <extent>
+                           <measure unit="folio" quantity="51">{1} + {1} + 41 + {1} + 7 (U1 + U2 + U3 + U4 +U5).</measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           <width quantity="280"/><height quantity="25"/></dimensions>
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
+                        
+                        <condition>Very good state of preservation. </condition>
+                     <support><measure unit="stringhole" quantity="1"/></support><collation><desc xml:id="U1">1 folio = <emph rend="bold"><title xml:lang="ta">Civakkiyāṉatīpam</title>: Title Page</emph>. No foliation. Verso blank.</desc><desc xml:id="U2">1 folio = <emph rend="bold"><title xml:lang="ta">Civakkiyāṉatīpam</title>: Invocation</emph>. No foliation. Verso blank.</desc><desc xml:id="U3">41 folios = <emph rend="bold"><title xml:lang="ta">Civakkiyāṉatīpam</title>: Text</emph>. Tamil foliation 1-41.</desc><desc xml:id="U4">1 folio = <emph rend="bold">TBC: Title Page</emph>. No foliation. Verso blank.</desc><desc xml:id="U5">7 folios = <emph rend="bold">TBC: Text</emph>. Tamil foliation 1, 3, 5, 6-9.</desc></collation></supportDesc>
+                     <layoutDesc>
+                        
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     
+                  <handNote synch="#U1 #U2 #U3 #U4 #U5" scope="major" script="tamil" medium="incised soot"/></handDesc>
+                  <additions>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                  </additions>
+               <bindingDesc><binding/></bindingDesc></physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian">No internal date.</origDate>
+                     
+                  <origPlace>Tamilnadu.</origPlace></origin>
+                  <acquisition>
+                     
+                  </acquisition>
+               <provenance/></history>
+               <additional>
+                  <listBibl>
+                     
+                     
+                     
+                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens. Bibliothèque nationale. Département des manuscrits.</title> Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f90">p. 71, no. 506</ref>.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. (1866-). <title> Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f247">f. 116r, no. 509</ref>. </bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         
+         
+      <change when="2022-03">Record created by Emmanuel FRANCIS.</change></revisionDesc>
+   <encodingDesc><p>TBC</p></encodingDesc></teiHeader>
+   <facsimile>
+      
+   </facsimile>
+</TEI>
