@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="en">
+      <fileDesc>
+         <titleStmt>
+            <title>Collection (6 items)</title>
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2022</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  
+                  <idno type="shelfmark">Indien 9</idno>
+                  <idno type="alternate"><idno>Tamoul 9</idno><idno>Ariel TBC</idno></idno>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103140x</idno></msIdentifier>
+               <msContents class="#CM">
+                  <summary>A composite manuscript containing:  
+<list>
+  <item>the <title xml:lang="ta">Varākimālai</title> (U9a)</item>
+  <item>the <title xml:lang="ta">Cauntariyalakari</title> (U9b)</item>
+  <item>a <foreign xml:lang="ta">mantiram</foreign> with its <foreign xml:lang="ta">cakkaram</foreign> (that is, a <foreign xml:lang="sa">yantra</foreign>) (U9c)</item>
+  <item>the <title xml:lang="ta">Niṭṭāṉupūtiviḷakkam</title> (U9d)</item>
+  <item>TBC (U9e)</item>
+  <item>TBC (U9d)</item>
+  </list></summary>
+                  
+                  
+               </msContents>
+               <physDesc>
+                  <objectDesc form="pothi">
+                     <supportDesc material="palm-leaf">
+                        <support>
+                           <!--measure unit="stringholes" quantity=""/-->
+                        <measure unit="stringhole" quantity="1"/></support>
+                        <extent>
+                           <measure unit="folio" quantity="81">{1} + 4 + 57 + {1} + 11 + {1} + 6 (U1 + 9a + 9b + 9c + 9d + 9e + 9f).</measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           <height min="30"/><width min="305" max="350"/></dimensions>
+                        <dimensions type="object" unit="mm">
+                            
+                        <width quantity="350"/><height quantity="30"/></dimensions>
+                        <dimensions type="written" unit="mm">
+                            
+                            
+                        </dimensions>
+                        </extent>
+                        
+                        
+                        
+                        <condition>Very good state of preservation, despite some boreholes. </condition>
+                     <collation>
+                     
+                     <desc xml:id="cover">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">Title Page (additional)</emph>. No foliation. Double folio. Verso blank. 345 x 30 mm.</desc><desc xml:id="9a">4 folios.</desc><desc xml:id="9b">57 folios.</desc><desc xml:id="9c">1 folio.</desc><desc xml:id="9d">11 folios.</desc><desc xml:id="9e">1 folio.</desc><desc xml:id="9f">6 folios.</desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>.</desc></collation></supportDesc>
+                     <layoutDesc>
+                        <p/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     
+                     
+                    
+                  <handNote synch="#U1" scope="minor" scribeRef="#ArielTitleScribe" script="tamil" scriptRef="#tamilPulliRegular #tamilOE" medium="incised soot"><desc>Hand #1.</desc></handNote></handDesc>
+                  <additions>
+                  
+                     
+                     
+                     
+                    
+                    
+                    
+                     
+                  <desc synch="#9a" type="shelfmark">Shelfmark in black ink: <quote>c/28</quote> (<locus facs="0">f[1]r</locus>).</desc><desc synch="#cover" type="shelfmark" subtype="back cover">BnF shelfmark sticker: <quote>INDIEN 9</quote> (<locus facs="0">back cover, verso</locus>). Covering an earlier sticker.</desc><desc synch="#cover" type="shelfmark" subtype="back cover">Shelfmark sticker (Société Asiatique?): <quote>9</quote> (<locus facs="0">back cover, verso</locus>).</desc><desc synch="#cover" type="documenting-note" subtype="back cover">BnF bequest sticker <quote>DON N° <space type="vacat"/></quote> (<locus facs="0">back cover, verso</locus>).</desc></additions>
+                  <bindingDesc>
+                     <binding>
+                        <p><material resp="#cLI" cert="medium">Mahogany</material> woodcovers apparently fabricated in the BnF.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian" notAfter="1855">9b internally dated to the year <foreign xml:lang="ta">piracōṟpatti</foreign> of the Jovian cycle, that is, CE 1811-1812, 1751-1752, 1691-1692, etc. See colophon (<locus facs="p">f57r, c1, 1</locus>). 9d internally dated to the year <foreign xml:lang="ta">kara</foreign> of the Jovian cycle, that is, CE 1831-1832, 1771-1772, 1711-1712, etc. See colophon (<locus facs="p">f35v6</locus>).
+Dated to circa 1830 by Vinson (1867) and to 1830 by Cabaton (1912), on unstated grounds (presumably palaeographical and material analysis arguments).</origDate>
+                     <origPlace>Tamilnadu.</origPlace>
+                  </origin>
+                  <acquisition>
+                     <p>Received, August 1st, 1866, from the Société Asiatique. See BnF, département des Manuscrits, inventaire 7 = <title>Dons: manuscrits et imprimés documentaires, 1848-1895</title>, no. 1192.</p>
+                  </acquisition>
+               	<provenance><p>Owned by <persName role="collector">Édouard Ariel</persName> (1818-1854). Bequested by Édouard Ariel to Société Asiatique (Rosny 1868, p. 177).</p></provenance></history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f20">p. 2, no. 9</ref>.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. (1866-). <title> Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f19">f. 2r = p. 2 , no. 9</ref>. </bibl><bibl>Rosny, Léon de (1868). <title type="article">La bibliothèque tamoule de M. Ariel, de Pondichéry</title>. In: <title>Variétés orientales</title> (pp. 177‒224). Paris: Maisonneuve. </bibl><bibl>Vinson, Julien (1867). <title>Catalogue des manuscrits tamouls</title>. Corrected proofreadings printed by the atelier oriental de l’Imprimerie nationale. BnF “4-IMPROR-77 (B)” — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b105333021/f13">p. 2, no. 9</ref>.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+         
+         
+      <p><p><emph rend="bold">Transliteration conventions</emph></p>  
+<p>Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only).  </p>  <p><emph rend="bold">Abbreviations</emph></p>  <p> c = column, f = folio, lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.</p>       </p></encodingDesc>
+      <revisionDesc>
+         
+      
+      <change when="2022-03">Record created by Emmanuel FRANCIS</change></revisionDesc>
+   </teiHeader>
+    <sourceDoc>
+        <surface/>
+    </sourceDoc>
+<facsimile/></TEI>
