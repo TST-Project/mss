@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title><title xml:lang="ta">Tivviyappirapantam</title> (extracts)</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>TST Project</publisher>
+				<date>2022</date>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>
+							<orgName>Bibliothèque nationale de France. Département des
+								Manuscrits</orgName>
+						</repository>
+						<idno type="shelfmark">Indien 550a</idno>
+						<idno type="alternate"><idno>Tamoul 550</idno><idno>Haas 39</idno></idno>
+					<idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc104078t</idno></msIdentifier>
+					<msContents class="#CM">
+						<summary>A composite manuscript containing extracts of the <title xml:lang="ta">Tivviyappirapantam</title>: <list>
+  <item><title xml:lang="ta">Tivviyappirapantam</title> 2713-2717 (U1)</item>
+  <item><title xml:lang="ta">Tivviyappirapantam</title> 2673-2712 (U2)</item>
+</list></summary>
+
+					<msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Tivviyappirapantam 2713-2717</title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta">Tivviyappirapantam 2673-2712</title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T3" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page?</term></title><textLang mainLang="tam"/></msItem></msContents>
+					<physDesc>
+						<objectDesc form="pothi">
+							<supportDesc material="palm-leaf">
+								<extent>
+									<measure unit="folio" quantity="7">{1} + 5 + {1} (U1 + U2 + U3).</measure>
+									<dimensions type="leaf" unit="mm"> </dimensions>
+									<dimensions type="object" unit="mm">
+										
+										
+										
+									</dimensions><dimensions type="written" unit="mm"/></extent>
+
+								<condition>Relatively poor state of preservation. Truncated, cracked folios.</condition>
+								<support><measure unit="stringhole" quantity="1"/></support>
+								<collation><desc xml:id="U1">1 folio = <emph rend="bold"><title xml:lang="ta">Tivviyappirapantam</title> 2713-2717, preceded by a <term xml:lang="ta">taṉiyaṉ</term></emph>. No foliation.</desc><desc xml:id="U2">5 folios = <emph rend="bold"><title xml:lang="ta">Tivviyappirapantam</title> 2673-2712, followed by a <term xml:lang="ta">taṉiyaṉ</term> (?)</emph>. Tamil foliation {1}, 2-5.</desc><desc xml:id="U3">1 folio = <emph rend="bold">Title Page (?)</emph>. No foliation.</desc></collation>
+							</supportDesc>
+							<layoutDesc> </layoutDesc>
+						</objectDesc>
+						<handDesc>
+
+							
+						<handNote synch="#U1" script="tamil"/><handNote synch="#U2" script="tamil"/><handNote synch="#U3" script="tamil"/></handDesc>
+						<additions/>
+						<bindingDesc>
+							<binding>
+								
+							</binding>
+						</bindingDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate calendar="gregorian" notAfter="1886">No internal date.</origDate>
+							<origPlace>South India, Tamilnadu.</origPlace>
+						</origin>
+						<acquisition> <p>Acquired, December 18th, 1886, from M. Haas. See BnF, département des Manuscrits, inventaire 2 = <title>Acquisitions: manuscrits et imprimés documentaires, 1848-1893</title>, no. 7881.</p></acquisition>
+						<provenance><p>Owned by <persName ref="https://catalogue.bnf.fr/ark:/12148/cb109559175" key="Haas, Frédéric (1843-1915)">Frédéric Haas</persName> (1843-1915).</p></provenance>
+					</history>
+					<additional>
+						<listBibl>
+
+
+
+
+
+							
+						<bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f95">p. 76, no. 550</ref>.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. (1866-). <title> Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f261">f. 123r, no. 555</ref>. </bibl></listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+
+			
+		<change when="2022-03">Record created by Emmanuel FRANCIS.</change></revisionDesc>
+		<encodingDesc>
+			
+		<p>TBC</p></encodingDesc>
+	</teiHeader>
+
+	
+	
+	
+	
+	
+	
+	
+<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+
+  <pb facs="o" n="[1]r"/>
+  
+  <pb facs="o" n="[1]v"/>
+
+</body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
+
+  <pb facs="o" n="[1]r"/>
+  
+  <pb facs="o" n="5v"/>
+
+</body></text><text synch="#U3" corresp="#T3" xml:lang="ta"><body>
+
+  <pb facs="o" n="[1]r"/>
+  
+  <pb facs="o" n="[1]v"/>
+
+</body></text></TEI>
