@@ -50,5 +50,7 @@ const readfiles = function(arr) {
     console.log('Ariel index compiled: ariel.html.');
     output.index(data,{prefix: 'Burnouf',keys:['Eugène Burnouf','Burnouf, Eugène']});
     console.log('Burnouf index compiled: burnouf.html.');
+    output.index(data,{prefix: 'Cordier',keys:['Palmyr Cordier','Cordier, Palmyr']});
+    console.log('Cordier index compiled: cordier.html.');
 };
 
