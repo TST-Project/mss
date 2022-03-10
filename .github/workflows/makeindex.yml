@@ -1,8 +1,7 @@
 name: index build
 on:
   push:
-  repository_dispatch:
-    types: [trigger-update]
+  workflow_dispatch:
 jobs:
   make-index:
     runs-on: ubuntu-latest
@@ -18,6 +17,7 @@ jobs:
 
       - run: |
           cd src
+          git clone https://github.com/TST-Project/authority-files.git
           git clone https://github.com/TST-Project/lib.git
           yarn install
           yarn build
