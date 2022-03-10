@@ -27,6 +27,7 @@ const readfiles = function(arr) {
             cote: find.cote(xmlDoc),
             altcotes: find.altcotes(xmlDoc),
             fname: base,
+            collectors: find.collectors(xmlDoc),
             repo: find.repo(xmlDoc),
             title: find.title(xmlDoc),
             material: find.material(xmlDoc),
