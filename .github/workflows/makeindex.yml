@@ -1,5 +1,8 @@
 name: index build
-on: [push]
+on:
+  push:
+  repository_dispatch:
+    types: [trigger-update]
 jobs:
   make-index:
     runs-on: ubuntu-latest
@@ -14,11 +17,13 @@ jobs:
           node-version: '16'
 
       - run: |
-          npm install jsdom
-          node makeindex.js
+          git clone https://github.com/TST-Project/lib.git
+          cd src
+          yarn install
+          yarn build
 
       - uses: stefanzweifel/git-auto-commit-action@v4
         with: 
           commit_message: automatic index update
-          file_pattern: ./index.html
+          file_pattern: ./*.html
           commit_user_name: TST Bot

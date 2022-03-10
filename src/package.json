@@ -1,0 +1,20 @@
+{
+  "name": "mss-index-generator",
+  "version": "1.0.0",
+  "description": "Generate indices for XML files",
+  "main": "index.js",
+  "repository": "https://github.com/TST-Project/mss",
+  "author": "Charles Li",
+  "license": "MIT",
+  "dependencies": {
+    "jsdom": "^19.0.0",
+    "xlsx": "^0.18.3"
+  },
+  "scripts": {
+    "build": "node index.js"
+  },
+  "type": "module",
+  "devDependencies": {
+    "xpath": "^0.0.32"
+  }
+}
