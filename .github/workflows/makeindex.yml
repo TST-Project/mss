@@ -17,8 +17,8 @@ jobs:
           node-version: '16'
 
       - run: |
-          git clone https://github.com/TST-Project/lib.git
           cd src
+          git clone https://github.com/TST-Project/lib.git
           yarn install
           yarn build
 
