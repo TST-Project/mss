@@ -1,4 +1,5 @@
 import fs from 'fs';
+import path from 'path';
 import { find } from './lib/util/find.mjs';
 import { make } from './lib/util/utils.mjs';
 import { output } from './lib/util/output.mjs';
@@ -21,10 +22,11 @@ const readfiles = function(arr) {
     const data = arr.map((f) => 
     {
         const xmlDoc = make.xml( fs.readFileSync(f,{encoding:'utf-8'}) );
+        const base = path.parse(f).base;
         return {
             cote: find.cote(xmlDoc),
             altcotes: find.altcotes(xmlDoc),
-            fname: `https://tst-project.github.io/${f}`,
+            fname: `https://tst-project.github.io/${base}`,
             repo: find.repo(xmlDoc),
             title: find.title(xmlDoc),
             material: find.material(xmlDoc),
