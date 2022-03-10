@@ -44,13 +44,13 @@ const readfiles = function(arr) {
     });
     output.index(data);
     console.log('Main index compiled: index.html.');
-    output.index(data,{prefix: 'Ducler',keys:['Phillipe Étienne Ducler','Ducler, Phillipe Étienne']});
+    output.index(data,{name: 'Ducler collection', prefix: 'Ducler',keys:['Phillipe Étienne Ducler','Ducler, Phillipe Étienne']});
     console.log('Ducler index compiled: ducler.html.');
-    output.index(data,{prefix: 'Ariel',keys:['Édouard Ariel','Ariel, Édouard']});
+    output.index(data,{name: 'Ariel collection', prefix: 'Ariel',keys:['Édouard Ariel','Ariel, Édouard']});
     console.log('Ariel index compiled: ariel.html.');
-    output.index(data,{prefix: 'Burnouf',keys:['Eugène Burnouf','Burnouf, Eugène']});
+    output.index(data,{name: 'Burnouf collection', prefix: 'Burnouf',keys:['Eugène Burnouf','Burnouf, Eugène']});
     console.log('Burnouf index compiled: burnouf.html.');
-    output.index(data,{prefix: 'Cordier',keys:['Palmyr Cordier','Cordier, Palmyr']});
+    output.index(data,{name: 'Cordier collection', prefix: 'Cordier',keys:['Palmyr Cordier','Cordier, Palmyr']});
     console.log('Cordier index compiled: cordier.html.');
 };
 
