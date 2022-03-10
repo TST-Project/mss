@@ -26,7 +26,7 @@ const readfiles = function(arr) {
         return {
             cote: find.cote(xmlDoc),
             altcotes: find.altcotes(xmlDoc),
-            fname: `https://tst-project.github.io/${base}`,
+            fname: base,
             repo: find.repo(xmlDoc),
             title: find.title(xmlDoc),
             material: find.material(xmlDoc),
