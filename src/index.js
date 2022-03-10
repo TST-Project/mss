@@ -44,9 +44,9 @@ const readfiles = function(arr) {
     });
     output.index(data);
     console.log('Main index compiled: index.html.');
-    output.index(data,{prefix: 'Ducler'});
+    output.index(data,{prefix: 'Ducler',keys:['Phillipe Étienne Ducler','Ducler, Phillipe Étienne']});
     console.log('Ducler index compiled: ducler.html.');
-    output.index(data,{prefix: 'Ariel'});
+    output.index(data,{prefix: 'Ariel',keys:['Édouard Ariel','Ariel, Édouard']});
     console.log('Ariel index compiled: ariel.html.');
 };
 
