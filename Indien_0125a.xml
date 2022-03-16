@@ -28,7 +28,7 @@
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
                         <support>
-                           <measure unit="stringhole" quantity="1"/>
+                           <measure unit="stringhole" quantity="2"/>
                            
                         </support>
                         <extent>
@@ -38,7 +38,7 @@
                               
                            <width quantity="280"/><height quantity="30"/></dimensions>
                         <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
-                        <collation><desc xml:id="U1">1 folio = <emph rend="bold">TBC</emph>. No foliation.
+                        <collation><desc xml:id="U1">1 folio = <emph rend="bold">TBC</emph>. No foliation. Double foli0. Only one half of the double folio remains with upper parts of the letters of the first line still visible.
 </desc></collation>
                         
                         <condition>Truncated. Only one half of the double folio remains.</condition>
@@ -84,10 +84,11 @@
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   
 <pb n="[1]r"/>
-  
+    <lb n="1"/><gap reason="illegible"/> <note xml:lang="en">only upper parts of letters visible</note>
+
 <pb n="[1]v"/>
-  <lb n="1"/>
-  <lb n="2"/>
-  <lb n="3"/>
+  <lb n="1"/><gap reason="ellipsis"/>
+  <lb n="2"/><gap reason="ellipsis"/>
+  <lb n="3"/><gap reason="ellipsis"/>
   
 </body></text></TEI>
