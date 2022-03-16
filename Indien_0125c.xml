@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>TBC</title>
+            
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2022</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Indien 125c</idno>
+                  <idno type="alternate"><idno>Tamoul 125</idno></idno>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103588x</idno></msIdentifier>
+               <msContents class="#STM">
+                  <summary>A single-text manuscript TBC.</summary>
+                  
+               <msItem xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">TBC</term></title><textLang mainLang="tam"/></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="pothi">
+                     <supportDesc material="palm-leaf">
+                        <support>
+                           <measure unit="stringhole" quantity="1"/>
+                           
+                        </support>
+                        <extent>
+                           <measure unit="folio" quantity="7">7 (U1).</measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           <height quantity="25"/><width quantity="210"/></dimensions>
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
+                        <collation><desc xml:id="U1">7 folios = <emph rend="bold">TBC</emph>. Tamil foliation {1}, 2-7.</desc></collation>
+                        
+                        <condition>Good state of preservation.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc><handNote synch="#U1" scope="major" script="tamil" medium="incised soot"/></handDesc>
+                  <decoDesc>
+                  </decoDesc>
+                  <additions>
+                  </additions>
+                  <bindingDesc>
+                     <binding/>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian" notAfter="1855">No internal date. </origDate>
+                     <origPlace>Tamilnadu.</origPlace>
+                  </origin>
+                  <provenance><p>Owned by <persName role="collector">Édouard Ariel</persName> (1818-1854). Bequested by Édouard Ariel to Société Asiatique (Rosny 1868, p. 177).</p></provenance>
+                  <acquisition><p>Received, August 1st, 1866, from the Société Asiatique. See BnF, département des Manuscrits, inventaire 7 = <title>Dons: manuscrits et imprimés documentaires, 1848-1895</title>, no. 1192.</p></acquisition>
+               </history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens. Bibliothèque nationale. Département des manuscrits.</title> Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f41">p. 23, no. 125</ref>.</bibl><bibl>Rosny, Léon de (1868). <title type="article">La bibliothèque tamoule de M. Ariel, de Pondichéry</title>. In: <title>Variétés orientales</title> (pp. 177‒224). Paris: Maisonneuve. </bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. (1866-). <title>Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f83">f. 34r, no. 125</ref>. </bibl><bibl>Vinson, Julien (1868). <title>Manuscrits tamouls</title>. Proofreadings of the catalogue for Tamoul 1-204 (old shelfmark). Printed by the atelier oriental de l’Imprimerie nationale. BnF “4-IMPROR-77 (B)” — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b105333021/f77">p. 34, no. 125</ref>. — The same proofreadings with black ink handwritten corrections are found in Vinson et al. (1866-, f1-f49). </bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         
+      <p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.      </p></encodingDesc>
+      <revisionDesc>
+         
+      <change when="2022-03">Record created by Emmanuel FRANCIS.</change></revisionDesc>
+   </teiHeader>
+   <facsimile>
+   </facsimile>
+<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+
+  <pb n="[1]r"/>
+    <milestone unit="left-margin"/>
+<lb n="1-4"/><seg function="title">keruṭṭapakavāṉ 
+pēril pat=tum patiyu=M
+pāṭal tiru-mantira-
+cūsttiram</seg>
+
+    <milestone unit="main-text-area"/>
+<lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
+
+  <pb n="7v"/>
+  <lb n="3"/><seg function="explicit"><gap reason="ellipsis"/> vāyē = 10 2 </seg> <gap reason="ellipsis"/>
+   <lb n="3"/><seg function="blessing"><note xml:lang="en">unblackened</note> <unclear>śrī</unclear>-rāmaceyam rāmaceyam rā=maciṅkaṉ rāmaceyam</seg>
+
+  
+</body></text></TEI>
