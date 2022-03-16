@@ -21,14 +21,20 @@
                   <idno type="alternate"><idno>Tamoul 125</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103588x</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary>TBC</summary>
+                  <summary>A single-text manuscript containing:
+<list rend="numbered">
+  <item>TBC (U1)</item>
+  <item>TBC (U2)</item>
+  <item>TBC: Text &amp; Commentary (U3)</item>
+  <item>TBC (U4)</item>
+</list></summary>
                   
-               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">TBC</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta"><term xml:lang="en">TBC</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T3" defective="false"><title xml:lang="ta"><term xml:lang="en">TBC</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U4" xml:id="T4" defective="false"><title xml:lang="ta"><term xml:lang="en">TBC</term></title><textLang mainLang="tam"/></msItem></msContents>
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">TBC</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta"><term xml:lang="en">TBC</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T3" defective="true"><title xml:lang="ta"><term xml:lang="en">TBC</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U4" xml:id="T4" defective="false"><title xml:lang="ta"><term xml:lang="en">TBC</term></title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
                         <support>
-                           <measure unit="stringhole" quantity="1"/>
+                           <measure unit="stringhole" quantity="2"/>
                            
                         </support>
                         <extent>
@@ -38,9 +44,9 @@
                               
                            <height quantity="30"/><width min="270" max="275"/></dimensions>
                         <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
-                        <collation><desc xml:id="U1">1 folio = <emph rend="bold">TBC</emph>. No foliation.
-</desc><desc xml:id="U2">1 folio = <emph rend="bold">Satellite stanza</emph>. No foliation.
-</desc><desc xml:id="U3">42 folios = <emph rend="bold">TBC</emph>. Tamil foliation {1}, 2-42.
+                        <collation><desc xml:id="U1">1 folio = <emph rend="bold">TBC</emph>. No foliation. 270 x 30 mm.
+</desc><desc xml:id="U2">1 folio = <emph rend="bold">Satellite stanza</emph>. No foliation. 275 x 30 mm.
+</desc><desc xml:id="U3">42 folios = <emph rend="bold">TBC</emph>. Tamil foliation {1}, 2-42. 275 x 30 mm.
 </desc><desc xml:id="U4">2 folios = <emph rend="bold">guard leaves</emph>. No foliation. f[1]r,  f[1]v, f[2]r blank.
 </desc></collation>
                         
@@ -50,7 +56,7 @@
                         
                      </layoutDesc>
                   </objectDesc>
-                  <handDesc><handNote synch="#U1" scope="sole" script="tamil" medium="incised soot"/></handDesc>
+                  <handDesc><handNote synch="#U1" scope="minor" script="tamil" medium="incised soot"><desc>Verso unblackened.</desc></handNote><handNote synch="#U2 #U3" scope="major" script="tamil" medium="incised soot"/><handNote synch="#U4" scope="minor" script="tamil" medium="ink"><desc>Unblackened.</desc></handNote></handDesc>
                   <decoDesc>
                   </decoDesc>
                   <additions>
@@ -87,29 +93,78 @@
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   
 <pb n="[1]r"/>
-  
-<pb n="[1]v"/>
-  <lb n="1"/>
-  <lb n="2"/>
-  <lb n="3"/>
-  
+    <lb n="1"/>toṇṭa-maṇṭala<unclear>t=tu</unclear> vēḷḷāḻaṉ
+  <lb n="2"/><gap reason="ellipsis"/>
+
+<pb n="[1]v"/><note xml:lang="en">unblackened</note>
+  <lb n="1"/><seg function="TBC">Āṭciṅkaṉ paṭik=kiṇṭa
+<lb n="2"/>kaṇṭaṟaṇṭaṉ cuvaṭi
+<lb n="3"/>l eṭut=tavar cuvāmi-mukattai
+<lb n="4"/>pārt=tu kuṭuk=ka vēṇṭām</seg>
+ 
 </body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
+
+  <pb n="[1]r"/>
+    <milestone unit="left-margin"/>
+<lb n="1"/><seg function="blessing">ha<seg rend="grantha">ri</seg> Om</seg>
+<lb n="2"/><seg function="blessing">naṉṟāka</seg>
+<lb n="3"/><seg function="blessing">kuru vāḻka</seg>
   
-<pb n="[1]r"/>
-  
-<pb n="[1]v"/><note xml:lang="en">blank</note>
+  <milestone unit="main-text-area"/>
+<seg function="satellite-stanza"><lb n="1"/><lg><l>tiruvākkuñ ceykarumaṅ kaiyiḵūṭuñ ceñcoṟ</l> <l>peruvākkum pīṭum perukkum ~
+<lb n="2"/>muruvākkum</l> <l>mātalāl vāṉoru māṉai mukattāṉaik</l> <l>kātalāl kūppuvar
+<lb n="3"/>taṅ kai</l></lg> {pcs}</seg> <seg function="TBC"><gap reason="ellipsis"/> varumē {pcs}</seg>
+
+  <pb n="[1]v"/><note xml:lang="en">blank</note>
   
 </body></text><text synch="#U3" corresp="#T3" xml:lang="ta"><body>
   
-<pb n="[1]r"/>
+<pb facs="0" n="[1]r"/>
+  <milestone unit="left-margin"/>
+<lb n="1-2"/><seg function="blessing">naṉṟāka</seg>
+  
+  <milestone unit="main-text-area"/>
+<lb n="1"/><seg function="incipit" type="root-text"><gap reason="ellipsis"/></seg>
+<lb n="2"/><gap reason="ellipsis"/>
+<lb n="3"/><gap reason="ellipsis"/> naṉṟē {pcs} <seg function="blessing">civa-ñāṉa-tēcikaṉ tiruvaṭiyē caraṇam</seg>
+<lb n="4"/><seg function="blessing">tirucciṟṟampalam tirucciṟṟampala<supplied reason="omitted">m</supplied> tirucciṟṟampalam tirucciṟṟampalam tirucciṟṟampalam {pcs}</seg>
+  
+  <pb facs="0" n="[1]v"/>
+
+  <lb n="1"/><gap reason="ellipsis"/>
+<lb n="2"/><gap reason="ellipsis"/> {pcs} <seg function="blessing">tirucit=tampala=M</seg>
+  
+  <pb facs="0" n="2r"/>
+  <milestone unit="left-margin"/>
+<lb n="1-4"/><seg function="intertitle">Uḷḷamuṭaiccūḷāmaṇi {pcs}{pcs}</seg>
+  
+  <milestone unit="main-text-area"/>
+<lb n="1"/><gap reason="ellipsis"/>
+  
+  <pb facs="0" n="3r"/>
+  <milestone unit="left-margin"/>
+<lb n="1-4"/><seg function="intertitle"><gap reason="ellipsis"/></seg>
   
 <pb n="42v"/>
+  <lb n="1"/><gap reason="ellipsis"/> = 92 = <gap reason="ellipsis"/>
+  <lb n="2"/><gap reason="ellipsis"/>
+  <lb n="3"/><gap reason="ellipsis"/> <seg function="explicit" type="commentary">{pcs} Etu {pcs}<note xml:lang="en">stops short here</note></seg>
   
 </body></text><text synch="#U4" corresp="#T4" xml:lang="ta"><body>
   
 <pb n="[1]r"/><note xml:lang="en">blank</note>
 <pb n="[1]v"/><note xml:lang="en">blank</note>
 <pb n="[2]r"/><note xml:lang="en">blank</note>
-<pb n="[2]v"/><note xml:lang="en">blank</note>
+
+  <pb n="[2]v"/><note xml:lang="en">upside down</note>
+  <milestone n="1" unit="column"/>
+  <seg function="TBC"><lb n="1"/>ṟāmaciṅkaṉ
+<lb n="2"/>ṟāmaciṇṭaṉ
+<lb n="3"/>ṟāmaci<unclear>k=ka</unclear>ṉ
+<lb n="4"/>ṟāmacītaṉ</seg>
+  
+   <milestone n="2" unit="column"/>
+  <seg function="TBC"><lb n="1"/>Appar Ayi
+<lb n="2"/>ceppu yēṭu</seg>
   
 </body></text></TEI>
