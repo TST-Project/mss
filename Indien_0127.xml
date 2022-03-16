@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Medical Treatise</title>
+            
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2022</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Indien 127</idno>
+                  <idno type="alternate"><idno>Tamoul 127</idno></idno>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103590z</idno></msIdentifier>
+               <msContents class="#STM">
+                  <summary>A medical treatise, as indicated by the intertitles, as noted by Vinson (1868). Possibly a composite manuscript by the same copyist, treated here, for the sake of convenience as a multi-text manuscript.</summary>
+                  
+               <msItem synch="#U1" xml:id="T1" defective="true"><title xml:lang="ta"><term xml:lang="en">Medicine Treatise</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="true"><title xml:lang="ta"><term xml:lang="en">Medicine Treatise</term></title><textLang mainLang="tam"/></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="pothi">
+                     <supportDesc material="palm-leaf">
+                        <support>
+                           <measure unit="stringhole" quantity="2"/>
+                           
+                        </support>
+                        <extent>
+                           <measure unit="folio" quantity="31">2 + 29 (U1 + U2).</measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           <width min="300" max="315"/><height min="45" max="50"/></dimensions>
+                        <dimensions type="object" unit="mm"><width quantity="325"/><height quantity="50"/><depth quantity="30"/></dimensions><dimensions type="written" unit="mm"/></extent>
+                        <collation><desc xml:id="cover">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">2 folios = <emph rend="bold">Medical Treatise</emph>. Tamil foliation 25-56. Folios in disorder in the bundle. 7-8 lpp. Another left hole remade left of original left hole so as to accommodate these two folios in the bundle. Left edges recut. 315 x 45 mm.</desc><desc xml:id="U2">29 folios = <emph rend="bold">Medical Treatise</emph>. Tamil foliation 4<unclear>8</unclear>, 56-59, 63, 66, 68-71, 73, 76, 78-82, 85, 94-95, 97-99, 120, 122-123, 127-128. Folios in disorder in the bundle.  7-11 lpp. 300 x 50 mm.</desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>.</desc></collation>
+                        
+                        <condition>Relatively good state of preservation. U2, f127 truncated on both edges.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        
+                     <layout writtenLines="7 11"/></layoutDesc>
+                  </objectDesc>
+                  <handDesc><handNote synch="#U1 #U2" scope="major" script="tamil" medium="incised soot"/></handDesc>
+                  <decoDesc>
+                  </decoDesc>
+                  <additions>
+                  <desc synch="#cover" type="shelfmark" subtype="back cover">BnF shelfmark sticker: <quote>INDIEN 127</quote> (<locus facs="0">back cover, verso</locus>).</desc><desc synch="#U1 #U2" type="intertitle" subtype="marginal left">Left-marginal intertitles (on almost all rectos and versos).</desc></additions>
+                  <bindingDesc>
+                     <binding><p><material resp="#cLI" cert="medium">Mahogany</material> woodcovers apparently fabricated in the BnF. 325 x 50 mm.</p></binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian" notAfter="1809">No internal date. No dated by Vinson (1866-) nor by Cabaton (1912).</origDate>
+                     <origPlace>South India.</origPlace>
+                  </origin>
+                  <provenance><p>Unknown.</p></provenance>
+                  <acquisition><p>Unknown.</p></acquisition>
+               </history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens. Bibliothèque nationale. Département des manuscrits.</title> Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f42">p. 24, no. 127</ref>.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. (1866-). <title>Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f83">f. 34r, no. 127</ref>. </bibl><bibl>Vinson, Julien (1868). <title>Manuscrits tamouls</title>. Proofreadings of the catalogue for Tamoul 1-204 (old shelfmark). Printed by the atelier oriental de l’Imprimerie nationale. BnF “4-IMPROR-77 (B)” — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b105333021/f77">p. 34, no. 127</ref>. — The same proofreadings with black ink handwritten corrections are found in Vinson et al. (1866-, f1-f49). </bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         
+      <p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.      </p></encodingDesc>
+      <revisionDesc>
+         
+      <change when="2022-03">Record created by Emmanuel FRANCIS.</change></revisionDesc>
+   </teiHeader>
+   <facsimile>
+   </facsimile>
+<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+  
+  <pb facs="0" n="25r"/>
+  <milestone unit="left-margin"/>
+  <lb n="1-6"/><seg function="intertitle">Irattacūlaikku kuṉmacūlai</seg>
+
+  <milestone unit="main-text-area"/>
+  <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
+  
+   <pb facs="0" n="26r"/>
+  <milestone unit="left-margin"/>
+  <lb n="1-5"/><seg function="intertitle">kuṉmat=tukku kuṭi nīr</seg>
+  
+  <pb facs="0" n="26v"/>
+  <milestone unit="left-margin"/>
+  <lb n="1-5"/><seg function="intertitle">ku<unclear reason="eccentric_ductus">ṉmat=tu</unclear>kku pari<unclear>ci</unclear>kkiṟatu {pcs}</seg>
+  
+   <milestone unit="main-text-area"/>
+  <lb n="7"/><seg function="explicit"><gap reason="ellipsis"/></seg>
+  
+</body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
+  
+  <pb facs="0" n="4[8]r"/>
+  <milestone unit="left-margin"/>
+  <lb n="1-6"/><seg function="intertitle"><gap reason="ellipsis"/> maruntum kuṭinīrum {pcs}
+</seg>
+
+  <milestone unit="main-text-area"/>
+  <lb n="1"/><seg function="incipit">Ikkuṭinīr kuṭikkum pēr <gap reason="ellipsis"/></seg>
+  
+   <pb facs="0" n="128v"/>
+  <milestone unit="left-margin"/>
+<lb n="1-4"/><seg function="intertitle"><gap reason="ellipsis"/></seg>
+  <lb n="5-8"/><seg function="intertitle"><gap reason="ellipsis"/><note xml:lang="en">unblackened</note></seg>
+    
+   <milestone unit="main-text-area"/>
+  <lb n="11"/><seg function="explicit"><gap reason="ellipsis"/></seg>
+  
+</body></text></TEI>
