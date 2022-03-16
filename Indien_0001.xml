@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader xml:lang="en">
@@ -9,7 +9,7 @@
          
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -17,10 +17,10 @@
                   <repository>
                      <orgName>Bibliothèque nationale de France. Département des Manuscrits.</orgName>
                   </repository>
-                  <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc112191c</idno>
+                  
                   <idno type="shelfmark">Indien 1</idno>
-                  <idno type="alternate"><idno>Tamoul 1</idno></idno>
-               </msIdentifier>
+                  <idno type="alternate"><idno>Tamoul 1</idno><idno>Ariel 141</idno><idno>c/73</idno></idno>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc112191c</idno></msIdentifier>
                
                <msContents class="#STM">
                   <summary><p>The <title xml:lang="ta">Attuvaitāṉupavam</title>, “Experience of Non-Duality” (Sanskrit <emph rend="italic" xml:lang="sa">advaita</emph> + <emph rend="italic" xml:lang="sa">anubhava</emph>), is a philosophical text, of which there seems to exist no printed edition yet. According to the preface <locus facs="7">(f76)</locus> and the final colophon <locus facs="45">(f95)</locus>, the author is <persName xml:lang="ta">Rāmakavi</persName>, disciple of <persName xml:lang="ta">Civarāmakavi</persName> (Sanskrit <persName xml:lang="sa">Śivarāmakavi</persName>), himself disciple of <persName xml:lang="ta">Navamakāleṭcumi Nāraciṅkatēcikar</persName> (Sanskrit <persName xml:lang="sa">Navamahālakṣmī Nārasiṃhadeśika</persName>). In the present manuscript the work consists of 128 stanzas.</p>
@@ -81,7 +81,7 @@
                      
                      
                      
-                  <desc type="blessing" subtype="intertextual marginal"/><desc type="title" subtype="marginal"/><desc type="invocation"/><desc type="intertitle" subtype="marginal"/><desc type="completion-statement documenting-note" subtype="intertextual">In-text chapter completion statement.</desc><desc type="documenting-note" subtype="intertextual">Total chapters, total stanzas, postface.</desc><desc type="intertitle" subtype="marginal">The beginning of each chapter is indicated by an intertitle in the left margin, whereas a completion statement and total stanzas so far (including those of the <term xml:lang="ta">pāyiram</term>) are found at the end of each chapter. Occasionally the title of the next chapter is also given. See, e.g.:
+                  <desc type="blessing" subtype="intertextual marginal"/><desc type="title" subtype="marginal"/><desc type="invocation"/><desc type="intertitle" subtype="marginal"/><desc type="documenting-note completion-statement" subtype="intertextual">In-text chapter completion statement.</desc><desc type="documenting-note" subtype="intertextual">Total chapters, total stanzas, postface.</desc><desc type="intertitle" subtype="marginal">The beginning of each chapter is indicated by an intertitle in the left margin, whereas a completion statement and total stanzas so far (including those of the <term xml:lang="ta">pāyiram</term>) are found at the end of each chapter. Occasionally the title of the next chapter is also given. See, e.g.:
                         <quote xml:lang="ta" rend="block">
                            <list>
                               <item>pāyiram kuruvaṇakkam <locus xml:lang="en" facs="9">(f76r, lm)</locus> &amp; kuruvaṇakkamuttum [<term xml:lang="en">i.e.</term> kuruvaṇakkamuṟṟum] = yippāl atikāralaṭcaṇam = <locus xml:lang="en" facs="10">(f76v1)</locus>
@@ -140,7 +140,7 @@
       <revisionDesc>
          
          <change when="2019-05">This catalogue entry has been redacted by <persName xml:id="eFRANCIS">Emmanuel FRANCIS</persName> (CNRS, CEIAS UMR 8564, EHESS/CNRS) for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG). Version 1, May 2019.</change><change when="2020-04">Revised by <persName xml:id="eFRANCIS">Emmanuel FRANCIS</persName>. Version 2, April 2020.</change><change when="2020-11">Updated and expanded by <persName xml:id="cLI">Charles LI</persName> during conversion from EAD to TEI.</change><change when="2021-05">Revised and updated by <persName xml:id="eFRANCIS">Emmanuel FRANCIS</persName>. Added text transcription and used TEI element "seg" to export paratexts. Version 3, May 2021.</change></revisionDesc>
-   </teiHeader>
+   <xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
    
    <facsimile>
       <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10026582f/manifest.json"/>

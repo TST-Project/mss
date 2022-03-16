@@ -1,15 +1,15 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader xml:lang="en">
       <fileDesc>
          <titleStmt>
-            <title><title xml:lang="ta">Caivam Nāṅku</title>, “Four Śaiva works”</title>
+            <title>Collection<title xml:lang="ta">Caivam Nāṅku</title>, “Four Śaiva works”</title>
          <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -17,10 +17,10 @@
                   <repository>
                      <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
                   </repository>
-                  <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103407h</idno>
+                  
                   <idno type="shelfmark">Indien 30</idno>
-                  <idno type="alternate"><idno>Tamoul 30</idno></idno>
-               </msIdentifier>
+                  <idno type="alternate"><idno>Tamoul 30</idno><idno>Ariel 127</idno><idno>c/45</idno></idno>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103407h</idno></msIdentifier>
                <msContents class="#CM">
                   <summary><p>This palm-leaf bundle, a composite manuscript contains between the two woodcovers:
                       <list rend="numbered">
@@ -86,7 +86,7 @@
       <p><p><emph rend="bold">Transliteration conventions</emph></p>  <p>Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only).</p>  <p><emph rend="bold">Abbreviations</emph></p>  <p> c = column, f = folio, lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.</p>     </p></encodingDesc>
       <revisionDesc>
       <change when="2020-05">This catalogue entry has been redacted by Emmanuel FRANCIS (CNRS, CEIAS UMR 8564, EHESS/CNRS) for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG). Version 1, May 2020. </change><change when="2020-11">Converted from EAD to TEI by Charles LI.</change><change when="2021-06">Updated to TST encoding conventions by Emmanuel FRANCIS.</change></revisionDesc>
-   </teiHeader>
+   <xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
    
    <facsimile>
       <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b100926671/manifest.json"/>

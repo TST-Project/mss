@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader xml:lang="en">
@@ -9,7 +9,7 @@
          
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -17,10 +17,10 @@
                   <repository>
                      <orgName>Bibliothèque nationale de France. Département des Manuscrits.</orgName>
                   </repository>
-                  <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc101266x</idno>
+                  
                   <idno type="shelfmark">Indien 3</idno>
-                  <idno type="alternate"><idno>Tamoul 3</idno></idno>
-               </msIdentifier>
+                  <idno type="alternate"><idno>Tamoul 3</idno><idno>Ariel 35</idno><idno>c/37</idno></idno>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc101266x</idno></msIdentifier>
                <msContents class="#STM">
                   <summary>Kēṭariyammaṉ Viratam</summary>
                   
@@ -58,7 +58,7 @@
                   <handDesc>
                      
                      
-                  <handNote synch="#U1" scope="minor" scribeRef="#ArielTitleScribe" script="tamil" medium="incised"><desc>Hand #1.</desc></handNote><handNote synch="#U2a U2b U2c" scope="major" script="tamil" medium="incised"><desc>Hand #2. One hand only. 4 to 5 lines per page.</desc></handNote></handDesc>
+                  <handNote synch="#U1" scope="minor" scribeRef="#ArielTitleScribe" script="tamil" medium="incised"><desc>Hand #1.</desc></handNote><handNote synch="#U2a #U2b #U2c" scope="major" script="tamil" medium="incised"><desc>Hand #2. One hand only. 4 to 5 lines per page.</desc></handNote></handDesc>
                   <additions>
                      
                     
@@ -106,7 +106,7 @@
       <revisionDesc>
          
       <change when="2020-07">This catalogue entry has been redacted by Emmanuel FRANCIS (CNRS, CEIAS UMR 8564, EHESS/CNRS) for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG). Version 1, July 2020. </change><change when="2021-06">Updated to TST encoding conventions by Emmanuel FRANCIS.</change></revisionDesc>
-   </teiHeader>
+   <xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
    <facsimile>
       <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b105271047/manifest.json"/>
    </facsimile>   
