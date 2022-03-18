@@ -21,10 +21,10 @@
                   <idno type="alternate"><idno>Tamoul 341</idno><idno>Ariel 146</idno><idno>c/72</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1038682</idno></msIdentifier>
                <msContents class="#MTM">
-                  <summary>A multi-text manuscript containing:
+                  <summary>A multi-text manuscript containing four poems praising a form of the Goddess:
 <list rend="numbered">
-  <item>the <title xml:lang="ta">Aṭaikkalappattu</title> (U2)</item>
-  <item>the <title xml:lang="ta">Putuccēriyammaṉ Pēril Viruttam</title> (U3a)</item>
+  <item>the <title xml:lang="ta">Māriyammaṉ Aṭaikkalappattu</title> (U2)</item>
+  <item>the <title xml:lang="ta">Putuccēriyammaṉ Pēril Viruttam</title> (U3a) in 10 stanzas</item>
   <item>the <title xml:lang="ta">Māriyammaṉ Tōttiram</title> (U3b)</item>
   <item>the <title xml:lang="ta">Māriyammaṉ Pēril Vaṟṉṉippu</title> (U3c)</item>
 </list>
@@ -34,7 +34,7 @@
 
          </summary>
                   
-               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page (additional)</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="true"><title xml:lang="ta">Aṭaikkalappattu: Mūlam</title><textLang mainLang="tam"/></msItem><msItem synch="#U3a" xml:id="T3" defective="false"><title xml:lang="ta">Putuccēriyammaṉ Pēril Viruttam</title><textLang mainLang="tam"/></msItem><msItem synch="#U3b" xml:id="T4" defective="false"><title>Māriyammaṉ Tōttiram: Mūlam</title></msItem><msItem synch="#U3c" xml:id="T5" defective="false"><title xml:lang="ta">Māriyammaṉ Pēril Vaṟṉṉippu: Mūlam</title><textLang mainLang="tam"/></msItem></msContents>
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page (additional)</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="true"><title xml:lang="ta">Māriyammaṉ Aṭaikkalappattu: Mūlam</title><textLang mainLang="tam"/></msItem><msItem synch="#U3a" xml:id="T3" defective="false"><title xml:lang="ta">Putuccēriyammaṉ Pēril Viruttam: Mūlam</title><textLang mainLang="tam"/></msItem><msItem synch="#U3b" xml:id="T4" defective="false"><title>Māriyammaṉ Tōttiram: Mūlam</title></msItem><msItem synch="#U3c" xml:id="T5" defective="false"><title xml:lang="ta">Māriyammaṉ Pēril Vaṟṉṉippu: Mūlam</title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
@@ -47,7 +47,7 @@
                         <dimensions type="object" unit="mm"><width quantity="245"/><height quantity="30"/><depth quantity="35"/></dimensions><dimensions type="written" unit="mm"/></extent>
                         
                         <condition>Relatively good state of preservation, despite many boreholes. </condition>
-                     <collation><desc xml:id="cover">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">Title Page (additional)</emph>. No foliation. Double folio. Verso blank.</desc><desc xml:id="U2">4 folios = <emph rend="bold"><term xml:lang="ta">Aṭaikkalappattu</term>: Text</emph>. Tamil foliation 1-4.</desc><desc xml:id="U3">28 folios. Tamil foliation 1-28.</desc><desc xml:id="U3a"/><desc xml:id="U3b"/><desc xml:id="cover">the <emph rend="bold">back cover</emph>.</desc><desc xml:id="U3c"/></collation><support/></supportDesc>
+                     <collation><desc xml:id="cover">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">Title Page (additional)</emph>. No foliation. Double folio. Verso blank.</desc><desc xml:id="U2">4 folios = <emph rend="bold"><term xml:lang="ta">Māriyammaṉ Aṭaikkalappattu</term>: Text</emph>. Tamil foliation 1-4.</desc><desc xml:id="U3">28 folios. Tamil foliation 1-28.</desc><desc xml:id="U3a">5 folios = <emph rend="bold"><term xml:lang="ta">Putuccēriyammaṉ Pēril Viruttam</term>: Text</emph>. Tamil foliation 1-5.</desc><desc xml:id="U3b">2 folios = <emph rend="bold"><term xml:lang="ta">Māriyammaṉ Tōttiram</term>: Text</emph>. Tamil foliation 6-7.</desc><desc xml:id="U3c">21 folios = <emph rend="bold"><term xml:lang="ta">Māriyammaṉ Pēril Vaṟṉṉippu</term>: Text</emph>. Tamil foliation 8-28. f28v blank.</desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>.</desc></collation><support/></supportDesc>
                      <layoutDesc>
                         
                      </layoutDesc>
@@ -93,10 +93,15 @@
   <lb n="1-3"/><seg function="blessing">veṟṟivēl uṟṟa tuṇai</seg>
   
   <milestone n="2" unit="column"/>
-   <lb n="1-2"/>
+   <lb n="1-2"/><seg function="title">tōttiram nāṅku</seg>
   
   <milestone n="3" unit="column"/>
-  <lb n="1"/>
+  <lb n="1"/><seg function="title">māriyammaṉ
+<lb n="2"/>Aṭaikkalappattu</seg>
+<lb n="3"/><seg function="title">viruttam</seg>
+<lb n="4"/><seg function="title">tōttiram</seg>
+<lb n="5"/><seg function="title">varṇṇai</seg>
+
            
       <pb facs="0" n="[1]v"/><note xml:lang="en">blank</note>
 
@@ -113,5 +118,49 @@
   
      <pb facs="0" n="4r"/>
   
-  <lb n="4"/><seg function="explicit"><gap reason="ellipsis"/></seg>
-  </body></text></TEI>
+  <lb n="4"/><seg function="explicit"><gap reason="ellipsis"/> kalamē</seg>
+  </body></text><text synch="#U3a" corresp="#T3" xml:lang="ta"><body>
+  
+  <pb facs="0" n="1r"/>
+  
+  <milestone unit="left-margin"/>
+  <lb n="1-3"/><seg function="title">putuccēriyammaṉ pēril viruttam</seg>
+  
+   <milestone unit="main-text-area"/>
+  <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
+  
+     <pb facs="0" n="5v"/>
+  
+  <lb n="4"/><seg function="explicit"><gap reason="ellipsis"/> lōkaṉāyakiyē {pcs} 10 =</seg>
+  </body></text><text synch="#U3b" corresp="#T4"><body>
+  
+  <pb facs="0" n="6r"/>
+  
+  <milestone unit="left-margin"/>
+  <lb n="1-4"/><seg function="title"><unclear reason="consonant_unclear">mā</unclear>riyammaṉ tōttiram</seg>
+  
+   <milestone unit="main-text-area"/>
+  <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
+  <lb n="2-3"/><gap reason="ellipsis"/>
+  <lb n="4"/><seg function="blessing">viṉā<supplied reason="lost">ya</supplied>kapātam namas·tu</seg>
+  
+     <pb facs="0" n="7v"/>
+  
+  <lb n="4"/><seg function="explicit"><gap reason="ellipsis"/> katai</seg>
+  </body></text><text synch="#U3c" corresp="#T5" xml:lang="ta"><body>
+  
+  <pb facs="0" n="8r"/>
+  
+  <milestone unit="left-margin"/>
+  <lb n="1-5"/><seg function="title">māriyammaṉ pēril vaṟṉṉippu</seg>
+  
+   <milestone unit="main-text-area"/>
+  <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
+  
+       <pb facs="0" n="28r"/>
+  
+  <lb n="2"/><seg function="explicit"><gap reason="ellipsis"/> ṉ eṉṟu collātē</seg>
+  </body>
+
+      <pb facs="0" n="28v"/><note xml:lang="en">blank</note>
+</text></TEI>
