@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Collection (2 items, 2 works)</title>
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2022</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Indien 449</idno>
+                  <idno type="alternate"><idno>Tamoul 449</idno></idno>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103978h</idno></msIdentifier>
+               <msContents class="#CM">
+                  <summary>A composite manuscript containing:
+<list rend="numbered">
+  <item>TBC (449a)</item>
+  <item>TBC (449b)</item>
+</list>
+</summary>
+                  
+               </msContents>
+               <physDesc>
+                  <objectDesc form="pothi">
+                     <supportDesc material="palm-leaf">
+                        <extent>
+                           <measure unit="folio" quantity="8">7 + 1 (449a + 449b).</measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           <width min="415" max="460"/><height min="25" max="30"/></dimensions>
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
+                        
+                        
+                     <collation>
+                     
+                     <desc xml:id="cover">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="449a">7 folios. </desc><desc xml:id="449b">1 folio.
+</desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>. </desc></collation><condition>Relatively good state of preservation, despite some cracked, truncated leaves.</condition><support><measure unit="stringhole" quantity="1"/></support></supportDesc>
+                     <layoutDesc>
+                        
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     
+                  <handNote synch="#449a" scope="major" script="tamil" medium="incised"/><handNote synch="#449b" script="tamil" medium="incised"/></handDesc>
+                  <additions><desc synch="#cover" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 449</quote> (<locus facs="0">front cover, recto</locus>). </desc><desc synch="#449a" type="shelfmark">Shelfmark in black ink: <quote>N° 18</quote> (<locus facs="0">f[1]r</locus>). This is the number in Velanguani Arokium' catalogue (<ref target="https://gallica.bnf.fr/ark:/12148/btv1b10527869m/f15">f. 3r, nos. 8, 18, 19</ref>).</desc></additions>
+                  <bindingDesc>
+                     <binding>
+                        <p><material>Wood</material> covers apparently fabricated in the BnF.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian" notAfter="1855">449a internally dated to the year <foreign xml:lang="ta">viṣu</foreign> of the Jovian cycle, that is, CE 1821-1822, 1761-1762, 1701-1702, etc. See colophon (449a, U1b, f[7]r, c2, 1). Not dated by Vinson in Vinson et al. (1866-) nor by Cabaton (1912).</origDate>
+                     <origPlace>Tamilnadu.</origPlace>
+                  </origin>
+                  <acquisition>
+                     
+                  <p>Unknown.</p></acquisition>
+               <provenance><p>Unknown.</p></provenance></history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f82">p. 64, no. 449</ref>.</bibl><bibl>Velanguani Arokium (<term xml:lang="ta">Vēḷāṅkaṇṇi Ārōkkiyam</term>). (1845). <title>Catalogue des manuscrits tamouls de la Bibliothèque royale</title>. Manuscript, BnF NAF 5443. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b10527869m/f15">f. 3r, nos. 8, 18, 19</ref>.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. (1866-). <title> Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f219">f. 102r, no. <del>417</del> 449</ref>. </bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         
+      <change when="2022-03">Record created by Emmanuel FRANCIS.</change></revisionDesc>
+   <encodingDesc><p>TBC</p></encodingDesc></teiHeader>
+   
+<facsimile/></TEI>
