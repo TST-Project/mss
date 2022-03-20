@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title><title xml:lang="ta">Iraṅkēcaveṇpā</title> (with commentary)</title>
+            <title><title xml:lang="ta">Iraṅkēcaveṇpā</title> (text &amp; commentary)</title>
          <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          
          <publicationStmt>
@@ -21,10 +21,10 @@
                   <idno type="alternate"><idno>Tamoul 366</idno><idno>Ariel 2</idno><idno>c/41</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103893d</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary>The <title xml:lang="ta">Iraṅkēcaveṇpā</title> (with commentary).
+                  <summary>The <title xml:lang="ta">Iraṅkēcaveṇpā</title>: text &amp; commentary. Incomplete copy (stops at stanza 51).
 </summary>
                   
-               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page (additional)</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2a" xml:id="T2" defective="true"><title xml:lang="ta">Iraṅkēcaveṇpā: <term xml:lang="en">Date &amp; Instruction to user</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2b" xml:id="T3" defective="false"><title xml:lang="ta">Iraṅkēcaveṇpā: <term xml:lang="en">Invocation</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2c" xml:id="T4" defective="false"><title>Iraṅkēcaveṇpā: Mūlam &amp; Urai</title></msItem></msContents>
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page (additional)</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2a" xml:id="T2" defective="true"><title xml:lang="ta">Iraṅkēcaveṇpā: <term xml:lang="en">Date &amp; Instruction to user</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2b" xml:id="T3" defective="false"><title xml:lang="ta">Iraṅkēcaveṇpā: Kāppu</title><textLang mainLang="tam"/></msItem><msItem synch="#U2c" xml:id="T4" defective="true"><title xml:lang="ta">Iraṅkēcaveṇpā: Mūlam &amp; Urai</title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
@@ -33,8 +33,8 @@
                            <dimensions type="leaf" unit="mm">
                               
                               
-                           </dimensions>
-                        <dimensions type="object" unit="mm"><depth quantity="40"/></dimensions><dimensions type="written" unit="mm"/></extent>
+                           <width min="590" max="595"/><height min="25" max="30"/></dimensions>
+                        <dimensions type="object" unit="mm"><depth quantity="40"/><width quantity="595"/><height quantity="30"/></dimensions><dimensions type="written" unit="mm"/></extent>
                         
                         
                      <collation>
@@ -51,7 +51,7 @@
                   <bindingDesc>
                      <binding>
                         
-                     <p><material resp="#cLI" cert="medium">Mahogany</material> woodcovers apparently fabricated in the BnF.</p></binding>
+                     <p><material resp="#cLI" cert="medium">Mahogany</material> woodcovers apparently fabricated in the BnF. 595 x 30 mm.</p></binding>
                   </bindingDesc>
                <decoDesc/></physDesc>
                <history>
@@ -80,10 +80,10 @@
   
   <pb facs="0" n="[1]r"/>
   <milestone n="1" unit="column"/>
-  <lb n="1"/>
+  <lb n="1-2"/><seg function="blessing">verrivēl uṟṟa tuṇai</seg>
   
   <milestone n="2" unit="column"/>
-  <lb n="1"/>
+  <lb n="1-3"/><seg function="title">Iraṅkēcaveṇpā Urai</seg>
   
 <pb facs="0" n="[1]v"/><note xml:lang="en">blank</note>
   
@@ -92,50 +92,80 @@
   <pb facs="0" n="[1]r"/>
   
   <milestone n="1" unit="left-margin"/>
-  <lb n="1"/>  
+  <lb n="1"/><seg function="blessing">kaḷivāṇi namas·tu {pcl}</seg>
   
   <milestone n="2" unit="left-margin"/>
-  <lb n="1"/>  
+  <lb n="1"/><seg function="blessing"><gap reason="illegible" quantity="2" unit="character"/> namas·tu {pcs}</seg>
+<lb n="2"/><seg function="blessing">kaḷivāṇi namas·tu={pcl}</seg>
   
   <milestone n="1" unit="column"/>
-  <lb n="1"/>
+  <lb n="1"/>vicuvāvicu {varuṣam} piṟaṭṭāci {mācam} <unclear>8</unclear> {tēti}
+<lb n="2"/><placeName xml:lang="ta" key="Pondicherry">putuvai</placeName>yil iruk=kum – <persName xml:lang="ta" role="reciter">vāttiyār
+<lb n="3"/>rā=macāmi ṉāyakkar</persName> vācikkāniṉṟa
+<lb n="4"/><title xml:lang="ta">Araṅkēcaveṇpā</title> y<pc>-</pc>eṭuttavar
+<lb n="5" break="no"/>kaḷ vācittup pāttuk kuṭuttu vi
   
-  <milestone n="2" unit="column"/>
-  <lb n="1"/>
-  
-  <milestone n="3" unit="column"/>
-  <lb n="1"/>
+  <milestone n="2" unit="column" break="no"/>
+  <lb n="1"/>ṭa vēṇṭiyatu ku<gap reason="illegible" quantity="1" unit="character"/>ṭāviṭṭāl
+<lb n="2"/>Avarkaḷukku paḷḷikkuṭattil paḷ
+<lb n="3" break="no"/>ḷikuṭattup piḷḷaikaḷ aṟiya Avaṉai
+<lb n="4"/>piṭittu maṟattilē piṉ caṭṭu mā
+<lb n="5" break="no"/>raiyāy kaṭṭi vai<sic>ṟṟu</sic> Aṉpatu A
+
+    <milestone n="3" unit="column" break="no"/>
+  <lb n="1"/>ṭi Aṭikkuṟatu y<pc>-</pc>itu yāvarkaḷum
+<lb n="2"/>maṟiyum paṭiyāy ceytu vaippēṉ
+<lb n="3"/><seg function="blessing">civakiṭāṣcam v<pc>-</pc>uṇṭāka vēṇti
+<lb n="4" break="no"/>yatu {pcs}</seg> <seg function="blessing">śrīrā=maceya=M={pcs}</seg> <seg function="blessing">nāṟāyaṇacuvā
+<lb n="5" break="no"/>mi tuṇai y<pc>-</pc>uṇṭākavum</seg>
    
   <pb facs="0" n="[1]v"/><note xml:lang="en">blank</note>
   
 </body></text><text synch="#U2b" corresp="#T3" xml:lang="ta"><body>
   
-  <pb facs="9" n="1r"/>
-  
-  <lb n="1"/><seg function="incipit">vaṭiṉēṉ <gap reason="ellipsis"/></seg>
-  
-  <pb facs="1" n="119r"/>
-  
-  <lb n="4"/><seg function="explicit"><gap reason="ellipsis"/> <lg><l>paḻaviṉaiyai mutalariya vallār tāmē</l></lg> {pcs}  
-  <lb n="5"/>3 10 {pcs}</seg> <seg function="TBC">miṉ ~ pār ~ tiruvaṭi ~ yintiraṉ ~ <gap reason="ellipsis"/>
-<lb n="6"/>kār ~ <gap reason="ellipsis"/> ~ miṉṉumā ~ vaiyyam {pcs}</seg> <seg function="blessing">śrī-rāma-ceyam {pcs} {pcs} {pcs}</seg>
-    
-  <pb facs="248" n="119v"/><note xml:lang="en">blank</note>
-
-     
-</body></text><text synch="#U2c" corresp="#T4"><body>
-  
   <pb facs="0" n="[1]r"/>
   
   <milestone n="1" unit="left-margin"/>
-  <lb n="1"/>  
-  
-  <milestone n="2" unit="left-margin"/>
-  <lb n="1"/>  
-  
+  <lb n="1"/><seg function="blessing"><term xml:lang="sa">hari Om</term></seg>
+<lb n="2"/><seg function="blessing">naṉṟāka</seg>
+<lb n="3"/><seg function="blessing">kuru vāḻka</seg>                                                 
+<lb n="4"/><seg function="blessing">kuruvē tuṇai</seg>
+ 
+    <milestone n="2" unit="left-margin"/>
+  <lb n="1"/><seg function="title">Araṅkēcaveṇpā</seg>
+<lb n="2-3"/><seg function="blessing">śrīṟaṅkaṉāyakar tuṇai y<pc>-</pc>uṇṭāka vēṇṭiyatu</seg>
+ 
+  <milestone n="3" unit="left-margin"/>
+  <lb n="1-3"/><seg function="blessing">kalaivāṇi namas·tu {pcs}</seg> <seg function="blessing">tuṇai y<pc>-</pc>uṇṭākavum</seg>
+
   <milestone unit="main-text-area"/>
-  <lb n="1"/>
+  <lb n="1"/><seg function="satellite-stanza"><lg><l>cīrkoṇṭa kāvēricūḻ teṉṉaṟaṅkat temperumaṉ ~</l> <l>pārkoṇṭat tāḷaip paraviyē ~cīrkoṇṭa</l>
+<lb n="2"/><l>Oṅkupukaḻ vaḷḷuvaṉār rōtukuṟaṉ muṟakkataiyāṟ</l> <l>paraṅku peṟac colvēṉ parintu</l></lg> {pcs}</seg> <seg function="intertitle">kāppu {pcs}</seg> <seg function="completion-statement">muttum {pcs}</seg> <seg function="blessing">kalai 
+
+   <milestone n="3" unit="right-margin" break="no"/>
+  <lb n="1-2"/>vāṇi namas·tu {pcs}</seg>
    
+  <pb facs="0" n="[1]v"/>
+  
+</body></text><text synch="#U2c" corresp="#T4" xml:lang="ta"><body>
+  
+  <pb facs="0" n="1r"/>
+  
+  <milestone n="1" unit="left-margin"/>
+  <lb n="1-2"/><seg function="blessing">naṉṟāka</seg>
+ 
+    <milestone n="2" unit="left-margin"/>
+  <lb n="1-2"/><seg function="intertitle">vāṉaciṟappu</seg>
+   
+  <milestone unit="main-text-area"/>
+  <lb n="1"/><seg function="incipit" type="root-text"><lg><l>coṉṉa kampat tēmaṭaṅkat tōṇṭutalā laṉparuḷat~</l> <l><gap reason="ellipsis"/></l> <l><gap reason="ellipsis"/></l> <l><gap reason="ellipsis"/></l></lg> {pcs}</seg> <seg function="incipit" type="commentary">Eṉṟa<choice><sic>ṟu</sic><corr>tu</corr></choice> {pcs} <gap reason="ellipsis"/></seg>
+  
+   <pb facs="0" n="2r"/>  
+  <milestone n="1" unit="left-margin"/>
+  <lb n="1-2"/><seg function="blessing">naṉṟāka</seg>
+  
   <pb facs="0" n="29v"/>
+    <lb n="5"/><seg function="explicit" type="commentary"><gap reason="ellipsis"/>t<pc>’</pc> eṉṟa v<pc>-</pc>āṟu {pcs} 51 {pcs}</seg> <seg function="TBC">terintu viḷaiyāṭal {pcs}</seg>
+
   
 </body></text></TEI>
