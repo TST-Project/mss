@@ -19,7 +19,7 @@
                   </repository>
                   <idno type="shelfmark">Sanscrit 773</idno>
                   <idno type="alternate"><idno>Sanscrit Grantha 18</idno><idno>Burnouf 60</idno></idno>
-               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc97811v</idno></msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc97811v</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b10082728w</idno></msIdentifier>
                <msContents class="#STM">
                   <summary>The <title xml:lang="sa">Pañcatantra</title>.</summary>
                   
@@ -50,12 +50,12 @@
                   <decoDesc>
                   </decoDesc>
                   <additions>
-                  <desc synch="#cover" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>SANSCRIT 773</quote> (<locus facs="0">front cover, recto</locus>).</desc><desc synch="#cover" type="documenting-note">Sticker with note by Burnouf in black ink: <quote xml:lang="fr"><lb n="1"/>Pantchatantra
+                  <desc synch="#cover" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>SANSCRIT 773</quote> (<locus facs="0">front cover, recto</locus>).</desc><desc synch="#U1" type="documenting-note">Sticker with note by Burnouf in black ink: <quote xml:lang="fr"><lb n="1"/>Pantchatantra
 <lb n="2"/>En sanscrit et en caractères tamouls.
 <lb n="3"/>ms. très lisiblement écrit d'un ouvrage
 <lb n="4"/>dont la célébrité est connue, et dont je
 <lb n="5"/>ne crois pas qu'il existe un second
-<lb n="6"/>exemplaire en France.</quote> (<locus facs="0">front cover, verso</locus>). <quote xml:lang="fr">Burn. 60.</quote> added in black ink right of line 1. <quote xml:lang="fr">[Note d'Eug. Burnouf]</quote> added in black ink right of line 6. The same description is found in S.n. (1854), <title>Catalogue des livres imprimés et manuscrits composant la bibliothèque de feu M. Eugène Burnouf</title>, <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k5804580x/f337">p. 327, no. 60</ref>.</desc><desc synch="#cover" type="shelfmark" subtype="back cover front">Tamil letter: <quote xml:lang="ta">U</quote> (<locus facs="0">front cover, verso</locus> and <locus facs="0">back cover, verso</locus>).</desc></additions>
+<lb n="6"/>exemplaire en France.</quote> (<locus facs="0">f1rv</locus>). <quote xml:lang="fr">Burn. 60.</quote> added in black ink right of line 1. <quote xml:lang="fr">[Note d'Eug. Burnouf]</quote> added in black ink right of line 6. The same description is found in S.n. (1854), <title>Catalogue des livres imprimés et manuscrits composant la bibliothèque de feu M. Eugène Burnouf</title>, <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k5804580x/f337">p. 327, no. 60</ref>.</desc><desc synch="#cover" type="shelfmark" subtype="back cover front">Tamil letter: <quote xml:lang="ta">U</quote> (<locus facs="0">front cover, verso</locus> and <locus facs="0">back cover, verso</locus>).</desc></additions>
                   <bindingDesc>
                      <binding><p>Original <material>ebony</material> covers. 295 x 30 mm.</p></binding>
                   </bindingDesc>
@@ -93,12 +93,16 @@
   <lb n="1-2"/><seg function="blessing">hariḥ Om·</seg>
   
   <milestone unit="main-text-area"/>
-  <lb n="1"/><seg function="incipit">manave</seg> <gap reason="ellipsis"/> 
+  <lb n="1"/><seg function="incipit">manave vācaspataye śukrāya parāśarāya sasutāya | cāṇakyāya ca namo 'stu nīti
+<lb n="2" break="no"/>śāstrakarttṛbhyaḥ</seg> <gap reason="ellipsis"/> 
   
   <pb facs="0" n="142v"/>
-  <lb n="5"/>
+  <lb n="5"/><seg function="explicit"><gap reason="ellipsis"/> kāriṇaṃ guṇalabdhās vayam eva saṃvadaḥ | {pcl}</seg>
   
   <pb facs="0" n="143r"/>
-  <lb n="1"/>
+  <seg function="colophon"><lb n="1"/><seg function="completion-statement">Iti pañcatantre Asamīkṣya-kāriṇan-nāma pañcamatantraṃ samāptaṃ |</seg>
+<lb n="2"/><seg function="blessing">hariḥ Om· ~</seg> <seg function="blessing">śubham astu |</seg> <seg function="TBC">karakṛtam aparādham kṣantum arhanti
+<lb n="3"/>santaḥ | {pcl}</seg> nandana-saṃvatsaraṃ mithuna-māsaṃ ~ 10 6 <g ref="#teti"/> ~ pañcatantraṃ samāptaṃ |</seg>
+
 
     </body></text></TEI>
