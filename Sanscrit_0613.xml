@@ -50,7 +50,7 @@
                   <decoDesc>
                   </decoDesc>
                   <additions>
-                  <desc synch="#cover" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>SANSCRIT 613</quote> (<locus facs="0">front cover, recto</locus>). </desc><desc synch="#cover" type="shelfmark" subtype="cover front">Tamil letter <quote xml:lang="ta">Ō</quote> engraved (<locus facs="0">front cover, verso</locus> and <locus facs="0">back cover, recto</locus>).</desc></additions>
+                  <desc synch="#cover" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>SANSCRIT 613</quote> (<locus facs="4">front cover, recto</locus>). </desc><desc synch="#cover" type="shelfmark" subtype="cover front">Tamil letter <quote xml:lang="ta">Ō</quote> engraved (<locus facs="7">front cover, verso</locus> and <locus facs="8">back cover, recto</locus>).</desc></additions>
                   <bindingDesc>
                      <binding><p>Original <material>ebony</material> covers. 295 x 30 mm.</p></binding>
                   </bindingDesc>
@@ -77,63 +77,80 @@
       <revisionDesc>
          
       <change when="2022-03">Record created by Emmanuel FRANCIS.</change></revisionDesc>
-   </teiHeader>
+   <xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
    <facsimile>
-   </facsimile>
+   <graphic url="https://didomena.ehess.fr/concern/data_sets/z890s144p/manifest.json"/></facsimile>
 <text synch="#U2" corresp="#T1" xml:lang="sa"><body>
   
-  <pb facs="00" n="1r"/>
+  <pb facs="10" n="1r"/>
   
   <milestone unit="left-margin"/>
    <lb n="1-2"/><seg function="blessing">hariḥ Om·</seg>
   
-  <milestone n="1" unit="column"/>
+  <milestone facs="11" n="1" unit="column"/>
   <lb n="1"/><seg function="incipit">svaḥ ~ Avyayaṃ ~ svargaḥ
 <lb n="2"/>nākāḥ ~ tridivaḥ ~
 <lb n="3"/>tradaśālayāḥ ~</seg>
-<lb n="4"/><gap reason="ellipsis"/>
+<lb n="4"/>suralokaḥ ~ 
+<lb n="5"/>dyauḥ ~ dyauḥ ~ dve
+
+  <milestone facs="12" n="2" unit="column"/>
+  <lb n="1-5"/><gap reason="ellipsis"/>
     
-  <pb facs="00" n="48v"/>
-  <milestone n="2" unit="column"/>
-  <lb n="1"/>
-    <milestone n="3" unit="column"/>
+  <milestone facs="13" n="2" unit="column"/>
+  <lb n="1-5"/><gap reason="ellipsis"/>
+  
+  <pb facs="16" n="48v"/>
+  
+   <milestone facs="17" n="1" unit="column"/>
+  <lb n="1-5"/><gap reason="ellipsis"/>
+  
+  <milestone facs="18" n="2" unit="column"/>
+  <lb n="1"/>yāṉatu collappaṭu<add place="above">va</add>t<pc>’</pc> eṉṟa v<pc>-</pc>āṟu ~
+<lb n="2"/><seg function="completion-statement">Ity amarasiṃhakṛtau ~ nāmaliṃgānu ~
+<lb n="3" break="no"/>śāsane ~ svarādiḥ ~ prathamaḥ | kāṇḍaḥ ~
+<lb n="4"/><subst>s<del>a</del><add>ā</add></subst>ṃgaḥ ~ Eva ~ samu <gap reason="ellipsis"/> taḥ ~
+<lb n="51"/>prathamaḥ ~ kāṇdhas samāptaḥ | {pcl}</seg>
+
+  
+  <milestone facs="19" n="3" unit="column"/>
   <lb n="1"/>
   
-  <pb facs="00" n="49r"/>
+  <pb facs="20" n="49r"/>
   <milestone unit="left-margin"/>
    <lb n="1-2"/><seg function="blessing">hariḥ Om· ~</seg>
   
-  <pb facs="00" n="173v"/>
-  <milestone n="1" unit="column"/>
+  <pb facs="25" n="173v"/>
+  <milestone facs="26" n="1" unit="column"/>
   <lb n="4"/>
   <lb n="5"/>
   
-  <milestone n="2" unit="column"/>
+  <milestone facs="27" n="2" unit="column"/>
   <lb n="1"/>
   
-  <milestone n="3" unit="column"/>
+  <milestone facs="28" n="3" unit="column"/>
   <lb n="1"/>
   
-  <pb facs="00" n="174r"/>
-  <milestone unit="left-margin"/>
+  <pb facs="24" n="174r"/>
+  <milestone facs="29" unit="left-margin"/>
    <lb n="1-2"/><seg function="blessing">hariḥ Om·</seg>
   
-  <pb facs="00" n="266v"/>
+  <pb facs="33" n="266v"/>
   
-  <milestone n="2" unit="column"/>
+  <milestone facs="35" n="2" unit="column"/>
   <lb n="1"/>
   
-  <milestone n="3" unit="column"/>
+  <milestone facs="36" n="3" unit="column"/>
   <lb n="1"/>
   
-  <pb facs="00" n="267rv"/>
-  <milestone n="1" unit="column"/>
+  <pb facs="32" n="267r"/>
+  <milestone facs="37" n="1" unit="column"/>
   <lb n="1"/>
   
-  <milestone n="2" unit="column"/>
+  <milestone facs="38" n="2" unit="column"/>
   <lb n="1"/>
   
-  <milestone n="3" unit="column"/>
+  <milestone facs="39" n="3" unit="column"/>
   <lb n="1"/>
   
     <pb facs="00" n="267v"/><note xml:lang="en">blank</note>
