@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><title xml:lang="sa">Buddhāmnāya</title></title>
+            
+         <editor><persName>Charles LI</persName><orgName>CNRS, CIAS, UMR 8564</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2022</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Sanscrit 165</idno>
+                  <idno type="alternate"><idno>Sanscrit Dévanagari 285</idno></idno>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc969536</idno></msIdentifier>
+               <msContents class="#STM">
+                  <summary><p>This manuscript contains a diagram of a <term xml:lang="sa">Mahāyāna</term> Buddhist pantheon, beginning with the <term xml:lang="sa">ekāmnāya</term> at the top, consisting of <term xml:lang="sa">Upāya</term>, <term xml:lang="sa">Ādibuddha</term>, and <term xml:lang="sa">Mahāvairocana</term>, followed by the <term xml:lang="sa">ekāmnāyī</term>, consisting of <term xml:lang="sa">Prajñā</term> and <term xml:lang="sa">Prajñāpāramitā</term>. It concludes with the <term xml:lang="sa">navāmnāya</term>, listing the nine principle disciples. The names are contained in circles, in a hierarchical structure resembling a pagoda of 35 levels.</p>
+<p>Below each level there are verses in <term xml:lang="sa">anuṣṭubh</term> metre, either a <term xml:lang="sa">stotra</term> or a mnemonic relating to the names of that level. There is occasionally a commentary on the verses, written to the left and right of the diagram, resembling a vertical version of a <term xml:lang="sa">tripāṭha</term> layout. Labels for each level are also given in the left and right margins (only levels 1-15 are given a label in the left margin).</p>
+<p>The diagram corresponds exactly to the one published by Brian Houghton Hodgson in 1835. His diagram seems to have been based on a Nepalese manuscript now preseved at the British Library (IO 7728), the incipit of which contains the same verse and commentary as this manuscript. Hodgson's manuscript has the title <q xml:lang="sa">Buddhāmnāyānāṃ patrāṇi</q>, and a note in his hand dates it to June 1827.</p></summary>
+                  
+               <msItem defective="false"><title xml:lang="sa">Buddhāmnāya</title><textLang mainLang="san"/><filiation><p>IO 7728, 7729, 7782 (1), 7808 (2), 7809.</p></filiation><rubric xml:lang="sa">oṁ namo ratnatrayāya ||</rubric><incipit xml:lang="sa">niraṃjanaṃ nirākāraṃ nirādhāraṃ nirāmayaṃ || nirvikalpaṃ nirākāśaṃ nityānityaṃ namāmy ahaṃ || 1 ||</incipit><incipit xml:lang="sa"><milestone unit="left-side"/>niraṃjanam iti nirgataṃ aṃjanaṃ· vyaktalepanakāntigatyā<lb n="2"/>dikaṃ· yasmin sa·</incipit><explicit xml:lang="sa">|| pradīpeśo ratnarājo mahāmatiś ca ratnadhṛk || ākāśagaṃjaḥ sakalamaṃgalaḥ kanakeśvaraḥ || dhamodaro so vānanda ete te navasāṃghikāḥ || ete bhikṣusaṃghā vipasyādīnāṃ koṭisaṃkhyānāṃ śiṣyāṇāṃ madhye mukhāśiṣyā bhikṣavaḥ ||</explicit></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="roll">
+                     <supportDesc material="paper">
+                        <support>
+                           <measure unit="stringhole"/>
+                           <p>Measurements from Filliozat 1941.</p>
+                        </support>
+                        <extent>
+                           <measure unit="folio" quantity="1">Formed of 5 leaves glued together.</measure>
+                           <dimensions type="leaf" unit="mm">
+                              <width quantity="470"/>
+                              <height quantity="2330"/>
+                           </dimensions>
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
+                        <collation/>
+                        
+                        
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout writtenLines="145" streams="2"/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc><handNote scope="sole" script="devanagari" medium="ink black red"/></handDesc>
+                  <decoDesc>
+                  <decoNote type="diagram"><desc>A <term xml:lang="sa">Mahāyāna</term> Buddhist pantheon, starting from the <term xml:lang="sa">ekāmnāya</term> and concluding with the <term xml:lang="sa">navāmnāya</term>.</desc></decoNote></decoDesc>
+                  <additions>
+                  <desc type="heading" subtype="marginal left">Vertical running headings for each level of the diagram: <q xml:lang="sa">1 upāya ādibuddha· mahāvairocanaḥ ||</q>, <q xml:lang="sa">prajñā· prajñāpāramitā ||</q>, etc.</desc></additions>
+                  <bindingDesc>
+                     <binding/>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian" notBefore="1800" notAfter="1875"/>
+                     
+                  </origin>
+                  <provenance/>
+                  <acquisition><p>This manuscript was sold to the BnF by <persName role="collector">Phillipe-Édouard Foucaux</persName> in 1875 (acquisition registry number 6677).</p></acquisition>
+               </history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl>Cabaton, Antoine. (1907). <title>Catalogue sommaire des manuscrits sanscrits et pālis. 1er fascicule. Manuscrits sanscrits. Bibliothèque Nationale, Département des manuscrits.</title>. Paris: Leroux. See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b10536321f/f37.item">p. 21</ref>.</bibl><bibl>Filliozat, Jean. (1941). <title xml:lang="fr">Catalogue du fonds Sanscrit, fascicule 1, numéros 1-165</title>. Paris: Adrien-Maisonneuve. See <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k255707s/f127.item">p. 103</ref>.</bibl><bibl>Hodgson, Brian Houghton. (1835). <title type="article">Quotations in Proof of His Sketch of Buddhism</title>. <title>The Journal of the Royal Asiatic Society of Great Britain and Ireland</title>, 2(2): 288–323. <ref target="https://www.jstor.org/stable/25207468">https://www.jstor.org/stable/25207468</ref>.</bibl><bibl>Keith, Arthur Berriedale &amp; F. W. Thomas. (1935). <title>Catalogue of the Sanskrit and Prākrit Manuscripts in the Library of the India Office, Vol. II, Part II</title>. Oxford: Oxford University Press. See <ref target="https://archive.org/details/dli.csl.8648/page/n478/mode/1up">p. 1397</ref>.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         
+      <p>Sanskrit in IAST transliteration. oṁ represents the oṃkāra symbol.</p></encodingDesc>
+      <revisionDesc>
+         
+      <change when="2022-03">First version.</change></revisionDesc>
+   <xenoData type="webannotation"><![CDATA[[["https://gallica.bnf.fr/iiif/ark:/12148/btv1b100829990/canvas/f1",{"id":"https://gallica.bnf.fr/iiif/ark:/12148/btv1b100829990/canvas/f1","items":[],"type":"AnnotationPage"}]]]]></xenoData></teiHeader>
+   <facsimile>
+   <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b100829990/manifest.json"/></facsimile>
+</TEI>
