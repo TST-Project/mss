@@ -1,0 +1,97 @@
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            
+            
+         <title><title xml:lang="fr">Dictionnaire tamoul-français sans titre, précédé d'une liste, par Beschi</title></title><editor><persName>Neela BHASKAR</persName><orgName>Universität Hamburg</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2022</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Indien 210</idno>
+                  <idno type="alternate"><idno>Tamoul 210</idno></idno>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1037227</idno></msIdentifier>
+               <msContents class="#STM">
+                  
+                  
+               <summary>This is a Dictionary of Tamil words with their French equivalent, by Beschi. It is comparable to BnF <ref target="Indien_0215.xml">Indien 215</ref>, which appears to be a similar, if not the very same, text.</summary><msItem defective="false" class="#illakkanam"><title xml:lang="fr">Dictionnaire tamoul-français sans titre, précédé d'une liste, par Beschi</title><author>Constantino Guiseppe Beschi</author><textLang mainLang="tam" otherLangs="fra"/><filiation><p>Cf. BnF <ref target="Indien_0215.xml">Indien 215</ref></p></filiation><incipit xml:lang="fr"><milestone n="1" unit="page" facs="13"/>
+<milestone unit="header"/><foreign xml:lang="ta-Taml">அக</foreign>
+<milestone unit="main-text-area"/>
+<lb n="1"/><foreign xml:lang="ta-Taml">அகங்கை.</foreign> Paulme de la main R.
+<lb n="2"/><foreign xml:lang="ta-Taml">கை.</foreign> main, <foreign xml:lang="ta-Taml">அகம்,</foreign> dedans, <add place="above">Ex.</add> <foreign xml:lang="ta-Taml">அகங்கையி<lb n="3"/>ன மயிரைத் தேடுகிறான்,</foreign>Il cherche du <lb n="4"/>poil dans la paulme de la main. <lb n="5"/>Les difficultés là où  il n'y en a pas.
+
+<lb n="6"/><foreign xml:lang="ta-Taml">அகடு,</foreign> g, <foreign xml:lang="ta-Taml">ட்டின.</foreign> ventre, figure, milieu.
+
+<lb n="7"/><foreign xml:lang="ta-Taml">அகட்டுகிறது.</foreign> p. <foreign xml:lang="ta-Taml">டினேன்,</foreign> f. <foreign xml:lang="ta-Taml">டுவேன்.</foreign>
+</incipit><explicit xml:lang="fr"><milestone n="275" unit="page" facs="287"/>
+<lb n="1"/><foreign xml:lang="ta-Taml">யக்கியோபவிதம்.</foreign> Le fil des Brames.
+<lb n="2"/><foreign xml:lang="ta-Taml">யங்கலயங்கிறது.</foreign> Sauter comme le Cerf.
+<gap reason="ellipsis"/>
+
+<cb n="2"/><foreign xml:lang="ta-Taml">யானி.</foreign> rejetton d'une cobre coupé.
+</explicit></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="paper industrial">
+                        <support>
+                           <measure unit="stringhole"/>
+                           
+                        <p>Leather covers, bound, binding intact</p></support>
+                        <extent>
+                           <measure unit="page" quantity="275">1 guard folio (end of book)</measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           <width quantity="240"/><height quantity="350"/></dimensions>
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
+                        <collation/>
+                        
+                        
+                     <foliation>Arabic numerals, right margin.</foliation><condition>Very good state of preservation.</condition></supportDesc>
+                     <layoutDesc>
+                        
+                     <layout columns="2" writtenLines="37" ruledLines="38">Contents page present. Small introduction on conventions is also given (prior to page 1). Arranged in Tamil alphabetical order. Two columns. Pages are numbered, but individual entries are not. Above each column is the letter-heading (e.g. 'ak' or 'aṅ'). Grantha characters are listed at the very end. Last folio lists a few entries under the letter 'ya', that were likely forgotten earlier.</layout></layoutDesc>
+                  </objectDesc>
+                  <handDesc><handNote scope="sole" script="latin tamil" scriptRef="#tamilPulliNone #tamilOE" medium="ink black"><desc>Very neat hand. Lines drawn in pencil to guide the writing. Same hand throughout the document.</desc></handNote></handDesc>
+                  <decoDesc>
+                  </decoDesc>
+                  <additions>
+                  </additions>
+                  <bindingDesc>
+                     <binding><p>Leather covers, seemingly bound by string.</p></binding>
+                  </bindingDesc>
+               <typeDesc/></physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian"/>
+                     
+                  </origin>
+                  <provenance><p>From the collection of <persName role="collector">Édouard Ariel</persName>.</p></provenance>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits ind  iens, indo-chinois et malayo-polynésiens</title>. Bibliothèque nationale. Département des man  uscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f53">p. 35</ref></bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         
+      <p>I have not added a puḷḷi, thus representing  letters are they are given in the manuscript. </p></encodingDesc>
+      <revisionDesc>
+         
+      <change when="2022-03">First version.</change></revisionDesc>
+   <xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
+   <facsimile>
+   <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b52512451c/manifest.json"/></facsimile>
+</TEI>
