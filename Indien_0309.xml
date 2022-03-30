@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -9,7 +9,7 @@
          
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -17,10 +17,10 @@
                   <repository>
                      <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
                   </repository>
-                  <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103839m</idno>
+                  
                   <idno type="shelfmark">Indien 309</idno>
                   <idno type="alternate"><idno>Tamoul 309</idno></idno>
-               </msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103839m</idno></msIdentifier>
                <msContents class="#STM">
                   <summary><p>The <title xml:lang="ta">Vaḷḷiyammaipurāṇam</title> is a narrative telling the legend of <term xml:lang="ta">Vaḷḷi</term>, the consort of <term xml:lang="ta">Murukaṉ</term>. It appears to be an epitome of the <title xml:lang="ta">Kantapurāṇam</title> (Taylor 1845, p. 61).</p>
 <p>The manuscript gives the text (<foreign xml:lang="ta">mūlam</foreign>) interspersed with a commentary/summary, thus the title given as <title xml:lang="ta">Vaḷḷiyammaipuṟāṇacāram</title>.</p>
@@ -143,7 +143,7 @@ The front woodcover is further inscribed <quote xml:lang="ta">pu ta</quote> (in 
   <lb n="6"/><seg function="blessing">Āṟu-mā-mukamum vāḻ</seg> <seg function="blessing">vē
   
   <pb n="2r" break="no"/>
-  <lb n="1" break="no"/>tti-vēl [<term xml:lang="en">i.e.</term> veṟṟi<pc>-</pc>vēl] vāḻi vāḻi</seg> <g ref="#pcs"/> <seg function="completion-statement">tōttiramuṟṟum</seg> <g ref="#pcs"/> cīvakaṉ kēḻvi <gap reason="ellipsis"/> <!--Update after re-examination of the MS!-->
+  <lb n="1"/><sic>tti</sic>-vēl vāḻi vāḻi</seg> <g ref="#pcs"/> <seg function="completion-statement">tōttiramuṟṟum</seg> <g ref="#pcs"/> cīvakaṉ kēḻvi <gap reason="ellipsis"/> <!--Update after re-examination of the MS!-->
   
   <pb n="6r"/>
    <milestone unit="left-margin"/>
@@ -162,7 +162,7 @@ The front woodcover is further inscribed <quote xml:lang="ta">pu ta</quote> (in 
   <lb n="2" break="no"/>ṟappu</seg>
   
   <pb n="288r"/>
-  <lb n="5"/><seg function="explicit" type="commentary">ḷ eṉṟav āṟu</seg> <g ref="#pcs"/> <g ref="#pcl"/> <seg function="blessing">Ākaiyiṉālē yinta vaḷḷiyammaipuṟāṇattai paṭitta pērum keṭṭa pērum Immai
+  <lb n="5"/><seg function="explicit" type="commentary">ḷ eṉṟav āṟu</seg> <g ref="#pcs"/> <g ref="#pcl"/> <seg function="benediction">Ākaiyiṉālē yinta vaḷḷiyammaipuṟāṇattai paṭitta pērum keṭṭa pērum Immai
   <lb n="6" break="no"/>yilē niṉaitta kāriyamum cittiyām maṟumaiyilē moṣṣamumm [<term xml:lang="en">i.e.</term> mo<emph rend="bold" xml:lang="sa">kṣa</emph>mum] uṇṭām – kāṟttikai naṣṣattiram kantar
   
   <pb n="288v"/>
