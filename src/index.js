@@ -22,7 +22,7 @@ const readfiles = function(arr) {
     const data = arr.map((f) => 
     {
         const xmlDoc = make.xml( fs.readFileSync(f,{encoding:'utf-8'}) );
-        if(!xmlDoc.documentElement) console.log('Error: '+f);
+        if(!xmlDoc.querySelector('idno[type="shelfmark"]')) console.log('Error: '+f);
         const base = path.parse(f).base;
         return {
             cote: find.cote(xmlDoc),
