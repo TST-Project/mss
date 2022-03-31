@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -9,7 +9,7 @@
          
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -17,10 +17,10 @@
                   <repository>
                      <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
                   </repository>
-                  <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1038593</idno>
+                  
                   <idno type="shelfmark">Indien 332</idno>
                   <idno type="alternate"><idno>Tamoul 332</idno></idno>
-               </msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1038593</idno></msIdentifier>
                <msContents class="#STM">
                   <summary><p>The <title xml:lang="ta">Kācikāṇṭam</title>, <quote>The book of Kāci</quote>, that is <placeName xml:lang="sa">Kāśī</placeName> (Benares), is a Tamil version of the <term xml:lang="sa">Kāśīkhaṇḍa</term> of the late version of the Sanskrit <title xml:lang="sa">Skandapurāṇa</title>. The <title xml:lang="ta">Kācikāṇṭam</title> is the work of the <title xml:lang="ta">Teṉkāci</title> (<quote>Southern Kāśī</quote>) king <persName xml:lang="ta">Ativīrarāmapāṇṭiyaṉ</persName>, who ruled in the second half of the 16th century. See Raghavan (1960, p. 235). On <persName xml:lang="ta">Ativīrarāmapāṇṭiyaṉ</persName>, best known for his <title xml:lang="ta">Naiṭatam</title>, a Tamil version of the Sanskrit <title xml:lang="sa">Naiṣadha</title> by <persName xml:lang="sa">Harṣa</persName>, see Shulman (2012, pp. 155ff.).</p>
   <p>The text is incomplete. See description below of U3 and mention of missing folios. It appears to be the collective work of several scribes, thus its inconsistent foliation.</p>
@@ -54,7 +54,7 @@ Tamil foliation 2‒297 (f77, f96‒f101, f131, f148, f178, f257 missing; three 
                   </objectDesc>
                   <handDesc>
                      
-                  <handNote synch="#U1" scope="minor" scribeRef="#ArielTitleScribe" script="tamil" scriptRef="#tamilPulliRegular #tamilOE" medium="incised"><desc>Hand #1.</desc></handNote><handNote synch="#U2 U3" scope="major" script="tamil" medium="incised"><desc>Several hands (?), different from hand #1.</desc></handNote></handDesc>
+                  <handNote synch="#U1" scope="minor" scribeRef="#ArielTitleScribe" script="tamil" scriptRef="#tamilPulliRegular #tamilOE" medium="incised"><desc>Hand #1.</desc></handNote><handNote synch="#U2 #U3" scope="major" script="tamil" medium="incised"><desc>Several hands (?), different from hand #1.</desc></handNote></handDesc>
                   <additions>
                      
                     
@@ -115,8 +115,8 @@ Tamil foliation 2‒297 (f77, f96‒f101, f131, f148, f178, f257 missing; three 
   <pb n="[1]r"/>
   
   <milestone unit="left-margin"/>
-  <lb n="1"/><seg function="blessing"><term xml:lang="sa">śivamayam</term></seg>
-  <lb n="2"/><seg function="blessing"><term xml:lang="sa">hariḥ Om</term></seg>
+  <lb n="1"/><seg function="blessing"><term xml:lang="sa">śivamayam·</term></seg>
+  <lb n="2"/><seg function="blessing"><term xml:lang="sa">hariḥ Om·</term></seg>
   <lb n="3"/><seg function="blessing">naṉṟāka</seg>
   
   <milestone unit="main-text-area"/>
