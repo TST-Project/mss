@@ -4,7 +4,7 @@
    <teiHeader xml:lang="en">
       <fileDesc>
          <titleStmt>
-            <title>Collection (2 items, 66 works)</title>
+            <title>Collection (66 works)</title>
          <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          
          <publicationStmt>
@@ -21,7 +21,7 @@
                   <idno type="shelfmark">Indien 28</idno>
                   <idno type="alternate"><idno>Tamoul 28</idno><idno>Ariel TBC</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc101815p</idno></msIdentifier>
-               <msContents class="#CM">
+               <msContents class="#MTM">
                   <summary>A multi-text manuscript containing:  
 <list>
   <item>the <title xml:lang="ta">Tattuvāmirtam</title> (U3, <locus facs="7">f1r</locus>-f11v = U3a = Indien 28.1)</item>
@@ -59,7 +59,7 @@
                         <condition>Very good state of preservation. </condition>
                      <collation>
                      
-                     <desc xml:id="cover">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">Table of Contents (additional)</emph>. No foliation. </desc><desc xml:id="U2">1 folio = <emph rend="bold">Table of Contents (additional)</emph>. No foliation. </desc><desc xml:id="U3">339 folios = <emph rend="bold">65 different works</emph>. Tamil foliation {1}, 2-etc.</desc><desc xml:id="U4">3 folios = <emph rend="bold">TBC</emph>. Tamil foliation 1-3.</desc><desc xml:id="cover">the = <emph rend="bold">back cover</emph>.</desc></collation></supportDesc>
+                     <desc xml:id="cover">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">Table of Contents (additional)</emph>. No foliation. </desc><desc xml:id="U2">1 folio = <emph rend="bold">Table of Contents (additional)</emph>. No foliation. </desc><desc xml:id="U3">339 folios = <emph rend="bold">65 different works</emph>. Tamil foliation {1}, 2-249, 264-285, 287-353.</desc><desc xml:id="U4">3 folios = <emph rend="bold">TBC</emph>. Tamil foliation 1-3.</desc><desc xml:id="cover">the = <emph rend="bold">back cover</emph>.</desc></collation></supportDesc>
                      <layoutDesc>
                         <p/>
                      </layoutDesc>
@@ -118,11 +118,58 @@
     </sourceDoc>
 <facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10027164b/manifest.json"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   <pb facs="3" n="[1]r"/>
+  <milestone n="1" unit="column"/>
+  <lb n="1"/>tattuvāAmuṟtam 100 3 8
+<lb n="2"/>Akkiyāṉa <unclear reason="eccentric_ductus">vai</unclear>tappa<unclear reason="eccentric_ductus">ṟaṇi</unclear> 4 100 8 10 8 
+<lb n="3"/>tiruvuntiyār 4 5
+<lb n="4"/><gap reason="ellipsis"/>paṭiyār 100 5
+<lb n="5"/>civañāṉapōtam 8 10 2
+<lb n="6"/>civappiṟakācam 100
+<lb n="7"/>Uṇmaineṟiviḷakkam 6
+  
+  <milestone n="2" unit="column"/>
+  <lb n="1"/>
+  
+    <milestone n="3" unit="column"/>
+  <lb n="1"/>
+ 
   <pb facs="4" n="[1]v"/>
+  
+    <milestone n="1" unit="column"/>
+  <lb n="1"/>
+  
+    <milestone n="2" unit="column"/>
+  <lb n="1"/>
+    
+    <milestone n="3" unit="column"/><note xml:lang="en">in black pencil; upside down</note>
+  <lb n="1"/>
+  
 </body>
   </text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
+  
   <pb facs="5" n="[1]r"/>
+  
+  <milestone n="1" unit="column"/>
+  <lb n="1"/>
+  
+    <milestone n="2" unit="column"/>
+  <lb n="1"/>
+    
+    <milestone n="3" unit="column"/>
+    <lb n="1"/>
+
   <pb facs="6" n="[1]v"/>
+  
+    
+  <milestone n="1" unit="column"/>
+  <lb n="1"/>
+  
+    <milestone n="2" unit="column"/>
+  <lb n="1"/>
+    
+    <milestone n="3" unit="column"/>
+    <lb n="1"/>
+
 </body>
   </text><text synch="#U3" corresp="#T3" xml:lang="ta"><body>
   
@@ -172,7 +219,7 @@
   <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
   
    <pb facs="80" n="37v"/>
-   <lb n="13"/><seg function="explicit"><gap reason="ellipsis"/></seg>
+   <lb n="13"/><seg function="explicit"><gap reason="ellipsis"/> =</seg> <seg function="blessing">kuru-pātan tuṇai {pcs}</seg> <seg function="completion-statement">Aññāṉavataipparaṇi Eḻuti muṟṟum {pcl}</seg>
   
   
   <pb facs="81" n="38r"/>
@@ -184,12 +231,11 @@
   <pb facs="80" n="39r"/>
      <milestone unit="left-margin"/>
   <seg function="title"><lb n="1-7"/>tirukaḷiṟṟuppaṭiyār {pcl}</seg>
-  <lb n="11"/><seg function="explicit"><gap reason="ellipsis"/>ṟa · 4 5 · </seg> <seg function="completion-statement">tiruvuntiyār muṟṟum {pcl} </seg> <seg function="incipit"><gap reason="ellipsis"/></seg>
+  <lb n="11"/><seg function="explicit"><gap reason="ellipsis"/> · 4 5 · </seg> <seg function="completion-statement">tiruvuntiyār muṟṟum {pcl} </seg> <seg function="incipit"><gap reason="ellipsis"/></seg>
   
   <pb facs="94" n="44v"/>
    <lb n="11"/><seg function="explicit"><gap reason="ellipsis"/> ∙ 105 ∙</seg> <seg function="completion-statement">tirukkaḷiṟṟup
- <lb n="12" break="no"/>paṭiyār muṟṟum {pcl}</seg> <seg function="blessing">teyvacikāmaṇikurutēcikaṉ tiruvaṭi vāḻka {pcl}</seg> <seg function="blessing"><term xml:lang="sa">vāṇi
-  namostu</term> {pcl}</seg>
+ <lb n="12" break="no"/>paṭiyār muṟṟum {pcl}</seg> <seg function="blessing">teyvacikāmaṇikurutēcikaṉ tiruvaṭi vāḻka {pcl}</seg> <seg function="blessing"><term xml:lang="sa">vāṇi namostu</term> {pcl}</seg>
                   
   <pb facs="95" n="45r"/>
     <milestone unit="left-margin"/>
@@ -229,65 +275,113 @@
   <seg function="intertitle"><lb n="3-6"/>patimutal nilai</seg>
   <seg function="intertitle"><lb n="7-9"/>Uyirvai nilai</seg>
   
+   <milestone unit="main-text-area"/>
+   <lb n="5"/><seg function="explicit"><gap reason="ellipsis"/> · 2 10 · </seg> <seg function="completion-statement">Irupāvirupatu muṟṟum {pcl}</seg> <seg function="incipit"><gap reason="ellipsis"/></seg>
+  
   
   <pb facs="141" n="68r"/>
   <milestone unit="left-margin"/>
   <seg function="title"><lb n="1-3"/>caṅkaṟpanirākaraṇa=M</seg>
       
+  <milestone unit="main-text-area"/>
+   <lb n="6"/><seg function="explicit"><gap reason="ellipsis"/> · 100 · </seg> <seg function="completion-statement">tiruvaruṭpayaṉ  muṟṟum {pcl}</seg> <seg function="blessing">teyvacikāmaṇi tēcikaṉ ṟiruvaṭi vāḻka {pcs}</seg>
+  <lb n="7"/><seg function="incipit"><gap reason="ellipsis"/></seg>
+  
+  
+  <pb facs="166" n="80v"/>
+  <lb n="8"/><seg function="explicit"><gap reason="ellipsis"/> {pcl} </seg> <seg function="completion-statement">caṅkaṟpanirākaraṇamuṭintatu muṟṟum {pcl}</seg>
+  <lb n="9"/><seg function="blessing">teyvacikāmaṇi tēcikaṉ ṟiruvaṭi vāḻka {pcs}</seg>
+  
   
   <pb facs="167" n="81r"/>
+
   <milestone unit="left-margin"/>
   <seg function="title"><lb n="1-3"/>vi<unclear>ṉā</unclear>veṇpā</seg>
+  
+  <milestone unit="main-text-area"/>
+  <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
   
   
    <pb facs="168" n="81v"/>
   <milestone unit="left-margin"/>
   <seg function="title"><lb n="1-3"/>neñcuviṭutūtu</seg>
   
-    
+    <milestone unit="main-text-area"/>
+   <lb n="5"/><seg function="explicit"><gap reason="ellipsis"/> · 
+  <lb n="6"/>10 3 · </seg> <seg function="completion-statement">viṉāveṇpā muṟṟum {pcl}</seg> <seg function="incipit"><gap reason="ellipsis"/></seg>
+  
    <pb facs="176" n="85v"/>
   <milestone unit="left-margin"/>
   <seg function="title"><lb n="1-5"/>poṟṟippaḵṟoṭai</seg>
   
+   <milestone unit="main-text-area"/>
+   <lb n="3"/><seg function="explicit"><gap reason="ellipsis"/></seg>
+   <lb n="4"/><seg function="completion-statement">neñcuviṭutūtu  muṟṟum {pcl}</seg> <seg function="incipit"><gap reason="ellipsis"/></seg>
    
    <pb facs="182" n="88v"/>
   <milestone unit="left-margin"/>
   <seg function="title"><lb n="1-3"/><unclear>ti</unclear>ruppāṇāṟṟuppaṭai</seg>
   
+   <milestone unit="main-text-area"/>
+   <lb n="5"/><seg function="explicit"><gap reason="ellipsis"/> ~</seg> <seg function="completion-statement">poṟṟippaḵ<subst>r<del>e</del><add place="below">o</add></subst>ṭai muṟṟum {pcl}</seg> <seg function="blessing">civakkāyam {pcl}</seg>
+  <lb n="6"/><seg function="incipit"><gap reason="ellipsis"/></seg>
        
+  
+  <pb facs="187" n="91r"/>
+  <lb n="10"/><seg function="explicit"><gap reason="ellipsis"/> {pcl}</seg> <seg function="completion-statement"><unclear><gap reason="illegible" quantity="1" unit="character"/></unclear>ruppāṇāṟ
+   <lb n="11" break="no"/>ṟuppaṭai  muṟṟum {pcl}</seg> <seg function="blessing"> civañāṉatēcikaṉ ṟiruvaṭi vāḻka {pcl}</seg> <seg function="blessing">kuruvē tuṇai {pcl}</seg>
+ <seg function="incipit"><gap reason="ellipsis"/></seg>
+  
+  
    <pb facs="188" n="91v"/>
+  
   <milestone unit="left-margin"/>
   <seg function="title"><lb n="1-3"/>pūcākāraṇam</seg>
   
+  <milestone unit="main-text-area"/>
+  <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
   
-     <pb facs="193" n="94r"/>
+    
+  <pb facs="193" n="94r"/>
+  
   <milestone unit="left-margin"/>
   <seg function="title"><lb n="1-2"/>tattuvaviḷakkam</seg>
-    
+  
+    <milestone unit="main-text-area"/>
+  <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
+  
   
      <pb facs="201" n="98r"/>
+  
   <milestone unit="left-margin"/>
   <seg function="title"><lb n="1-2"/>Uṇmaippayaṉ akaval</seg>
       
   
      <pb facs="210" n="102v"/>
+  
   <milestone unit="left-margin"/>
   <seg function="title"><lb n="1-3"/>ñāṉacukātitam</seg>
         
   
      <pb facs="210" n="102v"/>
+  
   <milestone unit="left-margin"/>
   <seg function="title"><lb n="1-3"/>ñāṉacukātitam</seg>
   
     
      <pb facs="215" n="105r"/>
+  
   <milestone unit="left-margin"/>
   <seg function="title"><lb n="1-3"/>pañcākkarakkuṟaḷ</seg>
   
     
      <pb facs="219" n="107r"/>
+  
   <milestone unit="left-margin"/>
   <seg function="title"><lb n="1-3"/>ñāṉapūcai</seg>
+  
+  <milestone unit="main-text-area"/>
+  <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
   
   
   <pb facs="223" n="109r"/>
@@ -296,199 +390,330 @@
   
   
   <pb facs="240" n="117v"/>
+  
   <milestone unit="left-margin"/>
   <seg function="title"><lb n="1-2"/>tiruñāṉacāka<add place="below">ra</add>m <term xml:lang="en">{line-filler = small circle}</term></seg>
     
   
   <pb facs="251" n="123r"/>
+  
   <milestone unit="left-margin"/>
   <seg function="blessing"><lb n="1-2"/>tirucciṟṟampalam</seg>
   <seg function="title"><lb n="3-5"/>civañāṉacittiyār parapakṣam</seg>
-    
+   
+  <milestone unit="main-text-area"/>
+  <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
+  
   
   <pb facs="307" n="151r"/>
+  
   <milestone unit="left-margin"/>
   <seg function="title"><lb n="1-3"/>civañāṉacittiyār cupaṭcam</seg>
     
+  <milestone unit="main-text-area"/>
+  <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
+  
   
   <pb facs="369" n="182r"/>
+  
   <milestone unit="left-margin"/>
   <seg function="blessing"><lb n="1-2"/>tirucciṟṟampalam</seg>
   <seg function="blessing"><lb n="3-4"/>kumarakuruvē nama</seg>
   <seg function="title"><lb n="5-6"/>civappirakācam</seg>
   <seg function="blessing"><lb n="7-8"/>tēvicakaya=M </seg>
     
+  <milestone unit="main-text-area"/>
+  <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
+  
   
   <pb facs="391" n="193r"/>
+  
   <milestone unit="left-margin"/>
   <seg function="title"><lb n="1-2"/>Uṇmaiviḷakkam</seg>
     
+  <milestone unit="main-text-area"/>
+  <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
+  
   
   <pb facs="398" n="196v"/>
+  
   <milestone unit="left-margin"/>
   <seg function="title"><lb n="1-3"/>ciṟṟampalanāṭiveṇpā</seg>
+  
+  <milestone unit="main-text-area"/>
+  <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
     
   
   <pb facs="404" n="199v"/>
+  
   <milestone unit="left-margin"/>
   <seg function="title"><lb n="1-4"/>cirṟāmpalanāṭikalittuṟai</seg>
     
   
   <pb facs="413" n="204r"/>
+  
   <milestone unit="left-margin"/>
   <seg function="title"><lb n="1-2"/>tāḻicai</seg>
     
+  <milestone unit="main-text-area"/>
+  <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
+  
   
   <pb facs="415" n="205r"/>
+  
   <milestone unit="left-margin"/>
   <seg function="title"><lb n="1-4"/>celkālattiraṅkal</seg>
     
   
   <pb facs="419" n="207r"/>
+  
   <milestone unit="left-margin"/>
   <seg function="title"><lb n="1-3"/>nikaḻkālattiraṅkal</seg>
+  
+  <milestone unit="main-text-area"/>
+  <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
     
   
   <pb facs="422" n="208v"/>
+  
   <milestone unit="left-margin"/>
   <seg function="title"><lb n="1-3"/>varukālattiraṅkal</seg>
   
   
   <pb facs="427" n="211r"/>
+  
   <milestone unit="left-margin"/>
   <seg function="blessing"><lb n="1-2"/>kuru-pātan tuṇai <term xml:lang="ta">{line-filler = circle}</term></seg>
   <seg function="title"><lb n="3-4"/>civāṉantamālai</seg>
   <seg function="intertitle"><lb n="5-7"/>nūr peyar Avaiyaṭakkam tuti</seg>
     
+  <milestone unit="main-text-area"/>
+  <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
+  
   
   <pb facs="479" n="237r"/>
+  
   <milestone unit="left-margin"/>
   <seg function="blessing"><lb n="1-2"/>kuru-pātan tuṇai </seg>    
-  <seg function="title"><lb n="3-4"/>neṉcuviṭutūtu</seg>    
+  <seg function="title"><lb n="3-4"/>neñcuviṭutūtu</seg>
   
+  <milestone unit="main-text-area"/>
+  <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
   
+    
   <pb facs="491" n="243r"/>
+  
   <milestone unit="left-margin"/>
   <seg function="blessing"><lb n="1-2"/>kuru-pātan tuṇai <term xml:lang="en">{line-filler = circle}</term></seg>    
   <seg function="title"><lb n="3-4"/>pañcatikāraviḷakkam</seg>    
   
+  <milestone unit="main-text-area"/>
+  <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
+  
+  
     <pb n="250-263"/><note xml:lang="en">no folios foliated 250-263</note>
 
+  
   <pb facs="505" n="264r"/>
+  
   <milestone unit="left-margin"/>
   <seg function="title"><lb n="1-2"/>tiruñāṉacākaram</seg>    
-  <seg function="blessing"><lb n="3-4"/>kuruvē tuṇai</seg>    
+  <seg function="blessing"><lb n="3-4"/>kuruvē tuṇai</seg>
+  
+  <milestone unit="main-text-area"/>
+  <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
+  
   
   <pb facs="517" n="270r"/>
+  
   <milestone unit="left-margin"/>
   <seg function="title"><lb n="1"/>kuṟaḷ</seg>    
   <seg function="intertitle"><lb n="2-3"/>kaṭavuḷ vāḻttu</seg>    
   
+  <milestone unit="main-text-area"/>
+  <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
+  
+  
+  <pb facs="531" n="277r"/>
+  
+  <milestone unit="left-margin"/>
+  <seg function="title"><lb n="1-3"/>ñāṉavammāṉai</seg>
+  
+  <milestone unit="main-text-area"/>
+  <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
+  
+  
   <pb facs="535" n="279r"/>
+  
   <milestone unit="left-margin"/>
   <seg function="title"><lb n="1-4"/>tirukkaḷiṟṟuppaṭiyār</seg>    
   
+  <milestone unit="main-text-area"/>
+  <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
+  
+  
     <pb facs="538" n="280v"/><note xml:lang="en">blank</note>
 
+  
   <pb facs="539" n="281r"/>
+  
   <milestone unit="left-margin"/>
-  <seg function="title"><lb n="1-3"/>civāṉantamālai {pcl}</seg>    
+  <seg function="title"><lb n="1-3"/>civāṉantamālai {pcl}</seg>
+  
+  <milestone unit="main-text-area"/>
+  <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
+  
   
   <pb facs="544" n="283v"/>
+  
   <milestone unit="left-margin"/>
   <seg function="title"><lb n="1-5"/>ñāṉamaṇamālai</seg>    
   
+  
   <pb facs="549" n="286r"/>
+  
   <milestone unit="left-margin"/>
   <seg function="title"><lb n="1-5"/>tirumantiramālai</seg>    
   
+  
   <pb facs="567" n="295r"/>
+  
   <milestone unit="left-margin"/>
-  <seg function="title"><lb n="1-2"/>civavākkiyam</seg>    
+  <seg function="title"><lb n="1-2"/>civavākkiyam</seg>
+  
+  <milestone unit="main-text-area"/>
+  <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
+  
   
   <pb facs="575" n="298v"/>
+  
   <milestone unit="left-margin"/>
-  <seg function="title"><lb n="1-3"/>tiruvuntiyār</seg>    
+  <seg function="title"><lb n="1-3"/>tiruvuntiyār</seg>
+    
   
   <pb facs="576" n="299r"/>
+  
   <milestone unit="left-margin"/>
   <seg function="title"><lb n="1-4"/>civaṉantamālaiyil</seg>    
   <seg function="TBC"><lb n="1-4"/><gap reason="ellipsis"/> taṉmai</seg>    
   
+  
   <pb facs="578" n="300v"/>
+  
   <milestone unit="left-margin"/>
   <seg function="title"><lb n="1-5"/>Oḻiviloṭukkam</seg>    
   
+  
   <pb facs="590" n="306v"/>
+  
   <milestone unit="left-margin"/>
   <seg function="title"><lb n="1-3"/>palavakai</seg>    
   
+  
   <pb facs="599" n="311r"/>
+  
   <milestone unit="left-margin"/>
   <seg function="blessing"><lb n="1-2"/>tirucciṟṟampalam {pcl}</seg>    
   <seg function="title"><lb n="1-3"/>tirumūlatēvar Akaval </seg>    
-  <seg function="verse-beginning"><lb n="1-3"/>mūlātāra</seg>    
+  <seg function="verse-beginning"><lb n="1-3"/>mūlātāra</seg>   
+  
+  <milestone unit="main-text-area"/>
+  <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
+  
   
   <pb facs="601" n="312r"/>
+  
   <milestone unit="left-margin"/>
   <seg function="title"><lb n="1-3"/>Avvai pāṭal</seg>    
   <seg function="TBC"><lb n="4-5"/>Avvai pāṭal</seg>    
   
+  
   <pb facs="603" n="313r"/>
+  
   <milestone unit="left-margin"/>
   <seg function="blessing"><lb n="1-2"/>tirucciṟṟampalam <term xml:lang="en">{2 line-fillers = circles}</term></seg>    
   <seg function="title"><lb n="3-5"/>viṉāyakaṉ Iraṭṭai maṇimālai</seg>    
   <seg function="TBC"><lb n="6-7"/>kapilar pāṭal</seg>    
   
+  <milestone unit="main-text-area"/>
+  <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
+  
+  
   <pb facs="605" n="314r"/>
+  
   <milestone unit="left-margin"/>
   <seg function="blessing"><lb n="1-2"/>tirucciṟṟampalam</seg>    
   <seg function="title"><lb n="3-5"/>tirumurukāṟṟuppaṭai</seg>    
   
+  
   <pb facs="614" n="318v"/>
+  
   <milestone unit="left-margin"/>
   <seg function="blessing"><lb n="1-2"/>tirucciṟṟampalam <term xml:lang="en">{2 line-fillers = circles}</term></seg>    
   <seg function="title"><lb n="3-5"/>paṭṭiṉattuppiḷḷai Akaval</seg>    
   
+  
   <pb facs="619" n="321r"/>
+  
   <milestone unit="left-margin"/>
   <seg function="title"><lb n="1-2"/>paṭtiṉattup piḷḷai </seg>    
   <seg function="TBC"><lb n="3-4"/>neñcoṭu makiḻtal</seg>    
   
+  
   <pb facs="621" n="322r"/>
+  
   <milestone unit="left-margin"/>
   <seg function="blessing"><lb n="1-2"/>tirucciṟṟampalam</seg>    
   <seg function="title"><lb n="3-4"/>paṭtiṉattup piḷḷai</seg>    
   <seg function="TBC"><lb n="5-7"/>neñcoṭu tūtu</seg>    
   
+  
   <pb facs="627" n="325r"/>
+  
   <milestone unit="left-margin"/>
   <seg function="title"><lb n="1-2"/>tukaḷaṟupōtam</seg>    
   
   
   <pb facs="641" n="332r"/>
+  
   <milestone unit="left-margin"/>
   <seg function="title"><lb n="1-3"/>ñāṉavaṇṇam</seg>    
   
+  <milestone unit="main-text-area"/>
+  <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
+  
+  
+    <pb facs="646" n="334v"/><note xml:lang="en">blank</note>
+
   
   <pb facs="647" n="335r"/>
+  
   <milestone unit="left-margin"/>
   <seg function="blessing"><lb n="1-2"/>tirucciṟṟampalam</seg> 
   <seg function="title"><lb n="3-5"/>pūtātikaṇṭappaṟṟu</seg> 
+  
+   <milestone unit="main-text-area"/>
+  <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
     
   
   <pb facs="648" n="335v"/>
+  
   <milestone unit="left-margin"/>
   <seg function="blessing"><lb n="1-2"/>tirucciṟṟampalam</seg> 
   <seg function="title"><lb n="3-4"/>nāmanaṭṭappaṟṟu</seg> 
     
   
   <pb facs="651" n="337r"/>
+  
   <milestone unit="left-margin"/>
   <seg function="title"><lb n="1-2"/>kuruvaṟiviḷakkam</seg> 
+  
+   <milestone unit="main-text-area"/>
+  <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
     
   
   <pb facs="657" n="340r"/>
+  
   <milestone unit="left-margin"/>
   <seg function="blessing"><lb n="1-2"/>tirucciṟṟampalam </seg> 
   <seg function="blessing"><lb n="3"/>kurukaṭā
@@ -498,6 +723,7 @@
     
   
   <pb facs="661" n="342r"/>
+  
   <milestone unit="left-margin"/>
   <seg function="blessing"><lb n="1-2"/>tirucciṟṟampalam</seg> 
   <seg function="title"><lb n="3-5"/>teḷivuṇmaipōtam {pcl}</seg> 
@@ -516,6 +742,7 @@
     
   
   <pb facs="672" n="347v"/>
+  
   <milestone unit="left-margin"/>
   <seg function="blessing"><lb n="1-3"/>tirucciṟṟampalam</seg> 
   <seg function="title"><lb n="4-5"/>tiruvaṭiviḷak=ka=M</seg> 
@@ -523,6 +750,7 @@
     
   
   <pb facs="680" n="351v"/>
+  
   <milestone unit="left-margin"/>
   <seg function="blessing"><lb n="1-2"/>tirucciṟṟampalam</seg> 
   <seg function="title"><lb n="3-4"/>cōticērviḷakkam</seg> 
@@ -540,7 +768,13 @@
   <seg function="intertitle"><lb n="1-2"/>Icāṉam</seg>
   
   <milestone n="1" unit="column"/>
-  <lb n="1-5"/><note xml:lang="en">diagram inscribed <term xml:lang="ta">na ma ci va ya</term> (line 1)</note>
+  <lb n="1-5"/><note xml:lang="en">diagram in the form of table; inscribed</note>
+  <lb n="1"/>na ma ci va ya
+  <lb n="2"/>ya na va ci ma
+  <lb n="3"/>ma va ya na ci
+  <lb n="4"/>ci ya na ma va
+  <lb n="5"/>va ci ma ya na
+  
   <lb n="6-10"/><gap reason="ellipsis"/>
   
   <pb facs="686" n="1v"/>
@@ -548,39 +782,58 @@
   <seg function="intertitle"><lb n="1-4"/>taṟpuruṣacakkaram</seg>
   
    <milestone n="1" unit="column"/>
-  <lb n="1-5"/><note xml:lang="en">diagram inscribed <term xml:lang="ta">ya na ma ci va</term> (line 1)</note>
-  
+  <lb n="1-5"/><note xml:lang="en">diagram in the form of table with tridents on top; inscribed</note>
+  <lb n="1"/>ya na ma ci va
+  <lb n="2"/>va ya na ma cii
+  <lb n="3"/>ci va ya na ma
+  <lb n="4"/>ma ci va ya na
+  <lb n="5"/>na ma ci va ya
+    
   <milestone n="2" unit="column"/>
   <lb n="1-16"/><gap reason="ellipsis"/>
       
   <milestone n="3" unit="column"/>
   <lb n="1-8"/><gap reason="ellipsis"/>
   <lb n="9"/>{Āka} 2 10 5
-  
-  
+    
   <pb facs="687" n="2r"/>
   
   <milestone unit="left-margin"/>
   <seg function="intertitle"><lb n="1-3"/>Akōracakkaram</seg>
   
      <milestone n="1" unit="column"/>
-  <lb n="1-5"/><note xml:lang="en">diagram inscribed <term xml:lang="ta">ma va ya na ci</term> (line 1)</note>
-    
+  <lb n="1-5"/><note xml:lang="en">diagram in the form of table; inscribed</note>
+  <lb n="1"/>ma va ya na ci
+  <lb n="2"/>
+  <lb n="3"/>
+  <lb n="4"/>
+  <lb n="5"/>
+      
   <pb facs="688" n="2v"/>
   
   <milestone unit="left-margin"/>
   <seg function="intertitle"><lb n="1-3"/>vāmatēvam</seg>
   
      <milestone n="1" unit="column"/>
-  <lb n="1-5"/><note xml:lang="en">diagram inscribed <term xml:lang="ta">ci ya na ma va</term> (line 1)</note>
-  
+  <lb n="1-5"/><note xml:lang="en">diagram in the form of table; inscribed</note>
+  <lb n="1"/>ci ya na ma va
+  <lb n="2"/>
+  <lb n="3"/>
+  <lb n="4"/>
+  <lb n="5"/>
+    
   <pb facs="689" n="3r"/>
   
   <milestone unit="left-margin"/>
   <seg function="intertitle"><lb n="1-3"/>cattiyōcātacakkaram</seg>
   
      <milestone n="1" unit="column"/>
-  <lb n="1-5"/><note xml:lang="en">diagram inscribed <term xml:lang="ta">va ci ma ya na</term> (line 1)</note>
+   <lb n="1-5"/><note xml:lang="en">diagram in the form of table; inscribed</note>
+  <lb n="1"/>va ci ma ya na
+  <lb n="2"/>
+  <lb n="3"/>
+  <lb n="4"/>
+  <lb n="5"/>  
   
   <pb facs="690" n="3v"/>
   
@@ -588,30 +841,38 @@
   <lb n="1-9"/><gap reason="ellipsis"/>  
   
   <milestone n="1b" unit="column"/>
-  <lb n="1-3"/><gap reason="ellipsis"/>  
+  <lb n="1-3"/><seg function="intertitle"><gap reason="ellipsis"/></seg>  
   
-  <milestone n="1c" unit="column"/>
-  <lb n="1-5"/><gap reason="ellipsis"/>  
+  <milestone n="1c" unit="column"/><note xml:lang="en">surrounded by {symbol}s ending in trident</note>
+  <lb n="1"/>na ma ci va ya
+   <lb n="2"/>ya <unclear>na ma</unclear> ci va
+  <lb n="3"/>va ya na ma ci <unclear>vā</unclear>
+  <lb n="4"/>ci va ya na ma
+  <lb n="5"/>ma <unclear reason="vowel_unclear">ci</unclear> va ya na
   
-  <milestone n="2" unit="column"/>
+  <milestone n="2" unit="column"/><note xml:lang="en">surrounded by {symbol}s ending in trident</note>
   <lb n="1-7"/><gap reason="ellipsis"/>  
   
-  <milestone n="3a" unit="column"/>
-  <lb n="1-4"/><gap reason="ellipsis"/>
+  <milestone n="3a" unit="column"/><note xml:lang="en">surrounded by {symbol}s ending in trident</note>
+  <lb n="1-4"/><seg function="intertitle"><gap reason="ellipsis"/></seg>
   
-  <milestone n="3b" unit="column"/>
+  <milestone n="3b" unit="column"/><note xml:lang="en">surrounded by {symbol}s ending in trident</note>
   <lb n="1-5"/><gap reason="ellipsis"/>  
   
-  <milestone n="3c" unit="column"/>
-  <lb n="1-3"/><gap reason="ellipsis"/>  
+  <milestone n="3c" unit="column"/><note xml:lang="en">surrounded by {symbol}s ending in trident</note>
+  <lb n="1-3"/><seg function="intertitle"><gap reason="ellipsis"/></seg>
   
-  <milestone n="3d" unit="column"/>
-  <lb n="1-5"/><gap reason="ellipsis"/>
+  <milestone n="3d" unit="column"/><note xml:lang="en">surrounded by {symbol}s ending in trident</note>
+  <lb n="1"/>va ya na ma ci
+   <lb n="2"/>ci va ya na ma
+  <lb n="3"/>ma ci va ya na <unclear>vā</unclear>
+  <lb n="4"/>na ma ci va ya
+  <lb n="5"/>ya na ma ci va
   
     <milestone n="4" unit="column"/>
-  <lb n="1-3"/><gap reason="ellipsis"/>
+  <lb n="1-3"/><seg function="incipit">mokṣaparaketi</seg>
   
-    <milestone n="5" unit="column"/><note xml:lang="en">surrounded by {Om} ending in trident</note>
+    <milestone n="5" unit="column"/><note xml:lang="en">surrounded by {symbol}s ending in trident</note>
   <lb n="1"/>ya na ma ci va
   <lb n="2"/>va ya na ma ci
   <lb n="3"/>ci va ya na ma vā
