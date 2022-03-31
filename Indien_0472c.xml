@@ -1,17 +1,15 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Fragment of Saint Francis Xavier Story</title>
-         </titleStmt>
-         <editionStmt>
-            <p>Record edited by <persName>Emmanuel FRANCIS</persName> <orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName>.</p>
-         </editionStmt>
+            <title>Miracles of Saint Francis Xavier (fragment)</title>
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -23,9 +21,10 @@
                   <idno type="alternate"/>
                </msIdentifier>
                <msContents class="#STM">
-                  <summary>Fragment of Saint Francis Xavier Story.</summary>
+                  <summary> Fragment of a narrative about the miracles of Saint Francis Xavier.   </summary>
                   
-               <msItem xml:id="t472c" defective="false"><title xml:lang="ta"><term xml:lang="en">Fragment of Saint Francis Xavier Story</term></title><textLang mainLang="tam"/><filiation><p>See BnF Indien 511.</p></filiation></msItem></msContents>
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Miracles of Saint Francis Xavier</term></title><textLang mainLang="tam"/><filiation><p><ref target="https://tst-project.github.io/mss/Indien_0511.xml">BnF Indien 511</ref>.
+</p></filiation></msItem></msContents>
                <physDesc>
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
@@ -42,14 +41,14 @@
                         <dimensions type="object" unit="mm"><width quantity="0"/></dimensions><dimensions type="written" unit="mm"/></extent>
                         
                         
-                     <foliation>Left margin truncated. Foliation, if any, lost.</foliation><condition>Good state of preservation.</condition></supportDesc>
+                     <collation><desc xml:id="U1">1 folio = <emph rend="bold">Miracles of Saint Francis Xavier</emph>. Foliation, if any, lost (left-margin truncated).</desc></collation><foliation>Left margin truncated. Foliation, if any, lost.</foliation><condition>Good state of preservation.</condition></supportDesc>
                      <layoutDesc>
                         <layout writtenLines="6 7"/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
                      
-                  <handNote scope="major" script="tamil" scriptRef="#tamilPulliNone" medium="incised"/></handDesc>
+                  <handNote synch="#U1" scope="major" script="tamil" scriptRef="#tamilPulliNone" medium="incised"/></handDesc>
                   <decoDesc>
                     
                   </decoDesc>
@@ -84,10 +83,10 @@
       <revisionDesc>
          
       <change when="2021-04">Record created by Emmanuel FRANCIS.</change></revisionDesc>
-   </teiHeader>
+   <xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
    <facsimile>
-   <graphic url="https://tst-project.github.io/img/Indien_0472/index.json"/></facsimile>
-<text corresp="#t472c" xml:lang="ta"><body>
+   <graphic url="https://tst-project.github.io/img/Indien_0472/index.json" facs="14"/></facsimile>
+<text corresp="#T1" xml:lang="ta"><body>
   <p>
     
     <milestone facs="14" n="[1]r" unit="folio"/>
