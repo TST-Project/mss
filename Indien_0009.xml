@@ -19,21 +19,22 @@
                   </repository>
                   
                   <idno type="shelfmark">Indien 9</idno>
-                  <idno type="alternate"><idno>Tamoul 9</idno><idno>Ariel TBC</idno></idno>
+                  <idno type="alternate"><idno>Tamoul 9</idno><idno>Ariel TBC</idno><idno>c/28</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103140x</idno></msIdentifier>
                <msContents class="#CM">
                   <summary>A composite manuscript containing:  
 <list>
-  <item>the <title xml:lang="ta">Varākimālai</title> (Indien 9a)</item>
-  <item>the <title xml:lang="ta">Cauntariyalakari</title> (Indien 9b)</item>
-  <item>a <foreign xml:lang="ta">mantiram</foreign> with its <foreign xml:lang="ta">cakkaram</foreign> (that is, a <foreign xml:lang="sa">yantra</foreign>) (Indien 9c)</item>
+  <item>an incomplete copy of the <title xml:lang="ta">Varākimālai</title> (Indien 9a).</item>
+  <item>the <title xml:lang="ta">Cauntariyalakari</title> (Indien 9b).</item>
+  <item>a <foreign xml:lang="ta">mantiram</foreign> with its <foreign xml:lang="ta">cakkaram</foreign> (Indien 9c).</item>
   <item>the <title xml:lang="ta">Niṭṭāṉupūtiviḷakkam</title> (Indien 9d)</item>
-  <item>TBC (Indien 9e)</item>
-  <item>TBC (Indien 9f)</item>
-  </list></summary>
+  <item>TBC (Indien 9e).</item>
+  <item>TBC (Indien 9f).</item>
+  </list>
+These are preceded by an additional title page folio (U1) listing four works contianed in the bundle.</summary>
                   
                   
-               </msContents>
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page (additional)</term></title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
@@ -79,10 +80,10 @@
                     
                     
                      
-                  <desc synch="#9a" type="shelfmark">Shelfmark in black ink: <quote>c/28</quote> (<locus facs="0">f[1]r</locus>).</desc><desc synch="#cover" type="shelfmark" subtype="back cover">BnF shelfmark sticker: <quote>INDIEN 9</quote> (<locus facs="0">back cover, verso</locus>). Covering an earlier sticker.</desc><desc synch="#cover" type="shelfmark" subtype="back cover">Shelfmark sticker (Société Asiatique?): <quote>9</quote> (<locus facs="0">back cover, verso</locus>).</desc><desc synch="#cover" type="documenting-note" subtype="back cover">BnF bequest sticker <quote>DON N° <space type="vacat"/></quote> (<locus facs="0">back cover, verso</locus>).</desc></additions>
+                  <desc type="shelfmark">Shelfmark in black ink: <quote>c/28</quote> (<locus facs="0">f[1]r</locus>).</desc><desc synch="#cover" type="shelfmark" subtype="back cover">BnF shelfmark sticker: <quote>INDIEN 9</quote> (<locus facs="0">back cover, verso</locus>). Covering an earlier sticker.</desc><desc synch="#cover" type="shelfmark" subtype="back cover">Shelfmark sticker (Société Asiatique?): <quote>9</quote> (<locus facs="0">back cover, verso</locus>).</desc><desc synch="#cover" type="documenting-note" subtype="back cover">BnF bequest sticker <quote>DON N° <space type="vacat"/></quote> (<locus facs="0">back cover, verso</locus>).</desc></additions>
                   <bindingDesc>
                      <binding>
-                        <p><material resp="#cLI" cert="medium">Mahogany</material> woodcovers apparently fabricated in the BnF.</p>
+                        <p><material>Pinewood</material> covers apparently fabricated in the BnF. 350 x 30 mm.</p>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -117,4 +118,35 @@ Dated to circa 1830 by Vinson (1867) and to 1830 by Cabaton (1912), on unstated 
     <sourceDoc>
         <surface/>
     </sourceDoc>
-<facsimile/></TEI>
+<facsimile/><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+  
+  <pb facs="0" n="[1]r"/>
+  
+   <milestone n="1" unit="column"/>
+  <lb n="1-2"/><seg function="blessing">veṟṟivēl uṟṟa tuṇai</seg>
+  
+  <milestone n="2" unit="column"/>
+  <seg function="title">
+    <lb n="1"/>viratam
+    <lb n="2"/><del>mūṉṟu</del>
+    <lb n="3"/>nāṉku
+  </seg>
+  
+   <milestone n="3" unit="column"/>
+  <seg function="title"><lb n="1"/>varākimālai
+    <lb n="2"/>cillaṟai</seg>
+    <seg function="title"><lb n="3"/>cauntariyalakari
+    <lb n="4"/>cakkarattōṭu</seg>
+  
+  <milestone n="4" unit="column"/>
+  <seg function="title"><lb n="1"/>niṭṭānupūti
+    <lb n="2"/>viḷakkam</seg>
+     
+  <milestone n="5" unit="column"/>
+  <seg function="title"><lb n="1"/>cuppiramaṇiyar
+    <lb n="2"/>Apiṭēkamālai</seg><note xml:lang="en" place="foot">This title has been added when the number of texts counted in the bundle has been corrected from 3 to 4. See c2, 2.</note>
+      
+    <pb facs="0" n="[1]v"/><note xml:lang="en">blank</note>
+
+</body>
+</text></TEI>
