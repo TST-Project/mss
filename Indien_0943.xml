@@ -34,13 +34,13 @@
                            <dimensions type="leaf" unit="mm">
                               
                               
-                           </dimensions>
-                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
+                           <width quantity="425"/><height quantity="30"/></dimensions>
+                        <dimensions type="object" unit="mm"><width quantity="425"/><height quantity="30"/><depth quantity="155"/></dimensions><dimensions type="written" unit="mm"/></extent>
                         
-                        <condition>Relatively good state of preservation, despite boreholes. Several folios truncated.
+                        <condition>Relatively poor state of preservation: cracks, boreholes, several folios truncated.
                         </condition>
-                     <support><measure unit="stringhole" quantity="2"/></support><collation><desc xml:id="U1">1 folio = <emph rend="bold">Title Page</emph>. No foliation. Verso blank.</desc><desc xml:id="cover">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U2">279 folios. Tamil foliation 1-286 with foliation gaps/missing folios. 274 folios in order, with gaps, followed by 5 folios, with foliation lost, which must fill some of the gaps.</desc><desc xml:id="U2a">2 folios = <emph rend="bold"><title xml:lang="ta">Tiruttoṇṭattokai</title></emph>. Tamil foliation 1-2. From f1r1 to f2v1.
-</desc><desc xml:id="U2b">278 folios = <emph rend="bold"><title xml:lang="ta">Periya Purāṇam</title></emph>. Tamil foliation 1-286 with foliation gaps/missing folios. From f2v1 to f286v2.
+                     <support><measure unit="stringhole" quantity="2"/></support><collation><desc xml:id="U1">1 folio = <emph rend="bold">Title Page</emph>. No foliation. Verso blank.</desc><desc xml:id="cover">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U2">279 folios. Tamil foliation 1-286 with foliation gaps/missing folios. 274 folios in order of succession, with gaps, followed by 5 folios, with foliation lost, which must fill some of the gaps. More precisely: Tamil foliation 1-33, 35-38, 40-48, <unclear>49</unclear>, 50-55, 58-60, <supplied reason="lost">61</supplied>, 62-68, <supplied reason="lost">69</supplied>, <supplied reason="lost">70</supplied>, 71-161, 72-223, <supplied reason="lost">224</supplied>, 225-230, 232-239, 241-263, 266-268, 270-275, 277-278, <choice><unclear>279</unclear><unclear>280</unclear></choice>, 281.1, 281.2, 283, <supplied reason="lost">284</supplied> (this folio is unblackened and found between blackened folios; hence, it is most probably misplaced), 285-286 + 5 folios (lf 275-279; lost foliation). Library black pencil Arabic foliation 1-279.</desc><desc xml:id="U2a">2 folios = <emph rend="bold"><title xml:lang="ta">Tiruttoṇṭattokai</title></emph>. Tamil foliation 1-2. From f1r1 to f2v1.
+</desc><desc xml:id="U2b">278 folios = <emph rend="bold"><title xml:lang="ta">Periya Purāṇam</title></emph>. Tamil foliation 2-286 with foliation gaps/missing folios. From f2v1 to f286v2.
 </desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>.</desc></collation></supportDesc>
                      <layoutDesc>
                         
@@ -69,8 +69,8 @@
   <lb n="1"/>Periyap<unclear>u</unclear><supplied reason="lost">rāṇam</supplied>
   <lb n="2"/><gap reason="illegible"/>
   <lb n="3"/><gap reason="illegible"/> saints
-  </quote></desc><desc synch="#U2a #U2b" type="title">Left marginal titles.</desc><desc synch="#U2b" type="intertitle">Left marginal intertitles.</desc></additions>
-               <bindingDesc><binding><p>Original <material cert="medium">wood</material> covers.
+  </quote></desc><desc synch="#U2a #U2b" type="title">Left-marginal titles. See selection below.</desc></additions>
+               <bindingDesc><binding><p>Original <material cert="medium">wood</material> covers. 425 x 30 mm. With a wooden stick (to be threaded into one of the two holes), now broken in two pieces.
 </p></binding></bindingDesc></physDesc>
                <history>
                   <origin>
@@ -95,7 +95,7 @@
          
          
       <change when="2022-01">Record created by Emmanuel FRANCIS.</change></revisionDesc>
-   <encodingDesc><p>TBC</p></encodingDesc></teiHeader>
+   <encodingDesc><p>TBC. lf = library foliation.</p></encodingDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
    <facsimile>
       
    <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b52512560q/manifest.json"/></facsimile>
@@ -124,18 +124,18 @@
   <lb n="4-6" break="no"/><seg function="intertitle">cuntarapperumāl nayiṉār tiruvākku</seg>
   
   <milestone unit="main-text-area"/>
-<seg function="invocation">
-  <lg>
-    <l>
-      <lb n="1"/>tiruvākkuñ ceykaruma<surplus>ṉ</surplus>ṅ kai kūṭṭuñ ceñcoṟ</l> <l>peruvākkum vītum perukku muruvākku</l> <l>mātalāl vāṉōru māṉai mukattāṉaik</l> <l>kātalāṟ kūppu kataṅ kai</l></lg> <g ref="#pcs"/></seg>
+  
+<seg function="invocation"><lg><l><lb n="1"/>tiruvākkuñ ceykaruma<surplus>ṉ</surplus>ṅ kai kūṭṭuñ ceñcoṟ</l> <l>peruvākkum vītum perukku muruvākku</l> <l>mātalāl vāṉōru māṉai mukattāṉaik</l> <l>kātalāṟ kūppu kataṅ kai</l></lg> <g ref="#pcs"/></seg>
+  
 <lb n="2"/><seg function="blessing">tiruccittampalam ~</seg> <seg function="invocation"><lg><l>Ulak<pc>'</pc> elām uṇarnt<pc>'</pc> ōtaṟk<pc>'</pc> ariyava</l><l>ṉilav<pc>'</pc> ulāviya nīr mali vēṇiya</l><l>ṉ alakil cōtiyaṉ ampalatt<pc>'</pc> āṭuvāṉ</l> <l>malar cilamp<pc>'</pc>aṭi vāḻtti vaṇaṅkuvām</l></lg> ~ 1 ~</seg>
-  <lb n="3"/><seg function="incipit">tillai vāḻ antaṇar tamm aṭiyārkkum aṭiyēṉ tirunīlakaṇṭattuk kuyavaṉārkku aṭiyē‡ṉ <gap reason="ellipsis"/></seg>
+  
+  <seg function="incipit"><lg><l><lb n="3"/>tillai vāḻ antaṇar tamm aṭiyārkkum aṭiyēṉ tirunīlakaṇṭattuk kuyavaṉārkku aṭiyē</l><l>ṉ <gap reason="ellipsis"/></l></lg></seg>
 
    <pb facs="7" n="2r"/>
-  <lb n="8"/><seg function="explicit"><gap reason="ellipsis"/> kō‡ṉ aṉṉavaṉ ām ārūraṉ aṭimai kēṭṭu kāppar ārūril a
+  <lb n="8"/><seg function="explicit"><lg><l><gap reason="ellipsis"/> kō</l><l>ṉ aṉṉavaṉ ām ārūraṉ aṭimai kēṭṭu kāppar ārūril a
    
   <pb facs="8" n="2v" break="no"/>
-  <lb n="1"/>mmāṉukk’ aṉpar āvārē ‡‡ ~ 10 1 ~</seg><note xml:lang="en">Periya Purāṇam starts her on the same line</note>
+  <lb n="1"/>mmāṉukk’ aṉpar āvārē</l></lg> ~ 10 1 ~</seg><note xml:lang="en" place="foot">Periya Purāṇam starts here on the same line</note>
   
 </body></text><text synch="#U2b" corresp="#T3" xml:lang="ta"><body>
   
@@ -147,8 +147,9 @@
   
   <milestone unit="main-text-area"/>
   <seg function="invocation"><lb n="1"/><note xml:lang="en">Tiruttoṇṭattokai ends here at the beginning of this line</note>
-    <lg><l>Ulak<pc>'</pc> elām uṇarnt<pc>'</pc> ōtaṟk<pc>'</pc> ariyava</l><l>ṉilav<pc>'</pc> ulāviya nīr mali vēṇiya</l><l>ṉ alakil cōtiyaṉ ampalatt<pc>'</pc> āṭuvāṉ</l> <l>malar cilamp<pc>'</pc>aṭi vāḻtti vaṇaṅkuvām</l></lg> ~ 1 ~</seg> <seg function="incipit">Ūṉ a
-  <lb n="2" break="no"/>ṭainta v<pc>-</pc>uṭtampiṉ piṟaviyē ‡ tāṉ aṭainta v<pc>-</pc>uṟutiyaic cārum āṟ ‡ ṟēṉ aṭainta malarp poḻiṟ ṟillaiyuṇ ‡ mānaṭañ cey varatar poṟṟāṭoḻa ‡‡ ~ 2 ~</seg> <gap reason="ellipsis"/>
+    
+    <lg><l>Ulak<pc>'</pc> elām uṇarnt<pc>'</pc> ōtaṟk<pc>'</pc> ariyava</l><l>ṉilav<pc>'</pc> ulāviya nīr mali vēṇiya</l><l>ṉ alakil cōtiyaṉ ampalatt<pc>'</pc> āṭuvāṉ</l> <l>malar cilamp<pc>'</pc>aṭi vāḻtti vaṇaṅkuvām</l></lg> ~ 1 ~</seg> <seg function="incipit"><lg><l>Ūṉ a
+  <lb n="2" break="no"/>ṭainta v<pc>-</pc>uṭtampiṉ piṟaviyē</l> <l>tāṉ aṭainta v<pc>-</pc>uṟutiyaic cārum āṟ</l> <l>ṟēṉ aṭainta malarp poḻiṟ ṟillaiyuṇ</l> <l>mānaṭañ cey varatar poṟṟāṭoḻa</l></lg> ~ 2 ~</seg> <gap reason="ellipsis"/>
   
      <pb facs="545" n="283r"/><note xml:lang="en">unblackened</note>
    <pb facs="556" n="283v"/><note xml:lang="en">unblackened</note>
@@ -158,15 +159,15 @@
    <pb facs="551" n="286r"/><note xml:lang="en">unblackened</note>
  <pb facs="552" n="286v"/><note xml:lang="en">unblackened</note>
   
-   <lb n="1"/><gap reason="ellipsis"/> <g ref="#pcs"/> 52 <g ref="#pcs"/> <seg function="metre">vēṟu</seg> <g ref="#pcs"/> <seg function="explicit">eṉṟum iṉpam perukum iyalpiṉā‡l oṉṟu kātaliṉ uḷḷamum ōṅkiṭa ‡ maṉṟ<pc>'</pc> uḷār aṭiyār yiyara pukaḻ ‡ niṉṟat<pc>'</pc> eṅku nilavi y<pc>-</pc>ulak<pc>'</pc> elām ‡‡ <g ref="#pcs"/> 53 <g ref="#pcs"/></seg> <seg function="colophon"><seg function="completion-statement">tiruveḷḷāṉaiccarukkamuṟ
+   <lb n="1"/><gap reason="ellipsis"/> <g ref="#pcs"/> 52 <g ref="#pcs"/> <seg function="metre">vēṟu</seg> <g ref="#pcs"/> <seg function="explicit"><lg><l>eṉṟum iṉpam perukum iyalpiṉā</l><l>l oṉṟu kātaliṉ uḷḷamum ōṅkiṭa</l> <l>maṉṟ<pc>'</pc> uḷār aṭiyār yiyara pukaḻ</l> <l>niṉṟat<pc>'</pc> eṅku nilavi y<pc>-</pc>ulak<pc>'</pc> elām</l></lg> <g ref="#pcs"/> 53 <g ref="#pcs"/></seg> <seg function="colophon"><seg function="completion-statement">tiruveḷḷāṉaiccarukkamuṟ
  <lb n="2" break="no"/>ṟum <g ref="#pcs"/></seg> <seg function="total-stanzas">Āka virut=ta<seg rend="grantha">m</seg> 1000 100 3 10 8 <g ref="#pcs"/></seg> <seg function="total-chapters total-stanzas">Āka kāṇṭa<seg rend="grantha">m</seg> 2k=ku tiruvirut=ta<seg rend="grantha">m</seg> curuk=kam 10 1k=ku tiruvirut=ta<seg rend="grantha">m</seg> 4 100 2 100 8 10 1 <g ref="#pcl"/></seg> <seg function="completion-statement">tirucciṟṟampala<seg rend="grantha">m</seg> periyapurāṇa<seg rend="grantha">=m</seg> campūrṇamum Eḻuti muṭintatu <g ref="#pcs"/></seg> <seg function="blessing">kuruvē namaḥ <g ref="#pcs"/> <g ref="#pcl"/></seg></seg>
 
  
-  <pb facs="553" n="???"/><note xml:lang="en">folio with left margin truncated and foliation lost; to be placed at its right place above in one of the gaps.</note>
-  <pb facs="555" n="???"/><note xml:lang="en">folio with left margin truncated and foliation lost; to be placed at its right place above in one of the gaps.</note>
-  <pb facs="557" n="???"/><note xml:lang="en">folio with left margin truncated and foliation lost; to be placed at its right place above in one of the gaps.</note>
-  <pb facs="559" n="???"/><note xml:lang="en">folio with left margin truncated and foliation lost; to be placed at its right place above in one of the gaps.</note>
-  <pb facs="561" n="???"/><note xml:lang="en">folio with left margin truncated and foliation lost; to be placed at its right place above in one of the gaps.</note>
+  <pb facs="553" n="???"/><note xml:lang="en">folio with left margin truncated and foliation lost; to be placed at its right place above in one of the foliation gaps.</note>
+  <pb facs="555" n="???"/><note xml:lang="en">folio with left margin truncated and foliation lost; to be placed at its right place above in one of the foliation gaps.</note>
+  <pb facs="557" n="???"/><note xml:lang="en">folio with left margin truncated and foliation lost; to be placed at its right place above in one of the foliation gaps.</note>
+  <pb facs="559" n="???"/><note xml:lang="en">folio with left margin truncated and foliation lost; to be placed at its right place above in one of the foliation gaps.</note>
+  <pb facs="561" n="???"/><note xml:lang="en">folio with left margin truncated and foliation lost; to be placed at its right place above in one of the foliation gaps.</note>
   
 
   </body></text></TEI>
