@@ -19,7 +19,7 @@
                   </repository>
                   
                   <idno type="shelfmark">Indien 11a</idno>
-                  <idno type="alternate"><idno>Tamoul 11</idno><idno>Ariel TBC</idno></idno>
+                  <idno type="alternate"><idno>Tamoul 11</idno><idno>Ariel TBC</idno><idno>c/82</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103142g</idno></msIdentifier>
                <msContents class="#MTM">
                   <summary>A multi-text manuscript containing:  
@@ -112,4 +112,44 @@
     <sourceDoc>
         <surface/>
     </sourceDoc>
-<facsimile/><text synch="#U1" corresp="#T1" xml:lang="ta"/><text synch="#U2" corresp="#T2" xml:lang="ta"/></TEI>
+<facsimile/><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+  
+  <pb facs="0" n="1r"/>
+  
+   <milestone unit="left-margin"/>
+        <seg function="blessing"><lb n="1"/>civamaya<seg rend="grantha">m·</seg></seg>
+        <seg function="title"><lb n="2"/>tēvipūcāviti</seg>
+  
+   <milestone unit="main-text-area"/>
+  <seg function="incipit"><lb n="1"/><gap reason="ellipsis"/></seg>
+
+      
+    <pb facs="0" n="4r"/>
+  <milestone unit="left-margin"/>
+        <seg function="intertitle">Aṟcaṉai</seg>
+  
+   <pb facs="0" n="8r"/>
+  <seg function="explicit"><lb n="3"/><gap reason="ellipsis"/>śrīṟājaṟājecuvari yiṣṭṭa
+<lb n="4"/>kāyoṟta palacittiṟ as·tu {pcs}</seg>
+  
+      <pb facs="0" n="8v"/><note xml:lang="en">blank</note>
+
+</body>
+</text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
+  
+  <pb facs="0" n="1r"/>
+  
+   <milestone unit="left-margin"/>
+   <seg function="title"><lb n="1-3"/>Amuṟtakeṭpūjāvitāṉam </seg>
+   <seg function="intertile"><lb n="4-5"/>kurus·tōttiram</seg>
+  
+   <milestone unit="main-text-area"/>
+  <seg function="incipit"><lb n="1"/><gap reason="ellipsis"/></seg>
+
+  <pb facs="0" n="22v"/>
+  <seg function="explicit">
+    <lb n="6"/><gap reason="ellipsis"/>
+<lb n="7"/><gap reason="ellipsis"/> {pcs}</seg>
+  
+</body>
+</text></TEI>
