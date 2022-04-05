@@ -19,7 +19,7 @@
                   </repository>
                   
                   <idno type="shelfmark">Indien 10d</idno>
-                  <idno type="alternate"><idno>Tamoul 10</idno></idno>
+                  <idno type="alternate"><idno>Tamoul 10</idno><idno>Ariel 122</idno><idno>c/47</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1031416</idno></msIdentifier>
                <msContents class="#STM">
                   <summary>The <title xml:lang="ta">Koṅkaṇar Pāṭal</title>.</summary>
@@ -52,7 +52,7 @@
                         <condition>Very good state of preservation. </condition>
                      <collation>
                      
-                     <desc xml:id="U1">11 folios = <emph rend="bold"><title xml:lang="ta">Koṅkaṇar Pāṭal</title></emph>. Tamil foliation {1}, 2-11.</desc></collation></supportDesc>
+                     <desc xml:id="U1">11 folios = <emph rend="bold"><title xml:lang="ta">Koṅkaṇar Pāṭal</title></emph>. Tamil foliation {1}, 2-11. f11v blank.</desc></collation></supportDesc>
                      <layoutDesc>
                         <p/>
                      </layoutDesc>
@@ -113,13 +113,14 @@
   <pb facs="0" n="[1]r"/>
   
   <milestone unit="left-margin"/>
-  <lb n="1"/>
+  <seg function="blessing"><lb n="1"/>{pcs}<term xml:lang="sa">hari Om</term></seg>
+<seg function="title"><lb n="2-4"/>koṅkaṇar cuvāmi pāṭal</seg>
   
    <milestone unit="main-text-area"/>
-    <lb n="1"/>
+  <seg function="incipit"><lb n="1"/><gap reason="ellipsis"/></seg>
 
   <pb facs="0" n="11r"/>
-      <lb n="8"/>
+      <seg function="explicit"><lb n="8"/>Aṉṉē {pcs} 5 10 {pcs}</seg> <seg function="colophon"><seg function="completion-statement">koṅkaṇar cuvāmiyār Aṉpatu muṟṟu=M {pcs}</seg> <seg function="blessing">vālampikai leṭcikka vēṇum {pcs}</seg></seg>
   
     <pb facs="0" n="11v"/><note xml:lang="en">blank</note>
 
