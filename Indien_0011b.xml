@@ -19,7 +19,7 @@
                   </repository>
                   
                   <idno type="shelfmark">Indien 11b</idno>
-                  <idno type="alternate"><idno>Tamoul 11</idno><idno>Ariel TBC</idno></idno>
+                  <idno type="alternate"><idno>Tamoul 11</idno><idno>Ariel TBC</idno><idno>c/82</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103142g</idno></msIdentifier>
                <msContents class="#MTM">
                   <summary>A multi-text manuscript containing:  
@@ -113,4 +113,56 @@
     <sourceDoc>
         <surface/>
     </sourceDoc>
-<facsimile/><text synch="#U1" corresp="#T1" xml:lang="ta"/><text synch="#U2" corresp="#T2" xml:lang="ta"/><text synch="#U2" corresp="#T3" xml:lang="ta"/></TEI>
+<facsimile/><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+  
+  <pb facs="0" n="1r"/>
+  
+   <milestone unit="left-margin"/>
+   <seg function="title"><lb n="1-4"/>koṅkaṇar pūcāviti</seg>
+  
+   <milestone unit="main-text-area"/>
+  <seg function="incipit"><lb n="1"/>parāparattil aṭaintu <gap reason="ellipsis"/></seg>
+  
+   <pb facs="0" n="10v"/>
+  <seg function="explicit"><lb n="1" break="no"/>la vaṇaṅ kēḷē {pcs} 3 10 {pcs}</seg> <seg function="blessing">civamayam {pcs}</seg> <seg function="blessing">tirucciṟṟampalam {pcs}</seg>
+  
+      <pb facs="0" n="8v"/><note xml:lang="en">blank</note>
+
+</body>
+</text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
+  
+  <pb facs="0" n="1r"/>
+  
+   <milestone unit="left-margin"/>
+   <seg function="blessing"><lb n="1"/>civāya kuruvē namā</seg>
+<seg function="blessing"><lb n="2-3"/>śrī makāmavuṉa tēcikaṉ pāta-kamalamē tuṇai</seg>
+  <seg function="blessing"><lb n="4-7"/><persName xml:lang="ta" role="author">pōkamuṉinātaṉ</persName> Aruḷic ceyta navakōṇavālaipūcāviti</seg>
+  
+   <milestone unit="main-text-area"/>
+  <seg function="incipit"><lb n="1"/><gap reason="ellipsis"/></seg>
+  
+   <pb facs="0" n="3v"/>
+  <seg function="explicit"><lb n="4"/><gap reason="ellipsis"/><lb n="5"/>– 6 –</seg>
+  
+
+</body>
+</text><text synch="#U3" corresp="#T3" xml:lang="ta"><body>
+  
+  <pb facs="0" n="1r"/>
+  
+   <milestone unit="left-margin"/>
+   <seg function="blessing"><lb n="1"/>Om</seg> <seg function="blessing">kuru
+<lb n="2"/>vāḻka</seg> <seg function="blessing">kuru
+<lb n="3"/>vē tuṇai {pcs}</seg>
+<seg function="title"><lb n="4-5"/>maṣcamuni tīṣṣai</seg>
+  
+   <milestone unit="main-text-area"/>
+  <seg function="incipit"><lb n="1"/><gap reason="ellipsis"/></seg>
+  
+   <pb facs="0" n="20v"/>
+  <seg function="explicit"><lb n="4"/><gap reason="ellipsis"/> tīṭcai col nūru muṟṟē {pcs} 100 {pcs} {pcs}</seg>
+                   <seg function="colophon"><lb n="5"/><seg function="completion-statement">muṟṟum {pcl}</seg> <seg function="blessing">tirucciṟṟampalam {pcl}</seg></seg>
+
+
+</body>
+</text></TEI>
