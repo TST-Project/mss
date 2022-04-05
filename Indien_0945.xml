@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><title xml:lang="ta">Kallāṭam</title></title>
+            
+         <editor><persName>Eva WILDEN</persName><orgName>Universität Hamburg</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2022</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Indien 945</idno>
+                  <idno type="alternate"/>
+               </msIdentifier>
+               <msContents class="#STM">
+                  <summary><p>Incomplete text of the <title xml:lang="ta">Kallāṭam</title> (KV-99).</p>
+<p>Up to <locus facs="9">f. 3r</locus> for the 2 KV, <locus facs="10">f. 3v</locus> blank, <locus facs="11">f. 4r</locus> Kal. 1, poem beginnings marked by a <term xml:lang="ta">tuṟai</term> on the left margin of the column (not identical with the <term xml:lang="ta">Kaḻakam tuṟai</term>-s).</p></summary>
+                  
+               <msItem defective="false"><title xml:lang="ta">Kallāṭam</title><textLang mainLang="tam"/><incipit xml:lang="ta-Taml"><milestone n="1r" facs="5" unit="folio"/>
+<lb n="1"/>திங்கண்முடி பொறுத்த பொன்மலை யருவி
+<lb n="2"/>கருமணி கொழித்த தோற்றம் போல
+<lb n="3"/>விருகவுள் கவிழ்த்த மதநதி யுவட்டின்
+<lb n="4"/>வண்டினம் புரளும் வயங்குபுகர் முகத்த
+<lb n="5"/>செங்கதிர்த் திரளெழு கருங்கடல் போல
+<lb n="6"/>முக்கண் மேற்பொங்கும் வெள்ளமறி கடத்த
+<lb n="7"/>பெருமலைச் சென்னியிற் சிறுமதி கிடந்தெனக்</incipit><explicit xml:lang="ta-Taml"><milestone n="103r" facs="209" unit="folio"/><note xml:lang="en">end of <title xml:lang="ta">Kallāṭam</title> 99 (line split problems!)</note>
+<lb n="1"/><subst><del>ல</del><add place="above">ம</add></subst>னமுன்வயின்று காருட<subst><del>லு</del><add place="above">ல</add></subst><subst><del>ண</del><add place="overwritten">ணு</add></subst>ங்கிய
+<lb n="2"/>பைங்கடகறையடி சென்னி தூக்கி
+<lb n="3"/>நின்ற<del>ன</del> காட்டு நெடு<del>மறையத</del><add>ம்பையக்ள்வேய்சில்லிடக்</add>
+<lb n="4"/>குரம்பையின் மற்றதன் றொலிலுற்றிருவவீருங்
+<lb n="5"/>கண்படுத்திரவி <subst><del>கா</del><add place="overwritten">கீ</add></subst>றுமுனண்படநும்பதிக்
+<lb n="6"/>கெதுவகடனே. முற்றும்</explicit></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="pothi">
+                     <supportDesc material="palm-leaf palmyra">
+                        <support>
+                           <measure unit="stringhole" quantity="2"/>
+                           
+                        </support>
+                        <extent>
+                           <measure unit="folio" quantity="105">title folio, unnumbered folio, 1-103, guard leaf</measure>
+                           <dimensions type="leaf" unit="mm">
+                              <width quantity="460"/>
+                              <height quantity="35"/>
+                           </dimensions>
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
+                        <collation/>
+                        
+                        <condition>Good condition.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="3" writtenLines="7 8">3 columns with line split and indented, adjusted right marginal letter.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc><handNote scope="minor" script="tamil" scriptRef="#tamilPulliRegular"><desc>Satellite stanzas with modern script with puḷḷi.</desc></handNote><handNote scope="major" script="tamil" scriptRef="#tamilPulliSporadic"><desc>Poems modern, but with irregular puḷḷi.</desc></handNote><handNote scope="minor" script="tamil"><desc>Corrector in ink cursive.</desc></handNote></handDesc>
+                  <decoDesc>
+                  </decoDesc>
+                  <additions>
+                  <desc type="title blessing" subtype="title-page"><locus facs="1">Title folio</locus>: <q xml:lang="ta">veṟṟivēluṟṟatuṇai</q>, {seal}, <q>b/12</q>, <q xml:lang="ta">kallāṭa mūlam</q>; verso blank
+</desc><desc type="title blessing" subtype="beginning marginal left"><locus facs="3">unnumbered folio 1r</locus>: <q xml:lang="ta">veṟṟivēluṟṟa tuṇai, kallāṭa mūlapāṭam, ciṟappuppāyiram</q></desc><desc type="satellite-stanza" subtype="beginning"><locus facs="3">unnumbered folio 1r</locus>: <quote xml:lang="ta-Taml" rend="block"><lg>
+  <l>வாய்ந்தபொருட் கொருபொருளாய்க் கலைவாணிக் கருள்கொழிக்கு மனமாய்ப்பாரி</l>
+  <l>னாய்ந்தமுது தமிழ்வடித்துக் கல்லாட மெனவொருநூ லருளி யிட்டார்</l>
+  <l>தேய்ந்தமதிச் சடைப்பரமர் கருணைபெறச் சங்கமுது செல்வர் வாழ்த்தக்</l>
+  <l>காய்ந்தபுல னடக்கியுயர் பெருஞானம் பழுத்தருள்கல் லாடனாரே</l></lg></quote></desc><desc type="commenting-note" subtype="beginning marginal left"><locus facs="4">unnumbered folio 1v</locus>: <q xml:lang="ta">veṇpā</q></desc><desc type="satellite-stanza" subtype="beginning"><locus facs="4">unnumbered folio 1v</locus>: <quote xml:lang="ta-Taml" rend="block"><lg>
+  <l>கல்லாடர் செய்பனுவற் கல்லாட நூறுநூல்</l>
+  <l>வல்லார் சங்கத்தில் வதிந்தருளிச் – சொல்லாயு</l>
+  <l>மாமதுரை யீசர் மனமுவந்து கேட்டுமுடி</l>
+  <l>தாமசைத்தார் நூறு தரம்.</l></lg></quote></desc><desc type="intertitle title" subtype="beginning marginal left"><locus facs="5">f. 1r</locus> margin: <q xml:lang="ta">kallāṭam teyvavaṇakkam</q></desc><desc type="title commenting-note" subtype="guard-folio"><locus facs="210">guard leaf</locus> with sticker: <q xml:lang="fr">S.A. Kallȃðam, POÈME</q></desc></additions>
+                  <bindingDesc>
+                     <binding><p>No wood covers.</p></binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian"/>
+                     
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl><title xml:lang="ta">Kallāṭam. Maturaiccaṅkattut teyvattamiḻp pulavarākiya Kallāṭar aruḷi ceytatu.</title> Ed. by <persName xml:lang="ta">Mīṉāṭcicuntarampiḷḷai</persName>, <placeName xml:lang="ta">Ceṉṉai</placeName>: <orgName xml:lang="ta">Malaiccālaiyilirukkum Attinīyam aṇṭ ṭēliniyūs pirāṇc accukkūṭam</orgName>, <term xml:lang="ta">vipava <g ref="#varudam"/>, aippaci <g ref="#maatham"/></term>.</bibl><bibl><title xml:lang="ta">Kallāṭam</title>. Ed. by <persName xml:lang="ta">Po.Vē. Cōmacuntaraṉ</persName>, <orgName xml:lang="ta">Caivacittānta Nūṟpatippuk Kaḻakam</orgName>, <placeName xml:lang="ta">Ceṉṉai</placeName> 1975 (rep. of 1963).</bibl><bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f171">supplement f. 2v</ref>.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         
+      <p>Mixed Tamil script and Roman transliteration.</p></encodingDesc>
+      <revisionDesc>
+         
+      <change when="2022-04">First version.</change></revisionDesc>
+   <xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
+   <facsimile>
+   <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525107060/manifest.json"/></facsimile>
+</TEI>
