@@ -19,17 +19,17 @@
                   </repository>
                   
                   <idno type="shelfmark">Indien 11</idno>
-                  <idno type="alternate"><idno>Tamoul 11</idno><idno>Ariel TBC</idno></idno>
+                  <idno type="alternate"><idno>Tamoul 11</idno><idno>Ariel TBC</idno><idno>c/82</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103142g</idno></msIdentifier>
                <msContents class="#CM">
                   <summary>A composite manuscript containing:  
 <list>
-  <item>the <title xml:lang="ta">Tēvipūcāviti</title> (Indien 11a, U1)</item>
-  <item>the <title xml:lang="ta">Amirtakaṭpūcāvitāṉam</title> (Indien 11a, U2)</item>
-  <item>the <title xml:lang="ta">Koṅkaṇar Pūcāviti</title> (Indien 11b, U2)</item>
-  <item>the <title xml:lang="ta">Navakōṇavālaipūcāviti</title> (Indien 11b, U3)</item>
-  <item>the <title xml:lang="ta">Maccamunitīṭcai</title> (Indien 11b, U4)</item>
-  <item>a <foreign xml:lang="ta">mantiram</foreign> (U2)</item>
+  <item>The <title xml:lang="ta">Tēvipūcāviti</title> (Indien 11a, U1).</item>
+  <item>The <title xml:lang="ta">Amirtakaṭpūcāvitāṉam</title> (Indien 11a, U2).</item>
+  <item>The <title xml:lang="ta">Koṅkaṇar Pūcāviti</title> (Indien 11b, U2).</item>
+  <item>The <title xml:lang="ta">Navakōṇavālaipūcāviti</title> (Indien 11b, U3).</item>
+  <item>The <title xml:lang="ta">Maccamunitīṭcai</title> (Indien 11b, U4).</item>
+  <item>A <foreign xml:lang="ta">mantiram</foreign> (U2).</item>
   </list></summary>
                   
                   
@@ -60,7 +60,7 @@
                         <condition>Very good state of preservation. </condition>
                      <collation>
                      
-                     <desc xml:id="cover">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">Title Page (additional)</emph>. No foliation. 155 x 30 mm.</desc><desc xml:id="11a">31 folios.</desc><desc xml:id="11b">33 folios.</desc><desc xml:id="U2">1 folio = <emph rend="bold">guard leaf (additional)</emph>. No foliation. Half of double folio. 155 x 30 mm.</desc></collation></supportDesc>
+                     <desc xml:id="cover">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">Title Page (additional)</emph>. No foliation. 155 x 30 mm.</desc><desc xml:id="11a">31 folios.</desc><desc xml:id="11b">33 folios.</desc><desc xml:id="U2">1 folio = <emph rend="bold">guard leaf (additional)</emph>. No foliation. Half of double folio. Verso blank. 155 x 30 mm.</desc></collation></supportDesc>
                      <layoutDesc>
                         <p/>
                      </layoutDesc>
@@ -116,4 +116,41 @@
     <sourceDoc>
         <surface/>
     </sourceDoc>
-<facsimile/><text synch="#U1" corresp="#T1" xml:lang="ta"/><text synch="#U2" corresp="#T2" xml:lang="ta"/></TEI>
+<facsimile/><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+  
+  <pb facs="0" n="[1]r"/>
+  
+   <milestone n="1" unit="column"/>
+    <seg function="title">
+    <lb n="1"/>viratam
+    <lb n="2"/>Āru
+  </seg>
+  
+   <milestone n="2" unit="column"/>
+  <seg function="title"><lb n="1"/>tēvipūcāviti</seg>
+<seg function="title"><lb n="2"/>Amirtakaṭpūcāvitānam</seg>                                                      
+<seg function="title"><lb n="3"/>koṅkaṇar pūcāviti</seg>
+<seg function="title"><lb n="4"/>navakōṇavālai pūcāviti</seg>
+<seg function="title"><lb n="5"/>maccamunitiṭcai</seg>
+<seg function="title"><lb n="6"/>mantiram</seg>
+
+      
+    <pb facs="0" n="[1]v"/>
+  <lb n="1"/><gap reason="illegible" quantity="2" unit="character"/>
+
+</body>
+</text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
+  
+  <pb facs="0" n="[1]r"/>
+  
+  <lb n="1"/>vaṭak=ku vociya=M – <term xml:lang="sa">Om</term> Am Ūm Ai<seg rend="grantha">ṃ</seg> kiliyu=M cavu=M va ci ma na ya
+<lb n="2"/>25 – 100 – naivetiya=M paramāṉa=M tūpatīpam veṇpaṭṭu kāppu
+<lb n="3"/>kuḷicamāṭalu=M ~ <gap reason="illegible" quantity="1" unit="character"/>kai taṅkat takaṭu cak=karam <gap reason="illegible" quantity="3" unit="character"/>
+<lb n="4"/>ṇa=m koṇ <gap reason="illegible" quantity="3" unit="character"/> ticatīṭcai Ekāṣṣāmūlam
+<lb n="5"/>tirunīlakaṇṭa mantiram laṭcamuru {pcl}
+
+      
+    <pb facs="0" n="[1]v"/><note xml:lang="en">blank</note>
+
+</body>
+</text></TEI>
