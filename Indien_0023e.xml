@@ -25,7 +25,7 @@
                   <summary>The <title xml:lang="ta">Caṅkarānantakaḷippu</title>.</summary>
                   
                   
-               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Caṅkarānantakaḷippu</title><textLang mainLang="tam"/></msItem></msContents>
+               <msItem synch="#U1a" xml:id="T1" defective="false"><title xml:lang="ta">Caṅkarānantakaḷippu: <term xml:lang="en">Invocation</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U1b" xml:id="T2" defective="false"><title xml:lang="ta">Caṅkarānantakaḷippu: Mūlam</title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
@@ -52,7 +52,7 @@
                         <condition>Relatively good state of preservation, despite boreholes. </condition>
                      <collation>
                      
-                     <desc xml:id="U1">6 folios = <emph rend="bold"><title xml:lang="ta">Caṅkarānantakaḷippu</title></emph>. Tamil foliation 27-32.</desc></collation></supportDesc>
+                     <desc xml:id="U1">6 folios = <emph rend="bold"><title xml:lang="ta">Caṅkarānantakaḷippu</title></emph>. Tamil foliation 27-32. f27v blank.</desc><desc xml:id="U1a">1 folio = <emph rend="bold"><title xml:lang="ta">Caṅkarānantakaḷippu</title>: Invocation</emph>. Tamil foliation 27. f27v blank.</desc><desc xml:id="U1b">5 folios = <emph rend="bold"><title xml:lang="ta">Caṅkarānantakaḷippu</title></emph>: Text. Tamil foliation 28-32.</desc></collation></supportDesc>
                      <layoutDesc>
                         <p/>
                      </layoutDesc>
@@ -61,7 +61,7 @@
                      
                      
                     
-                  <handNote synch="#U1" scope="major" script="tamil" medium="incised soot"/></handDesc>
+                  <handNote synch="#U1 #U1a #U1b" scope="major" script="tamil" medium="incised soot"/></handDesc>
                   <additions>
                   
                      
@@ -90,7 +90,7 @@
                <additional>
                   <listBibl>
                      
-                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f23">p. 5, no. 23</ref>.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. (1866-). <title> Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f25">f. 5r = p. 5 , no. 23</ref>. </bibl><bibl>Rosny, Léon de (1868). <title type="article">La bibliothèque tamoule de M. Ariel, de Pondichéry</title>. In: <title>Variétés orientales</title> (pp. 177‒224). Paris: Maisonneuve. </bibl><bibl>Vinson, Julien (1867). <title>Catalogue des manuscrits tamouls</title>. Corrected proofreadings printed by the atelier oriental de l’Imprimerie nationale. BnF “4-IMPROR-77 (B)” — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b105333021/f19">p. 5, no. 23</ref>.</bibl></listBibl>
+                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f23">p. 5, no. 23</ref>.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. (1866-). <title> Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f25">f. 5r = p. 5 , no. 23</ref>. </bibl><bibl>Rosny, Léon de (1868). <title type="article">La bibliothèque tamoule de M. Ariel, de Pondichéry</title>. In: <title>Variétés orientales</title> (pp. 177‒224). Paris: Maisonneuve. </bibl><bibl>Vinson, Julien (1868). <title>Catalogue des manuscrits tamouls</title>. Corrected proofreadings printed by the atelier oriental de l’Imprimerie nationale. BnF “4-IMPROR-77 (B)” — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b105333021/f19">p. 5, no. 23</ref>.</bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
@@ -108,12 +108,31 @@
     <sourceDoc>
         <surface/>
     </sourceDoc>
-<facsimile/><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+<facsimile/><text synch="#U1a" corresp="#T1" xml:lang="ta"><body>
   
-  <pb facs="o" n="[1]r"/>
+  <pb facs="o" n="27r"/>
   
   <milestone unit="left-margin"/>
-  <lb n="1"/>
+  <seg function="title"><lb n="1-3"/>caṅkarā<supplied reason="omitted">ṉa</supplied>ntakaḷippu</seg>
   
+  <milestone unit="main-text-area"/>
+  <seg function="incipit"><lb n="1"/>Āṉantamāṉa <gap reason="ellipsis"/></seg>
+  <lb n="2"/><gap reason="ellipsis"/> {pcs} <seg function="blessing">kuruvē tuṇai {pcl}</seg>
+  <lb n="3"/>Āṉantamāṉa <gap reason="ellipsis"/>
+  <lb n="4"/><del><gap reason="ellipsis"/>{pcs}</del>
+  <lb n="5"/><del><gap reason="illegible" quantity="2" unit="character"/> mūlapāṭam {pcs}</del>
+
+  
+    <pb facs="o" n="27v"/><note xml:lang="en">blank</note>
+
+  
+</body></text><text synch="#U1b" corresp="#T2" xml:lang="ta"><body>
+  
+  <pb facs="o" n="28r"/>
+  <seg function="incipit"><lb n="1"/><gap reason="ellipsis"/></seg>
+  
+    <pb facs="o" n="32r"/>
+    <seg function="explicit"><lb n="2" break="no"/>ṇi maṅkaiyil vāḻvōṉ {pcs} 2 10 3 {pcs}<gap reason="ellipsis"/></seg>
+
   
 </body></text></TEI>
