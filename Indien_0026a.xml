@@ -24,8 +24,8 @@
                <msContents class="#MTM">
                   <summary>A multi-text manuscript containing:  
 <list>
-  <item>the <title xml:lang="ta">Civāñāṉapōtam</title> (f1-f10 = U1a)</item>
-  <item>the <title xml:lang="ta">Vayirākatīpam</title> (f11-f24 = U1b)</item>
+  <item>The <title xml:lang="ta">Civāñāṉapōtam</title> (f1-f10 = U1a).</item>
+  <item>The <title xml:lang="ta">Vayirākatīpam</title> (f11-f24 = U1b).</item>
 </list></summary>
                   
                   
@@ -75,7 +75,7 @@
                     
                     
                      
-                  </additions>
+                  <desc synch="#U1a" type="intertitle" subtype="marginal left">Left-marginal intertitles.</desc></additions>
                   <bindingDesc>
                      <binding>
                         
@@ -94,7 +94,7 @@
                <additional>
                   <listBibl>
                      
-                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f24">p. 6, no. 26</ref>.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. (1866-). <title> Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f29">f. 7r = p. 7 , no. 26</ref>. </bibl><bibl>Rosny, Léon de (1868). <title type="article">La bibliothèque tamoule de M. Ariel, de Pondichéry</title>. In: <title>Variétés orientales</title> (pp. 177‒224). Paris: Maisonneuve. </bibl><bibl>Vinson, Julien (1867). <title>Catalogue des manuscrits tamouls</title>. Corrected proofreadings printed by the atelier oriental de l’Imprimerie nationale. BnF “4-IMPROR-77 (B)” — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b105333021/f23">p. 7, no. 26</ref>.</bibl></listBibl>
+                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f24">p. 6, no. 26</ref>.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. (1866-). <title> Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f29">f. 7r = p. 7 , no. 26</ref>. </bibl><bibl>Rosny, Léon de (1868). <title type="article">La bibliothèque tamoule de M. Ariel, de Pondichéry</title>. In: <title>Variétés orientales</title> (pp. 177‒224). Paris: Maisonneuve. </bibl><bibl>Vinson, Julien (1868). <title>Catalogue des manuscrits tamouls</title>. Corrected proofreadings printed by the atelier oriental de l’Imprimerie nationale. BnF “4-IMPROR-77 (B)” — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b105333021/f23">p. 7, no. 26</ref>.</bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
@@ -112,4 +112,34 @@
     <sourceDoc>
         <surface/>
     </sourceDoc>
-<facsimile/><text synch="#U1a" corresp="#T1" xml:lang="ta"/><text synch="#U1b" corresp="#T2" xml:lang="ta"/></TEI>
+<facsimile/><text synch="#U1a" corresp="#T1" xml:lang="ta"><body>
+  
+  <pb facs="0" n="[1]r"/>
+  
+   <milestone unit="left-margin"/>
+  <seg function="blessing"><lb n="1-2"/>tirucciṟṟampalam</seg>
+<seg function="title"><lb n="3-4"/>civāñāṉapōtam</seg>
+  
+  <milestone unit="main-text-area"/>
+  <seg function="incipit"><lb n="1"/><gap reason="ellipsis"/></seg>
+        
+    <pb facs="0" n="10v"/>
+
+</body>
+</text><text synch="#U1b" corresp="#T2" xml:lang="ta"><body>
+  
+  <pb facs="0" n="11r"/>
+  
+   <milestone unit="left-margin"/>
+  <seg function="blessing"><lb n="1-2"/><supplied reason="lost">ku</supplied>runātaṉ ṟuṇai</seg>
+<seg function="title"><lb n="3-4"/>vayirākatīpam</seg>
+  
+  <milestone unit="main-text-area"/>
+  <seg function="incipit"><lb n="1"/><gap reason="ellipsis"/></seg>
+        
+    <pb facs="0" n="24v"/>
+
+    <seg function="explicit"><lb n="8"/><gap reason="ellipsis"/> = 100 =</seg> <seg function="blessing completion-statement">tirucciṟṟampalamuṟṟum={pcs}</seg>
+
+</body>
+</text></TEI>
