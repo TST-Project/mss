@@ -1,0 +1,620 @@
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Collection (5 works by Akattiyar)      </title>
+            
+         <editor><persName>Ilona Kędzia</persName><orgName>Jagiellonian University</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2022</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Indien 101</idno>
+                  <idno type="alternate"><idno>Tamoul 101</idno></idno>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1035607</idno></msIdentifier>
+               <msContents class="#MTM">
+                  <summary><p>A multi-text (possibly composite) manuscript containing 5 different works of Akattiyar and following codicological units:
+  <list rend="numbered">
+<item>The <title xml:lang="ta">Akasttiyar aruḷicceytap pūṟaṇa cūsttiram</title> ("Treatise on the fullness  graciously composed  by Akasttiyar"). One folio (only recto) without foliation  (U1). Possibly a prefatory part to the next unit (U2), by another hand.</item>
+<item>The <title xml:lang="ta">Akattiya makāmuṉi cuvāmiy aruḷiya pūraṇa cūṣttiram</title>, on the title page enlisted as <title xml:lang="ta">Pūraṇacūttiram</title> ("Treatise on the fullness"). It appears to be a text on yogic and religious practices, as well as alchemical preparations, consisting of 215 enumerated verses (U2).</item>
+<item>A blank folio (U3).</item>
+<item>The <title xml:lang="ta">Akaṣttiya makāmuṉi aruḷicceyita tīṣṣai viti yirunūṟu</title>, that is, <title xml:lang="ta">Tīṣṣāviti</title> ("Rules of initiation"). It appears to be a text on religious and alchemical practices, composed  in 214 verses (U4)</item>
+<item>The <title xml:lang="ta">Akaṣttiyar ñāṉam</title> ("Knowledge by Agastya"), which seems to be a text on religious and alchemical practices in 100 verses (U5).</item>
+<item>The <title xml:lang="ta">Akaṣttiyat vātacūṣttiram 200</title>, "Alchemical treatise" (<term xml:lang="ta">vātacūttiram</term>), which appears to be a text on alchemy and medicine in 202 verses (U6).</item>
+<item>An incomplete <title xml:lang="ta">Pūcāviti</title> ("Rules of worship"), which appears to be a text on yoga and religious practices in 201 verses. The beginning of the text is missing; thetext in the manuscript starts with verse 138. (U7).</item></list></p>
+</summary>
+                  
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Akasttiyar aruḷicceytap pūṟaṇa cūsttiram</title><author xml:lang="ta">Akattiyar </author><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta">Akattiya makāmuṉi cuvāmiy aruḷiya pūraṇa cūṣttiram</title><author xml:lang="ta">Akattiyar</author><textLang mainLang="tam"/><incipit xml:lang="ta">Eṉṟāṉa pūṟaṇamē (f1r)</incipit><explicit xml:lang="ta">civamayam {pcl} (f70v)</explicit><finalRubric xml:lang="ta">nalamāṉa pūṟaṇa cūṣttira muttē {pcs}  (f70r)</finalRubric></msItem><msItem synch="#U4" xml:id="T3" defective="false"><title xml:lang="ta">Akaṣttiya makāmuṉi aruḷicceyita tīṣṣai viti yirunūṟu</title><author xml:lang="ta">Akattiyar</author><textLang mainLang="tam"/><incipit xml:lang="ta">vāṉaittāviya pōtikai (f71r)</incipit><explicit xml:lang="ta">tēvic cāyam {pcl} (f126r)</explicit><finalRubric xml:lang="ta">pūcai tīṣṣai viti muttē (f126r)</finalRubric></msItem><msItem synch="#U5" xml:id="T4" defective="false"><title xml:lang="ta">Akaṣttiyar ñāṉam</title><author xml:lang="ta">Akattiyar</author><textLang mainLang="tam"/><incipit xml:lang="ta">cintaiy uṟu ñāṉam (f127r)</incipit><explicit xml:lang="ta">kaṟttāvē {pcl} (f154v)</explicit><finalRubric xml:lang="ta">ñāṉa muttē {pcs} {pcs} (f154v)</finalRubric></msItem><msItem synch="#U6" xml:id="T5" defective="false"><title xml:lang="ta">Akaṣttiyar vātacūṣttiram 200</title><author xml:lang="ta">Akattiyar </author><textLang mainLang="tam"/><incipit xml:lang="ta">Ātiyāṉa maṉakkālañ (f155r)</incipit><explicit xml:lang="ta">ceyam {pcl} (f207v)</explicit><finalRubric xml:lang="ta">Akaṣttiyar cūṣttiram Eḻuti niṟaintatu muṟṟum {pcs} (f207v)</finalRubric></msItem><msItem synch="#U7" xml:id="T6" defective="true"><title xml:lang="ta">Pūcāviti</title><textLang mainLang="tam"/><incipit xml:lang="ta">vaḷamāṉa (f208r)</incipit><explicit xml:lang="ta">ceyam {pcs} (f223v)</explicit><finalRubric xml:lang="ta">karuṇai peṟu pūcaiviti karuvā muṟṟē  {pcs} (f257v)
+
+piṅkaḷa [varuṣam] āvaṇi [mācam] 15 [tēti] cevvāykkiḻamai amurta vēḷaiyil ceṉṉappaṭṭaṉattil ttāṇavarāyaṉ  vētāntam eḷutimutintatu muṟṟum {pcs} (f257v)</finalRubric></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="pothi">
+                     <supportDesc material="palm-leaf">
+                        <support>
+                           <measure unit="stringhole" quantity="2"/>
+                           
+                        </support>
+                        <extent>
+                           <measure unit="folio" quantity="226">{1} + 70 (no. 1-70) + {1} + 56 (n0. 71-126) + 28 (no. 127-154) + 53 (no. 155-207) + 16 (no. 242-257) + {1}
+(U1 + U2 + U3 + U4 + U5 + U6 + U7 + U8).</measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           </dimensions>
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
+                        <collation><desc xml:id="cover">The <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold"><title xml:lang="ta">Akasttiyar aruḷicceytap pūṟaṇa cūsttiram</title></emph>. No Tamil foliation. Arabic foliation (numeral "1") on the right margin.</desc><desc xml:id="U2">70 folios = <emph rend="bold"><title xml:lang="ta">Akattiya makāmuṉi cuvāmiy aruḷiya pūraṇa cūṣttiram</title></emph>. Tamil foliation  1-70. Arabic foliation 1-70.
+</desc><desc xml:id="U3">Blank folio.</desc><desc xml:id="U4">56 folios = <emph rend="bold"><title xml:lang="ta">Akaṣttiya makāmuṉi aruḷicceyita tīṣṣai viti yirunūṟu</title></emph>. Tamil foliation 71-126. </desc><desc xml:id="U5">28 folios = <emph rend="bold"><title xml:lang="ta">Akaṣttiyar ñāṉam</title></emph>. Tamil foliation 127-154.</desc><desc xml:id="U6">53 folios = <emph rend="bold"><title xml:lang="ta">Akaṣttiyat vātacūṣttiram 200</title></emph>. Tamil foliation 155-207.</desc><desc xml:id="U7">16 folios = <emph rend="bold"><title xml:lang="ta">Pūcāviti</title></emph>. Tamil foliation 242-257.</desc><desc xml:id="U8">1 folio = <emph rend="bold">Title Page (additional)</emph>. No foliation.</desc><desc xml:id="cover">The <emph rend="bold">back cover</emph>.</desc></collation>
+                        
+                        
+                     <foliation>Tamil letter-numerals on the left margin. Arabic numerals in pencil on the right margin.</foliation><condition>Very good state of preservation, in spite of boreholes caused by insects.</condition></supportDesc>
+                     <layoutDesc>
+                        
+                     <layout columns="1" writtenLines="6"/></layoutDesc>
+                  </objectDesc>
+                  <handDesc><handNote synch="#U1" scope="minor" script="tamil" scriptRef="#tamilPulliNone" medium="black incised soot"><desc>Hand #1.</desc></handNote><handNote synch="#U2 #U4 #U5 #U6 #U7" scope="major" script="tamil" scriptRef="#tamilPulliNone" medium="black incised soot"><desc>Hand #2. But possibly several hands.</desc></handNote><handNote synch="#U8" scope="minor" scribeRef="#ArielTitleScribe" script="tamil" scriptRef="#tamilPulliRegular" medium="black incised soot"><desc>Hand #3.</desc></handNote></handDesc>
+                  <decoDesc>
+                  </decoDesc>
+                  <additions>
+                  <desc synch="#cover" type="shelfmark" subtype="cover">BnF shelfmark sticker: <quote>INDIEN 101</quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#U1" corresp="#T1" type="title blessing" subtype="marginal">Ari Om naṉṟāka
+Akasttiyar Aruḷicceytap pūṟaṇa cūsttiram 
+kuruvē tuṇai  (f[1]r)</desc><desc synch="#U2" corresp="#T2" type="title blessing" subtype="marginal">hari Om naṉṟāka 
+Akattiya makāmuṉi cuvāmiy aruḷiya pūṟaṇacūttiram {pcl} (f1r)</desc><desc synch="#U2" corresp="#T2" type="heading" subtype="marginal">Left-marginal headings:
+pūṟaṇam mūlātāram {pcl} (f2r)
+viṟama pūcai (f3r)
+viṣṇu pūcai {pcs} rutira pūcai {pcs} (f3v)
+mayēcupara pūcai {pcs}  catāciva pūcai {pcs}{pcs}  (f4v)
+Akkiṉi maṇṭalam {pcs} (f5v)
+pūraṇam (f6r)
+tīṭcai (f8v)
+cāpa nivaṟtti  {pcl} (f13r)
+vayiravaṉ cuppiramaṇiyaṉ {pcl} (f13v)
+kāttakkiṇṇiyil cāppiṭa (f22r)
+pāl kotikka karumam uṇṇa kiṇṇiyil racaṅ kaṭṭat tāvaṭam camāti {pcl}(f23v)
+muppu cutti (f26v)
+turucuccuṇṇam {pcs} (f28v)
+cavukkāra vaiyppu {pcs}  (f29v)
+kaṟppam uṇṇat taḷaṅkaḷ (f32r)
+Uvaruppu Eṭukkat talam {pcs}  (f33r)
+Appiṟakamm eṭukka {pcs} veṇñcārai Eṭukka {pcs} (f35v)
+kāḷitayilam {pcs} (f39v)
+kāḷitayilam {pcs} (f40r)
+veḷḷaikkaṭṭu (f43v)
+paccai (...?) [heading crossed out] (f49v)
+pūcai viparam (f50r)
+paccaippūram vaiyppu {pcs} (f50v}
+vīram vaiyppu {pcs} (f51v)
+Añcaṉam {pcs}   (f52v)
+Añcaṉam {pcs}   (f54r)
+taṉam yiruppu (f55v)
+marunt araikkak kalvam {pcs}   (f62r)
+
+
+
+
+
+</desc><desc synch="#U2" corresp="#T2">Completion statement:
+nalamāṉa pūṟaṇa cūṣttira muttē {pcs}  (f70r)</desc><desc synch="#U2" corresp="#T2" type="blessing" subtype="end">{pcs} cevi[tēvi]cakāyam {pcs} kuruvē tuṇai {pcs} 
+</desc><desc synch="#U2" corresp="#T2" type="commenting-note" subtype="end">Exposition of the benefits obtained by using the text:
+
+pūṟaṇattai nōkka nōkka kāṟaṇattiṉ vaḻi (f70r) kāṭṭum puruvamayyam – nōkka – yōkañāṉam āccu {pcl}  (f70v)</desc><desc synch="#U2" corresp="#T2" type="postface" subtype="end">coṉṉāḷō ciṟupiḷḷai – vayatu koñcam – col ttiṟamāy pēcariyāḷ - mavuṉiyappā – yeṉṉāḷō yevvukamō yāṉō kāṇṇē ippaṭiyē ceṟupeṇṇu yiruntāḷ āttāḷ taṉṉāḷō ravi pattu cantiraṉ vīṭṭi tāyārukku – kkuṭi yiruppu ttākkip pāru paṇṇāḷō ravi kōṭi pāṭivippāḷ pālaiyuṭā cittarukkut teyvan tāṉē {pcs} (f70r)</desc><desc synch="#U2" corresp="#T2" type="blessing" subtype="end">civamayam {pcl}  kuruvē tuṇai {pcs} caracupatiyē namā {pcs} kumaraṉāyakaṉ tuṇai cēṣappiḷḷai Ayyaṟav ākkiṉāl pūṟaṇa cūṣtiram tāṇṭavarāyaṉukku kkūṭuttatu {pcs} civamayam {pcl} </desc><desc synch="#U4" corresp="#T3" type="title" subtype="marginal">Akaṣttiya makāmuṉi Aruḷicceyita tīṣṣai viti yirunūṟu (f71r)
+</desc><desc synch="#U4" corresp="#T3" type="heading" subtype="marginal">Left-marginal headings:
+civaṉ tīṣṣai (f77r)
+kānta cattu {pcs} (f86v)
+Ayam urukkiṟatu {pcs}{pcs} (f88r)
+
+</desc><desc synch="#U4" corresp="#T3" subtype="end">Completion statement:
+pūcai viti tīṣṣai muttē (f126r)</desc><desc synch="#U4" corresp="#T3" type="blessing" subtype="end">kuruvē tuṇai teṣṣaṇā mūṟtti pātāravintamē tuṇai Eppōtum uṇṭākavu {pcl}
+civamayam {pcs} parañcōti pātāravintamē keti {pcs} tēvic cāyam {pcl} (f126r)
+</desc><desc synch="#U5" corresp="#T4" type="title" subtype="marginal">Akaṣt=tiyar ñāṉam (f127r)
+</desc><desc synch="#U5" corresp="#T4" type="blessing" subtype="marginal">śrī rāma ceyam (f127r)</desc><desc synch="#U5" corresp="#T4" type="heading" subtype="marginal">Left-marginal headings:
+vātam (f138v)
+koccakam (f154v)
+</desc><desc synch="#U5" corresp="#T4" subtype="end">Completion statement:
+ñāṉa muttē {pcs} {pcs} (f154v)</desc><desc synch="#U5" corresp="#T4" type="end-title" subtype="end">ñāṉam nūṟu (f154v)</desc><desc synch="#U5" corresp="#T4" type="benediction blessing" subtype="end">civamayam {pcl} teṣṣaṇumūṟtti pātāravintamē keti {pcl} cuvāmi pātāravintamē keti  {pcs}  Āveṉṟē Aṣṣcarattai [aṭcarattai] Aṟint uṇarttatu ṉāḷ tōṟum Op[Om]eṉav Aṣṣarattai Uṟutiyāy maṉatil vayttu ṉāṉ eṉṟa Aṣṣarattai ṉāḷ tōṟum viṭṭakalātē ṉōṉṟāy niṉṟavaṉē tayavu paṇṇum kaṟttāvē {pcl}
+</desc><desc synch="#U6" corresp="#T5" type="title" subtype="marginal">Akaṣttiyar vāta cūṣttiram {pcs} (f155r)</desc><desc synch="#U6" corresp="#T5" type="blessing" subtype="marginal"> naṉṟāka (f155r)</desc><desc synch="#U6" corresp="#T5" type="heading" subtype="marginal">Left-marginal headings:
+vaḻalai ceyanīr {pcl} (f156v)
+kalluppuc cuṉṉam {pcl} (f157v)
+tirāvakac cuṉṉam {pcl} (f158r)
+kaṭṭu  tirāvakam {pcl} (f158v)
+ meḷu tirāvakam {pcl} (f159r)
+centūrat tirāvakam {pcl} (f159v)
+vaḻalai Ivaparam [viparam] {pcl} (f161r)
+muppu kuru (162r)
+pūra viparam {pcl} cūṭaṉcuṇṇam {pcs} (163r)
+turucukkuru {pcs} (f164r)
+turucukkuru {pcl} (f164v)
+Apraca[?] ppera[?] vaḻi {pcs}  (f165r)
+cāṟaṇai viparam  {pcs} pañcacuṇṇakkukai {pcs} (f166r)
+ṉākakkaṭṭuc centūram {pcl} (f167r)
+cīṉakkaṭṭuc ceyanīr {pcs} {pcs} {pcs} {pcs} (f167v)
+meḻuku vakait tayilam {pcl} (f168r)
+kentakak kaṭṭu {pcs}  pāṣāṇaṅ kaṭṭa {pcs} (f168v)
+cūṭaṉ kaṭṭu{pcs} (f170v)
+cavukkārac cuṉṉam (f173v)
+muppuviṉ pēr (f174v)
+tēcinīr perumai {pcl} (f176v)
+aṣṭacarakku viparam {pcs} (f177r)
+veḷḷaippāṣāṇak kaṭṭu (f177v)
+vallāraikkaṟppam {pcs} (f180v)
+malaikkaṟppam {pcs} (f181r)
+catiṟakirikkaṟppam {pcs}  (183r)
+kentaka Uppu {pcl} cūṭaṉuppu {pcs} (f184v)
+cuṉṉam (f185r)
+koṅkiṉ kaṟppam {pcs}{pcs}{pcs} (f187v)
+ceyanīr {pcs}{pcs}{pcs} veṇṅkārac cuṉṉam (f191v)
+tirukukaḷḷi Uppu {pcs} (f192r)
+aṉṉapētiyuppu {pcs} (f193r)
+kaḷaṅkam (f194v)
+ciṟunīr viparam {pcs} (f197r)
+vaḻalaikku viparam {pcs} {pcs} {pcs}  (f197v)
+nīttuttum [?] urukkiṉa ttuttum viparam{pcs} {pcs}  (f198v)
+nāyuruvi virai viparam {pcl} (f199r)
+kaṭṭukkeṭi viparam {pcs} (f199v)
+manta kuḷikai {pcs} {pcs} (f200r)
+kaḷiccuṉṉam {pcl} (f201r)
+
+
+
+</desc><desc synch="#U6" corresp="#T5" subtype="end">completion statement:
+Akaṣttiyar cūṣttiram Eḻuti niṟaintatu muṟṟum {pcs} (f207v)
+
+</desc><desc synch="#U6" corresp="#T5" type="blessing" subtype="end">teṣṣaṇumūṟtti pātāravintamē tuṇai {pcs} kurumuṉṉikka vēṇum civamayam {pcs} tiruccuṟṟampalam {pcl}   śrī (.?)ceyam {pcs}  (f207v)
+</desc><desc synch="#U7" corresp="#T6" type="heading" subtype="marginal">Left-marginal headings:
+mūttira vakai (f244r)
+pūcai māṟkkam {pcs} (f244v)
+muttira vakai {pcs} (f245r) 
+Aṅkaṉṉiyācam {pcs}  {pcs}  {pcs}  (f247r)
+navamuttirai (f250r)</desc><desc synch="#U7" corresp="#T6" subtype="end">Completion statement:
+karuṇai peṟu pūcaiviti karuvā muṟṟē  {pcs} (f257v)</desc><desc synch="#U7" corresp="#T6" type="blessing" subtype="end">caccutāṉanta paripūṟaṇa tayāpara Akaṣttiyar pātāravintamē tuṇai Uṇṭāvatāka (?) civamayam kurupātāravintamē keti {pcs} caṟkkuruvē tuṇai {pcs} mīṉāṭci  ? {pcl} 
+śrī rāma ceyam {pcl} (f257v)</desc><desc synch="#U7" corresp="#T6" type="date" subtype="end">Date and place:
+piṅkaḷa [varuṣam] āvaṇi [mācam] 15 [tēti] cevvāykkiḻamai amurta  vēḷaiyil ceṉṉappaṭṭaṉattil ttāṇavarāyaṉ  vētāntam eḷutimutintatu muṟṟum {pcs} (f257v)</desc><desc synch="#U8" type="title" subtype="title-page">pūraṇa cūttiram
+tīṣṣā viti
+ñāṉam
+vāta cūttiram
+pūca viti
+</desc></additions>
+                  <bindingDesc>
+                     <binding/>
+                  </bindingDesc>
+               <typeDesc/></physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian">Internal date: piṅkaḷa [varuṣam] āvaṇi [mācam] 15 [tēti] cevvāykkiḻamai 
+Dated to 1780 by Vinson (1868) and Cabaton (1912). </origDate>
+                     
+                  <origPlace>Tamilnadu, Cennai</origPlace></origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens. Bibliothèque nationale. Département des manuscrits.</title> Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f37">p. 19, n0. 101.</ref>.</bibl><bibl>Vinson, Julien (1868). <title>Manuscrits tamouls</title>. Proofreadings of the catalogue for Tamoul 1-204 (old shelfmark). Printed by the atelier oriental de l’Imprimerie nationale. BnF “4-IMPROR-77 (B)”. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b105333021/f65">p. 28, no. 101</ref>. — The same proofreadings with black ink handwritten corrections are found in Vinson et al. (1866-, f1-f49). </bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         
+      <p>Transliteration conventions ― Unmarked puḷḷi, ō, and ē restored. Uppercase for initial vowels (in excerpts only). ― Abbreviations ― f = folio, lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso, lc = left column, rc = right column. 
+ Illegible character: "?" . </p></encodingDesc>
+      <revisionDesc>
+         
+      <change when="2022-03">Record created by Ilona Kędzia.</change></revisionDesc>
+   <xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
+   <facsimile>
+   <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525130283/manifest.json"/></facsimile>
+<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+  
+  <pb facs="3" n="[1]r"/>
+  <milestone unit="left-margin"/>
+             
+<lb n="1"/>Ari Om naṉṟāka
+<lb n="2-6"/>Akasttiyar Aruḷicceytap pūṟaṇa cūsttiram kuruvē tuṇai 
+  </body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
+  
+  <pb facs="5" n="1r"/>
+  <milestone unit="left-margin"/>
+             
+<lb n="1-2"/>hari Om naṉṟāka 
+<lb n="3-7"/>Akaṣt=tiya makāmuṉi cuvāmiy aruḷiya pūṟaṇacūt=tiram {pcl} 
+
+  <pb facs="7" n="2r"/>
+  <milestone unit="left-margin"/>
+             
+<lb n="1"/>pūṟaṇam 
+<lb n="2-3"/>mūlātāram {pcl} 
+
+<pb facs="9" n="3r"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-2"/>viṟama pūcai 
+
+<pb facs="10" n="3v"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-2"/>viṣṇu pūcai {pcs}
+<lb n="3"/>rutira pūcai {pcs} 
+
+<pb facs="12" n="4v"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-2"/>mayēcupara pūcai {pcs} 
+<lb n="3-4"/>catāciva pūcai {pcs}{pcs}  
+
+<pb facs="14" n="5v"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-2"/>Akkiṉi maṇṭalam {pcs} 
+
+<pb facs="0" n="4v"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-"/>pūraṇam
+
+<pb facs="0" n="8v"/>
+  <milestone unit="left-margin"/>
+             <lb n="1"/>tīṭcai 
+
+<pb facs="0" n="13"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-2"/>cāpa nivaṟt=ti  {pcl} 
+
+ <pb facs="0" n="13v"/>
+  <milestone unit="left-margin"/>
+             <lb n="1"/>vayiravaṉ 
+<lb n="2-3"/>cuppiramaṇiyaṉ {pcl}
+
+<pb facs="0" n="22r"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-3"/>kāt=takkiṇṇiyil cāppiṭa 
+
+<pb facs="0" n="23v"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-7"/>pāl kotikka karumam uṇṇa kiṇṇiyil racaṅ kaṭṭat tāvaṭam camāti {pcl}
+
+<pb facs="0" n="26v"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-2"/>muppu cutti
+
+<pb facs="0" n="28v"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-3"/>turucuccuṇṇam {pcs} 
+
+<pb facs="0" n="29v"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-2"/>cavukkāra vaiyppu {pcs}
+
+<pb facs="0" n="32r"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-3"/>kaṟppam uṇṇat taḷaṅkaḷ 
+
+<pb facs="0" n="33r"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-3"/>Uvaruppu Eṭukkat talam {pcs}  
+
+<pb facs="0" n="35v"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-2"/>Appiṟakamm eṭukka {pcs} 
+<lb n="3-4"/>veṇñcārai Eṭukka {pcs} 
+
+<pb facs="0" n="39v"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-2"/>kāḷitayilam {pcs} 
+
+<pb facs="0" n="40r"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-2"/>kāḷitayilam {pcs} 
+
+<pb facs="0" n="43v"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-2"/>veḷḷaik=kaṭṭu
+
+<pb facs="0" n="49v"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-2"/>paccai...[text crossed out] 
+
+<pb facs="0" n="50r"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-2"/>pūcai viparam 
+
+<pb facs="0" n="50v"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-3"/>paccaippūram vaiyppu {pcs} 
+
+<pb facs="0" n="51v"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-2"/>vīram vaiyppu {pcs} 
+
+<pb facs="0" n="52v"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-2"/>Añcaṉam {pcs}   
+
+<pb facs="0" n="54r"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-2"/>Añcaṉam {pcs}   
+
+<pb facs="0" n="55v"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-2"/>taṉam yiruppu 
+
+  <pb facs="0" n="62r"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-3"/>marunt araikkak kalvam {pcs} 
+
+ <pb facs="0" n="70r"/>
+               <lb n="1-6"/>
+nalamāṉa pūṟaṇa cūṣttira muttē {pcs} 205 {pcs}  cevi[tēvi]cakāyam {pcs} kuruvē tuṇai {pcs} coṉṉāḷō ciṟupiḷḷai – vayatu koñcam – col ttiṟamāyp pēcariyāḷ - mavuṉiyappā – yeṉṉāḷō yevvukamō yāṉō kāṇṇē yippaṭiyē ceṟupeṇṇu yiruntāḷ āttāḷ taṉṉāḷō ravi pattu cantiraṉ vīṭṭi tāyārukku – kkuṭi yiruppu ttākkip pāru paṇṇāḷō ravi kōṭi pāṭivippāḷ pālaiyuṭā cittarukkut teyvan tāṉē {pcs} pūṟaṇattai nōkka nōkka kāṟaṇattiṉ vaḻi 
+
+<pb facs="0" n="70v"/>
+  
+<lb n="1-3"/>
+kāṭṭum puruvamayyam – nōkka – yōkañāṉam āccu {pcl}  civamayam {pcl}  kuruvē tuṇai {pcs} caracupatiyē namā {pcs} kumaraṉāyakaṉ tuṇai cēṣappiḷḷai Ayyaṟav ākkiṉāl pūṟaṇa cūṣt=tiram tāṇṭavarāyaṉukku k=kūṭuttatu {pcs} civamayam {pcl} 
+  </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</text><text synch="#U4" corresp="#T3" xml:lang="ta"><body>
+  
+  <pb facs="147" n="71r"/>
+  <milestone unit="left-margin"/>
+<lb n="1-5"/>Akaṣttiya makāmuṉi Aruḷicceyita tīṣṣai viti yirunūṟu 
+
+<pb facs="0" n="77r"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-2"/>civaṉ tīṣṣai 
+
+ <pb facs="0" n="86v"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-2"/>kānta cattu {pcs}
+
+<pb facs="181" n="88r"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-3"/>Ayam urukkiṟatu {pcs}{pcs}
+
+<pb facs="257" n="126r"/>
+            <lb n="4-6"/><gap reason="ellipsis"/>pūcai viti tīṣṣai muttē {pcs} 214 {pcs}  kuruvē tuṇai teṣṣaṇā mūṟtti pātāravintamē tuṇai Eppōtum uṇṭākavu {pcl} civamayam {pcs} parañcōti pātāravintamē keti {pcs} tēvic cāyam {pcl}
+  </body>
+
+</text><text synch="#U5" corresp="#T4" xml:lang="ta"><body>
+  <pb facs="0" n="127r"/>
+  <milestone unit="left-margin"/>
+             <lb n="1"/>śrī rām ceyam
+<lb n="2-3"/>Akaṣt=tiyar ñāṉam {pcs}
+
+<pb facs="0" n="138v"/>
+  <milestone unit="left-margin"/>
+             <lb n="1"/>vātam 
+
+ <pb facs="0" n="154v"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-2"/>koccakam
+
+<pb facs="314" n="154v"/>
+  <milestone unit="left-margin"/>
+             <lb n="4"/>ñāṉa muttē {pcs} {pcs} kurukiṭāṣṣam uṇṭāka? teṣṣaṇumūṟtti ñāṉam nū
+  <lb n="5" break="no"/>ṟu {pcs} civamayam {pcl} teṣṣaṇumūṟt=ti pātāravintamē keti {pcl} cuvāmi pātāravintamē keti  {pcs}
+  <lb n="6"/>Āveṉṟē Aṣṣcarattai [aṭcarattai] Aṟint uṇart=tatu ṉāḷ tōṟum Op[Om]eṉav Aṣṣarattai Uṟutiyāy maṉatil vayt=tu
+  <lb n="7"/>ṉāṉ eṉṟa Aṣṣarat=tai ṉāḷ tōṟum viṭṭakalātē ṉōṉṟāy niṉṟavaṉē tayavu paṇṇum kaṟttāvē {pcl}</body>
+
+
+</text><text synch="#U6" corresp="#T5" xml:lang="ta"><body>
+  <pb facs="0" n="155r"/>
+  <milestone unit="left-margin"/>
+  <lb n="1"/>naṉṟāka
+  <lb n="2-3"/>Akaṣttiyar vāta cūṣttiram {pcs} 
+
+<pb facs="0" n="156v"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-3"/>vaḻalai ceyanīr {pcl} 
+
+<pb facs="0" n="157v"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-2"/>kalluppuc cuṉṉam {pcl} 
+
+<pb facs="0" n="158r"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-2"/>tirāvakac cuṉṉam {pcl}
+
+<pb facs="0" n="158v"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-2"/>kaṭṭu  tirāvakam {pcl} 
+
+ <pb facs="0" n="159r"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-2"/>meḷu tirāvakam {pcl}
+
+<pb facs="0" n="159v"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-2"/>centūrat tirāvakam {pcl} 
+
+<pb facs="0" n="161r"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-2"/>vaḻalai Ivaparam [viparam] {pcl} 
+
+<pb facs="0" n="162r"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-2"/>muppu kuru (162r, lm)
+
+<pb facs="0" n="163r"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-2"/>pūra viparam {pcl} 
+<lb n="3-4"/>cūṭaṉcuṇṇam {pcs} 
+
+<pb facs="0" n="164r"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-2"/>turucuk=kuru {pcs} 
+
+<pb facs="0" n="164v"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-2"/>turucuk=kuru {pcl} 
+
+<pb facs="0" n="165r"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-3"/>Apraca[?] ppera[?] vaḻi {pcs}  
+
+ <pb facs="0" n="166r"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-2"/>cāṟaṇai viparam  {pcs}
+<lb n="3-4"/>pañcacuṇṇak=kukai {pcs}
+
+<pb facs="0" n="167r"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-3"/>ṉākakkaṭṭuc centūram {pcl} 
+
+<pb facs="0" n="167v"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-3"/>cīṉakkaṭṭuc ceyanīr {pcs} {pcs} {pcs} {pcs} 
+
+ <pb facs="0" n="168r"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-3"/>meḻuku vakait tayilam {pcl}
+
+<pb facs="0" n="168v"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-2"/>kentakak kaṭṭu {pcs} 
+<lb n="3-4"/>pāṣāṇaṅ kaṭṭa {pcs} 
+
+ <pb facs="0" n="170v"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-2"/>cūṭaṉ kaṭṭu {pcs}
+
+<pb facs="0" n="173v"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-2"/>cavukkārac cuṉṉam 
+
+<pb facs="0" n="174v"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-2"/>muppuviṉ pēr 
+
+<pb facs="0" n="176v"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-3"/>tēcinīr perumai {pcl} 
+
+ <pb facs="0" n="177r"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-3"/>aṣṭacarakku viparam {pcs}
+
+ <pb facs="0" n="177v"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-3"/>veḷḷaippāṣāṇak kaṭṭu
+
+<pb facs="0" n="180v"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-3"/>vallāraikkaṟppam {pcs} 
+
+<pb facs="0" n="181r"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-2"/>malaikkaṟppam {pcs} 
+
+<pb facs="0" n="26v"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-3"/>catiṟakirikkaṟppam {pcs}  
+
+ <pb facs="0" n="184v"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-2"/>kentaka Uppu {pcl} 
+<lb n="3"/>cūṭaṉuppu {pcs}
+
+<pb facs="0" n="185r"/>
+  <milestone unit="left-margin"/>
+             <lb n="1"/>cuṉṉam 
+
+<pb facs="0" n="187v"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-3"/>koṅkiṉ kaṟppam {pcs}{pcs}{pcs} 
+
+<pb facs="0" n="191v"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-2"/>ceyanīr {pcs}{pcs}{pcs} 
+<lb n="3-4"/>veṇṅkārac cuṉṉam 
+
+<pb facs="0" n="192r"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-4"/>tirukukaḷḷi Uppu {pcs} 
+
+<pb facs="0" n="193r"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-2"/>Aṉṉapētiyuppu {pcs} 
+
+<pb facs="394" n="194v"/>
+  <milestone unit="left-margin"/>
+             <lb n="1"/>kaḷaṅkam
+
+<pb facs="0" n="197r"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-2"/>ciṟunīr viparam {pcs}
+
+<pb facs="0" n="197v"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-2"/>vaḻalaikku viparam {pcs} {pcs} {pcs}  
+
+<pb facs="0" n="198v"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-4"/>nīt=tut=tum [?] urukkiṉa t=tut=tum viparam{pcs} {pcs}  
+
+<pb facs="0" n="199r"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-3"/>nāyuruvi virai viparam {pcl} 
+
+<pb facs="0" n="199v"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-2"/>kaṭṭuk=keṭi viparam {pcs} 
+
+<pb facs="0" n="200r"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-3"/>manta kuḷikai {pcs} {pcs} 
+
+<pb facs="0" n="201r"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-2"/>kaḷiccuṉṉam {pcl} 
+
+<pb facs="0" n="207v"/>
+             <lb n="1-3"/><gap reason="ellipsis"/>Akaṣt=tiyar cūṣttiram Eḻuti niṟaintatu muṟṟum {pcs} teṣṣaṇumūṟtti pātāravintamē tuṇai {pcs} kurumuṉṉikka vēṇum civamayam {pcs} tiruccuṟṟampalam {pcl}  śrīṟā=maceyam {pcs}</body></text><text synch="#U7" corresp="#T6" xml:lang="ta"><body>
+  <pb facs="0" n="244r"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-2"/>mūt=tira vakai 
+
+ <pb facs="0" n="244v"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-3"/>pūcai māṟkkam {pcs}
+
+ <pb facs="0" n="245r"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-2"/>muttira vakai {pcs}
+
+ <pb facs="0" n="247r"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-3"/>Aṅkaṉṉiyācam {pcs}  {pcs}  {pcs} 
+
+ <pb facs="0" n="250r"/>
+  <milestone unit="left-margin"/>
+             <lb n="1-3"/>navamuttirai
+
+<pb facs="452" n="257v"/>
+             <lb n="2-6"/>karuṇai peṟu pūcaiviti karuvā muṟṟē  {pcs} {pcs} 201 {pcs} caccutāṉanta paripūṟaṇa tayāpara Akaṣttiyar pātāravintamē tuṇai Uṇṭāvatāka (?) civamayam kurupātāravintamē keti {pcs} caṟkkuruvē tuṇai {pcs} mīṉāṭci  ? {pcl} piṅkaḷa [varuṣam] āvaṇi [mācam] 15 [tēti] cevvāykkiḻamai amurta  vēḷaiyil ceṉṉappaṭṭaṉattil ttāṇavarāyaṉ  vētāntam eḷutimutintatu muṟṟum {pcs}  śrī rām ceyam {pcl}</body>
+</text><text synch="#U8"><body>
+  <pb facs="453" n="[1]r"/>
+  <milestone n="1" unit="column"/>
+             <lb n="1"/>pūraṇa cūttiram
+<lb n="2"/>tīṣṣā viti
+<lb n="3"/>ñāṉam
+<lb n="4"/>vāta cūttiram
+
+  <milestone n="1" unit="column"/>
+
+<lb n="1-2"/>pūca viti
+  </body>
+</text></TEI>
