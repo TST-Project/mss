@@ -19,13 +19,14 @@
                   </repository>
                   <idno type="shelfmark">Indien 449a</idno>
                   <idno type="alternate"><idno>Tamoul 449</idno></idno>
-               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103978h</idno></msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103978h</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/k930c4449</idno></msIdentifier>
                <msContents class="#MTM">
-                  <summary>A multi-text manuscript containing:
+                  <summary><p>A multi-text manuscript containing:
 <list rend="numbered">
-  <item>a <foreign xml:lang="ta">cintu</foreign> (U2, f[1]r-f[3]r = U2a)</item>
-  <item>a <foreign xml:lang="ta">cintu</foreign> (U2, f[3]v-f[6]r = U2b)</item>
-</list>
+  <item>A <title xml:lang="ta">cintu</title> (U2, f[1]r-f[3]r = U2a).</item>
+  <item>Another <title xml:lang="ta">cintu</title> (U2, f[3]v-f[6]r = U2b).</item>
+</list></p>
+   <p>Description based on the examination of the original (July 2020).</p>  <p>Dimensions assessed at the time of examination.</p>      
 </summary>
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">TBC: Invocation</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2a" xml:id="T2" defective="false"><title xml:lang="ta">Cintu</title><textLang mainLang="tam"/></msItem><msItem synch="#U2b" xml:id="T3" defective="false"><title xml:lang="ta">Cintu</title><textLang mainLang="tam"/></msItem></msContents>
@@ -33,7 +34,7 @@
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
                         <extent>
-                           <measure unit="folio" quantity="7">{1} + {6} (U1 + U2).</measure>
+                           <measure unit="folio" quantity="7">{1} + {6} (U1 + U2). Double folios.</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
@@ -50,8 +51,8 @@
                   </objectDesc>
                   <handDesc>
                      
-                  <handNote synch="#U1" scope="major" script="tamil" medium="incised soot"><desc>Hand #1.</desc></handNote><handNote synch="#U2 #U2a #U2b" scope="major" script="tamil" medium="incised"><desc>Unblackened.</desc></handNote></handDesc>
-                  <additions><desc type="shelfmark">Shelfmark in black ink: <quote>N° 18</quote> (<locus facs="0">f[1]r</locus>). This is the number in Velanguani Arokium's catalogue (<ref target="https://gallica.bnf.fr/ark:/12148/btv1b10527869m/f15">f. 3r, nos. 8, 18, 19</ref>).</desc></additions>
+                  <handNote synch="#U1 #U2 #U2a #U2b" scope="major" script="tamil" medium="incised"><desc>Several hands. Unblackened except U1.</desc></handNote></handDesc>
+                  <additions><desc synch="#U1" type="shelfmark">Shelfmark in black ink: <quote>N° 18</quote> (<locus facs="2">f[1]r</locus>). This is the number in Velanguani Arokium's catalogue (<ref target="https://gallica.bnf.fr/ark:/12148/btv1b10527869m/f15">f. 3r, nos. 8, 18, 19</ref>).</desc></additions>
                   <bindingDesc>
                      <binding>
                         
@@ -60,7 +61,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian" notAfter="1855">Internally dated to the year <foreign xml:lang="ta">viṣu</foreign> of the Jovian cycle, that is, CE 1821-1822, 1761-1762, 1701-1702, etc. See colophon (U2, f[6]r, c2, 1). Not dated by Vinson in Vinson et al. (1866-) nor by Cabaton (1912).</origDate>
+                     <origDate calendar="gregorian" notAfter="1855">Internally dated to the year <foreign xml:lang="ta">viṣu</foreign> of the Jovian cycle, that is, CE 1821-1822, 1761-1762, 1701-1702, etc. See colophon (U2, <locus facs="54">f[7]r, c2, 1</locus>). Not dated by Vinson in Vinson et al. (1866-) nor by Cabaton (1912).</origDate>
                      <origPlace>Tamilnadu.</origPlace>
                   </origin>
                   <acquisition>
@@ -78,11 +79,11 @@
       <revisionDesc>
          
       <change when="2022-03">Record created by Emmanuel FRANCIS.</change></revisionDesc>
-   <encodingDesc><p>TBC</p></encodingDesc></teiHeader>
+   <encodingDesc><p>TBC</p></encodingDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
    
-<facsimile/><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+<facsimile><graphic url="https://didomena.ehess.fr/concern/data_sets/k930c4449/manifest.json" facs="2"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   
-  <pb facs="0" n="[1]r"/>
+  <pb facs="2" n="[1]r"/>
   
   <milestone n="1" unit="left-margin"/>
   <lb n="1"/><seg function="blessing"><term xml:lang="sa">hari Om</term></seg>
@@ -94,12 +95,12 @@
 <lb n="2"/>putti mikuttu varum –</l> <l>veḷḷi-k kompu – viṉāyakaṉai-t tōḻa – tuḷḷiyōṭun – tuṭarnta viṉaikaḷē</l>
 <l><lb n="3"/>Appamuppaḻam – Amutu ceytaruḷiya – toppaiyappaṉai – toḻa viṉai y<pc>-</pc>aṟumē</l></lg> {pcs} –</seg> <seg function="blessing">vāṇi namas·ttu {pcs}</seg>
 
-       <pb facs="0" n="[1]v"/><note xml:lang="en">blank</note>
+       <pb n="[1]v"/><note xml:lang="en">blank</note>
 
   
 </body></text><text synch="#U2a" corresp="#T2" xml:lang="ta"><body>
   
-  <pb facs="0" n="[1]r"/>
+  <pb facs="9" n="[2]r"/>
   
   <milestone n="1" unit="left-margin"/>
   <lb n="1"/><seg function="blessing">naṉṟāka</seg>
@@ -114,7 +115,7 @@
   <milestone n="3" unit="column"/>
   <lb n="1-4"/><gap reason="ellipsis"/>
   
-  <pb facs="0" n="[3]r"/>
+  <pb facs="24" n="[3]r"/>
   <milestone n="3" unit="column"/>
   <lb n="1"/><seg function="explicit"><gap reason="ellipsis"/></seg>
   <seg function="completion-statement"><lb n="2"/>paḷḷi-p piḷḷaiyār
@@ -122,7 +123,7 @@
   
 </body></text><text synch="#U2b" corresp="#T3" xml:lang="ta"><body>
   
-  <pb facs="0" n="[3]v"/>
+  <pb facs="26" n="[3]v"/>
   
   <milestone n="1" unit="column"/>
   <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
@@ -133,9 +134,8 @@
   
   <milestone n="3" unit="column"/>
   <lb n="1-4"/><gap reason="ellipsis"/>
-  
-  
-  <pb facs="0" n="[6]r"/>
+    
+  <pb facs="52" n="[7]r"/>
   
   <milestone n="1" unit="column"/>
   <lb n="1"/><seg function="explicit"><gap reason="ellipsis"/></seg>
@@ -152,7 +152,6 @@
   <lb n="1"/>niṟavēṟiṉatu
 <lb n="2"/>muṟṟum {pcs}</seg>
 
-    <pb facs="0" n="[6]v"/><note xml:lang="en">blank</note>
-
+    <pb n="[7]v"/><note xml:lang="en">blank</note>
   
 </body></text></TEI>
