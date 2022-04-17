@@ -22,14 +22,16 @@
                   <idno type="alternate"/>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1045637</idno></msIdentifier>
                <msContents class="#MTM">
-                  <summary>A seemingly multi-text manuscript (rather than a composite manuscript) containing:
+                  <summary><p>A seemingly multi-text manuscript (rather than a composite manuscript) containing:
 <list rend="numbered">
-  <item>the <title xml:lang="ta">Ñāṉaveṭṭiyāṉ Katai</title> (U1)</item>
-  <item>the <title xml:lang="ta">Āyirattukku mēl vayattiyam</title> (U2)</item>
-  <item>the TBC (U3)</item>
-  <item>the <title xml:lang="ta">Patipacupācaviḷakkam</title> (U4)</item>
-  <item>the <title xml:lang="ta">Pūṟṇacuṣttirañāṉam</title></item>
-</list></summary>
+  <item>The <title xml:lang="ta">Ñāṉaveṭṭiyāṉ Katai</title> (U1).</item>
+  <item>The <title xml:lang="ta">Āyirattukku mēl vayattiyam</title> (U2).</item>
+  <item>The TBC (U3).</item>
+  <item>The <title xml:lang="ta">Patipacupācaviḷakkam</title> (U4).</item>
+  <item>The <title xml:lang="ta">Pūṟṇacuṣttirañāṉam</title> (U5).</item>
+</list></p>
+<p>Description based on the examination of the original (December 2020 and January 2021).</p>
+<p>Dimensions assessed at the time of examination.</p>      </summary>
                   
                <msItem synch="#U1a" xml:id="T1" defective="false"><title xml:lang="ta">Ñāṉaveṭṭiyāṉ Katai: <term xml:lang="en">Title Page</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U1b" xml:id="T2" defective="false"><title xml:lang="ta">Ñāṉaveṭṭiyāṉ Katai: Mūlam</title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T3" defective="false"><title xml:lang="ta">Āyirattukku Mēl Vayattiyam: Mūlam</title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T4" defective="false"><title xml:lang="ta"><term xml:lang="en">TBC</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U4" xml:id="T5" defective="false"><title xml:lang="ta">Patipacupācaviḷakkam: Mūlam</title><textLang mainLang="tam"/></msItem><msItem synch="#U5" xml:id="T6" defective="false"><title xml:lang="ta">Pūṟṇacuṣttirañāṉam: Mūlam</title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
@@ -52,7 +54,7 @@
                   </objectDesc>
                   <handDesc>
                      
-                  <handNote synch="#U1a #U1b #U2 #U3 #U4 #U5" scope="major" script="tamil" medium="incised soot"><desc>U3, U5 unblackened.</desc></handNote></handDesc>
+                  <handNote synch="#U1a #U1b #U2 #U3 #U4 #U5" scope="major" script="tamil" medium="incised soot"><desc>U1, f18; U3; U5 unblackened.</desc></handNote></handDesc>
                   <additions>
                     
                     
@@ -110,11 +112,11 @@
   <pb facs="0" n="[1]r"/>
   
   <milestone unit="column"/>
-  <lb n="1"/><gap reason="lost"/>
+  <seg function="header"><lb n="1"/><gap reason="lost"/>
 <lb n="2"/><seg function="blessing"><unclear>naṉṟāka</unclear></seg> <seg function="blessing">ku
 <lb n="3" break="no"/>ru vāḻka</seg>
 <lb n="4-5"/><seg function="blessing">kuruvē tuṇai {pcl}</seg>
-<lb n="6-7"/><seg function="title">ñāṉaveṭṭiyāṉ katai</seg>
+<lb n="6-7"/><seg function="title">ñāṉaveṭṭiyāṉ katai</seg></seg>
 
   <milestone n="1" unit="column"/><note xml:lang="en">diagram</note>
   <milestone n="2" unit="column"/><note xml:lang="en">diagram</note>
@@ -123,7 +125,19 @@
     <pb facs="0" n="[1]v"/>
   
   <milestone n="1" unit="column"/>
+  <lb n="1"/>cu
+<lb n="2"/>ri
+<lb n="3"/>pu
+<lb n="4"/>ṟā
+<lb n="5"/>cit=tirai {mācam}
+<lb n="6"/>mu ~ ṉāḻi ~ 1k=ku
+<lb n="7"/>varai 5m ~
+
   <milestone n="2" unit="column"/>
+  <lb n="1"/><unclear>ṉa</unclear>
+<lb n="2"/><gap reason="ellipsis"/>
+<lb n="3"/>ṉāḻi – 7k=ku
+<lb n="4"/>varai 5m
 
 </body></text><text synch="#U1b" corresp="#T2" xml:lang="ta"><body>
   
@@ -138,10 +152,15 @@
 <lb n="6-8"/><seg function="title">ñāṉaveṭṭiyāṉ katai {pcl}</seg>
 
   <milestone unit="main-text-area"/>
-  <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
+  <lb n="1"/><seg function="incipit">yiruḷ <gap reason="ellipsis"/></seg>
+  
+  <pb facs="0" n="15r"/>
+  
+  <milestone unit="column"/>
+  <lb n="1-2"/><seg function="intertitle">vīṭṭu ciṟappu</seg>
   
     <pb facs="0" n="126v"/>
-  <lb n="11"/><seg function="explicit"><gap reason="ellipsis"/>yāṉ eṉa {pcl} 3 100 3 10 {pcl}</seg> <seg function="blessing">kuru-pātan tuṇai {pcl}</seg> <space/> <gap reason="illegible"><note xml:lang="en">original text illegible due ti unblackened overscript correction</note></gap> <seg function="title"><subst>ñ<del>a</del><add place="below">ā</add></subst>ṉaveṭṭiyāṉ 
+  <lb n="11"/><seg function="explicit"><gap reason="ellipsis"/>yāṉ eṉa {pcl} 3 100 3 10 {pcl}</seg> <seg function="blessing">kuru-pātan tuṇai {pcl}</seg> <space/> <gap reason="illegible"><note xml:lang="en">original text illegible due to unblackened overscript correction</note></gap> <seg function="title"><subst>ñ<del>a</del><add place="below">ā</add></subst>ṉaveṭṭiyāṉ 
  <lb n="12"/>katai {pcl}</seg>  
 
 </body></text><text synch="#U2" corresp="#T3" xml:lang="ta"><body>
@@ -152,17 +171,19 @@
   <lb n="1-4"/><seg function="title">Āyirat=tukku mēl vayattiyam {pcs}</seg>
   
   <milestone unit="main-text-area"/>
-    <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
+    <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/> ~ vayittiyam pātukiṟēṉ āṇṭē vayittiyam pātukiṟēṉ {pcl}</seg>
+  <lb n="2ff."/><gap reason="ellipsis"/>
 
      <pb facs="0" n="3v"/>
 
         <lb n="10"/><seg function="incipit"><gap reason="ellipsis"/> {pcs} kāyam {pcs} 10 4 {pcs}</seg>
  
-
   </body></text><text synch="#U3" corresp="#T4" xml:lang="ta"><body>
   
   <pb facs="0" n="[1]r"/>
-  <lb n="1-9"/><gap reason="ellipsis"/>
+  <lb n="1"/><seg function="incipit">Ālam carīram <gap reason="ellipsis"/></seg>
+  <lb n="2-8"/><gap reason="ellipsis"/>
+  <lb n="9"/><seg function="explicit"><gap reason="ellipsis"/> pōṟṟi Uṟaṅki Uṟaṅkar tiru {pcs}</seg>
   
   <pb facs="0" n="[1]v"/><note xml:lang="en">blank</note>
   
@@ -170,16 +191,16 @@
   
   <pb facs="0" n="[1]r"/>
   
-  <milestone unit="column"/>
+  <seg function="header"><milestone unit="column"/>
   <lb n="1"/><seg function="blessing"><term xml:lang="sa">hari Om</term></seg>
-<lb n="2-7"/><seg function="title">caṅkarācariyār aruḷic ceyta patipacupācaviḷakkam</seg>
+<lb n="2-7"/><seg function="title">caṅkarācariyār aruḷic ceyta patipacupācaviḷakkam</seg></seg>
 
   <milestone unit="main-text-area"/>
-  <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
+  <lb n="1"/><seg function="incipit">mikka viṉāyaka <gap reason="ellipsis"/></seg>
   
     <pb facs="0" n="23v"/>
-  <lb n="8"/><seg function="explicit"><gap reason="ellipsis"/> {pcl} 100 4 {pcl}</seg> <seg function="colophon"><seg function="completion-statement">patipacupācaviḷakkamuṟṟum {pcl}</seg> <gap reason="ellipsis"/>
- <lb n="9"/><gap reason="ellipsis"/> <persName xml:lang="ta" role="scribe" cert="low">rāmaliṅkapiḷḷai</persName> makaṉ nākappaṉ cupatipāviḷakka<seg rend="grantha">m</seg> <seg function="blessing"><term xml:lang="sa">hari Om</term> {pcl}</seg></seg>
+  <lb n="8"/><seg function="explicit"><gap reason="ellipsis"/> {pcl} 100 4 {pcl}</seg> <seg function="colophon"><seg function="completion-statement">patipacupācaviḷakkamuṟṟum {pcl}</seg> vaṭamaṟṟakāṭṭi
+ <lb n="9"/>viruk=ku  <persName xml:lang="ta" role="scribe" cert="low">rāmaliṅkapiḷḷai</persName> makaṉ nākappaṉ cupatipāviḷakka<seg rend="grantha">m</seg> <seg function="blessing"><term xml:lang="sa">hari Om</term> {pcl}</seg></seg>
 
 </body></text><text synch="#U5" corresp="#T6" xml:lang="ta"><body>
   
@@ -194,7 +215,7 @@
   
     <pb facs="0" n="17r"/>
   <lb n="9"/><seg function="explicit"><gap reason="ellipsis"/> {pcl} 47 {pcl} yiṉṉam
-<lb n="10"/>Uṉaṟu</seg>
+<lb n="10"/><note xml:lang="en">right-oriented</note>Uṉṟu</seg>
 
   <pb facs="0" n="17v"/><note xml:lang="en">addition</note>
   <lb n="1"/>A Ai U E O
