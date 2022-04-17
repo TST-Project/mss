@@ -20,9 +20,9 @@
 						<idno type="shelfmark">Indien 550b</idno>
 						<idno type="alternate"><idno>Tamoul 550</idno><idno>Haas 39</idno></idno>
 					<idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc104078t</idno></msIdentifier>
-					<msContents class="#CM">
-						<summary>A composite manuscript containing: <list>
-  <item><title xml:lang="ta">Tivviyappirapantam</title> 2791-2900 (U2)</item>
+					<msContents class="#STM">
+						<summary>A single-text manuscript containing: <list>
+  <item><title xml:lang="ta">Tivviyappirapantam</title> 2791-2900 (U2).</item>
 </list></summary>
 
 					<msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta">Tivviyappirapantam 2791-2900</title><textLang mainLang="tam"/></msItem></msContents>
@@ -40,14 +40,14 @@
 
 								<condition>Relatively poor state of preservation. Truncated, cracked folios.</condition>
 								<support><measure unit="stringhole" quantity="1"/></support>
-								<collation><desc xml:id="U1">1 folio = <emph rend="bold">Title Page (?)</emph>. No foliation.</desc><desc xml:id="U2">10 folios = <emph rend="bold"><title xml:lang="ta">Tivviyappirapantam</title> 2791-2900</emph>. Tamil foliation 1-10.</desc></collation>
+								<collation><desc xml:id="U1">1 folio = <emph rend="bold">Title Page (?)</emph>. No foliation.</desc><desc xml:id="U2">10 folios = <emph rend="bold"><title xml:lang="ta">Tivviyappirapantam</title> 2791-2900</emph>. Tamil foliation {1}-10.</desc></collation>
 							</supportDesc>
 							<layoutDesc> </layoutDesc>
 						</objectDesc>
 						<handDesc>
 
 							
-						<handNote synch="#U1" script="tamil"/><handNote synch="#U2" script="tamil"/></handDesc>
+						<handNote synch="#U1" scope="minor" script="tamil" medium="incised"><desc>Unblackened.</desc></handNote><handNote synch="#U2" scope="major" script="tamil" medium="incised soot"/></handDesc>
 						<additions/>
 						<bindingDesc>
 							<binding>
@@ -96,12 +96,41 @@
 
   <pb facs="o" n="[1]r"/>
   
-  <pb facs="o" n="[1]v"/>
+   <milestone n="1" unit="column"/>
+    <lb n="1"/><seg function="blessing">Aṭiyēṉ <term xml:lang="sa">rāmānujāya nmaḥ ||</term></seg>
+    <lb n="2"/><seg function="blessing"><gap reason="lost"/> <term xml:lang="sa">śrī śrī śrīmate rāmānujāya nmaḥ ||</term></seg>
+    <lb n="3"/><seg function="blessing"><supplied reason="lost">śrī</supplied>-<unclear>rā=ma</unclear>-ceya=M</seg> <placeName xml:lang="ta">kumpakōṇam</placeName>
+    <lb n="4"/><seg function="blessing"><term xml:lang="sa">rāmānujāya nmaḥ</term></seg>
+  
+  <milestone n="2" unit="column"/>
+    <lb n="1"/><seg function="blessing">{pcl} śrī-rā=ma-ceya=M</seg>
+  
+   <milestone n="3" unit="column"/>
+    <lb n="1-5"/><gap reason="ellipsis"/>
+  
+  <milestone n="4" unit="column"/>
+    <lb n="1"/><gap reason="ellipsis"/>
+  
+    <pb facs="o" n="[1]v"/>
+  
+  <milestone n="1" unit="column"/>
+    <lb n="1-2"/><gap reason="ellipsis"/>  
+ 
+  <milestone n="2" unit="column"/>
+    <lb n="1-4"/><gap reason="ellipsis"/>
 
 </body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
 
-  <pb facs="o" n="1r"/>
+  <pb facs="o" n="[1]r"/>
+    <milestone unit="left-margin"/>
+ <lb n="1-2"/><seg function="blessing"><term xml:lang="sa">hariḥ Om</term></seg>
+  
+  <milestone unit="main-text-area"/>
+    <seg function="incipit"><lb n="1"/>Uyarvaṟa vuyarṉāla muṭaiyavaṉ yavanavaṉ</seg> <gap reason="ellipsis"/>
   
   <pb facs="o" n="10v"/>
+      <lb n="1-6"/><gap reason="ellipsis"/>
+      <lb n="7"/><seg function="explicit"><gap reason="ellipsis"/> rēkalvivāyumē {pcl}</seg>
+  <lb n="8"/><note xml:lang="en">centred</note> <seg function="blessing">Āḻvāṟ tivaṭikaḷilē caraṇa=M {pcs}</seg>
 
 </body></text></TEI>
