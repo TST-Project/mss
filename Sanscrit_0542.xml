@@ -1,0 +1,96 @@
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            
+            
+         <title>Aṣṭādhyāyī</title><editor><persName>Anuja Ajotikar</persName><orgName>University of Hamburg</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2022</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Sanscrit 542</idno>
+                  <idno type="alternate"><idno>Sanscrit Grantha 115</idno></idno>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc972729</idno></msIdentifier>
+               <msContents class="#STM">
+                  
+                  
+               <summary>This is a manuscript of the <title xml:lang="sa">Aṣṭādhyāyī</title>. It lists all the rules from the <title xml:lang="ta">Aṣṭādhyāyī</title> and also includes the supplementary <term xml:lang="sa">vārtika</term>s on the respective rules with statements turned <term xml:lang="sa">vārtika</term>s from the <title xml:lang="sa">VyākaraṇaMahābhāṣya</title>.  Some description resembles the <title xml:lang="sa">Kāśikā</title>, the famous commentary on the <title xml:lang="sa">Aṣṭādhyāyī</title>, but the wording is not exactly similar. </summary><msItem xml:id="Aṣṭādhyāyī" defective="false"><title xml:lang="sa">Aṣṭādhyāyī sūtrapāṭha (<term xml:lang="en">with some excerpts from the</term> Kāśikāvṛtti) </title><author xml:lang="sa">Pāṇini</author><textLang mainLang="san"/><filiation><p>Aufrecht Catalogus vol. 1 p. 036.
+New Catalogus Catalogorum vol. revised edition p 68b-72b.</p></filiation><rubric xml:lang="sa"><milestone n="1r" unit="folio" facs="7"/>
+  <lb n="1"/>om_ vāṇiṃ ௳  pāṇinamācāryaṃ kātyāyanṛṣintathā kṛtāñjalīṁ namasyāmi bhagavantaṃ patañjaliṃ௳</rubric><incipit xml:lang="sa">a_iuṇ ௳ ṛḷk ௳ eoṅ ௳ aiauc ௳ hayavaraṭ ௳</incipit><explicit xml:lang="sa"><milestone n="137v" unit="folio" facs="283"/>
+<lb n="1"/><gap reason="ellipsis"/>dasthāṣṭau ௳ </explicit><finalRubric xml:lang="sa"> iti pāṇinīye ṣṭamasyādyāyasya caturthaḥ pādaḥ ௳hariḥ om ௳ aṣṭādhyāyī samāpta ௳</finalRubric></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="pothi">
+                     <supportDesc material="palm-leaf">
+                        <support>
+                           <measure unit="stringhole" quantity="2"/>
+                           
+                        <p>Thick wooden cover as guard cover.</p></support>
+                        <extent>
+                           <measure unit="folio" quantity="141">2 guard folios, 138 numbered folios, 4 blank folios</measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           <width quantity="375"/><height quantity="30"/></dimensions>
+                        <dimensions type="object" unit="mm"><width quantity="380"/><height quantity="35"/><depth quantity="80"/></dimensions><dimensions type="written" unit="mm"><width quantity="330" min="315" max="330"/><height quantity="20"/></dimensions></extent>
+                        <collation/>
+                        
+                        
+                     <foliation>Tamil letter numerals in left margin.
+Manuscript initially disordered; reordered on 09/06/2022: ff. <locus facs="53">23</locus>-<locus facs="72">32</locus> flipped, rotated 180 degrees, and out of order. f. <locus facs="77">35</locus> after f. <locus facs="81">37</locus>. Ff. <locus facs="85">39</locus>-<locus facs="176">84</locus> rotated 180 degrees. Ff. <locus facs="185">89</locus>-<locus facs="194">93</locus> flipped. Ff. <locus facs="205">99</locus>-<locus facs="208">100</locus> flipped. F. <locus facs="215">104</locus> after <locus facs="208">100</locus>. <locus facs="209">101</locus>-<locus facs="214">103</locus> flipped. Ff. <locus facs="265">129</locus>-<locus facs="274">133</locus> flipped and rotated. Wormhole patterns match original folio ordering.</foliation><condition>Wormholes at the corners and margins.</condition></supportDesc>
+                     <layoutDesc>
+                        
+                     <layout writtenLines="4" streams="1"/></layoutDesc>
+                  </objectDesc>
+                  <handDesc><handNote scope="sole" script="grantha" medium="incised soot"><desc>Very neat and clean handwriting. </desc></handNote></handDesc>
+                  <decoDesc>
+                  <decoNote type="drawing" subtype="marginal"><desc>Typical southern kolam flower design in the left and right margin marking the end of the sub chapters or chapters. </desc></decoNote></decoDesc>
+                  <additions>
+                  <desc type="blessing" subtype="marginal"><q xml:lang="sa">śubhamastu hariḥ om</q> in the left margin of <locus facs="7">folio 1r</locus>. </desc><desc type="shelfmark" subtype="beginning guard-folio">RC 7881 written with blank ink pen (<locus facs="3">initial guard folio</locus>).</desc><desc type="title" subtype="end">Title:  <q xml:lang="sa">Aṣṭādhyāyī prathamādhyāyaprabhṛti aṣṭamādhyāyaparyantaṁ <unclear>upāttakam</unclear><note xml:lang="en">4 letters not legible</note></q>  written at the end on <locus facs="283">seperate folio</locus>. Folio is half broken. 
+ </desc></additions>
+                  <bindingDesc>
+                     <binding/>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian"/>
+                     
+                  <origPlace>Tamilnadu</origPlace></origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl>Otto von Böhtlingk, <title xml:lang="de">Pānini's Acht Bücher grammatischer Regeln. Bd. 2 Einleitung, Commentar, erklärender Index der grammatischen Kunstausdrücke, alphabetisches Verzeichnis des Sûtra's Ganapàtha</title>. Osnabrück Zeller 1983.</bibl><bibl>George Cardona, <title>Pāṇini : his work and its traditions</title>. Delhi : Motilal Banarsidass Publishers, 1997.</bibl><bibl>Aryendra Sharma, <title xml:lang="sa">Kāśikā</title>, Publisher:	Hyderabad : Osmania Univ., Sanskrit Acad. Series:	Sanskrit Academy series.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         
+      <p>Spelling mistakes are corrected using () bracket for manuscript reading and [] for the corrected reading.  Question mark is used to indicate the doubtful reading.  {} used for illegible letters beasuce of wormholes.</p></encodingDesc>
+      <revisionDesc>
+         
+      </revisionDesc>
+   <xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
+   <facsimile>
+   <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525156678/manifest.json"/></facsimile>
+<text corresp="#Aṣṭādhyāyī" xml:lang="sa"><milestone n="1r" unit="folio" facs="7"/>
+<lb n="1"/>om_ vāṇīṃ ௳ pāṇinamācāryaṃ kātyāyanaṛṣintathā kṛtāñjalīṃ namasyāmi bhagavantaṃ patañjaliṃ ௳ a_iuṇ ௳ ṛḷk ௳ eoṅ ௳ aiauc ௳ hayavaraṭ ௳ 
+<lb n="2"/>aṭānmadhye visarjanīyajihvāmūlīyopadhbhānīyānusvārāṇāmapyupadeśaḥ kartavyaḥ ௳  laṇ ñamaṅaṇanam ௳ jhabhañ ௳ ghaḍhadha<lb n="3"/>ṣ ௳ jabagaḍadaś ௳ khaphachaṭhathacaṭatav ௳ kapay ௳ śaṣasar ௳  hal ௳ oṃ ௳ vṛddhirādaic ௳ adeṅ guṇaḥ ௳ iko guṇavṛddhī ௳ na dhā 
+
+
+<milestone n="137r" unit="folio" facs="281"/>
+<lb n="1"/><unclear>ne</unclear> aṇo pragṛhyasyānunāsikaḥ ௳ anusvārasya yayi parasavarṇaḥ ௳ vā pādāntasya ௳ torli ௳ udasthāstaṁbhvoḥ pūrvasya udaḥ purvatve
+<lb n="2"/><gap/>Candasyupasaṁkhyānaṁ ௳ roge ceti vaktyavyaṁ . ௳ jhayo honyatarasyāṃ ௳ śaśchoṭi śaśchomiti vaktavyaṃ ௳ haloyamāṃ ya 
+<lb n="3"/>mi lopaḥ ௳ jhāro jhari savarṇe ௳  udāttānudāttasya svaritaḥ ௳ nodāttasvaritodayamagārgyakāśyapagālavānāṃ ௳ a a dī<lb n="4"/>rghaplutayoranena vivṛtākāreṇa grahaṇanneṣyate ௳ saṃvṛtena sarvaguṇasya mātrikasya grahaṇamiṣyate ௳ raṣābhyā<choice><sic>ma</sic><corr>mu</corr></choice>bhau ṣṭu<choice><sic>no</sic><corr>nā</corr></choice>
+<pb n="137v" facs="282"/>dasthāṣṭau ௳ iti pāṇinīye ṣṭamasyādyāyasya caturthaḥ pādaḥ ௳hariḥ om ௳ aṣṭādhyāyī samāpta ௳ </text></TEI>
