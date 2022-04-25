@@ -20,10 +20,10 @@
                   
                   <idno type="shelfmark">Indien 4a</idno>
                   <idno type="alternate"/>
-               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc102629s</idno></msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc102629s</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/zk51vq09x</idno></msIdentifier>
                <msContents class="#CM">
-                  <summary>                     <p>The <title xml:lang="ta">Rāmatēvar Pūcāviti</title>, "Rules for worship by Rāmatēvar", appears to be a manual for worship by Rāmatēvar, in 200 stanzas.</p>
-                     <p>The text is complete.</p>
+                  <summary><p>The <title xml:lang="ta">Rāmatēvar Pūcāviti</title>, "Rules for worship by Rāmatēvar", appears to be a manual for worship by Rāmatēvar, in 200 stanzas.</p>
+<p>The text is complete.</p>
                      
                   </summary>
                   
@@ -53,7 +53,7 @@
                         
                      <collation>
                      
-                     <desc xml:id="U1">45 folios = <emph rend="bold"><title xml:lang="en">Rāmatēvar Pūcāviti</title></emph>. Tamil foliation {1}‒45.</desc></collation>
+                     <desc xml:id="U1">45 folios = <emph rend="bold"><title xml:lang="en">Rāmatēvar Pūcāviti</title></emph>. Tamil foliation {1}‒45. f45v blank.</desc></collation>
                      </supportDesc>
                      
                   <layoutDesc><layout columns="1" writtenLines="8"/></layoutDesc></objectDesc>
@@ -61,7 +61,7 @@
                      
                      
                     
-                  <handNote synch="#U1" scope="sole" script="tamil" medium="incised"/></handDesc>
+                  <handNote synch="#U1" scope="sole" script="tamil" medium="incised soot"/></handDesc>
                   <additions>
                   
                      
@@ -102,13 +102,13 @@
       <revisionDesc>
          
       <change when="2020-04"> This catalogue entry has been redacted by Emmanuel FRANCIS (CNRS, CEIAS UMR 8564, EHESS &amp; CNRS) for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG). Version 1, April 2020. </change><change when="2021-06">Updated to TST encoding conventions by Emmanuel FRANCIS.</change><change when="2022-01">Added written dimensions (Charles LI).</change></revisionDesc>
-   </teiHeader>
+   <xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
     <sourceDoc>
         <surface/>
     </sourceDoc>
-<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+<facsimile><graphic url="https://didomena.ehess.fr/concern/data_sets/zk51vq09x/manifest.json" facs="13"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   
-  <pb facs="00" n="[1]r"/>
+  <pb facs="13" n="[1]r"/>
   <milestone unit="left-margin"/>
   
   <lb n="1"/><seg function="blessing">ha<ex><seg rend="grantha">riḥ</seg></ex> O<seg rend="grantha">=m</seg> <note xml:lang="en">the <foreign xml:lang="ta">ha</foreign> is inside the <foreign xml:lang="ta">O</foreign><foreign xml:lang="ta">m</foreign></note></seg> <seg function="blessing">naṉṟāka</seg> <seg function="blessing">kuru vāḻka</seg>
@@ -122,11 +122,14 @@
   <milestone unit="main-text-area"/>
   <lb n="1"/><seg function="incipit">mūlam eṉum mutaṟ poruḷ</seg> <gap reason="ellipsis"/>
   
-  <pb facs="00" n="45r"/>
+  <pb facs="81" n="45r"/>
   <!--Update reading?-->
   <lb n="2"/><gap reason="ellipsis"/> <seg function="explicit"><choice><sic>cī</sic><corr>ci</corr></choice>vayō
   <lb n="3" break="no"/>kam viḷaṅkumuttē <g ref="#pcs"/> = 201 =</seg> <seg function="blessing">kuruṉātaṉ kaṭāṣcam uṇṭākalu=<seg rend="grantha">m</seg></seg>
   <lb n="4"/><seg function="colophon">caṟacitti <note xml:lang="en">i.e. <term xml:lang="ta">carvacittu</term></note> <g ref="#varudam"/> puṟaṭṭāc<choice><sic>cī</sic><corr>ci</corr></choice> <g ref="#maatham"/> <hi rend="subscript">2<unclear>10</unclear>2 <g ref="#teti"/></hi> amaṟapaṣṣim pañcami putavāram – naṭune<choice><unclear>ṟ</unclear><unclear>ṟa</unclear></choice> – māṉa <note xml:lang="en">i.e. <term xml:lang="ta">naṭu<pc>-</pc>nēram<pc>-</pc>āṉa</term>?</note>
-  <lb n="5"/>tiṉattil y<pc>-</pc>eḻutiṉatu kuruṉātaṉ aruḷiya <del>ṟ</del> paṭi mū<choice><sic>ttu</sic><corr>ṟṟu</corr></choice>m</seg> <seg function="blessing">cīvayōkam</seg> – <g ref="#pcl"/>                     
+  <lb n="5"/>tiṉattil y<pc>-</pc>eḻutiṉatu kuruṉātaṉ aruḷiya <del>ṟ</del> paṭi mū<choice><sic>ttu</sic><corr>ṟṟu</corr></choice>m</seg> <seg function="blessing">cīvayōkam</seg> – <g ref="#pcl"/>         
+  
+      <pb n="45v"/><note xml:lang="en">blank</note>
+
   
  </body></text></TEI>

@@ -20,7 +20,7 @@
                   
                   <idno type="shelfmark">Indien 4b</idno>
                   <idno type="alternate"/>
-               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc102629s</idno></msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc102629s</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/zk51vq09x</idno></msIdentifier>
                <msContents class="#CM">
                   <summary>                     <p>The <title xml:lang="ta">Nāṟkaraṇavupatēcam</title>, "Teaching on the four <emph rend="italic">karaṇam</emph>s", appears to be a lesson on the four <emph rend="italic">karaṇam</emph>s, that is, the four organs of perceptions.</p>
                      <p>The text is complete.</p>
@@ -52,14 +52,14 @@
                         
                      <collation>
                      
-                     <desc xml:id="U1">9 folios = <emph rend="bold"><title xml:lang="en">Nāṟkaraṇavupatēcam</title></emph>. Tamil foliation {1}‒9.</desc></collation></supportDesc>
+                     <desc xml:id="U1">9 folios = <emph rend="bold"><title xml:lang="en">Nāṟkaraṇavupatēcam</title></emph>. Tamil foliation {1}‒9. f9v blank.</desc></collation></supportDesc>
                      
                   <layoutDesc><layout columns="1" writtenLines="7"/></layoutDesc></objectDesc>
                   <handDesc>
                      
                      
                     
-                  <handNote scope="major" script="tamil" medium="incised"/></handDesc>
+                  <handNote scope="major" script="tamil" medium="incised soot"/></handDesc>
                   <additions>
                                      
                      
@@ -94,13 +94,13 @@
       <revisionDesc>
          
       <change when="2020-04"> This catalogue entry has been redacted by Emmanuel FRANCIS (CNRS, CEIAS UMR 8564, EHESS &amp; CNRS) for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG). Version 1, April 2020. </change><change when="2021-06">Updated to TST encoding conventions by Emmanuel FRANCIS.</change><change when="2022-01">Added written dimensions (Charles LI).</change></revisionDesc>
-   </teiHeader>
+   <xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
     <sourceDoc>
         <surface/>
     </sourceDoc>
-<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+<facsimile><graphic url="https://didomena.ehess.fr/concern/data_sets/zk51vq09x/manifest.json" facs="90"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   
-  <pb n="[1]r"/>
+  <pb facs="90" n="[1]r"/>
   
   <milestone unit="left-margin"/>
   <lb n="1-2"/><seg function="blessing">kuru-pātan tuṇai</seg>
@@ -114,14 +114,17 @@
   <lb n="5"/>ṉōṉmaṇiyaip pōtti</l> <l>Oruvaṇaiyum aṟavāta Ulakappatam
   <lb n="6"/>pirāṉ utaviya nāṟkka<choice><sic>ru</sic><corr>ra</corr></choice>ṇavupatēcam itu v<pc>-</pc>āme</l> <g ref="#pcs"/> 1 <g ref="#pcs"/></lg> <gap reason="ellipsis"/>
   
-  <pb n="9r"/>
+  <pb facs="106" n="9r"/>
  
   <lb n="1"/>p <seg function="explicit">paṟuttu yirukkalāmē <g ref="#pcs"/> 26 <g ref="#pcs"/></seg> <gap reason="ellipsis"/>
   <lb n="2"/><gap reason="ellipsis"/>
   <lb n="3"/><gap reason="ellipsis"/> nāṟkaraṇavupatēcañ
-  <lb n="3"/>col<pc>-</pc>l eṉṉa<pc>-</pc>k kēṭṭaṉaṟ paṭittōr kattōr iṉṉūl vēṇum eṉa e-
+  <lb n="4"/>col<pc>-</pc>l eṉṉa<pc>-</pc>k kēṭṭaṉaṟ paṭittōr kattōr iṉṉūl vēṇum eṉa e-
   <lb n="5"/>ḻutiṉ avar ivar tām ellām ikavaṟivu <unclear>ye</unclear>ttum eññāṉa<pc>-</pc>kuruvāmē <g ref="#pcs"/> <seg function="colophon"><seg function="completion-statement">nārkkaraṇavupa
   <lb n="6" break="no"/>tēcam Eḻuti mukintatu muṟṟum</seg> <g ref="#pcs"/> <seg function="blessing">kuru<pc>-</pc>pātan tuṇai</seg> <g ref="#pcl"/></seg>
+  
+      <pb n="9v"/><note xml:lang="en">blank</note>
+
   
 </body>
   

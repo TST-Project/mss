@@ -20,7 +20,7 @@
                   
                   <idno type="shelfmark">Indien 4</idno>
                   <idno type="alternate"><idno>Tamoul 4</idno><idno>Ariel 136</idno><idno>c/48</idno></idno>
-               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc102629s</idno></msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc102629s</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/zk51vq09x</idno></msIdentifier>
                <msContents class="#CM">
                   <summary><p>The palm-leaf bundle, a composite manuscript, entitled <title xml:lang="ta">Viratam Iraṇṭu</title> on its additional title page, contains:</p>
 <list rend="numbered">
@@ -57,7 +57,7 @@
                         <condition>Excellent state of preservation, despite a few boreholes caused by insects. </condition>
                      <collation>
                      
-                     <desc xml:id="coverFront">the <emph rend="bold">front cover</emph>. Shelfmarks on recto.</desc><desc xml:id="U1">1 folio = <emph rend="bold">title page</emph>. No foliation. Verso blank. Double leaf. Shelfmark on recto.</desc><desc xml:id="4a"/><desc xml:id="4b"/><desc xml:id="coverBack">the <emph rend="bold">back cover</emph>.</desc></collation></supportDesc>
+                     <desc xml:id="coverFront">the <emph rend="bold">front cover</emph>. Shelfmarks on recto.</desc><desc xml:id="U1">1 folio = <emph rend="bold">title page</emph>. No foliation. Verso blank. Double leaf. Shelfmark on recto.</desc><desc xml:id="4a">45 folios.</desc><desc xml:id="4b">9 folios.</desc><desc xml:id="coverBack">the <emph rend="bold">back cover</emph>.</desc></collation></supportDesc>
                      <layoutDesc>
                         <p/>
                      </layoutDesc>
@@ -66,7 +66,7 @@
                      
                      
                     
-                  <handNote synch="#U1" scope="minor" scribeRef="#ArielTitleScribe" script="tamil" scriptRef="#tamilPulliSporadic #tamilOE"/></handDesc>
+                  <handNote synch="#U1" scope="minor" scribeRef="#ArielTitleScribe" script="tamil" scriptRef="#tamilPulliSporadic #tamilOE" medium="incised soot"/></handDesc>
                   <additions>
                   
                      
@@ -76,7 +76,7 @@
                     
                     
                      
-                  </additions>
+                  <desc synch="#coverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 4</quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#coverFront" subtype="cover front">BnF bequest sticker <quote>DON N° <space type="vacat"/></quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#coverFront" type="documenting-note" subtype="cover front">Shelfmark sticker (Société Asiatique?), written in black ink: <quote><del>638</del></quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#U1" type="shelfmark">Shelfmark <quote>c/48</quote> in black ink (<locus facs="10">f[1]r</locus>). </desc></additions>
                   <bindingDesc>
                      <binding>
                         <p><material>Pinewood</material> covers apparently fabricated in the BnF.</p>
@@ -108,13 +108,13 @@
          
       
       <change when="2020-04"> This catalogue entry has been redacted by Emmanuel FRANCIS (CNRS, CEIAS UMR 8564, EHESS &amp; CNRS) for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG). Version 1, April 2020. </change><change when="2021-06">Updated to TST encoding conventions by Emmanuel FRANCIS.</change><change when="2022-01">Added written dimensions and bundle depth (Charles LI).</change></revisionDesc>
-   </teiHeader>
+   <xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
     <sourceDoc>
         <surface/>
     </sourceDoc>
-<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+<facsimile><graphic url="https://didomena.ehess.fr/concern/data_sets/zk51vq09x/manifest.json"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   
-  <pb facs="3" n="[1]r"/>
+  <pb facs="9" n="[1]r"/>
   
   <milestone n="1" unit="column"/>
   <lb n="1"/><seg function="blessing">veṟṟi
@@ -130,6 +130,9 @@
   <lb n="2"/>pūcāviti – 200</seg>
   <lb n="3"/><seg function="title">nāṟkaraṇa
   <lb n="4" break="no"/>Upatēcam</seg>
+  
+    <pb n="[1]v"/><note xml:lang="en">blank</note>
+
   
 </body>
 </text></TEI>
