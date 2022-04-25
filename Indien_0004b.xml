@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader xml:lang="en">
@@ -9,7 +9,7 @@
          
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -17,10 +17,10 @@
                   <repository>
                      <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
                   </repository>
-                  <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc102629s</idno>
+                  
                   <idno type="shelfmark">Indien 4b</idno>
                   <idno type="alternate"/>
-               </msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc102629s</idno></msIdentifier>
                <msContents class="#CM">
                   <summary>                     <p>The <title xml:lang="ta">Nāṟkaraṇavupatēcam</title>, "Teaching on the four <emph rend="italic">karaṇam</emph>s", appears to be a lesson on the four <emph rend="italic">karaṇam</emph>s, that is, the four organs of perceptions.</p>
                      <p>The text is complete.</p>
@@ -82,7 +82,7 @@
                <additional>
                   <listBibl>
                      
-                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f20">p. 2</ref>.</bibl><bibl>Vinson, Julien (1867). <title>Catalogue des manuscrits tamouls</title>. Corrected proofreadings printed by the atelier oriental de l’Imprimerie nationale. BnF “4-IMPROR-77 (B)” — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b10329763p/f20">p. 2</ref>.</bibl></listBibl>
+                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens. Bibliothèque nationale. Département des manuscrits.</title> Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f20">p. 2, no. 4</ref>.</bibl><bibl>Rosny, Léon de (1868). <title type="article">La bibliothèque tamoule de M. Ariel, de Pondichéry</title>. In: <title>Variétés orientales</title> (pp. 177‒224). Paris: Maisonneuve.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. (1866-). <title>Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f17">f. 1r, no. 4</ref>. </bibl><bibl>Vinson, Julien (1868). <title>Manuscrits tamouls</title>. Proofreadings of the catalogue for Tamoul 1-204 (old shelfmark). Printed by the atelier oriental de l’Imprimerie nationale. BnF “4-IMPROR-77 (B)”. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b105333021/f11">p. 1, no. 4</ref>. — The same proofreadings with black ink handwritten corrections are found in Vinson et al. (1866-, f1-f49). </bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
@@ -90,9 +90,7 @@
      <encodingDesc>
          
          
-      <p><p><emph rend="bold">Transliteration conventions</emph></p>  
-<p>Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). </p>
-<p><emph rend="bold">Abbreviations</emph></p>  <p> c = column, f = folio, lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.</p>       </p></encodingDesc>
+      <p>   <emph rend="bold">General</emph> ―  Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied.    Unmarked <foreign>puḷḷi</foreign> supplied.  Conjectural reading (text unclear) between parentheses.  Supplied reading (text lost) between square brackets.  Alternative readings between separated by slash.  <emph rend="bold">In transliteration</emph> ―  Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe.     Uppercase for initial vowels.  Symbols between curly brackets.  <emph rend="bold">Abbreviations</emph> ―  c = column;  f = folio;  lf = library foliation;  lm = left margin;  r = recto;   rm = right margin;  u / U followed by a number = unit (codicological and/or textual);  v = verso.      </p></encodingDesc>
       <revisionDesc>
          
       <change when="2020-04"> This catalogue entry has been redacted by Emmanuel FRANCIS (CNRS, CEIAS UMR 8564, EHESS &amp; CNRS) for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG). Version 1, April 2020. </change><change when="2021-06">Updated to TST encoding conventions by Emmanuel FRANCIS.</change><change when="2022-01">Added written dimensions (Charles LI).</change></revisionDesc>
@@ -109,12 +107,12 @@
   <lb n="3-5"/><seg function="title">nārkkaraṇaUpatēcam</seg>
   
   <milestone unit="main-text-area"/>
-  <lb n="1"/><seg function="incipit">kuruparaṉ aṅ<unclear reason="vowel_unclear">kā</unclear>ṉ ṟēvi vallapaiyaip pō<choice><sic>tti</sic><corr>ṟṟi</corr></choice></seg> – kū(r/ra)vayaṉ caracu
-  <lb n="2" break="no"/>pati<pc>-</pc>y<pc>-</pc>ammaṉ<pc>-</pc>aiyum [<term xml:lang="en">i.e.</term> caracuvati<pc>-</pc>y<pc>-</pc>ammaṉ<pc>-</pc>aiyum] pōtti ‡ yiruvar patimēl makāleṭcumiyaiy pōtti
-  <lb n="3"/>Eri<pc>-</pc>muka<pc>-</pc>ruttiraṉ ṟēvi ruttiriyaip pōtti ‡ Aruva<pc>-</pc>mayēspara
-  <lb n="4" break="no"/>ṉ ṟēvi mayēspariyaip pōtti ananta<pc>-</pc>catācivaṉ ṟēvi ma
-  <lb n="5"/>ṉōṉmaṇiyaip pōtti ‡ Oruvaṇaiyum aṟavāta Ulakappatam
-  <lb n="6"/>pirāṉ utaviya nāṟkka<choice><sic>ru</sic><corr>ra</corr></choice>ṇavupatēcam itu<pc>-</pc>v āme <g ref="#pcs"/> 1 <g ref="#pcs"/> <gap reason="ellipsis"/>
+  <lg><l><lb n="1"/><seg function="incipit">kuruparaṉ aṅ<unclear reason="vowel_unclear">kā</unclear>ṉ ṟēvi vallapaiyaip pō<choice><sic>tti</sic><corr>ṟṟi</corr></choice></seg> – kū<choice><unclear>r</unclear><unclear>ra</unclear></choice>vayaṉ caracu
+    <lb n="2" break="no"/><sic>pa</sic>ti<pc>-</pc>y<pc>-</pc>ammaṉaiyum pōtti</l> <l>y<pc>-</pc>iruvar patimēl makāleṭcumiyaiy pōtti
+    <lb n="3"/>Eri<pc>-</pc>muka<pc>-</pc>ruttiraṉ ṟēvi ruttiriyaip pōtti</l> <l>Aruva<pc>-</pc>mayēspara
+  <lb n="4" break="no"/>ṉ ṟēvi mayēspariyaip pōtti Ananta<pc>-</pc>catācivaṉ ṟēvi ma
+  <lb n="5"/>ṉōṉmaṇiyaip pōtti</l> <l>Oruvaṇaiyum aṟavāta Ulakappatam
+  <lb n="6"/>pirāṉ utaviya nāṟkka<choice><sic>ru</sic><corr>ra</corr></choice>ṇavupatēcam itu v<pc>-</pc>āme</l> <g ref="#pcs"/> 1 <g ref="#pcs"/></lg> <gap reason="ellipsis"/>
   
   <pb n="9r"/>
  
@@ -122,8 +120,8 @@
   <lb n="2"/><gap reason="ellipsis"/>
   <lb n="3"/><gap reason="ellipsis"/> nāṟkaraṇavupatēcañ
   <lb n="3"/>col<pc>-</pc>l eṉṉa<pc>-</pc>k kēṭṭaṉaṟ paṭittōr kattōr iṉṉūl vēṇum eṉa e-
-  <lb n="5"/>ḻutiṉ avar ivar tām ellām ikavaṟivu <unclear>ye</unclear>ttum eññāṉa<pc>-</pc>kuruvāmē <g ref="#pcs"/> <seg function="completion-statement">nārkkaraṇavupa
-  <lb n="6" break="no"/>tēcam Eḻuti mukintatu muṟṟum</seg> <g ref="#pcs"/> <seg function="blessing">kuru<pc>-</pc>pātan tuṇai</seg> <g ref="#pcl"/>
+  <lb n="5"/>ḻutiṉ avar ivar tām ellām ikavaṟivu <unclear>ye</unclear>ttum eññāṉa<pc>-</pc>kuruvāmē <g ref="#pcs"/> <seg function="colophon"><seg function="completion-statement">nārkkaraṇavupa
+  <lb n="6" break="no"/>tēcam Eḻuti mukintatu muṟṟum</seg> <g ref="#pcs"/> <seg function="blessing">kuru<pc>-</pc>pātan tuṇai</seg> <g ref="#pcl"/></seg>
   
 </body>
   
