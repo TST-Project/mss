@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader xml:lang="en">
@@ -9,7 +9,7 @@
          
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -17,10 +17,10 @@
                   <repository>
                      <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
                   </repository>
-                  <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc102629s</idno>
+                  
                   <idno type="shelfmark">Indien 4a</idno>
                   <idno type="alternate"/>
-               </msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc102629s</idno></msIdentifier>
                <msContents class="#CM">
                   <summary>                     <p>The <title xml:lang="ta">Rāmatēvar Pūcāviti</title>, "Rules for worship by Rāmatēvar", appears to be a manual for worship by Rāmatēvar, in 200 stanzas.</p>
                      <p>The text is complete.</p>
@@ -28,7 +28,7 @@
                   </summary>
                   
                   
-               <msItem xml:id="T1" defective="false"><title xml:lang="ta">Rāmatēvar Pūcāviti</title><textLang mainLang="tam"/></msItem></msContents>
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Rāmatēvar Pūcāviti</title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
@@ -80,7 +80,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian" notAfter="1828">Dated to the year <foreign xml:lang="ta">carvacittu</foreign> of the Jovian cycle, that is, CE 1827-1828, 1767-1768, 1707-1708, etc. See colophon (f45r4).</origDate>
+                     <origDate calendar="gregorian" notAfter="1828">Dated to the year <foreign xml:lang="ta">carvacittu</foreign> of the Jovian cycle, that is, CE 1827-1828, 1767-1768, 1707-1708, etc. See colophon (<locus facs="0">f45r4</locus>).</origDate>
                      <origPlace>Tamilnadu.</origPlace>
                   </origin>
                   <acquisition>
@@ -90,7 +90,7 @@
                <additional>
                   <listBibl>
                      
-                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f20">p. 2</ref>.</bibl><bibl>Vinson, Julien (1867). <title>Catalogue des manuscrits tamouls</title>. Corrected proofreadings printed by the atelier oriental de l’Imprimerie nationale. BnF “4-IMPROR-77 (B)” — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b10329763p/f20">p. 2</ref>.</bibl></listBibl>
+                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens. Bibliothèque nationale. Département des manuscrits.</title> Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f20">p. 2, no. 4</ref>.</bibl><bibl>Rosny, Léon de (1868). <title type="article">La bibliothèque tamoule de M. Ariel, de Pondichéry</title>. In: <title>Variétés orientales</title> (pp. 177‒224). Paris: Maisonneuve.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. (1866-). <title>Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f17">f. 1r, no. 4</ref>. </bibl><bibl>Vinson, Julien (1868). <title>Manuscrits tamouls</title>. Proofreadings of the catalogue for Tamoul 1-204 (old shelfmark). Printed by the atelier oriental de l’Imprimerie nationale. BnF “4-IMPROR-77 (B)”. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b105333021/f11">p. 1, no. 4</ref>. — The same proofreadings with black ink handwritten corrections are found in Vinson et al. (1866-, f1-f49). </bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
@@ -98,8 +98,7 @@
      <encodingDesc>
          
          
-      <p><p><emph rend="bold">Transliteration conventions</emph></p>  
-<p>Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only).  </p>  <p><emph rend="bold">Abbreviations</emph></p>  <p> c = column, f = folio, lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.</p>       </p></encodingDesc>
+      <p>   <emph rend="bold">General</emph> ―  Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied.    Unmarked <foreign>puḷḷi</foreign> supplied.  Conjectural reading (text unclear) between parentheses.  Supplied reading (text lost) between square brackets.  Alternative readings between separated by slash.  <emph rend="bold">In transliteration</emph> ―  Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe.     Uppercase for initial vowels.  Symbols between curly brackets.  <emph rend="bold">Abbreviations</emph> ―  c = column;  f = folio;  lf = library foliation;  lm = left margin;  r = recto;   rm = right margin;  u / U followed by a number = unit (codicological and/or textual);  v = verso.      </p></encodingDesc>
       <revisionDesc>
          
       <change when="2020-04"> This catalogue entry has been redacted by Emmanuel FRANCIS (CNRS, CEIAS UMR 8564, EHESS &amp; CNRS) for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG). Version 1, April 2020. </change><change when="2021-06">Updated to TST encoding conventions by Emmanuel FRANCIS.</change><change when="2022-01">Added written dimensions (Charles LI).</change></revisionDesc>
