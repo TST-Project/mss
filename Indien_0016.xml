@@ -33,7 +33,7 @@
                            <measure unit="stringhole" quantity="2"/>
                         </support>
                         <extent>
-                           <measure unit="folio" quantity="27">[1] + 25 + [1] (U1 + U2 + U3).</measure>
+                           <measure unit="folio" quantity="27">{1} + 25 + {1} (U1 + U2 + U3).</measure>
                            <dimensions type="leaf" unit="mm">
                               <width quantity="130"/>
                               <height quantity="40"/>
@@ -49,7 +49,7 @@
                         
                         
                         
-                        <desc xml:id="cover">the <emph rend="bold">front cover</emph>. Shelfmark and bequest sticker on recto.</desc><desc xml:id="U1">1 folio = <emph rend="bold">Title Page</emph>. No foliation. Shelfmark on recto. Verso blank. 130 x 40 mm. Hand #1.</desc><desc xml:id="U2a">1 folio = <emph rend="bold"><term xml:lang="ta">Niṣṭṭāṉupūti</term>: Invocation</emph>. No foliation. Verso blank. 130 x 40 mm. Hand #2. </desc><desc xml:id="U2b">24 folios = <emph rend="bold"><term xml:lang="ta">Niṣṭṭāṉupūti: Mūlam</term></emph>. Tamil foliation 1-24. 130 x 40 mm. Hand #2. </desc><desc xml:id="U3">1 folio = back <emph rend="bold">guard leaf</emph>. No foliation. Recto blank. Additions on verso. 130 x 40 mm. Hand #3 and hand #4.</desc></collation>
+                        <desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. Shelfmark and bequest sticker on recto.</desc><desc xml:id="U1">1 folio = <emph rend="bold">Title Page</emph>. No foliation. Shelfmark on recto. Verso blank. 130 x 40 mm. Hand #1.</desc><desc xml:id="U2a">1 folio = <emph rend="bold"><term xml:lang="ta">Niṣṭṭāṉupūti</term>: Invocation</emph>. No foliation. Verso blank. 130 x 40 mm. Hand #2. </desc><desc xml:id="U2b">24 folios = <emph rend="bold"><term xml:lang="ta">Niṣṭṭāṉupūti: Mūlam</term></emph>. Tamil foliation 1-24. 130 x 40 mm. Hand #2. </desc><desc xml:id="U3">1 folio = back <emph rend="bold">guard leaf</emph>. No foliation. Recto blank. Additions on verso. 130 x 40 mm. Hand #3 and hand #4.</desc></collation>
                         <condition>Fairly good state of preservation, despite boreholes.</condition>
                      </supportDesc>
                      <layoutDesc>
@@ -71,7 +71,7 @@
                      
                      
                      
-                  <desc synch="#cover" type="shelfmark" subtype="beginning cover">BnF shelfmark sticker: <quote>INDIEN 16</quote> in black ink.</desc><desc synch="#cover" type="documenting-note" subtype="beginning cover">BnF bequest sticker <quote>DON N° <space type="vacat"/></quote>.</desc><desc synch="#U1" type="shelfmark">Shelfmark in black ink: <quote>C/83</quote> (f[1]r).</desc></additions>
+                  <desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 16</quote> in black ink.</desc><desc synch="#CoverFront" type="documenting-note" subtype="cover front">BnF bequest sticker <quote>DON N° <space type="vacat"/></quote>.</desc><desc synch="#U1" type="shelfmark">Shelfmark in black ink: <quote>C/83</quote> (f[1]r).</desc></additions>
                   <bindingDesc>
                      <binding>
                         <p><material cert="medium">Pinewood</material> covers apparently fabricated in the BnF. 130 x 40 mm.</p>
@@ -80,7 +80,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian" notAfter="1855">No internal date. Dated to ca. 1810 by Vinson (1867) and to 1810 by Cabaton (1912), on unstated grounds. Before 1855, as it is part of Ariel’s bequest made in that year to the Société Asiatique, Paris (Rosny 1868).</origDate>
+                     <origDate calendar="gregorian" notAfter="1854">No internal date. Dated to ca. 1810 by Vinson (1867) and to 1810 by Cabaton (1912), on unstated grounds. Before 1855, as it is part of Ariel’s bequest made in that year to the Société Asiatique, Paris (Rosny 1868).</origDate>
                      <origPlace>Tamilnadu.</origPlace>
                   </origin>
                	<provenance><p>Owned by <persName role="collector">Édouard Ariel</persName> (1818-1854). Bequested by Édouard Ariel to Société Asiatique (Rosny 1868, p. 177).</p></provenance>
@@ -103,15 +103,15 @@
          
 
       <p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.    </p></encodingDesc>
-      <revisionDesc>
+      
+   <revisionDesc>
          
-      <change when="2021-09">Record created by Emmanuel FRANCIS.</change></revisionDesc>
-   </teiHeader>
+      <change when="2021-09">Record created by Emmanuel FRANCIS.</change></revisionDesc></teiHeader>
    <facsimile>
       
    </facsimile>   
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
-  
+  <ab>
 <pb n="[1]r"/>
   
 <milestone n="1" unit="column"/>
@@ -123,8 +123,9 @@
 <lb n="1"/><seg function="title">vīracaiva
  <lb n="2" break="no"/>-ni<seg rend="grantha">ṣṭ</seg>ṭāṉu
  <lb n="3" break="no"/>pūti</seg> <term xml:lang="en">{line-filler = circle}</term>
-
+</ab>
 </body></text><text synch="#U2a" corresp="#T2" xml:lang="ta"><body>
+  <ab>
   
 <pb n="[1]r"/>
   
@@ -139,10 +140,10 @@
 <lb n="6"/><gap reason="ellipsis"/> <seg function="explicit">paṇi
 <lb n="7" break="no"/>vām</seg> <g ref="#pcs"/> <seg function="blessing">civakāmiyammaṉ tuṇai</seg>
 
-  
+    </ab>  
  </body>
                      </text><text synch="#U2b" corresp="#T3" xml:lang="ta"><body>
-
+<ab>
 <pb n="1r"/>
   
 <milestone unit="left-margin"/>
@@ -159,12 +160,13 @@
 <pb n="24v"/>
   <lb n="3"/><seg function="explicit"><gap reason="ellipsis"/>
   <lb n="4"/>tunicamē</seg> <g ref="#pcs"/> 9 10 <g ref="#pcs"/>
+  </ab>
 </body></text><text synch="#U3" corresp="#T4" xml:lang="ta"><body>
-  
+  <ab>
 <pb n="[1]v"/>
 <lb n="1"/><seg function="documenting-note"><unclear>vīra</unclear>caiva <note xml:lang="en">hand #3</note></seg>
 <lb n="2"/><seg function="title">niṣṭṭāṉu
   <lb n="3" break="no"/>pūti <note xml:lang="en">hand #4</note></seg>
 
-  
+  </ab>
 </body></text></TEI>
