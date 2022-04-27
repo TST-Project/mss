@@ -106,10 +106,10 @@
          
 
       <p> <emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.</p></encodingDesc>
-      <revisionDesc>
+      
+   <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
-      <change when="2020-07">This catalogue entry has been redacted by Emmanuel FRANCIS (CNRS, CEIAS UMR 8564, EHESS/CNRS) for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG). Version 1, July 2020. </change><change when="2021-06">Updated to TST encoding conventions by Emmanuel FRANCIS.</change></revisionDesc>
-   <xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
+      <change when="2020-07">This catalogue entry has been redacted by Emmanuel FRANCIS (CNRS, CEIAS UMR 8564, EHESS/CNRS) for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG). Version 1, July 2020. </change><change when="2021-06">Updated to TST encoding conventions by Emmanuel FRANCIS.</change></revisionDesc></teiHeader>
    <facsimile>
       <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b105271047/manifest.json"/>
    </facsimile>   
@@ -124,7 +124,8 @@
 <lb n="1"/><seg function="title">kētārinātar
 <lb n="2"/>viratam</seg>
 </body></text><text synch="#U2a" corresp="#T2" xml:lang="ta"><body>
-  
+  <ab>
+    
 <milestone facs="5" n="[1]r" unit="folio"/>
 
 <milestone n="1" unit="column"/>
@@ -149,9 +150,10 @@
 <lb n="1"/><seg function="title">kēṭariyamma<unclear>ṉ</unclear>
 <lb n="2"/>virata</seg><pc>-</pc>c cūṭi<note xml:lang="en" place="foot">That is <foreign xml:lang="ta">cuvaṭi</foreign></note>
   
- </body>
+ </ab></body>
                      </text><text synch="#U2b" corresp="#T3" xml:lang="ta"><body>
-
+  <ab>
+    
 <milestone facs="7" n="[1]r" unit="folio"/>
 
 <milestone n="1" unit="column"/>
@@ -166,8 +168,8 @@
 <lb n="3" break="no"/>ppatu</seg> <g ref="#pcs"/> <seg function="documenting-note">y<pc>-</pc>itu vāt=tiyār cu
 <lb n="4" break="no"/>vaṭi</seg> <g ref="#pcs"/> <seg function="blessing">vāṇi namastu</seg> <g ref="#pcs"/>
   
-</body></text><text synch="#U2c" corresp="#T4" xml:lang="ta"><body>
-  
+</ab></body></text><text synch="#U2c" corresp="#T4" xml:lang="ta"><body>
+  <ab>  
 <milestone facs="9" n="1r" unit="folio"/>
 
 <milestone n="1" unit="left-margin"/>
@@ -195,4 +197,4 @@
 <lb n="4"/><gap reason="ellipsis"/>c<seg function="explicit">yātām oruvar Aṉu<seg rend="grantha">ṣ</seg>ṭitta pērukkumkēṭṭa pērukkum paṭitta pērukkum y<pc>-</pc>eḻutiṉa pērukkum cakala<pc>-</pc>pākkiyamum
 <lb n="5"/>varum cakala<pc>-</pc>piṭaiyu=m pōkki ṟa<seg rend="grantha">ṣ</seg>cippār kētāri<pc>-</pc>yī<seg rend="grantha">s</seg>pparaṉ y<pc>-</pc>eṉṟa v<pc>-</pc>āṟu</seg> <g ref="#pcs"/> <seg function="blessing">vāṇi namastu</seg> <g ref="#pcs"/> <seg function="completion-statement">kētāriviṟata<seg rend="grantha">m</seg> muṭintatu mu<choice><sic><seg rend="grantha">s</seg>tu</sic><corr>ṟṟu</corr></choice><seg rend="grantha">m</seg></seg> <g ref="#pcs"/> <seg function="blessing">śrī-ṟā=<seg rend="grantha">ma</seg>-ceya=<seg rend="grantha">m</seg>=<g ref="#pcl"/></seg>
   
-</body></text></TEI>
+</ab></body></text></TEI>
