@@ -20,7 +20,7 @@
                   
                   <idno type="shelfmark">Indien 6b</idno>
                   <idno type="alternate"><idno>Tamoul 6</idno><idno>Ariel 192</idno></idno>
-               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103137m</idno></msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103137m</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/wm117w24j</idno></msIdentifier>
                <msContents class="#STM">
                   <summary>TBC.</summary>
                   
@@ -33,7 +33,7 @@
                            <!--measure unit="stringholes" quantity=""/-->
                         <measure unit="stringhole" quantity="1"/></support>
                         <extent>
-                           <measure unit="folio" quantity="1">[1] (U1).</measure>
+                           <measure unit="folio" quantity="1">{1} (U1).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
@@ -100,22 +100,26 @@
          
       <p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.            </p></encodingDesc>
       
-   <revisionDesc>
+   <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
       
       <change when="2022-01">Record created by Emmanuel FRANCIS</change></revisionDesc></teiHeader>
     <sourceDoc>
         <surface/>
     </sourceDoc>
-<facsimile/><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+<facsimile><graphic url="https://didomena.ehess.fr/concern/data_sets/wm117w24j/manifest.json" facs="63"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   <ab>  
-  <pb facs="0" n="[1]r"/>
+  <pb facs="63" n="[1]r"/>
   
-   <lb n="1"/>tai <g ref="#maatham"/> purvapaṣṣam – tiṟaiyōtēci <gap reason="ellipsis"/>
+   <lb n="1"/>tai <g ref="#maatham"/> purvapaṣṣam – tiṟaiyōtēci – <add place="above">takappaṉār</add> kuḻantai {mutali} civalōkapirāpattiyāṉār
+<lb n="2"/>tai {mācam} Amarapaṣṣam – tutikai – Ammāḷ ― civalōkapirāpattiyāṉāḷ
+   <lb n="3"/><gap reason="ellipsis"/>
+   <lb n="4"/><gap reason="ellipsis"/>
   
-   <pb facs="0" n="[1]v"/>
+   <pb facs="69" n="[1]v"/>
   
    <lb n="1"/><gap reason="ellipsis"/>
+   <lb n="2"/><gap reason="ellipsis"/>
   
     </ab>
 </body>
