@@ -22,7 +22,7 @@
                   <idno type="alternate"><idno>Tamoul 3</idno><idno>Ariel 35</idno><idno>c/37</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc101266x</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b105271047</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary><p>The <title xml:lang="ta">Kēṭariyammaṉ Viratam</title>.</p>
+                  <summary><p>A copy of the <title xml:lang="ta">Kēṭariyammaṉ Viratam</title>, entitled  <title xml:lang="ta">Kētārinātar Viratam</title> on its additional title page.</p>
 <p>Description based on the digital images available on Gallica.</p>
 <p>Dimensions after Cabaton (1912).</p>      </summary>
                   
@@ -50,7 +50,7 @@
                         
                         
                         
-                        <desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. Shelfmarks on recto.</desc><desc xml:id="U1">1 folio = <emph rend="bold">Title Page (additional)</emph>. No foliation. Shelfmark on recto. Verso blank. Hand #1.</desc><desc xml:id="U2a">1 folio = <emph rend="bold">Instruction to user, benediction, title</emph>. No foliation. Verso blank. Hand #2.</desc><desc xml:id="U2b">1 folio = <emph rend="bold">Title, instruction to user, benediction</emph>. No foliation. Verso blank. Hand #2.</desc><desc xml:id="U2c">14 folios = <title xml:lang="ta">Kēṭariyammaṉ Viratam</title>: Text. Tamil foliation 1–14. Hand #2.</desc><desc xml:id="U3">7 folios = <title xml:lang="ta">guard leaves</title>. No foliation.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>. Blank recto verso. Shelfmarks on recto.</desc></collation>
+                        <desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. Shelfmarks on recto.</desc><desc xml:id="U1">1 folio = <emph rend="bold">Title Page (additional)</emph>. No foliation. Shelfmark on recto. Verso blank. Hand #1.</desc><desc xml:id="U2">14 folios = <title xml:lang="ta">Kēṭariyammaṉ Viratam</title>. Hand #2.</desc><desc xml:id="U2a">1 folio = <emph rend="bold">Instruction to user, benediction, title</emph>. No foliation. Verso blank. Hand #2.</desc><desc xml:id="U2b">1 folio = <emph rend="bold">Title, instruction to user, benediction</emph>. No foliation. Verso blank. Hand #2.</desc><desc xml:id="U2c">14 folios = <title xml:lang="ta">Kēṭariyammaṉ Viratam</title>: Text. Tamil foliation 1–14. Hand #2.</desc><desc xml:id="U3">7 folios = <emph rend="bold">guard leaves</emph>. No foliation.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>. Blank recto verso. Shelfmarks on recto.</desc></collation>
                         <condition>Very good state of preservation.</condition>
                      </supportDesc>
                      <layoutDesc>
@@ -60,7 +60,7 @@
                   <handDesc>
                      
                      
-                  <handNote synch="#U1" scope="minor" scribeRef="#ArielTitleScribe" script="tamil" medium="incised"><desc>Hand #1.</desc></handNote><handNote synch="#U2a #U2b #U2c" scope="major" script="tamil" medium="incised"><desc>Hand #2. 4 to 5 lines per page.</desc></handNote></handDesc>
+                  <handNote synch="#U1" scope="minor" scribeRef="#ArielTitleScribe" script="tamil" medium="incised"><desc>Hand #1.</desc></handNote><handNote synch="#U2 #U2a #U2b #U2c" scope="major" script="tamil" medium="incised"><desc>Hand #2. 4 to 5 lines per page.</desc></handNote></handDesc>
                   <additions>
                      
                     
@@ -76,7 +76,7 @@
 </desc><desc synch="#U1" type="shelfmark">Shelfmark sticker (Société Asiatique?), written in black ink: <quote>439</quote> (<locus facs="1">f[1]r</locus>).                    </desc></additions>
                   <bindingDesc>
                      <binding>
-                        <p><material>Pinewood</material> covers apparently fabricated in the BnF.</p>
+                        <p><material cert="medium">Pinewood</material> covers apparently fabricated in the BnF.</p>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -109,7 +109,7 @@
       
    <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
-      <change when="2020-07">This catalogue entry has been redacted by Emmanuel FRANCIS (CNRS, CEIAS UMR 8564, EHESS/CNRS) for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG). Version 1, July 2020. </change><change when="2021-06">Updated to TST encoding conventions by Emmanuel FRANCIS.</change></revisionDesc></teiHeader>
+      <change when="2020-07">This catalogue entry has been redacted by Emmanuel FRANCIS (CNRS, CEIAS UMR 8564, EHESS/CNRS) for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG). Version 1, July 2020. </change><change when="2021-06">Updated to TST encoding conventions by Emmanuel FRANCIS.</change><change when="2022-06">Revised by <persName>Emmanuel FRANCIS</persName>. Version 2, April 2022.</change></revisionDesc></teiHeader>
    <facsimile>
       <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b105271047/manifest.json"/>
    </facsimile>   
@@ -119,9 +119,9 @@
 <lb n="1"/><seg function="blessing">veṟṟivē
 <lb n="2" break="no"/>l uṟṟa tuṇai</seg>
 <milestone n="2" unit="column"/>
-<lb n="1"/>Iḵtu
+<lb n="1"/><seg function="title">Iḵtu
 <milestone n="3" unit="column"/>
-<lb n="1"/><seg function="title">kētārinātar
+<lb n="1"/>kētārinātar
 <lb n="2"/>viratam</seg>
 </body></text><text synch="#U2a" corresp="#T2" xml:lang="ta"><body>
   <ab>
@@ -135,15 +135,16 @@
 <milestone n="2" unit="column"/>
 <lb n="1"/><seg>y<pc>-</pc>itu
 <lb n="2"/>yārum aṟi
-<lb n="3"/>yavu=m</seg>=<g ref="#pcl"/>
+<lb n="3"/>yavu=M</seg>=<g ref="#pcl"/>
 
 <milestone n="3" unit="column"/>
 <lb n="1"/><seg>kētāriya-<seg rend="grantha">s·thā</seg>ṉa
-<lb n="2" break="no"/>ṉōṉpu<pc>-</pc>y eṭuttavar
-<lb n="3" break="no"/>kaḷ koṭuppatu</seg><g ref="#pcs"/> <seg function="blessing">civa
+<lb n="2" break="no"/>ṉōṉpu y<pc>-</pc>eṭuttavar
+<lb n="3" break="no"/>kaḷ koṭuppatu <g ref="#pcs"/></seg> <seg function="blessing">civa
 <lb n="4" break="no"/>mayam v<pc>-</pc>uṇṭ<pc>-</pc>āka vēṇ
-<milestone n="4" unit="column"/>
-<lb n="1" break="no"/>ṭiyatu</seg>=<g ref="#pcl"/>
+
+    <milestone n="4" unit="column" break="no"/>
+<lb n="1"/>ṭiyatu</seg>=<g ref="#pcl"/>
 <lb n="2"/><seg function="blessing">vāṇi namastu</seg>=<g ref="#pcl"/>
 
 <milestone n="5" unit="column"/>
@@ -159,7 +160,7 @@
 <milestone n="1" unit="column"/>
 
 <lb n="1"/><seg function="title">kēṭariyammaṉ
-<lb n="2"/>virutam</seg> <g ref="#pcs"/> <seg function="documenting-note">y<pc>-</pc>itu ṉō
+<lb n="2"/>virutam <g ref="#pcs"/></seg> <seg function="documenting-note">y<pc>-</pc>itu ṉō
 <lb n="3" break="no"/>ṉpu cevaṭi<note xml:lang="en" place="foot">That is <foreign xml:lang="ta">cuvaṭi</foreign></note></seg>
 
 <milestone n="2" unit="column"/>
@@ -172,16 +173,16 @@
   <ab>  
 <milestone facs="9" n="1r" unit="folio"/>
 
-<milestone n="1" unit="left-margin"/>
+<seg function="header"><milestone n="1" unit="left-margin"/>
 <lb n="1"/><seg function="blessing">hari Om</seg>
 <lb n="2"/><seg function="blessing">naṉṟāka</seg>
 <lb n="3"/><seg function="blessing">kuru vāḻka</seg>
-<lb n="4"/><seg function="blessing">kuruvē tuṇai</seg>
+<lb n="4"/><seg function="blessing">kuruvē tuṇai</seg></seg>
 
 <milestone n="2" unit="left-margin"/>
 <lb n="1"/><seg function="title">kētāriyammaṉ
-<lb n="2"/>ṉōṉpu virutam</seg>
-<lb n="3"/><seg>y<pc>-</pc>itu yāvarum aṟi
+<lb n="2"/>ṉōṉpu virutam
+<lb n="3"/>y<pc>-</pc>itu yāvarum aṟi
 <lb n="4" break="no"/>ya vēṇṭiyatu</seg>=<g ref="#pcl"/>
   
 <milestone n="3" unit="left-margin"/>
@@ -191,10 +192,10 @@
 <milestone n="1" unit="main-text-area"/>
 
 <lb n="1"/><seg function="incipit">śrī<pc>-</pc>kāyilācattilē paramē<seg rend="grantha">s</seg>paraṉum pāravatiyammaṉum ṟattiṉa<pc>-</pc>cimmacaṉattiṉ peri
-<lb n="2"/>lē</seg> <gap reason="ellipsis"/>
+<lb n="2"/>lē ~</seg> <gap reason="ellipsis"/>
 
 <milestone facs="36" n="14v" unit="folio"/>
-<lb n="4"/><gap reason="ellipsis"/>c<seg function="explicit">yātām oruvar Aṉu<seg rend="grantha">ṣ</seg>ṭitta pērukkumkēṭṭa pērukkum paṭitta pērukkum y<pc>-</pc>eḻutiṉa pērukkum cakala<pc>-</pc>pākkiyamum
-<lb n="5"/>varum cakala<pc>-</pc>piṭaiyu=m pōkki ṟa<seg rend="grantha">ṣ</seg>cippār kētāri<pc>-</pc>yī<seg rend="grantha">s</seg>pparaṉ y<pc>-</pc>eṉṟa v<pc>-</pc>āṟu</seg> <g ref="#pcs"/> <seg function="blessing">vāṇi namastu</seg> <g ref="#pcs"/> <seg function="completion-statement">kētāriviṟata<seg rend="grantha">m</seg> muṭintatu mu<choice><sic><seg rend="grantha">s</seg>tu</sic><corr>ṟṟu</corr></choice><seg rend="grantha">m</seg></seg> <g ref="#pcs"/> <seg function="blessing">śrī-ṟā=<seg rend="grantha">ma</seg>-ceya=<seg rend="grantha">m</seg>=<g ref="#pcl"/></seg>
+<lb n="4"/><gap reason="ellipsis"/> <seg function="explicit">yātām oruvar Aṉu<seg rend="grantha">ṣ</seg>ṭitta pērukkum kēṭṭa pērukkum paṭitta pērukkum y<pc>-</pc>eḻutiṉa pērukkum cakala<pc>-</pc>pākkiyamum
+<lb n="5"/>varum cakala<pc>-</pc>piṭaiyu=M pōkki ṟa<seg rend="grantha">ṣ</seg>cippār kētāri<pc>-</pc>yī<seg rend="grantha">s</seg>pparaṉ y<pc>-</pc>eṉṟa v<pc>-</pc>āṟu</seg> <g ref="#pcs"/> <seg function="blessing">vāṇi namastu</seg> <g ref="#pcs"/> <seg function="completion-statement">kētāriviṟata<seg rend="grantha">m</seg> muṭintatu mu<choice><sic><seg rend="grantha">s</seg>tu</sic><corr>ṟṟu</corr></choice><seg rend="grantha">m</seg></seg> <g ref="#pcs"/> <seg function="blessing">śrī-ṟā=<seg rend="grantha">ma</seg>-ceya=M=<g ref="#pcl"/></seg>
   
 </ab></body></text></TEI>
