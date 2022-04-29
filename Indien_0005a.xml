@@ -19,7 +19,7 @@
                   </repository>
                   
                   <idno type="shelfmark">Indien 5a</idno>
-                  <idno type="alternate"><idno>Tamoul 5</idno><idno>Ariel 178</idno></idno>
+                  <idno type="alternate"/>
                </msIdentifier>
                <msContents class="#STM">
                   <summary>The <title xml:lang="ta">Manōṉmaṉiyantāti</title>.</summary>
@@ -103,7 +103,7 @@
    <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
       
-      <change when="2022-01">Record created by Emmanuel FRANCIS</change></revisionDesc></teiHeader>
+      <change when="2022-01">Record created by Emmanuel FRANCIS</change><change when="2022-03">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, April 2022.</change></revisionDesc></teiHeader>
     <sourceDoc>
         <surface/>
     </sourceDoc>
@@ -112,19 +112,21 @@
     
   <pb facs="5" n="[1]r"/>
   
-  <milestone n="1" unit="left-margin"/>
-  <lb n="1-2"/><seg function="blessing">civamaya <note xml:lang="en">inscribed inside <foreign xml:lang="ta">Ōm</foreign> symbol with a <foreign xml:lang="sa">triśūla</foreign></note></seg>
+  <seg function="header"><milestone n="1" unit="left-margin"/>
+  <lb n="1-2"/><seg function="blessing">civamaya <note xml:lang="en">inscribed inside <foreign xml:lang="sa">oṁ </foreign> symbol with a <foreign xml:lang="sa">triśūla</foreign></note></seg>
   
     <milestone n="2" unit="left-margin"/>
   <lb n="1-2"/><seg function="title">manōṉmaṇiyantāti <note xml:lang="en">unblackened</note></seg>
-  <lb n="3-4"/><seg function="metre">veṇpā</seg>
+  <lb n="3-4"/><seg function="metre">veṇpā</seg></seg>
   
    <milestone unit="main-text-area"/>
   <lb n="1"/><seg function="incipit">ceyyāta tīviṉaikaḷ ceytāluñ ceyta
-  <lb n="2"/>kuṇam ~<gap reason="ellipsis"/></seg>
-  
+  <lb n="2"/>kuṇam ~ <gap reason="ellipsis"/></seg>
+    <lb n="3-5"/><gap reason="ellipsis"/>
+
       <pb facs="6" n="[1]v"/>
-  <lb n="6"/><seg function="explicit"><gap reason="ellipsis"/> y<pc>-</pc>uṉṉ aṭiyai pukaḻum āṟē<g ref="#pcl"/></seg> <seg function="blessing">tirucciṟṟampalam <g ref="#pcl"/></seg>
+      <lb n="1-5"/><gap reason="ellipsis"/>
+<lb n="6"/><seg function="explicit"><gap reason="ellipsis"/> y<pc>-</pc>uṉṉ aṭiyai pukaḻum āṟē <g ref="#pcl"/></seg> <seg function="blessing">tirucciṟṟampalam <g ref="#pcl"/></seg>
 
     </ab>
 </body>
@@ -133,14 +135,17 @@
     
   <pb facs="7" n="[1]r"/>
   
-  <milestone unit="left-margin"/>
-  <lb n="1-4"/><seg function="blessing">varākiyammaṉuṭaiya pātamē tuṇai</seg>
+  <seg function="header"><milestone unit="left-margin"/>
+  <lb n="1-4"/><seg function="blessing">varākiyammaṉuṭaiya pātamē tuṇai</seg></seg>
   
       <milestone unit="main-text-area"/>
    <lb n="1"/><seg function="incipit">poṉṉ itaḻ pānta malar koṉṟai <gap reason="ellipsis"/></seg>
+        <lb n="2-6"/><gap reason="ellipsis"/>
+
       
   <pb facs="80" n="37v"/>
-  <lb n="6"/><seg function="explicit"><gap reason="ellipsis"/> paramparam vaṉṉiyaṭi poṉṉiṉ muṭiyē <g ref="#pcl"/> 100 <g ref="#pcl"/></seg>
+      <lb n="1-5"/><gap reason="ellipsis"/>
+<lb n="6"/><seg function="explicit"><gap reason="ellipsis"/> paramparam vaṉṉiyaṭi poṉṉiṉ muṭiyē <g ref="#pcl"/> <g ref="#nūṟu"/> <g ref="#pcl"/></seg>
 
 </ab>
 </body>
