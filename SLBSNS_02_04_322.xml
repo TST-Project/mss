@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><title xml:lang="sa">Amarakoṣa</title> with annotations</title>
+            
+         <editor><persName>Charles LI</persName><orgName>CNRS, CEIAS, UMR 8564</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2022</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Shri Lal Bahadur Shastri National Sanskrit University</orgName>
+                  </repository>
+                  <idno type="shelfmark">SLBSNS 02-04-322</idno>
+                  <idno type="alternate"/>
+               <idno type="URI">https://archive.org/details/kTKc_amar-kosh-of-amar-simha-manu-02-04-322-lal-bahadur-shastri-sanskrit-university/</idno></msIdentifier>
+               <msContents class="#STM">
+                  <summary><p>This manuscript of the <title xml:lang="sa">Amarakoṣa</title>, or <title xml:lang="sa">Nāmaliṅgānuśāsana</title>, starts from the beginning of the text and breaks off in the middle of the <term xml:lang="sa">vanauṣadhivargaḥ</term> of the second <term xml:lang="sa">kāṇḍa</term>. Apart from the main text, there are at least two hands that have annotated the text, creating a layered commentary.</p>
+<p>Take the first verse as an example (<locus facs="2">folio 1v</locus>):
+  <q rend="block" xml:lang="sa">
+  	<lg>
+      <l>yasya jñānadaẏāsiṃdhor agādhasyānaghā guṇāḥ</l>
+      <l>sevyatām akṣaẏo dhīrāḥ sa śriye cāmṛtāya ca || 1 ||</l>
+    </lg>
+  </q>
+One hand, writing in red, has written numbers above the words of the verse, reordering them to show the grammatical structure of the sentence; the number <term xml:lang="sa">1</term> is written above <q xml:lang="sa">dhīrāḥ</q>, indicating that it should be the beginning of the sentence. The scribe has also added a number of glosses, in the <term xml:lang="sa">kathaṃbhūtinī</term> style (Tubb &amp; Bo0se 2007, 149ff) to connect the words. If we read the annotations along with the word order suggested by them, the resulting commentary would look like this:
+  <q xml:lang="sa" rend="block">he <supplied>dhīrāḥ |</supplied> bhavadbhiḥ <supplied>sevyatām |</supplied> saḥ kaḥ <supplied>yasya guṇāḥ anaghāḥ |</supplied> kathaṃbhūtasya <supplied>jñānadaẏāsiṃdhoḥ |</supplied> punaḥ kathaṃbhūtasya <supplied>agādhasya |</supplied> kathaṃbhūtaḥ saḥ akṣaẏaḥ <supplied>| śriye cāmṛtāya ca |</supplied></q>
+</p>
+<p>
+  A different hand, writing in black, has added a further gloss on the last <term xml:lang="sa">pāda</term> of the verse:
+  <q xml:lang="sa" rend="block">ca dvayaṃ ubhayoḥ prādhānyadyotanāya</q>
+</p>
+<p>More elaborate versions of this <term xml:lang="sa">kathaṃbhūtinī</term> commentary can be found in the <title xml:lang="sa">Ṭīkā</title> of <persName xml:lang="sa">Kṛṣṇamitra</persName> as well as in two manuscripts held at DAV college: MS nos. <ref target="https://dav.splrarebooks.com/collection/view/amarakoshah-satippanah1">3347</ref> and <ref target="https://dav.splrarebooks.com/collection/view/amarakoshah-sateekah-paribhashaprakaranam">3351</ref>.</p></summary>
+                  
+               <msItem defective="true"><title xml:lang="sa">Amarakoṣa</title><textLang mainLang="san"/><filiation><p>DAV college mss <ref target="https://dav.splrarebooks.com/collection/view/amarakoshah-satippanah1">3347</ref> and <ref target="https://dav.splrarebooks.com/collection/view/amarakoshah-sateekah-paribhashaprakaranam">3351</ref> contain more elaborate versions of the marginal commentary.</p></filiation><rubric xml:lang="sa"><milestone n="1r" facs="2" unit="folio"/>
+<lb n="1"/>śrīgaṇeśāẏa namaḥ ||</rubric><incipit xml:lang="sa">yasya jñānadaẏāsiṃdhor agādhasyānaghā guṇāḥ sevyatām a<lb n="2"/>kṣaẏo dhīrāḥ sa śriye cāmṛtāya ca || 1 ||</incipit><explicit xml:lang="sa"><milestone n="27r" facs="52" unit="folio"/>
+<lb n="8"/>koṭivarṣā laṃko pi kety api 134 tapasvinī jaṭā māṃsā jaṭilā loma<unclear>sīmi</unclear>ṣī</explicit></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="pothi">
+                     <supportDesc material="paper handmade">
+                        <support>
+                           <measure unit="stringhole"/>
+                           
+                        </support>
+                        <extent>
+                           <measure unit="folio" quantity="27"/>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           </dimensions>
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
+                        <collation/>
+                        
+                        
+                     <foliation>Devanāgarī numerals, top left and bottom right margins, verso.</foliation></supportDesc>
+                     <layoutDesc>
+                        
+                     <layout writtenLines="8 10">Double lines framing the left and right margins.</layout></layoutDesc>
+                  </objectDesc>
+                  <handDesc><handNote scope="major" script="devanagari" scriptRef="#bengaliYa" medium="ink black"><desc>Scribe of the main text.</desc></handNote><handNote scope="minor" script="devanagari" scriptRef="#bengaliYa" medium="ink black"><desc>Scribe of the annotations in black ink.</desc></handNote><handNote scope="minor" script="devanagari" scriptRef="#bengaliYa" medium="ink red"><desc>Scribe of the annotations in red ink.</desc></handNote></handDesc>
+                  <decoDesc>
+                  </decoDesc>
+                  <additions>
+                  </additions>
+                  <bindingDesc>
+                     <binding/>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian"/>
+                     
+                  </origin>
+                  <provenance/>
+                  <acquisition><p>Digitized by the Sarvagya Sharada Peetham and uploaded to Archive.org.</p></acquisition>
+               </history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl>Misra, Satyadeva, ed. (2005). <title>Nāmalingānuśāsana or Amarakosa of Amarasimha With Krsnamitra's Commentary in Sanskrit Vaikunthi Commentary in Hindi and Annotation of words in English.</title> Jaipur: Jagdish Sanskrit Pustakalaya.</bibl><bibl>Tubb, Gary A., &amp; Emery R. Boose. 2007. <title>Scholastic Sanskrit: A Handbook for Students.</title> New York: American Institute of Buddhist Studies.
+</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         
+      <p>IAST transliteration. ẏ represents a ya with a nukta dot, adapted from ISO 15919 standard on Bengali script.</p></encodingDesc>
+      
+   <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
+         
+      <change when="2022-05">Description based on images available on Archive.org. The verso of the last folio is not shown.</change></revisionDesc></teiHeader>
+   <facsimile>
+   <graphic url="https://iiif.archivelab.org/iiif/kTKc_amar-kosh-of-amar-simha-manu-02-04-322-lal-bahadur-shastri-sanskrit-university/manifest.json"/></facsimile>
+</TEI>
