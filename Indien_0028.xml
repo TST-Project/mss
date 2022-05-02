@@ -136,7 +136,7 @@
                         <condition>Very good state of preservation. </condition>
                      <collation>
                      
-                     <desc xml:id="cover">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">Table of Contents no. 1 (additional)</emph>. No foliation. 305 x 40 mm.</desc><desc xml:id="U2">1 folio = <emph rend="bold">Table of Contents n0. 2 (additional)</emph>. No foliation. 305 x 40 mm.</desc><desc xml:id="U3">339 folios = <emph rend="bold">58 works</emph>. Tamil foliation {1}, 2-249, 264-285, 287-353. From f266, the foliation is by another hand. 305 x 45 mm.</desc><desc xml:id="U4">3 folios = <emph rend="bold"><title xml:lang="ta">Pañcamukaccakkaram</title></emph>. Tamil foliation 1-3. 305 x 50 mm. </desc><desc xml:id="cover">the = <emph rend="bold">back cover</emph>.</desc></collation></supportDesc>
+                     <desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">Table of Contents no. 1 (additional)</emph>. No foliation. 305 x 40 mm.</desc><desc xml:id="U2">1 folio = <emph rend="bold">Table of Contents n0. 2 (additional)</emph>. No foliation. 305 x 40 mm.</desc><desc xml:id="U3">339 folios = <emph rend="bold">58 works</emph>. Tamil foliation {1}, 2-249, 264-285, 287-353. From f266, the foliation is by another hand. 305 x 45 mm.</desc><desc xml:id="U4">3 folios = <emph rend="bold"><title xml:lang="ta">Pañcamukaccakkaram</title></emph>. Tamil foliation 1-3. 305 x 50 mm. </desc><desc xml:id="CoverBack">the = <emph rend="bold">back cover</emph>.</desc></collation></supportDesc>
                      <layoutDesc>
                         <p/>
                      </layoutDesc>
@@ -155,7 +155,7 @@
                     
                     
                      
-                  <desc synch="#cover" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 28</quote> (<locus facs="1">front cover, recto</locus>). Covering an earlier sticker.</desc><desc synch="#cover" type="documenting-note" subtype="cover front">BnF bequest sticker <quote>DON N° <space type="vacat"/></quote> (<locus facs="1">front cover, recto</locus>).</desc></additions>
+                  <desc type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 28</quote> (<locus facs="1">front cover, recto</locus>). Covering an earlier sticker.</desc><desc type="documenting-note" subtype="cover front">BnF bequest sticker <quote>DON N° <space type="vacat"/></quote> (<locus facs="1">front cover, recto</locus>).</desc></additions>
                   <bindingDesc>
                      <binding>
                         <p><material cert="medium">Pinewood</material> covers apparently fabricated in the BnF. 305 x 45 mm.</p>
@@ -164,7 +164,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian" notAfter="1855">No internal date. Not dated by Vinson (1868) nor by Cabaton (1912).</origDate>
+                     <origDate calendar="gregorian" notAfter="1854">No internal date. Not dated by Vinson (1868) nor by Cabaton (1912). Not after 1854, since part of the collection of <persName role="collector">Édouard Ariel</persName> (1818-1854).</origDate>
                      <origPlace>Tamilnadu.</origPlace>
                   </origin>
                   <acquisition>
@@ -183,8 +183,7 @@
      <encodingDesc>
          
          
-      <p><p><emph rend="bold">Transliteration conventions</emph></p>  
-<p>Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only).  </p>  <p><emph rend="bold">Abbreviations</emph></p>  <p> c = column, f = folio, lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.</p>       </p></encodingDesc>
+      <p> <emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.    </p></encodingDesc>
       
    <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
@@ -194,6 +193,7 @@
         <surface/>
     </sourceDoc>
 <facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10027164b/manifest.json"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+  <ab>
   
   <seg function="table-of-contents">
   <pb facs="3" n="[1]r"/>
@@ -248,10 +248,10 @@
   <lb n="2"/><unclear>U</unclear>patēcamālai
   <lb n="3"/>tiruvaṭiviḷakkam (rut=tirapōtakam)
   <lb n="4"/>cōticērviḷakkam (Akastiyar)</seg>
-  
+  </ab>
 </body>
   </text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
-  
+  <ab>
   <seg function="table-of-contents"><pb facs="6" n="[1]r"/>
   
   <milestone n="1" unit="column"/>
@@ -330,10 +330,11 @@
  <lb n="9"/>kuruvaṟiviḷakkam 337 {mutal} 3 100 39
  <lb n="10"/>Aṟivāṉantapaṟṟu  3 4 10 {mutal} 3 4 1
   <lb n="11"/>teḷivuṇmaipōtam 342 {mutal} 343</seg>
+    </ab>
 
 </body>
   </text><text synch="#U3" corresp="#T3" xml:lang="ta"><body>
-  
+  <ab>
   <pb facs="7" n="[1]r"/>
   <milestone unit="left-margin"/>
   <seg function="blessing"><lb n="1"/>Āṟumukan tuṇai</seg>
@@ -1210,10 +1211,10 @@
   <pb facs="683" n="353r"/>
   <pb facs="684" n="353v"/>
   <lb n="13"/><seg function="explicit"><gap reason="ellipsis"/> = 3 10 =</seg> <seg function="completion-statement">cōticērviḷakkam muṟṟum <g ref="#pcl"/></seg>
-  
+  </ab>
 </body>
   </text><text synch="#U4" corresp="#T4" xml:lang="ta"><body>
-  
+  <ab>
   
   <pb facs="685" n="1r"/>
   
@@ -1363,5 +1364,7 @@
   <lb n="3"/>ci va ya na ma vā
   <lb n="4"/>ma ci va ya na
   <lb n="5"/>na ma ci va ya
+    
+    </ab>
   
 </body></text></TEI>
