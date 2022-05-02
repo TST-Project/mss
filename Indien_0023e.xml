@@ -19,7 +19,7 @@
                   </repository>
                   
                   <idno type="shelfmark">Indien 23e</idno>
-                  <idno type="alternate"><idno>Tamoul 23</idno><idno>Ariel 82</idno></idno>
+                  <idno type="alternate"/>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103391t</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/qz20t128w</idno></msIdentifier>
                <msContents class="#STM">
                   <summary>The <title xml:lang="ta">Caṅkarānantakaḷippu</title>.</summary>
@@ -80,7 +80,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian" notAfter="1855">Composite dated to circa 1775 by Vinson (1867) and to 1775 by Cabaton (1912), on unstated grounds (presumably palaeographical and material analysis arguments).</origDate>
+                     <origDate calendar="gregorian" notAfter="1854">Composite dated to circa 1775 by Vinson (1867) and to 1775 by Cabaton (1912), on unstated grounds (presumably palaeographical and material analysis arguments). Not after 1854, since part of the collection of <persName role="collector">Édouard Ariel</persName> (1818-1854).</origDate>
                      <origPlace>Tamilnadu.</origPlace>
                   </origin>
                   <acquisition>
@@ -98,41 +98,42 @@
      <encodingDesc>
          
          
-      <p><p><emph rend="bold">Transliteration conventions</emph></p>  
-<p>Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only).  </p>  <p><emph rend="bold">Abbreviations</emph></p>  <p> c = column, f = folio, lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.</p>       </p></encodingDesc>
+      <p> <emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.    </p></encodingDesc>
       
-   <revisionDesc>
+   <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
       
-      <change when="2022-03">Record created by Emmanuel FRANCIS</change></revisionDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
+      <change when="2022-03">Record created by Emmanuel FRANCIS</change><change when="2022-05">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, May 2022.</change></revisionDesc></teiHeader>
     <sourceDoc>
         <surface/>
     </sourceDoc>
 <facsimile><graphic url="https://didomena.ehess.fr/concern/data_sets/qz20t128w/manifest.json" facs="73"/></facsimile><text synch="#U1a" corresp="#T1" xml:lang="ta"><body>
   
-  <pb facs="o" n="27r"/>
+  <pb facs="73" n="27r"/>
   
-  <milestone unit="left-margin"/>
-  <seg function="title"><lb n="1-3"/>caṅkarā<supplied reason="omitted">ṉa</supplied>ntakaḷippu</seg>
+  <seg function="header"><milestone facs="74" unit="left-margin"/>
+  <seg function="title"><lb n="1-3"/>caṅkarā<supplied reason="omitted">ṉa</supplied>ntakaḷippu</seg></seg>
   
-  <milestone unit="main-text-area"/>
+  <milestone facs="75" unit="main-text-area"/>
   <seg function="incipit"><lb n="1"/>Āṉantamāṉa <gap reason="ellipsis"/></seg>
   <lb n="2"/><gap reason="ellipsis"/> <g ref="#pcs"/> <seg function="blessing">kuruvē tuṇai <g ref="#pcl"/></seg>
   <lb n="3"/>Āṉantamāṉa <gap reason="ellipsis"/>
-  <lb n="4"/><del><gap reason="ellipsis"/><g ref="#pcs"/></del>
+  <lb n="4"/><del><gap reason="ellipsis"/> <g ref="#pcs"/></del>
   <lb n="5"/><del><gap reason="illegible" quantity="2" unit="character"/> mūlapāṭam <g ref="#pcs"/></del>
 
   
-    <pb facs="o" n="27v"/><note xml:lang="en">blank</note>
+    <pb n="27v"/><note xml:lang="en">blank</note>
 
   
 </body></text><text synch="#U1b" corresp="#T2" xml:lang="ta"><body>
   
-  <pb facs="o" n="28r"/>
+  <pb facs="78" n="28r"/>
   <seg function="incipit"><lb n="1"/><gap reason="ellipsis"/></seg>
+  <lb n="2-7"/><gap reason="ellipsis"/>
   
-    <pb facs="o" n="32r"/>
-    <seg function="explicit"><lb n="2" break="no"/>ṇi maṅkaiyil vāḻvōṉ <g ref="#pcs"/> 2 10 3 <g ref="#pcs"/><gap reason="ellipsis"/></seg>
+    <pb facs="81" n="32r"/>
+    <lb n="1"/><gap reason="ellipsis"/>
+    <seg function="explicit"><lb n="2" break="no"/>ṇi maṅkaiyil vāḻvōṉ <g ref="#pcs"/> 2 <g ref="#pattu"/>3 <g ref="#pcs"/><gap reason="ellipsis"/></seg>
 
   
 </body></text></TEI>

@@ -19,7 +19,7 @@
                   </repository>
                   
                   <idno type="shelfmark">Indien 23c</idno>
-                  <idno type="alternate"><idno>Tamoul 23</idno><idno>Ariel 82</idno></idno>
+                  <idno type="alternate"/>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103391t</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/qz20t128w</idno></msIdentifier>
                <msContents class="#STM">
                   <summary>The <title xml:lang="ta">Pūtipōtakāraṇakārikakaṭṭaḷai</title>.</summary>
@@ -80,7 +80,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian" notAfter="1855">Composite dated to circa 1775 by Vinson (1867) and to 1775 by Cabaton (1912), on unstated grounds (presumably palaeographical and material analysis arguments).</origDate>
+                     <origDate calendar="gregorian" notAfter="1854">Composite dated to circa 1775 by Vinson (1867) and to 1775 by Cabaton (1912), on unstated grounds (presumably palaeographical and material analysis arguments). Not after 1854, since part of the collection of <persName role="collector">Édouard Ariel</persName> (1818-1854).</origDate>
                      <origPlace>Tamilnadu.</origPlace>
                   </origin>
                   <acquisition>
@@ -98,31 +98,34 @@
      <encodingDesc>
          
          
-      <p><p><emph rend="bold">Transliteration conventions</emph></p>  
-<p>Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only).  </p>  <p><emph rend="bold">Abbreviations</emph></p>  <p> c = column, f = folio, lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.</p>       </p></encodingDesc>
+      <p> <emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.    </p></encodingDesc>
       
-   <revisionDesc>
+   <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
       
-      <change when="2022-03">Record created by Emmanuel FRANCIS</change></revisionDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
+      <change when="2022-03">Record created by Emmanuel FRANCIS</change><change when="2022-05">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, May 2022.</change></revisionDesc></teiHeader>
     <sourceDoc>
         <surface/>
     </sourceDoc>
 <facsimile><graphic url="https://didomena.ehess.fr/concern/data_sets/qz20t128w/manifest.json" facs="48"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   
-  <pb facs="o" n="[1]r"/>
+  <pb facs="48" n="[1]r"/>
   
-  <milestone unit="left-margin"/>
+  <seg function="header"><milestone unit="left-margin"/>
   <seg function="blessing"><lb n="1"/>vēl vāḻi</seg>
-<seg function="title"><lb n="2-4"/><unclear reason="vowel_unclear">pū</unclear>tipōtakāraṇakārikakaṭṭaḷai <g ref="#pcs"/></seg>
+<seg function="title"><lb n="2-4"/><unclear reason="vowel_unclear">pū</unclear>tipōtakāraṇakārikakaṭṭaḷai <g ref="#pcs"/></seg></seg>
   
   <milestone unit="left-margin"/>
   <seg function="incipit"><lb n="1"/><gap reason="ellipsis"/></seg>
+    <lb n="2-5"/><gap reason="ellipsis"/>
 
-  <pb facs="o" n="19r"/>
+
+  <pb facs="54" n="19r"/>
+    <lb n="1-3"/><gap reason="ellipsis"/>
+
     <seg function="explicit"><lb n="4"/><gap reason="ellipsis"/></seg>
   
-  <pb facs="o" n="19v"/>
+  <pb facs="58" n="19v"/>
     <seg function="blessing"><lb n="1"/>civa<gap reason="illegible"/><unclear>ka</unclear>ṉ ṟiruvaṭi vāḻka <g ref="#pcl"/><gap reason="ellipsis"/></seg>
   
 </body></text></TEI>
