@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader xml:lang="en">
@@ -9,7 +9,7 @@
          
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -17,13 +17,13 @@
                   <repository>
                      <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
                   </repository>
-                  <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103407h</idno>
+                  
                   <idno type="shelfmark">Indien 33c</idno>
-                  <idno type="alternate"><idno>Tamoul 33c</idno></idno>
-               </msIdentifier>
+                  <idno type="alternate"/>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103407h</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/w0892j56g</idno></msIdentifier>
                <msContents class="#STM">
                   <summary>The <title xml:lang="ta">Patipacupācaviḷakkam</title>, in 100 stanzas.</summary>
-               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta"><term xml:lang="en">Invocation</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T3" defective="false"><title xml:lang="ta"><term xml:lang="en">Text proper</term></title><textLang mainLang="tam"/></msItem></msContents>
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page (additional)</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta">Patipacupācaviḷakkam: <term xml:lang="en">Invocation</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T3" defective="false"><title xml:lang="ta">Patipacupācaviḷakkam: <term xml:lang="en">Text proper</term></title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
@@ -31,7 +31,7 @@
                             <measure unit="stringhole" quantity="1"/>
                         </support>
                         <extent>
-                           <measure unit="folio" quantity="31">[1] + [1] + 29 (U1 + U2 + U3).</measure>
+                           <measure unit="folio" quantity="31">{1} + {1} + 29 (U1 + U2 + U3).</measure>
                            <dimensions type="leaf" unit="mm">
                              <width min="290" max="295"/>
                              
@@ -39,17 +39,17 @@
                         <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
                         <collation>
                         
-                        <desc xml:id="U1">1 folio = <emph rend="bold">Title Page</emph>. No foliation. Verso blank. 290 x 25 mm.
-</desc><desc xml:id="U2">1 folio = <emph rend="bold">Invocation</emph>. No foliation. Recto more dark = original outside page. 290 x 30 mm.
+                        <desc xml:id="U1">1 folio = <emph rend="bold">Title Page (additional)</emph>. No foliation. Verso blank. 290 x 25 mm.
+</desc><desc xml:id="U2">1 folio = <emph rend="bold"><title xml:lang="ta">Patipacupācaviḷakkam</title>: Invocation</emph>. No foliation. Recto more dark = original outside page. 290 x 30 mm.
 
-</desc><desc xml:id="U3">29 folios = <emph rend="bold">Text proper</emph>. Tamil foliation 1-29. 295 x 30 mm.
-</desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>.</desc></collation>
+</desc><desc xml:id="U3">29 folios = <emph rend="bold"><title xml:lang="ta">Patipacupācaviḷakkam</title>: Text </emph>. Tamil foliation {1}-29. 295 x 30 mm.
+</desc></collation>
                         <condition>Excellent state of preservation.</condition>
                      </supportDesc>
                   </objectDesc>
                   <handDesc>
                     
-                  <handNote synch="#U1" scope="minor" scribeRef="#ArielTitleScribe" script="tamil" scriptRef="#tamilPulliRegular #tamilOE" medium="incised"/><handNote synch="#U2 U3" scope="minor" script="tamil" medium="incised"/></handDesc>
+                  <handNote synch="#U1" scope="minor" scribeRef="#ArielTitleScribe" script="tamil" scriptRef="#tamilPulliRegular #tamilOE" medium="incised"/><handNote synch="#U2 #U3" scope="major" script="tamil" medium="incised"/></handDesc>
                   <additions>
                      
                   </additions>
@@ -61,7 +61,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian" notAfter="1855">No internal date. Before 1855, as it is part of Ariel’s bequest made in that year to the Société Asiatique, Paris (Rosny 1868).</origDate>
+                     <origDate calendar="gregorian" notAfter="1854">No internal date. Not after 1854, since part of the collection of <persName role="collector">Édouard Ariel</persName> (1818-1854).</origDate>
                      <origPlace>Tamilnadu.</origPlace>
                   </origin>
                   <acquisition>
@@ -80,63 +80,75 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-      <p><p><emph rend="bold">Transliteration conventions</emph></p>  <p>Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only).</p>  <p><emph rend="bold">Abbreviations</emph></p>  <p> c = column, f = folio, lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.</p>     </p></encodingDesc>
-      <revisionDesc>
-      <change when="2021-11">Record created by Emmanuel FRANCIS.</change></revisionDesc>
-   </teiHeader>
+      <p> <emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.    </p></encodingDesc>
+      
+   <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
+      <change when="2021-11">Record created by Emmanuel FRANCIS.</change><change when="2022-05">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, May 2022.</change></revisionDesc></teiHeader>
    
    <facsimile>
       <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10092669x/manifest.json" facs="25"/>
    </facsimile>
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+  <ab>
   
   <pb facs="25" n="[1]r"/>
   
-  <milestone n="1" unit="column"/>
-  <lb n="1"/><seg function="blessing">veṟṟivē
+  <seg function="blessing"><milestone facs="25" n="1" unit="column"/>
+  <lb n="1"/>veṟṟivē
   <lb n="2" break="no"/>l uṟṟa tuṇai</seg>
   
-    <milestone n="2" unit="column"/>
-<lb n="1-2"/><seg function="title">patipacupācaviḷakkam</seg>
+    <milestone facs="25" n="2" unit="column"/>
+<seg function="title"><lb n="1-2"/>patipacupācaviḷakkam</seg>
 
-  
-    <pb facs="26" n="[1]v"/>
-  <note xml:lang="en">blank</note>
+      <pb facs="26" n="[1]v"/><note xml:lang="en">blank</note>
+    </ab>
   </body>
 
 </text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
+  <ab>
   
-  <pb facs="27" n="[1]r"/>
-  
-  <milestone unit="left-margin"/>
-<lb n="1-3"/><seg function="title">patipacupācaviḷakkam</seg>
-
-    <milestone unit="main-text-area"/>
-
-  <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
+  <seg function="header">
+    <seg function="title">
+    <pb facs="27" n="[1]r"/>
+      <milestone unit="left-margin"/>
+      <lb n="1-3"/>patipacupācaviḷakkam
+    </seg>
+    </seg>
+    
+    <seg function="incipit">
+      <milestone facs="27" unit="main-text-area"/>
+      <lb n="1"/><gap reason="ellipsis"/></seg>
+    <lb n="2-5"/><gap reason="ellipsis"/>
   
  
     <pb facs="28" n="[1]v"/>
-    <lb n="4"/><seg function="explicit"><gap reason="ellipsis"/>ttaṟuḷē</seg> ~ <seg function="blessing">kuru-kaṭāṣcam Uṇṭāka tākavu<seg rend="grantha">=m</seg></seg> <seg function="blessing">Aṇṇāmalaiyar tuṇai yākavu<seg rend="grantha">=m</seg></seg>
+     <lb n="1-3"/><gap reason="ellipsis"/>
+    <seg function="explicit"><lb n="4"/><gap reason="ellipsis"/>ttaṟuḷē</seg> ~ <seg function="blessing">kuru-kaṭāṣcam Uṇṭāka tākavu=M</seg> <seg function="blessing">Aṇṇāmalaiyar tuṇai yākavu=M</seg>
 
-  
+  </ab>
   </body>
 
 </text><text synch="#U3" corresp="#T3" xml:lang="ta"><body>
+  <ab>
   
-  <pb facs="2" n="1r"/>
-  
-  <milestone unit="left-margin"/>
-<lb n="1-2"/><seg function="title">naṉṟāka</seg>
+    <seg function="header">
+      <seg function="title">
+        <pb facs="28" n="1r"/>
+        <milestone unit="left-margin"/>
+        <lb n="1-2"/>naṉṟāka
+      </seg>
+      </seg>
 
-    <milestone unit="main-text-area"/>
-
-  <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
-  
+    <seg function="incipit"><milestone facs="28" unit="main-text-area"/>
+  <lb n="1"/><gap reason="ellipsis"/></seg>
+        <lb n="2-5"/><gap reason="ellipsis"/>
  
     <pb facs="58" n="29v"/>
-    <lb n="4"/><seg function="explicit"><gap reason="ellipsis"/>
-  <lb n="5"/>ntavārē ~ 100</seg> <g ref="#pcs"/> <seg function="TBC"><unclear>kaḷittamaṉattuṭaiyāciṉ moḻitta tēcīkāciṉiyī</unclear></seg>
+     <lb n="1-3"/><gap reason="ellipsis"/>
+    <seg function="explicit"><lb n="4"/><gap reason="ellipsis"/>
+  <lb n="5"/>ntavārē ~ <g ref="#nūṟu"/> <g ref="#pcs"/></seg> <seg function="TBC"><unclear>kaḷittamaṉattuṭaiyāciṉ moḻitta tēcīkāciṉiyī</unclear></seg>
+    
+    </ab>
   
   </body>
 
