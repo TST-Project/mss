@@ -4,7 +4,7 @@
    <teiHeader xml:lang="en">
       <fileDesc>
          <titleStmt>
-            <title><persName xml:lang="ta">Tāyumāṉavar</persName> Works</title>
+            <title>Works by <persName xml:lang="ta">Tāyumāṉavar</persName></title>
          <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          
          <publicationStmt>
@@ -20,9 +20,9 @@
                   
                   <idno type="shelfmark">Indien 69</idno>
                   <idno type="alternate"><idno>Tamoul 69</idno><idno>Ariel 123</idno></idno>
-               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1034822</idno></msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1034822</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/v405sh635</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary> Poems by Tāyumāṉavar.</summary>
+                  <summary> Poems by <persName xml:lang="ta" role="author">Tāyumāṉavar</persName>.</summary>
                   
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta">Tāyumāṉavar <term xml:lang="en">Poems</term></title><author xml:lang="ta">Tāyumāṉavar</author><textLang mainLang="tam"/><filiation><p>BnF Indien 991.</p></filiation></msItem></msContents>
@@ -33,7 +33,7 @@
                            <!--measure unit="stringholes" quantity=""/-->
                         <measure unit="stringhole" quantity="1"/></support>
                         <extent>
-                           <measure unit="folio" quantity="35">[1] + 34 (U1 + U2).</measure>
+                           <measure unit="folio" quantity="35">{1} + 34 (U1 + U2).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
@@ -52,7 +52,7 @@
                         <condition>Excellent state of preservation. </condition>
                      <collation>
                      
-                     <desc xml:id="cover">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">Title Page</emph>. No foliation. Single folio. Verso blank. 300 x 30 mm.</desc><desc xml:id="U2">34 folios = <emph rend="bold"><title xml:lang="ta"><persName xml:lang="ta">Tāyumāṉavar</persName> Poems</title></emph>. Tamil foliation 66-99. 300 x 35 mm.</desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>.</desc></collation></supportDesc>
+                     <desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">Title Page</emph>. No foliation. Single folio. Verso blank. 300 x 30 mm.</desc><desc xml:id="U2">34 folios = <emph rend="bold"><title xml:lang="ta"><persName xml:lang="ta">Tāyumāṉavar</persName> Poems</title></emph>. Tamil foliation 66-99. 300 x 35 mm.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation></supportDesc>
                      <layoutDesc>
                         <p/>
                      </layoutDesc>
@@ -71,10 +71,10 @@
                     
                     
                      
-                  <desc synch="#cover" type="documenting-note" subtype="cover front">BnF bequest sticker <quote>DON N° <space type="vacat"/></quote> (<locus facs="0">front cover, recto</locus>).</desc><desc synch="#cover" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 69</quote> (<locus facs="0">front cover, recto</locus>).</desc><desc synch="#U1" type="shelfmark">Shelfmark in black ink: <quote>C/52</quote> (<locus facs="0">f[1]r</locus>).</desc><desc synch="#U2" type="correction">Unblackened corrections and additions by a later hand.</desc></additions>
+                  <desc synch="#CoverFront" type="documenting-note" subtype="cover front">BnF bequest sticker <quote>DON N° <space type="vacat"/></quote> (<locus facs="0">front cover, recto</locus>).</desc><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 69</quote> (<locus facs="0">front cover, recto</locus>).</desc><desc synch="#U1" type="shelfmark">Shelfmark in black ink: <quote>C/52</quote> (<locus facs="0">f[1]r</locus>).</desc><desc synch="#U2" type="correction">Unblackened corrections and additions by a later hand.</desc></additions>
                   <bindingDesc>
                      <binding>
-                        <p><material resp="#cLI" cert="medium">Mahogany</material> woodcovers apparently fabricated in the BnF. 300 x 30 mm.</p>
+                        <p><material cert="medium">Pinewood</material> covers apparently fabricated in the BnF. 300 x 30 mm.</p>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -100,15 +100,16 @@
          
       <p><p><emph rend="bold">Transliteration conventions</emph></p>  
 <p>Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only).  </p>  <p><emph rend="bold">Abbreviations</emph></p>  <p> c = column, f = folio, lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.</p>       </p></encodingDesc>
-      <revisionDesc>
+      
+   <revisionDesc>
          
       
-      <change when="2022-01">Record created by Emmanuel FRANCIS</change></revisionDesc>
-   </teiHeader>
+      <change when="2022-01">Record created by Emmanuel FRANCIS</change></revisionDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
     <sourceDoc>
         <surface/>
     </sourceDoc>
-<facsimile/><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+<facsimile><graphic url="https://didomena.ehess.fr/concern/data_sets/v405sh635/manifest.json"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+  <ab>
   
   <pb facs="0" n="[1]r"/>
   
@@ -122,9 +123,11 @@
   <lb n="1-2"/>tāyumāṉavar cillaṟai</seg>
       
     <pb facs="0" n="[1]v"/><note xml:lang="en">blank</note>
+    </ab>
 
 </body>
 </text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
+  <ab>
   
   <pb facs="0" n="66r"/>
   
@@ -165,10 +168,7 @@
   <milestone n="2" unit="column"/><note xml:lang="en">unblackened, addition</note>
   <lb n="1"/><seg function="blessing">tēvicakāya<seg rend="grantha">=m</seg></seg> <seg function="blessing">kuruvē tuṇai</seg>
 <lb n="2"/><seg function="blessing">civamaya<seg rend="grantha">=m</seg></seg> <seg function="blessing">kuruvē tuṇai</seg>
-
-
-  
-  
+</ab>
 
 </body>
 </text></TEI>

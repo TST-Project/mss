@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -9,7 +9,7 @@
          
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -19,17 +19,17 @@
                   </repository>
                   <idno type="shelfmark">Indien 71</idno>
                   <idno type="alternate"><idno>Tamoul 71</idno></idno>
-               </msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103484m</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/1r66j7405</idno></msIdentifier>
                <msContents class="#STM">
                   <summary><p>The <title xml:lang="ta">Oḻiviloṭukkam</title>, a Caiva Cittāntam work of circa 15th century. See Steinschneider (2017).</p>
                   </summary>
                   
-               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T2" defective="false"><title xml:lang="ta">Oḻiviloṭukkam</title><textLang mainLang="tam"/><filiation><p>See BnF Indien 28.46.</p></filiation></msItem><msItem synch="#U4" xml:id="T3" defective="false"><title xml:lang="ta"><term xml:lang="en">Appendix</term></title><textLang mainLang="tam"/></msItem></msContents>
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page (additional)</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T2" defective="false"><title xml:lang="ta">Oḻiviloṭukkam</title><textLang mainLang="tam"/><filiation><p>See BnF Indien 28.46.</p></filiation></msItem><msItem synch="#U4" xml:id="T3" defective="false"><title xml:lang="ta"><term xml:lang="en">Appendix</term></title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
                         <extent>
-                           <measure unit="folio" quantity="361">[1] + [2] + 345 + [1] + [12] (U1 + U2 + U3 + U4 + U5 ).</measure>
+                           <measure unit="folio" quantity="361">{1} + {2} + 345 + {1} + {12} (U1 + U2 + U3 + U4 + U5 ).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               <height quantity="30"/>
@@ -41,10 +41,10 @@
                         
                         
                         
-                        <desc xml:id="U1">1 folio = <emph rend="bold">Title Page</emph>. No foliation. Single folio. Verso blank. 210 x 30 mm.</desc><desc xml:id="cover">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U2">2 folios = front <emph rend="bold">guard leaves</emph>. No foliation. Blank recto verso. 215 x 30 mm.
+                        <desc xml:id="U1">1 folio = <emph rend="bold">Title Page (additional)</emph>. No foliation. Single folio. Verso blank. 210 x 30 mm.</desc><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U2">2 folios = front <emph rend="bold">guard leaves</emph>. No foliation. Blank recto verso. 215 x 30 mm.
 </desc><desc xml:id="U3">345 folios = <emph rend="bold"><title xml:lang="ta">Oḻiviloṭukkam</title></emph>. Tamil foliation [1]-33, 34<hi rend="superscript">1</hi>, 34<hi rend="superscript">2</hi>, 34<hi rend="superscript">3</hi>, 34<hi rend="superscript">4</hi>, 35-190, 201-263<hi rend="superscript">1</hi>, 263<hi rend="superscript">2</hi>-351. Some foliation unblackened. 215 x 30 mm. </desc><desc xml:id="U4">1 folio = <emph rend="bold"><term xml:lang="ta">Appendix</term></emph>, on the 5 pollutions and the 5 sins. No foliation. </desc><desc xml:id="U5">12 folios = back <emph rend="bold">guard leaves</emph>. No foliation. Blank recto verso.
 
-</desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>.</desc></collation>
+</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation>
 
                         <condition>Relatively good state of preservation, despite boreholes. </condition>
                      <support><measure unit="stringhole" quantity="2"/></support></supportDesc>
@@ -57,7 +57,7 @@
                      
                      
                      
-                  <handNote synch="#U1" scope="minor" scribeRef="#ArielTitleScribe" script="tamil" medium="incised"><desc>Hand #1.</desc></handNote><handNote synch="#U3 U4" scope="major" script="tamil" medium="incised"><desc>Hand #2.</desc></handNote></handDesc>
+                  <handNote synch="#U1" scope="minor" scribeRef="#ArielTitleScribe" script="tamil" medium="incised"><desc>Hand #1.</desc></handNote><handNote synch="#U3 #U4" scope="major" script="tamil" medium="incised"><desc>Hand #2.</desc></handNote></handDesc>
                   <additions>
                                                                                 
                      
@@ -96,16 +96,16 @@
          
          
       <p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.      </p></encodingDesc>
-      <revisionDesc>
+      
+   <revisionDesc>
          
          
-      <change when="2021-10">Record created by Emmanuel FRANCIS.</change></revisionDesc>
-   </teiHeader>
+      <change when="2021-10">Record created by Emmanuel FRANCIS.</change></revisionDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
    <facsimile>
       
-   </facsimile>
+   <graphic url="https://didomena.ehess.fr/concern/data_sets/1r66j7405/manifest.json"/></facsimile>
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
-  
+  <ab>
   <pb facs="00" n="[1]r"/>
   
   <milestone n="1" unit="column"/>
@@ -122,10 +122,10 @@
   
     <pb facs="00" n="[1]v"/><note xml:lang="en">blank</note>
 
-
+</ab>
    </body>
                      </text><text synch="#U3" corresp="#T2" xml:lang="ta"><body>
-  
+  <ab>
   <pb facs="00" n="1r"/>
   
   <milestone unit="left-margin"/>
@@ -145,10 +145,11 @@
     <lb n="1"/><gap reason="ellipsis"/></seg> <g ref="#pcs"/> tirucciṟṟampalam <g ref="#pcs"/>
 <lb n="2"/><seg function="colophon">nantaṉa {varuṣam} Aṟpici {mācam} 2 10 7 {tēti} <persName role="scribe">Ariyaraputti Upāttiyār</persName> Oḻiviloṭukkam y<pc>-</pc>eḻuti
 <lb n="3"/>niṟaveṟiṉatu muṟṟu<seg rend="grantha">=m</seg></seg> <g ref="#pcl"/>
+    </ab>
   
   </body>
                      </text><text synch="#U4" corresp="#T3" xml:lang="ta"><body>
-  
+  <ab>
   <pb facs="00" n="[1]r"/>
   
   <milestone unit="left-margin"/>
@@ -165,6 +166,6 @@
 <pb facs="00" n="[1]v"/>
   
     <lb n="1-4"/><gap reason="ellipsis"/> <g ref="#pcl"/>
-  
+  </ab>
   </body>
                      </text></TEI>

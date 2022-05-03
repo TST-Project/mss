@@ -1,15 +1,15 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ulakanīti</title>
+            <title><title xml:lang="ta">Ulakanīti</title></title>
             
          <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -19,11 +19,11 @@
                   </repository>
                   <idno type="shelfmark">Indien 77</idno>
                   <idno type="alternate"><idno>Tamoul 77</idno></idno>
-               </msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103490r</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/02871341z</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary><title xml:lang="ta">Ulakanīti</title> (literally "The right conduct in the world") by Ulakanātar (17th c. at the latest) is a didactic work containing aphorisms on good conduct in the form of don'ts. The present version consists in ten numbered sections of eight lines each.</summary>
+                  <summary><p><title xml:lang="ta">Ulakanīti</title> (literally "The right conduct in the world") by Ulakanātar (17th c. at the latest) is a didactic work containing aphorisms on good conduct in the form of don'ts. The present version consists in ten numbered sections of eight lines each.</p></summary>
                   
-               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Ulakanīti: <term xml:lang="en">Title page</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta">Ulakanīti: Kāppu</title><author xml:lang="ta">Ulakanātar</author><textLang mainLang="tam"/><filiation><p>BnF: indien 76 (U1). 
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Ulakanīti: <term xml:lang="en">Title Page</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta">Ulakanīti: Kāppu</title><author xml:lang="ta">Ulakanātar</author><textLang mainLang="tam"/><filiation><p>BnF: indien 76 (U1). 
 </p></filiation></msItem><msItem synch="#U3" xml:id="T3" defective="false"><title xml:lang="ta">Ulakanīti: Mūlam
 </title><author xml:lang="ta">Ulakanātar</author><textLang mainLang="tam"/><filiation><p>BnF: Indien 76 (U2), Indien 386 (no. 4). Halle (Francke Foundations): Tam 89 B; Tam 100.</p></filiation></msItem></msContents>
                <physDesc>
@@ -40,7 +40,7 @@
                               
                            <width min="445" max="450"/><height quantity="25"/></dimensions>
                         <dimensions type="object" unit="mm"><width quantity="450"/><height quantity="30"/><depth quantity="20"/></dimensions><dimensions type="written" unit="mm"/></extent>
-                        <collation><desc xml:id="U1">1 folio = <emph rend="bold"><title xml:lang="ta">Ulakanīti</title>: Title page</emph>. No foliation. Verso blank.  Shelfmark on recto. Two hands: hand  #1 (major) and hand #2 (minor; addition in left margin).</desc><desc xml:id="U2">1 folio = <emph rend="bold"><title xml:lang="ta">Ulakanīti</title>: <term xml:lang="ta">Kāppu</term></emph>. No foliation. Verso blank. Hand #1 (major).</desc><desc xml:id="U3">5 folios = <emph rend="bold"><title xml:lang="ta">Ulakanīti</title>: <term xml:lang="ta">Mūlam</term></emph>. Tamil foliation 1-4, [5]. Hand #1 (major).</desc></collation>
+                        <collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold"><title xml:lang="ta">Ulakanīti</title>: Title Page</emph>. No foliation. Verso blank.  Shelfmark on recto. Two hands: hand  #1 (major) and hand #2 (minor; addition in left margin).</desc><desc xml:id="U2">1 folio = <emph rend="bold"><title xml:lang="ta">Ulakanīti</title>: Invocation</emph>. No foliation. Verso blank. Hand #1 (major).</desc><desc xml:id="U3">5 folios = <emph rend="bold"><title xml:lang="ta">Ulakanīti</title>: Text</emph>. Tamil foliation 1-4, [5]. Hand #1 (major).</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation>
                         
                         <condition>Good state of preservation.</condition>
                      </supportDesc>
@@ -48,13 +48,13 @@
                         <layout columns="2" writtenLines="4"/>
                      </layoutDesc>
                   </objectDesc>
-                  <handDesc><handNote synch="#U1 U2 U3" scope="major" script="tamil" scriptRef="#tamilPulliNone" medium="incised"><desc>Hand #1.</desc></handNote><handNote synch="#U1" scope="minor" script="tamil" scriptRef="#tamilPulliNone" medium="incised"><desc>Hand #2 (minor); hand different from the main hand (hand #1, major).</desc></handNote></handDesc>
+                  <handDesc><handNote synch="#U1 #U2 #U3" scope="major" script="tamil" scriptRef="#tamilPulliNone" medium="incised"><desc>Hand #1.</desc></handNote><handNote synch="#U1" scope="minor" script="tamil" scriptRef="#tamilPulliNone" medium="incised"><desc>Hand #2 (minor); hand different from the main hand (hand #1, major).</desc></handNote></handDesc>
                   <decoDesc>
                   </decoDesc>
                   <additions>
                   <desc synch="#U1" type="shelfmark"><quote>N° 17</quote> written in black ink on recto. </desc></additions>
                   <bindingDesc>
-                     <binding><p><material resp="#cLI" cert="medium">Mahogany</material> woodcovers apparently fabricated in the BnF.</p></binding>
+                     <binding><p><material cert="medium">Pinewood</material> covers apparently fabricated in the BnF.</p></binding>
                   </bindingDesc>
                </physDesc>
                <history>
@@ -76,14 +76,14 @@
       <encodingDesc>
          
       <p>Length of <emph rend="italic">ō</emph> and <emph rend="italic">ē</emph> supplied.</p></encodingDesc>
-      <revisionDesc>
+      
+   <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
-      <change when="2021-05">Record created by Emmanuel FRANCIS.</change></revisionDesc>
-   </teiHeader>
+      <change when="2021-05">Record created by Emmanuel FRANCIS.</change></revisionDesc></teiHeader>
    <facsimile>
-   </facsimile>
+   <graphic url="https://didomena.ehess.fr/concern/data_sets/02871341z/manifest.json"/></facsimile>
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
-  
+  <ab>
   <pb facs="00" n="[1]r"/>
   
     <milestone facs="00" unit="left-margin"/>
@@ -97,9 +97,10 @@
     <lb n="1"/><seg function="ownership-statement">Appaccāmi</seg>
     <lb n="2"/><seg function="title">Ulakanīti</seg> <g ref="#pcs"/>
   
-  <pb facs="00" n="[1]v"/><term xml:lang="en">[blank]</term>
+  <pb facs="00" n="[1]v"/><note xml:lang="en">blank</note>
+    </ab>
 </body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
-  
+  <ab>
   <pb facs="00" n="[1]r"/>
   
     <milestone facs="00" unit="left-margin"/>
@@ -108,9 +109,10 @@
       <milestone facs="00" unit="main-text-area"/>
 
     <lb n="1"/><seg function="invocation">Ulakanīti-p purāṇattai Uṇmai-y<pc>-</pc>āy uraikkavē kalaikaḷ āyiraṅ kaṇapati kāppu <g ref="#pcs"/> </seg> <seg function="blessing">civa-maya<seg rend="grantha">=m</seg></seg>
-      <pb facs="00" n="[1]v"/><term xml:lang="en">[blank]</term>
+  <pb facs="00" n="[1]v"/><note xml:lang="en">blank</note>
+    </ab>
 </body></text><text synch="#U3" corresp="#T3" xml:lang="ta"><body>
-  
+  <ab>
   <pb facs="00" n="1r"/>
   
   <milestone facs="00" unit="left-margin"/>
@@ -131,4 +133,5 @@
     <lb n="2"/>karuttuṭaṉē ṉāḷtōṟum mikuppatāmō
     <lb n="3"/>pūtal natil mikavāḻntu poruḷun tēṭi
     <lb n="4"/><seg function="explicit">pūlōkam uḷḷaḷavum vāḻ <del><gap reason="illegible" quantity="2" unit="character"/></del> tāmē</seg> 10 <g ref="#pcl"/>
+    </ab>
 </body></text></TEI>

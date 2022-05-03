@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -9,7 +9,7 @@
          <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -19,7 +19,7 @@
                   </repository>
                   <idno type="shelfmark">Indien 81</idno>
                   <idno type="alternate"><idno>Tamoul 81</idno></idno>
-               </msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103494v</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/db78tj991</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b100916773</idno></msIdentifier>
                <msContents class="#STM">
                   <summary><p>An incomplete <title xml:lang="ta">Tiruvātavūrārpurāṇam</title>, a poem on the life of <persName>Māṇikkavācakar</persName>, by <persName role="author">Kaṭavuṇmāmuṉivar</persName> (15th century?). See Sweetman &amp; Ilakkuvan (2012, p. 66), Zvelebil (1995, p. 334, 405).</p>
 <p>The manuscript stops short at the beginning of the final chapter (<foreign xml:lang="ta">Tiruvaṭipeṟṟaccarukkam</foreign>).</p>
@@ -34,14 +34,14 @@
                            
                         </support>
                         <extent>
-                           <measure unit="folio" quantity="203">[2] + 201 (U1 + U2)</measure>
+                           <measure unit="folio" quantity="203">{2} + 201 (U1 + U2).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
                            <width quantity="385"/><height quantity="35"/></dimensions>
                         <dimensions type="object" unit="mm"><width quantity="385"/></dimensions><dimensions type="written" unit="mm"/></extent>
-                        <collation><desc xml:id="cover">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">2 folios = <emph rend="bold">guard leaves</emph>. No foliation. Blank recto verso. Truncated. 385 x 30 mm.
-</desc><desc xml:id="U2">201 folios = <emph rend="bold"><title xml:lang="ta">Tiruvātavūrārpurāṇam</title>: <term xml:lang="ta">Mūlam &amp; Urai</term></emph>. Tamil foliation [1<hi rend="superscript">1</hi>], then Tamil foliation 1<hi rend="superscript">2</hi>-28, 30-32, 41-73, 75-91, 93-101<hi rend="superscript">1</hi>, 101<hi rend="superscript">2</hi>-108, 110-114, 119-122, 126-193, 197, 199-216, 230-234, [235]. Some foliations corrected. f175-f176: left margin (with foliation) truncated. f232-f234: left margin damaged; foliation thus illegible. 385 x 35 mm.</desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>.</desc></collation>
+                        <collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">2 folios = <emph rend="bold">guard leaves</emph>. No foliation. Blank recto verso. Truncated. 385 x 30 mm.
+</desc><desc xml:id="U2">201 folios = <emph rend="bold"><title xml:lang="ta">Tiruvātavūrārpurāṇam</title>: <term xml:lang="ta">Mūlam &amp; Urai</term></emph>. Tamil foliation [1<hi rend="superscript">1</hi>], then Tamil foliation 1<hi rend="superscript">2</hi>-28, 30-32, 41-73, 75-91, 93-101<hi rend="superscript">1</hi>, 101<hi rend="superscript">2</hi>-108, 110-114, 119-122, 126-193, 197, 199-216, 230-234, [235]. Some foliations corrected. f175-f176: left margin (with foliation) truncated. f232-f234: left margin damaged; foliation thus illegible. 385 x 35 mm.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation>
                         
                         <condition>Relatively good state of preservation. But old and somehow fragile. Some sticky folios. More damaged at the end. A fragment (left side of U2, f235) is kept in an envelop.</condition>
                      </supportDesc>
@@ -53,7 +53,7 @@
                   <decoDesc>
                   </decoDesc>
                   <additions>
-                  <desc synch="#cover" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 81</quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#cover" type="documenting-note" subtype="cover front">Note in black ink on a sticker, presumably by Burnouf: <quote>INDIEN 81</quote> (<locus facs="1">front cover, recto</locus>).</desc></additions>
+                  <desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 81</quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#CoverFront" type="documenting-note" subtype="cover front">Note in black ink on a sticker, presumably by Burnouf: <quote>INDIEN 81</quote> (<locus facs="1">front cover, recto</locus>).</desc></additions>
                   <bindingDesc>
                      <binding><p>Original <material>wood</material> covers. Shelfmark and note (front cover, recto). 385 x 35 mm.</p></binding>
                   </bindingDesc>
@@ -77,14 +77,14 @@
       <encodingDesc>
          
       <p>TBC.</p></encodingDesc>
-      <revisionDesc>
+      
+   <revisionDesc>
          
-      <change when="2021-11">Record created by Emmanuel FRANCIS.</change></revisionDesc>
-   </teiHeader>
+      <change when="2021-11">Record created by Emmanuel FRANCIS.</change></revisionDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
    <facsimile>
    <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b100916773/manifest.json"/></facsimile>
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
-  
+  <ab>
   <pb facs="5" n="[1.1]r"/>
   
     <milestone unit="left-margin"/>
@@ -129,6 +129,6 @@
   
     <milestone unit="left-margin"/>
   <lb n="6"/><seg function="explicit"><gap reason="ellipsis"/> <note xml:lang="en">stops short here</note></seg>
-  
+  </ab>
   
 </body></text></TEI>
