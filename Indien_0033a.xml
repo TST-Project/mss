@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader xml:lang="en">
@@ -9,7 +9,7 @@
          
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -17,10 +17,10 @@
                   <repository>
                      <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
                   </repository>
-                  <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103407h</idno>
+                  
                   <idno type="shelfmark">Indien 33a</idno>
-                  <idno type="alternate"><idno>Tamoul 33a</idno></idno>
-               </msIdentifier>
+                  <idno type="alternate"/>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103407h</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/w0892j56g</idno></msIdentifier>
                <msContents class="#STM">
                   <summary>The <title xml:lang="ta">Koṅkaṇar Ñāṉam</title>, in 46 stanzas.</summary>
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Koṅkaṇar Ñāṉam</title><textLang mainLang="tam"/></msItem></msContents>
@@ -39,7 +39,7 @@
                         <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
                         <collation>
                         
-                        <desc xml:id="U1">15 folios = <emph rend="bold">Koṅkaṇar Ñāṉam</emph>. Tamil foliation [1]-15. 295 x 30 mm.
+                        <desc xml:id="U1">15 folios = <emph rend="bold">Koṅkaṇar Ñāṉam</emph>. Tamil foliation {1}-15. 295 x 30 mm.
 </desc></collation>
                         <condition>Excellent state of preservation.</condition>
                      </supportDesc>
@@ -58,7 +58,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian" notAfter="1855">No internal date. Before 1855, as it is part of Ariel’s bequest made in that year to the Société Asiatique, Paris (Rosny 1868).</origDate>
+                     <origDate calendar="gregorian" notAfter="1854">No internal date. Not after 1854, since part of the collection of <persName role="collector">Édouard Ariel</persName> (1818-1854).</origDate>
                      <origPlace>Tamilnadu.</origPlace>
                   </origin>
                   <acquisition>
@@ -77,29 +77,38 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-      <p><p><emph rend="bold">Transliteration conventions</emph></p>  <p>Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only).</p>  <p><emph rend="bold">Abbreviations</emph></p>  <p> c = column, f = folio, lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.</p>     </p></encodingDesc>
-      <revisionDesc>
-      <change when="2021-11">Record created by Emmanuel FRANCIS.</change></revisionDesc>
-   </teiHeader>
+      <p> <emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.    </p></encodingDesc>
+      
+   <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
+      <change when="2021-11">Record created by Emmanuel FRANCIS.</change><change when="2022-05">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, May 2022.</change></revisionDesc></teiHeader>
    
    <facsimile>
       <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10092669x/manifest.json" facs="3"/>
    </facsimile>
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+  <ab>
   
-  <pb facs="3" n="[1]r"/>
-  
-  <milestone unit="left-margin"/>
-  <lb n="1"/><seg function="title">koṅkaṇar 
-<lb n="2"/>Aṉṉūttiraṭ
-<lb n="3" break="no"/>ṭil ñāṉam</seg>
-  
-  <milestone unit="main-text-area"/>
-  <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
-
-  
+  <seg function="header">
+      <seg function="title">
+        <pb facs="3" n="[1]r"/>
+    <milestone facs="3" unit="left-margin"/>
+    <lb n="1"/>koṅkaṇar 
+    <lb n="2"/>Aṉṉūttiraṭ
+    <lb n="3" break="no"/>ṭil ñāṉam
+      </seg>
+    </seg>
+    
+    <seg function="incipit">
+      <milestone facs="3" unit="main-text-area"/>
+      <lb n="1"/><gap reason="ellipsis"/>
+    </seg>
+    <lb n="2-5"/><gap reason="ellipsis"/>
+    
     <pb facs="18" n="15v"/>
-  <lb n="4"/><seg function="explicit"><gap reason="ellipsis"/> = 4 10 6 =</seg>
-  </body>
+    <lb n="1-3"/><gap reason="ellipsis"/>
+    <seg function="explicit"><lb n="4"/><gap reason="ellipsis"/> = 4<g ref="#pattu"/>6 =</seg>
+    
+    </ab>
+</body>
 
 </text></TEI>
