@@ -18,8 +18,8 @@
                      <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
                   </repository>
                   <idno type="shelfmark">Indien 87</idno>
-                  <idno type="alternate"><idno>Tamoul 87</idno><idno>Ariel 173</idno></idno>
-               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103500s</idno></msIdentifier>
+                  <idno type="alternate"><idno>Tamoul 87</idno><idno>Ariel 173</idno><idno>c/61</idno></idno>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103500s</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/8c97kx51x</idno></msIdentifier>
                <msContents class="#MTM">
                   <summary><p>A multi-text manuscript containing:
 <list rend="numbered">
@@ -65,14 +65,14 @@
                   <decoDesc>
                   </decoDesc>
                   <additions>
-                  <desc synch="#U1" type="shelfmark">Shelfmark in black ink: <quote>c/61</quote> (<locus facs="0">f[1]r</locus>).</desc><desc synch="#U1" type="intertitle" subtype="marginal left">Left-marginal intertitles. See selection below.</desc><desc synch="#U6" type="intertitle" subtype="marginal left">Left-marginal intertitles. See selection below.</desc><desc synch="#CoverBack" type="shelfmark" subtype="back cover">BnF shelfmark sticker: <quote>INDIEN 87</quote> (<locus facs="0">back cover, verso</locus>).</desc><desc synch="#CoverBack" type="documenting-note" subtype="back cover">BnF bequest sticker <quote>DON N° <space type="vacat"/></quote> (<locus facs="0">back cover, verso</locus>).</desc></additions>
+                  <desc synch="#U1" type="shelfmark">Shelfmark in black ink: <quote>c/61</quote> (<locus facs="70">f[1]r</locus>).</desc><desc synch="#U1" type="intertitle" subtype="marginal left">Left-marginal intertitles. See selection below.</desc><desc synch="#U6" type="intertitle" subtype="marginal left">Left-marginal intertitles. See selection below.</desc><desc synch="#CoverBack" type="shelfmark" subtype="back cover">BnF shelfmark sticker: <quote>INDIEN 87</quote> (<locus facs="2">back cover, verso</locus>).</desc><desc synch="#CoverBack" type="documenting-note" subtype="back cover">BnF bequest sticker <quote>DON N° <space type="vacat"/></quote> (<locus facs="2">back cover, verso</locus>).</desc></additions>
                   <bindingDesc>
                      <binding><p><material>Pinewood</material> covers apparently fabricated in the BnF. 185 x 35 mm.</p></binding>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian" notAfter="1855">No internal date. Dated to circa 1830 by Vinson (1868) and to 1830 by Cabaton (1912), on unstated grounds (presumably palaeographical and material analysis arguments).</origDate>
+                     <origDate calendar="gregorian" notAfter="1854">No internal date. Dated to circa 1830 by Vinson (1868) and to 1830 by Cabaton (1912), on unstated grounds (presumably palaeographical and material analysis arguments). Not after 1854, since part of the collection of <persName role="collector">Édouard Ariel</persName> (1818-1854).</origDate>
                      <origPlace>Tamilnadu.</origPlace>
                   </origin>
                	<provenance><p>Owned by <persName role="collector">Édouard Ariel</persName> (1818-1854). Bequested by Édouard Ariel to Société Asiatique (Rosny 1868, p. 177).</p></provenance>
@@ -90,20 +90,20 @@
          
       <p>   <emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.            </p></encodingDesc>
       
-   <revisionDesc>
+   <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
       <change when="2022-03">Record created by Emmanuel FRANCIS.</change><change when="2022-05">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, May 2022.</change></revisionDesc></teiHeader>
    <facsimile>
-   </facsimile>
+   <graphic url="https://didomena.ehess.fr/concern/data_sets/8c97kx51x/manifest.json"/></facsimile>
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
     <ab>
 
-  <pb facs="0" n="[1]r"/>
-  <milestone n="1" unit="column"/>
- <lb n="1-3"/><seg function="blessing">veṟṟi-vēl uṟṟa tuṇai</seg>
+  <seg function="blessing"><pb facs="6" n="[1]r"/>
+  <milestone facs="7" n="1" unit="column"/>
+ <lb n="1-3"/>veṟṟivēl uṟṟa tuṇai</seg>
   
-<milestone n="2" unit="column"/>
- <lb n="1-2"/><seg function="title">puvaṇaikaṭkam</seg>
+<seg function="title"><milestone facs="7" n="2" unit="column"/>
+ <lb n="1-2"/>puvaṇaikaṭkam</seg>
 
     <pb facs="0" n="[1]v"/><note xml:lang="en">blank</note>
       
@@ -111,42 +111,42 @@
 </body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
     <ab>
 
-  <pb facs="0" n="1r"/>
-  
-  <milestone unit="left-margin"/>
- <lb n="1"/><seg function="blessing">{Ōm}</seg>
+  <seg function="header"><pb facs="8" n="1r"/>
+    <milestone unit="left-margin"/>
+ <lb n="1"/><seg function="blessing">Oṁ</seg>
 <lb n="2-4"/><seg function="title">puvaṇaikaṣppaṭam</seg>
+    </seg>
   
    <milestone unit="main-text-area"/>
    <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
      
-  <pb facs="0" n="2r"/>
+  <seg function="intertitle"><pb facs="9" n="2r"/>
   <milestone unit="left-margin"/>
- <lb n="1-3"/><seg function="intertitle">cūttiram</seg>
+ <lb n="1-3"/>cūttiram</seg>
   
-    <pb facs="0" n="3v"/>
+    <seg function="intertitle"><pb facs="11" n="3v"/>
   <milestone unit="left-margin"/>
- <lb n="1-4"/><seg function="intertitle">Eṭṭukilakkam</seg>
+ <lb n="1-4"/>Eṭṭukilakkam</seg>
   
-  <pb facs="0" n="4v"/>
+  <seg function="intertitle"><pb facs="13" n="4v"/>
   <milestone unit="left-margin"/>
- <lb n="1-4"/><seg function="intertitle">Uḷakkoṇa=M</seg>
+ <lb n="1-4"/>Uḷakkoṇa=M</seg>
   
-  <pb facs="0" n="5v"/>
+  <seg function="intertitle"><pb facs="15" n="5v"/>
   <milestone unit="left-margin"/>
- <lb n="1-4"/><seg function="intertitle">Aṣṭṭacatti</seg>
+ <lb n="1-4"/>Aṣṭṭacatti</seg>
     
-  <pb facs="0" n="9r"/>
+  <seg function="intertitle"><pb facs="19" n="9r"/>
   <milestone unit="left-margin"/>
- <lb n="1-2"/><seg function="intertitle">vaciya=M</seg>
+ <lb n="1-2"/>vaciya=M</seg>
     
-    
- <pb facs="0" n="39v"/>
+     <pb facs="0" n="39r"/>
  <milestone unit="left-margin"/>
- <lb n="1"/><seg function="intertitle">naṉmai</seg>
-<lb n="2"/><seg function="intertitle">tiṉmai</seg>
+ <lb n="1-2"/><seg function="intertitle">naṉmai</seg>
+<lb n="3-4"/><seg function="intertitle">tiṉmai</seg>
+<lb n="5-6"/><seg function="intertitle">vaippu</seg>
 
-  <pb facs="0" n="41r"/>
+  <pb facs="33" n="41r"/>
    <lb n="4"/><g ref="#pcs"/> 2<g ref="#nūṟu"/>99 <g ref="#pcs"/> <gap reason="ellipsis"/>
  <lb n="5"/><gap reason="ellipsis"/>
    <lb n="6"/><seg function="explicit"><gap reason="ellipsis"/> <g ref="#pcs"/> 3<g ref="#nūṟu"/> <g ref="#pcs"/> pirintu<note xml:lang="en">the text appears to stop short here</note></seg>
@@ -157,22 +157,23 @@
 </body></text><text synch="#U3" corresp="#T3" xml:lang="ta"><body>
     <ab>
 
-  <pb facs="0" n="1r"/>
+  <seg function="title">
+    <pb facs="34" n="1r"/>
+    <milestone facs="35" unit="left-margin"/>
+    <lb n="1-2"/>maṉmata
+      </seg>
   
-  <milestone unit="left-margin"/>
- <lb n="1-2"/><seg function="title">maṉmata</seg>
-  
-   <milestone n="1" unit="column"/>
+   <milestone facs="35" n="1" unit="column"/>
      <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
      <lb n="2-8"/><gap reason="ellipsis"/>
      
-     <milestone n="2" unit="column"/>
+     <milestone facs="36" n="2" unit="column"/>
      <lb n="1-9"/><gap reason="ellipsis"/>
   
-     <milestone n="3" unit="column"/>
+     <milestone facs="36" n="3" unit="column"/>
      <lb n="1-5"/><gap reason="ellipsis"/>
   
-    <pb facs="0" n="1v"/>
+    <pb facs="37" n="1v"/>
  <lb n="1-4"/><gap reason="ellipsis"/>
        <lb n="5"/><seg function="explicit"><gap reason="ellipsis"/></seg>
 
@@ -180,67 +181,70 @@
 </body></text><text synch="#U4" corresp="#T4" xml:lang="ta"><body>
     <ab>
 
-  <pb facs="0" n="[1]r"/>
-  
-  <milestone unit="left-margin"/>
+  <seg function="header">
+    <pb facs="40" n="[1]r"/>
+    <milestone facs="41" unit="left-margin"/>
  <lb n="1-4"/><seg function="title">vayirava<unclear>ca</unclear>k=karam</seg>
 <lb n="5-8"/><seg function="TBC">vitiyākamam</seg>
+    </seg>
   
-   <milestone unit="main-text-area"/>
+   <milestone facs="41" unit="main-text-area"/>
         <lb n="1"/><seg function="incipit">Om vayiravāya nama maṅ taṅ ṭuṅ kiṅ Am Ūm</seg> <gap reason="ellipsis"/>
   <lb n="2-6"/><gap reason="ellipsis"/>
   <lb n="7"/><seg function="explicit"><unclear>I</unclear>tuk=ku cakkaram piṟkālē <g ref="#pcs"/> <g ref="#pcl"/></seg> <gap reason="ellipsis"/>
   
-    <pb facs="0" n="1v"/><note xml:lang="en"><foreign xml:lang="ta">cakkaram</foreign>s</note>
+    <pb facs="0" n="1v"/><note xml:lang="en">diagrams</note>
                                                    
 </ab>
 </body></text><text synch="#U5" corresp="#T5" xml:lang="ta"><body>
     <ab>
 
-  <pb facs="0" n="[1]r"/>
+  <pb facs="46" n="[1]r"/>
   
- <milestone n="1" unit="column"/>
-     <lb n="1"/><seg function="incipit">tiyāṉa mayaṅka <gap reason="ellipsis"/></seg>
+ <seg function="incipit">
+   <milestone facs="47" n="1" unit="column"/>
+     <lb n="1"/>tiyāṉa mayaṅka <gap reason="ellipsis"/></seg>
      <lb n="2-8"/><gap reason="ellipsis"/>
      
-     <milestone n="2" unit="column"/>
+     <milestone facs="48" n="2" unit="column"/>
      <lb n="1-3"/><seg function="blessing">tēvicakāyam</seg>
      <lb n="4-6"/><gap reason="ellipsis"/>
   
-     <milestone n="3" unit="column"/>
+     <milestone facs="49" n="3" unit="column"/>
      <lb n="1-9"/><gap reason="ellipsis"/>
   
-    <pb facs="0" n="1v"/>
+    <pb facs="50" n="1v"/>
        <lb n="1-9"/><gap reason="ellipsis"/>    
-       <lb n="10"/><note xml:lang="en">centred</note> <seg function="explicit">Ituk=ku laṣcamuku cepikkavum</seg>
+       <lb n="10"/><note xml:lang="en">centred line</note> <seg function="explicit">Ituk=ku laṣcamuku cepikkavum</seg>
 
 </ab>
 </body></text><text synch="#U6" corresp="#T6" xml:lang="ta"><body>
     <ab>
 
-  <pb facs="0" n="1r"/>
+  <pb facs="53" n="1r"/>
   
-  <milestone unit="left-margin"/>
+  <milestone facs="54" unit="left-margin"/>
  <lb n="1-7"/><seg function="title">kaṣpaṭam vakaiyaṟuppu</seg>  
   
-  <pb facs="0" n="3v"/>
+  <pb facs="58" n="3v"/>
   <milestone unit="left-margin"/>
  <lb n="1-9"/><seg function="intertitle"><subst><del>Ireṇṭā</del><add place="left">muta</add></subst><subst><del>m</del><add>ṟ</add></subst> paṭalam Aṉuṣṭṭāṉam</seg>
   
-  <pb facs="0" n="4v"/>
+  <pb facs="60" n="4v"/>
   <milestone unit="left-margin"/>
  <lb n="1-4"/><seg function="intertitle">Ireṇṭām paṭalam tiyāṉa=M</seg>
   
-  <pb facs="0" n="20r"/>
-  <milestone unit="left-margin"/>
+  <pb facs="77" n="20r"/>
+  
+      <milestone facs="78" unit="left-margin"/>
  <lb n="1-4"/><seg function="intertitle">patiṉōrām paṭa<unclear>la=M</unclear></seg>
  <lb n="5-7"/><seg function="intertitle"><gap reason="ellipsis"/></seg>
   
-  <pb facs="0" n="21r"/>
+  <pb facs="79" n="21r"/>
   <milestone unit="left-margin"/>
  <lb n="1-3"/><seg function="intertitle"><gap reason="ellipsis"/></seg>
  
-      <pb facs="0" n="23v"/>
+      <pb facs="86" n="23v"/>
  <lb n="1"/><seg function="explicit"><gap reason="ellipsis"/>yiṭatu kaiyiṟ kaṭṭuvatu =</seg> <seg function="completion-statement">patinōrām paṭalam mu<sic>t=tu</sic>m <title xml:lang="ta">puvaṉespari
 <lb n="2" break="no"/>kaṣkkam</title> campūṟṇam <g ref="#pcl"/></seg>
                                              
