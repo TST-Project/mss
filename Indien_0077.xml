@@ -37,13 +37,13 @@
                            <p>Double leaves.</p>
                         </support>
                         <extent>
-                           <measure unit="folio" quantity="7">1 + 1 + 5 (U1 + U2 + U3)</measure>
+                           <measure unit="folio" quantity="7">{1} + {1} + 5 (U1 + U2 + U3).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
                            <width min="445" max="450"/><height quantity="25"/></dimensions>
                         <dimensions type="object" unit="mm"><width quantity="450"/><height quantity="30"/><depth quantity="20"/></dimensions><dimensions type="written" unit="mm"/></extent>
-                        <collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold"><title xml:lang="ta">Ulakanīti</title>: Title Page</emph>. No foliation. Verso blank.  Shelfmark on recto. Two hands: hand  #1 (major) and hand #2 (minor; addition in left margin).</desc><desc xml:id="U2">1 folio = <emph rend="bold"><title xml:lang="ta">Ulakanīti</title>: Invocation</emph>. No foliation. Verso blank. Hand #1 (major).</desc><desc xml:id="U3">5 folios = <emph rend="bold"><title xml:lang="ta">Ulakanīti</title>: Text</emph>. Tamil foliation 1-4, [5]. Hand #1 (major).</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation>
+                        <collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold"><title xml:lang="ta">Ulakanīti</title>: Title Page</emph>. No foliation. Verso blank.  Shelfmark on recto. Two hands: hand  #1 (major) and hand #2 (minor; addition in left margin).</desc><desc xml:id="U2">1 folio = <emph rend="bold"><title xml:lang="ta">Ulakanīti</title>: Invocation</emph>. No foliation. Verso blank. Hand #1 (major).</desc><desc xml:id="U3">5 folios = <emph rend="bold"><title xml:lang="ta">Ulakanīti</title>: Text</emph>. Tamil foliation 1-4, {5}. Hand #1 (major).</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation>
                         
                         <condition>Good state of preservation.</condition>
                      </supportDesc>
@@ -55,14 +55,14 @@
                   <decoDesc>
                   </decoDesc>
                   <additions>
-                  <desc synch="#CoverFront" type="shelfmark">BnF shelfmark sticker: <quote>INDIEN 77</quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#U1" type="shelfmark"><quote>N° 17</quote> written in black ink on recto (<locus facs="5">f[1]r</locus>). </desc></additions>
+                  <desc synch="#CoverFront" type="shelfmark">BnF shelfmark sticker: <quote>INDIEN 77</quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#U1" type="shelfmark">Shelfmark in black ink <quote>N° 17</quote> (<locus facs="5">f[1]r</locus>). </desc></additions>
                   <bindingDesc>
                      <binding><p><material cert="medium">Pinewood</material> covers apparently fabricated in the BnF.</p></binding>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian" notAfter="1840">Dated to 1840 by Vinson (1867) and Cabaton (1912), on unknown grounds.</origDate>
+                     <origDate calendar="gregorian" notAfter="1840">Dated to circa 1840 by Vinson (1868) and to 1840 by Cabaton (1912), on unstated grounds (presumably palaeographical and material analysis arguments).</origDate>
                      <origPlace>Tamilnadu</origPlace>
                   </origin>
                   <provenance/>
@@ -87,54 +87,55 @@
    <graphic url="https://didomena.ehess.fr/concern/data_sets/02871341z/manifest.json"/></facsimile>
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   <ab>
-  <pb facs="00" n="[1]r"/>
+  <pb facs="5" n="[1]r"/>
   
-    <milestone facs="00" unit="left-margin"/>
-    <term xml:lang="en">[by hand #2, minor]</term>
-    <lb n="1"/><seg function="blessing">civamaya=M</seg>=<g ref="#pcs"/>
-    <lb n="2"/><seg function="ownership-statement">Appaccāmi</seg> 
+    <milestone facs="6" unit="left-margin"/><note xml:lang="en">by hand #2, minor</note>
+    <seg function="blessing"><lb n="1"/>civamaya=M</seg><g ref="#pcs"/>
+    <seg function="ownership-statement"><lb n="2"/>Appaccāmi</seg> 
     <lb n="3"/><gap reason="ellipsis"/>
     <lb n="4"/><gap reason="ellipsis"/>
-    <milestone facs="00" unit="main-text-area"/>
-    <term xml:lang="en">[by hand #1, major]</term>
-    <lb n="1"/><seg function="ownership-statement">Appaccāmi</seg>
-    <lb n="2"/><seg function="title">Ulakanīti</seg> <g ref="#pcs"/>
+    
+    <milestone facs="7" unit="main-text-area"/>
+    <note xml:lang="en">by hand #1, major</note>
+    <seg function="ownership-statement"><lb n="1"/>Appaccāmi</seg>
+    <seg function="title"><lb n="2"/>Ulakanīti</seg> <g ref="#pcs"/>
   
-  <pb facs="00" n="[1]v"/><note xml:lang="en">blank</note>
+  <pb n="[1]v"/><note xml:lang="en">blank</note>
     </ab>
 </body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
   <ab>
-  <pb facs="00" n="[1]r"/>
   
-    <milestone facs="00" unit="left-margin"/>
-    <lb n="1"/><seg function="blessing">ha<seg rend="grantha">riḥ</seg> O<seg rend="grantha">m</seg></seg>
+    <pb facs="8" n="[1]r"/>
   
-      <milestone facs="00" unit="main-text-area"/>
-
-    <lb n="1"/><seg function="invocation">Ulakanīti-p purāṇattai Uṇmai-y<pc>-</pc>āy uraikkavē kalaikaḷ āyiraṅ kaṇapati kāppu <g ref="#pcs"/> </seg> <seg function="blessing">civa-maya=M</seg>
-  <pb facs="00" n="[1]v"/><note xml:lang="en">blank</note>
+    <seg function="blessing"><milestone facs="9" unit="left-margin"/>
+    <lb n="1"/><term xml:lang="sa">hariḥ Om</term></seg>
+  
+      <seg function="satellite-stanza" cert="low">
+        <milestone facs="10" unit="main-text-area"/>
+    <lg><l><lb n="1"/>Ulakanīti-p purāṇattai Uṇmai-y<pc>-</pc>āy uraikkavē kalaikaḷ āyiraṅ kaṇapati kāppu</l> <g ref="#pcs"/></lg></seg>  <seg function="blessing">civa-maya=M</seg>
+    
+  <pb n="[1]v"/><note xml:lang="en">blank</note>
     </ab>
 </body></text><text synch="#U3" corresp="#T3" xml:lang="ta"><body>
   <ab>
-  <pb facs="00" n="1r"/>
+  <pb facs="14" n="1r"/>
   
-  <milestone facs="00" unit="left-margin"/>
-  
-  <lb n="1"/><seg function="blessing">naṉ
+  <seg function="blessing"><milestone facs="15" unit="left-margin"/>
+    <lb n="1"/>naṉ
   <lb n="2"/>ṟāka</seg>
   
-    <milestone facs="00" n="1" unit="column"/>
-    <lb n="1"/><seg function="incipit">Ōtāmal oruṉāḷum irukka vēṇṭām</seg>
+    <seg function="incipit"><milestone facs="16" n="1" unit="column"/>
+    <lb n="1"/>Ōtāmal oruṉāḷum irukka vēṇṭām</seg>
     <lb n="2"/>Oruvaraiyum pollāṅku colla vēṇṭām
     <lb n="3"/>mātāvai y-oruṉāḷumaṟakka vēṇṭām
     <lb n="4"/>vañcaṉaikaḷ ceyvārō ṭiṇaṅka vēṇṭām
   
-  <pb facs="00" n="[5]v"/>
+  <pb facs="25" n="[5]v"/>
     
-    <milestone facs="00" n="2" unit="column"/>
+    <milestone facs="28" n="2" unit="column"/>
     <lb n="1"/>kātalittu maṉam kiḻntu karuttōr kēṭṭōr
     <lb n="2"/>karuttuṭaṉē ṉāḷtōṟum mikuppatāmō
     <lb n="3"/>pūtal natil mikavāḻntu poruḷun tēṭi
-     <lb n="4"/><seg function="explicit">pūlōkam uḷḷaḷavum vāḻ <del><gap reason="illegible" quantity="2" unit="character"/></del> tāmē</seg> <g ref="#pattu"/> <g ref="#pcl"/>
+     <seg function="explicit"><lb n="4"/>pūlōkam uḷḷaḷavum vāḻ <del><gap reason="illegible" quantity="2" unit="character"/></del> tāmē</seg> <g ref="#pattu"/> <g ref="#pcl"/>
     </ab>
 </body></text></TEI>
