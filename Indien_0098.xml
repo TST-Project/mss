@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -8,7 +8,7 @@
          </titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -20,13 +20,15 @@
                   <idno type="alternate"><idno>Tamoul 98</idno></idno>
                </msIdentifier>
                <msContents class="#CM">
-                  <summary>A composite manuscript, which contains:
+                  <summary><p>A composite manuscript, which contains:
 <list rend="numbered">
-  <item>the <title xml:lang="ta">Kaṭcippaṭalam</title> by <persName role="author">Dakṣiṇāmūrti</persName> (Indien 98a)</item>
-  <item>a <title xml:lang="ta">Caranūl</title> (Indien 98b)</item>
-  <item>the <title xml:lang="ta">Pañcapaṭcicāttiram</title> &amp; <title xml:lang="ta">Kevuḷi</title> (Indien 98c)</item>
-  <item>a <title xml:lang="ta">Rākukālam</title> (Indien 98d)</item>
-  </list>
+  <item>The <title xml:lang="ta">Kaṭcippaṭalam</title> by <persName role="author">Dakṣiṇāmūrti</persName> (Indien 98a).</item>
+  <item>A <title xml:lang="ta">Caranūl</title> (Indien 98b).</item>
+  <item>The <title xml:lang="ta">Pañcapaṭcicāttiram</title> &amp; <title xml:lang="ta">Kevuḷi</title> (Indien 98c).</item>
+  <item>A <title xml:lang="ta">Rākukālam</title> (Indien 98d).</item>
+  </list></p>
+<p>Description based on the examination of the original (November 2021).</p>
+<p>Dimensions assessed at the time of examination.</p> 
 </summary>
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page</term></title><textLang mainLang="tam"/></msItem></msContents>
@@ -34,7 +36,7 @@
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
                         <extent>
-                           <measure unit="folio" quantity="80">[1] + 39 + 17 + 21 + [1] +[1] (U1 + 98a + 98b + 98c + 98d + U2).</measure>
+                           <measure unit="folio" quantity="80">{1} + 39 + 17 + 21 + {1} + {1} (U1 + Indien 98a + Indien 98b + Indien 98c + Indien 98d + U2).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
@@ -42,7 +44,7 @@
                         <dimensions type="object" unit="mm"><width quantity="195"/><height quantity="30"/><depth quantity="60"/></dimensions><dimensions type="written" unit="mm"/></extent>
                         
                         <condition>Excellent state of preservation.</condition>
-                     <collation><desc xml:id="cover">the <emph rend="bold">front cover</emph>. BnF shelfmark sticker and BnF bequest sticker on front cover, recto. </desc><desc xml:id="U1">1 folio = <emph rend="bold">Title Page</emph>. No foliation. Double folio. 195 x 30 mm. Verso blank.</desc><desc xml:id="98a"/><desc xml:id="98b"/><desc xml:id="98c"/><desc xml:id="98d"/><desc xml:id="U2">1 folio = <emph rend="bold">Title Page</emph>. No foliation. Double folio. Verso blank. 185 x 25 mm.  </desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>.</desc></collation><support><measure unit="stringhole" quantity="1"/></support></supportDesc>
+                     <collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. BnF shelfmark sticker and BnF bequest sticker on front cover, recto. </desc><desc xml:id="U1">1 folio = <emph rend="bold">Title Page</emph>. No foliation. Double folio. 195 x 30 mm. Verso blank.</desc><desc xml:id="Indien98a">39 folios.</desc><desc xml:id="Indien98b">17 folios.</desc><desc xml:id="Indien98c">21 folios.</desc><desc xml:id="Indien98d">{1} folio.</desc><desc xml:id="U2">1 folio = <emph rend="bold">Title Page</emph>. No foliation. Double folio. Verso blank. 185 x 25 mm.  </desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><support><measure unit="stringhole" quantity="1"/></support></supportDesc>
                      <layoutDesc>
                         
                      </layoutDesc>
@@ -50,7 +52,7 @@
                   <handDesc>
                      
                   <handNote synch="#U1" scope="minor" scribeRef="#EdouardAriel" script="tamil" medium="incised"><desc>Hand #1.</desc></handNote><handNote synch="#U2" scope="minor" script="tamil" medium="incised"><desc>Hand #2. Unblackened.</desc></handNote></handDesc>
-                  <additions><desc synch="#cover" type="documenting-note" subtype="cover front">BnF bequest sticker <quote>DON N° <space type="vacat"/></quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#cover" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 98</quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#U1" type="shelfmark">Shelfmark in black ink: <quote>d/38</quote> (<locus facs="2">f[1]r</locus>).</desc><desc synch="#U2" type="commenting-note">Note (illegible) in black ink (<locus facs="83">f[1]r</locus>).</desc></additions>
+                  <additions><desc synch="#CoverFront" type="documenting-note" subtype="cover front">BnF bequest sticker <quote>DON N° <space type="vacat"/></quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 98</quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#U1" type="shelfmark">Shelfmark in black ink: <quote>d/38</quote> (<locus facs="2">f[1]r</locus>).</desc><desc synch="#U2" type="commenting-note">Note (illegible) in black ink (<locus facs="83">f[1]r</locus>).</desc></additions>
                   <bindingDesc>
                      <binding>
                         <p><material cert="medium">Wood</material> covers apparently fabricated in the BnF. 190 x 30 mm.</p>
@@ -77,19 +79,20 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
-         
-      <change when="2021-11">Record created by Emmanuel FRANCIS.</change></revisionDesc>
+      
    <encodingDesc><p><p>
   <emph rend="bold">Transliteration conventions</emph>
 </p>
 <p>
   Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only).</p>
 <p><emph rend="bold">Abbreviations</emph></p>
-<p>c = column, f = folio, lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.</p></p></encodingDesc></teiHeader>
+<p>c = column, f = folio, lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.</p></p></encodingDesc><revisionDesc>
+         
+      <change when="2021-11">Record created by Emmanuel FRANCIS.</change></revisionDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
    
 <facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10092695c/manifest.json"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
-  
+    <ab>
+
   <pb facs="2" n="[1]r"/>
  
   <milestone n="1" unit="column"/>
@@ -104,10 +107,11 @@
 <lb n="5"/><seg function="title">rākukālam</seg>
 
   <pb facs="3" n="[1]v"/><note xml:lang="en">blank</note>
- 
+ </ab>
 </body>
    </text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
-  
+    <ab>
+
   <pb facs="83" n="[1]r"/>
   
   <milestone unit="left-margin"/>
@@ -115,5 +119,5 @@
 
    <pb facs="00" n="[1]v"/>
   <note xml:lang="en">blank</note>
-
+</ab>
   </body></text></TEI>

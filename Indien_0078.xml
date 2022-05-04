@@ -25,7 +25,9 @@
 <list rend="numbered">
   <item>The <title xml:lang="ta">Cukirtamaṇimālai</title> (U1).</item>
   <item>TBC (U2).</item>
-  </list></p></summary>
+  </list></p>
+<p>Description based on the examination of the original (May 2021).</p>
+<p>Dimensions assessed at the time of examination.</p> </summary>
                   
                <msItem synch="#U1a" xml:id="T1" defective="false"><title xml:lang="ta">Cukirtamaṇimālai: Kāppu</title><textLang mainLang="tam"/><filiation><p><ref target="https://tst-project.github.io/mss/Indien_0079.xml">BnF Indien 79, U2</ref></p></filiation></msItem><msItem synch="#U1b" xml:id="T2" defective="true"><title xml:lang="ta">Cukirtamaṇimālai: Mūlam</title><textLang mainLang="tam"/><filiation><p><ref target="https://tst-project.github.io/mss/Indien_0079.xml">BnF Indien 79, U3</ref></p></filiation></msItem><msItem synch="#U2a" xml:id="T3" defective="false"><title xml:lang="ta"><term xml:lang="en">TBC</term>: Kāppu</title><textLang mainLang="tam"/></msItem><msItem synch="#U2b" xml:id="T4" defective="false"><title xml:lang="ta"><term xml:lang="en">TBC</term>: Mūlam</title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
@@ -54,7 +56,7 @@
                   <decoDesc>
                   </decoDesc>
                   <additions>
-                  <desc synch="#U1a" type="shelfmark" subtype="cover front">Shelfmark in black ink: <quote>N° 3 complet</quote> (<locus facs="0">f[1]r</locus>). This is the number in Velanguani Arokium's catalogue (<ref target="https://gallica.bnf.fr/ark:/12148/btv1b10527869m/f14">f. 2v, no. 4</ref>).</desc><desc synch="#CoverBack" type="shelfmark documenting-note" subtype="back cover">BnF shelfmark sticker: <quote>INDIEN 78</quote> (<locus facs="0">back cover, verso</locus>). Covering an earlier sticker.</desc><desc synch="#U1b #U2b" type="metre" subtype="marginal left">Metre identification (first full word then abbreviated word).</desc></additions>
+                  <desc synch="#U1a" type="shelfmark" subtype="cover front">Shelfmark in black ink: <quote>N° 3 complet</quote> (<locus facs="7">f[1]r</locus>). This is the number in Velanguani Arokium's catalogue (<ref target="https://gallica.bnf.fr/ark:/12148/btv1b10527869m/f14">f. 2v, no. 4</ref>).</desc><desc synch="#CoverBack" type="shelfmark documenting-note" subtype="back cover">BnF shelfmark sticker: <quote>INDIEN 78</quote> (<locus facs="4">back cover, verso</locus>). Covering an earlier sticker.</desc><desc synch="#U1b #U2b" type="metre" subtype="marginal left">Metre identification (first full word then abbreviated word).</desc></additions>
                   <bindingDesc>
                      <binding><p><material cert="medium">Pinewood</material> covers apparently fabricated in the BnF. 430 x 25 mm.</p></binding>
                   </bindingDesc>
@@ -77,107 +79,122 @@
       </fileDesc>
       <encodingDesc>
          
-      <p>Length of <emph rend="italic">ō</emph> and <emph rend="italic">ē</emph> supplied.</p></encodingDesc>
+      <p>   <emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.            </p></encodingDesc>
       
    <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
-      <change when="2022-03">Record created by Emmanuel FRANCIS.</change></revisionDesc></teiHeader>
+      <change when="2022-03">Record created by Emmanuel FRANCIS.</change><change when="2022-05">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, May 2022.</change></revisionDesc></teiHeader>
    <facsimile>
    <graphic url="https://didomena.ehess.fr/concern/data_sets/jd473374p/manifest.json"/></facsimile>
 <text synch="#U1a" corresp="#T1" xml:lang="ta"><body>
   <ab>
-  <pb facs="00" n="1r"/>
-  <milestone n="1" unit="left-margin"/>
-  <lb n="1"/><seg function="blessing">Icēcu mari cūcai tuṇai</seg>
+    
+  <pb facs="6" n="1r"/>
   
-  <milestone n="2" unit="left-margin"/>
-  <lb n="1"/><seg function="title">cukiṟtamaṇimālai</seg>
-<lb n="2"/><seg function="intertitle">kāppu</seg>
-<lb n="3"/><seg function="metre">veṇpā</seg>
+    <seg function="blessing"><milestone facs="7" n="1" unit="left-margin"/>
+  <lb n="1"/>Icēcu mari cūcai tuṇai</seg>
   
-  <milestone unit="main-text-area"/>
+  <milestone facs="8" n="2" unit="left-margin"/>
+  <seg function="title"><lb n="1"/>cukiṟtamaṇimālai</seg>
+<seg function="intertitle"><lb n="2"/>kāppu</seg>
+<seg function="metre"><lb n="3"/>veṇpā</seg>
+  
+  <seg function="satellite-stanza" cert="low"> <milestone facs="9" unit="main-text-area"/>
   <lg><seg function="incipit"><l><lb n="1"/>cukiṟta kuṟaḷ <gap reason="ellipsis"/> ~</l></seg> <l>cukuṟtamaṇi
   <lb n="2" break="no"/>mālai taṉaic colla ~ cukiṟta niṟai </l> <l>cuntara <gap reason="ellipsis"/>
-  <lb n="3"/><gap reason="ellipsis"/></l> <l>tanta <gap reason="ellipsis"/></l></lg> <seg function="intertitle">kāppu <g ref="#pcl"/></seg>
+  <lb n="3"/><gap reason="ellipsis"/></l> <l>tanta <gap reason="ellipsis"/></l></lg> <seg function="intertitle">kāppu <g ref="#pcl"/></seg></seg>
   
-  <pb facs="0" n="1v"/><note xml:lang="en">blank</note>
+  <pb n="1v"/><note xml:lang="en">blank</note>
   </ab>
 </body></text><text synch="#U1b" corresp="#T2" xml:lang="ta"><body>
   <ab>
-  <pb facs="0" n="2r"/>
-  <milestone unit="left-margin"/>
-  <lb n="1"/><seg function="intertitle">pāyiram</seg>
+    
+  <pb facs="12" n="2r"/>
   
-  <milestone unit="main-text-area"/>
+    <seg function="intertitle"><milestone facs="13" unit="left-margin"/>
+  <lb n="1"/>pāyiram</seg>
+  
+  <milestone facs="14" unit="main-text-area"/>
   <seg function="incipit"><lb n="1"/>nalla moḻic cukiṟta kuṟaḷāka <gap reason="ellipsis"/></seg>
    <lb n="2"/><gap reason="ellipsis"/>
    <lb n="3"/><gap reason="ellipsis"/>
    <lb n="4"/><gap reason="ellipsis"/> cukuṟtamāmē <g ref="#pcs"/>
   
-  <pb facs="0" n="2v"/>
-  <milestone n="1" unit="column"/>
+  <pb facs="17" n="2v"/>
+  
+    <milestone facs="17" n="1" unit="column"/>
   <lb n="1-4"/><gap reason="ellipsis"/> <g ref="#pcl"/> 1
   
-   <milestone n="2" unit="column"/>
-  <seg function="TBC"><lb n="1"/>paralōka
+   <seg function="intertitle" cert="low">
+     <milestone facs="19" n="2" unit="column"/>
+  <lb n="1"/>paralōka
 <lb n="2" break="no"/>cammantam
 <lb n="3"/>Aṉpatu</seg>
 
-   <pb facs="0" n="3r"/>
+   <pb facs="20" n="3r"/>
   <milestone unit="left-margin"/>
 <lb n="1"/><seg function="metre">veṇpā</seg>
 <lb n="2"/><seg function="metre">kalittuṟai</seg>
   
-  <milestone unit="main-text-area"/>
+  <milestone facs="21" unit="main-text-area"/>
   <lb n="1"/><gap reason="ellipsis"/>
   <lb n="2"/><gap reason="ellipsis"/> <g ref="#pcl"/> 1
   <lb n="3"/><gap reason="ellipsis"/>
   <lb n="4"/><gap reason="ellipsis"/> = 2 =
   
-    <pb facs="0" n="15r"/>
-    <milestone unit="left-margin"/>
+    <pb facs="26" n="15r"/>
+    
+    <milestone facs="26" unit="left-margin"/>
 <lb n="1"/><seg function="metre">ve<ex>ṇpā</ex></seg>
 <lb n="2"/><seg function="metre">kali<ex>ttuṟai</ex></seg>
   
+        <milestone facs="26" unit="main-text-area"/>
+
   <lb n="1"/><gap reason="ellipsis"/>
   <lb n="2"/><gap reason="ellipsis"/> = 49 <g ref="#pcs"/>
   <lb n="3"/><gap reason="ellipsis"/>
-  <lb n="4"/><gap reason="ellipsis"/> = 5 10 =
+    <lb n="4"/><gap reason="ellipsis"/> = 5<g ref="#pattu"/> =
   
-    <pb facs="0" n="15v"/><note xml:lang="en">blank</note>
+    <pb n="15v"/><note xml:lang="en">blank</note>
 </ab>
   </body></text><text synch="#U2a" corresp="#T3" xml:lang="ta"><body>
   <ab>
-  <pb facs="00" n="16r"/>
-  <milestone unit="left-margin"/>
-  <seg function="title" cert="low"><lb n="1-2"/>pulōkacammantam<note xml:lang="en" place="foot">unblackened</note></seg>
+  <pb facs="29" n="16r"/>
+    
+  <seg function="intertitle" cert="low"><milestone facs="30" unit="left-margin"/>
+  <lb n="1-2"/>pulōkacammantam<note xml:lang="en" place="foot">unblackened</note></seg>
   
-  <milestone unit="main-text-area"/>
+  <seg function="satellite-stanza" cert="low">
+    <milestone facs="31" unit="main-text-area"/>
   <lg><seg function="incipit"><l><lb n="1"/>koṟṟa <gap reason="ellipsis"/></l></seg> <l>yuṟra <gap reason="ellipsis"/></l>
   <l><lb n="2"/>muṟṟu<gap reason="ellipsis"/></l> <l>naṟṟa <gap reason="ellipsis"/></l></lg> <g ref="#pcs"/>
+    </seg>
   
-  <pb facs="0" n="16v"/><note xml:lang="en">blank</note>
+  <pb n="16v"/><note xml:lang="en">blank</note>
   </ab>
 </body></text><text synch="#U2b" corresp="#T4" xml:lang="ta"><body>
   <ab>
-  <pb facs="0" n="17r"/>
-  <milestone unit="left-margin"/>
+    
+  <pb facs="34" n="17r"/>
+  <milestone facs="35" unit="left-margin"/>
 <lb n="1"/><seg function="metre">veṇpā</seg>
 <lb n="2"/><seg function="metre">kalittuṟai</seg>
   
-  <milestone unit="main-text-area"/>
+  <milestone facs="36" unit="main-text-area"/>
   <seg function="incipit"><lb n="1"/>Ātipāṉ ṟaṉṉai <gap reason="ellipsis"/></seg>
    <lb n="2"/><gap reason="ellipsis"/> <g ref="#pcl"/> 1 <g ref="#pcl"/>
    <lb n="3"/><gap reason="ellipsis"/>
    <lb n="4"/><gap reason="ellipsis"/> <g ref="#pcs"/> 2 <g ref="#pcs"/>
   
-  <pb facs="0" n="29r"/>
+  <pb facs="42" n="29r"/>
+    
  <lb n="1"/><gap reason="ellipsis"/>
    <lb n="2"/><gap reason="ellipsis"/> <g ref="#pcl"/> 49 <g ref="#pcs"/>
    <lb n="3"/><gap reason="ellipsis"/>
-   <lb n="4"/><gap reason="ellipsis"/> = 5 10 <g ref="#pcs"/>
+     <lb n="4"/><gap reason="ellipsis"/> = 5<g ref="#pattu"/> <g ref="#pcs"/>
   
-       <pb facs="0" n="29v"/>
+       <pb facs="47" n="29v"/>
+    
    <lg><l><lb n="1"/>cīr maruvu <gap reason="ellipsis"/></l>
    <l><lb n="2"/>ter maruvu <gap reason="ellipsis"/></l>
    <l><lb n="3"/>par maruvu <gap reason="ellipsis"/></l>
