@@ -52,7 +52,7 @@
                   <decoDesc>
                   </decoDesc>
                   <additions>
-                  <desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 79</quote> (<locus facs="0">front cover, recto</locus>).</desc><desc synch="#U1" type="title shelfmark documenting-note">Shelfmark, text incompleteness, and title in black ink: <quote xml:lang="fr">2° incomplet Sauguirdamanymāley</quote>(<locus facs="0">f[1]r</locus>).</desc><desc synch="#U3" type="verse-numbering"/><desc synch="#U3" type="metre"/></additions>
+                  <desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 79</quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#U1" type="title shelfmark documenting-note">Shelfmark, text incompleteness, and title in black ink: <quote xml:lang="fr">2° incomplet Sauguirdamanymāley</quote>(<locus facs="5">f[1]r</locus>).</desc><desc synch="#U3" type="verse-numbering"/><desc synch="#U3" type="metre"/></additions>
                   <bindingDesc>
                      <binding><p><material cert="medium">Pinewood</material> covers apparently fabricated in the BnF. 480 x 30 mm.</p></binding>
                   </bindingDesc>
@@ -84,56 +84,58 @@
    <graphic url="https://didomena.ehess.fr/concern/data_sets/j6731b035/manifest.json"/></facsimile>
 <text synch="#U2" corresp="#T1" xml:lang="ta"><body>
   <ab>
-  <pb facs="00" n="[1]r"/>
-  <milestone n="1" unit="left-margin"/>
+    
+  <pb facs="6" n="[1]r"/>
+    
+  <milestone facs="7" n="1" unit="left-margin"/>
   <lb n="1"/><term xml:lang="en">{Christian cross}</term>
   
-  <milestone n="2" unit="left-margin"/>
-  <lb n="1-2"/><seg function="blessing">cēcu mariye cūcē tuṇai</seg>
+  <seg function="blessing"><milestone facs="8" n="2" unit="left-margin"/>
+  <lb n="1-2"/>cēcu mariye cūcē tuṇai</seg>
   
-  <milestone n="3" unit="left-margin"/>
-  <seg function="title"><lb n="1"/>cukuṟtakuṟaḷai
+  <seg function="title"><milestone facs="9" n="3" unit="left-margin"/>
+  <lb n="1"/>cukuṟtakuṟaḷai
   <lb n="2"/>mālaiyākap pāṭi<unclear>ṉatu</unclear></seg>
   <seg function="intertitle"><lb n="3"/>kāppu <seg function="metre">veṇpā</seg></seg>
   
-  <milestone unit="main-text-area"/>
+  <seg function="satellite-stanza" cert="low"><milestone facs="10" unit="main-text-area"/>
   <lg><seg function="incipit"><l><lb n="1"/>cukuṟta kuṟaḷ <gap reason="ellipsis"/></l></seg>
   <l><lb n="2"/>cukuṟtamaṇimālai <gap reason="ellipsis"/></l>
   <l><lb n="3"/>cuntara <gap reason="ellipsis"/></l>
-  <l><lb n="4"/>kanta <gap reason="ellipsis"/></l></lg> <space/> <seg function="intertitle">kāppu</seg>
+  <l><lb n="4"/>kanta <gap reason="ellipsis"/></l></lg> <space/> <seg function="intertitle">kāppu</seg></seg>
   
-  <pb facs="0" n="[1]v"/><note xml:lang="en">blank</note>
+  <pb n="[1]v"/><note xml:lang="en">blank</note>
     </ab>
 </body></text><text synch="#U3" corresp="#T2" xml:lang="ta"><body>
   <ab>
-  <pb facs="0" n="1r"/>
-  <milestone unit="left-margin"/>
-  <lb n="1-2"/><seg function="blessing">Aṉāti namastu
+  <pb facs="13" n="1r"/>
+    
+  <seg function="blessing"><milestone facs="14" unit="left-margin"/>
+  <lb n="1-2"/>Aṉāti nama<seg rend="grantha">stu</seg>
 </seg>
     
-  <milestone unit="main-text-area"/>
+  <milestone facs="15" unit="main-text-area"/>
   <lb n="1"/><seg function="intertitle">pāyiram = =</seg> <seg function="incipit" type="root-text">nalla moḻi-c cukuṟta kuṟaḷāka <gap reason="ellipsis"/></seg>
   <lb n="2"/><gap reason="ellipsis"/>
   <lb n="3"/><gap reason="ellipsis"/>
   <lb n="4"/>cukuṟtamāmē = = <seg function="metre">kaḷittuṟai = =</seg> <gap reason="ellipsis"/>
   <lb n="5"/><gap reason="ellipsis"/> yorupatuñ colvāmē = =
   
-   <pb facs="0" n="1v"/>
+   <pb facs="18" n="1v"/>
   <seg function="metre"><lb n="1"/>veṇpā = =</seg> <gap reason="ellipsis"/> 
 <lb n="2"/><gap reason="ellipsis"/> = = 1 = = <seg function="metre">kaḷittuṟai = =</seg> <gap reason="ellipsis"/> 
 <lb n="3"/><gap reason="ellipsis"/>
 <lb n="4"/><gap reason="ellipsis"/>~ Eṉṟatu = <gap reason="ellipsis"/>
 <lb n="5"/><gap reason="ellipsis"/>
   
-  <pb facs="0" n="2r"/>
+  <pb facs="18" n="2r"/>
   <lb n="1"/><gap reason="ellipsis"/> 
 <lb n="2"/><gap reason="ellipsis"/> =
 <lb n="3"/><gap reason="ellipsis"/> y<pc>-e</pc>ṉrā v<pc>-</pc>āṟu = = 2 = = <seg function="metre">veṇpā = =</seg> <gap reason="ellipsis"/>
 <lb n="4"/><gap reason="ellipsis"/>
 <lb n="5"/><gap reason="ellipsis"/>
 
-
-  <pb facs="0" n="13v"/>
+  <pb facs="29" n="13v"/>
     <lb n="1"/><gap reason="ellipsis"/>
     <lb n="2"/><gap reason="ellipsis"/> ~ 45 = = <seg function="metre">kalittuṟai = =</seg> <gap reason="ellipsis"/> 
     <lb n="3"/><gap reason="ellipsis"/>
