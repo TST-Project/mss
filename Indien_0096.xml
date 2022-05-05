@@ -18,7 +18,7 @@
                      <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
                   </repository>
                   <idno type="shelfmark">Indien 96</idno>
-                  <idno type="alternate"><idno>Tamoul 96</idno><idno>Ariel TBC</idno></idno>
+                  <idno type="alternate"><idno>Tamoul 96</idno><idno>Ariel 151 (?)</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103555c</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/x633f746c</idno></msIdentifier>
                <msContents class="#STM">
                   <summary><p>The <title xml:lang="ta">Cāmuttiritikaipalāpalaṉ</title>.</p>
@@ -26,7 +26,7 @@
 <p>Dimensions assessed at the time of examination.</p> 
  </summary>
                   
-               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T2" defective="false"><title xml:lang="ta">Puvaṉaikalaikkiyāṉatīpam: Mūlam</title><textLang mainLang="tam"/></msItem></msContents>
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page (additional)</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T2" defective="false"><title xml:lang="ta">Puvaṉaikalaikkiyāṉatīpam: Mūlam</title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
@@ -41,7 +41,7 @@
                               
                            <width quantity="225"/><height quantity="30"/></dimensions>
                         <dimensions type="object" unit="mm"><width quantity="230"/><height quantity="30"/><depth quantity="300"/></dimensions><dimensions type="written" unit="mm"/></extent>
-                        <collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">Title Page</emph>. No foliation. Single folio (half of adouble folio). Verso blank. 225 x 30 mm.
+                        <collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">Title Page (additional)</emph>. No foliation. Single folio (half of adouble folio). Verso blank. 225 x 30 mm.
 </desc><desc xml:id="U2">2 folios = <emph rend="bold">guard leaves</emph>. No foliation. Blank recto verso. 225 x 30 mm.
 </desc><desc xml:id="U3">9 folios = <emph rend="bold"><title xml:lang="ta">Puvaṉaikalaikkiyāṉatīpam</title>: Text</emph>. Tamil foliation 1-9, [10-16]. f3v, f5v, f[12]v, f[14]v blank. 225 x 30 mm.
 </desc><desc xml:id="U4">7 folios = <emph rend="bold">guard leaves</emph>. No foliation. Blank recto verso. 225 x 30 mm.
@@ -57,14 +57,14 @@
                   <decoDesc>
                   </decoDesc>
                   <additions>
-                  <desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 96</quote> (<locus facs="1">front cover, recto</locus>). Covering an earlier sticker.</desc><desc synch="#CoverFront" type="verse-beginning documenting-note" subtype="cover front">BnF bequest sticker <quote>DON N° <space type="vacat"/></quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#U1" type="shelfmark">Shelfmark in black ink: <quote>d/4<unclear>6</unclear></quote> (<locus facs="1">f[1]r</locus>).</desc></additions>
+                  <desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 96</quote> (<locus facs="1">front cover, recto</locus>). Covering an earlier sticker.</desc><desc synch="#CoverFront" type="verse-beginning documenting-note" subtype="cover front">BnF bequest sticker <quote>DON N° <space type="vacat"/></quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#U1" type="shelfmark">Shelfmark in black ink: <quote>d/4<unclear>6</unclear></quote> (<locus facs="5">f[1]r</locus>).</desc></additions>
                   <bindingDesc>
                      <binding><p><material>Pinewood</material> covers apparently fabricated in the BnF. 230 x 30 mm.</p></binding>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian" notAfter="1855">No internal date. Dated to circa 1850 by Vinson (1867) and to 1850 by Cabaton (1912), on unstated grounds.</origDate>
+                     <origDate calendar="gregorian" notAfter="1854">No internal date. Dated to circa 1850 by Vinson (1867) and to 1850 by Cabaton (1912), on unstated grounds (presumably palaeographical and material analysis arguments). Not after 1854, since part of the collection of <persName role="collector">Édouard Ariel</persName> (1818-1854).</origDate>
                      <origPlace>Tamilnadu.</origPlace>
                   </origin>
                   <provenance><p>Owned by <persName role="collector">Édouard Ariel</persName> (1818-1854). Bequested by Édouard Ariel to Société Asiatique (Rosny 1868, p. 177).</p></provenance>
@@ -82,80 +82,84 @@
          
       <p>TBC</p></encodingDesc>
       
-   <revisionDesc>
+   <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
-      <change when="2022-02">Record created by Emmanuel FRANCIS.</change></revisionDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
+      <change when="2022-02">Record created by Emmanuel FRANCIS.</change><change when="2022-05">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, May 2022.</change></revisionDesc></teiHeader>
    <facsimile>
    <graphic url="https://didomena.ehess.fr/concern/data_sets/x633f746c/manifest.json"/></facsimile>
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   <ab>
     
-  <pb facs="0" n="[1]r"/>
-  <milestone n="1" unit="column"/>
- <lb n="1-2"/><seg function="blessing">veṟṟi-vēl uṟṟa tuṇai</seg>
+  <pb facs="3" n="[1]r"/>
+    
+  <seg function="blessing"><milestone facs="4" n="1" unit="column"/>
+ <lb n="1-2"/>veṟṟi-vēl uṟṟa tuṇai</seg>
   
-<milestone n="2" unit="column"/>
- <lb n="1-2"/><seg function="title">cāmuttiritikaipalāpalaṉ</seg>
+<seg function="title"><milestone facs="6" n="2" unit="column"/>
+ <lb n="1-2"/>cāmuttiritikaipalāpalaṉ</seg>
 
-    <pb facs="0" n="[1]v"/><note xml:lang="en">blank</note>
+    <pb n="[1]v"/><note xml:lang="en">blank</note>
    </ab> 
 </body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
     <ab>
 
-  <pb facs="0" n="1r"/>
+  <pb facs="7" n="1r"/>
   
-  <milestone unit="left-margin"/>
- <lb n="1-5"/><seg function="intertitle">citacukkun tirēkattukku kuṟippu collukurāṟ
+  <seg facs="8" function="intertitle"><milestone unit="left-margin"/>
+ <lb n="1-5"/>ci<unclear>ta</unclear>cukkun tirēkattukku kuṟippu collukurāṟ
 </seg>
   
-   <milestone unit="main-text-area"/>
+   <milestone facs="7" unit="main-text-area"/>
    <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
    
-  <pb facs="0" n="3r"/>
+  <pb facs="9" n="3r"/>
   <lb n="4"/><gap reason="ellipsis"/> ~ <seg function="completion-statement">carī-laṣaṇam Eḻuti mu<subst>k<del>i</del><add>u</add></subst>ntatu mus·tum <g ref="#pcl"/></seg> 
   
-      <pb facs="0" n="3v"/><note xml:lang="en">blank</note>
+      <pb n="3v"/><note xml:lang="en">blank</note>
   
-  <pb facs="0" n="4r"/>
-  <milestone unit="left-margin"/>
-  <lb n="1-6"/><seg function="intertitle">manuṣarukku carīṟa-laṣaṇam pā<add place="above">r</add>ttu palāpalam collum</seg>
+  <pb facs="12" n="4r"/>
+  
+      <seg function="intertitle"><milestone facs="13" unit="left-margin"/>
+  <lb n="1-6"/>manuṣarukku carīṟa-laṣaṇam pā<add place="above">r</add>ttu palāpalam collum</seg>
 
-        <pb facs="0" n="5v"/><note xml:lang="en">blank</note>
+        <pb n="5v"/><note xml:lang="en">blank</note>
   
-  <pb facs="0" n="6r"/>
+  <seg function="intertitle"><pb facs="16" n="6r"/>
   <milestone unit="left-margin"/>
-  <lb n="1-5"/><seg function="intertitle"><gap reason="ellipsis"/></seg>
+  <lb n="1-5"/><gap reason="ellipsis"/>kku Aṟiyum paṭi</seg>
   
-  <pb facs="0" n="6v"/>
+  <seg function="intertitle"><pb facs="17" n="6v"/>
   <milestone unit="left-margin"/>
-  <lb n="1-7"/><seg function="intertitle"><gap reason="ellipsis"/></seg>
+  <lb n="1-7"/><gap reason="ellipsis"/> collum paṭi</seg>
 
-  <pb facs="0" n="7r"/>
+  <seg function="intertitle"><pb facs="19" n="7r"/>
   <milestone unit="left-margin"/>
-  <lb n="1-7"/><seg function="intertitle"><gap reason="ellipsis"/></seg>
+  <lb n="1-7"/><gap reason="ellipsis"/> collum paṭi</seg>
   
-   <pb facs="0" n="[10]v"/>
+   <pb facs="21" n="[10]v"/>
+   <lb n="1"/><gap reason="ellipsis"/>
   <lb n="2"/><gap reason="ellipsis"/> = <seg function="blessing">śrī
   <lb n="3" break="no"/>rā=maceyam <g ref="#pcs"/></seg> <seg function="blessing">tiruccirrampalam <g ref="#pcl"/></seg>
   
-  <pb facs="0" n="[11]r"/>
+  <seg function="intertitle"><pb facs="24" n="[11]r"/>
   <milestone unit="left-margin"/>
-  <lb n="1-6"/><seg function="intertitle"><gap reason="ellipsis"/></seg>
+  <lb n="1-6"/><gap reason="ellipsis"/> collukuṟatu</seg>
   
-    <pb facs="0" n="[12]r"/>
+    <seg function="intertitle"><pb facs="27" n="[12]r"/>
   <milestone unit="left-margin"/>
-  <lb n="1-5"/><seg function="intertitle"><gap reason="ellipsis"/></seg>
+  <lb n="1-5"/><gap reason="ellipsis"/> collukuṟatu</seg>
   
-  <pb facs="0" n="[12]v"/><note xml:lang="en">blank</note>
+  <pb n="[12]v"/><note xml:lang="en">blank</note>
   
-    <pb facs="0" n="[13]r"/>
-  <milestone unit="left-margin"/>
+    <pb facs="30" n="[13]r"/>
+  <milestone facs="31" unit="left-margin"/>
   <lb n="1-6"/><seg function="intertitle">maṣcaṅkaḷ palāpalam collukuṟatu<gap reason="ellipsis"/></seg>
   
-  <pb facs="0" n="[14]r"/>
-  <lb n="5"/><seg function="explicit"><gap reason="ellipsis"/> ~</seg> <seg function="TBC">y<pc>-</pc>intap paṭi maṣcaṅkaḷ palāpalam collum paṭi</seg>
+  <pb facs="33" n="[14]r"/>
+  <lb n="1-4"/><gap reason="ellipsis"/>
+      <lb n="5"/><seg function="explicit"><gap reason="ellipsis"/> ~</seg> <seg function="TBC">y<pc>-</pc>intap paṭi maṣcaṅkaḷ palāpalam collum paṭi</seg>
   
-  <pb facs="0" n="[14]v"/><note xml:lang="en">blank</note>
+  <pb n="[14]v"/><note xml:lang="en">blank</note>
 
  </ab>
 </body></text></TEI>
