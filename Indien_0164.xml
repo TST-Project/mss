@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -9,7 +9,7 @@
          
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -17,10 +17,10 @@
                   <repository>
                      <orgName>Bibliothèque nationale de France. Département des Manuscrits.</orgName>
                   </repository>
-                  <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103614b</idno>
+                  
                   <idno type="shelfmark">Indien 164</idno>
                   <idno type="alternate"><idno>Tamoul 164</idno></idno>
-               </msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103614b</idno></msIdentifier>
                <msContents class="#CM">
                   <summary>Bound codex, containing folios and quires of various measurements. Contains mostly handwritten notes, all presumably by Édouard Ariel, but also some printed matters, either pasted on the folios or bound in the volume. Title-pages divide the volume by subject, while many folios bear a top header. Contains, with a focus on the Tamil South of India, notes, bibliographical references and documents bearing on: the literature, the history, the ethnography and the geography of India; sciences, divination, cosmography, astronomy, astrology, etc. in India. Contains lists of printed Tamil books.
                   </summary>
@@ -48,7 +48,7 @@
                   </objectDesc>
                   <handDesc>
                      
-                  <handNote synch="#U1 U2" scope="major" script="latin" medium="ink black"/></handDesc>
+                  <handNote synch="#U1 #U2" scope="major" script="latin" medium="ink black"/></handDesc>
                   <additions>
                      
                      
@@ -82,11 +82,11 @@
       <encodingDesc>
         
       <p>French partly standardized.</p></encodingDesc>
-      <revisionDesc>
+      
+   <revisionDesc>
          
          
-      <change when="2020-04"> This catalogue entry has been redacted by Emmanuel FRANCIS (CNRS, CEIAS UMR 8564, EHESS/CNRS) for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG). Version 1, April 2020. </change><change when="2020-12">Adapted to TEI by Charles LI.</change><change when="2021-06">Updated to TST encoding conventions by Emmanuel FRANCIS.</change></revisionDesc>
-   </teiHeader>
+      <change when="2020-04"> This catalogue entry has been redacted by Emmanuel FRANCIS (CNRS, CEIAS UMR 8564, EHESS/CNRS) for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG). Version 1, April 2020. </change><change when="2020-12">Adapted to TEI by Charles LI.</change><change when="2021-06">Updated to TST encoding conventions by Emmanuel FRANCIS.</change></revisionDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
    
    <facsimile>
       <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b100927608/manifest.json"/>
