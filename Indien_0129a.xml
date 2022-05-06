@@ -21,7 +21,7 @@
                   <idno type="alternate"><idno>Tamoul 129</idno><idno>Ariel 167</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103592h</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary>The <title xml:lang="ta">Pūcāviti</title> by <persName xml:lang="ta" role="author">Koṅkaṇar</persName>, in 31 numbered stanzas.</summary>
+                  <summary><p>The <title xml:lang="ta">Pūcāviti</title> by <persName xml:lang="ta" role="author">Koṅkaṇar</persName>, in 31 numbered stanzas.</p></summary>
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Pūcāviti</title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
@@ -59,7 +59,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian" notAfter="1855">No internal date. Composite manuscript dated to circa 1840 by Vinson (1868) and to 1840 by Cabaton (1912), on unstated grounds (presumably palaeographical and material analysis arguments).</origDate>
+                     <origDate calendar="gregorian" notAfter="1854">No internal date. Bundle dated to circa 1840 by Vinson (1868) and to 1840 by Cabaton (1912), on unstated grounds (presumably palaeographical and material analysis arguments). Not after 1854, since part of the collection of <persName role="collector">Édouard Ariel</persName> (1818-1854).</origDate>
                      <origPlace>Tamilnadu.</origPlace>
                   </origin>
                   <provenance><p>Owned by <persName role="collector">Édouard Ariel</persName> (1818-1854). Bequested by Édouard Ariel to Société Asiatique (Rosny 1868, p. 177).</p></provenance>
@@ -75,15 +75,15 @@
       </fileDesc>
       <encodingDesc>
          
-      <p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.      </p></encodingDesc>
-      <revisionDesc>
+      <p>   <emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.            </p></encodingDesc>
+      
+   <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
-      <change when="2022-03">Record created by Emmanuel FRANCIS.</change></revisionDesc>
-   <xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
+      <change when="2022-03">Record created by Emmanuel FRANCIS.</change></revisionDesc></teiHeader>
    <facsimile>
    <graphic url="https://didomena.ehess.fr/concern/data_sets/vt150r677/manifest.json" facs="12"/></facsimile>
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
-  
+  <ab>
   <pb facs="12" n="[1]r"/>
   <milestone unit="left-margin"/>
  <lb n="1-5"/><seg function="title"><persName xml:lang="ta" role="author">koṅkaṇa<sic>ṉā</sic>r</persName> aruḷic ceyta <term xml:lang="en">{line-filler=circle}</term> pūcāviti</seg>
@@ -99,5 +99,5 @@
   
       <pb n="12v"/><note xml:lang="en">blank</note>
 
-
+</ab>
 </body></text></TEI>
