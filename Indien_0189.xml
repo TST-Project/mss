@@ -1,4 +1,4 @@
-﻿<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -8,7 +8,7 @@
          <editor><persName>Cristina Muru</persName><orgName>University of Tuscia</orgName></editor></titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -16,10 +16,10 @@
                   <repository>
                      <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
                   </repository>
-                  <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103708d</idno>
+                  
                   <idno type="shelfmark">Indien 189</idno>
                   <idno type="alternate"><idno>Tamoul 189</idno></idno>
-               </msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103708d</idno></msIdentifier>
                <msContents class="#STM">
                   <summary><p>BnF INDIEN 189 (ex- Tamoul 189) consists in 28 paper leaves bound in one volume (260 x 200 mm). An unfoliated folio comes first, bearing the title-page on the recto and a preface (“Préface”) on the verso, p. <locus facs="4">2</locus>. 26 folios follow, all paginated except for p. <locus facs="56">52</locus>. The original pagination appears on the upper left corner of the page on the verso of folio and on the upper right corner on the recto. Finally, there is a back guard leaf. </p>
 <p>This manuscript is a grammar of Tamil written in French organized into three sections,  each one with a different number of chapters. The first section includes 2 chapters, the second section includes 5 chapters, and the third section is made of 1 chapter.</p>
@@ -45,7 +45,7 @@
 <p>In the first paragraph (pp. <locus facs="26">22</locus>–<locus facs="31">27</locus>) the verb is conjugated into four modes (<emph rend="italic">Indicative, Imperative, Optative,</emph> and <emph rend="italic">Subjunctive</emph>) and four tenses (<emph rend="italic">present, imperfect preterite, perfect preterite, future</emph>). It also discusses conditional, infinitive, gerund, preterite verbal participle, and passive. The second paragraph (pp. <locus facs="32">28</locus>–<locus facs="41">37</locus>) groups verbs into seven classes, on the base of the formation of the past and future tenses. It further discusses impersonal and the verbal infinitive, as well as the defective verbs.(pp. <locus facs="41">37</locus>–<locus facs="43">39</locus>)</p>
 <p>The third and final section (pp. <locus facs="44">40</locus>–<locus facs="56">52</locus>) consists in only one chapter which focuses on syntax: <emph rend="italic" xml:lang="fr">Chapitre 1er. De quelques Regles de Concordance et de syntaxe absolument necessaires pour entrer dans la Genie de la langue Tamoul</emph> [On a few rules about the concordance and the syntax which are absolutely necessary for entering in the genius of the Tamil language]. </p></summary>
                   
-               <msItem xml:id="T1" defective="false"><title xml:lang="fr">o  <emph rend="bold">Grammaire pour apprendre la langue Tamoul Ditte Vulgairement le Malabar. </emph></title><author xml:lang="en">Father Lalane Pierre, Carnatic Mission</author><textLang mainLang="fra" otherLangs="tam"/><filiation><p>Cabaton in his <emph rend="italic">Catalogue sommaire</emph> (1912, p. 31) describes the manuscript as follows:
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="fr">o  <emph rend="bold">Grammaire pour apprendre la langue Tamoul Ditte Vulgairement le Malabar. </emph></title><author xml:lang="fr">Father Lalane Pierre, Carnatic Mission</author><textLang mainLang="fra" otherLangs="tam"/><filiation><p>Cabaton in his <emph rend="italic">Catalogue sommaire</emph> (1912, p. 31) describes the manuscript as follows:
 <list>
 	<item>Grammaire tamoule, par le P. de La Lave, S. J. 1728. Papier. 92 pages, 240 x 180 mm. (Ancien fonds, n° CCVII).</item>
 </list>
@@ -67,8 +67,7 @@ Papier. Pet. In-4° – 92 pages – (Ancien fonds, n° CCVII.).</emph> This not
                            <p>The type of paper is “laid” paper. It is thin, and the pulp touches the wires, making a latticework pattern easily seen when the leaf is held against a light. The paper has a watermark (cf. fig. 6 in <ref target="https://tst.hypotheses.org/560#identifier_0_560">Blogpost TST</ref>). Unlike in this back guard leaf, it is found, throughout the manuscript, in the centre at the place of the binding.</p>
                         </support>
                         <extent>
-                           <measure unit="page" quantity="52">13 bifolios. 
-No missing folios.</measure>
+                           <measure unit="page" quantity="52">13 bifolios. No missing folios.</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
@@ -114,10 +113,10 @@ One chart for Tamil letters, pp. <locus facs="6">2</locus>, <locus facs="9">5</l
       <encodingDesc>
          
       </encodingDesc>
-      <revisionDesc>
+      
+   <revisionDesc>
          
-      <change when="2019-10">This catalogue entry has been redacted by <persName xml:id="cMURU">Cristina Muru</persName> (DISTU, University of Tuscia) for the research program <ref target="https://tst.hypotheses.org/88">Text Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG). Version 1, October 2019.</change></revisionDesc>
-   </teiHeader>
+      <change when="2019-10">This catalogue entry has been redacted by <persName xml:id="cMURU">Cristina Muru</persName> (DISTU, University of Tuscia) for the research program <ref target="https://tst.hypotheses.org/88">Text Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG). Version 1, October 2019.</change></revisionDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
    <facsimile>
    <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b531609463/manifest.json"/></facsimile>
 </TEI>
