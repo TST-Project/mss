@@ -23,10 +23,10 @@
                <msContents class="#CM">
                   <summary>A composite manuscript of the <title xml:lang="ta">Patārttacintāmaṇi</title> according to Vinson (1868), containing:
 <list rend="numbered">
-  <item>TBC (125a).</item>
-  <item>TBC (125b).</item>
-  <item>TBC (125c).</item>
-  <item>TBC (125d).</item>
+  <item>TBC (Indien 125a).</item>
+  <item>TBC (Indien 125b).</item>
+  <item>TBC (Indien 125c).</item>
+  <item>TBC (Indien 125d).</item>
   </list></summary>
                   
                </msContents>
@@ -38,15 +38,15 @@
                            
                         </support>
                         <extent>
-                           <measure unit="folio" quantity="55">{1} + 46 + 7 + {1} (125a + 125b + 125c + 125d).</measure>
+                           <measure unit="folio" quantity="55">{1} + 46 + 7 + {1} (Indien 125a + Indien 125b + Indien 125c + Indien 125d).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
                            <width min="210" max="280"/><height min="25" max="30"/></dimensions>
                         <dimensions type="object" unit="mm"><width quantity="285"/><height quantity="30"/><depth quantity="45"/></dimensions><dimensions type="written" unit="mm"/></extent>
-                        <collation><desc xml:id="cover">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="125a">1 folio.
-</desc><desc xml:id="125b">46 folios.</desc><desc xml:id="125c">7 folios.</desc><desc xml:id="125d">1 folio. 
-</desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>.</desc></collation>
+                        <collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="Indien125a">1 folio.
+</desc><desc xml:id="Indien125b">46 folios.</desc><desc xml:id="Indien125c">7 folios.</desc><desc xml:id="Indien125d">1 folio. 
+</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation>
                         
                         <condition>Relatively good state of preservation, despite boreholes.</condition>
                      </supportDesc>
@@ -58,14 +58,14 @@
                   <decoDesc>
                   </decoDesc>
                   <additions>
-                  <desc synch="#cover" type="shelfmark" subtype="back cover">BnF shelfmark sticker: <quote>INDIEN 125</quote> (<locus facs="0">back cover, verso</locus>).</desc><desc synch="#cover" type="documenting-note" subtype="back cover">BnF bequest sticker <quote>DON N° <space type="vacat"/></quote> (<locus facs="0">back cover, verso</locus>).</desc></additions>
+                  <desc synch="#CoverBack" type="shelfmark" subtype="back cover">BnF shelfmark sticker: <quote>INDIEN 125</quote> (<locus facs="0">back cover, verso</locus>).</desc><desc synch="#CoverBack" type="documenting-note" subtype="back cover">BnF bequest sticker <quote>DON N° <space type="vacat"/></quote> (<locus facs="0">back cover, verso</locus>).</desc></additions>
                   <bindingDesc>
                      <binding><p><material cert="medium">Pinewood</material> covers apparently fabricated in the BnF.</p></binding>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian" notAfter="1855">No internal date. Not dated by Vinson (1868) nor by Cabaton (1912).</origDate>
+                     <origDate calendar="gregorian" notAfter="1854">No internal date. Bundle not dated by Vinson (1868) nor by Cabaton (1912). Not after 1854, since part of the collection of <persName role="collector">Édouard Ariel</persName> (1818-1854).</origDate>
                      <origPlace>Tamilnadu.</origPlace>
                   </origin>
                   <provenance><p>Owned by <persName role="collector">Édouard Ariel</persName> (1818-1854). Bequested by Édouard Ariel to Société Asiatique (Rosny 1868, p. 177).</p></provenance>
@@ -81,11 +81,11 @@
       </fileDesc>
       <encodingDesc>
          
-      <p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.      </p></encodingDesc>
-      <revisionDesc>
+      <p>   <emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.            </p></encodingDesc>
+      
+   <revisionDesc>
          
-      <change when="2022-03">Record created by Emmanuel FRANCIS.</change></revisionDesc>
-   </teiHeader>
+      <change when="2022-03">Record created by Emmanuel FRANCIS.</change></revisionDesc></teiHeader>
    <facsimile>
    </facsimile>
 </TEI>
