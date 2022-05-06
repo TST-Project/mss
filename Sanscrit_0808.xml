@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><title xml:lang="sa">Smṛti</title> collection</title>
+            
+         <editor><persName>Charles LI</persName><orgName>CNRS, CEIAS, UMR 8564</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2022</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Sanscrit 808</idno>
+                  <idno type="alternate"><idno>Sanscrit Grantha 5</idno><idno>Ariel 57</idno></idno>
+               </msIdentifier>
+               <msContents class="#MTM">
+                  <summary><p>This manuscript contains a collection of five <term xml:lang="sa">smṛti</term> texts:
+	<list>
+      <item><title xml:lang="sa">Vasiṣṭhasmṛti</title>,</item>
+      <item><title xml:lang="sa">Hārītasmṛti</title>,</item>
+      <item><title xml:lang="sa">Vṛddhahārītasmṛti</title>,</item>
+      <item><title xml:lang="sa">Bṛhaspatismṛti</title>,</item>
+      <item> and <title xml:lang="sa">Viṣṇusmṛti</title>.</item>
+  </list>
+  A title folio gives the name of the texts in order, as well as the number of folios for each one. They all seem to be written by the same hand, with the exception of the <title xml:lang="sa">Vṛddhahārītasmṛti</title>.
+</p>
+</summary>
+                  
+               <msItem synch="#U3" xml:id="VṛHā" defective="false"><title xml:lang="sa">Vṛddhahārītasmṛti</title><textLang mainLang="san"/><rubric xml:lang="sa">yasya dvirada vaktrādyāḥ pāriṣadyaḥ paraś śataṃ | vighnan nighnanti satataṃ viṣvakṣenan tamāśraye | hariḥ om |</rubric><incipit xml:lang="sa">aṃbarīṣas tu taṃ gatvā hārītasyāśramaṃ nṛpaṃ | .... </incipit></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="pothi">
+                     <supportDesc material="palm-leaf palmyra">
+                        <support>
+                           <measure unit="stringhole" quantity="1"/>
+                           
+                        </support>
+                        <extent>
+                           <measure unit="folio" quantity="134">title folio, 1-50, 7 blank folios, title folio, 1-12 (11-12 out of order), 1-50, 1-4, 1-8, blank folio.</measure>
+                           <dimensions type="leaf" unit="mm">
+                              <width quantity="405"/>
+                              <height quantity="30"/>
+                           </dimensions>
+                        <dimensions type="object" unit="mm"><depth quantity="95"/></dimensions><dimensions type="written" unit="mm"><width min="360" max="370"/><height quantity="25"/></dimensions></extent>
+                        <collation><desc xml:id="U1">Foliated 1-50, followed by 7 blank folios.</desc><desc xml:id="U2">Foliated 1-12. Preceded by a blank folio with the title <q xml:lang="sa">hārīta</q> written on recto, on the left.</desc><desc xml:id="U3">Foliated 1-50.</desc><desc xml:id="U4">Foliated 1-4.</desc><desc xml:id="U5">Foliated 1-8. Followed by a blank folio.</desc></collation>
+                        
+                        
+                     <foliation>Tamil numerals, left margin.</foliation></supportDesc>
+                     <layoutDesc>
+                        
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc><handNote synch="#U3" scope="major" script="grantha" medium="ink soot"/></handDesc>
+                  <decoDesc>
+                  </decoDesc>
+                  <additions>
+                  </additions>
+                  <bindingDesc>
+                     <binding><p>Pinewood covers. Stringhole 115 mm from left edge.</p></binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian"/>
+                     
+                  </origin>
+                  <provenance><p>Likely part of the collection of <persName role="collector">Édouard Ariel</persName>.</p></provenance>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f139">p. 120</ref>.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         
+      <p>IAST transliteration.</p></encodingDesc>
+      
+   <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
+         
+      <change when="2022-05">First version.</change></revisionDesc></teiHeader>
+   <facsimile>
+   <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b100827834/manifest.json"/></facsimile>
+</TEI>
