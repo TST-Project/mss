@@ -31,7 +31,7 @@
                   <objectDesc form="codex">
                      <supportDesc material="paper">
                         <extent>
-                           <measure unit="folio" quantity="200">[1] + 198 + [1] (u1 + U1 + u2).</measure>
+                           <measure unit="folio" quantity="200">{1} + 198 + {1} (u1 + U1 + u2).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
@@ -40,7 +40,7 @@
                         <dimensions type="object" unit="mm"><width quantity="240"/><height quantity="185"/><depth quantity="30"/></dimensions><dimensions type="written" unit="mm"/></extent>
                         
                         <condition>Excellent state of preservation.</condition>
-                     <support><measure unit="stringhole"/></support><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. Verso marbled. Shelfmark on spine and recto.</desc><desc xml:id="u1">1 folio = front <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso. Recto marbled.</desc><desc xml:id="U1">198 folios = <emph rend="bold">Dictionary</emph>. [1] + 196 + [1] folios (U1a + U1b + U1c).
+                     <support><measure unit="stringhole"/></support><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. Verso marbled. Shelfmark on spine and recto.</desc><desc xml:id="u1">1 folio = front <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso. Recto marbled.</desc><desc xml:id="U1">198 folios = <emph rend="bold">Dictionary</emph>. {]} + 196 + {1} folios (U1a + U1b + U1c).
 </desc><desc xml:id="U1a">1 folio = <emph rend="bold">Title Page</emph>. No foliation 1. f1v blank. Paper with threads. 220 x 175 mm.</desc><desc xml:id="U1b">198 folios = <emph rend="bold">Dictionary proper</emph>. Arabic pagination 1-392. This pagination is continued in BnF Indien 141. 220 x 175 mm (various formats in facts; some folios folded). 
 </desc><desc xml:id="U1c">1 folio = <emph rend="bold">Title Page</emph>. No foliation 1. f1v blank. Paper with threads. 220 x 175 mm.</desc><desc xml:id="u2">1 folio = back <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso. Verso marbled.</desc><desc xml:id="CoverBack">the <emph rend="bold">front cover</emph>. Recto marbled.</desc></collation></supportDesc>
                      <layoutDesc>
@@ -50,7 +50,7 @@
                   <handDesc>
                      
                   <handNote synch="#U1" scope="major" scribeRef="#EdouardAriel" script="latin" medium="ink black"/></handDesc>
-                  <additions><desc synch="#cover" type="shelfmark" subtype="spine">BnF shelfmark sticker: <quote>INDIEN 140</quote> (spine).</desc><desc synch="#cover" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 140</quote> (<locus facs="2">front cover, verso</locus>).</desc><desc synch="#U1a" type="shelfmark">BnF shelfmark in black pencil: <quote>Tamoul N° 140</quote> (<locus facs="3">f[1]r</locus>).</desc></additions>
+                  <additions><desc type="shelfmark" subtype="spine">BnF shelfmark sticker: <quote>INDIEN 140</quote> (spine).</desc><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 140</quote> (<locus facs="2">front cover, verso</locus>).</desc><desc synch="#U1a" type="shelfmark">BnF shelfmark in black pencil: <quote>Tamoul N° 140</quote> (<locus facs="3">f[1]r</locus>).</desc></additions>
                   <bindingDesc>
                      <binding>
                         
@@ -60,7 +60,7 @@
                <decoDesc/></physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian" notAfter="1854">No internal date.</origDate>
+                     <origDate calendar="gregorian" notAfter="1854">No internal date. Not dated by Vinson (1868) nor by Cabaton (1912). Not after 1854, since part of the collection of <persName role="collector">Édouard Ariel</persName> (1818-1854).</origDate>
                      <origPlace>Tamilnadu.</origPlace>
                   </origin>
                   <acquisition>
@@ -80,14 +80,16 @@
          </sourceDesc>
       </fileDesc>
       
-   <encodingDesc><p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.    </p></encodingDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
+   <encodingDesc><p> <emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.     </p></encodingDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
       <change when="2021-12">Record created by Emmanuel FRANCIS.</change></revisionDesc></teiHeader>
    
 <facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b100906356/manifest.json"/></facsimile><text synch="#U1a" corresp="#T1" xml:lang="fr"><body>
+  <ab>
   
-  <pb facs="3" n="[1]r"/>
-  <seg function="title"><lb n="1"/>1 à 50
+    <seg function="title">
+      <pb facs="3" n="[1]r"/>
+  <lb n="1"/>1 à 50
 <lb n="2"/>Dictionnaire
 <lb n="3"/><del>Répertoire</del>
 <lb n="4"/><del>Dictionnaire</del>
@@ -99,10 +101,11 @@
   
     <pb facs="4" n="[1]v"/><note xml:lang="en">blank</note>
 
-  
+  </ab>
 </body>
    </text><text synch="#U1b" corresp="#T2" xml:lang="fr"><body>
-  
+    <ab>
+
   <pb facs="4" n="[1]r"/><note xml:lang="en">p. 1</note>
    <milestone n="1" unit="column"/>
   <seg function="incipit"><lb n="1"/><term xml:lang="la">Acidum sulphuricum</term>.
@@ -157,17 +160,19 @@
   
   <pb facs="204" n="[196]v"/><note xml:lang="en">p. 392</note>
 
+      </ab>
 </body>
    </text><text synch="#U1c" corresp="#T3" xml:lang="fr"><body>
-  
-  <pb facs="204" n="[1]r"/>
-  <lb n="1"/><seg function="title">Etudes sur <del>la</del>
+    <ab>
+
+  <seg function="title"><pb facs="204" n="[1]r"/>
+  <lb n="1"/>Etudes sur <del>la</del>
 <lb n="2"/><add>l’histoire naturelle &amp; la</add>
 <lb n="3"/>Matière médicale
 <lb n="4"/>Indienne.</seg>  
   
     <pb facs="205" n="[1]v"/><note xml:lang="en">blank</note>
 
-  
+  </ab>
 </body>
    </text></TEI>

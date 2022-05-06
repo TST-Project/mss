@@ -28,7 +28,7 @@
                   <objectDesc form="codex">
                      <supportDesc material="paper">
                         <extent>
-                           <measure unit="folio" quantity="290">[1] + 298 + [1] (u1 + U1 + u2).</measure>
+                           <measure unit="folio" quantity="290">{1} + 298 + {1} (u1 + U1 + u2).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
@@ -37,7 +37,7 @@
                         <dimensions type="object" unit="mm"><width quantity="230"/><height quantity="345"/><depth quantity="34"/></dimensions><dimensions type="written" unit="mm"/></extent>
                         
                         <condition>Fairly good state of preservation, despite detached spine.</condition>
-                     <support><measure unit="stringhole"/></support><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. Shelfmark on recto.</desc><desc xml:id="u1">1 folio = front <emph rend="bold">guard leaf</emph>. No foliation. Shelfmarks on recto. Verso blank.</desc><desc xml:id="U1">288 folios = <emph rend="bold"><title xml:lang="ta">Miruticantirikai</title></emph>. Arabic foliation 1-55<hi rend="superscript">1</hi>, 55<hi rend="superscript">2</hi>-286, [287-289].</desc><desc xml:id="U1a">1 folio = <emph rend="bold">Title Page</emph>. Arabic foliation 1. f1v blank. 210 x 335 mm.</desc><desc xml:id="U1b">1 folio = <emph rend="bold">Colophon</emph>. Arabic foliation 2. f2v blank. 210 x 335 mm.</desc><desc xml:id="U1c">286 folios = <emph rend="bold"><title xml:lang="ta">Miruticantirikai</title></emph>. Arabic foliation 3-55<hi rend="superscript">1</hi>, 55<hi rend="superscript">2</hi>-286, [287-289]. f287-f289 blank recto verso. Tamil foliation 1-285. 220 x 340 mm.</desc><desc xml:id="u2">1 folio = back <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso.</desc><desc xml:id="CoverBack">the <emph rend="bold">front cover</emph>.</desc></collation></supportDesc>
+                     <support><measure unit="stringhole"/></support><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. Shelfmark on recto.</desc><desc xml:id="u1">1 folio = front <emph rend="bold">guard leaf</emph>. No foliation. Shelfmarks on recto. Verso blank.</desc><desc xml:id="U1">288 folios = <emph rend="bold"><title xml:lang="ta">Miruticantirikai</title></emph>. Arabic foliation 1-55<hi rend="superscript">1</hi>, 55<hi rend="superscript">2</hi>-286, <supplied reason="omitted">287</supplied>-<supplied reason="omitted">289</supplied>.</desc><desc xml:id="U1a">1 folio = <emph rend="bold">Title Page</emph>. Arabic foliation 1. f1v blank. 210 x 335 mm.</desc><desc xml:id="U1b">1 folio = <emph rend="bold">Colophon</emph>. Arabic foliation 2. f2v blank. 210 x 335 mm.</desc><desc xml:id="U1c">286 folios = <emph rend="bold"><title xml:lang="ta">Miruticantirikai</title></emph>. Arabic foliation 3-55<hi rend="superscript">1</hi>, 55<hi rend="superscript">2</hi>-286, <supplied reason="omitted">287</supplied>-<supplied reason="omitted">289</supplied>. f287-f289 blank recto verso. Tamil foliation 1-285. 220 x 340 mm.</desc><desc xml:id="u2">1 folio = back <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso.</desc><desc xml:id="CoverBack">the <emph rend="bold">front cover</emph>.</desc></collation></supportDesc>
                      <layoutDesc>
                         
                      </layoutDesc>
@@ -45,24 +45,21 @@
                   <handDesc>
                      
                   <handNote synch="#U1a" scope="minor" scribeRef="#EdouardAriel" script="latin" medium="ink black"/><handNote synch="#U1b" scope="minor" scribeRef="#EdouardAriel" script="latin" medium="ink black"/><handNote synch="#U1c" scope="major" script="tamil" medium="ink black"/></handDesc>
-                  <additions><desc synch="#cover" type="title" subtype="spine">Title printed on the spine: 
-<quote xml:lang="ta">
+                  <additions><desc type="title" subtype="spine">Title printed on the spine: 
+<quote xml:lang="ta" rend="block">
   <lb n="1"/>tamiḻ
 <lb n="2"/>tarmacāttiram
-</quote></desc><desc synch="#cover" type="shelfmark" subtype="spine">BnF shelfmark sticker: <quote>INDIEN 142</quote></desc><desc synch="#cover" type="shelfmark" subtype="beginning cover">BnF shelfmark sticker: <quote>INDIEN 142</quote> (<locus facs="2">front cover, verso</locus>).</desc><desc synch="#u1" type="shelfmark">BnF shelfmark in black pencil: <quote>Tamoul N° 142</quote> (<locus facs="2">f[1]r</locus>).</desc><desc type="shelfmark">Shelfmark black ink:
-<quote>
-  <lb n="1"/>Cc/5
-</quote>(<locus facs="2">f[2]r</locus>).</desc></additions>
+</quote></desc><desc type="shelfmark" subtype="spine">BnF shelfmark sticker: <quote>INDIEN 142</quote></desc><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 142</quote> (<locus facs="2">front cover, verso</locus>).</desc><desc synch="#u1" type="shelfmark">BnF shelfmark in black pencil: <quote>Tamoul N° 142</quote> (<locus facs="2">f[1]r</locus>).</desc><desc synch="#u1" type="shelfmark">Shelfmark black ink: <quote>Cc/5</quote>(<locus facs="2">f[2]r</locus>).</desc></additions>
                   <bindingDesc>
                      <binding>
                         
                      <p>Leather (brown) covers. Title and shelfmark on the spine.
 </p></binding>
                   </bindingDesc>
-               <decoDesc><decoNote synch="#cover" type="decorative" subtype="spine"/></decoDesc></physDesc>
+               <decoDesc><decoNote type="decorative" subtype="spine"/></decoDesc></physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian" notAfter="1855">No internal date.</origDate>
+                     <origDate calendar="gregorian" notAfter="1854">No internal date. Not dated by Vinson (1868) nor by Cabaton (1912). Not after 1854, since part of the collection of <persName role="collector">Édouard Ariel</persName> (1818-1854).</origDate>
                      <origPlace>Tamilnadu.</origPlace>
                   </origin>
                   <acquisition>
@@ -79,22 +76,25 @@
          </sourceDesc>
       </fileDesc>
       
-   <encodingDesc><p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.    </p></encodingDesc><revisionDesc>
+   <encodingDesc><p> <emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.     </p></encodingDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
-      <change when="2021-10">Record created by Emmanuel FRANCIS.</change></revisionDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
+      <change when="2021-10">Record created by Emmanuel FRANCIS.</change></revisionDesc></teiHeader>
    
 <facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10092759w/manifest.json"/></facsimile><text synch="#U1a" corresp="#T1" xml:lang="fr"><body>
-  
-  <pb facs="3" n="1r"/>
-  <lb n="1"/><seg function="title">Traductions des lois
+  <ab>
+    
+  <seg function="title"><pb facs="3" n="1r"/>
+  <lb n="1"/>Traductions des lois
 <lb n="2"/>Malabares
 <lb n="3"/>du sanskrit en tamil.</seg>  
   
+    </ab>
 </body>
    </text><text synch="#U1b" corresp="#T2" xml:lang="fr"><body>
-  
-  <pb facs="4" n="2r"/>
-  <lb n="1"/><seg function="colophon">copié par Jagannadan' sur le mss.
+    <ab>
+
+  <seg function="colophon"><pb facs="4" n="2r"/>
+  <lb n="1"/>copié par Jagannadan' sur le mss.
 <lb n="2"/>original appartenant au gouvernement
 <lb n="3"/>des Etablissements français dans l'Inde,
 <lb n="4"/>déposé au greffe du comité de jurisprudence indienne.
@@ -106,11 +106,11 @@
 <lb n="10"/>Collationné par Jagannadan &amp; Appasâmi.
   <lb n="11"/>EA <note xml:lang="en">Ariel initials signature</note></seg>
     
-
-  
+</ab>  
 </body>
    </text><text synch="#U1c" corresp="#T3" xml:lang="ta"><body>
-  
+    <ab>
+
   <pb facs="5" n="3r"/>
   <lb n="1"/><seg function="title">miruticantirikai</seg>
 <lb n="2"/><seg function="intertitle">kuṇātāṉam</seg>.
@@ -118,8 +118,8 @@
 <lb n="4"/><gap reason="ellipsis"/>
 <lb n="5"/><seg function="incipit"><gap reason="ellipsis"/></seg>
   
-   <pb facs="341" n="285v"/>
-  <lb n="1"/><seg function="intertitle">maṉuvu-taṟmacāsttirat=tilē
+   <seg function="intertitle"><pb facs="341" n="285v"/>
+  <lb n="1"/>maṉuvu-taṟmacāsttirat=tilē
 <lb n="2"/>8vatu pirakaranat=tilē</seg>
   
    <pb facs="342" n="286v"/>
@@ -129,6 +129,6 @@
 <lb n="24"/>avec lesquels se complète le nombre 16.
     <lb n="25"/>EA</term> <note xml:lang="en">Ariel initials signature</note></seg>
 
-
+</ab>
 </body>
    </text></TEI>
