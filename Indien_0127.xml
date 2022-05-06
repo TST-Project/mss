@@ -21,7 +21,7 @@
                   <idno type="alternate"><idno>Tamoul 127</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103590z</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary>A medical treatise, as indicated by the intertitles, as noted by Vinson (1868). Possibly a composite manuscript by the same copyist, treated here, for the sake of convenience as a multi-text manuscript.</summary>
+                  <summary><p>A medical treatise, as indicated by the intertitles, as noted by Vinson (1868). Possibly a composite manuscript by the same copyist, treated here, for the sake of convenience as a multi-text manuscript.</p></summary>
                   
                <msItem synch="#U1" xml:id="T1" defective="true"><title xml:lang="ta"><term xml:lang="en">Medicine Treatise</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="true"><title xml:lang="ta"><term xml:lang="en">Medicine Treatise</term></title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
@@ -38,7 +38,7 @@
                               
                            <width min="300" max="315"/><height min="45" max="50"/></dimensions>
                         <dimensions type="object" unit="mm"><width quantity="325"/><height quantity="50"/><depth quantity="30"/></dimensions><dimensions type="written" unit="mm"/></extent>
-                        <collation><desc xml:id="cover">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">2 folios = <emph rend="bold">Medical Treatise</emph>. Tamil foliation 25-56. Folios in disorder in the bundle. 7-8 lpp. Another left hole remade left of original left hole so as to accommodate these two folios in the bundle. Left edges recut. 315 x 45 mm.</desc><desc xml:id="U2">29 folios = <emph rend="bold">Medical Treatise</emph>. Tamil foliation 4<unclear>8</unclear>, 56-59, 63, 66, 68-71, 73, 76, 78-82, 85, 94-95, 97-99, 120, 122-123, 127-128. Folios in disorder in the bundle.  7-11 lpp. 300 x 50 mm.</desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>.</desc></collation>
+                        <collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">2 folios = <emph rend="bold">Medical Treatise</emph>. Tamil foliation 25-56. Folios in disorder in the bundle. 7-8 lpp. Another left hole remade left of original left hole so as to accommodate these two folios in the bundle. Left edges recut. 315 x 45 mm.</desc><desc xml:id="U2">29 folios = <emph rend="bold">Medical Treatise</emph>. Tamil foliation 4<unclear>8</unclear>, 56-59, 63, 66, 68-71, 73, 76, 78-82, 85, 94-95, 97-99, 120, 122-123, 127-128. Folios in disorder in the bundle.  7-11 lpp. 300 x 50 mm.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation>
                         
                         <condition>Relatively good state of preservation. U2, f127 truncated on both edges.</condition>
                      </supportDesc>
@@ -50,9 +50,9 @@
                   <decoDesc>
                   </decoDesc>
                   <additions>
-                  <desc synch="#cover" type="shelfmark" subtype="back cover">BnF shelfmark sticker: <quote>INDIEN 127</quote> (<locus facs="0">back cover, verso</locus>).</desc><desc synch="#U1 #U2" type="intertitle" subtype="marginal left">Left-marginal intertitles (on almost all rectos and versos).</desc></additions>
+                  <desc synch="#CoverBack" type="shelfmark" subtype="back cover">BnF shelfmark sticker: <quote>INDIEN 127</quote> (<locus facs="0">back cover, verso</locus>).</desc><desc synch="#U1 #U2" type="intertitle" subtype="marginal left">Left-marginal intertitles (on almost all rectos and versos).</desc></additions>
                   <bindingDesc>
-                     <binding><p><material resp="#cLI" cert="medium">Mahogany</material> woodcovers apparently fabricated in the BnF. 325 x 50 mm.</p></binding>
+                     <binding><p><material cert="medium">Pinewood</material> covers apparently fabricated in the BnF. 325 x 50 mm.</p></binding>
                   </bindingDesc>
                </physDesc>
                <history>
@@ -73,15 +73,16 @@
       </fileDesc>
       <encodingDesc>
          
-      <p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.      </p></encodingDesc>
-      <revisionDesc>
+      <p> <emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.    </p></encodingDesc>
+      
+   <revisionDesc>
          
-      <change when="2022-03">Record created by Emmanuel FRANCIS.</change></revisionDesc>
-   </teiHeader>
+      <change when="2022-03">Record created by Emmanuel FRANCIS.</change></revisionDesc></teiHeader>
    <facsimile>
    </facsimile>
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
-  
+  <ab>
+    
   <pb facs="0" n="25r"/>
   <milestone unit="left-margin"/>
   <lb n="1-6"/><seg function="intertitle">Irattacūlaikku kuṉmacūlai</seg>
@@ -99,9 +100,10 @@
   
    <milestone unit="main-text-area"/>
   <lb n="7"/><seg function="explicit"><gap reason="ellipsis"/></seg>
-  
+  </ab>
 </body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
-  
+    <ab>
+
   <pb facs="0" n="4[8]r"/>
   <milestone unit="left-margin"/>
   <lb n="1-6"/><seg function="intertitle"><gap reason="ellipsis"/> maruntum kuṭinīrum <g ref="#pcs"/>
@@ -117,5 +119,5 @@
     
    <milestone unit="main-text-area"/>
   <lb n="11"/><seg function="explicit"><gap reason="ellipsis"/></seg>
-  
+  </ab>
 </body></text></TEI>

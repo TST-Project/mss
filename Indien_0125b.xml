@@ -18,7 +18,7 @@
                      <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
                   </repository>
                   <idno type="shelfmark">Indien 125b</idno>
-                  <idno type="alternate"><idno>Tamoul 125</idno></idno>
+                  <idno type="alternate"/>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103588x</idno></msIdentifier>
                <msContents class="#STM">
                   <summary>A single-text manuscript containing:
@@ -67,7 +67,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian" notAfter="1855">No internal date. </origDate>
+                     <origDate calendar="gregorian" notAfter="1854">No internal date. Bundle not dated by Vinson (1868) nor by Cabaton (1912). Not after 1854, since part of the collection of <persName role="collector">Édouard Ariel</persName> (1818-1854).</origDate>
                      <origPlace>Tamilnadu.</origPlace>
                   </origin>
                   <provenance><p>Owned by <persName role="collector">Édouard Ariel</persName> (1818-1854). Bequested by Édouard Ariel to Société Asiatique (Rosny 1868, p. 177).</p></provenance>
@@ -83,15 +83,15 @@
       </fileDesc>
       <encodingDesc>
          
-      <p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.      </p></encodingDesc>
-      <revisionDesc>
+      <p> <emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.    </p></encodingDesc>
+      
+   <revisionDesc>
          
-      <change when="2022-03">Record created by Emmanuel FRANCIS.</change></revisionDesc>
-   </teiHeader>
+      <change when="2022-03">Record created by Emmanuel FRANCIS.</change></revisionDesc></teiHeader>
    <facsimile>
    </facsimile>
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
-  
+  <ab>
 <pb facs="0" n="[1]r"/>
     <lb n="1"/>toṇṭa-maṇṭala<unclear>t=tu</unclear> vēḷḷāḻaṉ
   <lb n="2"/><unclear>kaṇṭapaṟ</unclear> ciṅkaṉ pa
@@ -101,8 +101,9 @@
 <lb n="2"/><persName xml:lang="ta" role="owner">kaṇṭaṟaṇṭaṉ</persName> cuvaṭi
 <lb n="3"/>l eṭut=tavar cuvāmi-mukattai
 <lb n="4"/>pārt=tu kuṭuk=ka vēṇṭām</seg>
- 
+ </ab>
 </body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
+  <ab>
 
   <seg function="header"><pb facs="0" n="[1]r"/>
     <milestone unit="left-margin"/>
@@ -116,9 +117,10 @@
 <lb n="3"/>taṅ kai</l></lg> <g ref="#pcs"/></seg> <seg function="TBC"><gap reason="ellipsis"/> varumē <g ref="#pcs"/></seg>
 
   <pb facs="0" n="[1]v"/><note xml:lang="en">blank</note>
-  
+  </ab>
 </body></text><text synch="#U3" corresp="#T3" xml:lang="ta"><body>
-  
+    <ab>
+
 <seg function="header"><pb facs="0" n="[1]r"/>
   <milestone unit="left-margin"/>
 <lb n="1-2"/><seg function="blessing">naṉṟāka</seg></seg>
@@ -155,15 +157,17 @@
 <seg function="intertitle"><lb n="1-3"/>mukuṟtatōṣam</seg>
   <milestone unit="main-text-area"/>
   <lb n="6"/><gap reason="ellipsis"/>viḷakkappaṭṭaṉa v<pc>-</pc>eṉpatu = <seg function="completion-statement">kōṭakaḷutaikku nāḷ muṟṟum = = =</seg>
-
   
 <pb n="42v"/>
   <lb n="1"/><gap reason="ellipsis"/> = 92 = <gap reason="ellipsis"/>
   <lb n="2"/><gap reason="ellipsis"/>
   <lb n="3"/><gap reason="ellipsis"/> <seg function="explicit" type="commentary"><g ref="#pcs"/> Etu <g ref="#pcs"/></seg>
+      
+      </ab>
   
 </body></text><text synch="#U4" corresp="#T4" xml:lang="ta"><body>
-  
+    <ab>
+
 <pb n="[1]r"/><note xml:lang="en">blank</note>
 <pb n="[1]v"/><note xml:lang="en">blank</note>
 <pb n="[2]r"/><note xml:lang="en">blank</note>
@@ -179,4 +183,5 @@
   <seg function="TBC"><lb n="1"/>Appar Ayi
 <lb n="2"/>ceppu yēṭu</seg>
   
+      </ab>
 </body></text></TEI>
