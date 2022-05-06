@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -9,7 +9,7 @@
          
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -21,7 +21,7 @@
                   <idno type="alternate"><idno>Tamoul 159</idno></idno>
                </msIdentifier>
                <msContents class="#STM">
-                  <summary>An incomplete copy of a text to be identified, probably a grammatical treatise.</summary>
+                  <summary><p>An incomplete copy of a text to be identified, probably a grammatical treatise.</p></summary>
                   
                <msItem synch="#U1" xml:id="T1" defective="true"><title xml:lang="ta"><term xml:lang="en">TBC</term></title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
@@ -38,7 +38,7 @@
                         <collation>
                         
                         
-                        <desc xml:id="U1">6 folios = 12 pages = <emph rend="bold">TBC</emph>. Tamil foliation on p327 only (foliation 4). Pagination 327-[338] (blue pencil).</desc></collation>
+                        <desc xml:id="U1">6 folios = 12 pages = <emph rend="bold">TBC</emph>. Tamil foliation on p. 327 only (foliation 4). Pagination 327-337, <supplied reason="omitted">338</supplied> (blue pencil).</desc></collation>
                      <condition>Excellent state of preservation.</condition></supportDesc>
                      <layoutDesc>
                         
@@ -60,7 +60,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian" notAfter="1854">No internal date.</origDate>
+                     <origDate calendar="gregorian" notAfter="1854">No internal date. Not dated by Vinson (1868) nor by Cabaton (1912). Not after 1854, since part of the collection of <persName role="collector">Édouard Ariel</persName> (1818-1854).</origDate>
                      <origPlace>Tamilnadu.</origPlace>
                   </origin>
                   <acquisition>
@@ -80,21 +80,21 @@
       <encodingDesc>
         
       <p>TBC.</p></encodingDesc>
-      <revisionDesc>
+      
+   <revisionDesc>
          
          
-      <change when="2021-12">Record created by Emmanuel FRANCIS.</change></revisionDesc>
-   </teiHeader>
+      <change when="2021-12">Record created by Emmanuel FRANCIS.</change></revisionDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
    
    <facsimile>
       
    <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b100294484/manifest.json" facs="235"/></facsimile>
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
-  
+  <ab>
   <pb facs="235" n="327"/>
   <lb n="1"/><seg function="incipit"><lb n="1"/><gap reason="ellipsis"/></seg>
   
     <pb facs="246" n="[338]"/>
   <lb n="-1"/><seg function="explicit"><lb n="1"/><gap reason="ellipsis"/></seg>
-
+</ab>
 </body></text></TEI>

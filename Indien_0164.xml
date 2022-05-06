@@ -22,7 +22,7 @@
                   <idno type="alternate"><idno>Tamoul 164</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103614b</idno></msIdentifier>
                <msContents class="#CM">
-                  <summary>Bound codex, containing folios and quires of various measurements. Contains mostly handwritten notes, all presumably by Édouard Ariel, but also some printed matters, either pasted on the folios or bound in the volume. Title-pages divide the volume by subject, while many folios bear a top header. Contains, with a focus on the Tamil South of India, notes, bibliographical references and documents bearing on: the literature, the history, the ethnography and the geography of India; sciences, divination, cosmography, astronomy, astrology, etc. in India. Contains lists of printed Tamil books.
+                  <summary><p>Bound codex, containing folios and quires of various measurements. Contains mostly handwritten notes, all presumably by Édouard Ariel, but also some printed matters, either pasted on the folios or bound in the volume. Title-pages divide the volume by subject, while many folios bear a top header. Contains, with a focus on the Tamil South of India, notes, bibliographical references and documents bearing on: the literature, the history, the ethnography and the geography of India; sciences, divination, cosmography, astronomy, astrology, etc. in India. Contains lists of printed Tamil books.</p>
                   </summary>
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="fr"><term xml:lang="en">Front Matter</term></title><textLang mainLang="fra"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="fr"><term xml:lang="en">Bibliography</term></title><author xml:lang="fr">Édouard Ariel</author><textLang mainLang="fra" otherLangs="tam"/></msItem></msContents>
@@ -30,7 +30,7 @@
                   <objectDesc form="codex">
                      <supportDesc material="paper">
                         <extent>
-                           <measure unit="folio" quantity="345">[4] + 341 (U1 + U2).</measure>
+                           <measure unit="folio" quantity="345">{4} + 341 (U1 + U2).</measure>
                            <dimensions type="object" unit="mm">
                               <width quantity="230"/>
                               <height quantity="290"/>
@@ -62,7 +62,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian" notAfter="1855"/>
+                     <origDate calendar="gregorian" notAfter="1854">No internal date. Not dated by Vinson (1868) nor by Cabaton (1912). Not after 1854, since part of the collection of <persName role="collector">Édouard Ariel</persName> (1818-1854).</origDate>
                      <origPlace>Tamilnadu.</origPlace>
                   </origin>
                   <acquisition>
@@ -83,16 +83,16 @@
         
       <p>French partly standardized.</p></encodingDesc>
       
-   <revisionDesc>
+   <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
          
-      <change when="2020-04"> This catalogue entry has been redacted by Emmanuel FRANCIS (CNRS, CEIAS UMR 8564, EHESS/CNRS) for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG). Version 1, April 2020. </change><change when="2020-12">Adapted to TEI by Charles LI.</change><change when="2021-06">Updated to TST encoding conventions by Emmanuel FRANCIS.</change></revisionDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
+      <change when="2020-04"> This catalogue entry has been redacted by Emmanuel FRANCIS (CNRS, CEIAS UMR 8564, EHESS/CNRS) for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG). Version 1, April 2020. </change><change when="2020-12">Adapted to TEI by Charles LI.</change><change when="2021-06">Updated to TST encoding conventions by Emmanuel FRANCIS.</change></revisionDesc></teiHeader>
    
    <facsimile>
       <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b100927608/manifest.json"/>
    </facsimile>
 <text synch="#U1" corresp="#T1" xml:lang="fr"><body>
-  
+  <ab>
   <pb facs="3" n="[1]r"/><term xml:lang="en">[title page of volume]</term>
   
   <lb n="1"/>Collect. Ariel. 
@@ -110,6 +110,8 @@
   <pb facs="7" n="[4]r"/><term xml:lang="en">[title page]</term>
   <lb n="1"/>Histoire littéraire &amp; bibliographie
   <lb n="2"/>sanskrite &amp; prakrite.
+    
+    </ab>
   </body></text><text synch="#U2" corresp="#T2" xml:lang="fr"><body>
          <div1>
              <head>(<locus facs="8">f1</locus>‒<locus facs="170">f147</locus>) Literature.</head>
