@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -9,7 +9,7 @@
          <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -19,7 +19,7 @@
                   </repository>
                   <idno type="shelfmark">Indien 76</idno>
                   <idno type="alternate"><idno>Tamoul 76</idno></idno>
-               </msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1034890</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b100926889</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/2b88qk35x</idno></msIdentifier>
                <msContents class="#STM">
                   <summary><title xml:lang="ta">Ulakanīti</title> (literally "The right conduct in the world") by <persName>Ulakanātar</persName> (17th c. at the latest) is a didactic work containing aphorisms on good conduct in the form of don'ts. The present version consists in ten numbered sections of eight lines each.</summary>
                   
@@ -48,7 +48,7 @@
                         <layout columns="2" writtenLines="4"/>
                      </layoutDesc>
                   </objectDesc>
-                  <handDesc><handNote synch="#U1 U2" scope="major" script="tamil" scriptRef="#tamilPulliNone" medium="incised"><desc>Hand #1.</desc></handNote><handNote synch="#U3" scope="minor" script="tamil" scriptRef="#tamilPulliNone" medium="ink incised"><desc>Hand #2.</desc></handNote></handDesc>
+                  <handDesc><handNote synch="#U1 #U2" scope="major" script="tamil" scriptRef="#tamilPulliNone" medium="incised"><desc>Hand #1.</desc></handNote><handNote synch="#U3" scope="minor" script="tamil" scriptRef="#tamilPulliNone" medium="ink incised"><desc>Hand #2.</desc></handNote></handDesc>
                   <decoDesc>
                   <decoNote type="drawing"><desc>Drawings and scribbles on U3, f[1] recto and and verso.</desc></decoNote></decoDesc>
                   <additions>
@@ -76,12 +76,12 @@
       <encodingDesc>
          
       <p>TBA</p></encodingDesc>
-      <revisionDesc>
+      
+   <revisionDesc>
          
-      <change when="2021-05">Record created by Emmanuel FRANCIS.</change></revisionDesc>
-   </teiHeader>
+      <change when="2021-05">Record created by Emmanuel FRANCIS.</change></revisionDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
    <facsimile>
-   </facsimile>
+   <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b100926889/manifest.json"/></facsimile>
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   <pb facs="00" n="[1]r"/>
   <milestone unit="left-margin"/>
