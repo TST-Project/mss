@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -8,7 +8,7 @@
          <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -27,7 +27,7 @@
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
                         <extent>
-                           <measure unit="folio" quantity="243">[1] + [1] + 239 + [1] = [1] (U1 + U2 + U3 + U4 + U5).</measure>
+                           <measure unit="folio" quantity="243">{1} + {1} + 239 + {1} + {1} (U1 + U2 + U3 + U4 + U5).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
@@ -36,7 +36,7 @@
                         <dimensions type="object" unit="mm"><width quantity="435"/><height quantity="40"/><depth quantity="155"/></dimensions><dimensions type="written" unit="mm"/></extent>
                         
                         <condition>Good state of preservation, despites boreholes.</condition>
-                     <support><measure unit="stringhole" quantity="2"/></support><collation><desc xml:id="U1">1 folio = <emph rend="bold">Title Page</emph>. No foliation. Single folio. Shelfmarks on recto. Verso blank. Broken into 2 pieces. Kept in a hard paper folded folio. Originally on the woodcover. 425 x 35 mm. </desc><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. </desc><desc xml:id="U2">2 folios = <emph rend="bold">TBC</emph>: 2 stanzas (?). No foliation. Verso blank. 435 x 40 mm.</desc><desc xml:id="U3">239 folios = <emph rend="bold"><term xml:lang="ta">Pōkar Nikaṇṭu</term></emph>. Tamil foliation 1-238, [239]. 425 x 40 mm.
+                     <support><measure unit="stringhole" quantity="2"/></support><collation><desc xml:id="U1">1 folio = <emph rend="bold">Title Page</emph>. No foliation. Single folio. Shelfmarks on recto. Verso blank. Broken into 2 pieces. Kept in a hard paper folded folio. Originally on the woodcover. 425 x 35 mm. </desc><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. </desc><desc xml:id="U2">2 folios = <emph rend="bold">TBC</emph>: 2 stanzas (?). No foliation. Verso blank. 435 x 40 mm.</desc><desc xml:id="U3">239 folios = <emph rend="bold"><term xml:lang="ta">Pōkar Nikaṇṭu</term></emph>. Tamil foliation 1-238, <supplied reason="omitted">239</supplied>. 425 x 40 mm.
 
 
 
@@ -50,7 +50,7 @@
                   <handDesc>
                      
                   <handNote synch="#U1" scope="minor" scribeRef="#ArielTitleScribe" script="tamil" medium="incised"><desc>Hand #1.</desc></handNote><handNote synch="#U2" scope="minor" script="tamil" medium="incised"><desc>Hand #2.</desc></handNote><handNote synch="#U3" scope="major" script="tamil" medium="incised"><desc>Hand #3.</desc></handNote><handNote synch="#U5" scope="minor" script="tamil" medium="incised"><desc>Hand #4.</desc></handNote></handDesc>
-                  <additions><desc synch="#U1" type="shelfmark">Shelfmark in black ink: <quote>a/29</quote> (<locus facs="2">f[1]r</locus>).</desc><desc synch="#U1" type="documenting-note">Trace of BnF bequest sticker <quote>DON N° <space type="vacat"/></quote> (<locus facs="2">f[1]r</locus>).</desc><desc synch="#U1" type="shelfmark">BnF shelfmark sticker: <quote>INDIEN 231</quote> (<locus facs="2">f[1]r</locus>).</desc><desc synch="#U3" type="intertitle" subtype="marginal left">Marginal intertitles (or <foreign xml:lang="sa">pratīka</foreign>s), recto and verso. Some unblackened, added later (e.g. f18r, f116r, f117r, f159r, etc.).</desc><desc synch="#cover" type="shelfmark" subtype="back cover">BnF shelfmark sticker: <quote>INDIEN 231</quote> (back cover, verso).</desc></additions>
+                  <additions><desc synch="#U1" type="shelfmark">Shelfmark in black ink: <quote>a/29</quote> (<locus facs="2">f[1]r</locus>).</desc><desc synch="#U1" type="documenting-note">Trace of BnF bequest sticker <quote>DON N° <space type="vacat"/></quote> (<locus facs="2">f[1]r</locus>).</desc><desc synch="#U1" type="shelfmark">BnF shelfmark sticker: <quote>INDIEN 231</quote> (<locus facs="2">f[1]r</locus>).</desc><desc synch="#U3" type="intertitle" subtype="marginal left">Marginal intertitles (or <foreign xml:lang="sa">pratīka</foreign>s), recto and verso. Some unblackened, added later (e.g. f18r, f116r, f117r, f159r, etc.).</desc><desc type="shelfmark" subtype="back cover">BnF shelfmark sticker: <quote>INDIEN 231</quote> (back cover, verso).</desc></additions>
                   <bindingDesc>
                      <binding>
                         <p>Original <material>wood</material> covers. 435 x 40 x 15 mm.</p>
@@ -75,10 +75,10 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      
+   <encodingDesc><p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.    </p></encodingDesc><revisionDesc>
          
-      <change when="2021-11">Record created by Emmanuel FRANCIS.</change></revisionDesc>
-   <encodingDesc><p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.    </p></encodingDesc></teiHeader>
+      <change when="2021-11">Record created by Emmanuel FRANCIS.</change></revisionDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
    
 <facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b100927625/manifest.json"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   
@@ -130,7 +130,7 @@
   <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
 
       <pb facs="285" n="[239]r"/>
-  <lb n="2"/><seg function="explicit"><gap reason="ellipsis"/></seg> <g ref="#pcs"/> <seg function="blessing">tēvicakāyam</seg> <g ref="#pcs"/> <seg function="completion-statement">mu<sic>ttu</sic>m</seg> <g ref="#pcs"/> <seg function="total-stanzas">1000 7 100 10 6</seg> <g ref="#pcs"/>
+      <lb n="2"/><seg function="explicit"><gap reason="ellipsis"/></seg> <g ref="#pcs"/> <seg function="blessing">tēvicakāyam</seg> <g ref="#pcs"/> <seg function="completion-statement">mu<sic>ttu</sic>m</seg> <g ref="#pcs"/> <seg function="total-stanzas"><g ref="#āyiram"/>7<g ref="#nūṟu"/><g ref="#pattu"/>6</seg> <g ref="#pcs"/>
 
     <pb facs="286" n="[239]v"/>
   <note xml:lang="en">blank</note>

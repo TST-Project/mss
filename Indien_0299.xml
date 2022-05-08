@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -9,7 +9,7 @@
          
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -23,9 +23,9 @@
                <msContents class="#MTM">
                   <summary>Multiple-text manuscript containing three works:
 <list rend="numbered">
-  <item><title xml:lang="ta">Aruṇakirippurāṇam</title>, that is, <title xml:lang="ta">Aruṇācalapurāṇam</title></item>, text and commentry (interspersed)
-  <item><title xml:lang="ta">Tamiḻ Aṟiyum Perumaḷ Katai</title></item>
-  <item><title xml:lang="ta">Viṟaliviṭutūtu</title></item>
+  <item><title xml:lang="ta">Aruṇakirippurāṇam</title>, that is, <title xml:lang="ta">Aruṇācalapurāṇam</title>, text and commentry (interspersed).</item>
+  <item><title xml:lang="ta">Tamiḻ Aṟiyum Perumaḷ Katai</title>.</item>
+  <item><title xml:lang="ta">Viṟaliviṭutūtu</title>.</item>
 </list></summary>
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="fr"><term xml:lang="en">Title-page folio</term></title><textLang mainLang="fra"/></msItem><msItem synch="#U3a" xml:id="T2" defective="false" class="#talapuranam"><title xml:lang="ta">Aruṇakiripurāṇam = Aruṇācalapurāṇam: <term xml:lang="en">text and commentry (interspersed)</term></title><textLang mainLang="tam"/><filiation><p>BnF Indien 297, BnF Indien 298, BnF Indien 983.</p></filiation></msItem><msItem synch="#U3b" xml:id="T3" defective="false"><title xml:lang="ta">Tamiḻ Aṟiyum Perumaḷ Katai</title><textLang mainLang="tam"/></msItem><msItem synch="#U3c" xml:id="T4" defective="false"><title xml:lang="ta"> Viṟaliviṭutūtu  </title><textLang mainLang="tam"/></msItem></msContents>
@@ -54,7 +54,7 @@
                   </objectDesc>
                   <handDesc>
                      
-                  <handNote synch="#U2" scope="sole" scribeRef="#DuclerScribe" script="latin" medium="incised"/><handNote synch="#U3 U3a U3b U3c" scope="sole" scribeRef="#DuclerScribe" script="tamil" medium="incised"><desc>Possibly several different hands though.</desc></handNote></handDesc>
+                  <handNote synch="#U2" scope="sole" scribeRef="#DuclerScribe" script="latin" medium="incised"/><handNote synch="#U3 #U3a #U3b #U3c" scope="sole" scribeRef="#DuclerScribe" script="tamil" medium="incised"><desc>Possibly several different hands though.</desc></handNote></handDesc>
                   <additions><desc type="commenting-note" subtype="flyleaf">Papernote in black ink:
 <quote rend="block" xml:lang="fr">
   <list>
@@ -89,10 +89,10 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      
+   <encodingDesc><p>TBA</p></encodingDesc><revisionDesc>
          
-      <change when="2021-05">Record created by Emmanuel FRANCIS.</change></revisionDesc>
-   <encodingDesc><p>TBA</p></encodingDesc></teiHeader>
+      <change when="2021-05">Record created by Emmanuel FRANCIS.</change></revisionDesc></teiHeader>
    
 <text synch="#U1" corresp="#T1" xml:lang="fr"><body>
   

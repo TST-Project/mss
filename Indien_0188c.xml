@@ -1,15 +1,15 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Tamil grammar in Portugese</title>
+            <title>Tamil Grammar in Portugese</title>
          <editor><persName>Cristina MURU</persName><orgName>University of Tuscia</orgName></editor></titleStmt>
          
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -17,13 +17,13 @@
                   <repository>
                      <orgName>Bibliothèque nationale de France. Département des Manuscrits.</orgName>
                   </repository>
-                  <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1037074</idno>
+                  
                   <idno type="shelfmark">Indien 188c</idno>
                   <idno type="alternate"><idno>Tamoul 188</idno></idno>
-               </msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1037074</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary>                   <p>A grammar of Tamil language in Portuguese, containing descriptions and explanations about declensions, conjugation and syntax.
-                     <list>
+                  <summary><p>A grammar of Tamil language in Portuguese, containing descriptions and explanations about declensions, conjugation and syntax.
+  <list>
                          <item>First come the declensions (<locus facs="25">f8r</locus>‒<locus facs="35">f13r</locus>). The nouns chosen for illustrating the declensions are the same as those found in <title xml:lang="pt">Arte da lingua Malabar</title> composed around 1549 by the Jesuit <persName>Henrique Henriques</persName> (1520‒1600). For instance, the first declension of Henriques corresponds to the sixth declension here; the third to the fourth; the fourth to the first; and the fifth to the third. The second declension is the same in both.</item>
                          <item>We find afterwards explanations about nouns and adjectives, e.g.: <quote xml:lang="pt">os nomes acabados em <term xml:lang="ta-Taml">ஆ</term> â (…)</quote> (<locus facs="37">f14r</locus>); <quote xml:lang="pt">dos Nomes adiectiuos</quote> (<locus facs="39">f15r</locus>); <quote xml:lang="pt">dos Comparatiuos</quote> (<locus facs="41">f16v</locus>); “dos Superlatiuos” (<locus facs="43">f17r</locus>); <quote xml:lang="pt">dos nomens de qualidade et gantidade</quote> (<locus facs="44">f17v</locus>); <quote xml:lang="pt">pera os nomens de quantidade</quote> (<locus facs="45">f18r</locus><locus facs="46">v</locus>) ; <quote xml:lang="pt">dos nomens Numerais</quote> (<locus facs="47">f19r</locus>‒<locus facs="50">20v</locus>) ; <quote xml:lang="pt">dos pronomens</quote> (<locus facs="51">f21r5</locus>).</item>
                          <item>Then comes the book II on verbs (<quote xml:lang="pt">Livro 2° dos uerbos,</quote> (<locus facs="57">f24r</locus>). The following headers are found in this portion of the text: <quote xml:lang="pt">primeira Conjugacaó</quote> (<locus facs="57">f24r</locus>); <quote xml:lang="pt">2a Conjugacaó</quote> (<locus facs="69">f30r</locus>); <quote xml:lang="pt">3a Conjugacaó</quote> (<locus facs="79">f35r</locus>); <quote xml:lang="pt">4a Conjugacaó</quote> (<locus facs="83">f37r</locus>); <quote xml:lang="pt">5a Conjugacaó</quote> (<locus facs="87">f39r</locus>); <quote xml:lang="pt">dos uerbos Compositos</quote> (<locus facs="91">f41r</locus>); <quote xml:lang="pt">dos uerbos passiuos</quote> (<locus facs="91">f41v11</locus>); <quote xml:lang="pt">Dos uerbos Impersoaes</quote> (<locus facs="93">f42r1</locus>); <quote xml:lang="pt">dos uerbos defeitivo</quote>” (<locus facs="96">f43v17</locus>).</item>
@@ -34,7 +34,7 @@
                   
                   
                   
-               <msItem xml:id="T1" defective="false"><title xml:lang="pt">Tamil grammar in Portugese</title><textLang mainLang="por" otherLangs="tam"/></msItem></msContents>
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="pt">Tamil Grammar in Portugese</title><textLang mainLang="por" otherLangs="tam"/></msItem></msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="paper">
@@ -52,7 +52,7 @@
                         
                         
                         
-                     <collation><desc>52 folios. Arabic library foliation 8‒57 for first 50 folios; last 2 folios unfoliated.</desc></collation></supportDesc>
+                     <collation><desc xml:id="U1">52 folios = <emph rend="bold">Tamil Grammar in Portugese</emph>. Arabic library foliation 8‒57 for first 50 folios; last 2 folios unfoliated.</desc></collation></supportDesc>
                      <layoutDesc>
                         <layout columns="1"/>
                      </layoutDesc>
@@ -61,7 +61,7 @@
                      
                      
                      
-                  <handNote scope="sole" script="roman" medium="ink black"/></handDesc>
+                  <handNote synch="#U1" scope="sole" script="roman" medium="ink black"/></handDesc>
                   <additions/>
                   <bindingDesc>
                      <binding>
@@ -87,17 +87,17 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      
+   <revisionDesc>
          
          
-      <change when="2021-08">Added transcription of first page by Cristina MURU, encoded by Charles LI.</change></revisionDesc>
-   </teiHeader>
+      <change when="2021-08">Added transcription of first page by Cristina MURU, encoded by Charles LI.</change></revisionDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
    <facsimile>
       <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b52515353x/manifest.json" facs="25"/>
    </facsimile>
    
-<text corresp="#T1" xml:lang="pt">
-    <body>
+<text synch="#U1" corresp="#T1" xml:lang="pt"> <body>
+   <ab>
     	<milestone n="8r" unit="folio" facs="25"/>
         <head>1° Declinacaõ</head>
         <p>
@@ -215,7 +215,7 @@
                 <cell>g<hi rend="superscript">õ</hi></cell>
                 <cell xml:lang="ta-Taml">தொ.ப.பி.யு.டை.ய</cell>
                 <cell>toppïïudaïa</cell>
-                <cell></cell>
+                <cell/>
             </row>
             <row>
                 <cell/>
@@ -297,5 +297,6 @@
         <p>
             <lb/><term xml:lang="ta-Taml">சடடை சடடையினுடைய</term> cabaya
         </p>
+     </ab>
     </body>
    </text></TEI>

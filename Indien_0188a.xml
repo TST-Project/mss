@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -9,7 +9,7 @@
          
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -17,10 +17,10 @@
                   <repository>
                      <orgName>Bibliothèque nationale de France. Département des Manuscrits.</orgName>
                   </repository>
-                  <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1037074</idno>
+                  
                   <idno type="shelfmark">Indien 188a</idno>
                   <idno type="alternate"/>
-               </msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1037074</idno></msIdentifier>
                <msContents class="#STM">
                   <summary><p>The elements of Tamil grammar in French in this document are:
                       <list rend="numbered">
@@ -34,7 +34,7 @@
                   
                   
                   
-               <msItem xml:id="T1" defective="false"><title xml:lang="fr">Elements of Tamil grammar in French</title><textLang mainLang="fra" otherLangs="tam"/></msItem></msContents>
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="fr">Elements of Tamil grammar in French</title><textLang mainLang="fra" otherLangs="tam"/></msItem></msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="paper">
@@ -52,7 +52,7 @@
                         
                         
                         
-                     <collation><desc>6 folios. Arabic library foliation 1‒6; 11 pages.</desc></collation></supportDesc>
+                     <collation><desc xml:id="U1">6 folios = <emph rend="bold">Elements of Tamil grammar in French</emph>. Arabic library foliation 1‒6. 11 pages.</desc></collation></supportDesc>
                      <layoutDesc>
                         
                      </layoutDesc>
@@ -61,7 +61,7 @@
                      
                      
                      
-                  <handNote scope="sole" script="roman" medium="ink black"/></handDesc>
+                  <handNote synch="#U1" scope="sole" script="roman" medium="ink black"/></handDesc>
                   <additions/>
                   <bindingDesc>
                      <binding>
@@ -87,12 +87,12 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      
+   <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
          
-      </revisionDesc>
-   </teiHeader>
+      </revisionDesc></teiHeader>
    <facsimile>
-      <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b52515353x/manifest.json"/>
+      <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b52515353x/manifest.json" facs="11"/>
    </facsimile>
 </TEI>
