@@ -18,7 +18,7 @@
                      <orgName>Bibliothèque nationale de France. Département des Manuscrits.</orgName>
                   </repository>
                   <idno type="shelfmark">Indien 105</idno>
-                  <idno type="alternate"><idno>Tamoul 105</idno><idno>Ariel 176</idno></idno>
+                  <idno type="alternate"><idno>Tamoul 105</idno><idno>Ariel 176</idno><idno>d/35</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103568f</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b100927017</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/kd17cx91d</idno></msIdentifier>
                <msContents class="#MTM">
                   <summary><p>A multi-text (possibly a composite in fact) manuscript containing 6 medical works attributed to Akattiyar:
@@ -30,9 +30,11 @@
 <item>The <title xml:lang="ta">Pūrṇacūttiram</title> (U6).</item>
 <item>A series of 10 <foreign xml:lang="ta">cūttiram</foreign>s (U7).</item>
 </list></p>
+<p>Description based on the examination of the original (December 2021).</p>
+   <p>Dimensions assessed at the time of examination.</p>      
                   </summary>
                   
-               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page (additional)</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta">Vātacūttiram 100</title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T3" defective="false"><title xml:lang="ta">Tuṟavukōl</title><textLang mainLang="tam"/></msItem><msItem synch="#U4" xml:id="T4" defective="false"><title xml:lang="ta">Vātacūttiram 14</title><textLang mainLang="tam"/></msItem><msItem synch="#U5" xml:id="T5" defective="false"><title xml:lang="ta">Cūttiram 12</title><textLang mainLang="tam"/></msItem><msItem synch="#U6" xml:id="T6" defective="false"><title xml:lang="ta">Pūrṇacūttiram</title><textLang mainLang="tam"/><filiation><p>BnF Indien 101.1.</p></filiation></msItem><msItem synch="#U7" xml:id="T7" defective="false"><title xml:lang="ta">Cūttiram 10</title><textLang mainLang="tam"/></msItem></msContents>
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page (additional)</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta">Vātacūttiram 100</title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T3" defective="false"><title xml:lang="ta">Tuṟavukōl</title><textLang mainLang="tam"/></msItem><msItem synch="#U4" xml:id="T4" defective="false"><title xml:lang="ta">Vātacūttiram 14</title><textLang mainLang="tam"/></msItem><msItem synch="#U5" xml:id="T5" defective="false"><title xml:lang="ta">Cūttiram 12</title><textLang mainLang="tam"/></msItem><msItem synch="#U6" xml:id="T6" defective="false"><title xml:lang="ta">Pūrṇacūttiram</title><textLang mainLang="tam"/><filiation><p>BnF Indien 101.1</p></filiation></msItem><msItem synch="#U7" xml:id="T7" defective="false"><title xml:lang="ta">Cūttiram 10</title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
@@ -109,7 +111,7 @@
    <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
          
-      <change when="2022-01">Record created by Emmanuel FRANCIS.</change></revisionDesc></teiHeader>
+      <change when="2022-01">Record created by Emmanuel FRANCIS.</change><change when="2022-05">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, May 2022.</change></revisionDesc></teiHeader>
    <facsimile>
       
    <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b100927017/manifest.json"/></facsimile>
@@ -169,7 +171,7 @@
   <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>   
   
     <pb facs="33" n="5r"/>  
-      <lb n="6"/><seg function="explicit"><gap reason="ellipsis"/> <del>muṟṟē <g ref="#pcs"/></del><add>m paṟē ~ <g ref="#pattu"/>4 =</add></seg> <seg function="blessing"> Aṣ<del>ṣ</del>vayiravar tuṇai <g ref="#pcl"/></seg>
+      <lb n="6"/><gap reason="ellipsis"/> <del>muṟṟē <g ref="#pcs"/></del><add>m paṟē ~ <g ref="#pattu"/>4 =</add> <seg function="blessing"> Aṣ<del>ṣ</del>vayiravar tuṇai <g ref="#pcl"/></seg>
  
     <pb facs="34" n="5v"/>
    <lb n="1"/><seg function="explicit"><gap reason="ellipsis"/></seg>
@@ -188,8 +190,8 @@
   <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>   
   
          <pb facs="38" n="4v"/>
-                       <lb n="7"/><seg function="explicit"><gap reason="ellipsis"/> <g ref="#pcs"/> <g ref="#pattu"/>4 <g ref="#pcs"/> <seg function="blessing"/> vēyuṟu
-<lb n="8"/>tōḷipaṅkaṉ ṟuṇai <g ref="#pcs"/></seg>
+                       <lb n="7"/><seg function="explicit"><gap reason="ellipsis"/> <g ref="#pcs"/> <g ref="#pattu"/>4 <g ref="#pcs"/> <seg function="blessing"> vēyuṟu
+<lb n="8"/>tōḷipaṅkaṉ ṟuṇai <g ref="#pcs"/></seg></seg>
 
   </ab>
   </body>
@@ -200,7 +202,7 @@
   <pb facs="38" n="1r"/>
   
   <milestone unit="left-margin"/>
-  <lb n="1"/><seg function="blessing">hari Ōm</seg>
+  <lb n="1"/><seg function="blessing">ha<seg rend="grantha">ri</seg> Ōm</seg>
   <lb n="2"/><seg function="title">Akastti
 <lb n="3" break="no"/>yar cūtti
 <lb n="4" break="no"/>ram paṇṇi
@@ -213,8 +215,7 @@
        
     <pb facs="42" n="5r"/>
                        <lb n="2"/><seg function="explicit"><gap reason="ellipsis"/> = <g ref="#pattu"/>2 =</seg> <seg function="blessing">teṣcaṇāmūrttiyar
-<lb n="3"/> tantericikka vēṇum <g ref="#pcl"/></seg> <seg function="blessing">vēyuṟutōḷipaṅkaṉ tuṇai = <term xml:lang="en">{symbol}</term> =</seg>
-
+<lb n="3"/>tantericikka vēṇum <g ref="#pcl"/></seg> <seg function="blessing">vēyuṟutōḷipaṅkaṉ tuṇai = <term xml:lang="en">{symbol}</term> =</seg>
       
   <pb facs="43" n="5v"/><note xml:lang="en">blank</note>
 
@@ -234,7 +235,7 @@
   <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>   
        
     <pb facs="99" n="49v"/>
-                       <lb n="3"/><seg function="explicit"><gap reason="ellipsis"/> <g ref="#pcs"/> 2<g ref="#nūru"/><g ref="#pattu"/> <g ref="#pcs"/></seg>
+     <lb n="3"/><seg function="explicit"><gap reason="ellipsis"/> <g ref="#pcs"/> 2<g ref="#nūru"/><g ref="#pattu"/> <g ref="#pcs"/></seg>
       
   <pb facs="99" n="50r"/><note xml:lang="en">blank</note>
   <pb facs="100" n="50v"/><note xml:lang="en">blank</note>
