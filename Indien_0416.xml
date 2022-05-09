@@ -21,7 +21,7 @@
                   <idno type="alternate"><idno>Tamoul 416</idno><idno>Burnouf 169</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103954x</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary>An incomplete version of the <title xml:lang="ta">Tamiḻ Aṟiyum Perumāḷ Katai</title>.</summary>
+                  <summary><p>An incomplete version of the <title xml:lang="ta">Tamiḻ Aṟiyum Perumāḷ Katai</title>.</p></summary>
                   
                <msItem synch="#U1" xml:id="T1" defective="true"><title xml:lang="ta">Tamiḻ Aṟiyum Perumāḷ Katai: Mūlam</title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
@@ -46,7 +46,7 @@
                   <handDesc>
                      
                   <handNote synch="#U1" scope="major" script="tamil" medium="incised soot"/></handDesc>
-                  <additions><desc synch="#cover" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 416</quote> (<locus facs="0">front cover, recto</locus>). </desc><desc synch="#U1" type="foliation">Arabic foliation added in black ink: <quote>31</quote> (<locus facs="0">f31r</locus>).</desc><desc synch="#U1" type="shelfmark">Burnouf shelfmark sticker: <quote>BURN. 169</quote> (<locus facs="0">f31v</locus>).</desc></additions>
+                  <additions><desc type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 416</quote> (<locus facs="0">front cover, recto</locus>). </desc><desc synch="#U1" type="foliation">Arabic foliation added in black ink: <quote>31</quote> (<locus facs="0">f31r</locus>).</desc><desc synch="#U1" type="shelfmark">Burnouf shelfmark sticker: <quote>BURN. 169</quote> (<locus facs="0">f31v</locus>).</desc></additions>
                   <bindingDesc>
                      <binding>
                         <p><material cert="medium">Pinewood</material> covers apparently fabricated in the BnF.</p>
@@ -55,7 +55,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian" notAfter="1854">No internal date. Dated to circa 1790 by Vinson in Vinson et al. (1866-) and to 1790 by Cabaton (1912), on unstated grounds (presumably palaeographical and material analysis arguments).</origDate>
+                     <origDate calendar="gregorian" notAfter="1854">No internal date. Dated to circa 1790 by Vinson in Vinson et al. (1866-) and to 1790 by Cabaton (1912), on unstated grounds (presumably palaeographical and material analysis arguments). Not after 1854, since part of the collection of <persName role="collector">Édouard Ariel</persName> (1818-1854).</origDate>
                      <origPlace>Tamilnadu.</origPlace>
                   </origin>
                   <acquisition>
@@ -70,13 +70,13 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      
+   <encodingDesc><p> <emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.    </p></encodingDesc><revisionDesc>
          
-      <change when="2022-02">Record created by Emmanuel FRANCIS.</change></revisionDesc>
-   <encodingDesc><p>TBC</p></encodingDesc></teiHeader>
+      <change when="2022-02">Record created by Emmanuel FRANCIS.</change></revisionDesc></teiHeader>
    
 <facsimile/><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
-  
+  <ab>
   <pb facs="0" n="2r"/>  
   <lb n="1"/><seg function="incipit">toḻil ceyya Aṉṉūṟu peṇakkum <gap reason="ellipsis"/></seg>
   
@@ -86,5 +86,5 @@
 
   <pb facs="0" n="31v"/>
     <lb n="5"/><seg function="explicit"><gap reason="ellipsis"/>ḷ eṉṟu</seg>
-  
+  </ab>
 </body></text></TEI>

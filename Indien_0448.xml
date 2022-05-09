@@ -21,14 +21,14 @@
                   <idno type="alternate"><idno>Tamoul 448</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1039777</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary>The <title xml:lang="ta">Tiṉakaraveṇpā</title> in 96 stanzas.</summary>
+                  <summary><p>The <title xml:lang="ta">Tiṉakaraveṇpā</title> in 96 stanzas.</p></summary>
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page (original)</term></title><textLang mainLang="tam"/></msItem><msItem xml:id="T2" defective="false"><title xml:lang="ta">Tiṉakaraveṇpā: Mūlam</title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
                         <extent>
-                           <measure unit="folio" quantity="18">[1] + 17 (U1 + U2).</measure>
+                           <measure unit="folio" quantity="18">{1} + 17 (U1 + U2).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
@@ -47,7 +47,7 @@
                   <handDesc>
                      
                   <handNote synch="#U1" scope="minor" script="tamil" medium="incised soot"><desc>Hand #1.</desc></handNote><handNote synch="#U2" scope="major" script="tamil" medium="incised soot"><desc>Hand #2.</desc></handNote></handDesc>
-                  <additions><desc synch="#cover" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 448</quote> (<locus facs="0">front cover, recto</locus>). </desc><desc synch="#U1" type="shelfmark">Shelfmark in black ink: <quote>N° 8</quote> (<locus facs="0">f[1]r</locus>).</desc><desc synch="#U2" type="verse-numbering"/></additions>
+                  <additions><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 448</quote> (<locus facs="0">front cover, recto</locus>). </desc><desc synch="#U1" type="shelfmark">Shelfmark in black ink: <quote>N° 8</quote> (<locus facs="0">f[1]r</locus>).</desc><desc synch="#U2" type="verse-numbering"/></additions>
                   <bindingDesc>
                      <binding>
                         <p><material cert="medium">Pinewood</material> covers apparently fabricated in the BnF.</p>
@@ -56,7 +56,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian" notAfter="1854">No internal date. Dated to circa 1780 by Vinson in Vinson et al. (1866-) and to 1780 by Cabaton (1912), on unstated grounds (presumably palaeographical and material analysis arguments).</origDate>
+                     <origDate calendar="gregorian" notAfter="1854">No internal date. Dated to circa 1780 by Vinson in Vinson et al. (1866-) and to 1780 by Cabaton (1912), on unstated grounds (presumably palaeographical and material analysis arguments). Not after 1854, since part of the collection of <persName role="collector">Édouard Ariel</persName> (1818-1854).</origDate>
                      <origPlace>Tamilnadu.</origPlace>
                   </origin>
                   <acquisition>
@@ -71,13 +71,14 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      
+   <encodingDesc><p> <emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.    </p></encodingDesc><revisionDesc>
          
-      <change when="2022-02">Record created by Emmanuel FRANCIS.</change></revisionDesc>
-   <encodingDesc><p>TBC</p></encodingDesc></teiHeader>
+      <change when="2022-02">Record created by Emmanuel FRANCIS.</change></revisionDesc></teiHeader>
    
 <facsimile/><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
-  
+  <ab>
+    
   <pb facs="0" n="[1]r"/>
   
   <milestone n="1" unit="column"/>
@@ -100,9 +101,9 @@
 
     <pb facs="0" n="[1]v"/><note xml:lang="en">blank</note>
 
-  
+  </ab>
 </body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
-  
+  <ab>
   <pb facs="0" n="[1]r"/>
   
   <milestone n="1" unit="left-margin"/>
@@ -133,4 +134,5 @@
   
   <pb facs="0" n="17v"/><note xml:lang="en">blank</note>
 
+    </ab>
 </body></text></TEI>
