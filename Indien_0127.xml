@@ -25,7 +25,7 @@
 <p>Description based on the examination of the original (February 2021).</p>
    <p>Dimensions assessed at the time of examination.</p> </summary>
                   
-               <msItem synch="#U1" xml:id="T1" defective="true"><title xml:lang="ta"><term xml:lang="en">Medicine Treatise</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="true"><title xml:lang="ta"><term xml:lang="en">Medicine Treatise</term></title><textLang mainLang="tam"/></msItem></msContents>
+               <msItem synch="#U1" xml:id="T1" defective="true"><title xml:lang="ta"><term xml:lang="en">Medical Treatise</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="true"><title xml:lang="ta"><term xml:lang="en">Medical Treatise</term></title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
@@ -52,14 +52,14 @@
                   <decoDesc>
                   </decoDesc>
                   <additions>
-                  <desc synch="#CoverBack" type="shelfmark" subtype="back cover">BnF shelfmark sticker: <quote>INDIEN 127</quote> (<locus facs="0">back cover, verso</locus>).</desc><desc synch="#U1 #U2" type="intertitle" subtype="marginal left">Left-marginal intertitles (on almost all rectos and versos).</desc></additions>
+                  <desc synch="#CoverBack" type="shelfmark" subtype="back cover">BnF shelfmark sticker: <quote>INDIEN 127</quote> (<locus facs="1">back cover, verso</locus>).</desc><desc synch="#U1 #U2" type="intertitle" subtype="marginal left">Left-marginal intertitles (on almost all rectos and versos).</desc></additions>
                   <bindingDesc>
                      <binding><p><material cert="medium">Pinewood</material> covers apparently fabricated in the BnF. 325 x 50 mm.</p></binding>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian" notAfter="1868">No internal date. No dated by Vinson (1866-) nor by Cabaton (1912).</origDate>
+                     <origDate calendar="gregorian" notAfter="1866">No internal date. No dated by Vinson (1866-) nor by Cabaton (1912).</origDate>
                      <origPlace>South India.</origPlace>
                   </origin>
                   <provenance><p>Unknown.</p></provenance>
@@ -75,7 +75,7 @@
       </fileDesc>
       <encodingDesc>
          
-      <p> <emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.    </p></encodingDesc>
+      <p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.    </p></encodingDesc>
       
    <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
@@ -85,18 +85,21 @@
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   <ab>
     
-  <pb facs="0" n="25r"/>
+  <pb facs="5" n="25r"/>
+    
   <milestone unit="left-margin"/>
   <lb n="1-6"/><seg function="intertitle">Irattacūlaikku kuṉmacūlai</seg>
 
   <milestone unit="main-text-area"/>
   <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
   
-   <pb facs="0" n="26r"/>
+      <pb facs="8" n="25v"/>
+
+   <pb facs="9" n="26r"/>
   <milestone unit="left-margin"/>
   <lb n="1-5"/><seg function="intertitle">kuṉmat=tukku kuṭi nīr</seg>
   
-  <pb facs="0" n="26v"/>
+  <pb facs="13" n="26v"/>
   <milestone unit="left-margin"/>
   <lb n="1-5"/><seg function="intertitle">ku<unclear reason="eccentric_ductus">ṉmat=tu</unclear>kku pari<unclear>ci</unclear>kkiṟatu <g ref="#pcs"/></seg>
   
@@ -106,16 +109,18 @@
 </body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
     <ab>
 
-  <pb facs="0" n="4[8]r"/>
-  <milestone unit="left-margin"/>
+  <pb facs="16" n="4[8]r"/>
+      
+  <milestone facs="17" unit="left-margin"/>
   <lb n="1-6"/><seg function="intertitle"><gap reason="ellipsis"/> maruntum kuṭinīrum <g ref="#pcs"/>
 </seg>
 
   <milestone unit="main-text-area"/>
   <lb n="1"/><seg function="incipit">Ikkuṭinīr kuṭikkum pēr <gap reason="ellipsis"/></seg>
   
-   <pb facs="0" n="128v"/>
-  <milestone unit="left-margin"/>
+   <pb facs="33" n="128v"/>
+      
+  <milestone facs="34" unit="left-margin"/>
 <lb n="1-4"/><seg function="intertitle"><gap reason="ellipsis"/></seg>
   <lb n="5-8"/><seg function="intertitle"><gap reason="ellipsis"/><note xml:lang="en">unblackened</note></seg>
     
