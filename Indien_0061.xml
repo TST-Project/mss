@@ -21,9 +21,9 @@
                   <idno type="alternate"><idno>Tamoul 61</idno><idno>Burnouf 178</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103476x</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b525137635</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary>Complete text of the <title xml:lang="ta">Nālaṭiyār</title> with substantial commentary (corresponding for the <term xml:lang="ta">Atikāra Aṭaivu</term> to the <title xml:lang="ta">Viḷakka Urai</title>, for the <term xml:lang="ta">Kaṭavuḷ Vāḻttu</term> and 400 to <term xml:lang="ta">Tarumar</term> in the <term xml:lang="ta">Caracuvatimakāl</term> edition) and satellite material, colophon (no date but scribal caveat).  </summary>
+                  <summary>Complete text of the <title xml:lang="ta">Nālaṭiyār</title> with substantial commentary (corresponding for the <term xml:lang="ta">Atikāra Aṭaivu</term> to the <title xml:lang="ta">Viḷakka Urai</title>, for the <term xml:lang="ta">Kaṭavuḷ Vāḻttu</term> and 400 to <term xml:lang="ta">Tarumar</term> in the <term xml:lang="ta">Caracuvatimakāl</term> edition) and satellite material, colophon (no date but scribal caveat). Chapter titles and <term xml:lang="sa">pratīka</term>-s.</summary>
                   
-               <msItem synch="#U2" xml:id="T1" defective="false"><title xml:lang="ta"> Nālaṭiyār atikāra aṭaivu urai  </title><textLang mainLang="tam"/></msItem></msContents>
+               <msItem synch="#U2" xml:id="T1" defective="false"><title xml:lang="ta"> Nālaṭiyār Atikāra Aṭaivu Urai  </title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf palmyra">
@@ -32,7 +32,7 @@
                            
                         </support>
                         <extent>
-                           <measure unit="folio" quantity="174">3 blank leaves, folio 1-169, 2 blank leaves</measure>
+                           <measure unit="folio" quantity="174">{3} + 169 + {2} (U1 + U2 + U3).</measure>
                            <dimensions type="leaf" unit="mm">
                               <width quantity="370"/>
                               <height quantity="30"/>
@@ -45,12 +45,12 @@
 </desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation>
                         
                         
-                     <foliation>Tamil foliation, chapter titles and <term xml:lang="sa">pratīka</term>-s.</foliation><condition>Perfect condition.</condition></supportDesc>
+                     <foliation>Tamil foliation.</foliation><condition>Perfect condition.</condition></supportDesc>
                      <layoutDesc>
                         <layout writtenLines="7"/>
                      </layoutDesc>
                   </objectDesc>
-                  <handDesc><handNote scope="sole" script="tamil" scriptRef="#tamilPulliNone" medium="incised soot"><desc>traditional script with modern ṟ</desc></handNote></handDesc>
+                  <handDesc><handNote synch="#U2" scope="sole" script="tamil" scriptRef="#tamilPulliNone" medium="incised soot"><desc>Traditional script with modern <foreign xml:lang="ta">ṟa</foreign>.</desc></handNote></handDesc>
                   <decoDesc>
                   </decoDesc>
                   <additions>
@@ -58,53 +58,51 @@
 
 
 
-                  <desc type="intertitle" subtype="marginal left">Left-marginal intertitles:
+                  <desc synch="#U2" type="intertitle" subtype="marginal left">Left-marginal intertitles:
 <list>
   <item><locus facs="19">f. 6r</locus>: <term xml:lang="ta">aṟappāl kaṭavuḷvāḻttu - nālaṭiyārurai</term></item>
-  <item><locus facs="21">f. 7r</locus>, l. 6: beginning of verse 1: <q xml:lang="ta">aṟucuvai</q></item>
-  <item><locus facs="32">f. 12v</locus>: <q xml:lang="ta">iḷamainilaiyāmai</q></item>
-  <item><locus facs="42">f. 17v</locus>: <q xml:lang="ta">yākkainilaiyāmai</q></item>
-   <item><locus facs="53">f. 23r</locus>: <q xml:lang="ta">aṟaṉvaliyuṟuttal</q></item>
-   <item><locus facs="63">f. 28r</locus>: <q xml:lang="ta">tūytallāmai</q>
-</item>  <item><locus facs="74">f. 33v</locus>: <q xml:lang="ta">tuṟavu</q></item>
-  <item><locus facs="84">f. 38v</locus>: <q xml:lang="ta">ciṉamiṉmai</q></item>
-  <item><locus facs="95">f. 44r</locus>: <q xml:lang="ta">poṟaiyuṭamai</q></item>
-  <item><locus facs="105">f. 49r</locus>: <q xml:lang="ta">piṟarmaṉai nayavāmai</q></item>
-<item><locus facs="114">f. 53v</locus>: <q xml:lang="ta">īkai</q></item>
-<item><locus facs="123">f. 58r</locus>: <q xml:lang="ta">paḻaviṉai</q></item>
-<item><locus facs="131">f. 62r</locus>: <q xml:lang="ta">meymai</q>
+  <item><locus facs="21">f. 7r</locus>, l. 6: beginning of verse 1: <term xml:lang="ta">aṟucuvai</term></item>
+  <item><locus facs="32">f. 12v</locus>: <term xml:lang="ta">iḷamainilaiyāmai</term></item>
+  <item><locus facs="42">f. 17v</locus>: <term xml:lang="ta">yākkainilaiyāmai</term></item>
+   <item><locus facs="53">f. 23r</locus>: <term xml:lang="ta">aṟaṉvaliyuṟuttal</term></item>
+   <item><locus facs="63">f. 28r</locus>: <term xml:lang="ta">tūytallāmai</term>
+</item>  <item><locus facs="74">f. 33v</locus>: <term xml:lang="ta">tuṟavu</term></item>
+  <item><locus facs="84">f. 38v</locus>: <term xml:lang="ta">ciṉamiṉmai</term></item>
+  <item><locus facs="95">f. 44r</locus>: <term xml:lang="ta">poṟaiyuṭamai</term></item>
+  <item><locus facs="105">f. 49r</locus>: <term xml:lang="ta">piṟarmaṉai nayavāmai</term></item>
+<item><locus facs="114">f. 53v</locus>: <term xml:lang="ta">īkai</term></item>
+<item><locus facs="123">f. 58r</locus>: <term xml:lang="ta">paḻaviṉai</term></item>
+<item><locus facs="131">f. 62r</locus>: <term xml:lang="ta">meymai</term>
 </item>
-   <item><locus facs="143">f. 68r</locus>: <q xml:lang="ta">tīviṉaiyaccam</q></item>
-<item><locus facs="149">f. 71r</locus>: <q xml:lang="ta">kalvi</q></item>
-<item><locus facs="157">f. 75r</locus>: <q xml:lang="ta">kuṭippiṟappu</q></item>
-<item><locus facs="164">f. 78v</locus>: <q xml:lang="ta">mēṉmakkaḷ</q></item>
-<item><locus facs="172">f. 82v</locus>: <q xml:lang="ta">periyāraippiḻaiyāmai</q></item>
-<item><locus facs="178">f. 85v</locus>: <q xml:lang="ta">nalliṉañcērtal</q></item>
-  <item><locus facs="185">f. 89r</locus>: <q xml:lang="ta">perumai</q></item>
-<item><locus facs="192">f. 92v</locus>: <q xml:lang="ta">tāḷāṇmai</q></item>
-<item><locus facs="200">f. 96v</locus>: <q xml:lang="ta">cuṟṟantaḻal</q></item>
-<item><locus facs="208">f. 100v</locus>: <q xml:lang="ta">naṭpārāyta[l]</q></item>
-<item><locus facs="215">f. 104r</locus>: <q xml:lang="ta">naṭpiṟpiḻai poṟuttal</q></item>
-<item><locus facs="222">f. 107v</locus>: <q xml:lang="ta">kūṭānaṭpu</q></item>
-<item><locus facs="229">f. 111r</locus>: <q xml:lang="ta">aṟivuṭamai</q></item>
-<item><locus facs="236">f. 114v</locus>: <q xml:lang="ta">aṟivinuṇmai</q></item>
-<item><locus facs="242">f. 117v</locus>: <q xml:lang="ta">naṉṟiyilcelvam</q></item>
-<item><locus facs="249">f. 121r</locus>: <q xml:lang="ta">īyāmai</q></item>
-<item><locus facs="256">f. 124v</locus>: <q xml:lang="ta">iṉmai</q></item>
-<item><locus facs="263">f. 128r</locus>: <q xml:lang="ta">māṉam</q></item>
-<item><locus facs="269">f. 131r</locus>: <q xml:lang="ta">iravaccam</q></item>   
-<item><locus facs="277">f. 135r</locus>: <q xml:lang="ta">avaiyaṟital</q></item>      
-<item><locus facs="285">f. 139r</locus>: <q xml:lang="ta">pullaṟivāṇmai</q></item>
-<item><locus facs="291">f. 142r</locus>: <q xml:lang="ta">pētaimai</q></item>
-<item><locus facs="299">f. 146r</locus>: <q xml:lang="ta">kīḻmai</q></item>
-<item><locus facs="306">f. 149v</locus>: <q xml:lang="ta">kayamai</q></item>
-<item><locus facs="315">f. 154r</locus>: <q xml:lang="ta">paṉṉeṟi</q></item>
-<item><locus facs="322">f. 157v</locus>: <q xml:lang="ta">potumakaḷīr</q></item>
-   <item><locus facs="330">f. 161v</locus>: <q xml:lang="ta">kaṟpuṭai makaḷīr</q></item>
-      <item><locus facs="338">f. 165v</locus>: <q xml:lang="ta">kāmanutaliyal</q></item>
-
-  
-  
+   <item><locus facs="143">f. 68r</locus>: <term xml:lang="ta">tīviṉaiyaccam</term></item>
+<item><locus facs="149">f. 71r</locus>: <term xml:lang="ta">kalvi</term></item>
+<item><locus facs="157">f. 75r</locus>: <term xml:lang="ta">kuṭippiṟappu</term></item>
+<item><locus facs="164">f. 78v</locus>: <term xml:lang="ta">mēṉmakkaḷ</term></item>
+<item><locus facs="172">f. 82v</locus>: <term xml:lang="ta">periyāraippiḻaiyāmai</term></item>
+<item><locus facs="178">f. 85v</locus>: <term xml:lang="ta">nalliṉañcērtal</term></item>
+  <item><locus facs="185">f. 89r</locus>: <term xml:lang="ta">perumai</term></item>
+<item><locus facs="192">f. 92v</locus>: <term xml:lang="ta">tāḷāṇmai</term></item>
+<item><locus facs="200">f. 96v</locus>: <term xml:lang="ta">cuṟṟantaḻal</term></item>
+<item><locus facs="208">f. 100v</locus>: <term xml:lang="ta">naṭpārāyta[l]</term></item>
+<item><locus facs="215">f. 104r</locus>: <term xml:lang="ta">naṭpiṟpiḻai poṟuttal</term></item>
+<item><locus facs="222">f. 107v</locus>: <term xml:lang="ta">kūṭānaṭpu</term></item>
+<item><locus facs="229">f. 111r</locus>: <term xml:lang="ta">aṟivuṭamai</term></item>
+<item><locus facs="236">f. 114v</locus>: <term xml:lang="ta">aṟivinuṇmai</term></item>
+<item><locus facs="242">f. 117v</locus>: <term xml:lang="ta">naṉṟiyilcelvam</term></item>
+<item><locus facs="249">f. 121r</locus>: <term xml:lang="ta">īyāmai</term></item>
+<item><locus facs="256">f. 124v</locus>: <term xml:lang="ta">iṉmai</term></item>
+<item><locus facs="263">f. 128r</locus>: <term xml:lang="ta">māṉam</term></item>
+<item><locus facs="269">f. 131r</locus>: <term xml:lang="ta">iravaccam</term></item>   
+<item><locus facs="277">f. 135r</locus>: <term xml:lang="ta">avaiyaṟital</term></item>      
+<item><locus facs="285">f. 139r</locus>: <term xml:lang="ta">pullaṟivāṇmai</term></item>
+<item><locus facs="291">f. 142r</locus>: <term xml:lang="ta">pētaimai</term></item>
+<item><locus facs="299">f. 146r</locus>: <term xml:lang="ta">kīḻmai</term></item>
+<item><locus facs="306">f. 149v</locus>: <term xml:lang="ta">kayamai</term></item>
+<item><locus facs="315">f. 154r</locus>: <term xml:lang="ta">paṉṉeṟi</term></item>
+<item><locus facs="322">f. 157v</locus>: <term xml:lang="ta">potumakaḷīr</term></item>
+   <item><locus facs="330">f. 161v</locus>: <term xml:lang="ta">kaṟpuṭai makaḷīr</term></item>
+      <item><locus facs="338">f. 165v</locus>: <term xml:lang="ta">kāmanutaliyal</term></item>
+    
 </list></desc></additions>
                   <bindingDesc>
                      <binding><p>Ebony covers.</p></binding>
@@ -112,7 +110,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian" notAfter="1830">Cabaton date: 1830 (Burnouf)</origDate>
+                     <origDate calendar="gregorian" notAfter="1830">Cabaton date: 1830 (Burnouf).</origDate>
                      
                   <origPlace>Tamilnadu</origPlace></origin>
                   <provenance><p>From the collection of <persName role="collector">Eugène Burnouf</persName>.</p></provenance>
@@ -128,7 +126,7 @@
       </fileDesc>
       <encodingDesc>
          
-      <p>Mixed Tamil and Roman transcription.</p></encodingDesc>
+      <p>TBC</p></encodingDesc>
       
    <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
@@ -152,9 +150,10 @@ cīlamuṭa ṉiṟkat teḷi ௳ ௳ <note xml:lang="en">Found as beginning of 
 ḷellāruṅ kūṭi yeṭutturaittuc – collāynta
 nālaṭi nāṉūṟu naṉkiṉitā yeṉmaṉa<lb n="3"/>ttē
 cīlamuṭa ṉiṟkavē ceppu ௳
-celvanilauyāmai iḷamainilaiyāmai yākkanilaiyāmai yeṉṟu matikāravaṭaivukaḷukku ma<lb n="4"/>laivām ~ Aḵtāvatu ~ yātō veṉṉil muṉpu yākkaiyuḷatā yatil nilaiyāmai yuṇarttiyatu nilainiṉṟa piṉpu iḷamainilaiyā<lb n="5"/>maiyai yuṇarttiya piṉpu vanta Iḷamaip paruvattilē ~ muyaṉṟu ~ uṇṭāṉa celvattiṉilaiyāmai yuṇarttavēṇṭāvō veṉil <lb n="6"/>yākkai vayatu nūṟeṉaṟu miḷaimai vayatu muppattireṇṭeṉṟu moru niyamaṅka ḷuṇṭu<gap reason="ellipsis"/>
-<milestone n="5v" facs="18" unit="folio"/>
-<lb n="2"/><gap reason="ellipsis"/>kaṭavuḷ vāḻttu vaṇakkañ ceytatu ௳ ivvaḷavu atikāra urai muṭintatu ௳ itaṉ mēlappāṭṭiṉuṭaiya payaṉkaḷai<lb n="3"/>k kūṟuppaṭṭatu ௳ <note xml:lang="en">not identical with the <term xml:lang="ta">Caracuvati Makāl</term> edition</note></seg>
+celvanilauyāmai iḷamainilaiyāmai yākkanilaiyāmai yeṉṟu matikāravaṭaivukaḷukku ma<lb n="4"/>laivām ~ Aḵtāvatu ~ yātō veṉṉil muṉpu yākkaiyuḷatā yatil nilaiyāmai yuṇarttiyatu nilainiṉṟa piṉpu iḷamainilaiyā<lb n="5"/>maiyai yuṇarttiya piṉpu vanta Iḷamaip paruvattilē ~ muyaṉṟu ~ uṇṭāṉa celvattiṉilaiyāmai yuṇarttavēṇṭāvō veṉil <lb n="6"/>yākkai vayatu nūṟeṉaṟu miḷaimai vayatu muppattireṇṭeṉṟu moru niyamaṅka ḷuṇṭu <gap reason="ellipsis"/>
+    
+        <pb facs="18" n="5v"/>
+<lb n="2"/><gap reason="ellipsis"/> kaṭavuḷ vāḻttu vaṇakkañ ceytatu ௳ ivvaḷavu atikāra urai muṭintatu ௳ itaṉ mēlappāṭṭiṉuṭaiya payaṉkaḷai<lb n="3"/>k kūṟuppaṭṭatu ௳ <note xml:lang="en">not identical with the <term xml:lang="ta">Caracuvati Makāl</term> edition</note></seg>
     
         <pb facs="19" n="6r"/>
 
@@ -162,36 +161,39 @@ celvanilauyāmai iḷamainilaiyāmai yākkanilaiyāmai yeṉṟu matikāravaṭa
 <lb n="1"/>māviṉa marukā matakaḷiṟē māṟāmaṟ
 pālamuta mōṭu paḻamiṭuveṉ – cālavē
 nālaṭi nāṉūṟu naḻuvāma leṉmaṉattiṟ
-cīlamuṭa ṉiṟka<lb n="2"/>t teḷi ௳
+cīlamuṭa ṉiṟka<lb n="2" break="no"/>t teḷi ௳
 cīla muṉiva riruntu terinturaitta 
 nālaṭi nāṉūṟṟi ṉaṟporuḷaip pāvakaiyē 
-kaṇṭāṉ poruṭṭāṉ payaṉuraittāṉ kātali<lb n="3"/>ttut 
+kaṇṭāṉ poruṭṭāṉ payaṉuraittāṉ kātali<lb n="3" break="no"/>ttut 
 taṇṭār poṟaittan tāṉ ௳ 1
-veḷḷāṉ marapukku vētameṉa<lb n="4"/>c cāṉṟōrka
-ḷellāruṅ kūṭi yeṭutturaittuc – co<lb n="5"/>llāynta
+veḷḷāṉ marapukku vētameṉa<lb n="4" break="no"/>c cāṉṟōrka
+ḷellāruṅ kūṭi yeṭutturaittuc – co<lb n="5" break="no"/>llāynta
 nālaṭi nāṉūṟum naṉkiṉitā yeṉmaṉattē
 cīlamuṭa ṉiṟkavē ceppu ௳
 vāṉiṭu villiṉ varavaṟiyā vāymaiyāṟ 
-kāṉi<lb n="6"/>lan tōyāk kaṭavuḷai – yāṉilañ
+kāṉi<lb n="6" break="no"/>lan tōyāk kaṭavuḷai – yāṉilañ
 ceṉṉi yuṟavaṇaṅkic cērtumem muḷḷattu
 muṉṉi yavaimuṭika veṉṟu ௳ etu ௳
-vāṉiṭu villiṉ varavaṟi<lb n="7"/>yā vāymaiyāl - vāṉiṉkaṇṇē tōṉṟiya villiṉatu tōṟṟamu miḻappu maṟiya variyatu - atu pōṉṟa piṟappiṉa tiyalpaiyu maṟivaritu - yitu uṇmaiyātalā<lb n="8"/>l kāṉilan tōyāk kaṭavuḷai nilattiṉkaṇṇē kāl tariyātatōr kaṭavuḷai yāṉilañ ceṉṉiyuṟa vaṇaṅki - yām nilattiṉkaṇṇē ceṉṉimutalā<pb n="6v"/>kiya vēṭṭuṟuppukaḷum muntum paṭikku orumaiyuṭaṉ vaṇakkañ ceytu - 
+vāṉiṭu villiṉ varavaṟi<lb n="7" break="no"/>yā vāymaiyāl - vāṉiṉkaṇṇē tōṉṟiya villiṉatu tōṟṟamu miḻappu maṟiya variyatu - atu pōṉṟa piṟappiṉa tiyalpaiyu maṟivaritu - yitu uṇmaiyātalā<lb n="8" break="no"/>l kāṉilan tōyāk kaṭavuḷai nilattiṉkaṇṇē kāl tariyātatōr kaṭavuḷai yāṉilañ ceṉṉiyuṟa vaṇaṅki - yām nilattiṉkaṇṇē ceṉṉimutalā
+      <pb facs="20" n="6v" break="no"/>
+      <lb n="1"/>kiya vēṭṭuṟuppukaḷum muntum paṭikku orumaiyuṭaṉ vaṇakkañ ceytu - 
 <note xml:lang="en">verse 1 on <locus facs="21">f. 7r</locus>, l. 6</note></seg>
     
 <pb facs="344" n="168v"/>
 <seg function="explicit">
-<lb n="4"/><gap reason="ellipsis"/> <lg><l>kaṇmūṉ ṟu<lb n="5"/>yuṭaiyāṉuṅ kākkaiyum paiyaravu</l>
+<lb n="4"/><gap reason="ellipsis"/> <lg><l>kaṇmūṉ ṟu<lb n="5" break="no"/>ṭaiyāṉuṅ kākkaiyum paiyaravu</l>
 <l>meṉṉīṉṟa yāyum piḻaittateṉ ~ poṉṉīṉṟa</l>
 <l>koṅkarum peṉṉa mulaiyāy poruḷvayiṟ</l>
 <l>pāṅ<unclear>ka</unclear>ṉār ceṉṟa ṉeṟi</l></lg> ~ Etu ~
-kaṇmūṉṟu<lb n="6"/>ṭaiyāṉum - mūṉṟukaṇṇuṭaiya civaṉum - kākamum paiyaravum - paṭattaiyuṭaiya pāmpum eṉṉaip peṟṟa tāyum piḻaittateṉ yāṉ varuntac ceyta kuṟṟamillai poṉṉīṉ<lb n="7"/>ṟa kōṅkarumpaṉṉa mulaiyāy ~ kōṅkarumpiṉai yottup poṉcitarntaḻaku peṟṟa mulaiyiṉaiyuṭaiyāy poruḷvayiṟ pāṅ<supplied>ka</supplied>ṉār ceṉṟa neṟi poruḷ vayiṟ <choice><sic>pa</sic><corr>pi</corr></choice>rinta talai
+kaṇmūṉṟu<lb n="6" break="no"/>ṭaiyāṉum - mūṉṟukaṇṇuṭaiya civaṉum - kākamum paiyaravum - paṭattaiyuṭaiya pāmpum eṉṉaip peṟṟa tāyum piḻaittateṉ yāṉ varuntac ceyta kuṟṟamillai poṉṉīṉ<lb n="7" break="no"/>ṟa kōṅkarumpaṉṉa mulaiyāy ~ kōṅkarumpiṉai yottup poṉcitarntaḻaku peṟṟa mulaiyiṉaiyuṭaiyāy poruḷvayiṟ pāṅ<supplied>ka</supplied>ṉār ceṉṟa neṟi poruḷ vayiṟ <choice><sic>pa</sic><corr>pi</corr></choice>rinta talai
+  
   <pb n="169r" facs="345" break="no"/>
   <lb n="1"/>var ceṉṟa vaḻiyē nammai varuttañ ceytateṉṟavāṟu ~ kaṇmūṉṟuṭaiyāṉ piḻaittalāvatu kāmaṉai yiruvaḻittavaṉa - piṉpu mavaṉai yuḷakkiṉāṉeṉpatām ~ kākkai pi
-  <lb n="2" break="no"/>ḻaittal varuttañ ceyvataṟakuk kāraṇamākak kuyil muṭṭaiyiṭa ataṉait tāṉavaḷattuk kūvivittataṉāl varuttivittatām ~ paiyaravu piḻaittal - tāṉ viḻuṅkiya matiyaic
+  <lb n="2" break="no"/>ḻaittal varuttañ ceyvataṟakuk kāraṇamākak kuyil muṭṭaiyiṭa ataṉait tāṉavaḷattuk kūvivittataṉāl varuttivittatām ~ paiyaravu piḻaittal ~ tāṉ viḻuṅkiya matiyaic
   <lb n="3"/>cerippittuviṭāma lataṉai mīḷavuṅ kāṉ ṟataṉāl varuttivittatām ~ tāy piḻaittatu ~ taṉṉaip peṟṟu yippaṭi varuntumpaṭi vaittāḷeṉpatām ~ Ivaṟṟāl varitta
   <lb n="4" break="no"/>ñ ceyta tillai yeṉavē ivvakaittāl varuntiya vataṉaiyuṭkoṇṭu talaivar ceṉṟa vaḻiyeṉ ṟataṉ mēlēṟṟit talaivaraic celuttutalākiyavaḻi yillai
-  <lb n="5" break="no"/>yāyi ṉivaikaḷāṟ ceyyum varuttamu millaiyē namatu talaivarāl vanta varuttamaṉṟi ivvakaittālāya varuttamallaveṉṟu kūṟātupōṟ kūṟiyatām ~Itu piri
-  <lb n="6" break="no"/>vāṟṟāt talaimakaḷ tōḻik kuraittatu ௳ <g ref="#pattu"/> ௳ {Āka} 4<g ref="#nūṟu"/> ௳ 
+  <lb n="5" break="no"/>yāyi ṉivaikaḷāṟ ceyyum varuttamu millaiyē namatu talaivarāl vanta varuttamaṉṟi ivvakaittālāya varuttamallaveṉṟu kūṟātupōṟ kūṟiyatām ~ Itu piri
+  <lb n="6" break="no"/>vāṟṟāt talaimakaḷ tōḻik kuraittatu ௳ <g ref="#pattu"/> ௳ <seg function="total-stanzas">{Āka} 4<g ref="#nūṟu"/> ௳</seg> 
   <lg><l>Ōrātē yāṉuraitatē ṉāyiṉu moṇporuḷai</l>
 <l>yārāyntu koḷava raṟiyuṭaiyār cīrāyntu</l>
 <l>mikka kaḷaintu kuṟai <lb n="7"/>peyarntu vācittal</l>
