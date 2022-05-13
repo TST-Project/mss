@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -9,7 +9,7 @@
          <editor><persName>Neela Bhaskar</persName><orgName>Universität Hamburg</orgName></editor></titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -19,9 +19,9 @@
                   </repository>
                   <idno type="shelfmark">Indien 218</idno>
                   <idno type="alternate"><idno>Tamoul 218</idno></idno>
-               </msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103754h</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b100295885</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary>A vocabulary of French words with their Tamil counterparts compiled, according to the title by Beschi. Arranged according to French alphabetical order — A-Z. Often documents entire Tamil phrases with a simple French meaning, such as idioms and expressions. Also documents Tamil word-phrases. Entry verbs are not lemmatized. Arabic numerals to mark page numbers are present, and each new letter is printed in large. 
+                  <summary>A vocabulary of French words with their Tamil counterparts compiled, according to the title by Beschi. Arranged according to French alphabetical order, from A to Z. Often documents entire Tamil phrases with a simple French meaning, such as idioms and expressions. Also documents Tamil word-phrases. Entry verbs are not lemmatized. Arabic numerals to mark page numbers are present, and each new letter is printed in large. 
 </summary>
                   
                <msItem defective="false" class="#nikantu"><title xml:lang="fr">dictionnaire français-tamoul, Beschi</title><author xml:lang="fr">Beschi</author><textLang mainLang="fra" otherLangs="tam"/><filiation><p>Indien 216.</p></filiation><incipit xml:lang="fr"><milestone n="1r" facs="9"/><lb n="4"/>abaïe — <term xml:lang="ta-Taml">அனுசாரம்</term>…
@@ -65,7 +65,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian">Dated to circa 1750 by Vinson (1866-), to 1750 by Cabaton (1912), to the 18th century by James (2000), on unstated grounds (presumably palaeographical and material analysis arguments).</origDate>
+                     <origDate calendar="gregorian" notAfter="1800">Dated to circa 1750 by Vinson in Vinson et al. (1866-), to 1750 by Cabaton (1912), to the 18th century by James (2000), on unstated grounds (presumably palaeographical and material analysis arguments).</origDate>
                      <origPlace>Tamilnadu.</origPlace>
                   </origin>
                   <provenance/>
@@ -82,10 +82,10 @@
       <encodingDesc>
          
       <p>All conventions according to Tamil Lexicon.</p></encodingDesc>
-      <revisionDesc>
+      
+   <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
-      <change when="2021-12">First version.</change><change when="2021-12">Updated by Emmanuel FRANCIS (title, paratext, date, bibliography).</change></revisionDesc>
-   </teiHeader>
+      <change when="2021-12">First version.</change><change when="2021-12">Updated by Emmanuel FRANCIS (title, paratext, date, bibliography).</change></revisionDesc></teiHeader>
    <facsimile>
    <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b100295885/manifest.json"/></facsimile>
 </TEI>
