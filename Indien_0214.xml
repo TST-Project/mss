@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -8,7 +8,7 @@
          <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -17,11 +17,14 @@
                      <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
                   </repository>
                   <idno type="shelfmark">Indien 214</idno>
-                  <idno type="alternate"><idno>Tamoul 214</idno></idno>
-               </msIdentifier>
+                  <idno type="alternate"><idno>Tamoul 214</idno><idno>Ariel TBC</idno><idno>Aa/7</idno></idno>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103741f/cN10085</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b10091651k</idno></msIdentifier>
                <msContents class="#STM">
                   <summary><p>A Tamil-French dictionary by Louis Natal de Bourzès (L de Bourges, according to the title on the spine).</p>
 <p>Second part: from <foreign xml:lang="ta">tā</foreign> to <foreign xml:lang="ta">kṣo</foreign> (<foreign xml:lang="ta">tākam</foreign> to <foreign xml:lang="ta">kṣōpalam</foreign>).</p>
+<p>Description based on the examination of the original manuscript (October 2021).</p>
+<p>Dimensions assessed at the time of examination.</p> 
+
 </summary>
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="fr">Tamil-French Dictionary</term></title><textLang mainLang="tam" otherLangs="fra"/></msItem></msContents>
@@ -29,7 +32,7 @@
                   <objectDesc form="codex">
                      <supportDesc material="paper">
                         <extent>
-                           <measure unit="folio" quantity="267">[1] + [2] + 263 + [1] (u1  + u2 + U1 + u3).</measure>
+                           <measure unit="folio" quantity="267">{1} + {2} + 263 + {1} (u1  + u2 + U1 + u3).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
@@ -46,13 +49,12 @@
                   <handDesc>
                      
                   <handNote synch="#U1" scope="major" script="latin tamil" medium="ink"/></handDesc>
-                  <additions><desc synch="#cover" type="shelfmark" subtype="spine">Sticker with shelfmark (in black ink): <quote>A.a/7</quote></desc><desc synch="#cover" type="title" subtype="spine">Title printed on the spine: 
-<quote>
+                  <additions><desc type="shelfmark" subtype="spine">Sticker with shelfmark (in black ink): <quote>A.a/7</quote> (spine).</desc><desc type="title" subtype="spine">Title printed on the spine: 
+<quote xml:lang="fr" rend="block">
   <lb n="1"/>L. DE BOURGES
   <lb n="2"/>DICTIONNAIRE
   <lb n="3"/>TAMOUL ET FRANÇAIS
-<lb n="4"/>I
-</quote></desc><desc synch="#cover" type="shelfmark" subtype="beginning cover">BnF shelfmark sticker: <quote>INDIEN 214</quote> (<locus facs="1">front cover, verso</locus>).</desc><desc synch="#u1" type="shelfmark">BnF shelfmark in black pencil: <quote>Tamoul N° 214</quote> (<locus facs="1">f[1]r</locus>).</desc></additions>
+</quote></desc><desc type="shelfmark" subtype="beginning cover">BnF shelfmark sticker: <quote>INDIEN 214</quote> (<locus facs="1">front cover, verso</locus>).</desc><desc synch="#u1" type="shelfmark">BnF shelfmark in black pencil: <quote>Tamoul N° 214</quote> (<locus facs="1">f[1]r</locus>).</desc></additions>
                   <bindingDesc>
                      <binding>
                         
@@ -62,7 +64,7 @@
                <decoDesc/></physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian" notAfter="1854">No internal date. Dated to the 18th century by Cabaton (1912) and James (2000), on unstated grounds (presumably palaeographical and material analysis arguments).</origDate>
+                     <origDate calendar="gregorian" notAfter="1854">No internal date. Dated to the 18th century by Cabaton (1912) and James (2000), on unstated grounds (presumably palaeographical and material analysis arguments). Not after 1854, since part of the collection of <persName role="collector">Édouard Ariel</persName> (1818-1854).</origDate>
                      <origPlace>Tamilnadu.</origPlace>
                   </origin>
                   <acquisition>
@@ -78,21 +80,22 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      
+   <encodingDesc><p>   <emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.              </p></encodingDesc><revisionDesc>
          
-      <change when="2021-12">Record created by Emmanuel FRANCIS.</change></revisionDesc>
-   <encodingDesc><p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.    </p></encodingDesc></teiHeader>
+      <change when="2021-12">Record created by Emmanuel FRANCIS.</change><change when="2022-05">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, May 2022.</change></revisionDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
    
 <facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10091651k/manifest.json"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
-  
+  <ab>
+    
   <pb facs="2" n="[1]r"/><note xml:lang="en">i.e. p. 1</note>
   
   <milestone unit="header"/>
       <lb n="1"/>tākam. <space/> <term xml:lang="fr">1.</term> <space/> tāṭṭi
 
-  <milestone n="1" unit="column"/>
+  <seg function="incipit"><milestone facs="2" n="1" unit="column"/>
     <lb n="1"/>tā.
-  <lb n="2"/><seg function="incipit">tākam <term xml:lang="fr">soif. métaph:__ désir. us.</term></seg>
+  <lb n="2"/>tākam <term xml:lang="fr">soif. métaph:__ désir. us.</term></seg>
   <lb n="3"/>tākitiyaṉ. <term xml:lang="fr">l'oiseau</term> karutaṉ <term xml:lang="fr">poet</term>
       <lb n="4ff."/><gap reason="ellipsis"/>
 
@@ -104,21 +107,22 @@
     <milestone n="1" unit="column"/>
  <lb n="1ff."/><gap reason="ellipsis"/>
   
-  <milestone n="2" unit="column"/>
-  <lb n="6"/><seg function="explicit">kṣōpalam <term xml:lang="fr">Bassesse <gap reason="ellipsis"/>
+  <seg function="explicit">
+    <milestone facs="279" n="2" unit="column"/>
+  <lb n="6"/>kṣōpalam <term xml:lang="fr">Bassesse <gap reason="ellipsis"/>
   <lb n="7"/><gap reason="ellipsis"/></term></seg>
-  <term xml:lang="fr">
+  <seg function="colophon"><term xml:lang="fr">
     <lb n="8"/>fin du Dictionnaire
     <lb n="9"/>EA
     <lb n="10"/>Après la conclusion <gap reason="ellipsis"/>
     <lb n="11-12"/><gap reason="ellipsis"/>
     <lb n="20"/>10 pages de plus que la d<hi rend="superscript">re</hi> numérotée.
     <lb n="21"/>EA
-  </term>
+  </term></seg>
   
     <pb facs="280" n="262v"/><note xml:lang="en">blank</note>
     <pb facs="280" n="[263]r"/><note xml:lang="en">blank</note>
     <pb n="[263]v"/><note xml:lang="en">blank</note>
 
-
+</ab>
 </body></text></TEI>
