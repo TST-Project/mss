@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -8,7 +8,7 @@
          <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -18,18 +18,20 @@
                   </repository>
                   <idno type="shelfmark">Indien 225</idno>
                   <idno type="alternate"><idno>Tamoul 226.1</idno></idno>
-               </msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103760n</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/nk322j12v</idno></msIdentifier>
                <msContents class="#STM">
                   <summary><p>First part of a French-Telugu-Tamil dictionary. Incomplete: contains almost only the entries in French. Telugu and Tamil glosses only at the beginning. Occasional Tamil glosses added later in the rest of the dictionary.</p>
 <p>For the second part, see BnF Indien 226.</p>
-<p>At the beginning of the volume are inserted pages of a French-Tamil dictionary (U1, f1-f2, f4).</p></summary>
+<p>At the beginning of the volume are inserted pages of a French-Tamil dictionary (U1, f1-f2, f4).</p>
+<p>Description based on the examination of the original manuscript (September 2021).</p>
+<p>Dimensions assessed at the time of examination.</p> </summary>
                   
                <msItem synch="#U1a" xml:id="T1" defective="true"><title xml:lang="fr">French-Tamil Dictionary</title><textLang mainLang="fra" otherLangs="tam"/></msItem><msItem synch="#U1b" xml:id="T2" defective="false"><title xml:lang="fr">French-Telugu Dictionary</title><textLang mainLang="fra" otherLangs="tam tel"/></msItem></msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="paper">
                         <extent>
-                           <measure unit="folio" quantity="213">[1] + 211 + [1] (u1 + U1 + u2).</measure>
+                           <measure unit="folio" quantity="213">{1} + 211 + {1} (u1 + U1 + u2).</measure>
                            <dimensions type="leaf" unit="mm">
                               <width quantity="255"/>
                               <height quantity="400"/>
@@ -41,7 +43,7 @@
                      <support><measure unit="stringhole"/></support><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. Shelfmark on recto.</desc><desc xml:id="u1">1 folio = front <emph rend="bold">guard leaf</emph>. No foliation. Shelfmarks on recto. Binder note on recto. Verso blank. Element of library binding.</desc><desc xml:id="U1">211 folios = <emph rend="bold">Dictionary</emph>. Library Arabic foliation in red ballpen 1-211. 400 x 255 mm.
 </desc><desc xml:id="U1a">3 folios = <emph rend="bold">French-Tamil Dictionary</emph>. Library Arabic foliation in red ballpen 1-2, 4. f1 folded (original size: 420 x 255 mm), f4 folded. f2v blank.
 </desc><desc xml:id="U1b">208 folios = <emph rend="bold">French-Telugu dictionary</emph>. Library Arabic foliation in red ballpen 3, 5-211. Partial Arabic pagination in black ink 1-356. Paginated pages are interrupted by non paginated pages, e.g., pp. 1-2 = f3, f4, pp. 3-4 = f5, f6, pp. 5-6 = f7, etc. The unpaginated pages are mostly blank and are inserted notes. Telugu glosses only up to f25v = p. 32. From there onwards, only French entries, but here and there Tamil glosses added, e.g. f40r (black ink), f71r (black pencil).
-</desc><desc xml:id="u2">1 folio = back <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso. Element of library binding.</desc><desc xml:id="CoverBack">the <emph rend="bold">front cover</emph>.</desc></collation></supportDesc>
+</desc><desc xml:id="u2">1 folio = back <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso. Element of library binding.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation></supportDesc>
                      <layoutDesc>
                         
                      <layout columns="2"/></layoutDesc>
@@ -49,13 +51,13 @@
                   <handDesc>
                      
                   <handNote synch="#U1" scope="major" script="latin telugu tamil" medium="ink black"/></handDesc>
-                  <additions><desc synch="#cover" type="title" subtype="spine"><quote>DICTIONNAIRE FRANÇAIS TAMOUL TELOUGOU A-I</quote> (<locus facs="2">spine</locus>).</desc><desc synch="#cover" type="shelfmark" subtype="spine">BnF shelfmark in black pencil: <quote>Tam 225</quote> (<locus facs="3">spine</locus>).</desc><desc synch="#cover" type="shelfmark" subtype="spine">BnF shelfmark sticker: <quote>INDIEN 225</quote> (<locus facs="3">spine</locus>).</desc><desc synch="#cover" type="shelfmark" subtype="beginning cover">BnF shelfmark sticker: <quote>INDIEN 225</quote> (<locus facs="4">front cover, verso</locus>).</desc><desc synch="#u1" type="shelfmark">BnF shelfmark in black pencil: <quote>Tamoul N° 226<hi rend="superscript">1</hi></quote> (<locus facs="5">f[1]r</locus>).</desc><desc synch="#u1" corresp="#T1" type="shelfmark" subtype="left">BnF shelfmark in black ink: <quote>Tam. 226<hi rend="superscript">I</hi></quote> (<locus facs="5">f[1]r</locus>).</desc><desc synch="#u1" type="documenting-note">Binder's note in black ink: 
-<quote xml:lang="fr">
+                  <additions><desc type="title" subtype="spine"><quote>DICTIONNAIRE FRANÇAIS TAMOUL TELOUGOU A-I</quote> (<locus facs="2">spine</locus>).</desc><desc type="shelfmark" subtype="spine">BnF shelfmark in black pencil: <quote>Tam 225</quote> (<locus facs="3">spine</locus>).</desc><desc type="shelfmark" subtype="spine">BnF shelfmark sticker: <quote>INDIEN 225</quote> (<locus facs="3">spine</locus>).</desc><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 225</quote> (<locus facs="4">front cover, verso</locus>).</desc><desc synch="#u1" type="shelfmark">BnF shelfmark in black pencil: <quote>Tamoul N° 226<hi rend="superscript">1</hi></quote> (<locus facs="5">f[1]r</locus>).</desc><desc synch="#u1" corresp="#T1" type="shelfmark" subtype="left">BnF shelfmark in black ink: <quote>Tam. 226<hi rend="superscript">I</hi></quote> (<locus facs="5">f[1]r</locus>).</desc><desc synch="#u1" type="documenting-note">Binder's note in black ink (<locus facs="5">f[1]r</locus>): 
+<quote xml:lang="fr" rend="block">
 <lb n="1"/>Volume de 211 feuillets.
 <lb n="2"/>plus le feuillet 198<hi rend="superscript">bis</hi>.
 <lb n="3"/>Les feuillets 3-5 sont mutilés
 <lb n="4"/>21 juin 1869.
-</quote> (<locus facs="5">f[1]r</locus>).</desc><desc synch="#U1a" type="shelfmark">Shelfmark sticker (Société Asiatique?), written in black ink: <quote><del>212</del></quote> (<locus facs="13">f2v</locus>).</desc><desc synch="#U1a" type="header"/><desc synch="#U1b" type="header"/></additions>
+</quote> </desc><desc synch="#U1a" type="shelfmark">Shelfmark sticker (Société Asiatique?), written in black ink: <quote><del>212</del></quote> (<locus facs="13">f2v</locus>).</desc><desc synch="#U1a" type="header"/><desc synch="#U1b" type="header"/></additions>
                   <bindingDesc>
                      <binding>
                         <p>Brown covers. Title and shelfmark on the spine.</p>
@@ -64,7 +66,7 @@
                <decoDesc/></physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian" notAfter="1854">No internal date. Dated to 1780 by Cabaton (1912), on unstated grounds (presumably palaeographical and material analysis arguments).</origDate>
+                     <origDate calendar="gregorian" notAfter="1854">No internal date. Dated to 1780 by Cabaton (1912), on unstated grounds (presumably palaeographical and material analysis arguments). Not after 1854, since part of the collection of <persName role="collector">Édouard Ariel</persName> (1818-1854).</origDate>
                      <origPlace>Tamilnadu.</origPlace>
                   </origin>
                   <acquisition>
@@ -80,13 +82,14 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      
+   <encodingDesc><p> <emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.              </p></encodingDesc><revisionDesc>
          
-      <change when="2021-09">Record created by Emmanuel FRANCIS.</change></revisionDesc>
-   <encodingDesc><p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.    </p></encodingDesc></teiHeader>
+      <change when="2021-09">Record created by Emmanuel FRANCIS.</change><change when="2022-05">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, May 2022.</change></revisionDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
    
 <facsimile><graphic url="https://didomena.ehess.fr/concern/data_sets/nk322j12v/manifest.json"/></facsimile><text synch="#U1a" corresp="#T1" xml:lang="fr"><body>
   
+  <ab>
   <pb facs="9" n="1v"/>
   <seg function="header">A</seg>
   <milestone n="1" unit="column"/>
@@ -105,9 +108,11 @@
   <lb n="46"/><seg function="explicit">absous.
   <lb n="47"/>s'abstenir. avec régime</seg>
   
+    </ab>
 </body>
    </text><text synch="#U1b" corresp="#T2" xml:lang="fr"><body>
-  
+  <ab>
+    
   <pb facs="21" n="3r"/><note xml:lang="en">i.e. page 1</note>
                     
   <milestone n="1" unit="column"/>
@@ -133,6 +138,6 @@
   <lb n="37"/>Mariage illegitime
   </seg>
 
-  
+  </ab>
 </body>
    </text></TEI>

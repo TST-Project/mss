@@ -1,14 +1,14 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Mayilattiruppukaḻ</title>
-         </titleStmt>
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -18,16 +18,18 @@
                   </repository>
                   <idno type="shelfmark">Indien 244</idno>
                   <idno type="alternate"><idno>Tamoul 244</idno></idno>
-               </msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1037783</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary><title xml:lang="ta">Mayilattiruppukaḻ</title> or <title xml:lang="ta">Mayilācalattiruppukaḻ</title>.</summary>
+                  <summary><title xml:lang="ta">Mayilattiruppukaḻ</title> or <title xml:lang="ta">Mayilācalattiruppukaḻ</title>.
+<p>Description based on the examination of the original manuscript (June 2021).</p>
+<p>Dimensions assessed at the time of examination.</p> </summary>
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title page</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2a" xml:id="T2" defective="false"><title xml:lang="ta">Mayilattiruppukaḻ: <term xml:lang="en">stanza</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2b" xml:id="T3" defective="false"><title xml:lang="ta">Mayilattiruppukaḻ: <term xml:lang="en">text</term></title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
                         <extent>
-                           <measure unit="folio" quantity="58">1 + 1 + 50 + 6 (U1 + U2a + U2b + U3).</measure>
+                           <measure unit="folio" quantity="58">{1} + {1} + 50 + {6} (U1 + U2a + U2b + U3).</measure>
                            <dimensions type="leaf" unit="mm">
                               <width quantity="390"/>
                               <height quantity="30"/>
@@ -36,20 +38,20 @@
                         <dimensions type="object" unit="mm"><width quantity="390"/><height quantity="30"/><depth quantity="50"/></dimensions><dimensions type="written" unit="mm"/></extent>
                         
                         <condition>Poor state of preservation. Many boreholes. Fragile leaves. </condition>
-                     <support><measure unit="stringhole" quantity="2"/></support><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. Shelfmark and sticker on recto.</desc><desc xml:id="U1">1 folio = <emph rend="bold">title page</emph>. No foliation. Verso blank. Shelfmark on recto.</desc><desc xml:id="U2a">1 folio = <emph rend="bold"><title xml:lang="ta">Mayilattiruppukaḻ</title>: stanza</emph>. No foliation. Tamil foliation (right margin) 1.</desc><desc xml:id="U2b">50 folios = <emph rend="bold"><title xml:lang="ta">Mayilattiruppukaḻ</title>: stanza</emph>. Tamil foliation (left margin) [1]-28<sup>1</sup>, 28-41<sup>1</sup>, 41<sup>2</sup>, 41<sup>3</sup>-47. Tamil foliation (right margin) 2-51.
+                     <support><measure unit="stringhole" quantity="2"/></support><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. Shelfmark and sticker on recto.</desc><desc xml:id="U1">1 folio = <emph rend="bold">title page</emph>. No foliation. Verso blank. Shelfmark on recto.</desc><desc xml:id="U2a">1 folio = <emph rend="bold"><title xml:lang="ta">Mayilattiruppukaḻ</title>: stanza</emph>. No foliation. Tamil foliation (right margin) 1.</desc><desc xml:id="U2b">50 folios = <emph rend="bold"><title xml:lang="ta">Mayilattiruppukaḻ</title>: stanza</emph>. Tamil foliation (left margin) {1}-28<hi rend="superscript">1</hi>, 28<hi rend="superscript">2</hi>-41<hi rend="superscript">1</hi>, 41<hi rend="superscript">2</hi>, 41<hi rend="superscript">3</hi>-47. Tamil foliation (right margin) 2-51.
 </desc><desc xml:id="U3">6 folios = <emph rend="bold">back guard leaves</emph>. No foliation. Blank rv. f[5]v darkened = outside page of original bundle.
-</desc><desc xml:id="CoverBack">the <emph rend="bold">front cover</emph>.</desc></collation></supportDesc>
+</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation></supportDesc>
                      <layoutDesc>
                         
                      <layout writtenLines="6"/></layoutDesc>
                   </objectDesc>
                   <handDesc>
                      
-                  <handNote synch="#U1" scope="minor" scribeRef="#ArielTitleScribe" script="tamil" scriptRef="#tamilPulliRegular #tamilOE" medium="incised"/><handNote synch="#U2a U2b" scope="major" script="tamil" medium="incised"/></handDesc>
-                  <additions><desc synch="#cover" type="shelfmark" subtype="beginning">BnF shelfmark sticker: <quote>INDIEN 244</quote>.</desc><desc synch="#cover" type="documenting-note" subtype="beginning">BnF <quote>DON N°</quote> sticker.</desc><desc synch="#U1" corresp="#T1" type="shelfmark" subtype="left"><quote>c/20</quote> in black ink (f[1]r).</desc><desc synch="#U1" subtype="right">Sticker (Société Asiatique?) with shelfmark <quote>694</quote> inscribed in black ink (f[1]r).</desc></additions>
+                  <handNote synch="#U1" scope="minor" scribeRef="#ArielTitleScribe" script="tamil" scriptRef="#tamilPulliRegular #tamilOE" medium="incised"/><handNote synch="#U2a #U2b" scope="major" script="tamil" medium="incised"/></handDesc>
+                  <additions><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 244</quote>.</desc><desc synch="#CoverFront" type="documenting-note" subtype="cover front">BnF <quote>DON N°</quote> sticker.</desc><desc synch="#U1" corresp="#T1" type="shelfmark" subtype="left"><quote>c/20</quote> in black ink (f[1]r).</desc><desc synch="#U1" subtype="right">Sticker (Société Asiatique?) with shelfmark <quote>694</quote> inscribed in black ink (f[1]r).</desc></additions>
                   <bindingDesc>
                      <binding>
-                        <p><material resp="#cLI" cert="medium">Mahogany</material> woodcovers apparently fabricated in the BnF.</p>
+                        <p><material cert="medium">Pinewood</material> covers apparently fabricated in the BnF.</p>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -71,20 +73,13 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      
+   <encodingDesc><p> <emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.              </p></encodingDesc><revisionDesc>
          
-      <change when="2021-06">Record created by Emmanuel FRANCIS.</change></revisionDesc>
-   <encodingDesc><p><p>
-  <emph rend="bold">Transliteration conventions</emph>
-</p>
-<p>
-  Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only).
-</p>
-<p><emph rend="bold">Abbreviations</emph></p>
-<p> c = column, f = folio, lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.</p></p></encodingDesc></teiHeader>
+      <change when="2021-06">Record created by Emmanuel FRANCIS.</change><change when="2022-05">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, May 2022.</change></revisionDesc></teiHeader>
    
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
-  
+  <ab>
   <pb n="[1]r"/>
   
   <milestone n="1" unit="column"/>
@@ -96,10 +91,10 @@
   <lb n="1"/><seg function="title">mayilācala-t
   <lb n="2" break="no"/>tiruppukaḻ</seg>
 
-
+</ab>
 </body>
    </text><text synch="#U2a" corresp="#T2" xml:lang="ta"><body>
-  
+  <ab>
   <pb n="1r"/>
   
   <milestone unit="left margin"/>
@@ -127,9 +122,9 @@
   <lb n="5"/><seg function="blessing">vāṇi namastu</seg> <g ref="#pcl"/> <seg function="blessing">civakiṟupai Uṇṭāka tākavum</seg> cuppiṟamaṇiyar tuṇai Uṇṭāka tākavu=<seg rend="grantha">m</seg>=<g ref="#pcl"/>
 
   <lb n="5"/>
-
+</ab>
 </body></text><text synch="#U2b" corresp="#T3" xml:lang="ta"><body>
-  
+  <ab>
   <pb n="1r"/>
   
   <milestone unit="left margin"/>
@@ -163,5 +158,5 @@
   <lb n="3"/>paṭikkiṉṟa mayilatiruppukaḻ Eḻuti mukintutu yitu yeḻutiṉatu keṇṭikoṭṭai ṟāmuṉayakkaṉ kumāraṉ ṟaṅkacāmi <gap reason="illegible" quantity="1" unit="character"/> pāṭṭaṉ
   <lb n="4"/>veṅkiṭācala<unclear reason="vowel_unclear">ṉu</unclear> kaiyi Eḻut=tu</seg> <g ref="#pcl"/> <seg function="documenting-note">yitai yārām oruvar paṭitta pērkaḷ yi eḻuttu piḻai
   <lb n="5"/>col piḻai yinta tālaṭi<unclear>yeṉ mel kopavakkāl</unclear> kurittip poṭalu=<seg rend="grantha">m</seg></seg> <g ref="#pcl"/>
-
+</ab>
 </body></text></TEI>
