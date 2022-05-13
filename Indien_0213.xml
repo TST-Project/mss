@@ -17,7 +17,7 @@
                      <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
                   </repository>
                   <idno type="shelfmark">Indien 213</idno>
-                  <idno type="alternate"><idno>Tamoul 213</idno></idno>
+                  <idno type="alternate"><idno>Tamoul 213</idno><idno>Ariel TBC</idno><idno>Aa/7</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103741f/cN10078</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b10091656t</idno></msIdentifier>
                <msContents class="#STM">
                   <summary><p>A Tamil-French dictionary by Louis Natal de Bourzès (L de Bourges, according to the title on the spine).</p>
@@ -54,9 +54,8 @@
   <lb n="1"/>L. DE BOURGES
   <lb n="2"/>DICTIONNAIRE
   <lb n="3"/>TAMOUL ET FRANÇAIS
-<lb n="4"/>I
 </quote></desc><desc type="shelfmark" subtype="beginning cover">BnF shelfmark sticker: <quote>INDIEN 213</quote> (<locus facs="1">front cover, verso</locus>).</desc><desc synch="#u1" type="shelfmark">BnF shelfmark in black pencil: <quote>Tamoul N° 213</quote> (<locus facs="1">f[1]r</locus>).</desc><desc synch="#u2" type="title">Title in black pencil:
-<quote>
+<quote xml:lang="fr" rend="block">
   <lb n="1"/>L. DE BOURGES
   <lb n="2"/>Dictionnaire
   <lb n="3"/>tamoul et
@@ -95,32 +94,32 @@
    
 <facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10091656t/manifest.json"/></facsimile><text synch="#U1a" corresp="#T1" xml:lang="fr"><body>
   <ab>
-  <pb facs="3" n="[1]r"/><note xml:lang="en">i.e. p. i</note>
-  <lb n="1"/><seg function="title">Dictionnaire
+  <seg function="title"><pb facs="3" n="[1]r"/><note xml:lang="en">i.e. p. i</note>
+  <lb n="1"/>Dictionnaire
   <lb n="2"/>Tamoul, et
   <lb n="3"/>français.</seg>
-  <lb n="4"/><seg function="intertitle">Préface</seg>
-  <lb n="5"/><seg function="incipit">Ce dictionnaire contient en 1<hi rend="superscript">er</hi> lieu les termes qui fe trouvent dans 
+  <seg function="intertitle"><lb n="4"/>Préface</seg>
+  <seg function="incipit"><lb n="5"/>Ce dictionnaire contient en 1<hi rend="superscript">er</hi> lieu les termes qui fe trouvent dans 
   <lb n="6"/>Dictionnaire Portugais tamoul, à la réserve de quelques que j'ay cru
   <lb n="7"/>devoir rejeter comme fautifs ou de très bas usage, et de quelqu'autres, qu'il
   <lb n="8"/>est aisé de suppléer en les formant par les règles.</seg> <gap reason="ellipsis"/>
   
-  <pb facs="7" n="[4]v"/><note xml:lang="en">i.e. p. viii</note>
-  <lb n="1"/><seg function="intertitle">Ordres des lettres tamouliques qui se suit dans ce dictionnaire.</seg>
+  <seg function="intertitle"><pb facs="7" n="[4]v"/><note xml:lang="en">i.e. p. viii</note>
+  <lb n="1"/>Ordres des lettres tamouliques qui se suit dans ce dictionnaire.</seg>
   
-    <pb facs="7" n="[5]r"/><note xml:lang="en">i.e. p. ix</note>
+    <seg function="intertitle"><pb facs="7" n="[5]r"/><note xml:lang="en">i.e. p. ix</note>
   <milestone n="1" unit="column"/>
-  <lb n="15-16"/><seg function="intertitle">Quelques lettres qu'on trouve quelque fois dans les monuments.</seg>
+  <lb n="15-16"/>Quelques lettres qu'on trouve quelque fois dans les monuments.</seg>
   
-  <pb facs="8" n="[5]v"/><note xml:lang="en">i.e. p. x</note>
-  <lb n="7"/><seg function="intertitle">Certains changements de lettres, sur les quelles il faut être attentifs
+  <seg function="intertitle"><pb facs="8" n="[5]v"/><note xml:lang="en">i.e. p. x</note>
+  <lb n="7"/>Certains changements de lettres, sur les quelles il faut être attentifs
   <lb n="8"/>dans l'usage de ce Dictionnaire.</seg>
   
-  <pb facs="8" n="[6]r"/><note xml:lang="en">i.e. p. x</note>
-  <lb n="7"/><seg function="intertitle">De la rencontre des voyelles des Elisions</seg>
+  <seg function="intertitle"><pb facs="8" n="[6]r"/><note xml:lang="en">i.e. p. x</note>
+  <lb n="7"/>De la rencontre des voyelles des Elisions</seg>
   
-   <pb facs="9" n="[6]v"/><note xml:lang="en">i.e. p. viii</note>
-  <lb n="21"/><seg function="intertitle">Abregé de l'alphabet tamoul Samscroutan.</seg>
+   <seg function="intertitle"><pb facs="9" n="[6]v"/><note xml:lang="en">i.e. p. viii</note>
+  <lb n="21"/>Abregé de l'alphabet tamoul Samscroutan.</seg>
   
     </ab>
 </body>
@@ -132,9 +131,9 @@
   <milestone unit="header"/>
       <lb n="1"/>Akarāti <space/> <term xml:lang="fr">1.</term> <space/> Akattīṭu
   
-  <milestone n="1" unit="column"/>
+  <seg function="incipit"><milestone facs="11" n="1" unit="column"/>
   <lb n="1"/>Aka.
-  <lb n="2"/><seg function="incipit">Akarāti <term xml:lang="fr"><gap reason="ellipsis"/> commence la lettre A.</term></seg>
+  <lb n="2"/>Akarāti <term xml:lang="fr"><gap reason="ellipsis"/> commence la lettre A.</term></seg>
   <lb n="4"/>A <term xml:lang="fr">lettre demonstrati. souvent le même
   <lb n="5"/>que</term> Aratal Akkarai. <term xml:lang="fr">elle exprime
   <lb n="6"/>le contraire. v.</term> Akkaṇṭam <term xml:lang="fr">les termes
@@ -149,9 +148,9 @@
     <milestone n="1" unit="column"/>
 <lb n="1ff."/><gap reason="ellipsis"/>
   
-  <milestone n="2" unit="column"/>
+  <seg function="explicit"><milestone facs="300" n="2" unit="column"/>
   <lb n="1ff."/><gap reason="ellipsis"/>
-  <lb n="17"/><seg function="explicit">takṣaṇa, takṣaṇa <term xml:lang="fr">du sud. voyez</term>
+  <lb n="17"/>takṣaṇa, takṣaṇa <term xml:lang="fr">du sud. voyez</term>
   <lb n="18"/>tekṣaṇam.
     <lb n="19"/>takṣaṇāmūṟti <term xml:lang="fr">certaine idole.</term></seg>
       
