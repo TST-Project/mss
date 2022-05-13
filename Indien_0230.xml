@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -8,7 +8,7 @@
          <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -17,18 +17,19 @@
                      <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
                   </repository>
                   <idno type="shelfmark">Indien 230</idno>
-                  <idno type="alternate"><idno>Tamoul 230</idno></idno>
-               </msIdentifier>
+                  <idno type="alternate"><idno>Tamoul 230</idno><idno>Ariel 77</idno><idno>a/27</idno></idno>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103763g</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b10090593d</idno></msIdentifier>
                <msContents class="#STM">
                   <summary><p>The <title xml:lang="ta">Malaiyakarāti</title>, alias the <title xml:lang="ta">Akattiyar Akarāti</title>, a dictionary of medicinal plants, attributed to <persName xml:lang="ta">Akattiyar</persName>.</p>
+   <p>Description based on the examination of the original manuscript (October 2021).</p>  <p>Dimensions assessed at the time of examination.</p>      
 </summary>
                   
-               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="ta">Title Page</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta">Malaiyakarāti</title><textLang mainLang="tam"/></msItem></msContents>
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="ta">Title Page (additional)</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta">Malaiyakarāti</title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
                         <extent>
-                           <measure unit="folio" quantity="58">[1] + 57 + (U1 + U2).</measure>
+                           <measure unit="folio" quantity="58">{1} + 57 + (U1 + U2).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
@@ -37,18 +38,18 @@
                         <dimensions type="object" unit="mm"><width quantity="375"/><height quantity="40"/><depth quantity="50"/></dimensions><dimensions type="written" unit="mm"/></extent>
                         
                         <condition>Fairly good state of preservation, despite boreholes.</condition>
-                     <support><measure unit="stringhole" quantity="2"/></support><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. Shelfmark and bequest stickers on recto.</desc><desc xml:id="U1">1 folio = <emph rend="bold">Title Page</emph>. No foliation. Single folio (i.e. half of a double folio). Shelfmark son recto. Verso blank. 375 x 40 mm. </desc><desc xml:id="U2">57 folios = <emph rend="bold"><term xml:lang="ta">Malaiyakarāti</term></emph>. Tamil foliation 1-57. Single folios. f57v blank. Layout in columns. Unblackened additions on many pages. 375 x 40 mm.
+                     <support><measure unit="stringhole" quantity="2"/></support><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. Shelfmark and bequest stickers on recto.</desc><desc xml:id="U1">1 folio = <emph rend="bold">Title Page (additional)</emph>. No foliation. Single folio (i.e. half of a double folio). Shelfmark on recto. Verso blank. 375 x 40 mm. </desc><desc xml:id="U2">57 folios = <emph rend="bold"><term xml:lang="ta">Malaiyakarāti</term></emph>. Tamil foliation 1-57. Single folios. f57v blank. Layout in columns. Unblackened additions on many pages. 375 x 40 mm.
 
 
-</desc><desc xml:id="CoverBack">the <emph rend="bold">front cover</emph>.</desc></collation></supportDesc>
+</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation></supportDesc>
                      <layoutDesc>
                         
-                     <layout columns="3 4"/></layoutDesc>
+                     <layout columns="3 4">Layout in columns.</layout></layoutDesc>
                   </objectDesc>
                   <handDesc>
                      
-                  <handNote synch="#U1" scope="minor" scribeRef="#ArielTitleScribe" script="tamil" medium="incised"/><handNote synch="#U2" scope="major" script="tamil" medium="incised"/></handDesc>
-                  <additions><desc synch="#cover" type="shelfmark" subtype="beginning cover">BnF shelfmark sticker: <quote>INDIEN 230</quote> (front cover, recto).</desc><desc synch="#cover" type="documenting-note" subtype="beginning cover">BnF bequest sticker <quote>DON N° <space type="vacat"/></quote> (front cover, recto).</desc><desc synch="#U1" type="shelfmark">Shelfmark in black ink: <quote>a/27</quote> (f[1]r).</desc><desc synch="#U1" type="shelfmark">Shelfmark sticker (Société Asiatique?), written in black ink: <quote>690</quote>.</desc></additions>
+                  <handNote synch="#U1" scope="minor" scribeRef="#ArielTitleScribe" script="tamil" medium="incised soot"/><handNote synch="#U2" scope="major" script="tamil" medium="incised soot"/></handDesc>
+                  <additions><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 230</quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#CoverFront" type="documenting-note" subtype="cover front">BnF bequest sticker <quote>DON N° <space type="vacat"/></quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#U1" type="shelfmark">Shelfmark in black ink: <quote>a/27</quote> (<locus facs="4">f[1]r</locus>).</desc><desc synch="#U1" type="shelfmark">Shelfmark sticker (Société Asiatique?), written in black ink: <quote>690</quote> (<locus facs="4">f[1]r</locus>).</desc></additions>
                   <bindingDesc>
                      <binding>
                         <p><material cert="medium">Pinewood</material> covers apparently fabricated in the BnF. 375 x 35 mm. Shelfmark and bequest stickers.</p>
@@ -57,7 +58,7 @@
                <decoDesc/></physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian" notAfter="1854">No internal date. Dated to circa 1820 by Vinson (1866-), to 1820 by Cabaton (1912), on unstated grounds (presumably palaeographical and material analysis arguments).</origDate>
+                     <origDate calendar="gregorian" notAfter="1854">No internal date. Dated to circa 1820 by Vinson (1866-), to 1820 by Cabaton (1912), on unstated grounds (presumably palaeographical and material analysis arguments). Not after 1854, since part of the collection of <persName role="collector">Édouard Ariel</persName> (1818-1854).</origDate>
                      <origPlace>Tamilnadu.</origPlace>
                   </origin>
                   <acquisition>
@@ -73,59 +74,66 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      
+   <encodingDesc><p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.            </p></encodingDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
-      <change when="2021-10">Record created by Emmanuel FRANCIS.</change></revisionDesc>
-   <encodingDesc><p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.    </p></encodingDesc></teiHeader>
+      <change when="2021-10">Record created by Emmanuel FRANCIS.</change><change when="2022-05">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, May 2022.</change></revisionDesc></teiHeader>
    
-<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+<facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10090593d/manifest.json"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+  <ab>
   
-  <pb n="1r"/>
-  
-  <lb n="1"/><seg function="title">Akastiya-cuvāmikaḷ aruḷic ceyta
+    <seg function="title">
+      <pb facs="4" n="1r"/>
+    <lb n="1"/>Akastiya-cuvāmikaḷ aruḷic ceyta
  <lb n="2"/><del>vayittiya Akarāti</del>
  <lb n="3"/>malaiyakarāti</seg> 
-     
+     </ab>
 </body>
    </text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
+    <ab>
+
+  <seg function="header">
+    <pb facs="5" n="1r"/>
   
-  <pb n="1r"/>
-  
-  <milestone n="1" unit="left-margin"/>
+  <milestone facs="5" n="1" unit="left-margin"/>
     <lb n="1"/>{mutal} = 1 = <note xml:lang="en">foliation</note>
   
-   <milestone n="2" unit="left-margin"/>
+   <milestone facs="5" n="2" unit="left-margin"/>
   <lb n="1"/><seg function="title">Akattiyar a
 <lb n="2" break="no"/>ruḷic ceyta
 <lb n="3" break="no"/>malai <note xml:lang="en">unblackened addition</note>
 <lb n="4"/>Akarāti</seg>
-<lb n="5"/><seg function="TBC">murukaiyaṉ
-<lb n="6"/>paṭikkiṉṟatu</seg>
+<seg function="TBC"><lb n="5"/><persName xml:lang="ta" role="reciter">murukaiyaṉ</persName>
+<lb n="6"/>paṭikkiṉṟatu</seg></seg>
 
-    <milestone n="1" unit="column"/>
+    <seg function="incipit"><milestone facs="5" n="1" unit="column"/>
 
-  <lb n="1"/><seg function="incipit">Akavu ~ Amukkurar ~ <note xml:lang="en">unblackened addition</note>
+  <lb n="1"/>Akavu ~ Amukkurar ~ <note xml:lang="en">unblackened addition</note>
 <lb n="2"/><choice><unclear>Anta</unclear><unclear>Anat</unclear></choice>tiṟ-pāl = mulaippaḷ
 <lb n="3"/>Akatti = mulaippaḷ</seg>
   <lb n="4-10"/><gap reason="ellipsis"/>
   
-<pb n="57r"/>
+<pb facs="63" n="57r"/>
   
-  <milestone n="2" unit="column"/>
+      <milestone facs="63" n="1" unit="column"/>
+  <lb n="1-9"/><gap reason="ellipsis"/><note xml:lang="en">blackened lines</note>
+      
+        <milestone facs="63" n="2" unit="column"/>
   <lb n="1-4"/><gap reason="ellipsis"/><note xml:lang="en">blackened lines</note>
   <lb n="4"/>vēl ~ mūṅkil <note xml:lang="en">unblackened from here</note> ~ vēl  
   <lb n="5-8"/>
 
-  <milestone n="3" unit="column"/>
+  <milestone facs="63" n="3" unit="column"/>
   <lb n="1-3"/><gap reason="ellipsis"/>
   <lb n="4"/>vaitaki ~ tippili
-<lb n="4"/><seg function="explicit">vaittiyamātā ~ Āṭātō<unclear reason="eccentric_ductus">ṭai</unclear></seg>
+<seg function="explicit"><lb n="4"/>vaittiyamātā ~ Āṭātō<unclear reason="eccentric_ductus">ṭai</unclear></seg>
   
-   <milestone n="4" unit="column"/>
-  <lb n="1"/><seg function="completion-statement">malaiyakarāti  
+   <seg function="completion-statement"><milestone facs="63" n="4" unit="column"/>
+  <lb n="1"/>malaiyakarāti  
 <lb n="2"/>muṟṟiṟṟu</seg> <g ref="#pcl"/>
-<pb n="57r"/><note xml:lang="en">blank</note>
+      
+<pb n="57v"/><note xml:lang="en">blank</note>
 
-     
+     </ab>
 </body>
    </text></TEI>
