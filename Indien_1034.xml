@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -8,7 +8,7 @@
          <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -18,7 +18,7 @@
                   </repository>                  
                   <idno type="shelfmark">Indien 1034</idno>
                   <idno type="alternate"/>
-               </msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1046030</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/x346db286</idno></msIdentifier>
                <msContents class="#CM">
                   <summary>A composite manuscript containing medical Notes.</summary>
                   
@@ -44,7 +44,7 @@
                   <handDesc>
                      
                   </handDesc>
-                  <additions><desc synch="#cover" type="shelfmark" subtype="beginning cover">BnF shelfmark sticker: <quote>INDIEN 1034</quote> (front cover, verso).</desc><desc synch="#cover" subtype="beginning cover">BnF bequest reference: <quote>Don 7608</quote> (front cover, verso).</desc><desc synch="#cover" type="shelfmark" subtype="beginning cover">BnF shelfmark: <quote>INDIEN 1034</quote> (front cover, verso).</desc></additions>
+                  <additions><desc type="shelfmark" subtype="beginning cover">BnF shelfmark sticker: <quote>INDIEN 1034</quote> (front cover, verso).</desc><desc subtype="beginning cover">BnF bequest reference: <quote>Don 7608</quote> (front cover, verso).</desc><desc type="shelfmark" subtype="beginning cover">BnF shelfmark: <quote>INDIEN 1034</quote> (front cover, verso).</desc></additions>
                   <bindingDesc>
                      <binding>
                         
@@ -72,9 +72,9 @@ Back cover: 270 x 35; shelfmark on recto.
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      
+   <encodingDesc><p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.      </p></encodingDesc><revisionDesc>
          
-      <change when="2021-10">Record created by Emmanuel FRANCIS.</change></revisionDesc>
-   <encodingDesc><p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.      </p></encodingDesc></teiHeader>
+      <change when="2021-10">Record created by Emmanuel FRANCIS.</change></revisionDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
    
-</TEI>
+<facsimile><graphic url="https://didomena.ehess.fr/concern/data_sets/x346db286/manifest.json"/></facsimile></TEI>

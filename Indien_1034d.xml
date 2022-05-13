@@ -1,14 +1,15 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>TBC</title>
+            <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor>
          </titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -18,7 +19,7 @@
                   </repository>                  
                   <idno type="shelfmark">Indien 1034d</idno>
                   <idno type="alternate"/>
-               </msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1046030</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/x346db286</idno></msIdentifier>
                <msContents class="#STM">
                   <summary>TBC.</summary>
                   
@@ -43,8 +44,8 @@
                   </objectDesc>
                   <handDesc>
                      
-                  <handNote synch="#U1 U2 U3 U4" scope="sole" script="tamil" medium="incised"/></handDesc>
-                  <additions><desc synch="#U3 U4" type="intertitle">Marginal intertitles.</desc></additions>
+                  <handNote synch="#U1 #U2 #U3 #U4" scope="sole" script="tamil" medium="incised"/></handDesc>
+                  <additions><desc synch="#U3 #U4" type="intertitle">Marginal intertitles.</desc></additions>
                   <bindingDesc>
                      <binding>
                         
@@ -69,22 +70,24 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      
+   <encodingDesc><p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.      </p></encodingDesc><revisionDesc>
          
-      <change when="2021-10">Record created by Emmanuel FRANCIS.</change></revisionDesc>
-   <encodingDesc><p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.      </p></encodingDesc></teiHeader>
+      <change when="2021-10">Record created by Emmanuel FRANCIS.</change></revisionDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
    
-<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
-  
+<facsimile><graphic url="https://didomena.ehess.fr/concern/data_sets/x346db286/manifest.json"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+  <ab>
   <pb n="4r"/>
   <lb n="1-5"/><gap reason="ellipsis"/>
   
   <pb n="18r"/>
   <lb n="1-5"/><gap reason="ellipsis"/>
     
+    </ab>
 </body>
   </text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
-  
+    <ab>
+
   <pb n="25r"/>
   
   <milestone unit="left-margin"/>
@@ -98,17 +101,19 @@
 
   <pb n="25v"/>
   <note xml:lang="en">blank</note>
-    
+    </ab>
 </body></text><text synch="#U3" corresp="#T3" xml:lang="ta"><body>
-  
+    <ab>
+
   <pb n="31r"/>
   <lb n="1-5"/><gap reason="ellipsis"/>
   
   <pb n="37v"/>
   <lb n="1"/><gap reason="ellipsis"/> muṉ colla vakaiyē <g ref="#pcs"/> 34 <g ref="#pcs"/> <g ref="#pcs"/>
-    
+    </ab>
 </body></text><text synch="#U4" corresp="#T4" xml:lang="ta"><body>
-  
+    <ab>
+
   <pb n="157r"/>
   
   <milestone unit="left-margin"/>
@@ -133,4 +138,5 @@
   <milestone n="2" unit="column"/>
   <lb n="1-2"/><gap reason="ellipsis"/>
   
+      </ab>
 </body></text></TEI>
