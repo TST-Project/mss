@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
@@ -8,7 +8,7 @@
 			</titleStmt>
 			<publicationStmt>
 				<publisher>TST Project</publisher>
-				<date>2021</date>
+				<date>2022</date>
 			</publicationStmt>
 			<sourceDesc>
 				<msDesc>
@@ -19,17 +19,16 @@
 						</repository>
 						<idno type="shelfmark">Indien 545</idno>
 						<idno type="alternate"><idno>Tamoul 545</idno></idno>
-					</msIdentifier>
+					<idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc104073f</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/ns064d85j</idno></msIdentifier>
 					<msContents class="#CM">
-						<summary>A composite manuscript containing 5 items. </summary>
+						<summary><p>A composite manuscript containing 5 items.</p></summary>
 
 					</msContents>
 					<physDesc>
 						<objectDesc form="pothi">
 							<supportDesc material="palm-leaf">
 								<extent>
-									<measure unit="folio" quantity="50">1 + 20 +26 + 2 + 1 (545a +
-										545b + 545c + 545d + 545e).</measure>
+									<measure unit="folio" quantity="50">1 + 20 +26 + 2 + 1 (Indien 545a + Indien 545b + Indien 545c + Indien 545d + Indien 545e).</measure>
 									<dimensions type="leaf" unit="mm"> </dimensions>
 									<dimensions type="object" unit="mm">
 										<width quantity="295"/>
@@ -45,13 +44,7 @@
 							<layoutDesc> </layoutDesc>
 						</objectDesc>
 						<handDesc> </handDesc>
-						<additions><desc type="documenting-note" subtype="inserted">Paper sheet with
-								note in black ink: <quote xml:lang="la" rend="block">
-									<lb n="1"/>Tiruvadikanesanam <lb n="2"/>(Tamoul)
-								</quote></desc><desc type="documenting-note">BnF register
-								information, in black ink: <quote>R.C. 7881</quote> (545a, U1,
-								f[1]r).</desc><desc type="shelfmark">BnF shelfmark sticker:
-									<quote>INDIEN 545</quote> (545a, U1, f[1]r).</desc></additions>
+						<additions><desc type="documenting-note" subtype="inserted">Paper sheet with note in black ink: <quote xml:lang="la" rend="block"> <lb n="1"/>Tiruvadikanesanam <lb n="2"/>(Tamoul)</quote></desc><desc type="documenting-note">BnF register information, in black ink: <quote>R.C. 7881</quote> (545a, U1, f[1]r).</desc><desc type="shelfmark">BnF shelfmark sticker: <quote>INDIEN 545</quote> (545a, U1, f[1]r).</desc></additions>
 						<bindingDesc>
 							<binding>
 								<p>No woodcovers. </p>
@@ -68,9 +61,7 @@
 								Manuscrits, inventaire 2 = <title>Acquisitions: manuscrits et
 									imprimés documentaires, 1848-1893</title>, no.
 							7881.</p></acquisition>
-						<provenance><p>Owned by <persName
-									ref="https://catalogue.bnf.fr/ark:/12148/cb109559175"
-									key="Haas, Frédéric (1843-1915)"> Frédéric Haas</persName>
+						<provenance><p>Owned by <persName ref="https://catalogue.bnf.fr/ark:/12148/cb109559175" key="Haas, Frédéric (1843-1915)"> Frédéric Haas</persName>
 								(1843-1915).</p></provenance>
 					</history>
 					<additional>
@@ -80,29 +71,26 @@
 
 
 
-							<bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits
+							
+						<bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits
 									indiens, indo-chinois &amp; malayo-polynésiens</title>.
 								Bibliothèque nationale. Département des manuscrits. Paris: E.
-								Leroux. — See <ref
-									target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f95">p.
-									76</ref>.</bibl>
-						</listBibl>
+								Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f95">p.
+									76</ref>.</bibl></listBibl>
 					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
-		<revisionDesc>
-
-			<change when="2021-08">Record created by Emmanuel FRANCIS.</change>
-		</revisionDesc>
+		
 		<encodingDesc>
-			<p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic"
-					>puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph>
-				restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold"
-					>Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm =
+			
+		<p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph>
+				restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm =
 				left margin, r = recto, rm = right margin, U = unit (codicological and/or textual),
-				v = verso. </p>
-		</encodingDesc>
-	</teiHeader>
+				v = verso. </p></encodingDesc>
+	<xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
 
-</TEI>
+			
+		<change when="2021-08">Record created by Emmanuel FRANCIS.</change></revisionDesc></teiHeader>
+
+<facsimile><graphic url="https://didomena.ehess.fr/concern/data_sets/ns064d85j/manifest.json"/></facsimile></TEI>

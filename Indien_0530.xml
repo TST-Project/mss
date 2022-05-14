@@ -1,15 +1,15 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Collection (7 items): Miscellanea</title>
+            <title>Collection (7 items, 7 works)</title>
             
          <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -19,17 +19,17 @@
                   </repository>
                   <idno type="shelfmark">Indien 530</idno>
                   <idno type="alternate"><idno>Tamoul 530</idno></idno>
-               </msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc104059m</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/sx61dt75h</idno></msIdentifier>
                <msContents class="#CM">
                   <summary>A composite manuscript containing:
 <list rend="numbered">
-  <item>TBC</item>
-  <item>TBC</item>
-  <item>TBC</item>
-  <item>TBC</item>
-  <item>TBC</item>
-  <item>the <title xml:lang="ta">Kalviyoḻukkam</title></item>
-  <item>A fragment of <title xml:lang="ta">Tiruviḷaiyāṭal</title>.</item>
+  <item>TBC (Indien 530a).</item>
+  <item>TBC (Indien 530b).</item>
+  <item>TBC (Indien 530c).</item>
+  <item>TBC (Indien 530d).</item>
+  <item>TBC (Indien 530e).</item>
+  <item>The <title xml:lang="ta">Kalviyoḻukkam</title> (Indien 530f).</item>
+  <item>A fragment of <title xml:lang="ta">Tiruviḷaiyāṭal</title> (Indien 530g).</item>
 </list></summary>
                   
                </msContents>
@@ -41,13 +41,13 @@
                            
                         </support>
                         <extent>
-                           <measure unit="folio" quantity="8">1 + [1] + [1] + 1 + [1] + [2] + [1] (530a + 530b + 530c + 530d + 530e + 530f + 530g).</measure>
+                           <measure unit="folio" quantity="8">1 + {1} + {1} + 1 + {1} + {2} + {1} (Indien 530a + Indien 530b + Indien 530c + Indien 530d + Indien 530e + Indien 530f + Indien 530g).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
                            </dimensions>
                         <dimensions type="object" unit="mm"><width quantity="780"/><height quantity="35"/><depth quantity="30"/></dimensions><dimensions type="written" unit="mm"/></extent>
-                        <collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. </desc><desc xml:id="530a"/><desc xml:id="530b"/><desc xml:id="530c"/><desc xml:id="530d"/><desc xml:id="530e"/><desc xml:id="530f"/><desc xml:id="530g"/><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation>
+                        <collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. </desc><desc xml:id="Indien530a"/><desc xml:id="Indien530b"/><desc xml:id="Indien530c"/><desc xml:id="Indien530d"/><desc xml:id="Indien530e"/><desc xml:id="Indien530f"/><desc xml:id="Indien530g"/><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation>
                         
                         
                      <foliation>Library Arabic foliation 1-8 in black pencil. Reverse order compared to the logic of the bundle, followed here.
@@ -60,7 +60,7 @@
                   <decoDesc>
                   </decoDesc>
                   <additions>
-                  <desc synch="#cover" subtype="cover front">Bnf shelfmark sticker: <quote>INDIEN 530</quote>.</desc></additions>
+                  <desc subtype="cover front">Bnf shelfmark sticker: <quote>INDIEN 530</quote>.</desc></additions>
                   <bindingDesc>
                      <binding><p><material cert="medium">Pinewood</material> covers apparently fabricated in the BnF. 780 x 35 mm.</p></binding>
                   </bindingDesc>
@@ -84,10 +84,10 @@
       <encodingDesc>
          
       <p>TBC</p></encodingDesc>
-      <revisionDesc>
+      
+   <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
-      <change when="2021-11">Record created by Emmanuel FRANCIS</change></revisionDesc>
-   </teiHeader>
+      <change when="2021-11">Record created by Emmanuel FRANCIS</change></revisionDesc></teiHeader>
    <facsimile>
-   </facsimile>
+   <graphic url="https://didomena.ehess.fr/concern/data_sets/sx61dt75h/manifest.json"/></facsimile>
 </TEI>
