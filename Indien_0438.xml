@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -9,7 +9,7 @@
          
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -19,7 +19,7 @@
                   </repository>
                   <idno type="shelfmark">Indien 438</idno>
                   <idno type="alternate"><idno>Tamoul 438</idno></idno>
-               </msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103969j</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/bz60d4098</idno></msIdentifier>
                <msContents class="#CM">
                   <summary><p>
   Composite manuscript, containing 3 <foreign xml:lang="ta">kaṇitam</foreign>s, that is, according to the <title>Madras Tamil Lexicon</title>, s.v.: <quote>1. Methods of arithmetical calculation; processes of computation, of which eight are mentioned, viz., சங்கலி தம் (கூட்டல்), விபகலிதம் (கழித்தல்), குணனம் (பெருக் கல்), பாகாரம் (வகுத்தல்), வர்க்கம், வர்க்கமூலம், கனம், கனமூலம்; கணக்குவகை. (பிங்.) [...]</quote>.
@@ -49,7 +49,7 @@
                   <handDesc>
                      
                   <handNote synch="#U1" scope="sole" scribeRef="#ArielTitleScribe" script="tamil" medium="incised"/></handDesc>
-                  <additions><desc synch="#cover" type="shelfmark" subtype="beginning">BnF shelfmark sticker: <quote>INDIEN 438</quote>. </desc><desc synch="#cover" type="documenting-note" subtype="beginning">BnF gift sticker: <quote>DON N°</quote>. </desc><desc synch="#U1" type="shelfmark"><quote>d/30</quote> in black ink. </desc><desc synch="#U1" type="shelfmark"><quote>414</quote> in black ink on a round sticker (Société Asiatique?). </desc></additions>
+                  <additions><desc type="shelfmark" subtype="beginning">BnF shelfmark sticker: <quote>INDIEN 438</quote>. </desc><desc type="documenting-note" subtype="beginning">BnF gift sticker: <quote>DON N°</quote>. </desc><desc synch="#U1" type="shelfmark"><quote>d/30</quote> in black ink. </desc><desc synch="#U1" type="shelfmark"><quote>414</quote> in black ink on a round sticker (Société Asiatique?). </desc></additions>
                   <bindingDesc>
                      <binding>
                         <p><material resp="#cLI" cert="medium">Mahogany</material> woodcovers apparently fabricated in the BnF.</p>
@@ -73,12 +73,12 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      
+   <encodingDesc><p>TBA</p></encodingDesc><revisionDesc>
          
-      <change when="2021-06">Record created by Emmanuel FRANCIS.</change></revisionDesc>
-   <encodingDesc><p>TBA</p></encodingDesc></teiHeader>
+      <change when="2021-06">Record created by Emmanuel FRANCIS.</change></revisionDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
    
-<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+<facsimile><graphic url="https://didomena.ehess.fr/concern/data_sets/bz60d4098/manifest.json"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   <p>
     <milestone n="[1]r" unit="folio"/>
     <milestone n="1" unit="column"/>   

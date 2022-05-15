@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -8,7 +8,7 @@
             <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -16,10 +16,10 @@
                   <repository>
                      <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
                   </repository>
-                  <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1038568</idno>
+                  
                   <idno type="shelfmark">Indien 329</idno>
                   <idno type="alternate"><idno>Tamoul 329</idno></idno>
-               </msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1038568</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/tq57nz62t</idno></msIdentifier>
                <msContents class="#STM">
                   <summary><p>The <title xml:lang="ta">Kantapurāṇam</title> is one of the major Tamil texts about the god <term xml:lang="sa">Skanda</term>/<term xml:lang="ta">Murukaṉ</term>. It is the work of <persName xml:lang="ta">Kacciyappa Civācāriyār</persName> (14th century?).</p>
 <p>The text is complete. The table of contents (U4, f[1]v, c4, 12–13) gives a total of <unclear>1</unclear>5<unclear>5</unclear> <foreign xml:lang="ta">paṭalam</foreign>s and 10303 stanzas.</p>
@@ -51,7 +51,7 @@
                   </objectDesc>
                   <handDesc>
                      
-                  <handNote synch="#U1" scope="minor" scribeRef="#ArielTitleScribe" script="tamil" medium="incised"/><handNote synch="#U2 U3 U4" scope="major" medium="incised"/></handDesc>
+                  <handNote synch="#U1" scope="minor" scribeRef="#ArielTitleScribe" script="tamil" medium="incised"/><handNote synch="#U2 #U3 #U4" scope="major" medium="incised"/></handDesc>
                   <additions>
                     
                     
@@ -87,12 +87,12 @@
          
          
       <p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.    </p></encodingDesc>
-      <revisionDesc>
+      
+   <revisionDesc>
          
          
-      <change when="2020-04">This catalogue entry has been redacted by Emmanuel FRANCIS (CNRS, CEIAS UMR 8564, EHESS &amp; CNRS) for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG). With the kind help of Giovanni Ciotti (Hamburg University) &amp; Marco Franceschini (Bologna University) for deciphering and interpreting the colophon date. Version 1, April 2020. </change><change when="2021-05">Updated to TEI by Charles LI.</change><change when="2021-08">Updated to TST encoding conventions by Emmanuel FRANCIS.</change></revisionDesc>
-   </teiHeader>
-<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+      <change when="2020-04">This catalogue entry has been redacted by Emmanuel FRANCIS (CNRS, CEIAS UMR 8564, EHESS &amp; CNRS) for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG). With the kind help of Giovanni Ciotti (Hamburg University) &amp; Marco Franceschini (Bologna University) for deciphering and interpreting the colophon date. Version 1, April 2020. </change><change when="2021-05">Updated to TEI by Charles LI.</change><change when="2021-08">Updated to TST encoding conventions by Emmanuel FRANCIS.</change></revisionDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
+<facsimile><graphic url="https://didomena.ehess.fr/concern/data_sets/tq57nz62t/manifest.json"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   
   <pb n="[1]r"/>
   

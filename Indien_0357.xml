@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -9,7 +9,7 @@
          
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -19,7 +19,7 @@
                   </repository>
                   <idno type="shelfmark">Indien 357</idno>
                   <idno type="alternate"><idno>Tamoul 357</idno></idno>
-               </msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103884f</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/9z903659m</idno></msIdentifier>
                <msContents class="#CM">
                   <summary>A composite manuscript containing:
 <list rend="numbered">
@@ -50,7 +50,7 @@
                   <handDesc>
                      
                   <handNote synch="#357a" scope="minor" script="tamil" medium="incised"><desc>Hand #1.</desc></handNote><handNote synch="#357b" scope="major" script="tamil" medium="incised"><desc>Hand #2.</desc></handNote></handDesc>
-                  <additions><desc type="commenting-note" subtype="flyleaf">Annotation in French in black ink on a sheet of paper. Related to the content of Indien 357b.</desc><desc synch="#cover" type="shelfmark" subtype="beginning">BnF shelfmark sticker: <quote>INDIEN 357</quote>. </desc></additions>
+                  <additions><desc type="commenting-note" subtype="flyleaf">Annotation in French in black ink on a sheet of paper. Related to the content of Indien 357b.</desc><desc type="shelfmark" subtype="beginning">BnF shelfmark sticker: <quote>INDIEN 357</quote>. </desc></additions>
                   <bindingDesc>
                      <binding>
                         <p><material resp="#cLI" cert="medium">Mahogany</material> woodcovers apparently fabricated in the BnF.</p>
@@ -74,9 +74,9 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      
+   <encodingDesc><p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.      </p></encodingDesc><revisionDesc>
          
-      <change when="2021-06">Record created by Emmanuel FRANCIS.</change></revisionDesc>
-   <encodingDesc><p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.      </p></encodingDesc></teiHeader>
+      <change when="2021-06">Record created by Emmanuel FRANCIS.</change></revisionDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
    
-</TEI>
+<facsimile><graphic url="https://didomena.ehess.fr/concern/data_sets/9z903659m/manifest.json"/></facsimile></TEI>

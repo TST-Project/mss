@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -9,7 +9,7 @@
          
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -19,7 +19,7 @@
                   </repository>
                   <idno type="shelfmark">Indien 364</idno>
                   <idno type="alternate"><idno>Tamoul 364</idno></idno>
-               </msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103891v</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/qz20t152z</idno></msIdentifier>
                <msContents class="#CM">
                   <summary>A composite manuscript containing seven items.
     </summary>
@@ -47,7 +47,7 @@
                   <handDesc>
                      
                   </handDesc>
-                  <additions><desc synch="#cover" type="shelfmark" subtype="beginning">BnF shelfmark sticker: <quote>INDIEN 364</quote>. </desc></additions>
+                  <additions><desc type="shelfmark" subtype="beginning">BnF shelfmark sticker: <quote>INDIEN 364</quote>. </desc></additions>
                   <bindingDesc>
                      <binding>
                         <p><material resp="#cLI" cert="medium">Mahogany</material> woodcovers apparently fabricated in the BnF.</p>
@@ -71,9 +71,9 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      
+   <encodingDesc><p>TBA</p></encodingDesc><revisionDesc>
          
-      <change when="2021-06">Record created by Emmanuel FRANCIS.</change></revisionDesc>
-   <encodingDesc><p>TBA</p></encodingDesc></teiHeader>
+      <change when="2021-06">Record created by Emmanuel FRANCIS.</change></revisionDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
    
-</TEI>
+<facsimile><graphic url="https://didomena.ehess.fr/concern/data_sets/qz20t152z/manifest.json"/></facsimile></TEI>
