@@ -87,9 +87,9 @@
    
 <facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b100915980/manifest.json"/></facsimile><text synch="#U1a" corresp="#T1" xml:lang="fr"><body>
   <ab>
-  <pb facs="2" n="1r"/> 
+  <seg function="title"><pb facs="2" n="1r"/> 
   <lb n="1"/>Dictionnaire
-  <lb n="2"/>tamoul - françois
+  <lb n="2"/>tamoul - françois</seg>
   <lb n="3"/>pour expliquer le tamoul vulgaire,
   <lb n="4"/>avec
   <lb n="5"/>une préface où sont exposées plusieurs règles
@@ -108,7 +108,7 @@
   <lb n="4"/>Religionis chritianæ catholicæ romanæ
   <lb n="5"/>incrementum.</term>
   <lb n="6"/>Amen
-  <seg function="colophon"><lb n="7"/>Copié par <persName xml:lang="ta" role="scribe">mouttousâmi</persName> et <persName xml:lang="ta" role="scribe">Djaganaden</persName> sur un ex<hi rend="superscript">re</hi> mss.
+  <seg function="colophon"><lb n="7"/>Copié par <persName xml:lang="fr" role="scribe">mouttousâmi</persName> et <persName xml:lang="fr" role="scribe">Djaganaden</persName> sur un ex<hi rend="superscript">re</hi> mss.
   <lb n="8"/>appartenant à m. montbrun fils, composé de 188 pages
   <lb n="9"/>doubles (recto verso) petit in f°, titre compris, &amp; copié en 1806
 <lb n="10"/>dont la préface 
@@ -119,7 +119,7 @@
   
   <pb facs="3" n="2r"/> 
     <lb n="1-14"/><gap reason="ellipsis"/>
-  <lb n="15"/>EA
+  <lb n="15"/>EA<note xml:lang="en" place="foot">that is, the initials of Édouard Ariel</note>
   <lb n="16"/>Juillet 1849</seg>
    <lb n="15ff."/><gap reason="ellipsis"/>
     
@@ -144,8 +144,7 @@
 
         <lb n="4ff."/><gap reason="ellipsis"/>
 
-  
-      <pb facs="10" n="8v"/>{page-filler}
+        <pb facs="10" n="8v"/>{page-filler}
     
   </ab>
 </body>
@@ -167,7 +166,7 @@
     <pb facs="205" n="202v"/> 
   <milestone n="2" unit="column"/>
   <lb n="1"/><term xml:lang="ta">kṣōpam</term> langueur, pamoison.</seg>
-  <lb n="2"/><seg function="completion-statement">fin.
+  <seg function="completion-statement"><lb n="2"/>fin.
   <lb n="3"/>Du Dictionnaire Tamoul
   <lb n="4"/>où il y en a jusqu'à 9 mille
   <lb n="5"/>mots tamouls expliqués en
