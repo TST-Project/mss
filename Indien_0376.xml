@@ -19,17 +19,19 @@
                   </repository>
               
                   <idno type="shelfmark">Indien 376</idno>
-                  <idno type="alternate"><idno>Tamoul 376</idno><idno>Ariel 147</idno></idno>
-               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103903f</idno></msIdentifier>
+                  <idno type="alternate"><idno>Tamoul 376</idno><idno>Ariel 147</idno><idno>c/69</idno></idno>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103903f</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/5425kj03d</idno></msIdentifier>
                
                <msContents class="#STM">
-                  <summary>The <title xml:lang="ta">Tirukkaruvaippatiṟṟuppattantāti</title>.</summary>
+                  <summary><p>The <title xml:lang="ta">Tirukkaruvaippatiṟṟuppattantāti</title>.</p>
+<p>Description based on the examination of the original manuscript (February 2021).</p>
+<p>Dimensions assessed at the time of examination.</p> </summary>
                   
                   
                   
                   
                   
-               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title page</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2a" xml:id="T2" defective="false"><title xml:lang="ta">Tirukkaruvaippatiṟṟuppattantāti: Kāppu</title><textLang mainLang="tam"/></msItem><msItem synch="#U2b" xml:id="T3" defective="false"><title xml:lang="ta">Tirukkaruvaippatiṟṟuppattantāti: Mūlam </title><textLang mainLang="tam"/></msItem></msContents>
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page (additional)</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2a" xml:id="T2" defective="false"><title xml:lang="ta">Tirukkaruvaippatiṟṟuppattantāti: Kāppu</title><textLang mainLang="tam"/></msItem><msItem synch="#U2b" xml:id="T3" defective="false"><title xml:lang="ta">Tirukkaruvaippatiṟṟuppattantāti: Mūlam </title><textLang mainLang="tam"/></msItem></msContents>
                
                <physDesc>
                   <objectDesc form="pothi">
@@ -38,7 +40,7 @@
                            <measure resp="#cLI" unit="stringhole" quantity="1"/>
                         </support>
                         <extent>
-                           <measure unit="folio" quantity="52">[1] + [1] + 50 (U1 + U2a + U2b).</measure>
+                           <measure unit="folio" quantity="52">{1} + {1} + 50 (U1 + U2a + U2b).</measure>
                            <dimensions type="leaf" unit="mm">
                               <width quantity="245"/>
                               <height quantity="30"/>
@@ -63,11 +65,11 @@
                      
                      
                      
-                  <desc synch="#U1" type="shelfmark" subtype="beginning">Shelfmark in black ink: <quote>c/69</quote> (<locus facs="0">f[1]r</locus>).</desc><desc synch="#U2b" type="metre" subtype="marginal left">Left-marginal indication of change of metre (<term xml:lang="ta">vēṟu</term>).</desc><desc synch="#U2b"/><desc synch="#cover" type="shelfmark" subtype="back cover">BnF shelfmark sticker: <quote>INDIEN 376</quote> (<locus facs="0">back cover, verso</locus>).</desc><desc synch="#cover" type="documenting-note" subtype="back cover">BnF bequest sticker <quote>DON N° <space type="vacat"/></quote> (<locus facs="0">back cover, verso</locus>)</desc></additions>
+                  <desc synch="#U1" type="shelfmark" subtype="beginning">Shelfmark in black ink: <quote>c/69</quote> (<locus facs="8">f[1]r</locus>).</desc><desc synch="#U2b" type="metre" subtype="marginal left">Left-marginal indication of change of metre (<term xml:lang="ta">vēṟu</term>).</desc><desc synch="#U2b"/><desc synch="#CoverBack" type="shelfmark" subtype="back cover">BnF shelfmark sticker: <quote>INDIEN 376</quote> (<locus facs="6">back cover, verso</locus>).</desc><desc synch="#CoverBack" type="documenting-note" subtype="back cover">BnF bequest sticker <quote>DON N° <space type="vacat"/></quote> (<locus facs="6">back cover, verso</locus>)</desc></additions>
                   
                   <bindingDesc>
                      <binding>
-                        <p><material resp="#cLI" cert="medium">Mahogany</material> woodcovers apparently fabricated in the BnF.</p>
+                        <p><material cert="medium">Pinewood</material> covers apparently fabricated in the BnF.</p>
                      </binding>
                   </bindingDesc>
                   
@@ -76,9 +78,7 @@
                <history>
                   
                   <origin>
-                     <origDate calendar="gregorian" notAfter="1854">No internal date. Not dated by Vinson in Vinson et al. (1866-) nor by Cabaton (1912).
-
-</origDate>
+                     <origDate calendar="gregorian" notAfter="1854">No internal date. Not dated by Vinson in Vinson et al. (1866-) nor by Cabaton (1912). Not after 1854, since part of the collection of <persName role="collector">Édouard Ariel</persName> (1818-1854).</origDate>
                      <origPlace>Tamilnadu.</origPlace>
                   </origin>
                   
@@ -106,101 +106,103 @@
       
       <encodingDesc>
          
-         <p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.      </p></encodingDesc>
+         <p>   <emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.            </p></encodingDesc>
       
-      <revisionDesc>
+      
+   <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
-         <change when="2022-02">Record created by Emmanuel FRANCIS. </change></revisionDesc>
-   </teiHeader>
+         <change when="2022-02">Record created by Emmanuel FRANCIS. </change><change when="2022-05">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, May 2022.</change></revisionDesc></teiHeader>
    
    <facsimile>
       
-   </facsimile>
+   <graphic url="https://didomena.ehess.fr/concern/data_sets/5425kj03d/manifest.json"/></facsimile>
    
    
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
-      
-  <pb facs="0" n="[1]r"/>
+    <ab>  
+  <pb facs="7" n="[1]r"/>
   
-  <milestone n="1" unit="column"/>
-  <lb n="1-2"/><seg function="blessing">veṟṟi-vēl uṟṟa tuṇai</seg>
+  <seg function="blessing"><milestone facs="8" n="1" unit="column"/>
+  <lb n="1-2"/>veṟṟivēl uṟṟa tuṇai</seg>
   
-  <milestone n="2" unit="column"/>
-  <lb n="1-2"/><seg function="title">tirukkaruvaippatiṟṟuppattantāti</seg>
+  <seg function="title"><milestone facs="9" n="2" unit="column"/>
+  <lb n="1-2"/>tirukkaruvaippatiṟṟuppattantāti</seg>
 
-   <pb n="[1]v"/>
-  <note xml:lang="en">blank</note>
-
+   <pb n="[1]v"/><note xml:lang="en">blank</note>
+</ab>
 </body></text><text synch="#U2a" corresp="#T2" xml:lang="ta"><body>
-      
-<pb facs="0" n="[1]r"/>
+      <ab>
+<pb facs="11" n="[1]r"/>
   
-  <milestone unit="left-margin"/>
-  <lb n="1"/><seg function="blessing">ha<seg rend="grantha">ri</seg> Ōm</seg>
-  <lb n="2"/><seg function="blessing">kaṇapati tuṇai</seg>
-  <lb n="3-4"/><seg function="title">tirukkaruvaippatiṟṟuppattantāti</seg>
-  <lb n="5"/><seg function="intertitle">kāppu</seg>
+  <seg function="blessing"><milestone facs="12" unit="left-margin"/>
+  <lb n="1"/>ha<seg rend="grantha">ri</seg> Ōm</seg>
+  <seg function="blessing"><lb n="2"/>kaṇapati tuṇai</seg>
+  <seg function="title"><lb n="3-4"/>tirukkaruvaippatiṟṟuppattantāti</seg>
+  <seg function="intertitle"><lb n="5"/>kāppu</seg>
   
-  <milestone unit="column"/>
-  <lb n="1"/><seg function="satellite-stanza"><gap reason="ellipsis"/>
+  <seg function="satellite-stanza" cert="low"><milestone facs="13" unit="column"/>
+  <lb n="1"/><gap reason="ellipsis"/>
   <lb n="2"/><gap reason="ellipsis"/>
   <lb n="3"/><gap reason="ellipsis"/>
   <lb n="4"/><gap reason="ellipsis"/>
   <lb n="5"/><gap reason="ellipsis"/> toḻuvām <g ref="#pcl"/></seg> <seg function="blessing">kuruvē tuṇai</seg>  
  
-<pb facs="0" n="[1]v"/><note xml:lang="en">blank</note>
-  
+<pb facs="14" n="[1]v"/><note xml:lang="en">blank</note>
+  </ab>
   </body>
   </text><text synch="#U2b" corresp="#T3" xml:lang="ta"><body>
-      
-<pb facs="0" n="1r"/>
+      <ab>
+        
+<pb facs="14" n="1r"/>
   
- <lb n="1"/><seg function="incipit"><lg><l><gap reason="ellipsis"/></l>
-  <lb n="2"/><l><gap reason="ellipsis"/></l>
-  <lb n="3"/><l><gap reason="ellipsis"/></l>
-  <lb n="4"/><l><gap reason="ellipsis"/></l></lg> <g ref="#pcl"/> 1</seg>
+ <seg function="incipit"><lg><l><lb n="1"/><gap reason="ellipsis"/></l>
+  <l><lb n="2"/><gap reason="ellipsis"/></l>
+  <l><lb n="3"/><gap reason="ellipsis"/></l>
+  <l><lb n="4"/><gap reason="ellipsis"/></l> <g ref="#pcl"/> 1</lg></seg>
   
-  <pb facs="0" n="6r"/>
+  <seg function="metre"><pb facs="17" n="6r"/>
    <milestone unit="left-margin"/>
-  <lb n="1"/><seg function="metre">vēṟu</seg>
+  <lb n="1"/>vēṟu</seg>
     
-  <pb facs="0" n="6r"/>
+  <seg function="metre"><pb facs="0" n="6r"/>
    <milestone unit="left-margin"/>
-  <lb n="1"/><seg function="metre">vēṟu</seg>
+  <lb n="1"/>vēṟu</seg>
     
-  <pb facs="0" n="6r"/>
+  <seg function="metre"><pb facs="0" n="6r"/>
    <milestone unit="left-margin"/>
-  <lb n="1"/><seg function="metre">vēṟu</seg>
+  <lb n="1"/>vēṟu</seg>
     
-  <pb facs="0" n="11r"/>
+  <seg function="metre"><pb facs="0" n="11r"/>
    <milestone unit="left-margin"/>
-  <lb n="1"/><seg function="metre">vēṟu</seg>
+  <lb n="1"/>vēṟu</seg>
     
-  <pb facs="0" n="14r"/>
+  <seg function="metre"><pb facs="18" n="14r"/>
    <milestone unit="left-margin"/>
-  <lb n="1"/><seg function="metre"><del>vēṟu</del></seg>
+  <lb n="1"/><del>vēṟu</del></seg>
     
-  <pb facs="0" n="21r"/>
+  <seg function="metre"><pb facs="0" n="21r"/>
    <milestone unit="left-margin"/>
-  <lb n="1"/><seg function="metre">vēṟu</seg>
+  <lb n="1"/>vēṟu</seg>
     
-  <pb facs="0" n="26r"/>
+  <seg function="metre"><pb facs="0" n="26r"/>
    <milestone unit="left-margin"/>
-  <lb n="1"/><seg function="metre">vēṟu</seg>
+  <lb n="1"/>vēṟu</seg>
     
-  <pb facs="0" n="36r"/>
+  <seg function="metre"><pb facs="0" n="36r"/>
    <milestone unit="left-margin"/>
-  <lb n="1"/><seg function="metre">vēṟu</seg>    
+  <lb n="1"/>vēṟu</seg>    
  
-  <pb facs="0" n="41r"/>
+  <seg function="metre"><pb facs="0" n="41r"/>
    <milestone unit="left-margin"/>
-  <lb n="1"/><seg function="metre">vēṟu</seg>
+  <lb n="1"/>vēṟu</seg>
   
-   <pb facs="0" n="50v"/>
-  <lb n="1"/><seg function="explicit"><lg><l><gap reason="ellipsis"/></l>
-  <lb n="2"/><l><gap reason="ellipsis"/></l>
-  <lb n="3"/><l><gap reason="ellipsis"/></l>
-  <lb n="4"/><l><gap reason="ellipsis"/></l></lg> <g ref="#pcl"/> 100</seg>
-  <lb n="5"/><seg function="completion-statement">muṟṟiṟṟu <g ref="#pcl"/></seg>
+   <seg function="explicit"><pb facs="24" n="50v"/>
+  <lg><l><lb n="1"/><gap reason="ellipsis"/></l>
+  <l><lb n="2"/><gap reason="ellipsis"/></l>
+  <l><lb n="3"/><gap reason="ellipsis"/></l>
+  <l><lb n="4"/><gap reason="ellipsis"/></l> <g ref="#pcl"/> <g ref="#nūṟu"/></lg></seg>
+  <seg function="completion-statement"><lb n="5"/>muṟṟiṟṟu <g ref="#pcl"/></seg>
+        
+        </ab>
       
   </body></text></TEI>

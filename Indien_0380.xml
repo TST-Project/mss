@@ -1,15 +1,15 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>MTM: 2 poems in praise of the Goddess    </title>
+            <title>Collection (2 works = 2 poems in praise of the Goddess)   </title>
          <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -19,20 +19,22 @@
                   </repository>
                   <idno type="shelfmark">Indien 380</idno>
                   <idno type="alternate"><idno>Tamoul 380</idno></idno>
-               </msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103907j</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/pk02cj370</idno></msIdentifier>
                <msContents class="#MTM">
-                  <summary>Multiple-text manuscript containing two poems in praise of the Goddess:
+                  <summary><p>Multiple-text manuscript containing two poems in praise of the Goddess:
 <list rend="numbered">
-  <item>the <title xml:lang="ta">Apirāmi Antāti</title> in 101 stanzas (<foreign xml:lang="ta">kāppu</foreign> + stanzas 1-100); a work by Apirāma Paṭṭar (Zvelebil 1995, p. 50).</item>
-  <item>the <title xml:lang="ta">Ampikaimālai</title> in 30 stanzas (<foreign xml:lang="ta">kāppu</foreign> + stanzas 1-29); a work by Kulacēkara Varakuṇa Rāma Pāṇṭiyaṉ (Zvelebil 1995, p. 370).</item>
-    </list></summary>
+  <item>The <title xml:lang="ta">Apirāmi Antāti</title> in 101 stanzas (U1a and U1b: <foreign xml:lang="ta">kāppu</foreign> + stanzas 1-100). A work by <persName xml:lang="ta" role="author">Apirāma Paṭṭar</persName> (Zvelebil 1995, p. 50).</item>
+  <item>The <title xml:lang="ta">Ampikaimālai</title> in 30 stanzas (U2a and U2b: <foreign xml:lang="ta">kāppu</foreign> + stanzas 1-29); a work by <persName xml:lang="ta" role="author">Kulacēkara Varakuṇa Rāma Pāṇṭiyaṉ</persName> (Zvelebil 1995, p. 370).</item>
+    </list></p>
+<p>Description based on the examination of the original manuscript (May 2021).</p>
+<p>Dimensions assessed at the time of examination.</p> </summary>
                   
-               <msItem synch="#U1a" xml:id="T1a" defective="false"><title xml:lang="ta">Apirāmi Antāti: kāppu</title><textLang mainLang="tam"/></msItem><msItem synch="#U1b" xml:id="T1b" defective="true"><title xml:lang="ta">Apirāmi Antāti: nūl</title><textLang mainLang="tam"/></msItem><msItem synch="#U2a" xml:id="T2a" defective="false"><title xml:lang="ta"> Ampikaimālai: kāppu</title><textLang mainLang="tam"/></msItem><msItem synch="#U2b" xml:id="T2b" defective="false"><title xml:lang="ta"> Ampikaimālai: nūl</title><textLang mainLang="tam"/></msItem></msContents>
+               <msItem synch="#U1a" xml:id="T1a" defective="false"><title xml:lang="ta">Apirāmi Antāti: Kāppu</title><textLang mainLang="tam"/></msItem><msItem synch="#U1b" xml:id="T1b" defective="true"><title xml:lang="ta">Apirāmi Antāti: Mūlam</title><textLang mainLang="tam"/></msItem><msItem synch="#U2a" xml:id="T2a" defective="false"><title xml:lang="ta"> Ampikaimālai: Kāppu</title><textLang mainLang="tam"/></msItem><msItem synch="#U2b" xml:id="T2b" defective="false"><title xml:lang="ta"> Ampikaimālai: Nūl</title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
                         <extent>
-                           <measure unit="folio" quantity="36">1 + 25 + 1 + 9 (U1a + U1b + U2a + U2b).</measure>
+                           <measure unit="folio" quantity="36">{1} + 25 + {1} + 9 (U1a + U1b + U2a + U2b).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
@@ -42,19 +44,19 @@
                         
                      <collation>
                      
-                     <desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. Selfmark on the recto.</desc><desc xml:id="U1a">1 folio = <emph rend="bold"><title xml:lang="ta">Apirāmi Antāti</title>: <foreign xml:lang="ta">kāppu</foreign></emph>. No foliation. Selfmark on the recto.
-</desc><desc xml:id="U1b">25 folios = <emph rend="bold"><title xml:lang="ta">Apirāmi Antāti</title>: <foreign xml:lang="ta">nūl</foreign></emph>. Tamil foliation 1–25 (corrected for f18-f25). Arabic foliation 25 added in black on f25r. Only f1 is blackened.</desc><desc xml:id="U2a">1 folio = <emph rend="bold"><title xml:lang="ta">Ampikaimālai</title>: <foreign xml:lang="ta">kāppu</foreign></emph>. No foliation. </desc><desc xml:id="U2b">9 folios = <emph rend="bold"><title xml:lang="ta">Ampikaimālai</title>: <foreign xml:lang="ta">nūl</foreign></emph>. Tamil foliation 1–9 (corrected for f1-f5). Arabic foliation 9 added in black on f9r. </desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>. </desc></collation><condition>Good state of preservation, despite bore holes. U2b, f9 is truncated.</condition><support><measure unit="stringhole" quantity="1"/></support></supportDesc>
+                     <desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. Selfmark on the recto.</desc><desc xml:id="U1a">1 folio = <emph rend="bold"><title xml:lang="ta">Apirāmi Antāti</title>: Invocation</emph>. No foliation. Selfmark on the recto.
+</desc><desc xml:id="U1b">25 folios = <emph rend="bold"><title xml:lang="ta">Apirāmi Antāti</title>: Text</emph>. Tamil foliation 1–25 (corrected for f18-f25). Arabic foliation 25 added in black on f25r. Only f1 is blackened.</desc><desc xml:id="U2a">1 folio = <emph rend="bold"><title xml:lang="ta">Ampikaimālai</title>: Invocation</emph>. No foliation. </desc><desc xml:id="U2b">9 folios = <emph rend="bold"><title xml:lang="ta">Ampikaimālai</title>: Text</emph>. Tamil foliation 1–9 (corrected for f1-f5). Arabic foliation 9 added in black on f9r. </desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>. </desc></collation><condition>Good state of preservation, despite bore holes. U2b, f9 is truncated.</condition><support><measure unit="stringhole" quantity="1"/></support></supportDesc>
                      <layoutDesc>
                         <layout columns="1 2"/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
                      
-                  <handNote synch="#U1a U1b U2a U2b" scope="sole" script="tamil" medium="incised"/></handDesc>
-                  <additions><desc synch="#cover" type="shelfmark" subtype="beginning">BnF shelfmark sticker <quote>INDIEN 380</quote> (front cover, recto).</desc><desc synch="#U1a" type="shelfmark" subtype="beginning">Shelfmark <quote>N° 16</quote> in black ink (f[1]r).</desc></additions>
+                  <handNote synch="#U1a #U1b #U2a #U2b" scope="sole" script="tamil" medium="incised"/></handDesc>
+                  <additions><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker <quote>INDIEN 380</quote> (front cover, recto).</desc><desc synch="#U1a" type="shelfmark" subtype="beginning">Shelfmark <quote>N° 16</quote> in black ink (f[1]r).</desc></additions>
                   <bindingDesc>
                      <binding>
-                        <p><material resp="#cLI" cert="medium">Mahogany</material> woodcovers apparently fabricated in the BnF.</p>
+                        <p><material cert="medium">Pinewood</material> covers apparently fabricated in the BnF.</p>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -66,8 +68,8 @@
                   </origin>
                   <acquisition>
                      
-                  </acquisition>
-               <provenance/></history>
+                  <p>Unknown.</p></acquisition>
+               <provenance><p>Unknown.</p></provenance></history>
                <additional>
                   <listBibl>
                      
@@ -78,12 +80,12 @@ kaviñar Kaṇṇatācaṉiṉ viḷakkavuraiyuṭaṉ.</title> <ref target="htt
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      
+   <encodingDesc><p>   <emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.            </p></encodingDesc><revisionDesc>
          
-      <change when="2021-05">Record created by Emmanuel FRANCIS.</change></revisionDesc>
-   <encodingDesc><p>TBA</p></encodingDesc></teiHeader>
+      <change when="2021-05">Record created by Emmanuel FRANCIS.</change><change when="2022-05">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, May 2022.</change></revisionDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
    
-<text synch="#U1a" corresp="#T1a" xml:lang="ta"><body>
+<facsimile><graphic url="https://didomena.ehess.fr/concern/data_sets/pk02cj370/manifest.json"/></facsimile><text synch="#U1a" corresp="#T1a" xml:lang="ta"><body>
   
   <p>
     <milestone n="[1]r" unit="folio"/>
