@@ -18,20 +18,23 @@
                      <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
                   </repository>
                   <idno type="shelfmark">Indien 353</idno>
-                  <idno type="alternate"><idno>Tamoul 353</idno></idno>
-               </msIdentifier>
+                  <idno type="alternate"><idno>Tamoul 353</idno><idno>Ariel 28</idno><idno>d/28</idno></idno>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103880b</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/rb68xk49s</idno></msIdentifier>
                <msContents class="#STM">
                   <summary><p>An incomplete <title xml:lang="ta">Maraṇakaṇṭikai</title>, a work on astrology attributed to Tirukkōṭṭi Nampi and alternatively to Maṇṭalapuruṭar (Zvelebil 1995, p. 668).</p>
 <p>See also GOML Triennial Catalogue of Tamil manuscripts (1919-1922) ad R. 522(b), p. 1328:
   <quote>An astrological treatise giving certain particulars regarding the 27 lunar asterisms together with the nature and characteristics of the persons born under the influence of these lunar asterisms and the kind of death they are likely to meet with. By Mārgaliṅga Jōsyar of Piṭṣaippākkam.</quote>
-</p></summary>
+</p>
+   <p>Description based on the examination of the original manuscript (February 2021 and June 2021).</p>
+<p>Dimensions assessed at the time of examination.</p> 
+  </summary>
                   
-               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title page</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="true"><title xml:lang="ta">Maraṇakaṇṭikai: <term xml:lang="en">text</term></title><textLang mainLang="tam"/><filiation><p>GOML: R. 522(b), R. 1080(a), D. 16-B-3-19, D. 2021, etc.</p></filiation></msItem></msContents>
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page (additional) </term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="true"><title xml:lang="ta">Maraṇakaṇṭikai: Mūlam</title><textLang mainLang="tam"/><filiation><p>GOML: R. 522(b), R. 1080(a), D. 16-B-3-19, D. 2021, etc.</p></filiation></msItem></msContents>
                <physDesc>
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
                         <extent>
-                           <measure unit="folio" quantity="43">1 + 40 + 2 (U1 + U2 + U3).</measure>
+                           <measure unit="folio" quantity="43">{1} + 40 + {2} (U1 + U2 + U3).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
@@ -41,8 +44,8 @@
                         
                      <collation>
                      
-                     <desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. Shelfmark on the recto.</desc><desc xml:id="U1">1 folio = <emph rend="bold">title page</emph>. No foliation. Single folio. Shelfmarks on the recto. Verso blank except for Tamil foliation 19 (i.e. re-used folio).
-</desc><desc xml:id="U2">40 folios  = <emph rend="bold"><title xml:lang="ta">Maraṇakaṇṭikai</title>: text</emph>. Tamil foliation [1]-16, 18, 20-38, 40-43. Misssing folios of copyist oversight when foliating? The text stops short in f43v1.
+                     <desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. Shelfmark on the recto.</desc><desc xml:id="U1">1 folio = <emph rend="bold">Title Page (additional)</emph>. No foliation. Single folio. Shelfmarks on the recto. Verso blank except for Tamil foliation 19 (i.e. re-used folio).
+</desc><desc xml:id="U2">40 folios  = <emph rend="bold"><title xml:lang="ta">Maraṇakaṇṭikai</title>: Text</emph>. Tamil foliation [1]-16, 18, 20-38, 40-43. Misssing folios of copyist oversight when foliating? The text stops short in f43v1.
 </desc><desc xml:id="U3">2 folios = <emph rend="bold">back guard leaves</emph>. No foliation. Except one sign in the middle of f[1]r. f[2]v darkened = original outside page.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>. </desc></collation><condition>Good state of preservation.</condition><support><measure unit="stringhole" quantity="2"/></support></supportDesc>
                      <layoutDesc>
                         <layout writtenLines="8">The end of chapters are regularly demarcated by an in-text tring of <foreign xml:lang="ta">piḷḷaiyār cūḻi</foreign>s.</layout>
@@ -50,18 +53,18 @@
                   </objectDesc>
                   <handDesc>
                      
-                  <handNote synch="#U1" scope="sole" scribeRef="#ArielTitleScribe" script="tamil" scriptRef="#tamilPulliRegular #tamilOE" medium="incised"/><handNote synch="#U2" scope="sole" script="tamil" scriptRef="#tamilPulliNone" medium="incised"/></handDesc>
-                  <additions><desc synch="#cover" type="shelfmark" subtype="beginning">BnF shelfmark sticker: <quote>INDIEN 353</quote>. </desc><desc synch="#U1" type="shelfmark">Shelfmark <quote>d/28</quote> in black ink. </desc><desc synch="#U1" type="shelfmark" subtype="beginning">Shelfmark sticker (Société Asiatique?) inscribed <quote>437</quote> in black ink.</desc><desc synch="#U2" corresp="#T2" type="intertitle" subtype="marginal">Running intertitles. Intertitles regularly abbreviated.
+                  <handNote synch="#U1" scope="sole" scribeRef="#ArielTitleScribe" script="tamil" scriptRef="#tamilPulliRegular #tamilOE" medium="incised soot"/><handNote synch="#U2" scope="sole" script="tamil" scriptRef="#tamilPulliNone" medium="incised soot"/></handDesc>
+                  <additions><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 353</quote> (<locus facs="9">front cover, recto</locus>). </desc><desc synch="#U1" type="shelfmark">Shelfmark <quote>d/28</quote> in black ink (<locus facs="17">f[1]r</locus>).</desc><desc synch="#U1" type="shelfmark" subtype="beginning">Shelfmark sticker (Société Asiatique?) inscribed <quote>437</quote> in black ink (<locus facs="19">f[1]r</locus>).</desc><desc synch="#U2" corresp="#T2" type="intertitle" subtype="marginal">Running intertitles. Intertitles regularly abbreviated.
 </desc></additions>
                   <bindingDesc>
                      <binding>
-                        <p><material resp="#cLI" cert="medium">Mahogany</material> woodcovers apparently fabricated in the BnF.</p>
+                        <p><material cert="medium">Pinewood</material> covers apparently fabricated in the BnF.</p>
                      </binding>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian" notAfter="1854">No internal date. Dated to 1760 by Cabaton (1912), on unkwnown grounds.</origDate>
+                     <origDate calendar="gregorian" notAfter="1854">No internal date. Dated to 1760 by Cabaton (1912), on unkwnown grounds. Not after 1854, since part of the collection of <persName role="collector">Édouard Ariel</persName> (1818-1854).</origDate>
                      <origPlace>Tamilnadu.</origPlace>
                   </origin>
                   <acquisition>
@@ -76,48 +79,60 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      
+   <encodingDesc><p>   <emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.            </p></encodingDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
-      <change when="2021-06">Record created by Emmanuel FRANCIS.</change></revisionDesc>
-   <encodingDesc><p>TBA</p></encodingDesc></teiHeader>
+      <change when="2021-06">Record created by Emmanuel FRANCIS.</change><change when="2022-05">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, May 2022.</change></revisionDesc></teiHeader>
    
-<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
-  
-  <pb n="[1]r"/>
-    <milestone n="1" unit="column"/>
-    <lb n="1"/><seg function="blessing">veṟṟi-vē
+<facsimile><graphic url="https://didomena.ehess.fr/concern/data_sets/rb68xk49s/manifest.json"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+  <ab>
+  <seg function="blessing">
+    <pb facs="16" n="[1]r"/>
+    
+    <milestone facs="17" n="1" unit="column"/>
+    <lb n="1"/>veṟṟivē
     <lb n="2" break="no"/>l uṟṟa tuṇai</seg>
-    <milestone n="2" unit="column"/>
+  
+    <seg function="title"><milestone facs="17" n="2" unit="column"/>
     <lb n="1"/>Iḵtu
-    <milestone n="2" unit="column"/>
-    <lb n="1"/><seg function="title">maraṇakaṇ
+    <milestone facs="18" n="2" unit="column"/>
+    <lb n="1"/>maraṇakaṇ
     <lb n="2" break="no"/>ṭikai</seg>
   
   <pb n="[1]v"/><note xml:lang="en">blank</note>
   
+    </ab>
 </body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
-  
-  <pb n="[1]r"/>
-    <milestone n="1" unit="left margin"/>
-    <lb n="1"/><seg function="blessing"><g xml:lang="sa">ha</g>ri Om</seg>
-    <lb n="2"/><seg function="blessing">naṉṟāka</seg>
-    <lb n="3"/><seg function="title">maṟaṇa
+  <ab>
+    
+  <seg function="blessing">
+    <pb facs="25" n="[1]r"/>
+    
+  <milestone facs="26" n="1" unit="left margin"/>
+    <lb n="1"/><g xml:lang="sa">ha</g>ri Om</seg>
+    <seg function="blessing"><lb n="2"/>naṉṟāka</seg>
+    <seg function="title"><lb n="3"/>maṟaṇa
     <lb n="4" break="no"/>kaṇṭikai</seg>
     <lb n="5"/>y<pc>-</pc>āvatu    
-    <milestone unit="main text area"/>
-    <lb n="1"/><seg function="incipit">yīcuparaṉṉuk-kiṟakattiṉālē lōkappiṟapañcattukku Uṇṭu paṇṇiṉa maṟaṇakaṇṭikai viparam aṟintu • rāci • naṭcattiram • varuṣam • mātam • titi • vāram • yōkam •
-    <lb n="2"/>kāṇam • pāttu collavum</seg> • <seg function="blessing">kuru pātan tuṇai</seg> <seg function="blessing">makākaṇapati tuṇai</seg> = Ulak’ oru mūṉṟu <gap reason="ellipsis"/>
+  
+    <seg function="incipit"><milestone facs="27" unit="main text area"/>
+    <lb n="1"/>yīcuparaṉṉuk-kiṟakattiṉālē lōkappiṟapañcattukku Uṇṭu paṇṇiṉa maṟaṇakaṇṭikai viparam aṟintu • rāci • naṭcattiram • varuṣam • mātam • titi • vāram • yōkam •
+    <lb n="2"/>kāṇam • pāttu collavum •</seg> <seg function="blessing">kuru pātan tuṇai</seg> <seg function="blessing">makākaṇapati tuṇai =</seg> Ulak’ oru mūṉṟu <gap reason="ellipsis"/>
     <lb n="2"/><gap reason="ellipsis"/> Acupatinaṭcettiram <gap reason="ellipsis"/>
   
-  <pb n="4v"/>
+  <seg function="intertitle">
+    <pb facs="53" n="4v"/>
     <milestone unit="left margin"/>
-    <lb n="1"/><seg function="intertitle">kārt
+    <lb n="1"/>kārt
     <lb n="2" break="no"/>tikai</seg>
+  
     <milestone unit="main text area"/>
-     <lb n="3"/><gap reason="ellipsis"/> <seg function="completion-statement">paraṇinaṣṣettiram ~ vipaṟam muttu</seg> <unclear><g ref="#pcl"/></unclear>
-    <lb n="4"/><seg function="blessing">yiravacuvāmi cakāya=m</seg> <g ref="#pcl"/> <g ref="#pcl"/> <g ref="#pcl"/> <g ref="#pcl"/> <g ref="#pcl"/> <g ref="#pcl"/> <seg function="intertitle">kārttikai naṣṣettirattiṉ kuṇam</seg> <g ref="#pcl"/> <gap reason="ellipsis"/>
-  <pb n="43r"/>
-    <milestone unit="left margin"/>
+     <lb n="3"/><gap reason="ellipsis"/> <seg function="completion-statement">paraṇinaṣṣettiram ~ vipaṟam muttu <unclear><g ref="#pcl"/></unclear></seg>
+    <seg function="blessing"><lb n="4"/>yiravacuvāmi cakāya=m <g ref="#pcl"/> <g ref="#pcl"/> <g ref="#pcl"/> <g ref="#pcl"/> <g ref="#pcl"/> <g ref="#pcl"/></seg> <seg function="intertitle">kārttikai naṣṣettirattiṉ kuṇam <g ref="#pcl"/></seg> <gap reason="ellipsis"/>
+  
+    <pb facs="150" n="43r"/>
+    
+    <milestone facs="150" unit="left margin"/>
     <lb n="1"/>puraṭṭā
     <lb n="2" break="no"/>ti <g ref="#pcs"/> pi
     <lb n="3" break="no"/>ṉ kuṇa<seg rend="grantha">m</seg>
@@ -126,12 +141,12 @@
     <lb n="2-7"/><gap reason="ellipsis"/>
     <lb n="8"/><gap reason="ellipsis"/> ~ makaṟccaṉi {varuṣam} 4 ~ kumpa
   
-  <pb n="43v" break="no"/>
+  <pb facs="154" n="43v" break="no"/>
     <milestone unit="left margin"/><note xml:lang="en">unblackened</note>
     <lb n="1"/>cuppi
     <lb n="2" break="no"/>ṟa
     <milestone unit="main text area"/>
-    <lb n="1"/>ccaṉi {varuṣam} 4 ~ piṉ viyāḷam {varuṣam} 10
+    <lb n="1"/>ccaṉi {varuṣam} 4 ~ piṉ viyāḷam {varuṣam} <g ref="#pattu"/>
   
-  
+  </ab>
 </body></text></TEI>

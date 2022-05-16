@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -9,7 +9,7 @@
          
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -20,16 +20,18 @@
                   <idno type="eadid">FRBNFEAD000103865</idno>
                   <idno type="shelfmark">Indien 338</idno>
                   <idno type="alternate"><idno>Tamoul 338</idno><idno>Ancien fonds ?</idno></idno>
-               </msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1038657</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/zg64tt448</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary>The <title xml:lang="ta">Kantapurāṇakkatai</title> appears to be a prose epitome of the <title xml:lang="ta">Kantapurāṇam</title> of <persName>Kacciyappa Civācāriyar</persName>, departing somehow from this version. For instance, at the end of <persName>Kacciyappa Civācāriyar</persName>’s version, after marrying Vaḷḷi, Murukaṉ brings her near the Kailāsa mountain, introduces her to his first spouse Teyvayāṉai, and the three of them live afterwards in harmony. In the present <title xml:lang="ta">Kantapurāṇakkatai</title>, Murukaṉ and Vaḷḷi join Teyvayāṉai in Centippaṭṭaṇam (f48v10), that is Centil/Tiruccentūr, where they all live happily.</summary>
+                  <summary><p>The <title xml:lang="ta">Kantapurāṇakkatai</title> appears to be a prose epitome of the <title xml:lang="ta">Kantapurāṇam</title> of <persName>Kacciyappa Civācāriyar</persName>, departing somehow from this version. For instance, at the end of <persName>Kacciyappa Civācāriyar</persName>’s version, after marrying Vaḷḷi, Murukaṉ brings her near the Kailāsa mountain, introduces her to his first spouse Teyvayāṉai, and the three of them live afterwards in harmony. In the present <title xml:lang="ta">Kantapurāṇakkatai</title>, Murukaṉ and Vaḷḷi join Teyvayāṉai in Centippaṭṭaṇam (f48v10), that is Centil/Tiruccentūr, where they all live happily.</p>
+<p>Description based on the examination of the original manuscript (October 2019).</p>
+<p>Dimensions assessed at the time of examination.</p> </summary>
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Kantapurāṇakkaṭai</title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="paper">
                         <extent>
-                           <measure unit="folio" quantity="53">1 + 1 + 1 + 47 + 2 + 1 (u1 + u2 + u3 + U1 + u4 + u5).</measure>
+                           <measure unit="folio" quantity="53">{1} + {1} + 1 + 47 + {2} + {1} (u1 + u2 + u3 + U1 + u4 + u5).</measure>
                            <dimensions type="leaf" unit="mm">
                               <width quantity="250"/>
                               <height quantity="385"/>
@@ -47,15 +49,15 @@
                   </objectDesc>
                   <handDesc>
                      
-                  <handNote synch="#U1" scope="sole" script="tamil" scriptRef="#tamilPulliNone" medium="ink"/></handDesc>
-                  <additions><desc synch="#cover" type="title" subtype="spine"><quote>KANTAPOURÂNAKATAI TAMOUL</quote></desc><desc synch="#cover" type="shelfmark" subtype="beginning">BnF shelfmark sticker: <quote>INDIEN 338</quote>.</desc><desc synch="#u2" type="shelfmark"><quote>Tamoul N° 338</quote> in black pencil.</desc><desc synch="#u3" type="commenting-note"><quote>Dans le Ramayenam [frutor 93]</quote>.</desc><desc synch="#u3" type="title"><quote>CandapouranaKadey</quote>.</desc><desc type="commenting-note" subtype="beginning inserted">Small paper bound in volume between u3 and U1: <quote>KandapourânaKatai Tamoul</quote>. This note indicates the title to be displayed on the spine.</desc><desc synch="#U1" type="catchword">At the bottom right of each of the 2 columns of a page.</desc></additions>
+                  <handNote synch="#U1" scope="sole" script="tamil" scriptRef="#tamilPulliNone" medium="ink black"/></handDesc>
+                  <additions><desc type="title" subtype="spine">Title printed in golden letters <quote>KANTAPOURÂNAKATAI TAMOUL</quote> (<locus facs="4">spine</locus>).</desc><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 338</quote> (<locus facs="5">front cover, verso</locus>).</desc><desc synch="#u2" type="shelfmark"><quote>Tamoul N° 338</quote> in black pencil.</desc><desc synch="#u3" type="commenting-note"><quote>Dans le Ramayenam [frutor 93]</quote> (<locus facs="7">f[1]r</locus>).</desc><desc synch="#u3" type="title"><quote>CandapouranaKadey</quote> (<locus facs="8">f[1]r</locus>).</desc><desc type="commenting-note" subtype="beginning inserted">Small paper bound in volume between <locus facs="10">u3 and U1</locus>: <quote>KandapourânaKatai Tamoul</quote>. This note indicates the title to be displayed on the spine.</desc><desc synch="#U1" type="catchword">At the bottom right of each of the 2 columns of a page.</desc></additions>
                   <bindingDesc>
                      <binding>
                         <p><material>Leather</material> cover. Title and heraldic lilies on the spine.
 </p>
                      </binding>
                   </bindingDesc>
-               <decoDesc><decoNote synch="#cover" type="decorative" subtype="spine"><desc>Heraldic lilies.</desc></decoNote></decoDesc></physDesc>
+               <decoDesc><decoNote type="decorative" subtype="spine"><desc>Heraldic lilies on the <locus facs="4">spine</locus>.</desc></decoNote></decoDesc></physDesc>
                <history>
                   <origin>
                      <origDate calendar="gregorian" notAfter="1729">1729 at the latest. 1750 according to Cabaton (1912), on unknown grounds.</origDate>
@@ -73,13 +75,15 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      
+   <encodingDesc><p>   <emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.            </p></encodingDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
-      <change when="2020-05">Record created by Emmanuel FRANCIS.</change><change when="2021-04">Revised by Emmanuel FRANCIS.</change><change when="2021-06">Updated to TST encoding conventions by Emmanuel FRANCIS.</change></revisionDesc>
-   <encodingDesc><p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.      </p></encodingDesc></teiHeader>
+      <change when="2020-05">Record created by Emmanuel FRANCIS.</change><change when="2021-04">Revised by Emmanuel FRANCIS.</change><change when="2021-06">Updated to TST encoding conventions by Emmanuel FRANCIS.</change><change when="2022-05">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, May 2022.</change></revisionDesc></teiHeader>
    
-<text synch="#U1" corresp="#T1" xml:lang="ta"><body>        
-  <pb n="1r"/><note xml:lang="en">Tamil foliation</note>
+<facsimile><graphic url="https://didomena.ehess.fr/concern/data_sets/zg64tt448/manifest.json"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>      
+  <ab>
+    
+  <pb facs="9" n="1r"/><note xml:lang="en">Tamil foliation</note>
     <lb n="1"/><term xml:lang="en">{Christian cross}</term>
     <seg function="title"><lb n="2"/>kantapurāṇakatai</seg>
     <milestone n="1" unit="column"/>
@@ -112,7 +116,7 @@
     <lb n="27" break="no"/>ṇu-piṟumatēvaṉ tēvē
     <lb n="28" break="no"/>ntiraṉ <gap reason="ellipsis"/>
   
-  <pb n="47v"/><note xml:lang="en">Tamil foliation</note>
+  <pb facs="18" n="47v"/><note xml:lang="en">Tamil foliation</note>
     
   <milestone n="1" unit="column"/>
     <lb n="1"/>colli-y aṉuppiviṭṭu
@@ -130,7 +134,7 @@
     <lb n="13" break="no"/>ka vāḻntiruntār</seg>
     <lb n="14"/><seg function="completion-statement">muṟṟum</seg> –
     <lb n="15"/><note xml:lang="en">blank line</note>
-    <lb n="16"/><seg function="postface">Inta-p purāṇattai
+    <seg function="postface"><lb n="16"/>Inta-p purāṇattai
     <lb n="17"/>A<unclear>ṟ</unclear>ciṉṉ-uṭaiya po
     <lb n="18" break="no"/>ṉ ceṉamēca-y<pc>-</pc>i
     <lb n="19" break="no"/>rācar kēṭṭu mo
@@ -141,4 +145,5 @@
     <lb n="24" break="no"/>vaḷḷikatai
     <lb n="25"/>muṟṟum <unclear><g ref="#pcs"/></unclear></seg>
        
+    </ab>
 </body></text></TEI>
