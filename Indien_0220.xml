@@ -48,13 +48,14 @@
                   <handDesc>
                      
                   <handNote synch="#U1" scope="major" script="latin tamil" medium="ink black"/></handDesc>
-                  <additions><desc type="title" subtype="spine"><quote>DICTIONNAIRE FRANÇAIS ET TAMOUL </quote> (<locus facs="2">spine</locus>).</desc><desc type="shelfmark" subtype="spine">BnF shelfmark sticker: <quote>INDIEN 220</quote> (<locus facs="2">spine</locus>).</desc><desc type="shelfmark" subtype="beginning cover">BnF shelfmark sticker: <quote>INDIEN 220</quote> (<locus facs="5">front cover, verso</locus>).</desc><desc synch="#u1" type="shelfmark">BnF shelfmark in black pencil: <quote>Tamoul N° 220</quote> (<locus facs="5">f[1]r</locus>).</desc><desc synch="#U1a" corresp="#T1" type="shelfmark" subtype="left">Shelfmark in black ink: <quote>Aa/9.</quote> (<locus facs="6">f[1]r</locus>).</desc></additions>
+                  <additions><desc type="title" subtype="spine">Title in golden letters on the <locus facs="2">spine</locus>: 
+<quote xml:lang="fr" rend="block"><lb n="1"/>DICTIONNAIRE <lb n="2"/>FRANÇAIS <lb n="3"/>ET <lb n="4"/>TAMOUL</quote> </desc><desc type="shelfmark" subtype="spine">BnF shelfmark sticker: <quote>INDIEN 220</quote> (<locus facs="2">spine</locus>).</desc><desc synch="#CoverFront" type="shelfmark" subtype="front">BnF shelfmark sticker: <quote>INDIEN 220</quote> (<locus facs="5">front cover, verso</locus>).</desc><desc synch="#u1" type="shelfmark">BnF shelfmark in black pencil: <quote>Tamoul N° 220</quote> (<locus facs="5">f[1]r</locus>).</desc><desc synch="#U1a" corresp="#T1" type="shelfmark" subtype="left">Shelfmark in black ink: <quote>Aa/9.</quote> (<locus facs="6">f[1]r</locus>).</desc></additions>
                   <bindingDesc>
                      <binding>
                         <p>Red leather covers. Title, decoration and shelfmark on the spine.</p>
                      </binding>
                   </bindingDesc>
-               <decoDesc><decoNote type="decorative" subtype="spine"/></decoDesc></physDesc>
+               <decoDesc><decoNote type="decorative" subtype="spine"><desc>Floral decoration on the <locus facs="2">spine</locus>.</desc></decoNote></decoDesc></physDesc>
                <history>
                   <origin>
                      <origDate calendar="gregorian" when="1848">Internal date. See colophon (U1b, f[1]v). Dated to 1850 by Cabaton (1912), on unstated grounds (presumably palaeographical and material analysis arguments).</origDate>
@@ -88,7 +89,7 @@
 </body>
    </text><text synch="#U1b" corresp="#T2" xml:lang="fr"><body>
   <ab>
-  <pb facs="9" n="[1]r"/>
+  <seg function="colophon"><pb facs="14" n="[1]v"/><pb facs="9" n="[1]r"/>
   
   <lb n="1"/>le manuscript sur lequel celui ci a été copié se
  <lb n="2"/>compose de 132 pp. (recto et verso) in f° papier écolier,
@@ -103,30 +104,32 @@
  <lb n="11"/>la famille duquel l’ouvrage est conservé aujourdhui.
  <lb n="12"/>EA <note xml:lang="en">that is, the initials of Édouard Ariel</note>
 
-    <seg function="colophon"><pb facs="14" n="[1]v"/>
-      <lb n="1"/>copié le français par <persName role="scribe">Adolphe <choice><unclear>p</unclear><unclear>s</unclear></choice>itatuan</persName>
- <lb n="2"/>~ le tamil par <persName role="scribe">Djagannada</persName>.
+    
+      <lb n="1"/>copié le français par <persName xml:lang="fr" role="scribe">Adolphe <choice><unclear>p</unclear><unclear>s</unclear></choice>itatuan</persName>
+ <lb n="2"/>~ le tamil par <persName xml:lang="fr" role="scribe">Djagannada</persName>.
     <lb n="1-2"/>1848
- <lb n="3"/>collationné par <persName role="editor">Sinnadurai</persName> &amp; <persName role="editor">Aviçayal</persName>. 1853.
-  <lb n="4"/>EA <note xml:lang="en">that is, the initials of Édouard Ariel</note></seg>
+ <lb n="3"/>collationné par <persName xml:lang="fr" role="editor">Sinnadurai</persName> &amp; <persName xml:lang="fr" role="editor">Adiçayam</persName>. 1853.
+  <lb n="4"/>EA<note xml:lang="en" place="foot">that is, the initials of Édouard Ariel</note></seg>
 
     </ab>
 </body></text><text synch="#U1c" corresp="#T3" xml:lang="fr"><body>
   <ab>
+    <seg function="incipit">
   <pb facs="17" n="1r"/>
   <lb n="1"/>A. abj
-  <lb n="1"/>Abaisser | <term xml:lang="ta">tāḻttukiṟatu</term>
-  <lb n="2"/>abandon | <term xml:lang="ta">kaiviṭutal</term>
-  <lb n="3"/>abandonné | <term xml:lang="ta">kaiviṭappaṭṭa</term>
+  <lb n="2"/>Abaisser | <term xml:lang="ta">tāḻttukiṟatu</term>
+  <lb n="3"/>abandon | <term xml:lang="ta">kaiviṭutal</term>
+  <lb n="4"/>abandonné | <term xml:lang="ta">kaiviṭappaṭṭa</term></seg>
   
-   <pb facs="23" n="153v"/><note xml:lang="en">i.e. page 306</note>
-  
+   <seg function="explicit"><pb facs="23" n="153v"/><note xml:lang="en">i.e. page 306</note>
+      <lb n="1-13"/><gap reason="ellipsis"/>
+
   <lb n="14"/>Z.
   <lb n="15"/><gap reason="ellipsis"/>
   <lb n="16"/><gap reason="ellipsis"/>
   <lb n="17"/><gap reason="ellipsis"/>
   <lb n="18"/>zombaye | <term xml:lang="ta">namaskāram</term>
-  <lb n="19"/>zèle | <term xml:lang="ta">tēvayūḻiyattilē cuṟucuṟuppu</term>
+  <lb n="19"/>zèle | <term xml:lang="ta">tēvayūḻiyattilē cuṟucuṟuppu</term></seg>
     
     </ab>
   
