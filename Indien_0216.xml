@@ -48,13 +48,13 @@
                   </objectDesc>
                   <handDesc>
                      
-                  <handNote synch="#U1" scope="major" script="latin tamil"/></handDesc>
-                  <additions><desc type="title" subtype="spine">Title in golden letters on the <locus facs="0">spine</locus>: 
+                  <handNote synch="#U1" scope="major" script="latin tamil" medium="ink black"/></handDesc>
+                  <additions><desc type="title" subtype="spine">Title in golden letters on the spine: 
 <quote xml:lang="fr" rend="block">
 <lb n="1"/>C.J. BESCHI
   <lb n="2"/>DICTIONNAIRE
   <lb n="3"/><supplied reason="lost">FR</supplied>ANÇAIS-TAMOUL
-</quote> </desc><desc type="shelfmark" subtype="spine">BnF shelfmark sticker: <quote>INDIEN 216</quote> (spine).</desc><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 216</quote> (<locus facs="1">front cover, verso</locus>).</desc><desc synch="#u1" type="shelfmark">BnF shelfmark in black pencil: <quote>Tamoul N° 216</quote> (<locus facs="1">f[1]r</locus>).</desc></additions>
+</quote> </desc><desc type="shelfmark" subtype="spine">BnF shelfmark sticker: <quote>INDIEN 216</quote> on the spine.</desc><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 216</quote> (<locus facs="1">front cover, verso</locus>).</desc><desc synch="#u1" type="shelfmark">BnF shelfmark in black pencil: <quote>Tamoul N° 216</quote> (<locus facs="1">f[1]r</locus>).</desc></additions>
                   <bindingDesc>
                      <binding>
                         
@@ -63,7 +63,7 @@
                <decoDesc/></physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian" when="1849">Internal date. See colophon (<locus facs="3">u2, f[1]r</locus>). Dated to 1845 or 1846 by Vinson in Vinson et al. (1866-), to 1845 by Cabaton (1912), to 1849 by James (2000), on unstated grounds (presumably palaeographical and material analysis arguments).</origDate>
+                     <origDate calendar="gregorian" notBefore="1849" notAfter="1853">Internal date. Copied in 1849, collated in 1853. See colophon (<locus facs="3">u2, f[1]r</locus>). Dated to 1845 or 1846 by Vinson in Vinson et al. (1866-), to 1845 by Cabaton (1912), on unstated grounds (presumably palaeographical and material analysis arguments). Dated to 1849 by James (2000).</origDate>
                      <origPlace>Tamilnadu.</origPlace>
                   </origin>
                   <acquisition>
@@ -87,31 +87,32 @@
 <facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10091597j/manifest.json"/></facsimile><text synch="#U1a" corresp="#T1" xml:lang="fr"><body>
     <ab>
     
+      <seg function="title">
   <pb facs="2" n="[1]r"/> 
-  <lb n="1"/><seg function="title">Dictionnaire
+  <lb n="1"/>Dictionnaire
   <lb n="2"/>français et tamoul</seg>
    <lb n="3"/>par
-   <lb n="4"/>le R.P. J. C. Beschi
+   <lb n="4"/>le R. P.  J. C. Beschi
   </ab>
 </body>
    </text><text synch="#U1b" corresp="#T2" xml:lang="fr"><body>
       <ab>
 
-  <pb facs="3" n="[1]r"/>
+  <seg function="colophon"><pb facs="3" n="[1]r"/>
   
   <lb n="1"/>L’original de cette copie est un exemplaire apparten<hi rend="superscript">t</hi>
 <lb n="2"/>à un agriculteur et composé de 193 pages (recto &amp;
 <lb n="3"/>verso) sur petit in f° à deuz colonnes.
-<lb n="4"/>Copié par <persName role="scribe">Jagannadan</persName> (1849)
-<lb n="5"/>collationné par <persName role="editor">Sinnadurai</persName> &amp; <persName role="editor">Aviçayam</persName> (1853)
- <lb n="6"/>EA <note xml:lang="en">that is, the initials of Édouard Ariel</note>
+<lb n="4"/>Copié par <persName xml:lang="fr" role="scribe">Jagannadan</persName> (1849)
+<lb n="5"/>collationné par <persName xml:lang="fr" role="editor">Sinnadurai</persName> &amp; <persName xml:lang="fr" role="editor">Atiçayam</persName> (1853)
+ <lb n="6"/>EA<note xml:lang="en" place="foot">that is, the initials of Édouard Ariel</note></seg>
         
   </ab>
 </body></text><text synch="#U1c" corresp="#T3" xml:lang="fr"><body>
       <ab>
 
-  <pb facs="4" n="1r"/>
-  <lb n="1"/><seg function="intertitle">Dictionnaire français &amp; tamoul.</seg>
+  <seg function="title"><pb facs="4" n="1r"/>
+  <lb n="1"/>Dictionnaire français &amp; tamoul.</seg>
   <milestone n="1" unit="column"/>
   <lb n="1"/>A
   <lb n="2"/>Abh
@@ -125,34 +126,29 @@
   <lb n="3ff."/><gap reason="ellipsis"/>
   
    <pb facs="119" n="114v"/>
-  
+    <lb n="1ff."/><gap reason="ellipsis"/>
+
   <lb n="9"/>Z.
-  <lb n="10"/><gap reason="ellipsis"/>
-  <lb n="11"/><gap reason="ellipsis"/>
-  <lb n="12"/><gap reason="ellipsis"/>
-  <lb n="13"/><gap reason="ellipsis"/>
-  <lb n="14"/><gap reason="ellipsis"/>
-  <lb n="15"/><gap reason="ellipsis"/>
-  <lb n="16"/><gap reason="ellipsis"/>
-  <lb n="17"/><gap reason="ellipsis"/>
+  <lb n="10-17"/><gap reason="ellipsis"/>
     <lb n="18"/>zombay <term xml:lang="ta">namaskāram</term>.
-  <lb n="20"/><seg function="completion-statement">FIN <term xml:lang="ta">muṟṟum</term></seg>.
+  <seg function="completion-statement"><lb n="20"/>FIN <term xml:lang="ta">muṟṟum</term></seg>.
     
      <pb facs="119" n="117r-121v"/><note xml:lang="en">lists of words arranged by topic</note>
-     <pb facs="124" n="122r-123r"/><note xml:lang="en">lists of the 60 years of the Jocian cycle</note>
-       <pb n="123v"/><note xml:lang="en">blank</note>
+     <pb facs="124" n="122r-123r"/><note xml:lang="en">lists of the 60 years of the Jovian cycle</note>
+       <pb facs="126" n="123v"/><note xml:lang="en">blank</note>
      <pb facs="126" n="124r-125r"/><note xml:lang="en">declensions</note>
        <pb facs="128" n="125v-140r"/><note xml:lang="en">conjugations</note>
-       <pb n="140v"/><note xml:lang="en">blank</note>
+       <pb facs="143" n="140v"/><note xml:lang="en">blank</note>
 
-  <pb facs="143" n="141r"/>
-  <lb n="1"/><seg function="intertitle">Des années et des mois indiens en faveur des mission=
+  <seg function="intertitle"><pb facs="143" n="141r"/>
+  <lb n="1"/>Des années et des mois indiens en faveur des mission=
   <lb n="2" break="no"/>=naires qui sont dans l'interieur des terres où on ne con=
   <lb n="3" break="no"/>nait pas notre Kalandrier.</seg>
 
     <pb facs="148" n="145v"/>
-<lb n="16-20"/><seg function="explicit"><gap reason="ellipsis"/></seg>
-  <lb n="21"/><seg function="completion-statement">Finis Coronat Opus</seg>.
+    <lb n="1-15"/><gap reason="ellipsis"/>
+        <lb n="16-20"/><seg function="explicit"><gap reason="ellipsis"/></seg>
+  <seg function="completion-statement"><lb n="21"/>Finis Coronat Opus</seg>.
                              
 </ab>
 </body></text></TEI>
