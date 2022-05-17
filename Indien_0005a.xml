@@ -71,7 +71,7 @@
                      
                   </additions>
                   <bindingDesc>
-                    <binding><p/></binding>
+                    <binding/>
                   </bindingDesc>
                </physDesc>
                <history>
@@ -109,21 +109,24 @@
     
   <pb facs="5" n="[1]r"/>
   
-  <seg function="header"><milestone n="1" unit="left-margin"/>
-  <lb n="1-2"/><seg function="blessing">civamaya <note xml:lang="en">inscribed inside <foreign xml:lang="sa">oṁ </foreign> symbol with a <foreign xml:lang="sa">triśūla</foreign></note></seg>
+  <seg function="header">
+    <milestone n="1" unit="left-margin"/>
+  <seg function="blessing"><lb n="1-2"/>civamaya <note xml:lang="en">inscribed inside <foreign xml:lang="sa">oṁ </foreign> symbol with a <foreign xml:lang="sa">triśūla</foreign></note></seg>
   
-    <milestone n="2" unit="left-margin"/>
-  <lb n="1-2"/><seg function="title">manōṉmaṇiyantāti <note xml:lang="en">unblackened</note></seg>
-  <lb n="3-4"/><seg function="metre">veṇpā</seg></seg>
+    <seg function="title"><milestone n="2" unit="left-margin"/>
+  <lb n="1-2"/>manōṉmaṇiyantāti <note xml:lang="en">unblackened</note></seg>
+  <seg function="metre"><lb n="3-4"/>veṇpā</seg>
+    </seg>
   
-   <milestone unit="main-text-area"/>
-  <lb n="1"/><seg function="incipit">ceyyāta tīviṉaikaḷ ceytāluñ ceyta
+   <seg function="incipit"><milestone unit="main-text-area"/>
+  <lb n="1"/>ceyyāta tīviṉaikaḷ ceytāluñ ceyta
   <lb n="2"/>kuṇam ~ <gap reason="ellipsis"/></seg>
     <lb n="3-5"/><gap reason="ellipsis"/>
 
       <pb facs="6" n="[1]v"/>
+    <seg function="explicit">
       <lb n="1-5"/><gap reason="ellipsis"/>
-<lb n="6"/><seg function="explicit"><gap reason="ellipsis"/> y<pc>-</pc>uṉṉ aṭiyai pukaḻum āṟē <g ref="#pcl"/></seg> <seg function="blessing">tirucciṟṟampalam <g ref="#pcl"/></seg>
+<lb n="6"/><gap reason="ellipsis"/> y<pc>-</pc>uṉṉ aṭiyai pukaḻum āṟē <g ref="#pcl"/></seg> <seg function="blessing">tirucciṟṟampalam <g ref="#pcl"/></seg>
 
     </ab>
 </body>
@@ -132,17 +135,20 @@
     
   <pb facs="7" n="[1]r"/>
   
-  <seg function="header"><milestone unit="left-margin"/>
-  <lb n="1-4"/><seg function="blessing">varākiyammaṉuṭaiya pātamē tuṇai</seg></seg>
+  <seg function="header">
+    <seg function="blessing"><milestone unit="left-margin"/>
+  <lb n="1-4"/>varākiyammaṉuṭaiya pātamē tuṇai</seg></seg>
   
       <milestone unit="main-text-area"/>
-   <lb n="1"/><seg function="incipit">poṉṉ itaḻ pānta malar koṉṟai <gap reason="ellipsis"/></seg>
+    <seg function="incipit">
+   <lb n="1"/>poṉṉ itaḻ pānta malar koṉṟai <gap reason="ellipsis"/></seg>
         <lb n="2-6"/><gap reason="ellipsis"/>
 
       
   <pb facs="80" n="37v"/>
+    <seg function="explicit">
       <lb n="1-5"/><gap reason="ellipsis"/>
-<lb n="6"/><seg function="explicit"><gap reason="ellipsis"/> paramparam vaṉṉiyaṭi poṉṉiṉ muṭiyē <g ref="#pcl"/> <g ref="#nūṟu"/> <g ref="#pcl"/></seg>
+<lb n="6"/><gap reason="ellipsis"/> paramparam vaṉṉiyaṭi poṉṉiṉ muṭiyē <g ref="#pcl"/> <g ref="#nūṟu"/> <g ref="#pcl"/></seg>
 
 </ab>
 </body>
