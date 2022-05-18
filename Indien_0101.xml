@@ -103,10 +103,11 @@
   <ab>
     
   <pb facs="3" n="[1]r"/>
-  <milestone unit="left-margin"/>
+    <seg function="header">
+  <seg function="blessing"><milestone unit="left-margin"/>
              
-<lb n="1"/><seg function="header"><seg function="blessing">Ari Ōm</seg> <seg function="blessing">naṉṟāka</seg>
-<lb n="2-6"/><seg function="title">Akasttiyar Aruḷicceytap pūṟaṇa cūsttiram</seg> <seg function="blessing">kuruvē tuṇai</seg></seg>
+<lb n="1"/>Ari Ōm</seg> <seg function="blessing">naṉṟāka</seg>
+<seg function="title"><lb n="2-6"/>Akasttiyar Aruḷicceytap pūṟaṇa cūsttiram</seg> <seg function="blessing">kuruvē tuṇai</seg></seg>
 
   <milestone unit="main-text-area"/>
   <lb n="1-3"/><gap reason="ellipsis"/>
@@ -119,14 +120,17 @@
     <ab>
 
   <pb facs="5" n="1r"/>
-  <milestone unit="left-margin"/>
+      
+      <seg function="header">  
+      <seg function="blessing"><milestone unit="left-margin"/>
              
-<lb n="1"/><seg function="blessing"><term xml:lang="sa">hari Om</term></seg>  
-<lb n="2"/><seg function="blessing">naṉṟāka</seg>
-<lb n="3-7"/><seg function="title">Akaṣt=tiya makāmuṉi cuvāmi yaruḷiya pūṟaṇacūt=tira<seg rend="grantha">m</seg> <g ref="#pcl"/></seg> 
+<lb n="1"/><term xml:lang="sa">hari Om</term></seg>  
+<seg function="blessing"><lb n="2"/>naṉṟāka</seg>
+<seg function="title"><lb n="3-7"/>Akaṣt=tiya makāmuṉi cuvāmi yaruḷiya pūṟaṇacūt=tira<seg rend="grantha">m</seg> <g ref="#pcl"/></seg> 
+        </seg>
   
-   <milestone unit="main-text-area"/>
-  <lb n="1"/><seg function="incipit">Eṉṟāṉa pūṟaṇamē <gap reason="ellipsis"/></seg>
+   <seg function="incipit"><milestone unit="main-text-area"/>
+  <lb n="1"/>Eṉṟāṉa pūṟaṇamē <gap reason="ellipsis"/></seg>
 
   <pb facs="7" n="2r"/>
   <milestone unit="left-margin"/>
@@ -135,7 +139,7 @@
 
 <pb facs="9" n="3r"/>
   <milestone unit="left-margin"/>
-             <lb n="1-2"/>viṟama pūcai 
+   <lb n="1-2"/>viṟama pūcai 
 
 <pb facs="10" n="3v"/>
   <milestone unit="left-margin"/>
@@ -246,8 +250,9 @@
              <lb n="1-3"/>marunt araikkak kalvam <g ref="#pcs"/> 
 
  <pb facs="143" n="70r"/>
-               <lb n="1"/><seg function="explicit"><gap reason="ellipsis"/> nalamāṉa pūṟaṇa cūṣttira muttē <g ref="#pcs"/> 205 <g ref="#pcs"/></seg> <seg function="colophon"><seg function="blessing"><choice><sic>cē</sic><corr>tē</corr></choice>vi-cakāyam <g ref="#pcs"/></seg>
- <lb n="2-6"/><seg function="blessing">kuruvē tuṇai <g ref="#pcs"/></seg> <seg function="postface">coṉṉāḷō ciṟupiḷḷai – vayatu koñcam – col ttiṟamāyp pēcariyāḷ – mavuṉiyappā – yeṉṉāḷō yevvukamō yāṉō kāṇṇē yippaṭiyē ceṟupeṇṇu yiruntāḷ āttāḷ taṉṉāḷō ravi pattu cantiraṉ vīṭṭi tāyārukku – kkuṭi yiruppu ttākkip pāru paṇṇāḷō ravi kōṭi pāṭivippāḷ pālaiyuṭā cittarukkut teyvan tāṉē <g ref="#pcs"/></seg> <seg function="TBC">pūṟaṇattai nōkka nōkka kāṟaṇattiṉ vaḻi 
+               
+        <seg function="explicit"><lb n="1"/><gap reason="ellipsis"/> nalamāṉa pūṟaṇa cūṣttira muttē <g ref="#pcs"/> 205 <g ref="#pcs"/></seg> <seg function="colophon"><seg function="blessing"><choice><sic>cē</sic><corr>tē</corr></choice>vi-cakāyam <g ref="#pcs"/></seg>
+ <seg function="blessing"><lb n="2-6"/>kuruvē tuṇai <g ref="#pcs"/></seg> <seg function="postface">coṉṉāḷō ciṟupiḷḷai – vayatu koñcam – col ttiṟamāyp pēcariyāḷ – mavuṉiyappā – yeṉṉāḷō yevvukamō yāṉō kāṇṇē yippaṭiyē ceṟupeṇṇu yiruntāḷ āttāḷ taṉṉāḷō ravi pattu cantiraṉ vīṭṭi tāyārukku – kkuṭi yiruppu ttākkip pāru paṇṇāḷō ravi kōṭi pāṭivippāḷ pālaiyuṭā cittarukkut teyvan tāṉē <g ref="#pcs"/></seg> <seg function="TBC">pūṟaṇattai nōkka nōkka kāṟaṇattiṉ vaḻi 
 
 <pb facs="144" n="70v"/>
   
@@ -261,22 +266,16 @@ kāṭṭum puruvamayyam – nōkka – yōkañāṉam āccu <g ref="#pcl"/><not
 
 
 
-
-
-
-
-
-
-
 </text><text synch="#U4" corresp="#T3" xml:lang="ta"><body>
     <ab>
 
   <pb facs="147" n="71r"/>
-  <milestone unit="left-margin"/>
-<lb n="1-5"/><seg function="title">Akaṣttiya-makāmuṉi Aruḷicceyita tīṣṣai-viti yirunūṟu</seg>
+  <seg function="title">
+    <milestone unit="left-margin"/>
+<lb n="1-5"/>Akaṣttiya-makāmuṉi Aruḷicceyita tīṣṣai-viti yirunūṟu</seg>
   
-  <milestone unit="main-text-area"/>
-  <lb n="1"/><seg function="incipit">vāṉaittāviya pōtikai ~<gap reason="ellipsis"/></seg>
+  <seg function="incipit"><milestone unit="main-text-area"/>
+  <lb n="1"/>vāṉaittāviya pōtikai ~<gap reason="ellipsis"/></seg>
                                                                                           
 <pb facs="0" n="77r"/>
   <milestone unit="left-margin"/>
@@ -291,7 +290,7 @@ kāṭṭum puruvamayyam – nōkka – yōkañāṉam āccu <g ref="#pcl"/><not
              <lb n="1-3"/>Ayam urukkiṟatu <g ref="#pcs"/><g ref="#pcs"/>
 
 <pb facs="257" n="126r"/>
-            <lb n="4-6"/><seg function="explicit"><gap reason="ellipsis"/>pūcai-viti-tīṣṣai muttē <g ref="#pcs"/> 214 <g ref="#pcs"/></seg> <seg function="blessing">kuruvē tuṇai</seg> <seg function="blessing">teṣṣaṇā-mūṟtti pātāravintamē tuṇai Eppōtum uṇṭākavu=M <g ref="#pcl"/></seg> <seg function="blessing">civamayam <g ref="#pcs"/></seg> <seg function="blessing">parañcōti-pātāravintamē keti <g ref="#pcs"/></seg> <seg function="blessing">tēvic cakāyam <g ref="#pcl"/></seg>
+            <seg function="explicit"><lb n="4-6"/><gap reason="ellipsis"/>pūcai-viti-tīṣṣai muttē <g ref="#pcs"/> 214 <g ref="#pcs"/></seg> <seg function="blessing">kuruvē tuṇai</seg> <seg function="blessing">teṣṣaṇā-mūṟtti pātāravintamē tuṇai Eppōtum uṇṭākavu=M <g ref="#pcl"/></seg> <seg function="blessing">civamayam <g ref="#pcs"/></seg> <seg function="blessing">parañcōti-pātāravintamē keti <g ref="#pcs"/></seg> <seg function="blessing">tēvic cakāyam <g ref="#pcl"/></seg>
       </ab>
   </body>
 
@@ -300,12 +299,14 @@ kāṭṭum puruvamayyam – nōkka – yōkañāṉam āccu <g ref="#pcl"/><not
 
   <pb facs="259" n="127r"/>
   
-  <milestone unit="left-margin"/>
-  <lb n="1"/><seg function="blessing">śrīrāmaceya=M</seg>
+  <seg function="header">
+    <seg function="blessing"><milestone unit="left-margin"/>
+  <lb n="1"/>śrīrāmaceya=M</seg>
   <lb n="2-3"/><seg function="title">Akaṣt=tiyar ñāṉam <g ref="#pcs"/></seg>
+    </seg>
   
-  <milestone unit="main-text-area"/>
-  <lb n="1"/><seg function="incipit">cintaiy uṟu ñāṉam ~<gap reason="ellipsis"/></seg>
+  <seg function="incipit"><milestone unit="main-text-area"/>
+  <lb n="1"/>cintaiy uṟu ñāṉam ~<gap reason="ellipsis"/></seg>
                       
 
 <pb facs="282" n="138v"/>
@@ -319,21 +320,24 @@ kāṭṭum puruvamayyam – nōkka – yōkañāṉam āccu <g ref="#pcl"/><not
   <milestone unit="main-text-area"/>
   <lb n="1"/><g ref="#pcs"/> <g ref="#nūṟu"/> <g ref="#pcs"/> <gap reason="ellipsis"/>
   <lb n="2-3"/><gap reason="ellipsis"/>
-  <lb n="4"/><seg function="explicit"><gap reason="ellipsis"/> ñāṉa muttē <g ref="#pcs"/> <g ref="#pcs"/></seg> <seg function="colophon"><seg function="blessing">kurukiṭāṣṣam uṇṭākavu=M</seg> <seg function="title">teṣṣaṇumūṟtti-ñāṉam nū
+  <seg function="explicit"><lb n="4"/><gap reason="ellipsis"/> ñāṉa muttē <g ref="#pcs"/> <g ref="#pcs"/></seg> <seg function="colophon"><seg function="blessing">kurukiṭāṣṣam uṇṭākavu=M</seg> <seg function="title">teṣṣaṇumūṟtti-ñāṉam nū
   <lb n="5" break="no"/>ṟu <g ref="#pcs"/></seg> <seg function="blessing">civamayam <g ref="#pcl"/></seg> <seg function="blessing">teṣṣaṇumūṟt=ti pātāravintamē keti <g ref="#pcl"/></seg> <seg function="blessing">cuvāmi pātāravintamē keti <g ref="#pcs"/></seg>
-  <lb n="6"/><seg function="benediction">Āveṉṟē A<choice><orig>ṣṣca</orig><reg>ṭca</reg></choice>rattai Aṟint<pc>'</pc> uṇart=tatu ṉāḷ tōṟum O<choice><sic>pe</sic><corr>me</corr></choice>ṉav Aṣṣarattai Uṟutiyāy maṉatil vayt=tu
+  <seg function="benediction"><lb n="6"/>Āveṉṟē A<choice><orig>ṣṣca</orig><reg>ṭca</reg></choice>rattai Aṟint<pc>'</pc> uṇart=tatu ṉāḷ tōṟum O<choice><sic>pe</sic><corr>me</corr></choice>ṉav Aṣṣarattai Uṟutiyāy maṉatil vayt=tu
   <lb n="7"/>ṉāṉ eṉṟa Aṣṣarat=tai ṉāḷ tōṟum viṭṭakalātē ṉōṉṟāy niṉṟavaṉē tayavu paṇṇum kaṟttāvē <g ref="#pcl"/></seg></seg>
       </ab>
 </body></text><text synch="#U6" corresp="#T5" xml:lang="ta"><body>
     <ab>
 
   <pb facs="315" n="155r"/>
-  <milestone unit="left-margin"/>
-  <lb n="1"/><seg function="blessing">naṉṟāka</seg>
-  <lb n="2-3"/><seg function="title">Akaṣttiyar vāta-cūṣttiram <g ref="#pcs"/></seg>
+      
+      <seg function="header">
+  <seg function="blessing"><milestone unit="left-margin"/>
+  <lb n="1"/>naṉṟāka</seg>
+  <seg function="title"><lb n="2-3"/>Akaṣttiyar vāta-cūṣttiram <g ref="#pcs"/></seg>
+        </seg>
   
-  <milestone unit="main-text-area"/>
-  <lb n="1"/><seg function="incipit">Ātiyāṉa maṉakkālañ<gap reason="ellipsis"/></seg>                      
+  <seg function="incipit"><milestone unit="main-text-area"/>
+  <lb n="1"/>Ātiyāṉa maṉakkālañ<gap reason="ellipsis"/></seg>                      
 
 <pb facs="318" n="156v"/>
   <milestone unit="left-margin"/>
@@ -501,12 +505,13 @@ kāṭṭum puruvamayyam – nōkka – yōkañāṉam āccu <g ref="#pcl"/><not
              <lb n="1-2"/>kaḷiccuṉṉam <g ref="#pcl"/> 
 
 <pb facs="420" n="207v"/>
-             <lb n="1-3"/><seg function="explicit"><gap reason="ellipsis"/></seg> <seg function="colophon"><seg function="completion-statement">Akaṣt=tiyar cūṣttiram Eḻuti niṟaintatu muṟṟum <g ref="#pcs"/></seg> <seg function="blessing">teṣṣaṇumūṟtti-pātāravintamē tuṇai <g ref="#pcs"/></seg> <seg function="blessing">kuru muṉṉikka vēṇum</seg> <seg function="blessing">civamayam <g ref="#pcs"/></seg> <seg function="blessing">tiruccuṟṟampalam <g ref="#pcl"/></seg> <seg function="blessing">śrīṟā=maceyam <g ref="#pcs"/></seg></seg>
+             <seg function="explicit"><lb n="1-3"/><gap reason="ellipsis"/></seg> <seg function="colophon"><seg function="completion-statement">Akaṣt=tiyar cūṣttiram Eḻuti niṟaintatu muṟṟum <g ref="#pcs"/></seg> <seg function="blessing">teṣṣaṇumūṟtti-pātāravintamē tuṇai <g ref="#pcs"/></seg> <seg function="blessing">kuru muṉṉikka vēṇum</seg> <seg function="blessing">civamayam <g ref="#pcs"/></seg> <seg function="blessing">tiruccuṟṟampalam <g ref="#pcl"/></seg> <seg function="blessing">śrīṟā=maceyam <g ref="#pcs"/></seg></seg>
       </ab></body></text><text synch="#U7" corresp="#T6" xml:lang="ta"><body>
     <ab>
 
     <pb facs="425" n="242r"/>
-  <lb n="1"/><seg function="incipit">vaḷamāṉa <gap reason="ellipsis"/></seg>
+    <seg function="incipit">  
+  <lb n="1"/>vaḷamāṉa <gap reason="ellipsis"/></seg>
   
   <pb facs="425" n="244r"/>
   <milestone unit="left-margin"/>
@@ -529,7 +534,7 @@ kāṭṭum puruvamayyam – nōkka – yōkañāṉam āccu <g ref="#pcl"/><not
              <lb n="1-3"/>navamuttirai
 
 <pb facs="452" n="257v"/>
-             <lb n="2"/><seg function="explicit"><gap reason="ellipsis"/> karuṇai peṟu pūcaiviti karuvā muṟṟē  <g ref="#pcs"/> <g ref="#pcs"/> 201 <g ref="#pcs"/></seg>
+             <seg function="explicit"><lb n="2"/><gap reason="ellipsis"/> karuṇai peṟu pūcaiviti karuvā muṟṟē  <g ref="#pcs"/> <g ref="#pcs"/> 201 <g ref="#pcs"/></seg>
   <lb n="3"/><seg function="colophon"><seg function="blessing">caccutāṉanta-paripūṟṇa-tayāpara-Akaṣttiyar pātāravintamē tuṇai Uṇṭāvatāka
   <lb n="4"/>vu=M</seg> <seg function="blessing">civamayam</seg> <seg function="blessing">kurupātāravintamē keti <g ref="#pcs"/></seg> <seg function="blessing">caṟkkuruvē tuṇai <g ref="#pcs"/></seg> mīṉāṭci <unclear>tūtu</unclear> <g ref="#pcl"/> 
   <lb n="5"/>piṅkaḷa {varuṣam} Āvaṇi {mācam} 15 {tēti} cevvāykkiḻamai Amurta-vēḷaiyil <placeName xml:lang="ta" key="Ceṉṉai">ceṉṉappaṭṭaṉattil</placeName> 
@@ -541,14 +546,14 @@ kāṭṭum puruvamayyam – nōkka – yōkañāṉam āccu <g ref="#pcl"/><not
 
   <pb facs="453" n="[1]r"/>
   
-  <milestone n="1" unit="column"/>
-  <lb n="1"/><seg function="title">pūraṇa-cūttiram</seg>
-  <lb n="2"/><seg function="title">tīṣṣā-viti</seg>
-  <lb n="3"/><seg function="title">ñāṉam</seg>                                           
-  <lb n="4"/><seg function="title">vāta-cūttiram</seg>
+  <seg function="title"><milestone n="1" unit="column"/>
+  <lb n="1"/>pūraṇa-cūttiram</seg>
+  <seg function="title"><lb n="2"/>tīṣṣā-viti</seg>
+  <seg function="title"><lb n="3"/>ñāṉam</seg>                                           
+  <seg function="title"><lb n="4"/>vāta-cūttiram</seg>
 
-  <milestone n="1" unit="column"/>
-  <lb n="1-2"/><seg function="title">pūca-viti</seg>
+  <seg function="title"><milestone n="1" unit="column"/>
+  <lb n="1-2"/>pūca-viti</seg>
       </ab>
   </body>
 </text></TEI>
