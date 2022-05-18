@@ -94,11 +94,11 @@
 
     <pb facs="5" n="1r"/>
     <seg function="header">
-  <milestone n="1" unit="left-margin"/>
-    <lb n="1"/>{mutal} = 1 = <note xml:lang="en">foliation</note>
+  <seg function="foliation"><milestone n="1" unit="left-margin"/>
+    <lb n="1"/>{mutal} = 1 = <note xml:lang="en">foliation</note></seg>
   
-   <seg function="title">
      <milestone n="2" unit="left-margin"/>
+         <seg function="title">
   <lb n="1"/>Akattiyar a
 <lb n="2" break="no"/>ruḷic ceyta
 <lb n="3" break="no"/>malai <note xml:lang="en">unblackened addition</note>
@@ -106,8 +106,8 @@
 <seg function="TBC"><lb n="5"/><persName xml:lang="ta" role="reciter">murukaiyaṉ</persName>
 <lb n="6"/>paṭikkiṉṟatu</seg></seg>
 
-    <milestone n="1" unit="column"/>
-<seg function="incipit">
+    <seg function="incipit">
+<milestone n="1" unit="column"/>
   <lb n="1"/>Akavu ~ Amukkurar ~ <note xml:lang="en">unblackened addition</note>
 <lb n="2"/><choice><unclear>Anta</unclear><unclear>Anat</unclear></choice>tiṟ-pāl = mulaippaḷ
 <lb n="3"/>Akatti = mulaippaḷ</seg>
@@ -128,8 +128,8 @@
   <lb n="4"/>vaitaki ~ tippili
 <seg function="explicit"><lb n="4"/>vaittiyamātā ~ Āṭātō<unclear reason="eccentric_ductus">ṭai</unclear></seg>
   
-   <milestone unit="column"/>
-      <seg function="completion-statement">
+         <seg function="completion-statement">
+<milestone unit="column"/>
   <lb n="1"/>malaiyakarāti  
 <lb n="2"/>muṟṟiṟṟu</seg> <g ref="#pcl"/>
       

@@ -86,8 +86,9 @@
 <facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10092759w/manifest.json"/></facsimile><text synch="#U1a" corresp="#T1" xml:lang="fr"><body>
   <ab>
     
-  <seg function="title">
     <pb facs="3" n="1r"/>
+      <seg function="title">
+
   <lb n="1"/>Traductions des lois
 <lb n="2"/>Malabares
 <lb n="3"/>du sanskrit en tamil.</seg>  
@@ -97,8 +98,9 @@
    </text><text synch="#U1b" corresp="#T2" xml:lang="fr"><body>
     <ab>
 
-  <seg function="colophon">
     <pb facs="4" n="2r"/>
+        
+      <seg function="colophon">
   <lb n="1"/>copié par <persName xml:lang="fr" role="scribe" key="Jagannāthaṉ">Jagannadan'</persName> sur le mss.
 <lb n="2"/>original appartenant au gouvernement
 <lb n="3"/>des Etablissements français dans l'Inde,
@@ -118,20 +120,21 @@
     <ab>
 
   <pb facs="5" n="3r"/>
-  <lb n="1"/><seg function="title">miruticantirikai</seg>
-<lb n="2"/><seg function="intertitle">kuṇātāṉam</seg>.
-<lb n="3"/><seg function="title">kaṭaṉ koṭukkum viti</seg>.
+  <seg function="title"><lb n="1"/>miruticantirikai</seg>
+<seg function="intertitle"><lb n="2"/>kuṇātāṉam</seg>.
+<seg function="title"><lb n="3"/>kaṭaṉ koṭukkum viti</seg>.
 <lb n="4"/>pirakaṟpati vacaṉam. <term xml:lang="en">Colebrooke. 1. 19. 11.</term>
-<lb n="5"/><seg function="incipit"><gap reason="ellipsis"/></seg>
+<seg function="incipit"><lb n="5"/><gap reason="ellipsis"/></seg>
   
-   <seg function="intertitle"><pb facs="341" n="285v"/>
+   <pb facs="341" n="285v"/>
+      <seg function="intertitle">
   <lb n="1"/>maṉuvu-taṟmacās·tirat=tilē
 <lb n="2"/>8<hi rend="superscript">vatu</hi> pirakaranat=tilē</seg>
   
    <pb facs="342" n="286v"/>
-  <lb n="1-20"/><seg function="explicit"><gap reason="ellipsis"/></seg>
-  <lb n="21"/><seg function="explicit"><gap reason="ellipsis"/></seg>
-  <lb n="22"/><seg function="colophon"><note xml:lang="en">by Ariel</note> <term xml:lang="fr">Fin du 8<hi rend="superscript">e</hi> et dernier cahier <add place="above">de 21 pp. doubles</add> indépendant
+  <lb n="1-20"/><gap reason="ellipsis"/>
+  <seg function="explicit"><lb n="21"/><gap reason="ellipsis"/></seg>
+  <seg function="colophon"><lb n="22"/><note xml:lang="en">by Ariel</note> <term xml:lang="fr">Fin du 8<hi rend="superscript">e</hi> et dernier cahier <add place="above">de 21 pp. doubles</add> indépendant
 <lb n="23"/>de la pagin<hi rend="superscript">n</hi> générale aux 11 premiers,
 <lb n="24"/>avec lesquels se complète le nombre 16.
     <lb n="25"/>EA</term> <note xml:lang="en">Ariel initials signature</note></seg>
