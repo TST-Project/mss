@@ -86,10 +86,11 @@
   <ab>
   <pb facs="2" n="[1]r"/>
   
-  <milestone n="1" unit="column"/>
-  <lb n="1-2"/><seg function="blessing">veṟṟivēl uṟṟa tuṇai</seg>
-  <milestone n="2" unit="column"/>
-  <lb n="1"/><seg function="title">Iḵtu
+  <seg function="blessing"><milestone n="1" unit="column"/>
+  <lb n="1-2"/>veṟṟivēl uṟṟa tuṇai</seg>
+  
+    <seg function="title"><milestone n="2" unit="column"/>
+  <lb n="1"/>Iḵtu
   <milestone n="3" unit="column"/>
   <lb n="1"/>pōkanāyaṉār
 <lb n="2"/>nikaṇtu</seg>
@@ -119,20 +120,22 @@
   <ab>
   <pb facs="4" n="1r"/>
   
-  <milestone unit="left-margin"/>
-    <lb n="1"/><seg function="blessing">hari Om</seg>
- <lb n="2"/><seg function="blessing">nāṉṟāka</seg>
- <lb n="3"/><seg function="blessing">kuru vāḻka</seg>
- <lb n="4"/><seg function="blessing">kuruvē tuṇai</seg>
- <lb n="5"/><seg function="title">pōkanāyaṉār
+  <seg function="header">
+    <milestone unit="left-margin"/>
+    <seg function="blessing"><lb n="1"/>hari Om</seg>
+ <seg function="blessing"><lb n="2"/>nāṉṟāka</seg>
+ <seg function="blessing"><lb n="3"/>kuru vāḻka</seg>
+ <seg function="blessing"><lb n="4"/>kuruvē tuṇai</seg>
+ <seg function="title"><lb n="5"/>pōkanāyaṉār
 <lb n="6"/>nikaṇṭu</seg>
+    </seg>
 
-  
+  <seg function="incipit">
    <milestone unit="main-text-area"/>
-  <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
+  <lb n="1"/><gap reason="ellipsis"/></seg>
 
       <pb facs="285" n="[239]r"/>
-      <lb n="2"/><seg function="explicit"><gap reason="ellipsis"/></seg> <g ref="#pcs"/> <seg function="blessing">tēvicakāyam</seg> <g ref="#pcs"/> <seg function="completion-statement">mu<sic>ttu</sic>m</seg> <g ref="#pcs"/> <seg function="total-stanzas"><g ref="#āyiram"/>7<g ref="#nūṟu"/><g ref="#pattu"/>6</seg> <g ref="#pcs"/>
+      <seg function="explicit"><lb n="2"/><gap reason="ellipsis"/></seg> <g ref="#pcs"/> <seg function="blessing">tēvicakāyam</seg> <g ref="#pcs"/> <seg function="completion-statement">mu<sic>ttu</sic>m</seg> <g ref="#pcs"/> <seg function="total-stanzas"><g ref="#āyiram"/>7<g ref="#nūṟu"/><g ref="#pattu"/>6</seg> <g ref="#pcs"/>
 
     <pb facs="286" n="[239]v"/>
   <note xml:lang="en">blank</note>
@@ -143,8 +146,8 @@
   <ab>
   <pb facs="286" n="[1]r"/>
   
-  <milestone unit="left-margin"/>
-    <lb n="1-2"/><seg function="intertitle"><gap reason="ellipsis"/></seg>
+  <seg function="intertitle"><milestone unit="left-margin"/>
+    <lb n="1-2"/><gap reason="ellipsis"/></seg>
 
     <milestone unit="main-text-area"/>
     <lb n="1"/><gap reason="ellipsis"/>
