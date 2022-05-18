@@ -110,7 +110,9 @@
    <graphic url="https://didomena.ehess.fr/concern/data_sets/cc08hp441/manifest.json"/></facsimile>
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   <ab>
-  <pb facs="9" n="[1]r"/><note xml:lang="en">centred lines</note>
+    
+  <pb facs="9" n="[1]r"/>
+    <note xml:lang="en">centred lines</note>
   
     <seg function="TBC"><lb n="1"/><placeName xml:lang="ta" key="Tranquebar">tayaṅkam<subst>p<del>a</del><add place="above">ā</add></subst>ṭi</placeName> y<pc>-</pc>irukkum
     <lb n="2"/><persName xml:lang="ta" role="owner" key="Śrīnivāsa"><persName xml:lang="ta" role="TBC" key="Akilāṇṭappiḷḷai">Ayalāṇṭa{piḷḷai}</persName> kumāraṉ
@@ -124,13 +126,13 @@
                      </text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
   <ab>
   
-    <seg function="header">
       <pb facs="10" n="1r"/>
-  
+      <seg function="header">
+
  <seg function="blessing"><milestone unit="column"/>
   <lb n="1"/><term xml:lang="sa">hariḥ |</term> 
  <lb n="2"/>Ōm</seg>
-  <seg function="title"> <lb n="3-4"/>nīticāram</seg>
+  <seg function="title"><lb n="3-4"/>nīticāram</seg>
       </seg>
   
   <seg function="satellite-stanza">
@@ -146,11 +148,12 @@
    
      <pb facs="16" n="[1]r"/>
   
- <seg function="blessing"><milestone unit="column"/>
+ <seg function="blessing">
+   <milestone unit="column"/>
   <lb n="1-2"/>naṉṟāka</seg>
   
-  <milestone n="1" unit="column"/>
-  <seg function="incipit" type="root-text"><lg><l><lb n="1"/>cīr peṟu <gap reason="ellipsis"/></l> 
+  <seg function="incipit" type="root-text"><milestone n="1" unit="column"/>
+  <lg><l><lb n="1"/>cīr peṟu <gap reason="ellipsis"/></l> 
 <l><lb n="2"/>pār peṟu <gap reason="ellipsis"/></l>                                              
 <l><lb n="3"/><gap reason="ellipsis"/></l> 
     <l><lb n="4"/><gap reason="ellipsis"/> tāmē</l> <g ref="#pcs"/></lg></seg> <seg function="incipit" type="commentary">Etu

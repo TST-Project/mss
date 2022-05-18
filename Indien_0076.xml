@@ -88,7 +88,9 @@
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   <ab>
     
-    <seg function="blessing"><pb facs="2" n="[1]r"/>
+      <pb facs="2" n="[1]r"/>
+        <seg function="blessing">
+
   <milestone unit="left-margin"/>
   <lb n="1"/>ha<seg rend="grantha">riḥ |</seg>
   <lb n="2"/>Ōm</seg>
@@ -102,21 +104,22 @@
 </body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
     <ab>
 
-  <seg function="blessing"><pb facs="3" n="[1]r"/>
+<pb facs="3" n="[1]r"/>
+        <seg function="blessing">
   <milestone unit="left-margin"/>
   <lb n="1"/>naṉ
   <lb n="2"/>ṟāka</seg>
   
-  <milestone n="1" unit="column"/>
-  <lb n="1"/><seg function="incipit">Ōtāmal orunāḷum irukka vēṇṭām</seg>
+  <seg function="incipit"><milestone n="1" unit="column"/>
+  <lb n="1"/>Ōtāmal orunāḷum irukka vēṇṭām</seg>
   <lb n="2"/>Orutaraiyum pollāṅku colla vēṇṭām
   <lb n="3"/>mātāvaiy orunāḷumaṟakka vēṇṭām
   <lb n="4"/>vañciṉaikaḷ ceyivārō ṭiṉaṅka vēṇṭām
   
-    <pb facs="00" n="[5]v"/>
-    <milestone n="2" unit="column"/>
+    <pb facs="8" n="[5]v"/>
+    <seg function="explicit"><milestone n="2" unit="column"/>
     <lb n="3"/>pūtal <gap reason="ellipsis"/> poruḷun tēṭi
-   <lb n="4"/><seg function="explicit">pūlōkam iḷḷaḷavum iruppar tāmē <g ref="#pcs"/> <g ref="#pattu"/> <g ref="#pcs"/></seg> 
+   <lb n="4"/>pūlōkam iḷḷaḷavum iruppar tāmē <g ref="#pcs"/> <g ref="#pattu"/> <g ref="#pcs"/></seg> 
  
       </ab>
 </body></text><text synch="#U3" corresp="#T3" xml:lang="ta"><body>
@@ -125,22 +128,22 @@
   <pb facs="9" n="[1]r"/>
   <milestone unit="left-margin"/><g ref="#pcs"/>
   
-  <milestone n="1" unit="column"/>
-  <lb n="1"/><seg function="blessing">civa-mayam</seg>
-  <lb n="2"/><seg function="blessing">tēvi-cakāya<seg rend="grantha">m</seg></seg>
+  <seg function="blessing"><milestone n="1" unit="column"/>
+  <lb n="1"/>civa-mayam</seg>
+  <seg function="blessing"><lb n="2"/>tēvi-cakāya<seg rend="grantha">m</seg></seg>
     
-  <milestone n="2" unit="column"/>
-    <lb n="1"/><seg function="blessing">śrī-ṟā=ma-ceya=M</seg>
+  <seg function="blessing"><milestone n="2" unit="column"/>
+    <lb n="1"/>śrī-ṟā=ma-ceya=M</seg>
     
-    <milestone n="3" unit="column"/>
-    <lb n="1"/><seg function="blessing">śrī-ṟā=ma-ceya<seg rend="grantha">m</seg></seg>
-    <lb n="2"/><seg function="blessing">śrī-makāleṣcumi
+    <seg function="blessing"><milestone n="3" unit="column"/>
+    <lb n="1"/>śrī-ṟā=ma-ceya<seg rend="grantha">m</seg></seg>
+    <seg function="blessing"><lb n="2"/>śrī-makāleṣcumi
     <lb n="3"/>kiṟupai Uṇṭu</seg>
     
-    <milestone n="4" unit="column"/>
-    <lb n="1"/>– <seg function="blessing">civa-citamparam
+    <seg function="blessing"><milestone n="4" unit="column"/>
+    <lb n="1"/>– civa-citamparam
     <lb n="2"/>tuṇai Uṇṭu</seg>
-    <lb n="3"/><seg function="blessing">civa-kāmi Āmmaṉ
+    <seg function="blessing"><lb n="3"/>civa-kāmi Āmmaṉ
     <lb n="4"/>tuṇai Uṇṭu</seg>
     
        <milestone n="5" unit="column"/><note xml:lang="en">drawing</note>
