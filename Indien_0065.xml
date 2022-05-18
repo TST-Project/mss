@@ -116,20 +116,20 @@ These works are often used for learning the Tamil alphabet as the aphorisms are 
 <text synch="#U1a" corresp="#T1" xml:lang="ta"><body>
   <ab>
   
-  <seg function="header">
     <pb facs="3" n="[1]r"/>
-  
-  <milestone facs="3" n="1" unit="left-margin"/>
-  <seg function="blessing"><lb n="1"/>ha Om</seg>
+    <seg function="header">
+<seg function="blessing">
+  <milestone n="1" unit="left-margin"/>
+  <lb n="1"/>ha Om</seg>
   <seg function="blessing"><lb n="2"/>naṉṟāka</seg>
  <seg function="blessing"> <lb n="3"/>kuru vāḻka</seg>
   
-  <milestone n="2" unit="left-margin"/>
-  <seg function="blessing"><lb n="1"/>kuruvē tuṇai</seg>
+  <seg function="blessing"><milestone n="2" unit="left-margin"/>
+  <lb n="1"/>kuruvē tuṇai</seg>
     </seg>
   
   <seg function="invocation" cert="low">
-    <milestone facs="3" unit="main-text-area"/>
+    <milestone unit="main-text-area"/>
     <lb n="1"/>Ātticūṭi y<pc>-</pc>amainta tēvarai y<pc>-</pc>yētti y<pc>-</pc>ētti toḻuvōm nāmē <g ref="#pcs"/>
     </seg>
     
@@ -139,16 +139,16 @@ These works are often used for learning the Tamil alphabet as the aphorisms are 
 </body>
                     </text><text synch="#U1b" corresp="#T2" xml:lang="ta"><body>
   <ab>
-    
-    <seg function="header">
-      
+        
       <pb facs="5" n="[1]r"/>
-      <seg function="blessing"><milestone facs="5" unit="left-margin"/>
+        <seg function="header">
+
+      <seg function="blessing"><milestone unit="left-margin"/>
   <lb n="1"/>naṉ
   <lb n="2" break="no"/>ṟāka</seg>
       </seg>
   
-  <seg function="incipit"><milestone facs="5" n="1" unit="column"/>
+  <seg function="incipit"><milestone n="1" unit="column"/>
   <lb n="1"/>Aṟañ ceyal virumpu</seg>
   <lb n="2"/>āṟuvatu ciṉam
   <lb n="3"/>iyalvatu karavē<choice><sic>ṉ</sic><corr>l</corr></choice>
@@ -162,7 +162,7 @@ These works are often used for learning the Tamil alphabet as the aphorisms are 
    <pb facs="15" n="[6]r"/>
   
   <seg function="colophon">
-    <milestone facs="15" n="1" unit="column"/>
+    <milestone n="1" unit="column"/>
   <seg function="completion-statement"><lb n="1"/>v<pc>-</pc>auvaiyār
   <lb n="2"/>Aru<sic>ḷa</sic> ceyta
   <lb n="3"/>nīticcol muṟṟum ~</seg>
@@ -171,15 +171,16 @@ These works are often used for learning the Tamil alphabet as the aphorisms are 
   <lb n="2"/>y<pc>-</pc>eḻutiṉatu Ātticuvaṭi <note xml:lang="en">that is <term xml:lang="ta">Ātticuṭi</term></note>
   <lb n="3"/><placeName xml:lang="ta" key="Pondicherry">putuvaiyil</placeName></seg>
       
-              <pb facs="18" n="[6]v"/><note xml:lang="en">blank</note>
+              <pb n="[6]v"/><note xml:lang="en">blank</note>
 
       </ab>
   </body>
                      </text><text synch="#U2a" corresp="#T3" xml:lang="ta"><body>
     <ab>
 
-  <seg function="invocation" cert="low">
     <pb facs="17" n="[1]r"/>
+        <seg function="invocation" cert="low">
+
     <lb n="1"/>koṉṟai<pc>-</pc>y vēntaṉ celvaṉ aṭiyiṉai y<pc>-</pc>eṉṟum ētti toḻuvōm yāmē <g ref="#pcs"/></seg>
       
               <pb facs="18" n="[1]v"/><note xml:lang="en">blank</note>
