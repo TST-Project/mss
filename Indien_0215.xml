@@ -87,7 +87,8 @@
    
 <facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b100915980/manifest.json"/></facsimile><text synch="#U1a" corresp="#T1" xml:lang="fr"><body>
   <ab>
-  <seg function="title"><pb facs="2" n="1r"/> 
+  <pb facs="2" n="1r"/> 
+    <seg function="title">
   <lb n="1"/>Dictionnaire
   <lb n="2"/>tamoul - françois</seg>
   <lb n="3"/>pour expliquer le tamoul vulgaire,
@@ -126,19 +127,18 @@
     <pb facs="3" n="2v"/> 
     <lb n="1ff."/><gap reason="ellipsis"/>
   
-  <seg function="intertitle"><pb facs="4" n="3r"/> 
+  <pb facs="4" n="3r"/><seg function="intertitle">
   <lb n="1"/>Avis au lecteur.</seg>
   <lb n="2ff."/><gap reason="ellipsis"/>
   
-  <seg function="intertitle"><pb facs="9" n="7v"/> 
+  <pb facs="9" n="7v"/><seg function="intertitle">
   <lb n="1"/>Explication des abbréviations.</seg>
     <lb n="2-10"/><note xml:lang="en">table</note>
   <seg function="intertitle"><lb n="10"/>Ordre 
   <lb n="11"/>de l'alphabet tamoul suivi dans ce dictionnaire.</seg>
         <lb n="11ff."/><note xml:lang="en">table</note>
 
-      <seg function="intertitle">
-        <pb facs="9" n="8r"/> 
+        <pb facs="9" n="8r"/><seg function="intertitle">
   <lb n="1"/>Caractères Samscrutans.</seg>
         <lb n="3-4"/><note xml:lang="en">table</note>
 
@@ -151,8 +151,9 @@
    </text><text synch="#U1b" corresp="#T2" xml:lang="fr"><body>
     <ab>
 
-  <seg function="incipit"><pb facs="10" n="9r"/> 
-   <milestone n="1" unit="column"/>
+ <pb facs="10" n="9r"/> 
+    <seg function="incipit">
+      <milestone n="1" unit="column"/>
   <lb n="1"/><term xml:lang="ta">A</term>. Cette lettre signifie 1° huit en
   <lb n="2"/>chiffre, 2° celuy la</seg>, <add>celle la</add> en ce sens
   <lb n="3"/>il double la consonne initiale
@@ -161,13 +162,13 @@
   <lb n="6"/>une voyelle <gap reason="ellipsis"/>
    <lb n="7ff."/><gap reason="ellipsis"/>
   
-  <seg function="explicit">
     <pb facs="205" n="202v"/> 
-  <milestone n="2" unit="column"/>
+    <seg function="explicit">
+      <milestone n="2" unit="column"/>
   <lb n="1"/><term xml:lang="ta">kṣōpam</term> langueur, pamoison.</seg>
   <seg function="completion-statement"><lb n="2"/>fin.
   <lb n="3"/>Du Dictionnaire Tamoul
-  <lb n="4"/>où il y en a jusqu'à 9 mille
+  <lb n="4"/>où il y <del>en</del> a jusqu'à 9 mille
   <lb n="5"/>mots tamouls expliqués en
   <lb n="6"/>françois.</seg>
 
@@ -177,8 +178,8 @@
     <ab>
 
   <pb facs="205" n="203r"/> 
-  <milestone n="1" unit="column"/>
-  <lb n="1"/><seg function="intertitle">Liste.</seg>
+  <seg function="intertitle"><milestone n="1" unit="column"/>
+  <lb n="1"/>Liste.</seg>
   <lb n="2"/>De quelques mots tamouls sujets à l'équivoque
   <lb n="3"/>on a jugé à propos d'ajouter ici quelques
   <lb n="4"/>mots qui diffèrent peu par l'écriture et

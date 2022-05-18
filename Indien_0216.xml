@@ -87,8 +87,8 @@
 <facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10091597j/manifest.json"/></facsimile><text synch="#U1a" corresp="#T1" xml:lang="fr"><body>
     <ab>
     
-      <seg function="title">
-  <pb facs="2" n="[1]r"/> 
+  <pb facs="2" n="[1]r"/>
+  <seg function="title">
   <lb n="1"/>Dictionnaire
   <lb n="2"/>français et tamoul</seg>
    <lb n="3"/>par
@@ -98,8 +98,8 @@
    </text><text synch="#U1b" corresp="#T2" xml:lang="fr"><body>
       <ab>
 
-  <seg function="colophon"><pb facs="3" n="[1]r"/>
-  
+  <pb facs="3" n="[1]r"/>
+  <seg function="colophon">
   <lb n="1"/>L’original de cette copie est un exemplaire apparten<hi rend="superscript">t</hi>
 <lb n="2"/>à un agriculteur et composé de 193 pages (recto &amp;
 <lb n="3"/>verso) sur petit in f° à deuz colonnes.
@@ -111,7 +111,8 @@
 </body></text><text synch="#U1c" corresp="#T3" xml:lang="fr"><body>
       <ab>
 
-  <seg function="title"><pb facs="4" n="1r"/>
+<pb facs="4" n="1r"/>
+          <seg function="title">
   <lb n="1"/>Dictionnaire français &amp; tamoul.</seg>
   
         <seg function="incipit"><milestone n="1" unit="column"/>
@@ -141,14 +142,15 @@
        <pb facs="128" n="125v-140r"/><note xml:lang="en">conjugations</note>
        <pb facs="143" n="140v"/><note xml:lang="en">blank</note>
 
-  <seg function="intertitle"><pb facs="143" n="141r"/>
+<pb facs="143" n="141r"/>
+          <seg function="intertitle">
   <lb n="1"/>Des années et des mois indiens en faveur des mission=
   <lb n="2" break="no"/>=naires qui sont dans l'interieur des terres où on ne con=
   <lb n="3" break="no"/>nait pas notre Kalandrier.</seg>
 
     <pb facs="148" n="145v"/>
     <lb n="1-15"/><gap reason="ellipsis"/>
-        <lb n="16-20"/><seg function="explicit"><gap reason="ellipsis"/></seg>
+        <seg function="explicit"><lb n="16-20"/><gap reason="ellipsis"/></seg>
   <seg function="completion-statement"><lb n="21"/>Finis Coronat Opus</seg>.
                              
 </ab>
