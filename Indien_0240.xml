@@ -25,7 +25,7 @@
 <p>Description based on the examination of the original manuscript (November 2021).</p>
 <p>Dimensions assessed at the time of examination.</p> </summary>
                   
-               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Front Matter (title and invocation)</term></title><textLang mainLang="tam"/><filiation><p>BnF, Indien 242 (U1).</p></filiation></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta">Tivākaram: Teyvappeyarttokuti</title><textLang mainLang="tam"/><filiation><p>BnF, Indien 242 (U2).</p></filiation></msItem></msContents>
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Front Matter: Title and Invocation</term></title><textLang mainLang="tam"/><filiation><p>BnF, Indien 242 (U1).</p></filiation></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta">Tivākaram: Teyvappeyarttokuti</title><textLang mainLang="tam"/><filiation><p>BnF, Indien 242 (U2).</p></filiation></msItem></msContents>
                <physDesc>
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
@@ -50,7 +50,7 @@
                   <handDesc>
                      
                   <handNote synch="#U1 #U2" scope="major" script="tamil" scriptRef="#tamilOE" medium="incised"><desc>Double-curled <foreign xml:lang="ta">kompu</foreign> irregularly marked.</desc></handNote></handDesc>
-                  <additions><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 240</quote>.</desc><desc synch="#U1" corresp="#T1" type="shelfmark" subtype="left">Shelfmark in black ink: <quote>N° 6 bis</quote>(f[1]r).</desc></additions>
+                  <additions><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 240</quote> (<locus facs="2">front cover, recto</locus>).</desc><desc synch="#U1" corresp="#T1" type="shelfmark" subtype="left">Shelfmark in black ink: <quote>N° 6 bis</quote>  (<locus facs="4">f[1]r</locus>).</desc></additions>
                   <bindingDesc>
                      <binding>
                         <p><material cert="medium">Pinewood</material> covers apparently fabricated in the BnF. 410 x 25 mm.</p>
@@ -59,7 +59,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian" notAfter="1866">No internal date.</origDate>
+                     <origDate calendar="gregorian" notAfter="1866">No internal date. Not later than first mention in a catalogue.</origDate>
                      <origPlace>Tamilnadu.</origPlace>
                   </origin>
                   <acquisition>
@@ -82,22 +82,23 @@
    
 <facsimile><graphic url="https://didomena.ehess.fr/concern/data_sets/c821gs18w/manifest.json"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   <ab>
-  <pb n="[1]r"/>
+    
+  <pb facs="2" n="[1]r"/>
    
     <milestone n="1" unit="left margin"/>
 <lb n="1"/><term xml:lang="en">{Christian cross}</term>
   
-  <milestone n="2" unit="left margin"/>
-   <seg function="blessing"><lb n="1-3"/>cēcu mariyē cūcē reṭciyam</seg>
+  <seg function="blessing"><milestone n="2" unit="left margin"/>
+   <lb n="1-3"/>cēcu mariyē cūcē reṭciyam</seg>
 
-  <milestone n="3" unit="left margin"/>
-   <seg function="title intertitle"><lb n="1-3"/>tivākaramutalāvatu teyvappeyartokuti</seg>
+  <seg function="title intertitle"><milestone n="3" unit="left margin"/>
+   <lb n="1-3"/>tivākaramutalāvatu teyvappeyartokuti</seg>
 
-  <milestone unit="main-text-area"/>
-  <seg function="invocation"><seg function="incipit"><lb n="1"/>tantai cutaṉ ispirittu cāntu paṭati pōṟṟi ‡</seg>~
-<lb n="2"/>cintai viḷakkān tivākarattil ~ vanta ‡
-<lb n="3"/>tokuti<del><gap reason="illegible" quantity="1" unit="character"/></del>yoru paṇiraṇṭuñ cōṟāmaṉ ṉērē ‡
-<seg function="explicit"><lb n="4"/>pakutiyuṟa <unclear>vā</unclear>maṉ <unclear><gap reason="illegible" quantity="1" unit="character"/>ṭi</unclear> pat<del>t</del>tu ‡‡</seg> <g ref="#pcs"/> <persName role="owner"> muttucāmi</persName> <seg function="title">tivākaram</seg></seg>
+  <seg function="satellite-stanza"><milestone unit="main-text-area"/>
+  <lg><l><lb n="1"/>tantai cutaṉ ispirittu cāntu paṭati pōṟṟi</l>
+<l><lb n="2"/>cintai viḷakkān tivākarattil ~ vanta</l>
+<l><lb n="3"/>tokuti<del><gap reason="illegible" quantity="1" unit="character"/></del>yoru paṇiraṇṭuñ cōṟāmaṉ ṉērē</l>
+<l><lb n="4"/>pakutiyuṟa <unclear>vā</unclear>maṉ <unclear><gap reason="illegible" quantity="1" unit="character"/>ṭi</unclear> pat<del>t</del>tu <g ref="#pcs"/></l></lg> <seg function="ownership-statement"><persName role="owner"> muttucāmi</persName> <seg function="title">tivākaram</seg></seg></seg>
   
    <pb n="[1]v"/>
   <note xml:lang="en">blank</note>
@@ -105,18 +106,19 @@
 </body>
    </text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
   <ab>
-  <pb n="[1]r"/>
+    
+  <pb facs="8" n="[1]r"/>
   
   <milestone n="1" unit="left margin"/>
 <lb n="1"/><term xml:lang="en">{Christian cross}</term>
   
-  <milestone n="2" unit="left margin"/>
-  <lb n="1-4"/>tivākaramutalāva<supplied reason="omitted">tu</supplied> teyvap<choice><sic>pē</sic><corr>pe</corr></choice>yarttokuti
+  <seg function="title"><milestone n="2" unit="left margin"/>
+  <lb n="1-4"/>tivākaramutalāva<supplied reason="omitted">tu</supplied> teyvap<choice><sic>pē</sic><corr>pe</corr></choice>yarttokuti</seg>
 
-     <milestone n="1" unit="column"/>
-  <seg function="incipit"><lb n="1"/>civaṉ pēyar ~
+     <seg function="incipit"><milestone n="1" unit="column"/>
+  <lb n="1"/>civaṉ pēyar ~
 <lb n="2"/>caṅkaraṉ iṟaiyōṉ
-<lb n="3"/>kāma takaṉaṉ ‡</seg>
+<lb n="3"/>kāma takaṉaṉ</seg>
 <lb n="4"/>caṅkara taraṉē
   
   <milestone n="2" unit="column"/>
@@ -137,7 +139,7 @@
   <lb n="1"/><gap reason="ellipsis"/>
   <lb n="2"/><gap reason="ellipsis"/>
   <lb n="3"/><gap reason="ellipsis"/> <seg function="explicit">Aṟivu
-<lb n="4"/>kari yākat terintacoṟ ṟivākarattu ‡</seg> <seg function="completion-statement">mutalā
+<lb n="4"/>kari yākat terintacoṟ ṟivākarattu</seg> <seg function="completion-statement">mutalā
 <lb n="5" break="no"/>vatu teyvap peyart tokuti muṟṟum</seg>
     
     <pb n="26v"/>
