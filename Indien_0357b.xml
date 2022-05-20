@@ -1,15 +1,15 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Maṇavāḷanārārayaṇacatakam</title>
+            <title><title xml:lang="ta">Maṇavāḷanārārayaṇacatakam</title></title>
          <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -19,17 +19,17 @@
                   </repository>
                   <idno type="shelfmark">Indien 357b</idno>
                   <idno type="alternate"/>
-               </msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103884f</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/9z903659m</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary>The <title xml:lang="ta">Maṇavāḷanārārayaṇacatakam</title> or <title xml:lang="ta">Tiruvēṅkaṭacatakam</title>, by <persName xml:lang="ta">Nārāyaṇapāratiyār</persName>.
+                  <summary><p>The <title xml:lang="ta">Maṇavāḷanārārayaṇacatakam</title> or <title xml:lang="ta">Tiruvēṅkaṭacatakam</title>, by <persName xml:lang="ta">Nārāyaṇapāratiyār</persName>.</p>
 </summary>
                   
-               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Maṇavāḷanārārayaṇacatakam: kāppu</title><textLang mainLang="tam"/><filiation><p>BnF Indien 356, Indien 358.</p></filiation></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta">Maṇavāḷanārārayaṇacatakam: Mūlam</title><textLang mainLang="tam"/><filiation><p>BnF Indien 356, Indien 358.</p></filiation></msItem><msItem synch="#U3" xml:id="T3" defective="false"><title xml:lang="ta"><term xml:lang="en">Colophon</term></title><textLang mainLang="tam"/></msItem></msContents>
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Maṇavāḷanārārayaṇacatakam: Kāppu</title><textLang mainLang="tam"/><filiation><p>BnF Indien 356, Indien 358.</p></filiation></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta">Maṇavāḷanārārayaṇacatakam: Mūlam</title><textLang mainLang="tam"/><filiation><p>BnF Indien 356, Indien 358.</p></filiation></msItem><msItem synch="#U3" xml:id="T3" defective="false"><title xml:lang="ta"><term xml:lang="en">Colophon</term></title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
                         <extent>
-                           <measure unit="folio" quantity="52">[1] + 50 + [1] (U1 + U2 + U3).</measure>
+                           <measure unit="folio" quantity="52">{1} + 50 + {1} (U1 + U2 + U3).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
@@ -39,21 +39,21 @@
                         
                      <collation>
                      
-                     <desc xml:id="U1">1 folio = <emph rend="bold"><title xml:lang="ta">Maṇavāḷanārārayaṇacatakam</title>: <foreign xml:lang="ta">Kāppu</foreign></emph>. No foliation. Verso blank.</desc><desc xml:id="U2">50 folios = <emph rend="bold"><title xml:lang="ta">Maṇavāḷanārārayaṇacatakam</title>: <foreign xml:lang="ta">Mūlam</foreign></emph>. Tamil foliation [1]–49, [50]. Blackened up to f12v only. </desc><desc xml:id="U3">1 folio = <emph rend="bold">Colophon</emph>. No foliation. Double folio. Shelfmarks on verso.</desc></collation><condition>Good state of preservation despite boreholes.</condition><support><measure unit="stringhole" quantity="1"/></support></supportDesc>
+                     <desc xml:id="U1">1 folio = <emph rend="bold"><title xml:lang="ta">Maṇavāḷanārārayaṇacatakam</title>: Invocation</emph>. No foliation. Verso blank.</desc><desc xml:id="U2">50 folios = <emph rend="bold"><title xml:lang="ta">Maṇavāḷanārārayaṇacatakam</title>: Text</emph>. Tamil foliation {1}–49, [50]. Blackened up to f12v only. </desc><desc xml:id="U3">1 folio = <emph rend="bold">Colophon</emph>. No foliation. Double folio. Shelfmarks on verso.</desc></collation><condition>Good state of preservation despite boreholes.</condition><support><measure unit="stringhole" quantity="1"/></support></supportDesc>
                      <layoutDesc>
                         <layout>1 verse per page, usually numbered at the end (U2).</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
                      
-                  <handNote synch="#U1 U2 U3" scope="minor" script="tamil" medium="incised"/></handDesc>
-                  <additions><desc synch="#U2" type="verse-numbering"/><desc synch="#U3" type="shelfmark"><quote>4°</quote> in black ink.</desc><desc synch="#U3" type="shelfmark"><quote>N°. 18</quote> in black ink. The "1" has been crossed-out by a later hand.</desc></additions>
+                  <handNote synch="#U1 #U2 #U3" scope="minor" script="tamil" medium="incised"/></handDesc>
+                  <additions><desc synch="#U2" type="verse-numbering"/><desc synch="#U3" type="shelfmark"><quote>4°</quote> in black ink (<locus facs="61">f[1]v</locus>).</desc><desc synch="#U3" type="shelfmark"><quote>N° <del>18</del></quote> in black ink (<locus facs="61">f[1]v</locus>). The "1" has been crossed-out by a later hand.</desc></additions>
                   <bindingDesc>
                      <binding>
                         
                      </binding>
                   </bindingDesc>
-               <decoDesc><decoNote synch="#U3" type="drawing"><desc>A bird?</desc></decoNote></decoDesc></physDesc>
+               <decoDesc><decoNote synch="#U3" type="drawing"><desc>A bird (?) (<locus facs="57">f[1]r</locus>).</desc></decoNote></decoDesc></physDesc>
                <history>
                   <origin>
                      <origDate calendar="gregorian" notAfter="1888">Internally dated to the year <foreign xml:lang="ta">carvacittu</foreign> of the Jovian cycle, that is, CE 1887-1888, 1827-1828, 1767-1768, 1707-1708, etc.</origDate>
@@ -66,69 +66,71 @@
                <additional>
                   <listBibl>
                      
-                  <bibl><title xml:lang="ta">Maṇavāḷanārārayaṇacatakam</title> 1952. <title xml:lang="ta">Veṇmaṇi Nārāyaṇa Pārati iyaṟṟiya Tiruvēṅkaṭa Catakam.</title> <term xml:lang="ta">Ceṉṉai: rattiṉam piras.</term></bibl><bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f70">p. 52</ref>.</bibl></listBibl>
+                  <bibl><title xml:lang="ta">Maṇavāḷanārārayaṇacatakam</title> 1952. <title xml:lang="ta">Veṇmaṇi Nārāyaṇa Pārati iyaṟṟiya Tiruvēṅkaṭa Catakam.</title> <term xml:lang="ta">Ceṉṉai: rattiṉam piras.</term></bibl><bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f70">p. 52, no. 357</ref>.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. 1866-. <title>Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f177">f. 81r, no. <del>331</del> 357</ref>. </bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      
+   <encodingDesc><p>   <emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.            </p></encodingDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
-      <change when="2021-06">Record created by Emmanuel FRANCIS.</change></revisionDesc>
-   <encodingDesc><p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.      </p></encodingDesc></teiHeader>
+      <change when="2021-06">Record created by Emmanuel FRANCIS.</change><change when="2022-05">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, May 2022.</change></revisionDesc></teiHeader>
    
-<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+<facsimile><graphic url="https://didomena.ehess.fr/concern/data_sets/9z903659m/manifest.json" facs="16"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   
-  <pb n="[1]r"/>
+  <pb facs="16" n="[1]r"/>
+  <seg function="blessing">
   <milestone unit="left-margin"/>
-  <lb n="1"/><seg function="blessing"><seg rend="grantha">hara
+  <lb n="1"/><seg rend="grantha">ha<unclear>ra</unclear>
   <lb n="2"/>Om</seg></seg>
   
-  <milestone unit="main-text-area"/>
-  <lb n="1-2"/>[kāppu]
+  <seg function="satellite-stanza"><milestone unit="main-text-area"/>
+  <lb n="1-2"/></seg>
 
     <pb n="[1]v"/>
     <note xml:lang="en">blank</note>
   
 </body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
   
-  <pb n="[1]r"/>
+  <pb facs="21" n="[1]r"/>
+  <seg function="blessing">
   <milestone unit="left-margin"/>
-  <lb n="1"/><seg function="blessing">naṉ
+  <lb n="1"/>naṉ
   <lb n="2" break="no"/>ṟāka</seg>
   
-  <milestone unit="main-text-area"/>
-  <lb n="1-4"/><note xml:lang="en">verse 1</note>
+  <seg function="incipit"><milestone unit="main-text-area"/>
+  <lb n="1-4"/><note xml:lang="en">verse 1</note></seg>
   
-  <pb n="[1]v"/>
-  <milestone unit="left-margin"/>
-  <lb n="1"/><seg function="intertitle">pirāmaṇar
+  <pb facs="29" n="[1]v"/>
+  <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1"/>pirāmaṇar
   <lb n="2"/>makuṟṟuvam</seg>
   
-  <pb n="2r"/>
-  <milestone unit="left-margin"/>
-  <lb n="1"/><seg function="intertitle">Irāyar
+  <pb facs="29" n="2r"/>
+  <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1"/>Irāyar
   <lb n="2"/>makut=tuvam</seg>
   
-  <pb n="50v"/>
-     <lb n="1-4"/><note xml:lang="en">verse 100</note>
+  <pb facs="49" n="50v"/>
+     <seg function="explicit"><lb n="1-4"/><note xml:lang="en">verse 100</note></seg>
   
 </body>
   </text><text synch="#U3" corresp="#T3" xml:lang="ta"><body>
   
-  <pb n="[1]r"/>
+  <pb facs="55" n="[1]r"/>
   <milestone unit="left-margin"/>
   <lb n="1"/>nākapaṭṭa
   
   <milestone n="1" unit="column"/><note xml:lang="en">drawing = a bird?</note>
-  <milestone unit="main-text-area"/>
-  <lb n="1"/><seg function="ownership-statement"><persName>rācarācapiḷḷaiyavarkaḷ murukappiḷḷai
+  
+  <seg function="ownership-statement"><milestone unit="main-text-area"/>
+  <lb n="1"/><persName>rācarācapiḷḷaiyavarkaḷ murukappiḷḷai
   <lb n="2"/>kumāraṉ Amuṟtaliṅkañ</persName> cuvaṭi</seg>
-  <lb n="3"/><seg function="title">kumaṟār māṇavā<unclear>ḷa</unclear>nāraṉacatakam</seg> – <seg function="colophon">caṟuvacitti {varuṣam} māṟ
+  <seg function="title"><lb n="3"/>kumaṟār māṇavā<unclear>ḷa</unclear>nāraṉacatakam</seg> – <seg function="colophon">caṟuvacitti {varuṣam} māṟ
   <lb n="4" break="no"/>kaḻi {mācam} 2 {tēti} <unclear>ṉayarā</unclear>titta-vāramum
   <lb n="5"/>tiṟayōtēciyum – vicāka-naṣcettira
   <lb n="6" break="no"/>6 mum – yitu kūṭiṉa cu<sic>paita</sic>ṉattil </seg>~ ~ 
   
-  <pb n="[1]v"/>
-    <note xml:lang="en">blank</note>
+  <pb n="[1]v"/><note xml:lang="en">blank</note>
   
 </body></text></TEI>
