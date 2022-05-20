@@ -21,7 +21,7 @@
                   <idno type="alternate"><idno>Tamoul 275</idno><idno>Ancien fonds 41</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1038062</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/794084730</idno></msIdentifier>
                <msContents class="#MVM">
-                  <summary><p>First volume of a 2-volume <title xml:lang="ta">Kamparāmāyaṇam</title>. For volume 2, see Indien 276.</p>
+                  <summary><p>First volume of a 2-volume <title xml:lang="ta">Kamparāmāyaṇam</title>. For volume 2, <ref target="https://tst-project.github.io/mss/Indien_0276.xml">BnF Indien 276</ref>.</p>
 <p>Description based on the examination of the original manuscript (January 2021).</p>
 <p>Dimensions assessed at the time of examination.</p> </summary>
                   
@@ -54,15 +54,15 @@
                   <decoDesc>
                   <decoNote type="monogram" subtype="spine"><desc>Monogram <quote>L</quote> (<locus facs="4">spine</locus>).</desc></decoNote></decoDesc>
                   <additions>
-                  <desc type="title" subtype="spine">Title (Latin transcription) <quote>KAMBA RÂMÂYANAM</quote> (<locus facs="4">spine</locus>).
-</desc><desc type="shelfmark" subtype="spine">BnF shelfmark sticker: <quote>INDIEN 275</quote> (<locus facs="4">spine</locus>).</desc><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 275</quote> (<locus facs="0">front cover, verso</locus>).</desc><desc synch="#u2" type="shelfmark" subtype="beginning">BnF shelfmark in black pencil: <quote>Tamoul N° 275</quote> (recto).</desc><desc synch="#U1" type="catchword"/></additions>
+                  <desc type="title" subtype="spine">Title printed in Latin transcription printed in goldens letters on the <locus facs="4">spine</locus>: <quote rend="block"><lb n="1"/>KAMBA <lb n="2"/>RÂMÂYANAM</quote>
+</desc><desc type="shelfmark" subtype="spine">BnF shelfmark sticker: <quote>INDIEN 275</quote> (<locus facs="4">spine</locus>).</desc><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 275</quote> (<locus facs="8">front cover, verso</locus>).</desc><desc synch="#u2" type="shelfmark" subtype="beginning">BnF shelfmark in black pencil: <quote>Tamoul N° 275</quote> (<locus facs="9">f[1]r</locus>).</desc><desc synch="#U1" type="catchword"/></additions>
                   <bindingDesc>
                      <binding><p>Leather (red). Title and monograms on spine.</p></binding>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian" notAfter="1732">Dated to 1720 by Cabaton (1912), on unstated grounds (presumably palaeographical and material analysis arguments).</origDate>
+                     <origDate calendar="gregorian" notAfter="1732">1732 at the latest.  No internal date. Dated to circa 1720 by Vinson in Vinson et al. (1866-) and to 1750 by Cabaton (1912), mentioning the old shelfmark ancien fonds XII. The correct old shelfmark appears to be ancien fonds XLI.</origDate>
                      
                   <origPlace>Tamilnadu.</origPlace></origin>
                   <provenance/>
@@ -71,7 +71,7 @@
                <additional>
                   <listBibl>
                      
-                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens. Bibliothèque nationale. Département des manuscrits.</title> Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f60">p. 42</ref>.</bibl></listBibl>
+                  <bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens. Bibliothèque nationale. Département des manuscrits.</title> Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f60">p. 42, nos. 275-276</ref>.</bibl><bibl>S.n. 1739. <title>Catalogus codicum manuscriptorum Bibliothecae regiae. Tomus primus. Pars prima, complectens codices manuscriptos orientales.</title> Paris: Typographia Regia. — See p. <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k140995x/f439">436, no. XLI</ref>.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. 1866-. <title>Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f143">f. 64r, nos. 275-276</ref>. </bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
@@ -88,38 +88,39 @@
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   <ab>
     
-  <pb n="1r"/>
+  <pb facs="11" n="1r"/>
     
-    <lb n="1"/><seg function="title">kamparāmāya
+    <seg function="title"><lb n="1"/>kamparāmāya
     <lb n="2" break="no"/>ṇam</seg>
-    <lb n="3"/><seg function="table-of-contents">vālakāṇṭam p-pāyirappaṭa
+    <seg function="table-of-contents"><lb n="3"/>vālakāṇṭam p-pāyirappaṭa
        <lb n="4" break="no"/>lam – virut=tam – – – <g ref="#pattu"/></seg> 
     <lb n="5"/>Avaiyaṭakka-p-paṭalam virut
-    <lb n="6" break="no"/>tam – – – – – 11 –
-    <lb n="7"/>Āṟṟuppaṭala viruttam – 20
+    <lb n="6" break="no"/>tam – – – – – <g ref="#pattu"/>1 –
+    <lb n="7"/>Āṟṟuppaṭala viruttam – 2<g ref="#pattu"/>
     <lb n="8"/><gap reason="ellipsis"/>
   
-  <pb n="2v"/>
+  <pb facs="15" n="2v"/>
     <lb n="1"/>kaṅkaippaṭalam – virut=tam – 71
     <lb n="2"/>tiruvaṭicūṭṭuppaṭalam – virut=tam –
-    <lb n="3"/>100 3 5
+    <lb n="3"/><g ref="#nūṟu"/>35
   
-  <pb n="3r"/>
-    <lb n="1"/><seg function="title">kamparāmāyaṇam<surplus>u</surplus></seg>
-    <lb n="2"/><seg function="satellite-stanza">nāṭiya poruḷ kaikūṭum ñāṉa
-    <lb n="3" break="no"/>mum pukaḻum uṇṭām <gap reason="ellipsis"/></seg>
+  <pb facs="16" n="3r"/>
+    <seg function="title"><lb n="1"/>kamparāmāyaṇam<surplus>u</surplus></seg>
+    <seg function="incipit"><seg function="invocation"><lb n="2"/>nāṭiya poruḷ kaikūṭum ñāṉa
+    <lb n="3" break="no"/>mum pukaḻum uṇṭām <gap reason="ellipsis"/></seg></seg>
   
-  <pb n="4v"/>
-    <lb n="1"/><seg function="intertitle">vālakāṇṭam
+  <pb facs="19" n="4v"/>
+    <seg function="intertitle"><lb n="1"/>vālakāṇṭam
     <lb n="2"/>pāyirappaṭalam</seg>
   
-  <pb n="6v"/>  
-    <lb n="1"/><seg function="intertitle">Avaiyaṭakkam
+  <pb facs="22" n="6v"/>  
+    <seg function="intertitle"><lb n="1"/>Avaiyaṭakkam
     <lb n="2"/>paṭalam</seg>
   
-  <pb n="239v"/>
+  <pb facs="31" n="239v"/>
   
-     <lb n="14"/><seg function="completion-statement">5 <g ref="#pattu"/>. – paracurāmappaṭalamuṟṟum –</seg>
+     <seg function="explicit"><lb n="13"/><gap reason="ellipsis"/>
+    <lb n="14"/>5<g ref="#pattu"/>. –</seg> <seg function="completion-statement">paracurāmappaṭalamuṟṟum –</seg>
   
     </ab>
 </body></text></TEI>

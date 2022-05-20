@@ -21,7 +21,7 @@
                   <idno type="alternate"><idno>Tamoul 276</idno><idno>Ancien fonds 41</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1038062</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/xp68kp85d</idno></msIdentifier>
                <msContents class="#MVM">
-                  <summary><p>Second volume of a 2-volume <title xml:lang="ta">Kamparāmāyaṇam</title>. For volume 1, see Indien 275.</p>
+                  <summary><p>Second volume of a 2-volume <title xml:lang="ta">Kamparāmāyaṇam</title>. For volume 1, see <ref target="https://tst-project.github.io/mss/Indien_0275.xml">BnF Indien 275</ref>.</p>
 <p>Description based on the examination of the original manuscript (January 2021).</p>
 <p>Dimensions assessed at the time of examination.</p> </summary>
                   
@@ -51,9 +51,9 @@
                   </objectDesc>
                   <handDesc><handNote synch="#U1" scope="major" script="tamil" medium="ink black"/></handDesc>
                   <decoDesc>
-                  <decoNote type="monogram" subtype="spine"><desc>Monogram <quote>L</quote> (<locus facs="3">spine</locus>).</desc></decoNote></decoDesc>
+                  <decoNote type="monogram" subtype="spine"><desc>Monogram <quote>L</quote> (<locus facs="5">spine</locus>).</desc></decoNote></decoDesc>
                   <additions>
-                  <desc type="title" subtype="spine">Title (Latin transcription) on the <locus facs="3">spine</locus>: <quote rend="block">AYOTTIYÂ KÂNDAM</quote> (Latin transcription).</desc><desc type="shelfmark" subtype="spine">BnF shelfmark sticker: <quote>INDIEN 276</quote> (<locus facs="3">spine</locus>).</desc><desc synch="#u2" type="shelfmark">BnF shelfmark in black pencil: <quote>Tamoul N° 276</quote> (f[1]r).</desc><desc synch="#U1" type="catchword"/><desc synch="#U1" type="title commenting-note" subtype="inserted">Indication of the title (Latin transcription). to be displayed on the spine (inserted and bound in between <locus facs="12">f1 and f2</locus>):
+                  <desc type="title" subtype="spine">Title printed in Latin transcription printed in goldens letters on the <locus facs="4">spine</locus>: <quote rend="block"><lb n="1"/>AYOTTIYÂ <lb n="2"/>KÂNDAM</quote></desc><desc type="shelfmark" subtype="spine">BnF shelfmark sticker: <quote>INDIEN 276</quote> (<locus facs="3">spine</locus>).</desc><desc synch="#u2" type="shelfmark">BnF shelfmark in black pencil: <quote>Tamoul N° 276</quote> (f[1]r).</desc><desc synch="#U1" type="catchword"/><desc synch="#U1" type="title commenting-note" subtype="inserted">Indication of the title (Latin transcription) to be displayed on the spine (inserted and bound in between <locus facs="12">f1 and f2</locus>):
 <quote rend="block"><lb n="1"/>Ayottiyā<lb n="2"/>Kândam</quote></desc></additions>
                   <bindingDesc>
                      <binding><p>Leather (red). Title and monograms on spine.</p></binding>
@@ -61,7 +61,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian" notAfter="1732">Dated to 1720 by Cabaton (1912), on unstated grounds (presumably palaeographical and material analysis arguments).</origDate>
+                     <origDate calendar="gregorian" notAfter="1732">1732 at the latest.  No internal date. Dated to circa 1720 by Vinson in Vinson et al. (1866-) and to 1750 by Cabaton (1912), mentioning the old shelfmark ancien fonds XII. The correct old shelfmark appears to be ancien fonds XLI.</origDate>
                      
                   <origPlace>Tamilnadu.</origPlace></origin>
                   <provenance/>
@@ -70,7 +70,7 @@
                <additional>
                   <listBibl>
                      
-                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens. Bibliothèque nationale. Département des manuscrits.</title> Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f60">p. 42</ref>.</bibl></listBibl>
+                  <bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens. Bibliothèque nationale. Département des manuscrits.</title> Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f60">p. 42, nos. 275-276</ref>.</bibl><bibl>S.n. 1739. <title>Catalogus codicum manuscriptorum Bibliothecae regiae. Tomus primus. Pars prima, complectens codices manuscriptos orientales.</title> Paris: Typographia Regia. — See p. <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k140995x/f439">436, no. XLI</ref>.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. (1866-). <title>Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f143">f. 64r, nos. 275-276</ref>. </bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
@@ -87,23 +87,23 @@
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   <ab>
   
-    <seg function="intertitle"><pb facs="9" n="1r"/>
-    
+    <pb facs="9" n="1r"/>
+    <seg function="intertitle">
     <lb n="1"/>Ayōttiyā
     <lb n="2" break="no"/>kāṇṭam</seg>
     <seg function="intertitle"><lb n="3"/>nakarappaṭalam</seg>
-   <seg function="incipit"><lb n="4"/>vā niṉṟ<pc>’</pc> iḻintu varamp<pc>’</pc> ikaḻnta
-  <lb n="5"/>māḻittatiṉ vaiy meṅku ‡ m<pc>-</pc>ūṉum</seg>
-  <lb n="4"/><gap reason="ellipsis"/>
+   <seg function="incipit"><lg><l><lb n="4"/>vā niṉṟ<pc>’</pc> iḻintu varamp<pc>’</pc> ikaḻnta
+  <lb n="5"/>māḻittatiṉ vaiy meṅku</l> <l>m<pc>-</pc>ūṉum
+  <lb n="4"/><gap reason="ellipsis"/></l></lg></seg>
 
   
-  <seg function="explicit"><pb facs="19" n="226v"/>
-    
-    <lb n="8"/><gap reason="ellipsis"/> – 39 – Un 
+  <pb facs="19" n="226v"/>
+    <seg function="explicit">
+    <lg><l><lb n="8"/><gap reason="ellipsis"/> – 39 –</l></lg> <lg><l>Un 
      <lb n="9" break="no"/>tai y<pc>-</pc> uṇmaiyaiṉ ākki-y uñ ciṟ
-     <lb n="10" break="no"/>ṟavai ‡ tanta collai-t talai-k koṇ
-     <lb n="11" break="no"/>ṭu tāraṇi ‡ vanta tampikk<pc>’</pc> utavi
-     <lb n="12" break="no"/>ya vaḷḷalē</seg>
+     <lb n="10" break="no"/>ṟavai</l> <l>tanta collai-t talai-k koṇ
+     <lb n="11" break="no"/>ṭu tāraṇi</l> <l>vanta tampikk<pc>’</pc> utavi
+     <lb n="12" break="no"/>ya vaḷḷalē</l></lg></seg>
   
     </ab>
 </body></text></TEI>
