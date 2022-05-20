@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -9,7 +9,7 @@
          
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -17,13 +17,12 @@
                   <repository>
                      <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
                   </repository>
-                  <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1037847</idno>
+                  
                   <idno type="shelfmark">Indien 250</idno>
-                  <idno type="alternate"><idno>Tamoul 250</idno></idno>
-               </msIdentifier>
+                  <idno type="alternate"><idno>Tamoul 250</idno><idno>Ducler 30</idno></idno>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1037847</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary>
-                     <p>Complete text with unpublished commentary from preface to end.</p>
+                  <summary><p>Complete text with unpublished commentary from preface to end.</p>
                   </summary>
                   
                <msItem defective="false"><title xml:lang="ta">Naiṭatam, <term xml:lang="en">with commentary</term></title><textLang mainLang="tam"/><incipit xml:lang="ta-Taml"><note xml:lang="en"><locus facs="5">unnumbered folio r</locus>, {edition: pāyiram}</note> தழைவிரி கடுக்கை மாலை தனிமுதற் சடையிற் சூடுங் குழவிவெண் டிங்க ளித்த கோட்டது குறையென் றெண்ணி புரைநெடுங் கரத்தார்ப் பற்றிப் பொற்புற யிணைத்து <lb n="2"/>நோக்கு மழைமதக் களித்தின் செய்ய மலரடி சென்னி வைப்பாம் - எது - தழைநறு மலர்ந்த பூங்கொன்றை மாலையினையுடைய சிவனானவர் சடாயார்த்திலே ய<lb n="3"/>ணிந்துகொண்டிருக்கின்ற விளவெண்பிறையினை முன்னே தான் பாரதமெழுதுதற்குத் தன் கொம்பிலே யோடித்த குறையாக நினைந்து யதனைத் துளைபொரு<lb n="4"/>ந்திய நெடிதாகிய துதிக்கையினாலே யெடுத்துத் தன்கொம்பினுடைய குறையிலே யழகுபெற வைத்து யோடிப் பாதமற்றைக் கொம்பினொ <lb n="5"/>தெய்து சரியாயிருப்பது பார்த்தருளிய மலை போலு மதசெலங்களைப் பொழியாநின்றிருக்கின்ற யானை முகத்தனாகிய விக்கினேசுரனு<lb n="6"/>டைய செந்தாமரை மலர்போன்ற பாதங்களை யெமது தலைமேற் கொள்வாமென்றவாறு . 1 .
@@ -42,8 +41,7 @@
                         <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
                         
                         
-                     <foliation>
-                           <p>Foliation in Tamil and European numbers.</p>
+                     <foliation><p>Foliation in Tamil and European numbers.</p>
                         </foliation><condition>
                            <p>Excellent condition.</p>
                         </condition></supportDesc>
@@ -93,27 +91,28 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian" notBefore="1771" notAfter="1772">Cabaton 1770 (Ducler), colophon 1771/72.</origDate>
-                  </origin>
+                     <origDate calendar="gregorian" notBefore="1771" notAfter="1772">Internally dated to 1771/72. See colophon. Dated to circa 1770 by Vinson in Vinsom et al. (1866-) and to 1770 by Cabaton (1912), on unstated grounds (presumably palaeographical and material analysis arguments). 
+</origDate>
+                  <origPlace>Tamilnadu</origPlace></origin>
                   <acquisition>
-                     <p>Acquired by <persName ref="https://catalogue.bnf.fr/ark:/12148/cb16300803r" key="Ducler, Ph.">Philippe Etienne Ducler</persName>.</p>
+                     <p>Acquired, July 22nd, 1833, from <persName xml:lang="fr" role="collector">Philippe Ducler</persName>. See BnF, département des Manuscrits, inventaire 1 = <title>Acquisitions: manuscrits et imprimés documentaires, 1833-1848</title>, no. 86.</p>
                   </acquisition>
-               </history>
+               <provenance><p>Owned by <persName xml:lang="fr" role="collector">Philippe Ducler</persName>.</p></provenance></history>
                <additional>
                   <listBibl>
                      
                      
                      
-                  <bibl><persName xml:lang="ta">Ativīrarāmapāṇṭiyar</persName>, ed. (1962). <title xml:lang="ta">Naiṭatam mūlamum uraiyum.</title> Comm. by <persName xml:lang="ta">Kaḻakap Pulavar Kuḻuviṉar</persName>. <geogName xml:lang="ta">Tirunelvēli/Ceṉṉai</geogName>: <orgName xml:lang="ta">Tirunelvēlit Teṉṉintiya Caivacittānta Nūṟpatippuk Kaḻakam (Kaḻakaveḷiyīṭu 1099)</orgName>.</bibl><bibl>Cabaton, Antoine (1912). <title xml:lang="fr">Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens.</title> Bibliothèque nationale. Département des manuscrits. Paris : E. Leroux. — See <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k255694f/f45.item">p. 39</ref>.</bibl><bibl>Vinson, Julien &amp; Feer, Léon (1867‒1868). <title xml:lang="fr">Catalogue des manuscrits tamouls (1-574) et télingas (1-65)</title>. Access No. BnF Indien 577. <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f131.item">f. 58</ref>.</bibl></listBibl>
+                  <bibl><persName xml:lang="ta">Ativīrarāmapāṇṭiyar</persName>, ed. (1962). <title xml:lang="ta">Naiṭatam mūlamum uraiyum.</title> Comm. by <persName xml:lang="ta">Kaḻakap Pulavar Kuḻuviṉar</persName>. <geogName xml:lang="ta">Tirunelvēli/Ceṉṉai</geogName>: <orgName xml:lang="ta">Tirunelvēlit Teṉṉintiya Caivacittānta Nūṟpatippuk Kaḻakam (Kaḻakaveḷiyīṭu 1099)</orgName>.</bibl><bibl>Burnouf, Eugène. 1832. <title type="article">Rapport fait au Conseil, dans la séance du 2 juillet 1832, sur les collections de manuscrits et de dessins rapportées de l’Inde par M. Ducler, administrateur de Carical, membre de la Société asiatique</title>. <title>Journal asiatique</title> 10: 84-91. — See <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k93120f/f90">p. 90, no. 30</ref>.</bibl><bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens.</title> Bibliothèque nationale. Département des manuscrits. Paris : E. Leroux. — See <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k255694f/f45.item">p. 39, no. 250</ref></bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. 1866-. <title>Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f131.item">f58r, no. <del>234</del> 250</ref>.</bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      
+   <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
          
-      <change when="2020-10">This catalogue entry has been redacted by Eva WILDEN (Universität Hamburg) for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG). Version 1, Oct 2020. </change><change when="2021-01">Converted to TEI by Charles LI.</change><change when="2021-09">Updated (colophon reading) by Emmanuel FRANCIS.</change></revisionDesc>
-   </teiHeader>
+      <change when="2020-10">This catalogue entry has been redacted by Eva WILDEN (Universität Hamburg) for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG). Version 1, Oct 2020. </change><change when="2021-01">Converted to TEI by Charles LI.</change><change when="2021-09">Updated (colophon reading) by Emmanuel FRANCIS.</change><change when="2022-05">Updated to TST encoding conventions by Emmanuel FRANCIS. Revised by <persName>Emmanuel FRANCIS</persName>. Version 2, May 2022.</change></revisionDesc></teiHeader>
    <facsimile>
       <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b52510469p/manifest.json"/>
    </facsimile>
