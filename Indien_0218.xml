@@ -21,16 +21,22 @@
                   <idno type="alternate"><idno>Tamoul 218</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103754h</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b100295885</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary>A vocabulary of French words with their Tamil counterparts compiled, according to the title by Beschi. Arranged according to French alphabetical order, from A to Z. Often documents entire Tamil phrases with a simple French meaning, such as idioms and expressions. Also documents Tamil word-phrases. Entry verbs are not lemmatized. Arabic numerals to mark page numbers are present, and each new letter is printed in large. 
+                  <summary><p>A vocabulary of French words with their Tamil counterparts compiled, according to the title by Beschi. Arranged according to French alphabetical order, from A to Z. Often documents entire Tamil phrases with a simple French meaning, such as idioms and expressions. Also documents Tamil word-phrases. Entry verbs are not lemmatized. Arabic numerals to mark page numbers are present, and each new letter is printed in large.</p>
+ <p>Description based on the digital images available on Gallica.</p>  <p>Dimensions after Cabaton (1912).</p>     
 </summary>
                   
-               <msItem defective="false" class="#nikantu"><title xml:lang="fr">dictionnaire français-tamoul, Beschi</title><author xml:lang="fr">Beschi</author><textLang mainLang="fra" otherLangs="tam"/><filiation><p>Indien 216.</p></filiation><incipit xml:lang="fr"><milestone n="1r" facs="9"/><lb n="4"/>abaïe — <term xml:lang="ta-Taml">அனுசாரம்</term>…
+               <msItem defective="false" class="#nikantu"><title xml:lang="fr">Dictionary, French-Tamil, after Beschi</title><author xml:lang="fr">Beschi</author><textLang mainLang="fra" otherLangs="tam"/><filiation><p>BnF Indien 216.</p></filiation><incipit xml:lang="fr"><quote xml:lang="la" rend="block">
+  <pb n="1r" facs="9"/><lb n="4"/>abaïe — <term xml:lang="ta-Taml">அனுசாரம்</term>…
 <lb n="5"/>abaissement — <term xml:lang="ta-Taml">தாழ்த்துதல்</term>…
-<lb n="6"/>abaissement, humilitie — <term xml:lang="ta-Taml">கீழ்ப்படிதல்</term>…
+<lb n="6"/>abaissement, humilite — <term xml:lang="ta-Taml">கீழ்ப்படிதல்</term>…
 <lb n="7"/>abaisser — <term xml:lang="ta-Taml">தாழ்த்துகிறது</term>…
 <lb n="8"/>S’abaisser — <term xml:lang="ta-Taml">தாழ்த்துகிறது குனிகிறது</term>…
 <lb n="9"/>abandon, delassement — <term xml:lang="ta-Taml">கைவிடுதல்</term>…
-<lb n="10"/>abandonne, debauche — <term xml:lang="ta-Taml">குடியன் கேட்டவன்</term>…</incipit><explicit xml:lang="fr"><milestone n="308r" facs="623"/> zodiaque — <term xml:lang="ta-Taml">ராசிமண்டலம்</term>… <lb n="2"/>zone — <term xml:lang="ta-Taml">பூமி பங்கிடு</term></explicit><finalRubric xml:lang="fr"><note xml:lang="en">No Completion Statement. Manuscript complete, because entries upto ‘z’ are found, and the final page has a large empty space in it. Arabic numerals to mark page numbers are present, and each new letter is printed in large.</note></finalRubric></msItem></msContents>
+<lb n="10"/>abandonne, debauche — <term xml:lang="ta-Taml">குடியன் கேட்டவன்</term> ...
+  </quote></incipit><explicit xml:lang="fr"><quote xml:lang="la" rend="block">
+  <pb n="308r" facs="623"/>
+   <lb n="1"/>zodiaque — <term xml:lang="ta-Taml">ராசிமண்டலம்</term>… <lb n="2"/>zone — <term xml:lang="ta-Taml">பூமி பங்கிடு</term>
+  </quote></explicit><finalRubric xml:lang="fr">No Completion Statement. Manuscript complete, because entries upto ‘z’ are found, and the final page has a large empty space in it. Arabic numerals to mark page numbers are present, and each new letter is printed in large.</finalRubric></msItem></msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="paper industrial">
@@ -39,7 +45,7 @@
                            <p>Same paper used in guard folios</p>
                         </support>
                         <extent>
-                           <measure unit="folio" quantity="308">2 guard folios (front), 2 guard folios (back).</measure>
+                           <measure unit="folio" quantity="308">+ 3 front guard folios and 1 back guard folio.</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
@@ -48,7 +54,7 @@
                         <collation/>
                         
                         
-                     <foliation>Arabic numerals in every verso - top right. Each new alphabet (i.e., chapter) represented in large.
+                     <foliation>Arabic numerals in every recto of folio, on top right. Each new alphabet (i.e., chapter) represented in large.
 </foliation><condition>Good condition</condition></supportDesc>
                      <layoutDesc>
                         <layout columns="2" writtenLines="17">Divided into chaptersaccording to the French alphabet.</layout>
@@ -68,7 +74,8 @@
                      <origDate calendar="gregorian" notAfter="1800">Dated to circa 1750 by Vinson in Vinson et al. (1866-), to 1750 by Cabaton (1912), to the 18th century by James (2000), on unstated grounds (presumably palaeographical and material analysis arguments).</origDate>
                      <origPlace>Tamilnadu.</origPlace>
                   </origin>
-                  <provenance/>
+                  <provenance><p><persName xml:lang="fr">Sonnerat</persName> mentioned on <locus facs="2">front cover, verso</locus> .
+</p></provenance>
                   <acquisition/>
                </history>
                <additional>
@@ -85,7 +92,7 @@
       
    <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
-      <change when="2021-12">First version.</change><change when="2021-12">Updated by Emmanuel FRANCIS (title, paratext, date, bibliography).</change></revisionDesc></teiHeader>
+      <change when="2021-12">First version.</change><change when="2021-12">Updated by Emmanuel FRANCIS (title, paratext, history, bibliography). Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, May 2022.</change></revisionDesc></teiHeader>
    <facsimile>
    <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b100295885/manifest.json"/></facsimile>
 </TEI>
