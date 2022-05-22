@@ -1,15 +1,15 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Cīrāṉa Nellilakkam</title>
+            <title><title xml:lang="ta">Cīrāṉa Nellilakkam</title></title>
          <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -19,16 +19,18 @@
                   </repository>
                   <idno type="shelfmark">Indien 437</idno>
                   <idno type="alternate"><idno>Tamoul 437</idno></idno>
-               </msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1039688</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/9g54xq990</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary>A <foreign xml:lang="ta">nellilakkam</foreign>, that is, according to the <title>Madras Tamil Lexicon</title>, s.v. <foreign xml:lang="ta">nel-l-ilakkam</foreign>: <quote>Reckoning by grains instead of abstract figures, opp. to poṉ-ṉ-ilakkam</quote>.</summary>
+                  <summary><p>A <foreign xml:lang="ta">nellilakkam</foreign>, that is, according to the <title>Madras Tamil Lexicon</title>, s.v. <foreign xml:lang="ta">nel-l-ilakkam</foreign>: <quote>Reckoning by grains instead of abstract figures, opp. to poṉ-ṉ-ilakkam</quote>.</p>
+<p>Description based on the examination of the original manuscript (June 2021).</p>
+<p>Dimensions assessed at the time of examination.</p>      </summary>
                   
-               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta">Cīrāṉa Nellilakkam: Kāppu</title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T3" defective="false"><title xml:lang="ta">Cīrāṉa Nellilakkam: <term xml:lang="en">Text</term></title><textLang mainLang="tam"/></msItem></msContents>
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta">Cīrāṉa Nellilakkam: Kāppu (?)</title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T3" defective="false"><title xml:lang="ta">Cīrāṉa Nellilakkam: <term xml:lang="en">Text</term></title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
                         <extent>
-                           <measure unit="folio" quantity="8">1 + 7 (U1 + U2).</measure>
+                           <measure unit="folio" quantity="8">{1} + 7 (U1 + U2).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
@@ -38,85 +40,84 @@
                         
                      <collation>
                      
-                     <desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. </desc><desc xml:id="U1">1 folio = <emph rend="bold">Title Page</emph>. No foliation. Double folio. With shelfmarks on the recto. f[1]r darkened = outside page of the original folio. Verso blank.</desc><desc xml:id="U2">1 folio = <emph rend="bold"><term xml:lang="ta">Cīrāṉa Nellilakkam: kāppu</term></emph>. No foliation. Double folio. Shelfmarks on the recto. f[1]r darkened = outside page of the original folio. Verso blank.
-</desc><desc xml:id="U3">4 folios = <emph rend="bold"><term xml:lang="ta">Cīrāṉa Nellilakkam</term>: main text</emph>. No foliation. Double folios. f4v darkened = outside page of the original folio.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>. Shelfmark on the verso.</desc></collation><condition>Good state of preservation.</condition><support><measure unit="stringhole" quantity="1"/><p>Double folios. Unblackened.</p></support></supportDesc>
+                     <desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. </desc><desc xml:id="U1">1 folio = <emph rend="bold">Title Page</emph>. No foliation. Double folio. With shelfmarks on the recto. f[1]r more dark = original outside page. Verso blank.</desc><desc xml:id="U2">1 folio = <emph rend="bold"><term xml:lang="ta">Cīrāṉa Nellilakkam</term>: Invocation (?)</emph>. No foliation. Double folio. Shelfmarks on the recto. f[1]r more dark = original outside page. Verso blank.
+</desc><desc xml:id="U3">4 folios = <emph rend="bold"><term xml:lang="ta">Cīrāṉa Nellilakkam</term>: main text</emph>. No foliation. Double folios. f4v more dark = original outside page.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>. Shelfmark on the verso.</desc></collation><condition>Good state of preservation.</condition><support><measure unit="stringhole" quantity="1"/><p>Double folios. Unblackened.</p></support></supportDesc>
                      <layoutDesc>
                         <layout columns="9 10" writtenLines="4"/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
                      
-                  <handNote synch="#U1" scope="sole" script="tamil" medium="incised"/><handNote synch="#U2 U3" scope="sole" script="tamil" medium="incised"/></handDesc>
-                  <additions><desc synch="#cover" type="shelfmark" subtype="end">BnF shelfmark sticker: <quote>INDIEN 437</quote>. </desc><desc synch="#U1" corresp="#T1" type="shelfmark" subtype="left"><quote>N°15</quote> in black ink.</desc><desc synch="#U1" corresp="#T1" type="shelfmark" subtype="right"><quote>N°<unclear>20</unclear></quote> in black ink. The figure has been crossed-out in black ink by a later hand.</desc></additions>
+                  <handNote synch="#U1" scope="sole" script="tamil" medium="incised soot"><desc>Hand #1.</desc></handNote><handNote synch="#U2 #U3" scope="sole" script="tamil" medium="incised soot"><desc>Hand #2.</desc></handNote></handDesc>
+                  <additions><desc type="shelfmark" subtype="end">BnF shelfmark sticker: <quote>INDIEN 437</quote> (<locus facs="4">back cover, verso</locus>).</desc><desc synch="#U1" corresp="#T1" type="shelfmark" subtype="left"><quote>N°15</quote> in black ink (<locus facs="5">f[1]r</locus>).</desc><desc synch="#U1" corresp="#T1" type="shelfmark" subtype="right"><quote>N°<unclear><del>20</del></unclear></quote> in black ink (<locus facs="5">f[1]r</locus>). The figure has been crossed-out in black ink by a later hand.</desc></additions>
                   <bindingDesc>
                      <binding>
-                        <p><material resp="#cLI" cert="medium">Mahogany</material> woodcovers apparently fabricated in the BnF.</p>
+                        <p><material cert="medium">Pinewood</material> covers apparently fabricated in the BnF.</p>
                      </binding>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian" notAfter="1840">No internal date. Dated to 1840 by Cabaton (1912), on unknown grounds.</origDate>
+                     <origDate calendar="gregorian" notAfter="1866">No internal date. Dated to circa 1840 by Vinson in Vinson et al. (1866-) and to 1840 by Cabaton (1912), on unstated grounds (presumably palaeographical and material analysis arguments). Not later than first mention in a catalogue.</origDate>
                      <origPlace>Tamilnadu.</origPlace>
                   </origin>
                   <acquisition>
                      
-                  </acquisition>
-               <provenance/></history>
+                  <p>Unknown.</p></acquisition>
+               <provenance><p>Unknown.</p></provenance></history>
                <additional>
                   <listBibl>
                      
-                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f80">p. 62</ref>.</bibl></listBibl>
+                  <bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f80">p. 62, no. 437</ref>.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. 1866-. <title> Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f215">f. 100r, no. <del>405</del> 436</ref>. </bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      
+   <encodingDesc><p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.            </p></encodingDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
-      <change when="2021-06">Record created by Emmanuel FRANCIS.</change></revisionDesc>
-   <encodingDesc><p>TBA</p></encodingDesc></teiHeader>
+      <change when="2021-06">Record created by Emmanuel FRANCIS.</change><change when="2022-05">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, May 2022.</change></revisionDesc></teiHeader>
    
-<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
-  <p>
-    <milestone n="[1]r" unit="folio"/>   
-    <lb n="1"/><seg function="ownership-statement">Appāccāmi</seg>
-    <lb n="2"/><seg function="title"> nellek=kam</seg>
-  </p>
+<facsimile><graphic url="https://didomena.ehess.fr/concern/data_sets/9g54xq990/manifest.json"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+  <ab>
+    
+  <pb facs="5" n="[1]r"/>   
+    <seg function="ownership-statement"><lb n="1"/><persName xml:lang="ta" role="owner">Appāccāmi</persName></seg>
+    <seg function="title"><lb n="2"/>nellek=kam</seg>
   
-    <p>
-    <milestone n="[1]v" unit="folio"/> <note xml:lang="en">blank</note>
-  </p>  
+    <pb n="[1]v"/><note xml:lang="en">blank</note>
+   
+    </ab>
 </body>
   </text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
-  
-  <p>
-    <milestone n="[1]r" unit="folio"/>
-    <milestone unit="lef margin"/>
-    <lb n="1"/><seg function="blessing"><g xml:lang="sa">hariḥ</g> Om</seg>
+  <ab>
+  <pb facs="9" n="[1]r" unit="folio"/>
+    <seg function="blessing"><milestone unit="lef margin"/>
+    <lb n="1"/><term xml:lang="sa">hariḥ |</term> Ōm</seg>
     <milestone unit="main text area"/>
-    <lb n="1"/><gap reason="ellipsis"/>
-  </p>
+    <lb n="1"/><lb n="1"/>cīṟāṉa nellilakkuñ ciṟappuṭāṉē <gap reason="ellipsis"/> kaṇapati kāppu<g ref="#pcs"/>
+<gap reason="ellipsis"/>
   
-  <p>
-    <milestone n="[1]v" unit="folio"/> <note xml:lang="en">blank</note>
-  </p>  
-  
+    <pb n="[1]v"/> <note xml:lang="en">blank</note>
+  </ab>
 </body></text><text synch="#U3" corresp="#T3" xml:lang="ta"><body>
-  
-  <p>
-    <milestone n="[1]r" unit="folio"/>
-    <milestone unit="left margin"/>
-    <lb n="1"/><seg function="blessing">naṉ
+  <ab>
+    
+  <pb n="[1]r"/>
+    <seg function="blessing"><milestone unit="left margin"/>
+    <lb n="1"/>naṉ
     <lb n="2" break="no"/>rāka</seg>
-   <milestone n="1" unit="column"/>
-  </p><seg function="incipit"><gap reason="ellipsis"/></seg>
+   
+  <seg function="incipit"><milestone n="1" unit="column"/>
+    <lb n="1-4"/><gap reason="ellipsis"/></seg>
+    
   
-  <p>
-    <milestone n="4v" unit="folio"/>
-    <milestone n="2" unit="column"/>
-     <lb n="1"/><seg function="explicit"><g ref="#nūṟu"/> <g ref="#nūṟu"/> <g ref="#āyiram"/> kōṭi-k kalam <g ref="#pcs"/></seg>
-    <lb n="2"/><seg function="ownership-statement">Appāccāmi</seg>
-    <lb n="3"/><seg function="title">nellek=kam</seg>
-  </p>   
-
+  <pb facs="25" n="4v"/>
+    <milestone n="1" unit="column"/>
+    <lb n="1-4"/><gap reason="ellipsis"/>
+  <seg function="explicit"><milestone n="2" unit="column"/>
+     <lb n="1"/><g ref="#nūṟu"/> <g ref="#nūṟu"/> <g ref="#āyiram"/> kōṭi-k kalam <g ref="#pcs"/></seg>
+    <seg function="ownership-statement"><lb n="2"/><persName xml:lang="ta" role="owner">Appāccāmi</persName></seg>
+    <seg function="title"><lb n="3"/>nellek=kam</seg>
+</ab>
 </body></text></TEI>
