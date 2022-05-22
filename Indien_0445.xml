@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -8,7 +8,7 @@
          </titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -19,19 +19,21 @@
                   <idno type="eadid">FRBNFEAD000103974</idno>
                   <idno type="shelfmark">Indien 445</idno>
                   <idno type="alternate"><idno>Tamoul 445</idno></idno>
-               </msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103974d</idno></msIdentifier>
                <msContents class="#STM">
                   <summary><p>This document is basically a petition by the potters of Pondicherry written in the presence of the French civil servant Daniel Lescallier, “commissaire civil”.</p>
   <p>It opens with an introduction (U1), in which the key-term <foreign xml:lang="ta">viṇṇappam</foreign> occurs (f[1]r, c3, 3).</p>
 <p>Then comes a census of the potters of Pondicherry (U2), most residing in Nellittōppu, while others are stated to reside in Piḷḷaicāvaṭi and Reṭṭipāḷaiyam.</p>
-<p>Finally comes the petition proper (U3). The potters explain that they have been considered as Valaṅkai (a right-hand group, by opposition to left-hand groups) in the Pondicherry and surrounding region. They remit, it seems, the judgement about their group belonging (Valaṅkai or commonness) to the above-mentioned French civil servant Daniel Lescallier. Four <foreign xml:lang="ta">mēstiri</foreign>s ("overseers") are designated and the list of their names is given. The potters seem finally to declare that they will do whatever the <foreign xml:lang="ta">toraikaḷ</foreign> (i.e. <foreign xml:lang="ta">tuṟaikaḷ</foreign>, “the lord” or the “lords”), that is, Lescallier or the <foreign xml:lang="ta">mēstiri</foreign>s, order them or decide. </p></summary>
+<p>Finally comes the petition proper (U3). The potters explain that they have been considered as Valaṅkai (a right-hand group, by opposition to left-hand groups) in the Pondicherry and surrounding region. They remit, it seems, the judgement about their group belonging (Valaṅkai or commonness) to the above-mentioned French civil servant Daniel Lescallier. Four <foreign xml:lang="ta">mēstiri</foreign>s ("overseers") are designated and the list of their names is given. The potters seem finally to declare that they will do whatever the <foreign xml:lang="ta">toraikaḷ</foreign> (i.e. <foreign xml:lang="ta">tuṟaikaḷ</foreign>, “the lord” or the “lords”), that is, Lescallier or the <foreign xml:lang="ta">mēstiri</foreign>s, order them or decide. </p>
+<p>Description based on the examination of the original manuscript (April and October 2019).</p>
+<p>Dimensions assessed at the time of examination.</p>   </summary>
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Introduction</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta"><term xml:lang="en">Census of the Pondicherry potters</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T3" defective="false"><title xml:lang="ta">Viṇṇappam<term xml:lang="en">, that is, petition by the Pondicherry potters</term></title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
                         <extent>
-                           <measure unit="folio" quantity="5">1 + 3 + 1 (U1 + U2 + U3).</measure>
+                           <measure unit="folio" quantity="5">{1} + 3 + {1} (U1 + U2 + U3).</measure>
                            <dimensions type="leaf" unit="mm">
                               <width min="560" max="705"/>
                               <height quantity="25"/>
@@ -39,7 +41,7 @@
                         <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
                         
                         <condition>Very good state of preservation, except that all the leaves are broken into two halves. This damage seems to have occured long ago as the leaves, which originally had one hole only for the thread, have been pierced with three more holes, so as to accommodate two threads, also passing through the woodcovers (both pierced with four holes). U3, f[1] is truncated, as approximately 10 cm of the leaf is missing on the left edge of page.</condition>
-                     <collation><desc xml:id="U1">1 folio = <emph rend="bold">Introduction</emph>. No foliation. Unblackened. Verso blank. Hand #1. The lay-out is in columns.</desc><desc xml:id="U2">3 folios = <emph rend="bold">Census of the Pondicherry potters</emph>. Tamil foliation [1]-3. f3v blank. Hand  #2? The lay-out is in columns.</desc><desc xml:id="U3">1 folio = <emph rend="bold">Petition (<foreign xml:lang="ta">viṇṇappam</foreign>) by the Pondicherry potters </emph>. No foliation. Hand #3? The lay-out is in columns.</desc></collation></supportDesc>
+                     <collation><desc xml:id="U1">1 folio = <emph rend="bold">Introduction</emph>. No foliation. Unblackened. Verso blank. Hand #1. The lay-out is in columns.</desc><desc xml:id="U2">3 folios = <emph rend="bold">Census of the Pondicherry potters</emph>. Tamil foliation {1}-3. f3v blank. Hand  #2? The lay-out is in columns.</desc><desc xml:id="U3">1 folio = <emph rend="bold">Petition (<foreign xml:lang="ta">viṇṇappam</foreign>) by the Pondicherry potters </emph>. No foliation. Hand #3? The lay-out is in columns.</desc></collation></supportDesc>
                      <layoutDesc>
                         <layout columns="1"/>
                      </layoutDesc>
@@ -50,7 +52,7 @@
                   <additions/>
                   <bindingDesc>
                      <binding>
-                        <p><material resp="#cLI" cert="medium">Mahogany</material> woodcovers apparently fabricated in the BnF.</p>
+                        <p><material cert="medium">Pinewood</material> covers apparently fabricated in the BnF.</p>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -62,25 +64,24 @@
                   <acquisition>
                      <p>Unknown.</p>
                   </acquisition>
-               </history>
+               <provenance><p>Unknown.</p></provenance></history>
                <additional>
                   <listBibl>
                      
                      
-                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois et malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f81">p. 63</ref>.</bibl><bibl>Francis, Emmanuel (2019-10-25). BnF INDIEN 445: Petition of the Potters of Pondicherry. <ref target="https://tst.hypotheses.org/377">https://tst.hypotheses.org/377</ref>
-                     </bibl></listBibl>
+                  <bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois et malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f81">p. 63, no. 445</ref>.</bibl><bibl>Francis, Emmanuel (2019-10-25). BnF INDIEN 445: Petition of the Potters of Pondicherry. <ref target="https://tst.hypotheses.org/377">https://tst.hypotheses.org/377</ref>
+                     </bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. 1866-. <title> Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f217">f. 101r, no. <del>413</del> 445</ref>. </bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      
+   <encodingDesc><p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.            </p></encodingDesc><revisionDesc>
          
-      <change when="2020-05"> This catalogue entry has been redacted by Emmanuel FRANCIS (CNRS, CEIAS UMR 8564, EHESS/CNRS) and Dr. G. Vijayavenugopal (EFEO, Pondicherry) for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG). Version 1, May 2020. </change><change when="2021-06">Updated to TST encoding conventions by Emmanuel FRANCIS.</change></revisionDesc>
-   <encodingDesc><p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.      </p></encodingDesc></teiHeader>
+      <change when="2020-05"> This catalogue entry has been redacted by Emmanuel FRANCIS (CNRS, CEIAS UMR 8564, EHESS/CNRS) and Dr. G. Vijayavenugopal (EFEO, Pondicherry) for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG). Version 1, May 2020. </change><change when="2021-06">Updated to TST encoding conventions by Emmanuel FRANCIS.</change></revisionDesc></teiHeader>
    
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
-  
-         <p>      
+    <ab>
            
             <pb n="[1]r"/>
            
@@ -102,12 +103,12 @@
             <lb n="1"/><choice><orig>ṉā</orig><reg>nā</reg></choice>ṅkaḷ eppōtum valaṅkaiyyāroṭu kuṭiy iruk=kiṟatu
             <lb n="2"/>yippavum yinta paṭṭaṇatti<unclear reason="vowel_unclear">lē</unclear> valaṅkaiyyāroṭē tāṉē
             <lb n="3"/>kuṭiy iruk=kiṟō<seg rend="grantha">m</seg>
-         </p>
-      </body>
-   </text><text synch="#U2" corresp="#T2" xml:lang="ta">
-      <body>
-         <p>
-           
+        
+     </ab>
+</body>
+   </text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
+  <ab>
+                  
            <pb n="[1]r"/>
            
            <milestone n="1" unit="column"/>
@@ -144,12 +145,14 @@
            
            <milestone n="5" unit="column"/>
             <lb n="1"/>Āka – <choice><sic>ci</sic><corr>ca</corr></choice>ṉaṅkaḷ
-            <lb n="2"/>177</p>
+            <lb n="2"/>177
+  
+  </ab>
       </body>
       
    </text><text synch="#U3" corresp="#T3" xml:lang="ta">
       <body>
-         <p>
+         <ab>
             <pb n="[1]r"/>
             
            <milestone n="1" unit="column"/>
@@ -176,6 +179,7 @@
            
            <milestone n="5" unit="column"/>
             <lb n="1"/>Anta kāriyam yeṅkaḷutā
-            <lb n="2" break="no"/>y iṟu<unclear>kki</unclear>ṟatu</p>
+            <lb n="2" break="no"/>y iṟu<unclear>kki</unclear>ṟatu
+           </ab>
       </body>
    </text></TEI>
