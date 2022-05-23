@@ -1,15 +1,15 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ciṅkāracatakam</title>
+            <title><title xml:lang="ta">Ciṅkāracatakam</title></title>
          <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -19,16 +19,16 @@
                   </repository>
                   <idno type="shelfmark">Indien 364e</idno>
                   <idno type="alternate"/>
-               </msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103891v</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/qz20t152z</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary><title xml:lang="ta">Ciṅkāracatakam</title>: marginal title only.        </summary>
+                  <summary><p>The<title xml:lang="ta">Ciṅkāracatakam</title>: marginal title only.</p>    </summary>
                   
                <msItem synch="#U1" xml:id="T1" defective="true"><title xml:lang="ta">Ciṅkāracatakam: <term xml:lang="en">Title</term></title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
                         <extent>
-                           <measure unit="folio" quantity="1">[1]  (U1).</measure>
+                           <measure unit="folio" quantity="1">{1}  (U1).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
@@ -45,7 +45,7 @@
                   </objectDesc>
                   <handDesc>
                      
-                  <handNote synch="#U1" scope="sole" script="tamil" medium="incised"/></handDesc>
+                  <handNote synch="#U1" scope="sole" script="tamil" medium="incised"><desc>Unblackened.</desc></handNote></handDesc>
                   <additions/>
                   <bindingDesc>
                      <binding>
@@ -55,7 +55,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian" notAfter="1912">No internal date. Before 1912, as it is described in Cabaton (1912).</origDate>
+                     <origDate calendar="gregorian" notAfter="1866">No internal date. Not dated by Vinson in Vinson et al. (1866-) nor by Cabaton (1912). Not later than first mention in a catalogue.</origDate>
                      <origPlace>Tamilnadu.</origPlace>
                   </origin>
                   <acquisition>
@@ -65,23 +65,25 @@
                <additional>
                   <listBibl>
                      
-                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f70">p. 52</ref>.</bibl></listBibl>
+                  <bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f70">p. 52, n0. 364</ref>.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. 1866-. <title>Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f179">f. 82r, no. <del>338</del> 364</ref>. </bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      
+   <encodingDesc><p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.            </p></encodingDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
-      <change when="2021-06">Record created by Emmanuel FRANCIS.</change></revisionDesc>
-   <encodingDesc><p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.</p></encodingDesc></teiHeader>
+      <change when="2021-06">Record created by Emmanuel FRANCIS.</change><change when="2022-05">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, May 2022.</change></revisionDesc></teiHeader>
    
-<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
-  
-  <pb n="[1]r"/>
-   <milestone unit="left-margin"/>
-  <lb n="1"/><seg function="title">ciṅkāracatakam</seg>
+<facsimile><graphic url="https://didomena.ehess.fr/concern/data_sets/qz20t152z/manifest.json" facs="43"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+    <ab>
+
+  <pb facs="43" n="[1]r"/>
+   <seg function="title"><milestone unit="left-margin"/>
+  <lb n="1"/>ciṅkāracatakam</seg>
   <lb n="2"/><gap reason="ellipsis"/>
       
    <pb n="[1]v"/><note xml:lang="en">blank</note>
       
+      </ab>
   </body></text></TEI>
