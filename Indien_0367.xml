@@ -4,7 +4,7 @@
    <teiHeader xml:lang="en">
       <fileDesc>
          <titleStmt>
-            <title xml:lang="ta">Vēṅkai Ulā</title>
+            <title xml:lang="ta"><title xml:lang="ta">Vēṅkai Ulā</title></title>
             <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          
          <publicationStmt>
@@ -19,7 +19,7 @@
                   </repository>
               
                   <idno type="shelfmark">Indien 367</idno>
-                  <idno type="alternate"><idno>Tamoul 367</idno></idno>
+                  <idno type="alternate"><idno>Tamoul 367</idno><idno>Ariel 81</idno><idno>c/21</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103894p</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/m326m848s</idno></msIdentifier>
                
                <msContents class="#STM">
@@ -51,7 +51,7 @@
                            <dimensions type="object" unit="mm"><width quantity="370"/><height quantity="30"/><depth quantity="40"/></dimensions><dimensions type="written" unit="mm"/></extent>
                         <collation>
                            
-                        <desc xml:id="U1">1 folio = <emph rend="bold">Title Page (additional)</emph>. No foliation. Double folio. Verso blank. Hand #1. Shelfmark on recto.</desc><desc xml:id="U2a">1 folio = <emph rend="bold"><title xml:lang="ta">Vēṅkai Ulā</title>: <foreign xml:lang="ta">Kāppu</foreign> &amp; <foreign xml:lang="ta">Cāṟṟukkavi</foreign></emph>. No foliation. Hand #2. </desc><desc xml:id="U2b">42 folios = <emph rend="bold"><title xml:lang="ta">Vēṅkai Ulā</title>: <foreign xml:lang="ta">Mūlam</foreign></emph>. Tamil foliation 1-42. Hand #2.</desc><desc xml:id="U3">1 folio = <emph rend="bold"><title xml:lang="ta">back guard leaf</title>: </emph>. No foliation. Recto blank. Unblackened additon on verso. The verso is more dark = outside page of the original bundle. Hand #3. </desc></collation>
+                        <desc xml:id="CoverFront">the <emph rend="bold">front cover</emph></desc><desc xml:id="U1">1 folio = <emph rend="bold">Title Page (additional)</emph>. No foliation. Double folio. Verso blank. Hand #1. Shelfmark on recto.</desc><desc xml:id="U2a">1 folio = <emph rend="bold"><title xml:lang="ta">Vēṅkai Ulā</title>: Invocation &amp; <foreign xml:lang="ta">Cāṟṟukkavi</foreign></emph>. No foliation. Hand #2. </desc><desc xml:id="U2b">42 folios = <emph rend="bold"><title xml:lang="ta">Vēṅkai Ulā</title>: Text</emph>. Tamil foliation 1-42. Hand #2.</desc><desc xml:id="U3">1 folio = <emph rend="bold"><title xml:lang="ta">back guard leaf</title>: </emph>. No foliation. Recto blank. Unblackened additon on verso. The verso is more dark = outside page of the original bundle. Hand #3. </desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph></desc></collation>
                         <condition>Very good state of preservation, in spite of bore holes caused by insects.</condition>
                      </supportDesc>
                      <layoutDesc>
@@ -60,7 +60,7 @@
                   </objectDesc>
                   <handDesc>                     
                      
-                  <handNote synch="#U1" scope="minor" scribeRef="#ArielTitleScribe" script="tamil" scriptRef="#tamilPulliRegular #tamilOE" medium="incised"><desc>Hand #1.</desc></handNote><handNote synch="#U2a #U2b" scope="major" script="tamil" scriptRef="#tamilPulliNone" medium="incised"><desc>Hand #2.</desc></handNote><handNote synch="#U3" scope="minor" script="tamil" medium="incised"/></handDesc>
+                  <handNote synch="#U1" scope="minor" scribeRef="#ArielTitleScribe" script="tamil" scriptRef="#tamilPulliRegular #tamilOE" medium="incised soot"><desc>Hand #1.</desc></handNote><handNote synch="#U2a #U2b" scope="major" script="tamil" scriptRef="#tamilPulliNone" medium="incised soot"><desc>Hand #2.</desc></handNote><handNote synch="#U3" scope="minor" script="tamil" medium="incised soot"/></handDesc>
                   <additions> 
                      
                      
@@ -68,7 +68,7 @@
                      
                      
                      
-                  <desc type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 367</quote>.</desc><desc synch="#U1" type="shelfmark" subtype="cover front">Shelfmark in black ink: <quote>c/21</quote> </desc></additions>
+                  <desc synch="#U1" type="shelfmark" subtype="cover front">Shelfmark in black ink: <quote>c/21</quote> (<locus facs="14">f[1]r</locus>).</desc><desc synch="#CoverFront #CoverBack" type="shelfmark" subtype="back cover">BnF shelfmark sticker: <quote>INDIEN 367</quote> (<locus facs="13">back cover, verso</locus>).</desc><desc synch="#CoverBack" subtype="back cover">BnF bequest sticker <quote>DON N° <space type="vacat"/></quote>  (<locus facs="13">back cover, verso</locus>).</desc></additions>
                   
                   <bindingDesc>
                      <binding>
@@ -81,7 +81,7 @@
                <history>
                   
                   <origin>
-                     <origDate calendar="gregorian" notAfter="1854">No internal date. 1845 according to Cabaton (1912), on unstated grounds (presumably palaeographical and material analysis arguments). Not after 1854, since part of the collection of <persName role="collector">Édouard Ariel</persName> (1818-1854).</origDate>
+                     <origDate calendar="gregorian" notAfter="1854">No internal date. Dated to circa 1845 by Vinson (1868) and to 1845 by Cabaton (1912), on unstated grounds (presumably palaeographical and material analysis arguments). Not after 1854, since part of the collection of <persName role="collector">Édouard Ariel</persName> (1818-1854).</origDate>
                      <origPlace>Tamilnadu.</origPlace>
                   </origin>
                   
@@ -100,7 +100,7 @@
                      
                      
                      
-                     <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f71">p. 53</ref>.</bibl></listBibl>
+                     <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f71">p. 53</ref>.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. 1866-. <title>Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f181">f. 83r, no. <del>341</del> 367</ref>. </bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
@@ -111,9 +111,9 @@
          <p>   <emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.            </p></encodingDesc>
       
       
-   <revisionDesc>
+   <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
-         <change when="2021-06">Record created by Emmanuel FRANCIS. </change><change when="2022-05">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, May 2022.</change></revisionDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
+         <change when="2021-06">Record created by Emmanuel FRANCIS. </change><change when="2022-05">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, May 2022.</change></revisionDesc></teiHeader>
    
    <facsimile>
       
@@ -122,16 +122,18 @@
    
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
 <ab>      
-  <pb n="[1]r"/>
   
+  <pb facs="14" n="[1]r"/>
+  <seg function="blessing">
   <milestone n="1" unit="column"/>
-  <lb n="1"/><seg function="blessing">veṟṟi-vē
+  <lb n="1"/>veṟṟivē
   <lb n="2" break="no"/>l uṟṟa tuṇai</seg>
   
-  <milestone n="2" unit="column"/>
+  <seg function="title"><milestone n="2" unit="column"/>
   <lb n="1"/><persName>civappirakācatēvar</persName>
   <lb n="2"/>Aruḷicceyta
-  <lb n="3"/><seg function="title">veṅkaiyulā</seg>
+  <lb n="3"/>veṅkaiyulā
+    </seg>
     
   <pb n="[1]v"/>
   <note xml:lang="en">blank</note>
@@ -139,79 +141,84 @@
 </body></text><text synch="#U2a" corresp="#T2" xml:lang="ta"><body>
    <ab>      
    
-  <pb n="[1]r"/>
-  
+  <pb facs="18" n="[1]r"/>
+     <seg function="header">
+  <seg function="blessing">
   <milestone n="1" unit="column"/>
-  <lb n="1"/><seg function="blessing">veṟṟi
+  <lb n="1"/>veṟṟi
   <lb n="2" break="no"/>vēl uṟ
   <lb n="3" break="no"/>ṟa tuṇai</seg>
   
-  <milestone n="2" unit="column"/>
+  <seg function="title"><milestone n="2" unit="column"/>
   <lb n="1"/><persName>civappirakāca
   <lb n="2" break="no"/>tēvar</persName> aruḷic
-  <lb n="3" break="no"/>ceyta <seg function="title">vēṅkai Ulā
+  <lb n="3" break="no"/>ceyta vēṅkai Ulā
   <lb n="" break="no"/></seg>
   
-  <milestone n="3" unit="column"/>
-  <lb n="1"/><seg function="intertitle">kāp
+  <seg function="intertitle"><milestone n="3" unit="column"/>
+  <lb n="1"/>kāp
   <lb n="2" break="no"/>pu</seg>
+       </seg>
   
-  <milestone n="4" unit="column"/>
-  <lb n="1-4"/><seg function="invocation">[kāppu]</seg>
+  <seg function="satellite-stanza"><milestone n="4" unit="column"/>
+  <lb n="1-4"/><gap reason="ellipsis"/></seg>
   
-  <milestone n="5" unit="column"/>
-  <lb n="1"/><seg function="completion-statement">kāppu
+  <seg function="completion-statement"><milestone n="5" unit="column"/>
+  <lb n="1"/>kāppu
   <lb n="2"/>muṟṟiṟṟu</seg>
   
-  <pb n="[1]v"/>
+  <pb facs="24" n="[1]v"/>
   
-  <milestone n="1" unit="column"/>
-  <lb n="1"/><seg function="intertitle">cāṟṟuk
+  <seg function="intertitle"><milestone n="1" unit="column"/>
+  <lb n="1"/>cāṟṟuk
   <lb n="2" break="no"/>kavi <term xml:lang="en">{line-filler}</term></seg>
   
   <milestone n="2" unit="column"/>
-  <lb n="1-4"/><seg function="invocation">[cāṟṟukkavi]</seg>
+  <lb n="1-4"/><gap reason="ellipsis"/>
   
-  <milestone n="3" unit="column"/>
-  <seg function="completion-statement">cāṟṟukkavi 
+  <seg function="completion-statement"><milestone n="3" unit="column"/>
+  cāṟṟukkavi 
   <lb n="2"/>muṟṟiṟṟu</seg>
 </ab>
 </body>  </text><text synch="#U2b" corresp="#T3" xml:lang="ta"><body>
       <ab>      
 
-  <pb n="1r"/>
-  
+  <pb facs="29" n="1r"/>
+  <seg function="title">
   <milestone unit="left-margin"/>
-  <lb n="1"/><seg function="title">veṅ
+  <lb n="1"/>veṅ
    <lb n="2" break="no"/>kai
    <lb n="3"/>Ulā</seg>
   
-  <milestone unit="main-text-area"/>
-  <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
+  <seg function="incipit"><milestone unit="main-text-area"/>
+  <lb n="1"/><gap reason="ellipsis"/></seg>
   
-  <pb n="34r"/>
+  <pb facs="34" n="34r"/>
   
-  <milestone unit="left-margin"/>
-  <lb n="1"/><seg function="intertitle">teri
+  <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1"/>teri
    <lb n="2" break="no"/>vai</seg>
   
-  <pb n="38r"/>
+  <pb facs="37" n="38r"/>
   
-  <milestone unit="left-margin"/>
-  <lb n="1"/><seg function="intertitle">periḷam
+  <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1"/>periḷam
   <lb n="2"/>peṇ</seg>
   
-  <pb n="42v"/>
+  <pb facs="43" n="42v"/>
   
-  <lb n="1"/><gap reason="ellipsis"/> tāṉ ulā <g ref="#pcl"/>
+  <seg function="explicit"><lb n="1"/><gap reason="ellipsis"/> tāṉ ulā <g ref="#pcl"/>
   <lb n="2"/>pētai mutalākap pēriḷam peṇṉīr <gap reason="ellipsis"/> polōṅkiṉōr <space/> kātal uṟac
-  <lb n="3" break="no"/><seg function="explicit">cintāmaṇi neṭum pōṟṟeriṟ ṟiruvulā-t tantāṉ paḻamalai nātaṉ</seg> <g ref="#pcl"/> <seg function="completion-statement">Ulā muṟṟiṟṟu</seg> <g ref="#pcl"/>
+  <lb n="3" break="no"/>cintāmaṇi neṭum pōṟṟeriṟ ṟiruvulā-t tantāṉ paḻamalai nātaṉ <g ref="#pcl"/></seg> <seg function="completion-statement">Ulā muṟṟiṟṟu <g ref="#pcl"/></seg> 
   
         </ab>
   </body>
   </text><text synch="#U3" corresp="#T4" xml:lang="ta"><body>
-  
-  <pb n="[1]v"/>  
-  <lb n="1"/><seg function="blessing"><gap reason="illegible" quantity="1" unit="character"/> ru ru ru veṟṟi-vēl uṟṟa</seg>
+  <ab>
+    
+  <pb facs="49" n="[1]v"/>  
+  <seg function="blessing">
+  <lb n="1"/><gap reason="illegible" quantity="1" unit="character"/> ru ru ru veṟṟi-vēl uṟṟa</seg>
+    </ab>
   
   </body></text></TEI>
