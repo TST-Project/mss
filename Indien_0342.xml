@@ -16,12 +16,11 @@
                   <repository>
                      <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
                   </repository>
-                  <idno type="eadid">FRBNFEAD000103867</idno>
                   <idno type="shelfmark">Indien 342</idno>
                   <idno type="alternate"><idno>Tamoul 342</idno><idno>Ariel 59</idno><idno>c/39</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1038682</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/2r36v525x</idno></msIdentifier>
                <msContents class="#MTM">
-                  <summary><p>A multi-text manuscript containing four poems praising a form of the Goddess:
+                  <summary><p>A multi-text manuscript containing four poems praising the Goddess Māriyammāṉ:
 <list rend="numbered">
   <item>The <title xml:lang="ta">Muttumāriyammaṉ Pēril Vārṉippu</title> (U2).</item>
   <item>The <title xml:lang="ta">Māriyammaṉ Pēril Tālāṭṭu</title> (U3).</item>
@@ -68,7 +67,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian" notAfter="1854">No internal date. Dated to circa 1850 by Vinson in Vinson et al. (1866-) and to 1850 by Cabaton (1912), on unstated grounds (presumably palaeographical and material analysis arguments).</origDate>
+                     <origDate calendar="gregorian" notAfter="1854">No internal date. Dated to circa 1850 by Vinson in Vinson et al. (1866-) and to 1850 by Cabaton (1912), on unstated grounds (presumably palaeographical and material analysis arguments). Not after 1854, since part of the collection of <persName role="collector">Édouard Ariel</persName> (1818-1854).</origDate>
                      <origPlace>Pondicherry.</origPlace>
                   </origin>
                   <acquisition>
@@ -81,7 +80,7 @@ Owned by <persName role="collector">Édouard Ariel</persName> (1818-1854). Beque
                   <listBibl>
                      
                      
-                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f68">p. 50, no. 342</ref>.</bibl><bibl>Rosny, Léon de (1868). La bibliothèque tamoule de M. Ariel, de Pondichéry. In: <title>Variétés orientales</title> (pp. 177‒224). Paris: Maisonneuve.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. (1866-). <title>Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f169">f. 77r, no. <del>316</del> 342</ref>. </bibl></listBibl>
+                  <bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f68">p. 50, no. 342</ref>.</bibl><bibl>Rosny, Léon de. 1868. La bibliothèque tamoule de M. Ariel, de Pondichéry. In: <title>Variétés orientales</title> (pp. 177‒224). Paris: Maisonneuve.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. 1866-. <title>Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f169">f. 77r, no. <del>316</del> 342</ref>. </bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
@@ -92,14 +91,14 @@ Owned by <persName role="collector">Édouard Ariel</persName> (1818-1854). Beque
       <change when="2022-03">Record created by Emmanuel FRANCIS.</change><change when="2022-05">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, May 2022.</change></revisionDesc></teiHeader>
    
 <facsimile><graphic url="https://didomena.ehess.fr/concern/data_sets/2r36v525x/manifest.json"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
-  
+  <ab>
+    
     <pb facs="5" n="[1]r"/>
-
   <seg function="blessing"><milestone n="1" unit="column"/>
   <lb n="1-2"/>veṟṟivēl uṟṟa tuṇai</seg>
   
   <seg function="TBC"><milestone n="2" unit="column"/>
-   <lb n="1"/>||4||<note xml:lang="en">that is, the number of different works contained in the bundle</note></seg>
+   <lb n="1"/>||4|| <note xml:lang="en">that is, the number of different works contained in the bundle</note></seg>
   
   <seg function="title"><milestone n="8" unit="column"/>
   <lb n="1"/>muttumāriyammaṉ
@@ -112,14 +111,14 @@ Owned by <persName role="collector">Édouard Ariel</persName> (1818-1854). Beque
  <seg function="title"><lb n="2"/>Uñcal</seg>
          
       <pb n="[1]v"/><note xml:lang="en">blank</note>
-
-      </body>
-   </text><text synch="#U2a" corresp="#T2" xml:lang="ta"><body>
-  
+    
+    </ab>
+</body></text><text synch="#U2a" corresp="#T2" xml:lang="ta"><body>
+  <ab>
+    
     <pb facs="10" n="[1]r"/>
-
   <seg function="header"><seg function="blessing"><milestone n="1" unit="column"/>
-  <lb n="1-2"/>kalaivāṇi namastu <g ref="#pcs"/></seg>
+  <lb n="1-2"/>kalaivāṇi namas·tu <g ref="#pcs"/></seg>
     </seg>
   
     <seg function="title"><milestone n="2" unit="column"/>
@@ -129,29 +128,31 @@ Owned by <persName role="collector">Édouard Ariel</persName> (1818-1854). Beque
 
   <milestone n="3" unit="column"/>
   <lb n="1"/>rum – vācikkalām</seg>
-  <seg function="blessing"><lb n="2"/>śrīrā=maceya=M=<g ref="#pcs"/></seg>
-  <seg function="ownership-statement"><lb n="3"/><persName xml:lang="ta">vāt=tiyār rā=macāmi
+  <seg function="blessing"><lb n="2"/>śrīrā=maceya=M<g ref="#pcs"/></seg>
+  <seg function="ownership-statement"><lb n="3"/><persName xml:lang="ta" role="owner">vāt=tiyār rā=macāmi
   <lb n="4"/>ṉāyakkar</persName> pottakam</seg>
    <lb n="5"/><del><gap reason="illegible" quantity="1" unit="character"/></del> <seg function="TBC">māriyammaṉ <g ref="#pcl"/></seg>
 
   <seg function="blessing"><milestone n="4" unit="column"/>
   <lb n="1-2"/>civamayam <g ref="#pcl"/></seg>
+    
       <pb n="[1]v"/><note xml:lang="en">blank</note>
-
-      </body>
+    
+    </ab>
+</body>
    </text><text synch="#U2b" corresp="#T3" xml:lang="ta"><body>
-  
+  <ab>
  <pb facs="14" n="[1]r"/>
   
-   <seg function="header"><seg function="blessing"><milestone n="1" unit="left-margin"/>
+   <seg function="header">
+     <seg function="blessing"><milestone n="1" unit="left-margin"/>
   <lb n="1"/><term xml:lang="sa">hari Om</term></seg>
 <seg function="blessing"><lb n="2"/>naṉṟāka</seg>
 <seg function="blessing"><lb n="3"/>kuru vāḻka</seg>                                          
 <seg function="blessing"><lb n="4"/>kuruvē tuṇai</seg>
      </seg>
 
-  
-  <seg function="title"><milestone n="2" unit="left-margin"/>
+    <seg function="title"><milestone n="2" unit="left-margin"/>
   <lb n="1"/>civacaṅkari civarupatāṇṭa
 <lb n="2" break="no"/>vavalli muttumāriyamma
 <lb n="3" break="no"/>ṉ pēril tōttiṟavu <g ref="#pcs"/></seg>                                                
@@ -162,8 +163,10 @@ Owned by <persName role="collector">Édouard Ariel</persName> (1818-1854). Beque
   
   <pb n="[1]v"/><note xml:lang="en">blank</note>
 
+    </ab>
   </body></text><text synch="#U2c" corresp="#T4"><body>
-  
+  <ab>
+    
   <pb facs="22" n="6r"/>
   
   <seg function="header">
@@ -182,13 +185,15 @@ Owned by <persName role="collector">Édouard Ariel</persName> (1818-1854). Beque
   
   <milestone n="2" unit="column"/>
   <lb n="1-3"/><gap reason="ellipsis"/>
-  <seg function="colophon"><lb n="4"/><seg function="ownership-statement">vāt=tiyār ṟā=macāmi <term xml:lang="en">{symbol}</term> māṟiyamma<del><gap reason="illegible" quantity="1" unit="character"/></del>ṉ tōttiravu contam</seg>
-  <lb n="5"/>yeḻuti muṭintatu musttum <g ref="#pcl"/></seg>
+  <seg function="colophon"><lb n="4"/><seg function="ownership-statement"><persName xml:lang="ta" role="owner">vāt=tiyār ṟā=macāmi</persName> <term xml:lang="en">{symbol}</term> māṟiyamma<del><gap reason="illegible" quantity="1" unit="character"/></del>ṉ tōttiravu contam</seg>
+  <lb n="5"/>yeḻuti muṭintatu mus·tum <g ref="#pcl"/></seg>
   
+    </ab>
   </body></text><text synch="#U3" corresp="#T5" xml:lang="ta"><body>
-  
+  <ab>
+    
   <pb facs="36" n="1r"/>
-  
+  <seg function="header">
   <seg function="blessing"><milestone n="1" unit="left-margin"/>
   <lb n="1"/><term xml:lang="sa">hari Om</term></seg>
 <seg function="blessing"><lb n="2"/>naṉṟāka</seg>
@@ -197,25 +202,27 @@ Owned by <persName role="collector">Édouard Ariel</persName> (1818-1854). Beque
   
     <seg function="title"><milestone n="2" unit="left-margin"/>
   <lb n="1-3"/>māriyammaṉ pēril tālāṭṭu</seg>
+    </seg>
   
    <seg function="incipit"><milestone unit="main-text-area"/>
   <lb n="1"/><gap reason="ellipsis"/></seg>
   
   <pb facs="43" n="7r"/>
-  <seg function="header">
   <milestone unit="main-text-area"/>
   <lb n="1-4"/><gap reason="ellipsis"/>
   <seg function="TBC"><lb n="5"/><gap reason="ellipsis"/> makiḻntāḷ <g ref="#pcs"/> māriyammaṉ pōl</seg>
-    </seg>
   
-  <seg function="colophon"><milestone unit="right-margin"/>
+  <seg function="colophon">
+    <milestone unit="right-margin"/>
 <lb n="1-4"/>tālāṭṭu Eḻuti muṭintatu mus·tu<seg rend="grantha">m</seg> <g ref="#pcl"/></seg>
   
   <pb n="7v"/><note xml:lang="en">blank</note>
-
+    
+</ab>
 </body>
 </text><text synch="#U4" corresp="#T6" xml:lang="ta"><body>
-  
+  <ab>
+    
   <pb facs="46" n="1r"/>
   <seg function="header">
   <seg function="blessing">
@@ -238,7 +245,7 @@ Owned by <persName role="collector">Édouard Ariel</persName> (1818-1854). Beque
   
     <pb facs="50" n="2r"/>
        <seg function="blessing">
-    <milestone n="1" facs="50" unit="left-margin"/>
+    <milestone n="1" unit="left-margin"/>
   <lb n="1-2"/>naṉṟāka</seg>
   
     <pb facs="55" n="3v"/>
@@ -251,16 +258,21 @@ Owned by <persName role="collector">Édouard Ariel</persName> (1818-1854). Beque
   
   <milestone n="3" unit="column" break="no"/>
   <lb n="1-2"/>tatu mus·tu<seg rend="grantha">m</seg></seg>
+    
+    </ab>
 </body>
 </text><text synch="#U5" corresp="#T7" xml:lang="ta"><body>
-  
+  <ab>
+    
     <pb facs="58" n="1r"/>
+    <seg function="header">
     <seg function="blessing">
      <milestone n="1" unit="left-margin"/>
   <lb n="1"/><term xml:lang="sa">hari Om</term></seg>
 <seg function="blessing"><lb n="2"/>naṉṟāka</seg>
 <seg function="blessing"><lb n="3"/>kuru vāḻka</seg>
 <seg function="blessing"><lb n="4"/>kuruvē tuṇai</seg>
+      </seg>
   
   <seg function="title"><milestone n="2" unit="left-margin"/>
   <lb n="1-3"/>māriyammaṉ pēril Uñcal</seg>
@@ -282,6 +294,7 @@ Owned by <persName role="collector">Édouard Ariel</persName> (1818-1854). Beque
 muṭintatu mus·tu<seg rend="grantha">m</seg> <g ref="#pcl"/></seg>
   
   <pb n="4v"/><note xml:lang="en">blank</note>
+    </ab>
 
 </body>
 </text></TEI>

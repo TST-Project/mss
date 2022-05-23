@@ -18,14 +18,14 @@
                      <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
                   </repository>
                   <idno type="shelfmark">Indien 362</idno>
-                  <idno type="alternate"><idno>Tamoul 362</idno></idno>
+                  <idno type="alternate"><idno>Tamoul 362</idno><idno>Ariel 158</idno><idno>c/74</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103889t</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/4q77fz66d</idno></msIdentifier>
                <msContents class="#MTM">
                   <summary><p>A multiple-text manuscript containing three works, notably in praise of Gaṇeśa:
   <list rend="numbered">
   <item>The <title xml:lang="ta">Piḷḷaiyār Akaval</title> 1, that is, <title xml:lang="ta">Vināyakar Akaval</title> attributed to Auvaiyār (Zvelebil 1995, p. 770) (U2).</item>
     <item>The <title xml:lang="ta">Piḷḷaiyār Akaval</title> 2 (U3).</item>
-    <item>The <title xml:lang="ta">Iraṭṭai Maṇimālai</title>, that is, <title xml:lang="ta">Mayilaviraṭṭai Maṇimālai</title> (U4). In 21 stanzas: the <foreign xml:lang="ta">kāppu</foreign> + 20 numbered stanzas.</item>
+    <item>The <title xml:lang="ta">Iraṭṭai Maṇimālai</title>, that is, <title xml:lang="ta">Mayilaviraṭṭai Maṇimālai</title> (U4). In 21 stanzas: the <foreign xml:lang="ta">Kāppu</foreign> + 20 numbered stanzas.</item>
   </list>
 </p>
 <p>Description based on the examination of the original manuscript (February 2021 and June 2021).</p>
@@ -56,8 +56,8 @@
                   </objectDesc>
                   <handDesc>
                      
-                  <handNote synch="#U1" scope="sole" scribeRef="#ArielTitleScribe" script="tamil" scriptRef="#tamilPulliRegular #tamilOE" medium="incised"/><handNote synch="#U2 #U3 #U4" scope="sole" script="tamil" medium="incised"><desc>Neat handwriting. The <foreign xml:lang="ta">puḷḷi</foreign> is a circle.</desc></handNote></handDesc>
-                  <additions><desc type="shelfmark" subtype="beginning">BnF shelfmark sticker: <quote>INDIEN 362</quote>. </desc><desc type="shelfmark" subtype="beginning">A sticker (Société Asiatique?) covered by theBnF shelfmark sticker. </desc><desc synch="#U1" type="shelfmark">Shelfmark <quote>c/74</quote> in black ink. </desc><desc synch="#U4" corresp="#T4" type="intertitle">The metre is indicated in the left margin (functioning as intertitle). 1st (unnumbered verse) is <foreign xml:lang="ta">veṇpā</foreign>. From f2v onwards: alternating <foreign xml:lang="ta">veṇpā</foreign> (on verso) and <foreign xml:lang="ta">kalittuṟai</foreign> (on recto). </desc><desc synch="#U4" corresp="#T4" type="verse-numbering">Except for 1st verse. Then numbering from 1 to 20.</desc></additions>
+                  <handNote synch="#U1" scope="sole" scribeRef="#ArielTitleScribe" script="tamil" scriptRef="#tamilPulliRegular #tamilOE" medium="incised soot"/><handNote synch="#U2 #U3 #U4" scope="sole" script="tamil" medium="incised soot"><desc>Neat handwriting. The <foreign xml:lang="ta">puḷḷi</foreign> is a circle.</desc></handNote></handDesc>
+                  <additions><desc synch="#CoverFront" type="documenting-note" subtype="cover front">BnF bequest sticker <quote>DON N° <space type="vacat"/></quote> (<locus facs="4">front cover, recto</locus>). </desc><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 362</quote> (<locus facs="4">front cover, recto</locus>). </desc><desc synch="#CoverFront" type="shelfmark" subtype="cover front">A sticker (Société Asiatique?) covered by theBnF shelfmark sticker (<locus facs="4">front cover, recto</locus>).  </desc><desc synch="#U1" type="shelfmark">Shelfmark <quote>c/74</quote> in black ink (<locus facs="15">f[1]r</locus>). </desc><desc synch="#U4" corresp="#T4" type="metre" subtype="marginal left">The metre is indicated in the left margin (functioning as intertitle). 1st (unnumbered verse) is <foreign xml:lang="ta">veṇpā</foreign>. From f2v onwards: alternating <foreign xml:lang="ta">veṇpā</foreign> (on verso) and <foreign xml:lang="ta">kalittuṟai</foreign> (on recto). See selection below.</desc><desc synch="#U4" corresp="#T4" type="verse-numbering">Except for 1st verse. Then numbering from 1 to 20.</desc></additions>
                   <bindingDesc>
                      <binding>
                         <p><material cert="medium">Pinewood</material> covers apparently fabricated in the BnF.</p>
@@ -66,7 +66,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian" notAfter="1834">No internal date. Dated to 1840 by Cabaton (1912), on unknown grounds. The colophon in U2, f5r is dated to the Jovian cycle year <foreign xml:lang="ta">vicaiya</foreign>, that is, CE 1833-1834, 1773-1774, 1713-1714, etc.</origDate>
+                     <origDate calendar="gregorian" notAfter="1834">Internally datad to the Jovian cycle year <foreign xml:lang="ta">vicaiya</foreign>, that is, CE 1833-1834, 1773-1774, 1713-1714, etc. See Colophon (U2, <locus facs="38">f5r, column 2, 2</locus>). Not dated by Vinson in Vinson et al. (1866-) nor by Cabaton (1912).</origDate>
                      <origPlace>Tamilnadu.</origPlace>
                   </origin>
                   <acquisition>
@@ -76,54 +76,59 @@
                <additional>
                   <listBibl>
                      
-                  <bibl><title>Vināyakar Akaval</title>. Project Madurai. <title>Auvaiyār aruḷic ceyta Vināyakar Akaval (mūlamum pu. pā. iracapati uraiyum)</title>. <ref target="https://www.projectmadurai.org/pm_etexts/utf8/pmuni0231.html">https://www.projectmadurai.org/pm_etexts/utf8/pmuni0231.html</ref></bibl><bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f70">p. 52</ref>.</bibl><bibl>Zvelebil, Kamil V. (1995). <title>Lexicon of Tamil Literature.</title> Leiden [etc.]: Brill.</bibl></listBibl>
+                  <bibl><title>Vināyakar Akaval</title>. Project Madurai. <title>Auvaiyār aruḷic ceyta Vināyakar Akaval (mūlamum pu. pā. iracapati uraiyum)</title>. <ref target="https://www.projectmadurai.org/pm_etexts/utf8/pmuni0231.html">https://www.projectmadurai.org/pm_etexts/utf8/pmuni0231.html</ref></bibl><bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f70">p. 52</ref>.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. 1866-. <title>Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f179">f. 82r, no. <del>36</del> 362</ref>. </bibl><bibl>Zvelebil, Kamil V. 1995. <title>Lexicon of Tamil Literature.</title> Leiden [etc.]: Brill.</bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       
-   <encodingDesc><p>   <emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.            </p></encodingDesc><revisionDesc>
+   <encodingDesc><p>   <emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.            </p></encodingDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
-      <change when="2021-06">Record created by Emmanuel FRANCIS.</change><change when="2022-05">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, May 2022.</change></revisionDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
+      <change when="2021-06">Record created by Emmanuel FRANCIS.</change><change when="2022-05">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, May 2022.</change></revisionDesc></teiHeader>
    
 <facsimile><graphic url="https://didomena.ehess.fr/concern/data_sets/4q77fz66d/manifest.json"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   <ab>
-  <p>
-    <milestone n="[1]r" unit="folio"/>
+    
+  <pb facs="15" n="[1]r"/>
+    
+    <seg function="blessing">
     <milestone n="1" unit="column"/>
-    <lb n="1"/><seg function="blessing">veṟṟi    
+    <lb n="1"/>veṟṟi    
     <lb n="2" break="no"/>vēl uṟṟa
     <lb n="3"/>tuṇai</seg>
     <milestone n="2" unit="column"/>
     <lb n="1"/>caivam
     <lb n="2"/>mūṉṟu
-    <milestone n="3" unit="column"/>
-    <lb n="1"/><seg function="title">piḷḷaiyār akaval</seg>
-    <lb n="2"/><seg function="title">piḷḷaiyār akaval</seg>
-    <lb n="3"/><seg function="title">mayilaviraṭṭai
+    <seg function="title"><milestone n="3" unit="column"/>
+    <lb n="1"/>piḷḷaiyār akaval</seg>
+    <seg function="title"><lb n="2"/>piḷḷaiyār akaval</seg>
+    <seg function="title"><lb n="3"/>mayilaviraṭṭai
     <lb n="4"/>maṇimālai</seg>
-  </p>
-  
-  <p>
-    <milestone n="[1]v" unit="folio"/> <note xml:lang="en">blank</note>
-  </p>  
+ 
+    <pb n="[1]v"/> <note xml:lang="en">blank</note>
+    
   </ab>
 </body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
     <ab>
 
-  <p>
-    <milestone n="[1]r" unit="folio"/>
-    <milestone n="1" unit="left margin"/>
-    <lb n="1"/><seg function="blessing">naṉ
+  <pb facs="23" n="[1]r"/>
+    <seg function="header">
+      <seg function="blessing">
+        <milestone n="1" unit="left margin"/>
+    <lb n="1"/>naṉ
     <lb n="2" break="no"/>ṟāka</seg>
+      
+      <seg function="title">
     <milestone n="2" unit="left margin"/>
-    <lb n="1"/><seg function="title">piḷ
+    <lb n="1"/>piḷ
     <lb n="2" break="no"/>ḷai
     <lb n="3" break="no"/>yār a
     <lb n="4" break="no"/>kava
     <lb n="5" break="no"/>l</seg>
-    <milestone n="1" unit="column"/>
-    <lb n="1"/><seg function="incipit">cītak kaḷapac ~
+      </seg>
+      
+    <seg function="incipit"><milestone n="1" unit="column"/>
+    <lb n="1"/>cītak kaḷapac ~
     <lb n="2"/>ce<surplus>ḻi</surplus>ntā maraippū</seg> ‡
     <lb n="3"/>pātac cilampu
     <lb n="4"/>palavicai pāṭa ‡
@@ -131,10 +136,9 @@
     <milestone n="2" unit="column"/>
     <lb n="1"/>pūntukil āṭaiyum ‡
     <lb n="2"/><gap reason="ellipsis"/>
-  </p>
-  
-  <p>
-    <milestone n="[5r" unit="folio"/>
+   
+  <pb facs="36" n="[5]r"/>
+      
     <milestone n="1" unit="column"/>
     <lb n="1-2"/><gap reason="ellipsis"/>
     <lb n="3"/>tattuva nilai<unclear reason="consonant_unclear">yai</unclear>
@@ -142,112 +146,109 @@
     <lb n="5"/><seg function="explicit">vittaka viṉāyaka
     <milestone n="2" unit="column"/>
     <lb n="1"/>viraikaḻal caraṇē</seg> ‡‡ <g ref="#pcl"/>
-    <lb n="2"/><seg function="colophon">vicaiya {varuṣam} Āṭi {mācam} 2 {tēti}
+    <seg function="colophon"><lb n="2"/>vicaiya {varuṣam} Āṭi {mācam} 2 {tēti}
     <lb n="3"/><choice><orig>pu</orig><reg>pi</reg></choice>ḷḷaiyār akaval y<pc>-</pc>e
     <lb n="4" break="no"/>ḻiti niṟavēttatu mut=tu<seg rend="grantha">m</seg></seg>
-    <milestone n="3" unit="column"/>
+    <seg function="TBC"><milestone n="3" unit="column"/>
     <lb n="1"/>y<pc>-</pc>ippaṭikki
-    <lb n="2"/>toḷ ciṅkam
+    <lb n="2"/>toḷ ciṅkam</seg>
     <lb n="3"/><seg function="blessing">ṟāma-ceya=M</seg>
-</p>
   
-    <p>
-    <milestone n="5v" unit="folio"/> <note xml:lang="en">blank</note>
-  </p>  
+    <pb n="5v"/> <note xml:lang="en">blank</note>
+    
   
       </ab>
 </body></text><text synch="#U3" corresp="#T3" xml:lang="ta"><body>
     <ab>
 
-  <p>
-    <milestone n="[1]r" unit="folio"/>
-    <milestone n="1" unit="left margin"/>
-    <lb n="1"/><seg function="blessing">naṉ
+  <pb facs="45" n="[1]r"/>
+      <seg function="header">
+    <seg function="blessing"><milestone n="1" unit="left margin"/>
+    <lb n="1"/>naṉ
     <lb n="2" break="no"/>ṟāka</seg>
-    <milestone n="2" unit="left margin"/>
-    <lb n="1"/><seg function="title"><choice><orig>pu</orig><reg>pi</reg></choice>ḷḷai
+    <seg function="title"><milestone n="2" unit="left margin"/>
+    <lb n="1"/><choice><orig>pu</orig><reg>pi</reg></choice>ḷḷai
     <lb n="2" break="no"/>yār aka
     <lb n="3" break="no"/>va
     <lb n="4" break="no"/>l</seg>
-    <milestone n="1" unit="column"/>
-    <lb n="1"/><seg function="incipit">Aṟuḷ cey viṉāyakar
+        </seg>
+      
+    <seg function="incipit"><milestone n="1" unit="column"/>
+    <lb n="1"/>Aṟuḷ cey viṉāyakar
     <lb n="2"/><gap reason="ellipsis"/> pāṭa
     <lb n="3"/>poruḷ civalōkam
     <lb n="4"/>pukaḻum uṇṭāmē</seg>
     <lb n="5"/><gap reason="ellipsis"/>
-  </p>
-  
-  <p>
-    <milestone n="17r" unit="folio"/>
-    <milestone n="2" unit="column"/>
-    <lb n="1"/>caccutāṉanta
-    <lb n="2"/><seg function="blessing">caṟkuru caṟaṇam</seg>
-    <lb n="3"/><seg function="blessing">civaṉ aṭiyārkaḷ
+
+  <pb facs="58" n="17r"/>
+    <seg function="blessing"><milestone n="2" unit="column"/>
+    <lb n="1"/>caccutāṉanta</seg>
+    <seg function="blessing"><lb n="2"/>caṟkuru caṟaṇam</seg>
+    <seg function="blessing"><lb n="3"/>civaṉ aṭiyārkaḷ
     <lb n="4"/>cintaiyil
     
     <milestone n="3" unit="column"/>
     <lb n="1"/>vāḻun</seg>
-    <lb n="2"/><seg function="blessing">tavacivakaṇapati
+    <seg function="blessing"><lb n="2"/>tavacivakaṇapati
     <lb n="3"/>tāḷē caraṇam</seg>
-    <lb n="4"/><seg function="completion-statement">muṟṟum</seg>
+    <seg function="completion-statement"><lb n="4"/>muṟṟum</seg>
     
-    <milestone n="4" unit="column"/>
-    <lb n="1"/><seg function="blessing">ṟāmacaya=M</seg>
-  </p>
+    <seg function="blessing"><milestone n="4" unit="column"/>
+    <lb n="1"/>ṟāmacaya=M</seg>
   
-    <p>
-    <milestone n="17v" unit="folio"/> <note xml:lang="en">blank</note>
-  </p>  
+    <pb n="17v"/> <note xml:lang="en">blank</note>
   
       </ab>
 </body></text><text synch="#U4" corresp="#T4" xml:lang="ta"><body>
     <ab>
 
-  <pb n="[1]r"/>
+  <pb facs="62" n="[1]r"/>
+  <seg function="header">
+  <seg function="blessing"><milestone n="1" unit="left margin"/>
+    <lb n="1"/>hari Om</seg>
+    <seg function="blessing"><lb n="2"/>naṉṟāka</seg>
+    <seg function="blessing"><lb n="3"/>kuru vāḻka</seg>
+    <seg function="blessing"><lb n="4"/>kuruvē tuṇai</seg>
   
-  <milestone n="1" unit="left margin"/>
-    <lb n="1"/><seg function="blessing">hari Om</seg>
-    <lb n="2"/><seg function="blessing">naṉṟāka</seg>
-    <lb n="3"/><seg function="blessing">kuru vāḻka</seg>
-    <lb n="4"/><seg function="blessing">kuruvē tuṇai</seg>
-  
-  <milestone n="2" unit="left margin"/>
-    <lb n="1"/><seg function="title">Iraṭṭai
+  <seg function="title"><milestone n="2" unit="left margin"/>
+    <lb n="1"/>Iraṭṭai
     <lb n="2"/>maṇi
     <lb n="3" break="no"/>mālai</seg>
-    <lb n="4"/><seg function="intertitle">veṇpā</seg>
+    <seg function="metre"><lb n="4"/>veṇpā</seg>
+    </seg>
   
-   <milestone unit="main text area"/>
-    <lb n="1"/><seg function="incipit">maruvum iraṭṭai maṇimālaiyai</seg> <gap reason="ellipsis"/>
+   <seg function="incipit"><milestone unit="main text area"/>
+    <lb n="1"/>maruvum iraṭṭai maṇimālaiyai</seg> <gap reason="ellipsis"/>
     <lb n="2"/><gap reason="ellipsis"/>
     <lb n="3"/><gap reason="ellipsis"/>
     <lb n="4"/>veṇpā mayilai viṉāyakaṉai vāḻttu <g ref="#pcl"/> <seg function="blessing">vēlumayilum tuṇai</seg>
   
-  <pb n="[1]v"/>
-    <milestone n="1" unit="left margin"/>
-    <lb n="1"/><seg function="intertitle">veṇ
+  <pb facs="65" n="[1]v"/>
+    <seg function="metre"><milestone n="1" unit="left margin"/>
+    <lb n="1"/>veṇ
   <lb n="2" break="no"/>pā</seg>
+      
     <milestone unit="main text area"/>
     <lb n="1-4"/><gap reason="ellipsis"/> <g ref="#pcl"/> 1
   
    <pb n="2r"/>
-    <milestone n="1" unit="left margin"/>
-    <lb n="1"/><seg function="intertitle">kalit
+    <seg function="metre"><milestone n="1" unit="left margin"/>
+    <lb n="1"/>kalit
     <lb n="2" break="no"/>tuṟai</seg>
   
-      <pb n="11r"/>
+      <pb facs="67" n="11r"/>
     
-  <milestone n="1" unit="left margin"/>
+  <seg function="metre"><milestone n="1" unit="left margin"/>
     <lb n="1"/>kali
-  <lb n="2" break="no"/>t=tuṟai
+  <lb n="2" break="no"/>t=tuṟai</seg>
   
-  <milestone unit="main text area"/>
-    <lb n="1"/><seg function="explicit">nitumu<gap reason="ellipsis"/>
+  <seg function="explicit"><milestone unit="main text area"/>
+    <lb n="1"/>nitumu<gap reason="ellipsis"/>
     <lb n="2"/>putumu<gap reason="ellipsis"/>
     <lb n="3"/>citamu<gap reason="ellipsis"/>
       <lb n="4"/>putumu<gap reason="ellipsis"/>r ulakē</seg> <g ref="#pcs"/> 2<g ref="#pattu"/>
-    <lb n="5"/><seg function="completion-statement">muṟṟu<seg rend="grantha">m</seg></seg> <g ref="#pcl"/>
+    <seg function="completion-statement"><lb n="5"/>muṟṟu<seg rend="grantha">m</seg></seg> <g ref="#pcl"/>
    
-     <pb n="11v"/><note xml:lang="en">blank</note>
+     <pb facs="71" n="11v"/><note xml:lang="en">blank</note>
    </ab>
 </body></text></TEI>
