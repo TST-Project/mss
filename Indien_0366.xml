@@ -41,7 +41,7 @@
                         
                      <collation>
                      
-                     <desc xml:id="cover">the = <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">Title Page (additional)</emph>. No foliation. Double folio. Verso blank. 590 x 25 mm. </desc><desc xml:id="U2">31 folios = <emph rend="bold"><title xml:lang="ta">Iraṅkēcaveṇpā</title></emph>. </desc><desc xml:id="U2a">1 folio = <emph rend="bold"><title xml:lang="ta">Iraṅkēcaveṇpā</title>: Date &amp; Instruction to user</emph>. No foliation. Double folio. Verso blank. 595 x 30 mm. </desc><desc xml:id="U2b">1 folio = <emph rend="bold"><title xml:lang="ta">Iraṅkēcaveṇpā</title>: Invocation</emph>. No foliation. Verso blank. 595 x 30 mm. </desc><desc xml:id="U2c">29 folios = <emph rend="bold"><title xml:lang="ta">Iraṅkēcaveṇpā</title>: Text &amp; Commentary</emph>. Tamil foliation 1-29. 595 x 30 mm.</desc><desc xml:id="U4">2 folios = <emph rend="bold">guard leaves</emph>. No foliation. Single folios. Blank recto verso.</desc><desc xml:id="U5">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Double folio. Blank recto verso.</desc><desc xml:id="cover">the = <emph rend="bold">back cover</emph>.</desc></collation><condition>Good state of preservation.</condition><support><measure unit="stringhole" quantity="1"/></support></supportDesc>
+                     <desc xml:id="CoverFront">the = <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">Title Page (additional)</emph>. No foliation. Double folio. Verso blank. 590 x 25 mm. </desc><desc xml:id="U2">31 folios = <emph rend="bold"><title xml:lang="ta">Iraṅkēcaveṇpā</title></emph>. </desc><desc xml:id="U2a">1 folio = <emph rend="bold"><title xml:lang="ta">Iraṅkēcaveṇpā</title>: Date &amp; Instruction to user</emph>. No foliation. Double folio. Verso blank. 595 x 30 mm. </desc><desc xml:id="U2b">1 folio = <emph rend="bold"><title xml:lang="ta">Iraṅkēcaveṇpā</title>: Invocation</emph>. No foliation. Verso blank. 595 x 30 mm. </desc><desc xml:id="U2c">29 folios = <emph rend="bold"><title xml:lang="ta">Iraṅkēcaveṇpā</title>: Text &amp; Commentary</emph>. Tamil foliation 1-29. 595 x 30 mm.</desc><desc xml:id="U4">2 folios = <emph rend="bold">guard leaves</emph>. No foliation. Single folios. Blank recto verso.</desc><desc xml:id="U5">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Double folio. Blank recto verso.</desc><desc xml:id="CoverBack">the = <emph rend="bold">back cover</emph>.</desc></collation><condition>Good state of preservation.</condition><support><measure unit="stringhole" quantity="1"/></support></supportDesc>
                      <layoutDesc>
                         
                      </layoutDesc>
@@ -49,11 +49,11 @@
                   <handDesc>
                      
                   <handNote synch="#U1" scope="minor" scribeRef="#ArielTitleScribe" script="tamil" medium="incised soot"><desc>Hand #1.</desc></handNote><handNote synch="#U2 #U2a #U2b" scope="major" script="tamil" medium="incised soot"><desc>Hand #2.</desc></handNote></handDesc>
-                  <additions><desc synch="#U1" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 369</quote> (<locus facs="2">front cover, recto</locus>).</desc><desc synch="#U1" type="documenting-note">BnF bequest sticker <quote>DON N° <space type="vacat"/></quote> (<locus facs="2">front cover, recto</locus>).</desc><desc synch="#U1" type="shelfmark">Shelfmark sticker (Société Asiatique?), written in black ink: <quote>403</quote> (<locus facs="0">f[1]r</locus>).</desc><desc synch="#U1" type="shelfmark">Shelfmark in black ink: <quote>c/41</quote> (<locus facs="0">f[1]r</locus>).</desc></additions>
+                  <additions><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 369</quote> (<locus facs="2">front cover, recto</locus>).</desc><desc synch="#CoverFront" type="documenting-note">BnF bequest sticker <quote>DON N° <space type="vacat"/></quote> (<locus facs="2">front cover, recto</locus>).</desc><desc synch="#U1" type="shelfmark">Shelfmark sticker (Société Asiatique?), written in black ink: <quote>403</quote> (<locus facs="7">f[1]r</locus>).</desc><desc synch="#U1" type="shelfmark">Shelfmark in black ink: <quote>c/41</quote> (<locus facs="7">f[1]r</locus>).</desc></additions>
                   <bindingDesc>
                      <binding>
                         
-                     <p><material resp="#cLI" cert="medium">Mahogany</material> woodcovers apparently fabricated in the BnF. 595 x 30 mm.</p></binding>
+                     <p><material cert="medium">Pinewood</material> covers apparently fabricated in the BnF. 595 x 30 mm.</p></binding>
                   </bindingDesc>
                <decoDesc/></physDesc>
                <history>
@@ -82,8 +82,8 @@
   <ab>
     
   <pb facs="6" n="[1]r"/>
-  <milestone n="1" unit="column"/>
-  <lb n="1-2"/><seg function="blessing">verrivēl uṟṟa tuṇai</seg>
+  <seg function="blessing"><milestone n="1" unit="column"/>
+  <lb n="1-2"/>verrivēl uṟṟa tuṇai</seg>
   
   <milestone n="2" unit="column"/>
   <lb n="1-3"/><seg function="title">Iraṅkēcaveṇpā Urai</seg>
@@ -95,15 +95,17 @@
   <ab>
   <pb facs="10" n="[1]r"/>
   
-  <milestone n="1" unit="left-margin"/>
-  <lb n="1"/><seg function="blessing">kaḷivāṇi namas·tu <g ref="#pcl"/></seg>
+    <seg function="header">
+  <seg function="blessing"><milestone n="1" unit="left-margin"/>
+  <lb n="1"/>ka<unclear reason="eccentric_ductus">lai</unclear>vāṇi namas·tu <g ref="#pcl"/></seg>
   
-  <milestone n="2" unit="left-margin"/>
-  <lb n="1"/><seg function="blessing"><gap reason="illegible" quantity="2" unit="character"/> namas·tu <g ref="#pcs"/></seg>
-<lb n="2"/><seg function="blessing">kaḷivāṇi namas·tu=<g ref="#pcl"/></seg>
-  
-  <milestone n="1" unit="column"/>
-  <seg function="colophon"><lb n="1"/>vicuvāvicu {varuṣam} piṟaṭṭāci {mācam} <unclear>8</unclear> {tēti}
+  <seg function="blessing"><milestone n="2" unit="left-margin"/>
+  <lb n="1"/><gap reason="illegible" quantity="2" unit="character"/> namas·tu <g ref="#pcs"/></seg>
+<seg function="blessing"><lb n="2"/>ka<unclear>ḷai</unclear>vāṇi namas·tu=<g ref="#pcl"/></seg>
+  </seg>
+    
+  <seg function="colophon"><milestone n="1" unit="column"/>
+  <lb n="1"/>vicuvāvicu {varuṣam} piṟaṭṭāci {mācam} <unclear>8</unclear> {tēti}
 <lb n="2"/><placeName xml:lang="ta" key="Pondicherry">putuvai</placeName>yil iruk=kum – <persName xml:lang="ta" role="owner">vāttiyār
 <lb n="3"/>rā=macāmi ṉāyakkar</persName> vācikkāniṉṟa
 <lb n="4"/><seg function="TBC"><title xml:lang="ta">Araṅkēcaveṇpā</title> y<pc>-</pc>eṭuttavar
@@ -119,7 +121,7 @@
     <milestone n="3" unit="column" break="no"/>
   <lb n="1"/>ṭi Aṭikkuṟatu y<pc>-</pc>itu yāvarkaḷum
 <lb n="2"/>maṟiyum paṭiyāy ceytu vaippēṉ</seg>
-<lb n="3"/><seg function="blessing">civakiṭāṣcam v<pc>-</pc>uṇṭāka vēṇti
+<seg function="blessing"><lb n="3"/>civakiṭāṣcam v<pc>-</pc>uṇṭāka vēṇti
 <lb n="4" break="no"/>yatu <g ref="#pcs"/></seg> <seg function="blessing">śrīrā=maceya=M=<g ref="#pcs"/></seg> <seg function="blessing">nāṟāyaṇacuvā
 <lb n="5" break="no"/>mi tuṇai y<pc>-</pc>uṇṭākavum</seg></seg>
    
@@ -131,22 +133,24 @@
     
   <pb facs="14" n="[1]r"/>
   
-  <milestone n="1" unit="left-margin"/>
-  <lb n="1"/><seg function="blessing"><term xml:lang="sa">hari Om</term></seg>
-<lb n="2"/><seg function="blessing">naṉṟāka</seg>
-<lb n="3"/><seg function="blessing">kuru vāḻka</seg>                                                 
-<lb n="4"/><seg function="blessing">kuruvē tuṇai</seg>
+    <seg function="header">
+  <seg function="blessing"><milestone n="1" unit="left-margin"/>
+  <lb n="1"/><term xml:lang="sa">hari Om</term></seg>
+<seg function="blessing"><lb n="2"/>naṉṟāka</seg>
+<seg function="blessing"><lb n="3"/>kuru vāḻka</seg>
+      <seg function="blessing"><lb n="4"/>kuruvē tuṇai</seg>
  
-    <milestone n="2" unit="left-margin"/>
-  <lb n="1"/><seg function="title">Araṅkēcaveṇpā</seg>
-<lb n="2-3"/><seg function="blessing">śrīṟaṅkaṉāyakar tuṇai y<pc>-</pc>uṇṭāka vēṇṭiyatu</seg>
+    <seg function="title"><milestone n="2" unit="left-margin"/>
+  <lb n="1"/>Araṅkēcaveṇpā</seg>
+<seg function="blessing"><lb n="2-3"/>śrīṟaṅkaṉāyakar tuṇai y<pc>-</pc>uṇṭāka vēṇṭiyatu</seg>
  
-  <milestone n="3" unit="left-margin"/>
-  <lb n="1-3"/><seg function="blessing">kalaivāṇi namas·tu <g ref="#pcs"/></seg> <seg function="blessing">tuṇai y<pc>-</pc>uṇṭākavum</seg>
+  <seg function="blessing"><milestone n="3" unit="left-margin"/>
+  <lb n="1-3"/>kalaivāṇi namas·tu <g ref="#pcs"/></seg> <seg function="blessing">tuṇai y<pc>-</pc>uṇṭākavum</seg>
+      </seg>
 
-  <milestone unit="main-text-area"/>
-  <lb n="1"/><seg function="satellite-stanza"><lg><l>cīrkoṇṭa kāvēricūḻ teṉṉaṟaṅkat temperumaṉ ~</l> <l>pārkoṇṭat tāḷaip paraviyē ~cīrkoṇṭa</l>
-<lb n="2"/><l>Oṅkupukaḻ vaḷḷuvaṉār rōtukuṟaṉ muṟakkataiyāṟ</l> <l>paraṅku peṟac colvēṉ parintu</l></lg> <g ref="#pcs"/></seg> <seg function="intertitle">kāppu <g ref="#pcs"/></seg> <seg function="completion-statement">mu<sic>ttu</sic>m <g ref="#pcs"/></seg> <seg function="blessing">kalai 
+  <seg function="satellite-stanza"><milestone unit="main-text-area"/>
+  <lg><l><lb n="1"/>cīrkoṇṭa kāvēricūḻ teṉṉaṟaṅkat temperumaṉ ~</l> <l>pārkoṇṭat tāḷaip paraviyē ~cīrkoṇṭa</l>
+<l><lb n="2"/>Oṅkupukaḻ vaḷḷuvaṉār rōtukuṟaṉ muṟakkataiyāṟ</l> <l>paraṅku peṟac colvēṉ parintu <g ref="#pcs"/></l></lg></seg> <seg function="intertitle">kāppu <g ref="#pcs"/></seg> <seg function="completion-statement">mu<sic>ttu</sic>m <g ref="#pcs"/></seg> <seg function="blessing">kalai 
 
    <milestone n="3" unit="right-margin" break="no"/>
   <lb n="1-2"/>vāṇi namas·tu <g ref="#pcs"/></seg>
@@ -157,22 +161,23 @@
     <ab>
 
   <pb facs="20" n="1r"/>
-  
-  <milestone n="1" unit="left-margin"/>
-  <lb n="1-2"/><seg function="blessing">naṉṟāka</seg>
+  <seg function="header">
+  <seg function="blessing"><milestone n="1" unit="left-margin"/>
+  <lb n="1-2"/>naṉṟāka</seg>
  
-    <milestone n="2" unit="left-margin"/>
-  <lb n="1-2"/><seg function="intertitle">vāṉaciṟappu</seg>
+    <seg function="intertitle"><milestone n="2" unit="left-margin"/>
+  <lb n="1-2"/>vāṉaciṟappu</seg>
+    </seg>
    
-  <milestone unit="main-text-area"/>
-  <lb n="1"/><seg function="incipit" type="root-text"><lg><l>coṉṉa kampat tēmaṭaṅkat tōṇṭutalā laṉparuḷat~</l> <l><gap reason="ellipsis"/></l> <l><gap reason="ellipsis"/></l> <l><gap reason="ellipsis"/></l></lg> <g ref="#pcs"/></seg> <seg function="incipit" type="commentary">Eṉṟa<choice><sic>ṟu</sic><corr>tu</corr></choice> <g ref="#pcs"/> <gap reason="ellipsis"/></seg>
+  <seg function="incipit" type="root-text"><milestone unit="main-text-area"/>
+  <lg><l><lb n="1"/>coṉṉa kampat tēmaṭaṅkat tōṇṭutalā laṉparuḷat~</l> <l><gap reason="ellipsis"/></l> <l><gap reason="ellipsis"/></l> <l><gap reason="ellipsis"/> <g ref="#pcs"/></l></lg></seg> <seg function="incipit" type="commentary">Eṉṟa<choice><sic>ṟu</sic><corr>tu</corr></choice> <g ref="#pcs"/> <gap reason="ellipsis"/></seg>
   
    <pb facs="24" n="2r"/>  
-  <milestone n="1" unit="left-margin"/>
-  <lb n="1-2"/><seg function="blessing">naṉṟāka</seg>
+  <seg function="blessing"><milestone n="1" unit="left-margin"/>
+  <lb n="1-2"/>naṉṟāka</seg>
   
   <pb facs="34" n="29v"/>
-    <lb n="5"/><seg function="explicit" type="commentary"><gap reason="ellipsis"/>t<pc>’</pc> eṉṟa v<pc>-</pc>āṟu <g ref="#pcs"/> 51 <g ref="#pcs"/></seg> <seg function="TBC">terintu viḷaiyāṭal <g ref="#pcs"/></seg>
+    <seg function="explicit" type="commentary"><lb n="5"/><gap reason="ellipsis"/>t<pc>’</pc> eṉṟa v<pc>-</pc>āṟu <g ref="#pcs"/> 51 <g ref="#pcs"/></seg> <seg function="TBC">terintu viḷaiyāṭal <g ref="#pcs"/></seg>
   
       </ab>
 </body></text></TEI>
