@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -9,7 +9,7 @@
          
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -21,7 +21,7 @@
                   <idno type="alternate"><idno>Tamoul 410</idno><idno>Ancien fonds 22?</idno></idno>
                </msIdentifier>
                <msContents class="#STM">
-                  <summary>The <title xml:lang="ta">Pañcatantirakkatai</title>, a Tamil version of the <title xml:lang="sa">Pañcatantra</title>.</summary>
+                  <summary><p>The <title xml:lang="ta">Pañcatantirakkatai</title>, a Tamil version of the <title xml:lang="sa">Pañcatantra</title>.</p></summary>
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Pañcatantirakkatai: Mūlam</title><textLang mainLang="tam"/><filiation><p>BnF Indien 409-414.</p></filiation></msItem></msContents>
                <physDesc>
@@ -32,7 +32,7 @@
                            
                         </support>
                         <extent>
-                           <measure unit="folio" quantity="78">[4] + 69 + [5] (u1 + U1 + u2).</measure>
+                           <measure unit="folio" quantity="78">{4} + 69 + {5} (u1 + U1 + u2).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
@@ -51,10 +51,10 @@
                   </objectDesc>
                   <handDesc><handNote synch="#U1" scope="major" script="tamil" medium="ink black"/></handDesc>
                   <decoDesc>
-                  <decoNote synch="#cover" type="decorative" subtype="spine"><desc>Heraldic lillies.</desc></decoNote></decoDesc>
+                  <decoNote type="decorative" subtype="spine"><desc>Heraldic lillies.</desc></decoNote></decoDesc>
                   <additions>
-                  <desc synch="#cover" type="title" subtype="spine"><quote>PANTCHATANTRA KADAI TAMOUL</quote> (Latin transcription).
-</desc><desc synch="#cover" subtype="spine"><quote>DUPLANTE</quote> (binder's name?)</desc><desc synch="#cover" type="shelfmark" subtype="beginning cover">BnF shelfmark sticker: <quote>INDIEN 410</quote> (front cover, verso).</desc><desc synch="#u1" type="shelfmark">BnF shelfmark in black pencil: <quote>Tamoul N° 410</quote> (f[2]r).</desc><desc synch="#u1 U1" type="commenting-note">Indication of the title to be displayed on the spine (inserted and bound in between u1 and U1): <quote><lb n="1"/>Pantchatantra Kadai <lb n="2"/>Tamoul. </quote> (Latin transcription).</desc><desc synch="#U1" type="catchword"/></additions>
+                  <desc type="title" subtype="spine"><quote>PANTCHATANTRA KADAI TAMOUL</quote> (Latin transcription).
+</desc><desc subtype="spine"><quote>DUPLANTE</quote> (binder's name?)</desc><desc type="shelfmark" subtype="beginning cover">BnF shelfmark sticker: <quote>INDIEN 410</quote> (front cover, verso).</desc><desc synch="#u1" type="shelfmark">BnF shelfmark in black pencil: <quote>Tamoul N° 410</quote> (f[2]r).</desc><desc synch="#u1 #U1" type="commenting-note">Indication of the title to be displayed on the spine (inserted and bound in between u1 and U1): <quote><lb n="1"/>Pantchatantra Kadai <lb n="2"/>Tamoul. </quote> (Latin transcription).</desc><desc synch="#U1" type="catchword"/></additions>
                   <bindingDesc>
                      <binding><p>Leather (red). Title and decoration on spine.</p></binding>
                   </bindingDesc>
@@ -78,10 +78,10 @@
       <encodingDesc>
          
       <p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.      </p></encodingDesc>
-      <revisionDesc>
+      
+   <revisionDesc>
          
-      <change when="2021-09">Record created by Emmanuel FRANCIS.</change></revisionDesc>
-   </teiHeader>
+      <change when="2021-09">Record created by Emmanuel FRANCIS.</change></revisionDesc></teiHeader>
    <facsimile>
    </facsimile>
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
