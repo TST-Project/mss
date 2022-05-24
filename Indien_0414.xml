@@ -1,15 +1,15 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader xml:lang="en">
       <fileDesc>
          <titleStmt>
-            <title xml:lang="ta"><term xml:lang="ta">Pañcatantirakkatai</term></title>
+            <title xml:lang="ta"><title xml:lang="ta">Pañcatantirakkatai</title></title>
             <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -19,16 +19,24 @@
                   </repository>
                  <idno type="shelfmark">Indien 414</idno>
                  <idno type="alternate"><idno>Tamoul 414</idno></idno>
-               </msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103938j</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/3x816v37s</idno></msIdentifier>
                
                <msContents class="#STM">
-                  <summary>The <title xml:lang="ta">Pañcatantirakkatai</title>.</summary>
+                  <summary><p>The <title xml:lang="ta">Pañcatantirakkatai</title>.</p>
+<p>Description based on the examination of the original manuscript (July 2020).</p>  <p>Dimensions assessed at the time of examination.</p>   </summary>
                   
                   
                   
                   
                   
-               <msItem synch="#U1" xml:id="T1" defective="false"><title><term xml:lang="en">guard leaf</term></title></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta">Pañcatantirakkatai: <term xml:lang="en">Preface</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T3" defective="false"><title xml:lang="ta">Pañcatantirakkatai: <term xml:lang="en">Invocation</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U4" xml:id="T4" defective="false"><title xml:lang="ta">Pañcatantirakkatai: Mūlam</title><textLang mainLang="tam"/></msItem></msContents>
+               <msItem synch="#U1" xml:id="T1" defective="false"><title><term xml:lang="en">guard leaf</term></title></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta">Pañcatantirakkatai: <term xml:lang="en">Preface</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T3" defective="false"><title xml:lang="ta">Pañcatantirakkatai: <term xml:lang="en">Invocation</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U4" xml:id="T4" defective="false"><title xml:lang="ta">Pañcatantirakkatai: Mūlam</title><textLang mainLang="tam"/><filiation><p><list>
+  <item><ref target="https://tst-project.github.io/mss/Indien_409.xml">BnF Indien 409</ref></item> 
+        <item><ref target="https://tst-project.github.io/mss/Indien_410.xml">BnF Indien 410</ref></item>
+    <item><ref target="https://tst-project.github.io/mss/Indien_411.xml">BnF Indien 411</ref></item>  
+      <item><ref target="https://tst-project.github.io/mss/Indien_412.xml">BnF Indien 412</ref></item>
+      <item><ref target="https://tst-project.github.io/mss/Indien_413.xml">BnF Indien 413</ref></item>
+  </list>
+  </p></filiation></msItem></msContents>
                
                <physDesc>
                   <objectDesc form="pothi">
@@ -37,7 +45,7 @@
                            <measure resp="#cLI" unit="stringhole" quantity="1"/>
                         </support>
                         <extent>
-                           <measure unit="folio" quantity="97">[1] + [1] + 1 + 94 (U1 + U2 + U3 + U4).</measure>
+                           <measure unit="folio" quantity="97">{1} + {1} + 1 + 94 (U1 + U2 + U3 + U4).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
@@ -45,9 +53,9 @@
                            <dimensions type="object" unit="mm"><width quantity="290"/><height quantity="30"/><depth quantity="65"/></dimensions><dimensions type="written" unit="mm"/></extent>
                         <collation>
                            
-                        <desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Double folio. 290 x 25 mm. </desc><desc xml:id="U2">1 folio = <emph rend="bold"><term xml:lang="ta">Pañcatantirakkatai: </term>Preface</emph>. No foliation. Double folio. 290 x 25 mm. 
-</desc><desc xml:id="U3">1 folio = <emph rend="bold"><term xml:lang="ta">Pañcatantirakkatai:</term> Invocation (2 stanzas)</emph>. Tamil foliation 19.
-</desc><desc xml:id="U4">94 folios = <emph rend="bold"><term xml:lang="ta">Pañcatantirakkatai: Mūlam</term></emph>. [1]-68, [1] (unfoliated f.), 69-93. Single folios. 285 x 30 mm. 6-7 lpp.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation>
+                        <desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Double folio. 290 x 25 mm. </desc><desc xml:id="U2">1 folio = <emph rend="bold"><term xml:lang="ta">Pañcatantirakkatai</term>: Preface</emph>. No foliation. Double folio. 290 x 25 mm. 
+</desc><desc xml:id="U3">1 folio = <emph rend="bold"><term xml:lang="ta">Pañcatantirakkatai</term>: Invocation (2 stanzas)</emph>. Tamil foliation 19.
+</desc><desc xml:id="U4">94 folios = <emph rend="bold"><term xml:lang="ta">Pañcatantirakkatai</term>: Text</emph>. {1}-68, <supplied reason="omitted">68<hi rend="superscript">2</hi></supplied> (unfoliated f.), 69-93. Single folios. 285 x 30 mm. 6-7 lpp.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation>
                         <condition>Good state of preservation.</condition>
                      </supportDesc>
                      <layoutDesc>
@@ -56,7 +64,7 @@
                   </objectDesc>
                   <handDesc>                     
                      
-                  <handNote synch="#U2 U3 U4" scope="major" script="tamil" medium="incised"><desc>Several hands.</desc></handNote></handDesc>
+                  <handNote synch="#U2 #U3 #U4" scope="major" script="tamil" medium="incised soot"><desc>Several hands.</desc></handNote></handDesc>
                   <additions> 
                      
                      
@@ -64,7 +72,7 @@
                      
                      
                      
-                  <desc synch="#cover" type="shelfmark" subtype="cover end">BnF shelfmark sticker: <quote>INDIEN 414</quote>.</desc></additions>
+                  <desc synch="#CoverBack" type="shelfmark" subtype="back cover">BnF shelfmark sticker: <quote>INDIEN 414</quote>.</desc></additions>
                   
                   <bindingDesc>
                      <binding>
@@ -77,15 +85,17 @@
                <history>
                   
                   <origin>
-                     <origDate calendar="gregorian">No internal date. </origDate>
+                     <origDate calendar="gregorian" notAfter="1866">No internal date. No internal date. 
+Not dated by Vinson in Vinson et al. (1866-) nor by Cabaton (1912). Not later than first mention in a catalogue.
+</origDate>
                      <origPlace>Tamilnadu.</origPlace>
                   </origin>
                   
                   <acquisition>
                      
-                  </acquisition>
+                  <p>Unknown</p></acquisition>
                   
-               <provenance/></history>
+               <provenance><p>Unknown.</p></provenance></history>
                
                <additional>
                   
@@ -96,7 +106,7 @@
                      
                      
                      
-                     <bibl><title xml:lang="ta">Pañcatantirak Katai</title>. Project Madurai. <title xml:lang="ta">viṣṇu carmā iyaṟṟiya "pañcatantirak katai."</title> <term xml:lang="ta">tamiḻākkam : tāṇṭavarāya mutaliyār.</term> <ref target="https://www.projectmadurai.org/pm_etexts/utf8/pmuni0406.html">https://www.projectmadurai.org/pm_etexts/utf8/pmuni0406.html</ref></bibl><bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f77">p. 59</ref>.</bibl></listBibl>
+                     <bibl><title xml:lang="ta">Pañcatantirak Katai</title>. Project Madurai. <title xml:lang="ta">viṣṇu carmā iyaṟṟiya "pañcatantirak katai."</title> <term xml:lang="ta">tamiḻākkam : tāṇṭavarāya mutaliyār.</term> <ref target="https://www.projectmadurai.org/pm_etexts/utf8/pmuni0406.html">https://www.projectmadurai.org/pm_etexts/utf8/pmuni0406.html</ref></bibl><bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f77">p. 59, no. 414</ref>.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. 1866-. <title> Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f205">f. 95r, no. <del>384</del> 414</ref>. </bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
@@ -104,115 +114,119 @@
       
       <encodingDesc>
          
-         <p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.      </p></encodingDesc>
+         <p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.            </p></encodingDesc>
       
-      <revisionDesc>
+      
+   <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
-         <change when="2021-09">Record created by Emmanuel FRANCIS. </change></revisionDesc>
-   </teiHeader>
+         <change when="2021-09">Record created by Emmanuel FRANCIS. </change><change when="2022-05">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, May 2022.</change></revisionDesc></teiHeader>
    
    <facsimile>
       
-   </facsimile>
+   <graphic url="https://didomena.ehess.fr/concern/data_sets/3x816v37s/manifest.json"/></facsimile>
    
    
 <text synch="#U1" corresp="#T1"><body>
-      
-  <pb n="[1]r"/>
+  <ab>    
+    
+  <pb facs="4" n="[1]r"/>
   
   <lb n="1"/><gap reason="ellipsis"/>
     
-  <pb n="[1]v"/>
+  <pb facs="5" n="[1]v"/>
   
   <lb n="1"/><gap reason="ellipsis"/>
   
+    </ab>
 </body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
-      
-  <pb n="[1]r"/>
+  <ab>
+    
+  <pb facs="7" n="[1]r"/>
   
-  <milestone unit="left-margin"/>
-  <lb n="1"/><seg function="title">pañcatan
+  <seg function="title"><milestone unit="left-margin"/>
+  <lb n="1"/>pañcatan
   <lb n="2" break="no"/>tirakkatai</seg>
     
-    <milestone unit="main-text-area"/>
-  <lb n="1"/><seg function="incipit">tiru vaḷara</seg> <gap reason="ellipsis"/>
+    <seg function="incipit"><milestone unit="main-text-area"/>
+  <lb n="1"/>tiru vaḷara</seg> <gap reason="ellipsis"/>
   <lb n="2"/><gap reason="ellipsis"/>
   <lb n="3"/><gap reason="ellipsis"/>
   <lb n="4"/><gap reason="ellipsis"/>
   
-  <pb n="[1]v"/>
+  <pb facs="11" n="[1]v"/>
   <lb n="1"/><gap reason="ellipsis"/>
-  <lb n="2"/><seg function="explicit">ṉālāvatu Attaṉācam Añcāvatu cāmpiṟāṣcikam</seg> <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/> <seg function="blessing">tirucciṟṟampalam</seg> <g ref="#pcs"/> <seg function="blessing">kuru vāḻka</seg> <g ref="#pcs"/>
+  <seg function="explicit"><lb n="2"/>ṉālāvatu Attaṉācam Añcāvatu cāmpiṟāṣcikam <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/></seg> <seg function="blessing">tirucciṟṟampalam <g ref="#pcs"/></seg> <seg function="blessing">kuru vāḻka <g ref="#pcs"/></seg>
   
+        </ab>
 </body></text><text synch="#U3" corresp="#T3" xml:lang="ta"><body>
-      
-  <pb n="19r"/>
-  
-  <lb n="1"/><seg function="invocation"><seg function="incipit">vēka māṉeṟi cērum viṉaikaḷun ‡</seg> tāka pōkam viṭāta taḷarcciyuñ ‡ cōka vāriyi ṉālvaru
-  <lb n="2"/>tuṉpamum ‡ pōka vāṉai mukattaṉaip pōṟṟuvām ‡‡</seg> <g ref="#pcs"/> <seg function="blessing">kuru vāḻka</seg> <g ref="#pcs"/> <seg function="TBC">ṉālumulaip <gap reason="ellipsis"/>
+  <ab>
+    
+    <pb facs="14" n="19r"/>
+    <seg function="invocation"><seg function="incipit">
+    <lg><l><lb n="1"/>vēka māṉeṟi cērum viṉaikaḷun</l> <l>tāka pōkam viṭāta taḷarcciyuñ</l> <l>cōka vāriyi ṉālvaru
+  <lb n="2"/>tuṉpamum</l> <l>pōka vāṉai mukattaṉaip pōṟṟuvām <g ref="#pcs"/></l></lg></seg></seg> <seg function="blessing">kuru vāḻka <g ref="#pcs"/></seg> <seg function="explicit">ṉālumulaip <gap reason="ellipsis"/>
   <lb n="3"/><gap reason="ellipsis"/>
-  <lb n="4"/><gap reason="ellipsis"/> <seg function="explicit">karumpu</seg></seg> <g ref="#pcl"/>
+  <lb n="4"/><gap reason="ellipsis"/> karumpu <g ref="#pcl"/></seg>
     
   <pb n="19v"/><note xml:lang="en">blank</note>
-  
+  </ab>
 </body></text><text synch="#U4" corresp="#T4" xml:lang="ta"><body>
-      
-  <pb n="[1]r"/>
-  
-  <milestone unit="left-margin"/>
-  <lb n="1"/><seg function="blessing">hari O<seg rend="grantha">m</seg></seg>
-<lb n="2"/><seg function="blessing">naṉṟāka</seg> <g ref="#pcs"/>
-<lb n="3"/><seg function="title">pañcatanti
-<lb n="4" break="no"/>rakkatai</seg> <g ref="#pcs"/>
-<lb n="5"/><seg function="intertitle">mittirapēta
-<lb n="6" break="no"/>kkatai</seg> <g ref="#pcs"/>
+     <ab>
+  <pb facs="18" n="[1]r"/>
+  <seg function="header">
+  <seg function="blessing"><milestone unit="left-margin"/>
+  <lb n="1"/>hari O<seg rend="grantha">m</seg></seg>
+<seg function="blessing"><lb n="2"/>naṉṟāka <g ref="#pcs"/></seg>
+<seg function="title"><lb n="3"/>pañcatanti
+<lb n="4" break="no"/>rakkatai <g ref="#pcs"/></seg>
+<seg function="intertitle"><lb n="5"/>mittirapēta
+<lb n="6" break="no"/>kkatai <g ref="#pcs"/></seg>
+    </seg>
     
-    <milestone unit="main-text-area"/>
-    <lb n="1"/><seg function="incipit">mētiṉi</seg> <gap reason="ellipsis"/>
+    <seg function="incipit"><milestone unit="main-text-area"/>
+    <lb n="1"/>mētiṉi <gap reason="ellipsis"/></seg> 
   
-  <pb n="37r"/>
-  <lb n="4"/><gap reason="ellipsis"/> piṟāṉē <g ref="#pcs"/> <g ref="#pcs"/> 2<g ref="#nūṟu"/>13 <g ref="#pcs"/> <seg function="blessing">tirucciṟṟampalam</seg> <g ref="#pcs"/> <seg function="completion-statement">mittirapētakka
-<lb n="5" break="no"/>tai muṭintatu muṟṟum</seg> <g ref="#pcs"/> <g ref="#pcs"/> <seg function="blessing">piṟaiyuḷaṉātaṉ <unclear>ti</unclear>ruvaṭi vāḻka</seg> <g ref="#pcs"/> <g ref="#pcs"/> <seg function="blessing">tirucciṟṟampalam</seg> <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/>
+  <pb facs="23" n="37r"/>
+  <lb n="4"/><gap reason="ellipsis"/> piṟāṉē <g ref="#pcs"/> <g ref="#pcs"/> 2<g ref="#nūṟu"/>13 <g ref="#pcs"/> <seg function="blessing">tirucciṟṟampalam <g ref="#pcs"/></seg> <seg function="completion-statement">mittirapētakka
+<lb n="5" break="no"/>tai muṭintatu muṟṟum <g ref="#pcs"/> <g ref="#pcs"/></seg> <seg function="blessing">piṟaiyuḷaṉātaṉ <unclear>ti</unclear>ruvaṭi vāḻka <g ref="#pcs"/> <g ref="#pcs"/></seg> <seg function="blessing">tirucciṟṟampalam <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/></seg>
 
-      <pb n="38r"/>
-  <milestone unit="left-margin"/>
-  <lb n="1-3"/><seg function="intertitle">reṇ<sic>ṟā</sic>vatu cukkiṟalāpakkatai <g ref="#pcs"/> <g ref="#pcs"/>
+      <pb facs="26" n="38r"/>
+  <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1-3"/>reṇ<sic>ṟā</sic>vatu cukkiṟalāpakkatai <g ref="#pcs"/> <g ref="#pcs"/>
 </seg>
   
-  <pb n="51r"/>
-  <lb n="2"/><gap reason="ellipsis"/> <g ref="#pcs"/> 8<g ref="#pattu"/>7 <g ref="#pcs"/> <seg function="blessing">tirucciṟṟampalam</seg> <g ref="#pcs"/> cukkiṟa<sic>la</sic>pakkatai mu<sic>tt</sic>um <g ref="#pcs"/> <g ref="#pcl"/>
-  <lb n="3"/><seg function="colophon">Itu Eḻutiṉatu piccāṇti</seg> <g ref="#pcl"/>
+  <pb facs="26" n="51r"/>
+  <lb n="2"/><gap reason="ellipsis"/> <g ref="#pcs"/> 8<g ref="#pattu"/>7 <g ref="#pcs"/> <seg function="blessing">tirucciṟṟampalam <g ref="#pcs"/></seg> <seg function="completion-statement">cukkiṟa<sic>la</sic>pakkatai mu<sic>tt</sic>um <g ref="#pcs"/> <g ref="#pcl"/>
+  <lb n="3"/>Itu Eḻutiṉatu piccāṇti <g ref="#pcl"/></seg>
 
-      <pb n="52r"/>
-  <milestone unit="left-margin"/>
-  <lb n="1-6"/><seg function="intertitle">mūṉṟāvatu cantivikkiṟakakkatai <g ref="#pcs"/>
-</seg>
+      <pb facs="32" n="52r"/>
+  <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1-6"/>mūṉṟāvatu cantivikkiṟakakkatai <g ref="#pcs"/></seg>
   
-  <pb n="74v"/>
-  <lb n="7"/><gap reason="ellipsis"/> <g ref="#pcs"/> <g ref="#nūṟu"/>4<g ref="#pattu"/> <g ref="#pcs"/> <seg function="blessing">tirucciṟṟampala<seg rend="grantha">m·</seg></seg> <seg function="blessing">kuruvē tuṇai</seg> <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/> <seg function="blessing">tēvicakāyam</seg> <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/>
+  <pb facs="37" n="74v"/>
+  <lb n="7"/><gap reason="ellipsis"/> <g ref="#pcs"/> <g ref="#nūṟu"/>4<g ref="#pattu"/> <g ref="#pcs"/> <seg function="blessing">tirucciṟṟampala<seg rend="grantha">m·</seg></seg> <seg function="blessing">kuruvē tuṇai <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/></seg> <seg function="blessing">tēvicakāyam <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/></seg>
   
-    <pb n="75r"/>
-  <milestone unit="left-margin"/>
-  <lb n="1"/><seg function="intertitle">ṉālāvatu Aṟttaṉakkatai <g ref="#pcs"/>
-</seg>
+    <pb facs="40" n="75r"/>
+  <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1"/>ṉālāvatu Aṟttaṉakkatai <g ref="#pcs"/></seg>
   
-    <pb n="81r"/>
-  <milestone unit="left-margin"/>
-  <lb n="1"/><seg function="blessing">civamaya<seg rend="grantha">m·</seg></seg>
+    <pb facs="43" n="81r"/>
+  <seg function="blessing"><milestone unit="left-margin"/>
+  <lb n="1"/>civamaya<seg rend="grantha">m·</seg></seg>
   
-  <pb n="82r"/>
-  <lb n="3"/> <gap reason="ellipsis"/> <g ref="#pcs"/> 42 <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/> <seg function="completion-statement">Aṟttaṉācakkatai muṟṟum</seg> <g ref="#pcs"/> <seg function="blessing">tirucciṟṟampalam</seg> <g ref="#pcs"/> <seg function="blessing">civamaya<seg rend="grantha">m·<sic>m·m·</sic></seg> </seg>
+  <pb facs="44" n="82r"/>
+  <lb n="3"/> <gap reason="ellipsis"/> <g ref="#pcs"/> 42 <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/> <seg function="completion-statement">Aṟttaṉācakkatai muṟṟum <g ref="#pcs"/></seg> <seg function="blessing">tirucciṟṟampalam <g ref="#pcs"/></seg> <seg function="blessing">civamaya<seg rend="grantha">m·<sic>m·m·</sic></seg></seg>
     
-  <pb n="83r"/>
-  <milestone unit="left-margin"/>
-  <lb n="1-5"/><seg function="intertitle">Añcāvatu campiṟāṣcikakatai
+  <pb facs="48" n="83r"/>
+  <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1-5"/>Añcāvatu campiṟāṣcikakatai
 </seg>
   
-  <pb n="93r"/>
-    <lb n="4"/><seg function="explicit"><gap reason="ellipsis"/></seg>
-  <lb n="5"/>6<g ref="#pattu"/> <g ref="#pcs"/> <seg function="blessing">tirucciṟṟampalam</seg> <seg function="completion-statement">campiṟāṣcikatai muṭintatu muṟṟum</seg> <g ref="#pcs"/> <seg function="total-stanzas total-chapters">{Āka} katai 5k=ku virut=ta=M <vacat/></seg>
+  <pb facs="53" n="93r"/>
+    <seg function="explicit"><lb n="4"/><gap reason="ellipsis"/></seg>
+  <lb n="5"/>6<g ref="#pattu"/> <g ref="#pcs"/> <seg function="blessing">tirucciṟṟampalam</seg> <seg function="completion-statement">campiṟāṣcikatai muṭintatu muṟṟum <g ref="#pcs"/></seg> <seg function="total-stanzas total-chapters">{Āka} katai 5k=ku virut=ta=M</seg>
   
     <pb n="93v"/><note xml:lang="en">blank</note>
 
-  
+  </ab>
 </body></text></TEI>
