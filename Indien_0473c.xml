@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="ta"><title xml:lang="ta">Ñāṉavuṇartuttal</title></title>
+            
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2022</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Indien 473</idno>
+                  <idno type="alternate"><idno>Tamoul 473</idno></idno>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc104002g</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b52509729z</idno></msIdentifier>
+               <msContents class="#STM">
+                  <summary><p>The <title xml:lang="ta">Ñāṉavuṇartuttal</title></p>      </summary>
+                  
+               <msItem synch="#U2" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta">Mūlam</title><textLang mainLang="tam"/></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="pothi">
+                     <supportDesc material="palm-leaf">
+                        <support>
+                           <measure unit="stringhole" quantity="2"/>
+                           
+                        </support>
+                        <extent>
+                           <measure unit="folio" quantity="90">{2} + {1} + {87} (U1 + U2 + U3).</measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           <width quantity="335"/><height quantity="30"/></dimensions>
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
+                        <collation><desc xml:id="U1">2 folios = <emph rend="bold">guard leaves</emph>. Blank recto vers0.</desc><desc xml:id="U2">1 folio = <emph rend="bold">Title Page</emph>. No foliation.</desc><desc xml:id="U3">87 folios = <emph rend="bold"><title xml:lang="ta">Ñāṉavuṇartuttal</title></emph>. Tamil foliation 1-87.</desc></collation>
+                        
+                        
+                     <condition>Very good state of preservation, minimal damage.</condition></supportDesc>
+                     <layoutDesc>
+                        <layout writtenLines="5"/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc><handNote synch="#U2" scope="minor" script="tamil"/><handNote synch="#U3" scope="major" script="tamil"/></handDesc>
+                  <decoDesc>
+                  </decoDesc>
+                  <additions>
+                  </additions>
+                  <bindingDesc>
+                     <binding/>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian"/>
+                     
+                  <origPlace>Tamilnadu.</origPlace></origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f86">p. 67, no. 473</ref>.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. 1866-. <title>Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f231">f. 108r, no. <del>436</del> 473</ref>. </bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         
+      <p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.            </p></encodingDesc>
+      
+   <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
+         
+      <change when="2022-05">Record created by Emmanuel FRANCIS.</change></revisionDesc></teiHeader>
+   <facsimile>
+   <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b52509729z/manifest.json" facs="119"/></facsimile>
+<text synch="#U2" corresp="#T1" xml:lang="ta"><body>
+  <ab>
+    
+    <pb n="[1]r" facs="123"/>
+    
+  <milestone n="1" unit="column"/>
+    <lb n="1"/><g ref="#latin_cross"/>
+    
+    <seg function="blessing"><milestone n="2" unit="column"/>
+    <lb n="1-2"/>Aṉāti namas tu</seg>
+        
+     <seg function="title"><milestone n="3" unit="column"/>
+    <lb n="1-2"/>ñāṉavuṇarttutal =</seg>
+       <lb n="3"/>= <g ref="#pattu"/>4 = <gap reason="ellipsis"/>
+       <lb n="4"/><gap reason="ellipsis"/>
+       <lb n="5"/><gap reason="ellipsis"/>
+    
+       <milestone n="4" unit="column"/>
+    <lb n="1-2"/><gap reason="ellipsis"/>
+    
+        <pb n="[1]v" facs="124"/><note xml:lang="en">drawings; unblackened</note>
+    
+    </ab>
+  </body></text><text synch="#U3" corresp="#T2" xml:lang="ta"><body>
+  <ab>
+    
+    <pb n="1r" facs="125"/>
+    
+  <milestone n="1" unit="left-margin"/>
+    <lb n="1"/><g ref="#latin_cross"/>
+           
+    <seg function="blessing"><milestone n="2" unit="left-margin"/>
+    <lb n="1-2"/><supplied reason="lost">A</supplied>ṉāti namas tu</seg>
+       
+    <milestone n="3" unit="left-margin"/>
+    <lb n="1"/>ñāṉavuṇarttutal
+       <lb n="2"/><gap reason="ellipsis"/>
+       <lb n="3"/><gap reason="ellipsis"/>
+       <lb n="4"/>Aṟṟumattiṉ ñāṉa
+       <lb n="5" break="no"/>mpikai
+    
+       <milestone unit="main-text-area"/>
+    <lb n="1"/><gap reason="ellipsis"/>
+    
+        <pb n="87v" facs="300"/>
+    <lb n="1"/><gap reason="ellipsis"/> 
+       <lb n="2"/><gap reason="ellipsis"/> collavu=M <g ref="#pcl"/> ñāṉavuṇart=tutal muṟṟum <g ref="#pcl"/> 
+       <lb n="3"/><g ref="#āyiram"/>8<g ref="#nūṟu"/>5 Āṇṭuk=ku Aṭut=ta puraṭṭāci {mācam} {mutal} {tēti} caṉivāram at=tiyāṉam Upāt=tiyār  mariya
+       <lb n="4" break="no"/>cavari Eḻuti mukintatu muṟṟum . Inta cuvaṭi y<pc>-</pc>eṭuttavarkaḷ cuvāmi-mukattaip pāt=tu
+    <lb n="5"/>kuṭuttu viṭavu=M <g ref="#pcl"/>
+    
+    
+    </ab>
+  </body></text></TEI>
