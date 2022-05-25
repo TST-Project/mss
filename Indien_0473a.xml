@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="ta"><title xml:lang="ta">Vīramāmuṉivar Carittiravaralāṟu</title></title>
+            
+         <editor><persName>Neela BHASKAR</persName><orgName>Universität Hamburg</orgName></editor><editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2022</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Indien 473</idno>
+                  <idno type="alternate"><idno>Tamoul 473</idno></idno>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc104002g</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b52509729z</idno></msIdentifier>
+               <msContents class="#MTM">
+                  <summary><p>A multi-text manuscript containing:
+  
+  <list rend="numbered">
+    <item>The <title xml:lang="ta">Vīramāmuṉivar Carittiravaralāṟu</title> (U1). A prose history of Constantius Joseph Beschi, or <persName xml:lang="ta">Vīramāmuṉivar</persName>, composed in 1825 (according to the title). Incomplete.</item>
+    <item>The *** (U2).</item></list></p></summary>
+                  
+               <msItem synch="#U1a" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U1b" xml:id="T2" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U1c" xml:id="T3" defective="true" class="#katai"><title xml:lang="ta">Vīramāmuṉivar Carittiravaralāṟu</title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T4" defective="false"><title xml:lang="ta">Vīramāmuṉivar Caritaippuṟaṉaṭai</title><textLang mainLang="tam"/></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="pothi">
+                     <supportDesc material="palm-leaf">
+                        <support>
+                           <measure unit="stringhole" quantity="2"/>
+                           
+                        </support>
+                        <extent>
+                           <measure unit="folio" quantity="43">{1} + {1} + 30 + 11 (U1a + U1b + U1c + U2).</measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           <width quantity="335"/><height quantity="30"/></dimensions>
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
+                        <collation><desc xml:id="U1a">1 folio = <emph rend="bold"><title xml:lang="ta">Vīramāmuṉivar Carittira-varalāṟu</title>: Title Page</emph>. No foliation.</desc><desc xml:id="U1b">1 folio = <emph rend="bold"><title xml:lang="ta">Vīramāmuṉivar Carittira-varalāṟu</title>: TBC</emph>. No foliation.</desc><desc xml:id="U1c">30 folios = <emph rend="bold"><title xml:lang="ta">Vīramāmuṉivar Carittira-varalāṟu</title>: Text</emph>. Tamil foliation 1-30.</desc><desc xml:id="U2">11 folios = <emph rend="bold"><title xml:lang="ta">Vīramāmuṉivar Caritaippuṟaṉaṭai</title>: Text</emph>. Tamil foliation 31-41.</desc></collation>
+                        
+                        
+                     <foliation>Tamil numerals on left margin. Chronological and consistent. Last folio points to another chapter that is now lost. The title of the text is provided on the left margin a second time in Recto 6 (Tamil numeral <locus facs="15">folio [recto] 4</locus>)</foliation><condition>Very good state of preservation, minimal damage.</condition></supportDesc>
+                     <layoutDesc>
+                        <layout writtenLines="5"/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc><handNote synch="#U1a" scope="minor" script="tamil"><desc>Hand #1.</desc></handNote><handNote synch="#U1b #U1c #U2" scope="major" script="tamil" scriptRef="#tamilPulliNone #tamilRa #tamilOE" medium="black soot"><desc>Hand #2.</desc></handNote></handDesc>
+                  <decoDesc>
+                  </decoDesc>
+                  <additions>
+                  </additions>
+                  <bindingDesc>
+                     <binding/>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian" notBefore="1825">Text is dated to 1825 in the title. </origDate>
+                     
+                  <origPlace>Tamilnadu.</origPlace></origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f86">p. 67, no. 473</ref>.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. 1866-. <title>Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f231">f. 108r, no. <del>436</del> 473</ref>. </bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         
+      <p>According to Tamil Lexicon conventions.</p></encodingDesc>
+      
+   <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
+         
+      <change when="2021-10">First version.</change><change when="2022-05">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, May 2022.</change></revisionDesc></teiHeader>
+   <facsimile>
+   <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b52509729z/manifest.json" facs="5"/></facsimile>
+<text synch="#U1a" corresp="#T1" xml:lang="ta"><body>
+  <ab>
+    
+    <pb n="[1]r" facs="5"/>
+        
+    <seg function="title">
+    <lb n="1"/>vīramamunivar
+    <lb n="2"/>carittiravaralāṟu</seg>
+    
+        <pb n="[1]r" facs="6"/>
+    
+    </ab>
+  </body></text><text synch="#U1b" corresp="#T2" xml:lang="ta"><body>
+  <ab>
+    
+    <pb n="[1]r" facs="7"/>
+    
+    <milestone n="1" unit="column"/><note xml:lang="en">unblackened</note>
+    <lb n="1"/><g ref="#latin_cross"/>
+    
+    <seg function="blessing"><milestone n="2" unit="column"/><note xml:lang="en">unblackened</note>
+    <lb n="1-2"/>Aṉāti namas tu</seg>
+        
+    <milestone n="3" unit="column"/>
+    <lb n="1"/>
+    
+    <milestone n="4" unit="column"/>
+    <lb n="1"/>
+    
+        <pb n="[1]v" facs="7"/><note xml:lang="en">blank</note>
+
+    </ab>
+  </body></text><text synch="#U1c" corresp="#T3" xml:lang="ta"><body>
+  <ab>
+    
+    <pb n="1r" facs="9"/>
+    
+    <milestone unit="left-margin"/>
+     <lb n="1"/>
+    
+    <seg function="incipit"><milestone unit="main-text-area"/>
+     <lb n="1-5"/>
+Īnti tēcattukku vantiruntu camaskirutamun tamiḻum campūraṇamāyuṇarntu ittēcattup pūrvaviruttāntaṅkaḷaiyum paṟpalakkalaikariyāṉaṅkaḷaiyumārāyntaṟintu vīramāmuṉivaralatiṉpāṉ kūṭiyilē mūtivaittirunta centamiḻilakkaṇattai iṅkīlīcu pāṣātirappaṭutti yaccuppatikkum paṭi ceṉṉaic caṅkattukkut tantu mīḷavum</seg>  
+
+    <pb n="30r" facs="67"/>
+    <seg function="explicit"><lb n="6"/><gap reason="ellipsis"/>paralō
+    
+      <pb n="30v" facs="68" break="no"/>
+      <lb n="1"/>ka iṉpa veḷḷattiṟṟuḷaintu viḷaiyāṭumpaṭi āṟṟaṟkariyamu<unclear>m</unclear> paṟacituṉpaveḷḷāttili<unclear>ru</unclear>ntu varuntiya <lb n="2"/>cīvakāruṇṇiyapārākiya vīramāmuṉivarāl Appā lōkattai Alaṅkarikka <g ref="#āyiram"/>7<g ref="#nūṟu"/>4<g ref="#pattu"/>2m Āṇṭu Āṇṭa
+      <lb n="3" break="no"/>varukkut tiruviḷam āyiṟṟu <g ref="#pcls"/></seg>
+
+    </ab>
+</body>
+
+</text><text synch="#U2" corresp="#T4" xml:lang="ta"><body>
+  <ab>
+    
+    <pb n="31r" facs="69"/>
+        
+    <seg function="title"><milestone unit="left-margin"/>
+    <lb n="1-3"/>vīramamunivar caritaippuṟaṉaṭai</seg>
+    
+        <milestone unit="main-text-area"/>
+<lb n="1"/>
+    
+        <pb n="41v" facs="90"/>
+    <lb n="1"/>
+    
+    </ab>
+  </body></text></TEI>
