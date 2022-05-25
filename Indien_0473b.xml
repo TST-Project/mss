@@ -38,7 +38,7 @@
                               
                            <width quantity="335"/><height quantity="30"/></dimensions>
                         <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
-                        <collation><desc xml:id="U1">1 folio = <emph rend="bold">Title Page</emph>. No foliation. Verso blank.</desc><desc xml:id="U2">12 folios = <emph rend="bold"><title xml:lang="ta">Vāmaṉacarittiram</title></emph>. Tamil foliation 1-12.</desc><desc xml:id="U3">1 folio = <emph rend="bold">guard leaf</emph>. No foliation.</desc></collation>
+                        <collation><desc xml:id="U1">1 folio = <emph rend="bold">Title Page</emph>. No foliation. Verso blank.</desc><desc xml:id="U2">12 folios = <emph rend="bold"><title xml:lang="ta">Vāmaṉacarittiram</title></emph>. Tamil foliation 1-12.</desc><desc xml:id="U3">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Several drawings.</desc></collation>
                         
                         
                      <condition>Very good state of preservation, minimal damage.</condition></supportDesc>
@@ -48,7 +48,8 @@
                   </objectDesc>
                   <handDesc/>
                   <decoDesc>
-                  </decoDesc>
+                  <decoNote synch="#U3" type="drawing"><desc>Drawings on <locus facs="117">f[1]r</locus> and <locus facs="118">f[1]v</locus>.
+</desc></decoNote></decoDesc>
                   <additions>
                   </additions>
                   <bindingDesc>
@@ -97,8 +98,8 @@
        <milestone n="4" unit="column"/>
     <lb n="1-3"/>vāma<subst><del>ṇ</del><add>ṉ</add>a</subst>carittiram
     </seg>
-    
-            <pb n="[1]v" facs="92"/><note xml:lang="en">blank</note>                                      
+
+    <pb n="[1]v" facs="92"/><note xml:lang="en">blank</note>                                      
     </ab>
   </body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
   <ab>
@@ -112,11 +113,15 @@
     <lb n="1-3"/>vāmaṉacarittiram
     </seg>
     
-    <milestone unit="main-text-area"/>
-    <lb n="1"/>
-    
-            <pb n="12v" facs="116"/>
-        <lb n="1"/>
+    <seg function="incipit"><milestone unit="main-text-area"/>
+    <lb n="1"/>kuḷirnta niḻavai vīci yicci <gap reason="ellipsis"/></seg>
+
+    <pb n="12v" facs="116"/>
+    <seg function="explicit"><lb n="1"/><gap reason="ellipsis"/>
+    <lb n="2"/>pōṉaṉ ~</seg> <seg function="colophon"><seg function="completion-statement">muṟṟum <g ref="#pcl"/></seg>
+    <lb n="3"/><g ref="#āyiram"/>8<g ref="#nūṟu"/>2<g ref="#pattu"/>9 Āṇṭu māṟcu {mācam} ~ 3 {tēti}
+    <lb n="4"/>cevvāykiḻamai Eḻutiṉatu
+    <lb n="5"/>mukintatu muṟṟum</seg>
 
     </ab>
   </body></text></TEI>
