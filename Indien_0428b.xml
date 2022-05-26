@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="ta">Tēr Ūrnta Cōḻaṉ Carittiram</title>
+            
+         <editor><persName>Neela BHASKAR</persName><orgName>Universität Hamburg</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2022</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Indien 428b</idno>
+                  <idno type="alternate"/>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1039556</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b52516586m</idno><idno type="URI">gallica.bnf.fr/ark:/12148/btv1b10091165w</idno></msIdentifier>
+               <msContents class="#STM">
+                  <summary><p>This is a prose work on the military exploits of a successful <term xml:lang="ta">Cōḻā</term> king. This manuscript is incomplete, because: 1) the final lines are abrupt, and 2) there are no verses of exaltation to be found in the end, which would be expected of such a work. In the story, the <term xml:lang="ta">Cōḻā</term> king is betrayed by his ministers, and Lord <term xml:lang="ta">Murukaṉ</term> helps him seek revenge. The result is that he is sucessful against a battle. One <term xml:lang="ta">kāppu</term> verse is present as the invocation.</p></summary>
+                  
+               <msItem defective="true" class="#katai"><title xml:lang="ta">Tēr Ūrnta Cōḻaṉ Carittiram</title><textLang mainLang="tam"/><explicit xml:lang="ta-Taml"><milestone n="24v" facs="101"/>எப்படி கொலைப்போடுறொமென்று திடுதிடெனத் தேரிலேரித் தன்னிட அரையிலே யிருந்த சீரரவை யுருவி குத்திக்கொண்டு உரட்டியை யறுத்து பசுதுக்கு முனார்க விழுந்தான். அப்போ குமாரனும் நம்மைக் கொல்ல மாட்டாமல் மந்திரிகரன் குத்திக்கொண்டு செத்தான் என்றுமிருதாகத் துக்கித்து யின்னம் யென்னபாடுபட்டபோறோமெ? யிண்ணைக்கி ஆரமுகத்திலே விழித்தேமென்று மயங்கிப் போய் நின்றான். மந்திரிசெத்த விஷேய.  </explicit></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="pothi">
+                     <supportDesc material="palm-leaf">
+                        <support>
+                           <measure unit="stringhole" quantity="1"/>
+                           
+                        </support>
+                        <extent>
+                           <measure unit="folio" quantity="27">No guard folio at the end, 5 blank folios in the end.</measure>
+                           <dimensions type="leaf" unit="mm">
+                              <width quantity="430"/>
+                              <height quantity="25"/>
+                           </dimensions>
+                        <dimensions type="object" unit="mm"><depth quantity="60"/></dimensions><dimensions type="written" unit="mm"><width min="310" max="360"/><height quantity="20"/></dimensions></extent>
+                        <collation><desc>No chapter distribution. <term xml:lang="ta">Kāppu</term> (blessing verse) in the very beginning, after which the story begins. </desc></collation>
+                        
+                        
+                     <foliation>Tamil numerals that are chronological  up to number <q xml:lang="ta">9</q>. After that, there is an approximate chronology, but some numbers are wrong. It is difficult to confirm whether some folios have been switched or interchanged, because the style of writing is in smaller columns, and no one sentence goes on to the next folio.</foliation><condition>Good state of preservation, minimal damage</condition></supportDesc>
+                     <layoutDesc>
+                        <layout columns="3" writtenLines="4">The entire leaf is not used to write. As the manuscript is very thin and long, the columns have been made, presumably for ease of reading. The several blank folios in the end may suggest the end of the text, even though the story ends rather abruptly. Unsure. Effort taken into making the columns even, because the last characters of each line (<term xml:lang="ta">aṭi</term>) are aligned to each other. Sometimes up to 5 columns.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc><handNote scope="sole" scriptRef="#tamilPulliNone"><desc>Definitely a different scribe from <ref target="Indien_0428_1.xml">BnF Indien 428.1</ref>. Neat handwriting. Difficult to differentiate <q xml:lang="ta">ṟ</q> and <q xml:lang="ta">r</q>.</desc></handNote></handDesc>
+                  <decoDesc>
+                  </decoDesc>
+                  <additions>
+                  <desc type="blessing" subtype="title-page left"><q xml:lang="ta">veṟṟivēluṟṟa tuṇai</q> in the <locus facs="72">very beginning</locus>, in the title folio.</desc></additions>
+                  <bindingDesc>
+                     <binding><p>Only one string-hole, 150-155 mm from left edge.</p></binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian"/>
+                     
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits   indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b103 29763p/f79">p. 61</ref>.</bibl><bibl>Rosny, Léon de (1868). <title type="article">La bibliothèque tamoule de M. Ariel, de Pondichéry.</title> In: <title>Variétés orientales</title> (pp. 177‒224). Paris: Maisonneuve.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         
+      <p>I differentiate between e and ē, and o and ō. I also use the kāl for 'ra' as it is represented so in the manuscript. Transliterations according to Tamil Lexicon conventions.</p></encodingDesc>
+      
+   <revisionDesc>
+         
+      <change when="2021-10">First version.</change></revisionDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
+   <facsimile>
+   <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b52516586m/manifest.json" facs="72"/></facsimile>
+<text><body>
+  <ab>
+    
+    <milestone n="2r" facs="75"/>ippaṭi periyavarkaḷ makattukkaḷ tapotaṉarkaḷ tīṭakatarkaḷ purokitarkaḷ catturukkaḷuṭaṉē campāஷṇam paṇṇikkoṇṭu yirukkuṟa vēḷaiyile kāmattuppāleṉṟu tamiḻukku vētamāyirukkum collappaṭṭateṉṟu vaḷḷuvar aruṭpāl collak kēṭṭu poruṭpāl appaṭiyō veṉṟu<gap reason="ellipsis"/>
+    
+    
+    <milestone n="24v" facs="101"/>eppaṭi kolaippōṭuṟomeṉṟu tiṭutiṭeṉat tērilērit taṉṉiṭa araiyilē yirunta cīraravai yuruvi kuttikkoṇṭu uraṭṭiyai yaṟuttu pacutukku muṉārka viḻuntāṉ. appō kumāraṉum nammaik kolla māṭṭāmal mantirikaraṉ kuttikkoṇṭu cettāṉ eṉṟumirutākat tukkittu yiṉṉam yeṉṉapāṭupaṭṭapōṟōme? yiṇṇaikki āramukattilē viḻittēmeṉṟu mayaṅkip pōy niṉṟāṉ. mantiricetta viஷேya.  
+    
+    </ab>
+  </body></text></TEI>
