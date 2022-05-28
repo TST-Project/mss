@@ -17,13 +17,13 @@
                   <repository>
                      <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
                   </repository>
-                  <idno type="shelfmark">Indien 473</idno>
-                  <idno type="alternate"><idno>Tamoul 473a</idno></idno>
+                  <idno type="shelfmark">Indien 473a</idno>
+                  <idno type="alternate"><idno>Tamoul 473</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc104002g</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b52509729z</idno></msIdentifier>
                <msContents class="#MTM">
                   <summary><p>A multi-text manuscript containing:
     <list rend="numbered">
-    <item>The <title xml:lang="ta">Vīramāmuṉivar Carittiravaralāṟu</title> (U1). A prose history of Constantius Joseph Beschi, or <persName xml:lang="ta">Vīramāmuṉivar</persName>, composed in 1825 (according to the title). Incomplete.</item>
+    <item>The <title xml:lang="ta">Vīramāmuṉivar Carittiravaralāṟu</title> (U1). A prose history of <persName xml:lang="en">Constantius Joseph Beschi</persName>, or <persName xml:lang="ta">Vīramāmuṉivar</persName>, composed in 1825 (according to the title). Incomplete.</item>
     <item>The <title xml:lang="ta">Vīramamunivar Caritaippuṟaṉaṭai</title> (U2).</item></list></p></summary>
                   
                <msItem synch="#U1a" xml:id="T1" defective="false"><title xml:lang="ta">Vīramāmuṉivar Carittiravaralāṟu: <term xml:lang="en">Title Page</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U1b" xml:id="T2" defective="false"><title xml:lang="ta">Vīramāmuṉivar Carittiravaralāṟu: <term xml:lang="en">Colophon</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U1c" xml:id="T3" defective="true" class="#katai"><title xml:lang="ta">Vīramāmuṉivar Carittiravaralāṟu: Mūlam</title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T4" defective="false"><title xml:lang="ta">Vīramāmuṉivar Caritaippuṟaṉaṭai: Mūlam</title><textLang mainLang="tam"/></msItem></msContents>
@@ -44,12 +44,12 @@
                         <collation><desc xml:id="U1a">1 folio = <emph rend="bold"><title xml:lang="ta">Vīramāmuṉivar Carittiravaralāṟu</title>: Title Page</emph>. No foliation.</desc><desc xml:id="U1b">1 folio = <emph rend="bold"><title xml:lang="ta">Vīramāmuṉivar Carittiravaralāṟu</title>: Colophon</emph>. No foliation.</desc><desc xml:id="U1c">30 folios = <emph rend="bold"><title xml:lang="ta">Vīramāmuṉivar Carittiravaralāṟu</title>: Text</emph>. Tamil foliation 1-30.</desc><desc xml:id="U2">11 folios = <emph rend="bold"><title xml:lang="ta">Vīramāmuṉivar Caritaippuṟaṉaṭai</title>: Text</emph>. Tamil foliation 31-41.</desc></collation>
                         
                         
-                     <foliation>Tamil numerals on left margin. Chronological and consistent. Last folio points to another chapter that is now lost. The title of the text is provided on the left margin a second time in Recto 6 (Tamil numeral <locus facs="15">folio [recto] 4</locus>)</foliation><condition>Very good state of preservation, minimal damage.</condition></supportDesc>
+                     <foliation>Tamil numerals in left margin.</foliation><condition>Very good state of preservation, minimal damage.</condition></supportDesc>
                      <layoutDesc>
                         <layout writtenLines="5"/>
                      </layoutDesc>
                   </objectDesc>
-                  <handDesc><handNote synch="#U1a" scope="minor" script="tamil"><desc>Hand #1.</desc></handNote><handNote synch="#U1b #U1c #U2" scope="major" script="tamil" scriptRef="#tamilPulliNone #tamilRa #tamilMacron #tamilOE" medium="black soot"><desc>Hand #2.</desc></handNote></handDesc>
+                  <handDesc><handNote synch="#U1a" scope="minor" script="tamil" medium="incised soot"><desc>Hand #1. Some parts, unblackened, added by a later hand.</desc></handNote><handNote synch="#U1b #U1c #U2" scope="major" script="tamil" scriptRef="#tamilPulliNone #tamilRa #tamilMacron #tamilOE" medium="incised soot"><desc>Hand #2.</desc></handNote></handDesc>
                   <decoDesc>
                   <decoNote synch="#U1a" type="drawing"><desc>Drawings on <locus facs="5">f[1]r</locus> and <locus facs="6">f[1]v</locus>.
 </desc></decoNote></decoDesc>
@@ -61,16 +61,16 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian" when="1825">Text is dated to 1825 in the title. See U1b, <locus facs="7">f[1]r, c3</locus>.</origDate>
+                     <origDate calendar="gregorian" when="1825">Internally dated to 1825 CE and to the year <foreign xml:lang="ta">pārttipa</foreign> of the Jovian cycle, that is, CE 1825-1826, 1765-1766, 1705-1706, etc. See Colophon: U1b, <locus facs="7">f[1]r, c3</locus>.</origDate>
                      
                   <origPlace>Tamilnadu.</origPlace></origin>
-                  <provenance/>
-                  <acquisition/>
+                  <provenance><p>Owned by <persName role="collector">Édouard Ariel</persName> (1818-1854). Bequested by Édouard Ariel to Société Asiatique (Rosny 1868, p. 177).</p></provenance>
+                  <acquisition><p>Received, August 1st, 1866, from the Société Asiatique. See BnF, département des Manuscrits, inventaire 7 = <title>Dons: manuscrits et imprimés documentaires, 1848-1895</title>, no. 1192.</p></acquisition>
                </history>
                <additional>
                   <listBibl>
                      
-                  <bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f86">p. 67, no. 473</ref>.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. 1866-. <title>Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f231">f. 108r, no. <del>436</del> 473</ref>. </bibl></listBibl>
+                  <bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f86">p. 67, no. 473</ref>.</bibl><bibl>Rosny, Léon de. 1868. <title type="article">La bibliothèque tamoule de M. Ariel, de Pondichéry</title>. In <title>Variétés orientales</title>, 177‒224. Paris: Maisonneuve. </bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. 1866-. <title>Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f231">f. 108r, no. <del>436</del> 473</ref>. </bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
@@ -99,7 +99,7 @@
     <lb n="1"/>vīramamunivar
     <lb n="2"/>carittiravaralāṟu</seg>
     <lb n="3-5"/><note xml:lang="en">unblackened</note>
-    <lb n="3"/>vāmaṉacarittiram <g ref="#pcs"/>
+     <seg function="title"><lb n="3"/>vāmaṉacarittiram <g ref="#pcs"/><note xml:lang="en">addition;aims at the content of Indien 473b</note></seg>
     <seg function="blessing" cert="low"><lb n="4"/>Icēcu<gap reason="ellipsis"/>
       <lb n="5"/><gap reason="ellipsis"/></seg>
     
@@ -125,8 +125,8 @@
     <lb n="1-2"/>Aṉāti namas tu</seg>
         
     <seg function="colophon"><milestone n="3" unit="column"/>
-<lb n="1"/>vīramamunivar
-    <lb n="2"/>carittiravaralāṟu
+<seg function="title"><lb n="1"/>vīramamunivar
+    <lb n="2"/>carittiravaralāṟu</seg>
     <lb n="3"/>Āyiratu Eṇṇūṟṟi
     <lb n="4" break="no"/>ṉ irupattañcām āṇṭu
     
@@ -138,7 +138,7 @@
       
       <milestone n="5" unit="column"/>
     <lb n="1"/>pāṟtipā ~ {varuṣam}
-    <lb n="2"/>Āṉi {mācam} 210+7 {tēti}
+    <lb n="2"/>Āṉi {mācam} 2<g ref="#pattu"/>7 {tēti}
     </seg>
     
         <pb n="[1]v" facs="7"/><note xml:lang="en">blank</note>
