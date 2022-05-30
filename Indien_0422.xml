@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <!--@ charles: NB: derived from "Indien_0338.xml", saved as "Indien_0421.xml"-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
@@ -10,7 +10,7 @@
 			
 			<publicationStmt>
 				<publisher>TST Project</publisher>
-				<date>2021</date>
+				<date>2022</date>
 			</publicationStmt>
 			<sourceDesc>
 				<msDesc>
@@ -19,15 +19,17 @@
 							<orgName>Bibliothèque nationale de France. Département des
 								Manuscrits</orgName>
 						</repository>
-						<idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103947h</idno>
+						
 						<idno type="shelfmark">Indien 422</idno>
 						<idno type="alternate"><idno>Tamoul 422</idno><idno>Ancien fonds 13</idno></idno>
-					</msIdentifier>
+					<idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103947h</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b52515816h</idno></msIdentifier>
 					<msContents class="#STM">
-						<summary>Tamil version of the <title xml:lang="sa">Vikramacarita</title>, that is, 32 stories (Tamil <foreign xml:lang="ta">katai</foreign>) about the king <persName xml:lang="sa">Vikrama</persName> (<persName xml:lang="ta">Vikkiramātittaṉ</persName>) told to king <persName xml:lang="sa">Bhoja</persName> by the figurines (Tamil <foreign xml:lang="ta">patumai</foreign>) of his throne. By a Christian copyist (see Christian blessings U1, f[1]r, lm and U1 f94v4).</summary>
+						<summary><p>Tamil version of the <title xml:lang="sa">Vikramacarita</title>, that is, 32 stories (Tamil <foreign xml:lang="ta">katai</foreign>) about the king <persName xml:lang="sa">Vikrama</persName> (<persName xml:lang="ta">Vikkiramātittaṉ</persName>) told to king <persName xml:lang="sa">Bhoja</persName> by the figurines (Tamil <foreign xml:lang="ta">patumai</foreign>) of his throne. By a Christian copyist (see Christian blessings U1, f[1]r, lm and U1 f94v4).</p>
+<p>Description based on the examination of the original manuscript (December 2020).</p>  <p>Dimensions assessed at the time of examination.</p>      
+   </summary>
 
 						
-					<msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Vikkiramātittaṉ Patumaikkatai: Mūlam</title><textLang mainLang="tam"/><filiation><p>GOML R. 1972, R. 2244. UVSL, vol. 4, pp. 246-7, No. 2040. TMSSML, vol. 1 , 1925, Nos. 579 and 589. </p></filiation></msItem></msContents>
+					<msItem synch="#U1" xml:id="T1" defective="false"><title>Vikkiramātittaṉ Patumaikkatai: Mūlam</title><textLang mainLang="tam"/><filiation><p>GOML R. 1972, R. 2244. UVSL, vol. 4, pp. 246-7, No. 2040. TMSSML, vol. 1 , 1925, Nos. 579 and 589. </p></filiation></msItem></msContents>
 					<physDesc>
 						<objectDesc form="pothi">
 							<supportDesc material="palm-leaf">
@@ -35,7 +37,7 @@
 									
 								<measure unit="stringhole" quantity="2"/></support>
 								<extent>
-									<measure unit="page" quantity="99">[2] + 94 + [3]</measure>
+									<measure unit="page" quantity="99">{2} + 94 + {3} (U1 + U2 + U3).</measure>
 									<dimensions type="object" unit="mm">
 										<width quantity="400"/>
 										<height quantity="30"/>
@@ -66,7 +68,7 @@
 								
 								
 								
-                                <desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">2 folios = <emph rend="bold">front guard leaves</emph>. No foliation. Blank recto verso.</desc><desc xml:id="U2">94 folios = <emph rend="bold"><term xml:lang="ta">Vikkiramātittaṉ Patumaikkatai: Mūlam</term></emph>. Tamil foliation [1]-94.</desc><desc xml:id="U3">3 folios = <emph rend="bold">back guard leaves</emph>. No foliation. Blank recto verso. Title (addition) on f[3]v.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation>
+                                <desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">2 folios = <emph rend="bold">front guard leaves</emph>. No foliation. Blank recto verso.</desc><desc xml:id="U2">94 folios = <emph rend="bold"><term xml:lang="ta">Vikkiramātittaṉ Patumaikkatai: Mūlam</term></emph>. Tamil foliation {1}-94.</desc><desc xml:id="U3">3 folios = <emph rend="bold">back guard leaves</emph>. No foliation. Blank recto verso. Title (addition) on f[3]v.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation>
 								<condition>Fairly good state of preservation despite boreholes.</condition>
 							</supportDesc>
 							<layoutDesc>
@@ -76,11 +78,11 @@
 						<handDesc>
 
 							
-						<handNote synch="#U2" scope="sole" script="tamil" medium="incised"/></handDesc>
+						<handNote synch="#U2" scope="sole" script="tamil" medium="incised soot"/></handDesc>
 						<additions>
 							
-						<desc synch="#U3" type="title">Title <quote>Vicramarkancadey</quote> in black ink (f[3]v).</desc><desc synch="#U1" type="shelfmark">In black ink: <quote>N°13</quote> (f[1]r). This shelfmark seems to correspond to ancien fonds 13, that is S.n. (1739, n° XIII, p. <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k140995x/f437">434</ref>).</desc><desc synch="#U2" type="intertitle">Left marginal intertitles: f12v, f14v, f19v, f22r, f23v, f24r, f26v, f28v, f31r, f34v, f35v, f39v, f42r, f50v, f53r, f55r, f57v, f60r, f62r, f64r, f65v, f66v, f69r, f71v, f74v, f77r, f78v, f82r, f86r, f89r, f90v, f92r.
-</desc><desc synch="#cover" type="shelfmark" subtype="cover end">BnF shelfmark sticker: <quote>INDIEN 422</quote> (back cover, verso).</desc></additions>
+						<desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 422</quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#U1" type="shelfmark">Shelfmark in black ink: <quote>N°13</quote> (<locus facs="3">f[1]r</locus>). This shelfmark seems to correspond to ancien fonds 13, that is S.n. (1739, n° XIII, p. <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k140995x/f437">434</ref>).</desc><desc synch="#U2" type="intertitle" subtype="marginal left">Left-marginal intertitles: f12v, f14v, f19v, f22r, f23v, f24r, f26v, f28v, f31r, f34v, f35v, f39v, f42r, f50v, f53r, f55r, f57v, f60r, f62r, f64r, f65v, f66v, f69r, f71v, f74v, f77r, f78v, f82r, f86r, f89r, f90v, f92r. See selection below.
+</desc><desc synch="#U3" type="title">Title in black <quote>Vicramarkancadey</quote> (<locus facs="200">f[3]v</locus>).</desc></additions>
 						<bindingDesc>
 							<binding>
 								<p><material cert="medium">Pinewood</material> covers apparently fabricated in the BnF. 400 x 30 mm.</p>
@@ -103,15 +105,7 @@
 							
 							
 							
-						<bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits
-									indiens, indo-chinois &amp; malayo-polynésiens</title>.
-								Bibliothèque nationale. Département des manuscrits. Paris: E.
-								Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f78">p.
-									49</ref>.</bibl><bibl>S.n. (1739). <title>Catalogus codicum manuscriptorum Bibliothecae
-									regiae. Tomus primus. Pars prima, complectens codices
-									manuscriptos orientales.</title> Paris: Typographia Regia. — See n° XIII, p. <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k140995x/f437">434</ref>.</bibl><bibl>Zvelebil, Kamil Veith (1997a). <title type="article">The Tamil
-									Vikramaditya</title>. <title>JAOS</title> 117.2, pp.
-								294-305.</bibl></listBibl>
+						<bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp;amp;amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f78">p. 49</ref>.</bibl><bibl>S.n. 1739. <title>Catalogus codicum manuscriptorum Bibliothecae regiae. Tomus primus. Pars prima, complectens codices manuscriptos orientales.</title> Paris: Typographia Regia. — See <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k140995x/f437">p. 434, no. XIII</ref>.</bibl><bibl>Zvelebil, Kamil Veith. 1997a. <title type="article">The Tamil Vikramaditya</title>. <title>JAOS</title> 117.2: 294-305.</bibl><bibl>Vinson, Julien &amp;amp; Feer, Léon &amp;amp; s.n. 1866-. <title xmlns="http://www.tei-c.org/ns/1.0"> Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref xmlns="http://www.tei-c.org/ns/1.0" target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f209">f. 97r, no. <del>391</del>422</ref>. </bibl></listBibl>
 					</additional>
 				</msDesc>
 			</sourceDesc>
@@ -119,47 +113,53 @@
 		<encodingDesc>
 
 			
-		<p>TBC</p></encodingDesc>
-		<revisionDesc>
+		<p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.            </p></encodingDesc>
+		
+	<xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
 
 
 			
 			
 			
-		<change when="2021-09">Record created by Emmanuel FRANCIS.</change></revisionDesc>
-	</teiHeader>
-<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
-  
-  <pb n="[1]r"/>
-  <milestone n="1" unit="left-margin"/>
-  <lb n="1"/><seg function="title">{cross} A=ṉāti <unclear>{tuṇai}</unclear></seg>
-    <milestone n="1" unit="left-margin"/>
-  <lb n="1"/><seg function="title">vikkiṟa
+		<change when="2021-09">Record created by Emmanuel FRANCIS.</change><change when="2022-05">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, May 2022.</change></revisionDesc></teiHeader>
+<facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b52515816h/manifest.json"/></facsimile><text synch="#U1" corresp="#T1"><body>
+    <ab>
+      
+  <pb facs="7" n="[1]r"/>
+      
+   <seg function="header">
+  <seg function="title"><milestone n="1" unit="left-margin"/>
+  <lb n="1"/><g ref="#latin_cross"/> A=ṉāti <unclear>{tuṇai}</unclear></seg>
+     
+    <seg function="title"><milestone n="1" unit="left-margin"/>
+  <lb n="1"/>vikkiṟa
   <lb n="2" break="no"/>mātitta
   <lb n="3" break="no"/>patu
    <lb n="4" break="no"/>maikkatai <note xml:lang="en">the <foreign>ai</foreign> in <foreign>mai</foreign> is as the end preceding line</note></seg>
+        </seg>
 
-  <milestone unit="main-text-area"/>
-  <lb n="1"/><seg function="invocation">vētamutalē viṉāyakaṉē nantaṉ iṭa kātalukku muṉ tōṉṟuṅ kaṇapatiyē nītipuṉai vikkiṟamārkaṉ peril veṇṭuṅ ka
-<lb n="2" break="no"/>taiy uraikka-y ik-kataikku nīye tuṇai</seg> + <seg function="completion-statement">viṉāyakaṉ tōttiramuṟṟum</seg> + + <seg function="incipit">vikkiṟāmāṟkaṉ kataiyāka pocarācaṉ ciṅkā
+  <seg function="invocation"><milestone unit="main-text-area"/>
+  <lb n="1"/>vētamutalē viṉāyakaṉē nantaṉ iṭa kātalukku muṉ tōṉṟuṅ kaṇapatiyē nītipuṉai vikkiṟamārkaṉ peril veṇṭuṅ ka
+<lb n="2" break="no"/>taiy uraikka-y ik-kataikku nīye tuṇai +</seg>  <seg function="completion-statement">viṉāyakaṉ tōttiramuṟṟum</seg> + + <seg function="incipit">vikkiṟāmāṟkaṉ kataiyāka pocarācaṉ ciṅkā
 <lb n="3" break="no"/>tāṉattilē Eṟa vanta potu patumaikaḷ coṉṉa katai</seg> + <gap reason="ellipsis"/>
   
-  <pb n="12v"/>
-  <milestone unit="left-margin"/>
-  <lb n="1-2"/><seg function="intertitle">mutal katai</seg>
+  <pb facs="30" n="12v"/>
+  <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1-2"/>mutal katai</seg>
   
-  <pb n="14v"/>
-  <milestone unit="left-margin"/>
-  <lb n="1-2"/><seg function="intertitle">y<pc>-</pc>iraṇṭāṅ katai</seg>
+  <pb facs="34" n="14v"/>
+  <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1-2"/>y<pc>-</pc>iraṇṭāṅ katai</seg>
   
-  <pb n="92r"/>
-  <milestone unit="left-margin"/>
-  <lb n="1-3"/><seg function="intertitle">muppattu raṇṭāṅ katai +</seg>
+  <pb facs="189" n="92r"/>
+  <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1-3"/>muppattu raṇṭāṅ katai +</seg>
   
-  <pb n="94v"/>
-  <lb n="1"/><seg function="explicit"><gap reason="ellipsis"/></seg> <seg function="completion-statement">pōcarācaṉ vikkiṟamārḵaṉ kataiyai Eḻuti
+  <seg function="explicit"><pb n="94v"/>
+  <lb n="1"/><gap reason="ellipsis"/></seg> <seg function="completion-statement">pōcarācaṉ vikkiṟamārḵaṉ kataiyai Eḻuti
 <lb n="2"/>mukintatu muṟṟum</seg> + + + <seg function="TBC">vikkiṟamāṟkaṉ takappa cantira kuyittu Avaṉukkut tevimār nālu per pirāmaṇatti
 <lb n="3" break="no"/>piḷḷai vāruci kṣattiriyap peṇṇiṉ piḷḷai vikkiṟamāṟkaṉ vaciyap peṇ – ṇiṉ piḷḷai paṭṭi cūttira
 <lb n="4" break="no"/>p peṇṇiṉ piḷḷai pattirakiri piḷḷaikaḷukk’ ellām mūttavaṉ pattirakiri</seg> + + + <seg function="blessing">Ecu-mariyē tuṇai</seg> + + +
 
+      </ab>
 </body></text></TEI>
