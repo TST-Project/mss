@@ -1,15 +1,15 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title><term xml:lang="ta">Callāpam</term></title>
+            <title><title xml:lang="ta">Callāpam</title></title>
          <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -19,11 +19,14 @@
                   </repository>
                   <idno type="shelfmark">Indien 451</idno>
                   <idno type="alternate"><idno>Tamoul 451</idno><idno>Ancien fonds 1?</idno></idno>
-               </msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103980j</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b10091604v</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary>Dialogues on the Old Testament, that is on Genesis, Exodus, Leviticus, Numbers, and Deuteronomy.</summary>
+                  <summary><p>Dialogues on the Old Testament, that is on Genesis, Exodus, Leviticus, Numbers, and Deuteronomy.</p>
+<p>Description based on the examination of the original manuscript (April 2021).</p>
+<p>Dimensions assessed at the time of examination.</p>
+<p>The images are in the reversed order on Gallica microfilm.</p></summary>
                   
-               <msItem synch="#U2a" xml:id="T1" defective="false"><title xml:lang="ta">Callāpam: <term xml:lang="en">Title Page</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2b" xml:id="T2" defective="false"><title xml:lang="ta">Callāpam: Mūlam</title><textLang mainLang="tam"/></msItem></msContents>
+               <msItem synch="#U2a" xml:id="T1" defective="false"><title xml:lang="ta">Callāpam: <term xml:lang="en">Title Page</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2b" xml:id="T2" defective="false"><title xml:lang="ta">Callāpam: Mūlam</title><textLang mainLang="tam"/><finalRubric xml:lang="ta">In-text chapter completion statements. See selection below.</finalRubric></msItem></msContents>
                <physDesc>
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
@@ -32,13 +35,13 @@
                            
                         </support>
                         <extent>
-                           <measure unit="folio" quantity="341">[9] + 324 + [8] (U1 + U2 + U3).</measure>
+                           <measure unit="folio" quantity="341">{9}+ 324 + {8} (U1 + U2 + U3).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
                            <width min="335" max="355"/><height quantity="30"/></dimensions>
                         <dimensions type="object" unit="mm"><width quantity="355"/><height quantity="30"/><depth quantity="210"/></dimensions><dimensions type="written" unit="mm"/></extent>
-                       <collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. </desc><desc xml:id="U1">9 folios = <emph rend="bold">front guard leaves</emph>. No foliation. Blank recto verso. Except unblackened<quote xml:lang="ta">Ēṭu <g ref="#pattu"/>1</quote> (f[1]r, lm).
+                       <collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. </desc><desc xml:id="U1">9 folios = <emph rend="bold">front guard leaves</emph>. No foliation. Blank recto verso. Except unblackened <quote xml:lang="ta">Ēṭu <g ref="#pattu"/>1</quote> (f[1]r, lm).
 </desc><desc xml:id="U2">324 folios = <emph rend="bold"><term xml:lang="ta">Callāpam</term></emph>. Tamil foliation 1-324. </desc><desc xml:id="U2a">1 folio = <emph rend="bold"><term xml:lang="ta">Callāpam</term>: Title Page</emph>. Tamil foliation 1. </desc><desc xml:id="U2b">323 folios = <emph rend="bold"><term xml:lang="ta">Callāpam</term>: Mūlam</emph>. Tamil foliation 2-324. </desc><desc xml:id="U3">8 folios = <emph rend="bold">back guard leaves</emph>. No foliation.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation>
                         
                         
@@ -47,150 +50,152 @@
                         
                      <layout columns="1"/></layoutDesc>
                   </objectDesc>
-                  <handDesc><handNote synch="#U2" scope="major" script="tamil" medium="incised"/></handDesc>
+                  <handDesc><handNote synch="#U2" scope="major" script="tamil" medium="incised soot"/></handDesc>
                   <decoDesc>
                   </decoDesc>
                   <additions>
-                    <desc synch="#cover" type="shelfmark documenting-note" subtype="beginning cover"><quote xml:lang="fr"><lb n="1"/>Seule pièce cottée quarante huit <lb n="2"/> {signature} </quote> (front cover, recto).</desc><desc synch="#cover U1" type="documenting-note" subtype="inserted">Contents (paper inserted between front cover and U1): <quote xml:lang="fr">Dialogues sur la Genèse Exode Lévitique Nombres &amp; Deutéronome</quote>.</desc><desc synch="#U1">Unblackened <quote xml:lang="ta">Ēṭu
-                      1</quote> (f[1]r, lm).
-</desc><desc synch="#cover" type="shelfmark" subtype="cover end">BnF shelfmark sticker: <quote>INDIEN 451</quote> (back cover, verso).</desc><desc synch="#cover" type="shelfmark documenting-note" subtype="cover end"><quote xml:lang="fr"><lb n="1"/>Seulle pièce cottée quarante huit <lb n="2"/> {signature}</quote>. </desc></additions>
+                    <desc synch="#CoverFront" type="shelfmark documenting-note" subtype="cover front">Shelfmark in black ink (?) (<locus facs="330">front cover, recto</locus>): <quote xml:lang="fr" rend="block"><lb n="1"/>Seule pièce cottée quarante huit <lb n="2"/> {signature} </quote></desc><desc synch="#U1" type="documenting-note" subtype="inserted">Contents (paper inserted between <locus facs="329">front cover and U1</locus>): <quote xml:lang="fr">Dialogues sur la Genèse Exode Lévitique Nombres &amp; Deutéronome</quote>.</desc><desc synch="#U1" type="foliation">Unblackened <quote xml:lang="ta">Ēṭu 1</quote> (<locus facs="329">f[1]r, lm</locus>).
+</desc><desc synch="#U2b" type="intertitle" subtype="marginal left">Left-marginal intertitles. See selection below.</desc><desc synch="#CoverBack" type="shelfmark" subtype="back cover">BnF shelfmark sticker: <quote>INDIEN 451</quote> (<locus facs="1">back cover, verso</locus>).</desc><desc synch="#CoverBack" type="shelfmark documenting-note" subtype="back cover">Shelfmark in black ink (?) (<locus facs="1">back cover, verso</locus>): <quote xml:lang="fr" rend="block"><lb n="1"/>Seulle pièce cottée quarante huit <lb n="2"/> {signature}</quote></desc></additions>
                   <bindingDesc>
                      <binding><p>Original (?) <material>wood</material> covers. 340 x 30 mm.</p></binding>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian" notAfter="1912">Dated to 1743 by Cabaton (1912), on unstated grounds. There are several internal dates in the manuscript, but it is not clear if these are dates of copy or dates copied from the master copy, if any.</origDate>
+                     <origDate calendar="gregorian" notAfter="1800" notBefore="1700">Dated to 1743 by Vinson in Vinson et al. (1866-) on the basis of the colophone. Dated to 1743 by Cabaton (1912), on unstated grounds. There are several internal dates in the manuscript, but it is not clear if these are dates of copy or dates copied from the master copy, if any.</origDate>
                      
                   <origPlace>Tamilnadu.</origPlace></origin>
-                  <provenance/>
+                  <provenance><p>Unknown.</p></provenance>
                   <acquisition><p>According to cabaton this is the <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105278700/f17">Bible</ref> and <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105278700/f31">Bible en Malabar ou Tamoul</ref> sent by the Jesuits of the Mission du Carnate in 1729 for the library of the king of France and mentioned in ancien lists (BnF NAF 5442, f5r and f9r), which he dates to 1743 though. Those lists however state this Bible, as well as two other manuscripts, are printed editions by the Lutheran missionnaries from Tranquebar.</p></acquisition>
                </history>
                <additional>
                   <listBibl>
                      
-                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens. Bibliothèque nationale. Département des manuscrits.</title> Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f82">p. 64</ref>.</bibl><bibl>S.n. (1739). <title>Catalogus codicum manuscriptorum Bibliothecae regiae. Tomus primus. Pars prima, complectens codices manuscriptos orientales.</title> Paris: Typographia Regia. — See n° I, p. <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k140995x/f437">434</ref>.</bibl></listBibl>
+                  <bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens. Bibliothèque nationale. Département des manuscrits.</title> Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f82">p. 64, no. 451</ref>.</bibl><bibl>S.n. 1739. <title>Catalogus codicum manuscriptorum Bibliothecae regiae. Tomus primus. Pars prima, complectens codices manuscriptos orientales.</title> Paris: Typographia Regia. — See <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k140995x/f437">p. 434, no. I</ref>.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. 1866-. <title>Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f219">f. 102r, no. <del>418</del> 451</ref>. </bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          
-      <p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.      </p></encodingDesc>
-      <revisionDesc>
+      <p> <emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.    </p></encodingDesc>
+      
+   <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
-      <change when="2021-09">Record created by Emmanuel FRANCIS.</change></revisionDesc>
-   </teiHeader>
+      <change when="2021-09">Record created by Emmanuel FRANCIS.</change><change when="2022-05">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, May 2022.</change></revisionDesc></teiHeader>
    <facsimile>
-   </facsimile>
+   <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10091604v/manifest.json"/></facsimile>
 <text synch="#U2a" corresp="#T1" xml:lang="ta"><body>
-  
-  <pb n="1r"/>
-  <lb n="1"/><seg function="blessing">pitā cutaṉ y<pc>-</pc>ispirīttu cāntu nāmattiṉālē</seg> <seg function="title">Aṟcciṣṭa-vētattil
-<lb n="2"/>y<pc>-</pc>eḻuti-y irukkiṟa katai-p piṟacaṅkattiṉ talaiyāṉa
-<lb n="3"/>naṭapaṭikaḷ-uṭaiya callāpaṅkaḷ</seg>
+  <ab>
+    
+  <pb facs="328" n="1r"/>
+  <seg function="blessing"><lb n="1"/>pitā cutaṉ y<pc>-</pc>ispirīttu cāntu nāmattiṉālē</seg> <seg function="title">Aṟcciṣṭa-vētattil
+<lb n="2"/>y<pc>-</pc>eḻuti y<pc>-</pc>irukkiṟa katai-p piṟacaṅkattiṉ talaiyāṉa
+<lb n="3"/>naṭapaṭikaḷ<pc>-</pc>uṭaiya callāpaṅkaḷ</seg>
 
+    </ab>
   </body></text><text synch="#U2b" corresp="#T2" xml:lang="ta"><body>
-  
-  <pb n="2r"/>
-  <milestone unit="left-margin"/>
-  <lb n="1"/><seg function="blessing"> yēcuṉātāy ṉama <del><gap reason="illegible" quantity="2" unit="character"/></del> <add><seg rend="grantha">ḥ</seg></add><note xml:lang="en">unblackened</note></seg>
-  <lb n="2"/><seg function="intertitle">vivēka-kattiṉ 
+    <ab>
+
+  <pb facs="327" n="2r"/>
+  <seg function="blessing"><milestone unit="left-margin"/>
+  <lb n="1"/>yēcuṉātāy ṉama <add><unclear>kara</unclear><seg rend="grantha">ḥ</seg></add> <note xml:lang="en">unblackened</note></seg>
+  <seg function="intertitle"><lb n="2"/>vivēka-kattiṉ 
 <lb n="3"/>callāpam</seg>
   
-   <milestone unit="main-text-area"/>
-  <lb n="1"/><seg function="incipit">kuru | vīviliya<pc>-</pc>v eṉkiṟa postakam<pc>-</pc>āka-p paṭṭat<pc>’</pc> ētu | ciṣaṉ | </seg>
+   <seg function="incipit"><milestone unit="main-text-area"/>
+  <lb n="1"/>kuru | vīviliya v<pc>-</pc>eṉkiṟa postakam<pc>-</pc>āka-p paṭṭat<pc>’</pc> ētu | ciṣaṉ | <gap reason="ellipsis"/></seg>
   
-  <pb n="7r"/>
-  <milestone unit="left-margin"/><seg function="intertitle"><gap reason="ellipsis"/></seg>
+  <pb facs="322" n="7r"/>
+  <seg function="intertitle"><milestone unit="left-margin"/><gap reason="ellipsis"/></seg>
   
-  <pb n="20v"/>
-  <lb n="2"/><gap reason="ellipsis"/> <seg function="completion-statement">muntiṉ callāpam muṟṟum</seg> + <g ref="#pcl"/>
+  <pb facs="308" n="20v"/>
+   <seg function="completion-statement"><lb n="2"/><gap reason="ellipsis"/> muntiṉ callāpam muṟṟum</seg> + <g ref="#pcl"/>
   
-  <pb n="21r"/>
-  <milestone unit="left-margin"/><seg function="intertitle"><gap reason="ellipsis"/></seg>
+  <pb facs="308" n="21r"/>
+  <seg function="intertitle"><milestone unit="left-margin"/><gap reason="ellipsis"/></seg>
   
-  <pb n="33r"/>
-  <milestone unit="left-margin"/><seg function="intertitle"><gap reason="ellipsis"/></seg>
+  <pb facs="295" n="33r"/>
+  <seg function="intertitle"><milestone unit="left-margin"/><gap reason="ellipsis"/></seg>
 
-  <pb n="38r"/>
-  <milestone unit="left-margin"/><seg function="intertitle"><gap reason="ellipsis"/></seg>
+  <pb facs="290" n="38r"/>
+  <seg function="intertitle"><milestone unit="left-margin"/><gap reason="ellipsis"/></seg>
 
-   <pb n="47r"/>
-  <milestone unit="left-margin"/><seg function="intertitle"><gap reason="ellipsis"/></seg>
+   <pb facs="281" n="47r"/>
+  <seg function="intertitle"><milestone unit="left-margin"/><gap reason="ellipsis"/></seg>
   
-  <pb n="69r"/>
-  <milestone unit="left-margin"/><seg function="intertitle"><gap reason="ellipsis"/></seg>
+  <pb facs="259" n="69r"/>
+  <seg function="intertitle"><milestone unit="left-margin"/><gap reason="ellipsis"/></seg>
   
-  <pb n="83r"/>
-  <milestone unit="left-margin"/><seg function="intertitle"><gap reason="ellipsis"/></seg>
+  <pb facs="245" n="83r"/>
+  <seg function="intertitle"><gap reason="ellipsis"/></seg>
 
-    <pb n="107r"/>
-  <milestone unit="left-margin"/><seg function="intertitle"><gap reason="ellipsis"/></seg>
+    <pb facs="221" n="107r"/>
+  <seg function="intertitle"><milestone unit="left-margin"/><gap reason="ellipsis"/></seg>
   
-  <pb n="119r"/>
-  <milestone unit="left-margin"/><seg function="intertitle"><gap reason="ellipsis"/></seg>
+  <pb facs="209" n="119r"/>
+  <seg function="intertitle"><milestone unit="left-margin"/><gap reason="ellipsis"/></seg>
   
-    <pb n="134r"/>
-  <milestone unit="left-margin"/><seg function="intertitle"><gap reason="ellipsis"/></seg>
+    <pb facs="194" n="134r"/>
+  <seg function="intertitle"><milestone unit="left-margin"/><gap reason="ellipsis"/></seg>
 
-    <pb n="147r"/>
-  <milestone unit="left-margin"/><seg function="intertitle"><gap reason="ellipsis"/></seg>
+    <pb fcas="181" n="147r"/>
+  <seg function="intertitle"><milestone unit="left-margin"/><gap reason="ellipsis"/></seg>
   
     <pb n="150r"/>
-  <milestone unit="left-margin"/><seg function="intertitle"><gap reason="ellipsis"/></seg>
+  <seg function="intertitle"><milestone unit="left-margin"/><gap reason="ellipsis"/></seg>
   
-    <pb n="159r"/>
-  <milestone unit="left-margin"/><seg function="intertitle"><gap reason="ellipsis"/></seg>
+    <pb facs="178" n="159r"/>
+  <seg function="intertitle"><milestone unit="left-margin"/><gap reason="ellipsis"/></seg>
   
-    <pb n="170r"/>
-  <milestone unit="left-margin"/><seg function="intertitle"><gap reason="ellipsis"/></seg>
+    <pb facs="158" n="170r"/>
+  <seg function="intertitle"><milestone unit="left-margin"/><gap reason="ellipsis"/></seg>
   
-    <pb n="184r"/>
-  <milestone unit="left-margin"/><seg function="intertitle"><gap reason="ellipsis"/></seg>
+    <pb facs="144" n="184r"/>
+  <seg function="intertitle"><milestone unit="left-margin"/><gap reason="ellipsis"/></seg>
   
-    <pb n="198r"/>
-  <milestone unit="left-margin"/><seg function="intertitle"><gap reason="ellipsis"/></seg>
+    <pb facs="130" n="198r"/>
+  <seg function="intertitle"><milestone unit="left-margin"/><gap reason="ellipsis"/></seg>
   
-    <pb n="211r"/>
-  <milestone unit="left-margin"/><seg function="intertitle"><gap reason="ellipsis"/></seg>
+    <pb facs="116" n="211r"/>
+  <seg function="intertitle"><milestone unit="left-margin"/><gap reason="ellipsis"/></seg>
   
-    <pb n="227r"/>
-  <milestone unit="left-margin"/><seg function="intertitle"><gap reason="ellipsis"/></seg>
+    <pb facs="100" n="227r"/>
+  <seg function="intertitle"><milestone unit="left-margin"/><gap reason="ellipsis"/></seg>
   
-    <pb n="229r"/>
-  <milestone unit="left-margin"/><seg function="intertitle"><gap reason="ellipsis"/></seg>
+    <pb facs="98" n="229r"/>
+  <seg function="intertitle"><milestone unit="left-margin"/><gap reason="ellipsis"/></seg>
   
-    <pb n="237r"/>
-  <milestone unit="left-margin"/><seg function="intertitle"><gap reason="ellipsis"/></seg>
+    <pb facs="89" n="237r"/>
+  <seg function="intertitle"><milestone unit="left-margin"/><gap reason="ellipsis"/></seg>
   
-    <pb n="242r"/>
-  <milestone unit="left-margin"/><seg function="intertitle"><gap reason="ellipsis"/></seg>
+    <pb facs="84" n="242r"/>
+  <seg function="intertitle"><milestone unit="left-margin"/><gap reason="ellipsis"/></seg>
   
     <pb n="252r"/>
-  <milestone unit="left-margin"/><seg function="intertitle"><gap reason="ellipsis"/></seg>
+  <seg function="intertitle"><milestone unit="left-margin"/><gap reason="ellipsis"/></seg>
   
-    <pb n="254r"/>
-  <milestone unit="left-margin"/><seg function="intertitle"><gap reason="ellipsis"/></seg>
+    <pb facs="72" n="254r"/>
+  <seg function="intertitle"><milestone unit="left-margin"/><gap reason="ellipsis"/></seg>
   
-    <pb n="260r"/>
-  <milestone unit="left-margin"/><seg function="intertitle"><gap reason="ellipsis"/></seg>
+    <pb facs="66" n="260r"/>
+  <seg function="intertitle"><milestone unit="left-margin"/><gap reason="ellipsis"/></seg>
   
-    <pb n="272r"/>
-  <milestone unit="left-margin"/><seg function="intertitle"><gap reason="ellipsis"/></seg>
+    <pb facs="54" n="272r"/>
+  <seg function="intertitle"><milestone unit="left-margin"/><gap reason="ellipsis"/></seg>
   
-    <pb n="279r"/>
-  <milestone unit="left-margin"/><seg function="intertitle"><gap reason="ellipsis"/></seg>
+    <pb facs="47" n="279r"/>
+  <seg function="intertitle"><milestone unit="left-margin"/><gap reason="ellipsis"/></seg>
   
-    <pb n="289r"/>
-  <milestone unit="left-margin"/><seg function="intertitle"><gap reason="ellipsis"/></seg>
+    <pb facs="37" n="289r"/>
+  <seg function="intertitle"><milestone unit="left-margin"/><gap reason="ellipsis"/></seg>
   
-    <pb n="300r"/>
-  <milestone unit="left-margin"/><seg function="intertitle"><gap reason="ellipsis"/></seg>
+    <pb facs="26" n="300r"/>
+  <seg function="intertitle"><milestone unit="left-margin"/><gap reason="ellipsis"/></seg>
   
-    <pb n="312r"/>
-  <milestone unit="left-margin"/>
-  <lb n="1"/><seg function="intertitle">pitā-cutaṉa yispirittu cāntu
+    <pb facs="14" n="312r"/>
+  <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1"/>pitā-cutaṉa yispirittu cāntu
   <lb n="2"/>ṉāmattiṉālē tevuttorono
   <lb n="3" break="no"/>miyo v<pc>-</pc>eṉkiṟa Añcavātu
   <lb n="4"/>postakattiṉ callāpam
@@ -198,12 +203,15 @@
   <lb n="6" break="no"/>stakam ākum
  </seg>
   
-    <pb n="324r"/>
-  <lb n="1"/><gap reason="ellipsis"/> <seg function="explicit">moyaṣcecu <note xml:lang="en">i.e. Moses</note> maṟaṇattai Aṭaiñca ṉāḷ maṭṭum
-    <lb n="2"/>naṭanta varuṣaṅkaḷ | 4<g ref="#nūṟu"/>3<g ref="#pattu"/> | {Āka} kūṭiṉa varuṣaṅkaḷ | 2<g ref="#āyiram"/>4<g ref="#nūṟu"/>5<g ref="#pattu"/> | 4 | </seg> <seg function="completion-statement">muṟṟum</seg> + <seg function="colophon">caṟvēcuraṉu
-<lb n="3" break="no"/>kku-y istottiram<pc>-</pc>āka tevutteroṉomiyo <note xml:lang="en">i.e. Deuteronomy</note> v<pc>-</pc>eṉkiṟa moyaṣ=cecu-v-uṭaiya Añc-āvatu posta
-      <lb n="4" break="no"/>kam | <g ref="#āyiram"/>6<g ref="#nūṟu"/>6<g ref="#pattu"/>6 | {varuṣam/āṇṭu} cellum | puraṭṭāci {mācam} | 2<g ref="#pattu"/>8 {tēti} | piṟitt<pc>’</pc> eḻuti muṭintutu muṟṟum</seg> +
+    <pb facs="2" n="324r"/>
+  <seg function="explicit"><lb n="1"/><gap reason="ellipsis"/> moyaṣcecu <note xml:lang="en">i.e. Moses</note> maṟaṇattai Aṭaiñca ṉāḷ maṭṭum
+    <lb n="2"/>naṭanta varuṣaṅkaḷ | 4<g ref="#nūṟu"/>3<g ref="#pattu"/> | {Āka} kūṭiṉa varuṣaṅkaḷ | 2<g ref="#āyiram"/>4<g ref="#nūṟu"/>5<g ref="#pattu"/> | 4 | </seg> <seg function="colophon"><seg function="completion-statement">muṟṟum +</seg> <seg function="colophon">caṟvēcuraṉu
+
+      <lb n="3" break="no"/>kku y<pc>-</pc>istottiram<pc>-</pc>āka tevutteroṉomiyo <note xml:lang="en">i.e. Deuteronomy</note> v<pc>-</pc>eṉkiṟa moyaṣ=cecu-v<pc>-</pc>uṭaiya Añc<pc>-</pc>āvatu posta
+      <lb n="4" break="no"/>kam | <g ref="#āyiram"/>6<g ref="#nūṟu"/>6<g ref="#pattu"/>6 | <choice><unclear>{varuṣam}</unclear><unclear>{āṇṭu}</unclear></choice> cellum | puraṭṭāci {mācam} | 2<g ref="#pattu"/>8 {tēti} | piṟitt<pc>’</pc> eḻuti muṭintutu muṟṟum +</seg></seg> 
 
   <pb n="324v"/><note xml:lang="en">blank</note>
+      
+      </ab>
 
   </body></text></TEI>
