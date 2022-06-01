@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><title xml:lang="ta">Vīramāmuṉivar Kuṟaḷ urai</title></title>
+            
+         <editor><persName>Eva WILDEN</persName><orgName>Universität Hamburg</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2022</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Indien 57</idno>
+                  <idno type="alternate"><idno>Tamoul 57</idno></idno>
+               </msIdentifier>
+               <msContents class="#STM">
+                  <summary> Incomplete text of <title xml:lang="ta">Kuṟaḷ</title> (<term xml:lang="ta">aṟappāl</term> and <term xml:lang="ta">poruṭpāl</term>) with Beschi’s Latin translation and commentary. </summary>
+                  
+               <msItem defective="false"><title xml:lang="la"><title xml:lang="ta">Vīramāmuṉivar Kuṟaḷ urai</title></title><textLang mainLang="lat" otherLangs="tam"/><incipit xml:lang="la"><milestone facs="21" unit="folio" n="8r"/>
+<lb n="1"/>Moralia Tiruvalluveni
+<lb n="2"/><term xml:lang="ta-Taml">அறப்பால்</term> vel <term xml:lang="ta-Taml">அறத்துப்பால்</term>
+<lb n="3"/>Liber 1. De virtutibus
+<lb n="4"/>Prologon
+<lb n="5"/>amp<gap quantity="3" unit="character" reason="illegible"/> tria capita quorum
+<lb n="6"/>caput 1.
+<lb n="7"/><term xml:lang="ta-Taml">கடவுள் வாழ்த்து</term></incipit></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="paper">
+                        <support>
+                           <measure unit="stringhole"/>
+                           
+                        </support>
+                        <extent>
+                           <measure unit="folio" quantity="186">guard leaf, double title page, f. 1-179, 5 blank pages.</measure>
+                           <dimensions type="leaf" unit="mm">
+                              <width quantity="300"/>
+                              <height quantity="320"/>
+                           </dimensions>
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
+                        <collation><desc>Double Tamil title page, followed by a 4-page <locus facs="11">French notice</locus>, <locus facs="15">Latin preamble</locus>, <locus facs="17">Latin title page</locus>, <locus facs="19">f. 7r</locus> with a French date (1847), beginning of text on <locus facs="21">f. 8r</locus> (Tamil text, Latin translation and explanation).</desc></collation>
+                        
+                        
+                     <foliation>European foliation.</foliation></supportDesc>
+                     <layoutDesc>
+                        <layout writtenLines="31">Ruled and lined.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc><handNote scope="sole" script="latin tamil" medium="ink brown"><desc>Brownish-black ink, trained, beautiful and very careful hand, occasional annotation in pink.</desc></handNote></handDesc>
+                  <decoDesc>
+                  </decoDesc>
+                  <additions>
+                  <desc type="title" subtype="beginning"><locus facs="5">first title page</locus>: <q xml:lang="ta-Taml">குறள்</q> (v blank)</desc><desc type="title" subtype="beginning"><locus facs="7">folio 1r</locus>: <q xml:lang="ta-Taml" rend="block">
+<lb n="1"/>வீராமாமுநிவர்
+<lb n="2"/>அருளிச்செய்த
+<lb n="3"/>திருவள்ளுவர்
+<lb n="4"/>குறளுரை.
+</q>
+(v blank)</desc><desc type="commenting-note" subtype="beginning"><locus facs="9">folio 2r</locus>, notice title:
+<q xml:lang="fr" rend="block">
+  <lb n="1"/>Notice
+  <lb n="2"/>du manuscrit original
+  <lb n="3"/>de la présente copie.
+</q></desc><desc type="preface" subtype="beginning"><locus facs="15">folio 5r</locus>, Latin preamble.</desc><desc type="title" subtype="beginning"><locus facs="17">folio 6r</locus>, Latin title page: <q xml:lang="la" rend="block">
+<lb n="1"/>Moralia
+<lb n="2"/>Tiruvalluveni
+<lb n="3"/>R.R.P. – C.J. Beschius,
+<lb n="4"/>Societas Jesu,
+<lb n="5"/>latinâ paraphrasi
+<lb n="6"/>nec non ad verbum interpretatione
+<lb n="7"/>illustravit.
+  </q></desc><desc type="commenting-note" subtype="beginning"><locus facs="19">folio 7r</locus>, date note: <q rend="block" xml:lang="fr">
+<lb n="1"/>Commencé le 17 Octobre 1847.
+<lb n="2"/>Terminé le 27 Novembre suivant.
+</q> Followed by a lengthy French note in pink.</desc></additions>
+                  <bindingDesc>
+                     <binding><p>Leather bound.</p></binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian" when="1847">From the <locus facs="19">French title page</locus>.</origDate>
+                     
+                  </origin>
+                  <provenance><p>Part of the collection of <persName role="collector">Édouard Ariel</persName>.</p></provenance>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f30">p. 12</ref>.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         
+      <p>Transcribed in Tamil or Roman script where appropriate.</p></encodingDesc>
+      
+   <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
+         
+      <change when="2022-06">First version.</change></revisionDesc></teiHeader>
+   <facsimile>
+   <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b52513899g/manifest.json"/></facsimile>
+</TEI>
