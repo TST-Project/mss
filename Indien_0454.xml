@@ -1,15 +1,15 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title><term xml:lang="ta">Callāpam</term></title>
+            <title><title xml:lang="ta">Callāpam</title></title>
          <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -19,9 +19,10 @@
                   </repository>
                   <idno type="shelfmark">Indien 454</idno>
                   <idno type="alternate"><idno>Tamoul 454</idno><idno>Ancien fonds 3?</idno></idno>
-               </msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103983c</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b100916002</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary>Dialogues on the New Testament.</summary>
+                  <summary><p>Dialogues on the New Testament.</p>
+<p>Description based on the examination of the original manuscript (April 2021).</p>  <p>Dimensions assessed at the time of examination.</p>      </summary>
                   
                <msItem synch="#U2a" xml:id="T1" defective="false"><title xml:lang="ta">Callāpam: <term xml:lang="en">Contents</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2b" xml:id="T2" defective="false"><title xml:lang="ta">Callāpam: Mūlam</title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
@@ -53,38 +54,41 @@
                   <additions>
                   <desc subtype="detached">Contents (paper detached, written in black ink): 
 <quote xml:lang="fr"><lb n="1"/>N° 39. <lb n="2"/><term xml:lang="ta">ñāṉa-pōtakam</term> <lb n="3"/>Instruction religieuse <lb n="4"/>en prose vulgaire <lb n="5"/>anonyme
-</quote>.</desc><desc synch="#cover" type="shelfmark documenting-note" subtype="beginning cover"><quote xml:lang="fr"><lb n="1"/>Seulle pièce cottee <lb n="2"/>cinquante un {signature} </quote> (front cover, recto).</desc><desc synch="#cover" type="shelfmark" subtype="beginning cover">BnF shelfmark sticker: <quote>INDIEN 454</quote> (back cover, verso).</desc><desc synch="#cover U1" type="documenting-note" subtype="inserted">Contents (paper inserted between front cover and U1): <quote xml:lang="fr">Dialogues sur le Nouveau Testament ― Les Evangiles du dimanche &amp; <unclear>principale festes de l’année</unclear></quote>.</desc><desc synch="#cover" type="shelfmark documenting-note" subtype="cover end"><quote xml:lang="fr"><lb n="1"/>Seulle pièce cotte cinquante un <lb n="2"/> {signature}</quote></desc><desc synch="#U2" corresp="#T2" type="intertitle" subtype="marginal left">Left marginal intertitles: f2r, f5r, f10r, f14r, ..., f88r, ...</desc></additions>
+</quote>.</desc><desc type="shelfmark documenting-note" subtype="beginning cover"><quote xml:lang="fr"><lb n="1"/>Seulle pièce cottee <lb n="2"/>cinquante un {signature} </quote> (front cover, recto).</desc><desc type="shelfmark" subtype="beginning cover">BnF shelfmark sticker: <quote>INDIEN 454</quote> (back cover, verso).</desc><desc synch="#U1" type="documenting-note" subtype="inserted">Contents (paper inserted between front cover and U1): <quote xml:lang="fr">Dialogues sur le Nouveau Testament ― Les Evangiles du dimanche &amp; <unclear>principale festes de l’année</unclear></quote>.</desc><desc type="shelfmark documenting-note" subtype="cover end"><quote xml:lang="fr"><lb n="1"/>Seulle pièce cotte cinquante un <lb n="2"/> {signature}</quote></desc><desc synch="#U2" corresp="#T2" type="intertitle" subtype="marginal left">Left marginal intertitles: f2r, f5r, f10r, f14r, ..., f88r, ...</desc></additions>
                   <bindingDesc>
                      <binding><p>Original (?) <material>wood</material> covers. 365 x 30 mm.</p></binding>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian" notAfter="1912">No internal date. Dated to 1750 by Cabaton (1912), on unstated grounds. </origDate>
+                     <origDate calendar="gregorian" notAfter="1800" notBefore="1700">No internal date. Dated to circa 1750 by Vinson in Vinson et al. (1866-) and to 1750 by Cabaton (1912), on unstated grounds (presumably palaeographical and material analysis arguments). 
+
+</origDate>
                      
-                  </origin>
-                  <provenance/>
+                  <origPlace>Pondicherry (?)</origPlace></origin>
+                  <provenance><p>Unknown.</p></provenance>
                   <acquisition><p>According to cabaton this is the <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105278700/f17">nouveau Testament</ref> and the <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105278700/f31">nouveau Testament de même [i.e. en Tamoul]</ref> sent by the Jesuits of the Mission du Carnate in 1729 for the library of the king of France and mentioned in ancien lists (BnF NAF 5442, f5r and f9r), which he dates to 1743 though. Those lists however state this New Testtament, as well as two other manuscripts, are printed editions by the Lutheran missionnaries from Tranquebar.</p></acquisition>
                </history>
                <additional>
                   <listBibl>
                      
-                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens. Bibliothèque nationale. Département des manuscrits.</title> Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f82">p. 64</ref>.</bibl><bibl>S.n. (1739). <title>Catalogus codicum manuscriptorum Bibliothecae regiae. Tomus primus. Pars prima, complectens codices manuscriptos orientales.</title> Paris: Typographia Regia. — See n° III, p. <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k140995x/f437">434</ref>.</bibl></listBibl>
+                  <bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens. Bibliothèque nationale. Département des manuscrits.</title> Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f82">p. 64, no. 454</ref>.</bibl><bibl>S.n. 1739. <title>Catalogus codicum manuscriptorum Bibliothecae regiae. Tomus primus. Pars prima, complectens codices manuscriptos orientales.</title> Paris: Typographia Regia. — See <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k140995x/f437">434, no. III</ref>.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. 1866-. <title>Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f221">f. 103r, no. <del>421</del> 454</ref>. </bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          
-      <p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.      </p></encodingDesc>
-      <revisionDesc>
+      <p> <emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.    </p></encodingDesc>
+      
+   <revisionDesc>
          
-      <change when="2021-09">Record created by Emmanuel FRANCIS.</change></revisionDesc>
-   </teiHeader>
+      <change when="2021-09">Record created by Emmanuel FRANCIS.</change><change when="2022-05">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, May 2022.</change></revisionDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
    <facsimile>
-   </facsimile>
-<text synch="#U2a" corresp="#T1" xml:lang="ta"><body>
-  
+   <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b100916002/manifest.json"/></facsimile>
+<text synch="#U2a" corresp="#T1" xml:lang="ta"><body>  
+  <ab>
+    
   <pb n="1r"/>
   
   <milestone unit="left-margin"/>
@@ -100,8 +104,11 @@
 <lb n="4"/>callāpaṅkaḷ |</seg>
 
     <pb n="1v"/><note xml:lang="en">blank</note>
+    
+    </ab>
   </body></text><text synch="#U2b" corresp="#T2" xml:lang="ta"><body>
-  
+  <ab>
+    
   <pb n="2r"/>
   <milestone unit="left-margin"/>
   <lb n="1"/><seg function="intertitle">putiya y<pc>-</pc>ēr
@@ -132,7 +139,8 @@
    <lb n="1"/>p <seg function="explicit">paṭuttāmal yirukkiravarkaḷum Āṟcciṣṭa-capaikkup pirattippaṭṭavarkaḷ eṉṟu y<pc>-</pc>ellārum ariyac colluki
 <lb n="2" break="no"/>ṟōm kūṭiy irukki<sic>r</sic>a yintak kūṭṭattār pērilē y<pc>-</pc>ellām caṟuvēcuraṉ<pc>-</pc>uṭaiya Ācīrvātam niraiyavum Āmēṉ ecu |</seg>
 
-
   <pb n="313rv"/><note xml:lang="en">blank</note>
+    
+    </ab>
 
   </body></text></TEI>
