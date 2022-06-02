@@ -1,15 +1,15 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title><title>Saundaryalaharīvyākhyāna</title></title>
+            <title><title xml:lang="sa">Saundaryalaharīvyākhyāna</title></title>
             
          <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -19,9 +19,12 @@
                   </repository>
                   <idno type="shelfmark">Indien 500</idno>
                   <idno type="alternate"><idno>Tamoul 500</idno></idno>
-               </msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc104027b</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/h415pj409</idno></msIdentifier>
                <msContents class="#MTM">
-                  <summary>Text of the <title>Saundaryalaharīvyākhyāna</title> attributed to Śaṅkara and <title>Lakṣmīdharā</title> commentary. Text and commentary in Sanskrit. This manuscript should logically have been attributed a shelfmark 'Sanscrit' rather than 'Indien' in the BnF collection.</summary>
+                  <summary><p>The <title xml:lang="sa">Saundaryalaharīvyākhyāna</title>, attributed to <persName xml:lang="sa" role="author">Śaṅkara</persName> with the <title xml:lang="sa">Lakṣmīdharā</title> commentary. Text and commentary in Sanskrit. This manuscript should logically have been attributed a shelfmark 'Sanscrit' rather than 'Indien' in the BnF collection.</p>
+
+<p>Description based on the examination of the original manuscript (April 2021).</p>
+<p>Dimensions assessed at the time of examination.</p>  </summary>
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="sa">Saundaryalaharīvyākhyāna</title><author xml:lang="sa">Śaṅkara <term xml:lang="en">(attributed to)</term></author><textLang mainLang="san"/></msItem></msContents>
                <physDesc>
@@ -32,7 +35,7 @@
                            
                         <p>Different types of papers: thiner for U1, f93-f95.</p></support>
                         <extent>
-                           <measure unit="folio" quantity="100">1 + 2 + 95 + 2 (u1 + u2 + U1 + u3).</measure>
+                           <measure unit="folio" quantity="100">{1} + {2} + 95 + {2} (u1 + u2 + U1 + u3).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
@@ -50,16 +53,16 @@
                   </objectDesc>
                   <handDesc><handNote synch="#U1" scope="sole" script="grantha" medium="ink black"/></handDesc>
                   <decoDesc>
-                  <decoNote synch="#cover" type="decorative" subtype="spine"/></decoDesc>
+                  <decoNote type="decorative" subtype="spine"/></decoDesc>
                   <additions>
-                  <desc synch="#cover" type="title" subtype="spine"><quote>SAONDARYALAHARI VYAKHYANAM</quote>.</desc><desc synch="#cover" type="shelfmark">BnF shelfmark sticker <quote>Indien 500</quote> (verso of front cover).</desc><desc synch="#u1" type="shelfmark">BnF Shelfmarks <quote>Tam. 500</quote> in black ink and <quote>Tamoul N° 500</quote> in black pencil (f[1]r).</desc><desc synch="#U1" type="stamp" subtype="beginning">BnF stamps <quote>BIBLIOTHÈQUE IMPÉRIALE MSS.</quote> (U1, f1r and f95r) and <quote>DON N°</quote>  (U1, f1r).</desc><desc synch="#U1" type="stamp" subtype="beginning">Stamp <quote>SOCIÉTÉ ASIATIQUE DON COLLECTION ARIEL</quote>  (U1, f1r).</desc><desc synch="#U1" type="correction">Corrections in later black ink. Crossed-out portions.</desc></additions>
+                  <desc type="title" subtype="spine">Title in Roman transcription printed in golder letters on the <locus facs="2">spine</locus>:<quote>SAONDARYALAHARI VYAKHYANAM</quote>.</desc><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker <quote>Indien 500</quote> (<locus facs="6">front cover, verso</locus>).</desc><desc synch="#u1" type="shelfmark">BnF Shelfmarks <quote>Tam. 500</quote> in black ink and <quote>Tamoul N° 500</quote> in black pencil (<locus facs="6">f[1]r</locus>).</desc><desc synch="#U1" type="stamp" subtype="beginning">BnF stamps <quote>BIBLIOTHÈQUE IMPÉRIALE MSS.</quote> (U1, f1r and f95r) and <quote>DON N°</quote> (<locus facs="7">f[1]r</locus>).</desc><desc synch="#U1" type="stamp" subtype="beginning">Stamp <quote>SOCIÉTÉ ASIATIQUE DON COLLECTION ARIEL</quote> (<locus facs="7">f[1]r</locus>).</desc><desc synch="#U1" type="correction">Corrections in later black ink. Crossed-out portions.</desc></additions>
                   <bindingDesc>
                      <binding><p>Leather (brown) covers. Title and decoration on the spine.</p></binding>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian" notAfter="1847" notBefore="1846">Earlier than 1855, since part of the bequest by Édouard Ariel (as attested by stamp on U1, f1r) received in 1855 by the Société Asiatique. Written by Rāmasvāli Śāstrin in the year Parābhava of the Jovian cycle, that is, most probably CE 1846-1847.</origDate>                     
+                     <origDate calendar="gregorian" notAfter="1847" notBefore="1846">Earlier than 1854, since part of the bequest by Édouard Ariel (as attested by stamp on U1, f1r) received in 1855 by the Société Asiatique. Written by Rāmasvāli Śāstrin in the year Parābhava of the Jovian cycle, that is, most probably CE 1846-1847.</origDate>                     
                   <origPlace>Tamilnadu.</origPlace>
                   </origin>
                   
@@ -73,49 +76,42 @@
                <additional>
                   <listBibl>
                      
-                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f89">p. 70</ref>.</bibl><bibl><title>Saundaryalaharī</title> 1958. <title>The Saundaryalaharī or Flood of Beauty. Traditionally ascribed to Sankarācārya.</title> Edited, translated and presented in photographs by W. Norman Brown. Harvard University Press: Cambridge (Harvard Oriental Series 43).</bibl><bibl><title>Saundaryalaharī</title> 1976. <title>Saundaryalaharī of Śrī Śaṅkara Bhagavatpādācarya with Commentaries (in Sanskrit) Lakṣmīdharā, [etc.].</title> Edited by A. Kuppuswami. Madras.</bibl><bibl>Rosny, Léon de (1868). “La bibliothèque tamoule de M. Ariel, de Pondichéry.” In: <title>Variétés orientales</title> (pp. 177‒224). Paris: Maisonneuve.</bibl></listBibl>
+                  <bibl><title xml:lang="sa">Saundaryalaharī</title> 1958. <title>The Saundaryalaharī or Flood of Beauty. Traditionally ascribed to Sankarācārya.</title> Edited, translated and presented in photographs by W. Norman Brown. Harvard University Press: Cambridge (Harvard Oriental Series 43).</bibl><bibl><title xml:lang="sa">Saundaryalaharī</title> 1976. <title>Saundaryalaharī of Śrī Śaṅkara Bhagavatpādācarya with Commentaries (in Sanskrit) Lakṣmīdharā, [etc.].</title> Edited by A. Kuppuswami. Madras.</bibl><bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f89">p. 70, no. 500</ref>.</bibl><bibl>Rosny, Léon de. 1868. <title type="article">La bibliothèque tamoule de M. Ariel, de Pondichéry</title>. In <title>Variétés orientales</title>, 177‒224. Paris: Maisonneuve. </bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. 1866-. <title> Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f243">f. 114r, no. 500</ref>.</bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          
-      <p>TBA</p></encodingDesc>
-      <revisionDesc>
+      <p>   <emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.            </p></encodingDesc>
+      
+   <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
-      <change when="2021-05">Record created by Emmanuel FRANCIS.</change></revisionDesc>
-   </teiHeader>
+      <change when="2021-05">Record created by Emmanuel FRANCIS.</change><change when="2022-05">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, May 2022.</change></revisionDesc></teiHeader>
    <facsimile>
-   </facsimile>
+   <graphic url="https://didomena.ehess.fr/concern/data_sets/h415pj409/manifest.json"/></facsimile>
 <text synch="#U1" corresp="#T1" xml:lang="sa"><body>
-  
-  <p>
-    <milestone facs="00" n="1r" unit="folio"/>
-    <milestone facs="00" n="1" unit="page"/>
-    <lb n="1"/><seg function="blessing">śrī-rāma-jayaṃ</seg>
-    <lb n="2"/><seg function="title">saundaryya-laharī-vyākhyānaṃ</seg>
-    <lb n="3"/><seg function="incipit" type="root-text">śivaś śaktyā yukto yadi bhavati śaktaḥ prabhavituṃ</seg> ‡ na ced evaṃ
+  <ab>
+    
+  <pb facs="7" n="1r"/><note xml:lang="en">tamil pagination {1}</note>
+    <seg function="blessing"><lb n="1"/>śrī-rāma-jayaṃ</seg>
+    <seg function="title"><lb n="2"/>saundaryya-laharī-vyākhyānaṃ</seg>
+    <seg function="incipit" type="root-text"><lb n="3"/>śivaś śaktyā yukto yadi bhavati śaktaḥ prabhavituṃ</seg> ‡ na ced evaṃ
     <lb n="4"/>devo na khalu kuśalaspanditum api ‡ Atas tvām ārā<unclear reason="consonant_unclear">dhyā</unclear>ṃ hari-hara
     <lb n="5" break="no"/>viri<unclear reason="consonant_unclear">ñcyā</unclear>dibhir api ‡ praṇantuṃ stotuṃ vā katham akṛta-punyaḥ
     <lb n="6"/>prabhavati ‡‡ <g ref="#pcs"/> – <seg function="incipit" type="commentary">śivāḥ sarvva-maṃgaḷopetāh sadāśiva-tatvaṃ
     <lb n="7"/>vaśakāntāv ity asmād dhātoś śiva-śabdo</seg> <gap reason="ellipsis"/>
-
-  </p>
-  
-  <p>
-    <milestone facs="00" n="94v" unit="folio"/>
-    <milestone facs="00" n="187" unit="page"/>
+    
+  <pb facs="33" n="94v"/><note xml:lang="en">tamil pagination 187</note>
      <lb n="25"/><gap reason="ellipsis"/> <g ref="#pcs"/> 9<g ref="#pattu"/>9 | <g ref="#pcl"/>
     <lb n="26"/>pradīpajvālābhir divasakaranīrājanavidhis ‡ sudhāsūteś candro
     <lb n="27"/>palajalalavair arghyuracanā ‡ svakīyair aṃbhobhis sali
     <lb n="28" break="no"/>lanidhisauhityakaraṇaṃ ‡ | <seg function="explicit" type="root-text">tvadīyābhir vāk·bhis tava jananī vācāṃ stu
      <lb n="29" break="no"/>tir iyam pa</seg> ‡‡ || <gap reason="ellipsis"/>
-  </p>
-  
-  <p>
-    <milestone facs="00" n="95r" unit="folio"/>
-    <milestone facs="00" n="188" unit="page"/>
-     <lb n="12"/><gap reason="ellipsis"/> <seg function="explicit" type="commentary">saṃsṛ
+ 
+  <pb facs="35" n="95r"/><note xml:lang="en">tamil pagination 188</note>
+
+    <lb n="12"/><gap reason="ellipsis"/> <seg function="explicit" type="commentary">saṃsṛ
         <lb n="13" break="no"/>ṣṭirevati dhyeyaṃ <g ref="#pcs"/> <g ref="#nūṟu"/></seg> – – – Asmin• saundarya
     <lb n="14" break="no"/>laharī-śloka-śatake samānītaḥ pat·bhām iti ca samut·bhūta-sthūla-stanabhara
     <lb n="15" break="no"/>m iti ca nidhe nitye Iti ca śloka-trayaṃ varttate tat tu bhagavat·pāda-kṛtaṃ
@@ -127,6 +123,6 @@
      <lb n="21"/>na vidyate <seg function="colophon"><gap reason="ellipsis"/> parābhava-nāmā-saṃva
     <lb n="22" break="no"/>t·sare si<gap reason="illegible" quantity="1" unit="character"/>-māse kṛṣṇa-pakṣe dvitiyāyāṃ tithau sa<choice><unclear>vyā</unclear><unclear>khyā</unclear></choice>khyānam etat·
         <lb n="23"/> <gap reason="ellipsis"/> nāgapure vasataḥ rāmasvāmi-śāstriṇaḥ sva-hasta-likhitaṃ saṃpūrṇāṃ –</seg>
-  </p>
       
+    </ab>
 </body></text></TEI>
