@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title><term xml:lang="ta">Vētaviḷakkam</term></title>
+            <title><title xml:lang="ta">Vētaviḷakkam</title></title>
          <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          
          <publicationStmt>
@@ -19,9 +19,13 @@
                   </repository>
                   <idno type="shelfmark">Indien 481</idno>
                   <idno type="alternate"><idno>Tamoul 481</idno><idno>Ancien fonds 25</idno></idno>
-               </msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc104009d</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b100916182</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary>The <title xml:lang="ta">Vētaviḷakkam</title>, by Costanzo Beschi (1680-1747). See Trento (forthcoming). With a table of contents. Dimensions after cabaton (1912).</summary>
+                  <summary><p>The <title xml:lang="ta">Vētaviḷakkam</title>, by Costanzo Beschi (1680-1747). See Trento (2022).
+With a table of contents.</p>
+<p>Description based on the examination of the original manuscript (January 2021).</p>
+<p>Dimensions after Cabaton (1912).</p>  
+</summary>
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Vētaviḷakkam</title><author xml:lang="ta">Costanzo Beschi (1680-1747)</author><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
@@ -32,7 +36,7 @@
                            
                         </support>
                         <extent>
-                           <measure unit="folio" quantity="167">[1] + [1] + [4] + 156 + [4] + [1] (u1 + u2 + u3 + U1 + u4 + u5).</measure>
+                           <measure unit="folio" quantity="167">{1} + {1} + {4} + 156 + {4} + {1} (u1 + u2 + u3 + U1 + u4 + u5).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
@@ -41,7 +45,7 @@
                         <collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. Verso marbled. Shelfmark on verso. </desc><desc xml:id="u1">1 folio = <emph rend="bold">front guard leaf</emph>. No foliation. Recto marbled. Blank recto verso. Element of library binding.
 
 </desc><desc xml:id="u2">1 folio = <emph rend="bold">front guard leaf</emph>. No foliation. Blank recto verso. Element of library binding.
-</desc><desc xml:id="u3">4 folios = <emph rend="bold">front guard leaves</emph>. No foliation. Blank recto verso. Shelfmark on f[1]r. Element of original book.</desc><desc xml:id="U1">156 folios = <emph rend="bold"><term xml:lang="ta">Vētaviḷakkam</term></emph>. Tamil foliation 1-156. Arabic library foliation 1-43, 45-157. The original book.</desc><desc xml:id="u4">4 folios = <emph rend="bold">back guard leaves</emph>. No foliation. Incomplete crossed-out library foliation on first folio. Blank recto verso. Element of original book.</desc><desc xml:id="u5">1 folio = <emph rend="bold">back guard leaf</emph>. No foliation. Verso marbled. Blank recto verso. Element of library binding.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>. Recto marbled. </desc></collation>
+</desc><desc xml:id="u3">4 folios = <emph rend="bold">front guard leaves</emph>. No foliation. Blank recto verso. Shelfmark on f[1]r. Element of original book.</desc><desc xml:id="U1">156 folios = <emph rend="bold"><term xml:lang="ta">Vētaviḷakkam</term></emph>. Tamil foliation 1-156. Parallel Arabic library foliation 1-43, 45-157. The original book.</desc><desc xml:id="u4">4 folios = <emph rend="bold">back guard leaves</emph>. No foliation. Incomplete crossed-out library foliation on first folio. Blank recto verso. Element of original book.</desc><desc xml:id="u5">1 folio = <emph rend="bold">back guard leaf</emph>. No foliation. Verso marbled. Blank recto verso. Element of library binding.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>. Recto marbled. </desc></collation>
                         
                         
                      <condition>Very good state of preservation</condition></supportDesc>
@@ -51,82 +55,88 @@
                   </objectDesc>
                   <handDesc><handNote synch="#U1" scope="major" script="tamil" medium="ink black"/></handDesc>
                   <decoDesc>
-                  <decoNote synch="#cover" type="royal-cypher" subtype="spine"><desc>Royal cypher: <quote>L</quote>.</desc></decoNote><decoNote synch="#cover" type="decorative" subtype="spine"><desc>Heraldic lillies.</desc></decoNote></decoDesc>
+                  <decoNote type="royal-cypher" subtype="spine"><desc>Royal cypher: <quote>L</quote>.</desc></decoNote><decoNote type="decorative" subtype="spine"><desc>Heraldic lillies.</desc></decoNote></decoDesc>
                   <additions>
-                  <desc synch="#cover" type="title" subtype="spine"><quote><lb n="1"/>VEDAVILAKKAM <lb n="2"/>TAMOUL</quote> (Latin transcription).
-</desc><desc synch="#cover" type="shelfmark" subtype="beginning cover">BnF shelfmark sticker: <quote>INDIEN 481</quote>.</desc><desc synch="#u3" type="shelfmark">BnF shelfmark in black pencil: <quote>Tamoul N° 481</quote> (f[1]r).</desc><desc synch="#u3 #U1" type="documenting-note" subtype="inserted">Indication of the title to be displayed on the spine (inserted and bound in between u3 and U1): <quote><lb n="1"/>Vedavilakkam <lb n="2"/>Tamoul.</quote> (Latin transcription).</desc><desc synch="#U1" type="catchword"/></additions>
+                  <desc type="title" subtype="spine">Title in Roman transcription printed in golden letters on the spine: <quote rend="block"><lb n="1"/>VEDAVILAKKAM <lb n="2"/>TAMOUL</quote> 
+</desc><desc type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 481</quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#u3" type="shelfmark">BnF shelfmark in black pencil: <quote>Tamoul N° 481</quote> (<locus facs="2">f[1]r</locus>).</desc><desc synch="#u3 #U1" type="documenting-note" subtype="detached inserted">Indication, on a bound-in small <locus facs="3">sheet of paper</locus> of the title to be displayed on the spine (inserted and bound in between u3 and U1): <quote rend="block"><lb n="1"/>Vedavilakkam <lb n="2"/>Tamoul.</quote> </desc><desc synch="#U1" type="catchword" subtype="bottom left"/></additions>
                   <bindingDesc>
                      <binding><p>Leather (brown) cover. Title, alternating royal cypher and decoration on the spine.</p></binding>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian" notAfter="1728">See colophon (U1, f152v2). Dated to 1750 by Cabaton (1912), on unstated grounds (presumably palaeographical and material analysis arguments).</origDate>
+                     <origDate calendar="gregorian" notAfter="1728">Internally dated to 1428. See colophon (U1, <locus facs="156">f152v2</locus>). Dated to circa 1750 Vinson in Vinson et al. (1866-) and to 1750 by Cabaton (1912), on unstated grounds (presumably palaeographical and material analysis arguments).</origDate>
                      
-                  <origPlace>Tamilnadu.</origPlace></origin>
-                  <provenance/>
-                  <acquisition><p>It appears to be the paper <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105278700/f17">Le Veda Velaccam. Livre de Controverses contre les hérétiques de Trinquembare</ref> and <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105278700/f31">Veda Velaccam</ref> sent by the Jesuits of the Mission du Carnate in 1730 for the library of the king of France and mentioned in ancien lists (BnF NAF 5442, f5r and f9r).</p></acquisition>
+                  <origPlace>Pondicherry (?)</origPlace></origin>
+                  <provenance><p>Unknown.</p></provenance>
+                  <acquisition><p>It appears to be the paper manuscript described as <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105278700/f17">Le Veda Velaccam. Livre de Controverses contre les hérétiques de Trinquembare</ref> and as <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105278700/f31">Veda Velaccam</ref> sent by the Jesuits of the Mission du Carnate in 1730 for the library of the king of France and mentioned in ancien lists (BnF NAF 5442, f5r and f9r).</p></acquisition>
                </history>
                <additional>
                   <listBibl>
                      
-                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens. Bibliothèque nationale. Département des manuscrits.</title> Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f87">p. 68</ref>.</bibl><bibl>S.n. (1739). <title>Catalogus codicum manuscriptorum Bibliothecae regiae. Tomus primus. Pars prima, complectens codices manuscriptos orientales.</title> Paris: Typographia Regia. — See n° XXV, p. <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k140995x/f437">434</ref>.</bibl><bibl>Trento, Margherita (forthcoming). <title>Writing Tamil Catholicism: A Social History of Persuasion and Devotion in the eighteenth Century</title>.</bibl></listBibl>
+                  <bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens. Bibliothèque nationale. Département des manuscrits.</title> Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f87">p. 68, no. 481</ref>.</bibl><bibl>S.n. 1739. <title>Catalogus codicum manuscriptorum Bibliothecae regiae. Tomus primus. Pars prima, complectens codices manuscriptos orientales.</title> Paris: Typographia Regia. — See <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k140995x/f438">p. 435, no. XXV</ref>.</bibl><bibl>Trento, Margherita. 2022. <title>Writing Tamil Catholicism: Literature, Persuasion and Devotion in the eighteenth Century</title>. Leiden, Boston: Brill. OA at: <ref target=" https://brill.com/view/title/61964">https://brill.com/view/title/61964</ref></bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. 1866-. <title>Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f235">f. 110r, no. 481</ref>.</bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          
-      <p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.      </p></encodingDesc>
-      <revisionDesc>
+      <p>   <emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.            </p></encodingDesc>
+      
+   <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
-      <change when="2021-09">Record created by Emmanuel FRANCIS.</change></revisionDesc>
-   </teiHeader>
+      <change when="2021-09">Record created by Emmanuel FRANCIS.</change><change when="2022-05">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, May 2022.</change></revisionDesc></teiHeader>
    <facsimile>
-   </facsimile>
+   <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b100916182/manifest.json"/></facsimile>
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   
-  <pb n="1r"/>
-  <lb n="1"/><seg function="title">vētaviḷakkam</seg>
-  <lb n="2"/><seg function="metre">veṇpā</seg>
-  <lb n="3"/><seg function="incipit"><gap reason="ellipsis"/></seg>
+  <pb facs="4" n="1r"/>
+  <seg function="title"><lb n="1"/>vētaviḷakkam</seg>
+  <seg function="metre"><lb n="2"/>veṇpā</seg>
+  <seg function="incipit"><lb n="3"/><gap reason="ellipsis"/></seg>
+  <lb n="4-9"/><gap reason="ellipsis"/>
   
-  <lb n="10"/><seg function="intertitle">pāyiram</seg>
+  <seg function="intertitle"><lb n="10"/>pāyiram</seg>
+  <lb n="10ff."/><gap reason="ellipsis"/>
   
-  <pb n="149v"/>
-  <lb n="6"/>tēvaiyillai-y eṉṟu niccayam<pc>-</pc>ā
+  <pb facs="153" n="149v"/>
+    <lb n="1-5"/><gap reason="ellipsis"/>
+  <lb n="6"/>tēvaiyillai y<pc>-</pc>eṉṟu niccayam<pc>-</pc>ā
 <lb n="7" break="no"/>ka-k koḷḷa-k kaṭalīrkaḷ
-<lb n="8"/><seg function="completion-statement">patiṉ eṭṭā
+<seg function="completion-statement"><lb n="8"/>patiṉ eṭṭā
 <lb n="9" break="no"/>m atikāram muṟṟum</seg>
-<lb n="10"/><seg function="completion-statement">vētaviḷakkam
+<seg function="completion-statement"><lb n="10"/>vētaviḷakkam
 <lb n="11"/>muṟṟumu
 <lb n="12" break="no"/>kintu
 <lb n="13" break="no"/>tu</seg>
   
-    <pb n="150r"/>
-  <lb n="1"/><seg function="intertitle">vētaviḷakka-t-tokupp<pc>-</pc>ākiya vicuvāca-caṅ-
+    <pb facs="153" n="150r"/>
+  <seg function="intertitle"><lb n="1"/>vētaviḷakka-t-tokupp<pc>-</pc>ākiya vicuvāca-caṅ-
 <lb n="2" break="no"/>kīṟttaṉam</seg>
+    <lb n="3ff."/><gap reason="ellipsis"/>
 
-<pb n="153r"/>
-  <lb n="18"/><seg function="explicit">taviyāk kaṭavatu</seg> +
-<lb n="19"/><seg function="completion-statement">vētaviḷaka-t-tokkupp<pc>-</pc>āḵiya vicuvā-c-caṅkīrttaṉam
-<lb n="20"/>muṟṟum</seg> – 
-<lb n="21"/><seg function="colophon">lutterukalvīṉumaṟṟavinnāṭa patitā coṉṉa tappa
+<pb facs="155" n="152r"/>
+  <seg function="explicit"><lb n="18"/>taviyāk kaṭavatu +</seg>
+<seg function="completion-statement"><lb n="19"/>vētaviḷaka-t-tokkupp<pc>-</pc>āḵiya vicuvā-c-caṅkīrttaṉam
+<lb n="20"/>muṟṟum –</seg>
+<seg function="colophon"><lb n="21"/>lutterukalvīṉumaṟṟavinnāṭa patitā coṉṉa tappa
 <lb n="22" break="no"/>ṟai yoḻiyavum yecunātar tanta cattiya-vētam viḷa
 <lb n="23" break="no"/>ṅkavum naṉṉeṟi vaḻuvātaṉai varu<unclear reason="vowel_unclear">mi</unclear> māḻukip paramakati
 <lb n="24" break="no"/>yai-c ceravum vētaviḷakkam<pc>-</pc>āka vittal nāṭarāy
 <lb n="25"/>ṟomāṉ tiru-c-capai-c caṉṉiyāciyār<pc>-</pc>āy-k kāraṇa-ku
 
-  <pb n="153v"/>
-  <lb n="1" break="no"/>ru-v<pc>-</pc>ākiya tayiriya-nāta-rāca-riṣi-kuru-cuvāmi-y<pc>-</pc>avarkaḷ kārtā
+  <pb facs="156" n="152v" break="no"/>
+  <lb n="1"/>ru-v<pc>-</pc>ākiya tayiriya-nāta-rāca-riṣi-kuru-cuvāmi-y<pc>-</pc>avarkaḷ kārtā
    <lb n="2"/>tiru-v-avatārañ ceytu <g ref="#āyiram"/>7<g ref="#nūṟu"/>2<g ref="#pattu"/>8-m Āṇṭil kīlaka {varuṣam} vai
    <lb n="3" break="no"/>kāci {mācam} 2<g ref="#pattu"/>5 {tēti} y<pc>-</pc>elākuṟicci-maṭattil mūvāyi
 <lb n="4" break="no"/>rattu nāṉūṟṟup paṇṇiru kirantatt<pc>’</pc> aḷavoṭu tanta payaṉ
-<lb n="5" break="no"/>Ellārukkum naṉṟāka-v eḻuti mukintatu muṟṟum <term xml:lang="en">{symbol}</term></seg>
+<lb n="5" break="no"/>Ellārukkum naṉṟāka-v eḻuti mukintatu muṟṟum <g ref="#end_of_text"/></seg>
 
-<lb n="6"/><seg function="intertitle">poruḷ aṭṭavaṇai</seg>
-  
-  <pb n="156r"/>
-<lb n="23"/><seg function="completion-statement">poruḷ aṭṭavaṇai muṟṟum <term xml:lang="en">{symbol}</term></seg>
+<seg function="table-of-contents"><seg function="intertitle"><lb n="6"/>poruḷ aṭṭavaṇai</seg>
+      <lb n="7ff."/><gap reason="ellipsis"/>
+
+    <pb facs="159" n="156r"/>
+<seg function="completion-statement"><lb n="23"/>poruḷ aṭṭavaṇai muṟṟum <g ref="#end_of_text"/></seg>
+  </seg>
       
 </body></text></TEI>
