@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -9,7 +9,7 @@
          <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -19,9 +19,11 @@
                   </repository>
                   <idno type="shelfmark">Indien 468</idno>
                   <idno type="alternate"><idno>Tamoul 468</idno></idno>
-               </msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103997q</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/vd66w6766</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary>A Christian text: <foreign xml:lang="ta">pāraciyam</foreign> (?) to be made in the church every Sunday.</summary>
+                  <summary><p>A Christian text: <foreign xml:lang="ta">pāraciyam</foreign> (?) to be made in the church every Sunday.</p>
+
+<p>Description based on the examination of the original manuscript (July 2021).</p>  <p>Dimensions assessed at the time of examination.</p>       </summary>
                   
                <msItem synch="#U2" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">TBC</term></title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
@@ -50,7 +52,7 @@
                   <decoDesc>
                   </decoDesc>
                   <additions>
-                  <desc synch="#cover" type="shelfmark" subtype="cover end">BnF shelfmark sticker: <quote>INDIEN 468</quote>.</desc><desc synch="#U3">Illegible note in black ink on the verso.</desc></additions>
+                  <desc type="shelfmark" subtype="cover end">BnF shelfmark sticker: <quote>INDIEN 468</quote>.</desc><desc synch="#U3">Illegible note in black ink on the verso.</desc></additions>
                   <bindingDesc>
                      <binding><p><material resp="#cLI" cert="medium">Mahogany</material> woodcovers apparently fabricated in the BnF. 210 x 25 mm.</p></binding>
                   </bindingDesc>
@@ -66,7 +68,7 @@
                <additional>
                   <listBibl>
                      
-                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens. Bibliothèque nationale. Département des manuscrits.</title> Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f85">p. 66</ref>.</bibl></listBibl>
+                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens. Bibliothèque nationale. Département des manuscrits.</title> Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f85">p. 66</ref>.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. 1866-. <title>Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f227">f. 106r, <del>428</del> <del>431</del> 468</ref>. </bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
@@ -74,12 +76,12 @@
       <encodingDesc>
          
       <p>TBC.</p></encodingDesc>
-      <revisionDesc>
+      
+   <revisionDesc>
          
-      <change when="2021-09">Record created by Emmanuel FRANCIS</change></revisionDesc>
-   </teiHeader>
+      <change when="2021-09">Record created by Emmanuel FRANCIS</change><change when="2022-05">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, May 2022.</change></revisionDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
    <facsimile>
-   </facsimile>
+   <graphic url="https://didomena.ehess.fr/concern/data_sets/vd66w6766/manifest.json"/></facsimile>
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   
   <pb n="1r"/>

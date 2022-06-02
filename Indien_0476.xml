@@ -1,17 +1,15 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>??? (fragments of a poem)</title>
-         </titleStmt>
-         <editionStmt>
-            <p>Record edited by <persName>Margherita TRENTO</persName> <orgName>CNRS, CEIAS</orgName>.</p>
-         </editionStmt>
+            <title>Fragments of a poem (?)</title>
+         <editor><persName>Margherita TRENTO</persName><orgName>CNRS, CEIAS</orgName></editor></titleStmt>
+         
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -21,7 +19,7 @@
                   </repository>
                   <idno type="shelfmark">Indien 476</idno>
                   <idno type="alternate"><idno>Tamoul 476</idno></idno>
-               </msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1040041</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b525107043</idno></msIdentifier>
                <msContents class="#STM">
                   <summary><p>Fols. 1-2 (according to the roman numeration) contain numbered verses. Fols. 3-6 contain unnumbered stanzas organized in columns. There is no commentary. Vinson hypothesized that these fragments belong to an epic poem, perhaps the <title xml:lang="ta">Tēmpāvaṇi</title>, but a quick search for words in the verses on the digital text of the <title xml:lang="ta">Tēmpāvaṇi</title> on the Tamil Virtual Academy website has yielded not results. These verses do not seem to belong to that poem.</p>
                   </summary>
@@ -73,7 +71,7 @@
                   <listBibl>
                      
                      
-                  <bibl>Cabaton, 67</bibl><bibl>Vinson (BnF Indien 577), fol. 109.</bibl></listBibl>
+                  <bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f86">p. 67, no. 476</ref>.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. 1866-. <title>Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f233">f. 109r, no. <supplied reason="lost"><del>439</del></supplied> 476</ref>. </bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
@@ -81,7 +79,7 @@
       <encodingDesc>
          
       <p>TBA</p></encodingDesc>
-      <revisionDesc><change when="2019-12">Record created by Margherita Trento.</change><change when="2019-12">Modified by Giovanni Ciotti.</change><change when="2021-04">Converted to TEI by Charles Li.</change></revisionDesc>
-   </teiHeader>
+      
+   <revisionDesc><change when="2019-12">Record created by Margherita Trento.</change><change when="2019-12">Modified by Giovanni Ciotti.</change><change when="2021-04">Converted to TEI by Charles Li.</change><change when="2022-05">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, May 2022.</change></revisionDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
    <facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525107043/manifest.json"/></facsimile>
 </TEI>

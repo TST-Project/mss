@@ -1,15 +1,15 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Muslim Catechism?</title>
+            <title>Muslim Catechism (?)</title>
             
          <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -19,9 +19,10 @@
                   </repository>
                   <idno type="shelfmark">Indien 465</idno>
                   <idno type="alternate"><idno>Tamoul 465</idno></idno>
-               </msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103994w</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/sq87c2124</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary>A Muslim Catechism? [to be confirmed]</summary>
+                  <summary><p>A Muslim Catechism? [to be confirmed]</p>
+<p>Description based on the examination of the original manuscript (May 2021).</p>  <p>Dimensions assessed at the time of examination.</p>         </summary>
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Muslim Catechism?</term></title><textLang mainLang="tam" otherLangs="ara"/></msItem></msContents>
                <physDesc>
@@ -32,7 +33,7 @@
                            
                         <p>Stringhole enlarged with puncher.</p></support>
                         <extent>
-                           <measure unit="folio" quantity="6"/>
+                           <measure unit="folio" quantity="6">6 (U1).</measure>
                            <dimensions type="leaf" unit="mm">
                               <width quantity="205"/>
                               
@@ -50,19 +51,19 @@
                   <decoDesc>
                   </decoDesc>
                   <additions>
-                  <desc type="documenting-note">Paper note, written in black ink, pierced by one hole and threaded in the string:
-<quote rend="block">
-manuscrit <del>singalais</del> tamoul deposé
-à la bibliothèque du roi
-par monsieur gautier d’arc</quote>
-</desc><desc synch="#cover" type="shelfmark">BnF shelfmark sticker: <quote>INDIEN 465</quote>.</desc><desc synch="#U1" corresp="#T1" type="documenting-note" subtype="beginning">In black ink, on f1r: <quote rend="block">2°</quote></desc></additions>
+                  <desc type="documenting-note">Paper <locus facs="7">note</locus>, written in black ink, pierced by one hole and threaded in the string:
+<quote xml:lang="fr" rend="block">
+<lb n="1"/>manuscrit <del>singalais</del> tamoul deposé
+<lb n="2"/>à la bibliothèque du roi
+<lb n="3"/>par monsieur gautier d’arc</quote>
+</desc><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 465</quote> (<locus facs="5">front, cover, recto</locus>)..</desc><desc synch="#U1" corresp="#T1" type="documenting-note" subtype="marginal left">In black ink, on f1r: <quote rend="block">2°</quote> (<locus facs="9">f1r</locus>).</desc></additions>
                   <bindingDesc>
                      <binding><p>Original (?) <material>wood</material> covers.  </p></binding>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian" notAfter="1843">Precise date unknown.</origDate>
+                     <origDate calendar="gregorian" notAfter="1843">No internal date. Not dated by Vinson in Vinson et al. (1866-) nor by Cabaton (1912).</origDate>
                      
                   <origPlace>Tamilnadu.</origPlace></origin>
                   <provenance/>
@@ -71,35 +72,38 @@ par monsieur gautier d’arc</quote>
                <additional>
                   <listBibl>
                      
-                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens. Bibliothèque nationale. Département des manuscrits.</title> Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f85">p. 66</ref>.</bibl></listBibl>
+                  <bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens. Bibliothèque nationale. Département des manuscrits.</title> Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f85">p. 66, no. 465</ref>.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. 1866-. <title>Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f227">f. 106r, <del>428</del> <del>466</del> 465</ref>. </bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          
-      <p>The <emph rend="italic">puḷḷi</emph>s are supplied.   </p></encodingDesc>
-      <revisionDesc>
+      <p>   <emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.            </p></encodingDesc>
+      
+   <revisionDesc>
          
-      <change when="2021-05">Record created by Emmanuel FRANCIS</change></revisionDesc>
-   </teiHeader>
+      <change when="2021-05">Record created by Emmanuel FRANCIS</change><change when="2022-05">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, May 2022.</change></revisionDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
    <facsimile>
-   </facsimile>
+   <graphic url="https://didomena.ehess.fr/concern/data_sets/sq87c2124/manifest.json"/></facsimile>
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
-  <p>
-    <milestone facs="00" n="1r" unit="folio"/>
-    <milestone unit="left margin"/>
-    <lb n="1"/><seg function="blessing">vicu
+  
+  <ab>
+  <pb facs="8" n="1r"/>
+  
+    <seg function="blessing"><milestone unit="left margin"/>
+    <lb n="1"/>vicu
     <lb n="2" break="no"/>mi llā
     <lb n="3" break="no"/>yi rakumā
     <lb n="4" break="no"/>ni rra<choice><unclear reason="vowel_unclear">ki</unclear><unclear reason="vowel_unclear">kī</unclear></choice>m</seg>
-    <milestone unit="main text area"/> 
-    <lb n="1"/><seg function="incipit">callallāku Alaiki yo callam Āliki O</seg> Accaviki
+  
+    <seg function="incipit"><milestone unit="main text area"/> 
+    <lb n="1"/>callallāku Alaiki yo callam Āliki O</seg> Accaviki
     <lb n="2"/>Acumayiṉ yiracuva callalā Alaiki O callamm<pc>-</pc>uṭaiya
     <lb n="3"/><gap reason="ellipsis"/>
-  </p>
-  <p>
-    <milestone facs="00" n="8v=6v" unit="folio"/>
-        <lb n="6"/><gap reason="ellipsis"/> <seg function="explicit">y<pc>-</pc>itu A<choice><orig>ri</orig><reg>ṟi</reg></choice>yavum {<term xml:lang="en">pcl</term>}</seg>
-  </p>
+  
+      <pb facs="19" n="8v=6v"/>
+        <seg function="explicit"><lb n="6"/><gap reason="ellipsis"/> y<pc>-</pc>itu A<choice><orig>ri</orig><reg>ṟi</reg></choice>yavum <g ref="#pcl"/></seg>
+    
+    </ab>
 </body></text></TEI>
