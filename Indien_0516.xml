@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -9,7 +9,7 @@
          <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -19,10 +19,11 @@
                   </repository>
                   <idno type="shelfmark">Indien 516</idno>
                   <idno type="alternate"><idno>Tamoul 516</idno></idno>
-               </msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc104043q</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b10092723z</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary>A <title xml:lang="ta">Mantiracāttiram</title>, that is, a treatise on <foreign xml:lang="ta">mantra</foreign>s, with <foreign xml:lang="ta">cakkaram</foreign>s.
-</summary>
+                  <summary><p>A <title xml:lang="ta">Mantiracāttiram</title>, that is, a treatise on <foreign xml:lang="sa">mantra</foreign>s, with <foreign xml:lang="ta">cakkaram</foreign>s.</p>
+<p>Description based on the examination of the original manuscript (October 2021).</p>
+<p>Dimensions assessed at the time of examination.</p>      </summary>
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="true"><title xml:lang="ta">Mantiracāttiram</title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
@@ -33,7 +34,7 @@
                            
                         </support>
                         <extent>
-                           <measure unit="folio" quantity="54">[1] + 53 (U1 + U2).</measure>
+                           <measure unit="folio" quantity="54">{1} + 53 (U1 + U2).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
@@ -49,18 +50,18 @@
                         
                      </layoutDesc>
                   </objectDesc>
-                  <handDesc><handNote synch="#U1" scope="minor" script="tamil" medium="incised"><desc>Hand #1.</desc></handNote><handNote synch="#U2" scope="major" script="tamil" medium="incised"><desc>Hand #2.</desc></handNote></handDesc>
+                  <handDesc><handNote synch="#U1" scope="minor" script="tamil" medium="incised"><desc>Hand #1. Unblackened.</desc></handNote><handNote synch="#U2" scope="major" script="tamil" medium="incised soot"><desc>Hand #2.</desc></handNote></handDesc>
                   <decoDesc>
-                  <decoNote synch="#U2" type="diagram"><desc><foreign xml:lang="ta">cakkaram</foreign>s. </desc></decoNote></decoDesc>
+                  <decoNote synch="#U2" type="diagram"><desc>Diagrams (<foreign xml:lang="ta">cakkaram</foreign>s), on several pages, accompanying the <foreign xml:lang="sa">mantra</foreign>s.</desc></decoNote></decoDesc>
                   <additions>
-                  <desc synch="#U1" type="documenting-note">BnF register mark: <quote>R. 7642</quote> (<locus facs="1">f[1]r</locus>). </desc><desc synch="#U1" type="shelfmark">BnF shelfmark sticker: <quote>INDIEN 516</quote> (<locus facs="1">f[1]r</locus>). </desc><desc synch="#U2" type="title shelfmark documenting-note">Title, register mark, and shelfmark on a sticker, by different hands (<locus facs="56">f133v</locus>):
+                  <desc synch="#U1" type="documenting-note">BnF register mark: <quote>R. 7642</quote> (<locus facs="1">f[1]r</locus>). </desc><desc synch="#U1" type="shelfmark">BnF shelfmark sticker: <quote>INDIEN 516</quote> (<locus facs="1">f[1]r</locus>). </desc><desc synch="#U2" type="title shelfmark documenting-note">Title, register mark, and shelfmark on a sticker, by several different hands (<locus facs="56">f133v</locus>):
 <quote rend="block">
   <lb n="1"/><term xml:lang="ta">mantiram pala
 <lb n="2"/>cāstiram</term>
 <lb n="3"/>Mandirame. palassas-
 <lb n="4"/>-tirame R. 7642 n° 516
   </quote> 
-</desc><desc synch="#U2" type="intertitle" subtype="marginal">Marginal intertitles, on the recto or verso.</desc></additions>
+</desc><desc synch="#U2" type="intertitle" subtype="marginal left">Left-marginal intertitles, on the recto or verso. See selection below.</desc></additions>
                   <bindingDesc>
                      <binding><p>No covers. Stop device in palm leaf at one end of the string.</p></binding>
                   </bindingDesc>
@@ -70,66 +71,72 @@
                      <origDate calendar="gregorian" notAfter="1885">No internal date.</origDate>
                      
                   <origPlace>Tamilnadu.</origPlace></origin>
-                  <provenance/>
+                  <provenance><p>Unknown.</p></provenance>
                   <acquisition><p>Acquired, January 22nd, 1885, from M. Vivien. See BnF, département des Manuscrits, inventaire 2 = <title>Acquisitions: manuscrits et imprimés documentaires, 1848-1893</title>, no. 7642.</p></acquisition>
                </history>
                <additional>
                   <listBibl>
                      
-                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f91">p. 72, no. 516</ref>.</bibl><bibl>Vinson, Julien (1866-1867) &amp; Feer, Léon (n.d.) &amp; alii (s.n.). <title> Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f251">f. 118r, no. 516</ref>.</bibl></listBibl>
+                  <bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f91">p. 72, no. 516</ref>.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. 1866-. <title>Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. —  See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f251">f. 118r, no. 516</ref>.</bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          
-      <p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.</p></encodingDesc>
-      <revisionDesc>
+      <p>   <emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.            </p></encodingDesc>
+      
+   <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
-      <change when="2021-11">Record created by Emmanuel FRANCIS.</change></revisionDesc>
-   </teiHeader>
+      <change when="2021-11">Record created by Emmanuel FRANCIS.</change><change when="2022-05">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, May 2022.</change></revisionDesc></teiHeader>
    <facsimile>
    <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10092723z/manifest.json"/></facsimile>
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
-  
+  <ab>
   <pb facs="1" n="[1]r"/>
     
-  <lb n="1"/><seg function="title">mantiram palacāstiram</seg>
+  <seg function="title"><lb n="1"/>mantiram palacāstiram</seg>
    
     <pb facs="2" n="|1]r"/>
   <note xml:lang="en">blank</note>
+    </ab>
    
 </body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
-  
+  <ab>
+    
   <pb facs="2" n="1r"/>
   
-  <milestone unit="left-margin"/>
-  <lb n="1-3"/><seg function="intertitle">vayiravar Āvēcam</seg> <g ref="#pcs"/>
+  <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1-3"/>vayiravar Āvēcam</seg> <g ref="#pcs"/>
    
-  <milestone unit="main-text-area"/>
-  <lb n="1"/><seg function="incipit">Ātipiṟammā ~ viṣṇu ~ ruttiraṉ ~ y-immū  <gap reason="ellipsis"/></seg>
+  <seg function="incipit"><milestone unit="main-text-area"/>
+  <lb n="1"/>Ātipiṟammā ~ viṣṇu ~ ruttiraṉ ~ y-immū  <gap reason="ellipsis"/></seg>
     
 <pb facs="8" n="23r"/>
-    <milestone unit="left-margin"/>
-    <lb n="1-3"/><seg function="intertitle">mōkaṉam<note xml:lang="en">unblackened; later added</note></seg> <g ref="#pcs"/>
+    <seg function="intertitle"><milestone unit="left-margin"/>
+    <lb n="1-3"/>mōkaṉam<note xml:lang="en">unblackened; later added</note></seg> <g ref="#pcs"/>
 
-    <milestone unit="main-text-area"/>
-    <lb n="1"/><seg function="intertitle">mōkaṉam</seg> <g ref="#pcl"/> Om caruvacittimōkiṇi caruvakāruṇi <gap reason="ellipsis"/>
+    <seg function="intertitle"><milestone unit="main-text-area"/>
+    <lb n="1"/>mōkaṉam</seg> <g ref="#pcl"/> Om caruvacittimōkiṇi caruvakāruṇi <gap reason="ellipsis"/>
   
   <pb facs="22" n="102r"/>
-    <milestone unit="left-margin"/>
-    <lb n="1"/><seg function="blessing">hari Om</seg>
-  <lb n="1-2"/><seg function="blessing">naṉṟāka</seg>
-  <lb n="3-4"/><seg function="intertitle"><gap reason="ellipsis"/></seg>
+    <seg function="header">
+    <seg function="blessing"><milestone unit="left-margin"/>
+    <lb n="1"/>hari Om</seg>
+  <seg function="blessing"><lb n="1-2"/>naṉṟāka</seg>
+  <seg function="intertitle"><lb n="3-4"/><gap reason="ellipsis"/></seg>
+      </seg>      
   
 <pb facs="45" n="124r"/>
     <lb n="4"/><gap reason="ellipsis"/> <g ref="#pcl"/> 68 <g ref="#pcl"/> <seg function="completion-statement">civacatti <gap reason="ellipsis"/> m eḻuti mukintatu muṟ
-<lb n="5" break="no"/>ṟum</seg> <g ref="#pcl"/> <seg function="blessing">tirucciṟṟampalam</seg> <g ref="#pcl"/>
+<lb n="5" break="no"/>ṟum <g ref="#pcl"/></seg> <seg function="blessing">tirucciṟṟampalam <g ref="#pcl"/></seg>
 
   <pb facs="55" n="133r"/>
-   <lb n="2"/><seg function="explicit"><gap reason="ellipsis"/> tāṉē <g ref="#pcl"/> 2<g ref="#pattu"/> <g ref="#pcl"/> piṭittu <gap reason="ellipsis"/> ṉ eṉṉa</seg>
+   <seg function="explicit">
+     <lb n="1"/><gap reason="ellipsis"/><lb n="2"/><gap reason="ellipsis"/> tāṉē <g ref="#pcl"/> 2<g ref="#pattu"/> <g ref="#pcl"/> piṭittu <gap reason="ellipsis"/> ṉ eṉṉa</seg>
   
    <pb facs="56" n="133v"/>
   <note xml:lang="en">blank</note>
    
+    </ab>
 </body></text></TEI>

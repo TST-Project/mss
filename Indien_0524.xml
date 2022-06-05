@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Mayilattantānti    </title>
+            <title><title xml:lang="ta">Mayilattantānti</title></title>
          </titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
@@ -18,16 +18,18 @@
                   </repository>
                   <idno type="shelfmark">Indien 524</idno>
                   <idno type="alternate"><idno>Tamoul 524</idno></idno>
-               </msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc104051d</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/d217qx11b</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary><title xml:lang="ta">Mayilattantānti</title> or <title xml:lang="ta">Mayilaikapālīcurāntāti</title>. The work is here in 101 stanzas (<foreign xml:lang="ta">kāppu</foreign> + 100 stanzas), while the published edition in 1932 is in 25 stanzas (<foreign xml:lang="ta">kāppu</foreign> + 24 stanzas).</summary>
+                  <summary><p><title xml:lang="ta">Mayilattantānti</title> or <title xml:lang="ta">Mayilaikapālīcurāntāti</title>. The work is here in 101 stanzas (<foreign xml:lang="ta">kāppu</foreign> + 100 stanzas), while the published edition in 1932 is in 25 stanzas (<foreign xml:lang="ta">kāppu</foreign> + 24 stanzas).</p>
+<p>Description based on the examination of the original manuscript (July 2021).</p>
+<p>Dimensions assessed at the time of examination.</p>      </summary>
                   
-               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta"><term xml:lang="en">Invocation</term> = Kāppu</title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T3" defective="false"><title xml:lang="ta"><term xml:lang="en">Text</term> = Mūlam</title><textLang mainLang="tam"/></msItem></msContents>
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page (additional)</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta">Mayilattantānti: Kāppu</title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T3" defective="false"><title xml:lang="ta">Mayilattantānti: Mūlam</title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
                         <extent>
-                           <measure unit="folio" quantity="36">[1] + [1] + 34 (U1 + U2 + U3).</measure>
+                           <measure unit="folio" quantity="36">{1} + {1} + 34 (U1 + U2 + U3).</measure>
                            <dimensions type="leaf" unit="mm">
                               <width quantity="240"/>
                               <height quantity="30"/>
@@ -35,37 +37,35 @@
                         <dimensions type="object" unit="mm"><width quantity="240"/><height quantity="30"/><depth quantity="20"/></dimensions><dimensions type="written" unit="mm"/></extent>
                         
                         <condition>Relatively good state of preservation despite boreholes.</condition>
-                     <collation><desc xml:id="U1">1 folio = <emph rend="bold">tile page</emph>. Double folio. Verso blank. Hand #1.</desc><desc xml:id="U2">1 folio = <emph rend="bold">invocation = <term xml:lang="ta">Kāppu</term></emph>. Verso blank. Hand #2.</desc><desc xml:id="U3">34 folios = <emph rend="bold">text = <term xml:lang="ta">Mūlam</term></emph>. Tamil foliation 1-33, [34]. 6 lpp, except f33r (4 lines). f34v is blank and more dark = outside page of the original bundle. Hand #2.</desc></collation><support><measure unit="stringhole" quantity="2"/></support></supportDesc>
+                     <collation><desc xml:id="U1">1 folio = <emph rend="bold">Title Page (additional)</emph>. Double folio. Verso blank. Hand #1.</desc><desc xml:id="U2">1 folio = <emph rend="bold"><title xml:lang="ta">Mayilattantānti</title>: Invocation</emph>. Verso blank. Hand #2.</desc><desc xml:id="U3">34 folios = <emph rend="bold"><title xml:lang="ta">Mayilattantānti</title>: Text</emph>. Tamil foliation 1-33, <supplied reason="omitted">34</supplied>. 6 lpp, except f33r (4 lines). f34v is blank and more dark = outside page of the original bundle. Hand #2.</desc></collation><support><measure unit="stringhole" quantity="2"/></support></supportDesc>
                      <layoutDesc>
                         <layout columns="1" writtenLines="4 6"/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
                      
-                  <handNote synch="#U1" scope="minor" script="tamil" medium="incised"><desc>Hand #1.</desc></handNote><handNote synch="#U2 #U3" scope="major" medium="incised"><desc>Hand #2.</desc></handNote></handDesc>
-                  <additions><desc type="commenting-note" subtype="flyleaf inserted">Notes on a paper sheet.
-In black ink:
+                  <handNote synch="#U1" scope="minor" scribeRef="#ArielTitleScribe" script="tamil" medium="incised soot"><desc>Hand #1.</desc></handNote><handNote synch="#U2 #U3" scope="major" medium="incised soot"><desc>Hand #2.</desc></handNote></handDesc>
+                  <additions><desc type="commenting-note" subtype="detached">Notes on a <locus facs="7">paper sheet</locus>:
 <quote rend="block">
+  <lb n="1-3"/><note xml:lang="en">black ink</note>
   <lb n="1"/>R. 7294
   <lb n="2"/>acquis à Bayle
   <lb n="3"/>du Hâvre
-</quote>
-In black pencil:
-<quote rend="block">
-  <lb n="1"/>N° 5 (?)
+  <lb n="1-2"/><note xml:lang="en">black pencil</note>
+  <lb n="1"/>N°5 (?)
   <lb n="2"/>5 manuscrits
   </quote>
-</desc><desc type="commenting-note" subtype="flyleaf">Notes on a paper sheet (old brownish paper), in black ink:
+</desc><desc type="commenting-note" subtype="detached">Notes on a <locus facs="8">paper sheet</locus> (old brownish paper), in black ink:
 <quote rend="block">
   <lb n="1"/>sur la feuille de la couverture
 <lb n="2"/><term xml:lang="ta">civamaya<seg rend="grantha">m•</seg> mayilai kapāli
 <lb n="3"/>curāntāti</term>
 <lb n="4"/>en marge de la feuille
-<lb n="5"/><seg rend="grantha">hari Om</seg> [itself inside a <seg rend="grantha">Om</seg>]
+<lb n="5"/><term xml:lang="sa">hari Om<note xml:lang="en" place="foot">Itself inside a <term xml:lang="ta">Ōm</term></note></term>
 <lb n="6"/><term xml:lang="ta">mayilattantāti</term>
 <lb n="7"/>36 olles
 <lb n="8"/>230 x 30
-</quote></desc><desc type="commenting-note" subtype="flyleaf">Notes on a paper sheet, in black pencil (but one letter overwritten in black ink) :
+</quote></desc><desc type="commenting-note" subtype="detached">Notes on a <locus facs="9">paper sheet</locus>, in black pencil (but one letter overwritten in black ink) :
 <quote rend="block">
   <lb n="1"/><term xml:lang="ta">mayilai kapāli
 <lb n="2"/>curāntāti</term>
@@ -73,17 +73,17 @@ In black pencil:
 <lb n="4"/>240 mill sur 30
 <lb n="5"/>811 / 1 - 791
   </quote>
-</desc><desc synch="#U3" type="verse-numbering">From 1 to 100.</desc></additions>
+</desc><desc synch="#U3" type="verse-numbering" subtype="intertextual">From 1 to 100.</desc></additions>
                   <bindingDesc>
                      <binding>
-                        <p>No woodcover. Palm-leaf stop device for the string.</p>
+                        <p>No woodcover. <locus facs="6">Palm-leaf stop device</locus> for the string.</p>
                      </binding>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
                      <origDate calendar="gregorian" notAfter="1912">No internal date. </origDate>
-                     <origPlace>Tamil Nadu</origPlace>
+                     <origPlace>Tamil Nadu.</origPlace>
                   </origin>
                   <acquisition>
                      
@@ -96,79 +96,85 @@ In black pencil:
                      
                      
                      
-                  <bibl><title xml:lang="ta">Tirumayilai Yamaka Antāti</title> (1932). <title xml:lang="ta">Tirumayilai Yamaka Antāti</title>. <persName xml:lang="ta">Tiruvārūr Cōmacuntara Tēcikar paricōtittatu</persName>. <term xml:lang="ta">Camāja Veḷiyīṭu</term>.</bibl><bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f92">p. 73</ref>.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. (1866-). <title> Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f253">f. 119r, no. 524</ref>. </bibl></listBibl>
+                  <bibl><title xml:lang="ta">Tirumayilai Yamaka Antāti</title>. 1932. <title xml:lang="ta">Tirumayilai Yamaka Antāti</title>. <persName xml:lang="ta">Tiruvārūr Cōmacuntara Tēcikar paricōtittatu</persName>. <term xml:lang="ta">Camāja Veḷiyīṭu</term>.</bibl><bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f92">p. 73, no. 524</ref>.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. 1866-. <title> Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f253">f. 119r, no. 524</ref>. </bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      
+   <encodingDesc><p>   <emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.</p></encodingDesc><revisionDesc>
          
-      <change when="2021-07">Record created by Emmanuel FRANCIS.</change></revisionDesc>
-   <encodingDesc><p><p>
-  <emph rend="bold">Transliteration conventions</emph>
-</p>
-<p>
-  Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only).</p>
-<p><emph rend="bold">Abbreviations</emph></p>
-<p>c = column, f = folio, lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.</p></p></encodingDesc></teiHeader>
+      <change when="2021-07">Record created by Emmanuel FRANCIS.</change><change when="2022-05">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, May 2022.</change></revisionDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
    
-<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
-  
-  <pb n="1r"/>
-           <milestone n="1" unit="column"/>
+<facsimile><graphic url="https://didomena.ehess.fr/concern/data_sets/d217qx11b/manifest.json"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+  <ab>
+    
+  <pb facs="11" n="1r"/>
            
-           <lb n="1"/><seg function="blessing">civamaya<seg rend="grantha">m•</seg></seg>
+    <seg function="blessing">
+      <milestone n="1" unit="column"/>
+      <lb n="1"/>civamaya<seg rend="grantha">m•</seg></seg>
   
-  <milestone n="2" unit="column"/>
-  <lb n="1"/><seg function="title">mayilai-kapālī
+  <seg function="title"><milestone n="2" unit="column"/>
+  <lb n="1"/>mayilai-kapālī
   <lb n="2" break="no"/>curāntāti</seg>
  
+    </ab>
 </body>
    </text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
+    <ab>
+
+  <pb facs="15" n="1r"/>
+  <seg function="header">
+  <seg function="blessing"><milestone unit="left-margin"/>
+  <lb n="1"/><term xml:lang="sa">hari
+  <lb n="2"/>Om</term> <note xml:lang="en">the whole blessing <term xml:lang="sa">hari Om</term> is itself written inside a <term xml:lang="ta">Ōm</term></note></seg> 
+  <seg function="title"><lb n="3"/>mayilat
+  <lb n="4" break="no"/>tantāti <note xml:lang="en">unblackened; later addition</note></seg>
+    </seg>
   
-  <pb n="1r"/>
+  <seg function="satellite-stanza">
+    <milestone unit="main-text-area"/>
+  <lg><l><lb n="1"/>kūttāṭu <gap reason="ellipsis"/></l>
+  <l><lb n="2"/>kūttāṭu <gap reason="ellipsis"/></l>
+  <l><lb n="3"/>kūttāṭu <gap reason="ellipsis"/></l>
+  <l><lb n="4"/>kūttāṭu <gap reason="ellipsis"/> <g ref="#pcs"/></l></lg>
+  <lb n="5"/> <gap reason="ellipsis"/> <g ref="#pcs"/></seg>
   
-  <milestone unit="left-margin"/>
-  <lb n="1"/><seg function="blessing"><seg rend="grantha">hari
-  <lb n="2"/>Om</seg> [<term xml:lang="en">the whole blessing <seg rend="grantha">hari Om</seg> is itself written inside a <seg rend="grantha">O=m</seg></term>]</seg> 
-  <lb n="3"/><seg function="title">mayilat
-  <lb n="4" break="no"/>tantāti [<term xml:lang="en">unblackened; later addition</term>]</seg>
-  
-  <milestone unit="main-text-area"/>
-  <lb n="1"/><seg function="incipit">kūttāṭu</seg> <gap reason="ellipsis"/> ‡
-  <lb n="2"/>kūttāṭu <gap reason="ellipsis"/> ‡
-  <lb n="3"/>kūttāṭu <gap reason="ellipsis"/> ‡
-  <lb n="4"/>kūttāṭu <gap reason="ellipsis"/> ‡‡ <g ref="#pcs"/>
-  <lb n="5"/> <gap reason="ellipsis"/> <g ref="#pcs"/>
-  
+     </ab>
+      
   </body></text><text synch="#U3" corresp="#T3" xml:lang="ta"><body>
-  
-  <pb n="1r"/>
-  
-  <milestone unit="left-margin"/>
-  <lb n="1"/><seg function="blessing">naṉ
-  <lb n="2" break="no"/>ṟāka [<term xml:lang="en">the whole blessing</term> naṉṟāka <term xml:lang="en">is itself written inside a <seg rend="grantha">O=m</seg></term>]</seg>
-  
-  <milestone unit="main-text-area"/>
-  <lb n="1"/><seg function="incipit">cīrāka</seg> <gap reason="ellipsis"/> ‡
-  <lb n="2"/>cīrāka <gap reason="ellipsis"/> ‡
-  <lb n="3"/>cīrāka <gap reason="ellipsis"/> ‡
-  <lb n="4"/>cīrāka <gap reason="ellipsis"/> ‡‡ <g ref="#pcs"/> 1 <g ref="#pcs"/>
-    <lb n="5"/>tirumayilai  <gap reason="ellipsis"/> ‡
-    <lb n="6"/>tirumayilai  <gap reason="ellipsis"/> ‡
+    <ab>
 
- <pb n="34r"/>
+  <pb facs="20" n="1r"/>
   
-  <milestone unit="main-text-area"/>
-  <lb n="1-2"/><gap reason="ellipsis"/>
-  <lb n="3"/>tiruttaṉanta <gap reason="ellipsis"/> ‡
-  <lb n="4"/>tiruttaṉanta <gap reason="ellipsis"/> ‡
-  <lb n="5"/>tiruttaṉanta <gap reason="ellipsis"/> ‡
-     <lb n="6"/><seg function="explicit">tiruttaṉanta <gap reason="ellipsis"/></seg> ‡‡ <g ref="#pcs"/> <g ref="#nūṟu"/> <g ref="#pcs"/> <seg function="completion-statement">muṟṟu<seg rend="grantha">m•</seg></seg>
+  <seg function="blessing"><milestone unit="left-margin"/>
+  <lb n="1"/>naṉ
+  <lb n="2" break="no"/>ṟāka <note xml:lang="en">the whole blessing <term xml:lang="ta">naṉṟāka</term> is itself written inside a <term xml:lang="ta">Ōm</term></note></seg>
   
-  <milestone unit="right-margin"/>
-  <lb n="1"/><seg function="blessing">civacuppiṟa
+  <seg function="incipit"><milestone unit="main-text-area"/>
+  <lg><l><lb n="1"/>cīrāka <gap reason="ellipsis"/></l>
+  <l><lb n="2"/>cīrāka <gap reason="ellipsis"/></l>
+  <l><lb n="3"/>cīrāka <gap reason="ellipsis"/></l>
+  <l><lb n="4"/>cīrāka <gap reason="ellipsis"/> <g ref="#pcs"/> 1 <g ref="#pcs"/></l></lg></seg>
+    <lg><l><lb n="5"/>tirumayilai  <gap reason="ellipsis"/></l>
+    <l><lb n="6"/>tirumayilai  <gap reason="ellipsis"/></l></lg>
+
+ <pb facs="30" n="34r"/>
+  
+  <seg function="explicit">
+    <milestone unit="main-text-area"/>
+  <lg><l><lb n="1"/></l>
+  <l><lb n="2"/></l></lg>
+  <lg><l><lb n="3"/>tiruttaṉanta <gap reason="ellipsis"/></l>
+  <l><lb n="4"/>tiruttaṉanta <gap reason="ellipsis"/></l>
+  <l><lb n="5"/>tiruttaṉanta <gap reason="ellipsis"/></l>
+   <l><lb n="6"/>tiruttaṉanta <gap reason="ellipsis"/><g ref="#pcs"/> <g ref="#nūṟu"/> <g ref="#pcs"/></l></lg></seg> <seg function="completion-statement">muṟṟu<seg rend="grantha">m•</seg></seg>
+  
+  <seg function="blessing"><milestone unit="right-margin"/>
+  <lb n="1"/>civacuppiṟa
 <lb n="2" break="no"/>maṇiyar 
-<lb n="3"/>tuṇai</seg> <g ref="#pcs"/>
+<lb n="3"/>tuṇai <g ref="#pcs"/></seg>
 
+      </ab>
   </body></text></TEI>
