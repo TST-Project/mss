@@ -1,15 +1,15 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:lang="ta"><term xml:lang="en">Composite: Medical Treatises</term></title>
+            <title xml:lang="ta">Composite: Medical Treatises</title>
          <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -19,10 +19,13 @@
                   </repository>
                   <idno type="shelfmark">Indien 536</idno>
                   <idno type="alternate"><idno>Tamoul 536</idno></idno>
-               </msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc104065r</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/4j03d640x</idno></msIdentifier>
                <msContents class="#CM">
                   <summary><p>A composite manuscript containing leaves of various format and state of preservation. Contains medical treatises, that is <foreign xml:lang="ta">cūttiram</foreign>s by Pōkar, Akattiyar, Rōmarici, and Piramamuṉi (see U1, table of contents).</p>
-<p>The bundle is too fragile to be manipulated and exhaustively examined.</p>    
+<p>The bundle is too fragile to be manipulated and exhaustively examined.</p>  
+<p>Description based on the examination of the original manuscript (September 2021).</p>
+<p>Dimensions assessed at the time of examination.</p>      
+
 
                     </summary>
                   
@@ -31,7 +34,7 @@
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
                         <extent>
-                           <measure unit="folio" quantity="153">1 + 152 (U1 + U2). Folio count of 153 after Cabaton (1912).</measure>
+                           <measure unit="folio" quantity="153">{1} + {152} (U1 + U2). Folio count of 153 after Cabaton (1912).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
@@ -57,13 +60,13 @@
                   </objectDesc>
                   <handDesc>
                      
-                  <handNote synch="#U1" scope="minor" script="tamil" medium="incised"><desc>Hand #1.</desc></handNote><handNote synch="#U2" scope="major" script="tamil" medium="incised"><desc>Several different hands.</desc></handNote></handDesc>
+                  <handNote synch="#U1" scope="minor" script="tamil" medium="incised"><desc>Hand #1.</desc></handNote><handNote synch="#U2" scope="major" script="tamil" medium="incised soot"><desc>Several different hands.</desc></handNote></handDesc>
                   <additions>
                     
                     
                     
                     
-                  <desc synch="#U1" type="commenting-note">Contents in black pencil: <quote xml:lang="fr">Formulaire médical</quote> (f[1]r). </desc><desc synch="#U1" type="shelfmark">BnF shelfmark sticker: <quote>INDIEN 536</quote> (f[1]r). </desc><desc synch="#U2" type="intertitle" subtype="marginal left">Left marginal intertitles.
+                  <desc synch="#U1" type="commenting-note">Contents in black pencil: <quote xml:lang="fr">Formulaire médical</quote> (<locus facs="1">f[1]r</locus>). </desc><desc synch="#U1" type="shelfmark">BnF shelfmark sticker: <quote>INDIEN 536</quote> (<locus facs="1">f[1]r</locus>). </desc><desc synch="#U2" type="intertitle" subtype="marginal left">Left marginal intertitles.
 
 
 </desc></additions>
@@ -76,7 +79,7 @@
                <history>
                   <origin>
                      <origDate calendar="gregorian" notAfter="1886">No internal date?</origDate>
-                     <origPlace>South India, Tamilnadu.</origPlace>
+                     <origPlace>Tamilnadu.</origPlace>
                   </origin>
                   <acquisition>
                      
@@ -86,7 +89,7 @@
                   <listBibl>
                      
                      
-                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f94">p. 75</ref>.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. (1866-). <title> Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f257">f. 121r, no. 536</ref>. </bibl></listBibl>
+                  <bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f94">p. 75, no. 536</ref>.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. 1866-. <title> Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f257">f. 121r, no. 536</ref>. </bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
@@ -94,18 +97,19 @@
       <encodingDesc>
          
          
-      <p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.    </p></encodingDesc>
-      <revisionDesc>
+      <p>   <emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.</p></encodingDesc>
+      
+   <revisionDesc>
          
          
-      <change when="2021-11">Record created by Emmanuel FRANCIS.</change></revisionDesc>
-   </teiHeader>
+      <change when="2021-11">Record created by Emmanuel FRANCIS.</change><change when="2022-06">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, June 2022.</change></revisionDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
    <facsimile>
       
-   </facsimile>
+   <graphic url="https://didomena.ehess.fr/concern/data_sets/4j03d640x/manifest.json"/></facsimile>
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+  <ab>
   
-  <pb facs="00" n="[1]r"/>
+  <pb facs="7" n="[1]r"/>
   
   <seg function="title" cert="low"><lb n="1"/>yirumpu<seg rend="grantha">ma</seg>ruk=ku palayiḷa<seg rend="grantha">m</seg></seg>
    <seg function="table-of-contents"><lb n="2"/>pōkar cūt=tira<seg rend="grantha">m</seg> 6<g ref="#pattu"/>
@@ -114,8 +118,8 @@
       <lb n="4"/>rōmariṣi cūt=tira<seg rend="grantha">m</seg> 2<g ref="#pattu"/>5 
       <lb n="5"/>piramamuṉi cūt=tira<seg rend="grantha">m</seg> 5<g ref="#pattu"/></seg>
 
-    <pb facs="00" n="[1]v"/>
+    <pb n="[1]v"/>
   <note xml:lang="en">blank</note>
 
-  
+  </ab>
 </body></text></TEI>

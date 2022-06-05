@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -9,7 +9,7 @@
          
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -19,9 +19,12 @@
                   </repository>
                   <idno type="shelfmark">Indien 537</idno>
                   <idno type="alternate"><idno>Tamoul 537</idno></idno>
-               </msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1040661</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/8w32rd46j</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary>An incomplete copy of the <title xml:lang="ta">Toṉṉūl Viḷakkam</title> by Beschi. It starts with the prose commentary on <foreign xml:lang="ta">cūttiram</foreign> 39 (U2, f23r1) and ends with the commentary on <foreign xml:lang="ta">cūttiram</foreign> 200 (U2, f137v8), that is, the bundle starts with the last page of the <title xml:lang="ta">Collatikāram</title> and ends with the last page of the <title xml:lang="ta">Poruḷatikāram</title>.
+                  <summary><p>An incomplete copy of the <title xml:lang="ta">Toṉṉūl Viḷakkam</title> by Beschi. It starts with the prose commentary on <foreign xml:lang="ta">cūttiram</foreign> 39 (U2, f23r1) and ends with the commentary on <foreign xml:lang="ta">cūttiram</foreign> 200 (U2, f137v8), that is, the bundle starts with the last page of the <title xml:lang="ta">Collatikāram</title> and ends with the last page of the <title xml:lang="ta">Poruḷatikāram</title>.</p>
+<p>Description based on the examination of the original manuscript (August 2021).</p>
+<p>Dimensions assessed at the time of examination.</p>      
+
                     </summary>
                   
                <msItem synch="#U2" xml:id="T1" defective="true"><title xml:lang="ta">Toṉṉūl Viḷakkam: Mūlam &amp; Urai</title><textLang mainLang="tam"/></msItem><msItem synch="#U3" defective="true"><title xml:lang="ta"><term xml:lang="en">Additions</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U3a" xml:id="T2" defective="false"><title xml:lang="ta"><term xml:lang="en">Addition 1: TBC</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U3b" xml:id="T3" defective="false"><title xml:lang="ta"><term xml:lang="en">Addition 2:</term> Cūttiram <term xml:lang="en">145 and its commentary</term>.</title><textLang mainLang="tam"/></msItem></msContents>
@@ -29,7 +32,7 @@
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
                         <extent>
-                           <measure unit="folio" quantity="120">[1] + 115 + [2] + [2] (U1 + U2 + U3 + U4).</measure>
+                           <measure unit="folio" quantity="120">{1} + 115 + {2} + {2} (U1 + U2 + U3 + U4).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
@@ -43,7 +46,7 @@
                         
                         
                         <desc xml:id="U1">1 folios = <emph rend="bold">cover folio</emph>. No foliation. Double folio. 295 x 35 mm. Blank recto verso.
-</desc><desc xml:id="U2">115 folios = <emph rend="bold"><term xml:lang="ta">Toṉṉūl Viḷakkam: Mūlam &amp; Urai</term></emph>. Tamil foliation 23-137. Unblackened (except maybe f23r, with black now faded). 300 x 35 mm.
+</desc><desc xml:id="U2">115 folios = <emph rend="bold"><term xml:lang="ta">Toṉṉūl Viḷakkam</term>: Text &amp; Commentary</emph>. Tamil foliation 23-137. Unblackened (except maybe f23r, with black now faded). 300 x 35 mm.
 
 </desc><desc xml:id="U3">2 folios = <emph rend="bold">Additions</emph>. No foliation. 2 folios inserted between U2, f105 and f106. Unblackened. 300 x 35 mm. Verso blank. 
 </desc><desc xml:id="U3a">1 folio =<emph rend="bold">TBC</emph>.</desc><desc xml:id="U3b">1 folio = <emph rend="bold"><term xml:lang="ta">Cūttiram</term> 145 and its commentary</emph>.</desc><desc xml:id="U4">2 folios = <emph rend="bold">guard leaves</emph>. No foliation. 295 x 35 mm. Blank recto verso. f[2]v more dark = original outside page.</desc></collation>
@@ -55,20 +58,20 @@
                   </objectDesc>
                   <handDesc>
                      
-                  <handNote synch="#U2" scope="major" script="tamil" medium="incised"/><handNote synch="#U3" scope="minor" script="tamil" medium="incised"/></handDesc>
+                  <handNote synch="#U2" scope="major" script="tamil" medium="incised"><desc>Mostly unblackened.</desc></handNote><handNote synch="#U3" scope="minor" script="tamil" medium="incised"><desc>Unblackened.</desc></handNote></handDesc>
                   <additions>
                     
                     
                     
                     
-                  <desc synch="#U1" type="shelfmark">BnF shelfmark sticker: <quote>INDIEN 987</quote>. Covering an earlier sticker.</desc><desc synch="#U2 U3">The manuscript has been used: cross signs are found in the margin of some pages; paper bookmarks wrap some folios (U2, f91, f103, f126, f127 and U3a, f1). Two of these bookmarks are inscribed: <quote>vadivu<del><gap reason="illegible" quantity="2" unit="character"/></del> mutalaya</quote> (U2, f126; black ink) and <quote>1684 Suppt 2081</quote> (U3, f[1]; black pencil).</desc><desc synch="#U2" type="intertitle">In the left margin of f23v, f32r, f48r, f52r, f61r, f63v, f64r, f67v, f69v, f75v, f81v, f86r, f89r, f91r, f93v, f103r, f110v, f112v, f113r, f118v, f123v, f125v, f126r, f126v, f127r.
+                  <desc synch="#U1" type="shelfmark">BnF shelfmark sticker: <quote>INDIEN 987</quote> (<locus facs="6">f[1]r</locus>). Covering an earlier sticker.</desc><desc synch="#U2 #U3">The manuscript has been used: cross signs are found in the margin of some pages; paper bookmarks wrap some folios (U2, f91, f103, f126, f127 and U3a, f1). Two of these bookmarks are inscribed: <quote>vadivu<del><gap reason="illegible" quantity="2" unit="character"/></del> mutalaya</quote> (U2, f126; black ink) and <quote>1684 Suppt 2081</quote> (U3, f[1]; black pencil).</desc><desc synch="#U2" type="intertitle" subtype="marginal left">Left-mrginal intertitles on f23v, f32r, f48r, f52r, f61r, f63v, f64r, f67v, f69v, f75v, f81v, f86r, f89r, f91r, f93v, f103r, f110v, f112v, f113r, f118v, f123v, f125v, f126r, f126v, f127r.
 
 
 
 </desc></additions>
                   <bindingDesc>
                      <binding>
-                        <p>No wood covers. Palm leaf device to stop the string in one of the two holes.</p>
+                        <p>No wood covers. <locus facs="6">Palm leaf device</locus> to stop the string in one of the two holes.</p>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -86,7 +89,7 @@
                      
                      
                   <bibl><title xml:lang="ta">Toṉṉūl Viḷakkam</title>. Project Madurai. <title xml:lang="ta">Aintilakkaṇam Toṉṉūl Viḷakkam (Āciriyar - Vīramāmuṉivar)
-</title>. <ref target="https://www.projectmadurai.org/pm_etexts/utf8/pmuni0258.html">https://www.projectmadurai.org/pm_etexts/utf8/pmuni0258.html</ref></bibl><bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f94">p. 75</ref>.</bibl></listBibl>
+</title>. <ref target="https://www.projectmadurai.org/pm_etexts/utf8/pmuni0258.html">https://www.projectmadurai.org/pm_etexts/utf8/pmuni0258.html</ref></bibl><bibl>Cabaton, Antoine. 1912.. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f94">p. 75, no. 537</ref>.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. 1866-. <title>Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. —  See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f259">f. 122r, no. 537</ref>.</bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
@@ -94,18 +97,19 @@
       <encodingDesc>
          
          
-      <p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.    </p></encodingDesc>
-      <revisionDesc>
+      <p>   <emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.            </p></encodingDesc>
+      
+   <revisionDesc>
          
          
-      <change when="2021-08">Record created by Emmanuel FRANCIS.</change></revisionDesc>
-   </teiHeader>
+      <change when="2021-08">Record created by Emmanuel FRANCIS.</change><change when="2022-06">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, June 2022.</change></revisionDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
    <facsimile>
       
-   </facsimile>
+   <graphic url="https://didomena.ehess.fr/concern/data_sets/8w32rd46j/manifest.json"/></facsimile>
 <text synch="#U2" corresp="#T1" xml:lang="ta"><body>
-  
-  <pb facs="00" n="23r"/>
+  <ab>
+    
+  <pb facs="11" n="23r"/>
   
   <lb n="1"/><seg function="incipit" type="commentary">pāṇṭiṉāṭ<pc>’</pc> eṉavum ~ malaiyamāṉaṭu ~ malāṭ<pc>’</pc> eṉavum ~ tañcāŪr ~ tañcai y<pc>-</pc>eṉavum ~</seg> <gap reason="ellipsis"/>
   <lb n="2"/><gap reason="ellipsis"/>
@@ -116,14 +120,14 @@
   <lb n="7"/><gap reason="ellipsis"/>
   <lb n="8"/><gap reason="ellipsis"/> <seg function="completion-statement">y<pc>-</pc>eḻu<supplied reason="omitted">t</supplied>tatikāramuṟṟum</seg> <g ref="#pcs"/>
 
-  <pb facs="00" n="23v"/>
+  <pb facs="14" n="23v"/>
   
   <milestone unit="left-margin"/>
   <lb n="1"/><seg function="intertitle">collatikāram</seg>
   <lb n="2"/><seg function="intertitle">mutaloṟṟu-c-co
   <lb n="3" break="no"/>ṟ-potuviyal</seg>
 
-  <pb facs="00" n="32r"/>
+  <pb facs="21" n="32r"/>
   
   <milestone unit="left-margin"/>
   <lb n="1"/><seg function="intertitle">Iraṇṭā
@@ -132,14 +136,14 @@
   <lb n="4" break="no"/>lāvatu
   <lb n="5"/>vēṟṟumaiyiyal</seg>
 
-  <pb facs="00" n="48r"/>
+  <pb facs="44" n="48r"/>
   
   <milestone unit="left-margin"/>
   <lb n="1"/><seg function="intertitle">Iraṇṭāvatu
   <lb n="2"/>pakupatappe
   <lb n="3" break="no"/>yariyal</seg>
   
-   <pb facs="00" n="52r"/>
+   <pb facs="46" n="52r"/>
   
   <milestone unit="left-margin"/>
   <lb n="1"/><seg function="intertitle">mūṉṟāvatu
@@ -149,26 +153,26 @@
   <lb n="5" break="no"/>ppeyari
   <lb n="6" break="no"/>yal</seg>
 
-   <pb facs="00" n="89r"/>
+   <pb facs="71" n="89r"/>
   
   <milestone unit="left-margin"/>
   <lb n="1"/><seg function="intertitle">poruḷa
   <lb n="2" break="no"/>tikāram</seg>
   
-  <pb facs="00" n="91r"/>
+  <pb facs="75" n="91r"/>
   
   <milestone unit="left-margin"/>
   <lb n="1"/><seg function="intertitle">mutalā
   <lb n="2" break="no"/>vatu pati
   <lb n="3" break="no"/>kam</seg>
   
-  <pb facs="00" n="126r"/>
+  <pb facs="85" n="126r"/>
   
   <milestone unit="left-margin"/>
   <lb n="1"/>vaṭivu mu
   <lb n="2" break="no"/>taliya
 
-  <pb facs="00" n="137v"/>
+  <pb facs="95" n="137v"/>
   
    <lb n="3"/><seg function="explicit" type="root-text">2<g ref="#nūṟu"/> ~ cū ~ mupporu ḷaivaḻi munnāṉ kakatutiṇai ‡ muppuṟat tiṇaita<sic>v</sic>a muṟai<del>ye</del><corr>yai</corr>n ‡ turimai yeṉavivai poru<sic>ṉū</sic>ṟ ṟokai
   <lb n="4"/> yē ‡‡</seg> ~ El ~ vaḻukku <gap reason="ellipsis"/>
@@ -177,27 +181,30 @@
    <lb n="7"/><gap reason="ellipsis"/> <seg function="explicit" type="commentary">cūttiramākat tantavā
   <lb n="8"/>ṟu kāṇka</seg> <g ref="#pcs"/> <g ref="#pcs"/> <seg function="completion-statement">poruḷ atikāramuṟṟum</seg> <g ref="#pcs"/>
 
-  <lb n="1"/>
-  
+</ab>  
 </body></text><text synch="#U3a" corresp="#T2" xml:lang="ta"><body>
-  
-  <pb facs="00" n="[1]r"/>
+  <ab>
+    
+  <pb facs="98" n="[1]r"/>
   
   <lb n="1"/><seg function="incipit">natantar</seg>
   <lb n="2"/>~ tuviku pall orumai <gap reason="ellipsis"/> <space/> moḻiyē
   <lb n="3"/>yaṭai moḻi ~ <seg function="explicit">yivvavai vaṭamoḻiyiyal payaṉ eṉavē</seg> ~ 
   <lb n="4"/><seg function="completion-statement">collatikāramuṟṟum</seg> <g ref="#pcl"/>
   
-  <pb facs="00" n="[1]v"/><note xml:lang="en">blank</note>
+  <pb n="[1]v"/><note xml:lang="en">blank</note>
     
+    </ab>
    </body></text><text synch="#U3b" corresp="#T3" xml:lang="ta"><body>
-    
-  <pb facs="00" n="[2]r"/>
+    <ab>
+      
+  <pb facs="101" n="[2]r"/>
   
-   <lb n="1"/>100 45 ~ cū ~ <seg function="incipit" type="root-text">vaḻakkut tēṟṟan tōṟṟa meṉavim</seg> ‡ <seg function="explicit" type="root-text"> ūvakaip paṭumā moḻiyum poruḷē</seg> ‡‡ El ~ <seg function="incipit" type="commentary">poruṭ kūṟu</seg>
+   <lb n="1"/><g ref="#nūṟu"/>45 ~ cū ~ <seg function="incipit" type="root-text">vaḻakkut tēṟṟan tōṟṟa meṉavim</seg> ‡ <seg function="explicit" type="root-text"> ūvakaip paṭumā moḻiyum poruḷē</seg> ‡‡ El ~ <seg function="incipit" type="commentary">poruṭ kūṟu</seg>
   <lb n="2"/><gap reason="ellipsis"/>
   <lb n="3"/><gap reason="ellipsis"/><seg function="explicit" type="commentary">vakaiyu ḷaṭaṅkum</seg> ~
   
-   <pb facs="00" n="[2]v"/><note xml:lang="en">blank</note>
+   <pb n="[2]v"/><note xml:lang="en">blank</note>
    
+      </ab>
 </body></text></TEI>
