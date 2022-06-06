@@ -4,7 +4,7 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>Composite: 5 items</title>
+				<title>Collection (5 items, 5 works)</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>TST Project</publisher>
@@ -21,7 +21,8 @@
 						<idno type="alternate"><idno>Tamoul 545</idno></idno>
 					<idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc104073f</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/ns064d85j</idno></msIdentifier>
 					<msContents class="#CM">
-						<summary><p>A composite manuscript containing 5 items.</p></summary>
+						<summary><p>A composite manuscript containing 5 items.</p>
+ <p>Description based on the examination of the original manuscript (August 2021).</p>  <p>Dimensions assessed at the time of examination.</p>      </summary>
 
 					</msContents>
 					<physDesc>
@@ -36,15 +37,15 @@
 										<depth quantity="30"/>
 									</dimensions><dimensions type="written" unit="mm"/></extent>
 
-								<condition>Relatively good state of preservation. Very few boreholes
-									and truncation.</condition>
+								<condition>Relatively good state of preservation. Very few boreholes and truncation.</condition>
 								<support><measure unit="stringhole"/></support>
-								<collation/>
+								<collation><desc xml:id="Indien545a"/><desc xml:id="Indien545b"/><desc xml:id="Indien545c"/><desc xml:id="Indien545d"/><desc xml:id="Indien545e"/></collation>
 							</supportDesc>
 							<layoutDesc> </layoutDesc>
 						</objectDesc>
 						<handDesc> </handDesc>
-						<additions><desc type="documenting-note" subtype="inserted">Paper sheet with note in black ink: <quote xml:lang="la" rend="block"> <lb n="1"/>Tiruvadikanesanam <lb n="2"/>(Tamoul)</quote></desc><desc type="documenting-note">BnF register information, in black ink: <quote>R.C. 7881</quote> (545a, U1, f[1]r).</desc><desc type="shelfmark">BnF shelfmark sticker: <quote>INDIEN 545</quote> (545a, U1, f[1]r).</desc></additions>
+						<additions><desc type="documenting-note" subtype="inserted">Note in black ink on a small inserted <locus facs="2">paper sheet</locus>:
+<quote xml:lang="la" rend="block"> <lb n="1"/>Tiruvadikanesanam <lb n="2"/>(Tamoul)</quote></desc><desc type="shelfmark">BnF shelfmark sticker: <quote>INDIEN 545</quote> (Indien 545a, U1, <locus facs="11">f[1]r</locus>).</desc><desc synch="#Indien545a" type="documenting-note">BnF register information, in black ink: <quote>R.C. 7881</quote> (Indien 545a, U1, <locus facs="11">f[1]r</locus>).</desc></additions>
 						<bindingDesc>
 							<binding>
 								<p>No woodcovers. </p>
@@ -57,12 +58,8 @@
 							<origPlace>South India, Tamilnadu.</origPlace>
 						</origin>
 						<acquisition>
-							<p>Acquired, December 18th, 1886, from M. Haas. See BnF, département des
-								Manuscrits, inventaire 2 = <title>Acquisitions: manuscrits et
-									imprimés documentaires, 1848-1893</title>, no.
-							7881.</p></acquisition>
-						<provenance><p>Owned by <persName ref="https://catalogue.bnf.fr/ark:/12148/cb109559175" key="Haas, Frédéric (1843-1915)"> Frédéric Haas</persName>
-								(1843-1915).</p></provenance>
+							<p>Acquired, December 18th, 1886, from M. Haas. See BnF, département des Manuscrits, inventaire 2 = <title>Acquisitions: manuscrits et imprimés documentaires, 1848-1893</title>, no. 7881.</p></acquisition>
+						<provenance><p>Owned by <persName ref="https://catalogue.bnf.fr/ark:/12148/cb109559175" key="Haas, Frédéric (1843-1915)"> Frédéric Haas</persName> (1843-1915).</p></provenance>
 					</history>
 					<additional>
 						<listBibl>
@@ -72,11 +69,7 @@
 
 
 							
-						<bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits
-									indiens, indo-chinois &amp; malayo-polynésiens</title>.
-								Bibliothèque nationale. Département des manuscrits. Paris: E.
-								Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f95">p.
-									76</ref>.</bibl></listBibl>
+						<bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f95">p. 76, no. 545</ref>.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. 1866-. <title>Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. —  See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f261">f. 123r, no. 545</ref>.</bibl></listBibl>
 					</additional>
 				</msDesc>
 			</sourceDesc>
@@ -84,13 +77,10 @@
 		
 		<encodingDesc>
 			
-		<p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph>
-				restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm =
-				left margin, r = recto, rm = right margin, U = unit (codicological and/or textual),
-				v = verso. </p></encodingDesc>
+		<p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.</p></encodingDesc>
 	<xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
 
 			
-		<change when="2021-08">Record created by Emmanuel FRANCIS.</change></revisionDesc></teiHeader>
+		<change when="2021-08">Record created by Emmanuel FRANCIS.</change><change when="2022-06">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, June 2022.</change></revisionDesc></teiHeader>
 
 <facsimile><graphic url="https://didomena.ehess.fr/concern/data_sets/ns064d85j/manifest.json"/></facsimile></TEI>

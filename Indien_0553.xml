@@ -1,14 +1,14 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>Turukkamataputtakam</title>
+				<title><term xml:lang="ta">Turukkamataputtakam</term></title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>TST Project</publisher>
-				<date>2021</date>
+				<date>2022</date>
 			</publicationStmt>
 			<sourceDesc>
 				<msDesc>
@@ -19,16 +19,21 @@
 						</repository>
 						<idno type="shelfmark">Indien 553</idno>
 						<idno type="alternate"><idno>Tamoul 553</idno></idno>
-					</msIdentifier>
+					<idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1040814</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/wm117w34s</idno></msIdentifier>
 					<msContents class="#STM">
-						<summary>TBC. White powder on right edge of most folios.</summary>
+						<summary><p>TBC.</p>
+<p>White powder on right edge of most folios.</p>
+<p>Description based on the examination of the original manuscript (August 2021).</p>
+<p>Dimensions assessed at the time of examination.</p>
 
-					<msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta"><term xml:lang="en">TBC</term></title><textLang mainLang="tam"/></msItem></msContents>
+</summary>
+
+					<msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page (additional)</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta"><term xml:lang="en">TBC</term></title><textLang mainLang="tam"/></msItem></msContents>
 					<physDesc>
 						<objectDesc form="pothi">
 							<supportDesc material="palm-leaf">
 								<extent>
-									<measure unit="folio" quantity="227">1 + 226 (U1 + U2).</measure>
+									<measure unit="folio" quantity="227">{1} + 226 (U1 + U2).</measure>
 									<dimensions type="leaf" unit="mm">
 
 
@@ -43,18 +48,15 @@
 
 								<condition>Excellent state of preservation.</condition>
 								<support><measure unit="stringhole" quantity="2"/></support>
-								<collation><desc xml:id="U1">1 folio = <emph rend="bold">Title Page</emph>. No foliation. Verso blank. Truncated. 265 x
-										35 mm.</desc><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U2">226 folios
-										= <emph rend="bold">TBC</emph>. Tamil foliation 1-226. f44v,
-										f104v, f199v blank. 5 lpp. 375 x 40 mm.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation>
+								<collation><desc xml:id="U1">1 folio = <emph rend="bold">Title Page (additional)</emph>. No foliation. Verso blank. Truncated. 265 x 35 mm.</desc><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U2">226 folios = <emph rend="bold">TBC</emph>. Tamil foliation 1-226. f44v, f104v, f199v blank. 5 lpp. 375 x 40 mm.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation>
 							</supportDesc>
 							<layoutDesc> </layoutDesc>
 						</objectDesc>
 						<handDesc>
 
 							
-						<handNote synch="#U1" scope="sole" scribeRef="#ArielTitleScribe" script="tamil" scriptRef="#tamilPulliRegular" medium="incised"><desc>Hand #1.</desc></handNote><handNote synch="#U2" scope="major" script="tamil" medium="incised"><desc>Hand #2.</desc></handNote></handDesc>
-						<additions><desc synch="#U1" type="documenting-note">BnF sticker <quote>DON N° <space type="vacat"/></quote>.</desc></additions>
+						<handNote synch="#U1" scope="sole" scribeRef="#ArielTitleScribe" script="tamil" scriptRef="#tamilPulliRegular" medium="incised"><desc>Hand #1. Unblackened.</desc></handNote><handNote synch="#U2" scope="major" script="tamil" medium="incised soot"><desc>Hand #2.</desc></handNote></handDesc>
+						<additions><desc synch="#U1" type="documenting-note">BnF sticker <quote>DON N° <space type="vacat"/></quote> (<locus facs="8">f[1]r</locus>).</desc></additions>
 						<bindingDesc>
 							<binding>
 								<p>Original woodcovers. 370 x 35 mm.</p>
@@ -77,58 +79,55 @@
 
 
 							
-						<bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>.
-								Bibliothèque nationale. Département des manuscrits. Paris: E.
-								Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f96">p.
-									77</ref>.</bibl></listBibl>
+						<bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f96">p. 77, no. 553</ref>.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. 1866-. <title>Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. —  See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f263">f. 125r, no. 553</ref>.</bibl></listBibl>
 					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
-		<revisionDesc>
-
-			
-		<change when="2021-08">Record created by Emmanuel FRANCIS.</change></revisionDesc>
+		
 		<encodingDesc>
 			
-		<p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph>
-				restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm =
-				left margin, r = recto, rm = right margin, U = unit (codicological and/or textual),
-				v = verso. </p></encodingDesc>
-	</teiHeader>
+		<p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.</p></encodingDesc>
+	<revisionDesc>
+
+			
+		<change when="2021-08">Record created by Emmanuel FRANCIS.</change><change when="2022-06">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, June 2022.</change></revisionDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
 
 	
 	
-<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+<facsimile><graphic url="https://didomena.ehess.fr/concern/data_sets/wm117w34s/manifest.json"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+  <ab>
+    
+  <pb facs="5" n="[1]r"/>
   
-  <pb n="[1]r"/>
-  
-  <milestone n="1" unit="column"/>
+  <seg function="title"><milestone n="1" unit="column"/>
   <lb n="1"/>Iḵtu
   
   <milestone n="2" unit="column"/>
-  <lb n="1"/><seg function="title">turukkamata
+  <lb n="1"/>turukkamata
   <lb n="2" break="no"/>puttakam</seg>
   
-</body>
-	</text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
+    </ab>
+</body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
+    <ab>
+
+  <pb facs="9" n="[1]r"/>
+      
+  <seg function="incipit"><lb n="1"/>
+  Ala Amtulillā</seg> <gap reason="ellipsis"/>
   
-  <pb n="[1]r"/>
-  <lb n="1"/>
-  <seg function="incipit">Ala Amtulillā</seg> <gap reason="ellipsis"/>
-  
-  <pb n="44r"/>
+  <pb facs="14" n="44r"/>
   <lb n="3"/><gap reason="ellipsis"/> ṉ ākavum
   
-  <pb n="45r"/>
+  <pb facs="17" n="45r"/>
   <lb n="1"/>y<pc>-</pc>inta kitāv<pc>-</pc>ākiṟa <gap reason="ellipsis"/>
   
-  <pb n="104r"/>
-  <lb n="3"/><seg function="completion-statement"><gap reason="ellipsis"/> māṉavi carit=tiram mukintatu muṟṟum</seg> <g ref="#pcl"/>
+  <pb facs="20" n="104r"/>
+  <seg function="completion-statement"><lb n="3"/><gap reason="ellipsis"/> māṉavi carit=tiram mukintatu muṟṟum</seg> <g ref="#pcl"/>
   
-  <pb n="105r"/>
-  <milestone unit="left-margin"/>
-  <lb n="1"/><seg function="intertitle">pis·millāki
+  <pb facs="23" n="105r"/>
+  <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1"/>pis·millāki
   <lb n="2"/><gap reason="ellipsis"/>
   <lb n="3"/><gap reason="ellipsis"/>
   <lb n="4"/>m<pc>-</pc>uṭaiya <gap reason="ellipsis"/>
@@ -138,19 +137,21 @@
   <milestone unit="main-text-area"/>
   <lb n="1"/>Allā <gap reason="ellipsis"/>
   
-  <pb n="199v"/>
+  <pb facs="26" n="199v"/>
   <lb n="1"/><gap reason="ellipsis"/>
   <lb n="2"/><gap reason="ellipsis"/> Aṉāppivit=ta
                     
-  <pb n="200r"/>
-  <milestone unit="left-margin"/>
-  <lb n="1-3"/>
-  <seg function="intertitle">periyaṉūṟuṉāmā<gap reason="ellipsis"/></seg>
-    <milestone unit="main-text-area"/>
+  <pb facs="29" n="200r"/>
+      
+  <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1-3"/>periyaṉūṟuṉāmā<gap reason="ellipsis"/></seg>
+    
+      <milestone unit="main-text-area"/>
   <lb n="1"/>vāṉamum · pūmiyum · poḻutum · <gap reason="ellipsis"/>
   
-  <pb n="226v"/>
-  <lb n="5"/><gap reason="ellipsis"/><seg function="explicit">m uṇṭām</seg>
+  <pb facs="35" n="226v"/>
+  <seg function="explicit"><lb n="5"/><gap reason="ellipsis"/>m uṇṭām</seg>
 
-		</body>
+      </ab>
+</body>
 	</text></TEI>
