@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?tst sanitized="true"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -20,19 +19,20 @@
                   </repository>
                   <idno type="shelfmark">Indien 578</idno>
                   <idno type="alternate"><idno>Tamoul 578</idno></idno>
-               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1026234</idno></msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1026234</idno><idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1026234</idno></msIdentifier>
                <msContents class="#CM">
-                  <summary><p>A catalogue of the Tamil manuscripts in the now BnF by Léon Feer, according to the title on the spine.</p>
-<p>The codex contains:
+                  <summary><p xmlns="http://www.tei-c.org/ns/1.0">A catalogue of the Tamil manuscripts in the now BnF by Léon Feer, according to the title on the spine.</p>
+<p xmlns="http://www.tei-c.org/ns/1.0">The codex contains:
 <list rend="numbered">
   <item>a list of 63 manuscripts (Tamil, Sanskrit, Telugu, Kannada) sent by the Jesuits of Pondicherry (U1)</item>
   <item>an alphabetical list of the Tamil works in the BnF manuscripts: title in Tamil transcription, title in Roman transliteration, translation in French (in red ink), and shelfmark (U2)</item>
   </list>
 </p>
-<p>Composite manuscript described as a multi-text manuscript for the sake of convenience.</p>
-<p>Description based on the digital images available on Gallica.</p></summary>
+<p xmlns="http://www.tei-c.org/ns/1.0">Composite manuscript described as a multi-text manuscript for the sake of convenience.</p>
+<p xmlns="http://www.tei-c.org/ns/1.0">Description based on the digital images available on Gallica.</p>
+   <p>Dimensions after Cabaton (1912).</p>      </summary>
                   
-               <msItem synch="#U1" xml:id="T1" defective="false"><title>list of 63 manuscripts (Tamil, Sanskrit) sent by the Jesuits of Pondicherry</title><textLang mainLang="fra" otherLangs="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title><term xml:lang="en">alphabetical list of the Tamil works in the BnF manuscripts</term></title><textLang mainLang="tam"/></msItem></msContents>
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="fr">list of 63 manuscripts (Tamil, Sanskrit) sent by the Jesuits of Pondicherry</title><textLang mainLang="fra" otherLangs="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta"><term xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">alphabetical list of the Tamil works in the BnF manuscripts</term></title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="paper">
@@ -47,8 +47,8 @@
                         
                      <collation>
                      
-                     <desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="u1">2 folios = front <emph rend="bold">guard leaves</emph>. No foliation.</desc><desc xml:id="U1">4 folios = <emph rend="bold">list of 63 manuscripts (Tamil, Sanskrit) sent by the Jesuits of Pondicherry</emph>. No foliation. f1v, f2v, f3rv, f4rv blank.</desc><desc xml:id="U2">64 folios = <emph rend="bold">alphabetical list of the Tamil works in the BnF manuscripts</emph>. Arabic foliation 1-64. Versos blank.
-</desc><desc xml:id="u2">7 folios = front <emph rend="bold">guard leaves</emph>. No foliation.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>. </desc></collation><condition>Very good state of preservation.</condition><support><measure unit="stringhole"/></support></supportDesc>
+                     <desc xml:id="CoverFront">the <emph xmlns="http://www.tei-c.org/ns/1.0" rend="bold">front cover</emph>.</desc><desc xml:id="u1">2 folios = front <emph xmlns="http://www.tei-c.org/ns/1.0" rend="bold">guard leaves</emph>. No foliation.</desc><desc xml:id="U1">4 folios = <emph xmlns="http://www.tei-c.org/ns/1.0" rend="bold">list of 63 manuscripts (Tamil, Sanskrit) sent by the Jesuits of Pondicherry</emph>. No foliation. f1v, f2v, f3rv, f4rv blank.</desc><desc xml:id="U2">64 folios = <emph xmlns="http://www.tei-c.org/ns/1.0" rend="bold">alphabetical list of the Tamil works in the BnF manuscripts</emph>. Arabic foliation 1-64. Versos blank.
+</desc><desc xml:id="u2">7 folios = front <emph xmlns="http://www.tei-c.org/ns/1.0" rend="bold">guard leaves</emph>. No foliation.</desc><desc xml:id="CoverBack">the <emph xmlns="http://www.tei-c.org/ns/1.0" rend="bold">back cover</emph>. </desc></collation><condition>Very good state of preservation.</condition><support><measure unit="stringhole"/></support></supportDesc>
                      <layoutDesc>
                         
                      </layoutDesc>
@@ -56,7 +56,7 @@
                   <handDesc>
                      
                   <handNote synch="#U1" scope="major" script="latin" medium="ink black"/><handNote synch="#U2" scope="major" script="latin tamil" medium="ink black red"/></handDesc>
-                  <additions><desc synch="#cover" type="title" subtype="spine">Title printed on sticker <quote xml:lang="fr">MANUSCRITS TAMOUL - CATALOGUE L. FEER</quote> (<locus facs="161">spine</locus>). </desc><desc synch="#cover" type="shelfmark" subtype="spine">BnF shelfmark sticker: <quote>INDIEN 578</quote> (<locus facs="161">spine</locus>).</desc><desc synch="#cover" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote><del>TAMOUL 578</del></quote> (<locus facs="2">front cover, recto</locus>). </desc><desc synch="#cover" type="shelfmark" subtype="spine">BnF shelfmark sticker: <quote>INDIEN 578</quote> (<locus facs="2">front cover, recto</locus>). </desc><desc synch="#cover" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 577</quote> (<locus facs="2">front cover, recto</locus>). </desc></additions>
+                  <additions><desc type="title" subtype="spine">Title printed on a sticker (<locus xmlns="http://www.tei-c.org/ns/1.0" facs="161">spine</locus>): <quote xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr" rend="block">MANUSCRITS TAMOUL - CATALOGUE L. FEER</quote> </desc><desc type="shelfmark" subtype="spine">BnF shelfmark sticker: <quote xmlns="http://www.tei-c.org/ns/1.0">INDIEN 578</quote> (<locus xmlns="http://www.tei-c.org/ns/1.0" facs="161">spine</locus>).</desc><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote xmlns="http://www.tei-c.org/ns/1.0"><del>TAMOUL 578</del></quote> (<locus xmlns="http://www.tei-c.org/ns/1.0" facs="2">front cover, verso</locus>).</desc><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote xmlns="http://www.tei-c.org/ns/1.0">INDIEN 578</quote> (<locus xmlns="http://www.tei-c.org/ns/1.0" facs="2">front cover, verso</locus>). </desc></additions>
                   <bindingDesc>
                      <binding>
                         <p>Hard paper covers.</p>
@@ -75,18 +75,18 @@
                <additional>
                   <listBibl>
                      
-                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp;amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f99">p. 80, no. 578</ref>.</bibl></listBibl>
+                  <bibl>Cabaton, Antoine. 1912. <title xmlns="http://www.tei-c.org/ns/1.0">Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref xmlns="http://www.tei-c.org/ns/1.0" target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f99">p. 80, no. 578</ref>.</bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      
+   <encodingDesc><p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.</p></encodingDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
-      <change when="2022-03">Record created by Emmanuel FRANCIS.</change></revisionDesc>
-   <encodingDesc><p>TBC</p></encodingDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
+      <change when="2022-03">Record created by Emmanuel FRANCIS.</change><change when="2022-06">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, June 2022.</change></revisionDesc></teiHeader>
    
-<facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10536333r/manifest.json"/></facsimile><text synch="#U1" corresp="#T1"><body>
-  
+<facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10536333r/manifest.json"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="fr"><body xmlns="http://www.tei-c.org/ns/1.0">
+  <ab>
   <pb facs="7" n="[1]r"/>
   <lb n="1"/>N<hi rend="superscript">os</hi> <space/> Matière <space/> Titres <space/> Langues <space/> Observations <space/> Titres actuels <space/> Fonds ancien
   <lb n="2"/>I <space/> olles <space/> Anc. Test. 16 livres <space/> Malabar ou Tamoul <space/> Dialogues entre un maître et son disciple <space/> <space type="vacat"/> <space/> Tamoul 451
@@ -96,8 +96,9 @@
   <pb facs="9" n="[2]r"/>
   <pb facs="10" n="[2]v"/><note xml:lang="en">blank</note>
     
-  </body></text><text synch="#U2" corresp="#T2"><body>
-  
+    </ab>
+  </body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body xmlns="http://www.tei-c.org/ns/1.0">
+  <ab>
   <pb facs="15" n="1r"/>
   <lb n="1"/><term xml:lang="ta">Akastiya koḻampu</term> <space/> <term xml:lang="fr">Agastiya Kojambu <space/> 103 <hi rend="superscript">5°</hi>
   <lb n="2"/><space/> La Sauce d'Agastya</term>
@@ -116,4 +117,5 @@
   
    <pb facs="143" n="64r"/>
     <lb n="1-2"/>  <term xml:lang="fr">Ouvrages notés sur les feuillets de titre des manuscrits et ne s’y trouvant pas</term>
+    </ab>
   </body></text></TEI>
