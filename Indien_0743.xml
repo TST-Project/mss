@@ -1,15 +1,15 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Album Ducler 1: Castes et professions de l'Inde  </title>
+            <title><term xml:lang="fr">Album Ducler 1: <quote>Castes et professions de l'Inde</quote></term></title>
             
          <editor><persName>Lola VAISSAIRE</persName><orgName>École du Louvre</orgName></editor><editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -18,13 +18,13 @@
                      <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
                   </repository>
                   <idno type="shelfmark">Indien 743</idno>
-                  <idno type="alternate"><idno>Indien 98</idno></idno>
-               </msIdentifier>
+                  <idno type="alternate"><idno>Indien 98</idno><idno>Ducler</idno></idno>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1027710</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b10538068s</idno></msIdentifier>
                <msContents class="#STM">
                   <summary><p>2nd series of gouache paintings commissioned by Ducler.</p>
 <p>In this series of 204 gouache paintings are found ...</p></summary>
                   
-               <msItem synch="#U1" xml:id="T2" defective="false"><title xml:lang="ta"><term xml:lang="en">Labels to gouache paintings</term></title><textLang mainLang="tam" otherLangs="fra"/></msItem><msItem synch="#u2" xml:id="T1" defective="false"><title xml:lang="fr"><term xml:lang="en">Title Page</term></title><textLang mainLang="fra"/></msItem></msContents>
+               <msItem synch="#U1" xml:id="T2" defective="false"><title xml:lang="ta"><term xml:lang="en">Gouache Paintings, with labels</term></title><textLang mainLang="tam" otherLangs="fra"/></msItem><msItem synch="#u2" xml:id="T1" defective="false"><title xml:lang="fr"><term xml:lang="en">Title Page</term></title><textLang mainLang="fra"/></msItem></msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="paper">
@@ -33,13 +33,13 @@
                            
                         </support>
                         <extent>
-                           <measure unit="folio" quantity="207">1 + 1 + 204 + 1 (u1 + u2 + U1 + u3).</measure>
+                           <measure unit="folio" quantity="207">{1} + {1} + 204 + {1} (u1 + u2 + U1 + u3).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
                            </dimensions>
                         <dimensions type="object" unit="mm"><width quantity="210"/><height quantity="320"/></dimensions><dimensions type="written" unit="mm"/></extent>
-                        <collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. BnF shelfmark sticker on verso.</desc><desc xml:id="u1">1 folio = front <emph rend="bold">guard leaf</emph>. No foliation. Blank except for BnF old shelfmark on f[1]r.</desc><desc xml:id="U1">204 folios = <emph rend="bold">gouache paintings</emph>. Library Arabic foliation 1-204 in black ink.  Parallel original (?) Arabic foliation 1b-204b in black pencil. Verso blank.</desc><desc xml:id="u2">1 folio = <emph rend="bold">Title Page</emph>. No foliation. Inserted between f74 and f75 of U1. Verso blank.</desc><desc xml:id="u3">1 folio = back <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>. </desc></collation>
+                        <collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. BnF shelfmark sticker on verso.</desc><desc xml:id="u1">1 folio = front <emph rend="bold">guard leaf</emph>. No foliation. Blank except for BnF old shelfmark on f[1]r.</desc><desc xml:id="U1">204 folios = <emph rend="bold">Gouache Paintings</emph>. Library Arabic foliation 1-204 in black ink.  Parallel original (?) Arabic foliation 1b-204b in black pencil. Verso blank.</desc><desc xml:id="u2">1 folio = <emph rend="bold">Title Page</emph>. No foliation. Inserted between f74 and f75 of U1. Verso blank.</desc><desc xml:id="u3">1 folio = back <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>. </desc></collation>
                         
                         <condition>Very good state of conservation.</condition>
                      </supportDesc>
@@ -49,12 +49,13 @@
                   </objectDesc>
                   <handDesc><handNote synch="#U1" scope="sole" script="tamil" scriptRef="#tamilPulliSporadic #tamilMacron" medium="ink black"/><handNote synch="#u2" scope="sole" script="latin" medium="ink black"/></handDesc>
                   <decoDesc>
-                  <decoNote synch="#cover" subtype="spine"><desc>Royal cypher <locus facs="419"><quote>N</quote></locus>, of Napoléon III.</desc></decoNote></decoDesc>
+                  <decoNote subtype="spine"><desc>Royal cypher <locus facs="419"><quote>N</quote></locus>, of Napoléon III.</desc></decoNote></decoDesc>
                   <additions>
-                  <desc synch="#cover" type="shelfmark" subtype="beginning cover">BnF shelfmark sticker (<locus facs="2">front cover, verso</locus>): 
+                  <desc synch="#CoverFront" type="shelfmark" subtype="front">BnF shelfmark sticker (<locus facs="2">front cover, verso</locus>): 
 <quote>INDIEN 743</quote> 
-</desc><desc synch="#cover" type="documenting-note" subtype="spine top"><locus facs="419"><quote>BIBLIOTH. IMP</quote></locus>, that is, Bibliothèque Impériale.</desc><desc synch="#cover" type="title" subtype="spine top"><locus facs="419"><quote>CASTES ET PROFESSIONS DE L'INDE</quote></locus></desc><desc synch="#cover" type="documenting-note" subtype="spine bottom">Name of binder and date of binding: <locus facs="419"><quote>J. WEBER 1865</quote></locus>.</desc><desc synch="#u1" type="shelfmark" subtype="beginning">BnF old shelfmark in black ink (<locus facs="3">f[1]r</locus>): 
-<quote>Ind. 98.</quote></desc><desc synch="#U1 u2" type="stamp">Stamp (red ink) (u2, <locus facs="153">f[1]r</locus>; in the labels box of every recto folio of U1):
+</desc><desc type="documenting-note" subtype="spine top"><locus facs="419"><quote>BIBLIOTH. IMP</quote></locus>, that is, Bibliothèque Impériale.</desc><desc type="title" subtype="spine top">Title printed in golden letters (<locus facs="419">spine</locus>):
+<quote xml:lang="fr">CASTES ET PROFESSIONS DE L'INDE</quote></desc><desc type="documenting-note" subtype="spine bottom">Name of binder and date of binding (<locus facs="419">spine</locus>): <quote>J. WEBER 1865</quote></desc><desc synch="#u1" type="shelfmark" subtype="beginning">BnF old shelfmark in black ink (<locus facs="3">f[1]r</locus>): 
+<quote>Ind. 98.</quote></desc><desc synch="#U1 #u2" type="stamp">Stamp (red ink) (u2, <locus facs="153">f[1]r</locus>; in the labels box of every recto folio of U1):
 <quote>B.R</quote> (below a crown, both in an oval), that is, Bibliothèque Royale.</desc></additions>
                   <bindingDesc>
                      <binding><p>Library binding. With name of the library, title, royal cypher, binder's name and date of binding on the spine.</p></binding>
@@ -65,59 +66,54 @@
                      <origDate calendar="gregorian" when="1831">See <quote>1831</quote> in the lower right corner of the labels box of every recto folio of U1.</origDate>
                      
                   <origPlace>South India, Pondicherry.</origPlace></origin>
-                  <provenance><p>Gouache paintings commissioned by Philippe Étienne Ducler (1778-1840), colonial administrator in Karikal (<placeName xml:lang="ta">Karaikkāl</placeName>). See Burnouf (1832, p. <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k93120f/f85">85</ref>). </p></provenance>
+                  <provenance><p>Gouache paintings commissioned by <persName xml:lang="fr" role="collector">Philippe Étienne Ducler</persName> (1778-1840), colonial administrator in Karikal (<placeName xml:lang="ta">Karaikkāl</placeName>). See Burnouf (1832, p. <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k93120f/f85">85</ref>). </p></provenance>
                   <acquisition><p>Acquired, July 22nd, 1833, from Ducler (BnF, département des Manuscrits, inventaire 1 = <title>Acquisitions: manuscrits et imprimés documentaires, 1833-1848</title>, no. 95 (2e série).</p></acquisition>
                </history>
                <additional>
                   <listBibl>
                      
-                  <bibl>Burnouf, Eugène (1832). “<ref target="https://gallica.bnf.fr/ark:/12148/bpt6k93120f/f84">Rapport fait au Conseil, dans la séance du 2 juillet 1832, sur les collections de manuscrits et de dessins rapportées de l’Inde par M. Ducler, administrateur de Carical, membre de la Société asiatique</ref>.” <title>Journal asiatique</title> 10, p. 84-87. — Report by E. Burnouf &amp; J. B. Eyriès.</bibl><bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens. Bibliothèque nationale. Département des manuscrits.</title> Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f128">p. 109</ref>.</bibl></listBibl>
+                  <bibl>Burnouf, Eugène. 1832. “<ref target="https://gallica.bnf.fr/ark:/12148/bpt6k93120f/f84">Rapport fait au Conseil, dans la séance du 2 juillet 1832, sur les collections de manuscrits et de dessins rapportées de l’Inde par M. Ducler, administrateur de Carical, membre de la Société asiatique</ref>.” <title>Journal asiatique</title> 10, p. 84-87. — Report by E. Burnouf &amp; J. B. Eyriès.</bibl><bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens. Bibliothèque nationale. Département des manuscrits.</title> Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f128">p. 109</ref>.</bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          
-      <p>The <emph rend="italic">puḷḷi</emph>s are supplied.   </p></encodingDesc>
-      <revisionDesc>
+      <p>TBC.<emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.</p></encodingDesc>
+      
+   <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
-      <change when="2021-05">Record created by Emmanuel FRANCIS</change></revisionDesc>
-   </teiHeader>
+      <change when="2021-05">Record created by Emmanuel FRANCIS</change><change when="2022-06">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, June 2022.</change></revisionDesc></teiHeader>
    <facsimile>
    <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10538068s/manifest.json"/></facsimile>
 <text synch="#u2" corresp="#T1" xml:lang="fr"><body>
-  <p>
-    <milestone facs="153" n="[1]r" unit="folio"/>
+  <ab>
+  <pb facs="153" n="[1]r"/>
     <lb n="1"/>6.
-    <lb n="2"/><seg function="title">Castes et professions</seg> 
+    <lb n="2"/><seg function="title">Castes et professions.</seg> 
     <lb n="3"/>33. Feuilles . . . . 66. gouaches. 
-  </p>  
-</body></text><text synch="#U1" corresp="#T2" xml:lang="ta"><body>
-  
-  <p xml:lang="ta">
-    <milestone facs="5" n="1r" unit="folio"/>
-    <milestone unit="Tamil label"/>
+    </ab>
+   </body></text><text synch="#U1" corresp="#T2" xml:lang="ta"><body>
+  <ab>
+    
+  <pb facs="5" n="1r"/>
+    <term xml:lang="ta">
     <lb n="1"/>piṟatāṉa-cātiyil mutal<pc>-</pc>āvatu piṟammā. Inta pitirvaḻiyil<pc>-</pc>iruntu tāṉ cakala-piṟāmaṇarkaḷuñ
     <lb n="2"/>ceṉam<pc>-</pc>i<supplied reason="omitted">ru</supplied>kkiṟārkaḷ. Inta Uruviṉ kaiyil piṟammāviṉ<pc>-</pc>uṭaiya vēta-pot=takam iruk=kutu
-  </p>
+      </term>
+    <term xml:lang="fr">    
+    <lb n="3"/>Caste primitive. 1re <emph rend="bold">Brahma</emph>, d'où sont descendus tous les  <emph rend="bold">Brahmes</emph>
+    <lb n="4"/>Cette figure tient le <emph rend="bold">Veidam</emph> ouvrage de <emph rend="bold">Brahma</emph>.
+  </term>
   
-  <p xml:lang="fr">    
-    <milestone facs="5" n="1r" unit="folio"/>
-    <milestone unit="French label"/>
-    <lb n="1"/>Caste primitive. 1re <emph rend="bold">Brahma</emph>, d'où sont descendus tous les  <emph rend="bold">Brahmes</emph>
-    <lb n="2"/>Cette figure tient le <emph rend="bold">Veidam</emph> ouvrage de <emph rend="bold">Brahma</emph>.
-  </p>
-  
-  <p xml:lang="ta">
-    <milestone facs="413" n="204r" unit="folio"/>
-    <milestone unit="Tamil label"/>
+  <pb facs="413" n="204r"/>
+    <term xml:lang="ta">
     <lb n="1"/>kaiyil oru paṇṇi-k-kuṭ=ṭiyai vayttu-k-koṇṭ<pc>-</pc>iruk=kum <g ref="#mērpaṭi">mērpaṭi</g> cāti-y<pc>-</pc>uḷḷa Avaṉ peṇcāti.
-    </p>
+    </term>
+      <term xml:lang="fr">    
+
+    <lb n="2"/>Sa femme de même caste tenant un petit cochon à la main
+  </term>
   
-  <p xml:lang="fr">    
-    <milestone facs="413" n="204r" unit="folio"/>
-    <milestone unit="French label"/>
-    <lb n="1"/>Sa femme de même caste tenant un petit cochon à la main
-  </p>
-  
+    </ab>
 </body></text></TEI>
