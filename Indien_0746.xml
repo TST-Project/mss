@@ -18,13 +18,13 @@
                      <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
                   </repository>
                   <idno type="shelfmark">Indien 746</idno>
-                  <idno type="alternate"><idno>Indien 101</idno></idno>
-               </msIdentifier>
+                  <idno type="alternate"><idno>Indien 101</idno><idno>Ducler</idno></idno>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc104704g</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b10020131b</idno></msIdentifier>
                <msContents class="#STM">
                   <summary><p>3rd series of gouache paintings commissioned by Ducler.</p>
 <p>In this series of 18 gouache paintings are found ...</p></summary>
                   
-               <msItem synch="#u2" xml:id="T1" defective="false"><title xml:lang="fr"><term xml:lang="en">Title Page</term></title><textLang mainLang="fra"/></msItem><msItem synch="#U1" xml:id="T2" defective="false"><title xml:lang="ta"><term xml:lang="en">Labels to gouache paintings</term></title><textLang mainLang="tam" otherLangs="fra"/></msItem></msContents>
+               <msItem synch="#u2" xml:id="T1" defective="false"><title xml:lang="fr"><term xml:lang="en">Title Page</term></title><textLang mainLang="fra"/></msItem><msItem synch="#U1" xml:id="T2" defective="false"><title xml:lang="ta"><term xml:lang="en">Gouache Paintings, with labels</term></title><textLang mainLang="tam" otherLangs="fra"/></msItem></msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="paper">
@@ -33,13 +33,13 @@
                            
                         </support>
                         <extent>
-                           <measure unit="folio" quantity="23">2 + 1 + 18 + 2 (u1 + u2 + U1 + u3).</measure>
+                           <measure unit="folio" quantity="23">{2} + {1} + 18 + {2} (u1 + u2 + U1 + u3).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
                            </dimensions>
                         <dimensions type="object" unit="mm"><width quantity="415"/><height quantity="320"/></dimensions><dimensions type="written" unit="mm"/></extent>
-                        <collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. BnF shelfmark sticker on verso.</desc><desc xml:id="u1">2 folios = front <emph rend="bold">guard leaves</emph>. No foliation. Blank except for BnF old shelfmark on f[1]r.</desc><desc xml:id="u2">1 folio = <emph rend="bold">Title Page</emph>. No foliation. Double folio unfolded. Verso blank.</desc><desc xml:id="U1">18 folios = <emph rend="bold">gouache paintings</emph>. Library Arabic foliation 1-18 in black ink. Parallel original (?) Arabic foliation 2c-18c in black pencil for f2-f18. Double folios unfolded. Verso blank.</desc><desc xml:id="u3">2 folios = back <emph rend="bold">guard leaves</emph>. No foliation. Blank recto verso.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>. With BnF restoration sticker.</desc></collation>
+                        <collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. BnF shelfmark sticker on verso.</desc><desc xml:id="u1">2 folios = front <emph rend="bold">guard leaves</emph>. No foliation. Blank except for BnF old shelfmark on f[1]r.</desc><desc xml:id="u2">1 folio = <emph rend="bold">Title Page</emph>. No foliation. Double folio unfolded. Verso blank.</desc><desc xml:id="U1">18 folios = <emph rend="bold">Gouache Paintings</emph>. Library Arabic foliation 1-18 in black ink. Parallel original (?) Arabic foliation 2c-18c in black pencil for f2-f18. Double folios unfolded. Verso blank.</desc><desc xml:id="u3">2 folios = back <emph rend="bold">guard leaves</emph>. No foliation. Blank recto verso.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>. With BnF restoration sticker.</desc></collation>
                         
                         <condition>Very good state of conservation.</condition>
                      </supportDesc>
@@ -49,13 +49,12 @@
                   </objectDesc>
                   <handDesc><handNote synch="#u2" scope="sole" script="latin" medium="ink black"/><handNote synch="#U1" scope="sole" script="tamil" scriptRef="#tamilPulliSporadic #tamilMacron" medium="ink black"/></handDesc>
                   <decoDesc>
-                  <decoNote subtype="spine"><desc>Royal cypher <locus facs="51"><quote>N</quote></locus>, of Napoléon III.</desc></decoNote></decoDesc>
+                  <decoNote subtype="spine"><desc>Royal cypher <quote>N</quote>, of Napoléon III (<locus facs="51">spine</locus>).</desc></decoNote></decoDesc>
                   <additions>
-                  <desc type="shelfmark" subtype="beginning cover">BnF shelfmark sticker (<locus facs="2">front cover, verso</locus>): 
+                  <desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker (<locus facs="2">front cover, verso</locus>): 
 <quote>INDIEN 746</quote> 
-</desc><desc type="documenting-note" subtype="spine top"><locus facs="51"><quote>B. IMP</quote></locus>, that is, Bibliothèque Impériale.</desc><desc type="title" subtype="spine top"><locus facs="51"><quote>CÉRÉMONIES RELIGIEUSES DE L'INDE</quote></locus></desc><desc type="documenting-note" subtype="spine bottom">Name of binder: <locus facs="51"><quote>[W]EBER (J.)</quote></locus>.</desc><desc synch="#u1" type="shelfmark" subtype="beginning">BnF old shelfmark in black ink (<locus facs="3">f[1]r</locus>): 
-<quote>Indien 101.</quote></desc><desc synch="#u2 #U1" type="stamp">Stamp (red ink) (u2, <locus facs="7">f[1]r</locus>; in the labels box of every recto folio of U1):
-<quote>B.R</quote> (below a crown, both in an oval), that is, Bibliothèque Royale.</desc><desc type="documenting-note" subtype="cover end">BnF restoration sticker (<locus facs="49">back cover, recto</locus>): 
+</desc><desc type="documenting-note" subtype="spine top"><quote>B. IMP</quote>, that is, Bibliothèque Impériale (<locus facs="51">spine</locus>).</desc><desc type="title" subtype="spine top">Title printed in golden letters  (<locus facs="51">spine</locus>): <quote>CÉRÉMONIES RELIGIEUSES DE L'INDE</quote></desc><desc type="documenting-note" subtype="spine bottom">Name of binder (<locus facs="51">spine</locus>): <quote><supplied reason="lost">W</supplied>EBER (J.)</quote></desc><desc synch="#u1" type="shelfmark" subtype="beginning">BnF old shelfmark in black ink (<locus facs="3">f[1]r</locus>): 
+<quote>Indien 101.</quote></desc><desc synch="#u2 #U1" type="stamp">Stamp (red ink) (u2, <locus facs="7">f[1]r</locus>; in the labels box of every recto folio of U1): <quote>B.R</quote> (below a crown, both in an oval), that is, Bibliothèque Royale.</desc><desc type="documenting-note" subtype="cover end">BnF restoration sticker (<locus facs="49">back cover, recto</locus>): 
 <quote>BnF Richelieu Atelier de Restauration 2009</quote> 
 </desc></additions>
                   <bindingDesc>
@@ -73,60 +72,57 @@
                <additional>
                   <listBibl>
                      
-                  <bibl>Burnouf, Eugène (1832). “<ref target="https://gallica.bnf.fr/ark:/12148/bpt6k93120f/f84">Rapport fait au Conseil, dans la séance du 2 juillet 1832, sur les collections de manuscrits et de dessins rapportées de l’Inde par M. Ducler, administrateur de Carical, membre de la Société asiatique</ref>.” <title>Journal asiatique</title> 10, p. 84-87. — Report by E. Burnouf &amp; J. B. Eyriès.</bibl><bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens. Bibliothèque nationale. Département des manuscrits.</title> Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f128">p. 109-100</ref>.</bibl></listBibl>
+                  <bibl>Burnouf, Eugène. 1832. “<ref target="https://gallica.bnf.fr/ark:/12148/bpt6k93120f/f84">Rapport fait au Conseil, dans la séance du 2 juillet 1832, sur les collections de manuscrits et de dessins rapportées de l’Inde par M. Ducler, administrateur de Carical, membre de la Société asiatique</ref>.” <title>Journal asiatique</title> 10, p. 84-87. — Report by E. Burnouf &amp; J. B. Eyriès.</bibl><bibl>Cabaton, Antoine, 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens. Bibliothèque nationale. Département des manuscrits.</title> Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f128">p. 109-100, no. 746</ref>.</bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          
-      <p>The <emph rend="italic">puḷḷi</emph>s are supplied.   </p></encodingDesc>
+      <p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.</p></encodingDesc>
       
    <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
-      <change when="2021-05">Record created by Emmanuel FRANCIS</change></revisionDesc></teiHeader>
+      <change when="2021-05">Record created by Emmanuel FRANCIS</change><change when="2022-06">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, June 2022.</change></revisionDesc></teiHeader>
    <facsimile>
    <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10020131b/manifest.json"/></facsimile>
 <text synch="#u2" corresp="#T1" xml:lang="fr"><body>
-  <p>
-    <milestone facs="7" n="[1]r" unit="folio"/>
-    <lb n="1"/><seg function="title">Vues, fêtes du Jamsé, du feu, des accrochés
+  <ab>
+    
+  <pb facs="7" n="[1]r"/>
+    <seg function="title"><lb n="1"/>Vues, fêtes du Jamsé, du feu, des accrochés
     <lb n="2"/>Cérémonies relatives aux pagodes, aux mariages,
     <lb n="3"/>aux obsèques. Char du soleil.</seg>
     <lb n="4"/>18 feuilles entières.
-    <lb n="5"/>E <term xml:lang="fr">[in black pencil]</term>
-  </p>
+    <lb n="5"/>E <note xml:lang="fr">in black pencil</note>
   
+    </ab>
 </body></text><text synch="#U1" corresp="#T2" xml:lang="ta"><body>
-  
-  <p xml:lang="ta">
-    <milestone facs="9" n="1r" unit="folio"/>
-    <milestone unit="Tamil label"/>
-    <lb n="1"/>civa-matam<pc>-</pc>uḷḷavaḷum<pc>-</pc>āy veḷḷāḻa-c-cātiyum<pc>-</pc>ākiya y<pc>-</pc>oru tamuḻ-c-cāti peṇpiḷḷaiyiṉ tukkaccaṭaṅku. Avaḷai Akkiṉi-p-piṟavēcatukkuḷḷ ākka-p pōṟārkaḷ. Avaḷuṭaiya kumāraṉ y<pc>-</pc>oru tōṇ
+  <ab>
+    
+  <pb facs="9" n="1r"/>
+<term xml:lang="ta">
+  <lb n="1"/>civa-matam<pc>-</pc>uḷḷavaḷum<pc>-</pc>āy veḷḷāḻa-c-cātiyum<pc>-</pc>ākiya y<pc>-</pc>oru tamuḻ-c-cāti peṇpiḷḷaiyiṉ tukkaccaṭaṅku. Avaḷai Akkiṉi-p-piṟavēcatukkuḷḷ ākka-p pōṟārkaḷ. Avaḷuṭaiya kumāraṉ y<pc>-</pc>oru tōṇ
     <lb n="2" break="no"/>ṭiyil taṇṇīr eṭuttu-k-koṇṭu Avaṉ tokappaṉoppantam<pc>-</pc>āy ciracai tiṟantu-k-koṇṭu pōṟāṉ tukkatukku-p pōṟavarkaḷ talai-p pāvukku vatalāy leñci kaṭṭi koṇṭirukkiṟārkaḷ cātippiḷḷai
     <lb n="3"/>cuṭukāṭṭil koḷḷi vaiykkiṟatukku neruppu koṇṭu pōṟāṉ piṟetattai Atikayoṭṭa lōkamāy koṇṭu pōṟatukkāka pūmiyil naṭai pāvaṭaiyum virintu-k-koṇṭu pōṟārkaḷ.
-  </p>
+  </term>  
   
-  <p xml:lang="fr">    
-    <milestone facs="9" n="1r" unit="folio"/>
-    <milestone unit="French label"/>
-    <lb n="1"/>Obsèques d'une femme malabare de la secte de <emph rend="bold">Shiven</emph> et de caste <emph rend="bold">Vellaja</emph> que l'on va bruler. Son fils porte l'eau lustrale dans une panelle et a la tête découverte
-    <lb n="2"/>ainsi que son père. Les afsistans ont des mouchoirs qui remplacent la toque. Des serviteurs de caste portent le feu qui doit servir à embra<sic>ss</sic>er le bucher &amp;
-    <lb n="3"/>des toiles sont étendues à terre pour que le corps y pafse plus décemment.
-  </p>
+    <term xml:lang="fr">
+    <lb n="4"/>Obsèques d'une femme malabare de la secte de <emph rend="bold">Shiven</emph> et de caste <emph rend="bold">Vellaja</emph> que l'on va bruler. Son fils porte l'eau lustrale dans une panelle et a la tête découverte
+    <lb n="5"/>ainsi que son père. Les afsistans ont des mouchoirs qui remplacent la toque. Des serviteurs de caste portent le feu qui doit servir à embra<sic>ss</sic>er le bucher &amp;
+    <lb n="6"/>des toiles sont étendues à terre pour que le corps y pafse plus décemment.
+      </term>
   
-  <p xml:lang="ta">
-    <milestone facs="43" n="18r" unit="folio"/>
-    <milestone unit="Tamil label"/>
+  
+  <pb facs="43" n="18r"/>
+<term xml:lang="ta">
     <lb n="1"/>piṟakācam<pc>-</pc>uṭaittāṉ piṟatāṉa-varṇaṅkaḷ<pc>-</pc>uḷḷa Ēḻu kutirai-vākaṉaṅkaḷāl kaṭṭi y<pc>-</pc>iḻukkappaṭṭaṟtattiṉ pēril eḻuntaruḷi
     <lb n="2"/>y<pc>-</pc>irukkum cūriya-pakavāṉ. Inta ratattai moṭavaṉ<pc>-</pc>ākiya Aruṇaṉ naṭatti-k-koṇṭu poṟāṉ.
-    </p>
-  
-  <p xml:lang="fr">    
-    <milestone facs="43" n="18r" unit="folio"/>
-    <milestone unit="French label"/>
-    <lb n="1"/>Le Dieu <emph rend="bold">Souria</emph> ou le Soleil sur son char traîné par sept chevaux qui ont chacun une des couleurs
-    <lb n="2"/>primitives de la lumière et conduit par <emph rend="bold">Arounan</emph> qui a les extrêmités inférieures estropiées
-  </p>
-  
+</term>
+    
+<term xml:lang="fr">
+    <lb n="3"/>Le Dieu <emph rend="bold">Souria</emph> ou le Soleil sur son char traîné par sept chevaux qui ont chacun une des couleurs
+    <lb n="4"/>primitives de la lumière et conduit par <emph rend="bold">Arounan</emph> qui a les extrêmités inférieures estropiées
+</term>  
+    </ab>
 </body></text></TEI>
