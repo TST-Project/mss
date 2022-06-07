@@ -18,7 +18,7 @@
               <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
             </repository>
             <idno type="shelfmark">Indien 744</idno>
-            <idno type="alternate"><idno>Indien 99</idno></idno>
+            <idno type="alternate"><idno>Indien 99</idno><idno>Ducler</idno></idno>
           </msIdentifier>
           <msContents class="#STM">
             <summary><p>1st, 4th and 5th series of gouache paintings commissioned by Ducler.</p>
@@ -27,7 +27,7 @@
               <p>In the 5th series (46 gouache paintings) are found ...</p>
               <p>The total for three series amounts to 182  gouache paintings.</p></summary>
             
-            <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Labels to gouache paintings</term></title><textLang mainLang="tam" otherLangs="fra"/></msItem></msContents>
+            <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Gouache Paintings, with labels</term></title><textLang mainLang="tam" otherLangs="fra"/></msItem></msContents>
           <physDesc>
             <objectDesc form="codex">
               <supportDesc material="paper">
@@ -36,13 +36,13 @@
                   
                 </support>
                 <extent>
-                  <measure unit="folio" quantity="184">1 + 182 + 1 (u1 + U1 + u2).</measure>
+                  <measure unit="folio" quantity="184">{1} + 182 + {1} (u1 + U1 + u2).</measure>
                   <dimensions type="leaf" unit="mm">
                     
                     
                   </dimensions>
                   <dimensions type="object" unit="mm"><width quantity="210"/><height quantity="320"/></dimensions><dimensions type="written" unit="mm"/></extent>
-                <collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. BnF shelfmark sticker on verso.</desc><desc xml:id="u1">1 folio = front <emph rend="bold">guard leaf</emph>. No foliation. Blank except for BnF old shelfmark on f[1]r.</desc><desc xml:id="U1">182 folios = <emph rend="bold">gouache paintings</emph>. Library Arabic foliation 1-182 in black ink. Parallel original (?) Arabic foliation 1a-108a (lf1-108), 1c-28c (lf139-136), 1d-46d (lf137-182) in black pencil. Verso blank.</desc><desc xml:id="u2">1 folio = back <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>. </desc></collation>
+                <collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. BnF shelfmark sticker on verso.</desc><desc xml:id="u1">1 folio = front <emph rend="bold">guard leaf</emph>. No foliation. Blank except for BnF old shelfmark on f[1]r.</desc><desc xml:id="U1">182 folios = <emph rend="bold">Gouache Paintings</emph>. Library Arabic foliation 1-182 in black ink. Parallel original (?) Arabic foliation 1a-108a (lf1-108), 1c-28c (lf139-136), 1d-46d (lf137-182) in black pencil. Verso blank.</desc><desc xml:id="u2">1 folio = back <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>. </desc></collation>
                 
                 <condition>Very good state of conservation.</condition>
               </supportDesc>
@@ -52,13 +52,10 @@
             </objectDesc>
             <handDesc><handNote synch="#U1" scope="sole" script="tamil" scriptRef="#tamilPulliSporadic #tamilMacron" medium="ink black"/></handDesc>
             <decoDesc>
-              <decoNote subtype="spine"><desc>Royal cypher <locus facs="373"><quote>N</quote></locus>, of Napoléon III.</desc></decoNote></decoDesc>
+              <decoNote subtype="spine"><desc>Royal cypher <quote>N</quote>, of Napoléon III (<locus facs="373">spine</locus>).</desc></decoNote></decoDesc>
             <additions>
-              <desc type="shelfmark" subtype="beginning cover">BnF shelfmark sticker (<locus facs="2">front cover, verso</locus>): 
-                <quote>INDIEN 744</quote> 
-              </desc><desc type="documenting-note" subtype="spine top"><locus facs="373"><quote>BIBLIOTH. IMPERIALE</quote></locus>, that is, Bibliothèque Impériale.</desc><desc type="title" subtype="spine top"><locus facs="373"><quote>DIVINITÉS ET SOUVERAINS DE L'INDE</quote></locus></desc><desc type="documenting-note" subtype="spine bottom">Name of binder and date of binding: <locus facs="373"><quote>J. WEBER 1865</quote></locus>.</desc><desc synch="#u1" type="shelfmark" subtype="beginning">BnF old shelfmark in black ink (<locus facs="3">f[1]r</locus>): 
-                <quote>Ind. 99.</quote></desc><desc synch="#U1" type="stamp">Stamp (red ink) (in the labels box of every recto folio of U1):
-                  <quote>B.R</quote> (below a crown, both in an oval), that is, Bibliothèque Royale.</desc></additions>
+              <desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker (<locus facs="2">front cover, verso</locus>): <quote>INDIEN 744</quote> 
+              </desc><desc type="documenting-note" subtype="spine top"><quote>BIBLIOTH. IMPERIALE</quote>, that is, Bibliothèque Impériale (<locus facs="373">spine</locus>).</desc><desc type="title" subtype="spine top">Title printed in golden letters: <quote>DIVINITÉS ET SOUVERAINS DE L'INDE</quote> (<locus facs="373">spine</locus>).</desc><desc type="documenting-note" subtype="spine bottom">Name of binder and date of binding: <quote>J. WEBER 1865</quote> (<locus facs="373">spine</locus>).</desc><desc synch="#u1" type="shelfmark" subtype="beginning">BnF old shelfmark in black ink (<locus facs="3">f[1]r</locus>): <quote>Ind. 99.</quote></desc><desc synch="#U1" type="stamp">Stamp (red ink) (in the labels box of every recto folio of U1): <quote>B.R</quote> (below a crown, both in an oval), that is, Bibliothèque Royale.</desc></additions>
             <bindingDesc>
               <binding><p>Library binding. With name of the library, title, royal cypher, binder's name and date of binding on the spine.</p></binding>
             </bindingDesc>
@@ -67,45 +64,42 @@
             <origin>
               <origDate calendar="gregorian" when="1831">See <quote>1831</quote> in the lower right corner of the labels box of every recto folio of U1.</origDate>
               
-              <origPlace>South India, Pondicherry.</origPlace></origin>
+              <origPlace>Tamilnadu/Pondicherry</origPlace></origin>
             <provenance><p>Gouache paintings commissioned by Philippe Étienne Ducler (1778-1840), colonial administrator in Karikal (<placeName xml:lang="ta">Karaikkāl</placeName>). See Burnouf (1832, p. <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k93120f/f85">85</ref>). </p></provenance>
             <acquisition><p>Acquired, July 22nd, 1833, from Ducler (BnF, département des Manuscrits, inventaire 1 = <title>Acquisitions: manuscrits et imprimés documentaires, 1833-1848</title>, no. 95 (1ère série, 4e série, 5e série).</p></acquisition>
           </history>
           <additional>
             <listBibl>
               
-              <bibl>Burnouf, Eugène (1832). “<ref target="https://gallica.bnf.fr/ark:/12148/bpt6k93120f/f84">Rapport fait au Conseil, dans la séance du 2 juillet 1832, sur les collections de manuscrits et de dessins rapportées de l’Inde par M. Ducler, administrateur de Carical, membre de la Société asiatique</ref>.” <title>Journal asiatique</title> 10, p. 84-87. — Report by E. Burnouf &amp; J. B. Eyriès.</bibl><bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens. Bibliothèque nationale. Département des manuscrits.</title> Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f128">p. 109</ref>.</bibl></listBibl>
+              <bibl>Burnouf, Eugène. 1832. “<ref target="https://gallica.bnf.fr/ark:/12148/bpt6k93120f/f84">Rapport fait au Conseil, dans la séance du 2 juillet 1832, sur les collections de manuscrits et de dessins rapportées de l’Inde par M. Ducler, administrateur de Carical, membre de la Société asiatique</ref>.” <title>Journal asiatique</title> 10, p. 84-87. — Report by E. Burnouf &amp; J. B. Eyriès.</bibl><bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens. Bibliothèque nationale. Département des manuscrits.</title> Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f128">p. 109, no. 744</ref>.</bibl></listBibl>
           </additional>
         </msDesc>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       
-      <p>The <emph rend="italic">puḷḷi</emph>s are supplied.   </p></encodingDesc>
+      <p>TBC.<emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.</p></encodingDesc>
     
-  <revisionDesc>
+  <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
       
-      <change when="2021-05">Record created by Emmanuel FRANCIS</change></revisionDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
+      <change when="2021-05">Record created by Emmanuel FRANCIS</change><change when="2022-06">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, June 2022.</change></revisionDesc></teiHeader>
   <facsimile>
     <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b105380697/manifest.json"/></facsimile>
   <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
     
-    <p xml:lang="ta">
-      <milestone facs="5" n="1r" unit="folio"/>
-      <milestone unit="Tamil label"/>
+    <pb facs="5" n="1r"/>
+      <term xml:lang="ta">
       <lb n="1"/>piṟumā-viṣṇu-civaṉ Ivarkaḷ y<pc>-</pc>ore caṭalam<pc>-</pc>āyē kōpittu y<pc>-</pc>irukkun tiṟittuvam.
       <lb n="2"/>Inta teyvattukku nālu kai<pc>-</pc>y. Ireṇṭil cakkaramum Uṭukkaiyum irukkutu. maiyaṟṟa
       <lb n="3"/>reṇṭum Apaiyam<pc>-</pc>ākavum vāram<pc>-</pc>ākavum irukkutu.
-    </p>
-    
-    <p xml:lang="fr">    
-      <milestone facs="5" n="1r" unit="folio"/>
-      <milestone unit="French label"/>
-      <lb n="1"/>Réunion de <emph rend="bold">Brama</emph>, <emph rend="bold">Vichnou</emph> &amp; <emph rend="bold">Shiven</emph> en un même corps ou la
-      <lb n="2"/>trinité : divinité à quatre bras, deux tiennent le disque et l’instru=
-      <lb n="3"/>=ment <emph rend="bold">Oudouqué</emph>, les deux autres sont en <emph rend="bold">Abayom</emph> &amp; <emph rend="bold">Varom</emph>.   
-    </p>
-    
+       </term>
+       
+    <term xml:lang="fr">
+      <lb n="4"/>Réunion de <emph rend="bold">Brama</emph>, <emph rend="bold">Vichnou</emph> &amp; <emph rend="bold">Shiven</emph> en un même corps ou la
+      <lb n="5"/>trinité : divinité à quatre bras, deux tiennent le disque et l’instru=
+      <lb n="6"/>=ment <emph rend="bold">Oudouqué</emph>, les deux autres sont en <emph rend="bold">Abayom</emph> &amp; <emph rend="bold">Varom</emph>.   
+  </term>    
+  
     <p xml:lang="ta">
       <milestone facs="7" n="2r" unit="folio"/>
       <milestone unit="Tamil label"/>
@@ -1013,17 +1007,16 @@
       <lb n="2"/>
     </p>
     
-    <p xml:lang="ta">
-      <milestone facs="367" n="182r" unit="folio"/>
-      <milestone unit="Tamil label"/>
+    <pb facs="367" n="182r"/>
+      <term xml:lang="ta">
       <lb n="1"/>karaikkāl kuvaṟnmāl pōṭṭiḷōr pakkircāyupu y<pc>-</pc>eṉpava
       <lb n="2" break="no"/>r<pc>-</pc>uṭaiya peṇcāti-y<pc>-</pc>ākiya pāṭacāpīpi
-    </p>
-    
-    <p xml:lang="fr">    
-      <milestone facs="367" n="182r" unit="folio"/>
+        </term>
+  
+  <term xml:lang="fr">
+    <pb facs="367" n="182r"/>
       <milestone unit="French label"/>
-      <lb n="1"/>Batesabibi, femme de Paquirsaheb Concièrge du Gouvernement de Karikal.
-    </p>
+      <lb n="3"/>Batesabibi, femme de Paquirsaheb Concièrge du Gouvernement de Karikal.
+    </term>
     
   </body></text></TEI>
