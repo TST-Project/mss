@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -9,7 +9,7 @@
          <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -19,10 +19,11 @@
                   </repository>
                   <idno type="shelfmark">Indien 989</idno>
                   <idno type="alternate"/>
-               </msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1046005/cb3</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b52515026w</idno></msIdentifier>
                <msContents class="#STM">
                   <summary><p>A list of words in alphabetical order and phrases in Tamil.</p>
-<p>The leaves come with two <material>bamboo</material> arrows (565-575 mm long), each pierced with two holes (270 mm between holes).</p></summary>
+<p>The leaves come with two <material>bamboo</material> arrows (565-575 mm long), each pierced with two holes (270 mm between holes).</p>
+   <p>Description based on the digital images available on Gallica.</p>  <p>Dimensions after Cabaton (1912).</p>      </summary>
                   
                <msItem synch="#U1" xml:id="T1" defective="true"><title xml:lang="ta"><term xml:lang="en">Tamil Vocabulary</term></title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
@@ -51,8 +52,8 @@
                   <decoDesc>
                   </decoDesc>
                   <additions>
-                  <desc synch="#U1" type="shelfmark" subtype="beginning">BnF shelfmark sticker: <quote>INDIEN 989</quote>. Covering an older round sticker.</desc><desc synch="#U1" type="shelfmark">BnF sticker in black, covered by stickers: 
-<quote>
+                  <desc synch="#U1" type="shelfmark" subtype="beginning">BnF shelfmark sticker: <quote>INDIEN 989</quote> (<locus facs="5">f[1]r</locus>). Covering an older round sticker.</desc><desc synch="#U1" type="shelfmark">BnF shelfamek in black ink, covered by stickers (<locus facs="5">f[1]r</locus>): 
+<quote rend="block">
   <lb n="1"/><supplied reason="illegible">Indie</supplied>n
   <lb n="2"/><supplied reason="illegible">98</supplied>9</quote></desc></additions>
                   <bindingDesc>
@@ -71,22 +72,23 @@
                <additional>
                   <listBibl>
                      
-                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f176">f5r</ref> of the first series of additional handwritten descriptions.</bibl><bibl>James, Gregory (2000). <title>Colporuḷ: A History of Tamil Dictionaries</title>. 1st edition. Chennai: Cre-A. — See p. 708.</bibl></listBibl>
+                  <bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens. Bibliothèque nationale. Département des manuscrits.</title> Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f176">manuscript addition, f5r, no. 989</ref>.</bibl><bibl>James, Gregory. 2000. <title>Colporuḷ: A History of Tamil Dictionaries</title>. 1st edition. Chennai: Cre-A. — See p. 708.</bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          
-      <p>TBA</p></encodingDesc>
-      <revisionDesc>
+      <p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.</p></encodingDesc>
+      
+   <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
-      <change when="2021-09">Record created by Emmanuel FRANCIS.</change></revisionDesc>
-   </teiHeader>
+      <change when="2021-09">Record created by Emmanuel FRANCIS.</change><change when="2022-06">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, June 2022.</change></revisionDesc></teiHeader>
    <facsimile>
    <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b52515026w/manifest.json"/></facsimile>
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
-  
+  <ab>
+    
   <pb facs="5" n="1"/>
   <milestone unit="left margin"/>
     <lb n="1"/><seg function="blessing"><g ref="#pcs"/> kaṭavu<supplied reason="omitted">ḷ </supplied> <choice><sic>ku</sic><corr>tu</corr></choice>ṇai</seg>
@@ -142,4 +144,5 @@
     <lb n="2"/>nī ~ Oru ~ yuttip ~ paṇṇu
     <lb n="3"/><seg function="explicit">nām ~ Ēṉ ~ Ūrukkup ~ pōvōm</seg>
  
+    </ab>
 </body></text></TEI>

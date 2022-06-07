@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?tst sanitized="true"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -20,15 +19,15 @@
                   </repository>
                   <idno type="shelfmark">Indien 1062</idno>
                   <idno type="alternate"/>
-               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc102625p</idno></msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc102625p</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b105363346</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary><p>A catalogue of the Tamil manuscripts in the now BnF by Julien Vinson, second part.</p>
-<p>The codex contains:</p>
-<p>Catalogue (handwritten) by Julien Vinson for <emph rend="bold">Tamoul 133-204 (old shelfmark) = BnF Indien  133-204 (new shelfmark)</emph>. This draft version has corrections in red ink. The proofreadings have been printed and still exist, uncorrected (Vinson 1868) and corrected (Vinson et al. 1866-).</p>
-<p>Description based on the digital images available on Gallica.</p>
+                  <summary><p xmlns="http://www.tei-c.org/ns/1.0">A catalogue of the Tamil manuscripts in the now BnF by Julien Vinson, second part.</p>
+<p xmlns="http://www.tei-c.org/ns/1.0">The codex contains:</p>
+<p xmlns="http://www.tei-c.org/ns/1.0">Catalogue (handwritten) by Julien Vinson for <emph rend="bold">Tamoul 133-204 (old shelfmark) = BnF Indien  133-204 (new shelfmark)</emph>. This draft version has corrections in red ink. The proofreadings have been printed and still exist, uncorrected (Vinson 1868) and corrected (Vinson et al. 1866-).</p>
+   <p>Description based on the digital images available on Gallica.</p>  <p>Dimensions after Cabaton (1912).</p>      
 </summary>
                   
-               <msItem synch="#U1" xml:id="T1" defective="false"><title>Catalogue proper</title><textLang mainLang="fra" otherLangs="tam"/></msItem></msContents>
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="fr">Catalogue proper</title><textLang mainLang="fra" otherLangs="tam"/></msItem></msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="paper">
@@ -43,7 +42,7 @@
                         
                      <collation>
                      
-                     <desc xml:id="cover">the <emph rend="bold">front cover</emph>. Recto marbled.</desc><desc xml:id="u1">2 folios = front <emph rend="bold">guard leaves</emph>. No foliation.</desc><desc xml:id="u2">1 folio = back <emph rend="bold">guard leaf</emph>. No foliation.</desc><desc xml:id="U1">21 folios = <emph rend="bold">Catalogue proper</emph>. Arabic foliation 51-66, 66bis, 67-70. Versos blank.</desc><desc xml:id="u3">2 folios = back <emph rend="bold">guard leaves</emph>. No foliation.</desc><desc xml:id="cover">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Good state of preservation.</condition><support><measure unit="stringhole"/></support></supportDesc>
+                     <desc xml:id="cover">the <emph xmlns="http://www.tei-c.org/ns/1.0" rend="bold">front cover</emph>. Recto marbled.</desc><desc xml:id="u1">2 folios = front <emph xmlns="http://www.tei-c.org/ns/1.0" rend="bold">guard leaves</emph>. No foliation.</desc><desc xml:id="u2">1 folio = back <emph xmlns="http://www.tei-c.org/ns/1.0" rend="bold">guard leaf</emph>. No foliation.</desc><desc xml:id="U1">21 folios = <emph xmlns="http://www.tei-c.org/ns/1.0" rend="bold">Catalogue proper</emph>. Arabic foliation 51-66, 66bis, 67-70. Versos blank.</desc><desc xml:id="u3">2 folios = back <emph xmlns="http://www.tei-c.org/ns/1.0" rend="bold">guard leaves</emph>. No foliation.</desc><desc xml:id="cover">the <emph xmlns="http://www.tei-c.org/ns/1.0" rend="bold">back cover</emph>.</desc></collation><condition>Good state of preservation.</condition><support><measure unit="stringhole"/></support></supportDesc>
                      <layoutDesc>
                         
                      </layoutDesc>
@@ -51,7 +50,7 @@
                   <handDesc>
                      
                   <handNote synch="#U1" scope="major" script="latin tamil" medium="ink black red"><desc>Hand #1 (Vinson).</desc></handNote></handDesc>
-                  <additions><desc synch="#cover" type="title" subtype="spine">Printed title <quote xml:lang="fr">VINSON - CATALOGUE DES MSS. TAMOULS 133-204.</quote>  (<locus facs="58">spine</locus>).</desc><desc synch="#cover" type="shelfmark" subtype="spine">BnF shelfmark sticker: <quote>C<gap reason="illegible"/></quote> (<locus facs="58">spine</locus>).</desc><desc synch="#cover" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 1062</quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#cover" type="shelfmark">BnF shelfmark in black pencil: <quote>CATALOGUES 329 BIS</quote> (<locus facs="2">front cover, verso</locus>).</desc><desc synch="#cover" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 1062</quote> (<locus facs="2">front cover, verso</locus>).</desc><desc synch="#u1" type="shelfmark">BnF shelfmark in black ink: <quote>Indien 1062</quote> (<locus facs="3">f[1]r</locus>). </desc><desc synch="#u2" type="documenting-note"><quote>fragment du mansucrit du catalogue tamoul, rédigé par M. Vinson. Cette partie a été imprimée, ainsi que les pages 1 à 50, qui n'ont pas été remises. Le 2 Février 1869. h.z. </quote> (<locus facs="7">f[1]r</locus>). </desc></additions>
+                  <additions><desc synch="#cover" type="title" subtype="spine">Printed title <quote xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">VINSON - CATALOGUE DES MSS. TAMOULS 133-204.</quote>  (<locus xmlns="http://www.tei-c.org/ns/1.0" facs="58">spine</locus>).</desc><desc synch="#cover" type="shelfmark" subtype="spine">BnF shelfmark sticker: <quote xmlns="http://www.tei-c.org/ns/1.0">C<gap reason="illegible"/></quote> (<locus xmlns="http://www.tei-c.org/ns/1.0" facs="58">spine</locus>).</desc><desc synch="#cover" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote xmlns="http://www.tei-c.org/ns/1.0">INDIEN 1062</quote> (<locus xmlns="http://www.tei-c.org/ns/1.0" facs="1">front cover, recto</locus>).</desc><desc synch="#cover" type="shelfmark">BnF shelfmark in black pencil: <quote xmlns="http://www.tei-c.org/ns/1.0">CATALOGUES 329 BIS</quote> (<locus xmlns="http://www.tei-c.org/ns/1.0" facs="2">front cover, verso</locus>).</desc><desc synch="#cover" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote xmlns="http://www.tei-c.org/ns/1.0">INDIEN 1062</quote> (<locus xmlns="http://www.tei-c.org/ns/1.0" facs="2">front cover, verso</locus>).</desc><desc synch="#u1" type="shelfmark">BnF shelfmark in black ink: <quote xmlns="http://www.tei-c.org/ns/1.0">Indien 1062</quote> (<locus xmlns="http://www.tei-c.org/ns/1.0" facs="3">f[1]r</locus>). </desc><desc synch="#u2" type="documenting-note"><quote xmlns="http://www.tei-c.org/ns/1.0">fragment du mansucrit du catalogue tamoul, rédigé par M. Vinson. Cette partie a été imprimée, ainsi que les pages 1 à 50, qui n'ont pas été remises. Le 2 Février 1869. h.z. </quote> (<locus xmlns="http://www.tei-c.org/ns/1.0" facs="7">f[1]r</locus>). </desc></additions>
                   <bindingDesc>
                      <binding>
                         <p>Hard paper covers.</p>
@@ -70,17 +69,17 @@
                <additional>
                   <listBibl>
                      
-                  <bibl>Cabaton, Antoine (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois et malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See handwritten addition <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f191">f12v, no. 1061</ref>.</bibl><bibl>Vinson, Julien &amp;amp; Feer, Léon &amp;amp; s.n. (1866-). <title>Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577.</bibl><bibl>Vinson, Julien (1868). <title>Manuscrits tamouls</title>. Proofreadings of the catalogue for Tamoul 1-204 (old shelfmark). Printed by the atelier oriental de l’Imprimerie nationale. BnF “4-IMPROR-77 (B)”. — The same proofreadings with black ink handwritten corrections are found in Vinson et al. (1866-, f1-f49). </bibl></listBibl>
+                  <bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens. Bibliothèque nationale. Département des manuscrits.</title> Paris: E. Leroux. — See manuscript addition, <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f191">f12v, no. 1062</ref>.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. 1866-. <title xmlns="http://www.tei-c.org/ns/1.0">Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577.</bibl><bibl>Vinson, Julien 1868. <title xmlns="http://www.tei-c.org/ns/1.0">Manuscrits tamouls</title>. Proofreadings of the catalogue for Tamoul 1-204 (old shelfmark). Printed by the atelier oriental de l’Imprimerie nationale. BnF “4-IMPROR-77 (B)”. — The same proofreadings with black ink handwritten corrections are found in Vinson et al. (1866-, f1-f49). </bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      
+   <encodingDesc><p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.</p></encodingDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
-      <change when="2022-03">Record created by Emmanuel FRANCIS.</change></revisionDesc>
-   <encodingDesc><p>TBC</p></encodingDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
+      <change when="2022-03">Record created by Emmanuel FRANCIS.</change><change when="2022-06">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, June 2022.</change></revisionDesc></teiHeader>
    
-<facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b105363346/manifest.json"/></facsimile><text synch="#U1" corresp="#T1"><body>
+<facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b105363346/manifest.json"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="fr"><body xmlns="http://www.tei-c.org/ns/1.0">
   
   <pb facs="9" n="51r"/>
   <lb n="1"/><lb n="1"/><del>132</del> 133
