@@ -18,18 +18,18 @@
                      <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
                   </repository>
                   <idno type="shelfmark">Indien 1061</idno>
-                  <idno type="alternate"/>
+                  <idno type="alternate"><idno>Catalogues 329 ter</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc102624d</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b10536335n</idno></msIdentifier>
                <msContents class="#CM">
                   <summary><p>A catalogue of the Tamil manuscripts in the now BnF by Julien Vinson, first part.</p>
 <p>The codex contains:
 <list rend="numbered">
-  <item>Biographies (handwritten) of Ducler and Ariel by Julien Vinson (U1).</item>
-  <item>Catalogue (handwritten) by Julien Vinson for <emph rend="bold">Tamoul 1-132 (old shelfmark) = BnF Indien 1-132 (new shelfmark)</emph> (U2). The first folio is missing (description of Tamoul 1-5). This draft version has corrections in red ink. The proofreadings have been printed and still exist, uncorrected (Vinson 1868) and corrected (Vinson et al. 1866-).</item>
+  <item>Biographies (handwritten) of Ducler and Ariel by Julien Vinson (<locus facs="7">U1</locus>).</item>
+  <item>Catalogue (handwritten) by Julien Vinson for <emph rend="bold">Tamoul 1-132 (old shelfmark) = BnF Indien 1-132 (new shelfmark)</emph> (<locus facs="41">U2</locus>). The first folio is missing (description of Tamoul 1-5). This draft version has corrections in red ink. The proofreadings have been printed and still exist, uncorrected (Vinson 1868) and corrected (Vinson et al. 1866-).</item>
   </list>
 </p>
 <p>Composite manuscript described as a multi-text manuscript for the sake of convenience.</p>
-   <p>Description based on the digital images available on Gallica.</p>  <p>Dimensions after Cabaton (1912).</p>      </summary>
+     <p>Description based on the examination of the original manuscript (March 2022).</p>  <p>Dimensions assessed at the time of examination.</p>         </summary>
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="fr">Biographies of Ducler and Ariel</title><textLang mainLang="fra"/></msItem><msItem synch="#U2a" xml:id="T2" defective="false"><title xml:lang="fr">Catalogue: Title Page</title><textLang mainLang="fra"/></msItem><msItem synch="#U2b" xml:id="T3" defective="false"><title xml:lang="fr">Catalogue proper</title><textLang mainLang="fra" otherLangs="tam"/></msItem></msContents>
                <physDesc>
@@ -65,8 +65,8 @@
                <typeDesc/></physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian" notAfter="1868"/>
-                     <origPlace>France</origPlace>
+                     <origDate calendar="gregorian" notAfter="1868">Autograph manuscript by Julien Vinson (1843-1926).</origDate>
+                     <origPlace>France.</origPlace>
                   </origin>
                   <acquisition>
                      
@@ -105,7 +105,7 @@
   <pb facs="41" n="Ar"/>
   <lb n="1"/>Catalogue tamoul
   <lb n="2"/>(Bulletins ayant servi à l'impression.)
-  <lb n="3"/>(Le 1er feuillet manque.)<note xml:lang="en">added in black pencil</note>
+  <lb n="3"/><note xml:lang="en">added in black pencil</note> (Le 1er feuillet manque.)
 
    
 </body></text><text synch="#U2a"><body>
@@ -117,5 +117,6 @@
    <lb n="5"/>5.
    <lb n="6ff."/><gap reason="ellipsis"/>
 
-   
+     <pb facs="145" n="50r"/>
+
 </body></text></TEI>
