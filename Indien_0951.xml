@@ -44,7 +44,7 @@
                         
                         
                         
-                        <desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. Sticker on recto.</desc><desc xml:id="U1">1 folio = front <emph rend="bold">guard leaf</emph>. No foliation. Recto blank. 1 unfinished line unblackened on verso = fragment of <term xml:lang="ta">Kamparāmāyaṇam</term>, stanza 9342.
+                        <desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. Sticker on recto.</desc><desc xml:id="U1">1 folio = front <emph rend="bold">guard leaf</emph>. No foliation. Recto blank. 1 unfinished line, unblackened, on the verso = fragment of <term xml:lang="ta">Kamparāmāyaṇam</term>, stanza 9342.
 </desc><desc xml:id="U2">1 folio = <emph rend="bold"><term xml:lang="ta">Kamparāmāyaṇam</term></emph>: <emph rend="bold">TBC</emph>, <emph rend="bold">Colophon</emph> (recto) and <emph rend="bold">Table of Contents</emph> (verso). No foliation.
 </desc><desc xml:id="U3">373 folios = <emph rend="bold"><term xml:lang="ta">Kamparāmāyaṇam, Yuttakāṇṭam: Mūlam</term></emph>. Tamil foliation [1], [1], 3, [1-9], 12-13, [1-2], 20-41, [1-3], 46-54, 60-93, [1], 94-223, 225-371<hi rend="superscript">1</hi>, 371<hi rend="superscript">2</hi>-401. Many folios with lost foliation. 415 x 30 mm.
 
@@ -74,7 +74,7 @@
  </quote></desc><desc synch="#CoverFront" type="commenting-note" subtype="cover front">Sticker written in black pencil (line 1) and black ink (lines 1-5) (<locus facs="5">front cover, recto</locus>):
 <quote xml:lang="fr" rend="block">
     <lb n="1"/><term xml:lang="fr">mai 17<unclear>74</unclear> N°3. 12 9bre [i.e. septembre] 1860 <note xml:lang="en">different ink, by another hand</note>
-  <lb n="2"/>contenant <unclear>ou</unclear>ttacan
+  <lb n="2"/>contenant <unclear>ouï</unclear>ttacan
   <lb n="3" break="no"/>dam
   <lb n="4"/>3<hi rend="superscript">e</hi> partie
   </term>
@@ -89,7 +89,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian" notAfter="1860">Internally dated to the year <foreign xml:lang="ta">nantaṉa</foreign> of the Jovian cycle, that is, CE 1832-1833, 1772-1773, 1712-1713, etc. (see colophon, U2, f[1]r4-6) and dated to the year <foreign xml:lang="ta">jaya</foreign> of the Jovian cycle, that is, CE 1834-1835, 1774-1775, 1714-1715, etc (see colophon, U3, f401v2). See sticker on front cover, recto for correponding CE date = 17<unclear>74</unclear>.</origDate>
+                     <origDate calendar="gregorian" notAfter="1835">Internally dated to the year <foreign xml:lang="ta">nantaṉa</foreign> of the Jovian cycle, that is, CE 1832-1833, 1772-1773, 1712-1713, etc. (see colophon, U2, <locus facs="9">f[1]r4</locus>) and dated to the year <foreign xml:lang="ta">jaya</foreign> of the Jovian cycle, that is, CE 1834-1835, 1774-1775, 1714-1715, etc (see colophon, U3, <locus facs="52">f401v2</locus>). See <locus facs="5">sticker</locus> on front cover, recto for correponding CE date = 17<unclear>74</unclear>.</origDate>
                      <origPlace>South India, Tamilnadu.</origPlace>
                   </origin>
                   <acquisition>
@@ -119,6 +119,7 @@
    <graphic url="https://didomena.ehess.fr/concern/data_sets/rx913x411/manifest.json"/></facsimile>
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   <ab>
+    
   <pb facs="7" n="[1]v"/>
   <lg><l><lb n="1"/>tiṭaik kāṇpa<supplied reason="lost">ṉ</supplied>ō</l> <l>pāka cātaṉaṉ mauliyōṭum paṟitt<pc>’</pc> ō</l> <l>kai māta<supplied reason="lost">va</supplied>r <note xml:lang="en">stanza 9342, incomplete</note></l></lg>
   </ab>
@@ -136,17 +137,17 @@
   
    <seg function="title"><milestone n="2" unit="left-margin"/>
   <lb n="1"/><supplied reason="lost">śrīma</supplied>tti <supplied reason="lost">rā</supplied><unclear reason="consonant_unclear">mā</unclear>yaṇa=M</seg>
-  <lb n="2"/><seg function="intertitle">uyittakāṇṭam</seg>
-  <lb n="3"/><seg function="blessing">śrī-ṟā<seg rend="grantha">=ma-ja</seg>yam</seg>
+  <seg function="intertitle"><lb n="2"/>Uyittakāṇṭam</seg>
+  <seg function="blessing"><lb n="3"/>śrī-ṟā<seg rend="grantha">=ma-ja</seg>yam</seg>
   </seg>
     
-  <milestone unit="main-text-area"/>
- <lb n="1"/><gap reason="ellipsis"/>
+  <seg function="TBC"><milestone unit="main-text-area"/>
+ <lb n="1"/>nāṭiya poruḷ <gap reason="ellipsis"/>
  <lb n="2"/><gap reason="ellipsis"/>
- <lb n="3"/><gap reason="ellipsis"/> <seg function="blessing">śrī-ṟā<seg rend="grantha">=ma-ja</seg>yam</seg> <seg function="blessing"><term xml:lang="sa">śu<unclear>bha</unclear>m as<unclear>tu</unclear></term></seg>
+ <lb n="3"/><gap reason="ellipsis"/> <g ref="#pcs"/></seg> <seg function="blessing">śrī-rā=Ma-jayam</seg> <seg function="blessing"><term xml:lang="sa">śu<unclear>bha</unclear>m as<unclear>tu</unclear></term></seg>
  <seg function="colophon"><lb n="4"/>nantaṉa {varuṣam} paṅkuṉi {mācam} 5 {tēti} Ātittavāramum pañcamiyuṅ Āṣanaṭcattiramun kūṭiṉa
 <lb n="5"/>puṇṇiyatiṉattilē śrīma<unclear>tti</unclear> rāmāyaṇam eḻutat tuvakiṉatu <g ref="#pcs"/>
-    <lb n="6"/>nantaṉa {varuṣam} māci {mācam} 2<g ref="#pattu"/> {tēti} Ātit<supplied reason="lost">tavā</supplied>raṉāḷ Aṇuṣanaścattiram <g ref="#pcs"/></seg> <seg function="blessing">śrī-rāmaṉ tuṇai <g ref="#pcs"/></seg>
+    <lb n="6"/>nantaṉa {varuṣam} māci {mācam} 2<g ref="#pattu"/> {tēti} Ātit<supplied reason="lost">tavā</supplied>raṉāḷ Aṇuṣanaścattiram <g ref="#pcs"/></seg> <seg function="blessing">śrī-rā=Maṉ tuṇai <g ref="#pcs"/></seg>
  
    <pb facs="14" n="[1]v"/>
     <seg function="table-of-contents">
@@ -166,11 +167,11 @@
 
   <milestone n="5" unit="column"/>
      <lb n="8"/>viṭai koṭutta paṭala=m 3<g ref="#pattu"/>7
-<lb n="9"/><seg function="total-chapters total-stanzas total-leaves">{Āka}ppaṭala=M 34k=ku tokai virut=tam
+<seg function="total-stanzas"><lb n="9"/>{Āka}ppaṭala=M 34k=ku tokai virut=tam
 
   <milestone n="6" unit="column"/>
    <lb n="1"/>4<g ref="#āyiram"/>3<g ref="#nūṟu"/>4<g ref="#pattu"/>5 k=ku
-   <lb n="2"/>Ēṭu tokai 4<g ref="#nūṟu"/>1</seg>
+   <seg function="total-leaves"><lb n="2"/>Ēṭu tokai 4<g ref="#nūṟu"/>1</seg></seg>
       </seg>
   
     </ab>
@@ -178,11 +179,11 @@
   <ab>
   <pb facs="20" n="[1]r"/>
   
-  <milestone unit="left-margin"/>
-  <lb n="1-?"/><gap reason="lost"/>
+  <seg function="TBC"><milestone unit="left-margin"/>
+  <lb n="1-?"/><gap reason="lost"/>m</seg>
   
-  <milestone unit="main-text-area"/>
-  <lb n="1"/><seg function="incipit"> <gap reason="ellipsis"/> <note xml:lang="en">stanza 6186</note></seg> 
+  <seg function="incipit"><milestone unit="main-text-area"/>
+  <lb n="1"/><gap reason="ellipsis"/> <note xml:lang="en">stanza 6186</note></seg> 
   
   <pb facs="25" n="3r"/>
   <seg function="blessing"><milestone unit="left-margin"/>
@@ -204,15 +205,15 @@
   <lb n="1-2"/>viṭai koṭutta paṭalam</seg>
   
    <pb facs="49" n="401r"/>
-  <lb n="1"/><seg function="explicit">kāttāṉ a ‡ mparatt<pc>’</pc> aṉantar nīkki y-ayōtti vantiṟutta kālai ‡‡ <note xml:lang="en">stanza 10132</note></seg>
+  <lb n="1"/><seg function="explicit"><lg><l>kāttā</l> <l>ṉ amparatt<pc>’</pc> aṉantar nīkki y<pc>-</pc>ayōtti vantiṟutta kālai <note xml:lang="en">stanza 10132</note></l></lg></seg>
   
 <pb facs="52" n="401v"/>
   <seg function="completion-statement"><lb n="1"/>viṭaikoṭutta paṭalamuṟṟum <g ref="#pcl"/></seg> <seg function="blessing">śrīmaṉ-ṉārāyaṇar kiṟupai y<pc>-</pc>uṇṭāka vēṇum <g ref="#pcl"/></seg> <seg function="title">śrīmatti-rāmāyaṇa=M <g ref="#pcl"/> <g ref="#pcs"/></seg>
-     <seg function="colophon"><lb n="2"/>ceya {varuṣam} vaikāci {mācam} 2<g ref="#pattu"/>7 cōmavāramum pañcamiyuṅ kūṭiṉa puṇṇiyatiṉattilē śrīmatti-rāmāyaṇam y-eḻuti mu
-<lb n="3" break="no"/>kintatu <g ref="#pcs"/></seg> <seg function="blessing"><term xml:lang="sa">hari Om</term> <g ref="#pcl"/> <g ref="#pcs"/> <note xml:lang="en">end of line 3 and lines 4-6 unblackened = later addition</note> <gap reason="ellipsis"/></seg>
-<lb n="4"/><gap reason="ellipsis"/>
-  <lb n="5"/><gap reason="ellipsis"/>
-  <lb n="6"/><gap reason="ellipsis"/>
+     <seg function="colophon"><lb n="2"/>ceya {varuṣam} vaikāci {mācam} 2<g ref="#pattu"/>7 cōmavāramum pañcamiyuṅ kūṭiṉa puṇṇiyatiṉattilē śrīmatti-rāmāyaṇam y<pc>-</pc>eḻuti mu
+<lb n="3" break="no"/>kintatu <g ref="#pcs"/></seg> <seg function="blessing"><term xml:lang="sa">hari Om</term> <g ref="#pcl"/> <g ref="#pcs"/></seg> <seg function="TBC"><note xml:lang="en">end of line 3 and lines 4-6 unblackened = later addition</note> Inta rāmāyaṇam eḻutiṉatu koṭṭu ceriyil irukku muttu karumār
+<lb n="4"/>Upāttiyārum <gap reason="ellipsis"/> vāṅki paṭittāl
+  <lb n="5"/>maṟupaṭi Avar kaiyilk koṭuttu viṭa vēṇṭiyatu koṭāmal iruntālt toḻum varum <g ref="#pcl"/> <g ref="#pcs"/></seg>
+  <seg function="TBC"><lb n="6"/>Ippaṭikku śrīrāmaṉ aruḷic ceytatu <g ref="#pcl"/> <g ref="#pcs"/></seg>
     
 </ab>
   </body></text></TEI>

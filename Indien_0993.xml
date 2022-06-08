@@ -20,7 +20,7 @@
                   <idno type="alternate"/>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1046005/cb7</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b10091608n</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary><p>TBC.</p>
+                  <summary><p>Text to be identified.</p>
 <p>Description based on the examination of the original manuscript (July 2021).</p>
 <p>Dimensions assessed at the time of examination.</p></summary>
                   
@@ -38,8 +38,7 @@
                         <dimensions type="object" unit="mm"><width quantity="270"/><height quantity="35"/><depth quantity="55"/></dimensions><dimensions type="written" unit="mm"/></extent>
                         
                         <condition>Very good state of preservation.</condition>
-                     <support><measure unit="stringhole" quantity="2"/></support><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">Title &amp; Colophon</emph>. No foliation. Verso blank. 270 x 35 mm.</desc><desc xml:id="U2">73 folios = <emph rend="bold">Text</emph>. Tamil foliation 1-73. 2 columns. 8-9 lpp.
-270 x 35 mm. f73 blank (foliation only).</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation></supportDesc>
+                     <support><measure unit="stringhole" quantity="2"/></support><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">Title &amp; Colophon</emph>. No foliation. Verso blank. 270 x 35 mm.</desc><desc xml:id="U2">73 folios = <emph rend="bold">Text</emph>. Tamil foliation 1-73. 2 columns. 8-9 lpp. 270 x 35 mm. f73 blank (foliation only).</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation></supportDesc>
                      <layoutDesc>
                         
                      <layout columns="2" writtenLines="8 9"/></layoutDesc>
@@ -47,7 +46,7 @@
                   <handDesc>
                      
                   <handNote synch="#U1 #U2" scope="major" script="tamil" medium="incised"/></handDesc>
-                  <additions><desc type="shelfmark" subtype="beginning cover">BnF shelfmark sticker: <quote>INDIEN 993</quote> (front cover, recto).</desc><desc synch="#U1" type="shelfmark">BnF shelfmark in blue ink: <quote>Indien 993</quote> (f[1]r, right side).</desc></additions>
+                  <additions><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 993</quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#U1" type="shelfmark">BnF shelfmark in blue ink: <quote>Indien 993</quote> (<locus facs="2">f[1]r</locus>, right side).</desc></additions>
                   <bindingDesc>
                      <binding>
                         
@@ -56,8 +55,8 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian" notAfter="1830">Internally dated to the year 1830. See colophon (U1, f[1]r, c2).</origDate>
-                     <origPlace>Tamilnadu.</origPlace>
+                     <origDate calendar="gregorian" notAfter="1830">Internally dated to the year 1830. See colophon (U1, <locus facs="2">f[1]r, c2, line 1</locus>).</origDate>
+                     <origPlace>Tamilnadu / Pondicherry (Karaikal).</origPlace>
                   </origin>
                   <acquisition>
                      <p>Deposit (1938) from École des Langues orientales.</p>
@@ -80,49 +79,49 @@
 <facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10091608n/manifest.json"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   <ab>
     
-  <pb n="[1]r"/>
-  <milestone n="1" unit="column"/>
-  <lb n="1"/><seg function="title">cippāyika vāttu
+  <pb facs="2" n="[1]r"/>
+  <seg function="title"><milestone n="1" unit="column"/>
+  <lb n="1"/>cippāyika vāttu
 <lb n="2"/>varicai paḻakkuṟa
 <lb n="3"/>poṣttakam</seg>
 
-  <milestone n="2" unit="column"/>
-   <lb n="1"/><seg function="colophon">1 8<g ref="#nūṟu"/>3<g ref="#pattu"/> – m – Āṇṭu
-<lb n="2"/>kāraikkālil eḻuta
-<lb n="3" break="no"/>ppaṭṭutu</seg> <g ref="#pcl"/>
+  <seg function="colophon"><milestone n="2" unit="column"/>
+   <lb n="1"/><g ref="#nūṟu"/>8<g ref="#nūṟu"/>3<g ref="#pattu"/>– m – Āṇṭu
+<lb n="2"/><placeName xml:lang="ta">kāraikkāli</placeName>l eḻuta
+<lb n="3" break="no"/>ppaṭṭutu <g ref="#pcl"/></seg>
 
-  <milestone n="3" unit="column"/>
-  <lb n="1"/><seg function="blessing">yēkaparāparavaṣt
-<lb n="3" break="no"/>tuvē tuṇai</seg> <g ref="#pcs"/>
+  <seg function="blessing"><milestone n="3" unit="column"/>
+  <lb n="1"/>yēkaparāparavaṣt
+<lb n="3" break="no"/>tuvē tuṇai <g ref="#pcs"/></seg>
   
     </ab>
   </body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
   <ab>
-  <pb n="1r"/>
-   <milestone n="1" unit="column"/>
-  <lb n="1"/><seg function="intertitle">3 – m Ātikāram
+  <pb facs="3" n="1r"/>
+   <seg function="intertitle"><milestone n="1" unit="column"/>
+  <lb n="1"/>3–m Ātikāram
 <lb n="2"/>tuṇṭupaḷḷikkūṭam
 <lb n="3"/>tuṇṭupaḷḷikkū
 <lb n="4" break="no"/>ṭam-āṉatu piṉṉā
 <lb n="5-7"/>lē collap <gap reason="ellipsis"/></seg>
 
-  <milestone n="2" unit="column"/>
-  <lb n="1"/><seg function="intertitle">mutal pāṭam</seg>
-<lb n="2"/><seg function="incipit">varicaikaḷait tiṟakkiṟatu
+  <seg function="intertitle"><milestone n="2" unit="column"/>
+  <lb n="1"/>mutal pāṭam</seg>
+<seg function="incipit"><lb n="2"/>varicaikaḷait tiṟakkiṟatu
 <lb n="3"/>tiṟanta varicaikaḷai cemmai paṭuttukiṟatu</seg>
   <lb n="4"/><gap reason="ellipsis"/>
   <lb n="5"/><gap reason="ellipsis"/>
   <lb n="6"/><seg function="intertitle">2~m pāṭam</seg> ~ <gap reason="ellipsis"/>
 <lb n="7"/><gap reason="ellipsis"/>
   
-   <pb n="72r"/>
-     <milestone n="2" unit="column"/>
-  <lb n="6"/><gap reason="ellipsis"/> ~ <seg function="explicit">Ovvoru maṉuṣaṉ vaḻi
+   <pb facs="76" n="72r"/>
+     <seg function="explicit"><milestone n="2" unit="column"/>
+  <lb n="6"/><gap reason="ellipsis"/> ~ Ovvoru maṉuṣaṉ vaḻi
   <lb n="7"/>kāṭṭiyiṉuṭaiya varicaiyiṉ perilivvita
   <lb n="8"/>mā yoruttāṉ oruttaṉāy vantu ceru
 
-   <pb n="72v" break="no"/>
-  <lb n="1"/>vāṉ</seg> = = <seg function="completion-statement">mukintutu</seg> = <g ref="#pcl"/>
+   <pb facs="77" n="72v" break="no"/>
+  <lb n="1"/>vāṉ = =</seg> <seg function="completion-statement">mukintutu = <g ref="#pcl"/></seg>
 
     </ab>
   </body></text></TEI>

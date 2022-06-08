@@ -30,7 +30,7 @@
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
                         <extent>
-                           <measure unit="folio" quantity="166">[1] + 152 + [13] (U1 + U2 + U3).</measure>
+                           <measure unit="folio" quantity="166">{1} + 152 + {13} (U1 + U2 + U3).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               <height quantity="25"/>
@@ -39,7 +39,7 @@
                         <dimensions type="object" unit="mm"><width quantity="170"/><height quantity="30"/><depth quantity="100"/></dimensions><dimensions type="written" unit="mm"/></extent>
                         
                         <condition>Relatively good state of preservation, despite boreholes. Some folios truncated.</condition>
-                     <support><measure unit="stringhole" quantity="2"/><p>Rounded edges (U2).</p></support><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">Title Page (additional)</emph>. No foliation. Double folio. Verso blank. 160 x 25 mm.</desc><desc xml:id="U2">152 folios = <emph rend="bold"><title xml:lang="ta">Tirukkōvaiyār</title></emph>. 170 x 25 mm. </desc><desc xml:id="U2a">1 folio = <emph rend="bold"><title xml:lang="ta">Tirukkōvaiyār</title>: Invocation</emph>. No foliation = foliation {1}. Verso blank.</desc><desc xml:id="U2b">148 folios = <emph rend="bold"><title xml:lang="ta">Tirukkōvaiyār</title>: Text</emph>. f148v blank. Tamil foliation {1}, 2-22, [23], 24-44, [45], 46-70, [71], 72-73, 74<hi rend="superscript">1</hi>-76<hi rend="superscript">1</hi>, 77, 74<hi rend="superscript">2</hi>-76<hi rend="superscript">2</hi>, 78-92<hi rend="superscript">1</hi>, 92<hi rend="superscript">2</hi>, 93-96, 9[7], 98-123, 1[24], [125], 126-127, [1]2[8], 129-148.</desc><desc xml:id="U3">13 folios = <emph rend="bold">guard leaves</emph>. Blank recto verso.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>. Verso blank. </desc></collation></supportDesc>
+                     <support><measure unit="stringhole" quantity="2"/><p>Rounded edges (U2).</p></support><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">Title Page (additional)</emph>. No foliation. Double folio. Verso blank. 160 x 25 mm.</desc><desc xml:id="U2">152 folios = <emph rend="bold"><title xml:lang="ta">Tirukkōvaiyār</title></emph>. 170 x 25 mm. </desc><desc xml:id="U2a">1 folio = <emph rend="bold"><title xml:lang="ta">Tirukkōvaiyār</title>: Invocation</emph>. No foliation = foliation {1}. Verso blank.</desc><desc xml:id="U2b">148 folios = <emph rend="bold"><title xml:lang="ta">Tirukkōvaiyār</title>: Text</emph>. f148v blank. Tamil foliation {1}, 2-22, <supplied reason="lost">23</supplied>, 24-44, <supplied reason="lost">45</supplied>, 46-70, <supplied reason="lost">71</supplied>, 72-73, 74<hi rend="superscript">1</hi>-76<hi rend="superscript">1</hi>, 77, 74<hi rend="superscript">2</hi>-76<hi rend="superscript">2</hi>, 78-92<hi rend="superscript">1</hi>, 92<hi rend="superscript">2</hi>, 93-96, 9<supplied reason="lost">7</supplied>, 98-123, 1<supplied reason="lost">24</supplied>, <supplied reason="lost">125</supplied>, 126-127, <supplied reason="lost">1</supplied>2<supplied reason="lost">8</supplied>, 129-148.</desc><desc xml:id="U3">13 folios = <emph rend="bold">guard leaves</emph>. Blank recto verso.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>. Verso blank. </desc></collation></supportDesc>
                      <layoutDesc>
                         
                      </layoutDesc>
@@ -47,7 +47,7 @@
                   <handDesc>
                      
                   <handNote synch="#U1" scope="minor" script="tamil" medium="incised soot"><desc>Hand #1.</desc></handNote><handNote synch="#U2 #U2a #U2b" scope="major" script="tamil" medium="incised soot"><desc>Hand #1. Possibly several hands.</desc></handNote></handDesc>
-                  <additions><desc type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 944</quote> (<locus facs="1">front cover, recto</locus>).</desc></additions>
+                  <additions><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 944</quote> (<locus facs="1">front cover, recto</locus>).</desc></additions>
                   <bindingDesc>
                      <binding>
                         
@@ -56,7 +56,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian" notAfter="1928">Internally dated to the year <foreign xml:lang="ta">pirapava</foreign> of the Jovian cycle, that is, CE 1927-1928, 1867-1868, 1807-1808, 1747-1748, 1687-1688, etc. See colophon (U2a, f148r2).</origDate>
+                     <origDate calendar="gregorian" notAfter="1928">Internally dated to the year <foreign xml:lang="ta">pirapava</foreign> of the Jovian cycle, that is, CE 1927-1928, 1867-1868, 1807-1808, 1747-1748, 1687-1688, etc. See colophon (U2a, <locus facs="309">f148r2</locus>).</origDate>
                      <origPlace>Tamilnadu.</origPlace>
                   </origin>
                   <acquisition>
@@ -73,9 +73,9 @@
          </sourceDesc>
       </fileDesc>
       
-   <encodingDesc><p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.</p></encodingDesc><revisionDesc>
+   <encodingDesc><p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.</p></encodingDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
-      <change when="2022-02">Record created by Emmanuel FRANCIS.</change><change when="2022-06">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, June 2022.</change></revisionDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
+      <change when="2022-02">Record created by Emmanuel FRANCIS.</change><change when="2022-06">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, June 2022.</change></revisionDesc></teiHeader>
    
 <facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b52515129m/manifest.json"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   
@@ -91,19 +91,22 @@
   </body></text><text synch="#U2a" corresp="#T2" xml:lang="ta"><body>
   
   <pb facs="5" n="[1]r"/>
-  <milestone unit="left-margin"/>
-  <seg function="blessing"><lb n="1"/><supplied reason="lost">tiru</supplied><unclear>c</unclear>ciṟṟampalam</seg>
+  
+  <seg function="header">
+  <seg function="blessing"><milestone unit="left-margin"/>
+  <lb n="1"/><supplied reason="lost">tiru</supplied><unclear>c</unclear>ciṟṟampalam</seg>
 <seg function="blessing"><lb n="2"/>civakiṟupai –</seg>
-<seg function="title"><lb n="3-4"/>tirucciṟṟa<add place="above">m</add>palakkōvai<note xml:lang="en"><term xml:lang="ta">m</term> unblackened; later correction</note> – <g ref="#pcs"/></seg>
+<seg function="title"><lb n="3-4"/>tirucciṟṟa<add place="above">m</add>palakkōvai – <note xml:lang="en" place="foot"><term xml:lang="ta">m</term> unblackened; later correction</note><g ref="#pcs"/></seg>
+    </seg>
 
-  <milestone unit="main-text-area"/>
-<seg function="satellite-stanza">
+  <seg function="satellite-stanza">
+<milestone unit="main-text-area"/>
   <lg>
   <l><lb n="1"/>kuruvākkuñ <gap reason="ellipsis"/></l>
   <l><lb n="2"/>peruvākkum <gap reason="ellipsis"/></l>
   <l><lb n="3"/>Ātalāl <gap reason="ellipsis"/></l>
-  <l><lb n="4"/>kātalāṟ <gap reason="ellipsis"/></l>
-  </lg> ~
+  <l><lb n="4"/>kātalāṟ <gap reason="ellipsis"/> ~</l>
+  </lg>
   </seg> <seg function="blessing">tirucciṟṟampalam <g ref="#pcl"/></seg>
   
   <pb facs="6" n="[1]v"/><note xml:lang="en">blank</note>
@@ -111,9 +114,11 @@
   </body></text><text synch="#U2b" corresp="#T3" xml:lang="ta"><body>
   
  <pb facs="7" n="[1]r"/>
-  <milestone unit="left-margin"/>
-  <seg function="blessing"><lb n="1"/>tirucciṟṟampalam</seg>
+  <seg function="header">
+  <seg function="blessing"><milestone unit="left-margin"/>
+  <lb n="1"/>tirucciṟṟampalam</seg>
 <seg function="intertitle"><lb n="2"/>kāṭci</seg>
+    </seg>
 
   <milestone unit="main-text-area"/>
 <seg function="incipit">
@@ -121,23 +126,22 @@
   <l><lb n="1"/>tiruvaḷar tāmarai cīrvaḷar kāvikaḷ īcartillaik</l>
   <l>kuruvaḷar <lb n="2"/>pūṅkumiḻ kōṅkupaiṅ kāntaḷkoṇṭ<pc>'</pc> ōṅ<lb n="3"/>kuteyva</l>
   <l><lb n="3"/>maruvaḷar mālai<unclear reason="consonant_unclear">yo</unclear>r va<unclear>l</unclear>liyiṉ olki y<pc>-</pc>aṉ<lb n="4" break="no"/>ṉanaṭai vāyn</l>
-  <l><lb n="4" break="no"/>t<pc>'</pc> uruvaḷar kāmaṉtaṉ veṉṟik <lb n="5"/>koṭipōṉṟ<pc>'</pc> oḷirkiṉṟatē</l></lg> ~</seg> <gap reason="ellipsis"/>
+  <l><lb n="4" break="no"/>t<pc>'</pc> uruvaḷar kāmaṉtaṉ veṉṟik <lb n="5"/>koṭipōṉṟ<pc>'</pc> oḷirkiṉṟatē ~</l></lg></seg> <gap reason="ellipsis"/>
     
   <pb facs="308" n="147v"/>
   
   <lb n="3"/><gap reason="ellipsis"/> ~
   <seg function="explicit"><lg>
-  <l>kāraṇi kaṟpakaṉ kaṟṟavar na<lb n="4" break="no"/>ṟṟuṇai pāṇarokkal</l>  <l>cīraṇi cintā maṇiyaṇi tillaic <lb n="5"/>civaṉaṭikkut</l> <l>tāraṇi koṉṟaiyaṉ ṟakkōrtañ caṅka <lb n="6"/>nitiviticē</l><l>r ūruṇi y<pc>-</pc>uṟṟavarkk<pc>'</pc> ūraṉmaṟṟ<pc>'</pc> iyāvaṟkkum ūtiyamē</l></lg> ~ <seg function="TBC">Irumparicil ēṟ
+  <l>kāraṇi kaṟpakaṉ kaṟṟavar na<lb n="4" break="no"/>ṟṟuṇai pāṇarokkal</l>  <l>cīraṇi cintā maṇiyaṇi tillaic <lb n="5"/>civaṉaṭikkut</l> <l>tāraṇi koṉṟaiyaṉ ṟakkōrtañ caṅka <lb n="6"/>nitiviticē</l><l>r ūruṇi y<pc>-</pc>uṟṟavarkk<pc>'</pc> ūraṉmaṟṟ<pc>'</pc> iyāvaṟkkum ūtiyamē  ~</l></lg> <seg function="TBC">Irumparicil ēṟ
        
    <pb facs="309" n="148r"/>
-     <lb n="1"/>ṟavarkk<pc>'</pc> aruḷi virumpiṉar mēvutal uraittatu uraittatu</seg> – 4<g ref="#nūṟu"/> –</seg> <seg function="colophon"><seg function="blessing">tirucciṟṟampalam <g ref="#pcs"/></seg>
- <lb n="2"/>pi<orig>ṟa</orig>pava {varuṣam} mārkaḻi {māca}m 25 {tēti} kuruvāraṉāl nava <gap reason="lost" quantity="3" unit="character"/> Acuvati
+     <lb n="1"/>ṟavarkk<pc>'</pc> aruḷi virumpiṉar mēvutal uraittatu uraittatu – 4<g ref="#nūṟu"/> –</seg></seg> <seg function="colophon"><seg function="blessing">tirucciṟṟampalam <g ref="#pcs"/></seg>
+ <seg function="colophon"><lb n="2"/>pi<orig>ṟa</orig>pava {varuṣam} mārkaḻi {māca}m 25 {tēti} kuruvāraṉāl nava <gap reason="lost" quantity="3" unit="character"/> Acuvati
 <lb n="3" break="no"/>naṭcat<unclear reason="vowel_unclear">ti</unclear><unclear>ra</unclear>mum kūṭiya Iccupatiṉattil capāpaticeṭṭi
 <lb n="4" break="no"/> yār avarkaḷukku tirucciṟṟampalakkōvai y<pc>-</pc>eḻuti niṟa
-<lb n="5" break="no"/><note xml:lang="en">right-aligned</note> vēṟiyatu <g ref="#pcs"/> <seg function="blessing">tirucciṟṟampalam <g ref="#pcs"/></seg></seg>
+<lb n="5" break="no"/><note xml:lang="en">right-aligned</note> vēṟiyatu <g ref="#pcs"/></seg> <seg function="blessing">tirucciṟṟampalam <g ref="#pcs"/></seg></seg>
 
-  
-    <pb facs="310" n="148v"/><note xml:lang="en">blank</note>
+      <pb facs="310" n="148v"/><note xml:lang="en">blank</note>
 
 
   </body></text></TEI>

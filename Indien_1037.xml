@@ -29,7 +29,7 @@
                   <objectDesc form="roll">
                      <supportDesc material="palm-leaf">
                         <extent>
-                           <measure unit="folio" quantity="2">[2] (U1).</measure>
+                           <measure unit="folio" quantity="2">2 (U1).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
@@ -38,27 +38,27 @@
                         <dimensions type="object" unit="mm"><width quantity="50"/><height quantity="20"/></dimensions><dimensions type="written" unit="mm"/></extent>
                         
                         <condition>Very good state of preservation.</condition>
-                     <support><measure unit="stringhole"/></support><collation><desc xml:id="seal">palm-leaf knot sealing the leaves. Breadth: 45 mm.</desc><desc xml:id="U1">2 folios (at least) = <emph rend="bold">talisman</emph> or <emph rend="bold">letter</emph>. No visible foliation. </desc></collation></supportDesc>
+                     <support><measure unit="stringhole"/></support><collation><desc xml:id="seal"><locus facs="6">Palm-leaf knot</locus> sealing the leaves. Breadth: 45 mm.</desc><desc xml:id="U1">2 folios (at least) = <emph rend="bold">Talisman</emph> or <emph rend="bold">Letter</emph>. No visible foliation. </desc></collation></supportDesc>
                      <layoutDesc>
                         
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
                      
-                  <handNote scope="sole" script="tamil" medium="incised"/></handDesc>
+                  <handNote synch="#seal #U1" scope="sole" script="tamil" medium="incised"/></handDesc>
                   <additions><desc type="commenting-note shelfmark" subtype="detached">Note on a <locus facs="2">paper</locus> (glued on canvas), in black ink: 
-<quote xml:lang="fr">
+<quote xml:lang="fr" rend="block">
 <lb n="1"/><gap reason="illegible"/> Tamoul
 <lb n="2"/>(Indoustan)
 <lb n="3"/>Sur le nœud qui la ferme on
 <lb n="4"/>voit un signe qui est un 
 <lb n="5"/>talisman qui assure qu’elle <gap reason="illegible"/>
 <lb n="6"/>parvenir à sa destination
-</quote></desc><desc synch="#U1" type="shelfmark" subtype="intertextual">BnF shelfmark in black ink: <quote>Indien 1037</quote> (<locus facs="14">f[1]r</locus>).</desc><desc synch="#U1" type="shelfmark" subtype="beginning cover">BnF acquisition reference: <quote>Acq. 17376</quote> (<locus facs="14">f[1]r</locus>).</desc></additions>
+</quote></desc><desc synch="#U1" type="shelfmark">BnF shelfmark in black ink: <quote>Indien 1037</quote> (<locus facs="14">f[1]r</locus>).</desc><desc synch="#U1" type="shelfmark">BnF acquisition reference: <quote>Acq. 17376</quote> (<locus facs="14">f[1]r</locus>).</desc></additions>
                   <bindingDesc>
                      <binding>
                         
-                     <p>Palm-leaf knot.
+                     <p><locus facs="6">Palm-leaf knot</locus>.
 </p></binding>
                   </bindingDesc>
                </physDesc>
@@ -68,7 +68,7 @@
                      <origPlace>South India, Pondicherry State, Karikal.</origPlace>
                   </origin>
                   <acquisition>
-                     <p>Acq. 17376.</p>
+                     <p><locus facs="14">Acq. 17376</locus>.</p>
                   </acquisition>
                </history>
                <additional>
@@ -81,43 +81,44 @@
          </sourceDesc>
       </fileDesc>
       
-   <encodingDesc><p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.</p></encodingDesc><revisionDesc>
+   <encodingDesc><p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.</p></encodingDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
-      <change when="2021-12">Record created by Emmanuel FRANCIS.</change><change when="2022-06">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, June 2022.</change></revisionDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
+      <change when="2021-12">Record created by Emmanuel FRANCIS.</change><change when="2022-06">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, June 2022.</change></revisionDesc></teiHeader>
    
 <facsimile><graphic url="https://didomena.ehess.fr/concern/data_sets/9593tz91c/manifest.json"/></facsimile><text synch="#seal" corresp="#T1" xml:lang="ta"><body>
-  
+  <ab>
+    
   <pb facs="6" n="[1r]"/>
   <seg function="blessing"><lb n="1"/>śrī</seg>
 
-  </body>
-
-  </text><text synch="#U1" corresp="#T2" xml:lang="ta"><body>
-   
-  <pb n="[1]r"/>
+    </ab>
+  </body></text><text synch="#U1" corresp="#T2" xml:lang="ta"><body>
+   <ab>
+     
+  <pb facs="15" n="[1]r"/>
   
   <milestone unit="left-margin"/>  
   <lb n="1"/><g ref="#pcs"/> <gap reason="ellipsis" quantity="1" unit="character"/> <g ref="#pcs"/>
        
-    <milestone unit="main-text-area"/>
-    <seg function="TBC"><lb n="1"/>kāraik=kālil | śrī | śrī | ceṭṭiy <gap reason="ellipsis"/>
+    <seg function="TBC"><milestone unit="main-text-area"/>
+    <lb n="1"/><placeName xml:lang="ta" key="karaikal">kāraik=kālil</placeName> | śrī | śrī | ceṭṭiy <gap reason="ellipsis"/>
       <lb n="2" break="no"/>ṟavarkaḷ | śrī | <gap reason="ellipsis"/> ṅka ceṭṭiyār <gap reason="ellipsis"/>
       <lb n="3" break="no"/>varkaḷ=<g ref="#pcl"/> śrī koṭuppatu</seg>
 
         <pb n="[1]v"/>
         <note xml:lang="en">text not accessible</note>
       
-        <pb n="[2]r"/>
+        <pb facs="19" n="[2]r"/>
         <milestone unit="left-margin"/>
         <lb n="1"/><g ref="#pcl"/> śrī-rā<seg rend="grantha">=ma</seg>-ceya<seg rend="grantha">m</seg>
         
-          <milestone unit="main-text-area"/>
-  <seg function="incipit"><lb n="1"/>śrīmatu cakala-kuṇa <gap reason="ellipsis"/></seg>
+          <seg function="incipit"><milestone unit="main-text-area"/>
+  <lb n="1"/>śrīmatu cakala-kuṇa <gap reason="ellipsis"/></seg>
         <lb n="2"/><gap reason="ellipsis"/>
         <lb n="3"/><gap reason="ellipsis"/>
         
         <pb n="[2]v"/>
         <note xml:lang="en">text not accessible</note>
      
-  
+  </ab>
 </body></text></TEI>
