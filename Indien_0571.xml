@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title><title xml:lang="ta"> Nālaṭiyar</title></title>
+            <title><title xml:lang="ta">Nālaṭiyar</title></title>
             
          <editor><persName>Eva WILDEN</persName><orgName>Universität Hamburg</orgName></editor></titleStmt>
          <publicationStmt>
@@ -19,9 +19,11 @@
                   </repository>
                   <idno type="shelfmark">Indien 571</idno>
                   <idno type="alternate"><idno>Tamoul 571</idno></idno>
-               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc104099k</idno></msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc104099k</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b10464133z</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary>Incomplete text of the <title xml:lang="ta">Nālaṭiyār</title> (KV + 1-75.1b) with unidentified commentary.  </summary>
+                  <summary><p>Incomplete text of the <title xml:lang="ta">Nālaṭiyār</title> (KV + 1-75.1b) with unidentified commentary.</p>
+<p>Description based on the digital images available on Gallica.</p>
+<p>Dimensions after Cabaton (1912).</p>  </summary>
                   
                <msItem defective="false"><title xml:lang="ta"> Nālaṭiyar</title><textLang mainLang="tam"/><incipit xml:lang="ta-Taml"><milestone n="1r" unit="folio" facs="9"/>அருசுவை யுண்டி ௳ யமர்ந்தில்லா ளூட்ட  
 மறுசிகை நீக்கியுண் டாகும் - வறிஞராய்ச் 
@@ -42,7 +44,7 @@
                               
                            <width quantity="330"/><height quantity="23"/></dimensions>
                         <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
-                        <collation/>
+                        <collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Verso blank.</desc><desc xml:id="U2">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso.</desc><desc xml:id="U3a">1 folio = <emph rend="bold">Invocation</emph>. No foliation. Verso blank.</desc><desc xml:id="U3b">31 folios = <emph rend="bold">Text</emph>. Tamil foliation. </desc><desc xml:id="U4">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation>
                         
                         
                      </supportDesc>
@@ -50,7 +52,7 @@
                         <layout writtenLines="5 6">Marginal chapter intertitles.</layout>
                      </layoutDesc>
                   </objectDesc>
-                  <handDesc><handNote scope="sole" script="tamil" medium="incised"><desc>Uninked, traditional script irregular with modern ṟ. 	</desc></handNote></handDesc>
+                  <handDesc><handNote synch="#U3a #U3b" scope="sole" script="tamil" medium="incised"><desc>Uninked, traditional script irregular with modern ṟ.</desc></handNote></handDesc>
                   <decoDesc>
                   </decoDesc>
                   <additions>
@@ -86,7 +88,8 @@
                <additional>
                   <listBibl>
                      
-                  <bibl>Cabaton, Antoine. (1912). <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f98">p. 79</ref>.</bibl></listBibl>
+                  <bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f98">p. 79, no. 571</ref>.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. 1866-. <title>Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f271">f. 125Cr, no. 571</ref>.
+</bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
@@ -97,7 +100,8 @@
       
    <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
-      <change when="2020-05">First version. Dimensions from Cabaton 1912.</change></revisionDesc></teiHeader>
+      <change when="2020-05">First version. Converted to TEI by Charles LI.
+</change><change when="2022-06">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, June 2022.</change></revisionDesc></teiHeader>
    <facsimile>
    <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10464133z/manifest.json"/></facsimile>
 </TEI>

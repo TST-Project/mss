@@ -18,10 +18,12 @@
                      <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
                   </repository>
                   <idno type="shelfmark">Indien 973</idno>
-                  <idno type="alternate"/>
-               </msIdentifier>
+                  <idno type="alternate"><idno>Senart 311</idno></idno>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1045904</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b10464132h</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary> Complete text with commentary and satellite material ending in a date (<locus facs="11">f. 1r</locus>, 30 May 1822) and colophon (date <locus facs="209">f. 100r</locus>, 12 May 1823).</summary>
+                  <summary><p>Complete text with commentary and satellite material ending in a date (<locus facs="11">f. 1r</locus>, 30 May 1822) and colophon (date <locus facs="209">f. 100r</locus>, 12 May 1823).</p>
+<p>Description based on the digital images available on Gallica.</p>
+<p>Dimensions after Cabaton (1912).</p>  </summary>
                   
                <msItem defective="false"><title xml:lang="ta">Nālaṭiyar</title><textLang mainLang="tam"/><incipit xml:lang="ta-Taml"><milestone n="2r" unit="folio" facs="13"/>
 <lb n="1"/>செல்வனிலையாமை - அஃதாவது செல்வங்கொண் டறஞ்செய்யவேணு - மாதலிற் - மொருபடிநிலையாமை - யாதலிற் பொருள் நிற்குமென்று - கருதாம - லிமைக்குப் புகழ் - மறு<lb n="2"/>மைக்குறுதியும் - விரைந்து செய்தற் பொருட்டாயிற் – செல்வநிலையாமையை யுணர்த்தப்பட்டது ௳
@@ -43,7 +45,7 @@
                               <height quantity="35"/>
                            </dimensions>
                         <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
-                        <collation/>
+                        <collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">3 folios = <emph rend="bold">guard leaves</emph>. No foliation. </desc><desc xml:id="U2a">1 folio = <emph rend="bold">Invocation</emph>. No foliation. </desc><desc xml:id="U2b">100 folios = <emph rend="bold">Text</emph>. Tamil foliation. </desc><desc xml:id="U3">2 folios = <emph rend="bold">guard leaves</emph>. No foliation. </desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation>
                         
                         <condition>Good condition with some worm-holes; partly unblackened towards the end.</condition>
                      </supportDesc>
@@ -96,7 +98,7 @@
                <additional>
                   <listBibl>
                      
-                  </listBibl>
+                  <bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See handwritten addition, <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f174">f. 4r, no. 973</ref>.</bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
@@ -107,7 +109,7 @@
       
    <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
-      <change when="2022-05">Preliminary version.</change></revisionDesc></teiHeader>
+      <change when="2022-05">First version. Converted to TEI by Charles LI.</change><change when="2022-06">Revised by <persName>Emmanuel FRANCIS</persName>. Version 2, June 2022.</change></revisionDesc></teiHeader>
    <facsimile>
    <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10464132h/manifest.json"/></facsimile>
 </TEI>
