@@ -4,14 +4,12 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title><title xml:lang="ta">Tiruviḷaiyāṭaṟpurāṇam</title> in prose</title>
-         </titleStmt>
-         <editionStmt>
-            <p>Record edited by <persName>Eva WILDEN</persName> <orgName>Universität Hamburg</orgName>.</p>
-         </editionStmt>
+            <title><title xml:lang="ta">Tiruviḷaiyāṭaṟpurāṇam</title> (prose)</title>
+         <editor><persName>Eva WILDEN</persName><orgName>Universität Hamburg</orgName></editor></titleStmt>
+         
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -19,76 +17,61 @@
                   <repository>
                      <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
                   </repository>
-                  <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1038215</idno>
+                  
                   <idno type="shelfmark">Indien 291</idno>
-                  <idno type="alternate"><idno>Tamoul 291</idno></idno>
-               </msIdentifier>
+                  <idno type="alternate"><idno>Tamoul 291</idno><idno>Burnouf 171</idno></idno>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1038215</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b52511254m</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary/>
-                  <msItem defective="false">
-                     <title xml:lang="ta">Tiruviḷaiyāṭaṟpurāṇam</title>
-                     <textLang mainLang="tam">Tamil</textLang>
-                     <incipit xml:lang="ta-Taml"><note xml:lang="en">{prose introduction}</note> ஆதியிலே பிரமதேவர் பிள்ளையருடனே காசித்தல்த்திலே வந்து அசுவமேதயாகஞ் செய்தார். அப்போது அக<lb n="2"/>த்தியர் வேத?யாக
-                     <note xml:lang="en"><locus facs="11">f. 4r</locus></note> மெல்லாந் தெரிசனஞ் செய்த பலன்பெறுவராகள் அட்டமாசித்தியும் பொறுச்சேராகரதி போகமு மனுபவித்து சரலோ<lb n="2"/>க சாமீப
-                     </incipit>
-                     <explicit xml:lang="ta-Taml"><milestone n="167v" facs="340" unit="folio"/>செய்துகொண்டு வங்கிச்சேகரயாண்டியரரசாச்சுகமே இருந்தார். அன்பந?வது சுந்தரப்பே - ரமபெய்த <lb n="2"/>திருவிளையாடல் முற்றும். திருச்சிற்றம்பலம். வேடருபமாக. வேடருபமாக வந்து மெருவை <lb n="2"/>வில்ல?வ - ரெத்துசுந்தரலிங்கம் தன்னிடபொரலே அம்பெய்துகொளனை செயித கதையைச் சோ[l. 3]ன்னோம் சங்கத்தாருளு??கைதந்து அவர்கள் கூட்டத்தரமுமிருந்து தமிள்செலம்</explicit>
-                  </msItem>
-               </msContents>
+                  <summary><p>The <title xml:lang="ta">Tiruviḷaiyāṭaṟpurāṇam</title>.</p>
+<p>Description based on the digital images available on Gallica.</p>
+<p>Dimensions after Cabaton (1912).</p>      </summary>
+                  
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Tiruviḷaiyāṭaṟpurāṇam: Kāppu</title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta">Tiruviḷaiyāṭaṟpurāṇam: Mūlam</title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
                         <extent>
-                           <measure unit="folio" quantity="168">Unnumbered folio, folios 1-167.</measure>
+                           <measure unit="folio" quantity="169">{1} + 168 (U1 + U2) [unnumbered folio + folios 1-167]</measure>
                            <dimensions type="leaf" unit="mm">
                               <width quantity="370"/>
                               <height quantity="25"/>
                            </dimensions>
-                        </extent>
-                        <foliation>
-                           <p>Tamil foliation and secondary European pagination in black ink on the right. </p>
-                        </foliation>
-                        <condition>
-                           <p>inferior palm-leaf quality.</p>
-                        </condition>
-                     </supportDesc>
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
+                        
+                        
+                     <collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold"><title xml:lang="ta">Tiruviḷaiyāṭaṟpurāṇam</title>: Invocation</emph>. No foliation.</desc><desc xml:id="U2">168 folios = <emph rend="bold"><title xml:lang="ta">Tiruviḷaiyāṭaṟpurāṇam</title>: Text</emph>. Tamil foliation 1-30<hi rend="superscript">1</hi>, 30<hi rend="superscript">2</hi>-167. 2 folios foliated 30.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><foliation>Tamil foliation and secondary European pagination in black ink on the right.</foliation><condition><p>inferior palm-leaf quality.</p>
+                        </condition></supportDesc>
                      <layoutDesc>
-                        <layout columns="1" writtenLines="4 7">
-                           <p>Uneven margins.</p>
+                        <layout columns="1" writtenLines="4 7"><p>Uneven margins.</p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote scope="sole" scriptRef="#tamilRa" script="tamil">
-                        <p>Untrained writing.</p>
-                     </handNote>
-                  </handDesc>
+                     
+                  <handNote synch="#U1 #U2" scope="sole" script="tamil" scriptRef="#tamilRa"/></handDesc>
                   <additions>
-                    <desc type="blessing" subtype="marginal beginning"><locus facs="3">unumbered folio r</locus>, [no ink] margin: <q xml:lang="sa">hari om</q> [grantha] <q xml:lang="ta">naṉṟāka</q></desc>
-                    <desc type="satellite-stanza" subtype="beginning"><locus facs="3">unnumbered folio r</locus>: <quote xml:lang="ta-Taml" rend="block"><lg>
-                       <l>சத்தி யாய்ச்சிவ மாகித் தனிப்பர</l>
-                       <l>முத்தி யான முதலைத் துதிசெயச்</l>
-                       <l>சுத்தி யாகிய சொற்பொரு  <lb n="2"/>ணல்குல்</l>
-                       <l>சித்தி யானைதன் செய்யபொற் பாதமே. -1-</l>
-                    </lg></quote></desc>
-                    <desc type="shelfmark" subtype="beginning"><locus facs="3">unnumbered folio r</locus>: [sticker] Burn. 171 {Burnouf}, verso blank</desc>
-                    <desc type="blessing title" subtype="marginal beginning"><locus facs="5">f. 1r</locus>, margin: <q xml:lang="ta-Taml">ஹரி ஒம் நன்றாக, திருவாலவாயுடைய தம்பிரனார் திருவிளையாடல்ப் புராணம்</q> [grantha m]</desc>
-                    <desc type="intertitle" subtype="marginal"><locus facs="11">f. 4r</locus>, margin: <q xml:lang="ta-Taml">முதலாவது தெய்வெந்திரன் பழித்தீர்த்த திருவிளையாடல்</q> {Nampi’s chapter heading!}</desc>
-                    <desc type="intertitle" subtype="marginal"><locus facs="29">f. 13r</locus>, margin: <q xml:lang="ta-Taml">இரண்டாவது வெள்ளானை சாபந் தீர்த்த திருவிளையாடல்</q></desc>
-                    <desc type="intertitle" subtype="marginal"><locus facs="33">f. 15r</locus>, margin: <q xml:lang="ta-Taml">மூன்றாவது திருந்தாக கண்டது</q></desc>
-                    <desc type="intertitle" subtype="marginal"><locus facs="37">f. 17r</locus>, margin: <q xml:lang="ta-Taml">நாலாவது தேவிதிரு அவதாரஞ் செய்த திருவிளையாடல்</q></desc>
-                    <desc type="intertitle" subtype="marginal"><locus facs="39">f. 18r</locus>, margin: <q xml:lang="ta-Taml">அஞ்சாவது திருகலியாணஞ் செய்த திருவிளையாடல்</q></desc>
-                    <desc type="intertitle" subtype="marginal"><locus facs="48">f. 22v</locus>, margin: <q xml:lang="ta-Taml">ஆறாவது வெள்ளியம்பலத்தில??ஞ் செய்த திருவிளையாடல்</q></desc>
-                    <desc type="intertitle" subtype="marginal"><locus facs="49">f. 23r</locus>, margin: <q xml:lang="ta-Taml">ஏழாவது குண்டோதரனுக்கன்னமட்டபடலம்</q> {Parañcōti’s chapter heading!}</desc>
-                    <desc type="intertitle" subtype="marginal"><locus facs="52">f. 24v</locus>, margin: <q xml:lang="ta-Taml">எட்டாவது அன்னகுழிவையையமைத்தது</q></desc>
-                    <desc type="intertitle" subtype="marginal"><locus facs="53">f. 25r</locus>, margin: <q xml:lang="ta-Taml">ஒன்பதாவது தழுகடலமைத்தது</q></desc>
-                    <desc type="intertitle" subtype="marginal">[many more chapter headings, not all of them numbered, some blank versos in between]</desc>
-                    <desc type="intertitle" subtype="marginal"><locus facs="340">f. 167v</locus>, margin: <q xml:lang="ta-Taml">இய?தாற? சங்கத்தரருளு பலகை குடுத்து</q></desc>
-                  </additions>
-               </physDesc>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                  <desc type="shelfmark" subtype="beginning">Burnouf shelfmark sticker: <quote>Burn. 171 </quote> (<locus facs="3">f[1]r</locus>).
+</desc><desc type="intertitle" subtype="marginal left">Left-marginal intertitles. See selection below. Many more chapter headings, not all of them numbered, some blank versos in between.</desc></additions>
+               <bindingDesc><binding><p><material cert="medium">Pinewood</material> covers apparently fabricated in the BnF.</p></binding></bindingDesc></physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian" when="1790">Cabaton 1790 (Burnouf)</origDate>
-                     <origPlace/>
+                     <origDate calendar="gregorian" when="1790">No internal date. Dated to circa 1790 by Vinson in Vinson et al. (1866-) and to 1790 by Cabaton (1912).</origDate>
+                     
                   </origin>
                   <acquisition>
                      <p>Acquired by <persName key="VIAF:22139410">Eugène Burnouf</persName>.</p>
@@ -96,20 +79,104 @@
                </history>
                <additional>
                   <listBibl>
-                     <bibl><persName xml:lang="ta">Āṟumukanāvalar</persName>, ed. (1912). <title xml:lang="ta">Cuttacaivarākiya Parañcoti māmuṉivar moḻipeyarttaruḷiya Tiruviḷaiyāṭaṟpurāṇam.</title> <geogName xml:lang="ta">Yāḻppāṇam</geogName>: <orgName xml:lang="ta">Vittiyāratnākara Accukkūṭam</orgName>, 1912.</bibl>
-                     <bibl>Cabaton, Antoine (1912). <title xml:lang="fr">Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens.</title> Bibliothèque nationale. Département des manuscrits. Paris : E. Leroux. — See <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k255694f/f49.item">p. 43</ref>.</bibl>
-                     <bibl>Vinson, Julien &amp; Feer, Léon (1801-1900). <title xml:lang="fr">Catalogue des manuscrits tamouls (1-574) et télingas (1-65)</title>. Access No. BnF Indien 577. <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f149.item">f. 67</ref>.</bibl>
-                  </listBibl>
+                     
+                     
+                     
+                  <bibl><title xml:lang="ta">Tiruviḷaiyāṭaṟpurāṇam</title>. 1912. <title xml:lang="ta">Cuttacaivarākiya Parañcoti māmuṉivar moḻipeyarttaruḷiya Tiruviḷaiyāṭaṟpurāṇam</title>. Ed. by <persName xml:lang="ta">Āṟumukanāvalar</persName>. <geogName xml:lang="ta">Yāḻppāṇam</geogName>: <orgName xml:lang="ta">Vittiyāratnākara Accukkūṭam</orgName>.</bibl><bibl>Cabaton, Antoine. 1912. <title xml:lang="fr">Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens.</title> Bibliothèque nationale. Département des manuscrits. Paris : E. Leroux. — See <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k255694f/f49.item">p. 43, no. 291</ref>.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. 1866-. <title>Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f149.item">f. 67r, no. <del>268</del> 291</ref>.
+</bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
-         <change when="2020-10">This catalogue entry has been redacted by <persName>Eva WILDEN</persName> (<orgName>Universität Hamburg</orgName>) for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG). Version 1, Oct 2020. </change>
-         <change when="2021-02">Converted to TEI by Charles LI.</change>
-      </revisionDesc>
-   </teiHeader>
+      
+   <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
+         
+         
+      <change when="2020-10">This catalogue entry has been redacted by <persName>Eva WILDEN</persName> (<orgName>Universität Hamburg</orgName>) for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG). Version 1, Oct 2020. </change><change when="2021-02">Converted to TEI by Charles LI.</change><change when="2022-06">Revised by <persName>Emmanuel FRANCIS</persName>. Version 2, June 2022.</change></revisionDesc></teiHeader>
    <facsimile>
       <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b52511254m/manifest.json"/>
    </facsimile>
-</TEI>
+<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+      <ab>
+        
+        <pb facs="9" n="[1]r"/>
+    <seg function="header">
+    <seg function="blessing"><milestone unit="left-margin"/>
+      <lb n="1"/><term xml:lang="sa">hari</term> Ōm</seg>
+         <seg function="blessing"><lb n="2"/>naṉṟāka</seg>
+      </seg>
+           
+           
+        <seg function="satellite-stanza"><milestone unit="main-text-area"/>              
+          <lg><l><lb n="1"/>catti yāycciva mākit taṉippara</l>
+                       <l>mutti yāṉa mutalait tuticeyac</l>
+                       <l>cutti yākiya coṟporu <lb n="2"/>ṇalkul</l>
+                       <l>citti yāṉaitaṉ ceyyapoṟ pātamē ~ 1 ~</l>
+                    </lg></seg>
+        </ab>
+  
+  </body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
+      <ab>
+
+<pb facs="5" n="1r"/>
+            <seg function="header">
+    <seg function="blessing"><milestone unit="left-margin"/>
+      <lb n="1"/><term xml:lang="sa">hari Ōm</term></seg>
+         <seg function="blessing"><lb n="2"/>naṉṟāka</seg>
+              <seg function="title"><lb n="3-6">tiruvālavāyuṭaiya tampiraṉār tiruviḷaiyāṭalp purāṇa=M</lb></seg>
+              </seg>
+                
+                <seg function="incipit">
+          <milestone unit="main-text-area"/><lb n="1"/><note xml:lang="en">prose introduction</note> Ātiyilē piramatēvar piḷḷaiyaruṭaṉē kācittalttilē vantu acuvamētayākañ ceytār. appōtu aka
+        <lb n="2" break="no"/>ttiyar vēta<gap reason="illegible" quantity="1" unit="character"/>yāka <gap reason="ellipsis"/></seg>
+                                                                                                         
+                <pb facs="11" n="4r"/>
+         <seg function="intertitle"><milestone unit="left-margin"/>
+      <lb n="1-5"/>mutalāvatu teyventiraṉ paḻittīrtta tiruviḷaiyāṭal <note xml:lang="en">Nampi’s chapter heading!</note></seg>
+           <milestone unit="main-text-area"/>
+<lb n="1"/>mellān tericaṉañ ceyta palaṉpeṟuvarākaḷ aṭṭamācittiyum poṟuccērākarati pōkamu maṉupavittu caralō
+        <lb n="2" break="no"/>ka cāmīpa <gap reason="ellipsis"/>
+        
+           <pb facs="29" n="13r"/>
+         <seg function="intertitle"><milestone unit="left-margin"/>
+      <lb n="1ff."/>Iraṇṭāvatu veḷḷāṉai cāpan tīrtta tiruviḷaiyāṭal</seg>
+           
+             <pb facs="33" n="15r"/>
+         <seg function="intertitle"><milestone unit="left-margin"/>
+      <lb n="1ff."/>mūṉṟāvatu tiruntāka kaṇṭatu</seg>
+           
+             <pb facs="37" n="17r"/>
+         <seg function="intertitle"><milestone unit="left-margin"/>
+      <lb n="1ff."/>nālāvatu tēvitiru Avatārañ ceyta tiruviḷaiyāṭal</seg>
+           
+             <pb facs="39" n="18r"/>
+         <seg function="intertitle"><milestone unit="left-margin"/>
+      <lb n="1ff."/>Añcāvatu tirukaliyāṇañ ceyta tiruviḷaiyāṭal</seg>
+           
+             <pb facs="48" n="22v"/>
+         <seg function="intertitle"><milestone unit="left-margin"/>
+      <lb n="1ff."/>Āṟāvatu veḷḷiyampalattila??ñ ceyta tiruviḷaiyāṭal</seg>
+           
+             <pb facs="49" n="23r"/>
+         <seg function="intertitle"><milestone unit="left-margin"/>
+      <lb n="1ff."/>Ēḻāvatu kuṇṭōtaraṉukkaṉṉamaṭṭapaṭalam <note xml:lang="en">Parañcōti’s chapter heading!</note></seg>
+           
+             <pb facs="52" n="24v"/>
+         <seg function="intertitle"><milestone unit="left-margin"/>
+      <lb n="1ff."/>Eṭṭāvatu aṉṉakuḻivaiyaiyamaittatu</seg>
+           
+             <pb facs="53" n="25r"/>
+         <seg function="intertitle"><milestone unit="left-margin"/>
+      <lb n="1ff."/>Oṉpatāvatu taḻukaṭalamaittatu</seg>
+           
+  <pb facs="340" n="167v"/>
+         <seg function="intertitle"><milestone unit="left-margin"/>
+      <lb n="1ff."/>5<g ref="#pattu"/><unclear>1</unclear> tā<unclear>va</unclear> caṅkattararuk=ku palakai kuṭuttu</seg>
+                     
+                <pb facs="340" n="167v"/>
+        <seg function="explicit"><milestone unit="main-text-area"/><lb n="1"/>ceytukoṇṭu vaṅkiccēkarayāṇṭiyararacāccukamē Iruntār <g ref="#pcl"/></seg> <seg function="completion-statement">Aṉpatāvatu cuntarappē ~ ramapeyta
+        <lb n="2"/>tiruviḷaiyāṭal muṟṟum <g ref="#pcs"/></seg> <seg function="blessing">tirucciṟṟampala=M ~</seg> <seg function="TBC">vēṭarupamāka <g ref="#pcl"/> <g ref="#pcl"/> vēṭarupamāka vantu meruvai
+        <lb n="2"/>villa?va ~ rettu cuntaraliṅkam taṉṉiṭaporalē Ampeytukoḷaṉai ceyita kataiyaic cō
+        <lb n="3" break="no"/>ṉṉōm caṅkattāruḷu??kaitantu Avarkaḷ kūṭattaramum iruntu tamiḷcelam</seg>
+</ab>
+</body></text></TEI>
