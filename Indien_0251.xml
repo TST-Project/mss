@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title><title xml:lang="ta">Naiṭatam</title>, with commentary</title>
+            <title><title xml:lang="ta">Naiṭatam</title> (text &amp; commentary)</title>
          <editor><persName>Eva WILDEN</persName><orgName>Universität Hamburg</orgName></editor></titleStmt>
          
          <publicationStmt>
@@ -20,22 +20,19 @@
                   
                   <idno type="shelfmark">Indien 251</idno>
                   <idno type="alternate"><idno>Tamoul 251</idno></idno>
-               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103785h</idno></msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103785h</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b525104759</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary><p>An incomplete text (<foreign xml:lang="ta">mūlam</foreign>) of the <title xml:lang="ta">Naiṭatam</title>, with an elaborate commentary (different from the one in <ref target="Indien_0250.xml">BnF Indien 250</ref>)..</p>
-   <p>Description based on the digital images available on Gallica.</p>  <p>Dimensions after Cabaton (1912).</p>     
+                  <summary><p>An incomplete text (<foreign xml:lang="ta">mūlam</foreign>) of the <title xml:lang="ta">Naiṭatam</title>, with an elaborate commentary (different from the one in <ref target="Indien_0250.xml">BnF Indien 250</ref>).</p>
+<p>Description based on the digital images available on Gallica.</p>
+<p>Dimensions after Cabaton (1912).</p>     
 </summary>
                   
-               <msItem defective="true"><title xml:lang="ta">Naiṭatam, <term xml:lang="en">with commentary</term></title><textLang mainLang="tam"/><incipit xml:lang="ta-Taml">U3, <locus facs="3">f. 1r</locus> = Text
-<quote xml:lang="ta-Taml" rend="block">
-  <pb n="1r" facs="3"/>
-  <lb n="1"/>தழைவிரி கடுக்கை மாலைத் தனிமுதற் சடையிற் சூடுங் குழவிவெண் டிங்க ளிற்ற கோட்டது குறையென் றெண்ணிப் புழைநெடுங் கரத்தார்ப் பற்றிப் <lb n="2"/>பொற்புற விணைத்து நோக்கு மழைமதக் களிற்றின் செய்ய மலரடி சென்னி வைப்பாம். இச்செயுளென்னுதலிற்றோ வெனின் - தெய்வவணக்கமுஞ் <lb n="3"/>செயப்படு பொருளுமென்னுஞ் சிறப்புபாயிரம் ?ண்டனுள் தெய்வவணக்கமுணர்ந்து தனுதலிற்று இதன் பொருள் <g ref="#pcs"/> <g ref="#pcl"/> <g ref="#pcs"/>
-  <lb n="4"/>தழை தழைந்து - விரி மலர்ந்த - கடுக்கை மாலை - கொன்றைப்பூமாலையினையுடைய - தனி ஒப்பற்ற - முதல் ஆதியாகிய பநம் <lb n="5"/>சிவநுடைய சடையில் - ச?பார்த்திலே சூடும் - தரிக்கப்பட்ட - குழவி இளமையாகி வெண் வேளுமை <lb n="6"/>யாகிய திங்கள் - மூன்றாம் பிறைச் சந்திரனை <gap reason="ellipsis"/></quote></incipit></msItem></msContents>
+               <msItem synch="#U2" xml:id="T1" defective="true"><title xml:lang="ta">Naiṭatam, <term xml:lang="en">Text &amp; Commentary</term></title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
                         <extent>
-                           <measure unit="folio" quantity="204"/>
+                           <measure unit="folio" quantity="204">203 + {1} (U1 + U2).</measure>
                            <dimensions type="leaf" unit="mm">
                               <width quantity="410"/>
                               <height quantity="35"/>
@@ -43,12 +40,8 @@
                         <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
                         
                         
-                     <collation><desc>The manuscript contains the following units:
-<list>
-  <item>U1 = folios 1-178 = Text</item>
-  <item>U2 = 1 unfoliated folio, blank recto verso</item>
-</list></desc></collation><foliation><p>Tamil pagination left, European pagination right.</p>
-                        </foliation><condition><p>Good condition, largely uninked.</p>
+                     <collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">203 folios = <emph rend="bold"><title xml:lang="ta">Naiṭatam</title>: Text &amp; Commentary</emph>. Tamil foliation 1-203. </desc><desc xml:id="U2">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><foliation>Tamil foliatio in left margin.
+                        </foliation><condition>Good condition.
                         </condition></supportDesc>
                      <layoutDesc>
                         <layout columns="1"/>
@@ -56,7 +49,7 @@
                   </objectDesc>
                   <handDesc>
                      
-                  <handNote scope="sole" script="tamil" scriptRef="#tamilRa"/></handDesc>
+                  <handNote synch="#U2" scope="sole" script="tamil" scriptRef="#tamilRa" medium="incised"><desc>Largely uninked.</desc></handNote></handDesc>
                   <additions>
                     
             
@@ -75,8 +68,8 @@
             
             
             
-                  <desc type="intertitle title" subtype="beginning marginal"><locus facs="3">f. 1r</locus>, margin: <q xml:lang="ta">Naiṭatam Nāṭṭuppaṭalam</q></desc><desc type="intertitle" subtype="marginal"><locus facs="7">f. 3r</locus>: <q xml:lang="ta">nāṭṭuppaṭalam</q></desc><desc type="intertitle" subtype="marginal"><locus facs="71">f. 35r</locus>: <q xml:lang="ta">aṉṉattaik kaṇṇuṟṟa paṭalam</q></desc><desc type="intertitle" subtype="marginal"><locus facs="111">f. 55r</locus>: <q xml:lang="ta">aṉṉattaik kaṇṇuṟṟa paṭala muṟṟum</q> {following to be transcribed after each end title!}, v blank</desc><desc type="intertitle" subtype="marginal"><locus facs="113">f. 56r</locus>: <q xml:lang="ta">aṉṉattait tūtuviṭṭa paṭalam</q></desc><desc type="intertitle" subtype="marginal"><locus facs="115">f. 57</locus>: <q xml:lang="ta">kaikkiḷai paṭalam</q></desc><desc type="intertitle" subtype="marginal"><locus facs="217">f. 108r</locus>: <q xml:lang="ta">aṉṉattait tūtuviṭṭa paṭalam muṟṟum</q>, v blank</desc><desc type="intertitle" subtype="marginal"><locus facs="244">f. 121v</locus>: <q xml:lang="ta">nilāttōṟṟu paṭalam</q></desc><desc type="intertitle" subtype="marginal"><locus facs="257">f. 128r</locus>: <q xml:lang="ta">nilāttōṟṟu paṭalam muṟṟum</q></desc><desc type="intertitle" subtype="marginal"><locus facs="258">f. 128v</locus>: <q xml:lang="ta">cantirōvālampaṉap paṭalam</q></desc><desc type="intertitle" subtype="marginal"><locus facs="287">f. 143r</locus>: <q xml:lang="ta">cantirōvālampaṉap paṭalam muṟṟum</q>; v blank</desc><desc type="intertitle" subtype="marginal"><locus facs="289">f. 144r</locus>: <q xml:lang="ta">maṉmatōvalampaṉap paṭalam</q></desc><desc type="intertitle" subtype="marginal"><locus facs="298">f. 148v</locus>: <q xml:lang="ta">maṉmatōvalampaṉap paṭalam muṟṟum</q></desc><desc type="intertitle" subtype="marginal"><locus facs="299">f. 149r</locus>: <q xml:lang="ta">intirappaṭalam</q></desc><desc type="intertitle" subtype="marginal"><locus facs="317">f. 158r</locus>: <q xml:lang="ta">intirappaṭalam muṟṟum</q>, v blank</desc><desc type="intertitle" subtype="marginal"><locus facs="319">f. 159r</locus>: <q xml:lang="ta">naḷaṉ ṟūtuceṉṟa paṭalam</q></desc><desc type="intertitle" subtype="marginal"><locus facs="407">f. 203r</locus>: <q xml:lang="ta">naḷaṉ ṟūtuceṉṟa paṭalam muṟṟum</q></desc></additions>
-               </physDesc>
+                  </additions>
+               <bindingDesc><binding><p>Original <material>wood</material> covers.</p></binding></bindingDesc></physDesc>
                <history>
                   <origin>
                      <origDate calendar="gregorian" when="1780">No internal date. Dated to circa 1780 by Vinson in Vinsom et al. (1866-) and to 1780 by Cabaton (1912), on unstated grounds (presumably palaeographical and material analysis arguments). </origDate>
@@ -99,8 +92,87 @@
    <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
          
-      <change when="2020-10">This catalogue entry has been redacted by Eva WILDEN (Universität Hamburg) for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG). Version 1, Oct 2020.</change><change when="2021-01">Converted to TEI by Charles LI.</change><change when="2022-05">Updated to TST encoding conventions by Emmanuel FRANCIS. Revised by <persName>Emmanuel FRANCIS</persName>. Version 2, May 2022.</change></revisionDesc></teiHeader>
+      <change when="2020-10">This catalogue entry has been redacted by Eva WILDEN (Universität Hamburg) for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG). Version 1, October 2020.</change><change when="2021-01">Converted to TEI by Charles LI.</change><change when="2022-05">Updated to TST encoding conventions by Emmanuel FRANCIS. Revised by <persName>Emmanuel FRANCIS</persName>. Version 2, May 2022.</change></revisionDesc></teiHeader>
    <facsimile>
       <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525104759/manifest.json"/>
    </facsimile>
-</TEI>
+<text synch="#U2" corresp="#T1" xml:lang="ta"><body>
+  <ab>
+       
+  <pb n="1r" facs="3"/>
+    
+    <seg function="header">
+      <seg function="title"><milestone unit="left-margin"/>
+        <lb n="1"/>naiṭatam</seg>
+        <seg function="intertitle"><lb n="2-3"/>nāṭṭuppaṭalam</seg>
+       </seg>
+      
+      <seg function="incipit"><milestone unit="main-text-area"/>
+  <lb n="1"/>taḻaiviri kaṭukkai mālait taṉimutaṟ caṭaiyiṟ cūṭuṅ kuḻaviveṇ ṭiṅka ḷiṟṟa kōṭṭatu kuṟaiyeṉ ṟeṇṇip puḻaineṭuṅ karattārp paṟṟip
+    <lb n="2"/>poṟpuṟa viṇaittu nōkku maḻaimatak kaḷiṟṟiṉ ceyya malaraṭi ceṉṉi vaippām. icceyuḷeṉṉutaliṟṟō veṉiṉ ~ teyvavaṇakkamuñ
+    <lb n="3"/>ceyappaṭu poruḷumeṉṉuñ ciṟappupāyiram iraṇṭaṉuḷ teyvavaṇakkamuṇarntu taṉutaliṟṟu Itaṉ poruḷ <g ref="#pcs"/> <g ref="#pcl"/> <g ref="#pcs"/>
+  <lb n="4"/>taḻai taḻaintu ~ viri malarnta ~ kaṭukkai mālai ~ koṉṟaippūmālaiyiṉaiyuṭaiya ~ taṉi Oppaṟṟa ~ mutal Ātiyākiya panam 
+    <lb n="5"/>civanuṭaiya caṭaiyil ~ ca<unclear>ṭa</unclear>pārttilē cūṭum ~ tarikkappaṭṭa ~ kuḻavi Iḷamaiyāki veṇ vēḷumai <lb n="6"/>yākiya tiṅkaḷ ~ mūṉṟām piṟaic cantiraṉai <gap reason="ellipsis"/></seg>
+      
+      <pb facs="7" n="3r"/>
+      <seg function="intertitle"><milestone unit="left-margin"/>nāṭṭuppaṭalam</seg>
+        
+      <pb facs="71" n="35r"/>
+      <seg function="intertitle"><milestone unit="left-margin"/>
+        Aṉṉattaik kaṇṇuṟṟa paṭalam</seg>
+        
+        <pb facs="111" n="55r"/>
+      <seg function="completion-statement">Aṉṉattaik kaṇṇuṟṟa paṭala muṟṟum</seg>
+       <pb facs="112" n="55v"/><note xml:lang="en">blank</note>
+
+              <pb facs="113" n="56r"/>
+      <seg function="intertitle"><milestone unit="left-margin"/>
+        Aṉṉattait tūtuviṭṭa paṭalam</seg>
+        
+        <pb facs="115" n="57r"/>
+      <seg function="intertitle"><milestone unit="left-margin"/>
+        kaikkiḷai paṭalam</seg>
+        
+        <pb facs="217" n="108r"/>
+      <seg function="completion-statement">Aṉṉattait tūtuviṭṭa paṭalam muṟṟum</seg>
+               <pb facs="218" n="108v"/><note xml:lang="en">blank</note>
+
+                <pb facs="244" n="121v"/>
+      <seg function="intertitle"><milestone unit="left-margin"/>
+        nilāttōṟṟu paṭalam</seg>
+    
+        <pb facs="257" n="128r"/>
+      <seg function="completion-statement">nilāttōṟṟu paṭalam muṟṟum</seg>
+        
+        <pb facs="258" n="128v"/>
+      <seg function="intertitle"><milestone unit="left-margin"/>cantirōvālampaṉap paṭalam</seg>
+        
+        <pb facs="287" n="143r"/>
+      <seg function="completion-statement">cantirōvālampaṉap paṭalam muṟṟum</seg>
+    <pb facs="288" n="143v"/><note xml:lang="en">blank</note>
+
+                <pb facs="289" n="144r"/>
+      <seg function="intertitle"><milestone unit="left-margin"/>
+        maṉmatōvalampaṉap paṭalam</seg>
+        
+       <pb facs="298" n="148v"/>
+      <seg function="completion-statement">maṉmatōvalampaṉap paṭalam muṟṟum</seg>
+        
+        <pb facs="299" n="149r"/>
+      <seg function="intertitle"><milestone unit="left-margin"/>Intirappaṭalam</seg>
+    
+        <pb facs="317" n="158r"/>
+      <seg function="completion-statement">Intirappaṭalam muṟṟum</seg>
+        <pb facs="318" n="158v"/><note xml:lang="en">blank</note>
+
+                <pb facs="319" n="159r"/>
+      <seg function="intertitle"><milestone unit="left-margin"/>
+        naḷaṉ ṟūtuceṉṟa paṭalam</seg>
+        
+        <pb facs="407" n="203r"/>
+      <seg function="completion-statement">naḷaṉ ṟūtuceṉṟa paṭalam muṟṟum</seg>
+        
+        </ab>
+        </body>
+        
+        </text></TEI>
