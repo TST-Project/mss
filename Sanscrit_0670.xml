@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><title xml:lang="sa">Kāvyālaṅkārasūtravṛtti</title> by <persName xml:lang="sa">Vāmana</persName></title>
+            
+         <editor><persName>Daniele CUNEO</persName><orgName>Sorbonne Nouvelle</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2022</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Sanscrit 670</idno>
+                  <idno type="alternate"><idno>Sanscrit Bengali 101</idno></idno>
+               </msIdentifier>
+               <msContents class="#STM">
+                  <summary>This palm-leaf manuscript in Bengali script, probably written around the 17th century, contains <persName xml:lang="sa">Vāmana</persName>'s <title xml:lang="sa">Kāvyālaṅkārasūtravṛtti</title>, one of the seminal texts of Sanskrit poetics, composed in Kashmir during the reign of king <persName xml:lang="sa">Jayāpīḍa</persName> (799–813). This BnF manuscript plays a crucial role in the scholarly history of <persName xml:lang="sa">Vāmana</persName>'s treatise, as Carl Cappeller (1842-1925) used it as the main witness in establishing the text for his publication of the <foreign xml:lang="la">editio princeps</foreign> of the <title xml:lang="sa">Kāvyālaṅkārasūtravṛtti</title>, appeared in Jena in 1875.</summary>
+                  
+               <msItem synch="#U1" defective="true"><title xml:lang="sa">Kāvyālaṅkārasūtravṛtti</title><author xml:lang="sa">Vāmana</author><textLang mainLang="san"/><rubric xml:lang="sa"><milestone n="1v" unit="folio"/> ঀ oṁ namaḥ śrīkṛṣṇāya ||</rubric><incipit xml:lang="sa"><milestone n="1v" unit="folio"/> praṇamya paramaṃ jyotirvvāmanena kavipriyā | kāvyālaṃk<gap reason="lost" unit="akṣara" quantity="13"/> kāvyaṃ grāhyamalaṃkārāt | kāvyaṃ khalu grāhyam upādeyaṃ bhavati alaṅkārāt | kāvyaśabdo yaṃ gu<lb n="2"/>ṇālaṃkārasaṃskṛtayoḥ śabdārthayor vvartate ||</incipit><explicit xml:lang="sa"><milestone n="54v" unit="folio"/><lb n="3"/>sadansanto mayā śabdā vivicyaitra nidarśitāḥ | anayaiva diśā kāryyaṃ śe¦<lb n="4"/>ṣāṇām apy avekṣaṇam ||</explicit><finalRubric xml:lang="sa"><milestone n="54v" unit="folio"/>
+<lb n="4"/>|| iti śrīvāmanakṛtāyāṃ kāvyālaṃkāravṛttau prāyogike 'dhikaraṇe dvitīyo dhyāyaḥ śabdavicāraḥ || ❈ || samāptā ceyaṃ vāmanavṛttir iti || samāptañ cedaṃ prāyogikam adhikaraṇaṃ ||</finalRubric></msItem><msItem synch="#U2" defective="false"><title xml:lang="sa">Nāmaliṅgānuśāsana</title><author xml:lang="sa">Amarasiṃha</author><textLang mainLang="san"/><incipit xml:lang="sa">paridhirupasūryakaṇḍale |</incipit><explicit xml:lang="sa">dakṣiṇārkkasya vatsaraḥ |</explicit></msItem><msItem synch="#U3" defective="true"><title xml:lang="sa">Kāvyālaṅkārasūtravṛtti</title><author xml:lang="sa">Vāmama</author><textLang mainLang="san"/></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="pothi">
+                     <supportDesc material="palm-leaf talipot">
+                        <support>
+                           <measure unit="stringhole" quantity="1"/>
+                           
+                        </support>
+                        <extent>
+                           <measure unit="folio" quantity="56">Numbered folios 1-45, 47-54 + 3 folios with number three on the last recto </measure>
+                           <dimensions type="leaf" unit="mm">
+                              <width quantity="330"/>
+                              <height quantity="33"/>
+                           </dimensions>
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"><width quantity="280"/><height quantity="20"/></dimensions></extent>
+                        <collation><desc xml:id="U1">Main codicological unit, containing Vāmana's <title xml:lang="sa">Kāvyālaṅkārasūtravṛtti</title>.</desc><desc xml:id="U2">One recent palm leaf, fully written in Bengali script and containing a portion of the <title xml:lang="sa">Kālavarga</title> of the <title xml:lang="sa">Nāmaliṅgānuśāsana</title>.</desc><desc xml:id="U3">Two palm leaves fully written in Bengali script, but the last verso, which only has the name <persName xml:lang="sa">Vāmana</persName> and the number 237 (probably a previous shelfmark).  In the recto of the last folio, the text of <persName xml:lang="sa">Vāmana</persName>'s <title xml:lang="sa">Kāvyālaṅkārasūtravṛtti</title> starts again and continues in the penultimate folio (in the same hand).</desc></collation>
+                        
+                        
+                     <foliation>Bengali numerals, left margin, preceded by <foreign xml:lang="sa">śrīḥ</foreign> [1–45, 47–54].</foliation><condition>Relatively good state of preservation. The first two leaves are damaged with loss of text. Some damage due to humidity is found throughout, without loss of text. </condition></supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="4">60 to 65 akṣaras per line. Some corrections added in the margins.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc><handNote synch="#U1" scope="major" script="bengali" medium="ink black"/><handNote synch="#U2" scope="sole" script="bengali" medium="ink black"/><handNote synch="#U3" scope="sole" script="bengali" medium="ink black"/></handDesc>
+                  <decoDesc>
+                  </decoDesc>
+                  <additions>
+                  </additions>
+                  <bindingDesc>
+                     <binding><p>European wood covers.</p></binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian" notBefore="1600" notAfter="1700"/>
+                     <origPlace>Eastern India</origPlace>
+                  </origin>
+                  <provenance/>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl>Cabaton, Antoine. (1907-1908). <title xml:lang="fr">Catalogue sommaire des manuscrits sanscrits avec supplément manuscrit</title>. Paris: E. Leroux. Supplemented by Jean Filliozat. <ref target="https://gallica.bnf.fr/ark:/12148/btv1b10536321f/f126.item">110</ref>.</bibl><bibl>Cappeller, C. (ed) (1875). <title xml:lang="de"><term xml:lang="sa">śrivāmanaviracitā kāvyālaṃkāravṛttiḥ</term>: Vâmana’s Lehrbuch der Poetik.</title> Jena: Verlag von Hermann Dufft.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         
+      <p>IAST conventions</p></encodingDesc>
+      
+   <revisionDesc>
+         
+      <change when="2022-06">First version.</change></revisionDesc></teiHeader>
+   <facsimile>
+   </facsimile>
+</TEI>
