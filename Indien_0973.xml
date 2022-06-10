@@ -4,9 +4,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title><title xml:lang="ta">Nālaṭiyar</title></title>
+            <title><title xml:lang="ta">Nālaṭiyar</title> (text &amp; commentary)</title>
             
-         <editor><persName>Eva WILDEN</persName><orgName>Universität Hamburg</orgName></editor></titleStmt>
+         <editor><persName>Eva WILDEN</persName><orgName>Universität Hamburg</orgName></editor><editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
             <date>2022</date>
@@ -21,16 +21,11 @@
                   <idno type="alternate"><idno>Senart 311</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1045904</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b10464132h</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary><p>Complete text with commentary and satellite material ending in a date (<locus facs="11">f. 1r</locus>, 30 May 1822) and colophon (date <locus facs="209">f. 100r</locus>, 12 May 1823).</p>
+                  <summary><p>Complete text with commentary and satellite material ending with a date (<locus facs="11">f. 1r</locus>: 30 May 1822) and with a colophon with date (<locus facs="209">f. 100r</locus>: 12 May 1823).</p>
 <p>Description based on the digital images available on Gallica.</p>
 <p>Dimensions after Cabaton (1912).</p>  </summary>
                   
-               <msItem defective="false"><title xml:lang="ta">Nālaṭiyar</title><textLang mainLang="tam"/><incipit xml:lang="ta-Taml"><milestone n="2r" unit="folio" facs="13"/>
-<lb n="1"/>செல்வனிலையாமை - அஃதாவது செல்வங்கொண் டறஞ்செய்யவேணு - மாதலிற் - மொருபடிநிலையாமை - யாதலிற் பொருள் நிற்குமென்று - கருதாம - லிமைக்குப் புகழ் - மறு<lb n="2"/>மைக்குறுதியும் - விரைந்து செய்தற் பொருட்டாயிற் – செல்வநிலையாமையை யுணர்த்தப்பட்டது ௳
-அறுசுவை யுண்டி யமர்நதில்லா ளுட்ட -
-மறுசிகை நீக்கியுண் டாரும் - வறிஞராய்ச் -
-சென்<lb n="3"/>றிரப்ப ரோரிடத்துக் கூழெனிற் செல்வமொன் -
-றுண்டாக வைக்கப்பாற் றன்று ௳ என்றது ௳</incipit></msItem></msContents>
+               <msItem synch="#U2a" xml:id="T1" defective="false"><title xml:lang="ta">Nālaṭiyar: Kāppu</title><textLang mainLang="tam"/></msItem><msItem synch="#U2b" xml:id="T2" defective="false"><title xml:lang="ta">Nālaṭiyar: Mūlam</title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf palmyra">
@@ -39,13 +34,13 @@
                            
                         </support>
                         <extent>
-                           <measure unit="folio" quantity="105"/>
+                           <measure unit="folio" quantity="106">{3} + {1} + 100 + {2} (U1 + U2a + U2b + U3).</measure>
                            <dimensions type="leaf" unit="mm">
                               <width quantity="450"/>
                               <height quantity="35"/>
                            </dimensions>
                         <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
-                        <collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">3 folios = <emph rend="bold">guard leaves</emph>. No foliation. </desc><desc xml:id="U2a">1 folio = <emph rend="bold">Invocation</emph>. No foliation. </desc><desc xml:id="U2b">100 folios = <emph rend="bold">Text</emph>. Tamil foliation. </desc><desc xml:id="U3">2 folios = <emph rend="bold">guard leaves</emph>. No foliation. </desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation>
+                        <collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">3 folios = <emph rend="bold">guard leaves</emph>. No foliation. </desc><desc xml:id="U2a">1 folio = <emph rend="bold"><title xml:lang="ta">Nālaṭiyar</title>: Invocation</emph>. No foliation. Verso blank.</desc><desc xml:id="U2b">100 folios = <emph rend="bold"><title xml:lang="ta">Nālaṭiyar</title>: Text</emph>. Tamil foliation {1}-100. </desc><desc xml:id="U3">2 folios = <emph rend="bold">guard leaves</emph>. No foliation. </desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation>
                         
                         <condition>Good condition with some worm-holes; partly unblackened towards the end.</condition>
                      </supportDesc>
@@ -53,47 +48,24 @@
                         <layout writtenLines="8"/>
                      </layoutDesc>
                   </objectDesc>
-                  <handDesc><handNote scope="sole" script="tamil" medium="incised soot"><desc>Transitional script with modern ṟ, kompu with mini second loop.</desc></handNote></handDesc>
+                  <handDesc><handNote synch="#U2a #U2b" scope="sole" script="tamil" medium="incised soot"><desc>Transitional script with modern <foreign xml:lang="ta">ṟa</foreign>, <foreign xml:lang="ta">kompu</foreign> with mini second loop.</desc></handNote></handDesc>
                   <decoDesc>
                   </decoDesc>
                   <additions>
-                  <desc type="blessing" subtype="beginning marginal left"><locus facs="11">f. 1r</locus>, margin: <q xml:lang="ta" rend="block">
-<lb n="1"/>hari ōm
-<lb n="2"/>naṉṟāka
-<lb n="3"/>kuruvāḻka
-<lb n="4"/>kuruvē tuṇai
-  </q></desc><desc type="preface" subtype="beginning"><locus facs="11">f. 1r</locus>: <q xml:lang="ta-Taml" rend="block">
-  <lb n="1"/>வானிடு வில்லின் - வரவறியா வாய்மையாற் -
-கானிலந் தோயாக் கடவுளை - யானிலஞ் -
-சென்னி யுறவணங்கிச் - சேர்துமெம் முள்ளத்து -
-முன்னி யவைமுடிக வென்று ௳ என்பது ௳
-வானி<lb n="2"/>டு வில்லின் - ஆகாசத்திலிடும் பச்சைவிலைப்போலே - வரவறியா வாய்மையாற் - தனது வரவையறியாத - மெய்யொன்றிருக்கையாலே - கானிலந் தோயஙக் கடவுளை - நிலத்திலே காலவையா<lb n="3"/>த் தெய்வத்தை - யானிலஞ் - சென்னி யுறவணங்கி - நாம் நிலத்திலே தலைவைத்து வணங்கிச் சேர்தும் - நினைப்போம் - மெம்முள்ளத்து - முன்னியவை முடிக வென்று – யெமது <lb n="4"/>மனத்திலே நினைத்தவை முடியும்பொருட்டென்றவாறு ௳ 
-வெள்ளான் மரபுக்கு வேதமெனச் சான்றோர்க -
-ளெல்லாருங் கூடி யெடுத்துரைத்த - சொல்லாய்ந்த -
-நாலடி <lb n="5"/>நானூறு நன்கினிதா யென்மனத்தே -
-சீலமுட னிற்கவே செப்பு ௳ 
-மன்னன் வழுதியர்கோன் வைகைப் பேராற்றின்
-கண்ணின் னிருநாலாயிர முன்னிவர் - சொன்ன <lb n="6"/>முழுதில்லா நீரெதிரே முன்னெறி வந்தப் - 
-பழுதில்லா நாலடியைப் பார் -
-<note xml:lang="en">date</note>
-வாணி நம<gap reason="illegible"/>து<unclear>ள</unclear> பரமகுருவேநமர<unclear>ள</unclear> சித்திரபானு <g ref="#varuṣam"/> வையாசி <g ref="#mācam"/> <gap reason="illegible" quantity="3" unit="character"/> குருவாரம் - திசமி அரத்து - நஷசதிரத்தி<unclear>ல</unclear>வ<gap reason="illegible" quantity="3" unit="character"/>
- </q></desc><desc type="blessing" subtype="beginning marginal left"><locus facs="14">f. 2r</locus>, margin: <q rend="block" xml:lang="ta">
-<lb n="1"/>naṉṟāka
-<lb n="2" break="no"/>celvani
-<lb n="3" break="no"/>laiyā
-<lb n="4" break="no"/>mai
-  </q></desc></additions>
+                  </additions>
                   <bindingDesc>
                      <binding/>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian"/>
+                     <origDate calendar="gregorian" notAfter="1823" notBefore="1822">Internally dated to the year <foreign xml:lang="ta">cittirapāṉu</foreign> (beginning statement, U2a, <locus facs="9">f[1]v6</locus>) and to the year <foreign xml:lang="ta">cupāṉu</foreign> (colophon, U2ba, <locus facs="209">f100r1</locus>) of the Jovian cycle, that is, 30th May 1822 and 12th May 1823.
+
+</origDate>
                      
-                  </origin>
-                  <provenance/>
-                  <acquisition/>
+                  <origPlace>Tamilnadu.</origPlace></origin>
+                  <provenance><p>Unknown.</p></provenance>
+                  <acquisition><p>Unknown.</p></acquisition>
                </history>
                <additional>
                   <listBibl>
@@ -105,11 +77,76 @@
       </fileDesc>
       <encodingDesc>
          
-      <p>Mixed Tamil and Roman transcription.</p></encodingDesc>
+      <p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.            </p></encodingDesc>
       
    <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
-      <change when="2022-05">First version. Converted to TEI by Charles LI.</change><change when="2022-06">Revised by <persName>Emmanuel FRANCIS</persName>. Version 2, June 2022.</change></revisionDesc></teiHeader>
+      <change when="2022-05">First version. Converted to TEI by Charles LI.</change><change when="2022-06">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, June 2022. With the kind help of Giovanni Ciotti (Hamburg University) &amp; Marco Franceschini (Bologna University) for deciphering and interpreting the dates in the copy beginning statement and in the colophon.</change></revisionDesc></teiHeader>
    <facsimile>
    <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10464132h/manifest.json"/></facsimile>
-</TEI>
+<text synch="#U2a" corresp="#T1" xml:lang="ta"><body>
+  <ab>
+    
+    <pb facs="9" n="[1]r"/>
+    <seg function="header">
+    <seg function="blessing"><milestone unit="left-margin"/>
+      <lb n="1"/>hari Ōm</seg>
+<seg function="blessing"><lb n="2"/>naṉṟāka</seg>
+<seg function="blessing"><lb n="3"/>kuru vāḻka</seg>
+<seg function="blessing"><lb n="4"/>kuruvē tuṇai</seg>
+      </seg>
+
+    <seg function="satellite-stanza"><milestone unit="main-text-area"/>
+      <lg>
+  <l><lb n="1"/>vāṉiṭu villiṉ - varavaṟiyā vāymaiyāṟ -</l>
+<l>kāṉilan tōyāk kaṭavuḷai - yāṉilañ -</l>
+<l>ceṉṉi yuṟavaṇaṅkic - cērtumem muḷḷattu -</l>
+<l>muṉṉi yavaimuṭika veṉṟu <g ref="#pcs"/></l></lg></seg> Eṉpatu <g ref="#pcs"/>
+vāṉi
+    <lb n="2" break="no"/>ṭu villiṉ - Ākācattiliṭum paccaivilaippōlē - varavaṟiyā vāymaiyāṟ - taṉatu varavaiyaṟiyāta - meyyoṉṟirukkaiyālē - kāṉilan tōyaṅak kaṭavuḷai - nilattilē kālavaiyā
+    <lb n="3" break="no"/>t teyvattai - yāṉilañ - ceṉṉi yuṟavaṇaṅki - nām nilattilē talaivaittu vaṇaṅkic cērtum - niṉaippōm - memmuḷḷattu - muṉṉiyavai muṭika veṉṟu – yematu
+    <lb n="4"/>maṉattilē niṉaittavai muṭiyumporuṭṭeṉṟavāṟu <g ref="#pcs"/>
+veḷḷāṉ marapukku vētameṉac cāṉṟōrka -
+ḷellāruṅ kūṭi yeṭutturaitta - collāynta -
+nālaṭi <lb n="5"/>nāṉūṟu naṉkiṉitā yeṉmaṉattē -
+cīlamuṭa ṉiṟkavē ceppu <g ref="#pcs"/> 
+maṉṉaṉ vaḻutiyarkōṉ vaikaip pērāṟṟiṉ
+kaṇṇiṉ ṉirunālāyira muṉṉivar - coṉṉa
+    <lb n="6"/>muḻutillā nīretirē muṉṉeṟi vantap - 
+paḻutillā nālaṭiyaip pār <g ref="#pcs"/>
+<seg function="blessing">vāṇi namastu <g ref="#pcs"/></seg> <seg function="blessing">paramakuruvē namā <g ref="#pcs"/></seg> <seg function="TBC">cit=tirapāṉu <g ref="#varuṣam"/> vaiyāci <g ref="#mācam"/> <g ref="#pattu"/>9 {tēti} kuruvāram - ticami Astta-naṣcatirat=til tuvak=kam <g ref="#pcs"/></seg>
+    
+    </ab>
+  </body></text><text synch="#U2b" corresp="#T2" xml:lang="ta"><body>
+  <ab>
+    
+    <pb facs="11" n="[1]r"/>
+    <seg function="header">
+    <seg function="blessing"><milestone unit="left-margin"/>
+      <lb n="1"/>naṉṟāka</seg>
+<seg function="intertitle"><lb n="2" break="no"/>celvani
+<lb n="3" break="no"/>laiyā
+<lb n="4" break="no"/>mai</seg>
+      </seg>
+    
+   <seg function="incipit"><milestone unit="main-text-area"/>
+      <lb n="1"/>celvaṉilaiyāmai - Aḵtāvatu celvaṅkoṇ ṭaṟañceyyavēṇu - mātaliṟ - morupaṭinilaiyāmai - yātaliṟ poruḷ niṟkumeṉṟu - karutāma - limaikkup pukaḻ - maṟu
+     <lb n="2" break="no"/>maikkuṟutiyum - viraintu ceytaṟ poruṭṭāyiṟ – celvanilaiyāmaiyai yuṇarttappaṭṭatu =</seg>
+    <seg function="incipit" type="root-text">
+<lg><l>Aṟucuvai yuṇṭi yamarnatillā ḷuṭṭa -</l>
+<l>maṟucikai nīkkiyuṇ ṭārum - vaṟiñarāyc -</l>
+<l>ceṉ<lb n="3" break="no"/>ṟirappa rōriṭattuk kūḻeṉiṟ celvamoṉ -</l>
+<l>ṟuṇṭāka vaikkappāṟ ṟaṉṟu <g ref="#pcs"/></l></lg></seg> Eṉṟatu <g ref="#pcs"/> <gap reason="ellipsis"/>
+    
+    <pb facs="209" n="100r"/>
+    <seg function="colophon"><lb n="1"/>
+cupāṉu {varuṣam} cittirai {mācam} 3<g ref="#pattu"/>1 {tēti} cōmavāram ~ cukkula-paṣcam tutikai {nāḻikai} ~ 2<g ref="#pattu"/>9 {Arai} {mūṉṟuvīcam} ṟōkaṇi-naṣcattiram {nāḻikai} ~ 2<g ref="#pattu"/>7 ~ Atikaṇṭaṉāma-yōkam {nāḻikai} ~ <g ref="#pattu"/>4 {mūṉṟuvīcam} pālavākaraṇam {nāḻikai} - 2 {Arai} kaulavākaraṇa=M
+      
+      <lb n="2"/>{nāḻikai} ~ 2<g ref="#pattu"/>7 {kāl} tivi {nāḻikai} ṟāt=tiri {nāḻikai} ~ 8 {mūṉṟuvīcam} ṟā mēl tiyācciyam Inta cupayōka-cupatiṉattil Uti(kk/tt)u {nāḻikai} ~ 2<g ref="#pattu"/>2 {mukkāl} ṟā kaṉṉiyālak=kaṇattil cāṟṟumīkavēḷaiyil – <g ref="#nūṟu"/> – <persName xml:lang="ta" role="reciter">ṟaṅkaya ṉāyak=kar kumāraṉ cira-
+<lb n="3"/>ñcīvi – vīṟacāmi</persName> paṭikkiṉṟa nālaṭiyār Eḻuti niṟa vēriṉatu muṟṟum – <seg function="blessing">tīṟkāyicu</seg> Uṇṭāka tākavu=M <persName xml:lang="ta" role="scribe">Upāt=tiyār Aṇṇāmalai</persName> Eḻutiṉatu<g ref="#pcl"/> <seg function="blessing">tīṟkāyicu <g ref="#pcs"/></seg> </seg>
+<seg function="blessing"><lb n="4"/><note xml:lang="en">centred line</note> śrīmatē rāmānujāya namā <g ref="#pcl"/></seg>      
+
+        <pb facs="210" n="100v"/><note xml:lang="en">blank</note>
+
+    </ab>
+  </body></text></TEI>
