@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:lang="ta">Composite: Medical Treatises</title>
+            <title xml:lang="ta">Collection (medical treatises)</title>
          <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          
          <publicationStmt>
@@ -21,9 +21,9 @@
                   <idno type="alternate"><idno>Tamoul 536</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc104065r</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/4j03d640x</idno></msIdentifier>
                <msContents class="#CM">
-                  <summary><p>A composite manuscript containing leaves of various format and state of preservation. Contains medical treatises, that is <foreign xml:lang="ta">cūttiram</foreign>s by Pōkar, Akattiyar, Rōmarici, and Piramamuṉi (see U1, table of contents).</p>
+                  <summary><p>A composite manuscript containing leaves of various format and state of preservation. Contains medical treatises, that is <foreign xml:lang="ta">cūttiram</foreign>s by Pōkar, Akattiyar, Rōmarici, and Piramamuṉi (see U1, <locus facs="7">table of contents</locus>).</p>
 <p>The bundle is too fragile to be manipulated and exhaustively examined.</p>  
-<p>Description based on the examination of the original manuscript (September 2021).</p>
+<p>Description based on the summary examination of the original manuscript (September 2021).</p>
 <p>Dimensions assessed at the time of examination.</p>      
 
 
@@ -34,7 +34,7 @@
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
                         <extent>
-                           <measure unit="folio" quantity="153">{1} + {152} (U1 + U2). Folio count of 153 after Cabaton (1912).</measure>
+                           <measure unit="folio" quantity="153">{1} + {152} (U1 + U2). Total of folios after Cabaton (1912).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
@@ -66,7 +66,7 @@
                     
                     
                     
-                  <desc synch="#U1" type="commenting-note">Contents in black pencil: <quote xml:lang="fr">Formulaire médical</quote> (<locus facs="1">f[1]r</locus>). </desc><desc synch="#U1" type="shelfmark">BnF shelfmark sticker: <quote>INDIEN 536</quote> (<locus facs="1">f[1]r</locus>). </desc><desc synch="#U2" type="intertitle" subtype="marginal left">Left marginal intertitles.
+                  <desc synch="#U1" corresp="#T1" type="table-of-contents"/><desc synch="#U1" type="commenting-note">Contents in black pencil: <quote xml:lang="fr">Formulaire médical</quote> (<locus facs="8">f[1]r</locus>). </desc><desc synch="#U1" type="shelfmark">BnF shelfmark sticker: <quote>INDIEN 536</quote> (<locus facs="8">f[1]r</locus>). </desc><desc synch="#U2" type="intertitle" subtype="marginal left">Left marginal intertitles.
 
 
 </desc></additions>
@@ -97,12 +97,12 @@
       <encodingDesc>
          
          
-      <p>   <emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.</p></encodingDesc>
+      <p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.</p></encodingDesc>
       
-   <revisionDesc>
+   <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
          
-      <change when="2021-11">Record created by Emmanuel FRANCIS.</change><change when="2022-06">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, June 2022.</change></revisionDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
+      <change when="2021-11">Record created by Emmanuel FRANCIS.</change><change when="2022-06">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, June 2022.</change></revisionDesc></teiHeader>
    <facsimile>
       
    <graphic url="https://didomena.ehess.fr/concern/data_sets/4j03d640x/manifest.json"/></facsimile>
@@ -112,8 +112,7 @@
   <pb facs="7" n="[1]r"/>
   
   <seg function="title" cert="low"><lb n="1"/>yirumpu<seg rend="grantha">ma</seg>ruk=ku palayiḷa<seg rend="grantha">m</seg></seg>
-   <seg function="table-of-contents"><lb n="2"/>pōkar cūt=tira<seg rend="grantha">m</seg> 6<g ref="#pattu"/>
-      8
+   <seg function="table-of-contents"><lb n="2"/>pōkar cūt=tira<seg rend="grantha">m</seg> 6<g ref="#pattu"/>8
       <lb n="3"/>Akattiya<supplied reason="omitted">r</supplied> cūt=tira<seg rend="grantha">m</seg> 5<g ref="#pattu"/>
       <lb n="4"/>rōmariṣi cūt=tira<seg rend="grantha">m</seg> 2<g ref="#pattu"/>5 
       <lb n="5"/>piramamuṉi cūt=tira<seg rend="grantha">m</seg> 5<g ref="#pattu"/></seg>
