@@ -88,10 +88,10 @@
 		<encodingDesc>
 			
 		<p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.</p></encodingDesc>
-	<revisionDesc>
+	<xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
 
 			
-		<change when="2021-08">Record created by Emmanuel FRANCIS.</change><change when="2022-06">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, June 2022.</change></revisionDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
+		<change when="2021-08">Record created by Emmanuel FRANCIS.</change><change when="2022-06">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, June 2022.</change></revisionDesc></teiHeader>
 
 	
 	
@@ -120,37 +120,41 @@
   <lb n="3"/><gap reason="ellipsis"/> ṉ ākavum
   
   <pb facs="17" n="45r"/>
-  <lb n="1"/>y<pc>-</pc>inta kitāv<pc>-</pc>ākiṟa <gap reason="ellipsis"/>
+  <lb n="1"/>y<pc>-</pc>inta kitāv<pc>-</pc>ākiṟa ~ <gap reason="ellipsis"/>
   
   <pb facs="20" n="104r"/>
-  <seg function="completion-statement"><lb n="3"/><gap reason="ellipsis"/> māṉavi carit=tiram mukintatu muṟṟum</seg> <g ref="#pcl"/>
+  <seg function="completion-statement"><lb n="3"/><gap reason="ellipsis"/> ~ Alaiki māṉavi carit=tiram ~ mukintatu muṟṟum <g ref="#pcl"/></seg>
   
   <pb facs="23" n="105r"/>
+      <seg function="header">
   <seg function="intertitle"><milestone unit="left-margin"/>
   <lb n="1"/>pis·millāki
-  <lb n="2"/><gap reason="ellipsis"/>
-  <lb n="3"/><gap reason="ellipsis"/>
+  <lb n="2"/>I~tu mucā A
+  <lb n="3" break="no"/>laiki <gap reason="ellipsis"/>
   <lb n="4"/>m<pc>-</pc>uṭaiya <gap reason="ellipsis"/>
   <lb n="5"/><gap reason="ellipsis"/>
   </seg>
+        </seg>
     
   <milestone unit="main-text-area"/>
   <lb n="1"/>Allā <gap reason="ellipsis"/>
   
   <pb facs="26" n="199v"/>
   <lb n="1"/><gap reason="ellipsis"/>
-  <lb n="2"/><gap reason="ellipsis"/> Aṉāppivit=ta
+  <lb n="2"/>ku pōkum paṭi Aṉuppivit=ta
                     
   <pb facs="29" n="200r"/>
       
   <seg function="intertitle"><milestone unit="left-margin"/>
-  <lb n="1-3"/>periyaṉūṟuṉāmā<gap reason="ellipsis"/></seg>
+  <lb n="1-3"/>periya ṉūṟu ṉāmā</seg>
     
       <milestone unit="main-text-area"/>
   <lb n="1"/>vāṉamum · pūmiyum · poḻutum · <gap reason="ellipsis"/>
   
   <pb facs="35" n="226v"/>
-  <seg function="explicit"><lb n="5"/><gap reason="ellipsis"/>m uṇṭām</seg>
+  <seg function="explicit">
+      <lb n="4"/><gap reason="ellipsis"/> koṇṭa
+<lb n="5"/>pērkaḷukku <gap reason="ellipsis"/> Alaiki Ocallamuṭaiya <gap reason="ellipsis"/> tītāṟum uṇṭām ~</seg>
 
       </ab>
 </body>

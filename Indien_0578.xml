@@ -24,8 +24,8 @@
                   <summary><p xmlns="http://www.tei-c.org/ns/1.0">A catalogue of the Tamil manuscripts in the now BnF by Léon Feer, according to the title on the spine.</p>
 <p xmlns="http://www.tei-c.org/ns/1.0">The codex contains:
 <list rend="numbered">
-  <item>a list of 63 manuscripts (Tamil, Sanskrit, Telugu, Kannada) sent by the Jesuits of Pondicherry (U1)</item>
-  <item>an alphabetical list of the Tamil works in the BnF manuscripts: title in Tamil transcription, title in Roman transliteration, translation in French (in red ink), and shelfmark (U2)</item>
+  <item>A list of 63 manuscripts (Tamil, Sanskrit, Telugu, Kannada) sent by the Jesuits of Pondicherry (<locus facs="7">U1</locus>).</item>
+  <item>An alphabetical list of the Tamil works in the BnF manuscripts: title in Tamil transcription, title in Roman transliteration, translation in French (in red ink), and shelfmark (<locus facs="15">U2</locus>)</item>
   </list>
 </p>
 <p xmlns="http://www.tei-c.org/ns/1.0">Composite manuscript described as a multi-text manuscript for the sake of convenience.</p>
@@ -56,7 +56,7 @@
                   <handDesc>
                      
                   <handNote synch="#U1" scope="major" script="latin" medium="ink black"/><handNote synch="#U2" scope="major" script="latin tamil" medium="ink black red"/></handDesc>
-                  <additions><desc type="title" subtype="spine">Title printed on a sticker (<locus xmlns="http://www.tei-c.org/ns/1.0" facs="161">spine</locus>): <quote xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr" rend="block">MANUSCRITS TAMOUL - CATALOGUE L. FEER</quote> </desc><desc type="shelfmark" subtype="spine">BnF shelfmark sticker: <quote xmlns="http://www.tei-c.org/ns/1.0">INDIEN 578</quote> (<locus xmlns="http://www.tei-c.org/ns/1.0" facs="161">spine</locus>).</desc><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote xmlns="http://www.tei-c.org/ns/1.0"><del>TAMOUL 578</del></quote> (<locus xmlns="http://www.tei-c.org/ns/1.0" facs="2">front cover, verso</locus>).</desc><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote xmlns="http://www.tei-c.org/ns/1.0">INDIEN 578</quote> (<locus xmlns="http://www.tei-c.org/ns/1.0" facs="2">front cover, verso</locus>). </desc></additions>
+                  <additions><desc type="title" subtype="spine">Title printed on a sticker (<locus xmlns="http://www.tei-c.org/ns/1.0" facs="161">spine</locus>): <quote xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr" rend="block"><lb n="1"/>MANUSCRITS TAMOUL - CATALOGUE L. FEER</quote> </desc><desc type="shelfmark" subtype="spine">BnF current shelfmark sticker: <quote xmlns="http://www.tei-c.org/ns/1.0">INDIEN 578</quote> (<locus xmlns="http://www.tei-c.org/ns/1.0" facs="161">spine</locus>).</desc><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF old shelfmark sticker: <quote xmlns="http://www.tei-c.org/ns/1.0"><del>TAMOUL 578</del></quote> (<locus xmlns="http://www.tei-c.org/ns/1.0" facs="2">front cover, verso</locus>).</desc><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF current shelfmark sticker: <quote xmlns="http://www.tei-c.org/ns/1.0">INDIEN 578</quote> (<locus xmlns="http://www.tei-c.org/ns/1.0" facs="2">front cover, verso</locus>). </desc></additions>
                   <bindingDesc>
                      <binding>
                         <p>Hard paper covers.</p>
@@ -108,14 +108,14 @@
     <lb n="1-8"/><gap reason="ellipsis"/>
   <lb n="9"/><term xml:lang="ta">śrīpākavatam</term> <space/> <term xml:lang="fr">Çrī Bâgavadam <space/> Le très il- <space/> 254-253
   <lb n="10"/><space/> lustre Bhâgavata</term>
-  <lb n="11"/><term xml:lang="fr">Mention écrite sur l'olle initiale du N° 596</term>
+  <seg function="intertitle"><lb n="11"/><term xml:lang="fr">Mention écrite sur l'olle initiale du N° 596</term></seg>
     <lb n="12-13"/><term xml:lang="ta">civamaya <space/> śrīAkilaṇṭa kompiṟumāṇṭaṇāyarākiya śrīṟaṅkanāyakar raṭcikkalu=M</term>
 
   <pb facs="141" n="63r"/>
-    <lb n="1"/><term xml:lang="fr">Titres données en transcription seulement</term>
-  <lb n="5"/><term xml:lang="fr">Ouvrages sans titre désignés par le commencement du texte</term>
+    <seg function="intertitle"><lb n="1"/><term xml:lang="fr">Titres données en transcription seulement</term></seg>
+  <seg function="intertitle"><lb n="5"/><term xml:lang="fr">Ouvrages sans titre désignés par le commencement du texte</term></seg>
   
    <pb facs="143" n="64r"/>
-    <lb n="1-2"/>  <term xml:lang="fr">Ouvrages notés sur les feuillets de titre des manuscrits et ne s’y trouvant pas</term>
+    <seg function="intertitle"><lb n="1-2"/><term xml:lang="fr">Ouvrages notés sur les feuillets de titre des manuscrits et ne s’y trouvant pas:</term></seg>
     </ab>
   </body></text></TEI>
