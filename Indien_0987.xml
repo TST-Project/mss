@@ -21,7 +21,7 @@
                   <idno type="alternate"/>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1046005/cb1</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/qf85nj92f</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary><p>A colloquial version of the <title xml:lang="ta">Maturaivīraṉ Ammāṉai</title>, preceded by two verse invocations borrowed, the first from the <title xml:lang="ta">Vivēka Cintāmaṇi</title>, the second from the <title xml:lang="ta">Kāḷamēkap pulavar taṉippāṭal</title>s.</p>
+                  <summary><p>A colloquial version of the <title xml:lang="ta">Maturaivīraṉ Ammāṉai</title>, preceded by two verse invocations borrowed, the first from the <title xml:lang="ta">Vivēka Cintāmaṇi</title>, the second from the <title xml:lang="ta">Kāḷamēkap Pulavar Taṉippāṭal</title>.</p>
 <p>Description based on the examination of the original manuscript (May 2021).</p>
 <p>Dimensions assessed at the time of examination.</p></summary>
                   
@@ -52,7 +52,7 @@
                   <decoDesc>
                   </decoDesc>
                   <additions>
-                  <desc synch="#CoverFront" type="shelfmark" subtype="beginning">BnF shelfmark sticker: <quote>INDIEN 987</quote> (<locus facs="11">front cover, recto</locus>).</desc><desc synch="#CoverBack" type="ex-libris" subtype="back cover end"><quote>OB LENIT ET ARDET</quote> (<locus facs="15">back cover, verso</locus>).</desc><desc type="shelfmark" subtype="end">École des Langues orientales sticker <quote>117</quote> in black ink and <quote>Don de m. O. Beauregard</quote> in black pencil (<locus facs="17">back cover, verso</locus>). </desc></additions>
+                  <desc synch="#CoverFront" type="shelfmark" subtype="beginning">BnF shelfmark sticker: <quote>INDIEN 987</quote> (<locus facs="11">front cover, recto</locus>).</desc><desc synch="#CoverBack" type="ex-libris" subtype="back cover end">Ex-libris of Olivier Beauregard. <quote>OB LENIT ET ARDET</quote> (<locus facs="15">back cover, verso</locus>).</desc><desc type="shelfmark documenting-note" subtype="end">École des Langues orientales sticker (<locus facs="17">back cover, verso</locus>): <quote>117</quote> in black ink and bequest information <quote>Don de m. O. Beauregard</quote> in black pencil. </desc></additions>
                   <bindingDesc>
                      <binding><p>Original <material>bamboo</material> covers, of irregular shape. 4-holed. The string is in leather. With a device made with a young hollow bamboo stick for fastening of the bundle (a needle-like device on each end of the string; a loop on one end of the string to thread the other end). As the string disintegrates the device is not used. With a stick to be threaded in one of the stringholes.
 </p></binding>
@@ -78,24 +78,29 @@
          
       <p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.</p></encodingDesc>
       
-   <revisionDesc>
+   <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
-      <change when="2021-05">Record created by Emmanuel FRANCIS.</change><change when="2022-06">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, June 2022.</change></revisionDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
+      <change when="2021-05">Record created by Emmanuel FRANCIS.</change><change when="2022-06">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, June 2022.</change></revisionDesc></teiHeader>
    <facsimile>
    <graphic url="https://didomena.ehess.fr/concern/data_sets/qf85nj92f/manifest.json"/></facsimile>
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   <ab>
   <pb facs="26" n="[1]r"/>
-    <milestone unit="left margin"/>
-    <lb n="1"/><seg function="blessing">Al=lā Utavi
-    <lb n="2"/>ceyya-vēṇum</seg>
-    <milestone unit="main text area"/>
-    <lb n="1"/><seg function="invocation">Al=lal pōm valviṉai pōm Aṉṉai vayattil-p puranta ‡ tollaipōm neñcil tuyaṟam pōm
-    <lb n="2"/>nal=la ‡ kuṇam atikaṉ vāḻ maturai kōpurat=t<pc>’</pc> irukkum ‡ kaṇapatiyē kaiyi toḻuta kāl ‡‡
+    
+    <seg function="blessing"><milestone unit="left margin"/>
+    <lb n="1"/>Al=lā Utavi
+    <lb n="2"/>ceyya-vēṇu<seg rend="grantha">m</seg></seg>
+    
+    <seg function="satellite-stanza"><milestone unit="main text area"/>
+    <lg><l><lb n="1"/>Al=lal pōm valviṉai pōm Aṉṉai vayattil-p puranta</l> <l>tollaipōm neñcil tuyaṟam pōm
+    <lb n="2"/>nal=la</l> <l>kuṇam atikaṉ vāḻ maturai kōpurat=t<pc>’</pc> irukkum</l> <l>kaṇapatiyē kaiyi toḻuta kāl</l></lg>
     </seg>
-    <lb n="3"/><seg function="invocation">veḷḷai-k kalaiyuṭutti veḷḷai-p paṇi pūṇṭu ‡ veḷḷai-k kamalattul vītti ruppāl veḷḷai ‡ <term xml:lang="en">{line-filler = ma}</term>
-    <lb n="4"/>Ariyācaṉattil Araca<unclear>ṟō</unclear>ṭ<pc>’</pc> eṉṉai-c ‡ cariyāka vaiyikkiṉṟa tāyē ‡‡ <g ref="#pcl"/></seg> <seg function="blessing"> caṟaṣpati tuṇai <g ref="#pcl"/></seg>    
-    <milestone facs="00" n="[1]v" unit="folio"/><note xml:lang="en">blank</note>
+    
+    <seg function="invocation">
+      <lg><l><lb n="3"/>veḷḷai-k kalaiyuṭutti veḷḷai-p paṇi pūṇṭu</l> <l>veḷḷai-k kamalattul vītti ruppāl veḷḷai <term xml:lang="en">{line-filler = ma}</term></l>
+    <l><lb n="4"/>Ariyācaṉattil Araca<unclear>ṟō</unclear>ṭ<pc>’</pc> eṉṉai-c</l> <l>cariyāka vaiyikkiṉṟa tāyē <g ref="#pcl"/></l></lg></seg> <seg function="blessing">caṟaṣpati tuṇai <g ref="#pcl"/></seg>    
+    
+    <mileston n="[1]v" unit="folio"/><note xml:lang="en">blank</note>
 
     </ab>
 </body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
@@ -107,27 +112,32 @@
     <lb n="2" break="no"/>ku ṟakimā
     <lb n="3" break="no"/>ṉi ṟakīm
 </seg>
-    <milestone facs="00" n="1" unit="column"/>
-    <lb n="1"/><seg function="incipit">munti munti viṉayakaṉai murukā caṟaṣpatiyē <term xml:lang="en">{line-filler = ma}</term> ‡</seg>
-    <lb n="2"/>kantaṉukku muṉ puranta kaṇapatiyē muṉṉaṭavāy ‡
-    <lb n="3"/>pēḷai <gap reason="ellipsis"/>
-    <lb n="4"/>yēṉai <gap reason="ellipsis"/>
-    <lb n="5"/>kantaṉukku muṉ puranta kaṇapatiyē muṉṉaṭavāy ‡
-    <milestone facs="00" n="2" unit="column"/>
-    <lb n="1"/>vēlaṭiyil-p puḷḷaiyirē vēṟuviṉai vārumal
-    <lb n="2"/><gap reason="ellipsis"/>
+    
+    <seg function="incipit"><milestone n="1" unit="column"/>
+    <lg><l><lb n="1"/>munti munti viṉayakaṉai murukā caṟaṣpatiyē <term xml:lang="en">{line-filler = ma}</term></l></lg></seg>
+    <lg><l><lb n="2"/>kantaṉukku muṉ puranta kaṇapatiyē muṉṉaṭavāy</l>
+    <l><lb n="3"/>pēḷai <gap reason="ellipsis"/></l>
+    <l><lb n="4"/>yēṉai <gap reason="ellipsis"/></l>
+    <l><lb n="5"/>kantaṉukku muṉ puranta kaṇapatiyē muṉṉaṭavāy</l>
+    <l><milestone n="2" unit="column"/>
+    <lb n="1"/>vēlaṭiyil-p puḷḷaiyirē vēṟuviṉai vārumal</l>
+    <l><lb n="2"/><gap reason="ellipsis"/></l></lg>
     
     <pb facs="42" n="2r"/>
-    <milestone n="1" unit="column"/>
-    <lb n="1"/>y<pc>-</pc>iruntālum kīḻirun=tu y-eṉṉai matam poḻiyum
-    <lb n="2"/>taḻañcāluñ kīḻirun=tu taṇṇīr matam poḻiyum
+    <lg><l><milestone n="1" unit="column"/>
+    <lb n="1"/>y<pc>-</pc>iruntālum kīḻirun=tu y-eṉṉai matam poḻiyum</l>
+    <l><lb n="2"/>taḻañcāluñ kīḻirun=tu taṇṇīr matam poḻiyum</l>
+    <l><lb n="3"/><gap reason="ellipsis"/></l></lg>
+
     
   <pb facs="54" n="118r"/>
-    <milestone n="2" unit="column"/>    
-    <lb n="1"/><gap reason="ellipsis"/>
-    <lb n="2"/><seg function="explicit">pāñcāvi kirupaiyiṉāl patapettu tāṉ iruppār
-    <lb n="3"/><gap reason="ellipsis"/> pataiyum pakka tuṇai y<pc>-</pc>iruppāḷ</seg>
-    <milestone facs="00" n="118v" unit="folio"/><note xml:lang="en">blank</note>
+    <seg function="explicit">
+     <lg><l><milestone n="2" unit="column"/>    
+    <lb n="1"/><gap reason="ellipsis"/></l>
+    <l><lb n="2"/>pāñcāvi kirupaiyiṉāl patapettu tāṉ iruppār</l>
+    <l><lb n="3"/><gap reason="ellipsis"/> pataiyum pakka tuṇai y<pc>-</pc>iruppāḷ</l></lg></seg>
+    
+    <milestone n="118v" unit="folio"/><note xml:lang="en">blank</note>
   
     </ab>
 </body></text></TEI>

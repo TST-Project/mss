@@ -22,7 +22,7 @@
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1046005/cb3</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b52515026w</idno></msIdentifier>
                <msContents class="#STM">
                   <summary><p>A list of words in alphabetical order and phrases in Tamil.</p>
-<p>The leaves come with two <material>bamboo</material> arrows (565-575 mm long), each pierced with two holes (270 mm between holes).</p>
+<p>The leaves come with two <material>bamboo</material> arrows (565-575 mm long), each pierced with two holes (270 mm between holes). See <locus facs="1">arrow no. 1</locus> and <locus facs="3">arrow n0. 2</locus>.</p>
    <p>Description based on the digital images available on Gallica.</p>  <p>Dimensions after Cabaton (1912).</p>      </summary>
                   
                <msItem synch="#U1" xml:id="T1" defective="true"><title xml:lang="ta"><term xml:lang="en">Tamil Vocabulary</term></title><textLang mainLang="tam"/></msItem></msContents>
@@ -48,11 +48,11 @@
                         
                      </layoutDesc>
                   </objectDesc>
-                  <handDesc><handNote synch="#U1" scope="sole" script="tamil" scriptRef="#tamilOE" medium="incised"><desc>The <foreign xml:lang="ta">puḷḷi</foreign> is in the form of small circle, but also, sometimes, in the form of a dot.</desc></handNote></handDesc>
+                  <handDesc><handNote synch="#U1" scope="sole" script="tamil" scriptRef="#tamilPulliRegular #tamilOE" medium="incised soot"><desc>The <foreign xml:lang="ta">puḷḷi</foreign> is in the form of small circle, but also, sometimes, in the form of a dot.</desc></handNote></handDesc>
                   <decoDesc>
                   </decoDesc>
                   <additions>
-                  <desc synch="#U1" type="shelfmark" subtype="beginning">BnF shelfmark sticker: <quote>INDIEN 989</quote> (<locus facs="5">f[1]r</locus>). Covering an older round sticker.</desc><desc synch="#U1" type="shelfmark">BnF shelfamek in black ink, covered by stickers (<locus facs="5">f[1]r</locus>): 
+                  <desc synch="#U1" type="shelfmark" subtype="beginning">BnF current shelfmark sticker: <quote>INDIEN 989</quote> (<locus facs="5">f[1]r</locus>). Covering an older round sticker.</desc><desc synch="#U1" type="shelfmark">BnF shelfamek in black ink, covered by stickers (<locus facs="5">f[1]r</locus>): 
 <quote rend="block">
   <lb n="1"/><supplied reason="illegible">Indie</supplied>n
   <lb n="2"/><supplied reason="illegible">98</supplied>9</quote></desc></additions>
@@ -90,13 +90,13 @@
   <ab>
     
   <pb facs="5" n="1"/>
-  <milestone unit="left margin"/>
-    <lb n="1"/><seg function="blessing"><g ref="#pcs"/> kaṭavu<supplied reason="omitted">ḷ </supplied> <choice><sic>ku</sic><corr>tu</corr></choice>ṇai</seg>
+  <seg function="blessing"><milestone unit="left margin"/>
+    <lb n="1"/><g ref="#pcs"/> kaṭavu<supplied reason="omitted">ḷ </supplied> <choice><sic>ku</sic><corr>tu</corr></choice>ṇai</seg>
   
-    <milestone n="1" unit="column"/>
-    <lb n="1"/><seg function="incipit">Akam</seg>
+    <seg function="incipit"><milestone n="1" unit="column"/>
+    <lb n="1"/>Akam
     <lb n="2"/>Akaḻ
-    <lb n="3"/>Akkāḷ
+    <lb n="3"/>Akkāḷ</seg>
   
   <milestone n="2" unit="column"/>
   <lb n="1"/>Anti
@@ -139,10 +139,11 @@
     <lb n="3"/>Atu ~ Ēṉ ~ Aṅḵē ~ poccu
     <lb n="4"/>nī ~ cuvar ~ mēlē ~ Eṟu
   
-      <milestone n="3" unit="column"/>
+     <seg function="explicit"><milestone n="3" unit="column"/>
     <lb n="1"/>nī ~ Itiṉ ~ mēlē ~ Iru
     <lb n="2"/>nī ~ Oru ~ yuttip ~ paṇṇu
-    <lb n="3"/><seg function="explicit">nām ~ Ēṉ ~ Ūrukkup ~ pōvōm</seg>
+    <lb n="3"/>nī ~ Ēṉ ~ poy ~ coṉṉāy
+    <lb n="4"/>nām ~ Ēṉ ~ Ūrukkup ~ pōvōm</seg>
  
     </ab>
 </body></text></TEI>
