@@ -23,8 +23,8 @@
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc104095g</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b52510548s</idno></msIdentifier>
                <msContents class="#STM">
                   <summary><p>The <title xml:lang="ta">Pāratavilācam</title>.</p>
-<p>Prose portions, designations of rāgam and tāḷam.</p>
-<p>Given the title Naiṭatam in the catalogue.</p>
+<p>Prose portions, designations of <foreign xml:lang="ta">rākam</foreign> and <foreign xml:lang="ta">tāḷam</foreign>.</p>
+<p>Wrongly identified as <title xml:lang="ta">Naiṭatam</title> in the earlier catalogues.</p>
 <p>Description based on the digital images available on Gallica.</p>
 <p>Dimensions after Cabaton (1912).</p>  
                   </summary>
@@ -34,16 +34,14 @@
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
                         <extent>
-                           <measure unit="folio" quantity="97">title folio, f. 1-94, blank f., old guard leaf</measure>
+                           <measure unit="folio" quantity="97">{1} + {1} + 94 + {2} [title folio; f. 1-94; blank f.; old guard leaf]</measure>
                            <dimensions type="leaf" unit="mm">
                               <width quantity="410"/>
                               <height quantity="30"/>
                            </dimensions>
                         <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
-                        <condition>
-                           <p>Excellent condition, but cheap, narrow, uneven leaves. </p>
-                        </condition>
-                     <collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso.</desc><desc xml:id="U2">1 folio = <emph rend="bold">Invocation</emph>. No foliation. Verso blank.</desc><desc xml:id="U3">94 folios = <emph rend="bold">Text</emph>. Tamil foliation. </desc><desc xml:id="U4">2 folios = <emph rend="bold">guard leaves</emph>. No foliation. </desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation></supportDesc>
+                        <condition>Excellent condition.</condition>
+                     <collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso.</desc><desc xml:id="U2">1 folio = <emph rend="bold">Invocation</emph>. No foliation. Verso blank.</desc><desc xml:id="U3">94 folios = <emph rend="bold">Text</emph>. Tamil foliation. </desc><desc xml:id="U4">2 folios = <emph rend="bold">guard leaves</emph>. No foliation. </desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><support><p>Cheap, narrow, uneven leaves.</p></support></supportDesc>
                      <layoutDesc>
                         <layout columns="1"/>
                      </layoutDesc>
@@ -57,13 +55,13 @@
                     
                     
                     
-                  <desc synch="#U4" type="shelfmark" subtype="end guard-folio">BnF shelfmark in black ink: <quote xml:lang="fr">Tamoul n° 567</quote> (old guard leaf, <locus facs="198">f[2]v]</locus>).
+                  <desc synch="#U4" type="shelfmark" subtype="end guard-folio">BnF old shelfmark in black ink: <quote xml:lang="fr">Tamoul n° 567</quote> (old guard leaf, <locus facs="198">f[2]v]</locus>).
 
 </desc></additions>
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian">n. d.</origDate>
+                     <origDate calendar="gregorian" notAfter="1912">No internal dates. Not dated by Feer in Vinson et al. (1866-) nor by Cabaton (1912).</origDate>
                      
                   </origin>
                   <acquisition/>
@@ -105,7 +103,7 @@
       
       <seg function="title"><milestone n="4" unit="column"/>
     <lb n="1"/>pāratavilācam</seg>
-        <seg function="interttile"><lb n="2"/>pakaṭaicālai
+        <seg function="intertitle"><lb n="2"/>pakaṭaicālai
           <lb n="3"/>tukilurivu</seg>
       </seg>
     
@@ -117,9 +115,7 @@
                </lg></seg>
                     
     </ab>
-  </body>
-
-</text><text synch="#U3" corresp="#T2" xml:lang="ta"><body>
+  </body></text><text synch="#U3" corresp="#T2" xml:lang="ta"><body>
   <ab>
     
     <pb facs="7" n="[1]r"/>
@@ -132,8 +128,8 @@
        </seg>
     
     <seg function="incipit"><milestone unit="main-text-area"/>
-    <lb n="1"/>maṅkaḷam - rākam - pūrikalliyāṇi - tāḷam - ācciramam - maṅkaḷañ ceyamaṅkaḷam maṅkaḷam maṅkaḷam - maṅkaḷan tikaḻcantiranulanta
-    <lb n="2" break="no"/>ṉil varampetta naḷamikuñ caṟakuṇapettuyar cekampaṟapalayicaiyil veṟupukaḻiṉ tunilakil ariyatu ??l aracar tamakkum - maṅkaḷa
+    <lb n="1"/>maṅkaḷam ~ rākam ~ pūrikalliyāṇi ~ tāḷam ~ Ācciramam ~ maṅkaḷañ ceyamaṅkaḷam maṅkaḷam maṅkaḷam ~ maṅkaḷan tikaḻcantiranulanta
+    <lb n="2" break="no"/>ṉil varampetta naḷamikuñ caṟakuṇapettuyar cekampaṟapalayicaiyil veṟupukaḻiṉ tunilakil ariyatu ??l Aracar tamakkum ~ maṅkaḷa
     <lb n="3" break="no"/>taṅkumaṉuṉeṟiyumatiṟ kāṉamuñ cola nitāṉamum pitāṉamum peṟutañcameṉṟavarai -</seg>
                
     <pb facs="108" n="51v"/>
@@ -141,11 +137,11 @@
                      
         <pb facs="193" n="94r"/>
     <seg function="explicit">
-      <lb n="1"/><gap reason="ellipsis"/> - koṅkal mālai matuṭamaṉṉavarkku kuruvum cilatu <gap reason="lost"/>
+      <lb n="1"/><gap reason="ellipsis"/> ~ koṅkal mālai matuṭamaṉṉavarkku kuruvum cilatu <gap reason="lost"/>
       <lb n="2"/>katitumetta tollaiyō yinta tavakuttappaṭṭa perukaḷillaiyō yiṉṉamayiṉṉa <gap reason="lost"/>
       <lb n="3"/>māyaṉ piṟaṉaṉupākamē ketil vaṉattil paṉireṇṭu varuṉaṟcaṉācaṉācaṟikka vāṟu <gap reason="lost"/>
       <lb n="4"/> miṉputāya moḻitalaiyiṉē nativacaiyuṟa vaṉattil ceṉṟu maṉaiyāḷai yaṟikuṭuttuyicantaṟu  <gap reason="lost"/>
-      <lb n="5"/>payē kūpatitanumalaikaṅkā? paḻanukatai arikilāyō <g ref="#pcl"/></seg> <seg function="blessing">kiṣṇacakāyam ~</seg> <seg function="blessing">turōpataiyammaṉ pātāravinta<supplied reason="lost">mē</supplied> <gap reason="lost"/></seg>
+      <lb n="5"/>payē kūpatitanumalaikaṅkā? paḻanukatai Arikilāyō <g ref="#pcl"/></seg> <seg function="blessing">kiṣṇacakāyam ~</seg> <seg function="blessing">turōpataiyammaṉ pātāravinta<supplied reason="lost">mē</supplied> <gap reason="lost"/></seg>
     
             <pb facs="194" n="94v"/><note xml:lang="en">blank</note>
     </ab>
