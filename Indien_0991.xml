@@ -17,10 +17,10 @@
                      <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
                   </repository>                  
                   <idno type="shelfmark">Indien 991</idno>
-                  <idno type="alternate"/>
+                  <idno type="alternate"><idno>3</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1046005/cb5</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b525151285</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary><p>Poems by Tāyumāṉavar.</p>
+                  <summary><p>Poems by <persName xml:lang="ta" role="author">Tāyumāṉavar</persName>.</p>
 <p>Description based on the examination of the original manuscript (December 2020).</p>
 <p>Dimensions assessed at the time of examination.</p></summary>
                   
@@ -46,7 +46,7 @@
                   <handDesc>
                      
                   <handNote synch="#U1" scope="minor" script="grantha" medium="incised"><desc>Unblackened.</desc></handNote><handNote synch="#U2" scope="major" script="tamil" medium="incised soot"/><handNote synch="#U3" scope="minor" script="tamil" medium="incised soot"><desc>Possibly another hand.</desc></handNote></handDesc>
-                  <additions><desc synch="#CoverFront" type="shelfmark" subtype="cover front">Shelfmark sticker inscribed in black ink: <quote>3</quote> (<locus facs="206">front cover, recto</locus>). NB: front cover, recto at the time of examination.</desc><desc synch="#CoverBack" type="shelfmark" subtype="back cover">BnF shelfmark sticker: <quote>Indien 991</quote> (<locus facs="1">back cover, verso</locus>). NB: back cover, verso at the time of examination.</desc><desc synch="#U1" type="shelfmark">Bnf shelfmark in black ink: <quote>1038</quote> (<locus facs="3">f[1]r</locus>).</desc><desc synch="#U2" type="intertitle" subtype="marginal left">Left-marginal  intertitles (<term xml:lang="sa">pratīka</term>). On rectos and versos.</desc></additions>
+                  <additions><desc synch="#CoverFront" type="shelfmark" subtype="cover front">Shelfmark sticker inscribed in black ink: <quote>3</quote> (<locus facs="206">front cover, recto</locus>). NB: front cover, recto at the time of examination.</desc><desc synch="#CoverBack" type="shelfmark" subtype="back cover">BnF current shelfmark sticker: <quote>Indien 991</quote> (<locus facs="1">back cover, verso</locus>). NB: back cover, verso at the time of examination.</desc><desc synch="#U1" type="shelfmark">Bnf current shelfmark in black ink: <quote>Indien. 991</quote> (<locus facs="3">f[1]r</locus>).</desc><desc synch="#U2" type="intertitle">Left-marginal  intertitles. On recto and verso.</desc><desc synch="#U2" type="intertitle verse-beginning" subtype="marginal left">Left-marginal <foreign xml:lang="sa">pratīka</foreign>s. On recto and verso.</desc></additions>
                   <bindingDesc>
                      <binding>
                         
@@ -86,67 +86,77 @@
   <ab>
     
   <pb facs="7" n="[1]r"/>
-  <milestone unit="left-margin"/>
-  <seg function="blessing"><lb n="1-2"/><seg rend="grantha">hariḥ | Om</seg></seg>
- <seg function="blessing"><lb n="3-4"/><g ref="#pcs"/>kuruvē tuṇai</seg>=<g ref="#pcs"/>
-<seg function="title"><lb n="5-7"/><persName>tāyumāṉavaṉ</persName></seg>
-<lb n="8"/><term xml:lang="en">{symbol}</term>
+    <seg function="header">
+  <seg function="blessing"><milestone unit="left-margin"/>
+  <lb n="1-2"/><seg rend="grantha">hariḥ | Om</seg></seg>
+ <seg function="blessing"><lb n="3-4"/><g ref="#pcs"/>kuruvē {tuṇai}<g ref="#pcs"/></seg>
+<seg function="blessing"><lb n="5-7"/><persName>tāyumāṉavaṉ</persName>
+<lb n="8"/>{tuṇai}<g ref="#pcs"/></seg>
+      </seg>
 
-  <milestone n="1" unit="column"/>
-  <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
+  <seg function="incipit"><milestone n="1" unit="main-text-area"/>
+  <lb n="1"/><gap reason="ellipsis"/></seg>
   
    <pb facs="10" n="2v"/>
-  <milestone unit="left-margin"/>
-  <seg function="intertitle"><lb n="1-9"/><gap reason="ellipsis"/></seg>
+  <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1-9"/><gap reason="ellipsis"/></seg>
   
      <pb facs="13" n="4r"/>
-  <milestone unit="left-margin"/>
-  <seg function="intertitle"><lb n="1-5"/>tiruvaruḷ vilācam paraciva vaṇak=kam</seg>
+  <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1-5"/>tiruvaruḷ vilācam paraciva vaṇak=kam</seg>
+    
   <milestone unit="main-text-area"/>
   <lb n="1"/><gap reason="ellipsis"/> tāyumāṉa
-      <lb n="2" break="no"/>vaṉē – <g ref="#pattu"/>1 – <seg function="blessing">kuruvē tuṇai</seg> ~ <seg function="blessing">caravaṇapa-kuruvē {tuṇai}</seg> <seg function="blessing">civacitamparam <gap reason="ellipsis"/> tuṇai</seg>=<g ref="#pcl"/>
+      <lb n="2" break="no"/>vaṉē – <g ref="#pattu"/>1 – <seg function="blessing">kuruvē <surplus>tu</surplus>{tuṇai} ~</seg> <seg function="blessing">caravaṇapa-kuruvē {tuṇai}</seg> <seg function="blessing">civacitamparam caccivantam <surplus>tu</surplus>{tuṇai}<g ref="#pcl"/></seg>
 
   <pb facs="123" n="59r"/>
-  <milestone unit="left-margin"/>
-  <seg function="intertitle"><lb n="1-3"/>maṇṭalattiṉ</seg>
+   <seg function="verse-beginning"><milestone unit="left-margin"/>
+ <lb n="1-3"/>maṇṭalattiṉ</seg>
   <milestone unit="main-text-area"/>
-      <lb n="1"/><gap reason="ellipsis"/> – 28 – <seg function="completion-statement"><gap reason="ellipsis"/> muṟṟum</seg> <seg function="total-stanzas">{Āka} ceyyūḷ – 3<g ref="#nūṟu"/>89</seg> – <g ref="#pcl"/>
+      <lb n="1"/><gap reason="ellipsis"/> – 28 – <seg function="completion-statement"><gap reason="ellipsis"/> muṟṟum</seg> <seg function="total-stanzas">{Āka} ceyyūḷ – 3<g ref="#nūṟu"/>89 – <g ref="#pcl"/></seg>
   
     <pb n="60-74"/><note xml:lang="en">missing</note>
 
   <pb facs="125" n="75r"/>
-  <milestone unit="left-margin"/>
-  <seg function="intertitle"><lb n="1-2"/>taṉṉai</seg>
-  <seg function="intertitle"><lb n="3-4"/>Ākkuvai</seg>
-  <seg function="intertitle"><lb n="5-6"/>kaṟpuṟucintai</seg>
+    
+    <seg function="header">
+   <seg function="verse-beginning"><milestone unit="left-margin"/>
+ <lb n="1-2"/>taṉṉai</seg>
+  <seg function="verse-beginning"><lb n="3-4"/>Ākkuvai</seg>
+ <seg function="verse-beginning"><lb n="5-6"/>kaṟpuṟucintai</seg>
+      </seg>
+    
   <milestone unit="main-text-area"/>
-      <lb n="1"/>paramē ~ <g ref="#pattu"/> <seg function="completion-statement"><gap reason="lost"/> <supplied reason="lost">muṟ</supplied>ṟum</seg> – <seg function="total-stanzas">Ākac ce<supplied reason="lost">y</supplied>yuḷ <supplied reason="lost">– 5<g ref="#nūṟu"/></supplied> 6<g ref="#pattu"/>8</seg> – <seg function="blessing">paṭṭīcurar cuvāmi tuṇai</seg> –
+      <lb n="1"/>paramē ~ <g ref="#pattu"/> <seg function="completion-statement"><gap reason="lost"/> <supplied reason="lost">muṟ</supplied>ṟum –</seg> <seg function="total-stanzas">Ākac ce<supplied reason="lost">y</supplied>yuḷ <supplied reason="lost">– 5<g ref="#nūṟu"/></supplied> 6<g ref="#pattu"/>8 –</seg> <seg function="blessing">paṭṭīcurar cuvāmi tuṇai –</seg>
   <lb n="2-3"/><gap reason="ellipsis"/>
-      <lb n="4"/><gap reason="ellipsis"/> <seg function="completion-statement">taṉṉai muṟṟum</seg> – <seg function="total-stanzas">Ākac ceyyuḷ – 5<g ref="#nūṟu"/>6<g ref="#pattu"/>9</seg> – <seg function="blessing">civamayam</seg>
+      <lb n="4"/><gap reason="ellipsis"/> <seg function="completion-statement"><seg function="verse-beginning">taṉṉai</seg> muṟṟum –</seg> <seg function="total-stanzas">Ākac ceyyuḷ – 5<g ref="#nūṟu"/>6<g ref="#pattu"/>9 –</seg> <seg function="blessing">civamayam</seg>
   
   <pb facs="130" n="77v"/>
-  <milestone unit="left-margin"/>
-  <seg function="intertitle"><lb n="1-6"/>kapilai māṉakar periyaṉāyakiyammai</seg>
+    
+  <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1-6"/>kapilai māṉakar periyaṉāyakiyammai</seg>
+    
   <milestone unit="main-text-area"/>
-      <lb n="10"/><seg function="blessing">periyaṉāyakiyammaṉ muṟṟum</seg> – <seg function="total-stanzas">Ākac ceyyuḷ – 5<g ref="#nūṟu"/>8<g ref="#pattu"/>7</seg> – <seg function="blessing">civacuppaṟāyar {tuṇai}</seg>=<g ref="#pcl"/>
-<lb n="11"/><note xml:lang="en">centred</note> śrīkuruppiyo<seg rend="grantha">nmaḥ</seg><note xml:lang="en">that is <seg rend="grantha">namaḥ</seg></note> |
-
-          <seg function="table-of-contents"><pb facs="131" n="78r"/>
-  <milestone unit="left-margin"/>
-     <seg function="intertitle"><lb n="1-4"/>periyakavitaippatikattukai</seg>
-<milestone n="1" unit="column"/>
-  <lb n="1"/>paraciva-va<supplied reason="lost">ṇakkam</supplied> <gap reason="lost"/>
-             <lb n="2"/>paripūraṇāṉantam <g ref="#pattu"/>
+      <seg function="blessing"><lb n="10"/>periyaṉāyakiyammaṉ muṟṟum –</seg> <seg function="total-stanzas">Ākac ceyyuḷ – 5<g ref="#nūṟu"/>8<g ref="#pattu"/>7 –</seg> <seg function="blessing">civacuppaṟāyar {tuṇai}<g ref="#pcl"/></seg>
+<lb n="11"/><note xml:lang="en">centred line</note> śrīkuruppiyo<term xml:lang="sa">nmaḥ</term> |<note xml:lang="en" place="foot">that is <term xml:lang="sa">namaḥ</term></note>
+    
+    <pb facs="131" n="78r"/>
+    <seg function="table-of-contents"><seg function="intertitle"><milestone unit="left-margin"/>
+     <lb n="1-4"/>periyakavitaippatikattukai</seg>
+      
+      <milestone n="1" unit="column"/>
+      <lb n="1"/>paraciva-va<supplied reason="lost">ṇakkam</supplied> <gap reason="lost"/>
+      <lb n="2"/>paripūraṇāṉantam <g ref="#pattu"/>
   <lb n="3-16"/><gap reason="ellipsis"/>
 <milestone n="2" unit="column"/>
     <lb n="1-16"/><gap reason="ellipsis"/>
-
-<milestone n="3" unit="column"/>
-    <lb n="1-7"/><gap reason="ellipsis"/>
-    <lb n="8"/>periyaṉāyaki <space/> 1
-             <seg function="total-chapters total-stanzas"><lb n="9"/>Āka Atikāram <space/> 3<g ref="#pattu"/>9kki
-<lb n="10"/>tiruvirutta<space/>m
-   <lb n="11"/>5<g ref="#nūṟu"/>8<g ref="#pattu"/>7</seg></seg>
+      
+      <milestone n="3" unit="column"/>
+      <lb n="1-7"/><gap reason="ellipsis"/>
+      <lb n="8"/>periyaṉāyaki <space/> 1
+      <seg function="total-chapters total-stanzas"><lb n="9"/>Āka Atikāram <space/> 3<g ref="#pattu"/>9kki
+        <lb n="10"/>tiruvirutta<space/>m
+        <lb n="11"/>5<g ref="#nūṟu"/>8<g ref="#pattu"/>7</seg></seg>
 
 
         <pb facs="132" n="78v"/>
@@ -155,20 +165,20 @@
       <pb n="100-119"/><note xml:lang="en">missing</note>
 
   <pb facs="192" n="127v"/>
-  <milestone unit="left-margin"/>
-     <seg function="intertitle"><lb n="1-2"/>Akaval</seg>
+  <seg function="metre"><milestone unit="left-margin"/>
+     <lb n="1-2"/>Akaval</seg>
   
   <pb facs="193" n="128r"/>
-  <milestone unit="left-margin"/>
-     <seg function="intertitle"><lb n="1-2"/><supplied reason="lost">vaṇ</supplied>ṇam</seg>
+  <seg function="intertitle"><milestone unit="left-margin"/>
+     <lb n="1-2"/><supplied reason="lost">vaṇ</supplied>ṇam</seg>
   
   <pb facs="194" n="128v"/>
-  <milestone unit="left-margin"/>
-     <seg function="intertitle"><lb n="1-2"/>vaṇṇam</seg>
+  <seg function="intertitle"><milestone unit="left-margin"/>
+     <lb n="1-2"/>vaṇṇam</seg>
 
     <pb facs="197" n="130r"/>
   <lb n="1-5"/><gap reason="ellipsis"/>
-  <seg function="explicit"><lb n="6"/>yētu tuṇai paḻikāra maṉamē</seg> – 1 – <seg function="completion-statement">vaṇṇamuṟṟum</seg> – <g ref="#pcs"/>
+  <seg function="explicit"><lb n="6"/>yētu tuṇai paḻikāra maṉamē – 1 –</seg> <seg function="completion-statement">vaṇṇamuṟṟum – <g ref="#pcs"/></seg>
   
       <pb facs="198" n="130v"/>
   <note xml:lang="en">blank</note>
@@ -178,11 +188,11 @@
   <ab>
     
  <pb facs="199" n="128.2r"/>
-  <milestone unit="left-margin"/>
-   <seg function="intertitle"><lb n="1-2"/>vaṇṇam</seg>
+   <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1-2"/>vaṇṇam</seg>
   
-  <milestone unit="main-text-area"/>
-  <seg function="incipit"><lb n="1"/><gap reason="ellipsis"/></seg>
+  <seg function="incipit"><milestone unit="main-text-area"/>
+  <lb n="1"/><gap reason="ellipsis"/></seg>
 
   <pb facs="200" n="128.2v"/>
   

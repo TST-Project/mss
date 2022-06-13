@@ -17,10 +17,10 @@
                      <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
                   </repository>                  
                   <idno type="shelfmark">Indien 992</idno>
-                  <idno type="alternate"/>
+                  <idno type="alternate"><idno>1038</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1046005/cb6</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/9593v268c</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary><p><title xml:lang="ta">Tēraiyar Vayittiyam 500</title>, a medical treatise by <persName xml:lang="ta">Tēraiyar</persName> in 500 verses. There are however only 450 verses in the manuscript.</p>
+                  <summary><p><title xml:lang="ta">Tēraiyar Vayittiyam 500</title>, a medical treatise by <persName xml:lang="ta" role="author">Tēraiyar</persName> in 500 verses. There are however only 450 verses in the manuscript.</p>
 <p>Description based on the examination of the original manuscript (July 2021).</p>
 <p>Dimensions assessed at the time of examination.</p></summary>
                   
@@ -38,7 +38,7 @@
                         <dimensions type="object" unit="mm"><width quantity="255"/><height quantity="60"/><depth quantity="40"/></dimensions><dimensions type="written" unit="mm"/></extent>
                         
                         <condition>Fairly good state of preservation.</condition>
-                     <support><measure unit="stringhole" quantity="2"/></support><collation><desc xml:id="U1">3 folios = <emph rend="bold"><term xml:lang="ta">Tēraiyar Vayittiyam 500</term>: Table of Contents</emph>. Tamil foliation {1}, 2-3. 250 x 60 mm.</desc><desc xml:id="U2">85 folios = <emph rend="bold"><term xml:lang="ta">Tēraiyar Vayittiyam 500: Mūlam</term></emph>. Tamil foliation {1}, 2-85. Foliation corrected from f65 onwards. 12 lpp. 250 x 60 mm.</desc><desc xml:id="U3">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso. Shelfmarks and title added on verso. 255 x 60 mm.</desc></collation></supportDesc>
+                     <support><measure unit="stringhole" quantity="2"/></support><collation><desc xml:id="U1">3 folios = <emph rend="bold"><term xml:lang="ta">Tēraiyar Vayittiyam 500</term>: Table of Contents</emph>. Tamil foliation {1}, 2-3. 250 x 60 mm.</desc><desc xml:id="U2">85 folios = <emph rend="bold"><term xml:lang="ta">Tēraiyar Vayittiyam 500</term>: Text</emph>. Tamil foliation {1}, 2-85. Foliation corrected from f65 onwards. 12 lpp. 250 x 60 mm.</desc><desc xml:id="U3">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso. Shelfmarks and title added on verso. 255 x 60 mm.</desc></collation></supportDesc>
                      <layoutDesc>
                         
                      </layoutDesc>
@@ -46,8 +46,8 @@
                   <handDesc>
                      
                   <handNote synch="#U1 #U2" scope="major" script="tamil" medium="incised soot"/></handDesc>
-                  <additions><desc synch="#U1" corresp="#T1" type="table-of-contents"/><desc synch="#U1" type="shelfmark">BnF shelfmark in black ink: <quote>Indien 992</quote> (<locus facs="10">f[1]r</locus>).</desc><desc synch="#U2" type="intertitle" subtype="marginal left">Left-marginal running intertitles. On rectos and versos (mostly at the beginning of the bundle): f2v, f3v, f4r, f4v, f5r, f5v, f6r, f6v, f7r, f7v, f8r, f8v, f9r, f9v, f26v.</desc><desc synch="#U3" type="shelfmark">Shelfmark <quote>1038</quote> in black ink (<locus facs="55">f[1]v</locus>).</desc><desc synch="#U3" type="title">Title in black ink:
-<quote xml:lang="ta">tēraiyar <unclear>vayittiyam</unclear></quote> (<locus facs="55">f[1]v</locus>).</desc><desc synch="#U3" type="shelfmark">Shelfmark sticker inscribed <quote>1038</quote> in black ink (<locus facs="55">f[1]v</locus>).</desc></additions>
+                  <additions><desc synch="#U1" type="shelfmark">BnF current shelfmark in black ink: <quote>Indien 992</quote> (<locus facs="10">f[1]r</locus>).</desc><desc synch="#U1" corresp="#T1" type="table-of-contents"/><desc synch="#U2" type="intertitle" subtype="marginal left">Left-marginal running intertitles. On recto and verso (mostly found at the beginning of the bundle): f2v, f3v, f4r, f4v, f5r, f5v, f6r, f6v, f7r, f7v, f8r, f8v, f9r, f9v, f26v.</desc><desc synch="#U3" type="shelfmark">Old shelfmark <quote>1038</quote> in black ink (<locus facs="55">f[1]v</locus>).</desc><desc synch="#U3" type="title">Title in black ink:
+<quote xml:lang="ta">tēraiyar <unclear>vayittiyam</unclear></quote> (<locus facs="55">f[1]v</locus>).</desc><desc synch="#U3" type="shelfmark">Old shelfmark sticker inscribed <quote>1038</quote> in black ink (<locus facs="55">f[1]v</locus>).</desc></additions>
                   <bindingDesc>
                      <binding>
                         
@@ -81,8 +81,9 @@
   <ab>
     
   <pb facs="6" n="[1]r"/>
-  <milestone unit="left-margin"/>
-  <lb n="1"/><seg function="title">mutal y<pc>-</pc>ē
+    <seg function="header">
+  <seg function="title"><milestone unit="left-margin"/>
+  <lb n="1"/>mutal y<pc>-</pc>ē
   <lb n="2" break="no"/>ṭṭukkaṇa
 <lb n="3" break="no"/>kku = = = = =
 <lb n="4"/>2vatu = =
@@ -90,9 +91,10 @@
 <lb n="6"/>ku = = = = = =
 <lb n="7"/>Aṭṭava
 <lb n="8"/>ṉai = = =</seg>
+      </seg>
 
-   <milestone n="1" unit="column"/>
-  <lb n="1"/><seg function="incipit">mutal = = <gap reason="illegible" quantity="1" unit="character"/> 3 = = turucu-centūram</seg>
+   <seg function="incipit"><milestone n="1" unit="column"/>
+  <lb n="1"/>mutal = = <gap reason="illegible" quantity="1" unit="character"/> 3 = = turucu-centūram</seg>
   <lb n="2"/>2 = = 8 = = vilāri-t-tuyil
   <lb n="3"/>3 = = 12 = = vēmpu-t-tupil
   <lb n="4-12"/><gap reason="ellipsis"/>
@@ -106,11 +108,11 @@
   <milestone n="1" unit="column"/>
   <milestone n="2" unit="column"/>
   
-    <pb n="2v"/>
+    <pb facs="15" n="2v"/>
   <milestone n="1" unit="column"/>
   <milestone n="2" unit="column"/>
   
-    <pb facs="12" n="3r"/>
+    <pb facs="15" n="3r"/>
   <milestone n="1" unit="column"/>
   <milestone n="2" unit="column"/>
   
@@ -121,28 +123,31 @@
 
   </ab>
   </body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
-  <ab>
+  <ab>    
     
   <pb facs="17" n="[1]r"/>
-  <milestone unit="left-margin"/>
-  <lb n="1"/><seg function="blessing">kaṭavuḷ
+    
+    <seg function="header">
+      <seg function="blessing"><milestone unit="left-margin"/>
+  <lb n="1"/>kaṭavuḷ
 <lb n="2"/>tuṇai</seg>
-<lb n="3"/><seg function="blessing">kuru muṉ
+<seg function="blessing"><lb n="3"/>kuru muṉ
 <lb n="4" break="no"/>ṉirkka
 <lb n="5" break="no"/>vum</seg>
-<lb n="6"/><seg function="title"><persName xml:lang="ta">tēraiy
+<seg function="title"><lb n="6"/><persName xml:lang="ta">tēraiy
 <lb n="7" break="no"/>yar</persName> aruḷi 
 <lb n="8" break="no"/>c cey
 <lb n="9" break="no"/>ta vayit
-<lb n="10" break="no"/>tiyam aṉ
-<lb n="11" break="no"/>ṉūṟu [<term xml:lang="en">i.e.</term> aiṉṉūṟu?]</seg>
+<lb n="10" break="no"/>tiya<choice><orig>m a</orig><reg>m ai</reg></choice>ṉ
+<lb n="11" break="no"/>ṉūṟu</seg>
+      </seg>
   
   <seg function="incipit"><milestone unit="main-text-area"/>
-  <lb n="1"/>Ātiyāñ civacatti putalvar pōṟṟi </seg> <gap reason="ellipsis"/>
+  <lb n="1"/>Ātiyāñ civacatti putalvar pōṟṟi <gap reason="ellipsis"/></seg>
   
   <pb facs="48" n="85r"/>
   
-     <lb n="4" break="no"/><gap reason="ellipsis"/> <seg function="explicit">teppu ṉīṟu kaḷañciyālē</seg> <g ref="#pcs"/> <g ref="#pcs"/> 4<g ref="#nūṟu"/>5<g ref="#pattu"/> <g ref="#pcl"/>
+     <seg function="explicit"><lb n="4" break="no"/><gap reason="ellipsis"/> teppu ṉīṟu kaḷañciyālē <g ref="#pcs"/> <g ref="#pcs"/> 4<g ref="#nūṟu"/>5<g ref="#pattu"/> <g ref="#pcl"/></seg>
   
   <pb n="85v"/><note xml:lang="en">blank</note>
 </ab>
