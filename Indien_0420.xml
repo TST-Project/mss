@@ -19,10 +19,10 @@
 							<orgName>Bibliothèque nationale de France. Département des
 								Manuscrits</orgName>
 						</repository>
-						<idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103947h</idno>
+						
 						<idno type="shelfmark">Indien 420</idno>
 						<idno type="alternate"><idno>Tamoul 420</idno></idno>
-					</msIdentifier>
+					<idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103947h</idno></msIdentifier>
 					<msContents class="#STM">
 						<summary>The <title xml:lang="ta">Nālu Mantiri Katai</title>, a narrative in Tamil about the adventures of four ministers. See Zvelebil (1995, p. 469).</summary>
 
@@ -79,7 +79,7 @@
 						<handNote synch="#U1" scope="minor" script="tamil" medium="incised"><desc>Unblackened.</desc></handNote><handNote synch="#U2" scope="major" script="tamil" medium="incised soot"/><handNote synch="#U3" scope="minor" script="tamil" medium="incised"><desc>Unblackened.</desc></handNote><handNote synch="#U4" script="tamil" medium="incised"><desc>Unblackened.</desc></handNote></handDesc>
 						<additions>
 							
-						<desc synch="#cover" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 987</quote> (<locus facs="00">front cover, recto</locus>).</desc><desc synch="#U1" type="shelfmark">Shelfmark in black ink: <quote>N° 7</quote> (<locus facs="00">f[1]r</locus>).</desc><desc synch="#U2" type="foliation">Foliation added in black ink: <quote>54</quote> (<locus facs="00">f54r</locus>).</desc></additions>
+						<desc type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 987</quote> (<locus facs="00">front cover, recto</locus>).</desc><desc synch="#U1" type="shelfmark">Shelfmark in black ink: <quote>N° 7</quote> (<locus facs="00">f[1]r</locus>).</desc><desc synch="#U2" type="foliation">Foliation added in black ink: <quote>54</quote> (<locus facs="00">f54r</locus>).</desc></additions>
 						<bindingDesc>
 							<binding>
 								<p><material cert="medium">Pinewood</material> covers apparently fabricated in the BnF. 340 x 35 mm.</p>
@@ -111,14 +111,14 @@
 
 			
 		<p>To be added.</p></encodingDesc>
-		<revisionDesc>
+		
+	<revisionDesc>
 
 
 			
 			
 			
-		<change when="2022-01">Record created by Emmanuel FRANCIS.</change></revisionDesc>
-	</teiHeader>
+		<change when="2022-01">Record created by Emmanuel FRANCIS.</change></revisionDesc></teiHeader>
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   
   <pb facs="00" n="[1]r"/>
@@ -188,13 +188,13 @@
 </body></text><text synch="#U4" corresp="#T4" xml:lang="ta"><body>
   
   <pb facs="00" n="[1]r"/>
-  <milestone n="1" unit="column"/>
-  <lb n="1"/><gap reason="ellipsis"/>
+  <seg function="TBC"><milestone n="1" unit="column"/>
+  <lb n="1"/><gap reason="ellipsis"/> <note xml:lang="en">scribble</note></seg>
   
-  <milestone n="2" unit="column"/>
-  <lb n="1"/><seg function="blessing">nilāyataṣci</seg>
-<lb n="2"/><seg function="blessing">nilāyataṣci Amaṇaṉ tuṇai</seg>
-<lb n="3"/><gap reason="ellipsis"/>
+  <seg function="blessing"><milestone n="2" unit="column"/>
+  <lb n="1"/>nilāyataṣci
+<lb n="2"/>nilāyataṣci Amaṇaṉ tuṇai</seg>
+<seg function="TBC"><lb n="3"/><gap reason="ellipsis"/> 1 2 3 4 5 6 <unclear reason="eccentric_ductus">7</unclear> 8 <note xml:lang="en">scribble</note></seg>
   
 
       <pb facs="00" n="[1]v"/><note xml:lang="en">blank</note>  

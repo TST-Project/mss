@@ -100,11 +100,11 @@
          
       <p><p><emph rend="bold">Transliteration conventions</emph></p>  
 <p>Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only).  </p>  <p><emph rend="bold">Abbreviations</emph></p>  <p> c = column, f = folio, lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.</p>       </p></encodingDesc>
-      <revisionDesc>
+      
+   <revisionDesc>
          
       
-      <change when="2022-02">Record created by Emmanuel FRANCIS</change></revisionDesc>
-   </teiHeader>
+      <change when="2022-02">Record created by Emmanuel FRANCIS</change></revisionDesc></teiHeader>
     <sourceDoc>
         <surface/>
     </sourceDoc>
@@ -129,10 +129,11 @@
   
   <pb facs="0" n="[1]r"/>
   
-  <milestone unit="left-margin"/>
-  <lb n="1"/><seg function="blessing">śrī=<g ref="#pcs"/></seg> <seg function="blessing">kuruvē tuṇai</seg>
- <lb n="2"/><seg function="blessing">tirucciṟṟampalam <g ref="#pcs"/></seg>
-<lb n="3-4"/><seg function="blessing">kapilaippurāṇam Uraiyuṭaṉē</seg>
+  <seg function="header"><seg function="blessing"><milestone unit="left-margin"/>
+  <lb n="1"/>śrī=<g ref="#pcs"/></seg> <seg function="blessing">kuruvē tuṇai</seg>
+ <seg function="blessing"><lb n="2"/>tirucciṟṟampalam <g ref="#pcs"/></seg>
+<seg function="title"><lb n="3-4"/>kapilaippurāṇam Uraiyuṭaṉē</seg>
+    </seg>
   
       <milestone unit="main-text-area"/>
   <lb n="1"/><seg function="satellite-stanza">puttiyāṉai <gap reason="ellipsis"/>

@@ -100,11 +100,11 @@ The front woodcover is further inscribed <quote xml:lang="ta">pu ta</quote> (in 
          
          
       <p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso. GOML = Government Oriental Manuscripts Library, Madras/Chennai. MTL = Madras Tamil Lexicon. TMSSML = Tanjore Maharaja Serfoji Sarasvati Mahal Library.</p></encodingDesc>
-      <revisionDesc>
+      
+   <revisionDesc>
          
          
-      <change when="2020-04">This catalogue entry has been redacted by Emmanuel FRANCIS (CNRS, CEIAS UMR 8564, EHESS/CNRS) for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG). Version 1, April 2020.</change><change when="2021-03">Coverted to TEI by Charles LI.</change><change when="2021-07">Updated to TST encoding conventions by Emmanuel FRANCIS.</change></revisionDesc>
-   </teiHeader>
+      <change when="2020-04">This catalogue entry has been redacted by Emmanuel FRANCIS (CNRS, CEIAS UMR 8564, EHESS/CNRS) for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG). Version 1, April 2020.</change><change when="2021-03">Coverted to TEI by Charles LI.</change><change when="2021-07">Updated to TST encoding conventions by Emmanuel FRANCIS.</change></revisionDesc></teiHeader>
    <sourceDoc>
     <surface/>
    </sourceDoc>
@@ -112,25 +112,28 @@ The front woodcover is further inscribed <quote xml:lang="ta">pu ta</quote> (in 
   
   <pb n="1r"/>
   
-  <lb n="1"/><seg function="title">vaḷḷiyammai
+  <seg function="title">
+  <lb n="1"/>vaḷḷiyammai
   <lb n="2" break="no"/>purāṇam</seg>
 
 </body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
   
   <pb n="1r"/>
   
+  <seg function="header">
   <milestone unit="left-margin"/>
   <lb n="1"/><g ref="#pcs"/>
-  <lb n="2"/><seg function="blessing">hari Om</seg>
-  <lb n="3"/><seg function="blessing">naṉṟāka</seg>
-  <lb n="4"/><seg function="blessing">kuru vāḻka</seg>
-  <lb n="5"/><seg function="blessing">kuruvē tuṇai</seg>
-  <lb n="6"/><seg function="title">vaḷḷiyam
+  <seg function="blessing"><lb n="2"/>hari Om</seg>
+  <seg function="blessing"><lb n="3"/>naṉṟāka</seg>
+  <seg function="blessing"><lb n="4"/>kuru vāḻka</seg>
+  <seg function="blessing"><lb n="5"/>kuruvē tuṇai</seg>
+  <seg function="title"><lb n="6"/>vaḷḷiyam
   <lb n="7" break="no"/>mai puṟāṇa
-  <lb n="8" break="no"/>cāram</seg> <g ref="#pcs"/>
+  <lb n="8" break="no"/>cāram <g ref="#pcs"/></seg>
+    </seg>
 
-  <milestone unit="main-text-area"/>
-  <lb n="1"/><seg function="incipit">koṇṭalait tikaḻ vāri<pc>-</pc>k kuṇā<unclear>l</unclear> mēl</seg> ‡ moṇṭalai<pc>-</pc>t teṟimuttaiyaḷ<pc>-</pc>t timāra ‡ taṇṭalai<pc>-</pc>p payira <choice><unclear>no</unclear><unclear>nō</unclear></choice>caratai<pc>-</pc>p pati ‡ maṇṭala<pc>-</pc>p pi
+  <seg function="incipit"><milestone unit="main-text-area"/>
+  <lb n="1"/>koṇṭalait tikaḻ vāri<pc>-</pc>k kuṇā<unclear>l</unclear> mēl</seg> ‡ moṇṭalai<pc>-</pc>t teṟimuttaiyaḷ<pc>-</pc>t timāra ‡ taṇṭalai<pc>-</pc>p payira <choice><unclear>no</unclear><unclear>nō</unclear></choice>caratai<pc>-</pc>p pati ‡ maṇṭala<pc>-</pc>p pi
   <lb n="2" break="no"/>ḷḷaiyārai vaṇaṅkuvām <g ref="#pcs"/> <seg function="intertitle">viṉāyakara [<term xml:lang="en">i.e.</term> vināyakar] tōttiram</seg> <g ref="#pcs"/> <gap reason="ellipsis"/>
   
   <pb n="1v"/>
@@ -143,7 +146,7 @@ The front woodcover is further inscribed <quote xml:lang="ta">pu ta</quote> (in 
   <lb n="6"/><seg function="blessing">Āṟu-mā-mukamum vāḻ</seg> <seg function="blessing">vē
   
   <pb n="2r" break="no"/>
-  <lb n="1"/><sic>tti</sic>-vēl vāḻi vāḻi</seg> <g ref="#pcs"/> <seg function="completion-statement">tōttiramuṟṟum</seg> <g ref="#pcs"/> cīvakaṉ kēḻvi <gap reason="ellipsis"/> <!--Update after re-examination of the MS!-->
+  <lb n="1"/><sic>tti</sic>vēl vāḻi vāḻi</seg> <g ref="#pcs"/> <seg function="completion-statement">tōttiramuṟṟum</seg> <g ref="#pcs"/> cīvakaṉ kēḻvi <gap reason="ellipsis"/> <!--Update after re-examination of the MS!-->
   
   <pb n="6r"/>
    <milestone unit="left-margin"/>
