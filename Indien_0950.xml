@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -9,7 +9,7 @@
          
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -18,14 +18,14 @@
                      <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
                   </repository>
                   <idno type="shelfmark">Indien 950</idno>
-                  <idno type="alternate"/>
+                  <idno type="alternate"><idno>Ariel (?)</idno></idno>
                </msIdentifier>
                <msContents class="#STM">
                   <summary>The <title xml:lang="ta">Tēvāram</title>. Contains:
 <list rend="numbered">
-  <item>the first 6 <title xml:lang="ta">Tirumuṟai</title>s (<title xml:lang="ta">Tēvāram</title> 1-6) = U3</item>
-  <item>a <foreign xml:lang="ta">paṇ</foreign> table of contents = U4</item>
-  <item>isolated fragments of <title xml:lang="ta">Tēvāram</title>s = U5 [TBC]</item>
+  <item>The first 6 <title xml:lang="ta">Tirumuṟai</title>s (<title xml:lang="ta">Tēvāram</title> 1-6) = U3</item>
+  <item>A <foreign xml:lang="ta">paṇ</foreign> table of contents = U4</item>
+  <item>Isolated fragments of <title xml:lang="ta">Tēvāram</title>s = U5 [TBC]</item>
   </list>
                      </summary>
                   
@@ -34,7 +34,7 @@
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
                         <extent>
-                           <measure unit="folio" quantity="557">[1] + [2] + 544 + [1] + [9] (U1 + U2 + U3 + U4 + U5).</measure>
+                           <measure unit="folio" quantity="557">{1} + {2} + 544 + {1} + {9} (U1 + U2 + U3 + U4 + U5).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
@@ -64,7 +64,7 @@
                     
                     
                     
-                  <desc synch="#U1" type="shelfmark">Shelfmark in black ink: <quote>c/7</quote> (f[1]r).</desc><desc synch="#cover" type="shelfmark" subtype="back cover">BnF shelfmark sticker: <quote>INDIEN 950</quote> (back cover, verso).</desc><desc synch="#U3 U4 U5" type="intertitle" subtype="marginal">Marginal intertitles.</desc></additions>
+                  <desc synch="#U1" type="shelfmark">Shelfmark in black ink: <quote>c/7</quote> (f[1]r).</desc><desc type="shelfmark" subtype="back cover">BnF shelfmark sticker: <quote>INDIEN 950</quote> (back cover, verso).</desc><desc synch="#U3 #U4 #U5" type="intertitle" subtype="marginal">Marginal intertitles.</desc></additions>
                   <bindingDesc>
                      <binding>
                         <p>Original <material>wood</material> covers. 410 x 30 mm. With a metal stick tied to the string and threaded in one of the holes.</p>
@@ -93,16 +93,16 @@
          
          
       <p>TBC</p></encodingDesc>
-      <revisionDesc>
+      
+   <revisionDesc>
          
          
-      <change when="2021-11">Record created by Emmanuel FRANCIS.</change></revisionDesc>
-   </teiHeader>
+      <change when="2021-11">Record created by Emmanuel FRANCIS.</change></revisionDesc></teiHeader>
    <facsimile>
       
    </facsimile>
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
-  
+  <ab>
   <pb facs="00" n="[1]r"/>
   
   <milestone n="1" unit="column"/>
@@ -116,9 +116,10 @@
   
     <pb facs="00" n="[1]v"/><note xml:lang="en">blank</note>
    
-     
+     </ab>
 </body></text><text synch="#U3" corresp="#T2" xml:lang="ta"><body>
-  
+  <ab>
+    
   <pb facs="00" n="[1]r"/>
   
   <milestone unit="left-margin"/>
@@ -189,9 +190,10 @@
    <lb n="2"/><gap reason="ellipsis"/><note xml:lang="en"><title xml:lang="ta">Tēvāram</title> 6.99 ends</note> ~ <g ref="#pattu"/> ~ <seg function="blessing">tiru
   <lb n="3" break="no"/>cciṟampalam</seg> <g ref="#pcs"/> 62 <g ref="#pcs"/>
 
-  
-
+  </ab>
 </body></text><text synch="#U4" corresp="#T3" xml:lang="ta"><body>
+  <ab>
+    
   <pb facs="00" n="541r"/><note xml:lang="en">unblackened</note>
   
   <milestone unit="left-margin"/>
@@ -213,4 +215,6 @@
   <pb facs="00" n="541v"/>
   <milestone n="1" unit="column"/><gap reason="ellipsis"/>
   <milestone n="2" unit="column"/><gap reason="ellipsis"/>
+    
+    </ab>
   </body></text></TEI>
