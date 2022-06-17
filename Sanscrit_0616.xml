@@ -1,17 +1,15 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title xml:lang="sa">Amarakośaviveka</title>
-         </titleStmt>
-         <editionStmt>
-            <p>Record edited by <persName>Charles Li</persName> <orgName>CNRS, CEIAS, UMR 8564</orgName>.</p>
-         </editionStmt>
+         <editor><persName>Charles Li</persName><orgName>CNRS, CEIAS, UMR 8564</orgName></editor></titleStmt>
+         
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -19,16 +17,16 @@
                   <repository>
                      <orgName>Bibliothèque nationale de France. Département des Manuscrits.</orgName>
                   </repository>
-                  <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc973433</idno>
+                  
                   <idno type="shelfmark">Sanscrit 616</idno>
                   <idno type="alternate"><idno>Sanscrit Nagra 26</idno></idno>
-               </msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc973433</idno></msIdentifier>
                <msContents class="#STM">
                   <summary><p>This manuscript was copied from a lithograph of the <title xml:lang="sa">Amarakośaviveka</title> of <persName xml:lang="sa">Maheśvara</persName>, also known as the <title xml:lang="sa">Amaraviveka</title> or <title xml:lang="sa">Śiśubodhinī</title>. Although the lithograph was printed in Devanāgarī script, this manuscript is written in Nandināgarī. Some of the marginalia, such as running margin titles, have been reproduced, but only on the first two folios. Notably, the <locus facs="153">table of contents</locus> after the first kāṇḍa has been copied from the lithograph.</p>
 <p>This commentary on the <title xml:lang="sa">Amarakośa</title> was particularly popular in the late 19th and early 20th century, going through multiple editions as a lithograph as well as a printed book. As stated in the introductory stanzas, it was edited and expanded by <persName xml:lang="sa">Rāghunātha Talekar</persName>, under the supervision of <persName>Thomas Candy</persName>. The lithograph is particularly notable for its use of Western quotation marks, as explained in the introduction. The Nandināgarī scribe of this manuscript, however, did not seem to recognize them, and renders opening quotes as a two forward slashes and closing quotes as the number 11.</p>
 <p>This manuscript contains the first kāṇḍa and part of the second kāṇḍa, along with 61 blank folios at the end.</p></summary>
                   
-               <msItem synch="#U1" defective="true"><title xml:lang="sa">Amarakośaviveka</title><author xml:lang="sa">Maheśvara</author><textLang mainLang="san" otherLangs=""/><rubric xml:lang="sa"><milestone facs="13" n="1r" unit="folio"/>śrīvedavyāsa namaḥ ||</rubric><incipit xml:lang="sa"><milestone facs="13" n="1r" unit="folio"/>kośasyeva mahīpānāṃ kośasya viduṣām api || upayogo ma<lb/>hān ya<unclear>smāt kla</unclear>śas tena vinābhavet ||</incipit><explicit xml:lang="sa"><milestone facs="245" n="45r" unit="folio"/>śaṭīti bopālitā tuvārikā || 11 mṛttālakaṃ |  mṛtālakaṃ || 11 surāṣṭrajaṃ || ṣaṭ tuvarikāyāḥ tūra iti khyātāyāḥ | ku<lb/>ṭannaṭaṃ || dāśapuraṃ || || daśapuram iti daśapūram iti dāśapūram iti ca || daśapūraṃ daśapuraṃ plavaṇaṃ jīvitāhvayam i<lb/>ti vācaspatiḥ || 11 || vāneyaṃ | paripelavaṃ || 131 || plavaṃ || gopuraṃ | gonardaṃ | kaivartīmustakaṃ | || kaivartimu<lb/>stakaṃ | kaivartamustakam | 11 aṣṭakaṃ kaivartīmustakasya kevaḍī || jalamustakāḥ <unclear>hu</unclear> mo<lb/><unclear>hāṃ</unclear> mothā || 11 || iti khyātasya || graṃthiparṇaṃ | śukaṃ | barhapuṣpaṃ |  śukabarham ity eka<lb/>m api nāma || barhipuṣpaṃ | barhiḥ puppaṃ barhaṃ puppaṃ ceti pṛthag api || 11 sthauṇe<lb/>yaṃ | kukkuraṃ | paṃcagaṃṭhīvana // bhaṭorā 11 iti khyātasya || 132 || marunmālā | viśunā || spṛkkā ||</explicit></msItem></msContents>
+               <msItem synch="#U1" defective="true"><title xml:lang="sa">Amarakośaviveka</title><author xml:lang="sa">Maheśvara</author><textLang mainLang="san"/><rubric xml:lang="sa"><milestone facs="13" n="1r" unit="folio"/>śrīvedavyāsa namaḥ ||</rubric><incipit xml:lang="sa"><milestone facs="13" n="1r" unit="folio"/>kośasyeva mahīpānāṃ kośasya viduṣām api || upayogo ma<lb/>hān ya<unclear>smāt kla</unclear>śas tena vinābhavet ||</incipit><explicit xml:lang="sa"><milestone facs="245" n="45r" unit="folio"/>śaṭīti bopālitā tuvārikā || 11 mṛttālakaṃ |  mṛtālakaṃ || 11 surāṣṭrajaṃ || ṣaṭ tuvarikāyāḥ tūra iti khyātāyāḥ | ku<lb/>ṭannaṭaṃ || dāśapuraṃ || || daśapuram iti daśapūram iti dāśapūram iti ca || daśapūraṃ daśapuraṃ plavaṇaṃ jīvitāhvayam i<lb/>ti vācaspatiḥ || 11 || vāneyaṃ | paripelavaṃ || 131 || plavaṃ || gopuraṃ | gonardaṃ | kaivartīmustakaṃ | || kaivartimu<lb/>stakaṃ | kaivartamustakam | 11 aṣṭakaṃ kaivartīmustakasya kevaḍī || jalamustakāḥ <unclear>hu</unclear> mo<lb/><unclear>hāṃ</unclear> mothā || 11 || iti khyātasya || graṃthiparṇaṃ | śukaṃ | barhapuṣpaṃ |  śukabarham ity eka<lb/>m api nāma || barhipuṣpaṃ | barhiḥ puppaṃ barhaṃ puppaṃ ceti pṛthag api || 11 sthauṇe<lb/>yaṃ | kukkuraṃ | paṃcagaṃṭhīvana // bhaṭorā 11 iti khyātasya || 132 || marunmālā | viśunā || spṛkkā ||</explicit></msItem></msContents>
                <physDesc>
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf palmyra">
@@ -39,29 +37,29 @@
                         <extent>
                            <measure unit="folio" quantity="182">5 guard folios, 1-71, 1-45, 61 blank folios.</measure>
                            <dimensions type="leaf" unit="mm">
-                              <width quantity="245" min="" max=""/>
-                              <height quantity="40" min="" max=""/>
+                              <width quantity="245"/>
+                              <height quantity="40"/>
                            </dimensions>
-                        <dimensions type="written" unit="mm"><width quantity="195" min="" max=""/><height quantity="35" min="" max=""/></dimensions></extent>
+                        <dimensions type="written" unit="mm"><width quantity="195"/><height quantity="35"/></dimensions><dimensions type="object" unit="mm"/></extent>
                         
                         
                      <collation>
-                     <desc xml:id="U1">Nandināgarī numerals, top-left, recto. 1-71 for the first kāṇḍa with table of contents. Foliation restarts at 1 for the second kāṇḍa, just as in the lithograph.</desc>
-                     </collation><condition>Some worm-eaten folios.</condition></supportDesc>
+                     
+                     <desc xml:id="U1">Nandināgarī numerals, top-left, recto. 1-71 for the first kāṇḍa with table of contents. Foliation restarts at 1 for the second kāṇḍa, just as in the lithograph.</desc></collation><condition>Some worm-eaten folios.</condition></supportDesc>
                      <layoutDesc>
-                        <layout columns="1" writtenLines="9" streams="1" style="" ruledLines=""/>
+                        <layout columns="1" writtenLines="9" streams="1"/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
                      
-                  <handNote synch="#U1" scope="sole" scribeRef="" script="nandinagari" scriptRef="" medium="incised"><desc>Devanāgarī-style numerals occasionally used. Uninked, apart from the first and last folios.</desc></handNote></handDesc>
+                  <handNote synch="#U1" scope="sole" script="nandinagari" medium="incised"><desc>Devanāgarī-style numerals occasionally used. Uninked, apart from the first and last folios.</desc></handNote></handDesc>
                   <additions>
-                      <desc type="table-of-contents" subtype="end">A <locus facs="153">table of contents</locus> after the first kāṇḍa, corresponding to the lithograph. Titled <quote xml:lang="sa">|| amarakośaprathamakāṇḍasya vargānukrameṇa ślokasaṃkhyā ||</quote>.</desc>
-                      <desc type="blessing" subtype="marginal"><quote xml:lang="sa">śrī</quote> in the left margin, <locus facs="13">1r</locus>.</desc>
-                      <desc type="title" subtype="marginal"><quote xml:lang="sa">amara</quote> in the left margin, <quote xml:lang="sa">kośa</quote> in the right margin, <locus facs="14">1v</locus>.</desc>
-                      <desc type="title" subtype="marginal"><quote xml:lang="sa">a· ko· ṭīḥ</quote> in the left margin, <locus facs="16">2v</locus>.</desc>
-                      <desc type="chapter-heading" subtype="marginal"><quote xml:lang="sa">kāṃ 1</quote> in the right margin, <locus facs="16">2v</locus>.</desc>
-                  </additions>
+                      
+                      
+                      
+                      
+                      
+                  <desc type="table-of-contents" subtype="end">A <locus facs="153">table of contents</locus> after the first kāṇḍa, corresponding to the lithograph. Titled <quote xml:lang="sa">|| amarakośaprathamakāṇḍasya vargānukrameṇa ślokasaṃkhyā ||</quote>.</desc><desc type="blessing" subtype="marginal"><quote xml:lang="sa">śrī</quote> in the left margin, <locus facs="13">1r</locus>.</desc><desc type="title" subtype="marginal"><quote xml:lang="sa">amara</quote> in the left margin, <quote xml:lang="sa">kośa</quote> in the right margin, <locus facs="14">1v</locus>.</desc><desc type="title" subtype="marginal"><quote xml:lang="sa">a· ko· ṭīḥ</quote> in the left margin, <locus facs="16">2v</locus>.</desc><desc type="intertitle" subtype="marginal"><quote xml:lang="sa">kāṃ 1</quote> in the right margin, <locus facs="16">2v</locus>.</desc></additions>
                   <bindingDesc>
                      <binding>
                         <p><material>Rosewood</material> covers.</p>
@@ -71,10 +69,10 @@
                <history>
                   <origin>
                      <origDate calendar="gregorian" notBefore="1850" notAfter="1851">The introductory stanzas, copied from the lithograph, reads <q xml:lang="sa">dvisaptasapteṃdumite śāke puṇyākhyapattane ||</q>, indicating a śaka date of 1772, or 1850-51 CE. However, other editions of the lithograph contain two dates, one at the beginning and one at the end.</origDate>
-                     <origPlace/>
+                     
                   </origin>
                   <acquisition>
-                     <p/>
+                     
                   </acquisition>
                </history>
                <additional>
@@ -88,10 +86,10 @@
       <encodingDesc>
          
       <p>Spaces added in transliteration where possible.</p></encodingDesc>
-      <revisionDesc>
-        <change when="2021-01">Record created by Charles LI.</change>  
-      </revisionDesc>
-   </teiHeader>
+      
+   <revisionDesc>
+          
+      <change when="2021-01">Record created by Charles LI.</change></revisionDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
    <facsimile>
       <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10463347k/manifest.json"/>
    </facsimile>
