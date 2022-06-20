@@ -31,7 +31,7 @@
                      <supportDesc material="palm-leaf">
                         <support>
                            <!--measure unit="stringholes" quantity=""/-->
-                        <measure unit="stringhole" quantity="2"/></support>
+                        </support>
                         <extent>
                            <measure unit="folio" quantity="156">[1] + 150 + [1] + [1] + [1] + [2] (U1 + U2 + U3 + U4 + U5 + U6).</measure>
                            <dimensions type="leaf" unit="mm">
@@ -71,11 +71,11 @@
                     
                     
                      
-                  <desc synch="#cover" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 303</quote> (<locus facs="0">front cover, recto</locus>). </desc><desc synch="#U1" type="shelfmark">Shelfmark in black ink: <quote>b/70</quote> (<locus facs="0">f[1]r</locus>).</desc><desc synch="#U2c" type="intertitle">Left-marginal intertitles.</desc></additions>
+                  <desc type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 303</quote> (<locus facs="0">front cover, recto</locus>). </desc><desc synch="#U1" type="shelfmark">Shelfmark in black ink: <quote>b/70</quote> (<locus facs="0">f[1]r</locus>).</desc><desc synch="#U2c" type="intertitle">Left-marginal intertitles.</desc></additions>
                   <bindingDesc>
                      <binding>
                        <p><material cert="medium">Pinewood</material> covers apparently fabricated in the BnF.</p>
-                     </binding>
+                     <decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
                   </bindingDesc>
                </physDesc>
                <history>
@@ -100,16 +100,17 @@
          
       <p><p><emph rend="bold">Transliteration conventions</emph></p>  
 <p>Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only).  </p>  <p><emph rend="bold">Abbreviations</emph></p>  <p> c = column, f = folio, lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.</p>       </p></encodingDesc>
-      <revisionDesc>
+      
+   <revisionDesc>
          
       
-      <change when="2022-02">Record created by Emmanuel FRANCIS</change></revisionDesc>
-   </teiHeader>
+      <change when="2022-02">Record created by Emmanuel FRANCIS</change></revisionDesc></teiHeader>
     <sourceDoc>
         <surface/>
     </sourceDoc>
 <facsimile/><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
-  
+  <ab>
+    
   <pb facs="0" n="[1]r"/>
   
   <milestone n="1" unit="left-margin"/>
@@ -123,9 +124,10 @@
 
     <pb facs="0" n="[1]v"/><note xml:lang="en">blank</note>
 
-</body>
-</text><text synch="#U2a" corresp="#T2" xml:lang="ta"><body>
-  
+    </ab>
+</body></text><text synch="#U2a" corresp="#T2" xml:lang="ta"><body>
+  <ab>
+    
   <pb facs="0" n="[1]r"/>
   
   <milestone n="1" unit="column"/>
@@ -148,32 +150,34 @@
   
   <pb facs="0" n="[1]v"/><note xml:lang="en">blank</note>
 
-</body>
-</text><text synch="#U2b" corresp="#T3" xml:lang="ta"><body>
-  
+    </ab>
+</body></text><text synch="#U2b" corresp="#T3" xml:lang="ta"><body>
+  <ab>
+    
   <pb facs="0" n="[1]r"/>
   
-  <milestone n="1" unit="left-margin"/>
-  <lb n="1"/><seg function="blessing">ha<seg rend="grantha">ri</seg> Ōm</seg>
+  <seg function="header"><seg function="blessing"><milestone n="1" unit="left-margin"/>
+  <lb n="1"/>ha<seg rend="grantha">ri</seg> Ōm</seg>
   
-  <milestone n="2" unit="left-margin"/>
-  <lb n="1-2"/><seg function="title">citamparapurāṇam</seg>
-<lb n="3-4"/><seg function="blessing">tirucci<sic>tta</sic>mpalam</seg>
+  <seg function="title"><milestone n="2" unit="left-margin"/>
+  <lb n="1-2"/>citamparapurāṇam</seg>
+<seg function="blessing"><lb n="3-4"/>tirucci<sic>tta</sic>mpalam</seg>
   
-  <milestone n="3" unit="left-margin"/>
-  <lb n="1-4"/><seg function="blessing">tiruvampalamuṭaiyār tiruvaṭi vāḻka</seg>
+  <seg function="blessing"><milestone n="3" unit="left-margin"/>
+  <lb n="1-4"/>tiruvampalamuṭaiyār tiruvaṭi vāḻka</seg>
+    </seg>
   
-  <milestone unit="main-text-area"/>
-  <lb n="1"/><seg function="satellite-stanza"><lg><l>vāṉanāṭarkaḷ mātavanāṭarkaḷ</l> <l>moṉañāṉa muḻutumuṇarntiṭat</l> 
-  <lb n="2"/><l>tāṉamēvun taṭavikaṭācala</l> <l>vāṉaimāmukat taṇṇalai<unclear reason="consonant_unclear">yē</unclear>ttuvām</l></lg> <g ref="#pcl"/></seg>
-  <lb n="3"/><seg function="satellite-stanza" cert="low">Attimukatt’ uttamaṉai nittam niṉai cittamē ~</seg> <seg function="satellite-stanza" cert="low">Appamuppaḻam amutu
+  <seg function="satellite-stanza"><milestone unit="main-text-area"/>
+  <lg><l><lb n="1"/>vāṉanāṭarkaḷ mātavanāṭarkaḷ</l> <l>moṉañāṉa muḻutumuṇarntiṭat</l> 
+  <lb n="2"/><l>tāṉamēvun taṭavikaṭācala</l> <l>vāṉaimāmukat taṇṇalai<unclear reason="consonant_unclear">yē</unclear>ttuvām <g ref="#pcl"/></l></lg></seg>
+  <seg function="satellite-stanza" cert="low"><lb n="3"/>Attimukatt’ uttamaṉai nittam niṉai cittamē ~</seg> <seg function="satellite-stanza" cert="low">Appamuppaḻam amutu
   <lb n="4"/>ceytaruḷiyat toppaiyappaṉait toḻa viṉaiyaṟumē  <g ref="#pcs"/></seg>
-  <lb n="5"/><seg function="satellite-stanza" cert="low">Ārumukavaṉai nāṟu malar <gap reason="ellipsis"/> peṟuvarē <g ref="#pcs"/></seg>
+  <seg function="satellite-stanza" cert="low"><lb n="5"/>Ārumukavaṉai nāṟu malar <gap reason="ellipsis"/> peṟuvarē <g ref="#pcs"/></seg>
    
   <pb facs="0" n="[1]v"/><note xml:lang="en">blank</note>
-
-</body>
-</text><text synch="#U2c" corresp="#T4" xml:lang="ta"><body>
+    
+    </ab>
+</body></text><text synch="#U2c" corresp="#T4" xml:lang="ta"><body>
   
    <pb facs="0" n="[1]r"/>
   

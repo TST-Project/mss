@@ -38,7 +38,7 @@
                         
                      <collation>
                      
-                     <desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">Title Page</emph>. No foliation. Double folio. Verso blank. </desc><desc xml:id="U2a">1 folio = <emph rend="bold"><title xml:lang="ta">Cakuntalai Vilācam</title>: Invocation</emph>. No foliation. Verso blank. </desc><desc xml:id="U3">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>. </desc></collation><condition>Very good state of preservation.</condition><support><measure unit="stringhole" quantity="1"/></support></supportDesc>
+                     <desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">Title Page</emph>. No foliation. Double folio. Verso blank. </desc><desc xml:id="U2a">1 folio = <emph rend="bold"><title xml:lang="ta">Cakuntalai Vilācam</title>: Invocation</emph>. No foliation. Verso blank. </desc><desc xml:id="U3">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>. </desc></collation><condition>Very good state of preservation.</condition><support/></supportDesc>
                      <layoutDesc>
                         
                      </layoutDesc>
@@ -46,11 +46,11 @@
                   <handDesc>
                      
                   <handNote synch="#U1" scope="minor" scribeRef="#ArielTitleScribe" script="tamil" medium="incised soot"><desc>Hand #1.</desc></handNote><handNote synch="#U2a" scope="major" script="tamil" medium="incised soot"><desc>Hand #2.</desc></handNote></handDesc>
-                  <additions><desc synch="#cover" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 391</quote> (<locus facs="0">front cover, recto</locus>). </desc><desc synch="#cover" type="documenting-note" subtype="cover front">BnF bequest sticker <quote>DON N° <space type="vacat"/></quote> (<locus facs="0">front cover, recto</locus>).</desc><desc synch="#U1" type="shelfmark">Shelfmark in black ink: <quote>b/18</quote> (<locus facs="0">f[1]r</locus>).</desc><desc synch="#U1" type="shelfmark">Shelfmark sticker (Société Asiatique?), written in black ink: <quote>441</quote> (<locus facs="0">f[1]r</locus>).</desc></additions>
+                  <additions><desc type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 391</quote> (<locus facs="0">front cover, recto</locus>). </desc><desc type="documenting-note" subtype="cover front">BnF bequest sticker <quote>DON N° <space type="vacat"/></quote> (<locus facs="0">front cover, recto</locus>).</desc><desc synch="#U1" type="shelfmark">Shelfmark in black ink: <quote>b/18</quote> (<locus facs="0">f[1]r</locus>).</desc><desc synch="#U1" type="shelfmark">Shelfmark sticker (Société Asiatique?), written in black ink: <quote>441</quote> (<locus facs="0">f[1]r</locus>).</desc></additions>
                   <bindingDesc>
                      <binding>
                         <p><material cert="medium">Pinewood</material> covers apparently fabricated in the BnF.</p>
-                     </binding>
+                     <decoNote type="stringhole"><measure unit="stringhole" quantity="1"/></decoNote></binding>
                   </bindingDesc>
                </physDesc>
                <history>
@@ -70,13 +70,14 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      
+   <encodingDesc><p>TBC</p></encodingDesc><revisionDesc>
          
-      <change when="2022-02">Record created by Emmanuel FRANCIS.</change></revisionDesc>
-   <encodingDesc><p>TBC</p></encodingDesc></teiHeader>
+      <change when="2022-02">Record created by Emmanuel FRANCIS.</change></revisionDesc></teiHeader>
    
 <facsimile/><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
-  
+  <ab>
+    
   <pb facs="0" n="[1]r"/>
   
   <milestone n="1" unit="column"/>
@@ -90,9 +91,10 @@
 
     <pb facs="0" n="[1]v"/><note xml:lang="en">blank</note>
 
-  
+  </ab>
 </body></text><text synch="#U2a" corresp="#T2" xml:lang="ta"><body>
-  
+  <ab>
+    
   <pb facs="0" n="[1]r"/>
   
   <milestone n="1" unit="left-margin"/>
@@ -103,17 +105,18 @@
   <lb n="1"/><seg function="blessing">civakaṇapati tuṇai</seg>
   <lb n="2"/><seg function="blessing">ve<sic>tti</sic>-vēl utta tuṇai</seg>
   
-   <milestone n="2" unit="column"/>
-  <lb n="1"/><seg function="satellite-stanza"><lg><l>cīrār mayilai <gap reason="ellipsis"/></l>
+   <seg function="satellite-stanza"><milestone n="2" unit="column"/>
+  <lg><l><lb n="1"/>cīrār mayilai <gap reason="ellipsis"/></l>
 <lb n="2"/><l>tārār <gap reason="ellipsis"/></l>
 <lb n="3"/><l>virutu <gap reason="ellipsis"/></l>
-<lb n="4"/><l>karutu <gap reason="ellipsis"/> kāppu</l></lg> <g ref="#pcs"/></seg>
+<lb n="4"/><l>karutu <gap reason="ellipsis"/> kāppu <g ref="#pcs"/></l></lg></seg>
 
       <pb facs="0" n="[1]v"/><note xml:lang="en">blank</note>
  
-  
+  </ab>
 </body></text><text corresp="#T3" xml:lang="ta"><body>
-  
+  <ab>
+    
   <pb facs="0" n="1r"/>
   
   <milestone unit="left-margin"/>
@@ -126,5 +129,5 @@
   <pb facs="0" n="102v"/>
     <lb n="5"/><gap reason="ellipsis"/> ~ <seg function="TBC">vacaṉa=M ~</seg> <seg function="explicit"><gap reason="ellipsis"/> peṟṟa tāyē <g ref="#pcs"/></seg> <seg function="completion-statement">mukintatu muṟṟum <g ref="#pcs"/></seg> <seg function="blessing">kuruvē tuṇai y<pc>-</pc>uṇṭākavu=M=<g ref="#pcl"/> <g ref="#pcs"/> <g ref="#pcs"/></seg>
 
-  
+ </ab>
 </body></text></TEI>

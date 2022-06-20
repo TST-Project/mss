@@ -45,7 +45,7 @@
                             
                         <desc xml:id="U1">1 folio = <emph rend="bold">Title Page (additional)</emph>. No foliation. Verso blank.</desc><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U2">1 folio = <emph rend="bold"><term xml:lang="ta">Kantapurāṇam</term>: Invocation</emph>. No foliation. Addendum (blessings), unblackened, by a later hand on verso.</desc><desc xml:id="U3">391 folios = <emph rend="bold"><term xml:lang="ta">Kantapurāṇam</term>: Text</emph>. Tamil foliation {1}‒391. 8 to 10 lines per page.</desc><desc xml:id="U4">1 folio = <emph rend="bold">Table of Contents</emph>. No foliation.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation>
                         <condition>Very bad state of preservation. Leaves are brittle, due to age and numerous bore holes caused by insects. Edges are often truncated. </condition>
-                     <support><measure unit="stringhole" quantity="2"/></support></supportDesc>
+                     <support/></supportDesc>
                      <layoutDesc>
                         <layout columns="1" writtenLines="8 10"/>
                      </layoutDesc>
@@ -63,7 +63,7 @@
                   <bindingDesc>
                      <binding>
                         <p>Original <material>wood</material> covers.</p>
-                     </binding>
+                     <decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
                   </bindingDesc>
                </physDesc>
                <history>
@@ -94,7 +94,8 @@
          
       <change when="2020-04">This catalogue entry has been redacted by Emmanuel FRANCIS (CNRS, CEIAS UMR 8564, EHESS &amp; CNRS) for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG). With the kind help of Giovanni Ciotti (Hamburg University) &amp; Marco Franceschini (Bologna University) for deciphering and interpreting the colophon date. Version 1, April 2020. </change><change when="2021-05">Updated to TEI by Charles LI.</change><change when="2021-08">Updated to TST encoding conventions by Emmanuel FRANCIS.</change><change when="2022-05">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, May 2022.</change></revisionDesc></teiHeader>
 <facsimile><graphic url="https://didomena.ehess.fr/concern/data_sets/tq57nz62t/manifest.json"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
-  
+  <ab>
+    
   <pb facs="7" n="[1]r"/>
   
   <seg function="blessing"><milestone n="1" unit="column"/>
@@ -107,8 +108,10 @@
   
     <pb n="[1]v"/><note xml:lang="en">blank</note>
 
+    </ab>
   </body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
-  
+  <ab>
+    
   <pb facs="12" n="[1]r"/>
   
   <seg function="header"><seg function="blessing"><milestone n="1" unit="left-margin"/>
@@ -133,8 +136,10 @@
   
     <pb n="[1]v"/><seg function="blessing"><note xml:lang="en">blessings: addendum, two columns on the left side, unblackened</note></seg>
   
+   </ab>
 </body></text><text synch="#U3" corresp="#T3" xml:lang="ta"><body>
-  
+  <ab>
+    
   <pb facs="30" n="[1]r"/>
   
    <seg function="blessing"><milestone n="1" unit="left-margin"/>
@@ -159,17 +164,19 @@
   <pb facs="106" n="[391]r"/>
   <lb n="8"/><gap reason="ellipsis"/> <lg><l>pārāki yēṉaip poruḷāy uyi
   <lb n="9" break="no"/>rppaṉ maiyākip</l> <l>pērā vuyirkaṭ kuyirāyp <unclear>pi</unclear>ṟavaṟ ṟumāki</l> <l>nērākit tōṉṟal ilātāki niṉṟāṉ kaḻaṟkē</l> <l>yārāta kāta loṭupōṟṟi yaṭaitum aṉṟē <g ref="#pcs"/> 264 <g ref="#pcs"/></l></lg> <seg function="invocation"><lg><l>tikaṭa cakkarac cemmuka maintuḷāṉ</l> <l>cakaṭa cakkara
-  <lb n="10" break="no"/>t tāmarai nāyaka</l> <l>ṉakaṭa cakkara viṉmaṇi yāvuṟai</l> <l>vikaṭa cakkaraṉ meyppatam poṟṟuvām <g ref="#pcs"/> 265 <g ref="#pcs"/></l></lg></seg> <seg function="invocation"><lg><l>mūviru mukaṅkaḷ poṟṟi mukam poḻi karuṇai pōṟṟi</l> <l>yēvarun tutikka niṉṟa virāṟutōḷ pōṟṟi kā
-  <lb n="11" break="no"/>ñci</l> <l>māvaṭi vaikuñ cevvēḷ malaraṭi pōṟṟi yaṉṉāṉ</l> <l>cēvalu mayilum pōṟṟi tirukkaivēl pōṟṟi pōṟṟi <g ref="#pcs"/> 266 <g ref="#pcs"/></l></lg></seg> Īṟucēr poḻutiṉu miṟuti yiṉṟiyē ‡ māṟilā tiruntiṭu vaḷaṅkoḷ kāñciyiṟ ‡
+  <lb n="10" break="no"/>t tāmarai nāyaka</l> <l>ṉakaṭa cakkara viṉmaṇi yāvuṟai</l> <l>vikaṭa cakkaraṉ meyppatam poṟṟuvām <g ref="#pcs"/> 265 <g ref="#pcs"/></l></lg></seg> <seg function="satellite-stanza"><lg><l>mūviru mukaṅkaḷ poṟṟi mukam poḻi karuṇai pōṟṟi</l> <l>yēvarun tutikka niṉṟa virāṟutōḷ pōṟṟi kā
+  <lb n="11" break="no"/>ñci</l> <l>māvaṭi vaikuñ cevvēḷ malaraṭi pōṟṟi yaṉṉāṉ</l> <l>cēvalu mayilum pōṟṟi tirukkaivēl pōṟṟi pōṟṟi <g ref="#pcs"/> 266 <g ref="#pcs"/></l></lg></seg> <seg function="satellite-stanza"><lg><l>Īṟucēr poḻutiṉu miṟuti yiṉṟiyē</l> <l>māṟilā tiruntiṭu vaḷaṅkoḷ kāñciyiṟ</l>
   
-  <pb facs="116" n="[391]v"/>
-  <lb n="1"/>kūṟucīr puṇaitaru kumara koṭṭamvā ‡ ḻāṟumā mukappirā ṇṭikaḷ poṟṟuvām <g ref="#pcs"/> 267 <g ref="#pcs"/> <seg function="explicit"><lg><l>Intira rākip parāmē viṉpamuṟ ṟiṉitu mēvic</l> <l>cintaiyi ṉiṉainta muttiṟṟic <note xml:lang="en"><term xml:lang="ta">muṟṟic</term> is expected</note> civakati yataṉiṟ cērvar</l> <l>antami lavuṇar taṅka ḷaṭal
+  <l><pb facs="116" n="[391]v"/>
+  <lb n="1"/>kūṟucīr puṇaitaru kumara koṭṭamvā</l> <l>ḻāṟumā mukappirā ṇṭikaḷ poṟṟuvām <g ref="#pcs"/> 267<g ref="#pcs"/></l></lg></seg> <seg function="explicit"><lg><l>Intira rākip parāmē viṉpamuṟ ṟiṉitu mēvic</l> <l>cintaiyi ṉiṉainta muttiṟṟic <note xml:lang="en"><term xml:lang="ta">muṟṟic</term> is expected</note> civakati yataṉiṟ cērva</l> <l>r antami lavuṇar taṅka ḷaṭal
   <lb n="2" break="no"/>keṭa muṉinta <unclear>ce</unclear>vēṟ</l> <l>ka<unclear>n</unclear>tavēḷ purāṇan taṉṉaik kātalit tōtu vōrē <g ref="#pcs"/> 268 <g ref="#pcs"/></l></lg></seg> <seg function="colophon"><seg function="completion-statement">teṭcakāṇṭamuṟṟum <g ref="#pcs"/></seg> <seg function="blessing">kumāracuvāmi patāra<unclear reason="vowel_unclear">vi</unclear>ntamē keti <g ref="#pcs"/></seg> <seg function="completion-statement">vaḷḷiyammai tirumaṇappaṭalamuṟṟum <g ref="#pcs"/></seg>
-  <seg function="colophon"><lb n="3"/>cakārttam – 1630 <g ref="#varuṣam">varuṣam</g> <unclear reason="consonant_unclear">me</unclear>ṟ cellā niṉṟa ca<unclear>ṟu</unclear>citti <note xml:lang="en">i.e. <term xml:lang="ta">caruvacittu</term></note> varuṣam Āvaṇi mācam mutal <g ref="#tēti">tēti</g> veḷḷikkiḻamaiyum pūruvapakṣattuc catu<unclear>ṟt</unclear>eciyum pūca-na<emph rend="bold">kṣa</emph>ttiramum peṟṟa Utta<unclear>ma</unclear>tiṉattil mēlaipāṭ<unclear reason="vowel_unclear">ṭā</unclear>mpākka
-  <lb n="4" break="no"/>ñ <unclear>ci</unclear>tam<unclear>pa</unclear>raiyar avarkaḷ maṭattukkuk kantappurāṇam Eḻuti niṟaiveṟiyatu muṟṟum <g ref="#pcs"/> Itu cuppiṟamaṇiya tampirāṉ Eḻuttu <g ref="#pcs"/></seg> <seg function="blessing">Āṟumuka=M tuṇai <g ref="#pcs"/></seg> <seg function="blessing"><seg rend="grantha">hari Om</seg></seg> <seg function="blessing">naṉṟākak</seg> <seg function="blessing">kuru vāḻka</seg> <seg function="blessing">kuruvē tu<unclear>ṇai</unclear> <unclear><g ref="#pcs"/></unclear></seg></seg>             
+  <seg function="colophon"><seg function="copy-statement"><lb n="3"/>cakārttam – 1630 <g ref="#varuṣam">varuṣam</g> <unclear reason="consonant_unclear">me</unclear>ṟ cellā niṉṟa ca<unclear>ṟu</unclear>citti <note xml:lang="en">i.e. <term xml:lang="ta">caruvacittu</term></note> varuṣam Āvaṇi mācam mutal <g ref="#tēti">tēti</g> veḷḷikkiḻamaiyum pūruvapakṣattuc catu<unclear>ṟt</unclear>eciyum pūca-na<emph rend="bold">kṣa</emph>ttiramum peṟṟa Utta<unclear>ma</unclear>tiṉattil mēlaipāṭ<unclear reason="vowel_unclear">ṭā</unclear>mpākka
+  <lb n="4" break="no"/>ñ <unclear>ci</unclear>tam<unclear>pa</unclear>raiyar avarkaḷ maṭattukkuk kantappurāṇam Eḻuti niṟaiveṟiyatu muṟṟum <g ref="#pcs"/></seg> Itu cuppiṟamaṇiya tampirāṉ Eḻuttu <g ref="#pcs"/></seg> <seg function="blessing">Āṟumuka=M tuṇai <g ref="#pcs"/></seg> <seg function="blessing"><seg rend="grantha">hari Om</seg></seg> <seg function="blessing">naṉṟākak</seg> <seg function="blessing">kuru vāḻka</seg> <seg function="blessing">kuruvē tu<unclear>ṇai</unclear> <unclear><g ref="#pcs"/></unclear></seg></seg>             
   
+   </ab>
 </body></text><text synch="#U4" corresp="#T4" xml:lang="ta"><body>
-  
+  <ab>
+    
   <pb facs="132" n="[1]r"/>
   
   <milestone unit="left-margin"/>
@@ -198,4 +205,5 @@
   <lb n="14"/><seg function="blessing">caravaṇapava-caṇmuka-<gap reason="illegible"/>-kumāracuvāmi
 <lb n="15"/>tuṇai</seg> <g ref="#pcs"/> vaḷḷi-nāyakaṉ <unclear>tuṇai</unclear>
   
+    </ab>
 </body></text></TEI>

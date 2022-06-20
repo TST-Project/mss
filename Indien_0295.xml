@@ -37,7 +37,7 @@
                         <dimensions type="object" unit="mm"><depth quantity="260"/></dimensions><dimensions type="written" unit="mm"/></extent>
                         
                         <condition>Excellent state of preservation.</condition>
-                     <support><measure unit="stringhole" quantity="2"/><p>Rounded-edged folios.</p></support><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso.</desc><desc xml:id="U2">1 folio = <emph rend="bold">Title Page</emph>. No foliation. Verso blank.</desc><desc xml:id="U3">435 folios. Tamil foliation 1-228, 229<hi rend="superscript">1</hi>, 229<hi rend="superscript">2</hi>, 230-434. Parallel Arabic foliation 1-228, 229<hi rend="superscript">1</hi>, 229<hi rend="superscript">2</hi>, 230-434. 410 x 35 mm.</desc><desc xml:id="U3a">2 folios = <emph rend="bold"><title xml:lang="ta">Tiruttoṇṭattokai</title></emph>. Tamil foliation 1-2. Parallel Arabic foliation 1-2.
+                     <support><p>Rounded-edged folios.</p></support><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso.</desc><desc xml:id="U2">1 folio = <emph rend="bold">Title Page</emph>. No foliation. Verso blank.</desc><desc xml:id="U3">435 folios. Tamil foliation 1-228, 229<hi rend="superscript">1</hi>, 229<hi rend="superscript">2</hi>, 230-434. Parallel Arabic foliation 1-228, 229<hi rend="superscript">1</hi>, 229<hi rend="superscript">2</hi>, 230-434. 410 x 35 mm.</desc><desc xml:id="U3a">2 folios = <emph rend="bold"><title xml:lang="ta">Tiruttoṇṭattokai</title></emph>. Tamil foliation 1-2. Parallel Arabic foliation 1-2.
 </desc><desc xml:id="U3b">9 folios = <emph rend="bold"><title xml:lang="ta">Tiruttoṇṭar Tiruvantāti</title></emph>. Tamil foliation 3-11. Parallel Arabic foliation 3-11. fv11 blank.
 </desc><desc xml:id="U3c">424 folios = <emph rend="bold"><title xml:lang="ta">Periya Purāṇam</title></emph>. Tamil foliation 12-228, 229<hi rend="superscript">1</hi>, 229<hi rend="superscript">2</hi>, 230-434. Parallel Arabic foliation 12-228, 229<hi rend="superscript">1</hi>, 229<hi rend="superscript">2</hi>, 230-434. 
 </desc><desc xml:id="U4">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation></supportDesc>
@@ -72,9 +72,9 @@
 <lb n="4"/>saints de la secte de Sivane.
 <lb n="5"/>Contenant 44 feuilles.
 <lb n="6"/>et non pas histoire des soixante-trois saints.
-</quote></desc><desc synch="#cover" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 295</quote> (<locus facs="0">front cover, recto</locus>).</desc><desc synch="#U3a #U3b #U3c" type="intertitle">Left-marginal intertitles. See selection below.</desc><desc synch="#U3c" type="total-stanzas"/></additions>
+</quote></desc><desc type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 295</quote> (<locus facs="0">front cover, recto</locus>).</desc><desc synch="#U3a #U3b #U3c" type="intertitle">Left-marginal intertitles. See selection below.</desc><desc synch="#U3c" type="total-stanzas"/></additions>
                <bindingDesc><binding><p>Original <material cert="medium">wood</material> covers. 
-</p></binding></bindingDesc></physDesc>
+</p><decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding></bindingDesc></physDesc>
                <history>
                   <origin>
                      <origDate calendar="gregorian" notAfter="1833">No internal date. Dated to circa 1825 by Vinson (1866-) and to 1825 by Cabaton (1912), on unstated grounds (presumably palaeographical and material analysis arguments).</origDate>
@@ -94,25 +94,29 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      
+   <encodingDesc><p>TBC</p></encodingDesc><revisionDesc>
          
          
-      <change when="2022-01">Record created by Emmanuel FRANCIS.</change></revisionDesc>
-   <encodingDesc><p>TBC</p></encodingDesc></teiHeader>
+      <change when="2022-01">Record created by Emmanuel FRANCIS.</change></revisionDesc></teiHeader>
    <facsimile>
       
    </facsimile>
 <text synch="#U2" corresp="#T1" xml:lang="fr"><body>
-  
+  <ab>
+    
   <pb facs="0" n="[1]r"/>
  
-  
-<lb n="1"/><seg function="title">Periapouranam ou Histoire de Soixante-trois Saints de la Secte de Sivane.</seg>
+  <seg function="title">
+<lb n="1"/>Periapouranam ou Histoire de Soixante-trois Saints de la Secte de Sivane.</seg>
 
    <pb facs="0" n="[1]v"/><note xml:lang="en">blank</note>
+    
+    </ab>
 
 </body></text><text synch="#U3a" corresp="#T2" xml:lang="ta"><body>
-  
+  <ab>
+    
  <pb facs="0" n="1r"/>
   
    <milestone unit="left-margin"/>
@@ -127,8 +131,10 @@
   <lb n="4"/><gap reason="ellipsis"/><seg function="explicit">‡ṉ aṉṉavaṉ ā
      <lb n="5" break="no"/>m ārūraṉ aṭimai kēṭṭu kappār ārūril ammāṉukk<pc>’</pc> aṉpar āvārē ~ <g ref="#pattu"/>1 ~</seg> <seg function="colophon"><seg function="blessing">tirucciṟṟampalam <g ref="#pcs"/></seg> <seg function="completion-statement">tiruttoṇṭattokai muṟṟum <g ref="#pcs"/></seg></seg>
   
+    </ab>
 </body></text><text synch="#U3b" corresp="#T3" xml:lang="ta"><body>
-  
+  <ab>
+    
  <pb facs="0" n="3r"/>
   
    <milestone unit="left-margin"/>
@@ -143,9 +149,10 @@
   
     <pb facs="0" n="11v"/><note xml:lang="en">blank</note>
 
-  
+  </ab>
 </body></text><text synch="#U3c" corresp="#T4" xml:lang="ta"><body>
-    
+    <ab>
+      
   <pb facs="0" n="12r"/>
   
    <milestone unit="left-margin"/>
@@ -153,7 +160,7 @@
   <lb n="3-7"/><seg function="title">tiruttoṇṭar purāṇam –</seg> <seg function="intertitle">tirumalaiccarukkam</seg>
   
    <milestone unit="main-text-area"/>
-  <seg function="incipit"><seg function="invocation"><lg><l><lb n="1"/>ulak<pc>’</pc> elām uṇarnt<pc>’</pc> ōtutaṟk<pc>’</pc> ariyava</l> <l>ṉilav<pc>’</pc> ulāviya nīr mali vēṇiya</l><l>ṉ alakil cōtiyaṉ ampalatt<pc>’</pc>āṭuvaṉ</l> <l>malar cilam<add place="above">p<pc>’</pc> a</add>ṭi vāḻtti vaṇaṅkuvām</l></lg> ~ 1 ~</seg></seg> <gap reason="ellipsis"/>
+  <seg function="incipit"><seg function="invocation"><lg><l><lb n="1"/>Ulak<pc>’</pc> elām uṇarnt<pc>’</pc> ōtutaṟk<pc>’</pc> ariyava</l> <l>ṉilav<pc>’</pc> ulāviya nīr mali vēṇiya</l><l>ṉ alakil cōtiyaṉ ampalatt<pc>’</pc>āṭuvaṉ</l> <l>malar cilam<add place="above">p<pc>’</pc> a</add>ṭi vāḻtti vaṇaṅkuvām</l></lg> ~ 1 ~</seg></seg> <gap reason="ellipsis"/>
 
   <pb facs="0" n="15v"/>
    <lb n="2"/><gap reason="ellipsis"/>~ 5<g ref="#pattu"/> ~ <g ref="#pcs"/> <seg function="completion-statement">tirumalaiccarukkamuṟṟum <g ref="#pcs"/></seg>
@@ -195,6 +202,5 @@
        <lb n="3" break="no"/>ṅkukat</l> <l>teyva veṇtiru nīṟu ciṟakkavē</l></lg> ~ 54 ~</seg>  <seg function="colophon"><seg function="completion-statement">veḷḷāṉaiccarukkamuṟṟum –</seg> <seg function="completion-statement">tiruttoṇṭar purāṇamuṟṟum  –</seg> <seg function="total-stanzas">Ākac ceyyuḷ ~ 4<g ref="#āyiram"/>3<g ref="#nūṟu"/>4 – <g ref="#pcs"/></seg> <seg function="completion-statement">periyapurāṇam Eḻuti ni-
 <lb n="4"/>ṟaintatu muṟṟum <g ref="#pcl"/></seg> <seg function="blessing">tirucciṟṟampalam <g ref="#pcs"/></seg></seg>
 
-
-
+</ab>
   </body></text></TEI>

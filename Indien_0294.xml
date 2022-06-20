@@ -37,7 +37,7 @@
                         <dimensions type="object" unit="mm"><depth quantity="170"/></dimensions><dimensions type="written" unit="mm"/></extent>
                         
                         <condition>Very good state of preservation. A few boreholes only.                        </condition>
-                     <support><measure unit="stringhole" quantity="2"/></support><collation><desc xml:id="U1">1 folio = <emph rend="bold">Title Page</emph>. No foliation. Double leaf. Verso blank. 455 x 30mm.
+                     <support/><collation><desc xml:id="U1">1 folio = <emph rend="bold">Title Page</emph>. No foliation. Double leaf. Verso blank. 455 x 30mm.
 </desc><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U2">2 folios = <emph rend="bold">Table of Contents</emph>. Tamil foliation 1–2. f2v blank. 470 x 30 mm.</desc><desc xml:id="U3">1 folio = <emph rend="bold"><title xml:lang="ta">Periya Purāṇam</title>: stanza 2199</emph>. Tamil foliation 136. f136v blank. 470 x 30 mm.</desc><desc xml:id="U4a">1 folio = <emph rend="bold">Satellite Stanza</emph>, which is the <term xml:lang="ta">kāppu</term> of the <title xml:lang="ta">Pavaḷakkoṭimālai</title> by Pukaḻēnti. No foliation. f[1]v blank.</desc><desc xml:id="U4b">271 folios = <emph rend="bold"><title xml:lang="ta">Periya Purāṇam</title></emph>. Tamil foliation [1]-269. 2 ff. unblackened, foliated 136-137, inserted in between f135 and f136 = U5. f38-f40 with foliation corrected. f269v blank.
 </desc><desc xml:id="U5">2 folios = <emph rend="bold"><title xml:lang="ta">Periya Purāṇam</title>: stanzas 2199-2223</emph>. Tamil foliation 136-137. Inserted in U4b, between  f135 and f136.
 </desc><desc xml:id="U6">2 folios = <emph rend="bold">Table of Contents</emph>. No foliation. 470 x 30 mm. f[2]v blank.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation></supportDesc>
@@ -66,7 +66,7 @@
                     
                   <desc synch="#U1" type="shelfmark">Shelfmark in black ink: <quote>b/99</quote> (<locus facs="0">f[1]r</locus>).</desc><desc synch="#U1" type="documenting-note">BnF bequest sticker <quote>DON N° <space type="vacat"/></quote> (<locus facs="0">f[1]r</locus>).</desc><desc synch="#U1" type="shelfmark">Shelfmark in black pencil: <quote>7</quote> (<locus facs="0">f[1]r</locus>).</desc><desc type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 294</quote> (<locus facs="0">front cover, recto</locus>).</desc><desc synch="#U2" corresp="#T2" type="table-of-contents"/><desc synch="#U4b" type="intertitle">Left marginal intertitles.</desc><desc synch="#U4b" type="total-stanzas"/><desc synch="#U6" corresp="#T7" type="table-of-contents"/></additions>
                <bindingDesc><binding><p>Original <material cert="medium">wood</material> covers.
-</p></binding></bindingDesc></physDesc>
+</p><decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding></bindingDesc></physDesc>
                <history>
                   <origin>
                      <origDate calendar="gregorian" notAfter="1841">Internally dated to the year <foreign xml:lang="ta">cārvati</foreign> of the Jovian cycle, that is <foreign xml:lang="ta">cārvari</foreign> (?), that is CE 1840-1841, 1780-1781, 1720-1721, etc. See colophon (U4b, f269r5). Dated to the year <foreign xml:lang="ta">carvatāri</foreign> of the Jovian cycle, that is 1888-1889, 1828-1829, 1768-1769, 1708-1709, etc. by Vinson (1866-) and to 1768 by Cabaton (1912), on unstated grounds (presumably palaeographical and material analysis arguments).</origDate>
@@ -95,7 +95,8 @@
       
    </facsimile>
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
-  
+  <ab>
+    
   <pb facs="0" n="[1]r"/>
   
   <seg function="blessing"><milestone n="1" unit="column"/>
@@ -109,8 +110,10 @@
 
    <pb facs="0" n="[1]v"/><note xml:lang="en">blank</note>
 
+    </ab>
 </body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
-  
+  <ab>
+    
  <pb facs="0" n="1r"/>
   
    <seg function="blessing"><milestone n="1" unit="left-margin"/>
@@ -157,19 +160,20 @@
 
   
   <pb facs="0" n="2r"/><note xml:lang="en">blank</note>
-
   
+  </ab>  
 </body></text><text synch="#U3" corresp="#T3" xml:lang="ta"><body>
-  
+  <ab>
+    
   <pb facs="0" n="136r"/>
   <lb n="1"/><seg function="incipit">l ‡ nanti tiruvaruḷ peṟṟa naṉṉakarai muṉṉiṟ aiñcinaṉṉum pōtil ‡</seg> Aintu pulaṉilai kalaṅ<del>ki</del>kum iṭatt<pc>'</pc> añcal eṉpā tam aiyār<pc>'</pc> eṉṟu ‡ <seg function="explicit">punti niṟai centamiḻiṉ canta v<pc>-</pc>icaip
     <lb n="2"/>pōṟṟ<pc>'</pc> icaittā pukali vēntar ‡‡ = 3<g ref="#nūṟu"/>1 =</seg>
                                                                   
    <pb facs="0" n="136v"/><note xml:lang="en">blank</note>
 
- 
-
-  </body></text><text synch="#U4a" corresp="#T4" xml:lang="ta"><body>
+ </ab>
+</body></text><text synch="#U4a" corresp="#T4" xml:lang="ta"><body>
+  <ab>
     
   <pb facs="0" n="[1]r"/>
   <seg function="header">
@@ -199,8 +203,11 @@
 
      <pb facs="0" n="[1]v"/><note xml:lang="en">blank</note>
 
-  </body></text><text synch="#U4b" corresp="#T5" xml:lang="ta"><body>
-  <pb facs="0" n="1r"/>
+    </ab>
+  </body></text><text synch="#U4b" corresp="#T5" xml:lang="ta"><body>  
+  <ab>
+    
+    <pb facs="0" n="1r"/>
   
   <seg function="header">
    <seg function="blessing"><milestone unit="left-margin"/>
@@ -209,8 +216,8 @@
     <seg function="intertitle"><lb n="5-6"/>tirumalai-c  ciṟappu</seg>
     </seg>
   
-   <seg function="incipit invocation"><milestone unit="main-text-area"/>
-  <lb n="1"/>ulak<pc>’</pc> elām uṇarntu ōtaṟk’ ariyava ‡ ṉilav<pc>'</pc> ulāviya nīr mali vēṇiya‡ṉ alakil cōtiyaṉ ampalatt<pc>’</pc> āṭuvāṉ ‡ malar cilamp<pc>’</pc> aṭi vāḻtti vaṇaṅkuvām = 1 =</seg> <gap reason="ellipsis"/>
+   <seg function="invocation"><seg function="incipit"><milestone unit="main-text-area"/>
+  <lg><l><lb n="1"/>Ulak<pc>’</pc> elām uṇarntu ōtaṟk’ ariyava</l> <l>ṉilav<pc>'</pc> ulāviya nīr mali vēṇiya</l> <l>ṉ alakil cōtiyaṉ ampalatt<pc>’</pc> āṭuvāṉ</l> <l>malar cilamp<pc>’</pc> aṭi vāḻtti vaṇaṅkuvām = 1 =</l></lg></seg></seg> <gap reason="ellipsis"/>
 
 <pb facs="0" n="269r"/>
   
@@ -220,9 +227,8 @@
   
        <pb facs="0" n="269v"/><note xml:lang="en">blank</note>
 
-
-</body>
-  </text><text synch="#U5" corresp="#T6" xml:lang="ta"><body>
+</ab>
+</body></text><text synch="#U5" corresp="#T6" xml:lang="ta"><body>
   
  <pb facs="0" n="136r"/>
   <lb n="1"/><seg function="incipit">l ‡ nanti tiruvaruḷ peṟṟa naṉṉakarai muṉṉiṟ aiñcinaṉṉum pōti ‡ ~ l aintu pulaṉilai kalaṅkum iṭatt<pc>'</pc> añcal eṉpār tam aiyār<pc>'</pc> eṉṟu ‡~ punti niṟai centamiḻiṉ canta v<pc>-</pc>icaip
