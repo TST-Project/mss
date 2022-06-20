@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -9,7 +9,7 @@
          <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -48,7 +48,7 @@
                         
                      <layout>Rounded edges. Unwritten area around the holes regularly square.</layout></layoutDesc>
                   </objectDesc>
-                  <handDesc><handNote synch="#U1" scope="minor" script="tamil" scriptRef="#tamilPulliRegular #tamilOE" medium="incised"><desc>Hand #1.</desc></handNote><handNote synch="#U2a U2b" scope="major" script="tamil" medium="incised"><desc>Hand #2.</desc></handNote></handDesc>
+                  <handDesc><handNote synch="#U1" scope="minor" script="tamil" scriptRef="#tamilPulliRegular #tamilOE" medium="incised"><desc>Hand #1.</desc></handNote><handNote synch="#U2a #U2b" scope="major" script="tamil" medium="incised"><desc>Hand #2.</desc></handNote></handDesc>
                   <decoDesc>
                   </decoDesc>
                   <additions>
@@ -77,53 +77,59 @@ Returned by Julien Vinson. See <ref target="http://gallica.bnf.fr/ark:/12148/btv
       <encodingDesc>
          
       <p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.      </p></encodingDesc>
-      <revisionDesc>
+      
+   <revisionDesc>
          
-      <change when="2021-11">Record created by Emmanuel FRANCIS.</change></revisionDesc>
-   </teiHeader>
+      <change when="2021-11">Record created by Emmanuel FRANCIS.</change></revisionDesc></teiHeader>
    <facsimile>
    </facsimile>
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
-  
+  <ab>
   <pb n="[1]r"/>
    
-  <lb n="1"/><seg function="title">veṅ·kaik·kōvai</seg>
+  <seg function="title"><lb n="1"/>veṅ·kaik·kōvai</seg>
     
   <pb n="[1]v"/>
   <note xml:lang="en">blank</note>
-  
+    
+    </ab>  
 </body></text><text synch="#U2a" corresp="#T2" xml:lang="ta"><body>
-  
+  <ab>
+    
   <pb n="[1]r"/>
   
-  <milestone unit="left-margin"/>
-    <lb n="1"/><seg function="blessing"><term xml:lang="sa">śubham astu</term></seg>
-    <lb n="2-3"/><seg function="title">veṅkaikkōvai</seg>
+  <seg function="header">
+    <seg function="blessing"><milestone unit="left-margin"/>
+    <lb n="1"/><term xml:lang="sa">śubham astu</term></seg>
+    <seg function="title"><lb n="2-3"/>veṅkaikkōvai</seg>
+    </seg>
 
-  <milestone unit="main-text-area"/>
-  <lb n="1"/><seg function="invocation"><seg function="incipit">pūvai malarniṟat temperu māṭṭi porupparaiyaṉ ‡</seg> ~ <gap reason="ellipsis"/>
+  <seg function="satellite-stanza"><milestone unit="main-text-area"/>
+  <lg><l><lb n="1"/>pūvai malarniṟat temperu māṭṭi porupparaiyaṉ ~</l> <l><gap reason="ellipsis"/>
   <lb n="2"/><gap reason="ellipsis"/>
-  <lb n="3"/>paraiyē ‡‡</seg> = = <gap reason="ellipsis"/>
-  <lb n="4"/><gap reason="ellipsis"/> ‡ Ēvaik <gap reason="ellipsis"/>
-  <lb n="5"/><seg function="explicit"> ‡ kōvait tamiḻ nantiruveṅkai vāṇarkkuk kūṟiṉṉē ‡‡</seg> = <seg function="blessing">civamaya=M</seg> : <seg function="blessing">ve<sic>tti</sic>-vēl tuṇai</seg>
+  <lb n="3"/>paraiyē = =</l></lg></seg> <seg function="satellite-stanza"><lg><l><gap reason="ellipsis"/>
+  <lb n="4"/><gap reason="ellipsis"/></l> <l>Ēvaik <gap reason="ellipsis"/></l>
+  <l><lb n="5"/>kōvait tamiḻ nantiruveṅkai vāṇarkkuk kūṟiṉṉē =</l></lg></seg> <seg function="blessing">civamaya=M :</seg> <seg function="blessing">ve<sic>tti</sic>vēl tuṇai</seg>
 
     <pb n="[1]v"/>
   <note xml:lang="en">blank</note>
   
+    </ab>
   </body></text><text synch="#U2b" corresp="#T3" xml:lang="ta"><body>
-  
+  <ab>
   <pb n="1r"/>
   
-  <milestone unit="left-margin"/>
-  <lb n="1-2"/><seg function="blessing">naṉṟāka</seg>
+  <seg function="header"><milestone unit="left-margin"/>
+  <seg function="blessing"><lb n="1-2"/>naṉṟāka</seg>
+    </seg>
   
-  <milestone unit="main-text-area"/>
-  <lb n="1"/><seg function="incipit">pūvum paḻutta ceḻuntīṅ kaṉiyum poḻiyamuta ‡</seg> ~ <gap reason="ellipsis"/>
+  <seg function="incipit"><milestone unit="main-text-area"/>
+  <lg><l><lb n="1"/>pūvum paḻutta ceḻuntīṅ kaṉiyum poḻiyamuta ~</l> <l><gap reason="ellipsis"/></l></lg></seg>
   
   <pb n="38v"/>
   
- <lb n="12"/><gap reason="ellipsis"/> ‡ <seg function="explicit">puyalē yiṉimati yoṉṟiṉmuk kālum poḻipoḻiyē ‡‡ = 425</seg> = <seg function="kilavi">talai makaḷōṭ<pc>'</pc> iruttalai makaṉ kārpparuvaṅ k
-<lb n="13" break="no"/>kaṇṭu colliyatu</seg> = <seg function="blessing">tirucciṟṟampalam</seg> = <seg function="blessing">ve<sic>tti</sic>-vēl uṟṟa tuṇai</seg> = <seg function="colophon">kara {varuṣam} paṅkuṉi {mācam} 5 {tēti} y<pc>-</pc>eḻutiyatu</seg> <g ref="#pcs"/> <seg function="blessing">civamayam</seg> =
+ <seg function="explicit"><lg><l><lb n="12"/><gap reason="ellipsis"/></l> <l>puyalē yiṉimati yoṉṟiṉmuk kālum poḻipoḻiyē = 425 =</l></lg></seg> <seg function="intertitle">talai makaḷōṭ<pc>'</pc> iruttalai makaṉ kārpparuvaṅ k
+<lb n="13" break="no"/>kaṇṭu colliyatu =</seg> <seg function="colophon"><seg function="blessing">tirucciṟṟampalam =</seg> <seg function="blessing">ve<sic>tti</sic>vēl uṟṟa tuṇai =</seg> <seg function="copy-statement">kara {varuṣam} paṅkuṉi {mācam} 5 {tēti} y<pc>-</pc>eḻutiyatu <g ref="#pcs"/></seg> <seg function="blessing">civamayam =</seg></seg>
 
-  
+  </ab>
   </body></text></TEI>
