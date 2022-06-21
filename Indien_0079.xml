@@ -27,10 +27,10 @@
                   
                <msItem synch="#U2" xml:id="T1" defective="false"><title xml:lang="ta">Cukirtamaṇimālai: Kāppu</title><textLang mainLang="tam"/><filiation><p><ref target="https://tst-project.github.io/mss/Indien_0078.xml">BnF Indien 78, U1a</ref></p></filiation></msItem><msItem synch="#U3" xml:id="T2" defective="true"><title xml:lang="ta">Cukirtamaṇimālai: Mūlam &amp; Urai</title><textLang mainLang="tam"/><filiation><p><ref target="https://tst-project.github.io/mss/Indien_0078.xml">BnF Indien 78, U1b</ref></p></filiation></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi">
+                  <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
                         <support>
-                           <measure unit="stringhole" quantity="1"/>
+                           
                            
                         </support>
                         <extent>
@@ -54,7 +54,7 @@
                   <additions>
                   <desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 79</quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#U1" type="title shelfmark documenting-note">Shelfmark, text incompleteness, and title in black ink: <quote xml:lang="fr">2° incomplet Sauguirdamanymāley</quote>(<locus facs="5">f[1]r</locus>).</desc><desc synch="#U3" type="verse-numbering"/><desc synch="#U3" type="metre"/></additions>
                   <bindingDesc>
-                     <binding><p><material cert="medium">Pinewood</material> covers apparently fabricated in the BnF. 480 x 30 mm.</p></binding>
+                     <binding><p><material cert="medium">Pinewood</material> covers apparently fabricated in the BnF. 480 x 30 mm.</p><decoNote type="stringhole"><measure unit="stringhole" quantity="1"/></decoNote></binding>
                   </bindingDesc>
                </physDesc>
                <history>
@@ -98,11 +98,11 @@
   <lb n="2"/>mālaiyākap pāṭi<unclear>ṉatu</unclear></seg>
   <seg function="intertitle"><lb n="3"/>kāppu <seg function="metre">veṇpā</seg></seg>
   
-  <seg function="satellite-stanza" cert="low"><milestone unit="main-text-area"/>
-  <lg><seg function="incipit"><l><lb n="1"/>cukuṟta kuṟaḷ <gap reason="ellipsis"/></l></seg>
+     <seg function="satellite-stanza" cert="low"><seg function="incipit"><milestone unit="main-text-area"/>
+     <lg><l><lb n="1"/>cukuṟta kuṟaḷ <gap reason="ellipsis"/></l>
   <l><lb n="2"/>cukuṟtamaṇimālai <gap reason="ellipsis"/></l>
   <l><lb n="3"/>cuntara <gap reason="ellipsis"/></l>
-  <l><lb n="4"/>kanta <gap reason="ellipsis"/></l></lg> <space/> <seg function="intertitle">kāppu</seg></seg>
+  <l><lb n="4"/>kanta <gap reason="ellipsis"/></l></lg></seg></seg> <space/> <seg function="intertitle">kāppu</seg>
   
   <pb n="[1]v"/><note xml:lang="en">blank</note>
     </ab>
@@ -111,7 +111,7 @@
   <pb facs="13" n="1r"/>
     
   <seg function="blessing"><milestone unit="left-margin"/>
-  <lb n="1-2"/>Aṉāti nama<seg rend="grantha">stu</seg>
+  <lb n="1-2"/>Aṉāti-nama<seg rend="grantha">stu</seg>
 </seg>
     
   <seg function="intertitle"><milestone unit="main-text-area"/>
