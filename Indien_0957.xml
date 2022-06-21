@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -9,7 +9,7 @@
          <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -21,15 +21,16 @@
                   <idno type="alternate"/>
                </msIdentifier>
                <msContents class="#STM">
-                  <summary>The <title xml:lang="ta">Cīvakacintāmaṇi</title>, text and commentary interspersed, part 2 of 2. For part 1, see BnF Indien 955.
+                  <summary><p>The <title xml:lang="ta">Cīvakacintāmaṇi</title>, text and commentary interspersed, part 2 of 2. For part 1, see BnF Indien 955.
 Contains the chapters 4 to 8, that is:
 <list rend="numbered">
-<item>the <foreign xml:lang="ta">Kuṇamālaiyār Ilampakam</foreign></item>
-<item>the <foreign xml:lang="ta">Patumaiyār Ilampakam</foreign></item>
-<item>the <foreign xml:lang="ta">Kēmacariyār Ilampakam</foreign></item>
-<item>the <foreign xml:lang="ta">Kaṉakamālaiyār  Ilampakam</foreign></item>
-<item>the <foreign xml:lang="ta">Vimalaiyār  Ilampakam</foreign></item>
+<item>The <foreign xml:lang="ta">Kuṇamālaiyār Ilampakam</foreign></item>
+<item>The <foreign xml:lang="ta">Patumaiyār Ilampakam</foreign></item>
+<item>The <foreign xml:lang="ta">Kēmacariyār Ilampakam</foreign></item>
+<item>The <foreign xml:lang="ta">Kaṉakamālaiyār  Ilampakam</foreign></item>
+<item>The <foreign xml:lang="ta">Vimalaiyār  Ilampakam</foreign></item>
 </list>
+  </p>
 
 </summary>
                   
@@ -38,18 +39,17 @@ Contains the chapters 4 to 8, that is:
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
                         <support>
-                           <measure unit="stringhole" quantity="1"/>
+                           
                            
                         </support>
                         <extent>
-                           <measure unit="folio" quantity="281">[1] + 279 + [1] (U1 + U2 + U3).</measure>
+                           <measure unit="folio" quantity="281">{1} + 279 + {1} (U1 + U2 + U3).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
                            <width min="460" max="465"/><height min="30" max="35"/></dimensions>
                         <dimensions type="object" unit="mm"><depth quantity="170"/><width quantity="465"/><height quantity="35"/></dimensions><dimensions type="written" unit="mm"/></extent>
-                        <collation><desc xml:id="U1">1 folio = <emph rend="bold">Title Page</emph>. No foliation. Double folio. Verso blank. 460 x 35 mm.</desc><desc xml:id="U2">279 folios = <emph rend="bold"><title xml:lang="ta">Cīvakacintāmaṇi</title> 4-8: <foreign xml:lang="ta">Mūlam &amp; Urai</foreign></emph>. Tamil foliation 1-248. Secondary Tamil foliation 1-84 (upper margin) for f249-f332, 1-61 (upper margin) for f333-f393, 1-41 (upper margin) for f394-f434, [1]-93 (lower margin) for f435-f527, 94-122 (lower margin) for f528-f556.
-. 465 x 35 mm.
+                        <collation><desc xml:id="U1">1 folio = <emph rend="bold">Title Page</emph>. No foliation. Double folio. Verso blank. 460 x 35 mm.</desc><desc xml:id="U2">279 folios = <emph rend="bold"><title xml:lang="ta">Cīvakacintāmaṇi</title> 4-8: <foreign xml:lang="ta">Mūlam &amp; Urai</foreign></emph>. Tamil foliation 1-248. Secondary Tamil foliation 1-84 (upper margin) for f249-f332, 1-61 (upper margin) for f333-f393, 1-41 (upper margin) for f394-f434, [1]-93 (lower margin) for f435-f527, 94-122 (lower margin) for f528-f556. 465 x 35 mm.
 </desc><desc xml:id="U3">1 folio = back <emph rend="bold">guard leaf</emph>. No foliation. Double folio. Blank recto verso. BnF shelfmark sticker. 460 x 35 mm.
 </desc></collation>
                         
@@ -65,7 +65,7 @@ Contains the chapters 4 to 8, that is:
                   <additions>
                   <desc synch="#U1" type="shelfmark">Shelfmark in black ink: <quote>b/11</quote> (f[1]r).</desc><desc synch="#U2" type="intertitle" subtype="marginal left">Left-marginal intertitles.</desc><desc synch="#U2" type="verse-beginning" subtype="marginal left"><term xml:lang="sa">Pratīka</term></desc><desc synch="#U3" type="shelfmark">BnF shelfmark sticker: <quote>INDIEN 957</quote> (f[1]v).</desc></additions>
                   <bindingDesc>
-                     <binding><p>No woodcovers. The string is broken. Palm-leaf stop device at one end of the string.</p></binding>
+                     <binding><p>No woodcovers. The string is broken. Palm-leaf stop device at one end of the string.</p><decoNote type="stringhole"><measure unit="stringhole" quantity="1"/></decoNote></binding>
                   </bindingDesc>
                </physDesc>
                <history>
@@ -87,24 +87,29 @@ Contains the chapters 4 to 8, that is:
       <encodingDesc>
          
       <p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.      </p></encodingDesc>
-      <revisionDesc>
+      
+   <revisionDesc>
          
-      <change when="2021-12">Record created by Emmanuel FRANCIS.</change></revisionDesc>
-   </teiHeader>
+      <change when="2021-12">Record created by Emmanuel FRANCIS.</change></revisionDesc></teiHeader>
    <facsimile>
    </facsimile>
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
-  <seg function="title">
+  <ab>
+    
     <pb n="[1]r"/>
-    <lb n="1"/>cintāmaṇi Urai
-    <lb n="2"/>Ilampakam – 5 –
+      <seg function="title">
+        <lb n="1"/>cintāmaṇi Urai
+        <lb n="2"/>Ilampakam – 5 –
   </seg>
   
    <pb n="[1]v"/><note xml:lang="en">blank</note>
- 
+    
+    </ab> 
 </body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
-  
+  <ab>
+    
   <pb n="249r"/>
+    
   <milestone unit="left-margin"/>
   <seg function="verse-beginning"><lb n="1"/>kāca</seg>
 <lb n="2"/><g ref="#pcl"/> <seg function="intertitle">nāṉkāvatu
@@ -112,58 +117,63 @@ Contains the chapters 4 to 8, that is:
 <lb n="6"/><g ref="#pcl"/>
 <seg function="verse-beginning"><lb n="7"/>toṭa</seg>
 
-  <milestone unit="main-text-area"/>
-  <lb n="1"/><seg function="incipit" type="root-text"><gap reason="ellipsis"/></seg>
+  <seg function="incipit" type="root-text"><milestone unit="main-text-area"/>
+  <lb n="1"/><gap reason="ellipsis"/></seg>
        
    <pb n="332r"/>
-   <lb n="3"/><gap reason="ellipsis"/> <g ref="#pcs"/> 3<g ref="#nūṟu"/><g ref="#pattu"/>5 <g ref="#pcl"/> <seg function="completion-statement"> kuṇamālaiyār ilampa<supplied reason="omitted">ka</supplied>muṟṟiṟṟu</seg> <g ref="#pcs"/> <seg function="colophon">kīlaka {varuṣam} Āṉi {mācam} <g ref="#pattu"/>5 {tēti} Ātuvāra-tiṉattil Eḻuti muṭintatu</seg> <g ref="#pcl"/>
-<lb n="4"/><seg function="TBC">Innūl tiruttakkatēvarāl paṇṇappaṭṭa cintāmaṇiyai nacciṉārkkiṉiyarāl urai paṇṇappaṭṭaṉa v<pc>-</pc>eṉka</seg> <g ref="#pcs"/> <seg function="total-stanzas">kuṇamālaiyār ilampa<supplied reason="omitted">ka</supplied>m
-   <lb n="5"/>viruttam <g ref="#pcl"/> ~ 3<g ref="#nūṟu"/><g ref="#pattu"/>5</seg> <g ref="#pcl"/> 
+   <lb n="3"/><gap reason="ellipsis"/> <g ref="#pcs"/> 3<g ref="#nūṟu"/><g ref="#pattu"/>5 <g ref="#pcl"/> <seg function="completion-statement"> kuṇamālaiyār ilampa<supplied reason="omitted">ka</supplied>muṟṟiṟṟu <g ref="#pcs"/></seg> <seg function="colophon">kīlaka {varuṣam} Āṉi {mācam} <g ref="#pattu"/>5 {tēti} Ātuvāra-tiṉattil Eḻuti muṭintatu <g ref="#pcl"/></seg>
+<seg function="TBC"><lb n="4"/>Innūl tiruttakkatēvarāl paṇṇappaṭṭa cintāmaṇiyai nacciṉārkkiṉiyarāl urai paṇṇappaṭṭaṉa v<pc>-</pc>eṉka <g ref="#pcs"/></seg> <seg function="total-stanzas">kuṇamālaiyār ilampa<supplied reason="omitted">ka</supplied>m
+   <lb n="5"/>viruttam <g ref="#pcl"/> ~ 3<g ref="#nūṟu"/><g ref="#pattu"/>5 <g ref="#pcl"/></seg>
 
      <pb n="332v"/><note xml:lang="en">blank</note>
 
    <pb n="333r"/>
+    
+    <seg function="blessing">
   <milestone n="1" unit="left-margin"/>
-  <seg function="blessing"><lb n="1"/><seg rend="grantha">namostu</seg></seg>
-<lb n="2"/><g ref="#pcl"/>
-<seg function="verse-beginning"><lb n="3"/>vīṭṭi</seg>
-<lb n="4"/><g ref="#pcl"/>
+  <lb n="1"/><term xml:lang="sa">namo <pc>'</pc>stu</term>
+<lb n="2"/><g ref="#pcl"/></seg>
+    
+<seg function="verse-beginning"><lb n="3"/>vīṭṭi
+<lb n="4"/><g ref="#pcl"/></seg>
 <seg function="intertitle"><lb n="5-7"/>patumaiyār ilampa<supplied reason="omitted">ka</supplied>m</seg>
-  <milestone n="2" unit="left-margin"/>
-  <seg function="verse-beginning"><lb n="1"/>vil</seg>
+    
+  <seg function="verse-beginning"><milestone n="2" unit="left-margin"/>
+  <lb n="1"/>vil</seg>
 
   <pb n="393v"/>
   <milestone unit="right-margin"/>
   <lb n="1"/>246 <g ref="#pcs"/> <seg function="completion-statement">patu<lb n="2" break="no"/>maiyār ila<lb n="3" break="no"/>mpa<supplied reason="omitted">ka</supplied>m muṟṟum</seg>
-<seg function="blessing"><lb n="4"/>namo<seg rend="grantha">stt=tu</seg></seg>
+<seg function="blessing"><lb n="4"/>namo <pc>'</pc><seg rend="grantha">stt=tu</seg></seg>
 <seg function="blessing"><lb n="4-5"/>tiruttakkatēvar caraṇam</seg>
 
    <pb n="394r"/>
-  <milestone n="1" unit="left-margin"/>
-  <seg function="intertitle"><lb n="1-3"/>kēmacariyār ilampa<supplied reason="omitted">ka</supplied>m</seg>
+  <seg function="intertitle"><milestone n="1" unit="left-margin"/>
+  <lb n="1-3"/>kēmacariyār ilampa<supplied reason="omitted">ka</supplied>m</seg>
   
   <pb n="434v"/>
-   <lb n="5"/><gap reason="ellipsis"/> <g ref="#pcs"/> <g ref="#nūṟu"/>4 <g ref="#pcs"/> <seg function="completion-statement">Āṟāvatu kēmacariyār ilampa<supplied reason="omitted">ka</supplied>m muṭintatu muṟṟum</seg> <g ref="#pcl"/> <seg function="total-stanzas">{Āka} viruttam ~ <g ref="#āyiram"/>556</seg> <g ref="#pcs"/>
- <lb n="6"/><seg function="blessing">teyvacākāyam</seg> <g ref="#pcl"/> <seg function="colophon">kīlaka {varuṣam} Āṭi {mācam} 19 {tēti} maṅkaḷavāra-tiṉa-mattiyāṉam iraṇṭu ma<choice><sic>ṇa</sic><corr>ṇi</corr></choice>kku kēmacariyār ilampa<supplied reason="omitted">ka</supplied>m eḻuti muṭintatu</seg> <g ref="#pcs"/>
+   <lb n="5"/><gap reason="ellipsis"/> <g ref="#pcs"/> <g ref="#nūṟu"/>4 <g ref="#pcs"/> <seg function="completion-statement">Āṟāvatu kēmacariyār ilampa<supplied reason="omitted">ka</supplied>m muṭintatu muṟṟum <g ref="#pcl"/></seg> <seg function="total-stanzas">{Āka} viruttam ~ <g ref="#āyiram"/>556 <g ref="#pcs"/></seg>
+ <seg function="blessing"><lb n="6"/>teyvacākāyam <g ref="#pcl"/></seg> <seg function="colophon">kīlaka {varuṣam} Āṭi {mācam} 19 {tēti} maṅkaḷavāra-tiṉa-mattiyāṉam iraṇṭu ma<choice><sic>ṇa</sic><corr>ṇi</corr></choice>kku kēmacariyār ilampa<supplied reason="omitted">ka</supplied>m eḻuti muṭintatu <g ref="#pcs"/></seg>
 
   <pb n="435r"/>
-  <milestone unit="left-margin"/>
-  <seg function="intertitle"><lb n="1-4"/>Ēḻāvatu kaṉakamālaiyār ilampakam</seg> <g ref="#pcs"/>
+  <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1-4"/>Ēḻāvatu kaṉakamālaiyār ilampakam <g ref="#pcs"/></seg>
   
    <pb n="527r"/>
-   <lb n="2"/><gap reason="ellipsis"/> <g ref="#pcl"/> 3<g ref="#nūṟu"/>3<g ref="#pattu"/>2 <g ref="#pcs"/> <seg function="completion-statement">kaṉakamālaiyār ilampa<supplied reason="omitted">ka</supplied>m y<pc>-</pc>eḻuti muṟṟum</seg> <g ref="#pcl"/> <seg function="total-stanzas">{Āka} Ilampa<supplied reason="omitted">ka</supplied>m ~ 7 ~ k=ki ceyyuḷ ~ <g ref="#āyiram"/>8 9<g ref="#pattu"/>6</seg> <g ref="#pcl"/>
+   <lb n="2"/><gap reason="ellipsis"/> <g ref="#pcl"/> 3<g ref="#nūṟu"/>3<g ref="#pattu"/>2 <g ref="#pcs"/> <seg function="completion-statement">kaṉakamālaiyār ilampa<supplied reason="omitted">ka</supplied>m y<pc>-</pc>eḻuti muṟṟum <g ref="#pcl"/></seg> <seg function="total-stanzas">{Āka} Ilampa<supplied reason="omitted">ka</supplied>m ~ 7 ~ k=ki ceyyuḷ ~ <g ref="#āyiram"/>8 9<g ref="#pattu"/>6 <g ref="#pcl"/></seg>
   
        <pb n="527v"/><note xml:lang="en">blank</note>
 
   <pb n="528r"/>
-  <milestone unit="left-margin"/>
-  <seg function="intertitle"><lb n="1-3"/>vimalaiyār ilampa<supplied reason="omitted">ka</supplied>m</seg>
+  <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1-3"/>vimalaiyār ilampa<supplied reason="omitted">ka</supplied>m</seg>
   
     <pb n="556v"/>    
-   <lb n="1"/><gap reason="ellipsis"/> <g ref="#pcs"/> <g ref="#nūṟu"/>5 <g ref="#pcs"/> <seg function="explicit" type="root-text">eṉṟavaṉ uraittalum eḻutu
+   <lb n="1"/><gap reason="ellipsis"/> <g ref="#pcs"/> <g ref="#nūṟu"/>5 <g ref="#pcs"/> <seg function="explicit" type="root-text">Eṉṟavaṉ uraittalum eḻutu
 <lb n="2"/>kaṇmalar ‡ niṉṟu nīr poḻi tara pāvai nīntaliṉ ‡ maṉṟanā ṟarivaiyait maruṭṭi māmaṇik ‡ kuṉṟaṉāṉ koṭiyavaḷ kuḻaiya vēki
-<lb n="3" break="no"/>ṉāṉ ‡‡</seg> <g ref="#pcs"/> <seg function="explicit" type="commentary">Etu <g ref="#pcs"/> eṉṟavaṉ <gap reason="ellipsis"/>
-   <lb n="4"/><gap reason="ellipsis"/> poṉāṉ eṉka <g ref="#pcs"/> <g ref="#nūṟu"/>6</seg> <g ref="#pcs"/> <seg function="commenting-note">Eṭṭāvatu vimalaiyār ilampa<supplied reason="omitted">ka</supplied>m muṟṟiṟṟu</seg>
-   <lb n="5"/><seg function="total-stanzas">{Āka} Ilampa[ka]m ~ 8 ~ k=ki ceyyuḷ ~ 2<g ref="#āyiram"/>6</seg> <g ref="#pcs"/> <seg function="colophon">kīlaka {varuṣam} Āṭi {mācam} 2<g ref="#pattu"/>7 {tēti} putaṉkiḻamai tiṉam y<pc>-</pc>eḻuti niṟavēṟiṟṟu</seg>=<g ref="#pcs"/> <seg function="blessing">murukar tuṇai y<pc>-</pc>uṇṭākavu=M</seg>=<g ref="#pcl"/>
+<lb n="3" break="no"/>ṉāṉ ‡‡ <g ref="#pcs"/></seg> <seg function="explicit" type="commentary">Etu <g ref="#pcs"/> eṉṟavaṉ <gap reason="ellipsis"/>
+   <lb n="4"/><gap reason="ellipsis"/> poṉāṉ eṉka <g ref="#pcs"/> <g ref="#nūṟu"/>6 <g ref="#pcs"/></seg> <seg function="completion-statement">Eṭṭāvatu vimalaiyār ilampa<supplied reason="omitted">ka</supplied>m muṟṟiṟṟu</seg>
+   <seg function="total-stanzas"><lb n="5"/>{Āka} Ilampa[ka]m ~ 8 ~ k=ki ceyyuḷ ~ 2<g ref="#āyiram"/>6</seg> <g ref="#pcs"/> <seg function="colophon">kīlaka {varuṣam} Āṭi {mācam} 2<g ref="#pattu"/>7 {tēti} putaṉkiḻamai tiṉam y<pc>-</pc>eḻuti niṟavēṟiṟṟu<g ref="#pcs"/></seg> <seg function="blessing">murukar tuṇai y<pc>-</pc>uṇṭākavu=M=<g ref="#pcl"/></seg>
 
+    </ab>
   </body></text></TEI>
