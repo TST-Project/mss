@@ -28,10 +28,10 @@
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page (additional)</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2a" xml:id="T2" defective="false"><title xml:lang="ta"><term xml:lang="en">Instruction to user, benediction, title</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2b" xml:id="T3" defective="false"><title xml:lang="ta"><term xml:lang="en">Title, instruction to user, benediction</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2c" xml:id="T4" defective="false"><title xml:lang="ta">Kēṭariyammaṉ Viratam</title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi">
+                  <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
                         <support>
-                           <measure unit="stringhole" quantity="1"/>
+                           
                         </support>
                         <extent>
                            <measure unit="folio" quantity="24">{1} + {1} + {1} + 14 + {7} (U1 + U2a + U2b + U2c + U3).</measure>
@@ -60,7 +60,7 @@
                   <handDesc>
                      
                      
-                  <handNote synch="#U1" scope="minor" scribeRef="#ArielTitleScribe" script="tamil" medium="incised"><desc>Hand #1.</desc></handNote><handNote synch="#U2 #U2a #U2b #U2c" scope="major" script="tamil" medium="incised"><desc>Hand #2. 4 to 5 lines per page.</desc></handNote></handDesc>
+                  <handNote synch="#U1" scope="minor" script="tamil" medium="incised"><desc>Hand #1. <persName role="scribe">Ariel's title scribe</persName>.</desc></handNote><handNote synch="#U2 #U2a #U2b #U2c" scope="major" script="tamil" medium="incised"><desc>Hand #2. 4 to 5 lines per page.</desc></handNote></handDesc>
                   <additions>
                      
                     
@@ -77,7 +77,7 @@
                   <bindingDesc>
                      <binding>
                         <p><material cert="medium">Pinewood</material> covers apparently fabricated in the BnF.</p>
-                     </binding>
+                     <decoNote type="stringhole"><measure unit="stringhole" quantity="1"/></decoNote></binding>
                   </bindingDesc>
                </physDesc>
                <history>
@@ -151,7 +151,7 @@
 
     <milestone n="4" unit="column" break="no"/>
 <lb n="1"/>ṭiyatu=<g ref="#pcl"/></seg>
-<seg function="blessing"><lb n="2"/>vāṇi namastu=<g ref="#pcl"/></seg>
+<seg function="blessing"><lb n="2"/>vāṇi-nama stu=<g ref="#pcl"/></seg>
 
 <seg function="title"><milestone n="5" unit="column"/>
 <lb n="1"/>kēṭariyamma<unclear>ṉ</unclear>
@@ -170,11 +170,11 @@
 <lb n="2"/>virutam <g ref="#pcs"/></seg> <seg function="documenting-note">y<pc>-</pc>itu ṉō
 <lb n="3" break="no"/>ṉpu cevaṭi<note xml:lang="en" place="foot">That is <foreign xml:lang="ta">cuvaṭi</foreign></note></seg>
 
-<seg function="TBC"><milestone n="2" unit="column"/>
+<seg function="documenting-note"><milestone n="2" unit="column"/>
 <lb n="1"/>y<pc>-</pc>itu<pc>-</pc>y eṭuttavarkaḷ
 <lb n="2"/>vācit=tu<pc>-</pc>p pāt=tu<pc>-</pc>k koṭu
-<lb n="3" break="no"/>ppatu</seg> <g ref="#pcs"/> <seg function="documenting-note">y<pc>-</pc>itu vāt=tiyār cu
-<lb n="4" break="no"/>vaṭi</seg> <g ref="#pcs"/> <seg function="blessing">vāṇi namastu</seg> <g ref="#pcs"/>
+<lb n="3" break="no"/>ppatu <g ref="#pcs"/> <note xml:lang="en">lendind/borrowing formula</note></seg> <seg function="ownership-statement">y<pc>-</pc>itu vāt=tiyār cu
+<lb n="4" break="no"/>vaṭi</seg> <g ref="#pcs"/> <seg function="blessing">vāṇi-namas tu</seg> <g ref="#pcs"/>
   
 </ab></body></text><text synch="#U2c" corresp="#T4" xml:lang="ta"><body>
   <ab>  
@@ -205,6 +205,6 @@
 
 <pb facs="36" n="14v"/>
 <lb n="4"/><gap reason="ellipsis"/> <seg function="explicit">yātām oruvar Aṉuṣṭitta pērukkum kēṭṭa pērukkum paṭitta pērukkum y<pc>-</pc>eḻutiṉa pērukkum cakala<pc>-</pc>pākkiyamum
-<lb n="5"/>varum cakala<pc>-</pc>piṭaiyu=M pōkki ṟaṣcippār kētāri<pc>-</pc>yīspparaṉ y<pc>-</pc>eṉṟa v<pc>-</pc>āṟu <g ref="#pcs"/></seg> <seg function="colophon"><seg function="blessing">vāṇi namas·tu <g ref="#pcs"/></seg> <seg function="completion-statement">kētāriviṟata<seg rend="grantha">m</seg> muṭintatu mu<choice><sic>s·tu</sic><corr>ṟṟu</corr></choice><seg rend="grantha">m</seg> <g ref="#pcs"/></seg> <seg function="blessing">śrī-ṟā=<seg rend="grantha">ma</seg>-ceya=M=<g ref="#pcl"/></seg></seg>
+<lb n="5"/>varum cakala<pc>-</pc>piṭaiyu=M pōkki ṟaṣcippār kētāri<pc>-</pc>yīspparaṉ y<pc>-</pc>eṉṟa v<pc>-</pc>āṟu <g ref="#pcs"/></seg> <seg function="colophon"><seg function="blessing">vāṇi-namas· tu <g ref="#pcs"/></seg> <seg function="completion-statement">kētāriviṟata<seg rend="grantha">m</seg> muṭintatu mu<choice><sic>s·tu</sic><corr>ṟṟu</corr></choice><seg rend="grantha">m</seg> <g ref="#pcs"/></seg> <seg function="blessing">śrī-ṟā=<seg rend="grantha">ma</seg>-ceya=M=<g ref="#pcl"/></seg></seg>
   
 </ab></body></text></TEI>
