@@ -34,7 +34,7 @@
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="fr">list of 63 manuscripts (Tamil, Sanskrit) sent by the Jesuits of Pondicherry</title><textLang mainLang="fra" otherLangs="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta"><term xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">alphabetical list of the Tamil works in the BnF manuscripts</term></title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
-                  <objectDesc form="codex">
+                  <objectDesc form="codex" rend="manuscript">
                      <supportDesc material="paper">
                         <extent>
                            <measure unit="folio" quantity="77">{2} + {4} + 64 + {7} (u1 + U1 + U2 + u2). </measure>
@@ -48,7 +48,7 @@
                      <collation>
                      
                      <desc xml:id="CoverFront">the <emph xmlns="http://www.tei-c.org/ns/1.0" rend="bold">front cover</emph>.</desc><desc xml:id="u1">2 folios = front <emph xmlns="http://www.tei-c.org/ns/1.0" rend="bold">guard leaves</emph>. No foliation.</desc><desc xml:id="U1">4 folios = <emph xmlns="http://www.tei-c.org/ns/1.0" rend="bold">list of 63 manuscripts (Tamil, Sanskrit) sent by the Jesuits of Pondicherry</emph>. No foliation. f1v, f2v, f3rv, f4rv blank.</desc><desc xml:id="U2">64 folios = <emph xmlns="http://www.tei-c.org/ns/1.0" rend="bold">alphabetical list of the Tamil works in the BnF manuscripts</emph>. Arabic foliation 1-64. Versos blank.
-</desc><desc xml:id="u2">7 folios = front <emph xmlns="http://www.tei-c.org/ns/1.0" rend="bold">guard leaves</emph>. No foliation.</desc><desc xml:id="CoverBack">the <emph xmlns="http://www.tei-c.org/ns/1.0" rend="bold">back cover</emph>. </desc></collation><condition>Very good state of preservation.</condition><support><measure unit="stringhole"/></support></supportDesc>
+</desc><desc xml:id="u2">7 folios = front <emph xmlns="http://www.tei-c.org/ns/1.0" rend="bold">guard leaves</emph>. No foliation.</desc><desc xml:id="CoverBack">the <emph xmlns="http://www.tei-c.org/ns/1.0" rend="bold">back cover</emph>. </desc></collation><condition>Very good state of preservation.</condition><support/></supportDesc>
                      <layoutDesc>
                         
                      </layoutDesc>
@@ -60,7 +60,7 @@
                   <bindingDesc>
                      <binding>
                         <p>Hard paper covers.</p>
-                     </binding>
+                     <decoNote type="stringhole"><measure unit="stringhole"/></decoNote></binding>
                   </bindingDesc>
                <typeDesc/></physDesc>
                <history>
@@ -109,7 +109,7 @@
   <lb n="9"/><term xml:lang="ta">śrīpākavatam</term> <space/> <term xml:lang="fr">Çrī Bâgavadam <space/> Le très il- <space/> 254-253
   <lb n="10"/><space/> lustre Bhâgavata</term>
   <seg function="intertitle"><lb n="11"/><term xml:lang="fr">Mention écrite sur l'olle initiale du N° 596</term></seg>
-    <lb n="12-13"/><term xml:lang="ta">civamaya <space/> śrīAkilaṇṭa kompiṟumāṇṭaṇāyarākiya śrīṟaṅkanāyakar raṭcikkalu=M</term>
+    <lb n="12-13"/><term xml:lang="ta">civamaya <space/> śrīAkilaṇṭa kompiṟumāṇṭaṇāyarākiya śrīṟaṅkanāyakar raṭcikka<unclear reason="eccentric_ductus">vu=M</unclear></term>
 
   <pb facs="141" n="63r"/>
     <seg function="intertitle"><lb n="1"/><term xml:lang="fr">Titres données en transcription seulement</term></seg>
