@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -9,7 +9,7 @@
          <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -19,20 +19,20 @@
                   </repository>
                   <idno type="shelfmark">Indien 530g</idno>
                   <idno type="alternate"><idno>Tamoul 530</idno></idno>
-               </msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc104059m</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/sx61dt75h</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary>A fragment of <title xml:lang="ta">Tiruviḷaiyāṭal</title>.</summary>
+                  <summary><p>A fragment of <title xml:lang="ta">Tiruviḷaiyāṭal</title>.</p></summary>
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="ta">TBC</term></title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi">
+                  <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
                         <support>
-                           <measure unit="stringhole" quantity="2"/>
+                           
                            
                         </support>
                         <extent>
-                           <measure unit="folio" quantity="1">[1] (U1).</measure>
+                           <measure unit="folio" quantity="1">{1} (U1).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
@@ -52,7 +52,7 @@
                   <additions>
                   </additions>
                   <bindingDesc>
-                     <binding/>
+                     <binding><decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
                   </bindingDesc>
                </physDesc>
                <history>
@@ -60,7 +60,7 @@
                      <origDate calendar="gregorian" notAfter="1912">No internal date.</origDate>
                      
                   <origPlace>Tamilnadu.</origPlace></origin>
-                  <provenance/>
+                  <provenance><p>Unknown.</p></provenance>
                   <acquisition><p>Unknown.</p></acquisition>
                </history>
                <additional>
@@ -73,24 +73,26 @@
       </fileDesc>
       <encodingDesc>
          
-      <p>Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels.    </p></encodingDesc>
-      <revisionDesc>
+      <p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.            </p></encodingDesc>
+      
+   <revisionDesc>
          
-      <change when="2021-11">Record created by Emmanuel FRANCIS</change></revisionDesc>
-   </teiHeader>
+      <change when="2021-11">Record created by Emmanuel FRANCIS</change><change when="2022-06">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, June 2022.</change></revisionDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
    <facsimile>
-   </facsimile>
+   <graphic url="https://didomena.ehess.fr/concern/data_sets/sx61dt75h/manifest.json" facs="104"/></facsimile>
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
-  <pb n="[1]r"/><note xml:lang="en">library foliation 1; f[1]v possibly</note>
+  <ab>
+  
+  <pb facs="104" n="[1]r"/><note xml:lang="en">library foliation 1; f[1]v possibly</note>
     
-    <lb n="1"/><gap reason="lost"/> <seg function="incipit"><gap reason="ellipsis"/> vācalilē piṟatāṉiyāka yirum eṉṟu</seg> Aṉēkam piriyañ collac ceyum
+    <seg function="incipit"><lb n="1"/><gap reason="lost"/> <gap reason="ellipsis"/> vācalilē piṟatāṉiyāka yirum eṉṟu</seg> Aṉēkam piriyañ collac ceyum
     <lb n="2"/><gap reason="lost"/> ṟṟuk koṇṭu tirupperuntuṟaiyē pō Or vaikai kayāṟu Aṭai paṭṭu <gap reason="ellipsis"/> cuvāmi
     <lb n="3"/><gap reason="lost"/> tāramum poṟuttuk koḷḷav eṉṟu <gap reason="ellipsis"/> viṇṇappañ ceytu tammuṭaiya Aramaṉaiyē <term xml:lang="en">{line-filler}</term> 
-    <lb n="4"/><seg function="completion-statement"><gap reason="lost"/> ru viḷaiyāṭal muṟṟum</seg> <g ref="#pcs"/> vaṅkiṣa-cēkara-pāṇṭiyaṉ cuvāmi pātattilē Aṭakkamāṉ piṉpu kūṉ 
+    <seg function="completion-statement"><lb n="4"/><gap reason="lost"/> ru viḷaiyāṭal muṟṟum <g ref="#pcs"/></seg> vaṅkiṣa-cēkara-pāṇṭiyaṉ cuvāmi pātattilē Aṭakkamāṉ piṉpu kūṉ 
     <lb n="5"/><gap reason="lost"/> rācciyam paṇṇik koṇṭirukiṟa pōtu civacamaiyamum cokkaṉāyakar peṟiṟ pattiyum viṭṭu
 
   
-  <pb n="[1]v"/>
+  <pb facs="107" n="[1]v"/>
   
     <lb n="1"/><gap reason="lost"/> paṇṇi koṇṭu ciṟitu nāḷ naṭantu varukiṟa pōtu coḻaṉi <gap reason="ellipsis"/> maṅkaiyaṟkaraci <term xml:lang="en">{line-filler}</term>
     <lb n="2"/><gap reason="lost"/> yaṉ kaliyāṇam paṇṇiṉāṉ Anta maṅkaiyaṟkaraciyārku vācalp piṟatāṉiyāy kkulacciṟu <term xml:lang="en">{line-filler}</term>
@@ -98,4 +100,5 @@
     <lb n="4"/><gap reason="lost"/> Ataik kūṉppāṇṭiyaṉum ca<del>ṇa</del>maṇarkaḷum Aṟintiruppārkaḷ yivaḷa paṭṭattut tēviyar
     <lb n="5"/><gap reason="lost"/> māṭṭārkaḷ Appaṭi yirukkiṟa camaiyaṟṟilē <seg function="explicit">cuppiramaṇṇiya <gap reason="ellipsis"/> cīkāḻi</seg>
   
+    </ab>
 </body></text></TEI>

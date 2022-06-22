@@ -19,20 +19,20 @@
                   </repository>
                   <idno type="shelfmark">Indien 530f</idno>
                   <idno type="alternate"><idno>Tamoul 530</idno></idno>
-               </msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc104059m</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/sx61dt75h</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary>The <title xml:lang="ta">Kalviyoḻukkam</title>. See MTL, s.v.: <quote>A collection of moral aphorisms arranged alphabetically and ascribed to Auvaiyār; ஔவையார் இயற்றிய ஒரு நீதிநூல்.</quote> By a Christian copyist.</summary>
+                  <summary><p>The <title xml:lang="ta">Kalviyoḻukkam</title>. See MTL, s.v.: <quote>A collection of moral aphorisms arranged alphabetically and ascribed to Auvaiyār; ஔவையார் இயற்றிய ஒரு நீதிநூல்.</quote> By a Christian copyist.</p></summary>
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Kalviyoḻukkam    </title><textLang mainLang="tam"/><filiation><p>BnF Indien 449, U2.</p></filiation></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi">
+                  <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
                         <support>
-                           <measure unit="stringhole" quantity="2"/>
+                           
                            
                         </support>
                         <extent>
-                           <measure unit="folio" quantity="2">[2] (U1).</measure>
+                           <measure unit="folio" quantity="2">{2} (U1).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
@@ -47,13 +47,13 @@
                         
                      <layout>Columns.</layout></layoutDesc>
                   </objectDesc>
-                  <handDesc><handNote synch="#U1" scope="sole" script="tamil" scriptRef="#tamilOE" medium="incised"/></handDesc>
+                  <handDesc><handNote synch="#U1" scope="sole" script="tamil" scriptRef="#tamilOE" medium="incised"><desc>Soot faded.</desc></handNote></handDesc>
                   <decoDesc>
                   </decoDesc>
                   <additions>
                   </additions>
                   <bindingDesc>
-                     <binding/>
+                     <binding><decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
                   </bindingDesc>
                </physDesc>
                <history>
@@ -61,7 +61,7 @@
                      <origDate calendar="gregorian" notAfter="1912">No internal date.</origDate>
                      
                   <origPlace>Tamilnadu.</origPlace></origin>
-                  <provenance/>
+                  <provenance><p>Unknown.</p></provenance>
                   <acquisition><p>Unknown.</p></acquisition>
                </history>
                <additional>
@@ -74,17 +74,17 @@
       </fileDesc>
       <encodingDesc>
          
-      <p>TBC</p></encodingDesc>
+      <p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.            </p></encodingDesc>
       
    <revisionDesc>
          
-      <change when="2021-11">Record created by Emmanuel FRANCIS</change></revisionDesc></teiHeader>
+      <change when="2021-11">Record created by Emmanuel FRANCIS</change><change when="2022-06">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, June 2022.</change></revisionDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
    <facsimile>
-   </facsimile>
+   <graphic url="https://didomena.ehess.fr/concern/data_sets/sx61dt75h/manifest.json" facs="89"/></facsimile>
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   <ab>
     
-     <pb n="[1]r"/><note xml:lang="en">library foliation 3</note>
+     <pb facs="89" n="[1]r"/><note xml:lang="en">library foliation 3</note>
         
     <seg function="header">
     <seg function="blessing"><milestone n="1" unit="left margin"/>
@@ -109,18 +109,18 @@
     <milestone unit="main text area"/> 
     <lb n="1"/>
   
-    <pb n="[1]v"/>
+    <pb facs="97" n="[1]v"/>
     <milestone n="1" unit="column"/>
     <milestone n="2" unit="column"/>
     <milestone n="3" unit="column"/>
     <milestone n="4" unit="column"/>
   
-    <pb n="[2]r"/><note xml:lang="en">library foliation 2</note>
+    <pb facs="100" n="[2]r"/><note xml:lang="en">library foliation 2</note>
   
     <milestone n="1" unit="column"/>
     <milestone n="2" unit="column"/>
     <milestone n="3" unit="column"/>
-  <lb n="5-6"/><seg function="explicit"><gap reason="ellipsis"/></seg>
+  <seg function="explicit"><lb n="5-6"/><gap reason="ellipsis"/></seg>
   
     <pb n="[2]v"/><note xml:lang="en">blank</note>
 
