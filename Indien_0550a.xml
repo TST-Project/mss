@@ -19,7 +19,7 @@
 						</repository>
 						<idno type="shelfmark">Indien 550a</idno>
 						<idno type="alternate"><idno>Tamoul 550</idno><idno>Haas 39</idno></idno>
-					<idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc104078t</idno></msIdentifier>
+					<idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc104078t</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/73666c09p</idno></msIdentifier>
 					<msContents class="#CM">
 						<summary>A composite manuscript, described here as multi-text manuscript for the sake of convenience, containing extracts of the <title xml:lang="ta">Tivviyappirapantam</title>, that is: <list>
   <item><title xml:lang="ta">Tivviyappirapantam</title> 2713-2717 (U1).</item>
@@ -28,7 +28,7 @@
 
 					<msItem synch="#U1" xml:id="T1" defective="true"><title xml:lang="ta">Tivviyappirapantam 2713-2717</title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta">Tivviyappirapantam 2673-2712</title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T3" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page (?)</term></title><textLang mainLang="tam"/></msItem></msContents>
 					<physDesc>
-						<objectDesc form="pothi">
+						<objectDesc form="pothi" rend="manuscript">
 							<supportDesc material="palm-leaf">
 								<extent>
 									<measure unit="folio" quantity="7">{1} + 5 + {1} (U1 + U2 + U3).</measure>
@@ -40,8 +40,8 @@
 									</dimensions><dimensions type="written" unit="mm"/></extent>
 
 								<condition>Relatively poor state of preservation. Truncated, cracked folios.</condition>
-								<support><measure unit="stringhole" quantity="1"/></support>
-								<collation><desc xml:id="U1">1 folio = <emph rend="bold"><title xml:lang="ta">Tivviyappirapantam</title> 2713-2717, preceded by a <term xml:lang="ta">taṉiyaṉ</term></emph>. No foliation.</desc><desc xml:id="U2">5 folios = <emph rend="bold"><title xml:lang="ta">Tivviyappirapantam</title> 2673-2712, followed by a <term xml:lang="ta">taṉiyaṉ</term> (?)</emph>. Tamil foliation {1}, 2-5.</desc><desc xml:id="U3">1 folio = <emph rend="bold">Title Page (?)</emph>. No foliation.</desc><desc xml:id="U4">Fragment of folio, probably of U3.</desc></collation>
+								<support/>
+								<collation><desc xml:id="U1">1 folio = <emph rend="bold"><title xml:lang="ta">Tivviyappirapantam</title> 2713-2717, preceded by a <foreign xml:lang="ta">foreign</foreign></emph>. No foliation.</desc><desc xml:id="U2">5 folios = <emph rend="bold"><title xml:lang="ta">Tivviyappirapantam</title> 2673-2712, followed by a <foreign xml:lang="ta">taṉiyaṉ</foreign> (?)</emph>. Tamil foliation {1}, 2-5.</desc><desc xml:id="U3">1 folio = <emph rend="bold">Title Page (?)</emph>. No foliation.</desc><desc xml:id="U4">Fragment of folio, probably of U3.</desc></collation>
 							</supportDesc>
 							<layoutDesc> </layoutDesc>
 						</objectDesc>
@@ -53,7 +53,7 @@
 						<bindingDesc>
 							<binding>
 								
-							</binding>
+							<decoNote type="stringhole"><measure unit="stringhole" quantity="1"/></decoNote></binding>
 						</bindingDesc>
 					</physDesc>
 					<history>
@@ -77,14 +77,14 @@
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
-		<revisionDesc>
-
-			
-		<change when="2022-03">Record created by Emmanuel FRANCIS.</change></revisionDesc>
+		
 		<encodingDesc>
 			
-		<p>TBC</p></encodingDesc>
-	</teiHeader>
+		<p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.</p></encodingDesc>
+	<xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
+
+			
+		<change when="2022-03">Record created by Emmanuel FRANCIS.</change><change when="2022-06">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, June 2022.</change></revisionDesc></teiHeader>
 
 	
 	
@@ -93,47 +93,49 @@
 	
 	
 	
-<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
-
-  <pb facs="o" n="[1]r"/>
-  <seg function="TBC"><lg><l><lb n="1"/>poṉṟulakil vāṉavarum pūmakaḷum pōṟṟi ceyyā ~</l> <l>naṉṟutalīṟ nampi naṟaiyūrar ~ r <supplied reason="lost">maṉṉula</supplied>
-<lb n="2" break="no"/>kil</l> <l>Eṉṉilaimai kaṇṭu miṟaṅkārtē yāmākil</l> <l>maṉṟu <subst><del><gap reason="illegible" quantity="1" unit="character"/></del><add place="above">ma</add></subst>ṭalūrvaṉ vantu ~</l></lg></seg> <seg function="incipit">maṉṉiya pal<supplied reason="lost">poṟi</supplied> 
+<facsimile><graphic url="https://didomena.ehess.fr/concern/data_sets/73666c09p/manifest.json" facs="5"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+<ab>
+  
+  <pb facs="5" n="[1]r"/>
+  <seg function="satellite-stanza"><lg><l><lb n="1"/>poṉṟulakil vāṉavarum pūmakaḷum pōṟṟi ceyyā ~</l> <l>naṉṟutalīṟ nampi naṟaiyūrar ~ r <supplied reason="lost">maṉṉula</supplied>
+<lb n="2" break="no"/>kil</l> <l>Eṉṉilaimai kaṇṭu miṟaṅkārtē yāmākil</l> <l>maṉṟu <subst><del><gap reason="illegible" quantity="1" unit="character"/></del><add place="above">ma</add></subst>ṭalūrvaṉ vantu ~ <note xml:lang="en"><term xml:lang="ta">taṉiyaṉ</term></note>
+</l></lg></seg> <seg function="incipit">maṉṉiya pal<supplied reason="lost">poṟi</supplied> 
   <lb n="3"/> cēr āyiravāyi vāḷaṟaviṉ <gap reason="ellipsis"/></seg>
   <lb n="4-6"/><gap reason="ellipsis"/>
   
-  <pb facs="o" n="[1]v"/>
+  <pb facs="8" n="[1]v"/>
     <lb n="1-3"/><gap reason="ellipsis"/>
-  <lb n="4"/><seg function="explicit"><gap reason="ellipsis"/> | 5 |  maṟṟava<supplied reason="lost">ṉum</supplied> <gap reason="lost"/></seg>
+  <seg function="explicit"><lb n="4"/><gap reason="ellipsis"/> | 5 |  maṟṟava<supplied reason="lost">ṉum</supplied> <gap reason="lost"/></seg>
 
+  </ab>
 </body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
-
-  <pb facs="o" n="[1]r"/>
+<ab>
   
-  <milestone unit="left-margin"/>
- <lb n="1-2"/><seg function="blessing"><term xml:lang="sa">hariḥ Om</term></seg>
+  <pb facs="12" n="[1]r"/>
   
-  <milestone unit="main-text-area"/>
-    <seg function="TBC"><lg><l><lb n="1"/>muḷḷic ceḻumala<unclear>rō tāraṉ</unclear>
+  <seg function="blessing"><milestone unit="left-margin"/>
+ <lb n="1-2"/><term xml:lang="sa">hariḥ Om</term></seg>
+  
+  <seg function="incipit"><milestone unit="main-text-area"/>
+    <lg><l><lb n="1"/>muḷḷic ceḻumala<unclear>rō tāraṉ</unclear>
     muḷaimatiya</l> <l>kollikkeṉṉuḷḷam kotiyāmē vaḷḷal ~</l> <l>tiruvāḷaṉ cīrkkaliyaṉ kārkkaliyai veṭṭi</l> <l><supplied reason="lost">maruvāḷaṉ ta</supplied>
-<lb n="2" break="no"/>ntāṉ maṭal</l></lg> <g ref="#pcl"/></seg> <seg function="incipit">kārārvaraik koṅkaik kaṇṇār kaṭaluṭukkai ~</seg> <gap reason="ellipsis"/> 
+<lb n="2" break="no"/>ntāṉ maṭal <g ref="#pcl"/></l></lg></seg> <seg function="incipit">kārārvaraik koṅkaik kaṇṇār kaṭaluṭukkai ~</seg> <gap reason="ellipsis"/> 
 
-  
-  <pb facs="o" n="5v"/>
+    <pb facs="17" n="5v"/>
   <lb n="1-4"/><gap reason="ellipsis"/>
-  <lb n="5"/><gap reason="ellipsis"/> <seg function="explicit">vārār yipūm peṇṇai maṭal
-pūm peṇṇai maṭal – 36 –</seg> <seg function="TBC"> Uḷār toḻi yeṉulakariya veṉṉutalīr ~ cīṟār mulait=ta taṅkaḷ
-<lb n="6"/>ceruma <gap reason="ellipsis"/> ṅkiṉi <gap reason="ellipsis"/> ṉiṉṟa ~ tirunaṟaiyūr maṉṟoṅ kavūr vaṉa maṭal <g ref="#pcl"/></seg> <seg function="blessing">Āḻvāṟ tiruvaṭikaḷilē caraṇa=M</seg>
+  <seg function="explicit"><lb n="5"/><gap reason="ellipsis"/> <lg><l>vārār yipūm peṇṇai maṭal pūm peṇṇai maṭal – 36 –</l></lg></seg> <seg function="TBC">Uḷār toḻi yeṉulakariya veṉṉutalīr ~ cīṟār mulait=ta taṅkaḷ
+<lb n="6"/>ceruma <gap reason="ellipsis"/> ṅkiṉi <gap reason="ellipsis"/> ṉiṉṟa ~ tirunaṟaiyūr maṉṟoṅ kavūr vaṉa maṭal <g ref="#pcl"/> <note xml:lang="en"><term xml:lang="ta">taṉiyaṉ</term> ?</note></seg> <seg function="blessing">Āḻvāṟ tiruvaṭikaḷilē caraṇa=M</seg>
 
-
+</ab>
 </body></text><text synch="#U3" corresp="#T3" xml:lang="ta"><body>
-
-  <pb facs="o" n="[1]r"/>
+<ab>
+  <pb facs="21" n="[1]r"/>
   <lb n="1"/><gap reason="ellipsis"/> <space/> <gap reason="ellipsis"/> <space/> <seg function="blessing">caṭakōpaṉ tiruvaṭikaḷilē caraṇa=M</seg>
   
-  <pb facs="o" n="[1]v"/><note xml:lang="en">unblackened</note>
+  <pb facs="26" n="[1]v"/><note xml:lang="en">unblackened</note>
                                  
-  <milestone unit="left-margin"/>
- <lb n="1-2"/><seg function="blessing">śrī-rā=ma-ceya=M</seg>
+  <seg function="blessing"><milestone unit="left-margin"/>
+ <lb n="1-2"/>śrī-rā=ma-ceya=M</seg>
   
   <milestone n="1" unit="column"/>
     <lb n="1-5a"/><gap reason="ellipsis"/>
@@ -142,4 +144,5 @@ pūm peṇṇai maṭal – 36 –</seg> <seg function="TBC"> Uḷār toḻi ye�
   <milestone n="2" unit="column"/>
     <lb n="1-4"/><gap reason="ellipsis"/>
 
+  </ab>
 </body></text></TEI>

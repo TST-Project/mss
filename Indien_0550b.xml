@@ -19,7 +19,7 @@
 						</repository>
 						<idno type="shelfmark">Indien 550b</idno>
 						<idno type="alternate"><idno>Tamoul 550</idno><idno>Haas 39</idno></idno>
-					<idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc104078t</idno></msIdentifier>
+					<idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc104078t</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/73666c09p</idno></msIdentifier>
 					<msContents class="#STM">
 						<summary>A single-text manuscript containing: <list>
   <item><title xml:lang="ta">Tivviyappirapantam</title> 2791-2900 (U2).</item>
@@ -39,7 +39,7 @@
 									</dimensions><dimensions type="written" unit="mm"/></extent>
 
 								<condition>Relatively poor state of preservation. Truncated, cracked folios.</condition>
-								<support><measure unit="stringhole" quantity="1"/></support>
+								<support/>
 								<collation><desc xml:id="U1">1 folio = <emph rend="bold">Title Page (?)</emph>. No foliation.</desc><desc xml:id="U2">10 folios = <emph rend="bold"><title xml:lang="ta">Tivviyappirapantam</title> 2791-2900</emph>. Tamil foliation {1}-10.</desc></collation>
 							</supportDesc>
 							<layoutDesc> </layoutDesc>
@@ -47,12 +47,12 @@
 						<handDesc>
 
 							
-						<handNote synch="#U1" scope="minor" script="tamil" medium="incised"><desc>Unblackened.</desc></handNote><handNote synch="#U2" scope="major" script="tamil" medium="incised soot"/></handDesc>
+						<handNote synch="#U1" scope="minor" script="tamil" medium="incised"><desc>Unblackened.</desc></handNote><handNote synch="#U2" scope="major" script="tamil" medium="incised soot"><desc>Soot faded.</desc></handNote></handDesc>
 						<additions/>
 						<bindingDesc>
 							<binding>
 								
-							</binding>
+							<decoNote type="stringhole"><measure unit="stringhole" quantity="1"/></decoNote></binding>
 						</bindingDesc>
 					</physDesc>
 					<history>
@@ -79,11 +79,11 @@
 		
 		<encodingDesc>
 			
-		<p>TBC</p></encodingDesc>
+		<p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.</p></encodingDesc>
 	<revisionDesc>
 
 			
-		<change when="2022-03">Record created by Emmanuel FRANCIS.</change></revisionDesc></teiHeader>
+		<change when="2022-03">Record created by Emmanuel FRANCIS.</change><change when="2022-06">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, June 2022.</change></revisionDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
 
 	
 	
@@ -92,18 +92,19 @@
 	
 	
 	
-<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
-
-  <pb facs="o" n="[1]r"/>
+<facsimile><graphic url="https://didomena.ehess.fr/concern/data_sets/73666c09p/manifest.json" facs="34"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+<ab>
   
-   <milestone n="1" unit="column"/>
-    <lb n="1"/><seg function="blessing">Aṭiyēṉ <term xml:lang="sa">rāmānujāya nmaḥ ||</term></seg>
-    <lb n="2"/><seg function="blessing"><gap reason="lost"/> <term xml:lang="sa">śrī śrī śrīmate rāmānujāya nmaḥ ||</term></seg>
-    <lb n="3"/><seg function="blessing"><supplied reason="lost">śrī</supplied>-<unclear>rā=ma</unclear>-ceya=M</seg> <placeName xml:lang="ta">kumpakōṇam</placeName>
-    <lb n="4"/><seg function="blessing"><term xml:lang="sa">rāmānujāya nmaḥ</term></seg>
+  <pb facs="34" n="[1]r"/>
   
-  <milestone n="2" unit="column"/>
-    <lb n="1"/><seg function="blessing"><g ref="#pcl"/> śrī-rā=ma-ceya=M</seg>
+   <seg function="blessing"><milestone n="1" unit="column"/>
+    <lb n="1"/>Aṭiyēṉ <term xml:lang="sa">rāmānujāya nmaḥ ||</term></seg>
+    <seg function="blessing"><lb n="2"/><gap reason="lost"/> <term xml:lang="sa">śrī śrī śrīmate rāmānujāya nmaḥ ||</term></seg>
+    <seg function="blessing"><lb n="3"/><supplied reason="lost">śrī</supplied>-<unclear>rā=ma</unclear>-ceya=M</seg> <placeName xml:lang="ta">kumpakōṇam</placeName>
+    <seg function="blessing"><lb n="4"/><term xml:lang="sa">rāmānujāya nmaḥ</term></seg>
+  
+  <seg function="blessing"><milestone n="2" unit="column"/>
+    <lb n="1"/><g ref="#pcl"/> śrī-rā=ma-ceya=M</seg>
   
    <milestone n="3" unit="column"/>
     <lb n="1-5"/><gap reason="ellipsis"/>
@@ -111,7 +112,7 @@
   <milestone n="4" unit="column"/>
     <lb n="1"/><gap reason="ellipsis"/>
   
-    <pb facs="o" n="[1]v"/>
+    <pb facs="39" n="[1]v"/>
   
   <milestone n="1" unit="column"/>
     <lb n="1-2"/><gap reason="ellipsis"/>  
@@ -119,18 +120,21 @@
   <milestone n="2" unit="column"/>
     <lb n="1-4"/><gap reason="ellipsis"/>
 
+  </ab>
 </body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
-
-  <pb facs="o" n="[1]r"/>
-    <milestone unit="left-margin"/>
- <lb n="1-2"/><seg function="blessing"><term xml:lang="sa">hariḥ Om</term></seg>
+<ab>
   
-  <milestone unit="main-text-area"/>
-    <seg function="incipit"><lb n="1"/>Uyarvaṟa vuyarṉāla muṭaiyavaṉ yavanavaṉ</seg> <gap reason="ellipsis"/>
+  <pb facs="42" n="[1]r"/>
+    <seg function="blessing"><milestone unit="left-margin"/>
+ <lb n="1-2"/><term xml:lang="sa">hariḥ Om</term></seg>
   
-  <pb facs="o" n="10v"/>
+  <seg function="incipit"><milestone unit="main-text-area"/>
+    <lb n="1"/>Uyarvaṟa vuyarṉāla muṭaiyavaṉ yavanavaṉ</seg> <gap reason="ellipsis"/>
+  
+  <pb facs="55" n="10v"/>
       <lb n="1-6"/><gap reason="ellipsis"/>
-      <lb n="7"/><seg function="explicit"><gap reason="ellipsis"/> rēkalvivāyumē <g ref="#pcl"/></seg>
+      <seg function="explicit"><lb n="7"/><gap reason="ellipsis"/> rēkalvivāyumē <g ref="#pcl"/></seg>
   <lb n="8"/><note xml:lang="en">centred line</note> <seg function="blessing">Āḻvāṟ tiruvaṭikaḷilē caṟaṇa=M <g ref="#pcs"/></seg>
-
+  
+</ab>
 </body></text></TEI>
