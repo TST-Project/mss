@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
@@ -8,7 +8,7 @@
 			</titleStmt>
 			<publicationStmt>
 				<publisher>TST Project</publisher>
-				<date>2021</date>
+				<date>2022</date>
 			</publicationStmt>
 			<sourceDesc>
 				<msDesc>
@@ -19,49 +19,40 @@
 						</repository>
 						<idno type="shelfmark">Indien 545a</idno>
 						<idno type="alternate"><idno>Tamoul 545</idno></idno>
-					</msIdentifier>
+					<idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc104073f</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/ns064d85j</idno></msIdentifier>
 					<msContents class="#STM">
-						<summary>TBC</summary>
+						<summary><p>Text not identified.</p></summary>
 
-						<msItem synch="#U1" xml:id="T1" defective="false">
-							<title xml:lang="ta"><term xml:lang="en">cover page</term>
-							</title>
-							<textLang mainLang="tam"/>
-						</msItem>
-					</msContents>
+						
+					<msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">cover page</term>
+							</title><textLang mainLang="tam"/></msItem></msContents>
 					<physDesc>
-						<objectDesc form="pothi">
+						<objectDesc form="pothi" rend="manuscript">
 							<supportDesc material="palm-leaf">
 								<extent>
-									<measure unit="folio" quantity="1">1 (U1).</measure>
+									<measure unit="folio" quantity="1">{1} (U1).</measure>
 									<dimensions type="leaf" unit="mm">
 
 
 										<width quantity="305"/>
 										<height quantity="35"/>
 									</dimensions>
-									<dimensions type="object" unit="mm"/><dimensions type="written"
-										unit="mm"/></extent>
+									<dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
 
 
-								<support><measure unit="stringhole" quantity="1"/></support>
-								<collation><desc xml:id="U1">1 folio = <emph rend="bold">cover
-											page</emph>. Double folio. Verso blank, more dark =
-										outside cover. With additional unblackened notes on recto.
+								<support/>
+								<collation><desc xml:id="U1">1 folio = <emph rend="bold">cover page</emph>. Double folio. No foliation. Verso blank, more dark = outside cover. With additional unblackened notes on recto.
 									</desc></collation>
 							</supportDesc>
 							<layoutDesc> </layoutDesc>
 						</objectDesc>
 						<handDesc>
 
-							<handNote synch="#U1" scope="sole" script="tamil" medium="incised"/>
-						</handDesc>
-						<additions><desc synch="#U1" type="documenting-note">BnF register
-								information, in black ink: <quote>R.C. 7881</quote>
-								(f[1]r).</desc><desc synch="#U1" type="shelfmark">BnF shelfmark
-								sticker: <quote>INDIEN 545</quote> (f[1]r).</desc></additions>
+							
+						<handNote synch="#U1" scope="sole" script="tamil" medium="incised"><desc>Unblackened.</desc></handNote></handDesc>
+						<additions><desc synch="#U1" type="documenting-note">BnF register information, in black ink: <quote>R.C. 7881</quote> (<locus facs="11">f[1]r</locus>).</desc><desc synch="#U1" type="shelfmark">BnF shelfmark sticker: <quote>INDIEN 545</quote> (<locus facs="9">f[1]r</locus>).</desc></additions>
 						<bindingDesc>
-							<binding> </binding>
+							<binding> <decoNote type="stringhole"><measure unit="stringhole" quantity="1"/></decoNote></binding>
 						</bindingDesc>
 					</physDesc>
 					<history>
@@ -70,14 +61,8 @@
 							<origPlace>South India, Tamilnadu.</origPlace>
 						</origin>
 						<acquisition>
-							<p>Acquired, December 18th, 1886, from M. Haas. See BnF, département des
-								Manuscrits, inventaire 2 = <title>Acquisitions: manuscrits et
-									imprimés documentaires, 1848-1893</title>, no.
-							7881.</p></acquisition>
-						<provenance><p>Owned by <persName
-									ref="https://catalogue.bnf.fr/ark:/12148/cb109559175"
-									key="Haas, Frédéric (1843-1915)"> Frédéric Haas</persName>
-								(1843-1915).</p></provenance>
+							<p>Acquired, December 18th, 1886, from M. Haas. See BnF, département des Manuscrits, inventaire 2 = <title>Acquisitions: manuscrits et imprimés documentaires, 1848-1893</title>, no. 7881.</p></acquisition>
+						<provenance><p>Owned by <persName ref="https://catalogue.bnf.fr/ark:/12148/cb109559175" key="Haas, Frédéric (1843-1915)"> Frédéric Haas</persName> (1843-1915).</p></provenance>
 					</history>
 					<additional>
 						<listBibl>
@@ -86,37 +71,36 @@
 
 
 
-							<bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits
-									indiens, indo-chinois &amp; malayo-polynésiens</title>.
-								Bibliothèque nationale. Département des manuscrits. Paris: E.
-								Leroux. — See <ref
-									target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f95">p.
-									76</ref>.</bibl>
-						</listBibl>
+							
+						<bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f95">p. 76</ref>.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. 1866-. <title>Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. —  See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f261">f. 123r, no. 545</ref>.</bibl></listBibl>
 					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
-		<revisionDesc>
-
-			<change when="2021-08">Record created by Emmanuel FRANCIS.</change>
-		</revisionDesc>
+		
 		<encodingDesc>
-			<p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic"
-					>puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph>
-				restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold"
-					>Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm =
-				left margin, r = recto, rm = right margin, U = unit (codicological and/or textual),
-				v = verso. </p>
-		</encodingDesc>
-	</teiHeader>
+			
+		<p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.</p></encodingDesc>
+	<xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
 
-	<text synch="#U1" corresp="#T1" xml:lang="ta">
+			
+		<change when="2021-08">Record created by Emmanuel FRANCIS.</change><change when="2022-06">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, June 2022.</change></revisionDesc></teiHeader>
+
+	
+<facsimile><graphic url="https://didomena.ehess.fr/concern/data_sets/ns064d85j/manifest.json" facs="8"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta">
 		<body>
-			<pb n="[1]r"/><note xml:lang="en">blank</note> <pb n="[1]v"/>[<term xml:lang="en"
-				>notes</term>] <milestone n="1" unit="column"/>
+          <ab>
+            
+			<pb facs="8" n="[1]r"/><note xml:lang="en">blank</note>
+            
+            <pb facs="12" n="[1]v"/><note xml:lang="en">notes</note>
+            
+            <milestone n="1" unit="column"/>
+            
 			<milestone n="2" unit="column"/>
+            
 			<milestone n="3" unit="column"/>
+            
+            </ab>
 		</body>
-	</text>
-</TEI>
+	</text></TEI>

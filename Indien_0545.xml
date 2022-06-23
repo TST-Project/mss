@@ -4,7 +4,7 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>Collection (5 items, 5 works)</title>
+				<title>Collection (5 items, 4 Vaiṣṇava works)</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>TST Project</publisher>
@@ -21,15 +21,23 @@
 						<idno type="alternate"><idno>Tamoul 545</idno></idno>
 					<idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc104073f</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/ns064d85j</idno></msIdentifier>
 					<msContents class="#CM">
-						<summary><p>A composite manuscript containing 5 items.</p>
+						<summary><p>A composite manuscript containing 5 Vaiṣṇava items:
+<list>
+  <item> TBC (Indien 545a).</item>
+  <item> TBC (Indien 545b).</item>
+  <item> The <title xml:lang="ta">Nūṟṟantāti</title> (Indien 545c).</item>
+  <item> TBC (Indien 545d).</item>
+  <item> TBC (Indien 545e).</item>
+  </list>
+</p>
  <p>Description based on the examination of the original manuscript (August 2021).</p>  <p>Dimensions assessed at the time of examination.</p>      </summary>
 
 					</msContents>
 					<physDesc>
-						<objectDesc form="pothi">
+						<objectDesc form="pothi" rend="manuscript">
 							<supportDesc material="palm-leaf">
 								<extent>
-									<measure unit="folio" quantity="50">1 + 20 +26 + 2 + 1 (Indien 545a + Indien 545b + Indien 545c + Indien 545d + Indien 545e).</measure>
+									<measure unit="folio" quantity="50">{1} + 20 + 26 + 2 + {1} (Indien 545a + Indien 545b + Indien 545c + Indien 545d + Indien 545e).</measure>
 									<dimensions type="leaf" unit="mm"> </dimensions>
 									<dimensions type="object" unit="mm">
 										<width quantity="295"/>
@@ -38,18 +46,18 @@
 									</dimensions><dimensions type="written" unit="mm"/></extent>
 
 								<condition>Relatively good state of preservation. Very few boreholes and truncation.</condition>
-								<support><measure unit="stringhole"/></support>
-								<collation><desc xml:id="Indien545a"/><desc xml:id="Indien545b"/><desc xml:id="Indien545c"/><desc xml:id="Indien545d"/><desc xml:id="Indien545e"/></collation>
+								<support/>
+								<collation><desc xml:id="Indien545a">1 folio = <emph rend="bold">cover page</emph>.</desc><desc xml:id="Indien545b">20 folios = <emph rend="bold">TBC</emph>.</desc><desc xml:id="Indien545c">26 folios = <emph rend="bold"><title xml:lang="ta">Nūṟṟantāti</title></emph>.</desc><desc xml:id="Indien545d">2 folios = <emph rend="bold">TBC</emph>.</desc><desc xml:id="Indien545e">1 folio = <emph rend="bold">TBC</emph>.</desc></collation>
 							</supportDesc>
 							<layoutDesc> </layoutDesc>
 						</objectDesc>
 						<handDesc> </handDesc>
 						<additions><desc type="documenting-note" subtype="inserted">Note in black ink on a small inserted <locus facs="2">paper sheet</locus>:
-<quote xml:lang="la" rend="block"> <lb n="1"/>Tiruvadikanesanam <lb n="2"/>(Tamoul)</quote></desc><desc type="shelfmark">BnF shelfmark sticker: <quote>INDIEN 545</quote> (Indien 545a, U1, <locus facs="11">f[1]r</locus>).</desc><desc synch="#Indien545a" type="documenting-note">BnF register information, in black ink: <quote>R.C. 7881</quote> (Indien 545a, U1, <locus facs="11">f[1]r</locus>).</desc></additions>
+<quote xml:lang="la" rend="block"> <lb n="1"/>Tiruvadikanesanam <lb n="2"/>(Tamoul)</quote></desc><desc synch="#Indien545a" type="shelfmark">BnF shelfmark sticker: <quote>INDIEN 545</quote> (Indien 545a, U1, <locus facs="9">f[1]r</locus>).</desc><desc synch="#Indien545a" type="documenting-note">BnF register information, in black ink: <quote>R.C. 7881</quote> (Indien 545a, U1, <locus facs="11">f[1]r</locus>).</desc></additions>
 						<bindingDesc>
 							<binding>
 								<p>No woodcovers. </p>
-							</binding>
+							<decoNote type="stringhole"><measure unit="stringhole"/></decoNote></binding>
 						</bindingDesc>
 					</physDesc>
 					<history>

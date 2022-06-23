@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
@@ -8,7 +8,7 @@
 			</titleStmt>
 			<publicationStmt>
 				<publisher>TST Project</publisher>
-				<date>2021</date>
+				<date>2022</date>
 			</publicationStmt>
 			<sourceDesc>
 				<msDesc>
@@ -19,17 +19,14 @@
 						</repository>
 						<idno type="shelfmark">Indien 545e</idno>
 						<idno type="alternate"><idno>Tamoul 545</idno></idno>
-					</msIdentifier>
+					<idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc104073f</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/ns064d85j</idno></msIdentifier>
 					<msContents class="#STM">
-						<summary>TBC</summary>
+						<summary><p>Text not identified.</p></summary>
 
-						<msItem synch="#U1" xml:id="T1" defective="false">
-							<title xml:lang="ta"><term xml:lang="en">TBC</term></title>
-							<textLang mainLang="tam"/>
-						</msItem>
-					</msContents>
+						
+					<msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">TBC</term></title><textLang mainLang="tam"/></msItem></msContents>
 					<physDesc>
-						<objectDesc form="pothi">
+						<objectDesc form="pothi" rend="manuscript">
 							<supportDesc material="palm-leaf">
 								<extent>
 									<measure unit="folio" quantity="1">1 (U1).</measure>
@@ -39,24 +36,21 @@
 										<width quantity="265"/>
 										<height quantity="25"/>
 									</dimensions>
-									<dimensions type="object" unit="mm"/><dimensions type="written"
-										unit="mm"/></extent>
+									<dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
 
 
-								<support><measure unit="stringhole" quantity="1"/></support>
-								<collation><desc xml:id="U1">1 folio = <emph rend="bold">TBC</emph>.
-										Tamil foliation [1]. Verso more dark = outside page. Right
-										margin truncated.</desc></collation>
+								<support/>
+								<collation><desc xml:id="U1">1 folio = <emph rend="bold">TBC</emph>.	Tamil foliation {1}. Verso more dark = outside page. Right margin truncated.</desc></collation>
 							</supportDesc>
 							<layoutDesc> </layoutDesc>
 						</objectDesc>
 						<handDesc>
 
-							<handNote synch="#U1" scope="sole" script="tamil" medium="incised"/>
-						</handDesc>
+							
+						<handNote synch="#U1" scope="sole" script="tamil" medium="incised"/></handDesc>
 						<additions/>
 						<bindingDesc>
-							<binding> </binding>
+							<binding> <decoNote type="stringhole"><measure unit="stringhole" quantity="1"/></decoNote></binding>
 						</bindingDesc>
 					</physDesc>
 					<history>
@@ -69,9 +63,7 @@
 								Manuscrits, inventaire 2 = <title>Acquisitions: manuscrits et
 									imprimés documentaires, 1848-1893</title>, no.
 							7881.</p></acquisition>
-						<provenance><p>Owned by <persName
-									ref="https://catalogue.bnf.fr/ark:/12148/cb109559175"
-									key="Haas, Frédéric (1843-1915)"> Frédéric Haas</persName>
+						<provenance><p>Owned by <persName ref="https://catalogue.bnf.fr/ark:/12148/cb109559175" key="Haas, Frédéric (1843-1915)"> Frédéric Haas</persName>
 								(1843-1915).</p></provenance>
 					</history>
 					<additional>
@@ -81,44 +73,37 @@
 
 
 
-							<bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits
+							
+						<bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits
 									indiens, indo-chinois &amp; malayo-polynésiens</title>.
 								Bibliothèque nationale. Département des manuscrits. Paris: E.
-								Leroux. — See <ref
-									target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f95">p.
-									76</ref>.</bibl>
-						</listBibl>
+								Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f95">p.
+									76</ref>.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. 1866-. <title>Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. —  See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f261">f. 123r, no. 545</ref>.</bibl></listBibl>
 					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
-		<revisionDesc>
-
-			<change when="2021-08">Record created by Emmanuel FRANCIS.</change>
-		</revisionDesc>
+		
 		<encodingDesc>
-			<p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic"
-					>puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph>
-				restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold"
-					>Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm =
-				left margin, r = recto, rm = right margin, U = unit (codicological and/or textual),
-				v = verso. </p>
-		</encodingDesc>
-	</teiHeader>
+			
+		<p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.</p></encodingDesc>
+	<xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
 
-	<text synch="#U1" corresp="#T1" xml:lang="ta">
+			
+		<change when="2021-08">Record created by Emmanuel FRANCIS.</change><change when="2022-06">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, June 2022.</change></revisionDesc></teiHeader>
+
+	
+<facsimile><graphic url="https://didomena.ehess.fr/concern/data_sets/ns064d85j/manifest.json" facs="41"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta">
 		<body>
+          <ab>
 
-			<pb n="[1]r"/>
-			<lb n="1"/>
-			<seg function="incipit">vāḻi tiruvāyimu<unclear>ṭi</unclear>ppuḷḷai</seg>
-			<gap reason="ellipsis"/>
+			<pb facs="41" n="[1]r"/>
+			<seg function="incipit"><lb n="1"/>vāḻi tiruvāyimu<unclear>ṭi</unclear>ppuḷḷai <gap reason="ellipsis"/></seg>
+            <lb n="2-6"/><gap reason="ellipsis"/>
 
-			<pb n="[1]v"/>
-			<lb n="1"/>
-			<seg function="explicit"><gap reason="ellipsis"/></seg>
+			<pb facs="44" n="[1]v"/>
+			<seg function="explicit"><lb n="1"/><gap reason="ellipsis"/></seg>
 
-
+            </ab>
 		</body>
-	</text>
-</TEI>
+	</text></TEI>
