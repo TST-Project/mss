@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -8,7 +8,7 @@
          <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -18,7 +18,7 @@
                   </repository>
                   <idno type="shelfmark">Indien 563c</idno>
                   <idno type="alternate"/>
-               </msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc104091c</idno><idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc104091c/cN10038</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b10462618k</idno></msIdentifier>
                <msContents class="#STM">
                   <summary><p>A Grantha syllabary, in the form of a table, by a Francophone.</p>
 <p>Dimensions after Vinson &amp; al. (1866-).</p>
@@ -27,10 +27,10 @@
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="sa"><term xml:lang="en">Grantha Syllabary</term></title><textLang mainLang="san"/></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi">
-                     <supportDesc material="palm-leaf">
+                  <objectDesc form="loose-leaf" rend="manuscript">
+                     <supportDesc material="paper">
                         <extent>
-                           <measure unit="folio" quantity="2">[2] (U1).</measure>
+                           <measure unit="folio" quantity="2">{2} (U1).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
@@ -38,7 +38,7 @@
                         <dimensions type="object" unit="mm"><width quantity="480"/><height quantity="240"/></dimensions><dimensions type="written" unit="mm"/></extent>
                         
                         <condition>Good state of preservation.</condition>
-                     <collation><desc xml:id="U1">2 folios = <emph rend="bold">Grantha Syllabary</emph>. The folios are folded in two and hinged in the volume at their foldong. f1v and f2v blank.</desc></collation><support><measure unit="stringhole"/></support></supportDesc>
+                     <collation><desc xml:id="U1">2 folios = <emph rend="bold">Grantha Syllabary</emph>. No original foliation. The folios are folded in two and hinged in the volume at their foldong. f1v and f2v blank.</desc></collation><support/></supportDesc>
                      <layoutDesc>
                         
                      </layoutDesc>
@@ -46,11 +46,11 @@
                   <handDesc>
                      
                   <handNote synch="#U1" scope="sole" script="grantha tamil" medium="ink black"/></handDesc>
-                  <additions><desc synch="#U1" type="shelfmark" subtype="top right">BnF shelfmark in black ink: <quote>Tam. 563 <hi rend="superscript">3</hi></quote> (<locus facs="19">top, right</locus>).</desc></additions>
+                  <additions><desc synch="#U1" type="shelfmark" subtype="top right">BnF shelfmark in black ink: <quote>Tam. 563 <hi rend="superscript">3</hi></quote> (<locus facs="19">f[1]r</locus>).</desc></additions>
                   <bindingDesc>
                      <binding>
                         
-                     </binding>
+                     <decoNote type="stringhole"><measure unit="stringhole"/></decoNote></binding>
                   </bindingDesc>
                </physDesc>
                <history>
@@ -60,8 +60,8 @@
                   </origin>
                   <acquisition>
                      
-                  </acquisition>
-               <provenance/></history>
+                  <p>Unknown.</p></acquisition>
+               <provenance><p>Unknown.</p></provenance></history>
                <additional>
                   <listBibl>
                      
@@ -73,17 +73,20 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      
+   <encodingDesc><p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.</p></encodingDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
-      <change when="2021-11">Record created by Emmanuel FRANCIS.</change></revisionDesc>
-   <encodingDesc><p>TBC</p></encodingDesc></teiHeader>
+      <change when="2021-11">Record created by Emmanuel FRANCIS.</change><change when="2022-06">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, June 2022.</change></revisionDesc></teiHeader>
    
 <facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10462618k/manifest.json" facs="18"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="sa"><body>
+  <ab>
+    
   <pb facs="18" n="1r"/>
   
-  <lb n="1"/><seg function="title"><term xml:lang="fr">alphabet Samscroutam en usage dans le pays Tamoul</term></seg>
+  <seg function="title"><lb n="1"/><term xml:lang="fr">alphabet Samscroutam en usage dans le pays Tamoul</term></seg>
 
   <pb facs="22" n="2r"/>
   <lb n="13"/>* <term xml:lang="fr">ng <term xml:lang="sa">ng</term> Dans les mots angar. Sans faire Sentir la prononciation de g qui Suit la Consonne n.</term>
 
+    </ab>
   </body></text></TEI>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -8,7 +8,7 @@
          <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -18,7 +18,7 @@
                   </repository>
                   <idno type="shelfmark">Indien 563b</idno>
                   <idno type="alternate"/>
-               </msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc104091c</idno><idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc104091c/ca59747535910220</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b10462618k</idno></msIdentifier>
                <msContents class="#STM">
                   <summary><p>The copy of a bilingual text (Marathi and Tamil), apparently an eye-copy of an inscription. The text in Marathi is divided into 4 sections numbered from A to D. The text in Tamil is in 8 lines.</p>
 <p>Dimensions after Vinson &amp; al. (1866-).</p>
@@ -27,10 +27,10 @@
                   
                <msItem synch="#U1a" xml:id="T1" defective="false"><title xml:lang="mar"><term xml:lang="en">Marathi Text</term></title><textLang mainLang="mar"/></msItem><msItem synch="#U1b" xml:id="T2" defective="false"><title xml:lang="ta"><term xml:lang="en">Tamil Text</term></title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi">
-                     <supportDesc material="palm-leaf">
+                  <objectDesc form="loose-leaf" rend="manuscript">
+                     <supportDesc material="paper">
                         <extent>
-                           <measure unit="folio" quantity="1">[1] (U1).</measure>
+                           <measure unit="folio" quantity="1">{1} (U1).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
@@ -38,19 +38,19 @@
                         <dimensions type="object" unit="mm"><width quantity="180"/><height quantity="220"/></dimensions><dimensions type="written" unit="mm"/></extent>
                         
                         <condition>Good state of preservation.</condition>
-                     <collation><desc xml:id="U1">1 folio = <emph rend="bold">Bilingual text</emph>. The folio is pasted onto the page of the codex. f1v blank.</desc><desc xml:id="U1a">1 folio = <emph rend="bold">Marathi Text</emph> (4 lines).</desc><desc xml:id="U1b">1 folio = <emph rend="bold">Tamil Text</emph> (8 lines).</desc></collation><support><measure unit="stringhole"/></support></supportDesc>
+                     <collation><desc xml:id="U1">1 folio = <emph rend="bold">Bilingual text</emph>. No original foliation. The folio is pasted onto the page of the codex. f1v blank.</desc><desc xml:id="U1a">1 folio = <emph rend="bold">Marathi Text</emph> (4 lines).</desc><desc xml:id="U1b">1 folio = <emph rend="bold">Tamil Text</emph> (8 lines).</desc></collation><support/></supportDesc>
                      <layoutDesc>
                         
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
                      
-                  <handNote synch="#U1a" scope="major" script="modi" medium="ink black"/><handNote synch="#U1b" scope="major" script="tamil" medium="ink black"><desc>The copyist does not appear to be very familiar with Tamil script.</desc></handNote></handDesc>
-                  <additions><desc synch="#U1" type="shelfmark" subtype="top right">BnF shelfmark in black ink: <quote>Tamoul 563 <hi rend="superscript"><del>II</del> 2</hi></quote> (<locus facs="15">top, right</locus>).</desc></additions>
+                  <handNote synch="#U1a" scope="sole" script="modi" medium="ink black"/><handNote synch="#U1b" scope="sole" script="tamil" medium="ink black"><desc>The copyist does not appear to be very familiar with Tamil script.</desc></handNote></handDesc>
+                  <additions><desc synch="#U1" type="shelfmark" subtype="top right">BnF shelfmark in black ink: <quote>Tamoul 563 <hi rend="superscript"><del>II</del> 2</hi></quote> (<locus facs="15">f[1]r</locus>).</desc></additions>
                   <bindingDesc>
                      <binding>
                         
-                     </binding>
+                     <decoNote type="stringhole"><measure unit="stringhole"/></decoNote></binding>
                   </bindingDesc>
                </physDesc>
                <history>
@@ -60,8 +60,8 @@
                   </origin>
                   <acquisition>
                      
-                  </acquisition>
-               <provenance/></history>
+                  <p>Unknown.</p></acquisition>
+               <provenance><p>Unknown.</p></provenance></history>
                <additional>
                   <listBibl>
                      
@@ -73,30 +73,36 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      
+   <encodingDesc><p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.</p></encodingDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
-      <change when="2021-11">Record created by Emmanuel FRANCIS.</change></revisionDesc>
-   <encodingDesc><p>TBC</p></encodingDesc></teiHeader>
+      <change when="2021-11">Record created by Emmanuel FRANCIS.</change><change when="2022-06">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, June 2022.</change></revisionDesc></teiHeader>
    
-<facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10462618k/manifest.json" facs="15"/></facsimile><text synch="#U1a" corresp="#T1" xml:lang="mar"><body>
+<facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10462618k/manifest.json" facs="15"/></facsimile><text synch="#U1a" corresp="#T1" xml:lang="mar"><body>  
+  <ab>
+    
   <pb facs="15" n="1r"/>
   
-  <lb n="1"/><term xml:lang="fr">A.</term>
-  <lb n="2"/><seg function="incipit"><gap reason="ellipsis"/></seg>
+  <seg function="incipit"><lb n="1"/><term xml:lang="fr">A.</term>
+  <lb n="2"/><gap reason="ellipsis"/></seg>
     <lb n="3"/><term xml:lang="fr">B.</term>
   <lb n="4"/><gap reason="ellipsis"/>
   <lb n="5"/><term xml:lang="fr">C.</term>
   <lb n="6"/><gap reason="ellipsis"/>
-  <lb n="7"/><term xml:lang="fr">D.</term>
-  <lb n="8"/><seg function="explicit"><gap reason="ellipsis"/></seg>
+  <seg function="explicit"><lb n="7"/><term xml:lang="fr">D.</term>
+  <lb n="8"/><gap reason="ellipsis"/></seg>
   
+    </ab>
   </body></text><text synch="#U1b" corresp="#T2" xml:lang="ta"><body>
+  <ab>
+    
   <pb facs="15" n="1r"/>
   
     <lb n="9"/><term xml:lang="fr">Autres caracteres</term>
 
-  <lb n="10"/><seg function="incipit"><gap reason="ellipsis"/></seg>
+  <seg function="incipit"><lb n="10"/><gap reason="ellipsis"/></seg>
   <lb n="11-16"/><gap reason="ellipsis"/>
-  <lb n="17"/><seg function="explicit"><gap reason="ellipsis"/></seg>
+  <seg function="explicit"><lb n="17"/><gap reason="ellipsis"/></seg>
 
+    </ab>
   </body></text></TEI>
