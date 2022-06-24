@@ -21,14 +21,14 @@
                   <idno type="alternate"/>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1046030</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/x346db286</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary>TBC.</summary>
+                  <summary><p>Text not identified.</p></summary>
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">TBC</term></title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi">
+                  <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
                         <extent>
-                           <measure unit="folio" quantity="1">[1] (U1).</measure>
+                           <measure unit="folio" quantity="1">{1} (U1).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
@@ -37,19 +37,19 @@
                         <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
                         
                         
-                     <support><measure unit="stringhole" quantity="2"/></support><collation><desc xml:id="U1">1 folio = <emph rend="bold">TBC</emph>.</desc></collation></supportDesc>
+                     <support/><collation><desc xml:id="U1">1 folio = <emph rend="bold">TBC</emph>.</desc></collation></supportDesc>
                      <layoutDesc>
                         
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
                      
-                  <handNote synch="#U1" scope="sole" script="tamil" medium="incised"/></handDesc>
+                  <handNote synch="#U1" scope="sole" script="tamil" medium="incised"><desc>Unblackened.</desc></handNote></handDesc>
                   <additions/>
                   <bindingDesc>
                      <binding>
                         
-                     </binding>
+                     <decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
                   </bindingDesc>
                </physDesc>
                <history>
@@ -58,9 +58,9 @@
                      <origPlace>Tamilnadu.</origPlace>
                   </origin>
                   <acquisition>
-                     <p>Don n° 7608, du 20 juin 1947, de M. Celier, inspecteur des Archives.</p>
+                     <p>Cabaton (1912): <quote xml:lang="fr">Don n° 7608, du 20 juin 1947, de M. Celier, inspecteur des Archives.</quote></p>
                   </acquisition>
-               </history>
+               <provenance><p>Unknown.</p></provenance></history>
                <additional>
                   <listBibl>
                      
@@ -71,11 +71,13 @@
          </sourceDesc>
       </fileDesc>
       
-   <encodingDesc><p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.      </p></encodingDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
+   <encodingDesc><p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.</p></encodingDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
-      <change when="2021-10">Record created by Emmanuel FRANCIS.</change></revisionDesc></teiHeader>
+      <change when="2021-10">Record created by Emmanuel FRANCIS.</change><change when="2022-06">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, June 2022.</change></revisionDesc></teiHeader>
    
 <facsimile><graphic url="https://didomena.ehess.fr/concern/data_sets/x346db286/manifest.json" facs="10"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+  <ab>
+    
   <pb facs="11" n="[1]r"/>
   <lb n="1"/><gap reason="ellipsis"/>
   <lb n="2"/><gap reason="ellipsis"/>
@@ -84,7 +86,9 @@
   
   <pb facs="15" n="[1]v"/>
   <seg function="blessing"><lb n="1"/>śrīmatu Aṉantacuvāmi laṣakkavu=M</seg>
-  <lb n="2"/><seg function="blessing">kuru laṣakkavu=M</seg>
+  <seg function="blessing"><lb n="2"/>kuru laṣakkavu=M</seg>
   <lb n="3"/>nellipparu <gap reason="ellipsis"/>
+    
+    </ab>
 </body>
   </text></TEI>
