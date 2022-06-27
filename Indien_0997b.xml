@@ -4,9 +4,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:lang="ta">Eṇcuvaṭi</title>
-            <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor>
-         </titleStmt>
+            <title xml:lang="ta"><title xml:lang="ta">Eṇcuvaṭi</title></title>
+            
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
             <date>2022</date>
@@ -25,7 +25,7 @@
                   
                <msItem xml:id="T2" defective="false"><title xml:lang="ta">Eṇcuvaṭi</title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi">
+                  <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
                         <extent>
                            <measure unit="folio" quantity="4">Double folios.</measure>
@@ -37,7 +37,7 @@
                         <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
                         
                         <condition>Relatively good state of preservation. Some leaves are cracked. </condition>
-                     <support><measure unit="stringhole" quantity="1"/></support><collation><desc xml:id="U1">4 folios = <emph rend="bold"><title xml:lang="ta">Eṇcuvaṭi </title></emph>. Tamil foliation [10], 11-12, 14. Shelfmark sticker on left margin of f14v.</desc></collation></supportDesc>
+                     <support/><collation><desc xml:id="U1">4 folios = <emph rend="bold"><title xml:lang="ta">Eṇcuvaṭi </title></emph>. Tamil foliation 10-12, 14. Shelfmark sticker on left margin of f14v.</desc></collation></supportDesc>
                      <layoutDesc>
                         <layout columns="7 8" writtenLines="4 5"/>
                      </layoutDesc>
@@ -49,7 +49,7 @@
                   <bindingDesc>
                      <binding>
                         
-                     </binding>
+                     <decoNote type="stringhole"><measure unit="stringhole" quantity="1"/></decoNote></binding>
                   </bindingDesc>
                </physDesc>
                <history>
@@ -60,7 +60,7 @@
                   <acquisition>
                      <p>Deposit (1938) from École des Langues orientales.</p>
                   </acquisition>
-               </history>
+               <provenance><p>Unknown.</p></provenance></history>
                <additional>
                   <listBibl>
                      
@@ -71,24 +71,36 @@
          </sourceDesc>
       </fileDesc>
       
-   <encodingDesc><p><p>
-  <emph rend="bold">Transliteration conventions</emph>
-</p>
-<p>
-  Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only).
-</p>
-<p><emph rend="bold">Abbreviations</emph></p>
-<p> c = column, f = folio, lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.</p></p></encodingDesc><revisionDesc>
+   <encodingDesc><p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.</p></encodingDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
-      <change when="2021-06">Record created by Emmanuel FRANCIS.</change></revisionDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
+      <change when="2021-06">Record created by Emmanuel FRANCIS.</change><change when="2022-06">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, June 2022.</change></revisionDesc></teiHeader>
    
-<facsimile><graphic url="https://didomena.ehess.fr/concern/data_sets/8k71nq47t/manifest.json"/></facsimile><text synch="#U1" corresp="#T2" xml:lang="ta"><body>
+<facsimile><graphic url="https://didomena.ehess.fr/concern/data_sets/8k71nq47t/manifest.json" facs="31"/></facsimile><text synch="#U1" corresp="#T2" xml:lang="ta"><body>
   <ab>
 
-  <pb n="[10]"/>
-  <pb n="11"/>
-  <pb n="12"/>
-  <pb n="14"/>
+  <pb facs="31" n="10r"/>
+    <milestone n="1" unit="column"/><gap reason="ellipsis"/>
+    
+    <pb facs="33" n="10v"/>
+    <milestone n="1" unit="column"/><gap reason="ellipsis"/>
+   
+<pb facs="34" n="11r"/>
+    <milestone n="1" unit="column"/><gap reason="ellipsis"/>  <pb n="12"/>
+    
+    <pb n="11v"/>
+
+    <pb facs="35" n="12r"/>
+    <milestone n="1" unit="column"/><gap reason="ellipsis"/>
+    
+    <pb n="12v"/>
+    <pb n="13r"/>
+    <pb n="13v"/>
+
+      <pb facs="36" n="14r"/>
+    <milestone n="1" unit="column"/><gap reason="ellipsis"/>
+    
+    <pb facs="37" n="14v"/>
+    <milestone n="1" unit="column"/><gap reason="ellipsis"/><pb n="14"/>
 
     </ab>
   

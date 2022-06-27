@@ -5,8 +5,8 @@
       <fileDesc>
          <titleStmt>
             <title><title xml:lang="ta">Eṇcuvaṭi</title></title>
-            <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor>
-         </titleStmt>
+            
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
             <date>2022</date>
@@ -22,16 +22,16 @@
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1046005/cb11</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/8k71nq47t</idno></msIdentifier>
                <msContents class="#STM">
                   <summary><p>
-  An <title xml:lang="ta">Eṇcuvaṭi</title>, in 9 folios and 18 pages, which provides first multiplication tables of positive integers (from 1 to 10) followed by multiplication tables of fractions (up to 1/10).
+  An <title xml:lang="ta">Eṇcuvaṭi</title>, in 9 folios and 18 pages, which provides first multiplication tables of positive integers (from 1 to 10), followed by multiplication tables of fractions (up to 1/10).
 </p>
 </summary>
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Eṇcuvaṭi</title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi">
+                  <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
                         <extent>
-                           <measure unit="folio" quantity="9">Double folios.</measure>
+                           <measure unit="folio" quantity="9">Bifolios.</measure>
                            <dimensions type="leaf" unit="mm">
                               <width quantity="460"/>
                               <height quantity="30"/>
@@ -40,7 +40,7 @@
                         <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
                         
                         <condition>Good state of preservation. Some leaves are cracked. </condition>
-                     <support><measure unit="stringhole" quantity="1"/></support><collation><desc xml:id="U1">9 folios = <emph rend="bold"><title xml:lang="ta">Eṇcuvaṭi</title></emph>. Tamil foliation [1]‒9. Shelfmark stickers (f[1]r).</desc></collation></supportDesc>
+                     <support/><collation><desc xml:id="U1">9 folios = <emph rend="bold"><title xml:lang="ta">Eṇcuvaṭi</title></emph>. Tamil foliation [1]‒9. Shelfmark stickers (f[1]r).</desc></collation></supportDesc>
                      <layoutDesc>
                         <layout columns="7" writtenLines="3 4"/>
                      </layoutDesc>
@@ -52,7 +52,7 @@
                   <bindingDesc>
                      <binding>
                         
-                     </binding>
+                     <decoNote type="stringhole"><measure unit="stringhole" quantity="1"/></decoNote></binding>
                   </bindingDesc>
                </physDesc>
                <history>
@@ -63,7 +63,7 @@
                   <acquisition>
                      <p>Deposit (1938) from École des Langues orientales.</p>
                   </acquisition>
-               </history>
+               <provenance><p>Unknown.</p></provenance></history>
                <additional>
                   <listBibl>
                      
@@ -74,40 +74,48 @@
          </sourceDesc>
       </fileDesc>
       
-   <encodingDesc><p><p>
-  <emph rend="bold">Transliteration conventions</emph>
-</p>
-<p>
-  Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only).
-</p>
-<p><emph rend="bold">Abbreviations</emph></p>
-<p> c = column, f = folio, lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.</p></p></encodingDesc><revisionDesc>
+   <encodingDesc><p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.</p></encodingDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
-      <change when="2021-06">Record created by Emmanuel FRANCIS.</change></revisionDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
+      <change when="2021-06">Record created by Emmanuel FRANCIS.</change><change when="2022-06">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, June 2022.</change></revisionDesc></teiHeader>
    
-<facsimile><graphic url="https://didomena.ehess.fr/concern/data_sets/8k71nq47t/manifest.json"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+<facsimile><graphic url="https://didomena.ehess.fr/concern/data_sets/8k71nq47t/manifest.json" facs="3"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   <ab>
-  <pb n="[1]r"/>
+    
+  <pb facs="3" n="[1]r"/>
   
-  <milestone n="1" unit="column"/>
-  <lb n="1"/><seg function="incipit">1 • 1 • 1 <note xml:lang="en">that is, 1 × 1 = 1</note></seg>
+  <seg function="incipit"><milestone n="1" unit="column"/>
+  <lb n="1"/>1 • 1 • 1 <note xml:lang="en">that is, 1 × 1 = 1</note></seg>
   <lb n="2"/><g ref="#pattu"/> <supplied reason="omitted">•</supplied> 1 • <g ref="#pattu"/> <note xml:lang="en">that is, 10 × 1 = 10</note>
   <lb n="3"/>2 • 1 • 2 <note xml:lang="en">that is, 2 × 1 = 2</note>
   
+    <milestone n="2" unit="column"/>
+    <milestone n="3" unit="column"/>
+    <milestone n="4" unit="column"/>
+    <milestone n="5" unit="column"/>
+    <milestone n="6" unit="column"/>
   <milestone n="7" unit="column"/>
   <lb n="1"/><g ref="#nūṟu"/> • 1 • <g ref="#nūṟu"/> <note xml:lang="en">that is, 100 × 1 = 100</note>
   
-  <pb n="5r"/>
+  <pb facs="9" n="5r"/>
   
   <milestone n="1" unit="column"/>
   <lb n="1"/> 1 • 9 • 9 <note xml:lang="en">that is, 1 × 9 = 9</note>
   <lb n="2"/><g ref="#pattu"/> • 9<g ref="#pattu"/> <note xml:lang="en">that is, 10 [× 9] = 90</note>
   <lb n="3"/>2 • <g ref="#pattu"/>8 <note xml:lang="en">that is, 2 [× 9] = 18</note>
 
-  <pb n="9v"/>
+  <pb facs="28" n="9v"/>
   <milestone n="1" unit="column"/>
   <lb n="1"/>1 • <g ref="#irumaa"/> •  <g ref="#irumaa"/> <note xml:lang="en">that is, 1 ×  1/10 =  1/10</note>
   
+    <milestone n="2" unit="column"/>
+    <milestone n="3" unit="column"/>
+    <milestone n="4" unit="column"/>
+    <milestone n="5" unit="column"/>
+    <milestone n="6" unit="column"/>
+  <milestone n="7" unit="column"/>
+    <milestone n="8" unit="column"/>
+    <milestone n="9" unit="column"/>
+    
   <milestone n="10" unit="column"/>
    <lb n="1"/><seg function="explicit"><g ref="#āyiram"/> • <g ref="#nūṟu"/> <note xml:lang="en">that is, 1000 [× 1/10] = 100</note></seg>
     
