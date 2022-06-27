@@ -19,17 +19,19 @@
                   </repository>
                   
                   <idno type="shelfmark">Indien 532</idno>
-                  <idno type="alternate"><idno>Tamoul 532</idno></idno>
+                  <idno type="alternate"><idno>Tamoul 532</idno><idno>Haas</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1038550</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b52512555j</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary><p>A Tamil version of the <title xml:lang="sa">Rāmāyaṇa</title> in the form of a play (<foreign xml:lang="sa">nāṭaka</foreign>; see U2, f14r4). The description (<title xml:lang="ta">Periyapurāṇam</title>, 374 ff., from Haas) in Cabaton (1912) does not correspond. Some confusion of manuscripts probably occurred.</p>
-   <p>Description based on the digital images available on Gallica.</p>  <p>Dimensions after Cabaton (1912).</p>         
+                  <summary><p>A Tamil version of the <title xml:lang="sa">Rāmāyaṇa</title> in the form of a play (<foreign xml:lang="sa">nāṭaka</foreign>; see U2, f14r4).</p>
+<p>The description of BnF Indien 532 and 533 as respectively <title xml:lang="ta">Periyapurāṇam</title> (374 ff., from Haas) and <title xml:lang="ta">Rāmāyaṇam</title> (374 ff., from Haas) in Cabaton (1912) is incorrect and should be reversed. The manuscripts are described in the right order by Feer in Vinson et al. (1866-), but a later hand (in black pencil) corrected and inverted the shelfmarks (correction taken into account by Cabaton, whereas the BnF shelfmark stickers remained unchanged on the manuscript.</p>
+<p>Description based on the digital images available on Gallica.</p>
+<p>Dimensions after Cabaton (1912, no. 533).</p>         
 
                     </summary>
                   
-               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Invocation</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="true"><title xml:lang="ta"><term xml:lang="en">Text</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T3" defective="true"><title xml:lang="ta"><term xml:lang="en">Loose leaves</term></title><textLang mainLang="tam"/></msItem></msContents>
+               <msItem synch="#U1" xml:id="T1" defective="true" class="#natakam"><title xml:lang="ta">Rāmāyaṇam: <term xml:lang="en">Invocation</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="true"><title xml:lang="ta">Rāmāyaṇam: Mūlam</title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T3" defective="true"><title xml:lang="ta">Rāmāyaṇam: <term xml:lang="en">loose leaves/fragments</term></title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi">
+                  <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
                         <extent>
                            <measure unit="folio" quantity="174">{1} + 171 + {3} (U1 + U2 + U3).</measure>
@@ -38,19 +40,19 @@
                               
                            </dimensions>
                            <note>Some folios are smaller, e.g. U3, f105 (365 x 35 mm). </note>
-                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
+                        <dimensions type="object" unit="mm"><width quantity="410"/><height quantity="30"/></dimensions><dimensions type="written" unit="mm"/></extent>
                         <collation>
                         
                         
                         
                         
                         
-                        <desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. </desc><desc xml:id="U1">1 folios = <emph rend="bold">invocation</emph>. No foliation. Verso blank.
-</desc><desc xml:id="U2">171 folios = <emph rend="bold">text</emph>. Tamil foliation {1}, 2-169, [170], 171. Foliation 1, if any, lost with margin. Foliation 170 lost with margin.
+                        <desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. </desc><desc xml:id="U1">1 folio = <emph rend="bold"><title xml:lang="ta">Rāmāyaṇam</title>: Invocation</emph>. No foliation. Verso blank.
+</desc><desc xml:id="U2">171 folios = <emph rend="bold"><title xml:lang="ta">Rāmāyaṇam</title>: Text</emph>. Tamil foliation {1}, 2-169, [170], 171. Foliation 1, if any, lost with margin. Foliation 170 lost with margin.
 
-</desc><desc xml:id="U3">3 folios = <emph rend="bold">loose leaves</emph>. Foliation lost with left margin. f[1]-f[2] appears to be continuous as indicated by verse numbering, continuous from f[1]v to f[2]r.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>. </desc></collation>
+</desc><desc xml:id="U3">3 folios = <emph rend="bold"><title xml:lang="ta">Rāmāyaṇam</title>: loose leaves/fragments</emph>. Foliation lost with left margin. f[1]-f[2] appears to be continuous as indicated by verse numbering, continuous from f[1]v to f[2]r.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>. </desc></collation>
                         <condition>Relatively good state of preservation, despite boreholes. But some folios truncated or heavily damaged. </condition>
-                     <support><measure unit="stringhole" quantity="2"/></support></supportDesc>
+                     <support/></supportDesc>
                      <layoutDesc>
                         <layout columns="1"/>
                      </layoutDesc>
@@ -63,27 +65,27 @@
                     
                     
                     
-                  </additions>
+                  <desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 532</quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF olf Shelfmark <quote>Tamoul 532</quote> in black ink covering BnF old shelfmark  <quote>532. Tamoul</quote> in red pencil (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#U1" type="shelfmark">BnF old shelfmark sticker: <quote>TAMOUL 532</quote> (<locus facs="1">f[1]r</locus>).</desc></additions>
                   <bindingDesc>
                      <binding>
-                        <p>Original <material>wood</material> covers. </p>
-                     </binding>
+                        <p>Original (?) <material>wood</material> covers. </p>
+                     <decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian" notAfter="1912">No internal date.</origDate>
+                     <origDate calendar="gregorian" notAfter="1886">No internal date.</origDate>
                      <origPlace>South India, Tamilnadu.</origPlace>
                   </origin>
                   <acquisition>
                      
-                  </acquisition>
-               <provenance/></history>
+                  <p>Acquired, December 18th, 1886, from M. Haas. See BnF, département des Manuscrits, inventaire 2 = <title>Acquisitions: manuscrits et imprimés documentaires, 1848-1893</title>, no. 7881.</p></acquisition>
+               <provenance><p>Owned by <persName ref="https://catalogue.bnf.fr/ark:/12148/cb109559175" key="Haas, Frédéric (1843-1915)">Frédéric Haas</persName> (1843-1915), according to Feer in Vinson et al. (1866-).</p></provenance></history>
                <additional>
                   <listBibl>
                      
                      
-                  <bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f93">p. 74, no. 532</ref>.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. 1866-. <title>Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. —  See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f257">f. 121r, no. <del>533</del> 532</ref>.</bibl></listBibl>
+                  <bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f93">p. 74, no. 533</ref>.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. 1866-. <title>Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. —  See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f257">f. 121r, no. <del>532</del> 533</ref>.</bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
@@ -91,7 +93,7 @@
       <encodingDesc>
          
          
-      <p>   <emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso. </p></encodingDesc>
+      <p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.</p></encodingDesc>
       
    <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
@@ -104,25 +106,26 @@
   <ab>
 
     <pb facs="3" n="[1]r"/>
-  
-  <milestone n="1" unit="left-margin"/>
-  <lb n="1"/><seg function="blessing"><gap reason="lost"/> <unclear>pa</unclear>kaṉ
-  <lb n="2"/><gap reason="lost"/> ḷ ma
+  <seg function="header">
+  <seg function="blessing"><milestone n="1" unit="left-margin"/>
+  <lb n="1"/><gap reason="lost"/> <unclear>pa</unclear>kaṉ
+  <lb n="2"/><gap reason="lost"/> ḷam
   <lb n="3"/><gap reason="lost"/> namo
   <lb n="4"/><supplied reason="lost"><pc>'</pc>s•t</supplied>tu</seg>
  
-  <milestone n="2" unit="left-margin"/>
-  <lb n="1"/><seg function="blessing"><seg rend="grantha">śrī</seg>-ṟakuṉāyakar
-  <lb n="2"/>cītālaṭcumi-
-  <lb n="3" break="no"/>kiṟupai-y uṇṭāka
+  <seg function="blessing"><milestone n="2" unit="left-margin"/>
+  <lb n="1"/>śrī-ṟakuṉāyakar
+  <lb n="2"/>cītālaṭcumi
+  <lb n="3" break="no"/>kiṟupai Uṇṭāka
   <lb n="4"/>tākavum</seg>
-  <lb n="5"/><seg function="intertitle">pālakaṇṭam</seg>
-   
-  <milestone unit="main-text-area"/>
-  <lb n="1"/><seg function="incipit">Āṉaimukaṉē</seg> <gap reason="ellipsis"/>
+  <seg function="intertitle"><lb n="5"/>pālakaṇṭam</seg>
+           </seg>
+
+  <seg function="satellite-stanza"><milestone unit="main-text-area"/>
+  <lb n="1"/>Āṉaimukaṉē <gap reason="ellipsis"/>
   <lb n="2"/>
-  <lb n="3"/><gap reason="ellipsis"/> <g ref="#pcl"/>
-  <lb n="4"/><seg rend="grantha">śrī</seg>-<gap reason="ellipsis"/> kāla-vāṇi-namo <pc>'</pc>s•ttu <g ref="#pcl"/>
+  <lb n="3"/><gap reason="ellipsis"/> <g ref="#pcl"/></seg>
+  <seg function="blessing"><lb n="4"/>śrī-<gap reason="ellipsis"/> kāla-vāṇi-namo <pc>'</pc>s•ttu <g ref="#pcl"/></seg>
   
     </ab>
 </body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
@@ -130,49 +133,49 @@
 
   <pb facs="5" n="[1]r"/>
   
-  <milestone unit="left-margin"/>
-  <lb n="1"/><g ref="#pcs"/> <seg function="intertitle">pāla
+  <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1"/><g ref="#pcs"/> pāla
   <lb n="2" break="no"/>kāṇ
   <lb n="3" break="no"/>ṭam</seg>
    
-  <milestone unit="main-text-area"/>
-  <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
+  <seg function="incipit"><milestone unit="main-text-area"/>
+  <lb n="1"/><gap reason="ellipsis"/></seg>
   
   <pb facs="31" n="14r"/>
-  
-  <milestone unit="left-margin"/>
-  <lb n="1-4"/><seg function="intertitle">Ayōttiyākāṇṭam</seg>
+    <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1-4"/>Ayōttiyākāṇṭam</seg>
   
   <milestone unit="main-text-area"/>
-  <lb n="4"/><gap reason="ellipsis"/> = <seg function="completion-statement"><seg rend="grantha">śrī</seg>matti-ṟāmāyaṇa-ṉāṭakam pālakāṇṭamuṟṟum</seg> = <seg rend="grantha">śrī</seg>-cītā-laṭcumaṇa-parata
-  <lb n="5"/>catturu <gap reason="ellipsis"/> = <seg rend="grantha">śrī</seg>-ṟāmaccantira <gap reason="ellipsis"/> <g ref="#pcs"/> <seg function="total-stanzas">yinta kāṇṭam kāppu-viruttamum Oṉṟum nīṅkalāka maṟṟatu Avaiyaṭakkam pāyiran teyva-vaṇak
-    <lb n="6" break="no"/>kam Uḷpaṭa = 2<g ref="#pattu"/>5 = viruttam = 2<g ref="#pattu"/>4</seg> <g ref="#pcs"/> <seg function="completion-statement">Eḻuti niṟaintutu campūrṇam</seg> = <seg function="intertitle">yippāl Ayōttiyākāṇṭam</seg> <g ref="#pcs"/>
-  <lb n="7"/>viruttam = <gap reason="ellipsis"/>
+  <lb n="4"/><gap reason="ellipsis"/> = <seg function="completion-statement">śrīmatti-ṟāmāyaṇa-ṉāṭakam pālakāṇṭamuṟṟum =</seg> <seg function="TBC">śrī-cītā-laṭcumaṇa-parata
+  <lb n="5" break="no"/>catturu <gap reason="ellipsis"/> = <seg rend="grantha">śrī</seg>-ṟāmaccantirāya namakara <g ref="#pcs"/></seg> <seg function="total-stanzas">yinta kāṇṭam kāppu-viruttamum Oṉṟum nīṅkalāka maṟṟatu Avaiyaṭakkam pāyiran teyva-vaṇak
+    <lb n="6" break="no"/>kam Uḷpaṭa = 2<g ref="#pattu"/>5 = viruttam = 2<g ref="#pattu"/>4 <g ref="#pcs"/></seg> <seg function="completion-statement">Eḻuti niṟaintutu campūrṇam =</seg> <seg function="intertitle">yippāl Ayōttiyākāṇṭam <g ref="#pcs"/></seg> <space/>
+  <seg function="intertitle"><lb n="7"/>viruttam =</seg> <gap reason="ellipsis"/>
 
   <pb facs="71" n="34r"/>
-  <milestone unit="left-margin"/>
-  <lb n="1-4"/><seg function="intertitle">Āraṇṇiyākāṇṭam</seg>
+  <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1-4"/>Āraṇṇiyākāṇṭam</seg>
     
     <pb facs="107" n="52r"/>
-  <milestone unit="left-margin"/>
-  <lb n="1-3"/><seg function="intertitle">kīṣki<unclear>n</unclear>tākāṇṭam</seg>
+  <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1-3"/>kīṣki<unclear>n</unclear>tākāṇṭam</seg>
   
     <pb facs="127" n="62r"/>
-  <milestone unit="left-margin"/>
-  <lb n="1-4"/><seg function="intertitle">cuntarakāṇṭam</seg>
+  <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1-4"/>cuntarakāṇṭam</seg>
   
     <pb facs="171" n="84r"/>
-  <milestone unit="left-margin"/>
-  <lb n="1-4"/><seg function="intertitle">Uyittiyakāṇṭam</seg>
+  <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1-4"/>Uyittiyakāṇṭam</seg>
   
    <pb facs="286" n="141r"/>
-  <milestone unit="left-margin"/>
-  <lb n="1-4"/><seg function="intertitle">mūlapelac caṇṭai</seg>
+  <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1-4"/>mūlapelac caṇṭai</seg>
     <milestone unit="main-text-area"/>
-  <lb n="4"/><gap reason="ellipsis"/> = <seg function="intertitle">mūlapelac caṇṭai</seg> <g ref="#pcl"/>
+  <lb n="4"/><gap reason="ellipsis"/> = <seg function="intertitle">mūlapelac caṇṭai <g ref="#pcl"/></seg>
+      <lb n="5"/>mūlapelac caṇṭai <gap reason="ellipsis"/>
 
    <pb facs="347" n="171v"/>
-  <lb n="7"/><gap reason="ellipsis"/>  <seg function="explicit">y<pc>-</pc>eṉru kaṭṭi koḷḷa = vaṇaṅki = =</seg>
+  <seg function="explicit"><lb n="7"/><gap reason="ellipsis"/>  y<pc>-</pc>eṉru kaṭṭi koḷḷa = vaṇaṅki = =</seg>
    
       </ab>
 </body></text><text synch="#U3" corresp="#T3" xml:lang="ta"><body>
