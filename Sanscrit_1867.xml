@@ -1,17 +1,15 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title><title xml:lang="sa">Kumārasaṃbhava</title>, first chapter</title>
-         </titleStmt>
-         <editionStmt>
-            <p>Record edited by <persName>Charles Li</persName> <orgName>CNRS, CEIAS, UMR 8564</orgName>.</p>
-         </editionStmt>
+         <editor><persName>Charles Li</persName><orgName>CNRS, CEIAS, UMR 8564</orgName></editor></titleStmt>
+         
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2020</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -20,76 +18,82 @@
                      <orgName>Bibliothèque nationale de France. Département des Manuscrits.</orgName>
                   </repository>
                   <idno type="shelfmark">Sanscrit 1867</idno>
-                  <idno type="alternate"><idno>R. B. 3095 (1842)</idno></idno>
+                  <idno type="alternate"/>
                </msIdentifier>
                <msContents class="#STM">
                   <summary>This manuscript contains 9 folios (2-10) from beginning of the <title xml:lang="sa">Kumārasaṃbhava</title> of <persName xml:lang="sa">Kālidāsa</persName>. Apart from the missing first folio, the first chapter is complete, ending at verse <quote xml:lang="sa">62</quote>, which is numbered variously in different editions (for example, 59 in <ref target="https://archive.org/details/TSS027KumarasambhavaPart1TGSastri1913_201809/page/n110/mode/1up">the edition of <persName xml:lang="sa">T. Gaṇapati Śāstrī</persName></ref>). The manuscript contains many commentarial annotations, as well as interlineal word-break markers and avagrahas.</summary>
                   
-               <msItem synch="#text" defective="true"><title xml:lang="sa">Kumārasaṃbhava</title><author xml:lang="sa">Kālidāsa</author><textLang mainLang="san" otherLangs=""/><incipit xml:lang="sa"><milestone n="2r1" unit="folio" facs="2"/>ṣo guṇasannipāte nimajjatīndoḥ kiraṇeṣv ivāṃkaḥ || 3 ||</incipit><explicit xml:lang="sa"><milestone n="10v5" unit="folio" facs="19"/>avacitavalipuṣpā <lb/>vedisaṃmāryadakṣā⁁ niyamitapariṣedā tacchiraś candrapādaiḥ || 62 ||</explicit></msItem></msContents>
+               <msItem defective="true"><title xml:lang="sa">Kumārasaṃbhava</title><author xml:lang="sa">Kālidāsa</author><textLang mainLang="san"/><incipit xml:lang="sa"><milestone n="2r" unit="folio" facs="2"/>
+<lb n="1"/>ṣo guṇasannipāte nimajjatīndoḥ kiraṇeṣv ivāṃkaḥ || 3 ||</incipit><explicit xml:lang="sa"><milestone n="10v" unit="folio" facs="19"/>
+<lb n="5"/><gap reason="ellipsis"/>avacitavalipuṣpā 
+<lb n="6"/>vedisaṃmāryadakṣā⁁ niyamitapariṣedā tacchiraś candrapādaiḥ || 62 ||</explicit></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi">
+                  <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="paper handmade">
                         <support>
-                           <measure unit="stringhole" quantity=""/>
-                           <p/>
+                           
+                           
                         </support>
                         <extent>
                            <measure unit="folio" quantity="9">2-10.</measure>
                            <dimensions type="leaf" unit="mm">
-                              <width quantity="230" min="" max=""/>
-                              <height quantity="120" min="" max=""/>
+                              <width quantity="230"/>
+                              <height quantity="120"/>
                            </dimensions>
-                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"><width quantity="170" min="" max=""/><height quantity="75" min="" max=""/></dimensions></extent>
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"><width quantity="170"/><height quantity="75"/></dimensions></extent>
                         
                         
                      <collation>
-                     <desc xml:id="text">Devanāgarī numerals, verso. Bottom-left and bottom-right margins.</desc>
-                     </collation><condition>Some damage, worn around the edges.</condition></supportDesc>
+                     
+                     </collation><foliation>Devanāgarī numerals, verso. Bottom-left and bottom-right margins.</foliation><condition>Some damage, worn around the edges.</condition></supportDesc>
                      <layoutDesc>
-                        <layout columns="1" writtenLines="6 7" streams="1" style="" ruledLines=""/>
+                        <layout columns="1" writtenLines="6 7" streams="1"/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
                      
-                  <handNote synch="#text" scope="sole" scribeRef="" script="devanagari" scriptRef="#vaba #bengaliYa" medium="ink black red"><desc>The scribe often uses a nukta below the <quote xml:lang="sa">ya</quote>, as in modern Bengāli script. He also uses the Nandināgarī-style <quote xml:lang="sa">ca</quote> and <quote xml:lang="sa">ra</quote> characters.</desc></handNote></handDesc>
+                  <handNote scope="sole" script="devanagari" scriptRef="#bengaliYa #vaba" medium="ink black red"><desc>The scribe often uses a nukta below the <quote xml:lang="sa">ya</quote>, as in modern Bengāli script. He also uses the Nandināgarī-style <quote>ca</quote> and <quote xml:lang="sa">ra</quote> characters.</desc></handNote></handDesc>
                   <decoDesc>
                     
                   </decoDesc>
                   <additions>
-                      <desc type="title" subtype="cover">On the <locus facs="1">paper sleeve</locus>, <quote xml:lang="fr">Fragment de Poeme Ecrit en Devanagari</quote>.</desc>
-                      <desc type="documenting-note" subtype="detached">A note, written on the back of a <term xml:lang="fr">Laissez-passer de sortie temporaire</term>: 
-                        <quote rend="block"><lg>
-                            <l>MS. SANS 1867</l>
-                            <l>THE POEM INVOLVED IS</l>
-                            <l>KĀLIDĀSA'S KUMĀRA-SAṀBHAVA</l>
-                            <l>— ASHOK AKLUJKAR</l>
-                            <l>29 MAY 2004</l>
-                        </lg></quote>
-                    </desc>
-                      <desc type="gloss" subtype="marginal">A commentarial note, <locus facs="2">2r</locus>, top margin: <quote xml:lang="sa">rāmaṇīyakāpahāri na jātaṃ na bhūtaṃ || ana<corr>nta</corr>ratnanilayasyāpi duṣṭahimacāraṇaṃ kathan na doṣakaraṃ ity āha ||</quote></desc>
-                      <desc type="correction" subtype="marginal">An insertion, <locus facs="19">10v</locus>, bottom margin: <quote xml:lang="sa">niyamavidhijalā<add>nāṃ</add> vararhiṣāṃ copanetrī <lb/>girisam upacacāra pratyahaṃ sā sukeśī</quote></desc>
-                  </additions>
+                      
+                      
+                      
+                      
+                  <desc type="title" subtype="cover">On the <locus facs="1">paper sleeve</locus>, <quote xml:lang="fr">Fragment de Poeme Ecrit en Devanagari</quote>.</desc><desc type="documenting-note" subtype="detached">A note, written on the back of a <term xml:lang="fr">Laissez-passer de sortie temporaire</term>: <quote rend="block">
+                            <lb n="1"/>MS. SANS 1867
+                            <lb n="2"/>THE POEM INVOLVED IS
+                            <lb n="3"/>KĀLIDĀSA'S KUMĀRA-SAṀBHAVA
+                            <lb n="4"/>— ASHOK AKLUJKAR
+                            <lb n="5"/>29 MAY 2004
+                        </quote>
+See <ref target="https://tst.hypotheses.org/1950">Li 2020.</ref>
+                    </desc><desc type="gloss" subtype="marginal">A commentarial note, <locus facs="2">2r</locus>, top margin: <quote xml:lang="sa">rāmaṇīyakāpahāri na jātaṃ na bhūtaṃ || ana<corr>nta</corr>ratnanilayasyāpi duṣṭahimacāraṇaṃ kathan na doṣakaraṃ ity āha ||</quote></desc><desc type="correction" subtype="marginal">An insertion, <locus facs="19">10v</locus>, bottom margin: <quote xml:lang="sa" rend="block"><lg>
+  <l>niyamavidhijalā<add>nāṃ</add> vararhiṣāṃ copanetrī </l>
+  <l>girisam upacacāra pratyahaṃ sā sukeśī</l>
+  </lg></quote></desc></additions>
                   <bindingDesc>
                      <binding>
                         <p>Paper sleeve.</p>
-                     </binding>
+                     <decoNote type="stringhole"><measure unit="stringhole"/></decoNote></binding>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
                      <origDate calendar="gregorian" notBefore="1800" notAfter="1842">Early 19th century.</origDate>
-                     <origPlace/>
+                     
                   </origin>
                   <acquisition>
-                     <p/>
+                     
                   </acquisition>
                </history>
                <additional>
                   <listBibl>
-                      <bibl>Cabaton, Antoine. (1907-1908) <title xml:lang="fr">Catalogue sommaire des manuscrits sanscrits avec supplément manuscrit</title>. Paris: E. Leroux. Supplemented by Jean Filliozat. <ref target="https://gallica.bnf.fr/ark:/12148/btv1b10536321f/f323.item">387</ref>.</bibl>
-                      <bibl>Gaṇapati Sâstrî, T. (1913) <title><ref target="https://archive.org/details/TSS027KumarasambhavaPart1TGSastri1913_201809/page/n1/mode/1up">The Kumârasambhava of Kâlidâsa, With the two commentaries Prakâsikâ of Aruṇagirinâtha and Vivaraṇa of Nârâyaṇapandita</ref></title>. Trivandrum: Travancore Government Press.</bibl>
-                      <bibl>Li, Charles. (2020) <title type="article">Passing notes in the library</title>. <title>Texts Surrounding Texts: Satellite Stanzas, Prefaces and Colophons in South-Indian Manuscripts</title>. <ref target="https://tst.hypotheses.org/1950">https://tst.hypotheses.org/1950</ref>.</bibl>
-                  </listBibl>
+                      
+                      
+                      
+                  <bibl>Cabaton, Antoine. (1907-1908) <title xml:lang="fr">Catalogue sommaire des manuscrits sanscrits avec supplément manuscrit</title>. Paris: E. Leroux. Supplemented by Jean Filliozat. <ref target="https://gallica.bnf.fr/ark:/12148/btv1b10536321f/f323.item">387</ref>.</bibl><bibl>Gaṇapati Sâstrî, T. (1913) <title><ref target="https://archive.org/details/TSS027KumarasambhavaPart1TGSastri1913_201809/page/n1/mode/1up">The Kumârasambhava of Kâlidâsa, With the two commentaries Prakâsikâ of Aruṇagirinâtha and Vivaraṇa of Nârâyaṇapandita</ref></title>. Trivandrum: Travancore Government Press.</bibl><bibl>Li, Charles. (2020) <title type="article">Passing notes in the library</title>. <title>Texts Surrounding Texts: Satellite Stanzas, Prefaces and Colophons in South-Indian Manuscripts</title>. <ref target="https://tst.hypotheses.org/1950">https://tst.hypotheses.org/1950</ref>.</bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
@@ -97,10 +101,10 @@
       <encodingDesc>
          
       <p>⁁ denotes an insertion mark.</p></encodingDesc>
-      <revisionDesc>
+      
+   <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
-      <change when="2020-12">Record created by Charles LI.</change></revisionDesc>
-   </teiHeader>
+      <change when="2020-12">Record created by Charles LI.</change></revisionDesc></teiHeader>
    <facsimile>
      <graphic url="https://tst-project.github.io/img/Sanscrit_1867/index.json"/>
    </facsimile>
