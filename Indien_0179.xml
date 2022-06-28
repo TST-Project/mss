@@ -38,19 +38,19 @@
                               
                            <width quantity="410"/><height quantity="30"/></dimensions>
                         <dimensions type="object" unit="mm"><depth quantity="110"/></dimensions><dimensions type="written" unit="mm"><width min="300" max="340"/><height quantity="25"/></dimensions></extent>
-                     <foliation>2 initial leaves are unnumbered thereafter all leaves are numbered on the recto, middle left margin in Tamil numerals ending with 166. Arabic numerals are written below the Tamil numerals on all but the last leaf. </foliation>
+                     
                      <collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.
        </desc><desc xml:id="U1">1 folio = <emph rend="bold"><title xml:lang="ta">Naṉṉūl</title>: Title Page</emph>. No foliation.
 </desc><desc xml:id="U2">1 folio = <emph rend="bold"><title xml:lang="ta">Naṉṉūl</title>: Invocation</emph> (4 satellite stanzas). No foliation.
 </desc><desc xml:id="U3">166 folios = <emph rend="bold"><title xml:lang="ta">Naṉṉūl</title>: Title Page</emph>. Tamil foliation 1-166. Parallel Arabic foliation 1-165, [166]. f166 blank recto verso.
 </desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.
 </desc></collation>
-                     <condition>The leaves are in impeccable condition. </condition></supportDesc>
+                     <foliation>2 initial leaves are unnumbered thereafter all leaves are numbered on the recto, middle left margin in Tamil numerals ending with 166. Arabic numerals are written below the Tamil numerals on all but the last leaf. </foliation><condition>The leaves are in impeccable condition. </condition></supportDesc>
                      <layoutDesc>
                         <layout writtenLines="7 8">Scriptio continua throughout with section titles in the margin as well as the initial syllables of verses/<foreign xml:lang="ta">cūttiram</foreign>s. On the second unnumbered leaf four verses are written in three columns divided by the string holes. The <foreign xml:lang="ta">cūttiram</foreign>s are numbered in the body of the text at the end of the commentary. An equals sign (=) surrounds the number.</layout>
                      </layoutDesc>
                   </objectDesc>
-                  <handDesc><handNote synch="#U1" scope="sole" scribeRef="#DuclerScribe" script="latin" medium="incised soot"/><handNote synch="#U2 #U3" scope="sole" scribeRef="#DuclerScribe" script="tamil" scriptRef="#tamilPulliNone" medium="incised soot"><desc>Fairly regular, neat hand, probably Ducler's scribe.</desc></handNote></handDesc>
+                  <handDesc><handNote synch="#U1" scope="sole" script="latin" medium="incised soot"><desc><persName role="scribe">Ducler's scribe</persName>.</desc></handNote><handNote synch="#U2 #U3" scope="sole" script="tamil" scriptRef="#tamilPulliNone" medium="incised soot"><desc>Fairly regular, neat hand, probably Ducler's scribe. <persName role="scribe">Ducler's scribe</persName>.</desc></handNote></handDesc>
                   <additions>
                   <desc type="documenting-note">On the recto of a slip of paper is written in ink the following title in cursive script:
 <quote xml:lang="fr" rend="block">
@@ -61,7 +61,7 @@
 <lb n="4"/>Solliyal, ou Etymologie, (ouvrage anonyme)
 <lb n="5"/>contenant 203 feuilles.</quote>
 This is incorrect and belongs to the second part of the manuscript containing the second chapter of the <title xml:lang="ta">Naṉṉūl</title>, the <title xml:lang="ta">Collatikāram</title>, BnF Indien 180.</desc><desc synch="#U3" type="intertitle" subtype="marginal left">The following Chapter/section headings are given in the margin. See below.
-</desc></additions>
+</desc><desc synch="#U2" type="satellite-stanza">3 satellite stanzas, which are well-know verses, are written on the recto of the second unnumbered leaf in three columns divided by the string holes (<locus facs="7">f[1]</locus>). The verses have been discussed and translated in D'Avella 2020. The second verse is the opening to the <title xml:lang="ta">Kuṟuntokai</title>. See below.</desc></additions>
                   <bindingDesc>
                      <binding><p>Original <material>wooden</material> cover boards and string. 170 mm between stringholes.</p><decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
                   </bindingDesc>
@@ -102,7 +102,7 @@ This is incorrect and belongs to the second part of the manuscript containing th
   </body>
 </text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
   <ab>
-       <pb facs="7" n="[1]r"/><note xml:lang="en">On the recto of the second unnumbered leaf the following blessings and title are written in the left margin</note>
+       <pb facs="7" n="[1]r"/>
   
         <milestone unit="left-margin"/>
     
@@ -115,7 +115,6 @@ This is incorrect and belongs to the second part of the manuscript containing th
     <lb n="7"/>சிவாயம
 
     <milestone n="1" unit="column"/>
-<note xml:lang="en">The following, well-know verses are written on the recto of the second unnumbered leaf in three columns divided by the string holes. The verses have been discussed and translated in D'Avella 2020. The second verse is the opening to the <title xml:lang="ta">Kuṟuntokai</title>.</note>
   
     <lb n="1"/>எணணியவெணணியவெ
   <lb n="2"/>யதுபகணணுதறபவளமா
@@ -145,7 +144,7 @@ This is incorrect and belongs to the second part of the manuscript containing th
       </ab>
 
   <ab>
-       <pb facs="7" n="[1]r"/><note xml:lang="en">On the recto of the second unnumbered leaf the following blessings and title are written in the left margin</note>
+       <pb facs="7" n="[1]r"/>
   
   <seg function="header">
     <seg function="blessing"><milestone unit="left-margin"/>
@@ -159,7 +158,6 @@ This is incorrect and belongs to the second part of the manuscript containing th
     </seg>
 
     <seg function="satellite-stanza"><milestone n="1" unit="column"/>
-<note xml:lang="en">The following, well-know verses are written on the recto of the second unnumbered leaf in three columns divided by the string holes. The verses have been discussed and translated in D'Avella 2020. The second verse is the opening to the <title xml:lang="ta">Kuṟuntokai</title>.</note>
 
    <lg><l><lb n="1"/>Eṇṇiya veṇṇiya ye
   <lb n="2" break="no"/>ytupa kaṇṇutaṟ</l> <l>pavaḷa mā
@@ -172,7 +170,8 @@ This is incorrect and belongs to the second part of the manuscript containing th
   <l><lb n="3"/>kuṉṟi Ēykkum Uṭukkaik kuṉṟi</l>
   <l><lb n="4"/>ṉeñcu paka veṟinta ceñ cuṭar neṭu vēṟ</l>
   <l><lb n="5"/>cēval Aṅ koṭiyōṉ kāppa</l>                                         
-  <l><lb n="6"/>vēma vaikal Eytiṉṟāl Ulakē <g ref="#pcl"/></l></lg></seg>
+  <l><lb n="6"/>vēma vaikal Eytiṉṟāl Ulakē <g ref="#pcl"/><note xml:lang="en" place="foot">This verse is the opening to the <title xml:lang="ta">Kuṟuntokai</title>.</note>
+</l></lg></seg>
     
    <seg function="satellite-stanza"><milestone n="3" unit="column"/>
   <lg><l><lb n="1"/>tavaḷat tāmarait tāt<pc>'</pc> ār kōyi</l> <l>l a
@@ -186,7 +185,7 @@ This is incorrect and belongs to the second part of the manuscript containing th
       </ab>
   </body></text><text synch="#U3" corresp="#T3" xml:lang="ta"><body>
   <ab>
-    <pb facs="9" n="1r"/><note xml:lang="en">In the left margin on the recto of the first numbered leaf is the following:</note>
+    <pb facs="9" n="1r"/>
     
     <milestone unit="left-margin"/>
   <lb n="1"/>திருசசிறறம
@@ -200,60 +199,54 @@ This is incorrect and belongs to the second part of the manuscript containing th
   <lb n="1"/>மலாதலையுலகினமலகிருளகல ~ விலகொளிபாபபி ~ யானவயுமவிளககும ~ பருதியினொருதானாகிமுதலீ ~ றொபபள
   <lb n="2"/>வாசைமுனிவிகநதுயாநத வறபுதமூறதிதனனலாதருதனமையின ~
         
-  <pb facs="10" n="1v1"/>
-    = எனபது = பாயிரம ~
+  <pb facs="10" n="1v1"/><gap reason="ellipsis"/> = எனபது = பாயிரம ~
         
-    <pb facs="26" n="9v5"/> 
-= இமமூனறுமுரைபபாயிரம சிறபபுபபாயிரமுறறும =
+    <pb facs="26" n="9v5"/><gap reason="ellipsis"/> = இமமூனறுமுரைபபாயிரம சிறபபுபபாயிரமுறறும = <gap reason="ellipsis"/>
 
-  <pb facs="59" n="26r3"/>
-    = பொதுபபாயிாமுறறும =
+  <pb facs="59" n="26r3"/><gap reason="ellipsis"/> = பொதுபபாயிாமுறறும =
 
     <pb facs="61" n="27r"/>
+    <milestone unit="left-margin">
   <lb n="1"/>முதலாவ
   <lb n="2"/>தெழுதததி
   <lb n="3"/>காாமெழு
-  <lb n="4"/>ததியல
+  <lb n="4"/>ததியல</milestone>
 
-  <pb facs="134" n="63v3"/>
-    = எழுததியனமுறறும ~
+  <pb facs="134" n="63v3"/><gap reason="ellipsis"/> = எழுததியனமுறறும ~
 
 <pb facs="135" n="64r"/>
+    <milestone unit="left-margin">
+  <lb n="2"/>இாணடாவது
+  <lb n="3"/>பதவியல ~
+  <lb n="4"/><g ref="#pcl"/></milestone>
 
-  <lb n="1"/>இாணடாவது
-  <lb n="2"/>பதவியல ~
-  <lb n="3"/><g ref="#pcl"/>
-
-
-<pb facs="187" n="90r2"/>
-  = இரணடாவதுபதவியனமுறறும =
+<pb facs="187" n="90r2"/><gap reason="ellipsis"/> = இரணடாவதுபதவியனமுறறும =
 
     <pb facs="189" n="91r"/>
-  <lb n="1"/>மூனறாவ
-  <lb n="2"/>துயிரீறறு
-  <lb n="3"/>பபுணரியல
+  <milestone unit="left-margin">
+  <lb n="2"/>மூனறாவ
+  <lb n="3"/>துயிரீறறு
+  <lb n="4"/>பபுணரியல</milestone>
 
-    <pb facs="269" n="131r2"/>
-  = மூனறாவதுயீரிறறுபபுணரியனமுறறும <g ref="#pcl"/>
-    <pb facs="271" n="132r"/>
+    <pb facs="269" n="131r2"/><gap reason="ellipsis"/> = மூனறாவதுயீரிறறுபபுணரியனமுறறும <g ref="#pcl"/>
+    
+<pb facs="271" n="132r"/>
+<milestone unit="left-margin">
+  <lb n="2"/>நானகா
+  <lb n="3"/>வதுமெ
+  <lb n="4"/>யயீறறு
+  <lb n="5"/>பபுணரி
+  <lb n="6"/>யல</milestone>
 
-  <lb n="1"/>நானகா
-  <lb n="2"/>வதுமெ
-  <lb n="3"/>யயீறறு
-  <lb n="4"/>பபுணரி
-  <lb n="5"/>யல
-
-
-<pb facs="308" n="150v8"/>
-  = மெயயீறறுபபுணரியனமுறறும <g ref="#pcl"/>
+<pb facs="308" n="150v8"/><gap reason="ellipsis"/> = மெயயீறறுபபுணரியனமுறறும <g ref="#pcl"/>
     
     <pb facs="309" n="151r"/>
+<milestone unit="left-margin">
   <lb n="1"/>ஐநதாவ
   <lb n="2"/>துருபுபுண
-  <lb n="3"/>ரியல <g ref="#pcl"/>
-
-    
-     <pb facs="338" n="165v"/>
+  <lb n="3"/>ரியல <g ref="#pcl"/></milestone>
+        
+    <pb facs="338" n="165v"/>
   <milestone unit="main-text-area"/>
   <lb n="4"/><gap reason="ellipsis"/> ~ சிறுபானமைவருமெனவுஙகொளக ~ இனறுமிவவைரைநதியலுளளு மவகுதது
   <lb n="5"/>ரையாதனவறறையெலலாமிடாபபடாதிதுவெ - நிலனாகவகுததுரைததுககொளக = ௰௮ = ஐநதாவதுருபுபுண
@@ -263,7 +256,7 @@ This is incorrect and belongs to the second part of the manuscript containing th
 
   <ab>
        
-    <pb facs="9" n="1r"/><note xml:lang="en">In the left margin on the recto of the first numbered leaf is the following:</note>
+    <pb facs="9" n="1r"/>
         
    <seg function="header">
     <seg function="blessing"><milestone unit="left-margin"/>
@@ -280,13 +273,13 @@ This is incorrect and belongs to the second part of the manuscript containing th
   <lb n="2"/>vācai muṉivikant tuyarnta vaṟputa mūṟtitaṉ ṉalartaru taṉmaiyiṉ ~</seg>
     
     <pb facs="10" n="1v1"/>
-    <seg function="completion-statement"><gap reason="ellipsis"/> = Eṉpatu = pāyiram ~</seg>
+    <gap reason="ellipsis"/> = Eṉpatu = <seg function="intertitle">pāyiram ~</seg>
     
        <pb facs="26" n="9v5"/> 
-<seg function="completion-statement">Immūṉṟumuraippāyiram ciṟappupāyira muṟṟum =</seg>
+<gap reason="ellipsis"/> = <seg function="completion-statement">Immūṉṟumuraippāyiram ciṟappupāyira muṟṟum =</seg>
     
   <pb facs="59" n="26r3"/>
-    <seg function="completion-statement">= putuppāyira muṟṟum =</seg>
+    <gap reason="ellipsis"/> = <seg function="completion-statement">putuppāyira muṟṟum =</seg>
     
     <pb facs="61" n="27r"/>
     <seg function="intertitle"><milestone unit="left-margin"/><lb n="1"/>mutalāva
@@ -295,38 +288,40 @@ This is incorrect and belongs to the second part of the manuscript containing th
   <lb n="4" break="no"/>ttiyal</seg>
 
   <pb facs="134" n="63v3"/>
-    <seg function="completion-statement">= Eḻuttiyaṉ muṟṟum ~</seg>
+    <gap reason="ellipsis"/> = <seg function="completion-statement">Eḻuttiyaṉ muṟṟum ~</seg>
 
 <pb facs="135" n="64r"/>
-  <seg function="intertitle"><milestone unit="left-margin"/>
-  <lb n="1"/>Iraṇṭāvatu
-  <lb n="2"/>pataviyal 
-  <lb n="3"/><g ref="#pcl"/></seg>
+  <seg function="verse-beginning"><milestone unit="left-margin"/>
+  <lb n="1"/>Eḻuta</seg>
+    <seg function="intertitle"><lb n="2"/>Iraṇṭāvatu
+  <lb n="3"/>pataviyal 
+  <lb n="4"/><g ref="#pcl"/></seg>
 
 <pb facs="187" n="90r2"/>
- <seg function="completion-statement">= Iraṇṭāvatu pataviyaṉ muṟṟum =</seg>
+<gap reason="ellipsis"/> = <seg function="completion-statement">Iraṇṭāvatu pataviyaṉ muṟṟum =</seg>
 
     <pb facs="189" n="91r"/>
- <seg function="intertitle"><milestone unit="left-margin"/>
-  <lb n="1"/>mūṉṟāva
-  <lb n="2" break="no"/>tuyirīṟṟu
-  <lb n="3" break="no"/>ppuṇariyal</seg>
+ <seg function="verse-beginning"><milestone unit="left-margin"/>
+   <lb n="1"/>mey</seg>
+  <seg function="intertitle"><lb n="2"/>mūṉṟāva
+  <lb n="3" break="no"/>tuyirīṟṟu
+  <lb n="4" break="no"/>ppuṇariyal</seg>
     
     <pb facs="269" n="131r2"/>
-    <seg function="completion-statement">= mūṉṟāvatu yīriṟṟuppuṇaryaṉ muṟṟum <g ref="#pcl"/></seg>
+    <gap reason="ellipsis"/> = <seg function="completion-statement">mūṉṟāvatu yīriṟṟuppuṇaryaṉ muṟṟum <g ref="#pcl"/></seg>
 
     <pb facs="271" n="132r"/>
-    <seg function="intertitle"><milestone unit="left-margin"/>
-  <lb n="1"/>nāṉkā
-  <lb n="2" break="no"/>vatu me
-  <lb n="3" break="no"/>yyīṟṟu
-  <lb n="4" break="no"/>ppuṇari
-  <lb n="5" break="no"/>yal</seg>
+    <seg function="verse-beginning"><milestone unit="left-margin"/>
+      <lb n="1"/>Utaṉ</seg>
+  <seg function="intertitle"><lb n="2"/>nāṉkā
+  <lb n="3" break="no"/>vatu me
+  <lb n="4" break="no"/>yyīṟṟu
+  <lb n="5" break="no"/>ppuṇari
+  <lb n="6" break="no"/>yal</seg>
     
 <pb facs="308" n="150v8"/>
-    <seg function="completion-statement">= meyyīṟṟuppuṇariyaṉ muṟṟum <g ref="#pcl"/></seg>
+    <gap reason="ellipsis"/> = <seg function="completion-statement">meyyīṟṟuppuṇariyaṉ muṟṟum <g ref="#pcl"/></seg>
     
-
     <pb facs="309" n="151r"/>
 <seg function="intertitle"><milestone unit="left-margin"/>
   <lb n="1"/>Aintāva
@@ -338,8 +333,7 @@ This is incorrect and belongs to the second part of the manuscript containing th
  
   <seg function="explicit"><lb n="4"/><gap reason="ellipsis"/> ~ ciṟupāṉmai varumeṉavuṅ koḷka ~ Iṉṉum Ivvaintiyaluḷḷum vakuttu
   <lb n="5" break="no"/>raiyātaṉavaṟṟai yellām Iṭarppaṭāt Ituvē ~- nilaṉāka vakutturaittuk koḷka = <g ref="#pattu"/>8 =</seg> <seg function="colophon"><seg function="completion-statement">Aintāvaturupupuṇ
-  <lb n="6"/>riyaṉ muṟṟum ~</seg> <seg function="completion-statement">Eḻuttatikāramuṟṟum <g ref="#pcl"/></seg></seg>
-    
+  <lb n="6"/>riyaṉ muṟṟum ~</seg> <seg function="completion-statement">Eḻuttatikāramuṟṟum <g ref="#pcl"/></seg></seg>    
     
     </ab>
   </body></text></TEI>

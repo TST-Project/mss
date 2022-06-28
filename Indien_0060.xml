@@ -25,10 +25,10 @@
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page (additional)</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta">Nālaṭiyār</title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi">
+                  <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf palmyra">
                         <support>
-                           <measure unit="stringhole" quantity="2"/>
+                           
                         </support>
                         <extent>
                            <measure unit="folio" quantity="69">{1} + 67 + {1} (U1 + U2 + U3).</measure>
@@ -46,7 +46,7 @@
                         <layout writtenLines="7 9"/>
                      </layoutDesc>
                   </objectDesc>
-                  <handDesc><handNote synch="#U1" scope="minor" scribeRef="#ArielTitleScribe" script="tamil" scriptRef="#tamilPulliSporadic" medium="black incised soot"><desc>Hand #1.</desc></handNote><handNote synch="#U2" scope="major" scribeRef="#ArielTitleScribe" script="tamil" medium="incised soot"><desc>Hand #2. Traditional script with modern <foreign xml:lang="ta">ṟa</foreign>.</desc></handNote></handDesc>
+                  <handDesc><handNote synch="#U1" scope="minor" script="tamil" scriptRef="#tamilPulliSporadic" medium="black incised soot"><desc>Hand #1. <persName role="scribe">Ariel's title scribe</persName>.</desc></handNote><handNote synch="#U2" scope="major" script="tamil" medium="incised soot"><desc>Hand #2. Traditional script with modern <foreign xmlns="http://www.tei-c.org/ns/1.0" xml:lang="ta">ṟa</foreign>. <persName role="scribe">Ariel's title scribe</persName>.</desc></handNote></handDesc>
                   <additions>
                   
 
@@ -98,7 +98,7 @@
    </item> 
    <item><locus facs="131">f. 64r</locus>: <term xml:lang="ta"><supplied>kaṟpuṭai makaḷir</supplied> <supplied>kāmanutaliyal</supplied></term> {margins missing!}</item> 
   </list></desc></additions>
-               </physDesc>
+               <bindingDesc><binding><decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding></bindingDesc></physDesc>
                <history>
                   <origin>
                      <origDate calendar="gregorian" notAfter="1883">3rd April 1883(?); date Ariel 1760.</origDate>
