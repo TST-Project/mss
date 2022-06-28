@@ -30,10 +30,11 @@ const readfiles = function(arr) {
             collectors: find.collectors(xmlDoc),
             repo: find.repo(xmlDoc),
             title: find.title(xmlDoc),
+            languages: find.languages(xmlDoc),
             material: find.material(xmlDoc),
             extent: find.extent(xmlDoc),
-            width: find.dimension(xmlDoc,'leaf','width'),
-            height: find.dimension(xmlDoc,'leaf','height'),
+            //width: find.dimension(xmlDoc,'leaf','width'),
+            //height: find.dimension(xmlDoc,'leaf','height'),
             date: find.date(xmlDoc),
             images: find.images(xmlDoc)
         };
