@@ -21,16 +21,16 @@
                   <idno type="alternate"><idno>Tamoul 59</idno><idno>Ariel 62</idno><idno>c/11</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103474c</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b10092682m</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/r494vs733</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary><p>The <title xml:lang="ta">Nālaṭiyār</title>, text &amp; commentary, complete, 1 satellite stanza, no <term xml:lang="ta">Kaṭavuḷ Vāḻttu</term>, marginal chapter intertitles.</p>
+                  <summary><p>The <title xml:lang="ta">Nālaṭiyār</title>, text &amp; commentary, complete,  preceded by a satellite stanza, which appears to the <term xml:lang="ta">Kaṭavuḷ Vāḻttu</term> of <persName xml:lang="ta" role="author">Auvaiyār</persName>'s <title xml:lang="ta">Mūturai</title>.</p>
 <p>Description based on the examination of the original manuscript (July 2020).</p>
 <p>Dimensions assessed at the time of examination.</p>      </summary>
                   
-               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page (additional)</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta">Nālaṭiyārurai: <term xml:lang="en">Text &amp; Commentary</term></title><textLang mainLang="tam"/></msItem></msContents>
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page (additional)</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta">Nālaṭiyārurai: <term xml:lang="en">Text &amp; Commentary</term></title><textLang mainLang="tam"/><finalRubric xml:lang="ta">In-text chapter completion statement. See selection below.</finalRubric></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi">
+                  <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf palmyra">
                         <support>
-                           <measure unit="stringhole" quantity="2"/>
+                           
                            
                         </support>
                         <extent>
@@ -48,12 +48,12 @@
                         <layout writtenLines="6 7"/>
                      </layoutDesc>
                   </objectDesc>
-                  <handDesc><handNote synch="#U1" scope="minor" scribeRef="#ArielTitleScribe" script="tamil" medium="incised soot"><desc>Hand #1.</desc></handNote><handNote synch="#U2" scope="major" script="tamil" medium="incised soot"><desc>Hand #2. Traditional script with modern <foreign xml:lang="ta">ṟa</foreign>.</desc></handNote></handDesc>
+                  <handDesc><handNote synch="#U1" scope="minor" script="tamil" medium="incised soot"><desc>Hand #1. <persName role="scribe">Ariel's title scribe</persName>.</desc></handNote><handNote synch="#U2" scope="major" script="tamil" medium="incised soot"><desc>Hand #2. Traditional script with modern <foreign xml:lang="ta">ṟa</foreign>.</desc></handNote></handDesc>
                   <additions>
-                  <desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 59</quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#CoverFront" type="documenting-note" subtype="cover front">BnF bequest sticker <quote>DON N° <space type="vacat"/></quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#U1" type="shelfmark">Shelfmark <quote>c/11</quote> in black ink (<locus facs="2">f[1]r</locus>). </desc><desc synch="#U2" type="preface">f1r-f7r.</desc><desc synch="#U2" type="intertitle" subtype="marginal left">Left-marginal intertitles, see examples blow.
+                  <desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 59</quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#CoverFront" type="documenting-note" subtype="cover front">BnF bequest sticker <quote>DON N° <space type="vacat"/></quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#U1" type="shelfmark">Shelfmark <quote>c/11</quote> in black ink (<locus facs="2">f[1]r</locus>). </desc><desc synch="#U2" type="preface">See f1r-f7r.</desc><desc synch="#U2" type="intertitle" subtype="marginal left">Left-marginal chapter intertitles. See selection below.
 </desc></additions>
                   <bindingDesc>
-                     <binding><p><material>Wood</material> covers possibly fabricated in the BnF, but not of the usual type with Ariel manuscripts.</p></binding>
+                     <binding><p><material>Wood</material> covers possibly fabricated in the BnF, but not of the usual type with Ariel manuscripts.</p><decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
                   </bindingDesc>
                </physDesc>
                <history>
@@ -78,18 +78,18 @@
       
    <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
-      <change when="2022-05">Preliminary version.</change><change when="2022-05">Updated to TST encoding conventions by Emmanuel FRANCIS. Added identifiers, bibliography, history.</change></revisionDesc></teiHeader>
+      <change when="2022-05">Preliminary version.</change><change when="2022-05">Updated to TST encoding conventions by Emmanuel FRANCIS. Added identifiers, bibliography, history.</change><change when="2022-06">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, June 2022. </change></revisionDesc></teiHeader>
    <facsimile>
    <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10092682m/manifest.json"/></facsimile>
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   <ab>
-      <pb facs="2" n="[1]r"/>
+      
+    <pb facs="2" n="[1]r"/>
     
     <seg function="title">
     <lb n="1"/>yitu nālaṭiyar <g ref="#pcs"/></seg> <seg function="blessing">civamaya=M<g ref="#pcs"/></seg>
     
         <pb facs="3" n="[1]v"/><note xml:lang="en">blank</note>
-
     
     </ab>
   </body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
@@ -105,28 +105,32 @@
 <lb n="5" break="no"/>laṭiyār urai <g ref="#pcs"/></seg>
       </seg>
     
-   <seg function="invocation"><milestone unit="main-text-area"/>       
-     
+   <seg function="invocation"><milestone unit="main-text-area"/>
   <lg><l><lb n="1"/><unclear reason="vowel_unclear">vā</unclear><supplied reason="lost">kku</supplied>ṇṭām nalla maṉamūṇṭā māmalarāḷ</l>
 <l>ṉōkkuṇṭā mēṉi ṉuṭaṅkātu pūkkoṇṭa</l>
-<l>tuppar tirumēṉi tu<gap reason="lost" unit="character" quantity="7"/><lb n="2"/>pikkai yāṉpātan</l>
-<l>tappāmaṟ cārvār tamakku <g ref="#pcs"/></l></lg></seg> Eṉpatu <g ref="#pcs"/>
-Atikārattu kaicelvanilaiyāmai Iḷaimainilai<gap reason="lost" unit="character" quantity="7"/><lb n="3"/>mai yākkainilaiyāmai Eṉṉu matikāravaṭaivukaḷukkumalaivām ~ Aḵtu yāteṉṉil ~ muṉpuya<gap reason="lost" unit="character" quantity="5"/><lb n="4"/>kkainilaiyāmaiyai yuṇartti Atu nilainaṉṟa piṉpu Iḷamainilaiyāmaiyai yuṇartti<gap reason="lost" unit="character" quantity="3"/> <lb n="5"/>piṉpu Anta viḷamaipparuvattilē muyaṉṟuṇṭāṉa celvattiṉilaiyāmaiyai yuṇarttavēṇṭa<gap reason="lost" unit="character" quantity="3"/>
+<l>tuppar tirumēṉi tu<supplied reason="lost">m</supplied>
+  <lb n="2" break="no"/>pikkai yāṉpātan</l>
+<l>tappāmaṟ cārvār tamakku <g ref="#pcs"/><note xml:lang="en" place="foot">This appears to the <term xml:lang="ta">Kaṭavuḷ Vāḻttu</term> of <persName xml:lang="ta" role="author">Auvaiyār</persName>'s <title xml:lang="ta">Mūturai</title></note>
+</l></lg></seg> <seg function="incipit" type="commentary">Eṉpatu <g ref="#pcs"/>
+Atikārattu kaicelvanilaiyāmai Iḷaimainilai<gap reason="lost"/>
+    <lb n="3"/>mai yākkainilaiyāmai Eṉṉu matikāravaṭaivukaḷukkumalaivām ~</seg> Aḵtu yāteṉṉil ~ muṉpuya<gap reason="lost" unit="character" quantity="5"/>
+    <lb n="4"/>kkainilaiyāmaiyai yuṇartti Atu nilainaṉṟa piṉpu Iḷamainilaiyāmaiyai yuṇartti<gap reason="lost"/>
+    <lb n="5"/>piṉpu Anta viḷamaipparuvattilē muyaṉṟuṇṭāṉa celvattiṉilaiyāmaiyai yuṇarttavēṇṭa<gap reason="lost"/>
+    <lb n="6"/><gap reason="ellipsis"/>
     
-     <pb facs="10" n="7r"/>
+         <pb facs="10" n="7r"/>
     <lb n="5"/><gap reason="ellipsis"/> <seg function="blessing">kuruvē tuṇai {pcs}</seg> <seg function="blessing">civañāṉatēvaṉ tiruvaṭikaḷē caraṇam {pcs}</seg> <seg function="blessing">civamaya=M={pcs} {pcs}</seg>
     
-              <pb facs="11" n="7v"/><note xml:lang="en">blank</note>
+      <pb facs="11" n="7v"/><note xml:lang="en">blank</note>
 
       <pb facs="11" n="8r"/>
-              <seg function="header">
-<seg function="title">
-        <milestone unit="left-margin"/>
-      <lb n="1"/><g ref="#pcs"/> nālaṭi
- <lb n="2" break="no"/>yār</seg>
- <seg function="intertitle"><lb n="3"/>celvani
- <lb n="4" break="no"/>laiyā
-  <lb n="5" break="no"/>mai {pcs}</seg>
+      <seg function="header">
+        <seg function="title"><milestone unit="left-margin"/>
+          <lb n="1"/><g ref="#pcs"/> nālaṭi
+          <lb n="2" break="no"/>yār</seg>
+        <seg function="intertitle"><lb n="3"/>celvani
+          <lb n="4" break="no"/>laiyā
+          <lb n="5" break="no"/>mai {pcs}</seg>
       </seg>
     
           <seg function="incipit" type="commentary"><milestone unit="main-text-area"/>          
@@ -135,15 +139,61 @@ Atikārattu kaicelvanilaiyāmai Iḷaimainilai<gap reason="lost" unit="character
     <lb n="3"/>yai yuṇarttappaṭṭatu <g ref="#pcs"/></seg> <seg function="incipit" type="root-text"><lg><l>Aṟucuvai yuṇṭi yamarnatillā ḷuṭṭa</l> <l>maṟucikai nīkkiyuṇ ṭārum ~ vaṟiñarāyc</l> <l>ce
     <lb n="4" break="no"/>ṉṟirappa rōriṭattuk kūḻeṉiṟ celvamoṉ</l> <l>ṟuṇṭāka vaikkappāṟ ṟaṉṟu <g ref="#pcs"/></l></lg></seg> Etu <g ref="#pcs"/> <gap reason="ellipsis"/>
     
-          <pb facs="13" n="9r"/><seg function="blessing">civā</seg>
+          <pb facs="13" n="9r"/>
+    <seg function="blessing" cert="low"><milestone unit="left-margin"/><lb n="1"/>civā</seg>
+    
+    <pb facs="17" n="12r"/>
+    <seg function="intertitle"><milestone unit="left-margin"/><lb n="1-3"/>Iḷamainilaiyāmai <g ref="#pcs"/></seg>
+    
+    <pb facs="21" n="16r"/>
+    <seg function="intertitle"><milestone unit="left-margin"/><lb n="1-3"/>Iyākkainilaiyāmai |</seg>
+    
+        <pb n="32"/><note xml:lang="en">folio missing</note>
 
+ <pb facs="48" n="41r"/>
+    <seg function="intertitle"><milestone unit="left-margin"/><lb n="1-2"/>poṟaiyuṭamai</seg>
+    
+    <milestone unit="main-text-area"/>
+    <lb n="3"/><gap reason="ellipsis"/> <g ref="#pcs"/> Eṉpatu <g ref="#pcs"/> <gap reason="ellipsis"/>
+    <lb n="4"/><gap reason="ellipsis"/> 
+    <lb n="5" break="no"/><gap reason="ellipsis"/>ṉṟa v<pc>-</pc>āṟu <g ref="#pcs"/> <g ref="#pattu"/> <g ref="#pcs"/> <seg function="completion-statement">ciṉamiṉmai muṟṟum <g ref="#pcs"/></seg> {Āka} veṇpā 7<g ref="#pattu"/> <seg function="correction">+<note xml:lang="en" place="foot">See interlinear and then right-marginal addition</note></seg> kotaiyaruvi <gap reason="ellipsis"/> 
+      
+      <pb facs="59" n="52r"/>
+       <seg function="intertitle"><milestone unit="left-margin"/><lb n="1-2"/>Īkai</seg>
+    
+      <milestone unit="main-text-area"/>
+      <lb n="4"/><gap reason="ellipsis"/> y<pc>-</pc>eṉṟa v<pc>-</pc>āṟu <g ref="#pcs"/> <g ref="#pattu"/> <g ref="#pcs"/> <seg function="completion-statement">piṟarmaṉai nayavāmai muṟṟum <g ref="#pcs"/></seg> <seg function="total-stanzas">{Āka} veṇpā <g ref="#pcs"/> <space/> 9<g ref="#pattu"/> <g ref="#pcs"/></seg>
+      <lb n="5"/>Īkai yaḵtāvatu <gap reason="ellipsis"/>
+      
+        <pb facs="183" n="174r"/>
+       <seg function="intertitle"><milestone unit="left-margin"/><lb n="1-3"/>kāmanutaliyal</seg>
+    
+          <pb facs="187" n="178r"/>
+    <lb n="1"/>viyatu ~ <gap reason="ellipsis"/>
+    <lb n="2"/><gap reason="ellipsis"/> 
+    <lb n="3"/><gap reason="ellipsis"/>
+    <lb n="4"/><gap reason="ellipsis"/>ṉ eṉṟa v<pc>-</pc>āru ~ kutirai <gap reason="ellipsis"/>
+    <lb n="5ff."/><gap reason="ellipsis"/>
+    
+    <pb facs="188" n="178v"/>
+    <lb n="1"/><gap reason="ellipsis"/>
+    <lb n="2"/><gap reason="ellipsis"/>t eṉṟa v<pc>-</pc>āru <g ref="#pcs"/> <g ref="#pcs"/><seg function="explicit" type="root-text"><lg><l>kaṇ mūṉṟuṭaiyāṇuṅ
+   <lb n="3"/>kākkaiyum pai yaravu</l>
+<l>m eṉṉ īṉṟa tāyum piḻaittat<pc>'</pc> eṉ poṉṉ īṉṟa</l>
+<l>kōṅk<pc>'</pc> arump<pc>'</pc> aṉṉa mulaiyāy poruḷvayiṟ</l>
+<l>pāṅkaṉār ceṉṟa neṟi <g ref="#pcs"/></l></lg></seg>
+    <lb n="3"/>
+    <seg function="explicit" type="commentary"><lb n="4"/>Eṉpatu <g ref="#pcs"/> yitu talaimakaḷ <gap reason="ellipsis"/>
+    <lb n="5ff."/><gap reason="ellipsis"/>
+   
+
+    
       <pb facs="188" n="179r"/>
 <lb n="1"/><gap reason="ellipsis"/>
-<seg function="explicit" type="commentary"><lb n="2"/><gap reason="ellipsis"/> t<pc>'</pc> eṉṟa v<pc>-</pc>āṟu <g ref="#pcs"/> <g ref="#pattu"/> <g ref="#pcl"/></seg> <seg function="colophon"><seg function="completion-statement">kāmanutaliyal muṟṟum <g ref="#pcs"/></seg> <seg function="total-stanzas">Āka veṇpā 4<g ref="#nūṟu"/></seg> <seg function="completion-statement">Eḻuti muṭintatu muṟṟum <g ref="#pcs"/></seg> <seg function="blessing">tirucciṟṟampalam <g ref="#pcl"/></seg></seg>
+<lb n="2"/><gap reason="ellipsis"/> t<pc>'</pc> eṉṟa v<pc>-</pc>āṟu <g ref="#pcs"/> <g ref="#pattu"/> <g ref="#pcl"/></seg> <seg function="colophon"><seg function="completion-statement">kāmanutaliyal muṟṟum <g ref="#pcs"/></seg> <seg function="total-stanzas">Āka veṇpā 4<g ref="#nūṟu"/></seg> <seg function="completion-statement">Eḻuti muṭintatu muṟṟum <g ref="#pcs"/></seg> <seg function="blessing">tirucciṟṟampalam <g ref="#pcl"/></seg></seg>
     <seg function="blessing"><lb n="3"/><note xml:lang="en">unblackened</note> ñaṉaliṅkacuvāmiyār tiruvaṭikaḷē caraṇa=M<g ref="#pcs"/></seg>
 
           <pb facs="188" n="179v"/><note xml:lang="en">blank</note>
-
     
     </ab>
   </body></text></TEI>
