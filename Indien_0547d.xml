@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
@@ -8,7 +8,7 @@
 			</titleStmt>
 			<publicationStmt>
 				<publisher>TST Project</publisher>
-				<date>2021</date>
+				<date>2022</date>
 			</publicationStmt>
 			<sourceDesc>
 				<msDesc>
@@ -19,13 +19,13 @@
 						</repository>
 						<idno type="shelfmark">Indien 547d</idno>
 						<idno type="alternate"><idno>Tamoul 547</idno></idno>
-					</msIdentifier>
+					<idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1040750</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/5d86p6281</idno></msIdentifier>
 					<msContents class="#STM">
-						<summary>TBC</summary>
+						<summary><p>Text not identified.</p></summary>
 
 					<msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="sa"><term xml:lang="en">TBC</term></title><textLang mainLang="san" otherLangs="tam"/></msItem></msContents>
 					<physDesc>
-						<objectDesc form="pothi">
+						<objectDesc form="pothi" rend="manuscript">
 							<supportDesc material="palm-leaf">
 								<extent>
 									<measure unit="folio" quantity="1">2 (U1 ).</measure>
@@ -37,21 +37,20 @@
 									</dimensions><dimensions type="written" unit="mm"/></extent>
 
 								
-								<support><measure unit="stringhole" quantity="1"/></support>
-								<collation><desc xml:id="U1">2 folios = <emph rend="bold">TBC</emph>. Tamil foliation
-										[1]-2. </desc></collation>
+								<support/>
+								<collation><desc xml:id="U1">2 folios = <emph rend="bold">TBC</emph>. Tamil foliation {1}, 2. </desc></collation>
 							</supportDesc>
 							<layoutDesc> </layoutDesc>
 						</objectDesc>
 						<handDesc>
 
 							
-						<handNote synch="#U1" scope="sole" script="grantha tamil" medium="incised"/></handDesc>
+						<handNote synch="#U1" scope="sole" script="grantha tamil" medium="incised soot"/></handDesc>
 						<additions/>
 						<bindingDesc>
 							<binding>
 								
-							</binding>
+							<decoNote type="stringhole"><measure unit="stringhole" quantity="1"/></decoNote></binding>
 						</bindingDesc>
 					</physDesc>
 					<history>
@@ -70,26 +69,19 @@
 
 
 							
-						<bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits
-									indiens, indo-chinois &amp; malayo-polynésiens</title>.
-								Bibliothèque nationale. Département des manuscrits. Paris: E.
-								Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f95">p.
-									76</ref>.</bibl></listBibl>
+						<bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f95">p. 76, no. 547</ref>.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. 1866-. <title>Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. —  See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f261">f. 123r, no. 547</ref>.</bibl></listBibl>
 					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
-		<revisionDesc>
-
-			
-		<change when="2021-08">Record created by Emmanuel FRANCIS.</change></revisionDesc>
+		
 		<encodingDesc>
 			
-		<p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph>
-				restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm =
-				left margin, r = recto, rm = right margin, U = unit (codicological and/or textual),
-				v = verso. </p></encodingDesc>
-	</teiHeader>
+		<p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.</p></encodingDesc>
+	<xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
+
+			
+		<change when="2021-08">Record created by Emmanuel FRANCIS.</change><change when="2022-06">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, June 2022.</change></revisionDesc></teiHeader>
 
 	
 	
@@ -98,13 +90,18 @@
 	
 	
 	
-<text><body>
+<facsimile><graphic url="https://didomena.ehess.fr/concern/data_sets/5d86p6281/manifest.json" facs="30"/></facsimile><text><body>
   
-  <pb n="[1]r"/>
+  <ab>
+    
+  <pb facs="30" n="[1]r"/>
   
-  <milestone unit="left-margin"/>
-  <lb n="1-2"/><seg function="title"><term xml:lang="ta">tiruppā<gap reason="illegible"/></term></seg>
-  <lb n="3-6"/><seg function="blessing"><term xml:lang="ta">Aḻvār tiruvaṭikaḷē caṟaṇam</term></seg>
+  <seg function="blessing"><milestone unit="left-margin"/>
+  <lb n="1-6"/><term xml:lang="ta">tiruppāṉ Āḻvār tiruvaṭikaḷē caṟaṇam</term></seg>
   
-  <pb n="[1]v"/>
+<seg function="incipit"><milestone unit="main-text-area"/>
+      <lb n="1"/><gap reason="ellipsis"/></seg>
+    
+    </ab>
+  
 </body></text></TEI>

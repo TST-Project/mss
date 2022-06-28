@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
@@ -8,7 +8,7 @@
 			</titleStmt>
 			<publicationStmt>
 				<publisher>TST Project</publisher>
-				<date>2021</date>
+				<date>2022</date>
 			</publicationStmt>
 			<sourceDesc>
 				<msDesc>
@@ -19,13 +19,13 @@
 						</repository>
 						<idno type="shelfmark">Indien 547g</idno>
 						<idno type="alternate"><idno>Tamoul 547</idno></idno>
-					</msIdentifier>
+					<idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1040750</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/5d86p6281</idno></msIdentifier>
 					<msContents class="#STM">
-						<summary>TBC</summary>
+						<summary><p>Text not identified.</p></summary>
 
 					<msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="sa"><term xml:lang="en">TBC</term></title><textLang mainLang="san"/></msItem></msContents>
 					<physDesc>
-						<objectDesc form="pothi">
+						<objectDesc form="pothi" rend="manuscript">
 							<supportDesc material="palm-leaf">
 								<extent>
 									<measure unit="folio" quantity="9">9 (U1).</measure>
@@ -37,10 +37,8 @@
 									</dimensions><dimensions type="written" unit="mm"/></extent>
 
 								
-								<support><measure unit="stringhole" quantity="1"/></support>
-								<collation><desc xml:id="U1">9 folios = <emph rend="bold">TBC</emph>. Tamil foliation [1], 3, 5-10, [1]
-										(foliation covered by sticker). In disorder in the bundle at
-										the time of examination. Sanskrit (and Tamil?).</desc></collation>
+								<support/>
+								<collation><desc xml:id="U1">9 folios = <emph rend="bold">TBC</emph>. Tamil foliation {1}, 3, 5-10, [11] (foliation covered by sticker). In disorder in the bundle at the time of examination. Sanskrit (and Tamil?).</desc></collation>
 							</supportDesc>
 							<layoutDesc> </layoutDesc>
 						</objectDesc>
@@ -52,7 +50,7 @@
 						<bindingDesc>
 							<binding>
 								
-							</binding>
+							<decoNote type="stringhole"><measure unit="stringhole" quantity="1"/></decoNote></binding>
 						</bindingDesc>
 					</physDesc>
 					<history>
@@ -71,26 +69,19 @@
 
 
 							
-						<bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits
-									indiens, indo-chinois &amp; malayo-polynésiens</title>.
-								Bibliothèque nationale. Département des manuscrits. Paris: E.
-								Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f95">p.
-									76</ref>.</bibl></listBibl>
+						<bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f95">p. 76, no. 547</ref>.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. 1866-. <title>Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. —  See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f261">f. 123r, no. 547</ref>.</bibl></listBibl>
 					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
-		<revisionDesc>
-
-			
-		<change when="2021-08">Record created by Emmanuel FRANCIS.</change></revisionDesc>
+		
 		<encodingDesc>
 			
-		<p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph>
-				restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm =
-				left margin, r = recto, rm = right margin, U = unit (codicological and/or textual),
-				v = verso. </p></encodingDesc>
-	</teiHeader>
+		<p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.</p></encodingDesc>
+	<revisionDesc>
+
+			
+		<change when="2021-08">Record created by Emmanuel FRANCIS.</change><change when="2022-06">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, June 2022.</change></revisionDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
 
 	
 	
@@ -99,16 +90,21 @@
 	
 	
 	
-<text synch="#U1" corresp="#T1" xml:lang="sa"><body>
+<facsimile><graphic url="https://didomena.ehess.fr/concern/data_sets/5d86p6281/manifest.json" facs="51"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="sa"><body>
+  <ab>
+    
+  <pb facs="63" n="[1]r"/>
+    
+  <seg function="blessing"><milestone unit="left-margin"/>
+    <lb n="1-2"/>hariḥ Om</seg>
   
-  <pb n="[1]r"/>
-  <milestone unit="left-margin"/>
+    <seg function="incipit">
+  <milestone unit="main-text-area"/>
+      <lb n="1"/><gap reason="ellipsis"/></seg>
   
-  <lb n="1-2"/>hariḥ Om
-  
-  <milestone unit="main-text-area"/><seg function="incipit"><gap reason="ellipsis"/></seg>
-  
-  <pb n="10v"/>
+  <pb facs="58" n="10r"/>
+    
+  <pb facs="59" n="10v"/>
   <lb n="1"/>
   <lb n="2"/>
   <lb n="3"/>
@@ -118,5 +114,6 @@
   <lb n="7"/>
   <lb n="8"/><seg function="explicit"><gap reason="ellipsis"/></seg> <g ref="#pcl"/>
 
-		</body>
+    </ab>
+</body>
 	</text></TEI>

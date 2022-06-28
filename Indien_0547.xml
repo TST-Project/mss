@@ -18,19 +18,19 @@
 								Manuscrits</orgName>
 						</repository>
 						<idno type="shelfmark">Indien 547</idno>
-						<idno type="alternate"><idno>Tamoul 547</idno></idno>
+						<idno type="alternate"><idno>Tamoul 547</idno><idno>Haas 48</idno></idno>
 					<idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1040750</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/5d86p6281</idno></msIdentifier>
 					<msContents class="#CM">
-						<summary><p>A composite manuscript containing 7 Vaiṣṇava works.</p>
+						<summary><p>A composite manuscript containing 7 Vaiṣṇava works, from the <title xml:lang="ta">Tivviyappirapantam</title>.</p>
 <p>Description based on the examination of the original manuscript (August 2021).</p>
 <p>Dimensions assessed at the time of examination.</p>      </summary>
 
 					</msContents>
 					<physDesc>
-						<objectDesc form="pothi">
+						<objectDesc form="pothi" rend="manuscript">
 							<supportDesc material="palm-leaf">
 								<extent>
-									<measure unit="folio" quantity="45">1 + 29 + 2 + 2 + 1 + 1 + 9 (Indien 547a + Indien 547b  + Indien 547c + Indien 547d + Indien 547e + Indien 547f + Indien 547g).</measure>
+									<measure unit="folio" quantity="45">{1} + 29 + 2 + 2 + 1 + [1] + 9 (Indien 547a + Indien 547b  + Indien 547c + Indien 547d + Indien 547e + Indien 547f + Indien 547g).</measure>
 									<dimensions type="leaf" unit="mm"> </dimensions>
 									<dimensions type="object" unit="mm">
 										<width quantity="430"/>
@@ -39,8 +39,8 @@
 									</dimensions><dimensions type="written" unit="mm"/></extent>
 
 								<condition>Relatively good state of preservation. Some truncation and cracks though.</condition>
-								<support><measure unit="stringhole" quantity="1"/></support>
-								<collation><desc xml:id="Indien547a"/><desc xml:id="Indien547b"/><desc xml:id="Indien547c"/><desc xml:id="Indien547d"/><desc xml:id="Indien547e"/><desc xml:id="Indien547f"/><desc xml:id="Indien547g"/></collation>
+								<support/>
+								<collation><desc xml:id="Indien547a">1 folio.</desc><desc xml:id="Indien547b">29 folios.</desc><desc xml:id="Indien547c">2 folios.</desc><desc xml:id="Indien547d">1 folio.</desc><desc xml:id="Indien547e">1 folio.</desc><desc xml:id="Indien547f">1 folio.</desc><desc xml:id="Indien547g">9 folios.</desc></collation>
 							</supportDesc>
 							<layoutDesc> </layoutDesc>
 						</objectDesc>
@@ -48,12 +48,11 @@
 
 							
 						</handDesc>
-						<additions><desc synch="#Indien547a" type="documenting-note">BnF register information, in black ink:
-<quote>R.C. 7881</quote> (Indien 547a, U1, <locus facs="4">f[1]</locus>).</desc></additions>
+						<additions><desc type="shelfmark">Haas shelfmark <quote>48</quote> on a <locus facs="3">small hard paper</locus> tied to the string.</desc><desc synch="#Indien547a" type="documenting-note">BnF register information, in black ink: <quote>R.C. 7881</quote> (Indien 547a, U1, <locus facs="4">f[1]</locus>).</desc><desc synch="#Indien547g" type="shelfmark">BnF shelfmark sticker, covering an older sticker: <quote>INDIEN 547</quote> (<locus facs="1">f[11]v</locus>).</desc></additions>
 						<bindingDesc>
 							<binding>
 								<p>No woodcovers. </p>
-							</binding>
+							<decoNote type="stringhole"><measure unit="stringhole" quantity="1"/></decoNote></binding>
 						</bindingDesc>
 					</physDesc>
 					<history>
