@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><title xml:lang="sa">Viṣṇusmṛti (Ātreyasmṛti / Yamasmṛti)</title></title>
+            
+         <editor><persName>Charles LI</persName><orgName>CNRS, CEIAS, UMR 8564</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2022</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Sanscrit 808e</idno>
+                  <idno type="alternate"><idno>Sanscrit Grantha 5</idno><idno>Ariel 57</idno><idno>c/2</idno></idno>
+               </msIdentifier>
+               <msContents class="#MTM">
+                  <summary><p>This manuscript is the fifth in a collection of five <term xml:lang="sa">smṛti</term> texts. In the marginal header at the beginning, as well as on the title page of the bundle, the text is titled <title xml:lang="sa">Viṣṇusmṛti</title>. However, there seem to be two different texts here:
+  <list>
+    <item>folios <locus facs="129">1r</locus>-<locus facs="132">3v</locus> correspond to the text of the <title xml:lang="sa">Ātreyasmṛti</title> (Goverment Oriental Library, Mysore, <ref target="https://archive.org/details/CkMI_descriptive-catalogue-of-sanskrit-manuscript-by-rangaswami-iyengar-shrinivasa-go/page/11/mode/1up">1656/2</ref>) or to the end of the <title xml:lang="sa">Vṛddhātrisaṃhitā</title> (Government Oriental Library, Mysore, <ref target="https://archive.org/details/CkMI_descriptive-catalogue-of-sanskrit-manuscript-by-rangaswami-iyengar-shrinivasa-go/page/7/mode/1up">A 136/7</ref> etc.), &amp;</item>
+    <item>folios <locus facs="129">4r</locus>-<locus facs="137">8v</locus> correspond to the text of the southern recension of the <title xml:lang="sa">Yamasmṛti</title>, chapter 2 (ed. Neuß 2011).</item>
+  </list>
+  There is, however, at least one manuscript titled <title xml:lang="sa">Viṣṇusmṛti</title> which transmits the text of the <title xml:lang="sa">Ātreyasmṛti</title> with 40 additional verses (Goverment Oriental Library, Mysore, <ref target="https://archive.org/details/CkMI_descriptive-catalogue-of-sanskrit-manuscript-by-rangaswami-iyengar-shrinivasa-go/page/169/mode/1up">3154/1</ref>), but it does not seem to be the same verses as seen here.</p>
+</summary>
+                  
+               <msItem defective="false"><title xml:lang="sa">Ātreyasmṛti</title><textLang mainLang="san"/><filiation><p>Goverment Oriental Library, Mysore, <ref target="https://archive.org/details/CkMI_descriptive-catalogue-of-sanskrit-manuscript-by-rangaswami-iyengar-shrinivasa-go/page/11/mode/1up">1656/2</ref>.</p></filiation><incipit xml:lang="sa"><milestone n="1r" facs="129" unit="folio"/>
+<lb n="1"/>asnātāśī malaṃ bhuṅ_kte ajapaḥ pūyaśoṇitaṃ |
+a<sic>bhutvā</sic>śī krimiṃ bhuṅ_kte adatvā viṣam aśnate | 
+
+caturastraṃ brāhmaṇasya trikoṇaṃ kṣatriya<lb n="2"/>sya tu - vaiśyasya varttuḻan taiva  śūdrasyābhyukṣaṇaṃ smṛtaṃ |
+
+brahmā viṣṇuś ca rūdraś ca śrīr hutāśana eva ca -
+maṇḍalāny upabhuñjante tasmāt_ ku<lb n="3"/>rvvīta maṇḍalaṃ -</incipit><explicit xml:lang="sa"><milestone n="3v" facs="132" unit="folio"/>
+<lb n="5"/>tasmād dānañ ca homañ ca devārcanañ japāṃs tathā - 
+kuryāt tattaddine yan naṃ tasya śāntir bhaviṣyati -
+<lb n="6"/>sarvvaṃ gaṃgāsamaṃ toyaṃ rāhugraste divākare -
+some py eva samaṃ toyaṃ nadyāṃ snānaṃ samācaret —
+<g ref="#pcl"/></explicit></msItem><msItem defective="false"><title xml:lang="sa">Yamasmṛti 2</title><textLang mainLang="san"/><incipit xml:lang="sa"><milestone facs="132" n="4r" unit="folio"/>
+<lb n="1"/>prāyaścittiyatāṃ prāpya ye narās tv a<sic>ta</sic>vratāḥ
+teṣāṃ daṇḍaṃ vratañ cāpi kramśaś coditaṃ śrṇu -</incipit><explicit xml:lang="sa"><milestone facs="136" n="8r" unit="folio"/>
+svasvasāhasakarttā yaḥ <subst>k<del rend="implied">a</del><add place="above">ā</add></subst>lād adhikasā<lb n="5"/>hasī - 
+
+ahaṃ bha<subst>v<del>e</del><add rend="implied">a</add></subst>ty apāpam iti cintyantu daṇḍayet -
+
+evaṃ pañca viśād rājā kaṇṭakānāṃ samuddharet -
+dharmmam artthaṃ tathāyuṣyaṃ yaśo rāṣṭrañ ca varddhate -
+
+<lb n="6"/>kaṇṭakānān tu kathitaṃ nyāyena prathamena yaḥ
+caturvvidhā kriyā proktā saṃsidhyati ca mārgataḥ
+
+kulādayo vivāda<space/> kṛtāgamāt -
+<pb n="8v" facs="137"/>koṇe py adhigatā śāstre -</explicit></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="pothi" rend="manuscript">
+                     <supportDesc material="palm-leaf palmyra">
+                        <support>
+                           
+                           
+                        </support>
+                        <extent>
+                           <measure unit="folio" quantity="8">1-8.</measure>
+                           <dimensions type="leaf" unit="mm">
+                              <width quantity="405"/>
+                              <height quantity="30"/>
+                           </dimensions>
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"><width min="360" max="370"/><height quantity="25"/></dimensions></extent>
+                        <collation/>
+                        
+                        
+                     <foliation>Tamil numerals, left margin.</foliation></supportDesc>
+                     <layoutDesc>
+                        
+                     <layout writtenLines="6"/></layoutDesc>
+                  </objectDesc>
+                  <handDesc><handNote scope="major" script="grantha" medium="ink soot"/></handDesc>
+                  <decoDesc>
+                  </decoDesc>
+                  <additions>
+                  <desc type="header" subtype="beginning marginal">On <locus facs="129">folio 1r</locus>, left margin: <q xml:lang="sa" rend="block">
+  <lb n="1"/><seg function="title">viṣṇu
+  <lb n="2" break="no"/>smṛti -</seg>
+  </q></desc></additions>
+                  <bindingDesc>
+                     <binding><p>Stringhole 115 mm from left edge.</p><decoNote type="stringhole"><measure unit="stringhole" quantity="1"/></decoNote></binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian"/>
+                     
+                  </origin>
+                  <provenance><p>Likely part of the collection of <persName role="collector">Édouard Ariel</persName>.</p></provenance>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <listBibl>
+                    
+                  <bibl>Cabaton, Antoine. 1907-1908. <title xml:lang="fr">Catalogue sommaire des manuscrits sanscrits avec supplément manuscrit</title>. Paris: E. Leroux. Supplemented by Jean Filliozat. <ref target="https://gallica.bnf.fr/ark:/12148/btv1b10536321f/f149.item">133</ref>.</bibl><bibl>Neuß, Jürgen. 2011. <title type="article"><ref target="http://gretil.sub.uni-goettingen.de/gretil_elib/Neu011__Neuss_UntersuchungenZurTextgeschichteDerYamasmrti_2te-Ausg.pdf">Untersuchungen zur Textgeschichte der Yamasmṛti.</ref></title> MA thesis (1999), Freie Universität Berlin.</bibl><bibl>Rangaswami Iyengar, H. R. &amp; Srinivasagopalachar, T. T. 1944. <title><ref target="https://archive.org/details/CkMI_descriptive-catalogue-of-sanskrit-manuscript-by-rangaswami-iyengar-shrinivasa-go">A Descriptive Catalogue of the Sanskrit Manuscripts in the Goverment Oriental Library, Mysore, Vol. II — Dharmaśāstra (Smṛtis).</ref></title> Mysore: Government Branch Press.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         
+      <p>IAST transliteration.</p></encodingDesc>
+      
+   <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
+         
+      <change when="2022-06">First version.</change></revisionDesc></teiHeader>
+   <facsimile>
+   <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b100827834/manifest.json" facs="129"/></facsimile>
+</TEI>
