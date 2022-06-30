@@ -4,7 +4,7 @@
    <teiHeader xml:lang="en">
       <fileDesc>
          <titleStmt>
-            <title>Collection (3 items, 3 works) <title xml:lang="ta">Caivam Nāṅku</title>, “Four Śaiva works”</title>
+            <title>Collection (3 items, 3 Śaiva works) </title>
          <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          
          <publicationStmt>
@@ -31,10 +31,10 @@
 </p></summary>
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page (additional)</term></title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi">
+                  <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
                         <support>
-                            <measure unit="stringhole" quantity="1"/>
+                            
                         </support>
                         <extent>
                            <measure unit="folio" quantity="90">{1} + 38 + 48 + {3} (U1 + Indien 30a + Indien 30b + Indien 30c).</measure>
@@ -51,14 +51,14 @@
                   </objectDesc>
                   <handDesc>
                     
-                  <handNote synch="#U1" scope="minor" scribeRef="#ArielTitleScribe" script="tamil" scriptRef="#tamilPulliRegular #tamilOE" medium="incised"/></handDesc>
+                  <handNote synch="#U1" scope="minor" script="tamil" scriptRef="#tamilPulliRegular #tamilOE" medium="incised soot"><desc><persName role="scribe">Ariel's title scribe</persName>.</desc></handNote></handDesc>
                   <additions>
                      
-                  <desc synch="#U1" type="shelfmark"><quote>c/45</quote> written in black ink.</desc></additions>
+                  <desc synch="#U1" type="shelfmark">Shelfmark <quote>c/45</quote> in black ink (<locus facs="0">f[1]r</locus>). </desc></additions>
                   <bindingDesc>
                      <binding>
                         <p><material cert="medium">Pinewood</material> covers apparently fabricated in the BnF.</p>
-                     </binding>
+                     <decoNote type="stringhole"><measure unit="stringhole" quantity="1"/></decoNote></binding>
                   </bindingDesc>
                </physDesc>
                <history>
@@ -74,7 +74,7 @@
                <additional>
                   <listBibl>
                     
-                  <bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f26">p. 8</ref>.</bibl><bibl>Rosny, Léon de. 1868. “La bibliothèque tamoule de M. Ariel, de Pondichéry.” In: <title>Variétés orientales</title> (pp. 177‒224). Paris: Maisonneuve.</bibl><bibl>Vinson, Julien (1867‒1868). <title>Catalogue des manuscrits tamouls</title>. Corrected proofreadings printed by the atelier oriental de l’Imprimerie nationale. Access No. 4-IMPROR-77 (B). — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b105333021/f31">p. 11</ref>.</bibl></listBibl>
+                  <bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f26">p. 8, no. 30</ref>.</bibl><bibl>Rosny, Léon de. 1868. “La bibliothèque tamoule de M. Ariel, de Pondichéry.” In: <title>Variétés orientales</title> (pp. 177‒224). Paris: Maisonneuve.</bibl><bibl>Vinson, Julien. 1868. <title>Manuscrits tamouls</title>. Proofreadings of the catalogue for Tamoul 1-204 (old shelfmark). Printed by the atelier oriental de l’Imprimerie nationale. BnF “4-IMPROR-77 (B)”. — The same proofreadings with black ink handwritten corrections are found in Vinson et al. (1866-, f1-f49). — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b105333021/f31">p. 11, no. 30</ref>.</bibl></listBibl>
                </additional>
                
                 
@@ -93,26 +93,29 @@
    </facsimile>
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   <ab>
+    
   <pb facs="2" n="[1]r"/>
   
-  <milestone n="1" unit="column"/>
-  <lb n="1"/><seg function="blessing">veṟṟi
+  <seg function="blessing"><milestone n="1" unit="column"/>
+  <lb n="1"/>veṟṟi
   <lb n="2" break="no"/>vēl uṟṟa
   <lb n="3"/>tuṇai</seg>
   
-  <milestone n="2" unit="column"/>
-  <lb n="1"/><seg function="title">caivam
+    <seg function="table-of-contents">
+  <seg function="total-works"><milestone n="2" unit="column"/>
+  <lb n="1"/>caivam
   <lb n="2"/><del rend="crossed-out">mūṉṟu</del>
   <lb n="3"/>nāṅku</seg>
   
-  <milestone n="3" unit="column"/>
-  <lb n="1"/><seg function="title">kantarantāti<pc>-</pc>y<pc>-</pc>urai</seg>
-  <lb n="2"/><seg function="title">piḷḷaiyār akaval</seg>
-  <lb n="3"/><seg function="title">caravaṇapavaṉ tōttiram</seg>
+  <seg function="title"><milestone n="3" unit="column"/>
+  <lb n="1"/>kantarantāti<pc>-</pc>y<pc>-</pc>urai</seg>
+  <seg function="title"><lb n="2"/>piḷḷaiyār akaval</seg>
+  <seg function="title"><lb n="3"/>caravaṇapavaṉ tōttiram</seg>
   
-  <milestone n="4" unit="column"/>
-  <lb n="1"/><seg function="title">tiruppātiri
+  <seg function="title"><milestone n="4" unit="column"/>
+  <lb n="1"/>tiruppātiri
   <lb n="2" break="no"/>veṇpā<pc>-</pc>v<pc>-</pc>urai</seg>
+      </seg>
     
     </ab>
   </body></text></TEI>

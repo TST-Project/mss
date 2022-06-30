@@ -4,7 +4,7 @@
    <teiHeader xml:lang="en">
       <fileDesc>
          <titleStmt>
-            <title><title xml:lang="ta">Kantarantāti<pc>-</pc>y<pc>-</pc>urai</title> (text by <persName xml:lang="ta">Aruṇakirinātar</persName> and commentary interspersed)</title>
+            <title><title xml:lang="ta">Kantarantāti</title> (text &amp; commentary)</title>
          <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          
          <publicationStmt>
@@ -22,19 +22,21 @@
                   <idno type="alternate"/>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103407h</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary><p>The <title xml:lang="ta">Kantarantāti</title> by <persName xml:lang="ta">Aruṇakirinātar</persName> (15th century) is a praise in verse of the god <term xml:lang="ta">Murukaṉ</term>. The text is incomplete. It stops at stanza n° 80.</p></summary>
+                  <summary><p>The <title xml:lang="ta">Kantarantāti</title> by <persName xml:lang="ta">Aruṇakirinātar</persName> (15th century) is a praise in verse of the god <term xml:lang="ta">Murukaṉ</term>. Entitled <title xml:lang="ta">Kantarantāti<pc>-</pc>y<pc>-</pc>urai</title>. With a commentary interspersed. The text is incomplete. It stops at stanza no. 80.</p>
+
+</summary>
                   
                   
                   
-               <msItem synch="#U1" xml:id="T1" defective="true"><title xml:lang="ta">Kantarantāti<pc>-</pc>y<pc>-</pc>urai</title><author xml:lang="ta">Aruṇakirinātar</author><textLang mainLang="tam"/></msItem></msContents>
+               <msItem synch="#U1" xml:id="T1" defective="true"><title xml:lang="ta">Kantarantāti: Mūlam &amp; Urai</title><author xml:lang="ta">Aruṇakirinātar</author><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi">
+                  <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
                         <support>
-                            <measure unit="stringhole" quantity="1"/>
+                            
                         </support>
                         <extent>
-                           <measure unit="folio" quantity="38">37 + 1 (U1 + U2).</measure>
+                           <measure unit="folio" quantity="38">37 + {1} (U1 + U2).</measure>
                            <dimensions type="leaf" unit="mm">
                              <width quantity="300"/>
                              <height quantity="30"/>
@@ -49,7 +51,7 @@
                         
 
                         
-                     <collation><desc xml:id="U1">37 folios = <emph rend="bold"><title xml:lang="ta">Kantarantāti<pc>-</pc>y<pc>-</pc>urai</title></emph>. Tamil foliation [1]-6<sup>1</sup>, 6<sup>2</sup>-36.</desc><desc xml:id="U2">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Blank rv.</desc></collation></supportDesc>
+                     <collation><desc xml:id="U1">37 folios = <emph rend="bold"><title xml:lang="ta">Kantarantāti</title>: Text &amp; Commentary</emph>. Tamil foliation {1}, 2-6<sup>1</sup>, 6<sup>2</sup>-36.</desc><desc xml:id="U2">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso.</desc></collation></supportDesc>
                      <layoutDesc>
                         <layout columns="1"/>
                      </layoutDesc>
@@ -60,13 +62,13 @@
                      
                      
                      
-                  <handNote synch="#U1" scope="major" script="tamil" medium="incised"/></handDesc>
+                  <handNote synch="#U1" scope="major" script="tamil" medium="incised soot"/></handDesc>
                   <additions>
                     
                     
                     
                   </additions>
-               </physDesc>
+               <bindingDesc><binding><decoNote type="stringhole"><measure unit="stringhole" quantity="1"/></decoNote></binding></bindingDesc></physDesc>
                <history>
                   <origin>
                      <origDate calendar="gregorian" notAfter="1854">No internal date. Not after 1854, since part of the collection of <persName role="collector">Édouard Ariel</persName> (1818-1854), bequested in 1855 to the Société Asiatique, Paris (Rosny 1868).</origDate>
@@ -95,39 +97,36 @@
       <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b100926671/manifest.json"/>
    </facsimile>
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
-  
+  <ab>
+    
   <pb facs="3" n="[1]r"/>
   
-  <milestone n="1" unit="left-margin"/>
-  <lb n="1"/><seg function="blessing">vēyuṟu
+  <seg function="blessing"><milestone n="1" unit="left-margin"/>
+  <lb n="1"/>vēyuṟu
   <lb n="2" break="no"/>tōḷipa
   <lb n="3" break="no"/>ṅkaṉ
   <lb n="4"/>ṟuṇai
   <note xml:lang="en"><foreign xml:lang="ta">vēyuṟutōḷipaṅkaṉ</foreign> is the beginning of <title xml:lang="ta">Tēvāram</title> 2.85</note></seg>
   
-   <milestone n="2" unit="left-margin"/>
-  <lb n="1"/><seg function="title">kantarantāti
+   <seg function="title"><milestone n="2" unit="left-margin"/>
+  <lb n="1"/>kantarantāti
   <lb n="2"/>Urai</seg>
   
-  <milestone unit="main-text-area"/>
-  <lb n="1"/><seg function="incipit">vāraṇat tāṉai = nāṉku<pc>-</pc>maruppai<pc>-</pc>y<pc>-</pc>uṭaiya Ayirāvatattai<pc>-</pc>y<pc>-</pc>uṭaiya
+  <seg function="incipit"><milestone unit="main-text-area"/>
+  <lb n="1"/>vāraṇat tāṉai = nāṉku<pc>-</pc>maruppai<pc>-</pc>y<pc>-</pc>uṭaiya Ayirāvatattai<pc>-</pc>y<pc>-</pc>uṭaiya
   <lb n="2"/>tēvēntiraṉaiyum</seg> = Ayaṉai = piramaṉaiyum = viṇṇōrai = tēvar
   <lb n="3" break="no"/>kkaḷaiyum = malarkkarattu = <gap reason="ellipsis"/>
   
   <pb facs="4" n="[1]v"/>
   <lb n="2"/> <gap reason="ellipsis"/> = <seg function="explicit">vāḻttuvaṉ =
-  <lb n="3"/> tuti ceyvaṉ = Ē = īṟṟacai = Iḵtu vināyakaṉ aṟu<sup>ti</sup></seg> <del><gap reason="illegible" quantity="2" unit="character"/></del> <g ref="#pcl"/>
+  <lb n="3"/>tuti ceyvaṉ = Ē = Īṟṟacai = Iḵtu vināyakaṉ aṟu<add place="above">ti</add> <del><gap reason="illegible" quantity="2" unit="character"/></del> <g ref="#pcl"/></seg>
   
   <pb facs="4" n="2r"/>
-  <lb n="1"/><seg function="incipit">Uṇ = kaṉṟukaḷaiyum =</seg> <gap reason="ellipsis"/>
+  <seg function="incipit"><lb n="1"/>Uṇ = kaṉṟukaḷaiyum =</seg> <gap reason="ellipsis"/>
   
   <pb facs="44" n="36v"/>
-  <lb n="4"/><seg function="explicit">Imaiyōr = tēvarkkaḻuṭaiya = makuṭam = kiṟīṭattiṟku kaṭṭā<pc>-</pc>niṉṟa = cikāvimpamē = parivaṭṭamē = cupparamaṇiyarukku āparaṇa-
+  <seg function="explicit"><lb n="4"/>Imaiyōr = tēvarkkaḻuṭaiya = makuṭam = kiṟīṭattiṟku kaṭṭā<pc>-</pc>niṉṟa = cikāvimpamē = parivaṭṭamē = cupparamaṇiyarukku āparaṇa-
   <lb n="5" break="no"/>m ākum = cikāvimpam eṉpatu = cikaiyiṟ kaṭṭukiṟa va<emph rend="bold">stti</emph>rattiṟku peyar ākum = <g ref="#pcs"/> 80 =</seg>                    
 
-</body>
-  
-          
-  
-  
-                        </text></TEI>
+    </ab>
+</body></text></TEI>

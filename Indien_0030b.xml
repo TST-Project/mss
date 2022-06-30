@@ -4,7 +4,7 @@
    <teiHeader xml:lang="en">
       <fileDesc>
          <titleStmt>
-            <title><title xml:lang="ta">Tiruppātiriveṇpā<pc>-</pc>v<pc>-</pc>urai</title> (text and commentary interspersed)</title>
+            <title><title xml:lang="ta">Tiruppātiriveṇpā</title> (text &amp; commentary)</title>
          <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          
          <publicationStmt>
@@ -21,24 +21,25 @@
                   <idno type="alternate"/>
                </msIdentifier>
                <msContents class="#STM">
-                  <summary><p>The <title xml:lang="ta">Pātiri Veṇpā</title> appears to be a poem praising the Lord Śiva of <title xml:lang="ta">Tiruppātirippuliyūr</title>, that is <geogName xml:lang="ta">Pāṭaliputtiram</geogName>, in the undivided South Arcot district of Tamil Nadu. The text is incomplete. It stops abruptly at stanza n° 79 at the end of the page (U2, <locus facs="85">f37v</locus>).</p>
+                  <summary><p>The <title xml:lang="ta">Tiruppātiriveṇpā</title> appears to be a poem praising the Lord Śiva of <title xml:lang="ta">Tiruppātirippuliyūr</title>, that is <placeName xml:lang="ta">Pāṭaliputtiram</placeName>, in the undivided South Arcot district of Tamil Nadu. With a commentary interspersed. The text is incomplete. It stops abruptly at stanza no. 79 at the end of the page (U2, <locus facs="85">f37v</locus>).</p>
+<p>The <foreign xml:lang="ta">Kāppu</foreign> stanza (unnumbered) is followed by further stanzas, numbered 1‒79. Stanzas are first quoted, then followed by <foreign xml:lang="ta" rend="italic">patavurai</foreign> and <foreign xml:lang="ta" rend="italic">poḻippurai</foreign>.</p>
                   </summary>
-                   <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="true"><title xml:lang="ta">Tiruppātiriveṇpā<pc>-</pc>v<pc>-</pc>urai</title><textLang mainLang="tam"/></msItem></msContents>
+                   <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Tiruppātiriveṇpā: <term xml:lang="en">Title Page</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="true"><title xml:lang="ta">Tiruppātiriveṇpā: <term xml:lang="en">Text &amp; Commentary</term></title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi">
+                  <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
                         <support>
-                            <measure unit="stringhole" quantity="1"/>
+                            
                             <p>U1 has width 285 mm, U2 has width 290 mm.</p>
                         </support>
                         <extent>
-                           <measure unit="folio" quantity="48">1 + 37 + 10 (U1 + U2 + U3).</measure>
+                           <measure unit="folio" quantity="48">{1} + 37 + {10} (U1 + U2 + U3).</measure>
                            <dimensions type="leaf" unit="mm">
                              <width min="285" max="290"/>
                              <height quantity="30"/>
                            </dimensions>
                         <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
-                        <collation><desc xml:id="U1">1 folio = <emph rend="bold">title-page of <title xml:lang="ta">Tiruppātiriveṇpā<pc>-</pc>v<pc>-</pc>urai</title></emph>. No foliation. Verso blank</desc><desc xml:id="U2">37 folios = <emph rend="bold"><title xml:lang="ta">Tiruppātiriveṇpā<pc>-</pc>v<pc>-</pc>urai</title></emph>. Tamil foliation 1-36, [37].</desc><desc xml:id="U3">10 folios = <emph rend="bold">guard leaves</emph>. No foliation. Blank rv.</desc></collation>
+                        <collation><desc xml:id="U1">1 folio = <emph rend="bold"><title xml:lang="ta">Tiruppātiriveṇpā</title>: Title Page</emph>. No foliation. Verso blank</desc><desc xml:id="U2">37 folios = <emph rend="bold"><title xml:lang="ta">Tiruppātiriveṇpā</title>: Text &amp; Commentary</emph>. Tamil foliation 1-36, [37].</desc><desc xml:id="U3">10 folios = <emph rend="bold">guard leaves</emph>. No foliation. Blank rv.</desc></collation>
                         
                      </supportDesc>
                      <layoutDesc>
@@ -46,14 +47,14 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                      <handNote synch="#U1" scope="minor" script="tamil" medium="incised"><desc>Possibly the same hand as that of U2.</desc></handNote><handNote synch="#U2" scope="major" script="tamil" medium="incised"/></handDesc>
+                      <handNote synch="#U1" scope="minor" script="tamil" medium="incised soot"><desc>Possibly the same hand as that of U2.</desc></handNote><handNote synch="#U2" scope="major" script="tamil" medium="incised soot"/></handDesc>
                   <additions>
                      
                     
                     
                     
-                  <desc type="header" subtype="marginal"/></additions>
-               </physDesc>
+                  <desc synch="#U2" type="intertitle verse-beginning" subtype="marginal left">Left-marginal <foreign xml:lang="sa">pratīka</foreign>s used as intertitles.</desc></additions>
+               <bindingDesc><binding><decoNote type="stringhole"><measure unit="stringhole" quantity="1"/></decoNote></binding></bindingDesc></physDesc>
                <history>
                   <origin>
                      <origDate calendar="gregorian" notAfter="1854">No internal date. Not after 1854, since part of the collection of <persName role="collector">Édouard Ariel</persName> (1818-1854), bequested in 1855 to the Société Asiatique, Paris (Rosny 1868).</origDate>
@@ -67,57 +68,53 @@
          
          
       <p> <emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.     </p></encodingDesc>
-   <revisionDesc><change when="2021-06">Updated to TST encoding conventions by Emmanuel FRANCIS.</change></revisionDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
+   <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc><change when="2021-06">Updated to TST encoding conventions by Emmanuel FRANCIS.</change></revisionDesc></teiHeader>
    <facsimile>
       <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b100926671/manifest.json"/>
    </facsimile>
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
-  
+  <ab>
+    
   <pb facs="45" n="[1]r"/>
-  <lb n="1"/><seg function="title">tiruppātiri veṇpā</seg>
-  <lb n="2"/>Oru<pc>-</pc>c<pc>-</pc>col<pc>-</pc>l<pc>-</pc>alaṅ
-  <lb n="3" break="no"/>kāram <g ref="#pcl"/>
+  <seg function="title"><lb n="1"/>tiruppātiri veṇpā
+    <lb n="2"/>Oru<pc>-</pc>c<pc>-</pc>col<pc>-</pc>l<pc>-</pc>alaṅ
+  <lb n="3" break="no"/>kāram <g ref="#pcl"/></seg>
 
-</body>
-</text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
-  
+    </ab>
+</body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
+  <ab>
+    
   <pb facs="46" n="[1]r"/>
   
-  <milestone unit="left-margin"/>
-  <lb n="1"/><seg function="blessing">tirucciṟṟampalam</seg>
-  <lb n="2"/><seg function="title">pātiri<pc>-</pc>veṇpā</seg>
-  <lb n="3"/><seg function="title">Oru<pc>-</pc>coṟ<pc>-</pc>pala<pc>-</pc>po
+    <seg function="header">
+  <seg function="blessing"><milestone unit="left-margin"/>
+  <lb n="1"/>tirucciṟṟampalam</seg>
+  <seg function="title"><lb n="2"/>pātiri<pc>-</pc>veṇpā
+  <lb n="3"/>Oru<pc>-</pc>coṟ<pc>-</pc>pala<pc>-</pc>po
   <lb n="4" break="no"/>ruḷ<pc>-</pc>alaṅkāra urai</seg>
-  <lb n="5"/><seg function="blessing">tiruppātirippuli
+  <seg function="blessing"><lb n="5"/>tiruppātirippuli
   <lb n="6" break="no"/>yūr civakkoḻuntī
-  <lb n="7" break="no"/>curar tuṇai</seg> <g ref="#pcl"/>
+  <lb n="7" break="no"/>curar tuṇai <g ref="#pcl"/></seg>
+      </seg>
   
-  <milestone unit="main-text-area"/>
-  
-  <note xml:lang="en"><foreign xml:lang="ta">Kāppu</foreign> stanza (unnumbered) followed by further stanzas, numbered 1‒79. Stanzas are first quoted, then followed by <foreign xml:lang="ta" rend="italic">patavurai</foreign> and <foreign xml:lang="ta" rend="italic">poḻippurai</foreign>.</note>
-  
-  <lb n="1"/><seg function="incipit">cīr<pc>-</pc>pūtta<pc>-</pc>teyva<pc>-</pc>c<pc>-</pc>civa<pc>-</pc>k<pc>-</pc>koḻunt<pc>-</pc>ēṟippaṭ(ar)<pc>-</pc>p – pār<pc>-</pc>pūtta<pc>-</pc>pātiri<pc>-</pc>veṇpāvukku<pc>-</pc>t – tārpūtta – ceṉṉivaṉattā
-                         <lb n="2" break="no"/>ṉai<pc>-</pc>mukaṉ ceṅ<pc>-</pc>kai<pc>-</pc>k ka<unclear reason="consonant_unclear">ṉi</unclear>kavaruṅ – kaṉṉivaṉa<pc>-</pc>t<pc>-</pc>tāḷai mukaṉ kāppu <g ref="#pcl"/> eṉpatu <g ref="#pcl"/> patavurai <g ref="#pcl"/> cīr – celvam – pūtta
-                         <lb n="3"/>niṟainta – teyva – tivviyam ākiya –</seg> <gap reason="ellipsis"/>
+   <seg function="incipit" type="root-text"><seg function="invocation">
+     <milestone unit="main-text-area"/>
+    <lg><l><lb n="1"/>cīr<pc>-</pc>pūtta<pc>-</pc>teyva<pc>-</pc>c<pc>-</pc>civa<pc>-</pc>k<pc>-</pc>koḻunt<pc>-</pc>ēṟippa<unclear reason="vowel_unclear">ṭa</unclear><unclear>r</unclear><pc>-</pc>p –</l> <l>pār<pc>-</pc>pūtta<pc>-</pc>pātiri<pc>-</pc>veṇpāvukku<pc>-</pc>t – tārpūtta –</l> <l>ceṉṉivaṉattā
+      <lb n="2" break="no"/>ṉai<pc>-</pc>mukaṉ ceṅ<pc>-</pc>kai<pc>-</pc>k ka<unclear reason="consonant_unclear">ṉi</unclear>kavaruṅ –</l> <l>kaṉṉivaṉa<pc>-</pc>t<pc>-</pc>tāḷai mukaṉ kāppu <g ref="#pcl"/></l></lg></seg></seg> <seg function="incipit" type="commentary">Eṉpatu <g ref="#pcl"/> patavurai <g ref="#pcl"/> <hi rend="bold">cīr</hi> – celvam – <hi rend="bold">pūtta</hi>
+                         <lb n="3"/>niṟainta – <hi rend="bold">teyva</hi> – tivviyam ākiya – <gap reason="ellipsis"/></seg>
                       
   <pb facs="85" n="[37]v"/>
   
-  <note xml:lang="en">excipit: stanza n° 79. Marginal <foreign xml:lang="ta">pratīka</foreign>.</note>
-  
-  <milestone unit="left-margin"/>
-  <lb n="1"/><seg function="intertitle">yāka<pc>-</pc>p<pc>-</pc>pukai</seg>
+  <seg function="verse-beginning intertitle"><milestone unit="left-margin"/>
+  <lb n="1"/>yāka<pc>-</pc>p<pc>-</pc>pukai</seg>
   
     <milestone unit="main-text-area"/>
-  <lb n="2"/><gap reason="ellipsis"/> eṉṟa<pc>-</pc>v āṟu <g ref="#pcl"/> 78 <g ref="#pcl"/> yāka<pc>-</pc>p<pc>-</pc>pukai <gap reason="ellipsis"/>
-                            <lb n="3"/><gap reason="ellipsis"/>
-                            <lb n="4"/><gap reason="ellipsis"/> kāppu <g ref="#pcl"/> Eṉpatu <g ref="#pcl"/> valatu pāricattilē yāka<pc>-</pc>p<pc>-</pc>pukai – veḷel eṉṟ<pc>’</pc> e
-                            <lb n="5" break="no"/>ḻumpi maṟaittu maṟaiyāta<del><gap reason="illegible" quantity="1" unit="character"/></del> maṟṟai<pc>-</pc>y iṭatu pāricam – pacēl eṉṟ<pc>’</pc> irukkiṟatu veṇmai<pc>-</pc>y<pc>-</pc>ākiya paramaciva
+  <lb n="2"/><gap reason="ellipsis"/> eṉṟa<pc>-</pc>v āṟu <g ref="#pcl"/> 78 <g ref="#pcl"/> <seg function="explicit" type="root-text"><lg><l>yāka<pc>-</pc>p<pc>-</pc>pukai <gap reason="ellipsis"/>
+    <lb n="3"/><gap reason="ellipsis"/>
+    <lb n="4"/><gap reason="ellipsis"/> kāppu <g ref="#pcl"/></l></lg></seg> <seg function="explicit" type="commentary">Eṉpatu <g ref="#pcl"/> valatu pāricattilē yāka<pc>-</pc>p<pc>-</pc>pukai – veḷel eṉṟ<pc>’</pc> e
+    <lb n="5" break="no"/>ḻumpi maṟaittu maṟaiyāta<del><gap reason="illegible" quantity="1" unit="character"/></del> maṟṟai<pc>-</pc>y iṭatu pāricam – pacēl eṉṟ<pc>’</pc> irukkiṟatu veṇmai<pc>-</pc>y<pc>-</pc>ākiya paramaciva
                             <lb n="6" break="no"/>ṉ iṭatu pāricattilē pacumai<pc>-</pc>y<pc>-</pc>ākiya pārvati<pc>-</pc>tēvi<pc>-</pc>y irukkiṟatu pōla viḷaṅkun tiruppātiri<pc>-</pc>y eṉṉun taku<unclear reason="vowel_unclear">vā</unclear>
-                            <lb n="7" break="no"/>ṉ atu – Uṭa<pc>-</pc>poruḷai<pc>-</pc>y uṇarv<pc>-</pc>alla – Irukkākiya vētamun tēṭi<pc>-</pc>k kāṉāmal Olamiṭṭ<pc>’</pc> uraikkum pat<choice><unclear>ara</unclear><unclear>ā</unclear></choice>mpuyattai <note xml:lang="en">the text stops here abruptly at the end of the page.</note>
+                            <lb n="7" break="no"/>ṉ atu – Uṭa<pc>-</pc>poruḷai<pc>-</pc>y uṇarv<pc>-</pc>alla – Irukkākiya vētamun tēṭi<pc>-</pc>k kāṉāmal Olamiṭṭ<pc>’</pc> uraikkum pat<choice><unclear>ara</unclear><unclear>ā</unclear></choice>mpuyattai <note xml:lang="en">the text stops here abruptly at the end of the page.</note></seg>
                     
-  
-  
-                    
-
-</body>
-  </text></TEI>
+  </ab>
+</body></text></TEI>
