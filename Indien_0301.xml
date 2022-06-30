@@ -19,21 +19,21 @@
                   </repository>
                   
                   <idno type="shelfmark">Indien 301</idno>
-                  <idno type="alternate"><idno>Tamoul 301</idno><idno>Ariel TBC</idno></idno>
+                  <idno type="alternate"><idno>Tamoul 301</idno><idno>Ariel TBC</idno><idno>b/71</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103831d</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary>The <title xml:lang="ta">Kōyiṟpurāṇam</title> by Umāpati Civācāriyar. See Zvelebil (1995, p. 362). An almost complete copy.</summary>
+                  <summary><p>The <title xml:lang="ta">Kōyiṟpurāṇam</title> by <persName xml:lang="ta" role="author">Umāpati Civācāriyar</persName>. See Zvelebil (1995, p. 362). An almost complete copy.</p></summary>
                   
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="true"><title xml:lang="ta">Kōyiṟpurāṇam</title><author xml:lang="ta">Umāpati Civācāriyar</author><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi">
+                  <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
                         <support>
                            <!--measure unit="stringholes" quantity=""/-->
-                        <measure unit="stringhole" quantity="2"/></support>
+                        </support>
                         <extent>
-                           <measure unit="folio" quantity="90">[1] + 89 (U1 + U2).</measure>
+                           <measure unit="folio" quantity="90">{1} + 89 (U1 + U2).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
@@ -61,7 +61,7 @@
                      
                      
                     
-                  <handNote synch="#U1" scope="minor" scribeRef="#ArielTitleScribe" script="tamil" scriptRef="#tamilPulliRegular #tamilOE" medium="incised soot"><desc>Hand #1.</desc></handNote><handNote synch="#U2" scope="major" script="tamil" medium="incised soot"><desc>Hand #2. f90-f91 unblackened.</desc></handNote></handDesc>
+                  <handNote synch="#U1" scope="minor" script="tamil" scriptRef="#tamilPulliRegular #tamilOE" medium="incised soot"><desc>Hand #1. <persName role="scribe">Ariel's title scribe</persName>.</desc></handNote><handNote synch="#U2" scope="major" script="tamil" medium="incised soot"><desc>Hand #2. f90-f91 unblackened.</desc></handNote></handDesc>
                   <additions>
                   
                      
@@ -71,11 +71,11 @@
                     
                     
                      
-                  <desc synch="#U1" type="shelfmark">Shelfmark in black ink: <quote>b/71</quote> (<locus facs="0">f[1]r</locus>).</desc><desc synch="#U1" type="shelfmark">Trace of shelfmark sticker (Société Asiatique?) (<locus facs="0">f[1]r</locus>).</desc><desc synch="#U1" type="documenting-note">BnF bequest sticker <quote>DON N° <space type="vacat"/></quote> (<locus facs="0">f[1]r</locus>).</desc><desc synch="#cover" type="shelfmark" subtype="back cover">BnF shelfmark sticker: <quote>INDIEN 301</quote> (<locus facs="0">back cover, verso</locus>). Covering an earlier sticker.</desc></additions>
+                  <desc synch="#U1" type="shelfmark">Shelfmark in black ink: <quote>b/71</quote> (<locus facs="0">f[1]r</locus>).</desc><desc synch="#U1" type="shelfmark">Trace of shelfmark sticker (Société Asiatique?) (<locus facs="0">f[1]r</locus>).</desc><desc synch="#U1" type="documenting-note">BnF bequest sticker <quote>DON N° <space type="vacat"/></quote> (<locus facs="0">f[1]r</locus>).</desc><desc synch="#CoverBack" type="shelfmark" subtype="back cover">BnF shelfmark sticker: <quote>INDIEN 301</quote> (<locus facs="0">back cover, verso</locus>). Covering an earlier sticker.</desc></additions>
                   <bindingDesc>
                      <binding>
                         <p>Original <material>wood</material> covers.</p>
-                     </binding>
+                     <decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
                   </bindingDesc>
                </physDesc>
                <history>
@@ -98,57 +98,58 @@
      <encodingDesc>
          
          
-      <p><p><emph rend="bold">Transliteration conventions</emph></p>  
-<p>Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only).  </p>  <p><emph rend="bold">Abbreviations</emph></p>  <p> c = column, f = folio, lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.</p>       </p></encodingDesc>
-      <revisionDesc>
+      <p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.            </p></encodingDesc>
+      
+   <revisionDesc>
          
       
-      <change when="2022-02">Record created by Emmanuel FRANCIS</change></revisionDesc>
-   </teiHeader>
+      <change when="2022-02">Record created by Emmanuel FRANCIS</change></revisionDesc></teiHeader>
     <sourceDoc>
         <surface/>
     </sourceDoc>
 <facsimile/><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
-  
+  <ab>
+    
   <pb facs="0" n="[1]r"/>
   
-   <milestone n="1" unit="column"/>
-  <lb n="1-2"/><seg function="blessing">veṟṟivēl uṟṟa tuṇai</seg>
+  <seg function="blessing"><milestone n="1" unit="column"/>
+  <lb n="1-2"/>veṟṟivēl uṟṟa tuṇai</seg>
   
-   <milestone n="2" unit="column"/>
-  <lb n="1"/><seg function="title">Iḵtu
+   <seg function="title"><milestone n="2" unit="column"/>
+  <lb n="1"/>Iḵtu
   
   <milestone n="3" unit="column"/>
   <lb n="1-2"/>citamparaṅ kōyiṟpurāṇam</seg>
       
     <pb facs="0" n="[1]v"/><note xml:lang="en">blank</note>
 
-</body>
-</text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
-  
+    </ab>
+</body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
+  <ab>
+    
   <pb facs="0" n="1r"/>
   
-  <lb n="1"/>
-  <seg function="invocation"><lg>
+  <seg function="invocation"><lb n="1"/>
+  <lg>
     <l><seg function="incipit"><unclear>pū</unclear><gap reason="lost" quantity="1" unit="character"/>ṅkamalat tayaṉumalaṟ puṇṭarīkak kaṇṇaṉun</seg></l>
     <l>tāṅkumpala puvaṉamumēṟ cakalamumā yakalāta ~</l> <l>vōṅku
 <lb n="2" break="no"/>moḻi veḷiyēniṉ ṟulakutoḻa na<supplied reason="lost">ṭa</supplied><unclear>mā</unclear>ṭun</l> <l>tēṅkamaḻum poḻiṟṟillait tirucciṟṟam palam
-     <lb n="3" break="no"/>pōṟṟi</l></lg> <g ref="#pcs"/> 1 <g ref="#pcs"/></seg> <gap reason="ellipsis"/>
+     <lb n="3" break="no"/>pōṟṟi <g ref="#pcs"/> 1 <g ref="#pcs"/></l></lg></seg> <gap reason="ellipsis"/>
   
   <pb facs="0" n="15r"/>
    <lb n="2"/><gap reason="ellipsis"/> – 5<g ref="#pattu"/>8 – <seg function="completion-statement">viyākkiṟapāta
-  <lb n="3" break="no"/>ccarukkamuṟṟum <g ref="#pcl"/></seg> <seg function="blessing">kuruvē tuṇai</seg> <seg function="blessing">Oṉa<seg rend="grantha">ma</seg><note xml:lang="en">that is, <foreign xml:lang="sa">oṁ namaḥ</foreign></note> ci<del><gap reason="illegible" quantity="1" unit="character"/></del>vāyamē tuṇai</seg> <seg function="blessing">Āṉantattāṇṭavamē tuṇai</seg>
-<lb n="4"/><seg function="blessing">civakāmacavuntari tuṇai <g ref="#pcl"/></seg>
+  <lb n="3" break="no"/>ccarukkamuṟṟum <g ref="#pcl"/></seg> <seg function="blessing">kuruvē tuṇai</seg> <seg function="blessing">Oṉa<seg rend="grantha">ma</seg> <note xml:lang="en">that is, <foreign xml:lang="sa">oṁ namaḥ</foreign></note> ci<del><gap reason="illegible" quantity="1" unit="character"/></del>vāyamē tuṇai</seg> <seg function="blessing">Āṉantattāṇṭavamē tuṇai</seg>
+<seg function="blessing"><lb n="4"/>civakāmacavuntari tuṇai <g ref="#pcl"/></seg>
 
   <pb facs="0" n="15v"/><note xml:lang="en">blank</note>
   
   <pb facs="0" n="16r"/>
-  <milestone unit="left-margin"/>
-  <lb n="1-2"/><seg function="intertitle">patañcaliccarukka<seg rend="grantha">m</seg>M</seg> 
+  <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1-2"/>patañcaliccarukka<seg rend="grantha">m</seg>M</seg> 
   
    <pb facs="0" n="39r"/>
-  <milestone unit="left-margin"/>
-  <lb n="1-3"/><seg function="intertitle">tirunaṭarācaccarukkam</seg> 
+  <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1-3"/>tirunaṭarācaccarukkam</seg> 
   
   <milestone unit="main-text-area"/>
   <lb n="1"/><gap reason="ellipsis"/>
@@ -158,8 +159,8 @@
   <lb n="5"/><gap reason="ellipsis"/> ~ 71 ~ <seg function="completion-statement">tirunaṭarācaccarukkamuṟṟum <g ref="#pcl"/></seg> <g ref="#pcl"/>
   
    <pb facs="0" n="52r"/>
-  <milestone unit="left-margin"/>
-  <lb n="1-3"/><seg function="intertitle">Iraṇiyavaṉaccarukkam</seg> 
+  <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1-3"/>Iraṇiyavaṉaccarukkam</seg> 
   
   <pb facs="0" n="78r"/>
    <lb n="4"/><gap reason="ellipsis"/> <g ref="#pcs"/> <g ref="#nūṟu"/>33 <seg function="completion-statement">y<pc>-</pc>iraṇiyavaṉa<sic>mc</sic>carukkamuṟṟum <g ref="#pcs"/></seg> <seg function="blessing">Ampalattāṭumaiyyar tuṇai <g ref="#pcs"/></seg>
@@ -167,14 +168,13 @@
     <pb facs="0" n="78v"/><note xml:lang="en">blank</note>
 
      <pb facs="0" n="79r"/>
-  <milestone unit="left-margin"/>
-  <lb n="1-2"/><seg function="intertitle">tiruviḻāccarukkam</seg> 
+  <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1-2"/>tiruviḻāccarukkam</seg> 
 
     <pb facs="0" n="91v"/>
  <lb n="3"/><gap reason="ellipsis"/> ~ 50 ~ <lg><l>coṟṟā ṉumaiporu ḷaraṉā mikuporuḷ tu
 <lb n="4" break="no"/><supplied reason="lost">ṇivā lavararu ṭokumālip</supplied></l> <l><supplied reason="lost">po</supplied><unclear>ṟ</unclear>ṟā maraimalar viraicūḻ puṉalaṇi puliyūr vaḷarnakar pukamālai</l> <l>kaṟṟā
 <lb n="5"/><supplied reason="lost">ruraiceyal peṟṟār cevikoṭu kava</supplied>ṟvār poruḷviri pakarvārcī</l> <l><seg function="explicit">ruṟṟā riruviṉai yaṟṟār mikupari vuṭai<note xml:lang="en">the text stops short here; the complete final <foreign xml:lang="ta">aṭi</foreign> of this stanza is <foreign xml:lang="ta">ruṟṟā riruviṉai yaṟṟār mikupari vuṭaiyār tiruvaṭi yaṭaivārē</foreign></note></seg></l></lg>
-
-
-</body>
-</text></TEI>
+    
+    </ab>
+</body></text></TEI>
