@@ -20,16 +20,16 @@
                   
                   <idno type="shelfmark">Indien 295</idno>
                   <idno type="alternate"><idno>Tamoul 295</idno><idno>Ducler 17</idno></idno>
-               </msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1038258</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary>The <title xml:lang="ta">Periya Purāṇam</title> (U3c, f12-f434;  4304 stanzas), preceded by the <title xml:lang="ta">Tiruttoṇṭattokai</title> (<title xml:lang="ta">Tēvāram</title> 7.39) (U3a, f1-f2; 11 stanzas), and the <title xml:lang="ta">Tiruttoṇṭar Tiruvantāti</title> (<title xml:lang="ta">Tirumuṟai</title> 11.1127-1215) (U3b, f3-f11; 89 stanzas).       </summary>
+                  <summary><p>The <title xml:lang="ta">Periya Purāṇam</title> (U3c, f12-f434;  4304 stanzas), preceded by the <title xml:lang="ta">Tiruttoṇṭattokai</title> (<title xml:lang="ta">Tēvāram</title> 7.39) (U3a, f1-f2; 11 stanzas), and the <title xml:lang="ta">Tiruttoṇṭar Tiruvantāti</title> (<title xml:lang="ta">Tirumuṟai</title> 11.1127-1215) (U3b, f3-f11; 89 stanzas).</p>  </summary>
                   
                <msItem synch="#U2" xml:id="T1" defective="false"><title xml:lang="fr"><term xml:lang="en">Title Page</term></title><textLang mainLang="fra"/></msItem><msItem synch="#U3a" xml:id="T2" defective="false"><title xml:lang="ta">Tiruttoṇṭattokai</title><textLang mainLang="tam"/></msItem><msItem synch="#U3b" xml:id="T3" defective="false"><title xml:lang="ta">Tiruttoṇṭar Tiruvantāti</title><textLang mainLang="tam"/></msItem><msItem synch="#U3c" xml:id="T4" defective="false"><title xml:lang="ta">Periya Purāṇam</title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi">
+                  <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
                         <extent>
-                           <measure unit="folio" quantity="438">[1] + [1] + 435 + [1] (U1 + U2 + U3 + U4).</measure>
+                           <measure unit="folio" quantity="438">{1} + {1} + 435 + {1} (U1 + U2 + U3 + U4).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
@@ -47,7 +47,7 @@
                   </objectDesc>
                   <handDesc>
                      
-                  <handNote synch="#U2" scope="major" scribeRef="#DuclerScribe" script="latin tamil" medium="incised soot"/><handNote synch="#U3 #U3a #U3b #U3c" scope="major" script="tamil" medium="incised soot"/></handDesc>
+                  <handNote synch="#U2" scope="major" script="latin tamil" medium="incised soot"><desc><persName role="scribe">Ducler's scribe</persName>.</desc></handNote><handNote synch="#U3 #U3a #U3b #U3c" scope="major" script="tamil" medium="incised soot"/></handDesc>
                   <additions>
                     
                     
@@ -64,15 +64,15 @@
                     
                     
                     
-                  <desc type="documenting-note" subtype="detached">Note in black ink on detached paper leaf:
-<quote>
+                  <desc type="documenting-note" subtype="detached">Note in black ink on detached <locus facs="0">paper leaf</locus>:
+<quote xml:lang="fr" rend="block">
 <lb n="1"/>M<hi rend="superscript">r</hi> Duclercque, N° 4
 <lb n="2"/>intitulé Periapouraname, ou Eloge
 <lb n="3"/>de Sivane, par soixante-trois
 <lb n="4"/>saints de la secte de Sivane.
 <lb n="5"/>Contenant 44 feuilles.
 <lb n="6"/>et non pas histoire des soixante-trois saints.
-</quote></desc><desc type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 295</quote> (<locus facs="0">front cover, recto</locus>).</desc><desc synch="#U3a #U3b #U3c" type="intertitle">Left-marginal intertitles. See selection below.</desc><desc synch="#U3c" type="total-stanzas"/></additions>
+</quote></desc><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 295</quote> (<locus facs="0">front cover, recto</locus>).</desc><desc synch="#U3a #U3b #U3c" type="intertitle" subtype="marginal left">Left-marginal intertitles. See selection below.</desc><desc synch="#U3c" type="total-stanzas" subtype="interlineal"/></additions>
                <bindingDesc><binding><p>Original <material cert="medium">wood</material> covers. 
 </p><decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding></bindingDesc></physDesc>
                <history>
@@ -83,7 +83,7 @@
                   <acquisition>
                      <p>Acquired, July 22nd, 1833, from Philippe Ducler. See BnF, département des Manuscrits, inventaire 1 = <title>Acquisitions: manuscrits et imprimés documentaires, 1833-1848</title>, no. 80.</p>
                   </acquisition>
-               <provenance/></history>
+               <provenance><p>Copied for <persName xml:lang="fr" role="collector">Philippe Ducler</persName> by an unnamed copyist in Karaikal Jail. See Burnouf (1832).</p></provenance></history>
                <additional>
                   <listBibl>
                      
@@ -95,7 +95,7 @@
          </sourceDesc>
       </fileDesc>
       
-   <encodingDesc><p>TBC</p></encodingDesc><revisionDesc>
+   <encodingDesc><p>   <emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.            </p></encodingDesc><revisionDesc>
          
          
       <change when="2022-01">Record created by Emmanuel FRANCIS.</change></revisionDesc></teiHeader>
@@ -119,17 +119,18 @@
     
  <pb facs="0" n="1r"/>
   
-   <milestone unit="left-margin"/>
-  <lb n="1"/><seg function="blessing"><term xml:lang="sa">hariḥ</term> Om</seg>
-  <lb n="2-3"/><seg function="blessing">tirucciṟṟampalam</seg>
-  <lb n="4-7"/><seg function="title">tiruttoṇṭattokai</seg> – <seg function="TBC">paṇ kolli</seg>
+   <seg function="header"><seg function="blessing"><milestone unit="left-margin"/>
+  <lb n="1"/><term xml:lang="sa">hariḥ</term> Om</seg>
+  <seg function="blessing"><lb n="2-3"/>tirucciṟṟampalam</seg>
+  <seg function="title"><lb n="4-7"/>tiruttoṇṭattokai</seg> – <seg function="TBC">paṇ kolli</seg>
+     </seg>
 
-  <milestone unit="main-text-area"/>
-<lb n="1"/><seg function="incipit">tillai vāḻ antaṇar tamm aṭiyāṟkum aṭiyēṉ ‡</seg> <gap reason="ellipsis"/>
+  <seg function="incipit"><milestone unit="main-text-area"/>
+<lg><l><lb n="1"/>tillai vāḻ antaṇar tamm aṭiyāṟkum aṭiyēṉ</l></lg></seg> <gap reason="ellipsis"/>
     
   <pb facs="0" n="2v"/>
-  <lb n="4"/><gap reason="ellipsis"/><seg function="explicit">‡ṉ aṉṉavaṉ ā
-     <lb n="5" break="no"/>m ārūraṉ aṭimai kēṭṭu kappār ārūril ammāṉukk<pc>’</pc> aṉpar āvārē ~ <g ref="#pattu"/>1 ~</seg> <seg function="colophon"><seg function="blessing">tirucciṟṟampalam <g ref="#pcs"/></seg> <seg function="completion-statement">tiruttoṇṭattokai muṟṟum <g ref="#pcs"/></seg></seg>
+  <lb n="4"/><gap reason="ellipsis"/><seg function="explicit"><lg><l>ṉ aṉṉavaṉ ā
+     <lb n="5" break="no"/>m ārūraṉ aṭimai kēṭṭu kappār ārūril ammāṉukk<pc>’</pc> aṉpar āvārē ~ <g ref="#pattu"/>1 ~</l></lg></seg> <seg function="colophon"><seg function="blessing">tirucciṟṟampalam <g ref="#pcs"/></seg> <seg function="completion-statement">tiruttoṇṭattokai muṟṟum <g ref="#pcs"/></seg></seg>
   
     </ab>
 </body></text><text synch="#U3b" corresp="#T3" xml:lang="ta"><body>
@@ -137,15 +138,16 @@
     
  <pb facs="0" n="3r"/>
   
-   <milestone unit="left-margin"/>
-  <lb n="1-2"/><seg function="blessing">tirucciṟṟampalam</seg>
-  <lb n="3-5"/><seg function="title">nampiyāṇṭār Antāti</seg>
+   <seg function="header"><seg function="blessing"><milestone unit="left-margin"/>
+  <lb n="1-2"/>tirucciṟṟampalam</seg>
+  <seg function="title"><lb n="3-5"/>nampiyāṇṭār Antāti</seg>
+     </seg>
 
-  <milestone unit="main-text-area"/>
-<lb n="1"/><seg function="incipit">ceppat taku pukaḻt tillaip patiyiṟ ceḻumaṟaiyō‡r</seg> <gap reason="ellipsis"/>
+  <seg function="incipit"><milestone unit="main-text-area"/>
+<lg><l><lb n="1"/>ceppat taku pukaḻt tillaip patiyiṟ ceḻumaṟaiyō</l><l>r <gap reason="ellipsis"/></l></lg></seg>
     
   <pb facs="0" n="11r"/>
-  <lb n="6"/><seg function="explicit"><gap reason="ellipsis"/> ~ 89 ~</seg> <seg function="colophon"><seg function="completion-statement">nampiyāṇṭār antāti Eḻuti niṟaintatu <g ref="#pcs"/></seg> <seg function="blessing">tirucciṟṟampalam <g ref="#pcs"/></seg></seg>
+  <seg function="explicit"><lb n="6"/><gap reason="ellipsis"/> ~ 89 ~</seg> <seg function="colophon"><seg function="completion-statement">nampiyāṇṭār antāti Eḻuti niṟaintatu <g ref="#pcs"/></seg> <seg function="blessing">tirucciṟṟampalam <g ref="#pcs"/></seg></seg>
   
     <pb facs="0" n="11v"/><note xml:lang="en">blank</note>
 
@@ -155,50 +157,51 @@
       
   <pb facs="0" n="12r"/>
   
-   <milestone unit="left-margin"/>
-  <lb n="1-2"/><seg function="blessing">tirucciṟṟampalam</seg>
-  <lb n="3-7"/><seg function="title">tiruttoṇṭar purāṇam –</seg> <seg function="intertitle">tirumalaiccarukkam</seg>
+   <seg function="header"><seg function="blessing"><milestone unit="left-margin"/>
+  <lb n="1-2"/>tirucciṟṟampalam</seg>
+  <seg function="title"><lb n="3-7"/>tiruttoṇṭar purāṇam –</seg> <seg function="intertitle">tirumalaiccarukkam</seg>
+     </seg>
   
-   <milestone unit="main-text-area"/>
-  <seg function="incipit"><seg function="invocation"><lg><l><lb n="1"/>Ulak<pc>’</pc> elām uṇarnt<pc>’</pc> ōtutaṟk<pc>’</pc> ariyava</l> <l>ṉilav<pc>’</pc> ulāviya nīr mali vēṇiya</l><l>ṉ alakil cōtiyaṉ ampalatt<pc>’</pc>āṭuvaṉ</l> <l>malar cilam<add place="above">p<pc>’</pc> a</add>ṭi vāḻtti vaṇaṅkuvām</l></lg> ~ 1 ~</seg></seg> <gap reason="ellipsis"/>
+   <seg function="incipit"><milestone unit="main-text-area"/>
+  <seg function="invocation"><lg><l><lb n="1"/>Ulak<pc>’</pc> elām uṇarnt<pc>’</pc> ōtutaṟk<pc>’</pc> ariyava</l> <l>ṉilav<pc>’</pc> ulāviya nīr mali vēṇiya</l><l>ṉ alakil cōtiyaṉ ampalatt<pc>’</pc>āṭuvaṉ</l> <l>malar cilam<add place="above">p<pc>’</pc> a</add>ṭi vāḻtti vaṇaṅkuvām ~ 1 ~</l></lg></seg></seg> <gap reason="ellipsis"/>
 
   <pb facs="0" n="15v"/>
    <lb n="2"/><gap reason="ellipsis"/>~ 5<g ref="#pattu"/> ~ <g ref="#pcs"/> <seg function="completion-statement">tirumalaiccarukkamuṟṟum <g ref="#pcs"/></seg>
   
   <pb facs="0" n="16r"/>
-  <milestone unit="left-margin"/>
-  <lb n="1-3"/><seg function="intertitle">tiruṉāṭṭuccarukkam ~ ~</seg>
+  <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1-3"/>tiruṉāṭṭuccarukkam ~ ~</seg>
   
   <pb facs="0" n="18v"/>
   <lb n="5"/><gap reason="ellipsis"/> ~ 
    <lb n="6"/>35 ~ <seg function="completion-statement">tiruṉāṭṭuccarukkamuṟṟum <g ref="#pcs"/></seg> <seg function="total-stanzas">Āka ~ 8<g ref="#pattu"/>5</seg>
   
   <pb facs="0" n="19r"/>
-  <milestone unit="left-margin"/>
-  <lb n="1-3"/><seg function="intertitle">tiruvārūrcciṟap<choice><sic>pū</sic><corr>pu</corr></choice> ~ ~</seg>
+  <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1-3"/>tiruvārūrcciṟap<choice><sic>pū</sic><corr>pu</corr></choice> ~ ~</seg>
   
   <pb facs="0" n="23r"/>
    <lb n="3"/><gap reason="ellipsis"/> ~ 5<g ref="#pattu"/> <g ref="#pcs"/> <seg function="completion-statement">tiruvārūrcciṟappu muṟṟum <g ref="#pcs"/></seg> <seg function="total-stanzas">Ākac ceyyuḷ ~ <g ref="#nūṟu"/>3<g ref="#pattu"/>5 <g ref="#pcs"/></seg>
   
    <pb facs="0" n="23v"/>
-  <milestone unit="left-margin"/>
-  <lb n="1-3"/><seg function="intertitle">tirukkūṭṭacciṟappu</seg>
+  <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1-3"/>tirukkūṭṭacciṟappu</seg>
   
    <pb facs="0" n="229.1r"/>
-  <milestone unit="left-margin"/>
-  <lb n="1-2"/><seg function="intertitle">veḷḷāṇaiccarukkam</seg>
-  <lb n="3-7"/><seg function="intertitle">veḷḷāṇaiccarukkam</seg>
+  <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1-2"/>veḷḷāṇaiccarukkam</seg>
+  <seg function="intertitle"><lb n="3-7"/>veḷḷāṇaiccarukkam</seg>
   
   <pb facs="0" n="428r"/>
-  <milestone unit="left-margin"/>
-  <lb n="1-3"/><seg function="intertitle">caṭaiyaṉāyaṉār purāṇam</seg>
+  <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1-3"/>caṭaiyaṉāyaṉār purāṇam</seg>
   
   <pb facs="0" n="429v"/>
-  <milestone unit="left-margin"/>
-  <lb n="1-3"/><seg function="intertitle">Icaiñāṉiyār purāṇam</seg>
+  <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1-3"/>Icaiñāṉiyār purāṇam</seg>
   
        <pb facs="0" n="434v"/>
-    <lb n="2"/><gap reason="ellipsis"/> <seg function="explicit"><lg><l>niṉṟat<pc>’</pc> eṅkum nilavi y<pc>-</pc>ulak<pc>’</pc> ellām</l></lg> ~ 53 ~</seg> <seg function="TBC"><lg><l>vaiya nīṭuka māmaḻai maṉṉuka</l> <l>mey virumpiya v<pc>-</pc>aṉpar viḷaṅkuka</l> <l>caiva naṉṉeṟi tāṉtaḻait tō
+    <lb n="2"/><gap reason="ellipsis"/> <seg function="explicit"><lg><l>niṉṟat<pc>’</pc> eṅkum nilavi y<pc>-</pc>ulak<pc>’</pc> ellām ~ 53 ~</l></lg> <lg><l>vaiya nīṭuka māmaḻai maṉṉuka</l> <l>mey virumpiya v<pc>-</pc>aṉpar viḷaṅkuka</l> <l>caiva naṉṉeṟi tāṉtaḻait tō
        <lb n="3" break="no"/>ṅkukat</l> <l>teyva veṇtiru nīṟu ciṟakkavē</l></lg> ~ 54 ~</seg>  <seg function="colophon"><seg function="completion-statement">veḷḷāṉaiccarukkamuṟṟum –</seg> <seg function="completion-statement">tiruttoṇṭar purāṇamuṟṟum  –</seg> <seg function="total-stanzas">Ākac ceyyuḷ ~ 4<g ref="#āyiram"/>3<g ref="#nūṟu"/>4 – <g ref="#pcs"/></seg> <seg function="completion-statement">periyapurāṇam Eḻuti ni-
 <lb n="4"/>ṟaintatu muṟṟum <g ref="#pcl"/></seg> <seg function="blessing">tirucciṟṟampalam <g ref="#pcs"/></seg></seg>
 
