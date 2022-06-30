@@ -29,13 +29,13 @@
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Nāṟkaraṇavupatēcam</title><textLang mainLang="tam"/><filiation><p>BnF Indien 990.</p></filiation></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi">
+                  <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
                         <support>
                            <!--measure unit="stringholes" quantity=""/-->
                         </support>
                         <extent>
-                           <measure unit="folio" quantity="9"/>
+                           <measure unit="folio" quantity="9">9 (U1).</measure>
                            <dimensions type="leaf" unit="mm">
                               <width quantity="275"/>
                               <height quantity="35"/>
@@ -59,7 +59,7 @@
                      
                      
                     
-                  <handNote scope="major" script="tamil" medium="incised soot"/></handDesc>
+                  <handNote synch="#U1" scope="major" script="tamil" medium="incised soot"/></handDesc>
                   <additions>
                                      
                      
@@ -91,7 +91,7 @@
      <encodingDesc>
          
          
-      <p>   <emph rend="bold">General</emph> ―  Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied.    Unmarked <foreign>puḷḷi</foreign> supplied.  Conjectural reading (text unclear) between parentheses.  Supplied reading (text lost) between square brackets.  Alternative readings between separated by slash.  <emph rend="bold">In transliteration</emph> ―  Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe.     Uppercase for initial vowels.  Symbols between curly brackets.  <emph rend="bold">Abbreviations</emph> ―  c = column;  f = folio;  lf = library foliation;  lm = left margin;  r = recto;   rm = right margin;  u / U followed by a number = unit (codicological and/or textual);  v = verso.      </p></encodingDesc>
+      <p><emph rend="bold">General</emph> ―  Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied.    Unmarked <foreign>puḷḷi</foreign> supplied.  Conjectural reading (text unclear) between parentheses.  Supplied reading (text lost) between square brackets.  Alternative readings between separated by slash.  <emph rend="bold">In transliteration</emph> ―  Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels.  Symbols between curly brackets.  <emph rend="bold">Abbreviations</emph> ―  c = column;  f = folio;  lf = library foliation;  lm = left margin;  r = recto;   rm = right margin;  u / U followed by a number = unit (codicological and/or textual);  v = verso.      </p></encodingDesc>
       
    <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
@@ -105,20 +105,20 @@
   <pb facs="90" n="[1]r"/>
   
   <seg function="header"><milestone unit="left-margin"/>
-  <lb n="1-2"/><seg function="blessing">kuru-pātan tuṇai</seg>
-  <lb n="3-5"/><seg function="title">nārkkaraṇaUpatēcam</seg></seg>
+  <seg function="blessing"><lb n="1-2"/>kuru-pātan tuṇai</seg>
+  <seg function="title"><lb n="3-5"/>nārkkaraṇaUpatēcam</seg></seg>
   
-  <milestone unit="main-text-area"/>
-  <lg><l><lb n="1"/><seg function="incipit">kuruparaṉ aṅ<unclear reason="vowel_unclear">kā</unclear>ṉ ṟēvi vallapaiyaip pō<choice><sic>tti</sic><corr>ṟṟi</corr></choice></seg> – kū<choice><unclear>r</unclear><unclear>ra</unclear></choice>vayaṉ caracu
+  <seg function="incipit"><milestone unit="main-text-area"/>
+  <lg><l><lb n="1"/>kuruparaṉ aṅ<unclear reason="vowel_unclear">kā</unclear>ṉ ṟēvi vallapaiyaip pō<choice><sic>tti</sic><corr>ṟṟi</corr></choice> – kū<choice><unclear>r</unclear><unclear>ra</unclear></choice>vayaṉ caracu
     <lb n="2" break="no"/><sic>pa</sic>ti<pc>-</pc>y<pc>-</pc>ammaṉaiyum pōtti</l> <l>y<pc>-</pc>iruvar patimēl makāleṭcumiyaiy pōtti
     <lb n="3"/>Eri<pc>-</pc>muka<pc>-</pc>ruttiraṉ ṟēvi ruttiriyaip pōtti</l> <l>Aruva<pc>-</pc>mayēspara
   <lb n="4" break="no"/>ṉ ṟēvi mayēspariyaip pōtti Ananta<pc>-</pc>catācivaṉ ṟēvi ma
   <lb n="5"/>ṉōṉmaṇiyaip pōtti</l> <l>Oruvaṇaiyum aṟavāta Ulakappatam
-  <lb n="6"/>pirāṉ utaviya nāṟkka<choice><sic>ru</sic><corr>ra</corr></choice>ṇavupatēcam itu v<pc>-</pc>āme <g ref="#pcs"/> 1 <g ref="#pcs"/></l></lg> <gap reason="ellipsis"/>
+  <lb n="6"/>pirāṉ utaviya nāṟkka<choice><sic>ru</sic><corr>ra</corr></choice>ṇavupatēcam itu v<pc>-</pc>āme <g ref="#pcs"/> 1 <g ref="#pcs"/></l></lg></seg> <gap reason="ellipsis"/>
   
   <pb facs="106" n="9r"/>
  
-  <lb n="1"/>p <seg function="explicit">paṟuttu yirukkalāmē <g ref="#pcs"/> 26 <g ref="#pcs"/></seg> <seg function="TBC"><gap reason="ellipsis"/>
+  <seg function="explicit"><lb n="1"/>p paṟuttu yirukkalāmē <g ref="#pcs"/> 26 <g ref="#pcs"/></seg> <seg function="TBC"><gap reason="ellipsis"/>
   <lb n="2"/><gap reason="ellipsis"/>
   <lb n="3"/><gap reason="ellipsis"/> nāṟkaraṇavupatēcañ
   <lb n="4"/>col<pc>-</pc>l eṉṉa<pc>-</pc>k kēṭṭaṉaṟ paṭittōr kattōr iṉṉūl vēṇum eṉa E

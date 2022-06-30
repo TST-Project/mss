@@ -32,13 +32,13 @@
                   </summary>
                   
                   
-               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page (additional)</term></title><textLang mainLang="tam"/></msItem><msItem defective="false" source="Indien_0004a.xml"><title xml:lang="ta">Rāmatēvar Pūcāviti</title><textLang mainLang="tam"/></msItem></msContents>
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page (additional)</term></title><textLang mainLang="tam"/></msItem><msItem synch="#Indien4a" defective="false" source="Indien_0004a.xml"><title xml:lang="ta">Rāmatēvar Pūcāviti</title><textLang mainLang="tam"/></msItem><msItem synch="#Indien4b" defective="false" source="Indien_0004b.xml"><title xml:lang="ta">Nāṟkaraṇavupatēcam</title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi">
+                  <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
                         <support>
                            <!--measure unit="stringholes" quantity=""/-->
-                        <measure unit="stringhole" quantity="2"/></support>
+                        </support>
                         <extent>
                            <measure unit="folio" quantity="55">{1} + 45 + 9 (U1 + Indien 4a + Indien 4b).</measure>
                            <dimensions type="leaf" unit="mm">
@@ -65,7 +65,7 @@
                      
                      
                     
-                  <handNote synch="#U1" scope="minor" scribeRef="#ArielTitleScribe" script="tamil" scriptRef="#tamilPulliSporadic #tamilOE" medium="incised soot"/></handDesc>
+                  <handNote synch="#U1" scope="minor" script="tamil" scriptRef="#tamilPulliSporadic #tamilOE" medium="incised soot"><desc><persName role="scribe">Ariel's title scribe</persName>.</desc></handNote></handDesc>
                   <additions>
                   
                      
@@ -79,7 +79,7 @@
                   <bindingDesc>
                      <binding>
                         <p><material cert="medium">Pinewood</material> covers apparently fabricated in the BnF.</p>
-                     </binding>
+                     <decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
                   </bindingDesc>
                </physDesc>
                <history>
@@ -117,20 +117,21 @@
     
   <pb facs="9" n="[1]r"/>
   
-  <milestone n="1" unit="column"/>
-  <lb n="1"/><seg function="blessing">veṟṟi
+  <seg function="blessing"><milestone n="1" unit="column"/>
+  <lb n="1"/>veṟṟi
   <lb n="2" break="no"/>vēl uṟ
   <lb n="3" break="no"/>ṟa tuṇai</seg>
   
-  <milestone n="2" unit="column"/>
-  <lb n="1"/><seg function="title">viratam
+  <seg function="table-of-contents"><seg function="total-works"><milestone n="2" unit="column"/>
+  <lb n="1"/>viratam
   <lb n="2"/>Iraṇṭu</seg>
   
-   <milestone n="3" unit="column"/>
-  <lb n="1"/><seg function="title">Irāmatēvar
+   <seg function="title"><milestone n="3" unit="column"/>
+  <lb n="1"/>Irāmatēvar
   <lb n="2"/>pūcāviti – 200</seg>
   <lb n="3"/><seg function="title">nāṟkaraṇa
   <lb n="4" break="no"/>Upatēcam</seg>
+    </seg>
   
     <pb n="[1]v"/><note xml:lang="en">blank</note>
 
