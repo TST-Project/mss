@@ -22,16 +22,16 @@
                   <idno type="alternate"/>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1031416</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary>The <title xml:lang="ta">Koṅkaṇar Pāṭal</title>.</summary>
+                  <summary><p>The <title xml:lang="ta">Koṅkaṇar Pāṭal</title>.</p></summary>
                   
                   
-               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Koṅkaṇar Pāṭal</title><textLang mainLang="tam"/></msItem></msContents>
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Koṅkaṇar Pāṭal</title><author xml:lang="ta">Koṅkaṇar</author><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi">
+                  <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
                         <support>
                            <!--measure unit="stringholes" quantity=""/-->
-                        <measure unit="stringhole" quantity="2"/></support>
+                        </support>
                         <extent>
                            <measure unit="folio" quantity="11">11 (U1).</measure>
                            <dimensions type="leaf" unit="mm">
@@ -75,7 +75,7 @@
                   <bindingDesc>
                      <binding>
                         
-                     </binding>
+                     <decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
                   </bindingDesc>
                </physDesc>
                <history>
@@ -109,18 +109,19 @@
     </sourceDoc>
 <facsimile/><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   <ab>
-  <pb facs="0" n="[1]r"/>
-  
-  <milestone unit="left-margin"/>
-  <seg function="blessing"><lb n="1"/><g ref="#pcs"/> <term xml:lang="sa">hari Om</term></seg>
+    
+  <pb facs="0" n="[1]r"/>  
+  <seg function="blessing"><milestone unit="left-margin"/>
+  <lb n="1"/><g ref="#pcs"/> <term xml:lang="sa">hari Om</term></seg>
 <seg function="title"><lb n="2-4"/>koṅkaṇar cuvāmi pāṭal</seg>
   
-   <milestone unit="main-text-area"/>
-  <seg function="incipit"><lb n="1"/><gap reason="ellipsis"/></seg>
+    <seg function="incipit"><milestone unit="main-text-area"/>
+ <lb n="1"/><gap reason="ellipsis"/></seg>
 
   <pb facs="0" n="11r"/>
      <seg function="explicit"><lb n="8"/>Aṉṉē <g ref="#pcs"/> 5<g ref="#pattu"/> <g ref="#pcs"/></seg> <seg function="colophon"><seg function="completion-statement">koṅkaṇar cuvāmiyār Aṉpatu muṟṟu=M <g ref="#pcs"/></seg> <seg function="blessing">vālampikai leṭcikka vēṇum <g ref="#pcs"/></seg></seg>
   
     <pb facs="0" n="11v"/><note xml:lang="en">blank</note>
+    
 </ab>
 </body></text></TEI>

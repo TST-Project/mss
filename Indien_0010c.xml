@@ -22,16 +22,16 @@
                   <idno type="alternate"/>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1031416</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary>The <title xml:lang="ta">Koṅkaṇar Pūcāviti</title>.</summary>
+                  <summary><p>The <title xml:lang="ta">Koṅkaṇar Pūcāviti</title>.</p></summary>
                   
                   
-               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Koṅkaṇar Pūcāviti</title><textLang mainLang="tam"/></msItem></msContents>
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Koṅkaṇar Pūcāviti</title><author xml:lang="ta">Koṅkaṇar</author><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi">
+                  <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
                         <support>
                            <!--measure unit="stringholes" quantity=""/-->
-                        <measure unit="stringhole" quantity="2"/></support>
+                        </support>
                         <extent>
                            <measure unit="folio" quantity="8">8 (U1).</measure>
                            <dimensions type="leaf" unit="mm">
@@ -75,7 +75,7 @@
                   <bindingDesc>
                      <binding>
                         
-                     </binding>
+                     <decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
                   </bindingDesc>
                </physDesc>
                <history>
@@ -109,15 +109,16 @@
     </sourceDoc>
 <facsimile/><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   <ab>
-  <pb facs="0" n="[1]r"/>
+    
+  <pb facs="0" n="[1]r"/>  
+  <seg function="title"><milestone unit="left-margin"/>
+  <lb n="1-5"/>koṅkaṇar cuvāmi pūcāviti <g ref="#pcs"/></seg>
   
-  <milestone unit="left-margin"/>
-  <seg function="title"><lb n="1-5"/>koṅkaṇar cuvāmi pūcāviti <g ref="#pcs"/></seg>
-  
-   <milestone unit="main-text-area"/>
-  <seg function="incipit"><lb n="1"/>parāparattil aṭaintu <gap reason="ellipsis"/></seg>
+   <seg function="incipit"><milestone unit="main-text-area"/>
+  <lb n="1"/>parāparattil aṭaintu <gap reason="ellipsis"/></seg>
 
   <pb facs="0" n="8v"/>
-     <seg function="explicit"><lb n="4"/><gap reason="ellipsis"/> cittarē <g ref="#pcs"/></seg>
+    <seg function="explicit"><lb n="4"/><gap reason="ellipsis"/> cittarē <g ref="#pcs"/></seg>
+    
 </ab>
 </body></text></TEI>

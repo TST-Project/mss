@@ -22,16 +22,16 @@
                   <idno type="alternate"/>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1031416</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary>The <title xml:lang="ta">Varākimālai Mūlamantiram</title>.  With a diagram on the right side on each page, except f2rv.      </summary>
+                  <summary><p>The <title xml:lang="ta">Varākimālai Mūlamantiram</title>.  With a diagram on the right side on each page, except f2rv.</p>   </summary>
                   
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Varākimālai Mūlamantiram</title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi">
+                  <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
                         <support>
                            <!--measure unit="stringholes" quantity=""/-->
-                        <measure unit="stringhole" quantity="2"/></support>
+                        </support>
                         <extent>
                            <measure unit="folio" quantity="19">19 (U1).</measure>
                            <dimensions type="leaf" unit="mm">
@@ -75,7 +75,7 @@
                   <bindingDesc>
                      <binding>
                         
-                     </binding>
+                     <decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
                   </bindingDesc>
                </physDesc>
                <history>
@@ -109,13 +109,14 @@
     </sourceDoc>
 <facsimile/><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   <ab>
+    
   <pb facs="0" n="[1]r"/>
-  
+  <seg function="title">
   <milestone unit="left-margin"/>
-  <seg function="title"><lb n="1-5"/>varāki-mālai mūla-mantiram <g ref="#pcs"/></seg>
+  <lb n="1-5"/>varāki-mālai mūla-mantiram <g ref="#pcs"/></seg>
   
-   <milestone n="1" unit="column"/>
-    <seg function="incipit"><lb n="1"/><term xml:lang="sa">Om</term> Ayyuṅ kiliyum avvum cavvum
+   <seg function="incipit"><milestone n="1" unit="column"/>
+    <lb n="1"/><term xml:lang="sa">Om</term> Ayyuṅ kiliyum avvum cavvum
 <lb n="2"/>kīliyum Ayyum Eri Eri civa civa</seg>
   <lb n="3"/><gap reason="ellipsis"/>
   <lb n="4"/><gap reason="ellipsis"/> <g ref="#pcl"/> 1 <g ref="#pcs"/>
