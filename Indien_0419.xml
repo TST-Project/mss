@@ -27,13 +27,13 @@
    <p>Description based on the digital images available on Gallica.</p>  <p>Dimensions after Cabaton (1912).</p>      </summary>
 
 						
-					<msItem synch="#U1" xml:id="T1" defective="true"><title><term xml:lang="en">Title Page (additional)</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="true"><title>Nālu Mantiri Katai</title><textLang mainLang="tam"/><filiation><p>BnF Indien 412b. BnF Indien 419. GOML D.424-426.</p></filiation></msItem></msContents>
+					<msItem synch="#U1" xml:id="T1" defective="true"><title xml:lang="ta"><term xml:lang="en">Title Page (additional)</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="true"><title xml:lang="ta">Nālu Mantiri Katai</title><textLang mainLang="tam"/><filiation><p>BnF Indien 412b. BnF Indien 419. GOML D.424-426.</p></filiation></msItem></msContents>
 					<physDesc>
-						<objectDesc form="pothi">
+						<objectDesc form="pothi" rend="manuscript">
 							<supportDesc material="palm-leaf">
 								<support>
 									
-								<measure unit="stringhole" quantity="1"/></support>
+								</support>
 								<extent>
 									<measure unit="folio" quantity="56">{1} + 54 + {1} (U1 + U2 + U3).</measure>
 									<dimensions type="object" unit="mm">
@@ -76,14 +76,14 @@
 						<handDesc>
 
 							
-						<handNote synch="#U1" scope="minor" scribeRef="#ArielTitleScribe" script="tamil" medium="incised soot"><desc>Hand #1. Left-marginal blessing unblackened.</desc></handNote><handNote synch="#U2" scope="major" script="tamil" medium="incised soot"><desc>Hand #2.</desc></handNote></handDesc>
+						<handNote synch="#U1" scope="minor" script="tamil" medium="incised soot"><desc>Hand #1. Left-marginal blessing unblackened. <persName role="scribe">Ariel's title scribe</persName>.</desc></handNote><handNote synch="#U2" scope="major" script="tamil" medium="incised soot"><desc>Hand #2.</desc></handNote></handDesc>
 						<additions>
 							
 						<desc synch="#cover" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 419</quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#cover" type="documenting-note" subtype="cover front">BnF bequest sticker <quote>DON N° <space type="vacat"/></quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#U1" type="shelfmark">Shelfmark in black ink: <quote>b/64</quote> (<locus facs="3">f[1]r</locus>).</desc></additions>
 						<bindingDesc>
 							<binding>
 								<p><material cert="medium">Pinewood</material> covers apparently fabricated in the BnF.</p>
-							</binding>
+							<decoNote type="stringhole"><measure unit="stringhole" quantity="1"/></decoNote></binding>
 						</bindingDesc>
 					<decoDesc/></physDesc>
 					<history>
@@ -119,7 +119,7 @@
 			
 			
 		<change when="2022-01">Record created by Emmanuel FRANCIS.</change><change when="2022-05">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, May 2022.</change></revisionDesc></teiHeader>
-<facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525162137/manifest.json"/></facsimile><text synch="#U1" corresp="#T1"><body>
+<facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525162137/manifest.json"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   <ab>
   <pb facs="3" n="[1]r"/>
     
@@ -133,7 +133,7 @@
     <pb facs="4" n="[1]v"/><note xml:lang="en">blank</note>
 
 </ab>
-</body></text><text synch="#U2" corresp="#T2"><body>
+</body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
   <ab>
   
   <pb facs="5" n="1r"/>
