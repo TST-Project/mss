@@ -1,15 +1,15 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> Aruṇaikiripurāṇam, i.e. Aruṇācalapurāṇam        </title>
+            <title> <title xml:lang="ta">Aruṇācalapurāṇam</title></title>
          <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -19,16 +19,16 @@
                   </repository>
                   <idno type="shelfmark">Indien 297</idno>
                   <idno type="alternate"><idno>Tamoul 297</idno></idno>
-               </msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103827t</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b525174676</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary>The <title xml:lang="ta">Aruṇaikiripurāṇam</title>, i.e. the <title xml:lang="ta">Aruṇācalapurāṇam</title>, which is the <foreign xml:lang="ta">talapurāṇam</foreign> of <placeName xml:lang="ta">Tiruvaṇṇāmalai</placeName>. Text (12 <foreign xml:lang="ta">carukkam</foreign>s, for a total of 587 stanzas; see U1, p.  p. 203, line 41 and p. 205, line 14) and commentary. </summary>
+                  <summary><p>The <title xml:lang="ta">Aruṇācalapurāṇam</title>, entitled here <title xml:lang="ta">Aruṇaikiripurāṇam</title>, which is the <foreign xml:lang="ta">talapurāṇam</foreign> of <placeName xml:lang="ta">Tiruvaṇṇāmalai</placeName>. Text, that is 12 <foreign xml:lang="ta">carukkam</foreign>s, for a total of 587 stanzas (see U1, <locus facs="207">p203 = f102r</locus>, line 41 and <locus facs="209">p205 = lf103r</locus>, line 14) and commentary.</p></summary>
                   
-               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"> Aruṇaikirippurāṇam kaviyum Uraiyum      </title><textLang mainLang="tam"/><filiation><p>BnF Indien 298, BnF Indien 299a, BnF Indien 983.</p></filiation></msItem></msContents>
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Aruṇācalapurāṇam</title><textLang mainLang="tam"/><filiation><p>BnF Indien 298, BnF Indien 299a, BnF Indien 983.</p></filiation><finalRubric xml:lang="ta">In-text chapter completion statements. See selection below.</finalRubric></msItem></msContents>
                <physDesc>
-                  <objectDesc form="codex">
+                  <objectDesc form="codex" rend="manuscript">
                      <supportDesc material="paper">
                         <extent>
-                           <measure unit="folio" quantity="105">1 + 103 + 2 (u1 + U1 +u2).</measure>
+                           <measure unit="folio" quantity="105">{1} + 103 + {2} (u1 + U1 +u2).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
@@ -38,7 +38,7 @@
                         
                      <collation>
                      
-                     <desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. On the verso: sticker <quote>INDIEN 297</quote>. On the verso, the title <quote>Arounay Guiri pouranam</quote> is read mirrored in transparency.</desc><desc xml:id="u1">1 unfoliated/unpaginated <emph rend="bold">front guard folio</emph>. On the recto: shelfmark <quote>Tamoul N° 297</quote> in black pencil. Verso blank.</desc><desc xml:id="U1">103 folios = <emph rend="bold">text</emph>. Tamil pagination 1–205 (p. 206 blank and not paginated) and parallel Arabic library foliation 1-103.</desc><desc xml:id="u2">2 unfoliated/unpaginated <emph rend="bold">back guard folios</emph>.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Good state of preservation. </condition></supportDesc>
+                     <desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="u1">1 unfoliated/unpaginated <emph rend="bold">front guard folio</emph>. Verso blank.</desc><desc xml:id="U1">103 folios = <emph rend="bold">text</emph>. Tamil pagination 1–205 (p. 206 blank and not paginated) and parallel Arabic library foliation 1-103.</desc><desc xml:id="u2">2 unfoliated/unpaginated <emph rend="bold">back guard folios</emph>.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Good state of preservation. </condition></supportDesc>
                      <layoutDesc>
                         <layout columns="1"/>
                      </layoutDesc>
@@ -46,11 +46,12 @@
                   <handDesc>
                      
                   <handNote synch="#U1" scope="sole" script="tamil" scriptRef="#tamilPulliNone #tamilRa" medium="ink black"/></handDesc>
-                  <additions><desc synch="#U1" type="catchword">Not consistently used, that is, not when the end of page is a verse number (see e.g. p. 21).</desc><desc synch="#U1" type="stamp">Stamp <quote>BIBLOTHEQUE ROYALE</quote> on pages 1 and 204.</desc></additions>
+                  <additions><desc type="title" subtype="cover spine">Title written in black ink on the <locus facs="217">spine</locus>: <quote>Arounaigiri Pourâna</quote>
+ </desc><desc synch="#CoverFront" type="title" subtype="cover front">The title <quote>Arounay Guiri pouranam</quote> is read mirrored in transparency (<locus facs="2">front cover, recto</locus>).
+</desc><desc synch="#CoverFront" type="shelfmark" subtype="cover front">Current BnF shelfmark sticker: <quote>INDIEN 297</quote> (<locus facs="2">front cover, recto</locus>).</desc><desc synch="#u1">Old BnF shelfmark <quote>Tamoul N° 297</quote> in black pencil (<locus facs="3">f[1]r</locus>).</desc><desc synch="#U1" type="catchword" subtype="bottom right">Not consistently used, that is, not when the end of page is a verse number (see e.g. <locus facs="45">p41 = lf21r</locus>).</desc><desc synch="#U1" type="stamp">Stamp <quote>BIBLOTHEQUE ROYALE</quote> on <locus facs="5">p[1] = lf1r</locus> and <locus facs="208">p204 = lf102v</locus>.</desc><desc synch="#U1" type="intertitle" subtype="intertextual">In-text chapter intertitles.</desc><desc synch="#U1" type="total-stanzas">In-text total stanzas following in-text chapter completion statements. See selection below.</desc></additions>
                   <bindingDesc>
                      <binding>
-                        <p>Hard <material>paper</material> cover, with title <quote>Arounaigiri Pourâna</quote>
-written in black ink on the spine. </p>
+                        <p>Hard <material>paper</material> cover.</p>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -71,110 +72,85 @@ written in black ink on the spine. </p>
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      
+   <encodingDesc><p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.            </p></encodingDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
-      <change when="2021-05">Record created by Emmanuel FRANCIS.</change></revisionDesc>
-   <encodingDesc><p>TBA</p></encodingDesc></teiHeader>
+      <change when="2021-05">Record created by Emmanuel FRANCIS.</change></revisionDesc></teiHeader>
    
-<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+<facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525174676/manifest.json"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   
-  <p>
-    <milestone n="1" unit="page"/> [Tamil pagination]
-    <lb n="1"/><seg function="title">Aruṇaikiri-p-purāṇam kaviyum
+  <pb facs="5" n="1r"/><note xml:lang="en">Tamil pagination 1</note>
+    <seg function="title"><lb n="1"/>Aruṇaikiri-p-purāṇam kaviyum
     <lb n="2"/>Uraiyum</seg>
-    <lb n="3"/><seg function="incipit">mikkavēta viyācarviḷampiya ‡</seg> yikkataiyil y<pc>-</pc>iyaṉṟaruḷ
-    <lb n="4"/>ceyitiṭa ‡ mukkaṇveṟpiṉai mummatavāriyai‡-k kaikkaḷi
-    <lb n="5" break="no"/>ttaṉai-k kaitoḻutēttuvām ‡‡ – Eṉratu – miku tiyā
-    <lb n="6" break="no"/>ṉatavacuṭaiya vētaviyācariṣi  Ātikālattilē <gap reason="ellipsis"/>    
-  </p>
+    <seg function="incipit" type="root-text"><lg><l><lb n="3"/>mikkavēta viyācarviḷampiya</l> <l>yikkataiyil y<pc>-</pc>iyaṉṟaruḷ
+    <lb n="4"/>ceyitiṭa</l> <l>mukkaṇveṟpiṉai mummatavāriyaik</l> <l>kaikkaḷi
+    <lb n="5" break="no"/>ttaṉai-k kaitoḻutēttuvām –</l></lg></seg> <seg function="incipit" type="commentary"> Eṉratu – miku tiyā
+    <lb n="6" break="no"/>ṉatavacuṭaiya vētaviyācariṣi Ātikālattilē <gap reason="ellipsis"/></seg>  
   
-  <p>
-    <milestone n="28" unit="page"/>
-    <lb n="11"/><seg function="completion-statement">Aruṇai-māṉakara-c-carukkamuṟṟum</seg>
-    <lb n="12"/><seg function="intertitle">tirumalai-c-caṟukkam</seg>
-  </p>
+  <pb facs="32" n="14v"/><note xml:lang="en">Tamil pagination 28</note>
+    <seg function="completion-statement"><lb n="11"/>Aruṇai-māṉakara-c-carukkamuṟṟum</seg>
+    <seg function="intertitle"><lb n="12"/>tirumalai-c-caṟukkam</seg>
   
-  <p>
-    <milestone n="54" unit="page"/>
+    <pb facs="58" n="27v"/><note xml:lang="en">Tamil pagination 54</note>
     <lb n="31"/><gap reason="ellipsis"/> eṉṟa v<pc>-</pc>āṟu – 8<g ref="#pattu"/>8 – <seg function="completion-statement">tirumalai-c-carukkamuṟṟum</seg>
-    <lb n="32"/><seg function="intertitle">tiruvavātara-c-carukkam</seg>
-  </p>
+    <seg function="intertitle"><lb n="32"/>tiruvavātara-c-carukkam</seg>
   
-  <p>
-    <milestone n="87" unit="page"/>
+     <pb facs="91" n="44r"/><note xml:lang="en">Tamil pagination 87</note>
     <lb n="8"/> <seg function="completion-statement">tiru-Avatāra-c-carukkamuṟṟum</seg>
     <lb n="9"/><seg function="intertitle">tiru-k-kaṇputaitta-c-carukkam</seg>
-  </p>
-  
-  <p>
-    <milestone n="117" unit="page"/>
-    <lb n="25"/><seg function="completion-statement">tiru-k-kaṇputaitta-c-carukkamuṟṟum</seg> – 7<g ref="#pattu"/>8 – Āka viruttam
+    
+      <pb facs="121" n="59r"/><note xml:lang="en">Tamil pagination 117</note>
+    <seg function="completion-statement"><lb n="25"/>tiru-k-kaṇputaitta-c-carukkamuṟṟum</seg> – 7<g ref="#pattu"/>8 – Āka viruttam
     <lb n="26"/>3<g ref="#nūṟu"/>3<g ref="#pattu"/>3
-    <lb n="27"/><seg function="intertitle">tirumalai-c-caṟukkam</seg>
-  </p>
+    <seg function="intertitle"><lb n="27"/>tirumalai-c-caṟukkam</seg>
   
-  <p>
-    <milestone n="136" unit="page"/>
+    <pb facs="140" n="68v"/><note xml:lang="en">Tamil pagination 136</note>
     <lb n="24"/><gap reason="ellipsis"/> viḷampum
     <lb n="25"/>– 6<g ref="#pattu"/>8 – <seg function="completion-statement">pākam peṟṟa-c carukkamuṟṟum –</seg>
     <lb n="26"/>Āka viruttam – 4<g ref="#nūṟu"/>1 –
-    <lb n="27"/><seg function="intertitle">vaccirāṅkata-c-carukkam</seg>
-  </p>
+    <seg function="intertitle"><lb n="27"/>vaccirāṅkata-c-carukkam</seg>
   
-  <p>
-    <milestone n="151" unit="page"/>
+        <pb facs="155" n="76r"/><note xml:lang="en">Tamil pagination 151</note>
     <lb n="21"/><gap reason="ellipsis"/> eṉṟa v<pc>-</pc>āṟu – 49 –
-    <lb n="22"/><seg function="completion-statement">vaccirāṅkata-c-carukkamuṟṟum</seg> Āka <del><gap reason="illegible" quantity="1" unit="character"/></del> viruttam –
+    <seg function="completion-statement"><lb n="22"/>vaccirāṅkata-c-carukkamuṟṟum</seg> Āka <del><gap reason="illegible" quantity="1" unit="character"/></del> viruttam –
     <lb n="23"/>– 4<g ref="#nūṟu"/>5<g ref="#pattu"/> –
-    <lb n="24"/><seg function="intertitle">Eḻāvatu tīṟta-c-carukkam</seg>
-  </p>
+    <seg function="intertitle"><lb n="24"/>Eḻāvatu tīṟta-c-carukkam</seg>
   
-  <p>
-    <milestone n="165" unit="page"/>
-    <lb n="31"/><gap reason="ellipsis"/> eṉṟa v<pc>-</pc>āṟu – 39 – <seg function="completion-statement">tīṟta-c-caruk
+     <pb facs="169" n="83r"/><note xml:lang="en">Tamil pagination 165</note>
+        <lb n="31"/><gap reason="ellipsis"/> eṉṟa v<pc>-</pc>āṟu – 39 – <seg function="completion-statement">tīṟta-c-caruk
     <lb n="32" break="no"/>kamuṟṟum</seg> Āka-c carukkam Eḻukku viruttam
     <lb n="33"/>4<g ref="#nūṟu"/>8<g ref="#pattu"/> 9 –
-    <lb n="34"/><seg function="intertitle">Eṭṭāvatu valampuri-c-caruk
+    <seg function="intertitle"><lb n="34"/>Eṭṭāvatu valampuri-c-caruk
     <lb n="35" break="no"/>kam</seg>
-  </p>
+ 
+     <pb facs="183" n="90r"/><note xml:lang="en">Tamil pagination 179</note>
+    <seg function="intertitle"><lb n="36"/>Oṉpatāvatu Ātitta-carukkam –</seg>
+ 
+     <pb facs="187" n="92r"/><note xml:lang="en">Tamil pagination 183</note>
+    <lb n="31"/><seg function="intertitle">pattāvatu piratatta-c-carukkam –</seg>
+        
+  <pb facs="193" n="95r"/><note xml:lang="en">Tamil pagination 189</note>
+    <lb n="33"/><seg function="intertitle">pāvantī<supplied reason="omitted">r</supplied>tta-carukkam</seg>
   
-  <p>
-    <milestone n="179" unit="page"/>
-    <lb n="??"/><seg function="intertitle">Oṉpatāvatu Ātitta-carukkam –</seg>
-  </p>
-  
-  <p>
-    <milestone n="183" unit="page"/>
-    <lb n="??"/><seg function="intertitle">pattāvatu piratatta-c-carukkam –</seg>
-  </p>
-  
-  <p>
-    <milestone n="189" unit="page"/>
-    <lb n="??"/><seg function="intertitle">pāvantītta-carukkam</seg>
-  </p>
-  
-  <p>
-    <milestone n="200" unit="page"/>
-    <lb n="??"/><seg function="intertitle">puḷakātipa-c-carukkam</seg>
-  </p>
-  
-  <p>
-    <milestone n="203" unit="page"/>
-    <lb n="35"/><gap reason="ellipsis"/> – 7 – y<pc>-</pc>ik-katai
+     <pb facs="204" n="100v"/><note xml:lang="en">Tamil pagination 200</note>
+    <lb n="33"/><gap reason="ellipsis"/> ~ 3<g ref="#pattu"/>1 ~ <seg function="completion-statement">pāvantīrtta
+  <lb n="34" break="no"/>carukkamuṟṟum ~</seg> <seg function="total-stanzas">Āka viruttam ~ 5<g ref="#nūṟu"/>7<g ref="#pattu"/>9</seg>
+  <lb n="35"/><seg function="intertitle">puḷakātipa-c-carukkam</seg>
+    
+      <pb facs="207" n="102r"/><note xml:lang="en">Tamil pagination 203</note>
+    <lb n="35"/><gap reason="ellipsis"/> – 7 – <seg function="explicit" type="root-text"><lg><l>y<pc>-</pc>ik-katai
     <lb n="36"/>paṭittōr kēṭṭōr eḻutiṉōr eḻuti vait
-    <lb n="37" break="no"/>tōr ‡ maiy-k-kaṭāl cūḻnta y-inta vaiyyakam mu
-    <lb n="38" break="no"/>ḻutum āṇṭu ‡ takkacantāṉa pōka cavupākkiya
-    <lb n="39" break="no"/>n taṉṉil vāḻntu ‡ tikkaruṇēcar Aṉpāy-c
-    <lb n="40"/><seg function="explicit">civapatam peṟuvar tāmē ‡‡ – 8 –</seg> <seg function="completion-statement">puḷakātipa-c-ca
-      <lb n="41"/>rukkamuṟṟum</seg> – Āka viruttam – 5<g ref="#nūṟu"/>8<g ref="#pattu"/>7 –    
-  </p>
-  
-  <p>
+    <lb n="37" break="no"/>tōr</l> <l>maiy-k-kaṭāl cūḻnta y-inta vaiyyakam mu
+    <lb n="38" break="no"/>ḻutum āṇṭu</l> <l>takkacantāṉa pōka cavupākkiya
+    <lb n="39" break="no"/>n taṉṉil vāḻntu</l> <l>tikkaruṇēcar Aṉpāy-c
+  <lb n="40"/>civapatam peṟuvar tāmē – 8 –</l></lg></seg> <seg function="completion-statement">puḷakātipa-c-ca
+      <lb n="41"/>rukkamuṟṟum</seg> – <seg function="total-stanzas">Āka viruttam – 5<g ref="#nūṟu"/>8<g ref="#pattu"/>7 –</seg>   
+    
+      <pb facs="208" n="27v"/><note xml:lang="en">Tamil pagination 204</note>
     <milestone n="204" unit="page"/> <note xml:lang="en">blank</note>      
-  </p>
   
-  <p>
-    <seg function="table-of-contents"><milestone n="205" unit="page"/>
+      <pb facs="209" n="27v"/><note xml:lang="en">Tamil pagination 205</note>
+    <seg function="table-of-contents">
       <lb n="1"/>Aruṇai-māṉakara-c-carukkam – 7<g ref="#pattu"/>6
       <lb n="2"/>tirumalai-c-carukkam – – – 8<g ref="#pattu"/>8
       <lb n="3"/>tiru-v<pc>-</pc>avatāra-c-carukkam – – 9<g ref="#pattu"/>1
@@ -186,15 +162,14 @@ written in black ink on the spine. </p>
       <lb n="9"/>Ātitta-carukkam – – – <g ref="#pattu"/>1
       <lb n="10"/>piratatta-carukkam – – – <g ref="#pattu"/>3
       <lb n="11"/>pāvan-tīṟta-carukkam – – – 3<g ref="#pattu"/>1
-    <lb n="12"/>puḷakātipa-c-carukkam – – – – 8</seg>
+    <lb n="12"/>puḷakātipa-c-carukkam – – – – 8
     <lb n="blank line space"/>
-    <lb n="13"/>Āka-c carukkam <g ref="#pattu"/>2k=ku viruttam
-    <lb n="14"/>5<g ref="#nūṟu"/>8<g ref="#pattu"/>7
-    <lb n="15"/><seg function="completion-statement">muṟṟum</seg>
-  </p>
+    <seg function="total-stanzas"><lb n="13"/>Āka-c carukkam <g ref="#pattu"/>2k=ku viruttam
+    <lb n="14"/>5<g ref="#nūṟu"/>8<g ref="#pattu"/>7</seg>
+    <seg function="completion-statement"><lb n="15"/>muṟṟum</seg>
+      </seg>
   
-  <p>
-    <milestone n="206" unit="page"/> <note xml:lang="en">blank</note>      
-  </p>
+        <pb facs="206" n="27v"/><note xml:lang="en">Tamil pagination 206</note>
+    <note xml:lang="en">blank</note>     
   
 </body></text></TEI>
