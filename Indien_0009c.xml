@@ -22,16 +22,16 @@
                   <idno type="alternate"/>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103140x</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary>A <foreign xml:lang="ta">cakkaram</foreign>, with <foreign xml:lang="ta">mantiram</foreign>s. Appears to be an original outside cover leaf as the verso is more dark. According to the title page folio (U1), this the <foreign xml:lang="ta">cakkaram</foreign> of the <title xml:lang="ta">Cauntariyalakari</title>.</summary>
+                  <summary><p>A <foreign xml:lang="ta">cakkaram</foreign>, with <foreign xml:lang="ta">mantiram</foreign>s. Appears to be an original outside cover leaf as the verso is more dark. According to the title page folio (U1), this the <foreign xml:lang="ta">cakkaram</foreign> of the <title xml:lang="ta">Cauntariyalakari</title>.</p></summary>
                   
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Cakkaram</title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi">
+                  <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
                         <support>
                            <!--measure unit="stringholes" quantity=""/-->
-                        <measure unit="stringhole" quantity="1"/></support>
+                        </support>
                         <extent>
                            <measure unit="folio" quantity="1">1 (U1).</measure>
                            <dimensions type="leaf" unit="mm">
@@ -75,7 +75,7 @@
                   <bindingDesc>
                      <binding>
                         
-                     </binding>
+                     <decoNote type="stringhole"><measure unit="stringhole" quantity="1"/></decoNote></binding>
                   </bindingDesc>
                </physDesc>
                <history>
@@ -126,7 +126,7 @@
   <lb n="4"/><gap reason="ellipsis"/>
     <lb n="5"/><gap reason="ellipsis"/>
    
-   <pb facs="0" n="[1]v"/><note xml:lang="en">scribbles</note>
+   <pb facs="0" n="[1]v"/><seg function="user-related-note"><note xml:lang="en">scribbles</note></seg>
 
 </body>
 </text></TEI>
