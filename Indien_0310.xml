@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:lang="ta">Vaḷḷiyammaipurāṇam</title>
+            <title xml:lang="ta"><title xml:lang="ta">Vaḷḷiyammaipurāṇam</title></title>
          <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          
          <publicationStmt>
@@ -24,14 +24,16 @@
                <msContents class="#STM">
                   <summary><p>The <title xml:lang="ta">Vaḷḷiyammaipurāṇam</title> is a narrative telling the legend of <term xml:lang="ta">Vaḷḷi</term>, the consort of <term xml:lang="ta">Murukaṉ</term>. It appears to be an epitome of the <title xml:lang="ta">Kantapurāṇam</title> (Taylor 1845, p. 61).</p>
 <p>The text is complete, with 67 <foreign xml:lang="ta">caṟukkam</foreign>s (Skt. <foreign xml:lang="sa">sarga</foreign>) and 1422 stanzas (U2, f115v6‒7).</p>
+<p>Description based on the examination of the original manuscript (February 2020).</p>
+<p>Dimensions assessed at the time of examination.</p>    
                   </summary>
                   
-               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2a" xml:id="T2" defective="false"><title xml:lang="ta">Vaḷḷiyammaipurāṇam: <term xml:lang="ta">mūlam</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2b" xml:id="T3" defective="false"><title xml:lang="ta"><term xml:lang="en">Table of contents</term></title><textLang mainLang="tam"/></msItem></msContents>
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page (additional)</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2a" xml:id="T2" defective="false"><title xml:lang="ta">Vaḷḷiyammaipurāṇam: Mūlam</title><textLang mainLang="tam"/></msItem><msItem synch="#U2b" xml:id="T3" defective="false"><title xml:lang="ta">Vaḷḷiyammaipurāṇam: <term xml:lang="en">Table of contents</term></title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi">
+                  <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
                         <extent>
-                           <measure unit="folio" quantity="116">[1] + 115 (U1 + U2).</measure>
+                           <measure unit="folio" quantity="116">{1} + 115 (U1 + U2).</measure>
                            <dimensions type="leaf" unit="mm">
                               <width quantity="355"/>
                               <height quantity="35"/>
@@ -40,7 +42,7 @@
                         <collation>
                         
                         
-                        <desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">Title Page</emph>. No foliation.Verso blank. Hand #1.</desc><desc xml:id="U2">115 folios = <emph rend="bold">text</emph>. Tamil foliation [1]‒115. Hand #2. </desc><desc xml:id="U2a">114 folios = <emph rend="bold"><term xml:lang="ta">mūlam</term></emph>. Tamil foliation [1]‒114.</desc><desc xml:id="U2b">1 folio = <emph rend="bold">table of contents</emph>. Tamil foliation 115.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation>
+                        <desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">Title Page (additional)</emph>. No foliation.Verso blank. Hand #1.</desc><desc xml:id="U2">115 folios = <emph rend="bold">text</emph>. Tamil foliation {1}, 2‒115. Hand #2. </desc><desc xml:id="U2a">114 folios = <emph rend="bold"><term xml:lang="ta">mūlam</term></emph>. Tamil foliation {1}, 2‒114.</desc><desc xml:id="U2b">1 folio = <emph rend="bold">Table of Contents</emph>. Tamil foliation 115.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation>
                         <condition>Very good state of preservation, considering the age of the manuscript and in spite of some bore holes caused by insects. </condition>
                      </supportDesc>
                      <layoutDesc>
@@ -50,13 +52,13 @@
                   <handDesc>
                     
                      
-                  <handNote synch="#U1" scope="minor" scribeRef="#ArielTitleScribe" script="tamil" medium="incised"><desc>Hand #1.</desc></handNote><handNote synch="#U2" scope="major" script="tamil" medium="incised"><desc>Hand #2.</desc></handNote></handDesc>
+                  <handNote synch="#U1" scope="minor" script="tamil" medium="incised soot"><desc>Hand #1. <persName role="scribe">Ariel's title scribe</persName>.</desc></handNote><handNote synch="#U2" scope="major" script="tamil" medium="incised soot"><desc>Hand #2.</desc></handNote></handDesc>
                   <additions>
                     
                     
                     
                     
-                  <desc type="shelfmark">BnF shelfmark sticker: <quote>INDIEN 310</quote>.</desc><desc type="documenting-note">BnF sticker <quote>DON N° <space type="vacat"/></quote>.</desc><desc synch="#U1" corresp="#T1" type="shelfmark">Shelfmark in black ink: <quote>b/69</quote> (f[1]r).</desc><desc synch="#U2b" corresp="#T3" type="table-of-contents"/></additions>
+                  <desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 310</quote> (<locus facs="0">front cover, recto</locus>).</desc><desc synch="#CoverFront" type="documenting-note" subtype="cover front">BnF sticker <quote>DON N° <space type="vacat"/></quote> (<locus facs="0">front cover, recto</locus>).</desc><desc synch="#U1" corresp="#T1" type="shelfmark">Shelfmark in black ink: <quote>b/69</quote> (<locus facs="0">f[1]r</locus>).</desc><desc synch="#U2b" corresp="#T3" type="table-of-contents"/></additions>
                   <bindingDesc>
                      <binding>
                         <p><material cert="medium">Pinewood</material> covers apparently fabricated in the BnF.</p>
@@ -87,7 +89,7 @@
       <encodingDesc>
          
          
-      <p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.      </p></encodingDesc>
+      <p>   <emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.            </p></encodingDesc>
       
    <revisionDesc>
          
@@ -96,74 +98,77 @@
    <sourceDoc>
     <surface/>
    </sourceDoc>
-<text synch="#U1" corresp="#T1" xml:lang="ta">
+
    
-   <body>
+   
+   
+   <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
       <ab>
   
   <pb n="[1]r"/>
-  <milestone n="1" unit="column"/>
-  <lb n="1"/><seg function="blessing">veṟṟi
+  <seg function="blessing"><milestone n="1" unit="column"/>
+  <lb n="1"/>veṟṟi
   <lb n="2" break="no"/>vēl uṟṟa
   <lb n="3"/>tuṇai</seg>
   
-  <milestone n="2" unit="column"/>
+  <seg function="title"><milestone n="2" unit="column"/>
   <lb n="1"/>Iḵtu
   
    <milestone n="3" unit="column"/>
-  <lb n="1"/><seg function="title">vaḷḷiyammai
+  <lb n="1"/>vaḷḷiyammai
   <lb n="2" break="no"/>purāṇam</seg>
-      </ab>
-   </body>
-</text>
-   
-   <text synch="#U2a" corresp="#T2" xml:lang="ta">
-      <body>
-         <ab>
+      
+  </ab>
+</body></text><text synch="#U2a" corresp="#T2" xml:lang="ta"><body>
+  <ab>
+    
   <pb n="[1]r"/>
   
-  <milestone unit="left-margin"/>
-  <lb n="1"/><seg function="blessing">vēlum
+    <seg function="header">
+  <seg function="blessing"><milestone unit="left-margin"/>
+  <lb n="1"/>vēlum
   <lb n="2"/>mayilum</seg>
-  <lb n="3"/><seg function="title">vaḷḷiya
+  <seg function="title"><lb n="3"/>vaḷḷiya
   <lb n="4"/>mmai
   <lb n="5"/>purāṇam</seg>
-  <lb n="6"/><seg function="intertitle">pāyiram</seg>
+  <seg function="intertitle"><lb n="6"/>pāyiram</seg>
+      </seg>
   
-  <milestone unit="main-text-area"/>
-  <lb n="1"/><seg function="incipit">cīvakaṉ kēḻvi ṉāṭuñ ciṟantapā lāḻivāṟum</seg> ‡ pūmaka ?āka viṇṇum puṇariyā ṟutit tavāṟun ‡ tēvarkaṟ pakattil vāṟan tilatamāṉ kumari vāṟum ‡ māvakata teṣṣaṉ vāṟum māmāyai vāṟu
-  <lb n="2" break="no"/>ñ colvāṉ <g ref="#pcs"/> 1 <g ref="#pcs"/> <gap reason="ellipsis"/>
+  <seg function="incipit"><milestone unit="main-text-area"/>
+  <lg><l><lb n="1"/>cīvakaṉ kēḻvi ṉāṭuñ ciṟantapā lāḻivāṟum</l> <l>pūmaka<unclear reason="consonant_unclear"><gap reason="illegible" quantity="1" unit="character"/><g ref="#ra_r_kal"/></unclear>ka viṇṇum puṇariyā ṟutit tavāṟun</l> <l>tēvarkaṟ pakattil vāṟan tilatamāṉ kumari vāṟum</l> <l>māvakata teṣṣaṉ vāṟum māmāyai vāṟu
+  <lb n="2" break="no"/>ñ colvāṉ <g ref="#pcs"/> 1 <g ref="#pcs"/></l></lg></seg> <gap reason="ellipsis"/>
                         
   <pb n="113v"/>
   
   <milestone unit="left-margin"/>
-  <lb n="1"/><seg function="intertitle">vaḷḷi
+  <seg function="intertitle"><lb n="1"/>vaḷḷi
   <lb n="2"/>yammai
   <lb n="3"/><supplied reason="omitted">I</supplied>raṇṭā
   <lb n="4" break="no"/>m piṟappu</seg>
   
   <milestone unit="main-text-area"/>
-   <lb n="1"/><gap reason="ellipsis"/> | <g ref="#nūṟu"/>49 | māriyum peyap pāril maṉitarum vāḻi vāḻi ‡ ciṟiya ceṅkōl maṉṉaṉ Ulakattu ceḻit
-   <lb n="2" break="no"/>tu vāḻ ‡ pāriya centil vāḻum paramaṉār kumāraṉ ṟēvi ‡ puriya tavattāḷ vaḷḷi purāṇamē ceppi ṉāṉē | <g ref="#nūṟu"/>5<g ref="#pattu"/> | <seg function="completion-statement">vaḷḷiyammaik
-  <lb n="3" break="no"/>kaliyāṇamuṟṟum</seg> <g ref="#pcs"/> mātavaḷḷi <gap reason="ellipsis"/>
+   <lb n="1"/><gap reason="ellipsis"/> | <g ref="#nūṟu"/>49 | <lg><l>māriyum peyap pāril maṉitarum vāḻi vāḻi</l> <l>ciṟiya ceṅkōl maṉṉaṉ Ulakattu ceḻit
+   <lb n="2" break="no"/>tu vāḻ</l> <l>pāriya centil vāḻum paramaṉār kumāraṉ ṟēvi</l> <l>puriya tavattāḷ vaḷḷi purāṇamē ceppi ṉāṉē | <g ref="#nūṟu"/>5<g ref="#pattu"/> |</l></lg> <seg function="completion-statement">vaḷḷiyammaik
+  <lb n="3" break="no"/>kaliyāṇamuṟṟum <g ref="#pcs"/></seg> mātavaḷḷi <gap reason="ellipsis"/>
   
   <pb n="114r"/>
-  <lb n="7"/><gap reason="ellipsis"/> | 6 | <seg function="completion-statement">vaḷḷiyammai <supplied reason="omitted">I</supplied>reṇṭām piṟappu muṟṟum</seg> <g ref="#pcs"/> <seg function="blessing">
-  cuppiṟamaṇiyar kiṟupaiy uṇṭāka vēṇum</seg> <g ref="#pcl"/> <g ref="#pcs"/> <g ref="#pcs"/>
+  <lb n="7"/><gap reason="ellipsis"/> | 6 | <seg function="completion-statement">vaḷḷiyammai <supplied reason="omitted">I</supplied>reṇṭām piṟappu muṟṟum <g ref="#pcs"/></seg> <seg function="blessing">
+  cuppiṟamaṇiyar kiṟupai y<pc>-</pc>uṇṭāka vēṇum <g ref="#pcl"/> <g ref="#pcs"/> <g ref="#pcs"/></seg>
   
   <pb n="114v"/>
   <lb n="1"/>
   <!--Update after revision of colophon?-->
-  cārva<choice><sic>ti</sic><corr>ri</corr></choice> <g ref="#varuṣam">varuṣam</g> vai<choice><orig>yyā</orig><reg>kā</reg></choice>ci <g ref="#mācam">mācam</g> 30 <g ref="#tēti">tēti</g> veḷḷikiḻamaiyum Uttira<pc>-</pc>naṣcattiramum cattamiyum kaṟkkāṭa(l/v)akkaṇamum yippaṭi
+  <seg function="colophon"><seg function="copy-statement">cārva<choice><sic>ti</sic><corr>ri</corr></choice> <g ref="#varuṣam">varuṣam</g> vai<choice><orig>yyā</orig><reg>kā</reg></choice>ci <g ref="#mācam">mācam</g> 30 <g ref="#tēti">tēti</g> veḷḷikiḻamaiyum Uttira<pc>-</pc>naṣcattiramum cattamiyum kaṟkkāṭa<unclear>la</unclear>kkaṇamum yippaṭi
   <lb n="2" break="no"/>p paṭṭa cupa<pc>-</pc><choice><sic>ta</sic><corr>ti</corr></choice>ṉattil kōvaḷam tāṉappaceṭṭiya<choice><unclear>ṉ</unclear><unclear>ḷ</unclear></choice> kumāraṉ kaṭaikuṭṭi mutticeṭṭi vaḷḷiyammaipurāṇam Eḻuti niṟain
-  <lb n="3" break="no"/><sic>tu</sic>tu muṟṟum <g ref="#pcs"/> kuruvē tuṇai vaḷḷiṉāyakiyammai Arṣcuttuk <note xml:lang="en">i.e. <term xml:lang="ta">Arccittu</term></note> kāṟkkavēṇum <g ref="#pcl"/> <g ref="#pcs"/> <g ref="#pcl"/>
-         </ab>            
-</body></text>
-   
-   <text synch="#U2b" corresp="#T3" xml:lang="ta"><body>
-      <ab>
+  <lb n="3" break="no"/><sic>tu</sic>tu muṟṟum <g ref="#pcs"/></seg> <seg function="blessing">kuruvē tuṇai</seg> <seg function="blessing">vaḷḷiṉāyakiyammai Arṣcuttuk <note xml:lang="en">i.e. <term xml:lang="ta">Arccittu</term></note> kāṟkkavēṇum <g ref="#pcl"/> <g ref="#pcs"/> <g ref="#pcl"/></seg></seg>
+
+  </ab>            
+</body></text><text synch="#U2b" corresp="#T3" xml:lang="ta"><body>
+  
+  <ab>
   
   <pb n="115r"/>
+    <seg function="table-of-contents">
   <milestone n="1" unit="column"/>
   <milestone n="2" unit="column"/>
   <milestone n="3" unit="column"/>
@@ -175,6 +180,7 @@
   <milestone n="2" unit="column"/>
   <milestone n="3" unit="column"/>
   <milestone n="4" unit="column"/>
-      </ab>
-  
+      </seg>
+    
+      </ab>  
 </body></text></TEI>
