@@ -1,15 +1,15 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:lang="ta">Kūrmapurāṇam</title>
+            <title xml:lang="ta"><title xml:lang="ta">Kūrmapurāṇam</title></title>
          <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -17,23 +17,27 @@
                   <repository>
                      <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
                   </repository>
-                  <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103848k</idno>
+                  
                   <idno type="shelfmark">Indien 318</idno>
                   <idno type="alternate"><idno>Tamoul 318</idno></idno>
-               </msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103848k</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary><p>The <title xml:lang="ta">Kūrmapurāṇam</title> is a Tamil version of the Sanskrit <title xml:lang="sa">Kūrmapurāṇam</title> by the <geogName xml:lang="ta">Teṉkāci</geogName> ("Southern <geogName xml:lang="sa">Kāśī</geogName>") king <persName xml:lang="ta">Ativīrarāmapāṇṭiyaṉ</persName>, who ruled in the second half of the 16th century. See Raghavan (1960, p. 228‒229). On <persName xml:lang="ta">Ativīrarāmapāṇṭiyaṉ</persName>, best known for his <title xml:lang="ta">Naiṭatam</title>, a Tamil version of the Sanskrit <title xml:lang="sa">Naiṣadha</title> by <persName xml:lang="sa">Harṣa</persName>, see Shulman (2012, pp. 155ff.).</p>
+                  <summary><p>The <title xml:lang="ta">Kūrmapurāṇam</title> is a Tamil version of the Sanskrit <title xml:lang="sa">Kūrmapurāṇam</title> by the <placeName xml:lang="ta">Teṉkāci</placeName> ("Southern <placeName xml:lang="sa">Kāśī</placeName>") king <persName xml:lang="ta">Ativīrarāmapāṇṭiyaṉ</persName>, who ruled in the second half of the 16th century. See Raghavan (1960, p. 228‒229). On <persName xml:lang="ta">Ativīrarāmapāṇṭiyaṉ</persName>, best known for his <title xml:lang="ta">Naiṭatam</title>, a Tamil version of the Sanskrit <title xml:lang="sa">Naiṣadha</title> by <persName xml:lang="sa">Harṣa</persName>, see Shulman (2012, pp. 155ff.).</p>
+
 <p>The text is seemingly complete.</p>
 
 <p><emph rend="bold">Paratexts</emph>: marginal and in-text benedictions, invocation page, marginal title, marginal chapter headers, in-text chapter completion statement, in-text text completion statement, scribal colophon.</p>
+
+<p>Description based on the examination of the original manuscript (February 2020).</p>
+<p>Dimensions assessed at the time of examination.</p>    
                   </summary>
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Kūrmapurāṇam: <term xml:lang="en">Invocation</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta">Kūrmapurāṇam: Mūlam</title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi">
+                  <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
                         <extent>
-                           <measure unit="folio" quantity="425">[1] + 420 + [4]</measure>
+                           <measure unit="folio" quantity="425">{1} + 420 + {4}</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               <height quantity="25"/>
@@ -43,26 +47,28 @@
                         
                         
                         
-                        <desc xml:id="U1">1 folio = <emph rend="bold">invocation</emph>. No foliation. Verso blank.</desc><desc xml:id="U2">420 folios = <emph rend="bold"><term xml:lang="ta">mūlam</term></emph>. Tamil foliation 1‒277, 279-282, 284-422. Several foliations corrected. 5 to 8 lines per page.</desc><desc xml:id="U3">4 folios = back <emph rend="bold">guard leaves</emph>. No foliation.</desc></collation>
+                        <desc xml:id="U1">1 folio = <emph rend="bold"><title xml:lang="ta">Kūrmapurāṇam</title>: Invocation</emph>. No foliation. Verso blank.</desc><desc xml:id="U2">420 folios = <emph rend="bold"><title xml:lang="ta">Kūrmapurāṇam</title>: Text</emph>. Tamil foliation 1‒277, 279-282, 284-422. Several foliations corrected. 5 to 8 lines per page.</desc><desc xml:id="U3">4 folios = back <emph rend="bold">guard leaves</emph>. No foliation.</desc></collation>
                         <!--Check continuity of text between missing folios!--> 
                         <condition>Very good state of preservation. Some bore holes caused by insects.</condition>
-                     <support><measure unit="stringhole" quantity="2"/></support></supportDesc>
+                     <support/></supportDesc>
                      <layoutDesc>
                         <layout columns="1" writtenLines="5 8"/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
                      
-                  <handNote synch="#U1 U2" scope="sole" script="tamil" medium="incised"/></handDesc>
+                  <handNote synch="#U1 #U2" scope="sole" script="tamil" medium="incised soot"/></handDesc>
                   <additions>
                      
                      
                      
-                  <desc type="title shelfmark" subtype="detached">A small paper leaf comes along with the bundle. Written in black ink: <quote>No. 117. <term xml:lang="ta">கூர்மபுராணம்</term>.</quote></desc></additions>
+                  <desc type="title shelfmark" subtype="detached">Shelfmark and title written in black ink on a small <locus facs="0">detached paper leaf</locus>: <quote rend="block">
+  <lb n="1"/>No. 117. 
+  <lb n="2-3"/><term xml:lang="ta">kūrmapurāṇam</term>.</quote></desc></additions>
                   <bindingDesc>
                      <binding>
                         <p>Original <material>wood</material> covers.</p>
-                     </binding>
+                     <decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
                   </bindingDesc>
                </physDesc>
                <history>
@@ -80,7 +86,7 @@
                      
                      
                      
-                  <bibl>Cabaton, Antoine. 1912. <title xml:lang="fr">Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f65">p. 47</ref>.</bibl><bibl>Raghavan, V. (1960). <title type="article">Tamil Versions of the Purāṇas</title>. <title>Purāṇa</title>. 2(1–2): 225–242.</bibl><bibl>Rangacharya, M. &amp; Kuppusvami Sastri, S. (1916). <title>A Descriptive Catalogue of the Tamil Manuscripts in the Government Oriental Manuscripts Library, Madras. Vol. 2: Itihāsa and Puṟāṇa, and Relgion and Philosophy (Vaiṣṇavism).</title> Madras: Government Press.</bibl><bibl>Shulman, David (2012). <title>More than Real: A History of the Imagination in South India.</title> Cambridge [Ma]: Harvard University Press.</bibl></listBibl>
+                  <bibl>Cabaton, Antoine. 1912. <title xml:lang="fr">Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f65">p. 47</ref>.</bibl><bibl>Raghavan, V. 1960. <title type="article">Tamil Versions of the Purāṇas</title>. <title>Purāṇa</title>. 2(1–2): 225–242.</bibl><bibl>Rangacharya, M. &amp; Kuppusvami Sastri, S. 1916. <title>A Descriptive Catalogue of the Tamil Manuscripts in the Government Oriental Manuscripts Library, Madras. Vol. 2: Itihāsa and Puṟāṇa, and Relgion and Philosophy (Vaiṣṇavism).</title> Madras: Government Press.</bibl><bibl>Shulman, David. 2012. <title>More than Real: A History of the Imagination in South India.</title> Cambridge [Ma]: Harvard University Press.</bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
@@ -88,58 +94,60 @@
       <encodingDesc>
         
          
-      <p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.    </p></encodingDesc>
-      <revisionDesc>
+      <p>   <emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.            </p></encodingDesc>
+      
+   <revisionDesc>
          
          
-      <change when="2020-05">This catalogue entry has been redacted by Emmanuel FRANCIS (CNRS, CEIAS UMR 8564, EHESS/CNRS) for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG). Version 1, May 2020. </change><change when="2021-03">Converted to TEI by Charles LI.</change><change when="2021-08">Updated to TST encoding conventions by Emmanuel FRANCIS.</change></revisionDesc>
-   </teiHeader>
+      <change when="2020-05">This catalogue entry has been redacted by Emmanuel FRANCIS (CNRS, CEIAS UMR 8564, EHESS/CNRS) for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG). Version 1, May 2020. </change><change when="2021-03">Converted to TEI by Charles LI.</change><change when="2021-08">Updated to TST encoding conventions by Emmanuel FRANCIS.</change></revisionDesc></teiHeader>
    <sourceDoc>
     <surface/>
    </sourceDoc>
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
-  
+  <ab>
+    
   <pb n="[1]r"/>
-  
-  <milestone unit="left-margin"/>
-  <lb n="1"/><seg function="blessing"><term xml:lang="sa">hari</term></seg>
-  <lb n="2"/><seg function="blessing">naṉṟā
+  <seg function="header">
+  <seg function="blessing"><milestone unit="left-margin"/>
+  <lb n="1"/><term xml:lang="sa">hari</term></seg>
+  <seg function="blessing"><lb n="2"/>naṉṟā
   <lb n="3" break="no"/>ka</seg>
+    </seg>
   
-  <milestone unit="main-text-area"/>
-  <lb n="1"/><seg function="invocation">veṇṇilāka kaṟṟai kāṉṟu viḷaṅkumōr piṟaikkō ṭiṉṟi ‡ yeṇṇilōr pākaṅ kūntaṟ piṭiyeṉa virunta vāṟṟaṟ ‡
-  <lb n="2"/>peṇ<gap reason="illegible" quantity="1" unit="character"/>ṇoru pākam vaitta piññaka ṉuruvu kāṭṭu ‡ maṇṇalaṅ kaḷinal yāṉai malaraṭi yakattu vaippām</seg> <g ref="#pcl"/> <seg function="blessing">kuruvē tuṇai</seg>
+  <seg function="satellite-stanza invocation"><milestone unit="main-text-area"/>
+  <lg><l><lb n="1"/>veṇṇilāka kaṟṟai kāṉṟu viḷaṅkumōr piṟaikkō ṭiṉṟi</l> <l>yeṇṇilōr pākaṅ kūntaṟ piṭiyeṉa virunta vāṟṟaṟ</l>
+  <l><lb n="2"/>peṇ<gap reason="illegible" quantity="1" unit="character"/>ṇoru pākam vaitta piññaka ṉuruvu kāṭṭu</l> <l>maṇṇalaṅ kaḷinal yāṉai malaraṭi yakattu vaippām <g ref="#pcl"/></l></lg></seg> <seg function="blessing">kuruvē tuṇai</seg>
+    
+    </ab>
 </body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
-  
+    <ab>
+
   <pb n="1r"/>
-  <milestone unit="left-margin"/>
-  <lb n="1"/><seg function="title">kūrmapurā
+      <seg function="header">
+  <seg function="title"><milestone unit="left-margin"/>
+  <lb n="1"/>kūrmapurā
    <lb n="2" break="no"/>ṇaṅ</seg> <seg function="intertitle">kaṭa
    <lb n="3" break="no"/>vuḷ vaṇak
    <lb n="4" break="no"/>kam</seg>
+        </seg>
   
-  <milestone unit="main-text-area"/>
-  <lb n="1"/><seg function="incipit">cīrpūtta kuḻavi mati yamutuṟaippak <note xml:lang="en">corrected to <term xml:lang="ta">yamutiṟaippak</term> by another hand, unblackened</note> kaṅkaiceḻun tillai tūṟṟa</seg> ‡ vārpūtta pommeṉmulaik kavuriyiru kaṇkaḷippa vāṉōr pōṟṟa ‡
-  <lb n="2"/>Ērpūtta maṇimaṉṟat tāṉanta naṭampuriyum eṇṭōṉ mukkaṭ ‡ kārpūtta kaṭaimiṭaṟṟōṉ kamalamalarc cēvaṭiyeṅ karuttuḷ vaip
-  <lb n="3" break="no"/>pām <g ref="#pcs"/> 1 – <gap reason="ellipsis"/>
+  <seg function="incipit"><milestone unit="main-text-area"/>
+  <lg><l><lb n="1"/>cīrpūtta kuḻavi mati yamutuṟaippak <note xml:lang="en">corrected to <term xml:lang="ta">yamutiṟaippak</term> by another hand, unblackened</note> kaṅkaiceḻun tillai tūṟṟa</l> <l>vārpūtta pommeṉmulaik kavuriyiru kaṇkaḷippa vāṉōr pōṟṟa</l>
+  <l><lb n="2"/>Ērpūtta maṇimaṉṟat tāṉanta naṭampuriyum eṇṭōṉ mukkaṭ</l> <l>kārpūtta kaṭaimiṭaṟṟōṉ kamalamalarc cēvaṭiyeṅ karuttuḷ vaip
+  <lb n="3" break="no"/>pām <g ref="#pcs"/> 1 –</l></lg></seg> <gap reason="ellipsis"/>
   
   <pb n="422r"/>
-   <lb n="3"/><gap reason="ellipsis"/> · 12 · Etirma<unclear>lai</unclear>n tēṟṟa veñcamat taraca riṭutiṟaik kaṭaiyaḷan taṟiyā ‡ maturaiyum pukārum vañciyum pukkum
-  <lb n="4"/>māṉavēl vaḻutiyar perumā ‡ ṉatirpolaṅ kaḻaṟkā laṭalati vīra ṉa<gap reason="illegible" quantity="2" unit="character"/><unclear>ṉpuṟat</unclear> terintunaṉ kicaitta ‡ <seg function="explicit">mututami<choice><sic>ḷ</sic><corr>ḻ</corr></choice>k kūr
-  <lb n="5" break="no"/>ma purāṇamuṟ ṟunarntōr muttivīṭ ṭiṉituvīṟ ṟiruppār</seg> · 13 · <seg function="completion-statement">toṇṇūṟṟu nālāvatu pi<choice><sic>ru</sic><corr>rā</corr></choice>ki<choice><orig>ṟu</orig><reg>ru</reg></choice>ta-p-pi<unclear reason="vowel_unclear">rā</unclear><supplied reason="omitted">ḷa</supplied>yamum 
-  <lb n="6" break="no"/>m āttiyanti<choice><sic>ca</sic><corr>ka</corr></choice>ppira<choice><orig>ḷai</orig><reg>ḷa</reg></choice>yamum uraitta<pc>-</pc>v attiyāyamuṟṟum</seg> <g ref="#pcs"/> <seg function="completion-statement">kūrmapurāṇamuṟṟum</seg> <g ref="#pcs"/> <seg function="colophon">836 <g ref="#varuṣam">varuṣam</g> Āvaṇi <unclear reason="eccentric_ductus"><g ref="#mācam">mācam</g></unclear>m 5 <g ref="#tēti">tēti</g>
-  <lb n="7"/>cōmavāramum tutikaiyum makanakkettiramum <note>i.e. <term xml:lang="ta">makānaṭcattiram</term></note> I<choice><orig>ṉṉā</orig><reg>nnā</reg></choice>ḷil Evaṇāccittayar kāriya<supplied reason="omitted">r</supplied>kattar<pc>-</pc>āṉa ticaimuka
+   <lb n="3"/><gap reason="ellipsis"/> · 12 · <seg function="explicit"><lg><l>Etirma<unclear>lai</unclear>n tēṟṟa veñcamat taraca riṭutiṟaik kaṭaiyaḷan taṟiyā</l> <l>maturaiyum pukārum vañciyum pukkum
+  <lb n="4"/>māṉavēl vaḻutiyar perumā</l> <l>ṉatirpolaṅ kaḻaṟkā laṭalati vīra ṉa<gap reason="illegible" quantity="2" unit="character"/><unclear>ṉpuṟat</unclear> terintunaṉ kicaitta</l> <l>mututami<choice><sic>ḷ</sic><corr>ḻ</corr></choice>k kūr
+  <lb n="5" break="no"/>ma purāṇamuṟ ṟunarntōr muttivīṭ ṭiṉituvīṟ ṟiruppār · 13 ·</l></lg></seg> <seg function="colophon"><seg function="completion-statement">toṇṇūṟṟu nālāvatu pi<choice><sic>ru</sic><corr>rā</corr></choice>ki<choice><orig>ṟu</orig><reg>ru</reg></choice>ta-p-pi<unclear reason="vowel_unclear">rā</unclear><supplied reason="omitted">ḷa</supplied>yamum 
+  <lb n="6" break="no"/>m āttiyanti<choice><sic>ca</sic><corr>ka</corr></choice>ppira<choice><orig>ḷai</orig><reg>ḷa</reg></choice>yamum uraitta<pc>-</pc>v attiyāyamuṟṟum <g ref="#pcs"/></seg> <seg function="completion-statement">kūrmapurāṇamuṟṟum <g ref="#pcs"/></seg> <seg function="copy-statement">836 <g ref="#varuṣam">varuṣam</g> Āvaṇi <unclear reason="eccentric_ductus"><g ref="#mācam">mācam</g></unclear>m 5 <g ref="#tēti">tēti</g>
+  <lb n="7"/>cōmavāramum tutikaiyum makanakkettiramum <note>i.e. <term xml:lang="ta">makānaṭcattiram</term></note> I<choice><orig>ṉṉā</orig><reg>nnā</reg></choice>ḷil <persName xml:lang="ta" role="scribe">Evaṇāccittayar kāriya<supplied reason="omitted">r</supplied>kattar<pc>-</pc>āṉa ticaimuka
   
   <pb n="422v" break="no"/>
    
   <lb n="1"/>
   ni<supplied reason="omitted">r</supplied><unclear>k</unclear>kuṇa<pc>-</pc>p<pc>-</pc>piṟavu<pc>-</pc>caivacittāntaṉ vīracaiva<pc>-</pc><unclear>ka</unclear><orig>ṟ</orig>ttācāriyaṉ ciṣar-āṉa cantira<gap reason="illegible" quantity="1" unit="character"/>-cēkara-<choice><orig>ce</orig><reg>ca</reg></choice>ṉṉa-<unclear>v</unclear>īramū<orig>ṟ</orig>tti kātal<pc>-</pc>puttira
-  <lb n="2" break="no"/>ṉ<pc>-</pc>āṉa poṉṉ<pc>-</pc>ampala<pc>-</pc>tēvar makaṉ cokkaliṅkaṉ kaiyāl eḻutiṉa kūrmapurāṇamuṟṟum</seg> <seg function="blessing">caṅkaratēcikaṉ patamē tuṇai</seg> <g ref="#pcs"/> <!--Update?-->
-                        
-                    
-
-                    
-                    
-                       
-  
+  <lb n="2" break="no"/>ṉ<pc>-</pc>āṉa poṉṉ<pc>-</pc>ampala<pc>-</pc>tēvar makaṉ cokkaliṅkaṉ</persName> kaiyāl eḻutiṉa kūrmapurāṇamuṟṟum</seg> <seg function="blessing">caṅkaratēcikaṉ patamē tuṇai <g ref="#pcs"/></seg> <!--Update?--></seg>
+      
+      </ab>  
 </body></text></TEI>
