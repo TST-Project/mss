@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><title xml:lang="sa">Yogaśataka</title> with <title xml:lang="sa">Abhidhānacintāmaṇi</title> commentary</title>
+            
+         <editor><persName>Charles LI</persName><orgName>CNRS, CEIAS, UMR 8564</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2022</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Sanscrit 1442.12</idno>
+                  <idno type="alternate"><idno>Cordier non médicine sans numéro</idno></idno>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc102485q</idno><idno type="URI">https://nakala.fr/10.34847/nkl.cb2cm2n9</idno></msIdentifier>
+               <msContents class="#STM">
+                  <summary><p>
+  This single folio contains the beginning of the <title xml:lang="sa">Yogaśataka</title>, a medical text attributed to <persName xml:lang="sa">Nāgārjuna</persName> or <persName xml:lang="sa">Vararuci</persName>, with a commentary in <term xml:lang="sa">tripāṭha</term> format. It seems to be a lithograph, printed only on one side of a small piece of cardstock.
+</p>
+<p>
+  The opening verses of the commentary inform us that it was authored by <persName xml:lang="sa">Pūrṇasena</persName>. At the <ref target="https://gallica.bnf.fr/ark:/12148/btv1b10090954q/f34.item">end of Sanscrit 1307</ref>, another manuscript of the same work, the title of the commentary is given as <title xml:lang="sa">Abhidhānacintāmaṇi</title>.
+</p></summary>
+                  
+               <msItem defective="true"><title xml:lang="sa">Yogaśataka</title><textLang mainLang="san"/><rubric xml:lang="sa"><milestone n="1r" unit="folio" facs="1"/>
+<lb n="1"/>oṃ॰</rubric><incipit xml:lang="sa">kṛtsnasya taṃtrasya gṛhītadhāmnā cikitsā viprasṛtsasya dūrāt ||</incipit><explicit xml:lang="sa"><milestone n="1r" unit="folio" facs="1"/>
+<lb n="1"/>vidagdhavaidyapratipūjitasya kariṣyate yogaśatasya bandhaḥ ||</explicit></msItem><msItem defective="true"><title xml:lang="sa">Abhidhānacintāmaṇi</title><author xml:lang="sa">Pūṛnasena</author><textLang mainLang="san"/><filiation><p>Same commentary as <ref target="https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1022310">Sanscrit 1198</ref> and <ref target="https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1023448">Sanscrit 1307</ref>. Sanscrit 1307 was copied from a manuscript of the Asiatic Society of Bengal (<ref target="https://archive.org/details/noticesofsanskritmss.1stser.byrajendralalamitra.publishedunderordersofthegovernm_984_T/page/153/mode/1up">no. 4017</ref>, Rājendralālamitra 1890).</p></filiation><rubric xml:lang="sa"><milestone n="1r" unit="folio" facs="1"/>
+<lb n="1"/>oṃ śrīgaṇeśāya namaḥ <space/></rubric><incipit xml:lang="sa">śrīvarddhamānaṃ <unclear>praṇipatya mūrddhnā</unclear> janasya sarvasya nirogahe<lb n="2"/>toḥ <space/> śrīpūrṇasenena subodhanā<unclear>rthaṃ prārabhyate yogaśatasya</unclear> ṭīkā 1</incipit><explicit xml:lang="sa"><milestone n="1r" unit="folio" facs="1"/>
+<lb n="7"/>auṣadhasa<unclear>mūhaḥ gṛhī</unclear><lb n="8"/>taṃ dhāmayena saḥ gṛhītadhāmā tena vararūcinā kartā cikitsitā ye arthāḥ teḥ prasṛ</explicit></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="pothi" rend="lithography">
+                     <supportDesc material="paper industrial">
+                        <support>
+                           
+                        </support>
+                        <extent>
+                           <measure unit="folio" quantity="1"/>
+                           <dimensions type="leaf" unit="mm">
+                              <width quantity="150"/>
+                              <height quantity="68"/>
+                           </dimensions>
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"><width quantity="120"/><height quantity="50"/></dimensions></extent>
+                        <collation/>
+                        
+                        
+                     <foliation>Devanāgarī numerals, top-left and bottom-right corners.</foliation><condition>Faded.</condition></supportDesc>
+                     <layoutDesc>
+                        
+                     <layout style="tripāṭha" streams="2"/></layoutDesc>
+                  </objectDesc>
+                  <handDesc><handNote scope="sole" script="devanagari" scriptRef="#vaba" medium="ink black"/></handDesc>
+                  <decoDesc>
+                  </decoDesc>
+                  <additions>
+                  <desc type="stamp" subtype="beginning">Library stamp, 10 mm x 13 mm.</desc><desc subtype="marginal top left">Abbreviated title, <q xml:lang="sa">yo</q>, above folio number.</desc></additions>
+                  <bindingDesc>
+                     <binding>
+                        
+                        <decoNote type="stringhole">
+                           <measure unit="stringhole"/>
+                        </decoNote>
+                    </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian" notAfter="1900"/>
+                     
+                  </origin>
+                  <provenance><p>Part of the collection of <persName role="collector">Palmyr Cordier</persName>.</p></provenance>
+                  <acquisition><p>Acquired for the BnF by <persName role="collector">Jean Filliozat</persName>.</p></acquisition>
+               </history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl><persName>Cabaton, Antoine</persName>. 1907-1908. <title xml:lang="fr">Catalogue sommaire des manuscrits sanscrits avec supplément manuscrit</title>. Paris: E. Leroux. Supplemented by <persName xml:lang="fr">Jean Filliozat</persName>. <ref target="https://gallica.bnf.fr/ark:/12148/btv1b10536321f/f253.item">317</ref>.</bibl><bibl>Filliozat, Jean, ed. 1979. <title xml:lang="fr">Yogaśataka : texte médical attribué à Nāgārjuna ; textes sanskrit et tibétain</title>. Pondicherry: Institut Français d'indologie. </bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         
+      <p>IAST transliteration. Separate line numbers are given for the commentary and the root text.</p></encodingDesc>
+      
+   <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
+         
+      <change when="2022-07">First version.</change></revisionDesc></teiHeader>
+   <facsimile>
+   <graphic url="https://api.nakala.fr/data/10.34847/nkl.cb2cm2n9/d43edf4939816f83d140a49b6c964afebac4fc9d"/></facsimile>
+</TEI>
