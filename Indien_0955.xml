@@ -18,7 +18,7 @@
                      <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
                   </repository>
                   <idno type="shelfmark">Indien 955</idno>
-                  <idno type="alternate"><idno>Vinson 955</idno></idno>
+                  <idno type="alternate"><idno>Vinson 955</idno><idno>Ariel (?)</idno><idno>b/11</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc104574r</idno></msIdentifier>
                <msContents class="#STM">
                   <summary><p>The <title xml:lang="ta">Cīvakacintāmaṇi</title>, text and commentary interspersed, part 1 of 2. For part 2, see BnF Indien 957.
@@ -27,10 +27,11 @@ Contains the first three chapters:
 <item>The <foreign xml:lang="ta">Nāmakaḷ Ilampakam</foreign>.</item>
 <item>The <foreign xml:lang="ta">Kōvintaiyār Ilampakam</foreign>.</item>
 <item>The <foreign xml:lang="ta">Kāntaruvatattaiyār Ilampakam</foreign>.</item></list></p>
-
+<p>Description based on the examination of the original manuscript (January 2021).</p>
+<p>Dimensions assessed at the time of examination.</p>      
 </summary>
                   
-               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta">Cintāmaṇi <term xml:lang="en">1-3</term>: Mūlam &amp; Urai</title><textLang mainLang="tam"/></msItem></msContents>
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page (additional)</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta">Cintāmaṇi 1-3: Mūlam &amp; Urai</title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
                   <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
@@ -39,13 +40,13 @@ Contains the first three chapters:
                            
                         </support>
                         <extent>
-                           <measure unit="folio" quantity="251">[1] + [1] + 248 + [1] (U1 + U2 + U3 + U4).</measure>
+                           <measure unit="folio" quantity="251">{1} + {1} + 248 + {1} (U1 + U2 + U3 + U4).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
                            <width min="460" max="465"/><height min="30" max="35"/></dimensions>
                         <dimensions type="object" unit="mm"><depth quantity="135"/><width quantity="465"/><height quantity="35"/></dimensions><dimensions type="written" unit="mm"/></extent>
-                        <collation><desc xml:id="U1">1 folio = <emph rend="bold">Title Page</emph>. No foliation. Double folio. Verso blank. 460 x 35 mm.</desc><desc xml:id="U2">2 folios = front <emph rend="bold">guard leaves</emph>. No foliation. Blank recto verso. Stamp on recto. 465 x 30 mm.</desc><desc xml:id="U3">248 folios = <emph rend="bold"><title xml:lang="ta">Cīvakacintāmaṇi</title> 1-3: <foreign xml:lang="ta">Mūlam &amp; Urai</foreign></emph>. Tamil foliation 1-248. Secondary Tamil foliation 1-106 for f143-248. 465 x 30 mm.
+                        <collation><desc xml:id="U1">1 folio = <emph rend="bold">Title Page (additional) </emph>. No foliation. Double folio. Verso blank. 460 x 35 mm.</desc><desc xml:id="U2">2 folios = front <emph rend="bold">guard leaves</emph>. No foliation. Blank recto verso. Stamp on recto. 465 x 30 mm.</desc><desc xml:id="U3">248 folios = <emph rend="bold"><title xml:lang="ta">Cīvakacintāmaṇi</title> 1-3: Text &amp; Commentary</emph>. Tamil foliation 1-248. Secondary Tamil foliation 1-106 for f143-248. 465 x 30 mm.
 </desc><desc xml:id="U4">1 folio = back <emph rend="bold">guard leaf</emph>. No foliation. Double folio. Blank recto verso. BnF stamp.
 </desc></collation>
                         
@@ -55,11 +56,11 @@ Contains the first three chapters:
                         
                      </layoutDesc>
                   </objectDesc>
-                  <handDesc><handNote synch="#U1" scope="minor" script="tamil" medium="incised"/><handNote synch="#U3" scope="major" script="tamil" medium="incised"/></handDesc>
+                  <handDesc><handNote synch="#U1" scope="minor" script="tamil" medium="incised soot"/><handNote synch="#U3" scope="major" script="tamil" medium="incised soot"/></handDesc>
                   <decoDesc>
                   </decoDesc>
                   <additions>
-                  <desc synch="#U1" type="shelfmark">BnF shelfmark sticker: <quote>INDIEN 955</quote> (f[1]r).</desc><desc synch="#U1" type="shelfmark">Shelfmark in black ink: <quote>b/11</quote> (f[1]r).</desc><desc synch="#U3" type="intertitle" subtype="marginal left">Left-marginal intertitles.</desc><desc synch="#U3" type="verse-beginning" subtype="marginal left"><term xml:lang="sa">Pratīka</term></desc></additions>
+                  <desc synch="#U1" type="shelfmark">BnF shelfmark sticker: <quote>INDIEN 955</quote> (<locus facs="0">f[1]r</locus>).</desc><desc synch="#U1" type="shelfmark">Shelfmark in black ink: <quote>b/11</quote> (<locus facs="0">f[1]r</locus>).</desc><desc synch="#U3" type="intertitle" subtype="marginal left">Left-marginal intertitles.</desc><desc synch="#U3" type="verse-beginning" subtype="marginal left">Left-marginal <term xml:lang="sa">pratīka</term>s.</desc></additions>
                   <bindingDesc>
                      <binding><p>No woodcovers. The string is broken. Palm-leaf stop device at one end of the string.</p><decoNote type="stringhole"><measure unit="stringhole" quantity="1"/></decoNote></binding>
                   </bindingDesc>
@@ -70,19 +71,19 @@ Contains the first three chapters:
                      
                   <origPlace>Tamilnadu.</origPlace></origin>
                   <provenance><p>Unknown. The shelfmark <quote>b/11</quote> (U1, f[1]r) possibly indicate that this is an Ariel manuscript.</p></provenance>
-                  <acquisition><p>Returned by / Received from Julien Vinson. See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f172">manuscript addition, f3r</ref> to Cabaton (1912).</p></acquisition>
+                  <acquisition><p>Returned by / Received from Julien Vinson. See handwritten addition to Cabaton (1912), <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f172">f3r, no. 955</ref>.</p></acquisition>
                </history>
                <additional>
                   <listBibl>
                      
-                  <bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens. Bibliothèque nationale. Département des manuscrits.</title> Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f172">manuscript addition, f3r</ref>.</bibl><bibl>https://www.projectmadurai.org/pm_etexts/utf8/pmuni0664_01.html</bibl></listBibl>
+                  <bibl>https://www.projectmadurai.org/pm_etexts/utf8/pmuni0664_01.html</bibl><bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens. Bibliothèque nationale. Département des manuscrits.</title> Paris: E. Leroux. — See handwritten addition , <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f172">f3r, no. 955</ref>.</bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          
-      <p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.      </p></encodingDesc>
+      <p>   <emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.            </p></encodingDesc>
       
    <revisionDesc>
          
@@ -90,6 +91,8 @@ Contains the first three chapters:
    <facsimile>
    </facsimile>
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+  <ab>
+    
   <seg function="title">
     <pb n="[1]r"/>
     <lb n="1"/>cintāmaṇi Urai
@@ -98,57 +101,63 @@ Contains the first three chapters:
   
    <pb n="[1]v"/><note xml:lang="en">blank</note>
  
+    </ab>
 </body></text><text synch="#U3" corresp="#T2" xml:lang="ta"><body>
-  
+  <ab>
+    
   <pb n="1r"/>
-  <milestone unit="left-margin"/>
-  <lb n="1"/><seg function="blessing">naṉṟāka</seg>
-  <lb n="2-3"/><seg function="title">cintāmaṇi-y<pc>-</pc>urai</seg>
-  <milestone unit="main-text-area"/>
-  <lb n="1"/><seg function="incipit" type="root-text">mūvā mutalā v<pc>-</pc>ulakam oru mūṉṟum ēttat ‡ <gap reason="ellipsis"/></seg>
-  <lb n="2"/><gap reason="ellipsis"/> ~ <seg function="incipit" type="commentary">Etu | It-toṭar nilai <gap reason="ellipsis"/></seg>
+    <seg function="header">
+  <seg function="blessing"><milestone unit="left-margin"/>
+  <lb n="1"/>naṉṟāka</seg>
+  <seg function="title"><lb n="2-3"/>cintāmaṇi-y<pc>-</pc>urai</seg>
+      </seg>
+    
+  <seg function="incipit" type="root-text"><milestone unit="main-text-area"/>
+  <lg><l><lb n="1"/>mūvā mutalā v<pc>-</pc>ulakam oru mūṉṟum ēttat</l> <l><gap reason="ellipsis"/>
+  <lb n="2"/><gap reason="ellipsis"/> ~</l></lg></seg> <seg function="incipit" type="commentary">Etu | It-toṭar nilai <gap reason="ellipsis"/></seg>
   
    <pb n="3v"/>
-  <milestone unit="left-margin"/>
-  <lb n="1"/><seg function="verse-beginning">ce</seg>
+  <seg function="verse-beginning"><milestone unit="left-margin"/>
+  <lb n="1"/>ce</seg>
   
   <pb n="13r"/>
-  <milestone unit="left-margin"/>
-  <lb n="1-3"/><seg function="intertitle">nāmakaḷ ilampakam</seg>
+  <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1-3"/>nāmakaḷ ilampakam</seg>
   
    <pb n="41r"/>
-  <milestone unit="left-margin"/>
-  <lb n="1-3"/><seg function="intertitle">nāmakaḷ ilampakam</seg>
+  <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1-3"/>nāmakaḷ ilampakam</seg>
   
    <pb n="116v"/>
   <lb n="4"/><gap reason="ellipsis"/> Itu
-   <lb n="5"/>nāmakaḷaik kūṭiṉacilampameṉka Ilampam vaṭa col – <seg function="completion-statement">nāmakaḷ ilampamuṟṟum</seg> – <seg function="total-stanzas">{Āka} pāṭal 4<g ref="#nūṟu"/>8</seg> | <seg function="colophon">kīlaka {varuṣam} Āṉi {mācam}=<g ref="#pcs"/> 24 {tēti} cevvāykkiḻamai muṟṟum</seg> |
+   <lb n="5"/>nāmakaḷaik kūṭiṉacilampameṉka Ilampam vaṭa col – <seg function="completion-statement">nāmakaḷ ilampamuṟṟum –</seg> <seg function="total-stanzas">{Āka} pāṭal 4<g ref="#nūṟu"/>8 |</seg> <seg function="copy-statement">kīlaka {varuṣam} Āṉi {mācam}=<g ref="#pcs"/> 24 {tēti} cevvāykkiḻamai muṟṟum |</seg>
   
   <pb n="117r"/>
-  <milestone unit="left-margin"/>
-  <lb n="1-3"/><seg function="intertitle">Iraṇṭāvatu kōvintaiyār ilampakam</seg>
+  <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1-3"/>Iraṇṭāvatu kōvintaiyār ilampakam</seg>
   
   <pb n="142r"/>
    <lb n="2"/><gap reason="ellipsis"/> | 8<g ref="#pattu"/>4
-   <lb n="3"/><seg function="completion-statement">Iraṇṭāvatu kōvintaiyār ilampamuṭintatu</seg> | <seg function="total-stanzas">Āka viruttam · 4<g ref="#nūṟu"/>9<g ref="#pattu"/>2</seg> | <seg function="blessing"><term xml:lang="sa"><gap reason="ellipsis"/> śrīyo na=ma=ḥ</term></seg> |
-<lb n="4"/><seg function="colophon">kīlaka {varuṣam} Āṭi {mācam}=<g ref="#pcs"/> mutal {tēti} – viyāḻakkiḻamai – naṇpakaliṉ muṟṟuppeṟṟattu</seg> – <seg function="blessing">Evvuyirattum potuvāṉ kaṭavuḷ pātamē caraṇa<supplied reason="omitted">m</supplied></seg> <g ref="#pcl"/>
+   <seg function="completion-statement"><lb n="3"/>Iraṇṭāvatu kōvintaiyār ilampamuṭintatu |</seg> <seg function="total-stanzas">Āka viruttam · 4<g ref="#nūṟu"/>9<g ref="#pattu"/>2 |</seg> <seg function="blessing"><term xml:lang="sa"><gap reason="ellipsis"/> śrīyo na=ma=ḥ</term> |</seg>
+<seg function="copy-statement"><lb n="4"/>kīlaka {varuṣam} Āṭi {mācam}=<g ref="#pcs"/> mutal {tēti} – viyāḻakkiḻamai – naṇpakaliṉ muṟṟuppeṟṟattu –</seg> <seg function="blessing">Evvuyirattum potuvāṉ kaṭavuḷ pātamē caraṇa<supplied reason="omitted">m</supplied> <g ref="#pcl"/></seg>
 
   <pb n="143r"/>
-  <milestone n="1" unit="left-margin"/>
-  <lb n="1-2"/><seg function="intertitle">mūṉṟāvatu</seg>
+  <seg function="intertitle"><milestone n="1" unit="left-margin"/>
+  <lb n="1-2"/>mūṉṟāvatu</seg>
   
-  <milestone n="2" unit="left-margin"/>
-  <lb n="1"/><seg function="verse-beginning">Iṅki</seg>
-  <lb n="2-5"/><seg function="intertitle">kān<sic>ti</sic>ruvatattaiyār ilampa<supplied reason="omitted">ka</supplied>m</seg>
+  <seg function="verse-beginning"><milestone n="2" unit="left-margin"/>
+  <lb n="1"/>Iṅki</seg>
+  <seg function="intertitle"><lb n="2-5"/>kān<sic>ti</sic>ruvatattaiyār ilampa<supplied reason="omitted">ka</supplied>m</seg>
   
     <pb n="248r"/>
   <lb n="6"/><gap reason="ellipsis"/> <g ref="#pcs"/> 356 <g ref="#pcl"/> <seg function="explicit" type="root-text">kuṅkum <gap reason="ellipsis"/>
-  <lb n="7"/><gap reason="ellipsis"/> moḻivām</seg> <g ref="#pcs"/> <seg function="explicit" type="commentary">Etu <g ref="#pcs"/> kuru cila <gap reason="ellipsis"/>
+  <lb n="7"/><gap reason="ellipsis"/> moḻivām <g ref="#pcs"/></seg> <seg function="explicit" type="commentary">Etu <g ref="#pcs"/> kuru cila <gap reason="ellipsis"/>
 
   <pb n="248v"/>
     
   <lb n="1"/>y<pc>-</pc>eḻutu koṭi <gap reason="ellipsis"/>
 <lb n="2"/>tākiya taṉmaiyaiyum iṉi kūṟuvemeṉṟāreṉka eṉṟatu <gap reason="ellipsis"/> ceytikaḷai poruḷākiyat<pc>'</pc> eṉpat<pc>'</pc> oru
-     <lb n="3"/>collum ām <g ref="#pcs"/> 358</seg> <g ref="#pcl"/> <seg function="completion-statement">kān<sic>ti</sic>ruvatattaiyār ilampa<supplied reason="omitted">ka</supplied>muṟṟiṟṟu</seg>=<g ref="#pcl"/> <seg function="blessing">Ōm·</seg> <seg function="colophon">kīlaka {varuṣam} vaiyāci {mācam} | 3<g ref="#pattu"/> {tēti} y<pc>-</pc>eḻuti muṟṟu=p=peṟṟatu</seg>=<g ref="#pcs"/>
+     <lb n="3"/>collum ām <g ref="#pcs"/> 358 <g ref="#pcl"/></seg> <seg function="completion-statement">kān<sic>ti</sic>ruvatattaiyār ilampa<supplied reason="omitted">ka</supplied>muṟṟiṟṟu=<g ref="#pcl"/></seg> <seg function="blessing">Ōm·</seg> <seg function="copy-statement">kīlaka {varuṣam} vaiyāci {mācam} | 3<g ref="#pattu"/> {tēti} y<pc>-</pc>eḻuti muṟṟu=p=peṟṟatu=<g ref="#pcs"/></seg>
 
+    </ab>
   </body></text></TEI>
