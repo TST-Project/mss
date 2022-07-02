@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><term xml:lang="sa">Mantra</term>s, <title xml:lang="sa">Nalodaya</title> with commentary</title>
+            
+         <editor><persName>Charles LI</persName><orgName>CNRS, CEIAS, UMR 8564</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2022</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Sanscrit 1752</idno>
+                  <idno type="alternate"/>
+               </msIdentifier>
+               <msContents class="#MTM">
+                  <summary><p>Two manuscripts, by the same scribe, seem to have been bound together here.</p>
+<p>The <locus facs="4">first</locus> and <locus facs="9">last</locus> folios, both unnmbered, contain a collection of <term xml:lang="sa">mantra</term>s. The scribe uses a peculiar version of the <term xml:lang="sa">oṃkāra</term> symbol, turned 90 degrees counterclockwise.
+</p>
+<p>Folios numbered <locus facs="5">2</locus>-<locus facs="7">3</locus>, in between them, contain a fragment of the <title xml:lang="sa">Nalodaya</title>, a short poem variously attributed to <persName xml:lang="sa">Kālidāsa</persName>, <persName xml:lang="sa">Abhinavakālidāsa</persName>, or <persName xml:lang="sa">Ravideva</persName>, among others. Verses 1.4-1.15 are extant here. They are accompanied by a commentary in <term xml:lang="sa">tripāṭha</term> format, although the commentary occasionally spills out into the left and right margins as well. In addition, each verse is annotated interlinearly to show word breaks and to resolve external sandhi.
+</p></summary>
+                  
+               <msItem synch="#U1" defective="true"><title xml:lang="sa">Mantrāḥ</title><textLang mainLang="san"/><rubric xml:lang="sa"><milestone n="1v" facs="4" unit="folio"/>
+<lb n="1"/>śrīgaṇeśāya namaḥ || </rubric><incipit xml:lang="sa">atha bhuvaneśvarīmaṃtrāḥ || hrīm̐ 1 aim̐ hrīm̐ śrīm̐ 2 aim̐ hrīm̐ aim̐ 3 <lb n="2"/>śrīm̐ hrīm̐ krom̐ 4 || atha annapūrṇāmaṃtrāḥ || hrīm̐ nabho bhagavati māheśvari anna<lb n="3"/>pūrṇe svāhā || 1 || māẏāṃ parityajya praṇavādyāḥ papāḥ 2</incipit><explicit xml:lang="sa"><milestone n="4r" facs="9" unit="folio"/>
+<lb n="14"/><gap reason="ellipsis"/> oṁ hṛdaẏāẏai svāhā || oṃ <unclear>la</unclear><lb n="15"/>kṣmyai svāhā oṁ <gap quantity="2" unit="akṣara" reason="lost"/> svāhā oṁ svāhāẏai svāhā || oṁ srasvatyai svāhā oṁ saṃpūrṇayai <gap quantity="2" reason="lost" unit="akṣara"/> <lb n="16"/>oṁ ilāẏai svā<gap quantity="3" unit="akṣara" reason="lost"/> kalāẏai <gap reason="lost" quantity="8" unit="akṣara"/> svā<unclear>hā</unclear> <gap quantity="10" unit="akṣara" reason="lost"/></explicit></msItem><msItem synch="#U2" defective="true"><title xml:lang="sa">Nalodaya</title><textLang mainLang="san"/><incipit xml:lang="sa"><milestone n="2r" unit="folio" facs="5"/>
+<lb n="1"/>samaniṃdānavanā<note place="above">|</note> śaṃ<note place="above">|</note> janatā<note place="above">|'</note>likulaṃ<note place="above">|</note> yathai<note place="above">|</note>va<note place="above">|</note> dānavanāśaṃ<note place="above">|</note> || dviradā<note place="above">|t</note><lb n="2"/>d dānavanāśaṃ<note place="above">|</note> jaga<note place="above">t</note>c ca<note place="above">|</note> labhate<note place="above">|</note> yataḥ<note place="above">|</note> sadā<note place="above">|'</note>navanāśaṃ<note place="above">|</note> || 4 ||</incipit><explicit xml:lang="sa"><milestone n="3v" unit="folio" facs="7"/>
+<lb n="4"/><gap reason="ellipsis"/>sa<lb n="5"/>ci<gap reason="lost" quantity="3" unit="akṣara"/>gopāẏa<note place="above">t</note>n nalaḥ<note place="above">|</note> sa<note place="above">|</note> pṛthivīṃ<note place="above">|</note> nirastarāgopāẏaṃ<note place="above">|</note> ||
+<lb n="6"/><gap reason="lost" quantity="6" unit="akṣara"/>nītvā<note place="above">|</note> nemu<note place="above">|</note>r mahattarā<note place="above">|</note> gopā<note place="above">|ḥ '</note> ẏaṃ || 15 ||</explicit></msItem><msItem synch="#U2" defective="true"><title xml:lang="sa"><term xml:lang="en">Commentary on the</term> Nalodaya</title><textLang mainLang="san"/><incipit xml:lang="sa"><milestone n="2r" unit="folio" facs="5"/>
+<lb n="1"/>samanindeti | yataḥ kṛṣṇāt janatā janasamūhaḥ śaṃ kalyāṇaṃ <gap quantity="8" reason="lost" unit="akṣara"/>
+<lb n="2"/>stutiḥ yathālikulaṃ bhramanakulaṃ dviradāt_ dānavanāśaṃ </incipit><explicit xml:lang="sa"><milestone n="3v" unit="folio" facs="7"/>
+<lb n="6"/><gap reason="lost" quantity="7" unit="akṣara"/>kyena pṛthivīm agopāẏat || arakṣat_ mahattarā gopāḥ <lb n="7"/><gap reason="lost" quantity="7" unit="akṣara"/>apa<gap quantity="4" unit="akṣara" reason="lost"/>ẏaṃ nītvā nāśaṃ nītvāyaṃ nemuḥ || 15 ||</explicit></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="pothi" rend="manuscript">
+                     <supportDesc material="paper handmade">
+                        <support>
+                           
+                        </support>
+                        <extent>
+                           <measure unit="folio" quantity="4">unnumbered folio, 2-3, unnumbered folio</measure>
+                           <dimensions type="leaf" unit="mm">
+                              <width quantity="265"/>
+                              <height quantity="160"/>
+                           </dimensions>
+                        <dimensions type="object" unit="mm"><width quantity="270"/><height quantity="190"/><depth quantity="5"/></dimensions><dimensions type="written" unit="mm"><width min="210" max="220"/><height min="130" max="140"/></dimensions></extent>
+                        <collation><desc xml:id="U1">First and last folio.</desc><desc xml:id="U2">Folios numbered 2-3.</desc></collation>
+                        
+                        
+                     <foliation>Devanāgarī numerals, right margin, verso. </foliation><foliation>Western numerals, pencilled in on the mesh, bottom-right corner, recto.</foliation><condition>Large gaps due to damage. The paper has been sandwiched in thin mesh in order to preserve it.</condition></supportDesc>
+                     <layoutDesc>
+                        <layout writtenLines="13 17" style="tripāṭha" streams="2">Double margin lines on the left and right.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc><handNote scope="sole" script="devanagari" scriptRef="#bengaliYa #vaba" medium="ink black"/></handDesc>
+                  <decoDesc>
+                  </decoDesc>
+                  <additions>
+                  </additions>
+                  <bindingDesc>
+                     <binding>
+                        <p>Library binding.</p>
+                        <decoNote type="stringhole">
+                           <measure unit="stringhole"/>
+                        </decoNote>
+                    </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian" notAfter="1842"/>
+                     
+                  </origin>
+                  <provenance/>
+                  <acquisition><p>Jean Filliozat indicates that this was part of acquisition number 3091, 10 May 1842, bought from the bookseller Leclere.</p></acquisition>
+               </history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl>Ayyar, A. S. Ramanatha. 1925. <title type="article"><ref target="http://www.jstor.org/stable/25220709">The Authorship of the Nalodaya.</ref></title> <title>Journal of the Royal Asiatic Society of Great Britain and Ireland</title> 2: 263–75.</bibl><bibl>Benary, Ferdinand, ed. 1830. <title xml:lang="la"><ref target="https://archive.org/details/nalodayasanscrit00kliduoft">Nalodaya: sanscritum carmen Calidaso adscriptum, una cum Pradschnacari Mithilensis scholiis.</ref></title> Berolini: F. Dümmleri. </bibl><bibl>Cabaton, Antoine. 1907-1908. <title xml:lang="fr">Catalogue sommaire des manuscrits sanscrits avec supplément manuscrit</title>. Paris: E. Leroux. Supplemented by Jean Filliozat. See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b10536321f/f300.item">p. 364</ref>.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         
+      <p>IAST transcription. Lines for the commentary and the mūla text are numbered separately. oṁ represents an oṃkāra symbol. m̐ represents a candrabindu.</p></encodingDesc>
+      
+   <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
+         
+      <change when="2022-07">First version.</change></revisionDesc></teiHeader>
+   <facsimile>
+   <graphic url="https://api.nakala.fr/data/10.34847/nkl.ae25e60b/c978f371e611539e13425927ed1c6ca3f0ff935a"/></facsimile>
+</TEI>
