@@ -20,14 +20,16 @@
                   <idno type="alternate"/>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc102888c</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary>The <title xml:lang="ta">Tiripuracuntari Piḷḷaittamiḻ</title>.</summary>
+                  <summary><p>The <title xml:lang="ta">Tiripuracuntari Piḷḷaittamiḻ</title>.</p>
+<p>Description based on the examination of the original manuscript (January 2021).</p>
+<p>Dimensions assessed at the time of examination.</p></summary>
                   
                <msItem synch="#U2a" xml:id="T1" defective="false"><title xml:lang="ta">Tiripuracuntari Piḷḷaittamiḻ: Kāppu</title><textLang mainLang="tam"/></msItem><msItem synch="#U2a" xml:id="T2" defective="false"><title xml:lang="ta">Tiripuracuntari Piḷḷaittamiḻ: Mūlam</title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi">
+                  <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
                         <extent>
-                           <measure unit="folio" quantity="71">[1] + 68 (U1 + U2 + U3).</measure>
+                           <measure unit="folio" quantity="71">{1} + 68 (U1 + U2 + U3).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
@@ -36,8 +38,8 @@
                         <dimensions type="object" unit="mm"><width quantity="400"/><height quantity="30"/><depth quantity="40"/></dimensions><dimensions type="written" unit="mm"/></extent>
                         
                         
-                     <support><measure unit="stringhole" quantity="1"/></support><collation><desc xml:id="U1">1 folio = <emph rend="bold">guard leaf</emph>. No original Tamil foliation. Library Arabic foliation A. Truncated double folio. Blank recto verso, except <foreign xml:lang="ta">piḷḷaiyār cuḻi</foreign> (?) in left margin of f[1]r. </desc><desc xml:id="U2">68 folios = <emph rend="bold"><title xml:lang="ta">Tiripuracuntari Piḷḷaittamiḻ</title></emph>. Folios in disorder.
-</desc><desc xml:id="U2a">1 folio = <emph rend="bold"><title xml:lang="ta">Tiripuracuntari Piḷḷaittamiḻ</title>: Invocation</emph>. No original Tamil foliation.</desc><desc xml:id="U2b">68 folios = <emph rend="bold"><title xml:lang="ta">Tiripuracuntari Piḷḷaittamiḻ</title>: Text</emph>. Original Tamil foliation [1], 2-55, 57, 60, 64-65, 69-72 + 4 unfoliated folios.</desc><desc xml:id="U3">2 folios = <emph rend="bold">guard leaves</emph>. No original Tamil foliation. Library Arabic foliation in black pencil (left margin) 69-[70]. Blank recto verso.</desc></collation><foliation>Partial original Tamil foliation. Library Arabic foliation A, 1-69, [70],  in black pencil (left margin), applied to disordered bundle.</foliation><condition>Relatively good state of preservation. Some folios fragile, damaged, truncated.
+                     <support/><collation><desc xml:id="U1">1 folio = <emph rend="bold">guard leaf</emph>. No original Tamil foliation. Library Arabic foliation A. Truncated double folio. Blank recto verso, except <foreign xml:lang="ta">piḷḷaiyār cuḻi</foreign> (?) in left margin of f[1]r. </desc><desc xml:id="U2">68 folios = <emph rend="bold"><title xml:lang="ta">Tiripuracuntari Piḷḷaittamiḻ</title></emph>. Folios in disorder.
+</desc><desc xml:id="U2a">1 folio = <emph rend="bold"><title xml:lang="ta">Tiripuracuntari Piḷḷaittamiḻ</title>: Invocation</emph>. No original Tamil foliation.</desc><desc xml:id="U2b">68 folios = <emph rend="bold"><title xml:lang="ta">Tiripuracuntari Piḷḷaittamiḻ</title>: Text</emph>. Original Tamil foliation {1}, 2-55, 57, 60, 64-65, 69-72 + 4 unfoliated folios.</desc><desc xml:id="U3">2 folios = <emph rend="bold">guard leaves</emph>. No original Tamil foliation. Library Arabic foliation in black pencil (left margin) 69-[70]. Blank recto verso.</desc></collation><foliation>Partial original Tamil foliation. Library Arabic foliation A, 1-69, [70],  in black pencil (left margin), applied to disordered bundle.</foliation><condition>Relatively good state of preservation. Some folios fragile, damaged, truncated.
 </condition></supportDesc>
                      <layoutDesc>
                         
@@ -45,12 +47,14 @@
                   </objectDesc>
                   <handDesc>
                      
-                  <handNote synch="#U2 #U2a #U2b" scope="major" script="tamil" medium="incised"><desc>Several hands.</desc></handNote></handDesc>
-                  <additions><desc subtype="inserted">Note on paper sheet, inserted: <quote><gap reason="ellipsis"/></quote>.</desc><desc subtype="inserted">Note on paper sheet, inserted: <quote><gap reason="ellipsis"/></quote>.</desc><desc synch="#U1" type="shelfmark">BnF shelfmark in black pencil: <quote>Indien 1066</quote>.</desc><desc synch="#U2b" type="intertitle" subtype="marginal left"/></additions>
+                  <handNote synch="#U2 #U2a #U2b" scope="major" script="tamil" medium="incised soot"><desc>Several hands.</desc></handNote></handDesc>
+                  <additions><desc type="user-related-note" subtype="detached">Note on a detached <locus facs="0">paper sheet</locus>: 
+<quote xml:lang="fr"><gap reason="ellipsis"/></quote>.</desc><desc type="documenting-note user-related-note" subtype="detached">Note on a detached <locus facs="0">paper sheet</locus>: 
+<quote xml:lang="fr"><gap reason="ellipsis"/></quote>.</desc><desc synch="#U1" type="shelfmark">BnF shelfmark in black pencil: <quote>Indien 1066</quote> (<locus facs="0">f[1]r</locus>).</desc><desc synch="#U2b" type="intertitle" subtype="marginal left">Left-marginal intertitles.</desc></additions>
                   <bindingDesc>
                      <binding>
                         
-                     </binding>
+                     <decoNote type="stringhole"><measure unit="stringhole" quantity="1"/></decoNote><p>No wood covers.</p></binding>
                   </bindingDesc>
                </physDesc>
                <history>
@@ -60,103 +64,109 @@
                   </origin>
                   <acquisition>
                      
-                  </acquisition>
-               </history>
+                  <p>Unknown.</p></acquisition>
+               <provenance><p>Unknown.</p></provenance></history>
                <additional>
                   <listBibl>
                      
                      
-                  </listBibl>
+                  <bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens. Bibliothèque nationale. Département des manuscrits.</title> Paris: E. Leroux. — Not described in the handwritten additions, which stops with BnF Indien 1064, see <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f192">f13r</ref>.</bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      
+   <encodingDesc><p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.</p></encodingDesc><revisionDesc>
          
-      <change when="2022-02">Record created by Emmanuel FRANCIS.</change></revisionDesc>
-   <encodingDesc><p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.      </p></encodingDesc></teiHeader>
+      <change when="2022-02">Record created by Emmanuel FRANCIS.</change></revisionDesc></teiHeader>
    
 <text synch="#U2a" corresp="#T1" xml:lang="ta"><body>
-  
+  <ab>
+    
   <pb n="[1]r"/>
   
-   <seg function="incipit"><lg><l><lb n="1"/><gap reason="ellipsis"/></l>
+   <seg function="incipit">
+     <lg><l><lb n="1"/><gap reason="ellipsis"/></l>
      <l><lb n="2"/><gap reason="ellipsis"/></l>
      <l><lb n="3"/><gap reason="ellipsis"/></l>
      <l><lb n="4"/><gap reason="ellipsis"/> kāppām</l></lg></seg>
   
-  <pb n="[1]v"/>
-<seg function="explicit"><lg><l><lb n="1"/><gap reason="ellipsis"/></l>
+    <pb n="[1]v"/>
+    <seg function="explicit">
+      <lg><l><lb n="1"/><gap reason="ellipsis"/></l>
      <l><lb n="2"/><gap reason="ellipsis"/></l>
      <l><lb n="3"/><gap reason="ellipsis"/></l>
-     <l><lb n="4"/><gap reason="ellipsis"/></l></lg> <g ref="#pcs"/></seg>
+     <l><lb n="4"/><gap reason="ellipsis"/> <g ref="#pcs"/></l></lg></seg>
+    
+    </ab>
 </body>
-
   </text><text synch="#U2b" corresp="#T2" xml:lang="ta"><body>
+    <ab>
+
    <pb n="[1]r"/>
   
-  <milestone unit="left-margin"/>  
-  <seg function="blessing"><lb n="1-2"/>naṉṟāka</seg>
+  <seg function="blessing"><milestone unit="left-margin"/>  
+  <lb n="1-2"/>naṉṟāka</seg>
        
-    <milestone unit="main-text-area"/>
-    <seg function="incipit"><lg><l><lb n="1"/><gap reason="ellipsis"/></l>
+    <seg function="incipit"><milestone unit="main-text-area"/>
+    <lg><l><lb n="1"/><gap reason="ellipsis"/></l>
      <l><lb n="2"/><gap reason="ellipsis"/></l>
      <l><lb n="3"/><gap reason="ellipsis"/></l>
      <l><lb n="4"/><gap reason="ellipsis"/></l></lg></seg>
   
   <pb n="11r"/>
-    <milestone unit="left-margin"/>  
-  <seg function="intertitle"><lb n="1-2"/>ceṅkīrai</seg>
+    <seg function="intertitle"><milestone unit="left-margin"/>  
+  <lb n="1-2"/>ceṅkīrai</seg>
   
   <pb n="21r"/>
-    <milestone unit="left-margin"/>  
-  <seg function="intertitle"><lb n="1"/>tāl</seg>
+    <seg function="intertitle"><milestone unit="left-margin"/>  
+  <lb n="1"/>tāl</seg>
   
   <pb n="26r"/>
-    <milestone unit="left-margin"/>  
-  <seg function="metre"><lb n="1"/>vēṟu</seg>
+    <seg function="metre"><milestone unit="left-margin"/>  
+  <lb n="1"/>vēṟu</seg>
   
   <pb n="31r"/>
-    <milestone unit="left-margin"/>  
-  <seg function="intertitle"><lb n="1"/>cappāṇi</seg>
+    <seg function="intertitle"><milestone unit="left-margin"/>  
+  <lb n="1"/>cappāṇi</seg>
   
   <pb n="36r"/>
-    <milestone unit="left-margin"/>  
-  <seg function="metre"><lb n="1"/>vēṟu</seg>
+     <seg function="metre"><milestone unit="left-margin"/>  
+ <lb n="1"/>vēṟu</seg>
   
   <pb n="41r"/>
-    <milestone unit="left-margin"/>  
-  <seg function="metre"><lb n="1"/>muttam</seg>
+     <seg function="intertitle"><milestone unit="left-margin"/>  
+  <lb n="1"/>muttam</seg>
   
   <pb n="46r"/>
-    <milestone unit="left-margin"/>  
-  <seg function="metre"><lb n="1"/>vēṟu</seg>
+     <seg function="metre"><milestone unit="left-margin"/>  
+  <lb n="1"/>vēṟu</seg>
   
   <pb n="51r"/>
-    <milestone unit="left-margin"/>  
-  <seg function="metre"><lb n="1"/>varukai</seg>
+     <seg function="intertitle"><milestone unit="left-margin"/>  
+  <lb n="1"/>varukai</seg>
   
     <pb n="69r"/>
-    <milestone unit="left-margin"/>  
-  <seg function="intertitle"><lb n="1-2"/>taṇṭam</seg>
+    <seg function="intertitle"><milestone unit="left-margin"/>  
+  <lb n="1-2"/>taṇṭam</seg>
       
   <pb n="71r"/>
-    <milestone unit="left-margin"/>  
-  <seg function="intertitle"><lb n="1-2"/>ciṟuvīṭu</seg>
+    <seg function="intertitle"><milestone unit="left-margin"/>  
+  <lb n="1-2"/>ciṟuvīṭu</seg>
   
   <pb n="72r"/>
   
   <pb n="00r"/><note xml:lang="en">library foliation 61r</note>
-  <milestone unit="left-margin"/>  
-  <seg function="intertitle"><lb n="1-2"/>Ampulicamam</seg>
+  <seg function="intertitle"><milestone unit="left-margin"/>  
+  <lb n="1-2"/>Ampulicamam</seg>
   
   <pb n="00r"/><note xml:lang="en">library foliation 64r</note>
-    <milestone unit="left-margin"/>  
-  <seg function="metre"><lb n="1"/>vēṟu</seg>
+    <seg function="metre"><milestone unit="left-margin"/>  
+  <lb n="1"/>vēṟu</seg>
   
     <pb n="00r"/><note xml:lang="en">library foliation 66r</note>
-    <milestone unit="left-margin"/>  
-  <seg function="metre"><lb n="1"/>vēṟu</seg>
+    <seg function="metre"><milestone unit="left-margin"/>  
+  <lb n="1"/>vēṟu</seg>
 
-  
+  </ab>
 </body></text></TEI>
