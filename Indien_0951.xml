@@ -18,7 +18,7 @@
                      <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
                   </repository>
                   <idno type="shelfmark">Indien 951</idno>
-                  <idno type="alternate"><idno>Vinson</idno></idno>
+                  <idno type="alternate"><idno>Vinson 951</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc104570n</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/rx913x411</idno></msIdentifier>
                <msContents class="#STM">
                   <summary><p>The 6th <foreign xml:lang="ta">Kāṇṭam</foreign>, that is, the <title xml:lang="ta">Yuttakāṇṭam</title>, of the Tamil version of the <title xml:lang="sa">Rāmāyaṇa</title> by <persName xml:lang="ta">Kampaṉ</persName>.</p>
@@ -28,7 +28,7 @@
                   
                <msItem synch="#U1" xml:id="T1" defective="true"><title xml:lang="ta"><term xml:lang="en">guard leaf</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta">Kamparāmāyaṇam: <term xml:lang="en">TBC, Colophon &amp; Table of Contents</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T3" defective="true" class="#kappiyam"><title xml:lang="ta">Kamparāmāyaṇam, Yuttakāṇṭam: Mūlam</title><author xml:lang="ta">Kampaṉ</author><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi">
+                  <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
                         <extent>
                            <measure unit="folio" quantity="376">{1} + {1} + 373 + {1} (U1 + U2 + U3 + U4).</measure>
@@ -51,7 +51,7 @@
 </desc><desc xml:id="U4">1 folio = back <emph rend="bold">guard leaf</emph>. No foliation. Double leaf. Blank recto verso.
 </desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>. BnF shelfmark sticker on verso.</desc></collation>
                         <condition>Damaged and fragile. Leaves truncated.</condition>
-                     <support><measure unit="stringhole" quantity="2"/></support></supportDesc>
+                     <support/></supportDesc>
                      <layoutDesc>
                         <layout columns="1"/>
                      </layoutDesc>
@@ -85,7 +85,7 @@
                   <bindingDesc>
                      <binding>
                         <p>Original <material>wood</material> covers. With a woodstick tied to the string and threaded in one of the holes. Sticker on front cover, recto. 415 x 35 mm.</p>
-                     </binding>
+                     <decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
                   </bindingDesc>
                </physDesc>
                <history>

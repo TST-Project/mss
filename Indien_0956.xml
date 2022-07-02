@@ -18,22 +18,22 @@
                      <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
                   </repository>
                   <idno type="shelfmark">Indien 956</idno>
-                  <idno type="alternate"/>
+                  <idno type="alternate"><idno>Vinson 956</idno></idno>
                </msIdentifier>
                <msContents class="#STM">
-                  <summary>The <title xml:lang="ta">Tiruvēṅkaṭacatakam</title> by <persName>Nārāyaṇapārātiyār</persName>, alias the <title xml:lang="ta">Maṇavāḷanārāyaṇacatakam</title>.
+                  <summary><p>The <title xml:lang="ta">Tiruvēṅkaṭacatakam</title> by <persName xml:lang="ta" role="author">Nārāyaṇapārātiyār</persName>, alias the <title xml:lang="ta">Maṇavāḷanārāyaṇacatakam</title>.</p>
 </summary>
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Tiruvēṅkaṭacatakam: Kāppu &amp; Taṉiyaṉ</title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta">Tiruvēṅkaṭacatakam: Mūlam</title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T3" defective="false"><title xml:lang="ta"><term xml:lang="en">Authorship statement</term></title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi">
+                  <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
                         <support>
-                           <measure unit="stringhole"/>
+                           
                            
                         </support>
                         <extent>
-                           <measure unit="folio" quantity="55">1 + 51 + 1 + 1 + 1 (U1 + U2 + U3 + U4 + U5).</measure>
+                           <measure unit="folio" quantity="55">{1} + 51 + {1} + {1} + {1} (U1 + U2 + U3 + U4 + U5).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
@@ -53,7 +53,7 @@
                   <additions>
                   </additions>
                   <bindingDesc>
-                     <binding><p>No woodcovers.</p></binding>
+                     <binding><p>No woodcovers.</p><decoNote type="stringhole"><measure unit="stringhole"/></decoNote></binding>
                   </bindingDesc>
                </physDesc>
                <history>

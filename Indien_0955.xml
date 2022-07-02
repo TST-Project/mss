@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -9,7 +9,7 @@
          <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -18,24 +18,24 @@
                      <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
                   </repository>
                   <idno type="shelfmark">Indien 955</idno>
-                  <idno type="alternate"/>
-               </msIdentifier>
+                  <idno type="alternate"><idno>Vinson 955</idno></idno>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc104574r</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary>The <title xml:lang="ta">Cīvakacintāmaṇi</title>, text and commentary interspersed, part 1 of 2. For part 2, see BnF Indien 957.
+                  <summary><p>The <title xml:lang="ta">Cīvakacintāmaṇi</title>, text and commentary interspersed, part 1 of 2. For part 2, see BnF Indien 957.
 Contains the first three chapters:
 <list rend="numbered">
-<item>the <foreign xml:lang="ta">Nāmakaḷ Ilampakam</foreign></item>
-<item>the <foreign xml:lang="ta">Kōvintaiyār Ilampakam</foreign></item>
-<item>the <foreign xml:lang="ta">Kāntaruvatattaiyār Ilampakam</foreign></item></list>
+<item>The <foreign xml:lang="ta">Nāmakaḷ Ilampakam</foreign>.</item>
+<item>The <foreign xml:lang="ta">Kōvintaiyār Ilampakam</foreign>.</item>
+<item>The <foreign xml:lang="ta">Kāntaruvatattaiyār Ilampakam</foreign>.</item></list></p>
 
 </summary>
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta">Cintāmaṇi <term xml:lang="en">1-3</term>: Mūlam &amp; Urai</title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi">
+                  <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
                         <support>
-                           <measure unit="stringhole" quantity="1"/>
+                           
                            
                         </support>
                         <extent>
@@ -61,7 +61,7 @@ Contains the first three chapters:
                   <additions>
                   <desc synch="#U1" type="shelfmark">BnF shelfmark sticker: <quote>INDIEN 955</quote> (f[1]r).</desc><desc synch="#U1" type="shelfmark">Shelfmark in black ink: <quote>b/11</quote> (f[1]r).</desc><desc synch="#U3" type="intertitle" subtype="marginal left">Left-marginal intertitles.</desc><desc synch="#U3" type="verse-beginning" subtype="marginal left"><term xml:lang="sa">Pratīka</term></desc></additions>
                   <bindingDesc>
-                     <binding><p>No woodcovers. The string is broken. Palm-leaf stop device at one end of the string.</p></binding>
+                     <binding><p>No woodcovers. The string is broken. Palm-leaf stop device at one end of the string.</p><decoNote type="stringhole"><measure unit="stringhole" quantity="1"/></decoNote></binding>
                   </bindingDesc>
                </physDesc>
                <history>
@@ -83,10 +83,10 @@ Contains the first three chapters:
       <encodingDesc>
          
       <p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.      </p></encodingDesc>
-      <revisionDesc>
+      
+   <revisionDesc>
          
-      <change when="2021-12">Record created by Emmanuel FRANCIS.</change></revisionDesc>
-   </teiHeader>
+      <change when="2021-12">Record created by Emmanuel FRANCIS.</change></revisionDesc></teiHeader>
    <facsimile>
    </facsimile>
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>

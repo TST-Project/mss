@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -9,7 +9,7 @@
          <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -18,18 +18,18 @@
                      <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
                   </repository>
                   <idno type="shelfmark">Indien 954</idno>
-                  <idno type="alternate"/>
-               </msIdentifier>
+                  <idno type="alternate"><idno>Vinson 954</idno></idno>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc104573g</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary>The <title xml:lang="ta">Vātavūrppurāṇam</title> alias the <title xml:lang="ta">Vātavūrar Purāṇam</title> by <persName>Kaṭavuḷ Māmuṉivar</persName> (Zvelebil 1995, p. 334, 405).    
+                  <summary><p>The <title xml:lang="ta">Vātavūrppurāṇam</title> alias the <title xml:lang="ta">Vātavūrar Purāṇam</title> by <persName>Kaṭavuḷ Māmuṉivar</persName> (Zvelebil 1995, p. 334, 405).</p>
 </summary>
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Vātavūrppurāṇam: <term xml:lang="en">Invocation</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta">Vātavūrppurāṇam: Mūlam</title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T3" defective="false"><title xml:lang="ta">Vātavūrppurāṇam: <term xml:lang="en">Total verses</term></title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi">
+                  <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
                         <support>
-                           <measure unit="stringhole"/>
+                           
                            
                         </support>
                         <extent>
@@ -47,18 +47,18 @@
                         
                      </layoutDesc>
                   </objectDesc>
-                  <handDesc><handNote synch="#U1 U2 U3" scope="major" script="tamil" medium="incised"/></handDesc>
+                  <handDesc><handNote synch="#U1 #U2 #U3" scope="major" script="tamil" medium="incised"/></handDesc>
                   <decoDesc>
                   </decoDesc>
                   <additions>
-                  <desc synch="#cover" type="documenting-note" subtype="beginning">Sticker inscribed in black ink:
+                  <desc type="documenting-note" subtype="beginning">Sticker inscribed in black ink:
 <quote rend="block">
   <lb n="1"/><term xml:lang="ta">vātavūrppurāṇam</term>
   <lb n="3"/>Bourgoin, 3 avril 1901
 </quote>
 </desc><desc synch="#U3" type="total-chapters total-stanzas"/></additions>
                   <bindingDesc>
-                     <binding><p>Original <material>wood</material> covers. </p></binding>
+                     <binding><p>Original <material>wood</material> covers. </p><decoNote type="stringhole"><measure unit="stringhole"/></decoNote></binding>
                   </bindingDesc>
                </physDesc>
                <history>
@@ -81,10 +81,10 @@ Received from Julien Vinson. See <ref target="http://gallica.bnf.fr/ark:/12148/b
       <encodingDesc>
          
       <p><emph rend="bold">Transliteration conventions</emph> ― Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.      </p></encodingDesc>
-      <revisionDesc>
+      
+   <revisionDesc>
          
-      <change when="2021-06">Record created by Emmanuel FRANCIS.</change></revisionDesc>
-   </teiHeader>
+      <change when="2021-06">Record created by Emmanuel FRANCIS.</change></revisionDesc></teiHeader>
    <facsimile>
    </facsimile>
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
