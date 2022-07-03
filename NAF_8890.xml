@@ -47,7 +47,7 @@
 						
 					<msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="fr"><term xml:lang="en">Title Page</term></title><textLang mainLang="fra"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="fr"><term xml:lang="en">Ariel Papers: Philology</term></title><textLang mainLang="fra"/></msItem></msContents>
 					<physDesc>
-						<objectDesc form="codex">
+						<objectDesc form="scrapbook" rend="manuscript">
 							<supportDesc material="paper">
 								<extent>
 									<measure unit="folio" quantity="243">{1} + 242 (U1 + U2).</measure>
@@ -66,7 +66,7 @@
 						<handDesc>
 
 							
-						<handNote synch="#U1" scope="sole" scribeRef="#EdouardAriel" script="latin" medium="ink black pencil"/></handDesc>
+						<handNote synch="#U1" scope="sole" script="latin" medium="ink black pencil"><desc><persName role="scribe">Edouard Ariel</persName>.</desc></handNote></handDesc>
 						<additions>
 							<desc type="shelfmark" subtype="cover spine">BnF shelfmark sticker: <quote>FR. NOUV. ACQ 8890</quote> (<locus facs="0">spine</locus>).</desc><desc synch="#U1" type="documenting-note">Binder's note  (<locus facs="0">f[1]r</locus>): <quote xml:lang="fr" rend="block"><lb n="1"/>Volume de 242 Feuillets <lb n="2"/> 19 Mars 1896.</quote>
 </desc></additions>
@@ -106,12 +106,12 @@
 
 			
 		<p>TBC</p></encodingDesc>
-		<revisionDesc>
+		
+	<revisionDesc>
 
 
 			
-		<change when="2022-02">Record created by Emmanuel FRANCIS.</change></revisionDesc>
-	</teiHeader>
+		<change when="2022-02">Record created by Emmanuel FRANCIS.</change></revisionDesc></teiHeader>
 
 	<facsimile>
 		
