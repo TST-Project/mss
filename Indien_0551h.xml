@@ -19,13 +19,13 @@
 						</repository>
 						<idno type="shelfmark">Indien 551h</idno>
 						<idno type="alternate"><idno>Tamoul 551</idno></idno>
-					</msIdentifier>
+					<idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1040793</idno></msIdentifier>
 					<msContents class="#STM">
-						<summary><title xml:lang="ta">Taṉiyaṉ</title>s.</summary>
+						<summary><p><title xml:lang="ta">Taṉiyaṉ</title>s.</p></summary>
 
 					<msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="sa"><title xml:lang="ta">Taṉiyaṉ</title>s</title><textLang mainLang="san" otherLangs="tam"/></msItem></msContents>
 					<physDesc>
-						<objectDesc form="pothi">
+						<objectDesc form="pothi" rend="manuscript">
 							<supportDesc material="palm-leaf">
 								<extent>
 									<measure unit="folio" quantity="2">2 (U1).</measure>
@@ -37,8 +37,8 @@
 									</dimensions><dimensions type="written" unit="mm"/></extent>
 
 								<condition>Relatively good state of preservation.</condition>
-								<support><measure unit="stringhole" quantity="1"/></support>
-								<collation><desc xml:id="U1">2 folios = <emph><title xml:lang="ta">Taṉiyaṉ</title>s</emph>. Tamil foliation [1]-2. f2v blank.</desc></collation>
+								<support/>
+								<collation><desc xml:id="U1">2 folios = <emph><title xml:lang="ta">Taṉiyaṉ</title>s</emph>. Tamil foliation {1}, 2. f2v blank.</desc></collation>
 							</supportDesc>
 							<layoutDesc> </layoutDesc>
 						</objectDesc>
@@ -50,7 +50,7 @@
 						<bindingDesc>
 							<binding>
 								
-							</binding>
+							<decoNote type="stringhole"><measure unit="stringhole" quantity="1"/></decoNote></binding>
 						</bindingDesc>
 					</physDesc>
 					<history>
@@ -74,14 +74,14 @@
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
-		<revisionDesc>
-
-			
-		<change when="2022-01">Record created by Emmanuel FRANCIS.</change></revisionDesc>
+		
 		<encodingDesc>
 			
-		<p>TBC</p></encodingDesc>
-	</teiHeader>
+		<p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.            </p></encodingDesc>
+	<revisionDesc>
+
+			
+		<change when="2022-01">Record created by Emmanuel FRANCIS.</change></revisionDesc></teiHeader>
 
 	
 	
@@ -91,22 +91,24 @@
 	
 	
 <text synch="#U1" corresp="#T1" xml:lang="sa"><body>
-  
+  <ab>
+    
   <pb facs="0" n="[1]r"/>
   
-  <milestone unit="left-margin"/>
-  <lb n="1-2"/><seg function="TBC">śrī <gap reason="ellipsis"/></seg>
-  <lb n="3-4"/><seg function="blessing">hari Om</seg>
+  <seg function="blessing"><milestone unit="left-margin"/>
+  <lb n="1-2"/>śrī <gap reason="ellipsis"/></seg>
+  <seg function="blessing"><lb n="3-4"/><term xml:lang="sa">hari Om</term></seg>
   
-   <milestone unit="main-text-area"/>
-  <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
+   <seg function="incipit"><milestone unit="main-text-area"/>
+  <lb n="1"/><gap reason="ellipsis"/></seg>
   
   <pb facs="0" n="[1]v"/>
+    
   <pb facs="0" n="2r"/>
-  <lb n="4"/><seg function="explicit"><gap reason="ellipsis"/></seg>
-  <lb n="5"/><gap reason="ellipsis"/> <seg function="blessing">jīyyar <term xml:lang="ta">tiruvaṭikaḷē caraṇa=M</term> –</seg> <seg function="colophon"><term xml:lang="ta">Itu</term> Accarādi taniyan·</seg>
+  <seg function="explicit"><lb n="4"/><gap reason="ellipsis"/>
+  <lb n="5"/><gap reason="ellipsis"/></seg> <seg function="blessing">jīyyar <term xml:lang="ta">tiruvaṭikaḷē caraṇa=M</term> –</seg> <seg function="intertitle"><term xml:lang="ta">Itu</term> Accarādi taniyan·<!--check initial vowel: should be Ā--></seg>
   
     <pb facs="0" n="2v"/><note xml:lang="en">blank</note>
 
-  </body>
-  </text></TEI>
+    </ab>
+  </body></text></TEI>

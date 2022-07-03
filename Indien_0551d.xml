@@ -19,13 +19,13 @@
 						</repository>
 						<idno type="shelfmark">Indien 551d</idno>
 						<idno type="alternate"><idno>Tamoul 551</idno></idno>
-					</msIdentifier>
+					<idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1040793</idno></msIdentifier>
 					<msContents class="#STM">
-						<summary>The <title xml:lang="ta">Ciṟiya Tirumaṭal</title>.</summary>
+						<summary><p>The <title xml:lang="ta">Ciṟiya Tirumaṭal</title>.</p></summary>
 
 					<msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Ciṟiya Tirumaṭal</title><textLang mainLang="tam"/></msItem></msContents>
 					<physDesc>
-						<objectDesc form="pothi">
+						<objectDesc form="pothi" rend="manuscript">
 							<supportDesc material="palm-leaf">
 								<extent>
 									<measure unit="folio" quantity="5">5 (U1).</measure>
@@ -37,8 +37,8 @@
 									</dimensions><dimensions type="written" unit="mm"/></extent>
 
 								<condition>Relatively good state of preservation.</condition>
-								<support><measure unit="stringhole" quantity="1"/></support>
-								<collation><desc xml:id="U1">5 folios = <emph><title xml:lang="ta">Ciṟiya Tirumaṭal</title></emph>. Tamil foliation [1]-5. f11v blank.</desc></collation>
+								<support/>
+								<collation><desc xml:id="U1">5 folios = <emph><title xml:lang="ta">Ciṟiya Tirumaṭal</title></emph>. Tamil foliation {1}, 2-5. f11v blank.</desc></collation>
 							</supportDesc>
 							<layoutDesc> </layoutDesc>
 						</objectDesc>
@@ -50,12 +50,12 @@
 						<bindingDesc>
 							<binding>
 								
-							</binding>
+							<decoNote type="stringhole"><measure unit="stringhole" quantity="1"/></decoNote></binding>
 						</bindingDesc>
 					</physDesc>
 					<history>
 						<origin>
-							<origDate calendar="gregorian" notAfter="1886">Internally dated to the year <foreign xml:lang="ta">kālayutti </foreign> of the Jovian cycle, that is, CE 1858-1859, 1798-1799, 1738-1739, etc. See colophon (U1, f5v, c3, 2).</origDate>
+							<origDate calendar="gregorian" notAfter="1859">Internally dated to the year <foreign xml:lang="ta">kālayutti </foreign> of the Jovian cycle, that is, CE 1858-1859, 1798-1799, 1738-1739, etc. See colophon (U1, f5v, c3, 2).</origDate>
 							<origPlace>South India, Tamilnadu.</origPlace>
 						</origin>
 						<acquisition> <p>Acquired, December 18th, 1886, from M. Haas. See BnF, département des Manuscrits, inventaire 2 = <title>Acquisitions: manuscrits et imprimés documentaires, 1848-1893</title>, no. 7881.</p></acquisition>
@@ -74,14 +74,14 @@
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
-		<revisionDesc>
-
-			
-		<change when="2022-01">Record created by Emmanuel FRANCIS.</change></revisionDesc>
+		
 		<encodingDesc>
 			
-		<p>TBC</p></encodingDesc>
-	</teiHeader>
+		<p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.            </p></encodingDesc>
+	<revisionDesc>
+
+			
+		<change when="2022-01">Record created by Emmanuel FRANCIS.</change></revisionDesc></teiHeader>
 
 	
 	
@@ -91,38 +91,38 @@
 	
 	
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
-  
+  <ab>
+    
   <pb facs="0" n="[1]r"/>
+  <seg function="header">
+  <seg function="title"><milestone unit="left-margin"/>
+  <lb n="1-2"/>ci<orig>ru</orig>tirumaṭal</seg>
+  <seg function="blessing"><lb n="3-4"/><term xml:lang="sa">hariḥ Om</term></seg>
+    </seg>
   
-  <milestone unit="left-margin"/>
-  <lb n="1-2"/><seg function="title">ci<orig>ru</orig>tirumaṭal</seg>
-  <lb n="3-4"/><seg function="blessing"><seg rend="grantha">hariḥ Om</seg></seg>
-  
-   <milestone unit="main-text-area"/>
-  <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
+   <seg function="incipit"><milestone unit="main-text-area"/>
+  <lb n="1"/><gap reason="ellipsis"/></seg>
     
   <pb facs="0" n="5r"/>
-  <lb n="4"/><seg function="explicit"><gap reason="ellipsis"/></seg> <seg function="blessing">Aḻvār tiruvaṭikaḷē caṟaṇa=M</seg> ciṟut= tirumaṭal mukintatu Itu
-  <lb n="5"/><note xml:lang="en">right-aligned</note><seg function="blessing">jiyyaṟ tiruvaṭikaḷē caṟaṇa=M</seg> <seg function="title"><note xml:lang="en">unblackened</note>ciṟu<unclear>t= tirumaṭal</unclear></seg>
+  <seg function="explicit"><lb n="4"/><gap reason="ellipsis"/></seg> <seg function="blessing">Aḻvār tiruvaṭikaḷē caṟaṇa=M</seg> ciṟut= tirumaṭal mukintatu Itu
+  <seg function="blessing"><lb n="5"/><note xml:lang="en">right-aligned</note> jiyyaṟ tiruvaṭikaḷē caṟaṇa=M</seg> <seg function="title"><note xml:lang="en">unblackened</note>ciṟu<unclear>t= tirumaṭal</unclear></seg>
 
     <pb facs="0" n="5v"/>
   
   <milestone n="1" unit="column"/>
-  <lb n="1"/><note xml:lang="en">unblackened</note><seg function="blessing">śrī-ṟeṅka</seg>
-  <lb n="2"/><note xml:lang="en">unblackened</note><seg function="blessing">ṟeṅka śrī <gap reason="ellipsis"/></seg>
+  <seg function="blessing"><lb n="1"/><note xml:lang="en">unblackened</note> śrī-ṟeṅka</seg>
+  <seg function="blessing"><lb n="2"/><note xml:lang="en">unblackened</note> ṟeṅka śrī <gap reason="ellipsis"/></seg>
   
-  <milestone n="2" unit="column"/>
-  <lb n="1"/><seg function="blessing">śrī-reṅkam</seg>
-  <lb n="2"/><note xml:lang="en">unblackened</note><seg function="blessing">śrī śrī śrī śrī</seg>
-  <lb n="3"/><note xml:lang="en">unblackened</note><seg function="blessing">śrī <gap reason="ellipsis"/></seg>
+  <seg function="blessing"><milestone n="2" unit="column"/>
+  <lb n="1"/>śrī-reṅkam</seg>
+  <seg function="blessing"><lb n="2"/><note xml:lang="en">unblackened</note> śrī śrī śrī śrī</seg>
+  <seg function="blessing"><lb n="3"/><note xml:lang="en">unblackened</note> śrī <gap reason="ellipsis"/></seg>
   
-  <milestone n="3" unit="column"/>
-  <lb n="1"/><seg function="colophon">śrī-reṅkat=til <choice><sic>y<pc>-</pc>iḻi</sic><corr>y<pc>-</pc>eḻu</corr></choice>tiṉatu
-  	<lb n="2"/>kālayut=ti <g ref="#varuṣam">varuṣam</g> vaiyyaci <g ref="#mācam">mācam</g> <g ref="#pattu"/> <g ref="#tēti">tēti</g> <choice><sic>y<pc>-</pc>iḻi</sic><corr>y<pc>-</pc>eḻu</corr></choice>tiṉatu <persName xml:lang="sa" role="scribe" key="Rāmānuja"><seg rend="grantha">rāmānujan·</seg></persName>
-<lb n="3"/><note xml:lang="en">unblackened</note>kālayut=ti <gap reason="ellipsis"/>
-<lb n="3"/><note xml:lang="en"/><gap reason="ellipsis"/></seg>
+  <seg function="colophon"><seg function="copy-statement"><milestone n="3" unit="column"/>
+  <lb n="1"/>śrī-reṅkat=til <choice><sic>y<pc>-</pc>iḻi</sic><corr>y<pc>-</pc>eḻu</corr></choice>tiṉatu
+  	<lb n="2"/>kālayut=ti <g ref="#varuṣam">varuṣam</g> vaiyyaci <g ref="#mācam">mācam</g> <g ref="#pattu"/> <g ref="#tēti">tēti</g> <choice><sic>y<pc>-</pc>iḻi</sic><corr>y<pc>-</pc>eḻu</corr></choice>tiṉatu <persName xml:lang="sa" role="scribe" key="Rāmānuja"><term xml:lang="sa">rāmānujan·</term></persName></seg>
+<seg function="TBC"><lb n="3"/><note xml:lang="en">unblackened</note> kālayut=ti <gap reason="ellipsis"/></seg>
+<seg function="TBC"><lb n="4"/><gap reason="ellipsis"/></seg></seg>
 
-  
-  
-  </body>
-  </text></TEI>
+    </ab>
+  </body></text></TEI>

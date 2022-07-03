@@ -19,13 +19,13 @@
 						</repository>
 						<idno type="shelfmark">Indien 551c</idno>
 						<idno type="alternate"><idno>Tamoul 551</idno></idno>
-					</msIdentifier>
+					<idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1040793</idno></msIdentifier>
 					<msContents class="#STM">
-						<summary>The <title xml:lang="ta">Tiruvāymoli Nūṟṟantāti</title>.</summary>
+						<summary><p>The <title xml:lang="ta">Tiruvāymoli Nūṟṟantāti</title>.</p></summary>
 
 					<msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Tiruvāymoli Nūṟṟantāti</title><textLang mainLang="tam"/></msItem></msContents>
 					<physDesc>
-						<objectDesc form="pothi">
+						<objectDesc form="pothi" rend="manuscript">
 							<supportDesc material="palm-leaf">
 								<extent>
 									<measure unit="folio" quantity="11">11 (U1).</measure>
@@ -37,8 +37,8 @@
 									</dimensions><dimensions type="written" unit="mm"/></extent>
 
 								<condition>Relatively good state of preservation.</condition>
-								<support><measure unit="stringhole" quantity="1"/></support>
-								<collation><desc xml:id="U1">11 folios = <emph><title xml:lang="ta">Tiruvāymoli Nūṟṟantāti</title></emph>. Tamil foliation [1]-11. f11v blank.</desc></collation>
+								<support/>
+								<collation><desc xml:id="U1">11 folios = <emph><title xml:lang="ta">Tiruvāymoli Nūṟṟantāti</title></emph>. Tamil foliation {1}, 2-11. f11v blank.</desc></collation>
 							</supportDesc>
 							<layoutDesc> </layoutDesc>
 						</objectDesc>
@@ -50,7 +50,7 @@
 						<bindingDesc>
 							<binding>
 								
-							</binding>
+							<decoNote type="stringhole"><measure unit="stringhole" quantity="1"/></decoNote></binding>
 						</bindingDesc>
 					</physDesc>
 					<history>
@@ -74,14 +74,14 @@
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
-		<revisionDesc>
-
-			
-		<change when="2022-01">Record created by Emmanuel FRANCIS.</change></revisionDesc>
+		
 		<encodingDesc>
 			
-		<p>TBC</p></encodingDesc>
-	</teiHeader>
+		<p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.            </p></encodingDesc>
+	<revisionDesc>
+
+			
+		<change when="2022-01">Record created by Emmanuel FRANCIS.</change></revisionDesc></teiHeader>
 
 	
 	
@@ -91,21 +91,23 @@
 	
 	
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+  <ab>
   
   <pb facs="0" n="[1]r"/>
+  <seg function="header">
+  <seg function="blessing"><milestone unit="left-margin"/>
+  <lb n="1-3"/>jiyyaṟ tiruvaṭikaḷē caṟaṇa=M</seg>
+  <seg function="title"><lb n="4-6"/>tiruvāymoḻi <gap reason="ellipsis"/></seg>
+    </seg>
   
-  <milestone unit="left-margin"/>
-  <lb n="1-3"/><seg function="blessing">jiyyaṟ tiruvaṭikaḷē caṟaṇa=M</seg>
-  <lb n="4-6"/><seg function="title">tiruvāymoḻi <gap reason="ellipsis"/></seg>
-  
-   <milestone unit="main-text-area"/>
-  <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
+   <seg function="incipit"><milestone unit="main-text-area"/>
+  <lb n="1"/><gap reason="ellipsis"/></seg>
     
   <pb facs="0" n="11r"/>
-	<lb n="5"/><seg function="explicit"><gap reason="ellipsis"/> <g ref="#pcl"/> <g ref="#nūṟu"/> <g ref="#pcl"/> </seg> <seg function="blessing">Āḻvār tiruvaṭikaḷē caṟaṇa=M <g ref="#pcl"/></seg> <seg function="blessing">jīyar tiruvaṭikaḷē caraṇa=M <g ref="#pcl"/></seg> <seg function="blessing">Appaṉ tiruvaṭikaḷē caṟaṇa=M <g ref="#pcs"/></seg>
+	<seg function="explicit"><lb n="5"/><gap reason="ellipsis"/> <g ref="#pcl"/> <g ref="#nūṟu"/> <g ref="#pcl"/> </seg> <seg function="blessing">Āḻvār tiruvaṭikaḷē caṟaṇa=M <g ref="#pcl"/></seg> <seg function="blessing">jīyar tiruvaṭikaḷē caraṇa=M <g ref="#pcl"/></seg> <seg function="blessing">Appaṉ tiruvaṭikaḷē caṟaṇa=M <g ref="#pcs"/></seg>
 <lb n="6"/><seg function="blessing">Emperumāṉār tiruvaṭikaḷē caṟaṇa=M –</seg>
 
     <pb facs="0" n="11v"/><note xml:lang="en">blank</note>
   
-  </body>
-  </text></TEI>
+    </ab>
+  </body></text></TEI>
