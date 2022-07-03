@@ -21,15 +21,15 @@
 						</repository>
 						
 						<idno type="shelfmark">NAF 5443</idno>
-						<idno type="alternate"/>
+						<idno type="alternate"><idno>Catalogue 70</idno></idno>
 					<idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc40869b/cd0e1697</idno></msIdentifier>
 					<msContents class="#STM">
 						<summary><p>A partial catalogue of the Tamil manuscripts of the then Bibliothèque Royale (today the BnF) by Velanguani Arokium (Tamil <term xml:lang="ta">Vēḷāṅkaṇṇi Ārōkkiyam</term>) from Pondicherry, handwritten in 1845.</p>
 <p>The codex contains:
 <list rend="numbered">
-  <item>a title page (by Reinaud?) (U1a)</item>
-  <item>the catalogue proper, by Velanguani Arokium (U1b): first are described 27 manuscrits (numbered from 1 to 27), then the 38 Ducler manuscripts (numbered from 1 to 38)</item>
-  <item>additions to the catalogue by an unidentified hand (U1c): description of 9 manuscripts (numbered from 39 to 47, in continuation of the Ducler manuscript numbering, without being in fact, as attested by the provenance mentioned, Ducler manuscripts)</item>
+  <item>A title page (by Reinaud?) (U1a).</item>
+  <item>The catalogue proper, by Velanguani Arokium (U1b): first are described 27 manuscrits (numbered from 1 to 27; the no. 7 is missing), then the 38 Ducler manuscripts (numbered from 1 to 38).</item>
+  <item>Additions to the catalogue by an unidentified hand (U1c): description of 9 manuscripts (numbered from 39 to 47, in continuation of the Ducler manuscript numbering, without being in fact, as attested by the provenance mentioned, Ducler manuscripts).</item>
   </list>
 </p>
 <p>Description based on the digital images available on Gallica.</p></summary>
@@ -37,10 +37,10 @@
 						
 					<msItem synch="#U1a" xml:id="T1" defective="false"><title xml:lang="fr">Title Page (additional)</title><textLang mainLang="fra"/></msItem><msItem synch="#U1b" xml:id="T2" defective="false"><title xml:lang="fr">Catalogue by Velanguani Arokium</title><textLang mainLang="fra" otherLangs="tam"/></msItem><msItem synch="#U1c" xml:id="T3" defective="false"><title xml:lang="fr">Addition to catalogue</title><textLang mainLang="fra" otherLangs="tam"/></msItem></msContents>
 					<physDesc>
-						<objectDesc form="codex">
+						<objectDesc form="codex" rend="manuscript">
 							<supportDesc material="paper">
 								<extent>
-									<measure unit="folio" quantity="25">[1] + [3] + 11 + [9] + [1] (u1 + u2 + U1 + u3 + u4).</measure>
+									<measure unit="folio" quantity="25">{1} + {3} + 11 + {9} + {1} (u1 + u2 + U1 + u3 + u4).</measure>
 									<dimensions type="object" unit="mm">
 										
 										
@@ -48,7 +48,7 @@
 									</dimensions>
 									<dimensions type="leaf" unit="mm"/><dimensions type="written" unit="mm"/></extent>
 								<collation>
-									<desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. Recto marbled. Shelfmark on verso. </desc><desc xml:id="u1">1 folio = front <emph rend="bold"> guard leaf</emph>. No foliation. Verso marbled.</desc><desc xml:id="u2">3 folios = front <emph rend="bold"> guard leaves</emph>. No foliation.</desc><desc xml:id="U1">11	folios = <emph rend="bold">Catalogue</emph>. Library Arabic foliation 1-11. Arabic pagination [1-3], 4, 21. Verso blank.</desc><desc xml:id="U1a">1 folio = <emph rend="bold">Title Page (additional)</emph>. Library Arabic foliation 1-11. Pagination [1-2].</desc><desc xml:id="U1b">9	folios = <emph rend="bold">Catalogue by Velanguani Arokium</emph>. Library Arabic foliation 2-10. Arabic pagination 4-19.</desc><desc xml:id="U1c">1 folio = <emph rend="bold">Addition to catalogue</emph>. Library Arabic foliation 10-11. Pagination 20-21, [22].</desc><desc xml:id="u3">9 folios = back <emph rend="bold"> guard leaves</emph>. No foliation.</desc><desc xml:id="u4">1 folio = back <emph rend="bold"> guard leaf</emph>. No foliation. Verso marbled.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>. Verso marbled.</desc></collation>
+									<desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. Recto marbled. Shelfmark on verso. </desc><desc xml:id="u1">1 folio = front <emph rend="bold"> guard leaf</emph>. No foliation. Verso marbled.</desc><desc xml:id="u2">3 folios = front <emph rend="bold"> guard leaves</emph>. No foliation.</desc><desc xml:id="U1">11 folios = <emph rend="bold">Catalogue</emph>. Library Arabic foliation 1-11. Arabic pagination [1-3], 4, 21. Verso blank.</desc><desc xml:id="U1a">1 folio = <emph rend="bold">Title Page (additional)</emph>. Library Arabic foliation 1. No pagination = pages 1-2.</desc><desc xml:id="U1b">9 folios = <emph rend="bold">Catalogue by Velanguani Arokium</emph>. Library Arabic foliation 2-10. Arabic pagination [3], 4-19.</desc><desc xml:id="U1c">1 folio = <emph rend="bold">Addition to catalogue</emph>. Library Arabic foliation 10-11. Pagination 20-21, [22].</desc><desc xml:id="u3">9 folios = back <emph rend="bold"> guard leaves</emph>. No foliation.</desc><desc xml:id="u4">1 folio = back <emph rend="bold"> guard leaf</emph>. No foliation. Verso marbled.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>. Verso marbled.</desc></collation>
 								<condition>Very good state of preservation.</condition>
 							</supportDesc>
 							<layoutDesc> </layoutDesc>
@@ -56,14 +56,17 @@
 						<handDesc>
 
 							
-						<handNote synch="#U1a" scope="minor" script="latin" medium="ink black"><desc>Hand #1 (Reinaud?).</desc></handNote><handNote synch="#U1b" scope="major" script="latin tamil" medium="ink black"><desc>Hand #2 (Velanguani Arokium).</desc></handNote><handNote synch="#U1c" scope="minor" script="latin tamil"><desc>Hand #3.</desc></handNote></handDesc>
+						<handNote synch="#U1a" scope="minor" script="latin" medium="ink black"><desc>Hand #1 (Reinaud).</desc></handNote><handNote synch="#U1b" scope="major" script="latin tamil" medium="ink black"><desc>Hand #2 (Velanguani Arokium).</desc></handNote><handNote synch="#U1c" scope="minor" script="latin tamil"><desc>Hand #3.</desc></handNote></handDesc>
 						<additions>
-							<desc synch="#cover" type="shelfmark" subtype="spine">BnF shelfmark sticker: <quote><gap reason="ellipsis"/></quote> (<locus facs="o">spine</locus>).</desc><desc synch="#cover" subtype="cover front">BnF shelfmark sticker: <quote>FR. NOUV. ACQ 5,443</quote> (<locus facs="2">front cover, verso</locus>).</desc><desc synch="#u2" type="documenting-note"><quote>
-  <lb n="1-4"/>On trouve dans le journal intitulé l'institut (numero d'octobre, 1855, pag. 127 et suivant) une notice de mM<hi rend="superscript">r</hi> Ph. Vander Haeghen sur la langue tamoul, sur les principaux ouvrages rédigés dans cette langue &amp;c
+							<desc type="shelfmark" subtype="spine">BnF shelfmark sticker: <quote>FR. NOUV. ACQ. 5,443</quote> (<locus facs="53">spine</locus>).</desc><desc synch="#CoverFront" subtype="cover front">BnF shelfmark sticker: <quote>FR. NOUV. ACQ 5,443</quote> (<locus facs="2">front cover, verso</locus>).</desc><desc synch="#u2" type="documenting-note">Note by Reinaud (<locus facs="5">f[1]r</locus>):
+<quote xml:lang="fr" rend="block">
+  <lb n="1-4"/>On trouve dans le journal intitulé l'institut (numero d'octobre, 1855, pag. 127 et suivant) une notice de M<hi rend="superscript">r</hi> Ph. Vander Haeghen sur la langue tamoul, sur les principaux ouvrages rédigés dans cette langue &amp;c
   <lb n="5"/>Reinaud
-  </quote> (<locus facs="5">f[1]r</locus>).</desc><desc synch="#u2" type="shelfmark">BnF shelfmark: <quote><del>Catalogue n° 70.</del></quote> (<locus facs="5">f[1]r</locus>).</desc><desc synch="#u2" type="shelfmark">BnF shelfmark: <quote>Nouv. acq. franç. 5443.</quote> (<locus facs="5">f[1]r</locus>).</desc><desc synch="#u2" type="documenting-note">Binding information in black pencil:
-<quote><lb n="1"/>Volume de 11 Feuillets
-  <lb n="2"/>11 Juin 1891</quote> (<locus facs="5">f[1]r</locus>).</desc><desc synch="#U1b" type="commenting-note">Note by Reinaud (<locus facs="24">f7v</locus>).</desc></additions>
+  </quote></desc><desc synch="#u2" type="shelfmark">BnF shelfmark: <quote><del>Catalogue n° 70.</del></quote> (<locus facs="5">f[1]r</locus>).</desc><desc synch="#u2" type="shelfmark">BnF shelfmark in black ink: <quote>Nouv. acq. franç. 5443.</quote> (<locus facs="5">f[1]r</locus>).</desc><desc synch="#u2" type="documenting-note">Binding information in black pencil (<locus facs="5">f[1]r</locus>):
+<quote xml:lang="fr" rend="block">
+  <lb n="1"/>Volume de 11 Feuillets
+  <lb n="2"/>11 Juin 1891.
+</quote> </desc><desc synch="#U1b" type="commenting-note">Note by Reinaud (<locus facs="24">f7v</locus>).</desc></additions>
 						<bindingDesc>
 							<binding>
 								<p>Red leather covers. Shelfmark on spine and front cover, verso. </p>
@@ -100,20 +103,20 @@
 		<encodingDesc>
 
 			
-		<p>TBC</p></encodingDesc>
-		<revisionDesc>
+		<p>French standardised in the transcription. <emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.            </p></encodingDesc>
+		
+	<xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
 
 
 			
-		<change when="2022-02">Record created by Emmanuel FRANCIS.</change></revisionDesc>
-	</teiHeader>
+		<change when="2022-02">Record created by Emmanuel FRANCIS.</change></revisionDesc></teiHeader>
 
 	<facsimile>
 		
 	<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527869m/manifest.json"/></facsimile>
 	
 <text synch="#U1a" corresp="#T1" xml:lang="fr"><body>
-  
+  <ab>
    
   <pb facs="11" n="1r"/>
   
@@ -121,47 +124,52 @@
   <lb n="2"/>des manuscrits Tamouls de la
   <lb n="3"/>Bibliothèque Royale
   <lb n="4"/>Rédigé par
-  <lb n="5"/>M. Velanguani Arokium
-  <lb n="6"/>de Pondichéry.
+  <lb n="5"/>M. <persName xml:lang="fr" role="author">Velanguani Arokium</persName>
+  <lb n="6"/>de <placeName xml:lang="fr" key="Pondicherry">Pondichéry</placeName>.
   <lb n="7"/>Février 1845.
   <lb n="8"/>(L'auteur est catholique)</seg>
 
   <pb facs="12" n="1v"/><note xml:lang="en">blank</note>
   
-   </body>
-	</text><text synch="#U1b" corresp="#T2" xml:lang="fr"><body>
-  
+    </ab>
+   </body></text><text synch="#U1b" corresp="#T2" xml:lang="fr"><body>
+  <ab>
+    
    <pb facs="13" n="2r"/>
   
-    <lb n="1"/><seg function="title">Catalogue des manuscrits
+    <seg function="title"><lb n="1"/>Catalogue des manuscrits
   <lb n="2"/>Tamoul de la Bibliothèque
-  <lb n="3"/>Royale</seg>
+  <lb n="3"/>Royale.</seg>
   
   <lb n="1"/>N°1
   <lb n="2"/><term xml:lang="ta">mūṉṟu piṟivāy irukkuṟa lūcu vācāppu</term>
   <lb n="3"/>Loussouvassapou, ou Comédie de Loussou,
   <lb n="4"/>en trois actes
-  <lb n="5ff."/><gap reason="ellipsis"/>
+  <lb n="5"/>Premier acte
+  <lb n="6-11"/>La première scène tend uniquement à ridiculiser les femmes perverses, jalouse, et irreligieuse, ainsi que les personnes qui ont de la répugnance à toucher leurs semblables, <gap reason="ellipsis"/>
+  <lb n="12"/>Deuxième acte
+  <lb n="13ff."/><gap reason="ellipsis"/>
 
 <pb facs="19" n="5r"/>
   
-    <lb n="1"/><seg function="title">Manuscrits tamouls de M<hi rend="superscript">r</hi> Ducler</seg>
+    <seg function="title"><lb n="1"/>Manuscrits tamoul<supplied reason="omitted">s</supplied> de M<hi rend="superscript">r</hi> Ducler.</seg>
   
   <lb n="1"/>N°1
-  <lb n="2"/><term xml:lang="ta"><gap reason="ellipsis"/></term>
-  <lb n="3ff."/><gap reason="ellipsis"/>
+  <lb n="2-3"/><term xml:lang="ta">vētāntacāstiram</term> Vēdandassastirame, ou trois ouvrages de philosophie en prose: 
+    <lb n="4"/>dont
+      <lb n="5ff."/><gap reason="ellipsis"/>
   
   <pb facs="29" n="10r"/>
   
     <lb n="30"/>N°38
-  <lb n="31"/><term xml:lang="ta"><gap reason="ellipsis"/></term> <gap reason="ellipsis"/>
-  <lb n="32-34"/><gap reason="ellipsis"/>
-  <lb n="35"/><seg function="colophon">Fait par Velanguani Aroki=
-  <lb n="36"/>=om, De Pondichéry. Paris le 22 février 1845.</seg>
+  <lb n="31-34"/><term xml:lang="ta">tiruviḷaiyāṭal</term> Tirouvéléadele, ouvrage dans lequel Sivane a fait soicante quatre miracles. <gap reason="ellipsis"/>
+  <seg function="colophon"><lb n="35"/>Fait par <persName xml:lang="fr" role="author">Velanguani Aroki
+  <lb n="36"/>om</persName>, De <placeName xml:lang="fr" key="Pondicherry">Pondichéry</placeName>. <placeName xml:lang="fr" key="Paris">Paris</placeName> le 22 février 1845.</seg>
   
-  		</body>
-	</text><text synch="#U1c" corresp="#T3" xml:lang="fr"><body>
-  
+    </ab>
+  </body></text><text synch="#U1c" corresp="#T3" xml:lang="fr"><body>
+  <ab>
+    
   <pb facs="30" n="10v"/>
   
     <lb n="1"/>N°39
@@ -176,8 +184,6 @@
   <lb n="2-4"/>Manuscrit tamoul sur 116 feuilles entre deux plaques de métal. vient de Ste. Geneviève.
   
     <pb facs="32" n="11v"/><note xml:lang="en">blank</note>
-
-  
-  
-		</body>
-	</text></TEI>
+    
+    </ab>
+</body></text></TEI>
