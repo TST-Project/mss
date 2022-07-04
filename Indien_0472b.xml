@@ -1,17 +1,15 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Gospel of John 16.33</title>
-         </titleStmt>
-         <editionStmt>
-            <p>Record edited by <persName>Emmanuel FRANCIS</persName> <orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName>.</p>
-         </editionStmt>
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -21,20 +19,20 @@
                   </repository>
                   <idno type="shelfmark">Indien 472b</idno>
                   <idno type="alternate"/>
-               </msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1040016</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/gx41mr618</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary>Gospel of John 16.33 translated into German and Tamil.</summary>
+                  <summary><p>Gospel of John 16.33 translated into German and Tamil.</p></summary>
                   
-               <msItem xml:id="t472b" defective="false"><title xml:lang="ta"><term xml:lang="en">Gospel of John 16.33</term></title><textLang mainLang="tam" otherLangs="deu"/></msItem></msContents>
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Gospel of John 16.33</term></title><textLang mainLang="tam" otherLangs="deu"/></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi">
+                  <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
                         <support>
-                           <measure unit="stringhole" quantity="1"/>
+                           
                            
                         </support>
                         <extent>
-                           <measure unit="folio" quantity="1"/>
+                           <measure unit="folio" quantity="1">{1} (U1).</measure>
                            <dimensions type="leaf" unit="mm">
                               <width quantity="135"/>
                               <height quantity="35"/>
@@ -42,14 +40,14 @@
                         <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
                         
                         
-                     <foliation>No foliation.</foliation><condition>Good state of preservation.</condition></supportDesc>
+                     <condition>Good state of preservation.</condition><collation><desc xml:id="U1">1 folio = <emph rend="bold">Gospel of John 16.33</emph>. No foliation.</desc></collation></supportDesc>
                      <layoutDesc>
                         <layout writtenLines="4 5"/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
                      
-                  <handNote scope="major" script="tamil" scriptRef="#tamilPulliNone" medium="incised"/></handDesc>
+                  <handNote synch="#U1" scope="major" script="latin tamil" scriptRef="#tamilPulliNone" medium="incised"><desc>Unblackened.</desc></handNote></handDesc>
                   <decoDesc>
                     
                   </decoDesc>
@@ -58,57 +56,52 @@
                   <bindingDesc>
                      <binding>
                         
-                     </binding>
+                     <decoNote type="stringhole"><measure unit="stringhole" quantity="1"/></decoNote></binding>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian" notAfter="1847"/>
+                     <origDate calendar="gregorian" notAfter="1847">No internal date.</origDate>
                      
                   <origPlace>Tamilnadu.</origPlace></origin>
                   <acquisition>
                      
                   <p>Acquired by the BnF in 1847 from Schwaighauser, "Elève de l'école des chartes", along with other items. See R.B. N° 4530bis (1847).</p></acquisition>
-               </history>
+               <provenance><p>Unknown.</p></provenance></history>
                <additional>
                   <listBibl>
                      
-                  </listBibl>
+                  <bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f86">p. 67, no. 472</ref>.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. 1866-. <title>Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f229">f. 107r, <del>432</del> 472</ref>. </bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          
-      <p>TBA</p></encodingDesc>
-      <revisionDesc>
+      <p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.            </p></encodingDesc>
+      
+   <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
-      <change when="2021-04">Record created by Emmanuel FRANCIS.</change></revisionDesc>
-   </teiHeader>
+      <change when="2021-04">Record created by Emmanuel FRANCIS.</change><change when="2022-07">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, July 2022.</change></revisionDesc></teiHeader>
    <facsimile>
    <graphic url="https://tst-project.github.io/img/Indien_0472/index.json"/></facsimile>
-<text corresp="#t472b" xml:lang="ta"><body>
-  <p xml:lang="de">
+<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+  <ab>
     
-    <milestone facs="12" n="[1]r" unit="folio"/>
-    <lb n="1"/>[text in German] 
-    <lb n="2"/>[text in German]
-    <lb n="3"/>[text in German]
-    <lb n="4"/><seg function="title">Johan. 16, 33.</seg>
+  <pb facs="12" n="[1]r"/>
+    <term xml:lang="de"><lb n="1"/><gap reason="ellipsis"/> 
+    <lb n="2"/><gap reason="ellipsis"/>
+    <lb n="3"/><gap reason="ellipsis"/>
+    <seg function="title"><lb n="4"/>Johan. 16, 33.</seg>
+      </term>
   
-  </p>
-  <p>
-        
-    <milestone facs="13" n="[1]v" unit="folio"/>
-    <lb n="1"/><seg function="incipit">lōkattilē</seg> Uṅkaḷukku Upattiram uṇṭā
+  <pb facs="13" n="[1]v"/>
+    <seg function="incipit"><lb n="1"/>lōkattilē</seg> Uṅkaḷukku Upattiram uṇṭā
     <lb n="2" break="no"/>yirukkum Āṉāl <unclear>atiṭaṉ</unclear> koḷḷuṅ koḷ
     <lb n="3" break="no"/>nām lōkattai yeṅ koṇṭōm eṉṟu
     <lb n="4"/>tiruviḷam <seg function="explicit"><unclear reason="vowel_unclear">pā</unclear>tiṉār</seg>
-     <lb n="5"/><seg function="title">yōvar: <g ref="#pattu"/>6, 33</seg>   
-    
-  </p>
+     <seg function="title"><lb n="5"/>yōvar: <g ref="#pattu"/>6, 33</seg>
+         
+    </ab>
 </body>
-
-
-
 </text></TEI>

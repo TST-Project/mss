@@ -22,18 +22,22 @@
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1040016</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/gx41mr618</idno></msIdentifier>
                <msContents class="#CM">
                   <summary><p>Bundle (composite manuscript) made of 6 items (each consisting in 1 palm-leaf folio) of various measurements. Most items are of Christian contents. With 3 notes on paper leaves, pertaining to some of the items.</p>
-<p>Description based on the examination of the original manuscript (July 2020).</p>  <p>Dimensions assessed at the time of examination.</p>       </summary>
+<p>Description based on the examination of the original manuscript (July 2020).</p>
+<p>Dimensions assessed at the time of examination.</p>       
+<p>Vinson in Vinson et al. (1866-) and Cabaton (1912) describe only one folio of this 6-folio composite manuscript.</p>
+<p>Description based on the examination of the original manuscript (July 2020).</p>
+<p>Dimensions assessed at the time of examination.</p>      </summary>
                   
                </msContents>
                <physDesc>
-                  <objectDesc form="pothi">
+                  <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf talipot">
                         <support>
-                           <measure unit="stringhole"/>
+                           
                            
                         <p>Number of stringholes varying from one item to the other. One string with lead seal.</p></support>
                         <extent>
-                           <measure unit="folio" quantity="6">1 + 1 + 1 + 1 + 1 + 1 + 1 (Indien 472a + Indien 472b + Indien 472c + Indien 472d + Indien 472e + Indien 472f + Indien 472g).</measure>
+                           <measure unit="folio" quantity="6">{1} + {1} + [1] + {1} + {1} + 1 (Indien 472a +  472b +  472c +  472d + 472e +  472f +  472g).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
@@ -53,30 +57,27 @@
                     
                   </decoDesc>
                   <additions>
-                  <desc type="documenting-note"><p><locus facs="8">Paper note written in black ink</locus>. Pertaining to Indien 472a and Indien 472b and repeating the information contained in R.B. N° 4530bis (1847).</p>
-
+                  <desc type="documenting-note" subtype="detached">Note in black ink on a detached <locus facs="8">paper sheet</locus>, pertaining to Indien 472a and Indien 472b and repeating the information contained in R.B. N° 4530bis (1847):
+<quote xml:lang="fr" rend="block">
+  <milestone unit="1"/><lb n="1-2"/>R.B. N° 4530bis. 1847.
+  <milestone unit="2"/>
+  <lb n="1"/>2 passages du N. T. en Tamoul  avec la tradn en Allemand.
+  <lb n="2"/>St Jean XVI, 33
+  <lb n="3"/>Ep. aux Rom. XII, 18
+</quote></desc><desc type="documenting-note" subtype="detached">Note in black ink, by two different hands, on a detached <locus facs="6">paper sheet</locus>, pertaining to Indien 472c:
+<quote xml:lang="fr" rend="block">
+  <lb n="1-2"/>Feuille de palmier contenant un fragment d’ouvrage tamoul, remise au Dép<hi rend="superscript">t</hi> des Manuscrits par le Dép<hi rend="superscript">t</hi> des Estampes, le 11 août 1852. <note xml:lang="en">Hand #1</note>
+  <lb n="3-4"/>(C’est une feuille de l’histoire de St François Xavier.) <note xml:lang="en">Hand #2</note>
+</quote></desc><desc type="documenting-note" subtype="detached">Note in black pencil listing 5 items, on a detached <locus facs="4">paper sheet</locus>, pertaining to Indien 472d, as the item 5 in the list is the only one in Tamil and as the figure <locus facs="16">5</locus> is written (in black pencil?) on the left margin of the recto of  Indien 472d:
 <quote rend="block">
-  <p>R.B. N° 4530bis. 1847.</p>
-  <p>2 passages du N. T. en Tamoul  avec la tradn en Allemand.</p>
-  <p>St Jean XVI, 33</p>
-  <p>Ep. aux Rom. XII, 18</p>
-</quote></desc><desc type="documenting-note"><p><locus facs="6">Paper note written in black ink</locus>. Two hands. Pertaining to Indien 472c.</p>
-
-<quote rend="block">
-  <p>Feuille de palmier contenant un fragment d’ouvrage tamoul, remise au Dépt des Manuscrits par le Dépt des Estampes, le 11 août 1852. [Hand #1]</p>
-  <p>(C’est une feuille de l’histoire de St François Xavier.) [Hand #2]</p>
-</quote></desc><desc type="documenting-note"><p><locus facs="4">Paper note written in black pencil listing 5 items</locus>. Pertaining to Indien 472d, as the item 5 in the list is the only one in Tamil and as the figure <locus facs="16">5</locus> is written (in black pencil?) on the left margin of the recto of  Indien 472d.</p>
-
-<quote rend="block">
-  <p>1-3 = modèles d’écriture arabe.</p>
-  <p>4 un feuillet d’un ouvrage sanskrit écrit en caractères Devanagari (Table Géographique)</p>
-  <p>5 feuille de palmier langue et caractères tamoul</p>
-</quote>
-</desc></additions>
+  <lb n="1-3"/>1-3 = modèles d’écriture arabe.
+  <lb n="4"/>4 un feuillet d’un ouvrage sanskrit écrit en caractères Devanagari (Table Géographique)
+  <lb n="5"/>5 feuille de palmier langue et caractères tamoul
+</quote></desc></additions>
                   <bindingDesc>
                      <binding>
-                        <p><material resp="#cLI" cert="medium">Mahogany</material> woodcovers apparently fabricated in the BnF. The front one is (unusually) partly painted in black.</p>
-                     </binding>
+                        <p><material cert="medium">Pinewood</material> covers apparently fabricated in the BnF. The front one is (unusually) partly painted in black.</p>
+                     <decoNote type="stringhole"><measure unit="stringhole"/></decoNote></binding>
                   </bindingDesc>
                </physDesc>
                <history>
@@ -86,7 +87,7 @@
                   <origPlace>Tamilnadu</origPlace></origin>
                   <acquisition><p>Indien 472a and Indien 472b were acquired by the BnF in 1847 from Schwaighauser, "Elève de l'école des chartes", along with other items. See R.B. N° 4530bis (1847).</p>
                   </acquisition>
-               </history>
+               <provenance><p>Unknown.</p></provenance></history>
                <additional>
                   <listBibl>
                      
@@ -97,11 +98,11 @@
       </fileDesc>
       <encodingDesc>
          
-      <p>   <emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.            </p></encodingDesc>
+      <p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.            </p></encodingDesc>
       
    <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
-      <change when="2021-04">Record created by Emmanuel FRANCIS.</change><change when="2022-05">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, May 2022.</change></revisionDesc></teiHeader>
+      <change when="2021-04">Record created by Emmanuel FRANCIS.</change><change when="2022-07">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, July 2022.</change></revisionDesc></teiHeader>
    <facsimile>
         <graphic url="https://tst-project.github.io/img/Indien_0472/index.json"/>
    </facsimile>
