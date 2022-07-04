@@ -18,13 +18,14 @@
                   </repository>
                   <idno type="shelfmark">Indien 92</idno>
                   <idno type="alternate"><idno>Tamoul 92</idno><idno>Ducler 32</idno></idno>
-               </msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1035518</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b52517225w</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary><p>The <title xml:lang="ta">Kirakacintāmaṇi</title>, also known as <title xml:lang="ta">Uḷḷamuṭaiyāṉ</title>, a work on astrology, by <persName xml:lang="ta" role="author">Vīmēcurar</persName>.</p></summary>
+                  <summary><p>The <title xml:lang="ta">Kirakacintāmaṇi</title>, also known as <title xml:lang="ta">Uḷḷamuṭaiyāṉ</title>, a work on astrology, by <persName xml:lang="ta" role="author">Vīmēcurar</persName>.</p>
+   <p>Description based on the examination of the original manuscript (September 2021).</p>  <p>Dimensions assessed at the time of examination.</p>      </summary>
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">guard leaves</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta">Kirakacintāmaṇi: Mūlam &amp; Urai</title><author xml:lang="ta">Vīmēcurar</author><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi">
+                  <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
                         <extent>
                            <measure unit="folio" quantity="131">{2} + 126 + {3} (U1 + U2 + U3).</measure>
@@ -35,15 +36,15 @@
                         <dimensions type="object" unit="mm"><width quantity="330"/><height quantity="35"/><depth quantity="85"/></dimensions><dimensions type="written" unit="mm"/></extent>
                         
                         <condition>Excellent state of preservation, but some folios somehow damaged by boreholes.</condition>
-                     <collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. BnF shelfmark sticker on back cover , verso. </desc><desc xml:id="U1">2 folios = front <emph rend="bold">guard leaves</emph>. No foliation. Unblackened blessings on f[1]r. f[1]v, f[2]rv blank. 330 x 35 mm.</desc><desc xml:id="U2">126 folios = <emph rend="bold"><title xml:lang="ta">Kirakacintāmaṇi</title>: Text &amp; Commentary</emph>. Tamil foliation 1-126. 330 x 35 mm.</desc><desc xml:id="U3">2 folios = back <emph rend="bold">guard leaves</emph>. Blank recto verso. 330 x 35 mm.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><support><measure unit="stringhole" quantity="2"/><p>Rounded edges.</p></support></supportDesc>
+                     <collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. BnF shelfmark sticker on back cover , verso. </desc><desc xml:id="U1">2 folios = front <emph rend="bold">guard leaves</emph>. No foliation. Unblackened blessings on f[1]r. f[1]v, f[2]rv blank. 330 x 35 mm.</desc><desc xml:id="U2">126 folios = <emph rend="bold"><title xml:lang="ta">Kirakacintāmaṇi</title>: Text &amp; Commentary</emph>. Tamil foliation 1-126. 330 x 35 mm.</desc><desc xml:id="U3">2 folios = back <emph rend="bold">guard leaves</emph>. Blank recto verso. 330 x 35 mm.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><support><p>Rounded edges.</p></support></supportDesc>
                      <layoutDesc>
                         
                      <layout columns="1 4">4 columns for U2, f44-f49.</layout></layoutDesc>
                   </objectDesc>
                   <handDesc>
                      
-                  <handNote synch="#U1 #U2" scope="sole" script="tamil" medium="incised"/></handDesc>
-                  <additions><desc type="commenting-note" subtype="detached">Note in black ink on a paper sheet:
+                  <handNote synch="#U1 #U2" scope="sole" script="tamil" medium="incised soot"/></handDesc>
+                  <additions><desc type="commenting-note" subtype="detached">Note in black ink on a <locus facs="267">paper sheet</locus>:
 <quote xml:lang="fr" rend="block">
   <lb n="1"/>Mr Duclerque N° 2
   <lb n="2"/>Traité d'Astrologie, et non pas
@@ -53,23 +54,23 @@
 </quote>
 
   
-</desc><desc type="shelfmark" subtype="cover end">BnF shelfmark sticker: <quote>INDIEN 92</quote> (back cover, verso).</desc><desc synch="#U2" type="intertitle">Marginal intertitles: f8r, f11r, f14r, f14v, f25r, f27r, f32r, f33r, f33v, f34r, f35r, f36r, f37r, f38r, f39r, f44r, f50r, f62r, f63r, f66v.
+</desc><desc synch="#CoverFront #CoverBack" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 92</quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#U2" type="intertitle" subtype="marginal left">Left-marginal intertitles: f8r, f11r, f14r, f14v, f25r, f27r, f32r, f33r, f33v, f34r, f35r, f36r, f37r, f38r, f39r, f44r, f50r, f62r, f63r, f66v.
 </desc><desc synch="#U2" type="completion-statement">In-text completion statements at the end of chapters.</desc></additions>
                   <bindingDesc>
                      <binding>
                         <p>Original brown <material>wood</material> covers. 330 x 35 mm.</p>
-                     </binding>
+                     <decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian" notAfter="1833">No internal date. Dated to circa 1828 by Vinson (1868) and to 1828 by Cabaton (1912), on unstated grounds (presumably palaeographical and material analysis arguments).</origDate>
-                     <origPlace>Tamil Nadu</origPlace>
+                     <origDate calendar="gregorian" notAfter="1835" notBefore="1825">No internal date. Dated to circa 1828 by Vinson (1868) and to 1828 by Cabaton (1912), on unstated grounds (presumably palaeographical and material analysis arguments).</origDate>
+                     <origPlace>South India, Tamil Nadu.</origPlace>
                   </origin>
                   <acquisition>
                      
                   <p>Acquired, July 22nd, 1833, from Philippe Ducler. See BnF, département des Manuscrits, inventaire 1 = <title>Acquisitions: manuscrits et imprimés documentaires, 1833-1848</title>, no. 88.</p></acquisition>
-               <provenance/></history>
+               <provenance><p>Copied for <persName xml:lang="fr" role="collector">Philippe Ducler</persName> by an unnamed copyist in Karaikal Jail. See Burnouf (1832).</p></provenance></history>
                <additional>
                   <listBibl>
                      
@@ -82,71 +83,66 @@
          </sourceDesc>
       </fileDesc>
       
-   <encodingDesc><p><p>
-  <emph rend="bold">Transliteration conventions</emph>
-</p>
-<p>
-  Unmarked <emph rend="italic">puḷḷi</emph>, <emph rend="italic">ō</emph>, and <emph rend="italic">ē</emph> restored. Uppercase for initial vowels (in excerpts only).</p>
-<p><emph rend="bold">Abbreviations</emph></p>
-<p>c = column, f = folio, lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.</p></p></encodingDesc><revisionDesc>
+   <encodingDesc><p>   <emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.            </p></encodingDesc><revisionDesc>
          
-      <change when="2021-09">Record created by Emmanuel FRANCIS.</change></revisionDesc></teiHeader>
+      <change when="2021-09">Record created by Emmanuel FRANCIS.</change><change when="2022-07">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, July 2022.</change></revisionDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
    
-<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+<facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b52517225w/manifest.json"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   <ab>
-  <pb n="[1]r"/>
- 
-  <milestone unit="left-margin"/>
-  <lb n="1"/><seg function="blessing">hari O<sic>n</sic></seg>
-<lb n="2"/><seg function="blessing">naṉṟāka</seg>
-<lb n="3"/><seg function="blessing">kuru vā
+  <pb facs="3" n="[1]r"/><note xml:lang="en">unblackened</note>
+ <seg function="header">
+  <seg function="blessing"><milestone unit="left-margin"/>
+  <lb n="1"/>hari O<sic>n</sic></seg>
+<seg function="blessing"><lb n="2"/>naṉṟāka</seg>
+<seg function="blessing"><lb n="3"/>kuru vē
 <lb n="4" break="no"/>ḻka</seg> <seg function="blessing">kuru
 <lb n="5" break="no"/>vē tuṇai</seg>
+   </seg>
 </ab>
 </body>
    </text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
   <ab>
-  <pb n="1r"/>
-  
-  <milestone unit="left-margin"/>
-  <lb n="1"/><seg function="blessing">hari O<sic>n</sic></seg>
-<lb n="2"/><seg function="blessing">naṉṟāka</seg>
-<lb n="3"/><seg function="blessing">kuruvē
+  <pb facs="7" n="1r"/>
+  <seg function="header">
+  <seg function="blessing"><milestone unit="left-margin"/>
+  <lb n="1"/>hari O<sic>n</sic></seg>
+<seg function="blessing"><lb n="2"/>naṉṟāka</seg>
+<seg function="blessing"><lb n="3"/>kuruvē
   <lb n="4"/>tuṇai</seg> ~ <seg function="title">ki
  <lb n="5" break="no"/>ṟaka ~ cin
  <lb n="6" break="no"/>tāmaṇi</seg>
+    </seg>
  
-  <milestone unit="main-text-area"/>
-  <lb n="1"/><seg function="incipit" type="root-text"><gap reason="ellipsis"/></seg>
+  <seg function="incipit" type="root-text"><milestone unit="main-text-area"/>
+  <lb n="1"/><gap reason="ellipsis"/></seg>
   
-  <pb n="7r"/>
-      <lb n="2"/><gap reason="ellipsis"/> ~ <g ref="#pattu"/>2 ~ <seg function="completion-statement">pāyiram muṟṟum</seg> <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/>
+  <pb facs="19" n="7r"/>
+      <lb n="2"/><gap reason="ellipsis"/> ~ <g ref="#pattu"/>2 ~ <seg function="completion-statement">pāyiram muṟṟum <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/></seg>
   
-   <pb n="8r"/>
-    <milestone unit="left-margin"/>
-  <lb n="1-3"/><seg function="intertitle">naṭcettiranikaṇtu</seg>
+   <pb facs="21" n="8r"/>
+    <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1-3"/>naṭcettiranikaṇtu</seg>
 
-  <pb n="10v"/>
-      <lb n="2"/><gap reason="ellipsis"/> ~ <g ref="#pattu"/>8 ~ <seg function="completion-statement">naṭcettiranikaṇtu muṟṟum</seg> <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/>
+  <pb facs="26" n="10v"/>
+      <lb n="2"/><gap reason="ellipsis"/> ~ <g ref="#pattu"/>8 ~ <seg function="completion-statement">naṭcettiranikaṇtu muṟṟum <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/></seg>
       
-  <pb n="11r"/>
+  <pb facs="27" n="11r"/>
+    <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1-2"/>rācinikaṇtu</seg>
+  
+   <pb facs="31" n="13v"/>
+   <lb n="8"/><gap reason="ellipsis"/> ~ 25 ~ <seg function="completion-statement">kiṟakanikaṇtu muṟṟum <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/></seg>
+  
+  <pb facs="138" n="66v"/>
     <milestone unit="left-margin"/>
-  <lb n="1-2"/><seg function="intertitle">rācinikaṇtu</seg>
+  <seg function="intertitle"><lb n="1-5"/>kiṟaka <gap reason="ellipsis"/> curupam aṟiyum paṭi</seg>
   
-   <pb n="13v"/>
-   <lb n="8"/><gap reason="ellipsis"/> ~ 25 ~ <seg function="completion-statement">kiṟakanikaṇtu muṟṟum </seg> <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/>
+    <pb facs="256" n="125v"/>
+  <lb n="5-7"/><seg function="explicit" type="root-text"><gap reason="ellipsis"/> <g ref="#pcs"/></seg> <seg function="explicit" type="commentary">Etu <g ref="#pcs"/> <gap reason="ellipsis"/>
   
-  <pb n="66v"/>
-    <milestone unit="left-margin"/>
-  <lb n="1-5"/><seg function="intertitle">kiṟaka <gap reason="ellipsis"/> curupam aṟiyum paṭi</seg>
-  
-  
-  <pb n="125v"/>
-  <lb n="5-7"/><seg function="explicit" type="root-text"><gap reason="ellipsis"/></seg> <g ref="#pcs"/> <seg function="explicit" type="commentary">Etu <g ref="#pcs"/> <gap reason="ellipsis"/>
-  
-    <pb n="126r"/>
+    <pb facs="257" n="126r"/>
   <lb n="'4"/><gap reason="ellipsis"/>
-     <lb n="5"/>t-eṉṟa v<pc>-</pc>āṟu</seg> <g ref="#pcs"/> 2<g ref="#nūṟu"/>5<g ref="#pattu"/>3 <g ref="#pcs"/> <seg function="completion-statement">kiṟakacintāmaṇi muṟṟum</seg> <g ref="#pcl"/>
+     <lb n="5"/>t-eṉṟa v<pc>-</pc>āṟu <g ref="#pcs"/> 2<g ref="#nūṟu"/>5<g ref="#pattu"/>3 <g ref="#pcs"/></seg> <seg function="completion-statement">kiṟakacintāmaṇi muṟṟum <g ref="#pcl"/></seg>
   
     </ab>
   </body></text></TEI>
