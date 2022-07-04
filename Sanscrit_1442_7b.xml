@@ -1,15 +1,15 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:lang="sa">Mahābhārata – Mokṣadharmaparvan</title>
+            <title xml:lang="sa">Mahābhārata ― Mokṣadharmaparvan</title>
             
          <editor><persName>Charles LI</persName><orgName>CNRS, CEIAS, UMR 8564</orgName></editor></titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -27,10 +27,10 @@
                   
                <msItem synch="#U1" xml:id="MBh12.181-182" defective="true"><title xml:lang="sa">Mahābhārata</title><textLang mainLang="san"/></msItem><msItem synch="#U2" xml:id="MBh12.201" defective="true"><title xml:lang="sa">Mahābhārata</title><textLang mainLang="san"/></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi">
+                  <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="paper">
                         <support>
-                           <measure unit="stringhole"/>
+                           
                            
                         </support>
                         <extent>
@@ -48,13 +48,13 @@
                         <layout writtenLines="8"/>
                      </layoutDesc>
                   </objectDesc>
-                  <handDesc><handNote synch="#U1 U2" scope="sole" script="bengali" scriptRef="#bengaliRa" medium="ink black"><desc>Modern script.</desc></handNote></handDesc>
+                  <handDesc><handNote synch="#U1 #U2" scope="sole" script="bengali" scriptRef="#bengaliRa" medium="ink black"><desc>Modern script.</desc></handNote></handDesc>
                   <decoDesc>
                   </decoDesc>
                   <additions>
                   <desc synch="#U2" corresp="#MBh12.201" type="blessing" subtype="beginning marginal top left"><locus facs="8">folio 2r</locus>, <q xml:lang="sa">śrīhariḥ |</q></desc><desc synch="#U2" corresp="#MBh12.201" type="header" subtype="beginning marginal top"><locus facs="8">folio 2r</locus>, <q xml:lang="sa">mokṣe bhṛgubharadvājasaṃvāde</q></desc></additions>
                   <bindingDesc>
-                     <binding/>
+                     <binding><decoNote type="stringhole"><measure unit="stringhole"/></decoNote></binding>
                   </bindingDesc>
                </physDesc>
                <history>
@@ -68,20 +68,24 @@
                <additional>
                   <listBibl>
                      
-                  <bibl>Sukthankar, Vishnu S. &amp; Belvalkar, S. K., eds. (1954) <title><ref target="https://archive.org/details/in.ernet.dli.2015.486148">The Mahābhārata</ref></title>, volume 15. Poona: Bhandarkar Oriental Research Institute.</bibl><bibl>Wynne, Alex, trans. (2009) <title>Mahābhārata Book Twelve (Volume 3) Peace Part Two: The Book of Liberation</title> New York: New York University Press.</bibl></listBibl>
+                  <bibl>Sukthankar, Vishnu S. &amp; Belvalkar, S. K., eds. 1954. <title><ref target="https://archive.org/details/in.ernet.dli.2015.486148">The Mahābhārata</ref></title>, volume 15. Poona: Bhandarkar Oriental Research Institute.</bibl><bibl>Wynne, Alex, trans. 2009. <title>Mahābhārata Book Twelve (Volume 3) Peace Part Two: The Book of Liberation</title> New York: New York University Press.</bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-        <p>Spaces added between words where possible.</p>
-      </encodingDesc>
-      <revisionDesc>
-        <change when="2021-07">First version.</change>  
-      </revisionDesc>
-   </teiHeader>
+        
+      <p>Spaces added between words where possible.</p></encodingDesc>
+      
+   <revisionDesc>
+          
+      <change when="2021-07">First version.</change></revisionDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
    <facsimile>
    </facsimile>
+
+  <facsimile>
+    <graphic url="https://tst-project.github.io/img/Sanscrit_1442.7/index.json" facs="6"/>
+  </facsimile>
 <text synch="#U1" corresp="#MBh12.181-182" xml:lang="sa"><body>
   <p><seg function="incipit"><milestone n="1r" facs="6" unit="folio"/>mokṣadharme bhṛgubharadvājasaṃvāde || bhṛgur uvāca ||</seg></p>
   <lg>
@@ -147,8 +151,4 @@
     <l>yasyāṃ yasyāṃ diśi hy ete tāṃ diśaṃ śaraṇaṃ gataḥ |</l>
     <l><seg function="explicit">mucyate sarvvapāpebhyaḥ svastimāṃś ca gṛhān_ vrajet || <space/> ||</seg></l>
   </lg>
-    </body></text>
-  <facsimile>
-    <graphic url="https://tst-project.github.io/img/Sanscrit_1442.7/index.json" facs="6"/>
-  </facsimile>
-</TEI>
+    </body></text></TEI>
