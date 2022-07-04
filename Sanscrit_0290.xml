@@ -21,18 +21,20 @@
                   <idno type="alternate"><idno>Sanscrit Grantha 1</idno><idno>Ducler 38</idno></idno>
                </msIdentifier>
                <msContents class="#STM">
-                  <summary>The <title xml:lang="sa">Taittirīyasaṃhitā</title> of the <title xml:lang="sa">Yajurveda</title>. In 7 <title xml:lang="sa">kāṇḍa</title>s and 44 <title xml:lang="sa">praśna</title>s.</summary>
+                  <summary><p>The <title xml:lang="sa">Taittirīyasaṃhitā</title> of the <title xml:lang="sa">Yajurveda</title>. In 7 <title xml:lang="sa">kāṇḍa</title>s and 44 <title xml:lang="sa">praśna</title>s.</p>
+<p>Description based on the examination of the original manuscript (August 2021).</p>
+<p>Dimensions assessed at the time of examination.</p>      </summary>
                   
-               <msItem synch="#U2" xml:id="T1" defective="false"><title xml:lang="fr"><term xml:lang="sa">Taittirīyasaṃhitā</term>: Title Page</title><textLang mainLang="fra"/></msItem><msItem synch="#U3" xml:id="T2" defective="false"><title xml:lang="sa">Taittirīyasaṃhitā: <term xml:lang="en">Invocation + Title + Colophon</term></title><textLang mainLang="san"/></msItem><msItem synch="#U4" xml:id="T3" defective="false"><title xml:lang="sa">Taittirīyasaṃhitā: <term xml:lang="en">Mūla</term></title><textLang mainLang="san"/></msItem></msContents>
+               <msItem synch="#U2" xml:id="T1" defective="false"><title xml:lang="fr"><term xml:lang="sa">Taittirīyasaṃhitā</term>: Title Page</title><textLang mainLang="fra"/></msItem><msItem synch="#U3" xml:id="T2" defective="false"><title xml:lang="sa">Taittirīyasaṃhitā: <term xml:lang="en">Invocation + Title + Colophon</term></title><textLang mainLang="san"/></msItem><msItem synch="#U4" xml:id="T3" defective="false"><title xml:lang="sa">Taittirīyasaṃhitā: <term xml:lang="sa">Mūla</term></title><textLang mainLang="san"/></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi">
+                  <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
                         <support>
-                           <measure unit="stringhole" quantity="2"/>
+                           
                            
                         </support>
                         <extent>
-                           <measure unit="folio" quantity="343">[1] + [1] + [1] + 342 + [1] (U1 + U2 + U3 + U4 + U5).</measure>
+                           <measure unit="folio" quantity="343">{1} + {1} + {1} + 342 + {1} (U1 + U2 + U3 + U4 + U5).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
@@ -46,21 +48,22 @@
                         
                      <layout columns="1"/></layoutDesc>
                   </objectDesc>
-                  <handDesc><handNote synch="#U2" scope="major" script="latin" medium="incised"/><handNote synch="#U3 #U4" script="grantha" medium="incised"/></handDesc>
+                  <handDesc><handNote synch="#U2" scope="major" script="latin" medium="incised soot"/><handNote synch="#U3 #U4" script="grantha" medium="incised soot"/></handDesc>
                   <decoDesc>
                   </decoDesc>
                   <additions>
-                  <desc synch="#cover" type="shelfmark">BnF shelfmark sticker: <quote>SANSCRIT 290</quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#cover" type="documenting-note" subtype="beginning cover"><locus facs="2">Note</locus> on paper (on canvas) in black ink:
-<quote xml:lang="fr">
+                  <desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>SANSCRIT 290</quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#CoverFront" type="documenting-note" subtype="cover front">Note in black ink on <locus facs="2">paper</locus> (on canvas) glued on front cover, verso:
+
+<quote xml:lang="fr" rend="block">
   <lb n="1"/>M<hi rend="superscript">r</hi> Duclerque N° 6
   <lb n="2"/>intitulé Esourouvédam
   <lb n="3"/>Lequel renferme les préceptes de la
   <lb n="4"/>religion, la mode de sacrifice, les prières et les
   <lb n="5"/>commandements de Dieu pour le salut des brames,
   <lb n="6"/>en langue mārastagame, non tamoul
-  </quote>. </desc></additions>
+</quote></desc></additions>
                   <bindingDesc>
-                     <binding><p>Original <material>ebony</material> covers. 460 x 35 mm.</p></binding>
+                     <binding><p>Original <material>ebony</material> covers. 460 x 35 mm.</p><decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
                   </bindingDesc>
                </physDesc>
                <history>
@@ -68,7 +71,7 @@
                      <origDate calendar="gregorian" notAfter="1829">Internally dated to the year <foreign xml:lang="sa">virodhin</foreign> of the Jovian cycle, that is, CE 1829-1830. See colophon (U3, f[1]v2 and U4, f342v1). Dated to 1829 by Filliozat (1970).</origDate>
                      
                   <origPlace>Tamilnadu.</origPlace></origin>
-                  <provenance/>
+                  <provenance><p>Copied for <persName xml:lang="fr" role="collector">Philippe Ducler</persName> by an unnamed copyist in Karaikal Jail. See Burnouf (1832).</p></provenance>
                   <acquisition><p>Acquired, July 22nd, 1833, from Philippe Ducler. See BnF, département des Manuscrits, inventaire 1 = <title>Acquisitions: manuscrits et imprimés documentaires, 1833-1848</title>, no. 94 (Ezourvedam).</p></acquisition>
                </history>
                <additional>
@@ -81,58 +84,62 @@
       </fileDesc>
       <encodingDesc>
          
-      <p><emph rend="bold">Transliteration conventions</emph> ― Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.      </p></encodingDesc>
-      <revisionDesc>
+      <p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.            </p></encodingDesc>
+      
+   <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
-      <change when="2021-09">Record created by Emmanuel FRANCIS.</change></revisionDesc>
-   </teiHeader>
+      <change when="2021-09">Record created by Emmanuel FRANCIS.</change></revisionDesc></teiHeader>
    <facsimile>
    <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10083204q/manifest.json"/></facsimile>
 <text synch="#U2" corresp="#T1" xml:lang="fr"><body>
-  
+  <ab>
+    
   <pb facs="3" n="[1]r"/>
-  
-   <lb n="1"/><seg function="title">Esourouvèdam</seg>
+  <seg function="title">
+   <lb n="1"/>Esourouvèdam</seg>
   <lb n="2"/>Le <sic>quil</sic> renferme les préceptes de la réligion,
   <lb n="3"/>la mode de sacrifice, les prières et les 
-  <lb n="4"/>commandemens de Dieu pour le salut des brames. 
-  
-  </body></text><text synch="#U3" corresp="#T2" xml:lang="sa"><body>
-  
+  <lb n="4"/>commandemens de Dieu pour le salut des brames.
+    
+    </ab>
+</body></text><text synch="#U3" corresp="#T2" xml:lang="sa"><body>
+    <ab>
+
   <pb facs="4" n="[1]r"/>
   
-  <milestone unit="left-margin"/>
-   <lb n="1-2"/><seg function="blessing">hariḥ Om</seg>
+  <seg function="blessing"><milestone unit="left-margin"/>
+   <lb n="1-2"/>hariḥ Om</seg>
   
-    <milestone unit="main-text-area"/>
-
-  <lb n="1"/><seg function="invocation">śuklāṃbaradharaṃ viṣṇuṃ śaśivarṇañ caturbhujaṃ | prasannavadanan dhyāyet sarvavighnopaśāṃtaye |</seg> <g ref="#pcl"/> <seg function="invocation">vyāsāya viṣṇurūpāya vyāsarūpāya <note xml:lang="en">note the form of <foreign xml:lang="sa">rū</foreign></note> viṣṇave | namo vai brahmaniyaye
-  <lb n="2"/>vasiṣṭhāya namo namaḥ</seg> <g ref="#pcl"/> <seg function="invocation">Abhīpsitārtthasiddhyartthaṃ pūjito yas surair api | sarvavighoraś cid etasmai śrīgaṇādhipataye <choice><sic>nmaḥ</sic><corr>namaḥ</corr></choice> |</seg> <g ref="#pcl"/> <seg function="blessing">śrīvedavyāsāya <choice><sic>nmaḥ</sic><corr>namaḥ</corr></choice></seg> | <g ref="#pcl"/> <seg function="blessing">śrīmahāsarasvatyai <choice><sic>nmaḥ</sic><corr>namaḥ</corr></choice></seg> | <g ref="#pcl"/> 
+    <seg function="invocation"><milestone unit="main-text-area"/>
+  <lb n="1"/>śuklāṃbaradharaṃ viṣṇuṃ śaśivarṇañ caturbhujaṃ | prasannavadanan dhyāyet sarvavighnopaśāṃtaye | <g ref="#pcl"/></seg> <seg function="invocation">vyāsāya viṣṇurūpāya vyāsarūpāya <note xml:lang="en">note the form of <foreign xml:lang="sa">rū</foreign></note> viṣṇave | namo vai brahmaniyaye
+  <lb n="2"/>vasiṣṭhāya namo namaḥ | <g ref="#pcl"/></seg> <seg function="invocation">Abhīpsitārtthasiddhyartthaṃ pūjito yas surair api | sarvavighnacchide tasmai śrīgaṇādhipataye <choice><sic>nmaḥ</sic><corr>namaḥ</corr></choice> | <g ref="#pcl"/></seg> <seg function="blessing">śrīvedavyāsāya <choice><sic>nmaḥ</sic><corr>namaḥ</corr></choice> | <g ref="#pcl"/></seg> <seg function="blessing">śrīmahāsarasvatyai <choice><sic>nmaḥ</sic><corr>namaḥ</corr></choice> | <g ref="#pcl"/></seg> 
   
   <pb facs="5" n="[1]v"/>
   
-  <lb n="1"/><seg function="title">yajurvedaṃ saṃhitai saptakāṇḍāḥ catuścatvariṃśat· praśnāḥ</seg> | <g ref="#pcl"/>
-  <lb n="2"/><seg function="colophon">virodhi-nāma-saṃvatsaraṃ kanyāmāsaṃ dvitīyya-dinaṃ saumyavāsaraṃ kṛṣṇapakṣaṃ caturthi aśvinīnakṣatram inda śubhadinattil divi pañcaviṃśatighaṭikayil vedaṃ saṃhītāpustakaṃ kṛṣṇan·
-  <lb n="3"/>lekhiri Āraṃbhiccadu</seg> | <g ref="#pcl"/> <seg function="TBC">karakṛtam aparādhaṃ kṣantum arhanti santaḥ</seg> | <g ref="#pcl"/> <seg function="TBC">gurur brahmā gurur viṣṇur gurur eva maheśvaraḥ</seg> | <seg function="TBC">gurur eva paraṃ brahma tasmai śrīgurave <choice><sic>nmaḥ</sic><corr>namaḥ</corr></choice></seg> | <g ref="#pcl"/> <seg function="blessing">Avighnam astu</seg>
+  <seg function="title"><lb n="1"/>yajurvedaṃ saṃhitai saptakāṇḍāḥ catuścatvariṃśat· praśnāḥ</seg> | <g ref="#pcl"/>
+  <seg function="copy-statement"><lb n="2"/>virodhi-nāma-saṃvatsaraṃ kanyāmāsaṃ dvitīyya-dinaṃ saumyavāsaraṃ kṛṣṇapakṣaṃ caturthi aśvinīnakṣatram inda śubhadinattil divi pañcaviṃśatighaṭikayil vedaṃ saṃhītāpustakaṃ kṛṣṇan·
+  <lb n="3"/>lekhiri Āraṃbhiccadu | <g ref="#pcl"/></seg> <seg function="TBC">karakṛtam aparādhaṃ kṣantum arhanti santaḥ |</seg> <g ref="#pcl"/> <seg function="TBC">gurur brahmā gurur viṣṇur gurur eva maheśvaraḥ |</seg> <seg function="TBC">gurur eva paraṃ brahma tasmai śrīgurave <choice><sic>nmaḥ</sic><corr>namaḥ</corr></choice> | <g ref="#pcl"/></seg> <seg function="blessing">Avighnam astu</seg>
   
+      </ab>
   </body></text><text synch="#U4" corresp="#T3" xml:lang="sa"><body>
-  
+  <ab>
   <pb facs="5" n="1r"/>
-  
-  <milestone unit="left-margin"/>
-   <lb n="1-2"/><seg function="blessing">hariḥ Om</seg>
-     <lb n="3-4"/><seg function="blessing">Avighnam astu</seg>
+  <seg function="header">
+  <seg function="blessing"><milestone unit="left-margin"/>
+   <lb n="1-2"/>hariḥ Om</seg>
+     <seg function="blessing"><lb n="3-4"/>Avighnam astu</seg>
+    </seg>
 
-    <milestone unit="main-text-area"/>
-
-  <lb n="1"/><seg function="incipit">Iṣe tvorje tvā vāyava sthopāyava stha devo vas savitā prārpayatu <gap reason="ellipsis"/></seg>
+    <seg function="incipit"><milestone unit="main-text-area"/>
+  <lb n="1"/>Iṣe tvorje tvā vāyava sthopāyava stha devo vas savitā prārpayatu <gap reason="ellipsis"/></seg>
   
   <pb facs="349" n="342r"/>
-    <lb n="4"/><gap reason="ellipsis"/> <seg function="explicit">Ity āhur varuṇot·bhis sāmne catuḥpañcāśat· <g ref="#pcl"/> gāvo yonis samudro bandhuḥ</seg> <g ref="#pcl"/> <seg function="blessing">hariḥ Om·</seg> tat sat· <seg function="blessing">śrī
-<lb n="5" break="no"/>kṛṣṇārpaṇam astu</seg> <seg function="completion-statement">saptamakāṇḍas samāptaḥ</seg> <g ref="#pcl"/> <seg function="TBC">yādṛśaṃ pustakaṃ dṛṣṭvā tādṛśaṃ likhitaṃ mayā</seg> | <seg function="TBC">Abaddhaṃ vā subaddhaṃ vā mama doṣo na vidyate</seg> | <g ref="#pcl"/> <seg function="blessing">śrīgurubhyo namaḥ</seg> | <g ref="#pcl"/> <seg function="blessing">śrīvedavyāsāya namaḥ</seg> <g ref="#pcl"/>
+    <lb n="4"/><gap reason="ellipsis"/> <seg function="explicit">Ity āhur varuṇot·bhis sāmne catuḥpañcāśat· <g ref="#pcl"/> gāvo yonis samudro bandhuḥ <g ref="#pcl"/></seg> <seg function="colophon"><seg function="blessing">hariḥ Om·</seg> tat sat· <seg function="blessing">śrī
+<lb n="5" break="no"/>kṛṣṇārpaṇam astu</seg> <seg function="completion-statement">saptamakāṇḍas samāptaḥ</seg> <g ref="#pcl"/> <seg function="documenting-note">yādṛśaṃ pustakaṃ dṛṣṭvā tādṛśaṃ likhitaṃ mayā |</seg> <seg function="documenting-note">Abaddhaṃ vā subaddhaṃ vā mama doṣo na vidyate |</seg> <g ref="#pcl"/> <seg function="blessing">śrīgurubhyo namaḥ | <g ref="#pcl"/></seg> <seg function="blessing">śrīvedavyāsāya namaḥ <g ref="#pcl"/></seg>
   
     <pb facs="350" n="342v"/>
-    <lb n="1"/><seg function="colophon">virodhi-nāma-saṃvatsaraṃ tulāmāsa<del><gap reason="illegible" quantity="3" unit="character"/></del><add>m ekona</add>triṃśad dinaṃ guruvāraṃ kṛṣṇapakśaṃ dvitīyyai rohiṇīnakṣatrattil  Idaṃ vedaṃ samhītāpustakaṃ sura<unclear>khra</unclear>ḍhi kṛṣṇan· sva
-<lb n="2"/>hastattunāl samāptamānadu</seg> | <g ref="#pcl"/> <seg function="TBC">karakṛtam aparādhaṃ kṣantum arhanti santaḥ</seg> <g ref="#pcl"/> <seg function="blessing">Avighnam astu</seg> <seg function="blessing">kailāsanātheśvarasvāmīsahāyaḥ</seg> <g ref="#pcs"/> <seg function="blessing">Om·</seg>
+    <seg function="copy-statement"><lb n="1"/>virodhi-nāma-saṃvatsaraṃ tulāmāsa<del><gap reason="illegible" quantity="3" unit="character"/></del><add>m ekona</add>triṃśad dinaṃ guruvāraṃ kṛṣṇapakśaṃ dvitīyyai rohiṇīnakṣatrattil  Idaṃ vedaṃ samhītāpustakaṃ sura<unclear>khra</unclear>ḍhi kṛṣṇan· sva
+<lb n="2"/>hastattunāl samāptamānadu | <g ref="#pcl"/></seg> <seg function="TBC">karakṛtam aparādhaṃ kṣantum arhanti santaḥ <g ref="#pcl"/></seg> <seg function="blessing">Avighnam astu</seg> <seg function="blessing">kailāsanātheśvarasvāmīsahāyaḥ <g ref="#pcs"/></seg> <seg function="blessing">Om·</seg></seg>
   
+    </ab>
   </body></text></TEI>
