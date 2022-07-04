@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -9,7 +9,7 @@
          <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -19,26 +19,27 @@
                   </repository>
                   <idno type="shelfmark">Indien 466</idno>
                   <idno type="alternate"><idno>Tamoul 466</idno></idno>
-               </msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1039955</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary>Christian ritual work.</summary>
+                  <summary><p>A Christian Tamil text: ritual manual for the Mass (<foreign xml:lang="ta">pūcaikkiyāṉam</foreign>)</p>
+<p>Description based on the examination of the original manuscript (August 2021).</p> <p>Dimensions assessed at the time of examination.</p>      </summary>
                   
-               <msItem synch="#U1" xml:id="T1" defective="true"><title xml:lang="ta">Pūcaikku Yāṉam (<term xml:lang="en">TBC</term>)</title><textLang mainLang="tam"/></msItem></msContents>
+               <msItem synch="#U1" xml:id="T1" defective="true"><title xml:lang="ta">Pūcaikkiyāṉam</title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi">
+                  <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
                         <support>
-                           <measure unit="stringhole" quantity="2"/>
+                           
                            
                         <p>The leaves are larger in the middle of the bundle.</p></support>
                         <extent>
-                           <measure unit="folio" quantity="104">[47] + [57] (U1 + U2).</measure>
+                           <measure unit="folio" quantity="104">{47} + {57} (U1 + U2).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
                            <height quantity="30"/><width min="215" max="225"/></dimensions>
                         <dimensions type="object" unit="mm"><width quantity="215"/><height quantity="30"/><depth quantity="80"/></dimensions><dimensions type="written" unit="mm"/></extent>
-                        <collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. </desc><desc xml:id="U1">47 folios = <emph rend="bold">Main Text</emph>. No foliation.</desc><desc xml:id="U2">57 folios = <emph rend="bold">guard leaves</emph>. No foliation. Blank recto verso.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>. Shelfmark on the verso.</desc></collation>
+                        <collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. </desc><desc xml:id="U1">47 folios = <emph rend="bold"><title xml:lang="ta">Pūcaikkiyāṉam</title></emph>. No foliation. f47v blank.</desc><desc xml:id="U2">57 folios = <emph rend="bold">guard leaves</emph>. No foliation. Blank recto verso.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>. Shelfmark on the verso.</desc></collation>
                         
                         <condition>Excellent state of conservation.</condition>
                      </supportDesc>
@@ -46,96 +47,111 @@
                         
                      </layoutDesc>
                   </objectDesc>
-                  <handDesc><handNote synch="#U1" scope="sole" script="tamil" medium="incised"/></handDesc>
+                  <handDesc><handNote synch="#U1" scope="sole" script="tamil" medium="incised"><desc>Unblackened.</desc></handNote></handDesc>
                   <decoDesc>
                   </decoDesc>
                   <additions>
-                  <desc synch="#cover" type="shelfmark" subtype="cover end">BnF shelfmark sticker: <quote>INDIEN 466</quote> (back cover, verso).</desc></additions>
+                  <desc synch="#CoverBack" type="shelfmark" subtype="back cover">BnF shelfmark sticker: <quote>INDIEN 466</quote> (<locus facs="0">back cover, verso</locus>).</desc><desc synch="#U1" type="foliation" subtype="marginal right">Arabic foliation 47 added in black ink (<locus facs="0">f[47]r</locus>).</desc></additions>
                   <bindingDesc>
-                     <binding><p>Original <material>wood</material> covers. 210 x 30 mm.</p></binding>
+                     <binding><p>Original <material>wood</material> covers. 210 x 30 mm.</p><decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian">No internal date. Dated to 1775 by Cabaton (1912), on unstated grounds (presumably palaeographical and material analysis arguments).</origDate>
+                     <origDate calendar="gregorian">No internal date. Dated to circa 1775 by Vinson in Vinson et al. (1866-) and to 1775 by Cabaton (1912), on unstated grounds (presumably palaeographical and material analysis arguments).</origDate>
                      
                   <origPlace>Tamilnadu.</origPlace></origin>
-                  <provenance/>
-                  <acquisition/>
+                  <provenance><p>Unknown.</p></provenance>
+                  <acquisition><p>Unknown.</p></acquisition>
                </history>
                <additional>
                   <listBibl>
                      
-                  <bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens. Bibliothèque nationale. Département des manuscrits.</title> Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f85">p. 66</ref>.</bibl></listBibl>
+                  <bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens. Bibliothèque nationale. Département des manuscrits.</title> Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f85">p. 66, n0. 466</ref>.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. 1866-. <title>Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f227">f. 106r, <del>429</del> <del>467</del> 466</ref>. </bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          
-      <p>TBC.</p></encodingDesc>
-      <revisionDesc>
+      <p>   <emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.            </p></encodingDesc>
+      
+   <revisionDesc>
          
-      <change when="2021-09">Record created by Emmanuel FRANCIS</change></revisionDesc>
-   </teiHeader>
+      <change when="2021-09">Record created by Emmanuel FRANCIS</change></revisionDesc></teiHeader>
    <facsimile>
    </facsimile>
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
-  
+  <ab>
+    
   <pb n="[1]r"/>
   
-  <milestone unit="left margin"/>
-  <lb n="1"/><seg function="intertitle">pūcai<unclear>k</unclear>ku
+  <seg function="title"><milestone unit="left margin"/>
+  <lb n="1"/>pūcai<unclear>k</unclear>ki
   <lb n="2"/>yāṉam</seg>
   
-  <milestone unit="main text area"/>
-  <lb n="1"/><gap reason="ellipsis"/>
+  <seg function="incipit"><milestone unit="main text area"/>
+  <lb n="1"/>Atikamāṉa palaṉōṭē pūcai <gap reason="ellipsis"/></seg>
   
   <pb n="[21]r"/>
-   <lb n="5"/><gap reason="ellipsis"/> cuvāmi pūcai Oḻu<unclear>k=ku</unclear>muṟṟu <g ref="#pcl"/>  
+   <lb n="5"/><gap reason="ellipsis"/> <seg function="completion-statement">cuvāmi pūcai Oḻu<unclear>k=ku</unclear>muṟṟu <g ref="#pcl"/></seg>
   
    <pb n="[22]r"/>
-  <milestone unit="left margin"/>
-  <lb n="1"/><seg function="intertitle">Āṟukālai
+  <seg function="intertitle"><milestone unit="left margin"/>
+  <lb n="1"/>Āṟukālai
   <lb n="2"/>mantira=M</seg>
   
   <pb n="[27]v"/>
-  <milestone unit="left margin"/>
-  <lb n="1-3"/><seg function="intertitle">mattiyāṉacīvam
+  <seg function="intertitle"><milestone unit="left margin"/>
+  <lb n="1-3"/>mattiyāṉacīvam
 </seg>
 
     <pb n="[29]v"/>
-  <milestone unit="left margin"/>
-  <lb n="1-3"/><seg function="intertitle">Apirāṉakālat=tuc cepam</seg>
+  <seg function="intertitle"><milestone unit="left margin"/>
+  <lb n="1-3"/>Apirāṉakālat=tuc cepam</seg>
   
     <pb n="[31]r"/>
-  <milestone unit="left margin"/>
-  <lb n="1-2"/><seg function="intertitle">As·tamāṉa kālat=tu cīvam</seg>
+  <seg function="intertitle"><milestone unit="left margin"/>
+  <lb n="1-2"/>As·tamāṉa kālat=tu cīvam</seg>
   
   <pb n="[33]v"/>
-   <lb n="5"/><gap reason="ellipsis"/> muṟ<sic>tu</sic> <g ref="#pcl"/>
+   <seg function="completion-statement"><lb n="5"/><gap reason="ellipsis"/> muṟ<sic>tu</sic> <g ref="#pcl"/></seg>
   
       <pb n="[34]r"/>
-  <milestone unit="left margin"/>
-  <lb n="1"/><seg function="intertitle">Avas·ttaiyilē collukiṟa mantiram</seg>
+  <seg function="intertitle"><milestone unit="left margin"/>
+  <lb n="1"/>Avas·ttaiyilē collukiṟa mantiram</seg>
   
   <milestone unit="main-text-area"/>
   <lb n="1"/>cuvāmi kiṟupai yāyiruṅ · kiris·tuvē kiṟupai yāyiruṅ
-  <lb n="2"/>cuvāmi kiṟupai yāyiruṅ · Aṟcīṣṭa mariyē | Ellārum 
+  <lb n="2"/>cuvāmi kiṟupai yāyiruṅ · Aṟcīṣṭa mariyē | Ellārum ~
+    <lb n="3"/><gap reason="ellipsis"/>
   
+     <pb n="[39]v"/>
+   <lb n="1"/><gap reason="ellipsis"/>
+   <lb n="2" break="no"/>ḷum <g ref="#pcl"/> <seg function="blessing">Āmēṉ E<supplied reason="omitted">cu</supplied></seg>
+
     <pb n="[40]r"/>
-  <milestone unit="left margin"/>
-  <lb n="1-3"/><seg function="intertitle">piṟattiṣaṇa-mantiram
-</seg>
+  <seg function="intertitle"><milestone unit="left margin"/>
+  <lb n="1-3"/>piṟattiṣaṇa-mantiram</seg>
+     <milestone unit="main-text-area"/>
+  <lb n="1"/>caṟuvēcuraṉum <gap reason="ellipsis"/>
+  <lb n="2"/><gap reason="ellipsis"/>
   
   <pb n="[43]v"/>
-  <lb n="4"/><gap reason="ellipsis"/> paṇṇiyaruḷum Ā<seg rend="grantha">me</seg>n ecu <g ref="#pcl"/> 
+    <lb n="1-3"/><gap reason="ellipsis"/>
+<lb n="4"/><gap reason="ellipsis"/> Aṉukkiṟakam <g ref="#pcs"/> paṇṇiyaruḷum <seg function="blessing">Ā<seg rend="grantha">me</seg>n ecu <g ref="#pcl"/></seg>
   
     <pb n="[44]r"/>
-  <milestone unit="left margin"/>
-  <lb n="1-3"/><seg function="intertitle">reṇṭām piṟattiṣaṇa-mantira<seg rend="grantha">m</seg></seg>
+  <seg function="intertitle"><milestone unit="left margin"/>
+  <lb n="1-3"/>reṇṭām piṟattiṣaṇa-mantira<seg rend="grantha">m</seg></seg>
+    <milestone unit="main-text-area"/>
+  <lb n="1"/>caṟkuruvāy irukkiṟa Ecukkiṟīsttu <gap reason="ellipsis"/>
+  <lb n="2"/><gap reason="ellipsis"/>
   
   <pb n="[47]r"/>
-  <lb n="1"/><seg function="explicit">maṉuṣar vācam āyi</seg>
+  <seg function="explicit"><lb n="1"/><gap reason="ellipsis"/> maṉuṣar vācam āyi</seg>
+    
+     <pb n="[47]v"/><note xml:lang="en">blank</note>
   
+    </ab>
 </body></text></TEI>
