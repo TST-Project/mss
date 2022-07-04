@@ -22,17 +22,17 @@
                   <idno type="alternate"><idno>Tamoul 509</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1040369</idno></msIdentifier>
                <msContents class="#MTM">
-                  <summary>A multi-text manuscript containing:
+                  <summary><p>A multi-text manuscript containing:
 <list rend="numbered">
-  <item>the <title xml:lang="ta">Civapōkacāram</title> (U3, f1-f15 = U3a)</item>
-  <item>the <title xml:lang="ta">Nātānta Aṇṭa Tericaṉam</title> (U3, f16 = U3b)</item>
-  <item>the <title xml:lang="ta">Pañcāṣṣāviti</title> (U3, f17-f18 = U3c)</item>
-  <item>the <title xml:lang="ta">Tattuvakkaṭṭaḷai</title> (U3, f19-f51 = U3d)</item>
-</list></summary>
+  <item>The <title xml:lang="ta">Civapōkacāram</title> (U3, f1-f15 = U3a).</item>
+  <item>The <title xml:lang="ta">Nātānta Aṇṭa Tericaṉam</title> (U3, f16 = U3b).</item>
+  <item>The <title xml:lang="ta">Pañcāṣṣāviti</title> (U3, f17-f18 = U3c).</item>
+  <item>The <title xml:lang="ta">Tattuvakkaṭṭaḷai</title> (U3, f19-f51 = U3d).</item>
+</list></p></summary>
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page (original?)</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page (additional?)</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U3a" xml:id="T3" defective="false"><title xml:lang="ta">Civapōkacāram</title><textLang mainLang="tam"/></msItem><msItem synch="#U3b" xml:id="T4" defective="false"><title xml:lang="ta">Nātānta Aṇṭa Tericaṉam</title><textLang mainLang="tam"/></msItem><msItem synch="#U3c" xml:id="T5" defective="false"><title xml:lang="ta">Pañcāṣṣāviti</title><textLang mainLang="tam"/></msItem><msItem synch="#U3d" xml:id="T6" defective="false"><title xml:lang="ta">Tattuvakkaṭṭaḷai</title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi">
+                  <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
                         <extent>
                            <measure unit="folio" quantity="53">{1} + {1} + 51 (U1 + U2 + U3).</measure>
@@ -43,7 +43,7 @@
                         <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
                         
                         <condition>Very good state of preservation. </condition>
-                     <support><measure unit="stringhole" quantity="1"/></support><collation><desc xml:id="U1">1 folio = <emph rend="bold">Title Page (original?)</emph>. No foliation. Double folio. Verso blank.</desc><desc xml:id="U2">1 folio = <emph rend="bold">Title Page (additional?)</emph>. Corrected version of U1. No foliation. Verso blank.</desc><desc xml:id="U3">51 folios = <emph rend="bold">MTM</emph>. Tamil foliation 1-51.</desc><desc xml:id="U3a">15 folios = <emph rend="bold"><title xml:lang="ta">Civapōkacāram</title></emph>. Tamil foliation 1-15.</desc><desc xml:id="U3b">1 folio = <emph rend="bold"><title xml:lang="ta">Nātānta Aṇṭa Tericaṉam</title></emph>. Tamil foliation 16.</desc><desc xml:id="U3c">2 folios = <emph rend="bold"><title xml:lang="ta">Pañcāṣṣāviti</title></emph>. Tamil foliation 17-18.</desc><desc xml:id="U3d">33 folios = <emph rend="bold"><title xml:lang="ta">Tattuvakkaṭṭaḷai</title></emph>. Tamil foliation 19-51.</desc></collation></supportDesc>
+                     <support/><collation><desc xml:id="U1">1 folio = <emph rend="bold">Title Page (original?)</emph>. No foliation. Double folio. Verso blank.</desc><desc xml:id="U2">1 folio = <emph rend="bold">Title Page (additional?)</emph>. Corrected version of U1. No foliation. Verso blank.</desc><desc xml:id="U3">51 folios = <emph rend="bold">the multi-text manuscript bundle</emph>. Tamil foliation 1-51.</desc><desc xml:id="U3a">15 folios = <emph rend="bold"><title xml:lang="ta">Civapōkacāram</title></emph>. Tamil foliation 1-15.</desc><desc xml:id="U3b">1 folio = <emph rend="bold"><title xml:lang="ta">Nātānta Aṇṭa Tericaṉam</title></emph>. Tamil foliation 16.</desc><desc xml:id="U3c">2 folios = <emph rend="bold"><title xml:lang="ta">Pañcāṣṣāviti</title></emph>. Tamil foliation 17-18.</desc><desc xml:id="U3d">33 folios = <emph rend="bold"><title xml:lang="ta">Tattuvakkaṭṭaḷai</title></emph>. Tamil foliation 19-51.</desc></collation></supportDesc>
                      <layoutDesc>
                         
                      </layoutDesc>
@@ -68,7 +68,7 @@
                     
                     
                   </additions>
-               <bindingDesc><binding/></bindingDesc></physDesc>
+               <bindingDesc><binding><decoNote type="stringhole"><measure unit="stringhole" quantity="1"/></decoNote></binding></bindingDesc></physDesc>
                <history>
                   <origin>
                      <origDate calendar="gregorian" notAfter="1889">Internally dated to the year <foreign xml:lang="ta">carvatāri</foreign> of the Jovian cycle, that is CE 1888-1889, 1828-1829, 1768-1769, 1708-1709, etc. See colophon (509a, U3, f51v6). </origDate>
@@ -76,123 +76,144 @@
                   <origPlace>Tamilnadu.</origPlace></origin>
                   <acquisition>
                      
-                  </acquisition>
-               <provenance/></history>
+                  <p>Unknown.</p></acquisition>
+               <provenance><p>Unknown.</p></provenance></history>
                <additional>
                   <listBibl>
                      
                      
                      
-                  <bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens. Bibliothèque nationale. Département des manuscrits.</title> Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f90">p. 71, no. 506</ref>.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. 1866-. <title> Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f247">f. 116r, no. 509</ref>. </bibl></listBibl>
+                  <bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens. Bibliothèque nationale. Département des manuscrits.</title> Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f90">p. 71, no. 509</ref>.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. 1866-. <title> Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f247">f. 116r, no. 509</ref>. </bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      
+   <encodingDesc><p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.            </p></encodingDesc><revisionDesc>
          
          
-      <change when="2022-03">Record created by Emmanuel FRANCIS.</change></revisionDesc>
-   <encodingDesc><p>TBC</p></encodingDesc></teiHeader>
+      <change when="2022-03">Record created by Emmanuel FRANCIS.</change><change when="2022-07">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, July 2022.</change></revisionDesc></teiHeader>
    <facsimile>
       
    </facsimile>
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
-  
+  <ab>
+    
   <pb n="[1]r"/>
-  <milestone n="1" unit="column"/>
-  <lb n="1"/><seg function="blessing">civa-mayam</seg>
- <lb n="2-3"/><seg function="blessing">me<choice><sic><unclear>ñ</unclear>cā</sic><corr>yññā</corr></choice>ṉa-kuruvē tuṇai</seg>
+    <seg function="header">
+  <seg function="blessing"><milestone n="1" unit="column"/>
+  <lb n="1"/>civa-mayam</seg>
+ <seg function="blessing"><lb n="2-3"/>me<choice><sic><unclear>ñ</unclear>cā</sic><corr>yññā</corr></choice>ṉa-kuruvē tuṇai</seg>
+      </seg>
   
-   <milestone n="2" unit="column"/>
-  <lb n="1"/><seg function="title">civapōkacāram</seg>
-<lb n="2"/><seg function="title">nātānta Aṇṭa tericaṉam</seg>
-<lb n="3"/><seg function="title">pañcāṣcāviti</seg>
-<lb n="4"/><seg function="title"><del>civappirakācar tattuvakaṭṭaḷai</del></seg>
+   <seg function="table-of-contents">
+     <seg function="title"><milestone n="2" unit="column"/>
+  <lb n="1"/>civapōkacāram</seg>
+<seg function="title"><lb n="2"/>nātānta Aṇṭa tericaṉam</seg>
+<seg function="title"><lb n="3"/>pañcāṣcāviti</seg>
+<seg function="title"><lb n="4"/><del>civappirakācar tattuvakaṭṭaḷai</del></seg>
   
-   <milestone n="3" unit="column"/>
-  <lb n="1"/><seg function="title">tiruvālavāykkaṭṭaḷai</seg>
-<lb n="2"/><seg function="blessing">śrī-rāma-ceyam<note xml:lang="en">another hand; addition</note></seg>
+   <seg function="title"><milestone n="3" unit="column"/>
+  <lb n="1"/>tiruvālavāykkaṭṭaḷai</seg></seg>
+<seg function="blessing"><lb n="2"/>śrī-rāma-ceyam<note xml:lang="en">another hand; addition</note></seg>
 
 <pb n="[1]r"/><note xml:lang="en">blank</note>                 
   
+    </ab>
   </body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
-  
+  <ab>
+    
   <pb n="[1]r"/>
-  <milestone n="1" unit="column"/>
-  <lb n="1"/><seg function="blessing">civa-maya=M=<g ref="#pcs"/></seg>
+    <seg function="header">
+  <seg function="blessing"><milestone n="1" unit="column"/>
+  <lb n="1"/>civa-maya=M=<g ref="#pcs"/></seg>
+      </seg>
   
-   <milestone n="2" unit="column"/>
-  <lb n="1"/><seg function="title">civapōkacāram</seg>
-<lb n="2"/><seg function="title">nātānta Aṇṭa tericaṉam</seg>
-<lb n="3"/><seg function="title">pañcā<unclear>ṣā</unclear>viti</seg>
-<lb n="4"/><seg function="title">tiruvālavāykkaṭṭaḷai</seg>
+   <seg function="table-of-contents">
+     <seg function="title"><milestone n="2" unit="column"/>
+  <lb n="1"/>civapōkacāram</seg>
+<seg function="title"><lb n="2"/>nātānta Aṇṭa tericaṉam</seg>
+<seg function="title"><lb n="3"/>pañcā<unclear>ṣā</unclear>viti</seg>
+<seg function="title"><lb n="4"/>tiruvālavāykkaṭṭaḷai</seg>
   
    <milestone n="3" unit="column"/>
-  <lb n="1"/>Itukaḷ irukkiṉṟa<choice><sic>ḷ</sic><corr>ṉa</corr></choice>
+  <lb n="1"/>Itukaḷ irukkiṉṟa<choice><sic>ḷa</sic><corr>ṉa</corr></choice></seg>
 
 <pb n="[1]r"/><note xml:lang="en">blank</note>                 
   
+    </ab>
   </body></text><text synch="#U3a" corresp="#T3" xml:lang="ta"><body>
-  
+  <ab>
+    
   <pb facs="0" n="1r"/>
-  <milestone unit="left-margin"/>
-  <lb n="1"/><seg function="blessing">naṉṟāka</seg>
+  <seg function="header">
+    <seg function="blessing"><milestone unit="left-margin"/>
+  <lb n="1"/>naṉṟāka</seg>
     <lb n="2-3"/><seg function="title">civapōkacāram</seg>
+    </seg>
   
-   <milestone unit="main-text-area"/>
-  <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
+   <seg function="incipit"><milestone unit="main-text-area"/>
+  <lb n="1"/><gap reason="ellipsis"/></seg>
 
 <pb n="15v"/>
-  <lb n="2"/><seg function="explicit"><gap reason="ellipsis"/> <g ref="#pcs"/> 99 <g ref="#pcs"/></seg> <seg function="blessing">tirucciṟṟampalam <g ref="#pcs"/></seg> <seg function="blessing">kuruvē
+  <seg function="explicit"><lb n="2"/><gap reason="ellipsis"/> <g ref="#pcs"/> 99 <g ref="#pcs"/></seg> <seg function="blessing">tirucciṟṟampalam <g ref="#pcs"/></seg> <seg function="blessing">kuruvē
   <lb n="3"/>namā <g ref="#pcs"/></seg> <seg function="blessing">civāṉanta-caṟkuruṉātaṉ tiruvaṭikaḷiḷē caraṇam <g ref="#pcs"/> <g ref="#pcs"/></seg>
            
-  
+  </ab>
   </body></text><text synch="#U3b" corresp="#T4" xml:lang="ta"><body>
-  
+  <ab>
    
   <pb facs="0" n="16r"/>
-  <milestone unit="left-margin"/>
-    <lb n="1-4"/><seg function="title">nātānta Aṇṭa tericaṉam <g ref="#pcs"/></seg>
+  <seg function="header">
+    <seg function="title"><milestone unit="left-margin"/>
+    <lb n="1-4"/>nātānta Aṇṭa tericaṉam <g ref="#pcs"/></seg>
+    </seg>
   
-   <milestone unit="main-text-area"/>
-  <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
+   <seg function="incipit"><milestone unit="main-text-area"/>
+  <lb n="1"/><gap reason="ellipsis"/></seg>
   
   <pb facs="0" n="16v"/>
-    <lb n="4"/><seg function="incipit"><gap reason="ellipsis"/> <g ref="#pcs"/> 3 <g ref="#pcs"/></seg> <seg function="completion-statement">nātānta Aṇṭa tericaṉam muṟṟum <g ref="#pcs"/> <seg function="blessing">civamaya=M=<g ref="#pcs"/></seg></seg>
+    <seg function="explicit"><lb n="4"/><gap reason="ellipsis"/> <g ref="#pcs"/> 3 <g ref="#pcs"/></seg> <seg function="completion-statement">nātānta Aṇṭa tericaṉam muṟṟum <g ref="#pcs"/> <seg function="blessing">civamaya=M=<g ref="#pcs"/></seg></seg>
   
-
+</ab>
   </body></text><text synch="#U3c" corresp="#T5" xml:lang="ta"><body>
-   
+   <ab>
+     
   <pb facs="0" n="17r"/>
-  <milestone unit="left-margin"/>
-    <lb n="1-2"/><seg function="title">pañcāṣṣāviti</seg>
+     <seg function="header">
+  <seg function="title"><milestone unit="left-margin"/>
+    <lb n="1-2"/>pañcāṣṣāviti</seg></seg>
   
-   <milestone unit="main-text-area"/>
-  <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
+   <seg function="incipit"><milestone unit="main-text-area"/>
+  <lb n="1"/><gap reason="ellipsis"/></seg>
   
    <pb facs="0" n="18v"/>
-  <milestone unit="left-margin"/>
-    <lb n="5"/><seg function="explicit"><gap reason="ellipsis"/> <g ref="#pcs"/> 7 <g ref="#pcs"/></seg> <seg function="completion-statement">pañcāṣṣāviti muṟṟum <g ref="#pcs"/> <seg function="blessing">civamayam ~</seg> <seg function="blessing">tirucciṟṟampalam <g ref="#pcl"/></seg></seg>
-  
+  <seg function="explicit"><milestone unit="left-margin"/>
+    <lb n="5"/><gap reason="ellipsis"/> <g ref="#pcs"/> 7 <g ref="#pcs"/></seg> <seg function="completion-statement">pañcāṣṣāviti muṟṟum <g ref="#pcs"/> <seg function="blessing">civamayam ~</seg> <seg function="blessing">tirucciṟṟampalam <g ref="#pcl"/></seg></seg>
+     
+  </ab>
     </body></text><text synch="#U3d" corresp="#T6" xml:lang="ta"><body>
-  
+  <ab>
   
   <pb facs="0" n="19r"/>
-  <milestone unit="left-margin"/>
-    <lb n="1-3"/><seg function="title">tattuvakkaṭṭaḷai <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/></seg>
+    <seg function="header">
+  <seg function="title"><milestone unit="left-margin"/>
+    <lb n="1-3"/>tattuvakkaṭṭaḷai <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/></seg>
+      </seg>
   
-   <milestone unit="main-text-area"/>
-  <lb n="1"/><seg function="incipit"><gap reason="ellipsis"/></seg>
+   <seg function="incipit"><milestone unit="main-text-area"/>
+  <lb n="1"/><gap reason="ellipsis"/></seg>
   
   <pb facs="0" n="50v"/>
-      <lb n="5"/><seg function="explicit"><gap reason="ellipsis"/> ṟārē <g ref="#pcs"/> <g ref="#pattu"/>7 <g ref="#pcs"/></seg> <seg function="colophon">tirumūlacuvāmiyār coṉṉa tattuvakkaṭṭaḷaiyuṅ tirumantiram ~ 7<g ref="#pattu"/>7 ~ m mukintatu
-        <lb n="6"/>muṟṟum <g ref="#pcs"/> <seg function="blessing">civamaya=M</seg> caṟuvatāri {varuṣam} cittirai {mācam} <g ref="#pattu"/>1 {tēti} cōmavāram puṉarpuca-naṣcattiram kūṭiṉa cupatiṉattil paramāṉantam <gap reason="ellipsis"/> poru
+      <seg function="explicit"><lb n="5"/><gap reason="ellipsis"/> ṟārē <g ref="#pcs"/> <g ref="#pattu"/>7 <g ref="#pcs"/></seg> <seg function="colophon"><seg function="completion-statement">tirumūlacuvāmiyār coṉṉa tattuvakkaṭṭaḷaiyuṅ tirumantiram ~ 7<g ref="#pattu"/>7 ~ m mukintatu
+        <lb n="6"/>muṟṟum <g ref="#pcs"/></seg> <seg function="blessing">civamaya=M</seg> <seg function="copy-statement">caṟuvatāri {varuṣam} cittirai {mācam} <g ref="#pattu"/>1 {tēti} cōmavāram puṉarpuca-naṣcattiram kūṭiṉa cupatiṉattil paramāṉantam <gap reason="ellipsis"/> poru
 
   <pb facs="0" n="51r" break="no"/>
       <lb n="1"/>ḷ aṟiyum poṟuṭṭu <seg function="total-stanzas">civapōkacāram pāṭal ~ <g ref="#nūṟu"/> ~ nātānta Aṇṭa tericaṉam pāṭal ~ 3 ~ pañcāṣcāviti pāṭal ~ 7 ~ tirumūlacuvā
-<lb n="2"/>miyār tattuvakkaṭṭaḷai ~ tirumantiram pāṭal ~ 77 ~</seg> m ~ <gap reason="ellipsis"/> taṉ kaiyāl Eḻutiyat<gap reason="ellipsis"/>
-<lb n="3"/><seg function="blessing">civa-mayam –</seg> <seg function="blessing">me<supplied reason="omitted">y</supplied>ññāṉa-tēcika-kuru-kiṭāṣcam Uṇṭākavu=M <g ref="#pcs"/></seg> <seg function="blessing">kuruvē tuṇai <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/></seg> <seg function="blessing">paramāṉantam<note xml:lang="en">this word is encircled</note></seg></seg>
+<lb n="2"/>miyār tattuvakkaṭṭaḷai ~ tirumantiram pāṭal ~ 77 ~</seg> m ~ <gap reason="ellipsis"/> taṉ kaiyāl Eḻutiyat<gap reason="ellipsis"/></seg>
+<seg function="blessing"><lb n="3"/>civa-mayam –</seg> <seg function="blessing">me<supplied reason="omitted">y</supplied>ññāṉa-tēcika-kuru-kiṭāṣcam Uṇṭākavu=M <g ref="#pcs"/></seg> <seg function="blessing">kuruvē tuṇai <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/></seg> <seg function="blessing">paramāṉantam <note xml:lang="en">this word is encircled</note></seg></seg>
 
     <pb facs="0" n="51v"/><note xml:lang="en">blank</note>                 
   
+    </ab>
   </body></text></TEI>
