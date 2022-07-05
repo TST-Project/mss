@@ -21,14 +21,17 @@
                   <idno type="alternate"><idno>Sanscrit Grantha 36</idno><idno>Burnouf 58</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc97340c</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/z890s144p</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary>The <title xml:lang="sa">Amarakośa</title> with annotations in Tamil. Entitled <title xml:lang="sa">Amarapañcikā</title>. On similar copies of the <title xml:lang="ta">Amarakośa</title> with annotations in Tamil, see Ciotti (2017), Ciotti &amp; Sathyanarayanan (2020).</summary>
+                  <summary><p>The <title xml:lang="sa">Amarakośa</title> with annotations in Tamil. Entitled <title xml:lang="sa">Amarapañcikā</title>. On similar copies of the <title xml:lang="ta">Amarakośa</title> with annotations in Tamil, see Ciotti (2017), Ciotti &amp; Sathyanarayanan (2020).</p>
+   
+<p>Description based on the examination of the original manuscript (March and April 2022).</p>  
+<p>Dimensions assessed at the time of examination.</p>      </summary>
                   
                <msItem synch="#U2" xml:id="T1" defective="false"><title xml:lang="sa">Amarapañcikā</title><author xml:lang="sa">Veṅkaṭeśvara</author><textLang mainLang="san" otherLangs="tam"/><filiation><p>IFP (Pondicherry) RE22704, RE45807, etc. See Ciotti (2017).</p></filiation></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi">
+                  <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
                         <support>
-                           <measure unit="stringhole" quantity="2"/>
+                           
                            
                         <p>Rounded edges.</p></support>
                         <extent>
@@ -46,13 +49,13 @@
                         
                      <layout columns="1"/></layoutDesc>
                   </objectDesc>
-                  <handDesc><handNote synch="#U2" scope="major" scribeRef="#DuclerScribe" script="grantha tamil" medium="incised soot"/></handDesc>
+                  <handDesc><handNote synch="#U2" scope="major" script="grantha tamil" medium="incised soot"><desc><persName role="scribe">Ducler's scribe</persName>.</desc></handNote></handDesc>
                   <decoDesc>
                   </decoDesc>
                   <additions>
-                  <desc synch="#cover" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>SANSCRIT 613</quote> (<locus facs="4">front cover, recto</locus>). </desc><desc synch="#cover" type="shelfmark" subtype="cover front">Tamil letter <quote xml:lang="ta">Ō</quote> engraved (<locus facs="7">front cover, verso</locus> and <locus facs="8">back cover, recto</locus>).</desc></additions>
+                  <desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>SANSCRIT 613</quote> (<locus facs="4">front cover, recto</locus>). </desc><desc synch="#CoverFront" type="shelfmark" subtype="cover front">Tamil letter <quote xml:lang="ta">Ō</quote> engraved (<locus facs="7">front cover, verso</locus> and <locus facs="8">back cover, recto</locus>).</desc></additions>
                   <bindingDesc>
-                     <binding><p>Original <material>ebony</material> covers. 295 x 30 mm.</p></binding>
+                     <binding><p>Original <material>ebony</material> covers. 295 x 30 mm.</p><decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
                   </bindingDesc>
                </physDesc>
                <history>
@@ -66,93 +69,94 @@
                <additional>
                   <listBibl>
                      
-                  <bibl>Cabaton, A. 1907. <title>Catalogue sommaire des manuscrits sanscrits et pālis. 1er fascicule. Manuscrits sanscrits. Bibliothèque Nationale, Département des manuscrits.</title>. Paris: Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10536321f/f117">p. 101, no. 613</ref>.</bibl><bibl>Ciotti, Giovanni (2017). <title type="article">Teaching and Learning Sanskrit through Tamil Evidence from Manuscripts of the Amarakośa with Tamil Annotations (Studies in Late Manipravalam Literature 2)</title>. In: Vincenzo Vergiani, Daniele Cuneo &amp; Camillo Alessio Formigatti (ed.), <title>Indic Manuscript Cultures through the Ages: Material, Textual, and Historical Investigations</title> (pp. 193–222). Berlin, Boston: De Gruyter.</bibl><bibl>Ciotti, Giovanni &amp; R. Sathyanarayanan (2020). <title type="article">A multilingual Commentary of the First Verse of the Nāmaliṅgānuśāsana as found in ms. IFP RE22704 (Studies in Late Tamil Manipravalam Literature 1)</title>. In: Suganya Anandakichenin and Victor B. D’Avella (ed.), <title>The Commentary Idioms of the Tamil Learned Traditions</title> (pp. 443–489). Pondicherry: IFP/EFEO.</bibl><bibl>Rodet, Léon &amp; Feer, Léon. 1872-. <title>Catalogue des manuscrits sanscrits en écriture grantha</title>. Manuscript, BnF Sanscrit 1775.1. — See <ref target=" https://gallica.bnf.fr/ark:/12148/btv1b10536323b/f39">f. 16r, no. 36</ref>. </bibl><bibl>S.n. 1854. <title>Catalogue des livres imprimés et manuscrits composant la bibliothèque de feu M. Eugène Burnouf</title>. Paris: Duprat. — See <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k5804580x/f336">p. 327, no. 58</ref>.</bibl></listBibl>
+                  <bibl>Cabaton, A. 1907. <title>Catalogue sommaire des manuscrits sanscrits et pālis. 1er fascicule. Manuscrits sanscrits. Bibliothèque Nationale, Département des manuscrits.</title>. Paris: Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10536321f/f117">p. 101, no. 613</ref>.</bibl><bibl>Ciotti, Giovanni. 2017. <title type="article">Teaching and Learning Sanskrit through Tamil Evidence from Manuscripts of the Amarakośa with Tamil Annotations (Studies in Late Manipravalam Literature 2)</title>. In: Vincenzo Vergiani, Daniele Cuneo &amp; Camillo Alessio Formigatti (ed.), <title>Indic Manuscript Cultures through the Ages: Material, Textual, and Historical Investigations</title> (pp. 193–222). Berlin, Boston: De Gruyter.</bibl><bibl>Ciotti, Giovanni &amp; R. Sathyanarayanan. 2020. <title type="article">A multilingual Commentary of the First Verse of the Nāmaliṅgānuśāsana as found in ms. IFP RE22704 (Studies in Late Tamil Manipravalam Literature 1)</title>. In: Suganya Anandakichenin and Victor B. D’Avella (ed.), <title>The Commentary Idioms of the Tamil Learned Traditions</title> (pp. 443–489). Pondicherry: IFP/EFEO.</bibl><bibl>Rodet, Léon &amp; Feer, Léon. 1872-. <title>Catalogue des manuscrits sanscrits en écriture grantha</title>. Manuscript, BnF Sanscrit 1775.1. — See <ref target=" https://gallica.bnf.fr/ark:/12148/btv1b10536323b/f39">f. 16r, no. 36</ref>. </bibl><bibl>S.n. 1854. <title>Catalogue des livres imprimés et manuscrits composant la bibliothèque de feu M. Eugène Burnouf</title>. Paris: Duprat. — See <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k5804580x/f336">p. 327, no. 58</ref>.</bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          
-      <p><emph rend="bold">Transliteration conventions</emph> ― Uppercase for initial vowels (in excerpts only). ― <emph rend="bold">Abbreviations</emph> ― c = column, f = folio, lf = library foliation = lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso.      </p></encodingDesc>
-      <revisionDesc>
+      <p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.            </p></encodingDesc>
+      
+   <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
-      <change when="2022-03">Record created by Emmanuel FRANCIS.</change></revisionDesc>
-   <xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
+      <change when="2022-03">Record created by Emmanuel FRANCIS.</change></revisionDesc></teiHeader>
    <facsimile>
    <graphic url="https://didomena.ehess.fr/concern/data_sets/z890s144p/manifest.json"/></facsimile>
 <text synch="#U2" corresp="#T1" xml:lang="sa"><body>
-  
+  <ab>
+    
   <pb facs="10" n="1r"/>
   
-  <milestone unit="left-margin"/>
-   <lb n="1-2"/><seg function="blessing">hariḥ Om·</seg>
+  <seg function="blessing"><milestone unit="left-margin"/>
+   <lb n="1-2"/>hariḥ Om·</seg>
   
-  <milestone facs="11" n="1" unit="column"/>
-  <lb n="1"/><seg function="incipit">svaḥ ~ Avyayaṃ ~ svargaḥ
+  <seg function="incipit"><milestone n="1" unit="column"/>
+  <lb n="1"/>svaḥ ~ Avyayaṃ ~ svargaḥ
 <lb n="2"/>nākāḥ ~ tridivaḥ ~
 <lb n="3"/>tradaśālayāḥ ~</seg>
 <lb n="4"/>suralokaḥ ~ 
 <lb n="5"/>dyauḥ ~ dyauḥ ~ dve
 
-  <milestone facs="12" n="2" unit="column"/>
+  <milestone n="2" unit="column"/>
   <lb n="1-5"/><gap reason="ellipsis"/>
     
-  <milestone facs="13" n="2" unit="column"/>
+  <milestone n="2" unit="column"/>
   <lb n="1-5"/><gap reason="ellipsis"/>
   
   <pb facs="16" n="48v"/>
   
-   <milestone facs="17" n="1" unit="column"/>
+   <milestone n="1" unit="column"/>
   <lb n="1-5"/><gap reason="ellipsis"/>
   
-  <milestone facs="18" n="2" unit="column"/>
+  <milestone n="2" unit="column"/>
   <lb n="1"/>yāṉatu collappaṭu<add place="above">va</add>t<pc>’</pc> eṉṟa v<pc>-</pc>āṟu ~
-<lb n="2"/><seg function="completion-statement">Ity amarasiṃhakṛtau ~ nāmaliṃgānu ~
+<seg function="completion-statement"><lb n="2"/>Ity amarasiṃhakṛtau ~ nāmaliṃgānu ~
 <lb n="3" break="no"/>śāsane ~ svarādiḥ ~ prathamaḥ | kāṇḍaḥ ~
 <lb n="4"/><subst>s<del>a</del><add>ā</add></subst>ṃgaḥ ~ Eva ~ samurtthitaḥ ~
 <lb n="5"/>prathamaḥ ~ kāṇdhas samāptaḥ | <g ref="#pcl"/>
 
-  <milestone facs="19" n="3" unit="column"/>
-  <lb n="1"/><seg function="blessing">hariḥ Om· ~</seg> <seg function="blessing">śubham astu=<g ref="#pcs"/></seg>
-<lb n="2"/><seg function="blessing">Avighnam astu=<g ref="#pcs"/></seg>
-<lb n="3"/><seg function="blessing">maṃgaḷaṃ ~ bhagavan· ~viṣ<choice><sic>ṇa</sic><corr>ṇu</corr></choice>ḥ
+  <milestone n="3" unit="column"/>
+  <seg function="blessing"><lb n="1"/>hariḥ Om· ~</seg> <seg function="blessing">śubham astu=<g ref="#pcs"/></seg>
+<seg function="blessing"><lb n="2"/>Avighnam astu=<g ref="#pcs"/></seg>
+<seg function="blessing"><lb n="3"/>maṃgaḷaṃ ~ bhagavan· ~viṣ<choice><sic>ṇa</sic><corr>ṇu</corr></choice>ḥ
 <lb n="4"/>maṃga<supplied reason="omitted">ḷa</supplied>ṃ ~ madhusudhanaḥ ~
 <lb n="5"/>maṃgaḷaṃ <g ref="#pcl"/></seg></seg>
 
   <pb facs="20" n="49r"/>
-  <milestone unit="left-margin"/>
-   <lb n="1-2"/><seg function="blessing">hariḥ Om· ~</seg>
+  <seg function="blessing"><milestone unit="left-margin"/>
+   <lb n="1-2"/>hariḥ Om· ~</seg>
   
-    <milestone facs="00" n="1" unit="column"/>
+    <milestone n="1" unit="column"/>
   <lb n="1"/>vargāḥ ~ pṛthivī ~ pura <term xml:lang="en">{line-filler: ḥ}</term>
   <lb n="2" break="no"/>kṣṃabhṛt· ~ vanauṣadhi <term xml:lang="en">{line-filler: ḥ}</term>
   <lb n="3" break="no"/>mṛhādibhiḥ ~<gap reason="ellipsis"/>
   <lb n="4-5"/><gap reason="ellipsis"/>
   
   <pb facs="25" n="173v"/>
-  <milestone facs="26" n="1" unit="column"/>
+  <milestone n="1" unit="column"/>
   <lb n="1-3"/><gap reason="ellipsis"/>
   <lb n="4"/>Aṣṭāpadaḥ ~ śāriphala
 <lb n="5"/>kilippēccu ~ <seg function="completion-statement">Iti śūdravargaḥ |
   
-  <milestone facs="27" n="2" unit="column"/>
+  <milestone n="2" unit="column"/>
   <lb n="1"/>Ity amarasi<sic>hma</sic>kṛtau nāmiliṃgānuśāsane ~
 <lb n="2"/>tritīyaḥ ~ dvitīyaḥ kāṇdaḥ ~ samāptaḥ ~
-<lb n="3"/><seg function="blessing">lakṣmī-kaṭāksaṃ ~</seg> <seg function="blessing">sarasvatī-sahāyaṃ ~</seg>
-<lb n="4"/><seg function="blessing">hariḥ ~ om· ~ ~</seg> <seg function="blessing">saubhāgyam astu ~</seg> <seg function="blessing">Om· ~ ~</seg>
+<seg function="blessing"><lb n="3"/>lakṣmī-kaṭāksaṃ ~</seg> <seg function="blessing">sarasvatī-sahāyaṃ ~</seg>
+<seg function="blessing"><lb n="4"/>hariḥ ~ om· ~ ~</seg> <seg function="blessing">saubhāgyam astu ~</seg> <seg function="blessing">Om· ~ ~</seg>
  
-  <milestone facs="28" n="3" unit="column"/>
-  <lb n="1"/><seg function="blessing">sarveśvarāya <choice><orig>nma</orig><reg>nama</reg></choice>ḥ ~</seg>
+  <seg function="blessing"><milestone n="3" unit="column"/>
+  <lb n="1"/>sarveśvarāya <choice><orig>nma</orig><reg>nama</reg></choice>ḥ ~</seg>
 <lb n="2"/>Idaṃ pustakaṃ ~
 <lb n="3"/>samāptaṃ ~ yinda pusta
 <lb n="4"/>kaṃ mukintutu ~
-<lb n="5"/><seg function="blessing">śubham astu=<g ref="#pcs"/></seg></seg>
+<seg function="blessing"><lb n="5"/>śubham astu=<g ref="#pcs"/></seg></seg>
   
   <pb facs="24" n="174r"/>
-  <milestone facs="29" unit="left-margin"/>
-   <lb n="1-2"/><seg function="blessing">hariḥ Om·</seg>
+  <seg function="blessing"><milestone unit="left-margin"/>
+   <lb n="1-2"/>hariḥ Om·</seg>
   
-  <milestone facs="00" n="1" unit="column"/>
+  <milestone n="1" unit="column"/>
   <lb n="1"/>sukṛtī ~ puṇyavān· ~
   <lb n="2"/>dhanyaḥ ~ nu ~  puṇyavān· ~ 
   <lb n="3"/>mahe<sic>chśa</sic>ḥ ~ tu 
@@ -161,38 +165,38 @@
   
   <pb facs="33" n="266v"/>
   
-  <milestone facs="35" n="2" unit="column"/>
-  <lb n="1-5"/><seg function="explicit"><gap reason="ellipsis"/></seg>
+  <seg function="explicit"><milestone n="2" unit="column"/>
+  <lb n="1-5"/><gap reason="ellipsis"/></seg>
   
-  <milestone facs="36" n="3" unit="column"/>
-  <lb n="1"/><seg function="colophon">Ity śrīmat·-kauśika-veṃ
+  <milestone n="3" unit="column"/>
+  <seg function="colophon"><seg function="completion-statement"><lb n="1"/>Ity śrīmat·-kauśika-veṃ
 <lb n="2"/>kaṭeśvara-viracitāyāṃ
 <lb n="3"/>Amarapañcikāyāṃ ~
-<lb n="4"/>nā<unclear reason="consonant_unclear">nā</unclear>rtthavargaḥ ~ samāptaḥ ~ |
+<lb n="4"/>nā<unclear reason="consonant_unclear">nā</unclear>rtthavargaḥ ~ samāptaḥ ~ |</seg>
 <lb n="5"/><g ref="#pcl"/> <seg function="blessing">hariḥ ~ Om ~</seg> <seg function="blessing">śubhaṃ | <g ref="#pcl"/></seg>
 
     <pb facs="32" n="267r"/>
-  <milestone facs="37" n="1" unit="column"/>
+  <milestone n="1" unit="column"/>
   <lb n="1"/>Ity amarasiṃha-kṛtau
 <lb n="2"/>nāmaliṅgānuśā
 <lb n="3" break="no"/>sane nāmaliṃga
 <lb n="4" break="no"/>śāstre tṛtīyaḥ ~ kāṇḍaḥ
 
-  
-  <milestone facs="38" n="2" unit="column"/>
+  <seg function="copy-statement">
+  <milestone n="2" unit="column"/>
   <lb n="1"/>khara <surplus>va</surplus> {varuṣam} Aṟpici mācam 8 {tēti}
 <lb n="2"/>putaṅkiḻamai pakal 10 8 ṉāḻi
 <lb n="3"/>kaiyil Amarasi<sic>hma</sic>ttiṉuṭaiyar ~
-<lb n="4"/>kāṇḍamum mukintutu ~ <g ref="#pcl"/>
+<lb n="4"/>kāṇḍamum mukintutu ~ <g ref="#pcl"/></seg>
 
-    <milestone facs="39" n="3" unit="column"/>
-  <lb n="1"/><seg function="blessing">maṃgaḷāni bhavantu=<g ref="#pcl"/></seg>
-<lb n="2"/><seg function="blessing">Aṣṭalakṣmī-kaṭākṣa-si
+    <seg function="blessing"><milestone n="3" unit="column"/>
+  <lb n="1"/>maṃgaḷāni bhavantu=<g ref="#pcl"/></seg>
+<seg function="blessing"><lb n="2"/>Aṣṭalakṣmī-kaṭākṣa-si
 <lb n="3"/>ddhir astu ~</seg> <seg function="TBC">Idaṃ pu
 <lb n="4" break="no"/>stakaṃ sarvottamaṃ ~</seg>
-<lb n="5"/><seg function="blessing">hariḥ ~ Om ~ <g ref="#pcl"/></seg></seg>
+<seg function="blessing"><lb n="5"/>hariḥ ~ Om ~ <g ref="#pcl"/></seg></seg>
 
-  
-    <pb facs="00" n="267v"/><note xml:lang="en">blank</note>
+      <pb n="267v"/><note xml:lang="en">blank</note>
 
+    </ab>
   </body></text></TEI>

@@ -21,14 +21,17 @@
                   <idno type="alternate"><idno>Sanscrit Grantha 17</idno><idno>Burnouf 62</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc977441</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary>The <title xml:lang="sa">Bhojaprabandha</title> by <persName xml:lang="sa" role="author">Ballāla</persName>.</summary>
+                  <summary><p>The <title xml:lang="sa">Bhojaprabandha</title> by <persName xml:lang="sa" role="author">Ballāla</persName>.</p>
+   
+<p>Description based on the examination of the original manuscript (March 2022).</p>  
+<p>Dimensions assessed at the time of examination.</p>      </summary>
                   
                <msItem synch="#U2" xml:id="T1" defective="false"><title xml:lang="sa">Bhojaprabandha</title><textLang mainLang="san"/></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi">
+                  <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
                         <support>
-                           <measure unit="stringhole" quantity="2"/>
+                           
                            
                         <p>Rounded edges.</p></support>
                         <extent>
@@ -50,15 +53,17 @@
                   <decoDesc>
                   </decoDesc>
                   <additions>
-                  <desc synch="#cover" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>SANSCRIT 711</quote> (<locus facs="0">front cover, recto</locus>).</desc><desc synch="#cover" type="documenting-note">Sticker with note by Burnouf in black ink: <quote xml:lang="fr"><lb n="1"/>Bhôjaprabandha
+                  <desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>SANSCRIT 711</quote> (<locus facs="0">front cover, recto</locus>).</desc><desc synch="#CoverFront" type="commenting-note" subtype="cover front">Note by Burnouf in black ink a <locus facs="0">sheet of paper</locus> glued on front cover, recto:
+<quote xml:lang="fr" rend="block">
+  <lb n="1"/>Bhôjaprabandha
 <lb n="2"/>Histoire du célèbre Râdja Bhôdja, 
 <lb n="3"/>en sanscrit et en caractères tamouls,
 <lb n="4"/>manuscrit beau et complet d'un ouvrage
 <lb n="5"/>souvent cité dans l'Inde, et
 <lb n="6"/>dont il n'existe pas, à ma connaissance,
-<lb n="7"/>un autre manuscrit en France.</quote> (<locus facs="0">front cover, verso</locus>).  Followed by bumber 62 in black pencil. The same description is found in s.n. (1854), <title>Catalogue des livres imprimés et manuscrits composant la bibliothèque de feu M. Eugène Burnouf</title>, <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k5804580x/f337">p. 327, no. 62</ref>.</desc><desc synch="#cover" type="shelfmark" subtype="back cover front">Tamil letter: <quote xml:lang="ta">Ai</quote> (<locus facs="0">front cover, verso</locus> and <locus facs="0">back cover, verso</locus>).</desc><desc synch="#U1" type="documenting-note">Note in black ink: <quote xml:lang="fr"><lb n="1"/>Volume de 111 Feuillets <lb n="2"/>24 septembre 1885</quote> (<locus facs="0">f[4]r</locus>).</desc></additions>
+<lb n="7"/>un autre manuscrit en France.</quote>  Followed by bumber 62 in black pencil. The same description is found in s.n. (1854), <title>Catalogue des livres imprimés et manuscrits composant la bibliothèque de feu M. Eugène Burnouf</title>, <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k5804580x/f337">p. 327, no. 62</ref>.</desc><desc synch="#CoverFront #CoverBack" type="shelfmark" subtype="back cover front">Tamil letter: <quote xml:lang="ta">Ai</quote> (<locus facs="0">front cover, verso</locus> and <locus facs="0">back cover, verso</locus>).</desc><desc synch="#U1" type="documenting-note">Note in black ink: <quote xml:lang="fr"><lb n="1"/>Volume de 111 Feuillets <lb n="2"/>24 septembre 1885</quote> (<locus facs="0">f[4]r</locus>). The same hand wrote the same kind of information in the volumes of Ariel Papers.</desc></additions>
                   <bindingDesc>
-                     <binding><p>Original <material>ebony</material> covers. 370 x 35 mm.</p></binding>
+                     <binding><p>Original <material>ebony</material> covers. 370 x 35 mm.</p><decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
                   </bindingDesc>
                </physDesc>
                <history>
@@ -79,27 +84,31 @@
       </fileDesc>
       <encodingDesc>
          
-      <p>TBC</p></encodingDesc>
-      <revisionDesc>
+      <p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.            </p></encodingDesc>
+      
+   <revisionDesc>
          
-      <change when="2022-03">Record created by Emmanuel FRANCIS.</change></revisionDesc>
-   </teiHeader>
+      <change when="2022-03">Record created by Emmanuel FRANCIS.</change></revisionDesc></teiHeader>
    <facsimile>
    </facsimile>
 <text synch="#U2" corresp="#T1" xml:lang="sa"><body>
-  
+  <ab>
+    
   <pb facs="0" n="1r"/>
+  <seg function="header">
+  <seg function="blessing"><milestone unit="left-margin"/>
+  <lb n="1-2"/>hariḥ Om·</seg>
+  <seg function="blessing"><lb n="3-4"/>śubham astu</seg>
+    </seg>
   
-  <milestone unit="left-margin"/>
-  <lb n="1-2"/><seg function="blessing">hariḥ Om·</seg>
-  <lb n="3-4"/><seg function="blessing">śubham astu</seg>
-  
-  <milestone unit="main-text-area"/>
-  <lb n="1"/><seg function="incipit">svasti śrī mahārājādhirājasya bhojasya prabandhaḥ kathyate | Ādau dhārārājye sindhulasaṃjñaḥ rājā
+  <seg function="incipit"><milestone unit="main-text-area"/>
+  <lb n="1"/>svasti śrī mahārājādhirājasya bhojasya prabandhaḥ kathyate | Ādau dhārārājye sindhulasaṃjñaḥ rājā
 <lb n="2"/>ciraṃ prajāḥ paryapālayat· |</seg> <gap reason="ellipsis"/> 
   
   <pb facs="0" n="111r"/>
-  <lb n="6"/><seg function="explicit"><gap reason="ellipsis"/> bhoja-bhūpālaḥ <g ref="#pcl"/> <title xml:lang="sa">bhojacaritraṃ</title> | <g ref="#pcl"/></seg>
+  <seg function="explicit"><lb n="6"/><gap reason="ellipsis"/> bhoja-bhūpālaḥ <g ref="#pcl"/> <title xml:lang="sa">bhojacaritraṃ</title> | <g ref="#pcl"/></seg>
+    
   <pb facs="0" n="111v"/><note xml:lang="en">blank</note>
 
+    </ab>
     </body></text></TEI>

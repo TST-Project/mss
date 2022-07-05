@@ -18,16 +18,16 @@
                   </repository>
                   <idno type="shelfmark">Sanscrit 1089c</idno>
                   <idno type="alternate"><idno>Burnouf 2717</idno></idno>
-               </msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc100088c</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/w3763b49p</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary>The French constitution of 1848, translated into Tamil by <persName>Nārāyaṇacāmi</persName>.</summary>
+                  <summary><p>The French constitution of 1848, translated into Tamil by <persName xml:lang="ta" role="translator">Nārāyaṇacāmi</persName>.</p></summary>
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">pirāñcukkuṭiyaraciṉ Ēṟpāṭu</title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
-                  <objectDesc form="loose-leaf">
+                  <objectDesc form="poster" rend="movable-type">
                      <supportDesc material="paper">
                         <extent>
-                           <measure unit="folio" quantity="1">[1] (U1).</measure>
+                           <measure unit="folio" quantity="1">{1} (U1).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
@@ -35,7 +35,7 @@
                         <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
                         
                         <condition>Very good state of preservation.</condition>
-                     <support><measure unit="stringhole"/></support><collation><desc xml:id="U1"><emph rend="bold"><term xml:lang="en">French constitution (<foreign xml:lang="ta">pirāñcukkuṭiyaraciṉ Ēṟpāṭu</foreign>) of 1848</term></emph>. 2 sheets of 620 x 470 mm pasted.</desc></collation></supportDesc>
+                     <support/><collation><desc xml:id="U1"><emph rend="bold"><term xml:lang="en">French constitution (<foreign xml:lang="ta">pirāñcukkuṭiyaraciṉ Ēṟpāṭu</foreign>) of 1848</term></emph>. 2 sheets of 620 x 470 mm pasted.</desc></collation></supportDesc>
                      <layoutDesc>
                         
                      <layout columns="6"/></layoutDesc>
@@ -51,7 +51,7 @@
                   <bindingDesc>
                      <binding>
                         
-                     </binding>
+                     <decoNote type="stringhole"><measure unit="stringhole"/></decoNote></binding>
                   </bindingDesc>
                <typeDesc><typeNote synch="#U1" scope="sole" script="tamil"/></typeDesc></physDesc>
                <history>
@@ -61,8 +61,8 @@
                   </origin>
                   <acquisition>
                      
-                  </acquisition>
-               <provenance><p>E. Burnouf.</p></provenance></history>
+                  <p>Burnouf.</p></acquisition>
+               <provenance><p>Burnouf.</p></provenance></history>
                <additional>
                   <listBibl>
                      
@@ -76,16 +76,17 @@
          </sourceDesc>
       </fileDesc>
       
-   <encodingDesc><p>TBC.</p></encodingDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
+   <encodingDesc><p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.            </p></encodingDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
       <change when="2021-12">Record created by Emmanuel FRANCIS.</change></revisionDesc></teiHeader>
    
 <facsimile><graphic url="https://didomena.ehess.fr/concern/data_sets/w3763b49p/manifest.json" facs="18"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
-  
+  <ab>
+    
   <pb facs="18" n="[1]r"/>
   
-  <milestone n="1" unit="main-text-area"/>
-  <seg function="title"><lb n="1"/>Intuppirāñcu stalaṅkaḷ.
+  <seg function="title"><milestone n="1" unit="main-text-area"/>
+  <lb n="1"/>Intuppirāñcu stalaṅkaḷ.
   <lb n="2"/>pirāñcukkuṭiyaracu.
   <lb n="3"/>manōcutantaram ~ camattuvam ~ cakōtarattuvam. <note xml:lang="en">that is, <term xml:lang="fr">Liberté, Égalité, Fraternité</term></note>
   <lb n="4"/>pirāñcukkuṭiyaraciṉ Ēṟpāṭu</seg>
@@ -115,6 +116,8 @@
     <lb n="5a"/>Itai moḻipeyarttataṟku ṣēptēcervīs Atmiṉistirapīp tuṟaiyavarkaḷ Intirapirēttucu ~ <persName xml:lang="ta" role="translator" key="Nārāyaṇasuvāmi">nārāyaṇacāmi</persName>.
   <lb n="6"/><placeName xml:lang="ta" key="Pondicherry">putuvai</placeName>, kuvarṉmāvaccukkūṭam.
   
-    <pb facs="24" n="[1]v"/>
+    <pb n="[1]v"/><note xml:lang="en">blank</note>
+    
+    </ab>
 
   </body></text></TEI>

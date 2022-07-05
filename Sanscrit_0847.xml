@@ -21,14 +21,17 @@
                   <idno type="alternate"><idno>Sanscrit Grantha 7</idno><idno>Burnouf 57</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc980133</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary>The <title xml:lang="sa">Smṛtimuktāphala</title>, first part of the <title xml:lang="sa">Varṇāśramadharmanirūpaṇa</title>.</summary>
+                  <summary><p>The <title xml:lang="sa">Smṛtimuktāphala</title>, first part of the <title xml:lang="sa">Varṇāśramadharmanirūpaṇa</title>.</p>
+
+<p>Description based on the examination of the original manuscript (March 2022).</p>  
+<p>Dimensions assessed at the time of examination.</p>      </summary>
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="sa">Varṇāśramadharmanirūpaṇa: Smṛtimuktāphala</title><textLang mainLang="san" otherLangs="tam"/></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi">
+                  <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
                         <support>
-                           <measure unit="stringhole" quantity="2"/>
+                           
                            
                         <p>Rounded edges.</p></support>
                         <extent>
@@ -50,7 +53,9 @@
                   <decoDesc>
                   </decoDesc>
                   <additions>
-                  <desc type="commenting-note" subtype="detached">Note in black ink on a <locus facs="0">detached paper leaf</locus>: <quote xml:lang="fr" rend="block"><lb n="1"/>N° 21
+                  <desc type="commenting-note" subtype="detached">Note in black ink on detached <locus facs="0">sheet of paper</locus>:
+<quote xml:lang="fr" rend="block">
+  <lb n="1"/>N° 21
 <lb n="2"/>Ce livre s’appelle Darmasastiram
 <lb n="3"/>ou La loy indienne ; Consistant des codes civil<sic>e</sic>
 <lb n="4"/>&amp; Cérémonies des Indiens
@@ -58,7 +63,8 @@
 <lb n="6"/>Contenant 287 feuilles
 <lb n="7"/>Code de Menou, en langue sanskrite
 </quote>
-This note pertains in fact to BnF Sanscrit 815, and is found by mistake with the present manuscript.</desc><desc synch="#cover" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>SANSCRIT 847</quote> (<locus facs="0">front cover, recto</locus>). This sticker is pasted over what appears to have been a Burnouf shelfmark sticker. </desc><desc synch="#cover" type="documenting-note" subtype="cover front">Sticker with note by Burnouf in black ink (<locus facs="0">front cover, verso</locus>): <quote xml:lang="fr" rend="block"><lb n="1"/>Smrĭmuktâvali
+This note pertains in fact to BnF Sanscrit 815, and is found by mistake with the present manuscript.</desc><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>SANSCRIT 847</quote> (<locus facs="0">front cover, recto</locus>). This sticker is pasted over what appears to have been a Burnouf shelfmark sticker. </desc><desc synch="#CoverFront" type="commenting-note" subtype="cover front">Note by Burnouf in black ink a <locus facs="0">sheet of paper</locus> glued on front cover, recto:
+<quote xml:lang="fr" rend="block"><lb n="1"/>Smrĭmuktâvali
 <lb n="2"/>Traité de jurisprudence étendu, en sanscrit
 <lb n="3"/>et en caractères tamouls; Ouvrage
 <lb n="4"/>rempli de citations des anciens législateurs
@@ -67,9 +73,9 @@ This note pertains in fact to BnF Sanscrit 815, and is found by mistake with the
 <lb n="7"/>est donné comme le Vâidyanâthadîkchita
 <lb n="8"/>et il ne comprend que les règles relatives
 <lb n="9"/>aux castes et aux âçramas.</quote> 
-The same description is found in s.n. (1854), <title>Catalogue des livres imprimés et manuscrits composant la bibliothèque de feu M. Eugène Burnouf</title>, <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k5804580x/f336">p. 327, no. 57</ref>.</desc><desc synch="#cover" type="shelfmark" subtype="back cover front">Tamil letter: <quote xml:lang="ta">Au</quote> (<locus facs="0">front cover, verso</locus> and <locus facs="0">back cover, verso</locus>).</desc></additions>
+The same description is found in s.n. (1854), <title>Catalogue des livres imprimés et manuscrits composant la bibliothèque de feu M. Eugène Burnouf</title>, <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k5804580x/f336">p. 327, no. 57</ref>.</desc><desc synch="#CoverFront #CoverBack" type="shelfmark" subtype="back cover front">Tamil letter: <quote xml:lang="ta">Au</quote> (<locus facs="0">front cover, verso</locus> and <locus facs="0">back cover, verso</locus>).</desc></additions>
                   <bindingDesc>
-                     <binding><p>Original <material>ebony</material> covers. 295 x 30 mm.</p></binding>
+                     <binding><p>Original <material>ebony</material> covers. 295 x 30 mm.</p><decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
                   </bindingDesc>
                </physDesc>
                <history>
@@ -90,50 +96,53 @@ The same description is found in s.n. (1854), <title>Catalogue des livres imprim
       </fileDesc>
       <encodingDesc>
          
-      <p>TBC</p></encodingDesc>
-      <revisionDesc>
+      <p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.            </p></encodingDesc>
+      
+   <revisionDesc>
          
-      <change when="2022-03">Record created by Emmanuel FRANCIS.</change></revisionDesc>
-   </teiHeader>
+      <change when="2022-03">Record created by Emmanuel FRANCIS.</change></revisionDesc></teiHeader>
    <facsimile>
    </facsimile>
 <text synch="#U1" corresp="#T1" xml:lang="sa"><body>
-  
+  <ab>
+    
   <pb facs="0" n="1r"/>
+  <seg function="header">
+  <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1-3"/>dharmmaprāmāṇyaṃ |</seg>
+  <seg function="blessing"><lb n="4-5"/>hariḥ Om·</seg>
+  <seg function="blessing"><lb n="6-7"/>śubham astu</seg>
+    </seg>
   
-  <milestone unit="left-margin"/>
-  <lb n="1-3"/><seg function="intertitle">dharmmaprāmāṇyaṃ |</seg>
-  <lb n="4-5"/><seg function="blessing">hariḥ Om·</seg>
-  <lb n="6-7"/><seg function="blessing">śubham astu</seg>
-  
-  <milestone unit="main-text-area"/>
-  <lb n="1"/><seg function="invocation">śuklāṃbaradharaṃ viṣṇuṃ śaśivarṇañ caturbhujaṃ· | prasannavadanan dhyāyet· sarvavighnopaśāntaye | <g ref="#pcl"/></seg> <seg function="incipit">Aṃke vihāriṇam anukṣajam adrijāyās taṃ
+  <seg function="invocation"><milestone unit="main-text-area"/>
+  <lb n="1"/>śuklāṃbaradharaṃ viṣṇuṃ śaśivarṇañ caturbhujaṃ· | prasannavadanan dhyāyet· sarvavighnopaśāntaye | <g ref="#pcl"/></seg> <seg function="incipit">Aṃke vihāriṇam anukṣajam adrijāyās taṃ
 <lb n="2"/>kevalaṃ kaḷabham at·bhutam āśrayāmaḥ | </seg> <gap reason="ellipsis"/>
 
    <pb facs="0" n="2v"/>  
-  <milestone unit="left-margin"/>
-  <lb n="1-4"/><seg function="intertitle">smṛtiprāmāṇyaṃ |</seg>
+  <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1-4"/>smṛtiprāmāṇyaṃ |</seg>
     
   <pb facs="0" n="3r"/>  
-  <milestone unit="left-margin"/>
-  <lb n="1-3"/><seg function="intertitle">dharmmanirūpaṇam·<note xml:lang="en">the syllable <term xml:lang="sa">rū</term> has a peculiar form</note></seg>
+  <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1-3"/>dharmmanirūpaṇam·<note xml:lang="en">the syllable <term xml:lang="sa">rū</term> has a peculiar form</note></seg>
  
     <pb facs="0" n="5r"/>  
-  <milestone unit="left-margin"/>
-  <lb n="1-3"/><seg function="intertitle"><gap reason="ellipsis"/></seg>
+  <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1-3"/><gap reason="ellipsis"/></seg>
     
   <pb facs="0" n="273v"/>
-  <lb n="5"/><seg function="explicit"><gap reason="ellipsis"/> vyāsaḥ | mokṣāśramaṃ yaś carate yathoktaṃ <gap reason="ellipsis"/> saṃkalpitabuddhiyuktaḥ | nirindhanajyotir iva praśāntyas sa 
-<lb n="6"/>brahmabhāvaṃ śrayate dvijātir Iti |</seg> <seg function="colophon">Iti <persName xml:lang="ta" role="author">vaidyanātha-dikṣīta-</persName>viracite <title xml:lang="sa">smṛtimuktāphale varṇāśramadharmmaniruUpaṇan<note xml:lang="en">the syllable <term xml:lang="sa">rū</term> has a peculiar form</note></title> nāma prathamaḥ paricchedaḥ |
+  <seg function="explicit"><lb n="5"/><gap reason="ellipsis"/> vyāsaḥ | mokṣāśramaṃ yaś carate yathoktaṃ <gap reason="ellipsis"/> saṃkalpitabuddhiyuktaḥ | nirindhanajyotir iva praśāntyas sa 
+<lb n="6"/>brahmabhāvaṃ śrayate dvijātir Iti |</seg> <seg function="colophon"><seg function="title">Iti <persName xml:lang="ta" role="author">vaidyanātha-dikṣīta-</persName>viracite <title xml:lang="sa">smṛtimuktāphale varṇāśramadharmmaniruUpaṇan<note xml:lang="en">the syllable <term xml:lang="sa">rū</term> has a peculiar form</note></title> nāma prathamaḥ paricchedaḥ |</seg>
 
   <pb facs="0" n="274r"/>
-  <lb n="1"/><seg function="blessing">hariḥ Om</seg> <seg function="blessing">śubham astu</seg> <seg function="TBC">yāḍṛṣām pustakan dṛṣtvā tādṛśaṃ likhitan mayā | Abaddhaṃ vā subaddhaṃ vā mama doṣo na vidyate | <g ref="#pcl"/></seg> <seg function="TBC">visarga
+  <seg function="blessing"><lb n="1"/>hariḥ Om</seg> <seg function="blessing">śubham astu</seg> <seg function="documenting-note">yāḍṛṣām pustakan dṛṣtvā tādṛśaṃ likhitan mayā | Abaddhaṃ vā subaddhaṃ vā mama doṣo na vidyate | <g ref="#pcl"/></seg> <seg function="TBC">visarga
 <lb n="2" break="no"/>bindumatrāṇi padapādākṣarāṇi ca | nyūnāni cātiriktāni kṣamasva puruṣottama | <g ref="#pcl"/></seg> <seg function="blessing">śrīkṛṣṇārpanam astu</seg>
-<lb n="3"/>Idaṃ pustakaṃ nandana-saṃvat·saraṃ vṛṣcikamācam aṣṭāviṃśad-dinaṃ maṃgaḷavāraṃ kṛṣṇapakṣan caturtthi puṣya
+<seg function="copy-statement"><lb n="3"/>Idaṃ pustakaṃ nandana-saṃvat·saraṃ vṛṣcikamācam aṣṭāviṃśad-dinaṃ maṃgaḷavāraṃ kṛṣṇapakṣan caturtthi puṣya
 <lb n="4" break="no"/>nakṣatram inda śubhadinattil· <persName xml:lang="sa" role="scribe"><placeName xml:lang="sa">śorakkuḍi</placeName> kṛṣṇaśāstri<unclear>yaḷu</unclear></persName> svahastattunāl· <title xml:lang="sa"> vaidyanāthadīkṣitīyaṃ</title> prathamapari
 <lb n="5"/>cchedaṃ samāptaṃ <unclear>ānamaṃ</unclear> | <g ref="#pcl"/> <term xml:lang="ta">ṉantaṉa-va<choice><sic>ṟuḻa</sic><corr>ruṣa</corr></choice>m kārttikai {mācam} 28 {tēti} <unclear reason="eccentric_ductus">ma</unclear>ṅkaḷavāṟam pu<choice><sic>ḻa</sic><corr>ṣa</corr></choice>yaṉaṭcat=tirat=ti=l pat=tiṉōru ṉaḻi <gap reason="ellipsis"/> Eḻuti Āṉatu <g ref="#pcl"/></term></seg>
+    </seg>
 
   <pb facs="0" n="274v"/><note xml:lang="en">blank</note>
   
-  
-    </body></text></TEI>
+  </ab>
+</body></text></TEI>

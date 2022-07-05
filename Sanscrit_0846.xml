@@ -21,14 +21,17 @@
                   <idno type="alternate"><idno>Sanscrit Grantha 10</idno><idno>Burnouf 59</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc98010c</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary>The <title xml:lang="sa">Smṛticandrikā</title>, first part of the <title xml:lang="sa">Vyavahārakāṇḍa</title>.</summary>
+                  <summary><p>The <title xml:lang="sa">Smṛticandrikā</title>, first part of the <title xml:lang="sa">Vyavahārakāṇḍa</title>.</p>
+
+<p>Description based on the examination of the original manuscript (March 2022).</p>  
+<p>Dimensions assessed at the time of examination.</p>      </summary>
                   
                <msItem synch="#U2" xml:id="T1" defective="false"><title xml:lang="sa">Vyavahārakāṇḍa: Smṛticandrikā    </title><textLang mainLang="san"/></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi">
+                  <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
                         <support>
-                           <measure unit="stringhole" quantity="2"/>
+                           
                            
                         <p>Rounded edges.</p></support>
                         <extent>
@@ -50,7 +53,9 @@
                   <decoDesc>
                   </decoDesc>
                   <additions>
-                  <desc synch="#cover" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>SANSCRIT 846</quote> (<locus facs="0">front cover, recto</locus>).</desc><desc synch="#cover" type="documenting-note" subtype="cover front">Sticker with note by Burnouf in black ink: <quote xml:lang="fr"><lb n="1"/>Smrĭtitchandrikâ
+                  <desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>SANSCRIT 846</quote> (<locus facs="0">front cover, recto</locus>).</desc><desc synch="#CoverFront" type="commenting-note" subtype="cover front">Note by Burnouf  in black ink a <locus facs="0">sheet of paper</locus> glued on front cover, recto:
+<quote xml:lang="fr" rend="block">
+  <lb n="1"/>Smrĭtitchandrikâ
 <lb n="2"/>Traité de jurisprudence, relatif à la
 <lb n="3"/>procédure, en sanscrit et en caractères
 <lb n="4"/>tamouls. Ms écrit avec beaucoup
@@ -58,10 +63,11 @@
 <lb n="6"/>ayant été composé par Crîkêcavâditya-
 <lb n="7"/>Bhaṭṭa, surnommé Upâdhyâya Soma-
 <lb n="8"/>yâdjin.
-<lb n="9"/><del>6<unclear>8</unclear></del> 59</quote> (<locus facs="0">front vover, verso</locus>). <quote xml:lang="fr">68</quote> in black ink on a second smaller sticker.
-The same description is found in s.n. (1854), <title>Catalogue des livres imprimés et manuscrits composant la bibliothèque de feu M. Eugène Burnouf</title>, <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k5804580x/f336">p. 327, no. 59</ref>.</desc><desc synch="#cover" type="shelfmark" subtype="back cover front">Tamil letter: <quote xml:lang="ta">A</quote> (<locus facs="0">front cover, verso</locus> and <locus facs="0">back cover, verso</locus>).</desc></additions>
+<lb n="9"/><del>6<unclear>8</unclear></del> 59</quote>
+<quote xml:lang="fr">68</quote> in black ink on a second smaller sticker.
+The same description is found in s.n. (1854), <title>Catalogue des livres imprimés et manuscrits composant la bibliothèque de feu M. Eugène Burnouf</title>, <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k5804580x/f336">p. 327, no. 59</ref>.</desc><desc synch="#CoverFront #CoverBack" type="shelfmark" subtype="back cover front">Tamil letter: <quote xml:lang="ta">A</quote> (<locus facs="0">front cover, verso</locus> and <locus facs="0">back cover, verso</locus>).</desc></additions>
                   <bindingDesc>
-                     <binding><p>Original <material>ebony</material> covers. 295 x 30 mm.</p></binding>
+                     <binding><p>Original <material>ebony</material> covers. 295 x 30 mm.</p><decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
                   </bindingDesc>
                </physDesc>
                <history>
@@ -82,7 +88,7 @@ The same description is found in s.n. (1854), <title>Catalogue des livres imprim
       </fileDesc>
       <encodingDesc>
          
-      <p>TBC</p></encodingDesc>
+      <p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.            </p></encodingDesc>
       
    <revisionDesc>
          
@@ -93,52 +99,52 @@ The same description is found in s.n. (1854), <title>Catalogue des livres imprim
   <ab>
   
   <pb facs="0" n="1r"/>
+  <seg function="blessing"><milestone unit="left-margin"/>
+  <lb n="1-2"/>hariḥ Om</seg>
   
-  <milestone unit="left-margin"/>
-  <lb n="1-2"/><seg function="blessing">hariḥ Om</seg>
-  
-  <milestone unit="main-text-area"/>
-  <lb n="1"/><seg function="incipit">Atha dāyavibhāgā<gap reason="ellipsis"/></seg>
+  <seg function="incipit"><milestone unit="main-text-area"/>
+  <lb n="1"/>Atha dāyavibhāgā<gap reason="ellipsis"/></seg>
   
   <pb facs="0" n="42v"/>  
-  <milestone unit="left-margin"/>
-  <lb n="1-3"/><seg function="intertitle"><gap reason="ellipsis"/></seg>
+  <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1-3"/><gap reason="ellipsis"/></seg>
     
   <pb facs="0" n="50r"/>  
-  <milestone unit="left-margin"/>
-  <lb n="1-5"/><seg function="intertitle"><gap reason="ellipsis"/></seg>
+  <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1-5"/><gap reason="ellipsis"/></seg>
  
     <pb facs="0" n="54v"/>  
-  <milestone unit="left-margin"/>
-  <lb n="1-5"/><seg function="intertitle"><gap reason="ellipsis"/></seg>
+  <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1-5"/><gap reason="ellipsis"/></seg>
     
   <pb facs="0" n="154r"/>
-  <lb n="5"/><seg function="explicit"><gap reason="ellipsis"/> jayaḥ | <g ref="#pcl"/></seg> <seg function="colophon">Iti <persName xml:lang="sa" role="author">sakala-vidyāviśārada-śrī-keśavādityabhaṭṭo
-<lb n="6" break="no"/>pādhyāya-somayāji-</persName>viracitāyāṃ <title xml:lang="sa">smṛticandrikāyāṃ vyavahā<supplied reason="omitted">ra</supplied><sic>ka</sic>ṇḍaṃ</title> samāptaṃ | <g ref="#pcs"/> <seg function="blessing">hariḥ Om·</seg>
+  <seg function="explicit"><lb n="5"/><gap reason="ellipsis"/> jayaḥ | <g ref="#pcl"/></seg> <seg function="colophon"><seg function="completion-statement">Iti <persName xml:lang="sa" role="author">sakala-vidyāviśārada-śrī-keśavādityabhaṭṭo
+<lb n="6" break="no"/>pādhyāya-somayāji-</persName>viracitāyāṃ <title xml:lang="sa">smṛticandrikāyāṃ vyavahā<supplied reason="omitted">ra</supplied><sic>ka</sic>ṇḍaṃ</title> samāptaṃ | <g ref="#pcs"/></seg> <seg function="blessing">hariḥ Om·</seg>
 
   <pb facs="0" n="155r"/>
-  <lb n="1"/><seg function="blessing">Avighnam astu</seg> <seg function="blessing">śrīgurubhyo namaḥ</seg> | nandana-saṃvatsaraṃ<sic><unclear>ta</unclear></sic> vṛścika-māsam caturdaśa-divase bhaumavāre śra
+  <seg function="blessing"><lb n="1"/>Avighnam astu</seg> <seg function="blessing">śrīgurubhyo namaḥ |</seg> <seg function="copy-statement">nandana-saṃvatsaraṃ<sic><unclear>ta</unclear></sic> vṛścika-māsam caturdaśa-divase bhaumavāre śra
  <lb n="2"/>vaṇa-nakṣetre divi dvādaśa-ghaṭikiyāṃ <title xml:lang="sa">vyvahārakāṇḍa Iti smṛticandrikā-</title>pusta
- <lb n="3" break="no"/>kaṃ <persName xml:lang="sa" role="scribe" cert="low">raṃganātha-</persName>kareṇa sampūrṇam | <g ref="#pcl"/> <seg function="blessing">hariḥ Om· |</seg> <seg function="TBC"> yādṛṣam pustakaṃ dṛṣṭvā
+ <lb n="3" break="no"/>kaṃ <persName xml:lang="sa" role="scribe" cert="low">raṃganātha-</persName>kareṇa sampūrṇam | <g ref="#pcl"/></seg> <seg function="blessing">hariḥ Om· |</seg> <seg function="documenting-note">yādṛṣam pustakaṃ dṛṣṭvā
  <lb n="4"/>tādṛṣam likhitaṃ mayā | Abaddhaṃ vā subaddhaṃ vā <sic>tava</sic> doṣo na vidyate |</seg> <seg function="TBC">visarga-bindu
  <lb n="5" break="no"/>mātrāṇi padapādākṣarāṇi ca | nyūnāni cātiriktāni kṣamasva puruṣottama |</seg> <seg function="blessing">maṃgaḷam astu |</seg>
 
   <pb facs="0" n="155v"/>
   
-  <milestone n="1" unit="column"/>
-  <lb n="1"/><seg function="TBC">Idaṃ pustakaṃ
+  <seg function="blessing"><milestone n="1" unit="column"/>
+  <lb n="1"/>Idaṃ pustakaṃ
 <lb n="2"/>sarvottamaṃ
 <lb n="3"/>sarakṣaṇīyam</seg>
   
-  <milestone n="2" unit="column"/>
-  <lb n="1"/><seg function="blessing">śrīmahālakṣmyai namaḥ | <g ref="#pcl"/></seg>
-<lb n="2"/><seg function="blessing">gurubhyo namaḥ</seg>
-<lb n="3"/><seg function="blessing">Īśvara-kaṭākṣaṃ |</seg>
+  <seg function="blessing"><milestone n="2" unit="column"/>
+  <lb n="1"/>śrīmahālakṣmyai namaḥ | <g ref="#pcl"/></seg>
+<seg function="blessing"><lb n="2"/>gurubhyo namaḥ</seg>
+<seg function="blessing"><lb n="3"/>Īśvara-kaṭākṣaṃ |</seg>
   
-  <milestone n="3" unit="column"/>
-  <lb n="1"/><seg function="blessing">hariḥ Om·</seg>
-<lb n="2"/><seg function="blessing">śubham astu</seg>                                                  
-<lb n="3"/><seg function="blessing">Avighnam astu</seg></seg>
+  <seg function="blessing"><milestone n="3" unit="column"/>
+  <lb n="1"/>hariḥ Om·</seg>
+<seg function="blessing"><lb n="2"/>śubham astu</seg>
+<seg function="blessing"><lb n="3"/>Avighnam astu</seg>
+    </seg>
 
     </ab>
     </body></text></TEI>

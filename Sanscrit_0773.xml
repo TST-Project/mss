@@ -21,14 +21,17 @@
                   <idno type="alternate"><idno>Sanscrit Grantha 18</idno><idno>Burnouf 60</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc97811v</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b10082728w</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary>The <title xml:lang="sa">Pañcatantra</title>.</summary>
+                  <summary><p>The <title xml:lang="sa">Pañcatantra</title>.</p>
+   
+<p>Description based on the examination of the original manuscript (March 2022).</p>  
+<p>Dimensions assessed at the time of examination.</p>      </summary>
                   
                <msItem synch="#U2" xml:id="T1" defective="false"><title xml:lang="sa">Pañcatantra</title><textLang mainLang="san"/></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi">
+                  <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
                         <support>
-                           <measure unit="stringhole" quantity="2"/>
+                           
                            
                         <p>Rounded edges.</p></support>
                         <extent>
@@ -50,15 +53,17 @@
                   <decoDesc>
                   </decoDesc>
                   <additions>
-                  <desc synch="#cover" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>SANSCRIT 773</quote> (<locus facs="0">front cover, recto</locus>).</desc><desc synch="#U1" type="documenting-note">Sticker with note by Burnouf in black ink (<locus facs="0">f1rv</locus>): <quote xml:lang="fr" rend="block"><lb n="1"/>Pantchatantra
+                  <desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>SANSCRIT 773</quote> (<locus facs="0">front cover, recto</locus>).</desc><desc synch="#U1" type="commenting-note">Note by Burnouf  in black ink a <locus facs="0">sheet of paper</locus> glued on f[1]r:
+<quote xml:lang="fr" rend="block">
+  <lb n="1"/>Pantchatantra
 <lb n="2"/>En sanscrit et en caractères tamouls.
 <lb n="3"/>ms. très lisiblement écrit d'un ouvrage
 <lb n="4"/>dont la célébrité est connue, et dont je
 <lb n="5"/>ne crois pas qu'il existe un second
 <lb n="6"/>exemplaire en France.</quote>
-<quote xml:lang="fr">Burn. 60.</quote> added in black ink right of line 1. <quote xml:lang="fr">[Note d'Eug. Burnouf]</quote> added in black ink right of line 6. The same description is found in s.n. (1854), <title>Catalogue des livres imprimés et manuscrits composant la bibliothèque de feu M. Eugène Burnouf</title>, <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k5804580x/f337">p. 328, no. 60</ref>.</desc><desc synch="#cover" type="shelfmark" subtype="back cover front">Tamil letter: <quote xml:lang="ta">U</quote> (<locus facs="0">front cover, verso</locus> and <locus facs="0">back cover, verso</locus>).</desc></additions>
+<quote xml:lang="fr">Burn. 60.</quote> added in black ink right of line 1. <quote xml:lang="fr">[Note d'Eug. Burnouf]</quote> added in black ink right of line 6. The same description is found in s.n. (1854), <title>Catalogue des livres imprimés et manuscrits composant la bibliothèque de feu M. Eugène Burnouf</title>, <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k5804580x/f337">p. 328, no. 60</ref>.</desc><desc synch="#CoverFront #CoverBack" type="shelfmark" subtype="back cover front">Tamil letter: <quote xml:lang="ta">U</quote> (<locus facs="0">front cover, verso</locus> and <locus facs="0">back cover, verso</locus>).</desc></additions>
                   <bindingDesc>
-                     <binding><p>Original <material>ebony</material> covers. 295 x 30 mm.</p></binding>
+                     <binding><p>Original <material>ebony</material> covers. 295 x 30 mm.</p><decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
                   </bindingDesc>
                </physDesc>
                <history>
@@ -79,33 +84,34 @@
       </fileDesc>
       <encodingDesc>
          
-      <p>TBC</p></encodingDesc>
-      <revisionDesc>
+      <p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.            </p></encodingDesc>
+      
+   <revisionDesc>
          
-      <change when="2022-03">Record created by Emmanuel FRANCIS.</change></revisionDesc>
-   </teiHeader>
+      <change when="2022-03">Record created by Emmanuel FRANCIS.</change></revisionDesc></teiHeader>
    <facsimile>
    </facsimile>
 <text synch="#U2" corresp="#T1" xml:lang="sa"><body>
-  
+  <ab>
+    
   <pb facs="0" n="1r"/>
   
-  <milestone unit="left-margin"/>
-  <lb n="1-2"/><seg function="blessing">hariḥ Om·</seg>
+  <seg function="blessing"><milestone unit="left-margin"/>
+  <lb n="1-2"/>hariḥ Om·</seg>
   
-  <milestone unit="main-text-area"/>
-  <lb n="1"/><seg function="incipit"><lg><l>manave vācaspataye śukrāya parāśarāya sasutāya | cāṇakyāya ca namo <pc>'</pc>stu nīti
+  <seg function="incipit"><milestone unit="main-text-area"/>
+  <lg><l><lb n="1"/>manave vācaspataye śukrāya parāśarāya sasutāya | cāṇakyāya ca namo <pc>'</pc>stu nīti
 <lb n="2" break="no"/>śāstrakarttṛbhyaḥ</l></lg></seg> <gap reason="ellipsis"/> 
   
   <pb facs="0" n="142v"/>
-  <lb n="5"/><seg function="explicit"><gap reason="ellipsis"/> kāriṇaṃ guṇalabdhās vayam eva saṃvadaḥ | <g ref="#pcl"/></seg>
+  <seg function="explicit"><lb n="5"/><gap reason="ellipsis"/> kāriṇaṃ guṇalabdhās vayam eva saṃvadaḥ | <g ref="#pcl"/></seg>
   
   <pb facs="0" n="143r"/>
-  <seg function="colophon"><lb n="1"/><seg function="completion-statement">Iti pañcatantre Asamīkṣya-kāriṇan-nāma pañcamatantraṃ samāptaṃ |</seg>
-<lb n="2"/><seg function="blessing">hariḥ Om· ~</seg> <seg function="blessing">śubham astu |</seg> <seg function="TBC">karakṛtam aparādham kṣantum arhanti
-<lb n="3"/>santaḥ | <g ref="#pcl"/></seg> nandana-saṃvatsaraṃ mithuna-māsaṃ ~ 10 6 <g ref="#tēti">tēti</g> ~ <seg function="completion-statement">pañcatantraṃ samāptaṃ |</seg></seg>
+  <seg function="colophon"><seg function="completion-statement"><lb n="1"/>Iti pañcatantre Asamīkṣya-kāriṇan-nāma pañcamatantraṃ samāptaṃ |</seg>
+<seg function="blessing"><lb n="2"/>hariḥ Om· ~</seg> <seg function="blessing">śubham astu |</seg> <seg function="TBC">karakṛtam aparādham kṣantum arhanti
+<lb n="3"/>santaḥ | <g ref="#pcl"/></seg> <seg function="date">nandana-saṃvatsaraṃ mithuna-māsaṃ ~ 10 6 <g ref="#tēti">tēti</g> ~</seg> <seg function="completion-statement">pañcatantraṃ samāptaṃ |</seg></seg>
 
     <pb facs="0" n="143v"/><note xml:lang="en">blank</note>
 
-
-    </body></text></TEI>
+  </ab>
+</body></text></TEI>
