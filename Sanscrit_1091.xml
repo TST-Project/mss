@@ -21,15 +21,18 @@
                   <idno type="alternate"><idno>Burnouf 2719</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc100090d</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/1544bw284</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary>The Tranquebar Bible, New Testament, edition printed in 1714 at the Protestant Tranquebar Mission.
+                  <summary><p>The Tranquebar Bible, New Testament, edition printed in 1714 at the Protestant Tranquebar Mission.</p>
+
+<p>Description based on the examination of the original manuscript (April 2021).</p>
+<p>Dimensions assessed at the time of examination.</p>      
 </summary>
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Front Matter</term></title><textLang mainLang="tam" otherLangs="deu"/></msItem><msItem synch="#U1" xml:id="T2" defective="false"><title xml:lang="ta"><term xml:lang="en">Text</term></title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
-                  <objectDesc form="codex">
+                  <objectDesc form="codex" rend="movable-type">
                      <supportDesc material="paper">
                         <support>
-                           <measure unit="stringhole"/>
+                           
                            
                         </support>
                         <extent>
@@ -51,9 +54,9 @@
                   <decoDesc>
                   <decoNote synch="#U1 #U2"><desc>See U1, <locus facs="14">p[1]</locus>. See U2, <locus facs="25">p[1]</locus>, etc.</desc></decoNote></decoDesc>
                   <additions>
-                  <desc synch="#cover" type="title" subtype="cover spine">BnF shelfmark sticker: <quote xml:lang="fr">NOUVEAU TESTAMENT EN MALABARE</quote> (<locus facs="2">spine</locus>).</desc><desc synch="#cover" type="shelfmark" subtype="cover spine">BnF shelfmark sticker: <quote xml:lang="fr">SANSCRIT 1091</quote> (<locus facs="2">spine</locus>).</desc><desc synch="#cover" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote xml:lang="fr">SANSCRIT 1,091</quote> (<locus facs="9">f[1]r</locus>).</desc><desc synch="#u2" type="shelfmark">Burnouf shelfmark in black pencil: <quote xml:lang="fr">2719</quote> (<locus facs="10">f[1]r</locus>).</desc><desc synch="#U1" type="catchword">Tamil catchword for pages 5-8.</desc></additions>
+                  <desc type="title" subtype="cover spine">BnF shelfmark sticker: <quote xml:lang="fr">NOUVEAU TESTAMENT EN MALABARE</quote> (<locus facs="2">spine</locus>).</desc><desc type="shelfmark" subtype="cover spine">BnF shelfmark sticker: <quote xml:lang="fr">SANSCRIT 1091</quote> (<locus facs="2">spine</locus>).</desc><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote xml:lang="fr">SANSCRIT 1,091</quote> (<locus facs="9">f[1]r</locus>).</desc><desc synch="#u2" type="shelfmark">Burnouf shelfmark in black pencil: <quote xml:lang="fr">2719</quote> (<locus facs="10">f[1]r</locus>).</desc><desc synch="#U1" type="catchword">Tamil catchword for pages 5-8.</desc></additions>
                   <bindingDesc>
-                     <binding><p>Library binding.</p></binding>
+                     <binding><p>Library binding.</p><decoNote type="stringhole"><measure unit="stringhole"/></decoNote></binding>
                   </bindingDesc>
                <typeDesc><typeNote synch="#U1" scope="major" script="latin tamil" medium="ink black"/><typeNote synch="#U2" scope="major" script="tamil" medium="ink black"/></typeDesc></physDesc>
                <history>
@@ -74,15 +77,16 @@
       </fileDesc>
       <encodingDesc>
          
-      <p>TBC</p></encodingDesc>
-      <revisionDesc>
+      <p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.            </p></encodingDesc>
+      
+   <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
-      <change when="2022-03">Record created by Emmanuel FRANCIS.</change></revisionDesc>
-   <xenoData type="webannotation"><![CDATA[[]]]></xenoData></teiHeader>
+      <change when="2022-03">Record created by Emmanuel FRANCIS.</change></revisionDesc></teiHeader>
    <facsimile>
    <graphic url="https://didomena.ehess.fr/concern/data_sets/1544bw284/manifest.json"/></facsimile>
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
-  
+  <ab>
+    
   <pb facs="11" n="[1]"/>
   <lb n="1"/>cutaṉ<pc>-</pc>ākiya caṟuvēcuraṉ<pc>-</pc>āy irukkiṟa
 <lb n="2"/>Ēcukkiṟīṣttu
@@ -156,9 +160,12 @@
   <lb n="1ff."/><gap reason="ellipsis"/>
   
   <milestone n="2" unit="column"/>
-  <term xml:lang="de"><lb n="1ff."/><gap reason="ellipsis"/></term>  
-    </body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
-  
+  <term xml:lang="de"><lb n="1ff."/><gap reason="ellipsis"/></term>
+    
+    </ab>
+</body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
+  <ab>
+    
   <pb facs="23" n="[1]"/>
   <seg function="title"><lb n="1"/>Aṟciyacīṣṭṭa matteyacu y<pc>-</pc>eṉkiṟavar Eḻuti vait
   <lb n="2" break="no"/>ta cuviviceṣam <g ref="#pcs"/><note xml:lang="en">that is, Gospel of Matthew</note></seg>
@@ -195,4 +202,5 @@
   <lb n="10-15"/><gap reason="ellipsis"/> <g ref="#pcs"/> 29 <g ref="#pcs"/>
   <seg function="explicit"><lb n="16-30"/><gap reason="ellipsis"/> <g ref="#pcs"/> 30 <g ref="#pcs"/></seg>
   
-    </body></text></TEI>
+    </ab>
+</body></text></TEI>
