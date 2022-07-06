@@ -27,7 +27,7 @@
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title &amp; Colophon</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta"><term xml:lang="en">Text</term></title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi">
+                  <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
                         <extent>
                            <measure unit="folio" quantity="74">{1} + 73 (U1 + U2).</measure>
@@ -39,7 +39,7 @@
                         <dimensions type="object" unit="mm"><width quantity="270"/><height quantity="35"/><depth quantity="55"/></dimensions><dimensions type="written" unit="mm"/></extent>
                         
                         <condition>Very good state of preservation.</condition>
-                     <support><measure unit="stringhole" quantity="2"/></support><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">Title &amp; Colophon</emph>. No foliation. Verso blank. 270 x 35 mm.</desc><desc xml:id="U2">73 folios = <emph rend="bold">Text</emph>. Tamil foliation 1-73. 2 columns. 8-9 lpp. 270 x 35 mm. f73 blank (foliation only).</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation></supportDesc>
+                     <support/><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">Title &amp; Colophon</emph>. No foliation. Verso blank. 270 x 35 mm.</desc><desc xml:id="U2">73 folios = <emph rend="bold">Text</emph>. Tamil foliation 1-73. 2 columns. 8-9 lpp. 270 x 35 mm. f73 blank (foliation only).</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation></supportDesc>
                      <layoutDesc>
                         
                      <layout columns="2" writtenLines="8 9"/></layoutDesc>
@@ -51,7 +51,7 @@
                   <bindingDesc>
                      <binding>
                         
-                     <p>Original (?) <material>wood</material> covers. 270 x 30 mm.</p></binding>
+                     <p>Original (?) <material>wood</material> covers. 270 x 30 mm.</p><decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
                   </bindingDesc>
                </physDesc>
                <history>
@@ -87,14 +87,14 @@
 <lb n="2"/>varicai paḻakkuṟa
 <lb n="3"/>poṣttakam</seg>
 
-  <seg function="colophon"><milestone n="2" unit="column"/>
+  <seg function="colophon"><seg function="copy-statement"><milestone n="2" unit="column"/>
    <lb n="1"/><g ref="#nūṟu"/>8<g ref="#nūṟu"/>3<g ref="#pattu"/>-m – Āṇṭu
 <lb n="2"/><placeName xml:lang="ta">kāraikkāli</placeName>l eḻuta
 <lb n="3" break="no"/>ppaṭṭutu <g ref="#end_of_text"/></seg>
 
   <seg function="blessing"><milestone n="3" unit="column"/>
   <lb n="1"/>yēkaparāparavaṣt
-<lb n="3" break="no"/>tuvē tuṇai <g ref="#pcs"/></seg>
+<lb n="3" break="no"/>tuvē tuṇai <g ref="#pcs"/></seg></seg>
   
     </ab>
   </body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
