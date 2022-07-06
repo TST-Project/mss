@@ -28,11 +28,7 @@
 <p>Various papers of various format pasted on pages bound in one volume. Very often text on the verso lost in pasting, but sometimes readable through transparence.</p>
 <p>The volume contains:
   <list rend="numbered">
-    <item><locus facs="3">f1</locus>: title page <quote xml:lang="fr" rend="block">
-    <lb n="1"/>tamil 
-    <lb n="2"/>Indoustani
-    <lb n="3"/>Sanscrit
-  </quote></item>
+    <item><locus facs="3">f1</locus>: title page <quote xml:lang="fr">tamil Indoustani Sanscrit</quote></item>
     <item><locus facs="4">f28-f40</locus>: notes in Tamil and French. Papers pasted on the pages.</item>
       <item><locus facs="23">f41</locus>: a text in Arabic script and its French translation.</item>
     <item><locus facs="26">f42</locus>: <quote xml:lang="fr">méthode de lecture du Véda</quote>. 1 folio (2 pages) pasted on the page.</item>
@@ -40,12 +36,11 @@
     <item><locus facs="31">f46-f61</locus>: notes in Tamil and French. Papers pasted on the pages.</item>
        <item><locus facs="53">f62</locus>: a passport to Fort Saint George (printed form, in English, Tamil, and Telugu; filled in black ink) for M. Faure (merchant), dated August 24, 1820.</item>
     <item><locus facs="57">f63</locus>: a text in Arabic script.</item>
-    <item><locus facs="58">f64</locus>: title page <quote xml:lang="fr" rend="block"><lb n="1"/>Imprimés
-<lb n="2-3"/>Notes de Bibliographie Orientale
-<lb n="4-5"/>Extraits <del>de</del> de Catalogues.</quote></item>
+    <item><locus facs="58">f64</locus>: title page <quote xml:lang="fr">Imprimés Notes de Bibliographie Orientale Extraits <del>de</del> de Catalogues.</quote></item>
     <item><locus facs="59">f65-f79</locus>: newspapers (e.g. <title>The Spectator</title>) extracts (sale of books, publications), journal ToCs (<title>Madras Journal of Literature and Science</title>, <title>Journal of the Bombay Branch of the Royal Asiatic Society</title>, <title>Calcutta Review</title>, <title>Journal Asiatique</title>).</item>   
       </list>
 </p>
+
 <p>Description based on the examination of the original manuscript (February 2020).</p>
 <p>Dimensions assessed at the time of examination.</p>  </summary>
 
@@ -73,7 +68,7 @@
 							
 						<handNote synch="#U1" scope="sole" script="arabic devanagari latin tamil" medium="ink black"><desc>Hand of <persName role="scribe">Edouard Ariel</persName>.</desc></handNote></handDesc>
 						<additions>
-							<desc type="title" subtype="spine">Title printed on the <locus facs="2">spine</locus>: <quote xml:lang="fr" rend="block"><lb n="1"/>ARIEL <lb n="2"/>NOTES <lb n="3"/>TAMOULS, <lb n="4"/>ETC.</quote></desc><desc type="shelfmark" subtype="cover spine">BnF shelfmark sticker: <quote>FR. NOUV. ACQ 8903</quote> (<locus>spine</locus>).</desc><desc type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>FR. NOUV. ACQ 8903</quote> (<locus facs="0">front cover, verso</locus>).</desc><desc synch="#U1" type="documenting-note" subtype="bottom">Note (<locus facs="68">f79r</locus>): <quote xml:lang="fr" rend="block"><lb n="1"/>Lussac (Gironde) <lb n="2"/>26 septembre 1866. <lb n="3"/><unclear>n.</unclear> V.</quote> Same hand as that of Parallel Arabic library foliation 27-79 on bottom left.</desc></additions>
+							<desc type="title" subtype="cover spine">Title printed on the <locus facs="2">spine</locus>: <quote xml:lang="fr" rend="block"><lb n="1"/>ARIEL <lb n="2"/>NOTES <lb n="3"/>TAMOULS, <lb n="4"/>ETC.</quote></desc><desc type="shelfmark" subtype="cover spine">BnF shelfmark sticker: <quote>FR. NOUV. ACQ 8903</quote> (<locus>spine</locus>).</desc><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>FR. NOUV. ACQ 8903</quote> (<locus facs="0">front cover, verso</locus>).</desc></additions>
 						<bindingDesc>
 							<binding>
 								<p>Hard paper covers, marbled on the outer faces.</p>
@@ -462,11 +457,15 @@ Permit the Bearer hereof to pass without molestation according to the tenor of t
   
   <pb facs="58" n="64r"/><note xml:lang="en">1 sheet of paper pasted on the page</note>
     
-  <term xml:lang="fr"><lb n="1"/>Imprimés
+  <seg function="title"><term xml:lang="fr"><lb n="1"/>Imprimés
 <lb n="2-3"/>Notes de Bibliographie Orientale
-<lb n="4-5"/>Extraits <del>de</del> de Catalogues.</term>
+<lb n="4-5"/>Extraits <del>de</del> de Catalogues.</term></seg>
   
       <pb facs="59" n="65-79"/><note xml:lang="en">Item 10</note>
 
+    <pb facs="68" n="79r"/>
+    <seg function="documenting-note"><lb n="1"/>Lussac (Gironde)
+    <lb n="2"/>26 septembre 1866.
+    <lb n="3"/><unclear>n.</unclear> V. <note xml:lang="en">same hand as that of Parallel Arabic library foliation 27-79 on bottom left.</note></seg>
      </ab>
 </body></text></TEI>

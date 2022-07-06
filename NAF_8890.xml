@@ -42,7 +42,10 @@
     <item><locus facs="0">f180r</locus>: <quote>φlologie chuintantes et sifflantes </quote>.</item>
     <item><locus facs="0">f209r</locus>: <quote>φlologie cérébrales &amp; Dentales</quote>.</item>
           </list>
-</p></summary>
+</p>
+
+<p>Description based on the examination of the original manuscript (November 2019).</p>
+<p>Dimensions assessed at the time of examination.</p>      </summary>
 
 						
 					<msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="fr"><term xml:lang="en">Title Page</term></title><textLang mainLang="fra"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="fr"><term xml:lang="en">Ariel Papers: Philology</term></title><textLang mainLang="fra"/></msItem></msContents>
@@ -68,7 +71,7 @@
 							
 						<handNote synch="#U1" scope="sole" script="latin" medium="ink black pencil"><desc><persName role="scribe">Edouard Ariel</persName>.</desc></handNote></handDesc>
 						<additions>
-							<desc type="shelfmark" subtype="cover spine">BnF shelfmark sticker: <quote>FR. NOUV. ACQ 8890</quote> (<locus facs="0">spine</locus>).</desc><desc synch="#U1" type="documenting-note">Binder's note  (<locus facs="0">f[1]r</locus>): <quote xml:lang="fr" rend="block"><lb n="1"/>Volume de 242 Feuillets <lb n="2"/> 19 Mars 1896.</quote>
+							<desc type="shelfmark" subtype="cover spine">BnF shelfmark sticker: <quote>FR. NOUV. ACQ 8890</quote> (<locus facs="0">spine</locus>).</desc><desc synch="#U1" type="documenting-note">Binder's note (<locus facs="0">f[1]r</locus>): <quote xml:lang="fr" rend="block"><lb n="1"/>Volume de 242 Feuillets <lb n="2"/> 19 Mars 1896.</quote>
 </desc></additions>
 						<bindingDesc>
 							<binding>
@@ -81,7 +84,7 @@
 					</physDesc>
 					<history>
 						<origin>
-							<origDate calendar="gregorian" notAfter="1854"/>
+							<origDate calendar="gregorian" notAfter="1854">Not after 1854, since part of the papers of <persName role="collector">Édouard Ariel</persName> (1818-1854), bequested in 1855 to the Société Asiatique, Paris (Rosny 1868).</origDate>
 							
 						<origPlace>Pondicherry.</origPlace></origin>
 						<acquisition>
@@ -105,7 +108,7 @@
 		<encodingDesc>
 
 			
-		<p>TBC</p></encodingDesc>
+		<p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.</p></encodingDesc>
 		
 	<revisionDesc>
 
@@ -118,7 +121,8 @@
 	</facsimile>
 	
 <text synch="#U1" corresp="#T1" xml:lang="fr"><body>
-  
+  <ab>
+    
   <pb facs="0" n="[1]r"/>
   
   <lb n="1"/>φlologie 
@@ -126,9 +130,10 @@
   
     <pb facs="0" n="[1]v"/><note xml:lang="en">blank</note>
 
-  
-    </body></text><text synch="#U2" corresp="#T2" xml:lang="fr"><body>
-  
+  </ab>
+</body></text><text synch="#U2" corresp="#T2" xml:lang="fr"><body>
+  <ab>
+    
   <pb facs="0" n="1r"/>
   
   <milestone unit="left-margin"/>
@@ -225,4 +230,5 @@
   <pb facs="0" n="209r"/>
       <lb n="1ff."/><seg function="intertitle">φlologie cérébrales &amp; Dentales</seg>
     
-    </body></text></TEI>
+    </ab>
+</body></text></TEI>
