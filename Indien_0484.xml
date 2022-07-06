@@ -31,10 +31,10 @@
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Alacammāṉai: <term xml:lang="en">Title Page</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta">Alacammāṉai: <term xml:lang="en">Invocation</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T3" defective="false"><title xml:lang="ta">Alacammāṉai: Mūlam</title><textLang mainLang="tam"/></msItem><msItem synch="#U4" xml:id="T4" defective="false"><title xml:lang="ta"><term xml:lang="en">Date</term></title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi">
+                  <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
                         <support>
-                           <measure unit="stringhole" quantity="1"/>
+                           
                            
                         </support>
                         <extent>
@@ -67,7 +67,7 @@
 <lb n="3"/>Alasamanay
 </quote> </desc><desc type="shelfmark" subtype="beginning cover">BnF shelfmark sticker <quote>INDIEN 484</quote> (<locus facs="1">front cover, recto</locus>).</desc></additions>
                   <bindingDesc>
-                     <binding><p><material cert="medium">Pinewood</material> covers apparently fabricated in the BnF. 400 x 35 mm.</p></binding>
+                     <binding><p><material cert="medium">Pinewood</material> covers apparently fabricated in the BnF. 400 x 35 mm.</p><decoNote type="stringhole"><measure unit="stringhole" quantity="1"/></decoNote></binding>
                   </bindingDesc>
                </physDesc>
                <history>
@@ -102,30 +102,30 @@
   <milestone n="1" unit="column"/><note xml:lang="en">unblackened; addition</note>
   <lb n="1"/>y<pc>-</pc>e<unclear reason="eccentric_ductus">ḻu</unclear>tta
   
-  <seg function="title"><milestone n="2" unit="column"/>
+  <seg function="recitation-statement"><milestone n="2" unit="column"/>
   <lb n="1"/>Aṟ<ex>ciya</ex> ~ Alacu
-<lb n="2"/>Ammā<sic>ḷai</sic></seg>
-<seg function="TBC"><lb n="3"/><persName xml:lang="ta" role="reciter"><unclear>vi</unclear>yākulam<sic>ma</sic>ḷ</persName>
-<lb n="4"/>paṭikkiṟatu</seg>
+<lb n="2"/>Ammā<sic>ḷai</sic>
+<lb n="3"/><persName xml:lang="ta" role="reciter"><unclear>vi</unclear>yākulam<sic>ma</sic>ḷ</persName>
+<lb n="4"/>paṭikkiṟatu
     
     <seg function="date"><milestone n="3" unit="column"/>
    <lb n="1"/><g ref="#āyiram"/>8<g ref="#nūṟu"/>4<g ref="#pattu"/>3 {varuṣam}
       <lb n="2"/>Aṟpi<ex>ci</ex> {mācam} <g ref="#pattu"/>1 {tēti}</seg>
   
-  <seg function="TBC"><milestone n="4" unit="column"/>
+  <milestone n="4" unit="column"/>
   <lb n="1"/><placeName xml:lang="ta" key="Rāyapuram">rāyapura</placeName>ttil irukkum
 <lb n="2"/><persName xml:lang="ta">mayilai ciṉṉa tampi mutali
 <lb n="3"/>yār</persName> kumarat=tiyar <persName xml:lang="ta" role="reciter">kula
 <lb n="4"/>Ammāḷ</persName>p paṭikkiṟa
-<lb n="5"/>Alaiciyammā<del><gap reason="illegible" n="1" unit="character"/></del>ṉai
+<seg function="documenting-note"><lb n="5"/>Alaiciyammā<del><gap reason="illegible" n="1" unit="character"/></del>ṉai
 <lb n="6"/>y<pc>-</pc>eṭuttavarkaḷ kuṭukka vēṇu
-<lb n="7"/>m</seg>
+<lb n="7"/>m <note xml:lang="en">lending-borrowing formula</note></seg></seg>
 
      <pb facs="3" n="[1]v"/>
-  <milestone n="1" unit="column"/>
+  <milestone n="1" unit="column"/><note xml:lang="en">unblackened</note>
   <lb n="1"/><g ref="#pcs"/>
   
-  <milestone n="2" unit="column"/>
+  <milestone n="2" unit="column"/><note xml:lang="en">unblackened</note>
   <lb n="1"/><del><gap reason="illegible" n="9" unit="character"/></del>
   
     </ab>
@@ -164,13 +164,13 @@
   <pb facs="60" n="54v"/>
   <milestone n="1" unit="column"/>
   <lb n="1-4"/><gap reason="ellipsis"/>
-  <seg function="explicit"><lb n="5"/>cattiya-vētattil uḷḷa ~ ca<add place="above">ka</add>larumē vāḻi</seg> _________ <seg function="completion-statement">muṟṟum</seg>
+  <seg function="explicit"><lb n="5"/>cattiya-vētattil uḷḷa ~ ca<add place="above">ka</add>larumē vāḻi _________</seg> <seg function="colophon"><seg function="completion-statement">muṟṟum</seg>
       
-  <seg function="colophon"><milestone n="2" unit="column"/>
+  <seg function="copy-statement"><milestone n="2" unit="column"/>
    <lb n="1"/><g ref="#āyiram"/>8<g ref="#nūṟu"/>3<g ref="#pattu"/>8 {varuṣam} navampar {mācam} 21 {tēti} <placeName xml:lang="ta" key="Rāyapuram">Irāyapura</placeName>tti
 <lb n="2" break="no"/>l irukkum <persName xml:lang="ta">ciṉṉat tampi mutaliyār</persName> kumāratti 
 <lb n="3"/><persName xml:lang="ta" role="reciter">Ammaṇiyammāḷ viyākulam</persName> Ivarkaḷ iraṇṭu pē
-<lb n="4" break="no"/>rum vācikkiṉṟa Alacu Ammāṉai y<pc>-</pc>eḻuti niṟaintutu
+<lb n="4" break="no"/>rum vācikkiṉṟa Alacu Ammāṉai y<pc>-</pc>eḻuti niṟaintutu</seg>
 <lb n="5"/>Ippaṭik=ki ~ <persName xml:lang="ta" role="scribe">Ā ~ Āṟokkiya=m</persName> kai y<pc>-</pc>eḻuttu</seg> <g ref="#pcl"/>
  
     </ab>
@@ -179,7 +179,7 @@
 
   <pb facs="60" n="[1]r"/>
  
-   <seg function="date"><lb n="1"/><g ref="#āyiram"/>8<g ref="#nūṟu"/>4<g ref="#pattu"/></seg>
+   <seg function="colophon" cert="low"><seg function="date"><lb n="1"/><g ref="#āyiram"/>8<g ref="#nūṟu"/>4<g ref="#pattu"/></seg></seg>
   
       </ab>
 </body></text></TEI>
