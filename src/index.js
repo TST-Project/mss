@@ -45,13 +45,17 @@ const readfiles = function(arr) {
     });
     output.index(data);
     console.log('Main index compiled: index.html.');
-    output.index(data,{name: 'Ducler collection', prefix: 'Ducler',keys:['Phillipe Étienne Ducler','Ducler, Phillipe Étienne']});
-    console.log('Ducler index compiled: ducler.html.');
     output.index(data,{name: 'Ariel collection', prefix: 'Ariel',keys:['Édouard Ariel','Ariel, Édouard']});
     console.log('Ariel index compiled: ariel.html.');
     output.index(data,{name: 'Burnouf collection', prefix: 'Burnouf',keys:['Eugène Burnouf','Burnouf, Eugène']});
     console.log('Burnouf index compiled: burnouf.html.');
     output.index(data,{name: 'Cordier collection', prefix: 'Cordier',keys:['Palmyr Cordier','Cordier, Palmyr']});
     console.log('Cordier index compiled: cordier.html.');
+    output.index(data,{name: 'Ducler collection', prefix: 'Ducler',keys:['Phillipe Étienne Ducler','Ducler, Phillipe Étienne']});
+    console.log('Ducler index compiled: ducler.html.');
+    output.index(data,{name: 'Haas collection', prefix: 'Haas',keys:['Frédéric Haas','Haas, Frédéric']});
+    console.log('Ducler index compiled: haas.html.');
+    output.index(data,{name: 'Vinson collection', prefix: 'Vinson',keys:['Julien Vinson','Vinson, Julien']});
+    console.log('Ducler index compiled: vinson.html.');
 };
 
