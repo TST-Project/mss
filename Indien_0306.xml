@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="en">
+      <fileDesc>
+         <titleStmt>
+            <title><title xml:lang="ta">Kāñcipurāṇam</title></title>
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2022</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  
+                  <idno type="shelfmark">Indien 306</idno>
+                  <idno type="alternate"><idno>Tamoul 306</idno><idno>Ariel TBC</idno><idno>b/27</idno></idno>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103836s</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b52513298r</idno></msIdentifier>
+               <msContents class="#STM">
+                  <summary><p>The <title xml:lang="ta">Kāñcipurāṇam</title>.</p>
+   
+<p>Description based on the digital images available on Gallica.</p>
+<p>Dimensions after Cabaton (1912).</p>      
+</summary>
+                  
+                  
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page (additional)</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta">Kāñcipurāṇam: <term xml:lang="en">satellite stanzas (2 <foreign xml:lang="ta">kāppu</foreign>s)</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T3" defective="false"><title xml:lang="ta">Kāñcipurāṇam: Mūlam</title><textLang mainLang="tam"/></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="pothi" rend="manuscript">
+                     <supportDesc material="palm-leaf">
+                        <support>
+                           <!--measure unit="stringholes" quantity=""/-->
+                        </support>
+                        <extent>
+                           <measure unit="folio" quantity="509">{1} + {1} + 507 (U1 + U2 + U3).</measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           <width quantity="425"/><height quantity="35"/></dimensions>
+                        <dimensions type="object" unit="mm">
+                            
+                        <depth quantity="30"/></dimensions>
+                        <dimensions type="written" unit="mm">
+                            
+                            
+                        </dimensions>
+                        </extent>
+                        
+                        
+                        
+                        
+                     <collation>
+                     
+                     <desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">Title Page (additional)</emph>. No foliation. Verso blank.</desc><desc xml:id="U2">1 folio = <emph rend="bold"><title xml:lang="ta">Kāñcipurāṇam: </title> satellite stanzas (2 <foreign xml:lang="ta">kāppu</foreign>s)</emph>. No foliation.</desc><desc xml:id="U3">38 folios = <emph rend="bold"><title xml:lang="ta">Kāñcipurāṇam</title></emph>. Tamil foliation {1}, 2-507.</desc></collation><condition>Very good state of preservation, despite boreholes. </condition></supportDesc>
+                     <layoutDesc>
+                        <p/>
+                     </layoutDesc>
+                  </objectDesc>
+                  
+                  
+                  
+               <handDesc>
+                     
+                     
+                    
+                  <handNote synch="#U1" scope="minor" script="tamil" medium="incised soot"><desc>Hand #1. <persName role="scribe">Ariel's title scribe</persName>.</desc></handNote><handNote synch="#U2 #U3" scope="major" script="tamil" medium="incised soot"><desc>Several hands.</desc></handNote></handDesc><additions>
+                  
+                     
+                     
+                     
+                    
+                    
+                    
+                     
+                  <desc synch="#U1" type="shelfmark">Shelfmark in black ink: <quote>b/27</quote> (<locus facs="3">f[1]r</locus>).</desc><desc synch="#U1" type="documenting-note">BnF bequest sticker <quote>DON N° <space type="vacat"/></quote> (<locus facs="3">front cover, recto</locus>). </desc><desc synch="#U1" type="shelfmark">BnF shelfmark sticker: <quote>INDIEN 306</quote> (<locus facs="3">front cover, recto</locus>). </desc><desc synch="#U3" type="intertitle" subtype="marginal left">Left-marginal intertitles. See selection below.</desc></additions><bindingDesc>
+                     <binding>
+                        <p>Original <material>wood</material> covers.</p>
+                     <decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
+                  </bindingDesc></physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian" notAfter="1854">Internally dated to the year <foreign xml:lang="ta">vicuvāvacu</foreign> of the Jovian cycle, that is, CE 1845-1846, 1785-1786, 1725-1726, etc. See intermediary colophons (U3). Dated to 1845 by Vinson in Vinson et al. (1866-) and by Cabaton (1912), on unstated grounds (presumably palaeographical and material analysis arguments). Not after 1854, since part of the collection of <persName role="collector">Édouard Ariel</persName> (1818-1854), bequested in 1855 to the Société Asiatique, Paris (Rosny 1868).</origDate>
+                     <origPlace>Tamilnadu.</origPlace>
+                  </origin>
+                  <acquisition>
+                     <p>Received, August 1st, 1866, from the Société Asiatique. See BnF, département des Manuscrits, inventaire 7 = <title>Dons: manuscrits et imprimés documentaires, 1848-1895</title>, no. 1192.</p>
+                  </acquisition>
+               <provenance><p>Owned by <persName role="collector">Édouard Ariel</persName> (1818-1854). Bequested by Édouard Ariel to Société Asiatique (Rosny 1868, p. 177).</p></provenance></history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f63">p. 45, no. 306</ref>.</bibl><bibl>Rosny, Léon de. 1868. <title type="article">La bibliothèque tamoule de M. Ariel, de Pondichéry</title>. In: <title>Variétés orientales</title> (pp. 177‒224). Paris: Maisonneuve. </bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. 1866-. <title> Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f155">f. 70r, no. <del>282</del> 306</ref>. </bibl><bibl>Zvelebil, Kamil V. 1995. <title>Lexicon of Tamil Literature</title>. Leiden [etc.]: Brill.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+         
+         
+      <p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.            </p></encodingDesc>
+      
+   <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
+         
+      
+      <change when="2022-07">Record created by Emmanuel FRANCIS</change></revisionDesc></teiHeader>
+    <sourceDoc>
+        <surface/>
+    </sourceDoc>
+<facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b52513298r/manifest.json"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+  <ab>
+    
+    <pb facs="3" n="[1]r"/>
+      <seg function="blessing">
+     <milestone n="1" unit="column"/>
+  <lb n="1-3"/>veṟṟivēl uṟṟa tuṇai</seg>
+  
+    <milestone n="2" unit="column"/>
+  <seg function="title"><lb n="1"/>Iḵtu
+  
+      <milestone n="3" unit="column"/>
+  <lb n="1-2"/>kāñcipurāṇam</seg>
+      
+    <pb n="[1]v"/><note xml:lang="en">blank</note>
+</ab>
+</body>
+</text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
+  <ab>
+    
+    <pb facs="5" n="[1]r"/>
+    <seg function="header">
+      <seg function="blessing">
+     <milestone n="1" unit="left-margin"/>
+  <lb n="1-3"/>veṟṟivēl uṟṟa tuṇai</seg>
+      
+      <seg function="title"><milestone n="2" unit="left-margin"/>
+  <lb n="1-3"/>kāñcipurāṇam</seg>
+      
+      <seg function="intertitle"><milestone n="2" unit="left-margin"/>
+  <lb n="1"/>kāppu</seg>
+      </seg>
+    
+    <seg function="satellite-stanza"><milestone unit="main-text-area"/>
+      <lg><l><lb n="1"/>Iru<gap reason="ellipsis"/></l>
+        <l><lb n="2"/>kuru<gap reason="ellipsis"/></l>
+        <l><lb n="3"/>pari<gap reason="ellipsis"/></l>
+        <l><lb n="4"/>tiru<gap reason="ellipsis"/></l></lg></seg>
+    
+       <pb facs="6" n="[1]v"/>
+      
+      <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1"/>Ituvum atu</seg>
+    
+    
+    <milestone unit="main-text-area"/>
+      <seg function="satellite-stanza"><lg><l><lb n="1"/>vikaṭa<gap reason="ellipsis"/></l>
+        <l><lb n="2"/>vikaṭa<gap reason="ellipsis"/></l>
+        <l><lb n="3"/>vikaṭa<gap reason="ellipsis"/></l>
+        <l><lb n="4"/>vikaṭa<gap reason="ellipsis"/></l></lg></seg>
+    
+    </ab>
+  </body>
+</text><text synch="#U3" corresp="#T3" xml:lang="ta"><body>
+  <ab>
+    
+  <pb facs="7" n="[1]r"/>
+    
+    <seg function="header">
+     <seg function="title"><milestone unit="left-margin"/>
+  <lb n="1-2"/>kāñcipurāṇam</seg>
+<seg function="intertitle"><lb n="3-4"/>kaṭavuḷ vaṇakkam</seg>
+      </seg>
+     
+  <seg function="incipit"><milestone unit="main-text-area"/>
+  <lb n="1"/><gap reason="ellipsis"/></seg> 
+    
+    <pb facs="13" n="4r"/>
+    
+    <seg function="header">
+     <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1-3"/>tirunāṭṭucciṟappu</seg>
+      </seg>
+    
+    <pb facs="37" n="16r"/>
+    <lb n="5"/><gap reason="ellipsis"/> = <g ref="#nūṟu"/>45 <g ref="#pcs"/> <seg function="colophon"><seg function="copy-statement">tirunāṭṭucciṟappu <persName xml:lang="ta" role="scribe">cīnivācaṉāl e</persName>ḻuti muṟṟuppeṟṟatu<g ref="#pcs"/> ~</seg> <seg function="total-stanzas">{Āka} viruttam ~ <g ref="#nūṟu"/>6<g ref="#pattu"/>9 ~</seg> <seg function="date">vicuvāvacu {varuṣam} Āvaṇi {mācam} <g ref="#pattu"/>9 {tēti}</seg> <seg function="blessing">veṟṟivēl uṟṟa tuṇai<g ref="#end_of_text"/></seg> <note xml:lang="en">intermediary colophon, chapter 1</note></seg>
+            
+    <pb facs="38" n="16v"/><note xml:lang="en">blank</note>
+    
+   <pb facs="39" n="17r"/>
+    <seg function="header">
+     <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1-2"/>tirunakaracciṟappu</seg>
+      </seg>
+    
+    <pb facs="60" n="27v"/>
+      <lb n="5"/><gap reason="ellipsis"/> <g ref="#pcs"/> <g ref="#pattu"/>26 <g ref="#pcs"/>
+    <seg function="colophon"><seg function="completion-statement"><lb n="6"/>tirunakaracciṟappu muṟṟiṟṟu</seg> <seg function="total-stanzas">{Āka} tiruviruttam <g ref="#pcs"/> 2<g ref="#nūṟu"/>9<g ref="#pattu"/>4 <g ref="#pcs"/></seg> <seg function="copy-statement">Iḵtu <persName xml:lang="ta" role="scribe"><placeName xml:lang="ta">mutaliyārppeṭṭai</placeName> cuppupāttiyārāl</persName> vicuvāvacu {varuṣam} Āvaṇi {mācam} <g ref="#pattu"/>1 {tēti}yil eḻuti muṟṟupeṟṟatu<g ref="#pcs"/></seg> <note xml:lang="en">intermediary colophon, chapter 2</note></seg>
+    
+    <pb facs="61" n="28r"/>
+    <seg function="header">
+     <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1-3"/>nāṉkāvatu patikam</seg>
+      </seg>
+                
+        <pb facs="69" n="32r"/>
+    <seg function="header">
+     <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1-5"/>mutalāvatu purāṇavaralāṟṟup paṭalam</seg>
+      </seg>
+    
+    <pb facs="76" n="35v"/>
+    <seg function="header">
+     <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1-4"/>Ireṇṭāvatu caṉaṟkumārappaṭalam <g ref="#end_of_text"/></seg>
+      </seg>
+    
+    <pb facs="77" n="36r"/>
+    <seg function="header">
+     <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1-4"/>Ireṇṭāvatu caṉaṟkumārapaṭalam</seg>
+      </seg>
+    
+    <pb facs="76" n="42v"/>
+      <lb n="1"/><gap reason="ellipsis"/> <g ref="#pcs"/> 56 <g ref="#pcs"/> <seg function="colophon"><seg function="completion-statement">caṉaṟkumārappaṭala muṟṟiṟṟu <g ref="#pcs"/></seg> <seg function="total-stanzas">{Āka} viruttam 4<g ref="#nūṟu"/>9 <g ref="#pcs"/></seg> <seg function="copy-statement">Iḵtu <persName xml:lang="ta" role="scribe"><unclear>kumacai</unclear>piḷḷaiyāl</persName> vicuvācu {varusam}
+    <lb n="2"/>Āvaṇi {mācam} <g ref="#pattu"/>1 <g ref="#pcs"/> yil eḻuti muṟṟuppeṟṟatu<g ref="#pcs"/></seg> <note xml:lang="en">intermediary colophon</note></seg>
+    
+    <pb facs="91" n="43r"/>
+    <seg function="header">
+     <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1-4"/>3~vatu talviceṭppaṭalam</seg>
+      </seg>
+    
+     <pb facs="917" n="456r"/>
+    <lb n="7"/><gap reason="ellipsis"/> = <g ref="#āyiram"/>2<g ref="#nūṟu"/>2<g ref="#pattu"/>3 = <g ref="#pcl"/>
+
+    <pb facs="918" n="456v"/>
+      <seg function="colophon"><seg function="copy-statement"><lb n="1"/>Iḵtu vicuvācu {varusam} Āvaṇi {mācam} <g ref="#pattu"/>5 <g ref="#pcs"/> <persName xml:lang="ta" role="scribe"><placeName xml:lang="ta">putuppāḷaiyam</placeName> Aruṇācalavupāttiyāyarālum</persName> <persName xml:lang="ta" role="scribe"><placeName xml:lang="ta">ṣeyūr</placeName> pāḷaiyavupāttiyāyarālum e</persName>ḻuti muṟṟuppeṟṟatu <note xml:lang="en">intermediary colophon</note></seg></seg>
+    <lb n="2"/><note xml:lang="en">centred line; unblackened</note> <gap reason="ellipsis"/>
+    
+    <pb facs="919" n="457r"/>
+    <seg function="header">
+     <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1-4"/>Āṟāvatu paṉṉi<sic>runām</sic> ppaṭalam</seg>
+      </seg>
+                
+    <pb facs="1021" n="507r"/><note xml:lang="en">blank</note>
+    <lb n="1"/><gap reason="ellipsis"/> = 453 = <gap reason="ellipsis"/>
+    <seg function="explicit"><lb n="2"/><gap reason="ellipsis"/> = 454 = <gap reason="ellipsis"/>
+    <lb n="3"/><gap reason="ellipsis"/> = 455 =</seg> <seg function="colophon"><seg function="completion-statement">paṉṉireṇṭām paṭalam muṟṟiṟṟu ~</seg></seg>
+            
+    <pb facs="1022" n="507v"/><note xml:lang="en">blank</note>
+
+      </ab>
+</body>
+</text></TEI>

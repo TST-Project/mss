@@ -30,11 +30,11 @@
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page (additional)</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta">Citamparapurāṇacurukkam: <term xml:lang="en">Invocation (2 satellite stanzas)</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U3a" xml:id="T3" defective="false"><title xml:lang="ta">Citamparapurāṇacurukkam: <term xml:lang="en">Invocation (1 satellite stanza and its commentary)</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U3b" xml:id="T4" defective="true"><title xml:lang="ta">Citamparapurāṇam: Mūlam &amp; Urai</title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi">
+                  <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
                         <support>
                            <!--measure unit="stringholes" quantity=""/-->
-                        <measure unit="stringhole" quantity="2"/></support>
+                        </support>
                         <extent>
                            <measure unit="folio" quantity="40">{1} + {1} + 38 (U1 + U2 + U3).</measure>
                            <dimensions type="leaf" unit="mm">
@@ -52,20 +52,22 @@
                         
                         
                         
-                        <condition>Very good state of preservation, despite boreholes. </condition>
+                        
                      <collation>
                      
-                     <desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">Title Page (additional)</emph>. No foliation. Verso blank.</desc><desc xml:id="U2">1 folio = <emph rend="bold"><title xml:lang="ta">Citamparapurāṇacurukkam</title>: Invocation (2 satellite stanzas)</emph>. No foliation. Verso blank.</desc><desc xml:id="U3">38 folios = <emph rend="bold"><title xml:lang="ta">Citamparapurāṇacurukkam</title></emph>. Tamil foliation 1-38.</desc><desc xml:id="U3a">1 folio = <emph rend="bold"><title xml:lang="ta">Citamparapurāṇacurukkam</title>: Invocation (1 satellite stanza and its commentary)</emph>. Tamil foliation 1. Verso blank.</desc><desc xml:id="U3b">37 folios = <emph rend="bold"><title xml:lang="ta">Citamparapurāṇacurukkam</title>: Text &amp; Commentary</emph>. Tamil foliation 2-38.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation></supportDesc>
+                     <desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">Title Page (additional)</emph>. No foliation. Verso blank.</desc><desc xml:id="U2">1 folio = <emph rend="bold"><title xml:lang="ta">Citamparapurāṇacurukkam</title>: Invocation (2 satellite stanzas)</emph>. No foliation. Verso blank.</desc><desc xml:id="U3">38 folios = <emph rend="bold"><title xml:lang="ta">Citamparapurāṇacurukkam</title></emph>. Tamil foliation 1-38.</desc><desc xml:id="U3a">1 folio = <emph rend="bold"><title xml:lang="ta">Citamparapurāṇacurukkam</title>: Invocation (1 satellite stanza and its commentary)</emph>. Tamil foliation 1. Verso blank.</desc><desc xml:id="U3b">37 folios = <emph rend="bold"><title xml:lang="ta">Citamparapurāṇacurukkam</title>: Text &amp; Commentary</emph>. Tamil foliation 2-38.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Very good state of preservation, despite boreholes. </condition></supportDesc>
                      <layoutDesc>
                         <p/>
                      </layoutDesc>
                   </objectDesc>
-                  <handDesc>
+                  
+                  
+                  
+               <handDesc>
                      
                      
                     
-                  <handNote synch="#U1" scope="minor" scribeRef="#ArielTitleScribe" script="tamil" medium="incised soot"><desc>Hand #1.</desc></handNote><handNote synch="#U2 #U3 #U3a" scope="major" script="tamil" medium="incised soot"><desc>Hand #2. </desc></handNote></handDesc>
-                  <additions>
+                  <handNote synch="#U1" scope="minor" script="tamil" medium="incised soot"><desc>Hand #1. <persName role="scribe">Ariel's title scribe</persName>.</desc></handNote><handNote synch="#U2 #U3 #U3a" scope="major" script="tamil" medium="incised soot"><desc>Hand #2. </desc></handNote></handDesc><additions>
                   
                      
                      
@@ -74,13 +76,11 @@
                     
                     
                      
-                  <desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 304</quote> (<locus facs="4">front cover, recto</locus>). </desc><desc synch="#CoverFront" type="documenting-note" subtype="cover front">BnF bequest sticker <quote>DON N° <space type="vacat"/></quote> (<locus facs="4">front cover, recto</locus>). </desc><desc synch="#U1" type="shelfmark">Shelfmark in black ink: <quote>b/31</quote> (<locus facs="5">f[1]r</locus>).</desc></additions>
-                  <bindingDesc>
+                  <desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 304</quote> (<locus facs="4">front cover, recto</locus>). </desc><desc synch="#CoverFront" type="documenting-note" subtype="cover front">BnF bequest sticker <quote>DON N° <space type="vacat"/></quote> (<locus facs="4">front cover, recto</locus>). </desc><desc synch="#U1" type="shelfmark">Shelfmark in black ink: <quote>b/31</quote> (<locus facs="5">f[1]r</locus>).</desc></additions><bindingDesc>
                      <binding>
                         <p>Original <material>wood</material> covers? </p>
-                     </binding>
-                  </bindingDesc>
-               </physDesc>
+                     <decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
+                  </bindingDesc></physDesc>
                <history>
                   <origin>
                      <origDate calendar="gregorian" notAfter="1854">No internal date. Dated to circa 1780 by Vinson in Vinson et al. (1866-) and to 1780 by Cabaton (1912), on unstated grounds (presumably palaeographical and material analysis arguments). Not after 1854, since part of the collection of <persName role="collector">Édouard Ariel</persName> (1818-1854), bequested in 1855 to the Société Asiatique, Paris (Rosny 1868).</origDate>
