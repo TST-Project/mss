@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><title xml:lang="ta">Pāratam</title></title>
+            
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2022</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Indien 959</idno>
+                  <idno type="alternate"><idno>Vinson 959</idno></idno>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc104578v</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b525133018</idno></msIdentifier>
+               <msContents class="#STM">
+                  <summary><p>The <title xml:lang="ta">Pāratam</title>.</p>
+<p>This appears to be an old manuscript, with several damaged leaves, supplemented by later hands. For instance:
+  <list>
+    <item>U2 and U4, each made of a single folio, have almost the same text, but by two different hands. U4 appears as a replacement copy for U2.</item>
+    <item>U3 is a single folio, much damaged, which has exactly the same text as U5, f1, which appears to bea a replacement copy of U3.</item>
+    <item>U5, f201<hi rend="superscript">2</hi>, is an addition, unblackened, by another hand, inserted in the old manuscript.</item>
+    </list>
+</p>
+<p>Description based on the digital images available on Gallica.</p></summary>
+                  
+               <msItem synch="#U2" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Satellite Stanzas</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T2" defective="false"><title xml:lang="ta">Pāratam: <term xml:lang="en">isolated folio</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U4" xml:id="T3" defective="false"><title xml:lang="ta"><term xml:lang="en">Satellite Stanzas</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U5" xml:id="T4" defective="false"><title xml:lang="ta">Pāratam: Mūlam</title><textLang mainLang="tam"/></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="pothi" rend="manuscript">
+                     <supportDesc material="palm-leaf">
+                        <support>
+                           
+                           
+                        </support>
+                        <extent>
+                           <measure unit="folio" quantity="303">{1} + {1} + {1} + {1} + 297 + {1} + {1} (U1 + U2 + U3 + U4 + U5 + U6).</measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           </dimensions>
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
+                        
+                        
+                        
+                     <collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso.</desc><desc xml:id="U2">1 folio = <emph rend="bold">Satellite Stanzas</emph>. No foliation. Verso blank.</desc><desc xml:id="U3">1 folio = <emph rend="bold">Pāratam</emph>: isolated folio. No foliation.</desc><desc xml:id="U4">1 folio = <emph rend="bold">Satellite Stanzas</emph>. No foliation. Verso blank.</desc><desc xml:id="U5">297 folios = <emph rend="bold"><title xml:lang="ta">Pāratam</title>: Text</emph>. Tamil foliation {1}, 2-4<hi rend="superscript">1</hi>, 4<hi rend="superscript">2</hi>, 5-21<hi rend="superscript">1</hi>, 21<hi rend="superscript">2</hi>, 22-93<hi rend="superscript">1</hi>, 93<hi rend="superscript">2</hi>, 94-201<hi rend="superscript">1</hi>, 201<hi rend="superscript">2</hi> (addition, by another hand), 202<hi rend="superscript">1</hi>, 202<hi rend="superscript">2</hi>, 202<hi rend="superscript">3</hi>, 203-292.
+</desc><desc xml:id="U6">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso. Inserted between f14 and f15 of U5.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Relatively poor state of preservation. Edges broken.</condition></supportDesc>
+                     <layoutDesc>
+                        
+                     </layoutDesc>
+                  </objectDesc>
+                  
+                  
+                  
+                  
+               <handDesc><handNote synch="#U2 #U3" scope="major" script="tamil" medium="incised soot"><desc>Hand #1.</desc></handNote><handNote synch="#U4" scope="major"><desc>Hand #2.</desc></handNote><handNote synch="#U5" scope="major"><desc>Hand #1 and Hand #2.</desc></handNote></handDesc><decoDesc>
+                  </decoDesc><additions>
+                  <desc synch="#CoverFront" type="commenting-note" subtype="cover front">Sticker written in black ink (<locus facs="1">front cover, recto</locus>) : 
+<quote xml:lang="fr" rend="block">
+  <lb n="1"/><gap reason="ellipsis"/> 1er avril 1861
+  <lb n="2"/><term xml:lang="ta">villipputtūr pāratam</term>
+  <lb n="3"/>(visa de l'imprimeur)
+  </quote></desc><desc synch="#U5" type="intertitle" subtype="marginal left">Left-marginal intertitles.</desc><desc synch="#CoverBack" type="shelfmark" subtype="back cover">BnF shelfmark sticker: <quote>INDIEN 959</quote> (<locus facs="612">back cover, verso</locus>). </desc></additions><bindingDesc>
+                     <binding><p>Original <material>wood</material>covers. <locus facs="610">Wooden stick</locus> tied to the string.</p><decoNote type="stringhole"><measure unit="stringhole" quantity="1"/></decoNote></binding>
+                  </bindingDesc></physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian" notAfter="1849">Internally dated to the year <foreign xml:lang="ta">kīlaka</foreign> of the Jovian cycle, that is, CE 1848-1849, 1788-1789, 1728-1729, etc. See colophons: U3, f332r3, f434v6, f556v5.</origDate>
+                     
+                  <origPlace>Tamilnadu.</origPlace></origin>
+                  <provenance><p>Unknown.</p></provenance>
+                  <acquisition><p>Returned by / Received from Julien Vinson. See handwritten addition to Cabaton (1912), <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f172">f3r, no. 959</ref>.</p></acquisition>
+               </history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens. Bibliothèque nationale. Département des manuscrits.</title> Paris: E. Leroux. — See handwritten addition, <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f172">f3r, no. 959</ref>.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         
+      <p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.            </p></encodingDesc>
+      
+   <revisionDesc>
+         
+      <change when="2021-12">Record created by Emmanuel FRANCIS.</change></revisionDesc></teiHeader>
+   <facsimile>
+   <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525133018/manifest.json"/></facsimile>
+<text synch="#U2" corresp="#T1" xml:lang="ta"><body>
+  <ab>
+    
+    <pb facs="5" n="[1]r"/>
+      <seg function="header">
+        <seg function="blessing"><milestone unit="left-margin"/>
+        <lb n="1"/><term xml:lang="sa"><supplied reason="lost">hari</supplied>ḥ |
+        <lb n="2"/>Om</term></seg> <seg function="blessing">na
+          <lb n="3"/>ṟāka</seg>
+          <seg function="intertitle"><lb n="3-6"/>Ātipaṟuvama<unclear>kā</unclear>pā<supplied reason="lost">ratam</supplied></seg>
+          <seg function="TBC"><lb n="5"/><gap reason="ellipsis"/></seg>
+  </seg>
+        
+        <seg function="satellite-stanza"><milestone unit="main-text-area"/>
+        <lb n="1"/>Ōta viṉaiyakalu mōṅku <gap reason="ellipsis"/>
+        <lb n="2"/><gap reason="ellipsis"/> ṟaḷ <g ref="#pcs"/></seg> <seg function="satellite-stanza">nīṭāḻi yulakattil <gap reason="ellipsis"/>
+        <lb n="3"/><gap reason="ellipsis"/> <g ref="#pcs"/></seg> <seg function="blessing">muttayyaṉ tuṇai</seg> makāpāratam <gap reason="lost"/>
+        
+  
+   <pb facs="6" n="[1]v"/><note xml:lang="en">blank</note>
+    
+    </ab> 
+</body></text><text synch="#U3" corresp="#T2" xml:lang="ta"><body>
+  <ab>
+    
+    <pb facs="7" n="[1]r"/>
+      <seg function="header">
+        <seg function="blessing"><milestone unit="left-margin"/>
+        <lb n="1"/><term xml:lang="sa"><supplied reason="lost">hari</supplied>ḥ |
+        <lb n="2"/>Om</term></seg>
+  </seg>
+        
+        <seg function="incipit"><milestone unit="main-text-area"/>
+        <lb n="1"/>poruppi <gap reason="ellipsis"/></seg>
+  
+   <pb facs="8" n="[1]v"/>
+    
+    </ab> 
+</body></text><text synch="#U4" corresp="#T3" xml:lang="ta"><body>
+  <ab>
+    
+    <pb facs="9" n="[1]r"/>
+      <seg function="header">
+        <seg function="blessing"><milestone unit="left-margin"/>
+        <lb n="1"/><term xml:lang="sa">hariḥ |
+        <lb n="2"/>Om</term></seg> <seg function="blessing">na
+          <lb n="3"/>ṟāka</seg>
+          <seg function="intertitle"><lb n="3-7"/>Ātipaṟuvamakāpāratam</seg>
+  </seg>
+                       
+     <seg function="satellite-stanza"><milestone unit="main-text-area"/>
+        <lb n="1"/>Ōta viṉaiyakalu mōṅku <gap reason="ellipsis"/>
+        <lb n="2"/><gap reason="ellipsis"/> ṟaḷ <g ref="#pcs"/></seg> <seg function="satellite-stanza">nīṭāḻi yulakattil <gap reason="ellipsis"/>
+        <lb n="3"/><gap reason="ellipsis"/> <g ref="#pcs"/></seg> <seg function="blessing">muttayyaṉ tuṇai</seg> <seg function="title">makāpāratam <gap reason="lost"/></seg>
+    
+   <pb facs="10" n="[1]v"/><note xml:lang="en">blank</note>
+    
+    </ab> 
+</body></text><text synch="#U5" corresp="#T4" xml:lang="ta"><body>
+  <ab>
+    
+    <pb facs="11" n="[1]r"/>
+      <seg function="header">
+        <seg function="blessing"><milestone unit="left-margin"/>
+        <lb n="1"/>ha<sic>ru</sic>ḥ |
+        <lb n="2"/>Om</seg>
+  </seg>
+        
+        <seg function="incipit"><milestone unit="main-text-area"/>
+        <lb n="1"/>poruppi <gap reason="ellipsis"/>
+        <lb n="2"/><gap reason="ellipsis"/> <g ref="#pcs"/> 1 <g ref="#pcs"/></seg> <gap reason="ellipsis"/>
+        
+   <pb facs="14" n="2v"/>
+      <seg function="header">
+        <seg function="intertitle"><milestone unit="left-margin"/>
+        <lb n="1-2"/><gap reason="ellipsis"/></seg>
+  </seg>
+        
+    <pb facs="36" n="12v"/>
+      <seg function="header">
+        <seg function="intertitle"><milestone unit="left-margin"/>
+        <lb n="1-2"/><gap reason="ellipsis"/></seg>
+  </seg>
+           
+    <pb facs="36" n="292v"/>
+    <lb n="1"/><gap reason="ellipsis"/>
+    <seg function="explicit"><lb n="2"/><gap reason="ellipsis"/> nittiyam peṟu
+    <lb n="3" break="no"/>var tāmē ~ 4<g ref="#pattu"/>8 ~ vē<expan>ṟu</expan> ~ <gap reason="ellipsis"/> <g ref="#pcs"/> 4<g ref="#pattu"/>8 <g ref="#pcs"/></seg> <seg function="colophon"><seg function="blessing"><term xml:lang="sa">rāma</term>ceyam <g ref="#pcs"/></seg>
+    <seg function="completion-statement"><lb n="4"/><gap reason="ellipsis"/>ccarukka muṟṟum <g ref="#pcs"/></seg> <seg function="total-stanzas">Ākac carukka <space type="vacat"/> kku viruttam <space type="vacat"/> <g ref="#pcs"/></seg> <seg function="blessing">śrīvācutēvar tuṇai <g ref="#pcs"/></seg><seg function="blessing">śrīpaṭṭāpirāmacuvāmi tuṇai <g ref="#pcs"/></seg> <seg function="blessing">śrī<term xml:lang="sa">rāmajeyarāmajeyajeyarāmarā</term>mā <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/></seg>
+    <seg function="copy-statement"><lb n="5"/>ṉantaṉa {varuṣam} Āṉi {mācam} 2<g ref="#pattu"/>6 {tēti} cattamiyu maṅkaḷavāramu=M kūṭiṉa cupatiṉattil <gap reason="ellipsis"/>naṭcettiramum ciṅkavaṉattil irukkum <persName xml:lang="ta" role="scribe">tiyākarācaṉ</persName> makāpāratam yeḻuti mukintatu muṟṟu<seg rend="grantha">m</seg> <g ref="#pcs"/></seg>
+    <seg function="blessing"><lb n="6"/>tiyākarācar tuṇai</seg> <seg function="blessing">cokkaliṅkam tuṇai</seg> <seg function="blessing">mīṉāṭci tuṇai</seg> <seg function="blessing">cuppiṟamaṇiyar tuṇai <g ref="#pcs"/></seg> <seg function="blessing">rācēntiramūṟti tuṇai</seg> <seg function="blessing">Āṟamavaḷattavaḷ tuṇai <g ref="#pcs"/></seg> <seg function="blessing">vētaṉāyaki tuṇai <g ref="#pcs"/></seg>
+    <seg function="blessing">śrīrā<seg rend="grantha">ma</seg>jeyam <g ref="#pcs"/></seg>
+    <seg function="blessing"><lb n="7"/><term xml:lang="sa">hari Om</term></seg> <seg function="blessing">naṉṟāka</seg> <seg function="blessing">kuru vāḻka</seg> <seg function="blessing">kuruvē tuṇai</seg> <seg function="blessing"><sic>ke</sic>ṇapatiyē namā <g ref="#pcs"/></seg> <seg function="blessing">Intap pāratattaip paṭitta pēr kēṭṭa pēr Immaiyil <gap reason="ellipsis"/> k=kiyamu=M muṭivil kayilāca <gap reason="ellipsis"/> cēruvar <g ref="#pcs"/></seg>
+    <seg function="blessing"><lb n="8"/>makaleṭcumi pātāravintamē tuṇai <g ref="#pcl"/></seg></seg> 
+
+    </ab> 
+</body></text></TEI>
