@@ -4,7 +4,7 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title><title xml:lang="ta">Pāratam</title></title>
+				<title><title xml:lang="ta">Pāratam</title> (text &amp; commentary)</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>TST Project</publisher>
@@ -23,17 +23,20 @@
 					<msContents class="#STM">
 						<summary><p>The <title xml:lang="ta">Pāratam</title>.</p>
 
+<p>Photographed in disorder at the beginning and the end for Gallica.</p>
+<p>Several folios with one page darker = outside page at some point of time.</p>
+
 <p>Description based on the digital images available on Gallica.</p>
 <p>Dimensions after Cabaton (1912).</p>      
 
 </summary>
 
-					<msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Pāratam</title><textLang mainLang="tam"/></msItem></msContents>
+					<msItem synch="#U1" xml:id="T1" defective="true"><title xml:lang="ta">Pāratam: Mūlam &amp; Urai</title><textLang mainLang="tam"/></msItem></msContents>
 					<physDesc>
 						<objectDesc form="pothi" rend="manuscript">
 							<supportDesc material="palm-leaf">
 								<extent>
-									<measure unit="folio" quantity="1">{1} + 226 (U1 + U2).</measure>
+									<measure unit="folio" quantity="1">160 (U1).</measure>
 									<dimensions type="leaf" unit="mm">
 
 
@@ -49,8 +52,8 @@
 								
 								<support/>
 								
-							<collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">160 folio = <emph rend="bold">Pāratam</emph>. Tamil foliation. Often lost as many margins are truncated.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Edges truncated.</condition></supportDesc>
-							<layoutDesc> </layoutDesc>
+							<foliation>Original Tamil foliation partially lost in margin truncation. Library Arabic foliation 1-160 in black pencil in right margin.</foliation><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">160 folios = <emph rend="bold">Pāratam</emph>: Text &amp; Commentary. Tamil foliation. Often lost as many margins are truncated. 8 folios with lost foliation, then foliation [1]1, 12, 14, [1]5, 16-25, 27-55, 57-59, 62, 60-87, [88], [89], 90-91, [9]2, 93-107, 109-143, [144], 145-156, 15[7], 158, [15]9, 6 folios with lost foliation.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Edges truncated.</condition></supportDesc>
+							<layoutDesc> <layout writtenLines="4 5"/></layoutDesc>
 						</objectDesc>
 						
 						
@@ -58,7 +61,7 @@
 					<handDesc>
 
 							
-						<handNote synch="#U1" scope="sole" script="tamil" scriptRef="#tamilPulliRegular" medium="incised"/></handDesc><additions><desc synch="#U1" type="documenting-note">BnF sticker <quote>DON N° <space type="vacat"/></quote> (<locus facs="8">f[1]r</locus>).</desc></additions><bindingDesc>
+						<handNote synch="#U1" scope="sole" script="tamil" scriptRef="#tamilPulliRegular" medium="incised soot"><desc>Some folios unblackened.</desc></handNote></handDesc><additions><desc synch="#CoverFront" type="shelfmark documenting-note" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 559</quote> (<locus facs="1">front cover, recto</locus>).</desc></additions><bindingDesc>
 							<binding>
 								<p>Original woodcovers. </p>
 							<decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
@@ -97,52 +100,189 @@
 	
 <facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b52512465k/manifest.json"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
     <ab>
-
-  <pb facs="9" n="[1]r"/>
       
-  <seg function="incipit"><lb n="1"/>
-  Ala Amtulillā</seg> <gap reason="ellipsis"/>
-  
-  <pb facs="14" n="44r"/>
-  <lb n="3"/><gap reason="ellipsis"/> ṉ ākavum
-  
-  <pb facs="17" n="45r"/>
-  <lb n="1"/>y<pc>-</pc>inta kitāv<pc>-</pc>ākiṟa ~ <gap reason="ellipsis"/>
-  
-  <pb facs="20" n="104r"/>
-  <seg function="completion-statement"><lb n="3"/><gap reason="ellipsis"/> ~ Alaiki māṉavi carit=tiram ~ mukintatu muṟṟum <g ref="#pcl"/></seg>
-  
-  <pb facs="23" n="105r"/>
-      <seg function="header">
-  <seg function="intertitle"><milestone unit="left-margin"/>
-  <lb n="1"/>pis·millāki
-  <lb n="2"/>I~tu mucā A
-  <lb n="3" break="no"/>laiki <gap reason="ellipsis"/>
-  <lb n="4"/>m<pc>-</pc>uṭaiya <gap reason="ellipsis"/>
-  <lb n="5"/><gap reason="ellipsis"/>
-  </seg>
-        </seg>
-    
-  <milestone unit="main-text-area"/>
-  <lb n="1"/>Allā <gap reason="ellipsis"/>
-  
-  <pb facs="26" n="199v"/>
-  <lb n="1"/><gap reason="ellipsis"/>
-  <lb n="2"/>ku pōkum paṭi Aṉuppivit=ta
-                    
-  <pb facs="29" n="200r"/>
+      <pb facs="7" n="r"/><note xml:lang="en">library Arabic foliation 3r</note>
       
-  <seg function="intertitle"><milestone unit="left-margin"/>
-  <lb n="1-3"/>periya ṉūṟu ṉāmā</seg>
-    
-      <milestone unit="main-text-area"/>
-  <lb n="1"/>vāṉamum · pūmiyum · poḻutum · <gap reason="ellipsis"/>
+<lb n="1"/><gap reason="ellipsis"/>
+<lb n="2"/><gap reason="ellipsis"/>
+<lb n="3"/><gap reason="ellipsis"/>
+<lb n="4"/><gap reason="ellipsis"/>
+      
+      <pb facs="8" n="v"/><note xml:lang="en">library Arabic foliation 3v</note>
+      
+<lb n="1"/><gap reason="ellipsis"/><gap reason="lost"/> ~ taṟmmaputtira <gap reason="ellipsis"/>
+<lb n="2"/><gap reason="ellipsis"/>
+<lb n="3"/><gap reason="ellipsis"/>
+<lb n="4"/><gap reason="ellipsis"/>
+      
+      
+      <pb facs="19" n="r"/><note xml:lang="en">library Arabic foliation 9r</note>
+      
+<lb n="1"/><gap reason="ellipsis"/>
+<lb n="2"/><gap reason="ellipsis"/>
+<lb n="3"/><gap reason="ellipsis"/> vāḻik karai kaṇṭārē ~ Etu ~ pūlōkam eṅkum 
+<lb n="4"/><gap reason="ellipsis"/>      
+            
+       <pb facs="20" n="v"/><note xml:lang="en">library Arabic foliation 9v</note>
+      
+<lb n="1"/><gap reason="ellipsis"/>
+<lb n="2"/><gap reason="ellipsis"/>
+<lb n="3"/><gap reason="ellipsis"/>
+<lb n="4"/><gap reason="ellipsis"/> ~ 3 ~ per paṭaitta vicaiyaṉoṭu <gap reason="ellipsis"/>
   
-  <pb facs="35" n="226v"/>
-  <seg function="explicit">
-      <lb n="4"/><gap reason="ellipsis"/> koṇṭa
-<lb n="5"/>pērkaḷukku <gap reason="ellipsis"/> Alaiki Ocallamuṭaiya <gap reason="ellipsis"/> tītāṟum uṇṭām ~</seg>
+      <pb facs="15" n="r"/><note xml:lang="en">library Arabic foliation 7r</note>
+      
+<lb n="1"/><gap reason="ellipsis"/>
+<lb n="2"/><gap reason="ellipsis"/> ~ 4 ~ <gap reason="ellipsis"/>
+<lb n="3"/><gap reason="ellipsis"/>
+<lb n="4"/><gap reason="ellipsis"/>
+      
+      <pb facs="11" n="r"/><note xml:lang="en">library Arabic foliation 5r</note>
+      
+<lb n="1"/><gap reason="ellipsis"/>
+<lb n="2"/><gap reason="ellipsis"/>
+<lb n="3"/><gap reason="ellipsis"/> ~ 5 ~ <gap reason="ellipsis"/>
+<lb n="4"/><gap reason="ellipsis"/>
+      
+      
+      <pb facs="5" n="[7]r"/><note xml:lang="en">library Arabic foliation 2r</note>
+      
+<lb n="1"/><gap reason="ellipsis"/>
+<lb n="2"/><gap reason="ellipsis"/> ~ 8 ~ <gap reason="ellipsis"/>
+<lb n="3"/><gap reason="ellipsis"/>
+<lb n="4"/><gap reason="ellipsis"/>
+      
+      <pb facs="3" n="[8]r"/><note xml:lang="en">library Arabic foliation 1r</note>
+      
+<lb n="1"/><gap reason="ellipsis"/>
+<lb n="2"/><gap reason="ellipsis"/> ~ 9 ~ <gap reason="ellipsis"/>
+<lb n="3"/><gap reason="ellipsis"/>
+<lb n="4"/><gap reason="ellipsis"/>            
+      
+      <pb facs="13" n="[9]r"/><note xml:lang="en">library Arabic foliation 6r</note>
+      
+<lb n="1"/><gap reason="ellipsis"/>
+<lb n="2"/><gap reason="ellipsis"/>
+<lb n="3"/><gap reason="ellipsis"/> 
+<lb n="4"/><gap reason="ellipsis"/> ~ <g ref="#pattu"/> ~ <gap reason="ellipsis"/>
+      
+     <pb facs="9" n="[10]r"/><note xml:lang="en">library Arabic foliation 4r</note>
+      
+<lb n="1"/><gap reason="ellipsis"/>
+<lb n="2"/><gap reason="ellipsis"/> <g ref="#pattu"/>1 <g ref="#pcs"/>
+<lb n="3"/><gap reason="ellipsis"/>
+<lb n="4"/><gap reason="ellipsis"/>
+      
+      <pb facs="17" n="[1]1r"/><note xml:lang="en">library Arabic foliation 8r</note>
+      
+<lb n="1"/><gap reason="ellipsis"/>
+<lb n="2"/><gap reason="ellipsis"/>
+<lb n="3"/><gap reason="ellipsis"/> ~ <g ref="#pattu"/>2 ~ <gap reason="ellipsis"/>
+<lb n="4"/><gap reason="ellipsis"/>
+      <pb facs="21" n="12r"/><note xml:lang="en">library Arabic foliation 10r</note>
+      
+<lb n="1"/><gap reason="ellipsis"/>
+<lb n="2"/><gap reason="ellipsis"/>
+<lb n="3"/><gap reason="ellipsis"/>
+<lb n="4"/><gap reason="ellipsis"/>
+      
+      <pb facs="22" n="12v"/><note xml:lang="en">library Arabic foliation 10r</note>
+      
+<lb n="1"/><gap reason="ellipsis"/>
+<lb n="2"/><gap reason="ellipsis"/> ~ <g ref="#pattu"/>4 ~ <gap reason="ellipsis"/>
+<lb n="3"/><gap reason="ellipsis"/>
+<lb n="4"/><gap reason="ellipsis"/>
+      
+            <pb n="13"/><note xml:lang="en">no folio with original Tamil foliation 13</note>
+    
+      <pb facs="23" n="14r"/><note xml:lang="en">library Arabic foliation 11r</note>
+      
+<lb n="1"/><gap reason="ellipsis"/> ~ Etu ~ <gap reason="ellipsis"/>
+<lb n="2"/><gap reason="ellipsis"/>
+<lb n="3"/><gap reason="ellipsis"/>
+<lb n="4"/><gap reason="ellipsis"/>
+      
+      <pb facs="24" n="14v"/><note xml:lang="en">library Arabic foliation 11r</note>
+      
+<lb n="1"/><g ref="#pattu"/>5 ~ <gap reason="ellipsis"/>
+<lb n="2"/><gap reason="ellipsis"/>
+<lb n="3"/><gap reason="ellipsis"/>
+<lb n="4"/><gap reason="ellipsis"/>
+      
+      
+      
+      <pb facs="309" n="[15]9r"/><note xml:lang="en">library Arabic foliation 154r</note>
+      
+<lb n="1"/><gap reason="ellipsis"/>
+<lb n="2"/><gap reason="ellipsis"/> ~ Etu ~ <gap reason="ellipsis"/>
+<lb n="3"/><gap reason="ellipsis"/>
+<lb n="4"/><gap reason="ellipsis"/>
+<lb n="5"/><gap reason="ellipsis"/>
+      
+      <pb facs="310" n="[15]9v"/><note xml:lang="en">library Arabic foliation 154v</note>
+      
+<lb n="1"/><gap reason="ellipsis"/>
+<lb n="2"/><gap reason="ellipsis"/> ~ <g ref="#nūṟu"/>4<g ref="#pattu"/>5 ~ <gap reason="ellipsis"/>
+<lb n="3"/><gap reason="ellipsis"/>
+<lb n="4"/><gap reason="ellipsis"/> ~ Etu ~ <gap reason="ellipsis"/>
+<lb n="5"/><gap reason="ellipsis"/>
+      
+      <pb facs="311" n="r"/><note xml:lang="en">library Arabic foliation 155r</note>
+      
+<lb n="1"/><gap reason="ellipsis"/>
+<lb n="2"/><gap reason="ellipsis"/>
+<lb n="3"/><gap reason="ellipsis"/>
+<lb n="4"/><gap reason="ellipsis"/>
+<lb n="5"/><gap reason="ellipsis"/> ~ <g ref="#nūṟu"/>4<g ref="#pattu"/>8 ~ <gap reason="ellipsis"/>
 
+<pb facs="314" n="v"/><note xml:lang="en">library Arabic foliation 156v</note>
+      
+<lb n="1"/><gap reason="ellipsis"/>
+<lb n="2"/><gap reason="ellipsis"/>
+<lb n="3"/><gap reason="ellipsis"/>
+<lb n="4"/><gap reason="ellipsis"/> ~ 2<g ref="#nūṟu"/>5<g ref="#pattu"/> ~ <gap reason="ellipsis"/>
+<lb n="5"/><gap reason="ellipsis"/> 
+      
+      <pb facs="315" n="r"/><note xml:lang="en">library Arabic foliation 157r</note>
+      
+<lb n="1"/><gap reason="ellipsis"/>
+<lb n="2"/><gap reason="ellipsis"/>
+<lb n="3"/><gap reason="ellipsis"/>
+<lb n="4"/><gap reason="ellipsis"/>
+<lb n="5"/><gap reason="ellipsis"/> 
+      
+      <pb facs="317" n="r"/><note xml:lang="en">library Arabic foliation 158r</note>
+      
+<lb n="1"/><gap reason="ellipsis"/>
+<lb n="2"/><gap reason="ellipsis"/>
+<lb n="3"/><gap reason="ellipsis"/>
+<lb n="4"/><gap reason="ellipsis"/>
+<lb n="5"/><gap reason="ellipsis"/> 
+      
+      <pb facs="319" n="r"/><note xml:lang="en">library Arabic foliation 159r</note>
+      
+<lb n="1"/><gap reason="ellipsis"/>
+<lb n="2"/><gap reason="ellipsis"/> ~ 3<g ref="#pattu"/>1 ~ <gap reason="ellipsis"/>
+<lb n="3"/><gap reason="ellipsis"/>
+<lb n="4"/><gap reason="ellipsis"/>
+<lb n="5"/><gap reason="ellipsis"/> 
+      
+      <pb facs="321" n="r"/><note xml:lang="en">library Arabic foliation 160r</note>
+      
+<lb n="1"/><gap reason="ellipsis"/>
+<lb n="2"/><gap reason="ellipsis"/>
+<lb n="3"/><gap reason="ellipsis"/>
+<lb n="4"/><gap reason="ellipsis"/>
+<lb n="5"/><gap reason="ellipsis"/> ~ <g ref="#nūṟu"/>5<g ref="#pattu"/>4 ~ <gap reason="ellipsis"/>
+      
+      <pb facs="321" n="v"/><note xml:lang="en">library Arabic foliation 160v</note>
+      
+<lb n="1"/><gap reason="ellipsis"/>
+<lb n="2"/><gap reason="ellipsis"/>
+<lb n="3"/><gap reason="ellipsis"/>
+<lb n="4"/><gap reason="ellipsis"/>
+<lb n="5"/><gap reason="ellipsis"/> ~ <g ref="#nūṟu"/>5<g ref="#pattu"/>5 ~ <gap reason="ellipsis"/>
+      
       </ab>
 </body>
 	</text></TEI>
