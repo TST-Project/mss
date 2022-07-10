@@ -22,7 +22,7 @@
                   <idno type="alternate"><idno>Tamoul 272</idno><idno>Ariel 107</idno><idno>b/91</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1038037</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b52510464f</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary><p>An incomplete <title xml:lang="ta">Pāratam</title>, that is, a Tamil version of the <title xml:lang="sa">Mahābhārata</title>. Entitled <title xml:lang="ta">Pārata cillaṟai</title> on its additional title page.</p>
+                  <summary><p>An incomplete <title xml:lang="ta">Pāratam</title> in verse, that is, a Tamil version of the <title xml:lang="sa">Mahābhārata</title>. Entitled <title xml:lang="ta">Pārata cillaṟai</title> on its additional title page.</p>
    
 <p>Description based on the digital images available on Gallica.</p>
 <p>Dimensions after Cabaton (1912).</p>      
@@ -56,10 +56,10 @@
                         
                      <collation>
                      
-                     <desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">Title Page (additional)</emph>. No foliation. Verso blank.</desc><desc xml:id="U2">11 folios = <emph rend="bold"><title xml:lang="ta">Pāratam: </title> Text</emph>. Tamil foliation 82-92.</desc><desc xml:id="U3">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso. Except unblackend foliation (?) on <locus facs="28">f[1]v, lm</locus>.</desc></collation><condition>Good state of preservation.</condition></supportDesc>
+                     <desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">Title Page (additional)</emph>. No foliation. Verso blank.</desc><desc xml:id="U2">11 folios = <emph rend="bold"><title xml:lang="ta">Pāratam: </title> Text</emph>. Tamil foliation 82-92. f92r blank. f92v unblackened (same text as f82r).</desc><desc xml:id="U3">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso. Except unblackend foliation (?) and scribble (?) on <locus facs="28">f[1]v, lm</locus>.</desc></collation><condition>Good state of preservation.</condition></supportDesc>
                      <layoutDesc>
                         <p/>
-                     <layout writtenLines="5"/></layoutDesc>
+                     <layout writtenLines="6 7"/></layoutDesc>
                   </objectDesc>
                   
                   
@@ -107,7 +107,7 @@
    <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
       
-      <change when="2022-07">Record created by Emmanuel FRANCIS</change></revisionDesc></teiHeader>
+      <change when="2022-07">Record created by Emmanuel FRANCIS.</change><change when="2022-07">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, July 2022.</change></revisionDesc></teiHeader>
     <sourceDoc>
         <surface/>
     </sourceDoc>
@@ -131,38 +131,65 @@
   <pb facs="5" n="82r"/>
         
     <seg function="incipit">  
-      <lb n="1"/><gap reason="ellipsis"/></seg> 
+      <lb n="1"/>kūṭi Oyvilāta taram eki Ulāviyan karam vantār <g ref="#pcs"/> <g ref="#pattu"/>1 <g ref="#pcs"/>t <gap reason="ellipsis"/></seg> 
+      <lb n="2"/><gap reason="ellipsis"/> <g ref="#pcs"/> <g ref="#pattu"/>2 <g ref="#pcs"/> <gap reason="ellipsis"/>
+      <lb n="3"/><gap reason="ellipsis"/> 
+      <lb n="4"/><gap reason="ellipsis"/> <g ref="#pcs"/> <g ref="#pattu"/>3 <g ref="#pcs"/> <gap reason="ellipsis"/>
+          <lb n="5-7"/><gap reason="ellipsis"/> 
+
           
     <pb facs="7" n="83r"/>
+    
     <pb facs="9" n="84r"/>
+    
     <pb facs="11" n="85r"/>
     
     <pb facs="12" n="85v"/>
     <lb n="3"/><gap reason="ellipsis"/> <g ref="#pcs"/> 37 <g ref="#pcl"/> <seg function="total-stanzas">{Āka}p paṭalam <space type="vacat"/>k=ku viruttam <g ref="#pcl"/></seg>
     
     <pb facs="13" n="86r"/>    
+    
     <seg function="intertitle"><milestone unit="left-margin"/>
     <lb n="1-2"/>purōkitar tūtu</seg>
+    
+    <milestone unit="main-text-area"/>
+    <lb n="1"/><gap reason="ellipsis"/> 
+      <lb n="2"/><gap reason="ellipsis"/> <g ref="#pcs"/> 1 <g ref="#pcs"/> <gap reason="ellipsis"/>
+      <lb n="3-7"/><gap reason="ellipsis"/> 
   
     <pb facs="15" n="87r"/>
+     <lb n="1"/><gap reason="ellipsis"/> <g ref="#pcs"/> 8 <g ref="#pcs"/> <gap reason="ellipsis"/>
+      <lb n="2"/><gap reason="ellipsis"/>
+      <lb n="3"/><gap reason="ellipsis"/> <g ref="#pcs"/> 9 <g ref="#pcs"/> <gap reason="ellipsis"/> <note xml:lang="en">stops short here</note>
     
     <pb facs="16" n="87v"/><note xml:lang="en">blank</note>
     
     <pb facs="17" n="88r"/>
+    <lb n="1"/><gap reason="ellipsis"/> 
+    <lb n="2"/><gap reason="ellipsis"/> <g ref="#pcs"/> <g ref="#pattu"/>5 <g ref="#pcs"/> <gap reason="ellipsis"/>
+      <lb n="3-6"/><gap reason="ellipsis"/> 
+    
     <pb facs="19" n="89r"/>
+    <lb n="1"/><gap reason="ellipsis"/> <g ref="#pcs"/> 21 <g ref="#pcs"/> <gap reason="ellipsis"/>
+      <lb n="2-6"/><gap reason="ellipsis"/> 
 
     <pb facs="21" n="90r"/>
+     <lb n="1"/><gap reason="ellipsis"/>
+     <lb n="2"/><gap reason="ellipsis"/> <g ref="#pcs"/> 2<g ref="#pattu"/>9 <g ref="#pcs"/> <gap reason="ellipsis"/>
+      <lb n="3-7"/><gap reason="ellipsis"/> 
     
-    <pb facs="23" n="91r"/> 
+    <pb facs="23" n="91r"/>
+     <lb n="1"/><gap reason="ellipsis"/> <g ref="#pcs"/> 35 <g ref="#pcs"/> <gap reason="ellipsis"/>
+      <lb n="2-7"/><gap reason="ellipsis"/> 
     
     <pb facs="24" n="91v"/> 
-        <seg function="explicit"><lb n="5"/><gap reason="ellipsis"/> kūṭik koṇṭu Ellaiyil <gap reason="ellipsis"/>
+        <seg function="explicit"><lb n="5"/><gap reason="ellipsis"/> kūṭik koṇṭu Ellaiyil tarmmar pakkal yiṉituṭaṉ
     <lb n="6"/>vantak kālai <g ref="#pcl"/> 41 <g ref="#pcl"/></seg> <seg function="blessing">rā=Maceya=M<g ref="#pcl"/></seg>
     
     <pb facs="25" n="92r"/><note xml:lang="en">blank</note>
     
     <pb facs="26" n="92v"/><note xml:lang="en">unblackened</note>
-    <lb n="1"/><gap reason="ellipsis"/>
+    <lb n="1"/>kūṭi Oyvillāta tāram eki Ulāviyaṉ karam vantār <g ref="#pcs"/> <g ref="#pattu"/>1 <g ref="#pcs"/> <gap reason="ellipsis"/>
     <lb n="2"/><gap reason="ellipsis"/> <g ref="#pcs"/> <g ref="#pattu"/> <g ref="#pcs"/>
     <lb n="3"/><gap reason="ellipsis"/>
     <lb n="4"/><gap reason="ellipsis"/>
