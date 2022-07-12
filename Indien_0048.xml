@@ -33,7 +33,7 @@
                            
                         </support>
                         <extent>
-                           <measure unit="folio" quantity="94">94 (U1).</measure>
+                           <measure unit="folio" quantity="95">{1} + {1} + {1} + 91 + {1} (U1 + U2 + U3 + U4 + U5).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
@@ -42,18 +42,18 @@
                         
                         
                         
-                     <collation><desc xml:id="CoverFront"/><desc xml:id="U1">1 folio = <emph rend="bold">Title Page (additional)</emph>.</desc><desc xml:id="U2">1 folio = <emph rend="bold">guard leaf</emph>. Blank recto verso.</desc><desc xml:id="U3">1 folio = <emph rend="bold">TBC</emph>.</desc><desc xml:id="U4">90 folios = <emph rend="bold">Text</emph>.</desc><desc xml:id="U5">1 folio = <emph rend="bold">guard leaf</emph>. Blank recto verso.</desc><desc xml:id="CoverBack"/></collation></supportDesc>
+                     <collation><desc xml:id="CoverFront"/><desc xml:id="U1">1 folio = <emph rend="bold">Title Page (additional)</emph>.</desc><desc xml:id="U2">1 folio = <emph rend="bold">guard leaf</emph>. Blank recto verso.</desc><desc xml:id="U3">1 folio = <emph rend="bold">TBC</emph>. No foliation.</desc><desc xml:id="U4">90 folios = <emph rend="bold">Text</emph>. Tamil foliation 1-21<hi rend="superscript">1</hi>, 21<hi rend="superscript">2</hi>, 22-90.</desc><desc xml:id="U5">1 folio = <emph rend="bold">guard leaf</emph>. Blank recto verso.</desc><desc xml:id="CoverBack"/></collation></supportDesc>
                      <layoutDesc>
-                        <layout writtenLines="17 19"/>
+                        <layout writtenLines="5 8"/>
                      </layoutDesc>
                   </objectDesc>
                   
                   
                   
                   
-               <handDesc/><decoDesc>
+               <handDesc><handNote synch="#U1" scope="minor" script="tamil" medium="incised soot"><desc>Hand #1. <persName role="scribe">Ariel's title scribe</persName>.</desc></handNote><handNote synch="#U3 #U4" scope="major" script="tamil" medium="incised"><desc>Unblackened.</desc></handNote></handDesc><decoDesc>
                   </decoDesc><additions>
-                  <desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 48</quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#CoverFront" type="documenting-note" subtype="cover front title-page">BnF bequest sticker <quote>DON N° <space type="vacat"/></quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#U1" type="shelfmark" subtype="beginning">Shelfmark <quote>c/12</quote> in black ink (<locus facs="3">f[1]r</locus>). </desc></additions><bindingDesc>
+                  <desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 48</quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#CoverFront" type="documenting-note" subtype="cover front title-page">BnF bequest sticker <quote>DON N° <space type="vacat"/></quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#U1" type="shelfmark" subtype="beginning">Shelfmark <quote>c/12</quote> in black ink (<locus facs="3">f[1]r</locus>). </desc><desc synch="#U1" type="shelfmark">Shelfmark sticker (Société Asiatique?), written in black ink: <quote>684</quote> (<locus facs="3">f[1]r</locus>).</desc></additions><bindingDesc>
                      <binding><decoNote type="stringhole"><measure unit="stringhole" quantity="1"/></decoNote></binding>
                   </bindingDesc></physDesc>
                <history>
@@ -82,4 +82,71 @@
       <change when="2022-07">First version.</change></revisionDesc></teiHeader>
    <facsimile>
    <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b52514596b/manifest.json"/></facsimile>
-</TEI>
+<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+  <ab>
+      
+    <pb facs="3" n="[1]r"/>
+    
+         <seg function="blessing"><milestone n="1" unit="column"/>
+         <lb n="1"/>veṟṟi
+        <lb n="2" break="no"/>vēl uṟṟa
+        <lb n="3"/>tuṇai</seg>
+    
+          <seg function="title"><milestone n="2" unit="column"/>
+         <lb n="1"/>Iḵtu   
+     <milestone n="2" unit="column"/>
+         <lb n="1"/>tiruvaḷḷuvar kuṟaḷukku
+            <lb n="2"/>parimēlaḻakiyar urai
+        <lb n="3"/>Aṟappāl</seg>    
+     
+        <pb facs="4" n="[1]v"/><note xml:lang="en">blank</note>
+    
+   </ab>   
+   </body></text><text synch="#U3" corresp="#T2" xml:lang="ta"><body>
+  <ab>
+      
+    <pb facs="7" n="[1]r"/>
+    
+         <seg function="TBC"><milestone unit="column"/>
+         <lb n="1"/>vināya
+<lb n="2"/>kāṭṭa
+<lb n="3"/>ri = m</seg>
+    
+          <milestone unit="main-text-area"/>
+         <lb n="1"/>
+     
+        <pb facs="7" n="[1]v"/><note xml:lang="en">blank</note>
+             <lb n="1"/>
+
+       </ab>   
+   </body></text><text synch="#U4" corresp="#T3" xml:lang="ta"><body>
+  <ab>
+      
+    <pb facs="9" n="1r"/>
+    
+    <seg function="header">
+         <seg function="intertitle"><milestone unit="column"/>
+         <lb n="1"/>kaṭavuḷ 
+<lb n="2"/>vāḻttu</seg>
+<seg function="verse-beginning"><lb n="3"/>Akara</seg>
+      </seg>
+    
+          <milestone unit="main-text-area"/>
+         <lb n="1"/>
+     
+    
+        <pb facs="189" n="90r"/>
+    
+     <seg function="header">
+         <seg function="verse-beginning"><milestone unit="column"/>
+         <lb n="1"/>Uḷaḻi</seg>
+      </seg>
+    
+                    <milestone unit="main-text-area"/>
+         <lb n="1"/>
+    
+            <pb facs="190" n="90v"/>
+             <lb n="1"/>
+
+       </ab>   
+   </body></text></TEI>
