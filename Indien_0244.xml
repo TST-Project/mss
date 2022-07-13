@@ -39,7 +39,7 @@
                         
                         
                      <support/><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. Shelfmark and sticker on recto.</desc><desc xml:id="U1">1 folio = <emph rend="bold">Title Page (additional)</emph>. No foliation. Verso blank. Shelfmark on recto.</desc><desc xml:id="U2a">1 folio = <emph rend="bold"><title xml:lang="ta">Mayilattiruppukaḻ</title>: Invocation</emph>. No foliation. Tamil foliation (right margin) 1.</desc><desc xml:id="U2b">50 folios = <emph rend="bold"><title xml:lang="ta">Mayilattiruppukaḻ</title>: Text</emph>. Tamil foliation (left margin) {1}, 2-28<hi rend="superscript">1</hi>, 28<hi rend="superscript">2</hi>, 29-41<hi rend="superscript">1</hi>, 41<hi rend="superscript">2</hi>, 41<hi rend="superscript">3</hi>, 44-47. Tamil foliation (right margin) 2-51.
-</desc><desc xml:id="U3">6 folios = <emph rend="bold">back guard leaves</emph>. No foliation. Blank rv. f[5]v more dark = outside page of original bundle.
+</desc><desc xml:id="U3">6 folios = <emph rend="bold">back guard leaves</emph>. No foliation. Blank recto verso. f[5]v more dark = outside page of original bundle.
 </desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Poor state of preservation. Many boreholes. Fragile leaves. </condition></supportDesc>
                      <layoutDesc>
                         
@@ -50,7 +50,7 @@
                   
                <handDesc>
                      
-                  <handNote synch="#U1" scope="minor" script="tamil" scriptRef="#tamilPulliRegular #tamilOE" medium="incised"><desc><persName role="scribe">Ariel's title scribe</persName>.</desc></handNote><handNote synch="#U2a #U2b" scope="major" script="tamil" medium="incised"/></handDesc><additions><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 244</quote> (<locus facs="4">front cover, recto</locus>).</desc><desc synch="#CoverFront" type="documenting-note" subtype="cover front">BnF bequest sticker <quote>DON N° <space type="vacat"/></quote> (<locus facs="4">front cover, recto</locus>).</desc><desc synch="#U1" corresp="#T1" type="shelfmark" subtype="left">Shelfmark <quote>c/20</quote> in black ink  (<locus facs="7">f[1]r</locus>).</desc><desc synch="#U1" subtype="right">Sticker (Société Asiatique?) with shelfmark <quote>694</quote> inscribed in black ink (<locus facs="9">f[1]r</locus>).</desc></additions><bindingDesc>
+                  <handNote synch="#U1" scope="minor" script="tamil" scriptRef="#tamilPulliRegular #tamilOE" medium="incised soot"><desc>Hand #1. <persName role="scribe">Ariel's title scribe</persName>.</desc></handNote><handNote synch="#U2a #U2b" scope="major" script="tamil" medium="incised soot"><desc>Hand #2.</desc></handNote></handDesc><additions><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 244</quote> (<locus facs="4">front cover, recto</locus>).</desc><desc synch="#CoverFront" type="documenting-note" subtype="cover front">BnF bequest sticker <quote>DON N° <space type="vacat"/></quote> (<locus facs="4">front cover, recto</locus>).</desc><desc synch="#U1" corresp="#T1" type="shelfmark" subtype="left">Shelfmark <quote>c/20</quote> in black ink  (<locus facs="7">f[1]r</locus>).</desc><desc synch="#U1" type="shelfmark" subtype="right">Sticker (Société Asiatique?) with shelfmark <quote>694</quote> inscribed in black ink (<locus facs="9">f[1]r</locus>).</desc></additions><bindingDesc>
                      <binding>
                         <p><material cert="medium">Pinewood</material> covers apparently fabricated in the BnF.</p>
                      <decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
@@ -90,10 +90,11 @@
    <seg function="title"><milestone n="2" unit="column"/>
   <lb n="1"/>mayilācala-t
   <lb n="2" break="no"/>tiruppukaḻ</seg>
+    
+      <pb n="[1]v"/><note xml:lang="en">blank</note>
 
 </ab>
-</body>
-   </text><text synch="#U2a" corresp="#T2" xml:lang="ta"><body>
+</body></text><text synch="#U2a" corresp="#T2" xml:lang="ta"><body>
   <ab>
   <pb facs="10" n="1r"/>
   
