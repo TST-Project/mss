@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Collection (3 works): </title>
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2022</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Indien 56</idno>
+                  <idno type="alternate"><idno>Tamoul 56</idno><idno>Ariel 901</idno><idno>c/32</idno></idno>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103471j</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b10463676h</idno></msIdentifier>
+               <msContents class="#CM">
+                  <summary><p>A composite manuscript containing:
+  <list rend="numbered">
+    <item>A blank guard leaf (U1).</item>
+    <item>The <title xml:lang="ta">Tirukkuṟaḷ</title>, text and commentary (Indien 56a).</item>
+    <item>The <title xml:lang="ta">Paṇaviṭutūtu</title>, text and commentary (Indien 56b).</item>
+    <item>The <title xml:lang="ta">TBC</title>, text and commentary (Indien 56c).</item>
+        <item>A guard leaf (U2).</item>
+    <item>A blank guard leaf (U3).</item>    
+    </list></p>
+
+<p>Description based on the digital images available on Gallica.</p>
+<p>Dimensions after Cabaton (1912).</p></summary>
+                  
+               <msItem synch="#U2" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">guard leaf</term></title><textLang mainLang="tam"/></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="pothi" rend="manuscript">
+                     <supportDesc material="palm-leaf">
+                        <extent>
+                           <measure unit="folio" quantity="165">{1} + 90 + 25 + 47 + {1} + {1} (U1 + Indien 56a + + Indien 56b + Indien 56c + U2 + U3).</measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           </dimensions>
+                           <note>The leaves are broader in their middle than at their edges. </note>
+                        <dimensions type="object" unit="mm"><width quantity="365"/><height quantity="25"/></dimensions><dimensions type="written" unit="mm"/></extent>
+                        
+                        
+                     <support/><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. Shelfmark sticker on recto.</desc><desc xml:id="U1">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso. Shelfmarks on recto.</desc><desc xml:id="Indien56a">90 folios = <emph rend="bold"><title xml:lang="ta">Tirukkuṟaḷ</title></emph>.</desc><desc xml:id="Indien56b">25 folios = <emph rend="bold"><title xml:lang="ta">TBC</title></emph>.</desc><desc xml:id="Indien56b">47 folios = <emph rend="bold"><title xml:lang="ta">TBC</title></emph>.</desc><desc xml:id="U2">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Verso blank. </desc><desc xml:id="U3">1 folio = back <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso. Shelfmark on recto.
+</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Good condition.</condition></supportDesc>
+                     <layoutDesc>
+                        
+                     <layout writtenLines="8"/></layoutDesc>
+                  </objectDesc>
+                  
+                  
+                  
+               <handDesc>
+                     
+                  <handNote synch="#U2" scope="minor" script="tamil" medium="incised"><desc>Unblackened.</desc></handNote></handDesc><additions><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 56</quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#U1" type="shelfmark" subtype="left">Shelfmark <quote>2°</quote> in black ink (<locus facs="3">f[1]r</locus>).</desc><desc synch="#U1" type="shelfmark" subtype="right">Shelfmark <quote>N° 12.</quote> in black ink (<locus facs="3">f[1]r</locus>).</desc><desc synch="#U3" type="shelfmark">Shelfmark <quote>2°</quote> in black ink (<locus facs="327">f[1]r</locus>).</desc></additions><bindingDesc>
+                     <binding>
+                        <p><material cert="medium">Pinewood</material> covers apparently fabricated in the BnF.</p>
+                     <decoNote type="stringhole"><measure unit="stringhole" quantity="1"/></decoNote></binding>
+                  </bindingDesc></physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian" notAfter="1854">Bundle not dated by Vinson in Vinson et al. (1866-) nor by Cabaton (1912). Not after 1854, since part of the collection of <persName role="collector">Édouard Ariel</persName> (1818-1854), bequested in 1855 to the Société Asiatique, Paris (Rosny 1868).</origDate>
+                     <origPlace>Tamilnadu.</origPlace>
+                  </origin>
+                  <acquisition>
+                     <p>Received, August 1st, 1866, from the Société Asiatique. See BnF, département des Manuscrits, inventaire 7 = <title>Dons: manuscrits et imprimés documentaires, 1848-1895</title>, no. 1192.</p>
+                  </acquisition>
+               <provenance><p>Owned by <persName role="collector">Édouard Ariel</persName> (1818-1854). Bequested by Édouard Ariel to Société Asiatique (Rosny 1868, p. 177). </p></provenance></history>
+               <additional>
+                  <listBibl>
+                     
+                     
+                  <bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois et malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f30">p. 12, no. 56</ref>.</bibl><bibl>Rosny, Léon de. 1868. <title type="article">La bibliothèque tamoule de M. Ariel, de Pondichéry</title>. In <title>Variétés orientales</title>, 177‒224. Paris: Maisonneuve. </bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. 1866-. <title> Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f53">f. 19r, no. 56</ref>. </bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+   <encodingDesc><p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.              </p></encodingDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
+         
+      <change when="2022-07">Record created by Emmanuel FRANCIS. Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, July 2022.</change></revisionDesc></teiHeader>
+   
+<facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10463674m/manifest.json"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+  <ab>
+    
+  <pb facs="325" n="[1]r"/>
+  
+   <lb n="1"/><gap reason="ellipsis"/>
+   <lb n="2"/><gap reason="ellipsis"/>
+   <lb n="3"/><gap reason="ellipsis"/> <space/> muṟṟum nāṟāyaṉēṉ yeḻut=tu
+    
+      <pb facs="325" n="[1]v"/><note xml:lang="en">blank</note>
+
+</ab>
+</body></text></TEI>
