@@ -37,7 +37,7 @@
                         <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
                         
                         
-                     <support/><collation><desc xml:id="U1">1 folio = <emph rend="bold"><title xml:lang="ta">Tirukkuṟaḷ</title>: TBC</emph>. No foliation.</desc><desc xml:id="U2">90 folios = <emph rend="bold"><title xml:lang="ta">Tirukkuṟaḷ</title>: Text &amp; Commentary</emph>. Tamil foliation 1-89, [90].</desc></collation><condition>Good condition.</condition></supportDesc>
+                     <support/><collation><desc xml:id="U1">1 folio = <emph rend="bold"><title xml:lang="ta">Tirukkuṟaḷ</title>: TBC</emph>. No foliation. Recto more dark = original outside page.</desc><desc xml:id="U2">90 folios = <emph rend="bold"><title xml:lang="ta">Tirukkuṟaḷ</title>: Text &amp; Commentary</emph>. Tamil foliation 1-89, [90].</desc></collation><condition>Good condition.</condition></supportDesc>
                      <layoutDesc>
                         
                      </layoutDesc>
@@ -47,7 +47,7 @@
                   
                <handDesc>
                      
-                  <handNote synch="#U1 #U2" scope="major" script="tamil" medium="incised soot"><desc>Soot faded.</desc></handNote></handDesc><additions/><bindingDesc>
+                  <handNote synch="#U1 #U2" scope="major" script="tamil" medium="incised soot"><desc>Soot faded.</desc></handNote></handDesc><additions><desc synch="#U2" type="foliation">Foliation 89 added in black ink (<locus facs="185">f[90]r</locus>).</desc></additions><bindingDesc>
                      <binding>
                         
                      <decoNote type="stringhole"><measure unit="stringhole" quantity="1"/></decoNote></binding>
@@ -75,16 +75,30 @@
          
       <change when="2022-07">Record created by Emmanuel FRANCIS. Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, July 2022.</change></revisionDesc></teiHeader>
    
-<facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10463674m/manifest.json" facs="5"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+<facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10463676h/manifest.json" facs="5"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   <ab>
     
   <pb facs="5" n="[1]r"/>
-  
-   <lb n="1"/>
+    
+    <seg function="blessing" cert="low"><milestone n="1" unit="left-margin"/><note xml:lang="en">almost entirely lost</note>
+      <lb n="1-2"/><gap reason="lost"/> <supplied reason="lost">tu</supplied><unclear>ṇai</unclear></seg>
+    
+    <milestone n="1" unit="column"/>
+    <lb n="1-4"/><gap reason="ellipsis"/>
+
+    <milestone n="2" unit="column"/>
+        <lb n="1-4"/><gap reason="ellipsis"/>
     
    <pb facs="6" n="[1]v"/>
     
-       <lb n="1"/>
+    <seg function="blessing"><milestone n="1" unit="column"/>
+    <lb n="1"/>Ēcu <gap reason="ellipsis"/> tuṇai</seg> ṇā <note xml:lang="en">a symbol</note>
+    <seg function="blessing" cert="low"><lb n="2"/>vāḻka tirukkave<unclear>ṣa</unclear>meṉṟa</seg>
+
+    <milestone n="2" unit="column"/>
+        <lb n="1"/>kaṟattiṉālāyapayaṉṉ eṉa kolvāl aṟivaṉ
+    <lb n="2"/>kaṟṟaṟ <space/> <seg function="title">tiruvaḷḷuvar kuṟaḷ</seg>
+    <lb n="3"/>yettiṉmāy
     
 </ab>
 </body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
@@ -92,13 +106,26 @@
     
   <pb facs="7" n="1r"/>
   
-   <lb n="1"/>
+    <seg function="header"><seg function="intertitle"><milestone unit="left-margin"/>
+   <lb n="1"/>Aṟattuppāl</seg>
+     <seg function="intertitle"><lb n="2"/>kaṭavuḷ vāḻttutal</seg>
+      <seg function="blessing"><lb n="3"/>naṉṟāka</seg>
+      <seg function="intertitle"><lb n="4"/>tiruvaḷḷuvar payaṉ</seg>
+      </seg>
     
-    
+    <seg function="incipit" type="root-text"><milestone unit="main-text-area"/>
+    <lg><l><lb n="1"/>Akara mutalav veḻuttellā māti</l> <l>pakava mutaṟṟē yulaku ~</l></lg></seg> <seg function="incipit" type="commentary">Eṉpatu ~ Uyir eḻu
+    <lb n="2"/>ttu paṉṉireṉṟum ~</seg> <gap reason="ellipsis"/>
+
+          
+   <pb facs="183" n="89r"/>
+   <pb facs="184" n="89r"/>
+   <pb facs="185" n="[90]r"/>
     
    <pb facs="186" n="[90]v"/>
     
-       <lb n="1"/>
+       <seg function="explicit" type="commentary"><lb n="5"/>kāriyattaic <gap reason="ellipsis"/> veṉṟa vāṟu ~ 3 <gap reason="ellipsis"/> ~ Etu ~ <gap reason="ellipsis"/>
+    <lb n="6" break="no"/>lē</seg>
     
 </ab>
 </body></text></TEI>
