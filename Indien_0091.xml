@@ -27,9 +27,9 @@
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="fr"><term xml:lang="en">Title Page</term></title><textLang mainLang="fra"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta"><term xml:lang="en">Lists</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T3" defective="true"><title xml:lang="ta">Uḷḷamuṭaiyāṉ Cūṭāmaṇi: Mūlam &amp; Urai</title><textLang mainLang="tam"/><filiation><p>See BnF Indien 88, 89, 90.</p></filiation></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi">
+                  <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
-                        <support><measure unit="stringhole" quantity="2"/><p>Rounded edges.</p></support>
+                        <support><p>Rounded edges.</p></support>
                         <extent>
                            <measure unit="folio" quantity="164">{1} + 4 + + 158 + {1} (U1 + U2 + U3 + U4).</measure>
                            <dimensions type="leaf" unit="mm">
@@ -37,14 +37,16 @@
                               
                            <width quantity="440"/><height quantity="35"/></dimensions>
                         <dimensions type="object" unit="mm"><width quantity="440"/><height quantity="35"/><depth quantity="105"/></dimensions><dimensions type="written" unit="mm"/></extent>
-                      <collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">Title Page</emph>. No foliation. Verso blank.</desc><desc xml:id="U2">4 folios = <emph rend="bold">lists</emph> (days, months, years of the Jovian cycle, etc.). Tamil foliation {1}, 2-4.</desc><desc xml:id="U3">158 folios = <emph rend="bold"><foreign xml:lang="ta">Mūlam &amp; Urai</foreign></emph>. Tamil foliation 1-158. Parallel Arabic foliation 1-158.</desc><desc xml:id="U4">1 folio = back <emph rend="bold">guard leaf</emph>. Blank recto verso.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation>  
-                        <condition>Excellent state of preservation.</condition>
-                     </supportDesc>
+                        
+                        
+                     <collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">Title Page</emph>. No foliation. Verso blank.</desc><desc xml:id="U2">4 folios = <emph rend="bold">lists</emph> (days, months, years of the Jovian cycle, etc.). Tamil foliation {1}, 2-4.</desc><desc xml:id="U3">158 folios = <emph rend="bold"><foreign xml:lang="ta">Mūlam &amp; Urai</foreign></emph>. Tamil foliation 1-158. Parallel Arabic foliation 1-158.</desc><desc xml:id="U4">1 folio = back <emph rend="bold">guard leaf</emph>. Blank recto verso.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Excellent state of preservation.</condition></supportDesc>
                   </objectDesc>
-                  <handDesc>
+                  
+                  
+                  
+               <handDesc>
                      
-                  <handNote synch="#U1 #U2 #U3" scope="sole" script="tamil" medium="incised soot"/></handDesc>
-                  <additions><desc type="commenting-note" subtype="detached">Note in black ink on a <locus facs="1">paper sheet</locus>, by Velanguani Arokium:
+                  <handNote synch="#U1 #U2 #U3" scope="sole" script="tamil" medium="incised soot"/></handDesc><additions><desc type="commenting-note" subtype="detached">Note in black ink on a <locus facs="1">paper sheet</locus>, by Velanguani Arokium:
 <quote xml:lang="fr" rend="block">
   <lb n="1"/>Mr Duclerque N° 7
   <lb n="2"/>intitulé oullemoudéyane, ou traité
@@ -57,13 +59,11 @@ A later hand added:
   <lb n="7"/>ni astronomie
   </quote>
   
-</desc><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 91</quote> (<locus facs="3">front cover, recto</locus>).</desc><desc synch="#U3" type="intertitle" subtype="marginal left">Left-marginal intertitles.</desc></additions>
-                  <bindingDesc>
+</desc><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 91</quote> (<locus facs="3">front cover, recto</locus>).</desc><desc synch="#U3" type="intertitle" subtype="marginal left">Left-marginal intertitles.</desc></additions><bindingDesc>
                      <binding>
                         <p>Original brown <material>wood</material> covers.</p>
-                     </binding>
-                  </bindingDesc>
-               </physDesc>
+                     <decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
+                  </bindingDesc></physDesc>
                <history>
                   <origin>
                      <origDate calendar="gregorian" notAfter="1833">No internal date. Dated to approximately 1828 by Vinson (1868) and to 1828 by Cabaton (1912), on unstated grounds (presumably palaeographical and material analysis arguments).</origDate>
