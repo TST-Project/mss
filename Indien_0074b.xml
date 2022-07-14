@@ -20,7 +20,7 @@
                   <idno type="alternate"><idno>Tamoul 74</idno><idno>Ariel 31</idno><idno>c/32</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103487f</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b10463674m</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary><p>The <title xml:lang="ta">Tirikaṭukam</title>.</p></summary>
+                  <summary><p>The <title xml:lang="ta">Tirikaṭukam</title>, text with a commentary. This commentary does not correspond to that of the Kaḻakam edition. The text is incomplete: <foreign xml:lang="ta">Kāppu</foreign> + stanzas 1-91 only. The commentary ends with the word <foreign xml:lang="ta">muṟṟum</foreign>.</p></summary>
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Tirikaṭukam: Mūlam &amp; Urai</title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
@@ -40,17 +40,17 @@
 </desc></collation><condition>Good condition.</condition></supportDesc>
                      <layoutDesc>
                         
-                     <layout writtenLines="8"/></layoutDesc>
+                     <layout writtenLines="4 6">Two-column layout with 4-line stanza on the left and commentary on the right. fo1rv leaves room for the second hole and thus have three columns, afterwards one short column up to the hole for the verse and the broader right column for the commentary.</layout></layoutDesc>
                   </objectDesc>
                   
                   
                   
                <handDesc>
                      
-                  <handNote synch="#U1" scope="major" script="tamil" medium="incised soot"/></handDesc><additions/><bindingDesc>
+                  <handNote synch="#U1" scope="major" script="tamil" medium="incised soot"><desc>Transitional script with modern <foreign xml:lang="ta">ṟa</foreign> and some double <foreign xml:lang="ta">kompu</foreign>s.</desc></handNote></handDesc><additions/><bindingDesc>
                      <binding>
                         
-                     <decoNote type="stringhole"><measure unit="stringhole" quantity="1"/></decoNote></binding>
+                     <decoNote type="stringhole"><measure unit="stringhole" quantity="1"/></decoNote><p>A single hole to the left side.</p></binding>
                   </bindingDesc></physDesc>
                <history>
                   <origin>
@@ -80,11 +80,37 @@
     
   <pb facs="107" n="1r"/>
   
-  <seg function="blessing"><milestone n="1" unit="column"/>
+  <seg function="header">
+    <seg function="blessing"><milestone n="1" unit="column"/>
   <lb n="1"/><gap reason="ellipsis"/>s·tu</seg>
    <seg function="blessing"><lb n="2"/>naṉṟāka</seg>
      <seg function="title">
        <lb n="3-4"/>tirikaṭu<sic>ku</sic> Uraipāṭam</seg>
+    </seg>
+    
+     <seg function="incipit" type="root-text"><milestone n="1" unit="column"/>
+  <lg><l><lb n="1"/>kaṇṇakaṉ ñāla maḷantatūuṅ kāmarucīr</l>
+<l><lb n="2"/>taṇṇaṟum pūṅkuruntañ cāyttatūu naṇṇiya</l>
+<l><lb n="3"/>māyac cakaṭa mutaittatūu mimmūṉṟum</l>
+<l><lb n="4"/>pūvaippū vaṇṇaṉaṭip pōtu</l></lg></seg>
+    
+<seg function="incipit" type="commentary"><milestone n="2" unit="column"/>
+  <lb n="1"/>Etu 
+  
+  <milestone n="3" unit="column"/>
+  <lb n="1"/>Iṭamkaṉṟa ñālattaiyellā mōraṭiyāka ·
+<lb n="2"/>vaḷantatuvum · Aḻakuñ ciṟappuṅ kuḷirceyum ·
+<lb n="3"/>vācaṉaiyum poruntiya malarkaṇiṟainta ·
+<lb n="4"/>kuruntamarattaic cāyap paṇṇiṉatuṅ kañca
+<lb n="5"/>ṉāl viṭappaṭṭa vañcaṉai poruṉatiya ·
+<lb n="6"/>vaṇṭiyaiyutaittut taḷḷiṉatu ·
+  
+    <milestone n="4" unit="column"/>
+  <lb n="1"/>mākiya vintamūṉṟu kāriyamuñ ceyta
+<lb n="3"/>tiyāteṉṉil kāyāmpūvi ṉiṟam pōṉṟa
+<lb n="4"/>makāviṣṇuviṉuṭaiya pātattiṉ
+<lb n="5"/>vīriya meṉṟa vāṟu _ 1 _</seg>
+
     
       <pb facs="198" n="46v"/>
     

@@ -20,7 +20,7 @@
                   <idno type="alternate"><idno>Tamoul 74</idno><idno>Ariel 31</idno><idno>c/32</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103487f</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b10463674m</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary><p>The <title xml:lang="ta">Nīticāram</title>.</p></summary>
+                  <summary><p>The <title xml:lang="ta">Nīticāram</title>, text with a commentary.</p></summary>
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Nīticāram: <term xml:lang="ta">Satellite Stanza</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta">Nīticāram: Mūlam &amp; Urai</title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
@@ -41,17 +41,17 @@
 </desc></collation><condition>Good condition.</condition></supportDesc>
                      <layoutDesc>
                         
-                     <layout writtenLines="8"/></layoutDesc>
+                     <layout writtenLines="4">Two-column layout with 4-line stanza on the left and commentary on the right.</layout></layoutDesc>
                   </objectDesc>
                   
                   
                   
                <handDesc>
                      
-                  <handNote synch="#U1 #U2" scope="major" script="tamil" medium="incised soot"/></handDesc><additions/><bindingDesc>
+                  <handNote synch="#U1 #U2" scope="major" script="tamil" medium="incised soot"><desc>Transitional script with modern <foreign xml:lang="ta">ṟa</foreign> and some double <foreign xml:lang="ta">kompu</foreign>s.</desc></handNote></handDesc><additions/><bindingDesc>
                      <binding>
                         
-                     <decoNote type="stringhole"><measure unit="stringhole" quantity="1"/></decoNote></binding>
+                     <decoNote type="stringhole"><measure unit="stringhole" quantity="1"/></decoNote><p>A single hole to the left side.</p></binding>
                   </bindingDesc></physDesc>
                <history>
                   <origin>
@@ -117,13 +117,27 @@
       
       <milestone n="3" unit="column"/>
   <lb n="1"/>tarumamāṉavakai yellāṅ kēḻkkak kaṭalaṉumāya
-kēṭṭa poruḷai putti paṇṇa vallavaṉumāya
-taṉakkākāta kāriyam piṟarukkumākāteṉṟu
-Aṭutta taṟmaṅkaḷaic ceytumō<gap reason="illegible" quantity="1" unit="character"/>ma<gap reason="illegible" quantity="1" unit="character"/>lāreṉṟa vāṟu <g ref="#pcs"/></seg>
+<lb n="2"/>kēṭṭa poruḷai putti paṇṇa vallavaṉumāya
+<lb n="3"/>taṉakkākāta kāriyam piṟarukkumākāteṉṟu
+<lb n="4"/>Aṭutta taṟmaṅkaḷaic ceytumō<gap reason="illegible" quantity="1" unit="character"/>ma<gap reason="illegible" quantity="1" unit="character"/>lāreṉṟa vāṟu <g ref="#pcs"/></seg>
  
   
     <pb facs="104" n="49v"/>
+    
+   <seg function="explicit" type="root-text"><milestone n="1" unit="column"/>
+  <lg><l><lb n="1"/>pāri<subst><del>ṭai</del><add>ṭa</add></subst> miṉṉaik kaṇṭāl parintutaṉmāta <space/>pōlum</l>
+<l><lb n="2"/>piṟaru<gap reason="ellipsis"/>yaik kaṇṭāl perutacatiṭum Ōṭupōlum</l>
+<l><lb n="3"/>taraiyil vāḻuyiraik kaṇṭāl naṉṉuyir pōlaveṇṇi</l>
+<l><lb n="4"/>viraiceṟi maṉṟilutta virumpularā mellār tāmē <g ref="#pcl"/></l></lg></seg>
+    
+    <seg function="explicit" type="commentary"><milestone n="2" unit="column"/>
+  <lb n="1-2"/>Eṉpatu
 
+      <milestone n="3" unit="column"/>
+  <lb n="1"/>pāśrīṟiyaik kaṇṭāl taṉmātāppai pōlavum
+<lb n="2"/>pirāruṭai tiraviyattaik kaṇṭāl Ōṭupōlavum
+<lb n="3"/>pū<gap reason="ellipsis"/>la vāḻkiṟai <sapce/> Uyirtaṉṟuyir pōlavum
+<lb n="4"/>Ippaṭiyā yeṇṇiṉalaṉṟelaṉāyalāṭilā ṉeṉṟa vāṟu <g ref="#end_of_text"/></seg>
                   
 </ab>
 </body></text></TEI>
