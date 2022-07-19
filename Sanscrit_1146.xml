@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:lang="sa">Brahmasūtra</title>
+            <title xml:lang="sa"><title xml:lang="sa">Brahmasūtra</title></title>
          <editor><persName>Charles LI</persName><orgName>CNRS, CEIAS, UMR 8564</orgName></editor></titleStmt>
          
          <publicationStmt><publisher>TST Project</publisher><date>2022</date></publicationStmt>
@@ -19,17 +19,16 @@
                   <idno type="alternate"/>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc100014k</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary>
-                     <p>This small, palm leaf manuscript contains the complete text of the <title xml:lang="sa">Brahmasūtra</title>, in Nandināgarī script. Each <term xml:lang="sa">sūtra</term> is preceded and followed by <quote xml:lang="sa">oṃ</quote>. Although the title folio reads <title xml:lang="sa">Sūtrabhāṣya</title>, the <term xml:lang="sa">sūtra</term>s are presented without commentary.</p>
+                  <summary>                     <p>This small, palm leaf manuscript contains the complete text of the <title xml:lang="sa">Brahmasūtra</title>, in Nandināgarī script. Each <term xml:lang="sa">sūtra</term> is preceded and followed by <quote xml:lang="sa">oṃ</quote>. Although the title folio reads <title xml:lang="sa">Sūtrabhāṣya</title>, the <term xml:lang="sa">sūtra</term>s are presented without commentary.</p>
 <p>The <title xml:lang="sa">Brahmasūtra</title> is usually attributed to <persName xml:lang="sa">Bādarāyaṇa</persName>, who is sometimes called <persName xml:lang="sa">Vyāsa</persName>. In the final rubric of this manuscript, the text is attributed to <persName xml:lang="sa">Kṛṣṇadvaipāyana</persName>, the traditional author of the <title xml:lang="sa">Mahābhārata</title>, who is also known as <persName xml:lang="sa">Vyāsa</persName>.</p>
                   </summary>
                   
-               <msItem synch="#mūla" defective="false"><title xml:lang="sa">Brahmasūtra</title><author xml:lang="sa">Bādarāyaṇa</author><textLang mainLang="san"/><rubric xml:lang="sa"><milestone n="1r1" facs="4" unit="folio"/>śrīvedavyāsāya namaḥ hariḥ oṃ |</rubric><incipit xml:lang="sa"><milestone n="1r1" facs="4" unit="folio"/>athāto braṃhmajijñāsā oṃ | <lb/>oṃ janmādyasya yataḥ oṃ |</incipit><explicit xml:lang="sa"><milestone n="25v6" facs="53" unit="folio"/>oṃ anāvṛttiś śabdād anāvṛttiś śa<lb/>bdāt oṃ || - ||</explicit><finalRubric xml:lang="sa"><milestone n="25v7" facs="53" unit="folio"/>iti śrīmatkṛṣṇadvaipāyanakṛtabraṃhmasūtreṣu caturthādhyā<pb n="26r1" facs="54"/>yasya caturthaḥ pāraḥ || - ||</finalRubric><colophon xml:lang="sa"><milestone n="26r1" facs="54" unit="folio"/>śrīkṛṣṇārpaṇam astu || - || hariḥ oṃ || samā<lb/>ptaś cāyaṃ graṃthaḥ || | - || ❈ || - || śrīvedavyāsāya namaḥ || śrīhayagrīvāya namaḥ || - ||</colophon></msItem></msContents>
+               <msItem synch="#mūla" defective="false"><title xml:lang="sa">Brahmasūtra</title><author xml:lang="sa">Bādarāyaṇa</author><textLang mainLang="san"/><rubric xml:lang="sa"><milestone n="1r" facs="4" unit="folio"/>śrīvedavyāsāya namaḥ hariḥ oṃ |</rubric><incipit xml:lang="sa"><milestone n="1r" facs="4" unit="folio"/>oṃ athāto braṃhmajijñāsā oṃ | <lb n="2"/>oṃ janmādyasya yataḥ oṃ |</incipit><explicit xml:lang="sa"><milestone n="25v" facs="53" unit="folio"/> <lb n="6"/><gap reason="ellipsis"/>oṃ anāvṛttiś śabdād anāvṛttiś śa<lb n="7"/>bdāt_ oṃ || - ||</explicit><finalRubric xml:lang="sa"><milestone n="25v" facs="53" unit="folio"/> <lb n="7"/>iti śrīmatkṛṣṇadvaipāyanakṛtabraṃhmasūtreṣu caturthādhyā<pb n="26r" facs="54"/>yasya caturthaḥ pāraḥ || - ||</finalRubric><colophon xml:lang="sa"><milestone n="26r" facs="54" unit="folio"/>śrīkṛṣṇārpaṇam astu || - || hariḥ oṃ || samā<lb n="2"/>ptaś cāyaṃ graṃthaḥ || | - || ❈ || - || śrīvedavyāsāya namaḥ || śrīhayagrīvāya namaḥ || - ||</colophon></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi">
+                  <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
                         <support>
-                           <measure unit="stringhole" quantity="2"/>
+                           
                            <p>60 mm between stringholes. Lead seal at end of string.</p>
                         </support>
                         <extent>
@@ -40,34 +39,34 @@
                            </dimensions>
                         <dimensions type="written" unit="mm"><width quantity="135"/><height quantity="30"/></dimensions><dimensions type="object" unit="mm"/></extent>
                         
-                        <collation>
                         
-                        <desc xml:id="mūla">Nandināgarī numerals, top-left margin.</desc></collation>
-                        <condition>Good condition. Some leaves worm-eaten. Front cover folio missing piece from left side.</condition>
-                     </supportDesc>
+                        
+                     <collation>
+                        
+                        <desc xml:id="mūla">Nandināgarī numerals, top-left margin.</desc></collation><condition>Good condition. Some leaves worm-eaten. Front cover folio missing piece from left side.</condition></supportDesc>
                      <layoutDesc>
                         <layout columns="1" writtenLines="7 8"/>
                      </layoutDesc>
                   </objectDesc>
-                  <handDesc>
+                  
+                  
+                  
+                  
+               <handDesc>
                      
-                  <handNote synch="#mūla" scope="sole" script="nandinagari"><desc>Incised and inked characters.</desc></handNote></handDesc>
-                  <decoDesc>
+                  <handNote synch="#mūla" scope="sole" script="nandinagari" medium="incised soot"/></handDesc><decoDesc>
                     
-                  <decoNote type="decorative" subtype="marginal"><desc>puṣpikā, left and right margins: <locus facs="9">3v</locus>, <locus facs="12">5r</locus>, <locus facs="15">6v</locus>, <locus facs="19">8v</locus>, <locus facs="22">10r</locus>, <locus facs="27">12v</locus>, <locus facs="29">13v</locus>, <locus facs="32">15r</locus>, <locus facs="35">16v</locus>, <locus facs="41">19v</locus>, <locus facs="46">22r</locus>, <locus facs="48">23r</locus>, <locus facs="50">24r</locus>, <locus facs="51">24v</locus>, <locus facs="54">26r</locus>.</desc></decoNote></decoDesc>
-                  <additions>
+                  <decoNote type="decorative" subtype="marginal"><desc><term xml:lang="sa">puṣpikā</term>, left and right margins: <locus facs="9">3v</locus>, <locus facs="12">5r</locus>, <locus facs="15">6v</locus>, <locus facs="19">8v</locus>, <locus facs="22">10r</locus>, <locus facs="27">12v</locus>, <locus facs="29">13v</locus>, <locus facs="32">15r</locus>, <locus facs="35">16v</locus>, <locus facs="41">19v</locus>, <locus facs="46">22r</locus>, <locus facs="48">23r</locus>, <locus facs="50">24r</locus>, <locus facs="51">24v</locus>, <locus facs="54">26r</locus>.</desc></decoNote></decoDesc><additions>
                       
                       
-                  <desc type="title" subtype="cover">On the cover folio: <quote xml:lang="sa"><supplied>haya</supplied>grīvā <space/> sūtrabhāṣya <space/> ya namaḥ</quote>. It should be read <quote xml:lang="sa">hayagrīvāya namaḥ</quote> and <quote xml:lang="sa">sūtrabhāṣya</quote>.</desc><desc type="blessing" subtype="marginal">Marginal invocation, <quote xml:lang="sa">śrī</quote>, <locus facs="4">1r</locus>, left margin.</desc></additions>
-                  <bindingDesc>
+                  <desc type="title" subtype="cover">On the cover folio: <quote xml:lang="sa"><supplied>haya</supplied>grīvā <space/> sūtrabhāṣya <space/> ya namaḥ</quote>. It should be read <quote xml:lang="sa">hayagrīvāya namaḥ</quote> and <quote xml:lang="sa">sūtrabhāṣya</quote>.</desc><desc type="blessing" subtype="marginal">Marginal invocation, <quote xml:lang="sa">śrī</quote>, <locus facs="4">1r</locus>, left margin.</desc></additions><bindingDesc>
                      <binding>
                         <p>Blank leaves used as covers. Front cover is also the title page.</p>
-                     </binding>
-                  </bindingDesc>
-               </physDesc>
+                     <decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
+                  </bindingDesc></physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian" notBefore="1800" notAfter="1900">18th century, according to Filliozat.</origDate>
+                     <origDate calendar="gregorian" notBefore="1700" notAfter="1800">18th century, according to Filliozat.</origDate>
                      <origPlace>India</origPlace>
                   </origin>
                   <acquisition>
@@ -86,11 +85,11 @@
       </fileDesc>
       <encodingDesc>
       
-<p>Spaces between words added where possible. Spaces in the manuscript are denoted with the &lt;space/&gt; tag.</p><p>❈ denotes a puṣpikā.</p></encodingDesc>
-      <revisionDesc>
+<p>Spaces between words added where possible. Spaces in the manuscript are denoted with the &lt;space/&gt; tag. ❈ denotes a puṣpikā.</p></encodingDesc>
+      
+   <revisionDesc>
          
-      <change when="2020-11">Catalogue entry redacted by Charles LI for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG).</change></revisionDesc>
-   </teiHeader>
+      <change when="2020-11">Catalogue entry redacted by Charles LI for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG).</change><change when="2022-07">Updates to the transcription.</change></revisionDesc></teiHeader>
     <facsimile>
         <graphic url="https://tst-project.github.io/img/Sanscrit_1146/index.json"/>
     </facsimile>
