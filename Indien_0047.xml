@@ -21,12 +21,12 @@
                   <idno type="alternate"><idno>Tamoul 47</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1034644</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b52514191k</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary><p>Complete text of the <title xml:lang="ta">Kuṟaḷ</title> with anonymous partial commentary, ending with 1325 counted as a number 10 (most probably a slightly deviating order) and <foreign xml:lang="ta">kāppu</foreign> attributed to <persName xml:lang="ta">Tiruvaḷḷuvar</persName>.</p>
-<p>Chapter headings.</p>
+                  <summary><p>A complete copy of the <title xml:lang="ta">Tirukkuṟaḷ</title>, text with anonymous partial commentary, ending with 1325 counted as a number 10 (most probably a slightly deviating order) and <term xml:lang="ta">Kāppu</term> attributed to <persName xml:lang="ta">Tiruvaḷḷuvar</persName>.</p>
+
 <p>Description based on the digital images available on Gallica.</p>
 <p>Dimensions after Cabaton (1912).</p>      </summary>
                   
-               <msItem xml:id="T1" defective="false"><title xml:lang="ta">Tirukkuṟaḷ</title><textLang mainLang="tam"/></msItem></msContents>
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Tirukkuṟaḷ: Mūlam &amp; Urai</title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
                   <objectDesc form="codex" rend="manuscript">
                      <supportDesc material="paper">
@@ -35,7 +35,7 @@
                            <p>Good-quality creamy paper.</p>
                         </support>
                         <extent>
-                           <measure unit="folio" quantity="265">265 (U1).</measure>
+                           <measure unit="folio" quantity="276">{2} + {1} + 271 + {2} (u1 + u2 + U1 + u3).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
@@ -44,7 +44,7 @@
                         
                         
                         
-                     <collation><desc xml:id="U1">265 folios = <emph rend="bold"><title xml:lang="ta">Tirukkuṟaḷ</title>: Text</emph>. Library Arabic foliation 1-265.</desc></collation><condition>Very good condition.</condition></supportDesc>
+                     <collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="u1">2 folios = <emph rend="bold">guard leaves</emph>. No foliation. Element of library binding.</desc><desc xml:id="u2">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Element of original book.</desc><desc xml:id="U1">271 folios = <emph rend="bold"><title xml:lang="ta">Tirukkuṟaḷ</title>: Text &amp; Commentary</emph>. Library Arabic foliation 1-271. f265v and following folios blank.</desc><desc xml:id="u3">2 folios = <emph rend="bold">guard leaves</emph>. No foliation. Element of library binding.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Very good condition.</condition></supportDesc>
                      <layoutDesc>
                         <layout writtenLines="17 19">Very pale frame and ruling.</layout>
                      </layoutDesc>
@@ -53,20 +53,21 @@
                   
                   
                   
-               <handDesc><handNote synch="#U1" scope="sole" script="tamil" scriptRef="#tamilPulliSporadic #tamilPreReform #tamilOE" medium="ink brown pencil"><desc>Pencil and brownish ink. Well-trained transitional script: ancient and modern <foreign xml:lang="ta">ṟ</foreign>, sporadic <foreign xml:lang="ta">puḷḷi</foreign>, double <foreign xml:lang="ta">kompu</foreign>, <foreign xml:lang="sa">sandhi</foreign> partly undone, European punctuation.</desc></handNote></handDesc><decoDesc>
+               <handDesc><handNote synch="#U1" scope="sole" script="tamil" scriptRef="#tamilPulliSporadic #tamilPreReform #tamilOE" medium="ink brown pencil"><desc>Pencil and brownish ink. Well-trained transitional script: ancient and modern <foreign xml:lang="ta">ṟa</foreign>; sporadic <foreign xml:lang="ta">puḷḷi</foreign>; double <foreign xml:lang="ta">kompu</foreign>; <foreign xml:lang="sa">sandhi</foreign> partly undone; European punctuation.</desc></handNote></handDesc><decoDesc>
                   </decoDesc><additions>
-                  <desc type="shelfmark" subtype="beginning flyleaf">BnF old shelfmark in black pencil (<locus facs="5">guard leaf</locus>): <quote xml:lang="fr">Tamoul N° 47</quote></desc><desc type="title" subtype="beginning title-page">Title in black pencil (<locus facs="7">title page</locus>): 
+                  <desc synch="#CoverFront" type="shelfmark">Current BnF shelfmark sticker: <quote>INDIEN 47</quote> (<locus facs="2">front cover, recto</locus>).</desc><desc synch="#u1" type="shelfmark">BnF old shelfmark in black pencil (<locus facs="5">guard leaf</locus>): <quote xml:lang="fr">Tamoul N° 47</quote></desc><desc synch="#u2" type="title">Title in black pencil (<locus facs="7">title page</locus>): 
 <quote rend="block">
+  <lb n="[1]r"/>
   <lb n="1"/>Tiruvalluvar
   <lb n="2"/>Tiruvaḷḷuvar kuṟaḷ
-</quote></desc><desc synch="#U1" type="stamp" subtype="beginning">Stamp of the <quote xml:lang="fr">BIBLIOTHEQUE ROYALE</quote> (<locus facs="9">f1r</locus>, <locus facs="537">f265r</locus>).</desc><desc synch="#U1" type="catchword" subtype="bottom left right"/></additions><bindingDesc>
-                     <binding><p>Bound into a codex: weird double cover first brown with gold, then black-white-red-yellow marble pattern (?).</p><decoNote type="stringhole"><measure unit="stringhole"/></decoNote></binding>
+</quote></desc><desc synch="#U1" type="stamp" subtype="beginning">Stamp of the <quote xml:lang="fr">BIBLIOTHEQUE ROYALE</quote> (<locus facs="9">f1r</locus>, <locus facs="537">f265r</locus>).</desc><desc synch="#U1" type="catchword" subtype="bottom left right"/><desc synch="#U1" type="intertitle">Chapter headings.</desc></additions><bindingDesc>
+                     <binding><p>Bound into a codex. Weird double cover first brown with gold, then black-white-red-yellow marble pattern (?).</p><decoNote type="stringhole"><measure unit="stringhole"/></decoNote></binding>
                   </bindingDesc></physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian" when="1790">No internal date. Dated to circa 1790 by Vinson (1868) and to 1790 by Cabaton (1912).</origDate>
+                     <origDate calendar="gregorian" when="1790">No internal date. Dated to circa 1790 by Vinson (1868) and to 1790 by Cabaton (1912), on unstated grounds (presumably palaeographical and material analysis arguments).</origDate>
                      
-                  <origPlace>Tamilnadu.</origPlace></origin>
+                  <origPlace>South India, Tamilnadu.</origPlace></origin>
                   <provenance><p>Unknown.</p></provenance>
                   <acquisition><p>Unknown.</p></acquisition>
                </history>
@@ -85,7 +86,7 @@
       
    <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
-      <change when="2022-06">First version.</change><change when="2022-06">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, June 2022.</change></revisionDesc></teiHeader>
+      <change when="2022-06">Encoded and revised by <persName>Emmanuel FRANCIS</persName>. Version 1, June 2022.</change></revisionDesc></teiHeader>
    <facsimile>
    <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b52514191k/manifest.json"/></facsimile>
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
@@ -93,13 +94,17 @@
     
     <pb n="1r" facs="9"/>
     
-    <seg function="title">
+    <milestone unit="left-margin"/>     
+      <lb n="1"/>I
+    
+        <seg function="title"><milestone unit="main-text-area"/>     
       <lb n="1-2"/><note xml:lang="en">centred lines</note>
       <lb n="1"/>tiruvaḷḷuvar kuṟaḷ</seg>
 <seg function="intertitle"><lb n="2"/>kāppu</seg>
+    
 <lb n="3"/>muṟpakarum nāṉmaṟaiyai mutta
-<lb n="4"/>ḻiṉālayaraikka. kkaṟpakavaṉpoṟpata
-<lb n="5"/>meṉa kāppu.
+<lb n="4" break="no"/>ḻiṉālayaraikka. kkaṟpakavaṉpoṟpata
+<lb n="5" break="no"/>meṉa kāppu.
 <seg function="intertitle"><lb n="6"/><space/> vaḷḷuvar aruḷicceyta kāppu</seg>
 <lb n="7"/>Āyirattu muṉṉūṟṟumuppattaruṅ
 <lb n="8"/>kuṟaḷum pāyirattiṉōṭē pakarvīrā
@@ -109,37 +114,34 @@
 <lb n="12"/><space/> kaṭukaittu kūttu Eḻukaṭalaippu
 <lb n="13"/>kaṭṭikkuṟukattaṟitta kuṟaḷ
     
-<seg function="title"><lb n="14"/><space/> tiruvaḷḷuvarkuṟaḷ</seg>
+<seg function="title"><lb n="14"/><space/> tiruvaḷḷuvar kuṟaḷ</seg>
 <seg function="intertitle"><lb n="15"/><space/> Aṟappāl – kaṭavuḷ vā
 <lb n="16"/><space/> ḻttutal</seg>
     
 <seg function="blessing"><lb n="17"/><space/> civamayam</seg>
-<seg function="incipit" type="root-text"><lb n="18"/>Akara mutal veḻuttellā māti
-<lb n="19"/>pakavaṉ mutaṟṟē yulaku –</seg> <seg function="incipit" type="commentary">Etu – <gap reason="ellipsis"/></seg>
+<seg function="incipit" type="root-text"><lg><l><lb n="18"/>Akara mutal veḻuttellā māti</l> <l><lb n="19"/>pakavaṉ mutaṟṟē yulaku –</l></lg></seg> <seg function="incipit" type="commentary">Etu –
     
 <pb n="1v" facs="10"/>
     
     <lb n="1"/>Eḻuttukaḷukkellām Akāraveḻuttu
 <lb n="2"/>mutalāyirukkiṟāp pōlē yulakattu
-<lb n="3"/>k kellām caṟuvakkiñāṉacuvāmi
-<lb n="4"/>mutaleṉṟavāṟu – <space/>	– 1 –
+<lb n="3" break="no"/>k kellām caṟuvakkiñāṉacuvāmi
+<lb n="4"/>mutaleṉṟavāṟu – <space/>	– 1 –</seg>
 
 <pb n="264v" facs="536"/>
     
-<lb n="14"/>Ūṭutal kāmattiṟ kiṉpa mataṟkiṉpa
-<lb n="15"/>ṅkūṭi muyaṅkap peṟiṉ – <seg function="explicit" type="commentary">Etu – Ū
-<lb n="16"/>ṭalē kāmattuk kiṉpa manta Iṉpat
+<lg><l><lb n="14"/>Ūṭutal kāmattiṟ kiṉpa mataṟkiṉpa
+<lb n="15" break="no"/>ṅ</l> <l>kūṭi muyaṅkap peṟiṉ –</l></lg> <seg function="explicit" type="commentary">Etu – Ū
+<lb n="16" break="no"/>ṭalē kāmattuk kiṉpa manta Iṉpat
 <lb n="17"/>tuk kiṉpaṅ kūṭik kalavi koṇṭā
-<lb n="18"/><space/> ṭutalē
 
 <pb n="265r" facs="537"/>
     
-    <lb n="1"/>ṭutaleṉṟavāṟu _ _ _ _ _ _ _ _ _ _ 9</seg>
+    <lb n="1"/>ṭutal eṉṟa vāṟu _ _ _ _ _ _ _ _ _ _ 9</seg>
     <seg function="explicit" type="root-text"><lb n="2"/>tavaṟilārāyiṉun tām vīḻavarāme
 <lb n="3"/>ṉṟōḷ kavaṟaliṟāṅ koṇṭuṭait=tu –
 <lb n="4"/><g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/> _ _ <g ref="#pattu"/> _ <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/></seg>
-<seg function="total-stanzas">
-  <lb n="5"/><space/> <g ref="#āka"/>k kuṟaḷ. <g ref="#āyiram"/>3<g ref="#nūṟu"/>3<g ref="#pattu"/> –</seg>
+<seg function="total-stanzas">  <lb n="5"/><space/> <g ref="#āka"/>k kuṟaḷ ~ <g ref="#āyiram"/>3<g ref="#nūṟu"/>3<g ref="#pattu"/> –</seg>
 <seg function="completion-statement"><lb n="6"/>kuṟaḷ – muṟṟu<seg rend="grantha">m</seg></seg>
     
     </ab>
