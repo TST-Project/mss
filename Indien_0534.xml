@@ -22,9 +22,8 @@
                   <idno type="alternate"><idno>Tamoul 534</idno><idno>Haas</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1040636</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b10464134d</idno></msIdentifier>
                <msContents class="#CM">
-                  <summary><p>An incomplete copy of the <title xml:lang="ta">Tirukkuṟaḷ</title> ending with decade 86 (Ikal) in Poruṭpāl.</p>
-<p>Contains decades 1-65, 67-79 twice, 80-86.</p>
-<p>Appears to be a composite manuscript.</p>
+                  <summary><p>An incomplete copy of the <title xml:lang="ta">Tirukkuṟaḷ</title> ending with decade 86 (<foreign xml:lang="ta">Ikal</foreign>) in <foreign xml:lang="ta">Poruṭpāl</foreign>. Contains decades 1-65, 67-79 twice, 80-86.</p>
+<p>A composite manuscript, described here as a multi-text manuscript for the sake of convenience.</p>
 <p>Description based on the digital images available on Gallica.</p>
 <p>Dimensions after Cabaton (1912).</p>         
 
@@ -35,7 +34,7 @@
                   <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
                         <extent>
-                           <measure unit="folio" quantity="100"/>
+                           <measure unit="folio" quantity="88">{1} + {1} + {1} + 85 (U1 + U2 + U3 + U4).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
@@ -44,7 +43,7 @@
                         <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
                         
                         
-                     <support/><collation>
+                     <support><p>Cheap and irregular leaves,.</p></support><foliation>Partial Tamil foliation in left margin. Library Arabic foliation in right margin.</foliation><collation>
                         
                         
                         
@@ -52,10 +51,10 @@
                         
                         <desc xml:id="U1">1 bifolio = <emph rend="bold">guard leaf</emph>. No foliation. 1 hole. Blank recto verso.
 </desc><desc xml:id="U2">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. 4 holes (2 akwardly placed). Blank recto verso. 
-</desc><desc xml:id="U3">1 folio = <emph rend="bold"><title xml:lang="ta">Tirukkuṟaḷ</title>:Title Page</emph>. No foliation. 2 holes. Verso blank.</desc><desc xml:id="U4">98 folios = <emph rend="bold"><title xml:lang="ta">Tirukkuṟaḷ</title>: Text</emph>. Erratic Tamil foliation {1-5}, 6-10, {11-13}, 14-15, {16-62}, 63, {64-65}, {67-79}, 67-86. 2 holes.
-</desc></collation></supportDesc>
+</desc><desc xml:id="U3">1 folio = <emph rend="bold"><title xml:lang="ta">Tirukkuṟaḷ</title>: Title Page</emph>. No foliation. Verso blank.</desc><desc xml:id="U4">85 folios = <emph rend="bold"><title xml:lang="ta">Tirukkuṟaḷ</title>: Text</emph>. Erratic Tamil foliation {1-5}, 6-10, {11-13}, 14-15, {16-62}, 63, {64-65}, {67<hi rend="superscript">1</hi>-79<hi rend="superscript">1</hi>}, 67<hi rend="superscript">2</hi>-79<hi rend="superscript">2</hi>, 80-86. 2 holes.
+</desc></collation><condition>Fairly good state of preservation.</condition></supportDesc>
                      <layoutDesc>
-                        <layout columns="1" writtenLines="5">1 folio per decade, 5 <foreign xml:lang="ta">kuṟaḷ</foreign>s per page.</layout>
+                        <layout columns="1" writtenLines="5">1 folio per decade, 5 <foreign xml:lang="ta">kuṟaḷ</foreign>s per page, 1 <foreign xml:lang="ta">kuṟaḷ</foreign> per line.</layout>
                      </layoutDesc>
                   </objectDesc>
                   
@@ -63,9 +62,8 @@
                   
                <handDesc>
                      
-                  <handNote synch="#U3 #U4" scope="sole" script="tamil" medium="incised"><desc>Partly unblackened: f1-f48 unblackened; blackend from f49 onwards.
-Hand #1 (f1-f66). Hand #2 (f67-86).
-Transitional script without <foreign xml:lang="ta">puḷḷi</foreign>, but modern <foreign xml:lang="ta">ṟa</foreign> and double <foreign xml:lang="ta">kompu</foreign>. </desc></handNote></handDesc><additions>
+                  <handNote synch="#U3 #U4" scope="sole" script="tamil" medium="incised soot"><desc>Informal handwriting. Hand #1 (f1-f79<hi rend="superscript">1</hi>). Hand #2 (f67<hi rend="superscript">2</hi>-86). Transitional script without <foreign xml:lang="ta">puḷḷi</foreign>, but modern <foreign xml:lang="ta">ṟa</foreign> and double <foreign xml:lang="ta">kompu</foreign>. Partly unblackened: f1-f48 unblackened; blackened from f49 onwards.
+</desc></handNote></handDesc><additions>
                     
                     
                     
@@ -73,7 +71,7 @@ Transitional script without <foreign xml:lang="ta">puḷḷi</foreign>, but mode
                   <desc type="title" subtype="detached">Note in black ink on a detached <locus facs="1">sheet of paper</locus>.</desc><desc type="documenting-note">Note in red ink on a detached <locus facs="1">sheet of paper</locus>: <quote xml:lang="fr">Tiruvalluvar.</quote></desc><desc synch="#U1" type="shelfmark">Current BnF shelfmark sticker covering an older sticker: <quote>INDIEN 534</quote> (<locus facs="3">f[1]r</locus>).</desc><desc synch="#U4" type="intertitle" subtype="marginal left">Left-marginal intertitles: number and title of decade.</desc></additions><bindingDesc>
                      <binding>
                         
-                     <decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote><p>No wood covers.</p></binding>
+                     <decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote><p>No wood covers. 2 stringholes for U3-U4.</p></binding>
                   </bindingDesc></physDesc>
                <history>
                   <origin>
@@ -134,7 +132,13 @@ Transitional script without <foreign xml:lang="ta">puḷḷi</foreign>, but mode
       <lg><l><lb n="1"/>Akara mutala veḻuttellā māti</l> <l>pakavaṉ mutaṟṟē <sic>yi</sic>laku <space/> <g ref="#pcl"/>1</l></lg></seg>
     <lb n="2ff."/><gap reason="ellipsis"/>
 
+       <pb facs="137" n="65r"/>
+
+        <pb n="66"/><note xml:lang="en">no folio foliated 66, no decade 66</note>
     
+           <pb facs="139" n="67.1r"/>
+
+
     <pb facs="203" n="98r"/>
         <seg function="header">
           <seg function="intertitle"><milestone unit="left-margin"/>
@@ -146,7 +150,7 @@ Transitional script without <foreign xml:lang="ta">puḷḷi</foreign>, but mode
     
        <pb facs="204" n="98v"/>   
     <lb n="1-4"/><gap reason="ellipsis"/>
-    <seg function="explicit"><lg><l><lb n="5"/>Ikalāṉā miṉṉāta vellā nakalāṉā naṉṉaya meṉṉuñ cerukku <space/> 10</l></lg></seg>   
+    <seg function="explicit"><lg><l><lb n="5"/>Ikalāṉā miṉṉāta vellā nakalāṉā</l> <l>naṉṉaya meṉṉuñ cerukku <space/> 10</l></lg></seg>   
    
     </ab>
 </body></text></TEI>
