@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> <title xml:lang="ta">Tirukkuṟaḷ</title> (text &amp; Vīramāmuṉivar's commentary)</title>
+            <title><title xml:lang="ta">Tirukkuṟaḷ</title> (text &amp; <persName xml:lang="ta" role="commentator translator">Vīramāmuṉivar</persName>'s translation and commentary)</title>
             
          <editor><persName>Eva WILDEN</persName><orgName>Universität Hamburg</orgName></editor></titleStmt>
          <publicationStmt>
@@ -21,11 +21,12 @@
                   <idno type="alternate"><idno>Tamoul 57</idno><idno>Ariel Cc/1</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103472t</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b52513899g</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary><p>Incomplete text of <title xml:lang="ta">Kuṟaḷ</title> (<foreign xml:lang="ta">Aṟappāl</foreign> and <foreign xml:lang="ta">Poruṭpāl</foreign>) with Beschi’s Latin translation and commentary.</p>
+                  <summary><p>An incomplete copy of the <title xml:lang="ta">Kuṟaḷ</title> (<term xml:lang="ta">Aṟappāl</term> and <term xml:lang="ta">Poruṭpāl</term>) with <persName xml:lang="ta" role="commentator translator">Beschi</persName>’s Latin translation and commentary.</p>
+<p>Double Tamil title page (<locus facs="5">title page 1</locus>, <locus facs="7">title page 2</locus>), followed by a 4-page <locus facs="11">French notice</locus>, <locus facs="15">Latin preamble</locus>, <locus facs="17">Latin title page</locus>, French colophon with a date (1847) (<locus facs="19">f7r</locus>), beginning of text on <locus facs="21">f8r</locus> (Tamil text, Latin translation and explanation).</p>
 <p>Description based on the digital images available on Gallica.</p>
 <p>Dimensions after Cabaton (1912).</p></summary>
                   
-               <msItem synch="#U3" xml:id="T3" defective="false"><title xml:lang="ta">Tirukkuṟaḷ: <term xml:lang="en">Text &amp; Vīramāmuṉivar's Commentary</term></title><textLang mainLang="tam" otherLangs="lat"/></msItem></msContents>
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Tirukkuṟaḷ: <term xml:lang="en">Tamil Title Page 1</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta">Tirukkuṟaḷ: <term xml:lang="en">Tamil Title Page 2</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T3" defective="true"><title xml:lang="ta">Tirukkuṟaḷ: <term xml:lang="en">Text &amp; Vīramāmuṉivar's Latin translation &amp; Commentary</term></title><textLang mainLang="tam" otherLangs="lat"/></msItem></msContents>
                <physDesc>
                   <objectDesc form="codex" rend="manuscript">
                      <supportDesc material="paper">
@@ -34,16 +35,17 @@
                            
                         </support>
                         <extent>
-                           <measure unit="folio" quantity="180">{1} + 1 + 178 (U1 + U2 + U3). [guard leaf, double title page, f. 1-179, 5 blank pages]</measure>
+                           <measure unit="folio" quantity="186">{1} + {1} + 1 + 178 + {5} (u1 + U1 + U2 + U3 = u2).</measure>
                            <dimensions type="leaf" unit="mm">
-                              <width quantity="300"/>
-                              <height quantity="320"/>
+                              
+                              
                            </dimensions>
-                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
+                        <dimensions type="object" unit="mm"><width quantity="300"/><height quantity="200"/></dimensions><dimensions type="written" unit="mm"/></extent>
                         
                         
                         
-                     <foliation>European foliation.</foliation><collation><desc>Double Tamil title page, followed by a 4-page <locus facs="11">French notice</locus>, <locus facs="15">Latin preamble</locus>, <locus facs="17">Latin title page</locus>, French colophon with a date (1847) (<locus facs="19">f7r</locus>), beginning of text on <locus facs="21">f8r</locus> (Tamil text, Latin translation and explanation).</desc><desc xml:id="U1">1 folio = <emph rend="bold"><title xml:lang="ta">Tirukkuṟaḷ</title>: Title Page 1</emph>. No foliation. Verso blank.</desc><desc xml:id="U2">1 folio = <emph rend="bold"><title xml:lang="ta">Tirukkuṟaḷ</title>: Title Page 2</emph>. Libray Arabic foliation 1. Verso blank.</desc><desc xml:id="U3">178 folios = <emph rend="bold"><title xml:lang="ta">Tirukkuṟaḷ</title>: Text &amp; Vīramāmuṉivar's Commentary</emph>. Library Arabic foliation 2-179.</desc></collation></supportDesc>
+                     <foliation>European foliation (library Arabic foliation).</foliation><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="u1">1 folio = <emph rend="bold">guard leaf</emph>. No foliation.
+</desc><desc xml:id="U1">1 folio = <emph rend="bold"><title xml:lang="ta">Tirukkuṟaḷ</title>: Tamil Title Page 1</emph>. No foliation. Verso blank.</desc><desc xml:id="U2">1 folio = <emph rend="bold"><title xml:lang="ta">Tirukkuṟaḷ</title>: Tamil Title Page 2</emph>. Libray Arabic foliation 1. Verso blank.</desc><desc xml:id="U3">178 folios = <emph rend="bold"><title xml:lang="ta">Tirukkuṟaḷ</title>: Text &amp; Vīramāmuṉivar's Latin translation &amp; Commentary</emph>. Library Arabic foliation 2-179.</desc><desc xml:id="u2">5 folios = <emph rend="bold">guard leaves</emph>. No foliation. Blank recto verso.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Excellent state of preservation. Some pages slightly pale.</condition></supportDesc>
                      <layoutDesc>
                         <layout writtenLines="31">Ruled and lined.</layout>
                      </layoutDesc>
@@ -53,24 +55,17 @@
                   
                   
                <handDesc><handNote synch="#U1 #U2 #U3" scope="sole" script="latin tamil" medium="ink brown"><desc>Brownish-black ink, trained, beautiful and very careful hand, occasional annotation in pink.</desc></handNote></handDesc><decoDesc>
-                  </decoDesc><additions>
-                  <desc type="title" subtype="beginning">Title on <locus facs="5">first title page</locus>: 
-<quote xml:lang="ta" rend="block">kuṟaḷ.</quote>
-</desc><desc type="title" subtype="beginning">Title on <locus facs="7">second title page</locus>: 
-<quote xml:lang="ta" rend="block">
-<lb n="1"/>vīrāmāmunivar
-<lb n="2"/>aruḷicceyta
-<lb n="3"/>tiruvaḷḷuvar
-<lb n="4"/>kuṟaḷurai.
-</quote></desc><desc type="preface" subtype="beginning">Latin preamble (<locus facs="15">folio 5r</locus>).</desc></additions><bindingDesc>
+                  <decoNote type="drawing" subtype="spine"><desc>Floral designs (<locus facs="377">spine</locus>).</desc></decoNote></decoDesc><additions>
+                  <desc type="shelfmark" subtype="spine top">Shelfmark <quote>Cc/1</quote> in black ink on a sticker (<locus facs="377">spine</locus>). </desc><desc type="title" subtype="spine">Title printed in golden letters on the (<locus facs="377">spine</locus>):
+<quote xml:lang="ta">vīramāmuṉivar kuṟaḷ Urai.</quote></desc><desc synch="#CoverFront" type="shelfmark">Current BnF shelfmark sticker: <quote>INDIEN 57</quote> (<locus facs="2">front cover, recto</locus>).</desc><desc synch="#u1" type="shelfmark">Old BnF shelfmark in black ink: <quote>Tamoul N° 57</quote> (<locus facs="3">f[1]r</locus>).</desc><desc synch="#U3" type="preface" subtype="beginning">Latin preamble (<locus facs="15">f5r</locus>).</desc></additions><bindingDesc>
                      <binding><p>Leather bound.</p><decoNote type="stringhole"><measure unit="stringhole"/></decoNote></binding>
                   </bindingDesc></physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian" when="1847">Internally dated. See colophon (U3, <locus facs="19">f7r</locus>).</origDate>
+                     <origDate calendar="gregorian" when="1847">Internally dated. See colophon (U3, <locus facs="19">f7r</locus>): copy made between 1847-10-17 and 1847-11-27. On a master copy owned by the Jesuit mission in Pondicherry (see U3, <locus facs="11">f3r</locus>).</origDate>
                      
                   <origPlace>South India, Pondicherry.</origPlace></origin>
-                  <provenance><p>Autograp manuscript by <persName role="collector">Édouard Ariel</persName> (1818-1854). Bequested by Édouard Ariel to Société Asiatique (Rosny 1868, p. 177).</p></provenance>
+                  <provenance><p>Autograph (?) manuscript by <persName role="collector">Édouard Ariel</persName> (1818-1854). Bequested by Édouard Ariel to Société Asiatique (Rosny 1868, p. 177).</p></provenance>
                   <acquisition><p>Received, August 1st, 1866, from the Société Asiatique. See BnF, département des Manuscrits, inventaire 7 = <title>Dons: manuscrits et imprimés documentaires, 1848-1895</title>, no. 1192.</p></acquisition>
                </history>
                <additional>
@@ -88,10 +83,27 @@
       
    <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
-      <change when="2022-06">First version.</change><change when="2022-06">Revised and enlarged by <persName>Emmanuel FRANCIS</persName>. Version 1, June 2022.</change></revisionDesc></teiHeader>
+      <change when="2022-06">Encoded by Charles LI.</change><change when="2022-07">Revised and enlarged by <persName>Emmanuel FRANCIS</persName>. Version 1, July 2022.</change></revisionDesc></teiHeader>
    <facsimile>
    <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b52513899g/manifest.json"/></facsimile>
-<text synch="#U3" corresp="#T3" xml:lang="ta"><body>
+<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+  <ab>
+    
+  <pb facs="5" n="[1]r"/>
+  <seg function="title"><lb n="1"/>kuṟaḷ.</seg>
+    
+    </ab>
+  </body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
+  <ab>
+     
+  <pb facs="7" n="[1]r"/>
+<seg function="title"><lb n="1"/>vīrāmāmunivar
+<lb n="2"/>Aruḷicceyta
+<lb n="3"/>tiruvaḷḷuvar
+<lb n="4"/>kuṟaḷurai.</seg>
+    
+    </ab>
+  </body></text><text synch="#U3" corresp="#T3" xml:lang="ta"><body>
   <ab>
     
         <pb facs="9" n="2r"/>
@@ -102,23 +114,27 @@
     <lb n="4"/>de la présente copie.
       </term>
 
-            <pb facs="10" n="2v"/><note xml:lang="en">blank</note>
+    <pb facs="10" n="2v"/><note xml:lang="en">blank</note>
 
     <pb facs="11" n="3r"/>
         <term xml:lang="fr">
-<lb n="1-7"/>Le manuscrit d'après lequel j'ai copié celui ci est la propriété de la maison des missions étrangères à Pondichéri: a en juger par l'écriture qui est lourde et carrée, d'ailleurs bonne, <gap reason="ellipsis"/>
-    <lb n="8ff."/><gap reason="ellipsis"/>
+<lb n="1-7"/>Le manuscrit d'après lequel j'ai copié celui ci est la propriété de la maison des missions étrangères à Pondichéri: A en juger par l'écriture qui est lourde et carrée, d'ailleurs bonne, régulière et fort lisible, il sort de la main d'un prêtre. Cette écriture &amp; et son apparence matérielle le font remonter à un siècle environ.
+          <lb n="8-11"/><gap reason="ellipsis"/>
           </term>
+    
+        <pb facs="12" n="3v"/>
+    
+        <pb facs="13" n="4r"/>
     
      <pb facs="14" n="4v"/>
         <term xml:lang="fr">
           <lb n="1-12"/><gap reason="ellipsis"/>
-          <lb n="13"/>Pudutchéri, Le 27 novembre 1847 ― E Ariel
+          <lb n="13"/><placeName xml:lang="fr" key="Pondicherry">Pudutchéri</placeName>, Le 27 novembre 1847 ― E Ariel
           </term>
     
     <pb facs="15" n="5r"/>
         <term xml:lang="la">
-<lb n="1-4"/>Codex manuscriptus <gap reason="ellipsis"/>
+<lb n="1-5"/>Codex manuscriptus <gap reason="ellipsis"/>
           </term>
     
                 <pb facs="16" n="5v"/><note xml:lang="en">blank</note>
@@ -128,7 +144,7 @@
       <lb n="1"/>Moralia
        <lb n="2"/>Tiruvalluveni
 <lb n="3"/>R.R.P. – C.J. Beschius,
-<lb n="4"/>Societas Jesu,
+<lb n="4"/>Societatis Jesu,
 <lb n="5"/>latinã paraphrasi
 <lb n="6"/>nec non ad verbum interpretatione
 <lb n="7"/>illustravit.</term>
@@ -148,13 +164,15 @@
       <pb facs="20" n="7v"/><note xml:lang="en">blank</note>
 
     <pb facs="21" n="8r"/>
-<term xml:lang="la"><lb n="1"/>Moralia Tiruvalluveni</term>
-<lb n="2"/><term xml:lang="ta">Aṟappāl</term> <term xml:lang="la">vel</term> <term xml:lang="ta">Aṟattuppāl</term>
-<term xml:lang="la"><lb n="3"/>Liber 1. De virtutibus
+<seg function="title"><lb n="1"/><term xml:lang="la">Moralia Tiruvalluveni</term>
+<lb n="2"/><term xml:lang="ta">Aṟappāl</term> <term xml:lang="la">vel</term> <term xml:lang="ta">Aṟattuppāl</term></seg>
+<seg function="intertitle"><lb n="3"/><term xml:lang="la">Liber 1. De virtutibus
 <lb n="4"/>Prologon
 <lb n="5"/>amplectens tria capita quorum
 <lb n="6"/>caput 1.</term>
-<lb n="7"/><term xml:lang="ta-Taml">kaṭavuḷ vāḻttu</term> <term xml:lang="fr">caravut vâttu.</term>
+<lb n="7"/><term xml:lang="ta">kaṭavuḷ vāḻttu</term> <term xml:lang="fr">caravut vâttu</term>
+   <lb n="8"/><term xml:lang="la">Dei Laus.</term></seg>
+  
     <seg function="incipit"><lb n="8"/><term xml:lang="fr">1.</term> <term xml:lang="ta">Akara mutala veḻuttellā māti, pakavaṉ mutaṟṟē yulaku.</term> <gap reason="ellipsis"/></seg>
     
         <pb facs="363" n="179r"/>
