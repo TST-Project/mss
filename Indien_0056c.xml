@@ -20,7 +20,7 @@
                   <idno type="alternate"><idno>Tamoul 56</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103471j</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b10463676h</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary><p>Text not identified. A commentary on <term xml:lang="ta">Nīti</term>, with verse numbered from 1 to 77.</p>
+                  <summary><p>Text not identified. A commentary on <term xml:lang="ta">Nīti</term>, with stanzas numbered from 1 to 77.</p>
 </summary>
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">TBC</term></title><textLang mainLang="tam"/></msItem></msContents>
@@ -28,7 +28,7 @@
                   <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
                         <extent>
-                           <measure unit="folio" quantity="48">48 (U1).</measure>
+                           <measure unit="folio" quantity="47">47 (U1).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
@@ -37,7 +37,7 @@
                         <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
                         
                         
-                     <support/><collation><desc xml:id="U1">48 folios = <emph rend="bold">TBC: Text &amp; Commentary</emph>. 2 incomplete Tamil foliation (unblackened, later added) for the first folios.</desc></collation><condition>Good condition.</condition></supportDesc>
+                     <support/><foliation>Partial Tamil foliation. No foliation after f10 (leaves cut to size?).</foliation><collation><desc xml:id="U1">48 folios = <emph rend="bold">TBC: Text &amp; Commentary</emph>. 2 incomplete Tamil foliation (unblackened, later added) for the first folios.</desc></collation><condition>Good condition.</condition></supportDesc>
                      <layoutDesc>
                         
                      </layoutDesc>
@@ -47,7 +47,7 @@
                   
                <handDesc>
                      
-                  <handNote scope="major" script="tamil" medium="incised soot"><desc>Soot faded.</desc></handNote></handDesc><additions/><bindingDesc>
+                  <handNote synch="#U1" scope="major" script="tamil" medium="incised soot"/></handDesc><additions/><bindingDesc>
                      <binding>
                         
                      <decoNote type="stringhole"><measure unit="stringhole" quantity="1"/></decoNote></binding>
@@ -73,7 +73,7 @@
       
    <encodingDesc><p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.              </p></encodingDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
-      <change when="2022-07">Record created by Emmanuel FRANCIS. Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, July 2022.</change></revisionDesc></teiHeader>
+      <change when="2022-07">Record created and revised by <persName>Emmanuel FRANCIS</persName>. Version 1, July 2022.</change></revisionDesc></teiHeader>
    
 <facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10463676h/manifest.json" facs="231"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   <ab>
@@ -101,13 +101,13 @@
       <lb n="4" break="no"/>ppatti tūṟātu vempuka ṉalleriyiṭatatiṟkuk kukūkūkuva veṉṟa<del><gap reason="illegible" quantity="4" unit="character"/></del>laṟukaṇaiyāvu miṭukiṭara paṭṭuk kiyālerapa
       <lb n="5"/>miṉācavaku kuruciṭattiṟ paṭṭa nōvoṭu nērntariyayirukāttiṟṟait tū nīṭaraṇikoṇṭatorumutalōṉē = 1 = =</seg>
     
-      <pb facs="233" n="2r"/>
+      <pb facs="233" n="2r"/><note xml:lang="en">library Arabic foliation 114r</note>
    <lb n="1"/><gap reason="ellipsis"/> 
     
      <pb facs="234" n="2v"/><note xml:lang="en">library Arabic foliation 114v</note>
    <lb n="5"/><gap reason="ellipsis"/> = 2 = = <gap reason="ellipsis"/>
     
-      <pb facs="324" n="1r"/><note xml:lang="en">library Arabic foliation 159v</note>
+      <pb facs="324" n="[48]v"/><note xml:lang="en">library Arabic foliation 159v</note>
        <seg function="explicit">
          <lb n="1"/>7<g ref="#pattu"/>7 <g ref="#pcs"/> <gap reason="ellipsis"/>
          <lb n="2"/><gap reason="ellipsis"/>

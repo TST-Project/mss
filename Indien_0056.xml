@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Collection (3 works): </title>
+            <title>Collection (3 works)</title>
          <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
@@ -17,10 +17,11 @@
                      <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
                   </repository>
                   <idno type="shelfmark">Indien 56</idno>
-                  <idno type="alternate"><idno>Tamoul 56</idno></idno>
+                  <idno type="alternate"><idno>Tamoul 56</idno><idno>Ariel 901</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103471j</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b10463676h</idno></msIdentifier>
                <msContents class="#CM">
                   <summary><p>A composite manuscript containing:
+  
   <list rend="numbered">
     <item>A blank guard leaf (U1).</item>
     <item>The <title xml:lang="ta">Tirukkuṟaḷ</title>, text and commentary (Indien 56a).</item>
@@ -38,7 +39,7 @@
                   <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
                         <extent>
-                           <measure unit="folio" quantity="165">{1} + 91 + 25 + 48 + {1} + {1} (U1 + Indien 56a + + Indien 56b + Indien 56c + U2 + U3).</measure>
+                           <measure unit="folio" quantity="163">{1} + 91 + 22 + 47 + {1} + {1} (U1 + Indien 56a + + Indien 56b + Indien 56c + U2 + U3).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
@@ -47,7 +48,7 @@
                         <dimensions type="object" unit="mm"><width quantity="365"/><height quantity="25"/></dimensions><dimensions type="written" unit="mm"/></extent>
                         
                         
-                     <support/><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. Shelfmark sticker on recto.</desc><desc xml:id="U1">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso. Shelfmarks on recto.</desc><desc xml:id="Indien56a">90 folios = <emph rend="bold"><title xml:lang="ta">Tirukkuṟaḷ</title></emph>.</desc><desc xml:id="Indien56b">25 folios = <emph rend="bold"><title xml:lang="ta">Paṇaviṭutūtu</title></emph>.</desc><desc xml:id="Indien56b">47 folios = <emph rend="bold">TBC</emph>.</desc><desc xml:id="U2">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Verso blank. </desc><desc xml:id="U3">1 folio = back <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso. Shelfmark on recto.
+                     <support/><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. Shelfmark sticker on recto.</desc><desc xml:id="U1">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso. Shelfmarks on recto.</desc><desc xml:id="Indien56a">90 folios = <emph rend="bold"><title xml:lang="ta">Tirukkuṟaḷ</title></emph>.</desc><desc xml:id="Indien56b">25 folios = <emph rend="bold"><title xml:lang="ta">Paṇaviṭutūtu</title></emph>.</desc><desc xml:id="Indien56b">47 folios = <emph rend="bold">TBC</emph>.</desc><desc xml:id="U2">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Verso blank. Possibly portion of Bnf Indien 56c.</desc><desc xml:id="U3">1 folio = back <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso. Shelfmark on recto.
 </desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Good condition.</condition></supportDesc>
                      <layoutDesc>
                         
@@ -86,16 +87,16 @@
          
       <change when="2022-07">Record created by Emmanuel FRANCIS. Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, July 2022.</change></revisionDesc></teiHeader>
    
-<facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10463676h/manifest.json"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+<facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10463676h/manifest.json"/></facsimile><text synch="#U2" corresp="#T1" xml:lang="ta"><body>
   <ab>
     
   <pb facs="325" n="[1]r"/>
   
-   <lb n="1"/><gap reason="ellipsis"/>
+   <lb n="1"/>piṟakāca <gap reason="ellipsis"/>
    <lb n="2"/><gap reason="ellipsis"/>
    <lb n="3"/><gap reason="ellipsis"/> <space/> muṟṟum nāṟāyaṉēṉ yeḻut=tu
     
-      <pb facs="325" n="[1]v"/><note xml:lang="en">blank</note>
+      <pb facs="326" n="[1]v"/><note xml:lang="en">blank</note>
 
 </ab>
 </body></text></TEI>

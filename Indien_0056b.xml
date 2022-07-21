@@ -20,15 +20,14 @@
                   <idno type="alternate"><idno>Tamoul 56</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103471j</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b10463676h</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary><p>The <title xml:lang="ta">Paṇaviṭutūtu</title>.</p>
-</summary>
+                  <summary><p>An incomplete copy of the <title xml:lang="ta">Paṇaviṭutūtu</title>, stanzas 11.1b-372 only.</p></summary>
                   
-               <msItem synch="#U1" xml:id="T1" defective="true"><title xml:lang="ta">Paṇaviṭutūtu: Mūlam</title><textLang mainLang="tam"/></msItem></msContents>
+               <msItem synch="#U1" xml:id="T1" defective="true"><title xml:lang="ta">Paṇaviṭutūtu 11.1b-372: Mūlam</title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
                   <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
                         <extent>
-                           <measure unit="folio" quantity="25">25 (U1).</measure>
+                           <measure unit="folio" quantity="22">22 (U1).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
@@ -37,17 +36,17 @@
                         <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
                         
                         
-                     <support/><collation><desc xml:id="U1">25 folios = <emph rend="bold"><title xml:lang="ta">Paṇaviṭutūtu</title>: Text</emph>. Tamil foliation 2-26. f1 missing.</desc></collation><condition>Good condition.</condition></supportDesc>
+                     <support><p>Very irregular leaves.</p></support><foliation> Tamil foliation.</foliation><collation><desc xml:id="U1">25 folios = <emph rend="bold"><title xml:lang="ta">Paṇaviṭutūtu</title>: Text</emph>. Tamil foliation 2-9, 13-26. f1, f10-12 missing. 6 lines per page up to f15; 4-5 lines per page for f16-f20 (possibly another hand); 6-7 lines per page for f21-f26.</desc></collation><condition>Good condition. Slightly insect-eaten.</condition></supportDesc>
                      <layoutDesc>
                         
-                     </layoutDesc>
+                     <layout writtenLines="4 7"/></layoutDesc>
                   </objectDesc>
                   
                   
                   
                <handDesc>
                      
-                  <handNote synch="#U1" scope="major" script="tamil" medium="incised soot"/></handDesc><additions/><bindingDesc>
+                  <handNote synch="#U1" scope="major" script="tamil" medium="incised soot"><desc>Transitional script with modern <foreign xml:lang="ta">ṟa</foreign>.</desc></handNote></handDesc><additions/><bindingDesc>
                      <binding>
                         
                      <decoNote type="stringhole"><measure unit="stringhole" quantity="1"/></decoNote></binding>
@@ -73,7 +72,7 @@
       
    <encodingDesc><p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.              </p></encodingDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
-      <change when="2022-07">Record created by Emmanuel FRANCIS. Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, July 2022.</change></revisionDesc></teiHeader>
+      <change when="2022-07">Record created and revised by <persName>Emmanuel FRANCIS</persName>. Version 1, July 2022.</change></revisionDesc></teiHeader>
    
 <facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10463676h/manifest.json" facs="187"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   <ab>
@@ -81,22 +80,21 @@
    <pb facs="187" n="1"/><note xml:lang="en">f1 missing</note>
 
   <pb facs="187" n="2r"/>  
-   <seg function="incipit"><lg><l><lb n="1"/>yāṉ kaṇṭōr pacitīrkkuñ</l>
-<l>celvak kaṟuṇait tirumukattāṉ mellap <note xml:lang="en">verse 11</note></l>
-<l>puṭaiparanta teḷḷamutam pōṟka<lb n="2" break="no"/>ruṇai veḷḷaṅ 
-kaṭaiparanta ceṅkamalak kaṇṇān puṭaiceṉ ~ <note xml:lang="en">verse 12</note></l>
-<l>ṟaṭuttiṭṭa pērkku mayalāṟku muṇmai 
-naṭuttiṭ<lb n="3" break="no"/>ṭa mēyuraikku nāvāṉa yeṭuttamata <note xml:lang="en">verse 13</note></l></lg></seg> <gap reason="ellipsis"/>
+   <seg function="incipit"><lg><l><lb n="1"/><note xml:lang="en">verse 11</note> yāṉ kaṇṭōr pacitīrkkuñ</l>
+<l>celvak kaṟuṇait tirumukattāṉ mellap</l></lg>
+<lg><l><note xml:lang="en">verse 12</note> puṭaiparanta teḷḷamutam pōṟka<lb n="2" break="no"/>ruṇai veḷḷaṅ 
+kaṭaiparanta ceṅkamalak kaṇṇān puṭaiceṉ ~</l></lg>
+<lg><l><note xml:lang="en">verse 13</note> ṟaṭuttiṭṭa pērkku mayalāṟku muṇmai 
+naṭuttiṭ<lb n="3" break="no"/>ṭa mēyuraikku nāvāṉa yeṭuttamata</l></lg></seg> <gap reason="ellipsis"/>
 
     
    <pb facs="230" n="26v"/>
     
        <lb n="5"/><gap reason="ellipsis"/> 
-    <seg function="explicit"><lg><l><gap reason="ellipsis"/>y ayyā nī <note xml:lang="en">verse 371.2d</note></l>
-<l>tūtuceṉṟā vanteṉatu cōkan taṇippa</l>
-<l>ḷanta mātutaṉṉai pōyaḻaittu vā <g ref="#pcl"/><note xml:lang="en">verse 372</note></l></lg></seg> <seg function="colophon"><seg function="completion-statement">muṟṟum <g ref="#pcl"/>
+    <seg function="explicit"><lg><l><note xml:lang="en">verse 371.2d</note> <gap reason="ellipsis"/>y ayyā nī</l></lg>
+<lg><l><note xml:lang="en">verse 372</note> tūtuceṉṟā vanteṉatu cōkan taṇippa</l>
+<l>ḷanta mātutaṉṉai pōyaḻaittu vā <g ref="#pcl"/></l></lg></seg> <seg function="colophon"><seg function="completion-statement">muṟṟum <g ref="#pcl"/>
 <lb n="6"/>paṇaviṭutūtu muṟṟum <g ref="#pcl"/></seg> <seg function="total-stanzas"> {Āka} kaṉṉi 3<g ref="#nūṟu"/>9<g ref="#pattu"/>9 <g ref="#pcs"/> <g ref="#pcs"/></seg> <seg function="blessing">kurukaṭāṣcam <g ref="#pcs"/></seg> <seg function="copy-statement">paṇaviṭutūtu yeḻitu niṟavēṟiyatu<g ref="#pcs"/></seg> <seg function="blessing">civakaṭāścam <g ref="#pcl"/></seg></seg>
-
     
 </ab>
 </body></text></TEI>
