@@ -20,37 +20,39 @@
                   
                   <idno type="shelfmark">Indien 250</idno>
                   <idno type="alternate"><idno>Tamoul 250</idno><idno>Ducler 30</idno></idno>
-               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1037847</idno></msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1037847</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b52510469p</idno></msIdentifier>
                <msContents class="#STM">
                   <summary><p>A complete text (<foreign xml:lang="ta">mūlam</foreign>) of the <title xml:lang="ta">Naiṭatam</title>, with an unpublished commentary from preface to end.</p>
 <p>Description based on the digital images available on Gallica.</p>
 <p>Dimensions after Cabaton (1912).</p> 
                   </summary>
                   
-               <msItem synch="#U2" xml:id="T1" defective="false"><title xml:lang="ta">Naiṭatam: Pāyiram</title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T2" defective="false"><title xml:lang="ta">Naiṭatam: Mūlam &amp; Urai</title><textLang mainLang="tam"/></msItem></msContents>
+               <msItem synch="#U2" xml:id="T1" defective="false"><title xml:lang="ta">Naiṭatam: Pāyiram</title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T2" defective="false"><title xml:lang="ta">Naiṭatam: Mūlam &amp; Urai</title><author xml:lang="ta">Ativīrarāmapāṇṭiyar</author><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
                         <extent>
-                           <measure unit="folio" quantity="339"/>
+                           <measure unit="folio" quantity="339">{1} + {1} + 337 (U1 + U2 + U3).</measure>
                            <dimensions type="leaf" unit="mm">
-                              <width quantity="385"/>
-                              <height quantity="30"/>
+                              
+                              
                            </dimensions>
-                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
+                        <dimensions type="object" unit="mm"><width quantity="385"/><height quantity="30"/></dimensions><dimensions type="written" unit="mm"/></extent>
                         
                         
-                     <collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso.</desc><desc xml:id="U2">1 folio = <emph rend="bold"><title xml:lang="ta">Naiṭatam</title>: Preface</emph>. No foliation.</desc><desc xml:id="U3">337 folios = <emph rend="bold"><title xml:lang="ta">Naiṭatam</title>: Text &amp; Commentary</emph>. Tamil foliation 1-337. Verso blank.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><foliation><p>Foliation in Tamil and European numbers.</p>
-                        </foliation><condition><p>Excellent condition.</p>
+                     <foliation>Foliation in Tamil and European numbers (U3).
+                        </foliation><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso.</desc><desc xml:id="U2">1 folio = <emph rend="bold"><title xml:lang="ta">Naiṭatam</title>: Preface</emph>. No foliation.</desc><desc xml:id="U3">337 folios = <emph rend="bold"><title xml:lang="ta">Naiṭatam</title>: Text &amp; Commentary</emph>. Tamil foliation 1-337. Verso blank.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Excellent condition.
                         </condition></supportDesc>
                      <layoutDesc>
                         <layout columns="1" writtenLines="7 8"/>
                      </layoutDesc>
                   </objectDesc>
-                  <handDesc>
+                  
+                  
+                  
+               <handDesc>
                      
-                  <handNote synch="#U2 #U3" scope="sole" script="tamil" scriptRef="#tamilRa" medium="incised soot"/></handDesc>
-                  <additions>
+                  <handNote synch="#U2 #U3" scope="sole" script="tamil" medium="incised soot"><desc>Transitional script with modern <foreign xml:lang="en">ṟa</foreign>.</desc></handNote></handDesc><additions>
                     
                     
                     
@@ -80,7 +82,7 @@
                     
                     
                     
-                  <desc synch="#U3" type="intertitle" subtype="marginal left">Left-marginal intertitles:
+                  <desc synch="#U2" type="preface">Preface (<foreign xml:lang="ta">pāyiram</foreign>) (<locus facs="5">f[1]r</locus>-<locus facs="6">f[1]v</locus>).</desc><desc synch="#U3" type="intertitle" subtype="marginal left">Left-marginal intertitles:
 
 <quote xml:lang="ta" rend="block">
   
@@ -122,7 +124,7 @@
     <milestone unit="left-margin"/>12Āvatu cuyam[va]rap paṭalam
   
   <pb facs="423" n="208r"/>
-    <milestone unit="left-margin"/>[13Āvatu] pōrpuri paṭalam
+    <milestone unit="left-margin"/><supplied reason="omitted">13Āvatu</supplied> pōrpuri paṭalam
   
   <pb facs="471" n="232r"/>
     <milestone unit="left-margin"/>14Āvatu maṇampuri paṭalam
@@ -160,33 +162,31 @@
   <pb facs="634" n="313v"/>
     <milestone unit="left-margin"/>25Āvatu vīmaṉ tēṭaviṭṭa paṭalam
   
-  <pb facs="627" n="310r"/><milestone unit="left-margin"/>26[Ā]vatu kalinīṅku paṭalam
+  <pb facs="645" n="319r"/><milestone unit="left-margin"/>26vatu kalinīṅku paṭalam
   
   <pb facs="655" n="324r"/><milestone unit="left-margin"/>27Āvatu tēviyaik kaṇṇuṟṟa paṭalam
   
-  <pb facs="672" n="332v"/><milestone unit="left-margin"/>28Āvatu aracāṭcip paṭalam
-  </quote></desc></additions>
-                  <bindingDesc>
+  <pb facs="672" n="332v"/><milestone unit="left-margin"/>28Āvatu Aracāṭcip paṭalam
+  </quote></desc></additions><bindingDesc>
                      <binding>
-                        <p><material>Ebony</material> woodcovers, seemingly made at the instance of Ducler, after he acquired the manuscript.</p>
-                     </binding>
-                  </bindingDesc>
-               </physDesc>
+                        <p><material>Ebony</material> woodcovers, made at the instance of Ducler, in the case he acquired the manuscript rather than ordered it to his usual scribe.</p>
+                     <decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
+                  </bindingDesc></physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian" notBefore="1771" notAfter="1772">Internally dated to the year <foreign xml:lang="ta">kara</foreign> of the Jovian cycle, that is, CE 1831-1832, 1771-1772, 1711-1712, etc. See colophon (U3, <locus facs="681">f337r6</locus>). Dated to circa 1770 by Vinson in Vinson et al. (1866-) and to 1770 by Cabaton (1912), on unstated grounds (presumably palaeographical and material analysis arguments). 
+                     <origDate calendar="gregorian" notAfter="1832">Internally dated to the year <foreign xml:lang="ta">kara</foreign> of the Jovian cycle, that is, CE 1831-1832, 1771-1772, 1711-1712, etc. See colophon (U3, <locus facs="681">f337r6</locus>). Dated to circa 1770 by Vinson in Vinson et al. (1866-) and to 1770 by Cabaton (1912), on unstated grounds (presumably palaeographical and material analysis arguments). 
 </origDate>
-                  <origPlace>Tamilnadu</origPlace></origin>
+                  <origPlace>South India, Tamilnadu.</origPlace></origin>
                   <acquisition>
                      <p>Acquired, July 22nd, 1833, from <persName xml:lang="fr" role="collector">Philippe Ducler</persName>. See BnF, département des Manuscrits, inventaire 1 = <title>Acquisitions: manuscrits et imprimés documentaires, 1833-1848</title>, no. 86.</p>
                   </acquisition>
-               <provenance><p>Owned by <persName xml:lang="fr" role="collector">Philippe Ducler</persName>.</p></provenance></history>
+               <provenance><p>Owned by <persName xml:lang="fr" role="collector">Philippe Ducler</persName>. It is not clear if this also was copied for <persName xml:lang="fr" role="collector">Philippe Ducler</persName> by an unnamed copyist in Karaikal Jail. See Burnouf (1832).</p></provenance></history>
                <additional>
                   <listBibl>
                      
                      
                      
-                  <bibl><persName xml:lang="ta">Ativīrarāmapāṇṭiyar</persName>, ed. (1962). <title xml:lang="ta">Naiṭatam mūlamum uraiyum.</title> Comm. by <persName xml:lang="ta">Kaḻakap Pulavar Kuḻuviṉar</persName>. <placeName xml:lang="ta">Tirunelvēli/Ceṉṉai</placeName>: <orgName xml:lang="ta">Tirunelvēlit Teṉṉintiya Caivacittānta Nūṟpatippuk Kaḻakam (Kaḻakaveḷiyīṭu 1099)</orgName>.</bibl><bibl>Burnouf, Eugène. 1832. <title type="article">Rapport fait au Conseil, dans la séance du 2 juillet 1832, sur les collections de manuscrits et de dessins rapportées de l’Inde par M. Ducler, administrateur de Carical, membre de la Société asiatique</title>. <title>Journal asiatique</title> 10: 84-91. — See <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k93120f/f90">p. 90, no. 30</ref>.</bibl><bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens.</title> Bibliothèque nationale. Département des manuscrits. Paris : E. Leroux. — See <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k255694f/f45.item">p. 39, no. 250</ref></bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. 1866-. <title>Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f131.item">f58r, no. <del>234</del> 250</ref>.</bibl></listBibl>
+                  <bibl><title xml:lang="ta">Naiṭatam</title>. 1962. <title xml:lang="ta">Naiṭatam mūlamum uraiyum</title>. Comm. by <persName xml:lang="ta">Kaḻakap Pulavar Kuḻuviṉar</persName>. <placeName xml:lang="ta">Tirunelvēli/Ceṉṉai</placeName>: <orgName xml:lang="ta">Tirunelvēlit Teṉṉintiya Caivacittānta Nūṟpatippuk Kaḻakam (Kaḻakaveḷiyīṭu 1099)</orgName>.</bibl><bibl>Burnouf, Eugène. 1832. <title type="article">Rapport fait au Conseil, dans la séance du 2 juillet 1832, sur les collections de manuscrits et de dessins rapportées de l’Inde par M. Ducler, administrateur de Carical, membre de la Société asiatique</title>. <title>Journal asiatique</title> 10: 84-91. — See <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k93120f/f90">p. 90, no. 30</ref>.</bibl><bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens.</title> Bibliothèque nationale. Département des manuscrits. Paris : E. Leroux. — See <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k255694f/f45.item">p. 39, no. 250</ref></bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. 1866-. <title>Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f131.item">f58r, no. <del>234</del> 250</ref>.</bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
@@ -208,17 +208,19 @@
       <seg function="blessing"><lb n="1"/><term xml:lang="sa">hariḥ Om</term></seg>
     </seg>
       
-<seg function="incipit"><milestone unit="main-text-area"/>
- <note xml:lang="en"> = Pāyiram of the edition</note>
-  <lb n="1"/>taḻaiviri kaṭukkai mālai taṉimutaṟ caṭaiyiṟ cūṭuṅ kuḻaviveṇ ṭiṅka ḷitta kōṭṭatu kuṟaiyeṉ ṟeṇṇi puraineṭuṅ karattārp paṟṟip poṟpuṟa yiṇaittu
-  <lb n="2"/>nōkku maḻaimatak kaḷittiṉ ceyya malaraṭi ceṉṉi vaippām ~ Etu ~ taḻainaṟu malarnta pūṅkoṉṟai mālaiyiṉaiyuṭaiya civaṉāṉavar caṭāyārttilē ya
+<seg function="satellite-stanza incipit" type="root-text"><milestone unit="main-text-area"/>
+ <note xml:lang="en">that is, the <term xml:lang="ta">Pāyiram</term> of the 1962 edition</note>
+  <lg><l><lb n="1"/>taḻaiviri kaṭukkai mālai taṉimutaṟ caṭaiyiṟ cūṭuṅ</l> <l>kuḻaviveṇ ṭiṅka ḷitta kōṭṭatu kuṟaiyeṉ ṟeṇṇi</l> <l>puraineṭuṅ karattārp paṟṟip poṟpuṟa yiṇaittu
+  <lb n="2"/>nōkku</l> <l>maḻaimatak kaḷittiṉ ceyya malaraṭi ceṉṉi vaippām ~</l></lg></seg> <seg function="incipit" type="commentary">Etu ~ taḻainaṟu malarnta pūṅkoṉṟai mālaiyiṉaiyuṭaiya civaṉāṉavar caṭāyārttilē ya
   <lb n="3" break="no"/>ṇintukoṇṭirukkiṉṟa viḷaveṇpiṟaiyiṉai muṉṉē tāṉ pāratameḻututaṟkut taṉ kompilē yōṭitta kuṟaiyāka niṉaintu yataṉait tuḷaiporu
   <lb n="4" break="no"/>ntiya neṭitākiya tutikkaiyiṉālē yeṭuttut taṉkompiṉuṭaiya kuṟaiyilē yaḻakupeṟa vaittu yōṭip pātamaṟṟaik kompiṉo 
     <lb n="5" break="no"/>teytu cariyāyiruppatu pārttaruḷiya malai pōlu matacelaṅkaḷaip poḻiyāniṉṟirukkiṉṟa yāṉai mukattaṉākiya vikkiṉēcuraṉu
-  <lb n="6" break="no"/>ṭaiya centāmarai malarpōṉṟa pātaṅkaḷai yematu talaimēṟ koḷvāmeṉṟavāṟu <g ref="#pcs"/> 1 <g ref="#pcs"/></seg> <gap reason="ellipsis"/>
+  <lb n="6" break="no"/>ṭaiya centāmarai malarpōṉṟa pātaṅkaḷai yematu talaimēṟ koḷvām eṉṟa vāṟu <g ref="#pcs"/> 1 <g ref="#pcs"/></seg> <gap reason="ellipsis"/>
+    <lb n="7"/><gap reason="ellipsis"/>
       
         <pb facs="6" n="[1]v"/>
-    <seg function="explicit"><lb n="7"/><gap reason="ellipsis"/> ṉ eṉṟa v<pc>-</pc>āṟu <g ref="#pcl"/> 2 <g ref="#pcl"/></seg>
+    <lb n="1-6"/><gap reason="ellipsis"/>
+    <seg function="explicit" type="commentary"><lb n="7"/><gap reason="ellipsis"/> ṉ eṉṟa v<pc>-</pc>āṟu <g ref="#pcl"/> 2 <g ref="#pcl"/></seg>
 
       </ab>
   </body></text><text synch="#U3" corresp="#T2" xml:lang="ta"><body>
@@ -229,28 +231,31 @@
       <milestone unit="left-margin"/>
       <seg function="blessing"><lb n="1"/><term xml:lang="sa">hariḥ Om</term></seg>
       <seg function="blessing"><lb n="2"/>naṉṟāka</seg>
-      <seg function="title"><lb n="3"/>niṭatam</seg>
-      <seg function="intertitle"><lb n="4"/>nāṭṭuppaṭalam</seg>
+      <seg function="title"><lb n="3"/><sic>ni</sic>ṭatam</seg>
+      <seg function="intertitle"><lb n="4-5"/>nāṭṭuppaṭalam</seg>
       </seg>
 
-    <seg function="incipit">
+    <seg function="incipit" type="root-text">
       <milestone unit="main-text-area"/>
-   <lb n="1"/>karuvi māmaḻai kalaimaka ḷuruveṉa viḷaṅki yiruvi cumpiṭai parantuceṉ ṟiṉṉamaṇi kōḻikkum paravai veṇṭirai mēyntuyar paṉivarai yuyir
-  <lb n="2" break="no"/>tta vuruva vōṭarit taṭaṅkaṇā ḷurukkoṭu mīṇṭa ~ Etu ~ peritāyirukiṉṟa mēkaṅkaḷ caracuvatiyiṉuṭaiya vuruvam pōlē veṇmaiyāyat
+   <lg><l><lb n="1"/>karuvi māmaḻai kalaimaka ḷuruveṉa viḷaṅki</l> <l>yiruvi cumpiṭai parantuceṉ ṟiṉṉamaṇi kōḻikkum</l> <l>paravai veṇṭirai mēyntuyar paṉivarai yuyir
+  <lb n="2" break="no"/>tta</l> <l>vuruva vōṭarit taṭaṅkaṇā ḷurukkoṭu mīṇṭa ~</l></lg></seg> <seg function="incipit" type="commentary">Etu ~ peritāyirukiṉṟa mēkaṅkaḷ caracuvatiyiṉuṭaiya vuruvam pōlē veṇmaiyāyat
   <lb n="3" break="no"/>tōṉṟivittāramāyirukku mākācamāṟkamākap paṭarntu pōy navaraṟṟiṉaṅkaḷaik kōḻikkuñ camuttirattiṉuṭaiya veṇmaiyāyirukki
   <lb n="4" break="no"/>ṉṟa valaikaḷaip paraṉam paṇṇiyuyarcci poruntiya yimappaṟuvatam peṟṟa vaḻukiya cevvari paṭarnta taṭaṅkaṇkaḷaiyuṭaiya yu
-  <lb n="5" break="no"/>maiyava ḷuruvam pōla nīlavaṟaṉamākit tirumpivantaṉa veṉṟavāṟu  <g ref="#pcs"/> 1 <g ref="#pcs"/></seg>
+  <lb n="5" break="no"/>maiyava ḷuruvam pōla nīlavaṟaṉamākit tirumpivantaṉa veṉṟa vāṟu  <g ref="#pcs"/> 1 <g ref="#pcs"/></seg> <gap reason="ellipsis"/>
                      
 
   <pb n="336v" facs="680"/>
-  <seg function="explicit"><lb n="8"/><gap reason="ellipsis"/> Āḻi cūḻpavi muḻuvatu māḻiyoṉ ṟuṟuṭṭi 
+  <lb n="8"/><gap reason="ellipsis"/> <seg function="explicit" type="root-text"><lg><l>Āḻi cūḻpavi muḻuvatu māḻiyoṉ ṟuṟuṭṭi</l>
     
-    <pb n="337r" facs="681"/>
-  <lb n="1"/>vāḻi nallaṟam puritaruṅ kampalam vāṟṟi cūḻi mālvaraip piṭaruṟu cumaiyoḻit tāṟa pāḻi yampuyat tulakelām parittaṉi 
-    <lb n="2"/>tiruntāṉ <g ref="#pcs"/> Etu <g ref="#pcs"/> Anta naḷaccakiṟavaṟtiyāṉavaṉ piṉṉuñ camuttiñ cūḻunta pūlōkamellān taṉṉuṭaiya vāka?ṉucakka
+    <l><pb n="337r" facs="681"/>
+  <lb n="1"/>vāḻi nallaṟam puritaruṅ kampalam vāṟṟi</l> <l>cūḻi mālvaraip piṭaruṟu cumaiyoḻit tāṟa</l> <l>pāḻi yampuyat tulakelām parittaṉi 
+    <lb n="2"/>tiruntāṉ <g ref="#pcs"/></l></lg></seg> <seg function="explicit" type="commentary">Etu <g ref="#pcs"/> Anta naḷaccakiṟavaṟtiyāṉavaṉ piṉṉuñ camuttiñ cūḻunta pūlōkamellān taṉṉuṭaiya vāk<unclear>ki</unclear>ṉucakka
     <lb n="3" break="no"/>rañ celutti naṉmai tarukiṉṟa vekutaṟamaṅkaḷaic ceytu kiṭaippa taṟakaritākiya vēkuyarkātikiṟutukkaḷaic ceyvittu mukapa
     <lb n="4" break="no"/>ṭarttai yaṇintu periyamalai pōlirukkaṉṟatikāṉaiyiṉ piṭariyilē yirukkiṉṟa pūmiparāccumaiyai yiṟakkivalu
     <lb n="5" break="no"/>mai peṟṟaḻukitāyirukkiṉṟa taṉṉuṭaiya tōḷilē yantaccumaiyai vaittulakamellā mirēṭcittuk ko
-    <lb n="6" break="no"/>ṇṭu tāṉun tamaiyantiyumākac cukamē yiruntāreṉṟavāṟu <g ref="#pcs"/> <g ref="#pattu"/>5 <g ref="#pcs"/></seg> <seg function="total-stanzas"> {Āka}p paṭalam · 2<g ref="#pattu"/>8k=ku viruttam <g ref="#pcs"/> <g ref="#āyiram"/><g ref="#nūṟu"/>6<g ref="#pattu"/>9 <g ref="#pcl"/></seg> <seg function="colophon">kara {varuṣam} Āṉi <lb n="7"/>{mācam} 2<g ref="#pattu"/>6 <g ref="#pcs"/> maṅkaḷavarāmum tiruvoṇanaṭcattiramuṅ kūṭiya tiṉattil eḻuti muṭintatu <g ref="#pcs"/></seg>
+    <lb n="6" break="no"/>ṇṭu tāṉun tamaiyantiyumākac cukamē yiruntār eṉṟa vāṟu <g ref="#pcs"/> <g ref="#pattu"/>5 <g ref="#pcs"/></seg> <seg function="colophon"><seg function="total-stanzas"> {Āka}p paṭalam · 2<g ref="#pattu"/>8k=ku viruttam <g ref="#pcs"/> <g ref="#āyiram"/><g ref="#nūṟu"/>6<g ref="#pattu"/>9 <g ref="#pcl"/></seg> <seg function="copy-statement">kara {varuṣam} Āṉi <lb n="7"/>{mācam} 2<g ref="#pattu"/>6 <g ref="#pcs"/> maṅkaḷavarāmum tiruvoṇanaṭcattiramuṅ kūṭiya tiṉattil eḻuti muṭintatu <g ref="#pcs"/></seg></seg>
+    
+        <pb n="337v" facs="682"/><note xml:lang="en">blank</note>
+
     </ab>
   </body></text></TEI>
