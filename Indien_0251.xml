@@ -22,7 +22,7 @@
                   <idno type="alternate"><idno>Tamoul 251</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103785h</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b525104759</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary><p>An incomplete text (<foreign xml:lang="ta">mūlam</foreign>) of the <title xml:lang="ta">Naiṭatam</title>, with an elaborate commentary (different from the one in <ref target="Indien_0250.xml">BnF Indien 250</ref>).</p>
+                  <summary><p>An incomplete text (<foreign xml:lang="ta">mūlam</foreign>) of the <title xml:lang="ta">Naiṭatam</title>, up to chapter 11, with an elaborate commentary (different from the one in <ref target="Indien_0250.xml">BnF Indien 250</ref>).</p>
 <p>Description based on the digital images available on Gallica.</p>
 <p>Dimensions after Cabaton (1912).</p>     
 </summary>
@@ -34,24 +34,24 @@
                         <extent>
                            <measure unit="folio" quantity="204">203 + {1} (U1 + U2).</measure>
                            <dimensions type="leaf" unit="mm">
-                              <width quantity="410"/>
-                              <height quantity="35"/>
+                              
+                              
                            </dimensions>
-                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
+                        <dimensions type="object" unit="mm"><width quantity="410"/><height quantity="35"/></dimensions><dimensions type="written" unit="mm"/></extent>
                         
                         
-                     <foliation>Tamil foliatio in left margin.
-                        </foliation><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">203 folios = <emph rend="bold"><title xml:lang="ta">Naiṭatam</title>: Text &amp; Commentary</emph>. Tamil foliation 1-203. </desc><desc xml:id="U2">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Good condition.
+                     <foliation>Tamil foliation in left margin (U1).
+                        </foliation><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">203 folios = <emph rend="bold"><title xml:lang="ta">Naiṭatam</title>: Text &amp; Commentary</emph>. Tamil foliation 1-213, with gaps. f1r recto darker = original outside page.</desc><desc xml:id="U2">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso. Verso darker = original outside page.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Good condition.
                         </condition></supportDesc>
                      <layoutDesc>
-                        <layout columns="1"/>
-                     </layoutDesc>
+                        
+                     <layout writtenLines="7 8"/></layoutDesc>
                   </objectDesc>
                   
                   
                <handDesc>
                      
-                  <handNote synch="#U2" scope="sole" script="tamil" scriptRef="#tamilRa" medium="incised"><desc>Largely uninked.</desc></handNote></handDesc><additions>
+                  <handNote synch="#U1" scope="sole" script="tamil" scriptRef="#tamilRa" medium="incised"><desc>Transitional script, with modern <foreign xml:lang="ta">ṟa</foreign>. Mostly unblackened.</desc></handNote></handDesc><additions>
                     
             
             
@@ -69,7 +69,7 @@
             
             
             
-                  </additions><bindingDesc><binding><p>Original <material>wood</material> covers.</p></binding></bindingDesc></physDesc>
+                  <desc synch="#CoverFront" type="shelfmark" subtype="cover front">Current BnF shelfmark sticker covering an older sticker: <quote>INDIEN 251</quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#CoverFront" type="documenting-note" subtype="cover front">BnF register reference in black, partly covered by current BnF shelfmark sticker: <quote>R.C. 582<gap reason="lost"/></quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#U1" type="foliation">Arabic foliation 213 added in black ink (<locus facs="407">f213r</locus>).</desc></additions><bindingDesc><binding><p>Original <material>wood</material> covers.</p><decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding></bindingDesc></physDesc>
                <history>
                   <origin>
                      <origDate calendar="gregorian" when="1780">No internal date. Dated to circa 1780 by Vinson in Vinsom et al. (1866-) and to 1780 by Cabaton (1912), on unstated grounds (presumably palaeographical and material analysis arguments). </origDate>
@@ -82,7 +82,7 @@
                      
                      
                      
-                  <bibl><persName xml:lang="ta">Ativīrarāmapāṇṭiyar</persName>, ed. (1962). <title xml:lang="ta">Naiṭatam mūlamum uraiyum.</title> Comm. by <persName xml:lang="ta">Kaḻakap Pulavar Kuḻuviṉar</persName>. <placeName xml:lang="ta">Tirunelvēli/Ceṉṉai</placeName>: <orgName xml:lang="ta">Tirunelvēlit Teṉṉintiya Caivacittānta Nūṟpatippuk Kaḻakam (Kaḻakaveḷiyīṭu 1099)</orgName>.</bibl><bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens.</title> Bibliothèque nationale. Département des manuscrits. Paris : E. Leroux. — See <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k255694f/f45.item">p. 39, no. 251</ref></bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. 1866-. <title>Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f133.item">f59r, no. <del>235</del> 251</ref>.
+                  <bibl><title xml:lang="ta">Naiṭatam</title>. 1962. <title xml:lang="ta">Naiṭatam mūlamum uraiyum</title>. Comm. by <persName xml:lang="ta">Kaḻakap Pulavar Kuḻuviṉar</persName>. <placeName xml:lang="ta">Tirunelvēli/Ceṉṉai</placeName>: <orgName xml:lang="ta">Tirunelvēlit Teṉṉintiya Caivacittānta Nūṟpatippuk Kaḻakam (Kaḻakaveḷiyīṭu 1099)</orgName>.</bibl><bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens.</title> Bibliothèque nationale. Département des manuscrits. Paris : E. Leroux. — See <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k255694f/f45.item">p. 39, no. 251</ref></bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. 1866-. <title>Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f133.item">f59r, no. <del>235</del> 251</ref>.
 </bibl></listBibl>
                </additional>
             </msDesc>
@@ -92,7 +92,7 @@
    <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
          
-      <change when="2020-10">This catalogue entry has been redacted by Eva WILDEN (Universität Hamburg) for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG). Version 1, October 2020.</change><change when="2021-01">Converted to TEI by Charles LI.</change><change when="2022-05">Updated to TST encoding conventions by Emmanuel FRANCIS. Revised by <persName>Emmanuel FRANCIS</persName>. Version 2, May 2022.</change></revisionDesc></teiHeader>
+      <change when="2020-10">This catalogue entry has been redacted by Eva WILDEN (Universität Hamburg) for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG). Version 1, October 2020.</change><change when="2021-01">Converted to TEI by Charles LI.</change><change when="2022-07">Revised and enlarged by <persName>Emmanuel FRANCIS</persName>. Version 2, July 2022.</change></revisionDesc></teiHeader>
    <facsimile>
       <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525104759/manifest.json"/>
    </facsimile>
@@ -107,72 +107,72 @@
         <seg function="intertitle"><lb n="2-3"/>nāṭṭuppaṭalam</seg>
        </seg>
       
-      <seg function="incipit"><milestone unit="main-text-area"/>
-  <lb n="1"/>taḻaiviri kaṭukkai mālait taṉimutaṟ caṭaiyiṟ cūṭuṅ kuḻaviveṇ ṭiṅka ḷiṟṟa kōṭṭatu kuṟaiyeṉ ṟeṇṇip puḻaineṭuṅ karattārp paṟṟip
-    <lb n="2"/>poṟpuṟa viṇaittu nōkku maḻaimatak kaḷiṟṟiṉ ceyya malaraṭi ceṉṉi vaippām. icceyuḷeṉṉutaliṟṟō veṉiṉ ~ teyvavaṇakkamuñ
+      <seg function="incipit" type="root-text"><milestone unit="main-text-area"/>
+  <lg><l><lb n="1"/>taḻaiviri kaṭukkai mālait taṉimutaṟ caṭaiyiṟ cūṭuṅ</l> <l>kuḻaviveṇ ṭiṅka ḷiṟṟa kōṭṭatu kuṟaiyeṉ ṟeṇṇip</l> <l>puḻaineṭuṅ karattārp paṟṟip
+    <lb n="2"/>poṟpuṟa viṇaittu nōkku</l> <l>maḻaimatak kaḷiṟṟiṉ ceyya malaraṭi ceṉṉi vaippām. <g ref="#pcs"/></l></lg></seg> <seg function="incipit" type="commentary">Icceyuḷ eṉṉutaliṟṟō veṉiṉ ~ teyvavaṇakkamuñ
     <lb n="3"/>ceyappaṭu poruḷumeṉṉuñ ciṟappupāyiram iraṇṭaṉuḷ teyvavaṇakkamuṇarntu taṉutaliṟṟu Itaṉ poruḷ <g ref="#pcs"/> <g ref="#pcl"/> <g ref="#pcs"/>
   <lb n="4"/>taḻai taḻaintu ~ viri malarnta ~ kaṭukkai mālai ~ koṉṟaippūmālaiyiṉaiyuṭaiya ~ taṉi Oppaṟṟa ~ mutal Ātiyākiya panam 
-    <lb n="5"/>civanuṭaiya caṭaiyil ~ ca<unclear>ṭa</unclear>pārttilē cūṭum ~ tarikkappaṭṭa ~ kuḻavi Iḷamaiyāki veṇ vēḷumai <lb n="6"/>yākiya tiṅkaḷ ~ mūṉṟām piṟaic cantiraṉai <gap reason="ellipsis"/></seg>
+    <lb n="5"/>civanuṭaiya caṭaiyil ~ ca<unclear>ṭa</unclear>pārttilē cūṭum ~ tarikkappaṭṭa ~ kuḻavi Iḷamaiyāki veṇ vēḷumai
+    <lb n="6"/>yākiya tiṅkaḷ ~ mūṉṟām piṟaic cantiraṉai <gap reason="ellipsis"/></seg>
       
       <pb facs="7" n="3r"/>
-      <seg function="intertitle"><milestone unit="left-margin"/>nāṭṭuppaṭalam</seg>
+      <seg function="intertitle"><milestone unit="left-margin"/><lb n="1-2"/>nāṭṭuppaṭala<seg rend="grantha">m</seg></seg>
         
       <pb facs="71" n="35r"/>
-      <seg function="intertitle"><milestone unit="left-margin"/>
-        Aṉṉattaik kaṇṇuṟṟa paṭalam</seg>
+      <seg function="intertitle"><milestone unit="left-margin"/><lb n="1-2"/>Aṉṉattaik kaṇṇuṟṟa paṭalam</seg>
         
-        <pb facs="111" n="55r"/>
-      <seg function="completion-statement">Aṉṉattaik kaṇṇuṟṟa paṭala muṟṟum</seg>
-       <pb facs="112" n="55v"/><note xml:lang="en">blank</note>
-
-              <pb facs="113" n="56r"/>
-      <seg function="intertitle"><milestone unit="left-margin"/>
-        Aṉṉattait tūtuviṭṭa paṭalam</seg>
-        
-        <pb facs="115" n="57r"/>
-      <seg function="intertitle"><milestone unit="left-margin"/>
-        kaikkiḷai paṭalam</seg>
-        
-        <pb facs="217" n="108r"/>
-      <seg function="completion-statement">Aṉṉattait tūtuviṭṭa paṭalam muṟṟum</seg>
-               <pb facs="218" n="108v"/><note xml:lang="en">blank</note>
-
-                <pb facs="244" n="121v"/>
-      <seg function="intertitle"><milestone unit="left-margin"/>
-        nilāttōṟṟu paṭalam</seg>
+        <pb facs="111" n="65r"/>              
+        <lb n="6"/><gap reason="ellipsis"/> <g ref="#pcs"/> <seg function="completion-statement">Aṉṉattaik kaṇṇuṟṟa paṭala muṟṟum ~ <g ref="#pcs"/></seg>
+        <seg function="total-stanzas"><lb n="7"/>{Āka} paṭalam 3k=ku ceyyuḷ <space type="vacat"/></seg>
     
-        <pb facs="257" n="128r"/>
-      <seg function="completion-statement">nilāttōṟṟu paṭalam muṟṟum</seg>
-        
-        <pb facs="258" n="128v"/>
-      <seg function="intertitle"><milestone unit="left-margin"/>cantirōvālampaṉap paṭalam</seg>
-        
-        <pb facs="287" n="143r"/>
-      <seg function="completion-statement">cantirōvālampaṉap paṭalam muṟṟum</seg>
-    <pb facs="288" n="143v"/><note xml:lang="en">blank</note>
+       <pb facs="112" n="65v"/><note xml:lang="en">blank</note>
 
-                <pb facs="289" n="144r"/>
-      <seg function="intertitle"><milestone unit="left-margin"/>
-        maṉmatōvalampaṉap paṭalam</seg>
-        
-       <pb facs="298" n="148v"/>
-      <seg function="completion-statement">maṉmatōvalampaṉap paṭalam muṟṟum</seg>
-        
-        <pb facs="299" n="149r"/>
-      <seg function="intertitle"><milestone unit="left-margin"/>Intirappaṭalam</seg>
+              <pb facs="113" n="66r"/>
+      <seg function="intertitle"><milestone unit="left-margin"/><lb n="1-3"/>Aṉṉattait tūtuviṭṭa paṭalam</seg>
+                      
+        <pb facs="217" n="118r"/>
+      <lb n="7"/><gap reason="ellipsis"/> <seg function="completion-statement">Aṉṉattait tūtuviṭṭa paṭalam muṟṟum <g ref="#pcs"/></seg>
+               
+        <pb facs="218" n="118v"/><note xml:lang="en">blank</note>
+           
+        <pb facs="244" n="131v"/>
+      <seg function="intertitle"><milestone unit="left-margin"/><lb n="1-3"/>nilāttōṟṟu paṭalam</seg>
     
-        <pb facs="317" n="158r"/>
-      <seg function="completion-statement">Intirappaṭalam muṟṟum</seg>
-        <pb facs="318" n="158v"/><note xml:lang="en">blank</note>
+        <pb facs="257" n="138r"/>
+      <lb n="3"/><gap reason="ellipsis"/> <seg function="completion-statement">nilāttōṟṟu paṭalam muṟṟum <g ref="#pcl"/></seg> <seg function="total-stanzas">{Āka} paṭalam 7k=ku virutta<seg rend="grantha">m</seg><g ref="#pcs"/> 332 <g ref="#pcs"/> <g ref="#end_of_text"/></seg>
+        
+        <pb facs="258" n="138v"/>
+      <seg function="intertitle"><milestone unit="left-margin"/><lb n="1-4"/>cantirōvālampaṉap paṭalam</seg>
+        
+        
+        <pb facs="287" n="153r"/>
+      <lb n="1"/><gap reason="ellipsis"/> <seg function="completion-statement">cantirōvālampaṉap paṭalam muṟṟum }</seg> coṭiyār ~ Eḻuvāy ~ Ūro ~ payaṉilai ~ tamayanti ~ Eḻuvāy kū
+        <lb n="2" break="no"/><gap reason="ellipsis"/> ~ payaṉilai <g ref="#pcs"/> <seg function="total-stanzas">{Āka} paṭalam 8k=ku viruttam 3<g ref="#nūṟu"/>5<g ref="#pattu"/>9 <g ref="#pcs"/> </seg>
+        
+    <pb facs="288" n="153v"/><note xml:lang="en">blank</note>
 
-                <pb facs="319" n="159r"/>
-      <seg function="intertitle"><milestone unit="left-margin"/>
-        naḷaṉ ṟūtuceṉṟa paṭalam</seg>
+                <pb facs="289" n="154r"/>
+      <seg function="intertitle"><milestone unit="left-margin"/><lb n="1-3"/>maṉmatōvalampaṉap paṭalam</seg>
         
-        <pb facs="407" n="203r"/>
-      <seg function="completion-statement">naḷaṉ ṟūtuceṉṟa paṭalam muṟṟum</seg>
+       <pb facs="298" n="158v"/>
+      <lb n="3"/><gap reason="ellipsis"/> <seg function="completion-statement">maṉmatōvalampaṉap paṭa
+    <lb n="4" break="no"/>lam muṟṟum</seg> <seg function="total-stanzas">{Āka} paṭalam 9k=ku virutta<seg rend="grantha">m</seg><g ref="#pcl"/> 375 <g ref="#pcs"/> </seg>
         
-        </ab>
-        </body>
+        <pb facs="299" n="159r"/>
+      <seg function="intertitle"><milestone unit="left-margin"/><lb n="1-2"/>Intirappaṭalam</seg>
+    
+        <pb facs="317" n="168r"/>
+      <lb n="7"/><gap reason="ellipsis"/> <seg function="completion-statement">Intirappaṭalam muṟṟum <g ref="#pcs"/></seg> <seg function="total-stanzas">{Āka} paṭalam <g ref="#pattu"/>k=ku virutta<seg rend="grantha">m</seg><g ref="#pcl"/> 396 } <g ref="#pcs"/> </seg>
+    
+        <pb facs="318" n="168v"/><note xml:lang="en">blank</note>
+
+                <pb facs="319" n="169r"/>
+      <seg function="intertitle"><milestone unit="left-margin"/><lb n="1-4"/>naḷaṉ ṟūtu ceṉṟa paṭalam</seg>
         
-        </text></TEI>
+        <pb facs="407" n="213r"/>
+      <seg function="explicit"><lb n="7"/><gap reason="ellipsis"/> }</seg> <g ref="#nūṟu"/>36 } <seg function="completion-statement">naḷaṉ ṟūtu ceṉṟa paṭalam muṟṟum</seg> <seg function="total-stanzas">{Āka} paṭala<seg rend="grantha">m</seg> 11k=ku virutta<seg rend="grantha">m</seg><g ref="#pcl"/>532 || <g ref="#pcl"/> </seg>
+               
+    <pb facs="408" n="213v"/><note xml:lang="en">blank</note>
+      
+  </ab>
+</body></text></TEI>
