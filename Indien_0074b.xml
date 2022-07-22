@@ -5,7 +5,7 @@
       <fileDesc>
          <titleStmt>
             <title><title xml:lang="ta">Tirikaṭukam</title> (text &amp; commentary)</title>
-         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         <editor><persName>Eva WILDEN</persName><orgName>Universität Hamburg</orgName></editor></titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
             <date>2022</date>
@@ -17,10 +17,10 @@
                      <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
                   </repository>
                   <idno type="shelfmark">Indien 74b</idno>
-                  <idno type="alternate"><idno>Tamoul 74</idno><idno>Ariel 31</idno><idno>c/32</idno></idno>
+                  <idno type="alternate"><idno>Tamoul 74</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103487f</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b10463674m</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary><p>The <title xml:lang="ta">Tirikaṭukam</title>, text with a commentary. This commentary does not correspond to that of the Kaḻakam edition. The text is incomplete: <foreign xml:lang="ta">Kāppu</foreign> + stanzas 1-91 only. The commentary ends with the word <foreign xml:lang="ta">muṟṟum</foreign>.</p></summary>
+                  <summary><p>The <title xml:lang="ta">Tirikaṭukam</title>, text with a commentary. This commentary does not correspond to that of the Kaḻakam 1966 edition. The text is incomplete: <foreign xml:lang="ta">Kāppu</foreign> + stanzas 1-91 only. The commentary ends with the word <foreign xml:lang="ta">muṟṟum</foreign>.</p></summary>
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Tirikaṭukam: Mūlam &amp; Urai</title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
@@ -40,14 +40,14 @@
 </desc></collation><condition>Good condition.</condition></supportDesc>
                      <layoutDesc>
                         
-                     <layout writtenLines="4 6">Two-column layout with 4-line stanza on the left and commentary on the right. fo1rv leaves room for the second hole and thus have three columns, afterwards one short column up to the hole for the verse and the broader right column for the commentary.</layout></layoutDesc>
+                     <layout writtenLines="4 6">Two-column layout with 4-line stanza in the left column and commentary in the right column. The <locus facs="107">f1r</locus> and <locus facs="108">f1v</locus> leave room for the second hole and thus have three columns, afterwards one short column up to the hole for the verse and the broader right column for the commentary.</layout></layoutDesc>
                   </objectDesc>
                   
                   
                   
                <handDesc>
                      
-                  <handNote synch="#U1" scope="major" script="tamil" medium="incised soot"><desc>Transitional script with modern <foreign xml:lang="ta">ṟa</foreign> and some double <foreign xml:lang="ta">kompu</foreign>s.</desc></handNote></handDesc><additions/><bindingDesc>
+                  <handNote synch="#U1" scope="sole" script="tamil" medium="incised soot"><desc>Transitional script with modern <foreign xml:lang="ta">ṟa</foreign> and occasionally double <foreign xml:lang="ta">kompu</foreign>.</desc></handNote></handDesc><additions/><bindingDesc>
                      <binding>
                         
                      <decoNote type="stringhole"><measure unit="stringhole" quantity="1"/></decoNote><p>A single hole to the left side.</p></binding>
@@ -82,7 +82,7 @@
   
   <seg function="header">
     <seg function="blessing"><milestone n="1" unit="column"/>
-  <lb n="1"/><gap reason="ellipsis"/>s·tu</seg>
+  <lb n="1"/>cu<add place="below">pa</add>m as·tu</seg>
    <seg function="blessing"><lb n="2"/>naṉṟāka</seg>
      <seg function="title">
        <lb n="3-4"/>tirikaṭu<sic>ku</sic> Uraipāṭam</seg>
@@ -125,7 +125,7 @@
     <lb n="1"/>tāytantaimutalāyiṉōruḷarākap peṟṟa poḻutavarai yikaḻanturaittoḻukutalu mavarkaḷiṟanta
     <lb n="2"/>viṭamiḻantōmeṉ ṟiraṅkutalun ~ taṉṉuṭampu maṟukuvakai kūṟṟam ~ vantucērum poḻutu
     <lb n="3"/>tāṉ mu<subst><del>ñ</del><add>ṉ</add></subst>paṟañceyyap peṟṟileṉeṉṟu ~ nāṇutalumeṉa vimmūṉṟu nilaiyāta vuṭampai
-<lb n="4"/>yuṭaiyavaṉ ṟoḻi leṉṟa vāṟu <g ref="#pcl"/></seg> <seg function="completion-statement">muṟṟum = 9<g ref="#pattu"/>2 =</seg>
+<lb n="4"/>yuṭaiyavaṉ ṟoḻi leṉṟa vāṟu <g ref="#pcl"/></seg> <seg function="colophon"><seg function="completion-statement">muṟṟum = 9<g ref="#pattu"/>2 =</seg></seg>
 
 </ab>
 </body></text></TEI>
