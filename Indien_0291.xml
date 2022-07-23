@@ -22,7 +22,7 @@
                   <idno type="alternate"><idno>Tamoul 291</idno><idno>Burnouf 171</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1038215</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b52511254m</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary><p>The <title xml:lang="ta">Tiruviḷaiyāṭaṟpurāṇam</title>.</p>
+                  <summary><p>The <title xml:lang="ta">Tiruviḷaiyāṭaṟpurāṇam</title> in prose, that is, a prose <foreign xml:lang="ta">vacaṉam</foreign> of the <title xml:lang="ta">Tiruviḷaiyāṭaṟpurāṇam</title>  informed by Parañcōti.</p>
 <p>Description based on the digital images available on Gallica.</p>
 <p>Dimensions after Cabaton (1912).</p>      </summary>
                   
@@ -31,16 +31,16 @@
                   <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
                         <extent>
-                           <measure unit="folio" quantity="169">{1} + 168 (U1 + U2) [unnumbered folio + folios 1-167]</measure>
+                           <measure unit="folio" quantity="169">{1} + 168 (U1 + U2) [unnumbered folio + f1-f167].</measure>
                            <dimensions type="leaf" unit="mm">
-                              <width quantity="370"/>
-                              <height quantity="25"/>
+                              
+                              
                            </dimensions>
-                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
+                        <dimensions type="object" unit="mm"><width quantity="370"/><height quantity="25"/></dimensions><dimensions type="written" unit="mm"/></extent>
                         
                         
                      <support><p>Inferior palm-leaf quality.
-</p></support><foliation>Tamil foliation and secondary European pagination in black ink on the right.</foliation><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold"><title xml:lang="ta">Tiruviḷaiyāṭaṟpurāṇam</title>: Invocation</emph>. No foliation.</desc><desc xml:id="U2">168 folios = <emph rend="bold"><title xml:lang="ta">Tiruviḷaiyāṭaṟpurāṇam</title>: Text</emph>. Tamil foliation 1-30<hi rend="superscript">1</hi>, 30<hi rend="superscript">2</hi>-167. 2 folios foliated 30.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation></supportDesc>
+</p></support><foliation>Secondary added European foliation in black ink in the right margin. Original Tamil foliation (U2) in the left margin. </foliation><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold"><title xml:lang="ta">Tiruviḷaiyāṭaṟpurāṇam</title>: Invocation</emph>. No foliation.</desc><desc xml:id="U2">168 folios = <emph rend="bold"><title xml:lang="ta">Tiruviḷaiyāṭaṟpurāṇam</title>: Text</emph>. Tamil foliation 1-29, 30<hi rend="superscript">1</hi>, 30<hi rend="superscript">2</hi>, 33-167. 2 folios foliated 30.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation></supportDesc>
                      <layoutDesc>
                         <layout columns="1" writtenLines="4 7">Uneven margins.</layout>
                      </layoutDesc>
@@ -49,7 +49,7 @@
                   
                <handDesc>
                      
-                  <handNote synch="#U1 #U2" scope="sole" script="tamil" scriptRef="#tamilRa"/></handDesc><additions>
+                  <handNote synch="#U1 #U2" scope="sole" script="tamil" medium="incised"><desc>Untrained hand. Modern <foreign xml:lang="ta">ṟa</foreign>. Unblackened</desc></handNote></handDesc><additions>
                     
                     
                     
@@ -65,8 +65,8 @@
                     
                     
                     
-                  <desc synch="#U1" type="shelfmark" subtype="beginning">Burnouf shelfmark sticker: <quote>Burn. 171 </quote> (<locus facs="3">f[1]r</locus>).
-</desc><desc synch="#U2" type="intertitle" subtype="marginal left">Left-marginal intertitles. See selection below. Many more chapter headings, not all of them numbered, some blank versos in between.</desc></additions><bindingDesc><binding><p><material cert="medium">Pinewood</material> covers apparently fabricated in the BnF.</p></binding></bindingDesc></physDesc>
+                  <desc synch="#CoverFront" type="shelfmark" subtype="cover front">Current BnF shelfmark sticker: <quote>INDIEN 291</quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#U1" type="shelfmark" subtype="beginning">Burnouf shelfmark sticker: <quote>BURN. 171 </quote> (<locus facs="3">f[1]r</locus>).
+</desc><desc synch="#U2" type="preface">Preface (f1r-f3v).</desc><desc synch="#U2" type="intertitle" subtype="marginal left">Left-marginal intertitles. See selection below. Many more chapter headings, not all of them numbered, with some blank versos in between.</desc><desc synch="#U2">Arabic foliation 167 added in black ink (<locus facs="339">f167r</locus>).</desc></additions><bindingDesc><binding><p><material cert="medium">Pinewood</material> covers apparently fabricated in the BnF.</p><decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding></bindingDesc></physDesc>
                <history>
                   <origin>
                      <origDate calendar="gregorian" when="1790" notAfter="1852">No internal date.  Dated to circa 1790 by Vinson in Vinson et al. (1866-) and to 1790 by Cabaton (1912), on unstated grounds (presumably palaeographical and material analysis arguments). Not after 1852, since part of the collection of <persName role="collector">Eugène Burnouf</persName> (1812-1852).</origDate>
@@ -91,17 +91,17 @@
    <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
          
-      <change when="2020-10">This catalogue entry has been redacted by <persName>Eva WILDEN</persName> (<orgName>Universität Hamburg</orgName>) for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG). Version 1, Oct 2020. </change><change when="2021-02">Converted to TEI by Charles LI.</change><change when="2022-06">Revised by <persName>Emmanuel FRANCIS</persName>. Version 2, June 2022.</change></revisionDesc></teiHeader>
+      <change when="2020-10">This catalogue entry has been redacted by <persName>Eva WILDEN</persName> (<orgName>Universität Hamburg</orgName>) for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG). Version 1, Oct 2020. </change><change when="2021-02">Converted to TEI by Charles LI.</change><change when="2022-07">Revised by <persName>Emmanuel FRANCIS</persName>. Version 2, July 2022.</change></revisionDesc></teiHeader>
    <facsimile>
       <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b52511254m/manifest.json"/>
    </facsimile>
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
       <ab>
         
-        <pb facs="9" n="[1]r"/>
+        <pb facs="3" n="[1]r"/>
     <seg function="header">
     <seg function="blessing"><milestone unit="left-margin"/>
-      <lb n="1"/><term xml:lang="sa">hari</term> Ōm</seg>
+      <lb n="1"/><term xml:lang="sa">hariḥ</term> Ōm</seg>
          <seg function="blessing"><lb n="2"/>naṉṟāka</seg>
       </seg>
            
@@ -114,26 +114,35 @@
                     </lg></seg>
         </ab>
   
+  <pb facs="4" n="[1]v"/><note xml:lang="en">blank</note>
+  
   </body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
       <ab>
 
-<pb facs="5" n="1r"/>
-            <seg function="header">
+        <pb facs="5" n="1r"/>            
+        <seg function="header">
     <seg function="blessing"><milestone unit="left-margin"/>
-      <lb n="1"/><term xml:lang="sa">hari Ōm</term></seg>
+      <lb n="1"/><term xml:lang="sa">hariḥ Ōm</term></seg>
          <seg function="blessing"><lb n="2"/>naṉṟāka</seg>
               <seg function="title"><lb n="3-6">tiruvālavāyuṭaiya tampiraṉār tiruviḷaiyāṭalp purāṇa=M</lb></seg>
               </seg>
                 
                 <seg function="incipit">
-          <milestone unit="main-text-area"/><lb n="1"/><note xml:lang="en">prose introduction</note> Ātiyilē piramatēvar piḷḷaiyaruṭaṉē kācittalttilē vantu acuvamētayākañ ceytār Appōtu Aka
+          <milestone unit="main-text-area"/><lb n="1"/><note xml:lang="en">prose introduction</note> Ātiyilē piramatēvar piḷḷaiyaruṭaṉē kācittalttilē vantu Acuvamētayākañ ceytār Appōtu Aka
         <lb n="2" break="no"/>ttiyar vēta<gap reason="illegible" quantity="1" unit="character"/>yāka <gap reason="ellipsis"/></seg>
-                                                                                                         
-                <pb facs="11" n="4r"/>
+                     
+        <pb facs="10" n="3v"/>
+        <lb n="1-4"/><gap reason="ellipsis"/> pūlōkaṅkaḷilē
+        <lb n="5"/>yuṇṭaṉē civaliṅka
+                
+        <pb facs="11" n="4r"/>
+        <seg function="header">
          <seg function="intertitle"><milestone unit="left-margin"/>
-      <lb n="1-5"/>mutalāvatu teyventiraṉ paḻittīrtta tiruviḷaiyāṭal <note xml:lang="en">Nampi’s chapter heading!</note></seg>
+      <lb n="1-5"/>mutalāvatu teyvēntiraṉ paḻittīrtta tiruviḷaiyāṭal <note xml:lang="en">Nampi’s chapter heading!</note></seg>
+          </seg>
+        
            <milestone unit="main-text-area"/>
-<lb n="1"/>mellān tericaṉañ ceyta palaṉpeṟuvarākaḷ aṭṭamācittiyum poṟuccērākarati pōkamu maṉupavittu caralō
+<lb n="1"/>mellān tericaṉañ ceyta palaṉpeṟuvarākaḷ Aṭṭamācittiyum poṟuccērākarati pōkamu maṉupavittu caralō
         <lb n="2" break="no"/>ka cāmīpa <gap reason="ellipsis"/>
         
            <pb facs="29" n="13r"/>
@@ -154,11 +163,11 @@
            
              <pb facs="48" n="22v"/>
          <seg function="intertitle"><milestone unit="left-margin"/>
-      <lb n="1ff."/>Āṟāvatu veḷḷiyampalattila??ñ ceyta tiruviḷaiyāṭal</seg>
+      <lb n="1ff."/>Āṟāvatu veḷḷiyampalattil <unclear>naṭana</unclear>ñ ceyta tiruviḷaiyāṭal</seg>
            
              <pb facs="49" n="23r"/>
          <seg function="intertitle"><milestone unit="left-margin"/>
-      <lb n="1ff."/>Ēḻāvatu kuṇṭōtaraṉukkaṉṉamaṭṭapaṭalam <note xml:lang="en">Parañcōti’s chapter heading!</note></seg>
+      <lb n="1ff."/>Ēḻāvatu kuṇṭōtaraṉukkaṉṉamiṭṭapaṭalam <note xml:lang="en">Parañcōti’s chapter heading!</note></seg>
            
              <pb facs="52" n="24v"/>
          <seg function="intertitle"><milestone unit="left-margin"/>
@@ -170,12 +179,12 @@
            
   <pb facs="340" n="167v"/>
          <seg function="intertitle"><milestone unit="left-margin"/>
-      <lb n="1ff."/>5<g ref="#pattu"/><unclear>1</unclear> tā<unclear>va</unclear> caṅkattararuk=ku palakai kuṭuttu</seg>
+      <lb n="1-6"/>5<g ref="#pattu"/><unclear>9</unclear> tā<unclear>va</unclear>tu caṅkattāruk=ku palakai kuṭuttu</seg>
                      
-                <pb facs="340" n="167v"/>
-        <seg function="explicit"><milestone unit="main-text-area"/><lb n="1"/>ceytukoṇṭu vaṅkiccēkarayāṇṭiyararacāccukamē Iruntār <g ref="#pcl"/></seg> <seg function="completion-statement">Aṉpatāvatu cuntarappē ~ ramapeyta
+        <seg function="explicit"><milestone unit="main-text-area"/><lb n="1"/>ceytukoṇṭu vaṅkiccēkarayāṇṭiyararacāccukamē Iruntār <g ref="#pcl"/></seg> <seg function="colophon"><seg function="completion-statement">Aṉpatāvatu cuntarappē ~ ramapeyta
         <lb n="2"/>tiruviḷaiyāṭal muṟṟum <g ref="#pcs"/></seg> <seg function="blessing">tirucciṟṟampala=M ~</seg> <seg function="TBC">vēṭarūpamāka <g ref="#pcl"/> <g ref="#pcl"/> vēṭarūpamāka vantu meruvai
         <lb n="3"/>vil<unclear>lāya</unclear>va ~ rettu cuntaraliṅkam taṉṉiṭaporalē Ampeytukoḷaṉai ceyita kataiyaic cō
-        <lb n="4" break="no"/>ṉṉōm caṅkattāru<unclear>k=ku yalla</unclear> kai tantu Avarkaḷ kūṭattaramum iruntu tamiḷcelam</seg>
-</ab>
+        <lb n="4" break="no"/>ṉṉōm caṅkattāru<unclear>k=ku yalla</unclear> kai tantu Avarkaḷ kūṭat taramum iruntu tamiḷcelam</seg></seg>
+  
+  </ab>
 </body></text></TEI>
