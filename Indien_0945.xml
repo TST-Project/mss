@@ -18,11 +18,12 @@
                      <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
                   </repository>
                   <idno type="shelfmark">Indien 945</idno>
-                  <idno type="alternate"><idno>b/12</idno></idno>
+                  <idno type="alternate"><idno>b/12</idno><idno>Ariel (?)</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc104564h</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b525107060</idno></msIdentifier>
                <msContents class="#STM">
                   <summary><p>Incomplete text of the <title xml:lang="ta">Kallāṭam</title> (KV-99).</p>
 <p>Up to <locus facs="9">f3r</locus> for the 2 KV, <locus facs="10">f3v</locus> blank, <locus facs="11">f4r</locus> Kal. 1, poem beginnings marked by a <foreign xml:lang="ta">tuṟai</foreign> on the left margin of the column (not identical with the <foreign xml:lang="ta">Kaḻakam tuṟai</foreign>-s).</p>
+
 <p>Description based on the digital images available on Gallica.</p>
 <p>Dimensions after Cabaton (1912).</p>  </summary>
                   
@@ -35,12 +36,12 @@
                            
                         </support>
                         <extent>
-                           <measure unit="folio" quantity="105">{1} + {1} + 103 (U1 + U2 + U3). [title folio; unnumbered folio; 1-103 (f103 = guard leaf)]</measure>
+                           <measure unit="folio" quantity="105">{1} + {1} + 103 (U1 + U2 + U3) [title folio + unnumbered folio + f1-f103 (f103 = guard leaf)].</measure>
                            <dimensions type="leaf" unit="mm">
-                              <width quantity="460"/>
-                              <height quantity="35"/>
+                              
+                              
                            </dimensions>
-                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
+                        <dimensions type="object" unit="mm"><width quantity="460"/><height quantity="35"/></dimensions><dimensions type="written" unit="mm"/></extent>
                         
                         
                         
@@ -74,7 +75,7 @@
                <additional>
                   <listBibl>
                      
-                  <bibl><title xml:lang="ta">Kallāṭam</title>. TBC. <title xml:lang="ta">Kallāṭam. Maturaiccaṅkattut teyvattamiḻp pulavarākiya Kallāṭar aruḷi ceytatu.</title> Ed. by <persName xml:lang="ta">Mīṉāṭcicuntarampiḷḷai</persName>. <placeName xml:lang="ta">Ceṉṉai</placeName>: <orgName xml:lang="ta">Malaiccālaiyilirukkum Attinīyam aṇṭ ṭēliniyūs pirāṇc accukkūṭam</orgName>, <term xml:lang="ta">vipava <g ref="#varuṣam">varuṣam</g>, aippaci <g ref="#mācam">mācam</g></term>.</bibl><bibl><title xml:lang="ta">Kallāṭam</title>. 1975 (reprint of 1963). <title xml:lang="ta">Kallāṭam</title>. Ed. by <persName xml:lang="ta">Po. Vē. Cōmacuntaraṉ</persName>, <orgName xml:lang="ta">Caivacittānta Nūṟpatippuk Kaḻakam</orgName>, <placeName xml:lang="ta">Ceṉṉai</placeName>.</bibl><bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See handwritten addition, <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f171">f. 2v, no. 945</ref>.</bibl></listBibl>
+                  <bibl><title xml:lang="ta">Kallāṭam</title>. vipava varuṣam. <title xml:lang="ta">Kallāṭam. Maturaiccaṅkattut teyvattamiḻp pulavarākiya Kallāṭar aruḷi ceytatu</title>. Ed. by <persName xml:lang="ta">Mīṉāṭcicuntarampiḷḷai</persName>. <placeName xml:lang="ta">Ceṉṉai</placeName>: <orgName xml:lang="ta">Malaiccālaiyilirukkum Attinīyam aṇṭ ṭēliniyūs pirāṇc accukkūṭam</orgName>. <term xml:lang="ta">vipava <g ref="#varuṣam">varuṣam</g>, aippaci <g ref="#mācam">mācam</g></term>.</bibl><bibl><title xml:lang="ta">Kallāṭam</title>. 1975. <title xml:lang="ta">Kallāṭam</title>. Ed. by <persName xml:lang="ta">Po.Vē. Cōmacuntaraṉ</persName>. Reprint of 1963 edition. <placeName xml:lang="ta">Ceṉṉai</placeName>: <orgName xml:lang="ta">Caivacittānta Nūṟpatippuk Kaḻakam</orgName>.</bibl><bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See handwritten addition, <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f171">f. 2v, no. 945</ref>.</bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
@@ -85,7 +86,7 @@
       
    <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
-      <change when="2022-04">First version. Converted to TEI by Charles LI.</change><change when="2022-06">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, June 2022.</change></revisionDesc></teiHeader>
+      <change when="2022-04">First version. Converted to TEI by Charles LI.</change><change when="2022-07">Revised by <persName>Emmanuel FRANCIS</persName>. Version 2, July 2022.</change></revisionDesc></teiHeader>
    <facsimile>
    <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525107060/manifest.json"/></facsimile>
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
