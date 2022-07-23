@@ -18,14 +18,14 @@
                      <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
                   </repository>
                   <idno type="shelfmark">Indien 973</idno>
-                  <idno type="alternate"><idno>Senart 311</idno></idno>
+                  <idno type="alternate"><idno>Senart TBC</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1045904</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b10464132h</idno></msIdentifier>
                <msContents class="#STM">
                   <summary><p>The <title xml:lang="ta">Nālaṭiyār</title>, complete text with commentary (U2b), preceded by satellite material (U2a).</p>
 <p>U2a ends with a date: 30 May 1822 (U2a, <locus facs="9">f1r6</locus>).</p>
 <p>U2b ends with a colophon with date:  12 May 1823 (U2b, <locus facs="209">f100r1</locus>).</p>
-<p>Description based on the digital images available on Gallica.</p>
-<p>Dimensions after Cabaton (1912).</p>  </summary>
+   
+<p>Description based on the examination of the original manuscript (July 2020).</p> <p>Dimensions assessed at the time of examination.</p>      </summary>
                   
                <msItem synch="#U2a" xml:id="T1" defective="false"><title xml:lang="ta">Nālaṭiyār: <term xml:lang="en">Satellite Stanzas</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2b" xml:id="T2" defective="false"><title xml:lang="ta">Nālaṭiyār: Mūlam &amp; Urai</title><textLang mainLang="tam"/><finalRubric xml:lang="ta">In-text chapter completion statements. See selection below.</finalRubric></msItem></msContents>
                <physDesc>
@@ -38,14 +38,14 @@
                         <extent>
                            <measure unit="folio" quantity="106">{3} + {1} + 100 + {2} (U1 + U2a + U2b + U3).</measure>
                            <dimensions type="leaf" unit="mm">
-                              <width quantity="450"/>
-                              <height quantity="35"/>
+                              
+                              
                            </dimensions>
-                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
+                        <dimensions type="object" unit="mm"><width quantity="425"/><height quantity="35"/></dimensions><dimensions type="written" unit="mm"/></extent>
                         
                         
                         
-                     <collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">3 folios = <emph rend="bold">guard leaves</emph>. No foliation. </desc><desc xml:id="U2a">1 folio = <emph rend="bold"><title xml:lang="ta">Nālaṭiyār</title>: Satellite Stanzas</emph>. No foliation. Verso blank.</desc><desc xml:id="U2b">100 folios = <emph rend="bold"><title xml:lang="ta">Nālaṭiyār</title>: Text &amp; Commentary</emph>. Tamil foliation {1}-100. </desc><desc xml:id="U3">2 folios = <emph rend="bold">guard leaves</emph>. No foliation. </desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Good condition with some worm-holes; partly unblackened towards the end.</condition></supportDesc>
+                     <collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">3 folios = <emph rend="bold">guard leaves</emph>. No foliation. Blank recto verso.</desc><desc xml:id="U2a">1 folio = <emph rend="bold"><title xml:lang="ta">Nālaṭiyār</title>: Satellite Stanzas</emph>. No foliation. Verso blank.</desc><desc xml:id="U2b">100 folios = <emph rend="bold"><title xml:lang="ta">Nālaṭiyār</title>: Text &amp; Commentary</emph>. Tamil foliation {1}, 2-100. f100v blank.</desc><desc xml:id="U3">2 folios = <emph rend="bold">guard leaves</emph>. No foliation. Blank recto verso, except one unblackened line on <locus facs="213">f[2]r</locus>.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Good condition with some worm-holes; partly unblackened towards the end.</condition></supportDesc>
                      <layoutDesc>
                         <layout writtenLines="8"/>
                      </layoutDesc>
@@ -56,8 +56,8 @@
                   
                <handDesc><handNote synch="#U2a #U2b" scope="sole" script="tamil" medium="incised soot"><desc>Transitional script with modern <foreign xml:lang="ta">ṟa</foreign>, <foreign xml:lang="ta">kompu</foreign> with mini second loop. U2b not entirely blackened.</desc></handNote></handDesc><decoDesc>
                   </decoDesc><additions>
-                  <desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 973</quote> covering a previous shelfmark (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#U2b" type="intertitle" subtype="marginal left">Left-marginal intertitles. See selection below.</desc><desc synch="#U2b" type="intertitle" subtype="intertextual">In-text intertitles in chapter completion statements. See selection below.</desc></additions><bindingDesc>
-                     <binding><decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote><p>Original <material>wood</material> covers.</p></binding>
+                  <desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 973</quote> covering a previous shelfmark (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#U2b" type="intertitle" subtype="marginal left">Left-marginal intertitles. See selection below.</desc><desc synch="#U2b" type="intertitle" subtype="intertextual">In-text intertitles in chapter completion statements. See selection below.</desc><desc synch="#U3" type="stamp">Red stamp (<locus facs="214">f[2]v</locus>).</desc></additions><bindingDesc>
+                     <binding><decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote><p>Original <material>wood</material> covers. With wooden stick in one of the hole. The single string is attached to the stick.</p></binding>
                   </bindingDesc></physDesc>
                <history>
                   <origin>
@@ -65,14 +65,14 @@
 
 </origDate>
                      
-                  <origPlace>Tamilnadu.</origPlace></origin>
+                  <origPlace>South India Tamilnadu.</origPlace></origin>
                   <provenance><p>Unknown.</p></provenance>
-                  <acquisition><p>From Émile Senart (1847-1928).</p></acquisition>
+                  <acquisition><p>From Émile Senart (1847-1928). See Cabaton (1912), handwritten addition, <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f174">f. 4r, no. 973</ref>, which gives the shelfmark Senart 311, which does not match in Filliozat (1936).</p></acquisition>
                </history>
                <additional>
                   <listBibl>
                      
-                  <bibl><title xml:lang="ta">Nālaṭiyār</title>. 1921. <title xml:lang="ta">Camaṇamuṉivarkaḷ iyaṟṟiya Nālaṭiyār mūlamum teḷiporuḷ viḷakkamum</title>. <term xml:lang="ta">uraiyāciriyar Vai. Mu. Caṭakōparāmānujācāriyar/Cē. Kiruṣṇamācariyar. iraṇṭām patippu. Ceṉṉai: Śrī Kaṇēc Accukkūṭṭam.</term></bibl><bibl><title xml:lang="ta">Nālaṭiyār</title>. 1964. <title xml:lang="ta">Patiṉeṇkīḻkkaṇakku Nālaṭiyār urai</title>. <term xml:lang="ta">uraiyāciriyar Ti. Cu. Pālacuntaram Piḷḷai</term>. Reprint. <term xml:lang="ta">Ceṉṉai: Kaḻakam</term>. [1st ed. 1945, rep. 1949, 1953, 1957, 1961]</bibl><bibl><title xml:lang="ta">Nālaṭiyār</title>. 1980. <title xml:lang="ta">Nālaṭiyār uraivaḷam (mūlamum mūṉṟu paḻaiya uraikaḷum aṭaṅkiyatu)</title>. 2 vols. <term xml:lang="ta">patippāciriyarkaḷ S. Mutturatṉa Mutaliyār/M.R. Kantacāmi Piḷḷai</term>. 2nd edition. <term xml:lang="ta">Tañcāvūr: Makārājā Cāpōjiyiṉ Caracuvati Makāl Nūl Nilayam</term>. [1st ed. 1953]</bibl><bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See handwritten addition, <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f174">f. 4r, no. 973</ref>.</bibl></listBibl>
+                  <bibl><title xml:lang="ta">Nālaṭiyār</title>. 1921. <title xml:lang="ta">Camaṇamuṉivarkaḷ iyaṟṟiya Nālaṭiyār mūlamum teḷiporuḷ viḷakkamum</title>. <term xml:lang="ta">uraiyāciriyar Vai. Mu. Caṭakōparāmānujācāriyar/Cē. Kiruṣṇamācariyar. iraṇṭām patippu. Ceṉṉai: Śrī Kaṇēc Accukkūṭṭam.</term></bibl><bibl><title xml:lang="ta">Nālaṭiyār</title>. 1964. <title xml:lang="ta">Patiṉeṇkīḻkkaṇakku Nālaṭiyār urai</title>. <term xml:lang="ta">uraiyāciriyar Ti. Cu. Pālacuntaram Piḷḷai</term>. Reprint. <term xml:lang="ta">Ceṉṉai: Kaḻakam</term>. [1st ed. 1945, rep. 1949, 1953, 1957, 1961]</bibl><bibl><title xml:lang="ta">Nālaṭiyār</title>. 1980. <title xml:lang="ta">Nālaṭiyār uraivaḷam (mūlamum mūṉṟu paḻaiya uraikaḷum aṭaṅkiyatu)</title>. 2 vols. <term xml:lang="ta">patippāciriyarkaḷ S. Mutturatṉa Mutaliyār/M.R. Kantacāmi Piḷḷai</term>. 2nd edition. <term xml:lang="ta">Tañcāvūr: Makārājā Cāpōjiyiṉ Caracuvati Makāl Nūl Nilayam</term>. [1st ed. 1953]</bibl><bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See handwritten addition, <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f174">f. 4r, no. 973</ref>.</bibl><bibl>Filliozat, Jean. 1936. <title xml:lang="fr" type="article">Etat des manuscrits de la collection Emile Senart</title>. <title>Journal Asiatique</title>, Tome 228, 127-143 — See p. 141.</bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
@@ -83,7 +83,7 @@
       
    <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
-      <change when="2022-05">First version. Converted to TEI by Charles LI.</change><change when="2022-06">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, June 2022. With the kind help of Giovanni Ciotti (Hamburg University) &amp; Marco Franceschini (Bologna University) for deciphering and interpreting the dates in the copy beginning statement and in the colophon.</change></revisionDesc></teiHeader>
+      <change when="2022-05">First version. Converted to TEI by Charles LI.</change><change when="2022-07">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, July 2022. With the kind help of Giovanni Ciotti (Hamburg University) &amp; Marco Franceschini (Bologna University) for deciphering and interpreting the dates in the copy beginning statement and in the colophon.</change></revisionDesc></teiHeader>
    <facsimile>
    <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10464132h/manifest.json"/></facsimile>
 <text synch="#U2a" corresp="#T1" xml:lang="ta"><body>
@@ -160,12 +160,12 @@ vāṉi
     <pb facs="25" n="8r"/>
     <seg function="TBC">
       <milestone unit="left-margin"/>
-      <lb n="1-2"/><gap reason="ellipsis"/></seg>
+      <lb n="1-2"/>Araṉ valiyuṟuttal</seg>
     
     <pb facs="29" n="10r"/>
     <seg function="TBC">
       <milestone unit="left-margin"/>
-      <lb n="1-2"/><gap reason="ellipsis"/></seg>
+      <lb n="1-2"/>tūy taṉmai</seg>
     
     <pb facs="33" n="12r"/>
     <seg function="TBC">
@@ -185,7 +185,7 @@ vāṉi
       <milestone unit="left-margin"/>
       <lb n="1-2"/>piṟarmaṉainayavāmai</seg>
     
-    <pb facs="187" n="90r"/><note xml:lang="en">unblackened</note>
+    <pb facs="189" n="90r"/><note xml:lang="en">unblackened</note>
     <seg function="intertitle">
       <milestone unit="left-margin"/>
       <lb n="1-3"/>kāmattup pāl paṉṉēṟi</seg>
