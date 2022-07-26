@@ -22,12 +22,14 @@
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103954x</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/c821gs241</idno></msIdentifier>
                <msContents class="#STM">
                   <summary><p>An incomplete version of the <title xml:lang="ta">Tamiḻ Aṟiyum Perumāḷ Katai</title>.</p>
-   <p>Description based on the examination of the original manuscript (March 2021).</p>  <p>Dimensions assessed at the time of examination.</p>    
+   
+<p>Description based on the examination of the original manuscript (March 2021).</p> 
+<p>Dimensions assessed at the time of examination.</p>    
 </summary>
                   
                <msItem synch="#U1" xml:id="T1" defective="true"><title xml:lang="ta">Tamiḻ Aṟiyum Perumāḷ Katai: Mūlam</title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi">
+                  <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
                         <extent>
                            <measure unit="folio" quantity="30">30 (U1).</measure>
@@ -38,23 +40,23 @@
                         <dimensions type="object" unit="mm"><depth quantity="35"/><width quantity="445"/><height quantity="30"/></dimensions><dimensions type="written" unit="mm"/></extent>
                         
                         
-                     <collation>
+                     <support/><collation>
                      
-                     <desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">11 folios = <emph rend="bold"><title xml:lang="ta">Tamiḻ Aṟiyum Perumāḷ Katai</title>: Text</emph>. Tamil foliation 2-31. 1f missing. 4 to 5 lpp. 440 x 25 mm.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>. </desc></collation><condition>Relatively good state of preservation. Some folios truncated.</condition><support><measure unit="stringhole" quantity="1"/></support></supportDesc>
+                     <desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">11 folios = <emph rend="bold"><title xml:lang="ta">Tamiḻ Aṟiyum Perumāḷ Katai</title>: Text</emph>. Tamil foliation 2-31. 1f missing. 4 to 5 lpp. 440 x 25 mm.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>. </desc></collation><condition>Relatively good state of preservation. Some folios truncated.</condition></supportDesc>
                      <layoutDesc>
                         
                      <layout writtenLines="5"/></layoutDesc>
                   </objectDesc>
-                  <handDesc>
+                  
+                  
+                  
+               <handDesc>
                      
-                  <handNote synch="#U1" scope="major" script="tamil" medium="incised"><desc>Unblackened.</desc></handNote></handDesc>
-                  <additions><desc type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 416</quote> (<locus facs="4">front cover, recto</locus>). </desc><desc synch="#U1" type="foliation">Arabic foliation added in black ink: <quote>31</quote> (<locus facs="28">f31r</locus>).</desc><desc synch="#U1" type="shelfmark">Burnouf shelfmark sticker: <quote>BURN. 169</quote> (<locus facs="34">f31v</locus>).</desc></additions>
-                  <bindingDesc>
+                  <handNote synch="#U1" scope="major" script="tamil" medium="incised"><desc>Unblackened.</desc></handNote></handDesc><additions><desc type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 416</quote> (<locus facs="4">front cover, recto</locus>). </desc><desc synch="#U1" type="foliation">Arabic foliation added in black ink: <quote>31</quote> (<locus facs="28">f31r</locus>).</desc><desc synch="#U1" type="shelfmark">Burnouf shelfmark sticker: <quote>BURN. 169</quote> (<locus facs="34">f31v</locus>).</desc></additions><bindingDesc>
                      <binding>
                         <p><material cert="medium">Pinewood</material> covers apparently fabricated in the BnF.</p>
-                     </binding>
-                  </bindingDesc>
-               </physDesc>
+                     <decoNote type="stringhole"><measure unit="stringhole" quantity="1"/></decoNote></binding>
+                  </bindingDesc></physDesc>
                <history>
                   <origin>
                      <origDate calendar="gregorian" notAfter="1852">No internal date. Dated to circa 1790 by Vinson in Vinson et al. (1866-) and to 1790 by Cabaton (1912), on unstated grounds (presumably palaeographical and material analysis arguments). Not after 1852, since part of the collection of <persName role="collector">Eugène Burnouf</persName> (1801-1852). Described in s.n. (1854).</origDate>
@@ -67,7 +69,7 @@
                <additional>
                   <listBibl>
                      
-                  <bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f78">p. 60, no. 416</ref>.</bibl><bibl>S.n. 1854. <title>Catalogue des livres imprimés et manuscrits composant la bibliothèque de feu M. Eugène Burnouf</title>. Paris: Duprat. — See <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k5804580x/f355">p. 316, no. 169</ref>.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. 1866-. <title> Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f205">f. 95r, no. <del>386</del> 416</ref>. </bibl></listBibl>
+                  <bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f78">p. 60, no. 416</ref>.</bibl><bibl>S.n. 1854. <title>Catalogue des livres imprimés et manuscrits composant la bibliothèque de feu M. Eugène Burnouf</title>. Paris: Duprat. — See <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k5804580x/f355">p. 346, no. 169</ref>.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. 1866-. <title> Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f205">f. 95r, no. <del>386</del> 416</ref>. </bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
