@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Collection (2 works): <title xml:lang="ta">Nēminātam</title> &amp; <title xml:lang="ta">Citamparappāṭṭiyal</title></title>
+            <title>Collection (2 grammatical works): <title xml:lang="ta">Nēminātam</title> &amp; <title xml:lang="ta">Citamparappāṭṭiyal</title></title>
          <editor><persName>Thillai Chidambaram RAJARETHINAM</persName><orgName>EFEO, Pondicherry</orgName></editor></titleStmt>
          
          <publicationStmt>
@@ -23,14 +23,14 @@
                <msContents class="#MTM">
                   <summary><p>A multi-text manuscript containing:
   <list>
-    <item>The <title xml:lang="ta">Nēminātam</title>.</item>
-    <item>The <title xml:lang="ta">Citamparappāṭṭiyal</title>.</item>
-    </list>.</p>
+    <item>The <title xml:lang="ta">Nēminātam</title> (U2). No left-marginal <foreign xml:lang="sa">pratīka</foreign>s.</item>
+    <item>The <title xml:lang="ta">Citamparappāṭṭiyal</title> (U3).</item>
+    </list></p>
 
 <p>Description based on the examination of the original manuscript (April 2019).</p>
 <p>Dimensions after Cabaton (1912).</p>      </summary>
                   
-               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title page (additional)</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta">Nēminātam: Mūlam &amp; Urai</title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T3" defective="false"><title xml:lang="ta">Citamparappāṭṭiyal: Mūlam</title><textLang mainLang="tam"/></msItem></msContents>
+               <msItem synch="#U1" xml:id="T1" defective="false" class="#illakkanam"><title xml:lang="ta"><term xml:lang="en">Title page (additional)</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false" class="#illakkanam"><title xml:lang="ta">Nēminātam: Mūlam &amp; Urai</title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T3" defective="false"><title xml:lang="ta">Citamparappāṭṭiyal: Mūlam</title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
                   <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
@@ -40,7 +40,7 @@
                               
                               
                            </dimensions>
-                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
+                        <dimensions type="object" unit="mm"><width quantity="430"/><height quantity="25"/></dimensions><dimensions type="written" unit="mm"/></extent>
                         
                         
                      <support/><collation>
@@ -62,8 +62,7 @@
                   </bindingDesc></physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian" notAfter="1803"><title xml:lang="ta">Nēminātam</title> and <title xml:lang="ta">Citamparappāṭṭiyal</title> both internally dated to the year <foreign xml:lang="ta">tuntupi</foreign> of the Jovian cycle, that is, CE 1802-1803 1742-1743, etc. See colophons (U2, <locus facs="146">f71v6</locus> and U3, <locus facs="169">83r2</locus>).
-Dated to circa 1760 by Vinson in Vinson et al. (1866-) and to 1760 by Cabaton (1912), on unstated grounds (presumably palaeographical and material analysis arguments). Not after 1854, since part of the collection of <persName role="collector">Édouard Ariel</persName> (1818-1854), bequested in 1855 to the Société Asiatique, Paris (Rosny 1868).</origDate>
+                     <origDate calendar="gregorian" notAfter="1803"><title xml:lang="ta">Nēminātam</title> and <title xml:lang="ta">Citamparappāṭṭiyal</title> both internally dated to the year <foreign xml:lang="ta">tuntupi</foreign> of the Jovian cycle, that is, CE 1802-1803, 1742-1743, etc. See colophons (U2, <locus facs="146">f71v6</locus> and U3, <locus facs="169">83r2</locus>). Dated to circa 1760 by Vinson in Vinson et al. (1866-) and to 1760 by Cabaton (1912), on unstated grounds (presumably palaeographical and material analysis arguments). Not after 1854, since part of the collection of <persName role="collector">Édouard Ariel</persName> (1818-1854), bequested in 1855 to the Société Asiatique, Paris (Rosny 1868).</origDate>
                      <origPlace>South India, Tamilnadu.</origPlace>
                   </origin>
                   <acquisition>
@@ -111,9 +110,38 @@ Dated to circa 1760 by Vinson in Vinson et al. (1866-) and to 1760 by Cabaton (1
 </seg>
       </seg>
                                 
-      <seg function="incipit"><milestone unit="main-text-area"/><lb n="1"/><gap reason="ellipsis"/></seg>
-  
+      <seg function="incipit" type="root-text"><milestone unit="main-text-area"/><lb n="1"/>pūviṉmēl vantaruḷum puṅkavaṉ ṟaṉpoṟpāta nāviṉāṉāḷunaviṉṟētti ~ mevumum ~ vellāmuṇara veḻuttiṉilakkaṇattaic collālu
+        <lb n="2" break="no"/>raippaṉ ṟokuttu =</seg> <seg function="incipit" type="commentary">Eṉpatu = cūttiram eṉṉutaliṟṟoveṉiṉ ciṟappuppāyiram uṇarttutaṉutaliṟṟu ~ Eṉṉai Eṉṉūluraippiṉu maṉṉūṟkup ~
+    <lb n="3"/>pāyiramuraikkaveṉpatu ~ <gap reason="ellipsis"/>
+
+      <pb facs="8" n="2v"/>
+    <lb n="1"/><gap reason="ellipsis"/>
+    <lb n="2"/><gap reason="ellipsis"/> = 1 =</seg> <note xml:lang="en"><term xml:lang="ta">Avaiyaṭakkam</term></note> Uṇṇa muṭiyāta vōtanīr vāṉvāyp
+    <lb n="3" break="no"/>paṭ ṭeṇṇavamutāṉa tillaiyō maṇṇiṉmēl ~ nallāraic cērta lāṉāṉcoṉṉapuṉcollu mellāruṅ kaikkoḷvā rīṅku = Eṉiṉ ~ Avaiya
+    <lb n="4" break="no"/>ṭakkam uṇarttutūUm ~ Ulakattil yāvarum uṇṇa muṭiyāta vōtanīr mēkattiṉ vāyppaṭutalāṉ matikkavamirtamāṉāppōla Eṉṉāluraikkappa
+    <lb n="5"/>ṭṭāṉa collu nallōr cevippaṭutalāliyāvaruṅkaik koḷvar eṉṟa vāṟu = 2 = <seg function="incipit" type="root-text"><note xml:lang="en"><term xml:lang="ta">cūttiram</term>1</note> Āviyakaramutalāṟiraṇṭā māytamiṭaimēvuṅ kakaramu
+    <lb n="6"/>taṉ meykaḷāmūvāṟuṅ kaṇṇumuṟaimaiyāṟ kāṭṭiya muppattoṉṟu naṇṇumutal vaippāku naṉku =</seg> <seg function="incipit" type="commentary"><note xml:lang="en"><term xml:lang="ta">cūttiram</term>1</note> Eṉiṉ = <gap reason="ellipsis"/></seg>
+
+          <pb facs="48" n="22v"/>
+    <lb n="5"/><gap reason="ellipsis"/> = <seg function="completion-statement">Eḻuttatikāra
+    <lb n="6"/>muṟṟum = </seg> <seg function="total-stanzas"> veṇpā = 26 =</seg>tātār malarpiṇṭit tattuvaṉai vantittup pōtār naṟunteriyaṟ pōrvēṟkaṭ ~ pētāy ~ viritturaitta nū
+    <lb n="7" break="no"/>lkaḷiṉum vēṇṭuvaṉa koṇṭu teritturaippaṉ colliṉṟiṟam = Eṉṉiṉ = ivvatikārameṉṉutaliṟṟoveṉiṉ ~ Atikāranutaliyatūmatikāra
+    <lb n="8" break="no"/>ttiṉatu peyaruppavē viḷaṅkumātaliṉālivvatikārameṉṉa peyarttōveṉiṉ collatikāram eṉṉum peyarttuc collila<add place="below">kka</add>ṇa
+    
+    <pb facs="49" n="23r"/>
+    
+    <seg function="header"><seg function="intertitle"><milestone unit="left-margin"/><lb n="1-3"/>collatikāram ==</seg></seg>
+    
+    <milestone unit="main-text-area"/><lb n="1"/>muṇarttiṉamaiyiṉ pōkapūmiyāṉakālatteḻuttiṉaṟika ~ kaṉmapūmiyāṉ kālatteḻuttoṉṟumittuṇai yallatu ~ <gap reason="ellipsis"/>
+
+    <pb facs="75" n="36r"/>
+    
+    <seg function="header"><seg function="intertitle"><milestone unit="left-margin"/><lb n="1-2"/>vē<supplied reason="lost">ṟ</supplied>ṟumai marapu</seg></seg>
+       
+<milestone unit="main-text-area"/>
+    <lb n="4"/><gap reason="ellipsis"/> = 44 = <seg function="completion-statement">moḻiyākka muṟṟum =</seg> <seg function="total-stanzas"> Āka Iyalpu 2k=ku veṇpā = 4 10+ =</seg> kāṇṭaku pērai <gap reason="ellipsis"/>
  
+
   <pb facs="146" n="71v"/>
     <seg function="explicit"><lb n="6"/><gap reason="ellipsis"/> = 52 =</seg> <seg function="colophon"><seg function="completion-statement">Ecca marapu muṟṟum =</seg> <seg function="total-stanzas"> {Āka} Atikāram uru ~ 25 ~ marapu ~ 85 ~ veṇpā 9 10+ 6 =</seg> <seg function="copy-statement">tuntupi {varuṣam} Āvaṇi {mācam} 4 {tēti} Eḻuti mukintatu muṟṟum =</seg> <seg function="blessing">kuruvē tuṇai = = = =</seg></seg>
     
