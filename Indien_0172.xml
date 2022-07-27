@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><title xml:lang="ta">Tolkāppiyam</title></title>
+         <editor><persName>Thillai Chidambaram RAJARETHINAM</persName><orgName>EFEO, Pondicherry</orgName></editor></titleStmt>
+         
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2022</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Indien 172</idno>
+                  <idno type="alternate"><idno>Tamoul 172</idno><idno>Ariel TBC</idno></idno>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103259v</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b541006000</idno></msIdentifier>
+               <msContents class="#STM">
+                  <summary><p>An incomplete copy of the <title xml:lang="ta">Tolkāppiyam</title>, text and commentary. At the time of binding the title page, the index of <foreign xml:lang="ta">cūttiram</foreign>s and the missing beginning were added on blue paper. The end of the text is missing.</p>
+
+<p>Description based on the examination of the original manuscript (April 2019).</p>
+<p>Dimensions after Cabaton (1912).</p>      </summary>
+                  
+               <msItem synch="#U1a" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title page</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U1b" xml:id="T2" defective="false"><title xml:lang="ta">Tolkāppiyam: Cūttiravakarāti</title><textLang mainLang="tam"/></msItem><msItem synch="#U1c" xml:id="T3" defective="true"><title>Tolkāppiyam: </title></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="codex" rend="manuscript">
+                     <supportDesc material="paper">
+                        <extent>
+                           <measure unit="folio" quantity="315">{1} + 313 + {1} (u1 + U1 + u2).</measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           </dimensions>
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
+                        
+                        
+                     <support><p>Blue paper (u1; U1, f1-9; u2) and white paper (U1, f10-f313).</p></support><foliation>Library Arabic foliation 1-313 (U1) taken here as reference. Tamil pagination 3-612 (U1, lf10r-lf313v).</foliation><collation>
+                     
+                     <desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="u1">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso.</desc><desc xml:id="U1">313 folios = <emph rend="bold"><title xml:lang="ta">Tolkāppiyam</title></emph>. Library Arabic foliation 1-313.</desc><desc xml:id="U1a">1 folio = <emph rend="bold">Title Page</emph>. Library Arabic foliation 1. Verso blank.</desc><desc xml:id="U1b">7 folios = <emph rend="bold"><title xml:lang="ta">Tolkāppiyam</title>: Index of <foreign xml:lang="ta">cūttiram</foreign>s</emph>. Library Arabic foliation 2-8.</desc><desc xml:id="U1c">305 folios = <emph rend="bold"><title xml:lang="ta">Tolkāppiyam</title>: Text</emph>. Library Arabic foliation 9-313.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation></supportDesc>
+                     <layoutDesc>
+                        
+                     </layoutDesc>
+                  </objectDesc>
+                  
+                  
+                  
+               <handDesc>
+                     
+                  <handNote synch="#U1a #U1b #U1c" scope="minor"><desc>Hand #1. Adding the missing parts on blue paper.</desc></handNote><handNote synch="#U1c" scope="major" script="tamil"><desc>Hand #2. On white paper.</desc></handNote></handDesc><additions><desc synch="#CoverFront" type="shelfmark" subtype="cover front">Current BnF shelfmark sticker: <quote>INDIEN 172</quote> (<locus facs="2">front cover, recto</locus>). </desc><desc synch="#u1" type="shelfmark documenting-note">Old BnF shelfmark in black pencil <quote>Tamoul N° 172</quote> (<locus facs="3">f[1]r</locus>). </desc><desc synch="#U1b" corresp="#T2" type="register">Index of <foreign xml:lang="ta">cūttiram</foreign>s, in the form of a table. The beginnings of the <foreign xml:lang="ta">cūttiram</foreign>s are arranged alphabetically in the first column and reference to page and <foreign xml:lang="ta">cūttiram</foreign>'s number are given in culumns 2-3.</desc></additions><bindingDesc>
+                     <binding>
+                        
+                     <decoNote type="stringhole"><measure unit="stringhole"/></decoNote><p><material>leather</material> covers.</p></binding>
+                  </bindingDesc></physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian" notAfter="1854">Not internal date. Not dated by Vinson in Vinson et al. (1866-) nor by Cabaton (1912), on unstated grounds (presumably palaeographical and material analysis arguments). Not after 1854, since part of the collection of <persName role="collector">Édouard Ariel</persName> (1818-1854), bequested in 1855 to the Société Asiatique, Paris (Rosny 1868).</origDate>
+                     <origPlace>South India, Tamilnadu.</origPlace>
+                  </origin>
+                  <acquisition>
+                     
+                  <p>Received, August 1st, 1866, from the Société Asiatique. See BnF, département des Manuscrits, inventaire 7 = <title>Dons: manuscrits et imprimés documentaires, 1848-1895</title>, no. 1192.</p></acquisition>
+               <provenance><p>Owned by <persName role="collector">Édouard Ariel</persName> (1818-1854). Bequested by Édouard Ariel to Société Asiatique (Rosny 1868, p. 177).</p></provenance></history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f47">p. 29, no. 172</ref>.</bibl><bibl>Rosny, Léon de. 1868. <title type="article">La bibliothèque tamoule de M. Ariel, de Pondichéry</title>. In <title>Variétés orientales</title>, 177‒224. Paris: Maisonneuve. </bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. 1866-. <title> Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f101">f. 43r, no. 172</ref>. </bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+   <encodingDesc><p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.    </p></encodingDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
+         
+      <change when="2022-07">Encoded and revised by <persName>Emmanuel FRANCIS</persName>. Version 1, July 2022.</change></revisionDesc></teiHeader>
+   
+<facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b541006000/manifest.json"/></facsimile><text synch="#U1a" corresp="#T1" xml:lang="ta"><body>
+  <ab>
+    
+  <pb facs="5" n="[1]r"/>
+    
+    <seg function="blessing">
+      <lb n="1"/><term xml:lang="sa">Oṁ</term></seg>
+                           
+      <seg function="title">
+        <lb n="2"/>tolkāppiyam. 
+        <lb n="3-4"/>nacciṉārkkiṉiyārurai.</seg>
+             
+      <pb facs="6" n="[1]v"/><note xml:lang="en">blank</note>
+
+  </ab>
+</body></text><text synch="#U1b" corresp="#T2" xml:lang="ta"><body>
+  <ab>
+    
+  <pb facs="5" n="2r"/>
+  <pb facs="19" n="8r"/>
+  <pb facs="20" n="8v"/><note xml:lang="en">blank</note>
+
+  </ab>
+</body></text><text synch="#U1c" corresp="#T3"><body>
+  <ab>
+    
+    <pb facs="21" n="9r"/>
+    <lb n="1"/><g ref="#pcs"/>
+    <seg function="blessing"><lb n="2"/>veṟṟivēl uṟṟa tuṇai</seg>
+    <seg function="title"><lb n="3"/>tolkāppiyam _ Eḻuttatikāram _
+    <lb n="4"/>nacciṉārkkiṉiyār urai</seg>
+    
+    <lb n="5"/>vaṭavēṅkaṭan teṉkumari yāyiṭait <gap reason="ellipsis"/>
+    <lb n="6-17"/><gap reason="ellipsis"/>
+    <lb n="18"/><gap reason="ellipsis"/> _ Āyira mukattā lakaṉṟatāyiṉum pāyiramillatu paṉu
+    
+        <pb facs="22" n="9v" break="no"/>
+    <lb n="1"/><gap reason="ellipsis"/>
+    
+    <pb facs="23" n="10r"/><note xml:lang="en">Tamil pagination 3</note>
+    <lb n="1"/><gap reason="ellipsis"/>
+    
+    <pb facs="29" n="13r"/><note xml:lang="en">Tamil pagination 9</note>
+    <lb n="9"/><gap reason="ellipsis"/> <seg function="completion-statement">potuppāyiramuṟṟum.</seg>
+     <seg function="intertitle"><lb n="10"/>ciṟappuppāyiramāvatu.</seg>
+    <lb n="11"/>taṉṉāluraikkappaṭum nūṟkiṉṟiyamaiyā
+    <lb n="12" break="no"/>mai Atu patiṉoru vakaippaṭum. <gap reason="ellipsis"/>
+    
+    <pb facs="549" n="273r"/><note xml:lang="en">Tamil pagination 529</note>
+     <seg function="intertitle"><lb n="7"/>Oṉpatāvatu
+      <lb n="8"/>kuṟṟiyalukarappuṇariyal </seg>
+    <seg function="blessing"><lb n="9"/>tiruñāṇamuttirai tuṇai</seg> <gap reason="ellipsis"/>
+
+<pb facs="630" n="313v"/><note xml:lang="en">Tamil pagination 612</note>
+    <seg function="explicit"><lb n="20"/><gap reason="ellipsis"/> Iṅṅaṉañ ceyyuḷuṭ piṟavun 
+      <lb n="19"/>tirivaṉa vuḷavēṉum ippuṟanaṭaiyāṉ muṭikka
+      <lb n="20"/>Arumaruntāṉeṉpatu rakaravukaraṅ keṭṭu Aruma <note xml:lang="en">the text stops short here</note></seg>
+
+
+  </ab>
+</body></text></TEI>
