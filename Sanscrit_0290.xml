@@ -40,18 +40,20 @@
                               
                            <width min="455" max="460"/><height min="35"/></dimensions>
                         <dimensions type="object" unit="mm"><width quantity="460"/><height quantity="34"/><depth quantity="210"/></dimensions><dimensions type="written" unit="mm"/></extent>
-                        <collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. Shelfmark on recto. Note on paper glued on verso.</desc><desc xml:id="U1">1 folio = <emph rend="bold">front guard leaf</emph>. No foliation. Blank recto verso. 455 x 35 mm.</desc><desc xml:id="U2">1 folio = <emph rend="bold"><term xml:lang="sa">Taittirīyasaṃhitā</term>: Title Page</emph>. No foliation. Verso blank. 455 x 35 mm.</desc><desc xml:id="U3">1 folio = <emph rend="bold"><term xml:lang="sa">Taittirīyasaṃhitā</term>: Invocation + Title + Colophon</emph>. No foliation. 455 x 35 mm.</desc><desc xml:id="U4">342 folios = <emph rend="bold"><term xml:lang="sa">Taittirīyasaṃhitā</term>: Mūla</emph>. Tamil foliation 1-342. Parallel Arabic foliation 1-55, 57, 57-342. 460 x 35 mm.</desc><desc xml:id="U5">1 folio = <emph rend="bold">back guard leaf</emph>. No foliation. Blank recto verso. 460 x 35 mm.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation>
                         
                         
-                     <condition>Excellent state of preservation.</condition></supportDesc>
+                        
+                     <collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. Shelfmark on recto. Note on paper glued on verso.</desc><desc xml:id="U1">1 folio = <emph rend="bold">front guard leaf</emph>. No foliation. Blank recto verso. 455 x 35 mm.</desc><desc xml:id="U2">1 folio = <emph rend="bold"><term xml:lang="sa">Taittirīyasaṃhitā</term>: Title Page</emph>. No foliation. Verso blank. 455 x 35 mm.</desc><desc xml:id="U3">1 folio = <emph rend="bold"><term xml:lang="sa">Taittirīyasaṃhitā</term>: Invocation + Title + Colophon</emph>. No foliation. 455 x 35 mm.</desc><desc xml:id="U4">342 folios = <emph rend="bold"><term xml:lang="sa">Taittirīyasaṃhitā</term>: Mūla</emph>. Tamil foliation 1-342. Parallel Arabic foliation 1-55, 57, 57-342. 460 x 35 mm.</desc><desc xml:id="U5">1 folio = <emph rend="bold">back guard leaf</emph>. No foliation. Blank recto verso. 460 x 35 mm.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Excellent state of preservation.</condition></supportDesc>
                      <layoutDesc>
                         
                      <layout columns="1"/></layoutDesc>
                   </objectDesc>
-                  <handDesc><handNote synch="#U2" scope="major" script="latin" medium="incised soot"/><handNote synch="#U3 #U4" script="grantha" medium="incised soot"/></handDesc>
-                  <decoDesc>
-                  </decoDesc>
-                  <additions>
+                  
+                  
+                  
+                  
+               <handDesc><handNote synch="#U2" scope="major" script="latin" medium="incised soot"/><handNote synch="#U3 #U4" script="grantha" medium="incised soot"/></handDesc><decoDesc>
+                  </decoDesc><additions>
                   <desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>SANSCRIT 290</quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#CoverFront" type="documenting-note" subtype="cover front">Note in black ink on <locus facs="2">paper</locus> (on canvas) glued on front cover, verso:
 
 <quote xml:lang="fr" rend="block">
@@ -61,11 +63,9 @@
   <lb n="4"/>religion, la mode de sacrifice, les prières et les
   <lb n="5"/>commandements de Dieu pour le salut des brames,
   <lb n="6"/>en langue mārastagame, non tamoul
-</quote></desc></additions>
-                  <bindingDesc>
+</quote></desc></additions><bindingDesc>
                      <binding><p>Original <material>ebony</material> covers. 460 x 35 mm.</p><decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
-                  </bindingDesc>
-               </physDesc>
+                  </bindingDesc></physDesc>
                <history>
                   <origin>
                      <origDate calendar="gregorian" notAfter="1829">Internally dated to the year <foreign xml:lang="sa">virodhin</foreign> of the Jovian cycle, that is, CE 1829-1830. See colophon (U3, f[1]v2 and U4, f342v1). Dated to 1829 by Filliozat (1970).</origDate>
@@ -138,7 +138,7 @@
 <lb n="5" break="no"/>kṛṣṇārpaṇam astu</seg> <seg function="completion-statement">saptamakāṇḍas samāptaḥ</seg> <g ref="#pcl"/> <seg function="documenting-note">yādṛśaṃ pustakaṃ dṛṣṭvā tādṛśaṃ likhitaṃ mayā |</seg> <seg function="documenting-note">Abaddhaṃ vā subaddhaṃ vā mama doṣo na vidyate |</seg> <g ref="#pcl"/> <seg function="blessing">śrīgurubhyo namaḥ | <g ref="#pcl"/></seg> <seg function="blessing">śrīvedavyāsāya namaḥ <g ref="#pcl"/></seg>
   
     <pb facs="350" n="342v"/>
-    <seg function="copy-statement"><lb n="1"/>virodhi-nāma-saṃvatsaraṃ tulāmāsa<del><gap reason="illegible" quantity="3" unit="character"/></del><add>m ekona</add>triṃśad dinaṃ guruvāraṃ kṛṣṇapakśaṃ dvitīyyai rohiṇīnakṣatrattil  Idaṃ vedaṃ samhītāpustakaṃ sura<unclear>khra</unclear>ḍhi kṛṣṇan· sva
+    <seg function="copy-statement"><lb n="1"/>virodhi-nāma-saṃvatsaraṃ tulāmāsa<del><gap reason="illegible" quantity="3" unit="character"/></del><add>m ekona</add>triṃśad dinaṃ guruvāraṃ kṛṣṇapakśaṃ dvitīyyai rohiṇīnakṣatrattil  Idaṃ vedaṃ samhītāpustakaṃ <persName xml:lang="sa" role="scribe"><placeName xml:lang="ta">surakkuḍi</placeName> kṛṣṇan·</persName> sva
 <lb n="2"/>hastattunāl samāptamānadu | <g ref="#pcl"/></seg> <seg function="TBC">karakṛtam aparādhaṃ kṣantum arhanti santaḥ <g ref="#pcl"/></seg> <seg function="blessing">Avighnam astu</seg> <seg function="blessing">kailāsanātheśvarasvāmīsahāyaḥ <g ref="#pcs"/></seg> <seg function="blessing">Om·</seg></seg>
   
     </ab>
