@@ -45,7 +45,7 @@ const readfiles = function(arr) {
     });
     output.index(data);
     console.log('Main index compiled: index.html.');
-    output.index(data,{name: 'Ariel collection', prefix: 'Ariel',keys:['Édouard Ariel','Ariel, Édouard']});
+    output.ariel(data);
     console.log('Ariel index compiled: ariel.html.');
     output.index(data,{name: 'Burnouf collection', prefix: 'Burnouf',keys:['Eugène Burnouf','Burnouf, Eugène']});
     console.log('Burnouf index compiled: burnouf.html.');
