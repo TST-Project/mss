@@ -33,7 +33,6 @@
                      <supportDesc material="palm-leaf talipot">
                         <support>
                            <measure unit="stringhole" quantity="1"/>
-                           
                         </support>
                         <extent>
                            <measure unit="folio" quantity="1"/>
@@ -42,17 +41,12 @@
                               <height quantity="50"/>
                            </dimensions>
                         <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"><width quantity="265"/><height quantity="35"/></dimensions></extent>
-                        <collation/>
-                        
-                        
                      <foliation>Numbered 18 in the right margin, verso.</foliation><condition>Some wear around the edges.</condition></supportDesc>
                      <layoutDesc>
                         <layout writtenLines="6"/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><handNote scope="sole" script="bhujimol"><desc>The above-base reph is generally used, except for one instance of an <q>eyelash</q> reph on line 6 of the verso side (<q xml:lang="sa">paryantaṃ</q>).</desc></handNote></handDesc>
-                  <decoDesc>
-                  </decoDesc>
                   <additions>
                   <desc type="stamp" subtype="end">On the <locus facs="7">verso</locus> side, a <q xml:lang="fr">Bibliothèque nationale</q> stamp, 20 mm in diameter.</desc><desc type="shelfmark" subtype="end marginal bottom">On the <locus facs="7">verso</locus> side, the shelfmark is written in pencil: <q xml:lang="fr">Sanscrit 1442 n<hi rend="superscript">o</hi> 2</q>.</desc></additions>
                   <bindingDesc>
@@ -85,20 +79,20 @@
    <facsimile>
    <graphic url="https://api.nakala.fr/data/10.34847/nkl.869ae0uh/5525f1cb24ba890135a71bfa6c938ac5da099d6d" facs="6"/></facsimile>
 <text corresp="#ŚyeKa" xml:lang="sa"><body>
-  <seg function="incipit">
   <lg>
-    <l><pb n="18r" facs="6"/><gap reason="lost"/>ṇinān tathā |</l>
+    <l><pb n="18r" facs="6"/><seg function="incipit"><gap reason="lost"/>ṇinān tathā |</seg></l>
     <l>tasmāt mṛtyubhayatrastās trātavyāḥ prāṇino budhaiḥ |</l>
   </lg>
-  </seg>
   <lg>
     <l>janmamṛtyujarāduḥkhāt nityaṃ <sic>sa</sic>sārasāgare |</l>
     <l>jantavaḥ parikliṣyanti mṛtyo<lb n="2"/>s trasyanti te pi ca |</l>
   </lg>
+  <ab>
   <add place="top"><lg>
     <l><gap reason="lost"/>bhavec chokas trāso vā krodha eva <unclear>vā</unclear> |</l>
       <l>āyāso vā yatomūlaṃm ekāṅgam api saṃtyajet |</l>
   </lg></add>
+  </ab>
   <lg>
     <l>mariṣyāmīti yad duḥkhaṃ puruṣasyopajāyate |</l>
     <l>yuktas tenānumānena paro pi parirakṣitum ||</l>
@@ -162,10 +156,8 @@
     <l>dattam iṣṭaṃ <unclear>hi</unclear>taṃ taptaṃ tīrthasevāśrūtan ta¦<lb n="6"/>thā |</l>
     <l>sarvāṇy abhayadānasya <subst>k<del>ā</del><add rend="implied">a</add></subst>lāṃ nā<unclear>rpā</unclear>nti ṣoḍaśiṃḥ |</l>
   </lg>
-  <seg function="explicit">
   <lg>
     <l>catuḥsāgaraparyantāṃ yo dadyāt pṛthivīm imāṃ |</l>
-    <l><subst><del>satvebhyo hy abhayaṃ yac ca</del><add><unclear>yatac ca sarvvayajñais tu</unclear></add></subst> tayor abhayado dhikaḥ |</l>
+    <l><seg function="explicit"><subst><del>satvebhyo hy abhayaṃ yac ca</del><add><unclear>yatac ca sarvvayajñais tu</unclear></add></subst> tayor abhayado dhikaḥ |</seg></l>
   </lg>
-    </seg>
 </body></text></TEI>
