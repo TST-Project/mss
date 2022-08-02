@@ -45,6 +45,8 @@ const readfiles = function(arr) {
     });
     output.index(data);
     console.log('Main index compiled: index.html.');
+    output.index(data,{name: 'Ancien fonds', prefix: 'Ancien fonds'});
+    console.log('Ancien fonds index compiled: ancien_fonds.html.');
     output.ariel(data);
     console.log('Ariel index compiled: ariel.html.');
     output.index(data,{name: 'Burnouf collection', prefix: 'Burnouf',keys:['Eugène Burnouf','Burnouf, Eugène']});
