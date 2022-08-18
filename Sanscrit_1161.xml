@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><title xml:lang="sa">Gaṇanighantu</title></title>
+            
+         <editor><persName>Charles LI</persName><orgName>CNRS, CEIAS, UMR 8564</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2022</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Sanscrit 1161</idno>
+                  <idno type="alternate"><idno>Cordier médicine 12</idno></idno>
+               </msIdentifier>
+               <msContents class="#STM">
+                  <summary><p>The <title xml:lang="sa">Gaṇanighaṇṭu</title>, also known as the <title xml:lang="sa">Oṣadhinighaṇṭu</title> or the <title xml:lang="sa">Madanādinighaṇṭu</title>, is a medical lexicon by <persName xml:lang="sa">Candranandana</persName>. He is also the author of a commentary on the <title xml:lang="sa">Aṣṭāṅgahṛdaya</title> which was translated into Tibetan in the 11th century.</p>
+
+<p>Filliozat has misspelled the title of this manuscript as <title xml:lang="sa">Guṇanighaṇṭu</title>; this is noted in the <title>New Catalogus Catalogorum</title> which gives the correct title (vol. 6, 355).</p>
+
+<p>The microfilm has been ordered back to front.</p></summary>
+                  
+               <msItem defective="false"><title xml:lang="sa">Gaṇanighaṇṭu</title><author xml:lang="sa">Candranandana</author><textLang mainLang="san"/><filiation><p>Copied from <q>N<hi rend="superscript">o</hi> 1573</q> from the library of the <term xml:lang="sa">Mahārāja</term> of Bikaner.</p></filiation><rubric xml:lang="sa"><milestone facs="24" unit="folio" n="1v"/>
+|| śrīgaṇeśāya namaḥ ||</rubric><incipit xml:lang="sa">giriśaṃ girijāṃ devīṃ gaṇeśaṃ haṃsavāhinī
+gurum ārabhyate natvā lekhyaṃtī ghaṃṭapustakaṃ 1
+praṇamya mū<sic>rddhā</sic> sarva<lb n="2"/>jñaṃ nighaṃṭur abhidhīyate | caṃdranaṃdanasaṃjñena ravinaṃdanasūtanā 2
+aṣṭāṃgahṛdayo kteṣu madanādiṣu <add place="above">vargeṣu</add> <add place="above"><del rend="strikethrough">[sarveṣu]</del></add> | 
+dravyeṣu viprakīrṇeṣu tayā saṃjñāṃta<lb n="3"/>reṣu ca 2
+madanaḥ śalyako rāhaḥ piṃḍītaḥ karahāṭakaḥ |
+gālaḥ phalaṃ gāgalaṃ ca vālaṃ proktaṃ śalāṭu ca 3</incipit><explicit xml:lang="sa"><milestone n="26v" unit="folio" facs="1"/>
+<lb n="3"/>pilus tīkṣṇaś ca madhuraḥ kaphahā vahnidīpinaḥ | <add place="above">5</add> pilunāma || <space/> || iti śyāmādyas trayastriṃśatimo gaṇaḥ || <space/> ||</explicit><finalRubric xml:lang="sa"><lb n="4"/>|| iti ga<sic>na</sic>nighaṃṭasamāptaḥ || </finalRubric><colophon xml:lang="sa">sam̐· 1957 vaiśākha <unclear>·</unclear> śukla || 7 || ravivāsare || lipīkṛtaṃ prohitadīnānāthena ||</colophon></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="pothi" rend="manuscript">
+                     <supportDesc material="paper">
+                        <support>
+                           
+                        </support>
+                        <extent>
+                           <measure unit="folio" quantity="26"/>
+                           <dimensions type="object" unit="mm">
+                              
+                              
+                           </dimensions>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           </dimensions>
+                           <dimensions type="written" unit="mm">
+                              
+                              
+                           </dimensions>
+                        </extent>
+                        
+                        
+                        
+                     <foliation>Devanḡarī numerals, top left corner, verso.</foliation></supportDesc>
+                     <layoutDesc>
+                        
+                     </layoutDesc>
+                  </objectDesc>
+                  
+                  
+                  
+                  
+               <handDesc><handNote scope="sole" script="devanagari" medium="ink black"><desc>Hand of <persName xml:lang="sa" role="scribe">Prohita Dīnānātha</persName>.</desc></handNote></handDesc><additions>
+                  <desc type="title" subtype="running">Running marginal title, <q xml:lang="sa">nighaṃṭu</q>, top left margin, verso.</desc><desc type="documenting-note" subtype="detached">A <locus facs="1">title card</locus> in Cordier's hand gives the title and author in Devanāgarī script, details about the antigraph from Bikaner, and a </desc></additions><bindingDesc>
+                     <binding>
+                        
+                        <decoNote type="stringhole">
+                           <measure unit="stringhole"/>
+                        </decoNote>
+                    </binding>
+                  </bindingDesc></physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian" when="1900">Colophon is dated to <term xml:lang="sa">(Vikrama) saṃvat 1957</term>, month of <term xml:lang="sa">Vaiśākha</term>, corresponding to 1900 CE.</origDate>
+                     
+                  <origPlace>Bikaner</origPlace></origin>
+                  
+                  
+               <provenance><p>Part of the collection of <persName role="collector">Palmyr Cordier</persName>.</p></provenance><acquisition><p>Acquired by <persName role="collector">Jean Filliozat</persName> for the BnF.</p></acquisition></history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl>Cabaton, Antoine. 1907-1908. <title xml:lang="fr">Catalogue sommaire des manuscrits sanscrits avec supplément manuscrit</title>. Paris: E. Leroux. Supplemented by Jean Filliozat. <ref target="https://gallica.bnf.fr/ark:/12148/btv1b10536321f/f218.item">282</ref>.</bibl><bibl>Filliozat, Jean. 1934. <title xml:lang="fr" type="article">Liste des manuscrits de la collection Palmyr Cordier conservés à la Bibliothèque Nationale</title>. <title xml:lang="fr">Journal asiatique</title> 224, <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k93324c/f157.item">155</ref>–<ref target="https://gallica.bnf.fr/ark:/12148/bpt6k93324c/f175.item">173</ref>.</bibl><bibl>Visalakshy, P. 2005. <title xml:lang="sa">Madanādinighaṇṭuḥ</title>. Thiruvananthapuram: University of Kerala.</bibl><bibl>Vogel, Claus. 1965. <title>Vāgbhaṭa's Aṣṭāṅgahṛdayasaṃhitā: the first five chapters of its Tibetan version</title>. Wiesbaden: F. Steiner.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc><p>IAST transliteration.</p></encodingDesc>
+      
+   <revisionDesc><change when="2022-08">First version.</change></revisionDesc></teiHeader>
+   <facsimile>
+   <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10091806h/manifest.json"/></facsimile>
+</TEI>
