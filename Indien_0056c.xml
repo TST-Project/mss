@@ -20,47 +20,51 @@
                   <idno type="alternate"><idno>Tamoul 56</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103471j</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b10463676h</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary><p>Text not identified. A commentary on <term xml:lang="ta">Nīti</term>, with stanzas numbered from 1 to 77.</p>
+                  <summary><p>Text not identified. A commentary on <term xml:lang="ta">Nīti</term>, with stanzas numbered from 1 to 78, containing two units:
+<list rend="numbered">
+  <item>47 folios by hand #1 = stanzas 1-77 (U1).</item>
+  <item>1 folio by hand #2 = stanzas 77-78 (U2).</item>
+    </list></p>
 </summary>
                   
-               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">TBC</term></title><textLang mainLang="tam"/></msItem></msContents>
+               <msItem synch="#U1" xml:id="T1" defective="true"><title xml:lang="ta"><term xml:lang="en">TBC</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="true"><title xml:lang="ta"><term xml:lang="en">TBC</term></title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi" rend="manuscript">
+                  
+                  
+                  
+                  
+               <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
                         <extent>
-                           <measure unit="folio" quantity="47">47 (U1).</measure>
+                           <measure unit="folio" quantity="48">47 + {1} (U1 + U2).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
-                           </dimensions>
+                           <width quantity="370"/><height quantity="30"/></dimensions>
                            <note>The leaves are broader in their middle than at their edges. </note>
                         <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
                         
                         
-                     <support/><foliation>Partial Tamil foliation. No foliation after f10 (leaves cut to size?).</foliation><collation><desc xml:id="U1">48 folios = <emph rend="bold">TBC: Text &amp; Commentary</emph>. 2 incomplete Tamil foliation (unblackened, later added) for the first folios.</desc></collation><condition>Good condition.</condition></supportDesc>
+                     <support/><foliation>Partial Tamil foliation. No foliation after f10 (leaves cut to size?).</foliation><collation><desc xml:id="U1">48 folios = <emph rend="bold">TBC: Text &amp; Commentary</emph>. 2 incomplete Tamil foliation (unblackened, later added) for the first folios. Ends with the beginning of stanza 77. 370 x 30 mm.</desc><desc xml:id="U2">1 folio = <emph rend="bold">TBC</emph>. No foliation. Verso blank. Starts with the end of stanza 77. 370 x 30 mm. Verso more dark = original outside page.</desc></collation><condition>Good condition.</condition></supportDesc>
                      <layoutDesc>
                         
                      </layoutDesc>
-                  </objectDesc>
-                  
-                  
-                  
-               <handDesc>
+                  </objectDesc><handDesc>
                      
-                  <handNote synch="#U1" scope="major" script="tamil" medium="incised soot"/></handDesc><additions/><bindingDesc>
+                  <handNote synch="#U1" scope="major" script="tamil" medium="incised soot"><desc>Hand #1.</desc></handNote><handNote synch="#U2" script="tamil"><desc>Hand #2. Unblackened.</desc></handNote></handDesc><additions/><bindingDesc>
                      <binding>
                         
                      <decoNote type="stringhole"><measure unit="stringhole" quantity="1"/></decoNote></binding>
                   </bindingDesc></physDesc>
                <history>
-                  <origin>
+                  
+                  
+               <origin>
                      <origDate calendar="gregorian" notAfter="1854">Bundle not dated by Vinson in Vinson et al. (1866-) nor by Cabaton (1912). Not after 1854, since part of the collection of <persName role="collector">Édouard Ariel</persName> (1818-1854), bequested in 1855 to the Société Asiatique, Paris (Rosny 1868).</origDate>
                      <origPlace>Tamilnadu.</origPlace>
-                  </origin>
-                  <acquisition>
+                  </origin><provenance><p>Owned by <persName role="collector">Édouard Ariel</persName> (1818-1854). Bequested by Édouard Ariel to Société Asiatique (Rosny 1868, p. 177). </p></provenance><acquisition>
                      <p>Received, August 1st, 1866, from the Société Asiatique. See BnF, département des Manuscrits, inventaire 7 = <title>Dons: manuscrits et imprimés documentaires, 1848-1895</title>, no. 1192.</p>
-                  </acquisition>
-               <provenance><p>Owned by <persName role="collector">Édouard Ariel</persName> (1818-1854). Bequested by Édouard Ariel to Société Asiatique (Rosny 1868, p. 177). </p></provenance></history>
+                  </acquisition></history>
                <additional>
                   <listBibl>
                      
@@ -116,5 +120,18 @@
          <lb n="5" break="no"/>ḷa vaṇṭalila vantu cōpamuṟṟuyir cintavumaṉṟoru cāpam niṟkaṟaka maruḷavōṉē – viṇṭala maṇṭala cōpaṉap pi
          <lb n="6" break="no"/>ṟiyacanta tamaṉpu ceyvār tamakkuṟuvem piṇituṉpavikāra maṟṟuḷa viṉaitīra veṉṟi purantaruḷa kāruṇip piṟacaṅkacuya <note xml:lang="en">the text stops short here</note></seg>        
    
+</ab>
+</body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
+  <ab>
+      
+    <pb facs="325" n="[1]r"/><note xml:lang="en">library Arabic foliation 160r</note>
+    
+    <lb n="1"/>piṟakā <gap reason="ellipsis"/> · 78 · <gap reason="ellipsis"/> <gap reason="lost"/>
+<lb n="2" break="no"/><gap reason="ellipsis"/> <gap reason="lost"/>
+<lb n="3"/>Atipatiyāṉ pukaṭci y<pc>-</pc>eṉra v<pc>-</pc>āṟu · <seg function="blessing">civakiṭaṣcam</seg> <space/> <seg function="completion-statement">muṟṟum ·</seg> <seg function="copy-statement"><persName xml:lang="ta" role="scribe">nāṟāyaṉēṉ</persName> yeḻut=tu ·</seg> <gap reason="lost"/>
+
+    
+    <pb facs="326" n="[1]r"/><note xml:lang="en">blank page</note>
+    
 </ab>
 </body></text></TEI>
