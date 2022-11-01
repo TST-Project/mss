@@ -25,16 +25,20 @@
 <p xmlns="http://www.tei-c.org/ns/1.0">The codex contains:
 <list rend="numbered">
   <item>A list of 63 manuscripts (Tamil, Sanskrit, Telugu, Kannada) sent by the Jesuits of Pondicherry (<locus facs="7">U1</locus>).</item>
-  <item>An alphabetical list of the Tamil works in the BnF manuscripts: title in Tamil transcription, title in Roman transliteration, translation in French (in red ink), and shelfmark (<locus facs="15">U2</locus>)</item>
+  <item>An alphabetical list of the Tamil works in the BnF manuscripts: title in Tamil transcription, title in Roman transliteration, translation in French (in red ink), and shelfmark (<locus facs="15">U2</locus>).</item>
   </list>
 </p>
 <p xmlns="http://www.tei-c.org/ns/1.0">Composite manuscript described as a multi-text manuscript for the sake of convenience.</p>
 <p xmlns="http://www.tei-c.org/ns/1.0">Description based on the digital images available on Gallica.</p>
    <p>Dimensions after Cabaton (1912).</p>      </summary>
                   
-               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="fr">list of 63 manuscripts (Tamil, Sanskrit) sent by the Jesuits of Pondicherry</title><textLang mainLang="fra" otherLangs="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="undefined"><term xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">alphabetical list of the Tamil works in the BnF manuscripts</term></title><textLang mainLang="tam"/></msItem></msContents>
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="fr">list of 63 manuscripts (Tamil, Sanskrit) sent by the Jesuits of Pondicherry</title><textLang mainLang="fra" otherLangs="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta"><term xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">alphabetical list of the Tamil works in the BnF manuscripts</term></title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
-                  <objectDesc form="codex" rend="manuscript">
+                  
+                  
+                  
+                  
+               <objectDesc form="codex" rend="manuscript">
                      <supportDesc material="paper">
                         <extent>
                            <measure unit="folio" quantity="77">{2} + {4} + 64 + {7} (u1 + U1 + U2 + u2). </measure>
@@ -52,11 +56,7 @@
                      <layoutDesc>
                         
                      </layoutDesc>
-                  </objectDesc>
-                  
-                  
-                  
-               <handDesc>
+                  </objectDesc><handDesc>
                      
                   <handNote synch="#U1" scope="major" script="latin" medium="ink black"/><handNote synch="#U2" scope="major" script="latin tamil" medium="ink black red"/></handDesc><typeDesc/><additions><desc type="title" subtype="spine">Title printed on a sticker (<locus xmlns="http://www.tei-c.org/ns/1.0" facs="161">spine</locus>): <quote xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr" rend="block"><lb n="1"/>MANUSCRITS TAMOUL - CATALOGUE L. FEER</quote> </desc><desc type="shelfmark" subtype="spine">BnF current shelfmark sticker: <quote xmlns="http://www.tei-c.org/ns/1.0">INDIEN 578</quote> (<locus xmlns="http://www.tei-c.org/ns/1.0" facs="161">spine</locus>).</desc><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF old shelfmark sticker: <quote xmlns="http://www.tei-c.org/ns/1.0"><del>TAMOUL 578</del></quote> (<locus xmlns="http://www.tei-c.org/ns/1.0" facs="2">front cover, verso</locus>).</desc><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF current shelfmark sticker: <quote xmlns="http://www.tei-c.org/ns/1.0">INDIEN 578</quote> (<locus xmlns="http://www.tei-c.org/ns/1.0" facs="2">front cover, verso</locus>). </desc></additions><bindingDesc>
                      <binding>
@@ -64,14 +64,14 @@
                      <decoNote type="stringhole"><measure unit="stringhole"/></decoNote></binding>
                   </bindingDesc></physDesc>
                <history>
-                  <origin>
+                  
+                  
+               <origin>
                      <origDate calendar="gregorian" notAfter="1902">Feer died in 1902.</origDate>
                      <origPlace>France</origPlace>
-                  </origin>
-                  <acquisition>
+                  </origin><provenance><p>Paris, BnF.</p></provenance><acquisition>
                      
-                  </acquisition>
-               <provenance><p>Paris, BnF.</p></provenance></history>
+                  </acquisition></history>
                <additional>
                   <listBibl>
                      
