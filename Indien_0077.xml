@@ -18,7 +18,7 @@
                      <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
                   </repository>
                   <idno type="shelfmark">Indien 77</idno>
-                  <idno type="alternate"><idno>Tamoul 77</idno></idno>
+                  <idno type="alternate"><idno>Tamoul 77</idno><idno>Velanguani Arokium 17</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103490r</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/02871341z</idno></msIdentifier>
                <msContents class="#STM">
                   <summary><p><title xml:lang="ta">Ulakanīti</title> (literally "The right conduct in the world") by Ulakanātar (17th c. at the latest) is a didactic work containing aphorisms on good conduct in the form of don'ts. The present version consists in ten numbered sections of eight lines each.</p>
@@ -30,10 +30,15 @@
 </p></filiation></msItem><msItem synch="#U3" xml:id="T3" defective="false"><title xml:lang="ta">Ulakanīti: Mūlam
 </title><author xml:lang="ta">Ulakanātar</author><textLang mainLang="tam"/><filiation><p>BnF: Indien 76 (U2), Indien 386 (no. 4). Halle (Francke Foundations): Tam 89 B; Tam 100.</p></filiation></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi">
+                  
+                  
+                  
+                  
+                  
+               <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
                         <support>
-                           <measure unit="stringhole" quantity="1"/>
+                           
                            <p>Double leaves.</p>
                         </support>
                         <extent>
@@ -43,35 +48,30 @@
                               
                            <width min="445" max="450"/><height quantity="25"/></dimensions>
                         <dimensions type="object" unit="mm"><width quantity="450"/><height quantity="30"/><depth quantity="20"/></dimensions><dimensions type="written" unit="mm"/></extent>
-                        <collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold"><title xml:lang="ta">Ulakanīti</title>: Title Page</emph>. No foliation. Verso blank.  Shelfmark on recto. Two hands: hand  #1 (major) and hand #2 (minor; addition in left margin).</desc><desc xml:id="U2">1 folio = <emph rend="bold"><title xml:lang="ta">Ulakanīti</title>: Invocation</emph>. No foliation. Verso blank. Hand #1 (major).</desc><desc xml:id="U3">5 folios = <emph rend="bold"><title xml:lang="ta">Ulakanīti</title>: Text</emph>. Tamil foliation 1-4, {5}. Hand #1 (major).</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation>
                         
-                        <condition>Good state of preservation.</condition>
-                     </supportDesc>
+                        
+                        
+                     <collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold"><title xml:lang="ta">Ulakanīti</title>: Title Page</emph>. No foliation. Verso blank.  Shelfmark on recto. Two hands: hand  #1 (major) and hand #2 (minor; addition in left margin).</desc><desc xml:id="U2">1 folio = <emph rend="bold"><title xml:lang="ta">Ulakanīti</title>: Invocation</emph>. No foliation. Verso blank. Hand #1 (major).</desc><desc xml:id="U3">5 folios = <emph rend="bold"><title xml:lang="ta">Ulakanīti</title>: Text</emph>. Tamil foliation 1-4, {5}. Hand #1 (major).</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Good state of preservation.</condition></supportDesc>
                      <layoutDesc>
                         <layout columns="2" writtenLines="4"/>
                      </layoutDesc>
-                  </objectDesc>
-                  <handDesc><handNote synch="#U1 #U2 #U3" scope="major" script="tamil" scriptRef="#tamilPulliNone" medium="incised"><desc>Hand #1.</desc></handNote><handNote synch="#U1" scope="minor" script="tamil" scriptRef="#tamilPulliNone" medium="incised"><desc>Hand #2 (minor); hand different from the main hand (hand #1, major).</desc></handNote></handDesc>
-                  <decoDesc>
-                  </decoDesc>
-                  <additions>
-                  <desc synch="#CoverFront" type="shelfmark">BnF shelfmark sticker: <quote>INDIEN 77</quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#U1" type="shelfmark">Shelfmark in black ink <quote>N° 17</quote> (<locus facs="5">f[1]r</locus>). </desc></additions>
-                  <bindingDesc>
-                     <binding><p><material cert="medium">Pinewood</material> covers apparently fabricated in the BnF.</p></binding>
-                  </bindingDesc>
-               </physDesc>
+                  </objectDesc><handDesc><handNote synch="#U1 #U2 #U3" scope="major" script="tamil" scriptRef="#tamilPulliNone" medium="incised"><desc>Hand #1.</desc></handNote><handNote synch="#U1" scope="minor" script="tamil" scriptRef="#tamilPulliNone" medium="incised"><desc>Hand #2 (minor); hand different from the main hand (hand #1, major).</desc></handNote></handDesc><decoDesc>
+                  </decoDesc><additions>
+                  <desc synch="#CoverFront" type="shelfmark">BnF shelfmark sticker: <quote>INDIEN 77</quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#U1" type="shelfmark">Shelfmark in black ink <quote>N° 17</quote> (<locus facs="5">f[1]r</locus>). This is the number in Velanguani Arokium's catalogue, first numbered list (<ref target="https://gallica.bnf.fr/ark:/12148/btv1b10527869m/f17">f. 4r, no. 17 et 20</ref>).</desc></additions><bindingDesc>
+                     <binding><p><material cert="medium">Pinewood</material> covers apparently fabricated in the BnF.</p><decoNote type="stringhole"><measure unit="stringhole" quantity="1"/></decoNote></binding>
+                  </bindingDesc></physDesc>
                <history>
-                  <origin>
+                  
+                  
+                  
+               <origin>
                      <origDate calendar="gregorian" notAfter="1840">Dated to circa 1840 by Vinson (1868) and to 1840 by Cabaton (1912), on unstated grounds (presumably palaeographical and material analysis arguments).</origDate>
                      <origPlace>Tamilnadu</origPlace>
-                  </origin>
-                  <provenance/>
-                  <acquisition/>
-               </history>
+                  </origin></history>
                <additional>
                   <listBibl>
                      
-                  <bibl><title>Ulakanīti</title> 1918. <title>Ulakanīti uraiyum kataikkuṟippum</title>. Edited by Vāḻkutai Veṅkaṭarāma Cāstrikaḷ. Ceṉṉai: Ār. Kaṇapati Aṇṭu Kampeṉi.</bibl><bibl><title>Ulakanīti</title> n.d. In: <title>Nītinūṟ kottu. Mūlamum uraiyum.</title> Taṉalukkumi Puttakacālai Cuṉṉakam.</bibl><bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens. Bibliothèque nationale. Département des manuscrits.</title> Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f33">p. 15</ref>.</bibl><bibl>Sweetman, Will &amp; R. Ilakkuvan. 2012. <title>The Bibliotheca Malabarica: Bartholomäus Ziegenbalg’s Tamil Library: An Annotated edition and translation.</title> Pondicherry: EFEO and IFP. (Indologie no. 119) ― See p. 111.</bibl><bibl>Vinson, Julien. 1868. <title>Manuscrits tamouls</title>. Proofreadings of the catalogue for Tamoul 1-204 (old shelfmark). Printed by the atelier oriental de l’Imprimerie nationale. BnF “4-IMPROR-77 (B)”. — The same proofreadings with black ink handwritten corrections are found in Vinson et al. (1866-, f1-f49). — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b105333021/f55">p. 23</ref>.</bibl></listBibl>
+                  <bibl><title>Ulakanīti</title> 1918. <title>Ulakanīti uraiyum kataikkuṟippum</title>. Edited by Vāḻkutai Veṅkaṭarāma Cāstrikaḷ. Ceṉṉai: Ār. Kaṇapati Aṇṭu Kampeṉi.</bibl><bibl><title>Ulakanīti</title> n.d. In: <title>Nītinūṟ kottu. Mūlamum uraiyum.</title> Taṉalukkumi Puttakacālai Cuṉṉakam.</bibl><bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens. Bibliothèque nationale. Département des manuscrits.</title> Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f33">p. 15</ref>.</bibl><bibl>Sweetman, Will &amp; R. Ilakkuvan. 2012. <title>The Bibliotheca Malabarica: Bartholomäus Ziegenbalg’s Tamil Library: An Annotated edition and translation.</title> Pondicherry: EFEO and IFP. (Indologie no. 119) ― See p. 111.</bibl><bibl>Velanguani Arokium [<persName xml:lang="ta">Vēḷāṅkaṇṇi Ārōkkiyam</persName>]. 1845. <title>Catalogue des manuscrits tamouls de la Bibliothèque royale</title>. BnF NAF 5443. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b10527869m/f17">f. 4r, no. 17 et 20</ref>.</bibl><bibl>Vinson, Julien. 1868. <title>Manuscrits tamouls</title>. Proofreadings of the catalogue for Tamoul 1-204 (old shelfmark). Printed by the atelier oriental de l’Imprimerie nationale. BnF “4-IMPROR-77 (B)”. — The same proofreadings with black ink handwritten corrections are found in Vinson et al. (1866-, f1-f49). — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b105333021/f55">p. 23</ref>.</bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

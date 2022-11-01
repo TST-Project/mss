@@ -17,7 +17,7 @@
                      <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
                   </repository>
                   <idno type="shelfmark">Indien 434</idno>
-                  <idno type="alternate"><idno>Tamoul 434</idno></idno>
+                  <idno type="alternate"><idno>Tamoul 434</idno><idno>Velanguani Arokium 23</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103965f</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/fb494h245</idno></msIdentifier>
                <msContents class="#CM">
                   <summary><p>A composite manuscript containing:
@@ -30,7 +30,11 @@
                   
                </msContents>
                <physDesc>
-                  <objectDesc form="pothi">
+                  
+                  
+                  
+                  
+               <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
                         <extent>
                            <measure unit="folio" quantity="14">5 + 9 (Indien 434a + Indien 434b). </measure>
@@ -41,36 +45,33 @@
                            <note>The leaves are broader in their middle than at their edges. </note>
                         <dimensions type="object" unit="mm"><width quantity="420"/><height quantity="30"/><depth quantity="35"/></dimensions><dimensions type="written" unit="mm"/></extent>
                         
-                        <condition>Good state of preservation. Some folios truncated.</condition>
-                     <support><measure unit="stringhole" quantity="1"/><p>Double folios.</p></support><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. Shelfmark on recto.</desc><desc xml:id="Indien434a">5 folios = <title xml:lang="ta">Poṉṉilakkam</title>.</desc><desc xml:id="Indien434b">9 folios = <title xml:lang="ta">Poṉṉilakkam</title> &amp; <title xml:lang="ta">Nellilakkam</title>.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation></supportDesc>
+                        
+                     <support><p>Bifolios.</p></support><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. Shelfmark on recto.</desc><desc xml:id="Indien434a">5 bifolios = <title xml:lang="ta">Poṉṉilakkam</title>.</desc><desc xml:id="Indien434b">9 bifolios = <title xml:lang="ta">Poṉṉilakkam</title> &amp; <title xml:lang="ta">Nellilakkam</title>.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Good state of preservation. Some folios truncated.</condition></supportDesc>
                      <layoutDesc>
                         
                      </layoutDesc>
-                  </objectDesc>
-                  <handDesc>
+                  </objectDesc><handDesc>
                      
-                  </handDesc>
-                  <additions><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 434</quote> (<locus facs="2">front cover, recto</locus>).</desc><desc synch="#Indien434b" type="shelfmark">Shelfmark in black ink: <quote/> (U4, <locus facs="46">f[2]v</locus>).</desc></additions>
-                  <bindingDesc>
+                  </handDesc><additions><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 434</quote> (<locus facs="2">front cover, recto</locus>).</desc><desc synch="#Indien434b" type="shelfmark">Shelfmark in black ink: <quote>N° 23. bis.</quote> (<locus facs="46">f[2]v</locus>). This is the number in Velanguani Arokium' catalogue, first numbered list (<ref target="https://gallica.bnf.fr/ark:/12148/btv1b10527869m/f16">f. 4r, nos. 17, 22 et 23</ref>). 
+</desc></additions><bindingDesc>
                      <binding>
                         <p><material cert="medium">Pinewood</material> covers apparently fabricated in the BnF.</p>
-                     </binding>
-                  </bindingDesc>
-               </physDesc>
+                     <decoNote type="stringhole"><measure unit="stringhole" quantity="1"/></decoNote></binding>
+                  </bindingDesc></physDesc>
                <history>
-                  <origin>
+                  
+                  
+               <origin>
                      <origDate calendar="gregorian" notAfter="1866">No internal date. Not dated by Vinson in Vinson et al. (1866-) nor by Cabaton (1912). Not later than first mention in a catalogue.</origDate>
                      <origPlace>Tamilnadu.</origPlace>
-                  </origin>
-                  <acquisition>
+                  </origin><provenance><p>Unknown.</p></provenance><acquisition>
                      <p>Unknown.</p>
-                  </acquisition>
-               <provenance><p>Unknown.</p></provenance></history>
+                  </acquisition></history>
                <additional>
                   <listBibl>
                      
                      
-                  <bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois et malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f80">p. 62, no. 434</ref>.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. 1866-. <title> Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f213">f. 99r, no. <del>402</del> 434</ref>. </bibl></listBibl>
+                  <bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois et malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f80">p. 62, no. 434</ref>.</bibl><bibl>Velanguani Arokium (<term xml:lang="ta">Vēḷāṅkaṇṇi Ārōkkiyam</term>). 1845. <title>Catalogue des manuscrits tamouls de la Bibliothèque royale</title>. Manuscript, BnF NAF 5443. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b10527869m/f16">f. 4r, nos. 17, 22 et 23</ref>. </bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. 1866-. <title> Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f213">f. 99r, no. <del>402</del> 434</ref>. </bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
