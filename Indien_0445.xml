@@ -44,7 +44,7 @@
                         <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
                         
                         
-                     <collation><desc xml:id="U1">1 folio = <emph rend="bold">Introduction</emph>. No foliation. Unblackened. Verso blank. Hand #1. The lay-out is in columns.</desc><desc xml:id="U2">3 folios = <emph rend="bold">Census of the Pondicherry potters</emph>. Tamil foliation {1}-3. f3v blank. Hand  #2? The lay-out is in columns.</desc><desc xml:id="U3">1 folio = <emph rend="bold">Petition (<foreign xml:lang="ta">viṇṇappam</foreign>) by the Pondicherry potters </emph>. No foliation. Hand #3? The lay-out is in columns.</desc></collation><condition>Very good state of preservation, except that all the leaves are broken into two halves. This damage seems to have occured long ago as the leaves, which originally had one hole only for the thread, have been pierced with three more holes, so as to accommodate two threads, also passing through the woodcovers (both pierced with four holes). U3, f[1] is truncated, as approximately 10 cm of the leaf is missing on the left edge of page.</condition></supportDesc>
+                     <collation><desc xml:id="U1">1 folio = <emph rend="bold">Introduction</emph>. No foliation. Unblackened. Verso blank. Hand #1. The lay-out is in columns.</desc><desc xml:id="U2">3 folios = <emph rend="bold">Census of the Pondicherry potters</emph>. Tamil foliation {1}, 2-3. f3v blank. Hand  #2? The lay-out is in columns.</desc><desc xml:id="U3">1 folio = <emph rend="bold">Petition (<foreign xml:lang="ta">viṇṇappam</foreign>) by the Pondicherry potters </emph>. No foliation. Hand #3? The lay-out is in columns.</desc></collation><condition>Very good state of preservation, except that all the leaves are broken into two halves. This damage seems to have occured long ago as the leaves, which originally had one hole only for the thread, have been pierced with three more holes, so as to accommodate two threads, also passing through the woodcovers (both pierced with four holes). U3, f[1] is truncated, as approximately 10 cm of the leaf is missing on the left edge of page.</condition></supportDesc>
                      <layoutDesc>
                         <layout columns="1"/>
                      </layoutDesc>
@@ -59,8 +59,8 @@
                   
                   
                <origin>
-                     <origDate calendar="gregorian" when="1793">1793. See U1, <locus facs="0">f[1]r, c1</locus> and U2, <locus facs="0">f1r, c1</locus>.</origDate>
-                     <origPlace>Tamilnadu.</origPlace>
+                     <origDate calendar="gregorian" when="1793">1793. See U1, <locus facs="11">f[1]r, c1</locus> and U2, <locus facs="32">f1r, c1</locus>.</origDate>
+                     <origPlace>Pondicherry?</origPlace>
                   </origin><provenance><p>Unknown.</p></provenance><acquisition>
                      <p>Unknown.</p>
                   </acquisition></history>
@@ -82,7 +82,7 @@
 <facsimile><graphic url="https://didomena.ehess.fr/concern/data_sets/gh93h640n/manifest.json"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
     <ab>
            
-            <pb n="[1]r"/>
+            <pb facs="11" n="[1]r"/>
            
            <milestone n="1" unit="column"/>
             <lb n="1"/>1<unclear>7</unclear>93 Āṇṭu piparēl {mācam} 3 {tēti}
@@ -103,11 +103,13 @@
             <lb n="2"/>yippavum yinta paṭṭaṇatti<unclear reason="vowel_unclear">lē</unclear> valaṅkaiyyāroṭē tāṉē
             <lb n="3"/>kuṭiy iruk=kiṟō<seg rend="grantha">m</seg>
         
+                  <pb facs="18" n="[1]v"/>
+
      </ab>
 </body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
   <ab>
                   
-           <pb n="[1]r"/>
+           <pb facs="31" n="[1]r"/>
            
            <milestone n="1" unit="column"/>
             <lb n="1"/>1793 Āṇṭu<unclear>kku</unclear>
@@ -126,10 +128,21 @@
             <lb n="4"/>piḷḷai – 2
             <gap reason="ellipsis"/>
             
-            <pb n="3r"/>
+                      
+    <pb facs="44" n="[1]v"/>
+    
+    <pb facs="56" n="2r"/>
+    
+    <pb facs="67" n="2v"/>    
+                 
+    <pb facs="80" n="3r"/>
             
-            <gap reason="ellipsis"/>
-           
+            <milestone n="1" unit="column"/>
+    <lb n="1-3"/><gap reason="ellipsis"/>
+
+                <milestone n="2" unit="column"/>
+    <lb n="1-3"/><gap reason="ellipsis"/>
+
            <milestone n="3" unit="column"/>
             <lb n="1"/>cuppaṉ – <choice><orig>vū</orig><reg>vī</reg></choice>ṭu
             <lb n="2"/>Āṇ 1
@@ -145,10 +158,12 @@
             <lb n="1"/>Āka – <choice><sic>ci</sic><corr>ca</corr></choice>ṉaṅkaḷ
             <lb n="2"/>177
   
+    <pb n="3v"/><note xml:lang="en">blank</note>
+
   </ab>
       </body></text><text synch="#U3" corresp="#T3" xml:lang="ta"><body>
          <ab>
-            <pb n="[1]r"/>
+            <pb facs="92" n="[1]r"/>
             
            <milestone n="1" unit="column"/>
             <lb n="1"/><gap/> mākāṟācā ṟā śrīmuceyē sakaliyē
@@ -163,7 +178,7 @@
            <milestone n="3" unit="column" break="no"/>
             <lb n="1"/>ḷōv e<choice><sic>ṇṭu</sic><corr>ṉṟu</corr></choice>ṇṭu A<choice><orig>ri</orig><reg>ṟi</reg></choice>yum ppaṭiyāyi <gap reason="ellipsis"/>
                         
-            <pb n="[1]v"/>
+            <pb facs="106" n="[1]v"/>
             <gap reason="ellipsis"/>
            
            <milestone n="4" unit="column"/>
