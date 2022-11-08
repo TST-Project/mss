@@ -26,10 +26,15 @@
                   
                <msItem synch="#U1" xml:id="T1" defective="true" class="#ammanai"><title xml:lang="ta"><title xml:lang="ta">Marikarutammāḷ Ammāṉai</title></title><textLang mainLang="tam"/><filiation><p>This texts exists in multiple manuscript and printed versions (see the bibliography below for some of the printed editions). </p></filiation></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi">
+                  
+                  
+                  
+                  
+                  
+               <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
                         <support>
-                           <measure unit="stringhole" quantity="2"/>
+                           
                            
                         </support>
                         <extent>
@@ -41,31 +46,26 @@
                         <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
                         
                         
-                     <collation><desc xml:id="Cover">The front cover has a sticker of the BnF with the current shelfmark (Indien 486). The back cover has on the inside some numbers in white chalk: <quote>66 bis 46 3</quote></desc><desc xml:id="U1">33 folios = <emph rend="bold"><title xml:lang="ta">Marikarutammāḷ Ammāṉai</title></emph>. Tamil foliation 1-33. f28-f33 blank. f1-f18 are foliated, inscribed and inked; f19-f27 are foliated, inscribed but not inked; f28-f33 are foliated but otherwise blank. 
-</desc></collation><foliation>Original Tamil foliation in Tamil numerals on the left margin.</foliation><condition>Overall good conditions; signs of humidity; f25 is chipped.</condition></supportDesc>
+                     <foliation>Original Tamil foliation in Tamil numerals on the left margin.</foliation><collation><desc xml:id="Cover">The front cover has a sticker of the BnF with the current shelfmark (Indien 486). The back cover has on the inside some numbers in white chalk: <quote>66 bis 46 3</quote></desc><desc xml:id="U1">33 folios = <emph rend="bold"><title xml:lang="ta">Marikarutammāḷ Ammāṉai</title></emph>. Tamil foliation 1-33. f28-f33 blank. f1-f18 are foliated, inscribed and inked; f19-f27 are foliated, inscribed but not inked; f28-f33 are foliated but otherwise blank. 
+</desc></collation><condition>Overall good conditions; signs of humidity; f25 is chipped.</condition></supportDesc>
                      <layoutDesc>
                         
                      <layout writtenLines="2 5" columns="1 2"/></layoutDesc>
-                  </objectDesc>
-                  <handDesc><handNote synch="#U1" scope="minor" script="tamil" scriptRef="#tamilPulliNone #tamilOE" medium="incised"><desc>The ms. is partially inked. The same scribe seems to have copied the entire manuscript. He sometimes used the double-curled <foreign xml:lang="ta">kompu</foreign> for long vowels <foreign>ō</foreign> and <foreign>ē</foreign>, but more often they remain unmarked. </desc></handNote></handDesc>
-                  <decoDesc>
-                  </decoDesc>
-                  <additions>
+                  </objectDesc><handDesc><handNote synch="#U1" scope="minor" script="tamil" scriptRef="#tamilPulliNone #tamilOE" medium="incised"><desc>The ms. is partially inked. The same scribe seems to have copied the entire manuscript. He sometimes used the double-curled <foreign xml:lang="ta">kompu</foreign> for long vowels <foreign>ō</foreign> and <foreign>ē</foreign>, but more often they remain unmarked. </desc></handNote></handDesc><typeDesc/><decoDesc>
+                  </decoDesc><additions>
                   <desc synch="#U1" type="shelfmark" subtype="marginal left">Shelfmark in black ink: <quote>nº 24</quote> (<locus facs="3">folio 1r</locus>). This is the shelfmark given according to the list of manuscript  compiled by Velanguani Arokium (<foreign xml:lang="ta">Vēḷāṅkaṉṉi Ārōkkiyam</foreign>) (NAF 5443, <ref target="https://gallica.bnf.fr/ark:/12148/btv1b10527869m/f17.item">folio 4r</ref>).
-</desc><desc synch="#U1" type="correction">The scribe corrected the page number on several instances (for instance, on f17, f19, f20).</desc></additions>
-                  <bindingDesc>
-                     <binding><p><material cert="medium">Pinewood</material> covers apparently fabricated in the BnF.</p></binding>
-                  </bindingDesc>
-               <typeDesc/></physDesc>
+</desc><desc synch="#U1" type="correction">The scribe corrected the page number on several instances (for instance, on f17, f19, f20).</desc></additions><bindingDesc>
+                     <binding><p><material cert="medium">Pinewood</material> covers apparently fabricated in the BnF.</p><decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
+                  </bindingDesc></physDesc>
                <history>
-                  <origin>
+                  
+                  
+                  
+               <origin>
                      <origDate calendar="gregorian" notAfter="1845">No internal date. Dated to circa 1830 by Vinson in Vinson et al. (1866-) and to 1830 by Cabaton (1912), on unstated grounds (presumably palaeographical and material analysis arguments). 
 The ms. is not dated, but since it was included in the hand-written list that Velanguani Arokium (<persName xml:lang="ta">Vēḷāṅkaṉṉi Ārōkkiyam</persName>) compiled in 1845, we know this is the date <foreign xml:lang="la">ante quem</foreign> it arrived in Paris. </origDate>
                      
-                  <origPlace>Tamilnadu.</origPlace></origin>
-                  <provenance><p>Unknown.</p></provenance>
-                  <acquisition><p>Unknown.</p></acquisition>
-               </history>
+                  <origPlace>Tamilnadu.</origPlace></origin><provenance><p>Unknown.</p></provenance><acquisition><p>Unknown.</p></acquisition></history>
                <additional>
                   <listBibl>
                      
@@ -91,7 +91,7 @@ The ms. is not dated, but since it was included in the hand-written list that Ve
     <seg function="header">
     <seg function="blessing"><milestone n="1" unit="left-margin"/>
     <lb n="1"/>Aṉāti
-      <lb n="2"/>namas tu</seg>
+      <lb n="2" break="no"/>-namas· tu</seg>
       <lb n="3"/><g ref="#latin_cross"/> 1<note xml:lang="en" place="foot">That is, foliation.</note>
       
       <seg function="title">
