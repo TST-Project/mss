@@ -25,7 +25,11 @@
                   
                <msItem synch="#U2" xml:id="T1" defective="true"><title xml:lang="ta">Pāratam: <term xml:lang="en">Satellite Stanza</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T2" defective="false"><title xml:lang="ta">Pāratam: <term xml:lang="en">orphan folio</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U4" xml:id="T3" defective="false"><title xml:lang="ta">Pāratam (Kiṣṇaṉ Tūtu): Mūlam &amp; Urai</title><textLang mainLang="tam"/></msItem><msItem synch="#U5" xml:id="T4" defective="false"><title xml:lang="ta">Pāratam: <term xml:lang="en">Satellite Stanza</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U7" xml:id="T5" defective="false"><title xml:lang="ta">Pāratam (Patiṉ Mūṉṟām Pōṟcarukkam): Mūlam &amp; Urai</title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi" rend="manuscript">
+                  
+                  
+                  
+                  
+               <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
                         <extent>
                            <measure unit="folio" quantity="183">{1} + {1} + {1} + 95 + {1} + {1} + 81 + {1} + {1} (U1 + U2 + U3 + U4 + U5 + U6 + U7 + U8 + U9).</measure>
@@ -41,11 +45,7 @@
                      <layoutDesc>
                         
                      </layoutDesc>
-                  </objectDesc>
-                  
-                  
-                  
-               <handDesc>
+                  </objectDesc><handDesc>
                      
                   <handNote synch="#U2" scope="minor" script="tamil" medium="incised"><desc>Hand #1. Unblackened.</desc></handNote><handNote synch="#U3" scope="minor" script="tamil" medium="incised soot"><desc>Hand #2. </desc></handNote><handNote synch="#U4 #U6" scope="major"><desc>Hand #3. </desc></handNote><handNote synch="#U5" scope="minor" script="tamil" medium="incised"><desc>Hand #4. Unblackened.</desc></handNote></handDesc><additions><desc synch="#U1" type="shelfmark">BnF shelfmark in black ink: <quote>Indien 1036</quote> (<locus facs="3">front cover, verso</locus>).</desc><desc synch="#U1" type="documenting-note" subtype="cover front">BnF register reference in black ink: <quote>Acq. 17275</quote> (<locus facs="3">front cover, verso</locus>).</desc><desc synch="#U1" type="user-related-note">Scribbles (?) (<locus facs="3">f[1]r</locus>).</desc></additions><bindingDesc>
                      <binding>
@@ -53,14 +53,14 @@
                      <p>Original <material>wood</material> covers. </p><decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
                   </bindingDesc></physDesc>
                <history>
-                  <origin>
+                  
+                  
+               <origin>
                      <origDate calendar="gregorian" notAfter="1857">Internally dated to the year <foreign xml:lang="ta">naḷa</foreign> of the Jovian cycle, that is, CE 1856-1857, 1796-1797, 1736-1737, etc. See colophons (U4, <locus facs="198">f94v</locus>; U6, <locus facs="363">f81r</locus>).</origDate>
                      <origPlace>South India, Tamilnadu.</origPlace>
-                  </origin>
-                  <acquisition>
+                  </origin><provenance><p>Unknown.</p></provenance><acquisition>
                      <p>Acq. 17375.</p>
-                  </acquisition>
-               <provenance><p>Unknown.</p></provenance></history>
+                  </acquisition></history>
                <additional>
                   <listBibl>
                      
@@ -110,7 +110,7 @@
       <lb n="1"/><term xml:lang="sa">hari Om</term></seg>
     <seg function="blessing"><lb n="2"/>naṉṟāka</seg>
     <seg function="blessing"><lb n="3"/>kuru vāḻ
-      <lb n="4"/>ka</seg> <seg function="blessing">kuruvē
+      <lb n="4" break="no"/>ka</seg> <seg function="blessing">kuruvē
       <lb n="5"/>tuṇai</seg>
         </seg>
       
@@ -138,7 +138,7 @@
       <lb n="1"/><term xml:lang="sa">hari Om</term></seg>
     <seg function="blessing"><lb n="2"/>naṉṟāka</seg>
     <seg function="blessing"><lb n="3"/>kuru vāḻ
-      <lb n="4"/>ka</seg> <seg function="blessing">kuruvē
+      <lb n="4" break="no"/>ka</seg> <seg function="blessing">kuruvē
       <lb n="5"/>tuṇai <g ref="#pcs"/></seg>
         </seg>
       
