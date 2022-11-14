@@ -1,547 +1,731 @@
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Collection (5 works by Akattiyar)</title>
-            
-         <editor><persName>Ilona Kędzia</persName><orgName>Jagiellonian University</orgName></editor></titleStmt>
-         <publicationStmt>
-            <publisher>TST Project</publisher>
-            <date>2022</date>
-         </publicationStmt>
-         <sourceDesc>
-            <msDesc>
-               <msIdentifier>
-                  <repository>
-                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
-                  </repository>
-                  <idno type="shelfmark">Indien 101</idno>
-                  <idno type="alternate"><idno>Tamoul 101</idno><idno>Ariel</idno></idno>
-               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1035607</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b525130283</idno></msIdentifier>
-               <msContents class="#MTM">
-                  <summary><p>A multi-text (possibly composite) manuscript, entitled <title xml:lang="ta">Akattiyar Aintu</title> ("Five [works] of Akattiyar") according to Cabaton (1912), containing 5 different works of Akattiyar and the following codicological units:
-  <list rend="numbered">
-<item>The <title xml:lang="ta">Akasttiyar aruḷicceytap pūṟaṇacūsttiram</title> ("Treatise on the fullness  graciously composed  by Akasttiyar"). One folio (only recto) without foliation (U1). Possibly a prefatory part to the next unit (U2), by another hand.</item>
-<item>The <title xml:lang="ta">Akattiyamakāmuṉicuvāmiy aruḷiya pūraṇacūṣttiram</title>, enlisted as <title xml:lang="ta">Pūraṇacūttiram</title> ("Treatise on the fullness") on the additional <locus facs="453">title page</locus>. It appears to be a text on yogic and religious practices, as well as alchemical preparations, consisting of 215 enumerated verses (U2).</item>
-<item>A blank folio (U3), probably misplaced in the bundle, as it interrupts the continuous foliation.</item>
-<item>The <title xml:lang="ta">Akaṣttiyamakāmuṉi aruḷicceyita tīṣṣaiviti yirunūṟu</title>, that is, <title xml:lang="ta">Tīṣṣāviti</title> ("Rules of initiation"). It appears to be a text on religious and alchemical practices, composed  in 214 verses (U4).</item>
-<item>The <title xml:lang="ta">Akaṣttiyar ñāṉam</title> ("Knowledge by Agastya"), which seems to be a text on religious and alchemical practices in 100 verses (U5).</item>
-<item>The <title xml:lang="ta">Akaṣttiyar vātacūṣttiram 200</title>, "Alchemical treatise" (<foreign xml:lang="ta">vātacūttiram</foreign>), which appears to be a text on alchemy and medicine in 202 verses (U6).</item>
-<item>An incomplete <title xml:lang="ta">Pūcāviti</title> ("Rules of worship"), which appears to be a text on yoga and religious practices in 201 verses. The beginning of the text is missing; the text in the manuscript starts with verse 138. (U7).</item></list></p>
-   <p>Description based on the digital images available on Gallica.</p>
-   <p>Dimensions after Cabaton (1912).</p>      </summary>
-                  
-               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Akasttiyar aruḷicceytap pūṟaṇa cūsttiram</title><author xml:lang="ta">Akattiyar </author><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta">Akattiya makāmuṉi cuvāmiy aruḷiya pūraṇa cūṣttiram</title><author xml:lang="ta">Akattiyar</author><textLang mainLang="tam"/></msItem><msItem synch="#U4" xml:id="T3" defective="false"><title xml:lang="ta">Akaṣttiya makāmuṉi aruḷicceyita tīṣṣai viti yirunūṟu</title><author xml:lang="ta">Akattiyar</author><textLang mainLang="tam"/></msItem><msItem synch="#U5" xml:id="T4" defective="false"><title xml:lang="ta">Akaṣttiyar ñāṉam</title><author xml:lang="ta">Akattiyar</author><textLang mainLang="tam"/></msItem><msItem synch="#U6" xml:id="T5" defective="false"><title xml:lang="ta">Akaṣttiyar vātacūṣttiram 200</title><author xml:lang="ta">Akattiyar </author><textLang mainLang="tam"/></msItem><msItem synch="#U7" xml:id="T6" defective="true"><title xml:lang="ta">Pūcāviti</title><textLang mainLang="tam"/></msItem><msItem synch="#U8" xml:id="T7" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page (additional)</term></title><textLang mainLang="tam"/></msItem></msContents>
-               <physDesc>
-                  <objectDesc form="pothi">
-                     <supportDesc material="palm-leaf">
-                        <support>
-                           <measure unit="stringhole" quantity="2"/>
-                        </support>
-                        <extent>
-                           <measure unit="folio" quantity="226">{1} + 70 (f1-f70) + {1} + 56 (f71-f126) + 28 (f127-f154) + 53 (f155-f207) + 16 (f242-f257) + {1} (U1 + U2 + U3 + U4 + U5 + U6 + U7 + U8).</measure>
-                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/><dimensions type="leaf" unit="mm"/></extent>
-                     
-                        <collation><desc xml:id="CoverFront">The <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold"><title xml:lang="ta">Akasttiyar aruḷicceytap pūṟaṇa cūsttiram</title></emph>. No Tamil foliation = Library Arabic foliation 1 on the right margin.</desc><desc xml:id="U2">70 folios = <emph rend="bold"><title xml:lang="ta">Akattiya-makāmuṉi-cuvāmiy aruḷiya pūraṇa-cūṣttiram</title></emph>. Tamil foliation 1-70 = Library Arabic foliation 1-70.
-</desc><desc xml:id="U3">1 folio = <emph rend="bold">guard leaf</emph>. Not Tamil foliation = Library Arabic foliation 70bis. Blank recto verso.</desc><desc xml:id="U4">56 folios = <emph rend="bold"><title xml:lang="ta">Akaṣttiya makāmuṉi aruḷicceyita tīṣṣai viti yirunūṟu</title></emph>. Tamil foliation 71-126 = Library Arabic foliation 71-126.</desc><desc xml:id="U5">28 folios = <emph rend="bold"><title xml:lang="ta">Akaṣttiyar ñāṉam</title></emph>. Tamil foliation 127-154 = Library Arabic foliation 127-154</desc><desc xml:id="U6">53 folios = <emph rend="bold"><title xml:lang="ta">Akaṣttiyat vātacūṣttiram 200</title></emph>. Tamil foliation 155-207 = Library Arabic foliation 155-207.</desc><desc xml:id="U7">16 folios = <emph rend="bold"><title xml:lang="ta">Pūcāviti</title></emph>. Tamil foliation 242-257 = Library Arabic foliation 208-223.</desc><desc xml:id="U8">1 folio = <emph rend="bold">Title Page (additional)</emph>. No Tamil foliation.</desc><desc xml:id="CoverBack">The <emph rend="bold">back cover</emph>.</desc></collation>
-                     <foliation>Tamil folation in left margin. Arabic library foliation (lf) in pencil on right margin.</foliation><condition>Very good state of preservation, in spite of boreholes caused by insects.</condition></supportDesc>
-                     <layoutDesc>
-                        
-                     <layout columns="1" writtenLines="6"/></layoutDesc>
-                  </objectDesc>
-                  <handDesc><handNote synch="#U1" scope="minor" script="tamil" scriptRef="#tamilPulliNone" medium="black incised soot"><desc>Hand #1.</desc></handNote><handNote synch="#U2 #U4 #U5 #U6 #U7" scope="major" script="tamil" scriptRef="#tamilPulliNone" medium="black incised soot"><desc>Hand #2. But possibly several hands.</desc></handNote><handNote synch="#U8" scope="minor" scribeRef="#ArielTitleScribe" script="tamil" scriptRef="#tamilPulliRegular" medium="black incised soot"><desc>Hand #3.</desc></handNote></handDesc>
-                  <additions>
-                  <desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 101</quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#U2" corresp="#T2" type="intertitle" subtype="marginal left">Left-marginal intertitles: 
-<quote xml:lang="ta" rend="block">
-  <pb facs="7" n="2r"/>
-  <milestone unit="left-margin"/>
-  <lb n="1"/>pūṟaṇam 
-<lb n="2-3"/>mūlātāram <g ref="#pcl"/> 
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Collection (5 works by Akattiyar)</title>
 
-<pb facs="9" n="3r"/>
-  <milestone unit="left-margin"/>
-   <lb n="1-2"/>viṟama-pūcai 
+				<editor><persName>Ilona Kędzia</persName><orgName>Jagiellonian University</orgName></editor>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>TST Project</publisher>
+				<date>2022</date>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>
+							<orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+						</repository>
+						<idno type="shelfmark">Indien 101</idno>
+						<idno type="alternate"><idno>Tamoul 101</idno><idno>Ariel</idno></idno>
+						<idno type="URI"
+							>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1035607</idno>
+						<idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b525130283</idno>
+					</msIdentifier>
+					<msContents class="#MTM">
+						<summary><p>A multi-text (possibly composite) manuscript, entitled <title
+									xml:lang="ta"
+									>Akattiyar Aintu</title> ("Five [works] of Akattiyar") according to Cabaton (1912), containing 5 different works of Akattiyar and the following codicological units:
+  <list
+									rend="numbered">
+									<item>The <title xml:lang="ta"
+											>Akasttiyar aruḷicceytap pūṟaṇacūsttiram</title> ("Treatise on the fullness  graciously composed  by Akasttiyar"). One folio (only recto) without foliation (U1). Possibly a prefatory part to the next unit (U2), by another hand.</item>
+									<item>The <title xml:lang="ta"
+											>Akattiyamakāmuṉicuvāmiy aruḷiya pūraṇacūṣttiram</title>, enlisted as <title
+											xml:lang="ta"
+											>Pūraṇacūttiram</title> ("Treatise on the fullness") on the additional <locus
+											facs="453"
+										>title page</locus>. It appears to be a text on yogic and religious practices, as well as alchemical preparations, consisting of 215 enumerated verses (U2).</item>
+									<item>A blank folio (U3), probably misplaced in the bundle, as it interrupts the continuous foliation.</item>
+									<item>The <title xml:lang="ta"
+											>Akaṣttiyamakāmuṉi aruḷicceyita tīṣṣaiviti yirunūṟu</title>, that is, <title
+											xml:lang="ta"
+										>Tīṣṣāviti</title> ("Rules of initiation"). It appears to be a text on religious and alchemical practices, composed  in 214 verses (U4).</item>
+									<item>The <title xml:lang="ta"
+										>Akaṣttiyar ñāṉam</title> ("Knowledge by Agastya"), which seems to be a text on religious and alchemical practices in 100 verses (U5).</item>
+									<item>The <title xml:lang="ta"
+											>Akaṣttiyar vātacūṣttiram 200</title>, "Alchemical treatise" (<foreign
+											xml:lang="ta"
+										>vātacūttiram</foreign>), which appears to be a text on alchemy and medicine in 202 verses (U6).</item>
+									<item>An incomplete <title xml:lang="ta"
+										>Pūcāviti</title> ("Rules of worship"), which appears to be a text on yoga and religious practices in 201 verses. The beginning of the text is missing; the text in the manuscript starts with verse 138. (U7).</item>
+								</list></p>
+							<p>Description based on the digital images available on Gallica.</p>
+							<p>Dimensions after Cabaton (1912).</p>
+						</summary>
+
+						<msItem synch="#U1" xml:id="T1" defective="false">
+							<title xml:lang="ta">Akasttiyar aruḷicceytap pūṟaṇa cūsttiram</title>
+							<author xml:lang="ta">Akattiyar </author>
+							<textLang mainLang="tam"/>
+						</msItem>
+						<msItem synch="#U2" xml:id="T2" defective="false">
+							<title xml:lang="ta"
+								>Akattiya makāmuṉi cuvāmiy aruḷiya pūraṇa cūṣttiram</title>
+							<author xml:lang="ta">Akattiyar</author>
+							<textLang mainLang="tam"/>
+						</msItem>
+						<msItem synch="#U4" xml:id="T3" defective="false">
+							<title xml:lang="ta"
+								>Akaṣttiya makāmuṉi aruḷicceyita tīṣṣai viti yirunūṟu</title>
+							<author xml:lang="ta">Akattiyar</author>
+							<textLang mainLang="tam"/>
+						</msItem>
+						<msItem synch="#U5" xml:id="T4" defective="false">
+							<title xml:lang="ta">Akaṣttiyar ñāṉam</title>
+							<author xml:lang="ta">Akattiyar</author>
+							<textLang mainLang="tam"/>
+						</msItem>
+						<msItem synch="#U6" xml:id="T5" defective="false">
+							<title xml:lang="ta">Akaṣttiyar vātacūṣttiram 200</title>
+							<author xml:lang="ta">Akattiyar </author>
+							<textLang mainLang="tam"/>
+						</msItem>
+						<msItem synch="#U7" xml:id="T6" defective="true">
+							<title xml:lang="ta">Pūcāviti</title>
+							<textLang mainLang="tam"/>
+						</msItem>
+						<msItem synch="#U8" xml:id="T7" defective="false">
+							<title xml:lang="ta"><term xml:lang="en"
+								>Title Page (additional)</term></title>
+							<textLang mainLang="tam"/>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc form="pothi">
+							<supportDesc material="palm-leaf">
+								<support>
+									<measure unit="stringhole" quantity="2"/>
+								</support>
+								<extent>
+									<measure unit="folio" quantity="226"
+										>{1} + 70 (f1-f70) + {1} + 56 (f71-f126) + 28 (f127-f154) + 53 (f155-f207) + 16 (f242-f257) + {1} (U1 + U2 + U3 + U4 + U5 + U6 + U7 + U8).</measure>
+									<dimensions type="object" unit="mm"/><dimensions type="written"
+										unit="mm"/><dimensions type="leaf" unit="mm"/></extent>
+
+								<collation><desc xml:id="CoverFront">The <emph rend="bold"
+											>front cover</emph>.</desc><desc xml:id="U1"
+											>1 folio = <emph rend="bold"><title xml:lang="ta"
+												>Akasttiyar aruḷicceytap pūṟaṇa cūsttiram</title></emph>. No Tamil foliation = Library Arabic foliation 1 on the right margin.</desc><desc
+										xml:id="U2">70 folios = <emph rend="bold"><title
+												xml:lang="ta"
+												>Akattiya-makāmuṉi-cuvāmiy aruḷiya pūraṇa-cūṣttiram</title></emph>. Tamil foliation 1-70 = Library Arabic foliation 1-70.
+</desc><desc
+										xml:id="U3">1 folio = <emph rend="bold"
+										>guard leaf</emph>. Not Tamil foliation = Library Arabic foliation 70bis. Blank recto verso.</desc><desc
+										xml:id="U4">56 folios = <emph rend="bold"><title
+												xml:lang="ta"
+												>Akaṣttiya makāmuṉi aruḷicceyita tīṣṣai viti yirunūṟu</title></emph>. Tamil foliation 71-126 = Library Arabic foliation 71-126.</desc><desc
+										xml:id="U5">28 folios = <emph rend="bold"><title
+												xml:lang="ta"
+										>Akaṣttiyar ñāṉam</title></emph>. Tamil foliation 127-154 = Library Arabic foliation 127-154</desc><desc
+										xml:id="U6">53 folios = <emph rend="bold"><title
+												xml:lang="ta"
+											>Akaṣttiyat vātacūṣttiram 200</title></emph>. Tamil foliation 155-207 = Library Arabic foliation 155-207.</desc><desc
+										xml:id="U7">16 folios = <emph rend="bold"><title
+												xml:lang="ta"
+										>Pūcāviti</title></emph>. Tamil foliation 242-257 = Library Arabic foliation 208-223.</desc><desc
+										xml:id="U8">1 folio = <emph rend="bold"
+											>Title Page (additional)</emph>. No Tamil foliation.</desc><desc
+										xml:id="CoverBack">The <emph rend="bold"
+										>back cover</emph>.</desc></collation>
+								<foliation>Tamil folation in left margin. Arabic library foliation (lf) in pencil on right margin.</foliation>
+								<condition>Very good state of preservation, in spite of boreholes caused by insects.</condition>
+							</supportDesc>
+							<layoutDesc>
+
+								<layout columns="1" writtenLines="6"/>
+							</layoutDesc>
+						</objectDesc>
+						<handDesc>
+							<handNote synch="#U1" scope="minor" script="tamil"
+								scriptRef="#tamilPulliNone" medium="black incised soot"
+									><desc>Hand #1.</desc></handNote>
+							<handNote synch="#U2 #U4 #U5 #U6 #U7" scope="major" script="tamil"
+								scriptRef="#tamilPulliNone" medium="black incised soot"
+									><desc>Hand #2. But possibly several hands.</desc></handNote>
+							<handNote synch="#U8" scope="minor" scribeRef="#ArielTitleScribe"
+								script="tamil" scriptRef="#tamilPulliRegular"
+								medium="black incised soot"><desc>Hand #3.</desc></handNote>
+						</handDesc>
+						<additions>
+							<desc synch="#CoverFront" type="shelfmark" subtype="cover front"
+									>BnF shelfmark sticker: <quote>INDIEN 101</quote> (<locus
+									facs="1">front cover, recto</locus>).</desc><desc synch="#U2"
+								corresp="#T2" type="intertitle" subtype="marginal left"
+									>Left-marginal intertitles: 
+<quote xml:lang="ta" rend="block">
+									<pb facs="7" n="2r"/>
+									<milestone unit="left-margin"/>
+									<lb n="1"/>pūṟaṇam 
+<lb n="2-3"/>mūlātāram <g ref="#pcl"/>
+									<pb facs="9" n="3r"/>
+									<milestone unit="left-margin"/>
+									<lb n="1-2"/>viṟama-pūcai 
 
 <pb facs="10" n="3v"/>
-  <milestone unit="left-margin"/>
-             <lb n="1-2"/>viṣṇu-pūcai <g ref="#pcs"/>
-<lb n="3"/>rutira-pūcai <g ref="#pcs"/> 
-
-<pb facs="12" n="4v"/>
-  <milestone unit="left-margin"/>
-             <lb n="1-2"/>mayēcupara-pūcai <g ref="#pcs"/> 
-<lb n="3-4"/>catāciva-pūcai <g ref="#pcs"/><g ref="#pcs"/>  
-
-<pb facs="14" n="5v"/>
-  <milestone unit="left-margin"/>
-             <lb n="1-2"/>Akkiṉi-maṇṭalam <g ref="#pcs"/> 
-
-<pb facs="15" n="6r"/>
-  <milestone unit="left-margin"/>
-             <lb n="1"/>pūra<g rend="below-base">ṇaM</g>
-
-<pb facs="20" n="8v"/>
-  <milestone unit="left-margin"/>
-             <lb n="1"/>tīṭcai 
+									<milestone unit="left-margin"/>
+									<lb n="1-2"/>viṣṇu-pūcai <g ref="#pcs"/>
+									<lb n="3"/>rutira-pūcai <g ref="#pcs"/>
+									<pb facs="12" n="4v"/>
+									<milestone unit="left-margin"/>
+									<lb n="1-2"/>mayēcupara-pūcai <g ref="#pcs"/>
+									<lb n="3-4"/>catāciva-pūcai <g ref="#pcs"/><g ref="#pcs"/>
+									<pb facs="14" n="5v"/>
+									<milestone unit="left-margin"/>
+									<lb n="1-2"/>Akkiṉi-maṇṭalam <g ref="#pcs"/>
+									<pb facs="15" n="6r"/>
+									<milestone unit="left-margin"/>
+									<lb n="1"/>pūra<g rend="below-base">ṇaM</g>
+									<pb facs="20" n="8v"/>
+									<milestone unit="left-margin"/>
+									<lb n="1"/>tīṭcai 
 
 <pb facs="29" n="13r"/>
-  <milestone unit="left-margin"/>
-             <lb n="1-2"/>cāpa-nivaṟt=ti  <g ref="#pcl"/> 
-
- <pb facs="30" n="13v"/>
-  <milestone unit="left-margin"/>
-  <lb n="1"/>vayiravaṉ 
+									<milestone unit="left-margin"/>
+									<lb n="1-2"/>cāpa-nivaṟt=ti  <g ref="#pcl"/>
+									<pb facs="30" n="13v"/>
+									<milestone unit="left-margin"/>
+									<lb n="1"/>vayiravaṉ 
 <lb n="2-3"/>cuppiramaṇiyaṉ <g ref="#pcl"/>
-
-<pb facs="47" n="22r"/>
-  <milestone unit="left-margin"/>
-   <lb n="1-3"/>kāt=takkiṇṇiyilc cāppiṭa 
+									<pb facs="47" n="22r"/>
+									<milestone unit="left-margin"/>
+									<lb n="1-3"/>kāt=takkiṇṇiyilc cāppiṭa 
 
 <pb facs="50" n="23v"/>
-  <milestone unit="left-margin"/>
-     <lb n="1-7"/>pāl kotikka karumam uṇṇa kiṇṇiyil racaṅ kaṭṭat tāvaṭam camāti <g ref="#pcl"/>
-
-<pb facs="56" n="26v"/>
-  <milestone unit="left-margin"/>
-             <lb n="1-2"/>muppu cutti
+									<milestone unit="left-margin"/>
+									<lb n="1-7"
+										/>pāl kotikka karumam uṇṇa kiṇṇiyil racaṅ kaṭṭat tāvaṭam camāti <g
+										ref="#pcl"/>
+									<pb facs="56" n="26v"/>
+									<milestone unit="left-margin"/>
+									<lb n="1-2"/>muppu cutti
 
 <pb facs="60" n="28v"/>
-  <milestone unit="left-margin"/>
-             <lb n="1-3"/>turucuccuṇṇa<seg rend="grantha">m</seg> <g ref="#pcs"/> 
-
-<pb facs="62" n="29v"/>
-  <milestone unit="left-margin"/>
-             <lb n="1-2"/>cavukkāra vaiyppu <g ref="#pcs"/>
-
-<pb facs="67" n="32r"/>
-  <milestone unit="left-margin"/>
-             <lb n="1-3"/>kaṟppam uṇṇat taḷaṅkaḷ 
+									<milestone unit="left-margin"/>
+									<lb n="1-3"/>turucuccuṇṇa<seg rend="grantha">m</seg>
+									<g ref="#pcs"/>
+									<pb facs="62" n="29v"/>
+									<milestone unit="left-margin"/>
+									<lb n="1-2"/>cavukkāra vaiyppu <g ref="#pcs"/>
+									<pb facs="67" n="32r"/>
+									<milestone unit="left-margin"/>
+									<lb n="1-3"/>kaṟppam uṇṇat taḷaṅkaḷ 
 
 <pb facs="69" n="33r"/>
-  <milestone unit="left-margin"/>
-  <lb n="1-3"/>Uvaruppu Eṭuk=kat= talam <g ref="#pcs"/>  
-
-<pb facs="74" n="35v"/>
-  <milestone unit="left-margin"/>
-   <lb n="1-2"/>Appiṟakamm eṭuk=ka <g ref="#pcs"/> 
-<lb n="3-4"/>veṇañcārai Eṭukka <g ref="#pcs"/> 
-
-<pb facs="82" n="39v"/>
-  <milestone unit="left-margin"/>
-     <lb n="1-2"/>kāḷitayila<seg rend="grantha">m</seg> <g ref="#pcs"/> 
-
-<pb facs="83" n="40r"/>
-  <milestone unit="left-margin"/>
-             <lb n="1-2"/>kāḷitayila<seg rend="grantha">m</seg> <g ref="#pcs"/> 
-
-<pb facs="90" n="43v"/>
-  <milestone unit="left-margin"/>
-             <lb n="1-2"/>veḷḷaik=kaṭṭu
+									<milestone unit="left-margin"/>
+									<lb n="1-3"/>Uvaruppu Eṭuk=kat= talam <g ref="#pcs"/>
+									<pb facs="74" n="35v"/>
+									<milestone unit="left-margin"/>
+									<lb n="1-2"/>Appiṟakamm eṭuk=ka <g ref="#pcs"/>
+									<lb n="3-4"/>veṇañcārai Eṭukka <g ref="#pcs"/>
+									<pb facs="82" n="39v"/>
+									<milestone unit="left-margin"/>
+									<lb n="1-2"/>kāḷitayila<seg rend="grantha">m</seg>
+									<g ref="#pcs"/>
+									<pb facs="83" n="40r"/>
+									<milestone unit="left-margin"/>
+									<lb n="1-2"/>kāḷitayila<seg rend="grantha">m</seg>
+									<g ref="#pcs"/>
+									<pb facs="90" n="43v"/>
+									<milestone unit="left-margin"/>
+									<lb n="1-2"/>veḷḷaik=kaṭṭu
 
 <pb facs="102" n="49v"/>
-  <milestone unit="left-margin"/>
-             <lb n="1-2"/><del>paccaipūrama vaippu <g ref="#pcs"/></del>
-
-<pb facs="103" n="50r"/>
-  <milestone unit="left-margin"/>
-             <lb n="1-2"/>pūcai-vipara<seg rend="grantha">m</seg> 
-
-<pb facs="104" n="50v"/>
-  <milestone unit="left-margin"/>
-             <lb n="1-3"/>paccaippūram vaiyppu <g ref="#pcs"/> 
-
-<pb facs="106" n="51v"/>
-  <milestone unit="left-margin"/>
-             <lb n="1-2"/>vīram vaiyppu <g ref="#pcs"/> 
-
-<pb facs="108" n="52v"/>
-  <milestone unit="left-margin"/>
-             <lb n="1-2"/>Añcaṉam <g ref="#pcs"/>   
-
-<pb facs="111" n="54r"/>
-  <milestone unit="left-margin"/>
-             <lb n="1-2"/>Añcaṉam <g ref="#pcs"/>   
-
-<pb facs="114" n="55v"/>
-  <milestone unit="left-margin"/>
-             <lb n="1-2"/>taṉam yiruppu 
+									<milestone unit="left-margin"/>
+									<lb n="1-2"/><del>paccaipūrama vaippu <g ref="#pcs"/></del>
+									<pb facs="103" n="50r"/>
+									<milestone unit="left-margin"/>
+									<lb n="1-2"/>pūcai-vipara<seg rend="grantha">m</seg>
+									<pb facs="104" n="50v"/>
+									<milestone unit="left-margin"/>
+									<lb n="1-3"/>paccaippūram vaiyppu <g ref="#pcs"/>
+									<pb facs="106" n="51v"/>
+									<milestone unit="left-margin"/>
+									<lb n="1-2"/>vīram vaiyppu <g ref="#pcs"/>
+									<pb facs="108" n="52v"/>
+									<milestone unit="left-margin"/>
+									<lb n="1-2"/>Añcaṉam <g ref="#pcs"/>
+									<pb facs="111" n="54r"/>
+									<milestone unit="left-margin"/>
+									<lb n="1-2"/>Añcaṉam <g ref="#pcs"/>
+									<pb facs="114" n="55v"/>
+									<milestone unit="left-margin"/>
+									<lb n="1-2"/>taṉam yiruppu 
 
   <pb facs="127" n="62r"/>
-  <milestone unit="left-margin"/>
-             <lb n="1-3"/>marunt<pc>'</pc> araikkak kalva<seg rend="grantha">m</seg> <g ref="#pcs"/> 
-     </quote></desc><desc synch="#U4" corresp="#T3" type="intertitle" subtype="marginal left">Left-marginal intertitles: 
-<quote xml:lang="ta" rend="block">
-<pb facs="159" n="77r"/>
-  <milestone unit="left-margin"/>
-             <lb n="1-2"/>civaṉ tīṣṣai 
+									<milestone unit="left-margin"/>
+									<lb n="1-3"/>marunt<pc>'</pc> araikkak kalva<seg rend="grantha"
+										>m</seg>
+									<g ref="#pcs"/>
+								</quote></desc><desc synch="#U4" corresp="#T3" type="intertitle"
+								subtype="marginal left">Left-marginal intertitles: 
+<quote
+									xml:lang="ta" rend="block">
+									<pb facs="159" n="77r"/>
+									<milestone unit="left-margin"/>
+									<lb n="1-2"/>civaṉ tīṣṣai 
 
  <pb facs="178" n="86v"/>
-  <milestone unit="left-margin"/>
-             <lb n="1-2"/>kānta cattu <g ref="#pcs"/>
-
-<pb facs="181" n="88r"/>
-  <milestone unit="left-margin"/>
-             <lb n="1-3"/>Ayam Uruk=kiṟatu <g ref="#pcs"/><g ref="#pcs"/>
-  </quote></desc><desc synch="#U5" corresp="#T4" type="intertitle" subtype="marginal left">Left-marginal intertitles: 
-<quote xml:lang="ta" rend="block">
-  
-  <pb facs="282" n="138v"/>
-  <milestone unit="left-margin"/>
-             <lb n="1"/>vātam 
+									<milestone unit="left-margin"/>
+									<lb n="1-2"/>kānta cattu <g ref="#pcs"/>
+									<pb facs="181" n="88r"/>
+									<milestone unit="left-margin"/>
+									<lb n="1-3"/>Ayam Uruk=kiṟatu <g ref="#pcs"/><g ref="#pcs"/>
+								</quote></desc><desc synch="#U5" corresp="#T4" type="intertitle"
+								subtype="marginal left">Left-marginal intertitles: 
+<quote
+									xml:lang="ta" rend="block">
+									<pb facs="282" n="138v"/>
+									<milestone unit="left-margin"/>
+									<lb n="1"/>vātam 
 
   <pb facs="314" n="154v"/>
-  <milestone unit="left-margin"/>
-  <lb n="1-2"/>koccaka<seg rend="grantha">m</seg>
-  </quote></desc><desc synch="#U6" corresp="#T5" type="intertitle" subtype="marginal left">Left-marginal intertitles: 
-<quote xml:lang="ta" rend="block">
-  
-  <pb facs="318" n="156v"/>
-  <milestone unit="left-margin"/>
-             <lb n="1-3"/>vaḻalai ceyanīr <g ref="#pcl"/> 
-
-<pb facs="320" n="157v"/>
-  <milestone unit="left-margin"/>
-             <lb n="1-2"/>kalluppuc cuṉṉam <g ref="#pcl"/> 
-
-<pb facs="321" n="158r"/>
-  <milestone unit="left-margin"/>
-             <lb n="1-2"/>tirāvakac cuṉṉam <g ref="#pcl"/>
-
-<pb facs="322" n="158v"/>
-  <milestone unit="left-margin"/>
-             <lb n="1-2"/>kaṭṭu tirāvakam <g ref="#pcl"/> 
-
- <pb facs="323" n="159r"/>
-  <milestone unit="left-margin"/>
-             <lb n="1-2"/>meḷu tirāvakam <g ref="#pcl"/>
-
-<pb facs="324" n="159v"/>
-  <milestone unit="left-margin"/>
-             <lb n="1-2"/>centūrat= tirāvakam <g ref="#pcl"/> 
-
-<pb facs="327" n="161r"/>
-  <milestone unit="left-margin"/>
-             <lb n="1-2"/>vaḻalai <unclear>I</unclear>vaparam<note xml:lang="en" place="foot">i.e. <term xml:lang="ta">viparam</term></note> <g ref="#pcl"/> 
-
-<pb facs="329" n="162r"/>
-  <milestone unit="left-margin"/>
-             <lb n="1-2"/>muppū kuru
+									<milestone unit="left-margin"/>
+									<lb n="1-2"/>koccaka<seg rend="grantha">m</seg>
+								</quote></desc><desc synch="#U6" corresp="#T5" type="intertitle"
+								subtype="marginal left">Left-marginal intertitles: 
+<quote
+									xml:lang="ta" rend="block">
+									<pb facs="318" n="156v"/>
+									<milestone unit="left-margin"/>
+									<lb n="1-3"/>vaḻalai ceyanīr <g ref="#pcl"/>
+									<pb facs="320" n="157v"/>
+									<milestone unit="left-margin"/>
+									<lb n="1-2"/>kalluppuc cuṉṉam <g ref="#pcl"/>
+									<pb facs="321" n="158r"/>
+									<milestone unit="left-margin"/>
+									<lb n="1-2"/>tirāvakac cuṉṉam <g ref="#pcl"/>
+									<pb facs="322" n="158v"/>
+									<milestone unit="left-margin"/>
+									<lb n="1-2"/>kaṭṭu tirāvakam <g ref="#pcl"/>
+									<pb facs="323" n="159r"/>
+									<milestone unit="left-margin"/>
+									<lb n="1-2"/>meḷu tirāvakam <g ref="#pcl"/>
+									<pb facs="324" n="159v"/>
+									<milestone unit="left-margin"/>
+									<lb n="1-2"/>centūrat= tirāvakam <g ref="#pcl"/>
+									<pb facs="327" n="161r"/>
+									<milestone unit="left-margin"/>
+									<lb n="1-2"/>vaḻalai <unclear>I</unclear>vaparam<note
+										xml:lang="en" place="foot">i.e. <term xml:lang="ta"
+											>viparam</term></note>
+									<g ref="#pcl"/>
+									<pb facs="329" n="162r"/>
+									<milestone unit="left-margin"/>
+									<lb n="1-2"/>muppū kuru
 
 <pb facs="331" n="163r"/>
-  <milestone unit="left-margin"/>
-             <lb n="1-2"/>pūra viparam <g ref="#pcl"/> 
-<lb n="3-4"/>cūṭaṉ cuṇṇam <g ref="#pcs"/> 
-
-<pb facs="333" n="164r"/>
-  <milestone unit="left-margin"/>
-             <lb n="1-2"/>turucuk=kuru <g ref="#pcs"/> 
-
-<pb facs="334" n="164v"/>
-  <milestone unit="left-margin"/>
-             <lb n="1-2"/>turucuk=kuru <g ref="#pcl"/> 
-
-<pb facs="335" n="165r"/>
-  <milestone unit="left-margin"/>
-             <lb n="1-3"/>A<unclear>paracappera</unclear>vaḻi <g ref="#pcs"/>  
-
- <pb facs="337" n="166r"/>
-  <milestone unit="left-margin"/>
-             <lb n="1-2"/>cāṟaṇai-viparam  <g ref="#pcs"/>
-<lb n="3-4"/>pañcacuṇṇak=kukai <g ref="#pcs"/>
-
-<pb facs="339" n="167r"/>
-  <milestone unit="left-margin"/>
-             <lb n="1-3"/>ṉākakkaṭṭuc centūram <g ref="#pcl"/> 
-
-<pb facs="340" n="167v"/>
-  <milestone unit="left-margin"/>
-             <lb n="1-3"/>cīṉakkaṭṭuc ceyanīr <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/> 
-
- <pb facs="341" n="168r"/>
-  <milestone unit="left-margin"/>
-             <lb n="1-3"/>meḻuku vakait= tayila<seg rend="grantha">m</seg> <g ref="#pcl"/>
-
-<pb facs="342" n="168v"/>
-  <milestone unit="left-margin"/>
-             <lb n="1-2"/>kentakak= kaṭṭu <g ref="#pcs"/> 
-<lb n="3-4"/>pāṣāṇaṅ kaṭṭa <g ref="#pcs"/> 
-
- <pb facs="346" n="170v"/>
-  <milestone unit="left-margin"/>
-             <lb n="1-2"/>cūṭaṉ kaṭṭu <g ref="#pcs"/>
-
-<pb facs="352" n="173v"/>
-  <milestone unit="left-margin"/>
-             <lb n="1-2"/>cavuk=kārac cuṉ<g rend="below-base">ṉaM</g> 
-
-<pb facs="354" n="174v"/>
-  <milestone unit="left-margin"/>
-             <lb n="1-2"/>muppūviṉ pēr 
+									<milestone unit="left-margin"/>
+									<lb n="1-2"/>pūra viparam <g ref="#pcl"/>
+									<lb n="3-4"/>cūṭaṉ cuṇṇam <g ref="#pcs"/>
+									<pb facs="333" n="164r"/>
+									<milestone unit="left-margin"/>
+									<lb n="1-2"/>turucuk=kuru <g ref="#pcs"/>
+									<pb facs="334" n="164v"/>
+									<milestone unit="left-margin"/>
+									<lb n="1-2"/>turucuk=kuru <g ref="#pcl"/>
+									<pb facs="335" n="165r"/>
+									<milestone unit="left-margin"/>
+									<lb n="1-3"/>A<unclear>paracappera</unclear>vaḻi <g ref="#pcs"/>
+									<pb facs="337" n="166r"/>
+									<milestone unit="left-margin"/>
+									<lb n="1-2"/>cāṟaṇai-viparam  <g ref="#pcs"/>
+									<lb n="3-4"/>pañcacuṇṇak=kukai <g ref="#pcs"/>
+									<pb facs="339" n="167r"/>
+									<milestone unit="left-margin"/>
+									<lb n="1-3"/>ṉākakkaṭṭuc centūram <g ref="#pcl"/>
+									<pb facs="340" n="167v"/>
+									<milestone unit="left-margin"/>
+									<lb n="1-3"/>cīṉakkaṭṭuc ceyanīr <g ref="#pcs"/>
+									<g ref="#pcs"/>
+									<g ref="#pcs"/>
+									<g ref="#pcs"/>
+									<pb facs="341" n="168r"/>
+									<milestone unit="left-margin"/>
+									<lb n="1-3"/>meḻuku vakait= tayila<seg rend="grantha">m</seg>
+									<g ref="#pcl"/>
+									<pb facs="342" n="168v"/>
+									<milestone unit="left-margin"/>
+									<lb n="1-2"/>kentakak= kaṭṭu <g ref="#pcs"/>
+									<lb n="3-4"/>pāṣāṇaṅ kaṭṭa <g ref="#pcs"/>
+									<pb facs="346" n="170v"/>
+									<milestone unit="left-margin"/>
+									<lb n="1-2"/>cūṭaṉ kaṭṭu <g ref="#pcs"/>
+									<pb facs="352" n="173v"/>
+									<milestone unit="left-margin"/>
+									<lb n="1-2"/>cavuk=kārac cuṉ<g rend="below-base">ṉaM</g>
+									<pb facs="354" n="174v"/>
+									<milestone unit="left-margin"/>
+									<lb n="1-2"/>muppūviṉ pēr 
 
 <pb facs="358" n="176v"/>
-  <milestone unit="left-margin"/>
-             <lb n="1-3"/>tēcinīr perumai <g ref="#pcl"/> 
-
- <pb facs="359" n="177r"/>
-  <milestone unit="left-margin"/>
-             <lb n="1-3"/>Aṣṭacarakku viparam <g ref="#pcs"/>
-
- <pb facs="360" n="177v"/>
-  <milestone unit="left-margin"/>
-             <lb n="1-3"/>veḷḷaippāṣāṇak kaṭṭu
+									<milestone unit="left-margin"/>
+									<lb n="1-3"/>tēcinīr perumai <g ref="#pcl"/>
+									<pb facs="359" n="177r"/>
+									<milestone unit="left-margin"/>
+									<lb n="1-3"/>Aṣṭacarakku viparam <g ref="#pcs"/>
+									<pb facs="360" n="177v"/>
+									<milestone unit="left-margin"/>
+									<lb n="1-3"/>veḷḷaippāṣāṇak kaṭṭu
 
 <pb facs="366" n="180v"/>
-  <milestone unit="left-margin"/>
-             <lb n="1-3"/>vallāraik=kaṟppam <g ref="#pcs"/> 
-
-<pb facs="367" n="181r"/>
-  <milestone unit="left-margin"/>
-             <lb n="1-2"/>malaikkaṟppam <g ref="#pcs"/> 
-
-<pb facs="371" n="183r"/>
-  <milestone unit="left-margin"/>
-             <lb n="1-3"/>catiṟakirikkaṟppam <g ref="#pcs"/>  
-
- <pb facs="374" n="184v"/>
-  <milestone unit="left-margin"/>
-             <lb n="1-2"/>kentaka Uppu <g ref="#pcl"/> 
-<lb n="3"/>cūṭaṉuppu <g ref="#pcs"/>
-
-<pb facs="375" n="185r"/>
-  <milestone unit="left-margin"/>
-             <lb n="1"/>cuṉṉa<seg rend="grantha">m</seg>
-
-<pb facs="380" n="187v"/>
-  <milestone unit="left-margin"/>
-             <lb n="1-3"/>koṅkiṉ kaṟppam <g ref="#pcs"/><g ref="#pcs"/><g ref="#pcs"/> 
-
-<pb facs="388" n="191v"/>
-  <milestone unit="left-margin"/>
-             <lb n="1-2"/>ceyanīr <g ref="#pcs"/><g ref="#pcs"/><g ref="#pcs"/> 
-<lb n="3-4"/>veṇaṅkārac cuṉ<g rend="below-base">ṉaM</g> 
-
-<pb facs="389" n="192r"/>
-  <milestone unit="left-margin"/>
-             <lb n="1-4"/>tirukukaḷḷi Uppu <g ref="#pcs"/> 
-
-<pb facs="391" n="193r"/>
-  <milestone unit="left-margin"/>
-             <lb n="1-2"/>Aṉṉapētiyuppu <g ref="#pcs"/> 
-
-<pb facs="394" n="194v"/>
-  <milestone unit="left-margin"/>
-             <lb n="1"/>kaḷaṅkam
+									<milestone unit="left-margin"/>
+									<lb n="1-3"/>vallāraik=kaṟppam <g ref="#pcs"/>
+									<pb facs="367" n="181r"/>
+									<milestone unit="left-margin"/>
+									<lb n="1-2"/>malaikkaṟppam <g ref="#pcs"/>
+									<pb facs="371" n="183r"/>
+									<milestone unit="left-margin"/>
+									<lb n="1-3"/>catiṟakirikkaṟppam <g ref="#pcs"/>
+									<pb facs="374" n="184v"/>
+									<milestone unit="left-margin"/>
+									<lb n="1-2"/>kentaka Uppu <g ref="#pcl"/>
+									<lb n="3"/>cūṭaṉuppu <g ref="#pcs"/>
+									<pb facs="375" n="185r"/>
+									<milestone unit="left-margin"/>
+									<lb n="1"/>cuṉṉa<seg rend="grantha">m</seg>
+									<pb facs="380" n="187v"/>
+									<milestone unit="left-margin"/>
+									<lb n="1-3"/>koṅkiṉ kaṟppam <g ref="#pcs"/><g ref="#pcs"/><g
+										ref="#pcs"/>
+									<pb facs="388" n="191v"/>
+									<milestone unit="left-margin"/>
+									<lb n="1-2"/>ceyanīr <g ref="#pcs"/><g ref="#pcs"/><g ref="#pcs"/>
+									<lb n="3-4"/>veṇaṅkārac cuṉ<g rend="below-base">ṉaM</g>
+									<pb facs="389" n="192r"/>
+									<milestone unit="left-margin"/>
+									<lb n="1-4"/>tirukukaḷḷi Uppu <g ref="#pcs"/>
+									<pb facs="391" n="193r"/>
+									<milestone unit="left-margin"/>
+									<lb n="1-2"/>Aṉṉapētiyuppu <g ref="#pcs"/>
+									<pb facs="394" n="194v"/>
+									<milestone unit="left-margin"/>
+									<lb n="1"/>kaḷaṅkam
 
 <pb facs="399" n="197r"/>
-  <milestone unit="left-margin"/>
-             <lb n="1-2"/>ciṟunīr viparam <g ref="#pcs"/>
-
-<pb facs="400" n="197v"/>
-  <milestone unit="left-margin"/>
-             <lb n="1-2"/>vaḻalaikku viparam <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/>  
-
-<pb facs="402" n="198v"/>
-  <milestone unit="left-margin"/>
-             <lb n="1-4"/>nīt=tuk=ku<seg rend="grantha"/> Urukkiṉa<unclear>t=tut=tu</unclear>m viparam <g ref="#pcs"/> <g ref="#pcs"/>  
-
-<pb facs="403" n="199r"/>
-  <milestone unit="left-margin"/>
-             <lb n="1-3"/>nāyuruvi virai viparam <g ref="#pcl"/> 
-
-<pb facs="404" n="199v"/>
-  <milestone unit="left-margin"/>
-             <lb n="1-2"/>kaṭṭuk=keṭi viparam <g ref="#pcs"/> 
-
-<pb facs="405" n="200r"/>
-  <milestone unit="left-margin"/>
-             <lb n="1-3"/>manta-kuḷikai <g ref="#pcs"/> <g ref="#pcs"/> 
-
-<pb facs="407" n="201r"/>
-  <milestone unit="left-margin"/>
-             <lb n="1-2"/>kaḷiccuṉṉam <g ref="#pcl"/> 
-  
-</quote></desc><desc synch="#U7" corresp="#T6" type="intertitle" subtype="marginal left">Left-marginal intertitles: 
-<quote xml:lang="ta" rend="block">
-  
-  <pb facs="425" n="244r"/>
-  <milestone unit="left-margin"/>
-  <lb n="1-2"/>mūt=tira-vakai
+									<milestone unit="left-margin"/>
+									<lb n="1-2"/>ciṟunīr viparam <g ref="#pcs"/>
+									<pb facs="400" n="197v"/>
+									<milestone unit="left-margin"/>
+									<lb n="1-2"/>vaḻalaikku viparam <g ref="#pcs"/>
+									<g ref="#pcs"/>
+									<g ref="#pcs"/>
+									<pb facs="402" n="198v"/>
+									<milestone unit="left-margin"/>
+									<lb n="1-4"/>nīt=tuk=ku<seg rend="grantha"
+										/> Urukkiṉa<unclear>t=tut=tu</unclear>m viparam <g
+										ref="#pcs"/>
+									<g ref="#pcs"/>
+									<pb facs="403" n="199r"/>
+									<milestone unit="left-margin"/>
+									<lb n="1-3"/>nāyuruvi virai viparam <g ref="#pcl"/>
+									<pb facs="404" n="199v"/>
+									<milestone unit="left-margin"/>
+									<lb n="1-2"/>kaṭṭuk=keṭi viparam <g ref="#pcs"/>
+									<pb facs="405" n="200r"/>
+									<milestone unit="left-margin"/>
+									<lb n="1-3"/>manta-kuḷikai <g ref="#pcs"/>
+									<g ref="#pcs"/>
+									<pb facs="407" n="201r"/>
+									<milestone unit="left-margin"/>
+									<lb n="1-2"/>kaḷiccuṉṉam <g ref="#pcl"/>
+								</quote></desc><desc synch="#U7" corresp="#T6" type="intertitle"
+								subtype="marginal left">Left-marginal intertitles: 
+<quote
+									xml:lang="ta" rend="block">
+									<pb facs="425" n="244r"/>
+									<milestone unit="left-margin"/>
+									<lb n="1-2"/>mūt=tira-vakai
 
  <pb facs="426" n="244v"/>
-  <milestone unit="left-margin"/>
-             <lb n="1-3"/>pūcai-māṟkka<seg rend="grantha">m</seg> <g ref="#pcs"/>
-
- <pb facs="427" n="245r"/>
-  <milestone unit="left-margin"/>
-             <lb n="1-2"/>muttira-vakai <g ref="#pcs"/>
-
- <pb facs="431" n="247r"/>
-  <milestone unit="left-margin"/>
-             <lb n="1-3"/>Aṅkaṉṉiyācam <g ref="#pcs"/>  <g ref="#pcs"/>  <g ref="#pcs"/> 
-
- <pb facs="437" n="250r"/>
-  <milestone unit="left-margin"/>
-             <lb n="1-3"/>navamuttirai
+									<milestone unit="left-margin"/>
+									<lb n="1-3"/>pūcai-māṟkka<seg rend="grantha">m</seg>
+									<g ref="#pcs"/>
+									<pb facs="427" n="245r"/>
+									<milestone unit="left-margin"/>
+									<lb n="1-2"/>muttira-vakai <g ref="#pcs"/>
+									<pb facs="431" n="247r"/>
+									<milestone unit="left-margin"/>
+									<lb n="1-3"/>Aṅkaṉṉiyācam <g ref="#pcs"/>
+									<g ref="#pcs"/>
+									<g ref="#pcs"/>
+									<pb facs="437" n="250r"/>
+									<milestone unit="left-margin"/>
+									<lb n="1-3"/>navamuttirai
  
   </quote></desc></additions>
-                  <bindingDesc>
-                     <binding><p>Original <material>wood</material> covers.</p></binding>
-                  </bindingDesc>
-               </physDesc>
-               <history>
-                  <origin>
-                     <origDate calendar="gregorian" notAfter="1798">Internally dated to the year <foreign xml:lang="ta">piṅkaḷa</foreign> of the Jovian cycle, that is, CE 1857-1858, 1797-1798, 1737-1738, etc. See colophon (U7, <locus facs="452">f257v</locus>). Dated to circa 1780 by Vinson (1868) and to 1780 by Cabaton (1912), on unstated grounds (presumably palaeographical and material analysis arguments). Not after 1854, since part of the collection of <persName role="collector">Édouard Ariel</persName> (1818-1854), bequested in 1855 to the Société Asiatique, Paris (Rosny 1868).</origDate>
-                     
-                  <origPlace>Tamilnadu, Ceṉṉai.</origPlace></origin>
-                  <provenance><p>Owned by <persName role="collector">Édouard Ariel</persName> (1818-1854). Bequested by Édouard Ariel to Société Asiatique (Rosny 1868, p. 177).</p></provenance>
-                  <acquisition><p>Received, August 1st, 1866, from the Société Asiatique. See BnF, département des Manuscrits, inventaire 7 = <title>Dons: manuscrits et imprimés documentaires, 1848-1895</title>, no. 1192.</p></acquisition>
-               </history>
-               <additional>
-                  <listBibl>
-                     
-                  <bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens. Bibliothèque nationale. Département des manuscrits.</title> Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f37">p. 19, n0. 101.</ref>.</bibl><bibl>Rosny, Léon de. 1868. <title type="article">La bibliothèque tamoule de M. Ariel, de Pondichéry</title>. In: <title>Variétés orientales</title> (pp. 177‒224). Paris: Maisonneuve. </bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. 1866-. <title>Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f71">f. 28r, no. 101</ref>. </bibl><bibl>Vinson, Julien (1868). <title>Manuscrits tamouls</title>. Proofreadings of the catalogue for Tamoul 1-204 (old shelfmark). Printed by the atelier oriental de l’Imprimerie nationale. BnF “4-IMPROR-77 (B)”. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b105333021/f65">p. 28, no. 101</ref>. — The same proofreadings with black ink handwritten corrections are found in Vinson et al. (1866-, f1-f49). </bibl></listBibl>
-               </additional>
-            </msDesc>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         
-      <p>Transliteration conventions ― Unmarked puḷḷi, ō, and ē restored. Uppercase for initial vowels (in excerpts only). ― Abbreviations ― f = folio, lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso, lc = left column, rc = right column. 
- Illegible character: "?" . </p></encodingDesc>
-      
-   <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
-         
-      <change when="2022-03">Record created by Ilona Kędzia.</change><change when="2022-04">Updated to TST encoding and edited by Emmanuel FRANCIS. Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, May 2022.</change></revisionDesc></teiHeader>
-   <facsimile>
-   <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525130283/manifest.json"/></facsimile>
-<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
-  <ab>
-    
-  <pb facs="3" n="[1]r"/>
-    
-    <seg function="header">
-  <seg function="blessing"><milestone unit="left-margin"/>
-             <lb n="1"/>Ari Ōm</seg> <seg function="blessing">naṉṟāka</seg>
-<seg function="title"><lb n="2-6"/>Akasttiyar Aruḷicceytap pūṟaṇacūsttiram</seg> <seg function="blessing">kuruvē tuṇai</seg></seg>
+						<bindingDesc>
+							<binding>
+								<p>Original <material>wood</material> covers.</p>
+							</binding>
+						</bindingDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate calendar="gregorian" notAfter="1798"
+									>Internally dated to the year <foreign xml:lang="ta"
+									>piṅkaḷa</foreign> of the Jovian cycle, that is, CE 1857-1858, 1797-1798, 1737-1738, etc. See colophon (U7, <locus
+									facs="452"
+									>f257v</locus>). Dated to circa 1780 by Vinson (1868) and to 1780 by Cabaton (1912), on unstated grounds (presumably palaeographical and material analysis arguments). Not after 1854, since part of the collection of <persName
+									role="collector"
+								>Édouard Ariel</persName> (1818-1854), bequested in 1855 to the Société Asiatique, Paris (Rosny 1868).</origDate>
+							<origPlace>Tamilnadu, Ceṉṉai.</origPlace></origin>
+						<provenance><p>Owned by <persName role="collector"
+								>Édouard Ariel</persName> (1818-1854). Bequested by Édouard Ariel to Société Asiatique (Rosny 1868, p. 177).</p></provenance>
+						<acquisition><p>Received, August 1st, 1866, from the Société Asiatique. See BnF, département des Manuscrits, inventaire 7 = <title>Dons: manuscrits et imprimés documentaires, 1848-1895</title>, no. 1192.</p></acquisition>
+					</history>
+					<additional>
+						<listBibl>
 
-  <milestone unit="main-text-area"/>
-  <lb n="1-3"/><gap reason="ellipsis"/>
-  <lb n="4"/><gap reason="ellipsis"/> tāmē <g ref="#pcs"/> <seg function="blessing">tēvīcakā<g rend="below-base">yaM</g></seg> <seg function="blessing">teṣṣaṇāmūrti-ka
-  <lb n="5" break="no"/>ṭāṣṣam Eppō<unclear><g rend="below-base">vuM</g></unclear> Uṇṭakat tāka<g rend="below-base">vuM</g></seg>
-  
-  <pb facs="4" n="[1]v"/><note xml:lang="en">blank</note>
-  </ab>
-  </body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
-    <ab>
+							<bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens. Bibliothèque nationale. Département des manuscrits.</title> Paris: E. Leroux. — See <ref
+									target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f37"
+									>p. 19, n0. 101.</ref>.</bibl>
+							<bibl>Rosny, Léon de. 1868. <title type="article"
+									>La bibliothèque tamoule de M. Ariel, de Pondichéry</title>. In: <title>Variétés orientales</title> (pp. 177‒224). Paris: Maisonneuve. </bibl>
+							<bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. 1866-. <title>Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref
+									target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f71"
+									>f. 28r, no. 101</ref>. </bibl>
+							<bibl>Vinson, Julien (1868). <title>Manuscrits tamouls</title>. Proofreadings of the catalogue for Tamoul 1-204 (old shelfmark). Printed by the atelier oriental de l’Imprimerie nationale. BnF “4-IMPROR-77 (B)”. — See <ref
+									target="http://gallica.bnf.fr/ark:/12148/btv1b105333021/f65"
+									>p. 28, no. 101</ref>. — The same proofreadings with black ink handwritten corrections are found in Vinson et al. (1866-, f1-f49). </bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
 
-  <pb facs="5" n="1r"/>
-      
-      <seg function="header">  
-      <seg function="blessing"><milestone unit="left-margin"/>
-             <lb n="1"/><term xml:lang="sa">hari Om</term></seg>  
-<seg function="blessing"><lb n="2"/>naṉṟāka</seg>
-<seg function="title"><lb n="3-7"/>Akaṣt=tiya-makāmuṉi-cuvāmi yaruḷiya pūṟaṇacūṣt=tira<seg rend="grantha">m</seg> <g ref="#pcl"/></seg> 
-        </seg>
-  
-   <seg function="incipit"><milestone unit="main-text-area"/>
-  <lb n="1"/>Eṉṟāṉa pūṟaṇamē <gap reason="ellipsis"/></seg>
+			<p>Transliteration conventions ― Unmarked puḷḷi, ō, and ē restored. Uppercase for initial vowels (in excerpts only). ― Abbreviations ― f = folio, lm = left margin, r = recto, rm = right margin, U = unit (codicological and/or textual), v = verso, lc = left column, rc = right column. 
+ Illegible character: "?" . </p>
+		</encodingDesc>
 
-   <pb facs="143" n="70r"/>
-               
-        <seg function="explicit"><lb n="1"/><gap reason="ellipsis"/> nalamāṉa pūṟaṇa-cūṣttira muttē <g ref="#pcs"/> 2<g ref="#nūṟu"/><g ref="#pattu"/>5 <g ref="#pcs"/></seg> <seg function="colophon"><seg function="blessing"><choice><sic>cē</sic><corr>tē</corr></choice>vi-cakāyam <g ref="#pcs"/></seg>
- <seg function="blessing"><lb n="2-6"/>kuruvē tuṇai <g ref="#pcs"/></seg> <seg function="postface"><lg><l>coṉṉāḷō ciṟupiḷḷai – vayatu koñcam – col ttiṟamāyp pēcariyāḷ – mavuṉiyappā –</l> <l>yeṉṉāḷō yevvukamō yāṉō kāṇṇē yippaṭiyē ceṟupeṇṇu yiruntāḷ āttāḷ</l> <l>taṉṉāḷō ravi pattu cantiraṉ vīṭṭi tāyārukku – kkuṭi yiruppu ttākkip pāru</l> <l>paṇṇāḷō ravi kōṭi pāṭivippāḷ pālaiyuṭā cittarukkut teyvan tāṉē <g ref="#pcs"/></l></lg></seg> <seg function="TBC">pūṟaṇattai nōkka nōkka kāṟaṇattiṉ vaḻi 
+		<xenoData type="webannotation"><![CDATA[[]]]></xenoData>
+		<revisionDesc>
 
-<pb facs="144" n="70v"/>
-  
-<lb n="1-3"/>
-kāṭṭum puruvamayyam – nōkka – yōkañāṉam āccu <g ref="#pcl"/><note xml:lang="en" place="foot">Exposition of the benefits obtained by using the text.</note></seg> <seg function="blessing">civamayam <g ref="#pcl"/></seg> <seg function="blessing">kuruvē tuṇai <g ref="#pcs"/></seg> <seg function="blessing">caracupatiyē namā <g ref="#pcs"/></seg> <seg function="blessing">kumaraṉāyakaṉ tuṇai</seg> <seg function="TBC">cēṣappiḷḷai Ayyaṟa vākkiṉāl pūṟaṇa-cūṣt=tiram tāṇṭavarāyaṉukku k=kūṭuttatu <g ref="#pcs"/></seg> <seg function="blessing">civamayam <g ref="#pcl"/></seg></seg>
-      </ab>
-  </body></text><text synch="#U4" corresp="#T3" xml:lang="ta"><body>
-    <ab>
+			<change when="2022-03">Record created by Ilona Kędzia.</change>
+			<change when="2022-04"
+					>Updated to TST encoding and edited by Emmanuel FRANCIS. Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, May 2022.</change>
+		</revisionDesc>
+	</teiHeader>
+	<facsimile>
+		<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525130283/manifest.json"/>
+	</facsimile>
+	<text synch="#U1" corresp="#T1" xml:lang="ta">
+		<body>
+			<ab>
+				<pb facs="3" n="[1]r"/>
+				<seg function="header">
+					<seg function="blessing"><milestone unit="left-margin"/>
+						<lb n="1"/>Ari Ōm</seg>
+					<seg function="blessing">naṉṟāka</seg>
+					<seg function="title"><lb n="2-6"/>Akasttiyar Aruḷicceytap pūṟaṇacūsttiram</seg>
+					<seg function="blessing">kuruvē tuṇai</seg></seg>
+				<milestone unit="main-text-area"/>
+				<lb n="1-3"/><gap reason="ellipsis"/>
+				<lb n="4"/><gap reason="ellipsis"/> tāmē <g ref="#pcs"/>
+				<seg function="blessing">tēvīcakā<g rend="below-base">yaM</g></seg>
+				<seg function="blessing">teṣṣaṇāmūrti-ka
+  <lb n="5" break="no"
+							/>ṭāṣṣam Eppō<unclear><g rend="below-base"
+						>vuM</g></unclear> Uṇṭakat tāka<g rend="below-base">vuM</g></seg>
+				<pb facs="4" n="[1]v"/><note xml:lang="en">blank</note>
+			</ab>
+		</body>
+	</text>
+	<text synch="#U2" corresp="#T2" xml:lang="ta">
+		<body>
+			<ab>
+				<pb facs="5" n="1r"/>
+				<seg function="header">
+					<seg function="blessing"><milestone unit="left-margin"/>
+						<lb n="1"/><term xml:lang="sa">hari Om</term></seg>
+					<seg function="blessing"><lb n="2"/>naṉṟāka</seg>
+					<seg function="title"><lb n="3-7"
+							/>Akaṣt=tiya-makāmuṉi-cuvāmi yaruḷiya pūṟaṇacūṣt=tira<seg rend="grantha"
+							>m</seg>
+						<g ref="#pcl"/></seg>
+				</seg>
+				<seg function="incipit"><milestone unit="main-text-area"/>
+					<lb n="1"/>Eṉṟāṉa pūṟaṇamē <gap reason="ellipsis"/></seg>
+				<pb facs="143" n="70r"/>
+				<seg function="explicit"><lb n="1"/><gap reason="ellipsis"
+						/> nalamāṉa pūṟaṇa-cūṣttira muttē <g ref="#pcs"/> 2<g ref="#nūṟu"/><g
+						ref="#pattu"/>5 <g ref="#pcs"/></seg>
+				<seg function="colophon"><seg function="blessing"><choice>
+							<sic>cē</sic>
+							<corr>tē</corr>
+						</choice>vi-cakāyam <g ref="#pcs"/></seg>
+					<seg function="blessing"><lb n="2-6"/>kuruvē tuṇai <g ref="#pcs"/></seg>
+					<seg function="postface"><lg>
+							<l>coṉṉāḷō ciṟupiḷḷai – vayatu koñcam – col ttiṟamāyp pēcariyāḷ – mavuṉiyappā –</l>
+							<l>yeṉṉāḷō yevvukamō yāṉō kāṇṇē yippaṭiyē ceṟupeṇṇu yiruntāḷ āttāḷ</l>
+							<l>taṉṉāḷō ravi pattu cantiraṉ vīṭṭi tāyārukku – kkuṭi yiruppu ttākkip pāru</l>
+							<l>paṇṇāḷō ravi kōṭi pāṭivippāḷ pālaiyuṭā cittarukkut teyvan tāṉē <g
+									ref="#pcs"/></l>
+						</lg></seg>
+					<seg function="TBC">pūṟaṇattai nōkka nōkka kāṟaṇattiṉ vaḻi 
 
-  <pb facs="147" n="71r"/>
-  <seg function="title">
-    <milestone unit="left-margin"/>
-<lb n="1-5"/>Akaṣttiya-makāmuṉi Aruḷicceyita tīṣṣai-viti yirunūṟu</seg>
-  
-  <seg function="incipit"><milestone unit="main-text-area"/>
-  <lb n="1"/>vāṉaittāviya pōtikai ~ <gap reason="ellipsis"/></seg>
-                                                                                          
-<pb facs="257" n="126r"/>
-<seg function="explicit"><lb n="4"/><gap reason="ellipsis"/> pūcai-viti-tīṣṣai muttē
-  <lb n="5"/><g ref="#pcs"/> 2<g ref="#nūṟu"/><g ref="#pattu"/>4 <g ref="#pcs"/></seg> <seg function="blessing">kuruvē tuṇai</seg> <seg function="blessing">teṣṣaṇāmūṟt=ti-pātāravintamē tuṇai Eppōtum uṇṭāka<g rend="below-base">vuM</g> <g ref="#pcl"/></seg> 
-      <seg function="blessing"><lb n="6"/>civamayam <g ref="#pcs"/></seg> <seg function="blessing">parañcōti-pātāravintamē keti <g ref="#pcs"/></seg> <seg function="blessing">tēviccakā<g rend="below-base">yaM</g> <g ref="#pcl"/></seg>
-      </ab>
-  </body></text><text synch="#U5" corresp="#T4" xml:lang="ta"><body>
-    <ab>
-
-  <pb facs="259" n="127r"/>
-  
-  <seg function="header">
-    <seg function="blessing"><milestone unit="left-margin"/>
-  <lb n="1"/>śrīrāmace<g rend="below-base">yaM</g></seg>
-  <lb n="2-3"/><seg function="title">Akaṣt=tiyar ñāṉam <g ref="#pcs"/></seg>
-    </seg>
-  
-  <seg function="incipit"><milestone unit="main-text-area"/>
-  <lb n="1"/>cintai yuṟu ñāṉam ~<gap reason="ellipsis"/></seg>
-                      
-  <pb facs="314" n="154v"/>
-    <milestone unit="main-text-area"/>
-  <lb n="1"/><g ref="#pcs"/> <g ref="#nūṟu"/> <g ref="#pcs"/> <gap reason="ellipsis"/>
-  <lb n="2-3"/><gap reason="ellipsis"/>
-  <seg function="explicit"><lb n="4"/><gap reason="ellipsis"/> ñāṉa muttē <g ref="#pcs"/> <g ref="#pcs"/></seg> <seg function="colophon"><seg function="blessing">kurukiṭāṣṣam uṇṭāka<g rend="below-base">vuM</g></seg> <seg function="title">teṣṣaṇumūṟtti-ñāṉam nū
-  <lb n="5" break="no"/>ṟu <g ref="#pcs"/></seg> <seg function="blessing">civamayam <g ref="#pcl"/></seg> <seg function="blessing">teṣṣaṇumūṟt=ti-pātāravintamē keti <g ref="#pcl"/></seg> <seg function="blessing">cuvāmi pātāravintamē keti <g ref="#pcs"/></seg>
-  <seg function="blessing"><lb n="6"/>Āveṉṟē A<choice><orig>ṣṣca</orig><reg>ṭca</reg></choice>rattai Aṟint<pc>'</pc> uṇart=tatu ṉāḷ tōṟum O<choice><sic>pe</sic><corr>me</corr></choice>ṉav Aṣṣarattai Uṟutiyāy maṉatil vayt=tu
-  <lb n="7"/>ṉāṉ eṉṟa Aṣṣarat=tai ṉāḷ tōṟum viṭṭakalātē ṉōṉṟāy niṉṟavaṉē tayavu paṇṇum kaṟttāvē <g ref="#pcl"/></seg></seg>
-      </ab>
-</body></text><text synch="#U6" corresp="#T5" xml:lang="ta"><body>
-    <ab>
-
-  <pb facs="315" n="155r"/>
-      
-      <seg function="header">
-  <seg function="blessing"><milestone unit="left-margin"/>
-  <lb n="1"/>naṉṟāka</seg>
-  <seg function="title"><lb n="2-3"/>Akaṣt=tiyar vāta-cūṣt=tiram <g ref="#pcs"/></seg>
-        </seg>
-  
-  <seg function="incipit"><milestone unit="main-text-area"/>
-  <lb n="1"/>Ātiyāṉa maṉakkālañ <gap reason="ellipsis"/></seg>                      
-
-
-<pb facs="420" n="207v"/>
-             <seg function="explicit"><lb n="1"/><gap reason="ellipsis"/> <g ref="#pcs"/> 2<g ref="#nūṟu"/>2</seg> <seg function="colophon"><seg function="completion-statement">Akaṣt=tiyar cūṣttiram Eḻuti
-      <lb n="2"/>niṟaintatu muṟṟum <g ref="#pcs"/></seg> <seg function="blessing">teṣṣaṇumūṟtti-pātāravintamē tuṇai <g ref="#pcs"/></seg> <seg function="blessing">kuru muṉṉi
-      	<lb n="3"/>kka vēṇum ~</seg> <seg function="blessing">civamayam <g ref="#pcs"/></seg> <seg function="blessing">tiruccuṟṟampalam <g ref="#pcl"/></seg> <seg function="blessing">śrī<g rend="below-base">rāMa</g>ceyam <g ref="#pcs"/></seg></seg>
-      </ab></body></text><text synch="#U7" corresp="#T6" xml:lang="ta"><body>
-    <ab>
-
-    <pb facs="421" n="242r"/>
-    <seg function="incipit">  
-  <lb n="1"/><note xml:lang="en">the text starts abruptly here</note> vaḷamāṉa <gap reason="ellipsis"/></seg>
-    
-<pb facs="452" n="257v"/>
-        <seg function="explicit"><lb n="2"/><gap reason="ellipsis"/> karuṇai peṟu pūcaiviti karuvā muṟṟē  <g ref="#pcs"/> <g ref="#pcs"/> 201 <g ref="#pcs"/></seg>
-  <lb n="3"/><seg function="colophon"><seg function="blessing">caccutāṉanta-paripūṟaṇa-tayāpara-Akaṣttiyar pātāravintamē tuṇai Uṇṭāvatāka
-  <lb n="4"/><g rend="below-base">vuM</g></seg> <seg function="blessing">civamayam</seg> <seg function="blessing">kurupātāravintamē keti <g ref="#pcs"/></seg> <seg function="blessing">caṟkkuruvē tuṇai <g ref="#pcs"/></seg> <seg function="TBC">mīṉāṭci <unclear>tūtu</unclear> <g ref="#pcl"/></seg> 
-  <seg function="colophon"><lb n="5"/>piṅkaḷa {varuṣam} Āvaṇi {mācam} 15 {tēti} cevvāykkiḻamai Amurta-vēḷaiyil <placeName xml:lang="ta" key="Ceṉṉai">ceṉṉappaṭṭaṉattil</placeName> 
-  <lb n="6"/>ttāṇavarāyaṉ vētāntam Eḷuti mutintatu muṟṟum <g ref="#pcs"/></seg> <seg function="blessing">śrīrāmace<g rend="below-base">yaM</g> <g ref="#pcl"/></seg></seg>
-      </ab>
-</body></text><text synch="#U8" corresp="#T7" xml:lang="ta"><body>
-    <ab>
-
-  <pb facs="453" n="[1]r"/>
-  
-  <seg function="title"><milestone n="1" unit="column"/>
-  <lb n="1"/>pū<choice><sic>ra</sic><corr>r</corr></choice>ṇa-cūttiram</seg>
-  <seg function="title"><lb n="2"/>tīṣṣā-viti</seg>
-  <seg function="title"><lb n="3"/>ñāṉam</seg>                                           
-  <seg function="title"><lb n="4"/>vāta-cūttiram</seg>
-
-  <seg function="title"><milestone n="1" unit="column"/>
-  <lb n="1-2"/>pūca-viti</seg>
-      </ab>
-  </body>
-</text></TEI>
+<pb facs="144"
+							n="70v"/>
+						<lb n="1-3"/>
+kāṭṭum puruvamayyam – nōkka – yōkañāṉam āccu <g ref="#pcl"
+							/><note xml:lang="en" place="foot"
+							>Exposition of the benefits obtained by using the text.</note></seg>
+					<seg function="blessing">civamayam <g ref="#pcl"/></seg>
+					<seg function="blessing">kuruvē tuṇai <g ref="#pcs"/></seg>
+					<seg function="blessing">caracupatiyē namā <g ref="#pcs"/></seg>
+					<seg function="blessing">kumaraṉāyakaṉ tuṇai</seg>
+					<seg function="TBC"
+							>cēṣappiḷḷai Ayyaṟa vākkiṉāl pūṟaṇa-cūṣt=tiram tāṇṭavarāyaṉukku k=kūṭuttatu <g
+							ref="#pcs"/></seg>
+					<seg function="blessing">civamayam <g ref="#pcl"/></seg></seg>
+			</ab>
+		</body>
+	</text>
+	<text synch="#U4" corresp="#T3" xml:lang="ta">
+		<body>
+			<ab>
+				<pb facs="147" n="71r"/>
+				<seg function="title">
+					<milestone unit="left-margin"/>
+					<lb n="1-5"/>Akaṣttiya-makāmuṉi Aruḷicceyita tīṣṣai-viti yirunūṟu</seg>
+				<seg function="incipit"><milestone unit="main-text-area"/>
+					<lb n="1"/>vāṉaittāviya pōtikai ~ <gap reason="ellipsis"/></seg>
+				<pb facs="257" n="126r"/>
+				<seg function="explicit"><lb n="4"/><gap reason="ellipsis"
+						/> pūcai-viti-tīṣṣai muttē
+  <lb n="5"/><g ref="#pcs"/> 2<g ref="#nūṟu"/><g
+						ref="#pattu"/>4 <g ref="#pcs"/></seg>
+				<seg function="blessing">kuruvē tuṇai</seg>
+				<seg function="blessing">teṣṣaṇāmūṟt=ti-pātāravintamē tuṇai Eppōtum uṇṭāka<g
+						rend="below-base">vuM</g>
+					<g ref="#pcl"/></seg>
+				<seg function="blessing"><lb n="6"/>civamayam <g ref="#pcs"/></seg>
+				<seg function="blessing">parañcōti-pātāravintamē keti <g ref="#pcs"/></seg>
+				<seg function="blessing">tēviccakā<g rend="below-base">yaM</g>
+					<g ref="#pcl"/></seg>
+			</ab>
+		</body>
+	</text>
+	<text synch="#U5" corresp="#T4" xml:lang="ta">
+		<body>
+			<ab>
+				<pb facs="259" n="127r"/>
+				<seg function="header">
+					<seg function="blessing"><milestone unit="left-margin"/>
+						<lb n="1"/>śrīrāmace<g rend="below-base">yaM</g></seg>
+					<lb n="2-3"/><seg function="title">Akaṣt=tiyar ñāṉam <g ref="#pcs"/></seg>
+				</seg>
+				<seg function="incipit"><milestone unit="main-text-area"/>
+					<lb n="1"/>cintai yuṟu ñāṉam ~<gap reason="ellipsis"/></seg>
+				<pb facs="314" n="154v"/>
+				<milestone unit="main-text-area"/>
+				<lb n="1"/><g ref="#pcs"/>
+				<g ref="#nūṟu"/>
+				<g ref="#pcs"/>
+				<gap reason="ellipsis"/>
+				<lb n="2-3"/><gap reason="ellipsis"/>
+				<seg function="explicit"><lb n="4"/><gap reason="ellipsis"/> ñāṉa muttē <g
+						ref="#pcs"/>
+					<g ref="#pcs"/></seg>
+				<seg function="colophon"><seg function="blessing">kurukiṭāṣṣam uṇṭāka<g
+							rend="below-base">vuM</g></seg>
+					<seg function="title">teṣṣaṇumūṟtti-ñāṉam nū
+  <lb n="5" break="no"/>ṟu <g
+							ref="#pcs"/></seg>
+					<seg function="blessing">civamayam <g ref="#pcl"/></seg>
+					<seg function="blessing">teṣṣaṇumūṟt=ti-pātāravintamē keti <g ref="#pcl"/></seg>
+					<seg function="blessing">cuvāmi pātāravintamē keti <g ref="#pcs"/></seg>
+					<seg function="blessing"><lb n="6"/>Āveṉṟē A<choice>
+							<orig>ṣṣca</orig>
+							<reg>ṭca</reg>
+						</choice>rattai Aṟint<pc>'</pc> uṇart=tatu ṉāḷ tōṟum O<choice>
+							<sic>pe</sic>
+							<corr>me</corr>
+						</choice>ṉav Aṣṣarattai Uṟutiyāy maṉatil vayt=tu
+  <lb n="7"
+							/>ṉāṉ eṉṟa Aṣṣarat=tai ṉāḷ tōṟum viṭṭakalātē ṉōṉṟāy niṉṟavaṉē tayavu paṇṇum kaṟttāvē <g
+							ref="#pcl"/></seg></seg>
+			</ab>
+		</body>
+	</text>
+	<text synch="#U6" corresp="#T5" xml:lang="ta">
+		<body>
+			<ab>
+				<pb facs="315" n="155r"/>
+				<seg function="header">
+					<seg function="blessing"><milestone unit="left-margin"/>
+						<lb n="1"/>naṉṟāka</seg>
+					<seg function="title"><lb n="2-3"/>Akaṣt=tiyar vāta-cūṣt=tiram <g ref="#pcs"
+						/></seg>
+				</seg>
+				<seg function="incipit"><milestone unit="main-text-area"/>
+					<lb n="1"/>Ātiyāṉa maṉakkālañ <gap reason="ellipsis"/></seg>
+				<pb facs="420" n="207v"/>
+				<seg function="explicit"><lb n="1"/><gap reason="ellipsis"/>
+					<g ref="#pcs"/> 2<g ref="#nūṟu"/>2</seg>
+				<seg function="colophon"><seg function="completion-statement"
+							>Akaṣt=tiyar cūṣttiram Eḻuti
+      <lb n="2"/>niṟaintatu muṟṟum <g
+							ref="#pcs"/></seg>
+					<seg function="blessing">teṣṣaṇumūṟtti-pātāravintamē tuṇai <g ref="#pcs"/></seg>
+					<seg function="blessing">kuru muṉṉi<supplied reason="omitted">ṟ</supplied>
+      	<lb n="3" break="no"/>kka vēṇum ~</seg>
+					<seg function="blessing">civamayam <g ref="#pcs"/></seg>
+					<seg function="blessing">tiruccuṟṟampalam <g ref="#pcl"/></seg>
+					<seg function="blessing">śrī<g rend="below-base">rāMa</g>ceyam <g ref="#pcs"
+						/></seg></seg>
+			</ab>
+		</body>
+	</text>
+	<text synch="#U7" corresp="#T6" xml:lang="ta">
+		<body>
+			<ab>
+				<pb facs="421" n="242r"/>
+				<seg function="incipit">
+					<lb n="1"/><note xml:lang="en"
+						>the text starts abruptly here</note> vaḷamāṉa <gap reason="ellipsis"
+					/></seg>
+				<pb facs="452" n="257v"/>
+				<seg function="explicit"><lb n="2"/><gap reason="ellipsis"
+						/> karuṇai peṟu pūcaiviti karuvā muṟṟē  <g ref="#pcs"/>
+					<g ref="#pcs"/> 201 <g ref="#pcs"/></seg>
+				<lb n="3"/><seg function="colophon"><seg function="blessing"
+							>caccutāṉanta-paripūṟaṇa-tayāpara-Akaṣttiyar pātāravintamē tuṇai Uṇṭāvatāka
+  <lb
+							n="4"/><g rend="below-base">vuM</g></seg>
+					<seg function="blessing">civamayam</seg>
+					<seg function="blessing">kurupātāravintamē keti <g ref="#pcs"/></seg>
+					<seg function="blessing">caṟkkuruvē tuṇai <g ref="#pcs"/></seg>
+					<seg function="TBC">mīṉāṭci <unclear>tūtu</unclear>
+						<g ref="#pcl"/></seg>
+					<seg function="colophon"><lb n="5"
+							/>piṅkaḷa {varuṣam} Āvaṇi {mācam} 15 {tēti} cevvāykkiḻamai Amurta-vēḷaiyil <placeName
+							xml:lang="ta" key="Ceṉṉai">ceṉṉappaṭṭaṉattil</placeName>
+						<lb n="6"/>ttāṇavarāyaṉ vētāntam Eḷuti mutintatu muṟṟum <g ref="#pcs"
+						/></seg>
+					<seg function="blessing">śrīrāmace<g rend="below-base">yaM</g>
+						<g ref="#pcl"/></seg></seg>
+			</ab>
+		</body>
+	</text>
+	<text synch="#U8" corresp="#T7" xml:lang="ta">
+		<body>
+			<ab>
+				<pb facs="453" n="[1]r"/>
+				<seg function="title"><milestone n="1" unit="column"/>
+					<lb n="1"/>pū<choice>
+						<sic>ra</sic>
+						<corr>r</corr>
+					</choice>ṇa-cūttiram</seg>
+				<seg function="title"><lb n="2"/>tīṣṣā-viti</seg>
+				<seg function="title"><lb n="3"/>ñāṉam</seg>
+				<seg function="title"><lb n="4"/>vāta-cūttiram</seg>
+				<seg function="title"><milestone n="1" unit="column"/>
+					<lb n="1-2"/>pūca-viti</seg>
+			</ab>
+		</body>
+	</text>
+</TEI>
