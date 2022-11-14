@@ -25,7 +25,11 @@
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">TBC</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta"><term xml:lang="en">TBC</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T3" defective="false"><title xml:lang="ta"><term xml:lang="en">TBC</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U4" xml:id="T4" defective="false"><title xml:lang="ta"><term xml:lang="en">TBC</term></title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi" rend="manuscript">
+                  
+                  
+                  
+                  
+               <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
                         <extent>
                            <measure unit="folio" quantity="18">9 + 1 + 7 + 1 (U1 + U2 + U3 + U4).</measure>
@@ -37,30 +41,26 @@
                         <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
                         
                         
-                     <support/><collation><desc xml:id="U1">9 folios = <emph rend="bold">TBC</emph>. Tamil foliation 10-18 (in the right margin).</desc><desc xml:id="U2">1 folio = <emph rend="bold">TBC</emph>. Tamil foliation 25 (in the right margin). f25v blank.</desc><desc xml:id="U3">9 folios = <emph rend="bold">TBC</emph>. Tamil foliation 31-37 (in the right margin).</desc><desc xml:id="U4">1 folio = <emph rend="bold">TBC</emph>. Tamil foliation 157 (in the right margin).</desc></collation><foliation>Original Tamil foliation in the right margin (10-18, 25, 31-37, 157). Later added Tamil foliation, unblackened in the left margin. </foliation></supportDesc>
+                     <support/><foliation>Original Tamil foliation in the right margin (10-18, 25, 31-37, 157). Later added Tamil foliation, unblackened in the left margin. </foliation><collation><desc xml:id="U1">9 folios = <emph rend="bold">TBC</emph>. Tamil foliation 10-18 (in the right margin).</desc><desc xml:id="U2">1 folio = <emph rend="bold">TBC</emph>. Tamil foliation 25 (in the right margin). f25v blank.</desc><desc xml:id="U3">9 folios = <emph rend="bold">TBC</emph>. Tamil foliation 31-37 (in the right margin).</desc><desc xml:id="U4">1 folio = <emph rend="bold">TBC</emph>. Tamil foliation 157 (in the right margin).</desc></collation></supportDesc>
                      <layoutDesc>
                         
                      </layoutDesc>
-                  </objectDesc>
-                  <handDesc>
+                  </objectDesc><handDesc>
                      
-                  <handNote synch="#U1 #U2 #U3 #U4" scope="sole" script="tamil" medium="incised soot"/></handDesc>
-                  <additions><desc synch="#U3 #U4" type="intertitle" subtype="marginal left">Left-marginal intertitles. See selection below.</desc></additions>
-                  <bindingDesc>
+                  <handNote synch="#U1 #U2 #U3 #U4" scope="sole" script="tamil" medium="incised soot"/></handDesc><additions><desc synch="#U3 #U4" type="intertitle" subtype="marginal left">Left-marginal intertitles. See selection below.</desc></additions><bindingDesc>
                      <binding>
                         
                      <decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
-                  </bindingDesc>
-               </physDesc>
+                  </bindingDesc></physDesc>
                <history>
-                  <origin>
+                  
+                  
+               <origin>
                      <origDate calendar="gregorian" notAfter="1947">No internal date. Dated to the 18th century in the handwritten addition to Cabaton (1912).</origDate>
                      <origPlace>Tamilnadu.</origPlace>
-                  </origin>
-                  <acquisition>
+                  </origin><provenance><p>Unknown.</p></provenance><acquisition>
                      <p>Cabaton (1912): <quote xml:lang="fr">Don n° 7608, du 20 juin 1947, de M. Celier, inspecteur des Archives.</quote></p>
-                  </acquisition>
-               <provenance><p>Unknown.</p></provenance></history>
+                  </acquisition></history>
                <additional>
                   <listBibl>
                      
@@ -93,11 +93,11 @@
   <seg function="blessing"><milestone unit="left-margin"/>
   <lb n="1-2"/>makā-kaṇapati tuṇai</seg>
   
-  <seg function="TBC"><milestone unit="column"/>
+  <seg function="TBC"><milestone unit="main-text-area"/>
   <lb n="1"/>kaṇapati <gap reason="ellipsis"/>
     <lb n="2"/><gap reason="ellipsis"/>
   <lb n="3"/><gap reason="ellipsis"/>
-<lb n="4"/>veluṅ kaiyyu=M</seg> <seg function="blessing">kuruvē tuṇai</seg> <g ref="#pcl"/>
+     <lb n="4"/>veluṅ kaiy<g rend="below-base">yuM</g></seg> <seg function="blessing">kuruvē tuṇai</seg> <g ref="#pcl"/>
 
   <pb n="25v"/><note xml:lang="en">blank</note>
     </ab>
