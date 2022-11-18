@@ -39,10 +39,16 @@
   </p></filiation></msItem></msContents>
                
                <physDesc>
-                  <objectDesc form="pothi">
+                  
+                  
+                  
+                  
+                  
+                  
+               <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
                         <support>
-                           <measure resp="#cLI" unit="stringhole" quantity="1"/>
+                           
                         </support>
                         <extent>
                            <measure unit="folio" quantity="97">{1} + {1} + 1 + 94 (U1 + U2 + U3 + U4).</measure>
@@ -51,51 +57,45 @@
                               
                            <width min="285" max="290"/><height min="25" max="30"/></dimensions>
                            <dimensions type="object" unit="mm"><width quantity="290"/><height quantity="30"/><depth quantity="65"/></dimensions><dimensions type="written" unit="mm"/></extent>
-                        <collation>
+                        
+                        
+                     <collation>
                            
                         <desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Double folio. 290 x 25 mm. </desc><desc xml:id="U2">1 folio = <emph rend="bold"><term xml:lang="ta">Pañcatantirakkatai</term>: Preface</emph>. No foliation. Double folio. 290 x 25 mm. 
 </desc><desc xml:id="U3">1 folio = <emph rend="bold"><term xml:lang="ta">Pañcatantirakkatai</term>: Invocation (2 stanzas)</emph>. Tamil foliation 19.
-</desc><desc xml:id="U4">94 folios = <emph rend="bold"><term xml:lang="ta">Pañcatantirakkatai</term>: Text</emph>. {1}-68, <supplied reason="omitted">68<hi rend="superscript">2</hi></supplied> (unfoliated f.), 69-93. Single folios. 285 x 30 mm. 6-7 lpp.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation>
-                        <condition>Good state of preservation.</condition>
-                     </supportDesc>
+</desc><desc xml:id="U4">94 folios = <emph rend="bold"><term xml:lang="ta">Pañcatantirakkatai</term>: Text</emph>. {1}-68, <supplied reason="omitted">68<hi rend="superscript">2</hi></supplied> (unfoliated f.), 69-93. Single folios. 285 x 30 mm. 6-7 lpp.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Good state of preservation.</condition></supportDesc>
                      <layoutDesc>
                         
                      </layoutDesc>
-                  </objectDesc>
-                  <handDesc>                     
+                  </objectDesc><handDesc>                     
                      
-                  <handNote synch="#U2 #U3 #U4" scope="major" script="tamil" medium="incised soot"><desc>Several hands.</desc></handNote></handDesc>
-                  <additions> 
+                  <handNote synch="#U2 #U3 #U4" scope="major" script="tamil" medium="incised soot"><desc>Several hands.</desc></handNote></handDesc><additions> 
                      
                      
                      
                      
                      
                      
-                  <desc synch="#CoverBack" type="shelfmark" subtype="back cover">BnF shelfmark sticker: <quote>INDIEN 414</quote>.</desc></additions>
-                  
-                  <bindingDesc>
+                  <desc synch="#CoverBack" type="shelfmark" subtype="back cover">BnF shelfmark sticker: <quote>INDIEN 414</quote>.</desc></additions><bindingDesc>
                      <binding>
                         <p><material cert="medium">Pinewood</material> covers apparently fabricated in the BnF. 290 x 25 mm.</p>
-                     </binding>
-                  </bindingDesc>
-                  
-               </physDesc>
+                     <decoNote type="stringhole"><measure resp="#cLI" unit="stringhole" quantity="1"/></decoNote></binding>
+                  </bindingDesc></physDesc>
                
                <history>
                   
-                  <origin>
+                  
+                  
+                  
+                  
+               <origin>
                      <origDate calendar="gregorian" notAfter="1866">No internal date. No internal date. 
 Not dated by Vinson in Vinson et al. (1866-) nor by Cabaton (1912). Not later than first mention in a catalogue.
 </origDate>
                      <origPlace>Tamilnadu.</origPlace>
-                  </origin>
-                  
-                  <acquisition>
+                  </origin><provenance><p>Unknown.</p></provenance><acquisition>
                      
-                  <p>Unknown</p></acquisition>
-                  
-               <provenance><p>Unknown.</p></provenance></history>
+                  <p>Unknown</p></acquisition></history>
                
                <additional>
                   
@@ -212,7 +212,8 @@ Not dated by Vinson in Vinson et al. (1866-) nor by Cabaton (1912). Not later th
   
     <pb facs="43" n="81r"/>
   <seg function="blessing"><milestone unit="left-margin"/>
-  <lb n="1"/>civamaya<seg rend="grantha">m·</seg></seg>
+  <lb n="1"/>civamaya<g rend="grantha">m·</g>
+       </seg>
   
   <pb facs="44" n="82r"/>
   <lb n="3"/> <gap reason="ellipsis"/> <g ref="#pcs"/> 42 <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/> <seg function="completion-statement">Aṟttaṉācakkatai muṟṟum <g ref="#pcs"/></seg> <seg function="blessing">tirucciṟṟampalam <g ref="#pcs"/></seg> <seg function="blessing">civamaya<seg rend="grantha">m·<sic>m·m·</sic></seg></seg>
