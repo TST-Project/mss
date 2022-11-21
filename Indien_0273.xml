@@ -31,7 +31,11 @@
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page (additional)</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta">Makāvintam: <term xml:lang="en">Satellite Stanza</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T3" defective="false"><title xml:lang="ta">Makāvintam</title><textLang mainLang="tam"/></msItem><msItem synch="#U4" xml:id="T4" defective="false"><title xml:lang="ta">Makāvintam: <term xml:lang="en">Table of Contents</term></title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi" rend="manuscript">
+                  
+                  
+                  
+                  
+               <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
                         <support>
                            <!--measure unit="stringholes" quantity=""/-->
@@ -60,11 +64,7 @@
                      <layoutDesc>
                         <p/>
                      <layout writtenLines="6 7"/></layoutDesc>
-                  </objectDesc>
-                  
-                  
-                  
-               <handDesc>
+                  </objectDesc><handDesc>
                      
                      
                     
@@ -83,14 +83,14 @@
                      <decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
                   </bindingDesc></physDesc>
                <history>
-                  <origin>
+                  
+                  
+               <origin>
                      <origDate calendar="gregorian" notAfter="1854" when="1770">Internally dated to the year <foreign xml:lang="ta">vikuṟati</foreign> of the Jovian cycle, that is, CE 1830-1831, 1770-1771, 1710-1711, etc. See copy beginning statement (U2) and colophon (U3). Dated to July 31st, 1770 by Vinson in Vinson et al. (1866-), on the basis of the colophon, and to 1770 by Cabaton (1912). Not after 1854, since part of the collection of <persName role="collector">Édouard Ariel</persName> (1818-1854), bequested in 1855 to the Société Asiatique, Paris (Rosny 1868).</origDate>
                      <origPlace>Tamilnadu.</origPlace>
-                  </origin>
-                  <acquisition>
+                  </origin><provenance><p>Owned by <persName role="collector">Édouard Ariel</persName> (1818-1854). Bequested by Édouard Ariel to Société Asiatique (Rosny 1868, p. 177).</p></provenance><acquisition>
                      <p>Received, August 1st, 1866, from the Société Asiatique. See BnF, département des Manuscrits, inventaire 7 = <title>Dons: manuscrits et imprimés documentaires, 1848-1895</title>, no. 1192.</p>
-                  </acquisition>
-               <provenance><p>Owned by <persName role="collector">Édouard Ariel</persName> (1818-1854). Bequested by Édouard Ariel to Société Asiatique (Rosny 1868, p. 177).</p></provenance></history>
+                  </acquisition></history>
                <additional>
                   <listBibl>
                      
@@ -152,11 +152,11 @@
          <l><lb n="3"/>pūṇṭi <gap reason="ellipsis"/></l>
       <l><lb n="4"/>Āṇṭa <gap reason="ellipsis"/> <g ref="#pcs"/> = </l></lg></seg>
       
-       <seg function="satellite-stanza"><milestone n="2" unit="column"/>
-      <lg><l><lb n="1"/>vēkamā neṟicērum viṉaikaḷum</l>
-        <l><lb n="2"/>tāka pōka maviṭāt taḷarcciyuṅ</l>
-         <l><lb n="3"/>cōka vāriyi ṉalavaru tuṉpamum<gap reason="ellipsis"/></l>
-      <l><lb n="4"/>pōka vāṉai mukattaṉaip po<sic>ttu</sic>vām<gap reason="ellipsis"/></l></lg></seg>
+       <seg function="incipit"><seg function="satellite-stanza"><milestone n="2" unit="column"/>
+      <lg><l><lb n="1"/>vēka māneṟi cērum viṉaikaḷum</l>
+        <l><lb n="2"/>tāka pōkam viṭāta taḷarcciyuñ</l>
+         <l><lb n="3"/>cōka vāriyiṉāl varu tuṉpamum</l>
+      <l><lb n="4"/>pōka vāṉai mukattaṉaip po<choice><sic>ttu</sic><corr>ṟṟu</corr></choice>vām <g ref="#pcs"/></l></lg></seg></seg>
     
      <pb facs="6" n="[1]v"/><note xml:lang="en">blank</note>
 
