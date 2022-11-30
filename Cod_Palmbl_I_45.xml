@@ -1,14 +1,14 @@
-﻿<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title><term xml:lang="sa">Māhātmya</term>s from various <term xml:lang="sa">Purāṇa</term> texts</title>
             
-         <editor><persName>S. Lakshminarasimham</persName><orgName>E F E O Pondicherry</orgName></editor></titleStmt>
+         <editor><persName>S. Lakshminarasimham</persName><orgName>EFEO Pondicherry</orgName></editor></titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2022</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -56,10 +56,15 @@ jagmuś ca badarīṃ draṣṭuṃ sarve vai śāntamānasāḥ |
 ya idaṃ śṛṇuyād vāpi śrāvayed vā narottamān |
 sarvapāpaiḥ pramucyeta viṣṇusāyujyam āpnuyāt |</explicit><finalRubric xml:lang="sa">iti śrīpadmapurāṇe uttarakhaṇḍe kārtikamāhātnye triṃśo dhyāyaḥ |</finalRubric><finalRubric xml:lang="sa">kārtikamāhātmyaṃ samāptam |</finalRubric></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi">
+                  
+                  
+                  
+                  
+                  
+               <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
                         <support>
-                           <measure unit="stringhole" quantity="2"/>
+                           
                            
                         </support>
                         <extent>
@@ -69,31 +74,26 @@ sarvapāpaiḥ pramucyeta viṣṇusāyujyam āpnuyāt |</explicit><finalRubric 
                               
                            </dimensions>
                         <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
-                        <collation><desc xml:id="U1">Folios 1-24</desc><desc xml:id="U2">Folios 1 - 60</desc><desc xml:id="U3">Folios 1 - 39</desc><desc xml:id="U4">Folios 40 - 86</desc></collation>
                         
                         
-                     <foliation>Telugu numerals left margin recto</foliation><condition>Good</condition></supportDesc>
+                        
+                     <foliation>Telugu numerals left margin recto</foliation><collation><desc xml:id="U1">Folios 1-24</desc><desc xml:id="U2">Folios 1 - 60</desc><desc xml:id="U3">Folios 1 - 39</desc><desc xml:id="U4">Folios 40 - 86</desc></collation><condition>Good</condition></supportDesc>
                      <layoutDesc>
                         <layout writtenLines="6"/>
                      </layoutDesc>
-                  </objectDesc>
-                 <handDesc><handNote synch="#U1" scope="sole" script="telugu" scriptRef="#valapalagilaka" medium="ink"/><handNote synch="#U2" scope="sole" script="telugu" scriptRef="#valapalagilaka" medium="ink black"/><handNote synch="#U3" scope="sole" script="telugu" medium="ink black"/><handNote synch="#U4" scope="sole" script="telugu" scriptRef="#valapalagilaka" medium="ink black"/></handDesc> 
-                  <decoDesc>
-                  </decoDesc>
-                  <additions>
-                  </additions>
-                  <bindingDesc>
-                     <binding/>
-                  </bindingDesc>
-               </physDesc>
+                  </objectDesc><handDesc><handNote synch="#U1" scope="sole" script="telugu" scriptRef="#valapalagilaka" medium="ink"/><handNote synch="#U2" scope="sole" script="telugu" scriptRef="#valapalagilaka" medium="ink black"/><handNote synch="#U3" scope="sole" script="telugu" medium="ink black"/><handNote synch="#U4" scope="sole" script="telugu" scriptRef="#valapalagilaka" medium="ink black"/></handDesc><decoDesc>
+                  </decoDesc><additions>
+                  </additions><bindingDesc>
+                     <binding><decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
+                  </bindingDesc></physDesc>
                <history>
-                  <origin>
+                  
+                  
+                  
+               <origin>
                      <origDate calendar="gregorian"/>
                      
-                  </origin>
-                  <provenance/>
-                  <acquisition/>
-               </history>
+                  </origin></history>
                <additional>
                   <listBibl>
                      
@@ -105,10 +105,10 @@ sarvapāpaiḥ pramucyeta viṣṇusāyujyam āpnuyāt |</explicit><finalRubric 
       <encodingDesc>
          
       <p>IAST transliteration.</p></encodingDesc>
-      <revisionDesc>
+      
+   <revisionDesc>
          
-      <change when="2021-11">First version.</change></revisionDesc>
-   </teiHeader>
+      <change when="2021-11">First version.</change></revisionDesc></teiHeader>
    <facsimile>
    </facsimile>
 </TEI>
