@@ -33,7 +33,10 @@
                   
                <msItem synch="#U2a" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Satellite Stanza</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2b" xml:id="T2" defective="false"><title xml:lang="ta">Periya Purāṇam: Mūlam</title><textLang mainLang="tam"/></msItem><msItem synch="#U2c" xml:id="T3" defective="false"><title xml:lang="ta">Periya Purāṇam: <term xml:lang="en">Table of Contents</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2d" xml:id="T4" defective="false"><title xml:lang="ta">Naiṭatam: <term xml:lang="en">Satellite Stanza</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2e" xml:id="T5" defective="false"><title xml:lang="ta">Naiṭatam: Mūlam</title><author xml:lang="ta">Ativīrarāmapāṇṭiyar</author><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T6" defective="false"><title xml:lang="ta"><term xml:lang="en">Addition</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U5" xml:id="T7" defective="false"><title xml:lang="ta"><term xml:lang="en">Satellite Stanza</term></title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi" rend="manuscript">
+                  
+                  
+                  
+               <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
                         <extent>
                            <measure unit="folio" quantity="172">{2} + 156 + {1} + {12} + {1} (U1 + U2 + U3 + U4 + U5).</measure>
@@ -52,10 +55,7 @@
                      <layoutDesc>
                         
                      </layoutDesc>
-                  </objectDesc>
-                  
-                  
-               <handDesc>
+                  </objectDesc><handDesc>
                      
                   <handNote synch="#U2 #U2a #U2b #U2c #U2d #U2e" scope="major" script="tamil" medium="incised soot"><desc>Hand #1.</desc></handNote><handNote synch="#U3" scope="minor" script="tamil" medium="incised"><desc>Hand #2. Unblackened.</desc></handNote><handNote synch="#U5" scope="minor" script="tamil" medium="incised"><desc>Hand #3. Unblackened.</desc></handNote></handDesc><additions>
                     
@@ -76,17 +76,17 @@
                   <desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 506</quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#U1" type="blessing" subtype="marginal right">Unblackened blessing, added: <quote xml:lang="ta" rend="block">
  <pb facs="3" n="[1]r"/>
   <milestone unit="left-margin"/>
-  tēvicakā<g rend="below-base">yaM</g></quote></desc><desc synch="#U2b" type="intertitle" subtype="marginal left">Left-marginal intertitles. See selection below.</desc><desc synch="#U2c" corresp="#T3" type="table-of-contents">See details below.</desc><desc synch="#U2e" type="intertitle">Left-marginal intertitles. See selection below.</desc></additions><bindingDesc><binding><p>Original <material cert="medium">wood</material> covers. 345 x 30 mm.
+  tēvicakā<g rend="below-base">yaM</g></quote></desc><desc synch="#U2b" type="intertitle" subtype="marginal left">Left-marginal intertitles. See selection below.</desc><desc synch="#U2c" corresp="#T3" type="table-of-contents">Chapters lists (<locus facs="203">f97r</locus>–<locus facs="206">f98v</locus>), withour reference to folio. Total chapters. 4 lines of unclear contents (<locus facs="206">f98v, column 3</locus>). See details below.</desc><desc synch="#U2e" type="intertitle">Left-marginal intertitles. See selection below.</desc></additions><bindingDesc><binding><p>Original <material cert="medium">wood</material> covers. 345 x 30 mm.
 </p><decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding></bindingDesc></physDesc>
                <history>
-                  <origin>
+                  
+                  
+               <origin>
                      <origDate calendar="gregorian" notAfter="1858"><title xml:lang="ta">Periya Purāṇam</title> internally dated to the year <foreign xml:lang="ta">naḷa</foreign> of the Jovian cycle, that is CE 1856-1857, 1796-1797, 1736-1737, etc. See colophon (U2b, <locus facs="202">f96v6</locus>). <title xml:lang="ta"> Naiṭatam</title> internally dated to the year <foreign xml:lang="ta">piṅkaḷa</foreign> of the Jovian cycle, that is CE 1857-1858, 1797-1798, 1737-1738, etc. See beginning statement (U2d, <locus facs="208">f99v1</locus>). </origDate>
                      
-                  <origPlace>Tamilnadu.</origPlace></origin>
-                  <acquisition>
+                  <origPlace>Tamilnadu.</origPlace></origin><provenance><p>Unknown.</p></provenance><acquisition>
                      <p>Bequested by Madame Goschler.</p>
-                  </acquisition>
-               <provenance><p>Unknown.</p></provenance></history>
+                  </acquisition></history>
                <additional>
                   <listBibl>
                      
@@ -147,8 +147,9 @@
 
   <pb facs="203" n="97r"/>
   
-  <seg function="table-of-contents"><seg function="title"><milestone unit="left-margin"/>
-  <lb n="1-3"/>periyapurāṇat=t<pc>’</pc> uraik=ku y<pc>-</pc>aṭṭavaṇai</seg>
+  <seg function="table-of-contents">
+    <seg function="header"><seg function="title"><milestone unit="left-margin"/>
+  <lb n="1-3"/>periyapurāṇat=t<pc>’</pc> uraik=ku y<pc>-</pc>aṭṭavaṇai</seg></seg>
   
   <milestone n="1" unit="column"/>
   <lb n="1"/>cuntaramūṟti varalāṟu
@@ -204,10 +205,10 @@
     <seg function="total-chapters"><lb n="3"/>Āka 7<g ref="#pattu"/>4</seg>
 
   <milestone n="3" unit="column"/>
-  <seg function="TBC"><lg><l><lb n="1"/><gap reason="ellipsis"/></l>
-  <l><lb n="2"/><gap reason="ellipsis"/></l>
-  <l><lb n="3"/><gap reason="ellipsis"/></l>
-  <l><lb n="4"/><gap reason="ellipsis"/> <g ref="#pcl"/></l></lg></seg> <seg function="blessing">tirucciṟṟampala<seg rend="grantha">m</seg></seg>
+  <seg function="TBC"><lb n="1"/><gap reason="ellipsis"/>
+  <lb n="2"/><gap reason="ellipsis"/>
+  <lb n="3"/><gap reason="ellipsis"/>
+  <lb n="4"/><gap reason="ellipsis"/> <g ref="#pcl"/></seg> <seg function="blessing">tirucciṟṟampala<seg rend="grantha">m</seg></seg>
     </seg>
       
       </ab>
