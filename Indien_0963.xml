@@ -63,7 +63,12 @@
   <lb n="3"/><add>20</add> mars 1861
   <lb n="4"/>(Tambirân')
   </quote>
- </desc><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 963</quote> (<locus facs="0">front cover, recto</locus>).</desc><desc synch="#U2a" type="commenting-note">Conversion (by Vinson?) in CE of the internal date of the text: <quote>16 février 1782</quote> (<locus facs="0">f119v</locus>). </desc><desc synch="#U3" corresp="#T4" type="table-of-contents">3 total stanzas tables (no titles), one after the other (f1rv, f2r, f3rv).</desc></additions><bindingDesc>
+ </desc><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 963</quote> (<locus facs="0">front cover, recto</locus>).</desc><desc synch="#U2a" type="commenting-note">Conversion (by Vinson?) in CE of the internal date of the text: <quote>16 février 1782</quote> (<locus facs="0">f119v</locus>). </desc><desc synch="#U3" corresp="#T4" type="table-of-contents">3 total stanzas tables (no titles), one after the other:
+<list>
+  <item>Total stanzas table (f1rv; no title; 2 columns): chapter's name followed by its total stanzas; total chapters (<foreign xml:lang="ta">carukkam</foreign>), total stanzas (<foreign xml:lang="ta">tiruviruttam</foreign>)</item>
+  <item>Total stanzas table, incomplete (f2r; no title; 1 column): chapter's name followed by its total stanzas</item>
+  <item>Total stanzas table (f3rv; no title; no column): chapter's name followed by its total stanzas; total chapters (<foreign xml:lang="ta">carukkam</foreign>), total stanzas (<foreign xml:lang="ta">tiruviruttam</foreign>)</item>
+  </list></desc></additions><bindingDesc>
                      <binding><p>Original <material>wood</material> covers. Woodstick tied at one end of the string and threaded in one of the holes.  145 x 40 mm.</p><decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
                   </bindingDesc></physDesc>
                <history>
@@ -190,8 +195,9 @@
 
   <pb n="[1]r"/>
   <seg function="table-of-contents">
-  <seg function="blessing"><milestone unit="left-margin"/>
-  <lb n="1"/>śrī</seg>
+  <seg function="header">
+       <seg function="blessing"><milestone unit="left-margin"/>
+  <lb n="1"/>śrī</seg></seg>
   
   <milestone n="1" unit="column"/>
     <lb n="1"/>pāyiraccarukkam <num rend="traditional">18</num>
@@ -200,7 +206,9 @@
 <lb n="4-9"/><gap reason="ellipsis"/>
   
   <milestone n="2" unit="column"/>
-  <lb n="1-10"/><gap reason="ellipsis"/>
+  <lb n="1"/>kaliṅkacca
+    <lb n="2" break="no"/>ru<g rend="below-base">kkaM</g> <num rend="traditional">21</num>
+  <lb n="3-10"/><gap reason="ellipsis"/>
   
   <pb n="[1]v"/>
   
@@ -211,7 +219,7 @@
  <milestone n="2" unit="column"/>
     <seg function="total-chapters total-stanzas"><lb n="1"/>{Āka} caru<g rend="below-base">kkaM</g> <num rend="traditional">20</num>k=ku
     	<lb n="2"/>tiruviru<g rend="below-base">ttaM</g> <num rend="traditional">4 
-      <lb n="3"/>47</num> Eṉ<add place="below">ṟ<pc>'</pc> a</add>ṟiya<g rend="below-base">vuM</g></seg>
+      <lb n="3" break="no"/>47</num> Eṉ<add place="below">ṟ<pc>'</pc> a</add>ṟiya<g rend="below-base">vuM</g></seg>
     </seg>
 
   <pb n="[2]r"/>
