@@ -56,7 +56,7 @@
                     
                   <handNote synch="#U1" scope="minor" script="tamil" scriptRef="#tamilPulliRegular #tamilOE" medium="incised soot"><desc><persName role="scribe">Ariel's title scribe</persName>.</desc></handNote></handDesc><additions>
                      
-                  <desc synch="#U1" type="shelfmark">Shelfmark <quote>c/45</quote> in black ink (<locus facs="0">f[1]r</locus>). </desc><desc synch="#U1" type="table-of-contents">List of texts in the bundle. See details below.</desc></additions><bindingDesc>
+                  <desc synch="#U1" type="shelfmark">Shelfmark <quote>c/45</quote> in black ink (<locus facs="0">f[1]r</locus>). </desc><desc synch="#U1" type="table-of-contents">List of texts in the bundle (entitled <foreign xml:lang="ta">caivam <subst><del rend="crossed-out">mūṉṟu</del><add>nāṅku</add></subst></foreign>). The fourth and final title (column 3) appears to have been added after the number of texts counted in the bundle had been corrected from 3 to 4 (column 1). See details below.</desc></additions><bindingDesc>
                      <binding>
                         <p><material cert="medium">Pinewood</material> covers apparently fabricated in the BnF.</p>
                      <decoNote type="stringhole"><measure unit="stringhole" quantity="1"/></decoNote></binding>
@@ -96,23 +96,24 @@
     
   <pb facs="2" n="[1]r"/>
   
-  <seg function="blessing"><milestone n="1" unit="column"/>
+  <seg function="header">
+    <seg function="blessing"><milestone n="1" unit="column"/>
   <lb n="1"/>veṟṟi
   <lb n="2" break="no"/>vēl uṟṟa
-  <lb n="3"/>tuṇai</seg>
+  <lb n="3"/>tuṇai</seg></seg>
   
     <seg function="table-of-contents">
-  <seg function="total-works"><milestone n="2" unit="column"/>
+  <seg function="total-works"><milestone n="1" unit="column"/>
   <lb n="1"/>caivam
-  <lb n="2"/><del rend="crossed-out">mūṉṟu</del>
-  <lb n="3"/>nāṅku</seg>
+  <lb n="2"/><subst><del rend="crossed-out">mūṉṟu</del>
+  <lb n="3"/><add>nāṅku</add></subst></seg>
   
-  <seg function="title"><milestone n="3" unit="column"/>
+  <seg function="title"><milestone n="2" unit="column"/>
   <lb n="1"/>kantarantāti<pc>-</pc>y<pc>-</pc>urai</seg>
   <seg function="title"><lb n="2"/>piḷḷaiyār akaval</seg>
   <seg function="title"><lb n="3"/>caravaṇapavaṉ tōttiram</seg>
   
-  <seg function="title"><milestone n="4" unit="column"/>
+  <seg function="title"><milestone n="3" unit="column"/>
   <lb n="1"/>tiruppātiri
   <lb n="2" break="no"/>veṇpā<pc>-</pc>v<pc>-</pc>urai</seg>
       </seg>
