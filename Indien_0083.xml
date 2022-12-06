@@ -19,7 +19,7 @@
                   </repository>
                   <idno type="shelfmark">Indien 83</idno>
                   <idno type="alternate"><idno>Tamoul 83</idno><idno>Ariel</idno><idno>c/17</idno></idno>
-               </msIdentifier>
+               <idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b100916790</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/mc87pz436</idno></msIdentifier>
                <msContents class="#STM">
                   <summary><p>A multi-text manuscript, entitled <title xml:lang="ta">Vētāntam 2</title> on its additional title page, containing two <term xml:lang="sa">Vedānta</term> works:
   <list rend="numbered">
@@ -64,7 +64,7 @@
                      </layoutDesc>
                   </objectDesc><handDesc><handNote synch="#U1" scope="minor" script="tamil" medium="incised"><desc>Hand #1. <persName role="scribe">Ariel's title scribe</persName>.</desc></handNote><handNote synch="#U2 #U3" scope="major" script="tamil" medium="incised"><desc>Hand #2.</desc></handNote><handNote synch="#U4" scope="minor" script="tamil" medium="incised"><desc>Hand #3.</desc></handNote></handDesc><decoDesc>
                   </decoDesc><additions>
-                  <desc synch="#U1" type="shelfmark">Shelfmark in black ink: <quote>c/17</quote> (<locus facs="1">f[1]r</locus>).</desc><desc synch="#U1" type="shelfmark">BnF shelfmark sticker: <quote>INDIEN 83</quote> (<locus facs="1">f[1]r</locus>).</desc><desc synch="#U2" type="verse-beginning">Marginal <foreign xml:lang="sa">pratīka</foreign>s, on recto and verso.</desc><desc synch="#U3" type="intertitle">Marginal intertitle, on recto.</desc><desc synch="#U3" type="verse-numbering" subtype="intertextual">Verse numbering, restarted at the beginning of each chapter (<foreign xml:lang="ta">katai</foreign>).</desc><desc synch="#U4" corresp="#T4" type="table-of-contents">List of chapters (entitled <foreign xml:lang="ta"><gap reason="ellipsis"/> Aṭṭavaṇai</foreign>; 4 + 1 columns): chapter's name followed by its folio number; final total chapters (<foreign xml:lang="ta">katai</foreign>). See details below.</desc></additions><bindingDesc>
+                  <desc synch="#U1" type="shelfmark">Shelfmark in black ink: <quote>c/17</quote> (<locus facs="1">f[1]r</locus>).</desc><desc synch="#U1" type="shelfmark">BnF shelfmark sticker: <quote>INDIEN 83</quote> (<locus facs="1">f[1]r</locus>).</desc><desc synch="#U2" type="verse-beginning">Marginal <foreign xml:lang="sa">pratīka</foreign>s, on recto and verso.</desc><desc synch="#U3" type="intertitle">Marginal intertitle, on recto.</desc><desc synch="#U3" type="verse-numbering" subtype="intertextual">Verse numbering, restarted at the beginning of each chapter (<foreign xml:lang="ta">katai</foreign>).</desc><desc synch="#U4" corresp="#T4" type="table-of-contents">List of chapters of the <foreign xml:lang="ta">Ñāṉavāciṭṭam</foreign> (entitled <foreign xml:lang="ta"><gap reason="ellipsis"/>katai Aṭṭavaṇai</foreign>; 4 + 1 columns): chapter's name followed by its folio number; final total chapters (<foreign xml:lang="ta">katai</foreign>). See details below.</desc></additions><bindingDesc>
                      <binding><p>Original <material>wood</material> covers. No shelfmark. Traces of <foreign xml:lang="sa">vibhūti</foreign> on the outside faces (<locus facs="2">front cover, recto</locus>; <locus facs="308">back cover; verso</locus>). 390 x 35 mm.</p><decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
                   </bindingDesc></physDesc>
                <history>
@@ -114,8 +114,10 @@
   <seg function="title"><lb n="2-5"/>kolai maṟuttal</seg>
     </seg>
 
-   <seg function="incipit"><milestone unit="main-text-area"/>
-   <lb n="1"/><gap reason="ellipsis"/></seg>
+   <seg function="incipit" type="root-text"><milestone unit="main-text-area"/>
+   <lb n="1"/>Iṉpam <gap reason="ellipsis"/>
+   <lb n="2"/><gap reason="ellipsis"/> kavum =</seg> <seg function="incipit" type="commentary">Etu = <gap reason="ellipsis"/>
+    </seg>
    
   <pb facs="4" n="1v"/>
   <seg function="verse-beginning"><milestone unit="left-margin"/>
@@ -131,31 +133,43 @@
     <ab>
 
     <pb facs="58" n="1r"/>
-        <seg function="header">
-
-    <milestone unit="left-margin"/>
+        
+      <seg function="header">
+        <milestone unit="left-margin"/>
  <lb n="1-2"/><seg function="blessing">veṟṟivēl uṟṟa tuṇai</seg>
 <lb n="3-4"/><seg function="title">ñāṉavāciṭṭam</seg>
 <lb n="5"/><seg function="intertitle">pāyiram</seg>
     </seg>
   
   <seg function="incipit"><milestone unit="main-text-area"/>
-   <lb n="1"/><gap reason="ellipsis"/></seg>
+   <lb n="1"/>peṇmai <gap reason="ellipsis"/>
+      <lb n="2"/>ceyyavē = 1 = <gap reason="ellipsis"/></seg>
   
   <pb facs="59" n="1v"/>
    <lb n="7"/><gap reason="ellipsis"/> = <g ref="#pattu"/>4 = <seg function="completion-statement">patikamuṟṟum <g ref="#pcl"/> pāyiramuṟṟiṟṟu <g ref="#pcl"/> <seg function="blessing">civañāṉa-caṟkuru-pātāravintamē tuṇai y<pc>-</pc>uṇṭāka tāka<g rend="below-base">vuM</g></seg> <g ref="#pcs"/></seg>
-  
-    <pb facs="59" n="2r"/>
+      
+      <pb facs="59" n="2r"/>        
+      <seg function="header">
         <seg function="intertitle">
-
-    <milestone unit="left-margin"/>
-    <lb n="1-3"/>Irāmar vayirākkiyam
+          <milestone unit="left-margin"/>
+          <lb n="1-3"/>Irāmar vayirākkiyam
+        </seg>
       </seg>
   
       <pb facs="71" n="14r"/>
+      <seg function="header">
         <seg function="intertitle">
-      <milestone unit="left-margin"/>
-      <lb n="1-2"/><gap reason="ellipsis"/> katai
+          <milestone unit="left-margin"/>
+          <lb n="1-2"/>cukarakatai
+        </seg>
+      </seg>
+              
+      <pb facs="74" n="17r"/>
+      <seg function="header">
+        <seg function="intertitle">
+          <milestone unit="left-margin"/>
+          <lb n="1-3"/>mumuṭcuttuvappiṟakaraṇam
+        </seg>
       </seg>
   
   <milestone unit="main-text-area"/>
@@ -165,23 +179,26 @@
  <lb n="6"/><seg function="completion-statement"><gap reason="ellipsis"/> katai muṟṟum <g ref="#pcl"/> <seg function="total-chapters total-stanzas">{Āka} patikam Uḷppaṭa katai<del>k=ku</del> 3k=ku <del>tiru</del>
     <lb n="7"/>tiruviruttam = <g ref="#nūṟu"/>6<g ref="#pattu"/>1</seg> = <seg function="blessing">śrī-paripūrṇakuruvē namā</seg> <g ref="#pcs"/></seg>
   
+      
       <pb facs="297" n="239r"/>
-          <seg function="intertitle">
-
-    <milestone unit="left-margin"/>
-  <lb n="1-2"/>yōkanilai</seg>
+      <seg function="header">
+        <seg function="intertitle">
+          <milestone unit="left-margin"/>
+          <lb n="1-2"/>yōkanilai
+        </seg>
+        </seg>
   
     <pb facs="305" n="246v"/>
 <seg function="explicit"><lb n="8"/><gap reason="ellipsis"/> = 69 </seg> = <seg function="colophon"><seg function="completion-statement">yōkanilai muṟṟum</seg> <g ref="#pcl"/>
   
   <pb facs="305" n="247r"/>
-   <seg function="total-chapters total-stanzas"><lb n="1"/>{Āka} kūṭiya katai 4<g ref="#pattu"/>4k=ku kūṭiya tiruviruttam = 2<g ref="#āyiram"/>5<g ref="#pattu"/>4 = <g ref="#pcs"/></seg> <seg function="blessing">śrī-paripūrṇa <gap reason="lost" quantity="1" unit="character"/> śrī-makākuru-cuyampiṟakācacuvāminē namā</seg> <seg function="blessing">śrī-kuruvē namā <g ref="#pcl"/></seg>
+   <seg function="total-chapters total-stanzas"><lb n="1"/>{Āka} kūṭiya katai <num rend="traditional">44</num>k=ku kūṭiya tiruviruttam = <num rend="traditional">254</num> = <g ref="#pcs"/></seg> <seg function="blessing">śrī-paripūrṇa <gap reason="lost" quantity="1" unit="character"/> śrī-makākuru-cuyampiṟakācacuvāminē namā</seg> <seg function="blessing">śrī-kuruvē namā <g ref="#pcl"/></seg>
    <lb n="2"/>maṉmatha <g ref="#varuṣam">varuṣam</g> Āvaṇi <g ref="#mācam">mācam</g> 2<g ref="#pattu"/> <g ref="#pcl"/> kuruvāram Uttiranaṣcet=tiram tuvateci titi Amuṟtayōkam Ippērppaṭṭa cupatiṉattil
 <lb n="3"/>mutaliyārpēṭṭaiyil ceṉṉappaṭṭaṇat=til iruntu <gap reason="lost" quantity="1" unit="character"/> nt<pc>'</pc> irukkum kaṟuttāḻiyār kumārar<pc>-</pc>ākiya vāttiyār
 <lb n="4"/>cuppak=ku yaḻiyāruk=ku <g ref="#mērpaṭi">mērpaṭi</g> putuvaiyil irukkum vīrappiḷḷai kumāraṉ<pc>-</pc>ākiya capāpati nālatu taitiyil eḻuti muṭi
 <lb n="5"/>vāṉavāciṭṭamum y<pc>-</pc>itaṟku muṉ Inta puttakattuḷ kōratt<pc>'</pc> irukkiṟa <choice><sic>ku</sic><corr>ko</corr></choice>lai maṟuttal eṉṟuñ cāt=tiramum y<pc>-</pc>eḻuti-k
    <lb n="6"/>kuṭuttat<pc>'</pc> eṉṟ<pc>'</pc> aṟiya<g rend="below-base">luM</g> vāciṭṭam y<pc>-</pc>eḻuti niṟa vēṟiyatu muṟṟiṟṟu<g ref="#pcs"/> <seg function="TBC">Iv-vāciṭṭam y<pc>-</pc>eḻutiyavaṟk=kuluḷḷa kuṟṟam ellām
-<lb n="7"/>periyōrkaḷ Aṅkikarikka vēṇṭiyatu <g ref="#pcs"/></seg> <seg function="blessing">civañāṉa-caṟkuru-pātāravintamē yuṇṭāka tāka<g rend="below-base">vuM</g> <g ref="#pcl"/></seg></seg>
+<lb n="7"/>periyōrkaḷ Aṅkikarikka vēṇṭiyatu <g ref="#pcs"/></seg> <seg function="blessing">civañāṉa-caṟkuru-pātāravintamē yuṇṭāka tāka<g rend="below-base">vuM</g> <g ref="#end_of_text"/></seg></seg>
 
 <pb facs="306" n="247v"/><note xml:lang="en">blank</note>
     </ab>
@@ -191,13 +208,13 @@
   <pb facs="306" n="[1]r"/>
   
   <seg function="table-of-contents"><seg function="intertile"><milestone unit="left-margin"/>
-  <lb n="1"/><gap reason="ellipsis"/>
+  <lb n="1"/><gap reason="ellipsis"/>katai
   <lb n="2"/>Aṭṭavaṇai ~</seg>
                             
   <milestone n="1" unit="column"/>
-  <lb n="1"/><gap reason="ellipsis"/> = 2
-   <lb n="2"/><gap reason="ellipsis"/> _ _ _ _ <num rend="traditional">14</num>
-   <lb n="3"/><gap reason="ellipsis"/> = <num rend="traditional">17</num>
+  <lb n="1"/>payiṟa <gap reason="ellipsis"/> = 2
+   <lb n="2"/>cukarakatai ~ ~ ~ ~ <num rend="traditional">14</num>
+   <lb n="3"/>mumuṭcuttuvappiṟakaraṇam = <num rend="traditional">17</num>
    <lb n="4"/><gap reason="ellipsis"/> = <num rend="traditional">21</num>
   <lb n="5-9"/><gap reason="ellipsis"/>
   
@@ -214,7 +231,7 @@
 
   <milestone n="1" unit="column"/>
   <lb n="1-4"/><gap reason="ellipsis"/>
-   <lb n="5"/>yōkanilai _ _ _ <num rend="traditional">239</num>
+   <lb n="5"/>yōkanilai ~ ~ ~ <num rend="traditional">239</num>
    <lb n="6"/><seg function="total-chapters">{Āka} kūṭiya katai = <num rend="traditional">43</num> =</seg></seg>
 
   </ab>    
