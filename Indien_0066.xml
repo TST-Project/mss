@@ -23,7 +23,7 @@
                <msContents class="#MTM">
                   <summary><p>The <title xml:lang="ta">Tirumurukāṟṟuppaṭai</title> is a devotional poem, dated possibly to the 7th century of the Common Era, in praise of the Tamil god Murukaṉ. The poem, attributed to Nakkīrar, belongs to the Caṅkam corpus and to the Tamil Śaiva canonical works (<title xml:lang="ta">Tirumuṟai</title>).</p>
 <p>The poem is here preceded by two satellite stanzas (U2a, <locus facs="5">f[1]r</locus>) of which the second, frequently found in early manuscripts of the <title xml:lang="ta">Tirumurukāṟṟuppaṭai</title>, is considered to be its <foreign xml:lang="ta">kāppu</foreign>.</p>
-<p>The manuscript contains the text accompanied by a commentary. It has a unique lay-out, as the <foreign xml:lang="ta">mūlam</foreign> (the root-text commented upon) and the <foreign xml:lang="ta">urai</foreign> (the commentary) occupy separate locations on the page: the <foreign xml:lang="ta">mūlam</foreign> is written on the left side of the page, while the corresponding commentary is found aligned on the right side of the page. The title-page (<locus facs="3">U1, f[1]r</locus>) tells us that the commentary is by <persName xml:lang="ta">Parimēlaḻakiyar</persName> (<foreign xml:lang="ta" rend="italic">parimēlaḻakiyar uraipāṭam</foreign>), but this is actually that of <persName xml:lang="ta">Nacciṉārkkiṉiyar</persName> (paraphrases only, not the explanations).</p>
+<p>The manuscript contains the text accompanied by a commentary. This configuration is designated as <foreign xml:lang="ta">uraipāṭam</foreign> on the additional title-page folio (U1, <locus facs="3">f[1]r</locus>). The lay-out is user-friendly, as the <foreign xml:lang="ta">mūlam</foreign> (the root-text commented upon) and the <foreign xml:lang="ta">urai</foreign> (the commentary) occupy separate locations on the page: the <foreign xml:lang="ta">mūlam</foreign> is written on the left side of the page, while the corresponding commentary is found aligned on the right side of the page. The title-page (<locus facs="3">U1, f[1]r</locus>) tells us that the commentary is by <persName xml:lang="ta">Parimēlaḻakiyar</persName> (<foreign xml:lang="ta" rend="italic">parimēlaḻakiyar uraipāṭam</foreign>), but this is actually that of <persName xml:lang="ta">Nacciṉārkkiṉiyar</persName> (paraphrases only, not the explanations).</p>
                      <p xml:lang="fr">Le <title xml:lang="ta">Tirumurukāṟṟuppaṭai</title> est un poème dévotionnel en tamoul au dieu <persName xml:lang="ta">Murukaṉ</persName> datant possiblement du 7e siècle de l'ère commune. Le poème est attribué à <persName xml:lang="ta">Nakkīrar</persName> et relève du corpus du <foreign xml:lang="ta">caṅkam</foreign> et du canon shivaïte (<title xml:lang="ta">Tirumuṟai</title>).</p>
                      <p xml:lang="fr">Le poème est ici précédé de deux stances additionnelles (U2a, <locus facs="5">f[1]r</locus>) dont la seconde, fréquemment trouvée au début des manuscrits du <title xml:lang="ta">Tirumurukāṟṟuppaṭai</title>, est considérée comme son <foreign rend="italic">kāppu</foreign>.</p>
                      <p xml:lang="fr">Le manuscrit contient le texte accompagné d'un commentaire. Ce manuscrit offre un exemple unique de mise en page où le <foreign xml:lang="ta">mūlam</foreign> (le texte "racine" que l'on commente) et l'<foreign xml:lang="ta">urai</foreign> (le commentaire) occupent des emplacements séparés sur la page : le <foreign xml:lang="ta">mūlam</foreign>, du côté gauche, et, du côté droit, sur une plus grande largeur, le commentaire. Autre particularité : la page de titre (<locus facs="3">U1, f[1]r</locus>) annonce le commentaire de <persName xml:lang="ta">Parimēlaḻakiyar</persName> (<foreign xml:lang="ta">parimēlaḻakiyaruraipāṭam</foreign>), mais le commentaire est en fait celui de <persName xml:lang="ta">Nacciṉārkkiṉiyar</persName> (dont on n'a gardé que les paraphrases, pas les explications).</p>
@@ -110,14 +110,19 @@
   
     <pb facs="3" n="[1]r"/>
   
-  <seg function="blessing"><milestone n="1" unit="column"/>
+  <seg function="header">
+    
+    <milestone n="1" unit="left-margin"/>
+    <lb n="1"/><g ref="#pcs"/>
+    <seg function="blessing"><milestone n="2" unit="left-margin"/>
   <lb n="1"/>veṟṟi-vē
   <lb n="2" break="no"/>l uṟṟa tuṇai</seg>
+    </seg>
   
-  <seg function="title"><milestone n="2" unit="column"/>
+  <seg function="title"><milestone n="1" unit="column"/>
   <lb n="1"/>Iḵtu
   
-  <milestone n="3" unit="column"/>
+  <milestone n="2" unit="column"/>
   <lb n="1"/>tirumurukāṟṟup
   <lb n="2" break="no"/>paṭaikku<pc>-</pc>p 
   <lb n="3"/>parimēlaḻakiya
@@ -131,10 +136,13 @@
     <ab>
 
       <pb facs="5" n="[1]r"/>
+      
       <seg function="header">
-
-  <seg function="blessing"><milestone unit="left-margin"/>
-  <lb n="1"/><g ref="#pcl"/> tirucciṟ
+        <milestone n="1" unit="left-margin"/>
+    <lb n="1"/><g ref="#pcl"/>
+        
+        <seg function="blessing"><milestone n="2" unit="left-margin"/>
+  <lb n="1"/>tirucciṟ
   <lb n="2" break="no"/>ṟampalam</seg>
       </seg>
   
@@ -149,15 +157,13 @@
               <pb facs="6" n="[1]v"/><note xml:lang="en">blank</note>
 
       </ab>
-  </body>
-  
-</text><text synch="#U2b" corresp="#T3" xml:lang="ta"><body>
+  </body></text><text synch="#U2b" corresp="#T3" xml:lang="ta"><body>
     <ab>
       
-        <pb facs="7" n="1r"/>
-        <seg function="header">
-
-  <milestone unit="left-margin"/>
+      <pb facs="7" n="1r"/>
+      <seg function="header">
+        <seg function="foliation"><lb n="1"/>1</seg>
+        <milestone unit="left-margin"/>
   <seg function="blessing"><lb n="2"/>tiruc
   <lb n="3" break="no"/>ciṟṟam
   <lb n="4" break="no"/>palam</seg>
@@ -167,8 +173,8 @@
       </seg>
   
   <seg function="incipit" type="root-text"><milestone n="1" unit="column"/>
-  <lg><l><lb n="1"/>Ulaka muvappa valaṉērpu tiritaru</l>
-      <l><lb n="2"/>palarpukaḻ ñāyaṟu kaṭaṟ kaṇtāAṅ</l></lg></seg>
+  <lg><l><lb n="1"/><hi rend="bold">Ulaka muvappa valaṉērpu tiritaru</hi></l>
+      <l><lb n="2"/><hi rend="bold">palarpukaḻ ñāyaṟu kaṭaṟ kaṇtāAṅ</hi></l></lg></seg>
   <lb n="3"/><gap reason="ellipsis"/>
   
    <seg function="incipit" type="commentary"><milestone n="2" unit="column"/>
@@ -179,49 +185,70 @@
       
       
        <pb facs="19" n="7r"/>
+      
         <milestone n="1" unit="column"/>
       <lb n="1-4"/><gap reason="ellipsis"/>
-      <lb n="5"/>Aḵtāṉṟu ~ ~ <seg function="intertitle">1 ~ ~</seg>
+      <lb n="5"/><hi rend="bold">Aḵtāṉṟu</hi> ~ ~ <seg function="intertitle">1 ~ ~</seg>
       <seg function="total-stanzas"><lb n="6"/>kaṇṇi <num rend="traditional">77</num></seg>
-                        
+      
+      <milestone n="2" unit="column"/>
+      <lb n="1-6"/><gap reason="ellipsis"/>
+      <lb n="7"/>Ataṉṟi                        
       
       <pb facs="20" n="7v"/>
+      <seg function="header">
   <seg function="intertitle">
     <milestone unit="left-margin"/>
-  <lb n="1-2"/>tiruccentūr</seg>
-      
+  <lb n="1-2"/>tiruccentūr</seg></seg>      
            
        <pb facs="29" n="12r"/>
-        <milestone n="1" unit="column"/>
-      <lb n="1"/>Aḵtāṉṟu ~ <seg function="intertitle">2 ~ ~ ~ ~</seg>
+        
+      <milestone n="1" unit="column"/>
+      <lb n="1"/><hi rend="bold">Aḵtāṉṟu</hi> ~ <seg function="intertitle">2 ~ ~ ~ ~</seg>
       <seg function="total-stanzas"><lb n="2"/>kaṇṇi <num rend="traditional">48</num></seg>
       <seg function="intertitle"><lb n="3"/>tiruvāviṉaṅkuṭi</seg>
-      <lb n="4-5"/><gap reason="ellipsis"/>
+      <lb n="4"/><hi rend="bold">cīrai tai</hi> <gap reason="ellipsis"/>
+      <lb n="5"/><gap reason="ellipsis"/>
                         
+      <milestone n="2" unit="column"/>
+      <lb n="1"/>Atu vaṉṟi <note xml:lang="en">2 lines left blank after this word</note>     
+       <lb n="2-4"/><gap reason="ellipsis"/>
+
        <pb facs="40" n="17v"/>
         <milestone n="1" unit="column"/>
       <lb n="1-3"/><gap reason="ellipsis"/>
-      <lb n="4"/>Aḵ<unclear>tāṉṟu</unclear> ~ <seg function="intertitle">3 ~</seg>
+      <lb n="4"/><hi rend="bold">Aḵ<unclear>tāṉṟu</unclear></hi> ~ <seg function="intertitle">3 ~</seg>      
+      
+      <milestone n="2" unit="column"/>
+      <lb n="1-3"/><gap reason="ellipsis"/>
+      <lb n="4"/>Ataṉṟi
       
       <seg function="total-stanzas">
-   <milestone n="1" unit="column"/>
-      <lb n="5"/>kaṇṇi ~
+      <milestone n="1" unit="column"/><lb n="5"/>kaṇṇi ~
    <milestone n="2" unit="column"/>
       <lb n="5"/><num rend="traditional">51</num> ~
    <note xml:lang="en">this intermediary total stanzas is distributed between the 2 columns</note></seg>
       
-      
       <pb facs="41" n="18r"/>
+  <seg function="header">
+    <milestone n="1" unit="left-margin"/>
+    <lb n="1"/><g ref="#pcs"/>
+    <seg function="foliation"><lb n="2"/><num rend="traditional">18</num></seg>
   <seg function="intertitle">
-    <milestone unit="left-margin"/>
+    <milestone n="2" unit="left-margin"/>
   <lb n="1-2"/>tiruvērakam
     <note xml:lang="en">the two lines are grouped together by a curly bracket on the right</note>
-</seg>
+</seg></seg>
       
       <pb facs="44" n="19v"/>
+      
         <milestone n="1" unit="column"/>
       <lb n="1"/><gap reason="ellipsis"/>
-      <lb n="2"/>Aḵtaṉṟi ~ <seg function="intertitle">4 ~</seg>
+      <lb n="2"/><hi rend="bold">Aḵtaṉṟi</hi> ~ <seg function="intertitle">4 ~</seg>
+      
+      <milestone n="2" unit="column"/>
+      <lb n="1"/><gap reason="ellipsis"/>
+      <lb n="2"/>Ataṉṟi
       
       <seg function="total-stanzas">
    <milestone n="1" unit="column"/>
@@ -237,35 +264,46 @@
         </seg>      
       
       <pb facs="45" n="20r"/>
-      <seg function="verse-beginning">
-      <milestone unit="left-margin"/>
-        <lb n="2"/>paiṅ</seg>
+      <seg function="header">
+        <seg function="foliation"><milestone unit="left-margin"/>
+          <lb n="1"/><num rend="traditional">20</num></seg>      
+        <seg function="verse-beginning"><lb n="2"/>paiṅ</seg>
       <seg function="intertitle">
   <lb n="4-6"/>kuṉṟutōṟāṭal</seg>
+        </seg>
            
-      <pb facs="50" n="23v"/>
-      <seg function="total-stanzas">
+      <pb facs="50" n="22v"/>
+      
    <milestone n="1" unit="column"/>
-      <lb n="5"/>kaṇṇi
-   <milestone n="2" unit="column"/>
-      <lb n="7"/><num rend="traditional">28</num>
+      <lb n="1-3"/><gap reason="ellipsis"/>
+        <lb n="4"/><hi rend="bold">Aḵtāṉṟu</hi>
+         <milestone n="2" unit="column"/>
+        <lb n="1-5"/><gap reason="ellipsis"/>
+        <lb n="6"/>Atu vaṉṟi
+        
+        <seg function="total-stanzas"><milestone n="1" unit="column"/>
+        <lb n="5"/>kaṇṇi
+        <lb n="7"/><num rend="traditional">28</num> ~
    <note xml:lang="en">this intermediary total stanzas is distributed between the 2 columns</note></seg>
       
             <pb facs="51" n="23r"/>
-  <seg function="intertitle">
-    <milestone unit="left-margin"/>
-  <lb n="3-5"/>cōlaimalai</seg>
+      <seg function="header">
+        <seg function="foliation"><milestone unit="left-margin"/><lb n="1"/>23</seg>
+        <lb n="2"/><g ref="#pcs"/>
+  <seg function="intertitle"><lb n="3-5"/>cōlaimalai</seg>
+        </seg>
       
-
   <pb facs="73" n="34r"/>
-  
+  <seg function="header">
   <seg function="blessing"><milestone unit="left-margin"/>
   <lb n="1"/>civa
   <lb n="2" break="no"/>ma<g rend="below-base">yaM</g></seg>
+  <seg function="foliation"><lb n="3"/>34</seg>
+    </seg>
 
   <seg function="explicit" type="root-text">
     <milestone n="1" unit="column"/>
-  <lg><l><lb n="1"/>paḻamutir cōlai malai <del><gap reason="illegible" quantity="1" unit="character"/></del> kiḻa vōṉē</l></lg></seg>
+  <lg><l><lb n="1"/><hi rend="bold">paḻamutir cōlai malai <del><gap reason="illegible" quantity="1" unit="character"/></del> kiḻa vōṉē</hi></l></lg></seg>
   
   <seg function="explicit" type="commentary">
     <milestone n="2" unit="column"/>
