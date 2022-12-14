@@ -20,7 +20,7 @@
                   
                   <idno type="shelfmark">Indien 4a</idno>
                   <idno type="alternate"/>
-               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc102629s</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/zk51vq09x</idno></msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc102629s</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b525184411</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/zk51vq09x</idno></msIdentifier>
                <msContents class="#STM">
                   <summary><p>The <title xml:lang="ta">Rāmatēvar Pūcāviti</title>, "Rules for worship by Rāmatēvar", which appears to be a manual for worship by Rāmatēvar, in 200 stanzas.</p>
 <p>The text is complete.</p>
@@ -30,7 +30,11 @@
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Rāmatēvar Pūcāviti</title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi" rend="manuscript">
+                  
+                  
+                  
+                  
+               <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
                         <support>
                            <!--measure unit="stringholes" quantity=""/-->
@@ -47,18 +51,16 @@
                                 <height quantity="30"/>
                            </dimensions>
                         </extent>
+                     
                      <collation>
                      
-                     <desc xml:id="U1">45 folios = <emph rend="bold"><title xml:lang="en">Rāmatēvar Pūcāviti</title></emph>. Tamil foliation {1}‒45. f45v blank.</desc></collation>
-                     </supportDesc>
+                     <desc xml:id="U1">45 folios = <emph rend="bold"><title xml:lang="en">Rāmatēvar Pūcāviti</title></emph>. Tamil foliation {1}‒45. f45v blank.</desc></collation></supportDesc>
                      
-                  <layoutDesc><layout columns="1" writtenLines="8"/></layoutDesc></objectDesc>
-                  <handDesc>
+                  <layoutDesc><layout columns="1" writtenLines="8"/></layoutDesc></objectDesc><handDesc>
                      
                      
                     
-                  <handNote synch="#U1" scope="sole" script="tamil" medium="incised soot"/></handDesc>
-                  <additions>
+                  <handNote synch="#U1" scope="sole" script="tamil" medium="incised soot"/></handDesc><additions>
                   
                      
                      
@@ -67,23 +69,21 @@
                     
                     
                      
-                  <desc synch="#U1" corresp="#T1">Marginal and in-text benedictions; marginal title; marginal chapter headers; colophon.</desc></additions>
-                  <bindingDesc>
+                  <desc synch="#U1" corresp="#T1">Marginal and in-text benedictions; marginal title; marginal chapter headers; colophon.</desc></additions><bindingDesc>
                      <binding>
                      
                      <decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
-                  </bindingDesc>
-               </physDesc>
+                  </bindingDesc></physDesc>
                <history>
-                  <origin>
-                     <origDate calendar="gregorian" notAfter="1828">Dated to the year <foreign xml:lang="ta">carvacittu</foreign> of the Jovian cycle, that is, CE 1827-1828, 1767-1768, 1707-1708, etc. See colophon (<locus facs="81">f45r4</locus>).</origDate>
+                  
+                  
+                  
+               	<origin>
+                     <origDate calendar="gregorian" notAfter="1828">Dated to the year <foreign xml:lang="ta">carvacittu</foreign> of the Jovian cycle, that is, CE 1827-1828, 1767-1768, 1707-1708, etc. See colophon (<locus facs="93">f45r4</locus>).</origDate>
                      <origPlace>Tamilnadu.</origPlace>
-                  </origin>
-                  <provenance><p>Owned by <persName role="collector">Édouard Ariel</persName> (1818-1854). Bequested by Édouard Ariel to Société Asiatique (Rosny 1868, p. 177).</p></provenance>
-                  <acquisition>
+                  </origin><provenance><p>Owned by <persName role="collector">Édouard Ariel</persName> (1818-1854). Bequested by Édouard Ariel to Société Asiatique (Rosny 1868, p. 177).</p></provenance><acquisition>
                      <p>Received, August 1st, 1866, from the Société Asiatique. See BnF, département des Manuscrits, inventaire 7 = <title>Dons: manuscrits et imprimés documentaires, 1848-1895</title>, no. 1192.</p>
-                  </acquisition>
-               	</history>
+                  </acquisition></history>
                <additional>
                   <listBibl>
                      
@@ -103,10 +103,10 @@
     <sourceDoc>
         <surface/>
     </sourceDoc>
-<facsimile><graphic url="https://didomena.ehess.fr/concern/data_sets/zk51vq09x/manifest.json" facs="13"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+<facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525184411/manifest.json" facs="5"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   <ab>
     
-  <pb facs="13" n="[1]r"/>
+  <pb facs="5" n="[1]r"/>
     
     <seg function="header"><milestone unit="left-margin"/>
     <seg function="blessing"><lb n="1"/><term xml:lang="sa">ha<ex>riḥ</ex> Oṁ</term> <note xml:lang="en">the <term xml:lang="sa">ha</term> is inside the <term xml:lang="sa">Oṁ</term></note></seg> <seg function="blessing">naṉṟāka</seg> <seg function="blessing">kuru vāḻka</seg>
@@ -119,14 +119,14 @@
   <seg function="incipit"><milestone unit="main-text-area"/>
   <lb n="1"/>mūlam eṉum mutaṟ poruḷ</seg> <gap reason="ellipsis"/>
   
-  <pb facs="81" n="45r"/>
+  <pb facs="93" n="45r"/>
   <seg function="explicit"><lb n="2"/><gap reason="ellipsis"/> cīvayō
   <lb n="3" break="no"/>kam viḷaṅkumuttē <g ref="#pcs"/> = <num rend="traditional">201</num> =</seg> <seg function="colophon"><seg function="blessing">kuruṉātaṉ kaṭāṣcam uṇṭākavuM</seg>
     <lb n="4-5"/><note xml:lang="en">right-oriented lines</note>
      <seg function="copy-statement"><lb n="4"/>caṟacitti <note xml:lang="en">i.e. <term xml:lang="ta">carvacittu</term></note> <g ref="#varuṣam">varuṣam</g> puṟaṭṭāc<choice><sic>cī</sic><corr>ci</corr></choice> <g ref="#mācam">mācam</g> <add place="below"><num rend="traditional" value="22">2<unclear><g ref="#pattu"/></unclear>2</num> <g ref="#tēti">tēti</g></add> Amaṟapaṣṣim pañcami putavāram – naṭune<choice><unclear>ṟ</unclear><unclear>ṟa</unclear></choice> – māṉa <note xml:lang="en">i.e. <term xml:lang="ta">naṭu<pc>-</pc>nēram<pc>-</pc>āṉa</term>?</note>
   <lb n="5"/>tiṉattil y<pc>-</pc>eḻutiṉatu kuruṉātaṉ aruḷiya <del>ṟ</del> paṭi <choice><sic>mūttu</sic><corr>muṟṟu</corr></choice>m</seg> <seg function="blessing" cert="low">cīvayōkam – <g ref="#pcl"/></seg></seg>         
   
-      <pb n="45v"/><note xml:lang="en">blank</note>
+      <pb facs="94" n="45v"/><note xml:lang="en">blank</note>
 
   </ab>
  </body></text></TEI>

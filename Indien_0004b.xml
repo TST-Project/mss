@@ -20,7 +20,7 @@
                   
                   <idno type="shelfmark">Indien 4b</idno>
                   <idno type="alternate"/>
-               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc102629s</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/zk51vq09x</idno></msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc102629s</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b525184411</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/zk51vq09x</idno></msIdentifier>
                <msContents class="#STM">
                   <summary><p>The <title xml:lang="ta">Nāṟkaraṇavupatēcam</title>, "Teaching on the four <foreign xml:lang="ta">karaṇam</foreign>s", which appears to be a lesson on the four <foreign xml:lang="ta">karaṇam</foreign>s, that is, the four organs of perceptions.</p>
 <p>The text is complete.</p>
@@ -29,7 +29,11 @@
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Nāṟkaraṇavupatēcam</title><textLang mainLang="tam"/><filiation><p>BnF Indien 990.</p></filiation></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi" rend="manuscript">
+                  
+                  
+                  
+                  
+               <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
                         <support>
                            <!--measure unit="stringholes" quantity=""/-->
@@ -54,32 +58,28 @@
                      
                      <desc xml:id="U1">9 folios = <emph rend="bold"><title xml:lang="en">Nāṟkaraṇavupatēcam</title></emph>. Tamil foliation {1}‒9. f9v blank.</desc></collation></supportDesc>
                      
-                  <layoutDesc><layout columns="1" writtenLines="7"/></layoutDesc></objectDesc>
-                  <handDesc>
+                  <layoutDesc><layout columns="1" writtenLines="7"/></layoutDesc></objectDesc><handDesc>
                      
                      
                     
-                  <handNote synch="#U1" scope="major" script="tamil" medium="incised soot"/></handDesc>
-                  <additions>
+                  <handNote synch="#U1" scope="major" script="tamil" medium="incised soot"/></handDesc><additions>
                                      
                      
-                  <desc synch="#U1" corresp="#T1">Marginal and in-text benedictions; marginal title; <foreign xml:lang="ta">nūl varalāṟu</foreign>; text completion statement.</desc></additions>
-                  <bindingDesc>
+                  <desc synch="#U1" corresp="#T1">Marginal and in-text benedictions; marginal title; <foreign xml:lang="ta">nūl varalāṟu</foreign>; text completion statement.</desc></additions><bindingDesc>
                      <binding>
                      
                      </binding>
-                  </bindingDesc>
-               </physDesc>
+                  </bindingDesc></physDesc>
                <history>
-                  <origin>
+                  
+                  
+                  
+               	<origin>
                      <origDate calendar="gregorian" notAfter="1854">No internal date. The bundle is dated to circa 1840 by Vinson (1868) and to 1840 by Cabaton (1912), on unstated grounds (presumably palaeographical and material analysis arguments). Not after 1854, since part of the collection of <persName role="collector">Édouard Ariel</persName> (1818-1854), bequested in 1855 to the Société Asiatique, Paris (Rosny 1868).</origDate>
                      <origPlace>Tamilnadu.</origPlace>
-                  </origin>
-                  <provenance><p>Owned by <persName role="collector">Édouard Ariel</persName> (1818-1854). Bequested by Édouard Ariel to Société Asiatique (Rosny 1868, p. 177).</p></provenance>
-                  <acquisition>
+                  </origin><provenance><p>Owned by <persName role="collector">Édouard Ariel</persName> (1818-1854). Bequested by Édouard Ariel to Société Asiatique (Rosny 1868, p. 177).</p></provenance><acquisition>
                      <p>Received, August 1st, 1866, from the Société Asiatique. See BnF, département des Manuscrits, inventaire 7 = <title>Dons: manuscrits et imprimés documentaires, 1848-1895</title>, no. 1192.</p>
-                  </acquisition>
-               	</history>
+                  </acquisition></history>
                <additional>
                   <listBibl>
                      
@@ -99,10 +99,10 @@
     <sourceDoc>
         <surface/>
     </sourceDoc>
-<facsimile><graphic url="https://didomena.ehess.fr/concern/data_sets/zk51vq09x/manifest.json" facs="90"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+<facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525184411/manifest.json" facs="95"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   <ab>
     
-  <pb facs="90" n="[1]r"/>
+  <pb facs="95" n="[1]r"/>
   
   <seg function="header"><milestone unit="left-margin"/>
   <seg function="blessing"><lb n="1-2"/>kuru-pātan tuṇai</seg>
@@ -116,7 +116,7 @@
   <lb n="5"/>ṉōṉmaṇiyaip pōtti</l> <l>Oruvaṇaiyum aṟavāta Ulakappatam
   <lb n="6"/>pirāṉ utaviya nāṟkka<choice><sic>ru</sic><corr>ra</corr></choice>ṇavupatēcam itu v<pc>-</pc>āme <g ref="#pcs"/> 1 <g ref="#pcs"/></l></lg></seg> <gap reason="ellipsis"/>
   
-  <pb facs="106" n="9r"/>
+  <pb facs="111" n="9r"/>
  
   <seg function="explicit"><lb n="1"/>p paṟuttu yirukkalāmē <g ref="#pcs"/> 26 <g ref="#pcs"/></seg> <seg function="TBC"><gap reason="ellipsis"/>
   <lb n="2"/><gap reason="ellipsis"/>
@@ -125,9 +125,7 @@
   <lb n="5" break="no"/>ḻutiṉ avar ivar tām ellām ikavaṟivu <unclear>ye</unclear>ttum eññāṉa<pc>-</pc>kuruvāmē <g ref="#pcs"/></seg> <seg function="colophon"><seg function="completion-statement">nārkkaraṇavupa
   <lb n="6" break="no"/>tēcam Eḻuti mukintatu muṟṟum</seg> <g ref="#pcs"/> <seg function="blessing">kuru<pc>-</pc>pātan tuṇai</seg> <g ref="#pcl"/></seg>
   
-      <pb n="9v"/><note xml:lang="en">blank</note>
+      <pb facs="112" n="9v"/><note xml:lang="en">blank</note>
 
   </ab>
-</body>
-  
-                 </text></TEI>
+</body></text></TEI>

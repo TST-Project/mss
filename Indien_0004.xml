@@ -20,7 +20,7 @@
                   
                   <idno type="shelfmark">Indien 4</idno>
                   <idno type="alternate"><idno>Tamoul 4</idno><idno>Ariel 136</idno><idno>c/48</idno></idno>
-               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc102629s</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/zk51vq09x</idno></msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc102629s</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b525184411</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/zk51vq09x</idno></msIdentifier>
                <msContents class="#CM">
                   <summary><p>The palm-leaf bundle, a composite manuscript, entitled <title xml:lang="ta">Viratam Iraṇṭu</title> on its additional title page, contains:
 <list rend="numbered">
@@ -77,7 +77,7 @@
                     
                     
                      
-                  <desc synch="#coverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 4</quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#coverFront" subtype="cover front">BnF bequest sticker <quote>DON N° <space type="vacat"/></quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#coverFront" type="documenting-note" subtype="cover front">Shelfmark sticker (Société Asiatique?), written in black ink: <quote><del>638</del></quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#U1" type="shelfmark">Shelfmark <quote>c/48</quote> in black ink (<locus facs="10">f[1]r</locus>). </desc><desc synch="#U1" type="table-of-contents">List of texts in the bundle (entitled <foreign xml:lang="ta">viratam Iraṇṭu</foreign>). See details below.</desc></additions><bindingDesc>
+                  <desc synch="#coverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 4</quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#coverFront" subtype="cover front">BnF bequest sticker <quote>DON N° <space type="vacat"/></quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#coverFront" type="documenting-note" subtype="cover front">Shelfmark sticker (Société Asiatique?), written in black ink: <quote><del>638</del></quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#U1" type="shelfmark">Shelfmark <quote>c/48</quote> in black ink (<locus facs="3">f[1]r</locus>). </desc><desc synch="#U1" type="table-of-contents">List of texts in the bundle (entitled <foreign xml:lang="ta">viratam Iraṇṭu</foreign>). See details below.</desc></additions><bindingDesc>
                      <binding>
                         <p><material cert="medium">Pinewood</material> covers apparently fabricated in the BnF.</p>
                      <decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
@@ -112,29 +112,28 @@
     <sourceDoc>
         <surface/>
     </sourceDoc>
-<facsimile><graphic url="https://didomena.ehess.fr/concern/data_sets/zk51vq09x/manifest.json"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+<facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525184411/manifest.json"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   <ab>
     
-  <pb facs="9" n="[1]r"/>
+  <pb facs="3" n="[1]r"/>
   
-  <seg function="blessing"><milestone n="1" unit="column"/>
+  <seg function="header"><seg function="blessing"><milestone unit="left-margin"/>
   <lb n="1"/>veṟṟi
   <lb n="2" break="no"/>vēl uṟ
-  <lb n="3" break="no"/>ṟa tuṇai</seg>
+  <lb n="3" break="no"/>ṟa tuṇai</seg></seg>
   
-  <seg function="table-of-contents"><seg function="total-works"><milestone n="2" unit="column"/>
+  <seg function="table-of-contents"><seg function="total-works"><milestone n="1" unit="column"/>
   <lb n="1"/>viratam
   <lb n="2"/>Iraṇṭu</seg>
   
-   <seg function="title"><milestone n="3" unit="column"/>
+   <seg function="title"><milestone n="2" unit="column"/>
   <lb n="1"/>Irāmatēvar
   <lb n="2"/>pūcāviti – <num rend="traditional">200</num></seg>
   <lb n="3"/><seg function="title">nāṟkaraṇa
   <lb n="4" break="no"/>Upatēcam</seg>
     </seg>
   
-    <pb n="[1]v"/><note xml:lang="en">blank</note>
+    <pb facs="4" n="[1]v"/><note xml:lang="en">blank</note>
 
   </ab>
-</body>
-</text></TEI>
+</body></text></TEI>
