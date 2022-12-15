@@ -20,7 +20,7 @@
                   
                   <idno type="shelfmark">Indien 11a</idno>
                   <idno type="alternate"/>
-               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103142g</idno></msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103142g</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b52517966n</idno></msIdentifier>
                <msContents class="#MTM">
                   <summary><p>A multi-text manuscript containing:  
 <list>
@@ -31,7 +31,11 @@
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Tēvipūcāviti</title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta">Amirtakaṭpūcāvitāṉam</title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi" rend="manuscript">
+                  
+                  
+                  
+                  
+               <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
                         <support>
                            <!--measure unit="stringholes" quantity=""/-->
@@ -53,20 +57,18 @@
                         
                         
                         
-                        <condition>Very good state of preservation. </condition>
+                        
                      <collation>
                      
-                     <desc xml:id="U1">8 folios = <emph rend="bold"><title xml:lang="ta">Tēvipūcāviti</title></emph>. Tamil foliation 1-8. f8v blank.</desc><desc xml:id="U2">22 folios = <emph rend="bold"><title xml:lang="ta">Amirtakaṭpūcāvitāṉam</title></emph>. Tamil foliation 1-22. f14v blank (TBC).</desc><desc xml:id="U3">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso, except <g ref="#pcs"/> in left margin of recto.</desc></collation></supportDesc>
+                     <desc xml:id="U1">8 folios = <emph rend="bold"><title xml:lang="ta">Tēvipūcāviti</title></emph>. Tamil foliation 1-8. f8v blank.</desc><desc xml:id="U2">22 folios = <emph rend="bold"><title xml:lang="ta">Amirtakaṭpūcāvitāṉam</title></emph>. Tamil foliation 1-22. f14v blank.</desc><desc xml:id="U3">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso, except <g ref="#pcs"/> in left margin of recto.</desc></collation><condition>Very good state of preservation. </condition></supportDesc>
                      <layoutDesc>
                         <p/>
                      </layoutDesc>
-                  </objectDesc>
-                  <handDesc>
+                  </objectDesc><handDesc>
                      
                      
                     
-                  <handNote synch="#U1 #U2" scope="major" script="tamil" medium="incised soot"/></handDesc>
-                  <additions>
+                  <handNote synch="#U1 #U2" scope="major" script="tamil" medium="incised soot"/></handDesc><additions>
                   
                      
                      
@@ -75,22 +77,20 @@
                     
                     
                      
-                  </additions>
-                  <bindingDesc>
+                  </additions><bindingDesc>
                      <binding>
                         
                      <decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
-                  </bindingDesc>
-               </physDesc>
+                  </bindingDesc></physDesc>
                <history>
-                  <origin>
+                  
+                  
+               	<origin>
                      <origDate calendar="gregorian" notAfter="1854">No internal date. Dated to circa 1850 by Vinson (1868) and to 19th century by Cabaton (1912), on unstated grounds (presumably palaeographical and material analysis arguments).</origDate>
                      <origPlace>Tamilnadu.</origPlace>
-                  </origin>
-                  <acquisition>
+                  </origin><provenance><p>Owned by <persName role="collector">Édouard Ariel</persName> (1818-1854). Bequested by Édouard Ariel to Société Asiatique (Rosny 1868, p. 177). Ariel manuscript not acknowledged by Cabaton (1912).</p></provenance><acquisition>
                      <p>Received, August 1st, 1866, from the Société Asiatique. See BnF, département des Manuscrits, inventaire 7 = <title>Dons: manuscrits et imprimés documentaires, 1848-1895</title>, no. 1192.</p>
-                  </acquisition>
-               	<provenance><p>Owned by <persName role="collector">Édouard Ariel</persName> (1818-1854). Bequested by Édouard Ariel to Société Asiatique (Rosny 1868, p. 177). Ariel manuscript not acknowledged by Cabaton (1912).</p></provenance></history>
+                  </acquisition></history>
                <additional>
                   <listBibl>
                      
@@ -111,10 +111,10 @@
     <sourceDoc>
         <surface/>
     </sourceDoc>
-<facsimile/><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+<facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b52517966n/manifest.json" facs="5"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   <ab>
     
-  <pb facs="0" n="1r"/>
+  <pb facs="5" n="1r"/>
   
    <seg function="header"><seg function="blessing"><milestone unit="left-margin"/>
         <lb n="1"/>civamaya<seg rend="grantha">m·</seg></seg>
@@ -124,21 +124,21 @@
    <seg function="incipit"><milestone unit="main-text-area"/>
   <lb n="1"/><gap reason="ellipsis"/></seg>
 
-      <pb facs="0" n="4r"/>
+      <pb facs="11" n="4r"/>
   <seg function="intertitle"><milestone unit="left-margin"/>
         Aṟcaṉai</seg>
   
-   <pb facs="0" n="8r"/>
+   <pb facs="19" n="8r"/>
   <seg function="explicit"><lb n="3"/><gap reason="ellipsis"/></seg> <seg function="blessing" cert="low">śrīṟājaṟājecuvari yiṣṭṭa
 <lb n="4"/>kāyoṟta palacittiṟ as·tu <g ref="#pcs"/></seg>
   
-      <pb facs="0" n="8v"/><note xml:lang="en">blank</note>
+      <pb facs="20" n="8v"/><note xml:lang="en">blank</note>
 
     </ab>
 </body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
   <ab>
     
-  <pb facs="0" n="1r"/>
+  <pb facs="21" n="1r"/>
   
     <seg function="header">
       <seg function="title">
@@ -150,7 +150,7 @@
    <seg function="incipit"><milestone unit="main-text-area"/>
   <lb n="1"/><gap reason="ellipsis"/></seg>
 
-  <pb facs="0" n="22v"/>
+  <pb facs="64" n="22v"/>
   <seg function="explicit">
     <lb n="6"/><gap reason="ellipsis"/>
 <lb n="7"/><gap reason="ellipsis"/> <g ref="#pcs"/></seg>
