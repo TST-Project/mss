@@ -20,14 +20,18 @@
                   
                   <idno type="shelfmark">Indien 9b</idno>
                   <idno type="alternate"/>
-               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103140x</idno></msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103140x</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b52517812d</idno></msIdentifier>
                <msContents class="#STM">
                   <summary><p>The <title xml:lang="ta">Cauntariyalakari</title>.</p></summary>
                   
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Cauntariyalakari: Mūlam</title><textLang mainLang="tam"/><filiation><p><ref target="https://tst-project.github.io/mss/Indien_0007.xml">BnF Indien 7</ref>; <ref target="https://tst-project.github.io/mss/Indien_0008.xml">BnF Indien 8</ref>.</p></filiation></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi" rend="manuscript">
+                  
+                  
+                  
+                  
+               <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
                         <support>
                            <!--measure unit="stringholes" quantity=""/-->
@@ -49,20 +53,18 @@
                         
                         
                         
-                        <condition>Very good state of preservation, despite some boreholes. </condition>
+                        
                      <collation>
                      
-                     <desc xml:id="U1">57 folios = <emph rend="bold"><title xml:lang="ta">Cauntariyalakari</title></emph>. Tamil foliation 1-57. f57v blank.</desc><desc xml:id="U2">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Inserted between f31-f32 of U3. Blank recto verso. Misplaced guard leaves.</desc></collation></supportDesc>
+                     <desc xml:id="U1">57 folios = <emph rend="bold"><title xml:lang="ta">Cauntariyalakari</title></emph>. Tamil foliation 1-57. f57v blank.</desc><desc xml:id="U2">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Inserted between f31-f32 of U3. Blank recto verso. Misplaced guard leaves.</desc></collation><condition>Very good state of preservation, despite some boreholes. </condition></supportDesc>
                      <layoutDesc>
                         <p/>
                      </layoutDesc>
-                  </objectDesc>
-                  <handDesc>
+                  </objectDesc><handDesc>
                      
                      
                     
-                  <handNote synch="#U1" scope="major" script="tamil" medium="incised soot"/></handDesc>
-                  <additions>
+                  <handNote synch="#U1" scope="major" script="tamil" medium="incised soot"/></handDesc><additions>
                   
                      
                      
@@ -71,23 +73,21 @@
                     
                     
                      
-                  <desc synch="#U1" type="intertitle" subtype="marginal left">Left-marginal intertitles. See selection below.</desc></additions>
-                  <bindingDesc>
+                  <desc synch="#U1" type="intertitle" subtype="marginal left">Left-marginal intertitles. See selection below.</desc></additions><bindingDesc>
                      <binding>
                         
                      <decoNote type="stringhole"><measure unit="stringhole" quantity="1"/></decoNote></binding>
-                  </bindingDesc>
-               </physDesc>
+                  </bindingDesc></physDesc>
                <history>
-                  <origin>
+                  
+                  
+               	<origin>
                      <origDate calendar="gregorian" notAfter="1812">Internally dated to the year <foreign xml:lang="ta">piracōṟpatti</foreign> of the Jovian cycle, that is, CE 1811-1812, 1751-1752, 1691-1692, etc. See colophon (<locus facs="p">f57r, c1, 1</locus>).
 </origDate>
                      <origPlace>Tamilnadu.</origPlace>
-                  </origin>
-                  <acquisition>
+                  </origin><provenance><p>Owned by <persName role="collector">Édouard Ariel</persName> (1818-1854). Bequested by Édouard Ariel to Société Asiatique (Rosny 1868, p. 177).</p></provenance><acquisition>
                      <p>Received, August 1st, 1866, from the Société Asiatique. See BnF, département des Manuscrits, inventaire 7 = <title>Dons: manuscrits et imprimés documentaires, 1848-1895</title>, no. 1192.</p>
-                  </acquisition>
-               	<provenance><p>Owned by <persName role="collector">Édouard Ariel</persName> (1818-1854). Bequested by Édouard Ariel to Société Asiatique (Rosny 1868, p. 177).</p></provenance></history>
+                  </acquisition></history>
                <additional>
                   <listBibl>
                      
@@ -108,18 +108,18 @@
     <sourceDoc>
         <surface/>
     </sourceDoc>
-<facsimile/><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+<facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b52517812d/manifest.json" facs="13"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   <ab>
     
-  <pb facs="0" n="[1]r"/>
+  <pb facs="13" n="[1]r"/>
   
-   <seg function="blessing"><milestone n="1" unit="left-margin"/>
+   <seg function="header"><seg function="blessing"><milestone n="1" unit="left-margin"/>
   <lb n="1"/>ha<unclear>ri</unclear> Om</seg>
 <seg function="blessing"><lb n="2"/>naṉṟāka</seg>
 <seg function="blessing"><lb n="3"/>kuru vāḻ</seg>
   
    <seg function="intertitle"><milestone n="2" unit="left-margin"/>
-  <lb n="1"/>ĀṉantaAlakiri-p-pāṭal</seg>
+  <lb n="1"/>ĀṉantaAlakiri-p-pāṭal</seg></seg>
       
   <seg function="incipit"><milestone unit="main-text-area"/>
     <lg><l><lb n="1"/>moḻinta maṟai nūl iya<sic>ttu</sic> mukappaṭām aṇinta mutuñāna tāṉam</l>
@@ -128,7 +128,7 @@
        <l><lb n="4"/>vaḻinti<del>ku</del>ṭiṉum aḻiyāta Apirāmi pāṭal vaḷam aḷikka v<pc>-</pc>eṉṟē <g ref="#pcl"/> 1</l></lg></seg>
   <seg function="intertitle"><lb n="5"/>y<pc>-</pc>itu viṉāyakaṉai vaḻippaṭṭatu <g ref="#pcs"/></seg> <seg function="blessing">tirucciṟṟampalam <g ref="#pcs"/></seg> <seg function="blessing">tirucciṟṟampalam <g ref="#pcl"/></seg>
 
-     <pb facs="0" n="57r"/>
+     <pb facs="129" n="57r"/>
   
   <seg function="colophon"><seg function="completion-statement"><milestone n="1" unit="column"/>
     <lb n="1"/><unclear>piṟa</unclear>cōtpitti <g ref="#varuṣam">varuṣam</g> Āṭi <g ref="#mācam">mācam</g> 6 <g ref="#tēti">tēti</g>
@@ -147,6 +147,6 @@
 <lb n="6"/>vēṇṭiyatu <g ref="#pcl"/></seg> <seg function="blessing">civa-mayam <g ref="#pcl"/> <g ref="#pcl"/></seg>
   </seg>
   
-   <pb facs="0" n="57v"/><note xml:lang="en">blank</note>
+   <pb facs="130" n="57v"/><note xml:lang="en">blank</note>
 </ab>
 </body></text></TEI>

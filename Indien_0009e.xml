@@ -20,14 +20,18 @@
                   
                   <idno type="shelfmark">Indien 9e</idno>
                   <idno type="alternate"/>
-               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103140x</idno></msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103140x</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b52517812d</idno></msIdentifier>
                <msContents class="#STM">
                   <summary><p>Text not identified. 1 stanza.</p></summary>
                   
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">TBC</term></title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi">
+                  
+                  
+                  
+                  
+               <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
                         <support>
                            <!--measure unit="stringholes" quantity=""/-->
@@ -49,20 +53,18 @@
                         
                         
                         
-                        <condition>Very good state of preservation, despite some boreholes. </condition>
+                        
                      <collation>
                      
-                     <desc xml:id="U1">1 folio = <emph rend="bold">TBC</emph>. No foliation. Verso blank.</desc></collation></supportDesc>
+                     <desc xml:id="U1">1 folio = <emph rend="bold">TBC</emph>. No foliation. Verso blank.</desc></collation><condition>Very good state of preservation, despite some boreholes. </condition></supportDesc>
                      <layoutDesc>
                         <p/>
                      </layoutDesc>
-                  </objectDesc>
-                  <handDesc>
+                  </objectDesc><handDesc>
                      
                      
                     
-                  <handNote synch="#U1" scope="major" script="tamil" medium="incised soot"/></handDesc>
-                  <additions>
+                  <handNote synch="#U1" scope="major" script="tamil" medium="incised soot"/></handDesc><additions>
                   
                      
                      
@@ -71,22 +73,20 @@
                     
                     
                      
-                  </additions>
-                  <bindingDesc>
+                  </additions><bindingDesc>
                      <binding>
                         
                      <decoNote type="stringhole"><measure unit="stringhole" quantity="1"/></decoNote></binding>
-                  </bindingDesc>
-               </physDesc>
+                  </bindingDesc></physDesc>
                <history>
-                  <origin>
+                  
+                  
+               	<origin>
                      <origDate calendar="gregorian" notAfter="1854">No internal date. Bundle dated to circa 1830 by Vinson (1868) and to 1830 by Cabaton (1912), on unstated grounds (presumably palaeographical and material analysis arguments). Not after 1854, since part of the collection of <persName role="collector">Édouard Ariel</persName> (1818-1854), bequested in 1855 to the Société Asiatique, Paris (Rosny 1868).</origDate>
                      <origPlace>Tamilnadu.</origPlace>
-                  </origin>
-                  <acquisition>
+                  </origin><provenance><p>Owned by <persName role="collector">Édouard Ariel</persName> (1818-1854). Bequested by Édouard Ariel to Société Asiatique (Rosny 1868, p. 177).</p></provenance><acquisition>
                      <p>Received, August 1st, 1866, from the Société Asiatique. See BnF, département des Manuscrits, inventaire 7 = <title>Dons: manuscrits et imprimés documentaires, 1848-1895</title>, no. 1192.</p>
-                  </acquisition>
-               	<provenance><p>Owned by <persName role="collector">Édouard Ariel</persName> (1818-1854). Bequested by Édouard Ariel to Société Asiatique (Rosny 1868, p. 177).</p></provenance></history>
+                  </acquisition></history>
                <additional>
                   <listBibl>
                      
@@ -107,9 +107,9 @@
     <sourceDoc>
         <surface/>
     </sourceDoc>
-<facsimile/><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+<facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b52517812d/manifest.json" facs="155"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   <ab>
-    <pb facs="0" n="[1]r"/>
+    <pb facs="155" n="[1]r"/>
 
     <lg><l><lb n="1"/>viritta ceñcaṭai ceñcaṭai y<pc>-</pc>āṭa vataṉacantiran āṭa virukamalanayaṉam āṭa ~</l> <l>veṇmuṟuva nila<subst><del>m</del><add place="above">v</add> ā</subst>ṭa naṇṇumaratta 
     <lb n="2"/>m āṭa vīcumiru keṅkai y<pc>-</pc>āṭa ~</l> <l>taritta yeri y<pc>-</pc>atal āṭa Apaiyakaram āṭa y<pc>-</pc>iru caṅku tō<unclear>l ū</unclear>cal āṭa ~</l> <l><unclear>tavaca</unclear>nūl āṭa
@@ -117,7 +117,7 @@
     <lb n="4"/>m ātavē ~</l> <l>Oru patam eṭutt<pc>'</pc> āṭa Oru patam etitt<pc>'</pc> āṭa vuḷḷē makiḻntu ca<sic>ttē</sic>  ~</l> <l><unclear reason="consonant_unclear">ci</unclear>ṟuttu mayil maṅkai ko
        <lb n="5" break="no"/>ṇṭāṭa niṉṟ<pc>'</pc> āṭa niṉ tiru naṭaṉam eṉṟu kāṇpēṉ ~</l> <l><unclear reason="consonant_unclear">ce</unclear>kam paṇi <gap reason="ellipsis"/> paṇi tikampara citampara naṭēcaṉē cisuvarūpāṉantaṉē <g ref="#pcs"/></l></lg>
 
-     <pb facs="0" n="[1]v"/><note xml:lang="en">blank</note>
+     <pb facs="156" n="[1]v"/><note xml:lang="en">blank</note>
 </ab>
 </body>
 </text></TEI>
