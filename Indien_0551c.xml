@@ -14,18 +14,21 @@
 				<msDesc>
 					<msIdentifier>
 						<repository>
-							<orgName>Bibliothèque nationale de France. Département des
-								Manuscrits</orgName>
+							<orgName>Bibliothèque nationale de France. Département des								Manuscrits</orgName>
 						</repository>
 						<idno type="shelfmark">Indien 551c</idno>
 						<idno type="alternate"><idno>Tamoul 551</idno></idno>
-					<idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1040793</idno></msIdentifier>
+					<idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1040793</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b52518427w</idno></msIdentifier>
 					<msContents class="#STM">
 						<summary><p>The <title xml:lang="ta">Tiruvāymoli Nūṟṟantāti</title>.</p></summary>
 
 					<msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Tiruvāymoli Nūṟṟantāti</title><textLang mainLang="tam"/></msItem></msContents>
 					<physDesc>
-						<objectDesc form="pothi" rend="manuscript">
+						
+						
+						
+						
+					<objectDesc form="pothi" rend="manuscript">
 							<supportDesc material="palm-leaf">
 								<extent>
 									<measure unit="folio" quantity="11">11 (U1).</measure>
@@ -36,31 +39,27 @@
 										
 									</dimensions><dimensions type="written" unit="mm"/></extent>
 
-								<condition>Relatively good state of preservation.</condition>
+								
 								<support/>
-								<collation><desc xml:id="U1">11 folios = <emph><title xml:lang="ta">Tiruvāymoli Nūṟṟantāti</title></emph>. Tamil foliation {1}, 2-11. f11v blank.</desc></collation>
-							</supportDesc>
+								
+							<collation><desc xml:id="U1">11 folios = <emph><title xml:lang="ta">Tiruvāymoli Nūṟṟantāti</title></emph>. Tamil foliation {1}, 2-11. f11v blank.</desc></collation><condition>Relatively good state of preservation.</condition></supportDesc>
 							<layoutDesc> </layoutDesc>
-						</objectDesc>
-						<handDesc>
+						</objectDesc><handDesc>
 
 							
-						<handNote synch="#U1" scope="major" script="tamil" medium="incised soot"/></handDesc>
-						<additions/>
-						<bindingDesc>
+						<handNote synch="#U1" scope="major" script="tamil" medium="incised soot"/></handDesc><additions/><bindingDesc>
 							<binding>
 								
 							<decoNote type="stringhole"><measure unit="stringhole" quantity="1"/></decoNote></binding>
-						</bindingDesc>
-					</physDesc>
+						</bindingDesc></physDesc>
 					<history>
-						<origin>
+						
+						
+						
+					<origin>
 							<origDate calendar="gregorian" notAfter="1886">No internal date.</origDate>
 							<origPlace>South India, Tamilnadu.</origPlace>
-						</origin>
-						<acquisition> <p>Acquired, December 18th, 1886, from M. Haas. See BnF, département des Manuscrits, inventaire 2 = <title>Acquisitions: manuscrits et imprimés documentaires, 1848-1893</title>, no. 7881.</p></acquisition>
-						<provenance><p>Owned by <persName ref="https://catalogue.bnf.fr/ark:/12148/cb109559175" key="Haas, Frédéric (1843-1915)">Frédéric Haas</persName> (1843-1915).</p></provenance>
-					</history>
+						</origin><provenance><p>Owned by <persName ref="https://catalogue.bnf.fr/ark:/12148/cb109559175" key="Haas, Frédéric (1843-1915)">Frédéric Haas</persName> (1843-1915).</p></provenance><acquisition> <p>Acquired, December 18th, 1886, from M. Haas. See BnF, département des Manuscrits, inventaire 2 = <title>Acquisitions: manuscrits et imprimés documentaires, 1848-1893</title>, no. 7881.</p></acquisition></history>
 					<additional>
 						<listBibl>
 
@@ -90,10 +89,10 @@
 	
 	
 	
-<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+<facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b52518427w/manifest.json" facs="45"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   <ab>
   
-  <pb facs="0" n="[1]r"/>
+  <pb facs="45" n="[1]r"/>
   <seg function="header">
   <seg function="blessing"><milestone unit="left-margin"/>
   <lb n="1-3"/>jiyyaṟ tiruvaṭikaḷē caṟa<g rend="below-base">ṇaM</g></seg>
@@ -103,11 +102,11 @@
    <seg function="incipit"><milestone unit="main-text-area"/>
   <lb n="1"/><gap reason="ellipsis"/></seg>
     
-  <pb facs="0" n="11r"/>
+  <pb facs="65" n="11r"/>
   	<seg function="explicit"><lb n="5"/><gap reason="ellipsis"/> <g ref="#pcl"/> <num rend="traditional">100</num> <g ref="#pcl"/> </seg> <seg function="blessing">Āḻvār tiruvaṭikaḷē caṟa<g rend="below-base">ṇaM</g> <g ref="#pcl"/></seg> <seg function="blessing">jīyar tiruvaṭikaḷē cara<g rend="below-base">ṇaM</g> <g ref="#pcl"/></seg> <seg function="blessing">Appaṉ tiruvaṭikaḷē caṟa<g rend="below-base">ṇaM</g> <g ref="#pcs"/></seg>
 <lb n="6"/><seg function="blessing">Emperumāṉār tiruvaṭikaḷē caṟa<g rend="below-base">ṇaM</g> –</seg>
 
-    <pb facs="0" n="11v"/><note xml:lang="en">blank</note>
+    <pb facs="66" n="11v"/><note xml:lang="en">blank</note>
   
     </ab>
   </body></text></TEI>
