@@ -14,8 +14,7 @@
 				<msDesc>
 					<msIdentifier>
 						<repository>
-							<orgName>Bibliothèque nationale de France. Département des
-								Manuscrits</orgName>
+							<orgName>Bibliothèque nationale de France. Département des								Manuscrits</orgName>
 						</repository>
 						<idno type="shelfmark">Indien 545b</idno>
 						<idno type="alternate"><idno>Tamoul 545</idno></idno>
@@ -27,7 +26,11 @@
 					<msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="sa"><term xml:lang="en">TBC</term>
 							</title><textLang mainLang="san" otherLangs="tam"/></msItem></msContents>
 					<physDesc>
-						<objectDesc form="pothi" rend="manuscript">
+						
+						
+						
+						
+					<objectDesc form="pothi" rend="manuscript">
 							<supportDesc material="palm-leaf">
 								<extent>
 									<measure unit="folio" quantity="20">20 (U1).</measure>
@@ -41,32 +44,28 @@
 
 
 								<support/>
-								<collation><desc xml:id="U1">20 folios = <emph rend="bold">TBC</emph>. Tamil foliation {1}, 2-20.</desc></collation>
-							</supportDesc>
+								
+							<collation><desc xml:id="U1">20 folios = <emph rend="bold">TBC</emph>. Tamil foliation {1}, 2-20.</desc></collation></supportDesc>
 							<layoutDesc> </layoutDesc>
-						</objectDesc>
-						<handDesc>
+						</objectDesc><handDesc>
 
 							
-						<handNote synch="#U1" scope="sole" script="grantha tamil" medium="incised"><desc>Sanskrit in Grantha, insterspersed with Tamil in Tamil script.</desc></handNote></handDesc>
-						<additions/>
-						<bindingDesc>
+						<handNote synch="#U1" scope="sole" script="grantha tamil" medium="incised"><desc>Sanskrit in Grantha, insterspersed with Tamil in Tamil script.</desc></handNote></handDesc><additions/><bindingDesc>
 							<binding> <decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
-						</bindingDesc>
-					</physDesc>
+						</bindingDesc></physDesc>
 					<history>
-						<origin>
+						
+						
+						
+					<origin>
 							<origDate calendar="gregorian" notAfter="1886">No internal date. </origDate>
 							<origPlace>South India, Tamilnadu.</origPlace>
-						</origin>
-						<acquisition>
+						</origin><provenance><p>Owned by <persName ref="https://catalogue.bnf.fr/ark:/12148/cb109559175" key="Haas, Frédéric (1843-1915)"> Frédéric Haas</persName>
+								(1843-1915).</p></provenance><acquisition>
 							<p>Acquired, December 18th, 1886, from M. Haas. See BnF, département des
 								Manuscrits, inventaire 2 = <title>Acquisitions: manuscrits et
 									imprimés documentaires, 1848-1893</title>, no.
-							7881.</p></acquisition>
-						<provenance><p>Owned by <persName ref="https://catalogue.bnf.fr/ark:/12148/cb109559175" key="Haas, Frédéric (1843-1915)"> Frédéric Haas</persName>
-								(1843-1915).</p></provenance>
-					</history>
+							7881.</p></acquisition></history>
 					<additional>
 						<listBibl>
 
@@ -94,11 +93,10 @@
 		<change when="2021-08">Record created by Emmanuel FRANCIS.</change><change when="2022-06">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, June 2022.</change></revisionDesc></teiHeader>
 
 	
-<facsimile><graphic url="https://didomena.ehess.fr/concern/data_sets/ns064d85j/manifest.json" facs="15"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="sa">
-		<body>
-          <ab>
-            
-			<pb facs="15" n="[1]r"/>
+<facsimile><graphic url="https://didomena.ehess.fr/concern/data_sets/ns064d85j/manifest.json" facs="15"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="sa"><body>
+  <ab>
+    
+    <pb facs="15" n="[1]r"/>
             
             <seg function="header">
 			<seg function="blessing"><milestone unit="left-margin"/>
@@ -109,7 +107,8 @@
             
 			<seg function="incipit"><milestone unit="main-text-area"/>
 			<lb n="1"/>lokācāryyāya gurave kṛṣṇapādasya sūnave | saṃsāra-bhogi-saṃdaṣṭa-jīva-jīvātave nmaḥ | <term xml:lang="ta">vāḻi yula
-              <lb n="2"/>kācariyaṉ vāḻi</term> <gap reason="ellipsis"/></seg>
+              <lb n="2"/>kācariyaṉ vāḻi <gap reason="ellipsis"/>kulam <gap reason="ellipsis"/> vāḻi maṉañ cūḻnta per iṉ
+              <lb n="3" break="no"/>pam <gap reason="ellipsis"/> cūḻntirukkum iruppu || <g ref="#pcl"/> ||</term> mumukṣu<gap reason="ellipsis"/></seg>
             
 			<pb facs="20" n="20r"/>
             
@@ -118,5 +117,4 @@
 			<seg function="explicit"><lb n="2"/><gap reason="ellipsis"/> || <g ref="#pcl"/></seg> <seg function="blessing">lokagurave namaḥ	<g ref="#end_of_text"/> ||</seg>
             
             </ab>
-</body>
-	</text></TEI>
+</body></text></TEI>
