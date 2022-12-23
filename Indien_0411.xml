@@ -24,6 +24,7 @@
                
                <msContents class="#STM">
                   <summary><p>The <title xml:lang="ta">Pañcatantirakkatai</title>.</p>
+<p>By a Christian copyist. See <g ref="#latin_cross"/> (U2, <locus facs="270">f133v4</locus>).</p>
 <p>Description based on the examination of the original manuscript (September 2020).</p>
 <p>Dimensions assessed at the time of examination.</p>      </summary>
                   
@@ -75,7 +76,7 @@
                      
                      
                      
-                  <desc synch="#CoverFront" type="shelfmark" subtype="cover front">Shelfmark in black ink: <quote>N° 27</quote> (<locus facs="0">front cover, recto</locus>). This is the number in Velanguani Arokium's catalogue, first numbered list (<ref target="https://gallica.bnf.fr/ark:/12148/btv1b10527869m/f18">p. 8, no. 27</ref>).</desc><desc synch="#CoverBack" type="documenting-note" subtype="back cover">BnF register mark in black ink: <quote>R.B. N° 1715, 1834.</quote> (<locus facs="0">back cover, verso</locus>). </desc><desc synch="#CoverBack" type="shelfmark" subtype="back cover">BnF shelfmark sticker: <quote>INDIEN 411</quote> (<locus facs="0">back cover, verso</locus>). </desc></additions><bindingDesc>
+                  <desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 411</quote> (<locus facs="1">front cover, recto</locus>). </desc><desc synch="#CoverFront" type="documenting-note" subtype="cover front">BnF register mark in black ink: <quote>R.B. N° 1715, 1834.</quote> (<locus facs="1">front cover, recto</locus>). </desc><desc synch="#CoverBack" type="shelfmark" subtype="back cover">Shelfmark in black ink: <quote>N° 27</quote> (<locus facs="300">back cover, verso</locus>). This is the number in Velanguani Arokium's catalogue, first numbered list (<ref target="https://gallica.bnf.fr/ark:/12148/btv1b10527869m/f18">p. 8, no. 27</ref>).</desc></additions><bindingDesc>
                      <binding>
                         <p>Original <material>wood</material> covers.</p>
                      <decoNote type="stringhole"><measure resp="#cLI" unit="stringhole" quantity="2"/></decoNote></binding>
@@ -89,8 +90,8 @@
                   
                <origin>
                      <origDate calendar="gregorian" notAfter="1834">No internal date. Dated to 1730 by Cabaton (1912), on unstated grounds (presumably palaeographical and material analysis arguments). Not after date of acquisition (1834).</origDate>
-                     <origPlace>Tamilnadu.</origPlace>
-                  </origin><acquisition>
+                     <origPlace>South India, Tamilnadu.</origPlace>
+                  </origin><provenance><p>Unknown.</p></provenance><acquisition>
                      
                   <p>See BnF register mark in black ink: <quote>R.B. N° 1715, 1834.</quote> (<locus facs="0">back cover, verso</locus>). M. Tilliard fils.</p></acquisition></history>
                
@@ -111,7 +112,7 @@
       
       <encodingDesc>
          
-         <p>   <emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.</p></encodingDesc>
+         <p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.</p></encodingDesc>
       
       
    <revisionDesc>
@@ -120,13 +121,13 @@
    
    <facsimile>
       
-   </facsimile>
+   <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525185278/manifest.json"/></facsimile>
    
    
-<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+<text synch="#U2" corresp="#T1" xml:lang="ta"><body>
   <ab>
       
-  <pb n="[1]r"/>
+  <pb facs="5" n="[1]r"/>
     <seg function="header">
   <seg function="intertitle">
   <milestone unit="left-margin"/>
@@ -138,47 +139,56 @@
   <seg function="incipit"><milestone unit="main-text-area"/>
   <lb n="1"/>pāṭalipuram eṉṟum paṭṭaṇam</seg> <gap reason="ellipsis"/>
     
-  <pb n="67v"/>
+  <pb facs="138" n="67v"/>
   <lb n="2"/><gap reason="ellipsis"/> <seg function="completion-statement">mutalāvatu mittirapētam mut=tum ~</seg>
   
-  <pb n="67r"/>
+  <pb facs="139" n="67r"/>
+    <seg function="header">
     <seg function="intertitle"><milestone unit="left-margin"/>
   <lb n="1"/>2vatu
   <lb n="2"/>cukkiṟi
   <lb n="3"/>lāpam</seg>
+    <seg function="foliation"><lb n="4"/><num rend="traditional">68</num></seg>
+    </seg>
   
-   <pb n="90r"/>
+   <pb facs="183" n="90r"/>
   <lb n="5"/><gap reason="ellipsis"/> <g ref="#pcl"/> <seg function="completion-statement">Iraṇṭāvatu cukkiṟilāpam muttu <g ref="#pcl"/></seg>
-  
-  <pb n="91r"/>
-    <seg function="intertitle"><milestone unit="left-margin"/>
+    
+       <pb facs="184" n="90v"/><note xml:lang="en">blank</note>
+
+    <pb facs="185" n="91r"/>
+    <seg function="header">
+      <seg function="intertitle"><milestone unit="left-margin"/>
   <lb n="1"/>mūṉṟā
   <lb n="2" break="no"/>vatu
   <lb n="3"/>ca<choice><sic>ni</sic><corr>n</corr></choice>ti
   <lb n="4" break="no"/>vik=kiṟa
   <lb n="5"/>kam</seg>
+      </seg>
   
-   <pb n="123v"/>
-  <seg function="completion-statement"><lb n="5"/><gap reason="ellipsis"/></seg>
+   <pb facs="250" n="123v"/>
+  <lb n="5"/><gap reason="ellipsis"/> <g ref="#end_of_text"/> <seg function="completion-statement">muṉāvatu cantivikkiṟaka muttu<supplied reason="omitted">m</supplied> <g ref="#end_of_text"/></seg>
   
-  <pb n="124r"/>
-    <seg function="intertitle"><milestone unit="left-margin"/>
-  <lb n="1-4"/><gap reason="ellipsis"/></seg>
+  <pb facs="251" n="124r"/>
+    <seg function="header"><seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1-4"/>ṉālāvatu Aṟtanācam<gap reason="ellipsis"/></seg></seg>
   
-  <pb n="133v"/>
-  <seg function="completion-statement"><lb n="5"/><gap reason="ellipsis"/></seg>
+  <pb facs="270" n="133v"/>
+  <lb n="5"/><gap reason="ellipsis"/> <g ref="#latin_cross"/> <seg function="completion-statement">Attanācam mut=tum</seg>
   
-  <pb n="134r"/>
-    <seg function="intertitle"><milestone unit="left-margin"/>
-  <lb n="1-3"/><gap reason="ellipsis"/></seg>
+  <pb facs="271" n="134r"/>
+    <seg function="header"><seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1-3"/>Añcāvatu campireṣciyakāriyam</seg></seg>
   
-  <pb n="147v"/>
+  <pb facs="297" n="147r"/>
   <seg function="explicit"><lb n="1"/><gap reason="ellipsis"/>
   <lb n="2" break="no"/>ṟē <g ref="#pcl"/> kūṟiṉāñ <gap reason="ellipsis"/>
   <lb n="3"/><gap reason="ellipsis"/> vāḻntār <g ref="#pcl"/>
   <lb n="4"/><gap reason="ellipsis"/>
   <lb n="5"/><gap reason="ellipsis"/> raippār eṉṟō <g ref="#pcl"/> <g ref="#pcs"/> <g ref="#pcl"/></seg> <seg function="completion-statement">pañcatan=tiramut=tum <g ref="#pcl"/></seg>
     
+      <pb facs="298" n="147v"/><note xml:lang="en">blank</note>
+
     </ab>
   
 </body></text></TEI>
