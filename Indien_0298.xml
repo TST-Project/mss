@@ -18,14 +18,18 @@
                      <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
                   </repository>
                   <idno type="shelfmark">Indien 298</idno>
-                  <idno type="alternate"><idno>Tamoul 298</idno></idno>
+                  <idno type="alternate"><idno>Tamoul 298</idno><idno>b/62</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1038283</idno></msIdentifier>
                <msContents class="#STM">
                   <summary><p>The <title xml:lang="ta">Aruṇācalapurāṇam</title>, entitled here <title xml:lang="ta">Aruṇaikiripurāṇam</title> on its additional title page, which is the <foreign xml:lang="ta">talappurāṇam</foreign> of <placeName xml:lang="ta">Tiruvaṇṇāmalai</placeName>. Text incomplete (551 stanzas) and commentary.</p></summary>
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="true" class="#talapuranam"><title xml:lang="ta">Aruṇācalapurāṇam: Mūlam &amp; Urai</title><textLang mainLang="tam"/><filiation><p>BnF Indien 297, BnF Indien 299a, BnF Indien 983.</p></filiation></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi" rend="manuscript">
+                  
+                  
+                  
+                  
+               <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
                         <extent>
                            <measure unit="folio" quantity="292">{1} + 292 (U1 + U2).</measure>
@@ -43,26 +47,22 @@
                      <layoutDesc>
                         <layout columns="1"/>
                      </layoutDesc>
-                  </objectDesc>
-                  
-                  
-                  
-               <handDesc>
+                  </objectDesc><handDesc>
                      
-                  <handNote synch="#U1" scope="sole" script="tamil" scriptRef="#tamilRa" medium="incised soot"><desc><persName role="scribe">Ariel's title scribe</persName>.</desc></handNote><handNote synch="#U2" scope="sole" script="tamil" medium="incised soot"/></handDesc><additions/><bindingDesc>
+                  <handNote synch="#U1" scope="sole" script="tamil" scriptRef="#tamilRa" medium="incised soot"><desc><persName role="scribe">Ariel's title scribe</persName>.</desc></handNote><handNote synch="#U2" scope="sole" script="tamil" medium="incised soot"/></handDesc><additions><desc synch="#U1" type="shelfmark">Shelfmark <quote>b/62</quote> in black ink (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#U1" type="documenting-note">BnF bequest sticker <quote>DON N° <space type="vacat"/></quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#U1" type="shelfmark">Trace of shelfmark sticker (Société Asiatique?) (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#U1" type="shelfmark">BnF current shelfmark sticker: <quote>INDIEN 298</quote> (<locus facs="1">front cover, recto</locus>).</desc></additions><bindingDesc>
                      <binding>
                         <p>Original <material>bamboo</material> cover.</p>
                      <decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
                   </bindingDesc></physDesc>
                <history>
-                  <origin>
+                  
+                  
+               <origin>
                      <origDate calendar="gregorian" notAfter="1785">Dated to circa 1785 by Vinson in Vinson et al. (1866-) and to 1785 by Cabaton (1912), on unstated grounds (presumably palaeographical and material analysis arguments).</origDate>
                      <origPlace>Tamilnadu.</origPlace>
-                  </origin>
-                  <acquisition>
+                  </origin><provenance><p>Owned by <persName role="collector">Édouard Ariel</persName> (1818-1854). Bequested by Édouard Ariel to Société Asiatique (Rosny 1868, p. 177).</p></provenance><acquisition>
                      
-                  <p>Received, August 1st, 1866, from the Société Asiatique. See BnF, département des Manuscrits, inventaire 7 = <title>Dons: manuscrits et imprimés documentaires, 1848-1895</title>, no. 1192.</p></acquisition>
-               <provenance><p>Owned by <persName role="collector">Édouard Ariel</persName> (1818-1854). Bequested by Édouard Ariel to Société Asiatique (Rosny 1868, p. 177).</p></provenance></history>
+                  <p>Received, August 1st, 1866, from the Société Asiatique. See BnF, département des Manuscrits, inventaire 7 = <title>Dons: manuscrits et imprimés documentaires, 1848-1895</title>, no. 1192.</p></acquisition></history>
                <additional>
                   <listBibl>
                      
@@ -79,42 +79,132 @@
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>  
   <ab>
     
-    <pb n="[1]r"/>
+    <pb facs="1" n="[1]r"/>
     
     <seg function="title"><lb n="1"/>Aruṇakirip
     <lb n="2" break="no"/>purāṇam
     <lb n="3"/>Urai</seg>
     
-    <pb n="[1]v"/><note xml:lang="en">blank</note>
+    <pb facs="2" n="[1]v"/><note xml:lang="en">blank</note>
     
   </ab>   
 </body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
   <ab>
     
-  <pb n="1r"/>    
+  <pb facs="5" n="1r"/>    
     <seg function="header">
      <seg function="blessing">
-    <milestone n="1" unit="column"/>
+    <milestone unit="column"/>
    <lb n="1"/>ha=ri Om</seg> <seg function="blessing">naṉṟāka</seg>
     <seg function="blessing"><lb n="2"/>kuru vāḻka</seg> <seg function="blessing">ku
     <lb n="3" break="no"/>ruvē tuṇai <g ref="#pcs"/></seg>
     <seg function="blessing"><lb n="4"/>Aruṇācala-yīcupa
     <lb n="5" break="no"/>rar rakṣikka <g ref="#pcs"/> <g ref="#pcs"/></seg></seg>
     
-      <milestone n="2" unit="column"/>
-    <lb n="1"/>
-    <lb n="6"/>
+      <milestone unit="left-margin"/>
+    <lb n="1"/>mikka vētaviyāca <gap reason="ellipsis"/>
+    <lb n="2-6"/><gap reason="ellipsis"/>m eṉṟa vāṟu <g ref="#pcl"/> <seg function="blessing">civamaya<seg rend="grantha">m</seg></seg>
     
-    <pb n="1v"/><note xml:lang="en">blank</note>
+    <pb facs="6" n="1v"/><note xml:lang="en">blank</note>
   
-    <pb n="2r"/>    
-    <seg function="blessing"><milestone n="1" unit="column"/>
+    <pb facs="7" n="2r"/>    
+    <seg function="header">
+      <seg function="blessing"><milestone unit="column"/>
     <lb n="1"/>civamayam</seg>
     <seg function="intertitle"><lb n="2"/>pāyira-c
     <lb n="3" break="no"/>caṟkkam</seg>
     <seg function="blessing"><lb n="4"/>civamayam</seg>
-  
-    <pb n="291v"/>    
+      </seg>
+    
+    <milestone unit="main-text-area"/>
+    <lb n="1-6"/><gap reason="ellipsis"/>
+      
+     <pb facs="32" n="14v"/>
+    <lb n="5"/>vāṟu = <num rend="traditional">21</num> = <seg function="blessing">civamayam</seg> <seg function="blessing">Aruṇācalayīcupara-kiṟupā-kaṭākṣam Uṇṭāka tāka vēṇum</seg> <seg function="completion-statement">pāyiracarukkam muṟṟum =</seg> <seg function="intertitle">yippāl Aruṇmāṉaka
+    <lb n="6" break="no"/>ṟacarukkam <g ref="#pcs"/></seg> <seg function="blessing">civa-citamparam <g ref="#pcl"/></seg>
+    
+        <pb facs="33" n="15r"/>
+    <seg function="header">
+      <seg function="blessing"><milestone n="1" unit="column"/>
+        <lb n="1-3"/>śrīṟāmaceyam</seg>
+      <seg function="intertitle"><milestone n="2" unit="column"/>
+        <lb n="1-3"/>Aruṇaimāṉacarukkam <g ref="#pcs"/></seg></seg>
+    
+        <pb facs="95" n="46r"/>
+    <lb n="3"/><gap reason="ellipsis"/> = <num rend="traditional">55</num> = <seg function="completion-statement">Aruṇmāṉa
+    <lb n="4" break="no"/>nakaracarukkam muṟṟum =</seg> <seg function="total-stanzas">{Āka} carukkam 2kkuk kūṭiṉat tiruvirutta = <num rend="traditional">75</num> =</seg> <seg function="blessing">tiruccutampalam tiruccutampalam ti
+    <lb n="5" break="no"/>ruccutampalam <g ref="#pcs"/></seg> <seg function="blessing">Aruṇācalayīcuparakiṟupākaṭāṣṣam vaittu ṟakṣikka kaṭavatu <g ref="#pcs"/></seg> <seg function="blessing">Arūṇācalam Uṇṇāmalai<add place="below">yammaṉ</add> kiṟupākaṭākṣa ṟakṣikka <g ref="#pcs"/></seg>
+    
+        <pb facs="96" n="46v"/><note xml:lang="en">blank</note>
+
+    <pb facs="97" n="47r"/>
+    <seg function="header">
+           <seg function="intertitle"><milestone unit="column"/>
+        <lb n="1-2"/>tirumalaiccarukkam</seg></seg>
+    
+    <pb facs="177" n="87r"/>
+    <seg function="header">
+           <seg function="intertitle"><milestone unit="column"/>
+        <lb n="1-4"/><gap reason="ellipsis"/>carukkam <g ref="#pcs"/></seg></seg>
+    
+        <pb facs="276" n="136v"/><note xml:lang="en">blank</note>
+
+    <pb facs="277" n="137r"/>
+    <seg function="header">
+           <seg function="intertitle"><milestone unit="column"/>
+        <lb n="1-4"/><gap reason="ellipsis"/>carukkam <g ref="#pcs"/> <g ref="#pcs"/></seg></seg>
+    
+    <pb facs="364" n="180v"/><note xml:lang="en">blank</note>
+
+    <pb facs="365" n="181r"/>
+    <seg function="header">
+           <seg function="intertitle"><milestone unit="column"/>
+        <lb n="1-3"/><gap reason="ellipsis"/>carukkam</seg></seg>
+    
+<pb facs="429" n="213v"/><note xml:lang="en">blank</note>
+
+    <pb facs="430" n="214r"/>
+    <seg function="header">
+           <seg function="intertitle"><milestone unit="column"/>
+        <lb n="1-5"/><gap reason="ellipsis"/>carukkam</seg></seg>
+    
+    <pb facs="474" n="235v"/><note xml:lang="en">blank</note>
+
+    <pb facs="475" n="236r"/>
+    <seg function="header">
+           <seg function="intertitle"><milestone unit="column"/>
+        <lb n="1-2"/>tīṟttacarukkam</seg></seg>
+    
+    <pb facs="513" n="255r"/>
+    <seg function="header">
+           <seg function="intertitle"><milestone unit="column"/>
+        <lb n="1-2"/>valampuriccarukkam</seg></seg>
+    
+    <pb facs="549" n="273r"/>
+    <seg function="header">
+           <seg function="intertitle"><milestone unit="column"/>
+        <lb n="1-2"/>Ātittacarukkam</seg></seg>
+    
+        <pb facs="550" n="273v"/><note xml:lang="en">blank</note>
+    
+     <pb facs="551" n="274r"/>
+    <seg function="header">
+           <seg function="intertitle"><milestone unit="column"/>
+        <lb n="1-2"/>Ātittacarukkam</seg></seg>
+
+    <pb facs="562" n="279v"/><note xml:lang="en">blank</note>
+
+    <pb facs="563" n="280r"/>
+    <seg function="header">
+           <seg function="intertitle"><milestone unit="column"/>
+        <lb n="1-2"/>piṟattacarukkam</seg></seg>
+    
+    <pb facs="581" n="289r"/>
+    <seg function="header">
+           <seg function="intertitle"><milestone unit="column"/>
+        <lb n="1-2"/><gap reason="ellipsis"/>carukkam</seg></seg>
+    
+        <pb facs="586" n="291v"/>    
     <seg function="explicit"><lb n="2"/><gap reason="ellipsis"/> mālaiyamum aruviyeṉavē perukumē – Eṉpatu –</seg>
     
   </ab>
