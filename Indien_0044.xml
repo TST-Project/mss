@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Collection</title>
+            
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2023</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Indien 44</idno>
+                  <idno type="alternate"><idno>Tamoul 44</idno><idno>Ducler 91</idno></idno>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1034619</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b52517161c</idno></msIdentifier>
+               <msContents class="#MTM">
+                  <summary><p>A multi-text manuscript containing 3 Vedānta works:
+  <list>
+    <item>The <title xml:lang="ta">Pañcatacappirakaraṇam</title> (U4a).</item>
+    <item>The <title xml:lang="ta">Piramāṉupavavivēkacamuttiram</title> (U4b).</item>
+    <item>The <title xml:lang="ta">Tattuvakkaṭṭaḷai</title> (U4c).</item>
+    </list>
+  </p>
+<p>Description based on the digital images available on Gallica.</p></summary>
+                  
+               <msItem synch="#U2" xml:id="T1" defective="false"><title xml:lang="fr"><term xml:lang="en">Table of Contents</term></title><textLang mainLang="fra"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta"><term xml:lang="en">TBC</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T3" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U4a" xml:id="T4" defective="false"><title xml:lang="ta">Pañcatacappirakaraṇam</title><textLang mainLang="tam"/></msItem><msItem synch="#U4b" xml:id="T5" defective="false"><title xml:lang="ta">Piramāṉupavavivēkacamuttiram</title><textLang mainLang="tam"/></msItem><msItem synch="#U4c" xml:id="T6" defective="false"><title xml:lang="ta">Tattuvakkaṭṭaḷai</title><textLang mainLang="tam"/></msItem><msItem synch="#U4d" xml:id="T7" defective="false"><title xml:lang="ta"><term xml:lang="en">Table of Contents (MTM)</term></title><textLang mainLang="tam"/></msItem></msContents>
+               <physDesc>
+                  
+                  
+                  
+                  
+                  
+               <objectDesc form="pothi" rend="manuscript">
+                     <supportDesc material="palm-leaf">
+                        <support>
+                           
+                           
+                        <p>Rounded edges.</p></support>
+                        <extent>
+                           <measure unit="folio" quantity="218">{1} + {1} + {1} + 214 + {1} (U1 + U2 + U3 + U4 + U5).</measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           </dimensions>
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
+                        
+                        
+                        
+                     <foliation>Tamil foliation and parallel Arabic foliation.</foliation><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">Table of Contents</emph>. No foliation. Verso blank.</desc><desc xml:id="U2">1 folio = <emph rend="bold">Title Page</emph>. No foliation. Verso blank.</desc><desc xml:id="U3">1 folio = <emph rend="bold">TBC</emph>. No foliation.</desc><desc xml:id="U4">214 folios = <emph rend="bold">TBC</emph>. Tamil foliation 1-214. Parallel Arabic foliation 1-214.</desc><desc xml:id="U4a">150 folios = <emph rend="bold"><title xml:lang="ta">Pañcatacappirakaraṇam</title></emph>. Tamil foliation 1-150. Parallel Arabic foliation 1-150.</desc><desc xml:id="U4b">46 folios = <emph rend="bold"><title xml:lang="ta">Pañcatacappirakaraṇam</title></emph>. Tamil foliation 151-195. Parallel Arabic foliation 151-195.</desc><desc xml:id="U4c">18 folios = <emph rend="bold"><title xml:lang="ta">Pañcatacappirakaraṇam</title></emph>. Tamil foliation 196-213. Parallel Arabic foliation 196-213.</desc><desc xml:id="U4d">1 folios = <emph rend="bold">Table of Contents</emph> (of MTM). Tamil foliation 214. Parallel Arabic foliation 214.</desc><desc xml:id="U5">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Excellent state of preservation.</condition></supportDesc>
+                     <layoutDesc>
+                        <layout writtenLines="6 7"/>
+                     </layoutDesc>
+                  </objectDesc><handDesc><handNote synch="#U1 #U2 #U3 #U4" scope="sole" script="tamil" medium="incised soot"><desc><persName role="scribe">Ducler's scribe</persName>.</desc></handNote></handDesc><additions>
+                  <desc type="documenting-note" subtype="detached">In black ink on a <locus facs="1">sheet of paper</locus>:
+<quote rend="block">
+<lb n="1"/>
+<lb n="2"/>
+<lb n="3"/>
+<lb n="4"/>
+<lb n="5"/>
+<lb n="6"/>
+  <lb n="7"/>
+</quote></desc><desc synch="#CoverFront" type="shelfmark" subtype="cover front left">BnF current shelfmark sticker, covering an older sticker: <quote>INDIEN 44</quote> (<locus facs="3">front cover, recto</locus>). </desc></additions><bindingDesc>
+                     <binding><p>Original <material>ebony</material> covers.</p><decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
+                  </bindingDesc></physDesc>
+               <history>
+                  
+                  
+                  
+               <origin>
+                     <origDate calendar="gregorian"/>
+                     
+                  <origPlace>South India, Tamilnadu.</origPlace></origin><provenance><p>Copied for <persName xml:lang="fr" role="collector">Philippe Ducler</persName> by an unnamed copyist in Karaikal Jail. See Burnouf (1832).</p></provenance><acquisition><p>Acquired, July 22nd, 1833, from Philippe Ducler. See BnF, département des Manuscrits, inventaire 1 = <title>Acquisitions: manuscrits et imprimés documentaires, 1833-1848</title>, no. TBC.</p></acquisition></history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f29">p. 11, no. 44</ref>.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. 1866-. <title>Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f47">f. 16r, no. 44</ref>. </bibl><bibl>Vinson, Julien. 1868. <title>Manuscrits tamouls</title>. Proofreadings of the catalogue for Tamoul 1-204 (old shelfmark). Printed by the atelier oriental de l’Imprimerie nationale. BnF “4-IMPROR-77 (B)”. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b105333021/f41">p. 16, no. 44</ref>. — The same proofreadings with black ink handwritten corrections are found in Vinson et al. (1866-, f1-f49).</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         
+      <p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.            </p></encodingDesc>
+      
+   <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
+         
+      <change when="2023-01">Encoded by <persName>Emmanuel FRANCIS</persName>. Version 1, January 2023.</change></revisionDesc></teiHeader>
+   <facsimile>
+   <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b52517161c/manifest.json"/></facsimile>
+<text synch="#U1" corresp="#T1" xml:lang="fr"><body>
+  <ab>
+    
+     <pb facs="5" n="[1]r"/>    
+    
+    <pb facs="6" n="[1]v"/><note xml:lang="en">blank</note>
+    
+    </ab>
+  </body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
+  <ab>
+    
+     <pb facs="7" n="[1]r"/>     
+    
+    <pb facs="8" n="[1]v"/><note xml:lang="en">blank</note>
+    
+    </ab>
+  </body></text><text synch="#U3" corresp="#T3" xml:lang="ta"><body>
+  <ab>
+    
+     <pb facs="9" n="[1]r"/>     
+    
+    <pb facs="10" n="[1]v"/>
+    
+    </ab>
+  </body></text><text synch="#U4a" corresp="#T4" xml:lang="ta"><body>
+  <ab>
+    
+     <pb facs="11" n="1r"/>
+    
+    <seg function="header"><seg function="title"><milestone n="1" unit="left-margin"/>
+      <lb n="1-4"/>pañcaticappiṟakaraṇam</seg>
+      
+      <seg function="intertitle"><milestone n="2" unit="left-margin"/>
+            <lb n="1"/>mutalā
+            <lb n="2" break="no"/>vatu ci
+      <lb n="3" break="no"/>ttira
+      <lb n="4" break="no"/>tīpikai</seg>
+      <seg function="blessing"><lb n="5" break="no"/>capāpati
+      <lb n="6" break="no"/>tuṇai</seg>      
+      </seg>
+    
+    <seg function="incipit"><milestone unit="main-text-area"/>
+    <lb n="1"/><gap reason="ellipsis"/></seg>                                          
+    
+         <pb facs="67" n="29r"/>
+    <seg function="header"><seg function="intertitle"><milestone unit="left-margin"/>
+      <lb n="1ff."/><gap reason="ellipsis"/></seg>
+      </seg>
+    
+             <pb facs="125" n="58r"/>
+    <seg function="header"><seg function="intertitle"><milestone unit="left-margin"/>
+      <lb n="1ff."/><gap reason="ellipsis"/></seg>
+      </seg>    
+    
+         <pb facs="147" n="69r"/>
+    <seg function="header"><seg function="intertitle"><milestone unit="left-margin"/>
+      <lb n="1ff."/><gap reason="ellipsis"/></seg>
+      </seg>
+    
+        
+    <pb facs="243" n="117r"/>
+    <seg function="header"><seg function="intertitle"><milestone unit="left-margin"/>
+      <lb n="1ff."/><gap reason="ellipsis"/></seg>
+      </seg>
+
+         <pb facs="261" n="126r"/>
+    <seg function="header"><seg function="intertitle"><milestone unit="left-margin"/>
+      <lb n="1ff."/><gap reason="ellipsis"/></seg>
+      </seg>
+
+      
+    
+         <pb facs="303" n="147r"/>
+    <seg function="header"><seg function="intertitle"><milestone unit="left-margin"/>
+      <lb n="1ff."/><gap reason="ellipsis"/></seg>
+      </seg> 
+    
+         <pb facs="309" n="150r"/>
+    <seg function="explicit"><milestone unit="main-text-area"/>
+      <lb n="4"/><gap reason="ellipsis"/> mōṭcam aṭaiyakkaṭavarkaḷ <g ref="#pcs"/></seg> <seg function="colophon"><seg function="blessing">śrīkurup
+      <lb n="5"/>piyo namā <g ref="#pcl"/></seg> <seg function="completion-statement">pañcaticappiṟakaraṇa muṭintatu muṟṟum <g ref="#pcl"/></seg></seg>
+                
+    <pb facs="310" n="150v"/><note xml:lang="en">blank</note>
+    
+    </ab>
+  </body></text><text synch="#U4b" corresp="#T5" xml:lang="ta"><body>
+  <ab>
+    <pb facs="311" n="151r"/>
+    
+    <seg function="header"><seg function="title"><milestone n="1" unit="left-margin"/>
+      <lb n="1"/>piṟamāṉupava
+      <lb n="2" break="no"/>vivēkacamut
+      <lb n="3" break="no"/>tiram ~</seg> <seg function="intertitle">mutalā
+      <lb n="4" break="no"/>vatu tiṭṭā
+      <lb n="5" break="no"/>ntappiṟakara
+      <lb n="6" break="no"/>ṇam </seg>
+      </seg>
+      
+      <seg function="incipit"><milestone unit="main-text-area"/>
+       <lb n="1"/><gap reason="ellipsis"/></seg>
+    
+    <pb facs="343" n="167r"/>
+    <seg function="header"><seg function="intertitle"><milestone unit="left-margin"/>
+      <lb n="1ff."/><gap reason="ellipsis"/></seg>
+      </seg> 
+    
+    <pb facs="381" n="186r"/>
+    <seg function="header"><seg function="intertitle"><milestone unit="left-margin"/>
+      <lb n="1ff."/><gap reason="ellipsis"/></seg>
+      </seg> 
+    
+       <pb facs="399" n="195r"/>
+    <seg function="explicit"><lb n="5"/><gap reason="ellipsis"/> ~ Ippaṭic cīvaṉ-mutti
+    <lb n="6" break="no"/>ppiṟakaraṇañ collappaṭṭutu ~</seg> <seg function="colophon"><seg function="completion-statement">piṟamāṉupavavivēkacamuttiram eḻuti muṭintatu muṟṟum <g ref="#pcl"/></seg></seg>
+    
+        <pb facs="400" n="195v"/><note xml:lang="en">blank</note>
+    
+    </ab>
+  </body></text><text synch="#U4c" corresp="#T6" xml:lang="ta"><body>
+  <ab>
+
+    <pb facs="401" n="196r"/>
+    <seg function="header"><seg function="title"><milestone unit="left-margin"/>
+      <lb n="1-5"/>nāṉācivātakkaṭṭaḷai ~</seg>
+      </seg> 
+    
+    <seg function="incipit"><milestone unit="main-text-area"/>
+    <lb n="1"/><gap reason="ellipsis"/></seg>
+    
+       <pb facs="435" n="213r"/>
+    <seg function="explicit"><lb n="6"/><gap reason="ellipsis"/> mōṭcam aṭaiyakkaṭavāḷ <g ref="#pcs"/></seg>
+
+        <pb facs="436" n="213v"/>
+     <seg function="colophon"><seg function="completion-statement"><lb n="1"/><gap reason="ellipsis"/> tattuvakkaṭṭaḷai mukintatu muṟṟum <g ref="#pcl"/></seg>
+    <seg function="blessing"><lb n="2"/>capāpati tuṇai <g ref="#pcl"/></seg></seg>
+   
+    
+    </ab>
+  </body></text><text synch="#U4d" corresp="#T7" xml:lang="ta"><body>
+  <ab>
+    
+    <seg function="table-of-contents">
+      
+      <pb facs="437" n="214r"/>
+    
+    <milestone n="1" unit="column"/>
+    <lb n="1"/>Intap pottakattil aṭ
+    <lb n="2" break="no"/>ṅkiya vētāntacāttira
+    <lb n="3" break="no"/>ṅkaḷiṉ Atikārayēṭ
+    <lb n="4" break="no"/>ṭaṭṭavaṇai ~
+    
+    <milestone n="2" unit="column"/>
+    <lb n="1"/>pañcaticappiṟakaraṇam mutalāvatu cittiratī
+    <lb n="2" break="no"/>pikai ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ yēṭu ~ 1
+    <lb n="3"/>
+    <lb n="4"/>
+    <lb n="5"/>
+    <lb n="6"/>
+    
+    <milestone n="3" unit="column"/>
+    <lb n="1"/>
+    <lb n="2"/>
+    <lb n="3"/>
+    <lb n="4"/>
+    <lb n="5"/>
+    <lb n="6"/>
+
+      <pb facs="438" n="214v"/>
+    
+    <milestone n="1" unit="column"/>
+    <lb n="1"/>
+    <lb n="2"/>
+    <lb n="3"/>
+    <lb n="4"/>
+    <lb n="5"/>
+    <lb n="6"/>Āka vatikāram ~ <num rend="traditional">15</num>k=ku yēṭu <num rend="traditional">130</num> ~
+    
+    <milestone n="2" unit="column"/>
+    <lb n="1"/>Ireṇṭāvatu piṟamāṉupavavivēkacamut=tiram
+    <lb n="2"/>mutalāvatu <gap reason="ellipsis"/>
+    <lb n="3"/>
+    <lb n="4"/>
+    <lb n="5"/>Āka vatikāra mūṉṟuk=ku yēṭu ~ <num rend="traditional">45</num> <g ref="#pcl"/>
+    
+    <milestone n="3" unit="column"/>
+    <lb n="1"/>mūṉṟāvatu nāṉāci
+    <lb n="2" break="no"/>vātakkaṭṭaḷai
+    <lb n="3"/>yēṭu ~ ~ ~ ~ ~ ~ ~ <num rend="traditional">199</num>
+    <lb n="4"/>{Āka} vatikāram ~ 1k=ku yēṭu
+    <lb n="5"/><num rend="traditional">18</num> <g ref="#pcl"/>
+      
+      </seg>
+    
+    </ab>
+  </body></text></TEI>
