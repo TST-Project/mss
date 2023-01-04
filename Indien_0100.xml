@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><title xml:lang="ta">Vākaṭam</title></title>
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2023</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Indien 100</idno>
+                  <idno type="alternate"><idno>Tamoul 100</idno><idno>Ducler 34</idno></idno>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103559g</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b525171638</idno></msIdentifier>
+               <msContents class="#STM">
+                  <summary><p>Description based on the digital images available on Gallica.</p>   </summary>
+                  
+               <msItem synch="#U2" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta">Vākaṭam</title><textLang mainLang="tam"/></msItem></msContents>
+               <physDesc>
+                  
+                  
+                  
+                  
+               <objectDesc form="pothi" rend="manuscript">
+                     <supportDesc material="palm-leaf">
+                        <extent>
+                           <measure unit="folio" quantity="203">{1} + {1} + 200 + {2} (U1 + U2 + U3 + U4).</measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           </dimensions>
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
+                        
+                        
+                     <support><p>Rounded edges.</p></support><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. BnF shelfmark sticker on back cover, verso. </desc><desc xml:id="U1">1 folio = front <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso.</desc><desc xml:id="U2">1 folio = front <emph rend="bold">Title Page</emph>. No foliation. Verso blank.</desc><desc xml:id="U3">200 folios = <emph rend="bold"><title xml:lang="ta">Vākaṭam</title></emph>. Tamil foliation 1-200.</desc><desc xml:id="U4">2 folios = back <emph rend="bold">guard leaves</emph>. Blank recto verso. </desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Excellent state of preservation.</condition></supportDesc>
+                     <layoutDesc>
+                        
+                     </layoutDesc>
+                  </objectDesc><handDesc>
+                     
+                  <handNote synch="#U2 #U3" scope="sole" script="tamil" medium="incised soot"><desc>U2 unblackened.</desc></handNote></handDesc><additions><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF current shelfmark sticker: <quote>INDIEN 100</quote> (<locus facs="1">front cover, recto</locus>).</desc></additions><bindingDesc>
+                     <binding>
+                        <p>Original light brown <material>wood</material> covers.</p>
+                     <decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
+                  </bindingDesc></physDesc>
+               <history>
+                  
+                  
+               <origin>
+                     <origDate calendar="gregorian">No internal date. Dated to circa 1828 by Vinson (1868) and to 1828 by Cabaton (1912), on unstated grounds (presumably palaeographical and material analysis arguments).</origDate>
+                     <origPlace>South India, Tamil Nadu.</origPlace>
+                  </origin><provenance><p>Copied for <persName xml:lang="fr" role="collector">Philippe Ducler</persName> by an unnamed copyist in Karaikal Jail. See Burnouf (1832).</p></provenance><acquisition>
+                     
+                  <p>Acquired, July 22nd, 1833, from Philippe Ducler. See BnF, département des Manuscrits, inventaire 1 = <title>Acquisitions: manuscrits et imprimés documentaires, 1833-1848</title>, no. TBC.</p></acquisition></history>
+               <additional>
+                  <listBibl>
+                     
+                     
+                     
+                     
+                     <bibl>Burnouf, Eugène. 1832. <title type="article">Rapport fait au Conseil, dans la séance du 2 juillet 1832, sur les collections de manuscrits et de dessins rapportées de l’Inde par M. Ducler, administrateur de Carical, membre de la Société asiatique</title>. <title>Journal asiatique</title> 10: 84-91. — See <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k93120f/f90">p.  90, n0. 34</ref>.</bibl><bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens. Bibliothèque nationale. Département des manuscrits</title>. Paris: E. Leroux.  — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f37">p. 19, n0. 100</ref>.</bibl><bibl>Velanguani Arokium [<persName xml:lang="ta">Vēḷāṅkaṇṇi Ārōkkiyam</persName>]. 1845. <title>Catalogue des manuscrits tamouls de la Bibliothèque royale</title>. BnF NAF 5443. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b10527869m/f19">p. TBC</ref>.</bibl><bibl>Vinson, Julien. 1868. <title>Manuscrits tamouls</title>. Proofreadings of the catalogue for Tamoul 1-204 (old shelfmark). Printed by the atelier oriental de l’Imprimerie nationale. BnF “4-IMPROR-77 (B)”.  — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b105333021/f63">p. 27, no. 100</ref>.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+   <encodingDesc><p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.            </p></encodingDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
+         
+      <change when="2023-01">Record created by Emmanuel FRANCIS.</change></revisionDesc></teiHeader>
+   
+<facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525171638/manifest.json"/></facsimile><text synch="#U2" corresp="#T1" xml:lang="ta"><body>
+  <ab>
+  <pb facs="5" n="[1]r"/><note xml:lang="en">unblackened</note>
+ 
+  <seg function="title"><milestone n="1" unit="column"/>
+  <lb n="1"/>Akastiyamuṉi
+    <lb n="2"/>yaruḷic ceyta
+    <lb n="3"/>vākaṭam
+    </seg>
+    
+  <seg function="title"><milestone n="2" unit="column"/>
+  <lb n="1"/><term xml:lang="fr">Medecine</term></seg>
+    
+    <seg function="table-of-contents"><milestone n="2" unit="column"/>
+  <lb n="1"/>rettiṉaccurukkam
+  <lb n="2"/>
+  <lb n="3"/>
+  <lb n="4"/>
+  <lb n="5"/>
+  <lb n="6"/>
+  <lb n="7"/>
+      
+      <milestone n="2" unit="column"/>
+  <lb n="1"/>rettiṉaccurukkam
+  <lb n="2"/>
+  <lb n="3"/>
+  <lb n="4"/>  
+    </seg>
+    
+      <pb facs="6" n="[1]v"/><note xml:lang="en">blank</note>
+
+</ab>
+</body>
+   </text><text synch="#U3" corresp="#T2" xml:lang="ta"><body>
+  <ab>
+  <pb facs="7" n="1r"/>
+    
+  <seg function="header">
+  <milestone unit="left-margin"/>
+  <lb n="1"/><g ref="#pcl"/>
+    <seg function="title"><lb n="2"/>Akattiyar
+    <lb n="3"/>vayittiyam</seg>
+    <seg function="intertitle"><lb n="4"/>rettiṉac  
+    <lb n="5" break="no"/>curukkam  
+    </seg>
+    </seg>
+    
+  <seg function="incipit" type="root-text"><milestone unit="main-text-area"/>
+  <lb n="1"/><gap reason="ellipsis"/></seg>
+  
+
+    <pb facs="405" n="200r"/>
+    
+    <milestone unit="main-text-area"/>
+    
+    <lb n="1"/>
+  <lb n="2"/>
+  <lb n="3"/>
+  <lb n="4"/>
+  <lb n="5"/>
+  <lb n="6"/>
+  <lb n="7"/>
+  <lb n="8"/>
+
+    <pb facs="406" n="200r"/>
+    
+     <milestone unit="main-text-area"/>
+    <lb n="1"/><gap reason="ellipsis"/> <g ref="#pcs"/> muṟṟum <g ref="#pcl"/>
+
+    </ab>
+  </body></text></TEI>
