@@ -4,12 +4,12 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title><title xml:lang="ta">Rāmāyaṇam</title></title>
+            <title><title xml:lang="ta">Rāmāyaṇam</title> (<term xml:lang="ta">Kaṇṭam</term> 6-7)</title>
          <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2022</date>
+            <date>2023</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -50,7 +50,7 @@
                         
                         
                      <collation><desc xml:id="U1">1 folio = <emph rend="bold">Title Page (additional)</emph>. No foliation. Verso blank.
-</desc><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. </desc><desc xml:id="U2">1 folio = <emph rend="bold">TBC</emph>. No foliation. Unblackened. Verso blank.</desc><desc xml:id="U3">1 folio = <emph rend="bold">Invocation</emph>. No foliation. Verso blank.</desc><desc xml:id="U4">15 folios = <emph rend="bold"><term xml:lang="ta">Rāmāyaṇam: Yuttakāṇṭam</term></emph>. Tamil foliation {1}, 2-15. Unblackened. </desc><desc xml:id="U5">478 folios = <emph rend="bold"><term xml:lang="ta">Rāmāyaṇam: Uttarakāṇṭam</term></emph>. Tamil foliation {1}, 2-478.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>. </desc></collation><condition>Fragile and damaged: boreholes, cracks.
+</desc><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. </desc><desc xml:id="U2">1 folio = <emph rend="bold">TBC</emph>. No foliation. Unblackened. Verso blank.</desc><desc xml:id="U3">1 folio = <emph rend="bold">Invocation</emph>. No foliation. Verso blank.</desc><desc xml:id="U4">15 folios = <emph rend="bold"><term xml:lang="ta">Rāmāyaṇam: Yuttakāṇṭam (Paṭalam 1-2)</term></emph>. Tamil foliation {1}, 2-15. Unblackened. </desc><desc xml:id="U5">478 folios = <emph rend="bold"><term xml:lang="ta">Rāmāyaṇam: Uttarakāṇṭam</term></emph>. Tamil foliation {1}, 2-478.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>. </desc></collation><condition>Fragile and damaged: boreholes, cracks.
 </condition></supportDesc>
                      <layoutDesc>
                         
@@ -149,11 +149,29 @@
   <lb n="6" break="no"/>ṇappaṭalam</seg>
     </seg>
   
-  <seg function="incipit"><milestone unit="main-text-area"/>
-  <lb n="1"/><gap reason="ellipsis"/></seg>
-  
+  <seg function="TBC"><milestone unit="main-text-area"/>
+  <lg><l><lb n="1"/>Oru pūvi <gap reason="ellipsis"/>
+    <lb n="2"/><gap reason="ellipsis"/> = 1 =</l></lg> <lg><l><gap reason="ellipsis"/>
+      <lb n="3"/><gap reason="ellipsis"/> 
+      <lb n="4"/><gap reason="ellipsis"/> = 2 =</l></lg></seg> <seg function="incipit"><lg><l>Oṉṟē yeṉṉi <gap reason="ellipsis"/>
+      <lb n="5"/><gap reason="ellipsis"/>
+      <lb n="6"/><gap reason="ellipsis"/> = 3 =</l></lg></seg><gap reason="ellipsis"/>
+        
+      <pb facs="12" n="2v"/> 
+      <seg function="header">
+        <seg function="intertitle"><milestone unit="left-margin"/>
+          <lb n="1ff."/>mantirapaṭalam</seg>
+      </seg>
+      
+      <milestone unit="main-text-area"/>
+      <lb n="1"/><gap reason="ellipsis"/>
+      <lb n="2"/><gap reason="ellipsis"/> pēcuvām = <num rend="traditional">14</num> =
+      <seg function="completion-statement"><lb n="3"/>kaṭal kāṇappaṭalam = muṟṟiṟṟu = =</seg> pūvarumay <gap reason="ellipsis"/>
+    
   <pb facs="36" n="14v"/>  
-  <seg function="explicit"><lb n="6"/><gap reason="ellipsis"/>
+  <seg function="explicit">
+    <lb n="5"/><gap reason="ellipsis"/> = <num rend="traditional">118</num> <g ref="#pcs"/> <gap reason="ellipsis"/>                                                                                                  
+    <lb n="6"/><gap reason="ellipsis"/> camaintāṉ =
   
   <pb facs="37" n="15r"/>  
      <lb n="1"/>= <num rend="traditional">119</num> =</seg> <seg function="completion-statement">mantirappaṭalamuṟṟum =</seg> <seg function="total-stanzas">{Āka} viruttam · <num rend="traditional">134</num> =</seg> <seg function="blessing">śrī-<g ref="#double_kal">rā</g>ma-je<g rend="below-base">yaM</g> ·</seg>
@@ -173,7 +191,8 @@
   <lb n="2"/>vatappaṭalam</seg></seg>
 
   <seg function="incipit"><milestone unit="main-text-area"/>
-  <lb n="1"/><gap reason="ellipsis"/></seg>
+  <lg><l><lb n="1"/>vētam kaṇṇiya<gap reason="ellipsis"/>
+  <lb n="2"/><gap reason="ellipsis"/></l></lg></seg> <gap reason="ellipsis"/>
   
   <pb facs="70" n="16v"/> 
      <lb n="3"/><gap reason="ellipsis"/> – <num rend="traditional">176</num> – <seg function="completion-statement">Iraṇiyavata
@@ -187,18 +206,125 @@
    <seg function="intertitle"><milestone n="2" unit="left-margin"/>
   <lb n="1"/>Uyittiya
   <lb n="2"/>kā<unclear>ṇ</unclear><supplied reason="lost">ṭa</supplied>m</seg>
-  <seg function="intertitle"><lb n="3"/><gap reason="lost"/>
+  <seg function="intertitle"><lb n="3"/><gap reason="lost"/><unclear>ṣaṇa</unclear>
   <lb n="4" break="no"/>ṉ Āṭaik
   <lb n="5" break="no"/>kalappaṭalam</seg></seg>
   
     <pb facs="99" n="31r"/>  
    <seg function="header">
-     <milestone n="1" unit="left-margin"/>
+     <milestone unit="left-margin"/>
   <lb n="1"/><g ref="#pcs"/>
       <seg function="intertitle"><milestone unit="left-margin"/>
   <lb n="1-3"/>Ilaṇkaikkeḻvippaṭalam</seg>
     <seg function="foliation"><lb n="4"/>31</seg></seg>
   
+     <pb facs="113" n="38r"/>  
+   <seg function="header">
+   <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1ff."/><gap reason="ellipsis"/>paṭalam</seg></seg>
+     
+     <pb facs="125" n="44r"/>  
+   <seg function="header">
+   <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1ff."/><gap reason="ellipsis"/>paṭalam</seg></seg>
+    
+     <pb facs="131" n="47r"/>  
+   <seg function="header">
+   <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1ff."/><gap reason="ellipsis"/>paṭalam</seg></seg>
+    
+     <pb facs="145" n="54r"/>  
+   <seg function="header">
+   <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1ff."/><gap reason="ellipsis"/>paṭalam</seg></seg>                                                        
+     
+     <pb facs="165" n="64r"/>  
+   <seg function="header">
+   <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1ff."/><gap reason="ellipsis"/>paṭalam</seg></seg>
+     
+     <pb facs="171" n="67r"/>  
+   <seg function="header">
+   <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1ff."/><gap reason="ellipsis"/>paṭalam</seg></seg>
+     
+     <pb facs="179" n="71r"/>  
+   <seg function="header">
+   <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1ff."/><gap reason="ellipsis"/>paṭalam</seg></seg>
+     
+     <pb facs="189" n="76r"/>  
+   <seg function="header">
+   <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1ff."/><gap reason="ellipsis"/>paṭalam</seg></seg>
+     
+     
+     
+     <pb facs="385" n="173r"/>  
+   <seg function="header">
+   <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1-2"/>nākāpā<gap reason="ellipsis"/>paṭalam</seg></seg>
+     
+     <pb facs="441" n="201r"/>  
+   <seg function="header">
+   <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1-3"/>paṭaittalaivar vataippaṭalam</seg></seg>
+     
+     
+     
+     <pb facs="559" n="260r"/>  
+   <seg function="header">
+   <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1-2"/>kaḷiyāṭṭuppaṭalam</seg></seg>
+     
+     
+     <pb facs="691" n="326r"/>  
+   <seg function="header">
+   <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1-3"/>kaḷaṅkāṇpaṭalam</seg></seg>
+     
+    
+    
+    <pb facs="771" n="366r"/>  
+   <seg function="header">
+   <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1-3"/><gap reason="ellipsis"/>paṭalam</seg></seg>
+    
+     <pb facs="787" n="374r"/>  
+   <seg function="header">
+     <seg function="blessing"><milestone unit="left-margin"/>
+  <lb n="1"/>śrī<g ref="#double_kal">rā</g>mā</seg>   
+    <seg function="intertitle">
+  <lb n="2-4"/>tiruvapiṣēkap paṭalam</seg></seg>
+    
+     <pb facs="789" n="375r"/>  
+   <seg function="header">
+     <seg function="blessing"><milestone unit="left-margin"/>
+  <lb n="1"/>śrī<g ref="#double_kal">rā</g>mā</seg>
+   <seg function="intertitle">
+  <lb n="2-3"/>Uttirakāṇṭam</seg>
+    <seg function="intertitle">
+  <lb n="4-6"/>kupēraṉ piṟappup paṭalam</seg></seg>
+         
+     <pb facs="793" n="377r"/>  
+   <seg function="header">
+   <seg function="blessing"><milestone unit="left-margin"/>
+  <lb n="1"/>śrī<g ref="#double_kal">rā</g>mā</seg></seg>
+     
+     <pb facs="795" n="378r"/>  
+   <seg function="header">
+     <seg function="blessing"><milestone unit="left-margin"/>
+  <lb n="1"/>śrī<g ref="#double_kal">rā</g>mā</seg>
+   <seg function="intertitle">
+  <lb n="2-4"/><gap reason="ellipsis"/>paṭalam</seg></seg>
+    
+          <pb facs="801" n="381r"/>  
+   <seg function="header">
+     <seg function="blessing"><milestone unit="left-margin"/>
+  <lb n="1"/>śrī<g ref="#double_kal">rā</g>mā <g ref="#pcs"/></seg>
+   <seg function="intertitle">
+  <lb n="2-4"/>Ilaṅkai yaḻittap paṭalam</seg></seg>
+    
   <pb facs="987" n="474r"/>  
    <seg function="header">
      <lb n="1"/><g ref="#pcs"/>
