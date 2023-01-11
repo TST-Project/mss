@@ -32,7 +32,7 @@
                <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
                         <extent>
-                           <measure unit="folio" quantity="88">{1} + {1} + 85 + {1} (U1 + U2 + U3 + U4).</measure>
+                           <measure unit="folio" quantity="133">{1} + {1} + 130 + {1} (U1 + U2 + U3 + U4).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
@@ -40,13 +40,13 @@
                         <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
                         
                         
-                     <support><p>Rounded edges.</p></support><foliation>Tamil foliation in left margin.</foliation><collation><desc xml:id="U1">1 folio = <emph rend="bold"><title xml:lang="ta">Naiṭatam</title>: Title Page (additional)</emph>. No foliation.</desc><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U2">1 folio = <emph rend="bold"><title xml:lang="ta">Naiṭatam</title>: Invocation</emph>. No foliation.</desc><desc xml:id="U3">130 folios = <emph rend="bold"><title xml:lang="ta">Naiṭatam</title>: Mūlam</emph>. Tamil foliation 1-4, 20-21.1, 21.2-69, 126-144.</desc><desc xml:id="U4">1 folio = <emph rend="bold"><title xml:lang="ta">Naiṭatam</title>: orphan folio</emph>. No foliation.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Relatively good state of preservation.</condition></supportDesc>
+                     <support><p>Rounded edges.</p></support><foliation>Tamil foliation in left margin (U3).</foliation><collation><desc xml:id="U1">1 folio = <emph rend="bold"><title xml:lang="ta">Naiṭatam</title>: Title Page (additional)</emph>. No foliation.</desc><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U2">1 folio = <emph rend="bold"><title xml:lang="ta">Naiṭatam</title>: Front Matter</emph>. Invocation (2 satellite stanzas), Invocation (<term xml:lang="ta">Kaṭavuḷ Vāḻttu</term>), Preface (<term xml:lang="ta">Ciṟappuppāyiram</term>). No foliation.</desc><desc xml:id="U3">130 folios = <emph rend="bold"><title xml:lang="ta">Naiṭatam</title>: Mūlam</emph>. Tamil foliation 1-4, 20-21.1, 21.2-69, 126-144.</desc><desc xml:id="U4">1 folio = <emph rend="bold"><title xml:lang="ta">Naiṭatam</title>: orphan folio</emph>. No foliation.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Relatively good state of preservation.</condition></supportDesc>
                      <layoutDesc>
                         
                      </layoutDesc>
                   </objectDesc><handDesc>
                      
-                  <handNote synch="#U1" scope="minor" script="tamil" medium="incised soot"><desc>Hand #1. <persName role="scribe">Ariel's scribe</persName>.</desc></handNote><handNote synch="#U2 #U3" scope="major" script="tamil" medium="incised soot"><desc>Hand #2. Some folio unblackened in U2 (e.g. f30).</desc></handNote></handDesc><additions>
+                  <handNote synch="#U1" scope="minor" script="tamil" medium="incised soot"><desc>Hand #1. <persName role="scribe">Ariel's scribe</persName>.</desc></handNote><handNote synch="#U2 #U3" scope="major" script="tamil" medium="incised soot"><desc>Hand #2. Some folio unblackened in U2 (e.g. f30).</desc></handNote><handNote synch="#U3" scope="minor" script="tamil" medium="incised soot"><desc>Hand #3?</desc></handNote></handDesc><additions>
                      
                          
                      
@@ -128,30 +128,30 @@
     <seg function="blessing"><lb n="2-3"/>kuruvē tuṇai</seg>
       
       <seg function="title"><milestone n="2" unit="left-margin"/>
-        <lb n="1-2"/>niṭatapurāṇa<seg rend="grantha">m·</seg></seg>
+        <lb n="1-2"/>niṭatapurāṇa<seg rend="grantha">m·</seg></seg>      
       
       <seg function="blessing"><milestone n="3" unit="left-margin"/>
          <lb n="1-2"/>śrīmatē rāmaṉujāya nama</seg>
-      
+        
       </seg>
         
-    <seg function="satellite-stanza"><milestone unit="main-text-area"/>
+    <seg function="invocation"><milestone unit="main-text-area"/>
   <lg><l><lb n="1"/>tavaḷat tāmarait tāt<pc>'</pc> ār kōyi</l> <l>l a
   <lb n="2" break="no"/>vaḷaip pōṟṟutūUm Arun tamiḻ kuṟittē</l></lg></seg>
     
-    <seg function="satellite-stanza"><lg><l><lb n="3"/>cantaṉap potiyat taṭavaraic centamiḻp</l>
+    <seg function="invocation"><lg><l><lb n="3"/>cantaṉap potiyat taṭavaraic centamiḻp</l>
   <lb n="4"/> <l>paramācariyaṉ pataṅkaḷ</l>
   <l><lb n="5"/>cira mēṟ koḷḷutūn tikaḻtaraṟ poruṭṭē <g ref="#pcl"/></l></lg></seg>
     
     <seg function="blessing"><milestone unit="right-margin"/>
     <lb n="1"/><term xml:lang="sa">vāṇinamas· tu</term></seg>
     
-     <seg function="satellite-stanza"><pb facs="6" n="[1]v"/>
+     <seg function="invocation"><pb facs="6" n="[1]v"/>
      <lg><l><lb n="1"/>tāḻaiviri kaṭukkai mālait taṉimutaṟ caṭaiyiṟ cūṭuṅ</l> <l>kuḻaviveṇ ṭiṅka ḷiṟṟa kōṭṭatu kuṟaiyeṉ ṟeṇṇip ~</l> <l>puḻaineṭuṅ karattār
        <lb n="2" break="no"/>p paṟṟip poṟpuṟa viṇaittu nōkku ~</l> <l>maḻaimatak kaḷiṟṟiṉ ceyya malaraṭi ceṉṉi vaippām =</l></lg></seg> <seg function="blessing">viṉāyaka-namas· tu ~</seg>
-    <seg function="satellite-stanza"><lg><l><lb n="3"/>nilavupoḻi taṉikkavikai niṭatākōṉ pukaḻcarita neṭunīr vaippiṟ ~</l> <l>pulavarkaḷi yamutoḻuku putumoḻikkūṭ
+    <seg function="preface"><lg><l><lb n="3"/>nilavupoḻi taṉikkavikai niṭatākōṉ pukaḻcarita neṭunīr vaippiṟ ~</l> <l>pulavarkaḷi yamutoḻuku putumoḻikkūṭ
       <lb n="4"/>ṭuṇattamiḻāṟ puṉaital ceytā</l> <l>ṉavalaṉuyartta vaṇṇalañcel vāṉṟoṭupoṟ kōṭṭi<add place="below">mai</add>ya varaiyiṟ ṟīṭṭi ~</l>
-    <l><lb n="5"/>yalartalaimā nilampurakku mativīra rāmaṉika laraca rēṟē :</l></lg></seg> <seg function="blessing">Ācariyār tiruvaṭikaḷē caraṇa<seg rend="grantha">m</seg><g ref="#pcl"/></seg>
+    <l><lb n="5"/>yalartalaimā nilampurakku mativīra rāmaṉika laraca rēṟē :</l></lg></seg> <space/> <seg function="blessing">Ācariyār tiruvaṭikaḷē caraṇa<seg rend="grantha">m</seg><g ref="#pcl"/></seg>
      
     </ab>
   </body></text><text synch="#U3" corresp="#T3" xml:lang="ta"><body>
@@ -232,19 +232,24 @@
         <pb facs="141" n="138r"/>
     <seg function="header">
   <seg function="intertitle"><milestone unit="left-margin"/>
-    <lb n="1ff."/><gap reason="ellipsis"/></seg></seg>
+    <lb n="1-3"/>tēviyaik kaṇṇuṟṟa paṭalam</seg></seg>
+    
+    <pb facs="147" n="141r"/>
+    <seg function="header">
+  <seg function="intertitle"><milestone unit="left-margin"/>
+    <lb n="1-3"/>Aracāṭcip paṭalam</seg></seg>
     
         <pb facs="151" n="143r"/>
      <lb n="1"/><gap reason="ellipsis"/>
      <lb n="2"/><gap reason="ellipsis"/>
      <lb n="3"/><gap reason="ellipsis"/>
      <lb n="4"/><gap reason="ellipsis"/>
-     <lb n="5"/><gap reason="ellipsis"/>
-     <lb n="6"/><gap reason="ellipsis"/>
+     <lb n="5"/><gap reason="ellipsis"/> = <num rend="traditional">15</num> = <gap reason="ellipsis"/>
+     <lb n="6"/><gap reason="ellipsis"/> <gap reason="ellipsis"/> = <seg function="explicit"><num rend="traditional">16</num> = vāḻi <gap reason="ellipsis"/>
     
         <pb facs="152" n="143v"/>
-      <lb n="1"/><gap reason="ellipsis"/>
-     <lb n="2"/><gap reason="ellipsis"/>
+      <lb n="1"/><gap reason="ellipsis"/> vāḻiyē =
+     <lb n="2"/><num rend="traditional">17</num> =</seg> <seg function="colophon"><seg function="completion-statement">Aracāṭcip paṭala muṟṟum</seg> <seg function="total-stanzas">{Āka} pātalam <num rend="traditional">28</num>k=ku tiru<del><gap reason="illegible" quantity="2" unit="character"/></del>viruttam ~ <num rend="traditional">1172</num> ~</seg> <seg function="blessing">tamiḻ māṟaṉ kuḷa vāḻka =</seg></seg>
     
         
     <seg function="table-of-contents">
@@ -296,13 +301,13 @@
      <lb n="4"/><gap reason="ellipsis"/>
      <lb n="5"/><gap reason="ellipsis"/>
      <lb n="6"/><gap reason="ellipsis"/>
-     <lb n="7"/><gap reason="ellipsis"/>
+     <lb n="7"/>Aracāṭcippaṭalam = <num rend="traditional">17</num> =
     
-    <milestone n="3" unit="column"/>
+    <seg function="total-stanzas"><milestone n="3" unit="column"/>
 <lb n="1"/>Āka niṭatapurāṇattiṉ
      <lb n="2"/>paṭalam <num rend="traditional">28</num>k=ku
      <lb n="3"/>Ākat tiruviruttam
-     <lb n="4"/><num rend="traditional">1172</num> =
+     <lb n="4"/><num rend="traditional">1172</num> =</seg>
       
       </seg>
 
