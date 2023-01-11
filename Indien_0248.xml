@@ -40,7 +40,7 @@
                         <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
                         
                         
-                     <support><p>Rounded edges.</p></support><foliation>Tamil foliation in left margin.</foliation><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">168 folios = <emph rend="bold"><title xml:lang="ta">Naiṭatam</title>: Invocation &amp; Text</emph>. Tamil foliation 1-168.</desc><desc xml:id="U2">2 folios = <emph rend="bold">guard leaves</emph>. No foliation. Blank recto verso.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Very good state of preservation.
+                     <support><p>Rounded edges.</p></support><foliation>Tamil foliation in left margin.</foliation><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">168 folios = <emph rend="bold"><title xml:lang="ta">Naiṭatam</title>: Front Matter &amp; Text</emph>. Invocation (<term xml:lang="ta">Kaṭavuḷ Vāḻttu</term>), Preface (<term xml:lang="ta">Ciṟappuppāyiram</term>), Text (<term xml:lang="ta">Mūlam</term>). Tamil foliation 1-168.</desc><desc xml:id="U2">2 folios = <emph rend="bold">guard leaves</emph>. No foliation. Blank recto verso.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Very good state of preservation.
                         </condition></supportDesc>
                      <layoutDesc>
                         
@@ -111,10 +111,10 @@
     <lb n="2"/>Om ·</term></seg>
       </seg>
 
-    <seg function="satellite-stanza"><milestone unit="main-text-area"/>
+    <seg function="invocation"><milestone unit="main-text-area"/>
     <lg><l><lb n="1"/>taḻaiviri kaṭukkai mālai taṉimutaṟ caṭaiyiṟ cūṭuṅ</l> <l>kuḻaviveṇ ṭiṅka ḷiṟṟa kōṭṭatu kuṟaiyeṉ ṟeṇṇi
      <lb n="2" break="no"/>p</l> <l>puḻaineṭuṅ karattārp paṟṟip poṟpuṟa viṇaittu nōkku</l> <l>maḻaimata kaḷiṟṟiṉ ceyya malaraṭi ceṉṉi vaip <term xml:lang="en">{line-filler (small circle)}</term>
-     <lb n="3"/>pām <g ref="#pcs"/></l></lg></seg> <seg function="satellite-stanza"><lg><l>nilavumoḻi taṉikkavitai niṭatākōṉ pukaḻcaritam neṭunīr vaippiṟ</l> <l>pulavarkaḷiṉ mu
+     <lb n="3"/>pām <g ref="#pcs"/></l></lg></seg> <seg function="preface"><lg><l>nilavumoḻi taṉikkavitai niṭatākōṉ pukaḻcaritam neṭunīr vaippiṟ</l> <l>pulavarkaḷiṉ mu
     <lb n="4" break="no"/>toḻuku putumoḻikūṭ ṭuṇattamiḻāṟ puṉaital ceytā</l> <l>ṉavalaṉuyartta vaṇṇalañcēl vāṉṟoṭu
     <lb n="5" break="no"/>poṟ kōṭṭimaiya varaiyiṟ ṟīṭṭi</l>
     <l><lb n="5"/>yalartalaimā ṉilampurakku mativīra rāmaṉika raraca rēṟē <g ref="#pcl"/></l></lg></seg>
@@ -303,7 +303,9 @@
     
     <pb facs="337" n="168r"/><note xml:lang="en">blank</note>
     <lb n="1-5"/><gap reason="ellipsis"/>
-    <lb n="6"/><num rend="traditional">15</num> ~ <gap reason="ellipsis"/> <g ref="#pcl"/> niṭatam yeḻuti niṟaveṟittutu muṟṟum <g ref="#pcl"/>
+    <lb n="4"/><gap reason="ellipsis"/> ~ <num rend="traditional">14</num> ~ <seg function="explicit">Āḻi <gap reason="ellipsis"/>
+    <lb n="5"/><gap reason="ellipsis"/>
+    <lb n="6"/><num rend="traditional">15</num> ~</seg> <seg function="colophon"><seg function="completion-statement">Arcāṭcippaṭala muṟṟum <g ref="#pcl"/></seg> <seg function="completion-statement">niṭatam yeḻuti niṟaveṟittutu muṟṟum <g ref="#pcl"/></seg></seg>
 
         <pb facs="338" n="168v"/><note xml:lang="en">blank</note>
 
