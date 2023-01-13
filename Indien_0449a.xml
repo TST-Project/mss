@@ -9,7 +9,7 @@
          
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2022</date>
+            <date>2023</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -21,16 +21,20 @@
                   <idno type="alternate"><idno>Tamoul 449</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103978h</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/k930c4449</idno></msIdentifier>
                <msContents class="#MTM">
-                  <summary><p>A multi-text manuscript containing:
-<list rend="numbered">
-  <item>A <title xml:lang="ta">cintu</title> (U2, f[1]r-f[3]r = U2a).</item>
-  <item>Another <title xml:lang="ta">cintu</title> (U2, f[3]v-f[6]r = U2b).</item>
+                  <summary><p>A multi-text manuscript containing 2 <foreign xml:lang="ta">cintu</foreign>s:
+  <list rend="numbered">
+  <item><title xml:lang="ta">cintu</title> no. 1 (U2, f[1]r-f[3]r = U2a).</item>
+  <item><title xml:lang="ta">cintu</title> no. 2 (U2, f[3]v-f[6]r = U2b).</item>
 </list></p>
 </summary>
                   
-               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Invocation</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2a" xml:id="T2" defective="false"><title xml:lang="ta">Cintu</title><textLang mainLang="tam"/></msItem><msItem synch="#U2b" xml:id="T3" defective="false"><title xml:lang="ta">Cintu</title><textLang mainLang="tam"/></msItem></msContents>
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Front Matter: Invocation</term></title><textLang mainLang="tam"/><filiation><p><ref target="https://tst-project.github.io/mss/Indien_0350.xml">BnF Indien 350</ref> (U1).</p></filiation></msItem><msItem synch="#U2a" xml:id="T2" defective="false"><title xml:lang="ta">Cintu <term xml:lang="en">n0. 1</term></title><textLang mainLang="tam"/><filiation><p><ref target="https://tst-project.github.io/mss/Indien_0350.xml">BnF Indien 350</ref> (U2).</p></filiation></msItem><msItem synch="#U2b" xml:id="T3" defective="false"><title xml:lang="ta">Cintu <term xml:lang="en">n0. 2</term></title><textLang mainLang="tam"/><filiation><p><ref target="https://tst-project.github.io/mss/Indien_0350.xml">BnF Indien 350</ref> (U2).</p></filiation></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi">
+                  
+                  
+                  
+                  
+               <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
                         <extent>
                            <measure unit="folio" quantity="7">{1} + {6} (U1 + U2). Double folios.</measure>
@@ -41,32 +45,28 @@
                         <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
                         
                         
-                     <collation>
+                     <support/><collation>
                      
-                     <desc xml:id="U1">1 folio = <emph rend="bold">Invocation</emph>. No foliation. Double folio. f1r darker = original outside page.</desc><desc xml:id="U2">6 folios = <emph rend="bold">Texts</emph>. No foliation. Double folios. f6v darker = original outside page.</desc><desc xml:id="U2a">3 folios = 5 pages <emph rend="bold"><title xml:lang="ta">Cintu</title></emph>. No foliation. </desc><desc xml:id="U2b">3 folios = 6 pages <emph rend="bold"><title xml:lang="ta">Cintu</title></emph>. No foliation. </desc></collation><condition>Relatively good state of preservation, despite some cracked, truncated leaves.</condition><support><measure unit="stringhole" quantity="1"/></support></supportDesc>
+                     <desc xml:id="U1">1 folio = <emph rend="bold">Front: Matter Invocation</emph>. No foliation. Double folio. f1r darker = original outside page.</desc><desc xml:id="U2">6 folios = <emph rend="bold">Texts</emph>. No foliation. Double folios. f6v darker = original outside page.</desc><desc xml:id="U2a">3 folios = 5 pages <emph rend="bold"><title xml:lang="ta">Cintu</title> no. 1</emph>. No foliation. </desc><desc xml:id="U2b">3 folios = 6 pages <emph rend="bold"><title xml:lang="ta">Cintu</title> n0. 2</emph>. No foliation. </desc></collation><condition>Relatively good state of preservation, despite some cracked, truncated leaves.</condition></supportDesc>
                      <layoutDesc>
                         
                      </layoutDesc>
-                  </objectDesc>
-                  <handDesc>
+                  </objectDesc><handDesc>
                      
-                  <handNote synch="#U1 #U2 #U2a #U2b" scope="major" script="tamil" medium="incised"><desc>Several hands. Unblackened except U1.</desc></handNote></handDesc>
-                  <additions><desc synch="#U1" type="shelfmark">Shelfmark in black ink: <quote>N° 18</quote> (<locus facs="2">f[1]r</locus>). This is the number in Velanguani Arokium's catalogue, first numbered list (<ref target="https://gallica.bnf.fr/ark:/12148/btv1b10527869m/f15">f. 3r, nos. 8, 18, 19</ref>).</desc></additions>
-                  <bindingDesc>
+                  <handNote synch="#U1 #U2 #U2a #U2b" scope="major" script="tamil" medium="incised"><desc>Several hands. Unblackened except U1.</desc></handNote></handDesc><additions><desc synch="#U1" type="shelfmark">Shelfmark in black ink: <quote>N° 18</quote> (<locus facs="2">f[1]r</locus>). This looks like the number in Velanguani Arokium's catalogue, as in other manuscripts. See Velanguani Arokium's catalogue first numbered list (<ref target="https://gallica.bnf.fr/ark:/12148/btv1b10527869m/f15">f. 3r, nos. 8, 18, 19</ref>), which, however, desribes the <title xml:lang="ta">Ātticcuṭi</title>.</desc></additions><bindingDesc>
                      <binding>
                         
-                     </binding>
-                  </bindingDesc>
-               </physDesc>
+                     <decoNote type="stringhole"><measure unit="stringhole" quantity="1"/></decoNote></binding>
+                  </bindingDesc></physDesc>
                <history>
-                  <origin>
+                  
+                  
+               <origin>
                      <origDate calendar="gregorian" notAfter="1822">Internally dated to the year <foreign xml:lang="ta">viṣu</foreign> of the Jovian cycle, that is, CE 1821-1822, 1761-1762, 1701-1702, etc. See colophon (U2, <locus facs="54">f[7]r, c2, 1</locus>). Not dated by Vinson in Vinson et al. (1866-) nor by Cabaton (1912). Not after first mention in a catalogue (1845).</origDate>
                      <origPlace>Tamilnadu.</origPlace>
-                  </origin>
-                  <acquisition>
+                  </origin><provenance><p>Unknown.</p></provenance><acquisition>
                      
-                  <p>Unknown.</p></acquisition>
-               <provenance><p>Unknown.</p></provenance></history>
+                  <p>Unknown.</p></acquisition></history>
                <additional>
                   <listBibl>
                      
@@ -106,8 +106,8 @@
   <lb n="1"/>naṉṟāka</seg>
   
   <seg function="incipit"><milestone n="1" unit="column"/>
-  <lb n="1"/>cinti-t toḻavatu – kaṇapati ceya <choice><sic>cē</sic><corr>ce</corr></choice>ya</seg>
-  <lb n="1-3"/><gap reason="ellipsis"/>
+  <lb n="1"/>cinti-t toḻavatu – kaṇapati cey <choice><sic>cē</sic><corr>ce</corr></choice>y</seg>
+  <lb n="2-4"/><gap reason="ellipsis"/>
   
   <milestone n="2" unit="column"/>
   <lb n="1-4"/><gap reason="ellipsis"/>
@@ -118,8 +118,8 @@
   <pb facs="24" n="[3]r"/>
   <milestone n="3" unit="column"/>
   <seg function="explicit"><lb n="1"/><gap reason="ellipsis"/></seg>
-  <seg function="completion-statement"><lb n="2"/>paḷḷi-p piḷḷaiyār
-<lb n="3"/>cintu muṟṟum</seg>
+  <seg function="colophon"><seg function="completion-statement"><lb n="2"/>paḷḷi-p piḷḷaiyār
+<lb n="3"/>cintu muṟṟum</seg></seg>
   
     </ab>
 </body></text><text synch="#U2b" corresp="#T3" xml:lang="ta"><body>
@@ -127,8 +127,8 @@
   <pb facs="26" n="[3]v"/>
   
   <seg function="incipit"><milestone n="1" unit="column"/>
-  <lb n="1"/><gap reason="ellipsis"/></seg>
-  <lb n="1-3"/><gap reason="ellipsis"/>
+  <lb n="1"/>pos·takattuḷḷuṟai maratē </seg>
+  <lb n="2-4"/><gap reason="ellipsis"/>
   
   <milestone n="2" unit="column"/>
   <lb n="1-4"/><gap reason="ellipsis"/>
@@ -140,10 +140,10 @@
   
   <seg function="explicit"><milestone n="1" unit="column"/>
   <lb n="1"/><gap reason="ellipsis"/></seg>
-  <seg function="completion-statement"><lb n="2"/>paḷḷiyiṟ piḷḷaiyār
+  <seg function="colophon"><seg function="completion-statement"><lb n="2"/>paḷḷiyiṟ piḷḷaiyār
 <lb n="3"/>cintu muṟṟum</seg>
   
- <seg function="colophon"><milestone n="2" unit="column"/>
+ <seg function="completion-statement"><milestone n="2" unit="column"/>
  <lb n="1"/>viṣa <g ref="#varuṣam">varuṣam</g> Aṟpici <g ref="#mācam">mācam</g> 5 <g ref="#tēti">tēti</g>y=i=l 
  <lb n="2"/><persName xml:lang="ta" role="reciter">tāṇṭavamūṟti {piḷḷai}
 <lb n="3"/>kumāraṉ</persName> paṭik=kiṉṟa
@@ -151,7 +151,7 @@
 
     <milestone n="3" unit="column"/>
   <lb n="1"/>niṟavēṟiṉatu
-<lb n="2"/>muṟṟum <g ref="#pcs"/></seg>
+<lb n="2"/>muṟṟum <g ref="#pcs"/></seg></seg>
 
     <pb n="[7]v"/><note xml:lang="en">blank</note>
   </ab>
