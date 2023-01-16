@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>TBC</title>
+            
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2023</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Indien 561</idno>
+                  <idno type="alternate"><idno>Tamoul 561</idno><idno>Burnouf</idno></idno>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc104089b</idno></msIdentifier>
+               <msContents class="#MTM">
+                  <summary><p>A multiple-text manuscript, possibly composite. The leaves are rolled and thus not easily legible. It seems that there are three different texts.</p>
+<p>Description based on the examination of the original manuscript (September 2020) 2021).</p>
+<p>Dimensions after Cabaton (1912).</p>  </summary>
+                  
+               <msItem synch="#U1" xml:id="T1" defective="true"><title xml:lang="ta"><term xml:lang="en">TBC</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="true"><title xml:lang="ta"><term xml:lang="en">TBC</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T3" defective="false"><title xml:lang="ta"><term xml:lang="en">TBC</term></title><textLang mainLang="tam"/></msItem></msContents>
+               <physDesc>
+                  
+                  
+                  
+                  
+                  
+               <objectDesc form="roll" rend="manuscript">
+                     <supportDesc material="palm-leaf">
+                        <support>
+                           
+                           
+                        </support>
+                        <extent>
+                           <measure unit="folio" quantity="13">2 + 2 + 9 (U1 + U2 + U3).</measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           <width quantity="500"/><height quantity="25"/></dimensions>
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
+                        
+                        
+                        
+                     <foliation>Left-marginal Tamil numerals foliation (U1, U2, U3).</foliation><collation><desc xml:id="U1">2 folios = <emph rend="bold">TBC</emph>. Tamil foliation.</desc><desc xml:id="U2">2 folios = <emph rend="bold">TBC</emph>. Tamil foliation.</desc><desc xml:id="U3">9 folios = <emph rend="bold">TBC</emph>. Tamil foliation.</desc></collation><condition>Good state of preservation. Some folios cracked.</condition></supportDesc>
+                     <layoutDesc>
+                        
+                     </layoutDesc>
+                  </objectDesc><handDesc><handNote synch="#U1" scope="major" script="tamil" medium="incised"/><handNote synch="#U2" scope="major" script="tamil"/><handNote synch="#U3" scope="major" script="tamil"/></handDesc><decoDesc>
+                  </decoDesc><additions>
+                  <desc synch="#U1" type="shelfmark" subtype="left">BnF old shelfmark in black ink <quote>Tamoul N° 561</quote>.</desc><desc type="documenting-note" subtype="left">BnF donation reference in black ing <quote>Don. 2345</quote>.</desc></additions><bindingDesc>
+                     <binding><p>No covers.</p><decoNote type="stringhole"><measure unit="stringhole" quantity="1"/></decoNote></binding>
+                  </bindingDesc></physDesc>
+               <history>
+                  
+                  
+                  
+                  
+                  
+                  
+               <origin>
+                     <origDate calendar="gregorian" notAfter="1852">The date 1783 CE appears at the beginning of U3, but it is not clear if it is the date of copy. Not dated by Feer in Vinson et al. (1868-) nor by Cabaton (1912). Not after 1852, since part of the collection of <persName role="collector">Eugène Burnouf</persName> (1801-1852). </origDate>                     
+                  <origPlace>South India, Tamilnadu.</origPlace>
+                  </origin><provenance>
+                     
+                  <p>Owned by <persName role="collector">Eugène Burnouf</persName> (1801-1852). </p></provenance><acquisition>
+                     
+                  <p>Received in 1880 (TBC), June  19th, from “Mme Vve Eugène Burnouf”. See BnF, département des Manuscrits, inventaire 7 = <title>Dons: manuscrits et imprimés documentaires, 1848-1895</title>, no. 2345.</p></acquisition></history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f97">p. 78, no. 561</ref>.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. 1866-. <title> Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f265">f. 125r, no. 561</ref>.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         
+      <p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.            </p></encodingDesc>
+      
+   <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
+         
+      <change when="2023-01">Record created by Emmanuel FRANCIS.</change></revisionDesc></teiHeader>
+   <facsimile>
+   </facsimile>
+<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+  <ab>
+    
+  <pb n="(2)r"/>
+    
+    <milestone unit="main-text-area"/>
+    <lb n="1"/><gap reason="ellipsis"/>
+    <lb n="2"/><gap reason="ellipsis"/>
+    <lb n="3"/><gap reason="ellipsis"/>
+    
+    <pb n="(2)v"/>
+    
+    <milestone unit="main-text-area"/>
+    <lb n="1"/><gap reason="ellipsis"/>
+    <lb n="2"/><gap reason="ellipsis"/>
+    <lb n="3"/><gap reason="ellipsis"/>
+    
+ <pb n="(3)r"/>
+    
+    <milestone unit="main-text-area"/>
+    <lb n="1"/><gap reason="ellipsis"/>
+    <lb n="2"/><gap reason="ellipsis"/>
+    
+     <pb n="(3)v"/><note xml:lang="en">blank</note>
+
+    
+    </ab>
+</body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
+  <ab>
+    
+  <pb n="2r"/>
+    
+    <milestone unit="main-text-area"/>
+    <lb n="1"/><gap reason="ellipsis"/>
+    <lb n="2"/><gap reason="ellipsis"/>
+    <lb n="3"/><gap reason="ellipsis"/>
+    <lb n="4"/><gap reason="ellipsis"/>
+    <lb n="5"/><gap reason="ellipsis"/>
+    
+     <pb n="2v"/>
+    
+    <milestone unit="main-text-area"/>
+    <lb n="1"/><gap reason="ellipsis"/>
+    <lb n="2"/><gap reason="ellipsis"/>
+    <lb n="3"/><gap reason="ellipsis"/>
+    <lb n="4"/><gap reason="ellipsis"/>
+    <lb n="5"/><gap reason="ellipsis"/>
+     
+    <pb n="3r"/>
+    
+    <milestone unit="main-text-area"/>
+    <lb n="1"/><gap reason="ellipsis"/>
+    <lb n="2"/><gap reason="ellipsis"/>
+    <lb n="3"/><gap reason="ellipsis"/>
+    <lb n="4"/><gap reason="ellipsis"/>
+    <lb n="5"/><gap reason="ellipsis"/>
+    
+     <pb n="3v"/>
+    
+    <milestone unit="main-text-area"/>
+    <lb n="1"/><gap reason="ellipsis"/>
+    <lb n="2"/><gap reason="ellipsis"/>
+    <lb n="3"/><gap reason="ellipsis"/>
+    <lb n="4"/><gap reason="ellipsis"/>
+    <lb n="5"/><gap reason="ellipsis"/>
+    
+    </ab>
+</body></text><text synch="#U3" corresp="#T3" xml:lang="ta"><body>
+  <ab>
+    
+  <pb n="[1]r"/>
+    
+    <seg function="header">
+      <seg function="blessing"><milestone unit="main-text-area"/>
+    <lb n="1"/>yēcu tuṇai</seg></seg>
+    
+    <milestone unit="main-text-area"/>
+    <lb n="1"/><num rend="traditional">1783</num> {varuṣam} puraṭṭāci {mācam} 1 {tēti} kālamē kōṭṭai <gap reason="ellipsis"/>
+    <lb n="2"/><gap reason="ellipsis"/>
+    <lb n="3"/><gap reason="ellipsis"/>
+    <lb n="4"/><gap reason="ellipsis"/>
+    <lb n="5"/><gap reason="ellipsis"/>
+    <lb n="6"/><gap reason="ellipsis"/>
+    
+   <pb n="[1]v"/>
+    
+    <milestone unit="main-text-area"/>
+    <lb n="1"/>2 {tēti} kālamē <gap reason="ellipsis"/>
+    <lb n="2"/><gap reason="ellipsis"/>
+    <lb n="3"/><gap reason="ellipsis"/>
+    <lb n="4"/>3 {tēti} kālamē <gap reason="ellipsis"/>
+    <lb n="5"/><gap reason="ellipsis"/>
+    <lb n="6"/>4 {tēti} kālamē <gap reason="ellipsis"/>
+    
+     <pb n="2r"/>
+    
+    <milestone unit="main-text-area"/>
+    <lb n="1"/><gap reason="ellipsis"/>
+    <lb n="2"/><gap reason="ellipsis"/>
+    <lb n="3"/><gap reason="ellipsis"/>
+    <lb n="4"/><gap reason="ellipsis"/>
+    <lb n="5"/>5 {tēti} kālamē <gap reason="ellipsis"/>
+    <lb n="6"/><gap reason="ellipsis"/>
+    
+   <pb n="2v"/>
+    
+    <milestone unit="main-text-area"/>
+    <lb n="1"/><gap reason="ellipsis"/>
+    <lb n="2"/>6 {tēti} kālamē <gap reason="ellipsis"/>
+    <lb n="3"/><gap reason="ellipsis"/>
+    <lb n="4"/>7 {tēti} kālamē <gap reason="ellipsis"/>
+    <lb n="5"/>8 {tēti} kālamē <gap reason="ellipsis"/>
+    <lb n="6"/>9 {tēti} kālamē <gap reason="ellipsis"/>
+             
+    <pb n="3r"/>
+    <pb n="3v"/>
+    
+    <pb n="4r"/>
+    <pb n="4v"/>
+    
+    <pb n="5r"/>
+    <pb n="5v"/>
+    
+    <pb n="6r"/>
+    <lb n="1"/>28 {tēti} ṉāyit=tu kiḻamai <gap reason="ellipsis"/>
+    <lb n="2"/>29 {tēti} kālamē <gap reason="ellipsis"/>
+    <lb n="3"/><gap reason="ellipsis"/>
+    <lb n="4"/><gap reason="ellipsis"/>
+    <lb n="5"/><num rend="traditional">30</num> {tēti} kālamē <gap reason="ellipsis"/>
+    
+    <pb n="6v"/>
+     <lb n="1"/>Āṭi {mācam} 1 {tēti} <gap reason="ellipsis"/>
+    <lb n="2"/><gap reason="ellipsis"/>
+    <lb n="3"/>2 {tēti} kālamē <gap reason="ellipsis"/>
+    <lb n="4"/>3 {tēti} kālamē <gap reason="ellipsis"/>
+    <lb n="5"/>4 {tēti} kālamē <gap reason="ellipsis"/>
+    
+    <pb n="7r"/>
+    <pb n="7v"/>             
+    
+    <pb n="8r"/>
+    <pb n="8v"/>
+    
+    <pb n="9r"/>
+    <lb n="1"/><gap reason="ellipsis"/>
+    <lb n="2"/><num rend="traditional">18</num> {tēti} <gap reason="ellipsis"/>
+    <lb n="3"/><gap reason="ellipsis"/>
+    <lb n="4"/><num rend="traditional">19</num> {tēti} <gap reason="ellipsis"/>
+    <lb n="5"/><gap reason="ellipsis"/>
+    
+    <pb n="9v"/>
+    <lb n="1"/><num rend="traditional">20</num> {tēti} <gap reason="ellipsis"/>
+    <lb n="2"/><gap reason="ellipsis"/>
+    <lb n="3"/>21 {tēti}<gap reason="ellipsis"/>
+    <lb n="4"/>22 <gap reason="ellipsis"/> 
+    
+  
+    </ab>
+</body></text></TEI>
