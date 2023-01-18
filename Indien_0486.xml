@@ -9,7 +9,7 @@
          
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2022</date>
+            <date>2023</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -22,7 +22,8 @@
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1040148</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b52515686n</idno></msIdentifier>
                <msContents class="#STM">
                   <summary><p>This manuscript contains a ballad (<foreign xml:lang="ta">ammāṉai</foreign>) on the Catholic saint Margaret, called in Tamil <term xml:lang="ta">Marikarutammāḷ</term>. It tells the story of her life, conversion to Christianity, and death. The author is unknown, but the text likely dates to the 18th century. </p>
-<p>The manuscript is fairly simple: it is constituted by one unit single unit containing the (incomplete) text and several blank but numbered folios.</p></summary>
+<p>The manuscript is fairly simple: it is constituted by one unit single unit containing the (incomplete) text and several blank but numbered folios.</p>
+<p>Description by M. Trento based on the examination of the original manuscript.</p> <p>Dimensions assessed by E. Francis (January 2023).</p>      </summary>
                   
                <msItem synch="#U1" xml:id="T1" defective="true" class="#ammanai"><title xml:lang="ta"><title xml:lang="ta">Marikarutammāḷ Ammāṉai</title></title><textLang mainLang="tam"/><filiation><p>This texts exists in multiple manuscript and printed versions (see the bibliography below for some of the printed editions). </p></filiation></msItem></msContents>
                <physDesc>
@@ -42,19 +43,19 @@
                            <dimensions type="leaf" unit="mm">
                               
                               
-                           <width quantity="460"/><height quantity="25"/></dimensions>
-                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
+                           <width quantity="460"/><height quantity="30"/></dimensions>
+                        <dimensions type="object" unit="mm"><width quantity="460"/><height quantity="30"/><depth quantity="35"/></dimensions><dimensions type="written" unit="mm"/></extent>
                         
                         
-                     <foliation>Original Tamil foliation in Tamil numerals on the left margin.</foliation><collation><desc xml:id="Cover">The front cover has a sticker of the BnF with the current shelfmark (Indien 486). The back cover has on the inside some numbers in white chalk: <quote>66 bis 46 3</quote></desc><desc xml:id="U1">33 folios = <emph rend="bold"><title xml:lang="ta">Marikarutammāḷ Ammāṉai</title></emph>. Tamil foliation 1-33. f28-f33 blank. f1-f18 are foliated, inscribed and inked; f19-f27 are foliated, inscribed but not inked; f28-f33 are foliated but otherwise blank. 
+                     <foliation>Original left-marginal Tamil numerals foliation. Several foliation numbers corrected.</foliation><collation><desc xml:id="Cover">The front cover has a sticker of the BnF with the current shelfmark (Indien 486). The back cover has on the inside some numbers in white chalk: <quote>66 bis 46 3</quote></desc><desc xml:id="U1">33 folios = <emph rend="bold"><title xml:lang="ta">Marikarutammāḷ Ammāṉai</title></emph>. Tamil foliation 1-33. f28-f33 blank. f1-f18 are foliated, inscribed and inked; f19-f27 are foliated, inscribed but not inked; f28-f33 are foliated but otherwise blank. 
 </desc></collation><condition>Overall good conditions; signs of humidity; f25 is chipped.</condition></supportDesc>
                      <layoutDesc>
                         
-                     <layout writtenLines="2 5" columns="1 2"/></layoutDesc>
-                  </objectDesc><handDesc><handNote synch="#U1" scope="minor" script="tamil" scriptRef="#tamilPulliNone #tamilOE" medium="incised"><desc>The ms. is partially inked. The same scribe seems to have copied the entire manuscript. He sometimes used the double-curled <foreign xml:lang="ta">kompu</foreign> for long vowels <foreign>ō</foreign> and <foreign>ē</foreign>, but more often they remain unmarked. </desc></handNote></handDesc><typeDesc/><decoDesc>
+                     <layout writtenLines="2 5" columns="2">2-column layout for f2-f29.</layout></layoutDesc>
+                  </objectDesc><handDesc><handNote synch="#U1" scope="minor" script="tamil" scriptRef="#tamilPulliNone #tamilOE" medium="incised soot"><desc>Partially inked. The same scribe seems to have copied the entire manuscript. He sometimes used the double-curled <foreign xml:lang="ta">kompu</foreign> for long vowels <foreign>ō</foreign> and <foreign>ē</foreign>, but more often they remain unmarked. </desc></handNote></handDesc><typeDesc/><decoDesc>
                   </decoDesc><additions>
                   <desc synch="#U1" type="shelfmark" subtype="marginal left">Shelfmark in black ink: <quote>nº 24</quote> (<locus facs="3">folio 1r</locus>). This is the shelfmark given according to the list of manuscript  compiled by Velanguani Arokium (<foreign xml:lang="ta">Vēḷāṅkaṉṉi Ārōkkiyam</foreign>) (NAF 5443, <ref target="https://gallica.bnf.fr/ark:/12148/btv1b10527869m/f17.item">folio 4r</ref>).
-</desc><desc synch="#U1" type="correction">The scribe corrected the page number on several instances (for instance, on f17, f19, f20).</desc></additions><bindingDesc>
+</desc><desc synch="#U1" subtype="marginal left">Arabic foliation 27 added in black ink (<locus facs="55">f27r</locus>).</desc><desc synch="#U1" type="correction">The scribe corrected the page number on several instances (for instance, on f17, f19, f20).</desc><desc synch="#Cover" subtype="cover front">BnF current shelfmark sticker: <quote>INDIEN 486</quote> (<locus facs="1">front cover, recto</locus>).</desc></additions><bindingDesc>
                      <binding><p><material cert="medium">Pinewood</material> covers apparently fabricated in the BnF.</p><decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
                   </bindingDesc></physDesc>
                <history>
@@ -112,19 +113,23 @@ The ms. is not dated, but since it was included in the hand-written list that Ve
       <lb n="3"/>maṟantēraṉa</l> <l>kāraṇamām ~ poracciluvai kāppu</l></lg></seg>  
     
         <pb facs="4" n="1v"/>
-    <seg function="blessing"><milestone unit="left-margin"/>
+    <seg function="header">
+      <seg function="blessing"><milestone unit="left-margin"/>
  <lb n="1"/>tēvaca
 <lb n="2" break="no"/>kāyam</seg>
+      </seg>
     
     <seg function="invocation"><milestone unit="main-text-area"/>
     <lg><l><lb n="1"/>ceyya marikarutāḷ cīrciṟanta kātai nalam ~</l> <l>vaiyyakattir ~ pāvāy ~ vaḻaṅkutaṟkku tuyyatava</l>
 <l><lb n="2"/>paṉṉiraṇṭu ~ maṉṉar kula paintoṭiyāṅ kaṟpu niṟai</l> <l>kaṉṉimari porppatamē ~ kāppu ~</l></lg></seg>
     
         <pb facs="5" n="2r"/>
-     <seg function="blessing"><milestone unit="left-margin"/>
+         <seg function="header">
+<seg function="blessing"><milestone unit="left-margin"/>
  <lb n="1"/>Ēcu mariyē
 <lb n="2"/>cūcaiyē
 <lb n="3"/>tuṇaic cey ~</seg>
+           </seg>
     
     <seg function="incipit"><milestone n="1" unit="column"/>
 <lg><l><lb n="1"/>cīrāru ñāṉacciṟantōṉai neñcil vaittup</l>  
