@@ -4,7 +4,7 @@
 	<teiHeader xml:lang="en">
 		<fileDesc>
 			<titleStmt>
-				<title><term xml:lang="ta">Civatarumōttiram</term> <term xml:lang="en">(text &amp; commentary)</term></title>
+				<title><term xml:lang="ta">Civatarumōttaram</term> <term xml:lang="en">(text &amp; commentary)</term></title>
 				
 				
 			<editor><persName>Thillai Chidambaram RAJARETHINAM</persName><orgName>EFEO, Pondicherry</orgName></editor></titleStmt>
@@ -24,7 +24,7 @@
 						<idno type="alternate"><idno>Tamoul 14</idno><idno>Ariel</idno><idno>b/39</idno></idno>
 					<idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1031459</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b525100710</idno></msIdentifier>
 					<msContents class="#STM">
-						<summary><p>The <title xml:lang="ta">Civatarumōttiram</title>, entitled here <title xml:lang="ta">Civatarumōttirakāviyam</title>, text with commentary (U4), complete in 12 chapters, and followed by satellite stanzas (various <foreign xml:lang="sa">stuti</foreign>s, praises).</p>
+						<summary><p>The <title xml:lang="ta">Civatarumōttaram</title>, entitled here <title xml:lang="ta">Civatarumōttirakāviyam</title>, text with commentary (U4), complete in 12 chapters, and followed by satellite stanzas (various <foreign xml:lang="sa">stuti</foreign>s, praises).</p>
    
 <p>Description based on the examination of the original manuscript (April 2019).</p>
 
@@ -34,7 +34,7 @@
 						
 						
 						
-					<msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page (additional) </term></title><author xml:lang="ta">Maṟaiñāṉa Campantar</author><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T2" defective="false"><title xml:lang="ta">Civatarumōttiram: <term xml:lang="en">Table of Contents</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U4" xml:id="T3" defective="false"><title xml:lang="ta">Civatarumōttiram: Mūlam &amp; Urai</title><textLang mainLang="tam"/></msItem></msContents>
+					<msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page (additional) </term></title><author xml:lang="ta">Maṟaiñāṉa Campantar</author><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T2" defective="false"><title xml:lang="ta">Civatarumōttaram: <term xml:lang="en">Table of Contents</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U4" xml:id="T3" defective="false"><title xml:lang="ta">Civatarumōttaram: Mūlam &amp; Urai</title><textLang mainLang="tam"/></msItem></msContents>
 					<physDesc>
 						
 						
@@ -52,7 +52,7 @@
 									<dimensions type="object" unit="mm"><width quantity="450"/><height quantity="40"/></dimensions><dimensions type="written" unit="mm"/></extent>
 								
 							<collation>
-									<desc xml:id="U1">1 folio = <emph rend="bold">Title Page (additional)</emph>. No foliation. Verso blank. Hand #1.</desc><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U2">1 folio = <emph rend="bold"><term xml:lang="ta">Civatarumōttiram</term>: Table of Contents</emph>. No foliation. Hand #2. </desc><desc xml:id="U3">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso. </desc><desc xml:id="U4">283 folios = <emph rend="bold"><term xml:lang="ta">Civatarumōttiram</term>: Text &amp; Commentary</emph>. Tamil foliation 1‒283. Hand #2.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation></supportDesc>
+									<desc xml:id="U1">1 folio = <emph rend="bold">Title Page (additional)</emph>. No foliation. Verso blank. Hand #1.</desc><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U2">1 folio = <emph rend="bold"><term xml:lang="ta">Civatarumōttaram</term>: Table of Contents</emph>. No foliation. Hand #2. </desc><desc xml:id="U3">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso. </desc><desc xml:id="U4">283 folios = <emph rend="bold"><term xml:lang="ta">Civatarumōttaram</term>: Text &amp; Commentary</emph>. Tamil foliation 1‒283. Hand #2.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation></supportDesc>
 							<layoutDesc>
 								<layout resp="#cLI" writtenLines="9 11"/>
 							</layoutDesc>
@@ -116,16 +116,19 @@
     
     <pb facs="1" n="[1]r"/>
         
-    <seg function="header"><seg function="blessing"><milestone unit="left-margin"/>
-			<lb n="1-2"/>veṟṟivēl uṟṟa tuṇai</seg></seg>
+    <seg function="header">
+      <seg function="blessing"><milestone unit="left-margin"/>
+			<lb n="1-2"/>veṟṟivēl uṟṟa tuṇai</seg>
+    </seg>
     
-			<seg function="title"><milestone n="1" unit="column"/>
+    <seg function="title">
+      <milestone n="1" unit="column"/>
 			<lb n="1"/>Iḵtu
-              
-              <milestone n="2" unit="column"/>
-			<lb n="1-2"/>civatarumōttiram Uraipāṭam</seg>
+      <milestone n="2" unit="column"/>
+			<lb n="1-2"/>civatarumōttiram Uraipāṭam
+    </seg>
     
-    			<pb facs="2" n="[1]v"/><note xml:lang="en">blank</note>
+    <pb facs="2" n="[1]v"/><note xml:lang="en">blank</note>
     
 		    </ab>
 </body></text><text synch="#U3" corresp="#T2" xml:lang="ta"><body>
@@ -157,7 +160,7 @@
       <lb n="10"/>pattāvatu civañāṉayōkaviyal <space/> <num rend="traditional">130</num>
       <lb n="11"/>patiṉoṉṟāvatuparikāraviyal <space/> <num rend="traditional">104</num>
     
-    <seg function="total-chapters"><milestone n="2" unit="column"/>
+    <seg function="total-stanzas"><milestone n="2" unit="column"/>
       <lb n="1-3"/>paṉireṇṭāvatu kōpuraviyal Uraipāṭam <num rend="traditional">200</num>
     <lb n="4-5"/>Āka yiyal <add place="below">pa</add>ṉireṇṭukku pāṭṭu <num rend="traditional">1240</num> <note xml:lang="en">unblackened figure, added by a later hand</note> </seg>
       </seg>
@@ -170,37 +173,45 @@
   
   <pb facs="9" n="[1]r"/>
     
-  <seg function="header"><seg function="blessing"><milestone unit="left-margin"/>
+  <seg function="header">
+    <seg function="blessing"><milestone unit="left-margin"/>
   <lb n="1-2"/>tirucciṟṟampalam</seg>
   <seg function="title"><lb n="3-5"/>civatarumottiram Uraipāṭam</seg>
-  <seg function="TBC"><lb n="6"/>tirumālu <g ref="#pcl"/></seg>
+  <seg function="verse-beginning"><lb n="6"/>tirumālu <g ref="#pcl"/></seg>
   <seg function="intertitle"><lb n="7-8"/>mutalāvatu paramata<unclear>ru</unclear>mātiyiyal ~</seg></seg>
   
-  <seg function="incipit" type="root-text"><seg function="invocation"><milestone n="1" unit="column"/>
-  <lg><l><lb n="1"/>tiruvuṅ kalviyuṅ cīrun taḻaikkavuṅ</l> <l>karuṇai pūkkavun tīmaiyaikkāykkavum</l> <l>paruvamāy namatuḷḷam paḻukkavum</l> <l>perukumāḻttu
-  <lb n="2" break="no"/>p piḷḷaiyaip pēṇuvām –</l></lg></seg> <seg function="intertitle">kāppu –</seg>
+  <seg function="incipit" type="root-text">
+    <seg function="invocation"><milestone n="1" unit="column"/>
+  <lg><l><lb n="1"/>tiruvuṅ kalviyuṅ cīrun taḻaikkavuṅ</l>
+    <l>karuṇai pūkkavun tīmaiyaikkāykkavum</l>
+    <l>paruvamāy namatuḷḷam paḻukkavum</l> 
+    <l>perukumāḻttu<lb n="2" break="no"/>p piḷḷaiyaip pēṇuvām –</l></lg></seg> 
+    
+    <seg function="intertitle">kāppu –</seg>
     
     <seg function="invocation">
       <lg><l>malaikkumakaḷ peṟṟamaka ṉaikkaya mukattaṉai maṉat teḻutiyā</l>
-        <l>ṉ alaṟpiṇi piṟappaṟa vaṇukkaḷai
-           <lb n="3"/>yakattiya muṉik karuḷiṉā</l>
+        <l>ṉ alaṟpiṇi piṟappaṟa vaṇukkaḷai <lb n="3"/>yakattiya muṉik karuḷiṉā</l>
         <l>l ulappilkaru ṇaikkaṭa luruttira ṉuruttaṉi lutitta kumara</l>
-        <l>ṉ ilakkumiya laikkali yiṉaikkavu muraippa
-          <lb n="4" break="no"/>ṉula kiṭṭaṭa muṟavē –</l></lg></seg></seg>
+        <l>ṉ ilakkumiya laikkali yiṉaikkavu muraippa<lb n="4" break="no"/>ṉula kiṭṭaṭa muṟavē –</l></lg></seg></seg>
     
     <seg function="incipit" type="commentary"> Etu – <gap reason="ellipsis"/></seg>
     <lb n="5"/><gap reason="ellipsis"/>
     <lb n="6"/><gap reason="ellipsis"/>
     <lb n="7"/><gap reason="ellipsis"/> niṉṟēṉ eṉṟa v<pc>-</pc>āṟu – <gap reason="ellipsis"/>
-    <lb n="8"/><gap reason="ellipsis"/> – 1 – <lg><l>tirumālum potiṉṉun tevarumā muṉi
+    <lb n="8"/><gap reason="ellipsis"/> – 1 –
     
+    <lg><l>tirumālum potiṉṉun tevarumā muṉi
       <pb facs="10" n="[1]v" break="no"/>
-
-    <lb n="1"/>varumō ceṟintu poṟṟa</l> <l>maruvārum poḻi <add place="below">ni</add>lavun tillaimaṇi maṉrāṭaṉ makiḻvāṉ ṟaṉṉai</l> <l>y<pc>-</pc>uruvākit tāṉuyirkaṭ kuruvākki yaḷitta
-    <lb n="2" break="no"/>ṭakki yuyyac ceyyum</l> <l>perumāṉai nirumalaṉaic civaṉaiyaṭi paṇintuḷattiṟ pēṉu vāmē ~</l></lg> Etu  ~ <gap reason="ellipsis"/>
+    <lb n="1"/>varumō ceṟintu pōoṟṟa</l>
+      <l>maruvārum poḻi <add place="below">ni</add>lavun tillaimaṇi maṉrāṭaṉ makiḻvāṉ ṟaṉṉai</l>
+      <l>y<pc>-</pc>uruvākit tāṉuyirkaṭ kuruvākki yaḷitta<lb n="2" break="no"/>ṭakki yuyyac ceyyum</l>
+      <l>perumāṉai nirumalaṉaic civaṉaiyaṭi paṇintuḷattiṟ pēṉuvāmē ~</l></lg>
+    
+    Etu  ~ <gap reason="ellipsis"/>
     <lb n="3"/><gap reason="ellipsis"/>
     <lb n="4"/><gap reason="ellipsis"/>
-    <lb n="5"/><gap reason="ellipsis"/>m eṉṟa v<pc>-</pc>āṟu – Ōkāramacainilai – 1 – <gap reason="ellipsis"/>
+    <lb n="5"/><gap reason="ellipsis"/>m eṉṟa v<pc>-</pc>āṟu – Ōkāram acainilai – 1 – <gap reason="ellipsis"/>
     <lb n="6"/><gap reason="ellipsis"/>
     <lb n="7"/><gap reason="ellipsis"/>
     <lb n="8"/><gap reason="ellipsis"/>
@@ -291,7 +302,9 @@
     <pb facs="431" n="212r"/>
     <seg function="header">
     <seg function="TBC"><milestone unit="left-margin"/>
-      <lb n="1-5"/>Uruttirāṭcam tarikkiṉum pāvam pōm <note xml:lang="en">that is, "Even if you wear <foreign xml:lang="ta">rudrākṣa</foreign> your sin will go."</note><g ref="#pcl"/></seg>
+      <lb n="1-4"/>Uruttirāṭcam tarikkiṉum pāvam pōm <note xml:lang="en">that is, "Even if you wear <foreign xml:lang="ta">rudrākṣa</foreign> your sin will go."</note><g ref="#pcl"/>
+      <lb n="5"/><gap reason="ellipsis"/>
+      <lb n="6"/><gap reason="ellipsis"/></seg>
       </seg>
     
       <pb facs="463" n="228r"/>
@@ -301,6 +314,8 @@
       </seg>
     
   <pb facs="572" n="282v"/>
+    <milestone unit="main-text-area"/>
+    <lb n="1-3"/><gap reason="ellipsis"/>
     <lb n="4"/><gap reason="ellipsis"/> ~ <num rend="traditional" value="228">2<g ref="#nūṟu"/>2<supplied reason="omitted"><g ref="#pattu"/></supplied>5</num> ~ <gap reason="ellipsis"/>
     <lb n="5"/><gap reason="ellipsis"/> ~ <num rend="traditional" value="228">2<g ref="#nūṟu"/>2<supplied reason="omitted"><g ref="#pattu"/></supplied>6</num> ~ <gap reason="ellipsis"/>
         <lb n="6"/><gap reason="ellipsis"/> ~ <num rend="traditional" value="228">2<g ref="#nūṟu"/>2<supplied reason="omitted"><g ref="#pattu"/></supplied>7</num> ~ 
