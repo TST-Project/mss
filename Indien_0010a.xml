@@ -9,7 +9,7 @@
          
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2022</date>
+            <date>2023</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -20,14 +20,18 @@
                   
                   <idno type="shelfmark">Indien 10a</idno>
                   <idno type="alternate"/>
-               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1031416</idno></msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1031416</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b52518753g</idno></msIdentifier>
                <msContents class="#STM">
                   <summary>The <title xml:lang="ta">Citamparacakkaram</title>.</summary>
                   
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Citamparacakkaram</title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi" rend="manuscript">
+                  
+                  
+                  
+                  
+               <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
                         <support>
                            <!--measure unit="stringholes" quantity=""/-->
@@ -49,20 +53,18 @@
                         
                         
                         
-                        <condition>Very good state of preservation. </condition>
+                        
                      <collation>
                      
-                     <desc xml:id="U1">1 folio = <emph rend="bold"><title xml:lang="ta">Citamparacakkaram</title></emph>. No foliation. Verso blank.</desc></collation></supportDesc>
+                     <desc xml:id="U1">1 folio = <emph rend="bold"><title xml:lang="ta">Citamparacakkaram</title></emph>. No foliation. Verso blank.</desc></collation><condition>Very good state of preservation. </condition></supportDesc>
                      <layoutDesc>
                         <p/>
                      </layoutDesc>
-                  </objectDesc>
-                  <handDesc>
+                  </objectDesc><handDesc>
                      
                      
                     
-                  <handNote synch="#U1" scope="major" script="tamil" medium="incised soot"><desc>Unblackened, excpet the diagram.</desc></handNote></handDesc>
-                  <additions>
+                  <handNote synch="#U1" scope="major" script="tamil" medium="incised soot"><desc>Unblackened, excpet the diagram.</desc></handNote></handDesc><additions>
                   
                      
                      
@@ -71,22 +73,20 @@
                     
                     
                      
-                  </additions>
-                  <bindingDesc>
+                  </additions><bindingDesc>
                      <binding>
                         
                      <decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
-                  </bindingDesc>
-               </physDesc>
+                  </bindingDesc></physDesc>
                <history>
-                  <origin>
+                  
+                  
+               	<origin>
                      <origDate calendar="gregorian" notAfter="1854">No internal date. Bundle dated to circa 1830 by Vinson (1868) and to 1830 by Cabaton (1912), on unstated grounds (presumably palaeographical and material analysis arguments). Not after 1854, since part of the collection of <persName role="collector">Édouard Ariel</persName> (1818-1854), bequeathed in 1855 to the Société Asiatique, Paris (Rosny 1868).</origDate>
                      <origPlace>Tamilnadu.</origPlace>
-                  </origin>
-                  <acquisition>
+                  </origin><provenance><p>Owned by <persName role="collector">Édouard Ariel</persName> (1818-1854). Bequeathed by Édouard Ariel to Société Asiatique (Rosny 1868, p. 177). Ariel manuscript not acknowledged by Cabaton (1912).</p></provenance><acquisition>
                      <p>Received, August 1st, 1866, from the Société Asiatique. See BnF, département des Manuscrits, inventaire 7 = <title>Dons: manuscrits et imprimés documentaires, 1848-1895</title>, no. 1192.</p>
-                  </acquisition>
-               	<provenance><p>Owned by <persName role="collector">Édouard Ariel</persName> (1818-1854). Bequeathed by Édouard Ariel to Société Asiatique (Rosny 1868, p. 177). Ariel manuscript not acknowledged by Cabaton (1912).</p></provenance></history>
+                  </acquisition></history>
                <additional>
                   <listBibl>
                      
@@ -107,9 +107,9 @@
     <sourceDoc>
         <surface/>
     </sourceDoc>
-<facsimile/><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+<facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b52518753g/manifest.json" facs="5"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   <ab>
-  <pb facs="0" n="[1]r"/>
+  <pb facs="5" n="[1]r"/>
   
   <seg function="title"><milestone n="1" unit="column"/>
   <lb n="1-2"/>citamparacakkaram</seg>
@@ -119,7 +119,7 @@
   <milestone n="3" unit="column"/>
   <lb n="1"/>māṟ  
   
-  <pb facs="0" n="[1]v"/><note xml:lang="en">blank</note>
+  <pb facs="6" n="[1]v"/><note xml:lang="en">blank</note>
     
 </ab>
 </body></text></TEI>

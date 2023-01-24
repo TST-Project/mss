@@ -9,7 +9,7 @@
          
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2022</date>
+            <date>2023</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -20,9 +20,9 @@
                   
                   <idno type="shelfmark">Indien 10</idno>
                   <idno type="alternate"><idno>Tamoul 10</idno><idno>Ariel 122</idno><idno>c/47</idno></idno>
-               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1031416</idno></msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1031416</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b52518753g</idno></msIdentifier>
                <msContents class="#CM">
-                  <summary><p>The palm-leaf bundle, a composite manuscript, entitled <title xml:lang="ta">Viratam Aintu</title> on its additional title page, contains:
+                  <summary><p>The palm-leaf bundle, a probably composite manuscript, entitled <title xml:lang="ta">Viratam Aintu</title> on its additional title page, contains:
   <list>
   <item>The <title xml:lang="ta">Citamparacakkaram</title> (Indien 10a).</item>
   <item>The <title xml:lang="ta">Pōkar Pūcāviti</title> (Indien 10b).</item>
@@ -80,7 +80,7 @@
                     
                     
                      
-                  <desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 10</quote> (<locus facs="0">front cover, recto</locus>). Covering an earlier sticker.</desc><desc synch="#CoverFront" type="documenting-note" subtype="cover front">BnF donation sticker <quote>DON N° <space type="vacat"/></quote> (<locus facs="0">front cover, recto</locus>).</desc><desc synch="#CoverFront" type="shelfmark" subtype="cover front">Shelfmark sticker (Société Asiatique?): <quote><del>593</del></quote> (<locus facs="0">front cover, recto</locus>).</desc><desc synch="#U1" type="shelfmark">Shelfmark in black ink: <quote>c/47</quote> (<locus facs="0">f[1]r</locus>).</desc><desc synch="#U1" type="table-of-contents">List of texts in the bundle (entitled <foreign xml:lang="ta">viratam Aintu</foreign>). See details below.</desc></additions><bindingDesc>
+                  <desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 10</quote> (<locus facs="1">front cover, recto</locus>). Covering an earlier sticker.</desc><desc synch="#CoverFront" type="documenting-note" subtype="cover front">BnF donation sticker <quote>DON N° <space type="vacat"/></quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#CoverFront" type="shelfmark" subtype="cover front">Shelfmark sticker (Société Asiatique?): <quote><del>593</del></quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#U1" type="shelfmark">Shelfmark in black ink: <quote>c/47</quote> (<locus facs="3">f[1]r</locus>).</desc><desc synch="#U1" type="table-of-contents">List of texts in the bundle (entitled <foreign xml:lang="ta">viratam Aintu</foreign>). See details below.</desc></additions><bindingDesc>
                      <binding>
                         <p><material resp="#cLI" cert="medium">Mahogany</material> woodcovers apparently fabricated in the BnF. 295 x 35 mm.</p>
                      <decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
@@ -105,7 +105,7 @@
      <encodingDesc>
          
          
-      <p> <emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.</p></encodingDesc>
+      <p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.</p></encodingDesc>
       
    <revisionDesc>
          
@@ -114,20 +114,22 @@
     <sourceDoc>
         <surface/>
     </sourceDoc>
-<facsimile/><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+<facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b52518753g/manifest.json"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   <ab>
     
-  <pb facs="0" n="[1]r"/>
+  <pb facs="3" n="[1]r"/>
   
-   <seg function="blessing"><milestone n="1" unit="column"/>
+   <seg function="header">
+     <seg function="blessing"><milestone unit="left-margin"/>
   <lb n="1-3"/>veṟṟivēl uṟṟa tuṇai</seg>
+     </seg>
   
-  <seg function="table-of-contents"><seg function="total-works"><milestone n="2" unit="column"/>
+  <seg function="table-of-contents"><seg function="total-works"><milestone n="1" unit="column"/>
       <lb n="1"/>viratam
     <lb n="2"/>Aintu
   </seg>
   
-   <seg function="title"><milestone n="3" unit="column"/>
+   <seg function="title"><milestone n="2" unit="column"/>
   <lb n="1"/>citamparacakkaram</seg>
 <seg function="title"><lb n="2"/>pōkanātar pūcāviti</seg>                                                      
 <seg function="title"><lb n="3"/>koṅkaṇar pūcāviti</seg>
@@ -135,7 +137,7 @@
 <seg function="title"><lb n="5"/>varākimālai mūlamantiram</seg>
     </seg>
       
-    <pb facs="0" n="[1]v"/><note xml:lang="en">blank</note>
+    <pb facs="4" n="[1]v"/><note xml:lang="en">blank</note>
 
     </ab>
 </body></text></TEI>
