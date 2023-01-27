@@ -1,0 +1,230 @@
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Collection (2 works)</title>
+            
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2023</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Indien 435</idno>
+                  <idno type="alternate"><idno>Tamoul 435</idno><idno>Ducler 7</idno></idno>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103966q</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b52516210w</idno></msIdentifier>
+               <msContents class="#STM">
+                  <summary><p>...</p></summary>
+                  
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="fr"><term xml:lang="ta">TBC</term>: Title Page</title><textLang mainLang="fra"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta">TBC: <term xml:lang="en">Front Matter (invocation)</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T3" defective="false"><title xml:lang="ta"><term xml:lang="en">Collection</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U4" xml:id="T4" defective="false"><title><term xml:lang="ta">inserted Title Pages</term></title></msItem></msContents>
+               <physDesc>
+                  
+                  
+                  
+                  
+               <objectDesc form="pothi" rend="manuscript">
+                     <supportDesc material="palm-leaf">
+                        <support>
+                           
+                           
+                        <p>Regularly shaped. Rounded edges.</p></support>
+                        <extent>
+                           <measure unit="folio" quantity="140">{1} + {1} + 138 (U1 + U2 + U3). + U4 inserted folios. U2 goes with U4? + 77rbis blank recto verso.</measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           </dimensions>
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
+                     
+                     
+                     <collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.
+       </desc><desc xml:id="U1">1 folio = <emph rend="bold">Title Page</emph>. No foliation.
+</desc><desc xml:id="U2">1 folio = <emph rend="bold"><title xml:lang="ta">TBC</title>: Front Matter</emph> (Invocation). No foliation.
+</desc><desc xml:id="U3">138 folios = <emph rend="bold"><title xml:lang="ta">TBC</title>: Text</emph>. Tamil foliation {1}, 2-138. Parallel Arabic foliation 1-138.
+</desc><desc xml:id="U4">*** folios = <emph rend="bold">inserted Title Pages</emph>. No foliation.
+</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.
+</desc></collation><condition>Excellent state of preservation.</condition></supportDesc>
+                     <layoutDesc>
+                        
+                     </layoutDesc>
+                  </objectDesc><handDesc><handNote synch="#U1" scope="major" script="latin" medium="incised soot"><desc><persName role="scribe">Ducler's scribe</persName>.</desc></handNote><handNote synch="#U2 #U3" scope="major" script="tamil" scriptRef="#tamilPulliNone" medium="incised soot"><desc><persName role="scribe">Ducler's scribe</persName>.</desc></handNote><handNote synch="#U4" script="tamil"><desc>Another hand?</desc></handNote></handDesc><additions>
+                  </additions><bindingDesc>
+                     <binding><p>Original brown <material>wood</material> covers</p><decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
+                  </bindingDesc></physDesc>
+               <history>
+                  
+                  
+                  
+               <origin>
+                     <origDate calendar="gregorian" notAfter="1832" notBefore="1828">No internal date. Dated to circa 1828 by Vinson (1868) and to 1828 by Cabaton (1912), on unstated grounds (presumably Ducler's provenance). By <persName role="scribe">Ducler's scribe</persName>, working around 1830. Probably not before 1828 (date of the earliest internally dated Ducler's manuscript). Not later than its first mention (Burnouf 1832). </origDate>
+                     
+                  <origPlace>South India, Pondicherry State, Karikal.</origPlace></origin><provenance><p>Copied for <persName xml:lang="fr" role="collector">Philippe Ducler</persName> by an unnamed copyist in Karaikal Jail. See Burnouf (1832).</p></provenance><acquisition><p>Acquired, July 22nd, 1833, from Philippe Ducler. See BnF, département des Manuscrits, inventaire 1 = <title>Acquisitions: manuscrits et imprimés documentaires, 1833-1848</title>, no. TBC.</p></acquisition></history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl>Burnouf, Eugène. 1832. <title type="article">Rapport fait au Conseil, dans la séance du 2 juillet 1832, sur les collections de manuscrits et de dessins rapportées de l’Inde par M. Ducler, administrateur de Carical, membre de la Société asiatique</title>. <title>Journal asiatique</title> 10: 84-91. — See <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k93120f/f88">p. 88, no. 7</ref>.</bibl><bibl>Cabaton, Antoine. 1912. <title xml:lang="fr">Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f80">p. 62, no. 435</ref>.</bibl><bibl>Velanguani Arokium [<persName xml:lang="ta">Vēḷāṅkaṇṇi Ārōkkiyam</persName>]. 1845. <title>Catalogue des manuscrits tamouls de la Bibliothèque royale</title>. BnF NAF 5443. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b10527869m/f27">p. 17, no. 31</ref>.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. 1866-. <title>Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f215">f. 100r, no. 435</ref>. </bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         
+      <p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.</p></encodingDesc>
+      
+   <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
+         
+      <change when="2023-01">First version.</change></revisionDesc></teiHeader>
+   <facsimile>
+   <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b52516210w/manifest.json" facs="1"/></facsimile>
+<text synch="#U1" corresp="#T1" xml:lang="fr"><body>
+  <ab>
+    
+       <pb facs="3" n="[1]r"/>
+    
+    <seg function="title">
+      <milestone n="1" unit="column"/>
+<lb n="1"/><term xml:lang="ta">lekkam</term></seg>
+      
+  <seg function="title">
+      <milestone n="2" unit="column"/>
+<lb n="1"/>arithmétique
+  <lb n="2"/><del>malabar</del> <add><gap reason="ellipsis"/>
+    <lb n="3"/>tamoul,</add></seg>
+    </ab>
+  
+  </body>
+</text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
+  <ab>
+    
+       <pb facs="5" n="[1]r"/>
+    
+    <seg function="header"><seg function="blessing"><milestone unit="left-margin"/>
+      <lb n="1"/>harki
+      <lb n="2"/>Ōm</seg></seg>
+    
+    <seg function="invocation"><milestone unit="main-text-area"/>
+<lb n="1"/><gap reason="ellipsis"/>
+<lb n="2"/><gap reason="ellipsis"/> kaṇapati kāppu ~</seg> <seg function="blessing">tēvacakāyam</seg>
+            
+    </ab>
+  
+  </body>
+</text><text synch="#U3" corresp="#T3" xml:lang="ta"><body>
+  <ab>
+    
+    
+    <pb facs="7" n="1r"/>                
+    
+    <seg function="header"><seg function="blessing"><milestone unit="left-margin"/>
+      <lb n="1"/>ha<sic>ra</sic>
+      <lb n="2"/>Ōm</seg></seg>
+    
+   <milestone n="1" unit="column"/><gap reason="ellipsis"/>
+   
+        <pb facs="24" n="9v"/>                
+
+       
+    <pb facs="25" n="[9]r-bis"/>
+    <seg function="title"><milestone unit="main-text-area"/>
+    <lb n="1"/>nelilakkam</seg>
+        <pb facs="26" n="[9]v-bis"/><note xml:lang="en">blank</note>
+        
+    <pb facs="27" n="10r"/>
+     <seg function="header"><seg function="blessing"><milestone unit="left-margin"/>
+      <lb n="1"/>ha<sic>ra</sic>
+      <lb n="2"/>Ōm</seg></seg>
+    
+    <seg function="invocation"><milestone unit="main-text-area"/>
+<lb n="1"/><gap reason="ellipsis"/>
+<lb n="2"/><gap reason="ellipsis"/> kaṇapati kāppu ~</seg> <seg function="blessing">tēvacakāyam</seg>
+            <pb facs="28" n="10v"/><note xml:lang="en">blank</note>
+
+        <pb facs="29" n="11r"/>
+        <pb facs="35" n="14r"/> 
+        <pb facs="36" n="14v"/><note xml:lang="en">blank</note>
+
+
+    <pb facs="37" n="[14]r-bis"/>
+    <seg function="title"><milestone unit="main-text-area"/>
+    <lb n="1"/>Eṇcuvaṭi</seg>    
+        <pb facs="38" n="[14]v-bis"/><note xml:lang="en">blank</note>
+    
+    
+     <pb facs="39" n="15r"/>
+     <seg function="header"><seg function="blessing"><milestone unit="left-margin"/>
+      <lb n="1"/>ha<sic>ra</sic>
+      <lb n="2"/>Ōm</seg></seg>
+    
+    <seg function="invocation"><milestone unit="main-text-area"/>
+<lb n="1"/><gap reason="ellipsis"/>
+<lb n="2"/><gap reason="ellipsis"/>
+      <lb n="3"/><gap reason="ellipsis"/></seg> <seg function="blessing">tēvacakā<g rend="below-base">yaM</g></seg>
+            
+    <pb facs="40" n="15v"/><note xml:lang="en">blank</note>
+
+        <pb facs="41" n="16r"/>
+    
+            <pb facs="82" n="36v"/><note xml:lang="en">blank</note>
+
+
+    <pb facs="83" n="[36]r-bis"/>
+    <seg function="title"><milestone unit="main-text-area"/>
+    <lb n="1"/>peruṅkuḻi<gap reason="ellipsis"/></seg>
+                        
+    <pb facs="84" n="[36]v-bis"/><note xml:lang="en">blank</note>
+
+    <pb facs="85" n="37r"/>
+    
+     <pb facs="108" n="48v"/><note xml:lang="en">blank</note>
+
+
+    <pb facs="109" n="[48]r-bis"/>
+    <seg function="title"><milestone unit="main-text-area"/>
+    <lb n="1"/>ciṟukuḻi<gap reason="ellipsis"/></seg>
+       
+    <pb facs="110" n="[48]v-bis"/><note xml:lang="en">blank</note>
+
+    <pb facs="111" n="49r"/>
+     <seg function="header"><seg function="blessing"><milestone unit="left-margin"/>
+      <lb n="1"/>ha<sic>ra</sic>
+      <lb n="2"/>Ōm</seg></seg>
+    
+      <pb facs="169" n="[77]r-bis"/><note xml:lang="en">blank</note>
+      <pb facs="170" n="[77]v-bis"/><note xml:lang="en">blank</note>
+
+        <pb facs="171" n="78r"/>     
+        <pb facs="172" n="78v"/><note xml:lang="en">blank</note>
+
+    
+    <pb facs="173" n="79r"/>     
+    <seg function="header"><seg function="blessing"><milestone unit="left-margin"/>
+      <lb n="1"/>ha<sic>ra</sic>
+      <lb n="2"/>Ōm</seg>
+    <seg function="title"><lb n="3"/>kaṇak=ku
+      <lb n="4"/>Atikāṟam</seg>
+      </seg>
+    
+    <seg function="invocation"><milestone unit="main-text-area"/>
+<lb n="1"/><gap reason="ellipsis"/>
+<lb n="2"/><gap reason="ellipsis"/> <g ref="#pcl"/></seg> <seg function="blessing">tēvacakāyam</seg>
+    
+    <pb facs="174" n="79v"/><note xml:lang="en">blank</note>
+
+    
+    <pb facs="175" n="80r"/> 
+    
+            
+    <pb facs="292" n="138v"/>
+    <milestone unit="main-text-area"/>
+      <lb n="1-6"/><gap reason="ellipsis"/>
+      <lb n="7"/><gap reason="ellipsis"/> <g ref="#end_of_text"/> <seg function="blessing">tēvicakā<g rend="below-base">yaM</g><g ref="#end_of_text"/></seg> 
+
+    
+    </ab>
+  </body></text></TEI>
