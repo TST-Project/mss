@@ -24,13 +24,13 @@
                <msContents class="#MTM">
                   <summary><p>A multi-text or composite manuscript containing two works:
   <list>
-    <item>...</item>
-    <item>the <title xml:lang="ta">Cittāntacikāmaṇi</title>.</item>
+    <item>the <title xml:lang="ta">Ārāttiyacaritai</title> (U3).</item>
+    <item>the <title xml:lang="ta">Cittāntacikāmaṇi</title> (U4).</item>
    </list>
 </p>      
 </summary>
                   
-               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page (additional)</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T2" defective="false"><title xml:lang="ta"><term xml:lang="en">TBC</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U4" xml:id="T3" defective="false"><title xml:lang="ta"><term xml:lang="en">TBC</term></title><textLang mainLang="tam"/></msItem></msContents>
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page (additional)</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T2" defective="false"><title xml:lang="ta">Ārāttiyacaritai: Mūlam</title><textLang mainLang="tam"/></msItem><msItem synch="#U4" xml:id="T3" defective="false"><title xml:lang="ta">Cittāntacikāmaṇi: Mūlam</title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
                   
                   
@@ -60,7 +60,7 @@
                         
                         
                         
-                        <desc xml:id="U1">1 folio = <emph rend="bold">Title Page (additional)</emph>. No foliation. Verso blank. Hand #1.</desc><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. Shelfmark and donation sticker on recto.</desc><desc xml:id="U2">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso.</desc><desc xml:id="U3">89 folios = <emph rend="bold">TBC</emph>. Tamil foliation 1-89. Hand #2. </desc><desc xml:id="U4">86 folios = <emph rend="bold">TBC</emph>.  Tamil foliation 1-86. Hand #2. </desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Very good state of preservation, despite boreholes.</condition></supportDesc>
+                        <desc xml:id="U1">1 folio = <emph rend="bold">Title Page (additional)</emph>. No foliation. Verso blank. Hand #1.</desc><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. Shelfmark and donation sticker on recto.</desc><desc xml:id="U2">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso.</desc><desc xml:id="U3">89 folios = <emph rend="bold"><title xml:lang="ta">Ārāttiyacaritai</title>: Text</emph>. Tamil foliation 1-89. Hand #2. </desc><desc xml:id="U4">86 folios = <emph rend="bold"><title xml:lang="ta">Cittāntacikāmaṇi</title>: Text</emph>.  Tamil foliation 1-86. Hand #2. </desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Very good state of preservation, despite boreholes.</condition></supportDesc>
                   </objectDesc><handDesc>
                      
                      
@@ -130,14 +130,19 @@
   <seg function="header">
 <seg function="title"><milestone unit="left-margin"/>
 <lb n="1-2"/>Ārāttiya<del>ri</del>caritai</seg>
-  <seg function="intertitle"><lb n="3-5"/>tiruvvatāraccāraccarukkam</seg>
+  <seg function="intertitle"><lb n="3-5"/>tiru<gap reason="ellipsis"/>ccarukkam</seg>
     </seg>
 
   <seg function="incipit"><milestone unit="main-text-area"/>
-<lb n="1"/><gap reason="ellipsis"/></seg>
+<lg><l><lb n="1"/>viruppatu <space type="vacat"/> <gap reason="ellipsis"/> vāḻttu
+    <lb n="2"/>vām =</l></lg> </seg> <lg><l><gap reason="ellipsis"/> vaṇaṅkuvām ~ 1 ~</l></lg> <gap reason="ellipsis"/>
 
-   
-    <pb facs="22" n="[8]v"/><note xml:lang="en">blank</note>
+    <pb facs="21" n="8r"/>
+    <milestone unit="main-text-area"/>
+    <lb n="1-4"/><gap reason="ellipsis"/>
+    <lb n="5"/><gap reason="ellipsis"/> ~ 73 ~ <seg function="completion-statement">tiru<gap reason="ellipsis"/>ccarukka muṟṟum ~</seg>
+    
+       <pb facs="22" n="8v"/><note xml:lang="en">blank</note>
     
     <pb facs="23" n="9r"/>
   <seg function="header">
@@ -182,7 +187,7 @@
 
     </ab>  
  </body>
-                     </text><text synch="#U4" corresp="#T2"><body>
+                     </text><text synch="#U4" corresp="#T3" xml:lang="ta"><body>
   <ab>
   
   <pb facs="185" n="1r"/>
@@ -192,9 +197,15 @@
   <seg function="intertitle"><lb n="4-5"/>pāyiram</seg>
     </seg>
 
-  <seg function="incipit"><milestone unit="main-text-area"/>
-<lb n="1"/><gap reason="ellipsis"/></seg>
-
+  <seg function="incipit"><seg function="invocation"><milestone unit="main-text-area"/>
+<lb n="1"/>
+    <lg><l>maṉava ṉattiṉ matameṉum iyāṉaiyaic</l>
+      <l>ciṉavi niṟkun tikaḻiḷa veṇmati</l>
+     <l>puṉainu taṟkaṭ purāriya ḷittaru</l>
+      <l>ṇaṉaika vuṭkaḷi nākiḷa vēḻamē ~ <g ref="#pcs"/></l></lg></seg></seg>
+    <lg><l><lb n="2"/>Ulakameṉu<gap reason="ellipsis"/>
+      <lb n="3"/><gap reason="ellipsis"/> vāḻvām ~ 1 ~</l></lg> <gap reason="ellipsis"/>
+      
        
     <pb facs="188" n="2v"/>
   <seg function="header">
@@ -208,8 +219,15 @@
 <lb n="1-2"/>Upatēcam</seg>
     </seg>
     
+    
+            <pb facs="347" n="82r"/>
+  <seg function="header">
+<seg function="intertitle"><milestone unit="left-margin"/>
+<lb n="1-2"/><gap reason="ellipsis"/></seg>
+    </seg>
         
       <pb facs="355" n="86r"/>
+    <milestone unit="main-text-area"/>
     <lb n="1"/><gap reason="ellipsis"/>
     <lb n="2"/><gap reason="ellipsis"/> ~ Aṅkattalam ~ <num rend="traditional">44</num> ~ liṅkattalam ~ <num rend="traditional">57</num> ~ Ākat talam ~ <num rend="traditional">101</num> ~ kku viruttam ~ <num rend="traditional">881</num> ~ <seg function="colophon"><seg function="completion-statement">cittā
     <lb n="3" break="no"/>ntacikāmaṇi muṟṟum ~</seg> <seg function="copy-statement">kīlaka {varuṣam} cittirai {mācam} <num rend="traditional">26</num> {tēti} caṉikkiḻamai tiṉattil ~ putuvai cīṉivācaṉāl eḻuti niṟai veṟṟiṟṟu <g ref="#pcs"/></seg></seg>
