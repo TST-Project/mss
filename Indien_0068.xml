@@ -61,7 +61,8 @@
                   
                   
                <origin>
-                     <origDate calendar="gregorian" notAfter="1854">No internal date. Dated to circa 1775 by Vinson (1868) and to 1775 by Cabaton (1912), on unstated grounds (presumably palaeographical and material analysis arguments). Not after 1854, since part of the collection of <persName role="collector">Édouard Ariel</persName> (1818-1854), bequeathed in 1855 to the Société Asiatique, Paris (Rosny 1868).</origDate>
+                     <origDate calendar="gregorian" notAfter="1803">Internally dated to the year <foreign xml:lang="ta">tuntu<unclear>mī</unclear></foreign>, that is, <foreign xml:lang="ta">tuntupi</foreign> of the Jovian cycle, that is, CE 1802-1803, 1742-1741, etc. See colophon (U2, <locus facs="253">f128r5</locus>).
+Dated to circa 1775 by Vinson (1868) and to 1775 by Cabaton (1912), on unstated grounds (presumably palaeographical and material analysis arguments). Not after 1854, since part of the collection of <persName role="collector">Édouard Ariel</persName> (1818-1854), bequeathed in 1855 to the Société Asiatique, Paris (Rosny 1868).</origDate>
                      <origPlace>South India, Tamilnadu.</origPlace>
                   </origin><provenance><p>Owned by <persName role="collector">Édouard Ariel</persName> (1818-1854). Bequeathed by Édouard Ariel to Société Asiatique (Rosny 1868, p. 177).</p></provenance><acquisition>
                      
@@ -105,12 +106,28 @@
   <seg function="blessing"><milestone n="1" unit="left-margin"/>
   <lb n="1"/>nāṉṟāka</seg>
   <seg function="title"><lb n="2"/>pakavaṟkītai</seg>
-  <seg function="TBC"><lb n="3"/>meññāṉa
+  <seg function="intertitle"><lb n="3"/>meññāṉa
     <lb n="4"/>poruḷ</seg>
 </seg>
 
    <seg function="incipit"><milestone unit="main-text-area"/>
-     <lb n="1"/><gap reason="ellipsis"/></seg>
+     <lb n="1"/>Āṉai ṉāyakar <gap reason="ellipsis"/>
+    <lb n="2"/><gap reason="ellipsis"/> pō<sic>ttu</sic>vām <g ref="#pcs"/></seg> Oru patam <gap reason="ellipsis"/>
+    <lb n="3"/><gap reason="ellipsis"/>
+    <lb n="4"/><gap reason="ellipsis"/> pō<sic>ttu</sic>vām <g ref="#pcs"/> Aiyivakaip poruḷum ṉāṉku <gap reason="ellipsis"/>
+        <lb n="5"/><gap reason="ellipsis"/>
+
+    
+      <pb facs="6" n="2v"/>
+    <milestone unit="main-text-area"/>
+    <lb n="1"/><gap reason="ellipsis"/> pām <g ref="#pcs"/> <gap reason="ellipsis"/>
+    <lb n="2"/><gap reason="ellipsis"/>
+    <lb n="3"/><gap reason="ellipsis"/> <g ref="#pcs"/> <gap reason="ellipsis"/>
+        <lb n="4"/><gap reason="ellipsis"/>
+    <lb n="5"/><gap reason="ellipsis"/> <g ref="#pcs"/> <gap reason="ellipsis"/>    
+    <lb n="6"/><gap reason="ellipsis"/> <g ref="#pcl"/> 
+    <lb n="7"/><g ref="#pcs"/> pācura mu<sic>ttu</sic>m <g ref="#pcl"/> 
+
     
     <pb facs="7" n="3r"/>
     <seg function="header">
@@ -120,7 +137,16 @@
     <lb n="3" break="no"/>yam <g ref="#pcs"/></seg> <seg function="TBC"><gap reason="ellipsis"/></seg>
 </seg>
     
-        
+        <milestone unit="main-text-area"/>
+    <lb n="1"/>tārmaṟācā <gap reason="ellipsis"/> 
+        <lb n="1-4"/><gap reason="ellipsis"/>
+    
+        <pb facs="8" n="3v"/>
+        <lb n="1-2"/><gap reason="ellipsis"/>
+        <lb n="3"/><gap reason="ellipsis"/> ~ taṟmaṣēttiramāṉa kuruṣṣēttiṟattilē yuyittiyam
+        <lb n="4-6"/><gap reason="ellipsis"/>
+
+    
     <pb facs="19" n="9r"/>
     <seg function="header">
   <seg function="intertitle"><milestone n="1" unit="left-margin"/>
@@ -143,20 +169,28 @@
 
         <pb facs="256" n="104v"/>
     
-     
+     <pb facs="255" n="114r"/>
+    <seg function="header">
+  <seg function="intertitle"><milestone n="1" unit="left-margin"/>
+  <lb n="1-5"/>patiṉeṭṭāvatu cakala Upaniṣattu piṟittiyātiṇa mōṣcayōkavattiyāyam <g ref="#pcs"/></seg>
+    </seg>    
+    
         <pb facs="253" n="128r"/>
-	<lb n="1"/><gap reason="ellipsis"/>
-    <lb n="2"/><gap reason="ellipsis"/> mōṣcayōkavattiyāyam mut=tum <g ref="#pcs"/>
-    <lb n="3"/>śrīmatē ṟāmāṉucāya ṉṉama śrī-pakavaṟkītai Eḻuti mukintu mut=tum śrī-kiṣṇa <gap reason="ellipsis"/> namā ~ vētāntatē
-    <lb n="4" break="no"/>cika<del>ṉe</del>ṟ pātamē keti yem perumāṉāṟ tiruvaṭikaḷē caṟaṇam Āḻvārkaḷ tiruvaṭikaḷē caṟaṇam <g ref="#pcl"/>
-    <lb n="5"/>tuntumī {varuṣam} māci {mācam} <num rend="traditional">14</num> {tēti} kurvāṟaṉāḷ patiñcu ṉāḻi<del><gap reason="illegible" quantity="1" unit="character"/></del>kaikki tiṟitikai <unclear>Ut</unclear>tiraṭṭati yinta cupatiṉattilē <gap reason="ellipsis"/>
+    
+    <seg function="explicit"><milestone unit="main-text-area"/>
+	<lb n="1"/><gap reason="ellipsis"/> Eṉṉuṭaiya
+    <lb n="2"/>maṉaculē yuṇṭu <g ref="#pcl"/></seg> <seg function="colophon"><seg function="completion-statement">pa<unclear>ti</unclear>ṉeṭṭā<supplied reason="omitted">va</supplied>tu cakala upa<choice><sic>ti</sic><corr>ni</corr></choice>ṣaṭamam Aṟttam piṟittipātaṉ mōṣcayōkavattiyāyam mut=tum <g ref="#pcs"/></seg>
+    <seg function="blessing"><lb n="3"/>śrīmatē ṟāmāṉucāya ṉṉama</seg> <seg function="completion-statement">śrī-pakavaṟkītai Eḻuti mukin<supplied reason="omitted">ta</supplied>tu mu<sic>t=tu</sic>m</seg> <seg function="blessing">śrī-kiṣṇa-paṟampaṟaṉē namā ~ vētāntatē
+    <lb n="4" break="no"/>cika<del>ṉē</del>ṟ pātamē keti yem perumāṉāṟ tiruvaṭikaḷē caṟaṇam Āḻvārkaḷ tiruvaṭikaḷē caṟaṇam <g ref="#pcl"/></seg>
+    <seg function="copy-statement"><lb n="5"/>tuntu<unclear>mī</unclear> {varuṣam} māci {mācam} <num rend="traditional">14</num> {tēti} kuṟuvāṟaṉāḷ patiñcu ṉāḻi<del><gap reason="illegible" quantity="1" unit="character"/></del>kaikki tiṟitikai <unclear>Ut</unclear>tiraṭṭāti yinta cupatiṉattilē <persName xml:lang="ta" role="scribe"><g ref="#double_kal">rā</g>mu<gap reason="ellipsis"/>
     
         <pb facs="254" n="128v"/>
     <milestone unit="main-text-area"/>
-    <lb n="1"/>kumāraṉ vēṅkiṭācalaṉ pakavarkītai Eḻuti muñcutu <g ref="#pcl"/> Inta pakavarkītai <gap reason="ellipsis"/> paṭitta <supplied reason="lost">pēṟkaḷu</supplied> kku kēṭṭa pēṟkaḷukku ye
-    <lb n="2" break="no"/>ḻitiṉa pēṟkaḷukkum <gap reason="ellipsis"/> patam pañcam illai yeṉṟa vāṟu <g ref="#pcl"/> Ella putti <gap reason="ellipsis"/>
-    <lb n="3"/>Aṭiyēṉ pēril <gap reason="ellipsis"/> laṣcakk vēṇu<seg rend="grantha">m</seg> vēṅkiṭācalaṉ neṭṭeḻut=tu <g ref="#pcl"/>
+    <lb n="1"/>kumāraṉ vēṅkiṭācalaṉ</persName> pakavarkītai Eḻuti muñcutu <g ref="#pcl"/></seg> <seg function="TBC">yinta pakavarkītai yāṟā <gap reason="lost"/> m paṭitta <supplied reason="lost">pēṟkaḷu</supplied>kku kēṭṭa pēṟkaḷukku ye
+    <lb n="2" break="no"/>ḻitiṉa pēṟkaḷukkum paṟamapatam pañcam illai yeṉṟa vāṟu <g ref="#pcl"/></seg> <seg function="TBC">Ella puttiyuḷḷam kāttu mākkaḷ tappu Oppu yiruntāl
+    <lb n="3"/>Aṭiyēṉ pēril kōpam <gap reason="ellipsis"/> laṣcakk vēṇu<seg rend="grantha">m</seg></seg> <persName xml:lang="ta" role="scribe">vēṅkiṭācalaṉ</persName> neṭṭeḻut=tu <g ref="#pcl"/>
     <lb n="4"/>kuru-kaṭāṣcam tuṇai Uṇṭāka<g rend="below-base">vuM</g>
+    </seg>
     
 
   </ab>
