@@ -18,7 +18,7 @@
                      <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
                   </repository>
                   <idno type="shelfmark">Indien 963</idno>
-               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1045815</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b52518675t</idno></msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1045815</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b52518675t</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/76537534n</idno></msIdentifier>
                <msContents class="#STM">
                   <summary><p>The <title xml:lang="ta">Viruttācalappuṟāṇam</title>, with a commentary at least for its beginning, followed by the <title xml:lang="ta">Tiruttoṇṭattokai</title>.</p>
 
@@ -26,7 +26,7 @@
 <p>Dimensions assessed at the time of examination.</p>
 </summary>
                   
-               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Viruttācalappuṟāṇam: <term xml:lang="en">Title Page (additional)</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2a" xml:id="T2" defective="false"><title xml:lang="ta">Viruttācalappuṟāṇam: <term xml:lang="en">Text</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2b" xml:id="T3" defective="false"><title xml:lang="ta">Tiruttoṇṭattokai: <term xml:lang="en">Text</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T4" defective="false"><title xml:lang="ta"><term xml:lang="en">Tables of Contents (3) + TBC</term></title><textLang mainLang="tam"/></msItem></msContents>
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Viruttācalappuṟāṇam: <term xml:lang="en">Title Page (additional)</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2a" xml:id="T2" defective="false"><title xml:lang="ta">Viruttācalappuṟāṇam: <term xml:lang="en">Text</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2b" xml:id="T3" defective="false"><title xml:lang="ta">Tiruttoṇṭattokai: <term xml:lang="en">Text</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T4" defective="false"><title xml:lang="ta">Viruttācalappuṟāṇam: <term xml:lang="en">Tables of Contents (3) + TBC</term></title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
                   
                   
@@ -49,9 +49,9 @@
                         
                         
                         
-                     <collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">Title Page (additional)</emph>. No foliation. Verso blank. 145 x 25 mm.</desc><desc xml:id="U2">123 folios = <emph rend="bold">Main Texts</emph>. Tamil foliation {1}, 2-48, 51-125. 145 x 35 mm.
+                     <collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold"><title xml:lang="ta">Viruttācalappuṟāṇam</title>: Title Page (additional)</emph>. No foliation. Verso blank. 145 x 25 mm.</desc><desc xml:id="U2">123 folios = <emph rend="bold">Texts</emph>. Tamil foliation {1}, 2-48, 51-125. 145 x 35 mm.
 </desc><desc xml:id="U2a">117 folios = <emph rend="bold"><title xml:lang="ta">Viruttācalappuṟāṇam</title>: Text</emph>. Tamil foliation {1}, 2-48, 51-119. </desc><desc xml:id="U2b">6 folios = <emph rend="bold"><title xml:lang="ta">Tiruttoṇṭattokai</title>: Text</emph>. Tamil foliation 120-125. f125v blank.
-</desc><desc xml:id="U3">4 folios = <emph rend="bold">Tables of Contents (3) + TBC</emph>. No foliation. Unblackened. f2v blank. 145 x 30 mm.</desc><desc xml:id="U4">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Same type as U1. Blank recto verso. 145 x 25 mm.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Relatively good state of preservation, despite boreholes and some fragile leaves.</condition></supportDesc>
+</desc><desc xml:id="U3">4 folios = <emph rend="bold"><title xml:lang="ta">Viruttācalappuṟāṇam</title>: Tables of Contents (3) + TBC</emph>. No foliation. Unblackened. f2v blank. 145 x 30 mm.</desc><desc xml:id="U4">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Same type as U1. Blank recto verso. 145 x 25 mm.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Relatively good state of preservation, despite boreholes and some fragile leaves.</condition></supportDesc>
                      <layoutDesc>
                         
                      </layoutDesc>
@@ -153,8 +153,8 @@
    
        <pb facs="50" n="23v"/>
       <lb n="6"/><gap reason="ellipsis"/> <g ref="#pcs"/> <num rend="traditional">55</num> <g ref="#pcs"/> <seg function="completion-statement">talacarukkamuṟ
-  <lb n="7"/>ṟum</seg> <g ref="#pcs"/> <seg function="total-chapters total-stanzas">carukkam 3k=ku tiruvirutta
-    <lb n="8"/>m <num rend="traditional">72</num> <g ref="#pcs"/> <g ref="#pcs"/></seg>
+  <lb n="7" break="no"/>ṟum</seg> <g ref="#pcs"/> <seg function="total-chapters total-stanzas">carukkam 3k=ku tiruvirutta
+    <lb n="8" break="no"/>m <num rend="traditional">72</num> <g ref="#pcs"/> <g ref="#pcs"/></seg>
   <seg function="TBC"><lb n="9-12"/><note xml:lang="en">right-oriented, unblackened</note>
   <lb n="9"/>Aṭiyēṉuk=ku nalla put=tirar vēṇu<seg rend="grantha">m</seg>
 <lb n="10"/>Aṭiyēṉuk=ku Aṉṉava kṣat=tirat=tuk=ku kīlēcam i
@@ -168,7 +168,7 @@
       
       <pb facs="179" n="90r"/>
     <seg function="header"><seg function="intertitle"><milestone unit="left-margin"/>
-    <lb n="1-4"/>rutirākṣaccarukkam <g ref="#pcs"/></seg>
+    <lb n="1-4"/>ru=ttirākṣaccarukkam <g ref="#pcs"/></seg>
       </seg>
       
     <pb facs="188" n="94v"/>
@@ -187,7 +187,7 @@
       </seg>
       
                         
-    <pb facs="208" n="109r"/>
+    <pb facs="217" n="109r"/>
     <seg function="header"><seg function="intertitle"><milestone unit="left-margin"/>
     <lb n="1-5"/><gap reason="ellipsis"/>caruk=ka<seg rend="grantha">m</seg></seg>
       </seg>
@@ -197,14 +197,14 @@
     <lb n="1-4"/>vēciccarukkam <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/></seg>
       </seg>
       
-  <pb facs="239" n="119r"/>
+  <pb facs="237" n="119r"/>
   
     <lb n="5"/><seg function="explicit"><gap reason="ellipsis"/>
   <lb n="6"/><g ref="#pcs"/></seg> <seg function="colophon"><seg function="blessing">tirucciṟṟampalam <g ref="#pcs"/></seg> <seg function="total-chapters total-stanzas">{Āka} carukkam
     <lb n="7"/><num rend="traditional">16</num>k=ki tiruviruttam <num rend="traditional">435</num> <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/> <term xml:lang="en">{3 times = line-filler}</term></seg>
 <seg function="blessing"><lb n="8"/>paḻama<del><gap reason="illegible" quantity="1" unit="character"/></del>lai<gap reason="ellipsis"/>tar tuṇai <g ref="#pcs"/></seg> <seg function="blessing">periyaṉāyaki tuṇai <g ref="#pcs"/></seg>
       
-<pb facs="240" n="119v"/>
+<pb facs="238" n="119v"/>
     <seg function="copy-statement"><lb n="1"/>pilapava <g ref="#varuṣam">varuṣam</g> māci <g ref="#mācam">mācam</g> 8 <g ref="#tēti">tēti</g> caṉikkiḻamai reva
 <lb n="2" break="no"/>ti-nakṣet=tiram <choice><sic>kṣi</sic><corr>kū</corr></choice>ṭiṉa catuṟaccetiyil caṇ
 <lb n="3" break="no"/>mukam viṟuttācalappurāṇam Eḻuti mu
@@ -213,7 +213,7 @@
   </body></text><text synch="#U2b" corresp="#T3" xml:lang="ta"><body>
     <ab>
 
-  <pb facs="241" n="120r"/>
+  <pb facs="239" n="120r"/>
   
   <seg function="title"><milestone unit="left-margin"/>
   <lb n="1-6"/>tiruttoṇṭa<sic>tu</sic>kai</seg> <g ref="#pcs"/> <g ref="#pcs"/>
@@ -222,18 +222,18 @@
   <lg><l><lb n="1"/>tillai vāḻ antaṇar tam aṭiyārkkum a
   <lb n="2" break="no"/>ṭiyēṉ</l> <l><gap reason="ellipsis"/></l></lg></seg>
   
-  <pb facs="251" n="125r"/>
+  <pb facs="249" n="125r"/>
    <seg function="explicit"><lg><l><lb n="5"/>vappa</l><l><unclear reason="consonant_unclear">ṉ ā</unclear>rūriṉ ammāṉukk<pc>'</pc> a
      <lb n="6"/>ṉpar āvārē <g ref="#pcs"/> <num rend="traditional">1</num> <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/> <term xml:lang="en">{4 times = line-filler}</term></l></lg></seg>
 <seg function="blessing"><lb n="7"/>tirucciṟṟampalam <g ref="#pcs"/></seg> <seg function="completion-statement">muṟṟum <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/> <term xml:lang="en">{3 times = line-filler}</term></seg>
   
-        <pb facs="252" n="125v"/><note xml:lang="en">blank</note>
+        <pb facs="250" n="125v"/><note xml:lang="en">blank</note>
 
       </ab>
   </body></text><text synch="#U3" corresp="#T4" xml:lang="ta"><body>
     <ab>
 
-  <pb facs="253" n="[1]r"/>
+  <pb facs="251" n="[1]r"/>
   <seg function="table-of-contents">
   <seg function="header">
        <seg function="blessing"><milestone unit="left-margin"/>
@@ -250,7 +250,7 @@
     <lb n="2" break="no"/>ru<g rend="below-base">kkaM</g> <num rend="traditional">21</num>
   <lb n="3-10"/><gap reason="ellipsis"/>
   
-  <pb facs="254" n="[1]v"/>
+  <pb facs="252" n="[1]v"/>
   
   <milestone n="1" unit="column"/>
   <lb n="1-7"/><gap reason="ellipsis"/>
@@ -262,7 +262,7 @@
       <lb n="3" break="no"/>47</num> Eṉ<add place="below">ṟ<pc>'</pc> a</add>ṟiya<g rend="below-base">vuM</g></seg>
     </seg>
 
-  <pb facs="255" n="[2]r"/>
+  <pb facs="253" n="[2]r"/>
   <seg function="table-of-contents">
     <lb n="1"/>pāyiraccarukkam <num rend="traditional">18</num>
     <lb n="2"/>kiriccaru<g rend="below-base">kkaM</g> <num rend="traditional">39</num>
@@ -271,25 +271,25 @@
     <lb n="8"/>Akast=tiyaccaru<g rend="below-base">kkaM</g> <num rend="traditional">14</num>
     </seg>
   
-  <pb facs="256" n="[2]v"/><note xml:lang="en">blank</note>
+  <pb facs="254" n="[2]v"/><note xml:lang="en">blank</note>
   
-  <pb facs="257" n="[3]r"/>
+  <pb facs="255" n="[3]r"/>
       <seg function="table-of-contents">
     <lb n="1"/>pāyiraccaru<g rend="below-base">kkaM</g> <num rend="traditional">18</num> – kiriccaru<g rend="below-base">kkaM</g> 39
 <lb n="2"/>talaccaru<g rend="below-base">kkaM</g> <gap reason="ellipsis"/>
 <lb n="3-9"/><gap reason="ellipsis"/>
 
-  <pb facs="258" n="[3]v"/>
+  <pb facs="256" n="[3]v"/>
   <lb n="1-4"/><gap reason="ellipsis"/>
   <lb n="5"/><gap reason="ellipsis"/> veciccaru
     <lb n="6" break="no"/><g rend="below-base">kkaM</g> <num rend="traditional">14</num> <g ref="#pcs"/> <seg function="total-stanzas"/>{Āka} caru<g rend="below-base">kkaM</g> <num rend="traditional">20</num>k=ku tiruvi
     <lb n="7" break="no"/>ruttam <num rend="traditional">447</num> <g ref="#pcs"/></seg> <seg function="TBC">Eṉṟa v<pc>-</pc>āru <g ref="#pcs"/>
   
-  <pb facs="259" n="[4]r"/>
+  <pb facs="257" n="[4]r"/>
   <lb n="1"/>Eṭṭiyilē kaṭṭumaram paḻamuṇṭāmō
   <lb n="2-9"/><gap reason="ellipsis"/>
   
-  <pb facs="260" n="[4]v"/>
+  <pb facs="259" n="[4]v"/>
   <lb n="1-7"/><gap reason="ellipsis"/>
   <lb n="8"/> poḻiyuṅ kaṇ<unclear reason="vowel_unclear">ṭi</unclear></seg>    
     
