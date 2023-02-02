@@ -61,7 +61,7 @@
                   </objectDesc><handDesc>
                      
                   <handNote synch="#U2 #U3" scope="major" script="tamil" medium="incised soot"><desc><persName role="scribe">Ducler's scribe</persName>. Very neat.</desc></handNote></handDesc><additions><desc type="title commenting-note" subtype="detached">Title and language indicated on a detached <locus facs="1">sheet of paper</locus>:
-<quote rend="block" xml:lang="fr">Tamijarriyum Perumâl Kadai en tamil</quote>.</desc><desc synch="#CoverFront #CoverBack" type="shelfmark" subtype="back cover front">Tamil letter <quote xml:lang="ta">U</quote> engraved (<locus facs="4">front cover, verso</locus> and <locus facs="417">back cover, recto</locus>).</desc><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 417</quote> (<locus facs="3">front cover, recto</locus>). </desc><desc synch="#U2" type="foliation">Arabic foliation added in black ink: <quote>64</quote> (<locus facs="133">f64r</locus>).</desc><desc synch="#U3" type="foliation">Arabic foliation added in black ink: <quote>263</quote> (<locus facs="531">f263r</locus>).</desc><desc synch="#U3" type="intertitle" subtype="marginal left">Left-marginal intertitles, that is, numbered <foreign xml:lang="ta">katai</foreign>s.</desc></additions><bindingDesc>
+<quote rend="block" xml:lang="fr">Tamijarriyum Perumâl Kadai en tam<unclear>u</unclear>l</quote></desc><desc synch="#CoverFront #CoverBack" type="shelfmark" subtype="back cover front">Tamil letter <quote xml:lang="ta">U</quote> engraved (<locus facs="4">front cover, verso</locus> and <locus facs="417">back cover, recto</locus>).</desc><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 417</quote> (<locus facs="3">front cover, recto</locus>). </desc><desc synch="#U2" type="foliation">Arabic foliation added in black ink: <quote>64</quote> (<locus facs="133">f64r</locus>).</desc><desc synch="#U3" type="foliation">Arabic foliation added in black ink: <quote>263</quote> (<locus facs="531">f263r</locus>).</desc><desc synch="#U3" type="intertitle" subtype="marginal left">Left-marginal intertitles, that is, numbered <foreign xml:lang="ta">katai</foreign>s.</desc></additions><bindingDesc>
                      <binding>
                         
                      <decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote><p>Original <material>Ebony</material> covers. Tamil letter <quote xml:lang="ta">U</quote> engraved (<locus facs="4">front cover, verso</locus> and <locus facs="535">back cover, recto</locus>).</p></binding>
@@ -86,7 +86,7 @@
       
    <encodingDesc><p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.    </p></encodingDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
-      <change when="2022-07">Encoded and revised by <persName>Emmanuel FRANCIS</persName>. Version 1, July 2022.</change></revisionDesc></teiHeader>
+      <change when="2022-07">Encoded and revised by <persName>Emmanuel FRANCIS</persName>. Version 1, July 2022.</change><change when="2023-02">Enlarged and revised by <persName>Emmanuel FRANCIS</persName>. Version 2, February 2023.</change></revisionDesc></teiHeader>
    
 <facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525159608/manifest.json"/></facsimile><text synch="#U2" corresp="#T1" xml:lang="ta"><body>
   <ab>
@@ -103,6 +103,7 @@
   
  
   <pb facs="133" n="64r"/>
+    <milestone unit="main-text-area"/>
     <seg function="explicit"><milestone unit="main-text-area"/><lb n="1"/><gap reason="ellipsis"/> yeṉṟa vāṟu <g ref="#pcs"/> <seg function="completion-statement">tamiḻ aṟiyum perumāḷ katai muṟṟum <g ref="#pcl"/></seg></seg>
     
       <pb facs="134" n="64v"/><note xml:lang="en">blank</note>
@@ -120,130 +121,163 @@
       <seg function="incipit"><milestone unit="main-text-area"/><lb n="1"/>Aḻakāpuri yeṇṭoru paṭṭaṇamuṇṭu<supplied reason="subaudible">.</supplied> Antap paṭṭaṇattukku Aḻakēntira ṉeṉṟoru rācā vuṇṭu<supplied reason="subaudible">.</supplied> Anta rācāvukku <gap reason="ellipsis"/></seg>
     
     <pb facs="219" n="107r"/>
+    <seg function="header">
         <seg function="intertitle"><milestone unit="left-margin"/>
-      <lb n="1-4"/>reṇṭāṅ katai matamaik katai <note xml:lang="en">that is, <foreign xml:lang="ta">patumaikkatai</foreign>?</note></seg>
+      <lb n="1-4"/>reṇṭāṅ katai matamaik katai</seg>
+      </seg>
    
     <pb facs="227" n="111r"/>
+        <seg function="header">
         <seg function="intertitle"><milestone unit="left-margin"/>
       nālāvatu katai</seg>
+          </seg>
     
     <pb facs="233" n="114r"/>
-        <seg function="intertitle"><milestone unit="left-margin"/>Añcāvatu katai</seg>
+                <seg function="header">
+<seg function="intertitle"><milestone unit="left-margin"/>Añcāvatu katai</seg>
+                  </seg>
     
     <pb facs="235" n="115r"/>
-        <seg function="intertitle"><milestone unit="left-margin"/> 
- Āṟāvatu katai</seg>
+                <seg function="header">
+<seg function="intertitle"><milestone unit="left-margin"/> 
+ Āṟāvatu katai</seg></seg>
     
     <pb facs="239" n="117r"/>
-        <seg function="intertitle"><milestone unit="left-margin"/>
- Ēḻāvatu katai</seg>
+                <seg function="header">
+<seg function="intertitle"><milestone unit="left-margin"/>
+ Ēḻāvatu katai</seg></seg>
     
     <pb facs="243" n="119r"/>
-        <seg function="intertitle"><milestone unit="left-margin"/>
-          Eṭṭāvatu katai</seg>
+                <seg function="header">
+<seg function="intertitle"><milestone unit="left-margin"/>
+          Eṭṭāvatu katai</seg></seg>
     
     <pb facs="247" n="121r"/>
-        <seg function="intertitle"><milestone unit="left-margin"/>
-          Oṉpatāvatu katai</seg>
+                <seg function="header">
+<seg function="intertitle"><milestone unit="left-margin"/>
+          Oṉpatāvatu katai</seg></seg>
     
     <pb facs="253" n="124r"/>
-        <seg function="intertitle"><milestone unit="left-margin"/>
-          pattāvatu katai</seg>
+                <seg function="header">
+<seg function="intertitle"><milestone unit="left-margin"/>
+          pattāvatu katai</seg></seg>                                  
     
     <pb facs="256" n="125v"/>
-        <seg function="intertitle"><milestone unit="left-margin"/>
-          patiṉōrāvatu katai</seg>
+                <seg function="header">
+<seg function="intertitle"><milestone unit="left-margin"/>
+          patiṉōrāvatu katai</seg></seg>
     
     <pb facs="261" n="128r"/>
-        <seg function="intertitle"><milestone unit="left-margin"/> 
- paṉireṇṭāvatu katai</seg>
+                <seg function="header">
+<seg function="intertitle"><milestone unit="left-margin"/> 
+ paṉireṇṭāvatu katai</seg></seg>
     
     <pb facs="267" n="131r"/>
-        <seg function="intertitle"><milestone unit="left-margin"/>
-patimūṉṟāvatu katai</seg>
+                <seg function="header">
+<seg function="intertitle"><milestone unit="left-margin"/>
+patimūṉṟāvatu katai</seg></seg>
     
     <pb facs="272" n="133v"/>
-        <seg function="intertitle"><milestone unit="left-margin"/> 
-patinālāvatu katai</seg>
+                <seg function="header">
+<seg function="intertitle"><milestone unit="left-margin"/> 
+patinālāvatu katai</seg></seg>
     
     <pb facs="277" n="136r"/>
-        <seg function="intertitle"><milestone unit="left-margin"/> 
- patinayntāvatu katai</seg>
+                <seg function="header">
+<seg function="intertitle"><milestone unit="left-margin"/> 
+ patinayntāvatu katai</seg></seg>
     
     <pb facs="285" n="140r"/>
-        <seg function="intertitle"><milestone unit="left-margin"/> 
- patināṟāvatu katai</seg>
+                <seg function="header">
+<seg function="intertitle"><milestone unit="left-margin"/> 
+ patināṟāvatu katai</seg></seg>
     
     <pb facs="290" n="142r"/>
-        <seg function="intertitle"><milestone unit="left-margin"/> 
-patiṉēḻāvatu katai</seg>
+                <seg function="header">
+<seg function="intertitle"><milestone unit="left-margin"/> 
+patiṉēḻāvatu katai</seg></seg>
     
     <pb facs="294" n="144v"/>
-        <seg function="intertitle"><milestone unit="left-margin"/> 
- patineṭṭāvatu katai</seg>
+                <seg function="header">
+<seg function="intertitle"><milestone unit="left-margin"/> 
+ patineṭṭāvatu katai</seg></seg>
     
     <pb facs="298" n="146v"/>
-        <seg function="intertitle"><milestone unit="left-margin"/> 
- pattoṉpatāvatu katai</seg>
+                <seg function="header">
+<seg function="intertitle"><milestone unit="left-margin"/> 
+ pattoṉpatāvatu katai</seg></seg>
     
     <pb facs="302" n="148v"/>
-        <seg function="intertitle"><milestone unit="left-margin"/> 
-yiruvatāvatu katai</seg>
+                <seg function="header">
+<seg function="intertitle"><milestone unit="left-margin"/> 
+yiruvatāvatu katai</seg></seg>
     
     <pb facs="305" n="150r"/>
-        <seg function="intertitle"><milestone unit="left-margin"/> 
- yirupattorāvatu katai</seg>
+                <seg function="header">
+<seg function="intertitle"><milestone unit="left-margin"/> 
+ yirupattorāvatu katai</seg></seg>
     
     <pb facs="309" n="152r"/>
-        <seg function="intertitle"><milestone unit="left-margin"/>
-yiruvattireṇṭāvatu katai</seg>
+                <seg function="header">
+<seg function="intertitle"><milestone unit="left-margin"/>
+yiruvattireṇṭāvatu katai</seg></seg>
     
     <pb facs="321" n="158r"/>
-        <seg function="intertitle"><milestone unit="left-margin"/>
- yirupattu mūṉṟāvatu katai</seg>
+                <seg function="header">
+<seg function="intertitle"><milestone unit="left-margin"/>
+ yirupattu mūṉṟāvatu katai</seg></seg>
     
     <pb facs="324" n="159v"/>
-        <seg function="intertitle"><milestone unit="left-margin"/> 
- yirupattiṉālāvatu katai</seg>
+                <seg function="header">
+<seg function="intertitle"><milestone unit="left-margin"/> 
+ yirupattiṉālāvatu katai</seg></seg>
     
     <pb facs="328" n="161v"/>
-        <seg function="intertitle"><milestone unit="left-margin"/>
- yirupattañcāvatu katai</seg>
+                <seg function="header">
+<seg function="intertitle"><milestone unit="left-margin"/>
+ yirupattañcāvatu katai</seg></seg>
     
     <pb facs="333" n="164r"/>
-        <seg function="intertitle"><milestone unit="left-margin"/>
- yirupattāṟāvatu katai</seg>
+                <seg function="header">
+<seg function="intertitle"><milestone unit="left-margin"/>
+ yirupattāṟāvatu katai</seg></seg>
     
     <pb facs="335" n="165r"/>
-        <seg function="intertitle"><milestone unit="left-margin"/>
- yirupattēḻāvatu katai</seg>
+                <seg function="header">
+<seg function="intertitle"><milestone unit="left-margin"/>
+ yirupattēḻāvatu katai</seg></seg>
     
     <pb facs="341" n="168r"/>
-        <seg function="intertitle"><milestone unit="left-margin"/> 
-yirupatteṭṭāvatu katai</seg>
+                <seg function="header">
+<seg function="intertitle"><milestone unit="left-margin"/> 
+yirupatteṭṭāvatu katai</seg></seg>
     
     <pb facs="351" n="173r"/>
-        <seg function="intertitle"><milestone unit="left-margin"/> 
-yirupattoṉpatāvatu katai</seg>
+                <seg function="header">
+<seg function="intertitle"><milestone unit="left-margin"/> 
+yirupattoṉpatāvatu katai</seg></seg>
     
     <pb facs="429" n="212r"/>
-        <seg function="intertitle"><milestone unit="left-margin"/> 
-muppatāvatu katai</seg>
+                <seg function="header">
+<seg function="intertitle"><milestone unit="left-margin"/> 
+muppatāvatu katai</seg></seg>
     
     <pb facs="467" n="231r"/>
-        <seg function="intertitle"><milestone unit="left-margin"/>
-muppattōrāvatu katai</seg>
+                <seg function="header">
+<seg function="intertitle"><milestone unit="left-margin"/>
+muppattōrāvatu katai</seg></seg>
     
     <pb facs="503" n="249r"/>
-        <seg function="intertitle"><milestone unit="left-margin"/>
-muppattireṇṭāvatu katai</seg>
+                <seg function="header">
+<seg function="intertitle"><milestone unit="left-margin"/>
+muppattireṇṭāvatu katai</seg></seg>
     
        <pb facs="531" n="263r"/>
     <seg function="explicit"><milestone unit="main-text-area"/>
     <lb n="1"/>yai yātam oruvaṉ ṉeḻutiṉāṉō yātam oruvaṉ paṭittāṉō yātam oruvar kēṭṭārkaḷō Avarkaḷukk<pc>'</pc> ellām uṅkaḷuṭaiya
     <lb n="2"/><gap reason="ellipsis"/>
-    <lb n="3" break="no"/><pc>'</pc> eṉṟu Uṅkaḷ vākkiṉālē collip poṅkoḷ eṉṟu pōcarācaṉ collik kēḻkka Appō muppattu reṇṭu yintak katai
-    <lb n="4" break="no"/>yai yeḻutiṉavaṉ paṭittuvaṉ kēṭṭavarkaḷ yivarkaḷ ellām civaketiyē yaṭaiyak kaṭavat<pc>'</pc> eṉṟu varaṅ koṭuttup poṭṭu <gap reason="ellipsis"/>
+    <lb n="3" break="no"/>t<pc>'</pc> eṉṟu Uṅkaḷ vākkiṉālē collip poṅkoḷ eṉṟu pōcarācaṉ collik kēḻkka Appō muppattu reṇṭu yintak katai
+    <lb n="4" break="no"/>yai yeḻutiṉavaṉ paṭittuvaṉ kēṭṭavarkaḷ yivarkaḷ ellām civaketiyē yaṭaiyak kaṭavat<pc>'</pc> eṉṟu varaṅ koṭuttup pōṭṭu <gap reason="ellipsis"/>
     <lb n="5"/><gap reason="ellipsis"/> pōṉārkaḷp pōcarācaṉum muppattu reṇṭu kataiyuṅ kēṭṭu muppattorām paṭiyilē yiruntu rācciyapāram
       <lb n="6"/>paṇṇik koṇṭu cukamē yiruntārkaḷ eṉṟa vāṟu <g ref="#pcs"/></seg> <seg function="colophon"><seg function="completion-statement">katai muṟṟum <g ref="#pcl"/> <space/> <g ref="#pcl"/> <space/> <g ref="#pcl"/></seg></seg>
     
