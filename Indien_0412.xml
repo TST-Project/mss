@@ -20,10 +20,10 @@
                   
                   <idno type="shelfmark">Indien 412</idno>
                   <idno type="alternate"><idno>Tamoul 412</idno><idno>Ducler 8</idno></idno>
-               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1039378</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b100927358</idno></msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1039378</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b100927358</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/xg94hz55b</idno></msIdentifier>
                
                <msContents class="#MTM">
-                  <summary><p>Multi-text manuscript containing two narrative works:
+                  <summary><p>A multi-text manuscript containing two narrative works:
 <list rend="numbered">
   <item>The <title xml:lang="ta">Pañcatantirak Katai</title> (in verse) (U2)  (see Zvelebil, 1995, p. 516-517).</item>
   <item>The <title xml:lang="ta">Nālu Mantirik Katai</title> (U3) (see Zvelebil, 1995, p. 469).</item>
@@ -41,13 +41,12 @@
     <item><ref target="https://tst-project.github.io/mss/Indien_0411.xml">BnF Indien 411</ref></item>  
       <item><ref target="https://tst-project.github.io/mss/Indien_0413.xml">BnF Indien 413</ref></item>
       <item><ref target="https://tst-project.github.io/mss/Indien_0414.xml">BnF Indien 414</ref></item>
-  </list>
-  </p></filiation></msItem><msItem synch="#U3a" xml:id="T3" defective="false"><title xml:lang="ta">Nālu Mantirik Katai: <term xml:lang="en">Title Page</term></title><textLang mainLang="tam"/><filiation><p><list>
+  </list></p></filiation></msItem><msItem synch="#U3a" xml:id="T3" defective="false"><title xml:lang="ta">Nālu Mantirik Katai: <term xml:lang="en">Title Page</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U3b" xml:id="T4" defective="false"><title xml:lang="ta">Nālu Mantirik Katai: Mūlam</title><textLang mainLang="tam"/><filiation><p><list>
   <item><ref target="https://tst-project.github.io/mss/Indien_0417.xml">BnF Indien 417.2</ref></item>
       <item><ref target="https://tst-project.github.io/mss/Indien_0419.xml">BnF Indien 419</ref></item>
   <item><ref target="https://tst-project.github.io/mss/Indien_0420.xml">BnF Indien 420</ref></item>
     <item>GOML D.424-426.</item>
-</list></p></filiation></msItem><msItem synch="#U3b" xml:id="T4" defective="false"><title xml:lang="ta">Nālu Mantirik Katai: Mūlam</title><textLang mainLang="tam"/><filiation><p><list><item>BnF Indien 412b</item><item>BnF Indien 419</item><item>GOML D.424-426</item></list></p></filiation></msItem></msContents>
+</list></p></filiation></msItem></msContents>
                
                <physDesc>
                   
@@ -87,7 +86,7 @@
                      
                   <desc type="documenting-note" subtype="detached">Note in black ink on a detached <locus facs="0">paper leaf</locus> by Velanguani Arokium (?):
 <quote xml:lang="fr" rend="block">
-  <lb n="1"/>M<hi rend="superscript">r</hi> Ducler, N°25
+  <lb n="1"/>M<hi rend="superscript">r</hi> Ducler, N° 25
  <lb n="2"/>Contient 2 ouvrages, dont
  <lb n="3"/>1° Panjatandiram, ou Cinq sortes de Ruses (par Soma<sic>sana</sic>ma,)
  <lb n="4-5"/>2° Naloumandricadé, ou histoires des 4 misnistres. (ouvrage anonyme)
@@ -133,7 +132,7 @@ The number is that found in the catalogue of Velanguani Arokium (1845). </desc><
       
    <revisionDesc>
          
-         <change when="2021-06">Record created by Emmanuel FRANCIS. </change></revisionDesc></teiHeader>
+         <change when="2021-06">Record created by Emmanuel FRANCIS. </change><change when="2023-02">Revised by by Emmanuel FRANCIS. Version 1, February 2023</change></revisionDesc></teiHeader>
    
    <facsimile>
       
@@ -147,13 +146,13 @@ The number is that found in the catalogue of Velanguani Arokium (1845). </desc><
     <seg function="header">
       <seg function="blessing"><milestone n="1" unit="column"/>
         <lb n="1"/><term xml:lang="sa">hari</term>
-        <lb n="2"/>Ōm</seg>
-      <seg function="blessing"><lb n="3"/>naṉ
+        <lb n="2"/>Ōm
+        <lb n="3"/>naṉ
         <lb n="4" break="no"/>ṟāka</seg>
       
       <seg function="blessing"><milestone n="2" unit="column"/>
-        <lb n="1"/>kuru vāḻka</seg>
-      <seg function="blessing"><lb n="2"/>kuruvē tuṇai</seg>
+        <lb n="1"/>kuru vāḻka
+        <lb n="2"/>kuruvē tuṇai</seg>
       
       <seg function="title"><milestone n="3" unit="column"/>
         <lb n="1"/>pañcatantiraṅ katai</seg>
@@ -166,7 +165,7 @@ The number is that found in the catalogue of Velanguani Arokium (1845). </desc><
      <lb n="3"/>mūṉṟāvatu cantivikkiṟakam <space/> <num rend="traditional">33</num>
      <lb n="4"/>nālāvatu Aṟtaṉācam <space/> <num rend="traditional">50</num>
   <lb n="5"/>Aintāvatu campiṟōṣṭṭam – <space/> 55
-     <seg function="total-chapters"><lb n="6"/>{Āka} Atikāram – <choice><sic>4</sic><corr>5</corr></choice>kki</seg> y<pc>-</pc>ēṭu kūṭiyatu <num rend="traditional">61</num> –</seg>
+     <seg function="total-chapters"><lb n="6"/>{Āka} Atikāram – <choice><sic>4</sic><corr>5</corr></choice>k=ki</seg> y<pc>-</pc>ēṭu kūṭiyatu <num rend="traditional">61</num> –</seg>
    <seg function="colophon"><seg function="copy-statement"><lb n="7"/><num rend="traditional">1828</num>m <g ref="#varuṣam">varuṣam</g> ḻuliyēt=tu <g ref="#mācam">mācam</g> <num rend="traditional">20</num> <g ref="#tēti">tēti</g> Eḻuti muṭintatu <g ref="#pcl"/></seg></seg>
   
         </ab>
@@ -186,39 +185,53 @@ The number is that found in the catalogue of Velanguani Arokium (1845). </desc><
           </seg>
   
   <seg function="incipit"><milestone unit="main-text-area"/>
-  <lb n="1"/><gap reason="ellipsis"/></seg> 
+  <lg><l><lb n="1"/>tiruvaḷar kamalai vāvit tikaḻpuli yūril cempoṉ</l> <l>maruviya <gap reason="ellipsis"/></l>
+  <l><lb n="2"/>perukiya <gap reason="ellipsis"/></l> <l>tarukiya <gap reason="ellipsis"/> kūṟal uṟṟām ~ 1 ~</l></lg></seg> mētiṉi <gap reason="ellipsis"/>
+  <lb n="3"/><gap reason="ellipsis"/>
+  <lb n="4"/><gap reason="ellipsis"/> = 2 = <gap reason="ellipsis"/>
+        
   
   <pb n="24v"/>
+        <milestone unit="main-text-area"/>
         <lb n="6"/><gap reason="ellipsis"/> = <num rend="traditional">217</num> = <seg function="completion-statement">mitturupētakamuṟṟum <g ref="#pcl"/></seg>
   
   <pb n="25r"/>
+        <seg function="header">
   <seg function="intertitle"><milestone unit="left-margin"/>
   <lb n="1"/>cukuṟta
    <lb n="2" break="no"/>lāpam
   <lb n="3"/>Iraṇ
   <lb n="4" break="no"/>ṭāvatu</seg>
+          </seg>
   
   <pb n="33r"/>
-  <seg function="intertitle"><milestone unit="left-margin"/>
+          <seg function="header">
+<seg function="intertitle"><milestone unit="left-margin"/>
   <lb n="1"/>mūṉṟāvatu
    <lb n="2"/>cantivik
   <lb n="3" break="no"/>kiṟakam</seg>
+            </seg>
   
-  <pb n="50r"/>
+  <pb n="50r"/>                
+        <seg function="header">
   <seg function="intertitle"><milestone unit="left-margin"/>
   <lb n="1"/>nālā
   <lb n="2" break="no"/>āvatu A
   <lb n="3" break="no"/>ṟtaṉā
   <lb n="4" break="no"/>cam</seg>
+          </seg>
   
   <pb n="55r"/>
-  <seg function="intertitle"><milestone unit="left-margin"/>
+          <seg function="header">
+<seg function="intertitle"><milestone unit="left-margin"/>
   <lb n="1"/>Aintāvatu
-  <lb n="2"/>campiṟo
+  <lb n="2"/>campiṟō
   <lb n="3" break="no"/>ṣṭṭam</seg>
+            </seg>
   
   <pb n="61v"/>
-        <lb n="7"/><gap reason="ellipsis"/> <g ref="#pcs"/> <num rend="traditional">60</num> <g ref="#pcs"/> <seg function="completion-statement">campiṟōṣṭṭamuṟṟum <g ref="#pcs"/></seg> <seg function="completion-statement">pañcatantiraṅkatai muṟṟumukintatu ~</seg> <seg function="total-stanzas">Itaṟ
+                <milestone unit="main-text-area"/>
+<lb n="7"/><gap reason="ellipsis"/> <g ref="#pcs"/> <num rend="traditional">60</num> <g ref="#pcs"/> <seg function="completion-statement">campiṟōṣṭṭa muṟṟum <g ref="#pcs"/></seg> <seg function="completion-statement">pañcatantiraṅkatai muṟṟu mukintatu ~</seg> <seg function="total-stanzas">Itaṟ
           <lb n="8" break="no"/>ku ceyyuḷ ~ <num rend="traditional">538</num> <g ref="#pcl"/></seg>
 
   <seg function="explicit"><gap reason="ellipsis"/></seg> 
@@ -229,33 +242,37 @@ The number is that found in the catalogue of Velanguani Arokium (1845). </desc><
         
   <pb n="[1]r"/>
   
-  <seg function="blessing"><milestone n="1" unit="column"/>
+  <seg function="header">
+    <seg function="blessing"><milestone unit="left-margin"/>
   <lb n="1"/>nīlayatāṭci tuṇai</seg>
+    </seg>
   
-  <seg function="title"><milestone n="2" unit="column"/>
+  <seg function="title"><milestone n="1" unit="column"/>
   <lb n="1"/>nālu mantirik katai</seg>
   <seg function="title"><lb n="2"/><term xml:lang="fr">Histoire de quatre Ministres</term></seg>
   
-  <seg function="blessing"><milestone n="3" unit="column"/>
-  <lb n="1"/>vēlumayilum tuṇai</seg>
+  <seg function="blessing"><milestone n="2" unit="column"/>
+  <lb n="1"/>vēlu mayilum tuṇai</seg>
  </ab>
 </body></text><text synch="#U3b" corresp="#T4" xml:lang="ta"><body>
       <ab>
         
   <pb n="62r"/>
   
-  <seg function="title"><milestone unit="left-margin"/>
+  <seg function="header"><seg function="title"><milestone unit="left-margin"/>
   <lb n="1"/>nālu man
    <lb n="2" break="no"/>tirik ka
    <lb n="3" break="no"/>tai</seg>
-  
+  </seg>
+        
    <seg function="incipit"><milestone unit="main-text-area"/>
     <lb n="1"/>Aḻakāpuri y<pc>-</pc>eṉṟ’ oru paṭṭaṇam uṇṭu Antap paṭṭaṇat=tukku Aḻakēntiraṉ eṉṟ<pc>’</pc> oru rācā v<pc>-</pc>uṇṭu Anta rācāvukkuk
 <lb n="2"/>kōṭṭai y<pc>-</pc>eppaṭi y<pc>-</pc>irukkum eṉṟāl oru paṉaip piṟamāṇam y<pc>-</pc>irumpukkōṭṭaiyum y<pc>-</pc>iyyakkōṭṭaiyum veṅ
 <lb n="3" break="no"/>kalak kōṭṭaiyuñ cempukkōṭṭaiyum</seg> <gap reason="ellipsis"/>
      
   <pb n="100v"/>
-  <seg function="explicit"><lb n="1"/>pota-v<pc>-</pc>ātittaṉ pota-cantiraṉ pota-viyākaṉ pota-vipuṣaṇaṉ y<pc>-</pc>inta nālumantiri-māraiyum aḻaippittu Avarkaḷukku kaṉaka-stā
+  <seg function="explicit"><milestone unit="main-text-area"/>
+    <lb n="1"/>pota-v<pc>-</pc>ātittaṉ pota-cantiraṉ pota-viyākaṉ pota-vipuṣaṇaṉ y<pc>-</pc>inta nālumantiri-māraiyum aḻaippittu Avarkaḷukku kaṉaka-stā
   <lb n="2" break="no"/>ṉam paṇṇiviccuk kaṉaka-pallakkuṅ koṭuttu catur<pc>-</pc>aṅka-cēṉaiyoṭuṅ kūṭṭi muppattu reṇṭu viṉōtamuṅ kaṭṭaḷaiyum Aṟikki
   <lb n="3" break="no"/>ṉai paṇṇi y<pc>-</pc>aṉuppiviccu pōṭṭu rācā <gap reason="ellipsis"/> Araṇmaṉaikkup poṉār</seg>  <seg function="TBC">Appaṭikk<pc>’</pc> otta taṟmattaik kēṭṭa
 <lb n="4" break="no"/>vaṟkum paṭittavaṟkum Eḻuti vaittavaṟkum yippaṭikk<pc>’</pc> otta pōkaṅkaḷai y<pc>-</pc>ellām Aṟivu niṉavu putti yōca
