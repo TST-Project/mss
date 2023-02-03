@@ -21,7 +21,7 @@
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc104052p</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b525171583</idno></msIdentifier>
                <msContents class="#STM">
                   <summary><p>A copy of the <title xml:lang="ta">Vātavūrar Purāṇam</title>.</p>
-<p>Wrongly identified as <title xml:lang="ta">Nālu Mantirik Katai</title>, as the first intertitle was taken as the title.</p>
+<p>Wrongly identified as <title xml:lang="ta">Nālu Mantirik Katai</title>, as the first intertitle (<title xml:lang="ta">Mantiriccarukkam</title>) was taken as the title.</p>
 
 <p>Description based on the digital images available on Gallica.</p>
 <p>Dimensions after Cabaton (1912).</p>      </summary>
@@ -125,12 +125,12 @@
 </body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
     <ab>
 
-  <pb facs="20" n="1r"/>
+  <pb facs="7" n="1r"/>
   
    <seg function="header">
       <seg function="blessing"><milestone unit="left-margin"/>
         <lb n="1-2"/>kuruvē tuṇai
-        <lb n="3-5"/>mantiricarukka<seg rend="grantha">m</seg></seg>
+        <lb n="3-5"/>mantiriccarukka<seg rend="grantha">m</seg></seg>
      </seg>
   
      
@@ -145,6 +145,8 @@
   <lb n="1-2"/>kutirai yiṭṭa carukkam</seg></seg>
       
            <pb facs="64" n="29v"/>
+      <milestone unit="main-text-area"/>
+      <lb n="1"/><gap reason="ellipsis"/> ceyvām <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/> <seg function="completion-statement"><seg function="blessing">tirucciṟṟampala<seg rend="grantha">m</seg> <g ref="#pcl"/></seg> kutirai yiṭṭa carukkam mu<sic>t=tu</sic>m <g ref="#pcl"/></seg>
 
       <pb facs="65" n="30r"/>
   <seg function="header">
@@ -152,6 +154,10 @@
   <lb n="1-4"/>maṇacumantacarukkam <g ref="#pcs"/> <g ref="#pcs"/></seg></seg>
       
        <pb facs="86" n="40v"/>
+      <milestone unit="main-text-area"/>
+      <lb n="1-2"/><gap reason="ellipsis"/>
+      <lb n="3"/><gap reason="ellipsis"/> luṟṟām <g ref="#pcs"/><seg function="completion-statement">maṇacumantacarukka muṟṟum <g ref="#pcl"/>
+      <seg function="blessing"><lb n="4"/>tirucciṟṟampalam <g ref="#pcl"/></seg> <seg function="total-stanzas">{Āka} viruttam <g ref="#pcl"/> <num rend="traditional">343</num> <g ref="#pcs"/></seg></seg>
 
       <pb facs="87" n="41r"/>
   <seg function="header">
@@ -178,6 +184,5 @@
       <lb n="1-5"/><gap reason="ellipsis"/>
       <lb n="6"/><gap reason="ellipsis"/> <g ref="#pcl"/> <num rend="traditional">31</num> <g ref="#pcs"/> vēṟu <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/> 
       
-
       </ab>
   </body></text></TEI>
