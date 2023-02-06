@@ -20,7 +20,8 @@
                   <idno type="shelfmark">Indien 954</idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc104573g</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary><p>The <title xml:lang="ta">Vātavūrppurāṇam</title> alias the <title xml:lang="ta">Vātavūrar Purāṇam</title> by <persName>Kaṭavuḷ Māmuṉivar</persName> (Zvelebil 1995, p. 334, 405).</p>
+                  <summary><p>An complete copy of the <title xml:lang="ta">Tiruvātavūrārpurāṇam</title>, entitled here <title xml:lang="ta">Vātavūrappurāṇam</title>, a poem on the life of <persName>Māṇikkavācakar</persName>, by <persName role="author">Kaṭavuṇmāmuṉivar</persName> (15th century?). See Sweetman &amp; Ilakkuvan (2012, p. 66), Zvelebil (1995, p. 334, 405).</p>
+
 <p>Description based on the examination of the original manuscript (January 2021).</p>
 <p>Dimensions assessed at the time of examination.</p>      
 </summary>
@@ -74,7 +75,7 @@ Owned / Borrowed by <persName xml:lang="fr" role="collector" key="Vinson, Julien
                <additional>
                   <listBibl>
                      
-                  <bibl>[editions available on https://www.tamildigitallibrary.in]</bibl><bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens. Bibliothèque nationale. Département des manuscrits.</title> Paris: E. Leroux. — See handwritten addition, <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f172">f3r, no. 954</ref>.</bibl><bibl>Zvelebil, Kamil V. 1995. <title>Lexicon of Tamil Literature.</title> Leiden [etc.]: Brill.</bibl></listBibl>
+                  <bibl>[editions available on https://www.tamildigitallibrary.in]</bibl><bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens. Bibliothèque nationale. Département des manuscrits.</title> Paris: E. Leroux. — See handwritten addition, <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f172">f3r, no. 954</ref>.</bibl><bibl>Sweetman, Will &amp; R. Ilakkuvan. 2012. <title>The Bibliotheca Malabarica: Bartholomäus Ziegenbalg’s Tamil Library: An Annotated edition and translation.</title> Pondicherry: EFEO and IFP. (Indologie no. 119).</bibl><bibl>Zvelebil, Kamil V. 1995. <title>Lexicon of Tamil Literature.</title> Leiden [etc.]: Brill.</bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
@@ -95,20 +96,18 @@ Owned / Borrowed by <persName xml:lang="fr" role="collector" key="Vinson, Julien
   <seg function="header">
   <seg function="blessing"><milestone unit="left-margin"/>
   <lb n="1"/>tirucciṟṟampalam</seg>
-  <seg function="title"><lb n="2"/>vātavūrppuṟā<g rend="below-base">ṇaM</g></seg>
+  <seg function="title"><lb n="2"/>vātavūrappuṟā<g rend="below-base">ṇaM</g></seg>
   <lb n="3"/><seg function="blessing">tēvicakāya<seg rend="grantha">m•</seg></seg> <seg function="blessing">civa<seg rend="grantha">m•</seg></seg>
     </seg>
 
-  <seg function="incipit"><milestone unit="main-text-area"/>  
-  <lb n="1"/>pavaḷa</seg> <gap reason="ellipsis"/> 
-  <lb n="2"/><gap reason="ellipsis"/>
-  <lb n="3"/><gap reason="ellipsis"/>
-  <lb n="4"/><gap reason="ellipsis"/>
-  <lb n="5"/><gap reason="ellipsis"/> niṉaintu kai toḻuvām – <g ref="#pcs"/> <gap reason="ellipsis"/> 
+  <seg function="invocation"><milestone unit="main-text-area"/>
+  <lg><l><lb n="1"/>pavaḷamāl varaiyi ṉilaveṟip patupōṟ parantanīṟ ṟaḻakumpac cuṭampiṟ</l>
+    <l><lb n="2"/>ṟivaḷamā tuṭaṉiṉ ṟāṭiya paramaṉ ciṟuvaṉaip pāratap perum<lb n="3" break="no"/>pōṟ</l>
+    <l>ṟavaḷamā maruppoṉ rōṭittoru karatti ṉiṟat<lb n="4" break="no"/>tuyar kirippuṟa meḻutuṅ</l> <l>kavaḷamā kaḷittiṉ ṟirumukam paṭai<lb n="5" break="no"/>tta kaṭavuḷai niṉaintukai toḻuvām – <g ref="#pcs"/></l></lg></seg> <gap reason="ellipsis"/> 
   
   <pb n="[1]v"/>
     <milestone unit="main-text-area"/>
-  <lb n="1"/><gap reason="ellipsis"/>
+  <lb n="1"/><gap reason="ellipsis"/> <gap reason="lost"/>
   <lb n="2"/>kutirai yiṭṭa tirukkatay kūṟuvām <g ref="#pcs"/> <seg function="blessing">tirucciṟṟampala<seg rend="grantha">m•</seg></seg> <space/> <seg function="blessing">tēvicakāyam</seg>
   
     </ab>
@@ -123,8 +122,11 @@ Owned / Borrowed by <persName xml:lang="fr" role="collector" key="Vinson, Julien
   <lb n="3" break="no"/>ccarukka<seg rend="grantha">m•</seg></seg>
     </seg>
 
-  <seg function="incipit"><milestone unit="main-text-area"/>
-  <lb n="1"/>tuṅkamatakum</seg> <gap reason="ellipsis"/>
+  <seg function="incipit"><seg function="invocation"><milestone unit="main-text-area"/>
+   <lg><l><lb n="1"/>tuṅkamata kumpavuyar tumpimuka ṉampicīrt</l> <l>taṅkineki ḻañciṟu cataṅkaikaḷ pulampavē</l>
+     <l><lb n="2"/>maṅkaiyumai kaṅkuḷira vantulavu kiṉṟatā</l><l>ḷ aṅkaimalar koṇṭumiku
+     <lb n="3"/>vaṉpu<del><gap reason="illegible" quantity="1" unit="character"/></del>ṭāṉ iṟaiñcuvām ~ 1 ~</l></lg></seg></seg> <gap reason="ellipsis"/>
+      
   
   <pb n="11r"/>
   <milestone unit="main-text-area"/>
