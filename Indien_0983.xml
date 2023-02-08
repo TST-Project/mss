@@ -4,12 +4,12 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title><title xml:lang="ta">Arunaikiripurāṇam</title></title>
+            <title><title xml:lang="ta">Aruṇaikiripurāṇam</title></title>
          <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2022</date>
+            <date>2023</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -21,13 +21,24 @@
                   <idno type="alternate"/>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc104598b</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b525162171</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary><p>The <title xml:lang="ta">Arunaikiripurāṇam</title>, that is, the <title xml:lang="ta">Aruṇācalapurāṇam</title>, which is the <foreign xml:lang="ta">talapurāṇam</foreign> of <placeName xml:lang="ta">Tiruvaṇṇāmalai</placeName>. Text complete (577 or 587 stanzas) and commentary.</p>
+                  <summary><p>The <title xml:lang="ta">Aruṇācalapurāṇam</title>, entitled here <title xml:lang="ta">Aruṇaikiripurāṇam</title>, which is the <foreign xml:lang="ta">talappurāṇam</foreign> of <placeName xml:lang="ta">Tiruvaṇṇāmalai</placeName>. Text complete (577 or 587 stanzas) and commentary.</p>
+
 <p>Description based on the examination of the original manuscript (December 2020, January 2021).</p>
 <p>Dimensions assessed at the time of examination.</p></summary>
                   
-               <msItem synch="#U2" xml:id="T1" defective="false"><title xml:lang="ta">Aruṇaikiripurāṇam: Kāppu</title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T2" defective="true" class="#talapuranam"><title xml:lang="ta">Aruṇaikiripurāṇam: Mūlam &amp; Urai</title><textLang mainLang="tam"/><filiation><p>BnF Indien 297, Bnf Indien 298, BnF Indien 299a.</p></filiation></msItem></msContents>
+               <msItem synch="#U2" xml:id="T1" defective="false"><title xml:lang="ta">Aruṇaikiripurāṇam: Kāppu</title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T2" defective="true" class="#talapuranam"><title xml:lang="ta">Aruṇaikiripurāṇam: Mūlam &amp; Urai</title><textLang mainLang="tam"/><filiation><p><list>
+  <item><ref target="https://tst-project.github.io/mss/Indien_0297.xml">BnF Indien 297</ref></item>
+  <item><ref target="https://tst-project.github.io/mss/Indien_0298.xml">BnF Indien 298</ref></item>
+  <item><ref target="https://tst-project.github.io/mss/Indien_0299.xml">BnF Indien 299.1</ref></item>
+    <item><ref target="https://tst-project.github.io/mss/Indien_0572.xml">BnF Indien 572</ref></item>
+</list>
+</p></filiation></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi" rend="manuscript">
+                  
+                  
+                  
+                  
+               <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
                         <extent>
                            <measure unit="folio" quantity="161">{2} + {1} + 158 (U1 + U2 + U3).</measure>
@@ -38,32 +49,28 @@
                         <dimensions type="object" unit="mm"><width quantity="400"/><height quantity="35"/><depth quantity="110"/></dimensions><dimensions type="written" unit="mm"/></extent>
                         
                         
-                     <collation>
+                     <support><p>Leaves of regular shape.</p></support><collation>
                      
-                     <desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. </desc><desc xml:id="U1">2 folios = <emph rend="bold">front guard leaves</emph>. No foliation. Blank recto verso except for register number and shelfmark (f[1]r).</desc><desc xml:id="U2">1 folio = <emph rend="bold"><title xml:lang="ta">Arunaikiripurāṇam</title>: Invocation</emph>. No foliation. Verso blank.</desc><desc xml:id="U3">158 folios = <emph rend="bold"><title xml:lang="ta">Arunaikiripurāṇam</title>: Text &amp; Commentary (interspersed)</emph>. Tamil foliation 1–158. Some folios unblackened. Some foliation corrected.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>. </desc></collation><condition>Good state of preservation, despite bore holes. </condition><support><p>Leaves of regular shape.</p></support></supportDesc>
+                     <desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. </desc><desc xml:id="U1">2 folios = <emph rend="bold">front guard leaves</emph>. No foliation. Blank recto verso except for register number and shelfmark (f[1]r).</desc><desc xml:id="U2">1 folio = <emph rend="bold"><title xml:lang="ta">Arunaikiripurāṇam</title>: Invocation</emph>. No foliation. Verso blank.</desc><desc xml:id="U3">158 folios = <emph rend="bold"><title xml:lang="ta">Arunaikiripurāṇam</title>: Text &amp; Commentary (interspersed)</emph>. Tamil foliation 1–158. Some folios unblackened. Some foliation corrected.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>. </desc></collation><condition>Good state of preservation, despite bore holes. </condition></supportDesc>
                      <layoutDesc>
                         <layout columns="1"/>
                      </layoutDesc>
-                  </objectDesc>
-                  <handDesc>
+                  </objectDesc><handDesc>
                      
-                  <handNote synch="#U2" scope="sole" script="tamil" medium="incised soot"/><handNote synch="#U3" scope="major" script="tamil" medium="incised soot"><desc>Seemingly several hands in fact.</desc></handNote></handDesc>
-                  <additions><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker <quote>Indien 983</quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#U1" type="documenting-note">BnF register number in black ink: <quote>RD 15232</quote> (<locus facs="3">f[1]r</locus>).</desc><desc synch="#U1" type="shelfmark">BnF Shelfmark in black ink: <quote>Indien 983</quote> (<locus facs="3">f[1]r</locus>).</desc><desc synch="#U2" type="shelfmark" subtype="beginning">BnF shelfmark <quote>Indien 983</quote> in black ink (<locus facs="7">f[1]r</locus>).</desc></additions>
-                  <bindingDesc>
+                  <handNote synch="#U2" scope="sole" script="tamil" medium="incised soot"/><handNote synch="#U3" scope="major" script="tamil" medium="incised soot"><desc>Seemingly several hands in fact.</desc></handNote></handDesc><additions><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker <quote>Indien 983</quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#U1" type="documenting-note">BnF register number in black ink: <quote>RD 15232</quote> (<locus facs="3">f[1]r</locus>).</desc><desc synch="#U1" type="shelfmark">BnF Shelfmark in black ink: <quote>Indien 983</quote> (<locus facs="3">f[1]r</locus>).</desc><desc synch="#U2" type="shelfmark" subtype="beginning">BnF shelfmark <quote>Indien 983</quote> in black ink (<locus facs="7">f[1]r</locus>).</desc></additions><bindingDesc>
                      <binding>
                         <p>Original <material>wood</material> covers. Very long string. With a wooden stick (135 mm long) threaded in one of the stringholes.</p>
                      <decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
-                  </bindingDesc>
-               </physDesc>
+                  </bindingDesc></physDesc>
                <history>
-                  <origin>
+                  
+                  
+               <origin>
                      <origDate calendar="gregorian" notAfter="1943"/>
                      <origPlace>Tamilnadu.</origPlace>
-                  </origin>
-                  <acquisition>
+                  </origin><acquisition>
                      
-                  <p>Acquired, April 22nd, 1943, from M. Bouriant for the price of 3000 francs. See BnF, département des Manuscrits, inventaire 3 = <title>Acquisitions: manuscrits et imprimés documentaires, 1894-1950</title>, no. 15232.</p></acquisition>
-               <provenance/></history>
+                  <p>Acquired, April 22nd, 1943, from M. Bouriant for the price of 3000 francs. See BnF, département des Manuscrits, inventaire 3 = <title>Acquisitions: manuscrits et imprimés documentaires, 1894-1950</title>, no. 15232.</p></acquisition></history>
                <additional>
                   <listBibl>
                      
