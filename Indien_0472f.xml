@@ -9,7 +9,7 @@
          
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2022</date>
+            <date>2023</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -25,7 +25,12 @@
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Fragment of Ariccantirar (Hariścandra) Story (?)</term></title><textLang mainLang="tam" otherLangs="deu"/></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi" rend="manuscript">
+                  
+                  
+                  
+                  
+                  
+               <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
                         <support>
                            
@@ -40,34 +45,29 @@
                         <dimensions type="object" unit="mm"><width quantity="0"/></dimensions><dimensions type="written" unit="mm"/></extent>
                         
                         
-                     <condition>Good state of preservation. Slightly cracked.</condition><collation><desc xml:id="U1">1 folio = <emph rend="bold">Ariccantirar story (?) (fragment)</emph>. Tamil foliation 19.</desc></collation></supportDesc>
+                     <collation><desc xml:id="U1">1 folio = <emph rend="bold">Ariccantirar story (?) (fragment)</emph>. Tamil foliation 19.</desc></collation><condition>Good state of preservation. Slightly cracked.</condition></supportDesc>
                      <layoutDesc>
                         <layout writtenLines="6"/>
                      </layoutDesc>
-                  </objectDesc>
-                  <handDesc>
+                  </objectDesc><handDesc>
                      
-                  <handNote synch="#U1" scope="major" script="tamil" scriptRef="#tamilPulliNone" medium="incised"/></handDesc>
-                  <decoDesc>
+                  <handNote synch="#U1" scope="major" script="tamil" scriptRef="#tamilPulliNone" medium="incised"/></handDesc><decoDesc>
                     
-                  </decoDesc>
-                  <additions>
-                  </additions>
-                  <bindingDesc>
+                  </decoDesc><additions>
+                  </additions><bindingDesc>
                      <binding>
                         
                      <decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
-                  </bindingDesc>
-               </physDesc>
+                  </bindingDesc></physDesc>
                <history>
-                  <origin>
+                  
+                  
+               <origin>
                      <origDate calendar="gregorian">No internal date.</origDate>
                      
-                  <origPlace>Tamilnadu.</origPlace></origin>
-                  <acquisition>
+                  <origPlace>South India, Tamilnadu.</origPlace></origin><provenance><p>Unknown.</p></provenance><acquisition>
                      
-                  <p>Unknown.</p></acquisition>
-               <provenance><p>Unknown.</p></provenance></history>
+                  <p>Unknown.</p></acquisition></history>
                <additional>
                   <listBibl>
                      
@@ -84,19 +84,23 @@
          
       <change when="2021-04">Record created by Emmanuel FRANCIS.</change><change when="2022-07">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, July 2022.</change></revisionDesc></teiHeader>
    <facsimile>
-   <graphic url="https://tst-project.github.io/img/Indien_0472/index.json"/></facsimile>
+   <graphic url="https://didomena.ehess.fr/concern/data_sets/gx41mr618/manifest.json" facs="54"/></facsimile>
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   <ab>
-  <pb facs="21" n="[1]r"/>
-    <seg function="incipit"><lb n="1"/><gap reason="ellipsis"/></seg>
+  <pb facs="54" n="19r"/>
+    
+    <seg function="header"><seg function="foliation"><milestone unit="left-margin"/>
+      <lb n="1"/><num rend="traditional">19</num></seg></seg>
+                      
+    <seg function="incipit"><milestone unit="main-text-area"/><lb n="1"/><gap reason="ellipsis"/></seg>
     <lb n="2"/><gap reason="ellipsis"/>
     <lb n="3"/><gap reason="ellipsis"/>
     <lb n="4"/><gap reason="ellipsis"/> = <seg function="intertitle">Ēcal taru =</seg> <gap reason="ellipsis"/>
     <lb n="5"/><gap reason="ellipsis"/>
     <lb n="6"/><gap reason="ellipsis"/> ~
   
-  <pb facs="20" n="[1]v"/>
-    <lb n="1"/><gap reason="ellipsis"/>
+  <pb facs="59" n="19v"/>
+    <milestone unit="main-text-area"/><lb n="1"/><gap reason="ellipsis"/>
     <lb n="2"/><gap reason="ellipsis"/>
     <lb n="3"/><gap reason="ellipsis"/>
     <lb n="4"/><gap reason="ellipsis"/> tiruppōm ariccantirar ~ <gap reason="ellipsis"/>

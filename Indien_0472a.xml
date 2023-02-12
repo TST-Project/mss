@@ -9,7 +9,7 @@
          
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2022</date>
+            <date>2023</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -25,7 +25,12 @@
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Epistle to the Romans 12.18</term></title><textLang mainLang="tam" otherLangs="deu"/></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi" rend="manuscript">
+                  
+                  
+                  
+                  
+                  
+               <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
                         <support>
                            
@@ -40,34 +45,29 @@
                         <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
                         
                         
-                     <condition>Good state of preservation, but cracked.</condition><collation><desc xml:id="U1">1 folio = <emph rend="bold">Epistle to the Romans 12.18</emph>. No foliation.</desc></collation></supportDesc>
+                     <collation><desc xml:id="U1">1 folio = <emph rend="bold">Epistle to the Romans 12.18</emph>. No foliation.</desc></collation><condition>Good state of preservation, but cracked.</condition></supportDesc>
                      <layoutDesc>
                         <layout writtenLines="4"/>
                      </layoutDesc>
-                  </objectDesc>
-                  <handDesc>
+                  </objectDesc><handDesc>
                      
-                  <handNote synch="#U1" scope="major" script="latin tamil" scriptRef="#tamilPulliNone" medium="incised"/></handDesc>
-                  <decoDesc>
+                  <handNote synch="#U1" scope="major" script="latin tamil" scriptRef="#tamilPulliNone" medium="incised"/></handDesc><decoDesc>
                     
-                  </decoDesc>
-                  <additions>
-                  </additions>
-                  <bindingDesc>
+                  </decoDesc><additions>
+                  </additions><bindingDesc>
                      <binding>
                         
                      <decoNote type="stringhole"><measure unit="stringhole" quantity="1"/></decoNote></binding>
-                  </bindingDesc>
-               </physDesc>
+                  </bindingDesc></physDesc>
                <history>
-                  <origin>
+                  
+                  
+               <origin>
                      <origDate calendar="gregorian" notAfter="1847">No internal date.</origDate>
                      
-                  <origPlace>Tamilnadu.</origPlace></origin>
-                  <acquisition>
+                  <origPlace>Tamilnadu.</origPlace></origin><provenance><p>Unknown.</p></provenance><acquisition>
                      
-                  <p>Acquired by the BnF in 1847 from Schwaighauser, "Elève de l'école des chartes", along with other items. See R.B. N° 4530bis (1847).</p></acquisition>
-               <provenance><p>Unknown.</p></provenance></history>
+                  <p>Acquired by the BnF in 1847 from Schwaighauser, "Elève de l'école des chartes", along with other items. See R.B. N° 4530bis (1847).</p></acquisition></history>
                <additional>
                   <listBibl>
                      
@@ -84,22 +84,24 @@
          
       <change when="2021-04">Record created by Emmanuel FRANCIS.</change><change when="2022-07">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, July 2022.</change></revisionDesc></teiHeader>
    <facsimile>
-   <graphic url="https://tst-project.github.io/img/Indien_0472/index.json"/></facsimile>
+   <graphic url="https://didomena.ehess.fr/concern/data_sets/gx41mr618/manifest.json" facs="13"/></facsimile>
    
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   <ab>
     
-    <pb facs="10" n="[1]r"/>
-    <term xml:lang="de"><lb n="1"/><gap reason="ellipsis"/> 
-    <lb n="2"/><gap reason="ellipsis"/>
-    <lb n="3"/><gap reason="ellipsis"/>
-    <seg function="title"><lb n="4"/>Rōm. 12, 18.</seg></term>
-    
-  <pb facs="11" n="[1]v"/>
-  	<seg function="title"><lb n="1"/>ṟōmar – <num rend="traditional">12</num> = Atikāram – <num rend="traditional">18</num> • vacaṉam •</seg>
+    <pb facs="13" n="[1]r"/>
+  	<seg function="title"><milestone unit="main-text-area"/>
+      <lb n="1"/>ṟōmar – <num rend="traditional">12</num> = Atikāram – <num rend="traditional">18</num> • vacaṉam •</seg>
     <seg function="incipit"><lb n="2"/>kūṭumāṉāl</seg> Ellāmanuṣaruṭaṉē-y<surplus>u</surplus> <del rend="strikeout"><gap reason="illegible" quantity="1" unit="character"/></del> Uṅ
     <lb n="3" break="no"/>kaḷālē Āṉamaṭṭuñ camātāṉam <seg function="explicit">āy-iru
     <lb n="4" break="no"/>ṅkoḷ</seg>
+    
+    <pb facs="16" n="[1]v"/>
+    <milestone unit="main-text-area"/>
+    <term xml:lang="de"><lb n="1"/><gap reason="ellipsis"/> 
+    <lb n="2"/><gap reason="ellipsis"/>
+    <lb n="3"/><gap reason="ellipsis"/>
+    <seg function="title"><lb n="4"/>Rōm. 12, 18.</seg></term> 
        
     </ab>
 </body></text></TEI>
