@@ -36,7 +36,7 @@
                      <supportDesc material="palm-leaf">
                         <support/>
                         <extent>
-                           <measure unit="folio" quantity="140">140 (U1 ).</measure>
+                           <measure unit="folio" quantity="140">140 (U1).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
@@ -44,12 +44,12 @@
                         <dimensions type="object" unit="mm"><width quantity="375"/><height quantity="30"/><depth quantity="85"/></dimensions><dimensions type="written" unit="mm"/></extent>
                         
                         
-                     <collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">140 folios = <emph rend="bold"><title xml:lang="ta">Piramōttarakāṇṭam</title></emph>. Tamil foliation 1-140.</desc><desc xml:id="U1a">1 folio = <emph rend="bold"><title xml:lang="ta">Piramōttarakāṇṭam</title>: Invocation</emph>. Tamil foliation 1. Verso blank.</desc><desc xml:id="U1b">140 folios = <emph rend="bold"><title xml:lang="ta">Piramōttarakāṇṭam</title>: Mūlam</emph>. Tamil foliation 2-140.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Excellent state of preservation.</condition></supportDesc>
-                  <layoutDesc/></objectDesc><handDesc>
+                     <collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">140 folios = <emph rend="bold"><title xml:lang="ta">Piramōttarakāṇṭam</title></emph>. Tamil foliation 1-140.</desc><desc xml:id="U1a">1 folio = <emph rend="bold"><title xml:lang="ta">Piramōttarakāṇṭam</title>: Invocation</emph>. Tamil foliation 1. Verso blank.</desc><desc xml:id="U1b">140 folios = <emph rend="bold"><title xml:lang="ta">Piramōttarakāṇṭam</title>: Mūlam</emph>. Tamil foliation 2-140. Recto verso inverted (f140).</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Excellent state of preservation. f83 broken into 2 pieces.</condition></supportDesc>
+                  <layoutDesc><layout>Page regularly left unfully written at the end of a chapter (exception = U1, <locus facs="30">f7r</locus>).</layout></layoutDesc></objectDesc><handDesc>
                      
-                  <handNote synch="#U1 #U1a #U1b" scope="major" script="tamil" medium="incised soot"><desc><persName role="scribe">Ducler's scribe</persName>. </desc></handNote></handDesc><additions><desc synch="#CoverFront" type="shelfmark" subtype="cover front">Shelfmark printed sticker: <quote>SMITH-LESOUËF 264</quote> (<locus facs="2">front cover, recto</locus>).</desc><desc synch="#U1 #U1a #U1b" type="intertitle" subtype="marginal left">Left-marginal intertitles (chapter titles). See selection below.</desc></additions><bindingDesc>
+                  <handNote synch="#U1 #U1a #U1b" scope="major" script="tamil" medium="incised soot"><desc><persName role="scribe">Ducler's scribe</persName>. Soot faded (f1-f4).</desc></handNote></handDesc><additions><desc synch="#CoverFront" type="shelfmark" subtype="cover front">Shelfmark printed sticker: <quote>SMITH-LESOUËF 264</quote> (<locus facs="2">front cover, recto</locus>).</desc><desc synch="#U1 #U1a #U1b" type="intertitle" subtype="marginal left">Left-marginal intertitles (chapter titles) on rectos and versos. See selection below.</desc><desc synch="#U1" type="stamp">BnF stamp (<locus facs="18">f1r</locus> and <locus facs="39">f140v</locus>).</desc></additions><bindingDesc>
                      <binding>
-                        <p>Original <material>ebony</material> covers. Tamil letter <quote xml:lang="ta">Ū</quote> engraved (<locus facs="8">front cover, verso</locus> and back cover, recto). <locus facs="5">Wooden stick</locus> threaded in one of the holes.</p>
+                        <p>Original <material>ebony</material> covers. 375 x 30 mm. Tamil letter <quote xml:lang="ta">Ū</quote> engraved (<locus facs="8">front cover, verso</locus> and back cover, recto). <locus facs="5">Wooden stick</locus> (115 mm) threaded in one of the holes.</p>
                      <decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
                   </bindingDesc></physDesc>
                <history>
@@ -97,7 +97,6 @@
 
       <pb n="[1]v"/><note xml:lang="en">blank</note>            
    
-
    </ab>
 </body></text><text synch="#U1b" corresp="#T2" xml:lang="ta"><body>
     <ab>
@@ -112,8 +111,11 @@
           <seg function="foliation"><lb n="5"/>2</seg>
         </seg>
       
-      <seg function="incipit"><milestone unit="main-text-area"/>
-      <lb n="1"/><gap reason="ellipsis"/></seg>
+      <seg function="incipit"><seg function="invocation"><milestone unit="main-text-area"/>
+      <lg><l><lb n="1"/>pūmēvu catumukaṉun tirumālum pōṟṟiceyyat</l>
+<l>tēmēvu kuḻalumaiyāḷ ceḻuṅkuvaḷai viḻikaḷippa</l>
+<l>māmēvu <sic>mita</sic>ḻinaṟu maḻaituḷippa maṇimaṉṟan</l>
+<l><lb n="2"/>tāmēvi naṭampuriyun taṉipporuḷai vaṇaṅkuvām <g ref="#pcs"/> 1 <g ref="#pcs"/></l></lg></seg></seg>
       
       <pb facs="26" n="4v"/>
       <milestone unit="main-text-area"/>
@@ -141,11 +143,21 @@
       <lb n="3"/><gap reason="ellipsis"/> <g ref="#pcs"/> <num rend="traditional">27</num> <g ref="#pcs"/> <seg function="completion-statement">pañcāṭcaravattiyāya muṟṟum <g ref="#pcs"/> <seg function="total-stanzas">{Āka} tiruviruttam <g ref="#pcs"/> <num rend="traditional">55</num> <g ref="#pcs"/></seg></seg>
             <lb n="4-7"/><gap reason="ellipsis"/>
 
+       <pb n="130v"/>
+      
+        <seg function="header">
+    <seg function="intertitle"><milestone unit="left-margin"/>
+          <lb n="1-5"/>yiruvatt<pc>’</pc> ireṇṭāvatu purāṇamakimai-vattiyāyam</seg>
+        </seg>
+      
       <pb facs="39" n="140v"/>      
             
-      <seg function="explicit"><milestone unit="main-text-area"/>
-      <lb n="1-3"/><gap reason="ellipsis"/>
-      <lb n="4"/><gap reason="ellipsis"/> <g ref="#pcs"/> <num rend="traditional">105</num> <g ref="#pcs"/></seg> <seg function="colophon"><seg function="completion-statement">Āvatu  purāṇa <choice><sic>pa</sic><corr>ma</corr></choice>kimai yuraitta vattiyāya muṟṟum <g ref="#pcs"/></seg> <seg function="total-stanzas"> Āka tiruviruttam <g ref="#pcs"/> <num rend="traditional" value="1321"><g ref="#āyiram"/>3<g ref="#nūṟu"/>2<supplied reason="omitted"><g ref="#pattu"/></supplied>1<g ref="#pcs"/></num></seg> <seg function="copy-statement">Eḻuti niṟaintutu muṟṟum <g ref="#pcs"/></seg></seg>  
+      <milestone unit="main-text-area"/>
+      <lb n="1"/><gap reason="ellipsis"/>
+      <lb n="2"/><gap reason="ellipsis"/> <g ref="#pcs"/> <num rend="traditional">104</num>
+        <seg function="explicit"><lg><l>tēvartam perumāṉ ciṟantavañ ceḻuttiṉ cīrpukaḻ mākkatai mutalāyp</l> <l>pāvaniṉ ṟaka<choice><sic>ttum</sic><corr>ṟṟu</corr></choice>m purāṇanūl <lb n="3"/>kēṭpōr palaṉpeṟal moḻikkatai yīṟāy</l>
+<l>mēvarap pukaṉṟa civakatai muḻutum viḻaiyuṭaṉ kēṭkuṉar avartā</l><l>m iyāvarmaṟ ṟēṉu mālaiyaṉ mutalōr ēytaru
+      <lb n="4" break="no"/>ñ civapatam aṭaivār <g ref="#pcs"/> <num rend="traditional">105</num> <g ref="#pcs"/></l></lg></seg> <seg function="colophon"><seg function="completion-statement">Āvatu  purāṇa<choice><sic>pa</sic><corr>ma</corr></choice>kimai yuraitta vattiyāya muṟṟum <g ref="#pcs"/></seg> <seg function="total-stanzas"> Āka tiruviruttam <g ref="#pcs"/> <num rend="traditional" value="1321"><g ref="#āyiram"/>3<g ref="#nūṟu"/>2<supplied reason="omitted"><g ref="#pattu"/></supplied>1<g ref="#pcs"/></num></seg> <seg function="copy-statement">Eḻuti niṟaintutu muṟṟum <g ref="#pcs"/></seg></seg>  
   
       </ab>
   </body></text></TEI>
