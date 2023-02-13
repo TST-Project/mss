@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Collection</title>
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2023</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Indien 565</idno>
+                  <idno type="alternate"><idno>Tamoul 565</idno></idno>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc104093x</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b52517464v</idno></msIdentifier>
+               <msContents class="#CM">
+                  <summary><p>A composite manuscript containing ...</p>    
+<p>Description based on the digital images available on Gallica.</p>
+<p>Dimensions after Cabaton (1912).</p>   </summary>
+                  
+               <msItem synch="#U2" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Invocation</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T2" defective="false"><title xml:lang="ta"><term xml:lang="en">Text</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U4" xml:id="T3" defective="false"><title xml:lang="ta"><term xml:lang="en">Invocation &amp; Text</term></title><textLang mainLang="tam"/></msItem></msContents>
+               <physDesc>
+                  
+                  
+                  
+                  
+               <objectDesc form="pothi" rend="manuscript">
+                     <supportDesc material="palm-leaf">
+                        <extent>
+                           <measure unit="folio" quantity="119">{1} + {1} + 59 + 59 TBC (U1 + U2 + U3 + U4).</measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           <width max="260"/><height max="35"/></dimensions>
+                        <dimensions type="object" unit="mm"><depth quantity="10"/></dimensions><dimensions type="written" unit="mm"/></extent>
+                        
+                        
+                     <support/><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">guard leaf</emph>. Blank recto verso.</desc><desc xml:id="U2">1 folio = <emph rend="bold">Invocation</emph>. Verso blank.</desc><desc xml:id="U3">59 folios = <emph rend="bold"><title xml:lang="ta">Viruttakirippurāṇam</title></emph>. Tamil foliation 1-59. f59v blank.</desc><desc xml:id="U4">1 folio = <emph rend="bold"><title xml:lang="ta">Periya Kōyil Purāṇam</title>: Invocation &amp; Text</emph>. Tamil foliation 142-199, [200]. </desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Relatively good state of preservation (565a). Relatively poor state of preservation (565b). Many boreholes. Truncated leaves.
+</condition></supportDesc>
+                     <layoutDesc>
+                        
+                     </layoutDesc>
+                  </objectDesc><handDesc>
+                     
+                  <handNote synch="#U2 #U3 #U4" scope="major" script="tamil" medium="incised soot"><desc>Hand #1. U4, f142 only.</desc></handNote><handNote synch="#U4" scope="major" script="tamil" medium="incised soot"><desc>U4, except f142.</desc></handNote></handDesc><additions><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF current shelfmark sticker: <quote>INDIEN 565</quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#U1" type="shelfmark">BnF old shelfmark in black ink: <quote>Tamoul N° 565</quote> (<locus facs="3">f[1]r</locus>).</desc></additions><bindingDesc>
+                     <binding>
+                        <p>Original <material>wood</material> covers.</p>
+                     <decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
+                  </bindingDesc></physDesc>
+               <history>
+                  
+                  
+               <origin>
+                     <origDate calendar="gregorian">Internal dates.</origDate>
+                     <origPlace>South India, Tamil Nadu</origPlace>
+                  </origin><provenance><p>Unknown.</p></provenance><acquisition>
+                     
+                  <p>Unknown.</p></acquisition></history>
+               <additional>
+                  <listBibl>
+                     
+                     
+                     
+                     
+                  <bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f98">p. 79, no. 565</ref>.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. 1866-. <title> Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f267">f. 125Ar, no. 565</ref>.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+   <encodingDesc><p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.</p></encodingDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
+         
+      <change when="2023-02">Record created by <persName>Emmanuel FRANCIS</persName>.</change></revisionDesc></teiHeader>
+   
+<facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b52517464v/manifest.json"/></facsimile><text synch="#U2" corresp="#T1" xml:lang="ta"><body>
+  <ab>
+    
+  <pb facs="5" n="[1]r"/>
+  
+   <seg function="header">
+  <seg function="blessing">
+    <milestone unit="left-margin"/>
+  <lb n="1"/><term xml:lang="sa">hari Om·</term>
+    <lb n="2"/>naṉṟāka
+    <lb n="3"/>tirucci
+    <lb n="4" break="no"/><choice><sic>tta</sic><corr>ṟṟa</corr></choice>mpala
+    <lb n="5" break="no"/>m kumarar
+     <lb n="6"/>tuṇai <g ref="#pcs"/></seg>
+     </seg>
+  
+  <seg function="invocation"><milestone unit="main-text-area"/>
+  <lb n="1"/>
+  <lb n="2"/></seg>
+    
+            <pb facs="6" n="[1]v"/><note xml:lang="en">blank</note>
+
+   
+    </ab>
+  </body></text><text synch="#U3" corresp="#T2" xml:lang="ta"><body>
+  <ab>
+    
+  <pb facs="7" n="[1]r"/>
+  
+   <seg function="header">
+  <seg function="title">
+    <milestone unit="left-margin"/>
+  <lb n="1-2"/>viruttakirippurāṇam</seg>
+    <seg function="intertitle"><lb n="3-4"/>pāyiraccarukkam <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/></seg>
+     </seg>
+  
+  <seg function="invocation"><milestone unit="main-text-area"/>
+  <lb n="1"/>tirumālum
+  <lb n="2"/></seg>
+    
+    
+    <pb facs="121" n="58r"/>
+    <milestone unit="main-text-area"/>
+  <lb n="1"/>
+  <lb n="2"/>
+       
+    <pb facs="122" n="58v"/><note xml:lang="en">blank</note>
+    
+    <pb facs="123" n="59r"/>
+
+    <pb facs="124" n="59v"/><note xml:lang="en">blank</note>
+
+    </ab>
+  </body></text><text synch="#U4" corresp="#T3" xml:lang="ta"><body>
+  <ab>
+    
+  <pb facs="125" n="142r"/>
+  
+   <seg function="header">
+  <seg function="blessing">
+    <milestone unit="left-margin"/>
+  <lb n="1"/>tirucciṟṟampalam</seg>
+    <seg function="title"><lb n="2-3"/>periya kōyil purāṇam <g ref="#pcl"/> <g ref="#pcs"/></seg>
+     </seg>
+  
+  <seg function="invocation"><milestone unit="main-text-area"/>
+  <lb n="1"/>poṟpatam
+  <lb n="2"/></seg>
+    
+        <pb facs="126" n="142v"/><note xml:lang="en">blank</note>
+
+   <pb facs="127" n="143r"/>
+  
+   <seg function="header">
+  <seg function="blessing">
+    <milestone unit="left-margin"/>
+  <lb n="1-2"/><supplied reason="lost">tiruc</supplied>ciṟṟampalam <g ref="#pcs"/></seg>
+    <seg function="intertitle"><lb n="3-5"/>viyākkiṟapātaccarukkam<g ref="#pcs"/></seg>
+     </seg>
+  
+  <seg function="incipit"><milestone unit="main-text-area"/>
+  <lb n="1"/>
+  <lb n="2"/></seg>
+    
+    <pb facs="227" n="200r"/>
+    <pb facs="228" n="200v"/> 
+
+    </ab>
+  </body></text></TEI>
