@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Collection</title>
+            <title>Collection (2 <foreign xml:lang="ta">purāṇam</foreign>s)</title>
          <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
@@ -20,11 +20,15 @@
                   <idno type="alternate"><idno>Tamoul 565</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc104093x</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b52517464v</idno></msIdentifier>
                <msContents class="#CM">
-                  <summary><p>A composite manuscript containing ...</p>    
+                  <summary><p>A multi-text, more probably a composite manuscript containing:
+  <list>
+    <item>The <title xml:lang="ta">Viruttācalappuṟāṇam</title>, entitled here <title xml:lang="ta">Viruttakirippurāṇam</title>.</item>
+    <item>The <title xml:lang="ta">Kōyīrpuṟāṇam</title>, entitled here <title xml:lang="ta">Periya Kōyil Purāṇam</title> and <title xml:lang="ta">Karuppaṉ Viruttācalattalappurāṇam</title>.</item>    
+  </list></p>    
 <p>Description based on the digital images available on Gallica.</p>
 <p>Dimensions after Cabaton (1912).</p>   </summary>
                   
-               <msItem synch="#U2" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Invocation</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T2" defective="false"><title xml:lang="ta"><term xml:lang="en">Text</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U4" xml:id="T3" defective="false"><title xml:lang="ta"><term xml:lang="en">Invocation &amp; Text</term></title><textLang mainLang="tam"/></msItem></msContents>
+               <msItem synch="#U2" xml:id="T1" defective="false"><title xml:lang="ta">Viruttācalappuṟāṇam: <term xml:lang="en">Invocation</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T2" defective="false"><title xml:lang="ta">Viruttācalappuṟāṇam: <term xml:lang="en">Text</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U4" xml:id="T3" defective="false"><title xml:lang="ta">Kōyiṟppuṟāṇam: <term xml:lang="en">Invocation &amp; Text</term></title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
                   
                   
@@ -33,7 +37,7 @@
                <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
                         <extent>
-                           <measure unit="folio" quantity="119">{1} + {1} + 59 + 59 TBC (U1 + U2 + U3 + U4).</measure>
+                           <measure unit="folio" quantity="119">{1} + {1} + 59 + 59 (U1 + U2 + U3 + U4).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
@@ -41,7 +45,7 @@
                         <dimensions type="object" unit="mm"><depth quantity="10"/></dimensions><dimensions type="written" unit="mm"/></extent>
                         
                         
-                     <support/><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">guard leaf</emph>. Blank recto verso.</desc><desc xml:id="U2">1 folio = <emph rend="bold">Invocation</emph>. Verso blank.</desc><desc xml:id="U3">59 folios = <emph rend="bold"><title xml:lang="ta">Viruttakirippurāṇam</title></emph>. Tamil foliation 1-59. f59v blank.</desc><desc xml:id="U4">1 folio = <emph rend="bold"><title xml:lang="ta">Periya Kōyil Purāṇam</title>: Invocation &amp; Text</emph>. Tamil foliation 142-199, [200]. </desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Relatively good state of preservation (565a). Relatively poor state of preservation (565b). Many boreholes. Truncated leaves.
+                     <support/><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">guard leaf</emph>. Blank recto verso.</desc><desc xml:id="U2">1 folio = <emph rend="bold"><title xml:lang="ta">Viruttācalappuṟāṇam</title>: Invocation</emph>. Verso blank.</desc><desc xml:id="U3">59 folios = <emph rend="bold"><title xml:lang="ta">Viruttācalappuṟāṇam</title>: Text</emph>. Tamil foliation 1-59. f59v blank.</desc><desc xml:id="U4">1 folio = <emph rend="bold"><title xml:lang="ta">Kōyīrpuṟāṇam</title>: Invocation &amp; Text</emph>. Tamil foliation 142-199, [200]. f[200] truncated, with foliation lost in truncation.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Relatively good state of preservation (565a). Relatively poor state of preservation (565b). Many boreholes. Truncated leaves.
 </condition></supportDesc>
                      <layoutDesc>
                         
@@ -57,7 +61,7 @@
                   
                   
                <origin>
-                     <origDate calendar="gregorian">Internal dates.</origDate>
+                     <origDate calendar="gregorian">Internal dates. cittirapāṉu.</origDate>
                      <origPlace>South India, Tamil Nadu</origPlace>
                   </origin><provenance><p>Unknown.</p></provenance><acquisition>
                      
@@ -95,11 +99,12 @@
      </seg>
   
   <seg function="invocation"><milestone unit="main-text-area"/>
-  <lb n="1"/>
-  <lb n="2"/></seg>
+  <lg><l><lb n="1"/>tiruvuṅ kalviyuñ cīru<unclear>ñ</unclear> taḻaikkavuṅ ~</l>
+<l>karuṇai pūṟkkavun tī<surplus><add place="below">ya</add></surplus>maiyaik kāykkavum</l>
+<l>paruvamāy nama<lb n="2" break="no"/>t<pc>'</pc> uḷḷam paḻukkavum</l>
+<l>perukum āḻattup piḷḷaiyaip pēṇuvām <g ref="#pcs"/></l></lg></seg> <seg function="blessing">kumarar tuṇai <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/></seg>
     
-            <pb facs="6" n="[1]v"/><note xml:lang="en">blank</note>
-
+    <pb facs="6" n="[1]v"/><note xml:lang="en">blank</note>
    
     </ab>
   </body></text><text synch="#U3" corresp="#T2" xml:lang="ta"><body>
@@ -115,18 +120,37 @@
      </seg>
   
   <seg function="invocation"><milestone unit="main-text-area"/>
-  <lb n="1"/>tirumālum
-  <lb n="2"/></seg>
+  <lg><l><lb n="1"/>tirumālum ṉāṉmukaṉun tēvarkōvun ~ <gap reason="ellipsis"/>
+  <lb n="2"/><gap reason="ellipsis"/>
+     <lb n="3"/><gap reason="ellipsis"/> vaṇaṅkal uṟṟām <g ref="#pcs"/> 1 <g ref="#pcs"/></l></lg></seg> <gap reason="ellipsis"/>
     
+    <pb facs="120" n="57v"/>
+    <milestone unit="main-text-area"/>
+  <lb n="1-5"/><gap reason="ellipsis"/>
+  <seg function="explicit"><lb n="6"/><gap reason="ellipsis"/> <g ref="#pcs"/> <num rend="traditional">30</num><g ref="#pcs"/></seg> <seg function="colophon"><seg function="completion-statement">caciva <gap reason="ellipsis"/> carukka muṟṟum <g ref="#pcs"/> <g ref="#pcs"/></seg> <seg function="total-stanzas">{Āka} viruttam <num rend="traditional">434</num> <g ref="#pcs"/></seg> <seg function="blessing">cuppiṟamaṇiyakkaṭavuḷ tuṇai <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/></seg>
     
     <pb facs="121" n="58r"/>
-    <milestone unit="main-text-area"/>
-  <lb n="1"/>
-  <lb n="2"/>
+    <seg function="copy-statement"><milestone unit="main-text-area"/>
+  <lb n="1"/>cittirapāṉu {varuṣam} kāṟt=tilai {mācam} <num rend="traditional">15</num> {tēti} karuppaṉ viruttācalattalappurāṇam Eḻuti niṟaintutu muṟṟum <g ref="#pcs"/></seg> <seg function="blessing">paḻamalainātar periyanāyakiyammaṉ kiṟupai 
+  <lb n="2"/>Uṇṭākak kaṭavatu tirucciṟṟampalam <g ref="#pcs"/> capāpati tuṇai civakāmi Ammai tuṇai <g ref="#pcs"/> cuppiṟamaṇiyakkaṭavuḷ tuṇai <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/></seg>
+    </seg>
        
     <pb facs="122" n="58v"/><note xml:lang="en">blank</note>
     
     <pb facs="123" n="59r"/>
+    
+    <seg function="header">
+    <seg function="blessing"><milestone n="2" unit="left-margin"/>
+      <lb n="1"/>tirucciṟṟampalam</seg>
+      <seg function="intertitle"><lb n="2"/>viruttācalappu<g ref="#double_kal">rā</g>
+        <lb n="3" break="no"/>ṇam carukkatto
+          <lb n="4" break="no"/>kai</seg> <seg function="blessing">kumarar tuṇai</seg>
+      </seg>
+    
+    <milestone n="1" unit="column"/>
+    <milestone n="2" unit="column"/>
+    <milestone n="3" unit="column"/>
+    <milestone n="4" unit="column"/>
 
     <pb facs="124" n="59v"/><note xml:lang="en">blank</note>
 
@@ -144,8 +168,8 @@
      </seg>
   
   <seg function="invocation"><milestone unit="main-text-area"/>
-  <lb n="1"/>poṟpatam
-  <lb n="2"/></seg>
+  <lg><l><lb n="1"/>poṟpatam
+  <lb n="2"/><gap reason="ellipsis"/> <g ref="#pcl"/> <g ref="#pcs"/></l></lg></seg> <seg function="blessing">kumarar tuṇai <g ref="#pcl"/> tirucciṟṟampalam <g ref="#pcl"/> <g ref="#pcs"/></seg>
     
         <pb facs="126" n="142v"/><note xml:lang="en">blank</note>
 
@@ -159,11 +183,23 @@
      </seg>
   
   <seg function="incipit"><milestone unit="main-text-area"/>
-  <lb n="1"/>
-  <lb n="2"/></seg>
+  <lg><l><lb n="1"/>pūṅkamalat tayaṉumalaṟ ~ puṇṭarīkak kaṇṇaṉum</l> 
+    <l>tāṅkupala puvaṉamumēṟ cakalamumā yakalāta</l>
+<l>vōṅkumoḷi veḷiyēniṉ ṟulakutoḻa naṭamā<lb n="2" break="no"/>ṭun</l>
+<l>tēṅkamaḻum poḻiṟ tillait tirucciṟṟam palampōṟṟi ~ 1 ~</l></lg></seg> <gap reason="ellipsis"/>
     
     <pb facs="227" n="200r"/>
-    <pb facs="228" n="200v"/> 
+<milestone unit="main-text-area"/>
+    <lb n="6"/><gap reason="ellipsis"/> <g ref="#pcs"/> <num rend="traditional">50</num> <g ref="#pcs"/> <lg><l>coṟṟā ṉumaiporu ḷaraṉā mikuporuḷ tuṇi
+    
+    <pb facs="228" n="200v"/>
+    <milestone unit="main-text-area"/> 
+    <lb n="1"/><supplied reason="lost">vā lavararu ṭokumālip</supplied></l>
+<l><supplied reason="lost">poṟ</supplied><unclear>ṟā</unclear> maraimalar viraicūḻ puṉalaṇi puliyūr vaḷarnakar pukamālai</l>
+<l>kaṟṟā ruraiceyal peṟṟār cevikoṭu kavaṟvār poruḷviri pakarvārcī</l>
+<l>ruṟṟā riruviṉai yaṟṟār mikupari vuṭai</l></lg>
+    
+    
 
     </ab>
   </body></text></TEI>
