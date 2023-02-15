@@ -22,7 +22,8 @@
                   <idno type="alternate"><idno>Tamoul 518</idno><idno>Vivien</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1040458</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b52517265j</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary><p>Description based on the digital images available on Gallica.</p>
+                  <summary><p>A complete copy of the <title xml:lang="ta">Naiṭatam</title>, entitled here <title xml:lang="ta">Nekiḻtam</title>.</p>
+<p>Description based on the digital images available on Gallica.</p>
 <p>Dimensions after Cabaton (1912).</p>      </summary>
                   
                <msItem synch="#U2" xml:id="T1" defective="false"><title xml:lang="ta">Naiṭatam: <term xml:lang="en">Invocation</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T2" defective="false"><title xml:lang="ta">Naiṭatam: Mūlam &amp; <term xml:lang="en">Table of Contents</term></title><textLang mainLang="tam"/></msItem></msContents>
@@ -84,7 +85,7 @@
                   
                   
                <origin>
-                     <origDate calendar="gregorian" notAfter="1885">Internally dated. Not dated by Feer in Vinson et al. (1866-) nor by Cabaton (1912).
+                     <origDate calendar="gregorian" notAfter="1852">Internally dated to the year <foreign xml:lang="ta">cātāṟaṇa</foreign> of the Jovian cycle, that is, CE 1850-1851, 1790-1791, 1730-1731, etc. and to the year <foreign xml:lang="ta">viṟōtikkiṟutu</foreign> of the Jovian cycle, that is, CE 1851-1852, 1791-1792, 1731-1732, etc. See colophon (U3, <locus facs="318">f155v2</locus>). Not dated by Feer in Vinson et al. (1866-) nor by Cabaton (1912).
 </origDate>
                   <origPlace>South India, Tamil Nadu.</origPlace></origin><provenance><p>Owned by <persName role="collector">Vivien</persName>.</p></provenance><acquisition>
                      <p>Acquired, January 22nd, 1885, from M. Vivien. See BnF, département des Manuscrits, inventaire 2 = <title>Acquisitions: manuscrits et imprimés documentaires, 1848-1893</title>, no. 7642.</p>
@@ -164,13 +165,13 @@
     <pb facs="27" n="10r"/>
     <seg function="header">
   <seg function="intertitle"><milestone unit="left-margin"/>
-    <lb n="2-5"/><gap reason="ellipsis"/>paṭalam</seg>            
+    <lb n="2-5"/>Aṉṉattai<unclear>ka</unclear>ṇṇu<sic>tta</sic>ppaṭalam</seg>            
     </seg>
     
    <pb facs="45" n="19r"/>
     <seg function="header">
   <seg function="intertitle"><milestone unit="left-margin"/>
-    <lb n="1-3"/><gap reason="ellipsis"/>paṭalam</seg>            
+    <lb n="1-3"/>Aṉṉattaitūtuviṭṭapaṭalam</seg>            
     </seg>    
     
     
@@ -192,7 +193,7 @@
     <milestone unit="main-text-area"/>
     <lb n="1"/><gap reason="ellipsis"/> = <num rend="traditional">15</num> = <seg function="colophon"><seg function="completion-statement">Arcā<unclear>ṭ</unclear>cippaṭalam muṟṟiṟṟu = </seg> <seg function="total-stanzas">{Āka} paṭalam = <num rend="traditional">28</num>k=ku kūṭiya
     <lb n="2"/>ceyyuḷ ~ <num rend="traditional">1172</num> ~</seg><seg function="completion-statement">naiṭatamūlapāṭam ~ muṟṟiṟṟu ~ muṟṟum =</seg> <seg function="copy-statement">cātāṟaṇa {varuṣam}t=tuk=ku cellum ~ viṟōtikkiṟutu {varuṣam} Āṉi {mācam} 4 {tēti} tiṅkaḷkiḻamai ti<g rend="below-base">ṉaM</g> kālamē ~ <num rend="traditional">11</num> = maṇikki
-    <lb n="3"/>yinta nekiḻ<g rend="below-base">taM</g> yeḻuti niṟavēṟṟiṟṟu {symbol} yitu yeḻutiṉatu <persName xml:lang="ta" role="scribe">viṟācāmi <gap reason="ellipsis"/> kumāraṉ ṟaṅkacāmi</persName> yeḻu=t=u<g ref="#pcl"/></seg></seg>
+    <lb n="3"/>yinta nekiḻ<unclear reason="eccentric_ductus"><g rend="below-base">taM</g></unclear> yeḻuti niṟavēṟṟiṟṟu {symbol} yitu yeḻutiṉatu <persName xml:lang="ta" role="scribe">viṟācāmi <gap reason="ellipsis"/> kumāraṉ ṟaṅkacāmi</persName> yeḻu=t=u<g ref="#pcl"/></seg></seg>
 
 <seg function="table-of-contents">
   <pb facs="319" n="156r"/>
@@ -200,17 +201,29 @@
       <seg function="header">
   <milestone unit="left-margin"/>
         <lb n="1"/><g ref="#pcs"/> <seg function="foliation"><num rend="traditional">156</num></seg>
-    <seg function="intertitle"><lb n="2-3"/>pāṭaṟ <gap reason="ellipsis"/></seg>            
+    <seg function="intertitle"><lb n="2-3"/>pāṭaṟ ṟokai</seg>            
     </seg>
     
-   <milestone n="1" unit="column"/>
-    <lb n="1"/>
-    <lb n="2"/>
+   <del><milestone n="1" unit="column"/>
+    <lb n="1"/>1 ~ kāppu
+    <lb n="2"/>2 ~ nāṭṭuppaṭalam</del>
   
    <milestone n="2" unit="column"/>
+  <lb n="1"/>kāppu
+    <lb n="2"/>1 ~ nāṭṭuppaṭalam
+  <lb n="3-8"/><gap reason="ellipsis"/>
+  
    <milestone n="3" unit="column"/>
+    <lb n="1-9"/><gap reason="ellipsis"/>
+
    <milestone n="4" unit="column"/>
-   
+    <lb n="1-8"/><gap reason="ellipsis"/>
+
+   <milestone n="5" unit="column"/>
+    <lb n="1-3"/><gap reason="ellipsis"/>
+    <lb n="4"/><num rend="traditional">28</num> ~ Arācāṭcippaṭalam
+    <seg function="total-stanzas"><lb n="5"/>{Āka}p paṭalam <num rend="traditional">28</num>k=ku ~ kāppu Uḷpaṭa
+    <lb n="6"/>tiruviru<unclear reason="eccentric_ductus">t=ta=M</unclear> ~ <num rend="traditional">1172</num> <g ref="#pcl"/></seg>
   
   </seg>
     
