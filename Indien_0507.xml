@@ -36,13 +36,13 @@
                <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
                         <extent>
-                           <measure unit="folio" quantity="153">{1} + {2} + {1} + 133 + 15 + {1} (U1 + U2 + U3 + U4 + U5 + U6).</measure>
+                           <measure unit="folio" quantity="153">{1} + {2} + {1} + 133 + 15 + {1} + {1} (U1 + U2 + U3 + U4 + U5 + U6 + U7).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
-                           </dimensions>
+                           <width min="275" max="280"/><height quantity="30"/></dimensions>
                            <note>Some folios are smaller, e.g. U3, f105 (365 x 35 mm). </note>
-                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
+                        <dimensions type="object" unit="mm"><width quantity="280"/><height quantity="30"/><depth quantity="75"/></dimensions><dimensions type="written" unit="mm"/></extent>
                         
                         
                      <support/><foliation>Left-marginal Tamil foliation (U4, U5). Library Arabic foliation in right margin.</foliation><collation>
@@ -51,9 +51,10 @@
                         
                         
                         
-                        <desc xml:id="U1">1 bifolio = <emph rend="bold">guard leaf</emph>. No foliation. Recto blank. With unblackened additions on verso.</desc><desc xml:id="U2">2 folios = <emph rend="bold">guard leaves</emph>. No foliation. Blank recto verso.
-</desc><desc xml:id="U3">1 folio = <emph rend="bold"><title xml:lang="ta">Tirukkuṟaḷ</title>: Invocation (3 satellite stanzas)</emph>. No foliation. </desc><desc xml:id="U4">133 folios = <emph rend="bold"><title xml:lang="ta">Tirukkuṟaḷ</title>: Text</emph>. Tamil foliation {1}, 2-133.
-</desc><desc xml:id="U5">15 folios = <emph rend="bold"><title xml:lang="ta">Tiruvaḷḷuvar Mālai Veṇpā</title>: Text</emph>. Tamil foliation 1-15. f15 is broken into 2 pieces: </desc><desc xml:id="U6">1 bifolio = <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso.</desc></collation><condition>Poor  state of preservation. Boreholes, leaves truncated.</condition></supportDesc>
+                        <desc xml:id="U1">1 bifolio = <emph rend="bold">guard leaf</emph>. No foliation. With unblackened additions on recto and verso. Truncated. 205 x 20 mm.</desc><desc xml:id="U2">2 folios = <emph rend="bold">guard leaves</emph>. No foliation. Blank recto verso. 275 x 30 mm.
+</desc><desc xml:id="U3">1 folio = <emph rend="bold"><title xml:lang="ta">Tirukkuṟaḷ</title>: Invocation (3 satellite stanzas)</emph>. No foliation. 275 x 30 mm.</desc><desc xml:id="U4">133 folios = <emph rend="bold"><title xml:lang="ta">Tirukkuṟaḷ</title>: Text</emph>. Tamil foliation {1}, 2-133. 275/280 x 30 mm.
+</desc><desc xml:id="U5">15 folios = <emph rend="bold"><title xml:lang="ta">Tiruvaḷḷuvar Mālai Veṇpā</title>: Text</emph>. Tamil foliation 1-15. f15 is broken into 2 pieces. 270 x 30 mm.</desc><desc xml:id="U6">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso. Truncated. 160 x 25 mm.
+</desc><desc xml:id="U7">1 bifolio = <emph rend="bold">guard leaf</emph>. No foliation. Recto blank. Some letters and drawings on verso. Truncated. 210 x 25 mm.</desc></collation><condition>Poor  state of preservation. Boreholes, leaves truncated.</condition></supportDesc>
                      <layoutDesc>
                         
                      </layoutDesc>
@@ -71,7 +72,7 @@
 </quote></desc><desc synch="#U2" type="shelfmark">Current BnF shelfmark sticker, covering an older sticker: <quote>INDIEN 507</quote> (<locus facs="5">f[1]r</locus>).</desc></additions><bindingDesc>
                      <binding>
                         
-                     <decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote><p>No wood covers.</p></binding>
+                     <decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote><p>No wood covers. Bifiolo covers (U1 + U7).</p></binding>
                   </bindingDesc></physDesc>
                <history>
                   
@@ -106,7 +107,14 @@
 <text synch="#U1" corresp="#T1"><body>
   <ab>
     
-    <pb facs="3" n="[1]r"/><note xml:lang="en">blank</note>
+    <pb facs="3" n="[1]r"/>
+    
+    <seg function="header">
+      <lb n="1"/><unclear><g ref="#latin_cross"/></unclear>
+      </seg>
+    
+    <milestone unit="main-text-area"/>
+    <lb n="1"/><unclear>mārkamimi</unclear>
      
     <pb facs="4" n="[1]v"/>
     
@@ -253,7 +261,7 @@
 
     <milestone unit="main-text-area"/>
     <lb n="1"/><gap reason="ellipsis"/> ~ vaḷḷuvaṉār vaipperkku vāyattu <unclear>=</unclear> 57 = <seg function="colophon"><seg function="completion-statement">tiru<supplied reason="lost">vaḷ</supplied>
-    <lb n="2"/>ḷuvar mālai veṇpā ~ yeḻuti niṟaintatu muṟṟum <g ref="#pcs"/></seg> <seg function="blessing"><unclear>śrī</unclear><supplied reason="lost">ki</supplied>ṣṇacakā<supplied reason="lost"><g rend="below-base">yaM</g></supplied>
+    <lb n="2"/>ḷuvar mālai veṇpā ~ yeḻuti niṟaintatu muṟṟum <g ref="#pcs"/></seg> <seg function="blessing">śrīkiṣṇacakā<supplied reason="lost"><g rend="below-base">yaM</g></supplied>
     <lb n="3"/><g ref="#pcl"/> civa cuta<supplied reason="lost">kaṇa</supplied>pati tiruvaṭi caraṇam <g ref="#pcs"/> civama<g rend="below-base">yaM</g> <g ref="#pcs"/></seg></seg>
     
     </ab>
