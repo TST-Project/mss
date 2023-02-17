@@ -56,8 +56,10 @@ const readfiles = function(arr) {
     output.index(data,{name: 'Ducler collection', prefix: 'Ducler',keys:['Phillipe Étienne Ducler','Ducler, Phillipe Étienne']});
     console.log('Ducler index compiled: ducler.html.');
     output.index(data,{name: 'Haas collection', prefix: 'Haas',keys:['Frédéric Haas','Haas, Frédéric']});
-    console.log('Ducler index compiled: haas.html.');
+    console.log('Haas index compiled: haas.html.');
     output.index(data,{name: 'Vinson collection', prefix: 'Vinson',keys:['Julien Vinson','Vinson, Julien']});
-    console.log('Ducler index compiled: vinson.html.');
+    console.log('Vinson index compiled: vinson.html.');
+    output.index(data,{name: 'Reydellet collection', prefix: 'Reydellet',keys:['Reydellet','Reydelet']});
+    console.log('Reydellet index compiled: reydellet.html.');
 };
 
