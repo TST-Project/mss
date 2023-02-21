@@ -4,29 +4,32 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>TBC</title>
+				<title><title xml:lang="ta">Vāḻi Tirunāmam</title></title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>TST Project</publisher>
-				<date>2022</date>
+				<date>2023</date>
 			</publicationStmt>
 			<sourceDesc>
 				<msDesc>
 					<msIdentifier>
 						<repository>
-							<orgName>Bibliothèque nationale de France. Département des
-								Manuscrits</orgName>
+							<orgName>Bibliothèque nationale de France. Département des								Manuscrits</orgName>
 						</repository>
 						<idno type="shelfmark">Indien 545e</idno>
 						<idno type="alternate"><idno>Tamoul 545</idno></idno>
 					<idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc104073f</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/ns064d85j</idno></msIdentifier>
 					<msContents class="#STM">
-						<summary><p>Text not identified.</p></summary>
+						<summary><p>A <title xml:lang="ta">Vāḻi Tirunāmam</title></p></summary>
 
 						
-					<msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">TBC</term></title><textLang mainLang="tam"/></msItem></msContents>
+					<msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Vāḻi Tirunāmam</title><textLang mainLang="tam"/></msItem></msContents>
 					<physDesc>
-						<objectDesc form="pothi" rend="manuscript">
+						
+						
+						
+						
+					<objectDesc form="pothi" rend="manuscript">
 							<supportDesc material="palm-leaf">
 								<extent>
 									<measure unit="folio" quantity="1">1 (U1).</measure>
@@ -40,32 +43,28 @@
 
 
 								<support/>
-								<collation><desc xml:id="U1">1 folio = <emph rend="bold">TBC</emph>.	Tamil foliation {1}. Verso more dark = outside page. Right margin truncated.</desc></collation>
-							</supportDesc>
+								
+							<collation><desc xml:id="U1">1 folio = <emph rend="bold"><title xml:lang="ta">Vāḻi Tirunāmam</title></emph>.	Tamil foliation {1}. Verso more dark = outside page. Right margin truncated.</desc></collation></supportDesc>
 							<layoutDesc> </layoutDesc>
-						</objectDesc>
-						<handDesc>
+						</objectDesc><handDesc>
 
 							
-						<handNote synch="#U1" scope="sole" script="tamil" medium="incised"/></handDesc>
-						<additions/>
-						<bindingDesc>
+						<handNote synch="#U1" scope="sole" script="tamil" medium="incised"/></handDesc><additions/><bindingDesc>
 							<binding> <decoNote type="stringhole"><measure unit="stringhole" quantity="1"/></decoNote></binding>
-						</bindingDesc>
-					</physDesc>
+						</bindingDesc></physDesc>
 					<history>
-						<origin>
+						
+						
+						
+					<origin>
 							<origDate calendar="gregorian" notAfter="1886">No internal date. </origDate>
 							<origPlace>South India, Tamilnadu.</origPlace>
-						</origin>
-						<acquisition>
+						</origin><provenance><p>Owned by <persName ref="https://catalogue.bnf.fr/ark:/12148/cb109559175" key="Haas, Frédéric (1843-1915)"> Frédéric Haas</persName>
+								(1843-1915).</p></provenance><acquisition>
 							<p>Acquired, December 18th, 1886, from M. Haas. See BnF, département des
 								Manuscrits, inventaire 2 = <title>Acquisitions: manuscrits et
 									imprimés documentaires, 1848-1893</title>, no.
-							7881.</p></acquisition>
-						<provenance><p>Owned by <persName ref="https://catalogue.bnf.fr/ark:/12148/cb109559175" key="Haas, Frédéric (1843-1915)"> Frédéric Haas</persName>
-								(1843-1915).</p></provenance>
-					</history>
+							7881.</p></acquisition></history>
 					<additional>
 						<listBibl>
 
@@ -98,11 +97,15 @@
           <ab>
 
 			<pb facs="41" n="[1]r"/>
-			<seg function="incipit"><lb n="1"/>vāḻi tiruvāyimu<unclear>ṭi</unclear>ppuḷḷai <gap reason="ellipsis"/></seg>
-            <lb n="2-6"/><gap reason="ellipsis"/>
+			<seg function="incipit"><lb n="1"/>vāḻi tiruvā<sic>yimuḻi</sic>p <sic>pu</sic>ḷḷai <gap reason="ellipsis"/></seg>
+            <lb n="2"/>tiruvā<sic>yimuḻi</sic>p <sic>pu</sic>ruḷai <gap reason="ellipsis"/>
+            <lb n="3"/><gap reason="ellipsis"/> vāḻi ~ tiru <gap reason="ellipsis"/> vāḻiyē ~ <gap reason="ellipsis"/>
+            <lb n="4"/><gap reason="ellipsis"/> vāḻiyē ~ <gap reason="ellipsis"/>
+            <lb n="5"/><gap reason="ellipsis"/> vāḻiyē ~ <gap reason="ellipsis"/>
+            <lb n="6"/><gap reason="ellipsis"/>
 
 			<pb facs="44" n="[1]v"/>
-			<seg function="explicit"><lb n="1"/><gap reason="ellipsis"/></seg>
+			<seg function="explicit"><lb n="1"/><unclear>m</unclear> vāḻ maṇavāḷamāmuṉiyē yiṉṉu <gap reason="ellipsis"/></seg>
 
             </ab>
 		</body>
