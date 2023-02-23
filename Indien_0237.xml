@@ -39,23 +39,23 @@
                            <dimensions type="leaf" unit="mm">
                               
                               
-                           </dimensions>
+                           <width min="440" max="450"/><height quantity="35"/></dimensions>
                            <note>The leaves are broader in their middle than at their edges. </note>
-                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
+                        <dimensions type="object" unit="mm"><width quantity="450"/><height quantity="35"/><depth quantity="145"/></dimensions><dimensions type="written" unit="mm"/></extent>
                         
                         
                         
-                     <collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. </desc><desc xml:id="U1">1 folio = <emph rend="bold"><title xml:lang="ta">Kantaṉ Cuppumayil Akarāti</title>: Title Page (additional)</emph>. No foliation. Truncated. Verso blank. </desc><desc xml:id="U2">1 folio = <emph rend="bold"><title xml:lang="ta">Kantaṉ Cuppumayil Akarāti</title>: Invocation</emph>. No foliation. Verso blank.</desc><desc xml:id="U3">211 folios = <emph rend="bold"><title xml:lang="ta">Kantaṉ Cuppumayil Akarāti</title>: Text</emph>. Tamil foliation {1}, 2-211.
+                     <collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. </desc><desc xml:id="U1">1 bifolio = <emph rend="bold"><title xml:lang="ta">Kantaṉ Cuppumayil Akarāti</title>: Title Page (additional)</emph>. No foliation. Truncated. Verso blank. 340 x 35 mm.</desc><desc xml:id="U2">1 folio = <emph rend="bold"><title xml:lang="ta">Kantaṉ Cuppumayil Akarāti</title>: Invocation</emph>. No foliation. Unblackened addition on verso. 440 x 35 mm.</desc><desc xml:id="U3">211 folios = <emph rend="bold"><title xml:lang="ta">Kantaṉ Cuppumayil Akarāti</title>: Text</emph>. Tamil foliation {1}, 2-211. Unblackened addition on f211v. 440/450 x 35 mm.
 
 
 
-</desc><desc xml:id="U4">4 folios = <emph rend="bold">guard leaves</emph>. With unblackened additions and/or try folios. No foliation.
-</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Good state of preservation, despites boreholes.</condition></supportDesc>
+</desc><desc xml:id="U4">4 folios = <emph rend="bold">guard leaves</emph>. With unblackened additions and/or try folios. No foliation. 440 x 35 mm.
+</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Relatively good state of preservation, despites boreholes.</condition></supportDesc>
                   <layoutDesc><layout>Layout in columns.</layout></layoutDesc></objectDesc><handDesc>
                      
                   <handNote synch="#U1" scope="minor" script="tamil" medium="incised soot"><desc>Hand #1. <persName role="scribe">Ariel's title scribe</persName>.</desc></handNote><handNote synch="#U2 #U3" scope="major" script="tamil" medium="incised soot"><desc>Hand #2. </desc></handNote><handNote synch="#U4" scope="minor" script="tamil" medium="incised"><desc>Hand #2, unblackened? Hand #3?</desc></handNote></handDesc><additions><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF current shelfmark sticker: <quote>INDIEN 237</quote> (<locus facs="1">back cover, verso</locus>).</desc><desc synch="#U1" type="shelfmark">Shelfmark in black ink: <quote>a/24</quote> (<locus facs="3">f[1]r</locus>).</desc><desc synch="#U1" type="documenting-note">BnF donation sticker <quote>DON N° <space type="vacat"/></quote> (<locus facs="3">f[1]r</locus>).</desc></additions><bindingDesc>
                      <binding>
-                        <p>Original <material cert="medium">wood</material> covers.</p>
+                        <p>Original <material cert="medium">mohagony</material> covers. 450 x 35 x 15 mm.</p>
                      <decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
                   </bindingDesc></physDesc>
                <history>
@@ -105,7 +105,9 @@
       <lg><l><lb n="1"/><gap reason="ellipsis"/>k kaṭavuḷukk<pc>'</pc> aruñ cīrai yiṭṭa <gap reason="ellipsis"/> māmukakkaṭavuḷ
     <lb n="2"/>poṟcaraṇamē caraṇam <g ref="#pcl"/></l></lg> <lg><l>kantavē <gap reason="ellipsis"/> viṇaip pōṟṟiyē</l> <l>cintai <gap reason="ellipsis"/> cīrp pēyar ~</l> <l>Unti <gap reason="ellipsis"/> ~</l> <l>Anta <gap reason="ellipsis"/> nāmamē <g ref="#pcl"/></l></lg></seg>
     
-     <pb facs="6" n="[1]v"/><note xml:lang="en">blank</note>
+     <pb facs="6" n="[1]v"/>
+    <milestone unit="main-text-area"/>
+      <lb n="1"/>
     
   </ab>
 </body></text><text synch="#U3" corresp="#T3" xml:lang="ta"><body>
@@ -143,7 +145,7 @@
     
      <pb facs="428" n="211v"/>
     <milestone unit="main-text-area"/>
-    <lb n="1"/><gap reason="ellipsis"/>
+    <lb n="1"/>Aṇaṅku <gap reason="ellipsis"/>
     
   </ab>
 </body></text><text synch="#U4" corresp="#T4" xml:lang="ta"><body>
@@ -182,7 +184,6 @@
     <pb facs="436" n="[1]v=lf215v"/>
      <milestone unit="main-text-area"/>
     <lb n="1"/><gap reason="ellipsis"/>
-    <lb n="2"/><gap reason="ellipsis"/>
     
     
   </ab>
