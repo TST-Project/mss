@@ -56,8 +56,7 @@
                      <layoutDesc>
                         
                      <layout>Stanzas distributed <foreign xml:lang="ta">aṭi</foreign>-wise per line and final letter(s) indented to the right at the end of lines.</layout></layoutDesc>
-                  </objectDesc><handDesc><handNote synch="#U1 #U1a #U1b" scope="major" script="tamil" medium="incised"><desc>Hand #1. Unblackened.</desc></handNote><handNote synch="#U2 #U2a #U2b" scope="major" script="tamil" medium="incised soot"><desc>Hand #1.</desc></handNote></handDesc><decoDesc>
-                  </decoDesc><additions>
+                  </objectDesc><handDesc><handNote synch="#U1 #U1a #U1b" scope="major" script="tamil" medium="incised"><desc>Hand #1. Unblackened.</desc></handNote><handNote synch="#U2 #U2a #U2b" scope="major" script="tamil" medium="incised soot"><desc>Hand #1.</desc></handNote></handDesc><additions>
                   <desc synch="#U1a" type="shelfmark" subtype="cover front">Shelfmark in black ink: <quote>N° 3 complet</quote> (<locus facs="7">f[1]r</locus>). This is the number in Velanguani Arokium's catalogue, first numbered list (<ref target="https://gallica.bnf.fr/ark:/12148/btv1b10527869m/f14">f. 2v, no. 4</ref>).</desc><desc synch="#CoverBack" type="shelfmark documenting-note" subtype="back cover">BnF shelfmark sticker: <quote>INDIEN 78</quote> (<locus facs="4">back cover, verso</locus>). Covering an earlier sticker.</desc><desc synch="#U1b #U2b" type="prosody" subtype="marginal left">Metre identification (first full word then abbreviated word).</desc></additions><bindingDesc>
                      <binding><p><material cert="medium">Pinewood</material> covers apparently fabricated in the BnF. 430 x 25 mm.</p><decoNote type="stringhole"><measure unit="stringhole" quantity="1"/></decoNote></binding>
                   </bindingDesc></physDesc>
@@ -101,7 +100,7 @@
 <seg function="prosody"><lb n="3"/>veṇpā</seg>
   
   <seg function="satellite-stanza" cert="low"> <milestone unit="main-text-area"/>
-  <lg><seg function="incipit"><l><lb n="1"/>cukiṟta kuṟaḷ <gap reason="ellipsis"/> ~</l></seg> <l>cukuṟtamaṇi
+  <lg><l><seg function="incipit"><lb n="1"/>cukiṟta kuṟaḷ <gap reason="ellipsis"/> ~</seg></l> <l>cukuṟtamaṇi
   <lb n="2" break="no"/>mālai taṉaic colla ~ cukiṟta niṟai </l> <l>cuntara <gap reason="ellipsis"/>
   <lb n="3"/><gap reason="ellipsis"/></l> <l>tanta <gap reason="ellipsis"/></l></lg> <seg function="intertitle">kāppu <g ref="#pcl"/></seg></seg>
   
@@ -167,7 +166,7 @@
   
   <seg function="satellite-stanza" cert="low">
     <milestone unit="main-text-area"/>
-  <lg><seg function="incipit"><l><lb n="1"/>koṟṟa <gap reason="ellipsis"/></l></seg> <l>yuṟra <gap reason="ellipsis"/></l>
+  <lg><l><seg function="incipit"><lb n="1"/>koṟṟa <gap reason="ellipsis"/></seg></l> <l>yuṟra <gap reason="ellipsis"/></l>
     <l><lb n="2"/>muṟṟu<gap reason="ellipsis"/></l> <l>naṟṟa <gap reason="ellipsis"/> <g ref="#pcs"/></l></lg>
     </seg>
   
@@ -199,6 +198,6 @@
    <lg><l><lb n="1"/>cīr maruvu <gap reason="ellipsis"/></l>
    <l><lb n="2"/>ter maruvu <gap reason="ellipsis"/></l>
    <l><lb n="3"/>par maruvu <gap reason="ellipsis"/></l>
-   <seg function="explicit"><l><lb n="4"/>yēr maruvu <gap reason="ellipsis"/> stōt=tiram isttōt=tiramāka ~</l></seg></lg> <seg function="completion-statement">muṟṟum <g ref="#pcl"/></seg>
+   <l><seg function="explicit"><lb n="4"/>yēr maruvu <gap reason="ellipsis"/> stōt=tiram isttōt=tiramāka ~</seg></l></lg> <seg function="completion-statement">muṟṟum <g ref="#pcl"/></seg>
 </ab>
   </body></text></TEI>
