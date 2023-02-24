@@ -43,7 +43,7 @@
                         <dimensions type="object" unit="mm"><width quantity="465"/><height quantity="30"/><depth quantity="75"/></dimensions><dimensions type="written" unit="mm"/></extent>
                         
                         
-                     <support/><foliation>Left-marginal Tamil numerals foliation.</foliation><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. </desc><desc xml:id="U1">1 bifolio = <emph rend="bold"><title xml:lang="ta">Vaḷḷiyammai Nāṭakam</title>: Title Page</emph>. No foliation. Verso blank. 460 x 25 mm.</desc><desc xml:id="U2">55 folios = <emph rend="bold"><title xml:lang="ta">Vaḷḷiyammai Nāṭakam</title>: Text</emph> (part 1). Tamil foliation {1}, 2-8.1, 8.2 (lf8ter), 9-16, 17 (lf17ter), 18-54. 460/465 x 25 mm.</desc><desc xml:id="U3">6 folios = <emph rend="bold"><title xml:lang="ta">Vaḷḷiyammai Nāṭakam</title>: leaves inserted in U2</emph>. Tamil foliation 8.2 (lf8), 8.3 (lf8bis), 17.2 (lf17), 17.3 (lf17bis), 17.4 (lf17quater), 17.5 (lf17quinquies). Last two folios unblackened and unfoliated or foliation lost in truncation. 460 x 25/30 mm.</desc><desc xml:id="U4">35 folios = <emph rend="bold"><title xml:lang="ta">Vaḷḷiyammai Nāṭakam</title>: Text</emph> (part 2). Tamil foliation {1}, 2-34, [35]. 465 x 25 mm.</desc><desc xml:id="U5">2 folios = <emph rend="bold">Blessings</emph>. Following U4. 3 pages fully written only with the blessing <foreign xml:lang="ta">śrīrāmaceyam</foreign>. No foliation (lf II.36, II.37). 460 x 25 mm.</desc><desc xml:id="U6">2 folios = <emph rend="bold">guard leaves</emph>. No foliation (no lf). With additions (?). 460 x 25 mm.</desc><desc>2 fragments. Possibly of the same leaf. Yes. Left part of U2, f44.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>. </desc></collation><condition>Relatively good state of preservation. But many boreholes and several folios truncated.</condition></supportDesc>
+                     <support/><foliation>Left-marginal Tamil numerals foliation.</foliation><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. </desc><desc xml:id="U1">1 bifolio = <emph rend="bold"><title xml:lang="ta">Vaḷḷiyammai Nāṭakam</title>: Title Page</emph>. No foliation. Verso blank. 460 x 25 mm.</desc><desc xml:id="U2">55 folios = <emph rend="bold"><title xml:lang="ta">Vaḷḷiyammai Nāṭakam</title>: Text</emph> (part 1). Tamil foliation {1}, 2-8.1, 8.2 (lf8ter), 9-16, 17 (lf17ter), 18-54. 460/465 x 25 mm. f44 is in 3 fragments: <locus facs="103">fragment 1</locus>, <locus facs="205">fragment 2</locus>, <locus facs="203">fragment 3</locus>.</desc><desc xml:id="U3">6 folios = <emph rend="bold"><title xml:lang="ta">Vaḷḷiyammai Nāṭakam</title>: leaves inserted in U2</emph>. Tamil foliation 8.2 (lf8), 8.3 (lf8bis), 17.2 (lf17), 17.3 (lf17bis), 17.4 (lf17quater), 17.5 (lf17quinquies). Last two folios unblackened and unfoliated or foliation lost in truncation. 460 x 25/30 mm.</desc><desc xml:id="U4">35 folios = <emph rend="bold"><title xml:lang="ta">Vaḷḷiyammai Nāṭakam</title>: Text</emph> (part 2). Tamil foliation {1}, 2-34, [35]. 465 x 25 mm.</desc><desc xml:id="U5">2 folios = <emph rend="bold">Blessings</emph>. Following U4. 3 pages fully written only with the blessing <foreign xml:lang="ta">śrīrāmaceyam</foreign>. No foliation (lf II.36, II.37). 460 x 25 mm.</desc><desc xml:id="U6">2 folios = <emph rend="bold">guard leaves</emph>. No foliation (no lf). With additions. 460 x 25 mm.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>. </desc></collation><condition>Relatively good state of preservation. But many boreholes and several folios truncated.</condition></supportDesc>
                      <layoutDesc>
                         
                      </layoutDesc>
@@ -85,12 +85,20 @@ But 2 dates on U6!</origDate>
   <pb facs="3" n="[1]r"/>
     
     <seg function="header">
-    <seg function="TBC"><milestone unit="left-margin"/>
-      <lb n="1-4"/></seg>
+    <seg function="blessing"><milestone unit="left-margin"/>
+      <lb n="1"/>ca ra <unclear>vu</unclear> ṇa pa va
+      <lb n="2"/>ra <unclear>vu</unclear> ṇa pa ca
+      <lb n="3"/><unclear>vu</unclear> ṇa pa va ca ra
+      <lb n="1"/>pa va ca
+      
+      </seg>
       </seg>
       
-      <seg function="title"><milestone unit="main-text-area"/>
+      <seg function="title"><milestone n="1" unit="column"/>
       <lb n="1-2"/>vaḷḷiyammaiṉāṭakam</seg>
+         
+    <seg function="TBC"><milestone n="2" unit="column"/>
+      <lb n="1"/><gap reason="ellipsis"/> <space/> <gap reason="ellipsis"/></seg>
 
       <pb facs="4" n="[1]v"/><note xml:lang="en">blank</note>
 
@@ -201,23 +209,29 @@ But 2 dates on U6!</origDate>
 
    <pb facs="200" n="[1]v"/>
       <seg function="date"><milestone n="1" unit="column"/>
-    <lb n="1"/><unclear>viya</unclear> {varuṣam}
+    <lb n="1"/><unclear>viyā</unclear> {varuṣam}m
     <lb n="2"/>kaṟttikai {mācam}
     <lb n="3"/><num rend="traditional">29</num> {tēti}</seg> tipam
      
      <milestone n="1" unit="column"/>
-     <seg function="date"><lb n="1"/><gap reason="ellipsis"/> {varuṣam} kāṟ
+     <seg function="date"><lb n="1"/><unclear>viya</unclear> {varuṣam} kāṟ
     <lb n="2" break="no"/>ttikai {mācam}
     <lb n="3"/><num rend="traditional">27</num> {tēti} tēr
     <lb n="4"/><num rend="traditional">29</num> {tēti} tipam</seg>
      
       <pb facs="201" n="[2]r"/>
-      <lb n="1"/><note xml:lang="en">scribbles</note>
+     
+     <milestone n="1" unit="column"/>
+        <lb n="1"/>cē
+           
+     <milestone n="2" unit="column"/>
 
+      <lb n="1"/><gap reason="ellipsis"/>
+     
    <pb facs="202" n="[2]v"/>
      
-      <lb n="1"/><gap reason="ellipsis"/>
-      <lb n="2"/><gap reason="ellipsis"/> <g ref="#pcl"/>
+      <lb n="1"/>Eṇiya <gap reason="ellipsis"/>
+      <lb n="2"/>vīṉāp postaka pāṇi vāṇi <gap reason="ellipsis"/> <g ref="#pcl"/>
      
      </ab>
   </body></text></TEI>
