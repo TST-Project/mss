@@ -22,7 +22,7 @@
                   <idno type="alternate"><idno>Tamoul 537</idno><idno>Goschler</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc104034r</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b52517409m</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/v405sj82k</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary><p>A complete copy of the <title xml:lang="ta">Tirukkuṟaḷ</title> (U4), preceded by satellite stanzas (U3) and followed by <title xml:lang="ta">Tiruvaḷḷuvamālai</title>, entitled here <title xml:lang="ta">Tiruvaḷḷuvar Mālai Veṇpā</title> in 57 stanzas (U5).</p>
+                  <summary><p>A complete copy of the <title xml:lang="ta">Tirukkuṟaḷ</title> (U4), preceded by satellite stanzas (U3) and followed by <title xml:lang="ta">Tiruvaḷḷuvamālai</title> (U5), entitled here <title xml:lang="ta">Tiruvaḷḷuvar Mālai Veṇpā</title> in 57 stanzas.</p>
 
 <p>Description based on the examination of the original manuscript (February 2023).</p>
 <p>Dimensions assessed at the time of examination.</p>        </summary>
@@ -54,7 +54,7 @@
                         <desc xml:id="U1">1 bifolio = <emph rend="bold">guard leaf</emph>. No foliation. With unblackened additions on recto and verso. Truncated. 205 x 20 mm.</desc><desc xml:id="U2">2 folios = <emph rend="bold">guard leaves</emph>. No foliation. Blank recto verso. 275 x 30 mm.
 </desc><desc xml:id="U3">1 folio = <emph rend="bold"><title xml:lang="ta">Tirukkuṟaḷ</title>: Invocation (3 satellite stanzas)</emph>. No foliation. 275 x 30 mm.</desc><desc xml:id="U4">133 folios = <emph rend="bold"><title xml:lang="ta">Tirukkuṟaḷ</title>: Text</emph>. Tamil foliation {1}, 2-133. 275/280 x 30 mm.
 </desc><desc xml:id="U5">15 folios = <emph rend="bold"><title xml:lang="ta">Tiruvaḷḷuvar Mālai Veṇpā</title>: Text</emph>. Tamil foliation 1-15. f15 is broken into 2 pieces. 270 x 30 mm.</desc><desc xml:id="U6">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso. Truncated. 160 x 25 mm.
-</desc><desc xml:id="U7">1 bifolio = <emph rend="bold">guard leaf</emph>. No foliation. Recto blank. Some letters and drawings on verso. Truncated. 210 x 25 mm.</desc></collation><condition>Poor  state of preservation. Boreholes, leaves truncated.</condition></supportDesc>
+</desc><desc xml:id="U7">1 bifolio = <emph rend="bold">guard leaf</emph>. No foliation. Recto blank. Some letters and drawings on verso. Truncated. 210 x 25 mm.</desc></collation><condition>Poor  state of preservation. Fragile. Boreholes, leaves truncated.</condition></supportDesc>
                      <layoutDesc>
                         
                      </layoutDesc>
@@ -72,13 +72,13 @@
 </quote></desc><desc synch="#U2" type="shelfmark">Current BnF shelfmark sticker, covering an older sticker: <quote>INDIEN 507</quote> (<locus facs="5">f[1]r</locus>).</desc></additions><bindingDesc>
                      <binding>
                         
-                     <decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote><p>No wood covers. Bifiolo covers (U1 + U7).</p></binding>
+                     <decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote><p>No wood covers. Bifolio covers (U1 + U7).</p></binding>
                   </bindingDesc></physDesc>
                <history>
                   
                   
                <origin>
-                     <origDate calendar="gregorian" notAfter="1873">No internal date. Not dated by Feer in Vinson et al. (1866-), nor by Cabaton (1912). </origDate>
+                     <origDate calendar="gregorian" notAfter="1873">No internal date. Not dated by Feer in Vinson et al. (1866-), nor by Cabaton (1912). Not after date of acquisition (1873).</origDate>
                      <origPlace>South India, Tamilnadu.</origPlace>
                   </origin><provenance><p>Owned by Madame <persName xml:lang="fr" role="owner">Goschler</persName>.</p></provenance><acquisition>
                      
@@ -100,7 +100,7 @@
    <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
          
-      <change when="2023-02">Record created by <persName>Emmanuel FRANCIS</persName>.</change></revisionDesc></teiHeader>
+      <change when="2023-02">Record created by <persName>Emmanuel FRANCIS</persName>. Version 1, February 2023.</change></revisionDesc></teiHeader>
    <facsimile>
       <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b52517409m/manifest.json"/>
    </facsimile>
@@ -124,13 +124,13 @@
     
     
     <milestone n="1" unit="column"/>
-    <lb n="1"/>vāvu pu <num rend="traditional">12</num>
+    <lb n="1"/><choice><unclear>vāvu</unclear><unclear>varavu</unclear></choice> pu <num rend="traditional">12</num>
     <lb n="2"/>Arici pu <num rend="traditional">2</num>
-    <lb n="3"/><gap reason="ellipsis"/> pu <num rend="traditional">1</num>
+    <lb n="3"/>veṟaku pu <num rend="traditional">1</num>
     <lb n="4"/><gap reason="ellipsis"/> pu <num rend="traditional">2</num>
             
     <milestone n="2" unit="column"/>
-    <lb n="1"/><gap reason="ellipsis"/> ṉāta mutali vāvu pu <num rend="traditional">6</num>
+    <lb n="1"/>cakaṉāta mutali <choice><unclear>vāvu</unclear><unclear>varavu</unclear></choice> pu <num rend="traditional">6</num>
     
     </ab>
   </body></text><text synch="#U3" corresp="#T2" xml:lang="ta"><body>
@@ -201,7 +201,7 @@
     
       <milestone unit="main-text-area"/>             
     <lb n="1-4"/><gap reason="ellipsis"/>
-    <seg function="explicit"><lg><l><lb n="5"/>Ūṭutal kāmattiṟ kiṉpa mataṟkiṉpa<del><gap reason="illegible" quantity="1" unit="character"/>ṅ</del></l> <l>kūṭi muyaṅkap <supplied reason="lost">pe</supplied>ṟiṉ <g ref="#pcs"/> <num rend="traditional">10</num> <g ref="#pcs"/></l></lg></seg> <seg function="colophon"><seg function="total-stanzas">{Āka} <num rend="traditional">1<choice><sic>1</sic><corr>3</corr></choice>30</num> <g ref="#pcs"/></seg></seg>
+    <seg function="explicit"><lg><l><lb n="5"/>Ūṭutal kāmattiṟ kiṉpa mataṟkiṉpa<del><gap reason="illegible" quantity="1" unit="character"/></del></l>ṅ <l>kūṭi muyaṅkap <supplied reason="lost">pe</supplied>ṟiṉ <g ref="#pcs"/> <num rend="traditional">10</num> <g ref="#pcs"/></l></lg></seg> <seg function="colophon"><seg function="total-stanzas">{Āka} <num rend="traditional">1<choice><sic>1</sic><corr>3</corr></choice>30</num> <g ref="#pcs"/></seg></seg>
     
     </ab>
   </body></text><text synch="#U5" corresp="#T4" xml:lang="ta"><body>
@@ -217,10 +217,10 @@
        <lb n="4"/>ṇpā <g ref="#pcs"/>
      </seg></seg>
       
-    <milestone unit="main-text-area"/>
+    <seg function="incipit"><milestone unit="main-text-area"/>
     <lg><l><lb n="1"/>pūvil avaṉum <gap reason="ellipsis"/>
     <lb n="2"/><gap reason="ellipsis"/>
-    <lb n="3"/>ṉ kūṟṟu = 1 =</l></lg> Acarīri vākku ~ <lg><l>tiruttaku teyvat ~ tiruvaḷḷuvarō</l> <l>ṭurutta <lb n="4" break="no"/>ku naṟpalakai yokka ~ virukka ~</l> <l><unclear>vu</unclear>ruttira caṉma ~ reṉavuraittu vāṉi</l> <l>loru<lb n="5" break="no"/>kkalō ~ veṉṟatōr col = 2 =</l></lg><lg><l>nāṭā mutaṉāṉ maṟaināṉ
+    <lb n="3"/>ṉ kūṟṟu = 1 =</l></lg></seg> <seg function="intertitle">Acarīri vākku ~</seg> <lg><l>tiruttaku teyvat ~ tiruvaḷḷuvarō</l> <l>ṭurutta <lb n="4" break="no"/>ku naṟpalakai yokka ~ virukka ~</l> <l><unclear>vu</unclear>ruttira caṉma ~ reṉavuraittu vāṉi</l> <l>loru<lb n="5" break="no"/>kkalō ~ veṉṟatōr col = 2 =</l></lg><lg><l>nāṭā mutaṉāṉ maṟaināṉ
     
      <pb facs="280" n="1v"/> 
     
@@ -228,8 +228,8 @@
     <lb n="1"/>mukaṉāviṟ ~</l>
     <l>pāṭā viṭaipāra tampakarntēṉ ~ kūṭārai ~</l>
 <l>yeḷḷiya veṉṟi yilaṅ<lb n="2" break="no"/>kilaivēl māṟapiṉ ~</l>
-<l>vaḷḷuvar vāyatteṉ vākku = 3 <g ref="#pcs"/></l></lg> Iṟaiyaṉār ~ <gap reason="ellipsis"/>
-    <lb n="3"/>ṉ kūṟṟu = 1 = Ācari <gap reason="ellipsis"/>
+<l>vaḷḷuvar vāyatteṉ vākku = 3 <g ref="#pcs"/></l></lg> <seg function="intertitle">Iṟaiyaṉār ~</seg> Eṉṟu
+    <lb n="3" break="no"/>m pularā <gap reason="ellipsis"/>
     <lb n="4-5"/><gap reason="ellipsis"/>
      
        <pb facs="305" n="14r"/>
@@ -239,7 +239,7 @@
     <lg><l>cintaikk<pc>'</pc> iṉiya ce<unclear>vi</unclear>kkiṉiya vāykkiṉiya</l>
 <l>vanta viṉai<supplied reason="lost">kku māmaru</supplied><lb n="2" break="no"/>ntu - munti</l>
 <l>naṉneṟi nāmaṟiya nāppulamai vaḷḷuvaṉār</l>
-<l>paṉṉiya <lb n="3"/>veṇkuṟaḷiṉ pā ~ 52 ~</l></lg> maturaip pālāciriyaṉār <gap reason="ellipsis"/>
+<l>paṉṉiya <lb n="3"/>veṇkuṟaḷiṉ pā ~ 52 ~</l></lg> <seg function="intertitle">maturaip palākkiyaṉār ~</seg> <gap reason="ellipsis"/>
     <lb n="4-5"/><gap reason="ellipsis"/>
     
     <pb facs="306" n="14v"/>
