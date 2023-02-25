@@ -26,13 +26,13 @@
 						<summary><p>Bound codex, made of folios and quires of various measurements. Contains copies, commissioned by Édouard Ariel (as attested by his autograph colophons), of official documents pertaining to Pondicherry. Bears the title <title xml:lang="ta">Putuccēri Tiṉacaritai Aṉupantam</title> on the spine.</p>
 <p>See also BnF Indien 143.</p>
 <p>A composite manuscript treated here as a multi-text manuscript for convenience.</p>
-<p>Segmentation in units (U1) to be revised and updated.</p>
+<p>Segmentation in subunits (U1a, U1b, etc.) possibly to be revised and updated.</p>
 
 <p>Description based on the examination of the original manuscript (October 2021).</p>
 <p>Dimensions assessed at the time of examination.</p></summary>
 
 						
-					<msItem synch="#U1a" xml:id="T1" defective="false"><title xml:lang="ta">tiṉacarit=tastiram Aṭṭavaṉai</title><textLang mainLang="tam"/></msItem><msItem synch="#U1b" xml:id="T2" defective="false"><title xml:lang="ta"><term xml:lang="en">TBC</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U1c" xml:id="T3" defective="false"><title xml:lang="ta"><term xml:lang="en">TBC</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U1d" xml:id="T4" defective="false"><title xml:lang="ta"><term xml:lang="en">TBC</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U1e" xml:id="T5" defective="false"><title xml:lang="ta"><term xml:lang="en">TBC</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U1f" xml:id="T6" defective="false"><title xml:lang="ta"><term xml:lang="en">TBC</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U1g" xml:id="T7" defective="false"><title xml:lang="ta"><term xml:lang="en">TBC</term></title><textLang mainLang="tam"/></msItem></msContents>
+					<msItem synch="#U1a" xml:id="T1" defective="false"><title xml:lang="ta">Tiṉacarittastiram Aṭṭavaṉai</title><textLang mainLang="tam"/></msItem><msItem synch="#U1b" xml:id="T2" defective="false"><title xml:lang="ta"><term xml:lang="en">TBC</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U1c" xml:id="T3" defective="false"><title xml:lang="ta"><term xml:lang="en">TBC</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U1d" xml:id="T4" defective="false"><title xml:lang="ta"><term xml:lang="en">TBC</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U1e" xml:id="T5" defective="false"><title xml:lang="ta"><term xml:lang="en">TBC</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U1f" xml:id="T6" defective="false"><title xml:lang="ta"><term xml:lang="en">TBC</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U1g" xml:id="T7" defective="false"><title xml:lang="ta"><term xml:lang="en">TBC</term></title><textLang mainLang="tam"/></msItem></msContents>
 					<physDesc>
 						
 						
@@ -117,26 +117,34 @@
 <text synch="#U1a" corresp="#T1" xml:lang="ta"><body>
   <ab>
     
-  <pb facs="3" n="1r"/>
-  <seg function="intertitle"><milestone unit="main-text-area"/><lb n="1"/>tiṉacari-t=tsatiram Aṭṭavaṉai</seg>
-  	<seg function="date"><lb n="2"/>naḷa <g ref="#varuṣam">varuṣam</g> Āvaṇi <g ref="#mācam">mācam</g> <num rend="traditional">25</num> <g ref="#tēti">tēti</g>k=ku <num rend="traditional">1736</num> <g ref="#varuṣam">varuṣam</g> cettempuruṟu <g ref="#mācam">mācam</g></seg> <gap reason="ellipsis"/>
-  <lb n="3"/><gap reason="ellipsis"/> varaikkum ~ ~ tasttiram
-  <lb n="4ff."/><gap reason="ellipsis"/>
+  <seg function="table-of-contents"><pb facs="3" n="[1]r=lf1r"/>
+  <seg function="intertitle"><milestone unit="main-text-area"/><lb n="1"/>tiṉacari-t=tastiram Aṭṭavaṉai</seg>
+  	
+    <lb n="2"/>naḷa <g ref="#varuṣam">varuṣam</g> Āvaṇi <g ref="#mācam">mācam</g> <num rend="traditional">25</num> <g ref="#tēti">tēti</g>k=ku <num rend="traditional">1736</num> <g ref="#varuṣam">varuṣam</g> cettempuruṟu <g ref="#mācam">mācam</g> 6 {tēti} {mutal} kuṟōtaṉa {varuṣam}
+  <lb n="3"/>Aṟpaci {mācam} {mutal} {tēti}k=ku <num rend="traditional">1745</num> <g ref="#varuṣam">varuṣam</g> Oyittēmpuṟu {mācam} varaikkum ~ ~ tasttiram
   
-  <pb facs="3" n="2r"/>
+    <lb n="4ff."/><gap reason="ellipsis"/>
+  
+  <pb facs="4" n="[2]r=lf2r"/>
+    <milestone unit="main-text-area"/>
+    <lb n="1-16"/><gap reason="ellipsis"/>
+    </seg>
+    
   <seg function="colophon"><milestone unit="main-text-area"/><lb n="17"/><term xml:lang="fr">Cette table est <del>tirée</del> copiée de la 1<hi rend="superscript">ere</hi> feuille du Registre de la Chronique
   <lb n="18"/>depuis le 21<hi rend="superscript">e</hi> Adi de l'an Târaṇa (<gap reason="ellipsis"/> 1764) jusqu'au 10 Vaéyyaçi
-  <lb n="19"/>copié par <persName xml:lang="fr">Rattinam</persName>, collationné par le même <persName xml:lang="fr">Dja<add>gan</add>naden</persName>:
+  <lb n="19"/>copié par <persName xml:lang="fr">Rattinam</persName>, collationné par le même <persName xml:lang="fr">Dja<add place="above">gan</add>naden</persName>:
   	<lb n="20"/>(Juin 1849.) ___ EA<note xml:lang="en" place="foot">that is, Ariel initials signature</note>.</term></seg>
   
+      <pb facs="5" n="[2]v=lf2v"/><note xml:lang="en">blank</note>
+
     </ab>
 </body></text><text synch="#U1b" corresp="#T2" xml:lang="ta"><body>
     <ab>
 
-  <pb facs="5" n="3r"/>
+  <pb facs="5" n="[1]r=p1"/>
       
       <milestone n="1" unit="main-text-area"/>
-  <lb n="1"/><gap reason="ellipsis"/>
+  <lb n="1"/><gap reason="ellipsis"/> <note xml:lang="en">in Telugu script</note>
       
       <milestone n="1" unit="column"/>
   <lb n="1"/>piṟamōtut=ta {varuṣam} tai {mācam} 
@@ -147,16 +155,14 @@
     <lb n="2"/><unclear>caṉēr {mācam}</unclear> <num rend="traditional">27</num> {tēti}
       
       <milestone n="2" unit="main-text-area"/>
-  <lb n="1"/>Itta ṉāḷ <gap reason="ellipsis"/>
+  <lb n="1"/>Itta ṉāḷ kālamē pat=tu maṇik=ki kōvaḷat=til iruntu <gap reason="ellipsis"/>
       <lb n="2ff."/><gap reason="ellipsis"/>
-      
-      
-  
+       
       </ab>
 </body></text><text synch="#U1c" corresp="#T3" xml:lang="ta"><body>
     <ab>
 
-  <pb facs="7" n="5r"/><milestone unit="main-text-area"/>
+  <pb facs="7" n="[1]r=p4"/><milestone unit="main-text-area"/>
  
       <milestone n="1" unit="column"/>
   <lb n="1"/>vipava {varuṣam} piṟattāci {mācam} 
@@ -170,17 +176,57 @@
   <lb n="1"/>Itta ṉāḷ <gap reason="ellipsis"/>
       <lb n="2ff."/><gap reason="ellipsis"/>
       
+      <pb facs="8" n="[1]v=p[5]"/>
+      
+      <milestone unit="main-text-area"/>
+  <seg function="colophon"><term xml:lang="fr">
+    <lb n="-3"/>copié par Djagannâda (<gap reason="ellipsis"/> 1851.)
+      <lb n="-2"/>collat<hi rend="superscript">é</hi> par <gap reason="ellipsis"/> appasami
+       <lb n="-1"/>EA<note xml:lang="en" place="foot">that is, Ariel initials signature</note>.</term></seg>
+      
+      <pb facs="8" n="[2]r=p6"/>
+      
+      <milestone unit="left-margin"/>
+      <lb n="1-2"/><gap reason="ellipsis"/> <note xml:lang="en">in Telugu script</note>
+      <lb n="3"/><term xml:lang="fr">30 X<hi rend="superscript">e</hi>. 1752.</term>
+      
+       <milestone unit="main-text-area"/>
+      <lb n="1ff."/><gap reason="ellipsis"/>
+      <seg function="colophon"><term xml:lang="fr">
+    <lb n="-2"/>copié par <gap reason="ellipsis"/>. collat<hi rend="superscript">é</hi> par <gap reason="ellipsis"/> annâsâmi <gap reason="ellipsis"/> ayyar.
+       <lb n="-1"/>janv. 1850 EA<note xml:lang="en" place="foot">that is, Ariel initials signature</note>.</term></seg>
+      
+            <pb facs="9" n="[2]r=p[7]"/><note xml:lang="en">blank</note>
+      
       </ab>
 </body></text><text synch="#U1d" corresp="#T4" xml:lang="ta"><body>
     <ab>
 
-  <pb facs="9" n="7r"/>
+  <pb facs="9" n="lf7r"/>
       
       <seg function="blessing"><milestone unit="main-text-area"/>
   <lb n="1"/>śrīrā=Maceya=M</seg>
       
-      <lb n="2"/>Arum <gap reason="ellipsis"/>
-        <lb n="3ff."/><gap reason="ellipsis"/>
+      <lb n="2"/>Arum <gap reason="ellipsis"/> pēril ~
+      <lb n="3"/>namakku vara vēṇṭiya <gap reason="ellipsis"/>
+        <lb n="4ff."/><gap reason="ellipsis"/>
+      
+       <pb facs="11" n="lf8v"/>
+
+       <milestone unit="main-text-area"/>
+      <lb n="1ff."/><gap reason="ellipsis"/>
+      <seg function="colophon"><term xml:lang="fr">
+    <lb n="-2"/>copié par Djgannâda, coll<hi rend="superscript">né</hi>
+        <lb n="-1"/>par <gap reason="ellipsis"/> Appasami <gap reason="ellipsis"/> 1851</term></seg>
+      
+      
+       <pb facs="12" n="lf10r"/>
+      
+      <seg function="colophon"><term xml:lang="fr">
+        <milestone unit="main-text-area"/>
+        <lb n="1"/><gap reason="ellipsis"/>
+        <lb n="2"/>c.a.d. 7 octobre 1760 <gap reason="ellipsis"/> 1761.
+    <lb n="3-10"/>Ce qui suit est pris d'une feuille isolé &amp; la comparaison des dates qu'il conserve avec les indications relatives au contenu des registres originaux du journal rédigé pour la même époque prouve qu'il n'en fait pas partie à proprement parler &amp; que plutôt que d'en avoir été extrait, il ne représente guère que des notes jettées sur le papier pour servir de memorandum. EA<note xml:lang="en" place="foot">that is, Ariel initials signature</note></term></seg>
       
       <pb facs="13" n="11r"/>
       
