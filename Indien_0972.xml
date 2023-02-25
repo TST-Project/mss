@@ -4,7 +4,7 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title><title xml:lang="ta">Tolkāppiyam, Porulatikāram</title>  (text &amp; commentary)</title>
+				<title><title xml:lang="ta">Tolkāppiyam, Porulatikāram</title>  (commentary)</title>
 
 				
 				
@@ -25,12 +25,12 @@
 						
 					<idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc104589c</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b52515785k</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/j6731c112</idno></msIdentifier>
 					<msContents class="#STM">
-						<summary><p>A copy of a portion of the <title xml:lang="ta">Porulatikāram</title>, that is, the third part of the <title xml:lang="ta">Tolkāppiyam</title>. Contains:
+						<summary><p>A commentary of the <title xml:lang="ta">Porulatikāram</title>, that is, the third part of the <title xml:lang="ta">Tolkāppiyam</title>. Contains:
 <list>
-  <item>The <title xml:lang="ta">Akattiṇaiyiyal</title>.</item>
-  <item>The <title xml:lang="ta">Puṟattiṇaiyiyal</title>.</item>
-  <item>The <title xml:lang="ta">Aṇiyiyal</title>.</item>
-  <item>The <title xml:lang="ta">Ceyyuḷiyal</title>.</item>
+  <item>The <title xml:lang="ta">Akattiṇaiyiyal</title> (225 <foreign xml:lang="ta">cūttiram</foreign>s).</item>
+  <item>The <title xml:lang="ta">Puṟattiṇaiyiyal</title> (21 <foreign xml:lang="ta">cūttiram</foreign>s).</item>
+  <item>The <title xml:lang="ta">Aṇiyiyal</title> (90 <foreign xml:lang="ta">cūttiram</foreign>s).</item>
+  <item>The <title xml:lang="ta">Ceyyuḷiyal</title> (51 <foreign xml:lang="ta">cūttiram</foreign>s).</item>
   </list></p>
 
 <p>Description based on the examination of the original manuscript (February 2023).</p>
@@ -39,7 +39,7 @@
 
 						
 						
-					<msItem synch="#U2" xml:id="T1" defective="false"><title xml:lang="ta">Tolkāppiyam, Porulatikāram: Mūlam &amp; Urai</title><textLang mainLang="tam"/></msItem></msContents>
+					<msItem synch="#U2" xml:id="T1" defective="false"><title xml:lang="ta">Tolkāppiyam, Porulatikāram: Urai</title><textLang mainLang="tam"/></msItem></msContents>
 					<physDesc>
 						
 
@@ -55,7 +55,7 @@
 								<support> <p>Regularly shaped. Rounded edges.</p></support>
 								<extent>
 									<measure unit="folio" quantity="374">{2} + 370 + {2} (U1 + U2 + U3).</measure>
-									<dimensions type="leaf" unit="mm"> <width quantity="380" min="35"/></dimensions>
+									<dimensions type="leaf" unit="mm"> <width quantity="380"/><height quantity="35"/></dimensions>
 									<dimensions type="object" unit="mm">
 										
 										
@@ -65,7 +65,7 @@
 
 								
 								
-							<collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">2 folios = <emph rend="bold">guard leaves</emph>. Tamil foliation 1-2. Blank recto verso. 380 x 35 mm. </desc><desc xml:id="U2">370 folios = <emph rend="bold"><title xml:lang="ta">Tolkāppiyam, Porulatikāram</title>: Text &amp; Commentary</emph>. Tamil foliation 1-370. 380 x 35 mm. </desc><desc xml:id="U3">2 folios = <emph rend="bold">guard leaves</emph>. Arabic foliation 1-2. Blank recto verso.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Excellent state of preservation.</condition></supportDesc>
+							<collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">2 folios = <emph rend="bold">guard leaves</emph>. Tamil foliation 1-2. Blank recto verso. 380 x 35 mm. </desc><desc xml:id="U2">370 folios = <emph rend="bold"><title xml:lang="ta">Tolkāppiyam, Porulatikāram</title>: Commentary</emph>. Tamil foliation 1-370. 380 x 35 mm. </desc><desc xml:id="U3">2 folios = <emph rend="bold">guard leaves</emph>. Arabic foliation 1-2. Blank recto verso.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Excellent state of preservation.</condition></supportDesc>
 							<layoutDesc>
 								
 							<layout writtenLines="7"/></layoutDesc>
@@ -111,7 +111,7 @@
 
 			
 			
-		<change when="2023-02">Record created by <persName>Emmanuel FRANCIS</persName>.</change></revisionDesc></teiHeader>
+		<change when="2023-02">Record created by <persName>Emmanuel FRANCIS</persName>. Version 1, February 2023.</change></revisionDesc></teiHeader>
 	<facsimile>
 		<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b52515785k/manifest.json"/>
 	</facsimile>
@@ -130,14 +130,14 @@
         <lb n="5" break="no"/>yiyal</seg>
     </seg>
 				
-    <seg function="incipit" type="root-text"><milestone unit="main-text-area"/>
-      <lb n="1"/>vumaiyurumaṭuttulakiḷai <gap reason="ellipsis"/> poruḷē ~</seg> <seg function="incipit" type="commentary">Eṉpatu cūttiram ~</seg> <gap reason="ellipsis"/>
+    <seg function="incipit"><milestone unit="main-text-area"/>
+      <lb n="1"/>vumaiyuruvurumaṭuttulakiḷaip poḻikkum imaiyavaṉ  <gap reason="ellipsis"/> poruḷē ~Eṉpatu cūttiram ~ <gap reason="ellipsis"/>
     <lb n="2-7"/><gap reason="ellipsis"/>
     
         <pb facs="8" n="1v"/>
     <milestone unit="main-text-area"/>
       <lb n="1-4"/><gap reason="ellipsis"/>
-    <lb n="5"/><gap reason="ellipsis"/> = 1 = <gap reason="ellipsis"/>
+    <lb n="5"/><gap reason="ellipsis"/> t uraittuk koḷka = 1 =</seg> <gap reason="ellipsis"/>
           <lb n="6-7"/><gap reason="ellipsis"/>
     
      <pb facs="9" n="2r"/>
@@ -174,7 +174,7 @@
     <pb facs="456" n="225v"/>
     <milestone unit="main-text-area"/>
     <lb n="1-5"/><gap reason="ellipsis"/>
-      <lb n="6"/><gap reason="ellipsis"/>ṟ uṇarka ~ <num rend="traditional">221</num> <g ref="#pcl"/> <seg function="completion-statement">
+      <lb n="6"/><gap reason="ellipsis"/>ṟ uṇarka ~ <num rend="traditional">21</num> <g ref="#pcl"/> <seg function="completion-statement">
     <lb n="7"/>puṟattiṇaiyiyaṉ muṟṟum <g ref="#pcl"/></seg>
     
         <pb facs="457" n="226r"/>
@@ -185,6 +185,11 @@
     </seg>
     
     
+     <pb facs="616" n="305v"/>
+    <milestone unit="main-text-area"/>
+    <lb n="1-2"/><gap reason="ellipsis"/>
+      <lb n="3"/><gap reason="ellipsis"/>m eṉka ~ <num rend="traditional">90</num> ~ <seg function="completion-statement">mūṉṟāvat<pc>'</pc> aṇiyiyaṉ muṟṟum <g ref="#pcl"/></seg>
+    
     <pb facs="617" n="306r"/>
     <seg function="header">
       <milestone unit="left-margin"/>
@@ -194,8 +199,10 @@
         
     <pb facs="745" n="370r"/>
     <milestone unit="main-text-area"/>    
-    <lb n="1-6"/><gap reason="ellipsis"/>
-    <seg function="explicit" type="commentary"><lb n="7"/><gap reason="ellipsis"/> kāṇka ~ 51 <g ref="#pcl"/></seg>
+    <lb n="1-4"/><gap reason="ellipsis"/>
+    <lb n="5"/><gap reason="ellipsis"/> ~ <num rend="traditional">50</num> ~ <seg function="explicit"><gap reason="ellipsis"/>
+     <lb n="6"/><gap reason="ellipsis"/>
+    <lb n="7"/><gap reason="ellipsis"/> kāṇka ~ 51 <g ref="#pcl"/></seg>
             
     <pb facs="746" n="370v"/>
     <seg function="colophon"><seg function="completion-statement"><milestone unit="main-text-area"/>
