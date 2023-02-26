@@ -21,13 +21,19 @@
                   <idno type="alternate"><idno>Tamoul 81</idno><idno>Burnouf 172</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103494v</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b100916773</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/db78tj991</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary><p>An incomplete copy of the <title xml:lang="ta">Tiruvātavūrār Purāṇam</title>, a poem on the life of <persName>Māṇikkavācakar</persName>, by <persName role="author">Kaṭavuṇmāmuṉivar</persName> (15th century?). See Sweetman &amp; Ilakkuvan (2012, p. 66), Zvelebil (1995, p. 334, 405).</p>
-<p>The manuscript stops short at the beginning of the final chapter (<foreign xml:lang="ta">Tiruvaṭi peṟṟac carukkam</foreign>).</p>
+                  <summary><p>An incomplete copy of the <title xml:lang="ta">Tiruvātavūrār Purāṇam</title> (text and commentary), a poem on the life of <persName>Māṇikkavācakar</persName>, by <persName role="author">Kaṭavuṇmāmuṉivar</persName> (15th century?). See Sweetman &amp; Ilakkuvan (2012, p. 66), Zvelebil (1995, p. 334, 405).</p>
+
+<p>The manuscript stops short at the beginning of the final chapter (<foreign xml:lang="ta">Tiruvaṭi peṟṟac carukkam</foreign>), at the beginning of stanza 8.</p>
+
 <p>Description based on the examination of the original manuscript (October 2021).</p>
 <p>Dimensions assessed at the time of examination.</p> 
  </summary>
                   
-               <msItem synch="#U2" xml:id="T1" defective="true"><title xml:lang="ta">Tiruvātavūrārpurāṇam: Mūlam &amp; Urai</title><author xml:lang="ta">Kaṭavuṇmāmuṉivar</author><textLang mainLang="tam"/></msItem></msContents>
+               <msItem synch="#U2" xml:id="T1" defective="true"><title xml:lang="ta">Tiruvātavūrārpurāṇam: Mūlam &amp; Urai</title><author xml:lang="ta">Kaṭavuṇmāmuṉivar</author><textLang mainLang="tam"/><filiation><p><list>
+  <item><ref target="https://tst-project.github.io/mss/Indien_0296.xml">BnF Indien 296</ref></item>
+  <item><ref target="https://tst-project.github.io/mss/Indien_0525.xml">BnF Indien 525</ref></item>
+  <item><ref target="https://tst-project.github.io/mss/Indien_0954.xml">BnF Indien 954</ref></item>
+  </list></p></filiation></msItem></msContents>
                <physDesc>
                   
                   
@@ -100,8 +106,9 @@
   <lb n="1-3"/>mantiricarukkam</seg> <g ref="#pcs"/>
   
   <pb facs="11" n="32r"/>
-     <lb n="1-2"/><gap reason="ellipsis"/>
-     <lb n="3"/>ṟa v-āṟu <g ref="#pcl"/> <num rend="traditional">40</num> <g ref="#pcs"/> <seg function="completion-statement"><seg function="total-stanzas">{Āka} tiruviruttam <num rend="traditional">47</num></seg> <g ref="#pcl"/> <seg function="blessing">tirucci<choice><sic>tta</sic><corr>ṟṟa</corr></choice>mpalam</seg> | mantiriccarukkam muṟṟum <seg function="intertitle">tirupperuntuṟaic caruk 
+     <milestone unit="main-text-area"/>
+    <lb n="1-2"/><gap reason="ellipsis"/>
+     <lb n="3"/>ṟa vāṟu <g ref="#pcl"/> <num rend="traditional">40</num> <g ref="#pcs"/> <seg function="completion-statement"><seg function="total-stanzas">{Āka} tiruviruttam <num rend="traditional">47</num></seg> <g ref="#pcl"/> <seg function="blessing">tirucci<choice><sic>tta</sic><corr>ṟṟa</corr></choice>mpalam</seg> | mantiriccarukkam muṟṟum <seg function="intertitle">tirupperuntuṟaic caruk 
 <lb n="4" break="no"/>kam <g ref="#pcl"/></seg></seg>
   
   <pb n="32v"/>
@@ -112,7 +119,8 @@
   <lb n="1-3"/>tiruvampalaccarukkam</seg>
   
   <pb facs="17" n="210r"/>
-  <lb n="3"/><gap reason="ellipsis"/> = 69 =
+  <milestone unit="main-text-area"/>
+    <lb n="3"/><gap reason="ellipsis"/>m eṉra vāṟu = 69 =
      <seg function="completion-statement"><lb n="4"/><seg function="blessing">tirucci<sic>tta</sic>mpalam</seg> tiruvampalaccarukkam mu<sic>ttu</sic>m <seg function="total-chapters total-stanzas">{Āka} carukkam Āṟu<unclear>k=ku</unclear> tiruviruttam <num rend="traditional">412</num></seg> <seg function="blessing">kuru-pātan tuṇai y<pc>-</pc>uṇṭāka vēṇum <g ref="#pcs"/></seg></seg>
   
   <pb facs="20" n="210v"/>
@@ -120,16 +128,29 @@
   <lb n="1-3"/>puttaraivātu veṉṟac carukka<seg rend="grantha">m</seg> <g ref="#pcs"/></seg>
 
   <pb facs="31" n="234v"/>
-     <seg function="completion-statement"><lb n="1"/><supplied reason="lost">puttarai</supplied>vātil veṉṟac carukkam mu<sic>ttu</sic>m <seg function="total-chapters total-stanzas">{Āka}c carukkam 7k=ku viruttam <num rend="traditional">511</num></seg> <seg function="blessing">tirucci<choice><sic>tta</sic><corr>ṟṟa</corr></choice>mpalam <g ref="#pcl"/></seg></seg>
+     <seg function="completion-statement"><milestone unit="main-text-area"/><lb n="1"/><supplied reason="lost">puttarai</supplied>vātil veṉṟac carukkam mu<sic>ttu</sic>m <seg function="total-chapters total-stanzas">{Āka}c carukkam 7k=ku viruttam <num rend="traditional">511</num></seg> <seg function="blessing">tirucci<choice><sic>tta</sic><corr>ṟṟa</corr></choice>mpalam <g ref="#pcl"/></seg></seg>
   
-  <pb facs="35" n="235r"/>
-  <seg function="intertitle"><milestone unit="left-margin"/>
+  <pb facs="36" n="235r"/><note xml:lang="en">in 2 fragments: recto (<locus facs="36">fragment 1 = left portion</locus> and <locus facs="37">fragment 1 = right portion</locus>) and verso (<locus facs="39">fragment 1 = left portion</locus> and <locus facs="40">fragment 1 = right portion</locus></note>
+  
+    <seg function="intertitle"><milestone unit="left-margin"/>
   <lb n="1-3"/>tiruvaṭi pe<choice><sic>tta</sic><corr>ṟṟa</corr></choice>c carukkam</seg>
+    
+    <milestone unit="main-text-area"/>
+    <lb n="1"/><gap reason="ellipsis"/>
+    <lb n="2"/><gap reason="ellipsis"/> = 1 = <gap reason="ellipsis"/>
+    <lb n="3"/><gap reason="ellipsis"/>
+    <lb n="4"/><gap reason="ellipsis"/> = 2 = <gap reason="ellipsis"/>
+    <lb n="5"/><gap reason="ellipsis"/>
+    <lb n="6"/><gap reason="ellipsis"/> = 3 = <gap reason="ellipsis"/>
   
-  <pb facs="39" n="235v"/>
-  
+  <pb facs="38" n="235v"/>
+    <lb n="1"/><gap reason="ellipsis"/> = 4 = <gap reason="ellipsis"/>
+    <lb n="2"/><gap reason="ellipsis"/>
+    <lb n="3"/><gap reason="ellipsis"/> = 5 = <gap reason="ellipsis"/>
+    <lb n="4"/><gap reason="ellipsis"/>
+    <lb n="5"/><gap reason="ellipsis"/> = 6 = <gap reason="ellipsis"/>
     <seg function="explicit"><milestone unit="left-margin"/>
-  <lb n="6"/><gap reason="ellipsis"/> <note xml:lang="en">the text stops short here</note></seg>
+  <lb n="6"/><gap reason="ellipsis"/> = 7 = <gap reason="ellipsis"/> <note xml:lang="en">the text stops short here</note></seg>
   </ab>
   
 </body></text></TEI>

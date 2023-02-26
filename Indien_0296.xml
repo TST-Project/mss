@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title><title xml:lang="ta">Tiruvātavūrar Purāṇam</title> </title>
+            <title><title xml:lang="ta">Tiruvātavūrar Purāṇam</title></title>
             
          <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          <publicationStmt>
@@ -26,7 +26,15 @@
 <p>Dimensions after Cabaton (1912).</p>      
 </summary>
                   
-               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Vātavūrar Purāṇam: <term xml:lang="en">Title Page</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta">Vātavūrar Purāṇam: <term xml:lang="en">Invocation</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T3" defective="false"><title xml:lang="ta">Vātavūrar Purāṇam: Mūlam</title><textLang mainLang="tam"/></msItem></msContents>
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Vātavūrar Purāṇam: <term xml:lang="en">Title Page</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta">Vātavūrar Purāṇam: <term xml:lang="en">Invocation</term></title><textLang mainLang="tam"/><filiation><p><list>
+  <item><ref target="https://tst-project.github.io/mss/Indien_0081.xml">BnF Indien 81</ref></item>
+  <item><ref target="https://tst-project.github.io/mss/Indien_0525.xml">BnF Indien 525</ref></item>
+  <item><ref target="https://tst-project.github.io/mss/Indien_0954.xml">BnF Indien 954</ref></item>
+  </list></p></filiation></msItem><msItem synch="#U3" xml:id="T3" defective="false"><title xml:lang="ta">Vātavūrar Purāṇam: Mūlam</title><textLang mainLang="tam"/><filiation><p><list>
+  <item><ref target="https://tst-project.github.io/mss/Indien_0081.xml">BnF Indien 81</ref></item>
+  <item><ref target="https://tst-project.github.io/mss/Indien_0525.xml">BnF Indien 525</ref></item>
+  <item><ref target="https://tst-project.github.io/mss/Indien_0954.xml">BnF Indien 954</ref></item>
+  </list></p></filiation></msItem></msContents>
                <physDesc>
                   
                   
@@ -53,7 +61,7 @@
                      <layoutDesc>
                         
                      </layoutDesc>
-                  </objectDesc><handDesc><handNote synch="#U1" scope="minor" script="tamil" medium="incised soot"><desc>Hand #1.</desc></handNote><handNote synch="#U2 #U3" scope="major" script="tamil" medium="incised soot"><desc>Hand #2 mostly. Additions by hand #3 in U2: foliation; e.g. completion statement on <locus facs="84">f39v</locus>; f125-f131).</desc></handNote></handDesc><decoDesc>
+                  </objectDesc><handDesc><handNote synch="#U1" scope="minor" script="tamil" medium="incised soot"><desc>Hand #1.</desc></handNote><handNote synch="#U2 #U3" scope="major" script="tamil" medium="incised soot"><desc>Hand #2 mostly. Additions by hand #3 in U2: foliation; completion statement on <locus facs="84">f39v</locus>; text on f125-f131).</desc></handNote></handDesc><decoDesc>
                   </decoDesc><additions>
                   <desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF current shelfmark sticker: <quote>INDIEN 296</quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#CoverFront" type="documenting-note" subtype="cover front">BnF donation sticker <quote>DON N° <space type="vacat"/></quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#U1" type="shelfmark">Shelfmark <quote>b/83</quote> in black ink (<locus facs="3">f[1]r</locus>). </desc><desc synch="#U3" type="blessing" subtype="marginal left">Random left-marginal blessing <foreign xml:lang="ta">civamayam</foreign>. </desc></additions><bindingDesc>
                      <binding><p><material cert="medium">Pinewood</material> covers apparently fabricated in the BnF.</p><decoNote type="stringhole"><measure unit="stringhole"/></decoNote></binding>
@@ -80,7 +88,7 @@
       
    <revisionDesc>
          
-      <change when="2023-01">Record created by Emmanuel FRANCIS.</change></revisionDesc></teiHeader>
+      <change when="2023-01">Record created by <persName>Emmanuel FRANCIS</persName>. Version 1, January 2023.</change></revisionDesc></teiHeader>
    <facsimile>
    <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b52516203t/manifest.json"/></facsimile>
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
@@ -124,8 +132,12 @@
  <seg function="incipit"><seg function="invocation"><milestone unit="main-text-area"/>
    <lg><l><lb n="1"/>tuṅkamata kumpavuyar tumpimuka ṉampucīr ~</l> <l>taṅkineki ḻañciṟu cataṅkaikaḷ pulampavē</l>
      <l><lb n="2"/>maṅkaiyumai kaṅkuḷira vantulavu kiṉṟatā</l><l>ḷ aṅkaimalar koṇṭumiku maṉpuṭaṉ iṟai<lb n="3" break="no"/>ñcuvām ~ 1 ~</l></lg></seg></seg> <gap reason="ellipsis"/>
-      
-      
+      <lb n="4"/><gap reason="ellipsis"/>
+      <lb n="5"/><gap reason="ellipsis"/>
+      <lb n="6"/><gap reason="ellipsis"/> ~ 2 ~ <gap reason="ellipsis"/>
+      <lb n="7"/><gap reason="ellipsis"/>
+      <lb n="8"/><gap reason="ellipsis"/> ~ 3 ~ <gap reason="ellipsis"/>
+            
       <pb facs="14" n="4v"/>
   <seg function="header">
   <seg function="blessing"><milestone unit="left-margin"/>
@@ -135,6 +147,19 @@
   <seg function="header">
   <seg function="intertitle"><milestone unit="left-margin"/>
   <lb n="1-4"/>tiruppe<supplied reason="omitted">ru</supplied>ntuṟaiccarukkam <g ref="#pcs"/></seg></seg>
+      
+      <milestone unit="main-text-area"/>
+       <lb n="1"/><gap reason="ellipsis"/> ~ <num rend="traditional">45</num> ~ <gap reason="ellipsis"/>
+      <lb n="2"/><gap reason="ellipsis"/>
+      <lb n="3"/><gap reason="ellipsis"/>
+      <lb n="4"/><gap reason="ellipsis"/> ~ <num rend="traditional">46</num> ~ <gap reason="ellipsis"/> <seg function="completion-statement">mantiricarukkam muṟṟum <g ref="#pcs"/></seg>
+      <lb n="5"/><gap reason="ellipsis"/>
+      <lb n="6"/><gap reason="ellipsis"/>
+      <lb n="7"/><gap reason="ellipsis"/>
+      
+      <pb facs="26" n="10v"/>
+      <lb n="1"/><gap reason="ellipsis"/> ~ 1 ~ <gap reason="ellipsis"/>
+      <lb n="2ff."/><gap reason="ellipsis"/>
       
           <pb facs="40" n="17v"/>
   <seg function="header">
@@ -159,15 +184,21 @@
       
      <pb facs="254" n="124v"/>
       <seg function="explicit"><milestone unit="main-text-area"/>
-      <lb n="1-6"/><gap reason="ellipsis"/> <g ref="#pcs"/> <num rend="traditional">33</num> <g ref="#pcs"/><g ref="#pcs"/></seg>
+      <lb n="1"/><gap reason="ellipsis"/>
+      <lb n="2"/><gap reason="ellipsis"/>
+      <lb n="3"/><gap reason="ellipsis"/> ~ <num rend="traditional">32</num> ~ <seg function="prosody">vēṟu ~</seg> <gap reason="ellipsis"/>
+      <lb n="4"/><gap reason="ellipsis"/>
+      <lb n="5"/><gap reason="ellipsis"/>
+      <lb n="6"/><gap reason="ellipsis"/> <g ref="#pcs"/> <num rend="traditional">33</num> <g ref="#pcs"/><g ref="#pcs"/></seg>
+
       <seg function="colophon"><seg function="completion-statement"><lb n="7"/><seg function="blessing">tirucciṟṟampalam <g ref="#pcs"/></seg> tiruvaṭi peṟṟac carukka muṟṟum <g ref="#pcs"/> <seg function="blessing">Ampalavāṉar tuṇai<g ref="#pcl"/></seg></seg></seg>
+      
       
       <pb facs="255" n="125r"/>
       <seg function="total-stanzas"><milestone unit="main-text-area"/>
       <lb n="1"/>{Āka} pāṭal <num rend="traditional"><gap reason="ellipsis"/></num> Āka} carukkam yēṭṭukkuṅ kuṭiya
       <lb n="2"/>pā<unclear>ṭi</unclear> <gap reason="ellipsis"/> <g ref="#pcs"/> <num rend="traditional">130</num> <g ref="#pcs"/> <seg function="blessing">tiruccci<choice><sic>t=ta</sic><corr>ṟṟa</corr></choice>mpalam <g ref="#pcl"/> civama<g rend="below-base">yaM</g><g ref="#pcs"/></seg></seg>
-      
-      
+            
       <pb facs="256" n="125v"/>
       <seg function="header">
   <seg function="prosody"><milestone unit="left-margin"/>
@@ -216,6 +247,7 @@
       <lb n="3"/><gap reason="ellipsis"/>
       <lb n="4"/><gap reason="ellipsis"/> <g ref="#pcl"/> 1 <g ref="#pcs"/>
       
+      
        <pb facs="261" n="128r"/>
       
       <milestone unit="main-text-area"/>
@@ -240,8 +272,7 @@
       <lb n="2"/><gap reason="ellipsis"/> pōt=ti
       <lb n="3"/><gap reason="ellipsis"/> pōt=ti
       <lb n="4"/><gap reason="ellipsis"/> pōtti pōtti <g ref="#pcs"/> <g ref="#pcs"/>
-      
-            
+                  
        <pb facs="264" n="129v"/>
       
         <milestone unit="main-text-area"/>
@@ -280,7 +311,6 @@
       <lb n="4"/><gap reason="ellipsis"/> <g ref="#pcs"/> <seg function="blessing">civā tirucci<choice><sic>tta</sic><corr>ṟṟa</corr></choice>mpalam </seg>
       
             <pb facs="268" n="131v"/><note xml:lang="en">blank</note>
-
 
       </ab>
   </body></text></TEI>
