@@ -1,92 +1,168 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title><term xml:lang="fr">Album Ducler 2: <quote>Divinités et souverains de l'Inde</quote></term></title>
-        
-        <editor><persName>Lola VAISSAIRE</persName><orgName>École du Louvre</orgName></editor><editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
-      <publicationStmt>
-        <publisher>TST Project</publisher>
-        <date>2023</date>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc>
-          <msIdentifier>
-            <repository>
-              <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
-            </repository>
-            <idno type="shelfmark">Indien 744</idno>
-            <idno type="alternate"><idno>Indien 99</idno><idno>Ducler</idno></idno>
-          <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1027728</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b105380697</idno></msIdentifier>
-          <msContents class="#STM">
-            <summary><p>1st, 4th and 5th series of gouache paintings commissioned by Ducler in 1831.</p>
-              <p>In the 1st series (108 gouache paintings) are found illustrations of gods from India  (particularly from South India).</p>
-              <p>In the 4th series (28 gouache paintings) are found illustrations of people of different royal castes from India  (particularly from South India).</p>
-              <p>In the 5th series (46 gouache paintings) are found illustrations of various Indian officers from the French colonial administrative services at Kairakal, as well as views and daily life scenes from Kairakal.</p>
-              <p>The total for three series amounts to 182  gouache paintings.</p></summary>
-            
-            <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Gouache Paintings, with labels</term></title><textLang mainLang="tam" otherLangs="fra"/></msItem></msContents>
-          <physDesc>
-            
-            
-            
-            
-            
-          <objectDesc form="codex" rend="manuscript">
-              <supportDesc material="paper">
-                <support>
-                  
-                  
-                </support>
-                <extent>
-                  <measure unit="folio" quantity="184">{1} + 182 + {1} (u1 + U1 + u2).</measure>
-                  <dimensions type="leaf" unit="mm">
-                    
-                    
-                  </dimensions>
-                  <dimensions type="object" unit="mm"><width quantity="210"/><height quantity="320"/></dimensions><dimensions type="written" unit="mm"/></extent>
-                
-                
-                
-              <collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. BnF shelfmark sticker on verso.</desc><desc xml:id="u1">1 folio = front <emph rend="bold">guard leaf</emph>. No foliation. Blank except for BnF old shelfmark on f[1]r.</desc><desc xml:id="U1">182 folios = <emph rend="bold">Gouache Paintings</emph>. Library Arabic foliation 1-182 in black ink. Parallel original (?) Arabic foliation 1a-108a (lf1-108), 1c-28c (lf139-136), 1d-46d (lf137-182) in black pencil. Verso blank.</desc><desc xml:id="u2">1 folio = back <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>. </desc></collation><condition>Very good state of conservation.</condition></supportDesc>
-              <layoutDesc>
-                
-                <layout>Black frame divided in two boxes: the upper, larger, box for the gouache painting; the lower, smaller box for bilingual labels (Tamil in Tamil script and French in Latin script).</layout></layoutDesc>
-            </objectDesc><handDesc><handNote synch="#U1" scope="sole" script="tamil" scriptRef="#tamilPulliSporadic #tamilMacron" medium="ink black"/></handDesc><decoDesc>
-              <decoNote subtype="spine"><desc>Royal cypher <quote>N</quote>, of Napoléon III (<locus facs="373">spine</locus>).</desc></decoNote></decoDesc><additions>
-              <desc type="documenting-note" subtype="spine top">Library's name (<locus facs="373">spine</locus>): <quote xml:lang="fr">BIBLIOTH. IMP</quote>, that is, Bibliothèque Impériale.</desc><desc type="title" subtype="spine top">Title printed in golden letters: <quote xml:lang="fr">DIVINITÉS ET SOUVERAINS DE L'INDE</quote> (<locus facs="373">spine</locus>).</desc><desc type="documenting-note" subtype="spine bottom">Name of binder and date of binding: <quote xml:lang="fr">J. WEBER 1865</quote> (<locus facs="373">spine</locus>).</desc><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF current shelfmark sticker (<locus facs="2">front cover, verso</locus>): <quote>INDIEN 744</quote> 
-              </desc><desc synch="#u1" type="shelfmark" subtype="beginning">BnF old shelfmark in black ink (<locus facs="3">f[1]r</locus>): <quote>Ind. 99.</quote></desc><desc synch="#U1" type="stamp">Library stamp (red ink) (in the labels box of every recto folio of U1): <quote>B.R</quote> (below a crown, both in an oval), that is, Bibliothèque Royale.</desc></additions><bindingDesc>
-              <binding><p>Library binding. With name of the library, title, royal cypher, binder's name and date of binding on the spine.</p><decoNote type="stringhole"><measure unit="stringhole"/></decoNote></binding>
-            </bindingDesc></physDesc>
-          <history>
-            
-            
-            
-          <origin>
-              <origDate calendar="gregorian" when="1831">See <quote>1831</quote> in the lower right corner of the labels box of every recto folio of U1.</origDate>
-              
-              <origPlace>South India, Tamilnadu.</origPlace></origin><provenance><p>Gouache paintings commissioned by Philippe Étienne Ducler (1778-1840), colonial administrator in Karikal (<placeName xml:lang="ta">Karaikkāl</placeName>). See Burnouf (1832, p. <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k93120f/f86">86</ref>). </p></provenance><acquisition><p>Acquired, July 22nd, 1833, from Ducler (BnF, département des Manuscrits, inventaire 1 = <title>Acquisitions: manuscrits et imprimés documentaires, 1833-1848</title>, no. 95 (1ère série, 4e série, 5e série).</p></acquisition></history>
-          <additional>
-            <listBibl>
-              
-              <bibl>Burnouf, Eugène. 1832. “<ref target="https://gallica.bnf.fr/ark:/12148/bpt6k93120f/f84">Rapport fait au Conseil, dans la séance du 2 juillet 1832, sur les collections de manuscrits et de dessins rapportées de l’Inde par M. Ducler, administrateur de Carical, membre de la Société asiatique</ref>.” <title>Journal asiatique</title> 10, p. 84-87. — Report by E. Burnouf &amp; J. B. Eyriès.</bibl><bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens. Bibliothèque nationale. Département des manuscrits.</title> Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f128">p. 109, no. 744</ref>.</bibl></listBibl>
-          </additional>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      
-      <p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.</p></encodingDesc>
-    
-    <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
-      
-      <change when="2021-05">Record created by Emmanuel FRANCIS</change><change when="2022-06">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, June 2022.</change></revisionDesc></teiHeader>
-  <facsimile>
-    <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b105380697/manifest.json"/></facsimile>
-  <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
-      <ab>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title><term xml:lang="fr"
+							>Album Ducler 2: <quote>Divinités et souverains de l'Inde</quote></term></title>
+
+				<editor><persName>Lola VAISSAIRE</persName><orgName>École du Louvre</orgName></editor>
+				<editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>TST Project</publisher>
+				<date>2023</date>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>
+							<orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+						</repository>
+						<idno type="shelfmark">Indien 744</idno>
+						<idno type="alternate"><idno>Indien 99</idno><idno>Ducler</idno></idno>
+						<idno type="URI"
+							>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1027728</idno>
+						<idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b105380697</idno>
+					</msIdentifier>
+					<msContents class="#STM">
+						<summary><p>1st, 4th and 5th series of gouache paintings commissioned by Ducler in 1831.</p>
+							<p>In the 1st series (108 gouache paintings) are found illustrations of gods from India  (particularly from South India).</p>
+							<p>In the 4th series (28 gouache paintings) are found illustrations of people of different royal castes from India  (particularly from South India).</p>
+							<p>In the 5th series (46 gouache paintings) are found illustrations of various Indian officers from the French colonial administrative services at Kairakal, as well as views and daily life scenes from Kairakal.</p>
+							<p>The total for three series amounts to 182  gouache paintings.</p></summary>
+
+						<msItem synch="#U1" xml:id="T1" defective="false">
+							<title xml:lang="ta"><term xml:lang="en"
+									>Gouache Paintings, with labels</term></title>
+							<textLang mainLang="tam" otherLangs="fra"/>
+						</msItem>
+					</msContents>
+					<physDesc>
+
+
+
+
+
+						<objectDesc form="codex" rend="manuscript">
+							<supportDesc material="paper">
+								<support> </support>
+								<extent>
+									<measure unit="folio" quantity="184"
+										>{1} + 182 + {1} (u1 + U1 + u2).</measure>
+									<dimensions type="leaf" unit="mm"> </dimensions>
+									<dimensions type="object" unit="mm">
+										<width quantity="210"/>
+										<height quantity="320"/>
+									</dimensions><dimensions type="written" unit="mm"/></extent>
+
+
+
+								<collation><desc xml:id="CoverFront">the <emph rend="bold"
+											>front cover</emph>. BnF shelfmark sticker on verso.</desc><desc
+										xml:id="u1">1 folio = front <emph rend="bold"
+											>guard leaf</emph>. No foliation. Blank except for BnF old shelfmark on f[1]r.</desc><desc
+										xml:id="U1">182 folios = <emph rend="bold"
+											>Gouache Paintings</emph>. Library Arabic foliation 1-182 in black ink. Parallel original (?) Arabic foliation 1a-108a (lf1-108), 1c-28c (lf139-136), 1d-46d (lf137-182) in black pencil. Verso blank.</desc><desc
+										xml:id="u2">1 folio = back <emph rend="bold"
+											>guard leaf</emph>. No foliation. Blank recto verso.</desc><desc
+										xml:id="CoverBack">the <emph rend="bold"
+										>back cover</emph>. </desc></collation>
+								<condition>Very good state of conservation.</condition>
+							</supportDesc>
+							<layoutDesc>
+
+								<layout>Black frame divided in two boxes: the upper, larger, box for the gouache painting; the lower, smaller box for bilingual labels (Tamil in Tamil script and French in Latin script).</layout>
+							</layoutDesc>
+						</objectDesc>
+						<handDesc>
+							<handNote synch="#U1" scope="sole" script="tamil"
+								scriptRef="#tamilPulliSporadic #tamilMacron" medium="ink black"/>
+						</handDesc>
+						<decoDesc>
+							<decoNote subtype="spine"
+										><desc>Royal cypher <quote>N</quote>, of Napoléon III (<locus
+										facs="373">spine</locus>).</desc></decoNote>
+						</decoDesc>
+						<additions>
+							<desc type="documenting-note" subtype="spine top">Library's name (<locus
+									facs="373">spine</locus>): <quote xml:lang="fr"
+									>BIBLIOTH. IMP</quote>, that is, Bibliothèque Impériale.</desc><desc
+								type="title" subtype="spine top"
+									>Title printed in golden letters: <quote xml:lang="fr"
+									>DIVINITÉS ET SOUVERAINS DE L'INDE</quote> (<locus facs="373"
+									>spine</locus>).</desc><desc type="documenting-note"
+								subtype="spine bottom">Name of binder and date of binding: <quote
+									xml:lang="fr">J. WEBER 1865</quote> (<locus facs="373"
+									>spine</locus>).</desc><desc synch="#CoverFront"
+								type="shelfmark" subtype="cover front"
+									>BnF current shelfmark sticker (<locus facs="2"
+									>front cover, verso</locus>): <quote>INDIEN 744</quote>
+							</desc><desc synch="#u1" type="shelfmark" subtype="beginning"
+									>BnF old shelfmark in black ink (<locus facs="3"
+									>f[1]r</locus>): <quote>Ind. 99.</quote></desc><desc synch="#U1"
+								type="stamp"
+									>Library stamp (red ink) (in the labels box of every recto folio of U1): <quote>B.R</quote> (below a crown, both in an oval), that is, Bibliothèque Royale.</desc></additions>
+						<bindingDesc>
+							<binding>
+								<p>Library binding. With name of the library, title, royal cypher, binder's name and date of binding on the spine.</p>
+								<decoNote type="stringhole"><measure unit="stringhole"/></decoNote>
+							</binding>
+						</bindingDesc>
+					</physDesc>
+					<history>
+
+
+
+						<origin>
+							<origDate calendar="gregorian" when="1831"
+								>See "1831" in the lower right corner of the labels box of every recto folio of U1.</origDate>
+							<origPlace>South India, Tamilnadu.</origPlace></origin>
+						<provenance><p>Gouache paintings commissioned by Philippe Étienne Ducler (1778-1840), colonial administrator in Karikal (<placeName
+									xml:lang="ta">Karaikkāl</placeName>). See Burnouf (1832, p. <ref
+									target="https://gallica.bnf.fr/ark:/12148/bpt6k93120f/f86"
+									>86</ref>). </p></provenance>
+						<acquisition><p>Acquired, July 22nd, 1833, from Ducler (BnF, département des Manuscrits, inventaire 1 = <title>Acquisitions: manuscrits et imprimés documentaires, 1833-1848</title>, no. 95 (1ère série, 4e série, 5e série).</p></acquisition>
+					</history>
+					<additional>
+						<listBibl>
+
+							<bibl>Burnouf, Eugène. 1832. “<ref
+									target="https://gallica.bnf.fr/ark:/12148/bpt6k93120f/f84"
+									>Rapport fait au Conseil, dans la séance du 2 juillet 1832, sur les collections de manuscrits et de dessins rapportées de l’Inde par M. Ducler, administrateur de Carical, membre de la Société asiatique</ref>.” <title>Journal asiatique</title> 10, p. 84-87. — Report by E. Burnouf &amp; J. B. Eyriès.</bibl>
+							<bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens. Bibliothèque nationale. Département des manuscrits.</title> Paris: E. Leroux. — See <ref
+									target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f128"
+									>p. 109, no. 744</ref>.</bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+
+			<p><emph rend="bold"
+					>General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph
+					rend="bold"
+					>In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph
+					rend="bold"
+				>Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.</p>
+		</encodingDesc>
+
+		<xenoData type="webannotation"><![CDATA[[]]]></xenoData>
+		<revisionDesc>
+
+			<change when="2021-05">Record created by Emmanuel FRANCIS</change>
+			<change when="2022-06"
+				>Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, June 2022.</change>
+		</revisionDesc>
+	</teiHeader>
+	<facsimile>
+		<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b105380697/manifest.json"/>
+	</facsimile>
+	<text synch="#U1" corresp="#T1" xml:lang="ta">
+		<body>
+			<ab>
         
         <pb facs="5" n="1r"/>
         <term xml:lang="ta">
@@ -96,9 +172,9 @@
         </term>
         
         <term xml:lang="fr">
-          <lb n="4"/>Réunion de <emph rend="bold">Brama</emph>, <emph rend="bold">Vichnou</emph> &amp; <emph rend="bold">Shiven</emph> en un même corps ou la
+          <lb n="4"/>Réunion de <emph rend="bold">Brama</emph> [Brahmā], <emph rend="bold">Vichnou</emph> [Viṣṇu] &amp; <emph rend="bold">Shiven</emph> [Śiva] en un même corps ou la
           <lb n="5"/>trinité : divinité à quatre bras, deux tiennent le disque et l’instru=
-          <lb n="6"/>=ment <emph rend="bold">Oudouqué</emph>, les deux autres sont en <emph rend="bold">Abayom</emph> &amp; <emph rend="bold">Varom</emph>.   
+          <lb n="6"/>=ment <emph rend="bold">Oudouqué</emph> [<foreign>uṭukkai</foreign> = <foreign>ḍamaru</foreign>], les deux autres sont en <emph rend="bold">Abayom</emph> [<foreign>abhaya-mudrā</foreign>] &amp; <emph rend="bold">Varom</emph> [<foreign>varada-mudrā</foreign>].   
         </term>    
         
         <pb facs="7" n="2r"/>
@@ -107,8 +183,8 @@
           <lb n="2" break="no"/>vum maiyattil viṣṇuvum Aṭiyil civaṉum y<pc>-</pc>irikkiṟatu.
         </term>
         <term xml:lang="fr">
-          <lb n="3"/>Les mêmes dieux sous la forme du <emph rend="bold">Lingame</emph>, le haut
-          <lb n="4"/><emph rend="bold">Brama</emph>, le milieu <emph rend="bold">Vichnou</emph> et le bas <emph rend="bold">Shiven</emph>.    
+          <lb n="3"/>Les mêmes dieux sous la forme du <emph rend="bold">Lingame</emph> [<foreign>liṅga</foreign>], le haut
+          <lb n="4"/><emph rend="bold">Brama</emph> [Brahmā], le milieu <emph rend="bold">Vichnou</emph> [Viṣṇu] et le bas <emph rend="bold">Shiven</emph> [Śiva].    
         </term>
         
         <pb facs="9" n="3r"/>
@@ -119,20 +195,21 @@
         </term>    
         
         <term xml:lang="fr">
-          <lb n="4"/>Le <emph rend="bold">Lingam</emph> ou la réunion de <emph rend="bold">Brama</emph>, <emph rend="bold">Vichnou</emph> &amp; <emph rend="bold">Shiven</emph> près de laquelle est <emph rend="bold">Parpardy</emph>
-          <lb n="5"/>femme de <emph rend="bold">Shiven</emph> ; Deux divinités de la pagode de <emph rend="bold">Taïmanesamy</emph>.
+          <lb n="4"/>Le <emph rend="bold">Lingam</emph> [<foreign>liṅga</foreign>] ou la réunion de <emph rend="bold">Brama</emph> [Brahmā], <emph rend="bold">Vichnou</emph> [Viṣṇu] &amp; <emph rend="bold">Shiven</emph> [Śiva] près de laquelle est <emph rend="bold">Parpardy</emph> [Pārvatī]
+          <lb n="5"/>femme de <emph rend="bold">Shiven</emph> [Śiva] ; Deux divinités de la pagode de <emph rend="bold">Taïmanesamy</emph> [Tāyumāṉacāmi, that is, temple of Thayumanavar temple at à Tiruchirappalli].
         </term>
         
         <pb facs="11" n="4r"/>
         <term xml:lang="fr">
-          <lb n="3"/>Vue de la pagode de <emph rend="bold">Taïmanesamy</emph> sur la montagne de même nom
-          <lb n="4"/>près de <emph rend="bold">Tirouchinapally</emph>
+          <lb n="3"/>Vue de la pagode de <emph rend="bold">Taïmanesamy</emph> sur la montagne de même nom 
+          <lb n="4"/>près de <emph rend="bold">Tirouchinapally</emph> [temple of Thayumanavar temple at à Tiruchirappalli]
         </term>    
         
+<pb facs="13" n="5r"/>
         <term xml:lang="fr">
-          <lb n="3"/><emph rend="bold">Brama</emph> Créateur à quatre têtes et quatre bras dont deux tiennent le 
-          <lb n="4"/><emph rend="bold">vissery</emph> ou évantail et le <emph rend="bold">sombon</emph> vase d’airin, le second bras
-          <lb n="5"/>droit est en <emph rend="bold">abayom</emph> et le gauche en <emph rend="bold">varom</emph>.
+          <lb n="3"/><emph rend="bold">Brama</emph> [Brahmā] Créateur à quatre têtes et quatre bras dont deux tiennent le 
+          <lb n="4"/><emph rend="bold">vissery</emph> [<foreign>vicaṟi</foreign>] ou évantail et le <emph rend="bold">sombon</emph> [<foreign>compu</foreign> = <foreign>cempu</foreign>] vase d’airin, le second bras
+          <lb n="5"/>droit est en <emph rend="bold">abayom</emph> [<foreign>abhaya-mudrā</foreign>] et le gauche en <emph rend="bold">varom</emph> <foreign>varada-mudrā</foreign>.
         </term>
         
         <pb facs="15" n="6r"/>
@@ -142,15 +219,15 @@
           <lb n="2"/>mālaiyum vēta-c-cuvaṭiyum vaiyttu-k-koṇṭ<pc>-</pc>irukkiṟaḷ.
         </term>
         <term xml:lang="fr">
-          <lb n="3"/><emph rend="bold">Saraspady</emph> sa femme à quatre bras qui tiennent l’arc, les flèches
-          <lb n="4"/>un chapelet et le <emph rend="bold">vedam</emph>.
+          <lb n="3"/><emph rend="bold">Saraspady</emph> [Sarasvatī] sa femme à quatre bras qui tiennent l’arc, les flèches
+          <lb n="4"/>un chapelet et le <emph rend="bold">vedam</emph> [Veda].
         </term>                                                   
         
         <pb facs="17" n="7r"/>
         <term xml:lang="fr">
-          <lb n="4"/><emph rend="bold">Brama</emph>, Créateur monté sur un cygne, il a quatre têtes et quatre bas, deux tiennent
-          <lb n="5"/>un chapelet et un <emph rend="bold">Kendigué</emph> ou vase d’airain ; Un des bras droits est en <emph rend="bold">abayom</emph> et
-          <lb n="6"/> un des gauches en <emph rend="bold">varom</emph>. 
+          <lb n="4"/><emph rend="bold">Brama</emph> [Brahmā], Créateur monté sur un cygne, il a quatre têtes et quatre bas, deux tiennent
+          <lb n="5"/>un chapelet et un <emph rend="bold">Kendigué</emph> [<foreign>kaṇṭikai</foreign> =] ou vase d’airain ; Un des bras droits est en <emph rend="bold">abayom</emph> [<foreign>abhaya-mudrā</foreign>] et
+          <lb n="6"/> un des gauches en <emph rend="bold">varom</emph> <foreign>varada-mudrā</foreign>. 
         </term>
         
         <pb facs="19" n="8r"/>
@@ -159,47 +236,47 @@
           <lb n="2"/>Oru kaiyil cipamālaiyum maiyaṟṟ' oru kaiyil vēta-c-cuvaṭiyum vaiyt=tu-k koṇṭ<pc>-</pc>irukkiṟāḷ.
         </term>
         <term xml:lang="fr">
-          <lb n="3"/><emph rend="bold">Saraspady</emph>, sa femme montée sur un lion ; elle tient un chapelet d’une
-          <lb n="4"/>main et de l’autre le <emph rend="bold">Vedam</emph>.
+          <lb n="3"/><emph rend="bold">Saraspady</emph> [Sarasvatī], sa femme montée sur un lion ; elle tient un chapelet d’une
+          <lb n="4"/>main et de l’autre le <emph rend="bold">Vedam</emph> [Veda].
         </term>
         
         <pb facs="21" n="9r"/>
         <term xml:lang="fr">
-          <lb n="3"/>Le Dieu <emph rend="bold">Vishnou</emph>, Conservateur, monté
-          <lb n="4"/>sur <emph rend="bold">Gueroudane</emph> ou le milan
+          <lb n="3"/>Le Dieu <emph rend="bold">Vishnou</emph> [Viṣṇu], Conservateur, monté
+          <lb n="4"/>sur <emph rend="bold">Gueroudane</emph> [Garuḍa] ou le milan
         </term>
                 
         <pb facs="23" n="10r"/>
         <term xml:lang="fr">
-          <lb n="3"/><emph rend="bold">Latchoumi</emph> sa femme, afsise sur la fleur nommée <emph rend="bold">Tamarépou</emph>,
+          <lb n="3"/><emph rend="bold">Latchoumi</emph> [Lakṣmī] sa femme, aſsise sur la fleur nommée <emph rend="bold">Tamarépou</emph>,
           <lb n="4"/>Elle a quatre bras, Deux tiennent le Nénuphar.
         </term>
         
         <pb facs="25" n="11r"/>
         <term xml:lang="fr">
-          <lb n="3"/><emph rend="bold">Douvarène</emph>, gardien du palais de <emph rend="bold">Vishnou</emph>. Il a quatre
-          <lb n="4"/>bras, est armé d’une mafsue et du <emph rend="bold">Schanck</emph>.
+          <lb n="3"/><emph rend="bold">Douvarène</emph> [Tuvārēṉ = Jaya?], gardien du palais de <emph rend="bold">Vishnou</emph> [Viṣṇu]. Il a quatre
+          <lb n="4"/>bras, est armé d’une maſsue et du <emph rend="bold">Schanck</emph> [<foreign>śaṅkha</foreign>].
         </term>
                 
         <pb facs="27" n="12r"/>
         <term xml:lang="fr">
-          <lb n="2"/><emph rend="bold">Paragane</emph>, autre gardien à quatre bras, du palais de <emph rend="bold">Vishnou</emph>
+          <lb n="2"/><emph rend="bold">Paragane</emph> [Paṟakaṉ = Vijaya?], autre gardien à quatre bras, du palais de <emph rend="bold">Vishnou</emph> [Viṣṇu]
         </term>
                 
         <pb facs="29" n="13r"/>
         <term xml:lang="fr">
-          <lb n="3"/><emph rend="bold">Macha avadarom</emph> premiere incarnation de <emph rend="bold">Vishnou</emph> en poifson pour
-          <lb n="4"/>rapporter les quatre <emph rend="bold">vedams</emph> que le géant <emph rend="bold">Somagane</emph> avoit pris.
+          <lb n="3"/><emph rend="bold">Macha avadarom</emph> [Matsya Avatāra] premiere incarnation de <emph rend="bold">Vishnou</emph> [Viṣṇu] en poiſson pour
+          <lb n="4"/>rapporter les quatre <emph rend="bold">vedams</emph> [Veda] que le géant <emph rend="bold">Somagane</emph> [Cōmakaṉ] avoit pris.
         </term>
         
         <pb facs="31" n="14r"/>
         <term xml:lang="fr">
-          <lb n="2"/>Le Géant <emph rend="bold">Somagane</emph> qui avoit enlevé les quatre <emph rend="bold">Vedam<unclear>s</unclear></emph>
+          <lb n="2"/>Le Géant <emph rend="bold">Somagane</emph> [Cōmakaṉ] qui avoit enlevé les quatre <emph rend="bold">Vedam<unclear>s</unclear></emph> [Veda]
         </term>
                 
         <pb facs="33" n="15r"/>
         <term xml:lang="fr">
-          <lb n="3"/><emph rend="bold">Courmà avadarom</emph>, deuxième incarnation de <emph rend="bold">Vishnou</emph> en
+          <lb n="3"/><emph rend="bold">Courmà avadarom</emph> [Kūrma Avatāra], deuxième incarnation de <emph rend="bold">Vishnou</emph> [Viṣṇu] en
           <lb n="4"/>tortue pour soutenir le monde.
         </term>
                 
@@ -211,54 +288,54 @@
        
         <term xml:lang="fr">
           <lb n="3"/>La Terre sous la forme d’une tortue porte la montagne
-          <lb n="4"/>nommée <emph rend="bold">Magamèrou</emph> où le Dieu <emph rend="bold">Vishnou</emph> fait sa demeure
+          <lb n="4"/>nommée <emph rend="bold">Magamèrou</emph> [Meru] où le Dieu <emph rend="bold">Vishnou</emph> [Viṣṇu] fait sa demeure
           <lb n="5"/>et autour de laquelle le soleil tourne chaque jour.
         </term>
         
         <pb facs="37" n="17r"/>
         <term xml:lang="fr">
-          <lb n="4"/><emph rend="bold">Varaga avadarom</emph>, troisième incarnation de <emph rend="bold">Vishnou</emph> en
-          <lb n="5"/>sanglier pour combattre le géant <emph rend="bold">Irania casibène</emph>. Ce Dieu
-          <lb n="6"/>a quatre bras dont deux sont armés du <emph rend="bold">schank</emph> ou du disque
-          <lb n="7"/>nommé <emph rend="bold">Sacarom</emph>.
+          <lb n="4"/><emph rend="bold">Varaga avadarom</emph> [Varāha Avatara], troisième incarnation de <emph rend="bold">Vishnou</emph> [Viṣṇu] en
+          <lb n="5"/>sanglier pour combattre le géant <emph rend="bold">Irania casibène</emph> [Hiraṇyākṣa]. Ce Dieu
+          <lb n="6"/>a quatre bras dont deux sont armés du <emph rend="bold">schank</emph> [<foreign>śaṅkha</foreign>] ou du disque
+          <lb n="7"/>nommé <emph rend="bold">Sacarom</emph> [Cakra].
         </term>
         
         <pb facs="39" n="18r"/>
         <term xml:lang="fr">
-          <lb n="2"/>Le Géant <emph rend="bold">Irania casibene</emph>, vaincu par <emph rend="bold">Vishnou</emph>.
+          <lb n="2"/>Le Géant <emph rend="bold">Irania casibene</emph> [Hiraṇyākṣa], vaincu par <emph rend="bold">Vishnou</emph> [Viṣṇu].
         </term>
                
         <pb facs="41" n="19r"/>
         <term xml:lang="fr">
-          <lb n="3"/><emph rend="bold">Narassimma avadarom</emph> quatrième incarnation de <emph rend="bold">Vishnou</emph>
-          <lb n="4"/>en lion pour combattre le géant <emph rend="bold">Irania achagane</emph>.
+          <lb n="3"/><emph rend="bold">Narassimma avadarom</emph> [Narasiṃha Avatāra] quatrième incarnation de <emph rend="bold">Vishnou</emph> [Viṣṇu]
+          <lb n="4"/>en lion pour combattre le géant <emph rend="bold">Irania achagane</emph> [Hiraṇyakaśipu].
         </term>
                
         <pb facs="43" n="20r"/>
         <term xml:lang="fr">
-          <lb n="2"/>Le Géant <emph rend="bold">Irania achagane</emph> vaincu par <emph rend="bold">Vishnou</emph>
+          <lb n="2"/>Le Géant <emph rend="bold">Irania achagane</emph> [Hiraṇyakaśipu] vaincu par <emph rend="bold">Vishnou</emph> [Viṣṇu]
         </term>
         
         <pb facs="45" n="21r"/>
         <term xml:lang="fr">
-          <lb n="3"/><emph rend="bold">Vamanavadarom</emph> Cinquième incarnation de <emph rend="bold">Vishnou</emph> en Brame
-          <lb n="4"/>pour terrafser l’empereur <emph rend="bold">Balasacravarty</emph>.
+          <lb n="3"/><emph rend="bold">Vamanavadarom</emph> [Vāmana Avatāra] Cinquième incarnation de <emph rend="bold">Vishnou</emph> [Viṣṇu] en Brame [brahmin]
+          <lb n="4"/>pour terraſser l’empereur <emph rend="bold">Balasacravarty</emph> [Bali].
         </term>
         
                 <pb facs="47" n="22r"/>
         <term xml:lang="fr">
-          <lb n="2"/>L’Empereur <emph rend="bold">Balasacravarty</emph> vaincu par <emph rend="bold">Vishnou</emph>
+          <lb n="2"/>L’Empereur <emph rend="bold">Balasacravarty</emph> [Bali] vaincu par <emph rend="bold">Vishnou</emph> [Viṣṇu]
         </term>
         
         <pb facs="49" n="23r"/>
         <term xml:lang="fr">
-          <lb n="4"/><emph rend="bold">Parasourama avadarom</emph> Sixième incarnation de <emph rend="bold">Vishnou</emph> sous forme d’un solitaire
-          <lb n="5"/>vêtu d’une peau de tigre, pour détruire la race des Rois de <emph rend="bold">Souriavamessame</emph>.
+          <lb n="4"/><emph rend="bold">Parasourama avadarom</emph> [Paraśurāma Avatāra] Sixième incarnation de <emph rend="bold">Vishnou</emph> [Viṣṇu] sous forme d’un solitaire
+          <lb n="5"/>vêtu d’une peau de tigre, pour détruire la race des Rois de <emph rend="bold">Souriavamessame</emph> [<foreign>sūrya-vaṃṣa</foreign>].
         </term>
         
         <pb facs="51" n="24r"/>
         <term xml:lang="fr">
-          <lb n="2"/>Un Roi de la race <emph rend="bold">Souriavamessam</emph>
+          <lb n="2"/>Un Roi de la race <emph rend="bold">Souriavamessam</emph> [<foreign>sūrya-vaṃṣa</foreign>]
         </term>
         
           <pb facs="53" n="25r"/>
@@ -267,27 +344,27 @@
           <lb n="2"/>ṟāma-Avatāram. Oru villaiyum Ampaiyum aṇintu-k-koṇṭ<pc>-</pc>irukkiṟār.
         </term>      
         <term xml:lang="fr">
-            <lb n="3"/><emph rend="bold">Rama avoudarom</emph> Septième incarnation de <emph rend="bold">Vishnou</emph> en souverain
-            <lb n="4"/>pour combattre le géant <emph rend="bold">Ravonnin</emph> ; Il est armé d’un arc et d’une
+            <lb n="3"/><emph rend="bold">Rama avoudarom</emph> [Rāma Avatāra] Septième incarnation de <emph rend="bold">Vishnou</emph> [Viṣṇu] en souverain
+            <lb n="4"/>pour combattre le géant <emph rend="bold">Ravonnin</emph> [Rāvaṇa] ; Il est armé d’un arc et d’une
             <lb n="5"/>flèche
           </term>          
           
           <pb facs="55" n="26r"/>
           <term xml:lang="fr">
-            <lb n="2"/>Le Geant <emph rend="bold">Ravonnin</emph> ayant dix têtes et vingt bras
-            <lb n="3"/>armés, vaincu par <emph rend="bold">vishnou</emph>.
+            <lb n="2"/>Le Geant <emph rend="bold">Ravonnin</emph> [Rāvaṇa] ayant dix têtes et vingt bras
+            <lb n="3"/>armés, vaincu par <emph rend="bold">vishnou</emph> [Viṣṇu].
           </term>          
           
           <pb facs="57" n="27r"/>
           <term xml:lang="fr">
-            <lb n="4"/><emph rend="bold">Balarama avadarom</emph>. huitième incarnation de <emph rend="bold">Vishnou</emph> en Roi
+            <lb n="4"/><emph rend="bold">Balarama avadarom</emph> [Balarāma Avatāra]. Huitième incarnation de <emph rend="bold">Vishnou</emph> [Viṣṇu] en Roi
             <lb n="5"/>pour enseigner l’agriculture aux hommes il tient d’une main
             <lb n="6"/>une pioche et de l’autre un soc de charrue.
           </term>
           
           <pb facs="59" n="28r"/>
           <term xml:lang="fr">
-            <lb n="2"/>Modèle de champs cultivé par <emph rend="bold">Vishnou</emph>.
+            <lb n="2"/>Modèle de champs cultivé par <emph rend="bold">Vishnou</emph> [Viṣṇu].
           </term>
                     
           <pb facs="61" n="29r"/>
@@ -297,19 +374,19 @@
           </term>
           
           <term xml:lang="fr">
-            <lb n="3"/><emph rend="bold">Kichena avadarom</emph> neuvième incarnation de <emph rend="bold">Vishnou</emph> en enfant
+            <lb n="3"/><emph rend="bold">Kichena avadarom</emph> [Kṟṣṇa Avatāra] neuvième incarnation de <emph rend="bold">Vishnou</emph> [Viṣṇu] en enfant
             <lb n="4"/>posé sur des fleurs pour surprendre et se défaire de
-            <lb n="5"/><emph rend="bold">camesagane</emph> son oncle maternel
+            <lb n="5"/><emph rend="bold">camesagane</emph> [Kaṃsa] son oncle maternel
           </term>
           
           <pb facs="63" n="30r"/>
           <term xml:lang="fr">
-            <lb n="2"/><emph rend="bold">Camesagane</emph>, oncle maternel de <emph rend="bold">Vishnou</emph>.
+            <lb n="2"/><emph rend="bold">Camesagane</emph> [Kaṃsa], oncle maternel de <emph rend="bold">Vishnou</emph> [Viṣṇu].
           </term>
           
           <pb facs="65" n="31r"/>
           <term xml:lang="fr">
-            <lb n="5"/><emph rend="bold">Kaliqui avadarom</emph> dixième incarnation de <emph rend="bold">Vishnou</emph>, Celle où
+            <lb n="5"/><emph rend="bold">Kaliqui avadarom</emph> [Kalki Avatāra] dixième incarnation de <emph rend="bold">Vishnou</emph> [Viṣṇu], Celle où
             <lb n="6"/>il est maintenant et qu’il gardera jusqu’à la fin de l’age
             <lb n="7"/>actuel qui aura <emph rend="bold">432,000</emph> ans. Il a une tête de cheval, est armé
             <lb n="8"/>d’un sabre et d’un bouclier.
@@ -317,28 +394,28 @@
           
           <pb facs="67" n="32r"/>
           <term xml:lang="fr">
-            <lb n="5"/><emph rend="bold">Vishnou</emph> sous la forme d’un enfant, tetant son pied et reposant 
+            <lb n="5"/><emph rend="bold">Vishnou</emph> [Viṣṇu] sous la forme d’un enfant, tetant son pied et reposant 
             <lb n="6"/>sur une feuille de multipliant. De son nombril sort une fleur
-            <lb n="7"/>de Nénuphar. Le solitaire <emph rend="bold">Marcandane</emph> descend du Ciel
+            <lb n="7"/>de Nénuphar. Le solitaire <emph rend="bold">Marcandane</emph> [Mārkaṇḍeya] descend du Ciel
             <lb n="8"/>pour l’adorer.
           </term>
                     
           <pb facs="69" n="33r"/>
           <term xml:lang="fr">
-            <lb n="3"/>Statue de <emph rend="bold">Vishnou</emph> sous le nom de <emph rend="bold">Varadarassar</emph> dans la
-            <lb n="4"/>pagode de <emph rend="bold">Canchivarom</emph> province d’<emph rend="bold">Arcate</emph>.
+            <lb n="3"/>Statue de <emph rend="bold">Vishnou</emph> [Viṣṇu] sous le nom de <emph rend="bold">Varadarassar</emph> [Varadarāja] dans la
+            <lb n="4"/>pagode de <emph rend="bold">Canchivarom</emph> [Kāñcipuram] province d’<emph rend="bold">Arcate</emph>.
           </term>
           
           <pb facs="71" n="34r"/>
           <term xml:lang="fr">
-            <lb n="3"/><emph rend="bold">Peroundévy</emph> &amp; <emph rend="bold">Nacharammalle</emph> ses femmes
+            <lb n="3"/><emph rend="bold">Peroundévy</emph> [Peruntevi = Mahādevī] &amp; <emph rend="bold">Nacharammalle</emph> [Nāṭcārammāḷ] ses femmes
             <lb n="4"/>tenant la fleur du Nénuphar.
           </term>
           
           <pb facs="73" n="35r"/>
           <term xml:lang="fr">
-            <lb n="3"/>Statue de <emph rend="bold">Vishnou</emph> sous le nom de <emph rend="bold">Savoundararassar</emph> dans
-            <lb n="4"/>la pagode de <emph rend="bold">Negapatam</emph> ville de <emph rend="bold">Tanjaour</emph>.
+            <lb n="3"/>Statue de <emph rend="bold">Vishnou</emph> [Viṣṇu] sous le nom de <emph rend="bold">Savoundararassar</emph> [Sundararāja] dans
+            <lb n="4"/>la pagode de <emph rend="bold">Negapatam</emph> [Nākappaṭṭiṉam = Nagapattinam] ville de <emph rend="bold">Tanjaour</emph> [Tanjore].
           </term>
           
           <pb facs="75" n="36r"/>
@@ -348,25 +425,25 @@
           
           <pb facs="77" n="37r"/>
           <term xml:lang="fr">
-            <lb n="3"/>Statue de <emph rend="bold">Vishnou</emph> sous le nom de <emph rend="bold">Ranganayagar</emph> dans la 
-            <lb n="4"/>pagode de <emph rend="bold">Sirangame</emph> près de <emph rend="bold">Tirouchinapally</emph>.
+            <lb n="3"/>Statue de <emph rend="bold">Vishnou</emph> [Viṣṇu] sous le nom de <emph rend="bold">Ranganayagar</emph> [Raṅganāyaka] dans la 
+            <lb n="4"/>pagode de <emph rend="bold">Sirangame</emph> [Śrīraṅgam] près de <emph rend="bold">Tirouchinapally</emph> [Tiruchirapalli].
           </term>
           
           <pb facs="79" n="38r"/>
           <term xml:lang="fr">
-            <lb n="3"/>Sa femme <emph rend="bold">Latchoumi</emph> sous le nom de <emph rend="bold">Ranganayaguy</emph>, ayant
+            <lb n="3"/>Sa femme <emph rend="bold">Latchoumi</emph> [Lakṣmī] sous le nom de <emph rend="bold">Ranganayaguy</emph> [Raṅganāyakī], ayant
             <lb n="4"/>quatre bras ; deux tiennent la fleur de Nénuphar.
           </term>
           
           <pb facs="81" n="39r"/>
           <term xml:lang="fr">
-            <lb n="3"/>Statue de <emph rend="bold">Vishnou</emph> sous le nom de <emph rend="bold">Vingadassalapady</emph>
-            <lb n="4"/>dans la pagode de <emph rend="bold">Tiroupady</emph> sur les frontières du Décan.
+            <lb n="3"/>Statue de <emph rend="bold">Vishnou</emph> [Viṣṇu] sous le nom de <emph rend="bold">Vingadassalapady</emph> [Vēṅkaṭācalapati = Vēṅkaṭeśvara]
+            <lb n="4"/>dans la pagode de <emph rend="bold">Tiroupady</emph> [Tirupati] sur les frontières du Décan.
           </term>
           
           <pb facs="83" n="40r"/>
           <term xml:lang="fr">
-            <lb n="3"/><emph rend="bold">Peroundévy</emph> et <emph rend="bold">Shoudycoudattounatchiar</emph> ses femmes tenant
+            <lb n="3"/><emph rend="bold">Peroundévy</emph> [Peruntēvi = Mahādevī] et <emph rend="bold">Shoudycoudattounatchiar</emph> [Cūṭikkuṭattu Nācciyār] ses femmes tenant
             <lb n="4"/>les fleurs de Nénuphar.
           </term>
           
@@ -379,9 +456,9 @@
           </term> 
           
           <term xml:lang="fr">
-            <lb n="5"/>Le Dieu <emph rend="bold">Shiven</emph> Destructeur monté sur un taureau blanc, il a quatre bras, deux tiennent la
-            <lb n="6"/>flamme et le Cerf, le second bras droit est en <emph rend="bold">abayom</emph>, le second bras gauche en <emph rend="bold">varom</emph>. Ce Dieu est 
-            <lb n="7"/>coiffé de <emph rend="bold">Parpady</emph> sa femme sous le nom de <emph rend="bold">Kenguè</emph>.
+            <lb n="5"/>Le Dieu <emph rend="bold">Shiven</emph> [Śiva] Destructeur monté sur un taureau blanc, il a quatre bras, deux tiennent la
+            <lb n="6"/>flamme et le Cerf, le second bras droit est en <emph rend="bold">abayom</emph> [<foreign>abhaya-mudrā</foreign>], le second bras gauche en <emph rend="bold">varom</emph> <foreign>varada-mudrā</foreign>. Ce Dieu est 
+            <lb n="7"/>coiffé de <emph rend="bold">Parpady</emph> [Pārvatī] sa femme sous le nom de <emph rend="bold">Kenguè</emph> [Gaṅgā].
           </term>
           
           <pb facs="87" n="42r"/>
@@ -392,8 +469,8 @@
           </term> 
           
           <term xml:lang="fr">
-            <lb n="4"/><emph rend="bold">Parpady</emph> sa femme est montée sur un cygne. Elle a quatre bras, deux tiennent le chapelet et
-            <lb n="5"/>la fleur de Nenuphar. Les deux autres sont en <emph rend="bold">abayom</emph> &amp; <emph rend="bold">varom</emph>.
+            <lb n="4"/><emph rend="bold">Parpady</emph> [Pārvatī] sa femme est montée sur un cygne. Elle a quatre bras, deux tiennent le chapelet et
+            <lb n="5"/>la fleur de Nenuphar. Les deux autres sont en <emph rend="bold">abayom</emph> [<foreign>abhaya-mudrā</foreign>] &amp; <emph rend="bold">varom</emph> <foreign>varada-mudrā</foreign>.
           </term>
           
           <pb facs="89" n="43r"/>
@@ -403,8 +480,8 @@
           </term> 
           
           <term xml:lang="fr">
-            <lb n="3"/><emph rend="bold">Shiven</emph> sous le nom de <emph rend="bold">Vissouvanader</emph>, statue de la pagode de <emph rend="bold">Benarè<unclear>s</unclear></emph>.
-            <lb n="5"/>Le Dieu tient une figure de cerf et l’instrument nommé <emph rend="bold">Oudouqué</emph>.
+            <lb n="3"/><emph rend="bold">Shiven</emph> [Śiva] sous le nom de <emph rend="bold">Vissouvanader</emph> [Viśvanātha], statue de la pagode de <emph rend="bold">Benarè<unclear>s</unclear></emph> [Benares] .
+            <lb n="5"/>Le Dieu tient une figure de cerf et l’instrument nommé <emph rend="bold">Oudouqué</emph> [<foreign>uṭukkai</foreign> = <foreign>ḍamaru</foreign>].
           </term>    
           
           <pb facs="91" n="44r"/>
@@ -414,21 +491,21 @@
           </term>
           
           <term xml:lang="fr">
-            <lb n="3"/><emph rend="bold">Parpady</emph> sous le nom de <emph rend="bold">Vissalatchy</emph> sa femme dans la même pagode
+            <lb n="3"/><emph rend="bold">Parpady</emph> [Pārvatī] sous le nom de <emph rend="bold">Vissalatchy</emph> [Viśālākṣī] sa femme dans la même pagode
           </term>
           
           <pb facs="93" n="45r"/>
           <term xml:lang="fr">
-            <lb n="4"/><emph rend="bold">Shiven</emph> sous la forme de <emph rend="bold">Techanamourty</emph> enseigne la sagefse
-            <lb n="5"/>au monde, il a quatre bras qui tiennent la flamme, le <emph rend="bold">vedam</emph>
-            <lb n="6"/>le chapelet et l’<emph rend="bold">Oudouqué</emph>
+            <lb n="4"/><emph rend="bold">Shiven</emph> [Śiva] sous la forme de <emph rend="bold">Techanamourty</emph> [Dakṣiṇāmūrti] enseigne la sageſse
+            <lb n="5"/>au monde, il a quatre bras qui tiennent la flamme, le <emph rend="bold">vedam</emph> [Veda]
+            <lb n="6"/>le chapelet et l’<emph rend="bold">Oudouqué</emph> [<foreign>uṭukkai</foreign> = <foreign>ḍamaru</foreign>]
           </term>
           
           <pb facs="95" n="46r"/>
           <term xml:lang="fr">
-            <lb n="4"/><emph rend="bold">Artanarisseparom</emph> ou réunion de <emph rend="bold">Shiven</emph> et de sa femme <emph rend="bold">Parpady</emph>.
+            <lb n="4"/><emph rend="bold">Artanarisseparom</emph> [Ardhanārīśvara] ou réunion de <emph rend="bold">Shiven</emph> [Śiva] et de sa femme <emph rend="bold">Parpady</emph> [Pārvatī].
             <lb n="5"/>divinité à quatre bras, deux tiennent la fleur de Nénuphar et le
-            <lb n="6"/>cerf ; les deux autres sont en <emph rend="bold">abayom</emph> &amp; <emph rend="bold">Varom</emph>.
+            <lb n="6"/>cerf ; les deux autres sont en <emph rend="bold">abayom</emph> [<foreign>abhaya-mudrā</foreign>] &amp; <emph rend="bold">Varom</emph> <foreign>varada-mudrā</foreign>.
           </term>
           
           <pb facs="97" n="47r"/>
@@ -438,25 +515,25 @@
           </term> 
           
           <term xml:lang="fr">
-            <lb n="3"/><emph rend="bold">Shiven</emph> ou la divinité destructrice placée sur le sommet de la montagne
-            <lb n="4"/><emph rend="bold">Pajany</emph> est armée d’une lance et d’une mafsue d’or.
+            <lb n="3"/><emph rend="bold">Shiven</emph> [Śiva] ou la divinité destructrice placée sur le sommet de la montagne
+            <lb n="4"/><emph rend="bold">Pajany</emph> [Paḻaṉi] est armée d’une lance et d’une maſsue d’or. [Murukaṉ Temple in Paḻaṉi]
           </term>
           
           <pb facs="99" n="48r"/>
           <term xml:lang="fr">
-            <lb n="3"/><emph rend="bold">Sangaranarayaner</emph> ou réunion de <emph rend="bold">Shiven</emph> &amp; <emph rend="bold">Vichnou</emph>, a quatre bras, deux
-            <lb n="4"/>tiennent le disque et l’instrument nommé <emph rend="bold">Oudouquè</emph>.
+            <lb n="3"/><emph rend="bold">Sangaranarayaner</emph> [Śaṅkara-nārāyaṇa] ou réunion de <emph rend="bold">Shiven</emph> [Śiva] &amp; <emph rend="bold">Vichnou</emph> [Viṣṇu], a quatre bras, deux
+            <lb n="4"/>tiennent le disque et l’instrument nommé <emph rend="bold">Oudouquè</emph> [<foreign>uṭukkai</foreign> = <foreign>ḍamaru</foreign>].
           </term>
           
           <pb facs="101" n="49r"/>
           <term xml:lang="fr">
-            <lb n="3"/><emph rend="bold">Shiven</emph> sous le nom de <emph rend="bold">Pitché andinayagar</emph> demande l’aumône,
+            <lb n="3"/><emph rend="bold">Shiven</emph> [Śiva] sous le nom de <emph rend="bold">Pitché andinayagar</emph> [Bhikṣāṭana] demande l’aumône,
             <lb n="4"/>il tient d’une main une coquille et de l’autre un trident
           </term>
           
           <pb facs="103" n="50r"/>
           <term xml:lang="fr">
-            <lb n="3"/><emph rend="bold">Coundo darane</emph>, son disciple le suit en tenant un crane
+            <lb n="3"/><emph rend="bold">Coundo darane</emph> [Kuṇḍodara], son disciple le suit en tenant un crane
             <lb n="4"/>sur la tête.
           </term>
           
@@ -468,138 +545,138 @@
           
           <pb facs="105" n="51r"/>
           <term xml:lang="fr">
-            <lb n="1"/><emph rend="bold">Shiven</emph> sous le nom de <emph rend="bold">Mounisvarène</emph> adoré par les
+            <lb n="1"/><emph rend="bold">Shiven</emph> [Śiva] sous le nom de <emph rend="bold">Mounisvarène</emph> [Munīśvara] adoré par les
             <lb n="2"/>Hermites et les pèlerins, il est monté sur un tigre.
           </term>
           
           <pb facs="107" n="52r"/>
           <term xml:lang="fr">
-            <lb n="5"/><emph rend="bold">Virapatrin</emph> Dieu adoré des <emph rend="bold">Camalers</emph> il est sorti du troisième
-            <lb n="6"/>œil de <emph rend="bold">Shiven</emph> lorsqu’il se mit en colère contre <emph rend="bold">Tac<unclear>h</unclear>en</emph> son
+            <lb n="5"/><emph rend="bold">Virapatrin</emph> [Vīrabhadra] Dieu adoré des <emph rend="bold">Camalers</emph> [Kammāḷar] il est sorti du troisième
+            <lb n="6"/>œil de <emph rend="bold">Shiven</emph> [Śiva] lorsqu’il se mit en colère contre <emph rend="bold">Tac<unclear>h</unclear>en</emph> [Dakṣa] son
             <lb n="7"/>beau-père, il est couronné de flammes, est armé du trident,
             <lb n="8"/>de la lance et de la massue
           </term>
           
           <pb facs="109" n="53r"/>
           <term xml:lang="fr">
-            <lb n="3"/><emph rend="bold">Shiven</emph> accompagné de son chien demande l’aumone sous
-            <lb n="4"/>la forme de <emph rend="bold">Vaïraven</emph>, il est armé du Trident
+            <lb n="3"/><emph rend="bold">Shiven</emph> [Śiva] accompagné de son chien demande l’aumone sous
+            <lb n="4"/>la forme de <emph rend="bold">Vaïraven</emph> [Bhairava], il est armé du Trident
           </term>
           
           <pb facs="111" n="54r"/>
           <term xml:lang="fr">
-            <lb n="3"/><emph rend="bold">Vichnou</emph> sous la forme de <emph rend="bold">Caroupannin</emph> adoré des bafses
-            <lb n="4"/>castes de sa secte telles que des sounaires, <emph rend="bold">pallers</emph> &amp; <emph rend="bold">pariah<unclear>s</unclear></emph>
+            <lb n="3"/><emph rend="bold">Vichnou</emph>  [Viṣṇu] sous la forme de <emph rend="bold">Caroupannin</emph> [Kaṟuppaṇṇaṉ = Karrupaṉ] adoré des baſses
+            <lb n="4"/>castes de sa secte telles que des sounaires, [Cāṇar] <emph rend="bold">pallers</emph> [Paḷḷar] &amp; <emph rend="bold">pariah<unclear>s</unclear></emph> [Paṟaiyar]
           </term>
           
           <pb facs="113" n="55r"/>
           <term xml:lang="fr">
-            <lb n="4"/><emph rend="bold">Shiven</emph>, sous le nom de <emph rend="bold">Sababady</emph>, monté sur le géant
-            <lb n="5"/><emph rend="bold">Mouyalagane</emph> qu’il a terrassé tient d’une main une flamme
-            <lb n="6"/>et de l’autre l’instrument nommé <emph rend="bold">Oudouqué</emph>.
+            <lb n="4"/><emph rend="bold">Shiven</emph> [Śiva], sous le nom de <emph rend="bold">Sababady</emph> [Naṭarāja], monté sur le géant
+            <lb n="5"/><emph rend="bold">Mouyalagane</emph> [Muyalaka] qu’il a terrassé tient d’une main une flamme
+            <lb n="6"/>et de l’autre l’instrument nommé <emph rend="bold">Oudouqué</emph> [<foreign>uṭukkai</foreign> = <foreign>ḍamaru</foreign>].
           </term>
           
           <pb facs="115" n="56r"/>
           <term xml:lang="fr">
-            <lb n="2"/><emph rend="bold">Sivagamy</emph> sa femme tenant une fleur de nénuphar.
+            <lb n="2"/><emph rend="bold">Sivagamy</emph> [Śivakāmī] sa femme tenant une fleur de nénuphar.
           </term>
           
           <pb facs="117" n="57r"/>
           <term xml:lang="fr">
-            <lb n="4"/><emph rend="bold">Shiven</emph> sous le nom de <emph rend="bold">Tiagarasser</emph> statue de la pagode de <emph rend="bold">Tirnoular</emph>. Il a près
-            <lb n="5"/>de lui sa femme <emph rend="bold">Parpady</emph> sous le nom de <emph rend="bold">Pranambale</emph>, il tient d’une main
-            <lb n="6"/>a figure d’un cerf et de l’autre l’instrument nommé <emph rend="bold">Oudouquè</emph>.
+            <lb n="4"/><emph rend="bold">Shiven</emph> [Śiva] sous le nom de <emph rend="bold">Tiagarasser</emph> [Tyāgarāja] statue de la pagode de <emph rend="bold">Tirnoular</emph> [Tirunaḷḷāṟu = Thirunallar]. Il a près
+            <lb n="5"/>de lui sa femme <emph rend="bold">Parpady</emph> [Pārvatī] sous le nom de <emph rend="bold">Pranambale</emph> [Piṟaṉampāḷ], il tient d’une main
+            <lb n="6"/>la figure d’un cerf et de l’autre l’instrument nommé <emph rend="bold">Oudouquè</emph> [<foreign>uṭukkai</foreign> = <foreign>ḍamaru</foreign>].
           </term>
           
           <pb facs="119" n="58r"/>
           <term xml:lang="fr">
-            <lb n="4"/><emph rend="bold">Parpady</emph> sous le nom de <emph rend="bold">Bogasaty</emph> &amp; femme de <emph rend="bold">Shiven</emph> autre statue de la pagode
-            <lb n="5"/>de <emph rend="bold">Tirnoular</emph>. Près d’elle est une femme qui l’évente
+            <lb n="4"/><emph rend="bold">Parpady</emph> [Pārvatī] sous le nom de <emph rend="bold">Bogasaty</emph> [Bhogaśakti] &amp; femme de <emph rend="bold">Shiven</emph> [Śiva] autre statue de la pagode
+            <lb n="5"/>de <emph rend="bold">Tirnoular</emph> [Tirunaḷḷāṟu = Thirunallar]. Près d’elle est une femme qui l’évente
           </term>
           
           <pb facs="121" n="59r"/>
           <term xml:lang="fr">
-            <lb n="3"/><emph rend="bold">Shiven</emph> sous la forme du <emph rend="bold">Lingam</emph> et sous le nom de <emph rend="bold">Cayarogana</emph>
-            <lb n="4"/><emph rend="bold">Isparène</emph> statue de la pagode de <emph rend="bold">Négapatnam</emph>.
+            <lb n="3"/><emph rend="bold">Shiven</emph> [Śiva] sous la forme du <emph rend="bold">Lingam</emph> [<foreign>liṅga</foreign>] et sous le nom de <emph rend="bold">Cayarogana</emph>
+            <lb n="4"/><emph rend="bold">Isparène</emph> [Kāyārohaṇasvāmi] statue de la pagode de <emph rend="bold">Négapatnam</emph> [Nākappaṭṭiṉam = Nagapattinam].
           </term>
           
           <pb facs="123" n="60r"/>
           <term xml:lang="fr">
-            <lb n="3"/><emph rend="bold">Parpady</emph> sous le nom de <emph rend="bold">Nilayadatchy</emph>, sa femme de
+            <lb n="3"/><emph rend="bold">Parpady</emph> [Pārvatī] sous le nom de <emph rend="bold">Nilayadatchy</emph> [Nilayatākṣī], sa femme de
             <lb n="4"/>la même pagode
           </term>
           
           <pb facs="125" n="61r"/>
           <term xml:lang="fr">
-            <lb n="4"/><emph rend="bold">Shiven</emph> sous la forme du <emph rend="bold">Lingam</emph> et sous le nom de <emph rend="bold">Vaïtilingam</emph>
-            <lb n="5"/>statue de la pagode de <emph rend="bold">Vaïtisparanecovil</emph> province de <emph rend="bold">Tanjaour</emph>
-            <lb n="6"/>célèbre pour chafser les démons.
+            <lb n="4"/><emph rend="bold">Shiven</emph> [Śiva] sous la forme du <emph rend="bold">Lingam</emph> [<foreign>liṅga</foreign>] et sous le nom de <emph rend="bold">Vaïtilingam</emph> [Vayittiliṅkam]
+            <lb n="5"/>statue de la pagode de <emph rend="bold">Vaïtisparanecovil</emph> [Vayittīspparaṉ Kōyil = Vaitheeswaran Kovil] province de <emph rend="bold">Tanjaour</emph> [Tanjore]
+            <lb n="6"/>célèbre pour chaſser les démons.
           </term>
           
           <pb facs="127" n="62r"/>
           <term xml:lang="fr">
-            <lb n="3"/><emph rend="bold">Parpady</emph> sous le nom de <emph rend="bold">Tayelnayaguy</emph>, sa femme statue de
+            <lb n="3"/><emph rend="bold">Parpady</emph> [Pārvatī] sous le nom de <emph rend="bold">Tayelnayaguy</emph> [Tayyālanāyaki], sa femme statue de
             <lb n="4"/>la même pagode tenant la fleur de Nénuphar
           </term>
           
           <pb facs="129" n="63r"/>
           <term xml:lang="fr">
-            <lb n="3"/>Le <emph rend="bold">Lingam</emph> de <emph rend="bold">Tirouvanécovil</emph> appelé <emph rend="bold">Sembouguesparer</emph>, pagode
-            <lb n="4"/>près de <emph rend="bold">Tirouchinapally</emph> gardé par l’Eléphant blanc.
+            <lb n="3"/>Le <emph rend="bold">Lingam</emph> [<foreign>liṅga</foreign>] de <emph rend="bold">Tirouvanécovil</emph> [Tiruvāṉakkōvil = Thiruvanaikaval?] appelé <emph rend="bold">Sembouguesparer</emph> [Jambukeśvara], pagode
+            <lb n="4"/>près de <emph rend="bold">Tirouchinapally</emph> [Tiruchirappalli] gardé par l’Eléphant blanc.
           </term>
           
           <pb facs="131" n="64r"/>
           <term xml:lang="fr">
-            <lb n="3"/><emph rend="bold">Parpady</emph> sous le nom de <emph rend="bold">Aguilandespary</emph> dans la même
-            <lb n="4"/>pagode de <emph rend="bold">Tirouvanécovil</emph>.
+            <lb n="3"/><emph rend="bold">Parpady</emph> [Pārvatī] sous le nom de <emph rend="bold">Aguilandespary</emph> [Akilāṇṭēsppaṟi = Akilāṇṭanāyaki] dans la même
+            <lb n="4"/>pagode de <emph rend="bold">Tirouvanécovil</emph> [Tiruvāṉekkōvil = Thiruvanaikaval?].
           </term>
           
           <pb facs="133" n="65r"/>
           <term xml:lang="fr">
-            <lb n="3"/>Le <emph rend="bold">Lingame</emph> de la pagode de <emph rend="bold">Maduré</emph> appelé <emph rend="bold">Schocolingame</emph>
+            <lb n="3"/>Le <emph rend="bold">Lingame</emph> [<foreign>liṅga</foreign>] de la pagode de <emph rend="bold">Maduré</emph> [Madurai] appelé <emph rend="bold">Schocolingame</emph> [Cokkaliṅgam]
             <lb n="4"/>gardé par quatre éléphants blancs.
           </term>
           
           <pb facs="135" n="66r"/>
           <term xml:lang="fr">
-            <lb n="3"/><emph rend="bold">Parpady</emph> sous le nom de <emph rend="bold">Minachy</emph> dans la même
-            <lb n="4"/>Pagode de <emph rend="bold">Madurè</emph>.
+            <lb n="3"/><emph rend="bold">Parpady</emph> [Pārvatī] sous le nom de <emph rend="bold">Minachy</emph> [Minākṣi] dans la même
+            <lb n="4"/>Pagode de <emph rend="bold">Madurè</emph> [Madurai].
           </term>
           
           <pb facs="137" n="67r"/>
           <term xml:lang="fr">
-            <lb n="4"/>Le <emph rend="bold">Brame Marcandin</emph> menacé par la mort de perdre
-            <lb n="5"/>la vie embrasse le <emph rend="bold">Lingame</emph> d’où sort <emph rend="bold">Shiven</emph> qui le
+            <lb n="4"/>Le <emph rend="bold">Brame Marcandin</emph> [brahmin Mārkaṇḍeya] menacé par la mort de perdre
+            <lb n="5"/>la vie embrasse le <emph rend="bold">Lingame</emph> [<foreign>liṅga</foreign>] d’où sort <emph rend="bold">Shiven</emph> [Śiva] qui le
             <lb n="6"/>défend contre la divinité malfesante.
           </term>
           
           <pb facs="139" n="68r"/>
           <term xml:lang="fr">
-            <lb n="3"/>La mort montée sur un buffle est renversée par <emph rend="bold">Shiven</emph>
+            <lb n="3"/>La mort montée sur un buffle est renversée par <emph rend="bold">Shiven</emph> [Śiva]
           </term>
           
           <pb facs="141" n="69r"/>
           <term xml:lang="fr">
-            <lb n="4"/>Le Chafseur <emph rend="bold">Cannaper</emph> ayant mis un de ses yeux au 
-            <lb n="5"/><emph rend="bold">Lingam</emph> marque avec son pied la place où il doit mettre 
+            <lb n="4"/>Le Chaſseur <emph rend="bold">Cannaper</emph> [Kaṇṇappar] ayant mis un de ses yeux au 
+            <lb n="5"/><emph rend="bold">Lingam</emph> [<foreign>liṅga</foreign>] marque avec son pied la place où il doit mettre 
             <lb n="6"/>le second lorsqu’il l’aura arraché.
           </term>
           
           <pb facs="143" n="70r"/>
           <term xml:lang="fr">
-            <lb n="2"/><emph rend="bold">Parpady</emph> femme de <emph rend="bold">Shiven</emph> tenant la fleur de nénuphar.
+            <lb n="2"/><emph rend="bold">Parpady</emph> [Pārvatī] femme de <emph rend="bold">Shiven</emph> [Śiva] tenant la fleur de nénuphar.
           </term>
           
           <pb facs="145" n="71r"/>
           <term xml:lang="fr">
-            <lb n="3"/><emph rend="bold">Parpardy</emph> tuant d’un coup de trident le géant <emph rend="bold">Maïdassourane</emph>
+            <lb n="3"/><emph rend="bold">Parpardy</emph> [Pārvatī] tuant d’un coup de trident le géant <emph rend="bold">Maïdassourane</emph> [Mahiṣāsura]
             <lb n="4"/>qui avoit pris la forme d’un buffle.
           </term>
           
           <pb facs="147" n="72r"/>
           <term xml:lang="fr">
-            <lb n="3"/>Le Géant <emph rend="bold">Maïdassourane</emph> tenant d’une main le
-            <lb n="4"/>trident et de l’autre une mafsue.
+            <lb n="3"/>Le Géant <emph rend="bold">Maïdassourane</emph> [Mahiṣāsura] tenant d’une main le
+            <lb n="4"/>trident et de l’autre une maſsue.
           </term>
           
           <pb facs="149" n="73r"/>
@@ -610,63 +687,63 @@
           </term> 
           
           <term xml:lang="fr">
-            <lb n="5"/><emph rend="bold">Manemadene</emph> ou Cupidon fils de <emph rend="bold">Vishnou</emph> armé d’un arc formé 
+            <lb n="5"/><emph rend="bold">Manemadene</emph> [Manmatha] ou Cupidon fils de <emph rend="bold">Vishnou</emph> [Viṣṇu] armé d’un arc formé 
             <lb n="6"/>d’une canne à sucre et de fleches de fleurs. il est monté sur un perroquet
           </term>
           
           <pb facs="151" n="74r"/>
           <term xml:lang="fr">
-            <lb n="3"/><emph rend="bold">Rady</emph>, sa femme, armée de même est montée sur un Cygne
+            <lb n="3"/><emph rend="bold">Rady</emph> [Rati], sa femme, armée de même est montée sur un Cygne
           </term>
           
           <pb facs="153" n="75r"/>
           <term xml:lang="fr">
-            <lb n="4"/><emph rend="bold">Poulléar</emph>, fils ainé de <emph rend="bold">Shiven</emph> sous la figure d’un Eléphant est monté sur un rat
-            <lb n="5"/>perchal ; il a quatre bras. Sa femme <emph rend="bold">Vallabi</emph> est afsise sur sa cuifse gauche
+            <lb n="4"/><emph rend="bold">Poulléar</emph> [Piḷḷaiyār], fils ainé de <emph rend="bold">Shiven</emph> [Śiva] sous la figure d’un Eléphant est monté sur un rat
+            <lb n="5"/>perchal ; il a quatre bras. Sa femme <emph rend="bold">Vallabi</emph> [Vallabhī] est aſsise sur sa cuiſse gauche
           </term>
           
           <pb facs="155" n="76r"/>
           <term xml:lang="fr">
-            <lb n="5"/><emph rend="bold">Soupramanier</emph>, second fils de <emph rend="bold">Shiven</emph>, monté sur un paon, il a quatre bras, deux sont
-            <lb n="6"/>armés, ses femmes <emph rend="bold">Valliammé</emph> &amp; <emph rend="bold">Teïvané</emph> sont afsises sur ses cuifses. Le Paon foule
+            <lb n="5"/><emph rend="bold">Soupramanier</emph> [Subrahmaṇya], second fils de <emph rend="bold">Shiven</emph> [Śiva], monté sur un paon, il a quatre bras, deux sont
+            <lb n="6"/>armés, ses femmes <emph rend="bold">Valliammé</emph> [Vaḷḷi] &amp; <emph rend="bold">Teïvané</emph> [Teyvāṉai] sont aſsises sur ses cuiſses. Le Paon foule
             <lb n="7"/>aux pieds la couleuvre capelle.
           </term>
           
           <pb facs="157" n="77r"/>
           <term xml:lang="fr">
-            <lb n="4"/><emph rend="bold">Parpady</emph> sous le nom de <emph rend="bold">Mariammé</emph>, divinité qui préserve
+            <lb n="4"/><emph rend="bold">Parpady</emph> [Pārvatī] sous le nom de <emph rend="bold">Mariammé</emph> [Māriyammaṉ], divinité qui préserve
             <lb n="5"/>de la petite vérole, elle est couronnée de flammes à quatre bras dont
             <lb n="6"/>elle tient le trident, le rotin et l’instrument nommé <emph rend="bold">Oudouquè.</emph>
           </term>
           
           <pb facs="159" n="78r"/>
           <term xml:lang="fr">
-            <lb n="4"/><emph rend="bold">Parpady</emph> sous la figure de <emph rend="bold">Kaly</emph> ayant seize bras armés
+            <lb n="4"/><emph rend="bold">Parpady</emph> [Pārvatī] sous la figure de <emph rend="bold">Kaly</emph> [Kālī] ayant seize bras armés
             <lb n="5"/>pour délivrer le monde des géants qui l’oppriment.
           </term>
           
           <pb facs="161" n="79r"/>
           <term xml:lang="fr">
-            <lb n="4"/><emph rend="bold">Catavarayen</emph> fils de <emph rend="bold">Mariammè</emph>, qui fut condamné à être suspendu par
+            <lb n="4"/><emph rend="bold">Catavarayen</emph> [Kāttavarāyaṉ] fils de <emph rend="bold">Mariammè</emph> [Māriyammaṉ], qui fut condamné à être suspendu par
             <lb n="5"/>les épaules. C’est en l’honneur de son supplice que la fête des accrochés
-            <lb n="6"/>a lieu ; il est armé d’une serpe et d’une mafsue.
+            <lb n="6"/>a lieu ; il est armé d’une serpe et d’une maſsue.
           </term>
           
           <pb facs="163" n="80r"/>
           <term xml:lang="fr">
-            <lb n="3"/><emph rend="bold">Ariamalé</emph> &amp; <emph rend="bold">Nallatanga</emph> ses femmes, statues qui se trouvent
-            <lb n="4"/>dans toutes les pagodes de <emph rend="bold">Mariammè</emph>.
+            <lb n="3"/><emph rend="bold">Ariamalé</emph> [Ariyamalai] &amp; <emph rend="bold">Nallatanga</emph> [Nallataṅkā] ses femmes, statues qui se trouvent
+            <lb n="4"/>dans toutes les pagodes de <emph rend="bold">Mariammè</emph> [Māriyammaṉ].
           </term>
           
           <pb facs="165" n="81r"/>
           <term xml:lang="fr">
-            <lb n="3"/><emph rend="bold">Viren</emph> fils de <emph rend="bold">Mariammé</emph> adoré des bafses castes, ou par
-            <lb n="4"/>les sounaires, les <emph rend="bold">Paller<unclear>s</unclear></emph> &amp; les <emph rend="bold">Pariah<unclear>s</unclear></emph>.
+            <lb n="3"/><emph rend="bold">Viren</emph> [Vīraṉ] fils de <emph rend="bold">Mariammé</emph> [Māriyammaṉ]adoré des baſses castes, ou par
+            <lb n="4"/>les sounaires [Cāṇar], les <emph rend="bold">Paller<unclear>s</unclear></emph> [Paḷḷar] &amp; les <emph rend="bold">Pariah<unclear>s</unclear> [Paṟaiyar]</emph>.
           </term>
           
           <pb facs="167" n="82r"/>
           <term xml:lang="fr">
-            <lb n="3"/><emph rend="bold">Pommiammé</emph> &amp; <emph rend="bold">Valliammé</emph> ses deux femmes
+            <lb n="3"/><emph rend="bold">Pommiammé</emph> [Pommiyammai] &amp; <emph rend="bold">Valliammé</emph> [Vaḷḷiyammai] ses deux femmes
             <lb n="4"/>tenant les fleurs de Nénuphar.
           </term>
           
@@ -676,8 +753,8 @@
           </term> 
           
           <term xml:lang="fr">
-            <lb n="2"/><emph rend="bold">Souria</emph> ou le soleil ayant quatre bras dont deux 
-            <lb n="3"/>sont armés du <emph rend="bold">Schank</emph>.
+            <lb n="2"/><emph rend="bold">Souria</emph> [Sūrya] ou le soleil ayant quatre bras dont deux 
+            <lb n="3"/>sont armés du <emph rend="bold">Schank</emph> [<foreign>śaṅkha</foreign>].
           </term>
           
           <pb facs="171" n="84r"/>
@@ -688,13 +765,13 @@
           
           <pb facs="173" n="85r"/>
           <term xml:lang="fr">
-            <lb n="3"/>Le Dieu <emph rend="bold">Sandirin</emph> ou la Lune, couronné de croifsant ;
-            <lb n="4"/>il a quatre bras dont deux sont armés du <emph rend="bold">Schank</emph>.
+            <lb n="3"/>Le Dieu <emph rend="bold">Sandirin</emph> [Candra] ou la Lune, couronné de croiſsant ;
+            <lb n="4"/>il a quatre bras dont deux sont armés du <emph rend="bold">Schank</emph> [<foreign>śaṅkha</foreign>].
           </term>
           
           <pb facs="175" n="86r"/>
           <term xml:lang="fr">
-            <lb n="2"/><emph rend="bold">Rogany</emph>, sa femme tenant la fleur du Nénuphar.
+            <lb n="2"/><emph rend="bold">Rogany</emph> [Rōkaṇi = Rōhiṇī], sa femme tenant la fleur du Nénuphar.
           </term>
           
           <pb facs="177" n="87r"/>
@@ -706,20 +783,20 @@
           </term> 
           
           <term xml:lang="fr">
-            <lb n="5"/><emph rend="bold">Tevindrène</emph>, divinité inférieure qui garde l’Orient du monde,
+            <lb n="5"/><emph rend="bold">Tevindrène</emph> [Devendra = Indra], divinité inférieure qui garde l’Orient du monde,
             <lb n="6"/>il a quatre bras armés d’épées, d’une lance à crochet ; il est
             <lb n="7"/>monté sur un éléphant blanc.
           </term>
           
           <pb facs="179" n="88r"/>
           <term xml:lang="fr">
-            <lb n="3"/><emph rend="bold">Indrany</emph> sa femme a également quatre bras dont
+            <lb n="3"/><emph rend="bold">Indrany</emph> [Indrāṇī] sa femme a également quatre bras dont
             <lb n="4"/>deux tiennent la fleur du Nénuphar.
           </term>
           
           <pb facs="181" n="89r"/>
           <term xml:lang="fr">
-            <lb n="5"/><emph rend="bold">Aquini</emph> ou divinité du feu chargé de la garde du Sud-Est du monde,
+            <lb n="5"/><emph rend="bold">Aquini</emph> [Agni] ou divinité du feu chargé de la garde du Sud-Est du monde,
             <lb n="6"/>il est couronné de flammes, est monté sur un bélier, a quatre
             <lb n="7"/>bras, tient dans une main un éventail et dans une autre un
             <lb n="8"/>petit vase d’airain.
@@ -727,56 +804,56 @@
           
           <pb facs="183" n="90r"/>
           <term xml:lang="fr">
-            <lb n="3"/><emph rend="bold">Soudadévy</emph> &amp; <emph rend="bold">Sadadévy</emph> ses femmes tiennent la
+            <lb n="3"/><emph rend="bold">Soudadévy</emph> [Cūtatēvi] &amp; <emph rend="bold">Sadadévy</emph> [Cātātēvi] ses femmes tiennent la
             <lb n="4"/>fleur de Nénuphar.
           </term>
           
           <pb facs="185" n="91r"/>
           <term xml:lang="fr">
-            <lb n="4"/><emph rend="bold">Emène</emph> ou la mort, divinité qui préside au sud. Il est
+            <lb n="4"/><emph rend="bold">Emène</emph> [Yama] ou la mort, divinité qui préside au sud. Il est
             <lb n="5"/>monté sur un buffle, est armé d’un baton et tient une
             <lb n="6"/>corde pour lier les âmes.
           </term>
           
           <pb facs="187" n="92r"/>
           <term xml:lang="fr">
-            <lb n="2"/><emph rend="bold">Touroumourta nayany</emph> sa femme tenant la fleur
+            <lb n="2"/><emph rend="bold">Touroumourta nayany</emph> [Tuṟumūrtanayaṉi] sa femme tenant la fleur
             <lb n="3"/>de Nénuphar.
           </term>
           
           <pb facs="189" n="93r"/>
           <term xml:lang="fr">
-            <lb n="3"/><emph rend="bold">Niroudy</emph> préside au sud ouest du monde, il est armé d’une
+            <lb n="3"/><emph rend="bold">Niroudy</emph> [Nirṛti] préside au sud ouest du monde, il est armé d’une
             <lb n="4"/>lance à crochet et monté sur un géant
           </term>
           
           <pb facs="191" n="94r"/>
           <term xml:lang="fr">
-            <lb n="2"/><emph rend="bold">Moudévy</emph> sa femme a quatre bras. Deux tiennent
+            <lb n="2"/><emph rend="bold">Moudévy</emph> [Mūtēvi] sa femme a quatre bras. Deux tiennent
             <lb n="3"/>le Nénuphar.
           </term>
           
           <pb facs="193" n="95r"/>
           <term xml:lang="fr">
-            <lb n="4"/><emph rend="bold">Varounin</emph>, chargé de la garde de l’Ouest du monde, il est monté sur
+            <lb n="4"/><emph rend="bold">Varounin</emph> [Varuṇa], chargé de la garde de l’Ouest du monde, il est monté sur
             <lb n="5"/>un Crocodile, tient d’une main une trompette et de l’autre
             <lb n="6"/>une corde pour retenir les nuées.
           </term>
           
           <pb facs="195" n="96r"/>
           <term xml:lang="fr">
-            <lb n="2"/><emph rend="bold">Piradidévy</emph>, sa femme.
+            <lb n="2"/><emph rend="bold">Piradidévy</emph> [Piṟatitēvi], sa femme.
           </term>
           
           <pb facs="197" n="97r"/>
           <term xml:lang="fr">
-            <lb n="4"/><emph rend="bold">Vaïvou</emph>, Dieu du vent, monté sur un cerf, il préside au Nord-Ouest
+            <lb n="4"/><emph rend="bold">Vaïvou</emph> [Vāyu], Dieu du vent, monté sur un cerf, il préside au Nord-Ouest
             <lb n="5"/>du monde, est armé d’une épée et d’un baton.
           </term>
           
           <pb facs="199" n="98r"/>
           <term xml:lang="fr">
-            <lb n="3"/><emph rend="bold">Anchanadévy</emph>, sa femme tenant la fleur du
+            <lb n="3"/><emph rend="bold">Anchanadévy</emph> [Añcaṉātēvi], sa femme tenant la fleur du
             <lb n="4"/>Nénuphar
           </term>
           
@@ -789,66 +866,66 @@
           
           <pb facs="201" n="99r"/>
           <term xml:lang="fr">
-            <lb n="4"/><emph rend="bold">Couberène</emph>, Trésorier des Dieux préside au nord du monde,
+            <lb n="4"/><emph rend="bold">Couberène</emph> [Kubera], Trésorier des Dieux préside au nord du monde,
             <lb n="5"/>est monté sur un cheval blanc et armé d’une épée.
           </term>
           
           <pb facs="203" n="100r"/>
           <term xml:lang="fr">
-            <lb n="3"/><emph rend="bold">Ambigué</emph> sa femme a quatre bras ; deux tiennent
+            <lb n="3"/><emph rend="bold">Ambigué</emph> [Ampikai = Ambikā] sa femme a quatre bras ; deux tiennent
             <lb n="4"/>la fleur du Nénuphar.
           </term>
           
           <pb facs="205" n="101r"/>
           <term xml:lang="fr">
-            <lb n="4"/><emph rend="bold">Shiven</emph> sous le nom de <emph rend="bold">Issaniène</emph>, garde le nord-est du
+            <lb n="4"/><emph rend="bold">Shiven</emph> [Śiva] sous le nom de <emph rend="bold">Issaniène</emph> [Īśāna], garde le nord-est du
             <lb n="5"/>monde, il est monté sur un taureau blanc et tient à
-            <lb n="6"/>la main l’instrument nommé <emph rend="bold">Oudouquè</emph>.
+            <lb n="6"/>la main l’instrument nommé <emph rend="bold">Oudouquè</emph> [<foreign>uṭukkai</foreign> = <foreign>ḍamaru</foreign>].
           </term>
           
           <pb facs="207" n="102r"/>
           <term xml:lang="fr">
-            <lb n="3"/><emph rend="bold">Dourouqué</emph> sa femme qui tient d’une main un
+            <lb n="3"/><emph rend="bold">Dourouqué</emph> [Tuṟukkē] sa femme qui tient d’une main un
             <lb n="4"/>crâne et de l’autre un os humain.
           </term>
           
           <pb facs="209" n="103r"/>
           <term xml:lang="fr">
-            <lb n="4"/><emph rend="bold">Dropadée</emph> ou <emph rend="bold">Tropadée</emph>, fille de <emph rend="bold">Tropada Magaraja</emph>, femme des cinq frères appelés
-            <lb n="5"/><emph rend="bold">Pantcha pandavale<unclear>s</unclear></emph> tous demi-Dieux et fils du Roi <emph rend="bold">Pandoumagaraja</emph> ou le Lépreux.
-            <lb n="6"/>La fête du feu est célébrée en l’honneur de <emph rend="bold">Dropadée</emph>.
+            <lb n="4"/><emph rend="bold">Dropadée</emph> ou <emph rend="bold">Tropadée</emph> [Draupadī], fille de <emph rend="bold">Tropada Magaraja</emph> [Drupada Mahārāja], femme des cinq frères appelés
+            <lb n="5"/><emph rend="bold">Pantcha pandavale<unclear>s</unclear></emph> [Pañcapāṇḍava] tous demi-Dieux et fils du Roi <emph rend="bold">Pandoumagaraja</emph> [Pāṇḍu Mahārāja] ou le Lépreux.
+            <lb n="6"/>La fête du feu est célébrée en l’honneur de <emph rend="bold">Dropadée</emph> [Draupadī].
           </term>
           
           <pb facs="211" n="104r"/>
           <term xml:lang="fr">
-            <lb n="4"/><emph rend="bold">Darmaraja</emph>, demi-Dieu ainé des Cinq frères <emph rend="bold">Pantcha pandavale<unclear>s</unclear></emph> et l’un
-            <lb n="5"/>des époux de <emph rend="bold">Tropadée</emph>. Il regnoit avec impartialité dans l’age de fer qui
+            <lb n="4"/><emph rend="bold">Darmaraja</emph> [Dharmarāja], demi-Dieu ainé des Cinq frères <emph rend="bold">Pantcha pandavale<unclear>s</unclear></emph> [Pañcapāṇḍava] et l’un
+            <lb n="5"/>des époux de <emph rend="bold">Tropadée</emph> [Draupadī]. Il regnoit avec impartialité dans l’age de fer qui
             <lb n="6"/>est le troisième
           </term>
           
           <pb facs="213" n="105r"/>
           <term xml:lang="fr">
-            <lb n="4"/><emph rend="bold">Vimane</emph> demi-Dieu, le second des frères <emph rend="bold">Pantcha pandavales</emph> remarquable par sa grande force qui
-            <lb n="5"/>surpafsoit celle de <emph rend="bold">vingt mille</emph> Eléphants. Il tient la mafsue et l’arc.
+            <lb n="4"/><emph rend="bold">Vimane</emph> [Bhīma] demi-Dieu, le second des frères <emph rend="bold">Pantcha pandavales</emph> [Pañcapāṇḍava] remarquable par sa grande force qui
+            <lb n="5"/>surpaſsoit celle de <emph rend="bold">vingt mille</emph> Eléphants. Il tient la maſsue et l’arc.
           </term>
           
           <pb facs="215" n="106r"/>
           <term xml:lang="fr">
-            <lb n="4"/><emph rend="bold">Archounane</emph>, demi-Dieu troisième des frères <emph rend="bold"> Pantcha pandavale<unclear>s</unclear></emph>avoit
-            <lb n="5"/>beaucoup d’adrefse pour tirer de l’arc. C’est à cet exercice qu’il gagna
-            <lb n="6"/>la main de <emph rend="bold">Tropadée</emph> fille du Roi <emph rend="bold">Tropada Magaraja</emph>.
+            <lb n="4"/><emph rend="bold">Archounane</emph> [Arjuna], demi-Dieu troisième des frères <emph rend="bold"> Pantcha pandavale<unclear>s</unclear></emph> [Pañcapāṇḍava] avoit
+            <lb n="5"/>beaucoup d’adreſse pour tirer de l’arc. C’est à cet exercice qu’il gagna
+            <lb n="6"/>la main de <emph rend="bold">Tropadée</emph> [Draupadī] fille du Roi <emph rend="bold">Tropada Magaraja</emph> [Drupada Mahārāja].
           </term>
           
           <pb facs="217" n="107r"/>
           <term xml:lang="fr">
-            <lb n="4"/><emph rend="bold">Nagoulane</emph> demi-Dieu le quatrième des frères <emph rend="bold"> Pantcha pandavale<unclear>s</unclear></emph> avoit
+            <lb n="4"/><emph rend="bold">Nagoulane</emph> [Nakula] demi-Dieu le quatrième des frères <emph rend="bold"> Pantcha pandavale<unclear>s</unclear></emph> [Pañcapāṇḍava] avoit
             <lb n="5"/>le talent de dompter les chevaux les plus fougueux. On le représente
             <lb n="6"/>avec un fouet à la main
           </term>
           
           <pb facs="219" n="108r"/>
           <term xml:lang="fr">
-            <lb n="3"/><emph rend="bold">Sagadevane</emph>, demi-Dieu, Cinquième et dernier des frères <emph rend="bold">Pantcha pandavales</emph>
+            <lb n="3"/><emph rend="bold">Sagadevane</emph> [Sahadeva], demi-Dieu, Cinquième et dernier des frères <emph rend="bold">Pantcha pandavales</emph> [Pañcapāṇḍava]
             <lb n="4"/>étoit très versé dans l’étude des lois et de l’astrologie.
           </term>        
           
@@ -881,7 +958,9 @@
         <term xml:lang="fr">
             <lb n="3"/>Batesabibi, femme de Paquirsaheb Concièrge du Gouvernement de Karikal.
           </term>
-      </ab>      
-    </body>
-    
-  </text></TEI>
+      </ab>
+
+		</body>
+
+	</text>
+</TEI>
