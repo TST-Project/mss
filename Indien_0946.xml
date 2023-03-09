@@ -18,7 +18,7 @@
                      <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
                   </repository>
                   <idno type="shelfmark">Indien 946</idno>
-               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc104565s</idno></msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc104565s</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b525190429</idno></msIdentifier>
                <msContents class="#STM">
                   <summary><p>The Tamil version of the <title xml:lang="sa">Rāmāyaṇa</title> by <persName xml:lang="ta" role="author">Kampaṉ</persName> (<term xml:lang="ta">Kāṇṭam</term>s 1-3).</p>
 <p>Description based on the examination of the original manuscript (January 2021).</p>
@@ -63,14 +63,14 @@
                     
                     
                     
-                  <desc synch="#CoverFront" type="commenting-note" subtype="cover front">Sticker written in black pencil (line 1) and black ink (lines 2-5) (<locus facs="0">front cover, recto</locus>):
+                  <desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 946</quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#CoverBack" type="commenting-note" subtype="back cover">Sticker written in black pencil (line 1) and black ink (lines 2-5) (<locus facs="262">back cover, verso</locus>):
 <quote xml:lang="fr" rend="block">
     <lb n="1"/><term xml:lang="fr">28 Mars 1708</term>
   <lb n="2"/><term xml:lang="ta">Irāmāyaṇam 4<hi rend="superscript">vatu</hi></term>
   <lb n="3"/><term xml:lang="fr">RÂMÂYAṆA I<hi rend="superscript">er</hi>, II<hi rend="superscript">e</hi>, III<hi rend="superscript">e</hi> LIVRES</term>
   <lb n="4"/><term xml:lang="fr">FRAGMENTS</term>
   <lb n="5"/><term xml:lang="fr">Juillet ? 1860</term>  
-</quote></desc><desc synch="#CoverBack" type="shelfmark" subtype="back cover">BnF shelfmark sticker: <quote>INDIEN 946</quote> (<locus facs="0">back cover, verso</locus>).</desc><desc synch="#U1" type="intertitle" subtype="marginal left">Left-marginal chapter intertitles.</desc></additions><bindingDesc>
+</quote></desc><desc synch="#U1" type="intertitle" subtype="marginal left">Left-marginal chapter intertitles.</desc></additions><bindingDesc>
                      <binding>
                         <p><material>Wood</material> covers. Probably not original (compare with set of two woodcovers of BnF Indien 947, 949). With a woodstick tied to the string and threaded in one of the holes. Sticker on front cover, recto. 430 x 35 mm.</p>
                      <decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
@@ -104,65 +104,74 @@
       <change when="2021-09">Record created by <persName>Emmanuel FRANCIS</persName>.</change></revisionDesc></teiHeader>
    <facsimile>
       
-   </facsimile>
+   <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525190429/manifest.json"/></facsimile>
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   <ab>
     
-  <pb facs="00" n="6r"/>
+  <pb facs="5" n="6r"/>  
+  <seg function="incipit">
+    <milestone unit="main-text-area"/><lg><l><lb n="1"/>vaṉakamalam · 42 · <note xml:lang="en">end of stanza 74</note></l></lg> <lg><l>vitiyiṉai nakuvaṉa ayil viḻi piṭiyiṉ <note xml:lang="en">beginning of stanza 75</note></l></lg></seg> <gap reason="ellipsis"/>
   
-  <seg function="incipit"><lg><l><lb n="1"/>vaṉakamalam · 42 · <note xml:lang="en">end of stanza 74</note></l></lg> <lg><l>vitiyiṉai nakuvaṉa ayil viḻi piṭiyiṉ <note xml:lang="en">beginning of stanza 75</note></l></lg></seg> <gap reason="ellipsis"/>
-  
-  <pb facs="00" n="7r"/>
-  <seg function="intertitle"><milestone unit="left-margin"/>
+  <pb facs="7" n="7r"/>
+  <seg function="header">
+    <seg function="intertitle"><milestone unit="left-margin"/>
   <lb n="1-2"/>nakarapaṭalam</seg>
+   </seg>
     
   <milestone unit="main-text-area"/>
   <lb n="1"/>cevviya maturañ cērnta <note xml:lang="en">end of stanza 93</note> <gap reason="ellipsis"/>
  
-   <pb facs="00" n="29v"/>
-  <seg function="intertitle"><milestone unit="left-margin"/>
+   <pb facs="50" n="29v"/>
+  <seg function="header">
+    <seg function="intertitle"><milestone unit="left-margin"/>
   <lb n="1-2"/>yākappaṭālam</seg>
+    </seg>
   
-  <pb facs="00" n="32v"/>
-    
+  <pb facs="54" n="32v"/>
+    <seg function="header">
   <seg function="intertitle"><milestone unit="left-margin"/>
   <lb n="1-2"/>tuṟuvāka-p-paṭalam</seg>
+      </seg>
+    
     <milestone unit="main-text-area"/>
   <lb n="3"/><gap reason="ellipsis"/> · 53 · <seg function="completion-statement">Iyākappaṭalamuṟṟum – ||</seg> Alam <gap reason="ellipsis"/>
   
-  <pb facs="00" n="148r"/>
-  <seg function="intertitle"><milestone unit="left-margin"/>
-  <lb n="1-2"/>kiḷaikaṇṭunīṅkupaṭalam</seg>
+  <pb facs="219" n="148r"/>
+  <seg function="header"><seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="2-5"/>kiḷaikaṇṭunīṅkupaṭalam</seg>
+    </seg>
      
-  <pb facs="00" n="155r"/>
+  <pb facs="233" n="155r"/>
+    <milestone unit="main-text-area"/>
      <lg><l><lb n="5"/>teṉ ticai neṟiyiṉir cēṟal mēyiṉar  · <num rend="traditional">141</num> <note xml:lang="en">end of stanza 2604</note><g ref="#pcs"/> <g ref="#pcs"/></l></lg>
      <seg function="completion-statement"><lb n="6"/>kiḷaikaṇṭunīṅkupaṭalamuṟṟum || |<g ref="#pcs"/>|</seg> <seg function="colophon"><seg function="copy-statement">caṟuvacitti <g ref="#varuṣam">varuṣam</g> paṅkuṉi <g ref="#mācam">mācam</g> <num rend="traditional">20</num> <g ref="#tēti">tēti</g> puṟuvapaṭcam Aṣṭṭami viyāḻakkiḻamai ṉāḷ <persName>kumarappaṉ</persName> Eḻutiṉa tiru-v<pc>-</pc>ayōtti<supplied reason="omitted">ya</supplied>-kāṇṭamuṟ<g rend="below-base">ṟuM</g></seg></seg>
   
-  <pb facs="00" n="155v"/>
+  <pb facs="234" n="155v"/>
   <seg function="header"><milestone unit="left-margin"/>
   <seg function="intertitle"><lb n="1-2"/>Āraṇiyā-kāṇṭam</seg>
   <seg function="intertitle"><lb n="3-4"/><supplied reason="lost">vi</supplied>rātavatai-<supplied reason="lost">p</supplied>-paṭalam</seg>
     </seg>
 
-<pb facs="00" n="162r"/>
- <seg function="intertitle"><milestone unit="left-margin"/>
+<pb facs="247" n="162r"/>
+ <seg function="header"><seg function="intertitle"><milestone unit="left-margin"/>
   <lb n="1-2"/>Akattiya-p-paṭalam</seg>
+   </seg>
   
     </ab>
   </body></text><text synch="#U3" corresp="#T2" xml:lang="ta"><body>
     <ab>
 
-  <pb facs="00" n="[1]r"/>
-  <pb facs="00" n="[1]v"/>
+  <pb facs="253" n="[1]r"/>
+  <pb facs="254" n="[1]v"/>
   
-    <pb facs="00" n="[2]r"/>
-  <pb facs="00" n="[2]v"/>
+    <pb facs="255" n="[2]r"/>
+  <pb facs="256" n="[2]v"/>
   
-    <pb facs="00" n="[3]r"/>
-  <pb facs="00" n="[3]v"/>
+    <pb facs="257" n="[3]r"/>
+  <pb facs="258" n="[3]v"/>
   
-    <pb facs="00" n="[4]r"/>
-  <pb facs="00" n="[4]v"/>
+    <pb facs="259" n="[4]r"/>
+  <pb facs="260" n="[4]v"/>
   
       </ab>
 </body></text></TEI>
