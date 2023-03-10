@@ -9,7 +9,7 @@
          
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2022</date>
+            <date>2023</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -19,7 +19,7 @@
                   </repository>
                   
                   <idno type="shelfmark">Indien 944</idno>
-               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1045637</idno></msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1045637</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b52519043r</idno></msIdentifier>
                <msContents class="#MTM">
                   <summary><p>A seemingly multi-text manuscript (rather than a composite manuscript) containing:
 <list rend="numbered">
@@ -55,7 +55,7 @@
                      </layoutDesc>
                   </objectDesc><handDesc>
                      
-                  <handNote synch="#U1a #U1b #U2 #U3 #U4 #U5" scope="major" script="tamil" medium="incised soot"><desc>U1, f18; U3; U5 unblackened.</desc></handNote></handDesc><decoDesc><decoNote synch="#U1a" type="diagram"><desc>Several diagrams (<locus facs="0">f[1]r</locus>).</desc></decoNote></decoDesc><additions>
+                  <handNote synch="#U1a #U1b #U2 #U3 #U4 #U5" scope="major" script="tamil" medium="incised soot"><desc>U1, f18; U3; U5 unblackened.</desc></handNote></handDesc><decoDesc><decoNote synch="#U1a" type="diagram"><desc>Several diagrams (<locus facs="3">f[1]r</locus>).</desc></decoNote></decoDesc><additions>
                     
                     
                     
@@ -71,7 +71,7 @@
                     
                     
                     
-                  <desc synch="#CoverBack" type="shelfmark" subtype="back cover">BnF shelfmark sticker: <quote>INDIEN 944</quote> (<locus facs="0">back cover, verso</locus>).</desc><desc synch="#CoverBack" type="shelfmark" subtype="back cover">Sticker inscribed in black ink (<locus facs="0">back cover, verso</locus>).: 
+                  <desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 944</quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#CoverFront" type="shelfmark" subtype="cover front">Sticker inscribed in black ink (<locus facs="1">front cover, recto</locus>): 
 <quote rend="block">
   <lb n="1"/><term xml:lang="ta">ñāṉaveṭṭiyāṉ katai</term>
 <lb n="2"/>DJÑÂNAVEṬṬIYÂN' KADÆ
@@ -84,10 +84,10 @@
                   
                   
                <origin>
-                     <origDate calendar="gregorian" notAfter="1860">No internal date. Not after 1860. See date on sticker inscribed in black ink on <locus facs="0">back cover, verso</locus>.
+                     <origDate calendar="gregorian" notAfter="1860">No internal date. Not after 1860. See date on sticker inscribed in black ink on <locus facs="1">front cover, recto</locus>.
 </origDate>
                      
-                  <origPlace>Tamilnadu.</origPlace></origin><provenance><p>Owned / Borrowed by <persName xml:lang="fr" role="collector" key="Vinson, Julien">Julien Vinson</persName> (1843-1926). See handwritten addition, <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f171">f2v, no. 944</ref> to Cabaton (1912).</p></provenance><acquisition>
+                  <origPlace>South India, Tamil Nadu.</origPlace></origin><provenance><p>Owned / Borrowed by <persName xml:lang="fr" role="collector" key="Vinson, Julien">Julien Vinson</persName> (1843-1926). See handwritten addition, <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f171">f2v, no. 944</ref> to Cabaton (1912).</p></provenance><acquisition>
                     <p>Acquired, June 20th, 1930, from Paul Vinson. See BnF, département des Manuscrits, inventaire 3 = <title>Acquisitions: manuscrits et imprimés documentaires, 1894-1950</title>, no. 13591.</p>
                   </acquisition></history>
                <additional>
@@ -104,19 +104,18 @@
    <encodingDesc><p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.            </p></encodingDesc><revisionDesc>
          
          
-      <change when="2022-03">Record created by Emmanuel FRANCIS.</change></revisionDesc></teiHeader>
+      <change when="2022-03">Record created by <persName>Emmanuel FRANCIS</persName>.</change></revisionDesc></teiHeader>
    <facsimile>
       
-   </facsimile>
+   <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b52519043r/manifest.json"/></facsimile>
 <text synch="#U1a" corresp="#T1" xml:lang="ta"><body>
   <ab>
     
-  <pb facs="0" n="[1]r"/>
+  <pb facs="3" n="[1]r"/> 
   
-  <milestone unit="column"/>
-  <seg function="header">
-    <lb n="1"/><gap reason="lost"/>
-<seg function="blessing"><lb n="2"/><unclear>naṉṟāka</unclear></seg> <seg function="blessing">ku
+  <seg function="header"><seg function="blessing"><milestone unit="left-margin"/>
+    <lb n="1"/><term xml:lang="sa"><supplied reason="lost">hari</supplied> <unclear>Om</unclear></term>
+<lb n="2"/><unclear>naṉṟāka</unclear></seg> <seg function="blessing">ku
 <lb n="3" break="no"/>ru vāḻka</seg>
 <seg function="blessing"><lb n="4-5"/>kuruvē tuṇai <g ref="#pcl"/></seg>
 <seg function="title"><lb n="6-7"/>ñāṉaveṭṭiyāṉ katai</seg></seg>
@@ -125,7 +124,7 @@
   <milestone n="2" unit="column"/><note xml:lang="en">diagram</note>
   <milestone n="3" unit="column"/><note xml:lang="en">diagram</note>
   
-    <pb facs="0" n="[1]v"/>
+    <pb facs="4" n="[1]v"/>
   
   <seg function="user-related-note"><milestone n="1" unit="column"/>
   <lb n="1"/>cu
@@ -146,9 +145,9 @@
 </body></text><text synch="#U1b" corresp="#T2" xml:lang="ta"><body>
     <ab>
 
-  <pb facs="0" n="[1]r"/>
+  <pb facs="5" n="[1]r"/>
   <seg function="header">
-  <milestone unit="column"/>
+  <milestone unit="left-margin"/>
   <seg function="blessing"><lb n="1"/><term xml:lang="sa">hari Om</term></seg>
   <seg function="blessing"><lb n="2"/><unclear>naṉṟāka</unclear></seg> 
   <seg function="blessing"><lb n="3"/>kuru vā
@@ -160,58 +159,63 @@
   <seg function="incipit"><milestone unit="main-text-area"/>
   <lb n="1"/>yiruḷ <gap reason="ellipsis"/></seg>
   
-  <pb facs="0" n="15r"/>
-  
-  <seg function="intertitle"><milestone unit="column"/>
+  <pb facs="33" n="15r"/>
+  <seg function="header">
+  <seg function="intertitle"><milestone unit="left-margin"/>
   <lb n="1-2"/>vīṭṭu ciṟappu</seg>
+      </seg>
   
-    <pb facs="0" n="126v"/>
+    <pb facs="256" n="126v"/>
+      <milestone unit="main-text-area"/>
       <seg function="explicit"><lb n="11"/><gap reason="ellipsis"/>yāṉ eṉa <g ref="#pcl"/> <num rend="traditional">330</num> <g ref="#pcl"/></seg> <seg function="blessing">kuru-pātan tuṇai <g ref="#pcl"/></seg> <space/> <gap reason="illegible"><note xml:lang="en">original text illegible due to unblackened overscript correction</note></gap> <seg function="title"><subst><del>ña</del><add place="below">ñā</add></subst>ṉaveṭṭiyāṉ 
- <lb n="12"/>katai <g ref="#pcl"/></seg>  
+ <lb n="12"/>katai <g ref="#pcl"/> <note xml:lang="en">aligned to the right</note></seg>  
 
       </ab>
 </body></text><text synch="#U2" corresp="#T3" xml:lang="ta"><body>
     <ab>
 
-   <pb facs="0" n="1r"/>
+   <pb facs="259" n="1r"/>
   
-  <seg function="title"><milestone unit="left-margin"/>
+  <seg function="header"><seg function="title"><milestone unit="left-margin"/>
   <lb n="1-4"/>Āyirat=tukku mēl vayattiyam <g ref="#pcs"/></seg>
+    </seg>
   
   <seg function="incipit"><milestone unit="main-text-area"/>
     <lb n="1"/><gap reason="ellipsis"/> ~ vayittiyam pātukiṟēṉ āṇṭē vayittiyam pātukiṟēṉ <g ref="#pcl"/></seg>
   <lb n="2ff."/><gap reason="ellipsis"/>
 
-     <pb facs="0" n="3v"/>
-
+     <pb facs="264" n="3v"/>
+      <milestone unit="main-text-area"/>
       <seg function="explicit"><lb n="10"/><gap reason="ellipsis"/> <g ref="#pcs"/> kāyam <g ref="#pcs"/> <num rend="traditional">14</num> <g ref="#pcs"/></seg>
  
       </ab>
   </body></text><text synch="#U3" corresp="#T4" xml:lang="ta"><body>
     <ab>
 
-  <pb facs="0" n="[1]r"/>
-  <seg function="incipit"><lb n="1"/>Ālam carīram <gap reason="ellipsis"/></seg>
+  <pb facs="267" n="[1]r"/>
+  <seg function="incipit">
+    <milestone unit="main-text-area"/><lb n="1"/>Ālam carīram <gap reason="ellipsis"/></seg>
   <lb n="2-8"/><gap reason="ellipsis"/>
   <seg function="explicit"><lb n="9"/><gap reason="ellipsis"/> pōṟṟi Uṟaṅki Uṟaṅkar tiru <g ref="#pcs"/></seg>
   
-  <pb facs="0" n="[1]v"/><note xml:lang="en">blank</note>
+  <pb facs="268" n="[1]v"/><note xml:lang="en">blank</note>
   
       </ab>
 </body></text><text synch="#U4" corresp="#T5" xml:lang="ta"><body>
     <ab>
 
-  <pb facs="0" n="[1]r"/>
+  <pb facs="271" n="[1]r"/>
   
   <seg function="header">
-    <seg function="blessing"><milestone unit="column"/>
+    <seg function="blessing"><milestone unit="left-margin"/>
   <lb n="1"/><term xml:lang="sa">hari Om</term></seg>
 <seg function="title"><lb n="2-7"/>caṅkarācariyār aruḷic ceyta patipacupācaviḷakkam</seg></seg>
 
   <seg function="incipit"><milestone unit="main-text-area"/>
   <lb n="1"/>mikka viṉāyaka <gap reason="ellipsis"/></seg>
   
-    <pb facs="0" n="23v"/>
+    <pb facs="316" n="23v"/>
+      <milestone unit="main-text-area"/>
       <seg function="explicit"><lb n="8"/><gap reason="ellipsis"/> <g ref="#pcl"/> <num rend="traditional">104</num> <g ref="#pcl"/></seg> <seg function="colophon"><seg function="completion-statement">patipacupācaviḷakkamuṟṟum <g ref="#pcl"/></seg> <seg function="ownership-statement">vaṭamaṟṟakāṭṭi
  <lb n="9"/>viruk=ku  <persName xml:lang="ta" role="owner" cert="low">rāmaliṅkapiḷḷai makaṉ nākappaṉ</persName> cupatipāviḷakka<seg rend="grantha">m</seg></seg> <seg function="blessing"><term xml:lang="sa">hari Om</term> <g ref="#pcl"/></seg></seg>
 
@@ -219,9 +223,9 @@
 </body></text><text synch="#U5" corresp="#T6" xml:lang="ta"><body>
     <ab>
 
-  <pb facs="0" n="[1]r"/>
+  <pb facs="319" n="[1]r"/>
   <seg function="header">
-  <seg function="blessing"><milestone unit="column"/>
+  <seg function="blessing"><milestone unit="left-margin"/>
   <lb n="1"/><term xml:lang="sa">hari Om</term></seg>
 <seg function="title"><lb n="2-7"/>Akaṣt=tiyar aruḷic ce<sic>yi</sic>ta pūṟṇacuṣt=tirañāṉam <g ref="#pcs"/></seg>
     </seg>
@@ -229,12 +233,14 @@
   <seg function="incipit"><milestone unit="main-text-area"/>
   <lb n="1"/><gap reason="ellipsis"/></seg>
   
-    <pb facs="0" n="17r"/>
+    <pb facs="351" n="17r"/>
+      <milestone unit="main-text-area"/>
   <seg function="explicit"><lb n="9"/><gap reason="ellipsis"/> <g ref="#pcl"/> 47 <g ref="#pcl"/> yiṉṉam
 <lb n="10"/><note xml:lang="en">right-oriented</note>Uṉṟu</seg>
 
-  <pb facs="0" n="17v"/>
-      <seg function="user-related-note"><note xml:lang="en">addition, by another hand</note>
+  <pb facs="352" n="17v"/>
+      <seg function="user-related-note">
+        <milestone unit="main-text-area"/><note xml:lang="en">addition, by another hand</note>
   <lb n="1"/>A Ai U E O
 <lb n="2"/>vallūṟu
 <lb n="3"/>Āṅkīta

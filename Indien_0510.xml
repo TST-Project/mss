@@ -19,12 +19,12 @@
                   </repository>
                   <idno type="shelfmark">Indien 510</idno>
                   <idno type="alternate"><idno>Tamoul 510</idno></idno>
-               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc104037k</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b525174100</idno></msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc104037k</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b525174100</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/dz010z81g</idno></msIdentifier>
                <msContents class="#STM">
                   <summary><p>The <title xml:lang="ta">Pañcatantirak Katai</title>.</p>
 
-<p>Description based on the digital images available on Gallica.</p>
-<p>Dimensions after Cabaton (1912).</p>      </summary>
+<p>Description based on the examination of the original manuscript (March 2023).</p>
+<p>Dimensions assessed at the time of examination.</p>      </summary>
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Pañcatantirak Katai: <term xml:lang="en">Invocation</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta">Pañcatantirak Katai: Mūlam</title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
@@ -44,28 +44,28 @@
                            <dimensions type="leaf" unit="mm">
                               
                               
-                           </dimensions>
-                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
+                           <width quantity="415"/><height quantity="30"/></dimensions>
+                        <dimensions type="object" unit="mm"><width quantity="415"/><height quantity="30"/><depth quantity="40"/></dimensions><dimensions type="written" unit="mm"/></extent>
                         
                         
                         
-                     <collation><desc xml:id="U1">1 folio = <emph rend="bold"><title xml:lang="ta">Pañcatantirak Katai</title>: Invocation</emph>. No foliation.</desc><desc xml:id="U2">76 folios = <emph rend="bold"><title xml:lang="ta">Pañcatantirak Katai</title>: Text</emph>. Original Tamil foliation {1}, 2-76.</desc></collation><condition>Good state of preservation.</condition></supportDesc>
+                     <collation><desc xml:id="U1">1 folio = <emph rend="bold"><title xml:lang="ta">Pañcatantirak Katai</title>: Invocation</emph>. No foliation. Recto darker = original outside page. Verso blank. 415 x 30 mm.</desc><desc xml:id="U2">76 folios = <emph rend="bold"><title xml:lang="ta">Pañcatantirak Katai</title>: Text</emph>. Original Tamil foliation {1}, 2-76. f26v darker = original outside page.</desc></collation><condition>Good state of preservation. Few borehole. <locus facs="174">f76</locus> fragmentary (2 fragment, right portion missing). Right edges damaged (slight truncation).</condition></supportDesc>
                      <layoutDesc>
                         
-                     </layoutDesc>
-                  </objectDesc><handDesc><handNote synch="#U1" scope="sole" script="tamil" medium="incised soot"/><handNote synch="#U2" scope="sole" script="tamil" medium="incised"/></handDesc><decoDesc>
+                     <layout writtenLines="5 6"/></layoutDesc>
+                  </objectDesc><handDesc><handNote synch="#U1" scope="sole" script="tamil" medium="incised soot"/><handNote synch="#U2" scope="sole" script="tamil" medium="incised"><desc>Unblackened or soot faded.</desc></handNote></handDesc><decoDesc>
                   </decoDesc><additions>
                   <desc synch="#U2" type="shelfmark">BnF current shelfmark sticker: <quote>INDIEN 510</quote> (<locus facs="152">f75v</locus>).</desc></additions><bindingDesc>
-                     <binding><decoNote type="stringhole"><measure unit="stringhole" quantity="1"/></decoNote><p>No wood covers.</p></binding>
+                     <binding><decoNote type="stringhole"><measure unit="stringhole" quantity="1"/></decoNote><p>No wood covers. Stop device (ivory (?) button) at one end of the string.</p></binding>
                   </bindingDesc></physDesc>
                <history>
                   
                   
                   
                <origin>
-                     <origDate calendar="gregorian" notAfter="1866">No internal date. </origDate>
+                     <origDate calendar="gregorian" notAfter="1912">No internal date. </origDate>
                      
-                  <origPlace>South India, Tamilnadu.</origPlace></origin><acquisition><p>Unknown.</p></acquisition></history>
+                  <origPlace>South India, Tamil Nadu.</origPlace></origin><provenance><p>Unknown.</p></provenance><acquisition><p>Unknown.</p></acquisition></history>
                <additional>
                   <listBibl>
                      
@@ -80,7 +80,7 @@
       
    <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
-      <change when="2023-02">Record created by <persName>Emmanuel FRANCIS</persName>.</change></revisionDesc></teiHeader>
+      <change when="2023-02">Record created by <persName>Emmanuel FRANCIS</persName>.</change><change when="2023-03">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, March 2023.</change></revisionDesc></teiHeader>
    <facsimile>
    <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525174100/manifest.json"/></facsimile>
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body> 
@@ -96,12 +96,11 @@
     <lb n="5" break="no"/>pētakkatai</seg>
          </seg>
        
-       <milestone unit="main-text-area"/>
+       <seg function="TBC"><milestone unit="main-text-area"/>
        <lb n="1"/>niṉaittatu <gap reason="ellipsis"/>    
-       <lb n="2"/>katai <gap reason="ellipsis"/> niṟutti vāḻttuvār <g ref="#pcl"/>
+       <lb n="2"/>katai <gap reason="ellipsis"/> niṟutti vāḻttuvār <g ref="#pcl"/></seg>
    
            <pb facs="2" n="[1]v"/><note xml:lang="en">blank</note>
-
        
        </ab>
 </body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body> 
@@ -114,37 +113,82 @@
          </seg>
        
        <seg function="incipit"><milestone unit="main-text-area"/>
-       <lb n="1"/>tiruvaḷar kamala vāvit tikaḻpuli yūriṟ cempoṉ <gap reason="ellipsis"/></seg>
-   
+       <lb n="1"/>tiruvaḷar kamala vāvit tikaḻpuli yūriṟ cempoṉ <gap reason="ellipsis"/>
+       <lb n="2"/><gap reason="ellipsis"/> ~ 1 ~</seg> <gap reason="ellipsis"/>
+       <lb n="3"/><gap reason="ellipsis"/>
+       <lb n="4"/>2 ~ <gap reason="ellipsis"/>
+       <lb n="5"/><gap reason="ellipsis"/> ~ 3 ~ <gap reason="ellipsis"/>
+       <lb n="6"/><gap reason="ellipsis"/>
        
        <pb facs="16" n="7v"/>
        <seg function="header"><seg function="prosody"><milestone unit="left-margin"/>
          <lb n="1"/>vēṟu</seg>
          </seg>
        
+        <pb facs="42" n="20v"/>
+       <milestone unit="main-text-area"/>
+       <lb n="4"/><gap reason="ellipsis"/> ~ <num rend="traditional">167</num> ~  <note xml:lang="en">gap: 3 stanzas missing; f21r starts with stanza 171</note>
+
+       
        <pb facs="58" n="28v"/>
+       <milestone unit="main-text-area"/>
+       <lb n="1-2"/><gap reason="ellipsis"/>
+       <lb n="3"/>viḷampiṉāṉē <g ref="#end_of_text"/> <seg function="completion-statement">muṟṟu = <seg function="verse-numbering"><num rend="traditional">209</num> ~</seg></seg>
+                                                                                
        
        <pb facs="59" n="29r"/>
        <seg function="header"><seg function="intertitle"><milestone unit="left-margin"/>
-         <lb n="1-3"/>reṇṭāvatu cukkiṟalāpak=katai</seg>
+         <lb n="1-3"/>reṇṭāvatu cukkiṟalāpa-k=katai</seg>
          </seg>
+       
+       <milestone unit="main-text-area"/>
+       <lb n="1"/><gap reason="ellipsis"/> 
+       <lb n="2"/><gap reason="ellipsis"/> ~ 1 ~ <gap reason="ellipsis"/>
+       
+       <pb facs="78" n="38v"/>
+       <milestone unit="main-text-area"/>
+       <lb n="1-3"/><gap reason="ellipsis"/>
+       <lb n="4"/><gap reason="ellipsis"/> vaiyattārkaḷē ~ <seg function="verse-numbering"><num rend="traditional">87</num> ~</seg>
+       <seg function="completion-statement"><lb n="5"/>cukkiṟalāpa-k=katai muṟṟum <seg function="total-stanzas">Ākak= katai reṇṭuk=ku virut=tam <num rend="traditional">296</num> <g ref="#end_of_text"/></seg></seg>
        
         <pb facs="79" n="39r"/>
        <seg function="header"><seg function="intertitle"><milestone unit="left-margin"/>
-         <lb n="1-4"/>mūṉṟāvatu <gap reason="ellipsis"/>k katai</seg>
+         <lb n="1-4"/>mūṉṟāvatu cantivikkiṟeka-katai</seg>
          </seg>
 
+       <milestone unit="main-text-area"/>
+       <lb n="1"/><gap reason="ellipsis"/> 
+       <lb n="2"/><gap reason="ellipsis"/> ~ 1 ~ <gap reason="ellipsis"/>
+  
+       
+       <pb facs="118" n="58v"/>
+       <milestone unit="main-text-area"/>
+       <lb n="5"/><gap reason="ellipsis"/> <g ref="#pcs"/> <seg function="verse-numbering"><num rend="traditional">141</num> <g ref="#pcs"/></seg> <seg function="completion-statement"><seg function="total-stanzas">{Āka} katai 3k=ku virut=tam <num rend="traditional">437</num> <g ref="#end_of_text"/></seg></seg>
+       
        <pb facs="119" n="59r"/>
        <seg function="header"><seg function="intertitle"><milestone unit="left-margin"/>
-         <lb n="1-3"/><gap reason="ellipsis"/>k=katai</seg>
+         <lb n="1-3"/>mūṉṟāva<supplied reason="omitted">tu</supplied><note xml:lang="en" place="foot">this should be <foreign xml:lang="ta">nālāvatu</foreign> or <foreign xml:lang="ta">nāṉkāvatu</foreign></note> milat=taṉacak=katai</seg>
          </seg>
+       
+       <milestone unit="main-text-area"/>
+       <lb n="1"/><gap reason="ellipsis"/> 
+       <lb n="2"/><gap reason="ellipsis"/> ~ 1 ~ <gap reason="ellipsis"/>
+       
+       
+       <pb facs="132" n="65v"/>
+       <milestone unit="main-text-area"/>
+       <lb n="4"/><gap reason="ellipsis"/> ~ <seg function="verse-numbering"><num rend="traditional">42</num> <space/></seg>
+       <seg function="completion-statement"><lb n="5"/>milaṟṟaṉācak katai muṟṟum <g ref="#end_of_text"/> <seg function="total-stanzas">{Āka} katai 4k=ku virut=ta<seg rend="grantha">m</seg> <num rend="traditional">479</num></seg></seg>
        
        <pb facs="133" n="66r"/>
        <seg function="header"><seg function="intertitle"><milestone unit="left-margin"/>
          <lb n="1-4"/><del><gap reason="illegible"/></del> Añcāvatu campiraṭcak=katai</seg>
          </seg>
-
        
+       <milestone unit="main-text-area"/>
+       <lb n="1"/><gap reason="ellipsis"/> 
+       <lb n="2"/><gap reason="ellipsis"/> ~ 1 ~ <gap reason="ellipsis"/>
+              
        <pb facs="152" n="75v"/>
        
        <pb facs="153" n="76r"/>
