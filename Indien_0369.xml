@@ -24,7 +24,7 @@
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1038967</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b525161935</idno></msIdentifier>
                
                <msContents class="#CM">
-                  <summary><p>A composite manuscript containing:
+                  <summary><p>A composite manuscript containing three narratives about Tamil Śaiva poets:
 <list>
   <item>The <title xml:lang="ta">Cuntarar Vēṭupaṟi</title> (Indien 369a).</item>
   <item>The <title xml:lang="ta">Campantar Piḷḷaittamiḻ</title> (Indien 369b).</item>
@@ -51,9 +51,7 @@
                   
                <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
-                        <support>
-                           
-                        </support>
+                        
                         <extent>
                            <measure unit="folio" quantity="76">{1} + 19 + 36 + 19 + {1} (U1 + Indien 369a + Indien 369b + Indien 369c + U2).</measure>
                            <dimensions type="leaf" unit="mm">
@@ -63,7 +61,9 @@
                            <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
                         
                         
-                     <collation>
+                     <support>
+                           
+                        </support><collation>
                            
                         <desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">Collection: Title Page (additional)</emph>. No foliation. Verso blank. Hand #1.</desc><desc xml:id="Indien369a">19 folios.</desc><desc xml:id="Indien369b">36 folios.</desc><desc xml:id="Indien369c">19 folios.</desc><desc xml:id="U2">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Fairly good state of preservation, despite boreholes.</condition></supportDesc>
                      <layoutDesc>
@@ -121,7 +121,7 @@
       
    <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
-         <change when="2023-02">Record created by <persName>Emmanuel FRANCIS</persName>.</change></revisionDesc></teiHeader>
+         <change when="2023-02">Record created by <persName>Emmanuel FRANCIS</persName>.</change><change when="2023-03">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, March 2023.</change></revisionDesc></teiHeader>
    
    <facsimile>
       <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525161935/manifest.json"/>

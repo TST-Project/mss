@@ -44,9 +44,7 @@
                   
                <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
-                        <support>
-                           
-                        </support>
+                        
                         <extent>
                            <measure unit="folio" quantity="19">1 + 18 (U1 + U2).</measure>
                            <dimensions type="leaf" unit="mm">
@@ -56,7 +54,9 @@
                            <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
                         
                         
-                     <collation>
+                     <support>
+                           
+                        </support><collation>
                            
                         <desc xml:id="U1">1 folio = <emph rend="bold"><title xml:lang="ta">Cuntarar Vēṭupaṟi</title>: Invocation</emph> (<foreign xml:lang="ta">kāppu</foreign>). Tamil foliation 1. Verso blank.</desc><desc xml:id="U2">18 folios = <emph rend="bold"><title xml:lang="ta">Cuntarar Vēṭupaṟi</title>: Text</emph>. Tamil foliation {1}, 2-19. </desc></collation><condition>Fairly good state of preservation, despite boreholes.</condition></supportDesc>
                      <layoutDesc>
@@ -84,7 +84,8 @@
                   
                   
                <origin>
-                     <origDate calendar="gregorian" notAfter="1854">Not dated by Vinson in Vinson et al. (1866-) nor by Cabaton (1912). Not after 1854, since part of the collection of <persName role="collector">Édouard Ariel</persName> (1818-1854), bequeathed in 1855 to the Société Asiatique, Paris (Rosny 1868).
+                     <origDate calendar="gregorian" notAfter="1826">Not dated by Vinson in Vinson et al. (1866-) nor by Cabaton (1912). Not after 1854, since part of the collection of <persName role="collector">Édouard Ariel</persName> (1818-1854), bequeathed in 1855 to the Société Asiatique, Paris (Rosny 1868). Not after 1826 as Indien 369b (second component of the compositie manuscript) is internally dated to the year <foreign xml:lang="ta">pāṟtipa</foreign> (that is, <foreign xml:lang="ta">pārttipa</foreign>) of the Jovian cycle, that is, CE 1825-1826, 1765-1766, 1705-1706, etc. See colophon (Indien 369b, U2, <locus facs="112">f34v4</locus>). 
+
 
 </origDate>
                      <origPlace>South India, Tamil Nadu.</origPlace>
@@ -115,7 +116,7 @@
       
    <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
-         <change when="2023-02">Record created by <persName>Emmanuel FRANCIS</persName>.</change></revisionDesc></teiHeader>
+         <change when="2023-02">Record created by <persName>Emmanuel FRANCIS</persName>.</change><change when="2023-03">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, March 2023.</change></revisionDesc></teiHeader>
    
    <facsimile>
       <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525161935/manifest.json" facs="4"/>

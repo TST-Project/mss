@@ -44,9 +44,7 @@
                   
                <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
-                        <support>
-                           
-                        </support>
+                        
                         <extent>
                            <measure unit="folio" quantity="36">1 + 35 (U1 + U2).</measure>
                            <dimensions type="leaf" unit="mm">
@@ -56,7 +54,9 @@
                            <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
                         
                         
-                     <collation>
+                     <support>
+                           
+                        </support><collation>
                            
                         <desc xml:id="U1">1 folio = <emph rend="bold"><title xml:lang="ta">Campantar Piḷḷaittamiḻ</title>: Title Page (additional)</emph>. No foliation. Verso blank.</desc><desc xml:id="U2">35 folios = <emph rend="bold"><title xml:lang="ta">Campantar Piḷḷaittamiḻ</title>: Invocation &amp; Text</emph>. Tamil foliation {1}, 2-35. </desc></collation><condition>Fairly good state of preservation, despite boreholes.</condition></supportDesc>
                      <layoutDesc>
@@ -115,7 +115,7 @@
       
    <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
-         <change when="2023-02">Record created by <persName>Emmanuel FRANCIS</persName>.</change></revisionDesc></teiHeader>
+         <change when="2023-02">Record created by <persName>Emmanuel FRANCIS</persName>.</change><change when="2023-03">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, March 2023.</change></revisionDesc></teiHeader>
    
    <facsimile>
       <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525161935/manifest.json" facs="43"/>
@@ -207,7 +207,7 @@
       <lb n="1"/><gap reason="ellipsis"/>
       <lb n="2"/><gap reason="ellipsis"/> <g ref="#pcs"/> <g ref="#pcs"/> <num rend="traditional">10</num> <g ref="#pcs"/> <g ref="#pcs"/></seg> <seg function="colophon"><seg function="completion-statement">ciṟutērpparuvam mu<sic>ttu</sic><seg rend="grantha">m·</seg> <g ref="#pcs"/></seg> <seg function="total-stanzas">Ākap paruvam pattukku viruttam <num rend="traditional">100</num></seg> <seg function="blessing">kuruvē
       <lb n="3"/>tuṇai = Appar cuntirar maṇikkavācakar campantar Aṭiyayaṟkaḷ aṭiyār pātāravintam talai mēlk koḷvār = vālacuppiṟamaṇiyar kiṟupai yuṇṭākavu<seg rend="grantha">m·</seg>
-      <lb n="4"/>civaṉ aṭiyār vāḻka ~</seg> <seg function="copy-statement">pāṟtipa {varuṣam} kār<unclear>t=ti</unclear>kai {mācam} <num rend="traditional">18</num> {tēti} cukkiṟavāṟaṉāḷ pañcami puṉarpūcam yinta tiṉa<supplied reason="omitted">tti</supplied>lē pākkam veḷḷāḻatteruvu piṟamāttai <gap reason="ellipsis"/> mutaliyār kumā<unclear>ra</unclear>ṉ nallatam
+      <lb n="4"/>civaṉ aṭiyār vāḻka ~</seg> <seg function="copy-statement">pāṟtipa {varuṣam} kār<unclear>t=ti</unclear>kai {mācam} <num rend="traditional">18</num> {tēti} cukkiṟavāṟaṉāḷ pañcami puṉarpūcam yinta tiṉa<supplied reason="omitted">tti</supplied>lē pākkam veḷḷāḻatteruvu piṟamāttai mutaliyār kumā<unclear>ra</unclear>ṉ nallatam
       <lb n="5" break="no"/>pi <del>mutaliyār</del> citamparavāttiyar aṇṭaiyiḷē campantar piḷḷaittamiḻ paṭittu niṟavēṟiṉatu mu<sic>ttu</sic><seg rend="grantha">m·</seg></seg> <seg function="blessing">hari Ō<seg rend="grantha">m</seg> naṉṟāka kuru vāḻḵa kuruvē tuṇai <g ref="#pcs"/> vālacuppiṟamaṇiyar ka<sic>ṭa</sic>kṣa
       
           <pb facs="113" n="35r"/>
