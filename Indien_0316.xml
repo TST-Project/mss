@@ -35,9 +35,7 @@
                   
                <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
-                        <support>
-                           <!--measure unit="stringholes" quantity=""/-->
-                        </support>
+                        
                         <extent>
                            <measure unit="folio" quantity="65">{1} + 63 + {1} (U1 + U2 + U3).</measure>
                            <dimensions type="leaf" unit="mm">
@@ -56,7 +54,9 @@
                         
                         
                         
-                     <collation>
+                     <support>
+                           <!--measure unit="stringholes" quantity=""/-->
+                        </support><collation>
                      
                      <desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold"><title xml:lang="ta">Kapilaipurāṇam</title>: Title Page (additional)</emph>. No foliation. Verso blank. 345 x 30 mm.</desc><desc xml:id="U2">63 folios = <emph rend="bold"><title xml:lang="ta">Kapilaipurāṇam</title></emph>. Original Tamil foliation (blackened) 1-6, [7<hi rend="superscript">1</hi>], 7<hi rend="superscript">2</hi>-62. One folio not foliated by oversight, after folio foliated 6. Added Tamil foliation (unblackened) 7-63 (updating, from f[7<hi rend="superscript">1</hi>], the incomplete blackened original foliation, which, is defective). Some some folios even have a double update of the foliation.</desc><desc xml:id="U2a">1 folio = <emph rend="bold"><title xml:lang="ta">Kapilaipurāṇam</title>: Satellite Stanzas</emph>. Tamil foliation (blackened) 1. Verso blank.</desc><desc xml:id="U2b">62 folios = <emph rend="bold"><title xml:lang="ta">Kapilaipurāṇam</title>: Text</emph>. Original Tamil foliation (blackened) 2-6, [7<hi rend="superscript">1</hi>], 7<hi rend="superscript">2</hi>-62. Added Tamil foliation (unblackened) 7-63 (from f[7<hi rend="superscript">1</hi>).</desc><desc xml:id="U3">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Fairly good state of preservation, despite some boreholes.</condition></supportDesc>
                      <layoutDesc>
@@ -105,7 +105,7 @@
    <revisionDesc>
          
       
-      <change when="2022-02">Record created by <persName>Emmanuel FRANCIS</persName>.</change><change when="2023-02">Revised by <persName>Emmanuel FRANCIS</persName>. Version, February 2023.</change></revisionDesc></teiHeader>
+      <change when="2022-02">Record created by <persName>Emmanuel FRANCIS</persName>.</change><change when="2023-03">Revised by <persName>Emmanuel FRANCIS</persName>. Version, March 2023.</change></revisionDesc></teiHeader>
     <sourceDoc>
         <surface/>
     </sourceDoc>
@@ -132,7 +132,8 @@
   
   <pb facs="5" n="1r"/>
   
-  <seg function="header"><seg function="blessing"><milestone unit="left-margin"/>
+  <seg function="header">
+    <seg function="blessing"><milestone unit="left-margin"/>
   <lb n="1-3"/><g ref="#pcs"/> śrī kuruvē tuṇai ~</seg>
     </seg>
   
@@ -151,7 +152,8 @@
 
   <pb facs="7" n="2r"/>
   
-   <seg function="header"><seg function="title"><milestone unit="left-margin"/>
+   <seg function="header">
+     <seg function="title"><milestone unit="left-margin"/>
   <lb n="1-2"/>kapilaippurāṇam</seg>
   <seg function="intertitle"><lb n="3-4"/>kaṭavuḷ vaṇakkam</seg>
   <seg function="intertitle"><lb n="5"/>pāyiram</seg>
@@ -159,19 +161,23 @@
   
   <seg function="incipit"><milestone unit="main-text-area"/>
  <lb n="1"/>cīr koṇṭa <gap reason="ellipsis"/></seg> <gap reason="ellipsis"/>
+      <lb n="2-7"/><gap reason="ellipsis"/>
   
   <pb facs="13" n="5r"/>
       <milestone unit="main-text-area"/>
-  <lb n="6"/><gap reason="ellipsis"/> ~ 26 ~ <seg function="completion-statement">pāyiraccarukkamuṟṟum ~</seg>
+       <lb n="1-6"/><gap reason="ellipsis"/>
+  <lb n="6"/><gap reason="ellipsis"/> ~ 26 ~ <seg function="completion-statement">pāyiraccarukka muṟṟum ~</seg>
   
   <pb facs="14" n="5v"/>  
-   <seg function="header"><seg function="intertitle"><milestone unit="left-margin"/>
-  <lb n="1-3"/>nāṭṭuccarukkam ~</seg></seg>
+   <seg function="header">
+     <seg function="intertitle"><milestone unit="left-margin"/>
+  <lb n="1-3"/>nāṭṭuccarukkam ~</seg>
+      </seg>
   
    <pb facs="23" n="9r=10r"/>  
    <seg function="header">
      <seg function="intertitle"><milestone unit="left-margin"/>
-  <lb n="1-2"/>nakaraccarukkam</seg>
+  <lb n="1-2"/>nakaraccarukkam ~</seg>
      </seg>
   
   <pb facs="33" n="14r=15r"/>  
@@ -182,7 +188,7 @@
   
   <pb facs="49" n="22r=23r"/>
       <milestone unit="main-text-area"/>
-       <lb n="3"/><gap reason="ellipsis"/> ~ 7<subst><del>3</del><add>4</add></subst> ~ <seg function="completion-statement">Āyvucarukkamuṟṟum ~ <seg function="total-stanzas">Āka viruttam <num rend="traditional">100</num> <subst><del><gap reason="ellipsis"/></del><add><gap reason="ellipsis"/></add></subst> ~</seg></seg>
+       <lb n="3"/><gap reason="ellipsis"/> ~ 7<subst><del>3</del><add>4</add></subst> ~ <seg function="completion-statement">Āyvucarukka muṟṟum ~ <seg function="total-stanzas">Āka viruttam <num rend="traditional">100</num> <subst><del><gap reason="ellipsis"/></del><add><gap reason="ellipsis"/></add></subst> ~</seg></seg>
   
   <pb facs="50" n="22v=23v"/>  
    <seg function="header">
@@ -192,7 +198,7 @@
   
   <pb facs="64" n="29v=30r"/>
       <milestone unit="main-text-area"/>
-       <lb n="3"/><gap reason="ellipsis"/> ~ 74 ~ <seg function="completion-statement">kapilaiccarukkamuṟṟum ~ <seg function="total-stanzas">Āka viruttam ~ <num rend="traditional">250</num> <subst><del><gap reason="ellipsis"/></del><add><gap reason="ellipsis"/></add></subst> ~</seg></seg>
+       <lb n="3"/><gap reason="ellipsis"/> ~ 74 ~ <seg function="completion-statement">kapilaiccarukka muṟṟum ~ <seg function="total-stanzas">Āka viruttam ~ <num rend="traditional">250</num> <subst><del><gap reason="ellipsis"/></del><add><gap reason="ellipsis"/></add></subst> ~</seg></seg>
   
    <pb facs="65" n="30r=31r"/>  
    <seg function="header">
@@ -202,7 +208,7 @@
   
   <pb facs="81" n="38r=39r"/>
       <milestone unit="main-text-area"/>
-       <lb n="5"/><gap reason="ellipsis"/> ~ 79 ~ <seg function="completion-statement">miṟukēntiraccarukkamuṟṟum ~ <seg function="total-stanzas">Āka viruttam ~ <num rend="traditional">334</num> ~</seg> <seg function="blessing">civamayam ~</seg></seg>
+       <lb n="5"/><gap reason="ellipsis"/> ~ 79 ~ <seg function="completion-statement">miṟukēntiraccarukka muṟṟum ~ <seg function="total-stanzas">Āka viruttam ~ <num rend="traditional">334</num> ~</seg> <seg function="blessing">civamayam ~</seg></seg>
   
    <pb facs="82" n="38v=39v"/>  
    <seg function="header"><seg function="intertitle"><milestone unit="left-margin"/>
@@ -211,12 +217,12 @@
   
   <pb facs="92" n="43v=44v"/>
       <milestone unit="main-text-area"/>
-       <lb n="4"/><gap reason="ellipsis"/> ~ 52 ~ <seg function="completion-statement">cūḷaccarukkamuṟṟum ~ <seg function="total-chapters total-stanzas">Āka carukkam ~ 7k=ku tiruviruttam ~ <num rend="traditional">386</num> ~</seg> <seg function="blessing">tirucciṟṟampalam ~</seg></seg>
+       <lb n="4"/><gap reason="ellipsis"/> ~ 52 ~ <seg function="completion-statement">cūḷaccarukka muṟṟum ~ <seg function="total-chapters total-stanzas">Āka carukkam ~ 7k=ku tiruviruttam ~ <num rend="traditional">386</num> ~</seg> <seg function="blessing">tirucciṟṟampalam ~</seg></seg>
   
   <pb facs="93" n="44r=45v"/>
       <seg function="header">
    <seg function="intertitle"><milestone unit="left-margin"/>
-  <lb n="1-3"/>mīṭciccarukkam</seg>
+  <lb n="1-3"/>mīṭciccarukkam ~</seg>
         </seg>
   
   <pb facs="116" n="55v=56v"/>
@@ -227,7 +233,7 @@
   
    <pb facs="130" n="62v=63v"/>
       <milestone unit="main-text-area"/>
-  <seg function="explicit"><lb n="7"/><gap reason="ellipsis"/> ~ <num rend="traditional">71</num> ~ </seg> <seg function="completion-statement">kāṭciccarukkamuṟṟum <seg function="total-chapters total-stanzas">Ākac caruk<supplied reason="omitted">ka</supplied>
+  <seg function="explicit"><lb n="7"/><gap reason="ellipsis"/> ~ <num rend="traditional">71</num> ~ </seg> <seg function="colophon"><seg function="completion-statement">kāṭciccarukka muṟṟum</seg> <seg function="total-chapters total-stanzas">Ākac caruk<supplied reason="omitted">ka</supplied>
      <lb n="8" break="no"/>m – 9kkut tiruviruttam – <num rend="traditional">568</num> –</seg> <seg function="blessing">tirucciṟṟampalam –</seg></seg>
 
       </ab>
