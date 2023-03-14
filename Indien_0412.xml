@@ -15,7 +15,7 @@
             <msDesc>
                <msIdentifier>
                   <repository>
-                     <orgName>Bibliothèque nationale de France. Département des Manuscrits.</orgName>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
                   </repository>
                   
                   <idno type="shelfmark">Indien 412</idno>
@@ -25,8 +25,8 @@
                <msContents class="#MTM">
                   <summary><p>A multi-text manuscript containing two narrative works:
   <list rend="numbered">
-    <item>The <title xml:lang="ta">Pañcatantirak Katai</title> (in verse) (U2). See Zvelebil, 1995, p. 516-517.</item>
-    <item>The <title xml:lang="ta">Nālu Mantirik Katai</title> (U3). See Zvelebil, 1995, p. 469.</item>
+    <item>The <title xml:lang="ta">Pañcatantirak Katai</title> (in verse) (U2 = Indien 412.1). See Zvelebil, 1995, p. 516-517.</item>
+    <item>The <title xml:lang="ta">Nālu Mantirik Katai</title> (U3 = Indien 412.2). See Zvelebil, 1995, p. 469.</item>
   </list></p>
 
 <p>Description based on the examination of the original manuscript (October 2020).</p>
@@ -58,9 +58,7 @@
                   
                <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
-                        <support>
-                           
-                        </support>
+                        
                         <extent>
                            <measure unit="folio" quantity="104">{1} + {1} + 61 + {1} + 39 + {1} (U1 + U2a + U2b + U3a + U3b + U4).</measure>
                            <dimensions type="leaf" unit="mm">
@@ -70,7 +68,9 @@
                            <dimensions type="object" unit="mm"><width quantity="415"/><height quantity="35"/><depth quantity="70"/></dimensions><dimensions type="written" unit="mm"/></extent>
                         
                         
-                     <collation>
+                     <support>
+                           
+                        </support><collation>
                            
                         <desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">front guard leaf</emph>. No foliation. Blank recto verso.</desc><desc xml:id="U2a">1 folio = <emph rend="bold"><title xml:lang="ta">Pañcatantirak Katai</title>: Title Page</emph>. No foliation. Verso blank.</desc><desc xml:id="U2b">61 folios = <emph rend="bold"><title xml:lang="ta">Pañcatantirak Katai</title>: Text</emph>. Tamil foliation 1-61 and parallel Arabic foliation 1-61. </desc><desc xml:id="U3a">1 folio = <emph rend="bold"><title xml:lang="ta">Nālu Mantirik Katai</title>: Title Page</emph>. No foliation. Verso blank.</desc><desc xml:id="U3b">39 folios = <emph rend="bold"><title xml:lang="ta">Nālu Mantirik Katai</title>: Text</emph>. Tamil foliation 62-100 and parallel Arabic foliation 62-100. </desc><desc xml:id="U4">1 folio = <emph rend="bold">back guard leaf</emph>. No foliation. Blank recto verso.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Excellent state of preservation.</condition></supportDesc>
                      <layoutDesc>
@@ -78,7 +78,7 @@
                      <layout columns="1" writtenLines="7 8"/></layoutDesc>
                   </objectDesc><handDesc>                     
                      
-                  <handNote synch="#U2a #U2b #U3a #U3b" scope="major" script="tamil" medium="incised soot"><desc>Long <foreign xml:lang="ta">ō</foreign> and <foreign xml:lang="ta">ē</foreign> occasionally used (see title pages).</desc></handNote></handDesc><additions> 
+                  <handNote synch="#U2a #U2b #U3a #U3b" scope="major" script="tamil" medium="incised soot"><desc><persName role="scribe">Ducler's scribe</persName>. Long <foreign xml:lang="ta">ō</foreign> and <foreign xml:lang="ta">ē</foreign> occasionally used (see title pages).</desc></handNote></handDesc><additions> 
                      
                      
                      
@@ -92,7 +92,7 @@
  <lb n="3"/>1° Panjatandiram, ou Cinq sortes de Ruses (par Soma<sic>sana</sic>ma,)
  <lb n="4-5"/>2° Naloumandricadé, ou histoires des 4 misnistres. (ouvrage anonyme)
  <lb n="6"/>Contenant 100 feuilles.</quote>
-The number is that found in the catalogue of Velanguani Arokium (1845). </desc><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 412</quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#U2a" type="table-of-contents">List of chapters of <title xml:lang="ta">Pañcatantirak Katai</title> (no title; 1 column): chapter's name followed by beginning folio number; total chapters (<foreign xml:lang="ta">atikāram</foreign>) and overall total leaves (<foreign xml:lang="ta">ēṭu</foreign>). See details below.</desc></additions><bindingDesc>
+The number is that found in the catalogue of Velanguani Arokium (1845, <ref target="https://gallica.bnf.fr/ark:/12148/btv1b10527869m/f25">p. 8, no. 25</ref>.). </desc><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 412</quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#U2a" type="table-of-contents">List of chapters of <title xml:lang="ta">Pañcatantirak Katai</title> (no title; 1 column): chapter's name followed by beginning folio number; total chapters (<foreign xml:lang="ta">atikāram</foreign>) and overall total leaves (<foreign xml:lang="ta">ēṭu</foreign>). See details below.</desc></additions><bindingDesc>
                      <binding>
                         <p>Original <material>ebony</material> covers. Shelfmark on recto of front cover.</p>
                      <decoNote type="stringhole"><measure resp="#cLI" unit="stringhole" quantity="2"/></decoNote></binding>
@@ -133,7 +133,7 @@ The number is that found in the catalogue of Velanguani Arokium (1845). </desc><
       
    <revisionDesc>
          
-         <change when="2021-06">Record created by <persName>Emmanuel FRANCIS</persName>. </change><change when="2023-02">Enlarged and revised by <persName>Emmanuel FRANCIS</persName>. Version 1, February 2023.</change></revisionDesc></teiHeader>
+         <change when="2021-06">Record created by <persName>Emmanuel FRANCIS</persName>. </change><change when="2023-03">Enlarged and revised by <persName>Emmanuel FRANCIS</persName>. Version 1, March 2023.</change></revisionDesc></teiHeader>
    
    <facsimile>
       
@@ -169,6 +169,8 @@ The number is that found in the catalogue of Velanguani Arokium (1845). </desc><
      <seg function="total-chapters"><lb n="6"/>{Āka} Atikāram – <choice><sic>4</sic><corr>5</corr></choice>k=ki</seg> y<pc>-</pc>ēṭu kūṭiyatu <num rend="traditional">61</num> –</seg>
    <seg function="colophon"><seg function="copy-statement"><lb n="7"/><num rend="traditional">1828</num>m <g ref="#varuṣam">varuṣam</g> ḻuliyēt=tu <g ref="#mācam">mācam</g> <num rend="traditional">20</num> <g ref="#tēti">tēti</g> Eḻuti muṭintatu <g ref="#pcl"/></seg></seg>
   
+        <pb facs="6" n="[1]v"/><note xml:lang="en">blank</note>
+
         </ab>
 </body></text><text synch="#U2b" corresp="#T2" xml:lang="ta"><body>
       <ab>
@@ -190,7 +192,8 @@ The number is that found in the catalogue of Velanguani Arokium (1845). </desc><
   <l><lb n="2"/>perukiya <gap reason="ellipsis"/></l> <l>tarukiya <gap reason="ellipsis"/> kūṟal uṟṟām ~ 1 ~</l></lg></seg> mētiṉi <gap reason="ellipsis"/>
   <lb n="3"/><gap reason="ellipsis"/>
   <lb n="4"/><gap reason="ellipsis"/> = 2 = <gap reason="ellipsis"/>
-        
+          <lb n="5-7"/><gap reason="ellipsis"/>
+
   
   <pb facs="54" n="24v"/>
         <milestone unit="main-text-area"/>
@@ -210,7 +213,7 @@ The number is that found in the catalogue of Velanguani Arokium (1845). </desc><
 <seg function="intertitle"><milestone unit="left-margin"/>
   <lb n="1"/>mūṉṟāvatu
    <lb n="2"/>cantivik
-  <lb n="3" break="no"/>kiṟakam</seg>
+  <lb n="3" break="no"/>kiṟakam ~</seg>
             </seg>
   
   <pb facs="105" n="50r"/>                
@@ -232,7 +235,8 @@ The number is that found in the catalogue of Velanguani Arokium (1845). </desc><
   
   <pb facs="128" n="61v"/>
         <seg function="explicit"><milestone unit="main-text-area"/>
-<lb n="7"/><gap reason="ellipsis"/> <g ref="#pcs"/> <num rend="traditional">60</num> <g ref="#pcs"/></seg> <seg function="completion-statement">campiṟōṣṭṭa muṟṟum <g ref="#pcs"/></seg> <seg function="completion-statement">pañcatantiraṅkatai muṟṟu mukintatu ~</seg> <seg function="total-stanzas">Itaṟ
+<lb n="1-6"/><gap reason="ellipsis"/>
+      <lb n="7"/><gap reason="ellipsis"/><g ref="#pcs"/> <num rend="traditional">60</num> <g ref="#pcs"/></seg> <seg function="completion-statement">campiṟōṣṭṭa muṟṟum <g ref="#pcs"/></seg> <seg function="completion-statement">pañcatantiraṅkatai muṟṟu mukintatu ~</seg> <seg function="total-stanzas">Itaṟ
           <lb n="8" break="no"/>ku ceyyuḷ ~ <num rend="traditional">538</num> <g ref="#pcl"/></seg>
 
         
@@ -251,7 +255,7 @@ The number is that found in the catalogue of Velanguani Arokium (1845). </desc><
   <lb n="1"/>nālu mantirik katai</seg>
   <seg function="title"><lb n="2"/><term xml:lang="fr">Histoire de quatre Ministres</term></seg>
   
-  <seg function="blessing"><milestone n="2" unit="column"/>
+  <seg function="blessing"><milestone unit="right-margin"/>
   <lb n="1"/>vēlu mayilum tuṇai</seg>
  </ab>
 </body></text><text synch="#U3b" corresp="#T4" xml:lang="ta"><body>
@@ -262,7 +266,7 @@ The number is that found in the catalogue of Velanguani Arokium (1845). </desc><
   <seg function="header"><seg function="title"><milestone unit="left-margin"/>
   <lb n="1"/>nālu man
    <lb n="2" break="no"/>tirik ka
-   <lb n="3" break="no"/>tai</seg>
+   <lb n="3" break="no"/>tai ~</seg>
   </seg>
         
    <seg function="incipit"><milestone unit="main-text-area"/>
