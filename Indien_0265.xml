@@ -9,7 +9,7 @@
          
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2022</date>
+            <date>2023</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -35,27 +35,27 @@
                   
                <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
-                        <support>
+                        
+                        
+                        
+                        
+                     <support>
                            
                            
-                        </support>
-                        <extent>
+                        </support><extent>
                            <measure unit="folio" quantity="285">{1} + {1} + 277 + 6 (U1 + U2+ U3 + U4).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
                            <width min="390" max="400"/><height min="30"/></dimensions>
-                        <dimensions type="object" unit="mm"><depth quantity="170"/></dimensions><dimensions type="written" unit="mm"/></extent>
-                        
-                        
-                     <collation>
+                        <dimensions type="object" unit="mm"><depth quantity="170"/></dimensions><dimensions type="written" unit="mm"/></extent><collation>
                      
                      <desc xml:id="U1">1 folio = <emph rend="bold">Title Page (additional)</emph>. No foliation. Double folio. Shelfmarks on f[1]r. 390 x 30 mm.
 </desc><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U2">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso. 400 x 30 mm.</desc><desc xml:id="U3">277 folios = <emph rend="bold"><term xml:lang="ta">Pāratam</term></emph>. Tamil foliation 324-489, 491-601, sometimes partially lost, often corrected, sometimes unblackened (e.g. f502-f578). Foliation 601 in black pencil. Successive parallel secondary Tamil foliations with gaps, e.g. 1-36 for f324-f369, 1-3 for f370-f372, etc. Sometimes three parallele foliations (e.g. f502 = f47 = f1). 400 x 30 mm.</desc><desc xml:id="U4">6 folios = <emph rend="bold"><term xml:lang="ta">Pāratam</term></emph>. <foreign xml:lang="ta">Mūlam</foreign> only of a portion already in U3 (f579r). Tamil foliation 78-83. Secondary Tamil foliation 579-584, unblackened. 400 x 30 mm.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Poor state of preservation. Many boreholes and truncation. Moisture damages (f424-f425).</condition></supportDesc>
                      <layoutDesc>
                         
                      </layoutDesc>
-                  </objectDesc><handDesc><handNote synch="#U1" scope="minor" script="tamil" medium="incised"><desc>Hand #1. <persName role="scribe">Ariel's title scribe</persName>.</desc></handNote><handNote synch="#U3 #U4" scope="major"><desc>Hand #2.</desc></handNote></handDesc><decoDesc>
+                  </objectDesc><handDesc><handNote synch="#U1" scope="minor" script="tamil" medium="incised"><desc>Hand #1. <persName role="scribe">Ariel's title scribe</persName>.</desc></handNote><handNote synch="#U3 #U4" scope="major" script="tamil"><desc>Hand #2.</desc></handNote></handDesc><decoDesc>
                   </decoDesc><additions>
                   <desc synch="#U1" type="shelfmark">BnF current shelfmark sticker: <quote>INDIEN 265</quote> (<locus facs="3">f[1]r</locus>). Presently detached from left side. Placed on front cover on Gallica pictures.</desc><desc synch="#U1" type="shelfmark">Shelfmark in black ink: <quote>b/43</quote> (<locus facs="3">f[1]r</locus>).</desc><desc synch="#U1" type="documenting-note">BnF donation sticker <quote>DON N° <space type="vacat"/></quote> (<locus facs="3">f[1]r</locus>).</desc><desc synch="#U1" type="shelfmark">Shelfmark in black pencil: <quote>7</quote> (<locus facs="3">f[1]r</locus>).</desc></additions><bindingDesc>
                      <binding><p>Original <material>wood</material> covers. 2 strings (one per string-hole).</p><decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
@@ -91,12 +91,13 @@
   <ab>
     
   <pb facs="3" n="[1]r"/>
+    
     <seg function="header">
   <seg function="blessing"><milestone unit="left-margin"/>
     <lb n="1-2"/>veṟṟivēl uṟṟa tuṇai</seg>
       </seg>
   
-  <seg function="title"><milestone n="1" unit="column"/>
+  <seg function="title"><milestone unit="main-text-area"/>
   <lb n="1"/>pāratattil
 <lb n="2"/>turōṇaparvamutal
 <lb n="3"/>calliyaparvavaraiyil</seg>
@@ -124,12 +125,12 @@
         </seg>
   
   <pb facs="98" n="369v = 46r"/>
-      <lb n="1"/><gap reason="ellipsis"/> ṉ<pc>-</pc>eṉṟa v<pc>-</pc>āṟu <g ref="#pcl"/> 92 <g ref="#pcl"/> <num rend="traditional">1203</num>
+      <milestone unit="main-text-area"/><lb n="1"/><gap reason="ellipsis"/> ṉ<pc>-</pc>eṉṟa v<pc>-</pc>āṟu <g ref="#pcl"/> 92 <g ref="#pcl"/> <num rend="traditional">1203</num>
   <seg function="completion-statement"><lb n="2"/><note xml:lang="en">right-oriented</note>patiṉāṟāṉāḷ uyittamu<sic>ttu</sic>m <g ref="#pcs"/></seg> <seg function="blessing">śrī-kiṣṇa-cakāyam uṇṭāka<g rend="below-base">vuM</g></seg> <seg function="blessing">kuru-pātan tuṇai uṇṭāka<g rend="below-base">vuM</g> <g ref="#pcl"/></seg>
 
  <pb facs="99" n="370r = 1r"/>
       <seg function="header">
-<seg function="blessing"><milestone n="1" unit="left-margin"/>
+<seg function="blessing"><milestone unit="left-margin"/>
   <lb n="1-2"/>śrī-kiṣṇa-cakāyam</seg>
 <seg function="intertitle"><lb n="3-5"/>patiṉeḻāṉāḷ Uyittiyam</seg>
 <seg function="blessing"><lb n="6"/>civamayam</seg>
@@ -141,7 +142,7 @@
   <lb n="1-3"/><gap reason="ellipsis"/></seg></seg>
   
   <pb facs="360" n="501v"/>
-      <lb n="6"/><gap reason="ellipsis"/> ḷ<pc>-</pc>eṉṟa v<pc>-</pc>āṟu <g ref="#pcs"/> <num rend="traditional">283</num> <g ref="#pcs"/> <seg function="completion-statement">karṇapaṟuvamuṟṟu<supplied reason="omitted">m</supplied> <g ref="#pcs"/></seg> <seg function="intertitle">y<pc>-</pc>ippāl patiṉeṭṭāṉāḷ uyittiyam <g ref="#pcs"/></seg> <seg function="blessing">śrī-kiṣṇacuvāmi tuṇai y<pc>-</pc>uṇṭākavum <g ref="#pcl"/></seg>
+      <milestone unit="main-text-area"/><lb n="6"/><gap reason="ellipsis"/> ḷ<pc>-</pc>eṉṟa v<pc>-</pc>āṟu <g ref="#pcs"/> <num rend="traditional">283</num> <g ref="#pcs"/> <seg function="completion-statement">karṇapaṟuvamuṟṟu<supplied reason="omitted">m</supplied> <g ref="#pcs"/></seg> <seg function="intertitle">y<pc>-</pc>ippāl patiṉeṭṭāṉāḷ uyittiyam <g ref="#pcs"/></seg> <seg function="blessing">śrī-kiṣṇacuvāmi tuṇai y<pc>-</pc>uṇṭākavum <g ref="#pcl"/></seg>
   
     <pb facs="361" n="502r = 47r = 1r"/>
         <seg function="header">
@@ -149,7 +150,7 @@
   <lb n="1-2"/>patiṇeṭṭāṉāḷ uyiṟṟam</seg></seg>
   
     <pb facs="513" n="578r = 77r"/>
-  <lb n="1"/><gap reason="ellipsis"/>eṉṟā v<pc>-</pc>āṟu <g ref="#pcs"/> 242 <g ref="#pcs"/>
+  <milestone unit="main-text-area"/><lb n="1"/><gap reason="ellipsis"/>eṉṟā v<pc>-</pc>āṟu <g ref="#pcs"/> 242 <g ref="#pcs"/>
 <seg function="colophon"><seg function="completion-statement"><lb n="2"/>patiṉeṭṭāṉāḷ uyittiyam muṭintutu muṟṟu<seg rend="grantha">m</seg> <g ref="#pcs"/></seg> <seg function="blessing">perumāṉār tiruvaṭikaḷē caraṇam</seg> <seg function="blessing">śrīmaṉ-nāṟāyaṇacuvāmi raṣṣakkaṟā=M <g ref="#pcl"/></seg>
 <note xml:lang="en">the space of one line is left balnk between lines 2 and 3</note>
   <seg function="copy-statement"><lb n="3"/>Āṅkira <g ref="#varuṣam">varuṣam</g> Āṇi <g ref="#mācam">mācam</g> <num rend="traditional">29</num> <g ref="#tēti">tēti</g> veḷḷikkiḻamai ṉāḻikai <num rend="traditional">20</num> tutikai pūcam naṣṣattiram <note xml:lang="en">from here, up to end of line 4, unblackened</note> yinta cupa<supplied reason="omitted">ti</supplied>ṉattilē <seg function="ownership-statement"><persName xml:lang="ta" role="scribe"><unclear reason="consonant_unclear">yā</unclear>tava-kōttira-koṇṭikkōṭtai ṟāmuṉāyak=kar kumaraṉ
@@ -162,8 +163,9 @@
 <seg function="intertitle"><milestone unit="left-margin"/>
   <lb n="1-3"/>ma<unclear>ḷa</unclear>vicuṭṭutal carukkam</seg></seg>
   
-  <pb facs="559" n="[601]r"/><note xml:lang="en">blank</note>
-  <lb n="1" break="no"/>ṉaiyē pōṟṟi <g ref="#pcs"/> 54 <g ref="#pcs"/> <seg function="TBC">pala pala vāṇṭil pāril pārata Uraiyai-c ceyitōṉ nalamuḷ <gap reason="ellipsis"/> periyōr
+  <pb facs="559" n="[601]r" break="no"/>
+      <milestone unit="main-text-area"/>
+  <lb n="1"/>ṉaiyē pōṟṟi <g ref="#pcs"/> 54 <g ref="#pcs"/> <seg function="TBC">pala pala vāṇṭil pāril pārata Uraiyai-c ceyitōṉ nalamuḷ <gap reason="ellipsis"/> periyōr
 <lb n="2"/>pātam y<pc>-</pc>iṉituṭaṉ pōtti ceytu talamatilam <gap reason="ellipsis"/> Āl pol eṅkum <g ref="#pcs"/></seg> <seg function="blessing">śrī-<g rend="below-base">rāMa</g>-ceyam</seg> <seg function="blessing">śrī-kiṣṇācuvāmi kiṟupai peruka Uṇṭākavum vēṇum</seg>
   
   <pb facs="560" n="601v"/><note xml:lang="en">blank</note>
@@ -183,7 +185,8 @@
   <lb n="1"/><gap reason="ellipsis"/></seg>
   
   <pb facs="571" n="584r = 83r"/>
- <seg function="explicit"><lb n="6"/><gap reason="ellipsis"/> tāraiyavar <g ref="#pcs"/> 51 <g ref="#pcs"/></seg> <seg function="colophon"><seg function="copy-statement">Āṅkira <g ref="#varuṣam">varuṣam</g> Āṭi <g ref="#mācam">mācam</g> 3 <g ref="#tēti">tēti</g> viyāḻakkiḻamai cittirana<unclear>kṣa</unclear>ttiram <note xml:lang="en">from here, up to end of line 7, unblackened</note> yinta cupa<supplied reason="omitted">ti</supplied>ṉattil <persName xml:lang="ta" role="scribe">yātavakōttiram ~ keṇṭikkōṭtai ṟāmuṉāyakkār
+ <milestone unit="main-text-area"/>
+      <seg function="explicit"><lb n="6"/><gap reason="ellipsis"/> tāraiyavar <g ref="#pcs"/> 51 <g ref="#pcs"/></seg> <seg function="colophon"><seg function="copy-statement">Āṅkira <g ref="#varuṣam">varuṣam</g> Āṭi <g ref="#mācam">mācam</g> 3 <g ref="#tēti">tēti</g> viyāḻakkiḻamai cittirana<unclear>kṣa</unclear>ttiram <note xml:lang="en">from here, up to end of line 7, unblackened</note> yinta cupa<supplied reason="omitted">ti</supplied>ṉattil <persName xml:lang="ta" role="scribe">yātavakōttiram ~ keṇṭikkōṭtai ṟāmuṉāyakkār
 <lb n="7"/>kumāraṉ veṅkiṭācalaṉāyakkar</persName> contamāka pāratam mutal ṉāḷ tuvakki paṭṭāpiṣekamaṭṭu Eḻuti mukintutu mut=tu<seg rend="grantha">m</seg> <g ref="#pcl"/></seg></seg>
   
     <pb facs="572" n="584v = 83v"/><note xml:lang="en">blank</note>
