@@ -17,14 +17,14 @@
                   <repository>
                      <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
                   </repository>
-               <idno type="shelfmark">Indien 270</idno><idno type="alternate"><idno>Tamoul 270</idno></idno><idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103801p</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b52516816v</idno></msIdentifier>
+               <idno type="shelfmark">Indien 270</idno><idno type="alternate"><idno>Tamoul 270</idno></idno><idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103801p</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b52516816v</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/5h73q464b</idno></msIdentifier>
                <msContents class="#STM">
                   <summary><p>A complete copy of the <title xml:lang="ta">Kiruṣṇaṉ Tūtu</title>, a part of the <title xml:lang="ta">Villipāratam</title>, a Tamil version of the Sanskrit <title xml:lang="ta">Mahābhārata</title>, with a commentary.</p>
 
 <p>Description based on the examination of the original manuscript (March 2023).</p> 
 <p>Dimensions assessed at the time of examination.</p>      </summary>
                   
-               <msItem synch="#U2" xml:id="T1" defective="false"><title xml:lang="ta">Kiruṣṇaṉ Tūtu: Mūlam &amp; Urai</title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T2" defective="true"><title xml:lang="ta"><term xml:lang="en">TBC</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U4" xml:id="T3" defective="false"><title xml:lang="ta"><term xml:lang="en">TBC</term></title><textLang mainLang="tam"/></msItem></msContents>
+               <msItem synch="#U2" xml:id="T1" defective="false"><title xml:lang="ta">Kiruṣṇaṉ Tūtu: Mūlam &amp; Urai</title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T2" defective="true"><title xml:lang="ta"><term xml:lang="en">TBC</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U4" xml:id="T3" defective="false"><title xml:lang="ta"><term xml:lang="en">Colophons</term></title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
                   
                   
@@ -49,7 +49,7 @@
                         <dimensions type="object" unit="mm"><depth quantity="130"/></dimensions><dimensions type="written" unit="mm"/></extent><collation>
                      
                      <desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso. 330 x 30 mm.</desc><desc xml:id="U2">277 folios = <emph rend="bold"><term xml:lang="ta">Kiruṣṇaṉ Tūtu</term>: Text &amp; Ccommentary</emph>. Tamil foliation 1-196. 335 x 30 mm.
-</desc><desc xml:id="U3">1 folio = <emph rend="bold">TBC</emph>. Tamil foliation 19[7] (?). 330 x 30 mm.</desc><desc xml:id="U4">1 bifolio = <emph rend="bold">TBC</emph>. No foliation. 320 x 30 mm.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Relatively good state of preservation.</condition></supportDesc>
+</desc><desc xml:id="U3">1 folio = <emph rend="bold">TBC</emph>. Tamil foliation 19[7] (?). 330 x 30 mm.</desc><desc xml:id="U4">1 bifolio = <emph rend="bold">colophons</emph>. No foliation. 320 x 30 mm.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Relatively good state of preservation.</condition></supportDesc>
                      <layoutDesc>
                         
                      </layoutDesc>
@@ -64,7 +64,7 @@
                   
                   
                <origin>
-                     <origDate calendar="gregorian">Internally dated to the year <foreign xml:lang="ta">...</foreign> of the Jovian cycle, that is, CE ..., etc. See colophon (U*, f***). 
+                     <origDate calendar="gregorian">Internally dated to the year <foreign xml:lang="ta">pava</foreign> of the Jovian cycle, that is, CE 1874-1875, 1814-1815, 1754-1755, 1694-1695, etc (see colophon U4, <locus facs="399">f[1]r1</locus>) and to the year <foreign xml:lang="ta">piṟamati</foreign> of the Jovian cycle, that is, CE 1879-1880, 1819-1820, 1759-1760, 1699-1700, etc (see colophon U4, <locus facs="400">f[1]1v</locus>) . 
 Not dated by Vinson in Vinson et al. (1866-) nor by Cabaton (1912).</origDate>
                      
                   <origPlace>South India, Tamil Nadu.</origPlace></origin><provenance><p>Unknown.</p></provenance><acquisition><p>Unknown.</p></acquisition></history>
@@ -102,12 +102,16 @@ Not dated by Vinson in Vinson et al. (1866-) nor by Cabaton (1912).</origDate>
       </seg>
   
     <seg function="incipit" type="root-text"><milestone unit="main-text-area"/>
-  <lg><l><lb n="1"/>... <g ref="#pcs"/></l></lg></seg>
+  <lg><l><lb n="1"/>nīṭāḻi yulakattu maṟainālō ṭainteṉṟu nilainiṟkavē ·</l>
+<l>vāṭāta tavavā<add place="below">y</add>mai <lb n="2"/> mikuvēta muṉiṟācaṉ makāpāra tañcoṉṉaṉā</l>
+    <l>ḷ ēṭāka vaṭamēru veṟpāka veṅ<lb n="3" break="no"/>kū<unclear reason="vowel_unclear">re</unclear> ḻuttāṇitaṉ</l>
+<l>kōṭāka veḻutumpī rāṉaip paṇintaṉpu kūrvāmarō <g ref="#pcs"/></l></lg></seg>
     <seg function="incipit" type="commentary"><lb n="4"/>Etu <g ref="#pcs"/> <gap reason="ellipsis"/></seg> 
 
    <pb facs="6" n="1v"/>
       <milestone unit="main-text-area"/>
   <lb n="1"/><gap reason="ellipsis"/>
+  <lb n="4"/><gap reason="ellipsis"/> ṉ eṉṟa vāṟu <g ref="#pcs"/>
     <lb n="5"/><g ref="#pcs"/> 1 <g ref="#pcs"/>
     
     
@@ -119,16 +123,30 @@ Not dated by Vinson in Vinson et al. (1866-) nor by Cabaton (1912).</origDate>
       </seg>
     
      <milestone unit="main-text-area"/>
-  <lg><l><lb n="1"/>... <g ref="#pcs"/></l></lg>
+  <lg><l><lb n="1"/>poruppilē piṟantu teṉṉaṉ pukaḻilē kiṭantu caṅkat</l>
+<l>t<pc>'</pc> iruppilē yiruntu vaikai Ēṭṭilē tavaḻ<lb n="2" break="no"/>nta pētai ~</l>
+<l>neruppilē niṉṟu kattōr niṉaivilē naṭant<pc>'</pc> ōrēṉu</l>
+<l>maruppilē payiṉṟa pāvai <lb n="3"/>maruṅkilē vaḷara kiṉṟāḷē <g ref="#pcs"/></l></lg> Eṉpatu <g ref="#pcs"/> <gap reason="ellipsis"/>
       
               
-   <pb facs="395" n="196r"/>
+    <pb facs="8" n="2v"/>
+    <milestone unit="main-text-area"/>
+    <lb n="4" break="no"/>ṉ eṉṟa vāṟu <g ref="#pcs"/> 1 <g ref="#pcs"/> pērpaṭaitta viciyaṉuṭāṉ <gap reason="ellipsis"/>
+   
+    
+    <pb facs="395" n="196r"/>
       <milestone unit="main-text-area"/>
       <lb n="1"/><gap reason="ellipsis"/>
-      
+      <lb n="2"/><gap reason="ellipsis"/>
+      <lb n="3"/><gap reason="ellipsis"/><g ref="#pcs"/> Eṉpatu <del><gap reason="illegible" quantity="1" unit="character"/></del> <g ref="#pcs"/> <gap reason="ellipsis"/>
+          <lb n="4"/><gap reason="ellipsis"/>
+          <lb n="5"/><gap reason="ellipsis"/>
+
+          <lb n="6"/><gap reason="ellipsis"/>
+
          <pb facs="396" n="196v"/>
       <milestone unit="main-text-area"/>
-      <lb n="1"/><gap reason="ellipsis"/>
+      <lb n="1"/><gap reason="ellipsis"/> Eṉṟa vāṟu <g ref="#pcs"/> <num rend="traditional">2<g ref="#nūṟu"/>5<supplied reason="omitted"><g ref="#pattu"/></supplied>9</num> <g ref="#pcs"/>
 
   
     </ab>
@@ -137,16 +155,26 @@ Not dated by Vinson in Vinson et al. (1866-) nor by Cabaton (1912).</origDate>
 
   <pb facs="397" n="19[7]r"/>
       <seg function="header">
-<seg function="title"><milestone unit="left-margin"/>
-  <lb n="1-2"/>...</seg>
+<seg function="foliation"><milestone n="1" unit="left-margin"/>
+  <lb n="1"/><num rend="traditional"><g ref="#nūṟu"/><unclear>9</unclear><supplied reason="omitted"><g ref="#pattu"/></supplied><supplied reason="lost">7</supplied></num></seg>
+  <seg function="TBC"><lb n="2"/><del><gap reason="ellipsis"/></del></seg>
+     
+      
+<seg function="TBC"><milestone n="2" unit="left-margin"/>
+  <lb n="1-2"/><gap reason="ellipsis"/></seg>
+        
         </seg>
   
-  <seg function="incipit"><milestone unit="main-text-area"/>
-  <lb n="1"/></seg> 
+  <milestone unit="main-text-area"/> <milestone unit="main-text-area"/>
+  <lb n="1"/><gap reason="ellipsis"/>
+  <lb n="2"/><gap reason="ellipsis"/>
+  <lb n="3"/><gap reason="ellipsis"/>
+  <lb n="4"/>Ayyar cuvāmi kokilampiki <g ref="#pcl"/>
       
          <pb facs="398" n="19[7]v"/>
      <milestone unit="main-text-area"/>
-  <lb n="1"/>
+  <lb n="1"/><gap reason="ellipsis"/>
+  <lb n="2"/><gap reason="ellipsis"/>
 
       </ab>
 </body></text><text synch="#U4" corresp="#T3" xml:lang="ta"><body>
@@ -154,12 +182,22 @@ Not dated by Vinson in Vinson et al. (1866-) nor by Cabaton (1912).</origDate>
 
   <pb facs="399" n="[1]r"/>
       
-  <seg function="incipit"><milestone unit="main-text-area"/>
-  <lb n="1"/></seg> 
+ <seg function="colophon"><seg function="copy-statement"><milestone unit="main-text-area"/>
+  <lb n="1"/>pava {varuṣam} māci {mācam} <num rend="traditional">20</num> {tēti} maṭukkuṟaiyil yirukkum
+<lb n="2"/>Ūrkaṇak=ku vayit=ti ṉāta piḷḷai kumāraṉ <unclear>Eḻuṅka</unclear> karaiyāṉ
+<lb n="3"/>kiṣṇa<del>tu</del>ṉ tūtu eḻutiṉatu muṣt=tum <g ref="#pcs"/></seg> <seg function="blessing">Aṟumuka=M
+<lb n="4"/>tuṇai</seg></seg>
+
       
          <pb facs="399" n="[1]v"/>
-     <milestone unit="main-text-area"/>
-  <lb n="1"/>
+     <seg function="colophon"><seg function="copy-statement"><milestone unit="main-text-area"/>
+  <lb n="1"/>piṟamati {varuṣam} Aṟppicī {mācam} 6 {tēti} <gap reason="ellipsis"/>
+      <lb n="2"/><gap reason="ellipsis"/>
+  <lb n="3"/><gap reason="ellipsis"/>
+      <lb n="4"/><gap reason="ellipsis"/>
+  <lb n="5"/><gap reason="ellipsis"/>
+      <lb n="6"/>Eḻut=tu <g ref="#pcl"/></seg>
+      </seg>
 
       </ab>
 </body></text></TEI>
