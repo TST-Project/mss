@@ -1,9 +1,9 @@
-name: index build
+name: database build
 on:
   push:
   workflow_dispatch:
 jobs:
-  make-index:
+  update-db:
     runs-on: ubuntu-latest
 
     steps:
