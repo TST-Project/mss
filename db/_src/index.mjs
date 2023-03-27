@@ -273,7 +273,10 @@ const main = () => {
         readfiles(db,ftsdb,flist);
     }
     ftsdb.prepare('INSERT INTO fulltext(text) values (\'optimize\')').run();
+    ftsdb.prepare('VACUUM').run();
     ftsdb.close();
+
+    db.prepare('VACUUM').run();
     db.close();
 };
 
