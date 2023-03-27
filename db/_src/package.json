@@ -1,0 +1,27 @@
+{
+  "name": "tst-db",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Update SQLite database from XML manuscript descriptions",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "makedb": "node --max-old-space-size=4096 index.mjs",
+    "updatedb": "node --max-old-space-size=4096 index.mjs -v -l",
+    "compilexslt": "node ./node_modules/xslt3/xslt3.js -t -nogo -xsl:tei-to-html.xsl -export:tei-to-html.sef.json; node ./node_modules/xslt3/xslt3.js -t -nogo -xsl:tei-to-html-snippet.xsl -export:tei-to-html-snippet.sef.json"
+  },
+  "devDependencies": {
+    "better-sqlite3": "^8.2.0",
+    "fs": "^0.0.1-security",
+    "jsdom": "^21.1.1",
+    "path": "^0.12.7",
+    "saxon-js": "^2.5.0",
+    "sqlite3": "^5.1.5",
+    "xmlserializer": "^0.6.1",
+    "xpath": "^0.0.32",
+    "xslt3": "^2.5.0",
+    "yargs": "^17.7.1"
+  },
+  "dependencies": {}
+}
