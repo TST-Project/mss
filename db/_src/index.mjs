@@ -239,24 +239,43 @@ const readfiles = (db,ftsdb,flist,del = false) => {
     }
 };
 
+const dbops = {
+    open: () => {
+        const db = new sqlite3('../meta.db');
+        db.pragma('journal_mode = WAL');
+        db.pragma('foreign_keys = ON');
+
+        const ftsdb = new sqlite3('../fts.db');
+        ftsdb.pragma('journal_mode = WAL');
+        ftsdb.pragma('foreign_keys = ON');
+        return [db,ftsdb];
+    },
+
+    close:(db, ftsdb) => {
+        ftsdb.prepare('INSERT INTO fulltext(text) values (\'optimize\')').run();
+        ftsdb.prepare('VACUUM').run();
+        ftsdb.close();
+
+        db.prepare('VACUUM').run();
+        db.close();
+    }
+};
+
 const main = () => {
-
-    const db = new sqlite3('../meta.db');
-    db.pragma('journal_mode = WAL');
-    db.pragma('foreign_keys = ON');
-
-    const ftsdb = new sqlite3('../fts.db');
-    ftsdb.pragma('journal_mode = WAL');
-    ftsdb.pragma('foreign_keys = ON');
 
     if(argv.list) {
         const list = fs.readFileSync(argv.list,{encoding:'utf-8'});
         const flist = list.split('\n').filter(line => line.endsWith('.xml'));
-        if(flist.length > 0) {
-            readfiles(db,ftsdb,flist.map(line => `${dir}${line}`),true);
-        }
+
+        if(flist.length === 0) return;
+
+        const [db, ftsdb] = dbops.open();
+        readfiles(db,ftsdb,flist.map(line => `${dir}${line}`),true);
+        dbops.close(db, ftsdb);
     }
+
     else {
+        const [db, ftsdb] = dbops.open();
         tables.drop(db,ftsdb);
         tables.create(db,ftsdb);
         let files;
@@ -271,13 +290,8 @@ const main = () => {
                 flist.push(dir+f);
         });
         readfiles(db,ftsdb,flist);
+        dbops.close(db, ftsdb);
     }
-    ftsdb.prepare('INSERT INTO fulltext(text) values (\'optimize\')').run();
-    ftsdb.prepare('VACUUM').run();
-    ftsdb.close();
-
-    db.prepare('VACUUM').run();
-    db.close();
 };
 
 main();
