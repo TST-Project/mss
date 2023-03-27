@@ -18,10 +18,11 @@
                      <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
                   </repository>
                   <idno type="shelfmark">Indien 672</idno>
-                  <idno type="alternate"/>
+                  <idno type="alternate"><idno>Indien 30</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1042124</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/76537847b</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary>A <foreign>pothi</foreign> bound as a codex, from the collection of Charles d’Ochoa.</summary>
+                  <summary><p>A copy of the <title xml:lang="sa">Bhagavadgītā</title>.</p>
+<p>A <foreign>pothi</foreign> bound as a codex, from the collection of Charles d’Ochoa (1816-1846).</p></summary>
                   
                <msItem synch="#U2" xml:id="T1" defective="false"><title xml:lang="mr">Bhagavadgītā</title><textLang mainLang="mar"/><rubric xml:lang="mr-Deva"><pb facs="9" n="1v"/>
 <milestone unit="main-text-area"/>
@@ -62,7 +63,7 @@
                      <support>
                            
                         </support><extent>
-                           <measure unit="page" quantity="75">{4} + {1} + {65} + {1} + {4} (u1 + U1 + U2 + U3 + u2)</measure>
+                           <measure unit="folio" quantity="75">{4} + {1} + {65} + {1} + {4} (u1 + U1 + U2 + U3 + u2)</measure>
                            <dimensions type="object" unit="mm">
                               
                               
@@ -86,13 +87,8 @@
   DNYANDEV. BHAGAVAT GUITA. M.S.S. PRAKRIT
 </quote>
        
-</desc><desc type="shelfmark" subtype="spine">BnF current shelfmark sticker: <quote>INDIEN 672</quote> (<locus facs="2">spine</locus>).</desc><desc type="shelfmark" subtype="cover front">BnF current shelfmark sticker: <quote>INDIEN 672</quote> (<locus facs="4">front cover, verso</locus>).</desc><desc synch="#u1" type="shelfmark">Shelfmark in black ink <locus facs="5">f[2]r</locus>:
-<quote xml:lang="fr" rend="block">
-  Ind. 30
-</quote></desc><desc synch="#U1" type="documenting-note">Information to binder (?), in black ink <locus facs="6">f[1]r</locus>:
-<quote xml:lang="fr" rend="block">
-  <unclear>tête 31</unclear>
-</quote></desc><desc synch="#U3" type="documenting-note">Price calculation (?), in black ink <locus facs="14">f[1]r</locus>:
+</desc><desc type="shelfmark" subtype="spine">BnF current shelfmark sticker: <quote>INDIEN 672</quote> (<locus facs="2">spine</locus>).</desc><desc type="shelfmark" subtype="cover front">BnF current shelfmark sticker: <quote>INDIEN 672</quote> (<locus facs="4">front cover, verso</locus>).</desc><desc synch="#u1" type="shelfmark">Shelfmark in black ink (<locus facs="5">f[2]r</locus>): <quote xml:lang="fr">Ind. 30</quote></desc><desc synch="#U1" type="documenting-note">Information to binder (?), in black ink (<locus facs="6">f[1]r</locus>):
+<quote xml:lang="fr"><unclear>tête 31</unclear></quote></desc><desc synch="#U3" type="documenting-note">Price calculation (?), in black ink (<locus facs="14">f[1]v</locus>):
 <quote xml:lang="fr" rend="block">
   <lb n="1"/>65
   <lb n="2"/>6
@@ -104,27 +100,27 @@
                         <decoNote type="stringhole">
                            <measure unit="stringhole"/>
                         </decoNote>
-                    </binding>
+                    <p>Bound as a codex.</p></binding>
                   </bindingDesc></physDesc>
                <history>
                   
                   
                   
                <origin>
-                     <origDate calendar="gregorian" notAfter="1844"/>
+                     <origDate calendar="gregorian" notAfter="1846">No internal date. Dated to the 19th century by Cabaton (1912), on unstated grounds. Not after <persName role="collector"><ref target="https://catalogue.bnf.fr/ark:/12148/cb14379526x">Charles d'Ochoa</ref></persName> (1816-1846).</origDate>
                      
-                  </origin><provenance><p>From the collection of <persName role="collector">Charles d'Ochoa</persName>.</p></provenance></history>
+                  <origPlace>India.</origPlace></origin><provenance><p>From the collection of <persName role="collector"><ref target="https://catalogue.bnf.fr/ark:/12148/cb14379526x">Charles d'Ochoa</ref></persName> (1816-1846).</p></provenance><acquisition><p>Acquired in 1847. See <title xml:lang="fr">BnF, département des Manuscrits, inventaire 1 = Acquisitions: manuscrits et imprimés documentaires, 1833-1848</title>, nos. 4242-4486.</p></acquisition></history>
                <additional>
                   <listBibl>
                      
-                  </listBibl>
+                  <bibl>Cabaton, Antoine. 1912. <title xml:lang="fr">Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens. Bibliothèque nationale. Département des manuscrits.</title> Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f115">p. 96, no. 672</ref>.</bibl><bibl>Tulpule, S. G. 1986. <title xml:lang="fr" type="article">Un catalogue descriptif des manuscrits marathi dans la collection de Charles d'Ochoa de la Bibliothèque nationale Paris</title> / <title xml:lang="fr" type="article">A descriptive catalogue of the marathi manuscripts in the Charles d'Ochoa collection of the Bibliothèque Nationale Paris</title>. <title>Bulletin de l'Ecole française d'Extrême-Orient</title> 75 (1986): 105-123. — See p. 116, no. 672: <quote xml:lang="en"><title>Gītāṭīkā</title>, or a <title>Commentary on the Bhagavadgitā</title>, attributed to Jñānadeva which is not possible as the author pays his respects to Jñānadeva himself. The work is poor both in content and style.</quote></bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <encodingDesc><p>Transcribed in Devanāgarī script.</p></encodingDesc>
+      <encodingDesc><p>Original text encoded / transliterated in Devanāgarī script.</p></encodingDesc>
       
-   <revisionDesc><change when="2022-08">First version.</change></revisionDesc></teiHeader>
+   <revisionDesc><change when="2022-08">First version.</change><change when="2023-03">Revised and updated by <persName>Emmanuel FRANCIS</persName>. Version 1, March 2023.</change></revisionDesc></teiHeader>
    <facsimile>
    <graphic url="https://didomena.ehess.fr/concern/data_sets/76537847b/manifest.json"/></facsimile>
 </TEI>

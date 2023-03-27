@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title><title xml:lang="hi">Bhavar Gītā</title></title>
+            <title><title xml:lang="hi">Bhavaragītā</title></title>
             
          <editor><persName>Akshara Ravishankar Parmeswaran</persName><orgName>University of Chicago</orgName></editor></titleStmt>
          <publicationStmt>
@@ -18,13 +18,14 @@
                      <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
                   </repository>
                   <idno type="shelfmark">Indien 703</idno>
-                  <idno type="alternate"/>
+                  <idno type="alternate"><idno>Indien 57</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1046668</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/kw52jh37p</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary> A <foreign>pothi</foreign> bound as a codex, from the collection of Charles d’Ochoa.
-<p>Seemingly a conversation between <term xml:lang="sa">Kṛṣṇa</term> and the <term xml:lang="sa">gopī</term>s. From the collection of Charles d’Ochoa (1816-1846).</p></summary>
+                  <summary><p>A copy of the <title xml:lang="hi">Bhavaragītā</title>, a marathi version of the <title xml:lang="sa">Bhagavadgītā</title>.</p>
+<p>A <foreign>pothi</foreign> bound as a codex.</p>
+<p>Seemingly a conversation between <term xml:lang="sa">Kṛṣṇa</term> and the <foreign xml:lang="sa">gopī</foreign>s. From the collection of Charles d’Ochoa (1816-1846) [TBC].</p></summary>
                   
-               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="hi-Deva">भवर गीता</title><textLang mainLang="hin"/><rubric xml:lang="hi-Deva"><pb facs="8" n="1r"/>
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="hi-Deva">भवरगीता</title><textLang mainLang="hin"/><rubric xml:lang="hi-Deva"><pb facs="8" n="1r"/>
 <milestone unit="main-text-area"/>
 <lb n="1"/>श्री गणेशाय नमः 
 <lb n="2"/>श्री राधाय ॥ चौपई ॥<space/>॥<space/>॥ </rubric><incipit xml:lang="hi-Deva"><pb facs="8" n="1r"/>
@@ -69,7 +70,7 @@
                   
                   
                   
-               <objectDesc form="codex" rend="manuscript">
+               <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="paper">
                         
                         
@@ -79,7 +80,7 @@
                      <support>
                            
                         </support><extent>
-                           <measure unit="page" quantity="16">{2} + 12 + {2} (u1 + U1 + u2)</measure>
+                           <measure unit="folio" quantity="16">{2} + 12 + {2} (u1 + U1 + u2)</measure>
                            <dimensions type="object" unit="mm">
                               
                               
@@ -92,7 +93,7 @@
                               
                               
                            </dimensions>
-                        </extent><collation><desc xml:id="u1">2 folios = <emph rend="bold">guard leaves</emph>. No foliation. Element of codex binding. f[1]r marbled. 240 x 145 mm.</desc><desc xml:id="U1">12 folios = front <emph rend="bold"><title xml:lang="sa">Bhagavadgītā</title>: Text</emph>. Nāgarī pagination 1-23 (recto and verso, top, middle). Library Arabic foliation 1-12 (recto top, right side). f12r=p[24] blank. 240 x 145 mm.
+                        </extent><collation><desc xml:id="u1">2 folios = <emph rend="bold">guard leaves</emph>. No foliation. Element of codex binding. f[1]r marbled. 240 x 145 mm.</desc><desc xml:id="U1">12 folios = front <emph rend="bold"><title xml:lang="sa">Bhavaragītā</title>: Text</emph>. Nāgarī pagination 1-23 (recto and verso, top, middle). Library Arabic foliation 1-12 (recto top, right side). f12r=p[24] blank. 240 x 145 mm.
 </desc><desc xml:id="u2">2 folios = <emph rend="bold">guard leaves</emph>. No foliation. Element of codex binding. f[2]v marbled. 240 x 145 mm.</desc></collation><condition>Excellent state of preservation.</condition></supportDesc>
                      <layoutDesc>
                         <layout writtenLines="17"/>
@@ -103,36 +104,34 @@
   BHAOR GUIT. POÈME BRIDJ BHACHA.
 </quote>
        
-</desc><desc subtype="spine">BnF current shelfmark sticker: <quote>INDIEN 702</quote> (<locus facs="2">spine</locus>).</desc><desc subtype="cover front">BnF current shelfmark sticker: <quote>INDIEN 703</quote> (<locus facs="6">front cover, verso</locus>).</desc><desc synch="#u1" type="shelfmark">Shelfmark in black ink <locus facs="7">f[2]r</locus>:
-<quote xml:lang="fr" rend="block">
-  Ind. 57
-</quote></desc></additions><bindingDesc>
+</desc><desc subtype="spine">BnF current shelfmark sticker: <quote>INDIEN 702</quote> (<locus facs="2">spine</locus>).</desc><desc subtype="cover front">BnF current shelfmark sticker: <quote>INDIEN 703</quote> (<locus facs="6">front cover, verso</locus>).</desc><desc synch="#u1" type="shelfmark">Shelfmark in black ink (<locus facs="7">f[2]r</locus>):
+<quote xml:lang="fr"> Ind. 57</quote></desc></additions><bindingDesc>
                      <binding>
                         
                         <decoNote type="stringhole">
                            <measure unit="stringhole"/>
                         </decoNote>
-                    </binding>
+                    <p>Bound as a codex.</p></binding>
                   </bindingDesc></physDesc>
                <history>
                   
                   
                   
                <origin>
-                     <origDate calendar="gregorian" when="1842"/>
+                     <origDate calendar="gregorian" when="1842">No internal date. Dated to the 19th century by Cabaton (1912), on unstated grounds.</origDate>
                      
-                  </origin><provenance><p>From the collection of <persName role="collector">Charles d'Ochoa</persName>.</p></provenance></history>
+                  <origPlace>India.</origPlace></origin><provenance><p>Unknown.</p></provenance><acquisition><p>Unknown.</p></acquisition></history>
                <additional>
                   <listBibl>
                      
-                  </listBibl>
+                  <bibl>Cabaton, Antoine. 1912. <title xml:lang="fr">Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens. Bibliothèque nationale. Département des manuscrits.</title> Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f120">p. 101, no. 703</ref>.</bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <encodingDesc><p>Text transcribed in Devanāgarī script.</p></encodingDesc>
+      <encodingDesc><p>Original text encoded / transliterated in Devanāgarī script.</p></encodingDesc>
       
-   <revisionDesc><change when="2022-08">First version.</change></revisionDesc></teiHeader>
+   <revisionDesc><change when="2022-08">First version.</change><change when="2023-03">Revised and updated by <persName>Emmanuel FRANCIS</persName>. Version 1, March 2023.</change></revisionDesc></teiHeader>
    <facsimile>
    <graphic url="https://didomena.ehess.fr/concern/data_sets/kw52jh37p/manifest.json"/></facsimile>
 </TEI>
