@@ -252,7 +252,7 @@ const dbops = {
     },
 
     close:(db, ftsdb) => {
-        ftsdb.prepare('INSERT INTO fulltext(text) values (\'optimize\')').run();
+        ftsdb.prepare('INSERT INTO fulltext(fulltext) VALUES (\'optimize\')').run();
         ftsdb.prepare('VACUUM').run();
         ftsdb.close();
 
