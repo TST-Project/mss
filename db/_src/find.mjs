@@ -56,7 +56,7 @@ const getPlacement = (el) => {
     const milestone = util.milestone(el) || 
         el.closest('desc')?.querySelector('locus') ||
         el.querySelector('locus, milestone, pb'); // if el is <desc>
-    const placement = el.getAttribute('place').replaceAll('-',' ') || // if el is <fw>
+    const placement = el.getAttribute('place')?.replaceAll('-',' ') || // if el is <fw>
         util.placement(el) || // deprecated (for <milestone>s like @unit='main-text-area' 
         el.closest('desc')?.getAttribute('subtype')?.replace(/\s/g,', ').replaceAll('-',' ') ||
         util.line(el) || // also add column?
