@@ -17,7 +17,7 @@
 
 <xsl:output method="html" encoding="UTF-8" omit-xml-declaration="yes"/>
 
-<xsl:template match="/x:title | /x:seg | /x:colophon | /x:desc">
+<xsl:template match="/x:title | /x:seg | /x:colophon | /x:desc | /x:fw | /x:q | /x:quote">
     <xsl:element name="span">
         <xsl:call-template name="lang"/>
         <xsl:if test="@class">
