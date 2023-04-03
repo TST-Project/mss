@@ -57,13 +57,16 @@ data.mss = (xmlDoc,base) => {
 };
 
 
-const paratextnames = ['blessing','header','invocation','ownership-statement','satellite-stanza','table-of-contents','title','tbc'];
+const paratextnames = ['colophon','blessing','header','invocation','ownership-statement','satellite-stanza','table-of-contents','title','tbc'];
 
 data.paratexts = (xmlDoc) => {
+    /*
     const ret = new Map([
         ['colophon', find.colophons(xmlDoc)]
     ]);
-    for(const other of paratextnames) ret.set(other,find.paratexts(xmlDoc,other));
+    */
+    const ret = new Map();
+    for(const name of paratextnames) ret.set(name,find.paratexts(xmlDoc,name));
     return  ret;
 };
 
@@ -87,7 +90,7 @@ tables.create = (db,ftsdb) => {
         ')').run();
     db.prepare('CREATE UNIQUE INDEX idx_mss_filename ON mss (filename)').run();
     db.prepare('CREATE INDEX idx_mss_repository ON mss (repository)').run();
-
+    /*
     db.prepare('CREATE TABLE '+
         'paratexts_colophon (' +
         'filename TEXT REFERENCES mss(filename) ON UPDATE CASCADE ON DELETE CASCADE, '+
@@ -98,9 +101,10 @@ tables.create = (db,ftsdb) => {
         'placement TEXT'+
         ')').run();
     db.prepare('CREATE INDEX idx_colophon_filename ON paratexts_colophon (filename)').run();
-    for(const other of paratextnames) {
+    */
+    for(const name of paratextnames) {
         db.prepare('CREATE TABLE '+
-            `[paratexts_${other}] (` +
+            `[paratexts_${name}] (` +
             'filename TEXT REFERENCES mss(filename) ON UPDATE CASCADE ON DELETE CASCADE, '+
             'text TEXT NOT NULL, ' +
             'synch TEXT, '+ 
@@ -108,7 +112,7 @@ tables.create = (db,ftsdb) => {
             'facs TEXT, '+ 
             'placement TEXT'+
             ')').run();
-        db.prepare(`CREATE INDEX [idx_${other}_filename] ON [paratexts_${other}] (filename)`).run();
+        db.prepare(`CREATE INDEX [idx_${name}_filename] ON [paratexts_${name}] (filename)`).run();
     }
     db.prepare('CREATE TABLE collections (' +
         'filename TEXT REFERENCES mss(filename) ON UPDATE CASCADE ON DELETE CASCADE, '+
@@ -152,9 +156,9 @@ tables.create = (db,ftsdb) => {
     ftsdb.prepare('CREATE VIRTUAL TABLE fulltext USING fts5(filename, shelfmark, title, text, tokenize="trigram")').run();
 };
 tables.drop = (db,ftsdb) => {
-    db.prepare('DROP TABLE IF EXISTS paratexts_colophon').run();
-    for(const other of paratextnames)
-        db.prepare(`DROP TABLE IF EXISTS [paratexts_${other}]`).run();
+    //db.prepare('DROP TABLE IF EXISTS paratexts_colophon').run();
+    for(const name of paratextnames)
+        db.prepare(`DROP TABLE IF EXISTS [paratexts_${name}]`).run();
     db.prepare('DROP TABLE IF EXISTS [g_below-base]').run();
     db.prepare('DROP TABLE IF EXISTS [g_post-base]').run();
     db.prepare('DROP TABLE IF EXISTS collections').run();

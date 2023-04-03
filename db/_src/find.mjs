@@ -107,7 +107,8 @@ const processParatext = (xmlDoc,el) => {
             placement
         ];
         */
-        const inner = el.nodeName === 'seg' ? el : (el.querySelector('q,quote') || el);
+        //const inner = el.nodeName === 'seg' ? el : (el.querySelector('q,quote') || el);
+        const inner = el.nodeName === 'desc' ? (el.querySelector('q,quote') || el) : el;
         return [xmlToHtml(xmlDoc,inner),...getPlacement(el)];
 };
 
@@ -118,8 +119,23 @@ const find = {
         return make.html(res).documentElement.textContent.trim().replace(/\s+/g,' ');
     },
 
-    paratexts: (xmlDoc,name) => [...xmlDoc.querySelectorAll(`seg[function~="${name}"], desc[type~="${name}"]`)].map(el => processParatext(xmlDoc,el)),
-
+    paratexts: (xmlDoc,name) => {
+        if(name === 'colophon') {
+            const colophons = [...xmlDoc.querySelectorAll('colophon, seg[function~="colophon"]')];
+            const cs1 = [...xmlDoc.querySelectorAll('desc[type~="copy-statement"]')];
+            const cs2 = [...xmlDoc.querySelectorAll('seg[function~="copy-statement"]')].filter( 
+                el => !el.closest('colophon, seg[function~="colophon"]')
+            );
+            return colophons.concat(cs1, cs2).map(el => processParatext(xmlDoc,el));
+        }
+        else {
+            const selector = name === 'header' ? 
+                'seg[function~="header"], desc[type~="header"], fw' :
+                `seg[function~="${name}"], desc[type~="${name}"]`;
+            return [...xmlDoc.querySelectorAll(selector)].map(el => processParatext(xmlDoc,el));
+        }
+    },
+    /*
     colophons: (xmlDoc) => {
         const colophons = [...xmlDoc.querySelectorAll('colophon, seg[function~="colophon"]')];
         const cs1 = [...xmlDoc.querySelectorAll('desc[type~="copy-statement"]')];
@@ -130,6 +146,7 @@ const find = {
             return processParatext(xmlDoc,el);
         });
     },
+    */
     /*
     cote: (xmlDoc) => {
         const txt = xmlDoc.querySelector('idno[type="shelfmark"]').textContent || '';
