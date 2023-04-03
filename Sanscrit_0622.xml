@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><title xml:lang="sa">Amarakoṣapañcikā</title></title>
+            
+         <editor><persName>Charles LI</persName><orgName>CNRS, CEIAS, UMR 8564</orgName></editor><editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS, UMR 8564</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2023</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Sanscrit 622</idno>
+                  <idno type="alternate"><idno>Sanscrit Grantha 35</idno><idno>a/5</idno></idno>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc97349j</idno></msIdentifier>
+               <msContents class="#STM">
+                  <summary><p>This manuscript contains the first two <term xml:lang="sa">kāṇḍa</term>s of the <title xml:lang="sa">Amarakoṣa</title>, a Sanskrit lexicon, with a commentary in mixed Tamil and Telugu. Each <term xml:lang="sa">kāṇḍa</term> is foliated separately. The title of the commentary, <title xml:lang="ta">Amarakoṣapañcikā</title>, is given in the <ref target="https://gallica.bnf.fr/ark:/12148/btv1b10536321f/f118">catalogue entry</ref> of Antoine Cabaton, although it does not seem to appear in the manuscript itself. The title is probably carried over from Sanscrit 621 (old shelfmark a/6), a manuscript of the third <term xml:lang="sa">kāṇḍa</term> of the <title xml:lang="sa">Amarakoṣa</title>, with a Tamil commentary. However, that manuscript seems to be by a different scribe, and the commentary also seems to be different — it does not seem to have Telugu words mixed in.</p>
+<p>For a different commentary on the <title xml:lang="sa">Amarakoṣa</title> in mixed Tamil and Telugu, see Ciotti &amp; Sathyanarayan 2020.</p></summary>
+                  
+               <msItem synch="#U1 #U2" xml:id="Ak" defective="false"><title xml:lang="sa">Amarakoṣa</title><textLang mainLang="san"/></msItem><msItem synch="#U1 #U2" xml:id="AkP" defective="false"><title xml:lang="ta">Amarakoṣapañcikā</title><textLang mainLang="tam" otherLangs="san tel"/></msItem></msContents>
+               <physDesc>
+                  
+                  
+                  
+                  
+                  
+               <objectDesc form="pothi" rend="manuscript">
+                     <supportDesc material="palm-leaf palmyra">
+                        
+                        
+                        
+                        
+                        
+                     <support>
+                           
+                        </support><extent>
+                           <measure unit="folio" quantity="310">1 unnumbered, 1-146, 1, 1 unnumbered, 1-161</measure>
+                           <dimensions type="object" unit="mm">
+                              
+                              
+                           <depth quantity="170"/></dimensions>
+                           <dimensions type="leaf" unit="mm">
+                              <width quantity="315"/>
+                              <height quantity="30"/>
+                           </dimensions>
+                           <dimensions type="written" unit="mm">
+                              
+                              <height quantity="20"/>
+                           <width min="260" max="280"/></dimensions>
+                        </extent><foliation>Tamil numerals, left margin, recto.</foliation><collation><desc xml:id="U1">First kāṇḍa: unnumbered satellite stanza folio, 1-146.</desc><desc xml:id="U2">Second kāṇḍa: title folio numbered 1, first verse on an unnumbered folio, commentary begins 1-161.</desc></collation><condition>Good condition, albeit with some worm holes.</condition></supportDesc>
+                     <layoutDesc>
+                        <layout writtenLines="4" style="inline-commentary"/>
+                     </layoutDesc>
+                  </objectDesc><handDesc><handNote synch="#U1 #U2" scope="sole" script="grantha tamil" scriptRef="#tamilPulliNone #tamilOE" medium="incised soot"/></handDesc><additions>
+                  </additions><bindingDesc>
+                     <binding>
+                        <p>Stringholes 140 mm apart.</p>
+                        <decoNote type="stringhole">
+                           <measure unit="stringhole" quantity="2"/>
+                        </decoNote>
+                    </binding>
+                  </bindingDesc></physDesc>
+               <history>
+                  
+                  
+                  
+               <origin>
+                     <origDate calendar="gregorian"/>
+                     
+                  </origin><provenance><p>Likely part of the collection of <persName role="collector">Édouard Ariel</persName>.</p></provenance></history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl>Cabaton, Antoine. (1907-1908). <title xml:lang="fr">Catalogue sommaire des manuscrits sanscrits avec supplément manuscrit</title>. Paris: E. Leroux. Supplemented by Jean Filliozat. <ref target="https://gallica.bnf.fr/ark:/12148/btv1b10536321f/f118.item">102</ref>.</bibl><bibl>Ciotti, Giovanni &amp; Sathyanarayan, R. 2020. <title type="article">A multilingual Commentary of the First Verse of the Nāmaliṅgānuśāsana as found in ms. IFP RE22704</title>.  In Anandakichenin, Suganya and D’Avella, Victor B., eds., <title>The Commentary Idioms of the Tamil Learned Traditions</title>. Pondicherry: IFP/EFEO.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc><p>IAST/Madras lexicon transliteration.</p></encodingDesc>
+      
+   <revisionDesc><change when="2023-04">First version.</change></revisionDesc></teiHeader>
+<text synch="#U1" corresp="#AkP" xml:lang="ta">
+<front>
+  <p>
+    <milestone unit="folio" n="title recto"/>
+    <lb n="1"/>
+    <seg function="title">pēr amaram —</seg>
+  </p>
+
+  <p>
+    <milestone n="Ar" unit="folio"/>
+    <seg function="invocation">
+      <lg xml:lang="sa">
+        <l><lb n="1"/>vāgartthāv iva saṃprakto vāgartthapratipattiye</l>
+        <l>jagatapitaro vaṃde <lb n="2"/>pārvatiparameśvarau</l>
+      </lg>
+    </seg>
+  </p>
+</front>
+<body>
+  
+  <milestone n="1r" unit="folio"/>
+  
+  <fw place="left-margin">
+    <seg function="blessing" xml:lang="sa">
+      <lb n="1"/>śubham astu 
+      <lb n="2"/>avighna<lb n="3"/>m astu
+    </seg>
+  </fw>
+
+  <p>
+    <seg function="incipit" corresp="#Ak">
+      <lg xml:lang="sa">
+        <l><lb n="1"/>yasya jñānadayāsiṃdhdho|r a<sic>ghā</sic>dhasyānaghā guṇāḥ |</l>
+        <l>sevyatāṃm akṣayo dhirā | <lb n="2"/>sa śriyai <sic>ca mṛtāya cā</sic> ||</l>
+      </lg>
+    </seg>
+  </p>
+  <p>
+    <seg function="incipit">vurai || ye <term xml:lang="sa">dhīrāḥ</term> | vo vintuvāmcakkaḷe | 
+    <lb n="3"/>ñānā ñānadayā<term xml:lang="sa">siṃdhe</term> | ñānā ñānattukku | dayā dayaḷukku || 
+    <lb n="4"/>cinto | ācṟayuṇṭānava<g rend="prereform">ṉai</g> pol | <term xml:lang="sa">agādhasyā</term> | āḻamāna | <term xml:lang="te-Latn-t-te-Gran">gaṃbhiranuṇḍu<pb n="1v"/><lb n="1"/>naina</term> | perumaiyai oṭattāṉavaṉ pol | <term xml:lang="sa">yasyā</term> | yenta te<del>va</del>vaṉuṭaiya | <term xml:lang="sa">guṇāḥ</term> | 
+    <lb n="2"/>kuṇaṅkaḷ | <term xml:lang="sa">anughāḥ</term> | aṉukam iṉ<g rend="prereform">ṉā</g>l | pāpaṟahitamaṅkaḷ | <term xml:lang="sa">akṣayaḥ</term> | <del xml:lang="sa">a</del>aṭcayam iṉ<g rend="prereform">ṉā</g>l <g rend="prereform">ṉā</g>ca<lb n="3"/>millātavaṉ | <term xml:lang="sa">śriyai ca</term> | <term xml:lang="sa">śri</term>yai yiṉ<g rend="prereform">ṉā</g>l campattai kori uṇarnavaṉ | 
+      <lb n="4"/><term xml:lang="sa">amṛtāya cā</term> | amuṟtāya cā yiṉ<g rend="prereform">ṉā</g>l | mo<subst><del>ṭca</del><add place="below">kṣa</add></subst>ttai korīkoṇṭavaṉ | <term xml:lang="sa">sevyatāṃ</term> | ce<pb n="2r"/><lb n="1"/>viyatām iṉ<g rend="prereform">ṉā</g>l teṇṭam paṇṇi<seg rend="grantha">nna</seg>va<g rend="prereform">ṉā</g>kakkoṇṭu | yippaṭikki paṟamecuvaṟa<g rend="prereform">ṉai</g> |</seg>
+    <lb n="2"/>veṇṭi | yiṉṉam – camuttiṟapakṣam āyittūṉe | vo dhī vintuvāmcakkaḷe | <term xml:lang="sa">yasya</term> |
+    <lb n="3"/>ye | <term xml:lang="sa">agādhasyā</term> | yecciya yiṉ<g rend="prereform">ṉā</g>lum | ye | yiṉ<g rend="prereform">ṉā</g>lum | akātacciya yiṉ<g rend="prereform">ṉā</g><lb n="4"/>lum | āḻamāna camuntiṟam | cinto yiṉ<g rend="prereform">ṉā</g>lum camuntiṟattuṉuṭaiya āḻamūm kuṇa<g rend="below-base">muM</g>
+    <pb n="2v"/><lb n="1"/><term xml:lang="sa">guṇāḥ</term> | kuṇam iṉ<g rend="prereform">ṉā</g>l Atuṉuṭaiya cāṟam pole | appaṟam | ṟetti<g rend="prereform">ṉā</g>kaṟamiṉṉum | 
+    <lb n="2"/><term xml:lang="sa">guṇāḥ</term> | retti<g rend="prereform">ṉā</g>kaṟam iṉ<g rend="prereform">ṉā</g>l teṟakku camuntiṟattu kuṇa<del><gap reason="illegible"/></del>ṅkaḷ | 
+    <term xml:lang="sa">anughāḥ</term> | <lb n="3"/>aṉukam iṉ<g rend="prereform">ṉā</g>l ni<g rend="below-base">ṣka</g>lam akalakkammillāmal yiṟukkapaṭṭatu | <term xml:lang="sa">akṣayaḥ</term> | aṭcaya<lb n="4"/>m iṉ<g rend="prereform">ṉā</g>l <g rend="prereform">ṉā</g>camillata collukku penu | <term xml:lang="sa">ā</term> | ā yiṉ<g rend="prereform">ṉā</g>l A<subst>k<del rend="implied">a</del><add>ā</add></subst>ṟam iṉ<g rend="prereform">ṉā</g>l piṟummā <term xml:lang="sa">viṣṇu</term>vukku peṟu ||
+    <pb n="3r"/><lb n="1"/><term xml:lang="sa">kamadeṣyaṃgaṇe<del><gap reason="illegible"/></del>raṇe</term> || kamateciyaṅkaṇeṟaṇe | yiṉ<g rend="prereform">ṉā</g>l | yippaṭi kottayeḻuttu 
+    <lb n="2"/>peru uṭaiyava<g rend="prereform">ṉai</g> <term xml:lang="sa">ghaṃṭaṭakāḥ</term> | kakaṇṭakā yiṉṉāl Anta <term xml:lang="sa">viṣṇu</term>vukkulayam il<g rend="prereform">lai</g> | 
+    <lb n="3"/><term xml:lang="sa">kṣayaḥ | kṣayaḥ</term> yiṉ<g rend="prereform">ṉā</g>l ṉīvācam ṉivācam iṉ<g rend="prereform">ṉā</g>l yeṉṉa yeṉṉakkim
+    <lb n="4"/>vācam āyi yiṟukkuṟattukku kṣayamm il<g rend="prereform">lai</g> yeṉṟa vāṟu | <term xml:lang="sa">iti</term> amaṟam | ṉīvācam iṉ<g rend="prereform">ṉā</g>l | 
+    <pb n="3v"/><lb n="1"/><term xml:lang="sa">saḥ</term> | cakā yiṉ<g rend="prereform">ṉā</g>l | anta camuntiṟam | <term xml:lang="sa">śriyai cā</term> | <term xml:lang="sa">śri</term>yai yiṉ<g rend="prereform">ṉā</g>l makālaṭcumi<lb n="2"/>yai uṭattāṉavar pole | amuṟutāya cā | amuṟutāya cā yiṉ<g rend="prereform">ṉā</g>l moṭca<lb n="3"/>ttai kori uṇṭāṉavaṉ pole | ñāṉa | ñāṉattaiyum Uṭattāṉa<lb n="4"/>var pole | <term xml:lang="sa"><del>ta</del>dayā</term> | teyai yiṉ<g rend="prereform">ṉā</g>l gaṟuṇīyaḷḷiṭattile paccātāpam Oṭattāṉavar
+    <pb n="4r"/><lb n="1"/>pole yum | yiṟukkappaṭṭate yivaṉe | <term xml:lang="sa">seviyatāṃ</term> | ommai cāṟuvakālamum cevi<lb n="2"/>kkapaṭṭavaṉ yiṉṉaṟ collu ||
+  </p>
+  
+  <milestone n="145r" unit="folio"/>
+  <p xml:lang="sa">
+    <seg function="explicit" corresp="#Ak">
+      <lb n="4"/><gap reason="ellipsis"/>❈<g ref="#pcl"/> iti vārīvargaḥ | ❈❈ uktaṃ sarvam adhik_kāla|divāt_ śabdādinā<pb n="145v"/><lb n="1"/>ṭyakaṃ | pāṭaḷabhoginarako | vāri śeṣāṃn tu saṃgataṃ | 
+    </seg>
+    <seg function="completion-statement">
+      ity amarasiṃhakṛtau | nāmaliṃgānuśā<lb n="2"/>sane | svarādiprathamakāṃṇḍaḥ | sāṃga yevā samartthitaḥ | iṃda amarasiṃhaṃ muhijja <lb n="3"/>saṃpūrṇṇaṃ |
+    </seg>
+    <seg function="colophon" xml:lang="sa">
+      <seg function="blessing">
+        śūbham astu | śrīrāmacaṃndrasvāmisahāyam <g ref="#pcs"/> śrīlakṣmaṇa<term xml:lang="ta">je<g rend="below-base">yam</g></term> uṇḍākavuṃ |
+        <lb n="4"/>❈ ❈ ❈ ❈ <term xml:lang="sa"><unclear>śri</unclear></term> ❈ ❈ ❈ ❈ ❈ ❈ ❈ ❈
+      </seg>
+    </seg>
+  </p>
+</body></text><text synch="#U2" corresp="#AkP" xml:lang="ta"><front xml:lang="te-Latn-t-te-Gran">
+  <milestone n="Ar" unit="folio"/>
+  <p>
+    <seg function="intertitle">
+      <lb n="1"/>reṇḍāṃ kāṇḍaṃ pustakaṃ
+    </seg>
+  </p>
+</front>
+<body>
+  <milestone n="Br" unit="folio"/>
+  
+  <fw place="left-margin">
+    <seg function="blessing" xml:lang="sa">
+    <lb n="1"/>hariḥ <lb n="2"/>om 
+      <lb n="3"/>śubham astu</seg>
+  </fw>
+  
+  <p><seg function="incipit" corresp="#Ak">
+    <lg xml:lang="sa">
+      <l><lb n="1"/>vargāprithvipurakṣmābhrut | dhaunauṣadhimṛgādhibhiḥ</l>
+      <l>nṛbraṃhakṣatraviṭ śūdre sāṃgopāṃ<lb n="2"/>go vihoditaḥ |</l>
+      <l>bhur bhūmir acalānaṃntā rasā viśvaṃ bharastriyāṃ |</l>
+    </lg>
+  </seg></p> 
+
+  <pb n="1r"/>
+   
+  <fw place="left-margin">
+    <seg function="intertitle" xml:lang="te-Latn-t-te-Gran">
+        <lb n="1"/>reṇḍā<lb n="2"/>kāṇḍaṃ <lb n="3"/>modalu
+    </seg>
+  </fw>
+  
+  <p><seg function="incipit" xml:lang="sa">
+    <lb n="1"/>bhuḥ | bhūmi | acalā | anaṃntā rasā visvaṃ |
+   </seg></p>
+  
+  <milestone n="160r" unit="folio"/>
+  
+     <p xml:lang="sa"><lb n="3"/><gap reason="ellipsis"/>iti śūdravargaḥ | ❈ |||</p>
+
+     <lg xml:lang="sa">
+       <l>vargābhanagarakṣmābhṛ| <lb n="4"/>daunauṣadhimṛgādhibhiḥ |</l>
+       <l>nṛbraṃhakṣatraviṭ śū<del>dra dra dra</del>dre | sāṃgopāṃger īho<pb n="160v"/><lb n="1"/>ditiḥ |</l>
+     </lg>
+   
+     <p xml:lang="sa">aṃggaṃ pratyaṃgā<unclear>lu</unclear> galabhavarga puravarga kṣmābhṛt_varga | vanauṣadhivarga || mrigādhivarga | <lb n="2"/>manuṣyavarga braṃhavarga | kṣatriyavarga | vaiśyavarga | śūdravargaluṃ | <seg function="completion-statement">iṃda reṇḍāṃ kāṇḍa<term xml:lang="ta">ttu</term><lb n="3"/>le śollap padhuvaduyinnu veru | ❈ iti amarasiṃhakṛtau nāmaliṃgānuśāsa<lb n="4"/>ne | dvādikāṇḍe dvitiyo bhamikāṇḍo yaṃ | sāṃga yeva samartthataḥ | ❈<g ref="#pcl"/> |||</seg></p>
+  
+      <p xml:lang="sa">
+        <seg function="colophon">
+          <lg>
+            <l><subst><del>i</del><add place="below">yā</add></subst>dṛśaṃ pustakaṃ <pb n="161r"/><lb n="1"/>dṛṣṭvā tādruśaṃ likhitaṃ mayā |</l>
+            <l>abadhdhaṃ vā | subadhdhaṃ vā | mama doṣo na vidyate || || || ||</l>
+          </lg>
+          <seg function="blessing">
+           <lb n="2"/>❈ śrigurubhyo namaḥ | śriśivāya nmaḥ | śrisarasvatyai namaḥ | śri<lb n="3"/>gurupādame getī | <g ref="#pcl"/><g ref="#pcl"/><g ref="#pcl"/><g ref="#pcl"/><g ref="#pcl"/><g ref="#pcl"/><g ref="#pcl"/><g ref="#pcl"/><g ref="#pcl"/><g ref="#pcl"/><g ref="#pcl"/><g ref="#pcl"/><g ref="#pcl"/> || ||
+          </seg>
+        </seg>
+      </p>
+
+</body></text></TEI>
