@@ -9,7 +9,7 @@
          
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2022</date>
+            <date>2023</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -33,10 +33,13 @@
                   
                <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
-                        <support>
+                        
+                        
+                          
+                        
+                     <support>
                            <!--measure unit="stringholes" quantity=""/-->
-                        </support>
-                        <extent>
+                        </support><extent>
                            <measure unit="folio" quantity="38">{1} + 37 (U1 + U2).</measure>
                            <dimensions type="leaf" unit="mm">
                               
@@ -49,10 +52,7 @@
                             
                             
                         </dimensions>
-                        </extent>
-                          
-                        
-                     <collation>
+                        </extent><collation>
                      
                      <desc xml:id="U1">1 folio = <emph rend="bold"><title xml:lang="ta">Manōṉmaṉiyantāti: </title>Invocation</emph>. No foliation.</desc><desc xml:id="U2">37 folios = <emph rend="bold"><title xml:lang="ta">Manōṉmaṉiyantāti</title>: Text</emph>. Tamil foliation {1}, 2-37.</desc></collation><condition>Excellent state of preservation, despite boreholes. </condition></supportDesc>
                      <layoutDesc>
@@ -109,16 +109,16 @@
     
   <pb facs="5" n="[1]r"/>
   
-  <seg function="header">
-    <milestone n="1" unit="left-margin"/>
+ <fw place="left-margin">
+    <cb n="1"/>
   <seg function="blessing"><lb n="1-2"/>civamaya<supplied reason="omitted">m</supplied> <note xml:lang="en">inscribed inside <foreign xml:lang="sa">oṁ </foreign> symbol with a <foreign xml:lang="sa">triśūla</foreign></note></seg>
   
-    <seg function="title"><milestone n="2" unit="left-margin"/>
+    <seg function="title"><cb n="2"/>
   <lb n="1-2"/>manōṉmaṇiyantāti <note xml:lang="en">unblackened</note></seg>
   <seg function="prosody"><lb n="3-4"/>veṇpā</seg>
-    </seg>
+    </fw>
   
-   <seg function="incipit"><milestone unit="main-text-area"/>
+   <seg function="incipit">
   <lb n="1"/>ceyyāta tīviṉaikaḷ ceytāluñ ceyta
   <lb n="2"/>kuṇam ~ <gap reason="ellipsis"/></seg>
     <lb n="3-5"/><gap reason="ellipsis"/>
@@ -135,12 +135,12 @@
     
   <pb facs="7" n="[1]r"/>
   
-  <seg function="header">
-    <seg function="blessing"><milestone unit="left-margin"/>
-  <lb n="1-4"/>varākiyammaṉuṭaiya pātamē tuṇai</seg></seg>
+<fw place="left-margin">
+  <seg function="blessing">
+  <lb n="1-4"/>varākiyammaṉuṭaiya pātamē tuṇai</seg>
+  </fw>
   
-      <milestone unit="main-text-area"/>
-    <seg function="incipit">
+        <seg function="incipit">
    <lb n="1"/>poṉṉ itaḻ pānta malar koṉṟai <gap reason="ellipsis"/></seg>
         <lb n="2-6"/><gap reason="ellipsis"/>
 

@@ -9,7 +9,7 @@
          
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2022</date>
+            <date>2023</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -35,10 +35,15 @@
                   
                <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
-                        <support>
+                        
+                        
+                        
+                        
+                        
+                        
+                     <support>
                            <!--measure unit="stringholes" quantity=""/-->
-                        </support>
-                        <extent>
+                        </support><extent>
                            <measure unit="folio" quantity="9">9 (U1).</measure>
                            <dimensions type="leaf" unit="mm">
                               <width quantity="275"/>
@@ -49,12 +54,7 @@
                                 <width min="225" max="240"/>
                                 <height quantity="30"/>
                            </dimensions>
-                        </extent>
-                        
-                        
-                        
-                        
-                     <collation>
+                        </extent><collation>
                      
                      <desc xml:id="U1">9 folios = <emph rend="bold"><title xml:lang="en">Nāṟkaraṇavupatēcam</title></emph>. Tamil foliation {1}‒9. f9v blank.</desc></collation></supportDesc>
                      
@@ -104,11 +104,12 @@
     
   <pb facs="95" n="[1]r"/>
   
-  <seg function="header"><milestone unit="left-margin"/>
+  <fw place="left-margin">
   <seg function="blessing"><lb n="1-2"/>kuru-pātan tuṇai</seg>
-  <seg function="title"><lb n="3-5"/>nārkkaraṇaUpatēcam</seg></seg>
+  <seg function="title"><lb n="3-5"/>nārkkaraṇaUpatēcam</seg>
+    </fw>
   
-  <seg function="incipit"><milestone unit="main-text-area"/>
+  <seg function="incipit">
   <lg><l><lb n="1"/>kuruparaṉ aṅ<unclear reason="vowel_unclear">kā</unclear>ṉ ṟēvi vallapaiyaip pō<choice><sic>tti</sic><corr>ṟṟi</corr></choice> – kū<choice><unclear>r</unclear><unclear>ra</unclear></choice>vayaṉ caracu
     <lb n="2" break="no"/><sic>pa</sic>ti<pc>-</pc>y<pc>-</pc>ammaṉaiyum pōtti</l> <l>y<pc>-</pc>iruvar patimēl makāleṭcumiyaiy pōtti
     <lb n="3"/>Eri<pc>-</pc>muka<pc>-</pc>ruttiraṉ ṟēvi ruttiriyaip pōtti</l> <l>Aruva<pc>-</pc>mayēspara

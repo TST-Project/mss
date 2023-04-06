@@ -9,7 +9,7 @@
          
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2022</date>
+            <date>2023</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -40,10 +40,13 @@
                   
                <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
-                        <support>
+                        
+                        
+                          
+                        
+                     <support>
                            <!--measure unit="stringholes" quantity=""/-->
-                        </support>
-                        <extent>
+                        </support><extent>
                            <measure unit="folio" quantity="55">{1} + 45 + 9 (U1 + Indien 4a + Indien 4b).</measure>
                            <dimensions type="leaf" unit="mm">
                               <width quantity="275"/>
@@ -56,10 +59,7 @@
                             <width min="225" max="240"/>
                             <height quantity="30"/>
                         </dimensions>
-                        </extent>
-                          
-                        
-                     <collation>
+                        </extent><collation>
                          <desc xml:id="coverFront">the <emph rend="bold">front cover</emph>. Shelfmarks on recto.</desc><desc xml:id="U1">1 folio = <emph rend="bold">Title Page (additional)</emph>. No foliation. Verso blank. Double leaf. Shelfmark on recto.</desc><desc xml:id="Indien4a">45 folios.</desc><desc xml:id="Indien4b">9 folios.</desc><desc xml:id="coverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Excellent state of preservation, despite a few boreholes caused by insects. </condition></supportDesc>
                      <layoutDesc>
                         <p/>
@@ -117,10 +117,12 @@
     
   <pb facs="3" n="[1]r"/>
   
-  <seg function="header"><seg function="blessing"><milestone unit="left-margin"/>
+ <fw place="left-margin">
+   <seg function="blessing">
   <lb n="1"/>veṟṟi
   <lb n="2" break="no"/>vēl uṟ
-  <lb n="3" break="no"/>ṟa tuṇai</seg></seg>
+  <lb n="3" break="no"/>ṟa tuṇai</seg>
+   </fw>
   
   <seg function="table-of-contents"><seg function="total-works"><milestone n="1" unit="column"/>
   <lb n="1"/>viratam

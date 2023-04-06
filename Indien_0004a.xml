@@ -9,7 +9,7 @@
          
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2022</date>
+            <date>2023</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -36,10 +36,12 @@
                   
                <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
-                        <support>
+                        
+                        
+                     
+                     <support>
                            <!--measure unit="stringholes" quantity=""/-->
-                        </support>
-                        <extent>
+                        </support><extent>
                            <measure unit="folio" quantity="45">45 (U1).</measure>
                            <dimensions type="leaf" unit="mm">
                               <width quantity="275"/>
@@ -50,9 +52,7 @@
                                 <width min="225" max="240"/>
                                 <height quantity="30"/>
                            </dimensions>
-                        </extent>
-                     
-                     <collation>
+                        </extent><collation>
                      
                      <desc xml:id="U1">45 folios = <emph rend="bold"><title xml:lang="en">Rāmatēvar Pūcāviti</title></emph>. Tamil foliation {1}‒45. f45v blank.</desc></collation></supportDesc>
                      
@@ -108,15 +108,16 @@
     
   <pb facs="5" n="[1]r"/>
     
-    <seg function="header"><milestone unit="left-margin"/>
+    <fw place="left-margin">
     <seg function="blessing"><lb n="1"/><term xml:lang="sa">ha<ex>riḥ</ex> Oṁ</term> <note xml:lang="en">the <term xml:lang="sa">ha</term> is inside the <term xml:lang="sa">Oṁ</term></note></seg> <seg function="blessing">naṉṟāka</seg> <seg function="blessing">kuru vāḻka</seg>
     <seg function="blessing"><lb n="2"/>kuruvē <choice><sic>tū</sic><corr>tu</corr></choice>ṇai</seg>
   <seg function="title"><lb n="3"/>rāmatēvar
   <lb n="4"/>pūcā<choice><sic>vī</sic><corr>vi</corr></choice>ti</seg>
   <seg function="intertitle" cert="low"><seg function="blessing" cert="low"><lb n="5"/>civayōkam</seg></seg>
-  <lb n="6"/>Irunūṟu</seg>                    
+  <lb n="6"/>Irunūṟu
+      </fw>                    
   
-  <seg function="incipit"><milestone unit="main-text-area"/>
+  <seg function="incipit">
   <lb n="1"/>mūlam eṉum mutaṟ poruḷ</seg> <gap reason="ellipsis"/>
   
   <pb facs="93" n="45r"/>
