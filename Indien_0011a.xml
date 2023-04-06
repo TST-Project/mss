@@ -9,7 +9,7 @@
          
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2022</date>
+            <date>2023</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -37,10 +37,15 @@
                   
                <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
-                        <support>
+                        
+                        
+                        
+                        
+                        
+                        
+                     <support>
                            <!--measure unit="stringholes" quantity=""/-->
-                        </support>
-                        <extent>
+                        </support><extent>
                            <measure unit="folio" quantity="31">2 + 22 + {1} (U1 + U2 + U3).</measure>
                            <dimensions type="leaf" unit="mm">
                               
@@ -53,12 +58,7 @@
                             
                             
                         </dimensions>
-                        </extent>
-                        
-                        
-                        
-                        
-                     <collation>
+                        </extent><collation>
                      
                      <desc xml:id="U1">8 folios = <emph rend="bold"><title xml:lang="ta">Tēvipūcāviti</title></emph>. Tamil foliation 1-8. f8v blank.</desc><desc xml:id="U2">22 folios = <emph rend="bold"><title xml:lang="ta">Amirtakaṭpūcāvitāṉam</title></emph>. Tamil foliation 1-22. f14v blank.</desc><desc xml:id="U3">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso, except <g ref="#pcs"/> in left margin of recto.</desc></collation><condition>Very good state of preservation. </condition></supportDesc>
                      <layoutDesc>
@@ -116,17 +116,17 @@
     
   <pb facs="5" n="1r"/>
   
-   <seg function="header"><seg function="blessing"><milestone unit="left-margin"/>
+   <fw place="left-margin"><seg function="blessing">
         <lb n="1"/>civamaya<seg rend="grantha">m·</seg></seg>
         <seg function="title"><lb n="2"/>tēvipūcāviti</seg>
-     </seg>
+     </fw>
   
    <seg function="incipit"><milestone unit="main-text-area"/>
   <lb n="1"/><gap reason="ellipsis"/></seg>
 
       <pb facs="11" n="4r"/>
-  <seg function="intertitle"><milestone unit="left-margin"/>
-        Aṟcaṉai</seg>
+  <fw place="left-margin"><seg function="intertitle">
+        Aṟcaṉai</seg></fw>
   
    <pb facs="19" n="8r"/>
   <seg function="explicit"><lb n="3"/><gap reason="ellipsis"/></seg> <seg function="blessing" cert="low">śrīṟājaṟājecuvari yiṣṭṭa
@@ -140,14 +140,13 @@
     
   <pb facs="21" n="1r"/>
   
-    <seg function="header">
-      <seg function="title">
-   <milestone unit="left-margin"/>
+<fw place="left-margin">
+  <seg function="title">
    <lb n="1-3"/>Amuṟtakeṭpūjāvitāṉam </seg>
    <seg function="intertile"><lb n="4-5"/>kurus·tōttiram</seg>
-      </seg>
+      </fw>
   
-   <seg function="incipit"><milestone unit="main-text-area"/>
+   <seg function="incipit">
   <lb n="1"/><gap reason="ellipsis"/></seg>
 
   <pb facs="64" n="22v"/>

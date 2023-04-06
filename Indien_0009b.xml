@@ -9,7 +9,7 @@
          
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2022</date>
+            <date>2023</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -33,10 +33,15 @@
                   
                <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
-                        <support>
+                        
+                        
+                        
+                        
+                        
+                        
+                     <support>
                            <!--measure unit="stringholes" quantity=""/-->
-                        </support>
-                        <extent>
+                        </support><extent>
                            <measure unit="folio" quantity="59">57 + {2} (U1 + U2).</measure>
                            <dimensions type="leaf" unit="mm">
                               
@@ -49,12 +54,7 @@
                             
                             
                         </dimensions>
-                        </extent>
-                        
-                        
-                        
-                        
-                     <collation>
+                        </extent><collation>
                      
                      <desc xml:id="U1">57 folios = <emph rend="bold"><title xml:lang="ta">Cauntariyalakari</title></emph>. Tamil foliation 1-57. f57v blank.</desc><desc xml:id="U2">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Inserted between f31-f32 of U3. Blank recto verso. Misplaced guard leaves.</desc></collation><condition>Very good state of preservation, despite some boreholes. </condition></supportDesc>
                      <layoutDesc>
@@ -113,15 +113,15 @@
     
   <pb facs="13" n="[1]r"/>
   
-   <seg function="header"><seg function="blessing"><milestone n="1" unit="left-margin"/>
+   <fw place="left-margin"><seg function="blessing"><cb n="1"/>
   <lb n="1"/>ha<unclear>ri</unclear> Om</seg>
 <seg function="blessing"><lb n="2"/>naṉṟāka</seg>
 <seg function="blessing"><lb n="3"/>kuru vāḻ</seg>
   
-   <seg function="intertitle"><milestone n="2" unit="left-margin"/>
-  <lb n="1"/>ĀṉantaAlakiri-p-pāṭal</seg></seg>
+   <seg function="intertitle"><cb n="2"/>
+  <lb n="1"/>ĀṉantaAlakiri-p-pāṭal</seg></fw>
       
-  <seg function="incipit"><milestone unit="main-text-area"/>
+  <seg function="incipit">
     <lg><l><lb n="1"/>moḻinta maṟai nūl iya<sic>ttu</sic> mukappaṭām aṇinta mutuñāna tāṉam</l>
 <l><lb n="2"/>poḻintu taṉat<pc>’</pc> iṇaimaṇi y<pc>-</pc>eṉṟ<pc>’</pc> ārum  puṇaikaḷi<sic>ttai</sic>p pō<sic>tta</sic>l ceyvām</l> 
       <l><lb n="3"/>vaḻintu perumpuṉal parantu vaṭavaraiyilatt<pc>’</pc> ulak<pc>’</pc> ēḻum ēḻum okka</l> 
@@ -138,8 +138,8 @@
 <lb n="5"/>kiṟupā-kiṭāṣcam Uṇṭā
 <lb n="6" break="no"/>ka tākavum <g ref="#pcl"/></seg>
 
- <milestone n="2" unit="column"/>
-    <seg function="blessing"><lb n="1"/>cok=ka-ṉāyakar<pc>-</pc>uṭaiya kiṟupā-kiṭāṣcam
+ <seg function="blessing"><milestone n="2" unit="column"/>
+    <lb n="1"/>cok=ka-ṉāyakar<pc>-</pc>uṭaiya kiṟupā-kiṭāṣcam
 <lb n="2"/>Uṇṭāka vēṇṭiyatu <g ref="#pcl"/> <g ref="#pcl"/></seg>
 <seg function="blessing"><lb n="3"/>vikkiṉēs·parar<pc>-</pc>uṭaiya kiṟupā-kiṭāṣcam
 <lb n="4"/>Uṇṭāka vēṇṭiyatu <g ref="#pcl"/> <g ref="#pcl"/></seg>

@@ -33,10 +33,15 @@
                   
                <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
-                        <support>
+                        
+                        
+                        
+                        
+                        
+                        
+                     <support>
                            <!--measure unit="stringholes" quantity=""/-->
-                        </support>
-                        <extent>
+                        </support><extent>
                            <measure unit="folio" quantity="8">8 (U1).</measure>
                            <dimensions type="leaf" unit="mm">
                               
@@ -49,12 +54,7 @@
                             
                             
                         </dimensions>
-                        </extent>
-                        
-                        
-                        
-                        
-                     <collation>
+                        </extent><collation>
                      
                      <desc xml:id="U1">8 folios = <emph rend="bold"><title xml:lang="ta">Koṅkaṇar Pūcāviti</title></emph>. Tamil foliation {1}, 2-8.</desc></collation><condition>Very good state of preservation. </condition></supportDesc>
                      <layoutDesc>
@@ -111,16 +111,15 @@
   <ab>
     
   <pb facs="19" n="[1]r"/>  
-    <seg function="header">
-  <seg function="title"><milestone unit="left-margin"/>
+    <fw place="left-margin">
+  <seg function="title">
   <lb n="1-5"/>koṅkaṇar cuvāmi pūcāviti <g ref="#pcs"/></seg>
-      </seg>
+      </fw>
   
-   <seg function="incipit"><milestone unit="main-text-area"/>
+   <seg function="incipit">
   <lb n="1"/>parāparattil aṭaintu <gap reason="ellipsis"/></seg>
 
   <pb facs="34" n="8v"/>
-    <milestone unit="main-text-area"/>
     <seg function="explicit"><lb n="4"/><gap reason="ellipsis"/> cittarē <g ref="#pcs"/></seg>
     
 </ab>

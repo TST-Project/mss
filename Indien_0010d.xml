@@ -33,10 +33,15 @@
                   
                <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
-                        <support>
+                        
+                        
+                        
+                        
+                        
+                        
+                     <support>
                            <!--measure unit="stringholes" quantity=""/-->
-                        </support>
-                        <extent>
+                        </support><extent>
                            <measure unit="folio" quantity="11">11 (U1).</measure>
                            <dimensions type="leaf" unit="mm">
                               
@@ -49,12 +54,7 @@
                             
                             
                         </dimensions>
-                        </extent>
-                        
-                        
-                        
-                        
-                     <collation>
+                        </extent><collation>
                      
                      <desc xml:id="U1">11 folios = <emph rend="bold"><title xml:lang="ta">Koṅkaṇar Pāṭal</title></emph>. Tamil foliation {1}, 2-11. f11v blank.</desc></collation><condition>Very good state of preservation. </condition></supportDesc>
                      <layoutDesc>
@@ -111,17 +111,16 @@
   <ab>
     
   <pb facs="35" n="[1]r"/>
-    <seg function="header">
-  <seg function="blessing"><milestone unit="left-margin"/>
+    <fw place="left-margin">
+  <seg function="blessing">
   <lb n="1"/><g ref="#pcs"/> <term xml:lang="sa">hari Om</term></seg>
 <seg function="title"><lb n="2-4"/>koṅkaṇar cuvāmi pāṭal</seg>
-      </seg>
+      </fw>
   
-    <seg function="incipit"><milestone unit="main-text-area"/>
+    <seg function="incipit">
  <lb n="1"/><gap reason="ellipsis"/></seg>
 
   <pb facs="55" n="11r"/>
-    <milestone unit="main-text-area"/>
      <seg function="explicit"><lb n="8"/>Aṉṉē <g ref="#pcs"/> <num rend="traditional">50</num> <g ref="#pcs"/></seg> <seg function="colophon"><seg function="completion-statement">koṅkaṇar cuvāmiyār Aṉpatu muṟ<g rend="below-base">ṟuM</g> <g ref="#pcs"/></seg> <seg function="blessing">vālampikai leṭcikka vēṇum <g ref="#pcs"/></seg></seg>
   
     <pb facs="56" n="11v"/><note xml:lang="en">blank</note>

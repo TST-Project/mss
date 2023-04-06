@@ -9,7 +9,7 @@
          
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2022</date>
+            <date>2023</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -38,10 +38,13 @@
                   
                <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
-                        <support>
+                        
+                        
+                        
+                        
+                     <support>
                            
-                        </support>
-                        <extent>
+                        </support><extent>
                            <measure unit="folio" quantity="298">{1} + {9} + {1} + {1} + 58 + 225 + {1} + {1} + {1} (U1 + U2 + U3 + U4 + U5 + U6 + U6bis + U7 + U8).</measure>
                            <dimensions type="leaf" unit="mm">
                               
@@ -51,10 +54,7 @@
                               
                               
                            </dimensions>
-                        <dimensions type="object" unit="mm"><width quantity="405"/><height quantity="30"/><depth quantity="185"/></dimensions></extent>
-                        
-                        
-                     <collation>
+                        <dimensions type="object" unit="mm"><width quantity="405"/><height quantity="30"/><depth quantity="185"/></dimensions></extent><collation>
                         
                         
                         
@@ -124,20 +124,22 @@
   <ab>
     
   <pb facs="10" n="[1]r"/>
-    <seg function="table-of-contents"><seg function="blessing">
-    <milestone n="1" unit="column"/>
+    
+      <fw place="left-margin">
+      <seg function="blessing">
   <lb n="1"/>veṟṟivē
   <lb n="2" break="no"/>l uṟṟa tuṇai</seg>
+        </fw>
   
-  <seg function="total-works"><milestone n="2" unit="column"/>
+  <seg function="table-of-contents"><seg function="total-works"><milestone n="1" unit="column"/>
   <lb n="1"/>\2\</seg>
   
-  <seg function="title"><milestone n="3" unit="column"/>
+  <seg function="title"><milestone n="2" unit="column"/>
   <lb n="1"/>civakkiyāṉa
   <lb n="2" break="no"/>pōtakavurai</seg>
   <seg function="title"><lb n="3"/>civakkiyāṉa
   
-  <milestone n="4" unit="column" break="no"/>
+  <milestone n="3" unit="column" break="no"/>
   <lb n="1"/>cittiyār
   <lb n="2"/>cupakṣam
   <lb n="3"/>Urai</seg>
@@ -148,15 +150,15 @@
     
   <pb facs="13" n="[1]r"/>
   
-  <seg function="table-of-contents"><seg function="header">
+      <fw place="left-margin">
     <seg function="blessing">
-    <milestone n="1" unit="left-margin"/>
+    <cb n="1"/>
     <lb n="1-3"/>tirucciṟṟampalam</seg>
-    <seg function="title"><milestone n="2" unit="left-margin"/>
+    <seg function="title"><cb n="2"/>
     <lb n="1-2"/>civakkiyāṉapōtakam</seg>
-    </seg>
+    </fw>
     
-  <milestone n="1" unit="column"/>
+  <seg function="table-of-contents"><milestone n="1" unit="column"/>
   <lb n="1"/><g ref="#muthal">mutal</g> cūttiram ~ 51
   <lb n="2"/>Iraṇṭāñ cūttiram <gap reason="illegible"/>
   <lb n="3-5"/><gap reason="ellipsis"/>
@@ -170,26 +172,26 @@
   <lb n="3"/><seg function="total-stanzas">{Āka} cūttiram <num rend="traditional">12</num>k=ku veṇpā <num rend="traditional">81</num></seg> <unclear><g ref="#pcs"/></unclear></seg>
   
     </ab>
- </body>
-                     </text><text synch="#U4" corresp="#T3" xml:lang="ta"><body>
+ </body></text><text synch="#U4" corresp="#T3" xml:lang="ta"><body>
   <ab>
     
   <pb facs="16" n="[1]r"/>
   
-  <seg function="table-of-contents"><seg function="header">
-    <seg function="blessing">
-      <milestone n="1" unit="left-margin"/>
-  <lb n="1-3"/>tirucciṟṟampalam</seg></seg>
+ 
+<fw place="left-margin">
+  <seg function="blessing"><cb n="1"/>
+      <lb n="1-3"/>tirucciṟṟampalam</seg>
   
   <seg function="title">
-    <milestone n="2" unit="left-margin"/>
+    <cb n="2"/>
   <lb n="1"/>cittiyār
   <lb n="2"/>civakkiyā<supplied reason="omitted">ṉa</supplied>
   <lb n="3" break="no"/>pōtakat
   <lb n="4" break="no"/>tukku kāra
   <lb n="5" break="no"/>ṇam</seg>
+  </fw>
   
-  <milestone n="1" unit="column"/>
+  <seg function="table-of-contents"><milestone n="1" unit="column"/>
     <lb n="1-8"/><gap reason="ellipsis"/>
 
       <milestone n="2" unit="column"/>
@@ -225,16 +227,17 @@
     
   <pb facs="23" n="[1]r"/>
   
-  <seg function="header">
-    <milestone n="1" unit="left-margin"/>
+  <fw place="left-margin">
+    <cb n="1"/>
   <seg function="title"><lb n="1-3"/>civakkiyāṉapōtakam</seg>
-  <seg function="blessing"><lb n="4-5"/>tirucciṟṟampalam</seg></seg>
+  <seg function="blessing"><lb n="4-5"/>tirucciṟṟampalam</seg>
   
-   <seg function="TBC"><milestone n="2" unit="left-margin"/>
+   <seg function="TBC"><cb n="2"/>
   <lb n="1"/>malar
   <lb n="2"/>tāl</seg>
+    </fw>
   
-  <seg function="incipit"><milestone unit="main-text-area"/>
+  <seg function="incipit">
   <lb n="1"/><gap reason="ellipsis"/></seg>
 
   <pb facs="30" n="58v"/>
@@ -246,15 +249,17 @@
   </body></text><text synch="#U6" corresp="#T5" xml:lang="ta"><body>
   <ab>
   <pb facs="33" n="[1]r"/>
-  <seg function="blessing">
-  <milestone unit="left-margin"/>
+    
+  <fw place="left-margin">
+    <seg function="blessing">
   <lb n="1"/><term xml:lang="sa">hariḥ Om</term></seg>
   <seg function="title"><lb n="2"/>śiva<unclear><seg rend="grantha">jñā</seg></unclear>na
  <lb n="3" break="no"/>nataśitti
  <lb n="4" break="no"/>yār śu
  <lb n="5" break="no"/>pakṣavarai</seg>
+    </fw>
 
-  <seg function="incipit"><milestone unit="main-text-area"/>  
+  <seg function="incipit">  
   <lb n="1"/><gap reason="ellipsis"/></seg>
 
   <pb facs="44" n="225v"/>
@@ -278,17 +283,18 @@
   <ab>
   <pb facs="53" n="[1]r"/>
   
-  <seg function="table-of-contents"><seg function="header">
+     <fw place="left-margin">
     <seg function="blessing">
-    <milestone n="1" unit="left-margin"/>
+    <cb n="1"/>
   <lb n="1-2"/>tirucciṟṟampalam</seg>
   
   <seg function="title">
-    <milestone n="2" unit="left-margin"/>
+    <cb n="2"/>
   <lb n="1"/>civakkiyāṉa
 <lb n="2" break="no"/>cittiyār</seg>
-    </seg>
+    </fw>
   
+     <seg function="table-of-contents">
   <milestone n="1" unit="column"/>
   <lb n="1"/>6m cūttiram 9
 <lb n="2"/>7m cūttiram 4
@@ -307,14 +313,12 @@
 <lb n="1"/>{Āka} cūttiram  <num rend="traditional">12</num>k=ku <num rend="traditional">327</num></seg></seg>
     
   </ab>
- </body>
-                     </text><text synch="#U8" corresp="#T8" xml:lang="ta"><body>
+ </body></text><text synch="#U8" corresp="#T8" xml:lang="ta"><body>
   <ab>  
   <pb facs="57" n="[1]r"/>
   
-  <seg function="header">
-    <seg function="blessing">
-    <milestone unit="left-margin"/>
-  <lb n="1"/>civamayam</seg></seg>
+<fw place="left-margin">
+  <seg function="blessing">
+  <lb n="1"/>civamayam</seg></fw>
     </ab>
   </body></text></TEI>

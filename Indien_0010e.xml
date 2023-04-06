@@ -33,10 +33,15 @@
                   
                <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
-                        <support>
+                        
+                        
+                        
+                        
+                        
+                        
+                     <support>
                            <!--measure unit="stringholes" quantity=""/-->
-                        </support>
-                        <extent>
+                        </support><extent>
                            <measure unit="folio" quantity="19">19 (U1).</measure>
                            <dimensions type="leaf" unit="mm">
                               
@@ -49,12 +54,7 @@
                             
                             
                         </dimensions>
-                        </extent>
-                        
-                        
-                        
-                        
-                     <collation>
+                        </extent><collation>
                      
                      <desc xml:id="U1">19 folios = <emph rend="bold"><title xml:lang="ta">Varākimālai Mūlamantiram</title></emph>. Tamil foliation {1}, 2-19.</desc></collation><condition>Very good state of preservation. </condition></supportDesc>
                      <layoutDesc>
@@ -111,11 +111,10 @@
   <ab>
     
   <pb facs="57" n="[1]r"/>
-    <seg function="header">
+    <fw place="left-margin">
   <seg function="title">
-  <milestone unit="left-margin"/>
   <lb n="1-5"/>varāki-mālai mūla-mantiram <g ref="#pcs"/></seg>
-      </seg>
+      </fw>
   
    <seg function="incipit"><milestone n="1" unit="column"/>
     <lb n="1"/><term xml:lang="sa">Om</term> Ayyuṅ kiliyum avvum cavvum
@@ -126,7 +125,6 @@
   <milestone n="2" unit="column"/><note xml:lang="en">diagram</note>
 
   <pb facs="94" n="19v"/>
-    <milestone unit="main-text-area"/>
   <seg function="explicit"><lb n="4"/> <gap reason="ellipsis"/> – 35 –</seg>
 </ab>
 </body></text></TEI>
