@@ -9,7 +9,7 @@
          
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2022</date>
+            <date>2023</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -28,44 +28,44 @@
                   
                <msItem synch="#U2" xml:id="T1" defective="false"><title xml:lang="sa">Amarapañcikā</title><author xml:lang="sa">Veṅkaṭeśvara</author><textLang mainLang="san" otherLangs="tam"/><filiation><p>IFP (Pondicherry) RE22704, RE45807, etc. See Ciotti (2017).</p></filiation></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi" rend="manuscript">
+                  
+                  
+                  
+                  
+                  
+               <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
-                        <support>
+                        
+                        
+                        
+                        
+                        
+                     <support>
                            
                            
-                        <p>Rounded edges.</p></support>
-                        <extent>
+                        <p>Rounded edges.</p></support><extent>
                            <measure unit="folio" quantity="304">3 + 298 + 3 (U1 + U2 + U3).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
                            <width quantity="370"/><height quantity="30"/></dimensions>
-                        <dimensions type="object" unit="mm"><width quantity="370"/><height quantity="30"/><depth quantity="160"/></dimensions><dimensions type="written" unit="mm"/></extent>
-                        
-                        
-                        
-                     <collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">3 folios = <emph rend="bold">guard leaves</emph>. Tamil foliation 1-3. Blank recto verso. </desc><desc xml:id="U2">268 folios = <emph rend="bold"><title xml:lang="sa">Amarapañcikā</title></emph>. Tamil foliation {1}, 2-221<hi rend="superscript">1</hi>, 221<hi rend="superscript">2</hi>-267. f267v blank.</desc><desc xml:id="U3">3 folios = <emph rend="bold">guard leaves</emph>. Arabic original foliation 1-3. Blank recto verso.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Excellent state of preservation.</condition></supportDesc>
+                        <dimensions type="object" unit="mm"><width quantity="370"/><height quantity="30"/><depth quantity="160"/></dimensions><dimensions type="written" unit="mm"/></extent><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">3 folios = <emph rend="bold">guard leaves</emph>. Tamil foliation 1-3. Blank recto verso. </desc><desc xml:id="U2">268 folios = <emph rend="bold"><title xml:lang="sa">Amarapañcikā</title></emph>. Tamil foliation {1}, 2-221<hi rend="superscript">1</hi>, 221<hi rend="superscript">2</hi>-267. f267v blank.</desc><desc xml:id="U3">3 folios = <emph rend="bold">guard leaves</emph>. Arabic original foliation 1-3. Blank recto verso.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Excellent state of preservation.</condition></supportDesc>
                      <layoutDesc>
                         
                      <layout columns="1"/></layoutDesc>
-                  </objectDesc>
-                  
-                  
-                  
-                  
-               <handDesc><handNote synch="#U2" scope="major" script="grantha tamil" medium="incised soot"><desc><persName role="scribe">Ducler's scribe</persName>.</desc></handNote></handDesc><decoDesc>
+                  </objectDesc><handDesc><handNote synch="#U2" scope="major" script="grantha tamil" medium="incised soot"><desc><persName role="scribe">Ducler's scribe</persName>.</desc></handNote></handDesc><decoDesc>
                   </decoDesc><additions>
                   <desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>SANSCRIT 613</quote> (<locus facs="4">front cover, recto</locus>). </desc><desc synch="#CoverFront #CoverBack" type="shelfmark" subtype="back cover front">Tamil letter <quote xml:lang="ta">Ō</quote> engraved (<locus facs="7">front cover, verso</locus> and <locus facs="8">back cover, recto</locus>).</desc></additions><bindingDesc>
                      <binding><p>Original <material>ebony</material> covers. 295 x 30 mm.</p><decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
                   </bindingDesc></physDesc>
                <history>
-                  <origin>
+                  
+                  
+                  
+               <origin>
                      <origDate calendar="gregorian" notAfter="1832" notBefore="1831">Internally dated to the year <foreign xml:lang="sa">khara</foreign> of the Jovian cycle, that is, CE 1832-1833. See colophon (U2, f267r, c2, 1).</origDate>
                      
-                  <origPlace>South India, Tamil Nadu.</origPlace></origin>
-                  <provenance><p>Burnouf.</p></provenance>
-                  <acquisition><p>Burnouf.</p></acquisition>
-               </history>
+                  <origPlace>South India, Tamil Nadu.</origPlace></origin><provenance><p>Burnouf.</p></provenance><acquisition><p>Burnouf.</p></acquisition></history>
                <additional>
                   <listBibl>
                      
@@ -88,8 +88,8 @@
     
   <pb facs="10" n="1r"/>
   
-  <seg function="blessing"><milestone unit="left-margin"/>
-   <lb n="1-2"/>hariḥ Om·</seg>
+  <fw place="left-margin"><seg function="blessing">
+   <lb n="1-2"/>hariḥ Om·</seg></fw>
   
   <seg function="incipit"><milestone n="1" unit="column"/>
   <lb n="1"/>svaḥ ~ Avyayaṃ ~ svargaḥ
@@ -124,8 +124,10 @@
 <lb n="5"/>maṃgaḷaṃ <g ref="#pcl"/></seg></seg>
 
   <pb facs="20" n="49r"/>
-  <seg function="blessing"><milestone unit="left-margin"/>
+  <fw place="left-margin">
+    <seg function="blessing">
    <lb n="1-2"/>hariḥ Om· ~</seg>
+    </fw>
   
     <milestone n="1" unit="column"/>
   <lb n="1"/>vargāḥ ~ pṛthivī ~ pura <term xml:lang="en">{line-filler: ḥ}</term>
@@ -153,8 +155,10 @@
 <seg function="blessing"><lb n="5"/>śubham astu<g ref="#pcs"/></seg></seg>
   
   <pb facs="24" n="174r"/>
-  <seg function="blessing"><milestone unit="left-margin"/>
+    <fw place="left-margin">
+  <seg function="blessing">
    <lb n="1-2"/>hariḥ Om·</seg>
+      </fw>
   
   <milestone n="1" unit="column"/>
   <lb n="1"/>sukṛtī ~ puṇyavān· ~
