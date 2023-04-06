@@ -42,16 +42,16 @@
 						
 					<objectDesc form="pothi" rend="manuscript">
 							<supportDesc material="palm-leaf">
-								<support/>
-								<extent>
+								
+								
+								
+							<support/><extent>
 									<measure unit="folio" quantity="286">{1} + {1} + {1} + 283 (U1 + U2 + U3 + U4).</measure>
 									<dimensions type="leaf" unit="mm">
 										
 										
 									<width min="390" max="400"/><height min="35" max="40"/></dimensions>
-									<dimensions type="object" unit="mm"><width quantity="450"/><height quantity="40"/><depth quantity="170"/></dimensions><dimensions type="written" unit="mm"/></extent>
-								
-							<collation>
+									<dimensions type="object" unit="mm"><width quantity="450"/><height quantity="40"/><depth quantity="170"/></dimensions><dimensions type="written" unit="mm"/></extent><collation>
 									<desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">Title Page (additional)</emph>. No foliation. Verso blank. Hand #1. 390 x 35 mm.</desc><desc xml:id="U2">1 folio = <emph rend="bold"><term xml:lang="ta">Civatarumōttaram</term>: Table of Contents</emph>. No foliation. Hand #2. 400 x 35 mm.</desc><desc xml:id="U3">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso. 400 x 35 mm.</desc><desc xml:id="U4">283 folios = <emph rend="bold"><term xml:lang="ta">Civatarumōttaram</term>: Text &amp; Commentary</emph>. Tamil foliation 1‒283. Hand #2. 400 x 35/40 mm.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Very good state of preservation. A few boreholes.</condition></supportDesc>
 							<layoutDesc>
 								<layout resp="#cLI" writtenLines="9 11"/>
@@ -115,11 +115,11 @@
   <ab>
     
     <pb facs="1" n="[1]r"/>
-        
-    <seg function="header">
-      <seg function="blessing"><milestone unit="left-margin"/>
+    
+    <fw place="left-margin">
+      <seg function="blessing">
 			<lb n="1-2"/>veṟṟivēl uṟṟa tuṇai</seg>
-    </seg>
+    </fw>
     
     <seg function="title">
       <milestone n="1" unit="column"/>
@@ -138,14 +138,13 @@
     
     <seg function="table-of-contents">
 			
-    <seg function="header">
+       <fw place="left-margin">
       <seg function="title">
-      <milestone unit="left-margin"/>
-      <lb n="1"/>civatarumōttiram
+     <lb n="1"/>civatarumōttiram
       <lb n="2"/>Uraippāṭam</seg>
       <lb n="3"/>paṉireṇṭāvatu
       <lb n="4"/>kōpuraviyal <num rend="traditional">200</num>
-    </seg>
+    </fw>
       
     <milestone n="1" unit="column"/>			
       <lb n="1"/>mutalāvatu paramatarumātiyiyal <space/> <num rend="traditional">52</num>
@@ -173,12 +172,12 @@
   
   <pb facs="9" n="[1]r"/>
     
-  <seg function="header">
-    <seg function="blessing"><milestone unit="left-margin"/>
+      <fw place="left-margin">
+    <seg function="blessing">
   <lb n="1-2"/>tirucciṟṟampalam</seg>
   <seg function="title"><lb n="3-5"/>civatarumottiram Uraipāṭam</seg>
   <seg function="verse-beginning"><lb n="6"/>tirumālu <g ref="#pcl"/></seg>
-  <seg function="intertitle"><lb n="7-8"/>mutalāvatu paramata<unclear>ru</unclear>mātiyiyal ~</seg></seg>
+  <seg function="intertitle"><lb n="7-8"/>mutalāvatu paramata<unclear>ru</unclear>mātiyiyal ~</seg></fw>
   
   <seg function="incipit" type="root-text">
     <seg function="invocation"><milestone n="1" unit="column"/>
@@ -217,104 +216,105 @@
     <lb n="8"/><gap reason="ellipsis"/>
        
     <pb facs="41" n="17r"/>
-    <seg function="header">
-    <seg function="intertitle"><milestone unit="left-margin"/>
+    <fw place="left-margin">
+    <seg function="intertitle">
       <lb n="1-5"/>Iraṇṭāvatu civañāṉatāṉaviyal <g ref="#pcl"/></seg>
       <seg function="TBC"><lb n="6-7"/>Ariyañāṉattai</seg>
-      </seg>
+      </fw>
     
-    <milestone unit="main-text-area"/>
+    <lb n="1-6"/><gap reason="ellipsis"/>
     <lb n="7"/><gap reason="ellipsis"/>m eṉra v<pc>-</pc>āṟu ~ <gap reason="ellipsis"/>
     <lb n="8"/><gap reason="ellipsis"/> ~ veṉpatu ~ <gap reason="ellipsis"/>
     <lb n="9"/><gap reason="ellipsis"/> ~ 1 ~ <gap reason="ellipsis"/>
             
      <pb facs="77" n="35r"/>
-    <seg function="header">
-    <seg function="intertitle"><milestone unit="left-margin"/>
+    <fw place="left-margin">
+    <seg function="intertitle">
       <lb n="2-4"/>mūṉṟāvatu Aivakaiyākaviyal <g ref="#pcl"/></seg>
-      </seg>
+      </fw>
     
-    <milestone unit="main-text-area"/>
     <lb n="1"/>81 ~ <seg function="completion-statement">Iraṇṭāvatu civañāṉatāṉaviyal urai muṟṟum ~ <seg function="blessing">tirucciṟṟampalam<surplus>palam</surplus> <g ref="#pcl"/></seg></seg> <gap reason="ellipsis"/>
     
     <pb facs="93" n="43r"/>
-    <seg function="header">
-    <seg function="intertitle"><milestone unit="left-margin"/>
-      <lb n="1-5"/>palaviciṭṭa kāraṇaviyal <g ref="#pcl"/></seg>
-      <seg function="verse-beginning"><lb n="6"/>ciṟanta</seg>
-    </seg>
+    <fw place="left-margin">
+    <seg function="intertitle">
+      <seg function="verse-beginning"><lb n="6"/>ciṟanta</seg></seg>
+    </fw>
           
     <pb facs="103" n="48r"/>
-    <seg function="TBC"><milestone unit="left-margin"/>
+        <fw place="left-margin">
+<seg function="TBC">
       <lb n="1-8"/><gap reason="ellipsis"/></seg>
+          </fw>
               
     <pb facs="117" n="55r"/>
-    <seg function="header">
-    <seg function="intertitle"><milestone unit="left-margin"/>
+    <fw place="left-margin">
+    <seg function="intertitle">
       <lb n="1-3"/>Añcāvatu civatarumaviyal ~ ~</seg>
       <seg function="verse-beginning">Iṉimuṉi</seg>
-      </seg>
+      </fw>
     
     <pb facs="131" n="62r"/>
-    <seg function="header">
-    <seg function="intertitle"><milestone unit="left-margin"/>
+    <fw place="left-margin">
+    <seg function="intertitle">
       <lb n="1-3"/>Āṟāvatu pāvaviyal <g ref="#pcl"/></seg>
-      </seg>
+      </fw>
         
     <pb facs="169" n="81r"/>
-    <seg function="header">
-    <seg function="intertitle"><milestone unit="left-margin"/>
+    <fw place="left-margin">
+    <seg function="intertitle">
       <lb n="1-3"/>Ēḻāvatu cuvaṟkanarakaviyal <g ref="#pcl"/></seg>
-      </seg>
+      </fw>
           
     <pb facs="221" n="107r"/>
     
-    <seg function="TBC"><milestone n="1" unit="left-margin"/>
+        <fw place="left-margin">
+<seg function="TBC"><cb n="1"/>
       <lb n="1-5"/><gap reason="ellipsis"/></seg>
     
-    <seg function="TBC"><milestone n="2" unit="left-margin"/>
+    <seg function="TBC"><cb n="2"/>
       <lb n="1-7"/><gap reason="ellipsis"/> <g ref="#pcl"/></seg>
+          </fw>
         
       <pb facs="245" n="119r"/>
-    <seg function="header">
-    <seg function="intertitle"><milestone unit="left-margin"/>
+    <fw place="left-margin">
+    <seg function="intertitle">
       <lb n="1-4"/>Eṭṭāvatu ceṉaṉamaraṇaviyal <g ref="#pcl"/></seg>
-      </seg>
+      </fw>
       
       <pb facs="283" n="138r"/>
-    <seg function="header">
-    <seg function="intertitle"><milestone unit="left-margin"/>
+    <fw place="left-margin">
+    <seg function="intertitle">
       <lb n="1-5"/>Oṉpatāvatu covaṟkanarakaviyalurau</seg>
-      </seg>
+      </fw>
       
       <pb facs="305" n="149r"/>
-    <seg function="header">
-    <seg function="intertitle"><milestone unit="left-margin"/>
+    <fw place="left-margin">
+    <seg function="intertitle">
       <lb n="1-4"/>pattāvatu civañāṉayōkaviyalurai <g ref="#pcl"/></seg>
-      </seg>
+      </fw>
       
       <pb facs="367" n="180r"/>
-    <seg function="header">
-    <seg function="intertitle"><milestone unit="left-margin"/>
+    <fw place="left-margin">
+    <seg function="intertitle">
       <lb n="1-4"/>patiṉoṉṟāvatu parikāraviyal <g ref="#pcl"/></seg>
-      </seg>
+      </fw>
       
     <pb facs="431" n="212r"/>
-    <seg function="header">
-    <seg function="TBC"><milestone unit="left-margin"/>
+    <fw place="left-margin">
+    <seg function="TBC">
       <lb n="1-4"/>Uruttirāṭcam tarikkiṉum pāvam pōm <note xml:lang="en">that is, "Even if you wear <foreign xml:lang="ta">rudrākṣa</foreign> your sin will go."</note><g ref="#pcl"/>
       <lb n="5"/><gap reason="ellipsis"/>
       <lb n="6"/><gap reason="ellipsis"/></seg>
-      </seg>
+      </fw>
     
       <pb facs="463" n="228r"/>
-    <seg function="header">
-    <seg function="intertitle"><milestone unit="left-margin"/>
+    <fw place="left-margin">
+    <seg function="intertitle">
       <lb n="2-6"/>paṉireṇṭāvatu kōpuraviyal <g ref="#pcl"/></seg>
-      </seg>
+      </fw>
     
   <pb facs="572" n="282v"/>
-    <milestone unit="main-text-area"/>
     <lb n="1-3"/><gap reason="ellipsis"/>
     <lb n="4"/><gap reason="ellipsis"/> ~ <num rend="traditional" value="228">2<g ref="#nūṟu"/>2<supplied reason="omitted"><g ref="#pattu"/></supplied>5</num> ~ <gap reason="ellipsis"/>
     <lb n="5"/><gap reason="ellipsis"/> ~ <num rend="traditional" value="228">2<g ref="#nūṟu"/>2<supplied reason="omitted"><g ref="#pattu"/></supplied>6</num> ~ <gap reason="ellipsis"/>
