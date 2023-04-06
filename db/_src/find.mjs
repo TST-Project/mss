@@ -353,7 +353,7 @@ const find = {
             .filter(el => !el.closest('editionStmt') && !el.closest('editor') && !el.closest('bibl') && !el.closest('change'))
             .map(el => {
                 return {
-                    name: el.hasAttribute('key') ? el.getAttribute('key') : el.textContent,//el.innerHTML, 
+                    name: el.hasAttribute('key') ? el.getAttribute('key') : el.textContent.trim().replace(/\s+/g,' '), 
                     role: el.getAttribute('role') || ''
                 };
             });
