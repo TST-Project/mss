@@ -9,7 +9,7 @@
          
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2022</date>
+            <date>2023</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -53,19 +53,19 @@
                   
                <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
-                        <support>
+                        
+                        
+                        
+                        
+                     <support>
                            
-                        </support>
-                        <extent>
+                        </support><extent>
                            <measure unit="folio" quantity="22">{1} + {1} + 20 (U1 + U2a + U2b).</measure>
                            <dimensions type="leaf" unit="mm">
                               <width quantity="250"/>
                               <height quantity="35"/>
                            </dimensions>
-                           <dimensions type="object" unit="mm"><width quantity="250"/><height quantity="40"/></dimensions><dimensions type="written" unit="mm"/></extent>
-                        
-                        
-                     <collation>
+                           <dimensions type="object" unit="mm"><width quantity="250"/><height quantity="40"/></dimensions><dimensions type="written" unit="mm"/></extent><collation>
                            
                         <desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">Title Page (additional)</emph>. No primary foliation.  Parallel added Tamil foliation 75. Hand #1.</desc><desc xml:id="U2">21 folios = <emph rend="bold"><title xml:lang="ta">Attuvaitāṉupavam</title></emph>. Hand #2.
 </desc><desc xml:id="U2a">1 folio = <emph rend="bold"><title xml:lang="ta">Attuvaitāṉupavam</title>: Invocation</emph>. No foliation. Hand #2.
@@ -166,11 +166,15 @@ The titles of the 12 chapters, as given in the manuscript, are:
   <ab>
       
     <pb facs="3" n="[1]r"/>
-         <seg function="blessing"><milestone n="1" unit="column"/>
+    
+         <fw place="left-margin"> 
+           <seg function="blessing">
          <lb n="1"/>veṟṟi
         <lb n="2" break="no"/>vēl uṟṟa
         <lb n="3"/>tuṇai</seg>
-         <seg function="title"><milestone n="2" unit="column"/>
+           </fw>
+    
+         <seg function="title">
          <lb n="1"/>Attuvai
         <lb n="2" break="no"/>tā<sic>nu</sic>pavam</seg>    
      
@@ -180,10 +184,11 @@ The titles of the 12 chapters, as given in the manuscript, are:
   
   <pb facs="5" n="[1]r=75r"/>
   
-  <seg function="blessing"><milestone n="1" unit="left-margin"/>
+  <fw place="left-margin"> <seg function="blessing">
         <lb n="1"/><term xml:lang="sa">Oṁ</term></seg>
+    </fw>
   
-<seg function="title"><milestone n="2" unit="left-margin"/>
+<seg function="title">
          <lb n="1"/>Attuvai
         <lb n="2" break="no"/>tāṉupavam</seg>
          
@@ -194,19 +199,21 @@ The titles of the 12 chapters, as given in the manuscript, are:
            <l><lb n="3"/>vaḷa<gap reason="ellipsis"/></l>
            <l><lb n="4"/>ṉaḷi<gap reason="ellipsis"/></l>
   </lg> =</seg>
-         <lb n="5"/><note xml:lang="en">centred</note><seg function="blessing">caṟkuru pātan tuṇai</seg>
+         <lb n="5"/><note xml:lang="en">line centred</note> <seg function="blessing">caṟkuru pātan tuṇai</seg>
           
   <pb facs="6" n="[1]v=75v"/><note xml:lang="en">blank</note>         
       
-   </ab></body>
-   </text><text synch="#U2b" corresp="#T3" xml:lang="ta"><body><ab>
+   </ab>
+</body></text><text synch="#U2b" corresp="#T3" xml:lang="ta"><body><ab>
   
   <pb facs="7" n="[1]r=76r"/>
-  <seg function="intertitle"><milestone unit="left-margin"/>
+  <fw place="left-margin"> 
+  <seg function="intertitle">
         <lb n="1"/>pāyiram
         <lb n="2"/>kuruvaṇakkam =</seg>
+  </fw>
   
-  <seg function="incipit"><milestone unit="main-text-area"/>
+  <seg function="incipit">
         <lg><l><lb n="1"/>Aruḷiya ciṉmūṟtiyē muttoḻiṟku mummūṟtiyāy viṇmītiṟ</l> <l>karumaitōṟ ṟuvateṉṉavic carā
          <lb n="2" break="no"/>caraṅka ḷatiṉiṭattiṟkāṇpa teṉṉuṅ</l> <l>kuruvaruḷā liyāmaṟivilā tavaṟku meyyaṟivu koḷḷa vēta
          <lb n="3"/>p</l> <l>poruṇiṟaiyu mattu<choice><sic>vi</sic><corr>vai</corr></choice>tā vaṉupavanūṟ ṟirupatumpāṟ pukalu vōmē = 1 =</l></lg></seg> piramacukak <gap reason="ellipsis"/>   
@@ -215,11 +222,12 @@ The titles of the 12 chapters, as given in the manuscript, are:
         <lb n="1"/><gap reason="ellipsis"/> = 3 = <seg function="completion-statement">kuruvaṇakkamu<sic>ttu</sic>m = </seg> <seg function="intertitle">y<pc>-</pc>ippāl atikāralaṭcaṇam =</seg>
   
   <pb facs="9" n="2r=77r"/>
-  <seg function="intertitle"><milestone unit="left-margin"/>
+  <fw place="left-margin"> 
+  <seg function="intertitle">
   <lb n="1-5"/>Atikāralaṭcaṇam</seg>
+    </fw>
   
-   <milestone unit="main-text-area"/>
-        <lg><l><lb n="1"/>pattiyuṭa ṉippiṟappil muppiṟa<unclear>p</unclear>pi lākilu<unclear reason="vowel_unclear">mē</unclear> palaṉvēṇṭāmal</l> <l>nittiyāvaṉittiyaṅkaḷ mutalāṉa karumaṅka
+          <lg><l><lb n="1"/>pattiyuṭa ṉippiṟappil muppiṟa<unclear>p</unclear>pi lākilu<unclear reason="vowel_unclear">mē</unclear> palaṉvēṇṭāmal</l> <l>nittiyāvaṉittiyaṅkaḷ mutalāṉa karumaṅka
          <lb n="2"/>ṇiṟaiyac ceytā</l> <l>lottirunta cittacutti yuṇṭāmpiṉ ṉupācaṉaiyā lorumai yuṇṭā</l> <l>muttitarum vicā
          <lb n="3" break="no"/>raṇaiyāṟ piṉcīvaṉ piramamāy muṭiyun tāṉē = 1 =</l></lg> <gap reason="ellipsis"/>
   
@@ -228,12 +236,16 @@ The titles of the 12 chapters, as given in the manuscript, are:
   <lb n="9"/>vātam =</seg>
   
   <pb facs="12" n="3v=78v"/>
-  <seg function="intertitle"><milestone unit="left-margin"/>
+  <fw place="left-margin"> 
+  <seg function="intertitle">
   <lb n="1-7"/>Attiyā<subst><del>lō</del><add>rō</add></subst>pavvavātam</seg>
+    </fw>
         
    <pb facs="42" n="18v=93v"/>
-  <seg function="intertitle"><milestone unit="left-margin"/>
+  <fw place="left-margin"> 
+  <seg function="intertitle">
      <lb n="1-4"/><supplied reason="lost"><num rend="traditional">12</num></supplied>{<choice><unclear>Āvatu</unclear><unclear>Ām</unclear></choice>} vivēkacōrūpam</seg>
+    </fw>
   
   <pb facs="44" n="19v=94v"/>
          <lg><l><lb n="6"/>ciruṭṭikku muṉpiṉiraṇṭi llāmaloṉṟā yirunta cattē tiṉantē kāti</l> <l>viruttikkuñ cāṭci

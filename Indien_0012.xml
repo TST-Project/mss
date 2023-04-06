@@ -45,16 +45,16 @@
                   
                <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
-                        <support><p>The leaves are larger in the middle of the bundle.</p></support>
-                        <extent>
+                        
+                        
+                        
+                     <support><p>The leaves are larger in the middle of the bundle.</p></support><extent>
                            <measure unit="folio" quantity="377">{1} + {1} + {1} + 373 + {1} (U1 + U2a + U2b + U2c + U2d).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
                            <width min="405" max="450"/><height min="30" max="35"/></dimensions>
-                        <dimensions type="object" unit="mm"><width quantity="410"/><height quantity="35"/><depth quantity="215"/></dimensions><dimensions type="written" unit="mm"/></extent>
-                        
-                     <collation>
+                        <dimensions type="object" unit="mm"><width quantity="410"/><height quantity="35"/><depth quantity="215"/></dimensions><dimensions type="written" unit="mm"/></extent><collation>
                         
                         
                         
@@ -118,9 +118,9 @@
     <pb facs="1" n="[1]r"/>
     <note xml:lang="en">fragment 1</note>
     
-         <seg function="header"><seg function="blessing"><milestone unit="left-margin"/>
+         <fw place="left-margin"><seg function="blessing">
          <lb n="1"/>veṟṟivē
-        <lb n="2" break="no"/>l uṟṟa tuṇai</seg></seg>
+        <lb n="2" break="no"/>l uṟṟa tuṇai</seg></fw>
          
     <seg function="title"><milestone n="1" unit="column"/>
          <lb n="1"/>civatarumō
@@ -138,13 +138,13 @@
 
     <pb facs="5" n="[1]r"/>
    
-    <seg function="header">
-    <seg function="blessing"><milestone n="1" unit="left-margin"/>
+    <fw place="left-margin">
+    <seg function="blessing"><cb n="1"/>
     <lb n="1"/>civā</seg>
       
-      <seg function="title"><milestone n="2" unit="left-margin"/>
+      <seg function="title"><cb n="2"/>
     <lb n="1-3"/>civatarumōttirakāviyam <g ref="#pcs"/></seg>
-      </seg>
+      </fw>
     
       <seg function="TBC"><milestone n="1" unit="column"/>
     <lb n="1-5"/>Akattiyamakāmuṉikku cuppiṟamaṇiyacuvāmiyār aṉukkiṟakam paṇṇiṉatu</seg>
@@ -167,15 +167,16 @@
 
         <pb facs="7" n="[1]r"/>
           
-          <seg function="header">
-            <seg function="blessing"><milestone n="1" unit="left-margin"/>
+<fw place="left-margin">
+  <seg function="blessing"><cb n="1"/>
           <lb n="1"/>civā</seg>
             
-         <seg function="blessing"><milestone n="2" unit="left-margin"/>
+         <seg function="blessing"><cb n="2"/>
     <lb n="1"/><term xml:lang="sa">hari Om</term></seg>
           <seg function="blessing"><lb n="2"/>naṉṟāka</seg>
           <seg function="blessing"><lb n="3"/>kuru vāḻka</seg>
-          <seg function="blessing"><lb n="4-5"/>tirucciṟṟampalam</seg></seg>
+          <seg function="blessing"><lb n="4-5"/>tirucciṟṟampalam</seg>
+  </fw>
           
           <seg function="satellite-stanza">
             <milestone n="1" unit="column"/>
@@ -203,10 +204,11 @@
   <ab>
     <pb facs="9" n="1r"/>
       
-      <seg function="header">
-        <seg function="title"><milestone unit="left-margin"/><lb n="1-3"/>civatarumōttiram</seg></seg>
+      <fw place="left-margin">
+        <seg function="title"><lb n="1-3"/>civatarumōttiram</seg>
+        </fw>
                         
-      <seg function="incipit" type="root-text"><milestone unit="main-text-area"/>
+      <seg function="incipit" type="root-text">
     <lg><l><lb n="1"/>tirumālum potiṉṉun tevarumā muṉivōruñ ceṟintu pōṟṟa</l> <l>maruvārum poḻililavun tillaimaṇi maṉrāṭal makiḻ
       <lb n="2" break="no"/>vāṉṟaṉṉai</l> <l>yuruvākit tāṉuyirkaṭ kuruvākki yaḷittaṭakki yuyyac ceyyum</l> <l>perumāṉai nirumalaṉaic civaṉaiyaṭi paṇintuḷa
         <lb n="3" break="no"/>ttiṟ pēṉuvāmē <g ref="#pcs"/></l></lg></seg> <seg function="incipit" type="commentary">Eṉpatu <g ref="#pcs"/> <gap reason="ellipsis"/></seg>
@@ -214,94 +216,93 @@
     
     <pb facs="63" n="28r"/>
       
-      <seg function="header">
-        <seg function="intertitle"><milestone unit="left-margin"/>
+      <fw place="left-margin">
+        <seg function="intertitle">
         <lb n="1-5"/>Iraṇṭāvatu civañāṉatāṉātiyiyal</seg>
-          </seg>
+          </fw>
 
           <pb facs="127" n="59r"/>
       
-      <seg function="header">
-        <seg function="intertitle"><milestone unit="left-margin"/>
+<fw place="left-margin">
+  <seg function="intertitle">
           <lb n="1-5"/>mūṉṟāvat<pc>'</pc> aivakaiyākaviyal</seg>
-          </seg>
+          </fw>
             
     <pb facs="127" n="66r"/><note xml:lang="en">fragment 1</note>
     <pb facs="141" n="66r"/><note xml:lang="en">fragment 2</note>
            
               <pb facs="153" n="72r"/>
       
-      <seg function="header">
-        <seg function="intertitle"><milestone unit="left-margin"/>
+     <fw place="left-margin">
+        <seg function="intertitle">
         <lb n="1-5"/>ṉālāvatu viciṭṭakāraṇaviyal</seg>
-        </seg>
+        </fw>
           
 <pb facs="187" n="89r"/>
       
-      <seg function="header">
-        <seg function="verse-beginning"><milestone unit="left-margin"/>
+      <fw place="left-margin">
+        <seg function="verse-beginning">
           <lb n="1"/>Aṟputa</seg>
         <seg function="intertitle"><lb n="2-5"/>Aintāvatu civatarumaviyal</seg>
-        </seg>
+        </fw>
         
 <pb facs="205" n="98r"/>
       
-      <seg function="header">
-        <seg function="intertitle"><milestone unit="left-margin"/>
+      <fw place="left-margin">
+        <seg function="intertitle">
         <lb n="1-4"/>Āṟāvatu pāvaviyal <g ref="#pcs"/></seg>
-          </seg>
+          </fw>
         
 <pb facs="251" n="121r"/>
       
-      <seg function="header">
-        <seg function="intertitle"><milestone unit="left-margin"/>
+<fw place="left-margin">
+  <seg function="intertitle">
         <lb n="1-5"/>Ēḻāvatu cuvaṟkanarakaviyal <g ref="#pcs"/></seg>
-        </seg>
+        </fw>
         
 <pb facs="335" n="163r"/>
       
-      <seg function="header">
-        <seg function="intertitle"><milestone unit="left-margin"/>
+      <fw place="left-margin">
+        <seg function="intertitle">
         <lb n="1-4"/>Eṭṭāvatu ceṉaṉa maraṇaviyal <g ref="#pcs"/></seg>
-        </seg>
+        </fw>
         
         
 <pb facs="385" n="188r"/>
       
-      <seg function="header">
-        <seg function="intertitle"><milestone unit="left-margin"/>
+      <fw place="left-margin">
+        <seg function="intertitle">
         <lb n="1-5"/>Oṉpatāvatu cuvaṟkanaraka cēṭaviyal <g ref="#pcs"/></seg>
-        </seg>
+        </fw>
         
 <pb facs="412" n="201v"/>
       
-      <seg function="header">
-        <seg function="intertitle"><milestone unit="left-margin"/>
+<fw place="left-margin">
+  <seg function="intertitle">
         <lb n="1-6"/>pattāvatu civañāṉayōkaviyalpu <g ref="#pcs"/></seg>
-        </seg>
+        </fw>
         
 <pb facs="497" n="244r"/>
       
-      <seg function="header">
-        <seg function="intertitle"><milestone unit="left-margin"/>
+<fw place="left-margin">
+  <seg function="intertitle">
         <lb n="1-3"/>patiṉoṉṟāvatu parikāraviyal <g ref="#pcs"/></seg>
-        </seg>
+        </fw>
         
 <pb facs="623" n="307r"/>
       
-      <seg function="header">
-        <seg function="intertitle"><milestone unit="left-margin"/>
+      <fw place="left-margin">
+        <seg function="intertitle">
         <lb n="1-4"/><num rend="traditional">12</num>Āvatu kōpuraviyal <g ref="#pcs"/></seg>
-        </seg>
+        </fw>
     
     <pb facs="753" n="372r"/>
-    <milestone unit="main-text-area"/>
     <lb n="4"/><gap reason="ellipsis"/> <g ref="#pcs"/> 226 <g ref="#pcs"/> <seg function="explicit" type="root-text"><lg><l>vititikaḻ vētāka
       <lb n="5" break="no"/>ma vuṇarvāyē viṉaitīrak</l> <l>katamuka māmōkamu mukamāyā karuvēyō</l> <l>matakari pēḻvāy valimukamā māmaraivāḻum</l> <l>potimalai mītē puri<lb n="6" break="no"/>muṉitāṉē pukaḻvāmē <g ref="#pcs"/> <num rend="traditional">227</num> <g ref="#pcs"/></l></lg></seg> <seg function="colophon"><seg function="completion-statement">paṉireṇṭāvatu kōpuraviyal muṟṟum <g ref="#pcs"/></seg> <seg function="blessing">tirucciṟṟampalam <g ref="#pcs"/></seg> <seg function="total-chapters total-stanzas">Āviyal paṉireṇṭukku tiruviruttam <g ref="#pcs"/> <num rend="traditional">208</num> <g ref="#pcs"/></seg>
 
       <pb facs="754" n="372v"/>
       
-     <seg function="satellite-stanza"><milestone unit="main-text-area"/>
+     <seg function="satellite-stanza">
        <lg><l><lb n="1"/>muṉṉaṅkeṭakavakattiyaṉcaṇmukaṉpaṉṉīrāyiramākappakarntaṉaṉaṉaṉavuttaramāyiratteṭṭunūṟeṉavammuṉiceytiṅkiya<lb n="2"/>mpiṉaṉa <g ref="#pcs"/> 1 <g ref="#pcs"/></l></lg></seg>
     
     <seg function="satellite-stanza">
@@ -325,6 +326,7 @@
     <seg function="satellite-stanza">
       <lg><l>cūṭiṉārintaccoṉmalar</l>
       <l>cūṭaṭīṉarāṭīṉāṉṟillaiyampalattāṉa <choice><unclear>ṭi</unclear><unclear>m</unclear></choice></l>
+        
       <l><pb facs="755" n="373r"/>
 <lb n="1"/>yūṭīṉāṉayaṉoṭaḻittūṭalai</l>
         <l>nēṭīlāṉeṭu nāḷoṭu neṭṭuva <g ref="#pcs"/> 5 <g ref="#pcs"/></l></lg></seg>
@@ -333,16 +335,14 @@
       <seg function="intertitle">yitu viṉāyakaṉ ṟuti <g ref="#pcs"/></seg>
         vāmuṟukarimukaṉ malāṭīmelviraimalaro
       <lb n="2" break="no"/>ṭu kāmaviraviṭumelvarumalar karutiya matuveyoruvuvariruviṉaiyuruviṉaiyē <g ref="#pcs"/> 6 <g ref="#pcs"/></seg>
-    
-        
+            
     <seg function="satellite-stanza">
       <seg function="intertitle">yitu kuruttuti <g ref="#pcs"/></seg>
       <lg><l>pācaviṉācakapākava vākama<lb n="3" break="no"/>parāka vētapāra</l>
       <l>vācaṟa veyemai yāḷeṉa vāriya ṉāṇaṭīye yaṭaivār </l>
       <l>tēcuṟa vēcaṟavoṭam lecaṉa cevaṭiyē ceṟi<lb n="4" break="no"/>vār mācuṭalākiṉar</l>
         <l>tēcika nēcami lamāṉavarmāṉavarē <g ref="#pcs"/> 7 <g ref="#pcs"/></l></lg></seg>
-    
-        
+            
     <seg function="satellite-stanza">
       <seg function="intertitle">yitu civañāṉikaḷ tuti <g ref="#pcs"/></seg> 
        <lg><l>tammai yikaḻntavarntarittār</l>
@@ -363,16 +363,14 @@
       <l>kiṉpa rematuṇai</l>
       <l>yeṉpamiṉi viṉait</l>
       <l>tuṉpu <pb facs="756" n="373v"/><lb n="1"/>tolaiyumē <g ref="#pcs"/> <num rend="traditional">10</num> <g ref="#pcs"/></l></lg></seg>
-    
-    
+        
     <seg function="satellite-stanza">
       <seg function="intertitle">yitu civatalattuti <g ref="#pcs"/></seg>
       <lg><l>tillai vaḷa<unclear>kaka</unclear></l>
       <l>rellaiyeṉaviṉai</l>
       <l>yollaiyoruvīṭu</l>
       <l>nalla nayamuṟum <g ref="#pcs"/></l></lg></seg>
-    
-                            
+                                
     <seg function="satellite-stanza">
       <seg function="intertitle">yitu kayilāyattuti <g ref="#pcs"/></seg>
       <lg><l><lb n="2"/>vaṭavarai kayilaiyum potiyamāmalaiyumo</l>

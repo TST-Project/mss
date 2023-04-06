@@ -10,7 +10,7 @@
 
 			<publicationStmt>
 				<publisher>TST Project</publisher>
-				<date>2022</date>
+				<date>2023</date>
 			</publicationStmt>
 			<sourceDesc>
 				<msDesc>
@@ -42,18 +42,18 @@
 						
 					<objectDesc form="pothi" rend="manuscript">
 							<supportDesc material="palm-leaf">
-								<support> </support>
-								<extent>
+								
+								
+								
+								
+							<support> </support><extent>
 									<measure unit="folio" quantity="24">{1} + {1} + {1} + 14 + {7} (U1 + U2a + U2b + U2c + U3).</measure>
 									<dimensions type="leaf" unit="mm"> </dimensions>
 									<dimensions type="written" unit="mm"> </dimensions>
 									<dimensions type="object" unit="mm">
 										<width quantity="435"/>
 										<height quantity="25"/>
-									</dimensions></extent>
-								
-								
-							<collation>
+									</dimensions></extent><collation>
 									<desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. Shelfmarks on recto.</desc><desc xml:id="U1">1 folio = <emph rend="bold">Title Page (additional)</emph>. No foliation. Shelfmark on recto. Verso blank. Hand #1.</desc><desc xml:id="U2">14 folios = <title xml:lang="ta">Kēṭariyammaṉ Viratam</title>. Hand #2.</desc><desc xml:id="U2a">1 folio = <emph rend="bold">Instruction to user, benediction, title</emph>. No foliation. Verso blank. Hand #2.</desc><desc xml:id="U2b">1 folio = <emph rend="bold">Title, instruction to user, benediction</emph>. No foliation. Verso blank. Hand #2.</desc><desc xml:id="U2c">14 folios = <title xml:lang="ta">Kēṭariyammaṉ Viratam</title>: Text. Tamil foliation 1–14. Hand #2.</desc><desc xml:id="U3">7 folios = <emph rend="bold">guard leaves</emph>. No foliation.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>. Blank recto verso. Shelfmarks on recto.</desc></collation><condition>Very good state of preservation.</condition></supportDesc>
 							<layoutDesc>
 								<layout columns="1" writtenLines="4 5"/>
@@ -124,12 +124,14 @@
 		<body>
 			<ab>
 				<pb facs="3" n="[1]r"/>
-				<seg function="blessing"><milestone n="1" unit="column"/>
+				<fw place="left-margin"> <seg function="blessing">
 					<lb n="1"/>veṟṟivē
 <lb n="2" break="no"/>l uṟṟa tuṇai</seg>
-				<seg function="title"><milestone n="2" unit="column"/>
+                  </fw>
+              
+				<seg function="title"><milestone n="1" unit="column"/>
 					<lb n="1"/>Iḵtu
-<milestone n="3" unit="column"/>
+<milestone n="2" unit="column"/>
 					<lb n="1"/>kētārinātar
 <lb n="2"/>viratam</seg>
 			</ab>
