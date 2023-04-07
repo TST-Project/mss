@@ -1,300 +1,429 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Collection (4 works)</title>
-         </titleStmt>
-         <publicationStmt>
-            <publisher>TST Project</publisher>
-            <date>2022</date>
-         </publicationStmt>
-         <sourceDesc>
-            <msDesc>
-               <msIdentifier>
-                  <repository>
-                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
-                  </repository>
-                  <idno type="shelfmark">Indien 342</idno>
-                  <idno type="alternate"><idno>Tamoul 342</idno><idno>Ariel 59</idno><idno>c/39</idno></idno>
-               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1038682</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/2r36v525x</idno></msIdentifier>
-               <msContents class="#MTM">
-                  <summary><p>A multi-text manuscript containing four poems praising the Goddess Māriyammāṉ:
-<list rend="numbered">
-  <item>The <title xml:lang="ta">Muttumāriyammaṉ Pēril Vārṉippu</title> (U2).</item>
-  <item>The <title xml:lang="ta">Māriyammaṉ Pēril Tālāṭṭu</title> (U3).</item>
-  <item>The <title xml:lang="ta">Māriyammaṉ Pēril Aṭaikkalapaṟṟu</title> (U4) in 10 stanzas.</item>
-  <item>The <title xml:lang="ta">Māriyammaṉ Pēril Uñcal</title> (U5) in 10 stanzas.</item>
-</list></p>
-<p>Description based on the examination of the original manuscript (October 2020).</p>
-<p>Dimensions assessed at the time of examination.</p> 
-  
-   
-  
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Collection (4 works)</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>TST Project</publisher>
+				<date>2022</date>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>
+							<orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+						</repository>
+						<idno type="shelfmark">Indien 342</idno>
+						<idno type="alternate"
+								><idno>Tamoul 342</idno><idno>Ariel 59</idno><idno>c/39</idno></idno>
+						<idno type="URI"
+							>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1038682</idno>
+						<idno type="URI"
+							>https://didomena.ehess.fr/concern/data_sets/2r36v525x</idno>
+					</msIdentifier>
+					<msContents class="#MTM">
+						<summary><p>A multi-text manuscript containing four poems praising the Goddess Māriyammāṉ:
+<list
+									rend="numbered">
+									<item>The <title xml:lang="ta"
+											>Muttumāriyammaṉ Pēril Vārṉippu</title> (U2).</item>
+									<item>The <title xml:lang="ta"
+										>Māriyammaṉ Pēril Tālāṭṭu</title> (U3).</item>
+									<item>The <title xml:lang="ta"
+											>Māriyammaṉ Pēril Aṭaikkalapaṟṟu</title> (U4) in 10 stanzas.</item>
+									<item>The <title xml:lang="ta"
+										>Māriyammaṉ Pēril Uñcal</title> (U5) in 10 stanzas.</item>
+								</list></p>
+							<p>Description based on the examination of the original manuscript (October 2020).</p>
+							<p>Dimensions assessed at the time of examination.</p>
+						</summary>
 
-         </summary>
-                  
-               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page (additional)</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2a" xml:id="T2" defective="true"><title xml:lang="ta">Muttumāriyammaṉ Pēril Tōttiram: <term xml:lang="en">Title Page (original)</term>   </title><textLang mainLang="tam"/></msItem><msItem synch="#U2b" xml:id="T3" defective="false"><title xml:lang="ta">Muttumāriyammaṉ Pēril Tōttiram: Kāppu   </title><textLang mainLang="tam"/></msItem><msItem synch="#U2c" xml:id="T4" defective="false"><title>Muttumāriyammaṉ Pēril Tōttiram: : Mūlam</title></msItem><msItem synch="#U3" xml:id="T5" defective="false"><title xml:lang="ta">Māriyammaṉ Pēril Tālāṭṭu: Mūlam</title><textLang mainLang="tam"/></msItem><msItem synch="#U4" xml:id="T6" defective="false"><title xml:lang="ta">Māriyammaṉ Pēril Aṭaikkalapaṟṟu: Mūlam</title><textLang mainLang="tam"/></msItem><msItem synch="#U5" xml:id="T7" defective="false"><title xml:lang="ta">Māriyammaṉ Pēril Uñcal: Mūlam</title><textLang mainLang="tam"/></msItem></msContents>
-               <physDesc>
-                  <objectDesc form="pothi">
-                     <supportDesc material="palm-leaf">
-                        <extent>
-                           <measure unit="folio" quantity="48">{1} + 24 + 7 + 3 + 4 + {8} + {1} (U1 + U2 + U3 + U4 + U5 + U6 + U7).</measure>
-                           <dimensions type="leaf" unit="mm">
-                              
-                              
-                           <width min="400" max="405"/><height min="20" max="30"/></dimensions>
-                        <dimensions type="object" unit="mm"><width quantity="405"/><height quantity="30"/><depth quantity="50"/></dimensions><dimensions type="written" unit="mm"/></extent>
-                        
-                        <condition>Good state of preservation. </condition>
-                     <collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">Title Page (additional)</emph>. No foliation. Double folio. Verso blank. 400 x 25 mm.</desc><desc xml:id="U2">24 folios = <emph rend="bold"><title xml:lang="ta">Muttumāriyammaṉ Pēril Vārṉippu</title></emph>. 405 x 25 mm.</desc><desc xml:id="U2a">1 folio = <emph rend="bold"><title xml:lang="ta">Muttumāriyammaṉ Pēril Vārṉippu</title>: Title Page (original)</emph>. No foliation. Double folio. Verso blank.</desc><desc xml:id="U2b">1 folio = <emph rend="bold"><title xml:lang="ta">Muttumāriyammaṉ Pēril Vārṉippu</title>: Invocation</emph>. No foliation. Verso blank.</desc><desc xml:id="U2c">22 folios = <emph rend="bold"><title xml:lang="ta">Muttumāriyammaṉ Pēril Tōttiram</title>: Text</emph>. Tamil foliation 1-22.</desc><desc xml:id="U3">7 folios = <emph rend="bold"><title xml:lang="ta">Māriyammaṉ Pēril Tālāṭṭu</title>: Text</emph>. Tamil foliation 1-7. 405 x 25 mm.</desc><desc xml:id="U4">4 folios = <emph rend="bold"><term xml:lang="ta">Māriyammaṉ Pēril Aṭaikkalapaṟṟu</term>: Text</emph>. Tamil foliation 1-3. 405 x 25 mm.</desc><desc xml:id="U5">4 folios = <emph rend="bold"><term xml:lang="ta">Māriyammaṉ Pēril Uñcal</term>: Text</emph>. Tamil foliation 1-4. f4v blank. 405 x 20 mm.</desc><desc xml:id="U6">8 folios = <emph rend="bold">guard leaves</emph>. No foliation. 400 x 25 mm. Blank recto verso.
-</desc><desc xml:id="U7">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. 400 x 30 mm. Blank recto verso.
-</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><support><measure unit="stringhole" quantity="1"/></support></supportDesc>
-                     <layoutDesc>
-                        
-                     </layoutDesc>
-                  </objectDesc>
-                  <handDesc>
-                     
-                  <handNote synch="#U1" scope="minor" scribeRef="#ArielTitleScribe" script="tamil" scriptRef="#tamilPulliRegular #tamilOE" medium="incised soot"><desc>Hand #1.</desc></handNote><handNote synch="#U2 #U2a #U2b #U2c #U3 #U4 #U5" scope="major" script="tamil" medium="incised soot"><desc>Hand #2.</desc></handNote></handDesc>
-                  <additions><desc type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 342</quote> (<locus facs="2">front cover, recto</locus>).</desc><desc type="documenting-note" subtype="cover front">BnF donation sticker <quote>DON N° <space type="vacat"/></quote> (<locus facs="2">front cover, recto</locus>).</desc><desc synch="#U1" type="shelfmark">Shelfmark in black ink: <quote>c/39</quote> (<locus facs="6">f[1]r</locus>).</desc><desc synch="#U1" type="shelfmark">Shelfmark sticker (Société Asiatique?), written in black ink: <quote>680</quote> (<locus facs="9">f[1]r</locus>).</desc></additions>
-                  <bindingDesc>
-                     <binding>
-                        <p><material cert="medium">Pinewood</material> covers apparently fabricated in the BnF.</p>
-                     </binding>
-                  </bindingDesc>
-               </physDesc>
-               <history>
-                  <origin>
-                     <origDate calendar="gregorian" notAfter="1854">No internal date. Dated to circa 1850 by Vinson in Vinson et al. (1866-) and to 1850 by Cabaton (1912), on unstated grounds (presumably palaeographical and material analysis arguments). Not after 1854, since part of the collection of <persName role="collector">Édouard Ariel</persName> (1818-1854), bequeathed in 1855 to the Société Asiatique, Paris (Rosny 1868).</origDate>
-                     <origPlace>Pondicherry.</origPlace>
-                  </origin>
-                  <acquisition>
-                     <p>Received, August 1st, 1866, from the Société Asiatique. See BnF, département des Manuscrits, inventaire 7 = <title>Dons: manuscrits et imprimés documentaires, 1848-1895</title>, no. 1192.</p>
-                  </acquisition>
-               <provenance><p>Owned, like <ref target="https://tst-project.github.io/mss/Indien_0366.xml">BnF Indien 366</ref>, by <persName role="owner">Vāttiyār Rāmacāmi Nāyakar</persName> from Pondicherry, then by <persName role="collector">Édouard Ariel</persName> (1818-1854). Bequeathed by Édouard Ariel to Société Asiatique (Rosny 1868, p. 177).
+						<msItem synch="#U1" xml:id="T1" defective="false">
+							<title xml:lang="ta"><term xml:lang="en"
+								>Title Page (additional)</term></title>
+							<textLang mainLang="tam"/>
+						</msItem>
+						<msItem synch="#U2a" xml:id="T2" defective="true">
+							<title xml:lang="ta">Muttumāriyammaṉ Pēril Tōttiram: <term xml:lang="en"
+									>Title Page (original)</term>
+							</title>
+							<textLang mainLang="tam"/>
+						</msItem>
+						<msItem synch="#U2b" xml:id="T3" defective="false">
+							<title xml:lang="ta">Muttumāriyammaṉ Pēril Tōttiram: Kāppu   </title>
+							<textLang mainLang="tam"/>
+						</msItem>
+						<msItem synch="#U2c" xml:id="T4" defective="false">
+							<title>Muttumāriyammaṉ Pēril Tōttiram: : Mūlam</title>
+						</msItem>
+						<msItem synch="#U3" xml:id="T5" defective="false">
+							<title xml:lang="ta">Māriyammaṉ Pēril Tālāṭṭu: Mūlam</title>
+							<textLang mainLang="tam"/>
+						</msItem>
+						<msItem synch="#U4" xml:id="T6" defective="false">
+							<title xml:lang="ta">Māriyammaṉ Pēril Aṭaikkalapaṟṟu: Mūlam</title>
+							<textLang mainLang="tam"/>
+						</msItem>
+						<msItem synch="#U5" xml:id="T7" defective="false">
+							<title xml:lang="ta">Māriyammaṉ Pēril Uñcal: Mūlam</title>
+							<textLang mainLang="tam"/>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc form="pothi">
+							<supportDesc material="palm-leaf">
+								<extent>
+									<measure unit="folio" quantity="48"
+										>{1} + 24 + 7 + 3 + 4 + {8} + {1} (U1 + U2 + U3 + U4 + U5 + U6 + U7).</measure>
+									<dimensions type="leaf" unit="mm">
 
-Owned by <persName role="collector">Édouard Ariel</persName> (1818-1854). Bequeathed by Édouard Ariel to Société Asiatique (Rosny 1868, p. 177).</p></provenance></history>
-               <additional>
-                  <listBibl>
-                     
-                     
-                  <bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f68">p. 50, no. 342</ref>.</bibl><bibl>Rosny, Léon de. 1868. La bibliothèque tamoule de M. Ariel, de Pondichéry. In: <title>Variétés orientales</title> (pp. 177‒224). Paris: Maisonneuve.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. 1866-. <title>Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f169">f. 77r, no. <del>316</del> 342</ref>. </bibl></listBibl>
-               </additional>
-            </msDesc>
-         </sourceDesc>
-      </fileDesc>
-      
-   <encodingDesc><p>   <emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.            </p></encodingDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
-         
-      <change when="2022-03">Record created by <persName>Emmanuel FRANCIS</persName>.</change><change when="2022-05">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, May 2022.</change></revisionDesc></teiHeader>
-   
-<facsimile><graphic url="https://didomena.ehess.fr/concern/data_sets/2r36v525x/manifest.json"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
-  <ab>
-    
-    <pb facs="5" n="[1]r"/>
-  <seg function="blessing"><milestone n="1" unit="column"/>
-  <lb n="1-2"/>veṟṟivēl uṟṟa tuṇai</seg>
-  
-  <seg function="TBC"><milestone n="2" unit="column"/>
-   <lb n="1"/>||4|| <note xml:lang="en">that is, the number of different works contained in the bundle</note></seg>
-  
-  <seg function="title"><milestone n="8" unit="column"/>
-  <lb n="1"/>muttumāriyammaṉ
+
+										<width min="400" max="405"/>
+										<height min="20" max="30"/>
+									</dimensions>
+									<dimensions type="object" unit="mm">
+										<width quantity="405"/>
+										<height quantity="30"/>
+										<depth quantity="50"/>
+									</dimensions><dimensions type="written" unit="mm"/></extent>
+
+								<condition>Good state of preservation. </condition>
+								<collation><desc xml:id="CoverFront">the <emph rend="bold"
+											>front cover</emph>.</desc><desc xml:id="U1"
+											>1 folio = <emph rend="bold"
+											>Title Page (additional)</emph>. No foliation. Double folio. Verso blank. 400 x 25 mm.</desc><desc
+										xml:id="U2">24 folios = <emph rend="bold"><title
+												xml:lang="ta"
+											>Muttumāriyammaṉ Pēril Vārṉippu</title></emph>. 405 x 25 mm.</desc><desc
+										xml:id="U2a">1 folio = <emph rend="bold"><title
+												xml:lang="ta"
+											>Muttumāriyammaṉ Pēril Vārṉippu</title>: Title Page (original)</emph>. No foliation. Double folio. Verso blank.</desc><desc
+										xml:id="U2b">1 folio = <emph rend="bold"><title
+												xml:lang="ta"
+											>Muttumāriyammaṉ Pēril Vārṉippu</title>: Invocation</emph>. No foliation. Verso blank.</desc><desc
+										xml:id="U2c">22 folios = <emph rend="bold"><title
+												xml:lang="ta"
+											>Muttumāriyammaṉ Pēril Tōttiram</title>: Text</emph>. Tamil foliation 1-22.</desc><desc
+										xml:id="U3">7 folios = <emph rend="bold"><title
+												xml:lang="ta"
+											>Māriyammaṉ Pēril Tālāṭṭu</title>: Text</emph>. Tamil foliation 1-7. 405 x 25 mm.</desc><desc
+										xml:id="U4">4 folios = <emph rend="bold"><term xml:lang="ta"
+												>Māriyammaṉ Pēril Aṭaikkalapaṟṟu</term>: Text</emph>. Tamil foliation 1-3. 405 x 25 mm.</desc><desc
+										xml:id="U5">4 folios = <emph rend="bold"><term xml:lang="ta"
+												>Māriyammaṉ Pēril Uñcal</term>: Text</emph>. Tamil foliation 1-4. f4v blank. 405 x 20 mm.</desc><desc
+										xml:id="U6">8 folios = <emph rend="bold"
+										>guard leaves</emph>. No foliation. 400 x 25 mm. Blank recto verso.
+</desc><desc
+										xml:id="U7">1 folio = <emph rend="bold"
+										>guard leaf</emph>. No foliation. 400 x 30 mm. Blank recto verso.
+</desc><desc
+										xml:id="CoverBack">the <emph rend="bold"
+										>back cover</emph>.</desc></collation>
+								<support><measure unit="stringhole" quantity="1"/></support>
+							</supportDesc>
+							<layoutDesc> </layoutDesc>
+						</objectDesc>
+						<handDesc>
+
+							<handNote synch="#U1" scope="minor" scribeRef="#ArielTitleScribe"
+								script="tamil" scriptRef="#tamilPulliRegular #tamilOE"
+								medium="incised soot"><desc>Hand #1.</desc></handNote>
+							<handNote synch="#U2 #U2a #U2b #U2c #U3 #U4 #U5" scope="major"
+								script="tamil" medium="incised soot"
+								><desc>Hand #2.</desc></handNote>
+						</handDesc>
+						<additions><desc type="shelfmark" subtype="cover front"
+									>BnF shelfmark sticker: <quote>INDIEN 342</quote> (<locus
+									facs="2">front cover, recto</locus>).</desc><desc
+								type="documenting-note" subtype="cover front"
+										>BnF donation sticker <quote>DON N° <space type="vacat"
+									/></quote> (<locus facs="2"
+								>front cover, recto</locus>).</desc><desc synch="#U1"
+								type="shelfmark">Shelfmark in black ink: <quote>c/39</quote> (<locus
+									facs="6">f[1]r</locus>).</desc><desc synch="#U1"
+								type="shelfmark"
+									>Shelfmark sticker (Société Asiatique?), written in black ink: <quote>680</quote> (<locus
+									facs="9">f[1]r</locus>).</desc></additions>
+						<bindingDesc>
+							<binding>
+								<p><material cert="medium"
+									>Pinewood</material> covers apparently fabricated in the BnF.</p>
+							</binding>
+						</bindingDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate calendar="gregorian" notAfter="1854"
+									>No internal date. Dated to circa 1850 by Vinson in Vinson et al. (1866-) and to 1850 by Cabaton (1912), on unstated grounds (presumably palaeographical and material analysis arguments). Not after 1854, since part of the collection of <persName
+									role="collector"
+								>Édouard Ariel</persName> (1818-1854), bequeathed in 1855 to the Société Asiatique, Paris (Rosny 1868).</origDate>
+							<origPlace>Pondicherry.</origPlace>
+						</origin>
+						<acquisition>
+							<p>Received, August 1st, 1866, from the Société Asiatique. See BnF, département des Manuscrits, inventaire 7 = <title>Dons: manuscrits et imprimés documentaires, 1848-1895</title>, no. 1192.</p>
+						</acquisition>
+						<provenance><p>Owned, like <ref
+									target="https://tst-project.github.io/mss/Indien_0366.xml"
+									>BnF Indien 366</ref>, by <persName role="owner"
+									>Vāttiyār Rāmacāmi Nāyakar</persName> from Pondicherry, then by <persName
+									role="collector"
+									>Édouard Ariel</persName> (1818-1854). Bequeathed by Édouard Ariel to Société Asiatique (Rosny 1868, p. 177).
+
+Owned by <persName
+									role="collector"
+								>Édouard Ariel</persName> (1818-1854). Bequeathed by Édouard Ariel to Société Asiatique (Rosny 1868, p. 177).</p></provenance>
+					</history>
+					<additional>
+						<listBibl>
+
+
+							<bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref
+									target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f68"
+									>p. 50, no. 342</ref>.</bibl>
+							<bibl>Rosny, Léon de. 1868. La bibliothèque tamoule de M. Ariel, de Pondichéry. In: <title>Variétés orientales</title> (pp. 177‒224). Paris: Maisonneuve.</bibl>
+							<bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. 1866-. <title>Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref
+									target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f169"
+										>f. 77r, no. <del>316</del> 342</ref>. </bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<p>
+				<emph rend="bold"
+					>General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph
+					rend="bold"
+					>In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph
+					rend="bold"
+				>Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.            </p>
+		</encodingDesc>
+		<xenoData type="webannotation"><![CDATA[[]]]></xenoData>
+		<revisionDesc>
+
+			<change when="2022-03">Record created by <persName>Emmanuel FRANCIS</persName>.</change>
+			<change when="2022-05"
+				>Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, May 2022.</change>
+		</revisionDesc>
+	</teiHeader>
+
+	<facsimile>
+		<graphic url="https://didomena.ehess.fr/concern/data_sets/2r36v525x/manifest.json"/>
+	</facsimile>
+	<text synch="#U1" corresp="#T1" xml:lang="ta">
+		<body>
+			<ab>
+				<pb facs="5" n="[1]r"/>
+				<seg function="blessing"><milestone n="1" unit="column"/>
+					<lb n="1-2"/>veṟṟivēl uṟṟa tuṇai</seg>
+				<seg function="TBC"><milestone n="2" unit="column"/>
+					<lb n="1"/>||4|| <note xml:lang="en"
+						>that is, the number of different works contained in the bundle</note></seg>
+				<seg function="title"><milestone n="8" unit="column"/>
+					<lb n="1"/>muttumāriyammaṉ
 <lb n="2"/>pēril
 <lb n="3"/>varṉippu</seg>
-<lb n="4"/><seg function="title">tālāṭtu</seg>
-  
-  <seg function="title"><milestone n="9" unit="column"/>
-   <lb n="1"/>Aṭaikkalappattu</seg>
- <seg function="title"><lb n="2"/>Uñcal</seg>
-         
-      <pb n="[1]v"/><note xml:lang="en">blank</note>
-    
-    </ab>
-</body></text><text synch="#U2a" corresp="#T2" xml:lang="ta"><body>
-  <ab>
-    
-    <pb facs="10" n="[1]r"/>
-  <seg function="header"><seg function="blessing"><milestone n="1" unit="column"/>
-  <lb n="1-2"/>kalai-vāṇi-namas· tu <g ref="#pcs"/></seg>
-    </seg>
-  
-    <seg function="title"><milestone n="2" unit="column"/>
-  <lb n="1"/>muttumāriyammaṉ
-<lb n="2"/><choice><sic>po</sic><corr>pē</corr></choice> tōttiram
-<lb n="3"/>varṇippu <g ref="#pcs"/></seg> <seg function="TBC">yellā	
+				<lb n="4"/><seg function="title">tālāṭtu</seg>
+				<seg function="title"><milestone n="9" unit="column"/>
+					<lb n="1"/>Aṭaikkalappattu</seg>
+				<seg function="title"><lb n="2"/>Uñcal</seg>
+				<pb n="[1]v"/><note xml:lang="en">blank</note>
+			</ab>
+		</body>
+	</text>
+	<text synch="#U2a" corresp="#T2" xml:lang="ta">
+		<body>
+			<ab>
+				<pb facs="10" n="[1]r"/>
+				<seg function="header"><seg function="blessing"><milestone n="1" unit="column"/>
+						<lb n="1-2"/>kalai-vāṇi-namas· tu <g ref="#pcs"/></seg>
+				</seg>
+				<seg function="title"><milestone n="2" unit="column"/>
+					<lb n="1"/>muttumāriyammaṉ
+<lb n="2"/><choice>
+						<sic>po</sic>
+						<corr>pē</corr>
+					</choice> tōttiram
+<lb n="3"/>varṇippu <g ref="#pcs"/></seg>
+				<seg function="TBC">yellā	
 
   <milestone n="3" unit="column"/>
-  <lb n="1"/>rum – vācikkalām</seg>
-  <seg function="blessing"><lb n="2"/>śrī<g rend="below-base">rāMa</g>ce<g rend="below-base">yaM</g><g ref="#pcs"/></seg>
-  <seg function="ownership-statement"><lb n="3"/><persName xml:lang="ta" role="owner">vāt=tiyār <g rend="below-base">rāMa</g>cāmi
+					<lb n="1"/>rum – vācikkalām</seg>
+				<seg function="blessing"><lb n="2"/>śrī<g rend="below-base">rāMa</g>ce<g
+						rend="below-base">yaM</g><g ref="#pcs"/></seg>
+				<seg function="ownership-statement"><lb n="3"/><persName xml:lang="ta" role="owner"
+						key="Vāttiyār Rāmacāmi Nāyakar">vāt=tiyār <g rend="below-base"
+							>rāMa</g>cāmi
   <lb n="4"/>ṉāyakkar</persName> pottakam</seg>
-   <lb n="5"/><del><gap reason="illegible" quantity="1" unit="character"/></del> <seg function="TBC">māriyammaṉ <g ref="#pcl"/></seg>
-
-  <seg function="blessing"><milestone n="4" unit="column"/>
-  <lb n="1-2"/>civamayam <g ref="#pcl"/></seg>
-    
-      <pb n="[1]v"/><note xml:lang="en">blank</note>
-    
-    </ab>
-</body>
-   </text><text synch="#U2b" corresp="#T3" xml:lang="ta"><body>
-  <ab>
- <pb facs="14" n="[1]r"/>
+				<lb n="5"/><del><gap reason="illegible" quantity="1" unit="character"/></del>
+				<seg function="TBC">māriyammaṉ <g ref="#pcl"/></seg>
+				<seg function="blessing"><milestone n="4" unit="column"/>
+					<lb n="1-2"/>civamayam <g ref="#pcl"/></seg>
+				<pb n="[1]v"/><note xml:lang="en">blank</note>
+			</ab>
+		</body>
+	</text>
+	<text synch="#U2b" corresp="#T3" xml:lang="ta">
+		<body>
+			<ab>
+				<pb facs="14" n="[1]r"/>
+				<seg function="header">
+					<seg function="blessing"><milestone n="1" unit="left-margin"/>
+						<lb n="1"/><term xml:lang="sa">hari Om</term></seg>
+					<seg function="blessing"><lb n="2"/>naṉṟāka</seg>
+					<seg function="blessing"><lb n="3"/>kuru vāḻka</seg>
+					<seg function="blessing"><lb n="4"/>kuruvē tuṇai</seg>
+				</seg>
+				<seg function="title"><milestone n="2" unit="left-margin"/>
+					<lb n="1"/>civacaṅkari civarupatāṇṭa
+<lb n="2" break="no"
+						/>vavalli muttumāriyamma
+<lb n="3" break="no"/>ṉ pēril tōttiṟavu <g
+						ref="#pcs"/></seg>
+				<seg function="prosody"><lb n="4"/>koccakam <g ref="#pcl"/></seg>
+				<seg function="intertitle">kāppu <g ref="#pcl"/></seg>
+				<seg function="satellite-stanza"><milestone unit="main-text-area"/>
+					<lb n="1-4"/><gap reason="ellipsis"/></seg>
+				<pb n="[1]v"/><note xml:lang="en">blank</note>
+			</ab>
+		</body>
+	</text>
+	<text synch="#U2c" corresp="#T4">
+		<body>
+			<ab>
+				<pb facs="22" n="6r"/>
+				<seg function="header">
+					<seg function="blessing"><milestone unit="left-margin"/>
+						<lb n="1-2"/>naṉṟāka</seg>
+					<seg function="TBC"><lb n="3-5"/>māriyammaṉ <g ref="#pcl"/></seg>
+				</seg>
+				<seg function="incipit"><milestone n="1" unit="column"/>
+					<lb n="1"/><gap reason="ellipsis"/></seg>
+				<pb facs="33" n="22v"/>
+				<milestone n="1" unit="column"/>
+				<lb n="1-5"/><gap reason="ellipsis"/>
+				<milestone n="2" unit="column"/>
+				<lb n="1-3"/><gap reason="ellipsis"/>
+				<seg function="colophon"><seg function="copy-statement"><seg
+							function="ownership-statement"><lb n="4"/><persName xml:lang="ta"
+								role="owner" key="Vāttiyār Rāmacāmi Nāyakar">vāt=tiyār <g
+									rend="below-base">rāMa</g>cāmi</persName>
+							<term xml:lang="en">{symbol}</term> māṟiyamma<del><gap
+									reason="illegible" quantity="1" unit="character"
+							/></del>ṉ tōttiravu contam</seg>
+						<lb n="5"/>yeḻuti muṭintatu mus·tum <g ref="#pcl"/></seg></seg>
+			</ab>
+		</body>
+	</text>
+	<text synch="#U3" corresp="#T5" xml:lang="ta">
+		<body>
+			<ab>
+				<pb facs="36" n="1r"/>
+				<seg function="header">
+					<seg function="blessing"><milestone n="1" unit="left-margin"/>
+						<lb n="1"/><term xml:lang="sa">hari Om</term></seg>
+					<seg function="blessing"><lb n="2"/>naṉṟāka</seg>
+					<seg function="blessing"><lb n="3"/>kuru vāḻka</seg>
+					<seg function="blessing"><lb n="4"/>kuruvē tuṇai</seg>
+					<seg function="title"><milestone n="2" unit="left-margin"/>
+						<lb n="1-3"/>māriyammaṉ pēril tālāṭṭu</seg>
+				</seg>
+				<seg function="incipit"><milestone unit="main-text-area"/>
+					<lb n="1"/><gap reason="ellipsis"/></seg>
+				<pb facs="43" n="7r"/>
+				<milestone unit="main-text-area"/>
+				<lb n="1-4"/><gap reason="ellipsis"/>
+				<seg function="TBC"><lb n="5"/><gap reason="ellipsis"/> makiḻntāḷ <g ref="#pcs"
+					/> māriyammaṉ pōl</seg>
+				<seg function="colophon">
+					<milestone unit="right-margin"/>
+					<lb n="1-4"/>tālāṭṭu Eḻuti muṭintatu mus·tu<seg rend="grantha">m</seg>
+					<g ref="#pcl"/></seg>
+				<pb n="7v"/><note xml:lang="en">blank</note>
+			</ab>
+		</body>
+	</text>
+	<text synch="#U4" corresp="#T6" xml:lang="ta">
+		<body>
+			<ab>
+				<pb facs="46" n="1r"/>
+				<seg function="header">
+					<seg function="blessing">
+						<milestone n="1" unit="left-margin"/>
+						<lb n="1"/><term xml:lang="sa">hari Om</term></seg>
+					<seg function="blessing"><lb n="2"/>naṉṟāka</seg>
+					<seg function="blessing"><lb n="3"/>kuru vāḻka</seg>
+					<seg function="blessing"><lb n="4"/>kuruvē tuṇai</seg>
+				</seg>
+				<seg function="title"><milestone n="2" unit="left-margin"/>
+					<lb n="1-3"/>māriyammaṉ pēril Aṭaikalappaṟṟu</seg>
+				<seg function="blessing"><lb n="4-5"/>civa-kitāṣcam v<pc>-</pc>uṇṭāka<g
+						rend="below-base">vuM</g><g ref="#pcs"/></seg>
+				<seg function="blessing"><milestone n="3" unit="left-margin"/>
+					<lb n="1-2"/>capāpati tuṇai y<pc>-</pc>uṇṭāka<g rend="below-base">vuM</g><g
+						ref="#pcs"/></seg>
+				<seg function="incipit"><milestone unit="main-text-area"/>
+					<lb n="1"/><gap reason="ellipsis"/></seg>
+				<pb facs="50" n="2r"/>
+				<seg function="blessing">
+					<milestone n="1" unit="left-margin"/>
+					<lb n="1-2"/>naṉṟāka</seg>
+				<pb facs="55" n="3v"/>
+				<seg function="explicit">
+					<milestone n="1" unit="column"/>
+					<lb n="1-4"/><gap reason="ellipsis"/>
+					<g ref="#pcs"/>
+					<num rend="traditional">10</num>
+					<g ref="#pcs"/></seg>
+				<seg function="explicit"><milestone n="2" unit="column"/>
+					<lb n="1-3"/>Ammaṉ pēril Aṭaikkalappaṟṟu y<pc>-</pc>eḻuti mutin
   
-   <seg function="header">
-     <seg function="blessing"><milestone n="1" unit="left-margin"/>
-  <lb n="1"/><term xml:lang="sa">hari Om</term></seg>
-<seg function="blessing"><lb n="2"/>naṉṟāka</seg>
-<seg function="blessing"><lb n="3"/>kuru vāḻka</seg>                                          
-<seg function="blessing"><lb n="4"/>kuruvē tuṇai</seg>
-     </seg>
-
-    <seg function="title"><milestone n="2" unit="left-margin"/>
-  <lb n="1"/>civacaṅkari civarupatāṇṭa
-<lb n="2" break="no"/>vavalli muttumāriyamma
-<lb n="3" break="no"/>ṉ pēril tōttiṟavu <g ref="#pcs"/></seg>                                                
-<seg function="prosody"><lb n="4"/>koccakam <g ref="#pcl"/></seg> <seg function="intertitle">kāppu <g ref="#pcl"/></seg>    
-  
-   <seg function="satellite-stanza"><milestone unit="main-text-area"/>
-  <lb n="1-4"/><gap reason="ellipsis"/></seg>
-  
-  <pb n="[1]v"/><note xml:lang="en">blank</note>
-
-    </ab>
-  </body></text><text synch="#U2c" corresp="#T4"><body>
-  <ab>
-    
-  <pb facs="22" n="6r"/>
-  
-  <seg function="header">
-    <seg function="blessing"><milestone unit="left-margin"/>
-  <lb n="1-2"/>naṉṟāka</seg>
-<seg function="TBC"><lb n="3-5"/>māriyammaṉ <g ref="#pcl"/></seg>
-    </seg>
-  
-   <seg function="incipit"><milestone n="1" unit="column"/>
-  <lb n="1"/><gap reason="ellipsis"/></seg>
-   
-     <pb facs="33" n="22v"/>
-  
-  <milestone n="1" unit="column"/>
-  <lb n="1-5"/><gap reason="ellipsis"/>
-  
-  <milestone n="2" unit="column"/>
-  <lb n="1-3"/><gap reason="ellipsis"/>
-    <seg function="colophon"><seg function="copy-statement"><seg function="ownership-statement"><lb n="4"/><persName xml:lang="ta" role="owner">vāt=tiyār <g rend="below-base">rāMa</g>cāmi</persName> <term xml:lang="en">{symbol}</term> māṟiyamma<del><gap reason="illegible" quantity="1" unit="character"/></del>ṉ tōttiravu contam</seg>
-  <lb n="5"/>yeḻuti muṭintatu mus·tum <g ref="#pcl"/></seg></seg>
-  
-    </ab>
-  </body></text><text synch="#U3" corresp="#T5" xml:lang="ta"><body>
-  <ab>
-    
-  <pb facs="36" n="1r"/>
-  <seg function="header">
-  <seg function="blessing"><milestone n="1" unit="left-margin"/>
-  <lb n="1"/><term xml:lang="sa">hari Om</term></seg>
-<seg function="blessing"><lb n="2"/>naṉṟāka</seg>
-<seg function="blessing"><lb n="3"/>kuru vāḻka</seg>                                               
-  <seg function="blessing"><lb n="4"/>kuruvē tuṇai</seg>
-  
-    <seg function="title"><milestone n="2" unit="left-margin"/>
-  <lb n="1-3"/>māriyammaṉ pēril tālāṭṭu</seg>
-    </seg>
-  
-   <seg function="incipit"><milestone unit="main-text-area"/>
-  <lb n="1"/><gap reason="ellipsis"/></seg>
-  
-  <pb facs="43" n="7r"/>
-  <milestone unit="main-text-area"/>
-  <lb n="1-4"/><gap reason="ellipsis"/>
-  <seg function="TBC"><lb n="5"/><gap reason="ellipsis"/> makiḻntāḷ <g ref="#pcs"/> māriyammaṉ pōl</seg>
-  
-  <seg function="colophon">
-    <milestone unit="right-margin"/>
-<lb n="1-4"/>tālāṭṭu Eḻuti muṭintatu mus·tu<seg rend="grantha">m</seg> <g ref="#pcl"/></seg>
-  
-  <pb n="7v"/><note xml:lang="en">blank</note>
-    
-</ab>
-</body>
-</text><text synch="#U4" corresp="#T6" xml:lang="ta"><body>
-  <ab>
-    
-  <pb facs="46" n="1r"/>
-  <seg function="header">
-  <seg function="blessing">
-  <milestone n="1" unit="left-margin"/>
-  <lb n="1"/><term xml:lang="sa">hari Om</term></seg>
-<seg function="blessing"><lb n="2"/>naṉṟāka</seg>
-<seg function="blessing"><lb n="3"/>kuru vāḻka</seg>                                  
-<seg function="blessing"><lb n="4"/>kuruvē tuṇai</seg>
-    </seg>
-  
-  <seg function="title"><milestone n="2" unit="left-margin"/>
-  <lb n="1-3"/>māriyammaṉ pēril Aṭaikalappaṟṟu</seg>
-  	<seg function="blessing"><lb n="4-5"/>civa-kitāṣcam v<pc>-</pc>uṇṭāka<g rend="below-base">vuM</g><g ref="#pcs"/></seg>
-  
-  <seg function="blessing"><milestone n="3" unit="left-margin"/>
-  	<lb n="1-2"/>capāpati tuṇai y<pc>-</pc>uṇṭāka<g rend="below-base">vuM</g><g ref="#pcs"/></seg>
-  
-   <seg function="incipit"><milestone unit="main-text-area"/>
-  <lb n="1"/><gap reason="ellipsis"/></seg>
-  
-    <pb facs="50" n="2r"/>
-       <seg function="blessing">
-    <milestone n="1" unit="left-margin"/>
-  <lb n="1-2"/>naṉṟāka</seg>
-  
-    <pb facs="55" n="3v"/>
-  <seg function="explicit">
-  <milestone n="1" unit="column"/>
-    <lb n="1-4"/><gap reason="ellipsis"/> <g ref="#pcs"/> <num rend="traditional">10</num> <g ref="#pcs"/></seg>
-  
-  <seg function="explicit"><milestone n="2" unit="column"/>
-  <lb n="1-3"/>Ammaṉ pēril Aṭaikkalappaṟṟu y<pc>-</pc>eḻuti mutin
-  
-  <milestone n="3" unit="column" break="no"/>
-  <lb n="1-2"/>tatu mus·tu<seg rend="grantha">m</seg></seg>
-    
-    </ab>
-</body>
-</text><text synch="#U5" corresp="#T7" xml:lang="ta"><body>
-  <ab>
-    
-    <pb facs="58" n="1r"/>
-    <seg function="header">
-    <seg function="blessing">
-     <milestone n="1" unit="left-margin"/>
-  <lb n="1"/><term xml:lang="sa">hari Om</term></seg>
-<seg function="blessing"><lb n="2"/>naṉṟāka</seg>
-<seg function="blessing"><lb n="3"/>kuru vāḻka</seg>
-<seg function="blessing"><lb n="4"/>kuruvē tuṇai</seg>
-      </seg>
-  
-  <seg function="title"><milestone n="2" unit="left-margin"/>
-  <lb n="1-3"/>māriyammaṉ pēril Uñcal</seg>
-  
-   <seg function="incipit"><milestone unit="main-text-area"/>
-  <lb n="1"/><gap reason="ellipsis"/></seg>
-  
-<pb facs="63" n="2r"/>
-    <seg function="blessing">
-  <milestone n="1" unit="left-margin"/>
-  <lb n="1-4"/>naṉṟāka</seg>
-  
-   <pb facs="67" n="4r"/>
-  <milestone n="1" unit="column"/>
-  <lb n="1-4"/><gap reason="ellipsis"/>
-    <seg function="explicit"><lb n="5"/><gap reason="ellipsis"/> <g ref="#pcs"/> <num rend="traditional">10</num> <g ref="#pcs"/></seg> <seg function="colophon">māriyam
+  <milestone
+						n="3" unit="column" break="no"/>
+					<lb n="1-2"/>tatu mus·tu<seg rend="grantha">m</seg></seg>
+			</ab>
+		</body>
+	</text>
+	<text synch="#U5" corresp="#T7" xml:lang="ta">
+		<body>
+			<ab>
+				<pb facs="58" n="1r"/>
+				<seg function="header">
+					<seg function="blessing">
+						<milestone n="1" unit="left-margin"/>
+						<lb n="1"/><term xml:lang="sa">hari Om</term></seg>
+					<seg function="blessing"><lb n="2"/>naṉṟāka</seg>
+					<seg function="blessing"><lb n="3"/>kuru vāḻka</seg>
+					<seg function="blessing"><lb n="4"/>kuruvē tuṇai</seg>
+				</seg>
+				<seg function="title"><milestone n="2" unit="left-margin"/>
+					<lb n="1-3"/>māriyammaṉ pēril Uñcal</seg>
+				<seg function="incipit"><milestone unit="main-text-area"/>
+					<lb n="1"/><gap reason="ellipsis"/></seg>
+				<pb facs="63" n="2r"/>
+				<seg function="blessing">
+					<milestone n="1" unit="left-margin"/>
+					<lb n="1-4"/>naṉṟāka</seg>
+				<pb facs="67" n="4r"/>
+				<milestone n="1" unit="column"/>
+				<lb n="1-4"/><gap reason="ellipsis"/>
+				<seg function="explicit"><lb n="5"/><gap reason="ellipsis"/>
+					<g ref="#pcs"/>
+					<num rend="traditional">10</num>
+					<g ref="#pcs"/></seg>
+				<seg function="colophon">māriyam
  <milestone n="2" unit="column" break="no"/>
-  <lb n="1-2"/>maṉ pēril paṟṟum Uñcal y<pc>-</pc>eḻuti
-muṭintatu mus·tu<seg rend="grantha">m</seg> <g ref="#pcl"/></seg>
-  
-  <pb n="4v"/><note xml:lang="en">blank</note>
-    </ab>
+					<lb n="1-2"/>maṉ pēril paṟṟum Uñcal y<pc>-</pc>eḻuti
+muṭintatu mus·tu<seg
+						rend="grantha">m</seg>
+					<g ref="#pcl"/></seg>
+				<pb n="4v"/><note xml:lang="en">blank</note>
+			</ab>
 
-</body>
-</text></TEI>
+		</body>
+	</text>
+</TEI>
