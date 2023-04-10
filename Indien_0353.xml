@@ -9,7 +9,7 @@
          
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2022</date>
+            <date>2023</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -21,7 +21,7 @@
                   <idno type="alternate"><idno>Tamoul 353</idno><idno>Ariel 28</idno><idno>d/28</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103880b</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/rb68xk49s</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary><p>An incomplete <title xml:lang="ta">Maraṇakaṇṭikai</title>, a work on astrology attributed to <persName xml:lang="ta" role="author">Tirukkōṭṭi Nampi</persName> and alternatively to <persName xml:lang="ta" role="author">Maṇṭalapuruṭar</persName> (Zvelebil 1995, p. 668).</p>
+                  <summary><p>An incomplete <title xml:lang="ta">Maraṇakaṇṭikai</title>, a work on astrology attributed to <persName xml:lang="ta" role="author" key="Tirukkōṭṭi Nampi">Tirukkōṭṭi Nampi</persName> and alternatively to <persName xml:lang="ta" role="author" key="Maṇṭalapuruṭar">Maṇṭalapuruṭar</persName> (Zvelebil 1995, p. 668).</p>
 <p>See also GOML Triennial Catalogue of Tamil manuscripts (1919-1922) ad R. 522(b), p. 1328:
   <quote rend="block">An astrological treatise giving certain particulars regarding the 27 lunar asterisms together with the nature and characteristics of the persons born under the influence of these lunar asterisms and the kind of death they are likely to meet with. By Mārgaliṅga Jōsyar of Piṭṣaippākkam.</quote>
 </p>
@@ -31,46 +31,47 @@
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page (additional) </term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="true"><title xml:lang="ta">Maraṇakaṇṭikai: Mūlam</title><textLang mainLang="tam"/><filiation><p>GOML: R. 522(b), R. 1080(a), D. 16-B-3-19, D. 2021, etc.</p></filiation></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi">
+                  
+                  
+                  
+                  
+               <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
-                        <extent>
+                        
+                        
+                        
+                     <support/><extent>
                            <measure unit="folio" quantity="43">{1} + 40 + {2} (U1 + U2 + U3).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
                            <width quantity="445"/><height min="35" max="40"/></dimensions>
-                        <dimensions type="object" unit="mm"><width quantity="445"/><height quantity="35"/><depth quantity="45"/></dimensions><dimensions type="written" unit="mm"/></extent>
-                        
-                        
-                     <collation>
+                        <dimensions type="object" unit="mm"><width quantity="445"/><height quantity="35"/><depth quantity="45"/></dimensions><dimensions type="written" unit="mm"/></extent><collation>
                      
                      <desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. Shelfmark on the recto.</desc><desc xml:id="U1">1 folio = <emph rend="bold">Title Page (additional)</emph>. No foliation. Single folio. Shelfmarks on the recto. Verso blank except for Tamil foliation 19 (i.e. re-used folio).
 </desc><desc xml:id="U2">40 folios  = <emph rend="bold"><title xml:lang="ta">Maraṇakaṇṭikai</title>: Text</emph>. Tamil foliation {1}-16, 18, 20-38, 40-43. Misssing folios of copyist oversight when foliating? The text stops short in f43v1.
-</desc><desc xml:id="U3">2 folios = <emph rend="bold">back guard leaves</emph>. No foliation. Except one sign in the middle of f[1]r. f[2]v more dark = original outside page.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>. </desc></collation><condition>Good state of preservation.</condition><support><measure unit="stringhole" quantity="2"/></support></supportDesc>
+</desc><desc xml:id="U3">2 folios = <emph rend="bold">back guard leaves</emph>. No foliation. Except one sign in the middle of f[1]r. f[2]v more dark = original outside page.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>. </desc></collation><condition>Good state of preservation.</condition></supportDesc>
                      <layoutDesc>
                         <layout writtenLines="8">The end of chapters are regularly demarcated by an in-text string of <foreign xml:lang="ta">piḷḷaiyār cūḻi</foreign>s.</layout>
                      </layoutDesc>
-                  </objectDesc>
-                  <handDesc>
+                  </objectDesc><handDesc>
                      
-                  <handNote synch="#U1" scope="sole" scribeRef="#ArielTitleScribe" script="tamil" scriptRef="#tamilPulliRegular #tamilOE" medium="incised soot"/><handNote synch="#U2" scope="sole" script="tamil" scriptRef="#tamilPulliNone" medium="incised soot"/></handDesc>
-                  <additions><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 353</quote> (<locus facs="9">front cover, recto</locus>). </desc><desc synch="#U1" type="shelfmark">Shelfmark <quote>d/28</quote> in black ink (<locus facs="17">f[1]r</locus>).</desc><desc synch="#U1" type="shelfmark" subtype="beginning">Shelfmark sticker (Société Asiatique?) inscribed <quote>437</quote> in black ink (<locus facs="19">f[1]r</locus>).</desc><desc synch="#U2" corresp="#T2" type="intertitle" subtype="marginal">Running intertitles. Intertitles regularly abbreviated.
-</desc></additions>
-                  <bindingDesc>
+                  <handNote synch="#U1" scope="sole" script="tamil" scriptRef="#tamilPulliRegular #tamilOE" medium="incised soot"><desc><persName role="scribe">Ariel's title scribe</persName>.</desc></handNote><handNote synch="#U2" scope="sole" script="tamil" scriptRef="#tamilPulliNone" medium="incised soot"/></handDesc><additions><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 353</quote> (<locus facs="9">front cover, recto</locus>). </desc><desc synch="#U1" type="shelfmark">Shelfmark <quote>d/28</quote> in black ink (<locus facs="17">f[1]r</locus>).</desc><desc synch="#U1" type="shelfmark" subtype="beginning">Shelfmark sticker (Société Asiatique?) inscribed <quote>437</quote> in black ink (<locus facs="19">f[1]r</locus>).</desc><desc synch="#U2" corresp="#T2" type="intertitle" subtype="marginal">Running intertitles. Intertitles regularly abbreviated.
+</desc></additions><bindingDesc>
                      <binding>
                         <p><material cert="medium">Pinewood</material> covers apparently fabricated in the BnF.</p>
-                     </binding>
-                  </bindingDesc>
-               </physDesc>
+                     <decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
+                  </bindingDesc></physDesc>
                <history>
-                  <origin>
+                  
+                  
+                                 
+               <origin>
                      <origDate calendar="gregorian" notAfter="1854">No internal date. Dated to circa 1760 by Vinson in Vinson et al. (1866-) and to  1760 by Cabaton (1912), on unkwnown grounds (presumably palaeographical and material analysis arguments). Not after 1854, since part of the collection of <persName role="collector" key="Ariel, Édouard">Édouard Ariel</persName> (1818-1854), bequeathed in 1855 to the Société Asiatique, Paris (Rosny 1868).</origDate>
                      <origPlace>South India, Tamil Nadu.</origPlace>
-                  </origin>
-                  <acquisition>
-                     
-                  <p>Received, August 1st, 1866, from the Société Asiatique. See BnF, département des Manuscrits, inventaire 7 = <title>Dons: manuscrits et imprimés documentaires, 1848-1895</title>, no. 1192.</p></acquisition>
-               <provenance><p>Owned by <persName role="collector" key="Ariel, Édouard">Édouard Ariel</persName> (1818-1854). Bequeathed by Édouard Ariel to Société Asiatique (Rosny 1868, p. 177).</p></provenance></history>
+                  </origin><provenance><p>Owned by <persName role="collector" key="Ariel, Édouard">Édouard Ariel</persName> (1818-1854). Bequeathed by Édouard Ariel to Société Asiatique (Rosny 1868, p. 177).</p></provenance><acquisition>                     
+                  <p>Received, August 1st, 1866, from the Société Asiatique. See BnF, département des Manuscrits, inventaire 7 = <title>Dons: manuscrits et imprimés documentaires, 1848-1895</title>, no. 1192.</p>
+                  </acquisition></history>
                <additional>
                   <listBibl>
                      
@@ -89,15 +90,16 @@
     
     <pb facs="16" n="[1]r"/>
       
-    <seg function="blessing">
-    <milestone n="1" unit="column"/>
-    <lb n="1"/>veṟṟivē
+    <fw place="left-margin">
+      <seg function="blessing">
+        <lb n="1"/>veṟṟivē
     <lb n="2" break="no"/>l uṟṟa tuṇai</seg>
+      </fw>
   
     <seg function="title">
-      <milestone n="2" unit="column"/>
+      <cb n="1"/>
     <lb n="1"/>Iḵtu
-    <milestone n="2" unit="column"/>
+    <cb n="2"/>
     <lb n="1"/>maraṇakaṇ
     <lb n="2" break="no"/>ṭikai</seg>
   
@@ -108,47 +110,47 @@
   <ab>
     
     <pb facs="25" n="[1]r"/>
-      <seg function="header">
-      <milestone n="1" unit="left margin"/>
+      <fw place="left-margin">
         <seg function="blessing">
     <lb n="1"/>hari Ōm</seg>
     <seg function="blessing"><lb n="2"/>naṉṟāka</seg>
     <seg function="title"><lb n="3"/>maṟaṇa
     <lb n="4" break="no"/>kaṇṭikai</seg>
     <lb n="5"/>y<pc>-</pc>āvatu
-        </seg>
+        </fw>
   
-    <seg function="incipit"><milestone unit="main text area"/>
+    <seg function="incipit">
     <lb n="1"/>yīcuparaṉṉuk-kiṟakattiṉālē lōkappiṟapañcattukku Uṇṭu paṇṇiṉa maṟaṇakaṇṭikai viparam aṟintu • rāci • naṭcattiram • varuṣam • mātam • titi • vāram • yōkam •
     <lb n="2"/>kāṇam • pāttu collavum •</seg> <seg function="blessing">kuru pātan tuṇai</seg> <seg function="blessing">makākaṇapati tuṇai =</seg> Ulak’ oru mūṉṟu <gap reason="ellipsis"/>
     <lb n="2"/><gap reason="ellipsis"/> Acupatinaṭcettiram <gap reason="ellipsis"/>
   
     <pb facs="53" n="4v"/>
-      <seg function="intertitle">
-    <milestone unit="left margin"/>
+      <fw place="left-margin">
+        <seg function="intertitle">
     <lb n="1"/>kārt
     <lb n="2" break="no"/>tikai</seg>
+        </fw>
   
-    <milestone unit="main text area"/>
      <lb n="3"/><gap reason="ellipsis"/> <seg function="completion-statement">paraṇinaṣṣettiram ~ vipaṟam muttu <unclear><g ref="#pcl"/></unclear></seg>
     <seg function="blessing"><lb n="4"/>yiravacuvāmi cakā<g rend="below-base">yaM</g> <g ref="#pcl"/> <g ref="#pcl"/> <g ref="#pcl"/> <g ref="#pcl"/> <g ref="#pcl"/> <g ref="#pcl"/></seg> <seg function="intertitle">kārttikai naṣṣettirattiṉ kuṇam <g ref="#pcl"/></seg> <gap reason="ellipsis"/>
   
     <pb facs="150" n="43r"/>
     
-    <milestone unit="left margin"/>
+    <fw place="left-margin">
     <lb n="1"/>puraṭṭā
     <lb n="2" break="no"/>ti <g ref="#pcs"/> pi
     <lb n="3" break="no"/>ṉ kuṇa<seg rend="grantha">m</seg>
-    <milestone unit="main text area"/>
+      </fw>
+
     <lb n="1"/>puraṭṭāti piṉ kuṇam ~ <gap reason="ellipsis"/>
     <lb n="2-7"/><gap reason="ellipsis"/>
     <lb n="8"/><gap reason="ellipsis"/> ~ makaṟccaṉi <g ref="#varuṣam">varuṣam</g> 4 ~ kumpa
   
   <pb facs="154" n="43v" break="no"/>
-    <milestone unit="left margin"/><note xml:lang="en">unblackened</note>
+    <fw place="left-margin"><note xml:lang="en">unblackened</note>
     <lb n="1"/>cuppi
     <lb n="2" break="no"/>ṟa
-    <milestone unit="main text area"/>
+      </fw>
      <lb n="1"/>ccaṉi <g ref="#varuṣam">varuṣam</g> 4 ~ piṉ viyāḷam <g ref="#varuṣam">varuṣam</g> <num rend="traditional">10</num>
   
   </ab>
