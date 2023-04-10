@@ -32,17 +32,17 @@
                   
                <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
-                        <extent>
+                        
+                        
+                        
+                     <support><p>Bifolios</p></support><extent>
                            <measure unit="folio" quantity="24">{1} + 23 (U1 + U2).</measure>
                            <dimensions type="leaf" unit="mm">
                               <width quantity="470"/>
                               <height quantity="30"/>
                            </dimensions>
                            <note>The leaves are broader in their middle than at their edges. </note>
-                        <dimensions type="object" unit="mm"><width quantity="470"/><height quantity="30"/><depth quantity="50"/></dimensions><dimensions type="written" unit="mm"/></extent>
-                        
-                        
-                     <support><p>Bifolios</p></support><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 bifolio = <emph rend="bold">Title Page</emph>. No foliation. Verso blank. Shelfmark on recto.</desc><desc xml:id="U2">23 bifolios = <emph rend="bold"><title xml:lang="ta">Eṇcuvaṭi</title></emph>. Tamil foliation {1}, 2‒23. </desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>. Shelfmark on verso.</desc></collation><condition>Good state of preservation. </condition></supportDesc>
+                        <dimensions type="object" unit="mm"><width quantity="470"/><height quantity="30"/><depth quantity="50"/></dimensions><dimensions type="written" unit="mm"/></extent><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 bifolio = <emph rend="bold">Title Page</emph>. No foliation. Verso blank. Shelfmark on recto.</desc><desc xml:id="U2">23 bifolios = <emph rend="bold"><title xml:lang="ta">Eṇcuvaṭi</title></emph>. Tamil foliation {1}, 2‒23. </desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>. Shelfmark on verso.</desc></collation><condition>Good state of preservation. </condition></supportDesc>
                      <layoutDesc>
                         <layout columns="10" writtenLines="4"/>
                      </layoutDesc>
@@ -62,10 +62,10 @@
                   </origin><provenance><p>Most probably a manuscript owned by <persName xml:lang="fr" role="collector">Reydellet</persName> as indicated by the shelfmark in black ink <quote>N° 22</quote> (U1, <locus facs="5">f[1]r</locus>), which most probably refers to the number in Velanguani Arokium's catalogue (1845), first numbered list (<ref target="https://gallica.bnf.fr/ark:/12148/btv1b10527869m/f17">f. 4r, nos. 15, 22 et 23</ref>).
 
 
-See item 27 (<quote xml:lang="fr">Fractions</quote>) in <title xml:lang="fr">Liste des manuscrits Tamouls donnés à la Bibliothèque du Roi par M. Reydelet</title> (NAF 5441, <ref target="https://gallica.bnf.fr/ark:/12148/btv1b525018697/f549">f311v</ref>).
+See items 26 and 27 (<quote xml:lang="fr">Arithmetique</quote>) in <title xml:lang="fr">Liste des manuscrits Tamouls donnés à la Bibliothèque du Roi par M. Reydelet</title> (NAF 5441, <ref target="https://gallica.bnf.fr/ark:/12148/btv1b525018697/f549">f311v</ref>).
 
 </p></provenance><acquisition>
-                     <p>Received, May 27th, 1833, from Reydellet (<quote xml:lang="fr">officier de marine en retraite au Havre</quote>). See BnF, département des Manuscrits, inventaire 1, no. 50 (<quote xml:lang="fr">Fractions</quote>).</p>
+                     <p>Received, May 27th, 1833, from Reydellet (<quote xml:lang="fr">officier de marine en retraite au Havre</quote>). See BnF, département des Manuscrits, inventaire 1, nos. 49-50 (<quote xml:lang="fr">Arithmétique</quote>, <quote xml:lang="fr">Fractions</quote>).</p>
                   </acquisition></history>
                <additional>
                   <listBibl>
@@ -85,29 +85,28 @@ See item 27 (<quote xml:lang="fr">Fractions</quote>) in <title xml:lang="fr">Lis
   <ab>
     
   <pb facs="4" n="[1]r"/>
-  <seg function="ownership-statement"><lb n="1"/><persName xml:lang="ta" role="collector">Aṅkappaṉ</persName>
+  <seg function="ownership-statement"><lb n="1"/><persName xml:lang="ta" role="collector" key="Aṅkappaṉ">Aṅkappaṉ</persName>
   <seg function="title"><lb n="2"/>Eṇcuvaṭi</seg></seg>
     
     </ab>
-
-</body>
-   </text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
+</body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
   <ab>
     
   <pb facs="8" n="[1]r"/>
   
-  <seg function="blessing"><milestone unit="left margin"/>
+  <fw place="left-margin"><seg function="blessing">
   <lb n="1"/><term xml:lang="sa">hariḥ |</term>
   <lb n="2"/>Ōm</seg>
-  
-  <milestone unit="main text area"/>
+    </fw>
+     
   <lb n="1"/>neṭu <gap reason="ellipsis"/>
   <lb n="2"/>muppatu vāyum Eḻuttu <gap reason="ellipsis"/> <g ref="#pcs"/> <seg function="blessing">kuru muṉṉiṟka <g ref="#pcs"/></seg>
   
     <pb facs="14" n="2r"/>
   
-  <seg function="blessing"><milestone unit="left margin"/>
-  <lb n="1-2"/>naṉṟāka</seg> 
+  <fw place="left-margin"><seg function="blessing">
+  <lb n="1-2"/>naṉṟāka</seg>
+    </fw>
   
   <milestone n="1" unit="column"/>
   <lb n="1"/>1
