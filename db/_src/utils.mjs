@@ -20,6 +20,7 @@ const make = {
 const persDoc = make.xml( fs.readFileSync('authority-files/authority/authority/persons_base.xml',{encoding:'utf-8'}) );
 
 const util = {
+    /*
     innertext: el => {
         var synch, inner, milestone, placement;
         if(el.nodeName === 'seg') {
@@ -45,6 +46,7 @@ const util = {
         }
         return {inner: inner, synch: synch, milestone: milestone?.textContent || '', facs: milestone?.getAttribute('facs') || '', placement: placement};
     },
+    */
     milestone: (el) => {
         const getUnit = (el) => {
             const m = el.ownerDocument.querySelector('extent > measure');
@@ -61,7 +63,7 @@ const util = {
             ) {
                 const content = (p.getAttribute('unit') || getUnit(p) || '') + ' ' + 
                                 (p.getAttribute('n') || '');
-                return {textContent: content, getAttribute: () => p.getAttribute('facs')};
+                return {textContent: content, getAttribute: p.getAttribute};
             }
             p = util.prevEl(p);
         }
@@ -82,7 +84,7 @@ const util = {
         const pp = el.firstChild;
         if(pp && pp.nodeType === 1 && pp.nodeName === 'milestone') {
             const attr = pp.getAttribute('unit');
-            if(!check.isFolio(attr))
+            if(check.isNotMain(attr))
                 return attr + ' ' + (pp.getAttribute('n') || '');
         }
 
@@ -91,7 +93,7 @@ const util = {
             if(!p) return '';
             if(p.nodeName === 'text' || p.nodeName === 'desc') return '';
             if(p.nodeName === 'milestone') {
-                if(check.isFolio(p.getAttribute('unit')) ) return ''; 
+                if(!check.isNotMain(p.getAttribute('unit')) ) return ''; 
                 const u = (p.getAttribute('unit') || '').replace(/-/g,' ');
                 return u + ' ' + (p.getAttribute('n') || '');
             }
@@ -253,6 +255,7 @@ const util = {
 
 const check = {
     isFolio: (str) => str === 'folio' || str === 'page' || str === 'plate',
+    isNotMain: (str) => !check.isFolio(str) && str !== 'main-text-area',
 };
 
 export { util, make, check };
