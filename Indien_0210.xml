@@ -35,20 +35,20 @@
                   
                <objectDesc form="codex" rend="manuscript">
                      <supportDesc material="paper industrial">
-                        <support>
+                        
+                        
+                        
+                        
+                     <support>
                            
                            
-                        </support>
-                        <extent>
+                        </support><extent>
                            <measure unit="folio" quantity="150">1 + {3} + 139 + {7} (U1 + u1 + U2 + u2).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
                            <width quantity="235"/><height quantity="350"/></dimensions>
-                        <dimensions type="object" unit="mm"><width quantity="240"/><height quantity="355"/><depth quantity="35"/></dimensions><dimensions type="written" unit="mm"/></extent>
-                        
-                        
-                     <foliation>Pagination 1-275 in Arabic numerals, top right margin, for U2, except first folio.</foliation><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph></desc><desc xml:id="U1">1 folio = <emph rend="bold">List of Proverbs</emph> in French. Written recto verso. With reference to pages in U2. Library foliation A.</desc><desc xml:id="u1">3 folios = <emph rend="bold">guard leaves</emph>. No foliation. Blank recto verso.</desc><desc xml:id="U2">139 folios = <emph rend="bold">Dictionary, Tamil-French</emph>. 1 unfoliated/unpaginated folio (introduction/preface) + 138 folios with pagination 1-275. The last page, <locus facs="287">page 275</locus>, lists a few entries under the letter <foreign xml:lang="ta">ya</foreign>, that were likely forgotten earlier.</desc><desc xml:id="u2">7 folios = <emph rend="bold">guard leaves</emph>. No foliation. List of numbers on <locus facs="300">f6v</locus> and <locus facs="300">f7v</locus>.</desc><desc xml:id="BackCover">the <emph rend="bold">back cover</emph></desc></collation><condition>Very good state of preservation. Binding intact.</condition></supportDesc>
+                        <dimensions type="object" unit="mm"><width quantity="240"/><height quantity="355"/><depth quantity="35"/></dimensions><dimensions type="written" unit="mm"/></extent><foliation>Pagination 1-275 in Arabic numerals, top right margin, for U2, except first folio.</foliation><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph></desc><desc xml:id="U1">1 folio = <emph rend="bold">List of Proverbs</emph> in French. Written recto verso. With reference to pages in U2. Library foliation A.</desc><desc xml:id="u1">3 folios = <emph rend="bold">guard leaves</emph>. No foliation. Blank recto verso.</desc><desc xml:id="U2">139 folios = <emph rend="bold">Dictionary, Tamil-French</emph>. 1 unfoliated/unpaginated folio (introduction/preface) + 138 folios with pagination 1-275. The last page, <locus facs="287">page 275</locus>, lists a few entries under the letter <foreign xml:lang="ta">ya</foreign>, that were likely forgotten earlier.</desc><desc xml:id="u2">7 folios = <emph rend="bold">guard leaves</emph>. No foliation. List of numbers on <locus facs="300">f6v</locus> and <locus facs="300">f7v</locus>.</desc><desc xml:id="BackCover">the <emph rend="bold">back cover</emph></desc></collation><condition>Very good state of preservation. Binding intact.</condition></supportDesc>
                      <layoutDesc>
                         
                      <layout columns="2" writtenLines="37" ruledLines="38">Arranged in Tamil alphabetical order. Two columns. Pages are numbered, but individual entries are not. Above each column is the letter-heading (e.g. <foreign xml:lang="ta">Ak</foreign> or <foreign xml:lang="ta">Aṅ</foreign>). Grantha characters are listed at the very end.</layout></layoutDesc>
@@ -86,13 +86,12 @@
   <ab>
     
     <pb n="[1]r" facs="3"/>
-    <seg function="incipit"><milestone unit="main-text-area"/>
+    <seg function="incipit">
 <lb n="1"/>Page 1. Il cherche du poil dans la paume de la main. (Des difficultés là où il n'y en a pas.)</seg>
     <lb n="2ff."/><gap reason="ellipsis"/>
     
-    <pb n="[1]v" facs="4"/>
-    
-        <milestone unit="main-text-area"/>
+    <pb n="[1]v" facs="4"/>    
+        
     <lb n="1ff."/><gap reason="ellipsis"/>
 <seg function="explicit"><lb n="28"/>145. Si vous voulez considérer les défauts des autres, vous n'aurez aucune paresse.</seg>
     
@@ -101,7 +100,9 @@
   <ab>
     
     <pb n="[1]r" facs="11"/>
-    <seg function="header"><lb n="1"/><term xml:lang="ta">A</term></seg>
+    <fw place="top-margin"> 
+     <lb n="1"/><term xml:lang="ta">A</term>
+      </fw>
     <seg function="incipit"><milestone n="1" unit="column"/>
 <lb n="1-3"/>Il y a dans le tamoul 12. voyelles qui viennent avant les consonnes en cette figure et en cet ordre/ <gap reason="ellipsis"/></seg>
     <lb n="4ff."/><gap reason="ellipsis"/>
@@ -110,7 +111,9 @@
 
         <pb n="[1]r=p1" facs="13"/>
 
-<seg function="header"><lb n="1"/><term xml:lang="ta">Ak</term></seg>
+    <fw place="top-margin">
+      <lb n="1"/><term xml:lang="ta">Aka.</term>
+      </fw>
 
     <milestone n="1" unit="column"/>
 <lb n="1"/><term xml:lang="ta">Akaṅkai</term>. Paulme de la main R.
@@ -131,7 +134,6 @@
 
 <seg function="explicit"><milestone n="2" unit="column"/>
 <lb n="1"/><term xml:lang="ta">yāṉi</term>. rejetton d'une arbre coupé.</seg>
-
 
     </ab>
   </body></text></TEI>

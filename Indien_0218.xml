@@ -34,19 +34,19 @@
                   
                <objectDesc form="codex" rend="manuscript">
                      <supportDesc material="paper industrial">
-                        <support>
+                        
+                        
+                        
+                     <support>
                            
                            <p>Same paper used in guard folios</p>
-                        </support>
-                        <extent>
+                        </support><extent>
                            <measure unit="folio" quantity="312">{3} + 309 (u1 + U1). 3 front guard folios and 1 back guard folio (U2, f309).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
                            <width quantity="180"/><height quantity="235"/></dimensions>
-                        <dimensions type="object" unit="mm"><width quantity="195"/><height quantity="245"/><depth quantity="55"/></dimensions><dimensions type="written" unit="mm"/></extent>
-                        
-                     <foliation>Library added Arabic numerals on every recto of folio, on top right. Each new alphabet (i.e., chapter) represented in large. Quires of 8 pages numbered in Tamil numerals.</foliation><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="u1">3 folios = <emph rend="bold">guard leaves</emph>. No foliation. Blank recto verso.</desc><desc xml:id="U1">3o9 folios = <emph rend="bold">Dictionary, French-Tamil</emph>. Library Arabic foliation 1-309. Foliation 309 crossed-out. Folio 309 is back guard leaf.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Good condition.</condition></supportDesc>
+                        <dimensions type="object" unit="mm"><width quantity="195"/><height quantity="245"/><depth quantity="55"/></dimensions><dimensions type="written" unit="mm"/></extent><foliation>Library added Arabic numerals on every recto of folio, on top right. Each new alphabet (i.e., chapter) represented in large. Quires of 8 pages numbered in Tamil numerals.</foliation><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="u1">3 folios = <emph rend="bold">guard leaves</emph>. No foliation. Blank recto verso.</desc><desc xml:id="U1">3o9 folios = <emph rend="bold">Dictionary, French-Tamil</emph>. Library Arabic foliation 1-309. Foliation 309 crossed-out. Folio 309 is back guard leaf.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Good condition.</condition></supportDesc>
                      <layoutDesc>
                         <layout columns="2" writtenLines="17">Divided into chapters according to the French alphabet. French and Tamil counterpart separated by dotted line.</layout>
                      </layoutDesc>
@@ -84,7 +84,7 @@
   <ab>    
    
   <pb n="1r" facs="9"/>
-     <seg function="title"><milestone unit="main-text-area"/>   
+     <seg function="title">
       <lb n="1-3"/>Vocabulaire françois et tamoul
       </seg>
     
@@ -98,7 +98,7 @@
     <lb n="11ff."/><gap reason="ellipsis"/>
     
   <pb n="308r" facs="623"/>
-        <seg function="explicit"><milestone unit="main-text-area"/>
+        <seg function="explicit">
    <lb n="1"/>zodiaque — <term xml:lang="ta">rācimaṇṭalam</term>
           <lb n="2"/>zone — <term xml:lang="ta">pūmi paṅkiṭu</term>
           </seg>
