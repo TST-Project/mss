@@ -57,7 +57,7 @@ data.mss = (xmlDoc,base) => {
 };
 
 
-const paratextnames = ['colophon','blessing','header','invocation','ownership-statement','satellite-stanza','table-of-contents','title','tbc'];
+const paratextnames = ['colophon','blessing','header','invocation','ownership-statement','satellite-stanza','table-of-contents','title','TBC'];
 
 data.paratexts = (xmlDoc) => {
     /*

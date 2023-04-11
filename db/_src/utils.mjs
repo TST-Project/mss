@@ -63,7 +63,7 @@ const util = {
             ) {
                 const content = (p.getAttribute('unit') || getUnit(p) || '') + ' ' + 
                                 (p.getAttribute('n') || '');
-                return {textContent: content, getAttribute: p.getAttribute};
+                return {textContent: content, getAttribute: () => p.getAttribute('facs')};
             }
             p = util.prevEl(p);
         }
