@@ -10,7 +10,7 @@
 
 			<publicationStmt>
 				<publisher>TST Project</publisher>
-				<date>2022</date>
+				<date>2023</date>
 			</publicationStmt>
 			<sourceDesc>
 				<msDesc>
@@ -42,7 +42,13 @@
 						
 					<objectDesc form="pothi" rend="manuscript">
 							<supportDesc material="palm-leaf">
-								<extent>
+								
+
+
+								
+								
+								
+							<support/><extent>
 									<measure unit="folio" quantity="119">{1} + 117 + {1} (U1 + U2 + U3).</measure>
 									<dimensions type="leaf" unit="mm">
 
@@ -55,13 +61,7 @@
 										<width quantity="380"/>
 										<height quantity="35"/>
 										<depth quantity="65"/>
-									</dimensions><dimensions type="written" unit="mm"/></extent>
-
-
-								<support/>
-								
-								
-							<collation>
+									</dimensions><dimensions type="written" unit="mm"/></extent><collation>
 									<desc xml:id="U1">1 folio = <emph rend="bold"><title xml:lang="ta">Naḷacakkarvarttik Katai</title>: Invocation</emph>. No foliation. Slightly damaged (cracked). 380 x 35 mm.
 </desc><desc xml:id="U2">117 folios = <emph rend="bold"><title xml:lang="ta">Naḷacakkarvarttik Katai</title>: Text</emph>. Tamil foliation 1-117. 380 x 35 mm.
 </desc><desc xml:id="U3">1 folio = back <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso. Verso more dark = original outside page. BnF shelfmark sticker and stamp (f[1]v).
@@ -119,52 +119,52 @@
 	</facsimile>
 	
 	
-<text synch="#U1" corresp="#T1" xml:lang="ta">
-		<body>
+<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
 			<ab>
 				<pb facs="124" n="[1]r"/>
-				<seg function="header">
-					<seg function="blessing"><milestone n="1" unit="left-margin"/>
-						<lb n="1"/><term xml:lang="sa">hari Om·</term></seg>
-					<seg function="blessing"><lb n="2"/>naṉṟāka</seg>
-					<seg function="blessing"><lb n="3"/>kuru vāḻka</seg>
-					<seg function="blessing"><lb n="4"/>kuruvē tuṇai</seg>
-					<seg function="blessing"><lb n="5"/>śrī-ṟāma
+				<fw place="left-margin"> 
+					<seg function="blessing"><cb n="1"/>
+						<lb n="1"/><term xml:lang="sa">hari Om·</term>
+                      <lb n="2"/>naṉṟāka
+                      <lb n="3"/>kuru vāḻka
+                      <lb n="4"/>kuruvē tuṇai
+                      <lb n="5"/>śrī-ṟāma
  
-     <milestone n="2" unit="left-margin" break="no"/>
+     <cb n="2" break="no"/>
 						<lb n="1"/>ceyam</seg>
 					<seg function="intertitle"><lb n="2"/>kāppu</seg>
 					<seg function="prosody"><lb n="3-4"/>veṇpā</seg>
 					<g ref="#pcs"/>
-				</seg>
-				<seg function="incipit"><milestone unit="main-text-area"/>
+				</fw>
+              
+				<seg function="incipit">
 					<lb n="1"/>matikulattil vanta</seg>
 				<gap reason="ellipsis"/> pāṟa
 <lb n="2" break="no"/>tattai <gap reason="ellipsis"/> poṟpatamē <seg function="intertitle">kāppu <g ref="#pcs"/></seg>
 				<seg function="prosody">y<pc>-</pc>ituvum veṇpā <g ref="#pcs"/></seg>
 				<lb n="3-5"/><note xml:lang="en">right-oriented, unblackened</note>
-				<seg function="TBC"><lb n="3"/><persName xml:lang="ta" role="reciter">cēruvai-cōlakkaṟaṉ</persName>
+				<seg function="TBC"><lb n="3"/><persName xml:lang="ta" role="reciter" key="Cēruvai Cōlakkaraṉ">cēruvai-cōlakkaṟaṉ</persName>
 					<lb n="4"/>paṭikki<sic>ṇṭa</sic> naḷacakaṟa
 <lb n="5" break="no"/>vaṟttīkkatai <g ref="#pcs"/></seg>
 				<seg function="blessing">cāṟatāmpāḷ tuṇai</seg>
 				<pb facs="123" n="[1]v"/><note xml:lang="en">centred, unblackened</note>
-				<seg function="TBC"><lb n="1"/><persName xml:lang="ta" role="owner">cēruvai <unclear>Ai</unclear> kōlakkaṟaṉ</persName>
+				<seg function="TBC"><lb n="1"/><persName xml:lang="ta" role="owner" key="Cēruvai Kōlakkaṟaṉ">cēruvai <unclear>Ai</unclear> kōlakkaṟaṉ</persName>
 					<term xml:lang="en">{symbol}</term>
-					<lb n="2"/>cerntom y<pc>-</pc>itu vilaiyāvākiṉatu</seg>
-			</ab>
-		</body>
-	</text><text synch="#U2" corresp="#T2" xml:lang="ta">
-		<body>
+					<lb n="2"/>cerntōm y<pc>-</pc>itu vilaiyāvākiṉatu</seg>
+			
+  </ab>		
+</body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
 			<ab>
 				<pb facs="123" n="1r"/>
-				<seg function="header">
-					<seg function="blessing"><milestone unit="left-margin"/>
+				<fw place="left-margin">
+					<seg function="blessing">
 						<lb n="1"/>naṉṟāka</seg>
 					<seg function="title"><lb n="2-3"/>naḷacakkiṟavaṟtti-katai</seg>
 					<seg function="intertitle"><lb n="4-5"/>tamaiyanticarittiram</seg>
 					<seg function="blessing"><lb n="6"/>civamayam</seg>
-				</seg>
-				<seg function="incipit"><milestone unit="main-text-area"/>
+				</fw>
+              
+				<seg function="incipit">
 					<lb n="1"/>Añcām vētamāṉa pāṟatakkataiyilē</seg>
 				<gap reason="ellipsis"/>
 				<pb facs="3" n="117r"/>
@@ -172,7 +172,7 @@
 				<seg function="colophon"><seg function="completion-statement">muṟṟu<seg rend="grantha">m</seg><g ref="#pcl"/></seg>
 					<seg function="blessing">vāṇikātēvi-cakāya<seg rend="grantha">m</seg><g ref="#pcs"/></seg>
 					<seg function="copy-statement"><lb n="7"/>Inta naḷacakkiṟavaṟti-carittiram ~ <num rend="traditional">1838</num> | Okuttōmpuṟ ~ <g ref="#mācam">mācam</g> <num rend="traditional">23</num> <g ref="#tēti">tēti</g>kkic cellāniṉṟa veḷampi ~ <g ref="#varuṣam">varuṣam</g> Aṟpici
-<lb n="8"/><g ref="#mācam">mācam</g> 9 <g ref="#tēti">tēti</g> cevvāykkiḻamaik kālamai ~ 7 ~ maṇikki ~ <placeName xml:lang="ta" key="Pondicherry">putuvai</placeName>yaic cēṟnta <placeName xml:lang="ta" key="Kurichikuppam">kuṟucukuppattil</placeName> vāḻu<persName xml:lang="ta" role="scribe">muttuk koṭiyāṉa mēsttirikku
+<lb n="8"/><g ref="#mācam">mācam</g> 9 <g ref="#tēti">tēti</g> cevvāykkiḻamaik kālamai ~ 7 ~ maṇikki ~ <placeName xml:lang="ta" key="Pondicherry">putuvai</placeName>yaic cēṟnta <placeName xml:lang="ta" key="Kurichikuppam">kuṟucukuppattil</placeName> vāḻu<persName xml:lang="ta" role="scribe" key="Muttucāmi">muttuk koṭiyāṉa mēsttirikku
 <lb n="9"/>māṟaṉ muttucuvāmi</persName> kaippaṭa y<pc>-</pc>eḻuti niṟavēṟiṉatu y<pc>-</pc>itil teruntu teriyāmal vanta piḻai y<pc>-</pc>uṇṭāy iruntālum itai y<pc>-</pc>e
    
    <pb facs="2" n="117v"/>
@@ -181,10 +181,10 @@
 <lb n="2"/>y<pc>-</pc>uṇṭāka tākavum</seg>
 					<seg function="blessing">śrī-<g rend="below-base">rāMa</g>-ce<g rend="below-base">yaM</g><g ref="#pcl"/></seg>
 					<seg function="blessing">kuru-kiṟupai <g ref="#pcl"/></seg>
-					<seg function="ownership-statement">y<pc>-</pc>itu Āṟukkuc contam eṉṟāl <persName xml:lang="ta" role="owner">cokkiṉpiṣaṉu</persName>ṭaiya contam<note xml:lang="en" place="foot">"If you ask whose property is this [manuscript], [this is] the property of Cokkiṉpiṣaṉ"</note>
+					<seg function="ownership-statement">y<pc>-</pc>itu Āṟukkuc contam eṉṟāl <persName xml:lang="ta" role="owner" key="Cokkiṉpiṣaṉ">cokkiṉpiṣaṉu</persName>ṭaiya contam<note xml:lang="en" place="foot">"If you ask whose property is this [manuscript], [this is] the property of Cokkiṉpiṣaṉ"</note>
 						<g ref="#pcs"/></seg>
 					<seg function="TBC"><lb n="3"/>ṉaḷaccakkiṟavaṟtti-katai y<pc>-</pc>itai Aṟiya<g rend="below-base">luM</g> <g ref="#end_of_text"/></seg>
 				</seg>
-			</ab>
-		</body>
-	</text></TEI>
+			
+  </ab>
+</body></text></TEI>
