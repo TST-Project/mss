@@ -9,7 +9,7 @@
          
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2022</date>
+            <date>2023</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -37,10 +37,15 @@
                   
                <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
-                        <support>
+                        
+                        
+                        
+                        
+                        
+                        
+                     <support>
                            <!--measure unit="stringholes" quantity=""/-->
-                        </support>
-                        <extent>
+                        </support><extent>
                            <measure unit="folio" quantity="24">10 + 14 (U1a + U1b).</measure>
                            <dimensions type="leaf" unit="mm">
                               
@@ -53,12 +58,7 @@
                             
                             
                         </dimensions>
-                        </extent>
-                        
-                        
-                        
-                        
-                     <foliation>Tamil foliation 1-24.</foliation><collation>
+                        </extent><foliation>Tamil foliation 1-24.</foliation><collation>
                      
                      <desc xml:id="U1a">10 folios = <emph rend="bold"><title xml:lang="ta">Civāñāṉapōtam</title></emph>. Tamil foliation 1-10.</desc><desc xml:id="U1b">14 folios = <emph rend="bold"><title xml:lang="ta">Vayirākatīpam</title></emph>. Tamil foliation 11-24.</desc></collation><condition>Good state of preservation. </condition></supportDesc>
                      <layoutDesc>
@@ -115,14 +115,12 @@
   <ab>
     
     <pb facs="33" n="[1]r"/>
-    <seg function="header">
-
-   <milestone unit="left-margin"/>
+   
+    <fw place="left-margin">
   <seg function="blessing"><lb n="1-2"/>tirucciṟṟampalam</seg>
-<seg function="title"><lb n="3-4"/>civāñāṉapōtam</seg></seg>
+<seg function="title"><lb n="3-4"/>civāñāṉapōtam</seg></fw>
   
-  <milestone unit="main-text-area"/>
-  <seg function="incipit"><lb n="1"/><gap reason="ellipsis"/></seg>
+   <seg function="incipit"><lb n="1"/><gap reason="ellipsis"/></seg>
     <lb n="2-6"/><gap reason="ellipsis"/>
         
     <pb facs="55" n="10v"/>
@@ -131,17 +129,16 @@
        <lb n="4" break="no"/>ṇṭāñ cūttiramuṟṟum<g ref="#pcs"/></seg> kara <g ref="#varuṣam">varuṣam</g> māci <g ref="#mācam">mācam</g> <num rend="traditional">20</num> <g ref="#tēti">tēti</g> caturtecititiyil y<pc>-</pc>eḻuti mukintutu<g ref="#pcs"/> <seg function="blessing">nantiyīcarapātan tuṇai</seg></seg>
     </ab>
 
-</body>
-</text><text synch="#U1b" corresp="#T2" xml:lang="ta"><body><ab>
+</body></text><text synch="#U1b" corresp="#T2" xml:lang="ta"><body><ab>
   
   <pb facs="59" n="11r"/>
   
-   <seg function="header">
-      <seg function="blessing"><milestone unit="left-margin"/>
+<fw place="left-margin">
+  <seg function="blessing">
  <lb n="1-2"/><supplied reason="lost">ku</supplied>runātaṉ ṟuṇai</seg>
-<seg function="title"><lb n="3-4"/>vayirākatīpam</seg></seg>
+<seg function="title"><lb n="3-4"/>vayirākatīpam</seg></fw>
   
-  <seg function="incipit"><milestone unit="main-text-area"/>
+  <seg function="incipit">
   <lb n="1"/><gap reason="ellipsis"/></seg>
   <lb n="2-8"/><gap reason="ellipsis"/>
         
@@ -150,5 +147,4 @@
       <lb n="1-7"/><gap reason="ellipsis"/>
    <seg function="explicit"><lb n="8"/><gap reason="ellipsis"/> = <num rend="traditional">100</num> =</seg> <seg function="blessing">tirucciṟṟampala</seg> <seg function="completion-statement"> muṟṟu<seg rend="grantha">m</seg><g ref="#pcs"/></seg>
 
-</ab></body>
-</text></TEI>
+</ab></body></text></TEI>

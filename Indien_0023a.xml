@@ -32,10 +32,13 @@
                   
                <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
-                        <support>
+                        
+                        
+                        
+                        
+                     <support>
                            <!--measure unit="stringholes" quantity=""/-->
-                        <p>Single-holed leaves for U1 and U3. Two-holed leaves for U2.</p></support>
-                        <extent>
+                        <p>Single-holed leaves for U1 and U3. Two-holed leaves for U2.</p></support><extent>
                            <measure unit="folio" quantity="51">{1} + 49 + {1} (U1 + U2 + U3).</measure>
                            <dimensions type="leaf" unit="mm">
                               
@@ -48,10 +51,7 @@
                             
                             
                         </dimensions>
-                        </extent>
-                        
-                        
-                     <collation>
+                        </extent><collation>
                      
                      <desc xml:id="U1">1 folio = <emph rend="bold"><title xml:lang="ta">Cittiyār Cupaṭcam</title>: Title Page</emph>. No foliation. Double folio. 355 x 30 mm. </desc><desc xml:id="U2">49 folios = <emph rend="bold"><title xml:lang="ta">Cittiyār Cupaṭcam</title>: Text</emph>. Tamil foliation 50-98. 360 x 30 mm.</desc><desc xml:id="U3">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Double folio. f1v more dark = original outside page. 365 x 30 mm. </desc></collation><condition>Relatively good state of preservation, despite boreholes. Right edges damaged and truncated.</condition></supportDesc>
                      <layoutDesc>
@@ -106,8 +106,9 @@
   
   <pb facs="6" n="[1]r"/>
   
-  <seg function="title"><milestone unit="left-margin"/>
+  <fw place="left-margin"><seg function="title">
   <lb n="1-2"/>cittiyār cupaṭ<subst><del><gap reason="illegible" quantity="1" unit="character"/></del><add>ca</add></subst>m mūlapāṭam</seg>
+    </fw>
 
     <pb facs="10" n="[1]v"/>
   <milestone n="1" unit="column"/>
@@ -123,14 +124,13 @@
   
   <pb facs="15" n="50r"/>
   
-  <seg function="header">
-    <seg function="title">
-      <milestone unit="left-margin"/>
+<fw place="left-margin">
+  <seg function="title">
   <lb n="1"/>cupaṭcam</seg>
     <seg function="blessing"><lb n="2-3"/>tirucciṟṟampalam</seg>
-    </seg>
+    </fw>
 
-  <seg function="incipit"><milestone unit="main-text-area"/>
+  <seg function="incipit">
   <lb n="1"/><gap reason="ellipsis"/></seg>
   
    <pb facs="3o" n="98v"/>
@@ -144,17 +144,13 @@
   <pb facs="33" n="[1]r"/>
     
     <seg function="blessing">
-      <milestone n="1" unit="column"/>
+      <cb n="1"/>
   <lb n="1"/>tiruciṟṟampalam</seg> 
   
-  <milestone n="1" unit="column"/><note xml:lang="en">unblackened</note>
+  <cb n="2"/><note xml:lang="en">unblackened</note>
   <lb n="1"/>poṟṟu kaṉam ñāṉamuṭaṉ cattāti pūtāti cāṟṟu maṉamūṉṟu 
 <lb n="2"/>cattuvamum eṟṟa kuṇamūṉṟuṭaṉ māṉakalāṭi y<pc>-</pc>aintu muppā
 <lb n="3"/>ṉ ivaiyum eṉṟa puriyaṭṭakam eṇ
-
-<lb n="2"/>
-  
-    <milestone n="2" unit="column"/><note xml:lang="en">diagram</note>
 
   <pb n="[1]v"/><note xml:lang="en">blank</note>
 

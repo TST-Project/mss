@@ -9,7 +9,7 @@
          
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2022</date>
+            <date>2023</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -27,12 +27,18 @@
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Pūtipōtakāraṇakārikakaṭṭaḷai</title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi">
+                  
+                  
+                  
+               <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
-                        <support>
+                        
+                        
+                        
+                        
+                     <support>
                            <!--measure unit="stringholes" quantity=""/-->
-                        <measure unit="stringhole" quantity="1"/></support>
-                        <extent>
+                        </support><extent>
                            <measure unit="folio" quantity="19">19 (U1).</measure>
                            <dimensions type="leaf" unit="mm">
                               
@@ -43,20 +49,15 @@
                         </dimensions>
                         <dimensions type="written" unit="mm">
                         </dimensions>
-                        </extent>
-                      <collation>
-                     <desc xml:id="U1">19 folios = <emph rend="bold"><title xml:lang="ta">Pūtipōtakāraṇakārikakaṭṭaḷai</title></emph>. Tamil foliation {1}, 2-19.</desc></collation>  
-                        <condition>Relatively poor state of preservation: boreholed leaves. </condition>
-                     </supportDesc>
+                        </extent><collation>
+                     <desc xml:id="U1">19 folios = <emph rend="bold"><title xml:lang="ta">Pūtipōtakāraṇakārikakaṭṭaḷai</title></emph>. Tamil foliation {1}, 2-19.</desc></collation><condition>Relatively poor state of preservation: boreholed leaves. </condition></supportDesc>
                      <layoutDesc>
                      <layout writtenLines="5"/></layoutDesc>
-                  </objectDesc>
-                  <handDesc>
+                  </objectDesc><handDesc>
                      
                      
                     
-                  <handNote synch="#U1" scope="major" script="tamil" medium="incised"><desc>Unblackened.</desc></handNote></handDesc>
-                  <additions>
+                  <handNote synch="#U1" scope="major" script="tamil" medium="incised"><desc>Unblackened.</desc></handNote></handDesc><additions>
                   
                      
                      
@@ -65,18 +66,17 @@
                     
                     
                      
-                  </additions>
-               </physDesc>
+                  </additions><bindingDesc><binding><decoNote type="stringhole"><measure unit="stringhole" quantity="1"/></decoNote></binding></bindingDesc></physDesc>
                <history>
-                  <origin>
+                  
+                  
+                  
+               	<origin>
                      <origDate calendar="gregorian" notAfter="1854">Composite dated to circa 1775 by Vinson (1868) and to 1775 by Cabaton (1912), on unstated grounds (presumably palaeographical and material analysis arguments). Not after 1854, since part of the collection of <persName role="collector" key="Ariel, Édouard">Édouard Ariel</persName> (1818-1854), bequeathed in 1855 to the Société Asiatique, Paris (Rosny 1868).</origDate>
                      <origPlace>South India, Tamil Nadu.</origPlace>
-                  </origin>
-                  <provenance><p>Owned by <persName role="collector" key="Ariel, Édouard">Édouard Ariel</persName> (1818-1854). Bequeathed by Édouard Ariel to Société Asiatique (Rosny 1868, p. 177). Ariel manuscript not acknowledged by Cabaton (1912).</p></provenance>
-                  <acquisition>
+                  </origin><provenance><p>Owned by <persName role="collector" key="Ariel, Édouard">Édouard Ariel</persName> (1818-1854). Bequeathed by Édouard Ariel to Société Asiatique (Rosny 1868, p. 177). Ariel manuscript not acknowledged by Cabaton (1912).</p></provenance><acquisition>
                      <p>Received, August 1st, 1866, from the Société Asiatique. See BnF, département des Manuscrits, inventaire 7 = <title>Dons: manuscrits et imprimés documentaires, 1848-1895</title>, no. 1192.</p>
-                  </acquisition>
-               	</history>
+                  </acquisition></history>
                <additional>
                   <listBibl>
                      
@@ -101,14 +101,13 @@
   
   <pb facs="48" n="[1]r"/>
   
-  <seg function="header">
+  <fw place="left-margin">
      <seg function="blessing">
-    <milestone unit="left-margin"/>
  <lb n="1"/>vēl vāḻi</seg>
-<seg function="title"><lb n="2-4"/><unclear reason="vowel_unclear">pū</unclear>tipōtakāraṇakārikakaṭṭaḷai <g ref="#pcs"/></seg></seg>
+<seg function="title"><lb n="2-4"/><unclear reason="vowel_unclear">pū</unclear>tipōtakāraṇakārikakaṭṭaḷai <g ref="#pcs"/></seg>
+    </fw>
   
   <seg function="incipit">
-    <milestone unit="main-text-area"/>
   <lb n="1"/><gap reason="ellipsis"/></seg>
     <lb n="2-5"/><gap reason="ellipsis"/>
 
