@@ -24,8 +24,8 @@
                <msContents class="#CM">
                   <summary><p>A composite manuscript containing:
   <list>
-  <item>The <title xml:lang="ta">TBC</title>.</item>
-  <item>The <title xml:lang="ta">TBC</title>.</item>
+  <item>The <title xml:lang="ta">Civappirakācak Kuṟun Tiraṭṭu</title> (Indien 18a).</item>
+  <item>The <title xml:lang="ta">Makāvākkiyam</title> (Indien 18b).</item>
    </list>
 </p>
 
@@ -33,7 +33,7 @@
 <p>Dimensions assessed at the time of examination.</p>      
 </summary>
                   
-               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Collection: <term xml:lang="en">Title Page (additional)</term></title><textLang mainLang="tam"/></msItem><msItem synch="#Indien18a" xml:id="T2" defective="true"><title xml:lang="ta">Civappirakācak Kuṟun Tiraṭṭu: Mūlam</title><textLang mainLang="tam"/></msItem><msItem synch="#Indien18b" xml:id="T3" defective="false"><title xml:lang="ta">Makāvākkiyam</title><textLang mainLang="tam"/></msItem></msContents>
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Collection: <term xml:lang="en">Title Page (additional)</term></title><textLang mainLang="tam"/></msItem><msItem synch="#Indien18a" xml:id="T2" defective="true" source="https://tst-project.github.io/mss/Indien_0018a.xml"><title xml:lang="ta">Civappirakācak Kuṟun Tiraṭṭu: Mūlam</title><textLang mainLang="tam"/></msItem><msItem synch="#Indien18b" xml:id="T3" defective="false" source="https://tst-project.github.io/mss/Indien_0018b.xml"><title xml:lang="ta">Makāvākkiyam</title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
                   
                   
@@ -48,7 +48,7 @@
                      <support>
                            
                         </support><extent>
-                           <measure unit="folio" quantity="72">{1} + {1} + 70 (U1 + U2 + U3).</measure>
+                           <measure unit="folio" quantity="187">{1} + 170 + 16 (U1 + Indien 18a + Indien 18b).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
@@ -63,7 +63,7 @@
                         
                         
                         
-                        <desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. Shelfmark and donation sticker on recto.</desc><desc xml:id="U1">1 bifolio = <emph rend="bold">Collection: Title Page (additional)</emph>. No foliation. Verso blank. 380 x 30 mm. Hand #1.</desc><desc xml:id="Indien18a">** folios = <emph rend="bold">Civappirakācak Kuṟun Tiraṭṭu</emph>.</desc><desc xml:id="Indien18b">** folios = <emph rend="bold">Makāvākkiyam</emph>.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Relatively good state of preservation, despite boreholes and truncation.</condition></supportDesc>
+                        <desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. Shelfmark and donation sticker on recto.</desc><desc xml:id="U1">1 bifolio = <emph rend="bold">Collection: Title Page (additional)</emph>. No foliation. Verso blank. 380 x 30 mm. Hand #1.</desc><desc xml:id="Indien18a">170 folios = <emph rend="bold">Civappirakācak Kuṟun Tiraṭṭu</emph>.</desc><desc xml:id="Indien18b">16 folios = <emph rend="bold">Makāvākkiyam</emph>.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Relatively good state of preservation, despite boreholes and truncation.</condition></supportDesc>
                   </objectDesc><handDesc>
                      
                      
@@ -78,7 +78,7 @@
                      
                      
                      
-                  <desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 18</quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#CoverFront" type="shelfmark" subtype="cover front">Shelfmark sticker (Société Asiatique?), written in black ink: <quote>693</quote> (<locus facs="1">f[1]r</locus>). Presently not sticking any more.</desc><desc synch="#CoverFront" type="documenting-note" subtype="cover front">BnF donation sticker <quote>DON N° <space type="vacat"/></quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#U1" type="shelfmark">Shelfmark in black ink: <quote>c/13</quote> (<locus facs="3">f[1]r</locus>).</desc></additions><bindingDesc>
+                  <desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 18</quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#CoverFront" type="documenting-note" subtype="cover front">BnF donation sticker <quote>DON N° <space type="vacat"/></quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#U1" type="shelfmark">Shelfmark in black ink: <quote>c/13</quote> (<locus facs="3">f[1]r</locus>).</desc><desc synch="#U1" type="shelfmark">Shelfmark sticker (Société Asiatique?), written in black ink: <quote>693</quote> (<locus facs="3">f[1]r</locus>). Presently not sticking any more.</desc></additions><bindingDesc>
                      <binding>
                         <p><material cert="medium">Pinewood</material> covers apparently fabricated in the BnF. 385 x 30 mm.</p>
                      <decoNote type="stringhole"><measure unit="stringhole" quantity="1"/></decoNote></binding>
@@ -120,60 +120,22 @@
 
     <pb facs="3" n="[1]r"/>
     <fw place="left-margin"><seg function="blessing">
-<lb n="1"/><g ref="#pcs"/> civakuruvē tuṇai</seg>
+<lb n="1"/><g ref="#pcs"/>
+      <lb n="2-3"/>veṟṟivēl uṟṟa tuṇai</seg>
     </fw>
 
-<seg function="title">
+<seg function="table-of-contents">
   <cb n="1"/>
-<lb n="1"/>yitu vīracaivatat
- <lb n="2" break="no"/>tuvappiṟakācavaca<g rend="below-base">ṉaM</g></seg>
-    <seg function="blessing">
-      <lb n="3"/>tirucci<sic>tta</sic>mpalam <g ref="#pcs"/>
-    <lb n="4"/>civamayam tēvicakā<g rend="below-base">yaM</g>
-    </seg>
-    
-    <seg function="blessing">
+<lb n="1"/>Iḵtu
   <cb n="2"/>
-<lb n="1"/><g ref="#pcs"/> civa<supplied reason="lost">kuruvē tu</supplied>ṇai <g ref="#pcs"/>
-      </seg>
-    <pb facs="4" n="[1]v"/><note xml:lang="en">blank</note>
+<lb n="1"/>\\ 2 \\
+  <cb n="3"/>
+<lb n="1-2"/>civappirakācak kuṟun tiraṭṭu
+  <cb n="4"/>
+<lb n="1-2"/>makāvākkiyam
+  </seg>
+  
+      <pb facs="4" n="[1]v"/><note xml:lang="en">blank</note>
 
 </ab>
-</body></text><text corresp="#T2" xml:lang="ta"><body>
-  <ab>
-  
-  <pb facs="7" n="[1]r"/>
-    
-    <fw place="left-margin">
-      <cb n="1"/>
-      <lb n="1"/>1 <space/> <g ref="#pcl"/>
-      
-      <seg function="blessing">
-        <cb n="2"/>
-      <lb n="1"/>tirucci<sic>tta</sic>m
-        <lb n="2" break="no"/>palam kurupā
-        <lb n="3" break="no"/>tamē tuṇai <g ref="#pcl"/> civā
-        <lb n="4"/><g ref="#pcl"/></seg>
-        <seg function="title">
-          <lb n="5"/>vīracaivatat
- <lb n="6" break="no"/>tuvappiṟakāca
-          <lb n="7" break="no"/>vacaṉam <g ref="#pcs"/>
-        </seg>
-      </fw>
-    
-    <seg function="incipit">
-      <lb n="1"/><gap reason="ellipsis"/>
-      <lb n="2-7"/><gap reason="ellipsis"/></seg>
-    
-    <pb facs="11" n="3r"/>
-    
-          <fw place="left-margin">
-      <seg function="foliation"><lb n="1"/>3</seg>
-            <seg function="intertitle">
-              <lb n="2-5"/>civatattu<gap reason="ellipsis"/>piṟa<gap reason="ellipsis"/>ṉam</seg>
-            </fw>
-                 
-    
-
-    </ab>  
- </body></text></TEI>
+</body></text></TEI>
