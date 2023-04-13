@@ -9,7 +9,7 @@
 			<editor><persName>Ilona Kędzia</persName><orgName>Jagiellonian University</orgName></editor></titleStmt>
 			<publicationStmt>
 				<publisher>TST Project</publisher>
-				<date>2022</date>
+				<date>2023</date>
 			</publicationStmt>
 			<sourceDesc>
 				<msDesc>
@@ -47,17 +47,17 @@
 						
 					<objectDesc form="pothi" rend="manuscript">
 							<supportDesc material="palm-leaf">
-								<support>
+								
+								
+								
+								
+								
+							<support>
 									
-								</support>
-								<extent>
+								</support><extent>
 									<measure unit="folio" quantity="78">{1} + 9 + 25 + 9 + 6 + 27 + {1} (U1 + U2 + U3 + U4 + U5 + U6 + U7).</measure>
 									<dimensions type="leaf" unit="mm"> </dimensions>
-									<dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
-								
-								
-								
-							<foliation>Tamil folation in left margin. Arabic library foliation (lf) in pencil on right margin.</foliation><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1"> 1 folio = <emph rend="bold">Title Page (additional)</emph>. No Tamil foliation = Library foliation A.</desc><desc xml:id="U2">9 folios = <emph rend="bold"><title xml:lang="ta">Cuntara-nūl</title></emph>. Tamil foliation 1-9 (at several folios unblackened) = Library foliation 1-9. The first folio is blank, except for the title and unblackened text written in the column in the left part of the folio (f[1]r). Initial part of the text is missing (f2r starts with the verse no 3). Folio 3v is unfinished: it ends with the verse no 8, while folio 4r starts with the final part of the verse 11. </desc><desc xml:id="U3">25 folios = <emph rend="bold"><title xml:lang="ta">Rāmarēvar paṭcaṉi</title></emph>. Tamil foliation 1-25 = Library foliation 10-34.</desc><desc xml:id="U4">9 folios = <emph rend="bold"><title xml:lang="ta">Rōmariṣi-cuvāmi ruttiram a[i]ṉpatu</title></emph>. Tamil foliation {1}-9 = Library foliation 35-43.</desc><desc xml:id="U5">6 folios = <emph rend="bold"><title xml:lang="ta">Rōmariṣi-cuvamiyar cūṣttiram patiṉāṟu</title></emph>. Tamil foliation {1}-6 Library foliation 44-49.</desc><desc xml:id="U6">27 folios = <emph rend="bold"><title xml:lang="ta">Rōmariṣi-cuvāmi nūṟu cūṣtiram</title></emph>". Tamil foliation {1}-27 = Library foliation 50-76.</desc><desc xml:id="U7">1 folio = <emph rend="bold">guard leaf</emph>. No Tamil foliation = Library foliation 77. Blank recto verso.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Very good state of preservation, in spite of bore holes caused by insects.</condition></supportDesc>
+									<dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent><foliation>Tamil folation in left margin. Arabic library foliation (lf) in pencil on right margin.</foliation><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1"> 1 folio = <emph rend="bold">Title Page (additional)</emph>. No Tamil foliation = Library foliation A.</desc><desc xml:id="U2">9 folios = <emph rend="bold"><title xml:lang="ta">Cuntara-nūl</title></emph>. Tamil foliation 1-9 (at several folios unblackened) = Library foliation 1-9. The first folio is blank, except for the title and unblackened text written in the column in the left part of the folio (f[1]r). Initial part of the text is missing (f2r starts with the verse no 3). Folio 3v is unfinished: it ends with the verse no 8, while folio 4r starts with the final part of the verse 11. </desc><desc xml:id="U3">25 folios = <emph rend="bold"><title xml:lang="ta">Rāmarēvar paṭcaṉi</title></emph>. Tamil foliation 1-25 = Library foliation 10-34.</desc><desc xml:id="U4">9 folios = <emph rend="bold"><title xml:lang="ta">Rōmariṣi-cuvāmi ruttiram a[i]ṉpatu</title></emph>. Tamil foliation {1}-9 = Library foliation 35-43.</desc><desc xml:id="U5">6 folios = <emph rend="bold"><title xml:lang="ta">Rōmariṣi-cuvamiyar cūṣttiram patiṉāṟu</title></emph>. Tamil foliation {1}-6 Library foliation 44-49.</desc><desc xml:id="U6">27 folios = <emph rend="bold"><title xml:lang="ta">Rōmariṣi-cuvāmi nūṟu cūṣtiram</title></emph>". Tamil foliation {1}-27 = Library foliation 50-76.</desc><desc xml:id="U7">1 folio = <emph rend="bold">guard leaf</emph>. No Tamil foliation = Library foliation 77. Blank recto verso.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Very good state of preservation, in spite of bore holes caused by insects.</condition></supportDesc>
 							<layoutDesc>
 								<layout writtenLines="7"/>
 							</layoutDesc>
@@ -184,12 +184,13 @@
 		<body>
 			<ab>
 				<pb facs="5" n="[1]r"/>
-				<seg function="header">
-					<seg function="blessing"><milestone unit="left-margin"/>
+				<fw place="left-margin">
+					<seg function="blessing">
 						<lb n="1-2"/><term xml:lang="sa">hari<unclear>ḥ</unclear> Om</term></seg>
 					<lb n="3-5"/><seg function="title">cuntaramūṟtip pāṭal</seg>
-				</seg>
-				<seg function="blessing"><milestone unit="column"/><note xml:lang="en">unblackened; later addition</note>
+				</fw>
+              
+				<seg function="blessing"><cb n="1"/><note xml:lang="en">unblackened; later addition</note>
 				<lb n="1"/><g ref="#pcs"/> <seg rend="grantha">śrīrāmaje</seg><g rend="below-base">yaM</g> <g ref="#pcs"/></seg>
 				<seg function="blessing"><lb n="2"/><g ref="#pcs"/> <seg rend="grantha">śrīrāmaje</seg><g rend="below-base">yaM</g> <g ref="#pcs"/></seg>
 				<seg function="blessing"><lb n="3"/><g ref="#pcs"/> <seg rend="grantha">śrīrāmaje</seg><g rend="below-base">yaM</g> <g ref="#pcs"/></seg>
@@ -209,8 +210,7 @@
 					<g ref="#pcs"/> <num rend="traditional">33</num> <g ref="#pcs"/></seg>
 				<seg function="colophon"><lb n="7"/><seg function="completion-statement">cuntarāṉantar muppattimūṇum mukintatu mu<sic>t=t</sic>um <g ref="#pcl"/></seg></seg>
 			</ab>
-		</body>
-	</text><text synch="#U3" corresp="#T3" xml:lang="ta">
+		</body></text><text synch="#U3" corresp="#T3" xml:lang="ta">
 		<body>
 			<ab>
 				<pb facs="23" n="[1]r"/>

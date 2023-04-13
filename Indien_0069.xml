@@ -38,10 +38,15 @@
                   
                <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
-                        <support>
+                        
+                        
+                        
+                        
+                        
+                        
+                     <support>
                            <!--measure unit="stringholes" quantity=""/-->
-                        </support>
-                        <extent>
+                        </support><extent>
                            <measure unit="folio" quantity="35">{1} + 34 (U1 + U2).</measure>
                            <dimensions type="leaf" unit="mm">
                               
@@ -54,12 +59,7 @@
                             
                             
                         </dimensions>
-                        </extent>
-                        
-                        
-                        
-                        
-                     <collation>
+                        </extent><collation>
                      
                      <desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold"><title><persName xml:lang="ta">Tāyumāṉavar</persName> Poems</title>: Title Page (additional)</emph>. No foliation. Single folio. Verso blank. 300 x 30 mm.</desc><desc xml:id="U2">34 folios = <emph rend="bold"><title><persName xml:lang="ta">Tāyumāṉavar</persName> Poems</title>: Text</emph>. Tamil foliation 66-99. 300 x 35 mm.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Excellent state of preservation. </condition></supportDesc>
                      <layoutDesc>
@@ -117,10 +117,9 @@
   
   <pb facs="8" n="[1]r"/>
   
-   <seg function="header"><seg function="blessing">
-     <milestone unit="left-margin"/>
+   <fw place="left-margin"><seg function="blessing">
   <lb n="1-2"/>veṟṟivēl uṟṟa tuṇai</seg>
-     </seg>
+     </fw>
   
     <seg function="title"><cb n="1"/>
   <lb n="1"/>Iḵtu
@@ -136,42 +135,46 @@
   
   <pb facs="12" n="66r"/>
   
-    <seg function="header"><seg function="intertitle">
-     <milestone unit="left-margin"/>
+    <fw place="left-margin"><seg function="intertitle">
   <lb n="1-2"/>paiṅkiḷi <note xml:lang="en">unblackened, addition</note></seg>
-      </seg>
+      </fw>
   
-    <seg function="incipit"><milestone unit="main-text-area"/>
+    <seg function="incipit">
   <lb n="1"/>Antamuṭaṉātiyaḷavāmaleṉṉaṟiviṟ cuntaravāṉcōtitulaṅkumō paṅkiḷiyē : 1 :</seg>
     <lb n="2-6"/><gap reason="ellipsis"/>
     
   <pb facs="18" n="70v"/>
-<milestone unit="main-text-area"/><lb n="7"/><gap reason="ellipsis"/> paiṅkiḷiyē = 58 = ~ <seg function="completion-statement">paiṅkiḷi muṟṟum <g ref="#pcl"/> <seg function="blessing">civa <gap reason="ellipsis"/> <unclear>tuṇai</unclear> <g ref="#pcs"/></seg></seg>
+
+    <lb n="7"/><gap reason="ellipsis"/> paiṅkiḷiyē = 58 = ~ <seg function="completion-statement">paiṅkiḷi muṟṟum <g ref="#pcl"/> <seg function="blessing">civa <gap reason="ellipsis"/> <unclear>tuṇai</unclear> <g ref="#pcs"/></seg></seg>
   
    <pb facs="24" n="71v"/>
-     <milestone unit="main-text-area"/><lb n="6"/><gap reason="ellipsis"/> = <num rend="traditional">11</num> = <seg function="completion-statement">yeṉṉāḷō teyvavaṇakkam <choice><sic>mū</sic><corr>mu</corr></choice>ṟṟum <g ref="#pcs"/></seg>
+     
+    <lb n="6"/><gap reason="ellipsis"/> = <num rend="traditional">11</num> = <seg function="completion-statement">yeṉṉāḷō teyvavaṇakkam <choice><sic>mū</sic><corr>mu</corr></choice>ṟṟum <g ref="#pcs"/></seg>
 
    <pb facs="25" n="72r"/>
-   <milestone unit="main-text-area"/><lb n="1"/><seg function="intertitle">kurumarapiṉ vaṇakkam : : :</seg> <gap reason="ellipsis"/>
+   
+    <lb n="1"/><seg function="intertitle">kurumarapiṉ vaṇakkam : : :</seg> <gap reason="ellipsis"/>
     
    <pb facs="26" n="73r"/>
-   <milestone unit="main-text-area"/><lb n="3"/><seg function="intertitle">Aṭiyār vaṇakkam :</seg> <gap reason="ellipsis"/>
+   <lb n="3"/><seg function="intertitle">Aṭiyār vaṇakkam :</seg> <gap reason="ellipsis"/>
     
    <pb facs="27" n="73v"/>
-   <milestone unit="main-text-area"/><lb n="6"/><gap reason="ellipsis"/> : 9 : <seg function="intertitle">Ākkaiyaippaḻittal =</seg> <gap reason="ellipsis"/>
+   
+    <lb n="6"/><gap reason="ellipsis"/> : 9 : <seg function="intertitle">Ākkaiyaippaḻittal =</seg> <gap reason="ellipsis"/>
   
      <pb facs="30" n="84v"/>
-     <milestone unit="main-text-area"/><lb n="4"/><gap reason="ellipsis"/> : <num rend="traditional">17</num> : <seg function="completion-statement">muṟṟum</seg> <seg function="blessing"> <seg function="blessing"><g ref="#pcs"/> civā<note xml:lang="en" place="foot">unblackened, addition</note> <g ref="#pcs"/></seg></seg>
+     
+    <lb n="4"/><gap reason="ellipsis"/> : <num rend="traditional">17</num> : <seg function="completion-statement">muṟṟum</seg> <seg function="blessing"> <seg function="blessing"><g ref="#pcs"/> civā<note xml:lang="en" place="foot">unblackened, addition</note> <g ref="#pcs"/></seg></seg>
     
       <pb facs="38" n="99v"/>
-  <milestone unit="main-text-area"/><lb n="1"/><gap reason="ellipsis"/>
+    <lb n="1"/><gap reason="ellipsis"/>
     <seg function="explicit"><lb n="2"/>Āṟāvamutaṉaiyavāṉantavāriyeṉpāṟ 
 ṟārāmalaiyānītaḷḷiviṭavantateṉṉō : 3 :</seg> <seg function="colophon"><seg function="completion-statement">muṟṟum</seg>
   <lb facs="40" n="3-4"/><note xml:lang="en">centred lines</note>
     <lb n="3"/>cittirapāṉu <g ref="#varuṣam">varuṣam</g> kāṟtikai <g ref="#mācam">mācam</g> 9 <g ref="#tēti">tēti</g> <unclear>y<pc>-</pc>e</unclear>ḻuti<note xml:lang="en" place="foot"><term xml:lang="ta">y<pc>-</pc>eḻuti</term> added above, unblackened.</note>
    <lb n="4"/>niṟa vēṟiṉatu <g ref="#pcl"/> <seg function="blessing">śrī-rāma-ce<g rend="below-base">yaM</g></seg></seg>
  
-  <milestone n="1" facs="39" unit="column"/><note xml:lang="en">unblackened, addition</note>
+  <cb n="1"/><note xml:lang="en">unblackened, addition</note>
   <seg function="blessing"><lb n="1"/>civa <gap reason="ellipsis"/> tuṇai</seg>
 <seg function="TBC"><lb n="2"/><gap reason="ellipsis"/></seg>
   

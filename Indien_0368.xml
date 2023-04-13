@@ -43,19 +43,19 @@
                   
                <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
-                        <support>
+                        
+                        
+                        
+                        
+                     <support>
                            
-                        </support>
-                        <extent>
+                        </support><extent>
                            <measure unit="folio" quantity="41">{1} + {1} + 39 + {1} (U1 + U2a + U2b).</measure>
                            <dimensions type="leaf" unit="mm">
                               <width quantity="425"/>
                               <height quantity="30"/>
                            </dimensions>
-                           <dimensions type="object" unit="mm"><width quantity="430"/><height quantity="30"/><depth quantity="40"/></dimensions><dimensions type="written" unit="mm"/></extent>
-                        
-                        
-                     <collation>
+                           <dimensions type="object" unit="mm"><width quantity="430"/><height quantity="30"/><depth quantity="40"/></dimensions><dimensions type="written" unit="mm"/></extent><collation>
                            
                         <desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold"><title xml:lang="ta">Māṇikkavācakar Piḷḷaittamiḻ</title>: Title Page (additional)</emph>. No foliation. Double folio. Verso blank. Hand #1. Shelfmarks on recto. 425 x 30 mm.</desc><desc xml:id="U2a">1 folio = <emph rend="bold"><title xml:lang="ta">Māṇikkavācakar Piḷḷaittamiḻ</title>: Invocation</emph>. No foliation. Verso blank. Hand #2. 425 x 30 mm.</desc><desc xml:id="U2b">39 folios = <emph rend="bold"><title xml:lang="ta">Māṇikkavācakar Piḷḷaittamiḻ</title>: Text</emph>. Tamil foliation {1}-39. f39v blank; more dark = original outside page. Hand #2. 425 x 30 mm.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Fairly good state of preservation, despite boreholes.</condition></supportDesc>
                      <layoutDesc>
@@ -124,14 +124,13 @@
     <ab>
       
   <pb facs="3" n="[1]r"/>
-      <seg function="header">
+<fw place="left-margin">
   <seg function="blessing"><note xml:lang="en">unblackened</note>
-  <milestone unit="left-margin"/>
   <lb n="1"/>veṟṟivē
   <lb n="2" break="no"/>l uṟṟa tuṇai</seg>
-        </seg>
+        </fw>
   
-  <seg function="title"><milestone unit="column"/>
+  <seg function="title">
   <lb n="1"/><persName>māṇikkavācakar</persName>
   <lb n="2"/>piḷḷaittamiḻ</seg>
 
@@ -142,11 +141,11 @@
       <ab>
 
 <pb facs="3" n="[1]r"/>
-        <seg function="header">
+
+        <fw place="left-margin">
   <seg function="blessing">
-  <milestone unit="left-margin"/>
   <lb n="1-2"/><term xml:lang="sa">hari Om</term></seg>
-          </seg>
+          </fw>
   
   <seg function="satellite-stanza"><cb n="1"/>
   <lg><l><lb n="1"/><gap reason="ellipsis"/></l>
@@ -169,16 +168,16 @@
     
 <pb facs="3" n="[1]r"/>
           
-  <seg function="header"><seg function="blessing">
-  <milestone unit="left-margin"/>
-  <lb n="1-2"/>naṉṟāka</seg></seg>
+          <fw place="left-margin">
+<seg function="blessing">
+  <lb n="1-2"/>naṉṟāka</seg></fw>
   
    <seg function="incipit">
-     <milestone unit="main-text-area"/>
   <lb n="1"/><gap reason="ellipsis"/></seg>
   
   <pb facs="23" n="39r"/>
-           <seg function="explicit"><milestone unit="main-text-area"/><lb n="4"/><gap reason="ellipsis"/> ciṟutēre <g ref="#pcs"/> <num rend="traditional">100</num></seg> <g ref="#pcs"/>
+           <seg function="explicit">
+             <lb n="4"/><gap reason="ellipsis"/> ciṟutēre <g ref="#pcs"/> <num rend="traditional">100</num></seg> <g ref="#pcs"/>
 <seg function="colophon"><lb n="5"/>piṟapava <g ref="#varuṣam">varuṣam</g> Āvaṇi <g ref="#mācam">mācam</g> 2 <g ref="#tēti">tēti</g> māṇikkavācakar piḷḷaittamiḻ eḻuti niṟavēṟiṉatu campūrṇam</seg> <seg function="blessing">civa-cuta-kaṇapati tuṇai Uṇṭākavum</seg>
            <lb n="6"/><seg function="total-chapters total-stanzas">{Āka} paruvam <num rend="traditional">10</num>k-ku kāppu Uḷpaṭa ceyyuḷ kavi ~ <num rend="traditional">102</num> <g ref="#pcs"/></seg>
   

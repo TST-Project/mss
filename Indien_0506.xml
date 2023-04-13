@@ -9,7 +9,7 @@
          
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2022</date>
+            <date>2023</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -38,16 +38,16 @@
                   
                <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
-                        <extent>
+                        
+                        
+                        
+                     <support/><extent>
                            <measure unit="folio" quantity="172">{2} + 156 + {1} + {12} + {1} (U1 + U2 + U3 + U4 + U5).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
                            <width min="160" max="355"/><height min="20" max="30"/></dimensions>
-                        <dimensions type="object" unit="mm"><depth quantity="100"/></dimensions><dimensions type="written" unit="mm"/></extent>
-                        
-                        
-                     <support/><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">2 folios = <emph rend="bold">guard leaves</emph>. No foliation. f1 is a bifolio. f1v, f2rv balnk. 350 x 30 mm.</desc><desc xml:id="U2">157 folios. Tamil foliation {1}, {1}-156. 355 x 30 mm.
+                        <dimensions type="object" unit="mm"><depth quantity="100"/></dimensions><dimensions type="written" unit="mm"/></extent><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">2 folios = <emph rend="bold">guard leaves</emph>. No foliation. f1 is a bifolio. f1v, f2rv balnk. 350 x 30 mm.</desc><desc xml:id="U2">157 folios. Tamil foliation {1}, {1}-156. 355 x 30 mm.
 </desc><desc xml:id="U2a">1 folio = <emph rend="bold">Satellite Stanza</emph>. No foliation. Verso blank.</desc><desc xml:id="U2b">96 folios = <emph rend="bold"><title xml:lang="ta">Periya Purāṇam</title>: Text. </emph>. Tamil foliation {1}-96.
 </desc><desc xml:id="U2c">2 folios = <emph rend="bold"><title xml:lang="ta">Periya Purāṇam</title>: Table of Contents</emph>. Tamil foliation 97-98.
 </desc><desc xml:id="U2d">1 folio = <emph rend="bold"><title xml:lang="ta">Naiṭatam</title>: Satellite Stanza</emph>. Tamil foliation 99.</desc><desc xml:id="U2e">57 folios = <emph rend="bold"><title xml:lang="ta">Naiṭatam</title>: Text</emph>. Tamil foliation 100-156.</desc><desc xml:id="U3">1 folio = <emph rend="bold">Addition</emph>. No foliation. Smaller leaf inserted between U2b, f69-f70. Unblackened. Verso blank. 160 x 20 mm.</desc><desc xml:id="U4">12 folios = <emph rend="bold">guard leaves</emph>. No foliation. Blank recto verso.
@@ -109,10 +109,12 @@
   <ab>
   <pb facs="7" n="[1]r"/>
   
-  <seg function="blessing"><milestone unit="column"/>
+  <fw place="left-margin"> 
+    <seg function="blessing">
   <lb n="1-2"/>naṉṟāka</seg>
+    </fw>
    
-  <seg function="satellite-stanza"><milestone unit="main-text-area"/>
+  <seg function="satellite-stanza">
 <lg><l><lb n="1"/>tiruvākkuñ ceykarumaṅ kai kūṭṭuñ ceñcoṟ</l> <l>peruvākkum pītum perukkum ~ muruvākkum</l>
   <l><lb n="2"/>mātalāl vāṉōru māṉai mukattāṉaik</l> <l>kātalāl kūppuvartaṅ kai <g ref="#pcs"/></l></lg></seg> <seg function="blessing">tirucciṟṟampalam</seg>
 

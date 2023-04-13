@@ -9,7 +9,7 @@
          <editor><persName>Eva WILDEN</persName><orgName>Universität Hamburg</orgName></editor></titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2022</date>
+            <date>2023</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -42,21 +42,21 @@
                   
                <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
-                        <support>
+                        
+                        
+                        
+                        
+                        
+                     <support>
                            
                            
-                        </support>
-                        <extent>
+                        </support><extent>
                            <measure unit="folio" quantity="95">{1} + {1} + {1} + 91 + {1} (U1 + U2 + U3 + U4 + U5).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
                            <width quantity="390"/><height quantity="30"/></dimensions>
-                        <dimensions type="object" unit="mm"><width quantity="395"/><height quantity="30"/><depth quantity="70"/></dimensions><dimensions type="written" unit="mm"/></extent>
-                        
-                        
-                        
-                     <foliation>Tamil foliation (U4).</foliation><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 bifolio = <emph rend="bold">Title Page (additional)</emph>. Verso blank. 390 x 30 mm.</desc><desc xml:id="U2">1 folio = <emph rend="bold">guard leaf</emph>. Blank recto verso. 390 x 30 mm.</desc><desc xml:id="U3">1 folio = <emph rend="bold"><title xml:lang="ta">Tirukkuṟaḷ</title>: Preface to the commentary</emph>. No foliation. 390 x 30 mm.</desc><desc xml:id="U4">91 folios = <emph rend="bold"><title xml:lang="ta">Tirukkuṟaḷ</title>: Text &amp; Parimēlaḻakar's Commentary</emph>. Tamil foliation 1-21<hi rend="superscript">1</hi>, 21<hi rend="superscript">2</hi>, 22-90. 390 x 30 mm.</desc><desc xml:id="U5">1 bifolio = <emph rend="bold">guard leaf (additional)</emph>. Unblackened blessing on recto. verso blank. 390 x 30 mm.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Good state of preservation despite boreholes.</condition></supportDesc>
+                        <dimensions type="object" unit="mm"><width quantity="395"/><height quantity="30"/><depth quantity="70"/></dimensions><dimensions type="written" unit="mm"/></extent><foliation>Tamil foliation (U4).</foliation><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 bifolio = <emph rend="bold">Title Page (additional)</emph>. Verso blank. 390 x 30 mm.</desc><desc xml:id="U2">1 folio = <emph rend="bold">guard leaf</emph>. Blank recto verso. 390 x 30 mm.</desc><desc xml:id="U3">1 folio = <emph rend="bold"><title xml:lang="ta">Tirukkuṟaḷ</title>: Preface to the commentary</emph>. No foliation. 390 x 30 mm.</desc><desc xml:id="U4">91 folios = <emph rend="bold"><title xml:lang="ta">Tirukkuṟaḷ</title>: Text &amp; Parimēlaḻakar's Commentary</emph>. Tamil foliation 1-21<hi rend="superscript">1</hi>, 21<hi rend="superscript">2</hi>, 22-90. 390 x 30 mm.</desc><desc xml:id="U5">1 bifolio = <emph rend="bold">guard leaf (additional)</emph>. Unblackened blessing on recto. verso blank. 390 x 30 mm.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Good state of preservation despite boreholes.</condition></supportDesc>
                      <layoutDesc>
                         <layout writtenLines="5 8"/>
                      </layoutDesc>
@@ -99,15 +99,16 @@
       
     <pb facs="3" n="[1]r"/>
     
-         <seg function="blessing"><cb n="1"/>
+         <fw place="left-margin"><seg function="blessing">
          <lb n="1"/>veṟṟi
         <lb n="2" break="no"/>vēl uṟṟa
         <lb n="3"/>tuṇai</seg>
+           </fw>
     
-          <seg function="title"><cb n="2"/>
+          <seg function="title"><cb n="1"/>
          <lb n="1"/>Iḵtu   
             
-     <cb n="3"/>
+     <cb n="2"/>
          <lb n="1"/>tiruvaḷḷuvar kuṟaḷukku
             <lb n="2"/>parimēlaḻakiyar urai
         <lb n="3"/>Aṟappāl</seg>    
@@ -120,12 +121,12 @@
       
     <pb facs="7" n="[1]r"/>
     
-         <seg function="TBC"><milestone unit="column"/>
+         <fw place="left-margin"><seg function="TBC">
          <lb n="1"/>vināya
 <lb n="2"/>kāṭṭa
 <lb n="3"/>ri = m</seg>
+           </fw>
     
-          <milestone unit="main-text-area"/>
          <lb n="1"/>Intiraṉ mutaliya viṟaiyavar pataṅkaḷu mantami liṉpat taḻivil vīṭu neṟiyaṟin teytutaṟkuriya māntark kuṟuti yeṉa vuyarn
     <lb n="2" break="no"/>tōrā ṉeṭukkappaṭṭa poruṇāṉkavai ~ Aṟamporuḷiṉpamvī ṭeṉpaṉa vavaṟṟuḷ vīṭeṉpatu ciṟantaiyu moḻiyuñ cellā
     <lb n="3"/>nilaimait tātaliṟ ṟuṟavaṟamākiya kāraṇavakaiyāṟ kūṟappaṭuvatalla tilakkaṇavakaiyāṟ kūṟappaṭāmaiyi ṉūlkaḷāṟ kūṟappa
@@ -141,62 +142,60 @@
       
     <pb facs="9" n="1r"/>
     
-    <seg function="header">
-         <seg function="intertitle"><milestone unit="left-margin"/>
+    <fw place="left-margin">
+         <seg function="intertitle">
          <lb n="1"/>kaṭavuḷ 
 <lb n="2"/>vāḻttu</seg>
 <seg function="verse-beginning"><lb n="3"/>Aka<supplied reason="lost">ra</supplied></seg>
-      </seg>
+      </fw>
     
-          <milestone unit="main-text-area"/>
          <lb n="5"/><gap reason="ellipsis"/> vuṇarka = = = <seg function="incipit" type="root-text">Akara mutala veḻuttellā māti
 pakava
     <lb n="6" break="no"/>ṉ mutaṟṟē yulaku ~</seg> E<supplied reason="lost">ṉ</supplied>patu ~ Akaramākiya mutalaiyuṭaiya veḻuttukka ḷellā matupōla vātipakavaṉākiya mutalaiyuṭait tulakam eṉṟa vāṟu = <gap reason="ellipsis"/>
    
     
      <pb facs="15" n="4r"/>    
-    <seg function="header">
-         <seg function="intertitle"><milestone unit="left-margin"/>
+    <fw place="left-margin">
+         <seg function="intertitle">
          <lb n="1-2"/>vāṉciṟappu</seg>
-    </seg>
+    </fw>
     
     <pb facs="20" n="6v"/>    
-    <seg function="header">
-         <seg function="intertitle"><milestone unit="left-margin"/>
+    <fw place="left-margin">
+         <seg function="intertitle">
          <lb n="1-2"/>nīttōr perumai</seg>
       <seg function="verse-beginning"><lb n="3"/>Oḻukkat</seg>
-      </seg>
+      </fw>
            
            <pb facs="27" n="10r"/>    
-    <seg function="header">
-         <seg function="verse-beginning"><milestone unit="left-margin"/>
+    <fw place="left-margin">
+         <seg function="verse-beginning">
          <lb n="1"/>Anta</seg>
          <seg function="intertitle"><lb n="2-4"/>Aṟaṉ valiyuṟuttal</seg>
-      </seg>
+      </fw>
       
             <pb facs="170" n="80v"/>    
-    <seg function="header">
-         <seg function="intertitle"><milestone unit="left-margin"/>
+    <fw place="left-margin">
+         <seg function="intertitle">
          <lb n="1-2"/>meyyuṇartal</seg>
       <seg function="verse-beginning"><lb n="3"/>poru</seg>
-      </seg>
+      </fw>
   
            <pb facs="178" n="84v"/>    
-    <seg function="header">
-         <seg function="intertitle"><milestone unit="left-margin"/>
+    <fw place="left-margin">
+         <seg function="intertitle">
          <lb n="1-2"/>Avāvaṟuttal</seg>
       <seg function="verse-beginning"><lb n="3"/>Avā</seg>
-      </seg>
+      </fw>
     
             
         <pb facs="189" n="90r"/>
     
-     <seg function="header">
-         <seg function="verse-beginning"><milestone unit="left-margin"/>
+     <fw place="left-margin">
+         <seg function="verse-beginning">
          <lb n="1"/>Uḷaḻi</seg>
-      </seg>    
+      </fw>    
                     
-    <milestone unit="main-text-area"/>         
     <lb n="2"/><gap reason="ellipsis"/> = 9 = <seg function="explicit" type="root-text"><lg><l>Ūḻiṟ peru
     <lb n="3" break="no"/>vali yāvuḷa maṟṟoṉṟu</l>
     <l>cūḻiṉun tāṉmun tuṟum</l></lg> =</seg> <seg function="explicit" type="commentary">Etu = taṉṉai vilakkutaṟ poruṭṭut taṉakku maṟutalai yāvatōrupāyattaic cūḻiṉun tāṉavvupāyamē

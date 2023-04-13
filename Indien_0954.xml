@@ -43,21 +43,21 @@
                   
                <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
-                        <support>
+                        
+                        
+                        
+                        
+                        
+                     <support>
                            
                            
-                        </support>
-                        <extent>
+                        </support><extent>
                            <measure unit="folio" quantity="121">{1} + 119 + {1} (U1 + U2 + U3).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
                            <width quantity="250"/><height quantity="30"/></dimensions>
-                        <dimensions type="object" unit="mm"><depth quantity="85"/><width quantity="245"/><height quantity="25"/></dimensions><dimensions type="written" unit="mm"/></extent>
-                        
-                        
-                        
-                     <collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. Sticker with provenance.</desc><desc xml:id="U1">1 folio = <emph rend="bold"><title xml:lang="ta">Vātavūrar Purāṇam</title>: Invocation</emph>. No foliation.</desc><desc xml:id="U2">119 folios = <emph rend="bold"><title xml:lang="ta">Vātavūrar Purāṇam</title>: Text</emph>. Tamil foliation {1}, 2-24, [25], 27-120.</desc><desc xml:id="U3">1 folio = <emph rend="bold"><title xml:lang="ta">Vātavūrar Purāṇam</title>: Table of Contents</emph>. No foliation.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Poor state of preservation. Fragile, brittle. Some folios truncated, even broken into 2 pieces.</condition></supportDesc>
+                        <dimensions type="object" unit="mm"><depth quantity="85"/><width quantity="245"/><height quantity="25"/></dimensions><dimensions type="written" unit="mm"/></extent><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. Sticker with provenance.</desc><desc xml:id="U1">1 folio = <emph rend="bold"><title xml:lang="ta">Vātavūrar Purāṇam</title>: Invocation</emph>. No foliation.</desc><desc xml:id="U2">119 folios = <emph rend="bold"><title xml:lang="ta">Vātavūrar Purāṇam</title>: Text</emph>. Tamil foliation {1}, 2-24, [25], 27-120.</desc><desc xml:id="U3">1 folio = <emph rend="bold"><title xml:lang="ta">Vātavūrar Purāṇam</title>: Table of Contents</emph>. No foliation.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Poor state of preservation. Fragile, brittle. Some folios truncated, even broken into 2 pieces.</condition></supportDesc>
                      <layoutDesc>
                         
                      </layoutDesc>
@@ -101,20 +101,20 @@ Owned / Borrowed by <persName xml:lang="fr" role="collector" key="Vinson, Julien
   <ab>
     
   <pb facs="3" n="[1]r"/>
-  <seg function="header">
-  <seg function="blessing"><milestone unit="left-margin"/>
+<fw place="left-margin">
+  <seg function="blessing">
   <lb n="1"/>tirucciṟṟampalam</seg>
   <seg function="title"><lb n="2"/>vātavūrappuṟā<g rend="below-base">ṇaM</g></seg>
   <lb n="3"/><seg function="blessing">tēvicakāya<seg rend="grantha">m•</seg></seg> <seg function="blessing">civa<seg rend="grantha">m•</seg></seg>
-    </seg>
+    </fw>
 
-  <seg function="invocation"><milestone unit="main-text-area"/>
+  <seg function="invocation">
   <lg><l><lb n="1"/>pavaḷamāl varaiyi ṉilaveṟip patupōṟ parantanīṟ ṟaḻakumpac cuṭampiṟ</l>
     <l><lb n="2"/>ṟivaḷamā tuṭaṉiṉ ṟāṭiya paramaṉ ciṟuvaṉaip pāratap perum<lb n="3" break="no"/>pōṟ</l>
     <l>ṟavaḷamā maruppoṉ rōṭittoru karatti ṉiṟat<lb n="4" break="no"/>tuyar kirippuṟa meḻutuṅ</l> <l>kavaḷamā kaḷittiṉ ṟirumukam paṭai<lb n="5" break="no"/>tta kaṭavuḷai niṉaintukai toḻuvām – <g ref="#pcs"/></l></lg></seg> <seg function="TBC"><gap reason="ellipsis"/> 
   
   <pb facs="4" n="[1]v"/>
-    <milestone unit="main-text-area"/>
+    
   <lb n="1"/><gap reason="ellipsis"/> <gap reason="lost"/>
   <lb n="2"/>kutirai yiṭṭa tirukkatay kūṟuvām <g ref="#pcs"/></seg> <seg function="blessing">tirucciṟṟampala<seg rend="grantha">m•</seg></seg> <space/> <seg function="blessing">tēvicakāyam</seg>
   
@@ -123,14 +123,14 @@ Owned / Borrowed by <persName xml:lang="fr" role="collector" key="Vinson, Julien
     <ab>
 
   <pb facs="5" n="[1]r"/>
-  <seg function="header">
-  <seg function="blessing"><milestone unit="left-margin"/>
+  <fw place="left-margin"> 
+  <seg function="blessing">
   <lb n="1"/>naṉṟāka</seg>
   <seg function="intertitle"><lb n="2"/>mantiri
   <lb n="3" break="no"/>ccarukka<seg rend="grantha">m•</seg></seg>
-    </seg>
+    </fw>
 
-  <seg function="incipit"><seg function="invocation"><milestone unit="main-text-area"/>
+  <seg function="incipit"><seg function="invocation">
    <lg><l><lb n="1"/>tuṅkamata kumpavuyar tumpimuka ṉampicīrt</l> <l>taṅkineki ḻañciṟu cataṅkaikaḷ pulampavē</l>
      <l><lb n="2"/>maṅkaiyumai kaṅkuḷira vantulavu kiṉṟatā</l><l>ḷ aṅkaimalar koṇṭumiku
      <lb n="3"/>vaṉpu<del><gap reason="illegible" quantity="1" unit="character"/></del>ṭāṉ iṟaiñcuvām ~ 1 ~</l></lg></seg></seg> <gap reason="ellipsis"/>
@@ -146,21 +146,19 @@ Owned / Borrowed by <persName xml:lang="fr" role="collector" key="Vinson, Julien
             <lb n="6"/><gap reason="illegible"/>
   
   <pb facs="25" n="11r"/>
-  <milestone unit="main-text-area"/>
       <lb n="5"/>cellām – 47 – <seg function="completion-statement">mantiriccarukkamuṟṟum –</seg> <seg function="blessing">tēvicakāyam</seg> <seg function="blessing">tirucciṟṟampalam</seg> <seg function="blessing">civā</seg>
   
   <pb facs="26" n="11v"/><note xml:lang="en">blank</note>
   
   <pb facs="27" n="12r"/>
-    <seg function="header">
-<seg function="intertitle"><milestone unit="left-margin"/>
+<fw place="left-margin">
+  <seg function="intertitle">
   <lb n="1"/>tirupperum
   <lb n="2"/>tuṟaiccaru
   <lb n="3" break="no"/>kkam</seg> <seg function="blessing">civā</seg>
-      </seg>
+      </fw>
 
   <pb facs="245" n="120r"/>
-  <milestone unit="main-text-area"/>
         <lb n="1"/><gap reason="ellipsis"/>
         <lb n="2"/><gap reason="ellipsis"/> ~ <num rend="traditional">32</num> ~ <seg function="prosody">vēṟu ~</seg> <gap reason="ellipsis"/>
 
@@ -179,11 +177,11 @@ Owned / Borrowed by <persName xml:lang="fr" role="collector" key="Vinson, Julien
 
   <pb facs="247" n="[1]r"/>
       <seg function="table-of-contents">
-  <seg function="header">
-  <seg function="blessing"><milestone unit="left-margin"/>
+<fw place="left-margin"> 
+  <seg function="blessing">
   <lb n="1"/>tēvicakāya<seg rend="grantha">m•</seg></seg>
   <seg function="title"><lb n="2"/>vātavūrppuṟāṇam</seg>
-    </seg>
+    </fw>
   
   <cb n="1"/>
   <lb n="1"/>mantiriccarukkam <num rend="traditional">47</num>
@@ -199,7 +197,7 @@ Owned / Borrowed by <persName xml:lang="fr" role="collector" key="Vinson, Julien
   <lb n="4"/>tiruvaṭi peṟṟa caruk=ka=M <num rend="traditional">33</num>
   
   <pb facs="248" n="[1]v"/>
-  <milestone unit="column"/>
+  <cb n="1"/>
   <seg function="total-stanzas"><lb n="1"/>{Āka} carukkam 7kku virutta<seg rend="grantha">m•</seg>
      <lb n="2"/><num rend="traditional">543</num></seg>
   </seg>
