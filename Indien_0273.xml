@@ -9,7 +9,7 @@
          
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2022</date>
+            <date>2023</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -37,10 +37,15 @@
                   
                <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
-                        <support>
+                        
+                        
+                        
+                        
+                        
+                        
+                     <support>
                            <!--measure unit="stringholes" quantity=""/-->
-                        </support>
-                        <extent>
+                        </support><extent>
                            <measure unit="folio" quantity="142">{1} + {1} + 134 + {1} + {4} + {1} (U1 + U2 + U3 + U4 + U5 + U6).</measure>
                            <dimensions type="leaf" unit="mm">
                               
@@ -53,12 +58,7 @@
                             
                             
                         </dimensions>
-                        </extent>
-                        
-                        
-                        
-                        
-                     <collation>
+                        </extent><collation>
                      
                      <desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 bifolio = <emph rend="bold">Title Page (additional)</emph>. No foliation. Verso blank.</desc><desc xml:id="U2">1 folio = <emph rend="bold"><title xml:lang="ta">Makāvintam</title>: Satellite Stanza</emph>. No foliation. Verso blank.</desc><desc xml:id="U3">134 folios = <emph rend="bold"><title xml:lang="ta">Makāvintam</title>: Text</emph>. Tamil foliation 1-134. </desc><desc xml:id="U4">1 folio = <emph rend="bold"><title xml:lang="ta">Makāvintam</title>: Table of Contents</emph>. No foliation.</desc><desc xml:id="U5">4 folios = <emph rend="bold">guard leaves</emph>. No foliation.</desc><desc xml:id="U6">1 folio = <emph rend="bold">guard leaf (additional ?)</emph>. No foliation.</desc></collation><condition>Good state of preservation.</condition></supportDesc>
                      <layoutDesc>
@@ -115,11 +115,11 @@
   <ab>
     
     <pb facs="3" n="[1]r"/>
-      <seg function="blessing">
-     <cb n="1"/>
-  <lb n="1-2"/>veṟṟivēl uṟṟa tuṇai</seg>
-  
-    <cb n="2"/>
+            <fw place="left-margin">
+<seg function="blessing">
+      <lb n="1-2"/>veṟṟivēl uṟṟa tuṇai</seg>
+              </fw>
+     
   <seg function="title"><lb n="1-2"/>makāvintam mūlam</seg>
       
     <pb n="[1]v"/><note xml:lang="en">blank</note>
@@ -130,21 +130,21 @@
     
   <pb facs="5" n="[1]r"/>
         
-    <seg function="header">
-      <seg function="blessing"><milestone n="1" unit="left-margin"/>
-      <lb n="1"/>hari Ōm</seg>
-      <seg function="blessing"><lb n="2"/>naṉṟāka</seg>
-      <seg function="blessing"><lb n="3"/>kuru vāḻka</seg>
-      <seg function="blessing"><lb n="4"/>kuruvē tuṇai</seg>
+      <fw place="left-margin">
+      <seg function="blessing"><cb n="1"/>
+      <lb n="1"/>hari Ōm
+        <lb n="2"/>naṉṟāka
+        <lb n="3"/>kuru vāḻka
+        <lb n="4"/>kuruvē tuṇai</seg>
       
-      <seg function="title"><milestone n="2" unit="left-margin"/>
+      <seg function="title"><cb n="2"/>
       <lb n="1"/>taṟmarācar makāvintam
       <lb n="2"/>pōṇa katai =</seg>
       <seg function="colophon"><seg function="copy-statement">
         <lb n="3"/>vikuṟati <g ref="#varuṣam">varuṣam</g>
         <lb n="4"/>Āṉi <g ref="#mācam">mācam</g> <num rend="traditional">12</num> <g ref="#tēti">tēti</g> yeḻuta
       <lb n="5"/>tuvakkiṉatu <note xml:lang="en">copy beginning statement</note></seg></seg>
-      </seg>
+      </fw>
           
        <seg function="satellite-stanza"><cb n="1"/>
       <lg><l><lb n="1"/>pāṇṭavar aivarum <gap reason="ellipsis"/></l>
@@ -166,41 +166,48 @@
     
   <pb facs="7" n="1r"/>
         
-    <seg function="header">
-      <seg function="blessing"><milestone n="1" unit="left-margin"/>
+      <fw place="left-margin">
+      <seg function="blessing">
       <lb n="1"/>naṉṟāka</seg>
       <seg function="intertitle"><lb n="2-4"/>ceṉmeceṉṉakatai</seg>
-      </seg>
+      </fw>
       
-      <seg function="incipit"><milestone unit="main-text-area"/>
+      <seg function="incipit">
       <lg><l><lb n="1"/>Aṟcuṉaṉ <gap reason="ellipsis"/>
         <lb n="2"/>tōṉṟum <g ref="#pcs"/> 1 <g ref="#pcs"/></l></lg></seg> <gap reason="ellipsis"/>
       
        <pb facs="13" n="4r"/>
-    <seg function="incipit"><milestone unit="left-margin"/>
-      <lb n="1-3"/>kaṟṇaṉ kāṅkayaṉ mōṣṣam</seg>
     
-    <milestone unit="main-text-area"/>
+          <fw place="left-margin">
+            <seg function="incipit">
+              <lb n="1-3"/>kaṟṇaṉ kāṅkayaṉ mōṣṣam</seg>
+    </fw>
+    
     <lb n="3"/><gap reason="ellipsis"/> <g ref="#pcs"/> 31 <g ref="#pcs"/> <seg function="completion-statement">ceṉmeceṉṉakatai mu<sic>ttu</sic>m <g ref="#pcs"/></seg> <seg function="intertitle">yippāl
     <lb n="4"/>kaṟṇaṉ kāṅkayaṉ mōṣṣam <g ref="#pcs"/> =</seg> <gap reason="ellipsis"/>
     
      <pb facs="15" n="5r"/>
-    <seg function="completion-statement"><milestone unit="left-margin"/>
+          <fw place="left-margin">
+<seg function="completion-statement">
       <lb n="1-4"/>kaṟṇaṉ kāṅkayaṉ mōṣṣam mu<sic>ttu</sic>m</seg>
+            </fw>
     
-    <milestone unit="main-text-area"/>
     <lb n="6"/><gap reason="ellipsis"/> <seg function="completion-statement">kaṟṇaṉ kāṅkayaṉ mōṣṣa mu<sic>ttu</sic>m <g ref="#pcs"/> <g ref="#pcs"/></seg>
     
     <pb facs="16" n="5v"/>
-    <seg function="intertitle"><milestone unit="left-margin"/>
+          <fw place="left-margin">
+<seg function="intertitle">
       <lb n="1-2"/>rukkumaṇi nōṉpu</seg>
+            </fw>
     
-    <seg function="intertitle"><milestone unit="main-text-area"/>
+    <seg function="intertitle">
     <lb n="1"/>yippāl ~ rukkumaṇi nōṉpu <g ref="#pcs"/></seg> <gap reason="ellipsis"/>
     
       <pb facs="19" n="7r"/>
-    <seg function="intertitle"><milestone unit="left-margin"/>
+          <fw place="left-margin">
+<seg function="intertitle">
       <lb n="1-4"/><gap reason="ellipsis"/></seg>
+            </fw>
     
     <pb facs="274" n="134v"/>
     <seg function="explicit">
@@ -212,10 +219,10 @@
     
   <pb facs="275" n=" [1]r"/>
     <seg function="table-of-contents">
-     <seg function="header">
-       <seg function="blessing"><milestone unit="left-margin"/>
+      <fw place="left-margin">
+       <seg function="blessing">
       <lb n="1"/>naṉṟāka</seg>
-       <seg function="title"><lb n="2-4"/>makāvintam Aṭṭavaṇai</seg></seg>
+       <seg function="title"><lb n="2-4"/>makāvintam Aṭṭavaṇai</seg></fw>
     
     <cb n="1"/>
     <lb n="1"/>ceṉmeceṉṉakatai viruttam ~ <num rend="traditional">31</num>
