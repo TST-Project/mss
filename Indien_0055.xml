@@ -1,357 +1,570 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title><title xml:lang="ta">Tirukkuṟaḷ</title> (text &amp; and commentary) </title>
-            
-         <editor><persName>Eva WILDEN</persName><orgName>Universität Hamburg</orgName></editor></titleStmt>
-         <publicationStmt>
-            <publisher>TST Project</publisher>
-            <date>2023</date>
-         </publicationStmt>
-         <sourceDesc>
-            <msDesc>
-               <msIdentifier>
-                  <repository>
-                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
-                  </repository>
-                  <idno type="shelfmark">Indien 55</idno>
-                  <idno type="alternate"><idno>Tamoul 55</idno><idno>Ariel</idno><idno>c/15</idno></idno>
-               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1034708</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b525139003</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/8623j691r</idno></msIdentifier>
-               <msContents class="#STM">
-                  <summary><p>A complete copy of the <title xml:lang="ta">Tirukkuṟaḷ</title>, text and anonymous brief commentary.</p>
-<p>The bundle contains:
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title><title xml:lang="ta">Tirukkuṟaḷ</title> (text &amp; and commentary) </title>
+
+				<editor><persName>Eva WILDEN</persName><orgName>Universität Hamburg</orgName></editor>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>TST Project</publisher>
+				<date>2023</date>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>
+							<orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+						</repository>
+						<idno type="shelfmark">Indien 55</idno>
+						<idno type="alternate"
+								><idno>Tamoul 55</idno><idno>Ariel</idno><idno>c/15</idno></idno>
+						<idno type="URI"
+							>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1034708</idno>
+						<idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b525139003</idno>
+						<idno type="URI"
+							>https://didomena.ehess.fr/concern/data_sets/8623j691r</idno>
+					</msIdentifier>
+					<msContents class="#STM">
+						<summary><p>A complete copy of the <title xml:lang="ta"
+								>Tirukkuṟaḷ</title>, text and anonymous brief commentary.</p>
+							<p>The bundle contains:
   <list>
-    <item>An additional title page (U1, <locus facs="1">f[1]r</locus>).</item>
-    <item>A table of contents (U3, <locus facs="9">f1r</locus>-<locus facs="14">f3v</locus>). </item>
-    <item>Satellite stanzas (U4, <locus facs="15">f[1]r</locus>).</item>
-    <item>The complete text of the <title xml:lang="ta">Kuṟaḷ</title> with a brief commentary (<title xml:lang="ta">curukkavuraipāṭam</title>) and a colophon (corresponding to Fri 12th April 1728/Thu 24th April 1788/Tue 25th April 1848) (U5, <locus facs="17">f1r</locus>-<locus facs="400">f291v</locus>).</item>
-      </list>
-</p>
-   
-<p>Description by Eva Wilden based on the digital images available on Gallica.</p>
-<p>Original examined by Emmanuel Francis (September 2022).</p>
-<p>Dimensions assessed at the time of examination.</p>         </summary>
-                  
-               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Title Page (additional)</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta"><term xml:lang="en">guard leaves</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T3" defective="false"><title xml:lang="ta"><term xml:lang="en">Table of Contents</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U4" xml:id="T4" defective="false"><title xml:lang="ta"><term xml:lang="en">Satellite Stanzas (2)</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U5" xml:id="T5" defective="false"><title xml:lang="ta">Tirukkuṟaḷ: Mūlam &amp; Urai</title><textLang mainLang="tam"/></msItem><msItem synch="#U6" xml:id="T6" defective="false"><title xml:lang="ta"><term xml:lang="en">additional folios</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U7" xml:id="T7" defective="false"><title xml:lang="ta"><term xml:lang="en">guard leaves</term></title><textLang mainLang="tam"/></msItem></msContents>
-               <physDesc>
-                  
-                  
-                  
-                  
-                  
-               <objectDesc form="pothi" rend="manuscript">
-                     <supportDesc material="palm-leaf palmyra">
-                        
-                        
-                     
-                    
-                     <support>
-                           
-                           
-                        <p>Rounded edges. Leaves larger in the middle of the bundle.</p></support><extent>
-                           <measure unit="folio" quantity="205">{1} + {2} + 3 + {1} + 190 + 3 + {2} + {3} (U1 + U2 + U3 + U4 + U5 + U6 + U7 + U8).</measure>
-                           <dimensions type="leaf" unit="mm">
-                              
-                              
-                           <width min="345" max="360"/><height min="30" max="35"/></dimensions>
-                        <dimensions type="object" unit="mm"><width quantity="360"/><height quantity="30"/><depth quantity="140"/></dimensions><dimensions type="written" unit="mm"/></extent><foliation>Tamil foliation.</foliation><collation><desc xml:id="U1">1 bifolio = <emph rend="bold">Title Page (additional)</emph>. No foliation. Verso blank. BnF shelfmark sticker unglued. 335 x 30 mm.
-</desc><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U2">2 folios = <emph rend="bold">guard leaves</emph>. No foliation. With unblackened additions on f[1]r (title) and f[2]r (satellite stanza). Versos blank. 345 x 30 mm.
-</desc><desc xml:id="U3">3 folios = <emph rend="bold"><title xml:lang="ta">Tirukkuṟaḷ</title>: Table of Contents</emph>. Tamil foliation 1-3. 345 x 30 mm.
-</desc><desc xml:id="U4">1 folio = <emph rend="bold"><title xml:lang="ta">Tirukkuṟaḷ</title>: Satellite Stanzas (2)</emph>. No foliation. 320 x 30 mm. Right edge truncated. Verso blank.
+									<item>An additional title page (U1, <locus facs="1"
+											>f[1]r</locus>).</item>
+									<item>A table of contents (U3, <locus facs="9"
+											>f1r</locus>-<locus facs="14">f3v</locus>). </item>
+									<item>Satellite stanzas (U4, <locus facs="15"
+										>f[1]r</locus>).</item>
+									<item>The complete text of the <title xml:lang="ta"
+											>Kuṟaḷ</title> with a brief commentary (<title
+											xml:lang="ta"
+											>curukkavuraipāṭam</title>) and a colophon (corresponding to Fri 12th April 1728/Thu 24th April 1788/Tue 25th April 1848) (U5, <locus
+											facs="17">f1r</locus>-<locus facs="400"
+										>f291v</locus>).</item>
+								</list>
+							</p>
+							<p>Description by Eva Wilden based on the digital images available on Gallica.</p>
+							<p>Original examined by Emmanuel Francis (September 2022).</p>
+							<p>Dimensions assessed at the time of examination.</p>
+						</summary>
 
-</desc><desc xml:id="U5">190 folios = <emph rend="bold"><title xml:lang="ta">Tirukkuṟaḷ</title>: Text &amp; Commentary</emph>. Tamil foliation 1-123, 224-291. 350/360 x 30/35 mm.
+						<msItem synch="#U1" xml:id="T1" defective="false">
+							<title xml:lang="ta"><term xml:lang="en"
+								>Title Page (additional)</term></title>
+							<textLang mainLang="tam"/>
+						</msItem>
+						<msItem synch="#U2" xml:id="T2" defective="false">
+							<title xml:lang="ta"><term xml:lang="en">guard leaves</term></title>
+							<textLang mainLang="tam"/>
+						</msItem>
+						<msItem synch="#U3" xml:id="T3" defective="false">
+							<title xml:lang="ta"><term xml:lang="en"
+								>Table of Contents</term></title>
+							<textLang mainLang="tam"/>
+						</msItem>
+						<msItem synch="#U4" xml:id="T4" defective="false">
+							<title xml:lang="ta"><term xml:lang="en"
+								>Satellite Stanzas (2)</term></title>
+							<textLang mainLang="tam"/>
+						</msItem>
+						<msItem synch="#U5" xml:id="T5" defective="false">
+							<title xml:lang="ta">Tirukkuṟaḷ: Mūlam &amp; Urai</title>
+							<textLang mainLang="tam"/>
+						</msItem>
+						<msItem synch="#U6" xml:id="T6" defective="false">
+							<title xml:lang="ta"><term xml:lang="en"
+								>additional folios</term></title>
+							<textLang mainLang="tam"/>
+						</msItem>
+						<msItem synch="#U7" xml:id="T7" defective="false">
+							<title xml:lang="ta"><term xml:lang="en">guard leaves</term></title>
+							<textLang mainLang="tam"/>
+						</msItem>
+					</msContents>
+					<physDesc>
 
-</desc><desc xml:id="U6">3 folios = <emph rend="bold">additional folios</emph>. Inserted in U5b. Tamil foliation 119, 172, 244. <locus facs="245">f119</locus> (360 x 30 mm) is inserted between U5, f118 and f119. <locus facs="357">f172</locus> (355 x 30 mm) is inserted between U5, f171 and f172. <locus facs="401">f244</locus> (350 x 25 mm) is inserted after U5, f291.
-</desc><desc xml:id="U7">2 folios = <emph rend="bold">guard leaves</emph>. No foliation. Scribbles and drawings on f[1]. f[2] blank recto verso. 345 x 30 mm.
-</desc><desc xml:id="U8">3 folios = <emph rend="bold">guard leaves</emph>. No foliation. Blank recto verso. 345 x 25 mm.
-</desc></collation><condition>Mostly good condition. Some insect holes.</condition></supportDesc>
-                  <layoutDesc><layout writtenLines="6 13"/></layoutDesc></objectDesc><handDesc><handNote synch="#U1" scope="minor" script="tamil" scriptRef="#tamilPulliRegular" medium="black incised soot"><desc>Hand #1. <persName role="scribe">Ariel's title page scribe</persName>.</desc></handNote><handNote synch="#U2" scope="minor" script="tamil" medium="incised"><desc>Hand #2. Unblackened.</desc></handNote><handNote synch="#U3 #U4 #U5" scope="major" script="tamil" medium="incised soot"><desc>Hand #3. Traditional script with modern <foreign xml:lang="ta">ṟa</foreign>.</desc></handNote><handNote synch="#U6" scope="minor" script="tamil" medium="incised"><desc>Hand #4. Unblackened.</desc></handNote><handNote synch="#U7" scope="minor" script="tamil" medium="incised"><desc>Hand #4. Unblackened.</desc></handNote></handDesc><decoDesc>
-                  <decoNote synch="#U2" type="drawing" subtype="left"><desc>Drawing of a bird (<locus facs="6">f[1]v</locus>).</desc></decoNote><decoNote synch="#U7" type="drawing" subtype="end"><desc>Two bird llustrations, both two-headed, one pelican-like and one peacock (<locus facs="403">f[1]r</locus>).</desc></decoNote></decoDesc><additions>
-                  <desc synch="#U1" type="shelfmark" subtype="title-page">Shelfmark <quote>c/15</quote> in black ink (<locus facs="1">f[1]r</locus>). </desc><desc synch="#U1" type="documenting-note">BnF donation sticker <quote>DON N° <space type="vacat"/></quote> (<locus facs="1">f[1]r</locus>).</desc><desc synch="#U1" type="shelfmark">BnF current shelfmark sticker: <quote>INDIEN 55</quote> (<locus facs="1">front cover, recto</locus>). Covering BnF older shelfmark sticker: <quote>TAMOUL 55</quote></desc><desc synch="#U3" corresp="#T3" type="table-of-contents" subtype="beginning">List of chapters (entitled <foreign xml:lang="ta">tiruvaḷḷuvar kuṟaḷ veṇpāvukku Atikāravaṭaivu varumāṟu</foreign>; 4 to 6 columns): the familiar chapter headings only; intermediary total chapters (<foreign xml:lang="ta">atikāram</foreign>), overall total chapters, overall total stanzas (<foreign xml:lang="ta">kuṟaḷ veṇpā</foreign>). See details below.</desc><desc synch="#U4" type="satellite-stanza">Mnenomic and <foreign xml:lang="sa">phalaśruti</foreign>-like verse (<foreign xml:lang="ta">āyirattu muṉṉūṟṟu</foreign>) as satellite stanza, on an own independent unfoliated folio. This is <title xml:lang="ta">Tiruvaḷḷuvar Mālai</title> 16 Nattattaṉār. See details below.</desc><desc synch="#U4" type="satellite-stanza">Invocation (<foreign xml:lang="ta">āya kalaika</foreign>) as satellite stanza, on an own independent unfoliated folio. Edited and translated by D'Avella (2020: 251-252). See details below.</desc><desc synch="#U5" type="intertitle" subtype="marginal left">Left-marginal intertitles:
+
+
+
+
+						<objectDesc form="pothi" rend="manuscript">
+							<supportDesc material="palm-leaf palmyra">
+
+
+
+
+								<support>
+									<p>Rounded edges. Leaves larger in the middle of the bundle.</p></support>
+								<extent>
+									<measure unit="folio" quantity="205"
+										>{1} + {2} + 3 + {1} + 190 + 3 + {2} + {3} (U1 + U2 + U3 + U4 + U5 + U6 + U7 + U8).</measure>
+									<dimensions type="leaf" unit="mm">
+
+
+										<width min="345" max="360"/>
+										<height min="30" max="35"/>
+									</dimensions>
+									<dimensions type="object" unit="mm">
+										<width quantity="360"/>
+										<height quantity="30"/>
+										<depth quantity="140"/>
+									</dimensions><dimensions type="written" unit="mm"/></extent>
+								<foliation>Tamil foliation.</foliation>
+								<collation><desc xml:id="U1">1 bifolio = <emph rend="bold"
+											>Title Page (additional)</emph>. No foliation. Verso blank. BnF shelfmark sticker unglued. 335 x 30 mm.
+</desc><desc
+										xml:id="CoverFront">the <emph rend="bold"
+										>front cover</emph>.</desc><desc xml:id="U2"
+											>2 folios = <emph rend="bold"
+										>guard leaves</emph>. No foliation. With unblackened additions on f[1]r (title) and f[2]r (satellite stanza). Versos blank. 345 x 30 mm.
+</desc><desc
+										xml:id="U3">3 folios = <emph rend="bold"><title
+												xml:lang="ta"
+											>Tirukkuṟaḷ</title>: Table of Contents</emph>. Tamil foliation 1-3. 345 x 30 mm.
+</desc><desc
+										xml:id="U4">1 folio = <emph rend="bold"><title xml:lang="ta"
+												>Tirukkuṟaḷ</title>: Satellite Stanzas (2)</emph>. No foliation. 320 x 30 mm. Right edge truncated. Verso blank.
+
+</desc><desc
+										xml:id="U5">190 folios = <emph rend="bold"><title
+												xml:lang="ta"
+											>Tirukkuṟaḷ</title>: Text &amp; Commentary</emph>. Tamil foliation 1-123, 224-291. 350/360 x 30/35 mm.
+
+</desc><desc
+										xml:id="U6">3 folios = <emph rend="bold"
+											>additional folios</emph>. Inserted in U5b. Tamil foliation 119, 172, 244. <locus
+											facs="245"
+											>f119</locus> (360 x 30 mm) is inserted between U5, f118 and f119. <locus
+											facs="357"
+											>f172</locus> (355 x 30 mm) is inserted between U5, f171 and f172. <locus
+											facs="401"
+										>f244</locus> (350 x 25 mm) is inserted after U5, f291.
+</desc><desc
+										xml:id="U7">2 folios = <emph rend="bold"
+										>guard leaves</emph>. No foliation. Scribbles and drawings on f[1]. f[2] blank recto verso. 345 x 30 mm.
+</desc><desc
+										xml:id="U8">3 folios = <emph rend="bold"
+										>guard leaves</emph>. No foliation. Blank recto verso. 345 x 25 mm.
+</desc></collation>
+								<condition>Mostly good condition. Some insect holes.</condition>
+							</supportDesc>
+							<layoutDesc>
+								<layout writtenLines="6 13"/>
+							</layoutDesc>
+						</objectDesc>
+						<handDesc>
+							<handNote synch="#U1" scope="minor" script="tamil"
+								scriptRef="#tamilPulliRegular" medium="black incised soot"
+										><desc>Hand #1. <persName role="scribe"
+										>Ariel's title page scribe</persName>.</desc></handNote>
+							<handNote synch="#U2" scope="minor" script="tamil" medium="incised"
+									><desc>Hand #2. Unblackened.</desc></handNote>
+							<handNote synch="#U3 #U4 #U5" scope="major" script="tamil"
+								medium="incised soot"
+										><desc>Hand #3. Traditional script with modern <foreign
+										xml:lang="ta">ṟa</foreign>.</desc></handNote>
+							<handNote synch="#U6" scope="minor" script="tamil" medium="incised"
+									><desc>Hand #4. Unblackened.</desc></handNote>
+							<handNote synch="#U7" scope="minor" script="tamil" medium="incised"
+									><desc>Hand #4. Unblackened.</desc></handNote>
+						</handDesc>
+						<decoDesc>
+							<decoNote synch="#U2" type="drawing" subtype="left"
+										><desc>Drawing of a bird (<locus facs="6"
+									>f[1]v</locus>).</desc></decoNote>
+							<decoNote synch="#U7" type="drawing" subtype="end"
+										><desc>Two bird llustrations, both two-headed, one pelican-like and one peacock (<locus
+										facs="403">f[1]r</locus>).</desc></decoNote>
+						</decoDesc>
+						<additions>
+							<desc synch="#U1" type="shelfmark" subtype="title-page"
+									>Shelfmark <quote>c/15</quote> in black ink (<locus facs="1"
+									>f[1]r</locus>). </desc><desc synch="#U1"
+								type="documenting-note">BnF donation sticker <quote>DON N° <space
+										type="vacat"/></quote> (<locus facs="1"
+								>f[1]r</locus>).</desc><desc synch="#U1" type="shelfmark"
+									>BnF current shelfmark sticker: <quote>INDIEN 55</quote> (<locus
+									facs="1"
+									>front cover, recto</locus>). Covering BnF older shelfmark sticker: <quote>TAMOUL 55</quote></desc><desc
+								synch="#U3" corresp="#T3" type="table-of-contents"
+								subtype="beginning">List of chapters (entitled <foreign
+									xml:lang="ta"
+									>tiruvaḷḷuvar kuṟaḷ veṇpāvukku Atikāravaṭaivu varumāṟu</foreign>; 4 to 6 columns): the familiar chapter headings only; intermediary total chapters (<foreign
+									xml:lang="ta"
+									>atikāram</foreign>), overall total chapters, overall total stanzas (<foreign
+									xml:lang="ta"
+								>kuṟaḷ veṇpā</foreign>). See details below.</desc><desc synch="#U4"
+								type="satellite-stanza">Mnenomic and <foreign xml:lang="sa"
+									>phalaśruti</foreign>-like verse (<foreign xml:lang="ta"
+									>āyirattu muṉṉūṟṟu</foreign>) as satellite stanza, on an own independent unfoliated folio. This is <title
+									xml:lang="ta"
+								>Tiruvaḷḷuvar Mālai</title> 16 Nattattaṉār. See details below.</desc><desc
+								synch="#U4" type="satellite-stanza">Invocation (<foreign
+									xml:lang="ta"
+								>āya kalaika</foreign>) as satellite stanza, on an own independent unfoliated folio. Edited and translated by D'Avella (2020: 251-252). See details below.</desc><desc
+								synch="#U5" type="intertitle" subtype="marginal left">Left-marginal intertitles:
 <list>
-  <item><locus facs="37">f11r</locus>: <term xml:lang="ta">putalvaraip peṟutal</term></item>
-  <item><locus facs="33">f13r</locus>: <term xml:lang="ta">Aṉpuṭamai</term></item>
-<item><locus facs="37">f15r</locus>: <term xml:lang="ta">viruntōmpal</term></item>
-<item><locus facs="40">f16v</locus>: <term xml:lang="ta">Iṉiyavai kūṟal</term></item>
-  <item>...</item>
-<item><locus facs="253">f122r</locus>: <term xml:lang="ta">pullaṟivāṉmai</term></item>
-<item><locus facs="255">f123r</locus>: <term xml:lang="ta">Ikal</term></item>
-<item><locus facs="257">f224r</locus>: <term xml:lang="ta">pakaimāṭci</term></item>
-<item><locus facs="259">f225r</locus>: <term xml:lang="ta">pakaittiṟanterital</term></item>
-    <item>...</item>
-<item><locus facs="319">f253</locus>: <term xml:lang="ta">kāmattuppāl – takaiyaṇaṅkuṟuttal</term></item>
-    <item>...</item>
-<item><locus facs="371">f271r</locus>: <term xml:lang="ta">pacappuṟuparuvaral</term></item>
-  </list></desc></additions><bindingDesc>
-                     <binding><p>Original <material>wood</material> covers. 345 x 30 x 15 mm. Faceted.</p><decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
-                  </bindingDesc></physDesc>
-               <history>
-                  
-                  
-                  
-               <origin>
-                     <origDate calendar="gregorian" notAfter="1848">Internally dated to the year <foreign xml:lang="ta">kīlaka</foreign> of the Jovian cycle, that is, CE 1848-1849, 1788-1789, 1728-1729, etc. See colophon (U5, <locus facs="400">f291v1</locus>).
-Not dated by Vinson in Vinson et al. (1866-) nor by Cabaton (1912). Not after 1854, since part of the collection of <persName role="collector" key="Ariel, Édouard">Édouard Ariel</persName> (1818-1854), bequeathed in 1855 to the Société Asiatique, Paris (Rosny 1868).</origDate>
-                     <origPlace>South India, Tamil Nadu.</origPlace>
-                  </origin><provenance><p>Owned by <persName role="collector" key="Ariel, Édouard">Édouard Ariel</persName> (1818-1854). Bequeathed by Édouard Ariel to Société Asiatique (Rosny 1868, p. 177).</p></provenance><acquisition><p>Received, August 1st, 1866, from the Société Asiatique. See BnF, département des Manuscrits, inventaire 7 = <title>Dons: manuscrits et imprimés documentaires, 1848-1895</title>, no. 1192.</p></acquisition></history>
-               <additional>
-                  <listBibl>
-                     
-                  <bibl><title xml:lang="ta">Tirukkuṟaḷ</title>. 1961. <title xml:lang="ta">Tiruvaḷḷuva Nāyaṉār tiruvāymalarntaruḷiya Tirukkuraḷ mūlamum paḻaiya uraiyum</title>. <foreign xml:lang="ta">Mukavurai: Mu. Varatarācaṉār. Ceṉṉai: U. Vē. Cāminātaiyar Nūl Nilaiyam</foreign>.</bibl><bibl><title xml:lang="ta">Tirukkuṟaḷ</title>. 1972-1976. <title xml:lang="ta">Tirukuṟaḷ mūlamum Parimēlaḻakaruraiyum</title>. Edited by <term xml:lang="ta">Kō. Vaṭivēlu Ceṭṭiyār. iyaṟṟiya teḷiporuḷ viḷakkamum, karutturaiyum, kuṟippuraiyum. āṅkila moḻipeyarppuṭaṉ Tiruvaḷḷuvamālai</term>. 3 vols.: <term xml:lang="ta">mutal pakuti aṟattuppāl; iraṇṭām pakuti poruṭpāl; mūṉṟām pakuti kāmattuppāl. Maturai: Maturaip Palkalaik Kaḻakam</term>.</bibl><bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f30">p. 12, no. 55</ref>.</bibl><bibl>D'Avella, Victor B. 2020. <title type="article">Orbiting Material in Tamil Grammatical Texts</title>, in <title>Colophons, Prefaces, Satellite Stanzas</title> edited by Eva Wilden and Suganya Anandakichenin, pp. 223-280. Hamburg: Department of Indian and Tibetan Studies, Universität Hamburg (Indian and Tibetan Studies 10).</bibl><bibl>Rosny, Léon de. 1868. <title type="article">La bibliothèque tamoule de M. Ariel, de Pondichéry</title>. In <title>Variétés orientales</title>, 177‒224. Paris: Maisonneuve. </bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. 1866-. <title>Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f51">f. 18r, no. 55</ref>. </bibl><bibl>Vinson, Julien. 1868. <title>Manuscrits tamouls</title>. Proofreadings of the catalogue for Tamoul 1-204 (old shelfmark). Printed by the atelier oriental de l’Imprimerie nationale. BnF “4-IMPROR-77 (B)”. — The same proofreadings with black ink handwritten corrections are found in Vinson et al. (1866-, f1-f49). — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b105333021/f45">p. 18, no. 55</ref>. </bibl></listBibl>
-               </additional>
-            </msDesc>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         
-      <p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.            </p></encodingDesc>
-      
-   <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
-         
-      <change when="2022-02">Converted to TEI XML by Charles LI.</change><change when="2022-05">Updated to TST encoding conventions by <persName>Emmanuel FRANCIS</persName>.</change><change when="2022-07">Revised and enlarged by <persName>Emmanuel FRANCIS</persName>. Version 2, July 2022.</change><change when="2022-09">Updated by <persName>Emmanuel FRANCIS</persName> after examination of the original manuscript. Version 2, September 2022.</change></revisionDesc></teiHeader>
-   <facsimile>
-   <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525139003/manifest.json"/></facsimile>
-<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
-  <ab>
-    
-  <pb facs="1" n="[1]r"/>
-  
-  <seg function="blessing"><cb n="1"/>
-  <lb n="1"/>veṟṟi vē
+									<item><locus facs="37">f11r</locus>: <term xml:lang="ta"
+											>putalvaraip peṟutal</term></item>
+									<item><locus facs="33">f13r</locus>: <term xml:lang="ta"
+											>Aṉpuṭamai</term></item>
+									<item><locus facs="37">f15r</locus>: <term xml:lang="ta"
+											>viruntōmpal</term></item>
+									<item><locus facs="40">f16v</locus>: <term xml:lang="ta"
+											>Iṉiyavai kūṟal</term></item>
+									<item>...</item>
+									<item><locus facs="253">f122r</locus>: <term xml:lang="ta"
+											>pullaṟivāṉmai</term></item>
+									<item><locus facs="255">f123r</locus>: <term xml:lang="ta"
+											>Ikal</term></item>
+									<item><locus facs="257">f224r</locus>: <term xml:lang="ta"
+											>pakaimāṭci</term></item>
+									<item><locus facs="259">f225r</locus>: <term xml:lang="ta"
+											>pakaittiṟanterital</term></item>
+									<item>...</item>
+									<item><locus facs="319">f253</locus>: <term xml:lang="ta"
+											>kāmattuppāl – takaiyaṇaṅkuṟuttal</term></item>
+									<item>...</item>
+									<item><locus facs="371">f271r</locus>: <term xml:lang="ta"
+											>pacappuṟuparuvaral</term></item>
+								</list></desc></additions>
+						<bindingDesc>
+							<binding>
+								<p>Original <material>wood</material> covers. 345 x 30 x 15 mm. Faceted.</p>
+								<decoNote type="stringhole"><measure unit="stringhole" quantity="2"
+									/></decoNote>
+							</binding>
+						</bindingDesc>
+					</physDesc>
+					<history>
+
+
+
+						<origin>
+							<origDate calendar="gregorian" notAfter="1848"
+									>Internally dated to the year <foreign xml:lang="ta"
+									>kīlaka</foreign> of the Jovian cycle, that is, CE 1848-1849, 1788-1789, 1728-1729, etc. See colophon (U5, <locus
+									facs="400"
+									>f291v1</locus>).
+Not dated by Vinson in Vinson et al. (1866-) nor by Cabaton (1912). Not after 1854, since part of the collection of <persName
+									role="collector" key="Ariel, Édouard"
+								>Édouard Ariel</persName> (1818-1854), bequeathed in 1855 to the Société Asiatique, Paris (Rosny 1868).</origDate>
+							<origPlace>South India, Tamil Nadu.</origPlace>
+						</origin>
+						<provenance><p>Owned by <persName role="collector" key="Ariel, Édouard"
+									>Édouard Ariel</persName> (1818-1854). Bequeathed by Édouard Ariel to Société Asiatique (Rosny 1868, p. 177).</p></provenance>
+						<acquisition><p>Received, August 1st, 1866, from the Société Asiatique. See BnF, département des Manuscrits, inventaire 7 = <title>Dons: manuscrits et imprimés documentaires, 1848-1895</title>, no. 1192.</p></acquisition>
+					</history>
+					<additional>
+						<listBibl>
+
+							<bibl><title xml:lang="ta">Tirukkuṟaḷ</title>. 1961. <title
+									xml:lang="ta"
+									>Tiruvaḷḷuva Nāyaṉār tiruvāymalarntaruḷiya Tirukkuraḷ mūlamum paḻaiya uraiyum</title>. <foreign
+									xml:lang="ta"
+									>Mukavurai: Mu. Varatarācaṉār. Ceṉṉai: U. Vē. Cāminātaiyar Nūl Nilaiyam</foreign>.</bibl>
+							<bibl><title xml:lang="ta">Tirukkuṟaḷ</title>. 1972-1976. <title
+									xml:lang="ta"
+									>Tirukuṟaḷ mūlamum Parimēlaḻakaruraiyum</title>. Edited by <term
+									xml:lang="ta"
+									>Kō. Vaṭivēlu Ceṭṭiyār. iyaṟṟiya teḷiporuḷ viḷakkamum, karutturaiyum, kuṟippuraiyum. āṅkila moḻipeyarppuṭaṉ Tiruvaḷḷuvamālai</term>. 3 vols.: <term
+									xml:lang="ta"
+									>mutal pakuti aṟattuppāl; iraṇṭām pakuti poruṭpāl; mūṉṟām pakuti kāmattuppāl. Maturai: Maturaip Palkalaik Kaḻakam</term>.</bibl>
+							<bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref
+									target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f30"
+									>p. 12, no. 55</ref>.</bibl>
+							<bibl>D'Avella, Victor B. 2020. <title type="article"
+									>Orbiting Material in Tamil Grammatical Texts</title>, in <title>Colophons, Prefaces, Satellite Stanzas</title> edited by Eva Wilden and Suganya Anandakichenin, pp. 223-280. Hamburg: Department of Indian and Tibetan Studies, Universität Hamburg (Indian and Tibetan Studies 10).</bibl>
+							<bibl>Rosny, Léon de. 1868. <title type="article"
+									>La bibliothèque tamoule de M. Ariel, de Pondichéry</title>. In <title>Variétés orientales</title>, 177‒224. Paris: Maisonneuve. </bibl>
+							<bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. 1866-. <title>Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref
+									target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f51"
+									>f. 18r, no. 55</ref>. </bibl>
+							<bibl>Vinson, Julien. 1868. <title>Manuscrits tamouls</title>. Proofreadings of the catalogue for Tamoul 1-204 (old shelfmark). Printed by the atelier oriental de l’Imprimerie nationale. BnF “4-IMPROR-77 (B)”. — The same proofreadings with black ink handwritten corrections are found in Vinson et al. (1866-, f1-f49). — See <ref
+									target="http://gallica.bnf.fr/ark:/12148/btv1b105333021/f45"
+									>p. 18, no. 55</ref>. </bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+
+			<p><emph rend="bold"
+					>General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph
+					rend="bold"
+					>In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph
+					rend="bold"
+				>Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.            </p>
+		</encodingDesc>
+
+		<xenoData type="webannotation"><![CDATA[[]]]></xenoData>
+		<revisionDesc>
+
+			<change when="2022-02">Converted to TEI XML by Charles LI.</change>
+			<change when="2022-05"
+					>Updated to TST encoding conventions by <persName>Emmanuel FRANCIS</persName>.</change>
+			<change when="2022-07"
+				>Revised and enlarged by <persName>Emmanuel FRANCIS</persName>. Version 2, July 2022.</change>
+			<change when="2022-09"
+				>Updated by <persName>Emmanuel FRANCIS</persName> after examination of the original manuscript. Version 2, September 2022.</change>
+		</revisionDesc>
+	</teiHeader>
+	<facsimile>
+		<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b525139003/manifest.json"/>
+	</facsimile>
+	<text synch="#U1" corresp="#T1" xml:lang="ta">
+		<body>
+			<ab>
+				<pb facs="1" n="[1]r"/>
+				<seg function="blessing"><cb n="1"/>
+					<lb n="1"/>veṟṟi vē
     <lb n="2" break="no"/>l uṟṟa tuṇai</seg>
-    
-    <seg function="title"><cb n="2"/>
-  <lb n="1"/>Iḵtu
+				<seg function="title"><cb n="2"/>
+					<lb n="1"/>Iḵtu
       
       <cb n="3"/>
-  <lb n="1"/>kuṟaḷ ~ curukka
+					<lb n="1"/>kuṟaḷ ~ curukka
       <lb n="2" break="no"/>vuraipāṭam</seg>
-
-      <pb facs="2" n="[1]v"/><note xml:lang="en">blank</note>
-
-</ab>
-</body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
-  <ab>
-    
-  <pb facs="5" n="[1]r"/>
-    
-    <seg function="title"><lb n="1"/>tiruvaḷḷuvar
+				<pb facs="2" n="[1]v"/><note xml:lang="en">blank</note>
+			</ab>
+		</body>
+	</text>
+	<text synch="#U2" corresp="#T2" xml:lang="ta">
+		<body>
+			<ab>
+				<pb facs="5" n="[1]r"/>
+				<seg function="title"><lb n="1"/>tiruvaḷḷuvar
     <lb n="2"/>kuṟaḷ uraipāṭam</seg>
-    
-      <pb facs="6" n="[1]v"/><note xml:lang="en">drawing</note>
-    
-    <pb facs="7" n="[2]r"/>
-    
-    <seg function="blessing"><milestone unit="left-margin"/>
-      <lb n="1-2"/>naṉ<unclear>ṟāka</unclear></seg>
-    
-    <seg function="satellite-stanza"><milestone unit="main-text-area"/>
-    <lg><l><lb n="1"/>tiruvākkuñ ceykarumaṅ kai kūṭṭuñ ceñcoṟ</l> <l>peruvākkum pītum perukku muruvākkum</l> 
-    <l><lb n="2"/>mātalāl vāṉōru māṉai mukattāṉaik ~</l> <l>kātalāl kūppuvartaṅ kai <g ref="#pcl"/></l></lg></seg>
-    
-    <pb facs="8" n="[2]v"/><note xml:lang="en">blank</note>
-
-    </ab>
-  </body></text><text synch="#U3" corresp="#T3" xml:lang="ta"><body>
-  <ab>
-    
-    <pb facs="9" n="1r"/>
-    <seg function="table-of-contents">
-    <cb n="1"/>               
-    <lb n="1"/>tiruvaḷḷuvar kuṟaḷ veṇpāvukku
-  <lb n="2"/>Atikāravaṭaivu varumāṟu _
-  <lb n="3"/>mutaṉmaiyāvat<pc>'</pc> aruṭpāl ~ 1 ~ k=ku 
-  <lb n="4"/>Illaraviyalpu ~ 1 ~ k=ku _
+				<pb facs="6" n="[1]v"/><note xml:lang="en">drawing</note>
+				
+				<pb facs="7" n="[2]r"/>
+				<fw place="left-margin">
+					<seg function="blessing">
+					<lb n="1-2"/>naṉ<unclear>ṟāka</unclear></seg>
+				</fw>
+				
+				<seg function="satellite-stanza">
+					<lg>
+						<l><lb n="1"/>tiruvākkuñ ceykarumaṅ kai kūṭṭuñ ceñcoṟ</l>
+						<l>peruvākkum pītum perukku muruvākkum</l>
+						<l><lb n="2"/>mātalāl vāṉōru māṉai mukattāṉaik ~</l>
+						<l>kātalāl kūppuvartaṅ kai <g ref="#pcl"/></l>
+					</lg></seg>
+				<pb facs="8" n="[2]v"/><note xml:lang="en">blank</note>
+			</ab>
+		</body>
+	</text>
+	<text synch="#U3" corresp="#T3" xml:lang="ta">
+		<body>
+			<ab>
+				<pb facs="9" n="1r"/>
+				<seg function="table-of-contents">
+					<cb n="1"/>
+					<lb n="1"/>tiruvaḷḷuvar kuṟaḷ veṇpāvukku
+  <lb n="2"
+						/>Atikāravaṭaivu varumāṟu _
+  <lb n="3"
+						/>mutaṉmaiyāvat<pc>'</pc> aruṭpāl ~ 1 ~ k=ku 
+  <lb n="4"
+						/>Illaraviyalpu ~ 1 ~ k=ku _
   <lb n="5"/>kaṭavul vāḻttu _
-  <lb n="6"/>vāṉ ciṟappu <g ref="#pcl"/> _
+  <lb n="6"
+						/>vāṉ ciṟappu <g ref="#pcl"/> _
   <lb n="7"/>nīttār perumai <g ref="#pcl"/>
-            
-      <cb n="2"/><gap reason="ellipsis"/> 
-          
-      <cb n="3"/><gap reason="ellipsis"/>               
-    
-      <cb n="4"/><gap reason="ellipsis"/>        
-    
-    <pb facs="10" n="1v"/>
-          
-      <cb n="1"/>
-      
-      <lb n="1"/>{Āka} Illaṟaviyalpukk=ku ~ ~ ~
-      <lb n="2"/>Atikāram <num rend="traditional">24</num> ~ ~ ~ ~
-      <lb n="3"/>tuṟavaṟaviyalpukk=ku ~ ~ ~
+					<cb n="2"/><gap reason="ellipsis"/>
+					<cb n="3"/><gap reason="ellipsis"/>
+					<cb n="4"/><gap reason="ellipsis"/>
+					<pb facs="10" n="1v"/>
+					<cb n="1"/>
+					<lb n="1"/>{Āka} Illaṟaviyalpukk=ku ~ ~ ~
+      <lb n="2"/>Atikāram <num
+						rend="traditional">24</num> ~ ~ ~ ~
+      <lb n="3"
+						/>tuṟavaṟaviyalpukk=ku ~ ~ ~
       <lb n="4"/>Aruḷuṭaimai ~ ~ ~
-      <lb n="5-7"/><gap reason="ellipsis"/> 
-      
-      <cb n="2"/><gap reason="ellipsis"/>
-          
-      <cb n="3"/><gap reason="ellipsis"/>         
-    
-      <cb n="4"/><gap reason="ellipsis"/>           
-      
-      <cb n="5"/><gap reason="ellipsis"/>       
-
-    <pb facs="11" n="2r"/>
-      
-      <cb n="1"/><gap reason="ellipsis"/>
-      
-      <cb n="2"/><gap reason="ellipsis"/>
-          
-      <cb n="3"/><gap reason="ellipsis"/>         
-    
-      <cb n="4"/><gap reason="ellipsis"/>           
-      
-      <cb n="5"/>
-      
-     <lb n="1"/>Amaicciyalpukk=ku
-     <lb n="2"/>kūṭiya Atikāram <num rend="traditional">10</num> ==
-     <lb n="3"/>Aṅkaviyalpukk=ku ~ ~ ~
-     <lb n="4"/>nāṭu ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~  
-      <lb n="5-7"/><gap reason="ellipsis"/> 
-      
-    <pb facs="12" n="2v"/>
-      
-      <cb n="1"/><gap reason="ellipsis"/>
-      
-      <cb n="2"/><gap reason="ellipsis"/>
-          
-      <cb n="3"/><gap reason="ellipsis"/>         
-    
-      <cb n="4"/><gap reason="ellipsis"/>           
-      
-      <cb n="5"/><gap reason="ellipsis"/>
-      
-    <pb facs="13" n="3r"/>
-      
-      <cb n="1"/><gap reason="ellipsis"/>
-      
-      <cb n="2"/><gap reason="ellipsis"/>
-          
-      <cb n="3"/><gap reason="ellipsis"/>         
-    
-      <cb n="4"/><gap reason="ellipsis"/>           
-      
-      <cb n="5"/><gap reason="ellipsis"/>
-
-      <cb n="6"/><gap reason="ellipsis"/>
-
-      <pb facs="14" n="3v"/>
-        
-      <cb n="1"/>
-      <seg function="total-stanzas"><lb n="1"/>{Āka} kūṭiya
-      <lb n="2"/>Atikāravaṭaivu ~ <num rend="traditional">133</num>k=ku
-      <lb n="3"/>kuṟaḷ veṇpā <num rend="traditional">1330</num> <g ref="#pcs"/>
-      <lb n="4"/><g ref="#pcl"/></seg>
-      <seg function="blessing"><lb n="5"/>kurupātan tuṇai <g ref="#pcl"/></seg>
-      </seg>
-
-      </ab>
-  </body></text><text synch="#U4" corresp="#T4" xml:lang="ta"><body>
-  <ab>
-        
-    <pb facs="15" n="[1]r"/>
-      <seg function="header">
-     <seg function="blessing"><milestone unit="left-margin"/>
-   <lb n="1"/>hari Ōm</seg> <seg function="blessing">naṉṟāka</seg>
-    <seg function="blessing"><lb n="2"/>kuru vāḻka ~</seg>
-    <seg function="blessing"><lb n="3"/>kuruvē tuṇai</seg>
-    <seg function="title"><lb n="4"/>tiruvaḷḷuvarurai</seg>
-    <seg function="intertitle"><lb n="5"/>kaṭavuḷ vāḻttu</seg>
-    <seg function="blessing"><lb n="6"/>veṟṟivēl uṟṟa
-    <lb n="7"/>tuṇai <g ref="#pcl"/></seg>
-  </seg>
-    
-    <seg function="satellite-stanza"><milestone unit="main-text-area"/>
-    <lg><l><lb n="1"/>Āyirattu muṉṉūttu muppataruṅ kuṟaḷum</l>
-    <l>pāyiratti ṉōṭē pakarvīrēl poyoruttar</l>
-  <l><lb n="2"/>vāykkēḻukka vēṇumō maṉṉu tamiḻppulava</l>
-    <l>rāykkēḻkka vīttirukka lām <g ref="#pcl"/></l></lg></seg>
-   <seg function="satellite-stanza"><lg><l><lb n="3"/>Āya kalaika<unclear reason="vowel_unclear">ḷ i</unclear>ṟupattu nāṉkiṉaiyu</l> <l>m ēya vuṇarvikkum eṉṉ am<sic>mē</sic> tūya <gap reason="lost" quantity="1" unit="character"/></l>
-  <l><lb n="4"/>v<pc>-</pc>uru-p-paḷiṅku pōlvāḷ eṉṉ uḷḷattiṉuḷḷē</l>
-    <l>y<pc>-</pc>iruppaḷ iṅku vārāt<pc>'</pc>iṭar <g ref="#pcl"/></l></lg></seg> <seg function="blessing">tēvinamas tu <unclear><g ref="#pcl"/></unclear></seg>
-    
-             <pb facs="16" n="[1]v"/><note xml:lang="en">blank</note>
-
-    </ab>
-  </body></text><text synch="#U5" corresp="#T5" xml:lang="ta"><body>
-  <ab>
-    
-    <pb facs="17" n="[1]r"/>
-    
-      <seg function="header">
-    <seg function="blessing"><milestone unit="left-margin"/>
-    <lb n="1"/>hari Ōm <g ref="#pcs"/></seg>
-    <seg function="blessing"><lb n="2"/>naṉṟāka <g ref="#pcs"/></seg>
-  <seg function="blessing"><lb n="3"/>kuru vāḻka <g ref="#pcs"/></seg>
-  <seg function="title"><lb n="4"/>tiruvaḷḷuva ~
-   <lb n="5"/>r urai</seg> <seg function="intertitle">kaṭavuḷ ~
-  <lb n="6"/><supplied reason="lost">vāḻttu <g ref="#pcl"/></supplied></seg>
-    </seg>
-
-    <seg function="incipit" type="root-text"><milestone unit="main-text-area"/>
-<lg><l><lb n="1"/>Akara mutala veḻuttellā māti</l>
-<l>pakavaṉ mutaṟṟē yulaku <g ref="#pcs"/></l></lg></seg> <seg function="incipit" type="commentary">Etu <g ref="#pcs"/> 
-Eḻuttukkaḷukkellām ~ Akāraveḻuttu mutalāyirukki<gap reason="illegible" quantity="1" unit="character"/>p pōlē vulakat
-      <lb n="2" break="no"/>tukkellāñ caṟuvañ <gap reason="illegible" unit="character" quantity="1"/>ṉāṉ cuvāmi mutaleṉṟavāṟu <g ref="#pcs"/> 1 <g ref="#pcs"/></seg> <gap reason="ellipsis"/>
-          
-      <pb facs="399" n="291r"/>
-
-<lb n="4"/><gap reason="ellipsis"/> <seg function="explicit" type="root-text"><lg><l>Ūṭutal kāmattiṟ kiṉpa mataṟkiṉpaṅ</l>
-<l>kūṭi muyaṅkap <lb n="5"/>peṟiṉ <g ref="#pcs"/></l></lg></seg>                                          
-<seg function="explicit" type="commentary">kāmamaṉupa<gap reason="illegible" quantity="2" unit="character"/>kkiṟattukku yiṉpāvatu ~ Ataṟakuriya varavāmaiyālē piṇaṅkiyirukkaṟatām – Antappiṇa
-  <lb n="6" break="no"/>kku yiṉpamāvatu piṇakku nīṅaki ta<gap reason="illegible" unit="akṣara" quantity="1"/>ṭukiṟatē yiṉpam eṉṟa vāṟu Avviraṇṭiṉa tiṉpamum yāṉ peṟṟēṉeṉpatām <g ref="#pcs"/> {Āka} <num rend="traditional">1330</num> <g ref="#pcs"/></seg>
-
-    <pb facs="400" n="291v"/>
-    <seg function="colophon"><seg function="copy-statement"><lb n="1"/>kīlaka <g ref="#varuṣam">varuṣam</g> cittirai <g ref="#mācam">mācam</g> <num rend="traditional">15</num> <g ref="#tēti">tēti</g> kumāracāmipiḷḷaiyavarkaḷukku <persName xml:lang="ta" role="scribe" key="Tirukkāmi">mārakkaṇṭalāttiyār kumāraṉ tirukkāmi</persName> tiruvaḷḷuvar kuṟaḷ Uraiyutaṉē yeḻuti
-  <lb n="2"/>muṭintatu muttum <g ref="#pcl"/></seg> <seg function="blessing">tēvicakāyam <g ref="#pcl"/></seg> <seg function="blessing">Ampalavāṇar tituvaṭiyē tañcam <g ref="#pcl"/></seg> <seg function="blessing">Āṟumukan tuṇai <g ref="#pcs"/></seg> <seg function="blessing">naṉṟāka <g ref="#pcs"/></seg></seg>
-    
-    <seg function="TBC"><lb n="3-4"/><note xml:lang="en">unblackened; addition</note>
-    <lb n="3"/><gap reason="ellipsis"/>
-      <lb n="4"/><gap reason="ellipsis"/> vēli tirukkaṇṭīccurattu ṉāṉē <g ref="#pcl"/></seg>  
-    
-    </ab>
-  </body></text><text synch="#U6" corresp="#T6" xml:lang="ta"><body>
-  <ab>
-    
-    <pb facs="245" n="119r"/>
-    <pb facs="246" n="119v"/><note xml:lang="en">blank</note>
-    
-    <pb facs="357" n="172r"/>
-        <pb facs="358" n="172v"/><note xml:lang="en">blank</note>
-
-        <pb facs="401" n="244r"/>
-    <pb facs="402" n="244v"/><note xml:lang="en">blank</note>
-
-    
-    </ab>
-  </body>
-</text><text synch="#U7" corresp="#T7" xml:lang="ta"><body>
-  <ab>
-    
-    <pb facs="403" n="[1]r"/>
-    
-    <milestone unit="left-margin"/>
-     <lb n="1"/><gap reason="ellipsis"/>
-    <lb n="2"/><gap reason="ellipsis"/>
-    <lb n="3"/><gap reason="ellipsis"/>
-    
-    <milestone unit="main-text-area"/>
-    <lb n="1"/><gap reason="ellipsis"/>
-    <lb n="2"/><gap reason="ellipsis"/>
-    <lb n="3"/><gap reason="ellipsis"/>
-    <seg function="blessing"><lb n="4"/>śrī</seg>
-    <seg function="blessing"><lb n="5"/>śrī</seg>
-    
-    <note xml:lang="en">drawings</note>
-    
-    <pb facs="404" n="[1]v"/>
-    
-    <milestone unit="left-margin"/>
-     <lb n="1"/><gap reason="ellipsis"/>
-    <lb n="2"/><gap reason="ellipsis"/>
-    
-    </ab>
-  </body>
-</text></TEI>
+      <lb
+						n="5-7"/><gap reason="ellipsis"/>
+					<cb n="2"/><gap reason="ellipsis"/>
+					<cb n="3"/><gap reason="ellipsis"/>
+					<cb n="4"/><gap reason="ellipsis"/>
+					<cb n="5"/><gap reason="ellipsis"/>
+					<pb facs="11" n="2r"/>
+					<cb n="1"/><gap reason="ellipsis"/>
+					<cb n="2"/><gap reason="ellipsis"/>
+					<cb n="3"/><gap reason="ellipsis"/>
+					<cb n="4"/><gap reason="ellipsis"/>
+					<cb n="5"/>
+					<lb n="1"/>Amaicciyalpukk=ku
+					<lb n="2"/>kūṭiya Atikāram <num rend="traditional">10</num> ==
+					<lb n="3"/>Aṅkaviyalpukk=ku ~ ~ ~
+     <lb n="4"
+						/>nāṭu ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~  
+      <lb n="5-7"/><gap reason="ellipsis"/>
+					<pb facs="12" n="2v"/>
+					<cb n="1"/><gap reason="ellipsis"/>
+					<cb n="2"/><gap reason="ellipsis"/>
+					<cb n="3"/><gap reason="ellipsis"/>
+					<cb n="4"/><gap reason="ellipsis"/>
+					<cb n="5"/><gap reason="ellipsis"/>
+					<pb facs="13" n="3r"/>
+					<cb n="1"/><gap reason="ellipsis"/>
+					<cb n="2"/><gap reason="ellipsis"/>
+					<cb n="3"/><gap reason="ellipsis"/>
+					<cb n="4"/><gap reason="ellipsis"/>
+					<cb n="5"/><gap reason="ellipsis"/>
+					<cb n="6"/><gap reason="ellipsis"/>
+					<pb facs="14" n="3v"/>
+					<cb n="1"/>
+					<seg function="total-stanzas"><lb n="1"/>{Āka} kūṭiya
+      <lb n="2"
+							/>Atikāravaṭaivu ~ <num rend="traditional">133</num>k=ku
+      <lb n="3"
+							/>kuṟaḷ veṇpā <num rend="traditional">1330</num>
+						<g ref="#pcs"/>
+						<lb n="4"/><g ref="#pcl"/></seg>
+					<seg function="blessing"><lb n="5"/>kurupātan tuṇai <g ref="#pcl"/></seg>
+				</seg>
+			</ab>
+		</body>
+	</text>
+	<text synch="#U4" corresp="#T4" xml:lang="ta">
+		<body>
+			<ab>
+				<pb facs="15" n="[1]r"/>
+				<fw place="left-margin">
+					<seg function="blessing">
+						<lb n="1"/>hari Ōm</seg>
+					<seg function="blessing">naṉṟāka</seg>
+					<seg function="blessing"><lb n="2"/>kuru vāḻka ~</seg>
+					<seg function="blessing"><lb n="3"/>kuruvē tuṇai</seg>
+					<seg function="title"><lb n="4"/>tiruvaḷḷuvarurai</seg>
+					<seg function="intertitle"><lb n="5"/>kaṭavuḷ vāḻttu</seg>
+					<seg function="blessing"><lb n="6"/>veṟṟivēl uṟṟa
+    <lb n="7"/>tuṇai <g
+							ref="#pcl"/></seg>
+				</fw>
+				<seg function="satellite-stanza">
+					<lg>
+						<l><lb n="1"/>Āyirattu muṉṉūttu muppataruṅ kuṟaḷum</l>
+						<l>pāyiratti ṉōṭē pakarvīrēl poyoruttar</l>
+						<l><lb n="2"/>vāykkēḻukka vēṇumō maṉṉu tamiḻppulava</l>
+						<l>rāykkēḻkka vīttirukka lām <g ref="#pcl"/></l>
+					</lg></seg>
+				<seg function="satellite-stanza"><lg>
+						<l><lb n="3"/>Āya kalaika<unclear reason="vowel_unclear"
+							>ḷ i</unclear>ṟupattu nāṉkiṉaiyu</l>
+						<l>m ēya vuṇarvikkum eṉṉ am<sic>mē</sic> tūya <gap reason="lost"
+								quantity="1" unit="character"/></l>
+						<l><lb n="4"/>v<pc>-</pc>uru-p-paḷiṅku pōlvāḷ eṉṉ uḷḷattiṉuḷḷē</l>
+						<l>y<pc>-</pc>iruppaḷ iṅku vārāt<pc>'</pc>iṭar <g ref="#pcl"/></l>
+					</lg></seg>
+				<seg function="blessing">tēvinamas tu <unclear><g ref="#pcl"/></unclear></seg>
+				<pb facs="16" n="[1]v"/><note xml:lang="en">blank</note>
+			</ab>
+		</body>
+	</text>
+	<text synch="#U5" corresp="#T5" xml:lang="ta">
+		<body>
+			<ab>
+				<pb facs="17" n="[1]r"/>
+				<fw place="left-margin">
+					<seg function="blessing">
+						<lb n="1"/>hari Ōm <g ref="#pcs"/></seg>
+					<seg function="blessing"><lb n="2"/>naṉṟāka <g ref="#pcs"/></seg>
+					<seg function="blessing"><lb n="3"/>kuru vāḻka <g ref="#pcs"/></seg>
+					<seg function="title"><lb n="4"/>tiruvaḷḷuva ~
+   <lb n="5"/>r urai</seg>
+					<seg function="intertitle">kaṭavuḷ ~
+  <lb n="6"/><supplied reason="lost"
+								>vāḻttu <g ref="#pcl"/></supplied></seg>
+				</fw>
+				<seg function="incipit" type="root-text">
+					<lg>
+						<l><lb n="1"/>Akara mutala veḻuttellā māti</l>
+						<l>pakavaṉ mutaṟṟē yulaku <g ref="#pcs"/></l>
+					</lg></seg>
+				<seg function="incipit" type="commentary">Etu <g ref="#pcs"
+						/> 
+Eḻuttukkaḷukkellām ~ Akāraveḻuttu mutalāyirukki<gap reason="illegible"
+						quantity="1" unit="character"/>p pōlē vulakat
+      <lb n="2" break="no"
+						/>tukkellāñ caṟuvañ <gap reason="illegible" unit="character" quantity="1"
+						/>ṉāṉ cuvāmi mutaleṉṟavāṟu <g ref="#pcs"/> 1 <g ref="#pcs"/></seg>
+				<gap reason="ellipsis"/>
+				<pb facs="399" n="291r"/>
+				<lb n="4"/><gap reason="ellipsis"/>
+				<seg function="explicit" type="root-text"><lg>
+						<l>Ūṭutal kāmattiṟ kiṉpa mataṟkiṉpaṅ</l>
+						<l>kūṭi muyaṅkap <lb n="5"/>peṟiṉ <g ref="#pcs"/></l>
+					</lg></seg>
+				<seg function="explicit" type="commentary">kāmamaṉupa<gap reason="illegible"
+						quantity="2" unit="character"
+						/>kkiṟattukku yiṉpāvatu ~ Ataṟakuriya varavāmaiyālē piṇaṅkiyirukkaṟatām – Antappiṇa
+  <lb
+						n="6" break="no"/>kku yiṉpamāvatu piṇakku nīṅaki ta<gap reason="illegible"
+						unit="akṣara" quantity="1"
+						/>ṭukiṟatē yiṉpam eṉṟa vāṟu Avviraṇṭiṉa tiṉpamum yāṉ peṟṟēṉeṉpatām <g
+						ref="#pcs"/> {Āka} <num rend="traditional">1330</num>
+					<g ref="#pcs"/></seg>
+				<pb facs="400" n="291v"/>
+				<seg function="colophon"><seg function="copy-statement"><lb n="1"/>kīlaka <g
+							ref="#varuṣam">varuṣam</g> cittirai <g ref="#mācam">mācam</g>
+						<num rend="traditional">15</num>
+						<g ref="#tēti">tēti</g> kumāracāmipiḷḷaiyavarkaḷukku <persName xml:lang="ta"
+							role="scribe" key="Tirukkāmi"
+							>mārakkaṇṭalāttiyār kumāraṉ tirukkāmi</persName> tiruvaḷḷuvar kuṟaḷ Uraiyutaṉē yeḻuti
+  <lb
+							n="2"/>muṭintatu muttum <g ref="#pcl"/></seg>
+					<seg function="blessing">tēvicakāyam <g ref="#pcl"/></seg>
+					<seg function="blessing">Ampalavāṇar tituvaṭiyē tañcam <g ref="#pcl"/></seg>
+					<seg function="blessing">Āṟumukan tuṇai <g ref="#pcs"/></seg>
+					<seg function="blessing">naṉṟāka <g ref="#pcs"/></seg></seg>
+				<seg function="TBC"><lb n="3-4"/><note xml:lang="en">unblackened; addition</note>
+					<lb n="3"/><gap reason="ellipsis"/>
+					<lb n="4"/><gap reason="ellipsis"/> vēli tirukkaṇṭīccurattu ṉāṉē <g ref="#pcl"
+					/></seg>
+			</ab>
+		</body>
+	</text>
+	<text synch="#U6" corresp="#T6" xml:lang="ta">
+		<body>
+			<ab>
+				<pb facs="245" n="119r"/>
+				<pb facs="246" n="119v"/><note xml:lang="en">blank</note>
+				<pb facs="357" n="172r"/>
+				<pb facs="358" n="172v"/><note xml:lang="en">blank</note>
+				<pb facs="401" n="244r"/>
+				<pb facs="402" n="244v"/><note xml:lang="en">blank</note>
+			</ab>
+		</body>
+	</text>
+	<text synch="#U7" corresp="#T7" xml:lang="ta">
+		<body>
+			<ab>
+				<pb facs="403" n="[1]r"/>
+				<fw place="left-margin">
+				<lb n="1"/><gap reason="ellipsis"/>
+				<lb n="2"/><gap reason="ellipsis"/>
+				<lb n="3"/><gap reason="ellipsis"/>
+				</fw>
+				
+				<lb n="1"/><gap reason="ellipsis"/>
+				<lb n="2"/><gap reason="ellipsis"/>
+				<lb n="3"/><gap reason="ellipsis"/>
+				<seg function="blessing"><lb n="4"/>śrī</seg>
+				<seg function="blessing"><lb n="5"/>śrī</seg>
+				<note xml:lang="en">drawings</note>
+				
+				<pb facs="404" n="[1]v"/>
+				<fw place="left-margin">
+				<lb n="1"/><gap reason="ellipsis"/>
+				<lb n="2"/><gap reason="ellipsis"/>
+				</fw>
+			</ab>
+		</body>
+	</text>
+</TEI>
