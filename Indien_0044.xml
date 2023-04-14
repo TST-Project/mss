@@ -40,21 +40,21 @@
                   
                <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
-                        <support>
+                        
+                        
+                        
+                        
+                        
+                     <support>
                            
                            
-                        <p>Rounded edges.</p></support>
-                        <extent>
+                        <p>Rounded edges.</p></support><extent>
                            <measure unit="folio" quantity="218">{1} + {1} + {1} + 214 + {1} (U1 + U2 + U3 + U4 + U5).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
                            <width quantity="405"/><height quantity="30"/></dimensions>
-                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
-                        
-                        
-                        
-                     <foliation>Tamil foliation and parallel Arabic foliation (U4).</foliation><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">Collection: Table of Contents</emph>. No foliation. Verso blank.</desc><desc xml:id="U2">1 folio = <emph rend="bold"><title xml:lang="ta">Pañcatacappirakaraṇam</title>: Title Page</emph>. No foliation. Verso blank.</desc><desc xml:id="U3">1 folio = <emph rend="bold">TBC: Front Matter</emph> (6 stanzas). No foliation.</desc><desc xml:id="U4">214 folios = <emph rend="bold">Collection: Texts</emph>. Tamil foliation 1-214. Parallel Arabic foliation 1-214.</desc><desc xml:id="U4a">150 folios = <emph rend="bold"><title xml:lang="ta">Pañcatacappirakaraṇam</title></emph>. Tamil foliation 1-143.1, 143.2, 145-150. No folio foliated 144. Parallel Arabic foliation 1-150.</desc><desc xml:id="U4b">45 folios = <emph rend="bold"><title xml:lang="ta">Piramāṉupavavivēkacamuttiram</title></emph>. Tamil foliation 151-195. Parallel Arabic foliation 151-195.</desc><desc xml:id="U4c">18 folios = <emph rend="bold"><title xml:lang="ta">Tattuvakkaṭṭaḷai</title></emph>. Tamil foliation 196-213. Parallel Arabic foliation 196-213.</desc><desc xml:id="U4d">1 folios = <emph rend="bold">Collection: Table of Contents</emph>. Tamil foliation 214. Parallel Arabic foliation 214.</desc><desc xml:id="U5">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Excellent state of preservation.</condition></supportDesc>
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent><foliation>Tamil foliation and parallel Arabic foliation (U4).</foliation><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">Collection: Table of Contents</emph>. No foliation. Verso blank.</desc><desc xml:id="U2">1 folio = <emph rend="bold"><title xml:lang="ta">Pañcatacappirakaraṇam</title>: Title Page</emph>. No foliation. Verso blank.</desc><desc xml:id="U3">1 folio = <emph rend="bold">TBC: Front Matter</emph> (6 stanzas). No foliation.</desc><desc xml:id="U4">214 folios = <emph rend="bold">Collection: Texts</emph>. Tamil foliation 1-214. Parallel Arabic foliation 1-214.</desc><desc xml:id="U4a">150 folios = <emph rend="bold"><title xml:lang="ta">Pañcatacappirakaraṇam</title></emph>. Tamil foliation 1-143.1, 143.2, 145-150. No folio foliated 144. Parallel Arabic foliation 1-150.</desc><desc xml:id="U4b">45 folios = <emph rend="bold"><title xml:lang="ta">Piramāṉupavavivēkacamuttiram</title></emph>. Tamil foliation 151-195. Parallel Arabic foliation 151-195.</desc><desc xml:id="U4c">18 folios = <emph rend="bold"><title xml:lang="ta">Tattuvakkaṭṭaḷai</title></emph>. Tamil foliation 196-213. Parallel Arabic foliation 196-213.</desc><desc xml:id="U4d">1 folios = <emph rend="bold">Collection: Table of Contents</emph>. Tamil foliation 214. Parallel Arabic foliation 214.</desc><desc xml:id="U5">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Excellent state of preservation.</condition></supportDesc>
                      <layoutDesc>
                         <layout writtenLines="6 7"/>
                      </layoutDesc>
@@ -117,11 +117,12 @@ This Ducler manuscript is described as number 1 in the second list of the catalo
     
      <pb facs="7" n="[1]r"/>
     
-    <seg function="header"><seg function="blessing"><milestone unit="left-margin"/>
+    <fw place="left-margin">
+      <seg function="blessing">
       <lb n="1"/><term xml:lang="sa">hari</term>
     <lb n="2"/>Ōm
       <lb n="3-4"/>naṉṟāka ~</seg>
-      </seg>
+      </fw>
     
     <seg function="title"><cb n="1"/>
       <lb n="1"/>vētāntacāstiram
@@ -138,11 +139,12 @@ This Ducler manuscript is described as number 1 in the second list of the catalo
     
      <pb facs="9" n="[1]r"/>     
     
-    <seg function="header"><seg function="blessing"><milestone unit="left-margin"/>
+   <fw place="left-margin">
+     <seg function="blessing">
       <lb n="1"/><term xml:lang="sa">hari</term>
     <lb n="2"/>Ōm
       <lb n="3-4"/>naṉṟāka ~</seg>
-      </seg>
+      </fw>
     
      <cb n="1"/>
       <lb n="1"/>Eḻutaritu munti yeḻutiya <gap reason="ellipsis"/>
@@ -197,109 +199,111 @@ This Ducler manuscript is described as number 1 in the second list of the catalo
     
      <pb facs="11" n="1r"/>
     
-    <seg function="header"><seg function="title"><milestone n="1" unit="left-margin"/>
+  <fw place="left-margin">
+    <seg function="title"><cb n="1"/>
       <lb n="1-4"/>pañcaticappiṟakaraṇam</seg>
       
-      <seg function="intertitle"><milestone n="2" unit="left-margin"/>
+      <seg function="intertitle"><cb n="2"/>
             <lb n="1"/>mutalā
             <lb n="2" break="no"/>vatu ci
       <lb n="3" break="no"/>ttira
       <lb n="4" break="no"/>tīpikai</seg>
       <seg function="blessing"><lb n="5" break="no"/>capāpati
       <lb n="6"/>tuṇai</seg>      
-      </seg>
+      </fw>
     
-    <seg function="incipit"><milestone unit="main-text-area"/>
+    <seg function="incipit">
      <lb n="1"/>vittiyāraṇṇiyacuvāmikaḷ lōkaṉukkiraka <gap reason="ellipsis"/></seg>                                          
-     <pb facs="66" n="28v"/>
-    <milestone unit="main-text-area"/>
+     <pb facs="66" n="28v"/> 
       <lb n="1"/><gap reason="ellipsis"/> <g ref="#pcl"/>
     
          <pb facs="67" n="29r"/>
-    <seg function="header"><seg function="intertitle"><milestone unit="left-margin"/>
+    <fw place="left-margin">
+      <seg function="intertitle">
       <lb n="1-3"/>Iraṇṭāvatu ~ tiṟatitīpikai ~<gap reason="ellipsis"/></seg>
-      </seg>
+      </fw>
     
     <pb facs="124" n="57v"/>
-    <milestone unit="main-text-area"/>
       <lb n="1-3"/><gap reason="ellipsis"/>
       <lb n="4"/><gap reason="ellipsis"/> <g ref="#pcl"/> <seg function="completion-statement"><seg function="blessing">capāpati tuṇai <g ref="#pcl"/></seg></seg>
     
              <pb facs="125" n="58r"/>
-    <seg function="header"><seg function="intertitle"><milestone unit="left-margin"/>
+    <fw place="left-margin">
+      <seg function="intertitle">
       <lb n="1-3"/>mūṉṟāvatu kūṭastattīpam</seg>
-      </seg>    
+      </fw>    
     
     <pb facs="145" n="68r"/>
-    <milestone unit="main-text-area"/>
       <lb n="1-5"/><gap reason="ellipsis"/>
       <lb n="6"/><seg function="completion-statement">mūṉṟāvatu kūṭattatīpikai muṟṟum <g ref="#pcl"/> <seg function="blessing">capāpati tuṇai <g ref="#pcl"/></seg></seg>
     
         <pb facs="146" n="68v"/><note xml:lang="en">blank</note>
 
          <pb facs="147" n="69r"/>
-    <seg function="header"><seg function="intertitle"><milestone unit="left-margin"/>
+    <fw place="left-margin"><seg function="intertitle">
       <lb n="1-5"/>nāṉkāvatu tiyāṉatīpikai ~</seg>
-      </seg>
+      </fw>
     
       <pb facs="175" n="83r"/>
-    <milestone unit="main-text-area"/>
       <lb n="1-6"/><gap reason="ellipsis"/>
       <lb n="7"/><seg function="completion-statement">naṉkāvatu tiyāṉatīpikai muṟṟum <g ref="#pcl"/> <seg function="blessing">capāpati tuṇai <g ref="#pcl"/></seg></seg>
     
             <pb facs="176" n="83v"/><note xml:lang="en">blank</note>
 
     <pb facs="177" n="84r"/>
-    <seg function="header"><seg function="intertitle"><milestone unit="left-margin"/>
+    <fw place="left-margin">
+      <seg function="intertitle">
       <lb n="1-3"/>Aintāvatu nāṭakatīpikai</seg>
-      </seg>
+      </fw>
     
     <pb facs="187" n="89r"/>
-    <seg function="header"><seg function="intertitle"><milestone unit="left-margin"/>
+    <fw place="left-margin"><seg function="intertitle">
       <lb n="1-4"/>Āṟāvatu tattuvavivēkam ~</seg>
-      </seg>
+      </fw>
     
     <pb facs="203" n="97r"/>
-    <seg function="header"><seg function="intertitle"><milestone unit="left-margin"/>
+    <fw place="left-margin"><seg function="intertitle">
       <lb n="1-3"/>Ēḻāvatu pañcapūtavivēkam ~</seg>
-      </seg>    
+      </fw>    
                 
     <pb facs="218" n="104v"/><note xml:lang="en">blank</note>
 
      <pb facs="219" n="105r"/>
-    <seg function="header"><seg function="intertitle"><milestone unit="left-margin"/>
+    <fw place="left-margin"><seg function="intertitle">
       <lb n="1-3"/>Eṭṭāvatu pañcakōcavivēkam ~</seg>
-      </seg>
+      </fw>
         
       <pb facs="226" n="108v"/><note xml:lang="en">blank</note>
 
     <pb facs="227" n="109r"/>
-    <seg function="header"><seg function="intertitle"><milestone unit="left-margin"/>
+    <fw place="left-margin"><seg function="intertitle">
       <lb n="1-4"/>Oṉpatāvatu tuvitavivēkam ~</seg>
-      </seg>
+      </fw>
     
     <pb facs="241" n="116r"/>
-    <seg function="header"><seg function="intertitle"><milestone unit="left-margin"/>
+   <fw place="left-margin">
+     <seg function="intertitle">
       <lb n="1-5"/>pattāvatu makāvak=kiyavivēkam</seg>
-      </seg>
+      </fw>
                 
     <pb facs="243" n="117r"/>
-    <seg function="header"><seg function="intertitle"><milestone unit="left-margin"/>
+    <fw place="left-margin">
+      <seg function="intertitle">
       <lb n="1-4"/>patiṉo<g ref="#double_kal">rā</g>vatu yōkāṉantam</seg>
-      </seg>
+      </fw>
 
          <pb facs="261" n="126r"/>
-    <seg function="header"><seg function="intertitle"><milestone unit="left-margin"/>
+    <fw place="left-margin">
+      <seg function="intertitle">
       <lb n="1-4"/>paṉireṇṭāvatu Ā<choice><sic>ṟmā</sic><corr>tmā</corr></choice>ṉantam <g ref="#pcs"/></seg>
-      </seg>
+      </fw>
 
 <pb facs="277" n="134r"/>
-    <seg function="header"><seg function="intertitle"><milestone unit="left-margin"/>
+    <fw place="left-margin"><seg function="intertitle">
       <lb n="1-5"/>patimūṉṟāvatu Attuvitāṉantam</seg>
-      </seg>
+      </fw>
     
     <pb facs="297" n="144r"/>
-    <milestone unit="main-text-area"/>
     <lb n="1-6"/><gap reason="ellipsis"/>
     <lb n="7"/><gap reason="ellipsis"/> <g ref="#pcl"/> <seg function="completion-statement">pati
     
@@ -307,12 +311,13 @@ This Ducler manuscript is described as number 1 in the second list of the catalo
     <lb n="1"/>mūṉṟāvatu Attuvitāṉanta muṟṟum <g ref="#pcs"/> <seg function="blessing">capāpati tuṇai <g ref="#pcl"/></seg></seg>
     
          <pb facs="303" n="147r"/>
-    <seg function="header"><seg function="intertitle"><milestone unit="left-margin"/>
+    <fw place="left-margin">
+      <seg function="intertitle">
       <lb n="1-5"/>patiṉaintāvatu viḻaiyānantam</seg>
-      </seg> 
+      </fw> 
     
          <pb facs="309" n="150r"/>
-    <seg function="explicit"><milestone unit="main-text-area"/>
+    <seg function="explicit">
         <lb n="1-3"/><gap reason="ellipsis"/>
         <lb n="4"/><gap reason="ellipsis"/> nirūpiccōm itu vāḻiyē cakalaru mōṭcam aṭaiyak kaṭavārkaḷ <g ref="#pcs"/></seg> <seg function="colophon"><seg function="blessing">śrīkurup
       <lb n="5"/>piyo namā <g ref="#pcl"/></seg> <seg function="completion-statement">pañcaticappiṟakaraṇa muṭintatu muṟṟum <g ref="#pcl"/></seg></seg>
@@ -324,39 +329,38 @@ This Ducler manuscript is described as number 1 in the second list of the catalo
   <ab>
     <pb facs="311" n="151r"/>
     
-    <seg function="header"><seg function="title"><milestone n="1" unit="left-margin"/>
+    <fw place="left-margin"><seg function="title">
       <lb n="1"/>piṟamāṉupava
       <lb n="2" break="no"/>vivēkacamut
       <lb n="3" break="no"/>tiram ~</seg> <seg function="intertitle">mutalā
       <lb n="4" break="no"/>vatu tiṭṭā
       <lb n="5" break="no"/>ntappiṟakara
       <lb n="6" break="no"/>ṇam </seg>
-      </seg>
+      </fw>
       
-      <seg function="incipit"><milestone unit="main-text-area"/>
+      <seg function="incipit">
        <lb n="1"/><gap reason="ellipsis"/></seg>
     
     <pb facs="341" n="166r"/>
-    <milestone unit="main-text-area"/>
       <lb n="1"/><gap reason="ellipsis"/>
       <lb n="2"/><gap reason="ellipsis"/> ~ <seg function="completion-statement">pañcamuttiṭṭānta muṟṟum ~ tiṭṭāntappiṟakaraṇa muṟṟum <g ref="#pcl"/></seg>
     
     <pb facs="342" n="166v"/><note xml:lang="en">blank</note>
     
     <pb facs="343" n="167r"/>
-    <seg function="header"><seg function="intertitle"><milestone unit="left-margin"/>
+    <fw place="left-margin"><seg function="intertitle">
       <lb n="1-5"/>Iraṇṭāvatu Āṟṟumavaṉupavappiṟakaraṇam ~</seg>
-      </seg> 
+      </fw> 
     
     <pb facs="380" n="185v"/>
-    <milestone unit="main-text-area"/>
       <lb n="1-2"/><gap reason="ellipsis"/>
       <lb n="3"/><gap reason="ellipsis"/> collappaṭṭutu ~ <seg function="completion-statement">Āṟṟumavaṉupavappiṟakaraṇa muṟṟum <g ref="#pcl"/> <seg function="blessing">kurupātamē tuṇai <g ref="#pcl"/></seg></seg>
     
     <pb facs="381" n="186r"/>
-    <seg function="header"><seg function="intertitle"><milestone unit="left-margin"/>
+    <fw place="left-margin">
+      <seg function="intertitle">
       <lb n="1-4"/>mūṉṟāvatu cīvaṉmuttippiṟakaraṇam ~</seg>
-      </seg> 
+      </fw> 
     
        <pb facs="399" n="195r"/>
     <seg function="explicit"><lb n="5"/><gap reason="ellipsis"/> ~ Ippaṭic cīvaṉ-mutti
@@ -369,11 +373,12 @@ This Ducler manuscript is described as number 1 in the second list of the catalo
   <ab>
 
     <pb facs="401" n="196r"/>
-    <seg function="header"><seg function="title"><milestone unit="left-margin"/>
+    <fw place="left-margin">
+      <seg function="title">
       <lb n="1-5"/>nāṉācivātakkaṭṭaḷai ~</seg>
-      </seg> 
+      </fw> 
     
-    <seg function="incipit"><milestone unit="main-text-area"/>
+    <seg function="incipit">
     <lb n="1"/><gap reason="ellipsis"/></seg>
     
        <pb facs="435" n="213r"/>

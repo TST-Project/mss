@@ -10,7 +10,7 @@
 
 			<publicationStmt>
 				<publisher>TST Project</publisher>
-				<date>2022</date>
+				<date>2023</date>
 			</publicationStmt>
 			<sourceDesc>
 				<msDesc>
@@ -36,20 +36,20 @@
 						
 					<objectDesc form="pothi" rend="manuscript">
 							<supportDesc material="palm-leaf">
-								<support>
+								
+								
+								
+								
+							<support>
 									
-								</support>
-								<extent>
+								</support><extent>
 									<measure unit="folio" quantity="31">{1} + {1} + 29 (U1 + U2 + U3).</measure>
 									<dimensions type="leaf" unit="mm">
 										<width min="290" max="295"/>
 
 										<height quantity="30"/>
 									</dimensions>
-									<dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
-								
-								
-							<collation>
+									<dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent><collation>
 									<desc xml:id="U1">1 folio = <emph rend="bold">Title Page (additional)</emph>. No foliation. Verso blank. 290 x 25 mm.
 </desc><desc xml:id="U2">1 folio = <emph rend="bold"><title xml:lang="ta">Patipacupācaviḷakkam</title>: Invocation</emph>. No foliation. Recto more dark = original outside page. 290 x 30 mm.
 
@@ -103,53 +103,51 @@
 	
 	
 	
-<text synch="#U1" corresp="#T1" xml:lang="ta">
-		<body>
+<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
 			<ab>
 				<pb facs="25" n="[1]r"/>
-				<seg function="blessing"><cb n="1"/>
+				
+              <fw place="left-margin">
+                <seg function="blessing">
 					<lb n="1"/>veṟṟivē
   <lb n="2" break="no"/>l uṟṟa tuṇai</seg>
-				<seg function="title"><cb n="2"/>
+				<seg function="title">
 					<lb n="1-2"/>patipacupācaviḷakkam</seg>
 				<pb facs="26" n="[1]v"/><note xml:lang="en">blank</note>
+                </fw>
 			</ab>
-		</body>
-
-	</text><text synch="#U2" corresp="#T2" xml:lang="ta">
+		</body></text><text synch="#U2" corresp="#T2" xml:lang="ta">
 		<body>
 			<ab>
 				<pb facs="27" n="[1]r"/>
-				<seg function="header">
-					<seg function="title">
-						<milestone unit="left-margin"/>
-						<lb n="1-3"/>patipacupācaviḷakkam
+<fw place="left-margin">
+  <seg function="title">
+    <lb n="1-3"/>patipacupācaviḷakkam
     </seg>
-				</seg>
+				</fw>
+              
 				<seg function="incipit">
-					<milestone unit="main-text-area"/>
 					<lb n="1"/><gap reason="ellipsis"/></seg>
 				<lb n="2-5"/><gap reason="ellipsis"/>
-				<pb facs="28" n="[1]v"/>
+				
+              <pb facs="28" n="[1]v"/>
 				<lb n="1-3"/><gap reason="ellipsis"/>
 				<seg function="explicit"><lb n="4"/><gap reason="ellipsis"/>ttaṟuḷē</seg> ~ <seg function="blessing">kuru-kaṭāṣcam Uṇṭāka tāka<g rend="below-base">vuM</g></seg>
 				<seg function="blessing">Aṇṇāmalaiyār tuṇai yāka<g rend="below-base">vuM</g></seg>
 			</ab>
-		</body>
-
-	</text><text synch="#U3" corresp="#T3" xml:lang="ta">
-		<body>
+		</body></text><text synch="#U3" corresp="#T3" xml:lang="ta"><body>
 			<ab>
 				<pb facs="28" n="1r"/>
-				<seg function="header">
-					<seg function="title">
-						<milestone unit="left-margin"/>
+<fw place="left-margin">
+  <seg function="title">
 						<lb n="1-2"/>naṉṟāka
       </seg>
-				</seg>
-				<seg function="incipit"><milestone unit="main-text-area"/>
+				</fw>
+              
+				<seg function="incipit">
 					<lb n="1"/><gap reason="ellipsis"/></seg>
 				<lb n="2-5"/><gap reason="ellipsis"/>
+              
 				<pb facs="58" n="29v"/>
 				<lb n="1-3"/><gap reason="ellipsis"/>
 				<seg function="explicit"><lb n="4"/><gap reason="ellipsis"/>
@@ -158,6 +156,4 @@
 				<seg function="TBC"><unclear>kaḷittamaṉattuṭaiyāciṉ moḻitta tēcīkāciṉiyī</unclear></seg>
 			</ab>
 
-		</body>
-
-	</text></TEI>
+		</body></text></TEI>
