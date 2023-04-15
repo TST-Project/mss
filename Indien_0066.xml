@@ -37,17 +37,17 @@
                   
                <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
-                        <extent>
+                        
+                        
+
+                        
+                     <extent>
                            <measure unit="folio" quantity="36">{1} + 35 (U1 + U2).</measure>
                            <dimensions type="leaf" unit="mm">
                               <width quantity="370"/>
                               <height quantity="35"/>
                            </dimensions>
-                        <dimensions type="object" unit="mm"><width quantity="370"/><height quantity="40"/><depth quantity="40"/></dimensions><dimensions type="written" unit="mm"/></extent>
-                        
-
-                        
-                     <collation>
+                        <dimensions type="object" unit="mm"><width quantity="370"/><height quantity="40"/><depth quantity="40"/></dimensions><dimensions type="written" unit="mm"/></extent><collation>
                         
                         
                         
@@ -110,14 +110,13 @@
   
     <pb facs="3" n="[1]r"/>
   
-  <seg function="header">
-    
-    <milestone n="1" unit="left-margin"/>
+    <fw place="left-margin">   
+    <cb n="1"/>
     <lb n="1"/><g ref="#pcs"/>
-    <seg function="blessing"><milestone n="2" unit="left-margin"/>
+    <seg function="blessing"><cb n="2"/>
   <lb n="1"/>veṟṟi-vē
   <lb n="2" break="no"/>l uṟṟa tuṇai</seg>
-    </seg>
+    </fw>
   
   <seg function="title"><cb n="1"/>
   <lb n="1"/>Iḵtu
@@ -126,9 +125,9 @@
   <lb n="1"/>tirumurukāṟṟup
   <lb n="2" break="no"/>paṭaikku<pc>-</pc>p 
   <lb n="3"/>parimēlaḻakiya
-  <lb n="4" break="no"/>r uraipāṭam</seg>
-    
-        <pb facs="4" n="[1]v"/><note xml:lang="en">blank</note>
+  <lb n="4" break="no"/>r uraipāṭam</seg>    
+   
+    <pb facs="4" n="[1]v"/><note xml:lang="en">blank</note>
 
       </ab>
 
@@ -137,16 +136,16 @@
 
       <pb facs="5" n="[1]r"/>
       
-      <seg function="header">
-        <milestone n="1" unit="left-margin"/>
+    <fw place="left-margin">
+        <cb n="1"/>
     <lb n="1"/><g ref="#pcl"/>
         
-        <seg function="blessing"><milestone n="2" unit="left-margin"/>
+        <seg function="blessing"><cb n="2"/>
   <lb n="1"/>tirucciṟ
   <lb n="2" break="no"/>ṟampalam</seg>
-      </seg>
+      </fw>
   
-  <seg function="satellite-stanza"><milestone unit="main-text-area"/>
+  <seg function="satellite-stanza">
   <lg><l><lb n="1"/>naṟkīrar tām uraitta naṉmurukāṟṟuppaṭaiyai<del><gap reason="illegible" quantity="1" unit="character"/></del>-c</l> <l>coṟkūṟanāvaṟṟutittork=ku
   <lb n="2"/>muṟkoli</l> <l>māmurukaṉ vantu maṉakkavalai tīrttaruḷi</l> <l>tāḷiṉaintat<pc>’</pc> ellāntarum</l></lg></seg>
   <seg function="satellite-stanza">
@@ -161,8 +160,7 @@
     <ab>
       
       <pb facs="7" n="1r"/>
-      <seg function="header">
-        <milestone unit="left-margin"/>
+    <fw place="left-margin">
         <seg function="foliation"><lb n="1"/>1</seg>
   <seg function="blessing"><lb n="2"/>tiruc
   <lb n="3" break="no"/>ciṟṟam
@@ -170,7 +168,7 @@
   <seg function="intertitle"><lb n="5"/>tiruppa
   <lb n="6" break="no"/>raṅkuṉ
   <lb n="7" break="no"/>ṟam <g ref="#pcs"/></seg>
-      </seg>
+      </fw>
   
   <seg function="incipit" type="root-text"><cb n="1"/>
   <lg><l><lb n="1"/><hi rend="bold">Ulaka muvappa valaṉērpu tiritaru</hi></l>
@@ -196,10 +194,9 @@
       <lb n="7"/>Ataṉṟi                        
       
       <pb facs="20" n="7v"/>
-      <seg function="header">
+    <fw place="left-margin">
   <seg function="intertitle">
-    <milestone unit="left-margin"/>
-  <lb n="1-2"/>tiruccentūr</seg></seg>      
+  <lb n="1-2"/>tiruccentūr</seg></fw>      
            
        <pb facs="29" n="12r"/>
         
@@ -230,15 +227,15 @@
    <note xml:lang="en">this intermediary total stanzas is distributed between the 2 columns</note></seg>
       
       <pb facs="41" n="18r"/>
-  <seg function="header">
-    <milestone n="1" unit="left-margin"/>
+    <fw place="left-margin">
+    <cb n="1"/>
     <lb n="1"/><g ref="#pcs"/>
     <seg function="foliation"><lb n="2"/><num rend="traditional">18</num></seg>
   <seg function="intertitle">
-    <milestone n="2" unit="left-margin"/>
+    <cb n="2"/>
   <lb n="1-2"/>tiruvērakam
     <note xml:lang="en">the two lines are grouped together by a curly bracket on the right</note>
-</seg></seg>
+</seg></fw>
       
       <pb facs="44" n="19v"/>
       
@@ -257,21 +254,20 @@
       <lb n="3"/><num rend="traditional">13</num>
    <note xml:lang="en">this intermediary total stanzas is distributed between the 2 columns</note></seg>
       
-      <seg function="intertitle">
-   <milestone unit="main-text-area"/>
-        <lb n="1"/>kuṉṟutōṟāṭal
+      <seg function="intertitle"><cb n="3"/>
+        <lb n="4"/>kuṉṟutōṟāṭal
         <note xml:lang="en">this word is framed</note>
         </seg>      
       
       <pb facs="45" n="20r"/>
-      <seg function="header">
-        <seg function="foliation"><milestone unit="left-margin"/>
+    <fw place="left-margin">
+        <seg function="foliation">
           <lb n="1"/><num rend="traditional">20</num></seg>      
         <seg function="verse-beginning"><lb n="2"/>paiṅ</seg>
         <lb n="3"/><g ref="#pcs"/>
       <seg function="intertitle">
   <lb n="4-6"/>kuṉṟutōṟāṭal</seg>
-        </seg>
+        </fw>
            
       <pb facs="50" n="22v"/>
       
@@ -288,19 +284,19 @@
    <note xml:lang="en">this intermediary total stanzas is distributed between the 2 columns</note></seg>
       
             <pb facs="51" n="23r"/>
-      <seg function="header">
-        <seg function="foliation"><milestone unit="left-margin"/><lb n="1"/>23</seg>
+    <fw place="left-margin">
+        <seg function="foliation"><lb n="1"/>23</seg>
         <lb n="2"/><g ref="#pcs"/>
   <seg function="intertitle"><lb n="3-5"/>cōlaimalai</seg>
-        </seg>
+        </fw>
       
   <pb facs="73" n="34r"/>
-  <seg function="header">
-  <seg function="blessing"><milestone unit="left-margin"/>
+    <fw place="left-margin">
+  <seg function="blessing">
   <lb n="1"/>civa
   <lb n="2" break="no"/>ma<g rend="below-base">yaM</g></seg>
   <seg function="foliation"><lb n="3"/>34</seg>
-    </seg>
+    </fw>
 
   <seg function="explicit" type="root-text">
     <cb n="1"/>
@@ -317,7 +313,7 @@
     <lb n="2"/><term xml:lang="en">{horizontal line}</term> <num rend="traditional">100</num> <term xml:lang="en">{horizontal line}</term></seg> 
    <note xml:lang="en">this intermediary total stanzas is distributed between the 2 columns</note>
       
-      <seg function="completion-statement"><milestone unit="main-text-area"/>
+      <seg function="completion-statement"><cb n="3"/>
   <lb n="1"/><note xml:lang="en">centred line</note> muṭintutu muṟṟum <g ref="#pcl"/></seg>
   
       <pb facs="74" n="34v"/>

@@ -9,7 +9,7 @@
          <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor><editor><persName>Eva WILDEN</persName><orgName>Universität Hamburg</orgName></editor></titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2022</date>
+            <date>2023</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -35,21 +35,21 @@
                   
                <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf palmyra">
-                        <support>
+                        
+                        
+                        
+                        
+                        
+                     <support>
                            
                            
-                        </support>
-                        <extent>
+                        </support><extent>
                            <measure unit="folio" quantity="179">{1} + 178 (U1 + U2).</measure>
                            <dimensions type="leaf" unit="mm">
                               <width quantity="400"/>
                               
                            <height min="30" max="35"/></dimensions>
-                        <dimensions type="object" unit="mm"><width quantity="400"/><height quantity="35"/><depth quantity="105"/></dimensions><dimensions type="written" unit="mm"/></extent>
-                        
-                        
-                        
-                     <collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">Title Page (additional)</emph>. No foliation. Verso blank. 400 x 30 mm.</desc><desc xml:id="U2">179 folios = <emph rend="bold"><title xml:lang="ta">Nālaṭiyār</title>: Text &amp; Commentary</emph>. Tamil foliation {1}, 2-31, 33-179. f7v, f179v blank. 400 x 35 mm.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Good condition with a few wormholes and some broken margins.</condition></supportDesc>
+                        <dimensions type="object" unit="mm"><width quantity="400"/><height quantity="35"/><depth quantity="105"/></dimensions><dimensions type="written" unit="mm"/></extent><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">Title Page (additional)</emph>. No foliation. Verso blank. 400 x 30 mm.</desc><desc xml:id="U2">179 folios = <emph rend="bold"><title xml:lang="ta">Nālaṭiyār</title>: Text &amp; Commentary</emph>. Tamil foliation {1}, 2-31, 33-179. f7v, f179v blank. 400 x 35 mm.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Good condition with a few wormholes and some broken margins.</condition></supportDesc>
                      <layoutDesc>
                         <layout writtenLines="6 7"/>
                      </layoutDesc>
@@ -99,16 +99,16 @@
   <ab>
           <pb facs="3" n="[1]r"/>
 
-    <seg function="header">
-      <seg function="blessing"><milestone unit="left-margin"/>       
+    <fw place="left-margin">
+      <seg function="blessing">       
 <lb n="1"/>hari Ōm</seg>
 <seg function="blessing"><lb n="2"/>naṉṟāka <g ref="#pcs"/></seg>
 <seg function="title"><lb n="3"/>tamiḻvēta
 <lb n="4" break="no"/>māṉa nā
 <lb n="5" break="no"/>laṭiyār urai <g ref="#pcs"/></seg>
-      </seg>
+      </fw>
     
-   <seg function="invocation"><milestone unit="main-text-area"/>
+   <seg function="invocation">
   <lg><l><lb n="1"/><unclear reason="vowel_unclear">vā</unclear><supplied reason="lost">kku</supplied>ṇṭām nalla maṉamūṇṭā māmalarāḷ</l>
 <l>ṉōkkuṇṭā mēṉi ṉuṭaṅkātu pūkkoṇṭa</l>
 <l>tuppar tirumēṉi tu<supplied reason="lost">m</supplied>
@@ -127,49 +127,59 @@ Atikārattu kaicelvanilaiyāmai Iḷaimainilai <gap reason="lost"/>
       <pb facs="11" n="7v"/><note xml:lang="en">blank</note>
 
       <pb facs="11" n="8r"/>
-      <seg function="header">
-        <seg function="title"><milestone unit="left-margin"/>
+    <fw place="left-margin">
+        <seg function="title">
           <lb n="1"/><g ref="#pcs"/> nālaṭi
           <lb n="2" break="no"/>yār</seg>
         <seg function="intertitle"><lb n="3"/>celvani
           <lb n="4" break="no"/>laiyā
           <lb n="5" break="no"/>mai <g ref="#pcs"/></seg>
-      </seg>
+      </fw>
     
-          <seg function="incipit" type="commentary"><milestone unit="main-text-area"/>          
+          <seg function="incipit" type="commentary">         
     <lb n="1"/>celvanilaiyāmai yakutāvatu celvaṅkoṇ ṭaṟañceyyavēṇumātaliṟ celva morupaṭi nilaiyāmaiyātaliṟ 
 <lb n="2"/>poruḷ niṟkkumeṉṟu karutāma liṉmaikkuppukaḻu maṟumaik kuṟutiyum viraintu ceytaṟ poruṭṭākiṟa celvanilaiyāmai <term xml:lang="en">{line-filler: small circle}</term>
     <lb n="3"/>yai yuṇarttappaṭṭatu <g ref="#pcs"/></seg> <seg function="incipit" type="root-text"><lg><l>Aṟucuvai yuṇṭi yamarnatillā ḷuṭṭa</l> <l>maṟucikai nīkkiyuṇ ṭārum ~ vaṟiñarāyc</l> <l>ce
     <lb n="4" break="no"/>ṉṟirappa rōriṭattuk kūḻeṉiṟ celvamoṉ</l> <l>ṟuṇṭāka vaikkappāṟ ṟaṉṟu <g ref="#pcs"/></l></lg></seg> Etu <g ref="#pcs"/> <gap reason="ellipsis"/>
     
           <pb facs="13" n="9r"/>
-    <seg function="blessing" cert="low"><milestone unit="left-margin"/><lb n="1"/>civā</seg>
+        <fw place="left-margin">
+<seg function="blessing" cert="low"><lb n="1"/>civā</seg>
+          </fw>
     
     <pb facs="17" n="12r"/>
-    <seg function="intertitle"><milestone unit="left-margin"/><lb n="1-3"/>Iḷamainilaiyāmai <g ref="#pcs"/></seg>
+        <fw place="left-margin">
+<seg function="intertitle"><lb n="1-3"/>Iḷamainilaiyāmai <g ref="#pcs"/></seg>
+          </fw>
     
     <pb facs="21" n="16r"/>
-    <seg function="intertitle"><milestone unit="left-margin"/><lb n="1-3"/>Iyākkainilaiyāmai |</seg>
+        <fw place="left-margin">
+<seg function="intertitle"><lb n="1-3"/>Iyākkainilaiyāmai |</seg>
+          </fw>
     
         <pb n="32"/><note xml:lang="en">folio missing</note>
 
  <pb facs="48" n="41r"/>
-    <seg function="intertitle"><milestone unit="left-margin"/><lb n="1-2"/>poṟaiyuṭamai</seg>
+        <fw place="left-margin">
+<seg function="intertitle"><lb n="1-2"/>poṟaiyuṭamai</seg>
+          </fw>
     
-    <milestone unit="main-text-area"/>
     <lb n="3"/><gap reason="ellipsis"/> <g ref="#pcs"/> Eṉpatu <g ref="#pcs"/> <gap reason="ellipsis"/>
     <lb n="4"/><gap reason="ellipsis"/> ḷ e
      <lb n="5" break="no"/>ṉṟa v<pc>-</pc>āṟu <g ref="#pcs"/> <num rend="traditional">10</num> <g ref="#pcs"/> <seg function="completion-statement">ciṉamiṉmai muṟṟum <g ref="#pcs"/></seg> {Āka} veṇpā <num rend="traditional">70</num> <seg function="correction">+<note xml:lang="en" place="foot">See interlinear and then right-marginal addition</note></seg> kotaiyaruvi <gap reason="ellipsis"/> 
       
       <pb facs="59" n="52r"/>
-       <seg function="intertitle"><milestone unit="left-margin"/><lb n="1-2"/>Īkai</seg>
+           <fw place="left-margin">
+<seg function="intertitle"><lb n="1-2"/>Īkai</seg>
+             </fw>
     
-      <milestone unit="main-text-area"/>
      <lb n="4"/><gap reason="ellipsis"/> y<pc>-</pc>eṉṟa v<pc>-</pc>āṟu <g ref="#pcs"/> <num rend="traditional">10</num> <g ref="#pcs"/> <seg function="completion-statement">piṟarmaṉai nayavāmai muṟṟum <g ref="#pcs"/></seg> <seg function="total-stanzas">{Āka} veṇpā <g ref="#pcs"/> <space/> <num rend="traditional">90</num> <g ref="#pcs"/></seg>
       <lb n="5"/>Īkai yaḵtāvatu <gap reason="ellipsis"/>
       
         <pb facs="183" n="174r"/>
-       <seg function="intertitle"><milestone unit="left-margin"/><lb n="1-3"/>kāmanutaliyal</seg>
+           <fw place="left-margin">
+<seg function="intertitle"><lb n="1-3"/>kāmanutaliyal</seg>
+             </fw>
     
           <pb facs="187" n="178r"/>
     <lb n="1"/>viyatu ~ <gap reason="ellipsis"/>
@@ -187,9 +197,7 @@ Atikārattu kaicelvanilaiyāmai Iḷaimainilai <gap reason="lost"/>
 <l>pāṅkaṉār ceṉṟa neṟi <g ref="#pcs"/></l></lg></seg>
     <seg function="explicit" type="commentary"><lb n="4"/>Eṉpatu <g ref="#pcs"/> yitu talaimakaḷ <gap reason="ellipsis"/>
     <lb n="5ff."/><gap reason="ellipsis"/>
-   
-
-    
+       
       <pb facs="188" n="179r"/>
 <lb n="1"/><gap reason="ellipsis"/>
        <lb n="2"/><gap reason="ellipsis"/> t<pc>'</pc> eṉṟa v<pc>-</pc>āṟu <g ref="#pcs"/> <num rend="traditional">10</num> <g ref="#pcl"/></seg> <seg function="colophon"><seg function="completion-statement">kāmanutaliyal muṟṟum <g ref="#pcs"/></seg> <seg function="total-stanzas">Āka veṇpā <num rend="traditional">400</num></seg> <seg function="completion-statement">Eḻuti muṭintatu muṟṟum <g ref="#pcs"/></seg> <seg function="blessing">tirucciṟṟampalam <g ref="#pcl"/></seg></seg>

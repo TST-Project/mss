@@ -8,7 +8,7 @@
          <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2022</date>
+            <date>2023</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -39,19 +39,19 @@ These works are often used for learning the Tamil alphabet as the aphorisms are 
                   
                <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
-                        <support>
+                        
+                        
+                        
+                        
+                     <support>
                            
-                        </support>
-                        <extent>
+                        </support><extent>
                            <measure unit="folio" quantity="20">7 + {2} + 11 (U1 + U2 + U3).</measure>
                            <dimensions type="leaf" unit="mm">
                               <width quantity="410"/>
                               <height quantity="25"/>
                            </dimensions>
-                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
-                        
-                        
-                     <collation>
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent><collation>
                         
                         
                         
@@ -114,36 +114,33 @@ These works are often used for learning the Tamil alphabet as the aphorisms are 
   <ab>
   
     <pb facs="3" n="[1]r"/>
-    <seg function="header">
+    <fw place="left-margin">
 <seg function="blessing">
-  <milestone n="1" unit="left-margin"/>
+  <cb n="1"/>
   <lb n="1"/>ha Om</seg>
   <seg function="blessing"><lb n="2"/>naṉṟāka</seg>
  <seg function="blessing"> <lb n="3"/>kuru vāḻka</seg>
   
-  <seg function="blessing"><milestone n="2" unit="left-margin"/>
+  <seg function="blessing"><cb n="2"/>
   <lb n="1"/>kuruvē tuṇai</seg>
-    </seg>
+    </fw>
   
   <seg function="invocation" cert="low">
-    <milestone unit="main-text-area"/>
     <lb n="1"/>Ātticūṭi y<pc>-</pc>amainta tēvarai y<pc>-</pc>yētti y<pc>-</pc>ētti toḻuvōm nāmē <g ref="#pcs"/>
     </seg>
     
         <pb facs="4" n="[1]v"/><note xml:lang="en">blank</note>
 
     </ab>
-</body>
-                    </text><text synch="#U1b" corresp="#T2" xml:lang="ta"><body>
+</body></text><text synch="#U1b" corresp="#T2" xml:lang="ta"><body>
   <ab>
         
       <pb facs="5" n="[1]r"/>
-        <seg function="header">
-
-      <seg function="blessing"><milestone unit="left-margin"/>
+    <fw place="left-margin">
+      <seg function="blessing">
   <lb n="1"/>naṉ
   <lb n="2" break="no"/>ṟāka</seg>
-      </seg>
+      </fw>
   
   <seg function="incipit"><cb n="1"/>
   <lb n="1"/>Aṟañ ceyal virumpu</seg>
@@ -168,23 +165,21 @@ These works are often used for learning the Tamil alphabet as the aphorisms are 
   <lb n="2"/>y<pc>-</pc>eḻutiṉatu Ātticuvaṭi <note xml:lang="en">that is <term xml:lang="ta">Ātticuṭi</term></note>
   <lb n="3"/><placeName xml:lang="ta" key="Pondicherry">putuvaiyil</placeName></seg>
       
-              <pb n="[6]v"/><note xml:lang="en">blank</note>
+    <pb n="[6]v"/><note xml:lang="en">blank</note>
 
       </ab>
-  </body>
-                     </text><text synch="#U2a" corresp="#T3" xml:lang="ta"><body>
+  </body></text><text synch="#U2a" corresp="#T3" xml:lang="ta"><body>
     <ab>
 
     <pb facs="17" n="[1]r"/>
-        <seg function="invocation" cert="low">
-
-    <lb n="1"/>koṉṟai<pc>-</pc>y vēntaṉ celvaṉ aṭiyiṉai y<pc>-</pc>eṉṟum ētti toḻuvōm yāmē <g ref="#pcs"/></seg>
       
-              <pb facs="18" n="[1]v"/><note xml:lang="en">blank</note>
+        <seg function="invocation" cert="low">
+    <lb n="1"/>koṉṟai<pc>-</pc>y vēntaṉ celvaṉ aṭiyiṉai y<pc>-</pc>eṉṟum ētti toḻuvōm yāmē <g ref="#pcs"/></seg>     
+              
+      <pb facs="18" n="[1]v"/><note xml:lang="en">blank</note>
 
   </ab>
-  </body>
-                    </text><text synch="#U2b" corresp="#T4" xml:lang="ta"><body>
+  </body></text><text synch="#U2b" corresp="#T4" xml:lang="ta"><body>
     <ab>
 
   <seg function="incipit">
@@ -209,5 +204,4 @@ These works are often used for learning the Tamil alphabet as the aphorisms are 
   <seg function="explicit"><lb n="3"/>ceyviṉai cey</seg>
   <note xml:lang="en">the manuscript stops short here</note>
      </ab>
-  </body>
-                    </text></TEI>
+  </body></text></TEI>

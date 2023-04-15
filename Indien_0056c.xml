@@ -35,17 +35,17 @@
                   
                <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
-                        <extent>
+                        
+                        
+                        
+                     <support/><extent>
                            <measure unit="folio" quantity="48">47 + {1} (U1 + U2).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
                            <width quantity="370"/><height quantity="30"/></dimensions>
                            <note>The leaves are broader in their middle than at their edges. </note>
-                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
-                        
-                        
-                     <support/><foliation>Partial Tamil foliation. No foliation after f10 (leaves cut to size?).</foliation><collation><desc xml:id="U1">48 folios = <emph rend="bold">TBC: Text &amp; Commentary</emph>. 2 incomplete Tamil foliation (unblackened, later added) for the first folios. Ends with the beginning of stanza 77. 370 x 30 mm.</desc><desc xml:id="U2">1 folio = <emph rend="bold">TBC</emph>. No foliation. Verso blank. Starts with the end of stanza 77. 370 x 30 mm. Verso more dark = original outside page.</desc></collation><condition>Good condition.</condition></supportDesc>
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent><foliation>Partial Tamil foliation. No foliation after f10 (leaves cut to size?).</foliation><collation><desc xml:id="U1">48 folios = <emph rend="bold">TBC: Text &amp; Commentary</emph>. 2 incomplete Tamil foliation (unblackened, later added) for the first folios. Ends with the beginning of stanza 77. 370 x 30 mm.</desc><desc xml:id="U2">1 folio = <emph rend="bold">TBC</emph>. No foliation. Verso blank. Starts with the end of stanza 77. 370 x 30 mm. Verso more dark = original outside page.</desc></collation><condition>Good condition.</condition></supportDesc>
                      <layoutDesc>
                         
                      </layoutDesc>
@@ -82,22 +82,21 @@
 <facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10463676h/manifest.json" facs="231"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   <ab>
     
-  <pb facs="231" n="1r"/><note xml:lang="en">library Arabic foliation 113r</note>
+  <pb facs="231" n="1r = lf 113r"/>
     
-    <seg function="header">
-      <seg function="blessing"><milestone unit="left-margin"/>  
+<fw place="left-margin">
+  <seg function="blessing">  
    <lb n="1-2"/>Aṉāti-na<term xml:lang="sa">maḥ</term></seg>
-    </seg>
+    </fw>
     
     <seg function="incipit">
-   <milestone unit="main-text-area"/>  
    <lb n="1"/>taruma miccinticcaiyālara veṉupi paciyiṉara<gap reason="ellipsis"/>lākkuc cattumīyāta vañciyarkaḷ tarumayaṟakiṭṭiṭṭu
       <lb n="2"/>māṟāta tuṉpamuṟu <gap reason="ellipsis"/>tēṭi nāṇi taṉilapiṟṟuṟṟu pēyākiya nanipakalaḷava cuttukkatanūlāṉ cin
       <lb n="3" break="no"/>tai melitaṟavaṟak keṭuppiṉṉōr kācumiṉṟi veṟumaiyiṉālē kāviṭai payiṭamariyaracai ko
       <lb n="4" break="no"/>ṇṭu poruḷ poruḷ eṉpa tatuṟṟa vara<gap reason="ellipsis"/>luḻaṉṟu palakavalai vaittuccattu mēlāṉavuṉa caraṇam niṉai
       <lb n="5" break="no"/>yāta kavataṉai tuyarkaḷē mīṟavampa ṉeṉaiyuṉa taruḷak kōttuṟṟa pērāka vaṉpu koṭukaruti yiraṭcikka
       
-      <pb facs="232" n="1v" break="no"/><note xml:lang="en">library Arabic foliation 113v</note>
+      <pb facs="232" n="1v = lf 113v" break="no"/>
       
       <lb n="1"/>c ceytēyaraḷaveṉṟi yaruḷpurivāyē Aruveṉ poṟpuṟṟa tāyāṉ maṅkai marivayaṟṟuṟa pattiyāyiṉa meṉpatavaḷa
       <lb n="2" break="no"/>riya kaṟpuk kaṟpamēvāmal vantulakil maṟaivētam mutteṉṟittavāyāl moḻi natirataraṇamata<gap reason="ellipsis"/> kūpattait tappiyīṭaṟē 
@@ -105,33 +104,32 @@
       <lb n="4" break="no"/>ppatti tūṟātu vempuka ṉalleriyiṭatatiṟkuk kukūkūkuva veṉṟa<del><gap reason="illegible" quantity="4" unit="character"/></del>laṟukaṇaiyāvu miṭukiṭara paṭṭuk kiyālerapa
       <lb n="5"/>miṉācavaku kuruciṭattiṟ paṭṭa nōvoṭu nērntariyayirukāttiṟṟait tū nīṭaraṇikoṇṭatorumutalōṉē = 1 = =</seg>
     
-      <pb facs="233" n="2r"/><note xml:lang="en">library Arabic foliation 114r</note>
+      <pb facs="233" n="2r = lf 114r"/>
    <lb n="1"/><gap reason="ellipsis"/> 
     
-     <pb facs="234" n="2v"/><note xml:lang="en">library Arabic foliation 114v</note>
+     <pb facs="234" n="2v = lf 114v"/>
    <lb n="5"/><gap reason="ellipsis"/> = 2 = = <gap reason="ellipsis"/>
     
-      <pb facs="324" n="[48]v"/><note xml:lang="en">library Arabic foliation 159v</note>
+      <pb facs="324" n="[48]v = lf 159v"/>
        <seg function="explicit">
           <lb n="1"/><num rend="traditional">77</num> <g ref="#pcs"/> <gap reason="ellipsis"/>
          <lb n="2"/><gap reason="ellipsis"/>
          <lb n="3"/><gap reason="ellipsis"/> pañcapulaṉkaḷil nāluyirka
          <lb n="4" break="no"/>korunañcun vantaṉa pōleṉak kuṟupantapavaṅkaḷ nivāraṇappaṭa varuḷa vāyē ~ neṇṭirai maṇṭiya kocaritti
          <lb n="5" break="no"/>ḷa vaṇṭalila vantu cōpamuṟṟuyir cintavumaṉṟoru cāpam niṟkaṟaka maruḷavōṉē – viṇṭala maṇṭala cōpaṉap pi
-         <lb n="6" break="no"/>ṟiyacanta tamaṉpu ceyvār tamakkuṟuvem piṇituṉpavikāra maṟṟuḷa viṉaitīra veṉṟi purantaruḷa kāruṇip piṟacaṅkacuya <note xml:lang="en">the text stops short here</note></seg>        
-   
+         <lb n="6" break="no"/>ṟiyacanta tamaṉpu ceyvār tamakkuṟuvem piṇituṉpavikāra maṟṟuḷa viṉaitīra veṉṟi purantaruḷa kāruṇip piṟacaṅkacuya <note xml:lang="en">the text stops short here</note></seg>           
 </ab>
 </body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
   <ab>
       
-    <pb facs="325" n="[1]r"/><note xml:lang="en">library Arabic foliation 160r</note>
+    <pb facs="325" n="[1]r = lf 160r"/>
     
     <lb n="1"/>piṟakā <gap reason="ellipsis"/> · 78 · <gap reason="ellipsis"/> <gap reason="lost"/>
 <lb n="2" break="no"/><gap reason="ellipsis"/> <gap reason="lost"/>
 <lb n="3"/>Atipatiyāṉ pukaṭci y<pc>-</pc>eṉra v<pc>-</pc>āṟu · <seg function="blessing">civaki<unclear reason="eccentric_ductus">ṭā</unclear>ṣcam</seg> <space/> <seg function="completion-statement">muṟṟum ·</seg> <seg function="copy-statement"><persName xml:lang="ta" role="scribe" key="Nārāyaṇa">nāṟāyaṉēṉ</persName> yeḻut=tu ·</seg> <gap reason="lost"/>
 
     
-    <pb facs="326" n="[1]r"/><note xml:lang="en">blank page</note>
+    <pb facs="326" n="[1]r = lf 160v"/><note xml:lang="en">blank page</note>
     
 </ab>
 </body></text></TEI>
