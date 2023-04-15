@@ -37,17 +37,17 @@
                   
                <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
-                        <extent>
+                        
+                        
+                        
+                     <support/><extent>
                            <measure unit="folio" quantity="174">{1} + 171 + {3} (U1 + U2 + U3).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
                            </dimensions>
                            <note>Some folios are smaller, e.g. U3, f105 (365 x 35 mm). </note>
-                        <dimensions type="object" unit="mm"><width quantity="410"/><height quantity="30"/></dimensions><dimensions type="written" unit="mm"/></extent>
-                        
-                        
-                     <support/><collation>
+                        <dimensions type="object" unit="mm"><width quantity="410"/><height quantity="30"/></dimensions><dimensions type="written" unit="mm"/></extent><collation>
                         
                         
                         
@@ -106,22 +106,22 @@
   <ab>
 
     <pb facs="3" n="[1]r"/>
-  <seg function="header">
-  <seg function="blessing"><milestone n="1" unit="left-margin"/>
+    <fw place="left-margin">
+  <seg function="blessing"><cb n="1"/>
   <lb n="1"/><gap reason="lost"/> <unclear>pa</unclear>kaṉ
   <lb n="2"/><gap reason="lost"/> ḷam
   <lb n="3"/><gap reason="lost"/> namo
   <lb n="4"/><supplied reason="lost"><pc>'</pc>s•t</supplied>tu</seg>
  
-  <seg function="blessing"><milestone n="2" unit="left-margin"/>
+  <seg function="blessing"><cb n="2"/>
   <lb n="1"/>śrī-ṟakuṉāyakar
   <lb n="2"/>cītālaṭcumi
   <lb n="3" break="no"/>kiṟupai Uṇṭāka
   <lb n="4"/>tākavum</seg>
   <seg function="intertitle"><lb n="5"/>pālakaṇṭam</seg>
-           </seg>
+           </fw>
 
-  <seg function="satellite-stanza"><milestone unit="main-text-area"/>
+  <seg function="satellite-stanza">
   <lb n="1"/>Āṉaimukaṉē <gap reason="ellipsis"/>
   <lb n="2"/>
   <lb n="3"/><gap reason="ellipsis"/> colluvēṉāṉ<g ref="#pcl"/></seg>
@@ -133,46 +133,59 @@
 
   <pb facs="5" n="[1]r"/>
   
-  <seg function="intertitle"><milestone unit="left-margin"/>
+      <fw place="left-margin">
+<seg function="intertitle">
   <lb n="1"/><g ref="#pcs"/> pāla
   <lb n="2" break="no"/>kāṇ
   <lb n="3" break="no"/>ṭam</seg>
+        </fw>
    
-  <seg function="incipit"><milestone unit="main-text-area"/>
+  <seg function="incipit">
   <lb n="1"/><gap reason="ellipsis"/></seg>
   
   <pb facs="31" n="14r"/>
-    <seg function="intertitle"><milestone unit="left-margin"/>
+        <fw place="left-margin">
+<seg function="intertitle">
   <lb n="1-4"/>Ayōttiyākāṇṭam</seg>
-  
-  <milestone unit="main-text-area"/>
-  <lb n="4"/><gap reason="ellipsis"/> = <seg function="completion-statement">śrīmatti-ṟāmāyaṇa-ṉāṭakam pālakāṇṭamuṟṟum =</seg> <seg function="TBC">śrī-cītā-laṭcumaṇa-parata
+  </fw>
+      
+   <lb n="4"/><gap reason="ellipsis"/> = <seg function="completion-statement">śrīmatti-ṟāmāyaṇa-ṉāṭakam pālakāṇṭamuṟṟum =</seg> <seg function="TBC">śrī-cītā-laṭcumaṇa-parata
   <lb n="5" break="no"/>catturu <gap reason="ellipsis"/> = śrī-ṟāmaccantirāya namakara <g ref="#pcs"/></seg> <seg function="total-stanzas">yinta kāṇṭam kāppu-viruttamum Oṉṟum nīṅkalāka maṟṟatu Avaiyaṭakkam pāyiran teyva-vaṇak
   	<lb n="6" break="no"/>kam Uḷpaṭa = <num rend="traditional">25</num> = viruttam = <num rend="traditional">24</num> <g ref="#pcs"/></seg> <seg function="completion-statement">Eḻuti niṟaintutu campūrṇam =</seg> <seg function="intertitle">yippāl Ayōttiyākāṇṭam <g ref="#pcs"/></seg> <space/>
   <seg function="intertitle"><lb n="7"/>viruttam =</seg> <gap reason="ellipsis"/>
 
   <pb facs="71" n="34r"/>
-  <seg function="intertitle"><milestone unit="left-margin"/>
+      <fw place="left-margin">
+<seg function="intertitle">
   <lb n="1-4"/>Āraṇṇiyākāṇṭam</seg>
+        </fw>
     
     <pb facs="107" n="52r"/>
-  <seg function="intertitle"><milestone unit="left-margin"/>
+      <fw place="left-margin">
+<seg function="intertitle">
   <lb n="1-3"/>kīṣki<unclear>n</unclear>tākāṇṭam</seg>
+        </fw>
   
     <pb facs="127" n="62r"/>
-  <seg function="intertitle"><milestone unit="left-margin"/>
+      <fw place="left-margin">
+<seg function="intertitle">
   <lb n="1-4"/>cuntarakāṇṭam</seg>
+        </fw>
   
     <pb facs="171" n="84r"/>
-  <seg function="intertitle"><milestone unit="left-margin"/>
+      <fw place="left-margin">
+<seg function="intertitle">
   <lb n="1-4"/>Uyittiyakāṇṭam</seg>
+        </fw>
   
    <pb facs="286" n="141r"/>
-  <seg function="intertitle"><milestone unit="left-margin"/>
+      <fw place="left-margin">
+<seg function="intertitle">
   <lb n="1-4"/>mūlapelac caṇṭai</seg>
     <milestone unit="main-text-area"/>
   <lb n="4"/><gap reason="ellipsis"/> = <seg function="intertitle">mūlapelac caṇṭai <g ref="#pcl"/></seg>
       <lb n="5"/>mūlapelac caṇṭai <gap reason="ellipsis"/>
+        </fw>
 
    <pb facs="347" n="171v"/>
   <seg function="explicit"><lb n="7"/><gap reason="ellipsis"/>  y<pc>-</pc>eṉru kaṭṭi koḷḷa = vaṇaṅki = =</seg>

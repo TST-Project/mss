@@ -39,20 +39,20 @@
                   
                <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
-                        <support>
+                        
+                        
+                     
+                     
+                     <support>
                            
                            
-                        <p>Regularly shaped. Rounded edges.</p></support>
-                        <extent>
+                        <p>Regularly shaped. Rounded edges.</p></support><extent>
                            <measure unit="folio" quantity="144">11 + 5 + 23 + 13 + 31 + 61 (U1 + U2 + U3 + U4 + U5 + U6).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
                            </dimensions>
-                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
-                     
-                     
-                     <foliation>Original continuous Arabic foliation 1-138. Secondary independent Tamil foliation for each work. </foliation><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent><foliation>Original continuous Arabic foliation 1-138. Secondary independent Tamil foliation for each work. </foliation><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.
        </desc><desc xml:id="U1">11 folios = <emph rend="bold"><title xml:lang="ta">Lekkam</title></emph>. 2 unfoliated folios + 9 foliated folios (Arabic foliation 1-9 and parallel Tamil foliation {1}, 2-9).
 </desc><desc xml:id="U1a">1 folio = <emph rend="bold"><title xml:lang="ta">Lekkam</title>: Title Page</emph>. No foliation.
 </desc><desc xml:id="U1b">1 folio = <emph rend="bold"><title xml:lang="ta">Lekkam</title>: Front Matter</emph> (Invocation). No foliation.
@@ -112,19 +112,21 @@
     
     <pb facs="5" n="[1]r"/>
     
-    <seg function="header"><seg function="blessing"><milestone unit="left-margin"/>
+    <fw place="left-margin">
+      <seg function="blessing">
       <lb n="1"/>harki
-      <lb n="2"/>Ōm</seg></seg>
+      <lb n="2"/>Ōm</seg></fw>
     
-    <seg function="invocation"><milestone unit="main-text-area"/>
+    <seg function="invocation">
 <lb n="1"/>yeṇṇilekkam taṉṉai yiyalpuṭaṉē yāṉ paṭikka
 <lb n="2"/>kaṇṇaṉ marukaṉ<gap reason="ellipsis"/> kaṇapati kāppu ~</seg> <seg function="blessing">tēvacakāyam</seg>
     
     <pb facs="7" n="1r"/>                
     
-    <seg function="header"><seg function="blessing"><milestone unit="left-margin"/>
+        <fw place="left-margin">
+<seg function="blessing">
       <lb n="1"/>ha<sic>ra</sic>
-      <lb n="2"/>Ōm</seg></seg>
+      <lb n="2"/>Ōm</seg></fw>
     
    <seg function="incipit"><cb n="1"/><gap reason="ellipsis"/></seg>
    
@@ -137,25 +139,27 @@
   <ab>
     
        <pb facs="25" n="[9]r-bis"/>
-    <seg function="title"><milestone unit="main-text-area"/>
+    <seg function="title">
     <lb n="1"/>nellilekkam</seg>
     
     <pb facs="26" n="[9]v-bis"/><note xml:lang="en">blank</note>
         
     <pb facs="27" n="10r"/>
-     <seg function="header"><seg function="blessing"><milestone unit="left-margin"/>
+         <fw place="left-margin">
+<seg function="blessing">
       <lb n="1"/>ha<sic>ra</sic>
-      <lb n="2"/>Ōm</seg></seg>
+      <lb n="2"/>Ōm</seg></fw>
     
-    <seg function="invocation"><milestone unit="main-text-area"/>
+    <seg function="invocation">
 <lb n="1"/>cī<g ref="#double_kal">rā</g>ṉa nel<supplied reason="omitted">li</supplied>lekkam ciṟappuṭaṉē yāṉ paṭikka
 <lb n="2"/>kāṟāṉa ṉāṉmu<supplied reason="omitted">ka</supplied>ttōṉ kaṇapati kāppu ~</seg> <seg function="blessing">tēvacakāyam</seg>
             
     <pb facs="28" n="10v"/><note xml:lang="en">blank</note>
 
     <pb facs="29" n="11r"/>
-    <seg function="header"><seg function="blessing"><milestone unit="left-margin"/>
-      <lb n="1-2"/>naṉṟāka</seg></seg>
+       <fw place="left-margin">
+<seg function="blessing">
+      <lb n="1-2"/>naṉṟāka</seg></fw>
     
    <seg function="incipit"><cb n="1"/><gap reason="ellipsis"/></seg>
         
@@ -170,17 +174,18 @@
   <ab>
     
     <pb facs="37" n="[14]r-bis"/>
-    <seg function="title"><milestone unit="main-text-area"/>
+    <seg function="title">
     <lb n="1"/>Eṇcuvaṭi</seg>    
     
     <pb facs="38" n="[14]v-bis"/><note xml:lang="en">blank</note>
     
        <pb facs="39" n="15r"/>
-     <seg function="header"><seg function="blessing"><milestone unit="left-margin"/>
+         <fw place="left-margin">
+<seg function="blessing">
       <lb n="1"/>ha<sic>ra</sic>
-      <lb n="2"/>Ōm</seg></seg>
+      <lb n="2"/>Ōm</seg></fw>
     
-    <seg function="invocation"><milestone unit="main-text-area"/>
+    <seg function="invocation">
 <lb n="1"/><gap reason="ellipsis"/>
 <lb n="2"/><gap reason="ellipsis"/>
       <lb n="3"/><gap reason="ellipsis"/></seg> <seg function="blessing">tēvacakā<g rend="below-base">yaM</g></seg>
@@ -188,8 +193,9 @@
     <pb facs="40" n="15v"/><note xml:lang="en">blank</note>
 
         <pb facs="41" n="16r"/>
-     <seg function="header"><seg function="blessing"><milestone unit="left-margin"/>
-      <lb n="1-2"/>naṉṟāka</seg></seg>
+         <fw place="left-margin">
+<seg function="blessing">
+      <lb n="1-2"/>naṉṟāka</seg></fw>
     
    <seg function="incipit"><cb n="1"/><gap reason="ellipsis"/></seg>
     
@@ -203,15 +209,16 @@
   <ab>
     
     <pb facs="83" n="[36]r-bis"/>
-    <seg function="title"><milestone unit="main-text-area"/>
-    <lb n="1"/>peruṅkuḻi<gap reason="ellipsis"/></seg>
+    <seg function="title">
+    <lb n="1"/>peruṅkuḻi</seg>
                         
     <pb facs="84" n="[36]v-bis"/><note xml:lang="en">blank</note>
 
     <pb facs="85" n="37r"/>
-      <seg function="header"><seg function="blessing"><milestone unit="left-margin"/>
+         <fw place="left-margin">
+<seg function="blessing">
       <lb n="1"/>ha<sic>ra</sic>
-      <lb n="2"/>Ōm</seg></seg>
+      <lb n="2"/>Ōm</seg></fw>
     
     <seg function="incipit"><cb n="1"/><gap reason="ellipsis"/></seg>
      
@@ -225,16 +232,17 @@
   <ab>
     
     <pb facs="109" n="[48]r-bis"/>
-    <seg function="title"><milestone unit="main-text-area"/>
+    <seg function="title">
     <lb n="1"/>ciṟukuḻi<gap reason="ellipsis"/></seg>
        
     <pb facs="110" n="[48]v-bis"/><note xml:lang="en">blank</note>
 
     <pb facs="111" n="49r"/>
     
-     <seg function="header"><seg function="blessing"><milestone unit="left-margin"/>
+         <fw place="left-margin">
+<seg function="blessing">
       <lb n="1"/>ha<sic>ra</sic>
-      <lb n="2"/>Ōm</seg></seg>
+      <lb n="2"/>Ōm</seg></fw>
         
     <seg function="incipit"><cb n="1"/><gap reason="ellipsis"/></seg>
 
@@ -250,18 +258,18 @@
     </ab>
   </body></text><text synch="#U6" corresp="#T6" xml:lang="ta"><body>
   <ab>
-
     
     <pb facs="173" n="79r"/>
     
-    <seg function="header"><seg function="blessing"><milestone unit="left-margin"/>
+        <fw place="left-margin">
+<seg function="blessing">
       <lb n="1"/>ha<sic>ra</sic>
       <lb n="2"/>Ōm</seg>
     <seg function="title"><lb n="3"/>kaṇak=ku
       <lb n="4"/>Atikāṟam</seg>
-      </seg>
+      </fw>
     
-    <seg function="satellite-stanza"><milestone unit="main-text-area"/>
+    <seg function="satellite-stanza">
 <lb n="1"/>yikkaṇakkil <gap reason="ellipsis"/>
 <lb n="2"/><gap reason="ellipsis"/> <g ref="#pcl"/></seg> <seg function="blessing">tēvacakāyam</seg>
     
@@ -270,17 +278,17 @@
     
     <pb facs="175" n="80r"/>
     
-    <seg function="header"><seg function="blessing"><milestone unit="left-margin"/>
+        <fw place="left-margin">
+<seg function="blessing">
       <lb n="1"/>ha<sic>ra</sic>
-      <lb n="2"/>Ōm</seg></seg>
+      <lb n="2"/>Ōm</seg></fw>
         
-    <seg function="incipit"><milestone unit="main-text-area"/>
+    <seg function="incipit">
       <lb n="1"/><gap reason="ellipsis"/></seg>
-
-    
+   
             
     <pb facs="292" n="138v"/>
-    <seg function="explicit"><milestone unit="main-text-area"/>
+    <seg function="explicit">
       <lb n="1-6"/><gap reason="ellipsis"/>
       <lb n="7"/><gap reason="ellipsis"/> <g ref="#end_of_text"/></seg> <seg function="blessing">tēvicakā<g rend="below-base">yaM</g><g ref="#end_of_text"/></seg> 
 
