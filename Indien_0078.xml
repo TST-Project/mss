@@ -9,7 +9,7 @@
          <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2022</date>
+            <date>2023</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -38,21 +38,21 @@
                   
                <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
-                        <support>
+                        
+                        
+                        
+                        
+                        
+                     <support>
                            
                            
-                        </support>
-                        <extent>
+                        </support><extent>
                            <measure unit="folio" quantity="29">15 + 14 (U1 + U2).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
                            <width quantity="430"/><height quantity="25"/></dimensions>
-                        <dimensions type="object" unit="mm"><width quantity="430"/><height quantity="25"/><depth quantity="25"/></dimensions><dimensions type="written" unit="mm"/></extent>
-                        
-                        
-                        
-                     <foliation>Tamil foliation 1-29. Tamil foliation 16-29 added.</foliation><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">15 folios = <emph rend="bold"><title xml:lang="ta">Cukirtamaṇimālai</title></emph>. Tamil foliation 1-15.</desc><desc xml:id="U1a">1 folio = <emph rend="bold"><title xml:lang="ta">Cukirtamaṇimālai</title>: Invocation</emph>. Tamil foliation 1. Verso blank.</desc><desc xml:id="U1b">14 folios = <emph rend="bold"><title xml:lang="ta">Cukirtamaṇimālai</title>: Text</emph>. Tamil foliation 2-15. f15v blank.</desc><desc xml:id="U2">14 folios = <emph rend="bold">TBC</emph>. </desc><desc xml:id="U2a">16 folios = <emph rend="bold">TBC: Invocation</emph>. Tamil foliation 16 (unblackened, added). f16v blank.</desc><desc xml:id="U2b">13 folios = <emph rend="bold">TBC: Invocation</emph>. Tamil foliation 17-29 (unblackened, added).</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Good state of preservation.</condition></supportDesc>
+                        <dimensions type="object" unit="mm"><width quantity="430"/><height quantity="25"/><depth quantity="25"/></dimensions><dimensions type="written" unit="mm"/></extent><foliation>Tamil foliation 1-29. Tamil foliation 16-29 added.</foliation><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">15 folios = <emph rend="bold"><title xml:lang="ta">Cukirtamaṇimālai</title></emph>. Tamil foliation 1-15.</desc><desc xml:id="U1a">1 folio = <emph rend="bold"><title xml:lang="ta">Cukirtamaṇimālai</title>: Invocation</emph>. Tamil foliation 1. Verso blank.</desc><desc xml:id="U1b">14 folios = <emph rend="bold"><title xml:lang="ta">Cukirtamaṇimālai</title>: Text</emph>. Tamil foliation 2-15. f15v blank.</desc><desc xml:id="U2">14 folios = <emph rend="bold">TBC</emph>. </desc><desc xml:id="U2a">16 folios = <emph rend="bold">TBC: Invocation</emph>. Tamil foliation 16 (unblackened, added). f16v blank.</desc><desc xml:id="U2b">13 folios = <emph rend="bold">TBC: Invocation</emph>. Tamil foliation 17-29 (unblackened, added).</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Good state of preservation.</condition></supportDesc>
                      <layoutDesc>
                         
                      <layout>Stanzas distributed <foreign xml:lang="ta">aṭi</foreign>-wise per line and final letter(s) indented to the right at the end of lines.</layout></layoutDesc>
@@ -90,16 +90,17 @@
     
   <pb facs="6" n="1r"/>
   
-    <seg function="blessing">
-      <milestone n="1" unit="left-margin"/>
+    <fw place="left-margin"><seg function="blessing">
+      <cb n="1"/>
   <lb n="1"/>Icēcu mari cūcai tuṇai</seg>
   
-  <seg function="title"><milestone n="2" unit="left-margin"/>
+  <seg function="title"><cb n="2"/>
   <lb n="1"/>cukiṟtamaṇimālai</seg>
 <seg function="intertitle"><lb n="2"/>kāppu</seg>
 <seg function="prosody"><lb n="3"/>veṇpā</seg>
+      </fw>
   
-  <seg function="satellite-stanza" cert="low"> <milestone unit="main-text-area"/>
+  <seg function="satellite-stanza" cert="low">
   <lg><l><seg function="incipit"><lb n="1"/>cukiṟta kuṟaḷ <gap reason="ellipsis"/> ~</seg></l> <l>cukuṟtamaṇi
   <lb n="2" break="no"/>mālai taṉaic colla ~ cukiṟta niṟai </l> <l>cuntara <gap reason="ellipsis"/>
   <lb n="3"/><gap reason="ellipsis"/></l> <l>tanta <gap reason="ellipsis"/></l></lg> <seg function="intertitle">kāppu <g ref="#pcl"/></seg></seg>
@@ -111,10 +112,12 @@
     
   <pb facs="12" n="2r"/>
   
-    <seg function="intertitle"><milestone unit="left-margin"/>
-  <lb n="1"/>pāyiram</seg>
+    <fw place="left-margin">
+      <seg function="intertitle">
+          <lb n="1"/>pāyiram</seg>
+      </fw>
   
-   <seg function="incipit"><milestone unit="main-text-area"/>
+   <seg function="incipit">
  <lb n="1"/>nalla moḻic cukiṟta kuṟaḷāka <gap reason="ellipsis"/></seg>
    <lb n="2"/><gap reason="ellipsis"/>
    <lb n="3"/><gap reason="ellipsis"/>
@@ -132,11 +135,12 @@
 <lb n="3"/>Aṉpatu</seg>
 
    <pb facs="20" n="3r"/>
-  <seg function="prosody"><milestone unit="left-margin"/>
+    <fw place="left-margin">
+  <seg function="prosody">
 <lb n="1"/>veṇpā</seg>
 <lb n="2"/><seg function="prosody">kalittuṟai</seg>
+      </fw>
   
-  <milestone unit="main-text-area"/>
   <lb n="1"/><gap reason="ellipsis"/>
   <lb n="2"/><gap reason="ellipsis"/> <g ref="#pcl"/> 1
   <lb n="3"/><gap reason="ellipsis"/>
@@ -144,13 +148,12 @@
   
     <pb facs="26" n="15r"/>
     
-    <milestone unit="left-margin"/>
+    <fw place="left-margin">
 <lb n="1"/><seg function="prosody">ve<ex>ṇpā</ex></seg>
 <lb n="2"/><seg function="prosody">kali<ex>ttuṟai</ex></seg>
+      </fw>
   
-        <milestone unit="main-text-area"/>
-
-  <lb n="1"/><gap reason="ellipsis"/>
+       <lb n="1"/><gap reason="ellipsis"/>
   <lb n="2"/><gap reason="ellipsis"/> = 49 <g ref="#pcs"/>
   <lb n="3"/><gap reason="ellipsis"/>
     <lb n="4"/><gap reason="ellipsis"/> = <num rend="traditional">50</num> =
@@ -161,11 +164,11 @@
   <ab>
   <pb facs="29" n="16r"/>
     
-  <seg function="intertitle" cert="low"><milestone unit="left-margin"/>
+  <fw place="left-margin"><seg function="intertitle" cert="low">
   <lb n="1-2"/>pulōkacammantam<note xml:lang="en" place="foot">unblackened</note></seg>
+    </fw>
   
   <seg function="satellite-stanza" cert="low">
-    <milestone unit="main-text-area"/>
   <lg><l><seg function="incipit"><lb n="1"/>koṟṟa <gap reason="ellipsis"/></seg></l> <l>yuṟra <gap reason="ellipsis"/></l>
     <l><lb n="2"/>muṟṟu<gap reason="ellipsis"/></l> <l>naṟṟa <gap reason="ellipsis"/> <g ref="#pcs"/></l></lg>
     </seg>
@@ -176,11 +179,12 @@
   <ab>
     
   <pb facs="34" n="17r"/>
-  <seg function="prosody"><milestone unit="left-margin"/>
+  <fw place="left-margin"><seg function="prosody">
 <lb n="1"/>veṇpā</seg>
 <lb n="2"/><seg function="prosody">kalittuṟai</seg>
+    </fw>
   
-  <seg function="incipit"><milestone unit="main-text-area"/>
+  <seg function="incipit">
   <lb n="1"/>Ātipāṉ ṟaṉṉai <gap reason="ellipsis"/></seg>
    <lb n="2"/><gap reason="ellipsis"/> <g ref="#pcl"/> 1 <g ref="#pcl"/>
    <lb n="3"/><gap reason="ellipsis"/>

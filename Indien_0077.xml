@@ -37,21 +37,21 @@
                   
                <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
-                        <support>
+                        
+                        
+                        
+                        
+                        
+                     <support>
                            
                            <p>Double leaves.</p>
-                        </support>
-                        <extent>
+                        </support><extent>
                            <measure unit="folio" quantity="7">{1} + {1} + 5 (U1 + U2 + U3).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
                            <width min="445" max="450"/><height quantity="25"/></dimensions>
-                        <dimensions type="object" unit="mm"><width quantity="450"/><height quantity="30"/><depth quantity="20"/></dimensions><dimensions type="written" unit="mm"/></extent>
-                        
-                        
-                        
-                     <collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold"><title xml:lang="ta">Ulakanīti</title>: Title Page</emph>. No foliation. Verso blank.  Shelfmark on recto. Two hands: hand  #1 (major) and hand #2 (minor; addition in left margin).</desc><desc xml:id="U2">1 folio = <emph rend="bold"><title xml:lang="ta">Ulakanīti</title>: Invocation</emph>. No foliation. Verso blank. Hand #1 (major).</desc><desc xml:id="U3">5 folios = <emph rend="bold"><title xml:lang="ta">Ulakanīti</title>: Text</emph>. Tamil foliation 1-4, {5}. Hand #1 (major).</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Good state of preservation.</condition></supportDesc>
+                        <dimensions type="object" unit="mm"><width quantity="450"/><height quantity="30"/><depth quantity="20"/></dimensions><dimensions type="written" unit="mm"/></extent><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold"><title xml:lang="ta">Ulakanīti</title>: Title Page</emph>. No foliation. Verso blank.  Shelfmark on recto. Two hands: hand  #1 (major) and hand #2 (minor; addition in left margin).</desc><desc xml:id="U2">1 folio = <emph rend="bold"><title xml:lang="ta">Ulakanīti</title>: Invocation</emph>. No foliation. Verso blank. Hand #1 (major).</desc><desc xml:id="U3">5 folios = <emph rend="bold"><title xml:lang="ta">Ulakanīti</title>: Text</emph>. Tamil foliation 1-4, {5}. Hand #1 (major).</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Good state of preservation.</condition></supportDesc>
                      <layoutDesc>
                         <layout columns="2" writtenLines="4"/>
                      </layoutDesc>
@@ -90,13 +90,15 @@ See item 16 (<quote xml:lang="fr">Justice du monde</quote>) in <title xml:lang="
   <ab>
   <pb facs="5" n="[1]r"/>
   
-    <milestone unit="left-margin"/><note xml:lang="en">by hand #2, minor</note>
+    <fw place="left-margin">
+      <note xml:lang="en">by hand #2, minor</note>
     <seg function="blessing"><lb n="1"/>civama<g rend="below-base">yaM</g></seg><g ref="#pcs"/>
     <seg function="ownership-statement"><lb n="2"/>Appaccāmi</seg> 
     <lb n="3"/><gap reason="ellipsis"/>
     <lb n="4"/><gap reason="ellipsis"/>
+      </fw>
     
-    <seg function="ownership-statement"><milestone unit="main-text-area"/>
+    <seg function="ownership-statement">
     <note xml:lang="en">by hand #1, major</note>
     <lb n="1"/>Appaccāmi</seg>
     <seg function="title"><lb n="2"/>Ulakanīti</seg> <g ref="#pcs"/>
@@ -108,13 +110,13 @@ See item 16 (<quote xml:lang="fr">Justice du monde</quote>) in <title xml:lang="
   
     <pb facs="8" n="[1]r"/>
   
-    <seg function="blessing">
-      <milestone unit="left-margin"/>
+    <fw place="left-margin">
+      <seg function="blessing">
     <lb n="1"/><term xml:lang="sa">hariḥ Om</term></seg>
+      </fw>
   
       <seg function="satellite-stanza" cert="low">
-        <milestone unit="main-text-area"/>
-    <lg><l><lb n="1"/>Ulakanīti-p purāṇattai Uṇmai-y<pc>-</pc>āy uraikkavē kalaikaḷ āyiraṅ kaṇapati kāppu <g ref="#pcs"/></l></lg></seg>  <seg function="blessing">civa-ma<g rend="below-base">yaM</g></seg>
+            <lg><l><lb n="1"/>Ulakanīti-p purāṇattai Uṇmai-y<pc>-</pc>āy uraikkavē kalaikaḷ āyiraṅ kaṇapati kāppu <g ref="#pcs"/></l></lg></seg>  <seg function="blessing">civa-ma<g rend="below-base">yaM</g></seg>
     
   <pb n="[1]v"/><note xml:lang="en">blank</note>
     </ab>
@@ -122,9 +124,11 @@ See item 16 (<quote xml:lang="fr">Justice du monde</quote>) in <title xml:lang="
   <ab>
   <pb facs="14" n="1r"/>
   
-  <seg function="blessing"><milestone unit="left-margin"/>
+  <fw place="left-margin">
+    <seg function="blessing">
     <lb n="1"/>naṉ
   <lb n="2" break="no"/>ṟāka</seg>
+    </fw>
   
     <seg function="incipit"><cb n="1"/>
     <lb n="1"/>Ōtāmal oruṉāḷum irukka vēṇṭām</seg>
