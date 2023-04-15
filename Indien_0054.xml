@@ -36,21 +36,21 @@
                   
                <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf palmyra">
-                        <support>
+                        
+                        
+                        
+                        
+                        
+                     <support>
                            
                            
-                        <p>Rounded edges.</p></support>
-                        <extent>
+                        <p>Rounded edges.</p></support><extent>
                            <measure unit="folio" quantity="377">{2} + 373 + {2} (U1 + U2 + U3) [2 blank folios + f1-f373 + 2 blank folios].</measure>
                            <dimensions type="leaf" unit="mm">
                               <width quantity="380"/>
                               <height quantity="35"/>
                            </dimensions>
-                        <dimensions type="object" unit="mm"><width quantity="380"/><height quantity="35"/><depth quantity="215"/></dimensions><dimensions type="written" unit="mm"/></extent>
-                        
-                        
-                        
-                     <foliation>Tamil foliation.</foliation><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">2 folios = <emph rend="bold">guard leaves</emph>. No foliation. Blank recto verso.</desc><desc xml:id="U2">373 folios = <emph rend="bold"><title xml:lang="ta">Tirukkuṟaḷ</title>: Text &amp; Commentary</emph>. Tamil foliation 1-373.</desc><desc xml:id="U3">2 folios = <emph rend="bold">guard leaves</emph>. No foliation. Blank recto verso.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Excellent state of preservation.</condition></supportDesc>
+                        <dimensions type="object" unit="mm"><width quantity="380"/><height quantity="35"/><depth quantity="215"/></dimensions><dimensions type="written" unit="mm"/></extent><foliation>Tamil foliation.</foliation><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">2 folios = <emph rend="bold">guard leaves</emph>. No foliation. Blank recto verso.</desc><desc xml:id="U2">373 folios = <emph rend="bold"><title xml:lang="ta">Tirukkuṟaḷ</title>: Text &amp; Commentary</emph>. Tamil foliation 1-373.</desc><desc xml:id="U3">2 folios = <emph rend="bold">guard leaves</emph>. No foliation. Blank recto verso.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Excellent state of preservation.</condition></supportDesc>
                      <layoutDesc>
                         <layout writtenLines="7"/>
                      </layoutDesc>
@@ -100,10 +100,12 @@
     
      <pb n="1r" facs="7"/>
     
-    <seg function="title"><milestone unit="left-margin"/>
+    <fw place="left-margin">
+      <seg function="title">
     <lb n="1"/>tiruvaḷḷuvar kuṟaḷ</seg>
+      </fw>
 
-    <seg function="satellite-stanza"><seg function="invocation"><milestone unit="main-text-area"/>
+    <seg function="satellite-stanza"><seg function="invocation">
      <lg><l><lb n="1"/>Eṇṇiya veṇṇiya veytupa kaṇṇutaṟ</l>
 <l>pavaḷa mālvarai payanta</l>
 <l>kavaḷa yāṉaiyiṉ kaḻalpaṇi vōrē</l>
@@ -117,10 +119,11 @@
 
      <pb n="3r" facs="11"/>
     
-    <seg function="title"><milestone unit="left-margin"/>
+    <fw place="left-margin"><seg function="title">
       <lb n="1"/>kuṟaḷ</seg>
+      </fw>
     
-    <seg function="incipit" type="root-text"><milestone unit="main-text-area"/>
+    <seg function="incipit" type="root-text">
       <lg><l><lb n="1"/>Akara mutala veḻuttellā māti</l>
 <l>pakavaṉ mutaṟṟē yulaku ~</l></lg></seg> <seg function="incipit" type="commentary">Etu ~ Akaramākiya mutalaiyuṭaiya veḻuttukkaḷellā matupōlavāti pakavaṉā
       <lb n="2" break="no"/>kiya mutalaiyuṭait tulakameṉṟavāṟu – Itu talaimaipaṟṟivanta veṭuttukkāṭṭuvamai</seg> ~ <gap reason="ellipsis"/>

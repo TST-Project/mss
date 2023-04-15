@@ -35,17 +35,17 @@
                   
                <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
-                        <support><p>Rounded edges. Unsual small dimensions for a Ducler manuscript, probably because of the layout designed for accommodating the <foreign xml:lang="ta">kuṟal</foreign>’s <foreign xml:lang="ta">aṭi</foreign>-wise.</p></support>
-                        <extent>
+                        
+                        
+                        
+                        
+                     <support><p>Rounded edges. Unsual small dimensions for a Ducler manuscript, probably because of the layout designed for accommodating the <foreign xml:lang="ta">kuṟal</foreign>’s <foreign xml:lang="ta">aṭi</foreign>-wise.</p></support><extent>
                            <measure unit="folio" quantity="136">{1} + {1} + 133 + {1} (U1 + U2 + U3 + U4).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
                            <width quantity="290"/><height quantity="25"/></dimensions>
-                        <dimensions type="object" unit="mm"><width quantity="290"/><height quantity="25"/><depth quantity="75"/></dimensions><dimensions type="written" unit="mm"/></extent>
-                        
-                        
-                     <foliation>Parallel Tamil and European foliation (U3).</foliation><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold"><title xml:lang="ta">Tirukkuṟaḷ</title>: Title Page</emph> (French). No foliation. Verso blank.</desc><desc xml:id="U2">1 folio = <emph rend="bold"><title xml:lang="ta">Tirukkuṟaḷ</title>: Title Page</emph> (Tamil). No foliation. Verso blank.</desc><desc xml:id="U3">133 folios = <emph rend="bold"><title xml:lang="ta">Tirukkuṟaḷ</title>: Text</emph>. Tamil foliation 1-133. Parallel Arabic foliation 1-133.</desc><desc xml:id="U4">1 folio = back <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Excellent state of preservation.</condition></supportDesc>
+                        <dimensions type="object" unit="mm"><width quantity="290"/><height quantity="25"/><depth quantity="75"/></dimensions><dimensions type="written" unit="mm"/></extent><foliation>Parallel Tamil and European foliation (U3).</foliation><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold"><title xml:lang="ta">Tirukkuṟaḷ</title>: Title Page</emph> (French). No foliation. Verso blank.</desc><desc xml:id="U2">1 folio = <emph rend="bold"><title xml:lang="ta">Tirukkuṟaḷ</title>: Title Page</emph> (Tamil). No foliation. Verso blank.</desc><desc xml:id="U3">133 folios = <emph rend="bold"><title xml:lang="ta">Tirukkuṟaḷ</title>: Text</emph>. Tamil foliation 1-133. Parallel Arabic foliation 1-133.</desc><desc xml:id="U4">1 folio = back <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Excellent state of preservation.</condition></supportDesc>
                   <layoutDesc><layout writtenLines="5">Stanzas distributed <foreign xml:lang="ta">aṭi</foreign>-wise per line and final letter(s) and verse number indented to the right at the end of lines.</layout></layoutDesc></objectDesc><handDesc>
                      
                   <handNote synch="#U1" scope="sole" script="latin" medium="incised soot"><desc>Hand #1. <persName role="scribe">Ducler's scribe</persName>.</desc></handNote><handNote synch="#U2 #U3" scope="sole" script="tamil" medium="incised soot"><desc>Hand #1. <persName role="scribe">Ducler's scribe</persName>. Traditional script with modern <foreign xml:lang="ta">ṟa</foreign>. </desc></handNote></handDesc><additions><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF current shelfmark sticker (covering an older sticker): <quote>INDIEN 52</quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#U3" type="intertitle" subtype="marginal left">Left-marginal intertitles (names of the decades). See selection below.</desc><desc synch="#U3" type="verse-numbering">Verses are numbered from 1 to 10, by decade.</desc></additions><bindingDesc>
@@ -94,19 +94,19 @@
 
   <pb facs="5" n="[1]r"/>
   
-  <seg function="header">
-    <seg function="blessing"><milestone n="1" unit="left-margin"/>
-  <lb n="1"/><term xml:lang="sa">ha</term>ri Ōm</seg>
-<seg function="blessing"><lb n="2"/>naṉṟāka</seg>
-<seg function="blessing"><lb n="3"/>kuru vāḻka</seg>
-<seg function="blessing"><lb n="4"/>kuruvē tuṇai</seg>
+    <fw place="left-margin">
+    <seg function="blessing"><cb n="1"/>
+  <lb n="1"/><term xml:lang="sa">ha</term>ri Ōm
+      <lb n="2"/>naṉṟāka
+      <lb n="3"/>kuru vāḻka
+      <lb n="4"/>kuruvē tuṇai</seg>
 
-      <seg function="title"><milestone n="1" unit="left-margin"/>
+      <seg function="title"><cb n="2"/>
   <lb n="1"/>tiruvaḷḷuva
 <lb n="2" break="no"/>nāyanār kuṟaḷ</seg>         
-        </seg>
+        </fw>
   
-  <seg function="TBC"><milestone n="1" unit="main-text-area"/>
+  <seg function="TBC">
   <lb n="1"/>kaṭukaittuḷaittu veḻukaṭalaip pukaṭṭik kuṟukattaṟitta kuṟaḷ <g ref="#pcl"/></seg>
                      
       <pb facs="6" n="[1]v"/><note xml:lang="en">blank</note>
@@ -117,35 +117,36 @@
 
   <pb facs="7" n="1r"/>
   
-  <seg function="header">
-    <seg function="intertitle"><milestone unit="left-margin"/>
+    <fw place="left-margin">
+    <seg function="intertitle">
   <lb n="1"/>Aṟattuppāl</seg>
-    <seg function="intertitle"><lb n="2"/>kaṭavuḷ
+    <seg function="intertitle">
+      <lb n="2"/>kaṭavuḷ
       <lb n="3"/>vāḻttu</seg>
-    </seg>
+    </fw>
       
-      <seg function="incipit"><milestone unit="main-text-area"/>
+      <seg function="incipit">
   <lg><l><lb n="1"/>Akara mutala veḻuttellā māti</l> <l>pakavaṉ mutaṟṟē yulaku  1</l></lg></seg>
       <lb n="2"/><gap reason="ellipsis"/>  
-      
+     
       
        <pb facs="9" n="2r"/>  
-  <seg function="header">
-    <seg function="intertitle"><milestone unit="left-margin"/>
+    <fw place="left-margin">
+    <seg function="intertitle">
   <lb n="1-2"/>vāṉ ciṟappu</seg>
-    </seg>
+    </fw>
       
        <pb facs="11" n="3r"/>  
-  <seg function="header">
-    <seg function="intertitle"><milestone unit="left-margin"/>
+    <fw place="left-margin">
+    <seg function="intertitle">
   <lb n="1-2"/>nīttār perumai</seg>
-    </seg>
+    </fw>
       
   
   <pb facs="272" n="133v"/>
       <lb n="1-4"/><gap reason="ellipsis"/>
       <seg function="explicit"><lg><l><lb n="5"/>Ūṭutal kāmattiṟ kiṉpa mataṟkiṉpaṅ</l> <l>kūṭi muyaṅkap peṟiṉ ~ <space/> <num rend="traditional">10</num> ~</l></lg></seg>
-      <seg function="total-stanzas"><lb n="5"/>{Āka} kuṟaḷ ~ <seg function="total-works">Atikāram ~ <num rend="traditional">133</num>k=ku</seg> cūttiram ~ <num rend="traditional">1330</num> <g ref="#pcl"/></seg>
+      <seg function="total-stanzas"><lb n="6"/>{Āka} kuṟaḷ ~ <seg function="total-works">Atikāram ~ <num rend="traditional">133</num>k=ku</seg> cūttiram ~ <num rend="traditional">1330</num> <g ref="#pcl"/></seg>
   
       </ab>
   </body></text></TEI>

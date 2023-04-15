@@ -9,7 +9,7 @@
          <editor><persName>Eva WILDEN</persName><orgName>Universität Hamburg</orgName></editor></titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2022</date>
+            <date>2023</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -36,28 +36,28 @@
                   
                <objectDesc form="codex" rend="manuscript">
                      <supportDesc material="paper">
-                        <support>
+                        
+                        
+                        
+                        
+                        
+                     <support>
                            
                            <p>Good-quality creamy paper.</p>
-                        </support>
-                        <extent>
+                        </support><extent>
                            <measure unit="folio" quantity="276">{2} + {1} + 271 + {2} (u1 + u2 + U1 + u3).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
                            <width quantity="110"/><height quantity="180"/></dimensions>
-                        <dimensions type="object" unit="mm"><width quantity="120"/><height quantity="185"/><depth quantity="30"/></dimensions><dimensions type="written" unit="mm"/></extent>
-                        
-                        
-                        
-                     <collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="u1">2 folios = <emph rend="bold">guard leaves</emph>. No foliation. Element of library binding.</desc><desc xml:id="u2">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Element of original book.</desc><desc xml:id="U1">271 folios = <emph rend="bold"><title xml:lang="ta">Tirukkuṟaḷ</title>: Text &amp; Commentary</emph>. Library Arabic foliation 1-271. f265v and following folios blank.</desc><desc xml:id="u3">2 folios = <emph rend="bold">guard leaves</emph>. No foliation. Element of library binding.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Very good condition, except for binding.</condition></supportDesc>
+                        <dimensions type="object" unit="mm"><width quantity="120"/><height quantity="185"/><depth quantity="30"/></dimensions><dimensions type="written" unit="mm"/></extent><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="u1">2 folios = <emph rend="bold">guard leaves</emph>. No foliation. Element of library binding.</desc><desc xml:id="u2">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Element of original book.</desc><desc xml:id="U1">271 folios = <emph rend="bold"><title xml:lang="ta">Tirukkuṟaḷ</title>: Text &amp; Commentary</emph>. Library Arabic foliation 1-271. f265v and following folios blank.</desc><desc xml:id="u3">2 folios = <emph rend="bold">guard leaves</emph>. No foliation. Element of library binding.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Very good condition, except for binding.</condition></supportDesc>
                      <layoutDesc>
                         <layout writtenLines="17 19">Very pale frame and ruling.</layout>
                      </layoutDesc>
                   </objectDesc><handDesc><handNote synch="#U1" scope="sole" script="tamil" scriptRef="#tamilPulliSporadic #tamilPreReform #tamilOE" medium="ink brown pencil"><desc>Pencil and brownish ink. Well-trained transitional script: ancient and modern <foreign xml:lang="ta">ṟa</foreign>; sporadic <foreign xml:lang="ta">puḷḷi</foreign>; double <foreign xml:lang="ta">kompu</foreign>; <foreign xml:lang="sa">sandhi</foreign> partly undone; European punctuation.</desc></handNote></handDesc><decoDesc><decoNote synch="#CoverFront #CoverBack" type="decorative"><desc>Gold printed edging.</desc></decoNote></decoDesc><additions>
-                  <desc synch="#CoverFront" type="shelfmark">Current BnF shelfmark sticker: <quote>INDIEN 47</quote> (<locus facs="2">front cover, recto</locus>).</desc><desc synch="#u1" type="shelfmark">BnF old shelfmark in black pencil (<locus facs="5">guard leaf</locus>): <quote xml:lang="fr">Tamoul N° 47</quote></desc><desc synch="#u2" type="title">Title in black pencil (<locus facs="7">title page</locus>): 
+                  <desc synch="#CoverFront" type="shelfmark">Current BnF shelfmark sticker: <quote>INDIEN 47</quote> (<locus facs="2">front cover, recto</locus>).</desc><desc synch="#u1" type="shelfmark">BnF old shelfmark in black pencil (<locus facs="5">guard leaf</locus>): <quote xml:lang="fr">Tamoul N° 47</quote></desc><desc synch="#u2" type="title">Title in black pencil: 
 <quote rend="block">
-  <pb n="[1]r"/>
+  <pb facs="7" n="[1]r"/>
   <lb n="1"/>Tiruvalluvar
   <lb n="2"/>Tiruvaḷḷuvar kuṟaḷ
 </quote></desc><desc synch="#U1" type="stamp" subtype="beginning">Stamp of the <quote xml:lang="fr">BIBLIOTHEQUE ROYALE</quote> (<locus facs="9">f1r</locus>, <locus facs="537">f265r</locus>).</desc><desc synch="#U1" type="catchword" subtype="bottom left right"/><desc synch="#U1" type="intertitle">Chapter headings.</desc></additions><bindingDesc>
@@ -94,10 +94,10 @@
     
     <pb n="1r" facs="9"/>
     
-    <milestone unit="left-margin"/>     
-      <lb n="1"/>I
-    
-        <milestone unit="main-text-area"/>     
+        <fw place="left-margin">
+          <lb n="1"/>I
+          </fw>    
+        
       <lb n="1-2"/><note xml:lang="en">centred lines</note>
       <seg function="title"><lb n="1"/>tiruvaḷḷuvar kuṟaḷ</seg>
 <seg function="intertitle"><lb n="2"/>kāppu</seg>

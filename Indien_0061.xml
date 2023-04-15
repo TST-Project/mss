@@ -37,21 +37,21 @@
                   
                <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf palmyra">
-                        <support>
+                        
+                        
+                        
+                        
+                        
+                     <support>
                            
                            
-                        <p>Rounded edges.</p></support>
-                        <extent>
+                        <p>Rounded edges.</p></support><extent>
                            <measure unit="folio" quantity="174">{3} + 169 + {2} (U1 + U2 + U3).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
                            <width quantity="380"/><height quantity="35"/></dimensions>
-                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
-                        
-                        
-                        
-                     <foliation>Tamil foliation (U2).</foliation><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">3 folios = <emph rend="bold">guard leaves</emph>. No foliation. Blank recto verso, except for a <foreign xml:lang="ta">piḷḷaiyār cūḻi</foreign> in the left margin of <locus facs="5">f[2]r</locus>.
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent><foliation>Tamil foliation (U2).</foliation><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">3 folios = <emph rend="bold">guard leaves</emph>. No foliation. Blank recto verso, except for a <foreign xml:lang="ta">piḷḷaiyār cūḻi</foreign> in the left margin of <locus facs="5">f[2]r</locus>.
 
     </desc><desc xml:id="U2">169 folios = <emph rend="bold"><title xml:lang="ta">Nālaṭiyār</title></emph>. Tamil foliation 1-169. 
     </desc><desc xml:id="U2a">5 folios = <emph rend="bold"><title xml:lang="ta">Nālaṭiyār</title>: Commentary</emph> (<title xml:lang="ta">Atikāra Aṭaivu Urai</title>). Tamil foliation 1-5. 
@@ -144,12 +144,12 @@
   <ab>
     
     <pb facs="9" n="1r"/>
-     <seg function="header">
-       <seg function="title"><milestone unit="left-margin"/>
+     <fw place="left-margin">
+       <seg function="title">
     <lb n="1-5"/>nālaṭiyār Atikāra Aṭaivu Urai</seg>
-       </seg>
+       </fw>
     
-    <seg function="satellite-stanza"><milestone unit="main-text-area"/>       
+    <seg function="satellite-stanza">
   <lg><l><lb n="1"/>māviṉa marukā matakaḷiṟē māṟāmaṟ</l>
 <l>pālamuta mōṭu paḻamiṭuveṉ – cālavē</l>
 <l>nālaṭi nāṉūṟu naḻuvāma leṉmaṉattē</l>
@@ -168,13 +168,13 @@
   <ab>
         
     <pb facs="19" n="6r"/>
-    <seg function="header">
-    <seg function="intertitle"><milestone unit="left-margin"/>
+    <fw place="left-margin">
+    <seg function="intertitle">
       <lb n="1"/>Aṟappāl</seg>
       <seg function="intertitle"><lb n="2"/>kaṭavuḷ vā
          <lb n="3" break="no"/>ḻttu ~</seg> <seg function="title">nāla
         <lb n="4" break="no"/>ṭiyār urai</seg>
-      </seg>
+      </fw>
 
      <seg function="satellite-stanza">
 <lg><l><lb n="1"/>māviṉa marukā matakaḷiṟē māṟāmaṟ</l>
@@ -199,10 +199,11 @@ vāṉiṭu villiṉ varavaṟi<lb n="7" break="no"/>yā vāymaiyāl ~ vāṉi�
       <lb n="1"/>kiya vēṭṭuṟuppukaḷum muntum paṭikku orumaiyuṭaṉ vaṇakkañ ceytu ~</seg> <gap reason="ellipsis"/>
     
     <pb facs="21" n="7r"/>
-         <seg function="verse-beginning"><milestone unit="left-margin"/>
+         <fw place="left-margin">
+           <seg function="verse-beginning">
       <lb n="1"/>Aṟucu</seg>
-    
-    <milestone unit="main-text-area"/>
+           </fw>
+       
     <lb n="1-6"/><gap reason="ellipsis"/>
     <lb n="7"/><gap reason="ellipsis"/> <seg function="incipit" type="root-text">Aṟucuvai <gap reason="ellipsis"/></seg>
 

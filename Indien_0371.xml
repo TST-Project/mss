@@ -42,19 +42,19 @@
                   
                <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
-                        <support>
+                        
+                        
+                        
+                        
+                     <support>
                            
-                        </support>
-                        <extent>
+                        </support><extent>
                            <measure unit="folio" quantity="14">{1} + 13 (U1 + U2).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               <height quantity="30"/>
                            <width quantity="390"/></dimensions>
-                           <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
-                        
-                        
-                     <collation>
+                           <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent><collation>
                            
                         <desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold"><title xml:lang="ta">Mūttayyaṉ Piḷḷaittamiḻ</title>: Invocation (1 satellite stanza)</emph>. No foliation. Verso blank. 390 x 30 mm.</desc><desc xml:id="U2">13 folios = <emph rend="bold"><title xml:lang="ta">Mūttayyaṉ Piḷḷaittamiḻ</title>: Text</emph>. Tamil foliation {1}, 2, 4-14. f3 missing (text discontinuous). 390 x 30 mm.
 </desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Relatively good state of preservation.</condition></supportDesc>
@@ -124,11 +124,12 @@ See item 21 (<quote xml:lang="fr">Histoire de Mouttiyen</quote>) in <title xml:l
       <ab>
         
   <pb facs="5" n="[1]r"/>
-  <seg function="blessing">
-  <milestone unit="left-margin"/>
+  <fw place="left-margin">
+    <seg function="blessing">
   <lb n="1"/><term xml:lang="sa">hariḥ Om</term></seg>
+    </fw>
   
-    <seg function="satellite-stanza"><milestone unit="main-text-area"/>
+    <seg function="satellite-stanza">
   <lb n="1"/>vēḷūr vināyakaṉē <gap reason="ellipsis"/>
   <lb n="2"/><gap reason="ellipsis"/> ~</seg> <seg function="blessing">civacaṅkaraṉ</seg> <seg function="TBC">māṇikkam <note xml:lang="en">unblackened, addition</note></seg>
     
@@ -139,11 +140,12 @@ See item 21 (<quote xml:lang="fr">Histoire de Mouttiyen</quote>) in <title xml:l
     <ab>  
       
   <pb facs="9" n="[1]r"/>
-  <seg function="title">
-  <milestone unit="left-margin"/>
+  <fw place="left-margin">
+    <seg function="title">
   <lb n="1-3"/>muttayyaṉ <sic>pu</sic>ḷḷait tamiḻ</seg>
+    </fw>
   
-  <seg function="incipit"><milestone unit="main-text-area"/>
+  <seg function="incipit">
   <lb n="1"/><gap reason="ellipsis"/>
   <lb n="3-5"/><gap reason="ellipsis"/>
   <lb n="6"/><gap reason="ellipsis"/> ~ 1 ~</seg> <gap reason="ellipsis"/>
@@ -151,36 +153,38 @@ See item 21 (<quote xml:lang="fr">Histoire de Mouttiyen</quote>) in <title xml:l
   <pb n="3"/><note xml:lang="en">missing folio</note>
   
   <pb facs="16" n="5v"/>
-  <seg function="intertitle"><milestone unit="left-margin"/>
+  <fw place="left-margin">
+    <seg function="intertitle">
   <lb n="1-2"/>ceṅkīṟai <note xml:lang="en">unblackened</note></seg>
+    </fw>
   
-  <milestone unit="main-text-area"/>
   <lb n="1-5"/><gap reason="ellipsis"/>
        <lb n="6"/><gap reason="ellipsis"/> ~ <num rend="traditional">11</num> ~ <seg function="completion-statement">kāppu muṟṟum –</seg> <gap reason="ellipsis"/>
   
    <pb facs="20" n="8v"/>
   
-  <seg function="intertitle"><milestone unit="left-margin"/>
+      <fw place="left-margin">
+  <seg function="intertitle">
   <lb n="1"/>tāl <note xml:lang="en">unblackened</note></seg>
+        </fw>
   
-  <milestone unit="main-text-area"/>
   <lb n="1-3"/><gap reason="ellipsis"/>
        <lb n="4"/><gap reason="ellipsis"/> ~ <num rend="traditional">10</num> ~ <seg function="completion-statement">ceṅkīrai muṟṟum ~</seg> <seg function="intertitle">tāl ~</seg> <gap reason="ellipsis"/>
    
   <pb facs="23" n="11r"/>
-  <seg function="intertitle"><milestone unit="left-margin"/>
+  <fw place="left-margin"><seg function="intertitle">
   <lb n="1"/>cappāṇi</seg>
+    </fw>
   
-  <milestone unit="main-text-area"/>
   <lb n="1-6"/><gap reason="ellipsis"/>
        <lb n="7"/><gap reason="ellipsis"/> ~ <num rend="traditional">10</num> ~ <seg function="completion-statement">tāl muṟṟum ~</seg> <seg function="intertitle">cappāṇi ~</seg> <gap reason="ellipsis"/>
   
   <pb facs="29" n="14r"/>
-      <seg function="intertitle">
-  <milestone unit="left-margin"/>
+      <fw place="left-margin">
+        <seg function="intertitle">
   <lb n="1"/>mut=tam</seg>
-  
-  <milestone unit="main-text-area"/>
+        </fw>
+    
   <lb n="1-2"/><gap reason="ellipsis"/>
        <lb n="3"/><gap reason="ellipsis"/> ~ <num rend="traditional">10</num> ~ <seg function="completion-statement">cappāṇi muṟṟum ~</seg> <seg function="intertitle">muttam ~</seg> <gap reason="ellipsis"/>
   
