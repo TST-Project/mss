@@ -5,8 +5,8 @@
       <fileDesc>
          <titleStmt>
             <title><title xml:lang="ta">Pañcapaṭcicāttiram</title></title>
-            <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor>
-         </titleStmt>
+            
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
             <date>2023</date>
@@ -32,16 +32,16 @@
                   
                <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
-                        <extent>
+                        
+                        
+                        
+                     <extent>
                            <measure unit="folio" quantity="21">{1} + 20 (U1 + U2).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
                            <width quantity="190"/><height min="25" max="30"/></dimensions>
-                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
-                        
-                        
-                     <collation><desc xml:id="U1">1 folio = <emph rend="bold">Title Page</emph>. No foliation. Verso blank. 190 x 25 mm.</desc><desc xml:id="U2a">19 folios = <emph rend="bold"><title xml:lang="ta">Pañcapaṭcicāttiram</title></emph>. Tamil foliation 1-19. f19v blank. 190 x 30 mm.
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent><collation><desc xml:id="U1">1 folio = <emph rend="bold">Title Page</emph>. No foliation. Verso blank. 190 x 25 mm.</desc><desc xml:id="U2a">19 folios = <emph rend="bold"><title xml:lang="ta">Pañcapaṭcicāttiram</title></emph>. Tamil foliation 1-19. f19v blank. 190 x 30 mm.
 </desc><desc xml:id="U2b">1 folio = <emph rend="bold"><title xml:lang="ta">Kevuḷi</title></emph>. Tamil foliation <supplied reason="omitted">20</supplied>. 190 x 30 mm.</desc></collation><condition>Excellent state of preservation.</condition></supportDesc>
                   </objectDesc><handDesc>
                      
@@ -99,38 +99,39 @@
   <lb n="1-5"/><gap reason="ellipsis"/></seg>
  
    <pb facs="65" n="6r"/>
-        <milestone unit="left-margin"/>
+        <fw place="left-margin">
     <seg function="intertitle"><lb n="1-3"/>Arukkaṉ nilaivatu Aṟivatu</seg>
+          </fw>
+    
     <cb n="1"/>
         <lb n="1-5"/>Arukkaṉ<gap reason="ellipsis"/>
     <cb n="2"/><note xml:lang="en">diagram in the form of a table; incribe</note>
             <lb n="1"/>mucal karuṭaṉ pūṉai
             <lb n="2"/>Āṉai <space/> ciṅkam
             <lb n="3"/>Eli pāmpu cennāy
-    
-   <seg function="explicit">
+   
+       <seg function="explicit">
      <pb facs="78" n="19r"/>
  <lb n="4"/>Āḻiyaṉ coṉṉāṉ aṟi</seg> <g ref="#pcs"/>
   
        <pb facs="79" n="19v"/>
   <note xml:lang="en">blank</note>
 </ab>
-</body>
-   </text><text synch="#U2b" corresp="#T2" xml:lang="ta"><body>
+</body></text><text synch="#U2b" corresp="#T2" xml:lang="ta"><body>
 <ab>
    <pb facs="79" n="[20]r"/>
   
-   <seg function="intertitle"><milestone n="1" unit="left-margin"/>
+   <fw place="left-margin"><seg function="intertitle">
   <lb n="1"/>kevuḷi</seg>
+     </fw>
   
-  <seg function="incipit"><milestone unit="main-text-area"/>
+  <seg function="incipit">
   <lb n="1"/><gap reason="ellipsis"/></seg>
   <lb n="2-5"/><gap reason="ellipsis"/>
   
   <pb facs="80" n="[20]v"/>
-  <seg function="explicit"><milestone unit="main-text-area"/>
+  <seg function="explicit">
   <lb n="1"/><gap reason="ellipsis"/>
   <lb n="2"/><gap reason="ellipsis"/></seg>
   </ab>
-</body>
-   </text></TEI>
+</body></text></TEI>

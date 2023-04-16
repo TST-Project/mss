@@ -5,8 +5,8 @@
       <fileDesc>
          <titleStmt>
             <title><title xml:lang="ta">Kaṭcippaṭalam</title></title>
-            <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor>
-         </titleStmt>
+            
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
             <date>2023</date>
@@ -32,16 +32,16 @@
                   
                <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
-                        <extent>
+                        
+                        
+                        
+                     <extent>
                            <measure unit="folio" quantity="39">39 (U1).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
                            <width quantity="195"/><height quantity="30"/></dimensions>
-                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
-                        
-                        
-                     <collation><desc xml:id="U1">39 folios = <emph rend="bold"><title xml:lang="ta">Kaṭcippaṭalam</title></emph>. Tamil foliation {1}-39. f39v blank. 175 x 30 mm.</desc></collation><condition>Excellent state of preservation.</condition></supportDesc>
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent><collation><desc xml:id="U1">39 folios = <emph rend="bold"><title xml:lang="ta">Kaṭcippaṭalam</title></emph>. Tamil foliation {1}-39. f39v blank. 175 x 30 mm.</desc></collation><condition>Excellent state of preservation.</condition></supportDesc>
                   </objectDesc><handDesc>
                      
                   <handNote synch="#U1" scope="major" script="tamil" medium="incised soot"/></handDesc><additions><desc synch="#U1" type="intertitle" subtype="marginal left">Left-marginal intertitles, on recto and verso: see f7r, f13r, f13v, f14r, f14v, f15r, f17v, f18r, f18v, f19r, f20r, f21v, f22v, f23r, f24r, etc.
@@ -79,15 +79,15 @@
   <ab>
   <pb facs="27" n="[1]r"/>
  
-  <seg function="title">
-    <milestone unit="left-margin"/>
+  <fw place="left-margin"><seg function="title">
   <lb n="1"/>teṣṣaṇā
 <lb n="2" break="no"/>mūrtti y<pc>-</pc>a
 <lb n="3" break="no"/>ruḷiyac cey
 <lb n="4" break="no"/>ta kaṣṣippa
 <lb n="5" break="no"/>ṭalam</seg>
+    </fw>
   
-  <seg function="incipit"><milestone unit="main-text-area"/>
+  <seg function="incipit">
   <lb n="1"/>tirumakaḷ kayilai vāḻum <gap reason="ellipsis"/></seg>
     
     <seg function="explicit"><pb facs="41" n="39r"/>
@@ -100,5 +100,4 @@
     <pb facs="42" n="39v"/>
   <note xml:lang="en">blank</note>
  </ab>
-</body>
-   </text></TEI>
+</body></text></TEI>

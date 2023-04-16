@@ -59,7 +59,7 @@
                      <support/><collation>
                      
                      <desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. </desc><desc xml:id="U1">2 folios = <emph rend="bold">front guard leaves</emph>. No foliation. Blank recto verso.
-</desc><desc xml:id="U2">1 folio = <emph rend="bold">Collection: Title Page</emph>. No foliation. Verso blank.</desc><desc xml:id="U3">333 folios = the <emph rend="bold">texts</emph>. Original Arabic foliation 1-251<sup>1</sup>, 251<sup>2</sup>-332 (two folios foliated 251!). Successive original Tamil foliation 1-232 [parallel to Arabic foliation 1-232], 1-56 [parallel to Arabic foliation 230-251, 251-284], 1-48 [parallel to Arabic foliation 285-332]. First two Tamil foliation overlap: f230-232 of first Tamil foliation = f1-3 of of second Tamil foliation.
+</desc><desc xml:id="U2">1 folio = <emph rend="bold">Collection: Title Page</emph>. No foliation. Verso blank.</desc><desc xml:id="U3">333 folios = the <emph rend="bold">texts</emph>. Original Arabic foliation 1-251.1., 251.2-332 (two folios foliated 251!). Successive original Tamil foliation 1-232 [parallel to Arabic foliation 1-232], 1-56 [parallel to Arabic foliation 230-251, 251-284], 1-48 [parallel to Arabic foliation 285-332]. First two Tamil foliation overlap: f230-232 of first Tamil foliation = f1-3 of of second Tamil foliation.
 
 </desc><desc xml:id="U3a">229 folios = <emph rend="bold"><title xml:lang="ta">Aruṇācalapurāṇam</title></emph>. Original Arabic foliation 1-229 = first Tamil foliation 1-229.</desc><desc xml:id="U3b">56 folios = <emph rend="bold"><title xml:lang="ta">Tamiḻ Aṟiyum Perumāḷ Katai</title></emph>. Original Arabic foliation 230-251, 251-284 = first Tamil foliation 230-232 = second Tamil foliation 1-56.</desc><desc xml:id="U3c">48 folios = <emph rend="bold"><title xml:lang="ta">Viṟaliviṭutūtu</title></emph>. Original Arabic foliation 285-332 = third Tamil foliation 1-48.</desc><desc xml:id="U4">2 folios = <emph rend="bold">back guard leaves</emph>. No foliation. Blank recto verso.
 </desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>. </desc></collation><condition>Good state of preservation.</condition></supportDesc>
@@ -125,13 +125,13 @@ The number is that found in the catalogue of Velanguani Arokium (1845). </desc><
     <ab>
 
   <pb facs="9" n="1r"/>
-      <seg function="header">
-    <seg function="blessing"><milestone unit="left margin"/>
+      <fw place="left-margin">
+    <seg function="blessing">
     <lb n="1"/><term xml:lang="sa">hariḥ
     <lb n="2"/>Om</term></seg>
-        </seg>
+        </fw>
       
-    <seg function="incipit"><milestone unit="main text area"/>
+    <seg function="incipit">
     <lb n="1"/>mikka vēta <gap reason="ellipsis"/></seg>
     <lb n="2"/>
     <lb n="3"/>
@@ -141,29 +141,28 @@ The number is that found in the catalogue of Velanguani Arokium (1845). </desc><
   <pb facs="10" n="1v"/><note xml:lang="en">blank</note>
   
   <pb facs="11" n="2r"/>    
-    <seg function="header">
-      <seg function="blessing"><milestone unit="left margin"/> 
+      <fw place="left-margin">
+      <seg function="blessing">
     <lb n="1"/><term xml:lang="sa">hariḥ Om</term></seg>
     <seg function="title"><lb n="2"/>Aruṇakiri
     <lb n="3" break="no"/>-p-purāṇam</seg>
     <seg function="intertitle"><lb n="4"/>pāyiram</seg>
-      </seg>
+      </fw>
       
-    <seg function="incipit"><milestone unit="main text area"/>
+    <seg function="incipit">
     <lb n="1"/>mutiruñ cuvai <gap reason="ellipsis"/></seg>   
   
   <pb facs="459" n="226r"/>    
-    <seg function="header">
-      <seg function="intertitle"><milestone unit="left margin"/> 
+      <fw place="left-margin">
+      <seg function="intertitle">
     <lb n="1"/>puḷakātipa
     <lb n="2" break="no"/>-c-carukkam</seg>
-      </seg>
+      </fw>
       
-    <milestone unit="main text area"/>
     <lb n="1"/><gap reason="ellipsis"/>
       
       <pb facs="466" n="229v"/>
-      <seg function="explicit"><milestone unit="main text area"/>
+      <seg function="explicit">
     <lb n="1"/><gap reason="ellipsis"/>
     <lb n="2"/><gap reason="ellipsis"/>
     <lb n="3"/>ti peruvārkaḷ eṉṟa vāṟu ~ 8 ~ <g ref="#pcs"/></seg> <seg function="colophon"><seg function="completion-statement">puḷakātipa-c-carukka muṟṟum <g ref="#pcl"/></seg> <seg function="copy-statement">Aruṇacalap<sic>pi</sic>ṟāṇam yeḻuti niṟa vēṟittutu <g ref="#pcl"/></seg> <seg function="completion-statement">muṟṟum <g ref="#pcl"/></seg></seg>
@@ -174,20 +173,20 @@ The number is that found in the catalogue of Velanguani Arokium (1845). </desc><
 
    <pb facs="467" n="230r=1r"/>
        
-    <seg function="header">
-      <seg function="title"><milestone unit="margin"/>
+       <fw place="left-margin">
+      <seg function="title">
     <lb n="1"/>tamiḻ aṟiyum
     <lb n="2"/>perumāḷ
    <lb n="3"/>katai
    </seg>
-      </seg>
+      </fw>
        
-    <seg function="incipit"><milestone unit="main text area"/>
+    <seg function="incipit">
     <lb n="1"/>Alakāpuri yeṉṟ<pc>'</pc> oru paṭṭaṉam <gap reason="ellipsis"/></seg>
     
        
        <pb facs="577" n="284r=56r"/>
-      <seg function="explicit"><milestone unit="main text area"/>
+      <seg function="explicit">
     <lb n="1-5"/><gap reason="ellipsis"/>
     <lb n="6"/><gap reason="ellipsis"/> koṇṭiruntārkaḷ yeṉṟa vāṟu <g ref="#pcs"/></seg> <seg function="colophon"><seg function="copy-statement">tamiḻ aṟiyum perumāḷ katai yeḻuti muṭintutu <g ref="#pcl"/></seg></seg>       
        
@@ -199,16 +198,17 @@ The number is that found in the catalogue of Velanguani Arokium (1845). </desc><
 
    <pb facs="579" n="285r=1r"/>
        
-    <seg function="header">
-      <seg function="blessing"><milestone unit="left margin"/>
+       <fw place="left-margin">
+      <seg function="blessing">
     <lb n="1"/><term xml:lang="sa">hariḥ</term> Om
         <lb n="2"/>naṉṟāka
         <lb n="3"/>kuru vāḻ
         <lb n="4"/>kuruvē
      <lb n="5"/>tuṇai</seg>
-      </seg>
+       </fw>
+      
 
-       <seg function="incipit"><milestone unit="main text area"/>
+       <seg function="incipit">
     <lg><l><lb n="1"/>kāṟ pūtta mēṉik karuṇait tiruneṭumāl</l>
       <l>pār pūt=ta Untip parantāmaṉ <space/> nīr pūtta</l></lg>
       <lg><l><lb n="2"/>vēlaikku miṟk kaṭainta vēlai taru teḷḷamutiṉa</l>
@@ -216,7 +216,7 @@ The number is that found in the catalogue of Velanguani Arokium (1845). </desc><
     <lb n="3ff."/><gap reason="ellipsis"/>
    
     <pb facs="674" n="332v"/>
-       <seg function="explicit"><milestone unit="main-text-area"/>
+       <seg function="explicit">
       <lb n="1-7"/><gap reason="ellipsis"/> <note xml:lang="en">the text stops short here</note></seg>
         
        </ab>

@@ -48,16 +48,16 @@
                   
                <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
-                        <extent>
+                        
+                        
+                        
+                     <support><p>Rounded edges.</p></support><extent>
                            <measure unit="folio" quantity="204">{1} + {1} + 200 + {2} (U1 + U2 + U3 + U4).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
                            <width quantity="375"/><height quantity="30"/></dimensions>
-                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
-                        
-                        
-                     <support><p>Rounded edges.</p></support><foliation>Left-marginal continuous Arabic numerals foliation (U3). Parallel independent left-marginal Tamil numerals foliation starting with foliation 1 for each individual work. </foliation><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. BnF shelfmark sticker on back cover, verso. </desc><desc xml:id="U1">1 folio = front <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso.</desc><desc xml:id="U2">1 folio = front <emph rend="bold">Collection: Table of Contents</emph>. No foliation. Verso blank.</desc><desc xml:id="U3">200 folios = <emph rend="bold">Collection: Texts</emph>. Arabic numerals foliation 1-200 for the whole. Independent Tamil foliation for each individual work, that is, respectively, Tamil foliation 1-56, 1-32, 1-7, 1-3, 1-43, 1-14, 1-7, 1-8, 1-8, 1-5, 1-7, 1-5.</desc><desc xml:id="U4">2 folios = back <emph rend="bold">guard leaves</emph>. Blank recto verso. </desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Excellent state of preservation.</condition></supportDesc>
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent><foliation>Left-marginal continuous Arabic numerals foliation (U3). Parallel independent left-marginal Tamil numerals foliation starting with foliation 1 for each individual work. </foliation><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. BnF shelfmark sticker on back cover, verso. </desc><desc xml:id="U1">1 folio = front <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso.</desc><desc xml:id="U2">1 folio = front <emph rend="bold">Collection: Table of Contents</emph>. No foliation. Verso blank.</desc><desc xml:id="U3">200 folios = <emph rend="bold">Collection: Texts</emph>. Arabic numerals foliation 1-200 for the whole. Independent Tamil foliation for each individual work, that is, respectively, Tamil foliation 1-56, 1-32, 1-7, 1-3, 1-43, 1-14, 1-7, 1-8, 1-8, 1-5, 1-7, 1-5.</desc><desc xml:id="U4">2 folios = back <emph rend="bold">guard leaves</emph>. Blank recto verso. </desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Excellent state of preservation.</condition></supportDesc>
                      <layoutDesc>
                         
                      </layoutDesc>
@@ -97,7 +97,7 @@
   <ab>
   <pb facs="5" n="[1]r"/><note xml:lang="en">unblackened</note>
  
-  <seg function="title"><cb n="1"/>
+  <fw place="left-margin"><seg function="title"><cb n="1"/>
   <lb n="1"/>Akastiyamuṉi
     <lb n="2"/>yaruḷic ceyta
     <lb n="3"/>vākaṭam
@@ -105,6 +105,7 @@
     
   <seg function="title"><cb n="2"/>
   <lb n="1"/><term xml:lang="fr">Medecine</term></seg>
+    </fw>
     
     <seg function="table-of-contents"><cb n="2"/>
   <lb n="1"/>rettiṉaccurukkam <space/> <num rend="traditional">360</num>
@@ -125,8 +126,7 @@
       <pb facs="6" n="[1]v"/><note xml:lang="en">blank</note>
 
 </ab>
-</body>
-   </text><text synch="#U3" corresp="#T2" xml:lang="ta"><body>
+</body></text><text synch="#U3" corresp="#T2" xml:lang="ta"><body>
   <ab>
     
   <pb facs="7" n="1r=1r"/>
@@ -140,7 +140,7 @@
     </seg>
     </fw>
     
-  <seg function="incipit" type="root-text"><milestone unit="main-text-area"/>
+  <seg function="incipit" type="root-text">
   <lb n="1"/>pūrṇamāy niṟainta kuru paraiyē poṟṟi <gap reason="ellipsis"/></seg>
   
  <pb facs="13" n="4r"/>
@@ -151,7 +151,6 @@
     </fw>
     
      <pb facs="118" n="56v"/>
-    <milestone unit="main-text-area"/>
     <lb n="1-6"/><gap reason="ellipsis"/>
     <seg function="explicit"><lb n="7"/><gap reason="ellipsis"/> yellām inta ṉūl <gap reason="ellipsis"/>
     <lb n="8"/><gap reason="ellipsis"/> muttē ~ <num rend="traditional">363</num> <g ref="#pcs"/></seg> <seg function="colophon"><seg function="completion-statement">Akasttiyacuvāmi yaruḷiya reṟṟiṉacurukkam muṟṟum <g ref="#pcl"/></seg></seg>
@@ -165,11 +164,10 @@
     </seg>
     </fw>
     
-    <seg function="incipit" type="root-text"><milestone unit="main-text-area"/>
+    <seg function="incipit" type="root-text">
       <lb n="1"/>pūṟṇa <gap reason="ellipsis"/></seg>
         
         <pb facs="182" n="88v=32r"/>
-<milestone unit="main-text-area"/>
     <seg function="explicit"><lb n="1"/><gap reason="ellipsis"/>
     <lb n="2"/>ṭomē ~ <num rend="traditional">205</num> <g ref="#pcs"/></seg> <seg function="colophon"><seg function="completion-statement">vayittiyam muṟṟum <g ref="#pcl"/></seg></seg>
     
@@ -214,15 +212,14 @@
     
     <fw place="left-margin">
     <seg function="title">
-      <lb n="1-4"/>Akattiya makāmuṉi yaruḷicceyta centūramuṉṉūṟu
+      <lb n="1-4"/>Akattiya-makāmuṉi yaruḷicceyta centūramuṉṉūṟu
     </seg>
     </fw>
     
-    <seg function="incipit" type="root-text"><milestone unit="main-text-area"/>
+    <seg function="incipit" type="root-text">
       <lb n="1"/><gap reason="ellipsis"/></seg>
     
         <pb facs="288" n="141v"/>
-    <milestone unit="main-text-area"/>
     <lb n="1-5"/><gap reason="ellipsis"/>
     <seg function="explicit"><lb n="6"/><gap reason="ellipsis"/> <g ref="#pcl"/> <num rend="traditional">301</num> ~ </seg> <seg function="colophon"><seg function="completion-statement">muṟṟum <g ref="#pcl"/></seg></seg>
         
@@ -255,7 +252,6 @@
       <lb n="1"/><gap reason="ellipsis"/></seg>
     
     <pb facs="330" n="162v"/>
-    <milestone unit="main-text-area"/>
     <lb n="1-7"/><gap reason="ellipsis"/>
     <seg function="explicit"><lb n="8"/><gap reason="ellipsis"/> <g ref="#pcl"/> <num rend="traditional">50</num> ~</seg> <seg function="colophon"><seg function="completion-statement">mu<sic>ttu</sic>m <g ref="#pcl"/></seg></seg>
         
@@ -268,11 +264,10 @@
     </seg>
     </fw>
     
-    <seg function="incipit" type="root-text"><milestone unit="main-text-area"/>
+    <seg function="incipit" type="root-text">
       <lb n="1"/><gap reason="ellipsis"/></seg>
     
         <pb facs="345" n="170r"/>
-    <milestone unit="main-text-area"/>
     <lb n="1-6"/><gap reason="ellipsis"/>
     <seg function="explicit"><lb n="7"/><gap reason="ellipsis"/> ~ <num rend="traditional">50</num> ~ </seg> <seg function="colophon"><seg function="completion-statement">muṟṟum <g ref="#pcl"/></seg></seg>
         
@@ -305,11 +300,10 @@
     </seg>
     </fw>
     
-    <seg function="incipit" type="root-text"><milestone unit="main-text-area"/>
+    <seg function="incipit" type="root-text">
       <lb n="1"/><gap reason="ellipsis"/></seg>
     
     <pb facs="372" n="183v"/>
-    <milestone unit="main-text-area"/>
     <seg function="explicit">
       <lb n="1"/><gap reason="ellipsis"/> ~ <num rend="traditional">48</num> <g ref="#pcs"/></seg> <seg function="colophon"><seg function="completion-statement">vayi
       <lb n="2" break="no"/>ttiyam ṉāṟpatteṭṭu muṟṟum <g ref="#pcl"/></seg></seg>
