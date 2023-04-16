@@ -35,14 +35,14 @@
                   
                <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
-                        <extent>
+                        
+                     <extent>
                            <measure unit="folio" quantity="142">{1} + 140 + {1} (U1 + U2 + U3).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
                            <width quantity="330"/><height quantity="25"/></dimensions>
-                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
-                     <collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 bifolio = <emph rend="bold">Title Page (additional)</emph>. Verso blank. Hand #1.</desc><desc xml:id="U2">140 folios = <emph rend="bold"><title xml:lang="ta">Uḷḷamuṭaiyāṉ Cūṭāmaṇi</title></emph>. Tamil foliation: not exhaustively assessable due to the truncation of many folio margins. Hand #2.</desc><desc xml:id="U2a">1 folio = <emph rend="bold">TBC</emph>. Foliation, if any, lost. 13 numbered stanzas</desc><desc xml:id="U2b">1 folio = <emph rend="bold"><title xml:lang="ta">Mācattiyācciyam</title></emph>. Foliation, if any, lost.</desc><desc xml:id="U2c">1 folio = <emph rend="bold"><title xml:lang="ta">Uḷḷamuṭaiyāṉ Cūṭāmaṇi</title>: Invocation</emph>. Foliation, if any, lost.</desc><desc xml:id="U2d">137 folios = <emph rend="bold"><title xml:lang="ta">Uḷḷamuṭaiyāṉ Cūṭāmaṇi</title>: Text &amp; Commentary</emph>. Tamil foliation. Lowest foliation assessed = 41. Highest foliation assessed = 177.</desc><desc xml:id="U3">1 bifolio = back <emph rend="bold">guard leaf</emph>. Blank recto verso.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Poor state of preservation: boreholes, truncated folios, fragments of folios.</condition></supportDesc>
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 bifolio = <emph rend="bold">Title Page (additional)</emph>. Verso blank. Hand #1.</desc><desc xml:id="U2">140 folios = <emph rend="bold"><title xml:lang="ta">Uḷḷamuṭaiyāṉ Cūṭāmaṇi</title></emph>. Tamil foliation: not exhaustively assessable due to the truncation of many folio margins. Hand #2.</desc><desc xml:id="U2a">1 folio = <emph rend="bold">TBC</emph>. Foliation, if any, lost. 13 numbered stanzas</desc><desc xml:id="U2b">1 folio = <emph rend="bold"><title xml:lang="ta">Mācattiyācciyam</title></emph>. Foliation, if any, lost.</desc><desc xml:id="U2c">1 folio = <emph rend="bold"><title xml:lang="ta">Uḷḷamuṭaiyāṉ Cūṭāmaṇi</title>: Invocation</emph>. Foliation, if any, lost.</desc><desc xml:id="U2d">137 folios = <emph rend="bold"><title xml:lang="ta">Uḷḷamuṭaiyāṉ Cūṭāmaṇi</title>: Text &amp; Commentary</emph>. Tamil foliation. Lowest foliation assessed = 41. Highest foliation assessed = 177.</desc><desc xml:id="U3">1 bifolio = back <emph rend="bold">guard leaf</emph>. Blank recto verso.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Poor state of preservation: boreholes, truncated folios, fragments of folios.</condition></supportDesc>
                   </objectDesc><handDesc>
                      
                   <handNote synch="#U1" scope="minor" script="tamil" medium="incised"><desc>Hand #1. <persName role="scribe">Ariel's title page scribe</persName>.</desc></handNote><handNote synch="#U2" scope="major" medium="incised"><desc>Hand #2.</desc></handNote></handDesc><additions><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 88</quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#CoverFront" type="documenting-note" subtype="cover front">BnF stamp <quote>DON N° <space type="vacat"/></quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#U1" type="shelfmark">Shelfmark in black ink: <quote>d/<gap reason="illegible" unit="character" quantity="1"/></quote> (<locus facs="3">f[1]r</locus>).
@@ -81,13 +81,13 @@
   <ab>
   <pb facs="3" n="[1]r"/>
     
-    <seg function="header"><seg function="blessing">
-  <milestone unit="left-margin"/>
+    <fw place="left-margin">
+<seg function="blessing">
   <lb n="1"/>veṟṟivē
   <lb n="2" break="no"/>l uṟṟa tuṇai</seg>
-      </seg>
+      </fw>
   
-  <seg function="title"><milestone unit="main-text-area"/>
+  <seg function="title">
   <lb n="1"/>Uḷḷamuṭaiyāṉ</seg>
     
           <pb facs="4" n="[1]v"/><note xml:lang="en">blank</note>
@@ -120,14 +120,13 @@
   <ab>
     
   <pb facs="7" n="[1]r"/>
-    <seg function="header">
-  <seg function="intertitle"><milestone unit="left-margin"/>
+    <fw place="left-margin">
+  <seg function="intertitle">
   <lb n="1"/>mācat
   <lb n="2" break="no"/>tiyā
   <lb n="3" break="no"/>cci<g rend="below-base">yaM</g></seg>
-      </seg>
-  
-  <milestone unit="main-text-area"/> 
+      </fw>
+   
   <lb n="1"/>ceṉṟa varuṣattil oṉṟu <gap reason="ellipsis"/>
   <lb n="2"/><gap reason="ellipsis"/>
   <lb n="3"/><gap reason="ellipsis"/> = 1 = = =<gap reason="ellipsis"/>
@@ -146,28 +145,28 @@
     
   <pb facs="9" n="[1]r"/>
   
-  <seg function="header"><milestone n="1" unit="left-margin"/>
-  <lb n="1-5"/><note xml:lang="en">text in Telugu</note>
+  <fw place="left-margin">
+<seg function="TBC"><cb n="1"/>
+  <lb n="1-5"/><note xml:lang="en">text in Telugu</note></seg>
   
-  <milestone n="2" unit="left-margin"/>
-  <seg function="blessing"><lb n="1"/>yīlaivāṉ
+   <seg function="blessing"><cb n="2"/><lb n="1"/>yīlaivāṉ
   <lb n="2"/>pātāravin
   <lb n="3" break="no"/>tamē keti</seg>
   <seg function="title"><lb n="4"/>Uḷḷamuṭai
   <lb n="5"/>yāṉ <g ref="#pcl"/></seg>
-    </seg>
+    </fw>
     
-  <milestone unit="main-text-area"/>
   <seg function="invocation"><lg><l><lb n="1"/>Eṇṇuṅ <gap reason="ellipsis"/> 
   <lb n="2"/><gap reason="ellipsis"/>
   <lb n="3"/><gap reason="ellipsis"/>
   <lb n="4"/><gap reason="ellipsis"/>
   <lb n="5"/><gap reason="ellipsis"/> kaḷiṟu =</l></lg></seg>
   
-  <seg function="header"><seg function="blessing"><milestone unit="right-margin"/>
+    <fw place="rigth-margin"><seg function="blessing">
   <lb n="1"/>Aruṇācalam tuṇai
     <lb n="2"/>Aruṇakiri tuṇai
-    <lb n="3"/>Ampalavāṇaṉ keti</seg></seg>
+    <lb n="3"/>Ampalavāṇaṉ keti</seg>
+    </fw>
     
       <pb facs="10" n="[1]v"/><note xml:lang="en">blank</note>
 
@@ -176,43 +175,37 @@
   <ab>
     
   <pb facs="11" n="41r"/>
-    <seg function="header">
-      <milestone unit="left-margin"/>
-  <lb n="1-2"/><gap reason="ellipsis"/>
-      </seg>
+<fw place="left-margin">
+  <seg function="TBC"><lb n="1-2"/><gap reason="ellipsis"/></seg>
+      </fw>
   
-  <seg function="incipit" type="commentary"><milestone unit="main-text-area"/>
+  <seg function="incipit" type="commentary">
      <lb n="1"/><gap reason="ellipsis"/></seg> = <num rend="traditional" value="116"><g ref="#nūṟu"/>1<supplied reason="omitted"><g ref="#pattu"/></supplied>6</num> = <seg function="incipit" type="root-text">ceppiya mūlam</seg> <gap reason="ellipsis"/>
   
     <pb facs="13" n="42r"/>
-    <seg function="header">
-      <milestone unit="left-margin"/>
-  <lb n="1-2"/><gap reason="ellipsis"/>
-      </seg>
+<fw place="left-margin">
+  <seg function="TBC"><lb n="1-2"/><gap reason="ellipsis"/></seg>
+      </fw>
   
     
     <pb facs="15" n="43r"/>
-    <seg function="header">
-      <milestone unit="left-margin"/>
-  <lb n="1-2"/><gap reason="ellipsis"/>
-      </seg>
+<fw place="left-margin">
+  <seg function="TBC"><lb n="1-2"/><gap reason="ellipsis"/></seg>
+      </fw>
     
     
     <pb facs="269" n="172r"/>
-    <seg function="header">
-      <milestone unit="left-margin"/>
-  <lb n="1-4"/><gap reason="ellipsis"/>m eṉṉum paṭi
-      </seg>
+    <fw place="left-margin">
+  <seg function="TBC"><lb n="1-4"/><gap reason="ellipsis"/>m eṉṉum paṭi</seg>
+      </fw>
   
   
   <pb facs="279" n="177r"/>
-    <milestone unit="main-text-area"/>
   <lb n="3"/><gap reason="ellipsis"/> <seg function="explicit" type="root-text"><lg><l>yuraittaṉṉ ulakukk<pc>’</pc> ellām = </l></lg></seg> <seg function="explicit" type="commentary">Etu = <gap reason="ellipsis"/>
   <lb n="4-5"/><gap reason="ellipsis"/>
      <lb n="6"/><gap reason="ellipsis"/> nampiy eṉṟu colluvatu = <num rend="traditional">457</num> =</seg> <seg function="colophon"><seg function="completion-statement">Uḷḷamuṭaiyāṉ muṟṟum <g ref="#pcl"/></seg>  <seg function="blessing">kurupātaṅ keti =</seg></seg>
     
           <pb facs="280" n="177v"/><note xml:lang="en">blank</note>
 
-  
-  </ab>
+    </ab>
 </body></text></TEI>

@@ -31,17 +31,17 @@
                   
                <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
-                     <support><p>Rounded edges.</p></support>   
-                     <extent>
+                        
+                     
+                        
+                        
+                     <support><p>Rounded edges.</p></support><extent>
                            <measure unit="folio" quantity="131">{2} + 126 + {3} (U1 + U2 + U3).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
                            <width quantity="330"/><height quantity="35"/></dimensions>
-                        <dimensions type="object" unit="mm"><width quantity="330"/><height quantity="35"/><depth quantity="85"/></dimensions><dimensions type="written" unit="mm"/></extent>
-                        
-                        
-                     <collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. BnF shelfmark sticker on back cover, verso. </desc><desc xml:id="U1">2 folios = front <emph rend="bold">guard leaves</emph>. No foliation. Unblackened blessings on f[1]r. f[1]v, f[2]rv blank. 330 x 35 mm.</desc><desc xml:id="U2">126 folios = <emph rend="bold"><title xml:lang="ta">Kirakacintāmaṇi</title>: Text &amp; Commentary</emph>. Tamil foliation 1-126. 330 x 35 mm.</desc><desc xml:id="U3">2 folios = back <emph rend="bold">guard leaves</emph>. Blank recto verso. 330 x 35 mm.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Excellent state of preservation, but some folios somehow damaged by boreholes.</condition></supportDesc>
+                        <dimensions type="object" unit="mm"><width quantity="330"/><height quantity="35"/><depth quantity="85"/></dimensions><dimensions type="written" unit="mm"/></extent><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. BnF shelfmark sticker on back cover, verso. </desc><desc xml:id="U1">2 folios = front <emph rend="bold">guard leaves</emph>. No foliation. Unblackened blessings on f[1]r. f[1]v, f[2]rv blank. 330 x 35 mm.</desc><desc xml:id="U2">126 folios = <emph rend="bold"><title xml:lang="ta">Kirakacintāmaṇi</title>: Text &amp; Commentary</emph>. Tamil foliation 1-126. 330 x 35 mm.</desc><desc xml:id="U3">2 folios = back <emph rend="bold">guard leaves</emph>. Blank recto verso. 330 x 35 mm.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Excellent state of preservation, but some folios somehow damaged by boreholes.</condition></supportDesc>
                      <layoutDesc>
                         
                      <layout columns="1 4">4 columns for U2, f44-f49.</layout></layoutDesc>
@@ -89,52 +89,54 @@ The number is that found in the catalogue of Velanguani Arokium (1845). </desc><
 <facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b52517225w/manifest.json"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   <ab>
   <pb facs="3" n="[1]r"/><note xml:lang="en">unblackened</note>
- <seg function="header">
-  <seg function="blessing"><milestone unit="left-margin"/>
+<fw place="left-margin">
+  <seg function="blessing">
   <lb n="1"/>hari O<sic>n</sic></seg>
 <seg function="blessing"><lb n="2"/>naṉṟāka</seg>
 <seg function="blessing"><lb n="3"/>kuru vā
 <lb n="4" break="no"/>ḻka</seg> <seg function="blessing">kuru
 <lb n="5" break="no"/>vē tuṇai</seg>
-   </seg>
+   </fw>
 </ab>
-</body>
-   </text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
+</body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
   <ab>
   <pb facs="7" n="1r"/>
-  <seg function="header">
-  <seg function="blessing"><milestone unit="left-margin"/>
-  <lb n="1"/>hari O<sic>n</sic></seg>
-<seg function="blessing"><lb n="2"/>naṉṟāka</seg>
-<seg function="blessing"><lb n="3"/>kuruvē
+<fw place="left-margin">
+  <seg function="blessing">
+  <lb n="1"/>hari O<sic>n</sic>
+    <lb n="2"/>naṉṟāka<lb n="3"/>kuruvē
   <lb n="4"/>tuṇai</seg> ~ <seg function="title">ki
  <lb n="5" break="no"/>ṟaka ~ cin
  <lb n="6" break="no"/>tāmaṇi ~</seg>
-    </seg>
+    </fw>
  
-  <seg function="incipit" type="root-text"><milestone unit="main-text-area"/>
+  <seg function="incipit" type="root-text">
   <lb n="1"/><gap reason="ellipsis"/></seg>
   
   <pb facs="19" n="7r"/>
      <lb n="2"/><gap reason="ellipsis"/> ~ <num rend="traditional">12</num> ~ <seg function="completion-statement">pāyiram muṟṟum <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/></seg>
   
    <pb facs="21" n="8r"/>
-    <seg function="intertitle"><milestone unit="left-margin"/>
+    <fw place="left-margin">
+      <seg function="intertitle">
   <lb n="1-3"/>naṭcettiranikaṇtu</seg>
+      </fw>
 
   <pb facs="26" n="10v"/>
      <lb n="2"/><gap reason="ellipsis"/> ~ <num rend="traditional">18</num> ~ <seg function="completion-statement">naṭcettiranikaṇtu muṟṟum <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/></seg>
       
   <pb facs="27" n="11r"/>
-    <seg function="intertitle"><milestone unit="left-margin"/>
+    <fw place="left-margin"><seg function="intertitle">
   <lb n="1-2"/>rācinikaṇtu</seg>
-  
+  </fw>
+    
    <pb facs="31" n="13v"/>
    <lb n="8"/><gap reason="ellipsis"/> ~ 25 ~ <seg function="completion-statement">kiṟakanikaṇtu muṟṟum <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/></seg>
   
   <pb facs="138" n="66v"/>
-    <milestone unit="left-margin"/>
+   <fw place="left-margin">
   <seg function="intertitle"><lb n="1-5"/>kiṟaka <gap reason="ellipsis"/> curupam aṟiyum paṭi</seg>
+     </fw>
   
     <pb facs="256" n="125v"/>
   <lb n="5-7"/><seg function="explicit" type="root-text"><gap reason="ellipsis"/> <g ref="#pcs"/></seg> <seg function="explicit" type="commentary">Etu <g ref="#pcs"/> <gap reason="ellipsis"/>

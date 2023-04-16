@@ -35,18 +35,18 @@
                   
                <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
-                           <support><p>Irregularly shaped leaves. The leaf type of U1 is different from that of U2 and U1 is possibly a later addition to the bundle.</p></support>   
-                           <extent>
+                              
+                           
+                        
+
+                        
+                     <support><p>Irregularly shaped leaves. The leaf type of U1 is different from that of U2 and U1 is possibly a later addition to the bundle.</p></support><extent>
                            <measure unit="folio" quantity="48">{1} + 47 (U1 + U2).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
                            <width min="385" max="390"/><height min="20" max="25"/></dimensions>
-                        <dimensions type="object" unit="mm"><width quantity="215"/><height quantity="30"/><depth quantity="35"/></dimensions><dimensions type="written" unit="mm"/></extent>
-                        
-
-                        
-                     <foliation>Foliation for U2 only.</foliation><collation>
+                        <dimensions type="object" unit="mm"><width quantity="215"/><height quantity="30"/><depth quantity="35"/></dimensions><dimensions type="written" unit="mm"/></extent><foliation>Foliation for U2 only.</foliation><collation>
                         
                         
                         
@@ -109,11 +109,10 @@
   <ab>
   
     <pb facs="4" n="[1]r"/>
-    <seg function="blessing">
-      <milestone unit="left-margin"/>
+    <fw place="left-margin"><seg function="blessing">
   <lb n="1"/><term xml:lang="sa">hari</term> Ōm</seg>
-  
-  <milestone unit="main-text-area"/>
+      </fw>
+    
   <seg function="satellite-stanza"><lg><l><lb n="1"/>paruti matiyilaku pārmicaiyō<add place="above">r</add>k kellān ~</l> 
 <l><lb n="2"/>tarumneṟi nītitaṉaic cāṟṟavē ~ karutiyiṭun</l>
 <l><lb n="3"/>tuṅkave ḻuttaintu poruṭ cuntarapoṟ ce<del><gap reason="ellipsis"/></del>ñcaṭaiyiṟ</l>
@@ -122,18 +121,17 @@
   
     <pb facs="3" n="[1]v"/><note xml:lang="en">blank</note>
 
-</ab>
-   </body>
-                     </text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
+  </ab>
+</body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
   <ab>
     
   <pb facs="9" n="[1]r"/>
   
- <seg function="blessing">
-   <milestone unit="left-margin"/>
+ <fw place="left-margin"><seg function="blessing">
   <lb n="1"/><term xml:lang="sa">hari Om</term></seg>
+   </fw>
   
-  <seg function="incipit" type="root-text"> <milestone unit="main-text-area"/>
+  <seg function="incipit" type="root-text">
  <lb n="1"/>cīr peṟu <gap reason="ellipsis"/> 
 <lb n="2"/><gap reason="ellipsis"/> 
 <lb n="3"/>tāmē</seg> <term xml:lang="en">{circle}</term> <seg function="incipit" type="commentary">Etu <term xml:lang="en">{circle}</term> taṉmam āṉatu <gap reason="ellipsis"/>
@@ -141,20 +139,27 @@
 <lb n="5"/><note xml:lang="en">left-oriented</note><g ref="#pcs"/> 1 <g ref="#pcs"/>
 
   <pb facs="27" n="14r"/>  
- <seg function="TBC"><milestone unit="left-margin"/>
+ <fw place="left-margin">
+   <seg function="TBC">
   <lb n="1"/>vīrappaṉ<note xml:lang="en">unblackened, addition</note></seg>
+   </fw>
     
   <pb facs="33" n="18v"/>  
- <seg function="TBC"><milestone unit="left-margin"/>
+ <fw place="left-margin">
+   <seg function="TBC">
   <lb n="1"/>vīrappaṉ<note xml:lang="en">unblackened, addition</note></seg>
+   </fw>
     
   <pb facs="34" n="20r"/>
-    <seg function="header">
- <milestone unit="left-margin"/>
-    <lb n="1"/><g ref="#latin_cross"/> <note xml:lang="en">unblackened, addition</note></seg>
+<fw place="left-margin">
+    <lb n="1"/><g ref="#latin_cross"/> <note xml:lang="en">unblackened, addition</note>
+  </fw>
     
   <pb facs="43" n="49v"/>
-      <seg function="explicit" type="commentary"><milestone unit="main-text-area"/><lb n="3"/><gap reason="ellipsis"/>r eṉṟa v<pc>-</pc>āṟu <g ref="#pcs"/> 83 <g ref="#pcs"/></seg> 
-      <seg function="explicit" type="root-text"><lb n="4"/><gap reason="ellipsis"/><note xml:lang="en">the text stops short here</note></seg>
+      <seg function="explicit" type="commentary">
+        <lb n="3"/><gap reason="ellipsis"/>r eṉṟa v<pc>-</pc>āṟu <g ref="#pcs"/> 83 <g ref="#pcs"/></seg> 
+      <seg function="explicit" type="root-text">
+        <gap reason="ellipsis"/>
+        <lb n="4"/><gap reason="ellipsis"/><note xml:lang="en">the text stops short here</note></seg>
   </ab>
   </body></text></TEI>

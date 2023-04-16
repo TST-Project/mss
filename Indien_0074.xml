@@ -41,17 +41,17 @@
                   
                <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
-                        <extent>
+                        
+                        
+                        
+                     <extent>
                            <measure unit="folio" quantity="99">{1} + 50 + {1} + 46 + {1} (U1 + Indien 74a + U2 + Indien 74a + U3).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
                            <width min="445" max="450"/><height quantity="30"/></dimensions>
                            <note>The leaves are broader in their middle than at their edges. </note>
-                        <dimensions type="object" unit="mm"><width quantity="450"/><height quantity="30"/><depth quantity="70"/></dimensions><dimensions type="written" unit="mm"/></extent>
-                        
-                        
-                     <collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. Shelfmark and sticker on recto.</desc><desc xml:id="U1">1 bifolio = <emph rend="bold">Collection Title Page (additional)</emph>. No foliation. Verso blank. Shelfmark on recto. 450 x 30 mm.</desc><desc xml:id="Indien74a">50 folios = <emph rend="bold"><title xml:lang="ta">Nīticāram</title></emph>.</desc><desc xml:id="U2">1 folio = <emph rend="bold"><title xml:lang="ta">Tirikaṭukam</title>: Title Page (additional)</emph>. No foliation. Verso blank. 445 x 30 mm.</desc><desc xml:id="Indien74b">46 folios = <emph rend="bold"><title xml:lang="ta">Tirikaṭukam</title></emph>.</desc><desc xml:id="U3">1 folio = back <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso. Truncated. 445 x 30 mm.
+                        <dimensions type="object" unit="mm"><width quantity="450"/><height quantity="30"/><depth quantity="70"/></dimensions><dimensions type="written" unit="mm"/></extent><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. Shelfmark and sticker on recto.</desc><desc xml:id="U1">1 bifolio = <emph rend="bold">Collection Title Page (additional)</emph>. No foliation. Verso blank. Shelfmark on recto. 450 x 30 mm.</desc><desc xml:id="Indien74a">50 folios = <emph rend="bold"><title xml:lang="ta">Nīticāram</title></emph>.</desc><desc xml:id="U2">1 folio = <emph rend="bold"><title xml:lang="ta">Tirikaṭukam</title>: Title Page (additional)</emph>. No foliation. Verso blank. 445 x 30 mm.</desc><desc xml:id="Indien74b">46 folios = <emph rend="bold"><title xml:lang="ta">Tirikaṭukam</title></emph>.</desc><desc xml:id="U3">1 folio = back <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso. Truncated. 445 x 30 mm.
 </desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Relatively good state of preservation.</condition></supportDesc>
                      <layoutDesc>
                         
@@ -91,19 +91,21 @@
     
   <pb facs="3" n="[1]r"/>
   
-  <seg function="blessing"><cb n="1"/>
+  <fw place="left-margin">
+    <seg function="blessing">
   <lb n="1"/>veṟṟi vē
   <lb n="2" break="no"/>l uṟṟatuṇai</seg>
+    </fw>
   
-   <seg function="title"><cb n="2"/>
+   <seg function="table-of-contents"><cb n="1"/>
        <lb n="1-2"/>nīti 2
 
-     <cb n="3"/>
-  <lb n="1"/>nīticaravurai
-  <lb n="2"/>tirikaṭukavurai</seg>
+     <seg function="title"><cb n="2"/>
+  <lb n="1"/>nīticaravurai</seg>
+  <seg function="title"><lb n="2"/>tirikaṭukavurai</seg>
+    </seg>
     
       <pb facs="4" n="[1]v"/><note xml:lang="en">blank</note>
-
 
 </ab>
 </body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
@@ -111,11 +113,13 @@
     
   <pb facs="105" n="[1]r"/>
   
-  <seg function="blessing"><cb n="1"/>
+ <fw place="left-margin">
+   <seg function="blessing"><cb n="1"/>
   <lb n="1"/>veṟṟi vē
   <lb n="2" break="no"/>l uṟṟatuṇai</seg>
+   </fw>
   
-   <seg function="title"><cb n="2"/>
+   <seg function="title">
        <lb n="1-2"/>tirikaṭukavuraipāṭam</seg>
     
       <pb facs="106" n="[1]v"/><note xml:lang="en">blank</note>

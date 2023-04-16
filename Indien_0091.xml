@@ -33,17 +33,17 @@
                   
                <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
-                        <support><p>Rounded edges.</p></support>
-                        <extent>
+                        
+                        
+                        
+                        
+                     <support><p>Rounded edges.</p></support><extent>
                            <measure unit="folio" quantity="164">{1} + 4 + + 158 + {1} (U1 + U2 + U3 + U4).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
                            <width quantity="440"/><height quantity="35"/></dimensions>
-                        <dimensions type="object" unit="mm"><width quantity="440"/><height quantity="35"/><depth quantity="105"/></dimensions><dimensions type="written" unit="mm"/></extent>
-                        
-                        
-                     <collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">Title Page</emph>. No foliation. Verso blank.</desc><desc xml:id="U2">4 folios = <emph rend="bold">lists</emph> (days, months, years of the Jovian cycle, etc.). Tamil foliation {1}, 2-4.</desc><desc xml:id="U3">158 folios = <emph rend="bold"><foreign xml:lang="ta">Mūlam &amp; Urai</foreign></emph>. Tamil foliation 1-158. Parallel Arabic foliation 1-158.</desc><desc xml:id="U4">1 folio = back <emph rend="bold">guard leaf</emph>. Blank recto verso.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Excellent state of preservation.</condition></supportDesc>
+                        <dimensions type="object" unit="mm"><width quantity="440"/><height quantity="35"/><depth quantity="105"/></dimensions><dimensions type="written" unit="mm"/></extent><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">Title Page</emph>. No foliation. Verso blank.</desc><desc xml:id="U2">4 folios = <emph rend="bold">lists</emph> (days, months, years of the Jovian cycle, etc.). Tamil foliation {1}, 2-4.</desc><desc xml:id="U3">158 folios = <emph rend="bold"><foreign xml:lang="ta">Mūlam &amp; Urai</foreign></emph>. Tamil foliation 1-158. Parallel Arabic foliation 1-158.</desc><desc xml:id="U4">1 folio = back <emph rend="bold">guard leaf</emph>. Blank recto verso.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Excellent state of preservation.</condition></supportDesc>
                   </objectDesc><handDesc>
                      
                   <handNote synch="#U1 #U2 #U3" scope="sole" script="tamil" medium="incised soot"/></handDesc><additions><desc type="commenting-note" subtype="detached">Note in black ink on a <locus facs="1">paper sheet</locus>, by Velanguani Arokium:
@@ -94,7 +94,6 @@ The number is that found in the catalogue of Velanguani Arokium (1845). </desc><
 
     <pb facs="5" n="[1]r"/>
         <seg function="title">
-
    <lb n="1"/>Astronomie &amp; Astrologie.
   <lb n="2"/>ou
   <lb n="3"/>Oullamoudèan.</seg>
@@ -102,19 +101,18 @@ The number is that found in the catalogue of Velanguani Arokium (1845). </desc><
           <pb facs="6" n="[1]v"/><note xml:lang="en">blank</note>
 
    </ab>
-</body>
-   </text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
+</body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
     <ab>
 
   <pb facs="7" n="[1]r"/>
   
-  <seg function="header">
-    <milestone unit="left-margin"/>
-  <seg function="blessing"><lb n="1"/>hari
-  <lb n="2"/>Ōm</seg>
-  <seg function="blessing"><lb n="3"/>naṉ
+<fw place="left-margin"> 
+  <seg function="blessing">
+    <lb n="1"/>hari
+  <lb n="2"/>Ōm
+    <lb n="3"/>naṉ
   <lb n="4" break="no"/>ṟāka</seg>
-    </seg>
+    </fw>
   
   <cb n="1"/>
   <lb n="1"/>ñāyaṟu
@@ -159,18 +157,17 @@ The number is that found in the catalogue of Velanguani Arokium (1845). </desc><
 
   <pb facs="15" n="1r"/>
   
-  <seg function="header">
-    <seg function="blessing"><milestone unit="left-margin"/>
-  <lb n="1"/>hari Ōm</seg>
-  <seg function="blessing"><lb n="2"/>naṉṟāka</seg>
-  <seg function="blessing"><lb n="3"/>kuru vāḻka</seg>
-  <seg function="blessing"><lb n="4"/>kuruvē tuṇai</seg>
+<fw place="left-margin">
+  <seg function="blessing">
+  <lb n="1"/>hari Ōm
+    <lb n="2"/>naṉṟāka
+    <lb n="3"/>kuru vāḻka
+    <lb n="4"/>kuruvē tuṇai</seg>
   <seg function="title"><lb n="5"/>Uḷḷamuṭai
   <lb n="6"/>cūṭāmaṇi</seg>
-    </seg>
+    </fw>
 
-  <cb n="1"/>
-  <seg function="invocation">
+    <seg function="invocation"><cb n="1"/>
     <lg><l><lb n="1"/>tiruvākkuñ ceykarumaṅ
   <lb n="2"/>kaikūṭuñ ceñcōṟ</l>
   <l><lb n="3"/>peruvākkum pīṭum pe
@@ -202,6 +199,4 @@ The number is that found in the catalogue of Velanguani Arokium (1845). </desc><
   <lb n="1-4"/><gap reason="ellipsis"/>
   <seg function="colophon"><lb n="5"/><gap reason="ellipsis"/> patam vaṇaṅki y<pc>-</pc>eḻuti muṭintatu niṟai vēṟiyatē = muṟṟum =</seg>
   </ab>
-  </body>
-  
-  </text></TEI>
+  </body></text></TEI>

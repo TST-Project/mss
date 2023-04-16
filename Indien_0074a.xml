@@ -8,7 +8,7 @@
          <editor><persName>Eva WILDEN</persName><orgName>Universität Hamburg</orgName></editor></titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2022</date>
+            <date>2023</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -30,17 +30,17 @@
                   
                <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
-                        <extent>
+                        
+                        
+                        
+                     <support/><extent>
                            <measure unit="folio" quantity="50">{1} + 49 + (U1 + U2).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
                            <width quantity="450"/><height quantity="30"/></dimensions>
                            <note>The leaves are broader in their middle than at their edges. </note>
-                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
-                        
-                        
-                     <support/><foliation>Tamil foliation.</foliation><collation><desc xml:id="U1">1 folio = <emph rend="bold"><title xml:lang="ta">Nīticāram</title>: Satellite Stanza</emph>. Tamil foliation 1. Verso blank. f1r more dark = original outside page.
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent><foliation>Tamil foliation.</foliation><collation><desc xml:id="U1">1 folio = <emph rend="bold"><title xml:lang="ta">Nīticāram</title>: Satellite Stanza</emph>. Tamil foliation 1. Verso blank. f1r more dark = original outside page.
 </desc><desc xml:id="U2">49 folios = <emph rend="bold"><title xml:lang="ta">Nīticāram</title>: Text &amp; Commentary</emph>. Tamil foliation 1-49. 
 </desc></collation><condition>Good state of preservation.</condition></supportDesc>
                      <layoutDesc>
@@ -78,17 +78,18 @@
    
 <facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10463674m/manifest.json" facs="5"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   <ab>
+    
   <pb facs="5" n="[1]r"/>
   
-  <seg function="header">
-    <seg function="blessing"><milestone unit="left margin"/>
-  <lb n="1"/>hari Ōm</seg>
-  <seg function="blessing"><lb n="2"/>naṉṟāka</seg>
-  <seg function="blessing"><lb n="3"/>kuru vāḻka</seg>
-  <seg function="blessing"><lb n="4"/>kuruvē tuṇai</seg>
-    </seg>
+<fw place="left-margin">
+  <seg function="blessing">
+  <lb n="1"/>hari Ōm
+    <lb n="2"/>naṉṟāka
+    <lb n="3"/>kuru vāḻka
+    <lb n="4"/>kuruvē tuṇai</seg>
+    </fw>
   
-  <seg function="satellite-stanza"><milestone unit="main text area"/>
+  <seg function="satellite-stanza">
   <lg><l><lb n="1"/>paruti matiyil tuppār micaiyōrk kellān</l> <l>tarumaṉeṟi nīti taṉaic cāṟṟāk <space/> karutiyiṭun</l>
     <l><lb n="2"/>tuṅka veḻuttaintukāc cuntirapōṟ ceñcaṭaiyīr</l> <l>kaṅkai cutaṉṟanti mukaṉ kāppu <g ref="#pcl"/></l></lg></seg> <seg function="blessing">vāṇinamas tu</seg>
    
@@ -100,10 +101,10 @@
     
   <pb facs="7" n="1r"/>
   
-  <seg function="header">
-    <seg function="blessing"><milestone unit="left margin"/>
+<fw place="left-margin">
+  <seg function="blessing">
   <lb n="1-2"/>naṉṟāka</seg>
-    </seg>
+    </fw>
   
   <seg function="incipit" type="root-text"><cb n="1"/>
   <lg><l><lb n="1"/>cīrpeṟu tarumañceykai terinta tiṉvaḻiyē ceṉṟu</l>
@@ -121,8 +122,7 @@
 <lb n="3"/>taṉakkākāta kāriyam piṟarukkumākāteṉṟu
 <lb n="4"/>Aṭutta taṟmaṅkaḷaic ceytumō<gap reason="illegible" quantity="1" unit="character"/>ma<gap reason="illegible" quantity="1" unit="character"/>lāreṉṟa vāṟu <g ref="#pcs"/></seg>
  
-  
-    <pb facs="104" n="49v"/>
+      <pb facs="104" n="49v"/>
     
    <seg function="explicit" type="root-text"><cb n="1"/>
   <lg><l><lb n="1"/>pāri<subst><del>ṭai</del><add>ṭa</add></subst> miṉṉaik kaṇṭāl parintutaṉmāta <space/>pōlum</l>
