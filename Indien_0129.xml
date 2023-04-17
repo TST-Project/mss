@@ -38,21 +38,21 @@
                   
                <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
-                        <support>
+                        
+                        
+                        
+                        
+                        
+                     <support>
                            
                            
-                        <p>Indien 129a has been resized, seemingly to fit the bundle.</p></support>
-                        <extent>
+                        <p>Indien 129a has been resized, seemingly to fit the bundle.</p></support><extent>
                            <measure unit="folio" quantity="33">{1} + 12 + 19 + {1} (U1 + Indien 129a + Indien 129b + U2).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
                            <width min="200" max="210"/><height min="30" max="30"/></dimensions>
-                        <dimensions type="object" unit="mm"><width quantity="210"/><height quantity="35"/><depth quantity="35"/></dimensions><dimensions type="written" unit="mm"/></extent>
-                        
-                        
-                        
-                     <collation><desc xml:id="CoverFront">the <emph rend="bold">front cover (additional)</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">Title Page (additional)</emph>. No foliation. Single folio. Verso blank. 210 x 35 mm.
+                        <dimensions type="object" unit="mm"><width quantity="210"/><height quantity="35"/><depth quantity="35"/></dimensions><dimensions type="written" unit="mm"/></extent><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover (additional)</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">Title Page (additional)</emph>. No foliation. Single folio. Verso blank. 210 x 35 mm.
                 
 </desc><desc xml:id="Indien129a">12 folios. 210 x 35 mm.</desc><desc xml:id="Indien129b">19 folios. 200 x 35 mm.</desc><desc xml:id="U2">1 folio = <emph rend="bold">guard leaf (additional) </emph>. No foliation. Single folio. Verso blank. 200 x 30 mm.
 
@@ -90,13 +90,16 @@
   <ab>
     
   <pb facs="8" n="[1]r"/>
-  <seg function="blessing"><cb n="1"/>
+    <fw place="left-margin">
+  <seg function="blessing">
  <lb n="1-2"/>veṟṟivēl uṟṟa tuṇai</seg>
+      </fw>
   
-<seg function="title"><cb n="2"/>
+<seg function="table-of-contents"><seg function="title">
  <lb n="1"/>koṅkaṇar 2</seg>
 <seg function="title"><lb n="2"/>pūcāviti</seg>
 <seg function="title"><lb n="3"/>kaṭaikkāṇṭam</seg>
+  </seg>
 
     <pb n="[1]v"/><note xml:lang="en">blank</note>
     

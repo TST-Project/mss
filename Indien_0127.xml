@@ -34,21 +34,21 @@
                   
                <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
-                        <support>
+                        
+                        
+                        
+                        
+                        
+                     <support>
                            
                            
-                        </support>
-                        <extent>
+                        </support><extent>
                            <measure unit="folio" quantity="31">2 + 29 (U1 + U2).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
                            <width min="300" max="315"/><height min="45" max="50"/></dimensions>
-                        <dimensions type="object" unit="mm"><width quantity="325"/><height quantity="50"/><depth quantity="30"/></dimensions><dimensions type="written" unit="mm"/></extent>
-                        
-                        
-                        
-                     <collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">2 folios = <emph rend="bold">Medical Treatise</emph>. Tamil foliation 25-56. Folios in disorder in the bundle. 7-8 lpp. Another left hole remade left of original left hole so as to accommodate these two folios in the bundle. Left edges recut. 315 x 45 mm.</desc><desc xml:id="U2">29 folios = <emph rend="bold">Medical Treatise</emph>. Tamil foliation <q>4<unclear>8</unclear></q>, 56-59, 63, 66, 68-71, 73, 76, 78-82, 85, 94-95, 97-99, 120, 122-123, 127-128. Folios in disorder in the bundle.  7-11 lpp. 300 x 50 mm.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Relatively good state of preservation. U2, f127 truncated on both edges.</condition></supportDesc>
+                        <dimensions type="object" unit="mm"><width quantity="325"/><height quantity="50"/><depth quantity="30"/></dimensions><dimensions type="written" unit="mm"/></extent><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">2 folios = <emph rend="bold">Medical Treatise</emph>. Tamil foliation 25-56. Folios in disorder in the bundle. 7-8 lpp. Another left hole remade left of original left hole so as to accommodate these two folios in the bundle. Left edges recut. 315 x 45 mm.</desc><desc xml:id="U2">29 folios = <emph rend="bold">Medical Treatise</emph>. Tamil foliation <q>4<unclear>8</unclear></q>, 56-59, 63, 66, 68-71, 73, 76, 78-82, 85, 94-95, 97-99, 120, 122-123, 127-128. Folios in disorder in the bundle.  7-11 lpp. 300 x 50 mm.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Relatively good state of preservation. U2, f127 truncated on both edges.</condition></supportDesc>
                      <layoutDesc>
                         
                      <layout writtenLines="7 11"/></layoutDesc>
@@ -86,23 +86,29 @@
     
   <pb facs="5" n="25r"/>
     
-  <seg function="intertitle"><milestone unit="left-margin"/>
+  <fw place="left-margin">
+    <seg function="intertitle">
   <lb n="1-6"/>Irattacūlaikku kuṉmacūlai</seg>
+    </fw>
 
-  <seg function="incipit"><milestone unit="main-text-area"/>
+  <seg function="incipit">
   <lb n="1"/><gap reason="ellipsis"/></seg>
   
       <pb facs="8" n="25v"/>
 
    <pb facs="9" n="26r"/>
-  <seg function="intertitle"><milestone unit="left-margin"/>
+  <fw place="left-margin">
+    <seg function="intertitle">
   <lb n="1-5"/>kuṉmat=tukku kuṭi nīr</seg>
+    </fw>
   
   <pb facs="13" n="26v"/>
-  <seg function="intertitle"><milestone unit="left-margin"/>
+  <fw place="left-margin">
+    <seg function="intertitle">
   <lb n="1-5"/>ku<unclear reason="eccentric_ductus">ṉmat=tu</unclear>kku pari<unclear>ci</unclear>kkiṟatu <g ref="#pcs"/></seg>
+    </fw>
   
-   <seg function="explicit"><milestone unit="main-text-area"/>
+   <seg function="explicit">
   <lb n="7"/><gap reason="ellipsis"/></seg>
   </ab>
 </body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
@@ -110,20 +116,22 @@
 
   <pb facs="16" n="4[8]r"/>
       
-  <seg function="intertitle"><milestone unit="left-margin"/>
+  <fw place="left-margin"><seg function="intertitle">
   <lb n="1-6"/><gap reason="ellipsis"/> maruntum kuṭinīrum <g ref="#pcs"/>
 </seg>
+    </fw>
 
-  <seg function="incipit"><milestone unit="main-text-area"/>
+  <seg function="incipit">
   <lb n="1"/>Ikkuṭinīr kuṭikkum pēr <gap reason="ellipsis"/></seg>
   
    <pb facs="33" n="128v"/>
       
-  <seg function="intertitle"><milestone unit="left-margin"/>
+  <fw place="left-margin"><seg function="intertitle">
 <lb n="1-4"/><gap reason="ellipsis"/></seg>
   <seg function="intertitle"><lb n="5-8"/><gap reason="ellipsis"/><note xml:lang="en">unblackened</note></seg>
+    </fw>
     
-   <seg function="explicit"><milestone unit="main-text-area"/>
+   <seg function="explicit">
   <lb n="11"/><gap reason="ellipsis"/></seg>
   </ab>
 </body></text></TEI>

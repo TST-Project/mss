@@ -37,21 +37,21 @@
                   
                <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
-                        <support>
+                        
+                        
+                        
+                        
+                        
+                     <support>
                            
                            
-                        </support>
-                        <extent>
+                        </support><extent>
                            <measure unit="folio" quantity="68">{1} + 64 + {1} + {1} + {1} (U1 + U2 + U3 + U4 + U5).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
                            <width min="110" max="125"/><height min="30" max="35"/></dimensions>
-                        <dimensions type="object" unit="mm"><width quantity="120"/><height quantity="35"/><depth quantity="55"/></dimensions><dimensions type="written" unit="mm"/></extent>
-                        
-                        
-                        
-                     <collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = front <emph rend="bold">guard leaf</emph>. No foliation. Verso blank. Truncated. 110 x 30 mm.
+                        <dimensions type="object" unit="mm"><width quantity="120"/><height quantity="35"/><depth quantity="55"/></dimensions><dimensions type="written" unit="mm"/></extent><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = front <emph rend="bold">guard leaf</emph>. No foliation. Verso blank. Truncated. 110 x 30 mm.
 </desc><desc xml:id="U2">64 folios = <emph rend="bold">Medical Treatise</emph>. Tamil foliation 2-6, 14-72. 115/120 x 35 mm.
 </desc><desc xml:id="U3">1 folio = <emph rend="bold">TBC</emph>. No foliation. 125 x 35 mm. </desc><desc xml:id="U4">1 folio = <emph rend="bold">TBC</emph>. No foliation. Unblackened. Double folio. 125 x 35 mm. 
 </desc><desc xml:id="U5">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso, except foliation (?) on recto (<quote><unclear>10</unclear></quote>). 120 x 30 mm. 
@@ -67,7 +67,7 @@ ticker <quote xml:lang="fr" rend="block">
 <lb n="5"/>que ce manuscrit contien<supplied reason="lost">t</supplied>
 <lb n="6"/>de grands secrets de
 <lb n="7"/>medecine.
-</quote>.</desc><desc synch="#CoverBack" type="shelfmark" subtype="back cover">BnF shelfmark sticker: <quote>INDIEN 126</quote> (<locus facs="1">back cover, verso</locus>).</desc><desc synch="#U2 #U3" type="intertitle shelfmark" subtype="marginal left">Left-marginal intertitles.</desc></additions><bindingDesc>
+</quote></desc><desc synch="#CoverBack" type="shelfmark" subtype="back cover">BnF shelfmark sticker: <quote>INDIEN 126</quote> (<locus facs="1">back cover, verso</locus>).</desc><desc synch="#U2 #U3" type="intertitle shelfmark" subtype="marginal left">Left-marginal intertitles.</desc></additions><bindingDesc>
                      <binding><p><material cert="medium">Pinewood</material> covers apparently fabricated in the BnF.</p><decoNote type="stringhole"><measure unit="stringhole" quantity="1"/></decoNote></binding>
                   </bindingDesc></physDesc>
                <history>
@@ -100,10 +100,11 @@ ticker <quote xml:lang="fr" rend="block">
   
     <pb facs="73" n="[1]r"/>
   
-  <milestone unit="left-margin"/>
+  <fw place="left-margin">
   <lb n="1"/><unclear><gap reason="ellipsis"/></unclear>
     <seg function="blessing"><lb n="2"/>Om</seg> <g ref="#latin_cross"/>
-
+</fw>
+    
   <cb n="1"/>
   <lb n="1"/>Ā
   
@@ -120,13 +121,15 @@ ticker <quote xml:lang="fr" rend="block">
   <seg function="incipit"><lb n="1"/><gap reason="ellipsis"/></seg>
   
   <pb facs="73" n="3r"/>
-  <seg function="intertitle"><milestone unit="left-margin"/>
+  <fw place="left-margin">
+    <seg function="intertitle">
   <lb n="1"/>mēkave
 <lb n="2" break="no"/>ṭṭaiyi
 <lb n="3" break="no"/>lē piṟana
 <lb n="4" break="no"/>viyātik
 <lb n="5"/>kollā
 <lb n="6" break="no"/>m kaṇatu</seg>
+    </fw>
   
 <pb facs="7" n="72v"/>
   <seg function="explicit"><lb n="1"/><gap reason="ellipsis"/></seg>
@@ -136,11 +139,11 @@ ticker <quote xml:lang="fr" rend="block">
 
     <pb facs="7" n="[1]r"/>
   
-  <milestone unit="left-margin"/>
-  <seg function="title"><lb n="1"/>viṉōtam</seg>
+  <fw place="left-margin">
+  <seg function="title"><lb n="1"/>viṉōtam ~</seg>
+    </fw>
 
-  <milestone unit="main-text-area"/>
-  <seg function="incipit"><lb n="1"/><gap reason="ellipsis"/></seg>
+   <seg function="incipit"><lb n="1"/><gap reason="ellipsis"/></seg>
   <lb n="2-9"/><gap reason="ellipsis"/>
   
   <pb facs="6" n="[1]v"/>
