@@ -9,7 +9,7 @@
          
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2022</date>
+            <date>2023</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -42,17 +42,17 @@
                   
                <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
-                        <extent>
+                        
+                        
+
+                        
+                     <extent>
                            <measure unit="folio" quantity="173">{1} + {1} + 66 + 13 + {4} + 11 + 10 + 17 + {1} + 49 (U1 + U2 + U3 + U4 + U5 + U6 + U7 + U8 + U9 + U10).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
                            <width min="280" max="290"/><height min="30" max="35"/></dimensions>
-                        <dimensions type="object" unit="mm"><width quantity="290"/><height quantity="35"/><depth quantity="115"/></dimensions><dimensions type="written" unit="mm"/></extent>
-                        
-
-                        
-                     <collation>
+                        <dimensions type="object" unit="mm"><width quantity="290"/><height quantity="35"/><depth quantity="115"/></dimensions><dimensions type="written" unit="mm"/></extent><collation>
                         
                         
                         
@@ -122,19 +122,20 @@
   <ab>
   <pb facs="2" n="[1]r"/>
   
-  <seg function="title"><cb n="1"/>
+  <seg function="table-of-contents">
+    <seg function="title"><cb n="1"/>
   <lb n="1"/>Akattiyar 6</seg>
     <seg function="title"><lb n="2"/>vayittiyam ~ <num rend="traditional">300</num></seg>
 <seg function="title"><lb n="3"/>paṟpavakai <term xml:lang="en">{line-filler = circle}</term></seg>
     <seg function="title"><lb n="4"/>vayittiyam ~ <num rend="traditional">50</num></seg>
 <seg function="title"><lb n="5"/>paṣṣiṇi</seg>
+    </seg>
 
     <cb n="2"/>
   <lb n="1"/><gap reason="ellipsis"/><note xml:lang="en">2 unblackened letters/numbers, left of the right hole</note>
     
     </ab>
-   </body>
-                     </text><text synch="#U3" corresp="#T2" xml:lang="ta"><body>
+   </body></text><text synch="#U3" corresp="#T2" xml:lang="ta"><body>
     <ab>
 
   <pb facs="4" n="[1]r"/>
@@ -153,8 +154,7 @@
 <lb n="8"/>vayit=tiya-cūṣttiramuṉṉūṟum y<pc>-</pc>eḷuti muṭintatu mu<orig>t=tu</orig>m <g ref="#pcl"/> <g ref="#pcs"/></seg>
 
   </ab>
-  </body>
-                     </text><text synch="#U4" corresp="#T3" xml:lang="ta"><body>
+  </body></text><text synch="#U4" corresp="#T3" xml:lang="ta"><body>
     <ab>
 
   <pb facs="71" n="[1]r"/>
@@ -166,7 +166,6 @@
       </fw>
       
   <seg function="incipit">
-    <milestone unit="main-text-area"/>
   <lb n="1"/><gap reason="ellipsis"/></seg>   
   
     <seg function="explicit"><pb facs="83" n="13r"/>  
@@ -174,8 +173,7 @@
  
       <pb facs="82" n="13v"/><note xml:lang="en">blank</note>
  </ab>
-  </body>
-                     </text><text synch="#U5" corresp="#T4" xml:lang="ta"><body>
+  </body></text><text synch="#U5" corresp="#T4" xml:lang="ta"><body>
     <ab>
 
   <pb facs="0" n="[1]r"/>
@@ -188,16 +186,17 @@
   <pb facs="0" n="[4]v"/>
   
       </ab>
-  </body>
-                     </text><text synch="#U6" corresp="#T5" xml:lang="ta"><body>
+  </body></text><text synch="#U6" corresp="#T5" xml:lang="ta"><body>
     <ab>
 
   <pb facs="88" n="[1]r"/>
   
-  <seg function="title"><milestone unit="left-margin"/>
+  <fw place="left-margin">
+    <seg function="title">
   <lb n="1-7"/>Akat=tiycuvāmi Uṭala<gap reason="ellipsis"/> cūttiram vayit=ti<g rend="below-base">yaM</g> <choice><sic>Aṉ</sic><corr>Aim</corr></choice>patu</seg>
+    </fw>
 
-  <seg function="incipit"><milestone unit="main-text-area"/>
+  <seg function="incipit">
   <lb n="1"/><gap reason="ellipsis"/></seg>   
        
     <pb facs="98" n="11r"/>
@@ -207,25 +206,25 @@
 <note xml:lang="en">blank</note>
   
       </ab>
-  </body>
-                     </text><text synch="#U7" corresp="#T6" xml:lang="ta"><body>
+  </body></text><text synch="#U7" corresp="#T6" xml:lang="ta"><body>
     <ab>
 
   <pb facs="99" n="[1]r"/>
   
-  <seg function="title"><milestone unit="left-margin"/>
+      <fw place="left-margin">
+  <seg function="title">
   <lb n="1-3"/>Akat=tiyar yīcar paccaṉi</seg>
+        </fw>
 
   
-  <seg function="incipit"><milestone unit="main-text-area"/>
+  <seg function="incipit">
   <lb n="1"/><gap reason="ellipsis"/></seg>   
        
     <pb facs="107" n="10v"/>
       <seg function="explicit"><lb n="6"/><gap reason="ellipsis"/> paṣcaṇi Uraikka muttē <g ref="#pcl"/> <num rend="traditional">128</num> <g ref="#pcs"/></seg> <seg function="TBC">taṇṭalaiyātiṉāmum tanṭakkam</seg>      
   
       </ab>
-  </body>
-                     </text><text synch="#U8" corresp="#T7" xml:lang="ta"><body>
+  </body></text><text synch="#U8" corresp="#T7" xml:lang="ta"><body>
     <ab>
 
   <pb facs="109" n="1r"/>
@@ -236,14 +235,13 @@
 <seg function="title"><lb n="2-7"/>Akaṣttiyar Aṣṭṭakaṟmmam yeṭṭumatilatam</seg>
         </fw>
   
-  <seg function="incipit"><milestone unit="main-text-area"/>
+  <seg function="incipit">
   <lb n="1"/><gap reason="ellipsis"/></seg>   
        
     <pb facs="125" n="17v"/>
   <seg function="explicit"><lb n="8"/><gap reason="ellipsis"/> tirukkap pōṟaṉ eṉṟu</seg>
      </ab> 
-  </body>
-                     </text><text synch="#U9" corresp="#T8" xml:lang="ta"> <body>
+  </body></text><text synch="#U9" corresp="#T8" xml:lang="ta"> <body>
      <ab>
 
    <pb facs="127" n="[1]r"/>
@@ -263,7 +261,7 @@
          <seg function="title"><lb n="3-4"/>Akastiyar pūcāviti</seg>
          </fw>
 
-    <seg function="incipit"><milestone unit="main-text-area"/>
+    <seg function="incipit">
   <lb n="1"/><gap reason="ellipsis"/></seg>   
        
     <pb facs="176" n="49v"/>

@@ -119,8 +119,8 @@
 
   <pb facs="2" n="[1]r"/>
   
-  <seg function="title">
-    <cb n="1"/>
+  <seg function="table-of-contents">
+    <seg function="title"><cb n="1"/>
   <lb n="1-2"/>Akasttiyar Āṟu
 </seg>
   
@@ -134,21 +134,22 @@
   
   <seg function="title"><cb n="3"/>
   <lb n="1"/>mūlam</seg>
+    </seg>
 
       <pb facs="3" n="[1]v"/><note xml:lang="en">unblackened; centred between the 2 holes</note>
 <seg function="ownership-statement" cert="low"><lb n="1-2"/>piḷḷaivākaṭam</seg>
       
       </ab>      
-   </body>
-                     </text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
+   </body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
     <ab>
 
   <pb facs="3" n="1r"/>
-  
-  <seg function="title"><milestone unit="left-margin"/>
+  <fw place="left-margin">
+  <seg function="title">
   <lb n="1-4"/>Akastiya-māmuṉi-vāta-nūṟu</seg>
+    </fw>
 
-<seg function="incipit"><milestone unit="main-text-area"/>
+<seg function="incipit">
   <lb n="1"/><gap reason="ellipsis"/></seg>   
   
         <pb facs="29" n="26v"/>
@@ -158,16 +159,16 @@
  <lb n="7"/>vātaṉūṟu y<pc>-</pc>eḻuti mukintatu muṟṟum <g ref="#pcs"/> <seg function="blessing">vēyuṟutōḷipaṅkaṉ tuṇai</seg></seg>
   
   </ab>
-  </body>
-                     </text><text synch="#U3" corresp="#T3" xml:lang="ta"><body>
+  </body></text><text synch="#U3" corresp="#T3" xml:lang="ta"><body>
     <ab>
 
   <pb facs="29" n="1r"/>
-  <seg function="title">
-  <milestone unit="left-margin"/>
+  <fw place="left-margin">
+    <seg function="title">
   <lb n="1-9"/>Akastiyar aruḷic ceyta tuṟavukol cūttiram patiṉāṟu</seg>
+    </fw>
 
-  <seg function="incipit"><milestone unit="main-text-area"/>
+  <seg function="incipit">
   <lb n="1"/><gap reason="ellipsis"/></seg>   
   
     <pb facs="33" n="5r"/>  
@@ -177,17 +178,16 @@
    <seg function="explicit"><lb n="1"/><gap reason="ellipsis"/></seg>
   
       </ab>
-  </body>
-                     </text><text synch="#U4" corresp="#T4" xml:lang="ta"><body>
+  </body></text><text synch="#U4" corresp="#T4" xml:lang="ta"><body>
     <ab>
 
   <pb facs="34" n="1r"/>
-  
-  <seg function="title"><milestone unit="left-margin"/>
+  <fw place="left-margin">
+  <seg function="title">
   <lb n="1-5"/>Akastiyar aruḷic ceyta vātacūttiram patiṉālu</seg>
+    </fw>
 
   <seg function="incipit">
-    <milestone unit="main-text-area"/>
   <lb n="1"/><gap reason="ellipsis"/></seg>   
   
          <pb facs="38" n="4v"/>
@@ -196,13 +196,12 @@
 <lb n="8"/>tōḷipaṅkaṉ ṟuṇai <g ref="#pcs"/></seg></seg>
 
   </ab>
-  </body>
-                     </text><text synch="#U5" corresp="#T5" xml:lang="ta"><body>
+  </body></text><text synch="#U5" corresp="#T5" xml:lang="ta"><body>
       <ab>
 
   <pb facs="38" n="1r"/>
-  
-  <seg function="blessing"><milestone unit="left-margin"/>
+  <fw place="left-margin">
+  <seg function="blessing">
   <lb n="1"/><term xml:lang="sa">hari</term> Ōm</seg>
   <seg function="title"><lb n="2"/>Akastti
 <lb n="3" break="no"/>yar cūtti
@@ -210,8 +209,9 @@
 <lb n="5" break="no"/>raṇtu ~</seg> <seg function="blessing">ku
 <lb n="6" break="no"/>ruvē tu
 <lb n="7" break="no"/>ṇai</seg>
+    </fw>
 
-  <seg function="incipit"><milestone unit="main-text-area"/>
+  <seg function="incipit">
   <lb n="1"/><gap reason="ellipsis"/></seg>   
        
     <pb facs="42" n="5r"/>
@@ -222,13 +222,13 @@
   <pb facs="43" n="5v"/><note xml:lang="en">blank</note>
 
   </ab>
-  </body>
-                     </text><text synch="#U6" corresp="#T6" xml:lang="ta"><body>
+  </body></text><text synch="#U6" corresp="#T6" xml:lang="ta"><body>
     <ab>
 
   <pb facs="43" n="1r"/>
   
-      <fw place="left-margin"><seg function="blessing">
+      <fw place="left-margin">
+        <seg function="blessing">
   <lb n="1-2"/>tirucciṟṟampalam</seg>
   <seg function="blessing"><lb n="3-4"/>cuppiramaṇiyar tuṇai =</seg>
   <seg function="title"><lb n="5-6"/>pūrṇaccūttiram</seg>
@@ -245,7 +245,7 @@
   
       </ab>
   </body>
-                     </text><text synch="#U7" corresp="#T7" xml:lang="ta"><body>
+</text><text synch="#U7" corresp="#T7" xml:lang="ta"><body>
     <ab>
 
   <pb facs="100" n="1r"/>
@@ -255,12 +255,11 @@
   <seg function="blessing"><lb n="4-6"/>tirucciṟṟampalam</seg>
         </fw>
   
-  <seg function="incipit"><milestone unit="main-text-area"/>
+  <seg function="incipit">
   <lb n="1"/><gap reason="ellipsis"/></seg>   
        
     <pb facs="107" n="5v"/>
   <seg function="incipit"><lb n="1"/><gap reason="ellipsis"/></seg>
       
       </ab>
-  </body>
-                     </text></TEI>
+  </body></text></TEI>

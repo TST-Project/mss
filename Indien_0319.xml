@@ -190,9 +190,11 @@
 		<body>
 			<ab>
 				<pb facs="5" n="1r"/>
-				<seg function="header"><seg function="blessing"><milestone unit="left-margin"/>
-						<lb n="1"/>civam</seg></seg>
-				<seg function="satellite-stanza"><milestone unit="main-text-area"/>
+				<fw place="left-margin"><seg function="blessing">
+						<lb n="1"/>civam</seg>
+				</fw>
+				
+				<seg function="satellite-stanza">					
 					<lb n="1-4"/>veṇṇil<gap reason="ellipsis"/></seg>
 			</ab>
 		</body>
@@ -201,15 +203,16 @@
 		<body>
 			<ab>
 				<pb facs="7" n="[1]r"/>
-				<seg function="header">
-					<seg function="title"><milestone unit="left-margin"/>
+				<fw place="left-margin">
+					<seg function="title">
 						<lb n="1"/>kūrmapu
   <lb n="2" break="no"/>rāṇam</seg>
 					<g ref="#pcs"/>
 					<seg function="intertitle"><lb n="3"/>kaṭavuḷ
   <lb n="4"/>vāḻttu</seg>
-				</seg>
-				<seg function="incipit"><milestone unit="main-text-area"/>
+				</fw>
+					
+				<seg function="incipit">
 					<lb n="1"/><gap reason="ellipsis"/></seg>
 				<pb facs="597" n="296r"/>
 				<seg function="explicit"><lb n="6"/>tōr mutti vīṭṭiṉ itu vīṟṟiruppār <g ref="#pcs"/>

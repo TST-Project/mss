@@ -60,10 +60,13 @@
                      <origDate calendar="gregorian" notAfter="1866">No internal date. Not dated by Vinson in Vinson et al. (1866-) nor by Cabaton (1912). Not later than first mention in a catalogue.</origDate>
                      <origPlace>South India, Tamil Nadu.</origPlace>
                   </origin>
-                  <acquisition>
-                     
-                  <p>Unknown.</p></acquisition>
-               <provenance><p>Unknown.</p></provenance></history>
+               	<provenance>
+               		<p>Unknown.</p>
+               	</provenance>
+               	<acquisition>                  
+               		<p>Unknown.</p>
+               	</acquisition>
+               </history>
                <additional>
                   <listBibl>
                      
@@ -81,8 +84,9 @@
     <ab>
 
   <pb facs="45" n="[1]r"/>
-  <seg function="header">
-  <seg function="title"><milestone unit="left-margin"/>
+    	<fw place="left-margin">
+  <seg function="title">
+  	
   <lb n="1"/><persName xml:lang="ta" role="author">kumara-kurupara
   <lb n="2" break="no"/>t tampirā
   <lb n="3" break="no"/>ṉ</persName> pāṭal</seg>
@@ -90,9 +94,8 @@
   <lb n="5" break="no"/>cakalāva
   <lb n="6" break="no"/>lli</seg> <seg function="prosody">kali
   <lb n="7" break="no"/>ttuṟai</seg> ~
-      </seg>
+      </fw>
 
-  <milestone unit="main-text-area"/>
   <lb n="1-4"/><note xml:lang="en">verse 1</note>
   
   <pb n="3v"/>
