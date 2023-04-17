@@ -95,9 +95,9 @@
     
   <pb facs="1" n="[1]r"/>  
   
-  <seg function="header"><seg function="blessing"><milestone unit="left-margin"/>
+  <fw place="left-margin"><seg function="blessing">
   <lb n="1"/>veṟṟivē
-  <lb n="2" break="no"/>l uṟṟa tuṇai</seg></seg>
+  <lb n="2" break="no"/>l uṟṟa tuṇai</seg></fw>
   
   <seg function="title"><cb n="1"/>
   <lb n="1"/>Iḵtu
@@ -113,10 +113,12 @@
 
   <pb facs="5" n="[1]r"/>  
   
-  <milestone unit="left-margin"/>
-  <lb n="1"/>pappu
+    	<fw place="left-margin">
+    		<milestone unit="left-margin"/>
+    		<lb n="1"/>pappu
+    	</fw>
+    	  
   
-  <milestone unit="main-text-area"/>
   <lb n="1"/><unclear>Uḻiñaiyē ciṟu pūḷaip poṉṟu veyil vaḷait=tala muppo</unclear> 
       </ab>
 </body></text><text synch="#U3" corresp="#T3" xml:lang="ta"><body>
@@ -124,15 +126,15 @@
     
   <pb facs="7" n="[1]r"/>  
   
-  <seg function="header"><milestone n="1" unit="left-margin"/>
+  <fw place="left-margin"><cb n="1"/>
   <lb n="1"/><g ref="#pcs"/>
   <lb n="2"/><gap reason="ellipsis"/>
    
-  <milestone n="2" unit="left-margin"/>
+  <cb n="2"/>
   <seg function="blessing"><lb n="1"/><term xml:lang="sa">hari
-  <lb n="2"/>Om</term></seg></seg>
+  <lb n="2"/>Om</term></seg></fw>
   
-  <seg function="satellite-stanza"><milestone unit="main-text-area"/>
+  <seg function="satellite-stanza">
   <lg><l><lb n="1"/>nāṭiya poruḷ kaikūṭum ~ ñāṉamum pukaḻum uṇṭām ~</l> <l>vīṭuyara vaḻiyatarkkum ~ veriyaṅ kamalai ṉokkām</l>
 <l><lb n="2"/>nīṭiyavākkar ceṉai nīṟu paṭṭoḻiya vākai ~</l> <l>cūṭiya cilaiyi rāmaṉ ṟauvali kūruvorkkē <g ref="#pcs"/></l></lg></seg>
     
@@ -141,17 +143,17 @@
     <ab>
 
   <pb facs="9" n="[1]r"/>  
-  <seg function="header">
-  <seg function="blessing"><milestone unit="left-margin"/>
-  <lb n="1"/><term xml:lang="sa">hari Om·</term></seg>
-  <seg function="blessing"><lb n="2"/>naṉṟāka</seg>
+  <fw place="left-margin">
+  <seg function="blessing">
+  <lb n="1"/><term xml:lang="sa">hari Om·</term>
+  	<lb n="2"/>naṉṟāka</seg>
   <seg function="intertitle"><lb n="3"/>Uyittiya
-  <lb n="4" break="no"/>kāṇṭam</seg>
-  <seg function="intertitle"><lb n="5"/>kaṭal kā
+  <lb n="4" break="no"/>kāṇṭam
+  	<lb n="5"/>kaṭal kā
   <lb n="6" break="no"/>ṇappaṭalam</seg>
-    </seg>
+    </fw>
   
-  <seg function="TBC"><milestone unit="main-text-area"/>
+  <seg function="TBC">
   <lg><l><lb n="1"/>Oru pūvi <gap reason="ellipsis"/>
     <lb n="2"/><gap reason="ellipsis"/> = 1 =</l></lg> <lg><l><gap reason="ellipsis"/>
       <lb n="3"/><gap reason="ellipsis"/> 
@@ -160,13 +162,12 @@
       <lb n="6"/><gap reason="ellipsis"/> = 3 =</l></lg></seg><gap reason="ellipsis"/>
         
       <pb facs="12" n="2v"/> 
-      <seg function="header">
-        <seg function="intertitle"><milestone unit="left-margin"/>
+      <fw place="left-margin">
+        <seg function="intertitle">
           <lb n="1ff."/>mantirapaṭalam</seg>
-      </seg>
+      </fw>
       
-      <milestone unit="main-text-area"/>
-      <lb n="1"/><gap reason="ellipsis"/>
+           <lb n="1"/><gap reason="ellipsis"/>
       <lb n="2"/><gap reason="ellipsis"/> pēcuvām = <num rend="traditional">14</num> =
       <seg function="completion-statement"><lb n="3"/>kaṭal kāṇappaṭalam = muṟṟiṟṟu = =</seg> pūvarumay <gap reason="ellipsis"/>
     
@@ -185,14 +186,14 @@
     
   <pb facs="39" n="[1]r"/>  
   
-  <seg function="header">
-    <milestone n="1" unit="left-margin"/>
+  <fw place="left-margin">
+    <cb n="1"/>
   <lb n="1"/><g ref="#pcs"/>
-    <seg function="intertitle"><milestone n="2" unit="left-margin"/>
+    <seg function="intertitle"><cb n="2"/>
   <lb n="1"/>Iṟaṇiya
-  <lb n="2"/>vatappaṭalam</seg></seg>
+  <lb n="2"/>vatappaṭalam</seg></fw>
 
-  <seg function="incipit"><milestone unit="main-text-area"/>
+  <seg function="incipit">
   <lg><l><lb n="1"/>vētam kaṇṇiya<gap reason="ellipsis"/>
   <lb n="2"/><gap reason="ellipsis"/></l></lg></seg> <gap reason="ellipsis"/>
   
@@ -201,330 +202,328 @@
         <lb n="4" break="no"/>ppaṭalamuṟṟum</seg> <seg function="total-stanzas">{Āka} paṭal – 3kki ceyyuḷ <num rend="traditional">309</num> –</seg> <seg function="blessing">rāmaceyam –</seg>
 
     <pb facs="71" n="17r"/>
-    <seg function="header">
-      <milestone n="1" unit="left-margin"/>
+    <fw place="left-margin">
+      <cb n="1"/>
   <lb n="1"/><g ref="#pcs"/>
   <seg function="foliation"><lb n="2"/>17</seg>
-   <seg function="intertitle"><milestone n="2" unit="left-margin"/>
+   <seg function="intertitle"><cb n="2"/>
   <lb n="1"/>Uyittiya
   <lb n="2"/>kā<unclear>ṇ</unclear><supplied reason="lost">ṭa</supplied>m</seg>
   <seg function="intertitle"><lb n="3"/><gap reason="lost"/><unclear>ṣaṇa</unclear>
   <lb n="4" break="no"/>ṉ Āṭaik
-  <lb n="5" break="no"/>kalappaṭalam</seg></seg>
+  <lb n="5" break="no"/>kalappaṭalam</seg></fw>
   
     <pb facs="99" n="31r"/>  
-   <seg function="header">
-     <milestone unit="left-margin"/>
+   <fw place="left-margin">
   <lb n="1"/><g ref="#pcs"/>
       <seg function="intertitle"><milestone unit="left-margin"/>
   <lb n="1-3"/>Ilaṇkaikkeḻvippaṭalam</seg>
-    <seg function="foliation"><lb n="4"/>31</seg></seg>
+    <seg function="foliation"><lb n="4"/>31</seg></fw>
   
      <pb facs="113" n="38r"/>  
-   <seg function="header">
-   <seg function="intertitle"><milestone unit="left-margin"/>
-  <lb n="1ff."/><gap reason="ellipsis"/>paṭalam</seg></seg>
+   <fw place="left-margin">
+   <seg function="intertitle">
+  <lb n="1ff."/><gap reason="ellipsis"/>paṭalam</seg></fw>
      
      <pb facs="125" n="44r"/>  
-   <seg function="header">
-   <seg function="intertitle"><milestone unit="left-margin"/>
-  <lb n="1ff."/><gap reason="ellipsis"/>paṭalam</seg></seg>
+   <fw place="left-margin">
+   <seg function="intertitle">
+  <lb n="1ff."/><gap reason="ellipsis"/>paṭalam</seg></fw>
     
      <pb facs="131" n="47r"/>  
-   <seg function="header">
-   <seg function="intertitle"><milestone unit="left-margin"/>
-  <lb n="1ff."/><gap reason="ellipsis"/>paṭalam</seg></seg>
+   <fw place="left-margin">
+   <seg function="intertitle">
+  <lb n="1ff."/><gap reason="ellipsis"/>paṭalam</seg></fw>
     
      <pb facs="145" n="54r"/>  
-   <seg function="header">
-   <seg function="intertitle"><milestone unit="left-margin"/>
-  <lb n="1ff."/><gap reason="ellipsis"/>paṭalam</seg></seg>                                                        
+   <fw place="left-margin">
+   <seg function="intertitle">
+  <lb n="1ff."/><gap reason="ellipsis"/>paṭalam</seg></fw>                                                        
      
      <pb facs="165" n="64r"/>  
-   <seg function="header">
-   <seg function="intertitle"><milestone unit="left-margin"/>
-  <lb n="1ff."/><gap reason="ellipsis"/>paṭalam</seg></seg>
+   <fw place="left-margin">
+   <seg function="intertitle">
+  <lb n="1ff."/><gap reason="ellipsis"/>paṭalam</seg></fw>
      
      <pb facs="171" n="67r"/>  
-   <seg function="header">
-   <seg function="intertitle"><milestone unit="left-margin"/>
-  <lb n="1ff."/><gap reason="ellipsis"/>paṭalam</seg></seg>
+   <fw place="left-margin">
+   <seg function="intertitle">
+  <lb n="1ff."/><gap reason="ellipsis"/>paṭalam</seg></fw>
      
      <pb facs="179" n="71r"/>  
-   <seg function="header">
-   <seg function="intertitle"><milestone unit="left-margin"/>
-  <lb n="1ff."/><gap reason="ellipsis"/>paṭalam</seg></seg>
+   <fw place="left-margin">
+   <seg function="intertitle">
+  <lb n="1ff."/><gap reason="ellipsis"/>paṭalam</seg></fw>
      
      <pb facs="189" n="76r"/>  
-   <seg function="header">
-   <seg function="intertitle"><milestone unit="left-margin"/>
-  <lb n="1ff."/><gap reason="ellipsis"/>paṭalam</seg></seg>
+   <fw place="left-margin">
+   <seg function="intertitle">
+  <lb n="1ff."/><gap reason="ellipsis"/>paṭalam</seg></fw>
      
      <pb facs="197" n="80r"/>  
-   <seg function="header">
-   <seg function="intertitle"><milestone unit="left-margin"/>
-  <lb n="1ff."/><gap reason="ellipsis"/>paṭalam</seg></seg>
+   <fw place="left-margin">
+   <seg function="intertitle">
+  <lb n="1ff."/><gap reason="ellipsis"/>paṭalam</seg></fw>
     
     <pb facs="209" n="86r"/>  
-   <seg function="header">
-   <seg function="intertitle"><milestone unit="left-margin"/>
-  <lb n="1ff."/><gap reason="ellipsis"/>paṭalam</seg></seg>
+   <fw place="left-margin">
+   <seg function="intertitle">
+  <lb n="1ff."/><gap reason="ellipsis"/>paṭalam</seg></fw>
     
     <pb facs="255" n="109r"/>  
-   <seg function="header">
-   <seg function="intertitle"><milestone unit="left-margin"/>
-  <lb n="1ff."/><gap reason="ellipsis"/>paṭalam</seg></seg>
+   <fw place="left-margin">
+   <seg function="intertitle">
+  <lb n="1ff."/><gap reason="ellipsis"/>paṭalam</seg></fw>
      
     <pb facs="323" n="142r"/>  
-   <seg function="header">
-   <seg function="intertitle"><milestone unit="left-margin"/>
-  <lb n="1ff."/><gap reason="ellipsis"/>paṭalam</seg></seg>
+   <fw place="left-margin">
+   <seg function="intertitle">
+  <lb n="1ff."/><gap reason="ellipsis"/>paṭalam</seg></fw>
     
     <pb facs="337" n="149r"/>  
-   <seg function="header">
-   <seg function="intertitle"><milestone unit="left-margin"/>
-  <lb n="1ff."/><gap reason="ellipsis"/>paṭalam</seg></seg>
+   <fw place="left-margin">
+   <seg function="intertitle">
+  <lb n="1ff."/><gap reason="ellipsis"/>paṭalam</seg></fw>
     
     <pb facs="339" n="150r"/>  
-   <seg function="header">
-   <seg function="intertitle"><milestone unit="left-margin"/>
-  <lb n="1ff."/><gap reason="ellipsis"/>paṭalam</seg></seg>
+   <fw place="left-margin">
+   <seg function="intertitle">
+  <lb n="1ff."/><gap reason="ellipsis"/>paṭalam</seg></fw>
     
      <pb facs="385" n="173r"/>  
-   <seg function="header">
-   <seg function="intertitle"><milestone unit="left-margin"/>
-  <lb n="1-2"/>nākāpā<gap reason="ellipsis"/>paṭalam</seg></seg>
+   <fw place="left-margin">
+   <seg function="intertitle">
+  <lb n="1-2"/>nākāpā<gap reason="ellipsis"/>paṭalam</seg></fw>
      
      <pb facs="441" n="201r"/>  
-   <seg function="header">
-   <seg function="intertitle"><milestone unit="left-margin"/>
-  <lb n="1-3"/>paṭaittalaivar vataippaṭalam</seg></seg>
+   <fw place="left-margin">
+   <seg function="intertitle">
+  <lb n="1-3"/>paṭaittalaivar vataippaṭalam</seg></fw>
      
      <pb facs="465" n="213r"/>  
-   <seg function="header">
-   <seg function="intertitle"><milestone unit="left-margin"/>
-  <lb n="1ff."/><gap reason="ellipsis"/>paṭalam</seg></seg>
+   <fw place="left-margin">
+   <seg function="intertitle">
+  <lb n="1ff."/><gap reason="ellipsis"/>paṭalam</seg></fw>
     
     <pb facs="473" n="217r"/>  
-   <seg function="header">
-   <seg function="intertitle"><milestone unit="left-margin"/>
-  <lb n="1ff."/><gap reason="ellipsis"/>paṭalam</seg></seg>
+   <fw place="left-margin">
+   <seg function="intertitle">
+  <lb n="1ff."/><gap reason="ellipsis"/>paṭalam</seg></fw>
      
     <pb facs="529" n="245r"/>  
-   <seg function="header">
-   <seg function="intertitle"><milestone unit="left-margin"/>
-  <lb n="1ff."/><gap reason="ellipsis"/>paṭalam</seg></seg>
+   <fw place="left-margin">
+   <seg function="intertitle">
+  <lb n="1ff."/><gap reason="ellipsis"/>paṭalam</seg></fw>
     
     <pb facs="535" n="248r"/>  
-   <seg function="header">
-   <seg function="intertitle"><milestone unit="left-margin"/>
-  <lb n="1ff."/><gap reason="ellipsis"/>paṭalam</seg></seg>
+   <fw place="left-margin">
+   <seg function="intertitle">
+  <lb n="1ff."/><gap reason="ellipsis"/>paṭalam</seg></fw>
     
     <pb facs="559" n="260r"/>  
-   <seg function="header">
-   <seg function="intertitle"><milestone unit="left-margin"/>
-  <lb n="1-2"/>kaḷiyāṭṭuppaṭalam</seg></seg>
+   <fw place="left-margin">
+   <seg function="intertitle">
+  <lb n="1-2"/>kaḷiyāṭṭuppaṭalam</seg></fw>
        
     <pb facs="569" n="265r"/>  
-   <seg function="header">
-   <seg function="intertitle"><milestone unit="left-margin"/>
-  <lb n="1-2"/>māyacītaippaṭalam</seg></seg>
+   <fw place="left-margin">
+   <seg function="intertitle">
+  <lb n="1-2"/>māyacītaippaṭalam</seg></fw>
           
     <pb facs="585" n="273r"/>  
-   <seg function="header">
-   <seg function="intertitle"><milestone unit="left-margin"/>
-  <lb n="1-3"/>nikumpalaiyākappaṭalam</seg></seg>
+   <fw place="left-margin">
+   <seg function="intertitle">
+  <lb n="1-3"/>nikumpalaiyākappaṭalam</seg></fw>
       
     <pb facs="621" n="291r"/>  
-   <seg function="header">
-   <seg function="intertitle"><milestone unit="left-margin"/>
-  <lb n="1ff."/><gap reason="ellipsis"/>paṭalam</seg></seg>
+   <fw place="left-margin">
+   <seg function="intertitle">
+  <lb n="1ff."/><gap reason="ellipsis"/>paṭalam</seg></fw>
       
     <pb facs="625" n="293r"/>  
-   <seg function="header">
-   <seg function="blessing"><milestone unit="left-margin"/>
-  <lb n="1"/>civa<seg rend="grantha">m·</seg></seg></seg>
+   <fw place="left-margin">
+   <seg function="blessing">
+  <lb n="1"/>civa<seg rend="grantha">m·</seg></seg></fw>
     
     <pb facs="629" n="295r"/>  
-   <seg function="header">
-   <seg function="blessing"><milestone unit="left-margin"/>
-  <lb n="1"/>civa<seg rend="grantha">m</seg></seg></seg>
+   <fw place="left-margin">
+   <seg function="blessing">
+  <lb n="1"/>civa<seg rend="grantha">m</seg></seg></fw>
         
         <pb facs="635" n="298r"/>  
-   <seg function="header">
-   <seg function="intertitle"><milestone unit="left-margin"/>
-  <lb n="1-3"/>cōkappaṭalam</seg></seg>
+   <fw place="left-margin">
+   <seg function="intertitle">
+  <lb n="1-3"/>cōkappaṭalam</seg></fw>
     
     <pb facs="639" n="300r"/>  
-   <seg function="header">
-   <seg function="blessing"><milestone unit="left-margin"/>
-  <lb n="1"/>civa<seg rend="grantha">m·</seg></seg></seg>
+   <fw place="left-margin">
+   <seg function="blessing">
+  <lb n="1"/>civa<seg rend="grantha">m·</seg></seg></fw>
      
     <pb facs="643" n="302r"/>  
-   <seg function="header">
-   <seg function="intertitle"><milestone unit="left-margin"/>
-  <lb n="1-3"/><gap reason="ellipsis"/>ppaṭalam</seg></seg>
+   <fw place="left-margin">
+   <seg function="intertitle">
+  <lb n="1-3"/><gap reason="ellipsis"/>ppaṭalam</seg></fw>
         
     <pb facs="651" n="306r"/>  
-   <seg function="header">
-   <seg function="blessing"><milestone unit="left-margin"/>
-  <lb n="1"/>civa<seg rend="grantha">m·</seg></seg></seg>
+   <fw place="left-margin">
+   <seg function="blessing">
+  <lb n="1"/>civa<seg rend="grantha">m·</seg></seg></fw>
     
     <pb facs="665" n="313r"/>  
-   <seg function="header">
-   <seg function="blessing"><milestone unit="left-margin"/>
-  <lb n="1"/>civa<seg rend="grantha">m·</seg></seg></seg>
+   <fw place="left-margin">
+   <seg function="blessing">
+  <lb n="1"/>civa<seg rend="grantha">m·</seg></seg></fw>
     
     <pb facs="669" n="315r"/>  
-   <seg function="header">
-   <seg function="blessing"><milestone unit="left-margin"/>
-  <lb n="1"/>civa<seg rend="grantha">m</seg></seg></seg>
+   <fw place="left-margin">
+   <seg function="blessing">
+  <lb n="1"/>civa<seg rend="grantha">m</seg></seg></fw>
     
     <pb facs="675" n="318r"/>  
-   <seg function="header">
-   <seg function="blessing"><milestone unit="left-margin"/>
-  <lb n="1"/>civa<seg rend="grantha">m·</seg></seg></seg>
+   <fw place="left-margin">
+   <seg function="blessing">
+  <lb n="1"/>civa<seg rend="grantha">m·</seg></seg></fw>
             
     <pb facs="685" n="323r"/>  
-   <seg function="header">
-   <seg function="intertitle"><milestone unit="left-margin"/>
-  <lb n="1-3"/><gap reason="ellipsis"/>ppaṭalam</seg></seg>
+   <fw place="left-margin">
+   <seg function="intertitle">
+  <lb n="1-3"/><gap reason="ellipsis"/>ppaṭalam</seg></fw>
         
      <pb facs="691" n="326r"/>  
-   <seg function="header">
-   <seg function="intertitle"><milestone unit="left-margin"/>
-  <lb n="1-3"/>kaḷaṅkāṇpaṭalam</seg></seg>
+   <fw place="left-margin">
+   <seg function="intertitle">
+  <lb n="1-3"/>kaḷaṅkāṇpaṭalam</seg></fw>
             
     <pb facs="701" n="331r"/>  
-   <seg function="header">
-    <seg function="intertitle"><milestone unit="left-margin"/>
-  <lb n="1-3"/><gap reason="ellipsis"/>ppaṭalam</seg></seg>
+   <fw place="left-margin">
+    <seg function="intertitle">
+  <lb n="1-3"/><gap reason="ellipsis"/>ppaṭalam</seg></fw>
             
     <pb facs="705" n="333r"/>  
-   <seg function="header">
-    <seg function="intertitle"><milestone unit="left-margin"/>
-  <lb n="1-3"/><gap reason="ellipsis"/>ppaṭalam</seg></seg>
+   <fw place="left-margin">
+    <seg function="intertitle">
+  <lb n="1-3"/><gap reason="ellipsis"/>ppaṭalam</seg></fw>
             
     <pb facs="709" n="335r"/>  
-   <seg function="header">
-    <seg function="intertitle"><milestone unit="left-margin"/>
-  <lb n="1-3"/><gap reason="ellipsis"/>ppaṭalam</seg></seg>
+   <fw place="left-margin">
+    <seg function="intertitle">
+  <lb n="1-3"/><gap reason="ellipsis"/>ppaṭalam</seg></fw>
     
     <pb facs="625" n="339r"/>  
-   <seg function="header">
-   <seg function="blessing"><milestone unit="left-margin"/>
+   <fw place="left-margin">
+   <seg function="blessing">
   <lb n="1"/>civa<seg rend="grantha">m·</seg>
-     <lb n="2-3"/>śrī<g rend="below-base">rāMa</g>ce<g rend="below-base">yaM</g></seg></seg>
+     <lb n="2-3"/>śrī<g rend="below-base">rāMa</g>ce<g rend="below-base">yaM</g></seg></fw>
     
     <pb facs="719" n="340r"/>  
-   <seg function="header">
-   <seg function="blessing"><milestone unit="left-margin"/>
-  <lb n="1"/>civa<seg rend="grantha">m·</seg></seg></seg>
+   <fw place="left-margin">
+   <seg function="blessing">
+  <lb n="1"/>civa<seg rend="grantha">m·</seg></seg></fw>
     
     <pb facs="721" n="341r"/>  
-   <seg function="header">
-   <seg function="blessing"><milestone unit="left-margin"/>
-  <lb n="1-3"/>śrī<g ref="#double_kal">rā</g>maceya<seg rend="grantha">m</seg></seg></seg>
+   <fw place="left-margin">
+   <seg function="blessing">
+  <lb n="1-3"/>śrī<g ref="#double_kal">rā</g>maceya<seg rend="grantha">m</seg></seg></fw>
             
     <pb facs="725" n="343r"/>  
-   <seg function="header">
-   <seg function="blessing"><milestone unit="left-margin"/>
+   <fw place="left-margin">
+   <seg function="blessing">
   <lb n="1"/><g ref="#double_kal">rā</g>mā
-     <lb n="2"/>civa<seg rend="grantha">m·</seg></seg></seg>
+     <lb n="2"/>civa<seg rend="grantha">m·</seg></seg></fw>
             
     <pb facs="727" n="344r"/>  
-   <seg function="header">
-   <seg function="blessing"><milestone unit="left-margin"/>
-  <lb n="1"/>civa<seg rend="grantha">m·</seg></seg></seg>
+   <fw place="left-margin">
+   <seg function="blessing">
+  <lb n="1"/>civa<seg rend="grantha">m·</seg></seg></fw>
                   
     <pb facs="729" n="345r"/>  
-   <seg function="header">
-   <seg function="blessing"><milestone unit="left-margin"/>
-  <lb n="1"/><g ref="#double_kal">rā</g>mā</seg></seg>
+   <fw place="left-margin">
+   <seg function="blessing">
+  <lb n="1"/><g ref="#double_kal">rā</g>mā</seg></fw>
     
     <pb facs="733" n="347r"/>  
-   <seg function="header">
-    <seg function="intertitle"><milestone unit="left-margin"/>
-  <lb n="1ff."/><gap reason="ellipsis"/>ppaṭalam</seg></seg>
+   <fw place="left-margin">
+    <seg function="intertitle">
+  <lb n="1ff."/><gap reason="ellipsis"/>ppaṭalam</seg></fw>
         
     <pb facs="737" n="349r"/>  
-    <seg function="header">
-    <seg function="intertitle"><milestone unit="left-margin"/>
-  <lb n="1ff."/><gap reason="ellipsis"/>ppaṭalam</seg></seg>
+    <fw place="left-margin">
+    <seg function="intertitle">
+  <lb n="1ff."/><gap reason="ellipsis"/>ppaṭalam</seg></fw>
             
     <pb facs="741" n="351r"/>  
-    <seg function="header">
-    <seg function="intertitle"><milestone unit="left-margin"/>
-  <lb n="1ff."/><gap reason="ellipsis"/>ppaṭalam</seg></seg>
+    <fw place="left-margin">
+    <seg function="intertitle">
+  <lb n="1ff."/><gap reason="ellipsis"/>ppaṭalam</seg></fw>
     
     <pb facs="743" n="352r"/>  
-    <seg function="header">
-    <seg function="intertitle"><milestone unit="left-margin"/>
-  <lb n="1ff."/><gap reason="ellipsis"/>ppaṭalam</seg></seg>
+    <fw place="left-margin">
+    <seg function="intertitle">
+  <lb n="1ff."/><gap reason="ellipsis"/>ppaṭalam</seg></fw>
     
     <pb facs="747" n="354r"/>  
-   <seg function="header">
-   <seg function="intertitle"><milestone unit="left-margin"/>
-  <lb n="1-4"/>cītai tiruvaṭi toḻutap paṭalam</seg></seg>
+   <fw place="left-margin">
+   <seg function="intertitle">
+  <lb n="1-4"/>cītai tiruvaṭi toḻutap paṭalam</seg></fw>
     
         <pb facs="757" n="359r"/>  
-   <seg function="header">
-   <seg function="intertitle"><milestone unit="left-margin"/>
-  <lb n="1-3"/>vacanta<gap reason="ellipsis"/>ppaṭalam</seg></seg>
+   <fw place="left-margin">
+   <seg function="intertitle">
+  <lb n="1-3"/>vacanta<gap reason="ellipsis"/>ppaṭalam</seg></fw>
     
     <pb facs="759" n="360r"/>  
-   <seg function="header">
-   <seg function="intertitle"><milestone unit="left-margin"/>
-  <lb n="1-2"/>cētuppaṭalam</seg></seg>
+   <fw place="left-margin">
+   <seg function="intertitle">
+  <lb n="1-2"/>cētuppaṭalam</seg></fw>
     
     <pb facs="763" n="362r"/>  
-   <seg function="header">
-   <seg function="intertitle"><milestone unit="left-margin"/>
-  <lb n="1-2"/>rāmacayam</seg></seg>
+   <fw place="left-margin">
+   <seg function="intertitle">
+  <lb n="1-2"/>rāmacayam</seg></fw>
      
     <pb facs="765" n="363r"/>  
-   <seg function="header">
+   <fw place="left-margin">
      <seg function="blessing">
   <lb n="1"/>śrī<g ref="#double_kal">rā</g>mā</seg> 
    <seg function="intertitle">
-  <lb n="2-3"/><gap reason="ellipsis"/>ppaṭalam</seg></seg>
+  <lb n="2-3"/><gap reason="ellipsis"/>ppaṭalam</seg></fw>
     
         <pb facs="767" n="364r"/>  
-   <seg function="header">
-   <seg function="intertitle"><milestone unit="left-margin"/>
+   <fw place="left-margin">
+   <seg function="intertitle">
   <lb n="1-2"/>mīṭcippaṭalam</seg>
      <seg function="blessing">
   <lb n="3"/>śrī<supplied reason="lost"><g ref="#double_kal">rā</g></supplied>mā</seg> 
-    </seg>
+    </fw>
     
     <pb facs="771" n="366r"/>  
-   <seg function="header">
-   <seg function="intertitle"><milestone unit="left-margin"/>
-  <lb n="1-3"/><gap reason="ellipsis"/> viratap paṭalam</seg></seg>
+   <fw place="left-margin">
+   <seg function="intertitle">
+  <lb n="1-3"/><gap reason="ellipsis"/> viratap paṭalam</seg></fw>
     
     <pb facs="773" n="367r"/>  
-   <seg function="header">
+   <fw place="left-margin">
      <seg function="blessing">
-  <lb n="1"/>śrī<g ref="#double_kal">rā</g>mā</seg></seg>
+  <lb n="1"/>śrī<g ref="#double_kal">rā</g>mā</seg></fw>
     
         <pb facs="775" n="368r"/>  
-   <seg function="header">
+   <fw place="left-margin">
      <seg function="blessing">
-  <lb n="1"/>śrī<g ref="#double_kal">rā</g>mā</seg></seg>
+  <lb n="1"/>śrī<g ref="#double_kal">rā</g>mā</seg></fw>
 
     <pb facs="786" n="373v"/>  
-     <milestone unit="main-text-area"/>
     <lb n="1-9"/><gap reason="ellipsis"/> 
     <lb n="10"/><gap reason="ellipsis"/> | <num rend="traditional">124</num> <g ref="#pcs"/> | <seg function="completion-statement"><gap reason="ellipsis"/> viratap paṭala muṟṟum <seg function="total-stanzas">{Āka}p paṭalam <num rend="traditional">47</num>k=ku ceyyuḷ <num rend="traditional">4292</num> <g ref="#pcs"/>|</seg> <seg function="blessing"><g ref="#double_kal">rā</g>māce<supplied reason="lost">yam <g ref="#pcs"/></supplied></seg></seg>
     
          <pb facs="787" n="374r"/>  
-   <seg function="header">
-     <seg function="blessing"><milestone unit="left-margin"/>
+   <fw place="left-margin">
+     <seg function="blessing">
   <lb n="1"/>śrī<g ref="#double_kal">rā</g>mā</seg>   
     <seg function="intertitle">
-  <lb n="2-4"/>tiruvapiṣēkap paṭalam</seg></seg>
+  <lb n="2-4"/>tiruvapiṣēkap paṭalam</seg></fw>
     
-     <milestone unit="main-text-area"/>
+     
     <lb n="1"/><gap reason="ellipsis"/> 
     <lb n="2"/><gap reason="ellipsis"/> | 1 | <gap reason="ellipsis"/>
     <lb n="3"/><gap reason="ellipsis"/> | 2 | <gap reason="ellipsis"/>
@@ -536,15 +535,14 @@
     <lb n="8"/><gap reason="ellipsis"/>
     
      <pb facs="789" n="375r"/>  
-   <seg function="header">
-     <seg function="blessing"><milestone unit="left-margin"/>
+   <fw place="left-margin">
+     <seg function="blessing">
   <lb n="1"/>śrī<g ref="#double_kal">rā</g>mā</seg>
    <seg function="intertitle">
   <lb n="2-3"/>Uttirakāṇṭam</seg>
     <seg function="intertitle">
-  <lb n="4-6"/>kupēraṉ piṟappup paṭalam</seg></seg>
+  <lb n="4-6"/>kupēraṉ piṟappup paṭalam</seg></fw>
     
-    <milestone unit="main-text-area"/>
     <lb n="1"/><gap reason="ellipsis"/> <seg function="completion-statement">tiruvapiṣēkap paṭala muṟṟum <seg function="total-stanzas">{Āka}p paṭalam <num rend="traditional">48</num>k=ku ceyyuḷ <num rend="traditional">4307</num> |</seg> Uyittiyakāṇṭa muṟṟum <seg function="blessing">śrī<g ref="#double_kal">rā</g>ceya<seg rend="grantha">m</seg></seg></seg>
     <lb n="2"/><gap reason="ellipsis"/>
     <lb n="3"/><gap reason="ellipsis"/> | 1 | <gap reason="ellipsis"/>
@@ -555,47 +553,47 @@
     <lb n="8"/><gap reason="ellipsis"/>
          
      <pb facs="793" n="377r"/>  
-   <seg function="header">
-   <seg function="blessing"><milestone unit="left-margin"/>
-  <lb n="1"/>śrī<g ref="#double_kal">rā</g>mā</seg></seg>
+   <fw place="left-margin">
+   <seg function="blessing">
+  <lb n="1"/>śrī<g ref="#double_kal">rā</g>mā</seg></fw>
      
      <pb facs="795" n="378r"/>  
-   <seg function="header">
-     <seg function="blessing"><milestone unit="left-margin"/>
+   <fw place="left-margin">
+     <seg function="blessing">
   <lb n="1"/>śrī<g ref="#double_kal">rā</g>mā</seg>
    <seg function="intertitle">
-  <lb n="2-4"/><gap reason="ellipsis"/>paṭalam</seg></seg>
+  <lb n="2-4"/><gap reason="ellipsis"/>paṭalam</seg></fw>
     
           <pb facs="801" n="381r"/>  
-   <seg function="header">
-     <seg function="blessing"><milestone unit="left-margin"/>
+   <fw place="left-margin">
+     <seg function="blessing">
   <lb n="1"/>śrī<g ref="#double_kal">rā</g>mā <g ref="#pcs"/></seg>
    <seg function="intertitle">
-  <lb n="2-4"/>Ilaṅkai yaḻittap paṭalam</seg></seg>
+  <lb n="2-4"/>Ilaṅkai yaḻittap paṭalam</seg></fw>
     
         <pb facs="853" n="407r"/>  
-   <seg function="header">
+   <fw place="left-margin">
      <seg function="blessing">
-  <lb n="1"/>śrī<g rend="below-base">rāMā</g></seg></seg>
+  <lb n="1"/>śrī<g rend="below-base">rāMā</g></seg></fw>
         
         <pb facs="861" n="411r"/>  
-   <seg function="header">
+   <fw place="left-margin">
      <seg function="blessing">
-  <lb n="1"/>śrī<g ref="#double_kal">rā</g>mā</seg></seg>
+  <lb n="1"/>śrī<g ref="#double_kal">rā</g>mā</seg></fw>
     
   <pb facs="987" n="474r"/>  
-   <seg function="header">
+   <fw place="left-margin">
      <lb n="1"/><g ref="#pcs"/>
-     <seg function="intertitle"><milestone unit="left-margin"/>
+     <seg function="intertitle">
   <lb n="2-4"/>vaikuntappa<sic>ṭ=ṭa</sic>lam</seg>
      <lb n="5"/><g ref="#pcs"/>
      <seg function="foliation"><lb n="6"/><num rend="traditional">474</num></seg>
-    </seg>    
+    </fw>    
     
         <pb facs="991" n="476r"/>  
-   <seg function="header">
+   <fw place="left-margin">
      <seg function="blessing">
-  <lb n="1"/>śrī<g rend="below-base">rāMā</g></seg></seg>
+  <lb n="1"/>śrī<g rend="below-base">rāMā</g></seg></fw>
           
   <pb facs="996" n="478v"/>  
      <seg function="explicit"><lb n="8"/><gap reason="ellipsis"/> | 88 |</seg> <seg function="completion-statement">vaikuntappaṭalamuṟṟum</seg> <seg function="total-chapters total-stanzas">{Āka}-p paṭalam <space type="vacat"/>kku ceyyuḷ <space type="vacat"/></seg> <seg function="blessing">śrī-<g ref="#double_kal">rā</g>mā

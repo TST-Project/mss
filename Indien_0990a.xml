@@ -63,10 +63,11 @@
                      <origDate calendar="gregorian" notAfter="1938">No internal date.</origDate>
                      <origPlace>South India, Tamil Nadu.</origPlace>
                   </origin>
-                  <acquisition>
+               	<provenance><p>Unknown.</p></provenance>
+               	<acquisition>
                      <p>Deposit (1938) from École des Langues orientales.</p>
                   </acquisition>
-               <provenance><p>Unknown.</p></provenance></history>
+               </history>
                <additional>
                   <listBibl>
                      
@@ -105,16 +106,15 @@
   <ab>
     <pb facs="5" n="[1]r"/>
   
-    <seg function="header">
-      <seg function="blessing"><milestone unit="left-margin"/>
+  	<fw place="left-margin">
+      <seg function="blessing">
   <lb n="1"/><term xml:lang="sa">hariḥ
 <lb n="2"/>Om</term></seg> <seg function="blessing">na
 <lb n="3" break="no"/>ṉṟā
 <lb n="4" break="no"/>ka <g ref="#pcs"/> <g ref="#pcs"/></seg>
-      </seg>
+      </fw>
 
-   <seg function="satellite stanza">
-     <milestone unit="main-text-area"/>
+   <seg function="satellite-stanza">
      <lg><l><lb n="1"/>tollaiyirum piṟavi cūḻun taḻai nīkki</l>
 <l><lb n="2"/>y<pc>-</pc>allal aṟutt<pc>’</pc> āṉantam ākkiyatē El
 <lb n="3" break="no"/>lai</l> <l>maruvā neṟiyaḻikkum vātavūr eṉ
@@ -130,18 +130,16 @@
     
  <pb facs="7" n="1r"/>
     
-    <seg function="header">
+  	<fw place="left-margin">
       <seg function="title">
-        <milestone unit="left-margin"/>
 <lb n="1"/>tiruvā
   <lb n="2" break="no"/>caka Aka
   <lb n="3" break="no"/>val</seg> <seg function="title">civa
   <lb n="4" break="no"/>purāṇa</seg> 
   <seg function="blessing"><lb n="5-6"/>naṉṟāka <g ref="#pcs"/></seg>
-      </seg>
+      </fw>
 
   <seg function="incipit">
-    <milestone unit="main-text-area"/>
   <lg><l><lb n="1"/><supplied reason="lost">nama</supplied><unclear>c</unclear>civāya <supplied reason="lost">vā</supplied>ḻka nātaṉ ṟāḷ vāḻka </l> <l><gap reason="ellipsis"/></l></lg></seg> 
   
    <pb facs="11" n="3r"/>
@@ -149,9 +147,11 @@
     <lb n="1-4"/>kīrttit tiruvakaval</seg>
   
    <pb facs="182" n="88v"/>
-  <seg function="intertitle"><milestone unit="left-margin"/>
+  	<fw place="left-margin">
+  		<seg function="intertitle">
     <lb n="1-4"/>Accōppattu <g ref="#pcs"/></seg>
-  
+  	</fw>
+  	  
     <pb facs="184" n="89v"/>
   <lb n="1-8"/><gap reason="ellipsis"/>
   <seg function="explicit"><lg><l><lb n="9"/>cemmainalam aṟiyāta citaṭaroṭu tirivē

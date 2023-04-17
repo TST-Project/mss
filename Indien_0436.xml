@@ -61,10 +61,11 @@
                      <origDate calendar="gregorian" notAfter="1866">No internal date. Dated to circa 1840 by Vinson in Vinson et al. (1866-) and to 1840 by Cabaton (1912), on unstated grounds (presumably palaeographical and material analysis arguments). Not later than first mention in a catalogue.</origDate>
                      <origPlace>South India, Tamil Nadu.</origPlace>
                   </origin>
-                  <acquisition>
-                     
-                  <p>Unknown.</p></acquisition>
-               <provenance><p>Unknown.</p></provenance></history>
+               	<provenance><p>Unknown.</p></provenance>
+               	<acquisition>                     
+                  <p>Unknown.</p>
+                  </acquisition>
+              </history>
                <additional>
                   <listBibl>
                      
@@ -81,24 +82,25 @@
 <facsimile><graphic url="https://didomena.ehess.fr/concern/data_sets/4x51hr187/manifest.json"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   <ab>
   <pb facs="5" n="[1]r"/>
-    <seg function="header">
+  	<fw place="left-margin">
       <seg function="blessing">
-      <milestone unit="left margin"/>
-    <lb n="1"/><term xml:lang="sa">hari Om•</term></seg>
+          <lb n="1"/><term xml:lang="sa">hari Om•</term></seg>
     <seg function="blessing"><lb n="2"/>naṉrāka</seg>
     <seg function="blessing"><lb n="3"/>kuru vāḻka</seg>
-      </seg>
-  
-    <milestone unit="main text area"/>
+      </fw>  
+    
     <lb n="1"/>cīṟāṉa nellilakkuñ <gap reason="ellipsis"/> kaṇapatiyē <gap reason="ellipsis"/> <g ref="#pcs"/> <seg function="blessing"><note xml:lang="en">unblackened adition</note> <unclear reason="vowel_unclear">kā</unclear>lai-vāṇi-namas• tu <g ref="#pcs"/></seg>
   
     <pb n="[1]v"/><note xml:lang="en">blank</note>
   </ab>
 </body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
   <ab>
-  <pb facs="15" n="[1]r"/>
-    <seg function="blessing"><milestone unit="left margin"/>
-    <lb n="1"/>naṉrāka</seg>
+  	<pb facs="15" n="[1]r"/>
+  	<fw place="left-margin">
+  		<seg function="blessing">
+  		<lb n="1"/>naṉrāka</seg>
+  	</fw>
+  	
    <seg function="incipit"><cb n="1"/>
     <lb n="1"/>1 {<term xml:lang="en">symbol</term>}
     <lb n="2"/>2 {<term xml:lang="en">symbol</term>}
