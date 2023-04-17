@@ -41,18 +41,18 @@
 						
 					<objectDesc form="scrapbook" rend="manuscript">
 							<supportDesc material="paper">
-                                <support><p>White paper mostly. Some blue paper folios (U1d, f10- f16).</p></support>
-								<extent>
+                                
+								
+								
+								
+							<support><p>White paper mostly. Some blue paper folios (U1d, f10- f16).</p></support><extent>
 									<measure unit="folio" quantity="402">{1} + 400 + {1} (u1 + U1 + u2).</measure>
 									<dimensions type="object" unit="mm">
 										<width quantity="235"/>
 										<height quantity="365"/>
 										<depth quantity="50"/>
 									</dimensions>
-									<dimensions type="leaf" unit="mm"><width max="220"/><height max="365"/></dimensions><dimensions type="written" unit="mm"/></extent>
-								
-								
-							<collation>
+									<dimensions type="leaf" unit="mm"><width max="220"/><height max="365"/></dimensions><dimensions type="written" unit="mm"/></extent><collation>
 									<desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. Shelfmark on verso.</desc><desc xml:id="u1">1 folio = <emph rend="bold">front guard leaf</emph>. Title and shelfmark on the recto. Verso blank.</desc><desc xml:id="U1">400	folios = <emph rend="bold"><term xml:lang="ta">Putuccēri Tiṉacaritai Aṉupantam</term></emph>. Successive Arabic foliation. Various dimensions. Sometimes also pagination.</desc><desc xml:id="U1a">2 folios = <emph rend="bold">Table of Contents</emph>. Arabic foliation 1-2. f2v blank.</desc><desc xml:id="U1b">2 folios = <emph rend="bold">TBC</emph>. Pagination 1-3, [4].</desc><desc xml:id="U1c">2 folios = <emph rend="bold">TBC</emph>. Pagination 4, [5], 6.</desc><desc xml:id="U1d">13 folios = <emph rend="bold">TBC</emph>. Arabic foliation 7-19.</desc><desc xml:id="U1e">152 folios = <emph rend="bold">TBC</emph>. Arabic foliation 1-42, 43-44 corrected to 49-50, 51-159.</desc><desc xml:id="U1f">46 folios = <emph rend="bold">TBC</emph>. Arabic foliation 1-46. f46v blank.</desc><desc xml:id="U1g">183 folios = <emph rend="bold">TBC</emph>. Arabic foliation [1-2], 1-181. f181v blank.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>. </desc></collation><condition>Fairly good state of preservation, despite detached spine.</condition></supportDesc>
 						</objectDesc><handDesc>
 
@@ -116,7 +116,8 @@
   <ab>
     
   <seg function="table-of-contents"><pb facs="3" n="[1]r=lf1r"/>
-  <seg function="intertitle"><milestone unit="main-text-area"/><lb n="1"/>tiṉacari-t=tastiram Aṭṭavaṉai</seg>
+    
+  <seg function="intertitle"><lb n="1"/>tiṉacari-t=tastiram Aṭṭavaṉai</seg>
   	
     <lb n="2"/>naḷa <g ref="#varuṣam">varuṣam</g> Āvaṇi <g ref="#mācam">mācam</g> <num rend="traditional">25</num> <g ref="#tēti">tēti</g>k=ku <num rend="traditional">1736</num> <g ref="#varuṣam">varuṣam</g> cettempuruṟu <g ref="#mācam">mācam</g> 6 {tēti} {mutal} kuṟōtaṉa {varuṣam}
   <lb n="3"/>Aṟpaci {mācam} {mutal} {tēti}k=ku <num rend="traditional">1745</num> <g ref="#varuṣam">varuṣam</g> Oyittēmpuṟu {mācam} varaikkum ~ ~ tasttiram
@@ -124,11 +125,11 @@
     <lb n="4ff."/><gap reason="ellipsis"/>
   
   <pb facs="4" n="[2]r=lf2r"/>
-    <milestone unit="main-text-area"/>
     <lb n="1-16"/><gap reason="ellipsis"/>
     </seg>
     
-  <seg function="colophon"><milestone unit="main-text-area"/><lb n="17"/><term xml:lang="fr">Cette table est <del>tirée</del> copiée de la 1<hi rend="superscript">ere</hi> feuille du Registre de la Chronique
+  <seg function="colophon">
+    <lb n="17"/><term xml:lang="fr">Cette table est <del>tirée</del> copiée de la 1<hi rend="superscript">ere</hi> feuille du Registre de la Chronique
   <lb n="18"/>depuis le 21<hi rend="superscript">e</hi> Adi de l'an Târaṇa (<gap reason="ellipsis"/> 1764) jusqu'au 10 Vaéyyaçi
   <lb n="19"/>copié par <persName xml:lang="fr">Rattinam</persName>, collationné par le même <persName xml:lang="fr">Dja<add place="above">gan</add>naden</persName>:
   	<lb n="20"/>(Juin 1849.) ___ EA<note xml:lang="en" place="foot">that is, Ariel initials signature</note>.</term></seg>
@@ -141,54 +142,47 @@
 
   <pb facs="5" n="[1]r=p1"/>
       
-      <milestone n="1" unit="main-text-area"/>
-  <lb n="1"/><gap reason="ellipsis"/> <note xml:lang="en">in Telugu script</note>
+      <lb n="1"/><gap reason="ellipsis"/> <note xml:lang="en">in Telugu script</note>
       
-      <cb n="1"/>
-  <lb n="1"/>piṟamōtut=ta {varuṣam} tai {mācam} 
-    <lb n="2"/><num rend="traditional">14</num> {tēti} putavāram
+      <lb n="2a"/>piṟamōtut=ta {varuṣam} tai {mācam} 
+    <lb n="3a"/><num rend="traditional">14</num> {tēti} putavāram
 
-      <cb n="2"/>
-  <lb n="1"/><num rend="traditional">1751</num> {Āṇṭu}
-    <lb n="2"/><unclear>caṉēr {mācam}</unclear> <num rend="traditional">27</num> {tēti}
+      <lb n="2b"/><num rend="traditional">1751</num> {Āṇṭu}
+    <lb n="3b"/><unclear>caṉēr {mācam}</unclear> <num rend="traditional">27</num> {tēti}
       
-      <milestone n="2" unit="main-text-area"/>
-  <lb n="1"/>Itta ṉāḷ kālamē pat=tu maṇik=ki kōvaḷat=til iruntu <gap reason="ellipsis"/>
-      <lb n="2ff."/><gap reason="ellipsis"/>
+        <lb n="4"/>Itta ṉāḷ kālamē pat=tu maṇik=ki kōvaḷat=til iruntu <gap reason="ellipsis"/>
+      <lb n="5ff."/><gap reason="ellipsis"/>
        
       </ab>
 </body></text><text synch="#U1c" corresp="#T3" xml:lang="ta"><body>
     <ab>
 
-  <pb facs="7" n="[1]r=p4"/><milestone unit="main-text-area"/>
+  <pb facs="7" n="[1]r=p4"/>
  
-      <cb n="1"/>
-  <lb n="1"/>vipava {varuṣam} piṟattāci {mācam} 
-    <lb n="2"/>7 {tēti} viyāḻak=kiḻamai
+      <lb n="1a"/>vipava {varuṣam} piṟattāci {mācam} 
+    <lb n="2a"/>7 {tēti} viyāḻak=kiḻamai
 
-      <cb n="2"/>
-  <lb n="1"/><num rend="traditional">1748</num>m {Āṇṭu} ceptēmbar
-    <lb n="2"/>{mācam} <num rend="traditional">19</num> {tēti}
+      <lb n="1b"/><num rend="traditional">1748</num>m {Āṇṭu} ceptēmbar
+    <lb n="2b"/>{mācam} <num rend="traditional">19</num> {tēti}
       
-      <milestone unit="main-text-area"/>
-  <lb n="1"/>Itta ṉāḷ <gap reason="ellipsis"/>
-      <lb n="2ff."/><gap reason="ellipsis"/>
+        <lb n="3"/>Itta ṉāḷ <gap reason="ellipsis"/>
+      <lb n="4ff."/><gap reason="ellipsis"/>
       
       <pb facs="8" n="[1]v=p[5]"/>
       
-      <milestone unit="main-text-area"/>
-  <seg function="colophon"><term xml:lang="fr">
+        <seg function="colophon"><term xml:lang="fr">
     <lb n="-3"/>copié par Djagannâda (<gap reason="ellipsis"/> 1851.)
       <lb n="-2"/>collat<hi rend="superscript">é</hi> par <gap reason="ellipsis"/> appasami
        <lb n="-1"/>EA<note xml:lang="en" place="foot">that is, Ariel initials signature</note>.</term></seg>
       
       <pb facs="8" n="[2]r=p6"/>
       
-      <milestone unit="left-margin"/>
+      <fw place="left-margin">
       <lb n="1-2"/><gap reason="ellipsis"/> <note xml:lang="en">in Telugu script</note>
       <lb n="3"/><term xml:lang="fr">30 X<hi rend="superscript">e</hi>. 1752.</term>
+        </fw>
       
-       <milestone unit="main-text-area"/>
+      
       <lb n="1ff."/><gap reason="ellipsis"/>
       <seg function="colophon"><term xml:lang="fr">
     <lb n="-2"/>copié par <gap reason="ellipsis"/>. collat<hi rend="superscript">é</hi> par <gap reason="ellipsis"/> annâsâmi <gap reason="ellipsis"/> ayyar.
@@ -202,7 +196,7 @@
 
   <pb facs="9" n="lf7r"/>
       
-      <seg function="blessing"><milestone unit="main-text-area"/>
+      <seg function="blessing">
   <lb n="1"/>śrīrā=Maceya=M</seg>
       
       <lb n="2"/>Arum <gap reason="ellipsis"/> pēril ~
@@ -210,8 +204,6 @@
         <lb n="4ff."/><gap reason="ellipsis"/>
       
        <pb facs="11" n="lf8v"/>
-
-       <milestone unit="main-text-area"/>
       <lb n="1ff."/><gap reason="ellipsis"/>
       <seg function="colophon"><term xml:lang="fr">
     <lb n="-2"/>copié par Djgannâda, coll<hi rend="superscript">né</hi>
@@ -221,14 +213,13 @@
        <pb facs="12" n="lf10r"/>
       
       <seg function="colophon"><term xml:lang="fr">
-        <milestone unit="main-text-area"/>
         <lb n="1"/><gap reason="ellipsis"/>
         <lb n="2"/>c.a.d. 7 octobre 1760 <gap reason="ellipsis"/> 1761.
     <lb n="3-10"/>Ce qui suit est pris d'une feuille isolé &amp; la comparaison des dates qu'il conserve avec les indications relatives au contenu des registres originaux du journal rédigé pour la même époque prouve qu'il n'en fait pas partie à proprement parler &amp; que plutôt que d'en avoir été extrait, il ne représente guère que des notes jettées sur le papier pour servir de memorandum. EA<note xml:lang="en" place="foot">that is, Ariel initials signature</note></term></seg>
       
       <pb facs="13" n="11r"/>
       
-      <seg function="blessing"><milestone unit="main-text-area"/>
+      <seg function="blessing">
   <lb n="1"/>kiṣṇacakāya=M ~</seg>
       
       <lb n="2"/>yātastu ~
@@ -238,7 +229,7 @@
       
       <pb facs="20" n="18r"/>
       
-    <seg function="blessing"><milestone unit="main-text-area"/>
+    <seg function="blessing">
   <lb n="1"/>śrīrā=Maceya=M {kiṣṇa ...}</seg>
       
       <lb n="2"/>Inta <gap reason="ellipsis"/>
@@ -251,24 +242,22 @@
   
   <pb facs="22" n="1r"/>
     
-    <milestone unit="left-margin"/>
-      <lb n="1-3"/><term xml:lang="fr">ceci se trouve au verso du titre. EA</term>
+      <fw place="left-margin">
+        <lb n="1-3"/><term xml:lang="fr">ceci se trouve au verso du titre. EA</term>
+        </fw>
         
-    <seg function="intertitle"><milestone unit="main-text-area"/>
+    <seg function="intertitle">
   <lb n="1-2"/>Inta tas·t=tirattil paṭiyappaṭṭa pēr ēṭṭu Aṭṭavaṇai ~</seg>
     
     <lb n="3ff."/><gap reason="ellipsis"/>
     
     </ab>  
-</body>
-	</text><text synch="#U1f" corresp="#T6" xml:lang="ta"><body>
+</body></text><text synch="#U1f" corresp="#T6" xml:lang="ta"><body>
     <ab>
 
   <pb facs="175" n="1r"/>
-      <milestone unit="main-text-area"/>
   <lb n="1"/>śrī<g ref="#double_kal">rā</g>maceyam
-      <lb n="2"/>piṟamatīca {varuṣam} <gap reason="ellipsis"/>
-  
+      <lb n="2"/>piṟamatīca {varuṣam} <gap reason="ellipsis"/>  
           <lb n="3ff."/><gap reason="ellipsis"/>
 
       </ab>
@@ -276,7 +265,7 @@
     <ab>
 
   <pb facs="221" n="[1]r"/>
-  <seg function="colophon"><milestone unit="main-text-area"/><seg function="copy-statement"><lb n="1"/>3. ma. postakam
+  <seg function="colophon"><seg function="copy-statement"><lb n="1"/>3. ma. postakam
   	<lb n="2"/>naḷa <g ref="#varuṣam">varuṣam</g> Āvaṇi <g ref="#mācam">mācam</g> <num rend="traditional">25</num> <g ref="#tēti">tēti</g>
   <lb n="3"/>{symbol} Avaravarkaḷukki yeḻu
   <lb n="4" break="no"/>ti yaṉuppiya kātitaṅka
@@ -284,25 +273,22 @@
   <lb n="6"/>paṭṭa tastiram</seg>
   
     <pb facs="222" n="[2]r"/>
-    <milestone unit="main-text-area"/>
   <lb n="1"/><term xml:lang="fr">Le manuscrit original autographe
   <lb n="2"/>se compose de 228 pages doubles <hi rend="superscript">in f°</hi> <gap reason="ellipsis"/></term>
   
   <pb facs="223" n="[2]v"/>
-    <milestone unit="main-text-area"/>
   <lb n="1"/><term xml:lang="fr">copié par <persName xml:lang="fr">Rattinam</persName> (1849; septembre).
    <lb n="2"/>collationné par le même <persName xml:lang="fr">Djagannaden</persName> (d° Nov<hi rend="superscript">bre</hi>)
    <lb n="3"/>revu par moi (d°)
   	<lb n="4"/>EA<note xml:lang="en" place="foot">that is, Ariel initials signature</note></term></seg>
   
     <pb facs="223" n="1r"/>
-    	<seg function="blessing"><milestone unit="main-text-area"/><lb n="1"/>śrī-<g ref="#double_kal">rā</g>ma-ceyam</seg> <g ref="#pcl"/>
+    	<seg function="blessing"><lb n="1"/>śrī-<g ref="#double_kal">rā</g>ma-ceyam</seg> <g ref="#pcl"/>
     	<lb n="2"/><num rend="traditional">225</num> <space/> ceṉṉappaṭṭaṇam. ṟā. ca śrī teḷḷiyaciṅka
     	<lb n="3"/>piḷḷaiyavarkaḷukku naḷa <g ref="#varuṣam">varuṣam</g> Āvaṇi <g ref="#mācam">mācam</g> <num rend="traditional">25</num> <g ref="#tēti">tēti</g>k=ku yeḻu
   <lb n="4"/>ti yaṉuppiya kākitat=tukku nakal
   
    <pb facs="406" n="181r"/>
-      <milestone unit="main-text-area"/>
   <lb n="1"/><gap reason="ellipsis"/>
   
      <pb facs="407" n="181v"/><note xml:lang="en">blank</note>
