@@ -110,13 +110,12 @@
     
   <pb facs="11" n="[1]r"/>
     
-    <seg function="header">           
+  	<fw place="left-margin">           
     <seg function="blessing">
-      <milestone unit="left-margin"/>
       <lb n="1"/>civamaya<seg rend="grantha">m•</seg></seg>
-    </seg>
+    </fw>
   
-  <seg function="title"><milestone unit="main-text-area"/>
+  <seg function="title">
   <lb n="1"/>mayilai-kapālī
   <lb n="2" break="no"/>curāntāti</seg>
  
@@ -125,16 +124,15 @@
     <ab>
 
   <pb facs="15" n="[1]r"/>
-  <seg function="header">
-  <seg function="blessing"><milestone unit="left-margin"/>
+    	<fw place="left-margin">
+  <seg function="blessing">
   <lb n="1"/><term xml:lang="sa">hari
   <lb n="2"/>Om</term> <note xml:lang="en">the whole blessing <term xml:lang="sa">hari Om</term> is itself written inside a <term xml:lang="ta">Ōm</term></note></seg> 
   <seg function="title"><lb n="3"/>mayilat
   <lb n="4" break="no"/>tantāti <note xml:lang="en">unblackened; later addition</note></seg>
-    </seg>
+    </fw>
   
   <seg function="satellite-stanza">
-    <milestone unit="main-text-area"/>
   <lg><l><lb n="1"/>kūttāṭu <gap reason="ellipsis"/></l>
   <l><lb n="2"/>kūttāṭu <gap reason="ellipsis"/></l>
   <l><lb n="3"/>kūttāṭu <gap reason="ellipsis"/></l>
@@ -148,13 +146,13 @@
 
   <pb facs="20" n="1r"/>
   
-  <seg function="header">
-    <seg function="blessing"><milestone unit="left-margin"/>
+    	<fw place="left-margin">
+    <seg function="blessing">
   <lb n="1"/>naṉ
   <lb n="2" break="no"/>ṟāka <note xml:lang="en">the whole blessing <term xml:lang="ta">naṉṟāka</term> is itself written inside a <term xml:lang="ta">Ōm</term></note></seg>
-    </seg>
+    </fw>
   
-  <seg function="incipit"><milestone unit="main-text-area"/>
+  <seg function="incipit">
   <lg><l><lb n="1"/>cīrāka <gap reason="ellipsis"/></l>
   <l><lb n="2"/>cīrāka <gap reason="ellipsis"/></l>
   <l><lb n="3"/>cīrāka <gap reason="ellipsis"/></l>
@@ -165,7 +163,6 @@
  <pb facs="30" n="34r"/>
   
   <seg function="explicit">
-    <milestone unit="main-text-area"/>
   <lg><l><lb n="1"/>nutaṟṟāṉ <gap reason="ellipsis"/></l>
   <l><lb n="2"/>ṉutaṟṟāṉ <gap reason="ellipsis"/></l></lg>
   <lg><l><lb n="3"/>tiruttaṉanta <gap reason="ellipsis"/></l>
@@ -173,10 +170,11 @@
   <l><lb n="5"/>tiruttaṉanta <gap reason="ellipsis"/></l>
     <l><lb n="6"/>tiruttaṉanta <gap reason="ellipsis"/> <g ref="#pcs"/> <num rend="traditional">100</num> <g ref="#pcs"/></l></lg></seg> <seg function="completion-statement">muṟṟu<seg rend="grantha">m•</seg></seg>
   
-  <seg function="blessing"><milestone unit="right-margin"/>
+    	<fw place="right-margin"><seg function="blessing">
   <lb n="1"/>civacuppiṟa
 <lb n="2" break="no"/>maṇiyar 
 <lb n="3"/>tuṇai <g ref="#pcs"/></seg>
-
+    	</fw>
+    	
       </ab>
   </body></text></TEI>
