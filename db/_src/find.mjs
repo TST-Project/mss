@@ -116,7 +116,20 @@ const find = {
 
     fulltext: (xmlTxt) => {
         const res = XSLTransform(xmlTxt, xsltSheetFull);
-        return make.html(res).documentElement.textContent.trim().replace(/\s+/g,' ');
+        const html = make.html(res).documentElement;
+
+        const cleanLb = (par) => {
+            const lbs = par.querySelectorAll('[data-nobreak]');
+            for(const lb of lbs) {
+                const prev = lb.previousSibling;
+                if(prev && prev.nodeType === 3)
+                    prev.data = prev.data.trimEnd();
+            }
+        };
+        
+        cleanLb(html);
+
+        return html.textContent.trim().replace(/\s+/g,' ');
     },
 
     paratexts: (xmlDoc,name) => {
