@@ -128,6 +128,9 @@ const find = {
         };
         
         cleanLb(html);
+        
+        for(const invis of html.getElementsByClassName('invisible'))
+            invis.remove();
 
         return html.textContent.trim().replace(/\s+/g,' ');
     },
