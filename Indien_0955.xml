@@ -91,7 +91,7 @@ Contains the first three chapters:
 						
 						
 					<origin>
-							<origDate calendar="gregorian" notAfter="1849">Internally dated to the year <foreign xml:lang="ta">kīlaka</foreign> of the Jovian cycle, that is, CE 1848-1849, 1788-1789, 1728-1729, etc. See colophons: U3, <locus fac="236">f116v5</locus>, <locus fac="287">f142r4</locus>, <locus fac="500">f248v3</locus>.</origDate>
+							<origDate calendar="gregorian" notAfter="1849">Internally dated to the year <foreign xml:lang="ta">kīlaka</foreign> of the Jovian cycle, that is, CE 1848-1849, 1788-1789, 1728-1729, etc. See colophons: U3, <locus facs="236">f116v5</locus>, <locus facs="287">f142r4</locus>, <locus facs="500">f248v3</locus>.</origDate>
 							<origPlace>South India, Tamil Nadu.</origPlace></origin><provenance><p>Unknown. The shelfmark <quote>b/11</quote> (U1, <locus facs="1">f[1]r</locus>) probably indicates that this is an <persName xml:lang="fr" role="collector" key="Ariel, Édouard">Ariel</persName> manuscript.
 Owned / Borrowed by <persName xml:lang="fr" role="collector" key="Vinson, Julien">Julien Vinson</persName> (1843-1926). See handwritten addition to Cabaton (1912), <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f172">f3r, no. 955</ref>.</p></provenance><acquisition><p>Acquired, June 20th, 1930, from Paul Vinson. See BnF, département des Manuscrits, inventaire 3 = <title>Acquisitions: manuscrits et imprimés documentaires, 1894-1950</title>, no. 13591.</p></acquisition></history>
 					<additional>
@@ -133,13 +133,13 @@ Owned / Borrowed by <persName xml:lang="fr" role="collector" key="Vinson, Julien
     
     <pb facs="5" n="1r"/>
     
-				<seg function="header">
-					<seg function="blessing"><milestone unit="left-margin"/>
+				<fw place="left-margin">
+					<seg function="blessing">
 						<lb n="1"/>naṉṟāka</seg>
 					<seg function="title"><lb n="2-3"/>cintāmaṇi-y<pc>-</pc>urai</seg>
-				</seg>
+				</fw>
     
-				<seg function="incipit" type="root-text"><milestone unit="main-text-area"/>
+				<seg function="incipit" type="root-text">
 					<lg>
 						<l><lb n="1"/>mūvā mutalā v<pc>-</pc>ulakam oru mūṉṟum ēttat</l>
 						<l><gap reason="ellipsis"/>
@@ -149,14 +149,14 @@ Owned / Borrowed by <persName xml:lang="fr" role="collector" key="Vinson, Julien
     
     <pb facs="10" n="3v"/>
 
-    <seg function="header">
-                  <seg function="verse-beginning"><milestone unit="left-margin"/>
-					<lb n="1"/>ce</seg>
-      </seg>
+    <fw place="left-margin">
+                  <seg function="verse-beginning">	
+                  	<lb n="1"/>ce</seg>
+      </fw>
       
     <pb facs="29" n="13r"/>
 				
-    <seg function="header">
+    <fw place="left-margin">
       <seg function="intertitle"><cb n="1"/>
       <lb n="1-3"/>nāmakaḷ ilampakam</seg>
     
@@ -165,31 +165,29 @@ Owned / Borrowed by <persName xml:lang="fr" role="collector" key="Vinson, Julien
       <lb n="2"/>kā</seg>
       <seg function="foliation"><lb n="3"/><num rend="traditional">13</num>
       </seg>
-      </seg>
+      </fw>
     
 	<pb facs="85" n="41r"/>
-        <seg function="header">
+        <fw place="left-margin">
           <seg function="intertitle"><cb n="1"/>
 					<lb n="1-3"/>nāmakaḷ ilampakam</seg>
           <seg function="verse-beginning"><cb n="2"/>
 					<lb n="1"/>~ vē ~</seg>
-          </seg>
+          </fw>
     
     <pb facs="236" n="116v"/>
-    <milestone unit="main-text-area"/>
     <lb n="4"/><gap reason="ellipsis"/> Itu
     <lb n="5"/>nāmakaḷaik kūṭiṉacilampameṉka Ilampam vaṭa col – <seg function="completion-statement">nāmakaḷ ilampamuṟṟum –</seg>
 				<seg function="total-stanzas">{Āka} pāṭal <num rend="traditional">408</num> |</seg>
 				<seg function="copy-statement">kīlaka <g ref="#varuṣam">varuṣam</g> Āṉi <g ref="#mācam">mācam</g>=<g ref="#pcs"/> 24 <g ref="#tēti">tēti</g> cevvāykkiḻamai muṟṟum |</seg>
     
     <pb facs="237" n="117r"/>
-        <seg function="header">
+        <fw place="left-margin">
           <seg function="intertitle"><cb n="1"/>
             <lb n="1-3"/>Iraṇṭāvatu kōvintaiyār ilampakam</seg>
-          </seg>
+          </fw>
 
     <pb facs="287" n="142r"/>
-    <milestone unit="main-text-area"/>
     <lb n="2"/><gap reason="ellipsis"/> | <num rend="traditional">84</num>
    <seg function="completion-statement"><lb n="3"/>Iraṇṭāvatu kōvintaiyār ilampamuṭintatu |</seg>
 				<seg function="total-stanzas">Āka viruttam · <num rend="traditional">492</num> |</seg>
@@ -201,7 +199,7 @@ Owned / Borrowed by <persName xml:lang="fr" role="collector" key="Vinson, Julien
     <pb facs="288" n="142v"/><note xml:lang="en">blank</note>
 
     <pb facs="289" n="143r"/>
-				<seg function="header">
+				<fw place="left-margin">
                   <seg function="intertitle"><cb n="1"/>
 					<lb n="1-2"/>mūṉṟāvatu</seg>
 				<seg function="verse-beginning"><cb n="2"/>
@@ -210,10 +208,9 @@ Owned / Borrowed by <persName xml:lang="fr" role="collector" key="Vinson, Julien
 				<seg function="intertitle"><lb n="3-6"/>kān<sic>ti</sic>ruvatattaiyār ilampa<supplied reason="omitted">ka</supplied>m
                   <lb n="7"/><g ref="#pcl"/></seg>
                   <seg function="foliation"><lb n="8"/>1</seg>
-                  </seg>
+                  </fw>
 
     <pb facs="499" n="248r"/>
-    <milestone unit="main-text-area"/>
     <lb n="6"/><gap reason="ellipsis"/>
 				<g ref="#pcs"/> 356 <g ref="#pcl"/>
 				<seg function="explicit" type="root-text">kuṅkum <gap reason="ellipsis"/>
