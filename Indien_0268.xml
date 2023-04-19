@@ -9,7 +9,7 @@
          
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2022</date>
+            <date>2023</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -31,20 +31,20 @@
                   
                <objectDesc form="codex" rend="manuscript">
                      <supportDesc material="paper">
-                        <support>
+                        
+                        
+                        
+                        
+                     <support>
                            
                            
-                        </support>
-                        <extent>
+                        </support><extent>
                            <measure unit="folio" quantity="246">{1} + {1} + {4} + 234 + {4} + {1} + {1} (u1 + u2 + u3 + U1 + u4 + u5 + u6).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
                            </dimensions>
-                        <dimensions type="object" unit="mm"><width quantity="240"/><height quantity="375"/></dimensions><dimensions type="written" unit="mm"/></extent>
-                        
-                        
-                     <collation>
+                        <dimensions type="object" unit="mm"><width quantity="240"/><height quantity="375"/></dimensions><dimensions type="written" unit="mm"/></extent><collation>
                      
                      <desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. Shelfmark on verso.</desc><desc xml:id="u1">1 folio = <emph rend="bold">front guard leaf</emph>. No foliation. Blank recto verso. Verso marbled. Element of library binding.</desc><desc xml:id="u2">1 folio = <emph rend="bold">front guard leaf</emph>. No foliation. Shelfmarks on recto. Verso blank. Element of library binding.
 </desc><desc xml:id="u3">4 folios = <emph rend="bold">front guard leaves</emph>. Old paper. Blank recto verso. Element of original book.</desc><desc xml:id="U1">234 folios = <emph rend="bold"><title xml:lang="ta">Makāpāratam Urai</title></emph>. Old paper.  Original Tamil pagination 1-468 and parallel library foliation 1-234.</desc><desc xml:id="u4">4 folios = <emph rend="bold">back guard leaves</emph>. Old paper. Blank recto verso. Element of original book.</desc><desc xml:id="u5">1 folio = <emph rend="bold">back guard leaf</emph>. No foliation. Blank recto verso. Element of library binding.</desc><desc xml:id="u6">1 folio = <emph rend="bold">back guard leaf</emph>. No foliation. Blank recto verso. Element of library binding.
@@ -79,7 +79,7 @@
       </fileDesc>
       <encodingDesc>
          
-      <p> <emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.              </p></encodingDesc>
+      <p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.              </p></encodingDesc>
       
    <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
@@ -89,7 +89,9 @@
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   <ab>
   <pb facs="15" n="1r"/>
-  <seg function="title"><lb n="1"/>makāpāratam Urai</seg>
+    
+  <seg function="title">
+    <milestone unit="main-text-area"/><lb n="1"/>makāpāratam Urai</seg>
   
   <seg function="incipit"><cb n="1"/>
       <lg><l><lb n="1"/>nīṭāḻi y<pc>-</pc>ulakattu maṟai nālō
@@ -101,18 +103,26 @@
       <lb n="7" break="no"/>ṇi taṉ</l> <l>kōṭāka v<pc>-</pc> eḻutu
       <lb n="8" break="no"/>m pirāṉaip paṇint<pc>’</pc> aṉpu kū
       <lb n="9" break="no"/>rvām arō ―</l></lg></seg> <gap reason="ellipsis"/>
+    <lb n="10ff."/><gap reason="ellipsis"/>
   
   <seg function="intertitle"><cb n="2"/>
-      <lb n="4"/>pāṇṭāvar paṭai Eḻucci</seg>       
+        <lb n="1-3"/><gap reason="ellipsis"/>
+      <lb n="4"/>pāṇṭāvar paṭai Eḻucci</seg>
+        <lb n="4ff."/><gap reason="ellipsis"/>
+
  
    <pb facs="22" n="3v"/> 
-      <seg function="completion-statement"><cb n="2"/>
+      <cb n="2"/>
+            <lb n="1-13"/><gap reason="ellipsis"/>
+<seg function="completion-statement">
       <lb n="14"/>taṉmarāyar paṭai Eḻicci
       <lb n="15"/>muṟṟum</seg>
       <lb n="16"/><term xml:lang="en">{line-fillers = series of dots}</term>
       <seg function="intertitle"><lb n="17"/>turiyōtaṉaṉ paṭai
         <lb n="18"/>Eḻucci</seg>
       <lb n="19"/><term xml:lang="en">{line-fillers = series of dots}</term>
+            <lb n="19ff."/><gap reason="ellipsis"/>
+
   
   <pb facs="484" n="234v"/>
     <seg function="explicit"><cb n="1"/>
