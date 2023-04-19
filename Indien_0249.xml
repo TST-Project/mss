@@ -35,16 +35,16 @@
                   
                <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
-                        <extent>
+                        
+                        
+                        
+                     <support><p>Rounded edges.</p></support><extent>
                            <measure unit="folio" quantity="181">{1} + {1} + 178 + {1} (U1 + U2 + U3 + U4).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
                            <width quantity="415"/><height quantity="35"/></dimensions>
-                        <dimensions type="object" unit="mm"><width quantity="415"/><height quantity="35"/><depth quantity="110"/></dimensions><dimensions type="written" unit="mm"/></extent>
-                        
-                        
-                     <support><p>Rounded edges.</p></support><foliation>Foliation in Tamil and European numbers (both in left margin).</foliation><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold"><title xml:lang="ta">Naiṭatam</title>: Title Page</emph>. No foliation. Verso blank.</desc><desc xml:id="U2">1 folio = <emph rend="bold"><title xml:lang="ta">Naiṭatam</title>: Invocation</emph>. No foliation.</desc><desc xml:id="U3">178 folios = <emph rend="bold"><title xml:lang="ta">Naiṭatam</title>: Text (+ Table of Contents)</emph>. Tamil foliation 1-178 and parallel Arabic foliation 1-178. f5v blank.
+                        <dimensions type="object" unit="mm"><width quantity="415"/><height quantity="35"/><depth quantity="110"/></dimensions><dimensions type="written" unit="mm"/></extent><foliation>Foliation in Tamil and European numbers (both in left margin).</foliation><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold"><title xml:lang="ta">Naiṭatam</title>: Title Page</emph>. No foliation. Verso blank.</desc><desc xml:id="U2">1 folio = <emph rend="bold"><title xml:lang="ta">Naiṭatam</title>: Invocation</emph>. No foliation.</desc><desc xml:id="U3">178 folios = <emph rend="bold"><title xml:lang="ta">Naiṭatam</title>: Text (+ Table of Contents)</emph>. Tamil foliation 1-178 and parallel Arabic foliation 1-178. f5v blank.
 
 </desc><desc xml:id="U4">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Very good state of preservation. Some boreholes and truncation.
                         </condition></supportDesc>
@@ -140,7 +140,7 @@ The number is that found in the catalogue of Velanguani Arokium (1845). </desc><
          </sourceDesc>
       </fileDesc>
       
-   <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
+   <xenoData type="webannotation"><![CDATA[[]]]></xenoData><encodingDesc><p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.       </p></encodingDesc><revisionDesc>
          
          
       <change when="2020-10">This catalogue entry has been redacted by Eva WILDEN (Universität Hamburg) for the research program <ref target="https://tst.hypotheses.org/88">Texts Surrounding Texts</ref> (TST, FRAL 2018, ANR/DFG). Version 1, October 2020.</change><change when="2021-01">Converted to TEI by Charles LI.</change><change when="2022-07">Updated to TST encoding conventions by <persName>Emmanuel FRANCIS</persName>. Revised by <persName>Emmanuel FRANCIS</persName>. Version 2, July 2022.</change><change when="2022-11">Revised and enlarged by <persName>Emmanuel FRANCIS</persName> after examination of the original manuscript. Version 3, November 2022.</change></revisionDesc></teiHeader>
@@ -162,7 +162,9 @@ The number is that found in the catalogue of Velanguani Arokium (1845). </desc><
 
      <seg function="title">
        
-     <lb n="1"/><term xml:lang="ta">nayiṭatam</term> <space/> <term xml:lang="fr">Histoire de Nallaraja. <space/> Nayshadam.</term></seg>
+     <cb n="1"/><lb n="1"/><term xml:lang="ta">nayiṭatam</term>
+       <cb n="2"/><lb n="1"/><term xml:lang="fr">Histoire de Nallaraja.
+       <cb n="3"/><lb n="1"/>Nayshadam.</term></seg>
     
         <pb facs="4" n="[1]v"/><note xml:lang="en">blank</note>
 
@@ -173,7 +175,7 @@ The number is that found in the catalogue of Velanguani Arokium (1845). </desc><
     <pb facs="5" n="[1]r"/>
     <fw place="left-margin">
   <seg function="blessing">
-    <cb n="1" />
+    <cb n="1"/>
     <lb n="1"/><term xml:lang="sa">hari</term> Ōm
     <lb n="2"/>naṉṟāka
     <cb n="2"/>
@@ -225,7 +227,7 @@ The number is that found in the catalogue of Velanguani Arokium (1845). </desc><
     
         <pb facs="360" n="177v"/><note xml:lang="en">blank</note>
     
-    <pb facs="361" n="178r"/>
+        <pb facs="361" n="178r"/>
     <seg function="table-of-contents">
       <fw place="left-margin">
   <seg function="blessing">
@@ -254,5 +256,4 @@ The number is that found in the catalogue of Velanguani Arokium (1845). </desc><
       </seg>
 
     </ab>
-  </body>
-                     </text></TEI>
+  </body></text></TEI>

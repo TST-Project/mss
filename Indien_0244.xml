@@ -42,7 +42,10 @@
 						
 					<objectDesc form="pothi" rend="manuscript">
 							<supportDesc material="palm-leaf">
-								<extent>
+								
+
+
+							<extent>
 									<measure unit="folio" quantity="58">{1} + {1} + 50 + {6} (U1 + U2a + U2b + U3).</measure>
 									<dimensions type="leaf" unit="mm">
 										<width quantity="390"/>
@@ -53,10 +56,7 @@
 										<width quantity="390"/>
 										<height quantity="30"/>
 										<depth quantity="50"/>
-									</dimensions><dimensions type="written" unit="mm"/></extent>
-
-
-							<collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. Shelfmark and sticker on recto.</desc><desc xml:id="U1">1 folio = <emph rend="bold">Title Page (additional)</emph>. No foliation. Verso blank. Shelfmark on recto.</desc><desc xml:id="U2a">1 folio = <emph rend="bold"><title xml:lang="ta">Mayilattiruppukaḻ</title>: Invocation</emph>. No foliation. Tamil foliation (right margin) 1.</desc><desc xml:id="U2b">50 folios = <emph rend="bold"><title xml:lang="ta">Mayilattiruppukaḻ</title>: Text</emph>. Tamil foliation (left margin) {1}, 2-28<hi rend="superscript">1</hi>, 28<hi rend="superscript">2</hi>, 29-41<hi rend="superscript">1</hi>, 41<hi rend="superscript">2</hi>, 41<hi rend="superscript">3</hi>, 44-47. Tamil foliation (right margin) 2-51.
+									</dimensions><dimensions type="written" unit="mm"/></extent><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. Shelfmark and sticker on recto.</desc><desc xml:id="U1">1 folio = <emph rend="bold">Title Page (additional)</emph>. No foliation. Verso blank. Shelfmark on recto.</desc><desc xml:id="U2a">1 folio = <emph rend="bold"><title xml:lang="ta">Mayilattiruppukaḻ</title>: Invocation</emph>. No foliation. Tamil foliation (right margin) 1.</desc><desc xml:id="U2b">50 folios = <emph rend="bold"><title xml:lang="ta">Mayilattiruppukaḻ</title>: Text</emph>. Tamil foliation (left margin) {1}, 2-28<hi rend="superscript">1</hi>, 28<hi rend="superscript">2</hi>, 29-41<hi rend="superscript">1</hi>, 41<hi rend="superscript">2</hi>, 41<hi rend="superscript">3</hi>, 44-47. Tamil foliation (right margin) 2-51.
 </desc><desc xml:id="U3">6 folios = <emph rend="bold">back guard leaves</emph>. No foliation. Blank recto verso. f[5]v more dark = outside page of original bundle.
 </desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Poor state of preservation. Many boreholes. Fragile leaves. </condition></supportDesc>
 							<layoutDesc>
@@ -98,8 +98,7 @@
 
 		<encodingDesc>
 			
-		<p>
-				<emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.              </p></encodingDesc>
+		<p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.              </p></encodingDesc>
 		<xenoData type="webannotation"><![CDATA[[]]]></xenoData>
 		
 	<revisionDesc>
@@ -114,21 +113,20 @@
 	
 	
 	
-<text synch="#U1" corresp="#T1" xml:lang="ta">
-		<body>
+<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
 			<ab>
 				<pb facs="6" n="[1]r"/>
-				<seg function="blessing"><cb n="1"/>
+				<fw place="left-margin"><seg function="blessing">
 					<lb n="1"/>veṟṟi
   <lb n="2"/>vēl uṟṟa
-  <lb n="3"/>tuṇai</seg>
-				<seg function="title"><cb n="2"/>
+  <lb n="3"/>tuṇai</seg></fw>
+				<seg function="title">
 					<lb n="1"/>mayilācala-t
   <lb n="2" break="no"/>tiruppukaḻ</seg>
 				<pb n="[1]v"/><note xml:lang="en">blank</note>
-			</ab>
-		</body></text><text synch="#U2a" corresp="#T2" xml:lang="ta">
-		<body>
+			
+  </ab>
+</body></text><text synch="#U2a" corresp="#T2" xml:lang="ta"><body>
 			<ab>
 				<pb facs="10" n="1r"/>
 				<fw place="left-margin"><seg function="blessing">
@@ -156,12 +154,12 @@
 					<g ref="#pcl"/></seg>
 				<seg function="completion-statement">kāppu muṟṟu <g ref="#pcl"/></seg>
 				<seg function="blessing">
-					<lb n="5"/>vāṇi-na<seg rend="grantha">ma</seg>s· tu <g ref="#pcl"/> 					civakiṟupai Uṇṭāka tākavum cuppiṟamaṇiyar tuṇai Uṇṭāka tāka<g rend="below-base">vuM</g><g ref="#pcl"/></seg>
+					<lb n="5"/><note xml:lang="en">right-indented</note> vāṇi-na<seg rend="grantha">ma</seg>s· tu <g ref="#pcl"/> civakiṟupai Uṇṭāka tākavum cuppiṟamaṇiyar tuṇai Uṇṭāka tāka<g rend="below-base">vuM</g><g ref="#pcl"/></seg>
 			</ab>
 		</body></text><text synch="#U2b" corresp="#T3" xml:lang="ta"><body>
 			<ab>
 				
-              <pb n="1r"/>
+              <pb facs="19" n="1r"/>
 				<fw place="left-margin"><seg function="blessing">					
 					<lb n="1"/>naṉ
 					<lb n="2" break="no"/>ṟāka</seg>

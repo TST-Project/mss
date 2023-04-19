@@ -30,20 +30,20 @@
                   
                <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
-                        <support>
+                        
+                        
+                     
+                     
+                     <support>
                            
                            
-                        <p>Regularly shaped. Rounded edges.</p></support>
-                        <extent>
+                        <p>Regularly shaped. Rounded edges.</p></support><extent>
                            <measure unit="folio" quantity="166">{1} + {1} + 163 + {1} (U1 + U2 + U3 + U4). </measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
                            </dimensions>
-                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
-                     
-                     
-                     <collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.
        </desc><desc xml:id="U1">1 folio = <emph rend="bold"><title xml:lang="ta">Tivākaram</title>: Title Page</emph>. No foliation.
 </desc><desc xml:id="U2">1 folio = <emph rend="bold"><title xml:lang="ta">Tivākaram</title>: Front Matter</emph> (Invocation). No foliation.
 </desc><desc xml:id="U3">163 folios = <emph rend="bold"><title xml:lang="ta">Tivākaram</title>: Text</emph>. Tamil foliation 1-163. Parallel Arabic foliation 1-163.
@@ -103,8 +103,7 @@
 
     </ab>
   
-  </body>
-</text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
+  </body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
   <ab>
     
        <pb facs="5" n="[1]r"/>
@@ -116,17 +115,16 @@
     
     <seg function="invocation">
 <lg><l><lb n="1"/>tantimukatt<pc>'</pc> entai cataṅkaip patampōṟṟic</l>
-<l>cintai viḷakkān tivākarattil vanta</l>
+<l>cintai viḷakkān tivākarattil <space/> vanta</l>
 <l><lb n="2"/>tokutiyoru paṉṉiraṇṭun tōṟāma nēṟē</l>
-<l>pakutiyuṟavar maṉamē paṟṟu <g ref="#pcs"/></l></lg></seg>
+<l>pakutiyuṟavar maṉamē <space/> paṟṟu <g ref="#pcs"/></l></lg></seg>
     
         <pb facs="6" n="[1]v"/><note xml:lang="en">blank</note>
 
             
     </ab>
   
-  </body>
-</text><text synch="#U3" corresp="#T3" xml:lang="ta"><body>
+  </body></text><text synch="#U3" corresp="#T3" xml:lang="ta"><body>
   <ab>
     
     <pb facs="7" n="[1]r"/>
@@ -167,6 +165,9 @@
     
      <pb facs="332" n="163v"/>
                 
+   <cb n="1"/><gap reason="ellipsis"/>
+   <cb n="2"/><gap reason="ellipsis"/>
+   <cb n="3"/><gap reason="ellipsis"/>
    <cb n="4"/>
     <lb n="1-2"/><gap reason="ellipsis"/>
     <lb n="3"/><gap reason="ellipsis"/> <seg function="colophon"><seg function="completion-statement">paṉṉi

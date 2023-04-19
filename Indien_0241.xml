@@ -33,17 +33,17 @@
                   
                <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
-                        <extent>
+                        
+                        
+                        
+                     <extent>
                            <measure unit="folio" quantity="15">14 + {1} (U1 + U2).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               <height quantity="30"/>
                            <width max="430"/></dimensions>
                            <note>The leaves are broader in their middle than at their edges. </note>
-                        <dimensions type="object" unit="mm"><width quantity="430"/><height quantity="30"/><depth quantity="30"/></dimensions><dimensions type="written" unit="mm"/></extent>
-                        
-                        
-                     <collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. Shelfmark on recto.</desc><desc xml:id="U1">14 folios = <emph rend="bold"> <title xml:lang="ta">Piṅkalam</title></emph>. Tamil foliation [1]-14. All folios truncated on the right side. 5-6 columns. f1-f4: more dark. 430 x 30 mm. 
+                        <dimensions type="object" unit="mm"><width quantity="430"/><height quantity="30"/><depth quantity="30"/></dimensions><dimensions type="written" unit="mm"/></extent><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. Shelfmark on recto.</desc><desc xml:id="U1">14 folios = <emph rend="bold"> <title xml:lang="ta">Piṅkalam</title></emph>. Tamil foliation [1]-14. All folios truncated on the right side. 5-6 columns. f1-f4: more dark. 430 x 30 mm. 
 
 
 
@@ -104,9 +104,13 @@
 <lb n="4"/>Aṟvōr nīttōr <note xml:lang="en"><term xml:lang="ta">Piṅkalam</term> 313</note></seg>
 <lb n="5"/>Aṟiñar uyarntōr
 
-   <pb n="14v"/>
+   <pb facs="19" n="14v"/>
   
-   <cb n="5"/>
+   <cb n="1"/><gap reason="ellipsis"/>
+   <cb n="2"/><gap reason="ellipsis"/>
+   <cb n="3"/><gap reason="ellipsis"/>
+   <cb n="4"/><gap reason="ellipsis"/>
+    <cb n="5"/>
   <lb n="1"/>pakkattiṉ peya<supplied reason="lost">r</supplied> 
 <lb n="2"/>Ekkarai maruṅki<supplied reason="lost">ṉ</supplied>
 <lb n="3"/>pakka māku<supplied reason="lost">m</supplied> <note xml:lang="en"><term xml:lang="ta">Piṅkalam</term>1009</note>
@@ -114,15 +118,14 @@
 <lb n="5"/>kukki tutta
 <lb n="6"/>citirañ cuṭaramē <note xml:lang="en"><term xml:lang="ta">Piṅkalam</term> 1013</note></seg>
   </ab>
-</body>
-   </text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
+</body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
   <ab>
-  <pb n="[1]r"/>
+  <pb facs="25" n="[1]r"/>
     
   <term xml:lang="en">{drawings}</term>
-  <lb n="1"/><persName role="owner">ka mut=tucāmi</persName>
+  <lb n="1"/><persName role="owner" key="Ka. Muttucāmi">ka mut=tucāmi</persName>
   
-   <pb n="[1]v"/>
+   <pb facs="30" n="[1]v"/>
   
   <term xml:lang="en">{drawings}</term>
  

@@ -8,7 +8,7 @@
          <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2022</date>
+            <date>2023</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -31,19 +31,19 @@
                   
                   
                   
-               <objectDesc form="pothi">
+               <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
-                        <extent>
+                        
+                        
+                        
+                     <extent>
                            <measure unit="folio" quantity="24">{1} + 23 (U1 + U2).</measure>
                            <dimensions type="leaf" unit="mm">
                               <width quantity="400"/>
                               <height quantity="25"/>
                            </dimensions>
                            <note>The leaves are broader in their middle than at their edges. </note>
-                        <dimensions type="object" unit="mm"><width quantity="400"/><height quantity="25"/><depth quantity="25"/></dimensions><dimensions type="written" unit="mm"/></extent>
-                        
-                        
-                     <collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. Shelfmark on recto.</desc><desc xml:id="U1">1 folio = <emph rend="bold">Invocation</emph>. No foliation. Misplaced (between U1, f2 and f3). Verso blank. 400 x 25 mm.
+                        <dimensions type="object" unit="mm"><width quantity="400"/><height quantity="25"/><depth quantity="25"/></dimensions><dimensions type="written" unit="mm"/></extent><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. Shelfmark on recto.</desc><desc xml:id="U1">1 folio = <emph rend="bold">Invocation</emph>. No foliation. Misplaced (between U1, f2 and f3). Verso blank. 400 x 25 mm.
 </desc><desc xml:id="U2">23 folios = <emph rend="bold"> <title xml:lang="ta">Tivākaram</title>:  <foreign xml:lang="ta">Teyvappeyarttokuti</foreign></emph>. Tamil foliation {1}-23. 4-5 columns. 400 x 25 mm. 
 
 
@@ -105,18 +105,16 @@
    <pb n="[1]v"/>
   <note xml:lang="en">blank</note>
   </ab>
-</body>
-   </text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
+</body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
   <ab>
-  <pb n="[1]r"/>
+  <pb facs="11" n="[1]r"/>
   
      <fw place="left-margin"><seg function="blessing">
 <lb n="1"/><term xml:lang="sa">hariḥ |
 <lb n="2"/>Om</term></seg>
      </fw>
-  
-  
-  <seg function="incipit"><lb n="1"/>civaṉ <choice><sic>pē</sic><corr>pe</corr></choice>yar
+    
+  <seg function="incipit"><cb n="1"/><lb n="1"/>civaṉ <choice><sic>pē</sic><corr>pe</corr></choice>yar
 <lb n="2"/>caṅkara<sic>n i</sic>ṟaiyōṉ
 <lb n="3"/>kāma takaṉaṉ ‡</seg>
 <lb n="4"/>caṅkara taraṉē
@@ -129,10 +127,11 @@
   
       <cb n="4"/>
   <lb n="1-4"/><gap reason="ellipsis"/>
-
      
-  <pb n="23v"/>
+  <pb facs="19" n="23v"/>
   
+    <cb n="1"/><gap reason="ellipsis"/>
+    <cb n="2"/><gap reason="ellipsis"/>
    <seg function="explicit"><cb n="3"/>
   <lb n="1"/>parivēṭattiṉ peyar
   <lb n="2"/>Ūrkoḷ vaṭṭam
