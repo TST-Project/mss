@@ -40,17 +40,17 @@
                   
                <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
-                        <support>
+                        
+                        
+                     <support>
                            
-                        </support>
-                        <extent>
+                        </support><extent>
                            <measure unit="folio" quantity="225">{1} + 242 (U1 + U2).</measure>
                            <dimensions type="leaf" unit="mm">
                               <width quantity="410"/>
                               <height quantity="35"/>
                            </dimensions>
-                        <dimensions type="object" unit="mm"><depth quantity="125"/><width quantity="410"/><height quantity="35"/></dimensions><dimensions type="written" unit="mm"><width min="350" max="370"/><height quantity="30"/></dimensions></extent>
-                     <foliation>Parallel Tamil and Arabic numerals on the recto, left margin, for U2. The folio numbering continues that of the first volume (<ref target="https://tst-project.github.io/mss/Indien_0228.xml">BnF Indien 228</ref>), which ends with folio number 199 (that is, U1, f[1], is here silently counted as folio 200). </foliation><collation><desc xml:id="CoverFront"/><desc xml:id="U1">1 folio = <emph rend="bold"><title xml:lang="ta">Caturakarāti</title>: Title Page</emph>. No foliation. Implicitly considered as folio 200. 410 x 35 mm.</desc><desc xml:id="U2">224 folios = <emph rend="bold"><title xml:lang="ta">Caturakarāti</title>: Text</emph>. Tamil foliation 201-424 and parallel Arabic foliation. 415 x 35 mm.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Very good state of preservation.</condition></supportDesc>
+                        <dimensions type="object" unit="mm"><depth quantity="125"/><width quantity="410"/><height quantity="35"/></dimensions><dimensions type="written" unit="mm"><width min="350" max="370"/><height quantity="30"/></dimensions></extent><foliation>Parallel Tamil and Arabic numerals on the recto, left margin, for U2. The folio numbering continues that of the first volume (<ref target="https://tst-project.github.io/mss/Indien_0228.xml">BnF Indien 228</ref>), which ends with folio number 199 (that is, U1, f[1], is here silently counted as folio 200). </foliation><collation><desc xml:id="CoverFront"/><desc xml:id="U1">1 folio = <emph rend="bold"><title xml:lang="ta">Caturakarāti</title>: Title Page</emph>. No foliation. Implicitly considered as folio 200. 410 x 35 mm.</desc><desc xml:id="U2">224 folios = <emph rend="bold"><title xml:lang="ta">Caturakarāti</title>: Text</emph>. Tamil foliation 201-424 and parallel Arabic foliation. 415 x 35 mm.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Very good state of preservation.</condition></supportDesc>
                      <layoutDesc>
                         <layout columns="4" writtenLines="7"/>
                      </layoutDesc>
@@ -104,10 +104,9 @@ Bound by rope.</p><decoNote type="stringhole"><measure unit="stringhole" quantit
   <lb n="2"/>Seconde partie.</seg>
     
     <pb facs="4" n="[1]v"/>
-    <seg function="copy-statement">
-       
+    <seg function="copy-statement">       
    <lb n="1"/><term xml:lang="ta"><num rend="traditional">1828</num>m āṇṭu novempuṟu <g ref="#mācam">mācam</g> <num rend="traditional">18</num> <g ref="#tēti">tēti</g> <g ref="#pcs"/> tuvakkam</term>
-  <note>Beginning of copy statement</note></seg>
+    </seg>
                  
       </ab>
   </body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
@@ -133,7 +132,7 @@ Bound by rope.</p><decoNote type="stringhole"><measure unit="stringhole" quantit
   
 
   <pb facs="451" n="424r"/>
-  <seg function="explicit"><cb n="1"/>
+  <seg function="explicit">
   <lb n="2"/><gap reason="ellipsis"/> Eṉṉai Eṉṉāṟ cūṭṭiṉum metturai kāṭṭiṉumaṉṉūṟkel
   <lb n="3"/>lāmaṟivāti yeṉave ~</seg> <seg function="colophon"><seg function="completion-statement">toṭaiyakarāti muṟṟum <g ref="#pcs"/></seg> <seg function="completion-statement">caturakarāti muṟṟum <g ref="#pcs"/></seg>
   <seg function="TBC"><lb n="4"/>Aṭai<gap reason="ellipsis"/>
@@ -144,7 +143,6 @@ Bound by rope.</p><decoNote type="stringhole"><measure unit="stringhole" quantit
   <pb n="424v" facs="452"/>
   <lb n="1"/>rāriyaṉeṉṉum vetiyaṉṟārāy muṭitta caturakarātiyē <g ref="#pcl"/> <note xml:lang="en">end of auspicious verse</note></seg>
     </seg>
-
     
     </ab>
   </body></text></TEI>
