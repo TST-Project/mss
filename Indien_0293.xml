@@ -33,17 +33,17 @@
                   
                <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
-                        <support><p>Leaves are broader in the middle of the bundle.</p></support>
-                        <extent>
+                        
+                        
+                         
+                        
+                     <support><p>Leaves are broader in the middle of the bundle.</p></support><extent>
                            <measure unit="folio" quantity="392">{1} + {1} + 386 + 3 + {1} (U1 + U2 + U3 + U4 + U5).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
                            <width min="350" max="405"/><height min="15" max="30"/></dimensions>
-                        <dimensions type="object" unit="mm"><width quantity="405"/><height quantity="30"/></dimensions><dimensions type="written" unit="mm"/></extent>
-                         
-                        
-                     <collation><desc xml:id="U1">1 folio = <emph rend="bold">Title Page (additional)</emph>. No foliation. Double leaf. Verso blank. 350 x 15 mm.
+                        <dimensions type="object" unit="mm"><width quantity="405"/><height quantity="30"/></dimensions><dimensions type="written" unit="mm"/></extent><collation><desc xml:id="U1">1 folio = <emph rend="bold">Title Page (additional)</emph>. No foliation. Double leaf. Verso blank. 350 x 15 mm.
 </desc><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U2">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. With later additions, unblackened on recto and verso: blessings (writing exercises?). 370 x 30 mm.
 </desc><desc xml:id="U3">386 folios. Tamil foliation 1-33, 49-119<hi rend="superscript">1</hi>, 119<hi rend="superscript">2</hi> (foliation omitted when foliating, see marginal note), 120-400. No folios foliated 44-48, but no text discontinuity. Foliation corrected for f136-f139. 365/405 x 30 mm.
 </desc><desc xml:id="U3a">384 folios = <emph rend="bold"><title xml:lang="ta">Periya Purāṇam</title>: Mūlam</emph>. Tamil foliation 1-33, 49-119<hi rend="superscript">1</hi>, 119<hi rend="superscript">2</hi> (foliation omitted when foliating, see marginal note), 120-398. No folios foliated 44-48, but no text discontinuity. Foliation corrected for f136-f139.</desc><desc xml:id="U3b">2 folios = <emph rend="bold"><title xml:lang="ta">Periya Purāṇam: Aṭivarai</title></emph>. Tamil foliation 399-400.</desc><desc xml:id="U4">3 folios = <emph rend="bold">Table of Contents (additional)</emph>. List of the <foreign xml:lang="ta">ciṟappu</foreign>s and <foreign xml:lang="ta">purāṇam</foreign>s. Tamil foliation {1}, 2-3.
@@ -104,10 +104,10 @@
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
  <ab> 
   <pb facs="1" n="[1]r"/>
-  <seg function="blessing">
-    <cb n="1"/>
-  <lb n="1"/>veṟṟi-vēl uṟṟa tuṇai</seg>
-  <seg function="title"><cb n="2"/>
+  <fw place="left-margin"><seg function="blessing">
+  <lb n="1"/>veṟṟi-vēl uṟṟa tuṇai</seg></fw>
+
+  <seg function="title">
 <lb n="1"/>periyapurāṇam</seg>
 
    <pb facs="2" n="[1]v"/><note xml:lang="en">blank</note>

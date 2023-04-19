@@ -33,18 +33,18 @@
                   
                <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
-                        <support/>
-                        <extent>
+                        
+                        
+                        
+                        
+                        
+                     <support/><extent>
                            <measure unit="folio" quantity="17">{1} + 12 + {4}.</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
                            <width min="350" max="355"/><height min="33" max="40"/></dimensions>
-                        <dimensions type="object" unit="mm"><width quantity="360"/><height quantity="40"/><depth quantity="30"/></dimensions><dimensions type="written" unit="mm"/></extent>
-                        
-                        
-                        
-                     <collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">Title Page (additional)</emph>. No foliation. Verso blank. 350 x 35 mm.
+                        <dimensions type="object" unit="mm"><width quantity="360"/><height quantity="40"/><depth quantity="30"/></dimensions><dimensions type="written" unit="mm"/></extent><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 folio = <emph rend="bold">Title Page (additional)</emph>. No foliation. Verso blank. 350 x 35 mm.
 </desc><desc xml:id="U2">12 folios = <emph rend="bold"><title xml:lang="ta">Ātticcūṭippurāṇam</title></emph>. Tamil foliation 1-12. f12v blank. 355 x 35 mm.
 
 </desc><desc xml:id="U3">4 folios = <emph rend="bold">guard leaves</emph>. No foliation. Same type of leaf as U1. Blank recto verso. f4v more dark = original outside page. 350 x 40 mm. </desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Excellent state of preservation.
@@ -120,8 +120,8 @@
   <lb n="1"/>kōpaṟuvatamālaiyilē
 <lb n="2"/>Aṟupattu mūvar kataikki
 <lb n="3"/>periyapurāṇakataiyāṉa
-<lb n="4"/>paṭiyiṉālē Anta periyapurā<note xml:lang="en" place="foot">The medial -ā is at the beginning of next line.</note>
-<lb n="5" break="no"/>ṇam <unclear><gap reason="ellipsis"/></unclear> varalāṟu Aṭip
+<lb n="4"/>paṭiyiṉālē Anta periyapurā
+<lb n="5" break="no"/>ṇam<app><note xml:lang="en">The medial <foreign>-ā</foreign> in <foreign>rā</foreign> is at the beginning of next line.</note></app> <unclear><gap reason="ellipsis"/></unclear> varalāṟu Aṭip
 <lb n="6"/>pūṟvōttiram colluvatu</seg>
 <lb n="7"/><g ref="#pcl"/>
   
@@ -155,7 +155,7 @@
     <pb facs="14" n="12r"/>
   <lb n="6"/><gap reason="ellipsis"/> <seg function="explicit">caṭaiyaṉār vayatti <unclear><gap reason="ellipsis"/></unclear> titta ~ cuntaramūrtti <unclear><gap reason="ellipsis"/></unclear> lūrilē</seg> <g ref="#pcs"/>
 
-     <pb facs="15" n="12v"/><note xml:lang="en">blank</note>
+     <pb facs="15" n="12v"/><app><note xml:lang="en">blank page</note></app>
   
     </ab>
 </body></text></TEI>
