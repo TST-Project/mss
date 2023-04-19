@@ -79,12 +79,12 @@
 <facsimile><graphic url="https://didomena.ehess.fr/concern/data_sets/9z903659m/manifest.json" facs="16"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   <ab>
   <pb facs="16" n="[1]r"/>
-  <seg function="blessing">
-  <milestone unit="left-margin"/>
-     <lb n="1"/><term xml:lang="sa">ha<unclear>ra</unclear>
-  <lb n="2"/>Om</term></seg>
-  
-  <seg function="satellite-stanza"><milestone unit="main-text-area"/>
+  	<fw place="left-margin">
+  		<seg function="blessing">
+       <lb n="1"/><term xml:lang="sa">ha<unclear>ra</unclear>
+  <lb n="2"/>Om</term></seg></fw>
+  	  
+  <seg function="satellite-stanza">
   <lb n="1-2"/><gap reason="ellipsis"/></seg>
 
     <pb n="[1]v"/>
@@ -92,25 +92,29 @@
   </ab>
 </body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
   <ab>
-  <pb facs="21" n="[1]r"/>
-    
-  <seg function="blessing">
-  <milestone unit="left-margin"/>
-  <lb n="1"/>naṉ
-  <lb n="2" break="no"/>ṟāka</seg>
+  	<pb facs="21" n="[1]r"/>
+  	
+  	<fw place="left-margin">
+  		<seg function="blessing">
+  			<lb n="1"/>naṉ
+  			<lb n="2" break="no"/>ṟāka</seg>
+  	</fw>
   
-  <seg function="incipit"><milestone unit="main-text-area"/>
+  <seg function="incipit">
   <lb n="1-4"/><note xml:lang="en">verse 1</note></seg>
   
   <pb facs="29" n="[1]v"/>
-  <seg function="intertitle"><milestone unit="left-margin"/>
+  	<fw place="left-margin">
+  		<seg function="intertitle">
   <lb n="1"/>pirāmaṇar
   <lb n="2"/>makuṟṟuvam</seg>
+  	</fw>
   
   <pb facs="29" n="2r"/>
-  <seg function="intertitle"><milestone unit="left-margin"/>
+  	<fw place="left-margin"><seg function="intertitle">
   <lb n="1"/>Irāyar
-  <lb n="2"/>makut=tuvam</seg>
+  <lb n="2"/>makut=tuvam</seg></fw>
+  	
   
   <pb facs="49" n="50v"/>
      <seg function="explicit"><lb n="1-4"/><note xml:lang="en">verse 100</note></seg>
@@ -121,12 +125,12 @@
   <ab>
     
   <pb facs="55" n="[1]r"/>
-  <milestone unit="left-margin"/>
-  <lb n="1"/>nākapaṭṭa
+  	<fw place="left-margin">
+  <lb n="1"/>nākapaṭṭa</fw>
   
   <cb n="1"/><note xml:lang="en">drawing = a bird?</note>
   
-  <seg function="ownership-statement"><milestone unit="main-text-area"/>
+  <seg function="ownership-statement">
   <lb n="1"/><persName xml:lang="ta" role="owner">rācarācapiḷḷaiyavarkaḷ murukappiḷḷai
   <lb n="2"/>kumāraṉ Amuṟtaliṅkañ</persName> cuvaṭi</seg>
   <seg function="title"><lb n="3"/>kumaṟār māṇavā<unclear>ḷa</unclear>nāraṉacatakam</seg> – <seg function="colophon">caṟuvacitti <g ref="#varuṣam">varuṣam</g> māṟ
