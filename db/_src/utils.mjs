@@ -48,24 +48,47 @@ const util = {
     },
     */
     milestone: (el) => {
+
         const getUnit = (el) => {
             const m = el.ownerDocument.querySelector('extent > measure');
             if(m) return m.getAttribute('unit');
             return '';
         };
+        
+        const forwardWalk = (start) => {
+            const nextEl = (e) => e.firstChild || e.nextSibling || e.parentNode.nextSibling;
+            var p = nextEl(start);
+            while(p) {
+                if(p.previousSibling === start) return false;
+                if(p.nodeName === 'pb' || p.nodeName === 'cb' ||
+                    (p.nodeName === 'milestone' && check.isFolio(p.getAttribute('unit')) )
+                ) {
+                    const content = (p.getAttribute('unit') || getUnit(p) || '') + ' ' + 
+                                    (p.getAttribute('n') || '');
+                    return {textContent: content, getAttribute: () => p.getAttribute('facs')};
+                }
+                p = nextEl(p);
+            }
+            return false;
 
-        var p = util.prevEl(el);
+        };
+        
+        const found = forwardWalk(el);
+        if(found) return found;
+        
+        const parEls = ['text','desc','colophon','rubric'];
+        var p = util.prevEl(el, {par: parEls});
         while(p) {
             if(!p) return false;
-            if(p.nodeName === 'text' || p.nodeName === 'desc') return false;
-            if(p.nodeName === 'pb' || 
+            //if(['text','desc','colophon','rubric'].includes(p.nodeName)) return false;
+            if(p.nodeName === 'pb' ||  p.nodeName === 'cb' ||
                 (p.nodeName === 'milestone' && check.isFolio(p.getAttribute('unit')) )
             ) {
                 const content = (p.getAttribute('unit') || getUnit(p) || '') + ' ' + 
                                 (p.getAttribute('n') || '');
                 return {textContent: content, getAttribute: () => p.getAttribute('facs')};
             }
-            p = util.prevEl(p);
+            p = util.prevEl(p, {par: parEls});
         }
     },
 

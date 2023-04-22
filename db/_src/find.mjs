@@ -54,17 +54,18 @@ const xmlToHtml = (xmlDoc,el) => {
 
 const getPlacement = (el) => {
     const milestone = util.milestone(el) || 
-        el.closest('desc')?.querySelector('locus') ||
-        el.querySelector('locus, milestone, pb'); // if el is <desc>
-    const placement = el.closest('fw')?.getAttribute('place')?.replaceAll('-',' ') ||
+        el.closest('desc')?.querySelector('locus'); //||
+        //el.querySelector('locus, milestone, pb'); // if el is <desc>
+    const placement = el.nodeName === 'rubric' ? 'beginning' :
+        el.closest('fw')?.getAttribute('place')?.replaceAll('-',' ') ||
         //util.placement(el) || // deprecated (for <milestone>s like @unit='left-margin' 
         el.closest('desc')?.getAttribute('subtype')?.replace(/\s/g,', ').replaceAll('-',' ') ||
         //util.line(el) || // also add column?
         '';
     const text = el.closest('text');
     const desc = el.closest('desc');
-    const synch = text ? text.getAttribute('synch')?.replace(/#/g,'') :
-                desc ? desc.getAttribute('synch')?.replace(/#/g,'') :
+    const synch = text ? text.getAttribute('synch')?.replace(/#/g,'') || '' :
+                desc ? desc.getAttribute('synch')?.replace(/#/g,'') || '' :
                 (el.closest('msItem')?.getAttribute('synch')?.replace(/#/g,'') || '');
     return [
         /*synch:*/ synch, 
@@ -147,6 +148,8 @@ const find = {
         else {
             const selector = name === 'header' ? 
                 'seg[function~="header"], desc[type~="header"], fw' :
+                name === 'blessing' ?
+                    'seg[function~="blessing"], desc[type~="blessing"], rubric' :
                 `seg[function~="${name}"], desc[type~="${name}"]`;
             return [...xmlDoc.querySelectorAll(selector)].map(el => processParatext(xmlDoc,el));
         }
