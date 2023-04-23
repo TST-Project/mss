@@ -59,7 +59,8 @@ const util = {
             const nextEl = (e) => e.firstChild || e.nextSibling || e.parentNode.nextSibling;
             var p = nextEl(start);
             while(p) {
-                if(p.previousSibling === start) return false;
+                if(p.nodeType === 3 && p.textContent.trim() !== '') return false; 
+                if(p.previousSibling === start) return false; // probably don't need this
                 if(p.nodeName === 'pb' || p.nodeName === 'cb' ||
                     (p.nodeName === 'milestone' && check.isFolio(p.getAttribute('unit')) )
                 ) {
