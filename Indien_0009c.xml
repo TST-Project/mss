@@ -107,7 +107,9 @@
     <sourceDoc>
         <surface/>
     </sourceDoc>
-<facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b52517812d/manifest.json" facs="131"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+<facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b52517812d/manifest.json" facs="131"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta">
+   <body>
+      <ab>
   
   <pb facs="131" n="[1]r"/>
   
@@ -115,9 +117,9 @@
   <lb n="1"/><gap reason="ellipsis"/>
   <lb n="2"/><gap reason="ellipsis"/>
   
-  <cb n="2"/><note xml:lang="en">diagram</note>
+  <cb n="2"/><app><note xml:lang="en">diagram</note></app>
  
-  <cb n="3"/><note xml:lang="en">diagram</note>
+  <cb n="3"/><app><note xml:lang="en">diagram</note></app>
   
   <cb n="4"/>
     <lb n="1"/><gap reason="ellipsis"/>
@@ -126,6 +128,7 @@
   <lb n="4"/><gap reason="ellipsis"/>
     <lb n="5"/><gap reason="ellipsis"/>
    
-   <pb facs="132" n="[1]v"/><seg function="user-related-note"><note xml:lang="en">scribbles</note></seg>
+   <pb facs="132" n="[1]v"/><seg function="user-related-note"><app><note xml:lang="en">scribbles</note></app></seg>
 
+      </ab>
 </body></text></TEI>
