@@ -21,17 +21,18 @@
                   <idno type="shelfmark">Indien 25</idno>
                   <idno type="alternate"><idno>Tamoul 25</idno><idno>Ariel ?</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103393c</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b52518061b</idno></msIdentifier>
-               <msContents class="#MTM">
-                  <summary><p>A multiple-text manuscript (in fact a composite manuscript: U1b20 + U1c = Indien 25b) containing:  
+               <msContents class="#CM">
+                  <summary><p>A composite manuscript containing:  
 <list>
-  <item>The <title xml:lang="ta">TBC</title> (U).</item>
+  <item>A collection of *** works (Indien 25a).</item>
+  <item>The <title xml:lang="ta">***</title> (Indien 25b). This appears to have been added to Indien 25a.</item>
   </list></p>
 
 <p>Description based on the examination of the original manuscript (April 2023).</p>
 <p>Dimensions assessed at the time of examination.</p></summary>
                   
                   
-               <msItem synch="#U1b.1" xml:id="T1" defective="false"><title xml:lang="ta">TBC</title><textLang mainLang="tam"/></msItem><msItem synch="#U1b.2" xml:id="T2" defective="false"><title xml:lang="ta">TBC</title><textLang mainLang="tam"/></msItem><msItem synch="#U1b.3" xml:id="T3" defective="false"><title xml:lang="ta">Pūtipōtakāraṇakārikakaṭṭaḷai</title><textLang mainLang="tam"/></msItem><msItem synch="#U1b.4" xml:id="T4" defective="false"><title xml:lang="ta">Collection</title><textLang mainLang="tam"/></msItem><msItem synch="#U1b.5" xml:id="T5" defective="false"><title>TBC</title></msItem><msItem synch="#U1b.6" xml:id="T6" defective="false"><title xml:lang="ta">TBC</title><textLang mainLang="tam"/></msItem><msItem synch="#U1b.7" xml:id="T7" defective="false"><title xml:lang="ta">TBC</title><textLang mainLang="tam"/></msItem><msItem synch="#U1b.8" xml:id="T8" defective="false"><title xml:lang="ta">TBC</title><textLang mainLang="tam"/></msItem><msItem synch="#U1b.9" xml:id="T9" defective="false"><title xml:lang="ta">TBC</title><textLang mainLang="tam"/></msItem><msItem synch="#U1b.10" xml:id="T10" defective="false"><title xml:lang="ta">TBC</title><textLang mainLang="tam"/></msItem><msItem synch="#U1b.11" xml:id="T11" defective="false"><title xml:lang="ta">TBC</title><textLang mainLang="tam"/></msItem><msItem synch="#U1b.12" xml:id="T12" defective="false"><title xml:lang="ta">TBC</title><textLang mainLang="tam"/></msItem><msItem synch="#U1b.13" xml:id="T13" defective="false"><title xml:lang="ta">TBC</title><textLang mainLang="tam"/></msItem><msItem synch="#U1b.14" xml:id="T14" defective="false"><title xml:lang="ta">TBC</title><textLang mainLang="tam"/></msItem><msItem synch="#U1b.15" xml:id="T15" defective="false"><title xml:lang="ta">TBC</title><textLang mainLang="tam"/></msItem><msItem synch="#U1b.16" xml:id="T16" defective="false"><title xml:lang="ta">TBC</title><textLang mainLang="tam"/></msItem><msItem synch="#U1b.17" xml:id="T17" defective="false"><title xml:lang="ta">TBC</title><textLang mainLang="tam"/></msItem><msItem synch="#U1b.18" xml:id="T18" defective="false"><title xml:lang="ta">TBC</title><textLang mainLang="tam"/></msItem><msItem synch="#U1b.19" xml:id="T19" defective="false"><title xml:lang="ta">TBC</title><textLang mainLang="tam"/></msItem><msItem synch="#U1b.20.2" xml:id="T20.1" defective="false"><title xml:lang="ta">TBC</title><textLang mainLang="tam"/></msItem><msItem synch="#U1b.20.3" xml:id="T20.2" defective="false"><title xml:lang="ta">TBC</title><textLang mainLang="tam"/></msItem></msContents>
+               <msItem synch="#Indien25a" defective="false" source="https://tst-project.github.io/mss/Indien_0025a.xml"><title xml:lang="ta"><term xml:lang="en">Collection (** works)</term></title><textLang mainLang="tam"/></msItem><msItem synch="#Indien25b" defective="false" source="https://tst-project.github.io/mss/Indien_0025b.xml"><title xml:lang="ta"><term xml:lang="en">TBC</term></title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
                   
                   
@@ -44,8 +45,8 @@
                         
                         
                         
-                     <support><p>Rounded edges, except U1c</p></support><extent>
-                           <measure unit="folio" quantity="1">{7} +  + (U1a + U1b + U1c).</measure>
+                     <support/><extent>
+                           <measure unit="folio" quantity="1">00 + 00 + (Indien 25a + Indien 25b).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
@@ -59,11 +60,11 @@
                         </dimensions>
                         </extent><collation>
                      
-                     <desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1a">7 folios = <emph rend="bold">guard leaves</emph>. No foliation. Blank recto verso. 375 x 30 mm.</desc><desc xml:id="U1b">*** folios = <emph rend="bold">Collection</emph>. Overal Tamil foliation 1-129, 179-332. Individual successive Tamil foliations. 375/390 x 30 mm.</desc><desc xml:id="U1b.1">13 folios = <emph rend="bold">Civañāṉapōtam</emph>. Overal Tamil foliation 1-13 and individual {1}, 2-13.</desc><desc xml:id="U1b.2">37 folios = <emph rend="bold"><title xml:lang="ta">TBC</title></emph>. Overal Tamil foliation 14-50 and individual {1}, 2-37.</desc><desc xml:id="U1b.3">37 folios = <emph rend="bold"><title xml:lang="ta">TBC</title></emph>. Overal Tamil foliation 51-86 and individual 38-87.</desc><desc xml:id="U1b.4">19 folios = <emph rend="bold"><title xml:lang="ta">TBC</title></emph>. Overal Tamil foliation 88-106 and individual {1}, 2-19.</desc><desc xml:id="U1b.5">17 folios = <emph rend="bold"><title xml:lang="ta">TBC</title></emph>. Overal Tamil foliation 107-123 and individual {1}, 2-17.</desc><desc xml:id="U1b.6">6 folios = <emph rend="bold"><title xml:lang="ta">TBC</title></emph>. Overal Tamil foliation 124-129 and individual {1}, 2-6.</desc><desc xml:id="U1b.7">2 folios = <emph rend="bold"><title xml:lang="ta">TBC</title></emph>. Overal Tamil foliation 178-179 and individual {1}, 2.</desc><desc xml:id="U1b.8">3 folios = <emph rend="bold"><title xml:lang="ta">TBC</title></emph>. Overal Tamil foliation 180-182 and individual Tamil foliation {1}, 2-3.</desc><desc xml:id="U1b.9">3 folios = <emph rend="bold"><title xml:lang="ta">TBC</title></emph>. Overal Tamil foliation 183-185 and individual Tamil foliation 1-3.</desc><desc xml:id="U1b.10">4 folios = <emph rend="bold"><title xml:lang="ta">TBC</title></emph>. Overal Tamil foliation 186-189 and Individual Tamil foliation {1}, 2-4.</desc><desc xml:id="U1b.11">12 folios = <emph rend="bold"><title xml:lang="ta">TBC</title></emph>. Overal Tamil foliation 190-201 and Individual Tamil foliation {1}, 2-12.</desc><desc xml:id="U1b.12">14 folios = <emph rend="bold"><title xml:lang="ta">TBC</title></emph>. Overal Tamil foliation 202-215 and Individual Tamil foliation {1}, 2-14.</desc><desc xml:id="U1b.13">9 folios = <emph rend="bold"><title xml:lang="ta">TBC</title></emph>. Overal Tamil foliation 216-224 and Individual Tamil foliation {1}, 2-9.</desc><desc xml:id="U1b.14">36 folios = <emph rend="bold"><title xml:lang="ta">TBC</title></emph>. Overal Tamil foliation 225-260 and Individual Tamil foliation {1}, 2-36.</desc><desc xml:id="U1b.15">46 folios = <emph rend="bold"><title xml:lang="ta">TBC</title></emph>. Overal Tamil foliation 261-306 and Individual Tamil foliation {1}, 2-46.</desc><desc xml:id="U1b.16">15 folios = <emph rend="bold"><title xml:lang="ta">TBC</title></emph>. Overal Tamil foliation 307-321 and Individual Tamil foliation {1}, 2-15.</desc><desc xml:id="U1b.17">6 folios = <emph rend="bold"><title xml:lang="ta">TBC</title></emph>. Overal Tamil foliation 322-327 and Individual Tamil foliation {1}, 2-6.</desc><desc xml:id="U1b.18">5 folios = <emph rend="bold"><title xml:lang="ta">TBC</title></emph>. Overal Tamil foliation 328-332 and Individual Tamil foliation {1}, 2-5.</desc><desc xml:id="U1b.19">26 folios = <emph rend="bold"><title xml:lang="ta">TBC</title></emph>. Individual Tamil foliation {1}, 2-26.</desc><desc xml:id="U1b.20">41 folios = <emph rend="bold"><title xml:lang="ta">TBC</title></emph>. 375/380 x 25/30 mm.</desc><desc xml:id="U1b.20.1">2 folios = <emph rend="bold">guard leaves</emph>. No foliation.</desc><desc xml:id="U1b.20.2">1 folio = <emph rend="bold">guard leaves</emph>. No foliation. Verso blank.</desc><desc xml:id="U1b.20.3">38 folios = <emph rend="bold"><title xml:lang="ta">TBC</title></emph>. Tamil foliation {1}, 2-38.</desc><desc xml:id="U1c">4 folios = <emph rend="bold">guard leaves</emph>. No foliation. Blank recto verso. 375 x 30 mm.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Relatively good state of preservation, despite boreholes. </condition></supportDesc>
+                     <desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="Indien25a"/><desc xml:id="Indien25b"/><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Relatively good state of preservation, despite boreholes. </condition></supportDesc>
                      <layoutDesc>
                         <p/>
                      </layoutDesc>
-                  </objectDesc><handDesc><handNote synch="#U1b" scope="minor" script="tamil" medium="incised"><desc>Hand#1.</desc></handNote></handDesc><additions>
+                  </objectDesc><handDesc/><additions>
                   
                      
                      
@@ -74,7 +75,7 @@
                      
                   <desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker, covering an older sticker: <quote>INDIEN 25</quote> (<locus facs="1">front cover, recto</locus>). </desc><desc synch="#CoverFront" type="documenting-note" subtype="cover front">BnF donation sticker <quote>DON N° <space type="vacat"/></quote> (<locus facs="1">front cover, recto</locus>). </desc></additions><bindingDesc>
                      <binding>
-                        <p>Original <material cert="medium">wood</material> covers. 375 x 30 x 10 mm.</p>
+                        <p>Original <material cert="medium">wood</material> covers. These are probably the original covers of Indien 25a. 375 x 30 x 10 mm.</p>
                      <decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
                   </bindingDesc></physDesc>
                <history>
@@ -108,316 +109,4 @@ Not after 1854, since part of the collection of <persName role="collector" key="
     <sourceDoc>
         <surface/>
     </sourceDoc>
-<facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b52518061b/manifest.json"/></facsimile><text synch="#U1b.1" corresp="#T1" xml:lang="ta"><body>
-  <ab>
-    
-    <pb facs="17" n="[1]r = f. 1r"/>
-    
-    <fw place="left-margin">
-      <seg function="blessing"><lb n="1-2"/>tirucciṟṟampalam</seg>
-      <seg function="title"><lb n="3-4"/>civañāṉapōtakam</seg>
-      <seg function="intertitle"><lb n="5-6"/>mutār cūttiram</seg>
-      </fw>
-
-    <seg function="incipit">
-    <lb n="1"/><gap reason="ellipsis"/></seg>
-    
-        <pb facs="42" n="13v"/>    
-    </ab>
-  </body></text><text synch="#U1b.2" corresp="#T2" xml:lang="ta"><body>
-  <ab>
-    
-    <pb facs="43" n="[1]r = f. 14r"/>
-    
-    <fw place="left-margin">
-      <seg function="blessing"><lb n="1-2"/>tirucciṟṟampalam</seg>
-      <seg function="title"><lb n="3-5"/>civañāṉacittiyār parakṣam</seg>
-      </fw>
-
-    <seg function="incipit">
-    <lb n="1"/><gap reason="ellipsis"/></seg>
-    
-    <pb facs="115" n="37r = f. 50r"/>
-    <lb n="1"/><gap reason="ellipsis"/>
-    <lb n="2"/><gap reason="ellipsis"/>
-    <lb n="3"/><gap reason="ellipsis"/>
-    
-        <pb facs="116" n="37v = f. 50v"/><app><note xml:lang="en">blank page</note></app>    
-    </ab>
-  </body></text><text synch="#U1b.3" corresp="#T3" xml:lang="ta"><body>
-  <ab>
-    
-    <pb facs="117" n="38r = f. 51r"/>
-    
-    <fw place="left-margin">
-      <seg function="title"><lb n="1-4"/>civañāṉacittiyār cupaṭcam</seg>
-      <seg function="intertitle"><lb n="5-6"/>mutār cūttiram</seg>
-      </fw>
-
-    <seg function="incipit">
-    <lb n="1"/><gap reason="ellipsis"/></seg>
-    
-        <pb facs="189" n="74r = f. 87r"/>
-        <lb n="1"/><gap reason="ellipsis"/>
-    <lb n="2"/><gap reason="ellipsis"/>
-    <lb n="3"/><gap reason="ellipsis"/>
-    <lb n="4"/><gap reason="ellipsis"/>
-    <lb n="5"/><gap reason="ellipsis"/>
-    <lb n="6"/><gap reason="ellipsis"/>
-    
-            <pb facs="190" n="74v = f. 87v"/><app><note xml:lang="en">blank page</note></app>
-
-    </ab>
-  </body></text><text synch="#U1b.4" corresp="#T4" xml:lang="ta"><body>
-  <ab>
-    
-    <pb facs="191" n="[1]r = f. 88r"/>
-    
-    <fw place="left-margin">
-      <seg function="title"><lb n="1-3"/>civappirakācam</seg>
-      </fw>
-
-    <seg function="incipit">
-    <lb n="1"/><gap reason="ellipsis"/></seg>
-    
-        <pb facs="228" n="19r = f. 106v"/>
-    <lb n="1"/>civappiṟakācam <gap reason="ellipsis"/> muṭintatu mu<sic>ttu</sic>m tēvicakāyam
-    </ab>
-  </body></text><text synch="#U1b.5" corresp="#T5"><body>
-  <ab>
-    
-    <pb facs="229" n="[1]r = f. 107r"/>
-    
-    <fw place="left-margin">
-      <seg function="title"><lb n="1-4"/>caṅkaṟpaniṟākaraṇam mūlapāṭam</seg>
-      <seg function="prosody"><lb n="5"/>Akaval</seg>
-      </fw>
-
-    <seg function="incipit">
-    <lb n="1"/><gap reason="ellipsis"/></seg>    
-       
-    </ab>
-  </body></text><text synch="#U1b.6" corresp="#T6" xml:lang="ta"><body>
-  <ab>
-    
-    <pb facs="263" n="[1]r = f. 124r"/>
-    
-    <fw place="left-margin">
-      <seg function="blessing"><lb n="1-3"/>tirucciṟṟampalam</seg>
-      <seg function="title"><lb n="4-7"/>Irupāyirupatu mūlapāṭam</seg>
-      </fw>
-
-    <seg function="incipit">
-    <lb n="1"/><gap reason="ellipsis"/></seg>    
-       
-    </ab>
-  </body></text><text synch="#U1b.7" corresp="#T7" xml:lang="ta"><body>
-  <ab>
-    
-    <pb facs="275" n="[1]r = f. 179r"/>
-    
-    <fw place="left-margin">
-      <seg function="title"><lb n="1-3"/>māyappiṟalāpam</seg>
-      </fw>
-
-    <seg function="incipit">
-    <lb n="1"/><gap reason="ellipsis"/></seg>    
-       
-    </ab>
-  </body></text><text synch="#U1b.8" corresp="#T8" xml:lang="ta"><body>
-  <ab>
-    
-    <pb facs="279" n="[1]r = f. 181r"/>
-    
-    <fw place="left-margin">
-      <seg function="title"><lb n="1-3"/>civāṉupūtiviḷakkam</seg>
-      </fw>
-
-    <seg function="incipit">
-    <lb n="1"/><gap reason="ellipsis"/></seg>    
-       
-    </ab>
-  </body></text><text synch="#U1b.9" corresp="#T9" xml:lang="ta"><body>
-  <ab>
-    
-    <pb facs="285" n="[1]r = f. 184r"/>
-    
-    <fw place="left-margin">
-      <seg function="title"><lb n="1-3"/>civāṉupōkaviḷakkam</seg>
-      </fw>
-
-    <seg function="incipit">
-    <lb n="1"/><gap reason="ellipsis"/></seg>    
-       
-    </ab>
-  </body></text><text synch="#U1b.10" corresp="#T10" xml:lang="ta"><body>
-  <ab>
-    
-    <pb facs="291" n="[1]r = f. 186r"/>
-    
-    <fw place="left-margin">
-      <seg function="title"><lb n="1-4"/>Uṇmaineṟiviḷakkam</seg>
-      </fw>
-
-    <seg function="incipit">
-    <lb n="1"/><gap reason="ellipsis"/></seg>    
-       
-    </ab>
-  </body></text><text synch="#U1b.11" corresp="#T11" xml:lang="ta"><body>
-  <ab>
-    
-    <pb facs="299" n="[1]r = f. 190r"/>
-    
-    <fw place="left-margin">
-      <seg function="title"><lb n="1-2"/>civapōkacāram</seg>
-      <seg function="intertitle"><lb n="5-6"/>Amakaḷ vaṇakkam</seg>
-      </fw>
-
-    <seg function="incipit">
-    <lb n="1"/><gap reason="ellipsis"/></seg>    
-       
-    </ab>
-  </body></text><text synch="#U1b.12" corresp="#T12" xml:lang="ta"><body>
-  <ab>
-    
-    <pb facs="323" n="[1]r = f. 202r"/>
-    
-    <fw place="left-margin">
-      <seg function="blessing"><lb n="1-3"/>tirucciṟṟampalam</seg>
-      <seg function="title"><lb n="4-5"/>tēvikālōttiram</seg>
-      </fw>
-
-    <seg function="incipit">
-    <lb n="1"/><gap reason="ellipsis"/></seg>    
-       
-    </ab>
-  </body></text><text synch="#U1b.13" corresp="#T13" xml:lang="ta"><body>
-  <ab>
-    
-    <pb facs="351" n="[1]r = f. 216r"/>
-    
-    <fw place="left-margin">
-      <seg function="title"><lb n="1-4"/>tirukkaḷiṟṟupaṭiyār mūlapāṭam</seg>
-      </fw>
-
-    <seg function="incipit">
-    <lb n="1"/><gap reason="ellipsis"/></seg>    
-       
-    </ab>
-  </body></text><text synch="#U1b.14" corresp="#T14" xml:lang="ta"><body>
-  <ab>
-    
-    <pb facs="369" n="[1]r = f. 225r"/>
-    
-    <fw place="left-margin">
-      <seg function="title"><lb n="1-3"/>civāṉantamālai</seg>
-      </fw>
-
-    <seg function="incipit">
-    <lb n="1"/><gap reason="ellipsis"/></seg>    
-       
-    </ab>
-  </body></text><text synch="#U1b.15" corresp="#T15" xml:lang="ta"><body>
-  <ab>
-    
-    <pb facs="441" n="[1]r = f. 261r"/>
-    
-    <fw place="left-margin">
-      <seg function="title"><lb n="1-5"/>tirukkaḷiṟṟu<gap reason="ellipsis"/>yākkiyā<g rend="below-base">ṉaM</g></seg>
-      </fw>
-
-    <seg function="incipit">
-    <lb n="1"/><gap reason="ellipsis"/></seg>    
-       
-    </ab>
-  </body></text><text synch="#U1b.16" corresp="#T16" xml:lang="ta"><body>
-  <ab>
-    
-    <pb facs="533" n="[1]r = f. 307r"/>
-    
-    <fw place="left-margin">
-      <seg function="blessing"><lb n="1-2"/>tirucciṟṟampalam</seg>
-      <seg function="title"><lb n="3-6"/>caṟuvakkiñāṉōttiram</seg>
-      </fw>
-
-    <seg function="incipit">
-    <lb n="1"/><gap reason="ellipsis"/></seg>    
-       
-    </ab>
-  </body></text><text synch="#U1b.17" corresp="#T17" xml:lang="ta"><body>
-  <ab>
-    
-    <pb facs="563" n="[1]r = f. 322r"/>
-    
-    <fw place="left-margin">
-      <seg function="title"><lb n="1-3"/>Uṇmaiviḷakkam mūlapāṭam</seg>
-      </fw>
-
-    <seg function="incipit">
-    <lb n="1"/><gap reason="ellipsis"/></seg>    
-       
-    </ab>
-  </body></text><text synch="#U1b.18" corresp="#T18" xml:lang="ta"><body>
-  <ab>
-    
-    <pb facs="575" n="[1]r = f. 328r"/>
-    
-    <fw place="left-margin">
-      <seg function="TBC"><lb n="1"/>patinilai</seg>
-      <seg function="title"><lb n="2-4"/>tiruvaruṭpayaṉ mūlapāṭam</seg>
-      </fw>
-
-    <seg function="incipit">
-    <lb n="1"/><gap reason="ellipsis"/></seg>    
-       
-    </ab>
-  </body></text><text synch="#U1b.19" corresp="#T19" xml:lang="ta"><body>
-  <ab>
-    
-    <pb facs="585" n="[1]r"/>
-    
-    <fw place="left-margin">
-      <seg function="blessing"><lb n="1-3"/>tirucciṟṟampalam</seg>
-      <seg function="title"><lb n="3-5"/>tiruvaruṭpayaṉ</seg>
-      <seg function="TBC"><lb n="6"/>patinilai</seg>
-      </fw>
-
-    <seg function="incipit">
-    <lb n="1"/><gap reason="ellipsis"/></seg>    
-       
-    </ab>
-  </body></text><text synch="#U1b.20.2" corresp="#T20.1" xml:lang="ta"><body>
-  <ab>
-    
-    <pb facs="641" n="[1]r"/>
-    
-    <lb n="1"/>ṟintu Uyir <gap reason="ellipsis"/>
-    <lb n="2"/><app><note xml:lang="en">right-indented</note></app> <gap reason="ellipsis"/>
-       
-    </ab>
-  </body></text><text synch="#U1b.20.3" corresp="#T20.2" xml:lang="ta"><body>
-  <ab>
-    
-    <pb facs="643" n="[1]r"/>
-    
-    <fw place="left-margin">
-      <seg function="title"><lb n="1-2"/><del>tēcakāriyam</del></seg>
-      <seg function="title"><lb n="3-4"/>ñāṉatīkṣai</seg>
-      </fw>
-
-    <seg function="incipit">
-    <lb n="1"/><gap reason="ellipsis"/></seg>
-    
-        <pb facs="718" n="38v"/>
-     <lb n="1"/><gap reason="ellipsis"/>
-    <lb n="2"/><gap reason="ellipsis"/>
-    <lb n="3"/><gap reason="ellipsis"/>    
-     <lb n="4"/><gap reason="ellipsis"/>
-    <lb n="5"/><gap reason="ellipsis"/>
-    <lb n="6"/><gap reason="ellipsis"/> ~ civapōkam ceyyuḷ ~ <num rend="traditional">10</num> ~ civapōkam ceyyuḷ ~ <num rend="traditional">10</num> ~ Āka Atikāram ~ <num rend="traditional">10</num>k=ku
-     <lb n="7"/>ceyyuḷ ~ <num rend="traditional">202</num> ~ tēcakāriya muṟṟum
-    
-
-       
-    </ab>
-  </body></text></TEI>
+<facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b52518061b/manifest.json"/></facsimile></TEI>
