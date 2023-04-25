@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="en">
+      <fileDesc>
+         <titleStmt>
+            <title>TBC</title>
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2023</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  
+                  <idno type="shelfmark">Indien 25b</idno>
+                  <idno type="alternate"><idno>Tamoul 25</idno><idno>Ariel ?</idno></idno>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103393c</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b52518061b</idno></msIdentifier>
+               <msContents class="#STM">
+                  <summary><p>The <title xml:lang="ta">TBC</title> (U).</p>
+
+<p>Description based on the examination of the original manuscript (April 2023).</p>
+<p>Dimensions assessed at the time of examination.</p></summary>
+                  
+                  
+               <msItem synch="#U1b" xml:id="T1" defective="false"><title>TBC</title></msItem><msItem synch="#U1c" xml:id="T2" defective="false"><title xml:lang="ta">TBC</title><textLang mainLang="tam"/></msItem></msContents>
+               <physDesc>
+                  
+                  
+                  
+                  
+               <objectDesc form="pothi" rend="manuscript">
+                     <supportDesc material="palm-leaf">
+                        
+                        
+                        
+                        
+                        
+                     <support><p>Rounded edges, except U1d.</p></support><extent>
+                           <measure unit="folio" quantity="45">{2} + {1} + 38 + {4} (U1a + U1b + U1c +U1d).</measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           <width min="375" max="380"/><height min="25" max="30"/></dimensions>
+                        <dimensions type="object" unit="mm">
+                            
+                        </dimensions>
+                        <dimensions type="written" unit="mm">
+                            
+                            
+                        </dimensions>
+                        </extent><collation>
+                     
+                     <desc xml:id="U1a">2 folios = <emph rend="bold">guard leaves</emph>. No foliation.</desc><desc xml:id="U1b">1 folio = <emph rend="bold">guard leaves</emph>. No foliation. Verso blank.</desc><desc xml:id="U1c">38 folios = <emph rend="bold"><title xml:lang="ta">TBC</title></emph>. Tamil foliation {1}, 2-38.</desc><desc xml:id="U1d">4 folios = <emph rend="bold">guard leaves</emph>. No foliation. Blank recto verso. 375 x 30 mm.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Relatively good state of preservation, despite boreholes. </condition></supportDesc>
+                     <layoutDesc>
+                        <p/>
+                     </layoutDesc>
+                  </objectDesc><handDesc><handNote synch="#U1b #U1c" scope="major" script="tamil" medium="incised"><desc>Hand#1.</desc></handNote></handDesc><additions>
+                  
+                     
+                     
+                     
+                    
+                    
+                    
+                     
+                  </additions><bindingDesc>
+                     <binding>
+                        
+                     <decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
+                  </bindingDesc></physDesc>
+               <history>
+                  
+                  
+                  
+               	<origin>
+                     <origDate calendar="gregorian" notAfter="1854">Bundle not dated by Vinson (1868) nor by Cabaton (1912).
+Not after 1854, since part of the collection of <persName role="collector" key="Ariel, Édouard">Édouard Ariel</persName> (1818-1854), bequeathed in 1855 to the Société Asiatique, Paris (Rosny 1868).</origDate>
+                     <origPlace>South India, Tamil Nadu.</origPlace>
+                  </origin><provenance><p>Owned by <persName role="collector" key="Ariel, Édouard">Édouard Ariel</persName> (1818-1854). Bequeathed by Édouard Ariel to Société Asiatique (Rosny 1868, p. 177). Ariel manuscript not acknowledged by Cabaton (1912).</p></provenance><acquisition>
+                     <p>Received, August 1st, 1866, from the Société Asiatique. See BnF, département des Manuscrits, inventaire 7 = <title>Dons: manuscrits et imprimés documentaires, 1848-1895</title>, no. 1192.</p>
+                  </acquisition></history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f23">p. 5, no. 25</ref>.</bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. 1866-. <title> Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f27">f. 6r = p. 6 , no. 25</ref>. </bibl><bibl>Rosny, Léon de. 1868. <title type="article">La bibliothèque tamoule de M. Ariel, de Pondichéry</title>. In: <title>Variétés orientales</title> (pp. 177‒224). Paris: Maisonneuve. </bibl><bibl>Vinson, Julien (1868). <title>Catalogue des manuscrits tamouls</title>. Corrected proofreadings printed by the atelier oriental de l’Imprimerie nationale. BnF “4-IMPROR-77 (B)” — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b105333021/f21">p. 6, no. 25</ref>.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+         
+         
+      <p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.    </p></encodingDesc>
+      
+   <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
+         
+      
+      <change when="2022-04">Record created by <persName>Emmanuel FRANCIS</persName>.</change></revisionDesc></teiHeader>
+    <sourceDoc>
+        <surface/>
+    </sourceDoc>
+<facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b52518061b/manifest.json"/></facsimile><text synch="#U1b" corresp="#T1"><body>
+  <ab>
+    
+    <pb facs="641" n="[1]r"/>
+    
+    <lb n="1"/>ṟintu Uyir <gap reason="ellipsis"/>
+    <lb n="2"/><app><note xml:lang="en">right-indented</note></app> <gap reason="ellipsis"/>
+       
+    </ab>
+  </body></text><text synch="#U1c" corresp="#T2" xml:lang="ta"><body>
+  <ab>
+    
+    <pb facs="643" n="[1]r"/>
+    
+    <fw place="left-margin">
+      <seg function="title"><lb n="1-2"/><del>tēcakāriyam</del></seg>
+      <seg function="title"><lb n="3-4"/>ñāṉatīkṣai</seg>
+      </fw>
+
+    <seg function="incipit">
+    <lb n="1"/><gap reason="ellipsis"/></seg>
+    
+        <pb facs="718" n="38v"/>
+     <lb n="1"/><gap reason="ellipsis"/>
+    <lb n="2"/><gap reason="ellipsis"/>
+    <lb n="3"/><gap reason="ellipsis"/>    
+     <lb n="4"/><gap reason="ellipsis"/>
+    <lb n="5"/><gap reason="ellipsis"/>
+    <lb n="6"/><gap reason="ellipsis"/> ~ civapōkam ceyyuḷ ~ <num rend="traditional">10</num> ~ civapōkam ceyyuḷ ~ <num rend="traditional">10</num> ~ Āka Atikāram ~ <num rend="traditional">10</num>k=ku
+     <lb n="7"/>ceyyuḷ ~ <num rend="traditional">202</num> ~ tēcakāriya muṟṟum
+    
+
+       
+    </ab>
+  </body></text></TEI>
