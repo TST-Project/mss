@@ -68,7 +68,7 @@
                      <layoutDesc>
                         <p/>
                      </layoutDesc>
-                  </objectDesc><handDesc><handNote synch="#U1" scope="minor" script="tamil" medium="incised"><desc>Hand#1.</desc></handNote><handNote synch="#U2a" scope="major" script="tamil" medium="incised"><desc>Hand#2. Unblackened.</desc></handNote><handNote synch="#U2b #U2c #U2c.1 #U2c.2 #U2c.3 #U2c.4 #U2c.5" scope="major" script="tamil" medium="incised soot"><desc>Hand#2.</desc></handNote></handDesc><additions>
+                  </objectDesc><handDesc><handNote synch="#U1" scope="minor" script="tamil" medium="incised"><desc>Hand#1.</desc></handNote><handNote synch="#U2a" scope="major" script="grantha tamil" medium="incised"><desc>Hand#2. Unblackened.</desc></handNote><handNote synch="#U2b #U2c #U2c.1 #U2c.2 #U2c.3 #U2c.4 #U2c.5" scope="major" script="tamil" medium="incised soot"><desc>Hand#2.</desc></handNote></handDesc><additions>
                   
                      
                      
@@ -79,7 +79,7 @@
                      
                   <desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 24</quote> (<locus facs="1">front cover, recto</locus>). </desc><desc synch="#U1" type="documenting-note">BnF donation sticker <quote>DON N° <space type="vacat"/></quote> (<locus facs="281">f[1]r</locus>).</desc><desc synch="#U1" type="shelfmark">Trace of the shelfmark sticker (Société Asiatique?) (<locus facs="281">f[1]r</locus>).</desc><desc synch="#U1" type="shelfmark">Shelfmark <quote><gap reason="lost"/></quote> in black ink (<locus facs="282">f[1]r</locus>). </desc></additions><bindingDesc>
                      <binding>
-                        <p><material cert="medium">Wood</material> covers apparently fabricated in the BnF, but not of the usual pinewood type. 485 x 55 x 12 mm</p>
+                        <p><material cert="medium">Wood</material> covers apparently fabricated in the BnF, but not of the usual pinewood type. 485 x 55 x 12 mm.</p>
                      <decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
                   </bindingDesc></physDesc>
                <history>
@@ -152,16 +152,17 @@ Not after 1854, since part of the collection of <persName role="collector" key="
     <pb facs="3" n="[1]r"/>
     
      <cb n="1"/>
-    <lb n="1"/>
+    <lb n="1-10"/><gap reason="ellipsis"/>
     
      <cb n="2"/>
-    <lb n="1"/>
+    <lb n="1-13"/><gap reason="ellipsis"/>
     
      <cb n="3"/>
-    <lb n="1"/>
+    <lb n="1-8"/><gap reason="ellipsis"/>
+    <lb n="9-12"/><gap reason="ellipsis"/>
     
      <cb n="4"/>
-    <lb n="1"/>
+    <lb n="1-7"/><gap reason="ellipsis"/>
       
     <pb facs="4" n="[1]v"/>
 <app><note xml:lang="en">blank page</note></app>
@@ -171,24 +172,29 @@ Not after 1854, since part of the collection of <persName role="collector" key="
       <seg function="foliation"><lb n="1"/>2</seg>
       </fw>
     
-    <pb facs="6" n="2v"/>
+        <lb n="1-13"/><gap reason="ellipsis"/>
+
+        <pb facs="6" n="2v"/>
+    <lb n="1-15"/><gap reason="ellipsis"/>
     
     <pb facs="7" n="[3]r"/>
        <fw place="left-margin">
-      <lb n="1"/>
-      <lb n="2"/>
+      <seg function="blessing"><lb n="1"/>civa<seg rend="grantha">m·</seg>
+      <lb n="2"/>maya<seg rend="grantha">m·</seg>
+      <lb n="3"/><g ref="#pcs"/></seg>
       </fw>
     
       <cb n="1"/>
-    <lb n="1"/>
+        <lb n="1-11"/><gap reason="ellipsis"/>
     
      <cb n="2"/>
-    <lb n="1"/>
+        <lb n="1-3"/><gap reason="ellipsis"/>
     
     <pb facs="8" n="[3]v"/>
 <app><note xml:lang="en">blank page</note></app>
-    </ab>
-  </body></text><text synch="#U2b" corresp="#T3" xml:lang="ta"><body>
+
+  </ab>
+</body></text><text synch="#U2b" corresp="#T3" xml:lang="ta"><body>
   <ab>
     
     <pb facs="9" n="[1]r"/>
@@ -199,7 +205,7 @@ Not after 1854, since part of the collection of <persName role="collector" key="
       </fw>
 
     <seg function="incipit">
-    <lb n="1"/><gap reason="ellipsis"/></seg>
+    <lb n="1"/>pūtaṅkaḷ āvaṉa ~ piṟutivi ~ Appu ~ tēyu ~ vāyu ~ Ākācam ~ <gap reason="ellipsis"/></seg>
     
         <pb facs="16" n="4v"/>
     <lb n="1"/><gap reason="ellipsis"/>
@@ -208,11 +214,11 @@ Not after 1854, since part of the collection of <persName role="collector" key="
     <lb n="4"/><gap reason="ellipsis"/>
     <lb n="5"/><gap reason="ellipsis"/>
     <lb n="6"/><gap reason="ellipsis"/>
-    <lb n="7"/><gap reason="ellipsis"/>ṉ eṉṟ<pc>'</pc> aṟikai ~ tēcakāriya muṟṟum <g ref="#pcs"/> tirucciṟṟampalam <g ref="#pcs"/> śivāya nnamaḥ <g ref="#pcl"/>
-    <lb n="8"/>citampara-tampiṟāṉ civappirakācakkaṭṭaḷai Eḻuti niṟai vēṟiṉatu muṟṟum ~ <gap reason="ellipsis"/> nnamaḥ nīlakaṇṭhāya nnamaḥ ṣam·puve nnamaḥ <gap reason="ellipsis"/>pāṇiye namaḥ <gap reason="ellipsis"/> nnamaḥ <g ref="#pcl"/>
+    <seg function="explicit"><lb n="7"/><gap reason="ellipsis"/>ṉ eṉṟ<pc>'</pc> aṟikai ~</seg> <seg function="colophon"><seg function="completion-statement">tēcakāriya muṟṟum <g ref="#pcs"/></seg> <seg function="blessing">tirucciṟṟampalam <g ref="#pcs"/> <term xml:lang="sa">śivāya nnamaḥ</term> <g ref="#pcl"/></seg>
+    <seg function="copy-statement"><lb n="8"/>citampara-tampiṟāṉ civappirakācakkaṭṭaḷai Eḻuti niṟai vēṟiṉatu muṟṟum ~</seg> <seg function="blessing"><term xml:lang="sa"><gap reason="ellipsis"/> nnamaḥ nīlakaṇṭhāya nnamaḥ ṣam·puve nnamaḥ <gap reason="ellipsis"/>pāṇiye namaḥ <gap reason="ellipsis"/> nnamaḥ</term> <g ref="#pcl"/></seg></seg>
     
-    </ab>
-  </body></text><text synch="#U2c.1" corresp="#T4" xml:lang="ta"><body>
+  </ab>
+</body></text><text synch="#U2c.1" corresp="#T4" xml:lang="ta"><body>
   <ab>
     
     <pb facs="17" n="[1]r"/>
@@ -224,7 +230,7 @@ Not after 1854, since part of the collection of <persName role="collector" key="
       </fw>
 
     <seg function="incipit">
-    <lb n="1"/><gap reason="ellipsis"/></seg>
+    <lb n="1"/>vāḻka <gap reason="ellipsis"/> ~ 1 ~</seg> <gap reason="ellipsis"/>
     
     <pb facs="21" n="3r"/>
      <fw place="left-margin">
@@ -242,7 +248,7 @@ Not after 1854, since part of the collection of <persName role="collector" key="
       </fw>
     
     <pb facs="30" n="7v"/>
-    <lb n="14"/><gap reason="ellipsis"/> ~ <num rend="traditional">232</num> ~ kiriyā<gap reason="ellipsis"/>tala muṟṟu<seg rend="grantha">m·</seg> Aṉupavacūttira muṟṟu<seg rend="grantha">m·</seg> ~ śivāya nnamaḥ | citamparatampiṟāṉ Aṉupavacūttiram <g ref="#pcl"/>
+    <seg function="explicit"><lb n="14"/><gap reason="ellipsis"/> ~ <num rend="traditional">232</num> ~</seg> <seg function="colophon"><seg function="completion-statement">kiriyā<gap reason="ellipsis"/>tala muṟṟu<seg rend="grantha">m·</seg> Aṉupavacūttira muṟṟu<seg rend="grantha">m·</seg> ~</seg> <seg function="blessing"><term xml:lang="sa">śivāya nnamaḥ</term> |</seg> <seg function="title">citamparatampiṟāṉ Aṉupavacūttiram <g ref="#pcl"/></seg></seg>
           
     </ab>
   </body></text><text synch="#U2c.2" corresp="#T5" xml:lang="ta"><body>
@@ -271,8 +277,8 @@ Not after 1854, since part of the collection of <persName role="collector" key="
     <lb n="8"/><gap reason="ellipsis"/>
     <lb n="9"/><gap reason="ellipsis"/>
     <lb n="10"/><gap reason="ellipsis"/>
-    <lb n="11"/><gap reason="ellipsis"/> ~ <num rend="traditional">11</num> ~ cittāntacikāmaṇi muṟṟum ~ Āka viruttam <num rend="traditional">350</num> ~ Aṅkaliṅkattalam <gap reason="ellipsis"/> ~ <num rend="traditional">881</num> ~ citamparatampiṟāṉ cittāntacikāmaṇi Eḻuti niṟaintatu muṟṟum <g ref="#pcl"/>
-    <lb n="12"/>śrīmat·baśavaliṃgāya nnamaḥ nīlakaṇṭheśvarāya nnamaḥ mahēśāya nnamaḥ śam·puve namaḥ citam·pareśvarāya nnamaḥ naṭaṟāśāya nnamaḥ tāṇḍaveśvarāya nnamaḥ śivakāmaśuntariye namaḥ <del>śrī</del> śrīśāraṃgadevāya nnamaḥ <gap reason="ellipsis"/> nnamaḥ śubham astu
+    <seg function="explicit"><lb n="11"/><gap reason="ellipsis"/> ~ <num rend="traditional">11</num> ~</seg> <seg function="colophon"><seg function="completion-statement">cittāntacikāmaṇi muṟṟum ~</seg> <seg function="total-stanzas">Āka viruttam <num rend="traditional">350</num> ~ Aṅkaliṅkattalam <gap reason="ellipsis"/> ~ <num rend="traditional">881</num> ~</seg> <seg function="copy-statement">citamparatampiṟāṉ cittāntacikāmaṇi Eḻuti niṟaintatu muṟṟum <g ref="#pcl"/></seg>
+    <seg function="blessing"><lb n="12"/><term xml:lang="sa">śrīmat·baśavaliṃgāya nnamaḥ nīlakaṇṭheśvarāya nnamaḥ mahēśāya nnamaḥ śam·puve namaḥ citam·pareśvarāya nnamaḥ naṭarāśāya nnamaḥ tāṇḍaveśvarāya nnamaḥ śivakāmaśuntariye namaḥ <del>śrī</del> śrīśāraṃgadevāya nnamaḥ <gap reason="ellipsis"/> nnamaḥ śubham astu</term></seg></seg>
     
         <pb facs="76" n="30v"/>
 <app><note xml:lang="en">blank page</note></app>
@@ -284,16 +290,17 @@ Not after 1854, since part of the collection of <persName role="collector" key="
     <pb facs="77" n="31r"/>
     
     <fw place="left-margin">
-      <seg function="blessing"><lb n="1-3"/>tirucciṟṟampalam <g ref="#pcs"/></seg>
-      <seg function="title"><lb n="4-6"/>civappirakācavikācam</seg>
+      <seg function="blessing"><lb n="2-4"/>tirucciṟṟampalam <g ref="#pcs"/></seg>
+      <seg function="title"><lb n="5-7"/>civappirakācavikācam ~</seg>
       </fw>
     
      <seg function="incipit">
     <lb n="1"/><gap reason="ellipsis"/></seg>
     
          <pb facs="100" n="42v"/>
-    <lb n="14"/><gap reason="ellipsis"/>
-    <lb n="15"/><gap reason="ellipsis"/>
+    <seg function="explicit"><lb n="13"/><gap reason="ellipsis"/> pōṟṟu niṉṟē ~ 56 ~</seg> <seg function="colophon"><seg function="completion-statement">civappirakācavikāca muṟṟum ~</seg> <seg function="blessing">kurupātan tuṇai <g ref="#pcl"/> <g ref="#pcs"/> <g ref="#pcs"/> <g ref="#pcs"/></seg>    
+    <seg function="TBC"><lb n="14"/><gap reason="ellipsis"/> muṉṉūṟu muppattu mūṉṟu <g ref="#pcs"/></seg> <seg function="blessing">tirucciṟṟampalam <g ref="#pcs"/> civāyana<seg rend="grantha">maḥ</seg> <term xml:lang="sa">mahēśvarāya nnamaḥ śubham astu</term></seg>
+    <seg function="TBC"><lb n="15"/>poṉ <gap reason="ellipsis"/> <g ref="#pcs"/></seg></seg>
     
     </ab>
   </body></text><text synch="#U2c.4" corresp="#T7" xml:lang="ta"><body>
@@ -314,9 +321,10 @@ Not after 1854, since part of the collection of <persName role="collector" key="
     <lb n="3"/><gap reason="ellipsis"/>
     <lb n="4"/><gap reason="ellipsis"/>
     <lb n="5"/><gap reason="ellipsis"/>
-    <lb n="6"/><gap reason="ellipsis"/> ~ <num rend="traditional">12</num> ~ <gap reason="ellipsis"/>
-     <lb n="7"/><gap reason="ellipsis"/> ~ <num rend="traditional">13</num> ~ <gap reason="ellipsis"/> Āka viruttam ~ <num rend="traditional">125</num> ~ tirucciṟṟampalam <g ref="#pcl"/>
-    <lb n="8"/>citamparatampiṟāṉ vētāntacūḷāmaṇi eḻuti niṟai vēṟiṉatu muṟṟum <g ref="#pcs"/> citam·pareśvaradevāya nnamaḥ śivakāmacuntariye nnamaḥ śāraṃgasuvāmiyudaiya pātāravintaṃkaḷe <subst><del>k</del><add place="right">g</add>e</subst>thi || śubham astu <g ref="#pcl"/> <g ref="#pcs"/>        
+    <seg function="explicit"><lb n="6"/><gap reason="ellipsis"/> ~ <num rend="traditional">12</num> ~ <gap reason="ellipsis"/>
+     <lb n="7"/><gap reason="ellipsis"/> ~ <num rend="traditional">13</num> ~</seg> <seg function="colophon"><seg function="total-stanzas">Āka viruttam ~ <num rend="traditional">125</num> ~</seg> <seg function="blessing">tirucciṟṟampalam <g ref="#pcl"/></seg>
+    <seg function="copy-statement"><lb n="8"/>citamparatampiṟāṉ vētāntacūḷāmaṇi eḻuti niṟai vēṟiṉatu muṟṟum <g ref="#pcs"/></seg>
+    <seg function="blessing"><term xml:lang="sa">citam·pareśvaradevāya nnamaḥ śivakāmasuntariye nnamaḥ śāraṃgasuvāmi</term><seg rend="grantha">yudaiya pātāravintaṃkaḷe <subst><del>k</del><add place="&gt;right">g</add>e</subst>thi</seg> || <term xml:lang="sa">śubham astu</term> <g ref="#pcl"/> <g ref="#pcs"/></seg></seg>    
         
     </ab>
   </body></text><text synch="#U2c.5" corresp="#T8" xml:lang="ta"><body>
@@ -326,7 +334,7 @@ Not after 1854, since part of the collection of <persName role="collector" key="
     
     <fw place="left-margin">
       <seg function="blessing"><lb n="1-2"/>tirucciṟṟampala<seg rend="grantha">m·</seg> ~
-        <lb n="3"/>hara Om·</seg>
+        <lb n="3"/><term xml:lang="sa">hara Om·</term></seg>
       <seg function="title"><lb n="5-8"/>cintāmaṇi vetāṇta-prakaraṇam·</seg>
       </fw>
     
@@ -335,15 +343,26 @@ Not after 1854, since part of the collection of <persName role="collector" key="
     
       <pb facs="125" n="55r"/>
      <fw place="left-margin">
-      <seg function="intertitle"><lb n="1-3"/><gap reason="ellipsis"/></seg>
+      <seg function="intertitle"><lb n="1-3"/>vetā<seg rend="grantha">ntapakṣam·</seg></seg>
       </fw>
     
-         <pb facs="203" n="94r"/>
+    <pb facs="127" n="56r"/>
+     <fw place="left-margin">
+      <seg function="intertitle"><lb n="2-4"/><gap reason="ellipsis"/></seg>
+      </fw>
     
+     <pb facs="149" n="67r"/>
+     <fw place="left-margin">
+      <seg function="blessing">
+        <lb n="1"/><term xml:lang="sa">hara Om·</term></seg>
+      <seg function="intertitle"><lb n="2-6"/>Iraṇṭām pari<seg rend="grantha">ce</seg>tam cittāntani<gap reason="ellipsis"/>ya<seg rend="grantha">m·</seg> <g ref="#pcs"/> <g ref="#pcs"/></seg>
+      </fw>
+    
+         <pb facs="203" n="94r"/>    
     <fw place="left-margin">
       <seg function="blessing">
-        <lb n="1"/>hara Om·</seg>
-      <seg function="intertitle"><lb n="3ff."/>mūṉṟām parivetam pūvanakōṣam·</seg>
+        <lb n="1"/><term xml:lang="sa">hara Om·</term></seg>
+      <seg function="intertitle"><lb n="3-5."/>mūṉṟām pari<seg rend="grantha">ce</seg>ta<seg rend="grantha">m</seg> <term xml:lang="sa">puvanakōṣam·</term></seg>
       </fw>
     
          <pb facs="278" n="131v"/>
@@ -351,8 +370,8 @@ Not after 1854, since part of the collection of <persName role="collector" key="
     <lb n="2"/><gap reason="ellipsis"/>
     <lb n="3"/><gap reason="ellipsis"/>
     <lb n="4"/><gap reason="ellipsis"/>
-    <lb n="5"/><gap reason="ellipsis"/> vayaṉē ~ civayōki Anta viracita vivekacintāmaṇi-nāma-prakāraṇaṃ pariṣamāptam· <g ref="#pcl"/> civāya nnamaḥ <g ref="#pcl"/>
-    <lb n="6"/><gap reason="ellipsis"/>
+    <seg function="explicit"><lb n="5"/><gap reason="ellipsis"/> vayaṉē ~</seg> <seg function="colophon">civayōki Anta vi<seg rend="grantha">raci</seg>ta viveka<seg rend="grantha">cintā</seg><unclear>ma</unclear>ṇi-<term xml:lang="sa">nāma-prakāraṇaṃ pariśamāptam·</term> <g ref="#pcl"/> <term xml:lang="sa">civāya nnamaḥ <g ref="#pcl"/></term>
+    <seg function="TBC"><lb n="6"/><term xml:lang="sa"><gap reason="ellipsis"/> vīraśaivaṃ maheśvari <gap reason="ellipsis"/> śaivam ity ābhidiyate ||</term></seg></seg>
     
     </ab>
   </body></text></TEI>
