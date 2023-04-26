@@ -4,7 +4,7 @@
    <teiHeader xml:lang="en">
       <fileDesc>
          <titleStmt>
-            <title>TBC</title>
+            <title>Collection (2 works)</title>
          <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          
          <publicationStmt>
@@ -21,14 +21,19 @@
                   <idno type="shelfmark">Indien 25b</idno>
                   <idno type="alternate"><idno>Tamoul 25</idno><idno>Ariel ?</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103393c</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b52518061b</idno></msIdentifier>
-               <msContents class="#STM">
-                  <summary><p>The <title xml:lang="ta">TBC</title> (U).</p>
+               <msContents class="#MTM">
+                  <summary><p>A multi-text manuscript containing:
+  <list>
+    <item>The <title xml:lang="ta">Ñāṉatiṭcai</title> (U1c.1).</item>
+    <item>The <title xml:lang="ta">Tacakāriyam</title> (U1c.2).</item>
+    </list>
+</p>
 
 <p>Description based on the examination of the original manuscript (April 2023).</p>
 <p>Dimensions assessed at the time of examination.</p></summary>
                   
                   
-               <msItem synch="#U1b" xml:id="T1" defective="false"><title>TBC</title></msItem><msItem synch="#U1c" xml:id="T2" defective="false"><title xml:lang="ta">TBC</title><textLang mainLang="tam"/></msItem></msContents>
+               <msItem synch="#U1b" xml:id="T1" defective="false"><title>TBC</title></msItem><msItem synch="#U1c" defective="false"><title xml:lang="ta"><term xml:lang="en">Collection (2 works)</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U1c.1" xml:id="T2" defective="false"><title>Ñāṉatiṭcai</title></msItem><msItem synch="#U1c.2" xml:id="T3" defective="false"><title xml:lang="ta">Tacakāriyam</title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
                   
                   
@@ -56,11 +61,11 @@
                         </dimensions>
                         </extent><collation>
                      
-                     <desc xml:id="U1a">2 folios = <emph rend="bold">guard leaves</emph>. No foliation.</desc><desc xml:id="U1b">1 folio = <emph rend="bold">guard leaves</emph>. No foliation. Verso blank.</desc><desc xml:id="U1c">38 folios = <emph rend="bold"><title xml:lang="ta">TBC</title></emph>. Tamil foliation {1}, 2-38.</desc><desc xml:id="U1d">4 folios = <emph rend="bold">guard leaves</emph>. No foliation. Blank recto verso. 375 x 30 mm.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Relatively good state of preservation, despite boreholes. </condition></supportDesc>
+                     <desc xml:id="U1a">2 folios = <emph rend="bold">guard leaves</emph>. No foliation.</desc><desc xml:id="U1b">1 folio = <emph rend="bold">guard leaves</emph>. No foliation. Verso blank.</desc><desc xml:id="U1c">38 folios = <emph rend="bold"><title xml:lang="ta">TBC</title></emph>. Tamil foliation {1}, 2-38.</desc><desc xml:id="U1c.1">13 folios = <emph rend="bold"><title xml:lang="ta">Ñāṉatiṭcai</title></emph>. Tamil foliation {1}, 13.</desc><desc xml:id="U1c.2">25 folios = <emph rend="bold"><title xml:lang="ta">Tacakāriyam</title></emph>. Tamil foliation 14-38.</desc><desc xml:id="U1d">4 folios = <emph rend="bold">guard leaves</emph>. No foliation. Blank recto verso. 375 x 30 mm.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Relatively good state of preservation, despite boreholes. </condition></supportDesc>
                      <layoutDesc>
                         <p/>
                      </layoutDesc>
-                  </objectDesc><handDesc><handNote synch="#U1b #U1c" scope="major" script="tamil" medium="incised"><desc>Hand#1.</desc></handNote></handDesc><additions>
+                  </objectDesc><handDesc><handNote synch="#U1b #U1c #U1c.1 #U1c.2" scope="major" script="tamil" medium="incised"><desc>Hand#1. Unblackened.</desc></handNote></handDesc><additions>
                   
                      
                      
@@ -105,7 +110,7 @@ Not after 1854, since part of the collection of <persName role="collector" key="
     <sourceDoc>
         <surface/>
     </sourceDoc>
-<facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b52518061b/manifest.json"/></facsimile><text synch="#U1b" corresp="#T1"><body>
+<facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b52518061b/manifest.json" facs="637"/></facsimile><text synch="#U1b" corresp="#T1"><body>
   <ab>
     
     <pb facs="641" n="[1]r"/>
@@ -114,7 +119,7 @@ Not after 1854, since part of the collection of <persName role="collector" key="
     <lb n="2"/><app><note xml:lang="en">right-indented</note></app> <gap reason="ellipsis"/>
        
     </ab>
-  </body></text><text synch="#U1c" corresp="#T2" xml:lang="ta"><body>
+  </body></text><text synch="#U1c.1" corresp="#T2"><body>
   <ab>
     
     <pb facs="643" n="[1]r"/>
@@ -127,6 +132,38 @@ Not after 1854, since part of the collection of <persName role="collector" key="
     <seg function="incipit">
     <lb n="1"/><gap reason="ellipsis"/></seg>
     
+    <pb facs="647" n="3r"/>    
+    <fw place="left-margin">
+      <seg function="TBC"><lb n="1-4"/><gap reason="ellipsis"/></seg>
+      </fw>
+    
+    <pb facs="649" n="4r"/>    
+    <fw place="left-margin">
+      <seg function="TBC"><lb n="1-3"/><gap reason="ellipsis"/></seg>
+      </fw>
+    
+    <pb facs="652" n="5v"/>    
+    <fw place="left-margin">
+      <seg function="TBC"><lb n="1-3"/><gap reason="ellipsis"/></seg>
+      </fw>
+    
+     <pb facs="668" n="13v"/>
+     <lb n="1"/><gap reason="ellipsis"/>
+    <lb n="2"/><gap reason="ellipsis"/> ~ <num rend="traditional">107</num> ~ ñāṉatikkai muṟṟum ~ civamayam ~ tirukkāmiśvarar pātamē keti <g ref="#pcs"/>
+    
+    </ab>
+  </body></text><text synch="#U1c.2" corresp="#T3" xml:lang="ta"><body>
+  <ab>
+    
+    
+    <pb facs="659" n="14r"/>    
+    <fw place="left-margin">
+      <seg function="title"><lb n="1-3"/>tēcakāriyam</seg>
+      </fw>
+    
+     <seg function="incipit">
+    <lb n="1"/><gap reason="ellipsis"/></seg>
+    
         <pb facs="718" n="38v"/>
      <lb n="1"/><gap reason="ellipsis"/>
     <lb n="2"/><gap reason="ellipsis"/>
@@ -136,7 +173,5 @@ Not after 1854, since part of the collection of <persName role="collector" key="
     <lb n="6"/><gap reason="ellipsis"/> ~ civapōkam ceyyuḷ ~ <num rend="traditional">10</num> ~ civapōkam ceyyuḷ ~ <num rend="traditional">10</num> ~ Āka Atikāram ~ <num rend="traditional">10</num>k=ku
      <lb n="7"/>ceyyuḷ ~ <num rend="traditional">202</num> ~ tēcakāriya muṟṟum
     
-
-       
     </ab>
   </body></text></TEI>
