@@ -22,7 +22,7 @@
 						<idno type="alternate"><idno>Tamoul 407</idno><idno>Ariel ?</idno><idno>Bb/3</idno></idno>
 						
 						
-					<idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103929k</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets</idno></msIdentifier>
+					<idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103929k</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/c821gt29m</idno></msIdentifier>
 					<msContents class="#STM">
 						<summary><p>A complete manuscript copy the <title xml:lang="ta">Kallāṭam</title>.</p>
 
@@ -65,7 +65,7 @@
 							
 							
 						<handNote synch="#U1a" scope="minor" script="tamil" scriptRef="#tamilMacron" medium="ink soot"><desc>Hand #1.</desc></handNote><handNote synch="#U1b" scope="major" script="tamil" scriptRef="#tamilPulliRegular #tamilOE" medium="ink soot"><desc>Hand #2.</desc></handNote></handDesc><decoDesc> </decoDesc><additions>
-							<desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF current shelfmark sticker, covering an older sticker: <quote>INDIEN 407</quote> (<locus facs="00">front cover, verso</locus>).</desc><desc synch="#u1" type="shelfmark" subtype="cover front">BnF old shelfmark, in black pencil <quote>Tamoul n° 407</quote> (<locus facs="00">f[1]r</locus>).</desc><desc synch="#U1b" type="header" subtype="marginal running top">Running foliation and title.</desc></additions><bindingDesc>
+							<desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF current shelfmark sticker, covering an older sticker: <quote>INDIEN 407</quote> (<locus facs="00">front cover, verso</locus>).</desc><desc synch="#u1" type="shelfmark" subtype="cover front">BnF old shelfmark, in black pencil <quote>Tamoul n° 407</quote> (<locus facs="00">f[1]r</locus>).</desc><desc synch="#U1b" type="header" subtype="marginal running top">Running foliation and title.</desc><desc synch="#U1a #U1b" type="stamp">See: U1a, f[1]r; U1b, f2r and f63r.</desc></additions><bindingDesc>
 							<binding>
 								<p>Hard <material cert="medium">paper</material> covers.</p>
 								<decoNote type="stringhole"><measure unit="stringhole"/></decoNote>
@@ -109,7 +109,7 @@
 		<change when="2023-04">Record created by <persName>Emmanuel FRANCIS</persName>.</change></revisionDesc></teiHeader>
 	<facsimile>
 		
-	</facsimile>
+	<graphic url="https://didomena.ehess.fr/concern/data_sets/c821gt29m/manifest.json"/></facsimile>
 	
 	
 <text synch="#U1a" corresp="#T1" xml:lang="ta"><body>
@@ -132,17 +132,19 @@
       <seg function="title"><lb n="2"/>kallāṭamūlam</seg>
       <seg function="intertitle"><lb n="3"/>kāppu</seg>
     
-    <seg function="incipit">
-      <lb n="4"/>cevvi tikaḻ<gap reason="ellipsis"/>
-    <lb n="5"/><gap reason="ellipsis"/>
-    <lb n="6"/><gap reason="ellipsis"/>
-    <lb n="7"/><gap reason="ellipsis"/></seg>
+    <seg function="incipit"><seg function="invocation">
+      <lg>
+        <l><lb n="4"/>cevvitikaḻ taruṇa centā maraivataṉak</l>
+        <l><lb n="5"/>kovvaiyeḻiṟ cevvāyk kuṟattēṉai navvi</l>
+        <l><lb n="6"/>viḻiyāṉai yaippuṇarum vēḷaimata veḷḷam</l>
+        <l><lb n="7"/>poḻiyāṉai yaima<sic>na</sic>mē pōṟṟu .</l></lg></seg>
     
           <seg function="intertitle"><lb n="8"/>ciṟappuppāyiram</seg>
           <lg><l><lb n="9"/>vāyntaporuṭ koruporuḷāyk kalaivāṇik karu<lb n="10" break="no"/>ḷkoḻikku manamāyppāri ~</l>
 <l>ṉāyntamutu tamiḻvaṭittuk <lb n="11"/>kallāṭa meṉavorunū laruḷi yiṭṭār ~</l>
 <l>tēyntamatic caṭai<lb n="12" break="no"/>pparamar karuṇaipeṟac caṅkamutu celvar vāḻttak ~</l>
 <l>kāyn<lb n="13"/>tapula ṉaṭakkiyuyar peruñāṉam paḻuttaruḷkal lāṭaṉārē .</l></lg> <gap reason="ellipsis"/>
+      </seg>
                                                                                         
 
 
