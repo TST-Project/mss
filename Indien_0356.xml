@@ -21,10 +21,10 @@
                   <idno type="alternate"><idno>Tamoul 356</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1038835</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b52517160x</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/nz8067058</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary><p>An incomplete copy (95 stanzas) of <title xml:lang="ta">Maṇavāḷanārārayaṇacatakam</title> or <title xml:lang="ta">Tiruvēṅkaṭacatakam</title>, by <persName xml:lang="ta" role="author">Nārāyaṇapāratiyār</persName>.</p>
+                  <summary><p>An incomplete copy (95 stanzas) of the <title xml:lang="ta">Maṇavāḷanārārayaṇacatakam</title> alias the  <title xml:lang="ta">Tiruvēṅkaṭacatakam</title>, by <persName xml:lang="ta" role="author">Nārāyaṇapāratiyār</persName>.</p>
 
-<p>Description based on the digital images available on Gallica.</p>
-<p>Dimensions after Cabaton (1912).</p>      
+<p>Description based on the examination of the original manuscript (March 2023).</p> 
+<p>Dimensions assessed at the time of examination.</p>
 
 </summary>
                   
@@ -47,10 +47,10 @@
                            <dimensions type="leaf" unit="mm">
                               
                               
-                           </dimensions>
-                        <dimensions type="object" unit="mm"><depth quantity="45"/></dimensions><dimensions type="written" unit="mm"/></extent><collation>
+                           <width min="455" max="460"/><height min="30" max="35"/></dimensions>
+                        <dimensions type="object" unit="mm"><depth quantity="45"/><width quantity="460"/><height quantity="35"/></dimensions><dimensions type="written" unit="mm"/></extent><collation>
                      
-                     <desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 bifolio = front <emph rend="bold">guard leaf</emph>. No foliation. Scribbles on recto. Recto darker = original outside page. Verso blank. 460 x 30 mm.</desc><desc xml:id="U2">1 folio = <emph rend="bold"><title xml:lang="ta">Maṇavāḷanārārayaṇacatakam</title>: Ownership Statement</emph>. No foliation. Recto darker = original outside page. Recto blank. 460 x 30 mm.</desc><desc xml:id="U3">48 folios = <emph rend="bold"><title xml:lang="ta">Maṇavāḷanārārayaṇacatakam</title>: Text</emph>. Tamil foliation {1}, 2-48. 455/460 x 30/32 mm. f1-f2: 455 mm. f48v blank.</desc><desc xml:id="U4">1 folio = <emph rend="bold">TBC</emph>. No foliation. Verso darker = original outside page. Verso blank. 460 x 30 mm.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Excellent state of preservation.</condition></supportDesc>
+                     <desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 bifolio = front <emph rend="bold">guard leaf</emph>. No foliation. Scribbles on recto. Recto darker = original outside page. Verso blank. 460 x 30 mm.</desc><desc xml:id="U2">1 folio = <emph rend="bold"><title xml:lang="ta">Maṇavāḷanārārayaṇacatakam</title>: Ownership Statement</emph>. No foliation. Recto darker = original outside page. Recto blank. 460 x 30 mm.</desc><desc xml:id="U3">48 folios = <emph rend="bold"><title xml:lang="ta">Maṇavāḷanārārayaṇacatakam</title>: Text</emph>. Tamil foliation {1}, 2-48. 455/460 x 30/35 mm. f1-f2: 455 mm. f48v blank.</desc><desc xml:id="U4">1 folio = <emph rend="bold">TBC</emph>. No foliation. Verso darker = original outside page. Verso blank. 460 x 30 mm.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Excellent state of preservation.</condition></supportDesc>
                      <layoutDesc>
                         <layout>1 verse per page, numbered at the end (U3).</layout>
                      </layoutDesc>
@@ -87,7 +87,7 @@
       
    <encodingDesc><p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.            </p></encodingDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
-      <change when="2023-02">Record create by <persName>Emmanuel FRANCIS</persName>.</change></revisionDesc></teiHeader>
+      <change when="2023-02">Record create by <persName>Emmanuel FRANCIS</persName>.</change><change when="2023-04">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, April 2023.</change></revisionDesc></teiHeader>
    
 <facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b52517160x/manifest.json"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   <ab>
@@ -111,9 +111,8 @@
     
   <seg function="ownership-statement">
        <lb n="1"/>citirapāṉu {varuṣam} paiṅkuṉi {mācam} <num rend="traditional">15</num> {tēti}
-       <lb n="2"/><persName xml:lang="ta" role="owner">cāmiṉātaṉ</persName> paḷḷikkūṭat=tuk=ku
+       <lb n="2"/><persName xml:lang="ta" role="owner" key="Cāminātaṉ">cāmiṉātaṉ</persName> paḷḷikkūṭat=tuk=ku
        <lb n="3"/>vantatu</seg>
-    
   
     </ab>
 </body></text><text synch="#U3" corresp="#T3" xml:lang="ta"><body>
