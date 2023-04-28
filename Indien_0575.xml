@@ -1,162 +1,229 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title><title xml:lang="ta">Nikaṇṭu</title> (<title xml:lang="ta">Marappeyart Tokuti</title> of the <title xml:lang="ta">Tivākaram</title>?)</title>
-         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
-         <publicationStmt>
-            <publisher>TST Project</publisher>
-            <date>2023</date>
-         </publicationStmt>
-         <sourceDesc>
-            <msDesc>
-               <msIdentifier>
-                  <repository>
-                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
-                  </repository>
-                  <idno type="shelfmark">Indien 575</idno>
-                  <idno type="alternate"><idno>Tamoul 575</idno></idno>
-               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc104103z</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/xw42ng81s</idno></msIdentifier>
-               <msContents class="#STM">
-                  <summary><p>An incomplete <title xml:lang="ta">Nikaṇṭu</title>, apparently a portion of the <title xml:lang="ta">Tivākaram</title>. The manuscript contains only the 4th part named <title xml:lang="ta">Marappeyart Tokuti</title> ("section on the names of trees"), in 67 stanzas.</p>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title><title xml:lang="ta">Nikaṇṭu</title> (<title xml:lang="ta"
+						>Marappeyart Tokuti</title> of the <title xml:lang="ta"
+					>Tivākaram</title>?)</title>
+				<editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>TST Project</publisher>
+				<date>2023</date>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>
+							<orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+						</repository>
+						<idno type="shelfmark">Indien 575</idno>
+						<idno type="alternate"><idno>Tamoul 575</idno></idno>
+						<idno type="URI"
+							>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc104103z</idno>
+						<idno type="URI"
+							>https://didomena.ehess.fr/concern/data_sets/xw42ng81s</idno>
+					</msIdentifier>
+					<msContents class="#STM">
+						<summary><p>An incomplete <title xml:lang="ta"
+									>Nikaṇṭu</title>, apparently a portion of the <title
+									xml:lang="ta"
+									>Tivākaram</title>. The manuscript contains only the 4th part named <title
+									xml:lang="ta"
+								>Marappeyart Tokuti</title> ("section on the names of trees"), in 67 stanzas.</p>
+							<p>Description based on the examination of the original manuscript (September 2021).</p>
+							<p>Dimensions assessed at the time of examination.</p>
+						</summary>
 
-<p>Description based on the examination of the original manuscript (September 2021).</p>
-<p>Dimensions assessed at the time of examination.</p>      
-</summary>
-                  
-               <msItem synch="#U2" xml:id="T1" defective="false"><title xml:lang="ta">Marappeyart Tokuti</title><textLang mainLang="tam"/></msItem></msContents>
-               <physDesc>
-                  
-                  
-                  
-                  
-               <objectDesc form="pothi" rend="manuscript">
-                     <supportDesc material="palm-leaf">
-                        <extent>
-                           <measure unit="folio" quantity="18">{1} + 17 (U1 + U2).</measure>
-                           <dimensions type="leaf" unit="mm">
-                              
-                              
-                           <width max="480" min="470"/><height quantity="30"/></dimensions>
-                        <dimensions type="object" unit="mm"><depth quantity="10"/><width quantity="480"/><height quantity="30"/></dimensions><dimensions type="written" unit="mm"/></extent>
-                        
-                        
-                     <support/><collation><desc xml:id="U1">1 folio = <emph rend="bold">guard leaf</emph>. Later used as title page. No foliation. Double folio. Verso blank. 470 x 30 mm.</desc><desc xml:id="U2">17 folios = <emph rend="bold"><term xml:lang="ta">Marappeyart Tokuti</term></emph>. Tamil foliation 1-17. Single folios. Unblackened. 480 x 30 mm. f17v more dark = original outside page.
-</desc></collation><condition>Fairly good state of preservation. f1 cracked and truncated.</condition></supportDesc>
-                     <layoutDesc>
-                        
-                     <layout columns="4">Stanzas distributed <foreign xml:lang="ta">aṭi</foreign>-wise per line and final letter(s) indented to the right at the end of lines. 4 columns for U2, f1v-f17v.</layout></layoutDesc>
-                  </objectDesc><handDesc>
-                     
-                  <handNote synch="#U2" scope="major" script="tamil" scriptRef="#tamilPulliSporadic #tamilMacron #tamilOE" medium="incised soot"><desc>Partly blackened (but faded soot).</desc></handNote></handDesc><additions><desc synch="#U1" type="shelfmark">BnF old shelfmark in black pencil: <quote>Tamoul 575</quote> (<locus facs="5">f[1]r</locus>).</desc><desc synch="#U1" type="title">Title in black pencil: <quote xml:lang="fr">Dictionnaire de Botanique</quote> (<locus facs="6">f[1]r</locus>).</desc><desc synch="#U1" type="title">Title in black pencil: <quote xml:lang="ta">marap·peyar·t· tokuti</quote> (<locus facs="6">f[1]r</locus>).</desc><desc synch="#U2" type="intertitle" subtype="marginal left">Left-marginal intertitles. See selection below.</desc></additions><bindingDesc>
-                     <binding>
-                        <p>No woodcover. A shell serves as stop device for the string.</p>
-                     <decoNote type="stringhole"><measure unit="stringhole" quantity="1"/></decoNote></binding>
-                  </bindingDesc></physDesc>
-               <history>
-                  
-                  
-               <origin>
-                     <origDate calendar="gregorian" notAfter="1912">No internal date. </origDate>
-                     <origPlace>South India, Tamil Nadu.</origPlace>
-                  </origin><acquisition>
-                     
-                  </acquisition></history>
-               <additional>
-                  <listBibl>
-                     
-                     
-                     
-                     
-                  <bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f99">p. 80, no. 575</ref>.</bibl><bibl>James, Gregory. 2000. <title>Colporuḷ: A History of Tamil Dictionaries</title>. 1st edition. Chennai: Cre-A. — See p. 707.</bibl></listBibl>
-               </additional>
-            </msDesc>
-         </sourceDesc>
-      </fileDesc>
-      
-   <encodingDesc><p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.</p></encodingDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
-         
-      <change when="2021-09">Record created by <persName>Emmanuel FRANCIS</persName>.</change><change when="2022-06">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, June 2022.</change></revisionDesc></teiHeader>
-   
-<facsimile><graphic url="https://didomena.ehess.fr/concern/data_sets/xw42ng81s/manifest.json"/></facsimile><text synch="#U2" corresp="#T1" xml:lang="ta"><body>
-  <ab>
-    
-  <pb facs="7" n="1r"/>
-    
-  	<fw place="left-margin">
-  <seg function="blessing"><cb n="1"/>
-  <lb n="1"/><term xml:lang="sa">hari Om</term></seg>
-  <seg function="intertitle"><lb n="2"/>nāṅkā
+						<msItem synch="#U2" xml:id="T1" defective="false">
+							<title xml:lang="ta">Marappeyart Tokuti</title>
+							<textLang mainLang="tam"/>
+						</msItem>
+					</msContents>
+					<physDesc>
+
+
+
+
+						<objectDesc form="pothi" rend="manuscript">
+							<supportDesc material="palm-leaf">
+								<extent>
+									<measure unit="folio" quantity="18"
+										>{1} + 17 (U1 + U2).</measure>
+									<dimensions type="leaf" unit="mm">
+
+
+										<width max="480" min="470"/>
+										<height quantity="30"/>
+									</dimensions>
+									<dimensions type="object" unit="mm">
+										<depth quantity="10"/>
+										<width quantity="480"/>
+										<height quantity="30"/>
+									</dimensions><dimensions type="written" unit="mm"/></extent>
+
+
+								<support/>
+								<collation><desc xml:id="U1">1 folio = <emph rend="bold"
+											>guard leaf</emph>. Later used as title page. No foliation. Double folio. Verso blank. 470 x 30 mm.</desc><desc
+										xml:id="U2">17 folios = <emph rend="bold"><term
+												xml:lang="ta"
+										>Marappeyart Tokuti</term></emph>. Tamil foliation 1-17. Single folios. Unblackened. 480 x 30 mm. f17v more dark = original outside page.
+</desc></collation>
+								<condition>Fairly good state of preservation. f1 cracked and truncated.</condition>
+							</supportDesc>
+							<layoutDesc>
+
+								<layout columns="4">Stanzas distributed <foreign xml:lang="ta"
+										>aṭi</foreign>-wise per line and final letter(s) indented to the right at the end of lines. 4 columns for U2, f1v-f17v.</layout>
+							</layoutDesc>
+						</objectDesc>
+						<handDesc>
+
+							<handNote synch="#U2" scope="major" script="tamil"
+								scriptRef="#tamilPulliSporadic #tamilMacron #tamilOE"
+								medium="incised soot"
+									><desc>Partly blackened (but faded soot).</desc></handNote>
+						</handDesc>
+						<additions><desc synch="#U1" type="shelfmark"
+									>BnF old shelfmark in black pencil: <quote>Tamoul 575</quote> (<locus
+									facs="5">f[1]r</locus>).</desc><desc synch="#U1" type="title"
+									>Title in black pencil: <quote xml:lang="fr"
+									>Dictionnaire de Botanique</quote> (<locus facs="6"
+									>f[1]r</locus>).</desc><desc synch="#U1" type="title"
+									>Title in black pencil: <quote xml:lang="ta"
+									>marap·peyar·t· tokuti</quote> (<locus facs="6"
+								>f[1]r</locus>).</desc><desc synch="#U2" type="intertitle"
+								subtype="marginal left"
+								>Left-marginal intertitles. See selection below.</desc></additions>
+						<bindingDesc>
+							<binding>
+								<p>No woodcover. A shell serves as stop device for the string.</p>
+								<decoNote type="stringhole"><measure unit="stringhole" quantity="1"
+									/></decoNote>
+							</binding>
+						</bindingDesc>
+					</physDesc>
+					<history>
+
+
+						<origin>
+							<origDate calendar="gregorian" notAfter="1912"
+								>No internal date. </origDate>
+							<origPlace>South India, Tamil Nadu.</origPlace>
+						</origin>
+						<acquisition> </acquisition>
+					</history>
+					<additional>
+						<listBibl>
+
+
+
+
+							<bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref
+									target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f99"
+									>p. 80, no. 575</ref>.</bibl>
+							<bibl>James, Gregory. 2000. <title>Colporuḷ: A History of Tamil Dictionaries</title>. 1st edition. Chennai: Cre-A. — See p. 707.</bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<p><emph rend="bold"
+					>General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph
+					rend="bold"
+					>In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph
+					rend="bold"
+				>Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.</p>
+		</encodingDesc>
+		<xenoData type="webannotation"><![CDATA[[]]]></xenoData>
+		<revisionDesc>
+
+			<change when="2021-09">Record created by <persName>Emmanuel FRANCIS</persName>.</change>
+			<change when="2022-06"
+				>Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, June 2022.</change>
+		</revisionDesc>
+	</teiHeader>
+
+	<facsimile>
+		<graphic url="https://didomena.ehess.fr/concern/data_sets/xw42ng81s/manifest.json"/>
+	</facsimile>
+	<text synch="#U2" corresp="#T1" xml:lang="ta">
+		<body>
+			<ab>
+				<pb facs="7" n="1r"/>
+				<fw place="left-margin">
+					<seg function="blessing"><cb n="1"/>
+						<lb n="1"/><term xml:lang="sa">hari Om</term></seg>
+					<seg function="intertitle"><lb n="2"/>nāṅkā
 <lb n="3" break="no"/>vatu <g ref="#pcs"/>
-<lb n="4"/><g ref="#pcl"/> <g ref="#pcs"/> <g ref="#pcs"/></seg> 
-
-  <seg function="intertitle"><cb n="2"/>
-  <lb n="1"/>marapeyart
+						<lb n="4"/><g ref="#pcl"/>
+						<g ref="#pcs"/>
+						<g ref="#pcs"/></seg>
+					<seg function="intertitle"><cb n="2"/>
+						<lb n="1"/>marapeyart
   <lb n="2"/>tokuti</seg>
-  
-  <seg function="intertitle"><cb n="3"/>
-  <lb n="1"/>kāppu</seg> <g ref="#pcs"/>
-     </fw>
-    
-  <seg function="invocation"><note xml:lang="en">stanza 1</note>
-  <lg><l><lb n="1"/> tirukkiḷar tēvar kōmāṉ ēvaliṟ kupēraṉ ceyta</l>
-<l><lb n="2"/>viruppuṟu poṉṉeyiṟkuḷ viḷaṅkaveṇneḻuttiraṇtum</l>
-<l><lb n="3"/>parappiya vātimūrtti paṇkayappātam pōṟṟi</l>
-<l><lb n="4"/>marappeyart tokuti taṉṉai varumuṟai kūṟaluṟṟām <g ref="#pcl"/></l></lg></seg>
-  
-  <pb facs="13" n="1v"/>
-  
-   <seg function="intertitle"><cb n="1"/>
-  <lb n="1"/>Aintaru<unclear>vāvaṉ</unclear></seg>
-   <seg function="intertitle"><lb n="2"/>cantana-marat
-<lb n="3" break="no"/>tiṉ peyar</seg>
-
-  <seg function="incipit"><note xml:lang="en">stanza 2</note><cb n="2"/>
-  <lg><l><lb n="1"/>cantanam vēṇṭiṟṟellān tarum aricantanam pū</l>
-<l><lb n="2"/>mantāram pāricātaṅ kaṟpakam aṟṟōraintāñ</l>
-<l><lb n="3"/>cantārañ cāntu cantañ cantiratilakattōṭu</l>
-<l><lb n="4"/>vantēṟu paṭīram pūcumalayacañ cantap pēr ~ 2 ~</l></lg></seg>
-
-    <seg function="intertitle"><cb n="3"/>
-  <lb n="1-5"/><gap reason="ellipsis"/></seg>
-  
-  <cb n="4"/>
-  <lb n="1-4"/><note xml:lang="en">stanza 3</note>
-  
-   <pb facs="25" n="17r"/>
-  <seg function="intertitle">
-  <cb n="1"/>
-  <lb n="1-2"/>marunt<pc>'</pc> eṉṉum pēr</seg>
-
-  <cb n="2"/>
-  <lb n="1-4"/><note xml:lang="en">stanza 64</note>
-  
-    <seg function="intertitle"><cb n="3"/>
-  <lb n="1-3"/><gap reason="ellipsis"/></seg>
-  
-  <cb n="4"/>
-    <lb n="1-4"/><note xml:lang="en">stanza 65</note>
-  
-  <pb facs="31" n="17v"/>
-  <seg function="intertitle">
-  <cb n="1"/>
-  <lb n="1"/><supplied reason="lost">mā</supplied><unclear reason="consonant_unclear">lai</unclear>yiṉ pēr</seg>
-  
-  <cb n="2"/>
-  <lb n="1-4"/><note xml:lang="en">stanza 66</note>
-  
-    <seg function="intertitle"><cb n="3"/>
-  <lb n="1"/>vāciraiyiṉ pēr</seg>
-  <seg function="intertitle"><lb n="2"/>vāciraiyiṉ pēr</seg>
-   <lb n="3-7"/><gap reason="ellipsis"/>
-
-  <seg function="explicit"><note xml:lang="en">stanza 67</note><cb n="4"/>
-  <lb n="1"/> <gap reason="ellipsis"/>
-  <lb n="2"/><gap reason="ellipsis"/>
-  <lb n="3"/><gap reason="ellipsis"/>
-  <lb n="4"/><gap reason="ellipsis"/> veṉṟu <gap reason="ellipsis"/> cūṭuvatu vākai · 67 ·</seg>  
-
-    </ab>
-  </body></text></TEI>
+					<seg function="intertitle"><cb n="3"/>
+						<lb n="1"/>kāppu</seg>
+					<g ref="#pcs"/>
+				</fw>
+				<seg function="invocation">
+					<lg>
+						<l><lb n="1"/> tirukkiḷar tēvar kōmāṉ ēvaliṟ kupēraṉ ceyta</l>
+						<l><lb n="2"/>viruppuṟu poṉṉeyiṟkuḷ viḷaṅkaveṇneḻuttiraṇtum</l>
+						<l><lb n="3"/>parappiya vātimūrtti paṇkayappātam pōṟṟi</l>
+						<l><lb n="4"/>marappeyart tokuti taṉṉai varumuṟai kūṟaluṟṟām <g ref="#pcl"/></l>
+					</lg><app><note xml:lang="en">stanza 1</note></app></seg>
+				<pb facs="13" n="1v"/>
+				<seg function="intertitle"><cb n="1"/>
+					<lb n="1"/>Aintaru<unclear>vāvaṉ</unclear></seg>
+				<seg function="intertitle"><lb n="2"/>cantana-marat
+<lb n="3" break="no"
+					/>tiṉ peyar</seg>
+				<seg function="incipit"><cb n="2"/>
+					<lg>
+						<l><lb n="1"/>cantanam vēṇṭiṟṟellān tarum aricantanam pū</l>
+						<l><lb n="2"/>mantāram pāricātaṅ kaṟpakam aṟṟōraintāñ</l>
+						<l><lb n="3"/>cantārañ cāntu cantañ cantiratilakattōṭu</l>
+						<l><lb n="4"/>vantēṟu paṭīram pūcumalayacañ cantap pēr ~ 2 ~</l>
+					</lg><app><note xml:lang="en">stanza 2</note></app></seg>
+				<seg function="intertitle"><cb n="3"/>
+					<lb n="1-5"/><gap reason="ellipsis"/></seg>
+				<cb n="4"/>
+				<lb n="1-4"/><app><note xml:lang="en">stanza 3</note></app>
+				<pb facs="25" n="17r"/>
+				<seg function="intertitle">
+					<cb n="1"/>
+					<lb n="1-2"/>marunt<pc>'</pc> eṉṉum pēr</seg>
+				<cb n="2"/>
+				<lb n="1-4"/><app><note xml:lang="en">stanza 64</note></app>
+				<seg function="intertitle"><cb n="3"/>
+					<lb n="1-3"/><gap reason="ellipsis"/></seg>
+				<cb n="4"/>
+				<lb n="1-4"/><app>
+					<note xml:lang="en">stanza 65</note>
+				</app>
+				<pb facs="31" n="17v"/>
+				<seg function="intertitle">
+					<cb n="1"/>
+					<lb n="1"/><supplied reason="lost">mā</supplied><unclear reason="consonant_unclear">lai</unclear>yiṉ pēr</seg>
+				<cb n="2"/>
+				<lb n="1-4"/><app><note xml:lang="en">stanza 66</note></app>
+				<seg function="intertitle"><cb n="3"/>
+					<lb n="1"/>vāciraiyiṉ pēr</seg>
+				<seg function="intertitle"><lb n="2"/>vāciraiyiṉ pēr</seg>
+				<lb n="3-7"/><gap reason="ellipsis"/>
+				<seg function="explicit"><cb n="4"/>
+					<lb n="1"/>
+					<gap reason="ellipsis"/>
+					<lb n="2"/><gap reason="ellipsis"/>
+					<lb n="3"/><gap reason="ellipsis"/>
+					<lb n="4"/><gap reason="ellipsis"/> veṉṟu <gap reason="ellipsis"/> cūṭuvatu vākai · 67 ·<app><note xml:lang="en">stanza 67</note></app></seg>
+			</ab>
+		</body>
+	</text>
+</TEI>
