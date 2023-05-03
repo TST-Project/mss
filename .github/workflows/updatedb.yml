@@ -26,8 +26,9 @@ jobs:
           cd db/_src
           git clone https://github.com/TST-Project/authority-files.git
           yarn install
-          #git clone https://github.com/TST-Project/lib.git
-          #yarn compilexslt
+          git clone https://github.com/TST-Project/lib.git
+          echo 'Compiling XSLT'
+          yarn compilexslt
           echo 'Getting list of changed files'
           git diff --name-only ${{github.head_ref}} $(cat latest_commit) > filelist
           echo 'Updating databases'
