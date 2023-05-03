@@ -62,7 +62,7 @@ const getPlacement = (el) => {
         //el.querySelector('locus, milestone, pb'); // if el is <desc>
     const placement = el.nodeName === 'rubric' || el.closest('seg[function="rubric"]') ? 
         'beginning' :
-            el.closest('colophon, seg[function="colophon"]') ? 'end' :
+            el.closest('colophon, seg[function="colophon"],finalRubric,seg[function="completion-statement"]') ? 'end' :
         el.closest('fw')?.getAttribute('place')?.replaceAll('-',' ') ||
         //util.placement(el) || // deprecated (for <milestone>s like @unit='left-margin' 
         el.closest('desc')?.getAttribute('subtype')?.replace(/\s/g,', ').replaceAll('-',' ') ||
