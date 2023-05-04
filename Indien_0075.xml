@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><title xml:lang="ta">Vivēkacāram</title></title>
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2023</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Indien 75</idno>
+                  <idno type="alternate"><idno>Tamoul 75</idno><idno>Ariel 10</idno><idno>c/5</idno></idno>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103488q</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b52515981j</idno></msIdentifier>
+               <msContents class="#STM">
+                  <summary><p>The <title xml:lang="ta">Vivēkacāram</title>.</p></summary>
+                  
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Vivēkacāram: <term xml:lang="en">Title Page (additional)</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2b" xml:id="T2" defective="false"><title xml:lang="ta">Vivēkacāram: Mūlam</title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T3" defective="false"><title xml:lang="ta"><term xml:lang="en">TBC</term></title><textLang mainLang="tam"/></msItem></msContents>
+               <physDesc>
+                  
+                  
+                  
+                  
+               <objectDesc form="pothi" rend="manuscript">
+                     <supportDesc material="palm-leaf">
+                        
+                        
+                        
+                     <support/><extent>
+                           <measure unit="folio" quantity="87">{1} + {1} + 83 + {1} + {1} (U1 + U2a + U2b + U3 + U4).</measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           </dimensions>
+                           <note>The leaves are broader in their middle than at their edges. </note>
+                        <dimensions type="object" unit="mm"><width quantity="480"/><height quantity="35"/><depth quantity="60"/></dimensions><dimensions type="written" unit="mm"/></extent><foliation>Left-marginal Tamil numerals foliation on rectos (U2b).</foliation><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. Shelfmark and sticker on recto.</desc><desc xml:id="U1">1 bifolio = <emph rend="bold">Title Page (additional)</emph>. No foliation. Unblackened text on verso.</desc><desc xml:id="U2a">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso.
+</desc><desc xml:id="U2b">83 folios = <emph rend="bold"><title xml:lang="ta">Vivēkacāram</title>: Text</emph>. Tamil foliation {1}, 2-50.1, 50.2, 50.3, 50.4-58.1, 58.2-79. f79v blank.
+</desc><desc xml:id="U3">1 folio = <emph rend="bold">TBC</emph>. No foliation. Verso blank.
+</desc><desc xml:id="U4">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Recto blank. Unblackened text on verso.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Good state of preservation, despite boreholes.</condition></supportDesc>
+                     <layoutDesc>
+                        
+                     <layout writtenLines="4"/></layoutDesc>
+                  </objectDesc><handDesc>
+                     
+                  <handNote synch="#U1" scope="minor" script="tamil" medium="incised soot"><desc>Hand #1 on f[1]r = <persName role="scribe">Ariel's title page scribe</persName>. </desc></handNote><handNote synch="#U1" script="tamil" medium="incised"><desc>Hand # 2 on f[1]v.</desc></handNote><handNote synch="#U2b" scope="major" script="tamil" medium="incised soot"><desc>Hand #3.</desc></handNote><handNote synch="#U3" script="tamil" medium="incised"><desc>Hand #4.</desc></handNote></handDesc><additions><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 75</quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#CoverFront" type="documenting-note" subtype="cover front">BnF donation sticker <quote>DON N° <space type="vacat"/></quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#U1" type="shelfmark">Shelfmark <quote>c/5</quote> in black ink (<locus facs="3">f[1]r</locus>).</desc><desc synch="#U1" type="shelfmark">Sticker (Société Asiatique?) with shelfmark <quote>439</quote> inscribed in black ink (<locus facs="3">f[1]r</locus>).</desc></additions><bindingDesc>
+                     <binding>
+                        
+                     <decoNote type="stringhole"><measure unit="stringhole" quantity="1"/></decoNote><p><material cert="medium">Pinewood</material> covers apparently fabricated in the BnF. 480 x 35 mm.</p></binding>
+                  </bindingDesc></physDesc>
+               <history>
+                  
+                  
+               <origin>
+                     <origDate calendar="gregorian" notAfter="1854">Not after 1854, since part of the collection of <persName role="collector" key="Ariel, Édouard">Édouard Ariel</persName> (1818-1854), bequeathed in 1855 to the Société Asiatique, Paris (Rosny 1868).</origDate>
+                     <origPlace>South India, Tamil Nadu.</origPlace>
+                  </origin><provenance><p>Owned by <persName role="collector" key="Ariel, Édouard">Édouard Ariel</persName> (1818-1854). Bequeathed by Édouard Ariel to Société Asiatique (Rosny 1868, p. 177). </p></provenance><acquisition>
+                     <p>Received, August 1st, 1866, from the Société Asiatique. See BnF, département des Manuscrits, inventaire 7 = <title>Dons: manuscrits et imprimés documentaires, 1848-1895</title>, no. 1192.</p>
+                  </acquisition></history>
+               <additional>
+                  <listBibl>
+                     
+                     
+                  <bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois et malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f33">p. 15, no. 75</ref>.</bibl><bibl>Rosny, Léon de. 1868. <title type="article">La bibliothèque tamoule de M. Ariel, de Pondichéry</title>. In <title>Variétés orientales</title>, 177‒224. Paris: Maisonneuve. </bibl><bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. 1866-. <title> Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f59">f. 22r, no. 75</ref>. </bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+   <encodingDesc><p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.              </p></encodingDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
+         
+      <change when="2023-05">Record created by <persName>Emmanuel FRANCIS</persName>.</change></revisionDesc></teiHeader>
+   
+<facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b52515981j/manifest.json"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+  <ab>
+    
+  <pb facs="3" n="[1]r"/>
+  
+<fw place="left-margin">
+  <seg function="blessing">
+  <lb n="1"/>
+    <lb n="2"/></seg>
+    </fw>
+  
+    
+    <cb n="1"/>
+  <lb n="1"/>
+        
+  <cb n="2"/>
+  <lb n="1"/>
+    
+      <pb facs="4" n="[1]v"/>
+
+                    
+</ab>
+</body></text><text synch="#U2b" corresp="#T2" xml:lang="ta"><body>
+  <ab>
+    
+  <pb facs="7" n="[1]r"/>
+  
+<fw place="left-margin">
+  <seg function="title">
+  <lb n="1"/>vivēkacāram</seg>
+    </fw>
+  
+  <seg function="incipit">
+  <lb n="1"/><gap reason="ellipsis"/>
+</seg>
+    
+    
+     <pb facs="00" n="6v"/>
+  
+<fw place="left-margin">
+  <seg function="intertitle">
+  <lb n="1"/></seg>
+    </fw>
+    
+    <pb facs="00" n="8v"/>
+  
+<fw place="left-margin">
+  <seg function="intertitle">
+  <lb n="1"/></seg>
+    </fw>
+   
+                  
+    <pb facs="00" n="17r"/>
+  
+<fw place="left-margin">
+  <seg function="intertitle">
+  <lb n="1"/></seg>
+    </fw>
+    
+    <pb facs="00" n="24r"/>
+  
+<fw place="left-margin">
+  <seg function="intertitle">
+  <lb n="1"/></seg>
+    </fw>
+    
+        <pb facs="00" n="39v"/><app><note xml:lang="en">blank page</note></app>
+    
+        <pb facs="00" n="40v"/><app><note xml:lang="en">blank page</note></app>
+    
+        <pb facs="00" n="63v"/><app><note xml:lang="en">blank page</note></app>
+    
+        <pb facs="00" n="79v"/><app><note xml:lang="en">blank page</note></app>
+
+</ab>
+</body></text><text synch="#U3" corresp="#T3" xml:lang="ta"><body>
+  <ab>
+    
+  <pb facs="0" n="[1]r"/>
+    
+  <cb n="1"/>
+  <lb n="1"/>
+        
+  <cb n="2"/>
+  <lb n="1"/>
+        
+  <cb n="3"/>
+  <lb n="1"/>
+        
+  <cb n="4"/>
+  <lb n="1"/>
+    
+   <pb facs="0" n="[1]v"/>
+                  
+</ab>
+</body></text></TEI>
