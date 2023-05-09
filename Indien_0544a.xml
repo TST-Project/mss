@@ -20,7 +20,9 @@
 						<idno type="alternate"><idno>Tamoul 544a</idno><idno>Haas 50</idno></idno>
 					<idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1040725</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b52517443k</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/3b591j23b</idno></msIdentifier>
 					<msContents class="#STM">
-						<summary><p>Description based on the examination of the original manuscript (March 2023).</p>
+						<summary><p>A copy of the <title xml:lang="ta">Tiruvāymoḻi</title>, that is, <title xml:lang="ta">Tivviyappirapantam 2791-3892</title>.</p>
+
+<p>Description based on the examination of the original manuscript (March 2023).</p>
 <p>Dimensions assessed at the time of examination.</p>      </summary>
 
 					<msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Tivviyappirapantam 2791-3892 = Tiruvāymoḻi</title><textLang mainLang="tam"/></msItem></msContents>
@@ -31,29 +33,29 @@
 						
 					<objectDesc form="pothi" rend="manuscript">
 							<supportDesc material="palm-leaf">
-								<extent>
+								
+
+								
+								
+								
+							<support/><extent>
 									<measure unit="folio" quantity="100">100 (U1).</measure>
 									<dimensions type="leaf" unit="mm">
 
 
 										
 										
-									</dimensions>
+									<width quantity="410"/><height quantity="35"/></dimensions>
 									<dimensions type="object" unit="mm">
 										
 										
 										
-									</dimensions><dimensions type="written" unit="mm"/></extent>
-
-								
-								
-								
-							<support/><collation><desc xml:id="U1">100 folios = <emph rend="bold"><title xml:lang="ta">Tivviyappirapantam 2791-3892 = Tiruvāymoḻi</title></emph>. Tamil foliation {1}, 2-100.</desc></collation><condition>Relatively good state of preservation.</condition></supportDesc>
+									</dimensions><dimensions type="written" unit="mm"/></extent><collation><desc xml:id="U1">100 folios = <emph rend="bold"><title xml:lang="ta">Tivviyappirapantam 2791-3892 = Tiruvāymoḻi</title></emph>. Tamil foliation {1}, 2-100. 410 x 35 mm.</desc></collation><condition>Relatively good state of preservation. Some truncated folios.</condition></supportDesc>
 							<layoutDesc> </layoutDesc>
 						</objectDesc><handDesc>
 
 							
-						<handNote synch="#U1" scope="sole" script="tamil" medium="incised soot"/></handDesc><additions/><bindingDesc>
+						<handNote synch="#U1" scope="sole" script="tamil" medium="incised soot"><desc>Probably several hands.</desc></handNote></handDesc><additions/><bindingDesc>
 							<binding>
 								
 							<decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
@@ -62,11 +64,11 @@
 						
 						
 						
-					<origin>
+					
+						<origin>
 							<origDate calendar="gregorian" notAfter="1886"/>
 							<origPlace>South India, Tamil Nadu.</origPlace>
-					</origin><provenance><p>Owned by <persName ref="https://catalogue.bnf.fr/ark:/12148/cb109559175" key="Haas, Frédéric (1843-1915)" role="collector">Frédéric Haas</persName> (1843-1915).</p></provenance>
-						<acquisition>                     
+					</origin><provenance><p>Owned by <persName ref="https://catalogue.bnf.fr/ark:/12148/cb109559175" key="Haas, Frédéric (1843-1915)" role="collector">Frédéric Haas</persName> (1843-1915).</p></provenance><acquisition>                     
 							<p>Acquired, December 18th, 1886, from M. Haas. See BnF, département des Manuscrits, inventaire 2 = <title>Acquisitions: manuscrits et imprimés documentaires, 1848-1893</title>, no. 7881.</p>
 						</acquisition></history>
 					<additional>
@@ -92,7 +94,7 @@
 		<change when="2023-03">Record created by <persName>Emmanuel FRANCIS</persName>.</change></revisionDesc></teiHeader>
 
 	
-<facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b52517443k/manifest.json"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+<facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b52517443k/manifest.json" facs="3"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   <ab>
     
   <pb facs="3" n="[1]r"/>
@@ -101,11 +103,27 @@
   <lb n="1"/><term xml:lang="sa">hariḥ
     <lb n="2"/>Ōm</term></seg>
     <seg function="foliation"><lb n="3"/>1</seg>
-      <lb n="4"/>{flower}
+      <lb n="4"/><term xml:lang="en">{flower}</term>
       </fw>
    
+    <seg function="incipit"><lg>
+      <l><lb n="1"/><unclear>Uyarvaṟa vu</unclear>yarnala muṭaiyavaṉ yavanavaṉ</l>
+      <l>mayarvaṟa matinalam aṟuḷinaṉ yavanavaṉ</l>
+      <l>yaravaṟum amararkaḷ atipati yavanavaṉ</l>
+      <l>tuyaraṟu cuṭaraṭi toḻuteḻeṉ manaṉē | <g ref="#pcl"/> 1 | <g ref="#pcl"/></l></lg></seg>
+<lb n="2-8"/><gap reason="ellipsis"/>
+    
       <pb facs="4" n="[1]v"/>
+    <lb n="1-3"/><gap reason="ellipsis"/> <lg><l><gap reason="ellipsis"/>
+<lb n="4"/>col</l> <l>nirai nirai yāyirat tivaipattum vīṭē <g ref="#pcl"/> <num rend="traditional">11</num> <g ref="#pcl"/></l></lg> <seg function="blessing">Āḻvār tiruvaṭikaḷē caraṇam <g ref="#pcl"/></seg> <seg function="TBC">1 | <g ref="#pcl"/><app><note xml:lang="en">decade number</note></app></seg>
 
+      <pb facs="201" n="100r"/>
+
+  <pb facs="202" n="100v"/>
+    <lb n="1-5"/><gap reason="ellipsis"/>
+    <lb n="6"/>
+    <lb n="7"/>
+    <lb n="8"/>
+    
     </ab>
-</body>
-	</text></TEI>
+</body></text></TEI>
