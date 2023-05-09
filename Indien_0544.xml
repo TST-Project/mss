@@ -19,7 +19,7 @@
 						<idno type="shelfmark">Indien 544</idno>
 						<idno type="alternate"><idno>Tamoul 544</idno><idno>Haas 50</idno></idno>
 					<idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1040725</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b52517443k</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/3b591j23b</idno></msIdentifier>
-					<msContents class="#MTM">
+					<msContents class="#CM">
 						<summary><p>A composite manuscript containing:
   <list rend="numbered">
     <item>The <title xml:lang="ta">Tivviyappirapantam 2791-3892 = Tiruvāymoḻi</title> (Indien 544a).</item>
@@ -37,7 +37,12 @@
 						
 					<objectDesc form="pothi" rend="manuscript">
 							<supportDesc material="palm-leaf">
-								<extent>
+								
+
+								
+								
+								
+							<support/><extent>
 									<measure unit="folio" quantity="107">{1} + 100 + 6 (U1 + Indien 544a + Indien 544b).</measure>
 									<dimensions type="leaf" unit="mm">
 
@@ -49,19 +54,14 @@
 										
 										
 										
-									</dimensions><dimensions type="written" unit="mm"/></extent>
-
-								
-								
-								
-							<support/><collation><desc xml:id="U1">1 bifolio = <emph rend="bold">guard leaf</emph>. Truncated. Recto darker = original outside page. 410 x 30 mm.
+									<width quantity="410"/><height quantity="35"/><depth quantity="65"/></dimensions><dimensions type="written" unit="mm"/></extent><collation><desc xml:id="U1">1 bifolio = <emph rend="bold">guard leaf</emph>. Truncated. Recto darker = original outside page. Verso blank. 410 x 30 mm.
 
 </desc><desc xml:id="Indien544a">100 folios = <emph rend="bold"><title xml:lang="ta">Tivviyappirapantam 2791-3892 = Tiruvāymoḻi</title></emph>.</desc><desc xml:id="Indien544b">6 folios = <emph rend="bold"><title xml:lang="ta">Irāmāṉucanūṟṟantāti</title></emph>.</desc></collation><condition>Relatively good state of preservation.</condition></supportDesc>
 							<layoutDesc> </layoutDesc>
 						</objectDesc><handDesc>
 
 							
-						</handDesc><additions><desc synch="#U1" type="shelfmark">BnF shelfmark sticker , covering an older sticker: <quote>INDIEN 544</quote>  (<locus facs="1">f[1]r</locus>).</desc><desc synch="#U1" type="documenting-note">BnF register information, in black ink: <quote>RC. 7881</quote> (<locus facs="1">f[1]r</locus>).</desc></additions><bindingDesc>
+						</handDesc><additions><desc synch="#U1" type="shelfmark">BnF shelfmark sticker, covering an older sticker: <quote>INDIEN 544</quote>  (<locus facs="1">f[1]r</locus>).</desc><desc synch="#U1" type="documenting-note">BnF register information, in black ink: <quote>RC. 7881</quote> (<locus facs="1">f[1]r</locus>).</desc><desc synch="#U1">Scribbles (<locus facs="1">f[1]r</locus>).</desc><desc type="shelfmark">Number <quote>50.</quote> in black ink on a small square hard paper tied to the string. Typical shelfmark of manuscripts from Haas.</desc></additions><bindingDesc>
 							<binding>
 								<p>No wood covers. 1 stringhole for U1 and Indien 544b. 2 stringholes for Indien 544a .</p>
 							<decoNote type="stringhole"><measure unit="stringhole" quantity="0"/></decoNote></binding>
@@ -70,11 +70,11 @@
 						
 						
 						
-					<origin>
+					
+						<origin>
 							<origDate calendar="gregorian" notAfter="1886"/>
 							<origPlace>South India, Tamil Nadu.</origPlace>
-					</origin><provenance><p>Owned by <persName ref="https://catalogue.bnf.fr/ark:/12148/cb109559175" key="Haas, Frédéric (1843-1915)" role="collector">Frédéric Haas</persName> (1843-1915).</p></provenance>
-						<acquisition>                     
+					</origin><provenance><p>Owned by <persName ref="https://catalogue.bnf.fr/ark:/12148/cb109559175" key="Haas, Frédéric (1843-1915)" role="collector">Frédéric Haas</persName> (1843-1915).</p></provenance><acquisition>                     
 							<p>Acquired, December 18th, 1886, from M. Haas. See BnF, département des Manuscrits, inventaire 2 = <title>Acquisitions: manuscrits et imprimés documentaires, 1848-1893</title>, no. 7881.</p>
 						</acquisition></history>
 					<additional>
