@@ -24,7 +24,7 @@
                   <summary><p>A multi-text manuscript, entitled <title xml:lang="ta">Vētāntam 2</title> on its additional title page, containing two <term xml:lang="sa">Vedānta</term> works:
   <list rend="numbered">
     <item>the <title xml:lang="ta">Kolai Maṟuttal</title>, by <persName role="author">Cāntaliṅka Tēcikar</persName>. 22 stanzas. See Zvelebil (1995, p. 119).</item>
-    <item>the <title xml:lang="ta">Ñāṉavāciṭṭam</title> by <persName role="author">Aḷavantār Māṭavappaṭṭar</persName>. 43/44 <foreign xml:lang="ta">katai</foreign>s. 2054 stanzas. See Zvelebil (1995, p. 26).</item>
+    <item>the <title xml:lang="ta">Ñāṉavāciṭṭam</title> by <persName role="author">Aḷavantār Māṭavappaṭṭar</persName>. 43/44 <foreign xml:lang="ta">katai</foreign>s. 2054 stanzas. See Zvelebil (1995, p. 26, s.v. Āḷavantar Mātavapaṭṭar). See Peres (2021): <quote>The <title>Ñāna-vāciṭṭam</title> is an unstudied seventeenth-century Tamil translation of the <title>Laghu-yoga-vāsiṣṭha</title>, itself an abridged version of the Sanskrit masterpiece <title>Mokṣopāya</title>.</quote></item>
   </list>
   </p>
 <p>Description based on the examination of the original manuscript (November 2021).</p>
@@ -74,7 +74,7 @@
                <additional>
                   <listBibl>
                      
-                  <bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens. Bibliothèque nationale. Département des manuscrits.</title> Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f34">p. 16, no. 83</ref>.</bibl><bibl>Rosny, Léon de. 1868. <title type="article">La bibliothèque tamoule de M. Ariel, de Pondichéry</title>. In: <title>Variétés orientales</title> (pp. 177‒224). Paris: Maisonneuve. </bibl><bibl>Vinson, Julien. 1868. <title>Manuscrits tamouls</title>. Proofreadings of the catalogue for Tamoul 1-204 (old shelfmark). Printed by the atelier oriental de l’Imprimerie nationale. BnF “4-IMPROR-77 (B)”. — The same proofreadings with black ink handwritten corrections are found in Vinson et al. (1866-, f1-f49). — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b105333021/f57">p. 24, no. 83</ref>.</bibl><bibl>Zvelebil, Kamil V. 1995. <title>Lexicon of Tamil Literature.</title> Leiden [etc.]: Brill.</bibl></listBibl>
+                  <bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens. Bibliothèque nationale. Département des manuscrits.</title> Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f34">p. 16, no. 83</ref>.</bibl><bibl>Peres, Ofer. 2021. <title type="article">Barefaced Lies on the Path to the Truth: The “Tale of the Little Boy” in the <title>Ñāṉa-vāciṭṭam</title></title>. In: <title>Journal of South Asian Intellectual History</title> 4, pp. 72-94. Paris: Maisonneuve. </bibl><bibl>Rosny, Léon de. 1868. <title type="article">La bibliothèque tamoule de M. Ariel, de Pondichéry</title>. In: <title>Variétés orientales</title> (pp. 177‒224). Paris: Maisonneuve. </bibl><bibl>Vinson, Julien. 1868. <title>Manuscrits tamouls</title>. Proofreadings of the catalogue for Tamoul 1-204 (old shelfmark). Printed by the atelier oriental de l’Imprimerie nationale. BnF “4-IMPROR-77 (B)”. — The same proofreadings with black ink handwritten corrections are found in Vinson et al. (1866-, f1-f49). — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b105333021/f57">p. 24, no. 83</ref>.</bibl><bibl>Zvelebil, Kamil V. 1995. <title>Lexicon of Tamil Literature.</title> Leiden [etc.]: Brill.</bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
@@ -91,8 +91,8 @@
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   <ab>
   
-    <seg function="table-of-contents"><pb facs="1" n="[1]r"/>
- <seg function="title"><lb n="1"/>kolaimaṟuttal uraiyum</seg>
+    <pb facs="1" n="[1]r"/>
+ <seg function="table-of-contents"><seg function="title"><lb n="1"/>kolaimaṟuttal uraiyum</seg>
 <seg function="title"><lb n="2"/>vāciṭṭamūlamum</seg>
 <seg function="title"><lb n="3"/>Āka vētāntam 2</seg>
       </seg>
@@ -140,8 +140,11 @@
     </fw>
   
   <seg function="incipit">
-   <lb n="1"/>peṇmai <gap reason="ellipsis"/>
-      <lb n="2"/>ceyyavē = 1 = <gap reason="ellipsis"/></seg>
+   <lg>
+     <l><lb n="1"/>peṇmai pātiyaṉ peṟṟa kaḷiṟṟiṉai</l>
+     <l>yaṇmai tūramaṟa vakat tuṉṉuvān</l>
+     <l>tiṇmai ñāṉac ciṟappuyar vāciṭṭa</l>
+     <l>muṇmai yāka voruṅkurai <lb n="2"/>ceyyavē = 1 =</l></lg></seg> <gap reason="ellipsis"/>
   
   <pb facs="59" n="1v"/>
       <lb n="7"/><gap reason="ellipsis"/> = <num rend="traditional">14</num> = <seg function="completion-statement">patikamuṟṟum <g ref="#pcl"/> pāyiramuṟṟiṟṟu <g ref="#pcl"/> <seg function="blessing">civañāṉa-caṟkuru-pātāravintamē tuṇai y<pc>-</pc>uṇṭāka tāka<g rend="below-base">vuM</g></seg> <g ref="#pcs"/></seg>
