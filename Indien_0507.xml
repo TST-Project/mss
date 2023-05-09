@@ -45,7 +45,7 @@
                         <dimensions type="object" unit="mm"><width quantity="280"/><height quantity="30"/><depth quantity="75"/></dimensions><dimensions type="written" unit="mm"/></extent>
                         
                         
-                     <support/><foliation>Left-marginal Tamil foliation (U4, U5). Library Arabic foliation in right margin.</foliation><collation>
+                     <foliation>Left-marginal Tamil foliation (U4, U5). Library Arabic foliation in right margin.</foliation><collation>
                         
                         
                         
@@ -55,9 +55,6 @@
 </desc><desc xml:id="U3">1 folio = <emph rend="bold"><title xml:lang="ta">Tirukkuṟaḷ</title>: Invocation (3 satellite stanzas)</emph>. No foliation. 275 x 30 mm.</desc><desc xml:id="U4">133 folios = <emph rend="bold"><title xml:lang="ta">Tirukkuṟaḷ</title>: Text</emph>. Tamil foliation {1}, 2-133. 275/280 x 30 mm.
 </desc><desc xml:id="U5">15 folios = <emph rend="bold"><title xml:lang="ta">Tiruvaḷḷuvar Mālai Veṇpā</title>: Text</emph>. Tamil foliation 1-15. f15 is broken into 2 pieces. 270 x 30 mm.</desc><desc xml:id="U6">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso. Truncated. 160 x 25 mm.
 </desc><desc xml:id="U7">1 bifolio = <emph rend="bold">guard leaf</emph>. No foliation. Recto blank. Some letters and drawings on verso. Truncated. 210 x 25 mm.</desc></collation><condition>Poor  state of preservation. Fragile. Boreholes, leaves truncated.</condition></supportDesc>
-                     <layoutDesc>
-                        
-                     </layoutDesc>
                   </objectDesc><handDesc>
                      
                   <handNote synch="#U1" scope="minor" script="tamil"><desc>Hand #1.</desc></handNote><handNote synch="#U3 #U4 #U5" scope="major" script="tamil" medium="incised soot"><desc>U3, f80 unblackened. Hand #2.</desc></handNote></handDesc><additions>
@@ -196,7 +193,7 @@
     
     <pb facs="276" n="133v"/>        
     <lb n="1-4"/><gap reason="ellipsis"/>
-    <seg function="explicit"><lg><l><lb n="5"/>Ūṭutal kāmattiṟ kiṉpa mataṟkiṉpa<del><gap reason="illegible" quantity="1" unit="character"/></del></l>ṅ <l>kūṭi muyaṅkap <supplied reason="lost">pe</supplied>ṟiṉ <g ref="#pcs"/> <num rend="traditional">10</num> <g ref="#pcs"/></l></lg></seg> <seg function="colophon"><seg function="total-stanzas">{Āka} <num rend="traditional">1<choice><sic>1</sic><corr>3</corr></choice>30</num> <g ref="#pcs"/></seg></seg>
+    <seg function="explicit"><lg><l><lb n="5"/>Ūṭutal kāmattiṟ kiṉpa mataṟkiṉpa<del><gap reason="illegible" quantity="1" unit="character"/></del>ṅ</l> <l>kūṭi muyaṅkap <supplied reason="lost">pe</supplied>ṟiṉ <g ref="#pcs"/> <num rend="traditional">10</num> <g ref="#pcs"/></l></lg></seg> <seg function="colophon"><seg function="total-stanzas">{Āka} <num rend="traditional">1<choice><sic>1</sic><corr>3</corr></choice>30</num> <g ref="#pcs"/></seg></seg>
     
     </ab>
   </body></text><text synch="#U5" corresp="#T4" xml:lang="ta"><body>
@@ -215,7 +212,8 @@
     <seg function="incipit">
     <lg><l><lb n="1"/>pūvil avaṉum <gap reason="ellipsis"/>
     <lb n="2"/><gap reason="ellipsis"/>
-    <lb n="3"/>ṉ kūṟṟu = 1 =</l></lg></seg> <seg function="intertitle">Acarīri vākku ~</seg> <lg><l>tiruttaku teyvat ~ tiruvaḷḷuvarō</l> <l>ṭurutta <lb n="4" break="no"/>ku naṟpalakai yokka ~ virukka ~</l> <l><unclear>vu</unclear>ruttira caṉma ~ reṉavuraittu vāṉi</l> <l>loru<lb n="5" break="no"/>kkalō ~ veṉṟatōr col = 2 =</l></lg><lg><l>nāṭā mutaṉāṉ maṟaināṉ
+    <lb n="3"/>ṉ kūṟṟu = 1 =</l></lg></seg> 
+    <seg function="intertitle">Acarīri vākku ~</seg> <lg><l>tiruttaku teyvat ~ tiruvaḷḷuvarō</l> <l>ṭurutta <lb n="4" break="no"/>ku naṟpalakai yokka ~ virukka ~</l> <l><unclear>vu</unclear>ruttira caṉma ~ reṉavuraittu vāṉi</l> <l>loru<lb n="5" break="no"/>kkalō ~ veṉṟatōr col = 2 =</l></lg><lg><l>nāṭā mutaṉāṉ maṟaināṉ
     
      <pb facs="280" n="1v"/> 
     
@@ -248,7 +246,7 @@
     <lb n="4"/><gap reason="ellipsis"/> ~ 56 ~ <gap reason="ellipsis"/>
     <lb n="5"/><gap reason="ellipsis"/>
     
-         <pb facs="308" n="15v"/><app><app><note xml:lang="en"><locus facs="308">fragment 1</locus>, left side and <locus facs="310">fragment 2</locus>, right side</note></app></app>
+         <pb facs="308" n="15v"/><app><note xml:lang="en"><locus facs="308">fragment 1</locus>, left side and <locus facs="310">fragment 2</locus>, right side</note></app>
 
     <lb n="1"/><gap reason="ellipsis"/> ~ vaḷḷuvaṉār vaipperkku vāyattu <unclear>=</unclear> 57 = <seg function="colophon"><seg function="completion-statement">tiru<supplied reason="lost">vaḷ</supplied>
     <lb n="2"/>ḷuvar mālai veṇpā ~ yeḻuti niṟaintatu muṟṟum <g ref="#pcs"/></seg> <seg function="blessing">śrīkiṣṇacakā<supplied reason="lost"><g rend="below-base">yaM</g></supplied>
