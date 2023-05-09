@@ -20,10 +20,11 @@
 						<idno type="alternate"><idno>Tamoul 544b</idno><idno>Haas 50</idno></idno>
 					<idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1040725</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b52517443k</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/3b591j23b</idno></msIdentifier>
 					<msContents class="#STM">
-						<summary><p>Description based on the examination of the original manuscript (March 2023).</p>
+						<summary><p>An incomplete copy of the <title xml:lang="ta">Irāmāṉucanūṟṟantāti</title> (3  <foreign xml:lang="ta">taṉiyaṉkaḷ</foreign>, followed by stanzas 1-36) by <persName xml:lang="ta" role="author">Tiruvaraṅkattamutaṉār</persName>, sometimes counted as part of the <title xml:lang="ta">Nālāyirattivviyappirapantam</title> (NTP 3893-4000). See Zvelebil (1995, p. 267, 466).</p>
+<p>Description based on the examination of the original manuscript (March 2023).</p>
 <p>Dimensions assessed at the time of examination.</p>      </summary>
 
-					<msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Irāmāṉucanūṟṟantāti</title><textLang mainLang="tam"/></msItem></msContents>
+					<msItem synch="#U1" xml:id="T1" defective="true"><title xml:lang="ta">Irāmāṉucanūṟṟantāti</title><textLang mainLang="tam"/></msItem></msContents>
 					<physDesc>
 						
 						
@@ -31,24 +32,24 @@
 						
 					<objectDesc form="pothi" rend="manuscript">
 							<supportDesc material="palm-leaf">
-								<extent>
+								
+
+								
+								
+								
+							<support/><extent>
 									<measure unit="folio" quantity="6">6 (U1).</measure>
 									<dimensions type="leaf" unit="mm">
 
 
 										
 										
-									</dimensions>
+									<width quantity="405"/><height quantity="30"/></dimensions>
 									<dimensions type="object" unit="mm">
 										
 										
 										
-									</dimensions><dimensions type="written" unit="mm"/></extent>
-
-								
-								
-								
-							<support/><collation><desc xml:id="U1">6 folios = <emph rend="bold"><title xml:lang="ta">Irāmāṉucanūṟṟantāti</title></emph>. Tamil foliation {1}, 2-6.</desc></collation><condition>Relatively good state of preservation.</condition></supportDesc>
+									</dimensions><dimensions type="written" unit="mm"/></extent><collation><desc xml:id="U1">6 folios = <emph rend="bold"><title xml:lang="ta">Irāmāṉucanūṟṟantāti</title></emph>. Tamil foliation {1}, 2-6.</desc></collation><condition>Relatively good state of preservation.</condition></supportDesc>
 							<layoutDesc> </layoutDesc>
 						</objectDesc><handDesc>
 
@@ -62,11 +63,11 @@
 						
 						
 						
-					<origin>
+					
+						<origin>
 							<origDate calendar="gregorian" notAfter="1886"/>
 							<origPlace>South India, Tamil Nadu.</origPlace>
-					</origin><provenance><p>Owned by <persName ref="https://catalogue.bnf.fr/ark:/12148/cb109559175" key="Haas, Frédéric (1843-1915)" role="collector">Frédéric Haas</persName> (1843-1915).</p></provenance>
-						<acquisition>                     
+					</origin><provenance><p>Owned by <persName ref="https://catalogue.bnf.fr/ark:/12148/cb109559175" key="Haas, Frédéric (1843-1915)" role="collector">Frédéric Haas</persName> (1843-1915).</p></provenance><acquisition>                     
 							<p>Acquired, December 18th, 1886, from M. Haas. See BnF, département des Manuscrits, inventaire 2 = <title>Acquisitions: manuscrits et imprimés documentaires, 1848-1893</title>, no. 7881.</p>
 						</acquisition></history>
 					<additional>
@@ -98,16 +99,46 @@
   <pb facs="203" n="[1]r"/>
   	<fw place="left-margin">
   <seg function="title">
-  <lb n="1-2"/>rāmāṉucanūt=t’ antāti</seg>
+  <lb n="1-2"/>rāmāṉucanūt=t<pc>'</pc> antāti</seg>
       <seg function="blessing">
         <lb n="3-4"/><term xml:lang="sa">hariḥ | Ōm</term></seg>    
       </fw>
   
- 
+    <lg>
+      <l><lb n="1"/>muṉṉai viṉaiyakala mūṅkilk <sic>ko</sic>ṭiyamutaṉ</l>
+      <l><gap reason="ellipsis"/></l>
+      <l><gap reason="ellipsis"/></l>
+      <l><lb n="2"/>Eṉṉu<sic>ḷ</sic> kaṭavuṭaiyēṉ yāṉ ~<app><note xml:lang="en"><foreign xml:lang="ta">taṉiyaṉ 1</foreign></note></app></l>
+    </lg>
+    
+    <lg>
+      <l><gap reason="ellipsis"/> ~</l>
+      <l><gap reason="ellipsis"/> ~</l>
+      <l><gap reason="ellipsis"/>
+    <lb n="3"/><gap reason="ellipsis"/></l> <l>l i <gap reason="ellipsis"/> neñcamē | <app><note xml:lang="en"><foreign xml:lang="ta">taṉiyaṉ 2</foreign></note></app></l>
+    </lg>
+    
+    <lg>
+      <l>collum <gap reason="ellipsis"/> <lb n="4"/><gap reason="ellipsis"/></l>
+      <l> <gap reason="ellipsis"/></l>
+      <l> <gap reason="ellipsis"/></l>
+      <l> vellum<lb n="5" break="no"/>paramaṉ virāmānuca viteṉ viṇṇa<add place="below">ppa</add>mē <g ref="#pcl"/><app><note xml:lang="en"><foreign xml:lang="ta">taṉiyaṉ 3</foreign></note></app></l>
+    </lg>
+
       <pb facs="204" n="[1]v"/>
+    <lg>
+      <l><lb n="1"/>pūmaṉṉumātu poruntiya mārpaṉ ~ <sic>po</sic>kaḻmalinta</l>
+      <l>pāmaṉṉumāṟa ṉaṭipaṇin tuyntavaṉ ~ palkalaiyōṟ</l>
+      <l><sic>tāmaṉṉi</sic> vanta virāmānucaṉ caṟaṇāravintam</l>
+      <l><lb n="2"/>nāmmaṉṉivāḻa ~ neñcē colluvōmavaṉ ṉāmaṅkaḷē <g ref="#pcs"/> 1 <g ref="#pcs"/></l></lg> <gap reason="ellipsis"/>
     
       <pb facs="214" n="[6]v"/>
+    <lb n="1-4"/><gap reason="ellipsis"/>
+    <seg function="explicit"><lg><l><lb n="5"/>Aṭalkoṇṭa nēmiyaṉ āruyir nātaṉ ~ Aṉ ṟāraṇaccol</l>
+      <l>kaṭalkoṇṭa voṇporuḷ <sic>ko</sic>ṇṭaḷip pāpiṉṉum kāciṉiyō</l>
+      <l>r i<gap reason="ellipsis"/><lb n="6" break="no"/>kaṇ vīḻntiṭa ~ tāṉumav voṇporuḷ koṇṭavaṟpiṉ</l>
+      <l>paṭarum kuṇaṉ Irāmā ṉuca<add place="below">ṉ</add>taṉpaṭi yituvē <g ref="#pcl"/> <num rend="traditional">36</num> <g ref="#pcl"/></l></lg></seg>
+
 
     </ab>
-</body>
-	</text></TEI>
+</body></text></TEI>
