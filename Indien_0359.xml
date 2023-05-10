@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title><title xml:lang="ta">Tivviyappirapantam 1-871</title></title>
+            <title><title xml:lang="ta">Tivviyappirapantam</title> 1-871</title>
          <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          
          <publicationStmt>
@@ -21,7 +21,7 @@
                   <idno type="alternate"><idno>Tamoul 359</idno><idno>Ariel 20</idno><idno>c/33</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1038860</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b52510703n</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/st74d022t</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary><p>A portion of the first thousand of <title xml:lang="ta">Tivviyappirapantam</title> (NTP 1-871).</p>
+                  <summary><p>A portion of the first thousand of the <title xml:lang="ta">Tivviyappirapantam</title> (NTP 1-871).</p>
 <p>The additional title-page (U1) erroneously states that the bundle contains the <foreign xml:lang="ta">tiruvāymoḻi mutal āyiram</foreign> (the <title xml:lang="ta">Tiruvāymoḻi</title> is the 4th thousand).</p>
 <p>Description based on the examination of the original manuscript (March 2023).</p>      
 <p>Dimensions assessed at the time of examination.</p>      
@@ -45,9 +45,9 @@
                               
                               
                            <width min="455" max="460"/><height quantity="35"/></dimensions>
-                        <dimensions type="object" unit="mm"><depth quantity="650"/><width quantity="460"/><height quantity="35"/></dimensions><dimensions type="written" unit="mm"/></extent><collation>
+                        <dimensions type="object" unit="mm"><depth quantity="65"/><width quantity="460"/><height quantity="35"/></dimensions><dimensions type="written" unit="mm"/></extent><collation>
                      
-                     <desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 bifolio = <emph rend="bold"><title xml:lang="ta">Tiruvāymoḻi</title>: Title Page (additional)</emph>. No foliation. Verso blank. 455 x 35 mm.</desc><desc xml:id="U2">89 folios = <emph rend="bold">The <title xml:lang="ta">Tivviyappirapantam 1-871</title> preceded by <foreign xml:lang="ta">taṉiyaṉkaḷ</foreign></emph>. Tamil foliation {1}, 2-47.1, 47.2-59, 62-91. 460 x 35 mm.
+                     <desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">1 bifolio = <emph rend="bold"><title xml:lang="ta">Tiruvāymoḻi</title>: Title Page (additional)</emph>. No foliation. Verso blank. 455 x 35 mm.</desc><desc xml:id="U2">89 folios = <emph rend="bold">The <title xml:lang="ta">Tivviyappirapantam</title> 1-871, preceded by <foreign xml:lang="ta">taṉiyaṉkaḷ</foreign></emph>. Tamil foliation {1}, 2-47.1, 47.2-59, 62-91. 460 x 35 mm.
 </desc><desc xml:id="U3">1 bifolio = <emph rend="bold"> guard leaf</emph>. No foliation. Same type of leaf as U1. Blank recto verso. 455 x 32 mm.
 
 </desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Relatively good state of preservation. Edges of the last folios abraded.</condition></supportDesc>
@@ -111,18 +111,43 @@ Not after 1854, since part of the collection of <persName role="collector">Édou
   <lb n="1-4"/><term xml:lang="sa">jīyyar</term> tiruvaṭikaḷē caraṇam</seg>
     </fw>
    
-    <seg function="TBC">
-  
+    <seg function="incipit">
+      <seg function="satellite-stanza">
     <lg>
-      <l><term xml:lang="sa"><lb n="1"/>śrīśaileśadayāpātraṃ</term></l>
+      <l><lb n="1"/><term xml:lang="sa">śrīśaileśadayāpātraṃ</term></l>
       <l><term xml:lang="sa">dhībhaktyādiguṇārṇavam ~</term></l>
       <l><term xml:lang="sa">yatīndrapravaṇaṃ vande</term></l>
-      <l><term xml:lang="sa">ramya<supplied reason="omitted">t</supplied>jāmātaraṃ muniṃ |</term></l>
-    </lg><app><note xml:lang="en">taṉiyaṉ</note></app></seg> <gap reason="ellipsis"/>
-      <lb n="2"/><gap reason="ellipsis"/>
-      <lb n="3"/><gap reason="ellipsis"/>
-      <lb n="4"/><gap reason="ellipsis"/>
-      <lb n="5"/><gap reason="ellipsis"/>
+      <l><term xml:lang="sa">ramya<supplied reason="omitted">t</supplied>jāmātaraṃ muniṃ</term> |<app><note xml:lang="en"><foreign xml:lang="ta">taṉiyaṉ</foreign> 1</note></app></l>
+    </lg></seg>
+      <seg function="satellite-stanza">
+    <lg>
+      <l><term xml:lang="sa">gurumukhamanadhītya prāha vedānaśeṣā</term></l>
+      <l><term xml:lang="sa">n narapatiparikluptaṃ śūlkamādātu<lb n="2"/>kāmaḥ</term> |</l>
+        <l><term xml:lang="sa">śvaśuramamaravandyaṃ raṃganāthasya sākṣa</term></l>
+        <l><term xml:lang="sa"><unclear>d</unclear>dvijakulatilakan taṃ viṣṇucittam namāmi</term> |<app><note xml:lang="en"><foreign xml:lang="ta">taṉiyaṉ</foreign> 2</note></app></l>
+        </lg></seg>
+
+        <seg function="satellite-stanza">
+    <lg>
+      <l>miṉṉār taṭamatiḷcūḻ villiputtūr eṉṟ<pc>’</pc> orukāṟ</l>
+      <l>coṉṉār kaḻaṟkamalañ cūṭiṉō muṉṉāḷ</l>
+      <l><lb n="3"/>kiḻiyaṟuttāṉ eṉṟ<pc>’</pc> uraittōṅ kīḻmēṉic cērum</l>
+      <l>vaḻiyaṟuttō neñcamē vantu =<app><note xml:lang="en"><foreign xml:lang="ta">taṉiyaṉ</foreign> 3</note></app></l>
+          </lg></seg>
+
+      <seg function="satellite-stanza">
+    <lg>
+      <l>pāṇṭiyaṉ koṇṭāṭap paṭṭarpirāṉ vantāṉ eṉ</l>
+      <l>ṟ<pc>’</pc> īṇṭiya caṅkam eṭuttūta vēṇṭiya</l>
+      <l><lb n="4"/>vētaṅkaḷōti viraintu kiḻiyaṟuttāṉ</l>
+      <l>pātaṅkaḷ iyāmuṭaiya paṟṟu =<app><note xml:lang="en"><foreign xml:lang="ta">taṉiyaṉ</foreign> 4</note></app></l>
+      </lg></seg>
+      <lg>
+        <l>pallāṇṭu pallāṇṭu pallāyirattāṇṭu</l>
+        <l>palakōṭi nūrāyira</l>
+        <l>mallāṇṭa tiṇtōṇ maṇivaṇ<lb n="5" break="no"/>ṇā vuṉ</l>
+        <l>cēvvaṭi cevvi tirukkāppu = 1 =</l></lg></seg> Aṭiyōm <gap reason="ellipsis"/>
+      
       <lb n="6"/><gap reason="ellipsis"/>
       <lb n="7"/><gap reason="ellipsis"/>
       
