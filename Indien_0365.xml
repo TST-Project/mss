@@ -9,7 +9,7 @@
          
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2022</date>
+            <date>2023</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -21,12 +21,13 @@
                   <idno type="alternate"><idno>Tamoul 365</idno><idno>Ariel</idno><idno>Cc/3</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1038924</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/gf06g920z</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary><p>The <title xml:lang="ta">Aññavataipparaṇi</title>.</p>
+                  <summary><p>An incomplete copy (455 stanzas) of the <title xml:lang="ta">Aññavataipparaṇi</title> by <persName xml:lang="ta" role="author">Tattuvarāyar</persName>.</p>
+<p>The chapter entitled <foreign xml:lang="ta">cum mulakkai</foreign> is announced by an in-text intertitle at the end, but the text stops short there.</p>
 <p>Description based on the examination of the original manuscript (February 2021).</p>
 <p>Dimensions assessed at the time of examination.</p> 
 </summary>
                   
-               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Tiruvāmāttūr Kalampakam: Mūlam</title><textLang mainLang="tam"/></msItem></msContents>
+               <msItem synch="#U1" xml:id="T1" defective="true"><title xml:lang="ta">Tiruvāmāttūr Kalampakam: Mūlam</title><textLang mainLang="tam"/><filiation><p><ref target="https://tst-project.github.io/mss/Indien_0028.xml">BnF Indien 28.2</ref></p></filiation></msItem></msContents>
                <physDesc>
                   
                   
@@ -34,16 +35,16 @@
                   
                <objectDesc form="codex" rend="manuscript">
                      <supportDesc material="paper">
-                        <extent>
+                        
+                        
+                        
+                     <extent>
                            <measure unit="folio" quantity="35">35 (U1).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
                            <height quantity="225"/></dimensions>
-                        <dimensions type="object" unit="mm"><width quantity="160"/><height quantity="230"/><depth quantity="10"/></dimensions><dimensions type="written" unit="mm"/></extent>
-                        
-                        
-                     <collation>
+                        <dimensions type="object" unit="mm"><width quantity="160"/><height quantity="230"/><depth quantity="10"/></dimensions><dimensions type="written" unit="mm"/></extent><collation>
                      
                      <desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="u1">1 folio = <emph rend="bold">guard leaf</emph>.
 </desc><desc xml:id="U1">25 folios = <emph rend="bold"><title xml:lang="ta">Tiruvāmāttūr Kalampakam</title>: Text</emph>. Original Tamil foliation 1-18 only. Library foliation 1-24, 25 (crossed-out), [26-35]. f25, f[26-35] blank recto verso.</desc><desc xml:id="u2">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. 
@@ -81,27 +82,50 @@
   <ab>
     
     <pb facs="9" n="1r"/>
-  	<fw place="left-margin">
-  <seg function="blessing"><lb n="1"/><app><note xml:lang="en">centred word</note></app> tirucciṟṟampalam.</seg>
-<lb n="2"/><app><note xml:lang="en">centred line</note></app> <seg function="title"><supplied reason="lost">Añ</supplied>ñavataipparaṇi.</seg>
+  	<fw place="top-margin">
+  <seg function="blessing"><lb n="1"/>tirucciṟṟampalam.</seg>
+<seg function="title"><lb n="2"/><supplied reason="lost">Añ</supplied>ñavataipparaṇi.</seg>
     </fw>
     
-<seg function="incipit"><lb n="3"/><gap reason="ellipsis"/></seg>
+<seg function="incipit">
+  
+  <seg function="satellite-stanza">
+    <lg>
+      <l><lb n="1"/><unclear>taraṇipukaḻ tattuva</unclear>ṉār tāmuraitta ñāṉap</l>
+      <l>paraṇita<lb n="2" break="no"/><unclear>ṉai</unclear>k kaṭṭaviḻttup pārttā<unclear>ṟ </unclear>karaṇamuṭaṉ</l>
+        <l>cērntuma<lb n="2" break="no"/>ṇa <unclear><del><gap reason="illegible" quantity="1" unit="character"/></del>vātu ci</unclear>vamaṉamē pūrikkuñ</l>
+      <l>cāntumaṇa nāṟumē
+  <lb n="4"/>tā<unclear>ṉ <g ref="#pcs"/></unclear></l></lg>
+  </seg>
+      <lg>       
+    <l><unclear>paṭaippāṉu</unclear>m viyaṉñāḻaṅ kākku māḻip</l>
+    <l>paṭai<lb n="5" break="no"/>yāṉum paṭaittaḷikkap paṭṭa tellān</l>
+    <l>tuṭaippā<lb n="6" break="no"/><unclear>ṉuñ</unclear> curutikaḷun toḻutu pōṟṟuñ</l>
+    <l>corupāṉan<lb n="7" break="no"/><supplied reason="lost">tac cu</supplied>ṭarait toḻutal ceyvām | 1 |</l></lg>
+    </seg> <gap reason="ellipsis"/>
 
   <pb facs="27" n="23v"/>
    <lb n="-4"/><gap reason="ellipsis"/>
-  <lb n="-3"/><gap reason="ellipsis"/> – 19 – <seg function="TBC">Iṉi kkaḷaṅkāṭṭu –</seg> <seg function="total-stanzas">Āka vi
+  <lb n="-3"/><gap reason="ellipsis"/> – 19 – <seg function="intertitle">Iṉik kaḷaṅkāṭṭu –</seg> <seg function="total-stanzas">Āka vi
      <lb n="-2" break="no"/>ruttam <num rend="traditional">440</num></seg> <term xml:lang="en">{line-fillers = 13 hyphens}</term>
  <lb n="-1"/><gap reason="ellipsis"/>
   
    <pb facs="28" n="24r"/>
-   <lb n="-3"/><gap reason="ellipsis"/>
-  <lb n="-2"/><gap reason="ellipsis"/> – 9 – <seg function="total-stanzas">Āka viruttam 449</seg> <term xml:lang="en">{line-fillers = 2 hyphens}</term>
- <lb n="-1"/><app><note xml:lang="en">centred line</note></app><seg function="TBC">Iṉi kat=taḻaṭuvar ~</seg>
+   <lb n="1-27"/><gap reason="ellipsis"/>
+  <lb n="28"/><gap reason="ellipsis"/> kāṇmikaḷē – 9 –<app><note xml:lang="en">st. 434 of 1989 edition</note></app> <seg function="total-stanzas">Āka viruttam ~ 449 ~ ~ ~</seg>
+<seg function="intertitle"> <lb n="29"/>Iṉi kūḻ aṭuvār ~<app><note xml:lang="en">centred line</note></app></seg>
   
     <pb facs="30" n="24v"/>
-   <seg function="explicit"><lb n="16"/><gap reason="ellipsis"/> – 6 –</seg> <seg function="total-stanzas">Āka vi<ex>ruttam</ex> – 455 –</seg> <seg function="TBC">Iṉi Ammu
-<lb n="17"/>lakkai</seg> <term xml:lang="en">{line-fillers = 13 hyphens}</term>
-
+     <lb n="1-12"/><gap reason="ellipsis"/>
+    <seg function="explicit">
+      <lb n="13"/><gap reason="ellipsis"/> ~ 5 ~ 
+      <lg>
+        <l>muṭivē tiruvaru mu<lb n="14" break="no"/>lē teṉaporu</l>
+        <l>moḻiyāṉ vaḷaviṭa muṭiyā<lb n="15" break="no"/>ta</l>
+        <l>vaṭivē yaṭaivatōr matiyē  kūḻaṭa</l>
+        <l>vārīr kū<lb n="16" break="no"/>ḷaṭa vārīṟē – 6 –<app><note xml:lang="en">st. 438 of 1989 edition</note></app></l></lg></seg>
+    <seg function="total-stanzas">Āka vi<ex>ruttam</ex> – 455 –</seg> <seg function="intertitle">Iṉi cum mu
+<lb n="17"/>lakkai</seg> <term xml:lang="en">{line-fillers = 13 hyphens}</term><app><note xml:lang="en">the text stops short here</note></app>    
+    
   </ab>
 </body></text></TEI>
