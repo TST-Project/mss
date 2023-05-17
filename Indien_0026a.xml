@@ -24,12 +24,12 @@
                <msContents class="#MTM">
                   <summary>A multi-text manuscript containing:  
 <list>
-  <item>The <title xml:lang="ta">Civāñāṉapōtam</title> (f1-f10 = U1a).</item>
+  <item>The <title xml:lang="ta">Civañāṉapōtam</title> (f1-f10 = U1a).</item>
   <item>The <title xml:lang="ta">Vayirākatīpam</title> (f11-f24 = U1b).</item>
 </list></summary>
                   
                   
-               <msItem synch="#U1a" xml:id="T1" defective="false"><title xml:lang="ta">Civāñāṉapōtam</title><textLang mainLang="tam"/></msItem><msItem synch="#U1b" xml:id="T2" defective="false"><title xml:lang="ta">Vayirākatīpam</title><textLang mainLang="tam"/></msItem></msContents>
+               <msItem synch="#U1a" xml:id="T1" defective="false"><title xml:lang="ta">Civañāṉapōtam</title><textLang mainLang="tam"/></msItem><msItem synch="#U1b" xml:id="T2" defective="false"><title xml:lang="ta">Vayirākatīpam</title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
                   
                   
@@ -60,7 +60,7 @@
                         </dimensions>
                         </extent><foliation>Tamil foliation 1-24.</foliation><collation>
                      
-                     <desc xml:id="U1a">10 folios = <emph rend="bold"><title xml:lang="ta">Civāñāṉapōtam</title></emph>. Tamil foliation 1-10.</desc><desc xml:id="U1b">14 folios = <emph rend="bold"><title xml:lang="ta">Vayirākatīpam</title></emph>. Tamil foliation 11-24.</desc></collation><condition>Good state of preservation. </condition></supportDesc>
+                     <desc xml:id="U1a">10 folios = <emph rend="bold"><title xml:lang="ta">Civañāṉapōtam</title></emph>. Tamil foliation 1-10.</desc><desc xml:id="U1b">14 folios = <emph rend="bold"><title xml:lang="ta">Vayirākatīpam</title></emph>. Tamil foliation 11-24.</desc></collation><condition>Good state of preservation. </condition></supportDesc>
                      <layoutDesc>
                         <p/>
                      </layoutDesc>
@@ -118,10 +118,20 @@
    
     <fw place="left-margin">
   <seg function="blessing"><lb n="1-2"/>tirucciṟṟampalam</seg>
-<seg function="title"><lb n="3-4"/>civāñāṉapōtam</seg></fw>
+<seg function="title"><lb n="3-4"/>civañāṉapōtam</seg></fw>
   
-   <seg function="incipit"><lb n="1"/><gap reason="ellipsis"/></seg>
-    <lb n="2-6"/><gap reason="ellipsis"/>
+   <seg function="incipit">
+      <seg function="invocation">
+      <lg>
+        <l><lb n="1"/>kallā ṉiḻaṉmalai ~</l>
+        <l>villā raruḷiya ~</l>
+        <l>pollā riṇaimalar ~</l>
+        <l>nallār puṉaivarē =</l>
+      </lg>
+      </seg>
+    </seg>
+    <seg function="intertitle">yitu kāppu</seg> <gap reason="ellipsis"/>
+    <lb n="2ff."/><gap reason="ellipsis"/>
         
     <pb facs="55" n="10v"/>
       <lb n="1-2"/><gap reason="ellipsis"/>
