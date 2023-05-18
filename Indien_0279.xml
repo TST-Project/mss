@@ -41,7 +41,7 @@
                               
                               
                            <width min="375" max="395"/></dimensions>
-                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent><foliation>Left-marginal Parallel Tamil and Arabic numerals foliation (U5).</foliation><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. BnF shelfmark sticker on front cover, recto.</desc><desc xml:id="U1">1 folio = <emph rend="bold"><title xml:lang="ta">Pālakāṇṭam</title>: Title Page</emph> (in French). No foliation. Verso blank.</desc><desc xml:id="U2">1 folio = <emph rend="bold"><title xml:lang="ta">Pālakāṇṭam</title>: Table of Contents</emph>. No foliation.</desc><desc xml:id="U3">1 folio = <emph rend="bold"><title xml:lang="ta">Pālakāṇṭam</title>: Front Matter (invocation)</emph> (3 <foreign xml:lang="ta">kāppu</foreign> verses). No foliation. Verso blank.</desc><desc xml:id="U4">1 folio = <emph rend="bold"><title xml:lang="ta">Pālakāṇṭam</title>: <term xml:lang="ta">Taṉiyaṉ</term>s</emph>. No foliation. Verso blank.</desc><desc xml:id="U5">175 folios = <emph rend="bold"><title xml:lang="ta">Pālakāṇṭam</title>: Text</emph>. Tamil foliation 1-175. Parallel Arabic foliation 1-175.</desc><desc xml:id="U6">1 folio = back <emph rend="bold">guard leaf</emph>. Blank recto verso. </desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Excellent state of preservation.</condition></supportDesc>
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent><foliation>Left-marginal Parallel Tamil and Arabic numerals foliation (U5).</foliation><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. BnF shelfmark sticker on front cover, recto.</desc><desc xml:id="U1">1 folio = <emph rend="bold"><title xml:lang="ta">Pālakāṇṭam</title>: Title Page</emph> (in French). No foliation. Verso blank.</desc><desc xml:id="U2">1 folio = <emph rend="bold"><title xml:lang="ta">Pālakāṇṭam</title>: Table of Contents</emph>. No foliation.</desc><desc xml:id="U3">1 folio = <emph rend="bold"><title xml:lang="ta">Pālakāṇṭam</title>: Front Matter (invocation)</emph> (3 <foreign xml:lang="ta">kāppu</foreign> verses). No foliation. Verso blank.</desc><desc xml:id="U4">1 folio = <emph rend="bold"><title xml:lang="ta">Pālakāṇṭam</title>: <term xml:lang="ta">Taṉiyaṉkaḷ</term></emph>. No foliation. Verso blank.</desc><desc xml:id="U5">175 folios = <emph rend="bold"><title xml:lang="ta">Pālakāṇṭam</title>: Text</emph>. Tamil foliation 1-175. Parallel Arabic foliation 1-175.</desc><desc xml:id="U6">1 folio = back <emph rend="bold">guard leaf</emph>. Blank recto verso. </desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Excellent state of preservation.</condition></supportDesc>
                      <layoutDesc>
                         
                      </layoutDesc>
@@ -172,7 +172,6 @@ The number corresponds to the number series in the catalogue of Velanguani Aroki
     
             <pb facs="8" n="[1]v"/><app><note xml:lang="en">blank page</note></app>
 
-
 </ab>
 </body></text><text synch="#U4" corresp="#T4" xml:lang="ta"><body>
   <ab>
@@ -180,31 +179,56 @@ The number corresponds to the number series in the catalogue of Velanguani Aroki
   <pb facs="9" n="[1]r"/>
  
     <fw place="left-margin">
-  <seg function="blessing">
-  <lb n="1"/>śrī<g ref="#double_kal">rā</g>maceyam</seg>
+      <seg function="blessing">
+        <lb n="1"/>śrī<g ref="#double_kal">rā</g>maceyam</seg>
       </fw>
        
-    <lg>
+    <seg function="satellite-stanza">
+      <lg>
       <l><lb n="1"/>Ampilē cilaiyai nāṭṭi yamararkk<pc>'</pc> aṉṟ<pc>'</pc> amirtam īynta ~</l>
       <l>tampiraṉ eṉṉat tāṉun tamiḻilē taṉṉai nāṭṭik</l>
       <l><lb n="2"/>kampa nāṭ<pc>'</pc> uṭaiya kōmāṉ kavic cakkiṟavatti pārmēl ~</l>
-      <l>nampu pāmālaiyālē nararkkum iṉṉamirtam īyntāṉ<g ref="#pcs"/> 1 <g ref="#pcs"/></l>
+      <l>nampu pāmālaiyālē nararkkum iṉṉamirtam īyntāṉ<g ref="#pcs"/> 1 <g ref="#pcs"/><app><note xml:lang="en"><foreign xml:lang="ta">taṉiyaṉ</foreign> 1</note></app></l>
     </lg>
-    <lg>
+    </seg>
+    
+    <seg function="satellite-stanza"><lg>
       <l><lb n="3"/>maṟṟoru <gap reason="ellipsis"/>
     <lb n="4"/><gap reason="ellipsis"/>
-    <lb n="5"/><gap reason="ellipsis"/> <g ref="#pcs"/> 2 <g ref="#pcs"/></l></lg> <seg function="prosody">vēṟu ~</seg> <lg><l>Irākavaṉ <gap reason="ellipsis"/>
+    <lb n="5"/><gap reason="ellipsis"/> <g ref="#pcs"/> 2 <g ref="#pcs"/><app><note xml:lang="en"><foreign xml:lang="ta">taṉiyaṉ</foreign> 2</note></app></l>
+    </lg></seg>
+    
+    <seg function="prosody">vēṟu ~</seg>
+    
+    <seg function="satellite-stanza"><lg>
+      <l>Irākavaṉ <gap reason="ellipsis"/>
     <lb n="6"/><gap reason="ellipsis"/>
-    <lb n="7"/><gap reason="ellipsis"/> <g ref="#pcs"/> 3 <g ref="#pcs"/></l></lg> <seg function="prosody">vē</seg> <lg><l><gap reason="ellipsis"/>
+    <lb n="7"/><gap reason="ellipsis"/> <g ref="#pcs"/> 3 <g ref="#pcs"/><app><note xml:lang="en"><foreign xml:lang="ta">taṉiyaṉ</foreign> 3</note></app></l></lg></seg>
+    
+    <seg function="prosody">vē</seg>
+    
+    <seg function="satellite-stanza"><lg>
+      <l><gap reason="ellipsis"/>
     <lb n="8"/><gap reason="ellipsis"/>
  
     <pb facs="10" n="[1]v"/>
 
-    <lb n="1"/><gap reason="ellipsis"/> <g ref="#pcs"/> 4 <g ref="#pcs"/></l></lg> <lg><l><gap reason="ellipsis"/>
+    <lb n="1"/><gap reason="ellipsis"/> <g ref="#pcs"/> 4 <g ref="#pcs"/><app><note xml:lang="en"><foreign xml:lang="ta">taṉiyaṉ</foreign> 4</note></app></l>
+    </lg></seg>
+    
+    <seg function="satellite-stanza"><lg>
+      <l><gap reason="ellipsis"/>
     <lb n="2"/><gap reason="ellipsis"/>
-    <lb n="3"/><gap reason="ellipsis"/> <g ref="#pcs"/> 5 <g ref="#pcs"/></l></lg> <lg><l>Eṇṇiya <gap reason="ellipsis"/>
-    <lb n="4"/><gap reason="ellipsis"/></l> <l>naṇṇi <gap reason="ellipsis"/></l> <l>paṇṇi <gap reason="ellipsis"/>
-    <lb n="5"/><gap reason="ellipsis"/></l> <l>kaṇṇi <g ref="#pcs"/> 6 <g ref="#pcs"/></l></lg> <seg function="blessing">śrī<g rend="below-base">rāMa</g>ce<g rend="below-base">yaM</g> <g ref="#pcs"/></seg> 
+    <lb n="3"/><gap reason="ellipsis"/> <g ref="#pcs"/> 5 <g ref="#pcs"/><app><note xml:lang="en"><foreign xml:lang="ta">taṉiyaṉ</foreign> 5</note></app></l>
+    </lg></seg>
+    
+    <seg function="satellite-stanza"><lg>
+      <l>Eṇṇiya <gap reason="ellipsis"/> <lb n="4"/><gap reason="ellipsis"/></l>
+      <l>naṇṇi <gap reason="ellipsis"/></l>
+      <l>paṇṇi <gap reason="ellipsis"/> <lb n="5"/><gap reason="ellipsis"/></l>
+      <l>kaṇṇi <g ref="#pcs"/> 6 <g ref="#pcs"/><app><note xml:lang="en"><foreign xml:lang="ta">taṉiyaṉ</foreign> 6</note></app></l>
+    </lg></seg>
+    <seg function="blessing">śrī<g rend="below-base">rāMa</g>ce<g rend="below-base">yaM</g> <g ref="#pcs"/></seg> 
 
 </ab>
 </body></text><text synch="#U5" corresp="#T5" xml:lang="ta"><body>
