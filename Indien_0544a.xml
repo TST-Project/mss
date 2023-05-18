@@ -51,14 +51,14 @@
 										
 										
 									</dimensions><dimensions type="written" unit="mm"/></extent><collation><desc xml:id="U1">100 folios = <emph rend="bold"><title xml:lang="ta">Tivviyappirapantam</title> 2791-3892 = <title xml:lang="ta">Tiruvāymoḻi</title></emph>. Tamil foliation {1}, 2-100. 410 x 35 mm.</desc></collation><condition>Relatively good state of preservation. Some truncated folios.</condition></supportDesc>
-							<layoutDesc> </layoutDesc>
+							<layoutDesc> <layout>1 decade per folio, with blessing and decade number regularly as final centred line; decades sometimes distributed 1 stanza per line </layout></layoutDesc>
 						</objectDesc><handDesc>
 
 							
 						<handNote synch="#U1" scope="sole" script="tamil" medium="incised soot"><desc>Probably several hands.</desc></handNote></handDesc><additions/><bindingDesc>
 							<binding>
 								
-							<decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
+							<decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote><p>3 holes in f100, made before writing.</p></binding>
 						</bindingDesc></physDesc>
 					<history>
 						
@@ -66,7 +66,7 @@
 						
 					
 						<origin>
-							<origDate calendar="gregorian" notAfter="1886"/>
+							<origDate calendar="gregorian" notAfter="1861">Internally dated to the year <foreign xml:lang="sa">raudri</foreign> of the Jovian cycle, that is, CE 11860-1861, 1800-1801, 1740-1741, etc. See colophon (U1, <locus facs="202">f100v8</locus>).</origDate>
 							<origPlace>South India, Tamil Nadu.</origPlace>
 					</origin><provenance><p>Owned by <persName ref="https://catalogue.bnf.fr/ark:/12148/cb109559175" key="Haas, Frédéric (1843-1915)" role="collector">Frédéric Haas</persName> (1843-1915).</p></provenance><acquisition>                     
 							<p>Acquired, December 18th, 1886, from M. Haas. See BnF, département des Manuscrits, inventaire 2 = <title>Acquisitions: manuscrits et imprimés documentaires, 1848-1893</title>, no. 7881.</p>
@@ -117,6 +117,13 @@
     <lb n="1-3"/><gap reason="ellipsis"/> <lg><l><gap reason="ellipsis"/>
 <lb n="4"/>col</l> <l>nirai nirai yāyirat tivaipattum vīṭē <g ref="#pcl"/> <num rend="traditional">11</num> <g ref="#pcl"/></l></lg> <seg function="blessing">Āḻvār tiruvaṭikaḷē caraṇam <g ref="#pcl"/></seg> <seg function="TBC">1 | <g ref="#pcl"/><app><note xml:lang="en">decade number</note></app></seg>
 
+    <pb facs="5" n="2r"/>
+    
+    <pb facs="6" n="2v"/>
+     <lb n="1-3"/><gap reason="ellipsis"/>
+    <lb n="4"/><gap reason="ellipsis"/> <g ref="#pcl"/> <space/> <num rend="traditional">11</num> ~
+    <seg function="blessing"><lb n="5"/>Āḻvār tiruvaṭikaḷē caraṇam ~</seg><app><note xml:lang="en">centred line</note></app>
+    
       <pb facs="201" n="100r"/>
     <fw place="left-margin">
       <seg function="foliation"><lb n="1"/><add><num rend="traditional">100</num></add></seg>
@@ -139,15 +146,14 @@
       <seg function="blessing">Āḻvār tiruvaṭikaḷē carāṇam | 2 100+ | <g ref="#pcl"/></seg>
     <seg function="satellite-stanza">
       <lg>
-        <l><lb n="7"/><term xml:lang="sa">mātā pitā yuvatayas tanayā vibhūti</term></l>
-        <l><term xml:lang="sa">s s<gap reason="ellipsis"/></term></l>
-        <l><term xml:lang="sa"><gap reason="ellipsis"/></term></l>
-        <l><term xml:lang="sa"><gap reason="ellipsis"/></term> <g ref="#pcl"/><app><note xml:lang="en"><foreign xml:lang="ta">taṉiyaṉ</foreign></note></app></l>
+        <l><lb n="7"/><term xml:lang="sa">mātā pitā yuvatayas tanayā vibhūtis</term></l>
+        <l><term xml:lang="sa">sarvaṃ yadeva niyamena madanvayānāṃ</term> |</l>
+        <l><term xml:lang="sa">Ā<unclear>da</unclear>sya naḥ kulapater vakuḷābhirāmaṃ</term></l>
+        <l><term xml:lang="sa">śrīmat <unclear>tva</unclear>daṃghriyugaḷaṃ praṇamāmi mūrdhnā</term> | <g ref="#pcl"/><app><note xml:lang="en"><foreign xml:lang="ta">taṉiyaṉ</foreign></note></app></l>
         </lg>       
           </seg>
     <seg function="blessing"><lb n="8"/><term xml:lang="sa">hariḥ Ōm· Asmat· gurubhyo <gap reason="ellipsis"/> Aṇṇan·</term> tiruvaṭikaḷē cara<g rend="below-base">ṉaM</g> |</seg> <seg function="copy-statement"><term xml:lang="sa">raudri-nāma-saṃvatsaraṃ vaiśākhamāsaṃ</term> ~ <num rend="traditional">23</num> {tēti} <term xml:lang="sa">Ekādaśi</term> tiruvāymoḻi Eḻitiṉatu muṟṟum <g ref="#pcl"/></seg><app><note xml:lang="en">right-indented line</note></app>
       </seg>
-
     
     </ab>
 </body></text></TEI>
