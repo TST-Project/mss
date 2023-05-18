@@ -31,7 +31,12 @@
 						
 					<objectDesc form="pothi" rend="manuscript">
 							<supportDesc material="palm-leaf">
-								<extent>
+								
+
+
+								
+								
+							<support/><extent>
 									<measure unit="folio" quantity="26">26 (U1).</measure>
 									<dimensions type="leaf" unit="mm">
 
@@ -39,12 +44,7 @@
 										<width quantity="295"/>
 										<height quantity="35"/>
 									</dimensions>
-									<dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
-
-
-								<support/>
-								
-							<collation><desc xml:id="U1">26 folios = <emph rend="bold"><title xml:lang="ta">Irāmāṉucanūṟṟantāti</title></emph>. Tamil foliation {1}, 2-26. Unblackened. f26v blank. 295 x 35 mm.</desc></collation></supportDesc>
+									<dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent><collation><desc xml:id="U1">26 folios = <emph rend="bold"><title xml:lang="ta">Irāmāṉucanūṟṟantāti</title></emph>. Tamil foliation {1}, 2-26. Unblackened. f26v blank. 295 x 35 mm.</desc></collation></supportDesc>
 							<layoutDesc> </layoutDesc>
 						</objectDesc><handDesc>
 
@@ -56,11 +56,11 @@
 						
 						
 						
-					<origin>
+					
+						<origin>
 							<origDate calendar="gregorian" notAfter="1886">No internal date. </origDate>
 							<origPlace>South India, Tamil Nadu.</origPlace>
-					</origin><provenance><p>Owned by <persName ref="https://catalogue.bnf.fr/ark:/12148/cb109559175" key="Haas, Frédéric (1843-1915)" role="collector">Frédéric Haas</persName> (1843-1915).</p></provenance>
-						<acquisition>                     
+					</origin><provenance><p>Owned by <persName ref="https://catalogue.bnf.fr/ark:/12148/cb109559175" key="Haas, Frédéric (1843-1915)" role="collector">Frédéric Haas</persName> (1843-1915).</p></provenance><acquisition>                     
 							<p>Acquired, December 18th, 1886, from M. Haas. See BnF, département des Manuscrits, inventaire 2 = <title>Acquisitions: manuscrits et imprimés documentaires, 1848-1893</title>, no. 7881.</p>
 						</acquisition></history>
 					<additional>
@@ -86,9 +86,8 @@
 		<change when="2021-08">Record created by <persName>Emmanuel FRANCIS</persName>.</change><change when="2022-06">Revised by <persName>Emmanuel FRANCIS</persName>. Version 1, June 2022.</change><change when="2023-03">Revised by <persName>Emmanuel FRANCIS</persName>. Version 2, March 2023.</change></revisionDesc></teiHeader>
 
 	
-<facsimile><graphic url="https://didomena.ehess.fr/concern/data_sets/ns064d85j/manifest.json" facs="24"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta">
-		<body>
-          <ab>
+<facsimile><graphic url="https://didomena.ehess.fr/concern/data_sets/ns064d85j/manifest.json" facs="24"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+  <ab>
 
 			<pb facs="24" n="[1]r"/>
             
@@ -96,7 +95,23 @@
 			<lb n="1-2"/>nū<sic>tta</sic>ntāti</seg></fw>
 			
             <seg function="incipit">
-			<lb n="1"/>muṉṉai <gap reason="ellipsis"/></seg>
+              <seg function="satellite-stanza"><lg>
+      <l><lb n="1"/>muṉṉai viṉaiyakala mūṅkilk kuṭiyamu<sic>ti</sic>ṉ</l>
+      <l>poṉṉaṅ kaḻalkkamalap pōtiraṇṭu me<lb n="2" break="no"/>ṉṉuṭaiya</l>
+      <l>ceṉṉik kaṇiyākac cē<sic>tti</sic>ṉēṉ teṉpulattārk</l>
+      <l>k eṉṉilk kaṭavu<lb n="3" break="no"/>ṭaiyēṉ yāṉ |<app><note xml:lang="en"><foreign xml:lang="ta">taṉiyaṉ 1</foreign></note></app></l>
+    </lg></seg>
+              
+    <seg function="satellite-stanza"><lg>
+      <l>nayantaru pēriṉpamellām paḻutiṉṟi naṇṇiṉa<lb n="4" break="no"/>mpālc</l>
+      <l>cayantaru kīṟtti yirāmāṉucamuṉi tāḷiṉaimē</l>
+      <l>l uyarnta kuṇa<lb n="5" break="no"/>ttut tiruvaraṅkattamu tōṅkumaṉpā</l> 
+      <l>l i yampuṅ kalittuṟai yantāti yōtivicai ne<lb n="5" break="no"/>ñcamē | <app><note xml:lang="en"><foreign xml:lang="ta">taṉiyaṉ 2</foreign></note></app></l>
+    </lg></seg>
+    </seg>
+    <gap reason="ellipsis"/>
+      
+      <lb n="6"/><gap reason="ellipsis"/>
 
 			<pb facs="29" n="26r"/>
 			<seg function="explicit"><lb n="1-2"/>
