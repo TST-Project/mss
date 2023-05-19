@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title><title xml:lang="ta">Rāmāyaṇam</title> by <persName xml:lang="ta">Kampaṉ</persName> (vol. 1 of 2)</title>
+            <title><title xml:lang="ta">Rāmāyaṇam</title> by <persName xml:lang="ta">Kampaṉ</persName> (vol. 1 of 2): <title xml:lang="ta">Pālakāṇṭam</title></title>
          <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          
          <publicationStmt>
@@ -23,6 +23,15 @@
                <msContents class="#MVM">
                   <summary><p>The volume 1 of a 2-volume <title xml:lang="ta">Kamparāmāyaṇam</title> (BnF Indien 275-276).</p>
 <p>For volume 2, <ref target="https://tst-project.github.io/mss/Indien_0276.xml">BnF Indien 276</ref>.</p>
+<p>The present volume 1 contains:
+<list>
+  <item>A table of contents (f1r-f2v).</item>
+  <item>Invocations (f3r-f4r).</item>
+  <item>A special preface in 10 stanzas (<foreign xml:lang="ta">ciṟappuppāyiram</foreign>) (f4v-f6r).</item>
+  <item>The root-text of the <title xml:lang="ta">Pālakāṇṭam</title> (f6v-f239v).</item>
+  </list>
+</p>
+
 <p>Description based on the examination of the original manuscript (January 2021).</p>
 <p>Dimensions assessed at the time of examination.</p> </summary>
                   
@@ -79,7 +88,7 @@
       </fileDesc>
       <encodingDesc>
          
-      <p> <emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.              </p></encodingDesc>
+      <p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.              </p></encodingDesc>
       
    <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
@@ -90,8 +99,8 @@
   <ab>
     
   <pb facs="11" n="1r"/>
-    
-     <seg function="table-of-contents"><seg function="title"><lb n="1"/>kamparāmāya
+    <seg function="table-of-contents">
+     <seg function="title"><lb n="1"/>kamparāmāya
     <lb n="2" break="no"/>ṇam</seg>
    <lb n="3"/>vālakāṇṭam p-pāyirappaṭa
        <lb n="4" break="no"/>lam – virut=tam – – – <num rend="traditional">10</num> 
@@ -107,25 +116,51 @@
   <pb facs="15" n="2v"/>
     <lb n="1"/>kaṅkaippaṭalam – virut=tam – 71
     <lb n="2"/>tiruvaṭicūṭṭuppaṭalam – virut=tam –
-    <lb n="3"/><num rend="traditional">135</num></seg>
+    <lb n="3"/><num rend="traditional">135</num>
+    </seg>
   
   <pb facs="16" n="3r"/>
-    <seg function="title"><lb n="1"/>kamparāmāyaṇam<surplus>u</surplus></seg>
-    <seg function="incipit"><seg function="invocation"><lb n="2"/>nāṭiya poruḷ kaikūṭum ñāṉa
-    <lb n="3" break="no"/>mum pukaḻum uṇṭām <gap reason="ellipsis"/></seg></seg>
+    <seg function="title"><lb n="1"/>kamparāmāyaṇam<surplus>u</surplus><app><note xml:lang="en">centred line</note></app></seg>
+    
+    <seg function="incipit">
+      <seg function="invocation">
+        <lg>
+          <l><lb n="1"/>nāṭiya poruḷ kaikūṭum ñāṉa<lb n="2" break="no"/>mum pukaḻum uṇṭām</l>
+          <l>vīṭuyara vaḻi<lb n="3" break="no"/>yatarkkum vēriyaṅ kamala ṉōkku<lb n="4" break="no"/>m</l>
+          <l>nīṭiyavarkkar cēṉai nīṟu paṭ<lb n="5" break="no"/>ṭoḻiya vā<del><gap reason="illegible" quantity="1" unit="character"/></del>kai</l>
+          <l>cūṭiya cilaiyir <lb n="6" break="no"/>rāmaṉ ṟauvali kūruvōrkkē .</l>
+        </lg>
+      </seg>
+      <lb n="7"/>1 ~ kalaṅ <gap reason="ellipsis"/>
+    </seg>
   
   <pb facs="19" n="4v"/>
     <seg function="intertitle"><lb n="1"/>vālakāṇṭam
     <lb n="2"/>pāyirappaṭalam</seg>
+    <lb n="3"/>Ekaṇakku piṟanta <gap reason="ellipsis"/>
   
+      <pb facs="21" n="6r"/>  
+    <seg function="completion-statement"><lb n="16"/>ciṟappuppāyiram muṟṟum<app><note xml:lang="en">centred line</note></app></seg>
+
   <pb facs="22" n="6v"/>  
     <seg function="intertitle"><lb n="1"/>Avaiyaṭakkam
     <lb n="2"/>paṭalam</seg>
+    
+    <lg>
+      <l><lb n="1"/>Ulakami yāvaiyun tām uḷa vākki<lb n="2" break="no"/>lu</l>
+				<l>nilai peṟuttalu nīkkala nīṅkalā</l>
+				<l><lb n="3"/>valak<pc>'</pc> ilā viḷaiyāṭṭ<pc>'</pc> uṭaiyār avar</l>
+				<l><lb n="4"/>talaivar āyavaṟkē caṟaṇaṉkaḷē ~ 1 </l></lg>
   
   <pb facs="31" n="239v"/>
   
-     <seg function="explicit"><lb n="13"/><gap reason="ellipsis"/>
-    <lb n="14"/><num rend="traditional">50</num>. –</seg> <seg function="completion-statement">paracurāmappaṭalamuṟṟum –</seg>
+    
+       <lb n="9"/><gap reason="ellipsis"/> ~ 49 ~ 
+        <seg function="explicit"><lg>
+         <l>Āṉavaṉ pōṉa piṉ<lb n="10" break="no"/>ṉ aracar kō maka</l>
+         <l>ṉ ūṉam il pēr ara<lb n="11" break="no"/>cu yakku ṉāḷ iṭai</l>
+         <l>vāṉavar ceyta <lb n="12"/>mā tavam uṇṭ<pc>'</pc> ātalāl</l>
+         <l>mē ṉaṉi <lb n="13"/> nikaḻntaṉa viḷampuvām arō . __ <lb n="14"/><num rend="traditional">50</num>. __</l></lg></seg> <seg function="completion-statement">paracurāmappaṭalamuṟṟum __</seg>
   
     </ab>
 </body></text></TEI>
