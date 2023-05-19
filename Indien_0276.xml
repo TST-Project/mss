@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title><title xml:lang="ta">Rāmāyaṇam</title> by <persName xml:lang="ta">Kampaṉ</persName> (vol. 2 of 2)</title>
+            <title><title xml:lang="ta">Rāmāyaṇam</title> by <persName xml:lang="ta">Kampaṉ</persName> (vol. 2 of 2): <title xml:lang="ta">Ayōttiyākāṇṭam</title> and <title xml:lang="ta">Āraṇiyakāṇṭam</title></title>
          <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          
          <publicationStmt>
@@ -23,6 +23,15 @@
                <msContents class="#MVM">
                   <summary><p>The volume 2 of a 2-volume <title xml:lang="ta">Kamparāmāyaṇam</title> (BnF Indien 275-276).</p>
 <p>For volume 1, see <ref target="https://tst-project.github.io/mss/Indien_0275.xml">BnF Indien 275</ref>.</p>
+
+<p>The present volume 2 contains:
+<list>
+  <item>The root-text of the <title xml:lang="ta">Ayōttiyākāṇṭam</title>.</item><item>The root-text of the <title xml:lang="ta">Āraṇiyakāṇṭam</title>, up to the <title xml:lang="ta">Caṭāyuppaṭalam</title> (incomplete).</item>
+  </list>
+</p>
+
+
+
 <p>Description based on the examination of the original manuscript (January 2021).</p>
 <p>Dimensions assessed at the time of examination.</p> </summary>
                   
@@ -93,18 +102,41 @@
     <lb n="1"/>Ayōttiyā
     <lb n="2" break="no"/>kāṇṭam</seg>
     <seg function="intertitle"><lb n="3"/>nakarappaṭalam</seg>
-   <seg function="incipit"><lg><l><lb n="4"/>vā niṉṟ<pc>’</pc> iḻintu varamp<pc>’</pc> ikaḻnta
-  <lb n="5"/>māḻittatiṉ vaiy meṅku</l> <l>m<pc>-</pc>ūṉum
-  <lb n="4"/><gap reason="ellipsis"/></l></lg></seg>
+   <seg function="incipit">
+     <lg>
+       <l><lb n="4"/>vā ṉiṉṟ<pc>’</pc> iḻintu varamp<pc>’</pc> ikaḻnta <lb n="5"/>māḻittatiṉ vaiyam eṅku</l>
+       <l>m ūṉum u<lb n="5" break="no"/>yirum u<choice><sic>rṇa</sic><corr>ṇar</corr></choice>vum pōlum uḷḷum piṟa<lb n="6" break="no"/>ttum uḷaṉ eṉpaṉ</l>
+       <l>kūṉuñ ciṟi<lb n="7" break="no"/>ya kōt tāyuṅ koṭumai kuḻaippa<lb n="8" break="no"/>k kuṭai tuṟantu</l>
+       <l>kāṉum kaṭaluṅ kaṭa<lb n="9" break="no"/>nt<pc>'</pc> imaiyōr iṭukkaṇ kātta kaḻal vēntaṉ . __ 1 . __</l></lg></seg> vēṟu . __ <gap reason="ellipsis"/>
+    <lb n="10"/><gap reason="ellipsis"/>
 
-  
-  <pb facs="19" n="226v"/>
+  <pb facs="15" n="17r"/>
+    <seg function="completion-statement">
+    <lb n="1"/>mantirappaṭala muṟṟum . __</seg>
+<seg function="intertitle">
+    <lb n="2"/>cūṭcippaṭalam</seg>
+        <lb n="3"/><gap reason="ellipsis"/>
+
+    
+    <pb facs="15" n="219v"/>
+    <seg function="completion-statement">
+    <lb n="14"/>Akattiyappaṭala muṟṟum</seg>
+<seg function="intertitle">
+    <lb n="15"/>caṭāyuppaṭalam</seg>
+        <lb n="16"/><gap reason="ellipsis"/>
+    
+      <pb facs="19" n="226v"/>
     <seg function="explicit">
-    <lg><l><lb n="8"/><gap reason="ellipsis"/> – 39 –</l></lg> <lg><l>Un 
-     <lb n="9" break="no"/>tai y<pc>-</pc> uṇmaiyaiṉ ākki-y uñ ciṟ
-     <lb n="10" break="no"/>ṟavai</l> <l>tanta collai-t talai-k koṇ
-     <lb n="11" break="no"/>ṭu tāraṇi</l> <l>vanta tampikk<pc>’</pc> utavi
-     <lb n="12" break="no"/>ya vaḷḷalē</l></lg></seg>
+    <lg>
+      <l><lb n="8"/><gap reason="ellipsis"/> – 39 –</l>
+      </lg>
+      
+      <lg>
+        <l>Un<lb n="9" break="no"/>tai y<pc>-</pc> uṇmaiyaiṉ ākkiyuñ ciṟ<lb n="10" break="no"/>ṟavai</l>
+        <l>tanta collai-t talai-k ko<lb n="11" break="no"/>ṇṭu tāraṇi</l>
+        <l>vanta tampikk<pc>’</pc> utavi<lb n="12" break="no"/>ya vaḷḷalē<app><note xml:lang="en">the 4th line of this stanza is missing</note></app></l>
+      </lg>
+    </seg>
   
     </ab>
 </body></text></TEI>
