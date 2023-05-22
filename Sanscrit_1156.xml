@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><title xml:lang="sa">Kāśyapasaṃhitā</title></title>
+            
+         <editor><persName>Charles LI</persName><orgName>CNRS, CEIAS, UMR 8564</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2023</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Sanscrit 1156</idno>
+                  <idno type="alternate"><idno>Cordier médecine 8bis</idno></idno>
+               </msIdentifier>
+               <msContents class="#STM">
+                  <summary><p>This photographic reproduction of a Nepalese palm-leaf manuscript was made by Palmyr Cordier at the end of the 19<hi rend="superscript">th</hi> century. It documents a rare exemplar of the <title xml:lang="sa">Kāśyapasaṃhitā</title>, an important Ayurvedic treatise, of which there are only two fragmentary manuscripts extant. The manuscript which was photographed here seems to have been lost (Wujastyk 1998, 207).</p>
+<p>This item was previously miscatalogued as the <title xml:lang="sa">Kalyāṇasaṃgraha</title>, due to a misreading of Jean Fillozat's list of Cordier's manuscript collection. Filliozat also notes that the original glass plates from which these photographic prints were made are also extant (1934, <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k93324c/f173">171</ref>), although these plates have not yet been located.
+</p>
+<p>
+Sanscrit 1155 is a transcription of this manuscript, made by Cordier and Umeśacandra Gupta. They seem to emend the text.
+</p></summary>
+                  
+               <msItem defective="false"><title xml:lang="sa">Kāśyapasaṃhitā</title><textLang mainLang="san"/><rubric xml:lang="sa"><milestone facs="5" n="1r" unit="folio"/>
+<lb n="1"/>𑗁 oṃ namaḥ śivāyaḥ ||</rubric><incipit xml:lang="sa"><milestone facs="5" n="1r" unit="folio"/>
+<lb n="1"/><gap reason="ellipsis"/>athāto bhaiṣa<unclear>jo</unclear>pakramaṇīyaṃ vyākhyāma | </incipit><explicit xml:lang="sa"><milestone facs="153" n="38v" unit="folio"/>
+<lb n="6"/><gap reason="ellipsis"/>vala<unclear>yu</unclear>ktasya dīgne nityaṃ saṃśama<unclear>na</unclear> jayet || || </explicit></msItem></msContents>
+               <physDesc>
+                  
+                  
+                  
+                  
+                  
+               <objectDesc form="pothi" rend="photography">
+                     <supportDesc material="paper industrial">
+                        
+                        
+                        
+                        
+                        
+                     <support>
+                           <p>Photographic paper.</p>
+                        </support><extent>
+                           <measure unit="folio" quantity="76"/>
+                           <dimensions type="object" unit="mm">
+                              
+                              
+                           </dimensions>
+                           <dimensions type="leaf" unit="mm">
+                              <width quantity="155"/>
+                              <height quantity="25"/>
+                           </dimensions>
+                           <dimensions type="written" unit="mm">
+                              
+                              
+                           </dimensions>
+                        </extent><foliation>Each photograph is foliated 1A, 1B, 2A, 2B, etc.</foliation><condition>Good condition.</condition></supportDesc>
+                     <layoutDesc>
+                        
+                     <layout writtenLines="5 6"/></layoutDesc>
+                  </objectDesc><handDesc><handNote scope="sole" script="newa" medium="ink black"/></handDesc><additions>
+                  </additions><bindingDesc>
+                     <binding>
+                        
+                        <decoNote type="stringhole">
+                           <measure unit="stringhole" quantity="1"/>
+                        </decoNote>
+                    </binding>
+                  </bindingDesc></physDesc>
+               <history>
+                  
+                  
+                  
+               <origin>
+                     <origDate calendar="gregorian" when="1899"/>
+                     
+                  <origPlace>Calcutta</origPlace></origin><provenance><p>Photograph of manuscript brought by <persName role="collector">Haraprasāda Śāstrī</persName> from Kathmandu to Calcutta. Photographed in Calcutta by <persName role="collector">Palmyr Cordier</persName>.</p></provenance></history>
+               <additional>
+                  <listBibl>
+                     
+                    
+                  <bibl>Cabaton, Antoine. 1907-1908. <title xml:lang="fr">Catalogue sommaire des manuscrits sanscrits avec supplément manuscrit</title>. Paris: E. Leroux. Supplemented by <persName xml:lang="fr">Jean Filliozat</persName>. <ref target="https://gallica.bnf.fr/ark:/12148/btv1b10536321f/f218.item">282</ref>.</bibl><bibl>Filliozat, Jean. 1934. <title xml:lang="fr" type="article">Liste des manuscrits de la collection Palmyr Cordier conservés à la Bibliothèque Nationale</title>. <title xml:lang="fr">Journal asiatique</title> 224, <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k93324c/f157.item">155</ref>–<ref target="https://gallica.bnf.fr/ark:/12148/bpt6k93324c/f175.item">173</ref>.</bibl><bibl>Wujastyk, Dominik. 1998. <title>The Roots of Ayurveda: selections from Sanskrit medical writings.</title> New Delhi: Penguin.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc><p>IAST transliteration.</p></encodingDesc>
+      
+   <revisionDesc><change when="2023-05">First version.</change></revisionDesc></teiHeader>
+   <facsimile>
+   <graphic url="https://api.nakala.fr/data/10.34847/nkl.fcf10zso/80828802d2d6d9c7be8778f0496f4726231b7aa2"/></facsimile>
+</TEI>
