@@ -5,7 +5,7 @@
 		<fileDesc>
 			<titleStmt>
 				<title><title xml:lang="ta">Naṉṉeṟi</title></title>
-			</titleStmt>
+			<editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
 			<publicationStmt>
 				<publisher>TST Project</publisher>
 				<date>2023</date>
@@ -23,7 +23,7 @@
 						<summary><p>The <title xml:lang="ta">Naṉṉeṟi</title>. See <title>Madars Tamil Lexicon</title>, s.v. <foreign xml:lang="ta">naṉṉeṟi</foreign>: <quote rend="block">நன்னெறி <emph rend="bold">naṉṉeṟi</emph> , n.  id. +. 1. Righteous conduct, path of  virtue, moral life; சன் மார்க்கம். ஏமஞ்சார் நன்னெறியுஞ் சேர்கலார்  (நாலடி, 327). 2. A didactic poem of 40 stanzas composed by  Civa-p-pirakāca-muṉivar, 17th c.; 17-ஆம் நூற்றாண்டிலிருந்த  சிவப்பிரகாசமுனிவரியற்றிய ஒரு நீதிநூல்.</quote></p>
 <p>Text and commentary (1 stanza followed by its commentary).</p>
 <p>Incomplete: the manuscript starts in the middle of the commentary ad stanza 3.</p>
-<p><emph rend="bold">Paratexts</emph>: running title on left margin.</p>
+
 
 <p>Description based on the examination of the original manuscript (August 2021).</p>
 <p>Dimensions assessed at the time of examination.</p>      </summary>
@@ -36,7 +36,12 @@
 						
 					<objectDesc form="pothi" rend="manuscript">
 							<supportDesc material="palm-leaf">
-								<extent>
+								
+
+								
+								
+								
+							<extent>
 									<measure unit="folio" quantity="21">20 + {1} (U1 + U2).</measure>
 									<dimensions type="leaf" unit="mm">
 
@@ -48,18 +53,12 @@
 										<width quantity="440"/>
 										<height quantity="25"/>
 										<depth quantity="10"/>
-									</dimensions><dimensions type="written" unit="mm"/></extent>
-
-								
-								
-								
-							<collation><desc xml:id="U1">20 folios = <emph rend="bold"><title xml:lang="ta">Naṉṉeṟi</title>: Text &amp; Commentary</emph>. Tamil foliation 43-51<hi rend="superscript">1</hi>, 51<hi rend="superscript">2</hi>-62. 295 x 35 mm. f43, f55, f58 truncated. f62v blank.</desc><desc xml:id="U2">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso.</desc></collation><condition>Relatively good state of preservation. A few boreholes and truncation.</condition></supportDesc>
+									</dimensions><dimensions type="written" unit="mm"/></extent><collation><desc xml:id="U1">20 folios = <emph rend="bold"><title xml:lang="ta">Naṉṉeṟi</title>: Text &amp; Commentary</emph>. Tamil foliation 43-51<hi rend="superscript">1</hi>, 51<hi rend="superscript">2</hi>-62. 295 x 35 mm. f43, f55, f58 truncated. f62v blank.</desc><desc xml:id="U2">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso.</desc></collation><condition>Relatively good state of preservation. A few boreholes and truncation.</condition></supportDesc>
 							
 						</objectDesc><handDesc>
 
 							
-						<handNote synch="#U1" scope="sole" script="tamil" scriptRef="#tamilPulliRegular #tamilOE" medium="incised soot"/></handDesc><additions><desc synch="#U2">BnF register information, in black ink:
-<quote>R.C. 7881</quote> (<locus facs="19">f[1]v</locus>).</desc><desc synch="#U2" type="shelfmark">BnF shelfmark sticker: <quote>INDIEN 546</quote> (<locus facs="19">f[1]v</locus>).</desc></additions><bindingDesc>
+						<handNote synch="#U1" scope="sole" script="tamil" scriptRef="#tamilPulliRegular #tamilOE" medium="incised soot"/></handDesc><additions><desc synch="#U1" type="title" subtype="marginal running left">Left-marginal running title on rectos.</desc><desc synch="#U2">BnF register information, in black ink: <quote>R.C. 7881</quote> (<locus facs="19">f[1]v</locus>).</desc><desc synch="#U2" type="shelfmark">BnF shelfmark sticker: <quote>INDIEN 546</quote> (<locus facs="19">f[1]v</locus>).</desc></additions><bindingDesc>
 							<binding>
 								<p>No woodcovers. </p>
 							<decoNote type="stringhole"><measure unit="stringhole" quantity="1"/></decoNote></binding>
@@ -68,16 +67,16 @@
 						
 						
 						
+					
+						
+						
+						
 					<origin>
 							<origDate calendar="gregorian" notAfter="1886">No internal date. </origDate>
 							<origPlace>South India, Tamil Nadu.</origPlace>
-					</origin>
-						<provenance><p>Owned by <persName ref="https://catalogue.bnf.fr/ark:/12148/cb109559175" key="Haas, Frédéric (1843-1915)" role="collector">Frédéric Haas</persName> (1843-1915).</p></provenance>
-						
-						<acquisition>                     
+					</origin><provenance><p>Owned by <persName ref="https://catalogue.bnf.fr/ark:/12148/cb109559175" key="Haas, Frédéric (1843-1915)" role="collector">Frédéric Haas</persName> (1843-1915).</p></provenance><acquisition>                     
 							<p>Acquired, December 18th, 1886, from M. Haas. See BnF, département des Manuscrits, inventaire 2 = <title>Acquisitions: manuscrits et imprimés documentaires, 1848-1893</title>, no. 7881.</p>
-						</acquisition>
-					</history>
+						</acquisition></history>
 					<additional>
 						<listBibl>
 
@@ -106,8 +105,10 @@
     
   <pb facs="4" n="43r"/>
   	<fw place="left-margin">
+      <seg function="foliation">
+  <lb n="1"/><g ref="#pcs"/> <num rend="traditional">44</num></seg>
   <seg function="title">
-  <lb n="1"/>naṉṉeṟi</seg>
+  <lb n="2"/>naṉṉeṟi</seg>
       </fw>
   
   <seg function="incipit" type="commentary">
@@ -126,19 +127,21 @@ ceyyāk karuṅkaṭalnīr ceṉṟu puyalmukantu</supplied></l> <l><supplied re
   
     <pb facs="8" n="61r"/>
   
-  <pb facs="8" n="61v"/>
+  <pb facs="11" n="61v"/>
   	<lb n="2"/><gap reason="ellipsis"/> <g ref="#pcl"/> <num rend="traditional">39</num> <g ref="#pcl"/>
-  <seg function="explicit" type="root-text"><lg><l><lb n="3"/>poṉṉaṇiyum vēntar puṉaiyāp peruṅkalvi ~</l> <l>maṉṉum aṟiñaraittām maṟṟevvār ~ miṉṉumaṇi |</l> <l>pūṇum piṟavuṟuppaip poṉṉē <hi rend="superscript">y<pc>-a</pc></hi>tu
+  <seg function="explicit" type="root-text"><lg><l><lb n="3"/>poṉṉaṇiyum vēntar puṉaiyāp peruṅkalvi ~</l> <l>maṉṉum aṟiñaraittām maṟṟevvār ~ miṉṉumaṇi |</l> <l>pūṇum piṟavuṟuppaip poṉṉē <add>y<pc>-a</pc></add>tu
   <lb n="4" break="no"/>puṉaiyāk ~</l>
 <l>kāṇuṅ kaṇṇōkkumō kāṇ <g ref="#pcl"/></l></lg></seg> I<ex>taṉ</ex> ~ <ex>poru</ex>ḷ ||
   
-  <pb facs="8" n="62r"/>
+  <pb facs="14" n="62r"/>
   	<fw place="left-margin">
+       <seg function="foliation">
+  <lb n="1"/><num rend="traditional">62</num></seg>
   <seg function="title">  	
-  <lb n="1"/>naṉṉeṟi</seg></fw>
+  <lb n="2"/>naṉṉeṟi</seg></fw>
     
   	<seg function="explicit" type="commentary"><lb n="1-2"/><gap reason="ellipsis"/> ~ E<ex>ṉṟa</ex> ~ <ex>vā</ex>ṟu ~ maṟṟu Acai</seg> <g ref="#pcl"/> <num rend="traditional">40</num> <g ref="#pcs"/>
-  <seg function="completion-statement"><lb n="3"/><app><note xml:lang="en">centred line</note></app> naṉṉeṟiyurai muṟṟappeṟṟatu</seg>
+  <seg function="completion-statement"><lb n="3"/> naṉṉeṟiyurai muṟṟappeṟṟatu</seg><app><note xml:lang="en">centred line</note></app>
 
     </ab>
 </body></text></TEI>
