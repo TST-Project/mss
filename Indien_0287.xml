@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title><title xml:lang="ta">Rāmāyaṇam</title> (prose summary)</title>
+            <title><title xml:lang="ta">Rāmāyavācakam</title></title>
          <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
@@ -20,7 +20,7 @@
                   <idno type="alternate"><idno>Tamoul 287</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103817k</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b52515657v</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary><p>An incomplete prose summary of the <title xml:lang="ta">Rāmāyaṇam</title>.</p>
+                  <summary><p>An incomplete <title xml:lang="ta">Rāmāyavācakam</title>, that is, a Tamil prose summary of the <title xml:lang="ta">Rāmāyaṇa</title>.</p>
 
 <p>Description based on the examination of the original manuscript (**** 2023).</p>
 <p>Dimensions assessed at the time of examination.</p></summary>
@@ -93,12 +93,20 @@
   <lb n="4"/>1</seg>
     </fw>
        
-      <seg function="incipit"><lb n="1"/><gap reason="ellipsis"/></seg>
+      <seg function="incipit">
+        <lb n="1"/>tēvarīr śrīpātan tikku nōkkit teṇṭaṉ paṇṇi Aṭiyēṉ vipūsaṇaṉ teṇṭan iṭṭu viṇṇap
+        <lb n="2" break="no"/>pam ceyyap piṟ tēvarīr tiruviḷap piṟacātam uṇṭāṉa paṭiyiṉālē <gap reason="ellipsis"/></seg>
     
+      <pb facs="128" n="75v"/>
     
-      <pb facs="356" n="194v"/>
-    <lb n="1-7"/><gap reason="ellipsis"/>
-    <seg function="explicit"><lb n="8"/><gap reason="ellipsis"/><app><note xml:lang="en">the text stops short here</note></app></seg>
+      <pb n="75r"/><app><note xml:lang="en">folio 75 missing in the bundle "BnF Indien 287", but found in the bundle <ref target="https://tst-project.github.io/mss/Indien_0288.xml">BnF Indien 288</ref>, U1, <ref target="https://gallica.bnf.fr/ark:/12148/btv1b525150581/f3">f76</ref></note></app>
+
+      <pb facs="129" n="77r"/>
+
+          <pb facs="356" n="194v"/>
+    <lb n="1-6"/><gap reason="ellipsis"/>
+    <seg function="explicit"><lb n="7"/><gap reason="ellipsis"/> Aṉuppi vipūṣaṇaṉai yilaṅkaikkup pōm eṉṟu tiruviḷam paṟṟa Aṭiyēṉ
+    <lb n="8"/>tēvarīr pāta cērvai paṇṇik koṇṭu yirukkuṟēṉ eṉṟu viṇṇappañ ceyyak kēṭṭu yilaṅkaiyai rāvaṇaṉ Āṇṭāl Ā<app><note xml:lang="en">the text stops short here</note></app></seg>
 
 </ab>
 </body></text></TEI>
