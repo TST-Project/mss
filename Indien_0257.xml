@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><title xml:lang="ta">Pākavatam</title> (vol. 1 of 2)  </title>
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2023</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Indien 257</idno>
+                  <idno type="alternate"><idno>Tamoul 257</idno></idno>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103790c</idno><idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103790c/cN10033</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b10029580k</idno></msIdentifier>
+               <msContents class="#MVM">
+                  <summary><p>The first volume of a 2-volume <title xml:lang="ta">Pākavatam</title>, that is a Tamil prose version of the <title xml:lang="sa">Bhāgavatapurāṇa</title>.</p>
+<p>The second volume is <ref target="https://tst-project.github.io/mss/Indien_0258.xml">BnF Indien 258</ref>.</p>
+
+<p>Description based on the examination of the original manuscript (**** 2023).</p>
+<p>Dimensions assessed at the time of examination.</p>    </summary>
+                  
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Pākavatam 1-8: Mūlam</title><textLang mainLang="tam"/></msItem></msContents>
+               <physDesc>
+                  
+                  
+                  
+                  
+               <objectDesc form="codex" rend="manuscript">
+                     <supportDesc material="paper">
+                        
+                        
+                        
+                     <extent>
+                           <measure unit="folio" quantity="310">310 (U1).</measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           </dimensions>
+                           <note>The leaves are broader in their middle than at their edges. </note>
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">307 folios = <emph rend="bold"><title xml:lang="ta">Pākavatam 1-8</title>: Text</emph>. Arabic foliation 1-307.
+
+
+</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation></supportDesc>
+                     <layoutDesc>
+                        
+                     </layoutDesc>
+                  </objectDesc><handDesc>
+                     
+                  <handNote synch="#U1" scope="major" script="tamil" medium="ink black"><desc>Hand  #1.</desc></handNote></handDesc><additions><desc synch="#CoverFront" type="ownership-statement" subtype="cover front">Ownership statement <quote>Mss de M<hi rend="superscript">r</hi> <del><gap reason="illegible"/></del> Sonnerat</quote> (<locus facs="2">front cover, verso</locus>).</desc><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 257</quote> (<locus facs="2">front cover, verso</locus>).</desc></additions><bindingDesc>
+                     <binding>
+                        <p><material>Leather</material> covers.</p>
+                     <decoNote type="stringhole"><measure unit="stringhole"/></decoNote></binding>
+                  </bindingDesc></physDesc>
+               <history>
+                  
+                  
+               <origin>
+                     <origDate calendar="gregorian" notAfter="1814">Dated to circa 1750 by Vinson (1866-1867) and to 1750 by Cabaton (1912), on unstated grounds (presumably palaeographical and material analysis arguments).
+Not after 1814, date of the death of Pierre Sonnerat.</origDate>
+                     <origPlace>South India, Tamil Nadu.</origPlace>
+                  </origin><provenance><p>Owned by <persName role="collector" key="Sonnerat, Pierre">Pierre Sonnerat</persName> (1818-1854).</p></provenance><acquisition>
+                     <p>Unknown.</p>
+                  </acquisition></history>
+               <additional>
+                  <listBibl>
+                     
+                     
+                  <bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois et malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f58">p. 40, no. 257-258</ref>.</bibl><bibl>Vinson, Julien. 1866-1867. <title>Catalogue tamoul</title>. Handwritten descriptions of BnF manuscripts “Tamoul 4-496” (new shelfmark “Indien 4-496”). BnF Indien 1061 (nos. 4-132), BnF Indien 1062 (nos. 133-204), BnF Indien 577 (nos. 205-496). — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f135">BnF Indien 577, f. 60r, no. 257-258</ref>.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      
+   <encodingDesc><p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.              </p></encodingDesc><xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
+         
+      <change when="2023-05">Record created by <persName>Emmanuel FRANCIS</persName>.</change></revisionDesc></teiHeader>
+   
+<facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10029580k/manifest.json"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+  <ab>
+    
+  <pb facs="21" n="1r"/>
+  
+       <lb n="1"/>
+     <lb n="2"/>
+     <lb n="3"/>
+    
+  <pb facs="633" n="307r"/>
+
+</ab>
+</body></text></TEI>
