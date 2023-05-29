@@ -21,8 +21,10 @@
                   <idno type="alternate"><idno>Tamoul 73</idno><idno>Velanguani Arokium 13</idno><idno>62</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1034865</idno><idno type="URI">https://didomena.ehess.fr/concern/data_sets/cc08hp441</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary><p>The <title xml:lang="ta">Nīticāram</title>, “The gist of moral teachings”, a collection moral or didactic stanzas. An incomplete copy (the text stops abruptly in U2, f49v4) in 74 stanzas, with gaps. Each stanza is followed by its commentary.</p>
-<p>Description based on the examination of the original manuscript (October 2020 and March 2022).</p> <p>Dimensions assessed at the time of examination.</p> </summary>
+                  <summary><p>The <title xml:lang="ta">Nīticāram</title>, “The gist of moral teachings”, also named  <title xml:lang="ta">Nīticākaram</title> in the manuscript, that is, a collection moral or didactic stanzas. An incomplete copy (the text stops abruptly in U2, f49v4) in 74 stanzas, with gaps. Each stanza is followed by its commentary.</p>
+
+<p>Description based on the examination of the original manuscript (October 2020 and March 2022).</p>
+<p>Dimensions assessed at the time of examination.</p> </summary>
                   
                <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Statement to user</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta">Nīticāram: Kāppu</title><textLang mainLang="tam"/><filiation><p><list><item>BnF Indien 72, U1</item><item>GOML D. 180</item></list></p></filiation></msItem><msItem synch="#U3" xml:id="T3" defective="true"><title xml:lang="ta">Nīticāram: Mūlam &amp; Urai</title><textLang mainLang="tam"/><filiation><p>BnF Indien 72, U2</p></filiation></msItem></msContents>
                <physDesc>
@@ -115,10 +117,11 @@
   <pb facs="9" n="[1]r"/>
     <app><note xml:lang="en">centred lines</note></app>
   
-    <seg function="TBC"><lb n="1"/><placeName xml:lang="ta" key="Tranquebar">tayaṅkam<subst>p<del>a</del><add place="above">ā</add></subst>ṭi</placeName> y<pc>-</pc>irukkum
+    <seg function="documenting-note">
+      <seg function="ownership-statement"><lb n="1"/><placeName xml:lang="ta" key="Tranquebar">tayaṅkam<subst>p<del>a</del><add place="above">ā</add></subst>ṭi</placeName> y<pc>-</pc>irukkum
     <lb n="2"/><persName xml:lang="ta" role="owner" key="Śrīnivāsa"><persName xml:lang="ta" role="TBC" key="Akilāṇṭappiḷḷai">Ayalāṇṭa{piḷḷai}</persName> kumāraṉ
-    <lb n="3"/>ciṉivācaṉ</persName> <seg function="title">nīticākaram</seg>
-    <lb n="4"/>Eṭut=tavaṉ pāt=tu kuṭuk=ka vēṇum</seg>
+    <lb n="3"/>ciṉivācaṉ</persName> <title>nīticākaram</title></seg>
+    <lb n="4"/>Eṭut=tavaṉ pāt=tu kuṭuk=ka vēṇum<app><note xml:lang="en">lending-borrowing formula</note></app></seg>
   
     <pb n="[1]v"/><app><note xml:lang="en">blank page</note></app>
 
