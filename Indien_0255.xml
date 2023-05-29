@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title><title xml:lang="ta">Pākavatam</title> (vol. 2 of 2)  </title>
+            <title><title xml:lang="ta">Pākavatam</title> (vol. 1 of 2: Kāṇṭam 1-7)  </title>
          <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
@@ -20,7 +20,7 @@
                   <idno type="alternate"><idno>Tamoul 255</idno><idno>Ariel ?</idno><idno>b/5</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103788b</idno><idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103788b/ca59747980270921</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b52516444p</idno></msIdentifier>
                <msContents class="#MVM">
-                  <summary><p>The first volume of a 2-volume <title xml:lang="ta">Pākavatam</title>, that is a Tamil prose version of the <title xml:lang="sa">Bhāgavatapurāṇa</title>.</p>
+                  <summary><p>The first volume of a 2-volume  <title xml:lang="ta">Pākavatam</title>, that is, a Tamil prose version of the <title xml:lang="sa">Bhāgavatapurāṇa</title>. This Tamil version appears to be by <persName xml:lang="ta" role="author">Ciṉṉaiyavāttiyār</persName>, based on the Telugu version by <persName xml:lang="ta" role="author">Timmayyaṉ</persName>.</p>
 <p>The second volume is <ref target="https://tst-project.github.io/mss/Indien_0254.xml">BnF Indien 254</ref>.</p>
 
 <p>Description based on the examination of the original manuscript (**** 2023).</p>
@@ -62,7 +62,7 @@
                   
                   
                <origin>
-                     <origDate calendar="gregorian" notAfter="1854">Internally dated to ...
+                     <origDate calendar="gregorian" notAfter="1854">Volume 2 of 2 internally dated to the year <foreign xml:lang="ta">kuṟōtaṉa</foreign> of the Jovian cycle, that is, CE 1805-1806, 1745-1746, etc. See colophon (BnF Indien 254, U2, f401r2).
 Dated to circa 1745 by Vinson (1866-1867) on the basis of the colophon and to 1745 by Cabaton (1912).
 Not after 1854, since part of the collection of <persName role="collector" key="Ariel, Édouard">Édouard Ariel</persName> (1818-1854), bequeathed in 1855 to the Société Asiatique, Paris (Rosny 1868).</origDate>
                      <origPlace>South India, Tamil Nadu.</origPlace>
@@ -89,7 +89,7 @@ Not after 1854, since part of the collection of <persName role="collector" key="
   <pb facs="1" n="[1]r"/>
   
    <seg function="title">
-     <lb n="1"/>ciṉṉaiyavāttiyār
+     <lb n="1"/><persName xml:lang="ta" role="author">ciṉṉaiyavāttiyār</persName>
      <lb n="2"/>śrī ~ pākavatam ~
      <lb n="3"/>kāṇṭam ~ 7 ~
 </seg>
@@ -101,9 +101,43 @@ Not after 1854, since part of the collection of <persName role="collector" key="
   <ab>
     
   <pb facs="5" n="1r"/>
-  
+    <seg function="foliation"><cb n="1"/><lb n="1"/>mutal yēṭu</seg>
+    <seg function="blessing"><cb n="2"/><lb n="1"/><g ref="#pcl"/> śrī<g rend="below-base">rāMa</g>ce<g rend="below-base">yaM</g></seg>
+
+      <pb facs="6" n="1v"/><app><note xml:lang="en">blank page</note></app>
+
+  <pb facs="7" n="2r"/>
+    <cb n="1"/>
+    <cb n="2"/>
+    <cb n="3"/>
       
-    <pb facs="112" n="4v"/><app><note xml:lang="en">blank page</note></app>
+  <pb facs="8" n="2v"/>
+    <cb n="1"/>
+    <cb n="2"/>
+    <cb n="3"/>
+        
+  <pb facs="9" n="3r"/>
+    <cb n="1"/>
+    <cb n="2"/>
+    <cb n="3"/>
+      
+  <pb facs="10" n="3v"/>
+    <cb n="1"/>
+    <cb n="2"/>
+    <cb n="3"/>
+    
+    <pb facs="11" n="3r"/>
+    <cb n="1"/>
+    <lb n="1-4"/><gap reason="ellipsis"/>
+    <lb n="5"/>{Āka} katai = 9 = 
+    <cb n="2"/>
+    <seg function="commenting-note"><lb n="1"/>{Āka} paṉireṇṭu kān=tamumāṉa ~ pākavatapuṟāṇamāṉa ~ makāpuṇṇiya-carit=tiram ~ yin=ta puṟāṇattai ~ <gap reason="ellipsis"/> kēṭṭa
+    <lb n="2" break="no"/>varkaḷ ~ yeḻutiṉa pērkaḷukku ~ śrīmakāviṣṇṇuuvuṭaiya ~ kiṟupā-kaṭāṣṣat=tuṉālē ~ cakala-pāpaṅkaḷum pōyi ~ <gap reason="ellipsis"/>
+     <lb n="3" break="no"/><gap reason="ellipsis"/> ~ yiruntu ~ ñāṉotayamāṉa ~ śrīmakāviṣṇṇu ~ tiruvaṭikaḷai yaṭaivārkaḷ eṉṟu ~ śrīcukayōki ~ pariṣṣit=tukku coṉ
+    <lb n="4" break="no"/>ṉār eṉṟu ~ cūtar cavuṉakar mutalāṉa ~ yirupat=tāṟāyiram riṣiyaḷukku ~ naiyamicāraṇṇiyattil naiyamicāraṇṇiyattilē ~ collak kēṭṭu ~ pakavaṉuṭaiya ~
+<lb n="5"/>Aṉukkiṟakam pettārkaḷ <g ref="#pcl"/><app><note xml:lang="en">benefit statement</note></app></seg> <seg function="blessing">śrī-kiṣṇṇa-cakā<g rend="below-base">yaM</g> Uṇṭāka<g rend="below-base">vuM</g> <g ref="#end_of_text"/></seg>
+   
+    <pb facs="12" n="4v"/><app><note xml:lang="en">blank page</note></app>
 
 </ab>
 </body></text><text synch="#U3" corresp="#T3" xml:lang="ta"><body>
@@ -124,12 +158,14 @@ Not after 1854, since part of the collection of <persName role="collector" key="
        </fw>
   
   <seg function="incipit">
-  <lb n="1"/></seg>
+  <lb n="1"/>śrīvētaviyācaruṭaiya ~ pātapattumaṅkaḷukku ~ namaṣkkāram paṇṇi ~ śrīmakāpākavatam  ~ paṉṉireṇṭu kān=taṅkaḷum ~ tamiḻ vacaṉat=tiṉālē ~ teḷivāka yeḻutukuṟōm ~ yin=tap puṟāṇakataikaḷukku ~ <gap reason="ellipsis"/></seg>
     <lb n="2-8"/><gap reason="ellipsis"/>
    
     <pb facs="397" n="194r"/>
-     <lb n="1-3"/><gap reason="ellipsis"/>
-     <lb n="4"/>
+     <seg function="explicit"><lb n="1-4"/><gap reason="ellipsis"/>
+     <lb n="5"/>riṣikaḷukku coṉṉār ~</seg> <seg function="completion-statement">yin=ta yēḻāvatu kānta mu<sic>ṣt=tu</sic>m <g ref="#pcl"/></seg> <seg function="blessing">śrīkiṣṇṇacakāyam Uṇṭāka tākavēṇum ~ śrī<g rend="below-base">rāMa</g>ce<g rend="below-base">yaM</g> ~ śrīvīraṟākuvar kiṟupā-kaṭāṣṣam Uṇṭāka tākavēṇum ~ śrīvēṅkiṭācalapati kiṟupā-kaṭāṣṣam
+    <lb n="6"/>Uṇṭāka tākavēṇum ~ śrīmakālaṣṣimi-kiṟupā-kaṭāṣṣam Uṇṭāka tākavēṇum ~</seg> <seg function="copy-statement">cūḻai ceṉṉappaṉ yeḻutiṉa yēḻāvatu kāntam ~ yeḻuti niṟaiñcutu ~</seg> <seg function="blessing">ñāṉatēcikaṉ tiruvaṭikaḷē caṟaṇam <g ref="#pcl"/> ~ śrī<g rend="below-base">rāMa</g>ce<g rend="below-base">yaM</g> <g ref="#pcl"/></seg>
+
       
       <pb facs="398" n="194v"/><app><note xml:lang="en">blank page</note></app>
 
