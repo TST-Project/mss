@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title><title xml:lang="ta">Pākavatam</title> (vol. 1 of 2)  </title>
+            <title><title xml:lang="ta">Pākavatam</title> (vol. 1 of 2: Kāṇṭam 1-8) </title>
          <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
@@ -20,7 +20,7 @@
                   <idno type="alternate"><idno>Tamoul 257</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103790c</idno><idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103790c/cN10033</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b10029580k</idno></msIdentifier>
                <msContents class="#MVM">
-                  <summary><p>The first volume of a 2-volume <title xml:lang="ta">Pākavatam</title>, that is a Tamil prose version of the <title xml:lang="sa">Bhāgavatapurāṇa</title>.</p>
+                  <summary><p>The first volume of a 2-volume <title xml:lang="ta">Pākavatam</title>, that is, a Tamil prose version of the <title xml:lang="sa">Bhāgavatapurāṇa</title>.</p>
 <p>The second volume is <ref target="https://tst-project.github.io/mss/Indien_0258.xml">BnF Indien 258</ref>.</p>
 
 <p>Description based on the examination of the original manuscript (**** 2023).</p>
@@ -44,16 +44,20 @@
                               
                            </dimensions>
                            <note>The leaves are broader in their middle than at their edges. </note>
-                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">307 folios = <emph rend="bold"><title xml:lang="ta">Pākavatam 1-8</title>: Text</emph>. Tamil pagination {1}, 2-620. p613-p620 blank. Arabic foliation 1-307, 308 [crossed-out]. f308 blank.
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="u1"/><desc xml:id="U1">307 folios = <emph rend="bold"><title xml:lang="ta">Pākavatam 1-8</title>: Text</emph>. Tamil pagination {1}, 2-620. p613-p620 blank. Arabic foliation 1-307, 308 [crossed-out]. f308 blank.
 
 
-</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation></supportDesc>
+</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc><desc xml:id="u2"/></collation></supportDesc>
                      <layoutDesc>
                         
                      </layoutDesc>
                   </objectDesc><handDesc>
                      
-                  <handNote synch="#U1" scope="major" script="tamil" medium="ink black"><desc>Hand  #1.</desc></handNote></handDesc><additions><desc synch="#CoverFront" type="ownership-statement" subtype="cover front">Ownership statement <quote>Mss de M<hi rend="superscript">r</hi> <del><gap reason="illegible"/></del> Sonnerat</quote> (<locus facs="2">front cover, verso</locus>).</desc><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 257</quote> (<locus facs="2">front cover, verso</locus>).</desc></additions><bindingDesc>
+                  <handNote synch="#U1" scope="major" script="tamil" medium="ink black"><desc>Hand  #1.</desc></handNote></handDesc><additions><desc synch="#CoverFront" type="ownership-statement" subtype="cover front">Ownership statement <quote>Mss de M<hi rend="superscript">r</hi> <del>S<gap reason="illegible"/></del> Sonnerat</quote> (<locus facs="2">front cover, verso</locus>).</desc><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 257</quote> (<locus facs="2">front cover, verso</locus>).</desc><desc synch="#u1" type="shelfmark">BnF old shelfmark in black pencil: <quote>Tamoul N° 257</quote> (<locus facs="3">f[1]r</locus>).</desc><desc synch="#u1">TBC in black ink (<locus facs="3">f[1]r</locus>): 
+<quote rend="block">
+  <lb n="1"/>Aliya kalliya <gap reason="ellipsis"/>cupa
+  <lb n="2"/>cōpaṉam.
+</quote></desc></additions><bindingDesc>
                      <binding>
                         <p><material>Leather</material> covers.</p>
                      <decoNote type="stringhole"><measure unit="stringhole"/></decoNote></binding>
@@ -85,15 +89,28 @@ Not after 1814, date of the death of Pierre Sonnerat.</origDate>
 <facsimile><graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10029580k/manifest.json"/></facsimile><text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   <ab>
     
-  <pb facs="21" n="1r"/>
+  <pb facs="21" n="1r = p. [1]"/>
   
-     <lb n="1"/>
-     <lb n="2"/>
-     <lb n="3"/>
+     <seg function="blessing"><lb n="1"/><g ref="#pcs"/>civamaya<seg rend="grantha">m</seg><g ref="#pcl"/></seg>
+     <seg function="intertitle"><lb n="2"/>pāyiram ~ {mutal} ~ kāntam.</seg>
+     
+       <seg function="incipit"><lb n="3"/>vittuvāṉ vākkiyam.
+       <lb n="4"/>śrīvētaviyācaru<surplus>k</surplus>k=ku namaskāram pa
+       <lb n="5" break="no"/>ṇṇi . śrīmākapākavatam paṉiraṇṭu
+       <lb n="6"/>skāntaṅkaḷum ~ tamiḷ va<add place="above">ca</add>ṉa<del><gap reason="illegible" quantity="1" unit="character"/></del>ttilē
+       <lb n="7"/>teḷivāka . Eḻutukuṟattukk’ oru vi
+       <lb n="8" break="no"/>kkiṉam <gap reason="ellipsis"/>
+       <lb n="9-12"/><gap reason="ellipsis"/>
+       <lb n="13"/>koṇṭu . Eḻutukuṟōm <g ref="#pcs"/>
+       <lb n="14"/>pākavatam piṟakācam <gap reason="ellipsis"/></seg>
+       <lb n="15ff."/><gap reason="ellipsis"/>
+
+       <pb facs="633" n="307r = p. 613"/>
     
-  <pb facs="633" n="307r"/>
-    
-      <lb n="12"/>
+      <seg function="explicit"><lb n="10"/><gap reason="ellipsis"/> coṉṉār eṉṟu cūtar cavu
+       <lb n="11" break="no"/>ṉakar mutalāṉa riṣikaḷukkuc coṉṉār</seg>
+       <seg function="completion-statement"><lb n="12"/>yeṭṭāvatu kanta muṟṟum ~</seg>
+
     
   <pb facs="640" n="3[310]r =p. 620"/><app><note xml:lang="en">blank page</note></app>
 
