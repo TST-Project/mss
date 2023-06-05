@@ -28,7 +28,7 @@
 
                     </summary>
                   
-               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Irāmanāṭakam: Mūlam</title><author xml:lang="ta">Aruṇācalakkavirāyar</author><textLang mainLang="tam"/><filiation><p><ref target="https://tst-project.github.io/mss/Indien_0541.xml">BnF Indien 541</ref></p></filiation></msItem></msContents>
+               <msItem synch="#U1a" xml:id="T1" defective="false"><title xml:lang="ta">Irāmanāṭakam: Mūlam</title><author xml:lang="ta">Aruṇācalakkavirāyar</author><textLang mainLang="tam"/><filiation><p><ref target="https://tst-project.github.io/mss/Indien_0541.xml">BnF Indien 541</ref></p></filiation></msItem><msItem synch="#U1b" xml:id="T2" defective="false"><title>Irāmanāṭakam: <term xml:lang="en">isolated passage</term></title></msItem></msContents>
                <physDesc>
                   
                   
@@ -40,7 +40,7 @@
                         
                         
                      <support/><extent>
-                           <measure unit="folio" quantity="180"/>
+                           <measure unit="folio" quantity="180">{3} + 180 + {4} + {3} (u1 + U1a + U1b + u2}</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
@@ -52,22 +52,28 @@
                         
                         
                         
-                        <desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U1">** folios = <emph rend="bold">guard leaves</emph>. No foliation. Blank recto verso.
-</desc><desc xml:id="U1">180 folios = <emph rend="bold"><title xml:lang="ta">Irāmanāṭakam</title>: Text</emph>.</desc><desc xml:id="u2">** folios = <emph rend="bold">guard leaves</emph>. No foliation. Blank recto verso.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation></supportDesc>
+                        <desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="u1">3 folios = <emph rend="bold">guard leaves</emph>. No foliation. Blank recto verso. f[1]r marbled. Elements of binding.
+</desc><desc xml:id="U1a">180 folios = <emph rend="bold"><title xml:lang="ta">Irāmanāṭakam</title>: Text</emph>. No pagination. Library Arabic foliation 1-180.</desc><desc xml:id="U1b">4 folios = <emph rend="bold">guard leaves</emph>. No pagination. No foliation. Blank recto verso, except f[4]r. Elements of original manuscript.</desc><desc xml:id="u2">3 folios = <emph rend="bold">guard leaves</emph>. No foliation. Blank recto verso. f[3]v marbled. Elements of binding.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation></supportDesc>
                      <layoutDesc>
                         
                      </layoutDesc>
                   </objectDesc><handDesc>
                      
-                  <handNote synch="#U1" scope="major" script="tamil" medium="ink black"/></handDesc><additions>
+                  <handNote synch="#U1a #U1b" scope="major" script="tamil" scriptRef="#tamilPulliRegular #tamilOE" medium="ink black"/></handDesc><decoDesc><decoNote type="emblem" subtype="spine"><desc>Haraldic lillies on the <locus facs="387">spine</locus>.
+</desc></decoNote></decoDesc><additions>
                     
                     
                     
                     
-                  <desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF current shelfmark sticker: <quote>INDIEN 395</quote> (<locus facs="2">front cover, verso</locus>).</desc></additions><bindingDesc>
+                  <desc subtype="spine">Title in Roman transcription printed in golden letters on the <locus facs="387">spine</locus>:
+<quote rend="block">
+<lb n="1"/>RÂMÂYANANÂTAGAM
+<lb n="2"/>TAMOUL
+</quote>
+</desc><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF current shelfmark sticker: <quote>INDIEN 395</quote> (<locus facs="2">front cover, verso</locus>).</desc><desc synch="#u1">BnF old shelfmark in black pencil: <quote>Tamoul N° 395</quote> (<locus facs="5">f[2]r</locus>).</desc></additions><bindingDesc>
                      <binding>
-                        <p><material>Leather</material> covers.</p>
-                     <decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
+                        <p><material>Leather</material> binding.</p>
+                     <decoNote type="stringhole"><measure unit="stringhole"/></decoNote></binding>
                   </bindingDesc></physDesc>
                <history>
                   
@@ -101,13 +107,32 @@ Dated to circa 1780 by Vinson (1866-1867) and to 1780 by Cabaton (1912), on unst
    <facsimile>
       
    <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10465776k/manifest.json"/></facsimile>
-<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+<text synch="#U1a" corresp="#T1" xml:lang="ta"><body>
   <ab>
     
   <pb facs="9" n="1r"/>
     
     <seg function="title"><lb n="1"/>Irāmāyaṇāṭakam</seg>
     <seg function="intertitle"><lb n="2"/>kāppu</seg>
+    
+    <seg function="incipit">
+      <lg>
+      <l><lb n="3"/>Āṉai mukaṉē Arṉār tirumakaṉē</l>
+      <l>cēṉai<lb n="4" break="no"/>yarkō ṉākavaḷañ ceyvōṉē ñāṉamē ~</l>
+      <l><lb n="5"/>nāṭakattaik koṇṭa vunta ṉallaruḷā <lb n="6"/> lērāma</l>
+      <l>nāṭakattaic collu<del><gap reason="illegible" quantity="1" unit="character"/></del>vē (7) ṉāṉ ~ ~ ~ ~ ~</l>
+    </lg>
+    <seg function="prosody"><lb n="5"/>viruttam ~</seg>
+    <lg>
+      <l><lb n="9"/>Aṇṭartaṉ tuyaran tīra Ayōtti <lb n="10"/> mānakaril vantu ~</l>
+      <l>teṇṭa kāṟaṇiya<lb n="11" break="no"/>ñ ceṉtuṟu camuttiram Aṇaiyāyk <lb n="12"/> kaṭṭi</l>
+      <l>koṇṭa rāvaṇaṉai māṭṭi kō<lb n="13" break="no"/>taṇṭaṅ kaiyilēntum</l>
+      <l>puṇṭa<sic>ri</sic>ka<lb n="14"/>kkaṉ rāmaṉ poṉṉaṭikamalam pō<choice><sic>t=ti</sic><corr>ṟṟi</corr></choice></l>
+      </lg>
+      </seg>
+        
+        <seg function="prosody"><lb n="15"/>taru ~</seg> <gap reason="ellipsis"/>
+
     
       <pb facs="364" n="177v"/>
     <lb n="1"/><gap reason="ellipsis"/> ceykiṉṟāṉ ~ <space/> <num rend="traditional">12</num>
@@ -127,5 +152,21 @@ Dated to circa 1780 by Vinson (1866-1867) and to 1780 by Cabaton (1912), on unst
 
   <pb facs="370" n="180v"/><app><note xml:lang="en">blank page</note></app>
 
+</ab>  
+</body></text><text synch="#U1b" corresp="#T2"><body>
+  <ab>
+    
+  <pb facs="371" n="[1]r"/><app><note xml:lang="en">blank page</note></app>
+  <pb facs="372" n="[1]v"/><app><note xml:lang="en">blank page</note></app>
+  <pb facs="373" n="[2]r"/><app><note xml:lang="en">blank page</note></app>
+  <pb facs="374" n="[2]v"/><app><note xml:lang="en">blank page</note></app>
+  <pb facs="375" n="[3]r"/><app><note xml:lang="en">blank page</note></app>
+  <pb facs="376" n="[3]v"/><app><note xml:lang="en">blank page</note></app>
+  <pb facs="377" n="[4]r"/><app><note xml:lang="en">blank page</note></app>
+    <lb n="1"/><gap reason="ellipsis"/>
+    <lb n="2"/><gap reason="ellipsis"/>
+    <lb n="3"/><gap reason="ellipsis"/><num rend="traditional">17</num> vitiyoṭu<app><note xml:lang="en">centred line</note></app>    
+  <pb facs="378" n="[4]v"/><app><note xml:lang="en">blank page</note></app>
+        
 </ab>  
 </body></text></TEI>
