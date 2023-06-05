@@ -27,7 +27,7 @@
 <p>Description based on the examination of the original manuscript (**** 2023).</p>
 <p>Dimensions assessed at the time of examination.</p>     </summary>
                   
-               <msItem synch="#U2" xml:id="T1" defective="false"><title xml:lang="ta">Cūṭāmaṇi Nikaṇṭu: Orucoṟpalaporuṭpeyartokuti: <term xml:lang="en">Invocation</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U3" xml:id="T2" defective="true"><title xml:lang="ta">Cūṭāmaṇi Nikaṇṭu: Orucoṟpalaporuṭpeyartokuti</title><textLang mainLang="tam"/></msItem></msContents>
+               <msItem synch="#U2" xml:id="T1" defective="false"><title xml:lang="ta">Cūṭāmaṇi Nikaṇṭu: Orucoṟpalaporuṭpeyartokuti: <term xml:lang="en">Invocation</term></title><textLang mainLang="tam"/><filiation><p><ref target="https://tst-project.github.io/mss/Indien_0558.xml">BnF Indien 558</ref></p></filiation></msItem><msItem synch="#U3" xml:id="T2" defective="true"><title xml:lang="ta">Cūṭāmaṇi Nikaṇṭu: Orucoṟpalaporuṭpeyartokuti</title><textLang mainLang="tam"/><filiation><p><ref target="https://tst-project.github.io/mss/Indien_0558.xml">BnF Indien 558</ref></p></filiation></msItem></msContents>
                <physDesc>
                   
                   
@@ -45,7 +45,7 @@
                               
                            </dimensions>
                         <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent><foliation>Left-marginal Tamil numerals foliation (U3).</foliation><collation><desc xml:id="U1">1 bifolio = <emph rend="bold">front cover</emph>. No foliation. Recto varnished?</desc><desc xml:id="U2">1 folio = <emph rend="bold"><title xml:lang="ta">Cūṭāmaṇi Nikaṇṭu: Orucoṟpalaporuṭpeyartokuti</title>: Invocation</emph>. No foliation.</desc><desc xml:id="U3">123 folios = <emph rend="bold"><title xml:lang="ta">Cūṭāmaṇi Nikaṇṭu: Orucoṟpalaporuṭpeyartokuti</title></emph>. Tamil foliation 1-123.</desc><desc xml:id="U4">2 folios = <emph rend="bold">guard leaves</emph>. No foliation. Blank recto verso.</desc><desc xml:id="U5">1 bifolio = <emph rend="bold">front cover</emph>. No foliation. Verso varnished?</desc></collation></supportDesc>
-                  </objectDesc><handDesc>
+                  <layoutDesc><layout columns="2">User-friendly layout in 2 columns (root-text in column 1, commentary in column 2).</layout></layoutDesc></objectDesc><handDesc>
                      
                   <handNote synch="#U2 #U3" scope="sole" script="tamil" medium="incised"><desc>Unblackened.</desc></handNote></handDesc><additions>
                      
@@ -113,15 +113,25 @@ Not dated by Feer (1872-1902), nor by Cabaton (1912).</origDate>
     
     <fw place="left-margin">
       <seg function="blessing"><lb n="1"/>hari Ōm
-      <lb n="2"/></seg>
+      <lb n="2"/>naṉṟāka
+        <lb n="3"/>kuru vāḻka
+        <lb n="4"/>kuruvē tuṇai
+      </seg>
       </fw>
       
        
     <seg function="invocation">
     <lg><l><lb n="1"/>...</l></lg></seg>
     
+    <fw place="right-margin">
+      <seg function="TBC"><lb n="1"/><gap reason="ellipsis"/>
+      </seg>
+      </fw>
+    
     <pb facs="4" n="[1]v"/>
-    <lb n="1"/>
+    <seg function="date"><lb n="1"/>vikuṟati {varuṣam} Aṟpici {mācam} <gap reason="ellipsis"/>
+    <lb n="2"/>kāṟtikai {mācam} 10+ 7 {tēti} <gap reason="ellipsis"/>
+        <lb n="3"/>taiyi {mācam} 5 {tēti} <gap reason="ellipsis"/></seg>
 
     </ab>
   </body></text><text synch="#U3" corresp="#T2" xml:lang="ta"><body>
@@ -130,8 +140,12 @@ Not dated by Feer (1872-1902), nor by Cabaton (1912).</origDate>
     <pb facs="5" n="1r"/>
     
     <fw place="left-margin">
-      <seg function="blessing"><lb n="1"/>naṉṟāka
-      <lb n="2"/></seg>
+      <seg function="blessing"><lb n="1"/>naṉṟāka</seg>
+      <seg function="title"><lb n="2"/><supplied reason="lost">pa</supplied>tiṉō<g ref="#double_kal">rā</g>vatu
+        <lb n="3"/>Oru<supplied reason="lost">c</supplied>coṟpala
+        <lb n="4" break="no"/>poruṭpeyart
+        <lb n="5" break="no"/>tokuti
+</seg>
       </fw>
     
     <cb n="1"/>
