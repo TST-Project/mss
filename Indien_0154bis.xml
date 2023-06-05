@@ -55,7 +55,7 @@
 
 							
 						<handNote synch="#u1" scope="minor" script="latin" medium="ink black"><desc>Hand #1 and hand #2.</desc></handNote><handNote synch="#u1" scope="minor" script="latin" medium="ink black"><desc>Hand #3 = <persName role="scribe" key="Vinson, Julien">Julien Vinson</persName></desc></handNote><handNote synch="#U1" scope="major" script="tamil" medium="ink black"><desc>Hand #4.</desc></handNote></handDesc><additions>
-							<desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF current shelfmark sticker: <quote>INDIEN 154 BIS</quote> (<locus facs="1">front cover, verso</locus>).</desc><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF old shelfmark in black ink: <quote>Tamoul 154 bis</quote> (<locus facs="3">front cover, verso</locus>).</desc></additions><bindingDesc>
+							<desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF current shelfmark sticker: <quote>INDIEN 154 BIS</quote> (<locus facs="1">front cover, verso</locus>).</desc><desc synch="#u1 #U1" type="shelfmark">BnF old shelfmark in black ink: <quote>Tamoul 154 bis.</quote> (u1, <locus facs="3">f[3]r</locus>; u1, <locus facs="4">f[4]r</locus>; U1, <locus facs="6">f[1]r = p. 1</locus>).</desc></additions><bindingDesc>
 							<binding>
 								
 							</binding>
@@ -107,13 +107,13 @@
     <lb n="2"/>d'Anandarangappoullé.
     <lb n="3"/>(9 avril 1760-12 janvier 1761.)</seg>
     
-    <lb n="4"/>Copie de m. A. Bourgoin,
+    <seg function="documenting-note"><lb n="4"/>Copie de m. A. Bourgoin,
     <lb n="5"/>conservateur de la Bibliothèque de Pondichéry.
-    <lb n="6"/>(1901.)
+    <lb n="6"/>(1901.)</seg>
   	
-    <lb n="7"/>Volume de 260 Pages
+    <seg function="documenting-note"><lb n="7"/>Volume de 260 Pages
     <lb n="8"/>plus les pages A. B. préliminaires
-    <lb n="9"/>26 avril 1901.
+    <lb n="9"/>26 avril 1901.</seg>
   
     </ab>
 </body></text><text synch="#u1" corresp="#T2" xml:lang="fr"><body>
@@ -134,30 +134,30 @@
       <lb n="11"/>Dans une lettre particulière, M. Bourgoin
       <lb n="12"/>me fait connaître que ce manuscrit, sur papier,
       <lb n="13"/>a été emballé dans des journaux et qu'il porte 
-      <lb n="14"/>le nom et l'adresse de M. L. Delisle, Ad-
+      <lb n="14"/>le nom et l'adresse de M. <persName xml:lang="fr" key="Delisle, Léopold">L. Delisle</persName>, Ad-
       <lb n="15"/>ministrateur Général, avec l'empreinte du timbre
       <lb n="16"/>des anciennes archives de l'Inde Française
       <lb n="17"/>M. Bourgoin me fait connaître également
       <lb n="18"/>que les frais de copie, de révision, de collationnement,
-      <lb n="19"/>etc., se sont élevés un peu plus haut qu'ik
+      <lb n="19"/>etc., se sont élevés un peu plus haut qu'il
       <lb n="20"/>l'avait supposé et il désirerait qu'on pût mettre
-      <lb n="21"/>à sa disposition à cet effte une somme de 120 fr.
+      <lb n="21"/>à sa disposition à cet effet une somme de 120 fr.
        
       <pb facs="5" n="[4]v = Av = p. [2]"/>
-      <lb n="1"/>pour plus de facilité, je vous prierai de faire
+      <lb n="1"/>Pour plus de facilité, je vous prierai de faire
       <lb n="2"/>mandater cette somme à mon nom ou de me
       <lb n="3"/>la faire remettre par le libraire de la Bi-
       <lb n="4"/>bliothèque et je me chargerai de la faire
       <lb n="5"/>parvenir à M. Bourgoin.
       <lb n="6"/>Le manuscrit comprend 66 feuilles de
       <lb n="7"/>papier, soit 132 feuillets ou 264 pages.
-      <lb n="8"/>Il embrasse la péridoe du 9 avril 1760 au
+      <lb n="8"/>Il embrasse la période du 9 avril 1760 au
       <lb n="9"/>12 janvier 1791 et comble une lacune impor-
       <lb n="10"/>tante du Journal d'Anandarangappoullé
-      <lb n="11"/>(Fonds tamoul, n<hi rend="superscript">os</hi>. 143 à 158 ; me mas. nouveau
+      <lb n="11"/>(Fonds tamoul, n<hi rend="superscript">os</hi>. 143 à 158 ; le ms. nouveau
       <lb n="12"/>sera à numéroter 154 bis).
       <lb n="13"/>Veuillez agréer, Monsieur, l'assurance
-      <lb n="14"/>de ma consodération la plus distinguée
+      <lb n="14"/>de ma considération la plus distinguée
       <lb n="15"/>Julien Vinson
       <lb n="16"/>Professeur à l'École Nationale et
       <lb n="17"/>Spéciale des Langues Oirentales Vivantes
@@ -178,8 +178,8 @@
       <lb n="1"/><num rend="traditional">1760</num> Āṇṭu
       <lb n="2"/>Apirel {mācam} 9 {tēti}
 
-      <milestone unit="main-text-area"/>
-      <lb n="1"/><gap reason="ellipsis"/>
+      <seg function="incipit"><milestone unit="main-text-area"/>
+      <lb n="1"/><gap reason="ellipsis"/></seg>
     
        <pb facs="1366" n="[130]r = p. 259"/>
  
@@ -195,7 +195,7 @@
       <lb n="1"/><gap reason="ellipsis"/>
       
       <pb facs="137" n="[130]v = p. 260"/>
-      <lb n="1-11"/><gap reason="ellipsis"/>
+      <seg function="explicit"><lb n="1-11"/><gap reason="ellipsis"/></seg>
       
       </ab>
 </body></text></TEI>
