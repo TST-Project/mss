@@ -45,7 +45,7 @@
                               
                            </dimensions>
                         <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent><foliation>Left-marginal Tamil numerals foliation (U3).</foliation><collation><desc xml:id="U1">1 bifolio = <emph rend="bold">front cover</emph>. No foliation. Recto varnished?</desc><desc xml:id="U2">1 folio = <emph rend="bold"><title xml:lang="ta">Cūṭāmaṇi Nikaṇṭu: Orucoṟpalaporuṭpeyartokuti</title>: Invocation</emph>. No foliation.</desc><desc xml:id="U3">123 folios = <emph rend="bold"><title xml:lang="ta">Cūṭāmaṇi Nikaṇṭu: Orucoṟpalaporuṭpeyartokuti</title></emph>. Tamil foliation 1-123.</desc><desc xml:id="U4">2 folios = <emph rend="bold">guard leaves</emph>. No foliation. Blank recto verso.</desc><desc xml:id="U5">1 bifolio = <emph rend="bold">front cover</emph>. No foliation. Verso varnished?</desc></collation></supportDesc>
-                  <layoutDesc><layout columns="2">User-friendly layout in 2 columns (root-text in column 1, commentary in column 2).</layout></layoutDesc></objectDesc><handDesc>
+                  <layoutDesc><layout columns="2">User-friendly layout in 2 columns: root-text in column 1, distributed <foreign xml:lang="ta">aṭi</foreign>-wise, commentary in column 2.</layout></layoutDesc></objectDesc><handDesc>
                      
                   <handNote synch="#U2 #U3" scope="sole" script="tamil" medium="incised"><desc>Unblackened.</desc></handNote></handDesc><additions>
                      
@@ -83,7 +83,7 @@
                   
                   
                <origin>
-                     <origDate calendar="gregorian" notAfter="1885">Internally dated to ...
+                     <origDate calendar="gregorian" notAfter="1831">Internally dated to the year <foreign xml:lang="ta">vikuṟati</foreign> of the Jovian cycle, that is, CE 1830-1831, 1770-1771, 1710-1711, etc. See date (U1, <locus facs="4">f[1]v1</locus>).
 Not dated by Feer (1872-1902), nor by Cabaton (1912).</origDate>
                   <origPlace>South India, Tamil Nadu.</origPlace></origin><provenance><p>Owned by <persName xml:lang="fr" role="owner">Vivien</persName>.</p></provenance><acquisition>
                      <p>Acquired, 22nd January 1885, from M. Vivien. — See BnF, département des Manuscrits, Inventaire 2 [R.C. = registre C] = acquisitions : manuscrits et imprimés documentaires, 1848-1893, n° 4668 à 8877: <ref target="https://gallica.bnf.fr/ark:/12148/btv1b10463532p/f185">no. 7642</ref>.</p>
@@ -121,7 +121,14 @@ Not dated by Feer (1872-1902), nor by Cabaton (1912).</origDate>
       
        
     <seg function="invocation">
-    <lg><l><lb n="1"/>...</l></lg></seg>
+    <lg><l><lb n="1"/>muṭivi liṉpaṟṟu mūvar mutalvaṉaip pōṟṟi ceytu</l>
+      <l>ṉaṭitoṟum iraṇtum oṉṟum ātiyiṟ poruḷ aṭakki</l>
+      <l><lb n="2"/>naṭaipeṟu kakaram ātin karavīṟ’ etukai yākap</l>
+      <l>paṭiyum orcoṟ poruṭpal vitattokaip pakara luṟṟām ~</l>
+      </lg>
+      </seg>
+    <seg function="blessing"><lb n="3"/>kalavāṇi namo ’s·tu ~</seg><app><note xml:lang="en">right-indented line</note></app>
+
     
     <fw place="right-margin">
       <seg function="TBC"><lb n="1"/><gap reason="ellipsis"/>
@@ -148,19 +155,55 @@ Not dated by Feer (1872-1902), nor by Cabaton (1912).</origDate>
 </seg>
       </fw>
     
-    <cb n="1"/>
-    <lb n="1"/>
-        
+    <seg function="incipit" type="root-text"><cb n="1"/>
+    <lg>
+      <l><lb n="1"/>pakavaṉē yīcaṉ māyōṉ paṅkayaṉ ciṉaṉē puttaṉ</l>
+      <l><lb n="2"/>pakalēnā ḷorumu kuṟtam pakalva ṉaṭuvē tēcu</l>
+      <l><lb n="3"/>makaramē cuṟāppūn tātām vacikūrmai vaciyam vāḷē</l>
+      <l><lb n="4"/>Akammaṉa maṉaiyē pāva mamalaiyiṭa Uḷḷu māmē ~</l>
+      </lg>
+    </seg>
+    
+    <seg function="incipit" type="commentary">        
     <cb n="2"/>
-    <lb n="1"/>
+    <lb n="1"/>pakavaṉ ~ Eṉpatu = civaṉukkum ~ <unclear>vi</unclear>ṣṇuvukkum ~ piṟamavukkum ~ Arukaṉukkul puttaṉukku<add place="below">m</add> pēr
+      <lb n="2"/>pakal ~ nāḷukkum ~ <gap reason="ellipsis"/> pēr
+      <lb n="3"/>makar ~ <gap reason="ellipsis"/> pēr
+      <lb n="4"/>vaci ~ <gap reason="ellipsis"/> <add><gap reason="ellipsis"/></add> pēr
+      <lb n="5"/>Akam ~ <gap reason="ellipsis"/> <gap reason="lost">pēr</gap>
+      </seg>
+
     
      <pb facs="250" n="123v"/>    
     
     <cb n="1"/>
-    <lb n="1"/>
+    <seg function="explicit" type="root-text"><lg>
+      <l><lb n="1"/>Avvaiyē <gap reason="ellipsis"/></l>
+      <l><lb n="2"/>cevvi <gap reason="ellipsis"/></l>
+      <l><lb n="3"/>tēva Amar <gap reason="ellipsis"/></l>
+      <l><lb n="4"/>caivam  <gap reason="ellipsis"/> ~</l>
+      </lg>
+      </seg>
         
     <cb n="2"/>
-    <lb n="1"/>
+    <seg function="explicit" type="commentary">
+      <lb n="1"/>Avvai ~ Eṉpatu ~ Aṉṉai ~ <gap reason="ellipsis"/>
+      <lb n="2"/>cevvi ~ Aḻaku ~ <gap reason="ellipsis"/>
+      <lb n="3"/>tēva ~ pōr ~ <gap reason="ellipsis"/>
+      <lb n="4"/>tīviṉai ~ kālam ~ <gap reason="ellipsis"/>
+      <lb n="5"/>caiva ~ purāṇam ~ <gap reason="ellipsis"/>
+      </seg>
+    
+    <fw place="right-margin">
+      <seg function="TBC">
+        <lb n="1"/>
+        <lb n="2"/>
+        <lb n="3"/>
+        <lb n="4"/>
+        <lb n="5"/>
+        </seg>
+      </fw>
+         
 
     </ab>
   </body></text></TEI>
