@@ -29,7 +29,7 @@
 <p>Dimensions assessed at the time of examination.</p></summary>
 
 						
-					<msItem synch="#u1" xml:id="T1" defective="false"><title xml:lang="fr"><term xml:lang="en">Ananda Rangapillai's Diary (1760-1761): Title Page</term></title><textLang mainLang="fra"/></msItem><msItem synch="#u1" xml:id="T2" defective="false"><title xml:lang="fr"><term xml:lang="en">Letter by Julien Vinson</term></title><textLang mainLang="fra"/></msItem><msItem synch="#U1" xml:id="T3" defective="false"><title xml:lang="ta"><term xml:lang="en">Ananda Rangapillai's Diary (1760-1761): Text</term></title><textLang mainLang="tam"/></msItem></msContents>
+					<msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="fr"><term xml:lang="en">Ananda Rangapillai's Diary (1760-1761): Title Page</term></title><textLang mainLang="fra"/></msItem><msItem synch="#U1" xml:id="T2" defective="false"><title xml:lang="fr"><term xml:lang="en">Letter by Julien Vinson</term></title><textLang mainLang="fra"/></msItem><msItem synch="#U3" xml:id="T3" defective="false"><title xml:lang="ta"><term xml:lang="en">Ananda Rangapillai's Diary (1760-1761): Text</term></title><textLang mainLang="tam"/></msItem></msContents>
 					<physDesc>
 						
 						
@@ -42,34 +42,38 @@
 								
 								
 								
-							<support/><extent>
-									<measure unit="folio" quantity="135">{4} + 130 + {1} (u1 + U1 + u2).</measure>
+							<support><p>Binding folios with watermak <quote>Arches</quote>.</p></support><extent>
+									<measure unit="folio" quantity="138">{1} + {3} + 130 + {3} + {1} (u1 + U1 + U2 + U3 + u2).</measure>
 									<dimensions type="object" unit="mm">
 										
 										
 										
-									</dimensions>
-									<dimensions type="leaf" unit="mm"><height max="365"/></dimensions><dimensions type="written" unit="mm"/></extent><collation>
-									<desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. Shelfmark on verso.</desc><desc xml:id="u1">4 folios = <emph rend="bold">guard leaves</emph>. With a title page and a letter pasted on <locus facs="3">f[3]r</locus> and <locus facs="4">f[4]r</locus> respectively. No pagination nor foliation on the folios of the codex. The letter pasted is in fact an in-folio, foliated A-B.</desc><desc xml:id="U1">130	folios = <emph rend="bold">Ananda Rangapillai's Diary (1760-1761)</emph>. Arabic library pagination 1-260. </desc><desc xml:id="u2">1 folio = <emph rend="bold">guard leaf</emph>. No pagination. No foliation.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>. </desc></collation><condition>Good state of preservation.</condition></supportDesc>
-						</objectDesc><handDesc>
+									<width quantity="245"/><height quantity="375"/><depth quantity="30"/></dimensions>
+									<dimensions type="leaf" unit="mm"><width quantity="230" min="365"/></dimensions><dimensions type="written" unit="mm"/></extent><collation>
+									<desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. Shelfmark on verso.</desc><desc xml:id="u1">1 folio = <emph rend="bold">guard leaf</emph>. No pagination. No foliation. Blank recto verso. Element of binding.</desc><desc xml:id="U1">3 folios = <emph rend="bold">guard leaves</emph>. With a title page (195 x 300 mm) and a letter pasted on <locus facs="3">f[2]r</locus> and <locus facs="4">f[3]r</locus> respectively. No pagination nor foliation on the folios of the codex. The letter pasted is in fact an in-folio (folio = 135 x 210 mm), foliated A-B.</desc><desc xml:id="U2">130	folios = <emph rend="bold">Ananda Rangapillai's Diary (1760-1761)</emph>. Overall Arabic library pagination 1-260 in black ink. Several successive partial Arabic foliation in black pencil.</desc><desc xml:id="U3">3 folios = <emph rend="bold">guard leaves</emph>. No pagination. No foliation. Blank recto verso.
+</desc><desc xml:id="u2">1 folio = <emph rend="bold">guard leaf</emph>. No pagination. No foliation. Blank recto verso. Element of binding.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>. </desc></collation><condition>Excellent state of preservation.</condition></supportDesc>
+						<layoutDesc><layout>Pages of U2 ruled in black pencil.</layout></layoutDesc></objectDesc><handDesc>
 
 							
-						<handNote synch="#u1" scope="minor" script="latin" medium="ink black"><desc>Hand #1 and hand #2.</desc></handNote><handNote synch="#u1" scope="minor" script="latin" medium="ink black"><desc>Hand #3 = <persName role="scribe" key="Vinson, Julien">Julien Vinson</persName></desc></handNote><handNote synch="#U1" scope="major" script="tamil" medium="ink black"><desc>Hand #4.</desc></handNote></handDesc><additions>
-							<desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF current shelfmark sticker: <quote>INDIEN 154 BIS</quote> (<locus facs="1">front cover, verso</locus>).</desc><desc synch="#u1 #U1" type="shelfmark">BnF old shelfmark in black ink: <quote>Tamoul 154 bis.</quote> (u1, <locus facs="3">f[3]r</locus>; u1, <locus facs="4">f[4]r</locus>; U1, <locus facs="6">f[1]r = p. 1</locus>).</desc></additions><bindingDesc>
+						<handNote synch="#U1" scope="minor" script="latin" medium="ink black"><desc>Hand #1 and hand #2.</desc></handNote><handNote synch="#U1" scope="minor" script="latin" medium="ink black"><desc>Hand #3 = <persName role="scribe" key="Vinson, Julien">Julien Vinson</persName></desc></handNote><handNote synch="#U2" scope="major" script="tamil" medium="ink black"><desc>Hand #4.</desc></handNote></handDesc><additions>
+							<desc type="documenting-note" subtype="spine top bottom">Binding information printed in golden letters on the spine: 
+<quote rend="block">BIB. NATIONALE</quote>
+<quote rend="block">MONNFRET 1901</quote></desc><desc type="title" subtype="spine middle">Title in Roman transcription printed in golden letters on a piece of red leather on the spine: 
+<quote rend="block">JOURNAL D'ANANDARANGAPPOULLÉ (1760-1761)</quote></desc><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF current shelfmark sticker: <quote>INDIEN 154 BIS</quote> (<locus facs="1">front cover, verso</locus>).</desc><desc synch="#U1 #U2" type="shelfmark">BnF old shelfmark in black ink: <quote>Tamoul 154 bis.</quote> (U1, <locus facs="3">f[2]r</locus>; U1, <locus facs="4">f[3]r</locus>; U2, <locus facs="6">f[1]r = p. 1</locus>).</desc><desc synch="#U1 #U2" type="stamp">BnF red stamp: <quote>R.F. BIBLIOTHÈQUE NATIONALE MANUSCRITS</quote> (U1, <locus facs="5">f[3]r, B</locus>; U2 <locus facs="6">f1r = p. 1</locus>, <locus facs="137">f130v = p. 260</locus>).</desc></additions><bindingDesc>
 							<binding>
 								
-							</binding>
+							<p>Quarter binding.</p></binding>
 						</bindingDesc></physDesc>
 					<history>
 						
 						
 						
 					<origin>
-							<origDate calendar="gregorian" notAfter="1901">Copy commissioned by A. Bourgoin, librarian in Pondicherry, and sent to the Bibliothèque Nationale in 1901. See u1, <locus facs="3">f[3]r</locus> and <locus facs="4">f[4]r</locus>.</origDate>
+							<origDate calendar="gregorian" notAfter="1901">Copy commissioned by A. Bourgoin, curator of the Pondicherry library, and sent to the Bibliothèque Nationale in 1901. See U1, <locus facs="3">f[2]r</locus> and <locus facs="4">f[3]r</locus>.</origDate>
 							<origPlace>South India, Pondicherry.</origPlace>
-						</origin><provenance><p>Copy commissioned by <persName xml:lang="fr" role="commissioner" key="Bourgoin, A.">A. Bourgoin</persName>, librarian in Pondicherry.</p></provenance><acquisition>
+						</origin><provenance><p>Copy commissioned by <persName xml:lang="fr" role="commissioner" key="Bourgoin, A.">A. Bourgoin</persName>, curator of the Pondicherry library.</p></provenance><acquisition>
 							
-						<p>Acquired and received from A. Bourgoin, 26th April 1901. See u1, <locus facs="4">f[4]r</locus>.</p></acquisition></history>
+						<p>Acquired and received from A. Bourgoin, 26th April 1901. See U1, <locus facs="3">f[3]r</locus>.</p></acquisition></history>
 					<additional>
 						<listBibl>
 
@@ -98,7 +102,7 @@
 		<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10091813k/manifest.json"/>
 	</facsimile>
 	
-<text synch="#u1" corresp="#T1" xml:lang="fr"><body>
+<text synch="#U1" corresp="#T1" xml:lang="fr"><body>
   <ab>
     
   <pb facs="3" n="[3]r"/>
@@ -116,7 +120,7 @@
     <lb n="9"/>26 avril 1901.</seg>
   
     </ab>
-</body></text><text synch="#u1" corresp="#T2" xml:lang="fr"><body>
+</body></text><text synch="#U1" corresp="#T2" xml:lang="fr"><body>
     <ab>
 
   <pb facs="4" n="[4]r = Ar = p. [1]"/>
@@ -143,7 +147,7 @@
       <lb n="20"/>l'avait supposé et il désirerait qu'on pût mettre
       <lb n="21"/>à sa disposition à cet effet une somme de 120 fr.
        
-      <pb facs="5" n="[4]v = Av = p. [2]"/>
+      <pb facs="5" n="[4]v = Br = p. [3]"/>
       <lb n="1"/>Pour plus de facilité, je vous prierai de faire
       <lb n="2"/>mandater cette somme à mon nom ou de me
       <lb n="3"/>la faire remettre par le libraire de la Bi-
@@ -164,7 +168,7 @@
       <lb n="18"/>58, rue de l'Université
 
       </ab>
-</body></text><text synch="#U1" corresp="#T3" xml:lang="ta"><body>
+</body></text><text synch="#U2" corresp="#T3" xml:lang="ta"><body>
     <ab>
 
   <pb facs="6" n="[1]r = p. 1"/>
@@ -179,9 +183,9 @@
       <lb n="2"/>Apirel {mācam} 9 {tēti}
 
       <seg function="incipit"><milestone unit="main-text-area"/>
-      <lb n="1"/><gap reason="ellipsis"/></seg>
+      <lb n="1ff."/><gap reason="ellipsis"/></seg>
     
-       <pb facs="1366" n="[130]r = p. 259"/>
+       <pb facs="136" n="[130]r = p. 259"/>
  
       <cb n="1"/>
       <lb n="1"/><num rend="traditional">1761</num>.<hi rend="superscript">m</hi> Āṇṭu
@@ -192,7 +196,7 @@
       <lb n="2"/>3 {tēti} cōmavāram
 
       <milestone unit="main-text-area"/>
-      <lb n="1"/><gap reason="ellipsis"/>
+      <lb n="1ff."/><gap reason="ellipsis"/>
       
       <pb facs="137" n="[130]v = p. 260"/>
       <seg function="explicit"><lb n="1-11"/><gap reason="ellipsis"/></seg>
