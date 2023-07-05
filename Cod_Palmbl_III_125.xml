@@ -1,0 +1,101 @@
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            
+            
+         <title><title xml:lang="sa">Āgamaprāmāṇyam</title></title><editor><persName>Suganya Anandakichenin</persName><orgName>University of Hamburg</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2023</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Staats- und UniversitätsBibliothek Hamburg Carl von Ossietzky</orgName>
+                  </repository>
+                  <idno type="shelfmark">Cod. Palmbl. III 125</idno>
+                  <idno type="alternate"><idno>35-3369</idno></idno>
+               </msIdentifier>
+               <msContents class="#STM">
+                  
+                  
+               <summary>This manuscript contains an 11th century theological text called <title xml:lang="sa">Āgamaprāmāṇyam</title>, composed by <persName xml:lang="sa">Yāmunācārya</persName>. The text is in Sanskrit. This is a Viśiṣṭādvaitic text.</summary><msItem defective="false" class="#pirapantam"><title xml:lang="sa">Āgamaprāmāṇya</title><author xml:lang="sa">Yāmunācārya</author><textLang mainLang="san"/><rubric xml:lang="sa"><pb n="100r"/>
+<lb n="1"/>yadpadāṃbhoruhaddhyāna viddhvastāśeṣakalmaṣaḥ - vastu<unclear>tāpuma</unclear>yātohaṃ yāmuneyaṃ namāmi taṃ <g ref="#pcl"/></rubric><incipit xml:lang="sa"><pb n="100r"/>
+<lb n="1"/><gap reason="ellipsis"/>jajajjanmasthtidhvaṃsamahānandaikahetave - karāmalakavadviśvaṃ paśyate viṣṇave namaḥ <g ref="#pcl"/>
+<lb n="2"/>yemi kecana matsarāt savayaso durmānasārā narāḥ
+</incipit><explicit xml:lang="sa"><pb n="124r"/>
+<lb n="4"/><gap reason="ellipsis"/>śrīmannāthamunīndravarddhitadhiyo nirddhūtaviśvāśivās santassantata gadyapadyapadavīhṛdyānavadyoktayaḥ<g ref="#pcl"/></explicit><finalRubric xml:lang="sa"><pb n="124r"/>
+<lb n="4"/><gap reason="ellipsis"/>hariḥ om śubhamastu<g ref="#pcl"/>
+<lb n="5"/>śrīmadvedāntarāmānujasaṃyamīndra mahādeśikacaraṇakamalarakṣakābhyāṃ namaḥ<g ref="#pcl"/> śrīmate narasiṃhāya mahāgurave namaḥ śrīmate lakṣmīnandanatātadeśikamahā<lb n="6"/>gurave namaḥ</finalRubric></msItem></msContents>
+               <physDesc>
+                  
+                  
+                  
+                  
+                  
+               <objectDesc form="pothi" rend="manuscript">
+                     <supportDesc material="palm-leaf palmyra">
+                        
+                        
+                        
+                        
+                        
+                     <support>
+                           
+                        </support><extent>
+                           <measure unit="folio" quantity="26">1 guard folio, 24 numbered folios</measure>
+                           <dimensions type="object" unit="mm">
+                              
+                              
+                           </dimensions>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           <width quantity="410"/><height min="30" max="40"/></dimensions>
+                           <dimensions type="written" unit="mm">
+                              
+                              
+                           <width quantity="360"/><height quantity="30"/></dimensions>
+                        </extent><foliation>Tamil letter-numerals, left margin
+The numbers begin at 100, which might indicate that this bundle is part of a larger one.</foliation><condition>Very good state of preservation despite minor breakages.</condition></supportDesc>
+                     <layoutDesc>
+                        
+                     <layout columns="1" writtenLines="13"/></layoutDesc>
+                  </objectDesc><handDesc><handNote scope="sole" script="grantha" medium="black incised soot"><desc>The Grantha script is used throughout since the text is in Sanskrit.</desc></handNote></handDesc><typeDesc/><additions>
+                  <desc type="blessing" subtype="beginning marginal left"><locus>1r</locus>: <q xml:lang="sa">hariḥ om</q></desc><desc type="documenting-note" subtype="beginning front guard-folio"><q xml:lang="sa">
+  <lb n="1"/>ākkama<gap reason="illegible" unit="character" quantity="2"/>śrīnivāsa | <gap reason="illegible" quantity="2" unit="character"/>yar
+  <lb n="2"/>āgama<unclear>prā</unclear>māṇyaṃ</q></desc></additions><bindingDesc>
+                     <binding>
+                        
+                        <decoNote type="stringhole">
+                           <measure unit="stringhole" quantity="2"/>
+                        </decoNote>
+                    <p>A thick palm-leaf is used as a cover
+Distance b/w 2 stringholes = 180 mm</p></binding>
+                  </bindingDesc></physDesc>
+               <history>
+                  
+                  
+                  
+               <origin>
+                     <origDate calendar="gregorian" notBefore="1700" notAfter="1900"/>
+                     
+                  <origPlace>Tamilnadu</origPlace></origin></history>
+               <additional>
+                  <listBibl>
+                     
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc><p>ISO for Tamil words and IAST for Sanskrit words</p></encodingDesc>
+      
+   <revisionDesc><change when="2023-07">In the rubric, should <q>puma</q> be <q>mupa</q>?
+Added XML Tags, measured the dimensions of leaf and written text. Measured the distance b/w the two string holes.</change></revisionDesc></teiHeader>
+   <facsimile>
+   </facsimile>
+</TEI>
