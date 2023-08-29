@@ -46,6 +46,7 @@ data.mss = (xmlDoc,base) => {
         ['title', find.title(xmlDoc)],
         ['languages', find.languages(xmlDoc)],
         ['material', find.material(xmlDoc)],
+        ['stringholes', find.stringholes(xmlDoc)],
         ['form', find.form(xmlDoc)],
         ['extent', find.extent(xmlDoc)],
         ['width', find.dimension(xmlDoc,'leaf','width')],
@@ -84,6 +85,7 @@ tables.create = (db,ftsdb) => {
         'languages TEXT, ' +
         'material TEXT, ' +
         'form TEXT, ' +
+        'stringholes INTEGER, ' +
         'extent TEXT, ' +
         'width REAL, ' +
         'height REAL, ' +

@@ -212,8 +212,8 @@ const find = {
     form: (xmlDoc) => {
         const el = xmlDoc.querySelector('objectDesc');
         if(!el) return;
-        const m = el.getAttribute('form');
-        if(!m) return;
+        const f = el.getAttribute('form');
+        if(!f) return;
         const forms = new Map([
             ['baad','bād'],
             ['codex','codex'],
@@ -224,7 +224,12 @@ const find = {
             ['roll','roll'],
             ['scrapbook','scrapbook']
         ]);
-        return materials.get(m) || m;
+        return forms.get(f) || f;
+    },
+    
+    stringholes: (xmlDoc) => {
+        const stringholes = xmlDoc.querySelector('measure[unit="stringhole"')?.quantity;
+        return stringholes;
     },
 
     extent: (xmlDoc) => {
