@@ -209,6 +209,24 @@ const find = {
         return materials.get(m);
     },
 
+    form: (xmlDoc) => {
+        const el = xmlDoc.querySelector('objectDesc');
+        if(!el) return;
+        const m = el.getAttribute('form');
+        if(!m) return;
+        const forms = new Map([
+            ['baad','bād'],
+            ['codex','codex'],
+            ['loose-leaf','loose leaf'],
+            ['plate','plate'],
+            ['poster','poster'],
+            ['pothi','pothi'],
+            ['roll','roll'],
+            ['scrapbook','scrapbook']
+        ]);
+        return materials.get(m) || m;
+    },
+
     extent: (xmlDoc) => {
         const folios = xmlDoc.querySelector('measure[unit="folio"]');
         if(folios) {
