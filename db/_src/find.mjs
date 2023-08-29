@@ -228,7 +228,7 @@ const find = {
     },
     
     stringholes: (xmlDoc) => {
-        const stringholes = xmlDoc.querySelector('measure[unit="stringhole"')?.quantity;
+        const stringholes = xmlDoc.querySelector('measure[unit="stringhole"]')?.getAttribute('quantity');
         return stringholes;
     },
 
