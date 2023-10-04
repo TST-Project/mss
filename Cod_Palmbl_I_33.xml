@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><title xml:lang="sa">Rāmāyaṇa</title></title>
+            
+         <editor><persName>Anuja Ajotikar</persName><orgName>University of Hamburg</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2023</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Staats- und UniversitätsBibliothek Hamburg Carl von Ossietzky</orgName>
+                  </repository>
+                  <idno type="shelfmark">Cod. Palmbl. I 33</idno>
+                  <idno type="alternate"><idno>35-3033</idno></idno>
+               </msIdentifier>
+               <msContents class="#STM">
+                  <summary><p xml:lang="en">  It appears to be an unknown commentary on the <title xml:lang="sa">Rāmāyaṇa</title> but no colophon was found to confirm which commentary it is. The verse on the 10v corresponds to verse 14 of the 56th chapter of the second <term xml:lang="sa">kāṇḍa</term> of the <title xml:lang="sa">Rāmāyaṇa</title> and the verses on the 12th folio correspond to the end of verse 68 and verse 69 from the 49th chapter of the 4th <term xml:lang="sa">kāṇḍa</term> of the <title xml:lang="sa">Rāmāyaṇa</title>.  Foliation appears to be continuous, however a half-broken blank folio is to be found between folio 12 and 13. Some folios are damaged at their edges. There are some tiny wormholes.  Letters are quite faint, making it difficult to read at times.  One folio blank and partly shattered. Still, the foliation continues until folio 73. The manuscript ends abruptly.  First nine folios are missing. </p>
+  <p xml:lang="en">Folios 71v-73r have some text written in Grantha.  The text goes:
+    <q rend="block" xml:lang="sa">
+<pb n="71v"/> 
+<lb n="1"/>śrīmān veṅkaṭanāthāya namaḥ | hṛdi trigoñca tvāgur<gap reason="illegible" unit="akṣara" quantity="1"/>tti 
+<pb n="73r2"/> ttā<gap reason="illegible" unit="akṣara" quantity="1"/> śrīnivāsācārya śrīnivāsācārya titav<gap reason="illegible"/> keśavācārya <gap reason="illegible"/> dīpanthaṭha kopasvāmī || </q>
+</p></summary>
+                  
+               <msItem xml:id="ramayan" defective="true"><title xml:lang="sa"> Rāmāyaṇa   </title><author xml:lang="sa">Vālmikimuni</author><textLang mainLang="san"/><filiation><p>New Catalogus Catalogorum vol. 25 pp. 19–36</p></filiation><incipit xml:lang="sa"><pb n="10v"/>
+<lb n="1"/> kausalyā vākyaṃ | vanavāsāya rāmasya pañcarātrodya gaṇyate | yaḥ śokahataharśāyāḥ pañcavarṣopama mameti | pañcarātrāgaṇyate ity anena pañcarātrayo gatāḥ idānīṃ 
+<lb n="2"/> ṣaṣṭho divas ityarthaḥ | tathoktaṃ </incipit><explicit xml:lang="sa"><pb n="70v"/>
+ <lb n="1"/> hārañca | tathā <gap unit="akṣara" quantity="1"/>bhogaṃ kau sujīvīktasūjītva prakāśakasvagūpa<gap unit="akṣara" quantity="1"/>ṇata<gap unit="akṣara" quantity="1"/>vāsarau śrāvaṇamiha<gap reason="illegible"/> <note xml:lang="en">half the line is not legible.</note></explicit></msItem></msContents>
+               <physDesc>
+                  
+                  
+                  
+                  
+                  
+               <objectDesc form="loose-leaf" rend="manuscript">
+                     <supportDesc material="palm-leaf">
+                        
+                        
+                        
+                        
+                        
+                     <support>
+                           <p>Hard wooden cover folio.</p>
+                        </support><extent>
+                           <measure unit="folio" quantity="62">2 guard folio, 60 written folio.</measure>
+                           <dimensions type="object" unit="mm">
+                              
+                              
+                           </dimensions>
+                           <dimensions type="leaf" unit="mm">
+                              <width quantity="310"/>
+                              <height quantity="25"/>
+                           </dimensions>
+                           <dimensions type="written" unit="mm">
+                              <width quantity="280"/>
+                              <height quantity="19"/>
+                           </dimensions>
+                        </extent><foliation>Tamil letter numerals in left margin.</foliation><condition>Good state of preservation.</condition></supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="7 8" streams="1"/>
+                     </layoutDesc>
+                  </objectDesc><handDesc><handNote scope="sole" script="grantha" medium="ink black incised"><desc>Good writing.</desc></handNote></handDesc><additions>
+                  </additions><bindingDesc>
+                     <binding>
+                        
+                        <decoNote type="stringhole">
+                           <measure unit="stringhole" quantity="2"/>
+                        </decoNote>
+                    </binding>
+                  </bindingDesc></physDesc>
+               <history>
+                  
+                  
+                  
+               <origin>
+                     <origDate calendar="gregorian"/>
+                     
+                  </origin></history>
+               <additional>
+                  <listBibl>
+                     
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc/>
+      
+   <revisionDesc><change when="2023-04">Proofread by Riccardo Paccagnella</change><change when="2023-04">In the summary to which folio does: "one folio blank and partly shattered" refer to?
+Best, Riccardo</change></revisionDesc></teiHeader>
+   <facsimile>
+   </facsimile>
+</TEI>
