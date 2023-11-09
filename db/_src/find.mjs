@@ -301,14 +301,16 @@ const find = {
 
     repo: (xmlDoc) => {
         const names = new Map([
+            ['Académie nationale de médecine, Paris','ANM'],
             ['Bibliothèque nationale de France. Département des Manuscrits','BnF'],
             ['Bibliothèque nationale de France. Département des Manuscrits.','BnF'],
+            ['Staats- und UniversitätsBibliothek Hamburg Carl von Ossietzky','Hamburg Stabi'],
             ['Biblioteca Apostolica Vaticana','Vatican'],
             ['Bibliothèque nationale et universitaire de Strasbourg','Bnu Strasbourg'],
-            ['Staats- und UniversitätsBibliothek Hamburg Carl von Ossietzky','Hamburg Stabi'],
+            ['Bibliothèque universitaire des langues et civilisations','BULAC'],
             ['Bodleian Library, University of Oxford','Oxford'],
             ['Cambridge University Library','Cambridge'],
-            ['Bibliothèque universitaire des langues et civilisations','BULAC'],
+            ['Collège de France','CdF'],
             ['Shri Lal Bahadur Shastri National Sanskrit University','SLBSNS'],
             ['Private collection','private']
         ]);
