@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><title xml:lang="ta">Irattiṉaccurukkam</title></title>
+            
+         <editor><persName>Emmanuel FRANCIS</persName><orgName>CNRS, CEIAS UMR 8564, EHESS/CNRS</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2023</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Académie nationale de médecine, Paris</orgName>
+                  </repository>
+                  <idno type="shelfmark">Ms 89(61)</idno>
+                  <idno type="alternate"/>
+               </msIdentifier>
+               <msContents class="#STM">
+                  <summary>The <title xml:lang="ta">Irattiṉaccurukkam</title> by <persName xml:lang="ta">Akattiyar</persName>.</summary>
+                  
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Irattiṉaccurukkam: Mūlam</title><textLang mainLang="tam"/></msItem></msContents>
+               <physDesc>
+                  
+                  
+                  
+                  
+                  
+               <objectDesc form="pothi" rend="manuscript">
+                     <supportDesc material="palm-leaf">
+                        
+                        
+                        
+                        
+                        
+                     <support>
+                           
+                        </support><extent>
+                           <measure unit="folio" quantity="106"/>
+                           <dimensions type="object" unit="mm">
+                              
+                              
+                           </dimensions>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           </dimensions>
+                           <dimensions type="written" unit="mm">
+                              
+                              
+                           </dimensions>
+                        </extent><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. </desc><desc xml:id="U1">106 folios= <emph rend="bold"><title xml:lang="ta">Irattiṉaccurukkam</title>: Text</emph>. No foliation. Blank recto verso.
+</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation></supportDesc>
+                     <layoutDesc>
+                        
+                     </layoutDesc>
+                  </objectDesc><handDesc><handNote synch="#U1" scope="sole" script="tamil" medium="incised soot"/></handDesc><additions>
+                  <desc synch="#U1" type="intertitle">Left marginal chapter intertitles: f4r, f8v, f9v, f10v, f12r, f13r, f14v, f16r, f17r, f18r, f19v, f20r, f22v, f24r, f25r, f26r, f28r, f30r, f32r, f33v, f35v, f37v, f40r, f41r, f42r, f43r, f44r, f45r, f46r, f48r, f49r, f50v, f51v, f53r, f55v, f56v, f58r, f59v, f60v, f61v, f62v, f64r, f65r, f66v, f67v, f68v, f69v, f70v, f71v, f72r, f73v, f74v, f75v, f76r, f76v, f77r, f78r, f80r, f81r, f82v, f83v, f84r, f86r, f87r, f87v, f88r, f88v, f89r, f89v, f90v, f91v, f92r, f93v, f94v, f95v, f96v, f97r, f99v, f103r, f104r.</desc></additions><bindingDesc>
+                     <binding>
+                        
+                        <decoNote type="stringhole">
+                           <measure unit="stringhole"/>
+                        </decoNote>
+                    </binding>
+                  </bindingDesc></physDesc>
+               <history>
+                  
+                  
+                  
+               <origin>
+                     <origDate calendar="gregorian" notAfter="1890"/>
+                     <origPlace>South India, Tamil Nadu.</origPlace>
+                  </origin></history>
+               <additional>
+                  <listBibl>
+                     
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc><p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.            </p></encodingDesc>
+      
+   <revisionDesc><change when="2023-11">Record created by <persName>Emmanuel FRANCIS</persName>.</change></revisionDesc></teiHeader>
+   <facsimile>
+   </facsimile>
+<text synch="#U1" corresp="#T1" xml:lang="ta"><body>
+			<ab>
+				<pb facs="00" n="1r"/>
+				<fw place="left-margin" n="1">
+					<seg function="title">
+					<lb n="1"/>Aka<seg rend="grantha">s·</seg>tiyar
+                      <lb n="2"/>vayittiyar
+                      <lb n="3"/>rettiṉaccu
+                      <lb n="4" break="no"/>rukkam
+                      <lb n="5" break="no"/>muṉṉū<choice><orig>t</orig><reg>r</reg></choice>’ aṟupatu
+                      </seg>
+				</fw>
+              
+              <fw place="left-margin" n="2">
+					<seg function="blessing">
+					<lb n="1"/>kuruvē
+                      <lb n="2"/>tuṇai
+                      </seg>
+				</fw>
+				<seg function="incipit">
+					<lb n="1"/>...</seg>
+              
+  </ab>
+</body></text></TEI>
