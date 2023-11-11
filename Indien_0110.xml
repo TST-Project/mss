@@ -19,7 +19,7 @@
                   </repository>
                   <idno type="shelfmark">Indien 110</idno>
                   <idno type="alternate"><idno>Tamoul 110</idno><idno>Ariel 142</idno><idno>d/15</idno></idno>
-               </msIdentifier>
+               <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1035739</idno></msIdentifier>
                <msContents class="#CM">
                   <summary><p>A composite manuscript containing two medical works:
 <list rend="numbered">
@@ -118,12 +118,18 @@
   <lb n="1"/>Akasttiyar
 <lb n="2"/>rettiṉacuru
 <lb n="3" break="no"/>kkam vayit=ti<g rend="below-base">yaM</g>
-<lb n="4"/>muṉṉūttaṟa
-<lb n="5" break="no"/>patu<app><note xml:lang="en">That is, <foreign xml:lang="ta">muṉṉūr<pc>’</pc> aṟupatu</foreign>, that is, 360</note></app> <g ref="#pcs"/> <g ref="#pcs"/></seg>
+<lb n="4"/>muṉṉū<choice><orig>tt</orig><reg>ṟṟ</reg></choice>' aṟ<choice><sic>a</sic><corr>u</corr></choice>
+<lb n="5" break="no"/>patu <g ref="#pcs"/> <g ref="#pcs"/></seg>
         </fw>
 
     <seg function="incipit">
-  <lb n="1"/>pūrṇamāy <gap reason="ellipsis"/></seg> 
+      <lg>
+        <l><lb n="1"/>pūrṇamāy pūṟṇamāy nirainta kuru paraiyēp pō<choice><orig>ṟṟ</orig><reg>tt</reg></choice>ip pukalukuṟēṉ vayitti<lb n="2" break="no"/>ya rettiṉaccurukkan taṉṉai</l>
+        <l>vāraṇamāy mukattōṉai<lb n="3" break="no"/>p paṇintu vāḻtti vayittiyan nāṇinta muṉṉū<choice><orig>tt</orig><reg>ṟṟ</reg></choice>’ aṟupatu<lb n="4" break="no"/>kkuḷ</l>
+        <l>kāraṇamāyc centūram pa<seg rend="grantha">ṣ</seg>ppam lēkiyam karuvāṉa <lb n="5"/> tayilamoṭu kiṟutam yeṇṇai</l>
+        <l>cūṟaṇamāka kiṟāṇamoṭu kalikka<lb n="6" break="no"/>māttirai cuḷukkuku ṉāṭimutal coṉṉōmpārē <g ref="#pcs"/> 1 <g ref="#pcs"/></l>
+        </lg>
+      </seg> 
   
   <seg function="explicit"><pb facs="129" n="123v"/>
     <lb n="4"/>viparamuttē <g ref="#pcs"/> <num rend="traditional">365</num></seg> <g ref="#pcs"/> <seg function="blessing">tirucci<sic>tta</sic>mpalam</seg> <g ref="#pcs"/>
