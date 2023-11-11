@@ -15,16 +15,19 @@
             <msDesc>
                <msIdentifier>
                   <repository>
-                     <orgName>Académie nationale de médecine, Paris</orgName>
+                     <orgName>Bibliothèque de l'Académie nationale de médecine, Paris</orgName>
                   </repository>
-                  <idno type="shelfmark">Ms 89(61)</idno>
+                  <idno type="shelfmark">Ms 89 (61)</idno>
                   <idno type="alternate"/>
                </msIdentifier>
                <msContents class="#STM">
-                  <summary><p>The <title xml:lang="ta">Irattiṉaccurukkam 360</title> by <persName xml:lang="ta">Akattiyar</persName>, that is, a medical treatise in 360 verses.</p>
-<p>Photos by Emmanuel Francis (November 2023), by courtesy of Académie nationale de médecine, Paris.</p></summary>
+                  <summary><p>The <title xml:lang="ta">Irattiṉaccurukkam 360</title> by <persName xml:lang="ta">Akattiyar</persName>, that is, a medical treatise in 360 verses/<foreign xml:lang="ta">cūttiram</foreign>s.</p>
+<p>Photos by Emmanuel Francis (November 2023), by courtesy of Bibliothèque Académie nationale de médecine, Paris.</p></summary>
                   
-               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Irattiṉaccurukkam: Mūlam</title><textLang mainLang="tam"/></msItem></msContents>
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Irattiṉaccurukkam: Mūlam</title><textLang mainLang="tam"/><filiation><p><list>
+  <item><ref target="https://tst-project.github.io/mss/Indien_0100.xml">BnF Indien 100</ref></item>
+  <item><ref target="https://tst-project.github.io/mss/Indien_0110.xml">BnF Indien 110</ref></item>
+  </list></p></filiation></msItem></msContents>
                <physDesc>
                   
                   
@@ -59,7 +62,7 @@
                      <layoutDesc>
                         
                      <layout writtenLines="5 7">5 to 6 lpp in general. 7 lpp for  f101-f106.</layout></layoutDesc>
-                  </objectDesc><handDesc><handNote synch="#U1" scope="sole" script="tamil" medium="incised"/></handDesc><additions>
+                  </objectDesc><handDesc><handNote synch="#U1" scope="sole" script="tamil" scriptRef="#tamilPulliSporadic #tamilOE" medium="incised"><desc>The <foreign xml:lang="ta">puḷḷi</foreign> is used, but not consistently and often, instead of disambiguating macron, to mark, contrary to its usual function, the vocalisation <foreign xml:lang="ta">a</foreign> of the consonant <foreign xml:lang="ta">r</foreign>.</desc></handNote></handDesc><additions>
                   <desc type="documenting-note" subtype="detached">Notes on contents and language in black ink and black pencil (<locus facs="11">detached paper sheet</locus>):
 <quote xml:lang="fr" rend="block">
   <lb n="1"/>Vayittiyam. Traité de médecine et antidotaire
@@ -124,9 +127,12 @@ The description of the manuscript in Demaison (1909) is based on this note. </de
 				</fw>
               
 				<seg function="incipit">					                  
-                  <lg><l><lb n="1"/>pūṟṇamāy nirainta kuru pata<supplied reason="omitted">t</supplied>tai pō<choice><orig>tt</orig><reg>ṟṟ</reg></choice>ip pukaluki
-<lb n="2" break="no"/>ṟēṉ vayit=tiya rettiṉaccurukkan taṉṉai ·</l> <gap reason="ellipsis"/></lg> 
-              </seg>
+                  <lg>
+                    <l><lb n="1"/>pūṟṇamāy nirainta kuru pata<supplied reason="omitted">t</supplied>tai pō<choice><orig>tt</orig><reg>ṟṟ</reg></choice>ip pukaluki
+<lb n="2" break="no"/>ṟēṉ vayit=tiya rettiṉaccurukkan taṉṉai ·</l>
+                    <l>vāraṇamā<lb n="3" break="no"/>m mutalōṉaip paṇintu pō<choice><orig>tt</orig><reg>ṟṟ</reg></choice>i vayittiyan tāṉ muṉ<lb n="4" break="no"/>nūṟṟ<sic>a</sic> Aṟupatukkuḷ</l>
+                    <l>kāraṇam āñcentūra <unclear>paṟ</unclear>pam lē <lb n="5" break="no"/>kiyaṅ karuvāṉa tayilamoṭu kiṟutameṇṇe ·</l></lg></seg>
+              cūraṇa
               
               <pb facs="21" n="1v"/>
               
@@ -149,6 +155,11 @@ The description of the manuscript in Demaison (1909) is based on this note. </de
                       </seg>               
 				</fw>
               
+              <pb facs="33" n="8r"/>
+              <lb n="1"/><gap reason="ellipsis"/>
+              <lb n="2"/><gap reason="ellipsis"/> kaimārē <g ref="#pcl"/> <seg function="completion-statement">nāṭiccūttira muppatt’ o
+              <lb n="3" break="no"/>ṇṇu mu<choice><orig>tt</orig><reg>ṟṟ</reg></choice>um <g ref="#pcl"/> Iṉi cūṟnamāka<gap reason="ellipsis"/> rai varum āru <g ref="#pcl"/></seg>
+
               <pb facs="36" n="8v"/>
               
 				<fw place="left-margin">
@@ -204,8 +215,22 @@ The description of the manuscript in Demaison (1909) is based on this note. </de
 					<lb n="1-3"/>kōrōcaṉaikkuḷikai
                       </seg>               
 				</fw>       
+             
+              <pb facs="44" n="17r"/>
               
+				<fw place="left-margin">
+					<seg function="intertitle">
+					<lb n="1-3"/>pumaṇiyuṇaṉ
+                      </seg>               
+				</fw>  
+                            
+              <pb facs="45" n="18r"/>
               
+				<fw place="left-margin">
+					<seg function="intertitle">
+					<lb n="1-3"/>Artaṉātīcuvaram
+                      </seg>               
+				</fw>  
               <pb facs="53" n="103r"/>
               
 				<fw place="left-margin">
