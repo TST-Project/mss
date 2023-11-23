@@ -301,7 +301,7 @@ const find = {
 
     repo: (xmlDoc) => {
         const names = new Map([
-            ['Bibliothèque de l'Académie nationale de médecine, Paris','BANM'],
+            ['Bibliothèque de l\'Académie nationale de médecine, Paris','BANM'],
             ['Bibliothèque nationale de France. Département des Manuscrits','BnF'],
             ['Bibliothèque nationale de France. Département des Manuscrits.','BnF'],
             ['Staats- und UniversitätsBibliothek Hamburg Carl von Ossietzky','Hamburg Stabi'],
