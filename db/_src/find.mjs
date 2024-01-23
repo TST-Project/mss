@@ -304,7 +304,7 @@ const find = {
             ['Bibliothèque de l\'Académie nationale de médecine, Paris','BANM'],
             ['Bibliothèque nationale de France. Département des Manuscrits','BnF'],
             ['Bibliothèque nationale de France. Département des Manuscrits.','BnF'],
-            ['Staats- und UniversitätsBibliothek Hamburg Carl von Ossietzky','Hamburg Stabi'],
+            ['Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky','Hamburg Stabi'],
             ['Biblioteca Apostolica Vaticana','Vatican'],
             ['Bibliothèque nationale et universitaire de Strasbourg','Bnu Strasbourg'],
             ['Bibliothèque universitaire des langues et civilisations','BULAC'],
