@@ -1,0 +1,96 @@
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><title xml:lang="sa">Varāhapurāṇa</title></title>
+            
+         <editor><persName>Anuja Ajotikar</persName><orgName>University of Hamburg</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2023</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Staats- und UniversitätsBibliothek Hamburg Carl von Ossietzky</orgName>
+                  </repository>
+                  <idno type="shelfmark">Cod. Palmbl. I 55</idno>
+                  <idno type="alternate"><idno>35-3055</idno></idno>
+               </msIdentifier>
+               <msContents class="#STM">
+                  <summary> This manuscript contains the <title xml:lang="sa">Varāhapurāṇa</title>. It looks like it consist of a single chapter. Last folio is not numbered. Number 55 is written in pink chalk on the front cover.</summary>
+                  
+               <msItem xml:id="varahapurana" defective="false"><title xml:lang="sa">Varāhapurāṇa   </title><textLang mainLang="san"/><filiation><p>New Catalogus Catalogorum vol. 27 pp. 148-155
+</p></filiation><incipit xml:lang="sa"><pb n="1v"/>
+<lb n="1"/>śrīparāśarabhaṭṭārya śrīraṃgeśapurohitaḥ śrīvatsāṅkasūta śrīmān śreyase me sūbhūyase namas tasmai varāhāya līlayoddarate mahiṃ khuramadhya gato 
+<lb n="2"/>yasya meruḥ kaṇakaṇāyate |
+</incipit><explicit xml:lang="sa"><pb n="18r"/>
+<lb n="4"/>ṇañca matārtha rājñā<gap unit="akṣara" quantity="1"/></explicit><finalRubric xml:lang="sa"><pb n="18r"/>
+<lb n="4"/><gap reason="ellipsis"/> iti śrīvarāhapurāṇe śrīvarāhabhumi saṃhaladānāma aṣṭāpañcāśiṃśo dhyāyaḥ</finalRubric><colophon xml:lang="sa"><pb n="18r"/>
+<lb n="4"/><gap reason="ellipsis"/> svasti prajābhiḥ <lb n="5"/>iti <gap reason="lost" unit="akṣara" quantity="5-6"/> tātācāryamahāgurubhyo namaḥ hariḥ oṃ śrīmate rāmānujāya namaḥ |</colophon></msItem></msContents>
+               <physDesc>
+                  
+                  
+                  
+                  
+                  
+               <objectDesc form="loose-leaf" rend="manuscript">
+                     <supportDesc material="palm-leaf">
+                        
+                        
+                        
+                        
+                        
+                     <support>
+                           <p>Thin palm leaf used as cover.</p>
+                        </support><extent>
+                           <measure unit="folio" quantity="20">2 guard folios, 18 written folios</measure>
+                           <dimensions type="object" unit="mm">
+                              
+                              
+                           </dimensions>
+                           <dimensions type="leaf" unit="mm">
+                              <width quantity="480" min="430"/>
+                              <height quantity="29" min="20"/>
+                           </dimensions>
+                           <dimensions type="written" unit="mm">
+                              <width quantity="392" min="350"/>
+                              <height quantity="22" min="15"/>
+                           </dimensions>
+                        </extent><foliation>Tamil numbers in the left margin on the verso of the folio.</foliation><condition>Very good condition</condition></supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="6 7" streams="1"/>
+                     </layoutDesc>
+                  </objectDesc><handDesc><handNote scope="sole" script="grantha" medium="ink black"><desc>Good clean writing.</desc></handNote></handDesc><additions>
+                  </additions><bindingDesc>
+                     <binding>
+                        
+                        <decoNote type="stringhole">
+                           <measure unit="stringhole" quantity="2"/>
+                        </decoNote>
+                    </binding>
+                  </bindingDesc></physDesc>
+               <history>
+                  
+                  
+                  
+               <origin>
+                     <origDate calendar="gregorian"/>
+                     
+                  </origin></history>
+               <additional>
+                  <listBibl>
+                     
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc><p>Spaces are added to separate words.</p></encodingDesc>
+      
+   <revisionDesc><change when="2023-04">Proofread by Riccardo Paccagnella</change></revisionDesc></teiHeader>
+   <facsimile>
+   </facsimile>
+</TEI>
