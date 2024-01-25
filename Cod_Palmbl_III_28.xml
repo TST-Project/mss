@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -13,7 +13,7 @@
             <msDesc>
                <msIdentifier>
                   <repository>
-                     <orgName>Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky</orgName>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
                   </repository>
                   <idno type="shelfmark">Cod. Palmbl. III 28</idno>
 			<idno type="alternate"><idno>35-3274</idno></idno>
@@ -24,16 +24,16 @@
                <msItem xml:id="Mbh" defective="false"><title xml:lang="sa">Mahābhārata</title><textLang mainLang="san"/><filiation><p>Aufrecht Catalogus Vol.2 p.100
 Mausalaparvan- New Catalogus Catalogorum vol. 19 p. 119-120
 Svargārohaṇaparvan - New Catalogus Catalogorum vol. 19 p. 120-121
-Mahābhārata (with parva Specified) - New Catalogus Catalogorum vol. 19 p. 103-104</p></filiation><rubric xml:lang="sa"><pb n="1v" facs="6"/>
-<lb n="1"/> om śrīvaiśaṁpāyanaḥ|</rubric><incipit xml:lang="sa"><pb n="1v" facs="6"/>
+Mahābhārata (with parva Specified) - New Catalogus Catalogorum vol. 19 p. 103-104</p></filiation><rubric xml:lang="sa"><pb n="1r" facs="6"/>
+<lb n="1"/> om śrīvaiśaṃpāyanaḥ|</rubric><incipit xml:lang="sa"><pb n="1r" facs="6"/>
 <lb n="1"/>ṣaṭ traṃśe tv atha saṃprāpte varṣe kauravanandanaḥ
       dadarśa viparītāni nimi <gap unit="akṣara" quantity="14" reason="lacuna"/>
-<pb n="1v" facs="6"/>
+<pb n="1r" facs="6"/>
 <lb n="2"/> rūkṣāḥ śarkaravarṣiṇaḥ
       apasavyāni śakunā maṇḍalāni pracakrire |
-</incipit><explicit xml:lang="sa"><pb n="35v" facs="40"/>
-<lb n="1"/> pūjanīyashcha satataṃ <pb n="35v" facs="40"/>
-<lb n="2"/> māninīyo bhaveddvijaḥ ||</explicit><finalRubric xml:lang="sa"><pb n="35v" facs="40"/>
+</incipit><explicit xml:lang="sa"><pb n="35r" facs="40"/>
+<lb n="1"/> pūjanīyashcha satata <pb n="35r" facs="40"/>
+<lb n="2"/> māninīyo bhaveddvijaḥ ||</explicit><finalRubric xml:lang="sa"><pb n="35r" facs="40"/>
 <lb n="2"/> iti śrīmahābhārate śatasahasrikāyāṃ saṃhitāyām svargārohaṇike pañcamodhyāyāḥ
 </finalRubric></msItem></msContents>
                <physDesc>
@@ -52,9 +52,8 @@ Mahābhārata (with parva Specified) - New Catalogus Catalogorum vol. 19 p. 103-
                      <support>
                            
                            <p>Palm leaves are used as guard folio.</p>
-                        </support>
-                        <extent>
-                           <measure unit="folio" quantity="35">2 guard folios, 2 blank folios and 35 written folios</measure>
+                        </support><extent>
+                           <measure unit="folios" quantity="35">2 guard folios, 2 blank folios and 35 written folios</measure>
                            <dimensions type="leaf" unit="mm">
                               <width quantity="442"/>
                               <height quantity="34" min="30"/>
@@ -63,16 +62,11 @@ Mahābhārata (with parva Specified) - New Catalogus Catalogorum vol. 19 p. 103-
                      <layoutDesc>
                         <layout columns="1" writtenLines="5 7" streams="1"/>
                      </layoutDesc>
-                  </objectDesc>
-                  <handDesc><handNote><desc>Well written. </desc></handNote></handDesc>
-                  <decoDesc>
-                  </decoDesc>
-                  <additions>
-                  <desc type="blessing" subtype="marginal">Left margin of the fisrt folio hariḥ oṃ.</desc><desc type="shelfmark" subtype="cover">8 is written in blue pencil on the cover.</desc><desc type="chapter-heading" subtype="marginal">Mausalaparava is written in the left margin on <pb n="1v" facs="6"/>.</desc></additions>
-                  <bindingDesc>
-                     <binding/>
-                  </bindingDesc>
-               </physDesc>
+                  </objectDesc><handDesc><handNote scope="sole" script="grantha" medium="incised"><desc>Well written. </desc></handNote></handDesc><decoDesc>
+                  </decoDesc><additions>
+                  <desc type="blessing" subtype="marginal">Left margin of the fisrt folio hariḥ om.</desc><desc type="shelfmark" subtype="cover">8 is written in blue pencil on the cover.</desc><desc type="chapter-heading" subtype="marginal">Mausalaparava is written in the left margin on <pb n="1r" facs="6"/>.</desc></additions><bindingDesc>
+                     <binding><decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
+                  </bindingDesc></physDesc>
                <history>
                   
                   
@@ -105,17 +99,17 @@ B.A. (Oxon), M.A., published by Vavilla Ramaswamy Sastrulu and Sons, Madras
       </revisionDesc></teiHeader>
    <facsimile><graphic url="https://iiif.archive.org/iiif/cod-palmbl-iii-28/manifest.json"/>
    </facsimile>
-<text corresp="#Mbh" xml:lang="sa"><pb n="1v" facs="6"/>
-<lb n="1"/>  oṃ śrīvaiśaṃpāyanaḥ
+<text corresp="#Mbh" xml:lang="sa"><pb n="1r" facs="6"/>
+<lb n="1"/>  om śrīvaiśaṃpāyanaḥ
 ṣaṭ traṃśe tv atha saṃprāpte varṣe kauravanandanaḥ
       dadarśa viparītāni nimi <gap unit="akṣara" quantity="14" reason="lacuna"/>
-<pb n="1v" facs="6"/>
+<pb n="1r" facs="6"/>
 <lb n="2"/> rūkṣāḥ śarkaravarṣiṇaḥ
       apasavyāni śakunā maṇḍalāni pracakrire |
 
-<pb n="35v" facs="40"/>
+<pb n="35r" facs="40"/>
 <lb n="1"/> sukhamaśnute | vyāsaprasādena punaḥ svargalokaṃ sa gacchhati || etadviditvā sarvaṃ tat sarvavedārthavidbhavet | pūjanīyaśca satataṃ
-<pb n="35v" facs="40"/>
-<lb n="2"/> māninīyo bhaveddvijaḥ || iti śrīmahābhārate śatasahasrikāyāṃ saṃhitāyām svargārohaṇike pañcamodhyāyāḥ
+<pb n="35r" facs="40"/>
+<lb n="2"/> māninīyo bhaveddvijaḥ || iti śrīmahābhārate śatasahasrikāyāṃ saṁhitāyām svargārohaṇike pañcamodhyāyāḥ
 
 </text></TEI>
