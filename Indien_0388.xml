@@ -209,7 +209,6 @@
       <pb facs="9" n="[1]r"/>
       
       <fw place="left-margin">
-        <cb n="1"/>
         <lb n="1"/><g ref="#pcs"/> 1
       </fw>
       
@@ -241,8 +240,33 @@
       
       <pb facs="223" n="107r"/>
       
+      <fw place="left-margin">
+        <lb n="1"/><g ref="#pcs"/> <num rend="traditional">107</num>
+      </fw>
+            
       <pb facs="224" n="107v"/>
       <app><note xml:lang="en">blank page</note></app>
       
+      <seg function="intertitle">
+        <cb n="1"/>
+        <lb n="1-5"/><gap reason="ellipsis"/>
+      </seg>
+
+      <seg function="explicit">
+       <lg>
+         <l><cb n="2"/><lb n="1"/>kayalē <gap reason="ellipsis"/></l>
+         <l><lb n="2"/>ceyalē <gap reason="ellipsis"/></l>
+         <l><lb n="3"/>vayalē <gap reason="ellipsis"/></l>
+         <l><lb n="4"/>puyalē <gap reason="ellipsis"/></l>
+         </lg>
+      </seg>
+      
+             <seg function="completion-statement">
+        <cb n="3"/>
+        <lb n="1-2"/>muṟṟiṟṟu
+           <cb n="4"/>
+        <lb n="1-2"/>muṟṟum
+          </seg>
+            
     </ab>
 </body></text></TEI>
