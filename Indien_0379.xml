@@ -20,7 +20,10 @@
             <idno type="alternate"><idno>Tamoul 379</idno><idno>Ariel 159</idno></idno>
             <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc1039068</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b52516199v</idno></msIdentifier>
           <msContents class="#STM">
-            <summary><p>A copy of the <title xml:lang="ta">Nūṟṟeṭṭu Tiruppati Antāti</title>. See Zvelebil (1995, p. 76).</p>
+            <summary><p>A copy of the <title xml:lang="ta">Nūṟṟeṭṭu Tiruppati Antāti</title>. 114 stanzas: 2 <foreign xml:lang="ta">kāppu</foreign> stanzas + 112 stanzas.</p>
+
+<p>See Zvelebil (1995, p. 76). One of the <title xml:lang="ta">Aṣṭapirapantam</title> by <persName xml:lang="ta" role="author">Piḷḷaip Perumāḷ Aiyaṅkār</persName>, alias <persName xml:lang="ta" role="author">Aḻakiya Maṉavaḷa Tācar</persName>. Possibly by different authors, at least 6 authors and some may be one and the same person. <title xml:lang="ta">Nūṟṟeṭṭu Tiruppati Antāti</title> by <persName xml:lang="ta" role="author">Maṉavaḷa Tācar</persName>.  
+  </p>
 
 <p>Description based on the examination of the original manuscript (January 2024).</p>
 
@@ -73,7 +76,7 @@
               
               
               
-              <handNote synch="#U1a" scope="minor" script="tamil" medium="incised soot"><desc>Hand #1.</desc></handNote><handNote synch="#U2 #U2a #U2b" scope="major" medium="incised soot"><desc>Hand #2.</desc></handNote></handDesc><additions><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 379</quote> (<locus facs="1">front cover, recto</locus>), covering an older sticker.</desc><desc synch="#CoverFront" type="documenting-note" subtype="cover front">BnF donation sticker <quote>DON N° <space type="vacat"/></quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#U1a" type="shelfmark">Shelfmark <quote>c/70</quote> in black ink (<locus facs="3">f[1]r</locus>). </desc><desc synch="#U1a" type="shelfmark">Shelfmark sticker (Société Asiatique?), written in black ink: <quote>674</quote> (<locus facs="3">f[1]r</locus>).</desc><desc synch="#U2b" type="verse-numbering"/></additions><bindingDesc>
+              <handNote synch="#U1a" scope="minor" script="tamil" medium="incised soot"><desc>Hand #1.</desc></handNote><handNote synch="#U2 #U2a #U2b" scope="major" medium="incised soot"><desc>Hand #2.</desc></handNote></handDesc><decoDesc><decoNote synch="#U1a" type="decorative" subtype="marginal left"><desc><foreign xml:lang="sa">hari Om</foreign> blessing with the word <foreign>hari</foreign> inscribed inside the word <foreign>Om</foreign> (<locus facs="5">f[1]r</locus>, lm).</desc></decoNote></decoDesc><additions><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker <quote>INDIEN 379</quote> (<locus facs="1">front cover, recto</locus>), covering an older sticker.</desc><desc synch="#CoverFront" type="documenting-note" subtype="cover front">BnF donation sticker <quote>DON N° <space type="vacat"/></quote> (<locus facs="1">front cover, recto</locus>).</desc><desc synch="#U1a" type="shelfmark">Shelfmark <quote>c/70</quote> in black ink (<locus facs="3">f[1]r</locus>). </desc><desc synch="#U1a" type="shelfmark">Shelfmark sticker (Société Asiatique?), written in black ink: <quote>674</quote> (<locus facs="3">f[1]r</locus>).</desc><desc synch="#U2b" type="verse-numbering"/></additions><bindingDesc>
                 <binding>
                   <p><material cert="medium">Pinewood</material> covers apparently fabricated in the BnF.</p>
                   <decoNote type="stringhole"><measure unit="stringhole" quantity="1"/></decoNote></binding>
@@ -155,22 +158,37 @@
       
       <fw place="left-margin">
         <seg function="blessing">
-          <lb n="1"/>
+          <lb n="1"/><seg rend="grantha">hari Om</seg><app><note>The word <seg rend="grantha">hari</seg> is inscribed inside the word <seg rend="grantha">Om</seg></note></app>
           </seg>
         </fw>
       
        <seg function="title">
          <cb n="1"/>
-         <lb n="1"/>
-         <lb n="2"/>
+         <lb n="1"/>nūṟṟeṭṭut
+         <lb n="2"/>tiruppati yantāti         
 </seg>
       
-      <cb n="2"/>
+      <seg function="invocation"><cb n="2"/>
+      <lg>
+        <l><lb n="1"/>pēṟu <gap reason="ellipsis"/></l>
+        <l><lb n="2"/>vīṟu <gap reason="ellipsis"/></l>
+        <l><lb n="3"/>nāṟu <gap reason="ellipsis"/></l>
+        <l><lb n="4"/>yāṟu <gap reason="ellipsis"/></l>
+       </lg>
+        </seg>
       
       <pb facs="6" n="[1]v"/>
       
-            
+            <seg function="invocation">
+      <lg>
+        <l><lb n="1"/>para <gap reason="ellipsis"/></l>
+        <l><lb n="2"/>Ara <gap reason="ellipsis"/></l>
+        <l><lb n="3"/>cura <gap reason="ellipsis"/></l>
+        <l><lb n="4"/>vara <gap reason="ellipsis"/></l>
+       </lg>
+        </seg>
     </ab>
+  
 </body></text><text synch="#U2b" corresp="#T3" xml:lang="ta"><body>
     <ab>
       
@@ -179,34 +197,40 @@
       <fw place="left-margin">
              <seg function="blessing">
               <lb n="1-2"/>naṉṟāka
-              </seg>
-         
+              </seg>         
         </fw>
       
+      <seg function="intertitle">
+      <cb n="1"/>
+        <lb n="1"/>cōḻamaṇṭalattil          
+        <lb n="2"/>śrīṟaṅkam
+        </seg>           
+           
        <seg function="incipit">
        <lg>
-         <l><lb n="1"/><gap reason="ellipsis"/></l>
-         <l><lb n="2"/><gap reason="ellipsis"/></l>
-         <l><lb n="3"/><gap reason="ellipsis"/></l>
-         <l><lb n="4"/><gap reason="ellipsis"/></l>
+         <l><cb n="2"/><lb n="1"/>cīta <gap reason="ellipsis"/></l>
+         <l><lb n="2"/>tīta <gap reason="ellipsis"/></l>
+         <l><lb n="3"/>Ōta <gap reason="ellipsis"/></l>
+         <l><lb n="4"/>māta <gap reason="ellipsis"/> <g ref="#pcs"/> 1 <g ref="#pcs"/></l>
          </lg>
       </seg>
       
-      <pb facs="8" n="56v"/>
+      <pb facs="118" n="56v"/>
       
-      <fw place="left-margin">
-             <seg function="intertitle">
-              <lb n="1-3"/>
-              </seg>
-         
-        </fw>
+       <seg function="intertitle">
+      <cb n="1"/>
+        <lb n="1"/>tirumalaiyattaṅki
+         <lb n="2"/><unclear reason="vowel_unclear">tā</unclear>tācāriyar cīṣaṉ
+        <lb n="3"/><unclear>c</unclear>oṉ<unclear>ṉa</unclear>tu
+        
+                </seg>          
       
        <seg function="explicit">
        <lg>
-         <l><lb n="1"/><gap reason="ellipsis"/></l>
-         <l><lb n="2"/><gap reason="ellipsis"/></l>
-         <l><lb n="3"/><gap reason="ellipsis"/></l>
-         <l><lb n="4"/><gap reason="ellipsis"/></l>
+         <l><cb n="2"/><lb n="1"/>varu <gap reason="ellipsis"/></l>
+         <l><lb n="2"/>poru <gap reason="ellipsis"/></l>
+         <l><lb n="3"/>ceru <gap reason="ellipsis"/></l>
+         <l><lb n="4"/>tiru <gap reason="ellipsis"/> <g ref="#pcs"/> <num rend="traditional">112</num> <g ref="#pcs"/></l>
          </lg>
       </seg>
       
