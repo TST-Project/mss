@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -9,7 +7,7 @@
          <editor><persName>Marco Franceschini</persName><orgName>University of Bologna</orgName></editor></titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2022</date>
+            <date>2024</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -30,48 +28,48 @@
 <lb n="7"/> śṛṃgāravṛṣabhaṃ | laḷitāsanaṃ | madanatoraṇaṃ | āndoḷinaṃ | padakajjaḷī | bhaṃsikaṃ | mahīdharā<unclear reason="eccentric_ductus">bhrānta</unclear>ṃ | <lb n="8"/> u<unclear reason="eccentric_ductus">nna</unclear>tarataṃ | līlāsanaṃ | śṛṃgārakautukam iti | - yatra puruṣaṃ karābhyāṃ śayyām āliṃgyati nārī puruṣa<lb n="9"/>sya ūrū pari</explicit><explicit xml:lang="sa"><milestone n="14r" unit="folio"/>
 <lb n="8"/>pādāṃguḷīsu pārṣṇī sirāvirahitau tadā | māṃsaḷau śūḍhagulphau ca kūrmmakṛṣṭhasamā<lb n="9"/>vapi | bhavetāñ caraṇau yasya sa bhavet pṛthivīpatiḥ | vikṛtāśūrpasaṃkāśāsasvedau hrasvapā<lb n="10"/>ṇḍarau | romaśau caraṇau yasya sa bhaved duḥkhajīvitaḥ |</explicit></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi" rend="manuscript">
+                  
+                  
+                  
+                  
+                  
+               <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf talipot">
-                        <support>
+                        
+                        
+                        
+                        
+                        
+                     <support>
                            
-                        </support>
-                        <extent>
+                        </support><extent>
                            <measure unit="folio" quantity="15">1 cover (being itself a palm leaf), 14 numbered folios (the last folio serves also as back cover). </measure>
                            <dimensions type="leaf" unit="mm">
                               <width quantity="233"/>
                               <height quantity="44"/>
                            </dimensions>
-                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"><width quantity="204"/><height quantity="35"/></dimensions></extent>
-                        <collation><desc xml:id="frontCover">Outer face: a paratext on three lines is hardly legible, partly due to the darkened colour of the cover, partly because it is covered by a piece of paper glued onto the cover and overwritten by the shelfmarks and the title written by a modern hand. Inner face: blank.</desc><desc xml:id="Madanānanda">The beginning of each section of the work is marked with the name of the topic dealed therein written on the left margin of the folio.</desc></collation>
-                        
-                        
-                     <foliation>Tamil numerals.</foliation><condition>Good state of preservation, with sparse holes bored by insects.</condition></supportDesc>
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"><width quantity="204"/><height quantity="35"/></dimensions></extent><foliation>Tamil numerals.</foliation><collation><desc xml:id="frontCover">Outer face: a paratext on three lines is hardly legible, partly due to the darkened colour of the cover, partly because it is covered by a piece of paper glued onto the cover and overwritten by the shelfmarks and the title written by a modern hand. Inner face: blank.</desc><desc xml:id="Madanānanda">The beginning of each section of the work is marked with the name of the topic dealed therein written on the left margin of the folio.</desc></collation><condition>Good state of preservation, with sparse holes bored by insects.</condition></supportDesc>
                      <layoutDesc>
                         <layout writtenLines="10 11"/>
                      </layoutDesc>
-                  </objectDesc>
-                  <handDesc><handNote synch="#frontCover #Madanānanda" scope="sole" script="grantha" medium="black incised"/></handDesc>
-                  <decoDesc>
-                  </decoDesc>
-                  <additions>
-                  <desc synch="#Madanānanda" type="blessing" subtype="marginal left"><milestone n="1r" unit="folio"/>hariḥ om śrīr astu</desc><desc synch="#Madanānanda" type="blessing" subtype="marginal left"><milestone n="14r" unit="folio"/>hariḥ om gaṇapataye namaḥ</desc></additions>
-                  <bindingDesc>
+                  </objectDesc><handDesc><handNote synch="#frontCover #Madanānanda" scope="sole" script="grantha" medium="black incised"/></handDesc><decoDesc>
+                  </decoDesc><additions>
+                  <desc synch="#Madanānanda" type="blessing" subtype="marginal left"><milestone n="1r" unit="folio"/>hariḥ om śrīr astu</desc><desc synch="#Madanānanda" type="blessing" subtype="marginal left"><milestone n="14r" unit="folio"/>hariḥ om gaṇapataye namaḥ</desc></additions><bindingDesc>
                      <binding>
                         <p>Both "covers" are themselves palm leaves. The binding is made by a string tied around the bundle.</p>
                         <decoNote type="stringhole">
                            <measure unit="stringhole" quantity="1"/>
                         </decoNote>
                     </binding>
-                  </bindingDesc>
-               </physDesc>
+                  </bindingDesc></physDesc>
                <history>
-                  <origin>
+                  
+                  
+                  
+               <origin>
                      <origDate calendar="gregorian"/>
                      
-                  </origin>
-                  <provenance/>
-                  <acquisition/>
-               </history>
+                  </origin></history>
                <additional>
                   <listBibl>
                      
@@ -88,5 +86,5 @@
          
       <change when="2022-07">First version.</change></revisionDesc></teiHeader>
    <facsimile>
-   </facsimile>
+   <graphic url="https://iiif.archive.org/iiif/cod-palmbl-iii-131/manifest.json"/></facsimile>
 </TEI>
