@@ -1,12 +1,11 @@
-<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
          <title><title xml:lang="sa">Tattvacintāmaṇi</title> &amp; a <term xml:lang="sa">Nyāya</term> text</title><editor><persName>S. Lakshminarasimham</persName><orgName>EFEO Pondicherry</orgName></editor></titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2022</date>
+            <date>2024</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -43,21 +42,21 @@
                   
                <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
-                        <support>
+                        
+                        
+                        
+                        
+                        
+                     <support>
                            
                            
-                        </support>
-                        <extent>
+                        </support><extent>
                            <measure unit="folio" quantity="75">55 + 16 + 4</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
                            </dimensions>
-                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
-                        
-                        
-                        
-                     <foliation>Telugu numerals  Left corner recto</foliation><collation><desc xml:id="U1">Continues 1 - 55 folios</desc><desc xml:id="U2">Continues 1 - 16 folios</desc></collation></supportDesc>
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent><foliation>Telugu numerals  Left corner recto</foliation><collation><desc xml:id="U1">Continues 1 - 55 folios</desc><desc xml:id="U2">Continues 1 - 16 folios</desc></collation></supportDesc>
                      <layoutDesc>
                         
                      <layout writtenLines="7"/></layoutDesc>
@@ -90,5 +89,5 @@
          
       <change when="2021-11">First version. Raghavan lists the two texts as <title xml:lang="sa">Śabdagāḍādharī</title> and <title xml:lang="sa">Arthavāda</title>.</change></revisionDesc></teiHeader>
    <facsimile>
-   </facsimile>
+   <graphic url="https://iiif.archive.org/iiif/cod-palmbl-ii-227/manifest.json"/></facsimile>
 </TEI>
