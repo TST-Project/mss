@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -9,7 +7,7 @@
          <editor><persName>Marco Franceschini</persName><orgName>University of Bologna</orgName></editor></titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2022</date>
+            <date>2024</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -36,20 +34,20 @@
                   
                <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf palmyra">
-                        <support>
+                        
+                        
+                        
+                        
+                        
+                     <support>
                            
-                        </support>
-                        <extent>
+                        </support><extent>
                            <measure unit="folio" quantity="30">1 guard folio, 29 numbered folios</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
                            <width quantity="360"/><height quantity="31"/></dimensions>
-                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"><width quantity="310"/><height quantity="26"/></dimensions></extent>
-                        
-                        
-                        
-                     <foliation>Tamil numerals, left margin, recto.</foliation><collation><desc xml:id="frontCover">Outer face: different shelfmarks, title and name of the author (written in <emph xml:lang="sa">devanāgarī</emph> script), all written with modern pens in different colours. Inner face: blank.</desc><desc xml:id="guardFolio">The invocations on both sides of the guard folio are so carelessly written to seem almost just a writing test.  For the stanza written on the verso of the guard folio, see <title xml:lang="sa">Mahāsubhāṣitasaṃgraha</title> 4271 (<persName>Sternbach</persName> 1977, p. 1046-1047).</desc><desc xml:id="Anaṅgaraṅga">Folios 1 to 30, duly ordered; folio 14 is missing.</desc><desc xml:id="backCover">Inner face: blank. Outer face: shelfmarks written on small pieces of paper glued onto the cover. </desc></collation><condition>The manuscript transmits the whole text, but folio 14 is missing and the last seven folios (folio 24 onwards) are broken on one or both ends, and part of the text is lost. On most of the folios some syllables are lost because of the tunnels bored by insects.</condition></supportDesc>
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"><width quantity="310"/><height quantity="26"/></dimensions></extent><foliation>Tamil numerals, left margin, recto.</foliation><collation><desc xml:id="frontCover">Outer face: different shelfmarks, title and name of the author (written in <emph xml:lang="sa">devanāgarī</emph> script), all written with modern pens in different colours. Inner face: blank.</desc><desc xml:id="guardFolio">The invocations on both sides of the guard folio are so carelessly written to seem almost just a writing test.  For the stanza written on the verso of the guard folio, see <title xml:lang="sa">Mahāsubhāṣitasaṃgraha</title> 4271 (<persName>Sternbach</persName> 1977, p. 1046-1047).</desc><desc xml:id="Anaṅgaraṅga">Folios 1 to 30, duly ordered; folio 14 is missing.</desc><desc xml:id="backCover">Inner face: blank. Outer face: shelfmarks written on small pieces of paper glued onto the cover. </desc></collation><condition>The manuscript transmits the whole text, but folio 14 is missing and the last seven folios (folio 24 onwards) are broken on one or both ends, and part of the text is lost. On most of the folios some syllables are lost because of the tunnels bored by insects.</condition></supportDesc>
                      <layoutDesc>
                         
                      <layout writtenLines="7"/></layoutDesc>
@@ -95,5 +93,5 @@
          
       <change when="2022-06">First version.</change></revisionDesc></teiHeader>
    <facsimile>
-   </facsimile>
+   <graphic url="https://iiif.archive.org/iiif/cod-palmbl-iii-130/manifest.json"/></facsimile>
 </TEI>
