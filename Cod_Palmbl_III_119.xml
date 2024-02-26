@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -9,7 +7,7 @@
          <editor><persName>Suganya Anandakichenin</persName><orgName>University of Hamburg</orgName></editor></titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2023</date>
+            <date>2024</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -23,13 +21,18 @@
                <msContents class="#CM">
                   <summary>This palm-leaf manuscript at first seems like an Single Text Manuscript(STM), but contains a few leaves at the end with what it presents as a different text. Although the information has been entered as for an Multiple Text Manuscript(MTM), it is in all likelihood the same text, with the second text possibly being a few stray leaves added to the lot.</summary>
                   
-               <msItem xml:id="T1" defective="false" class="#pirapantam"><title xml:lang="sa">Dramiḍopaniṣadttātparyaratnāvalī savyākhyā</title><author xml:lang="sa">Vedānta Deśika &amp; <term xml:lang="en">anonymous</term></author><textLang mainLang="san"/><rubric xml:lang="sa"><pb n="1r"/>
-<lb n="1"/>śrīmadśrīveṃkaṭāryamahādeśikāya namaḥ śrīmate śrīnivāsasaṃyamīndramahādeśikāya namaḥ śrīmadvedāntarāmānujamahādeśikāya namaḥ | śrīmategopāladeśikamahāgu<lb n="2"/>rave namaḥ śrīmate nigamāntagurave namaḥ śrīmate bhagavadrāmānujāya namaḥ śriraṃganāyikāsametaśrīraṃganāthaparabrahmaṇe namaḥ | śrīmate hayagrīvāya namaḥ |</rubric><incipit xml:lang="sa"><pb n="1r"/>
-<lb n="3"/>vigāhe nigamāntāryadayādivyataraṃgiṇīṃ | saṃsāragarbhasaṃtaptasaṃjīvanavicakṣaṇāṃ | śaṭhārisūktitātparyaratnāvalim imām ahaṃ | vedāntā<lb n="4"/>cāryavihitāṃ vivṛṇomi satāṃ mude | sākṣānnārāyaṇo devaḥ kṛtvā marttya <sic>mayīntanaṃ</sic> | <sic>maśnānukurute</sic> <sic>lokān kāruṇyāṃ</sic> sya pā<lb n="5"/>ṇinā eṉṟum manānāṃ bhavināṃ bhavāṇṛvasamuntorāya nārāyaṇaḥ eṉṟum</incipit><explicit xml:lang="sa"><pb n="54r" facs="91"/>
-<lb n="7"/><gap reason="ellipsis"/><unclear>tātparyaratnāvalī</unclear>-ranaghaguṇārañjanī raṅgabhartuḥ śoka<unclear>śo</unclear>katvamasyāgataḥ eṉkiṟapaṭiyē</explicit></msItem><msItem xml:id="T2" defective="false" class="#pirapantam"><title xml:lang="sa">Dramiḍopaniṣadttātparyaratnāvalī</title><author xml:lang="sa">Vedānta Deśika</author><textLang mainLang="san" otherLangs="san"/><incipit xml:lang="sa"><pb n="1r" facs="91"/>
-<lb n="1"/>śrīmate śrīnivāsamahādeśikāya namaḥ - śrīmān+rī vedāntācārya+di sevāyogyotibhogyaśśubhagata</incipit><explicit xml:lang="sa"><pb n="4v" facs="94"/>
-<lb n="1"/><gap reason="ellipsis"/>iti kavitārkikasiṃhasya<lb n="2"/>śrīmadvedāntācāryasya kṛtiṣu dramiḍopaniṣatsāras sampūrṇaḥ kavitārkikasiṃhāya + śrīmate namaḥ</explicit><colophon xml:lang="sa"><pb n="4v" facs="95"/>
-<lb n="3"/><seg function="blessing">hariḥ om śrīmate śrīnivāsamahādeśikāya namaḥ</seg>
+               <msItem xml:id="T1" defective="false" class="#pirapantam"><title xml:lang="sa">Dramiḍopaniṣadttātparyaratnāvalī savyākhyā</title><author xml:lang="sa">Vedānta Deśika &amp; <term xml:lang="en">anonymous</term></author><textLang mainLang="san" otherLangs="tam"/><rubric xml:lang="sa"><pb facs="7" n="1r"/>
+<lb n="1"/>śrīmadśrīveṃkaṭāryamahādeśikāya namaḥ śrīmate śrīnivāsasaṃyamīndramahādeśikāya namaḥ śrīmadvedāntarāmānujamahādeśikāya namaḥ | śrīmategopāladeśikamahāgu
+<lb n="2"/>rave namaḥ śrīmate nigamāntagurave namaḥ śrīmate bhagavadrāmānujāya namaḥ śriraṃganāyikāsametaśrīraṃganāthaparabrahmaṇe namaḥ | śrīmate hayagrīvāya namaḥ |</rubric><incipit xml:lang="sa"><pb facs="7" n="1r"/>
+<lb n="3"/>vigāhe nigamāntāryadayādivyataraṃgiṇīṃ | saṃsāragarbhasaṃtaptasaṃjīvanavicakṣaṇāṃ | śaṭhārisūktitātparyaratnāvalim imām ahaṃ | vedāntā
+<lb n="4"/>cāryavihitāṃ vivṛṇomi satāṃ mude | sākṣānnārāyaṇo devaḥ kṛtvā marttya <sic>mayīntanaṃ</sic> | <sic>maśnānukurute</sic> <sic>lokān kāruṇyāṃ</sic> sya pā <lb n="5"/>ṇinā <term xml:lang="ta">eṉṟum</term> manānāṃ bhavināṃ bhavāṇṛvasamuntorāya nārāyaṇaḥ <term xml:lang="ta">eṉṟum</term></incipit><explicit xml:lang="sa"><pb facs="112" n="54r"/>
+<lb n="7"/><gap reason="ellipsis"/><unclear>tātparyaratnāvalī</unclear>-ranaghaguṇārañjanī raṅgabhartuḥ śoka<unclear>śo</unclear>katvamasyāgataḥ 
+<term xml:lang="ta">eṉkiṟapaṭiyē</term></explicit></msItem><msItem xml:id="T2" defective="false" class="#pirapantam"><title xml:lang="sa">Dramiḍopaniṣadttātparyaratnāvalī</title><author xml:lang="sa">Vedānta Deśika</author><textLang mainLang="san" otherLangs="san"/><incipit xml:lang="sa"><pb facs="113" n="1r"/>
+<lb n="1"/>śrīmate śrīnivāsamahādeśikāya namaḥ - śrīmān+rī vedāntācārya+di - sevāyogyotibhogyaś śubhasubhagata</incipit><explicit xml:lang="sa"><pb facs="117" n="4v"/>
+<lb n="1"/><gap reason="ellipsis"/>iti kavitārkikasiṃhasya
+<lb n="2"/>śrīmadvedāntācāryasya kṛtiṣu dramiḍopaniṣatsāras sampūrṇaḥ </explicit><colophon xml:lang="sa"><pb facs="117" n="4v"/>
+<lb n="2"/><seg function="blessing"><gap reason="ellipsis"/>kavitārkikasimhāya +ne śrīmate namaḥ
+<lb n="3"/>hariḥ om_ śrīmate śrīnivāsamahādeśikāya namaḥ</seg>
 </colophon></msItem></msContents>
                <physDesc>
                   
@@ -47,8 +50,7 @@
                      <support>
                            
                         </support><extent>
-                           <measure unit="folio" quantity="111">work 1: 107 folios;
-work 2: 4 folios</measure>
+                           <measure unit="folio" quantity="118">cover folio, guard folio, ff. 1-50, 2 blank folios, ff. 1-54, ff. 1-4, 6 guard folios</measure>
                            <dimensions type="object" unit="mm">
                               
                               
@@ -61,13 +63,13 @@ work 2: 4 folios</measure>
                               
                               
                            <width min="350" max="380"/><height min="30" max="40"/></dimensions>
-                        </extent><foliation>Tamil-letter numerals, left margin up to folio 52 and then on the right margin</foliation><collation><desc xml:id="U1">folios 1-107</desc><desc xml:id="U2">folios 1-4</desc></collation><condition>Very good state of preservation</condition></supportDesc>
+                        </extent><foliation>Tamil-letter numerals, left margin up to folio 50, and then 1-54 in the right margin, 1-4 in the left margin</foliation><collation><desc xml:id="U1">folios 1-50, 1-54</desc><desc xml:id="U2">folios 1-4</desc></collation><condition>Very good state of preservation</condition></supportDesc>
                      <layoutDesc>
                         
                      <layout style="inline-commentary" columns="1" writtenLines="7"/></layoutDesc>
                   </objectDesc><handDesc><handNote synch="#U1" scope="major" script="grantha tamil" scriptRef="#tamilPulliNone" medium="incised"><desc>Neat hand</desc></handNote><handNote synch="#U2" scope="major" script="grantha tamil" scriptRef="#tamilPulliNone" medium="incised"/></handDesc><additions>
-                  <desc synch="#U1" type="blessing" subtype="marginal left"><locus>1r</locus>: <q xml:lang="sa">hariḥ om</q></desc><desc synch="#U2" type="blessing" subtype="marginal left"><locus>1r</locus>: <q xml:lang="sa">hariḥ om</q>
-</desc><desc synch="#U2" type="blessing" subtype="end guard-folio"><locus facs="94">last blank folio</locus>: <q xml:lang="sa">śrīmate śrīnivāsamahādeśikāya namaḥ</q></desc></additions><bindingDesc>
+                  <desc synch="#U1" type="blessing" subtype="marginal left"><locus facs="7">1r</locus>: <q xml:lang="sa">hariḥ om</q></desc><desc synch="#U2" type="blessing" subtype="marginal left"><locus facs="113">1r</locus>: <q xml:lang="sa">hariḥ oṃ</q>
+</desc><desc synch="#U2" type="blessing" subtype="end guard-folio"><locus facs="118">blank folio, v</locus>: <q xml:lang="sa">śrīmate śrīnivāsamahādeśikāya namaḥ</q></desc></additions><bindingDesc>
                      <binding>
                         
                         <decoNote type="stringhole">
@@ -96,6 +98,9 @@ work 2: 4 folios</measure>
    <revisionDesc><change when="2023-07">Added XML tags, measured dimensions of the leaves and distance b/w the 2 string holes. 
 
 edited by: Gayathri G
+</change><change when="2024-02">U1 seems to be 2 texts/units, ff. 1-50 and ff. 1-54. 
+
+edited by: Abhirami Prakasan
 </change></revisionDesc></teiHeader>
    <facsimile>
    <graphic url="https://iiif.archive.org/iiif/cod-palmbl-iii-119/manifest.json"/></facsimile>
