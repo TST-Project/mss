@@ -1,10 +1,10 @@
-<?tst sanitized="true"?><?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>&lt;term xml:lang="sa"&gt; Addhyātmarāmāyaṇāṃ Kiḷippāṭṭŭ&lt;/term&gt;      </title>
+            <title><term xml:lang="ml"> Addhyātmarāmāyaṇāṃ Kiḷippāṭṭŭ</term>      </title>
             
-         <editor/></titleStmt>
+         <editor><persName>Abhirami Prakasan</persName><orgName>University of Hamburg</orgName></editor></titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
             <date>2024</date>
@@ -21,15 +21,28 @@
                <msContents class="#STM">
                   
                   
-               <msItem defective="false"/></msContents>
+               <summary> Addhyātmarāmāyaṇāṃ Kiḷippāṭṭŭ</summary><msItem defective="false"><title xml:lang="sa">Addhyātmarāmāyaṇāṃ Kiḷippāṭṭŭ</title><textLang mainLang="san"/><incipit xml:lang="sa"><pb facs="" n="2r"/>
+<lb n="1"/>rāmanāpatte japiccoru kāṭṭāḷanmunnāmāmunipravaranāy vannatukaṇṭu bhūmiyiluḷḷa jantukkaḷkku mokṣārtthamini śrī mahādrāmāyaṇañcamekkennaruḷceytu
+</incipit><explicit xml:lang="sa"><pb facs="" n="209v"/>
+<lb n="1"/> n mūlyamillāta vastrābharaṇaṅaḷuṃ mālyakaḷabha haricandhanādiyum pinneyum veṇṭuvoḷam nalkumennavan gāḍha gāḍhaṃ puṇarnnitarāl
+                          </explicit></msItem></msContents>
                <physDesc>
-                  <objectDesc form="baad">
-                     <supportDesc material="paper">
-                        <support>
+                  
+                  
+                  
+                  
+                  
+               <objectDesc form="pothi" rend="manuscript">
+                     <supportDesc material="palm-leaf talipot">
+                        
+                        
+                        
+                        
+                        
+                     <support>
                            
-                        </support>
-                        <extent>
-                           <measure unit="folio"/>
+                        </support><extent>
+                           <measure unit="folio" quantity="208"/>
                            <dimensions type="object" unit="mm">
                               
                               
@@ -42,36 +55,27 @@
                               
                               
                            </dimensions>
-                        </extent>
-                        
-                        <collation/>
-                        
-                     </supportDesc>
+                        </extent><condition>Very good state of preservation.</condition></supportDesc>
                      <layoutDesc>
                         
-                     </layoutDesc>
-                  </objectDesc>
-                  <handDesc/>
-                  <decoDesc/>
-                  <additions>
-                  </additions>
-                  <bindingDesc>
+                     <layout>10-11 written lines per folio.</layout></layoutDesc>
+                  </objectDesc><handDesc><handNote scope="sole" script="malayalam" medium="ink black incised soot"/></handDesc><additions>
+                  </additions><bindingDesc>
                      <binding>
                         
                         <decoNote type="stringhole">
-                           <measure unit="stringhole"/>
+                           <measure unit="stringhole" quantity="2"/>
                         </decoNote>
                     </binding>
-                  </bindingDesc>
-               </physDesc>
+                  </bindingDesc></physDesc>
                <history>
-                  <origin>
+                  
+                  
+                  
+               <origin>
                      <origDate calendar="gregorian"/>
                      
-                  </origin>
-                  <provenance/>
-                  <acquisition/>
-               </history>
+                  <origPlace>Kerala</origPlace></origin></history>
                <additional>
                   <listBibl>
                      
@@ -80,9 +84,9 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <encodingDesc><p/></encodingDesc>
-      <revisionDesc/>
-   </teiHeader>
+      <encodingDesc><p>The first folio is missing, 34 verso is blank and there must be soome folios missing at the end.</p></encodingDesc>
+      
+   <revisionDesc/></teiHeader>
    <facsimile>
    </facsimile>
 </TEI>
