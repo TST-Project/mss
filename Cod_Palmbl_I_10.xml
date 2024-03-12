@@ -1,5 +1,4 @@
-﻿<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -8,7 +7,7 @@
          <editor><persName>S. LAKSHMINARASIMHAM</persName><orgName>EFEO, Pondicherry</orgName></editor></titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2024</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -51,44 +50,44 @@ brahma brahmavidhānaṃ tu ye vidurbrāhmaṇādayaḥ |
 te layaṃ yānti tatraiva nīlāsyā brahmaśāyini || nīlāsyā brahmaśāyini |
 </explicit><finalRubric>ityatharvavede cūlikopaniṣat samāptā |</finalRubric></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi">
+                  
+                  
+                  
+                  
+                  
+               <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
-                        <support>
-                           <measure unit="stringhole"/>
+                        
+                        
+                        
+                        
+                        
+                     <support>
                            
-                        </support>
-                        <extent>
+                           
+                        </support><extent>
                            <measure unit="folio" quantity="40">37 + 3 = 40</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
                            <width quantity="480"/><height quantity="55"/></dimensions>
-                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"><width quantity="330"/><height quantity="45"/></dimensions></extent>
-                        <collation><desc xml:id="U1">Continues 1 -8 folios</desc><desc xml:id="U2">Continues 9 -15 folios</desc><desc xml:id="U3">Continues 16-23 folios</desc><desc xml:id="U4">Continues 24-29 folios</desc><desc xml:id="U5">Continues 30-34 folios</desc><desc xml:id="U6">Continues 35-37 folios</desc></collation>
-                        
-                        
-                     <foliation>Telugu numerals left margin recto</foliation><condition>good condition</condition></supportDesc>
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"><width quantity="330"/><height quantity="45"/></dimensions></extent><foliation>Telugu numerals left margin recto</foliation><collation><desc xml:id="U1">Continues 1 -8 folios</desc><desc xml:id="U2">Continues 9 -15 folios</desc><desc xml:id="U3">Continues 16-23 folios</desc><desc xml:id="U4">Continues 24-29 folios</desc><desc xml:id="U5">Continues 30-34 folios</desc><desc xml:id="U6">Continues 35-37 folios</desc></collation><condition>good condition</condition></supportDesc>
                      <layoutDesc>
                         <layout writtenLines="11"/>
                      </layoutDesc>
-                  </objectDesc>
-                  <handDesc><handNote synch="#U1 U2 U3 U4 U5 U6" scope="sole" script="telugu" scriptRef="#valapalagilaka" medium="ink black"/></handDesc>
-                  <decoDesc>
-                  </decoDesc>
-                  <additions>
-                  </additions>
-                  <bindingDesc>
-                     <binding/>
-                  </bindingDesc>
-               </physDesc>
+                  </objectDesc><handDesc><handNote synch="#U1 #U2 #U3 #U4 #U5 #U6" scope="sole" script="telugu" scriptRef="#valapalagilaka" medium="ink black"/></handDesc><decoDesc>
+                  </decoDesc><additions>
+                  </additions><bindingDesc>
+                     <binding><decoNote type="stringhole"><measure unit="stringhole"/></decoNote></binding>
+                  </bindingDesc></physDesc>
                <history>
-                  <origin>
+                  
+                  
+                  
+               <origin>
                      <origDate calendar="gregorian"/>
                      
-                  </origin>
-                  <provenance/>
-                  <acquisition/>
-               </history>
+                  </origin></history>
                <additional>
                   <listBibl>
                      
@@ -100,10 +99,10 @@ te layaṃ yānti tatraiva nīlāsyā brahmaśāyini || nīlāsyā brahmaśāyin
       <encodingDesc>
          
       <p>IAST transliteration.</p></encodingDesc>
-      <revisionDesc>
+      
+   <revisionDesc>
          
-      <change when="2021-11">First version.</change></revisionDesc>
-   </teiHeader>
+      <change when="2021-11">First version.</change></revisionDesc></teiHeader>
    <facsimile>
-   </facsimile>
+   <graphic url="https://iiif.archive.org/iiif/cod-palmbl-i-10/manifest.json"/></facsimile>
 </TEI>
