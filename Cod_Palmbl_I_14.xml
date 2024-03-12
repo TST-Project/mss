@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -9,7 +7,7 @@
          <editor><persName>Elisa Ganser</persName><orgName>University of Zurich</orgName></editor></titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2022</date>
+            <date>2024</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -26,44 +24,44 @@
                <msItem synch="#U1" defective="true"><title xml:lang="sa">Aitareyabrāhmaṇa</title><textLang mainLang="san"/><rubric xml:lang="sa">śrīgurubhyo namaḥ || hariḥ oṃ || </rubric><incipit xml:lang="sa"><milestone n="1r" unit="folio"/> devā vai prathamenāhneṃdrāya vajraṃ samabharaṃs taṃ dvitīyenāsiṃcaṃs taṃ tṛtīyenāhnā prāyacchaṃs taṃ caturthe haṃn prāhara tasmācathurthe han ṣomana<lb n="2"/>śinaṃ śaṃsati
 </incipit><explicit xml:lang="sa"><pb n="136r"/><lb n="4"/>thātaḥ stutaśastrayor eva | athātaḥ stutaśastrayor catvāri | athātaḥ punarabhiṣekasyaiva sapta | athāta aindro mahābhiṣekas trayaḥ | sa ya <lb n="5"/> icched evaṃ nava | athātaḥ purodhāyāḥ paṃca | athātaḥ stutaśastrayoḥ pary ū ṣv etena ha vā aindrena mahābhiṣekeṇa turaḥ kāvaṣeyo ṣṭau |</explicit><finalRubric xml:lang="sa"><pb n="136r"/><lb n="5"/> hariḥ oṃ ||—|| <lb n="6"/> śrī kṛṣṇārpaṇam astu ||—||</finalRubric></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi">
+                  
+                  
+                  
+                  
+                  
+               <objectDesc form="pothi">
                      <supportDesc material="palm-leaf palmyra">
-                        <support>
-                           <measure unit="stringhole" quantity="2"/>
+                        
+                        
+                        
+                        
+                        
+                     <support>
+                           
                            <p>Measurements given from the catalogue</p>
-                        </support>
-                        <extent>
+                        </support><extent>
                            <measure unit="folio" quantity="137">folios numbered from 1 to 136. Folio no. 88 is renumbered as 87.</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
                            <width quantity="333"/><height quantity="30"/></dimensions>
-                        <dimensions type="object" unit="mm"><width quantity="385"/><height quantity="37"/></dimensions><dimensions type="written" unit="mm"/></extent>
-                        <collation><desc xml:id="U1"/></collation>
-                        
-                        
-                     <foliation>Roman numbers written in blue pen on the left margin of the recto, from 1 to 136, with f. 88 renumbered to 87.</foliation><condition>Good state of preservation.</condition></supportDesc>
+                        <dimensions type="object" unit="mm"><width quantity="385"/><height quantity="37"/></dimensions><dimensions type="written" unit="mm"/></extent><foliation>Roman numbers written in blue pen on the left margin of the recto, from 1 to 136, with f. 88 renumbered to 87.</foliation><collation><desc xml:id="U1"/></collation><condition>Good state of preservation.</condition></supportDesc>
                      <layoutDesc>
                         <layout columns="1" streams="1">4-6 written lines per page</layout>
                      </layoutDesc>
-                  </objectDesc>
-                  <handDesc><handNote synch="#U1" scope="sole" script="nandinagari" medium="incised"><desc>Very clear and regular hand, uninked</desc></handNote></handDesc>
-                  <decoDesc>
-                  </decoDesc>
-                  <additions>
-                  </additions>
-                  <bindingDesc>
-                     <binding><p>wooden cover</p></binding>
-                  </bindingDesc>
-               </physDesc>
+                  </objectDesc><handDesc><handNote synch="#U1" scope="sole" script="nandinagari" medium="incised"><desc>Very clear and regular hand, uninked</desc></handNote></handDesc><decoDesc>
+                  </decoDesc><additions>
+                  </additions><bindingDesc>
+                     <binding><p>wooden cover</p><decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
+                  </bindingDesc></physDesc>
                <history>
-                  <origin>
+                  
+                  
+                  
+               <origin>
                      <origDate calendar="gregorian"/>
                      
-                  </origin>
-                  <provenance/>
-                  <acquisition/>
-               </history>
+                  </origin></history>
                <additional>
                   <listBibl>
                      
@@ -80,5 +78,5 @@
          
       <change when="2022-06">First version.</change></revisionDesc></teiHeader>
    <facsimile>
-   </facsimile>
+   <graphic url="https://iiif.archive.org/iiif/cod-palmbl-i-14/manifest.json"/></facsimile>
 </TEI>
