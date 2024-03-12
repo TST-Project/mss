@@ -1,5 +1,4 @@
-﻿<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -8,7 +7,7 @@
          <editor><persName>S. LAKSHMINARASIMHAM</persName><orgName>EFEO, Pondicherry</orgName></editor></titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2024</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -79,44 +78,44 @@ brahmaprāptibrahmalokāviti padārthasaṃgrahaḥ |
 virodhikṛcchrāvaṇe'hni pūrṇimārkajasaṃyute | togere pustakamidaṃ saṃpūrṇaṃ likhitaṃ mayā |
 </colophon></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi">
+                  
+                  
+                  
+                  
+                  
+               <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
-                        <support>
-                           <measure unit="stringhole"/>
+                        
+                        
+                        
+                        
+                        
+                     <support>
                            
-                        </support>
-                        <extent>
+                           
+                        </support><extent>
                            <measure unit="folio" quantity="51">45+6 = 51</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
                            <width quantity="445"/><height quantity="38"/></dimensions>
-                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"><width quantity="39"/><height quantity="30"/></dimensions></extent>
-                        <collation><desc xml:id="U1">Continues 28-29 folios </desc><desc xml:id="U2">Continues 30-33 folios</desc><desc xml:id="U3">Continues 34-40 folios</desc><desc xml:id="U4">Continues 41-43 folios</desc><desc xml:id="U5">Continues 44-49 folios</desc><desc xml:id="U6">Continues 50-51 folios</desc><desc xml:id="U7">Continues 52-60 folios</desc><desc xml:id="U8">Continues 61-63 folios</desc><desc xml:id="U9">Continues 64-67 folios</desc><desc xml:id="U10">Continues 68-71 folios</desc><desc xml:id="U11">Continues 72-82 folios</desc></collation>
-                        
-                        
-                     <foliation>Telugu numerals left margin recto</foliation><condition>Good</condition></supportDesc>
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"><width quantity="39"/><height quantity="30"/></dimensions></extent><foliation>Telugu numerals left margin recto</foliation><collation><desc xml:id="U1">Continues 28-29 folios </desc><desc xml:id="U2">Continues 30-33 folios</desc><desc xml:id="U3">Continues 34-40 folios</desc><desc xml:id="U4">Continues 41-43 folios</desc><desc xml:id="U5">Continues 44-49 folios</desc><desc xml:id="U6">Continues 50-51 folios</desc><desc xml:id="U7">Continues 52-60 folios</desc><desc xml:id="U8">Continues 61-63 folios</desc><desc xml:id="U9">Continues 64-67 folios</desc><desc xml:id="U10">Continues 68-71 folios</desc><desc xml:id="U11">Continues 72-82 folios</desc></collation><condition>Good</condition></supportDesc>
                      <layoutDesc>
                         <layout writtenLines="8"/>
                      </layoutDesc>
-                  </objectDesc>
-                  <handDesc><handNote synch="#U1 U2 U3 U4 U5 U6 U7 U8 U9 U10 U11" scope="sole" script="telugu" scriptRef="#valapalagilaka" medium="ink black"/></handDesc>
-                  <decoDesc>
-                  </decoDesc>
-                  <additions>
-                  </additions>
-                  <bindingDesc>
-                     <binding/>
-                  </bindingDesc>
-               </physDesc>
+                  </objectDesc><handDesc><handNote synch="#U1 #U2 #U3 #U4 #U5 #U6 #U7 #U8 #U9 #U10 #U11" scope="sole" script="telugu" scriptRef="#valapalagilaka" medium="ink black"/></handDesc><decoDesc>
+                  </decoDesc><additions>
+                  </additions><bindingDesc>
+                     <binding><decoNote type="stringhole"><measure unit="stringhole"/></decoNote></binding>
+                  </bindingDesc></physDesc>
                <history>
-                  <origin>
+                  
+                  
+                  
+               <origin>
                      <origDate calendar="gregorian"/>
                      
-                  </origin>
-                  <provenance/>
-                  <acquisition/>
-               </history>
+                  </origin></history>
                <additional>
                   <listBibl>
                      
@@ -128,10 +127,10 @@ virodhikṛcchrāvaṇe'hni pūrṇimārkajasaṃyute | togere pustakamidaṃ sa
       <encodingDesc>
          
       <p>IAST transliteration.</p></encodingDesc>
-      <revisionDesc>
+      
+   <revisionDesc>
          
-      <change when="2021-11">First version.</change></revisionDesc>
-   </teiHeader>
+      <change when="2021-11">First version.</change></revisionDesc></teiHeader>
    <facsimile>
-   </facsimile>
+   <graphic url="https://iiif.archive.org/iiif/cod-palmbl-i-12/manifest.json"/></facsimile>
 </TEI>
