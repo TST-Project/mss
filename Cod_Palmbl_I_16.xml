@@ -1,5 +1,4 @@
-﻿<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -8,7 +7,7 @@
          <editor><persName>S. LAKSHMINARASIMHAM</persName><orgName>EFEO, Pondicherry</orgName></editor></titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2021</date>
+            <date>2024</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -29,44 +28,44 @@ smṛtyāgamapurāṇeṣu rudrādhyāyapraśaṃsanam | bahvasti tadvistareṇa
 iha karmāṅgatā yādṛgvarṇitā brāhmaṇena tām | boddhuṃ śabdārthamātrasya vivṛtiḥ kriyate sphuṭā |
 </incipit><explicit xml:lang="sa">vājaś ca me prasavaś ca me prayatiś ca me prasitiś ca me dhītiś ca me kratuś ca me svaraś ca me ślokaś ca me śrutiś ca me jyotiś ca me suvaś ca me | ity etaiḥ dvādaśabhir mantravākyair ekāhutir hotavyā | īdṛśā uttarā āhutayaḥ | prāṇaś ca me 'pānaś ca me ity ādibhir niṣpādyāḥ | te ca homā dvādaśa | teṣu madhye vilambābhāvaḥ sāṃtatyam | na tu mantrakarṇaṇoḥ sahopakramaḥ| tasmāt pūrvanyāyena mantrante karmasaṃnipātasya nāsti vighnaḥ |</explicit><finalRubric xml:lang="sa">iti śrīsāyanācāryaviracite mādhavīye vedārthaprakāśe yajuḥsaṃhitāyāṃ caturthakāṇḍe saptamaprapāṭhake camakabhāṣye ekādaśo'nuvākaḥ. śrīrudrabhāṣyaṃ camakabhāṣyaṃ ca saṃpūrṇam |</finalRubric><colophon xml:lang="sa">yad akṣarapadabhraṣṭaṃ mātrāhīnaṃ ca yad bhavet | tat sarvaṃ kṣamyatāṃ deva śiva sāmba namo 'stu te | śrī umāmaheśvarārpaṇam astu |</colophon></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi">
+                  
+                  
+                  
+                  
+                  
+               <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
-                        <support>
-                           <measure unit="stringhole"/>
+                        
+                        
+                        
+                        
+                        
+                     <support>
                            
-                        </support>
-                        <extent>
+                           
+                        </support><extent>
                            <measure unit="folio" quantity="105">8 + 85 +12 = 105</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
                            <width quantity="430"/><height quantity="30"/></dimensions>
-                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"><width quantity="380"/><height quantity="25"/></dimensions></extent>
-                        <collation><desc xml:id="U1">Continues 1-8 folios </desc><desc xml:id="U2">Continues 1-85 folios </desc></collation>
-                        
-                        
-                     <foliation>Telugu numerals left margin recto</foliation><condition>Good</condition></supportDesc>
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"><width quantity="380"/><height quantity="25"/></dimensions></extent><foliation>Telugu numerals left margin recto</foliation><collation><desc xml:id="U1">Continues 1-8 folios </desc><desc xml:id="U2">Continues 1-85 folios </desc></collation><condition>Good</condition></supportDesc>
                      <layoutDesc>
                         
                      <layout writtenLines="6"/></layoutDesc>
-                  </objectDesc>
-                  <handDesc><handNote synch="#U1 U2" scope="sole" script="telugu" scriptRef="#valapalagilaka" medium="ink black"/></handDesc>
-                  <decoDesc>
-                  </decoDesc>
-                  <additions>
-                  </additions>
-                  <bindingDesc>
-                     <binding/>
-                  </bindingDesc>
-               </physDesc>
+                  </objectDesc><handDesc><handNote synch="#U1 #U2" scope="sole" script="telugu" scriptRef="#valapalagilaka" medium="ink black"/></handDesc><decoDesc>
+                  </decoDesc><additions>
+                  </additions><bindingDesc>
+                     <binding><decoNote type="stringhole"><measure unit="stringhole"/></decoNote></binding>
+                  </bindingDesc></physDesc>
                <history>
-                  <origin>
+                  
+                  
+                  
+               <origin>
                      <origDate calendar="gregorian"/>
                      
-                  </origin>
-                  <provenance/>
-                  <acquisition/>
-               </history>
+                  </origin></history>
                <additional>
                   <listBibl>
                      
@@ -78,10 +77,10 @@ iha karmāṅgatā yādṛgvarṇitā brāhmaṇena tām | boddhuṃ śabdārtha
       <encodingDesc>
          
       <p>IAST transliteration.</p></encodingDesc>
-      <revisionDesc>
+      
+   <revisionDesc>
          
-      <change when="2021-11">First version.</change></revisionDesc>
-   </teiHeader>
+      <change when="2021-11">First version.</change></revisionDesc></teiHeader>
    <facsimile>
-   </facsimile>
+   <graphic url="https://iiif.archive.org/iiif/cod-palmbl-i-16/manifest.json"/></facsimile>
 </TEI>
