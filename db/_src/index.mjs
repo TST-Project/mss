@@ -273,7 +273,8 @@ const main = () => {
 
     if(argv.list) {
         const list = fs.readFileSync(argv.list,{encoding:'utf-8'});
-        const flist = list.split('\n').filter(line => line.endsWith('.xml'));
+        const flist = list.split('\n').filter(line => /^[^\/]+.xml/.test(line));
+        //const flist = list.split('\n').filter(line => line.endsWith('.xml'));
 
         if(flist.length === 0) return;
 
