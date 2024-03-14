@@ -1,5 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -8,7 +7,7 @@
          <editor><persName>S. Lakshminarasimham</persName><orgName>EFEO Pondicherry</orgName></editor></titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2022</date>
+            <date>2024</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -63,21 +62,21 @@ sarvapāpaiḥ pramucyeta viṣṇusāyujyam āpnuyāt |</explicit><finalRubric 
                   
                <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
-                        <support>
+                        
+                        
+                        
+                        
+                        
+                     <support>
                            
                            
-                        </support>
-                        <extent>
+                        </support><extent>
                            <measure unit="folio" quantity="176">1-24 + 1-60 + 1-86 + 6 (6 blank sheets).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
                            </dimensions>
-                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
-                        
-                        
-                        
-                     <foliation>Telugu numerals left margin recto</foliation><collation><desc xml:id="U1">Folios 1-24</desc><desc xml:id="U2">Folios 1 - 60</desc><desc xml:id="U3">Folios 1 - 39</desc><desc xml:id="U4">Folios 40 - 86</desc></collation><condition>Good</condition></supportDesc>
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent><foliation>Telugu numerals left margin recto</foliation><collation><desc xml:id="U1">Folios 1-24</desc><desc xml:id="U2">Folios 1 - 60</desc><desc xml:id="U3">Folios 1 - 39</desc><desc xml:id="U4">Folios 40 - 86</desc></collation><condition>Good</condition></supportDesc>
                      <layoutDesc>
                         <layout writtenLines="6"/>
                      </layoutDesc>
@@ -110,5 +109,5 @@ sarvapāpaiḥ pramucyeta viṣṇusāyujyam āpnuyāt |</explicit><finalRubric 
          
       <change when="2021-11">First version.</change></revisionDesc></teiHeader>
    <facsimile>
-   </facsimile>
+   <graphic url="https://iiif.archive.org/iiif/cod-palmbl-i-45/manifest.json"/></facsimile>
 </TEI>
