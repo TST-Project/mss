@@ -310,6 +310,7 @@ const find = {
             ['Bibliothèque universitaire des langues et civilisations','BULAC'],
             ['Bodleian Library, University of Oxford','Oxford'],
             ['Cambridge University Library','Cambridge'],
+            ['Centre for the Study of Manuscript Cultures, Universität Hamburg','CSMC'],
             ['Collège de France','CdF'],
             ['Shri Lal Bahadur Shastri National Sanskrit University','SLBSNS'],
             ['Private collection','private']
