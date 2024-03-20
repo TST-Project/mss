@@ -1,5 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -8,7 +7,7 @@
          <editor><persName>S. LAKSHMINARASIMHAM</persName><orgName>EFEO, Pondicherry</orgName></editor></titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2022</date>
+            <date>2024</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -59,44 +58,44 @@ saṃpādya bhūri kaṣṭena pustakaṃ likhitaṃ mayā|
 hartumicchati yaḥ pāpī tasya vaṃśakṣayo bhavet|
 </colophon></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi">
+                  
+                  
+                  
+                  
+                  
+               <objectDesc form="pothi">
                      <supportDesc material="palm-leaf">
-                        <support>
-                           <measure unit="stringhole"/>
+                        
+                        
+                        
+                        
+                        
+                     <support>
                            
-                        </support>
-                        <extent>
+                           
+                        </support><extent>
                            <measure unit="folio" quantity="146">131 + 15 = 146</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
                            <width quantity="385"/><height quantity="35"/></dimensions>
-                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"><width quantity="350"/><height quantity="30"/></dimensions></extent>
-                        <collation><desc xml:id="U1">Continues 1-131 folios</desc></collation>
-                        
-                        
-                     <foliation>Telugu numerals left margin recto</foliation></supportDesc>
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"><width quantity="350"/><height quantity="30"/></dimensions></extent><foliation>Telugu numerals left margin recto</foliation><collation><desc xml:id="U1">Continues 1-131 folios</desc></collation></supportDesc>
                      <layoutDesc>
                         <layout writtenLines="7"/>
                      </layoutDesc>
-                  </objectDesc>
-                  <handDesc><handNote synch="#U1" scope="sole" script="telugu" scriptRef="#valapalagilaka" medium="ink black"/></handDesc>
-                  <decoDesc>
-                  </decoDesc>
-                  <additions>
-                  </additions>
-                  <bindingDesc>
-                     <binding/>
-                  </bindingDesc>
-               </physDesc>
+                  </objectDesc><handDesc><handNote synch="#U1" scope="sole" script="telugu" scriptRef="#valapalagilaka" medium="ink black"/></handDesc><decoDesc>
+                  </decoDesc><additions>
+                  </additions><bindingDesc>
+                     <binding><decoNote type="stringhole"><measure unit="stringhole"/></decoNote></binding>
+                  </bindingDesc></physDesc>
                <history>
-                  <origin>
+                  
+                  
+                  
+               <origin>
                      <origDate calendar="gregorian"/>
                      
-                  </origin>
-                  <provenance/>
-                  <acquisition/>
-               </history>
+                  </origin></history>
                <additional>
                   <listBibl>
                      
@@ -108,10 +107,10 @@ hartumicchati yaḥ pāpī tasya vaṃśakṣayo bhavet|
       <encodingDesc>
          
       <p>IAST transliteration.</p></encodingDesc>
-      <revisionDesc>
+      
+   <revisionDesc>
          
-      <change when="2022-01">First version.</change></revisionDesc>
-   </teiHeader>
+      <change when="2022-01">First version.</change></revisionDesc></teiHeader>
    <facsimile>
-   </facsimile>
+   <graphic url="https://iiif.archive.org/iiif/cod-palmbl-i-34/manifest.json"/></facsimile>
 </TEI>
