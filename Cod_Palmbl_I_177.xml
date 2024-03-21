@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -9,7 +7,7 @@
          <editor><persName>Elisa Ganser</persName><orgName>University of Zurich</orgName></editor></titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2022</date>
+            <date>2024</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -25,32 +23,32 @@
                   
                <msItem synch="#U1" defective="true"><title xml:lang="sa">Bhagavadgītārthasaṃgraha</title><author xml:lang="sa">Rāghavendrayati</author><textLang mainLang="san"/><rubric xml:lang="sa"><milestone n="1r" unit="folio"/> oṃ | </rubric><incipit xml:lang="sa"><pb n="1r"/> <lb n="1"/> ṣaṣṭe adhyāye dhyānayoga uktaḥ | navamāṃte ca manmanā ityādinā taddhyānaṃ smāritaṃ | tac ca dhyeya śrī ye<gap reason="illegible" unit="character" quantity="2"/> ato dhyānārthaṃ bhagavadvibhūtirūpāṇy a<lb n="2"/>trādhyāye agra haṃta te kathayiṣyāmītyādinā prācaryeṇa ca śrī<gap reason="illegible" unit="character" quantity="1"/>ādau buddhyādīnāṃ maharṣyādīnāṃ </incipit><explicit xml:lang="sa"><pb n="64v"/> <lb n="2"/>āha saṃjayaḥ yatreti yatra senāyāṃ yogīśvaraḥ sarvopāyavatāṃ svāmīti tatra śrīḥ rājyalakṣmīḥ saṃpat nītiḥ nyāyaḥ dhruvā niścaleti mama matir niścayaḥ ||—|| aśeṣaguṇapūrṇāya śeṣa¯¯ya viṣṇave | namaḥ<lb n="3"/>śrī prāṇanāthāya bhaktābhīṣṭapradāyine || </explicit><finalRubric xml:lang="sa"><pb n="64v"/> <lb n="3"/>iti śrīkṛṣṇagītābhāṣyādyuktārthasaṃgrahaḥ rāghveṃdreṇa yatinā kṛtas  sajjanasaṃvide ||—|| ||—|| iti śrīmatsudhīṃdragurupādaśiṣyarāghaveṃdre yatikṛ<lb n="4"/>te śrīmadgītārthasaṃgrahe aṣṭādaśo dhyāyaḥ ||—||—||—|| śrīkṛṣṇārpanam astu ||—|| śrī lakṣmīnārāyaṇāya namaḥ ||—|| śrī ||—|| oṃ ||—||</finalRubric></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi" rend="manuscript">
+                  
+                  
+                  
+                  
+                  
+               <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf palmyra">
-                        <support>
+                        
+                        
+                        
+                        
+                        
+                     <support>
                            <p>Measurements taken from the catalogue</p>
-                        </support>
-                        <extent>
+                        </support><extent>
                            <measure unit="folio" quantity="67">64 numbered folios, 2 guard folios at the beginning of the bundle and 1 at the end </measure>
                            <dimensions type="leaf" unit="mm">
                               <width quantity="380"/>
                               <height quantity="25"/>
                            </dimensions>
-                        <dimensions type="object" unit="mm"><width quantity="420"/><height quantity="33"/></dimensions><dimensions type="written" unit="mm"/></extent>
-                        
-                        
-                        
-                     <foliation>Nandināgarī numerals, mid-left margin
+                        <dimensions type="object" unit="mm"><width quantity="420"/><height quantity="33"/></dimensions><dimensions type="written" unit="mm"/></extent><foliation>Nandināgarī numerals, mid-left margin
 ff. 1-64v</foliation><collation><desc xml:id="U1">ff. 1-64v</desc></collation><condition>Fairly good state of preservation, in spite of some worm-eaten leaves. Folio 4 is torn at the left border.</condition></supportDesc>
                      <layoutDesc>
                         <layout columns="1" streams="1" writtenLines="5 7"/>
                      </layoutDesc>
-                  </objectDesc>
-                  
-                  
-                  
-                  
-               <handDesc><handNote synch="#U1" scope="sole" script="nandinagari" medium="incised"><desc>Uninked.</desc></handNote></handDesc><decoDesc>
+                  </objectDesc><handDesc><handNote synch="#U1" scope="sole" script="nandinagari" medium="incised"><desc>Uninked.</desc></handNote></handDesc><decoDesc>
                   </decoDesc><additions>
                   </additions><bindingDesc>
                      <binding>
@@ -61,13 +59,13 @@ ff. 1-64v</foliation><collation><desc xml:id="U1">ff. 1-64v</desc></collation><c
                     </binding>
                   </bindingDesc></physDesc>
                <history>
-                  <origin>
+                  
+                  
+                  
+               <origin>
                      <origDate calendar="gregorian"/>
                      
-                  </origin>
-                  
-                  
-               </history>
+                  </origin></history>
                <additional>
                   <listBibl>
                      
@@ -84,5 +82,5 @@ ff. 1-64v</foliation><collation><desc xml:id="U1">ff. 1-64v</desc></collation><c
          
       <change when="2022-08">First version.</change></revisionDesc></teiHeader>
    <facsimile>
-   </facsimile>
+   <graphic url="https://iiif.archive.org/iiif/cod-palmbl-i-177/manifest.json"/></facsimile>
 </TEI>
