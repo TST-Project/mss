@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -9,7 +7,7 @@
          <editor><persName>Elisa Ganser</persName><orgName>University of Zurich</orgName></editor></titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2022</date>
+            <date>2024</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -28,48 +26,48 @@
 <lb n="4"/>nityānaṃdo hariḥ pūrṇo nityadāṃ prīyatāṃ mama | namas tasmai namas tasmai namas tasmai ca viṣṇave ||—||</explicit><finalRubric xml:lang="sa"><milestone n="103v" unit="folio"/>
 <lb n="1"/>iti śrīmadkṛṣṇadvaipāyanakṛtabraṃhmasūtrabhāṣye śrīmadānaṃdatīrthabhagavatpādācāryaviracite caturthādhyāyasya caturthaḥ pādaḥ ||—|| śrī śrī śrī śrī ||—||  <lb n="2"/> śubham astu ||—||—||—|| śrīnivāsāya maṃgalaṃ ||—|| ❈ | ❈ ||</finalRubric></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi">
+                  
+                  
+                  
+                  
+                  
+               <objectDesc form="pothi">
                      <supportDesc material="palm-leaf palmyra">
-                        <support>
-                           <measure unit="stringhole" quantity="2"/>
+                        
+                        
+                        
+                        
+                        
+                     <support>
+                           
                            <p>Measurements taken from the catalogue</p>
-                        </support>
-                        <extent>
+                        </support><extent>
                            <measure unit="folio" quantity="109">3 guard folios inserted at the beginning of the bundle, 103 numbered folios (f. 78 doubled), 2 guard folios at the end.</measure>
                            <dimensions type="leaf" unit="mm">
                               <width quantity="395"/>
                               <height quantity="26"/>
                            </dimensions>
-                        <dimensions type="object" unit="mm"><width quantity="430"/><height quantity="30"/></dimensions><dimensions type="written" unit="mm"/></extent>
-                        <collation><desc xml:id="U1"/></collation>
-                        
-                        
-                     <foliation>Nandināgarī numerals, on the left margin of the recto, 1 to 103, with number 78 doubled.</foliation><condition>Partly good condition, partly worm-eaten. Some wear at the edges.</condition></supportDesc>
+                        <dimensions type="object" unit="mm"><width quantity="430"/><height quantity="30"/></dimensions><dimensions type="written" unit="mm"/></extent><foliation>Nandināgarī numerals, on the left margin of the recto, 1 to 103, with number 78 doubled.</foliation><collation><desc xml:id="U1"/></collation><condition>Partly good condition, partly worm-eaten. Some wear at the edges.</condition></supportDesc>
                      <layoutDesc>
                         <layout columns="1" streams="1">4-5 written lines per page</layout>
                      </layoutDesc>
-                  </objectDesc>
-                  <handDesc><handNote synch="#U1" scope="sole" script="nandinagari" medium="incised soot"/></handDesc>
-                  <decoDesc>
-                  </decoDesc>
-                  <additions>
+                  </objectDesc><handDesc><handNote synch="#U1" scope="sole" script="nandinagari" medium="incised soot"/></handDesc><decoDesc>
+                  </decoDesc><additions>
                   <desc synch="#U1" subtype="beginning">One line written on the verso of the first guard folio, in Grantha script: 
 <quote rend="block">vādhūlaśrīnivāsāryya-kṛpāsampannavaibhavam | kauśikaśrī<unclear>nivāsā</unclear>
   ryyam kalyāṇaguṇam āśraye | maddhvasūtrabhāṣyam puka<unclear>kku</unclear> | 7 | 103</quote>
 On the recto of the second guard folio: some writing in Nandināgarī, uninked.
-After f. 103 there is a guard folio with two lines written per page in Nandināgarī, uninked.</desc></additions>
-                  <bindingDesc>
-                     <binding><p>wooden cover</p></binding>
-                  </bindingDesc>
-               </physDesc>
+After f. 103 there is a guard folio with two lines written per page in Nandināgarī, uninked.</desc></additions><bindingDesc>
+                     <binding><p>wooden cover</p><decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
+                  </bindingDesc></physDesc>
                <history>
-                  <origin>
+                  
+                  
+                  
+               <origin>
                      <origDate calendar="gregorian"/>
                      
-                  </origin>
-                  <provenance/>
-                  <acquisition/>
-               </history>
+                  </origin></history>
                <additional>
                   <listBibl>
                      
@@ -81,10 +79,10 @@ After f. 103 there is a guard folio with two lines written per page in Nandināg
       <encodingDesc>
          
       <p>❈ denotes a puṣpikā. Spaces between words added where possible.</p></encodingDesc>
-      <revisionDesc>
+      
+   <revisionDesc>
          
-      <change when="2022-04">First version.</change></revisionDesc>
-   </teiHeader>
+      <change when="2022-04">First version.</change></revisionDesc></teiHeader>
    <facsimile>
-   </facsimile>
+   <graphic url="https://iiif.archive.org/iiif/cod-palmbl-i-174/manifest.json"/></facsimile>
 </TEI>
