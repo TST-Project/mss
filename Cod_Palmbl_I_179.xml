@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -9,7 +7,7 @@
          <editor><persName>Elisa Ganser</persName><orgName>University of Zurich</orgName></editor></titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2022</date>
+            <date>2024</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -32,20 +30,20 @@
                   
                <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf palmyra">
-                        <support>
+                        
+                        
+                        
+                        
+                        
+                     <support>
                            <p>Measurements taken from the catalogue</p>
-                        </support>
-                        <extent>
+                        </support><extent>
                            <measure unit="folio" quantity="197">193 numbered folios, 2 guard folios at the beginning of the bundle and 2 at the end </measure>
                            <dimensions type="leaf" unit="mm">
                               <width quantity="410" min="32"/>
                               
                            </dimensions>
-                        <dimensions type="object" unit="mm"><width quantity="460"/><height quantity="40"/></dimensions><dimensions type="written" unit="mm"/></extent>
-                        
-                        
-                        
-                     <foliation>Nandināgarī numerals, on the left margin of the recto, 1 to 193.</foliation><collation><desc xml:id="U1"/></collation><condition>Good state of preservation, in spite of some bore holes produced by insects. </condition></supportDesc>
+                        <dimensions type="object" unit="mm"><width quantity="460"/><height quantity="40"/></dimensions><dimensions type="written" unit="mm"/></extent><foliation>Nandināgarī numerals, on the left margin of the recto, 1 to 193.</foliation><collation><desc xml:id="U1"/></collation><condition>Good state of preservation, in spite of some bore holes produced by insects. </condition></supportDesc>
                      <layoutDesc>
                         <layout columns="1" streams="1" writtenLines="6 8"/>
                      </layoutDesc>
@@ -85,5 +83,5 @@
          
       <change when="2022-08">First version.</change></revisionDesc></teiHeader>
    <facsimile>
-   </facsimile>
+   <graphic url="https://iiif.archive.org/iiif/cod-palmbl-i-179/manifest.json"/></facsimile>
 </TEI>
