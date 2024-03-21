@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -9,7 +7,7 @@
          <editor><persName>Elisa Ganser</persName><orgName>University of Zurich</orgName></editor></titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2022</date>
+            <date>2024</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -40,49 +38,49 @@
 <lb n="1"/>śrīvedavyāsāya namaḥ | śrīnṛsiṃhāya namaḥ | </rubric><incipit xml:lang="sa"><pb n="115r"/>
 <lb n="1"/>pāntvasmān puruhūtavairibalavanmātaṅgamādyadghaṭā<lb n="2"/>kuṃbhoccādrivipāṭanādhikapaṭupratyekava<lb n="3"/>jrāyitāḥ | śrīmatkaṃṭhīravāsyapratata<lb n="4"/>sunakharā dāritārātidūrapradhvastadhvātaśāṃtapravitatamanasā bhāvitā nākivṛ<lb n="5"/>daiḥ || 1 || lakṣmīkāṃta samaṃtato vi kalayan naiveśatus te samaṃ paśyāmy uttamavastu dūratarato <lb n="6"/>pāstaṃ raso yo ṣṭamaḥ | yadroṣotkaradakṣanetrakuṭilaprāṃtotthitāgniḥ sphuratkhadyetopa<lb n="7"/>mavisphuliṃgabhasitā brahmeśaśakrotkarāḥ || 2 || || oṃ ||—</incipit></msItem></msContents>
                <physDesc>
-                  <objectDesc form="pothi">
+                  
+                  
+                  
+                  
+                  
+               <objectDesc form="pothi">
                      <supportDesc material="palm-leaf palmyra">
-                        <support>
-                           <measure unit="stringhole" quantity="1"/>
+                        
+                        
+                        
+                        
+                        
+                     <support>
+                           
                            <p>Measurements taken from the catalogue</p>
-                        </support>
-                        <extent>
+                        </support><extent>
                            <measure unit="folio" quantity="132">2 guard folios at the beginning of the bundle, ff. 1-36, ff. 24-114, f. 115r, 2 guard folios at the end of the bundle</measure>
                            <dimensions type="leaf" unit="mm">
                               <width quantity="170"/>
                               <height quantity="40"/>
                            </dimensions>
-                        <dimensions type="object" unit="mm"><width quantity="200"/><height quantity="45"/></dimensions><dimensions type="written" unit="mm"/></extent>
-                        <collation><desc xml:id="U1">ff. 1-36v</desc><desc xml:id="U2">ff. 24r-114v</desc><desc xml:id="U3">f. 115r (unnumbered)</desc></collation>
-                        
-                        
-                     <foliation>Nandināgarī numerals, left margin
+                        <dimensions type="object" unit="mm"><width quantity="200"/><height quantity="45"/></dimensions><dimensions type="written" unit="mm"/></extent><foliation>Nandināgarī numerals, left margin
 ff. 1-36; ff. 24-114r; f. 115r (unnumbered)
 
-</foliation><condition>Some folios are damaged at the borders</condition></supportDesc>
+</foliation><collation><desc xml:id="U1">ff. 1-36v</desc><desc xml:id="U2">ff. 24r-114v</desc><desc xml:id="U3">f. 115r (unnumbered)</desc></collation><condition>Some folios are damaged at the borders</condition></supportDesc>
                      <layoutDesc>
                         <layout columns="1" streams="1">6-9 written lines per page</layout>
                      </layoutDesc>
-                  </objectDesc>
-                  <handDesc><handNote synch="#U1" scope="minor" script="nandinagari" medium="incised soot"><desc>Clear hand-writing although the ink fades away towards the right margin</desc></handNote><handNote synch="#U2" scope="major" script="nandinagari" medium="incised soot"><desc>Clear hand-writing but although ink fades away towards the right margin</desc></handNote><handNote synch="#U3" scope="minor" script="nandinagari" medium="incised soot"><desc>Clear hand-writing but although ink fades away towards the right margin</desc></handNote></handDesc>
-                  <decoDesc>
-                  </decoDesc>
-                  <additions>
+                  </objectDesc><handDesc><handNote synch="#U1" scope="minor" script="nandinagari" medium="incised soot"><desc>Clear hand-writing although the ink fades away towards the right margin</desc></handNote><handNote synch="#U2" scope="major" script="nandinagari" medium="incised soot"><desc>Clear hand-writing but although ink fades away towards the right margin</desc></handNote><handNote synch="#U3" scope="minor" script="nandinagari" medium="incised soot"><desc>Clear hand-writing but although ink fades away towards the right margin</desc></handNote></handDesc><decoDesc>
+                  </decoDesc><additions>
                   <desc synch="#U3" type="summary" subtype="end guard-folio top">On the verso of the first guard folio at the end of the bundle:
 <q xml:lang="sa">narahariyapustakaṃ anuvyākhyānanyāyavivarṇavāyustu<gap reason="illegible" unit="character" quantity="1"/>pāṃtvasmāniśloka<gap reason="illegible" unit="character" quantity="2"/></q></desc><desc synch="#U3" type="blessing" subtype="end guard-folio top">On the recto of the second guard folio at the end of the bundle:
-<q xml:lang="sa">śrīvedavyāsāya namaḥ</q></desc></additions>
-                  <bindingDesc>
-                     <binding><p>wooden cover</p></binding>
-                  </bindingDesc>
-               </physDesc>
+<q xml:lang="sa">śrīvedavyāsāya namaḥ</q></desc></additions><bindingDesc>
+                     <binding><p>wooden cover</p><decoNote type="stringhole"><measure unit="stringhole" quantity="1"/></decoNote></binding>
+                  </bindingDesc></physDesc>
                <history>
-                  <origin>
+                  
+                  
+                  
+               <origin>
                      <origDate calendar="gregorian"/>
                      
-                  </origin>
-                  <provenance/>
-                  <acquisition/>
-               </history>
+                  </origin></history>
                <additional>
                   <listBibl>
                      
@@ -99,5 +97,5 @@ ff. 1-36; ff. 24-114r; f. 115r (unnumbered)
          
       <change when="2022-06">First version.</change></revisionDesc></teiHeader>
    <facsimile>
-   </facsimile>
+   <graphic url="https://iiif.archive.org/iiif/cod-palmbl-i-175/manifest.json"/></facsimile>
 </TEI>
