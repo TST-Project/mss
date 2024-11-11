@@ -323,9 +323,11 @@ const find = {
         const isocodes = new Map([
             ['ara','Arabic'],
             ['bod','Tibetan'],
+            ['bra','Brajbhasha'],
             ['eng','English'],
             ['fra','French'],
             ['deu','German'],
+            ['guj','Gujarati'],
             ['hin','Hindi'],
             ['lat','Latin'],
             ['mal','Malayalam'],
@@ -333,10 +335,12 @@ const find = {
             ['pli','Pali'],
             ['por','Portuguese'],
             ['pra','Prakrit'],
+            ['raj','Rajasthani'],
             ['san','Sanskrit'],
             ['sin','Sinhalese'],
             ['tam','Tamil'],
-            ['tel','Telugu']
+            ['tel','Telugu'],
+            ['zho','Chinese']
         ]);
         const langs = [...xmlDoc.querySelectorAll('textLang')].reduce((acc,cur) => {
             const main = cur.getAttribute('mainLang') || '';
