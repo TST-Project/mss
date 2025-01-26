@@ -1,4 +1,5 @@
-<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -7,7 +8,7 @@
          <editor><persName>Cristina Muru</persName><orgName>DISTU Department, University of TUSCIA</orgName></editor></titleStmt>
          <publicationStmt>
             <publisher>TST Project</publisher>
-            <date>2022</date>
+            <date>2025</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -39,52 +40,52 @@
 <p>தும்பிக்கை</p>
 <p>தும்மல்</p></explicit></msItem></msContents>
                <physDesc>
-                  <objectDesc form="codex">
+                  
+                  
+                  
+                  
+                  
+               <objectDesc form="codex">
                      <supportDesc material="paper industrial">
-                        <support>
-                           <measure unit="stringhole"/>
+                        
+                        
+                        
+                        
+                        
+                     <support>
+                           
                            <p>Lined paper, with lines written in pencil. </p>
-                        </support>
-                        <extent>
+                        </support><extent>
                            <measure unit="folio" quantity="106">2 front guard leaf + 102 + 2 back guard leaves (u1 + U1 + u2)</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
                            </dimensions>
-                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent>
-                        <collation><desc xml:id="cover">the front cover. Shelfmark on recto. </desc><desc xml:id="u1">2 folios = front guard leaf. No foliation. In the first folio: shelfmark on recto. Verso blank. On the second folio: Title in French. Verso blank. </desc><desc xml:id="U1">102 folios= <emph reader="bold">Tamil-Portuguese Dictionary</emph>. Arabic pagination (1-102). Parallel Tamil pagination.</desc><desc xml:id="U1a">1 folio = ownership statement on recto. Blank verso. </desc><desc xml:id="u2">2 folios = back guard leaf. No foliation. Blank recto verso.
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent><collation><desc xml:id="cover">the front cover. Shelfmark on recto. </desc><desc xml:id="u1">2 folios = front guard leaf. No foliation. In the first folio: shelfmark on recto. Verso blank. On the second folio: Title in French. Verso blank. </desc><desc xml:id="U1">102 folios= <emph reader="bold">Tamil-Portuguese Dictionary</emph>. Arabic pagination (1-102). Parallel Tamil pagination.</desc><desc xml:id="U1a">1 folio = ownership statement on recto. Blank verso. </desc><desc xml:id="u2">2 folios = back guard leaf. No foliation. Blank recto verso.
 
-</desc></collation>
-                        
-                        <condition>Execellent state of conservation.</condition>
-                     </supportDesc>
+</desc></collation><condition>Execellent state of conservation.</condition></supportDesc>
                      <layoutDesc>
                         <layout columns="2" writtenLines="26"><p>The page has upper, bottom, right, and left margins drawn with pencil.</p> 
 <p>Apart from the two columns, where the first one contais the Tamil headword, the second one the Portuguese meaning,  the layout of the page is further organised  in rows in grey pencil.</p></layout>
                      </layoutDesc>
-                  </objectDesc>
-                  <handDesc><handNote synch="#U1" scope="sole" scribeRef="#EdouardAriel" script="latin" medium="ink black"><desc><p>As stated in the paratext of second level (see Muru 2020) on the guard leaf (f. 1r), the Portuguese portion of the Dictionary was copied by Ariel in 1849.</p>.</desc></handNote><handNote synch="#U1" scope="sole" script="tamil" scriptRef="#tamilPulliSporadic #tamilOE" medium="ink black"><desc><p>As stated in the paratext of second level (see Muru 2020) on the guard leaf (f. 1r), the scribe for the Tamil portion was Rattinam who copied it in 1848.</p>.
+                  </objectDesc><handDesc><handNote synch="#U1" scope="sole" script="latin" medium="ink black"><desc><p xmlns="http://www.tei-c.org/ns/1.0">As stated in the paratext of second level (see Muru 2020) on the guard leaf (f. 1r), the Portuguese portion of the Dictionary was copied by Ariel in 1849.</p>. <persName role="scribe">Edouard Ariel</persName>.</desc></handNote><handNote synch="#U1" scope="sole" script="tamil" scriptRef="#tamilPulliSporadic #tamilOE" medium="ink black"><desc><p>As stated in the paratext of second level (see Muru 2020) on the guard leaf (f. 1r), the scribe for the Tamil portion was Rattinam who copied it in 1848.</p>.
 <p>The <emph reader="italic">Periya Ra</emph> ற is written with a double loop.</p> 
 <p>The <emph reader="italic">puḷḷi</emph> is sporadically used in intermediate and final position.</p>
-<p>An horizontal stroke is used as diacritic for differentiating <emph reader="italic">long ā</emph> from  <emph reader="italic">ra</emph>.</p></desc></handNote></handDesc>
-                  <decoDesc>
-                  <decoNote type="decorative" subtype="cover spine"><desc>decorative</desc></decoNote></decoDesc>
-                  <additions>
+<p>An horizontal stroke is used as diacritic for differentiating <emph reader="italic">long ā</emph> from  <emph reader="italic">ra</emph>.</p></desc></handNote></handDesc><decoDesc>
+                  <decoNote type="decorative" subtype="cover spine"><desc>decorative</desc></decoNote></decoDesc><additions>
                   <desc synch="#cover" corresp="#T1" type="title" subtype="cover spine">"DICTIONNAIRE TAMIL PORTUGAIS. I"</desc><desc synch="#cover" corresp="#T1" type="shelfmark" subtype="cover spine">BnF shelfmark sticker: "INDIEN 224" </desc><desc synch="#u1" type="shelfmark" subtype="cover guard-folio">BnF shelfmark sticker: "INDIEN 224" </desc><desc synch="#u1" type="shelfmark" subtype="guard-folio">BnF shelfmark in black pencil: "Tamoul N° 224" </desc><desc synch="#u1" type="title" subtype="guard-folio">Dictionnaire tamil-portuguais. 1</desc><desc synch="#U1a" type="ownership-statement" subtype="beginning"><p><emph reader="bold">Second level paratext </emph>(see Muru 2020)
-Copié, le tamil par <persName>Rattinam</persName>, <date>(1848)</date> le portugais parmi <date>(1849)</date> sur une manuscrit appartenant à la famille <persName>Tiruvan̂gadam</persName>, est original est petit in 4° (papier <unclear>?</unclear>) et se compose de 290 page dont la 1er <del>contient</del> de mêane que la 3e et la 4e, le commencement del'ouvrage; il est comme la copie l'indique, non termné.</p><p>La garde de la <unclear>?</unclear> porte un <emph reader="underlined">W13</emph>, avec la signature <persName><emph reader="underlined">Vazaradarayer</emph></persName>.</p><p>Collationé par mi <date>(1849)</date>.</p><p><persName>EA</persName><note>that is, the initials of Éduoard Ariel</note></p><p><date>septembre 1849</date>. 8(f. 1r)</p></desc><desc synch="#U1a" type="stamp" subtype="beginning top">There are two different stamps. The first one is a red circle containing an eagle and the writing <emph reader="italic">Bibliothèque Impérial MSS</emph>. This is the stamp in use from 1852 to 1870 (cf. stamp n. 36 in Josserand and Bruno 1960: 282). The second one is a red oval containing the writing <emph reader="italic">Don n°</emph>. They appear on the recto of the first folio where ownership statement is. The<emph reader="italic">eagle</emph> stamp is also found on f. 102v.</desc><desc synch="#U1" type="title" subtype="beginning top">அகாரதி (Dictionary).</desc></additions>
-                  <bindingDesc>
-                     <binding><p>Red leather covers. </p></binding>
-                  </bindingDesc>
-               </physDesc>
+Copié, le tamil par <persName>Rattinam</persName>, <date>(1848)</date> le portugais parmi <date>(1849)</date> sur une manuscrit appartenant à la famille <persName>Tiruvan̂gadam</persName>, est original est petit in 4° (papier <unclear>?</unclear>) et se compose de 290 page dont la 1er <del>contient</del> de mêane que la 3e et la 4e, le commencement del'ouvrage; il est comme la copie l'indique, non termné.</p><p>La garde de la <unclear>?</unclear> porte un <emph reader="underlined">W13</emph>, avec la signature <persName><emph reader="underlined">Vazaradarayer</emph></persName>.</p><p>Collationé par mi <date>(1849)</date>.</p><p><persName>EA</persName><note>that is, the initials of Éduoard Ariel</note></p><p><date>septembre 1849</date>. 8(f. 1r)</p></desc><desc synch="#U1a" type="stamp" subtype="beginning top">There are two different stamps. The first one is a red circle containing an eagle and the writing <emph reader="italic">Bibliothèque Impérial MSS</emph>. This is the stamp in use from 1852 to 1870 (cf. stamp n. 36 in Josserand and Bruno 1960: 282). The second one is a red oval containing the writing <emph reader="italic">Don n°</emph>. They appear on the recto of the first folio where ownership statement is. The<emph reader="italic">eagle</emph> stamp is also found on f. 102v.</desc><desc synch="#U1" type="title" subtype="beginning top">அகாரதி (Dictionary).</desc></additions><bindingDesc>
+                     <binding><p>Red leather covers. </p><decoNote type="stringhole"><measure unit="stringhole"/></decoNote></binding>
+                  </bindingDesc></physDesc>
                <history>
-                  <origin>
+                  
+                  
+                  
+               <origin>
                      <origDate calendar="gregorian">1848 and 1849. Internal date. See u1 and U1, f. 1r. Dated to 1760 by Vinson and Feer (1866-, f. 53r, no. <del>210</del>224 . 223) on unstated grounds.
                                                                                                         </origDate>
                      <origPlace>Tamilnadu, Pondicherry</origPlace>
-                  </origin>
-                  <provenance><p>Owned by Édouard Ariel (1818-1854). Bequested by Édouard-Simon Ariel to <emph>Société Asiatique</emph> (Rosny 1868: 177-224).</p></provenance>
-                  <acquisition><p>Received, August 1st, 1866, from the <emph>Société Asiatique</emph>. See BnF, département des Manuscrits, inventaire 7 = Dons: manuscrits et imprimés documentaires, 1848-1895, no. 1192.</p></acquisition>
-               </history>
+                  </origin><provenance><p>Owned by Édouard Ariel (1818-1854). Bequested by Édouard-Simon Ariel to <emph>Société Asiatique</emph> (Rosny 1868: 177-224).</p></provenance><acquisition><p>Received, August 1st, 1866, from the <emph>Société Asiatique</emph>. See BnF, département des Manuscrits, inventaire 7 = Dons: manuscrits et imprimés documentaires, 1848-1895, no. 1192.</p></acquisition></history>
                <additional>
                   <listBibl>
                      
@@ -101,10 +102,10 @@ Copié, le tamil par <persName>Rattinam</persName>, <date>(1848)</date> le portu
          
       <p><p><emph reader="bold">Transliteration conventions</emph>: the transliteration is conservative. Therefore, <emph reader="italic">puḷḷi</emph> is marked only if found in the manuscript.</p>
 <p><emph reader="bold">Abbreviations:</emph></p><p>f.= folio</p><p>ff. = folios</p><p>r = recto</p><p>v= verso</p><p>U = codigological and/or textual unit</p><p>? = unclear text</p></p></encodingDesc>
-      <revisionDesc>
+      
+   <revisionDesc>
          
-      </revisionDesc>
-   </teiHeader>
+      </revisionDesc></teiHeader>
    <facsimile>
    </facsimile>
 </TEI>
