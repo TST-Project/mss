@@ -1,0 +1,95 @@
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Paradigmes de la conjugaison tamoule et française</title>
+            
+         <editor><persName>Cristina Muru</persName><orgName>DISTU Department, University of Tuscia</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2022</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
+                  </repository>
+                  <idno type="shelfmark">Indien 502</idno>
+                  <idno type="alternate"><idno>Tamoul 502</idno></idno>
+               </msIdentifier>
+               <msContents class="#STM">
+                  <summary><p>It is a manuscript containing the incomplete paradigm of 125 Tamil verbs. For each Tamil verb, only the first singular person in the present, in the past, and in the future tense is given, along with other two Tamil forms.</p> <p>The listed verb forms are represented by simple or compound verbs, as well as by verb phrases. </p><p>For each Tamil verb form there is also a French gloss where the translation of the whole verb paradigm in the present, past, and future tense is given.</p> <p>The Tamil present and future tense is translated with a French verb in the present and future tense respectively, while the Tamil past tense is translated with a French perfect past.</p></summary>
+                  
+               <msItem synch="#U1" xml:id="T1" defective="true"><title xml:lang="ta">no specific title</title><author xml:lang="ta">unkown</author><textLang mainLang="tam" otherLangs="fra"/><incipit xml:lang="ta"><p>cattepaṭukiṟeṉ......j'ai doute</p>
+									<p>vous doitez</p>
+									<p>il doute</p>
+									<p>nous doutons</p>
+									<p>vous doutez</p>
+									<p>vous doutent</p></incipit><explicit xml:lang="ta">patiyum.....cueillez
+patikkiṟatu.....cueillir</explicit></msItem><msItem synch="#U1a" xml:id="T1" defective="false"><title>No title</title><incipit><unclear>vous tenons vints...</unclear></incipit><explicit><p>le lion  ciṅkam</p><p>la vierge kaṉṉiyā<unclear>sti</unclear>ri</p></explicit></msItem></msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="paper industrial">
+                        <support>
+                           <measure unit="stringhole"/>
+                           <p>The recurrent <watermark>watermark</watermark> found at folios 5r, 7r, 13r, 17r, 19r, 25r, 31r, 37r, 39r, 43r is AL (cf. n. 100 in Laurentius and Laurentius 2018: 67). </p>
+                        </support>
+                        <extent>
+                           <measure unit="folio" quantity="50"><p>1 front guard leaf  + 48 + 2 back guard leaves (u1 + U1 + u2)</p><p>There is smaller sized paper (U1a) glued on the recto of the final guard leaf.</p></measure>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           </dimensions>
+                        <dimensions type="object" unit="mm"><width quantity="150"/><height quantity="200"/></dimensions><dimensions type="written" unit="mm"/></extent>
+                        <collation><desc xml:id="cover">the front cover. Shelfmark on recto.</desc><desc xml:id="u1">1 folio = front guard leaf. No foliation. Shelfmark on recto. Verso blank. </desc><desc xml:id="U1">48 folios = paradigms of Tamil verbs. Partial original foliation. Partial library foliation.</desc><desc xml:id="U1a">1 folio = note </desc><desc xml:id="u2">1 folio = back guard leaf</desc></collation>
+                        
+                        
+                     <foliation><p>There are two foliations: an original one and an added one. Both appear on the upper side of the manuscript.</p>
+<p>The added one runs from 1 to 48 and it is placed on the upper right side of each recto. The second one appears both on the recto and verso of each folio, hence on the upper right and left side. It reveals that the manuscript is incomplete and that the original order was different. For example, at f. 2r the original foliation corresponds to f. 9r; at f. 6r it corresponds to 17r; at f. 9v at f. 25r.</p></foliation><condition>Very good state of preservation, in spite of wet stains on the manuscript.</condition></supportDesc>
+                     <layoutDesc>
+                        <layout columns="2" writtenLines="20"><p>Each page contains two columns. Even though it seems that the manuscript was intended for personal use, it is ordered. On the left column there is the Tamil verb form, on the right column the French gloss.</p>
+<p>The page is not marked by lines and layout margins; however, the columns runs approx. for 700mm (width) and 1600/1700mm height. There is a margin on the left side of each page: 100mm for verso folios, and 150mm for recto folios.</p> 
+Upper layout: 100 mm, bottom layout: 350mm.
+
+If there is the paradigm of one single verb there are 20 lines per page (20 folios), otherwise the number increase to 28 (or different) if there is the paradigm of more verbs. </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc><handNote synch="#U1" scope="sole" script="latin tamil" scriptRef="#tamilPulliSporadic" medium="ink black brown"><desc>It is possible to identify two hands: the first one copied/wrote the whole manuscript. The second hand inserted additions and made corrections. There is not differentiation between long and short <emph>e/o</emph>, and between <emph>ra</emph> and long <emph>a</emph>.</desc></handNote><handNote synch="#U1a" scope="sole" script="latin tamil" scriptRef="#tamilPulliNone" medium="ink brown"><desc><p> The final note  glued on the back guard leaf seems to be written by a third hand.</p><p>The handwriting of the Tamil language in this  note is similar to the one of the folios of trying of tamil script between the Portugese manuscript and the first section of Indien 188. This handwriting is also similar to the one used in the first table in NAF 8878. It  could be <persName>Abraham-Hyacinthe Anquetil-Duperron's (1731-1805)  handwriting.</persName></p></desc></handNote></handDesc>
+                  <decoDesc>
+                  </decoDesc>
+                  <additions>
+                  <desc synch="#cover" corresp="#T1" type="shelfmark" subtype="cover spine">BnF Shelfmark sticker: "INDIEN 502"</desc><desc synch="#cover" corresp="#T1" type="shelfmark" subtype="beginning cover">BnF Shelfmark sticker: "INDIEN 502"</desc><desc synch="#u1" corresp="#T1" type="shelfmark" subtype="guard-folio top"><p>BnF Shelfmark in black pencil: "Tamooul N° 502"</p>
+<p>BnF Shelfmark in black ink: "N° 502"</p></desc><desc synch="#U1" corresp="#T1" type="seal shelfmark" subtype="beginning end"><stamp>The stamp (280 mm)</stamp> used is a red circle containing 3 fleurs-de-lil summounted by a crown with the inscription <emph>Bibliothèque Royal</emph> and belongs to the Restauration period. It is found at f. 1r and 48r. It suggests that the manuscript was <stamp>stamped</stamp> between July 1830 and January 1831 – cf. n. 20 in Josserand and Bruno (1960: 281).</desc></additions>
+                  <bindingDesc>
+                     <binding><p>Hard paper cover, marbled on the outside.</p></binding>
+                  </bindingDesc>
+               <typeDesc/></physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="gregorian">No internal date. </origDate>
+                     
+                  </origin>
+                  <provenance><p>Provenance unknown in Cabaton’s catalogue (1912), but possibly a manuscript from the Duperron's collection. </p></provenance>
+                  <acquisition><p>Exact acquisition is unknown but some evidence suggests that the manuscript belonged to Duperron's collection. </p></acquisition>
+               </history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl><p>Antoine Cabaton, <emph>Catalogue sommaire des manuscrits indiens, indo-chinois et malayo-polynésiens</emph>, Paris, E. Leroux, 1912: 70.</p>
+<p>Laurentius Theo and Laurentius, Frans. 2018. <emph>Watermarks in paper from the South-West of France, 1560-1860.</emph> Leiden, The Netherlands: Brill.</p> 
+ <p>No further references about this manuscriptwere found in other catalogues such as Vinsons’ catalogue, in NAF 4333, NAF 4341, NAF 4342, NAF 4343,  NAF 4344, NAF 4345, NAF 5445, NAF 5443, NAF 5441, NAF 5442.</p></bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         
+      <p><emph rend="bold">Transliteration conventions</emph> ― Conservative. Hence, <emph>puḷḷi, ō,</emph> and <emph>ē</emph> are used only if they are found in the manuscript. ― <emph rend="bold">Abbreviations</emph> ― cf. = compare, f. = folio, ff. = folios, r. = recto, U/u =  unit (codicological and/or textual), v. = verso</p></encodingDesc>
+      <revisionDesc>
+         
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+   </facsimile>
+</TEI>
