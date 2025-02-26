@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Dictionnaire tamil-portuguais. 1</title>
+            <title>Dictionary, Tamil-Portuguese</title>
             
          <editor><persName>Cristina Muru</persName><orgName>DISTU Department, University of TUSCIA</orgName></editor></titleStmt>
          <publicationStmt>
@@ -17,14 +17,14 @@
                      <orgName>Bibliothèque nationale de France. Département des Manuscrits</orgName>
                   </repository>
                   <idno type="shelfmark">Indien 224</idno>
-                  <idno type="alternate"><idno>Tamoul 224</idno></idno>
+                  <idno type="alternate"><idno>Tamoul 224</idno><idno>Aa/6</idno></idno>
                <idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103759w</idno><idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b52515030m</idno></msIdentifier>
                <msContents class="#STM">
                   <summary><p>This manuscript is an incomplete version of a Tamil-Portuguese dictionary. At first impression it is based on Antão De Proença's (1624-1666) dictionary even though not all the entries from Antão are reported. The comparison between the two manuscript has not been systematic.</p>
-<p>From f. 2r up to f. 11r both Tamil entries and Portuguese meaning are found. From f. 11v onwards and till the end of the manuscript, only the Tamil entries have been copied.</p>
+<p>From f2r up to f11r both Tamil entries and Portuguese meaning are found. From f11v onwards, only the Tamil entries have been copied.</p>
 <p>Description based on the online digitized version.</p></summary>
                   
-               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta">Dictionnaire tamil-portuguais. 1</title><author xml:lang="ta">Antão De Proença (1624-1666)</author><textLang mainLang="tam" otherLangs="por"/><filiation><p>Indien 221, Indien 222 of which it is a copy (see addition in Cabaton 1912: 36).</p></filiation><incipit xml:lang="ta">  <pb n="1r" facs="9"/>
+               <msItem synch="#U1b" xml:id="T1" defective="false"><title xml:lang="fr">Colophon</title><textLang mainLang="fra"/></msItem><msItem synch="#U1c" xml:id="T2" defective="false"><title xml:lang="ta">Dictionary Proper</title><author xml:lang="ta">Antão De Proença (1624-1666)</author><textLang mainLang="tam" otherLangs="por"/><filiation><p>Indien 221, Indien 222 of which it is a copy (see addition in Cabaton 1912: 36).</p></filiation><incipit xml:lang="ta">  <pb n="1r" facs="9"/>
   <lb n="1"/>அகரதி
  <lb n="2"/>அப <emph>cousa baldada</emph>
  <lb n="3"/>அபதூறு <emph>infamia</emph>
@@ -47,7 +47,7 @@
                   
                   
                   
-               <objectDesc form="codex">
+               <objectDesc form="codex" rend="manuscript">
                      <supportDesc material="paper industrial">
                         
                         
@@ -58,25 +58,26 @@
                            
                            <p>Lined paper, with lines written in pencil. </p>
                         </support><extent>
-                           <measure unit="folio" quantity="106">2 front guard leaf + 102 + 2 back guard leaves (u1 + U1 + u2)</measure>
+                           <measure unit="folio" quantity="106">1 + 1 + 1 + 101 + 1 + 1 (u1a + U1a + U1b + U1c+ U1d + u1b).</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
-                           </dimensions>
-                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"/></extent><collation><desc xml:id="cover">the front cover. Shelfmark on recto. </desc><desc xml:id="u1">2 folios = front guard leaf. No foliation. In the first folio: shelfmark on recto. Verso blank. On the second folio: Title in French. Verso blank. </desc><desc xml:id="U1">102 folios= <emph reader="bold">Tamil-Portuguese Dictionary</emph>. Arabic pagination (1-102). Parallel Tamil pagination.</desc><desc xml:id="U1a">1 folio = ownership statement on recto. Blank verso. </desc><desc xml:id="u2">2 folios = back guard leaf. No foliation. Blank recto verso.
+                           <width quantity="210"/><height quantity="295"/></dimensions>
+                        <dimensions type="object" unit="mm"><width quantity="220"/><height quantity="300"/><depth quantity="30"/></dimensions><dimensions type="written" unit="mm"/></extent><collation><desc xml:id="coverFront">the <emph rend="bold">front cover</emph>. Shelfmark on recto. </desc><desc xml:id="u1a">1 folio = <emph rend="bold">front guard leaf</emph>. No foliation. Element of binding.
+</desc><desc xml:id="U1a">1 folio = <emph rend="bold">Title Page</emph>. No foliation. </desc><desc xml:id="U1b">1 folio = <emph rend="bold">Colophon</emph>. Tamil foliation 1. Library foliation 1.</desc><desc xml:id="U1c">101 folios= <emph reader="bold">Dictionary Proper</emph>. Tamil foliation 1-101. Library foliation 2-102.</desc><desc xml:id="U1d">1 folio = <emph rend="bold">back guard leaf</emph>. No foliation. Blank recto verso.
+</desc><desc xml:id="u1b">1 folio = <emph rend="bold">back guard leaf</emph>. No foliation. Blank recto verso. Element of binding.
 
-</desc></collation><condition>Execellent state of conservation.</condition></supportDesc>
+</desc><desc xml:id="coverBack">the <emph rend="bold">back cover</emph>. Shelfmark on recto. </desc></collation><condition>Execellent state of conservation.</condition></supportDesc>
                      <layoutDesc>
-                        <layout columns="2" writtenLines="26"><p>The page has upper, bottom, right, and left margins drawn with pencil.</p> 
-<p>Apart from the two columns, where the first one contais the Tamil headword, the second one the Portuguese meaning,  the layout of the page is further organised  in rows in grey pencil.</p></layout>
+                        <layout columns="2" writtenLines="26">The page has upper, bottom, right, and left margins drawn with pencil. Apart from the two columns, where the first one contains the Tamil headword, the second one the Portuguese meaning,  the layout of the page is further organised  in rows in grey pencil.</layout>
                      </layoutDesc>
-                  </objectDesc><handDesc><handNote synch="#U1" scope="sole" script="latin" medium="ink black"><desc><p xmlns="http://www.tei-c.org/ns/1.0">As stated in the paratext of second level (see Muru 2020) on the guard leaf (f. 1r), the Portuguese portion of the Dictionary was copied by Ariel in 1849.</p>. <persName role="scribe">Edouard Ariel</persName>.</desc></handNote><handNote synch="#U1" scope="sole" script="tamil" scriptRef="#tamilPulliSporadic #tamilOE" medium="ink black"><desc><p>As stated in the paratext of second level (see Muru 2020) on the guard leaf (f. 1r), the scribe for the Tamil portion was Rattinam who copied it in 1848.</p>.
-<p>The <emph reader="italic">Periya Ra</emph> ற is written with a double loop.</p> 
-<p>The <emph reader="italic">puḷḷi</emph> is sporadically used in intermediate and final position.</p>
-<p>An horizontal stroke is used as diacritic for differentiating <emph reader="italic">long ā</emph> from  <emph reader="italic">ra</emph>.</p></desc></handNote></handDesc><decoDesc>
-                  <decoNote type="decorative" subtype="cover spine"><desc>decorative</desc></decoNote></decoDesc><additions>
-                  <desc synch="#cover" corresp="#T1" type="title" subtype="cover spine">"DICTIONNAIRE TAMIL PORTUGAIS. I"</desc><desc synch="#cover" corresp="#T1" type="shelfmark" subtype="cover spine">BnF shelfmark sticker: "INDIEN 224" </desc><desc synch="#u1" type="shelfmark" subtype="cover guard-folio">BnF shelfmark sticker: "INDIEN 224" </desc><desc synch="#u1" type="shelfmark" subtype="guard-folio">BnF shelfmark in black pencil: "Tamoul N° 224" </desc><desc synch="#u1" type="title" subtype="guard-folio">Dictionnaire tamil-portuguais. 1</desc><desc synch="#U1a" type="ownership-statement" subtype="beginning"><p><emph reader="bold">Second level paratext </emph>(see Muru 2020)
-Copié, le tamil par <persName>Rattinam</persName>, <date>(1848)</date> le portugais parmi <date>(1849)</date> sur une manuscrit appartenant à la famille <persName>Tiruvan̂gadam</persName>, est original est petit in 4° (papier <unclear>?</unclear>) et se compose de 290 page dont la 1er <del>contient</del> de mêane que la 3e et la 4e, le commencement del'ouvrage; il est comme la copie l'indique, non termné.</p><p>La garde de la <unclear>?</unclear> porte un <emph reader="underlined">W13</emph>, avec la signature <persName><emph reader="underlined">Vazaradarayer</emph></persName>.</p><p>Collationé par mi <date>(1849)</date>.</p><p><persName>EA</persName><note>that is, the initials of Éduoard Ariel</note></p><p><date>septembre 1849</date>. 8(f. 1r)</p></desc><desc synch="#U1a" type="stamp" subtype="beginning top">There are two different stamps. The first one is a red circle containing an eagle and the writing <emph reader="italic">Bibliothèque Impérial MSS</emph>. This is the stamp in use from 1852 to 1870 (cf. stamp n. 36 in Josserand and Bruno 1960: 282). The second one is a red oval containing the writing <emph reader="italic">Don n°</emph>. They appear on the recto of the first folio where ownership statement is. The<emph reader="italic">eagle</emph> stamp is also found on f. 102v.</desc><desc synch="#U1" type="title" subtype="beginning top">அகாரதி (Dictionary).</desc></additions><bindingDesc>
+                  </objectDesc><handDesc><handNote synch="#U1c" scope="sole" script="latin" scriptRef="#tamilPulliSporadic #tamilMacron" medium="ink black"><desc>As stated in the colophon (U1b) on the guard leaf, the  scribe for the Tamil portion was Rattinam who copied it in 1848, whereas the Portuguese portion of the Dictionary was copied by Ariel <persName role="scribe">Edouard Ariel</persName> in 1849. Double looped <foreign>ṟa</foreign>. The <emph reader="italic">puḷḷi</emph> is sporadically used in intermediate and final position. An horizontal stroke is used as diacritic for differentiating <foreign>ra</foreign> from medial <foreign>ā</foreign>.</desc></handNote></handDesc><decoDesc>
+                  </decoDesc><additions>
+                  <desc type="shelfmark" subtype="cover spine top">Ariel classmark: <quote>Aa/6</quote> (<locus facs="217">spine</locus>)</desc><desc corresp="#T1" type="title" subtype="cover spine top bottom">Title (<locus facs="217">spine</locus>):
+<quote rend="block">
+  <lb n="1-3"/>DICTIONNAIRE TAMIL PORTUGAIS
+ <lb n="4"/>I
+</quote> </desc><desc corresp="#T1" type="shelfmark" subtype="cover spine bottom">BnF shelfmark sticker: <quote>INDIEN 224</quote> (<locus facs="217">spine</locus>)</desc><desc synch="#coverFront" type="shelfmark" subtype="cover">BnF shelfmark sticker: <quote>INDIEN 224</quote> (<locus facs="2">front cover, verso</locus>)</desc><desc synch="#u1a" type="shelfmark" subtype="guard-folio">BnF shelfmark in black pencil: <quote>Tamoul N° 224</quote> (<locus facs="3">f[1]r</locus>)</desc><desc synch="#U1a" type="title" subtype="guard-folio">Title: <quote>Dictionnaire tamil-portuguais. 1</quote> (<locus facs="5">f[1]r</locus>)</desc><desc synch="#U1b" type="stamp" subtype="beginning top">There are two different stamps. The first one is a red circle containing an eagle and inscribed <quote>BIBLIOTHEQUE IMPERIALE MSS</quote> (<locus facs="7">U1b, lf1r</locus>, <locus facs="7">U1c, lf102v</locus>). This is the stamp in use from 1852 to 1870 (cf. stamp n. 36 in Josserand and Bruno 1960: 282). The second one is a red oval inscribed <quote>Don n°</quote> (<locus facs="7">U1b, lf1r</locus>).</desc><desc synch="#U1c" type="title" subtype="beginning top">Title: <quote xml:lang="ta">Akarati</quote> (<locus facs="9">U1c, f1</locus>).</desc></additions><bindingDesc>
                      <binding><p>Red leather covers. </p><decoNote type="stringhole"><measure unit="stringhole"/></decoNote></binding>
                   </bindingDesc></physDesc>
                <history>
@@ -84,7 +85,7 @@ Copié, le tamil par <persName>Rattinam</persName>, <date>(1848)</date> le portu
                   
                   
                <origin>
-                     <origDate calendar="gregorian">1848 and 1849. Internal date. See u1 and U1, f. 1r. Dated to 1760 by Vinson and Feer (1866-, f. 53r, no. <del>210</del>224 . 223) on unstated grounds.
+                     <origDate calendar="gregorian">1848 and 1849. Internal date. See colophon (<locus facs="7">U1b, f[1]r</locus>). Dated to 1760 by Vinson and Feer (1866-, f. 53r, no. <del>210</del>224 . 223) on unstated grounds.
                                                                                                         </origDate>
                      <origPlace>Tamilnadu, Pondicherry</origPlace>
                   </origin><provenance><p>Owned by Édouard Ariel (1818-1854). Bequested by Édouard-Simon Ariel to <emph>Société Asiatique</emph> (Rosny 1868: 177-224).</p></provenance><acquisition><p>Received, August 1st, 1866, from the <emph>Société Asiatique</emph>. See BnF, département des Manuscrits, inventaire 7 = Dons: manuscrits et imprimés documentaires, 1848-1895, no. 1192.</p></acquisition></history>
@@ -92,20 +93,44 @@ Copié, le tamil par <persName>Rattinam</persName>, <date>(1848)</date> le portu
                   <listBibl>
                      
                   <bibl><emph>Anciens catalogues de la Bibliothèque du Roi et de différentes collections qui sont venues l'accroître aux XVIIe, XVIIIe et XIXe siècles. « Notices sur des manuscrits en langue européenne, relatifs à l'Inde : grammaires, dictionnaires, relations, etc., par M. Fauriel».</emph>Bibliothèque nationale de France. Département des Manuscrits. NAF 5445. Notice 39, f. 23r-v.
-</bibl><bibl>Cabaton, Antoine. 1912. <emph reader="italic">Catalogue sommaire des manuscrits indiens, indo-chinois and malayo-polynésiens.</emph> Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux.</bibl><bibl>Muru, Cristina. 2020. Socio-pragmatic on the page. Discursive strategies and packaging of Christian books (16th-19th century) in Tamil. In: <emph reader="italic">Colophon, Prefaces, Satellite Stanzas. Paratextual Elements and Their Role in the Transmission of Indian Texts. vol. 10</emph>, by E. Wilden and S. Anandakichenin (eds.). Hamburg: Department of  Indian and Tibetan Studies, pp. 543-621.
-</bibl><bibl>Rosny, Léon de. 1869. La bibliothèque tamoule de M. Ariel, de Pondichéry. In: <emph reader="italic">Variétés orientales</emph>. Paris: Maisonneuve, pp. 177‒224.</bibl><bibl>Vinson, Julien and Feer, Léon and s.n. (1866-). <emph reader="italic">Catalogue des manuscrits tamoul et télinga.</emph> Manuscript, BnF Indien 577, f. 53r.</bibl></listBibl>
+</bibl><bibl>Cabaton, Antoine. 1912. <emph reader="italic">Catalogue sommaire des manuscrits indiens, indo-chinois and malayo-polynésiens.</emph> Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux.</bibl><bibl>Rosny, Léon de. 1869. La bibliothèque tamoule de M. Ariel, de Pondichéry. In: <emph reader="italic">Variétés orientales</emph>. Paris: Maisonneuve, pp. 177‒224.</bibl><bibl>Vinson, Julien and Feer, Léon and s.n. (1866-). <emph reader="italic">Catalogue des manuscrits tamoul et télinga.</emph> Manuscript, BnF Indien 577, f. 53r.</bibl></listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          
-      <p><p><emph reader="bold">Transliteration conventions</emph>: the transliteration is conservative. Therefore, <emph reader="italic">puḷḷi</emph> is marked only if found in the manuscript.</p>
-<p><emph reader="bold">Abbreviations:</emph></p><p>f.= folio</p><p>ff. = folios</p><p>r = recto</p><p>v= verso</p><p>U = codigological and/or textual unit</p><p>? = unclear text</p></p></encodingDesc>
+      <p>TBC</p></encodingDesc>
       
    <revisionDesc>
          
-      <change when="2022-04">Record created by <persName>Cristina MURU</persName>. Version 1, April 2022.</change></revisionDesc></teiHeader>
+      <change when="2022-04">Record created by <persName>Cristina MURU</persName>. Version 1, April 2022.</change><change when="2022-05">Revised by <persName>Emmanuel FRANCIS</persName>. Version 2, February 2025.</change></revisionDesc></teiHeader>
    <facsimile>
    <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b52515030m/manifest.json"/></facsimile>
-</TEI>
+<text synch="#U1b" corresp="#T1" xml:lang="fr"><body>
+  
+  <ab>
+   <pb n="[1]r = lf1r" facs="7"/> 
+    <seg function="colophon"><lb n="1"/>Copié, le tamil par <persName>Rattinam</persName>, <date>(1848)</date> le
+    <lb n="2"/>portugais par moi <date>(1849)</date> sur une manuscrit
+    <lb n="3"/>appartenant à la famille <persName>Tiruvan̂gadam</persName>, cet
+    <lb n="4"/>original est petit in 4° (papier écolier) et se compose
+    <lb n="5"/>de 290 pages dont la 1<hi rend="superscript">re</hi> <del>contient</del> de même que
+    <lb n="6"/>la 3<hi rend="superscript">e</hi> et la 4<hi rend="superscript">e</hi>, le commencement de l'ouvrage; il est
+    <lb n="7"/>comme la copie l'indique, non termné.
+    <lb n="8"/> La garde de la reliure porte un n<hi rend="superscript">r</hi> 3, avec
+    <lb n="9"/>la signature <persName>Vazaradarayer</persName>.
+    <lb n="10"/>Collationé par mi <date>(1849)</date>.
+    <lb n="11"/><persName>EA</persName><note>that is, the initials of Édouard Ariel</note>
+    <lb n="12"/><date>septembre 1849</date>.</seg>
+    
+  </ab>
+  
+</body></text><text synch="#U1c" corresp="#T2" xml:lang="ta"><body>
+  
+  <ab>
+    
+    
+  </ab>
+  
+</body></text></TEI>
