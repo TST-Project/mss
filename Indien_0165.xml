@@ -28,8 +28,14 @@
   The contents of U1 are:
 <list>
   <item><locus facs="5">lf1r</locus>: title page of volume.</item>
-  <item><locus facs="7">lf2r</locus>-<locus facs="112">lf54v</locus>: list of works in Tamil and Sanskrit in alphabetical order.</item>
-  <item><locus facs="113">lf55</locus>‒<locus facs="123">lf60</locus>: list of works.</item>
+  <item><locus facs="7">lf2r</locus>-<locus facs="112">lf54v</locus>: list of works in Tamil and Sanskrit in alphabetical order. Letters of the Tamil alphabet in the page header: e.g. <term xml:lang="ta">A. Ā.</term> (<locus facs="7">lf2r</locus>).</item>
+  <item><locus facs="113">lf55</locus>‒<locus facs="123">lf60</locus>: 3 isolated items (in fact only 3 folios, folded in two as longer [320 x 220 mm] than the others in the volume:) and bound in, that is:
+    <list>
+      <item>instructions in Tamil for blackening engraved letters on palm leaves and for protecting palm leaves from insects,</item>
+      <item>a list of Sanskrit poets,</item>
+      <item>brief entries for Vedāntadeśika and Vedāntācārya.</item>      
+      </list>
+  </item>
   <item><locus facs="125">lf61r</locus>‒<locus facs="287">lf142r</locus>: <foreign>purāṇa</foreign>s, legends, biographies.</item>
   <item><locus facs="289">lf143r</locus>‒<locus facs="359">lf178r</locus>: epics.</item>
   <item><locus facs="361">lf179r</locus>‒<locus facs="369">lf183r</locus>: literature.</item>
@@ -43,7 +49,7 @@
   
   <item><locus facs="501">lf249r</locus>‒<locus facs="537">lf267r</locus>: list of printed books in Ariel’s library, arranged by genre/topic, with letter+number reference system.</item>
   
-    <item><locus facs="539">lf268r</locus>‒<locus facs="572">lf284r</locus>:  list of manuscrits in Ariel’s library, arranged by genre/topic, with letter+number reference system.</item>
+    <item><locus facs="539">lf268r</locus>‒<locus facs="572">lf284r</locus>: list of manuscrits (palm leaf and paper) in Ariel’s library, arranged by genre/topic, with letter+number reference system.</item>
   
   </list>
   </p>
@@ -68,7 +74,7 @@
                               <height quantity="290"/>
                               <depth quantity="40"/>
                            </dimensions>
-                        <dimensions type="leaf" unit="mm"/><dimensions type="written" unit="mm"/></extent><collation>
+                        <dimensions type="leaf" unit="mm"><width max="220"/><height max="275"/></dimensions><dimensions type="written" unit="mm"/></extent><collation>
                         
                         
                         <desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. Shelfmark on verso. Verso marbled (that is, one pasted bifolio covers verso of front cover and recto of front guard leaf).</desc><desc xml:id="u1">1 folio = front <emph rend="bold">guard leaf</emph>. 275 x 220 mm. Blank recto verso. Recto marbled (that is, one pasted bifolio covers verso of front cover and recto of front guard leaf).</desc><desc xml:id="U1">285 folios = <emph rend="bold">Bibliography</emph>. Library Arabic foliation 1-284, <del>285</del>. Paper of various types, colours, and sizes (but not exceeding 275 x 220 mm).
@@ -120,12 +126,74 @@ Sometimes paper sheets (handwritten printed) pasted. See e.g. <locus facs="295">
    </facsimile>
 <text synch="#U1"><body>
   <ab>
-  <pb facs="5" n="1r"/>
-
+    
+    <pb facs="5" n="1r"/>
     <seg function="title"><lb n="1"/>Ariel
       <lb n="2"/>Bibliographie.
       <lb n="3"/>Volume 2.</seg>
       <lb n="4"/>Bibliographie
       <lb n="5"/>titres d’ouvrages. alphabet<hi rend="superscript">q<ex>emen</ex>t</hi>
+    
+    <pb facs="119" n="58r"/>
+    
+    <lb n="1"/>Inde
+    <lb n="2"/>Livres
+    <lb n="3"/>Pour noircir les caractères gravés sur les
+    <lb n="4"/>olles &amp; les garantir des attaques des insectes
+    <term xml:lang="ta"><lb n="5"/>karaciṉāṅkaṇṇiracamum
+    <lb n="6"/>koṭṭaṅkaccikkariyum
+    <lb n="7"/>maṇṇēṇṇaiyum
+    <lb n="8"/>koñcamañcalum
+    <lb n="9"/>cērttu pūcittuṭaittu pōṭu
+    <lb n="10"/>kiṟatu.</term>
+    <persName><lb n="11"/>Suprayavattiyar</persName>
+    
+    <pb facs="125" n="61r"/>
+    <seg function="intertitle"><lb n="1"/>Purānas, légendes &amp; biographies</seg>    
+    
+    <pb facs="289" n="143r"/>
+    <seg function="intertitle"><lb n="1"/>Inde littérature Epique</seg>
+    
+    <pb facs="361" n="179r"/>
+    <seg function="intertitle"><lb n="1"/>Inde littérature <gap reason="ellipsis"/></seg>
+    
+    <pb facs="371" n="184r"/>
+    <seg function="intertitle"><lb n="1"/>Littérature sanskrite</seg>
+
+    <pb facs="395" n="196r"/>
+    <seg function="intertitle"><lb n="1"/>Littérature tamile</seg>    
+    
+    <pb facs="413" n="205r"/>
+    <seg function="intertitle"><lb n="1"/>Littérature indienne du Sud</seg>
+    
+    <pb facs="431" n="214r"/>
+    <seg function="intertitle"><lb n="1"/>Littérature indienne du nord</seg>
+
+    <pb facs="453" n="225r"/>
+    <seg function="intertitle"><lb n="1"/>Inde littérature Dramatique</seg>
+
+    <pb facs="491" n="244r"/>
+    <seg function="intertitle"><lb n="1-2"/>ouvrages incomplets <gap reason="ellipsis"/></seg>
+
+    <pb facs="501" n="249r"/>
+    <fw place="top-margin">imp.</fw>
+    <seg function="intertitle">
+      <lb n="1"/><del>VII. Travaux européens</del>
+      <lb n="2"/>Grammaire &amp; lexicographie
+    </seg>
+    
+    <pb facs="539" n="268r"/>
+    <fw place="top-margin">
+      <cb n="1"/>
+      <lb n="1"/>olles.
+      <lb n="2"/>papier.
+      <cb n="2"/>
+      <lb n="1"/>manuscrits.
+    </fw>
+    <seg function="intertitle">      
+      <lb n="1"/>Grammaire &amp; lexicographie
+      <lb n="2"/><del>Langue &amp; calcul</del>
+    </seg>
+
   </ab>
 </body></text></TEI>
