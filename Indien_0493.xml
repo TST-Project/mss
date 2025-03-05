@@ -40,13 +40,13 @@
                            
                            
                         </support><extent>
-                           <measure unit="folio" quantity="67">1 + 1 + 65 (U1 + U2 + U3). 1 front guard folio, 1 unnumbered folio, 65 numbered folios, 1 back guard folio.</measure>
+                           <measure unit="folio" quantity="68">1 + 1 + 65 + 1 (U1 + U2 + U3 + U4). 1 front guard folio, 1 unnumbered folio, 65 numbered folios, 1 back guard folio.</measure>
                            <dimensions type="leaf" unit="mm">
                               
                               
                            </dimensions>
                         <dimensions type="object" unit="mm"><width quantity="351"/><height quantity="24"/></dimensions><dimensions type="written" unit="mm"/></extent><foliation>Tamil letter numerals on the left margin. Arabic numbers added recently in pencil on the right margin. </foliation><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. On the front board we find the BnF shelfmark sticker as well as the BnF bequest sticker.</desc><desc xml:id="U1">1 folio/bifolio = <emph rend="bold">Aruḷappar Nāṭakam: Title page (additional)</emph>. No foliation.
-The front guard folio was likely added by Ariel, since it seems by the hand of his scribe and contains the usual elements (invocation, title).</desc><desc xml:id="U2">1 folio = <emph rend="bold"><term xml:lang="ta">Aruḷappar Nāṭakam</term>: Invocation</emph>. No foliation.</desc><desc xml:id="U3">65 folios = <emph rend="bold"><term xml:lang="ta">Aruḷappar Nāṭakam: Mūlam</term></emph>. Tamil foliation {1}, 2-65.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>. </desc></collation><condition>Very good state of perservation, despite some wormholes. </condition></supportDesc>
+The front guard folio was likely added by Ariel, since it seems by the hand of his scribe and contains the usual elements (invocation, title).</desc><desc xml:id="U2">1 folio = <emph rend="bold"><term xml:lang="ta">Aruḷappar Nāṭakam</term>: Invocation</emph>. No foliation.</desc><desc xml:id="U3">65 folios = <emph rend="bold"><term xml:lang="ta">Aruḷappar Nāṭakam: Mūlam</term></emph>. Tamil foliation {1}, 2-65.</desc><desc xml:id="U4">1 bifolio = <emph rend="bold">guard leaf</emph>. No foliation.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>. </desc></collation><condition>Very good state of perservation, despite some wormholes. </condition></supportDesc>
                      <layoutDesc>
                         
                      <layout writtenLines="5 6" columns="1">The unnumbered folio (U1) contains several paratexts organized in three columns, but this is the only occurrence of such folio arrangement in the manuscript (which is otherwise in the <foreign xml:lang="la">scriptio continua</foreign> occupying the whole leaf).</layout></layoutDesc>
@@ -63,7 +63,7 @@ The front guard folio was likely added by Ariel, since it seems by the hand of h
                <origin>
                      <origDate calendar="gregorian" when="1814"/>
                      
-                  </origin></history>
+                  <origPlace>Tamilnadu</origPlace></origin></history>
                <additional>
                   <listBibl>
                      
@@ -78,24 +78,32 @@ The front guard folio was likely added by Ariel, since it seems by the hand of h
       
    <xenoData type="webannotation"><![CDATA[[]]]></xenoData><revisionDesc>
          
-      <change when="2025-02">Record created by Margherita TRENTO.</change></revisionDesc></teiHeader>
+      <change when="2025-02">Record created by Margherita TRENTO.</change><change when="2025-03">Revised and enlarged by Emmanuel FRANCIS. Version 1, March 2025.</change></revisionDesc></teiHeader>
    <facsimile>
    <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b52515659r/manifest.json" facs="0"/></facsimile>
 <text synch="#U1" corresp="#T1" xml:lang="ta"><body>
   <ab>
     
     <pb n="1r" facs="3"/>
-    <seg function="blessing"><cb n="1"/>
+    
+    <cb n="1"/>
+    <lb n="1"/><g ref="#pcl"/>
+    
+    <seg function="blessing"><cb n="2"/>
     <lb n="1"/>veṟṟivē
     <lb n="2" break="no"/>l uṟṟa tuṇai</seg>
 
-    <seg function="blessing"><cb n="2"/>
+    <seg function="blessing"><cb n="3"/>
     <lb n="1"/>kiṟi<seg rend="grantha">st</seg>tu
     <lb n="2"/>matam</seg>
   
-    <seg function="title"><cb n="3"/>
+    <seg function="title"><cb n="4"/>
     <lb n="1"/>Arulạppar
     <lb n="2"/>nāṭakam</seg>
+    
+    <seg function="title"><cb n="5"/>
+    <lb n="1"/><del rend="strikethrough">tirukkāvalūr</del>
+    <lb n="2"/><del rend="strikethrough">kalampakam</del></seg>
     
   </ab>  
 </body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
