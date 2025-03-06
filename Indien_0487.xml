@@ -24,7 +24,7 @@
                   <summary><p>This manuscript contains a poem on the life of the Indian convert and Saint <term xml:lang="ta">Tēvacakāyam Piḷḷai</term> (1712-1752), also known under his Christian name of Lazarus.  The poem belongs to one of the <foreign xml:lang="ta">ciṟṟilakkiyam</foreign> genres, the <foreign xml:lang="ta">maṇimālai</foreign>.</p> 
 <p>The manuscript is constituted by one unit single unit (U2) containing the text. The front guard folio (U1) was certainly added before 1845, since it contains on the left margin a shelfmark <quote>n° 4</quote> in black ink. Indeed, this manuscript is no. 4 in the catalogue by <foreign xml:lang="ta">Veḷāṅkaṇṇi Arōkkiyam</foreign> written in 1845, now NAF 5443 (see f2v). There is one guard folio at the end (U3) with a completion statement and a drawing.</p></summary>
                   
-               <msItem synch="#U2" xml:id="T1" defective="false"><title xml:lang="ta">Aruḷappār Nāṭakam: Mūlam</title><textLang mainLang="tam"/><filiation><p>This text exists in multiple manuscripts in India, and it has just recently been published for the first time (see the bibliography below). </p></filiation></msItem><msItem synch="#U3" xml:id="T2" defective="false"><title xml:lang="ta">Aruḷappār Nāṭakam: <term xml:lang="en">completion statement</term></title><textLang mainLang="tam"/></msItem></msContents>
+               <msItem synch="#U2a" xml:id="T1" defective="false"><title xml:lang="ta">Aruḷappār Nāṭakam: <term xml:lang="en">Invocation</term></title><textLang mainLang="tam"/></msItem><msItem synch="#U2b" xml:id="T2" defective="false"><title xml:lang="ta">Aruḷappār Nāṭakam: <term xml:lang="en">Main Text</term></title><textLang mainLang="tam"/><filiation><p>This text exists in multiple manuscripts in India, and it has just recently been published for the first time. </p></filiation></msItem><msItem synch="#U3" xml:id="T3" defective="false"><title xml:lang="ta">Aruḷappār Nāṭakam: <term xml:lang="en">Completion Statement</term></title><textLang mainLang="tam"/></msItem></msContents>
                <physDesc>
                   
                   
@@ -46,7 +46,7 @@
                               
                               
                            </dimensions>
-                        <dimensions type="object" unit="mm"><width quantity="465"/><height quantity="30"/></dimensions><dimensions type="written" unit="mm"/></extent><foliation>Tamil letter numerals on the left margin. Arabic numbers added recently in pencil on the right margin. </foliation><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. On the front board we find the BnF shelfmark sticker.</desc><desc xml:id="U1">1 folio/bifolio = <emph rend="bold">guard leaf</emph>. No foliation.</desc><desc xml:id="U2">1 folio = <emph rend="bold">Tēvacakāyacikāmaṇimālai</emph>. Tamil foliation {1}-87.</desc><desc xml:id="U3">1 folio/bifolio = <emph rend="bold">guard leaf</emph>. No foliation.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Excellent state of perservation. </condition></supportDesc>
+                        <dimensions type="object" unit="mm"><width quantity="465"/><height quantity="30"/></dimensions><dimensions type="written" unit="mm"/></extent><foliation>Tamil letter numerals on the left margin. Arabic numbers added recently in pencil on the right margin. </foliation><collation><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>. On the front board we find the BnF shelfmark sticker.</desc><desc xml:id="U1">1 bifolio = <emph rend="bold">guard leaf</emph>. No foliation.</desc><desc xml:id="U2">87 folios = <emph rend="bold">Tēvacakāyacikāmaṇimālai</emph>. Tamil foliation 1-87.</desc><desc xml:id="U2a">1 folio = <emph rend="bold">Tēvacakāyacikāmaṇimālai</emph>: Invocation. Tamil foliation 1.</desc><desc xml:id="U2b">86 folios = <emph rend="bold">Tēvacakāyacikāmaṇimālai</emph>: Main Text. Tamil foliation 2-87.</desc><desc xml:id="U3">1 bifolio = <emph rend="bold">guard leaf</emph>: Completion Statement. No foliation.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation><condition>Excellent state of perservation. </condition></supportDesc>
                      <layoutDesc>
                         
                      <layout writtenLines="4 6" columns="1">F1r contains several paratexts organized in three columns, but this is the only occurrence of such folio arrangement in the manuscript (which is otherwise in the <foreign xml:lang="la">scriptio continua</foreign> occupying the whole leaf). f87r contains a scribal colophon on the left margin, and is otherwise empty.</layout></layoutDesc>
@@ -80,7 +80,7 @@
       <change when="2025-02">Record created by Margherita TRENTO.</change></revisionDesc></teiHeader>
    <facsimile>
    <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b52515666t/manifest.json" facs="0"/></facsimile>
-<text synch="#U2" corresp="#T1" xml:lang="ta"><body>
+<text synch="#U2a" corresp="#T1" xml:lang="ta"><body>
   <ab>
     
     <pb n="1r" facs="5"/>
@@ -98,29 +98,37 @@
       <lb n="3" break="no"/>ālai <g ref="#pcs"/></seg>
     </fw>
     
-    <lb n="1-4"/><gap reason="ellipsis"/>
+    <seg function="incipit"><lb n="1"/>tiṅkaḷ vāṉakamum ~ pumiyum <gap reason="ellipsis"/></seg>
+    <lb n="2"/><gap reason="ellipsis"/>
+    <lb n="3"/><gap reason="ellipsis"/>
+    <lb n="4"/><gap reason="ellipsis"/>
+    <seg function="explicit"><lb n="5"/><gap reason="ellipsis"/> kāppāmē = <seg function="blessing">cēcunātar tuṇai y<pc>-</pc>irukka <g ref="#pcs"/></seg></seg>
     
-    <pb n="1v" facs="6"/><note>blank page</note>
+    <pb n="1v" facs="6"/><note>blank page</note>    
     
+  </ab>
+</body></text><text synch="#U2b" corresp="#T2" xml:lang="ta"><body>
+  <ab>
+        
      <pb n="2r" facs="7"/>
-    <lb n="1-5"/><gap reason="ellipsis"/>
+    <seg function="incipit"><lb n="1-5"/><gap reason="ellipsis"/></seg>
     
     <pb n="86v" facs="176"/>
     <lb n="1"/><gap reason="ellipsis"/>
-    <lb n="2"/><gap reason="ellipsis"/> = = = <seg function="completion-statement">muṟṟum = <g ref="#latin_cross"/> <g ref="#latin_cross"/> <g ref="#latin_cross"/></seg>
+    <seg function="explicit"><lb n="2"/><gap reason="ellipsis"/> = = = <seg function="completion-statement">muṟṟum = <g ref="#latin_cross"/> <g ref="#latin_cross"/> <g ref="#latin_cross"/></seg></seg>
     
     <pb n="87r" facs="177"/>
     <seg function="colophon">
       <cb n="1"/><lb n="1"/><num rend="traditional">1827</num> <g ref="#varuṣam"/> Āṇṭukku cellum
-      <lb n="2"/>caṟuvacit=t<unclear>u</unclear> <g ref="#varuṣam"/> mārkaḻi <g ref="#mācam"/> <num rend="traditional">28</num> <g ref="#tēti"/>
-      <lb n="3"/>putaṉ <del><gap reason="illegible" quantity="1" unit="character"/></del> <surplus>ṅ</surplus> kiḻamai <del><gap reason="illegible" quantity="4" unit="character"/></del> A
+      <lb n="2"/>caṟuvacit=<choice><sic>ti</sic><corr>tu</corr></choice> <g ref="#varuṣam"/> mārkaḻi <g ref="#mācam"/> <num rend="traditional">28</num> <g ref="#tēti"/>
+      <lb n="3"/>putaṉ<del>ṅ</del> <surplus>ṅ</surplus>kiḻamai <del>poḻutu</del> 8
       <lb n="4"/>maṇik<del>ku</del>ki mukintatu muṟṟum ~
       <lb n="5"/>Appācāmi</seg>
     
     <pb n="87v" facs="178"/><note>blank page</note>
 
   </ab>
-</body></text><text synch="#U3" corresp="#T2" xml:lang="ta"><body>
+</body></text><text synch="#U3" corresp="#T3" xml:lang="ta"><body>
   <ab>
     
     <pb n="[1]r" facs="179"/>
