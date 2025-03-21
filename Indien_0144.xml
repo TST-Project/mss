@@ -36,7 +36,7 @@
 <p>Dimensions assessed at the time of examination.</p></summary>
 
 						
-					<msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">bundle 1</term></title><textLang mainLang="tam" otherLangs="fra"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta"><term xml:lang="en">bundle 2</term></title><textLang mainLang="tam" otherLangs="fra"/></msItem></msContents>
+					<msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="ta"><term xml:lang="en">Bundle 1 (1736-1745)</term></title><textLang mainLang="tam" otherLangs="fra"/></msItem><msItem synch="#U2" xml:id="T2" defective="false"><title xml:lang="ta"><term xml:lang="en">Bundle 2 (1745-1746)</term></title><textLang mainLang="tam" otherLangs="fra"/></msItem></msContents>
 					<physDesc>
 						
 						
@@ -56,8 +56,8 @@
 										
 										
 									<width quantity="240"/><height quantity="355"/><depth quantity="40"/></dimensions>
-									<dimensions type="leaf" unit="mm"/><dimensions type="written" unit="mm"/></extent><foliation>Foliation in black pencil or in black ink.</foliation><collation>
-									<desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="u1">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. White paper. 215 x 340 mm. Blank recto verso. Element of binding.</desc><desc xml:id="U1">3 + 161 folios = <emph rend="bold">bundle 1</emph>. Blue paper. 225 x 350 mm. Foliation A-C, then 1-161.</desc><desc xml:id="U2">2 + 219 folios = <emph rend="bold">bundle 2</emph>. White yellowish paper. 220 x 345 mm. Foliation A-B, then 1-219.</desc><desc xml:id="u2">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. White paper. 220 x 345 mm. Blank recto verso. Element of binding.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>. </desc></collation><condition>Overall good state of preservation. Front cover is detached.</condition></supportDesc>
+									<dimensions type="leaf" unit="mm"><width min="215" max="225"/><height min="340" max="345"/></dimensions><dimensions type="written" unit="mm"/></extent><foliation>Foliation in black pencil or in black ink.</foliation><collation>
+									<desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="u1">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. White paper. 215 x 340 mm. Blank recto verso. Element of binding.</desc><desc xml:id="U1">3 + 161 folios = <emph rend="bold">Bundle 1 (1736-1745)</emph>. Blue paper. 225 x 350 mm. Foliation A-C, then 1-161.</desc><desc xml:id="U2">2 + 219 folios = <emph rend="bold">Bundle 2 (1745-1746)</emph>. White yellowish paper. 220 x 345 mm. Foliation A-B, then 1-219.</desc><desc xml:id="u2">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. White paper. 220 x 345 mm. Blank recto verso. Element of binding.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>. </desc></collation><condition>Overall good state of preservation. Front cover is detached.</condition></supportDesc>
 						<layoutDesc/></objectDesc><handDesc>
 
 							
@@ -84,7 +84,7 @@
 						
 						
 					<origin>
-							<origDate calendar="gregorian" notAfter="1851" notBefore="1850">Bundle 1 revised in May 1850. Bundle 2 revised in 1851. See colophons: U1, <locus facs="4">fBr</locus> and U2<locus facs="198">fBr</locus>.</origDate>
+							<origDate calendar="gregorian" notAfter="1851" notBefore="1850">Bundle 1 revised in May 1850. Bundle 2 revised in 1851. See colophons: U1, <locus facs="4">fBr</locus> and U2, <locus facs="198">fBr</locus>.</origDate>
 							<origPlace>South India, Pondicherry.</origPlace>
 						</origin><provenance><p>Copy commissioned by <persName role="commissioner" key="Ariel, Édouard">Édouard Ariel</persName>.</p></provenance><acquisition>
 							
@@ -155,7 +155,7 @@
     
     <pb facs="5" n="Cv"/><note xml:lang="en">blank page</note>
     
-    <pb facs="5" n="1r"/>
+    <pb facs="6" n="1r"/>
     
     <fw place="left-margin">
       <term xml:lang="fr"><lb n="1"/>horoscope d'Ananda
@@ -166,7 +166,7 @@
     </fw>
     
     <seg function="blessing"><lb n="1"/><g ref="#pcs"/> cupam a<seg rend="grantha">s·tu</seg></seg>
-    <seg function="incipit"><lb n="1"/>ceṉṉapaṭṭaṉam <gap reason="ellipsis"/></seg>
+    <seg function="incipit"><lb n="2"/>ceṉṉapaṭṭaṉam <gap reason="ellipsis"/></seg>
       
     </ab>
 </body></text><text synch="#U2" corresp="#T2" xml:lang="ta"><body>
@@ -175,7 +175,11 @@
   <pb facs="196" n="Ar"/>
  
       <seg function="title">
-        <lb n="1"/>...</seg>
+        <lb n="1"/>kurōtaṉa <g ref="#varuṣam"/> Āṉi <g ref="#mācam"/>
+        <lb n="2"/><num rend="traditional">21</num> <g ref="#tēti"/> kku
+        <lb n="3"/><num rend="traditional">1735</num>
+        <lb n="4"/>
+      </seg>
       
       <pb facs="197" n="Av"/><note xml:lang="en">blank page</note>
 
