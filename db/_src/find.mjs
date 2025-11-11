@@ -306,6 +306,7 @@ const find = {
             ['Bibliothèque nationale de France. Département des Manuscrits.','BnF'],
             ['Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky','Hamburg Stabi'],
             ['Biblioteca Apostolica Vaticana','Vatican'],
+            ['Bibliothèque municipale de Dole','BMD'],
             ['Bibliothèque nationale et universitaire de Strasbourg','Bnu Strasbourg'],
             ['Bibliothèque universitaire des langues et civilisations','BULAC'],
             ['Bodleian Library, University of Oxford','Oxford'],
