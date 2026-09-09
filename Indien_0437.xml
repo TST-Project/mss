@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><script xmlns="http://www.w3.org/1999/xhtml" src="../lib/js/xslt-polyfill.min.js"></script>
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -122,7 +120,7 @@
     <cb n="1"/>
     <lb n="1-4"/><gap reason="ellipsis"/>
   <seg function="explicit"><cb n="2"/>
-     <lb n="1"/><num rend="traditional">100</num> <num rend="traditional">100</num> <num rend="traditional">1000</num> kōṭi-k kalam <g ref="#pcs"/><app><note xml:lang="en" >that is, 100 by 100 by 1000 is a crore</note></app></seg>
+     <lb n="1"/><num rend="traditional">100</num> <num rend="traditional">100</num> <num rend="traditional">1000</num> kōṭi-k kalam <g ref="#pcs"/><app><note xml:lang="en">that is, 100 by 100 by 1000 is a crore</note></app></seg>
     <seg function="ownership-statement"><lb n="2"/><persName xml:lang="ta" role="owner">Appāccāmi</persName></seg>
     <seg function="title"><lb n="3"/>nellek=kam</seg>
 </ab>

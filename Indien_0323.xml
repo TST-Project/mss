@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><script xmlns="http://www.w3.org/1999/xhtml" src="../lib/js/xslt-polyfill.min.js"></script>
 	<teiHeader xml:lang="en">
 		<fileDesc>
 			<titleStmt>
@@ -21,8 +19,7 @@
 
 						<idno type="shelfmark">Indien 323</idno>
 						<idno type="alternate"><idno>Tamoul 323</idno><idno>Ariel</idno></idno>
-						<idno type="URI"
-							>https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103853f</idno>
+						<idno type="URI">https://archivesetmanuscrits.bnf.fr/ark:/12148/cc103853f</idno>
 						<idno type="URI">https://gallica.bnf.fr/ark:/12148/btv1b52518604g</idno>
 					</msIdentifier>
 					<msContents class="#STM">
@@ -33,8 +30,7 @@
 
 
 						<msItem synch="#U1" xml:id="T1" defective="false">
-							<title xml:lang="ta"><term xml:lang="en"
-								>Title Page (additional)</term></title>
+							<title xml:lang="ta"><term xml:lang="en">Title Page (additional)</term></title>
 							<textLang mainLang="tam"/>
 						</msItem>
 						<msItem synch="#U3" xml:id="T2" defective="false">
@@ -53,8 +49,7 @@
 									<!--measure unit="stringholes" quantity=""/-->
 								</support>
 								<extent>
-									<measure unit="folio" quantity="195"
-										>{1} + {1} + 192 + {1} (U1 + U2 + U3 + U4).</measure>
+									<measure unit="folio" quantity="195">{1} + {1} + 192 + {1} (U1 + U2 + U3 + U4).</measure>
 									<dimensions type="leaf" unit="mm"> </dimensions>
 									<dimensions type="object" unit="mm">
 
@@ -69,20 +64,8 @@
 
 
 								<collation>
-									<desc xml:id="U1">1 folio = <emph rend="bold"
-											>Title Page (additional)</emph>. No foliation. Single folio. Truncated. Verso blank.</desc><desc
-										xml:id="CoverFront">the <emph rend="bold"
-										>front cover</emph>.</desc><desc xml:id="U2">1 folio = <emph
-											rend="bold"
-										>guard leaf</emph>. No foliation. Blank recto verso.</desc><desc
-										xml:id="U3">192 folios = <emph rend="bold"><title
-												xml:lang="ta"
-										>Vacavapurāṇam</title>: Text</emph>. Tamil foliation 1-192. f23v, f32v, f67v blank. f1-f45, with an earlier foliation 89-133 crossed-out. 
-</desc><desc
-										xml:id="U4">1 folio = <emph rend="bold"
-										>guard leaf</emph>. No foliation. Blank recto verso.</desc><desc
-										xml:id="CoverBack">the <emph rend="bold"
-										>back cover</emph>.</desc></collation>
+									<desc xml:id="U1">1 folio = <emph rend="bold">Title Page (additional)</emph>. No foliation. Single folio. Truncated. Verso blank.</desc><desc xml:id="CoverFront">the <emph rend="bold">front cover</emph>.</desc><desc xml:id="U2">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso.</desc><desc xml:id="U3">192 folios = <emph rend="bold"><title xml:lang="ta">Vacavapurāṇam</title>: Text</emph>. Tamil foliation 1-192. f23v, f32v, f67v blank. f1-f45, with an earlier foliation 89-133 crossed-out. 
+</desc><desc xml:id="U4">1 folio = <emph rend="bold">guard leaf</emph>. No foliation. Blank recto verso.</desc><desc xml:id="CoverBack">the <emph rend="bold">back cover</emph>.</desc></collation>
 								<condition>Excellent state of preservation.</condition>
 							</supportDesc>
 							<layoutDesc>
@@ -94,28 +77,15 @@
 
 
 
-							<handNote synch="#U1" scope="minor" script="tamil" medium="incised soot"
-										><desc>Hand #1. <persName role="scribe"
-										>Ariel's title page scribe</persName>.</desc></handNote>
-							<handNote synch="#U3" scope="major" script="tamil" medium="incised soot"
-									><desc>Hand #2.</desc></handNote>
+							<handNote synch="#U1" scope="minor" script="tamil" medium="incised soot"><desc>Hand #1. <persName role="scribe">Ariel's title page scribe</persName>.</desc></handNote>
+							<handNote synch="#U3" scope="major" script="tamil" medium="incised soot"><desc>Hand #2.</desc></handNote>
 						</handDesc>
 						<additions>
-							<desc synch="#U1" type="shelfmark"
-									>Shelfmark in black ink: <quote>b/68</quote> (<locus facs="1"
-									>f[1]r</locus>).</desc><desc synch="#U1" type="documenting-note"
-										>BnF donation sticker <quote>DON N° <space type="vacat"
-									/></quote> (<locus facs="1">f[1]r</locus>).</desc><desc
-								synch="#CoverFront" type="shelfmark" subtype="cover front"
-									>BnF shelfmark sticker: <quote>INDIEN 323</quote> (<locus
-									facs="3">front cover, recto</locus>).</desc><desc synch="#U3"
-								type="intertitle" subtype="marginal left"
-								>Left-marginal chapter intertitles.</desc></additions>
+							<desc synch="#U1" type="shelfmark">Shelfmark in black ink: <quote>b/68</quote> (<locus facs="1">f[1]r</locus>).</desc><desc synch="#U1" type="documenting-note">BnF donation sticker <quote>DON N° <space type="vacat"/></quote> (<locus facs="1">f[1]r</locus>).</desc><desc synch="#CoverFront" type="shelfmark" subtype="cover front">BnF shelfmark sticker: <quote>INDIEN 323</quote> (<locus facs="3">front cover, recto</locus>).</desc><desc synch="#U3" type="intertitle" subtype="marginal left">Left-marginal chapter intertitles.</desc></additions>
 						<bindingDesc>
 							<binding>
 								<p>Original <material>wood</material> covers? Bevelled edges.</p>
-								<decoNote type="stringhole"><measure unit="stringhole" quantity="2"
-									/></decoNote>
+								<decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote>
 							</binding>
 						</bindingDesc>
 					</physDesc>
@@ -123,16 +93,10 @@
 
 
 						<origin>
-							<origDate calendar="gregorian" when="1847"
-									>Internally dated to March 24, 1847 CE and to the year <foreign
-									xml:lang="ta"
-									>pilavaṅka </foreign> of the Jovian cycle, that is, CE 1847-1848, 1787-1788, 1727-1728, etc. See colophon (U3, <locus
-									facs="390"
-								>f192v2</locus>). Dated to 1847 by Vinson in Vinson et al. (1866-) and by Cabaton (1912).</origDate>
+							<origDate calendar="gregorian" when="1847">Internally dated to March 24, 1847 CE and to the year <foreign xml:lang="ta">pilavaṅka </foreign> of the Jovian cycle, that is, CE 1847-1848, 1787-1788, 1727-1728, etc. See colophon (U3, <locus facs="390">f192v2</locus>). Dated to 1847 by Vinson in Vinson et al. (1866-) and by Cabaton (1912).</origDate>
 							<origPlace>South India, Pondicherry State, Pondicherry.</origPlace>
 						</origin>
-						<provenance><p>Owned by <persName role="collector" key="Ariel, Édouard"
-									>Édouard Ariel</persName> (1818-1854). Bequeathed by Édouard Ariel to Société Asiatique (Rosny 1868, p. 177).</p></provenance>
+						<provenance><p>Owned by <persName role="collector" key="Ariel, Édouard">Édouard Ariel</persName> (1818-1854). Bequeathed by Édouard Ariel to Société Asiatique (Rosny 1868, p. 177).</p></provenance>
 						<acquisition>
 							<p>Received, August 1st, 1866, from the Société Asiatique. —  See BnF, Département des Manuscrits, Inventaire 7 = dons : manuscrits et imprimés documentaires, 1848-1895, n° 1 à 3306: <ref target="https://gallica.bnf.fr/ark:/12148/btv1b104635317/f78">no. 1192</ref>.</p>
 						</acquisition>
@@ -140,14 +104,9 @@
 					<additional>
 						<listBibl>
 
-							<bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref
-									target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f65"
-									>p. 47, no. 323</ref>.</bibl>
-							<bibl>Rosny, Léon de. 1868. <title type="article"
-									>La bibliothèque tamoule de M. Ariel, de Pondichéry</title>. In: <title>Variétés orientales</title> (pp. 177‒224). Paris: Maisonneuve. </bibl>
-							<bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. 1866-. <title> Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref
-									target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f161"
-										>f. 73r, no. <del>299</del> 323</ref>. </bibl>
+							<bibl>Cabaton, Antoine. 1912. <title>Catalogue sommaire des manuscrits indiens, indo-chinois &amp; malayo-polynésiens</title>. Bibliothèque nationale. Département des manuscrits. Paris: E. Leroux. — See <ref target="http://gallica.bnf.fr/ark:/12148/btv1b10329763p/f65">p. 47, no. 323</ref>.</bibl>
+							<bibl>Rosny, Léon de. 1868. <title type="article">La bibliothèque tamoule de M. Ariel, de Pondichéry</title>. In: <title>Variétés orientales</title> (pp. 177‒224). Paris: Maisonneuve. </bibl>
+							<bibl>Vinson, Julien &amp; Feer, Léon &amp; s.n. 1866-. <title> Catalogue des manuscrits tamoul et télinga</title>. Manuscript, BnF Indien 577. — See <ref target="https://gallica.bnf.fr/ark:/12148/btv1b105375868/f161">f. 73r, no. <del>299</del> 323</ref>. </bibl>
 						</listBibl>
 					</additional>
 				</msDesc>
@@ -156,12 +115,7 @@
 		<encodingDesc>
 
 
-			<p><emph rend="bold"
-					>General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph
-					rend="bold"
-					>In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph
-					rend="bold"
-				>Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.            </p>
+			<p><emph rend="bold">General</emph> ― Unmarked length of <foreign>ō</foreign> and <foreign>ē</foreign> supplied. Unmarked <foreign>puḷḷi</foreign> supplied. Conjectural reading (text unclear) between parentheses. Supplied reading (text lost) between square brackets. Alternative readings separated by slash. <emph rend="bold">In transliteration</emph> ― Unmarked elided overshort <foreign>u</foreign> supplied as an apostrophe. Uppercase for initial vowels. Symbols between curly brackets. <emph rend="bold">Abbreviations</emph> ― c = column; f = folio; lf = library foliation; lm = left margin; r = recto; rm = right margin; u / U followed by a number = unit (codicological and/or textual); v = verso.            </p>
 		</encodingDesc>
 
 		<revisionDesc>
@@ -230,11 +184,7 @@
 						<lb n="1-3"/>nantiyupatēccarukkam ~ ~</seg>
 				</fw>
 				<pb facs="51" n="23r"/>
-				<lb n="6"/><gap reason="ellipsis"/> ~ 57 ~ <seg function="completion-statement"
-						>nanti<unclear reason="eccentric_ductus"
-						>yu</unclear>patēccarukkam ~ muṟṟum . <seg function="total-stanzas"
-							>Āka tiruviruttam ~ <num rend="traditional">232</num> ~ <g ref="#pcs"
-						/></seg></seg>
+				<lb n="6"/><gap reason="ellipsis"/> ~ 57 ~ <seg function="completion-statement">nanti<unclear reason="eccentric_ductus">yu</unclear>patēccarukkam ~ muṟṟum . <seg function="total-stanzas">Āka tiruviruttam ~ <num rend="traditional">232</num> ~ <g ref="#pcs"/></seg></seg>
 				<pb facs="52" n="23v"/><app><note xml:lang="en">blank page</note></app>
 				<pb facs="53" n="24r"/>
 				<fw place="left-margin">
