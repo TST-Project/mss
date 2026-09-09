@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0"><script xmlns="http://www.w3.org/1999/xhtml" src="../lib/js/xslt-polyfill.min.js"></script>
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -74,7 +72,7 @@ See <ref target="https://tst.hypotheses.org/1950">Li 2020.</ref>
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="gregorian" notAfter="1842"></origDate>
+                     <origDate calendar="gregorian" notAfter="1842"/>
                      
                   </origin>
                   <acquisition><p>The acquisition number 3095, given on the paper sleeve, corresponds to an entry in the registry of acquisitions dated 10 May 1842. This refers to a group of manuscripts bought from <q>Leclere libraire</q> (perhaps <persName role="seller">Henri-Adrien Leclère</persName>).</p></acquisition>
