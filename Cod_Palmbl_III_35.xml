@@ -1,4 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0"><script xmlns="http://www.w3.org/1999/xhtml" src="../lib/js/xslt-polyfill.min.js"></script>
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -21,15 +21,15 @@
                <msContents class="#STM">
 
 
-               <summary> The text begins with the Vairāgyaprakaraṇa and first the colophon in the manuscript found on folio <pb xmlns="http://www.tei-c.org/ns/1.0" n="10r" facs="16"/>
-<lb xmlns="http://www.tei-c.org/ns/1.0" n="2"/>  iti śrīvālmikiye vairāgyaprakaraṇannāmaprathamaḥ sargaḥ,  but actually the verse before the chapter colophon is from the 11th sarga of the published edition Yoga Vasistha Of Mahakavi Valmiki Vol. I Dr. Mahaprabhulal Goswami (Tara book Agency first edition 1988) and end of the chapter Ten according to the digital edition available on Gretil.
+               <summary> The text begins with the Vairāgyaprakaraṇa and first the colophon in the manuscript found on folio <pb n="10r" facs="16"/>
+<lb n="2"/>  iti śrīvālmikiye vairāgyaprakaraṇannāmaprathamaḥ sargaḥ,  but actually the verse before the chapter colophon is from the 11th sarga of the published edition Yoga Vasistha Of Mahakavi Valmiki Vol. I Dr. Mahaprabhulal Goswami (Tara book Agency first edition 1988) and end of the chapter Ten according to the digital edition available on Gretil.
 The information of the edition followed at the gretil is not available on the page. The same way the first verse of the manuscript is divi bhūmau… is according to the above mentioned edition is the beginning of the second sarga and according to the Gretil is the beginning of the first sarga of the  Vairāgyaprakaraṇa. 
 Apart from this it is found that the manuscript does not follow the order of the verses. It omits or it mixes number of verses from the chapters.  For example as the end of the first chapter has verses from the 10th chapter. Similarly on the last folio the new chapter begins with the verse number 9 from the 5th section of the Vasiṣṭha rāmāyaṇ which is known as Mumukṣuprakaraṇa. 
  Folio are not in order. Seems that some folio are missing. The manuscript has different order of the verses so Research is required to determine which recension of the Vasiṣṭha Rāmāyaṇ this manuscript belongs to.    </summary><msItem xml:id="yoga-vasishtha" defective="true"><title xml:lang="sa">Yoga Vāsiṣṭha</title><author xml:lang="sa">Vālmikīmuni</author><textLang mainLang="san"/><filiation><p>New Catalogus Catalogorum vol 22 p 97-99
-</p></filiation><incipit xml:lang="sa"><pb xmlns="http://www.tei-c.org/ns/1.0" n="1r" facs="7"/>
-<lb xmlns="http://www.tei-c.org/ns/1.0" n="1"/>divi bhūmau tathākāśe bahir antaś ca me vibhuḥ | yo 'vabhātyavabhāsātmā tasmai sarvātmane namaḥ ||
-</incipit><explicit xml:lang="sa"><pb xmlns="http://www.tei-c.org/ns/1.0" n="190v" facs="198"/>
-<lb xmlns="http://www.tei-c.org/ns/1.0" n="6"/> jñas tyaktāvidyo vimajjati|| yas tu vā bhāvitāsmāpi siddhijālāni vāñchati |
+</p></filiation><incipit xml:lang="sa"><pb n="1r" facs="7"/>
+<lb n="1"/>divi bhūmau tathākāśe bahir antaś ca me vibhuḥ | yo 'vabhātyavabhāsātmā tasmai sarvātmane namaḥ ||
+</incipit><explicit xml:lang="sa"><pb n="190v" facs="198"/>
+<lb n="6"/> jñas tyaktāvidyo vimajjati|| yas tu vā bhāvitāsmāpi siddhijālāni vāñchati |
 sa siddhisādhakair dravyais tāni sādhayati kramāt || dravyamantrakriyā</explicit></msItem></msContents>
                <physDesc>
                   
@@ -89,43 +89,43 @@ Tara book agency 1988
       </revisionDesc></teiHeader>
    <facsimile><graphic url="https://iiif.archive.org/iiif/cod-palmbl-iii-35b/manifest.json"/>
    </facsimile>
-<text corresp="#yoga-vasishtha" xml:lang="sa"><pb xmlns="http://www.tei-c.org/ns/1.0" n="1r" facs="7"/>
-<lb xmlns="http://www.tei-c.org/ns/1.0" n="1"/>divi bhūmau tathākāśe bahir antaś ca me vibhuḥ |yo 'vabhātyavabhāsātmā tasmai sarvātmane namaḥ ||
+<text corresp="#yoga-vasishtha" xml:lang="sa"><pb n="1r" facs="7"/>
+<lb n="1"/>divi bhūmau tathākāśe bahir antaś ca me vibhuḥ |yo 'vabhātyavabhāsātmā tasmai sarvātmane namaḥ ||
 aham baddho
-<pb xmlns="http://www.tei-c.org/ns/1.0" n="1r" facs="7"/>
-<lb xmlns="http://www.tei-c.org/ns/1.0" n="2"/> vimuktassyāmiti yasyāsti niścayaḥ |
+<pb n="1r" facs="7"/>
+<lb n="2"/> vimuktassyāmiti yasyāsti niścayaḥ |
 nātyantamajjño nātajjño no tajñaḥ sosmiñśāstre dhikāravān ||
 
-<pb xmlns="http://www.tei-c.org/ns/1.0" n="10r" facs="16"/>
-<lb xmlns="http://www.tei-c.org/ns/1.0" n="1"/>  tsyanti nādhayaḥ ||
+<pb n="10r" facs="16"/>
+<lb n="1"/>  tsyanti nādhayaḥ ||
 ity uktamasya sumate raghuvaṃśaheturākarṇya vākyamucitārthavilāsagarbham | tatyāja khedam abhigarjati vārivāhe barhī yathābhya
-<pb xmlns="http://www.tei-c.org/ns/1.0" n="10r" facs="16"/>
-<lb xmlns="http://www.tei-c.org/ns/1.0" n="2"/> numitābhimatārthasiddhiḥ  || iti śrīvālmikiye vairāgyaprakaraṇannāmaprathamaḥ sargaḥ,
+<pb n="10r" facs="16"/>
+<lb n="2"/> numitābhimatārthasiddhiḥ  || iti śrīvālmikiye vairāgyaprakaraṇannāmaprathamaḥ sargaḥ,
 
-<pb xmlns="http://www.tei-c.org/ns/1.0" n="190v" facs="198"/>
-<lb xmlns="http://www.tei-c.org/ns/1.0" n="1"/> sāñjanaṃ ca nirañjanam yat sarvaṃ cāpy asarvaṃ ca yatttvantad asau sthitaḥ ajam ajaram anādyam ādyam ekaṃ padam amalaṃ sakalaṃ ca niṣkalaṃ ca sthita iti sa tadā nabhassva
+<pb n="190v" facs="198"/>
+<lb n="1"/> sāñjanaṃ ca nirañjanam yat sarvaṃ cāpy asarvaṃ ca yatttvantad asau sthitaḥ ajam ajaram anādyam ādyam ekaṃ padam amalaṃ sakalaṃ ca niṣkalaṃ ca sthita iti sa tadā nabhassva
 
-<pb xmlns="http://www.tei-c.org/ns/1.0" n="190v" facs="198"/>
-<lb xmlns="http://www.tei-c.org/ns/1.0" n="2"/>  rūpād api vimalasthitir īśvaraḥ kṣaṇena | vimśaṃ varṣasahasrāṇi vibhāti sa yathāsukham . vītahavyaś śaśāmaivam apunarmanase muniḥ  || iti vāsiṣṭha
+<pb n="190v" facs="198"/>
+<lb n="2"/>  rūpād api vimalasthitir īśvaraḥ kṣaṇena | vimśaṃ varṣasahasrāṇi vibhāti sa yathāsukham . vītahavyaś śaśāmaivam apunarmanase muniḥ  || iti vāsiṣṭha
 
-<pb xmlns="http://www.tei-c.org/ns/1.0" n="190v" facs="198"/>
-<lb xmlns="http://www.tei-c.org/ns/1.0" n="3"/> rāmāyaṇe vītahavyopākhyānannāmāṣṭāviṃśatissarggaḥ … oṃ
+<pb n="190v" facs="198"/>
+<lb n="3"/> rāmāyaṇe vītahavyopākhyānannāmāṣṭāviṃśatissarggaḥ … oṃ
 
 śrīrāmajīvanmuktaśarīrāṇāṃ katham ātmavidāṃ vara |
 śaktayo ne
-<pb xmlns="http://www.tei-c.org/ns/1.0" n="190v" facs="198"/>
-<lb xmlns="http://www.tei-c.org/ns/1.0" n="4"/> ha dṛśyante ākāśagamanādikāḥ ||
+<pb n="190v" facs="198"/>
+<lb n="4"/> ha dṛśyante ākāśagamanādikāḥ ||
 vasiṣṭhaḥ
 anātmavidamukto 'pi nabhoviharaṇādikam |
 dravyamantrakriyākālaśaktyāpnoty eva rāghava ||
 nātmajñasyai
-<pb xmlns="http://www.tei-c.org/ns/1.0" n="190v" facs="198"/>
-<lb xmlns="http://www.tei-c.org/ns/1.0" n="5"/> va viṣaya ātmajño hy ātmamātra vfk? |
+<pb n="190v" facs="198"/>
+<lb n="5"/> va viṣaya ātmajño hy ātmamātra vfk? |
 ātmanātmani santṛpto nāvidyām anudhāvati ||
 ye kecana jagadbhāvās tān avidyāmāyān viduḥ |
 kathaṃ teṣu kilātma
-<pb xmlns="http://www.tei-c.org/ns/1.0" n="190v" facs="198"/>
-<lb xmlns="http://www.tei-c.org/ns/1.0" n="6"/> jñas tyaktāvidyo vimajjati|| yas tu vā bhāvitāsmāpi siddhijālāni vāñchati |
+<pb n="190v" facs="198"/>
+<lb n="6"/> jñas tyaktāvidyo vimajjati|| yas tu vā bhāvitāsmāpi siddhijālāni vāñchati |
 sa siddhisādhakair dravyais tāni sādhayati kramāt ||
 
 dravyamantrakriyā</text></TEI>
