@@ -2,7 +2,7 @@ import fs from 'fs';
 import jsdom from 'jsdom';
 import xmlserializer from 'xmlserializer';
 import SaxonJS from 'saxon-js';
-import { Transliterate } from './lib/js/transliterate.mjs';
+import { to } from './lib/js/transliterate.mjs';
 import { make, util } from './utils.mjs';
 
 const xsltSheet = fs.readFileSync('tei-to-html-snippet.sef.json',{encoding:'utf-8'});
@@ -30,7 +30,7 @@ const langize = (doc,el) => {
             else curlang = nodelang;
         }
         else if(curnode.nodeType === 3 && curlang.split('-')[1] === 'Deva') {
-            curnode.textContent = Transliterate.to.iast(curnode.textContent,'devanagari');    
+            curnode.textContent = to.iast(curnode.textContent,'devanagari');    
         }
         curnode = walker.nextNode();
     }
