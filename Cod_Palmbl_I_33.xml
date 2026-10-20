@@ -17,28 +17,40 @@
                   </repository>
                   <idno type="shelfmark">Cod. Palmbl. I 33</idno>
                   <idno type="alternate"><idno>35-3033</idno></idno>
+            <idno type="URI">https://resolver.sub.uni-hamburg.de/kitodo/PPN1905337167</idno>
                </msIdentifier>
                <msContents class="#STM">
                   <summary><p xml:lang="en">  It appears to be an unknown commentary on the <title xml:lang="sa">Rāmāyaṇa</title> but no colophon was found to confirm which commentary it is. The verse on the 10v corresponds to verse 14 of the 56th chapter of the second <term xml:lang="sa">kāṇḍa</term> of the <title xml:lang="sa">Rāmāyaṇa</title> and the verses on the 12th folio correspond to the end of verse 68 and verse 69 from the 49th chapter of the 4th <term xml:lang="sa">kāṇḍa</term> of the <title xml:lang="sa">Rāmāyaṇa</title>.  Foliation appears to be continuous, however a half-broken blank folio is to be found between folio 12 and 13. Some folios are damaged at their edges. There are some tiny wormholes.  Letters are quite faint, making it difficult to read at times.  One folio blank and partly shattered. Still, the foliation continues until folio 73. The manuscript ends abruptly.  First nine folios are missing. </p>
- <p xml:lang="en">Folios 71r-72v have some text written in Grantha.  The text goes:
-   <q rend="block" xml:lang="sa">
-<pb facs="77" n="71r"/> 
-<lb n="1"/>śrīmān veṅkaṭanāthāya namaḥ | hṛdi trigoñca tvāgur<gap reason="illegible" unit="akṣara" quantity="1"/>tti 
-<pb facs="79" n="72v"/> <lb n="2"/>ttā<gap reason="illegible" unit="akṣara" quantity="1"/> śrīni
-     vāsācārya śrīnivāsācārya titav<gap reason="illegible"/> keśavācārya <gap reason="illegible"/> dīpanthaṭha kopasvāmī || </q>
+              <p xml:lang="en">Folios <locus facs="149">71r</locus>-<locus facs="152">72v</locus> have some text written in Grantha.
 </p></summary>
                   
-               <msItem xml:id="ramayan" defective="true"><title xml:lang="sa"> Rāmāyaṇa   </title><author xml:lang="sa">Vālmikimuni</author><textLang mainLang="san"/><filiation><p>New Catalogus Catalogorum vol. 25 pp. 19–36</p></filiation><incipit xml:lang="sa"><pb facs="6" n="10r"/>
+               <msItem xml:id="ramayan" defective="true"><title xml:lang="sa"> Rāmāyaṇa   </title><author xml:lang="sa">Vālmikimuni</author><textLang mainLang="san"/><filiation><p>New Catalogus Catalogorum vol. 25 pp. 19–36</p></filiation><incipit xml:lang="sa"><pb facs="7" n="10r"/>
 <lb n="1"/> kausalyā vākyaṃ | vanavāsāya rāmasya pañcarātrodya gaṇyate | yaḥ śokahataharśāyāḥ pañcavarṣopama mameti | pañcarātrāgaṇyate ity anena pañcarātrayo gatāḥ idānīṃ 
 <lb n="2"/> ṣaṣṭho divas ityarthaḥ | tathoktaṃ </incipit><explicit xml:lang="sa"><pb facs="75" n="70r"/>
- <lb n="1"/> hārañca | tathā <gap unit="akṣara" quantity="1"/>bhogaṃ kau sujīvīktasūjītva prakāśakasvagūpa<gap unit="akṣara" quantity="1"/>ṇata<gap unit="akṣara" quantity="1"/>vāsarau śrāvaṇamiha<gap reason="illegible"/> <note xml:lang="en">half the line is not legible.</note></explicit></msItem></msContents>
+                <lb n="1"/> hārañca | tathā <gap unit="akṣara" quantity="1"/>bhogaṃ kau sujīvīktasūjītva prakāśakasvagūpa<gap unit="akṣara" quantity="1"/>ṇata<gap unit="akṣara" quantity="1"/>vāsarau śrāvaṇamiha<gap reason="illegible"/> <note xml:lang="en">half the line is not legible.</note></explicit></msItem>
+            <msItem defective="false">
+              <title>Unknown</title>
+              <textLang mainLang="tam"/>
+              <rubric xml:lang="sa">
+<pb facs="149" n="71r"/> 
+<lb n="1"/>śrīmān veṃkaṭāryyaḥ +
+              </rubric>
+              <incipit xml:lang="ta">
+<pb facs="149" n="71r"/> 
+                <lb n="1"/><gap reason="ellipsis"/><term xml:lang="sa">hṛdi | tri</term>roṇutuppil<gap reason="illegible" unit="akṣara" quantity="1"/>tti 
+              </incipit>
+              <explicit xml:lang="sa">
+                <pb facs="152" n="72v"/> <lb n="2"/><term xml:lang="ta">ttār</term> śrīnivāsācāryya<term xml:lang="ta">r</term> śrīnivāsācāryya<term xml:lang="ta">r</term> tinavi<gap reason="illegible"/> keśavācāryya<term xml:lang="ta">r</term> keśavācāryya<term xml:lang="ta">r tiruvaṭikaḷile</term> āśrayittā<term xml:lang="ta">r</term> śrīmadādi<unclear>vañcaṭha</unclear>kopasvāmi <g ref="#pcl"/>
+              </explicit>
+            </msItem>
+          </msContents>
                <physDesc>
                   
                   
                   
                   
                   
-               <objectDesc form="loose-leaf" rend="manuscript">
+               <objectDesc form="pothi" rend="manuscript">
                      <supportDesc material="palm-leaf">
                         
                         
@@ -65,7 +77,7 @@
                      <layoutDesc>
                         <layout columns="1" writtenLines="7 8" streams="1"/>
                      </layoutDesc>
-                  </objectDesc><handDesc><handNote scope="sole" script="grantha" medium="ink black incised"><desc>Good writing.</desc></handNote></handDesc><additions>
+                  </objectDesc><handDesc><handNote scope="sole" script="grantha tamil" medium="ink black incised"><desc>Good writing.</desc></handNote></handDesc><additions>
                   </additions><bindingDesc>
                      <binding>
                         
@@ -95,5 +107,5 @@
    <revisionDesc><change when="2023-04">Proofread by Riccardo Paccagnella</change><change when="2023-04">In the summary to which folio does: "one folio blank and partly shattered" refer to?
 Best, Riccardo</change></revisionDesc></teiHeader>
    <facsimile>
-   <graphic url="https://iiif.archive.org/iiif/cod-palmbl-i-33/manifest.json"/></facsimile>
+   <graphic url="https://iiif.sub.uni-hamburg.de/object/PPN1905337167/manifest"/></facsimile>
 </TEI>
