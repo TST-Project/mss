@@ -1,0 +1,94 @@
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><title xml:lang="sa">Amarakoṣa</title></title>
+            
+         <editor role="cataloguer"><persName>S. LAKSHMINARASIMHAM</persName><orgName>EFEO, Pondicherry</orgName></editor><editor role="cataloguer"><persName>Charles Li</persName><orgName>Universität Hamburg</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2026</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky</orgName>
+                  </repository>
+                  <idno type="shelfmark">Cod. Palmbl. I 102</idno>
+                  <idno type="alternate"><idno>35-3102</idno></idno>
+               </msIdentifier>
+               <msContents class="#STM">
+                  <summary>This manuscript contains the complete text of the <title xml:lang="sa">Amarakoṣa</title>, or <title xml:lang="sa">Nāmaliṅganuśāsana</title> lexicon, in three <term xml:lang="sa">kāṇḍa</term>s. </summary>
+                  
+               <msItem synch="#U1" xml:id="T1" defective="false"><title xml:lang="sa"> Amarakoṣa</title><author xml:lang="sa">Amarasiṃha</author><textLang mainLang="san"/><rubric xml:lang="sa"><pb n="1r" facs="11"/>
+<lb/>śubham astu |</rubric><incipit xml:lang="sa"><pb n="1r" facs="11"/>
+<lb/><gap reason="ellipsis"/>yasya jñānadayāsindhor a<del><gap reason="illegible" quantity="1" unit="character"/></del>gādhasyānaghā guṇāḥ |
+sevyatām akṣayo dhīrās sa śriyai cāmṛtāya ca || 1 ||
+samāhṛtyānyatantrāṇi saṃkṣiptaiḥ pratisaṃskṛ<lb/>taiḥ |
+saṃpūrṇam ucyate vargair nāmaliṃgānuśāsanaṃ || 2 ||</incipit><explicit xml:lang="sa"><pb n="110r" facs="233"/>
+<lb break="no"/>yogataḥ || ❈ || = ||
+</explicit><finalRubric xml:lang="sa"><pb n="110r" facs="233"/>
+<lb/><gap reason="ellipsis"/>iti liṃgādisaṃgrahavargaḥ || = || ❈ ||
+ity amarasiṃhakṛtau nāmaliṃgānuśāsane ||
+kāṃḍas tṛtīyas sāmānya<lb/>s sāṃga eva samarthitaḥ || = || || = || ❈ ||
+tṛtīyakāṃḍas samāptaḥ || ❈ || = ||</finalRubric><colophon xml:lang="sa"><pb n="110r" facs="233"/>
+<lb n="2"/><gap reason="ellipsis"/><seg function="blessing">|| = || śrīrāmāya namaḥ ||</seg> <lb/>plavaṃgavatsaramāghakṛṣṇapaṃcamyā<del>ṃ</del>m aśvatthanārāyaṇenedaṃ nāmaliṃgānuśāsanaṃ likhitaṃ || <seg function="blessing">śrīr astu ||</seg></colophon></msItem></msContents>
+               <physDesc>
+                  
+                  
+                  
+                  
+                  
+               <objectDesc form="pothi" rend="manuscript">
+                     <supportDesc material="palm-leaf palmyra">
+                        
+                        
+                        
+                        
+                        
+                     <support>
+                           
+                           
+                        </support><extent>
+                           <measure unit="folio" quantity="122">111 = 11 =122</measure>
+                           <dimensions type="leaf" unit="mm">
+                              <width quantity="400"/>
+                              <height quantity="38"/>
+                           </dimensions>
+                        <dimensions type="object" unit="mm"/><dimensions type="written" unit="mm"><width quantity="340"/><height quantity="25"/></dimensions></extent><foliation>Telugu numerals, left margin recto.</foliation><collation><desc xml:id="U1">Folios numbered 1-111.</desc></collation><condition>Good</condition></supportDesc>
+                     <layoutDesc>
+                        <layout writtenLines="6"/>
+                     </layoutDesc>
+                  </objectDesc><handDesc><handNote synch="#U1" scope="sole" script="telugu" scriptRef="#valapalagilaka" medium="black incised"><desc>The scribe gives his name as <persName role="scribe">Aśvatthanārāyaṇa</persName>.</desc></handNote></handDesc><decoDesc>
+                  </decoDesc><additions>
+                  </additions><bindingDesc>
+                     <binding><decoNote type="stringhole"><measure unit="stringhole" quantity="2"/></decoNote></binding>
+                  </bindingDesc></physDesc>
+               <history>
+                  
+                  
+                  
+               <origin>
+                     <origDate calendar="gregorian" when="1847">The scribe gives the date as the <term xml:lang="sa">Plavaṅga</term> year, month of <term xml:lang="sa">Māgha</term>, <term xml:lang="sa">Kṛṣṇa</term> 5. If this manuscript is from the 19th century, then the date would refer to 1847 CE.</origDate>
+                     
+                  </origin></history>
+               <additional>
+                  <listBibl>
+                     
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         
+      <p>IAST transliteration. Some information has taken from VOHD.</p></encodingDesc>
+      
+   <revisionDesc>
+         
+      </revisionDesc></teiHeader>
+   <facsimile>
+   <graphic url="https://iiif.sub.uni-hamburg.de/object/PPN1919997512/manifest"/></facsimile>
+</TEI>
